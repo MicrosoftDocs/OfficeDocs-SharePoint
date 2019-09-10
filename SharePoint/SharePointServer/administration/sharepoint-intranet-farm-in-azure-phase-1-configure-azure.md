@@ -125,9 +125,6 @@ First, start an Azure PowerShell prompt and login to your account.
 Connect-AzAccount
 ```
 
-> [!TIP]
-> For a text file that contains all of the PowerShell commands in this article and a Microsoft Excel configuration workbook that generates ready-to-run PowerShell command blocks based on your custom settings, see the [SharePoint Server 2016 High Availability Farm in Azure Deployment Kit](https://gallery.technet.microsoft.com/SharePoint-Server-2016-3d3d9071). 
-  
 Get your subscription name using the following command.
   
 ```
