@@ -53,8 +53,6 @@ Recall that you defined Table M in [SharePoint Intranet Farm in Azure Phase 2: C
   
 First, you create an Azure internal load balancer for the two virtual machines running SQL Server. When you have supplied all the correct values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
   
-> [!TIP]
-> For a text file that contains all of the PowerShell commands in this article and a Microsoft Excel configuration workbook that generates ready-to-run PowerShell command blocks based on your custom settings, see the [SharePoint Server 2016 High Availability Farm in Azure Deployment Kit](https://gallery.technet.microsoft.com/SharePoint-Server-2016-3d3d9071). 
   
 ```
 # Set up key variables
