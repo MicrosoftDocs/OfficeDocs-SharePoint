@@ -35,7 +35,7 @@ The following table shows the differences between sharing with external users wi
 |Can access shared files and folders  <br/> |Yes  <br/> |Yes  <br/> |
 |Verify access by…  <br/> |Signing in to Office 365  <br/> |Entering a time-sensitive and single-use code sent to the email address that the file or folder was share with  <br/> |
 |Actions are audited  <br/> |Yes  <br/> |Yes  <br/> |
-|Can have friendly name  <br/> |Yes  <br/> |Friendly name is the email address that the file or folder was share with  <br/> |
+|Can have friendly name  <br/> |Yes  <br/> |Friendly name is the email address that the file or folder was shared with  <br/> |
 |Can be Group members  <br/> |Yes  <br/> |No  <br/> |
 |Can edit in Word, Excel, PowerPoint, or other Office 365 apps  <br/> |Yes  <br/> |No  <br/> |
 |Access controlled by AAD conditional access policies  <br/> |Yes  <br/> |No  <br/> |

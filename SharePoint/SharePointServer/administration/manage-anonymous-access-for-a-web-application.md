@@ -19,7 +19,10 @@ description: "Learn how to grant or deny anonymous access to a web application i
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 You can enable or disable anonymous access for a web application. If you enable anonymous access for a web application, site administrators can then grant or deny anonymous access at the site collection, site, or item level. If anonymous access is disabled for a web application, no sites within that web application can be accessed by anonymous users. 
-  
+
+    > [!NOTE]
+    > Both classic and modern experience sites support anonymous access.
+
 The following permission policies can be specified for anonymous users:
   
 - **None:** No policy is specified. This setting gives anonymous users the same default permissions available to NT AUTHORITY\Authenticated Users and All Authenticated Users. 
