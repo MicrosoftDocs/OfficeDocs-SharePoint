@@ -31,8 +31,8 @@ The following topics are outside the focus of this presentation:
 - Setting up core infrastructure (AD, DNS, AD Connect, SCCM)
 - Third-party tools and/or custom applications integration
 
-[Download the PDF](media/OneDrive-for-Business-KFM.pdf)
+[Download the PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/OneDrive/media/OneDrive-for-Business-KFM.pdf?raw=true)
 
-[Download the PowerPoint Presentation](media/OneDrive-for-Business-KFM.pptx)
+[Download the PowerPoint Presentation](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/OneDrive/media/OneDrive-for-Business-KFM.pptx?raw=true)
 
 ![OneDrive for Business Known Folder Move (KFM)](media/OneDrive-for-Business-KFM.png)
