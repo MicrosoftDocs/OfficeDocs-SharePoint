@@ -35,7 +35,12 @@ For information about how conditional access works, see:
 
 We recommend using this feature together with [silent account configuration](use-silent-account-configuration.md) for the best experience. The OneDrive sync client will automatically use ADAL, and will support both device-based and location-based conditional access policies.
 
-If you set up the OneDrive sync client without using the [OneDrive Group Policy objects](use-group-policy.md) or changing the corresponding registry keys, it won't support device-based conditional access. Multi-factor authentication policies will work, but the sync client won't display an explanation to users who are blocked by location-based policies.
+If you don't use silent account configuration, set the EnableADAL registry key:
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive] 
+"EnableADAL"=dword:1
+
+Setting this registry key enables the OneDrive sync client to support device-based conditional access. Multi-factor authentication policies will work, but the sync client won't display an explanation to users who are blocked by location-based policies.
   
 ## Known issues
 
