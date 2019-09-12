@@ -37,12 +37,16 @@ The new OneDrive sync client can be used with SharePoint Server 2019, but not ea
 > [!IMPORTANT]
 > If your users are currently using the OneDrive for Business sync client (Groove.exe), and you want to move them to the OneDrive sync client, see [Transition from the previous OneDrive for Business sync client](transition-from-previous-sync-client.md) before proceeding.  
 
+### Make sure that WNS is set up correctly
+
+The OneDrive sync client uses Windows Push Notification Services (WNS) for optimum performance and battery life. Make sure you allow access from your network to the [endpoints that OneDrive uses](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
+ 
 ### Check if users already have the OneDrive sync client
 
 If the computers in your organization are running Windows 10, they already have the new sync client installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync client. 
 
 > [!NOTE]
-> Office is installed per machine, whereas OneDrive needs to be installed per user. If you plan on deploying Office to your organization, you will need to deploy OneDrive.exe separately for additional users on individual machines.
+> Office is installed per machine, whereas OneDrive is installed per user by default. [Learn about installing OneDrive per machine](per-machine-installation.md)
   
 ### Deploy any administrative settings
 
