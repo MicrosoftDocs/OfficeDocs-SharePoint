@@ -23,7 +23,7 @@ The Modern experience in SharePoint is designed to be compelling, flexible and m
 
 ## Information architecture and hub sites
 
-Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. In the modern SharePoint experience, every site is a site collection and all can be associated to a hub site which is a flat structure of sites that share navigation, branding, and other elements. This type of structure is far more flexible and adaptive to the changing needs of your organization. [Learn about how to plan for Hub sites](planning-hub-sites.md).
+Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. In the modern SharePoint experience, every site is a site collection and all can be associated with a hub site which is a flat structure of sites that share navigation, branding, and other elements. This type of structure is far more flexible and adaptive to the changing needs of your organization. [Learn about how to plan for Hub sites](planning-hub-sites.md).
 
 ## Navigation
 
