@@ -23,6 +23,16 @@ description: "Learn about sharing and permissions in the SharePoint modern exper
 
 ## Hub site permissions
 
+Hub site owner defines the shared experiences for hub navigation and theme. Hub site members create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on individual sites.
+
+admin must specify users who can add sites to hub
+
+connected site perms are managed separately
+
+perms to hub site depend on whether group-connected or not
+
+
+
 ## Communication site permissions
 
 ## Team site permissions and Office 365 Groups
@@ -36,6 +46,22 @@ description: "Learn about sharing and permissions in the SharePoint modern exper
 ## Managing permissions with security groups
 
 ## SharePoint and OneDrive integration with Azure AD B2B (Preview)
+
+
+Azure AD B2B provides authentication and management of guest users. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
+
+With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. This feature provides an upgraded experience from the existing [secure external sharing recipient experience](https://docs.microsoft.com/sharepoint/what-s-new-in-sharing-in-targeted-release). 
+
+Enabling the preview does not change your sharing settings. For example, if you have site collections where external sharing is turned off, it will remain off.
+
+SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is currently in preview. After preview, this feature will replace the ad-hoc external sharing experience used in OneDrive and SharePoint today for all tenants.
+
+Advantages of Azure AD B2B include:
+- Invited external users are each given an account in the directory and are subject to Azure AD access policies such as multi-factor authentication.
+- Invitations to a SharePoint site use Azure AD B2B and no longer require users to have or create a Microsoft account.
+- If you have configured Google federation in Azure AD, federated users can now access SharePoint and OneDrive resources that you have shared with them.
+- SharePoint and OneDrive sharing is subject to the Azure AD organizational relationships settings, such as **Members can invite** and **Guests can invite**.
+
 
 [SharePoint and OneDrive integration with Azure AD B2B (Preview)](sharepoint-azureb2b-integration-preview.md)
 
