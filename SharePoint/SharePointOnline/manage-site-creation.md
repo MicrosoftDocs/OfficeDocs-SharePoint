@@ -24,8 +24,6 @@ description: "Learn how to allow or prevent users from creating their own sites 
 
 As a global or SharePoint admin in Office 365, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and [Office 365 group-connected team sites](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
   
-Some functionality is introduced gradually to organizations that have signed up for the [Targeted release option](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see this feature or it might look different than what is described in this article.
-
 >[!NOTE]
 >Disabling site creation for users does not remove their ability to create Office 365 groups or resources, such as Microsoft Teams, which rely on a group. When an Office 365 group is created, a SharePoint site is also created. To restrict creation of Office 365 groups and the resources that rely on groups see [Manage who can create Office 365 Groups](/office365/admin/create-groups/manage-creation-of-groups).
   
