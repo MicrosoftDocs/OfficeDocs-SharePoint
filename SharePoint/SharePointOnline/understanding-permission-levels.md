@@ -103,7 +103,7 @@ You can make changes to any of the default permissions levels, except **Full Con
 
 
 > [!IMPORTANT]
-> Only members on "Company Administrator" or "Group Owners" groups are the only capable of assigning permissions inside a brand new site. If you are a member of the Sharepoint Site, you will also be able to "invite" or "share" the site with internal/external users. 
+> Only members of **Company Administrator** or **Group Owners** groups may assign permissions to a brand new site. If you are a member of the SharePoint Site, you will also be able to **invite** or **share** the site with internal/external users. 
 
 To learn more about "Everyone except external users" permission, see [Special SharePoint Groups](https://docs.microsoft.com/sharepoint/default-sharepoint-groups#special-sharepoint-groups)
   
