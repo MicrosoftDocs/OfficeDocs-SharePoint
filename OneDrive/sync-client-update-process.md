@@ -20,7 +20,7 @@ description: "Learn about the Production and Enterprise rings for OneDrive sync 
 
 # The OneDrive sync client update process
 
-This article is for IT admins who manage the new OneDrive sync client in an enterprise environment. It explains how we release updates to the Windows sync client and the standalone Mac sync client through rings of validation, and how the sync client (OneDrive.exe) checks for updates.
+This article is for IT admins who manage the new OneDrive sync client in an enterprise environment. It explains how we release updates to the Windows sync client and the standalone Mac sync client through rings of validation, and how the sync client (OneDrive.exe) checks for updates. Note that if OneDrive is deployed alongside Office (via the Office Deployment Tool or some other means), OneDrive will continue to check for updates independent of any Office update restrictions your administrator may have deployed.
   
 > [!NOTE]
 > If you allow your users to sync personal OneDrive accounts, the update process described in this article and any settings you select apply to all instances of the sync client.<br>The sync client installed from the Mac App Store follows a separate update process. After we finish rolling out updates within the Production ring, we publish them to the Mac App Store, where they're immediately released to everyone. 
