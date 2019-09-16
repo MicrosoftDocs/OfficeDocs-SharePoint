@@ -71,7 +71,7 @@ You create and manage term sets by using the Term Store Management Tool. For inf
   
 - [Set up a new term set](https://docs.microsoft.com/sharepoint/set-up-new-term-set)
     
-- [Create and manage terms in a term set](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-and-manage-terms-in-a-term-set-HA102771989.aspx?CTT=1)
+- [Create and manage terms in a term set](https://docs.microsoft.com/sharepoint/create-and-manage-terms)
     
 After you have created a term set, you have to make it available for tagging content. If you used the Product Catalog Site Collection template to create the authoring site collection, and you have created a term set in this site collection, you do not have to do this operation. By default, new term sets created in the Product Catalog site collection are available for tagging content.
   
