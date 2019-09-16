@@ -37,7 +37,7 @@ When the report is finished running you will receive an email with a link to the
 
 For items shared with direct access, the report contains one row for each user / item combination.
 
-For items shared with a link, the report contains a row for the link itself and a row for each user who has used that link.
+For items shared with a link, the report contains a row for each signed-in user who has used the link or has been sent the link through the sharing dialog box. Links emailed directly that haven't been clicked, and *Anyone* links are not included in the report.
 
 The report contains the following columns:
 
@@ -47,7 +47,7 @@ The report contains the following columns:
 |Item Type|The type of item (web, folder, file, etc.)|
 |Permission|The permission level the user has on this item|
 |User Name|Friendly name of the user or group that has access to this item. If this is a sharing link, the user name is *SharingLink*|
-|User E-mail|The email address of the user who has access to this item. This is blank for groups.|
+|User E-mail|The email address of the user who has access to this item. This is blank for SharePoint groups.|
 |User or Group Type|The type of user or group: Member (internal), Guest (external), SharePoint group, Security group or Office 365 group. (Note that *Member* refers to a member in the directory, not a member of the site.)|
 |Link ID|The GUID of the sharing link if user name is *Sharing Link*|
 |Link Type|The type of link (Anonymous, Company, Specific People) if user name is *Sharing Link*|
