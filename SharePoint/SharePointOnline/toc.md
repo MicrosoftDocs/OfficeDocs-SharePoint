@@ -52,7 +52,7 @@
 ### [Change external sharing for a site](change-external-sharing-site.md)
 ### [Default SharePoint groups](default-sharepoint-groups.md)
 ### [Change default sharing link](change-default-sharing-link.md)
-### [Report on guest sharing](sharing-reports.md)
+### [Report on sharing](sharing-reports.md)
 ### [SharePoint and OneDrive error messages](sharepoint-onedrive-error-message.md)
 ### [B2B extranet]()
 #### [Overview](create-b2b-extranet.md)
