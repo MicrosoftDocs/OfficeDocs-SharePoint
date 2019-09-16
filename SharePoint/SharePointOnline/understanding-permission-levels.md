@@ -101,7 +101,6 @@ You can make changes to any of the default permissions levels, except **Full Con
 > [!NOTE]
 > Office 365 plans create a security group called "Everyone except external users" that contains every person you add into the Office 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Office 365 can access and edit the SharePoint Online site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Office 365 plans create a security group called "Company Administrators", which contains Office 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more information, please see [Default SharePoint groups](/sharepoint/default-sharepoint-groups). 
 
-
 > [!IMPORTANT]
 > Only members of **Company Administrator** or **Group Owners** groups may assign permissions to a brand new site. If you are a member of the SharePoint Site, you will also be able to **invite** or **share** the site with internal/external users. 
 
