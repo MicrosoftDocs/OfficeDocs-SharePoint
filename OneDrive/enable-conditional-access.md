@@ -40,7 +40,7 @@ If you don't use silent account configuration, set the EnableADAL registry key:
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive] 
 "EnableADAL"=dword:1
 
-Setting this registry key enables the OneDrive sync client to support device-based conditional access. Multi-factor authentication policies will work, but the sync client won't display an explanation to users who are blocked by location-based policies.
+Setting this registry key configures the OneDrive sync client to use ADAL directly.
   
 ## Known issues
 
