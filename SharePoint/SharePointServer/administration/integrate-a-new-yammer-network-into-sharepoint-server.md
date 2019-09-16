@@ -37,7 +37,7 @@ Yammer Enterprise is included in many Office 365 plans, which means that you mig
   
 ## Step 2: Create your Yammer network
 
-To set up a Yammer network, see [Yammer admin help](https://docs.microsoft.com/en-us/yammer/yammer-landing-page.md).
+To set up a Yammer network, see [Yammer admin help](https://docs.microsoft.com/yammer/yammer-landing-page).
   
 When you set up your network, [enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042).
   
