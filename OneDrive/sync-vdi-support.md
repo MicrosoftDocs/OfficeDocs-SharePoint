@@ -30,7 +30,7 @@ The sync client also supports non-persistent environments that have [FSLogix App
 
 - Windows 10, 32 or 64-bit (supports VHDX files) 
 - Windows 7, 32 or 64-bit (supports VHD files) 
-- Windows Server 2016 R2 or Windows Server 2012 R2 (both support VHDX)
+- Windows Server 2016 or Windows Server 2012 R2 (both support VHDX)
 - Windows Server 2008 R2 (supports VHD)
 
  Using the OneDrive sync client with non-persistent environments requires that you [install the sync client per machine](https://docs.microsoft.com/onedrive/per-machine-installation).
