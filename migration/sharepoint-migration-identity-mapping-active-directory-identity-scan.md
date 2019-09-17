@@ -9,7 +9,9 @@ audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.assetid: 772cd4ed-6ed6-42b5-abe1-01dddcd8b6df
+ms.collection:
+-SPmigration
+-M365-collaboration
 
 ---
 

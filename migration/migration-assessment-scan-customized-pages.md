@@ -13,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 55004bf2-5b96-4272-8f8f-970672fc84d4
 description: "Learn how to mitigate issues with Customized Pages during migration."
