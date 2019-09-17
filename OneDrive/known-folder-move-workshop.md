@@ -1,5 +1,5 @@
 ---
-title: "OneDrive for Business Known Folder Move (KFM) Workshop"
+title: "Known Folder Move workshop"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -14,25 +14,22 @@ ms.collection:
 search.appverid:
 - ODB160
 - MET150
-description: "Learn more about OneDrive for Business Known Folder Move (KFM) and how to deploy it."
+description: "Learn about the options for deploying OneDrive Known Folder Move."
 ---
 
-# OneDrive for Business Known Folder Move (KFM) Workshop
+# Known Folder Move workshop
 
-This article provides guidance on how you can roll out OneDrive KFM:
+This workshop provides guidance on how you can roll out OneDrive Known Folder Move:
 
-- Deploy OneDrive client and log installation
-- Define OneDrive policy to enable KFM
-- Check compliance on managed devices and remediate KFM settings
-- Report on OneDrive deployment and configuration
+- Plan for common challenges
+- Requirements for each deployment option
+- Deploy using Active Directory and Group Policy objects, SCCM, or Intune
+- Monitor device eligibility, known folder details, move status, and Group Policy object state
 
-The following topics are outside the focus of this presentation:
-
-- Setting up core infrastructure (AD, DNS, AD Connect, SCCM)
-- Third-party tools and/or custom applications integration
+The workshop assumes that you've already set up core infrastructure (Active Directory, DNS, AD Connect, SCCM) and doesn't cover third-party tools or custom applications integration.
 
 [Download the PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/OneDrive/media/OneDrive-for-Business-KFM.pdf?raw=true)
 
-[Download the PowerPoint Presentation](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/OneDrive/media/OneDrive-for-Business-KFM.pptx?raw=true)
+[Download the PowerPoint presentation](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/OneDrive/media/OneDrive-for-Business-KFM.pptx?raw=true)
 
-![OneDrive for Business Known Folder Move (KFM)](media/OneDrive-for-Business-KFM.png)
+![Ways to deploy Known Folder Move](media/OneDrive-for-Business-KFM.png)
