@@ -161,7 +161,7 @@ To block or limit access to specific sites, you must set the organization-wide p
     To update multiple sites at once, use the following command as an example:
 
     ```PowerShell
-    ,(Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.spgrid.com/personal/") | Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
+    ,(Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/") | Set-SPOSite -ConditionalAccessPolicy AllowLimitedAccess
     ```
 
     This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request.
