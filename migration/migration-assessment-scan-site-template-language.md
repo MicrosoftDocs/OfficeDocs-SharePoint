@@ -14,9 +14,6 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
-- ms.custom:
-ms.assetid: 5c3bd96b-4b2c-4c65-8950-ae19c9ec7429
-
 ---
 
 # Migration Assessment Scan: Site Template Language

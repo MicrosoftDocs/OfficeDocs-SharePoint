@@ -12,8 +12,6 @@ localization_priority: Priority
 ms.collection:
 -SPMigration
 -M365-collaboration
-ms.custom:
-ms.assetid: 5bf2619b-14fd-421c-8b84-869743f1eca2
 description: "Learn more about preparing your data for migration."
 ---
 

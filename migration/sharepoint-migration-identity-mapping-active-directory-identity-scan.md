@@ -1,6 +1,5 @@
 ---
 title: "SharePoint Migration Identity Mapping Active Directory Identity Scan"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -12,7 +11,6 @@ localization_priority: Normal
 ms.collection:
 -SPmigration
 -M365-collaboration
-
 ---
 
 # SharePoint Migration Identity Mapping: Active Directory Identity Scan

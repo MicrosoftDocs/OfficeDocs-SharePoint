@@ -1,6 +1,5 @@
 ---
 title: "SharePoint Migration Identity Mapping Tool"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
