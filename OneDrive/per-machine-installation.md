@@ -25,7 +25,7 @@ By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs 
 
 The new per-machine sync app provides:
 
-- Automatic transitioning from the previous OneDrive sync client (Groove.exe)
+- Automatic transitioning from the previous OneDrive sync app (Groove.exe)
 - Automatic conversion from per-user to per-machine
 - Automatic updates when a new version is available
 
@@ -34,7 +34,7 @@ The per-machine sync app supports syncing OneDrive and SharePoint files in Micro
 ## Requirements
 
 - All Windows versions supported by the sync app. [Learn more](https://support.office.com/article/onedrive-system-requirements-cc0cb2b8-f446-445c-9b52-d3c2627d681e)
-- Sync client build 19.043.0304.0006 or later. For info about which sync app build is available in each ring, see [New OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+- Sync app build 19.043.0304.0006 or later. For info about which sync app build is available in each ring, see [New OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
 - To apply sync app updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs. They are also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
   
@@ -55,7 +55,7 @@ No, although a single version of OneDrive.exe is installed, a new process is cre
 **Will the same update rings apply to per-machine?** 
 If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you will continue to be in the same ring as before. 
  
-In the past you may have used a user group policy (under HKCU) to select the Enterprise ring ([Receive OneDrive sync client updates on the Enterprise ring](https://docs.microsoft.com/en-us/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy will not work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync client update ring](use-group-policy.md#GPOSetUpdateRing)).
+In the past you may have used a user group policy (under HKCU) to select the Enterprise ring ([Receive OneDrive sync app updates on the Enterprise ring](https://docs.microsoft.com/en-us/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy will not work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing)).
 
 > [!NOTE]
 > We do not recommend selecting the Enterprise ring while this feature is in preview because you will not receive bug fixes for any issues we find.  
