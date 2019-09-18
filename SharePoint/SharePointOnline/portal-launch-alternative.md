@@ -36,7 +36,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/711c4c19-dcbb-4d2a-a48a-f33035c28994.png" alt="Small business training"/>
+                            <img src="../media/test-pic.png" alt="Small business training"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -55,7 +55,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/df56cbae-7c00-471d-bcc8-4f4bcb8d99f5.png" alt="Go to a Microsoft store"/>
+                            <img src="../media/test-pic.png" alt="Go to a Microsoft store"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -74,7 +74,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/smbtrendingwidget2.png" alt="What's trending"/>
+                            <img src="../media/test-pic.png" alt="What's trending"/>
                         </div>
                     </div>
                     <div class="cardText">
