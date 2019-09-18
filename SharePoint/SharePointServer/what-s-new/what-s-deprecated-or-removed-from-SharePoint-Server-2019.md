@@ -58,7 +58,7 @@ To ensure that users receive highly relevant help content, Microsoft is moving f
 
 ### Groove Sync Client
 
-The Groove sync client is our client for syncing documents between your personal devices and SharePoint Server 2010, 2013, and 2016 Team sites. SharePoint Server 2019 introduces support for the new OneDrive Sync Client (a.k.a. the Next Generation Sync Client), which provides a more reliable and feature-rich syncing experience. If Groove detects that your existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, it will attempt to migrate those sync relationships to the OneDrive Sync Client. Administrators can control this migration experience.
+The Groove sync client is our client for syncing documents between your personal devices and SharePoint Server 2010, 2013, and 2016 Team sites. SharePoint Server 2019 introduces support for the new OneDrive Sync app (a.k.a. the Next Generation Sync Client), which provides a more reliable and feature-rich syncing experience. If Groove detects that your existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, it will attempt to migrate those sync relationships to the OneDrive sync app. Administrators can control this migration experience.
 
 The Groove sync client will remain supported, but deprecated, for the SharePoint Server 2019 release.
 

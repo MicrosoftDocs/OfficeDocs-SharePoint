@@ -13,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 43ca2e32-1ed7-4a4b-a575-7573b435594b
 description: "Learn about issues with checked-out files during data migration."
