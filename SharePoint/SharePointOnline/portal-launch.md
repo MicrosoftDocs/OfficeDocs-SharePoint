@@ -42,32 +42,34 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
  
  
 ## Guidance 
-This set of guidance will walk you through: 
-o	Planning your site 
-o	Networking planning 
-o	Site configuration 
-o	Web part usage and configuration 
-o	Caching strategies 
-o	Site validation (page diagnostics tool) 
-o	Engaging with Microsoft to plan the launch 
-o	Staged rollout plans 
+This set of guidance will walk you through best practices and recommendations before you launch.
+ 
+- Planning your site 
+- Networking planning 
+- Site configuration 
+- Web part usage and configuration 
+- Caching strategies 
+- Site validation (page diagnostics tool) 
+- Engaging with Microsoft to plan the launch 
+- Staged rollout plans 
  
 
   
 ||**What is it**|**Do this**|
 |:-----|:-----|:-----|
+|![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/layout-navigation-blue-32.png "Look and feel")|Planning your site design||</br>
 |![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Limitations")|Recommendations for best performance||</br>
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/graph-4-blue-32.png "Caching 3rd party web parts")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/toolbox-32.png "Modern diagnostics tool")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/globe-hyperlink-blue-32.png "CDN")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/deploy-blue-32.png "Staged rollout")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/security-blue-32.png "Security groups")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/files-blue-32.png "iFrames")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/analytics-usage-report-blue-32.png "Slow web parts")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/bandwidth-blue-32.png "Page weight")|||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images")|Optimize your images||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/graph-4-blue-32.png "Caching 3rd party web parts")|Caching 3rd party web parts||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/toolbox-32.png "Modern diagnostics tool")|Validate your site with the page diagnostics tool||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/globe-hyperlink-blue-32.png "CDN")|Use a Content Delivery Network (CDN) for better performance||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/deploy-blue-32.png "Staged rollout")|Plan the rollout of your portal||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/security-blue-32.png "Security groups")|Using security groups||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/files-blue-32.png "iFrames")|Viewing rich content with iFrames||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/analytics-usage-report-blue-32.png "Slow web parts")|Why are my web parts slow?||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/bandwidth-blue-32.png "Page weight")|Is my page weight slowing me down?||
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/frame-blue-32.png "Embedded and Iframe")|||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page")|||
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page")|Do I have have too many calls on a page?||
 
 
    
