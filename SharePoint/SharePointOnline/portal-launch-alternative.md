@@ -26,6 +26,7 @@ A portal often utilizes features such as: Rollups across sites, organization New
 ### What is NOT a Portal 
 
 It's also important to recognize what isn't a "portal".  The high collaboration site you use for team work is not considered a portal.
+
  
 
 <ul class="panelContent cardsW">
@@ -36,7 +37,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/test-pic.png" alt="Small business training"/>
+                            <img src="./media/test-pic.png" alt="test"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -55,7 +56,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/test-pic.png" alt="Go to a Microsoft store"/>
+                            <img src="./media/test-pic.png" alt="Go to a Microsoft store"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -74,7 +75,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/test-pic.png" alt="What's trending"/>
+                            <img src="./media/test-pic.png" alt="What's trending"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -93,7 +94,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/test-pic.png" alt="A small building growing into a larger one"/>
+                            <img src="./media/test-pic.png" alt="A small building growing into a larger one"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -112,7 +113,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/test-pic.png" alt="A person, a chat bubble, and a building"/>
+                            <img src="./media/test-pic.png" alt="A person, a chat bubble, and a building"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -131,7 +132,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/d2e91cf2-b27e-47a5-a091-9df370ac5d18.png" alt="Laptop computers with Word, Excel and PowerPoint"/>
+                            <img src="./media/test-pic.png" alt="Laptop computers with Word, Excel and PowerPoint"/>
                         </div>
                     </div>
                     <div class="cardText">
