@@ -10,7 +10,6 @@ localization_priority: Normal
 description: "Plan for your successful portal launch"
 ---
 # SharePoint portal success site
-## Launching a successful SharePoint portal 
 
 ### The importance of planning
 
