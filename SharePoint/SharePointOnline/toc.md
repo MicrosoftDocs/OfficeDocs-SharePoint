@@ -11,7 +11,7 @@
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
 ### [Search](get-started-with-modern-search-experience.md)
-### [Permissions and sharing](sharing-permissions-modern-experience.md)
+### [Permissions and sharing](modern-experience-sharing-permissions.md)
 ### [Performance](modern-experience-performance.md)
 ### [Root site](modern-root-site.md)
 ### [Lists and libraries](change-default-list-and-library-experience.md)
