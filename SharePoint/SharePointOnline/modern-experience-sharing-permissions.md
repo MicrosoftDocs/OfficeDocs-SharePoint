@@ -27,6 +27,22 @@ The three main types of sites in SharePoint are:
 - Communication sites - Communication sites are for broadcasting news and status across the organization. Communication site permissions are managed by using the SharePoint Owners, Members, and Visitors groups for the site.
 - Hub sites - Hub sites are team sites or communication sites that the administrator has designated as a hub. They are designed to provide connection through shared navigation between related sites. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Office 365 group if there is one. Special permissions are needed to associate sites to a hub site.
 
+## Team site permissions and Office 365 Groups
+
+By default, each SharePoint team site is part of an Office 365 group. An Office 365 group is a single permissions group that is associated with a variety of Office 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. 
+
+When you add owners or members to the Office 365 group, they are given access to the SharePoint site along with the other connected services. Group owners become site Owners, and group members become site members. 
+
+It is possible to manage SharePoint site permissions separately from the Office 365 group by using SharePoint groups, but we recommend against it. In such a case, group members will continue to have access to the site, but users added directly to the site will not have access to any of the group services. The exception is view-only access - Office 365 groups do not have a visitors permission for view-only access, so any users you wish to have view permissions on the site must be added directly to the visitors group on the site.
+
+### Using team sites with Teams
+
+Microsoft Teams provides a hub for collaboration by bringing together a variety of services including a SharePoint team site. Each team is associated with an Office 365 group and uses that group to manage its permissions.
+
+Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions. For collaboration scenarios in your organization, we highly recommend using Teams rather than using services such as SharePoint independently.
+
+For details about how SharePoint and Teams interact, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
+
 ## Hub site permissions
 
 Hub site owners define the shared experiences for hub navigation and theme. Hub site members create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on individual sites.
@@ -37,7 +53,7 @@ connected site perms are managed separately
 
 perms to hub site depend on whether group-connected or not
 
-
+![Screenshot of hub site registration dialog in the SharePoint admin center](media/permissions-register-hub-site.png)
 
 ## Communication site permissions
 
@@ -48,20 +64,6 @@ Communication sites use the standard SharePoint permissions groups:
 - Visitors
 
 
-
-## Team site permissions and Office 365 Groups
-
-In SharePoint Online, each SharePoint team site is part of an Office 365 group. An Office 365 group is a single permissions group that is associated with a variety of Office 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Office 365 group, they are given access to the SharePoint site along with the other connected services.
-
-While you can continue to manage SharePoint site permissions separately by using SharePoint groups, we recommend managing permissions for SharePoint by adding people to or removing them from the associated Office 365 group. This provides easier administration as well as giving users access to a host of related services that they can use for better collaboration.
-
-### Using team sites with Teams
-
-Microsoft Teams provides a hub for collaboration by bringing together a variety of services including a SharePoint team site. Teams uses the associated Office 365 group to manage its permissions.
-
-Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions. For collaboration scenarios in your organization, we highly recommend using Teams rather than using services such as SharePoint independently.
-
-For details about how SharePoint and Teams interact, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
 
 ## Managing site permissions with security groups
 
@@ -98,6 +100,8 @@ It's important to educate your users in how these sharing links work and which t
 
 
 ## Guest sharing
+
+![External sharing settings in the SharePoint admin center](media/externalsharing.png)
 
 The external sharing features of SharePoint Online let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Office 365 subscriptions if your organization has more than one subscription. Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online. This article describes what happens when users share, depending on what they're sharing and with whom. 
   
