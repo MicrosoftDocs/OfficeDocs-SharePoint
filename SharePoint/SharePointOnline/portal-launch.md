@@ -28,8 +28,7 @@ A portal is typically the key site for communicating out content for your compan
 
 A portal often utilizes features such as: 
 
-- Rollups across sites 
-- Organization News 
+Rollups across sites, organization News 
 - Audience targeting 
 - Megamenu navigation 
 - Footer 
