@@ -44,13 +44,13 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
 ## Guidance 
 This set of guidance will walk you through best practices and recommendations before you launch.
  
-- Planning your site 
-- Networking planning 
-- Site configuration 
-- Web part usage and configuration 
-- Caching strategies 
-- Site validation (page diagnostics tool) 
-- Engaging with Microsoft to plan the launch 
+- Planning your site
+- Networking planning
+- Site configuration
+- Web part usage and configuration
+- Caching strategies
+- Site validation (page diagnostics tool)
+- Engaging with Microsoft to plan the launch
 - Staged rollout plans 
  
 
