@@ -80,11 +80,7 @@
 ### [Deploying on virtual machines](../install/deploy-sharepoint-virtual-machines.md)
 ### [Configure](../install/configure.md)
 #### [Configure client certificate authentication](../install/configure-client-certificate-authentication.md)
-<<<<<<< Updated upstream
 #### [Configure syncing with the new OneDrive sync app](../install/new-onedrive-sync-client.md)
-=======
-#### [Configure syncing with the new OneDrive app](../install/new-onedrive-sync-client.md)
->>>>>>> Stashed changes
 #### [User Profile service overview](../install/user-profile-service-overview.md)
 ##### [Create a User Profile service application](../install/create-a-user-profile-service-application.md)
 #### [My Sites overview](../install/my-sites-overview.md)
