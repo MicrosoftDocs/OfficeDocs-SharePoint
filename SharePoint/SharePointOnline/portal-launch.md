@@ -16,9 +16,13 @@ description: "Portal launch landing page"
 
 # Launching a successful SharePoint portal 
 
-## 
+## The importance of planning
 
-## What is a Portal?
+Having a successful launch of a portal is the goal. Your portal needs to withstand real world usage scenarios and you want to identify impacts to internal systems and processes, making sure the changes don’t break anything. A successful portal launches, preparing for its continued reliability and performance, are critical for your business.
+
+By taking the time to plan and using Microsoft best practices will help you have launch experience you want.
+
+### What is a Portal?
 
 A portal is typically the key site for communicating out content for your company or division with greater than 10,000 visitor members on the site.  It may be a hub site, but also a Home site or root site.
 
@@ -32,15 +36,10 @@ A portal often utilizes features such as:
 - Branding 
 - Events 
  
-## What is NOT a Portal 
+### What is NOT a Portal 
 
 It's also important to recognize what isn't a "portal".  The high collaboration site you use for team work is not considered a portal.
  
-## Why You Should Care About Perf and the Launch Moment 
-
-Launches are difficult for the system to predict 
-•	Successful portal launches, and continued reliability, are critical for your business 
-•	Planning, and using Microsoft best practices will give you the best launch experience 
  
 ## Guidance 
 This set of guidance will walk you through: 
