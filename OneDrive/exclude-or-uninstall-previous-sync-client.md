@@ -28,10 +28,10 @@ Starting in October 2017, we're changing how the previous OneDrive for Business 
     
 - When not in use or running, the previous OneDrive for Business sync client (Groove.exe) will be uninstalled, unless: (a) Groove is already configured to sync one or more SharePoint Online or SharePoint Server libraries or (b) a "PreventUninstall" registry key is present on the computer.
     
-These changes won't affect Office 365 customers who are already using the new OneDrive sync client (OneDrive.exe) to sync OneDrive and SharePoint Online files. Neither will these changes affect enterprises who have deployed Office with the traditional Windows Installer-based (MSI) method.
+These changes won't affect Office 365 customers who are already using the new OneDrive sync app (OneDrive.exe) to sync OneDrive and SharePoint Online files. Neither will these changes affect enterprises who have deployed Office with the traditional Windows Installer-based (MSI) method.
   
 > [!NOTE]
-> The new OneDrive sync client (OneDrive.exe) is the recommended option for Office 365 customers. However, the previous OneDrive for Business sync client (Groove.exe) is still fully supported and is used for on-premises instances of OneDrive for Business or SharePoint Server (when your organization doesn't subscribe to an Office 365 Business plan). [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
+> The new OneDrive sync app (OneDrive.exe) is the recommended option for Office 365 customers. However, the previous OneDrive for Business sync client (Groove.exe) is still fully supported and is used for on-premises instances of OneDrive for Business or SharePoint Server (when your organization doesn't subscribe to an Office 365 Business plan). [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
   
 ## Ensuring Groove.exe is no longer installed
 

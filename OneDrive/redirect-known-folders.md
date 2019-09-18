@@ -23,7 +23,7 @@ description: "Learn how to redirect users' Documents folders or other known fold
 
 # Redirect and move Windows known folders to OneDrive
 
-This article is for IT admins managing the OneDrive sync client in a Windows Server enterprise environment that uses Active Directory Domain Services. 
+This article is for IT admins managing the OneDrive sync app in a Windows Server enterprise environment that uses Active Directory Domain Services. 
   
 There are two primary advantages of moving or redirecting Windows known folders (Desktop, Documents, Pictures, Screenshots, and Camera Roll) to OneDrive for Business for the users in your domain:
   
@@ -54,7 +54,7 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard)
     
-    Use this setting to redirect known folders to OneDrive without any user interaction. Before sync client build 18.171.0823.0001, this setting redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
+    Use this setting to redirect known folders to OneDrive without any user interaction. Before sync app build 18.171.0823.0001, this setting redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
 
     > [!NOTE]
     > You can choose to display a notification to users after their folders have been redirected.  
@@ -78,10 +78,10 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
     Use this setting to force users to keep their known folders directed to OneDrive.
     
     > [!NOTE]
-    > Users can direct their known folders by opening OneDrive sync client settings, clicking the **Backup** tab, and then clicking **Manage backup**. 
+    > Users can direct their known folders by opening OneDrive sync app settings, clicking the **Backup** tab, and then clicking **Manage backup**. 
   
 - [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKnownFolderMove)
     
-For info about using the OneDrive Group Policy objects, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md).
+For info about using the OneDrive Group Policy objects, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md).
   
 
