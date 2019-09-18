@@ -26,14 +26,7 @@ By taking the time to plan and using Microsoft best practices will help you have
 
 A portal is typically the key site for communicating out content for your company or division with greater than 10,000 visitor members on the site.  It may be a hub site, but also a Home site or root site.
 
-A portal often utilizes features such as: 
-
-Rollups across sites, organization News 
-- Audience targeting 
-- Megamenu navigation 
-- Footer 
-- Branding 
-- Events 
+A portal often utilizes features such as: Rollups across sites, organization News, Audience targeting, Megamenu navigation, Footer, Branding, and Events.
  
 ### What is NOT a Portal 
 
