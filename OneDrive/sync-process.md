@@ -28,13 +28,21 @@ This article gives you an overview of how sync works in OneDrive. It helps you u
   
 ## How information flows
 
+<<<<<<< Updated upstream
 The OneDrive sync app uses [Windows Push Notification Services](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview) (WNS) to sync files in real time. WNS informs the sync app whenever a change actually happens, eliminating redundant polling and saving on unnecessary computing power.
+=======
+The OneDrive sync app uses [Windows Push Notification Services](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview) (WNS) to sync files in real time. WNS informs the sync client whenever a change actually happens, eliminating redundant polling and saving on unnecessary computing power.
+>>>>>>> Stashed changes
 
 Here’s how it works:
 
 - A change occurs in Office 365.
 
+<<<<<<< Updated upstream
 - WNS alerts the OneDrive sync app of the change.
+=======
+- WNS alerts the sync app of the change.
+>>>>>>> Stashed changes
 
 - OneDrive adds it to the Internal Server Changes Queue.
     - Any metadata changes happen immediately, like renaming or deleting files.
@@ -64,6 +72,6 @@ The OneDrive sync app uses the following to sync files:
 
 - To discover the sites and organizations a user can access: odc.officeapps.live.com
   
- ## Security and encryption
+## Security and encryption
 
 File chunks are stored in multiple containers in Azure, each of which is given a unique key. Each key is required to reassemble the complete file. There’s also a separate master key encrypting each file chunk key, ensuring the data remain secure even when not moving.
