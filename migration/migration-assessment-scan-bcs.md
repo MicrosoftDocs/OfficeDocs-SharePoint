@@ -12,6 +12,7 @@ localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
+- SPMigration
 ms.custom:
 ms.assetid: 382f6607-5434-4e03-8b9a-0ce04ead9ace
 description: "Learn how to fix issues with BCS before migrating your data."
