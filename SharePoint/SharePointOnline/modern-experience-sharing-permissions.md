@@ -81,15 +81,15 @@ For more about the different types of sharing links, see [Securing your data](ht
 
 ## Guest sharing
 
-![External sharing settings in the SharePoint admin center](media/externalsharing.png)
-
 The external sharing features of SharePoint Online let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Office 365 subscriptions if your organization has more than one subscription. Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online.
 
-SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied.
+SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. 
+
+![External sharing settings in the SharePoint admin center](media/externalsharing.png)
   
-Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests who sign in, and with internal users. 
+Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using *Anyone* links, users can still share with guests who sign in, and with internal users. 
   
-External sharing is turned on by default for your organization. Settings for each individual site vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/en-us/Office365/Enterprise/microsoft-365-guest-settings#sharepoint-site-level) for more information.
+External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/en-us/Office365/Enterprise/microsoft-365-guest-settings#sharepoint-site-level) for more information.
   
 ### Security and privacy
 
@@ -99,7 +99,7 @@ If you have confidential information that should never be shared externally, we 
 
 Azure AD B2B provides authentication and management of guest users. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
 
-With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. This feature provides an upgraded experience from the existing [secure external sharing recipient experience](https://docs.microsoft.com/sharepoint/what-s-new-in-sharing-in-targeted-release). 
+With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites.
 
 With Azure B2B integration, all guest users are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md)
 
