@@ -93,7 +93,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/ca97a937-ef4f-40c4-b848-3ad1d105446c.png" alt="A small building growing into a larger one"/>
+                            <img src="../media/test-pic.png" alt="A small building growing into a larger one"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -112,7 +112,7 @@ It's also important to recognize what isn't a "portal".  The high collaboration 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/3d42cb3c-29cd-43a6-8b7a-ee252f08e44e.png" alt="A person, a chat bubble, and a building"/>
+                            <img src="../media/test-pic.png" alt="A person, a chat bubble, and a building"/>
                         </div>
                     </div>
                     <div class="cardText">
