@@ -10,7 +10,24 @@ localization_priority: Normal
 description: "Plan for your successful portal launch"
 ---
 # SharePoint portal success site
+## Launching a successful SharePoint portal 
 
+### The importance of planning
+
+A successful portal launch is achieved by planning. Your portal needs to withstand real world usage scenarios and you want to identify impacts to internal systems and processes to ensure it performs well for you and your audience. Planning will yield continued reliability and performance, both are critical for your business.
+
+By taking the time to plan and using Microsoft best practices will help you have launch experience you want.
+
+### What is a Portal?
+
+A portal is typically the key site for communicating out content for your company or division with greater than 10,000 visitor members on the site.  It may be a hub site, but also a Home site or root site.
+
+A portal often utilizes features such as: Rollups across sites, organization News, Audience targeting, Megamenu navigation, Footer, Branding, and Events.
+ 
+### What is NOT a Portal 
+
+It's also important to recognize what isn't a "portal".  The high collaboration site you use for team work is not considered a portal.
+ 
 
 <ul class="panelContent cardsW">
     <li>
