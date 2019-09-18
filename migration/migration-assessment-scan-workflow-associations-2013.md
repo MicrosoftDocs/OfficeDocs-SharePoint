@@ -12,7 +12,8 @@ localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 59e80c9a-2543-43b4-9d4d-d758465c2e71
 description: "Learn how to fix issues with that occur with Workflow Associations 2013 during migration."

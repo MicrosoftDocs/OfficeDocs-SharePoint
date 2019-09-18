@@ -13,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 411c5512-e99c-4010-8a25-113515851cd7
 description: "Learn how to mitigate issues with Sandbox solutions during migration."

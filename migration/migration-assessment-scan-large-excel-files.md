@@ -13,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 359d684a-65bf-4345-8b98-b169a2474ed2
 description: "Learn how to mitigate issues with large Excel files during migration."
