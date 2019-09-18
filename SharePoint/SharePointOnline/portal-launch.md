@@ -18,7 +18,7 @@ description: "Portal launch landing page"
 
 ## The importance of planning
 
-Having a successful launch of a portal is the goal. Your portal needs to withstand real world usage scenarios and you want to identify impacts to internal systems and processes, making sure the changes don’t break anything. A successful portal launches, preparing for its continued reliability and performance, are critical for your business.
+A successful portal launch is achieved by planning. Your portal needs to withstand real world usage scenarios and you want to identify impacts to internal systems and processes to ensure it performs well for you and your audience. Planning will yield continued reliability and performance, both are critical for your business.
 
 By taking the time to plan and using Microsoft best practices will help you have launch experience you want.
 
