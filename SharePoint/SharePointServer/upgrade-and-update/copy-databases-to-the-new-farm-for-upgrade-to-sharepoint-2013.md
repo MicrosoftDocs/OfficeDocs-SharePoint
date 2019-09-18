@@ -1,8 +1,8 @@
 ---
 title: "Copy databases to the new farm for upgrade to SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/20/2018
 audience: ITPro
@@ -90,7 +90,8 @@ You back up the databases in SQL Server Management Studio. A backup copy of the 
 |Secure Store  <br/> |Secure_Store_Service_DB_ _ID_ <br/> |
 |User Profile: Profile, Social, and Sync databases  <br/> |User Profile Service Application_ProfileDB_ _ID_ <br/> User Profile Service Application_SocialDB_ _ID_ <br/> User Profile Service Application_SyncDB_ _ID_ <br/> |
    
-    The Business Data Connectivity service application is available in both SharePoint Foundation 2010 and SharePoint Server 2010. The other service applications are available only in SharePoint Server 2010. Although SharePoint Foundation 2010 includes search functionality, it is not the same Search service application that is in SharePoint Server 2010 and it cannot be upgraded.
+> [!NOTE]
+> The Business Data Connectivity service application is available in both SharePoint Foundation 2010 and SharePoint Server 2010. The other service applications are available only in SharePoint Server 2010. Although SharePoint Foundation 2010 includes search functionality, it is not the same Search service application that is in SharePoint Server 2010 and it cannot be upgraded.
     
 You do not have to back up the configuration or admin content databases, because you recreated these databases when you set up the SharePoint 2013 server farm. Upgrading the configuration or admin content databases and the Central Administration site collection is not supported. 
   

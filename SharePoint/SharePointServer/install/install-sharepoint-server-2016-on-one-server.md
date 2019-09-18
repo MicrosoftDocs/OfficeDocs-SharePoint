@@ -1,8 +1,8 @@
 ---
 title: "Install SharePoint Servers 2016 or 2019 on one server"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/124/2018
 audience: ITPro
@@ -80,7 +80,7 @@ Because the prerequisite installer downloads components from the Microsoft Downl
   
  **To run the Microsoft SharePoint Products Preparation Tool**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+1. Verify that the user account that is performing this procedure is the farm administrator user account. For information about the farm administrator user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
 2. In the SharePoint Server installation disc image software, mount the ISO file, and click the splash.hta file. The SharePoint Server splash screen is displayed.
     
@@ -102,7 +102,7 @@ The following procedure installs binaries, configures security permissions, and 
   
  **To run Setup**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+1. Verify that the user account that is performing this procedure is the farm administrator user account. For information about the farm administrator user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
 2. On the **SharePoint Server Start** page, click **Install SharePoint Server**.
     
@@ -130,7 +130,7 @@ Use the following procedure to install and configure the configuration database 
   
  **To run the SharePoint Products Configuration Wizard**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+1. Verify that the user account that is performing this procedure is the farm administrator user account. For information about the farm administrator user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
 2. If you have closed the SharePoint Products Configuration Wizard, you can access it by clicking **Start**, point to **All Apps**, click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
     
@@ -146,9 +146,9 @@ Use the following procedure to install and configure the configuration database 
     
 2. In the **Database name** box, type a name for your configuration database or use the default database name. The default name is SharePoint_Config. 
     
-3. In the **Username** box, type the user name of the server farm account. Ensure that you type the user name in the format DOMAIN\user name. 
+3. In the **Username** box, type the user name of the farm administrator service account. Ensure that you type the user name in the format DOMAIN\username. 
     
-    **Security note**: The server farm account is used to access your configuration database. It also acts as the application pool identity account for the SharePoint Central Administration application pool, and it is the account under which the Microsoft SharePoint Foundation Timer service runs. The SharePoint Products Configuration Wizard adds this account to the SQL Server Login accounts, the SQL Server **dbcreator** server role, and the SQL Server **securityadmin** server role. The user account that you specify as the server farm account has to be a domain user account. However, it does not have to be a member of any specific security group on your SharePoint servers or your database servers. We recommend that you follow the principle of least-privilege and specify a user account that is not a member of the Administrators group on your SharePoint servers or your database servers. 
+    **Security note**: The farm administrator service account is used to access your configuration database. It also acts as the application pool identity account for the SharePoint Central Administration application pool, and it is the account under which the Microsoft SharePoint Foundation Timer service runs. The SharePoint Products Configuration Wizard adds this account to the SQL Server Login accounts, the SQL Server **dbcreator** server role, and the SQL Server **securityadmin** server role. The user account that you specify as the farm administrator service account has to be a domain user account. However, it does not have to be a member of any specific security group on your SharePoint servers or your database servers. We recommend that you follow the principle of least-privilege and specify a user account that is not a member of the Administrators group on your SharePoint servers or your database servers. 
     
 4. In the **Password** box, type the user password. 
     
@@ -156,7 +156,7 @@ Use the following procedure to install and configure the configuration database 
     
 8. On the **Specify Farm Security Settings** page, type a passphrase, and then click **Next**.
     
-    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
+    Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Server. For example, the SharePoint Server server farm administrator service account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
     
     Ensure that the passphrase meets the following criteria:
     
@@ -278,7 +278,7 @@ You have now completed setup and the initial configuration of SharePoint Server.
   
  **To run the Farm Configuration Wizard**
   
-1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
+1. Verify that the user account that is performing this procedure is the farm administrator user account. For information about the farm administrator user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
 2. On the SharePoint Central Administration home page, on the **Quick Launch**, click **Configuration Wizards**, and then click **Launch the Farm Configuration Wizard**.
     

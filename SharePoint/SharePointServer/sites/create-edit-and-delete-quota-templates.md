@@ -1,8 +1,8 @@
 ---
 title: "Create, edit, and delete quota templates in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
@@ -144,7 +144,7 @@ Even though you can delete a quota template if necessary, we do not recommend th
 ## Change the quota template for a site collection
 <a name="Section5"> </a>
 
-If a site collection is close to exceeding its storage limits and you want to increase its size, you can change the quota template that is applied to the site collection so the quota template has higher limits. This automatically updates the warning and storage limits for the site collection.
+If a site collection is close to exceeding its storage limits and you want to increase its size, you can change the quota template that is applied to the site collection to another quota template with higher limits. This automatically updates the warning and storage limits for the site collection.
   
 ### To change the quota template for a site collection by using Central Administration
 

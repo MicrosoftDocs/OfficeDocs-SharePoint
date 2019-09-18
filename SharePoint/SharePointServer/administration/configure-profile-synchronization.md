@@ -1,8 +1,8 @@
 ---
 title: "Synchronize user and group profiles in SharePoint Server 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/28/2018
 audience: ITPro
@@ -227,7 +227,7 @@ If the NetBIOS name of any domain with which you are synchronizing differs from 
     
   - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
     
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2016 cmdlets. 
+    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server 2013 cmdlets. 
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
@@ -253,7 +253,7 @@ If the NetBIOS name of any domain with which you are synchronizing differs from 
     > [!NOTE]
     > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is .ps1. 
   
-6. Start the SharePoint 2016 Management Shell.
+6. Start the SharePoint 2013 Management Shell.
     
 7. Change to the directory where you saved the file.
     
@@ -538,7 +538,7 @@ In this procedure, you determine how the properties of SharePoint Server 2013 us
   
 You will come back to this procedure in later phases to map user profile properties to information that is retrieved from business systems and to map how user profile properties in SharePoint Server 2013 can be used to write information back to the directory service. If you have not yet reached these phases, ignore the parts of the procedure that deal with business systems and exporting data.
   
- **Tomap user profile properties**
+ **To map user profile properties**
   
 1. Verify that the user account that is performing this procedure has the following credentials:
     
@@ -593,37 +593,40 @@ Use this procedure to synchronize profile information between SharePoint Server 
     
   - The user account that performs this procedure is a member of the Administrators group on the computer that is running SharePoint Server 2013.
     
-2. If you have already imported users or created My Sites, and you have enabled NetBIOS domain names, you must disable the My Site cleanup timer job before you start profile synchronization. For information about this timer job, see the [Default timer jobs in SharePoint Server 2016](../technical-reference/default-timer-jobs-in-sharepoint-server-2016.md). For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server/?view=sharepoint-ps).
+2. If you have already imported users or created My Sites, and you have enabled NetBIOS domain names, you must disable the My Site cleanup timer job before you start profile synchronization. 
+
+> [!NOTE] 
+> For information about this timer job, please see the [Default timer jobs in SharePoint Server 2013](https://docs.microsoft.com/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-2013). For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [SharePoint Server cmdlet reference](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server).
     
 3. If the user account that is performing this procedure is a farm administrator, complete these steps. Otherwise, if the user account is not a farm administrator go to the next step: 
     
-1. On Central Administration, in the **Application Management** section, click **Manage service applications**.
+4. On Central Administration, in the **Application Management** section, click **Manage service applications**.
+
+5.  On the **Manage Service Applications** page, select the User Profile service application. 
+
+6.  On Central Administration, on the **Manage Profile Service** page, in the **Synchronization** section, click **Start Profile Synchronization**.
     
-2. On the **Manage Service Applications** page, select the User Profile service application. 
+7.  On the **Start Profile Synchronization** page, select **Start Full Synchronization** if this is the first time that you are synchronizing or if you have added or changed any synchronization connections or property mappings since the last time that you synchronized. Select **Start Incremental Synchronization** to synchronize only information that has changed since the last time that you synchronized. 
     
-4. On Central Administration, on the **Manage Profile Service** page, in the **Synchronization** section, click **Start Profile Synchronization**.
-    
-5. On the **Start Profile Synchronization** page, select **Start Full Synchronization** if this is the first time that you are synchronizing or if you have added or changed any synchronization connections or property mappings since the last time that you synchronized. Select **Start Incremental Synchronization** to synchronize only information that has changed since the last time that you synchronized. 
-    
-6. Click **OK**.
+8. Click **OK**.
     
     The **Manage Profile Service** page is displayed. 
     
-7. If you intend to enable the My Site cleanup timer job, complete these additional steps before you enable the job:
+9. If you intend to enable the My Site cleanup timer job, complete these additional steps before you enable the job:
     
-1. Run profile synchronization again as described in this section.
+10. Run profile synchronization again as described in this section.
     
-2. After the second profile synchronization has finished running, on Central Administration, in the **Application Management** section, click **Manage service applications**.
+11. After the second profile synchronization has finished running, on Central Administration, in the **Application Management** section, click **Manage service applications**.
     
-3. Click the User Profile Service Application name, and then click **Manage User Profiles**.
+12. Click the User Profile Service Application name, and then click **Manage User Profiles**.
     
-4. On the **Manage Profile Service** page, in the **People** section, click **Manage User Profiles**.
+13. On the **Manage Profile Service** page, in the **People** section, click **Manage User Profiles**.
     
-5. Next to **View**, select **Profiles Missing from Import**.
+14. Next to **View**, select **Profiles Missing from Import**.
     
-6. In the **Find Profiles** box, type the domain for the profiles, and then click **Find**.
+15. In the **Find Profiles** box, type the domain for the profiles, and then click **Find**.
     
-7. For each profile that is returned, check the originating directory service, such as Active Directory, for the status of that profile. If the status of any of the returned profiles in the directory is not disabled or is not deleted, do not enable the My Site cleanup timer job. Contact Microsoft support for more assistance. Otherwise, enable the My Site cleanup timer job. For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server/?view=sharepoint-ps).
+16. For each profile that is returned, check the originating directory service, such as Active Directory, for the status of that profile. If the status of any of the returned profiles in the directory is not disabled or is not deleted, do not enable the My Site cleanup timer job. Contact Microsoft support for more assistance. Otherwise, enable the My Site cleanup timer job. For information about the PowerShell cmdlets that you use to enable and disable this timer job, see the [SharePoint Server cmdlet reference](/powershell/module/sharepoint-server/?view=sharepoint-ps).
     
 A full synchronization can take a long time. If you refresh the **Manage Profile Service** page, the right side of the page displays the progress of the synchronization job. Be aware that profile synchronization consists of several stages, and the profiles will not be imported immediately. The **Manage Profile Service** page is not refreshed automatically as synchronization progresses. 
   

@@ -1,8 +1,8 @@
 ---
 title: "Machine Translation service in SharePoint Server knowledge articles"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: troubleshooting
@@ -176,7 +176,7 @@ Resolution 2: Create a new Machine Translation Service application
   
 1. On the **Central Administration website**, in the **Application Management** section, from the reading pane, click **Manage service applications**.
     
-2. In the **Type** column, click the name of the Visio Services application Machine Translation Service application that has the failing service instance. 
+2. In the **Type** column, click the name of the Machine Translation Service application that has the failing service instance. 
     
 3. On the ribbon, click **Delete**.
     
@@ -237,7 +237,7 @@ Resolution 5: Create a new Machine Translation Service application:
   
 1. On the **Central Administration** website, in the reading pane, in the **Application Management** section, click **Manage service applications**.
     
-2. In the **Type** column, click the name of the Visio Services application Machine Translation Service application that has the failing service instance. 
+2. In the **Type** column, click the name of the Machine Translation Service application that has the failing service instance. 
     
 3. On the ribbon, click **Delete**.
     
@@ -349,7 +349,7 @@ Resolution 5: Create a new Machine Translation Service application
   
 1. On the Central Administration website, from the reading pane, in the Application Management section, from the reading pane, click Manage service applications.
     
-2. In the **Type** column, click the name of the Visio Services application Machine Translation Service application that has the failing service instance. 
+2. In the **Type** column, click the name of the Machine Translation Service application that has the failing service instance. 
     
 3. On the ribbon, click **Delete**.
     

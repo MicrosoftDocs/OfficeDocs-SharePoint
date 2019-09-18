@@ -1,8 +1,8 @@
 ---
 title: "Add web or application servers to farms in SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/27/2017
 audience: ITPro
@@ -187,7 +187,7 @@ You add the new server to the farm by using one of the following procedures:
   Connect-SPConfigurationDatabase -DatabaseServer "<$DatabaseServer>" -DatabaseName "<$RunSettings.ConfigurationDatabaseName>" -Passphrase "<$Passphrase>"
   ```
 
-    Where:
+  Where:
     
   -  _\<$DatabaseServer\>_ is the name of the server that hosts the configuration database 
     
@@ -231,8 +231,8 @@ You add the new server to the farm by using one of the following procedures:
   Get-SPFarm | select Servers
   ```
 
-    > [!NOTE]
-    > You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint 2013 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\15\LOGS folder. For more information, see [Monitoring and Reporting in SharePoint Server](../administration/monitoring-overview.md). 
+> [!NOTE]
+> You can also verify a successful server addition or troubleshoot a failed addition by examining the log files. These files are located on the drive on which SharePoint 2013 is installed, in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\15\LOGS folder. For more information, see [Monitoring and Reporting in SharePoint Server](../administration/monitoring-overview.md). 
   
 10. Configure SharePoint 2013 so that the new server can accommodate the role for which it was intended. For more information, see [Configure the new server](#configure).
     

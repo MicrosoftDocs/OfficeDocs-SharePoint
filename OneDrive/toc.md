@@ -12,6 +12,7 @@
 ### [Use silent account configuration](use-silent-account-configuration.md)
 ### [Transition from previous sync client](transition-from-previous-sync-client.md)
 ### [Redirect known folders](redirect-known-folders.md)
+### [Known Folder Move workshop](known-folder-move-workshop.md)
 ### [B2B Sync](b2b-sync.md)
 ### [How sync works](sync-process.md)
 ### [Use Group Policy](use-group-policy.md)
@@ -43,5 +44,6 @@
 ### [Restore deleted OneDrive](restore-deleted-onedrive.md)
 ### [Retention and deletion](retention-and-deletion.md)
 ### [List OneDrive URLs](list-onedrive-urls.md)
+### [Effects of username changes](upn-changes.md)
 ### [Help users use Discover view](help-users-use-discover-view.md)
 

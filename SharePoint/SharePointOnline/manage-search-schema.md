@@ -1,10 +1,10 @@
 ---
 title: "Manage the search schema in SharePoint Online"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-ms.author: tlarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+ms.author: mikeplum
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online

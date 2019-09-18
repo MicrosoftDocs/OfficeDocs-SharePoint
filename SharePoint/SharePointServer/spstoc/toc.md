@@ -319,6 +319,7 @@
 ##### [Configure hybrid OneDrive for Business - roadmap](../hybrid/configure-hybrid-onedrive-for-businessroadmap.md)
 ##### [Configure hybrid sites features - roadmap](../hybrid/configure-hybrid-sites-featuresroadmap.md)
 ##### [Configure cloud hybrid search - roadmap](../hybrid/configure-cloud-hybrid-searchroadmap.md)
+##### [Cloud hybrid search FAQ](../hybrid/cloud-hybrid-search-faq.md)
 ##### [Configure hybrid federated search (SharePoint Server) - roadmap](../hybrid/configure-hybrid-federated-search-sharepoint-serverroadmap.md)
 ##### [Configure hybrid federated search (SharePoint Online) - roadmap](../hybrid/configure-hybrid-federated-search-sharepoint-onlineroadmap.md)
 ##### [Configure hybrid Business Connectivity Services - roadmap](../hybrid/configure-hybrid-business-connectivity-servicesroadmap.md)

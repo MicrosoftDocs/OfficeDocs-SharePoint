@@ -1,8 +1,8 @@
 ---
 title: "Install SharePoint Servers 2016 or 2019 across multiple servers"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: get-started-article

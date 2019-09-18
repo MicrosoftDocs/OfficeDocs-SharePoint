@@ -30,7 +30,7 @@ Before you assign a category page and a catalog item page in term store manageme
   
 - The publishing site is using managed navigation. By default, site collections that are created by using the Publishing Portal Site Collection template use managed navigation.
     
-- You have created a navigation term set in term store management as described in [Create and manage terms in a term set](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-and-manage-terms-in-a-term-set-HA102771989.aspx).
+- You have created a navigation term set in term store management as described in [Create and manage terms in a term set](https://docs.microsoft.com/sharepoint/create-and-manage-terms).
     
 - You have created a category page and a catalog item page.
     

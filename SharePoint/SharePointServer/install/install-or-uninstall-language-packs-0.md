@@ -1,8 +1,8 @@
 ---
 title: "Install or uninstall language packs for SharePoint Servers 2016 and 2019"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/24/2018
 audience: ITPro
@@ -59,7 +59,7 @@ Follow these steps for each language that you want to support. If you decide to 
 > [!IMPORTANT]
 > By default, the Microsoft PowerShell Help files are installed in English (en-us). To view these files in the same language as the operating system, install the language pack for the same language in which the operating system was installed. 
   
-You can download language packs from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=746633&amp;clcid=0x409).
+You can download language packs from the Microsoft Download Center for [SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkId=746633&amp;clcid=0x409) and [SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57463).
   
 ## Installing language packs on the SharePoint servers
 <a name="section4"> </a>
@@ -101,7 +101,7 @@ Verify that the user account that is performing this procedure is the Setup user
     
 7. On the **Configuration Successful** page, click **Finish**.
     
-8. After you install a new language pack and rerun the Rerun the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
+8. After you install a new language pack and rerun the **SharePoint Products Configuration Wizard**, you must deactivate and then reactivate any language-specific features before you use the new language pack.
     
 When you install language packs, the language-specific site templates are installed in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\ _LanguageID_ directory, where  _LanguageID_ is the Language ID number for the language that you are installing. For example, the United States English language pack installs to the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\TEMPLATE\1033 directory. After you install a language pack, site owners and site collection administrators can create sites and site collections based on the language-specific site templates by specifying a language when they are creating a new SharePoint site or site collection. 
   

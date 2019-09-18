@@ -1,9 +1,9 @@
 ---
 title: "Manage result sources"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -63,11 +63,11 @@ For the classic search experience, you can create your own result sources, or us
     
 6. In the **Query Transform** section, you can change incoming queries to use a new query text instead. Choose one of these options: 
     
-1. Leave the default query transform ( **searchTerms**) as is. The query will be unchanged since the previous transform.
+  - Leave the default query transform ( **searchTerms**) as is. The query will be unchanged since the previous transform.
     
-2. Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
+  - Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
     
-3. Build your own query. Select **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
+  - Build your own query. Select **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
     
 7. In the **Credentials Information** section, choose an authentication type for users to connect to the result source. 
     

@@ -1,8 +1,8 @@
 ---
 title: "Install SharePoint 2013 on a single server with SQL Server"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/15/2018
 audience: ITPro
@@ -49,7 +49,7 @@ Before you begin to install and configure SharePoint 2013, do the following:
 > [!NOTE]
 > The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](/sharepoint/administration/administration), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
   
-> [!SECURITY NOTE]
+> [!NOTE]
 > As a security best practice, we recommend that you install SharePoint 2013 by using least-privilege administration. 
   
 ## Install SharePoint 2013 on a single server

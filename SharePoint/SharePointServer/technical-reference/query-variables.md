@@ -1,8 +1,8 @@
 ---
 title: "Query variables in SharePoint Server"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/25/2017
 audience: ITPro
@@ -27,12 +27,12 @@ The following tables show the query variables for SharePoint Server, and example
 |**Query variable**|**Definition**|
 |:-----|:-----|
 |{Site} or {Site.URL}  <br/> |URL of the site from where the query was issued. For example, this value can be used to query content of the managed property Path.  <br/> |
-|{Site.ID}  <br/> |GUID of site from where the query was issued. This value corresponds to the value of the managed property SiteID.  <br/> |
+|{Site.ID}  <br/> |GUID of site from where the query was issued. This value corresponds to the value of the managed property WebId.  <br/> |
 |{Site.LCID}  <br/> |Numeric value of the locale as specified by the Regional Settings in the Site Settings on the Site from where the query was issued.  <br/> |
 |{Site.Locale}  <br/> |Language of the Site from where the query was issued in ll-cc format — for example, en-us.  <br/> |
 |{Site.\<property\>}  <br/> |Any property from the property bag of the site (SPWeb) from where the query was issued, including custom properties.  <br/> |
 |{SiteCollection} or {SiteCollection.URL}  <br/> |URL of site collection from where the query was issued. For example, this value can be used to query content of the managed property Path.  <br/> |
-|{SiteCollection.ID}  <br/> |GUID of site collection from where the query was issued.  <br/> |
+|{SiteCollection.ID}  <br/> |GUID of site collection from where the query was issued. This value corresponds to the value of the managed property SiteID.  <br/> |
 |{SiteCollection.LCID}  <br/> |Numeric value of the locale as specified by the Regional Settings in the Site Settings on the Site Collection from where the query was issued.  <br/> |
 |{SiteCollection.Locale}  <br/> |Language of the Site Collection from where the query was issued in ll-cc format — for example, en-us.  <br/> |
 |{SiteCollection.\<property\>}  <br/> |Any property from the property bag of the root site (SPWeb) in the site collection (SPSite) from where the query was issued, including custom properties.  <br/> |

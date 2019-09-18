@@ -1,8 +1,8 @@
 ---
 title: "Install a software update for SharePoint Server 2016"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 4/30/2018
 audience: ITPro
@@ -492,7 +492,15 @@ Perform the procedures in this section only when they are pointed to from other 
   - The set must contain a Search administration component that is not the primary component that was identified in step 2 in this procedure.
     
 4. Determine the set of servers in availability group 2. This set must contain all remaining servers that host Search components, including the server that hosts the primary Search administration component that was identified in step 2 of this procedure.
-    
+
+## Install a software update on servers that host Distributed Cache
+<a name="HostCache"> </a>
+
+Prior to restarting a server from running a software update or Configuration Wizard, you must stop Distributed Cache to prevent unallocated cache fractions. Follow the process outlined [here](/sharepoint/administration/manage-the-distributed-cache-service#perform-a-graceful-shutdown-of-the-distributed-cache-service-by-using-a-powershell-script) to gracefully shut down Distributed Cache.
+
+>[!IMPORTANT]
+> Do not use `Stop-SPDistributedCacheServiceInstance -Graceful` as this will terminate Distributed Cache prior to the cache being transferred to another server in the farm.
+
 ### Troubleshoot software updates on servers that host Search componenets
 
 - **Issue:** After an update you may no longer have proper registry key or file system permissions. 

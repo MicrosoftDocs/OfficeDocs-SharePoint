@@ -1,9 +1,9 @@
 ---
 title: "Make sure content can be found"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 6/14/2017
 audience: Admin
 ms.topic: overview

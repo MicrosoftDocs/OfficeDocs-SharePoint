@@ -1,8 +1,8 @@
 ---
 title: "Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/27/2017
 audience: ITPro
@@ -54,20 +54,20 @@ If the upgrade ran into issues during the database-attach upgrade, you can resta
 5. At the Microsoft PowerShell command prompt (PS C:\\>), type the following command:
     
   ```
-  upgrade-spcontentdatabase <Name>
+  Upgrade-SPContentDatabase <Name>
   ```
 
-    Where:
+  Where:
     
   -  _Name_ is the database name that you want to upgrade. 
     
-    You can also use the **-id** parameter and provide the database GUID instead of a database name. You can run the following cmdlet to find the GUID for a content database: 
+   You can also use the **-id** parameter and provide the database GUID instead of a database name. You can run the following cmdlet to find the GUID for a content database: 
     
   ```
   Get-SPContentDatabase -Identity <content_database_name>
   ```
 
-    For more information, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps) and [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
+   For more information, see [Upgrade-SPContentDatabase](/powershell/module/sharepoint-server/Upgrade-SPContentDatabase?view=sharepoint-ps) and [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
     
 ## Restart upgrade for a site collection
 <a name="DatabaseRestart"> </a>
@@ -130,7 +130,7 @@ Farm administrators can restart upgrade by using PowerShell.
   Upgrade-SPSite <http://site> -VersionUpgrade [-Unthrottled]
   ```
 
-    Where:
+  Where:
     
   -  _\<http://site\>_ is the URL for the site collection. 
     

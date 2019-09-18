@@ -1,8 +1,8 @@
 ---
 title: "Search-first migration from FAST Search Server for SharePoint 2010 to SharePoint Server 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/21/2018
 audience: ITPro
@@ -117,7 +117,10 @@ To complete a search-first migration:
 |Managed properties for "people search"  <br/> |No  <br/> |
 |Business Connectivity Services (BCS) connector and its associated configuration  <br/> |No  <br/> |
 |Custom connectors and their associated configuration  <br/> |No  <br/> |
-|Rank profile  <br/> > [!NOTE]> A FAST Search Server 2010 for SharePoint rank profile can't be converted to a SharePoint 2013 ranking model.           |No  <br/> |
+|Rank profile  <br/> |No  <br/> |
+
+> [!NOTE]
+> A FAST Search Server 2010 for SharePoint rank profile can't be converted to a SharePoint 2013 ranking model.          
    
 ## Features with limitations
 <a name="features_limitations"> </a>

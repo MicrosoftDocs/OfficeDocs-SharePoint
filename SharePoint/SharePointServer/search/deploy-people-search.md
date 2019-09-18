@@ -1,8 +1,8 @@
 ---
 title: "Deploy people search in SharePoint Server"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/8/2018
 audience: ITPro

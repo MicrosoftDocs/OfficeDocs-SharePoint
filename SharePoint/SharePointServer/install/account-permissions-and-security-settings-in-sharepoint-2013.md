@@ -1,8 +1,8 @@
 ---
 title: "Account permissions and security settings in SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/8/2017
 audience: ITPro
@@ -62,7 +62,7 @@ After you run the configuration wizards, machine-level permissions for the setup
   
 - Membership in the WSS_ADMIN_WPG Windows security group.
     
-- Membership in the IIS_WPG role.
+- Membership in the WSS_WPG role.
     
 After you run the configuration wizards, database permissions include:
   

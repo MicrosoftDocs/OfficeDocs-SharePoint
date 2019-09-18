@@ -1,8 +1,8 @@
 ---
 title: "Migrate from classic-mode to claims-based authentication in SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/20/2018
 audience: ITPro
@@ -64,7 +64,7 @@ In SharePoint 2010 Products, complete the following procedure to convert an exis
   $wa.Update()
   ```
 
-    Where:
+  Where:
     
   -  _\<yourWebAppUrl\>_ is the URL of the web application. 
     
@@ -81,7 +81,7 @@ In SharePoint 2010 Products, complete the following procedure to convert an exis
   $wa.Update()
   ```
 
-    For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps). 
+   For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-server/Get-SPWebApplication?view=sharepoint-ps). 
     
 4. From the PowerShell command prompt, type the following to perform user migration:
     
@@ -95,7 +95,7 @@ In SharePoint 2010 Products, complete the following procedure to convert an exis
   $wa.ProvisionGlobally()
   ```
 
-    For more information, see [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps).
+   For more information, see [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps).
     
 After you complete the previous procedures, you might experience one or more of the following issues:Users who submit valid credentials when accessing the migrated web application might be notified that they do not have permissions. If this occurs, the portalsuperuseraccount property and the portalsuperreaderaccount property of the web application were probably configured prior to migration. If this is the case, update the portalsuperuseraccount property and the portalsuperreaderaccount property to use the new claims-based account name. After migration, you can find the new claims-based account name in the web application policy for the migrated web application.If existing alerts are not invoked after migration, you might have to delete and recreate the alerts.If Search crawl does not function on the web application after migration, make sure that the Search crawl account lists the new converted account name. If the new converted account name is not listed, you must manually create a new policy for the crawl account.
   
@@ -147,7 +147,7 @@ In SharePoint 2013, complete the following procedure to convert an existing Shar
   New-SPWebApplication -name "ClaimsWebApp" -Port 80 -ApplicationPool "ClaimsAuthAppPool" -ApplicationPoolAccount (Get-SPManagedAccount "<domainname>\<user>") -AuthenticationMethod NTLM -AuthenticationProvider $ap
   ```
 
-    Where:
+  Where:
     
   -  _\<domainname\>_\ _\<user\>_ is the domain to which the server belongs and the name of the user account. 
     
@@ -162,12 +162,12 @@ In SharePoint 2013, complete the following procedure to convert an existing Shar
   Convert-SPWebApplication -Identity <yourWebAppUrl> -From Legacy -To Claims -RetainPermissions [-Force]
   ```
 
-    Where:
+  Where:
     
   -  _\<yourWebAppUrl\>_ is the URL of the web application. 
     
-    > [!NOTE]
-    > **Convert-SPWebApplication** converts the content databases to claims-based authentication. You have to verify that the users can access the web application after you have converted the content databases. 
+   > [!NOTE]
+   > **Convert-SPWebApplication** converts the content databases to claims-based authentication. You have to verify that the users can access the web application after you have converted the content databases. 
   
 9. If necessary, attach a third SharePoint 2010 Products content database to the new SharePoint 2013 claims-mode web application, and verify that the content database working correctly after you have attached it.
     
@@ -209,7 +209,7 @@ In SharePoint 2013, complete the following procedures to first create a classic-
   New-SPWebApplication -Name <Name> -ApplicationPool <ApplicationPool> -AuthenticationMethod <WindowsAuthType> -ApplicationPoolAccount <ApplicationPoolAccount> -Port <Port> -URL <URL>
   ```
 
-    Where:
+   Where:
     
   -  _\<Name\>_ is the name of the new web application that uses classic-mode authentication. 
     
@@ -273,7 +273,7 @@ In SharePoint 2013, complete the following procedure to create a classic-mode we
   New-SPWebApplication -name "ClassicAuthApp" -Port 100 -ApplicationPool "ClassicAuthAppPool" -ApplicationPoolAccount (Get-SPManagedAccount "<domainname>\<user>")
   ```
 
-    Where:
+  Where:
     
   -  _\<domainname\>_\ _\<user\>_ is the domain to which the server belongs and the name of the user account. 
     

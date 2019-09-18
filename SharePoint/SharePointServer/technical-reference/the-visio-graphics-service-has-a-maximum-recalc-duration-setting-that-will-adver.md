@@ -1,8 +1,8 @@
 ---
 title: "The Visio Graphics Service has a maximum recalc duration setting that will adversely impact user perceived performance ((SharePoint Server)"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro

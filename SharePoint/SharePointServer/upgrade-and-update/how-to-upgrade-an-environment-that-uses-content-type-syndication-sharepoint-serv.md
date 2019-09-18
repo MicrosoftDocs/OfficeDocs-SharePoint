@@ -1,8 +1,8 @@
 ---
 title: "How to upgrade an environment that uses content type syndication (SharePoint Server 2013)"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/21/2018
 audience: ITPro
@@ -118,7 +118,7 @@ If you want to continue to use any of the consuming site collections in the 2010
   Restore-SPSite <URL> -path <path>
   ```
 
-    Where:
+  Where:
     
   - \<URL\> is the URL for the new web application.
     
@@ -180,7 +180,7 @@ The following illustration shows the steps to follow to restore and upgrade the 
   Set-SPMetadataServiceApplication -Identity "<ServiceApplication>" -HubURI "<HubURI>"
   ```
 
-    For information, see [Set-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Set-SPMetadataServiceApplication?view=sharepoint-ps).
+  For information, see [Set-SPMetadataServiceApplication](/powershell/module/sharepoint-server/Set-SPMetadataServiceApplication?view=sharepoint-ps).
     
 7. Upgrade the ContentTypeHub1 site collection to 2013 mode.
     

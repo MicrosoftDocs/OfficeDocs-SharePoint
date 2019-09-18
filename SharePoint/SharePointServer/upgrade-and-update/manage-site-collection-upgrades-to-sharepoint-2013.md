@@ -1,8 +1,8 @@
 ---
 title: "Manage site collection upgrades to SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/21/2018
 audience: ITPro
@@ -57,7 +57,7 @@ When a site collection is available to upgrade, site collection administrators s
   $wa.UpgradeMaintenanceLink
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the web application that you want to check. 
     
@@ -70,7 +70,7 @@ When a site collection is available to upgrade, site collection administrators s
   $site.AllowSelfServiceUpgrade=<Value>
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the site collection that you want to affect. 
     
@@ -104,7 +104,7 @@ For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-s
   
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the web application that you want to affect. 
     
@@ -119,7 +119,7 @@ For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-s
   $site.AllowSelfServiceUpgrade=<Value>
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the site collection that you want to affect. 
     
@@ -158,11 +158,11 @@ You can control which mode (2010 or 2013, or both) can be used when a user creat
   # Returns the CompatibilityRange for the specified web application
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the web application that you want to check. 
     
-    This command returns the compatibility range for the specified web application. For example:
+   This command returns the compatibility range for the specified web application. For example:
     
   ```
   MaxCompatibilityLevel   MinCompatibilityLevel  DefaultCompatibilityLevel   Singular
@@ -177,11 +177,11 @@ You can control which mode (2010 or 2013, or both) can be used when a user creat
   [Microsoft.SharePoint.SPCompatibilityRange]::<RangeName>
   ```
 
-    Where:
+  Where:
     
   -  _RangeName_ is one of the following values: **OldVersions**, **NewVersion**, **AllVersions**. 
     
-    This command returns the compatibility range for the specified value. For example, for **NewVersion**: 
+   This command returns the compatibility range for the specified value. For example, for **NewVersion**: 
     
   ```
   MaxCompatibilityLevel   MinCompatibilityLevel  DefaultCompatibilityLevel   Singular
@@ -223,7 +223,7 @@ For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-s
   
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the web application that you want to change. 
     
@@ -245,13 +245,13 @@ For more information, see [Get-SPWebApplication](/powershell/module/sharepoint-s
   
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the web application that you want to change. 
     
   -  _Integer_ is a number to use as the minimum or maximum value. For example, (14,15) would set the MinCompatibilityLevel to 14 (2010) and the MaxCompatibilityLevel to 15 (2013). The DefaultCompatibilityLevel is automatically set to the lower of the MaxCompatibilityLevel and the current major version (for example, 15). 
     
-    This command sets and then returns the range that you specified. For example:
+   This command sets and then returns the range that you specified. For example:
     
   ```
   MaxCompatibilityLevel   MinCompatibilityLevel   DefaultCompatibilityLevel   Singular
@@ -310,7 +310,7 @@ The following procedure contains steps to view and manage the site collection up
   Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress -ShowCompleted -ShowFailed |ft
   ```
 
-    Where:
+  Where:
     
   -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
@@ -322,11 +322,11 @@ The following procedure contains steps to view and manage the site collection up
   Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress
   ```
 
-    Where:
+  Where:
     
   -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
-    For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps). 
+   For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps). 
     
 5. To see whether a particular site is in the queue, at the PowerShell command prompt, type the following command:
     
@@ -334,7 +334,7 @@ The following procedure contains steps to view and manage the site collection up
   Get-SPSiteUpgradeSessionInfo -Site <http://site>
   ```
 
-    Where:
+  Where:
     
   -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
     
@@ -346,11 +346,11 @@ The following procedure contains steps to view and manage the site collection up
   Upgrade-SPSite <http://site> -VersionUpgrade -QueueOnly
   ```
 
-    Where:
+  Where:
     
   -  _\<http://site\>_ is URL for the site collection you want to add to the upgrade queue. 
     
-    For more information, see [Upgrade-SPSite](/powershell/module/sharepoint-server/Upgrade-SPSite?view=sharepoint-ps). 
+   For more information, see [Upgrade-SPSite](/powershell/module/sharepoint-server/Upgrade-SPSite?view=sharepoint-ps). 
     
 7. To remove a site collection from the upgrade queue, at the PowerShell command prompt, type the following command:
     
@@ -362,7 +362,7 @@ The following procedure contains steps to view and manage the site collection up
     
   -  _\<URL\>_ is URL for the site collection you want to add to the upgrade queue. 
     
-    For more information, see [Remove-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Remove-SPSiteUpgradeSessionInfo?view=sharepoint-ps). 
+   For more information, see [Remove-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Remove-SPSiteUpgradeSessionInfo?view=sharepoint-ps). 
     
 ## Control site throttle settings for upgrade to SharePoint 2013
 <a name="Throttling"> </a>
@@ -397,11 +397,11 @@ The following procedure provides steps to view upgrade throttling settings for a
   $wa.SiteUpgradeThrottleSettings
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the web application that you want to check. 
     
-    This command returns the set of throttling settings for the specified web application. For example:
+   This command returns the set of throttling settings for the specified web application. For example:
     
   ```
   AppPoolConcurrentUpgradeSessionLimit : 5
@@ -448,13 +448,13 @@ You can change the upgrade throttle settings for a web application. The followin
   $wa.SiteUpgradeThrottleSettings.SubwebCountLimit=<Value>
   ```
 
-    Where:
+  Where:
     
   -  _\<URL\>_ is URL for the web applications that you want to affect. 
     
   -  _Value_ is the numeric value that you want to set for that limit (for example, 8). 
     
-    This command changes the throttling settings for a web application to the value that you supply. 
+   This command changes the throttling settings for a web application to the value that you supply. 
     
 For more information, see [Set-SPWebApplication](/powershell/module/sharepoint-server/Set-SPWebApplication?view=sharepoint-ps). 
   
@@ -489,11 +489,11 @@ The following procedure provides steps to view upgrade throttling settings for a
   # Returns the value for the limit for that database
   ```
 
-    Where:
+  Where:
     
   -  _\<DatabaseName\>_ is name of the database that you want to check. You can also use the GUID for the database instead of the name. 
     
-    This command returns the set of throttling settings for the specified content database.
+   This command returns the set of throttling settings for the specified content database.
     
 For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps). 
   
@@ -528,13 +528,13 @@ You can change the upgrade throttle settings for a content database. The followi
   # Changes the limit to the value you specify.
   ```
 
-    Where:
+  Where:
     
   -  _\<DatabaseName\>_ is name of the database that you want to affect. You can also use the GUID for the database instead of the name. 
     
   -  _\<value\>_ is a numeric value to set the property to, such as 9. 
     
-    This command changes the throttling settings for the specified content database to the value that you supply.
+   This command changes the throttling settings for the specified content database to the value that you supply.
     
 For more information, see [Set-SPContentDatabase](/powershell/module/sharepoint-server/Set-SPContentDatabase?view=sharepoint-ps). 
   
@@ -568,7 +568,7 @@ Site collection administrators can request a preview of their site collection. T
   Request-SPUpgradeEvaluationSiteCollection -identity URL to site
   ```
 
-    Where:
+  Where:
     
   -  _URL to site_ is the URL to a site collection in 2010 mode. 
     
@@ -602,7 +602,7 @@ You can upgrade a single site collection or all site collections in a specific d
   Upgrade-SPSite <http://site> -VersionUpgrade [-Unthrottled]
   ```
 
-    Where:
+  Where:
     
   -  _\<http://site\>_ is the URL for the site collection. 
     
@@ -635,11 +635,11 @@ To upgrade all site collections in a database, use PowerShell. However, because 
   Get-SPSite -ContentDatabase <DBName> -Limit All | Upgrade-SPSite -VersionUpgrade -QueueOnly
   ```
 
-    Where:
+  Where:
     
   -  _\<DBName\>_ is the name of the content database for which you want to upgrade all site collections. 
     
-    The **QueueOnly** parameter adds the site collections to the upgrade queue. This allows the timer job to perform parallel upgrades when it is possible and can save time. The sites are upgraded in the order in which they are added to the queue. 
+   The **QueueOnly** parameter adds the site collections to the upgrade queue. This allows the timer job to perform parallel upgrades when it is possible and can save time. The sites are upgraded in the order in which they are added to the queue. 
     
 This cmdlet upgrades all site collections in the specific content database to 2013 mode.
   
@@ -671,11 +671,11 @@ You can view upgrade status for all databases, for a single site collection, or 
   Get-SPSiteUpgradeSessionInfo -Site <http://site>
   ```
 
-    Where:
+  Where:
     
   -  _\<http://site\>_ is the URL of the site collection. 
     
-    This cmdlet returns the upgrade status for the specified site collection together with information about the upgrade session and a link to the log files for more information. For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps).
+   This cmdlet returns the upgrade status for the specified site collection together with information about the upgrade session and a link to the log files for more information. For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps).
     
 4. Or, you can use the following command to view the information about a specific site collection upgrade:
     
@@ -688,11 +688,11 @@ You can view upgrade status for all databases, for a single site collection, or 
   # Returns the upgrade information for the site collection
   ```
 
-    Where:
+  Where:
     
   -  _\<http://site\>_ is the URL of the site collection. 
     
-    This command returns the compatibility level and upgrade information (such as a pointer to the log file) for the specified site collection. If the compatibility level is "15," then it has been upgraded to 2013 mode. For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps).
+   This command returns the compatibility level and upgrade information (such as a pointer to the log file) for the specified site collection. If the compatibility level is "15," then it has been upgraded to 2013 mode. For more information, see [Get-SPSite](/powershell/module/sharepoint-server/Get-SPSite?view=sharepoint-ps).
     
  **To view upgrade status for a single database by using PowerShell**
   
@@ -717,11 +717,11 @@ You can view upgrade status for all databases, for a single site collection, or 
   Get-SPSiteUpgradeSessionInfo -ContentDatabase <DatabaseName> -ShowInProgress -ShowCompleted -ShowFailed
   ```
 
-    Where:
+  Where:
     
   -  _\<DatabaseName\>_ is the name of the database that you want to check. 
     
-    This cmdlet returns any site collections that have an upgrade in progress, completed, or failed and lists their status, plus a link to the log files for more information. You can use only one parameter to find only in progress, completed, or failed upgrades. For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps).
+   This cmdlet returns any site collections that have an upgrade in progress, completed, or failed and lists their status, plus a link to the log files for more information. You can use only one parameter to find only in progress, completed, or failed upgrades. For more information, see [Get-SPSiteUpgradeSessionInfo](/powershell/module/sharepoint-server/Get-SPSiteUpgradeSessionInfo?view=sharepoint-ps).
     
  **To view upgrade status for all site collections by using PowerShell**
   

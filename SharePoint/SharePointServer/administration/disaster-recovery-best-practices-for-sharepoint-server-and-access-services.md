@@ -1,8 +1,8 @@
 ---
 title: "Disaster Recovery best practices for SharePoint Server and Access Services"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/10/2018
 audience: ITPro
@@ -93,12 +93,12 @@ Write the ServerRefID to the screen for use when registering the secondary farm 
 ```
 $serverGroupName = 'DEFAULT'
 $DatabaseServerName = "<Secondary Access Database Server>"
+$PrimaryServerRefID = "<Primary Server Reference ID>"
 $ASapp = Get-SPAccessServicesApplication
 $app = $Null
 if ($ASapp.length -ne $Null) { $app = $ASapp[0] } else { $app = $ASapp }
 $context = [Microsoft.SharePoint.SPServiceContext]::GetContext($app.ServiceApplicationProxyGroup, [Microsoft.SharePoint.SPSiteSubscriptionIdentifier]::Default)
-$newdbserver = New-SPAccessServicesDatabaseServer -ServiceContext $context -DatabaseServerName "SecondaryDatabaseServerName" -DatabaseServerGroup $serverGroupName -ServerReferenceId "<PrimaryServerRefID>" -AvailableForCreate $true
-#<PrimaryServerRefID> in the above script represents the same ServerRefID from the primary farm registration
+$newdbserver = New-SPAccessServicesDatabaseServer -ServiceContext $context -DatabaseServerName $DatabaseServerName  -DatabaseServerGroup $serverGroupName -ServerReferenceId $PrimaryServerRefID -AvailableForCreate $true
 ```
 
 You can reference as many Access Services Application Database Servers as you need. In this simple scenario we only have one. If you have many, make sure you track the registrations and ensure that, in recovery, the databases are recovered correctly to the matched server in the DR site.

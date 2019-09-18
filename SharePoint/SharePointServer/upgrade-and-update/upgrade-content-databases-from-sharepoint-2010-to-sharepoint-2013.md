@@ -1,8 +1,8 @@
 ---
 title: "Upgrade content databases from SharePoint 2010 to SharePoint 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/20/2018
 audience: ITPro
@@ -147,7 +147,7 @@ Before you attach the content databases to the web applications, use the **Test-
   Test-SPContentDatabase -Name DatabaseName -WebApplication URL
   ```
 
-    Where:
+  Where:
     
   -  _DatabaseName_ is the name of the database that you want to test. 
     
@@ -202,7 +202,7 @@ Ensure that the account that you use to attach the databases is a member of the 
   Mount-SPContentDatabase -Name DatabaseName -DatabaseServer ServerName -WebApplication URL
   ```
 
-    Where:
+  Where:
     
   -  _DatabaseName_ is the name of the database that you want to upgrade. 
     
