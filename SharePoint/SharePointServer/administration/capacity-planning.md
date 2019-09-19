@@ -103,7 +103,7 @@ If you have an existing Office SharePoint Server 2007 solution, you can mine the
 
 To discover key metrics about an existing SharePoint Server 2013 deployment, such as how many users are active, how heavily they are using the system, what kind of requests are coming in, and from what kind of clients they originate, it is necessary to extract data from ULS and IIS logs. One of the easiest ways to acquire this data is to use **Log Parser**, a powerful tool available free for download from Microsoft. Log Parser can read and write to a number of textual and binary formats, including all the IIS formats.
   
-For detailed information about how to analyze SharePoint Server 2013 usage using Log Parser, read [Analyzing Microsoft SharePoint Products and Technologies Usage](http://www.microsoft.com/downloads/details.aspx?familyid=f159af68-c3a3-413c-a3f7-2e0be6d5532e&amp;displaylang=en&amp;tm) (http://www.microsoft.com/downloads/details.aspx?familyid=f159af68-c3a3-413c-a3f7-2e0be6d5532e&amp;displaylang=en&amp;tm). 
+For detailed information about how to analyze SharePoint Server 2013 usage using Log Parser, read [Analyzing Microsoft SharePoint Products and Technologies Usage](https://files-cdn.cnblogs.com/files/splover/Analyzing_SharePoint_Usage.pdf) 
   
 You can download Log Parser 2.2 at [http://www.microsoft.com/downloads/details.aspx?FamilyID=890CD06B-ABF8-4C25-91B2-F8D975CF8C07&amp;displaylang=en](http://www.microsoft.com/downloads/details.aspx?FamilyID=890CD06B-ABF8-4C25-91B2-F8D975CF8C07&amp;displaylang=en). 
   
