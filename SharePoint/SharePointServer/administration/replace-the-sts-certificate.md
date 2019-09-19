@@ -89,7 +89,11 @@ From an elevated Command Prompt, run the following to create and install the cer
 ```
 certreq -net request.inf
 certutil -store My "sts.contoso.com"
-certutil -exportPFX -p "P@ssw0rd1!" CA 1f4758121a6ede8c4b81c8ca60a2d72a C:\sts.pfx
+````
+copy the SerialNumber output from the second command and use it in the following command. Replace <SerialNumber> with the actual value.
+  
+```
+certutil -exportPFX -p "P@ssw0rd1!" CA <SerialNumber> C:\sts.pfx
 ```
 
 The first step creates the certificate based on the above request. The second step allows us to find the Serial Number of our new certificate. Finally, the last step exports the certificate to a PFX secured by a password.
