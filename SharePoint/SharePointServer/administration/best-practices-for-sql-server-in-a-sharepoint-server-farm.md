@@ -45,7 +45,7 @@ To ensure optimal performance for farm operations, we recommend that you install
 
 To ensure consistent behavior and performance, configure the following options and settings before you deploy SharePoint Server. 
 
-- To mantain simplicity and ease to mantain database, it's recommended to use a single instance over multiple instances on the same server due to performance overheads.
+- Due to potential performance issues with maintaining multiple SQL instances, we recommend that you use a single instance of SQL Server per deployed database server.
   
 - Do not enable auto-create statistics on SharePoint content databases. Enabling auto-create statistics is not supported for SharePoint Server. SharePoint Server configures the required settings during provisioning and upgrade. Manually enabling auto-create statistics on a SharePoint database can significantly change the execution plan of a query. The SharePoint databases either use a stored procedure that maintains the statistics (proc_UpdateStatistics) or rely on SQL Server to do this.
 
