@@ -95,7 +95,7 @@ When a user adds a file to their individual library, that file is not shared wit
 
 A user's individual library can be accessed from Teams, as well as from the OneDrive web interface and mobile application.
 
-On devices running Windows or macOS, users can install the OneDrive sync client to sync files from both OneDrive and SharePoint to their local disk. This allows them to work on files offline and also provides the convenience of opening files in their native application (such as Word or Excel) without the need of going to the web interface.
+On devices running Windows or macOS, users can install the OneDrive sync app to sync files from both OneDrive and SharePoint to their local disk. This allows them to work on files offline and also provides the convenience of opening files in their native application (such as Word or Excel) without the need of going to the web interface.
 
 The two main decisions to consider for using OneDrive in collaboration scenarios are:
 
