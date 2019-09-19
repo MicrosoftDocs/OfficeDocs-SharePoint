@@ -25,27 +25,27 @@ The three main types of sites in SharePoint are:
 
 - **Team sites** - Team sites provide a collaboration environment for your teams and projects. Each team site, by default, is part of an Office 365 group, which includes a mailbox, shared calendar, and other collaboration tools. Team sites may also be part of a team in Microsoft Teams. Permissions for team sites are best managed through the associated Office 365 group or Teams team.
 - **Communication sites** - Communication sites are for broadcasting news and status across the organization. Communication site permissions are managed by using the SharePoint Owners, Members, and Visitors groups for the site.
-- **Hub sites** - Hub sites are team sites or communication sites that the administrator has designated as a hub. They are designed to provide connection through shared navigation between related sites. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Office 365 group if there is one. Special permissions are needed to associate sites to a hub site.
+- **Hub sites** - Hub sites are team sites or communication sites that the administrator has configured as a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Office 365 group if there is one. Special permissions are needed to associate sites to a hub site.
 
 ## Team site permissions and Office 365 Groups
 
-By default, each SharePoint team site is part of an [Office 365 group](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2). An Office 365 group is a single permissions group that is associated with a variety of Office 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. 
+By default, each SharePoint team site is part of an [Office 365 group](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2). An Office 365 group is a single permissions group that is associated with various Office 365 services. This includes a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others.
 
-When you add owners or members to the Office 365 group, they are given access to the SharePoint site along with the other group-connected services. Group owners become site owners, and group members become site members.
+When you add owners or members to the Office 365 group, they're given access to the SharePoint site along with the other group-connected services. Group owners become site owners, and group members become site members.
 
-It is possible to manage SharePoint site permissions separately from the Office 365 group by using SharePoint groups, but we recommend against it. In such a case, group members will continue to have access to the site, but users added directly to the site will not have access to any of the group services. The exception is view-only access - Office 365 groups do not have a visitors permission for view-only access, so any users you wish to have view permissions on the site must be added directly to the visitors group on the site.
+It's possible to manage SharePoint site permissions separately from the Office 365 group by using SharePoint groups, but we recommend against it. In such a case, group members will continue to have access to the site, but users added directly to the site won't have access to any of the group services. The exception is view-only access - Office 365 groups don't have a visitors permission for view-only access, so any users you wish to have view permissions on the site must be added directly to the visitors group on the site.
 
 ### Using team sites with Teams
 
-Microsoft Teams provides a hub for collaboration by bringing together a variety of services including a SharePoint team site. Within the Teams experience, users can directly access SharePoint along with the other services. Each team is associated with an Office 365 group and Teams uses that group to manage its permissions.
+Microsoft Teams provides a hub for collaboration by bringing together various services including a SharePoint team site. Within the Teams experience, users can directly access SharePoint along with the other services. Each team is associated with an Office 365 group and Teams uses that group to manage its permissions.
 
-For scenarios where a SharePoint site is used with Teams, we recommend doing all permission management through Teams. As with Office 365 groups, team owners become site owners and team members become site members.
+For scenarios where a SharePoint site is used with Teams, we recommend doing all permission management through Teams. As with Office 365 groups, team owners become site owners and team members become site members. View-only permissions are managed through the site.
 
 For details about how SharePoint and Teams interact, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
 
 ## Communication site permissions
 
-Communication sites are not connected to Office 365 groups and use the standard SharePoint permissions groups:
+Communication sites aren't connected to Office 365 groups and use the standard SharePoint permissions groups:
 
 - Owners
 - Members
@@ -55,7 +55,7 @@ Normally with communication sites, you'll have one or more owners, a relatively 
 
 You can give people permissions to the site by adding individual users, security groups, or Office 365 groups to one of the three SharePoint groups.
 
-If a communication site is directly related to a team in Teams, you may want to add the Office 365 group associated with the team to the members group of the communication site. This will allow members of the team to create content in the communication site.
+If a communication site is used by members of a team in Teams, you may want to add the Office 365 group associated with the team to the members group of the communication site. This will allow members of the team to create content in the communication site.
 
 The visitors group is a good place to use security groups. In many organizations, this is the easiest way to add large numbers of users to a site.
 
@@ -63,7 +63,7 @@ The visitors group is a good place to use security groups. In many organizations
 
 Managing permissions in hub sites is dependent on the underlying type of site. If the site is a group-connected team site, then you should manage permissions through the Office 365 group. If it's a communication site, then you should manage permissions through the SharePoint groups.
 
-Hub site owners define the shared experiences for hub navigation and theme. Hub site members create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on individual sites.
+Hub site owners define the shared experiences for hub navigation and theme. Hub site members create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on their individual sites.
 
 The SharePoint administrator must specify which users can connect other sites to the hub site. This is done in the SharePoint admin center and cannot be changed by site owners.
 
@@ -73,8 +73,8 @@ The SharePoint administrator must specify which users can connect other sites to
 
 Giving people permissions to a site, group, or team gives them access to all site content. If you want to share an individual file or folder, you can do so with sharable links. There are three primary link types:
 
-  - *Anyone* links give access to the item to anyone who has the link, including people outside your organization. People using an *Anyone* link do not have to authenticate, and their access cannot be audited.
-  - *People in your organization* links work for only people inside your Office 365 organization. (They do not work for guests in the directory, only members).  
+  - *Anyone* links give access to the item to anyone who has the link, including people outside your organization. People using an *Anyone* link don't have to authenticate, and their access can't be audited.
+  - *People in your organization* links work for only people inside your Office 365 organization. (They don't work for guests in the directory, only members).  
   - *Specific people* links only work for the people that users specify when they share the item.  
 
 For more about the different types of sharing links, see [Securing your data](https://docs.microsoft.com/en-us/sharepoint/deploy-file-collaboration#securing-your-data).
@@ -101,7 +101,7 @@ Azure AD B2B provides authentication and management of guest users. Authenticati
 
 With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites.
 
-With Azure B2B integration, all guest users are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md)
+With Azure B2B integration, all guest users are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md).
 
 ## See also
 
