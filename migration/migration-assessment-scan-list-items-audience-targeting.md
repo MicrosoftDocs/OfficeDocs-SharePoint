@@ -13,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 
 ---

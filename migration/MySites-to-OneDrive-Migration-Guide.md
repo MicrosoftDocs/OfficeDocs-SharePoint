@@ -13,8 +13,6 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-ms.custom: 
-ms.assetid: 
 
 ---
 

@@ -15,7 +15,7 @@ search.appverid:
 - ODB160
 - MET150
 ms.assetid: 2f748bc6-6f01-4406-a791-ec047f066d6d
-description: "Learn how the OneDrive sync client works"
+description: "Learn how the OneDrive sync app works"
 ---
 
 # How sync works
@@ -28,13 +28,21 @@ This article gives you an overview of how sync works in OneDrive. It helps you u
   
 ## How information flows
 
-The OneDrive sync client uses [Windows Push Notification Services](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview) (WNS) to sync files in real time. WNS informs the sync client whenever a change actually happens, eliminating redundant polling and saving on unnecessary computing power.
+<<<<<<< Updated upstream
+The OneDrive sync app uses [Windows Push Notification Services](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview) (WNS) to sync files in real time. WNS informs the sync app whenever a change actually happens, eliminating redundant polling and saving on unnecessary computing power.
+=======
+The OneDrive sync app uses [Windows Push Notification Services](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview) (WNS) to sync files in real time. WNS informs the sync client whenever a change actually happens, eliminating redundant polling and saving on unnecessary computing power.
+>>>>>>> Stashed changes
 
 Here’s how it works:
 
 - A change occurs in Office 365.
 
-- WNS alerts the OneDrive sync client of the change.
+<<<<<<< Updated upstream
+- WNS alerts the OneDrive sync app of the change.
+=======
+- WNS alerts the sync app of the change.
+>>>>>>> Stashed changes
 
 - OneDrive adds it to the Internal Server Changes Queue.
     - Any metadata changes happen immediately, like renaming or deleting files.
@@ -56,7 +64,7 @@ For other types of files and folders, items smaller than 8 MB are sent inline in
   
 ## The underlying technologies
 
-The OneDrive sync client uses the following to sync files:
+The OneDrive sync app uses the following to sync files:
 
 - To find new changes and upload information: Microsoft-my.shareppoint.com/personal/<your library id>/_api/SPFileSync.svc
 
@@ -64,7 +72,6 @@ The OneDrive sync client uses the following to sync files:
 
 - To discover the sites and organizations a user can access: odc.officeapps.live.com
   
- ## Security and encryption
+## Security and encryption
 
 File chunks are stored in multiple containers in Azure, each of which is given a unique key. Each key is required to reassemble the complete file. There’s also a separate master key encrypting each file chunk key, ensuring the data remain secure even when not moving.
-
