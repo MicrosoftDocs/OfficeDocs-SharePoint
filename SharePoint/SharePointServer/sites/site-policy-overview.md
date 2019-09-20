@@ -48,7 +48,7 @@ A site policy specifies the conditions under which to close or delete a site aut
     
 A site policy can also specify that if it is applied to the root site in a site collection, when the root site is closed, the root site and all sub-sites become read-only.
 
-Site policies are also available in SharePoint Server 2019 modern Team and Communication sites. You must first activate the **Site Polcy** feature before it appears on the **Site Settings** page. 
+Site policies are also available in SharePoint Server 2019 modern Team and Communication sites. You must first activate the **Site Policy** feature before it appears on the **Site Settings** page. 
   
 ## Defining SharePoint site policies
 
