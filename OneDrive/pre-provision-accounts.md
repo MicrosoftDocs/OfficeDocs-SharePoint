@@ -55,7 +55,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     > To run the **Request-SPOPersonalSite** PowerShell command, you need to allow all effective users for sign-in.
     
     > [!NOTE]
-    > If you need to allow effective users for sign-in you can run the Powershell command **Set-MsolUser**, you can consume the text file you previously created in Step 1.
+    > If you need to allow effective users for sign-in, you can run the PowerShell command **Set-MsolUser** using the text file you previously created in Step 1.
 
     >```PowerShell
     >Get-Content -path "C:\Users.txt" | foreach{Set-MsolUser -UserPrincipalName $_ -BlockCredential $False}
