@@ -20,11 +20,7 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 # B2B Sync
 
-<<<<<<< Updated upstream
 The OneDrive sync app now lets users sync libraries or folders in SharePoint or OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We’re calling this new feature in the OneDrive sync app "B2B Sync". 
-=======
-The OneDrive sync app now lets users sync libraries or folders in SharePoint or OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We’re calling this new feature in the sync app "B2B Sync".
->>>>>>> Stashed changes
 
 > [!IMPORTANT]
 > This feature is not yet enabled for our customers in our Enterprise ring. Once build 19.086.* or newer is available to Enterprise ring users, the B2B Sync feature will be enabled.  [See the release notes for rollout info](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
@@ -48,13 +44,8 @@ This article gives an overview of the B2B Sync experience and describes these re
 
 ## Known issues with this release
 
-<<<<<<< Updated upstream
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
 - On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
-=======
-- On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization.
-- On the Mac, if the guest account was created with a different email address format than the form they are using with the sync client, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
->>>>>>> Stashed changes
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
 
 ## Overview of the B2B Sync experience
@@ -77,28 +68,18 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
 
 5. If this is the first time the guest has used the sync app with their Fabrikam account, they'll need to sign in. The email address will be automatically set to the Fabrikam account used in the previous steps. The guest needs to select "Sign in."
 
-<<<<<<< Updated upstream
 6. The guest might be able to sign in to the sync app without entering their Fabrikam password if they're signed in to Windows with the same account. Otherwise they'll need to enter their password.
  
 7. The guest will confirm where they want to sync the shared item on their computer. 
-=======
-6. The guest might be able to sign in to the sync client without entering their Fabrikam password if they're signed in to Windows with the same account. Otherwise they'll need to enter their password.
-
-7. The guest will confirm where they want to sync the shared item on their computer.
->>>>>>> Stashed changes
 
     > [!NOTE]
     > The content is placed in a folder whose name includes the name of the organization ("SharePoint - Contoso" in this example). If the user is syncing SharePoint content from Fabrikam as well, they'll also have a "SharePoint - Fabrikam" folder.
 
-<<<<<<< Updated upstream
 8.	The guest will continue through the OneDrive sync app setup wizard.
-=======
-8. The guest will continue through the sync app setup wizard.
 
 9. After closing the wizard, the site will begin syncing. The user can click the blue cloud icon in the notification area to open the OneDrive sync activity center and see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
 
 ## Enable external sharing for your organization
->>>>>>> Stashed changes
 
 In order for users at your organization to be able to share with their partners at other organizations, external sharing must be enabled at the organization level. To do this, you must be a global or SharePoint admin in Office 365. After you enable external sharing at the organization level, you can restrict it site by site. A site's settings can be the same as the organization setting, or more restrictive, but not more permissive.
 
@@ -255,15 +236,9 @@ For more info, see:
 - [Add user without invite](/azure/active-directory/b2b/add-user-without-invite)
 
 ## When a guest loses access to shared content
-<<<<<<< Updated upstream
  
 If a person’s guest account is deleted or their permission to shared content is removed, the sync app will display an error.
  
-=======
-
-If a person’s guest account is deleted or their permission to shared content is removed, the sync client will display an error.
-
->>>>>>> Stashed changes
 - A notification will appear indicating that the library can’t be synced.
 
     ![We can't sync your document library notification](media/cant-sync-notification.png)
@@ -274,9 +249,6 @@ If a person’s guest account is deleted or their permission to shared content i
 When the guest clicks the icon, they will see an error banner in the activity center.
 
 ![OneDrive needs your attention message](media/error-activity-center.png)
-
-When they click the "One or more libraries could not be synced" banner, they can learn how to resolve the issue.
-
 ![Request access or stop syncing library](media/error-resolution.png)
 
 ## Policy Setting to Prevent B2B Sync
@@ -285,11 +257,7 @@ The B2B Sync feature of the OneDrive sync app allows users at an organization to
 
 You only need to take these actions if you wish to prevent users at your organization from using the B2B Sync feature (to prevent syncing libraries and folders shared from other organizations).
 
-<<<<<<< Updated upstream
-The new BlockExternalSync setting is described in the adm\OneDrive.admx and OneDrive.adml files installed as part of the OneDrive sync product build 19.086.* or higher.  If you use ADM to manage your OneDrive sync app policies, import the new files as you normally would to see the new setting.
-=======
 The new BlockExternalSync setting is described in the adm\OneDrive.admx and OneDrive.adml files installed as part of the OneDrive sync product build 19.086.* or higher.  If you use ADM to manage your sync app policies, import the new files as you normally would to see the new setting.
->>>>>>> Stashed changes
 
 If you are using other management systems to deploy policies to your users' Windows PCs, use the equivalent of the following command to prevent B2B Sync:
 reg add "HKLM\SOFTWARE\Policies\Microsoft\OneDrive" /v BlockExternalSync /t REG_DWORD /d 1
