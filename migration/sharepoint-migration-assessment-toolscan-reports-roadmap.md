@@ -9,8 +9,8 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection:
--SPMigration
--M365-collaboration
+- SPMigration
+- M365-collaboration
 description: "Learn more about preparing your data for migration."
 ---
 
