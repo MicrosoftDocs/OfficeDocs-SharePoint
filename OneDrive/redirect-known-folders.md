@@ -23,11 +23,7 @@ description: "Learn how to redirect users' Documents folders or other known fold
 
 # Redirect and move Windows known folders to OneDrive
 
-<<<<<<< Updated upstream
 This article is for IT admins managing the OneDrive sync app in a Windows Server enterprise environment that uses Active Directory Domain Services. 
-=======
-This article is for IT admins managing the OneDrive sync app in a Windows Server enterprise environment that uses Active Directory Domain Services.
->>>>>>> Stashed changes
   
 There are two primary advantages of moving or redirecting Windows known folders (Desktop, Documents, Pictures, Screenshots, and Camera Roll) to OneDrive for Business for the users in your domain:
   
@@ -57,13 +53,8 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
     If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard)
-<<<<<<< Updated upstream
     
     Use this setting to redirect known folders to OneDrive without any user interaction. Before sync app build 18.171.0823.0001, this setting redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
-=======
-
-    Use this setting to redirect known folders to OneDrive without any user interaction. Before sync client build 18.171.0823.0001, this setting redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
->>>>>>> Stashed changes
 
     > [!NOTE]
     > You can choose to display a notification to users after their folders have been redirected.  
