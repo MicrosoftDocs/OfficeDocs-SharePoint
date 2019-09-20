@@ -23,7 +23,7 @@ description: "Learn how to redirect users' Documents folders or other known fold
 
 # Redirect and move Windows known folders to OneDrive
 
-This article is for IT admins managing the OneDrive sync app in a Windows Server enterprise environment that uses Active Directory Domain Services.
+This article is for IT admins managing the OneDrive sync app in a Windows Server enterprise environment that uses Active Directory Domain Services. 
   
 There are two primary advantages of moving or redirecting Windows known folders (Desktop, Documents, Pictures, Screenshots, and Camera Roll) to OneDrive for Business for the users in your domain:
   

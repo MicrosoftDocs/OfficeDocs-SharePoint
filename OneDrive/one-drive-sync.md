@@ -13,7 +13,8 @@ description: "Learn about the OneDrive sync app"
 
 # The OneDrive sync app
 
-When a user installs the OneDrive sync app for Windows or Mac, they can work with their OneDrive files in File Explorer or Finder. They can also easily save files to OneDrive from the programs they use.
+When a user installs the OneDrive sync app for Windows or Mac, they can work with their OneDrive files in File Explorer or Finder. They can also easily save files to OneDrive from the programs they use. 
+
 When users add, change, and delete files and folders from the OneDrive mobile app or by accessing their OneDrive from a web browser, the files and folders are automatically added, changed, or deleted on their computer and vice versa.
 To upload files to OneDrive, users can simply copy or move them to OneDrive in File Explorer or Finder. They can also use File Explorer to easily organize their OneDrive by creating new folders, and moving and renaming files and folders. All these changes sync automatically.
 
