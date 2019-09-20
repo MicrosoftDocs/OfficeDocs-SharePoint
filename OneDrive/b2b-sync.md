@@ -20,7 +20,7 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 # B2B Sync
 
-The OneDrive sync app now lets users sync libraries or folders in SharePoint or OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We’re calling this new feature in the sync app "B2B Sync".
+The OneDrive sync app now lets users sync libraries or folders in SharePoint or OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We’re calling this new feature in the OneDrive sync app "B2B Sync". 
 
 > [!IMPORTANT]
 > This feature is not yet enabled for our customers in our Enterprise ring. Once build 19.086.* or newer is available to Enterprise ring users, the B2B Sync feature will be enabled.  [See the release notes for rollout info](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
@@ -44,8 +44,8 @@ This article gives an overview of the B2B Sync experience and describes these re
 
 ## Known issues with this release
 
-- On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization.
-- On the Mac, if the guest account was created with a different email address format than the form they are using with the sync client, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
+- On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
+- On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
 
 ## Overview of the B2B Sync experience
@@ -68,14 +68,14 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
 
 5. If this is the first time the guest has used the sync app with their Fabrikam account, they'll need to sign in. The email address will be automatically set to the Fabrikam account used in the previous steps. The guest needs to select "Sign in."
 
-6. The guest might be able to sign in to the sync client without entering their Fabrikam password if they're signed in to Windows with the same account. Otherwise they'll need to enter their password.
-
-7. The guest will confirm where they want to sync the shared item on their computer.
+6. The guest might be able to sign in to the sync app without entering their Fabrikam password if they're signed in to Windows with the same account. Otherwise they'll need to enter their password.
+ 
+7. The guest will confirm where they want to sync the shared item on their computer. 
 
     > [!NOTE]
     > The content is placed in a folder whose name includes the name of the organization ("SharePoint - Contoso" in this example). If the user is syncing SharePoint content from Fabrikam as well, they'll also have a "SharePoint - Fabrikam" folder.
 
-8. The guest will continue through the sync app setup wizard.
+8.	The guest will continue through the OneDrive sync app setup wizard.
 
 9. After closing the wizard, the site will begin syncing. The user can click the blue cloud icon in the notification area to open the OneDrive sync activity center and see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
 
@@ -249,9 +249,6 @@ If a person’s guest account is deleted or their permission to shared content i
 When the guest clicks the icon, they will see an error banner in the activity center.
 
 ![OneDrive needs your attention message](media/error-activity-center.png)
-
-When they click the "One or more libraries could not be synced" banner, they can learn how to resolve the issue.
-
 ![Request access or stop syncing library](media/error-resolution.png)
 
 ## Policy Setting to Prevent B2B Sync

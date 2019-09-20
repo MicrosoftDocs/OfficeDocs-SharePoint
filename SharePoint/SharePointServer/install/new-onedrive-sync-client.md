@@ -89,7 +89,7 @@ The OneDrive sync app creates the following folders on users’ computers:
 OneDrive – Contoso (for syncing personal My Site files)
 Contoso (for syncing SharePoint team site files)
 
-In SharePoint Online, “Contoso” is the tenant name that has been set for the SharePoint Online instance. In SharePoint on-premises, there is no tenant name associated to the instance of SharePoint. You can set the this with the “Specify SharePoint Server URL and organization name” group policy, or the sync app will use the first segment of your SharePoint URL.
+In SharePoint Online, “Contoso” is the tenant name that has been set for the SharePoint Online instance. In SharePoint on-premises, there is no tenant name associated to the instance of SharePoint. You can set the this with the “Specify SharePoint Server URL and organization name” group policy, or the sync app will use the first segment of your SharePoint URL. 
    
 ### File thumbnails and previews
 Thumbnails don’t appear in File Explorer for files synced from SharePoint on-premises. If you enable Files On-Demand, and a file is online-only, a file preview won’t be available. Image files and Office files will not have a thumbnail in File Explorer until the file is downloaded.
@@ -104,3 +104,4 @@ When setting up SharePoint Server, you’ll be prompted to select if clients sho
 1.	Right-click the OneDrive cloud icon in the notification area, at the far right of the taskbar.
 2.	Click **Settings**. 
 3.	Click the **Settings** tab, and then clear the option under **Privacy**.
+
