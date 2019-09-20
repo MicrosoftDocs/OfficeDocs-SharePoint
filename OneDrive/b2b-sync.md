@@ -86,7 +86,7 @@ In order for users at your organization to be able to share with their partners 
 You can change your organization-level sharing settings in three different places (all three control the same thing):
 
 - In the Microsoft 365 admin center, under Settings \> Services &amp; add-ins \> Sites. For more info, see [Change the organization-level external sharing setting](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting)
-- On the [Sharing page in the OneDrive admin center](manage-sharing.md#control-external-sharing-for-onedrive-and-sharepoint)
+- On the Sharing page in the OneDrive admin center
 - On the sharing page in the in the classic SharePoint admin center, where you can also specify detailed options. For more info, see [Additional settings](/sharepoint/turn-external-sharing-on-or-off#additional-settings).
 
 > [!IMPORTANT]
