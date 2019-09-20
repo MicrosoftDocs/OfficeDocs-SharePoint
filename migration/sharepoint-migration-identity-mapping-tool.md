@@ -9,8 +9,8 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
--SPmigration
--M365-collaboration
+- SPmigration
+- M365-collaboration
 description: "Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to assist in your Identity Migration."
 ---
 
