@@ -165,6 +165,7 @@ To block or limit access to specific sites, you must set the organization-wide p
     ```
 
     This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request, which is fastest.
+
     
 > [!NOTE]
 > The site-level setting must be at least as restrictive as the organization-level setting. <br>By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
