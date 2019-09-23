@@ -44,11 +44,12 @@ Here are some articles that provide key information you may want to refer to dur
   
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
-|What SharePoint features are available in different Office 365 plans, or how different SharePoint Online plans compare to SharePoint Server on-premises  <br/> |[SharePoint Online Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description) <br/> |
+|How to use services across Microsoft 365 to create a secure guest sharing environment <br/> |[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment) <br/> |
 |SharePoint Online video training  <br/> |[SharePoint training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23) <br/> |
 |Storage space, number of supported sites, number of supported users  <br/> |[SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) <br/> |
 |How to use the SharePoint Online Management Shell to perform administrative tasks from the command line  <br/> |[Getting started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) <br/> |
 |How to integrate an on-premises deployment of SharePoint Server with SharePoint Online  <br/> |[Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid) <br/> |
+|How to migrate content from SharePoint Server to SharePoint Online.<br/>|[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)<br/>|
 |Where to find partners who provide solutions or services for Office 365  <br/> |[Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search) <br/> |
    
 
