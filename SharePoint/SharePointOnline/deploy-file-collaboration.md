@@ -87,9 +87,9 @@ We highly recommend deploying Office 365 ProPlus. Office 365 ProPlus provides an
 
 For details about deploying Office 365 ProPlus, see [Deployment guide for Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus).
 
-## Individual libraries
+## OneDrive libraries
 
-While SharePoint provides shared libraries for shared files that teams can collaborate on, users also have an individual library where they can store files that they own.
+While SharePoint provides shared libraries for shared files that teams can collaborate on, users also have an individual library in OneDrive where they can store files that they own.
 
 When a user adds a file to their individual library, that file is not shared with anyone else. Users' individual libraries do, however, provide the same sharing capabilities as SharePoint, so users can share files in their individual libraries as needed.
 
@@ -136,6 +136,8 @@ The sharing settings that you configure for SharePoint and OneDrive determine wh
   - Restrict sharing to specified domains
 
 You can configure these settings for the entire organization, or for each site independently. For detailed information, see [Turn sharing on or off](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off) and [Turn sharing on or off for a site](https://docs.microsoft.com/sharepoint/change-external-sharing-site).
+
+See [Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure) for additional guidance around guest sharing.
 
 When users share files and folders, a shareable link is created which has permissions to the item. There are three primary link types:
 
@@ -317,7 +319,9 @@ For information on how to migrate content with the SharePoint Migration Tool, se
 
 ## Related topics
 
-[Welcome to Teams](https://docs.microsoft.com/microsoftteams/teams-overview)
+[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
+
+[Best practices for sharing files and folders with anonymous users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
 
 [Understanding how Microsoft Information Protection capabilities work together](https://youtu.be/FcOMnAL_LKA)
 
