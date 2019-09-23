@@ -43,5 +43,5 @@ You can prevent users from uploading specific file types when they sync their On
   
 5. Click **Save** on the Sync page. 
     
-For info about setting this sync client restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 

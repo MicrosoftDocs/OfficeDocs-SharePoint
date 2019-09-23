@@ -45,5 +45,5 @@ To make sure that users sync OneDrive files only on managed computers, you can c
     
 6. Click **Save** on the Sync page. 
     
-For info about setting this sync client restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 

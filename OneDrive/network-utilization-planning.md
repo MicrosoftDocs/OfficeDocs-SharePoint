@@ -123,11 +123,11 @@ You can also use policies included with the OneDrive sync app to control network
   
 For info about these policies, see:
   
-[Limit the sync client upload speed to a fixed rate](use-group-policy.md#UploadBandwidthLimit)
+[Limit the sync app upload speed to a fixed rate](use-group-policy.md#UploadBandwidthLimit)
   
-[Limit the sync client download speed to a fixed rate](use-group-policy.md#DownloadBandwidthLimit)
+[Limit the sync app download speed to a fixed rate](use-group-policy.md#DownloadBandwidthLimit)
   
-[Limit the sync client upload rate to a percentage of throughput](use-group-policy.md#AutomaticUploadBandwidthPercentage)
+[Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#AutomaticUploadBandwidthPercentage)
   
 ## See also
 <a name="ControlSyncThroughput"> </a>
