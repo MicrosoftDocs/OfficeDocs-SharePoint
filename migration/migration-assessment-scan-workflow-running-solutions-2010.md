@@ -12,7 +12,8 @@ localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 479f89dc-f6ba-4252-a72e-5cf1d02946ac
 

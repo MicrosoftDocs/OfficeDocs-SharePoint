@@ -10,7 +10,6 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
 description: "List of features that are supported in the SharePoint Migration Tool (SPMT)"

@@ -29,7 +29,7 @@ Help your users share, organize, and discover information with SharePoint.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Download the OneDrive sync client</h3>
+                        <h3>Download the OneDrive sync app</h3>
                     </div>
                 </div>
             </div>

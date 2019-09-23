@@ -1,5 +1,5 @@
 ---
-title: "Enable conditional access support in the OneDrive sync client for Windows"
+title: "Enable conditional access support in the OneDrive sync app for Windows"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -16,12 +16,12 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.assetid: 028d73d7-4b86-4ee0-8fb7-9a209434b04e
-description: "Learn how to enable conditional access in the new OneDrive sync client."
+description: "Learn how to enable conditional access in the new OneDrive sync app."
 ---
 
-# Enable conditional access support in the OneDrive sync client for Windows
+# Enable conditional access support in the OneDrive sync app for Windows
 
-Conditional access control capabilities in Azure Active Directory offer simple ways for you to secure resources in the cloud. The new OneDrive sync client works with the conditional access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance as defined by the Mobile Device Management system (like Intune).
+Conditional access control capabilities in Azure Active Directory offer simple ways for you to secure resources in the cloud. The new OneDrive sync app works with the conditional access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance as defined by the Mobile Device Management system (like Intune).
   
 For information about how conditional access works, see:
   
@@ -31,19 +31,16 @@ For information about how conditional access works, see:
     
 - [Configure hybrid Azure Active Directory join for managed domains](/azure/active-directory/devices/hybrid-azuread-join-managed-domains)
     
-## Getting started
+## Recommendations
 
-Use the following steps on each computer.
-  
- **To enable conditional access support on the OneDrive sync client**
-  
-1. [Download and install](https://go.microsoft.com/fwlink/?linkid=844652) the OneDrive sync client. 
-    
-2. Download and open [EnableCAPreview.reg](http://go.microsoft.com/fwlink/?LinkId=824970) to enable the conditional access feature. 
-    
-3. Restart the sync client.
-    
-If you want to disable this feature, you can delete the registry key by running [DisableCAPreview.reg](http://go.microsoft.com/fwlink/?LinkId=828724). You need to restart the sync client for the change to take effect.
+We recommend using this feature together with [silent account configuration](use-silent-account-configuration.md) for the best experience. The OneDrive sync app will automatically use ADAL, and will support both device-based and location-based conditional access policies.
+
+If you don't use silent account configuration, set the EnableADAL registry key:
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\OneDrive] 
+"EnableADAL"=dword:1
+
+Setting this registry key configures the OneDrive sync app to use ADAL directly.
   
 ## Known issues
 
@@ -73,7 +70,6 @@ Please let us know if you run into any problems while using this release.
     
 ## See also
 
-[Deploy the new OneDrive sync client](deploy-on-windows.md)
+[Deploy the new OneDrive sync app](deploy-on-windows.md)
   
-[Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
-
+[Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
