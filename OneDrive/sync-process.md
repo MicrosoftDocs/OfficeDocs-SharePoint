@@ -44,7 +44,7 @@ Here’s how it works:
 
 - The changes are processed in the order they are received.
 
-The previous OneDrive for Business sync client (Groove.exe) used a polling service to check for changes on a predetermined schedule. Polling can lead to system lag and slowness because it requires a lot of computing power. Using WNS is a significant enhancement.
+The previous OneDrive for Business sync app (Groove.exe) used a polling service to check for changes on a predetermined schedule. Polling can lead to system lag and slowness because it requires a lot of computing power. Using WNS is a significant enhancement.
   
 ## Syncing different file types
 

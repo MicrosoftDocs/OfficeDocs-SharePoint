@@ -53,18 +53,28 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall “SharePoint Online Management Shell.” <br>On the Download Center page, select your language and then click the Download button. You’ll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you’re running the 64-bit version of Windows or the x86 file if you’re running the 32-bit version. If you don’t know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard.
     
 3. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+    > [!IMPORTANT]
+    > To run the **Request-SPOPersonalSite** PowerShell command, you need to allow all effective users for sign-in.
     
+    > [!NOTE]
+    > If you need to allow effective users for sign-in, you can run the PowerShell command **Set-MsolUser** using the text file you previously created in Step 1.
+
+    >```PowerShell
+    >Get-Content -path "C:\Users.txt" | foreach{Set-MsolUser -UserPrincipalName $_ -BlockCredential $False}
+    >``` 
+
 4. Run the PowerShell command [Request-SPOPersonalSite](/powershell/module/sharepoint-online/request-spopersonalsite?view=sharepoint-ps), consuming the text file you previously created in Step 1.
 
-```PowerShell
-$users = Get-Content -path "C:\Users.txt"
-Request-SPOPersonalSite -UserEmails $users
-```    
+    >```PowerShell
+    >$users = Get-Content -path "C:\Users.txt"
+    >Request-SPOPersonalSite -UserEmails $users
+    >```    
 
 To verify that OneDrive has been created for your users, see [Get a list of all user OneDrive URLs in your organization](list-onedrive-urls.md).
   
-> [!NOTE]
-> If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a user's OneDrive isn't ready after 24 hours, please contact Support.
+   >[!NOTE]
+   >If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a    user's OneDrive isn't ready after 24 hours, please contact Support.
   
 ## See also
 

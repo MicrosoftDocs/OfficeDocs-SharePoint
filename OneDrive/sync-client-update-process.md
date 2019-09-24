@@ -20,7 +20,7 @@ description: "Learn about the Production and Enterprise rings for OneDrive sync 
 
 # The OneDrive sync app update process
 
-This article is for IT admins who manage the new OneDrive sync app in an enterprise environment. It explains how we release updates to the Windows sync app and the standalone Mac sync clappient through rings of validation, and how the sync app (OneDrive.exe) checks for updates.
+This article is for IT admins who manage the new OneDrive sync app (OneDrive.exe) in an enterprise environment. It explains how we release updates to the sync app for Windows and the standalone sync app for Mac through rings of validation, and how the sync app checks for updates. Note that if you deploy OneDrive alongside Office (via the Office Deployment Tool or some other means), OneDrive will continue to check for updates independent of any Office update restrictions you set.
   
 > [!NOTE]
 > If you allow your users to sync personal OneDrive accounts, the update process described in this article and any settings you select apply to all instances of the sync app.<br>The sync app installed from the Mac App Store follows a separate update process. After we finish rolling out updates within the Production ring, we publish them to the Mac App Store, where they're immediately released to everyone.
@@ -42,7 +42,7 @@ However, as the slowest ring, the Enterprise ring receives performance improveme
 > [!NOTE]
 > Microsoft reserves the right to bypass the 60-day grace period for critical updates. 
   
-To learn how to set the Enterprise ring for the Windows sync app using Group Policy, see [Set the sync client update ring](use-group-policy.md#GPOSetUpdateRing). To learn how to set it for the Mac sync app, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+To learn how to set the Enterprise ring for the Windows sync app using Group Policy, see [Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing). To learn how to set it for the Mac sync app, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
   
 ## How the sync app checks for and applies updates
 

@@ -36,7 +36,7 @@
 ## [Sync]()
 ### [File sync overview](sharepoint-sync.md)
 ### [OneDrive guide for enterprises](/onedrive/plan-onedrive-enterprise)
-### [Transition from previous sync client](/onedrive/transition-from-previous-sync-client)
+### [Transition from previous sync app](/onedrive/transition-from-previous-sync-client)
 ### [Let users use new OneDrive sync app](let-users-use-new-onedrive-sync-client.md)
 ### [Per-machine installation](/onedrive/per-machine-installation)
 ### [Use silent account configuration](/onedrive/use-silent-account-configuration)
