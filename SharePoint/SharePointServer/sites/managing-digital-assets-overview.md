@@ -1,8 +1,8 @@
 ---
 title: "Overview of managing digital assets in SharePoint Server 2013"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/13/2017
 audience: ITPro

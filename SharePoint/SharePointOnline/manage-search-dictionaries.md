@@ -1,8 +1,8 @@
 ---
 title: "Manage search dictionaries"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
 ms.topic: article
@@ -21,6 +21,9 @@ Learn how to manage search dictionaries. You can use search dictionaries to incl
   
 ## Manage company name extraction
 <a name="__toc342653321"> </a>
+
+> [!NOTE]
+> Beginning on November 15th, 2019, we'll be removing Company Name Extraction from SharePoint Online. This will only impact you if you have configured company name extraction to be surfaced in the classic Enterprise Search Center as a refiner. Learn more about the specifics and other options by reading [Changes to company name extraction in SharePoint Online](changes-to-company-name-extraction-in-sharepoint-online.md).
 
 For company name extraction to work, that is, for a company name to be pulled from your content and for it to be mapped to the managed property **companies**, you have to make sure that:
   

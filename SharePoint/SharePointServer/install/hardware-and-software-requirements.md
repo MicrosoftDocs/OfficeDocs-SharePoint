@@ -1,8 +1,8 @@
 ---
 title: "Hardware and software requirements for SharePoint Server 2016"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/7/2018
 audience: ITPro
@@ -280,9 +280,9 @@ The installer installs from the file that you specify in the command-line option
     
 - **/WCFDataServices56:< _file_>** Install Microsoft WCF Data Services 5.6 from <  _file_>.
     
-- **/ODBC:< _file_>**Install Microsoft ODBC Driver 11 for SQL Server from < _file_>.
+- **/ODBC:< _file_>** Install Microsoft ODBC Driver 11 for SQL Server from < _file_>.
     
-- **/DotNetFx:< _file_>**Install Microsoft .NET Framework 4.6 from < _file_>.
+- **/DotNetFx:< _file_>** Install Microsoft .NET Framework 4.6 from < _file_>.
     
 - **/MSVCRT11:< _file_>** Install Visual C++ Redistributable Package for Visual Studio 2012 from <  _file_>.
     

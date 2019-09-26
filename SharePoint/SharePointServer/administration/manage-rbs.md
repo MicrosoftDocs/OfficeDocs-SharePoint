@@ -1,8 +1,8 @@
 ---
 title: "Manage RBS in SharePoint Server"
 ms.reviewer: 
-ms.author: stevhord
-author: bentoncity
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/14/2017
 audience: ITPro

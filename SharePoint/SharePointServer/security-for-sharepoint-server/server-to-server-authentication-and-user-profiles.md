@@ -1,8 +1,8 @@
 ---
 title: "Server-to-server authentication and user profiles in SharePoint Server"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/24/2017
 audience: ITPro

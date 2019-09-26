@@ -1,6 +1,5 @@
 ---
 title: "SharePoint Migration Identity Mapping Tool"
-ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -9,7 +8,9 @@ audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.assetid: b6fe805f-6b10-4f90-84cd-10852fa5b6f5
+ms.collection:
+- SPmigration
+- M365-collaboration
 description: "Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to assist in your Identity Migration."
 ---
 

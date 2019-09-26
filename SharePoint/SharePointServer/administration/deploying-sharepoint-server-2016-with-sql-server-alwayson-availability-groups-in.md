@@ -115,9 +115,6 @@ To build a dev/test environment or a proof-of-concept of this configuration, see
 
 Start the configuration with [SharePoint Intranet Farm in Azure Phase 1: Configure Azure](/sharepoint/administration/sharepoint-intranet-farm-in-azure-phase-1-configure-azure).
   
-> [!TIP]
-> For a set of files to more quickly deploy your SharePoint Server 2016 high availability farm in Azure, see the [SharePoint Server 2016 High Availability Farm in Azure Deployment Kit](https://gallery.technet.microsoft.com/SharePoint-Server-2016-3d3d9071). 
-  
 ## See also
 
 #### Concepts

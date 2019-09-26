@@ -1,9 +1,9 @@
 ---
 title: "Manage authoritative pages"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -22,6 +22,9 @@ As a global or SharePoint admin in Office 365, you can influence the pages or do
 If you have specific knowledge of an area, you can influence the relative importance of pages by adding more levels of authoritative pages (second-level and third-level). 
   
 In the same way, you can also add non-authoritative pages. A typical example of a non-authoritative page could be the URL of a site that contains outdated information.
+
+    > [!NOTE]
+    > Authorative pages and sites does not impact ranking in Microsoft Search and will only work in classic search and web parts using the default ranking model.
   
 ## Specify authoritative or non-authoritative pages
 <a name="__top"> </a>

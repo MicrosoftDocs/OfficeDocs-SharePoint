@@ -492,6 +492,17 @@ To find the library ID, sign in as a global or SharePoint admin in Office 365, b
 
 ![The Getting ready to sync dialog box](media/copy-library-id.png)
 
+> [!NOTE]
+> The special characters in this copied string are in UniCode which needs to be converted to ASCII find and replace the following:
+> |Find |Replace|
+> |---- |-------|
+> | %2D |   -   |
+> | %7B |   {   |
+> | %7D |   }   |
+> | %3A |   :   |
+> | %2F |   /   |
+> | %2E |   .   |
+
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
 
 [HKCU\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID" 

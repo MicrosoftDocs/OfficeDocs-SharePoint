@@ -11,9 +11,6 @@ localization_priority: Priority
 ms.collection:
 - IT_OneDriveAdmin
 - IT_OneDriveAdmin_Top
-- IT_SharePoint_Hybrid_Top
-- IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
 search.appverid: MET150

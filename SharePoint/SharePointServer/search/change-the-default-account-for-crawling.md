@@ -1,8 +1,8 @@
 ---
 title: "Change the default account for crawling in SharePoint Server"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/14/2017
 audience: ITPro

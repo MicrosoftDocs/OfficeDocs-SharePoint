@@ -1,8 +1,8 @@
 ---
 title: "Understanding how item display templates and hit highlighting work in the classic search experience in SharePoint Server"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/26/2017
 audience: ITPro
@@ -77,7 +77,7 @@ The following screen shot shows the default **ManagedPropertyMapping** element f
   
 Notice that the display template reference name is the same as the managed property name, for example  `'Title':'Title' or 'FileType':'FileType'`. Even though this might seem a bit confusing at first, having identical names will make it easier to maintain the file.
   
-By default, the managed properties that are included in this element vary slightly for the different item display templates. But, there are two managed properties that are included in all display templates:  *HitHighlightedProperties*  and  *HitHilightedSummary*  . We'll explore these two properties in the "How hit highlighting works - it is magic!" section of this topic. 
+By default, the managed properties that are included in this element vary slightly for the different item display templates. But, there are two managed properties that are included in all display templates:  *HitHighlightedProperties*  and  *HitHighlightedSummary*. We'll explore these two properties in the "How hit highlighting works - it is magic!" section of this topic. 
   
 ### About the \<body\> tag
 
@@ -147,7 +147,7 @@ If you guessed hit highlighting, you are correct. In addition to the default pro
   
 If you are now thinking, hang on! I understand that the value for  *Title*  is displayed because  *Title*  is one of the managed properties found in the in the **ManagedPropertyMapping** element display template. But I don't see any "magical summary" property in the **ManagedPropertyMapping** element of the display template. So how can the value be displayed? 
   
-Well, that is where the two properties  *HitHighlightedProperties*  and  *HitHilightedSummary*  are useful. The diagram below does not represent how SharePoint actually handles these properties. However you can think about it in the following way: 
+Well, that is where the two properties  *HitHighlightedProperties*  and  *HitHighlightedSummary*  are useful. The diagram below does not represent how SharePoint actually handles these properties. However you can think about it in the following way: 
   
 ![Hit Highlighting Flow Chart](../media/OTCSP_HitHighlightingFlowChart.png)
   

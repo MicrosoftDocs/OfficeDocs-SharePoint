@@ -1,9 +1,9 @@
 ---
 title: "Enable previews of on-premises search results in cloud hybrid search"
 ms.reviewer: 
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 3/7/2018
 audience: ITPro
 ms.topic: get-started-article

@@ -1,8 +1,8 @@
 ---
 title: "Synchronize user and group profiles in SharePoint Server 2013"
 ms.reviewer: 
-ms.author: kirks
-author: Techwriter40
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/28/2018
 audience: ITPro
@@ -626,7 +626,7 @@ Use this procedure to synchronize profile information between SharePoint Server 
     
 15. In the **Find Profiles** box, type the domain for the profiles, and then click **Find**.
     
-16. For each profile that is returned, check the originating directory service, such as Active Directory, for the status of that profile. If the status of any of the returned profiles in the directory is not disabled or is not deleted, do not enable the My Site cleanup timer job. Contact Microsoft support for more assistance. Otherwise, enable the My Site cleanup timer job. For information about the PowerShell cmdlets that you use to enable and disable this timer job, see [Timer jobs cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server/?view=sharepoint-ps).
+16. For each profile that is returned, check the originating directory service, such as Active Directory, for the status of that profile. If the status of any of the returned profiles in the directory is not disabled or is not deleted, do not enable the My Site cleanup timer job. Contact Microsoft support for more assistance. Otherwise, enable the My Site cleanup timer job. For information about the PowerShell cmdlets that you use to enable and disable this timer job, see the [SharePoint Server cmdlet reference](/powershell/module/sharepoint-server/?view=sharepoint-ps).
     
 A full synchronization can take a long time. If you refresh the **Manage Profile Service** page, the right side of the page displays the progress of the synchronization job. Be aware that profile synchronization consists of several stages, and the profiles will not be imported immediately. The **Manage Profile Service** page is not refreshed automatically as synchronization progresses. 
   
