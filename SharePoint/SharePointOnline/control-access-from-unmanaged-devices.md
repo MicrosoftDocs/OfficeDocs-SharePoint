@@ -22,9 +22,6 @@ description: "Learn how to block or limit access to SharePoint and OneDrive cont
 
 # Control access from unmanaged devices
 
-> [!NOTE]
-> Some functionality is introduced gradually to organizations that have set up the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different from what is described in this article. 
-  
 As a SharePoint or global admin in Office 365, you can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not [hybrid AD joined](/azure/active-directory/devices/overview#hybrid-azure-ad-joined-devices) or compliant in Intune). You can block or limit access for:
   
 - All users in the organization or only some users or security groups.
