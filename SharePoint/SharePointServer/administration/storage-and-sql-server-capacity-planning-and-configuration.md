@@ -444,8 +444,6 @@ The disk types that you use in the system can affect reliability and performance
     
 - Solid State Drive (SSD) or Flash Disk
     
-    For information about using solid state drives for storage in SQL Server, see the SQL Server PRO article [Using Solid State Disks in SQL Server Storage Solutions](https://go.microsoft.com/fwlink/p/?LinkId=317258).
-    
 ### Choose RAID types
 <a name="Section33"> </a>
 
