@@ -19,7 +19,7 @@ This article describes how to enable SharePoint and OneDrive integration with Az
 
 Azure AD B2B provides authentication and management of guest users. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
 
-With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. This feature provides an upgraded experience from the existing [secure external sharing recipient experience](https://docs.microsoft.com/sharepoint/what-s-new-in-sharing-in-targeted-release). 
+With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. This feature provides an upgraded experience from the existing [secure external sharing recipient experience](what-s-new-in-sharing-in-targeted-release.md). 
 
 Enabling the preview does not change your sharing settings. For example, if you have site collections where external sharing is turned off, it will remain off.
 
