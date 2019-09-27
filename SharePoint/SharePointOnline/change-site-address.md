@@ -22,6 +22,9 @@ description: "Learn how to change the URL of a SharePoint site."
 
 # Change a site address
 
+> [!NOTE]
+> Some functionality is introduced gradually to organizations that have set up the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different from what is described in this article. 
+
 As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
 
 - Office 365 group-connected team sites
@@ -31,9 +34,9 @@ As a global or SharePoint admin in your organization, you can change the URL for
 
 You can change only the address of the site within the URL, for example:
 
-https://contoso.sharepoint.com/sites/*projectx*  
+https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx*  
 to
-https://contoso.sharepoint.com/sites/*projecty* 
+https://<i></i>contoso.sharepoint.<i></i>com/sites/*projecty* 
 
 You can't change the domain ("contoso" in the previous example) or any other part of the path. For example, you can't move the site from "/sites" to "/teams."
 

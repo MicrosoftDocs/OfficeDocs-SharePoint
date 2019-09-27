@@ -31,6 +31,8 @@
 ### [Manage site admins](manage-site-collection-administrators.md)
 ### [Manage site creation](manage-site-creation.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
+### [Change site addresses](change-site-address.md)
+### [Create an organization assets library](organization-assets-library.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 ### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ## [Sync]()
