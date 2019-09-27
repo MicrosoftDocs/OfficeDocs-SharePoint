@@ -488,20 +488,24 @@ If you disable this setting, team site libraries that you've specified won't be 
 
 To configure the setting, in the Options box, click **Show**, and then enter a friendly name to identify the library in the **Value Name** field and the entire library ID (tenantId=xxx&siteId=xxx&webId=xxx&listId=xxx&webUrl=httpsxxx&version=1) in the **Value** field. 
 
-To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and click the **Sync** button. In the "Starting sync" dialog box, click the **Copy library ID** link.
+To find the tenant ID, install the [Azure Active Directory PowerShell for Graph](https://www.powershellgallery.com/packages/AzureAD).
 
-![The Getting ready to sync dialog box](media/copy-library-id.png)
+To find the site, web, and library IDs, install the [SharePoint PnP PowerShell module](https://www.powershellgallery.com/packages/SharePointPnPPowerShellOnline) and run the following PowerShell.
 
-> [!NOTE]
-> The special characters in this copied string are in UniCode which needs to be converted to ASCII find and replace the following:
-> |Find |Replace|
-> |---- |-------|
-> | %2D |   -   |
-> | %7B |   {   |
-> | %7D |   }   |
-> | %3A |   :   |
-> | %2F |   /   |
-> | %2E |   .   |
+```
+#Get Tenant Id using Azure AD PowerShell
+$tenantId = Connect-AzureAD | Select TenantId -ExpandProperty TenantId
+#Get Site Id, Web Id, and Library Id
+Connect-PnPOnline https://<tenantName>.sharepoint.com/sites/siteName
+$siteId = Get-PnPSite -Includes Id | Select Id -ExpandProperty Id
+$web = Get-PnPWeb | Select Id,Url
+$listId = Get-PnPList 'Documents' | Select Id -ExpandProperty Id
+Write-Host "tenantId=$tenantid&siteId={$siteId}&webId={$($web.Id)}&listId={$listId}&webUrl=$($web.Url)&version=1)"
+```
+
+  Where:
+
+   - \<tenantName\> is the name of your tenant.
 
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
 
