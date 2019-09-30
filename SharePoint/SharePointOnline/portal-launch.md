@@ -4,18 +4,18 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 09/17/2019
+ms.date: 09/30/2019
 audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: M365-collaboration
-
 description: "Portal launch landing page"
 ---
 
-# Launching a successful SharePoint portal 
+# Creating a healthy SharePoint portal 
 
+A portal is a SharePoint site where your default landing page(s) for your company is created. In large organizations there could be several of these. If yo expect more than 20% of your users to access the page, you should consider that a portal page.
  
 ## Guidance 
 This set of guidance will walk you through best practices and recommendations before you launch your portal.
