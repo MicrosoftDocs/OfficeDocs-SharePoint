@@ -20,26 +20,39 @@ description: "Learn about the new features and updates to existing features in S
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>**Download and install:** [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
->[!NOTE]
->**NEW**: To download the new public preview release: [SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)
 
-### SPMT Public Preview 3.2.113.6
 
-- Support for SharePoint Server subfolder selection
-- Support for SharePoint Server 2010 site migration
-- Support for Government cloud (U.S.)
-- Support for the following list templates:
-    - Promoted Link list (ListTemplateType. Value = 170)
-    - Categories List (ListTemplateType. Value = 500)
-    - Asset Library (ListTemplateType. Value = 851) 
-
-### SPMT V3.1.110.1 (Current release)
+### SPMT 3.2
 
 **New features**
 
-The following features were added to the SharePoint Migration Tool V3.0.
+The following features were added to the SharePoint Migration Tool in this release:
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Subfolder section|Support for SharePoint Server subfolder selection|
+|SharePoint 2010 sites|Support for SharePoint Server 2010 site migration|
+|Government cloud|Support for Government cloud (U.S.)|
+|List templates|Support for the following list templates have been added:</br></br>- Promoted Link list (ListTemplateType. Value = 170)</br>- Categories List (ListTemplateType. Value = 500)</br>- Asset Library (ListTemplateType. Value = 851)</br>|
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+
+
+
+### SPMT V3.1.110.1
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool in this release:
 
 |**Feature**|**Description**|
 |:-----|:-----|

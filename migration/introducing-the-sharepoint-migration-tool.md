@@ -23,10 +23,9 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint Online and OneDrive from the following locations:
 
 - SharePoint Server 2013
-- SharePoint Server 2010 **
+- SharePoint Server 2010
 - Network and local file shares
   
-** Now in public preview.
 
 ## Download and install
 
@@ -35,15 +34,11 @@ Download and install the SharePoint Migration Tool using one of the download lin
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
 >[!NOTE]
->To install the current release download here: 
+>**Download and install** the current release: 
 >
-> - [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)
+> - [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)
 
->[!NOTE]
->**NEW**: To download the new public preview release which includes support for **SharePoint Server 2010**:
->
->- [SharePoint Migration Tool Public Preview](https://aka.ms/spmt-beta-page)
-    
+   
 
 > [!IMPORTANT]
 > If you are using the Chrome browser, you must install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
