@@ -56,11 +56,11 @@ The aggregated newsfeed feature (available at newsfeed.aspx and typically access
 
 To ensure that users receive highly relevant help content, Microsoft is moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Office 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
-### Groove Sync Client
+### Groove Sync App
 
-The Groove sync client is our client for syncing documents between your personal devices and SharePoint Server 2010, 2013, and 2016 Team sites. SharePoint Server 2019 introduces support for the new OneDrive Sync Client (a.k.a. the Next Generation Sync Client), which provides a more reliable and feature-rich syncing experience. If Groove detects that your existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, it will attempt to migrate those sync relationships to the OneDrive Sync Client. Administrators can control this migration experience.
+The Groove sync app is our app for syncing documents between your personal devices and SharePoint Server 2010, 2013, and 2016 Team sites. SharePoint Server 2019 introduces support for the new OneDrive Sync app (a.k.a. the Next Generation Sync Client), which provides a more reliable and feature-rich syncing experience. If Groove detects that your existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, it will attempt to migrate those sync relationships to the OneDrive sync app. Administrators can control this migration experience.
 
-The Groove sync client will remain supported, but deprecated, for the SharePoint Server 2019 release.
+The Groove sync app will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
 ### InfoPath Services
 
@@ -70,7 +70,7 @@ There will not be a new InfoPath client shipped with this release. Microsoft wil
 
 ### Lists Web Service
 
-The following SOAP endpoints in the Lists web service depend on the Microsoft Sync Framework, which was necessary to support the Groove sync client. Because the Groove sync client is now a deprecated feature, these SOAP endpoints are also being deprecated for the SharePoint Server 2019 release.
+The following SOAP endpoints in the Lists web service depend on the Microsoft Sync Framework, which was necessary to support the Groove sync app. Because the Groove sync app is now a deprecated feature, these SOAP endpoints are also being deprecated for the SharePoint Server 2019 release.
 
 - [Lists.GetListItemChangesWithKnowledge](https://msdn.microsoft.com/library/websvclists.lists.getlistitemchangeswithknowledge.aspx)
 

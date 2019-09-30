@@ -9,8 +9,9 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
--SPMigration
--M365-collaboration
+- SPMigration
+- M365-collaboration
+ms.assetid: a6dca2a3-72d6-4717-abe9-a58f025ea26e
 description: "Overview of the SharePoint Migration Assessment Tool"
 ---
 
