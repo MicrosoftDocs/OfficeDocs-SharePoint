@@ -33,10 +33,7 @@ Download and install the SharePoint Migration Tool using one of the download lin
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
 >[!NOTE]
->**Download and install** the current release: 
->
-> - [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)
-
+>**Download and install**:   [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)
 
 
 ## Supported features
