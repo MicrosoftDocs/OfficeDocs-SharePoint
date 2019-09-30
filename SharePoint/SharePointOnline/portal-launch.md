@@ -24,10 +24,11 @@ This set of guidance will walk you through best practices and recommendations be
 |:-----|:-----|:-----|
 |![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/layout-navigation-blue-32.png "What is a portal")|What is a portal?||</br>
 |![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/document-3-blue-32.png "Look and feel")|Designing your portal look||</br>
-|![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Limitations")|Recommendations for best performance||</br>
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/toolbox-32.png "Modern diagnostics tool")|Validate your site with the page diagnostics tool||
+|![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Limitations")|Limitations||</br>
+|![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Performance")|Performance|Optimize your images</br>CDN</br>Security groups</br>|</br>
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images")|Optimize your images||
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/graph-4-blue-32.png "Caching 3rd party web parts")|Caching 3rd party web parts||
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/toolbox-32.png "Modern diagnostics tool")|Validate your site with the page diagnostics tool||
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/globe-hyperlink-blue-32.png "CDN")|Use a Content Delivery Network (CDN) for better performance||
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/deploy-blue-32.png "Staged rollout")|Plan the rollout of your portal||
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/security-blue-32.png "Security groups")|Using security groups||
