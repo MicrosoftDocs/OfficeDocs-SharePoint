@@ -14,6 +14,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 description: "Overview of the SharePoint Migration Tool."
+ms.custom: okr_smb
 ---
 
 # Download and install the SharePoint Migration Tool
