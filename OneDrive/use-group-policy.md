@@ -490,7 +490,7 @@ To configure the setting, in the Options box, click **Show**, and then enter a f
 
 To find the tenant ID, install the [Azure Active Directory PowerShell for Graph](https://www.powershellgallery.com/packages/AzureAD).
 
-To find the site, web, and library IDs, install the [SharePoint PnP PowerShell module](https://www.powershellgallery.com/packages/SharePointPnPPowerShellOnline) and run the following PowerShell.
+To find the site, web, and library IDs, install the [SharePoint PnP PowerShell module](https://www.powershellgallery.com/packages/SharePointPnPPowerShellOnline) and run the following PowerShell scripts.
 
 ```
 #Get Tenant Id using Azure AD PowerShell
