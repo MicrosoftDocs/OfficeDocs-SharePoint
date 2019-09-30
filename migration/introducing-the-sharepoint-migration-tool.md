@@ -10,10 +10,9 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
-description: "Overview of the SharePoint Migration Tool."
+description: "Download and install the SharePoint Migration Tool."
 ms.custom: okr_smb
 ---
 
@@ -27,7 +26,6 @@ The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint Onli
 - SharePoint Server 2010
 - Network and local file shares
   
-
 ## Download and install
 
 Download and install the SharePoint Migration Tool using one of the download links below.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
