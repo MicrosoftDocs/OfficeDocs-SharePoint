@@ -24,7 +24,7 @@ Learn about the new features and updates to existing features in SharePoint Migr
 
 
 
-### SPMT 3.2
+### SPMT 3.2.114.0
 
 **New features**
 
@@ -35,7 +35,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |Subfolder section|Support for SharePoint Server subfolder selection|
 |SharePoint 2010 sites|Support for SharePoint Server 2010 site migration|
 |Government cloud|Support for Government cloud (U.S.)|
-|List templates|Support for the following list templates have been added:</br></br>- Promoted Link list (ListTemplateType. Value = 170)</br>- Categories List (ListTemplateType. Value = 500)</br>- Asset Library (ListTemplateType. Value = 851)</br>|
+|List templates|Support for the following list templates have been added:</br></br>- Promoted Link list (ListTemplateType. Value = 170)</br>- Categories List (ListTemplateType. Value = 500)</br>- Asset Library (ListTemplateType. Value = 851)</br></br>For a complete list of supported list templates see:[SharePoint list templates supported by SPMT](sharepoint-migration-supported-list-templates.md)|
 
 **Improvements**
 
