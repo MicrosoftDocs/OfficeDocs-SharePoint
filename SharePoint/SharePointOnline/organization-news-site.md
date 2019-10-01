@@ -12,48 +12,39 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Specify a library as a location for assets that are centrally stored and managed in your organization."
+description: "Specify a site as an authoritative organization news site."
 ---
 
-# Create an organization assets library
+# Create an organization news site
 
-If your organization needs to store and manage images like photos or logos centrally for all your users to use, you can specify one or more document libraries as an "organization assets library." This makes it easier for users to add these assets when they create SharePoint sites and pages.
+To specify sites as "official" or "authoritative" for news in your organization, mark them as organization news sites. These posts get special visual treatment (see the "NEWS @ CONTOSO" color block below), and appear on the SharePoint start page. 
+
+![A post from an organization news site on the SharePoint start page](media/c9335bc4-6be2-41e8-bd53-bf32a946d179.png)
 
 > [!NOTE]
-> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization, however all of these asset libraries must reside in the same site collection. You cannot add organization asset libraries from multiple site collections.
+> When SharePoint home sites are released, they will be automatically configured as organization news sites.
 
-When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified. 
+For more info about working with news, see [Use the News web part on a SharePoint page](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165) and [Add news posts](https://support.office.com/article/495f8f1a-3bef-4045-b33a-55e5abe7aed7). 
 
-## Use Microsoft PowerShell to specify a library as an organization assets library
+## Use Microsoft PowerShell to specify a site as an organization news site
   
-1. Select an existing site or create a new site for the organization assets.
+1. [Download the latest SharePoint Online Management Shell version](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-> [!NOTE]
-> All organization asset libraries must be on the same site.
-
-2. Upload the files you want to make available to all users to a document library.
-
-3. [Download the latest SharePoint Online Management Shell version](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall “SharePoint Online Management Shell.” <br>On the Download Center page, select your language and then click the Download button. You’ll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you’re running the 64-bit version of Windows or the x86 file if you’re running the 32-bit version. If you don’t know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
     
-4. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-5. Run the following command to designate the document library as an organization assets library:
+3. Run the following command to designate the site as an organization news site:
   
     ```PowerShell
-    Add-SPOOrgAssetsLibrary -LibraryURL <String> [-ThumbnailURL <String>] 
+    Set-SPOOrgNewsSite -OrgNewsSiteUrl <site URL> 
     ```
 
-LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. [Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
-
-Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg`
-
-
-> [!NOTE]
-> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable CDN for each organization asset library you add. Vanity domains are currently not supported. [More info about CDNs](/office365/enterprise/content-delivery-networks)
+Example: `Set-SPOOrgNewsSite -OrgNewsSiteUrl https://contoso.sharepoint.com/sites/Marketing`
 
  
 ## Related commands 
 
-- See information about all organization asset libraries on the site: `Get-SPOOrgAssetsLibrary` [Learn more about this cmdlet](/powershell/module/sharepoint-online/get-spoorgassetslibrary) 
-- Update thumbnail URL: `Set-SPOOrgAssetsLibrary -LibraryUrl <String> -ThumbnailUrl <String>` [Learn more about this cmdlet](/powershell/module/sharepoint-online/set-spoorgassetslibrary) 
-- Remove a library: `Remove-SPOOrgAssetsLibrary -LibraryUrl <String>` [Learn more about this cmdlet](/powershell/module/sharepoint-online/remove-spoorgassetslibrary)
+- View a list of all your organization news sites: [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite) 
+- Remove a site from the list of organization news sites: [Remove-SPOOrgNewsSite](/powershell/module/sharepoint-online/remove-spoorgnewssite)
