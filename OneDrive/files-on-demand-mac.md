@@ -1,6 +1,6 @@
 ---
 title: "Set Files On-Demand states"
-ms.reviewer: 
+ms.reviewer: joleung
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

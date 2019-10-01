@@ -1,6 +1,6 @@
 ---
 title: "Use Group Policy to control OneDrive sync client settings"
-ms.reviewer: 
+ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
