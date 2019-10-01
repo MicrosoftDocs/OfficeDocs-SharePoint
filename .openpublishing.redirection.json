@@ -369,6 +369,21 @@
         "redirect_document_id": true
    },
    {
+      "source_path": "sharepoint/sharepointonline/secure-extranet-site.md",
+        "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment",
+        "redirect_document_id": true
+   },
+   {
+      "source_path": "sharepoint/sharepointonline/create-external-business-sharing-site.md",
+        "redirect_url": "https://https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization",
+        "redirect_document_id": true
+   },
+   {
+      "source_path": "sharepoint/sharepointonline/plan-b2b-extranet-sites.md",
+        "redirect_url": "https://docs.microsoft.com/sharepoint/create-b2b-extranet",
+        "redirect_document_id": true
+   },
+   {
    "source_path": "sharepoint/sharepointonline/view-and-restore-deleted-sites-in-new-admin-center.md",
      "redirect_url": "https://docs.microsoft.com/sharepoint/restore-deleted-site-collection",
      "redirect_document_id": true
