@@ -28,7 +28,7 @@ An extranet site in SharePoint Online is a site that you create to let external 
   
 Traditionally, deploying a SharePoint  *on-premises*  extranet site involves complex configuration to establish security measures and governance, including granting access inside the corporate firewall, and expensive initial and on-going cost. 
   
-But with Office 365, partners connect directly to a members-only site in SharePoint Online, without access to your on-premises environment or any other SharePoint Online sites. Office 365 extranet sites can be accessed anywhere there's an Internet connection.
+But with Office 365, partners connect directly to a members-only site in SharePoint Online, without access to your on-premises environment or any other SharePoint sites. Office 365 extranet sites can be accessed anywhere there's an Internet connection.
   
 Depending on your collaboration needs, you can include Office 365 groups or Microsoft Teams as part of your extranet.
 
@@ -40,7 +40,7 @@ Depending on your collaboration needs, you can include Office 365 groups or Micr
   
 - The ability to protect yourself against accidental sharing by using  owner-approved sharing through Office 365 groups or teams, which prevents users from inviting new users without approval. 
     
-- The ability to restrict partner users to a single site or team. They cannot search for or view any content on site or teams to which they have not been invited.
+- The ability to restrict partner users to a single site or team. They cannot search for or view any content on sites or teams to which they have not been invited.
     
  **Seamless collaboration:** Collaborate with your partner users as if they are part of your organization, including allowing them chat and conferencing through Teams. 
   
@@ -59,7 +59,7 @@ Depending on your collaboration needs, you can include Office 365 groups or Micr
 |IT labor intensive  <br/> |No  <br/> |Yes  <br/> |
 |Ongoing maintenance needed  <br/> |Minimal  <br/> |Considerable  <br/> |
 |Additional hardware needed  <br/> |No  <br/> |Often  <br/> |
-|Controlling sharing experience for extranet sites  <br/> |Part of Office 365 sites functionality  <br/> |Often requires custom solutions/apps  <br/> |
+|Controlling sharing experience for the extranet  <br/> |Part of Office 365 sites functionality  <br/> |Often requires custom solutions/apps  <br/> |
 
 ## Get started
 
