@@ -28,7 +28,7 @@ This set of guidance will walk you through best practices and recommendations be
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/graph-4-blue-32.png "Batch REST calls") [Batch calls to SharePoint when using the REST API](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)|Combine operations into fewer requests|
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/graph-4-blue-32.png "Cache 3rd party web parts") Cache 3rd party web parts|Cache repetitive calls for 15 mins|
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/analytics-usage-report-blue-32.png "Slow web parts") [Improve performance for slow web parts](https://go.microsoft.com/fwlink/?linkid=2099018)||
-||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/bandwidth-blue-32.png "Page weight") Review page weight||
+||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/bandwidth-blue-32.png "Page weight") [Review page weight](https://go.microsoft.com/fwlink/?linkid=2099017)||
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page") Limit the number of requests to a page|Limit the number of web parts and calls into SharePoint|
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images") [Optimize your images](https://go.microsoft.com/fwlink/?linkid=2099113)|Follow basic image optimization for the web|
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/files-blue-32.png "iFrames") Limit and use Iframes carefully|Don't use more than 2 Iframes on a page|
