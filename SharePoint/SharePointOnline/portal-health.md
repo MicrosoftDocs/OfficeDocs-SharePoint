@@ -21,7 +21,7 @@ This set of guidance will walk you through best practices and recommendations be
   
 ||**What to do**|**Follow this**|
 |:-----|:-----|:-----|
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/deploy-blue-32.png "Staged rollout")|[Plan the rollout of your portal](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-rollout)|Launch in waves|
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/deploy-blue-32.png "Staged rollout")|[Plan the rollout of your portal](https://docs.microsoft.com/en-us/office365/enterprise/capacity-planning-and-load-testing-sharepoint-online)|Launch in waves|
 |![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/document-3-blue-32.png "Look and feel")|[Portal design guidance](https://sharepointlookbook.azurewebsites.net)|Review the guidance while designing your sites|</br>
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/bandwidth-blue-32.png "Optimize your Performance")|Optimize your Performance|Follow the guidance below and run the Page Diagnostics for SharePoint tool|</br>
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/globe-hyperlink-blue-32.png "CDN") [Use Content Delivery Networks (CDN) for better performance](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)|Implement Public and Private CDN|
