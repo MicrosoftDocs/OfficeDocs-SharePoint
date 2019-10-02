@@ -1,6 +1,6 @@
 ---
 title: "Change a specific user's OneDrive storage space"
-ms.reviewer: 
+ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

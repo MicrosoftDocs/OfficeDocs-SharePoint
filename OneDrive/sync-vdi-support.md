@@ -1,6 +1,6 @@
 ---
 title: "Use the sync app on virtual desktops"
-ms.reviewer: 
+ms.reviewer: sraja
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

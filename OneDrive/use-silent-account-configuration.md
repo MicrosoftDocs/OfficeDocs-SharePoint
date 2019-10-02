@@ -1,6 +1,6 @@
 ---
 title: "Silently configure user accounts"
-ms.reviewer: 
+ms.reviewer: wsproule
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -97,15 +97,4 @@ New-ItemProperty -Path $HKLMregistryPath -Name 'SilentAccountConfig' -Value '1' 
 New-ItemProperty -Path $DiskSizeregistryPath -Name $TenantGUID -Value '102400' -PropertyType DWORD -Force | Out-Null ##Set max OneDrive threshold before prompting
 ``` 
 
-## Send feedback
-<a name="sendfeedback"> </a>
 
-Please let us know if you have feedback on this feature or encounter any issues:
-  
-1. Right-click the blue OneDrive icon in the notification area, at the far right of the taskbar.
-    
-2. Click **Report a problem**.
-    
-3. Enter a brief description and include the phrase "SilentConfig" in your message to send your feedback directly to engineers working on this feature. 
-    
-4. Click **OK**. You'll receive an email message with a ticket number to track your feedback.

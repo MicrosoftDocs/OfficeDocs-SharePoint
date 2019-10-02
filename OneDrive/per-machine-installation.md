@@ -1,6 +1,6 @@
 ---
 title: "Install the sync app per machine"
-ms.reviewer: 
+ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
