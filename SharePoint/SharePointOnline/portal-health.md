@@ -35,3 +35,4 @@ This set of guidance will walk you through best practices and recommendations be
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/files-blue-32.png "iFrames") Limit and use Iframes carefully|Don't use more than 2 Iframes on a page|
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/toolbox-32.png "Modern diagnostics tool")| Run the Page Diagnostics for SharePoint tool|Validate your pages and follow the guidance|
 |![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Limitations")|Limitations||</br>
+|![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Network optimization")|[Network optimization](https://aka.ms/O365IP)||</br>
