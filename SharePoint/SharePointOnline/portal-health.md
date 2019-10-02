@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
-ms.date: 09/30/2019
 audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
