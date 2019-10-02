@@ -22,7 +22,7 @@ This set of guidance will walk you through best practices and recommendations be
   
 ||**What to do**|**Follow this**|
 |:-----|:-----|:-----|
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/deploy-blue-32.png "Staged rollout")|Plan the rollout of your portal|Launch in waves|
+|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/deploy-blue-32.png "Staged rollout")|[Plan the rollout of your portal](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-rollout)|Launch in waves|
 |![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/document-3-blue-32.png "Look and feel")|[Portal design guidance](https://sharepointlookbook.azurewebsites.net)|Review the guidance while designing your sites|</br>
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/bandwidth-blue-32.png "Optimize your Performance")|Optimize your Performance|Follow the guidance below and run the Page Diagnostics for SharePoint tool|</br>
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/globe-hyperlink-blue-32.png "CDN") [Use Content Delivery Networks (CDN) for better performance](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)|Implement Public and Private CDN|
@@ -33,6 +33,6 @@ This set of guidance will walk you through best practices and recommendations be
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page") Limit the number of requests to a page|Limit the number of web parts and calls into SharePoint|
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images") Optimize your images|Follow basic image optimization for the web|
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/files-blue-32.png "iFrames") Limit and use Iframes carefully|Don't use more than 2 Iframes on a page|
-|![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/toolbox-32.png "Modern diagnostics tool")| Run the Page Diagnostics for SharePoint tool|Validate your pages and follow the guidance|
+|![Alt image text](media/page-diag-tool.png "Modern diagnostics tool")|[Run the Page Diagnostics for SharePoint tool](https://docs.microsoft.com/en-us/office365/enterprise/page-diagnostics-for-spo)|Validate your pages and follow the guidance|
 |![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Limitations")|Limitations|Follow these best practices |</br>
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/bandwidth-blue-32.png "Network optimization")|[Network optimization](https://aka.ms/O365IP)|Configure your URLs and IP endpoints|</br>
