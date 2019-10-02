@@ -494,14 +494,19 @@ To find the library ID, sign in as a global or SharePoint admin in Office 365, b
 
 > [!NOTE]
 > The special characters in this copied string are in UniCode which needs to be converted to ASCII find and replace the following:
-> |Find |Replace|
-> |---- |-------|
-> | %2D |   -   |
-> | %7B |   {   |
-> | %7D |   }   |
-> | %3A |   :   |
-> | %2F |   /   |
-> | %2E |   .   |
+
+|Find |Replace|
+|---- |-------|
+| %2D |   -   |
+| %7B |   {   |
+| %7D |   }   |
+| %3A |   :   |
+| %2F |   /   |
+| %2E |   .   |
+
+> [!NOTE]
+> Alternatively, in powershell you can run the following, replacing "Copied String" with the library ID above:
+> [uri]::UnescapeDataString("Copied String")
 
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
 
