@@ -28,10 +28,12 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
 
 The sync app also supports non-persistent environments that have [FSLogix Apps 2.8 or later](https://fslogix.com/products/fslogix-apps), [FSLogix Office 365 Container](https://fslogix.com/products/office-365-container), and a Microsoft 365 or Office 365 subscription for all of the following operating systems:
 
-- Windows 10, 32 or 64-bit (supports VHDX files) 
-- Windows 7, 32 or 64-bit (supports VHD files) 
-- Windows Server 2016 or Windows Server 2012 R2 (both support VHDX)
-- Windows Server 2008 R2 (supports VHD)
+- Windows 10, 32 or 64-bit (VHDX files) 
+- Windows 7, 32 or 64-bit (VHD files) 
+- Windows Server 2019 (VHDX files)
+- Windows Server 2016 (VHDX files)
+- Windows Server 2012 R2 (VHDX files)
+- Windows Server 2008 R2 (VHD files)
 
  Using the OneDrive sync app with non-persistent environments requires that you [install the sync app per machine](https://docs.microsoft.com/onedrive/per-machine-installation).
 
