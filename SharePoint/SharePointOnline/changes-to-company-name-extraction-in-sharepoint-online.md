@@ -14,7 +14,7 @@ description: "The Company Name Extraction option in SharePoint Online is being d
 
 # Changes to company name extraction in SharePoint Online
 
-As we continue to deliver rich new search experiences with Microsoft Search, we'll be making changes to some of the classic search experiences in Office 365. Beginning on November 15th, 2019, we'll be removing Company Name Extraction from SharePoint Online. Company Name Extraction in SharePoint allows the search system to extract company names from content under a specific set of conditions using a pre-populated dictionary or through using the Company Inclusions or Company Exclusions lists. While company name extraction has become a relied-upon solution to derive one or more company names from content in SharePoint Online, both the dictionary and its underlying feature set have become obsolete.
+As we continue to deliver rich new search experiences with Microsoft search, we'll be making changes to some of the classic search experiences in Office 365. Beginning on November 15th, 2019, we'll be removing Company Name Extraction from SharePoint Online. Company Name Extraction in SharePoint allows the search system to extract company names from content under a specific set of conditions using a pre-populated dictionary or through using the Company Inclusions or Company Exclusions lists. While company name extraction has become a relied-upon solution to derive one or more company names from content in SharePoint Online, both the dictionary and its underlying feature set have become obsolete.
 
 ![Screenshot of Search in SharePoint Online](media/spo-extraction-01.png)
 
@@ -46,4 +46,4 @@ Set the managed property containing the content you have previously extracted co
 
 No. SharePoint on-premises versions are not affected by this change.
 
-Learn more about Microsoft Search at https://aka.ms/microsoftsearch.
+Learn more about Microsoft search at https://aka.ms/microsoftsearch.

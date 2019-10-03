@@ -17,7 +17,7 @@ description: "Learn how to specify where searches should go by specifying the UR
 
 # Search Center settings
 
-As a global or SharePoint admin in Office 365, you can specify where searches should go by specifying the URL of your Search Center. For example, if you have created an Enterprise Search Center where users can search everything in your company, you can enter the URL of that site here. 
+As a global or SharePoint admin in Office 365, you can specify where searches should go for your classic site collection or site by specifying the URL of your Search Center. For example, if you have created an Enterprise Search Center where users can search everything in your company, you can enter the URL of that site here.
   
 ## Enter the address of your Search Center
 <a name="__goback"> </a>
