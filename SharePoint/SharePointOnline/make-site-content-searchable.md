@@ -21,16 +21,16 @@ description: "Change search settings to control whether content on a site can ap
 When users search on a site, results can come from many places such as columns, libraries, and pages. A site owner can change search settings to decide whether content is allowed to appear in search results. Permissions on content also affect whether users are allowed to see the content in search results. A good understanding of how permissions and search settings work can help you ensure that users can see the right documents and sites in the search results.
   
 > [!NOTE]
-> Search results are always security trimmed, so users will only see content they have permission to see. The search settings only define what content is included in the search index. 
+> Search results are always security trimmed, so users will only see content they have permission to see. The search settings only define what content is included in the search index.
   
 ## Plan to make your content available in search results
 <a name="__toc356211699"> </a>
 
-As a site owner, you can use settings to control whether content can appear in search results. Content is stored in many places including sites, lists, libraries, Web Parts, and columns. By default, most content contained in a site, list, library, Web Part page, or column will be crawled and added to the search index. What's in the search index decides what content can appear in search results. The permissions that are set on items, lists, libraries, sites, and so forth, also affect whether users can see the content in search results.
+As a site owner, you can use settings to control whether content can appear in search results. Content is stored in many places including sites, lists, libraries, Web Parts, and columns. By default, most content contained in a site, list, library, Web Part page, or column will be crawled and added to the search index. What's in the search index decides what content can appear in search results both in the classic and modern search experiences. The permissions that are set on items, lists, libraries, sites, and so forth, also affect whether users can see the content in search results.
   
 Site owners and site collection administrators can choose whether content can appear in search results. By default, the content of a site can appear in search results. If a site owner or site collection administrator specifies that the content from a particular site can't appear in search results, then the other search results settings such as those for lists, libraries, ASPX pages, and columns set on that site wouldn't have any effect.
   
-Similarly, if a site owner or site collection administrator prevents list or library content from appearing in search results, then excluding columns wouldn't have any effect. It's important to know what settings are inherited from higher levels in order to plan search effectively
+Similarly, if a site owner or site collection administrator prevents list or library content from appearing in search results, then excluding columns wouldn't have any effect. It's important to know what settings are inherited from higher levels in order to plan search effectively.
   
 ## Understand search settings and permissions
 <a name="__toc356211700"> </a>
