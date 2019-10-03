@@ -106,12 +106,12 @@ To learn how to add a special keywords column, see [Add an enterprise keywords c
 ### Tagging
 <a name="__migbm_8"> </a>
 
-In a general sense, tagging refers to the act of applying metadata to an item, whether the tag is managed metadata or a social tag. 
+In a general sense, tagging refers to the act of applying managed metadata to an item. 
   
 ## Metadata scenarios: from taxonomies to folksonomies
 <a name="__toc262648167"> </a>
 
-SharePoint metadata management supports a range of approaches to metadata, from formal taxonomies to user-driven folksonomies. You can implement formal taxonomies through managed terms and term sets. You can also use enterprise keywords and social tagging, which enable site users to tag content with keywords that they choose.
+SharePoint metadata management supports a range of approaches to metadata, from formal taxonomies to user-driven folksonomies. You can implement formal taxonomies through managed terms and term sets. You can also use enterprise keywords which enable site users to tag content with keywords that they choose.
   
 In addition, SharePoint products offer flexibility. You can choose how much structure and control to use with metadata, and you can choose the scope of control and structure. For example:
   
@@ -119,9 +119,9 @@ In addition, SharePoint products offer flexibility. You can choose how much stru
     
 - You can configure term sets to be closed or open to user contributions. 
     
-- You can choose to use enterprise keywords and social tagging with managed terms, or not. 
+- You can choose to use enterprise keywords with managed terms, or not. 
     
-SharePoint products enable organizations to combine the advantages of formal, managed taxonomies with the dynamic benefits of social tagging in customized ways.
+SharePoint products enable organizations to combine the advantages of formal, managed taxonomies with the dynamic benefits of user-driven tagging in customized ways.
   
 The following diagram shows how different requirements might use different levels of scope and control.
   
