@@ -505,7 +505,7 @@ To find the library ID, sign in as a global or SharePoint admin in Office 365, b
 | %2E |   .   |
 
 > [!NOTE]
-> Alternatively, in powershell you can run the following, replacing "Copied String" with the library ID above:
+> Alternatively, you can run the following in PowerShell, replacing "Copied String" with the library ID above:
 > [uri]::UnescapeDataString("Copied String")
 
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
