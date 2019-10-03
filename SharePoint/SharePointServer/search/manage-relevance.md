@@ -1,7 +1,8 @@
 ---
 title: "Manage search relevance in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/16/2018
 audience: ITPro

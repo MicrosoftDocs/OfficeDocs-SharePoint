@@ -1,7 +1,8 @@
 ---
 title: "Restore solutions in SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/14/2017
 audience: ITPro

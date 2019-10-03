@@ -1,7 +1,8 @@
 ---
 title: "Configure and use the Documentum connector in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/8/2018
 audience: ITPro
@@ -197,6 +198,7 @@ The WCF settings that you are about to set in [Edit the machine.config file](con
 2. On each server in the farm that hosts a crawl component, install the Indexing Connector for Documentum by running the file  `DCTMIndexConn.exe`. Follow the steps in the installation wizard.
     
 ### Register the Indexing Connector for Documentum to the Search service application
+<a name="DCTM_Registerconn"></a>
 
 1. Run this procedure on a SharePoint server that hosts a crawl component to register the connector to the Search service application.
     

@@ -1,7 +1,8 @@
 ---
 title: "Manage the Distributed Cache service in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro

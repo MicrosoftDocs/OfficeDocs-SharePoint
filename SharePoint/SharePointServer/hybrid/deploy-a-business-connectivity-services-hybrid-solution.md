@@ -1,5 +1,6 @@
 ---
 title: "Deploy a Business Connectivity Services hybrid solution in SharePoint"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

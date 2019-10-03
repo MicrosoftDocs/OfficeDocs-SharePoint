@@ -1,5 +1,6 @@
 ---
 title: "OneDrive for Business"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -28,7 +29,7 @@ Help your users store, sync, and share work files in the cloud with OneDrive.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Download the latest sync client or mobile apps</h3>
+                        <h3>Download the latest sync app or mobile apps</h3>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,8 @@
 ---
 title: "New and improved features in SharePoint Server 2016"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: overview

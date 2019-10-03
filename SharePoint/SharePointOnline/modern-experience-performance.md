@@ -1,5 +1,6 @@
 ---
 title: "Performance in the modern SharePoint experience"
+ms.reviewer: 
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi

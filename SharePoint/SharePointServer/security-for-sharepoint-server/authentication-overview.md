@@ -1,7 +1,8 @@
 ---
 title: "Authentication overview for SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/21/2017
 audience: ITPro

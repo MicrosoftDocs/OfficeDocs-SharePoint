@@ -1,7 +1,8 @@
 ---
 title: "Configure profile synchronization by using SharePoint Active Directory Import in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/28/2018
 audience: ITPro

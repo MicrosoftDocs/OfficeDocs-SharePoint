@@ -1,5 +1,6 @@
 ---
 title: "Monitor and manage app licenses in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,7 +1,8 @@
 ---
 title: "Plan browser support in SharePoint 2013"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/18/2017
 audience: ITPro

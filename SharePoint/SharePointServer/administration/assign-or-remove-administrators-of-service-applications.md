@@ -1,7 +1,8 @@
 ---
 title: "Assign or remove administrators of service applications in SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article

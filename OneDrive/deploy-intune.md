@@ -1,5 +1,6 @@
 ---
 title: "Deploy OneDrive apps using Intune"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -23,7 +24,7 @@ description: "Learn how to deploy OneDrive apps by using Intune."
 
 # Deploy OneDrive apps by using Intune
 
-You can use Intune to deploy the mobile apps for iOS and Android and to deploy the new OneDrive sync client (OneDrive.exe). Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
+You can use Intune to deploy the mobile apps for iOS and Android and to deploy the new OneDrive sync app (OneDrive.exe). Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSk]
 
@@ -59,7 +60,7 @@ For more information about deploying Office 365 apps to MacOS devices using Intu
 5. Select **Assignments** and choose the group you created. For info about this, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
 
 
-For more information about using Intune to deploy OneDrive to Android devices, see [How to add Android store apps to Microsoft Intune](/intune/store-apps-android). 
+For more information about using Intune to deploy OneDrive to Android devices, see [How to add Android store apps to Microsoft Intune](/intune/store-apps-android).
 
 
 
@@ -76,16 +77,12 @@ To use Intune to deploy OneDrive to Windows devices, follow these steps:
 ![](media/deploy-onedrive-enterprise_image3.png)
 
 > [!NOTE]
-> You aren’t required to deploy the entire Office 365 suite at once. If you need the OneDrive sync client only, you can select that one item.
+> You aren’t required to deploy the entire Office 365 suite at once. If you need the OneDrive sync app only, you can select that one item.
 
-6. Click to configure the required App Suite information, and then click **OK**. 
-7. Click to configure the required App Suite Settings, and then click **OK**. 
+6. Click to configure the required App Suite information, and then click **OK**.
+7. Click to configure the required App Suite Settings, and then click **OK**.
 8. Click **Add**. 
 9. Select **Assignments** and choose the group you created.
 10. If you want to use silent account configuration, add a PowerShell script to do this and assign it to the group. For info about this, see [Silently configure user accounts](use-silent-account-configuration.md).
 
 For more info about deploying Office 365 apps to Windows 10 devices using Intune, see [How to assign Office 365 apps to Windows 10 devices with Microsoft Intune](/intune/apps-add-office365/). 
-
-
-
-

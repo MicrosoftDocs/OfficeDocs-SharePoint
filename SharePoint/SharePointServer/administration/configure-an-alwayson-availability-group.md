@@ -1,7 +1,8 @@
 ---
 title: "Configure SQL Server AlwaysOn Availability Groups for SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article

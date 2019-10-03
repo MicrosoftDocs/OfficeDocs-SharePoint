@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Migration Identity Mapping Tool SharePoint Identity Scan"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -8,8 +9,9 @@ audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.assetid: 43b8829e-2a92-48ab-8c70-902fd0a8a91a
-
+ms.collection:
+- SPmigration
+- M365-collaboration
 ---
 
 # SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan

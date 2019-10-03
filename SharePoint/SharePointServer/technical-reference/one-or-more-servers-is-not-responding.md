@@ -1,7 +1,8 @@
 ---
 title: "One or more servers is not responding (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro

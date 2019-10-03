@@ -1,7 +1,8 @@
 ---
 title: "Manage a connection to a document center or a records center in SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article

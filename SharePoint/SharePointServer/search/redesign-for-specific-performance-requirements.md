@@ -1,7 +1,8 @@
 ---
 title: "Redesign enterprise search topology for specific performance requirements in SharePoint"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/8/2017
 audience: ITPro

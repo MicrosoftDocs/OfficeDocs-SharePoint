@@ -1,5 +1,6 @@
 ---
 title: "Stage 8 Assign a category page and a catalog item page to a term in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

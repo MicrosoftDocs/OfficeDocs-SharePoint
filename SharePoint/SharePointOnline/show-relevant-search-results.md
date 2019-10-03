@@ -1,8 +1,9 @@
 ---
 title: "Show the right search results"
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 audience: Admin
 ms.topic: overview
 ms.service: sharepoint-online

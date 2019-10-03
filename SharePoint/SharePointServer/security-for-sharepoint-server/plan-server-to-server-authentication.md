@@ -1,7 +1,8 @@
 ---
 title: "Plan for server-to-server authentication in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/2/2018
 audience: ITPro

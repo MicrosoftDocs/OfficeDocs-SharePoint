@@ -1,7 +1,8 @@
 ---
 title: "Overview of the upgrade process from SharePoint 2010 to SharePoint 2013"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/25/2017
 audience: ITPro

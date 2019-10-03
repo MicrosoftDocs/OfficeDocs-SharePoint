@@ -1,7 +1,8 @@
 ---
 title: "Firewall client settings on the cache host are incorrect (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/29/2017
 audience: ITPro
@@ -41,7 +42,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Firewall
     
 By default, the **Repair Automatically** option is enabled for this rule. You can restore the default setting for this rule by doing the following: 
   
-1. On the the SharePoint Central Administration website, click **Monitoring**.
+1. On the SharePoint Central Administration website, click **Monitoring**.
     
 2. On the Monitoring page, in the **Health Analyzer** section, click **Review rule definitions**.
     

@@ -1,7 +1,8 @@
 ---
 title: "The Application Discovery and Load Balancer Service is not running in this farm (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro
@@ -54,6 +55,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Appl
   
    `Start-SPServiceInstance [-Identity]`
     
-   Where  _[-Identity]_ is the GUID for the Application Discovery and Load Balancer service. For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
+   Where  _[-Identity]_ is the GUID for the Application Discovery and Load Balancer service. You can run the Get-SPServiceInstance cmdlet to see the GUID of the service instance. For more information, see [Start-SPServiceInstance](/powershell/module/sharepoint-server/Start-SPServiceInstance?view=sharepoint-ps).
     
 

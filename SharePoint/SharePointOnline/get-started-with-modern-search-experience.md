@@ -1,7 +1,8 @@
 ---
-title: When to use which search experience in SharePoint
-ms.author: tlarsen
-author: tklarsen
+title: Get started with the modern search experience
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
 ms.topic: article

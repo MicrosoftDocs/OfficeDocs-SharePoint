@@ -1,5 +1,6 @@
 ---
 title: "Add Yammer to the SharePoint Server navigation"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

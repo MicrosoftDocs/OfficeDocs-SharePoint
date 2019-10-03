@@ -1,6 +1,7 @@
 # [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
 ##  SharePoint Migration Tool (SPMT)
 ### [Overview and Download](introducing-the-sharepoint-migration-tool.md)
+###  [Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 ### What is supported by SPMT?
 #### [Supported features](what-is-supported-spmt.md)
 #### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 
@@ -8,19 +9,22 @@
 #### [Supported SharePoint web parts](spmt-supported-webparts.md)
 #### [Supported Site features](spmt-supported-site-features.md)
 ### [Troubleshooting installation issues](spmt-install-issues.md)
-### [Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
 ### [How the Sharepoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
 ### [Settings](spmt-settings.md)
 ### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
+### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
 ### [Reports](using-the-sharepoint-migration-tool-reports.md)
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
-## [Best practices for improving SharePoint and OneDrive migration performance](sharepoint-online-and-onedrive-migration-speed.md)
-## Migration Guides
+## Migration performance
+### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
+## Migration Scenario Guides
 ### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 ### [File share to OneDrive and SharePoint Migration Guide](Fileshare-to-ODSP-migration-guide.md)
+### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
 ## SharePoint Migration Assessment Tool
 ### [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
 ### [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)

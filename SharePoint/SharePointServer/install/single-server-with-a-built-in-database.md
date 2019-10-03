@@ -1,7 +1,8 @@
 ---
 title: "Install SharePoint 2013 on a single server with a built-in database"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/27/2017
 audience: ITPro

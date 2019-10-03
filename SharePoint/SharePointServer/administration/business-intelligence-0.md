@@ -1,7 +1,8 @@
 ---
 title: "Business intelligence in SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/23/2018
 audience: ITPro

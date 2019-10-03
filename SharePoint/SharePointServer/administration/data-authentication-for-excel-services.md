@@ -1,5 +1,6 @@
 ---
 title: "Data authentication for Excel Services in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

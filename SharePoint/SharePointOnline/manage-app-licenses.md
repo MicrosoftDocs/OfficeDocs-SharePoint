@@ -1,5 +1,6 @@
 ---
 title: "Manage app licenses for a SharePoint Online environment"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -30,16 +31,22 @@ From the admin center, you can also add users to an app, or delegate management 
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+4. Select **More classic features**.
+ 
+5. Under **Apps**, select **Open**.
+
+6. Select **Manage Licenses**. 
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+7. In the list of apps, select the app you want to update or view. 
     
-3. In the left pane, select **apps**, and then select **Manage Licenses**. 
+8. On the Manage App License page, you can review the details about the app license, such as the number of licenses available for users or the license type. You can also take a number of actions. 
     
-4. In the list of apps, select the app you want to update or view. 
-    
-5. On the Manage App License page, you can review the details about the app license, such as the number of licenses available for users or the license type. You can also take a number of actions. 
-    
-6.  Do any of the following: 
+9.  Do any of the following: 
     
 |****To do this:****|****Do this:****|
 |:-----|:-----|

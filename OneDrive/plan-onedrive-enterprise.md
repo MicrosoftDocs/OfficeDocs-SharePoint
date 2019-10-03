@@ -1,5 +1,6 @@
 ---
 title: OneDrive guide for enterprises
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -173,11 +174,11 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 |Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, OneDrive admin center, Intune mobile application management (MAM) or MDM|
 |Enterprise|System Center Configuration Manager with Intune or Windows Autopilot|System Center Configuration Manger, Group Policy objects (GPOs), etc. |
 
-Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync client manually on your employees’ computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you’re running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like System Center Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes. 
+Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees’ computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you’re running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like System Center Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes. 
 
 ## Prerequisites
 
-- **Client and app requirements.** Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync clients and the iOS and Android mobile apps. With that in mind, OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of client and app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
+- **Client and app requirements.** Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. With that in mind, OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of client and app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
 - **License requirements.** There are multiple methods by which you can acquire a license for OneDrive. However, a few OneDrive features are available only within certain licensing models. For information about the licensing requirements for OneDrive, its advanced features, and any special licensing required for them, see [Office 365 plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
@@ -202,7 +203,7 @@ For Windows 10 client devices that are joined to a domain, you have the addition
 
 ### Align technologies
 
-When you've identified the devices that require access to OneDrive, you then identify the technology options available to you or that align with your organization’s size. If you’re considering implementing a new deployment and management solution, the table in [How organizations deploy and manage OneDrive](#how-organizations-deploy-and-manage-onedrive) lists the technologies that make the most sense based on organization size. Using this information, you can align the technologies you need or already have with the deployment and management capabilities that fit the devices you need to manage.
+When you've identified the devices that require access to OneDrive, you then identify the technology options available to you or that align with your organization’s size. If you’re considering implementing a new deployment and management solution, the table in [How organizations deploy and manage OneDrive](#deployment-and-management-options) lists the technologies that make the most sense based on organization size. Using this information, you can align the technologies you need or already have with the deployment and management capabilities that fit the devices you need to manage.
 
 ### Deploy, secure, and manage OneDrive
 
@@ -234,7 +235,7 @@ Before you deploy OneDrive, prepare your environment.
 
 ### Network utilization
 
-A variety of factors can impact the amount of network bandwidth used by OneDrive. For the best experience, we recommend that you assess this impact before doing a full OneDrive deployment across your organization. The article [Network utilization planning for the OneDrive sync client](network-utilization-planning.md) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan.
+A variety of factors can impact the amount of network bandwidth used by OneDrive. For the best experience, we recommend that you assess this impact before doing a full OneDrive deployment across your organization. The article [Network utilization planning for the OneDrive sync app](network-utilization-planning.md) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan.
 
 ### Multi-Geo
 
@@ -371,7 +372,7 @@ Known Folder Move can be configured by administrators to automatically redirect 
 
 ### Files in other local disk folders
 
-If users have their additional work files in various locations on their computers, it's often easiest for them to manually move the files to OneDrive. After you deploy the OneDrive sync client to your users' computers, you can instruct them to move their work files to the OneDrive folder on their computer.
+If users have their additional work files in various locations on their computers, it's often easiest for them to manually move the files to OneDrive. After you deploy the OneDrive sync app to your users' computers, you can instruct them to move their work files to the OneDrive folder on their computer.
 
 ### Migrating with FastTrack
 
@@ -379,18 +380,18 @@ FastTrack is a Microsoft benefit that is included in your subscription.  FastTr
 
 ## Sync
 
-Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync clients and the iOS and Android mobile apps. OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of client and app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
+Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
 If you already have the OneDrive client installed on Windows devices, start by determining the version or versions of OneDrive in your environment. Depending on your findings, you may need to change your deployment process to accommodate the current version (for example, run takeover commands in PowerShell to ensure that data sync responsibilities transition to the new client). To determine which version of OneDrive you’re currently using, see [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
 
 
-### Upgrade from the Groove sync client to the OneDrive sync client
+### Upgrade from the Groove sync app to the OneDrive sync app
 
-If you currently have the old OneDrive sync client (Groove.exe), then you’ll need to follow a slightly different process to upgrade to the new sync client. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed information about this process (and caveats), see [Transition from the previous OneDrive for business sync client](transition-from-previous-sync-client.md).
+If you currently have the old OneDrive sync app (Groove.exe), then you’ll need to follow a slightly different process to upgrade to the new sync clieappnt. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed information about this process (and caveats), see [Transition from the previous OneDrive for business sync app](transition-from-previous-sync-client.md).
 
-### Sync client update process
+### Sync app update process
 
-You can update the OneDrive sync client in two waves:
+You can update the OneDrive sync app in two waves:
 
 -   **Production ring** – in this ring, you get new features and improvements sooner – as soon as they’ve been validated within Microsoft.
 
@@ -398,13 +399,13 @@ You can update the OneDrive sync client in two waves:
 
 This setting is configured by using Group Policy.
 
-For details about the update process for the OneDrive sync client, see [The OneDrive sync client update process](sync-client-update-process.md).
+For details about the update process for the OneDrive sync app, see [The OneDrive sync app update process](sync-client-update-process.md).
 
-To find out about new features available in current OneDrive updates as well as the current and historical version numbers, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+To find out about new features available in current OneDrive updates as well as the current and historical version numbers, see [New OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
 
 Key decision:
 
--   Which ring do you want to use for updates to the OneDrive sync client?
+-   Which ring do you want to use for updates to the OneDrive sync app?
 
 ## Configure settings
 
@@ -412,7 +413,7 @@ After you have planned your rollout, configure any settings you need before you 
 
 - Specify settings for sharing links and control external sharing: [Manage sharing](manage-sharing.md)
 
-- To manage the sync client deployment centrally, prevent users from installing the sync client when they go to their OneDrive in a web browser: [Prevent installation](prevent-installation.md)
+- To manage the sync app deployment centrally, prevent users from installing the sync app when they go to their OneDrive in a web browser: [Prevent installation](prevent-installation.md)
 
 - To make sure that users sync OneDrive files only on managed computers, configure OneDrive to sync only on PCs that are joined to specific domains: [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
 
@@ -429,11 +430,11 @@ After you have planned your rollout, configure any settings you need before you 
 
 ## Deployment options
 
-You have several different options for deploying OneDrive: manually, using scripting, using Windows AutoPilot (for the sync client on Windows), using an MDM such as Intune, or using SCCM. 
+You have several different options for deploying OneDrive: manually, using scripting, using Windows AutoPilot (for the sync app on Windows), using an MDM such as Intune, or using SCCM. 
 
-The OneDrive sync client is included as part of Windows 10 and Office 2016. You do not need to deploy the sync client to devices running these, though you may need to update the sync client to the latest version.
+The OneDrive sync app is included as part of Windows 10 and Office 2016. You do not need to deploy the sync app to devices running these, though you may need to update the sync app to the latest version.
 
-## Install OneDrive apps and sync clients manually
+## Install OneDrive apps and sync apps manually
 
 Although not particularly scalable, you always have the option of installing OneDrive manually on a device. For some devices, this process may be as simple as installing an app. For others, you may need to delete older versions of OneDrive first. This section walks you through the manual installation and configuration of OneDrive on iOS and Android mobile devices, Windows devices, and computers running macOS.
 
@@ -452,26 +453,26 @@ Send your users the following links to set up OneDrive on their mobile devices:
 
 ### Manually install and configure OneDrive on a Windows device
 
-Manually installing OneDrive on a Windows device may or may not be necessary: many devices may already have it, either because the user installed Microsoft Office 2016 or simply because the device runs Windows 10, both of which include the OneDrive client by default. For devices running older versions of Windows or on which Office 2016 is not installed, you can download the new OneDrive sync client for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
+Manually installing OneDrive on a Windows device may or may not be necessary: many devices may already have it, either because the user installed Microsoft Office 2016 or simply because the device runs Windows 10, both of which include the OneDrive client by default. For devices running older versions of Windows or on which Office 2016 is not installed, you can download the new OneDrive sync app for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
 
 > [!NOTE]
-> You may be required to uninstall an old version of the OneDrive sync client before you can install the new one. If so, you will receive a notification stating that you must uninstall the previous version before you can proceed.
+> You may be required to uninstall an old version of the OneDrive sync app before you can install the new one. If so, you will receive a notification stating that you must uninstall the previous version before you can proceed.
 
-To manually configure OneDrive on a Windows device, see [Sync files with the OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49).
+To manually configure OneDrive on a Windows device, see [Sync files with the OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49).
 
 ### Manually install and configure OneDrive on a macOS device
 
-For information about installing the OneDrive app on a computer running macOS or adding a work account to an existing installation, see [Sync files with the OneDrive sync client on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f).
+For information about installing the OneDrive app on a computer running macOS or adding a work account to an existing installation, see [Sync files with the OneDrive sync app on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f).
 
 ## Install OneDrive on Windows devices by using scripting methods
 
-To silently install the OneDrive sync client on an individual computer, run the following command:
+To silently install the OneDrive sync app on an individual computer, run the following command:
 
 ```PowerShell
 \<pathToExecutable\>\\OneDriveSetup.exe /silent
 ```
 
-To silently update the OneDrive sync client, run the following command:
+To silently update the OneDrive sync app, run the following command:
 
 ```PowerShell
 \<pathToExecutable\>\\OneDriveSetup.exe /update
@@ -489,18 +490,18 @@ For an overview of Windows AutoPilot, see [Overview of Windows AutoPilot](/windo
 
 ## Deploy OneDrive by using Intune
 
-To deploy the OneDrive sync client to Windows 10 or the mobile apps to Android or iOS, follow the steps in [Deploy OneDrive apps by using Intune](deploy-intune.md), or take a look at the following video.
+To deploy the OneDrive sync app to Windows 10 or the mobile apps to Android or iOS, follow the steps in [Deploy OneDrive apps by using Intune](deploy-intune.md), or take a look at the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSk]
 
 
 ## Deploy OneDrive by using System Center Configuration Manager
 
-To deploy the OneDrive sync client to Windows or the mobile apps to Android or iOS by using System Center Configuration Manager, see [Deploy OneDrive apps by using SCCM](deploy-on-windows.md).
+To deploy the OneDrive sync app to Windows or the mobile apps to Android or iOS by using System Center Configuration Manager, see [Deploy OneDrive apps by using SCCM](deploy-on-windows.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSr]
 
-Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the System Center Configuration Manager site. For detailed information about these prerequisites and how to prepare a System Center Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/sccm/core/clients/deploy/prepare-to-deploy-mac-clients/). When you’ve completed the prerequisites, you can deploy applications to Macs by completing the steps described in [How to Create and Deploy Applications for Mac Computers in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/jj884158(v%3dtechnet.10)/). For  information about configuring the OneDrive sync client for macOS, see [Deploy and configure the new OneDrive sync client for Mac](deploy-and-configure-on-macos.md).
+Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the System Center Configuration Manager site. For detailed information about these prerequisites and how to prepare a System Center Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/sccm/core/clients/deploy/prepare-to-deploy-mac-clients/). When you’ve completed the prerequisites, you can deploy applications to Macs by completing the steps described in [How to Create and Deploy Applications for Mac Computers in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/jj884158(v%3dtechnet.10)/). For  information about configuring the OneDrive sync app for macOS, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
 
 ## Manage OneDrive
 
@@ -510,8 +511,8 @@ The tools and technologies you use to manage OneDrive are based on the individua
 |**Category**|**Tasks**|**Technology or method**|
 |:-----|:-----|:-----|
 |OneDrive organization-wide settings|Manage settings such as storage limits and sharing capabilities.|OneDrive admin center<br>Microsoft PowerShell|
-|App updates|Update the OneDrive sync client or mobile apps|MDM (for example, Intune)<br>System Center Configuration Manager<br>Group Policy<br>OneDrive admin center<br>Manually|
-|Sync client settings|Configure the sync client update ring, DLP policies, and other device or app restrictions.|MDM (for example, Intune)<br>System Center Configuration Manager<br>Group Policy<br>Manually|
+|App updates|Update the OneDrive sync app or mobile apps|MDM (for example, Intune)<br>System Center Configuration Manager<br>Group Policy<br>OneDrive admin center<br>Manually|
+|Sync app settings|Configure the sync app update ring, DLP policies, and other device or app restrictions.|MDM (for example, Intune)<br>System Center Configuration Manager<br>Group Policy<br>Manually|
 
 ## Manage OneDrive by using the OneDrive admin center
 
@@ -538,7 +539,7 @@ Settings in the OneDrive admin center are grouped into six categories:
 
 ## Manage OneDrive settings by using Intune
 
-Unlike Windows, OneDrive doesn’t have a configuration service provider. Therefore, to use Intune to configure OneDrive settings, you must deploy the setting’s corresponding registry key and value by using a PowerShell cmdlet. Read [Use Group Policy to control OneDrive sync client settings](use-group-policy.md) for a list of settings and their corresponding registry values; then, construct a PowerShell script using the following cmdlet syntax:
+Unlike Windows, OneDrive doesn’t have a configuration service provider. Therefore, to use Intune to configure OneDrive settings, you must deploy the setting’s corresponding registry key and value by using a PowerShell cmdlet. Read [Use Group Policy to control OneDrive sync app settings](use-group-policy.md) for a list of settings and their corresponding registry values; then, construct a PowerShell script using the following cmdlet syntax:
 
 ```PowerShell
 New-ItemProperty -Path \$Path -Name \$Name -Value \$Value -PropertyType DWORD -Force | Out-Null
@@ -550,7 +551,7 @@ Save the PowerShell script as a .ps1 file. Then, see [Manage PowerShell scripts 
 
 ### Manage OneDrive updates by using Intune
 
-OneDrive is updated through Windows Update in two waves. Out of the box, OneDrive sync clients are in the first wave, which means that they receive updates as soon as they’re published. The second wave receives those same updates several weeks later. To configure Windows devices to be in the second wave, you must configure the **EnableEnterpriseUpdate** entry by using the following command:
+OneDrive is updated through Windows Update in two waves. Out of the box, OneDrive sync apps are in the first wave, which means that they receive updates as soon as they’re published. The second wave receives those same updates several weeks later. To configure Windows devices to be in the second wave, you must configure the **EnableEnterpriseUpdate** entry by using the following command:
 
 ```PowerShell
 New-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\OneDrive' -Name 'EnableEnterpriseUpdate' -Value '1' -PropertyType DWORD -Force | Out-Null
@@ -564,7 +565,7 @@ Intune isn’t the only MDM option you can use to manage OneDrive apps and setti
 
 ## Manage OneDrive by using Group Policy
 
-You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For information, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md). 
+You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For information, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md). 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
 
@@ -581,7 +582,7 @@ Depending on where the OneDrive client originated—as part of an Office package
 
 -   **Traditional updates managed through Windows Service Update Services (WSUS).** OneDrive product updates are downloaded to WSUS, and you can manage them alongside your Windows and Office updates. For information about how to configure System Center Configuration Manager with WSUS, see [Install and configure a software update point](/sccm/sum/get-started/install-a-software-update-point/).
 
--   **Single-instance updates.** If you want to perform an ad hoc update of the OneDrive sync client on a Windows device, start by downloading the updated OneDrive sync client from [OneDrive for Windows](https://onedrive.live.com/about/download). This method is typically applicable only for older installations of Office running on devices with a Windows version earlier than Windows 10 that are not updating OneDrive as part of their other updates.
+-   **Single-instance updates.** If you want to perform an ad hoc update of the OneDrive sync app on a Windows device, start by downloading the updated OneDrive sync app from [OneDrive for Windows](https://onedrive.live.com/about/download). This method is typically applicable only for older installations of Office running on devices with a Windows version earlier than Windows 10 that are not updating OneDrive as part of their other updates.
 
     Once downloaded, you can create a script in System Center Configuration Manager by following the process in [Create and run PowerShell scripts from the Configuration Manager Console](/sccm/apps/deploy-use/create-deploy-scripts/) or by using a traditional script-based application such as that in [Create applications with System Center Configuration Manager](/sccm/apps/deploy-use/create-applications/). When using either option, the command to update the OneDrive client using the installer is:
 

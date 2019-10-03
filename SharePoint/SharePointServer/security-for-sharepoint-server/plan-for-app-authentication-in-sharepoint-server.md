@@ -1,7 +1,8 @@
 ---
 title: "Plan for app authentication in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/5/2018
 audience: ITPro

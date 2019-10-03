@@ -1,8 +1,9 @@
 ---
 title: "Hybrid search in SharePoint"
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 10/4/2017
 audience: ITPro
 ms.topic: concetpual

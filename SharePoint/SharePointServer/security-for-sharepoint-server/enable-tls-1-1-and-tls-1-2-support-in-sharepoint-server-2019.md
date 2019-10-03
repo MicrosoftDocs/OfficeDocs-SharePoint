@@ -1,7 +1,8 @@
 ---
 title: "Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2019"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article

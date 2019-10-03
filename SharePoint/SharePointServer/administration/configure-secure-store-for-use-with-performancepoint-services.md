@@ -1,5 +1,6 @@
 ---
 title: "Configure Secure Store for use with PerformancePoint Services"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Overview of OneDrive for Business in SharePoint Server"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -54,7 +55,7 @@ In SharePoint Server, OneDrive for Business is simply the document library in a 
   
 ## Synchronizing files
 
-To synchronize OneDrive for Business files, you need to use a sync client. Sync clients automatically [synchronize files between OneDrive for Business and a user's computer](https://go.microsoft.com/fwlink/?LinkId=288863) or a mobile device. They are available for [a variety of operating systems and mobile devices](https://go.microsoft.com/fwlink/?LinkId=522308). The OneDrive for Business Windows sync client is also included as part of an Office installation.
+To synchronize OneDrive for Business files, you need to use a sync app. Sync apps automatically [synchronize files between OneDrive for Business and a user's computer](https://go.microsoft.com/fwlink/?LinkId=288863) or a mobile device. They are available for [a variety of operating systems and mobile devices](https://go.microsoft.com/fwlink/?LinkId=522308). The OneDrive for Business Windows sync app is also included as part of an Office installation.
   
 When you're using OneDrive for Business in SharePoint Server, you can synchronize your files to a variety of devices, but those devices need to be connected to the network where SharePoint Server resides in order for the sync to work. Synchronizing is mostly useful for laptops that are used while disconnected from your corporate network at times, such as when traveling. This differs from usingOneDrive for Business in Office 365, in which an Internet connection is required since files are synchronized from your users device to Office 365 instead of to an on-premises location in your network.
   
@@ -70,6 +71,6 @@ Setting up OneDrive for Business hybrid requires [configuring Office 365](https:
 
 Setting up OneDrive for Business in SharePoint Server requires configuring a User Profile Service application and setting up My Sites. For detailed planning information, see [Plan for OneDrive for Business in SharePoint Server](onedrive-for-business-planning.md).
   
-For more information about syncing OneDrive for Business files in SharePoint Server 2016 or 2013, see [Sync SharePoint files with the OneDrive for Business sync client (Groove.exe)](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd).
+For more information about syncing OneDrive for Business files in SharePoint Server 2016 or 2013, see [Sync SharePoint files with the OneDrive for Business sync app (Groove.exe)](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd).
   
 

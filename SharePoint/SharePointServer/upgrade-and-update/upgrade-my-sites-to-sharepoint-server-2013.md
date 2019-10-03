@@ -1,7 +1,8 @@
 ---
 title: "Upgrade My Sites to SharePoint Server 2013"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/21/2018
 audience: ITPro

@@ -1,7 +1,8 @@
 ---
 title: "Databases exist on servers running SharePoint Foundation (SharePointServer)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/28/2017
 audience: ITPro

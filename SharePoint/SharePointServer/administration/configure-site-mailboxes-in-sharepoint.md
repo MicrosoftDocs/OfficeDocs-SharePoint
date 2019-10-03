@@ -1,7 +1,8 @@
 ---
 title: "Configure site mailboxes in SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/20/2017
 audience: ITPro

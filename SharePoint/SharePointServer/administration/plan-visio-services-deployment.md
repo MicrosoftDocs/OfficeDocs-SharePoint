@@ -1,5 +1,6 @@
 ---
 title: "Plan Visio Services deployment in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

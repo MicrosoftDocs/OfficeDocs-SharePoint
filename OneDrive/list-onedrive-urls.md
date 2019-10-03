@@ -1,5 +1,6 @@
 ---
 title: "Get a list of all user OneDrive URLs in your organization"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -55,7 +56,7 @@ The list you create in these steps will be saved to a text file.
     $TenantUrl = Read-Host "Enter the SharePoint Online Tenant Admin Url"
 	$LogFile = [Environment]::GetFolderPath("Desktop") + "\OneDriveSites.log"
 	Connect-SPOService -Url $TenantUrl
-	Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/" |select Url | Out-File $LogFile -Force
+	Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/'" | select Url | Out-File $LogFile -Force
 	Write-Host "Done! File saved as $($LogFile)."
      ```
 

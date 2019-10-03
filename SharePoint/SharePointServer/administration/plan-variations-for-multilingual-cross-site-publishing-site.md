@@ -1,5 +1,6 @@
 ---
 title: "Plan variations for multilingual cross-site publishing site in SharePoint Server"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

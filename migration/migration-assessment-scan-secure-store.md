@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Secure Store"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,7 +12,8 @@ localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 8c63518d-4977-4bea-a376-09ec71b7ff56
 description: "Learn how to mitigate issues with Secure Store during migration."

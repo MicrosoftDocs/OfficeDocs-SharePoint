@@ -1,7 +1,8 @@
 ---
 title: "Plan to transform queries and order results in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/25/2017
 audience: ITPro

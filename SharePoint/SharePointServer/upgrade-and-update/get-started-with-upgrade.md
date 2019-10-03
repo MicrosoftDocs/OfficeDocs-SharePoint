@@ -1,7 +1,8 @@
 ---
 title: "Get started with upgrades to SharePoint Server 2016"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 11/14/2016
 audience: ITPro

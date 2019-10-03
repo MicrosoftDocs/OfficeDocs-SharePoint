@@ -1,7 +1,8 @@
 ---
 title: "Upgrade My Sites to SharePoint Server 2019"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: get-started-article

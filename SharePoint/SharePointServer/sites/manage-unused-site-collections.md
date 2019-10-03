@@ -1,7 +1,8 @@
 ---
 title: "Manage unused site collections in SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/26/2017
 audience: ITPro

@@ -1,5 +1,6 @@
 ---
 title: "Plan for OneDrive for Business in SharePoint Server"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -44,17 +45,17 @@ To make OneDrive for Business in SharePoint Server available to your users, you 
 > [!NOTE]
 > For detailed information about how to set up each service as required for OneDrive for Business, see [Set up OneDrive for Business in a SharePoint Server on-premises environment](set-up-onedrive-for-business.md). 
   
-## Using the OneDrive for Business sync client
+## Using the OneDrive for Business sync app
 <a name="section3"> </a>
 
-The OneDrive for Business [sync clients](https://go.microsoft.com/fwlink/?LinkId=522308) give users the convenience of local storage of their files. Sync clients also enable users to take documents offline. Users then can use those documents when they're disconnected from SharePoint Server. Later, when the client computer or device reconnects to SharePoint Server, the files are synchronized. 
+The OneDrive for Business [sync apps](https://go.microsoft.com/fwlink/?LinkId=522308) give users the convenience of local storage of their files. Sync apps also enable users to take documents offline. Users then can use those documents when they're disconnected from SharePoint Server. Later, when the client computer or device reconnects to SharePoint Server, the files are synchronized. 
   
-In a SharePoint Server on-premises environment, you may have the option to save directly to your document library (for example, from Office 2016), which is where files are synchronized from your OneDrive for Business local folder anyway. When the OneDrive for Business sync client is used in an on-premises environment, it's primary benefit is for synchronizing files on laptops that are used while disconnected from your corporate network at times, such as when traveling.
+In a SharePoint Server on-premises environment, you may have the option to save directly to your document library (for example, from Office 2016), which is where files are synchronized from your OneDrive for Business local folder anyway. When the OneDrive for Business sync app is used in an on-premises environment, it's primary benefit is for synchronizing files on laptops that are used while disconnected from your corporate network at times, such as when traveling.
   
-The sync client also provides your users the added convenience of working with files directly from the local OneDrive for Business sync folder. Work with and saving your files directly in the folder is more convenient than opening your My Sites document library. 
+The sync app also provides your users the added convenience of working with files directly from the local OneDrive for Business sync folder. Work with and saving your files directly in the folder is more convenient than opening your My Sites document library. 
   
 > [!IMPORTANT]
-> Use the [OneDrive for Business sync client for Groove.exe](https://support.microsoft.com/en-us/kb/2903984) when using OneDrive for Business in a SharePoint Server on-premises environment. The OneDrive for Business Next Generation sync client (OneDrive.exe) is currently not supported to work in a SharePoint Server on-premises environment. 
+> Use the [OneDrive for Business sync app for Groove.exe](https://support.microsoft.com/en-us/kb/2903984) when using OneDrive for Business in a SharePoint Server on-premises environment. The OneDrive for Business Next Generation sync app (OneDrive.exe) is currently not supported to work in a SharePoint Server on-premises environment. 
   
  **Changes in file location**
   
@@ -66,7 +67,7 @@ Stopping a synchronization and starting a new one to the same OneDrive for Busin
   
  **Network bandwidth considerations**
   
-There are several situations in which OneDrive for Business sync clients can cause unusually high network bandwidth usage:
+There are several situations in which OneDrive for Business sync apps can cause unusually high network bandwidth usage:
   
 - When you first roll out OneDrive for Business and users are synchronizing all of their files for the first time.
     
@@ -77,7 +78,7 @@ Be mindful of the potential impact of these changes on your network.
 ## Data security
 <a name="section4"> </a>
 
-Sync clients use the http:// or https:// protocol of the site that they're synchronizing with to transfer data. If the OneDrive for Business site uses a Secure Socket Layer (SSL) connection (https://), then the data being transferred by the sync client is encrypted; otherwise, it's not.
+Sync apps use the http:// or https:// protocol of the site that they're synchronizing with to transfer data. If the OneDrive for Business site uses a Secure Socket Layer (SSL) connection (https://), then the data being transferred by the sync app is encrypted; otherwise, it's not.
   
 Office 365 uses SSL for OneDrive for Business connections by default. If you're using SharePoint Server, we recommend configuring your My Site host to use SSL for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires an SSL connection for OneDrive for Business clients that connect to SharePoint Server from outside the organization's intranet.
   

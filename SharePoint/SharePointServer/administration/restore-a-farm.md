@@ -1,7 +1,8 @@
 ---
 title: "Restore farms in SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
@@ -24,7 +25,7 @@ You can restore a SharePoint Server farm by using the SharePoint Central Adminis
 ## Before you begin
 <a name="begin"> </a>
 
-Farm-level recovery is usually performed only after a failure that involves the complete farm, or where partial recovery of part of the farm is not possible. If you only have to restore part of the farm, a specific database, a service application, a list, or document library, or a specific document, use another recovery method. For more information about alternate forms of recovery, see [Related content](#Proc4).
+Farm-level recovery is usually performed only after a failure that involves the complete farm, or where partial recovery of part of the farm is not possible. If you only have to restore part of the farm, a specific database, a service application, a list, or document library, or a specific document, use another recovery method. For more information about alternate forms of recovery, see [Related content](#proc4).
   
  Farm recovery is usually performed for any of the following reasons: 
   
@@ -237,7 +238,7 @@ Use the following procedure to restore your farm databases.
 14. Start any service applications that have to be restarted. In Central Administration, on the home page, in the **Systems Settings** section, click **Manage services on server**. On the Services on Server page, start any services related to service applications that you want to run by clicking **Restart** in the **Action** column next to the service application. 
     
 
-## <a name="proc4"> </a>Related content
+## <a name="proc4"></a>Related content
 
 The following list shows other recovery methods that you can use when you only need to restore part of your farm: 
   

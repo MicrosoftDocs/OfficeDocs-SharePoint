@@ -1,5 +1,6 @@
 ---
 title: "Capacity planning for SharePoint Server 2013"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -19,7 +20,7 @@ description: "Learn how to plan and manage capacity and performance for SharePoi
   
 This article describes how to plan the capacity of a SharePoint Server 2013 farm. When you have a good appreciation and understanding of capacity planning and management, you can apply your knowledge to system sizing. Sizing is the term used to describe the selection and configuration of appropriate data architecture, logical and physical topology, and hardware for a solution platform. There is a range of capacity management and usage considerations that affect how you should determine the most appropriate hardware and configuration options.
   
-Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ff758647(v=office.14)).
+Before you read this article, you should read [Capacity management and sizing overview for SharePoint Server 2013](https://docs.microsoft.com/previous-versions/office/ff758647(v=office.15)).
   
 > [!IMPORTANT]
 > Some information and values in this article are based on test results and other information related to SharePoint 2010 Products and may not represent the final values for SharePoint Server 2013. 
@@ -101,8 +102,6 @@ If you have an existing Office SharePoint Server 2007 solution, you can mine the
 #### Analyzing your SharePoint Server 2013 IIS Logs
 
 To discover key metrics about an existing SharePoint Server 2013 deployment, such as how many users are active, how heavily they are using the system, what kind of requests are coming in, and from what kind of clients they originate, it is necessary to extract data from ULS and IIS logs. One of the easiest ways to acquire this data is to use **Log Parser**, a powerful tool available free for download from Microsoft. Log Parser can read and write to a number of textual and binary formats, including all the IIS formats.
-  
-For detailed information about how to analyze SharePoint Server 2013 usage using Log Parser, read [Analyzing Microsoft SharePoint Products and Technologies Usage](http://www.microsoft.com/downloads/details.aspx?familyid=f159af68-c3a3-413c-a3f7-2e0be6d5532e&amp;displaylang=en&amp;tm) (http://www.microsoft.com/downloads/details.aspx?familyid=f159af68-c3a3-413c-a3f7-2e0be6d5532e&amp;displaylang=en&amp;tm). 
   
 You can download Log Parser 2.2 at [http://www.microsoft.com/downloads/details.aspx?FamilyID=890CD06B-ABF8-4C25-91B2-F8D975CF8C07&amp;displaylang=en](http://www.microsoft.com/downloads/details.aspx?FamilyID=890CD06B-ABF8-4C25-91B2-F8D975CF8C07&amp;displaylang=en). 
   

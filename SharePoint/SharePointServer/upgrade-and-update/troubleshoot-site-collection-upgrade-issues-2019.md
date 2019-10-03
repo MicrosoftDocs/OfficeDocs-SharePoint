@@ -1,7 +1,8 @@
 ---
 title: "Troubleshoot site collection upgrade issues in SharePoint Server 2019"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/24/2018
 audience: ITPro
@@ -55,7 +56,7 @@ To reset the page, you can use the **Reset to site definition** link under **Sit
 
 - **A:** Create indexed columns, folders, or new views for large lists. You might have to add the indexed column to your existing views. 
     
-If a list is very large, and users use a view or perform a query that exceeds the limit or throttling threshold, the view or query will not be permitted. You can create indexed columns with filtered views, organize items into folders, set an item limit on the page for a large view, or use an external list. For more information about large list throttling and how to address issues with large lists, see [Manage lists and libraries with many items](https://go.microsoft.com/fwlink/p/?LinkId=251456) on Office Online. 
+If a list is very large, and users use a view or perform a query that exceeds the limit or throttling threshold, the view or query will not be permitted. You can create indexed columns with filtered views, organize items into folders, set an item limit on the page for a large view, or use an external list. For more information about large list throttling and how to address issues with large lists, see [Manage lists and libraries with many items](https://go.microsoft.com/fwlink/p/?LinkId=251456). 
   
 ### Q: I see an error about a duplicate content type name
 <a name="UI"> </a>
@@ -94,7 +95,7 @@ In the upgrade log files, you may see an error such as the following:
     
     A Web Part or other control might have been added to the page that is not installed or is no longer supported. Either a Web Part was added to a zone or the page was directly edited to add a control or Web Part reference directly inline (possibly on a master page).
     
-    A SharePoint feature may need to be activated. For more information, see [Enable or disable site collection features](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/enable-or-disable-site-collection-features-HA102772720.aspx?CTT=1) and [Open and use the Web Part Maintenance Page](https://office.microsoft.com/en-us/sharepoint-help/open-and-use-the-web-part-maintenance-page-HA104046809.aspx?CTT=1) on Office Online. 
+    A SharePoint feature may need to be activated. For more information, see [Enable or disable site collection features](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/enable-or-disable-site-collection-features-HA102772720.aspx?CTT=1) and [Open and use the Web Part Maintenance Page](https://office.microsoft.com/en-us/sharepoint-help/open-and-use-the-web-part-maintenance-page-HA104046809.aspx?CTT=1). 
     
 ### Q: My upgraded site does not render at all; instead, I see an "unexpected error" with a correlation ID
 <a name="UI"> </a>

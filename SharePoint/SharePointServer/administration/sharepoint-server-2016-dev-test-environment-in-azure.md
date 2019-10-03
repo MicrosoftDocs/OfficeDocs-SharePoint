@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Server 2016 dev/test environment in Azure"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: pamgreen
@@ -52,9 +53,6 @@ First, sign into your Azure account.
 Connect-AzAccount
 ```
 
-> [!TIP]
-> For a text file that contains all the PowerShell commands in this article, click [here](https://gallery.technet.microsoft.com/scriptcenter/PowerShell-commands-for-2e45ebee). 
-  
 Get your subscription name using the following command.
   
 ```

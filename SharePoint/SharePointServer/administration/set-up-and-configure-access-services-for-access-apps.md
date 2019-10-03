@@ -1,5 +1,6 @@
 ---
 title: "Set up and configure Access Services for Access apps in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

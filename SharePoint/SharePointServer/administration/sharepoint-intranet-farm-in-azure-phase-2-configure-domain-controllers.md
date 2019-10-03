@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Intranet Farm in Azure Phase 2 Configure domain controllers"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -67,9 +68,6 @@ Recall that you defined Tables R, V, S, I, and A in [SharePoint Intranet Farm in
 > The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](/powershell/azure/overview?view=azurermps-6.13.0). 
   
 When you have supplied all the correct values, run the resulting block at the Azure PowerShell prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
-  
-> [!TIP]
-> For a text file that contains all of the PowerShell commands in this article and a Microsoft Excel configuration workbook that generates ready-to-run PowerShell command blocks based on your custom settings, see the [SharePoint Server 2016 High Availability Farm in Azure Deployment Kit](https://gallery.technet.microsoft.com/SharePoint-Server-2016-3d3d9071). 
   
 ```
 # Set up variables common to both virtual machines

@@ -1,7 +1,8 @@
 ---
 title: "Some content databases are growing too large (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/30/2017
 audience: ITPro

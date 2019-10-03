@@ -1,7 +1,8 @@
 ---
 title: "The timer service failed to recycle (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: troubleshooting

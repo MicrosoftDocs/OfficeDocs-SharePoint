@@ -1,7 +1,8 @@
 ---
 title: "Plan email integration for a SharePoint Server farm"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 11/2/2017
 audience: ITPro

@@ -1,9 +1,9 @@
 ---
 title: "Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -95,13 +95,17 @@ To create a Secure Store Target Application, follow these steps.
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+4. Select **More classic features**.
+ 
+5. Under **Secure store**, select **Open**.
     
-3. In the left pane, select **secure store**.
+6. On the ribbon, select **New** to open the page where you can specify settings for a Target Application. 
     
-4. On the ribbon, select **New** to open the page where you can specify settings for a Target Application. 
-    
-5. In the **Target Application Settings** section, do the following: 
+7. In the **Target Application Settings** section, do the following: 
     
   - Under **Target Application ID**, specify a value for a unique ID. This ID maps the External Content type to credentials that are required to authenticate the user. You cannot change the Target Application ID once you create the Target Application.
     
@@ -111,17 +115,17 @@ To create a Secure Store Target Application, follow these steps.
     
   - Under **Target Application Type**, verify that the value is set to **Group Restricted**. Group Restricted means that the Secure Store contains a mapping that connects a group of SharePoint users to a single, external data account that can act on their behalf. In addition, a Group Restricted application type is restricted to the specified external data system.
     
-6. In **Credential Fields** section, enter the field names that you want to use for the user name and password of the external data system. By default, the Secure Store uses the **Windows User Name** and **Windows Password**. We recommend that you accept these values. You cannot edit these Field Types after you finish creating the application.
+8. In **Credential Fields** section, enter the field names that you want to use for the user name and password of the external data system. By default, the Secure Store uses the **Windows User Name** and **Windows Password**. We recommend that you accept these values. You cannot edit these Field Types after you finish creating the application.
     
     ![Screenshot of the Credential Fields section of the Secure Store Target Application properties page. These fields allow you to specify the logon credentials for the target](media/404c21d4-8677-474c-ad01-5cdd8af06cbf.png)
   
-7. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint or global admin. 
+9. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint or global admin. 
     
-8. In the **Members** section, in the **Members** field enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
+10. In the **Members** section, in the **Members** field enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
   
      If you are a global administrator, you can create groups in MSODS in the Microsoft 365 admin center. 
     
-9. Select **OK** to create the Target Application and return to the Secure Store Service page. 
+11. Select **OK** to create the Target Application and return to the Secure Store Service page. 
     
 ### Store credentials for the Target Application
 <a name="__toc350352769"> </a>
@@ -132,14 +136,18 @@ After you create the Target Application, you are ready to enter the credentials 
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+4. Select **More classic features**.
+ 
+5. Under **Secure store**, select **Open**.
+  
+6. Select the arrow next to the new Target Application and then select **Set Credentials**. 
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane, select **secure store**.
-    
-4. Select the arrow next to the new Target Application and then select **Set Credentials**. 
-    
-5. In the **Set Credentials for Secure Store Target Applications (Group)** dialog box, enter the user name and password of the account. The account must have access to the target database. In the following illustration, the user name is **Windows User Name** and the password is **Windows Password**.
+7. In the **Set Credentials for Secure Store Target Applications (Group)** dialog box, enter the user name and password of the account. The account must have access to the target database. In the following illustration, the user name is **Windows User Name** and the password is **Windows Password**.
     
     > [!IMPORTANT]
     >  Keep a secure record of this information. After you set these credentials, an administrator cannot retrieve them. 
@@ -270,28 +278,33 @@ To finish setting up the External List, you have to grant permissions to the peo
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+
+
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+ 
+3. In the left pane of the new SharePoint admin center, select **Classic features**.
+ 
+4. Select **More classic features**.
+ 
+5. Under **BCS**, select **Open**.
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+5. Select **Manage BDC Models and External Content Types**. 
     
-3. In the left pane, select **bcs**.
-    
-4. Select **Manage BDC Models and External Content Types**. 
-    
-5. Select the check box next to the name of the ECT that you just created, and then select the **Set Object Permissions**. 
+6. Select the check box next to the name of the ECT that you just created, and then select the **Set Object Permissions**. 
     
     > [!IMPORTANT]
     >  You must manually assign permissions to manage the ECT to a global or SharePoint admin by using the **Set Object Permissions** command. If you do not assign these permissions explicitly, the admins won't have permission to manage the ECT. 
   
     ![The Set Object Permissions button in the ribbon on the BCS page of the SharePoint admin center](media/719d5798-9ec7-45c0-951b-f3a2ba73a6bf.png)
   
-6. In the **set object permissions** dialog, select the check boxes for all the permissions (( **Edit, Execute, Selectable in Clients, and Set Permissions**) that the SharePoint admin needs. 
+7. In the **set object permissions** dialog, select the check boxes for all the permissions (( **Edit, Execute, Selectable in Clients, and Set Permissions**) that the SharePoint admin needs. 
     
     > [!NOTE]
     >  Make sure that at least one user or group has **Set Permissions** rights. If you don't assign someone this right, you might create an unmanageable BCS connection. 
   
     ![Screenshot of the SetObject Permissions dialog box in SharePoint Online. Use this dialog to set permissions for a specified External Content Type.](media/5e760b77-b0cc-4be9-870e-217e902d9245.png)
   
-7. Select **Propagate permissions to all methods of this external content type**. Doing this overwrites any existing permissions. 
+8. Select **Propagate permissions to all methods of this external content type**. Doing this overwrites any existing permissions. 
     
     > [!NOTE]
     >  If you want to add a group that can use the External Lists, you must also give the group **Execute** rights. That enables users in the group to run a query to the external source, and view the results in SharePoint. 

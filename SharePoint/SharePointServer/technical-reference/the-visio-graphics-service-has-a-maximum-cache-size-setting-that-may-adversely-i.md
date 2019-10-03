@@ -1,7 +1,8 @@
 ---
 title: "The Visio Graphics Service has a maximum cache size setting that may adversely impact performance ((SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/30/2017
 audience: ITPro

@@ -1,7 +1,8 @@
 ---
 title: "SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 layout: LandingPage
 audience: ITPro
@@ -141,7 +142,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                     <div class="cardText">
                         <h3>Learn about SharePoint</h3>
                         <p><a href="https://products.office.com/en-us/sharepoint/collaboration">What is SharePoint?</a></p>
-                        <p><a href="https://www.youtube.com/watch?v=Bz4kdOiJrpE">Discover SharePoint Server 2016: Feature Pack 2 and Beyond</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=igkJVtG6eus">SharePoint Server 2019 overview</a></p>
                         <p><a href="https://techcommunity.microsoft.com/t5/SharePoint-Blog/bg-p/SPBlog">SharePoint blog</a></p>
                     </div>
                 </div>

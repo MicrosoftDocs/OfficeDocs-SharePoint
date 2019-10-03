@@ -1,9 +1,10 @@
 ---
 title: "Manage the search schema in SharePoint Online"
-ms.author: tlarsen
-author: tklarsen
-ms.author: tlarsen
-manager: arnek
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
+ms.author: mikeplum
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -59,7 +60,7 @@ For most languages, search changes text to lower-case, removes diacritics, repla
   
 Breaking on white spaces works fine for a language like English, but not so well for East Asian languages. Let's say you have a document library that contains product datasheets both in English and Chinese. Each datasheet has a product identifier with non-alphanumerical characters, such as "11.132-84-115#4". When search processes the datasheet, it **detects** its language, and tokenizes everything in it according to that language. So, the product identifier in a Chinese data sheet is tokenized as if it was Chinese text, and in an English data sheet the product identifier is tokenized as if it was English text. When users search for a product identifier, search tokenizes their query according to the language setting of the SharePoint site they're on. If the site is set to English, and the user searches for a product identifier that was tokenized as Chinese text, the tokens might not match, and the users get no results. 
   
-Here's how you can make results better for users: When search crawls the datasheet, it extracts the product identifier. Map the crawled property for the product identifier to a new managed property, "ProductID". Enable **language neutral tokenization** for the "ProductID" managed property, and instruct users to search for product identifiers against the "ProductID"managed property, like this:  *ProductID:"11.132-8"*  . Because you've enabled language neutral tokenization for "ProductID", search uses language neutral tokenization for the query and can find matching results for the query. 
+Here's how you can make results better for users: When search crawls the datasheet, it extracts the product identifier. Map the crawled property for the product identifier to a new managed property, "ProductID". Enable **language neutral tokenization** for the "ProductID" managed property, and instruct users to search for product identifiers against the "ProductID" managed property, like this:  *ProductID:"11.132-8"*  . Because you've enabled language neutral tokenization for "ProductID", search uses language neutral tokenization for the query and can find matching results for the query. 
   
  **Get better search results when you have metadata with special characters**
   
@@ -138,9 +139,13 @@ If you need a property of a different type, or one that has different characteri
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Schema** on the search administration page. 
+3. Select **Classic features**.
+ 
+4. Under **Search**, select **Open**.
+ 
+5. Select **Manage Search Schema** on the search administration page. 
     
 **Go to the Search Schema page for a site collection**
     
@@ -183,10 +188,14 @@ If you need a property of a different type, or one that has different characteri
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+ 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Schema** on the search administration page. 
+3. Select **Classic features**.
+ 
+4. Under **Search**, select **Open**.
+
+5. Select **Manage Search Schema** on the search administration page. 
     
 **Go to the Search Schema page for a site collection**
     
@@ -215,16 +224,21 @@ If you need a property of a different type, or one that has different characteri
 ## View crawled properties and managed properties
 <a name="__toc351360843"> </a>
 
-**Go to the Search Schema page for the Tenant**
+**Go to the Search Schema page for the tenant**
     
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Schema** on the search administration page. 
+3. Select **Classic features**.
+ 
+4. Under **Search**, select **Open**.
+
+5. Select **Manage Search Schema** on the search administration page.
+
     
 **Go to the Search Schema page for a site collection**
     
@@ -244,7 +258,6 @@ If you need a property of a different type, or one that has different characteri
 > [!NOTE]
 > Not all options are available in SharePoint Online. 
   
- **Edit a managed property**
   
 **Go to the Search Schema page for the tenant**
     
@@ -252,10 +265,15 @@ If you need a property of a different type, or one that has different characteri
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Schema** on the search administration page. 
+3. Select **Classic features**.
+ 
+4. Under **Search**, select **Open**.
+
+5. Select **Manage Search Schema** on the search administration page.
+
     
 **Go to the Search Schema page for a site collection**
     
@@ -278,11 +296,15 @@ If you need a property of a different type, or one that has different characteri
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Schema** on the search administration page. 
-    
+3. Select **Classic features**.
+ 
+4. Under **Search**, select **Open**.
+
+5. Select **Manage Search Schema** on the search administration page.
+
 **Go to the Search Schema page for a site collection**
     
 1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
@@ -307,10 +329,16 @@ If you need a property of a different type, or one that has different characteri
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Schema** on the search administration page. 
+3. Select **Classic features**.
+ 
+4. Under **Search**, select **Open**.
+
+5. Select **Manage Search Schema** on the search administration page.
+
+
     
 **Go to the Search Schema page for a site collection**
     
@@ -341,10 +369,15 @@ If you need a property of a different type, or one that has different characteri
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane of the classic SharePoint admin center, select **search**, and then click **Manage Search Schema** on the search administration page. 
+3. Select **Classic features**.
+ 
+4. Under **Search**, select **Open**.
+
+5. Select **Manage Search Schema** on the search administration page.
+
     
 **Go to the Search Schema page for a site collection**
     
@@ -392,7 +425,7 @@ If you don't want a document to show up in Delve, you can create a HideFromDelve
     
 2. On the ribbon, click the **List** or **Library** tab. 
     
-3. Click **Create Column** in the **Manage Views** group,. 
+3. Click **Create Column** in the **Manage Views** group. 
     
 4. Type HideFromDelve in the **Column name** box under the Name and Type section, and then select **Yes/No (check box)**.
     

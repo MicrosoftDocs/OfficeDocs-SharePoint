@@ -1,8 +1,9 @@
 ---
 title: "Display hybrid federated search results in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 3/9/2018
 audience: ITPro
 ms.topic: article

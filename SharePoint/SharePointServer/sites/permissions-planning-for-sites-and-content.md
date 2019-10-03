@@ -1,7 +1,8 @@
 ---
 title: "Permissions planning for sites and content in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/24/2017
 audience: ITPro

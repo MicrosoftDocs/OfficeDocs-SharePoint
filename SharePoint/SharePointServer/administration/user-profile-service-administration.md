@@ -1,7 +1,8 @@
 ---
 title: "Administer the User Profile service in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/22/2017
 audience: ITPro

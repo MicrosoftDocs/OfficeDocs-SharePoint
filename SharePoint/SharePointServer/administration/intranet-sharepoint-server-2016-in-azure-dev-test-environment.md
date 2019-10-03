@@ -1,5 +1,6 @@
 ---
 title: "Intranet SharePoint Server 2016 in Azure dev/test environment"
+ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -72,8 +73,6 @@ Because the intranet SharePoint dev/test environment does not require the presen
 
 To create the SQL Server 2016 virtual machine with Azure PowerShell, supply the values for the variables. Then, run the resulting command block at the Azure PowerShell prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
   
-> [!TIP]
-> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-6661c46b) to get a text file that contains all of the PowerShell commands in this article. 
   
 ```
 # Log in to Azure

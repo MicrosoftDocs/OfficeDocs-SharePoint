@@ -1,5 +1,7 @@
 ---
 title: "Sign out inactive users"
+ms.reviewer: 
+manager: 
 ms.author: kaarins
 author: kaarins
 audience: Admin
@@ -51,7 +53,7 @@ If they don't click **Continue**, they'll be automatically signed out and will s
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, click **Try it now** to open the new SharePoint admin center.
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Access control**. 
 
@@ -63,7 +65,7 @@ If they don't click **Continue**, they'll be automatically signed out and will s
 
 7. Select **Save**.
 
-## Specify idle session sign-out settings using PowerShell
+## Specify idle session sign-out settings by using PowerShell
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     

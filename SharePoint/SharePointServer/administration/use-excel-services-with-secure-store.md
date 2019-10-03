@@ -1,5 +1,6 @@
 ---
 title: "Use Excel Services with Secure Store Service in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

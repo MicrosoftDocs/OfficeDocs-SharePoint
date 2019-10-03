@@ -1,7 +1,8 @@
 ---
 title: "Global architectures for SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/5/2017
 audience: ITPro
@@ -102,7 +103,7 @@ OneDrive for Business lets users sync their My Site library or other SharePoint 
 OneDrive for Business works well in environments that have intermittent connections or in environments that have high latency or low bandwidth connections. It is not intended to be used by many users who are editing the same file offline at the same time. For more information see [Sync your OneDrive or other SharePoint libraries to your computer with OneDrive for Business](https://go.microsoft.com/fwlink/p/?LinkId=279879).
   
 > [!NOTE]
-> At this time, the OneDrive for Business next generation sync client is not available in SharePoint Server. 
+> At this time, the OneDrive for Business next generation sync app is not available in SharePoint Server. 
   
 ## Design a central site with multiple farms
 <a name="section5"> </a>

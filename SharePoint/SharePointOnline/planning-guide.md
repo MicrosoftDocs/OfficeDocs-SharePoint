@@ -1,9 +1,9 @@
 ---
 title: "SharePoint Online planning guide"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -22,34 +22,16 @@ description: "Learn important details that a SharePoint admin should consider wh
 
 # SharePoint Online planning guide
 
-As an Office 365 global or SharePoint admin in your organization, you can use the classic SharePoint admin center to:
-  
-- Create and manage classic site collections including allocating and monitoring site collection storage
-    
-- Manage permissions and users and help secure content on sites
-    
-- Manage user profiles and configure OneDrive settings (called "My Sites" settings in the admin center)
-    
-- Enable and configure specific SharePoint Online features or global settings
-    
 Here's an overview of important details you should consider when planning how to build out, configure, and manage your SharePoint Online environment. 
   
 ## Plan the site collections you need to create
 <a name="__toc346712635"> </a>
 
-A site collection has the same owner and shares administrative settings, such as permissions. When you create a site collection, a top-level site is automatically created in the site collection. You can create subsites below the top-level site.  
-
-> [!NOTE]
-> Instead of using subsites, we recommend creating a separate site collection for each unit of work, and connecting them by using hub sites. To learn more, see [Planning your SharePoint hub sites](planning-hub-sites.md). 
-  
-![SharePoint admin center site collections settings](media/3edc4ae1-cf3c-430b-9afb-d09fe5045cf0.png)
-  
-  
-Communication sites and new team sites that belong to Office 365 groups can't be created or managed in the classic SharePoint admin center. For info about creating and managing these sites using the new SharePoint admin center, see [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md). 
+A site collection has the same owner and shares administrative settings, such as permissions. We recommend creating a separate site collection for each unit of work, and connecting them by using hub sites. To learn more, see [Planning your SharePoint hub sites](planning-hub-sites.md). 
   
 ### Plan your site collection details
 
- If you figure out a few basic details.—for example, what a site collection will be used for, and which users need to have access to it—then this will help you make decisions about what type of site template to use, how much storage to allocate, and how many site collections you might need to create. If you need to review your storage limits or the number of site collections that are supported for your plan, see [SharePoint Online Limits](https://go.microsoft.com/fwlink/p/?LinkID=856113). 
+ If you figure out a few basic details — for example, what a site collection will be used for, and which users need to have access to it — then this will help you make decisions about what type of site template to use, how much storage to allocate, and how many site collections you might need to create. If you need to review your storage limits or the number of site collections that are supported for your plan, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits). 
   
 |**If you want to determine this:**|**Ask this:**|
 |:-----|:-----|
@@ -69,7 +51,7 @@ When you think about how to structure and govern your site collections, consider
 |An effective site collection consists of groups of individuals and teams that share common goals.  <br/> |Does the structure of your site collections add to your organization's effectiveness?  <br/> |
 |A secure site that is open to those who need the information, but where information is blocked from those who should not see it.  <br/> |Does the structure allow the information architecture to meet regulatory requirements, privacy needs, and security goals?  <br/> |
 |A permissions model that allows read access, write access, or both.  <br/> |What type of access will users need to the content?  <br/> |
-|Authorization for external users on only those site collections that need it. For more information about allowing external users access to your sites, see [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md).  <br/> |Do users from outside the company need to have access?  <br/> |
+|Authorization for external users on only those site collections that need it. For more information about allowing external users access to your sites, see [External sharing overview](external-sharing-overview.md).  <br/> |Do users from outside the company need to have access?  <br/> |
 |A managed plan for sites that are well maintained.  <br/> |Who will be allowed to create and manage the sites in the site collection?  <br/> |
 |Locations for specific actions and applications, such as sandbox solutions.  <br/> |What features and functionality will be enabled for users?  <br/> |
 |A site collection where the content is useful to those sharing the site.  <br/> |Will the content found in search results be relevant to those sharing the site collection?  <br/> |
@@ -78,7 +60,7 @@ When you think about how to structure and govern your site collections, consider
 ### Delete and restore site collections
 <a name="metadata"> </a>
 
-As a SharePoint admin, you can delete and restore classic site collections using the SharePoint admin center. For info, see [Delete a site collection](delete-site-collection.md) and [Restore a deleted site collection](restore-deleted-site-collection.md).
+As a SharePoint admin, you can delete and restore site collections by using the SharePoint admin center. For info, see [Delete a site collection](delete-site-collection.md) and [Restore a deleted site collection](restore-deleted-site-collection.md).
   
 ## Manage permissions and help secure content
 <a name="__toc349560423"> </a>
@@ -88,7 +70,7 @@ An important consideration when setting up and deploying a site collection is pe
 ### Allow external users access to your internal sites
 <a name="__plan_for_user"> </a>
 
-SharePoint Online provides the capability for site users to invite external users (that is, users who do not have a license to your Office 365 subscription) to view or edit content on sites. External sharing is a powerful collaboration feature that can support your organization's needs to collaborate with external vendors, customers, or clients. However, it is important to manage external sharing carefully to ensure that any content that you do not want shared is adequately protected. For info, see [Manage external sharing for your SharePoint Online environment](external-sharing-overview.md).
+SharePoint Online provides the capability for site users to invite external users (that is, users who do not have a license to your Office 365 subscription) to view or edit content on sites. External sharing is a powerful collaboration feature that can support your organization's needs to collaborate with external vendors, customers, or clients. However, it is important to manage external sharing carefully to ensure that any content that you do not want shared is adequately protected. For info, see [External sharing overview](external-sharing-overview.md).
   
 External sharing is enabled by default for your SharePoint Online environment (tenant) and the site collections in it. You may want to turn it off globally before people start using sites or until you know exactly how you want to use the feature. Once you turn it on globally, you can allow external sharing for specific site collections, while keeping it turned off for site collections that will store content that is sensitive for your business. You should give thoughtful consideration to where you enable external sharing and what level of external sharing you allow.
   
@@ -97,7 +79,7 @@ For information about how users can share content, see [Share SharePoint files o
 ### Protect content with Information Rights Management (IRM)
 <a name="__protect_content_with"> </a>
 
-SharePoint Online IRM uses Microsoft Azure Active Directory Rights Management Services (RMS), an information protection technology in Office 365. Information Rights Management (IRM) protection can be applied to files in SharePoint lists and libraries. To learn more, read [What is Microsoft Azure Active Directory Rights Management?](https://go.microsoft.com/fwlink/?linkid=2003562)
+SharePoint Online IRM uses Microsoft Azure Active Directory Rights Management Services (RMS), an information protection technology in Office 365. Information Rights Management (IRM) protection can be applied to files in SharePoint lists and libraries. To learn more, read [What is Microsoft Azure Active Directory Rights Management?](/azure/information-protection/what-is-azure-rms)
   
 When IRM has been enabled for a list or library, files are encrypted so that only authorized people can view them or take specific actions on them. Each rights-managed file also contains an issuance license that imposes restrictions on the people who view the file. Typical restrictions include making a file read-only, disabling the copying of text, preventing people from saving a local copy, and preventing people from printing the file. Client programs that can read IRM-supported file types use the issuance license within the rights-managed file to enforce these restrictions. This is how a rights-managed file retains its protection even after it is downloaded.
   

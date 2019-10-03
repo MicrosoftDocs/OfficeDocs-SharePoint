@@ -1,7 +1,8 @@
 ---
 title: "Overview of site permissions in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/17/2017
 audience: ITPro

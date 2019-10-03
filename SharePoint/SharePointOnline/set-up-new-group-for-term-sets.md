@@ -1,5 +1,6 @@
 ---
 title: "Set up a new group for term sets"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

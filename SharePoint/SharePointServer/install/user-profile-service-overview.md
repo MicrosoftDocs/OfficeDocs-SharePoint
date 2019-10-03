@@ -1,7 +1,8 @@
 ---
 title: "User Profile service overview"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/1/2017
 audience: ITPro

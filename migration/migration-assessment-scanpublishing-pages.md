@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Publishing Pages"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,7 +12,8 @@ localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 7f8e8ee7-c400-4530-a550-598c9bf33c44
 
@@ -63,4 +65,3 @@ The following table describes the columns in the **PublishingPages-detail.csv** 
 |PageLayoutURL  <br/> |Url to the page layout associated with the publishing page.  <br/> |
 |ScanID  <br/> |Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |
    
-

@@ -1,5 +1,6 @@
 ---
 title: "Change the external sharing setting for a user's OneDrive"
+ms.reviewer: srice
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

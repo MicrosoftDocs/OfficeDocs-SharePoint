@@ -1,5 +1,6 @@
 ---
 title: "Configure a hybrid solution for SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Use Visio Services with Secure Store Service in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,7 +1,8 @@
 ---
 title: "Choose a disaster recovery strategy for SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/10/2018
 audience: ITPro

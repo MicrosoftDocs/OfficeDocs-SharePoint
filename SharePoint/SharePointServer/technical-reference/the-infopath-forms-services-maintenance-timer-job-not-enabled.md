@@ -1,7 +1,8 @@
 ---
 title: "The InfoPath Forms Services Maintenance timer job is not enabled (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro

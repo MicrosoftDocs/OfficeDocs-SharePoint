@@ -1,32 +1,55 @@
 ---
-title: "Migration of Web parts in the migration API"
+title: "Migrating webparts using the Migration API"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
-ms.topic: article
-ms.prod: sharepoint-server-itpro
-localization_priority: Priority
-ms.collection: 
+ms.topic: conceptual
+localization_priority: Normal
+search.appverid: MET150
+msCollection: 
 - SPMigration
 - M365-collaboration
-search.appverid: MET150
-ms.custom: 
-ms.assetid: 
-
+description: "SharePoint web part support in the Migration API"
 ---
-# Migration of Web parts in the migration API
+# Migrating webparts using the Migration API
 
-## Introduction
+The Migration API supports the ability to migrate web parts to SharePoint Online using the PRIME package by calling CSOM/REST/SOAP WS to get web part data and properties to build the PRIME package.
 
-The Migration API now support to migrate web parts via PRIME package. You can now call CSOM/REST/SOAP WS to get web part data/properties and build the PRIME packages (refer to PRIME web part schema in appendix). 
-However, there is a technical challenge to generate the property values for 'AllUsersProperties' and 'PerUserProperties' when building the PRIME package. These two This is because these property values are BASE64 encoded blob, which are serialized web part properties and web part connection info. 
-This document describes how to solve this serialization problem with WebPart User Properties Serialization API provided by SharePoint migration team.
+An advantage in using the Migration API for your web part migration is the ability to migrate your web parts in one call and improve performance. Part of the manifest includes the web part as you import its associated page. By using the Migration API you can can put all the web parts you have on that page.
 
-Schema :
-Explanation for the fields
-https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-primepf/25cfceeb-7769-4331-9936-ce3b9ced87ad 
-PRIME Web Part Schema example
+## Using the Serializer DLL
+
+There are two attributes that are handled in a unique way that requires using the WebPart User Properties Serializer DLL.
+
+There is a technical challenge to generate the property values for *AllUsersProperties* and *PerUserProperties* when building the PRIME package. This is because these the property values are BASE64 encoded blob, which are serialized web part properties and web part connection info.
+ 
+
+To get the Serializer .dll, do the following:
+
+
+1. Install the SPMT Client on your local computer:  [Install SPMT](https://aka.ms/spmt-GA-page).
+2. Browse to the install location of SPMT
+5. Locate and copy the *microsoft.sharepoint.migration.webpart.serializer.dll* and you can copy it into your project.
+
+For a complete list of the supported webparts, see:
+
+- [SPMT & Migration API supported SharePoint web parts](https://docs.microsoft.com/en-us/sharepointmigration/spmt-supported-webparts)
+
+
+
+## Schema:
+
+For an explanation of the **SPWebPart** fields see:
+
+- [SPWebPart](https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-primepf/25cfceeb-7769-4331-9936-ce3b9ced87ad)
+
+
+
+### PRIME Web Part Schema example
+
+```xml
     <!-- SPFile definition -->
     <xs:complexType name="SPFile">
         <xs:sequence>
@@ -132,51 +155,59 @@ PRIME Web Part Schema example
         <xs:attribute name="Personal" type="xs:boolean" use="optional" />
         <xs:attribute name="OrderedView" type="xs:boolean" use="optional" />
 </xs:complexType>
- 
+```
 
-Security controls
-Due the security control design on the server side 
-1.	If the NoScript is off, then go on migrating all web part as currently
-2.	If NoScript is on, then first check web part level safety 
-i.	If SafeAgainstScript is false, do not import it
-ii.	If SafeAgainstScript is true, then check the web part property level safety
-                                                               i.      If the web part has any property with ‘RequiresDesignerPermission’, then ignore this web part (or ignore this property if feasible)
-                                                             ii.      Otherwise, go on migrating this web part
+## Security controls
+
+Due the security control design on the server side, the following behavior:
+ 
+- If the NoScript is off, then go on migrating all web part as currently
+- If NoScript is on, then first check web part level safety
+    - If SafeAgainstScript is false, do not import it
+    - If SafeAgainstScript is true, then check the web part property level safety
+        - If the web part has any property with ‘RequiresDesignerPermission’, then ignore this web part (or ignore this property if feasible)
+        - Otherwise, go on migrating this web part
  
  
-Here are the list of web part that will be ignored by server side code (treated as untrusted webpart) when NoScript is turn ON
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.XsltListViewWebPart",
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.ContentEditorWebPart",
-•	            "Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Publishing.WebControls.ContentByQueryWebPart",
-•	            "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.SiteFeedWebPart",
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart",
-•	            "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.ContactFieldControl",
-•	            "Microsoft.Office.Server.Search, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.Office.Server.Search.WebControls.SearchBoxScriptWebPart",
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.PageViewerWebPart",
-•	            "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.ProfileBrowser",
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.UserTasksWebPart",
-•	            "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.SocialCommentWebPart",
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.SilverlightWebPart",
-•	            "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.RSSAggregatorWebPart",
-•	            "Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Publishing.WebControls.SummaryLinkWebPart",
-•	            "Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Publishing.WebControls.TableOfContentsWebPart",
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.UserDocsWebPart",
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.SPTimelineWebPart",
-•	            "Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.WebPartPages.XmlWebPart",
-•	            "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.SiteDocuments",
-•	            "Microsoft.SharePoint.Portal, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c|Microsoft.SharePoint.Portal.WebControls.CategoryResultsWebPart"
+Here is the list of web parts that will be ignored by server side code (treated as untrusted webpart) when NoScript is turned ON:
 
-FAQ
-•	How to fetch the web part properties as the input for serialization API?
-The web part properties could be found in <webpart> element in the response of operation ‘GetWebPartProperties2’ in ‘WebPartPagesWebService’. Find the payload details in WSDL ‘/_vti_bin/WebPartPage.asmx?WSDL’.
+- XsltListViewWebPart
+- ContentEditorWebPart
+- ContentByQueryWebPart
+- SiteFeedWebPart
+- ScriptEditorWebPart
+- ContactFieldControl
+- SearchBoxScriptWebPart
+- PageViewerWebPart
+- ProfileBrowser
+- UserTasksWebPart
+- SocialCommentWebPart
+- SilverlightWebPart
+- RSSAggregatorWebPart
+- SummaryLinkWebPart
+- TableOfContentsWebPart
+- UserDocsWebPart
+- SPTimelineWebPart
+- XmlWebPart
+- SiteDocuments
+- CategoryResultsWebPart
 
-•	How to fetch the web part connection info as the input for serialization API?
-The web part connections could be found in <SPWebPartConnection> elements from the web part page in the response of operation ‘GetWebPartPage’ in ‘WebPartPagesWebService’.
+## FAQ
 
-•	View flags: refer to this https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-wssfob/252d2086-6571-430f-863d-bcaf9d267e62 , e.g. all the view flags https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-wssfob/16a9d8ca-185d-40ec-956e-bb6bf3488cf7 . You will need to convert all flag values to PRIME element ‘flags’.
+*Question:*  How do I  fetch the web part properties as the input for serialization API?
+*Answer:*    The web part properties can be found in <webpart> element in the response of operation ‘GetWebPartProperties2’ in ‘WebPartPagesWebService’. Find the payload details in WSDL ‘/_vti_bin/WebPartPage.asmx?WSDL’.
 
-Appendix
-2 - Sample Web Part Properties v2 XmlNode Element 
+*Question:*  How to fetch the web part connection info as the input for serialization API?
+*Answer:*    The web part connections could be found in <SPWebPartConnection> elements from the web part page in the response of operation ‘GetWebPartPage’ in ‘WebPartPagesWebService’.
+
+View flags: refer to this https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-wssfob/252d2086-6571-430f-863d-bcaf9d267e62 , e.g. all the view flags https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-wssfob/16a9d8ca-185d-40ec-956e-bb6bf3488cf7 . You will need to convert all flag values to PRIME element ‘flags’.
+
+## Appendix
+
+### Sample Web Part Properties v2 XmlNode Element 
+
+```xml
+
   <WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2" ID="1c845edf-42c6-4094-a105-302015642f43">
 	<Title>Content Editor</Title>
 	<FrameType>Default</FrameType>
@@ -211,8 +242,13 @@ Appendix
 	<Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
 	<PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
   </WebPart>
+```
 
-3 - Sample Web Part Properties v3 XmlNode Element
+
+### Sample Web Part Properties v3 XmlNode Element
+
+```xml
+
   <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
     <metaData>
       <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
@@ -288,8 +324,12 @@ Appendix
       </properties>
     </data>
   </webPart>
+```
 
 4 - Sample Web Part Connection XmlNode Element 
+
+```xml
 <WebPartPages:SPWebPartConnection ConsumerConnectionPointID="DFWP Filter Consumer ID" ConsumerID="g_bcca2ac1_f0f1_4640_af30_8a0730ca840e" ID="c1638508205" ProviderConnectionPointID="ITransformableFilterValues" ProviderID="g_7fc41891_2e27_4835_99c8_5b6f80feb20f"><WebPartPages:TransformableFilterValuesToParametersTransformer ConsumerFieldNames="PageType" ProviderFieldNames="Page Field"></WebPartPages:TransformableFilterValuesToParametersTransformer>
 </WebPartPages:SPWebPartConnection>
 
+```

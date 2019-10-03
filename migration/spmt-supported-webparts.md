@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Migration Tool supported SharePoint web parts"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -8,8 +9,7 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection:
-- Strat_SP_gtc
-- SPMTMigration
+- SPMigration
 - M365-collaboration
 ms.custom: 
 ms.assetid: 

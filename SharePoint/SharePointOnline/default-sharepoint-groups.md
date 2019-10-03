@@ -1,5 +1,6 @@
 ---
 title: "Default SharePoint groups"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -7,6 +8,7 @@ audience: Admin
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal
+ROBOTS: NOINDEX
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration

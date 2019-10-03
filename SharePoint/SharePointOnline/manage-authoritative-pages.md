@@ -1,9 +1,9 @@
 ---
 title: "Manage authoritative pages"
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
-ms.date: 6/29/2018
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -22,6 +22,9 @@ As a global or SharePoint admin in Office 365, you can influence the pages or do
 If you have specific knowledge of an area, you can influence the relative importance of pages by adding more levels of authoritative pages (second-level and third-level). 
   
 In the same way, you can also add non-authoritative pages. A typical example of a non-authoritative page could be the URL of a site that contains outdated information.
+
+    > [!NOTE]
+    > Authorative pages and sites does not impact ranking in Microsoft Search and will only work in classic search and web parts using the default ranking model.
   
 ## Specify authoritative or non-authoritative pages
 <a name="__top"> </a>
@@ -30,11 +33,11 @@ In the same way, you can also add non-authoritative pages. A typical example of 
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
-    
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-    
-3. In the left pane, select **search**. 
-    
+
+2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+3. Under **Search**, select **Open**.
+
 4. On the search administration page, choose **Manage Authoritative Pages**.
     
 5. In the **Authoritative Web Pages** section, in the **Most authoritative pages** box, type the URLs of pages that are the most important. Separate the URLs with returns so that there is one URL per line. 

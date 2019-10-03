@@ -1,7 +1,8 @@
 ---
 title: "Create and import query suggestions for the classic search experience in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/5/2017
 audience: ITPro
@@ -117,5 +118,5 @@ To verify that your query suggestions are working correctly, in a search box, ty
 [Manage query suggestions in SharePoint Server](manage-query-suggestions.md)
 #### Other Resources
 
-[Customize query suggestions in SharePoint search](https://office.microsoft.com/office365-sharepoint-online-enterprise-help/how-to-customize-query-suggestions-for-sharepoint-search-HA103639759.aspx)
+[Customize query suggestions in SharePoint search](https://docs.microsoft.com/en-us/sharepoint/manage-query-suggestions)
 

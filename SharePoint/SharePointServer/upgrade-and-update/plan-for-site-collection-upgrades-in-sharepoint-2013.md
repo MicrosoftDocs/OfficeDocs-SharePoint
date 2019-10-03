@@ -1,7 +1,8 @@
 ---
 title: "Plan for site collection upgrades in SharePoint 2013"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/26/2017
 audience: ITPro

@@ -1,5 +1,6 @@
 ---
 title: "Estimate capacity and performance for video content management in SharePoint Server 2013"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

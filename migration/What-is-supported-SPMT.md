@@ -1,5 +1,6 @@
 ---
 title: "What does SPMT support?"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -9,7 +10,6 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
 description: "List of features that are supported in the SharePoint Migration Tool (SPMT)"
@@ -43,3 +43,6 @@ The SharePoint Migration Tool (SPMT) supports the migration of the following loc
 
 > [!Note]
 > Do you have a suggestion or feature request to improve the SPMT? Share it with us at [User Voice](https://sharepoint.uservoice.com/forums/282887-sharepoint-hybrid-or-migration-to-office365)
+
+> [!Note]
+> For a detailed list of features available in each release of SPMT, please read [Release Notes: SharePoint Migration Tool (SPMT)](new-and-improved-features-in-the-sharepoint-migration-tool.md)

@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Customized Profile Pages"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -12,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: b4f41860-3db9-4e30-8b5d-9748aa7d95a8
 description: "Learn how to mitigate issues with Customized Profile pages during migration."

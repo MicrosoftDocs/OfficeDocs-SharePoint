@@ -1,5 +1,6 @@
 ---
 title: "Deploy OneDrive apps using SCCM"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -23,31 +24,35 @@ description: "Learn how to deploy OneDrive apps by using System Center Configura
 
 # Deploy OneDrive apps by using System Center Configuration Manager
 
-You can use System Center Configuration Manager (SCCM) to deploy the new OneDrive sync client (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
+You can use System Center Configuration Manager (SCCM) to deploy the new OneDrive sync app (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSr]
   
-## Deploy the OneDrive sync client for Windows
+## Deploy the OneDrive sync app for Windows
 
- The OneDrive sync client (OneDrive.exe) can be installed on Windows 7 and later. It can also be installed on macOS. For info about deploying the OneDrive sync client on macOS, see [Configure the new OneDrive sync client on macOS](deploy-and-configure-on-macos.md)
+ The OneDrive sync app (OneDrive.exe) can be installed on Windows 7 and later. It can also be installed on macOS. For info about deploying the OneDrive sync app on macOS, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md)
     
-The new OneDrive sync client can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync client, see [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
+The new OneDrive sync app can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync app, see [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
   
 > [!IMPORTANT]
-> If your users are currently using the OneDrive for Business sync client (Groove.exe), and you want to move them to the OneDrive sync client, see [Transition from the previous OneDrive for Business sync client](transition-from-previous-sync-client.md) before proceeding.  
+> If your users are currently using the OneDrive for Business sync app (Groove.exe), and you want to move them to the OneDrive sync app, see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md) before proceeding.  
 
-### Check if users already have the OneDrive sync client
+### Make sure that WNS is set up correctly
 
-If the computers in your organization are running Windows 10, they already have the new sync client installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync client. 
+The OneDrive sync app uses Windows Push Notification Services (WNS) for optimum performance and battery life. Make sure you allow access from your network to the [endpoints that OneDrive uses](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
+ 
+### Check if users already have the OneDrive sync app
+
+If the computers in your organization are running Windows 10, they already have the new sync app installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync app. 
 
 > [!NOTE]
-> Office is installed per machine, whereas OneDrive needs to be installed per user. If you plan on deploying Office to your organization, you will need to deploy OneDrive.exe separately for additional users on individual machines.
+> Office is installed per machine, whereas OneDrive is installed per user by default. [Learn about installing OneDrive per machine](per-machine-installation.md)
   
 ### Deploy any administrative settings
 
-To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use Group Policy to control OneDrive sync client settings](use-group-policy.md).
+To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md).
   
-### Use System Center Configuration Manager to deploy the OneDrive sync client
+### Use System Center Configuration Manager to deploy the OneDrive sync app
 
 1. In System Center Configuration Manager, select **Create Device Collection** and follow the steps in the Create Device Collection Wizard. 
 
@@ -57,7 +62,7 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
 
 > [!NOTE]
-> The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive sync client, if necessary.
+> The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive sync app, if necessary.
 
   
 4. Copy the installer to a folder in the SCCM source content share. 
@@ -82,14 +87,14 @@ Execute <pathToExecutable>\OneDriveSetup.exe /silent
 (where pathToExecutable is a location on the local computer or an accessible network share).
   
 > [!NOTE]
-> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync client with SCCM](https://go.microsoft.com/fwlink/?linkid=839723).</br>If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the /silent parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the /silent parameter. 
+> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with SCCM](https://go.microsoft.com/fwlink/?linkid=839723).</br>If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the /silent parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the /silent parameter. 
   
 [Learn more about application management in Configuration Manager](https://go.microsoft.com/fwlink/p/?LinkId=535034).
 The installer will install the OneDrive executable file under **%localappdata%\Microsoft\OneDrive**. 
   
 ### Deploy the RMS client to enable syncing IRM-protected files
 
-The new OneDrive sync client for Windows now supports syncing IRM-protected SharePoint document libraries and OneDrive locations. To create a seamless IRM sync experience for your users, deploy to your users' computers the latest [Rights Management Service (RMS) client](https://aka.ms/odirm) from the Microsoft Download Center. Even if these computers have the Azure Information Protection client installed, which includes the RMS client, the OneDrive sync client still needs a separate installation of the RMS client from the Microsoft Download Center.
+The new OneDrive sync app for Windows now supports syncing IRM-protected SharePoint document libraries and OneDrive locations. To create a seamless IRM sync experience for your users, deploy to your users' computers the latest [Rights Management Service (RMS) client](https://aka.ms/odirm) from the Microsoft Download Center. Even if these computers have the Azure Information Protection client installed, which includes the RMS client, the OneDrive sync app still needs a separate installation of the RMS client from the Microsoft Download Center.
   
 To silently install the RMS client on computers, use the /qn switch as part of the command-line options of the Microsoft Windows Installer Tool (Msiexec.exe). For example, the following command shows the silent mode installation (assuming the RMS Client installer package is already downloaded to C:\Downloads)
   
@@ -100,7 +105,7 @@ msiexec /qn c:\downloads\setup.msi
 You can have the setup file on a network share and use managed software deployment to run the msiexec command.
   
 > [!NOTE]
-> The sync client does not support IRM policies that expire document access rights. 
+> The sync app does not support IRM policies that expire document access rights. 
   
 ## Help users sign in
 <a name="step3"> </a>

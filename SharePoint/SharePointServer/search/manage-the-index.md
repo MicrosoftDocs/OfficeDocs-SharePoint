@@ -1,7 +1,9 @@
 ---
 title: "Manage the search index in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+manager: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 3/6/2018
 audience: ITPro
 ms.topic: article

@@ -1,7 +1,8 @@
 ---
 title: "Default connectors in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/24/2017
 audience: ITPro

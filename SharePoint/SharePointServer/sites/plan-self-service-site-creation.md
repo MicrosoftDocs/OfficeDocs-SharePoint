@@ -1,7 +1,8 @@
 ---
 title: "Plan self-service site creation in SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/1/2017
 audience: ITPro

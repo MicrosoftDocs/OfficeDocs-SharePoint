@@ -1,7 +1,8 @@
 ---
 title: "Overview of profile synchronization in SharePoint Server 2016"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/27/2018
 audience: ITPro

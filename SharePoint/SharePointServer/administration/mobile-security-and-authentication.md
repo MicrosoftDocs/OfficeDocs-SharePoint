@@ -1,5 +1,6 @@
 ---
 title: "Mobile security and authentication in SharePoint 2013"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen
@@ -70,7 +71,7 @@ The functionality this service can provide includes the following:
 - Wipe your mobile device data.
     
 > [!NOTE]
-> To learn more about the Find My Phone service for Windows Phone, see [Find a lost phone](https://go.microsoft.com/fwlink/?LinkId=253669). 
+> To learn more about the Find My Phone service for Windows Phone, see [Find a lost phone](https://support.microsoft.com/help/17240/windows-10-mobile-find-phone). 
   
 ## Authentication for mobile devices
 <a name="section2"> </a>

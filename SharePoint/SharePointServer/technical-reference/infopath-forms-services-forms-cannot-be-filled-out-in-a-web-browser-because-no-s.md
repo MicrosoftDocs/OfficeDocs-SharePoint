@@ -1,7 +1,8 @@
 ---
 title: "InfoPath Forms Services forms cannot be filled out in a Web browser because no State Service connection is configured (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro
@@ -60,6 +61,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
   New-SPStateServiceDatabase -Name "State Service Database" | New-SPStateServiceApplication -Name "StateServiceApp1" | New-SPStateServiceApplicationProxy -DefaultProxyGroup
   ```
 
-    For more information, see [New-SPStateServiceApplication](/powershell/module/sharepoint-server/New-SPStateServiceApplication?view=sharepoint-ps).
+For more information, see [New-SPStateServiceApplication](/powershell/module/sharepoint-server/New-SPStateServiceApplication?view=sharepoint-ps).
     
 

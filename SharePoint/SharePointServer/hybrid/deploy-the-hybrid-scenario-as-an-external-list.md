@@ -1,5 +1,6 @@
 ---
 title: "Deploy the Business Connectivity Services hybrid scenario as an external list"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

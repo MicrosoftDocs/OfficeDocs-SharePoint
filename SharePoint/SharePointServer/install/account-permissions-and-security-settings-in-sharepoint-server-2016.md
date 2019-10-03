@@ -1,7 +1,8 @@
 ---
 title: "Account permissions and security settings in SharePoint Servers 2016 and 2019"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/8/2017
 audience: ITPro
@@ -42,7 +43,7 @@ Microsoft recommends using a minimal number of Service Application Pool accounts
 
 - Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the **SharePoint Farm Administrator account** outlined below. Each SharePoint administrator should use a separate account to clearly identify activity performed by the administrator on the farm.
 
-- If possible use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and grant permissions as outlined below. This simplify the management of the SharePoint Farm Administrator accounts significally.
+- If possible use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and grant permissions as outlined below. This simplifies the management of the SharePoint Farm Administrator accounts significantly.
 
 - The **SharePoint Farm Service account** should only run the SharePoint Timer service, SharePoint Inights (if applicable), the IIS Application Pools for Central Administration, SharePoint Web Services System (used for the topology service), and SecurityTokenServiceApplicationPool (used for the Security Token Service).
 

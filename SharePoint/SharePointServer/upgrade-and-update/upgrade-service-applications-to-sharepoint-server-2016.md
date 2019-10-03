@@ -1,7 +1,8 @@
 ---
 title: "Upgrade service applications to SharePoint Server 2016"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/21/2018
 audience: ITPro
@@ -42,7 +43,7 @@ Before you upgrade the service applications, review the following information an
 > Throughout this article, variables (such as $applicationPool, $sss, $upa, and so on) are used in the PowerShell cmdlets to save time and effort. You do not have to use these variables if you would prefer not to. However, if you do not use these variables, you must use IDs for the service applications and service application proxies when you specify the **identity** parameters. Each procedure has information about the variables used, or the alternate cmdlets to use to look up any IDs that are required. > Also, many procedures in this article include a step to set the $applicationPool variable. If you are performing all of these procedures in the same session of PowerShell, and you want to use the same application pool for all service applications, you do not have to repeat this step in each procedure. Instead, you can set this variable once at the beginning and use it throughout the procedures in this article. 
   
 > [!NOTE]
-> For any **SPWebURL** Managed Property in their SharePoint 2013 Schema they should rename it before they start the procedure (that is, SPWebURL to SPWebURL1). After you upgrade to SharePoint Server 2016, they SPWebURL1 managed property name can changed back to the original name (that is, SPWebURL). 
+> For any Managed Properties in the SharePoint 2013 schema that are introduced in the SharePoint Server 2016 schema, prior to upgrading you must rename that Managed Property. For example, if you have created a Managed Property named **SPWebURL**, rename it to **SPWebURL1** prior to the SharePoint Server 2016 upgrade. You may change the custom Managed Property name back to the original value (that is, rename **SPWebURL1** to **SPWebURL**) after the upgrade has successfully completed. For a list of Managed Properties introduced in SharePoint Server 2016, see [Managed Properties Added in SharePoint Server 2016](https://docs.microsoft.com/sharepoint/technical-reference/crawled-and-managed-properties-overview#managed-properties-added-in-sharepoint-server-2016).
   
 ## About upgrading the service application databases
 <a name="UpgradeServicesDBs"> </a>

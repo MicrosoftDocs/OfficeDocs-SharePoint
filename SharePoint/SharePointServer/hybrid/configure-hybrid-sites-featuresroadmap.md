@@ -1,5 +1,6 @@
 ---
 title: "Configure hybrid sites features - roadmap"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

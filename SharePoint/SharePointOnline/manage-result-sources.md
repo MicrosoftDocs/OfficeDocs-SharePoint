@@ -1,9 +1,9 @@
 ---
 title: "Manage result sources"
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
-ms.date: 7/3/2018
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 audience: End User
 ms.topic: article
 ms.service: sharepoint-online
@@ -31,9 +31,9 @@ For the classic search experience, you can create your own result sources, or us
 <a name="__toc342634787"> </a>
 
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
-    
-  - For the **tenant**: In the classic SharePoint admin center, in the left pane select **search**, and then on the search administration page, select **Manage Result Sources**.
-    
+
+  - For a tenant, in the new SharePoint admin center, select **Classic features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
+
   - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     
   - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
@@ -63,11 +63,11 @@ For the classic search experience, you can create your own result sources, or us
     
 6. In the **Query Transform** section, you can change incoming queries to use a new query text instead. Choose one of these options: 
     
-1. Leave the default query transform ( **searchTerms**) as is. The query will be unchanged since the previous transform.
+  - Leave the default query transform ( **searchTerms**) as is. The query will be unchanged since the previous transform.
     
-2. Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
+  - Type a different query transform in the box. See [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
     
-3. Build your own query. Select **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
+  - Build your own query. Select **Launch Query Builder** and build your query by specifying filters on the **BASICS**, sorting on the **SORTING** tab, and then testing the query on the **TEST** tab. Each of these tabs are described in the following sections. 
     
 7. In the **Credentials Information** section, choose an authentication type for users to connect to the result source. 
     
@@ -103,12 +103,14 @@ For the classic search experience, you can create your own result sources, or us
 The default result source is **Local SharePoint Results**, but you can choose to set a different one as the default. By doing this, it will be easier to edit the query in Search Web Parts. For example, when you add a Content Search Web Part to a page, the Web Part automatically uses the default result source. 
   
 1. Go to the **Manage Result Sources** page for the tenant, for a site collection, or a site: 
+
+    - For a **tenant**, in the new SharePoint admin center, select **Classic features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Result Sources**.
     
-    For the **tenant**: In the classic SharePoint admin center, in the left pane, select **search**, and then on the search administration page, select **Manage Result Sources**.
+     - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Result Sources**.
     
-    For a **site collection**: In your site collection, go to **Settings**, select **Site settings** and then under **Site Collection Administration**, select **Search Result Sources**.
-    
-    For a **site**: On your site, go to **Settings**, select **Site settings**, and then under **Search**, select **Result Sources**.
+      - For a site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Search**, select **Result Sources**.
+
+
     
 2. On the **Manage Result Sources** page, point to the result source that you want to set as the default, select the arrow that appears, and then select **Set as Default**.
     

@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan External List"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -9,7 +10,9 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: de809b30-8e4d-4223-b47e-81912d617dd1
-
+ms.collection:
+- SPMigration
+- M365-collaboration
 ---
 
 # Migration Assessment Scan: External List

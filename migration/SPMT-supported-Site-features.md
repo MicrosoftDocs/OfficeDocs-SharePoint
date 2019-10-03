@@ -1,5 +1,6 @@
 ---
 title: "SPMT Supported SharePoint Server site features"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

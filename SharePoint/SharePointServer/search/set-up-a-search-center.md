@@ -1,7 +1,8 @@
 ---
 title: "Set up a Search Center in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/26/2017
 audience: ITPro

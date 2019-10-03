@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Alerts"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,6 +12,7 @@ localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
+- SPMigration
 ms.custom: 
 ms.assetid: 11fa99a3-9e65-48f6-b460-31c8cf8d30e5
 description: "Learn how to fix issues with alerts during migration."

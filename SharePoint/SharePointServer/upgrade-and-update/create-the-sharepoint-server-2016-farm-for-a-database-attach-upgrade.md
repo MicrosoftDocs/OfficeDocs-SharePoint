@@ -1,7 +1,8 @@
 ---
 title: "Create the SharePoint Server 2016 farm for a database attach upgrade"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/30/2016
 audience: ITPro

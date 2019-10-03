@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan InfoPath"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -12,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: ba57470a-7ef8-43ee-8ff6-8a428f6e55b9
 description: "Learn how to mitigate issues with InfoPath during migration."

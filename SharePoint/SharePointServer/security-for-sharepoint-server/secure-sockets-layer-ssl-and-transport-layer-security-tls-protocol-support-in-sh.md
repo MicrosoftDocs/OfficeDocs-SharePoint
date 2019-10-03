@@ -1,7 +1,8 @@
 ---
 title: "Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocol support in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/23/2018
 audience: ITPro

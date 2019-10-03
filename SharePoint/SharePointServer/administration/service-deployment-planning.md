@@ -1,7 +1,8 @@
 ---
 title: "Plan service deployment in SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/18/2017
 audience: ITPro

@@ -1,7 +1,8 @@
 ---
 title: "How to change the text that is displayed in the Search Box Web Part in SharePoint Server"
-ms.author: tlarsen
-author: tklarsen
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/24/2017
 audience: ITPro

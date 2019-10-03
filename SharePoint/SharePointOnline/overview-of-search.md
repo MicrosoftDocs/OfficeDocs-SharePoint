@@ -1,8 +1,9 @@
 ---
 title: "Overview of search in SharePoint Online"
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 6/20/2018
 audience: Admin
 ms.topic: overview

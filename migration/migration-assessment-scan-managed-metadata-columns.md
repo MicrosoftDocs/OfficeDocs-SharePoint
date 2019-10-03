@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Managed Metadata Columns"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -12,6 +13,8 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 787812c2-8742-40c3-bd74-c7df9846c0b0
 

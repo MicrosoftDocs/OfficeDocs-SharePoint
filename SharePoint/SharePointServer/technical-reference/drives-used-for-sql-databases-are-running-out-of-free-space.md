@@ -1,7 +1,8 @@
 ---
 title: "Drives used for SQL databases are running out of free space (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/29/2017
 audience: ITPro

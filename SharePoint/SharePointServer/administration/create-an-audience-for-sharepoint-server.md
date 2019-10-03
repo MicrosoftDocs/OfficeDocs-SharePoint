@@ -1,7 +1,8 @@
 ---
 title: "Create an audience for SharePoint Server"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/14/2017
 audience: ITPro

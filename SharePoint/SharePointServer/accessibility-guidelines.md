@@ -1,7 +1,8 @@
 ---
 title: "Accessibility guidelines in SharePoint Server 2016"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/12/2018
 audience: ITPro

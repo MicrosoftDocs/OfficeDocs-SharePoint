@@ -1,7 +1,8 @@
 ---
 title: "Test Lab Guide Demonstrate SAML-based Claims Authentication with SharePoint Server 2013"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/10/2017
 audience: ITPro

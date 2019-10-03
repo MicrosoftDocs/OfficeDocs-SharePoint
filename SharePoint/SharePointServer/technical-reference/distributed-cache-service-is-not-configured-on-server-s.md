@@ -1,7 +1,8 @@
 ---
 title: "Distributed cache service is not configured on server(s) (SharePoint Server 2016)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/30/2017
 audience: ITPro

@@ -1,7 +1,8 @@
 ---
 title: "Alternate access URLs have not been configured (SharePoint Server)"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/22/2018
 audience: ITPro

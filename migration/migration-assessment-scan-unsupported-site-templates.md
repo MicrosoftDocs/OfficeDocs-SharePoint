@@ -1,5 +1,6 @@
 ---
 title: "Migration Assessment Scan Unsupported Site Templates"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,7 +12,8 @@ localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 7cd48080-1e02-443b-9e3d-8361b2903959
 description: "Learn how to fix issues with Unsupported Site Templates during migration."

@@ -1,7 +1,8 @@
 ---
 title: "System Center Operations Manager knowledge articles for SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: hub-page

@@ -1,5 +1,6 @@
 ---
 title: "Plan document versioning, content approval, and check-out controls in SharePointServer"
+ms.reviewer: 
 ms.author: toresing
 author: tomresing
 manager: pamgreen
@@ -51,7 +52,7 @@ The default versioning control for a document library depends on the site collec
     Use major and minor versioning when you want to differentiate between published content that can be viewed by an audience and draft content that is not yet ready for publication. For example, on a human resources Web site that describes organizational benefits, use major and minor versioning to restrict employees' access to benefits descriptions while the descriptions are being revised.
     
 > [!NOTE]
-> When you create a new version of a document, [the incremental changes are stored in SQL Server](https://go.microsoft.com/fwlink/?LinkId=303695), rather than a complete new copy of the document. This provides the most efficient storage and helps reduce overall storage requirements. 
+> When you create a new version of a document, [the incremental changes are stored in SQL Server](https://docs.microsoft.com/sql/relational-databases/track-changes/about-change-data-capture-sql-server?view=sql-server-2017), rather than a completely new copy of the document. This provides the most efficient storage and helps reduce overall storage requirements. 
   
 ## Plan content approval
 <a name="bkmk_plan_conapprov"> </a>

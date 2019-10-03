@@ -1,5 +1,6 @@
 ---
 title: "Define managed paths in SharePoint Server"
+ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,7 +1,8 @@
 ---
 title: "Upgrade My Sites to SharePoint Server 2016"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/17/2016
 audience: ITPro
