@@ -31,7 +31,7 @@ You can create query rules at different levels: for the whole tenant, for a site
 
 You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active.
 
-SharePoint Online has both a classic and a modern search experience. Only query rules that promote an individual result towards the top of search results and that are defined for the default result source can affect the modern search experience. Users might see such promoted results on the All tab on the search results page when they search across all of SharePoint. [Learn more about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
+SharePoint Online has both a classic and a modern search experience. Only query rules that promote an individual result towards the top of search results and that are defined for the default result source can affect the modern search experience. Users might see such promoted results on the **All** tab on the search results page when they search across all of SharePoint. [Learn more about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
   
  
   
