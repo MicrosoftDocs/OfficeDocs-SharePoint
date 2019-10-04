@@ -872,7 +872,8 @@ In some environments, you must coordinate the rename and move procedures with th
 
 1. Start the SharePoint Management Shell.
 
-> [!NOTE] These instructions assume you will use the same PowerShell session for all commands.
+> [!NOTE]
+> These instructions assume you will use the same PowerShell session for all commands.
 
 2. At the PowerShell command prompt, type the following command to associate the Search Administration database with the Search service.
   
