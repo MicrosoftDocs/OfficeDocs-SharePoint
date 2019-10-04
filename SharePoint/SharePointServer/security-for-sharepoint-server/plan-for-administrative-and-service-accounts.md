@@ -25,6 +25,9 @@ To install SharePoint Server, you have to have appropriate administrative and se
   
 > [!IMPORTANT]
 > Do not use service account names that contain the symbol $ with the exception of using a Group Managed Service Account for SQL Server.
+
+> [!IMPORTANT]
+> SharePoint services do not support Managed Service Accounts or Group Managed Service Accounts.
     
 Use this article along with [Initial deployment administrative and service accounts in SharePoint Server](../install/initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
   

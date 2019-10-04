@@ -21,38 +21,38 @@ All search results are not relevant to everyone all the time. Learn how you can 
   
 ## Manage the search schema
   
-The search schema controls what users can search for, how they can search it, and how the results get presented on your search websites. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties. [Learn more](manage-search-schema.md).
+The search schema controls what users can search for, how they can search it, and how the results get presented on your search websites. In the search schema, you can view, create, or change managed properties, and map crawled properties to managed properties. Learn about [the search schema](manage-search-schema.md).
   
 ## Manage query rules
   
-Query rules consist of conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule. [Learn more](manage-query-rules.md).
+Query rules apply to the classic search experience. They consist of conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule. Query rules can be used to promote results to the top of the result list.Learn about [managing query rules](manage-query-rules.md).
   
 ## Manage query suggestions
   
-Query spelling suggestions are words that appear below the search box as a user types a query. SharePoint automatically creates a query suggestion when you've clicked a search result for a query at least six times. You can also import your own lists of query suggestions to SharePoint. [Learn more](manage-query-suggestions.md).
+Query suggestions are words that appear below the search box as a user types a query. SharePoint automatically creates a query suggestion when you've clicked a search result for a query at least six times. In the classic search experience you can also import your own lists of query suggestions to SharePoint. Learn about [managing query suggestions](manage-query-suggestions.md).
   
 ## Using query transforms
   
-You can configure a query transform to replace properties of a query, such as the result source that the query will use to get search results, or the sort order that it will use when it displays search results. [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1).
+Query transforms apply to the classic search experience. You can configure a query transform to replace properties of a query, such as the result source that the query will use to get search results, or the sort order that it will use when it displays search results. Read [Understanding query transforms](https://support.office.com/article/b31631a5-0c1f-436e-8061-fd807bb96ae1) to learn more.
   
 ## Manage result sources
   
-Result sources limit searches to certain content, or to a subset of search results. You can also use result sources to send queries to external providers such as Bing. [Learn more](manage-result-sources.md).
+Result sources limit searches to certain content, or to a subset of search results. You can also use result sources to send queries to external providers such as Bing. Learn about [managing result sources](manage-result-sources.md)
   
 ## Manage result types
   
-A result type specifies one or more conditions to compare search results against, and an action to take if a search result meets those conditions. The action specifies the display template to use for the search result. [Learn more](manage-result-types.md).
+Results types apply to the classic search experience. A result type specifies one or more conditions to compare search results against, and an action to take if a search result meets those conditions. The action specifies the display template to use for the search result. Learn about [managing result types](manage-result-types.md).
   
 ## Manage search dictionaries
   
-You can use search dictionaries to include or exclude words for query spelling correction, and you can include or exclude company names to be extracted from the content of indexed documents. [Learn more](manage-search-dictionaries.md).
+Search dictionaries apply to the classic search experience. You can use search dictionaries to include or exclude words for query spelling correction, and you can include or exclude company names to be extracted from the content of indexed documents. Learn about [managing search dictionaries](manage-search-dictionaries.md).
   
 ## Manage authoritative pages
   
-You can influence the pages or documents that should appear at the top of your list of search results by identifying authoritative pages - high-quality pages that link to the most relevant information. [Learn more](manage-authoritative-pages.md).
+You can influence the pages or documents that should appear at the top of your list of search results by identifying authoritative pages - high-quality pages that link to the most relevant information. Authoritative pages apply to the classic search experience. Learn about [managing authoritative pages](manage-authoritative-pages.md).
   
 ## Export and import search settings
   
-You can export and import customized search configuration settings between tenants, site collections, and sites. The settings include all customized query rules, result sources, result types, ranking models and site search settings. [Learn more](export-and-import-search-settings.md).
+You can export and import customized search configuration settings between tenants, site collections, and sites. The settings include all customized query rules, result sources, result types, ranking models and site search settings. Learn about [exporting and importing search settings](export-and-import-search-settings.md).
   
 
