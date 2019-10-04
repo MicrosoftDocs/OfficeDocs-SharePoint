@@ -1,6 +1,6 @@
 ---
 title: "Use Group Policy to control OneDrive sync client settings"
-ms.reviewer: 
+ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -366,7 +366,7 @@ Setting this value to 1 displays a notification after successful redirection.
 <a name="SilentAccountConfig"> </a>
 
 > [!IMPORTANT]
-> ADAL is now enabled automatically when you enable this setting through Group Policy or by using the registry key, so you don't have to download and enable it separately.
+> [Azure Active Directory Authentication Library](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) is now enabled automatically when you enable this setting through Group Policy or by using the registry key, so you don't have to download and enable it separately.
   
 If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync client without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync client (Groove.exe), the new sync client will attempt to take over syncing the user's OneDrive from the previous client and preserve the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB) on PCs that don't have Files On-Demand, and with [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
 

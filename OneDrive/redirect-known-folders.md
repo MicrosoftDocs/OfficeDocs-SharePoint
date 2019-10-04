@@ -1,6 +1,6 @@
 ---
 title: "Redirect and move Windows known folders to OneDrive"
-ms.reviewer: 
+ms.reviewer: zhdong
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

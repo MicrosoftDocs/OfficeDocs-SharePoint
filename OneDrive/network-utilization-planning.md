@@ -1,6 +1,6 @@
 ---
 title: "Network utilization planning for the OneDrive sync app"
-ms.reviewer: 
+ms.reviewer: andreye
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
