@@ -1,6 +1,6 @@
 ---
 title: "Set up a site design for your hub site"
-ms.reviewer: 
+ms.reviewer: metorres
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

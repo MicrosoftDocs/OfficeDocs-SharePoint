@@ -1,6 +1,6 @@
 ---
 title: "Manage Business Connectivity Service Applications"
-ms.reviewer: 
+ms.reviewer: abloesch
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
