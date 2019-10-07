@@ -22,12 +22,30 @@ description: "Learn how to use the SharePoint admin center to manage site collec
 
 # Manage site storage limits
 
-The amount of SharePoint Online space your organization has is based on your number of users (see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). If you're a global admin in Office 365, you can [Change storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space) if you run out. 
+The amount of SharePoint Online space your organization has is based on your number of licenses (see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). If you're a global admin in Office 365, you can [Change storage space for your subscription](/office365/admin/subscriptions-and-billing/add-storage-space) if you run out. 
   
+## View the total and available storage space for your organization
+
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    
+    > [!NOTE]
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    
+2. In the left pane, under **Admin centers**, select **SharePoint**. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+    
+3. In the left pane of the new SharePoint admin center, select **Active sites**.
+
+4. In the upper right of the page, see the amount of storage used across all sites, and the total storage for your subscription. (If your organization has configured Multi-Geo in Office 365, the bar also shows the amount of storage used across all geo locations.) 
+
+    ![Storage bar on the Active sites page](media/active-sites-storage-bar.png)
+
+    > [!NOTE]
+    > The amounts shown on the bar do not include OneDrive storage. For information about OneDrive storage, see the [OneDrive service description](/office365/servicedescriptions/onedrive-for-business-service-description).
+
 ## Set automatic or manual site storage limits
 <a name="__toc365547981"> </a>
 
-By default, your SharePoint storage is available in a central pool from which all sites can draw. You, as a global or SharePoint admin, don't need to divvy up storage space or reallocate space based on usage. That's all handled automatically: sites use what they need when they need it, up to a maximum of 25 terabytes (TB) per site (previously called "site collection"). If you previously set storage limits manually and switch to using pooled storage, SharePoint resets all the limits to 25 TB. 
+By default, your SharePoint storage is available in a central pool from which all sites can draw. You, as a global or SharePoint admin, don't need to divvy up storage space or reallocate space based on usage. That's all handled automatically: sites use what they need when they need it. If you previously set storage limits manually and switch to using pooled storage, SharePoint resets all the limits to 25 TB (25600 GB). (Note that the total storage for your organization might be less than 25 TB.)  
 
 If you prefer to fine tune the storage space allocated to each site, you can set your storage management option to "manual" and specify individual site storage limits. 
   
@@ -43,7 +61,7 @@ If you prefer to fine tune the storage space allocated to each site, you can set
     
 4. Select **Site storage limits**.
 
-![Managing site storage limits](media/site-storage-limits.png)
+    ![Managing site storage limits](media/site-storage-limits.png)
      
 5. Select **Automatic** or **Manual**, and then select **Save**.
     
@@ -63,12 +81,12 @@ Follow these steps to specify individual site storage limits when your storage m
     
 4. On the **Active sites** page of the new SharePoint admin center, select a site, select the ellipsis (...), and then select **Storage**. 
 
-![Changing the storage limit for a site](media/site-storage-limit.png)
+    ![Changing the storage limit for a site](media/site-storage-limit.png)
     
 5. Enter the maximum storage in GB for the site. 
 
-  > [!NOTE]
-  > The max value you can enter is 25600 GB, although this may be more space than your organization has. To see how much space comes with your subscription, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).<br> If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the SharePoint admin center. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
+    > [!NOTE]
+    > The max value you can enter is 25600 GB, although this may be more space than your organization has. To learn how your total storage is calculated, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).<br> If you set site storage limits in PowerShell, you enter them in MB. The values are converted and rounded down to the nearest integer to appear in GB in both the SharePoint admin center. So a value of 5000 MB becomes 4 GB. The minimum storage limit is 1 GB, so if you set a value of less than 1024 MB by using PowerShell, it will be rounded up to 1 GB.
     
 6. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
  
@@ -165,7 +183,5 @@ Send-MailMessage -SmtpServer $Smtp -To $To -From $From -Subject $Subject -Attach
    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
   
   
-## See also
 
-[SharePoint Online limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
