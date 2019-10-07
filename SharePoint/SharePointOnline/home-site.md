@@ -19,7 +19,7 @@ search.appverid:
 description: "Create a home site for your organization."
 ---
 
-# Create ahome site
+# Create a home site
   
 A home site is designed to be the landing page for your intranet portal. It's typically used as the [root site](modern-root-site.md) in your organization and is often a [hub site](create-hub-site.md). When you set a site as your home site:
 
