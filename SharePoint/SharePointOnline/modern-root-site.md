@@ -1,6 +1,6 @@
 ---
 title: "Modernize your root site"
-ms.reviewer: 
+ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -32,7 +32,7 @@ When SharePoint is set up for an organization, a root (or top-level) site is cre
 
 ## What's the root site?
 
-The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up an Office 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com, and the owner is Company Administrator (all global admins in the organization). The root site can't be connected to an Office 365 group. 
+The root site for your organization is one of the sites that's provisioned automatically when you purchase and set up an Office 365 or Microsoft 365 plan that includes SharePoint. The URL of this site is typically *contoso*.sharepoint.com, the default name is "Communication site," and the owner is Company Administrator (all global admins in the organization). The root site can't be connected to an Office 365 group. 
 
 > [!WARNING]
 > Do not delete the root site for your organization. If you do, users won't be able to access any SharePoint sites until you restore the root site. 

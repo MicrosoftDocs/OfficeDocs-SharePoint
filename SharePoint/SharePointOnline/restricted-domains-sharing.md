@@ -1,6 +1,6 @@
 ---
 title: "Restrict sharing of SharePoint and OneDrive content by domain"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

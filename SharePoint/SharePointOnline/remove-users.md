@@ -1,6 +1,6 @@
 ---
 title: "Remove deleted users from SharePoint Online"
-ms.reviewer: 
+ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
