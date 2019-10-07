@@ -1,5 +1,6 @@
 ---
 title: "Change a site address (preview)"
+ms.reviewer: adwood
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -1,6 +1,6 @@
 ---
 title: "Use SharePoint Online as a business-to-business (B2B) extranet solution"
-ms.reviewer: 
+ms.reviewer: sesham
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

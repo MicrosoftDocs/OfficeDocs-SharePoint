@@ -1,6 +1,6 @@
 ---
 title: "What's new in the SharePoint admin center"
-ms.reviewer: 
+ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
