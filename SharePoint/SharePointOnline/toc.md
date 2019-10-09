@@ -4,6 +4,7 @@
 ### [Introduction](introduction.md)
 ### [SharePoint admin role](sharepoint-admin-role.md)
 ### [File collaboration](deploy-file-collaboration.md)
+### [Creating and launching a healthy SharePoint portal](portal-health.md)
 ## [Guide to the modern experience]()
 ### [Overview](guide-to-sharepoint-modern-experience.md)
 ### [Information architecture](information-architecture-modern-experience.md)
