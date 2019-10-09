@@ -12,9 +12,11 @@ ms.collection: M365-collaboration
 description: "Portal health landing page"
 ---
 
-# Creating a healthy SharePoint portal 
+# Creating and launching a healthy SharePoint portal
 
-A portal is a SharePoint site where your default landing page(s) for your company is created. In large organizations there could be several of these. If you expect more than 20% of your users to access the page, you should consider that a portal page.
+A portal is the default SharePoint site for your company. In large organizations there could be several of these. If you expect more than 20% of your users within your organization to access the page, you should consider that a portal page. 
+
+This shouldn't be confused with a team site your department uses to collaborate and share documents within your team.
 
 ## Guidance
 
