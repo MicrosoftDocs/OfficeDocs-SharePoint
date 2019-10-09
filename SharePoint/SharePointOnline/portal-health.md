@@ -14,7 +14,7 @@ description: "Portal health landing page"
 
 # Creating and launching a healthy SharePoint portal
 
-A portal is the default SharePoint site for your company. In large organizations there could be several of these. If you expect more than 20% of your users within your organization to access the page, you should consider that a portal page. 
+A portal is a SharePoint site where your default landing page(s) for your company is created. Large organizations could have several portals. If you expect more than 20% of your users within your organization to access the page, you should consider that a portal page. 
 
 This shouldn't be confused with a team site your department uses to collaborate and share documents within your team.
 
@@ -35,5 +35,5 @@ This set of guidance will walk you through best practices and recommendations be
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/task-list-planning-blue-32.png "Calls on a page") [Limit the number of requests to a page](https://docs.microsoft.com/en-us/Office365/Enterprise/modern-page-call-optimization)|Limit the number of web parts and calls into SharePoint|
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/picture-photo-blue-32.png "Optimize images") [Optimize your images](https://go.microsoft.com/fwlink/?linkid=2099113)|Follow basic image optimization for the web|
 ||![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/files-blue-32.png "iFrames") [Limit and use Iframes carefully](https://go.microsoft.com/fwlink/?linkid=2099016)|Don't use more than 2 Iframes on a page|
-|![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Limitations")|Limitations|Follow these best practices |</br>
+|![Alt image text](https://docs.microsoft.com/en-us/office/media/icons/PNGs/task-checklist-planning-blue-32.png "Performance recommendations")|[Performance recommendations](|Follow this guidance to optimize site performance|</br>
 |![Alt image text](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/bandwidth-blue-32.png "Network optimization")|[Network optimization](https://aka.ms/O365IP)|Configure your URLs and IP endpoints|</br>
