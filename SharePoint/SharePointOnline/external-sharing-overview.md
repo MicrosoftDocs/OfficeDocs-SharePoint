@@ -1,6 +1,6 @@
 ---
 title: "External sharing overview"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

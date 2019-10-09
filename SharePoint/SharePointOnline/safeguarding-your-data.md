@@ -1,6 +1,6 @@
 ---
 title: "How SharePoint Online and OneDrive safeguard your data in the cloud"
-ms.reviewer: 
+ms.reviewer: mswann
 manager: 
 ms.author: kaarins
 author: kaarins
