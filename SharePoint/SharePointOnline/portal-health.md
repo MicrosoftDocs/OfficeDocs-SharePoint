@@ -1,5 +1,5 @@
 ---
-title: "Portal health landing page"
+title: "Creating and launching a healthy SharePoint portal"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: M365-collaboration
-description: "Portal health landing page"
+description: "Creating and launching a healthy SharePoint portal"
 ---
 
 # Creating and launching a healthy SharePoint portal
