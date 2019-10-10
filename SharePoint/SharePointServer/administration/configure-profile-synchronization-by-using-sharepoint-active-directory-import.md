@@ -24,7 +24,7 @@ Import operations that use AD import are significantly faster than the same oper
 You must be a member of the Farm Administrators group to perform the procedures in this article. You also need domain credentials with synchronization permissions in order to configure the connection.
   
 > [!NOTE]
-> MIM is an external provider only available in SharePoint Server 2016. 
+> MIM is an external provider only available in SharePoint Server 2016 and SharePoint Server 2019. 
   
 ## Situations unsupported by AD import
 
