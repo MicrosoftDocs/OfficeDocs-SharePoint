@@ -25,7 +25,6 @@ The following table details the settings available in the SharePoint Migration C
 |:-----|:-----|
 |Only perform scanning|If you wish to scan the files as a pre-assessment to migration, turn **Only perform scanning** on.|
 |Start migration automatically if no scan issue found |If set to **On**, migration will start automatically if no scan issues are found. |
-|Preserve SharePoint permissions|If set to **On**, permissions on your source SharePoint files, folders, and items will be migrated. |
 |Preserve file share permissions.|Preserve permissions on the files migrated.|
 
 
