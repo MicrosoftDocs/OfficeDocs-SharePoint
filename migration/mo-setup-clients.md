@@ -54,7 +54,7 @@ The Migration Center centralizes the management of large file share migrations b
 |https://*<spam><spam>.queue.core.windows<spam><spam>.net|Migration API Azure requirement|
 |https://*.<spam><spam>blob.core.windows<spam><spam>.net|Migration API Azure requirement|	
 |https://*.<spam><spam>pipe.aria.microsoft<spam><spam>.com|Telemetry/update|
-|https://*.<spam><spam>sharepoint.com<spam><spam>|Destination for migration|
+|https://*.<spam><spam>sharepoint<spam><spam>.com|Destination for migration|
 
 
 
