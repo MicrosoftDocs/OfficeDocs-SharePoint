@@ -33,7 +33,7 @@ The Migration Center centralizes the management of large file share migrations b
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
 |CPU|64-bit quad core processor or better|64-bit 1.4 GHz 2-core processor or better|
-|.Net version|V4.6.2 or higher. </br></br>Learn more: [How to determine which versions are installed](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
+|.Net version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
 |RAM|16 GB|8GB|
 |Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|High speed internet connection|
@@ -68,7 +68,6 @@ The Migration Center centralizes the management of large file share migrations b
 6.	Click Run.
 7.	Enter your SharePoint Admin username and password.  These are to the SharePoint tenant where you will be migrating your content. Click **Next**.
 8.	Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate.  Click Run configuration. 
+
 On completion this computer will be added to the available clients that the Migration Manager can assign tasks.
 
->!Note:
->   
