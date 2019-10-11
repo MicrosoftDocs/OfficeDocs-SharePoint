@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Orchestration Tool Settings"
+title: "SharePoint Migration Center settings"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -10,18 +10,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
-description: "A complete listing of the SharePoint Migration orchestration basic and advanced settings." 
+description: "A complete listing of the SharePoint Migration Center basic and advanced settings." 
 ---
 
-# SharePoint Migration Orchestration Settings
+# SharePoint Migration Center Settings
 
-The following table details the settings available in SPMT.  Advanced settings should only be changed or managed by your IT professional. 
-
-> [!Note] 
-> This list also includes settings available in the SPMT V3 Public Preview. 
+The following table details the settings available in the SharePoint Migration Center. Advanced settings should only be changed or managed by your IT professional. 
 
 **General**
  
@@ -59,29 +55,13 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Filter content type|Enter the content types you want to exclude from migration.|
 
 
-**SharePoint**
-
-|**Setting**|**Description**|
-|:-----|:-----|
-|Skip list with audience targeting enabled|Choose if you want to migrate SharePoint Server lists with audience targeted enabled. |
-|Migrate all site fields and content types|Choose if you want to mgirate sites fields even if they are not required for migration.|
-|Migrate managed metadata|Choose if you want to migrate all managed metadata terms that are in use on the site.|
-|Migration of web parts and pages|Choose how to handle migration if the pages and webparts already exist in the destination.</br> Select one: Overwrite duplicate, Rename duplicate, Skip duplicate, or Do not migrate.|
-|Migrate site navigation|Migrate the navigation links of a site or page in SharePoint.|
-
-
-
 **Advanced**
 
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migration auto re-run|Choose if you want to automatically rerun a migration task to look for changes or additions. Select either Run once, or Run up to 5 successive times.|
-|SharePoint Migration Tool work folder  <br/> |Choose if you want to create your own working folder.  By default, a temp folder will be created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\MigrationTool`. Please make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
+|SharePoint Migration Center work folder  <br/> |Choose if you want to create your own working folder.  By default, a temp folder will be created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\MigrationTool`. Please make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
 |Use custom Azure storage|If you wish to use your own Azure storage, set this value to **On**.  Enter your account and key, select if you want to enable or disable encryption, and if you want temporary working files to be deleted when migration is complete.  <br/> **Note:** This feature is supported only for *General Purpose storage accounts*  as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.|
    
-## Related topics
 
- 
-[SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
-  
 
