@@ -64,15 +64,15 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 3. Run the following command:
  
    ```PowerShell
-   Connect-SPOService -Url https://<contoso>.-admin.sharepoint.com -Credential $cred
+   Connect-SPOService -Url https://fabrikam-admin.sharepoint.com -Credential $cred
    ```
 4. Remove the guest from each site collection by using the following command:
  
    ```PowerShell
-   $ExtUser = Get-SPOExternalUser -filter someone@example.com
+   $ExtUser = Get-SPOExternalUser -filter jondoe@fabrikam.com
    ```
    > [!NOTE]
-   >  Replace the **someone@example.com** placeholder with the account for your scenario.
+   >  Replace the **jondoe@fabrikam.com** placeholder with the account for your scenario.
 
 5. Enter the following command:
  
@@ -94,7 +94,7 @@ You'll have to browse to each site collection that the user or guest visited, an
 
 1. Browse to the site and edit the URL by adding the following string to the end of it: **/_layouts/15/people.aspx?MembershipGroupId=0**
  
- 	For example, the full URL will resemble the following: **https://&lt;contoso.sharepoint.com&gt;/_layouts/15/people.aspx/membershipGroupId=0**
+ 	For example, the full URL will resemble the following: **https://fabrikam.sharepoint.com/_layouts/15/people.aspx/membershipGroupId=0**
 
 2. Select the person from the list, and then on the **Actions** menu, select **Delete Users from Site Collection**.
  
@@ -107,10 +107,10 @@ You'll have to browse to each site collection that the user or guest visited, an
 3. Run the following command:
 
    ```PowerShell
-   Remove-SPOUser -Site https://&lt;contoso&gt;.sharepoint.com -LoginName outlook.com#jondoe@company.com
+   Remove-SPOUser -Site https://fabrikam.sharepoint.com -LoginName jondoe_fabrikam.com#EXT#@fabrikam.onmicrosoft.com
    ```
    > [!NOTE]
-   >  Replace the _\<outlook.com#jondoe@company.com\>_ placeholder with the person in question.  
+   >  Replace the _jondoe_fabrikam.com#EXT#@fabrikam.onmicrosoft.com_ placeholder with the person in question.  
 
 ## Clear browser history
 

@@ -105,7 +105,10 @@ The requirements in the following section apply to the following installations:
 - Server farm with a single server in the farm
     
 - Server farm with multiple servers in the farm
-    
+
+> [!IMPORTANT]
+> SharePoint 2013 requires a minimum Active Directory domain and forest functional level of Windows Server 2003 (native). For more information about Active Directory functional levels, see [Forest and Domain Functional Levels](https://docs.microsoft.com/windows-server/identity/ad-ds/active-directory-functional-levels).
+
 > [!IMPORTANT]
 > SharePoint 2013 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
   
