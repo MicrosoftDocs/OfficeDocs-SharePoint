@@ -61,7 +61,6 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
 
     A number of errors can prevent this setting from taking effect, such as:
     - A known folder contains an Outlook database file (.pst), or a OneNote file that isn't already stored in OneDrive.
-    - A known folder is on a different volume than the OneDrive folder.
     - A file exceeds the maximum path length
     - The known folders aren't in the default locations
     - A folder isn't selected for syncing
