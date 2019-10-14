@@ -1,5 +1,5 @@
 ---
-title: "Get started with SharePoint Migration Orchestration"
+title: "Get started with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,7 +15,7 @@ ms.collection:
 search.appverid: MET150
 ms.custom: 
 ms.assetid: 
-description: Get started with SharePoint Migration Orchestration
+description: Get started with Migration Manager
 ---
 
 
@@ -23,9 +23,9 @@ description: Get started with SharePoint Migration Orchestration
 
 Migrating large file share content to the cloud is a time and resource intensive process. It is usually necessary to scale up resources to accommodate the large volume of content that you are moving.  This comes at a high operational cost of individually managing each server and the migrations tasks that are running on it. You can’t automatically load balance your jobs, or view at a glance the progress and status of your project across all your devices.
 
-The Migration Center answers those challenges by providing you a centralized way of connecting servers, creating tasks, having the Migration Center automatically load balance your migration tasks.  
+The Migration Manager answers those challenges by providing you a centralized way of connecting servers, creating tasks, having the Migration Center automatically load balance your migration tasks.  
 
-Located in the SharePoint Admin Center, the SharePoint Migration Center guides you through the setup of your devices and the creation of your tasks.  You can specify global or task specific settings, view all-up task progress, and download summary and detailed reports.
+Located in the SharePoint Admin Center, the Migration Manager guides you through the setup of your devices and the creation of your tasks.  You can specify global or task specific settings, view all-up task progress, and download summary and detailed reports.
 
 You can have an aggregate "all-up" view of your migration project from one location.   and manage the migration of your file shares to SharePoint and OneDrive. You can specify global or task specific settings, view all-up task progress, and download summary and detailed reports.
 

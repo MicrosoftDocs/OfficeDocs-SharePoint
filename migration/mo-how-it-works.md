@@ -1,5 +1,5 @@
 ---
-title: "How the Migraiton Center works"
+title: "How the Migraiton Manager works"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,7 +15,7 @@ ms.collection:
 search.appverid: MET150
 ms.custom: 
 ms.assetid: 
-description: How the migration center works.
+description: How the Migration Manager works.
 ---
 
 
