@@ -43,8 +43,6 @@ The Migration Manager centralizes the management of large file share migrations 
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
 |Anti-virus|Stop 3rd party anti-virus software on your computer prior to installation|Stop 3rd party anti-virus software on your computer prior to installation|</br>
 
-### Required Endpoints
-
 |**Required Endpoints**|**For**|
 |:-----|:-----|
 |https://secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
