@@ -78,6 +78,9 @@ The requirements in the following section apply to the following installations:
   
 > [!NOTE]
 > SharePoint Server 2016 supports drives that are formatted with the Resilient File System (ReFS). For additional information about ReFs, see [Resilient File System Overview](https://go.microsoft.com/fwlink/p/?LinkId=618431) and [Resilient File System](https://go.microsoft.com/fwlink/p/?LinkId=618432)
+
+> [!IMPORTANT]
+> SharePoint Server 2016 requires a minimum Active Directory domain and forest functional level of Windows Server 2003 (native). For more information about Active Directory functional levels, see [Forest and Domain Functional Levels](https://docs.microsoft.com/windows-server/identity/ad-ds/active-directory-functional-levels).
   
 > [!IMPORTANT]
 > SharePoint Server 2016 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
