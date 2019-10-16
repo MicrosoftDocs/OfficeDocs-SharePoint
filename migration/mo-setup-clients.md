@@ -19,7 +19,7 @@ description: Set up multiple Migration Manager clients
 ---
 
 
-# Setting up individual Migration clients
+# Setting up multiple Migration Manager clients
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or computers or VMs as migration “clients”.  A setup file is downloaded and installed each computer.  After each agent is successfully installed, it is referred to a migration "client" computer in the tool. The Migration Manager can then execute and monitor the migrations, automatically load balancing the task across the pool of clients have been configured.  
 
