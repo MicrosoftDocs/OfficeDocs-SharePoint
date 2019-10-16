@@ -57,6 +57,10 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
   
 6. Select **OK** to save the settings. 
     
+
+> [!IMPORTANT]
+> We Call out the Azure AD domain settings in the following link [collaborating with people outside your organization)](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization)
+> 
 ## See also
 <a name="__top"> </a>
 
