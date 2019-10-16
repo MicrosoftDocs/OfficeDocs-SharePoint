@@ -48,14 +48,7 @@ The Migration Manager centralizes the management of large file share migrations 
 |**Required Endpoints**|**For**|
 |:-----|:-----|	
 |https://<spam><spam>secure.aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
-|https://<spam><spam>login.microsoftonline<spam><spam>.com|Authentication|
-|https://<spam><spam>api.office<spam><spam>.com|Office 365 APIs for content move and validation|
-|https://<spam><spam>graph.windows<spam><spam>.net|Office 365 APIs for content move and validation|
-|https://<spam><spam>spmtreleasescus.blob.core.windows<spam><spam>.net|Installation|
-|https://*<spam><spam>.queue.core.windows<spam><spam>.net|Migration API Azure requirement|
-|https://*.<spam><spam>blob.core.windows<spam><spam>.net|Migration API Azure requirement|	
-|https://*.<spam><spam>pipe.aria.microsoft<spam><spam>.com|Telemetry/update|
-|https://*.<spam><spam>sharepoint<spam><spam>.com|Destination for migration|
+
 
 
 
