@@ -46,12 +46,8 @@ The Migration Manager centralizes the management of large file share migrations 
 ### Required Endpoints
 
 |**Required Endpoints**|**For**|
-|:-----|:-----|	
-|https://<spam><spam>secure.aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
-
-
-
-
+|:-----|:-----|
+|https://secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
 
 
 ## Setup your first client
