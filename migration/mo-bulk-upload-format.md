@@ -16,7 +16,7 @@ search.appverid: MET150
 description: "How to format your CSV file for bulk upload in Migration Manager"
 ---
 
-# How to format your CSV for data content migration
+# How to format your CSV for data content migration in Migration Manager
 
   
 ## Using a comma separated value (CSV) file for data content migration
