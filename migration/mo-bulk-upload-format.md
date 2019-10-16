@@ -1,5 +1,5 @@
 ---
-title: "How to format your CSV for data content migration using the Migration orchestrator"
+title: "How to format your CSV for data content migration using the Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -13,7 +13,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "How to format your CSV file for bulk upload in Migration orchestrator"
+description: "How to format your CSV file for bulk upload in Migration Manager"
 ---
 
 # How to format your JSON or CSV for data content migration
@@ -21,7 +21,7 @@ description: "How to format your CSV file for bulk upload in Migration orchestra
   
 ## Using a comma separated value (CSV) file for data content migration
 
-The SharePoint Migration Manager lets you use a comma separated (CSV) file to bulk migrate your data. Use any text editor, or an application like Excel, to create the CSV file.
+Migration Manager lets you use a comma separated (CSV) file to bulk migrate your data. Use any text editor, or an application like Excel, to create the CSV file.
   
  **CSV file format**
   
