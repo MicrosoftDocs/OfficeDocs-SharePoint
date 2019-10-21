@@ -17,6 +17,14 @@ description: "Moving to SharePoint Online?"
 
 # Migrate to SharePoint Online and OneDrive
 
+
+>[!Note]
+> On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings.  </br>
+>
+>Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
+
+
+
 Moving to SharePoint Online or OneDrive for Business?
 
 There are different options available to migrate content to SharePoint Online, depending on the size and quantity of files you need to move.
