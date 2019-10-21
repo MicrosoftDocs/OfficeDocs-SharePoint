@@ -20,8 +20,8 @@ description: "Download and install the SharePoint Migration Tool."
 
 >[!Note]
 > On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings.  </br>
-
-Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
+>
+>Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
 
 
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
