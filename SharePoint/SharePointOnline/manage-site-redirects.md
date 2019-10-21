@@ -18,7 +18,7 @@ description: "Learn how to remove a site redirect in SharePoint Online."
 
 As part of changing your [SharePoint Online site address](change-site-address.md) and [moving a SharePoint Online site to a different geo location for Multi-Geo tenants](https://docs.microsoft.com/en-us/office365/enterprise/move-sharepoint-between-geo-locations), we automatically create redirect sites to ensure that links pointing to the prior site address continue to work. These redirect sites are a special site template in the prior site URL.
 
-For example, if you renamed a site https<i></i>://contoso<i></i>.sharepoint.com/sites/*OldSiteName* to https<i></i>://contoso.sharepoint.com/sites/*NewSiteName* or cross-geo moved a site https<i></i>://contoso.sharepoint.com/sites/SiteName to https<i></i>://contoso*EUR*.sharepoint.com/sites/SiteName, we will place a redirector site (Template type REDIRECTSITE#0) associated to the old namespace, which contains special headers and logic to redirect your browser requests to the new renamed site.
+For example, if you renamed a site https<i></i>://contoso<i></i>.sharepoint.i></i>com/sites/*OldSiteName* to https<i></i>://contoso.sharepoint.i></i>com/sites/*NewSiteName* or cross-geo moved a site https<i></i>://contoso.sharepoint.i></i>com/sites/SiteName to https<i></i>://contoso*EUR*.sharepoint.i></i>com/sites/SiteName, we will place a redirector site (Template type REDIRECTSITE#0) associated to the old namespace, which contains special headers and logic to redirect your browser requests to the new renamed site.
 
 In some cases, you may want to free up the old namespace to place another site in that address; to do that, you may delete the redirect site.
 
