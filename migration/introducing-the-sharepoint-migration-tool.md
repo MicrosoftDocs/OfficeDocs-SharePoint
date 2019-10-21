@@ -19,12 +19,15 @@ description: "Download and install the SharePoint Migration Tool."
 
 
 >[!Note]
-> On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings.  To learn more see:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
+> On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings.  </br>
+>
+>Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
 
 
-Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
-The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint Online and OneDrive from the following locations:
+Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool (SPMT) will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
+
+**SPMT** lets you migrate content to SharePoint Online and OneDrive from the following locations:
 
 - SharePoint Server 2013
 - SharePoint Server 2010
@@ -32,7 +35,7 @@ The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint Onli
   
 ## Download and install
 
-Download and install the SharePoint Migration Tool using one of the download links below.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
+Download and install **SPMT** using one of the download links below.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
 
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
