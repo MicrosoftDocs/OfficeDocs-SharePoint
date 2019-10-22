@@ -91,13 +91,13 @@ Before you change the address of a site, it's important to communicate the chang
 3. Run the following command to verify that the site address can be changed:
 
     ```PowerShell
-    Start-SPOSiteContentRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
+    Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
     ```
 
 4. Run the following command to change the site address:
 
     ```PowerShell
-    Start-SPOSiteContentRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
+    Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
     ```
 
 For more info about this cmdlet, see [Start-SPOSiteContentRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
