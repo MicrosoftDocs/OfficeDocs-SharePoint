@@ -92,10 +92,12 @@ To permanently delete sites (including Office 365 group-connected team sites) by
 |---------|---------|---------|
 |Root site     |Not recommended. [Replace the root site with a different site](modern-root-site.md#swap-your-root-site). When the site is no longer a root site, its URL will be /sites/archive-*datetime*, and you can delete it from the Active sites page of the new SharePoint admin center or by using PowerShell       |  From the Deleted sites page of the new SharePoint admin center or by using PowerShell        |
 |Communication sites   |       Delete them from the Active sites page of the new SharePoint admin center or by using PowerShell  |     From the Deleted sites page of the new SharePoint admin center or by using PowerShell    |
-|Office 365 group-connected team sites     |    Delete Office 365 groups and all their resources from the Microsoft 365 admin center, the Active sites page of the new SharePoint admin center, or by using PowerShell     |     From PowerShell only    |
-|Hub sites    |   Unregister them as hub sites from the Active sites page of the new SharePoint admin center, or by using PowerShell, and then delete them based on their site type      |     Based on their site type    |
+|Office 365 group-connected team sites    |    Delete Office 365 groups and all their resources from the Microsoft 365 admin center, the Active sites page of the new SharePoint admin center, or by using PowerShell     |     From PowerShell only    |
+|Hub sites (those designated with "(Hub site)" in the Hub column)   |   [Unregister them as hub sites](remove-hub-site.md) from the Active sites page of the new SharePoint admin center, or by using PowerShell, and then delete them based on their site type      |     Based on their site type    |
 |Classic sites    | Delete them from the Active sites page of the new SharePoint admin center or by using PowerShell  |     From the Deleted sites page of the new SharePoint admin center or by using PowerShell    |
 
+> [!NOTE]
+> Sites associated with a hub can be deleted like any other site based on their template. 
 
 
 ## See also
