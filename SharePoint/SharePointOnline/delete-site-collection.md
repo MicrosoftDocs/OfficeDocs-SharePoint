@@ -85,6 +85,18 @@ To permanently delete sites (including Office 365 group-connected team sites) by
       ```
  (Where https://contoso.sharepoint.com/sites/sitetoremove is the URL of the site you want to permanently delete). For more info about using this command, see [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite).
 
+## Summary of options
+
+
+|Site type  |How to delete  |How to permanently delete  |
+|---------|---------|---------|
+|Root site     |Not recommended. [Replace the root site with a different site](modern-root-site.md#swap-your-root-site). When the site is no longer a root site, its URL will be /sites/archive-*datetime*, and you can delete it from the Active sites page of the new SharePoint admin center or by using PowerShell       |  From the Deleted sites page of the new SharePoint admin center or by using PowerShell        |
+|Communication sites   |       Delete them from the Active sites page of the new SharePoint admin center or by using PowerShell  |     From the Deleted sites page of the new SharePoint admin center or by using PowerShell    |
+|Office 365 group-connected team sites     |    Delete Office 365 groups and all their resources from the Microsoft 365 admin center, the Active sites page of the new SharePoint admin center, or by using PowerShell     |     From PowerShell only    |
+|Hub sites    |   Unregister them as hub sites from the Active sites page of the new SharePoint admin center, or by using PowerShell, and then delete them based on their site type      |     Based on their site type    |
+|Classic sites    | Delete them from the Active sites page of the new SharePoint admin center or by using PowerShell  |     From the Deleted sites page of the new SharePoint admin center or by using PowerShell    |
+
+
 
 ## See also
 <a name="__toc323551190"> </a>
