@@ -18,24 +18,24 @@ description: "The content must be crawled and added to the search index for your
 
 # Make sure content can be found
 
-The content must be crawled and added to the search index for your users to find what they're searching for in SharePoint Online. SharePoint Online has both a classic and a modern search experience. [Learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md)
+The content must be crawled and added to the search index for your users to find what they're searching for in SharePoint Online. SharePoint Online has both a classic and a modern search experience, both use the same search index.  [Learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md)
 
   
  ## Make site content searchable
   
-When users search on a site, results can come from many places such as columns, libraries, and pages. A site owner can change search settings to decide whether or not content should appear in search results. 
+When users search on a site, results can come from many places such as columns, libraries, and pages. A site owner can change search settings to decide whether or not content should appear in search results.
   
 Users only see search results for content they have access to. Setting the right permissions for content ensure that people can see the right documents and sites in the search results. [Learn more](make-site-content-searchable.md).
   
 ## Crawl site content
   
-In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index. 
+In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index.
   
 In some cases, you may want to manually request crawling and full re-indexing of a site, a document library, or a list. [Learn more](crawl-site-content.md).
   
 ## Search across on-premises and online content
   
-Hybrid search lets your users search for files and documents across SharePoint Server and Office 365 at the same time. [Hybrid search in SharePoint](/SharePoint/hybrid/hybrid-search-in-sharepoint).
+[Hybrid search in SharePoint](/SharePoint/hybrid/hybrid-search-in-sharepoint) lets your users search for files and documents across SharePoint Server and Office 365 at the same time. With [cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), both on-premises and online content go into the index that both the classic and Microsoft search experiences use. 
   
 ## Remove search results temporarily
   

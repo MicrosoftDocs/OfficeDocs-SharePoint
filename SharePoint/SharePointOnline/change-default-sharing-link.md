@@ -1,6 +1,6 @@
 ---
 title: "Change the default sharing link for a site"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -68,4 +68,6 @@ For info about the changing this setting at the organization level, see [File an
   
 8. Select **Save**.
     
+## See also
 
+[Use shorter links when sharing files and folders](https://docs.microsoft.com/sharepoint/dev/spfx/shorter-share-link-format)

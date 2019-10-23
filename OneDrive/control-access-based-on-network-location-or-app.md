@@ -1,6 +1,6 @@
 ---
 title: "Control access based on network location or app"
-ms.reviewer: 
+ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

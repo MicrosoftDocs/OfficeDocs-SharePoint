@@ -525,9 +525,9 @@ To create a Business Data Connectivity service application, follow the procedure
 <a name="Point"> </a>
 
 1. To start a service application, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
-    
-## Steps to move or rename the Search Service application databases
-<a name="Search"> </a>
+
+## Steps to move or rename the Search Service application databases in SharePoint Server 2013 and SharePoint Server 2016
+<a name="Search20132016"> </a>
 
 To move the Search service application databases, you must use SQL Server, SQL Server Management Studio, and Windows Explorer. To point to the moved databases, you must use PowerShell. Complete the following steps in the listed order.
   
@@ -602,7 +602,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 5. In the **Back Up Database** dialog box, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
     
-    For more information about the type of backup to use, see [Recovery Models (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
+    For more information about the type of backup to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889).
     
 6. In the **Backup component** area, click **Database**.
     
@@ -636,7 +636,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. In the **Max Degree of Parallelism** box, select **1** to limit the number of processors to use in parallel plan execution. 
     
-    For more information, see [Configure the max degree of parallelism Server Configuration Option](http://go.microsoft.com/fwlink/p/?LinkID=724373&amp;clcid=0x409).
+    For more information, see [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkID=724373).
     
 ### To restore the Search service application databases to a new database server
 
@@ -656,7 +656,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 8. On the **Options** tab, select the recovery state from the **Recover state** section. 
     
-    For more information about which recovery type to use, see [Recovery Models (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409) in SQL Server Books Online. 
+    For more information about which recovery type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp) in SQL Server Books Online.
     
 9. Click **OK** to restore the database. 
     
@@ -727,9 +727,231 @@ In some environments, you must coordinate the rename and move procedures with th
    Where  _\<SearchServiceApplicationName\>_ is the name of the Search service application associated with the database move. 
     
 8. Restart each server that hosts a search component.
+
+## Steps to move or rename the Search Service application databases in SharePoint Server 2019
+<a name="Search2019"> </a>
+
+To move the Search service application databases, you must use SQL Server, SQL Server Management Studio, and Windows Explorer. To point to the moved databases, you must use PowerShell. Complete the following steps in the listed order.
+
+ **Important:**
+  
+The account, or accounts, that you use to do the operations must have these memberships and permissions:
+  
+- Member of the Farm Administrators SharePoint group.
     
+- Member of the Administrators group on the local server.
+    
+- Read permission on the source location and write permission on the target location.
+    
+- **db_owner** fixed database role for all of the databases that you are moving. 
+    
+- **db_creator** and **securityadmin** roles for all of the databases that you are moving. 
+    
+The Search Service account must have the following roles:
+  
+- **db_owner** fixed database role on the Administration, Link, and Crawl databases. 
+    
+- **SPSearchDBAdmin** database role on the Analytics Reporting database. 
+    
+In some environments, you must coordinate the rename and move procedures with the database administrator. Be sure to follow applicable policies and guidelines for managing databases.
+  
+### To pause the Search service application by using PowerShell
+
+1. Start the SharePoint Management Shell.
+    
+2. At the PowerShell command prompt, type the following command:
+    
+   ```powershell
+   $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplicationName>
+   Suspend-SPEnterpriseSearchServiceApplication -Identity $ssa
+   ```
+
+   Where  _\<SearchServiceApplicationName\>_ is the name of the Search service application associated with the database move. 
+    
+### <a name="ReadOnly"></a>To change the read-only mode for Search service application databases
+
+1. Use an account that is a member of the **db_owner** fixed database role for the content database. 
+    
+2. Open SQL Server Management Studio and connect to the database server.
+    
+3. In Object Explorer, expand **Databases**.
+    
+4. Set the following databases to read-only mode:
+    
+   - Search Administration
+    
+   - Analytics Reporting
+    
+   - Crawl
+    
+   - Link
+    
+   - Right-click the database that you want to set to read/write or read-only, and then click **Properties**.
+    
+   - In the **Database Properties** dialog box, on the **Options** properties page, in the **State** section, select **True** or **False** in the list next to Database Read-Only, and then click **OK**.
+    
+   - Click **Yes**.
+    
+### To back up the Search service application databases
+
+1. Use an account that is a member of the SQL Server **db_backupoperator** fixed database role on the database server where each database is stored. 
+    
+2. Start SQL Server Management Studio and connect to the database server where the Search service application databases are stored.
+    
+3. In Object Explorer, expand **Databases**.
+    
+4. Right-click the database that you want to back up, point to **Tasks**, and then click **Back Up**.
+    
+5. In the **Back Up Database** dialog box, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
+    
+    For more information about the type of backup to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp).
+    
+6. In the **Backup component** area, click **Database**.
+    
+7. Either use the default name or specify a name for the backup set in the **Name** box. 
+    
+8. Specify the expiration date for the backup set.
+    
+    This date determines when the backup set can be overwritten by subsequent backups that have the same name. By default, the backup set is set to never expire (0 days).
+    
+9. In the **Destination** area, specify where you want to store the backup. 
+    
+10. Click **OK** to back up the database. 
+    
+11. Repeat steps 1-10 for the following databases:
+    
+    - Search Administration
+    
+    - Analytics Reporting
+    
+    - Crawl
+    
+    - Link
+    
+### To set the value of max degree of parallelism to 1 in the new server that hosts SQL Server
+
+1. Start SQL Server Management Studio and connect to the new server that hosts SQL Server where you'll move the Search service application databases.
+    
+2. In **Object Explorer**, right-click the database server and then click **Properties**.
+    
+3. Click **Advanced**.
+    
+4. In the **Max Degree of Parallelism** box, select **1** to limit the number of processors to use in parallel plan execution. 
+    
+    For more information, see [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkID=724373).
+    
+### To restore the Search service application databases to a new database server
+
+1. Use an account that is a member of the SQL Server **sysadmin** fixed server role on the database server where each database is stored. 
+    
+2. Start SQL Server Management Studio and connect to the database server.
+    
+3. In **Object Explorer**, expand **Databases**.
+    
+4. Right-click the database that you want to restore, point to **Tasks**, point to **Restore**, and then click **Database**. 
+    
+5. In the **Restore Database** dialog box, on the **General** page, select the database to restore to from the **To database** list. 
+    
+6. Select the restore source from the **From database** list. 
+    
+7. In the **Select the backup sets to restore section** area, select the check box next to the database. 
+    
+8. On the **Options** tab, select the recovery state from the **Recover state** section. 
+    
+    For more information about which recovery type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889) in SQL Server Books Online.
+    
+9. Click **OK** to restore the database. 
+    
+10. Repeat steps 1-9 for each database that is associated with the service application.
+    
+### To set the Search service application databases to read/write
+
+1. Follow the steps in [To change the read-only mode for Search service application databases](#ReadOnly).
+    
+### To point the Search service application to moved databases by using PowerShell
+
+1. Start the SharePoint Management Shell.
+
+> [!NOTE]
+> These instructions assume you will use the same PowerShell session for all commands.
+
+2. At the PowerShell command prompt, type the following command to associate the Search Administration database with the Search service.
+  
+   ```powershell
+    $ssa = Get-SPEnterpriseSearchServiceApplication <SearchServiceApplication>
+    $ssa | Set-SPEnterpriseSearchServiceApplication -DatabaseName <SearchAdministrationServiceDatabase> -DatabaseServer <SearchServiceDatabaseServer>
+   ```
+
+   Where:
+
+    -  _\<SearchServiceApplication\>_ is the name of the Search service application associated with the database.
+
+    -  _\<SearchAdministrationServiceDatabase\>_ is the name of the Search service application Administration database.
+
+    -  _\<SearchServiceDatabaseServer\>_ is the name of the new databse server hosting the Search service application databases.
+
+3. At the PowerShell command prompt, type the following command to associate the Search Analytics database with the Search service.
+
+    ```powershell
+    Add-SPServerScaleOutDatabase -ServiceApplication $ssa -DatabaseServer <SearchServiceDatabaseServer> -DatabaseName <SearchServiceAnalyticsDatabase>
+    $temp = Get-SPServerScaleOutDatabase -ServiceApplication $ssa
+    Remove-SPServerScaleOutDatabase -ServiceApplication $ssa -Database $temp[0]
+    ```
+
+   Where:
+
+    -  _\<SearchServiceAnalyticsDatabase\>_ is the name of the Search service application Analytics database.
+
+    -  _\<SearchServiceDatabaseServer\>_ is the name of the new databse server hosting the Search service application databases.
+
+4. At the PowerShell command prompt, type the following command to associate the Search Crawl database with the Search service.
+
+    ```powershell
+    New-SPEnterpriseSearchCrawlDatabase -SearchApplication $ssa -DatabaseName <SearchServiceCrawlDatabase> -DatabaseServer <SearchServiceDatabaseServer>
+    $crawlDBToDelete = $ssa | Get-SPEnterpriseSearchCrawlDatabase -Identity "<OldCrawlStoreDatabase>"
+    Remove-SPEnterpriseSearchCrawlDatabase -Identity $crawlDBToDelete
+    ```
+
+   Where:
+
+    -  _\<SearchServiceCrawlDatabase\>_ is the name of the Search service application Crawl database.
+
+    -  _\<SearchServiceDatabaseServer\>_ is the name of the new databse server hosting the Search service application databases.
+
+    -  _\<OldCrawlStoreDatabase\>_ is the name of the old Search service application Crawl database.
+
+5. At the PowerShell command prompt, type the following command to associate the Search Links database with the Search service.
+
+    ```powershell
+    New-SPEnterpriseSearchLinksDatabase -DatabaseName <SearchServiceLinksDatabase> –SearchApplication $ssa -DatabaseServer <SearchServiceDatabaseServer>
+    $oldLinksStoreDB = ([array]($ssa | Get-SPEnterpriseSearchLinksDatabase))[0]
+    $newLinksStoreDB = ([array]($ssa | Get-SPEnterpriseSearchLinksDatabase))[1]
+    Move-SPEnterpriseSearchLinksDatabases -SearchApplication $ssa -TargetStores @($newLinksStoreDB) -Confirm:$false
+    ```
+
+   Where:
+
+    -  _\<SearchServiceLinksDatabase\>_ is the name of the Search service application Links database.
+
+    -  _\<SearchServiceDatabaseServer\>_ is the name of the new databse server hosting the Search service application databases.
+
+6. At the PowerShell command prompt, type the following command to resume the Search Service application.
+
+    ```powershell
+    Resume-SPEnterpriseSearchServiceApplication -Identity $ssa
+    ```
+
+7. At the PowerShell command prompt, type the following command to remove the old Search Links database from the Search service.
+
+    ```powershell
+    Remove-SPEnterpriseSearchLinksDatabase -Identity $oldLinksStoreDB -SearchApplication $ssa -Confirm:$false
+    ```
+   Where:
+
+     - `$oldLinksStoreDB` is the variable from step 5.
+
 ## See also
-<a name="Search"> </a>
+<a name="SeeAlso"> </a>
 
 #### Concepts
 

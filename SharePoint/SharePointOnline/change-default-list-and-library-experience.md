@@ -1,6 +1,6 @@
 ---
 title: "Change the default list and library experience"
-ms.reviewer: 
+ms.reviewer: jdemaris
 manager: 
 ms.author: kaarins
 author: kaarins

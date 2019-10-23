@@ -1,6 +1,6 @@
 ---
 title: "Use Group Policy to control OneDrive sync client settings"
-ms.reviewer: 
+ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -44,7 +44,7 @@ This article is for IT admins who manage the new OneDrive sync client in a Windo
   
 3. Copy the .adml and .admx files.
 
-4. Paste the .admx file in your domain's Central Store, \\*domain*\sysvol\domain\Policies\PolicyDefinitions (where *domain* is your domain name, such as corp.contoso.com), and the .adml in the appropriate language subfolder (such as en-us). If the PolicyDefinitions folder does not exist, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](https://support.microsoft.com/en-us/help/3087759).
+4. Paste the .admx file in your domain's Central Store, \\*domain*\sysvol\domain\Policies\PolicyDefinitions (where *domain* is your domain name, such as corp.contoso.com), and the .adml in the appropriate language subfolder (such as en-us). If the PolicyDefinitions folder does not exist, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](https://support.microsoft.com/en-us/help/3087759) or use your local policy store under %windir%\policydefinitions.
     
 5. Configure settings from the domain controller or on a Windows computer by running the [Remote Server Administration Tools](https://go.microsoft.com/fwlink/?linkid=871794). 
     
@@ -54,12 +54,12 @@ This article is for IT admins who manage the new OneDrive sync client in a Windo
     
 The OneDrive Group Policy objects work by setting registry keys on the computers in your domain.
   
-- When you enable or disable a setting, the corresponding registry key is updated on computers in your domain. If you later change the setting back to **Not configured**, the corresponding registry key is not modified and the change does not take effect. So after you configure a setting, set it to **Enabled** or **Disabled** going forward. 
+- When you enable or disable a setting, the corresponding registry key is updated on computers in your domain. If you later change the setting back to **Not configured**, the corresponding registry key is not modified, and the change does not take effect. So after you configure a setting, set it to **Enabled** or **Disabled** going forward. 
     
 - The location where registry keys are written has been updated. When you use the latest files, you might delete registry keys that you set previously.
 
 > [!NOTE]
-> For information about storage see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/onedrive-files-on-demand-and-storage-sense-for-windows-10-de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-storage).
+> For information about storage, see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/onedrive-files-on-demand-and-storage-sense-for-windows-10-de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-storage).
 
 ## List of policies
 
@@ -192,7 +192,7 @@ This setting lets you balance the performance of different upload tasks on a com
 > The maximum throughput value detected by the sync client can sometimes be higher or lower than expected because of the different traffic throttling mechanisms that your Internet Service Provider (ISP) might use. <br>For info about estimating the network bandwidth you need for sync, see [Network utilization planning for the OneDrive sync client](network-utilization-planning.md).
   
 
-If you enable this setting, and enter a percentage (from 10-99) in the **Bandwidth** box, computers will use the percentage of upload throughput that you specify when uploading files to OneDrive, and users will not be able to change it.
+If you enable this setting and enter a percentage (from 10-99) in the **Bandwidth** box, computers will use the percentage of upload throughput that you specify when uploading files to OneDrive, and users will not be able to change it.
 
 Enabling this policy sets the following registry key value. For example:
   
@@ -366,9 +366,9 @@ Setting this value to 1 displays a notification after successful redirection.
 <a name="SilentAccountConfig"> </a>
 
 > [!IMPORTANT]
-> ADAL is now enabled automatically when you enable this setting through Group Policy or by using the registry key, so you don't have to download and enable it separately.
+> [Azure Active Directory Authentication Library](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) is now enabled automatically when you enable this setting through Group Policy or by using the registry key, so you don't have to download and enable it separately.
   
-If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync client without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync client (Groove.exe), the new sync client will attempt to take over syncing the user's OneDrive from the previous client and preserve the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB) on PCs that don't have Files On-Demand, and with [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
+If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync client without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync client (Groove.exe), the new sync client will attempt to take over syncing the user's OneDrive from the previous client and preserve the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB) on PCs that don't have Files On-Demand and with [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
 
 Enabling this policy sets the following registry key value to 1.
   
@@ -388,7 +388,7 @@ Enabling this policy sets the following registry key value to 1.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"FilesOnDemandEnabled"="dword:00000001"
  
-Meet Windows and OneDrive sync client requirements and still can't see Files On-Demand option available at "Settings"? Make sure service "Windows Cloud Files Filter Driver" start type is set to 2 (AUTO_START). Enabling this feature sets the following registry key value to 2.
+Meet Windows and OneDrive sync client requirements and still can't see Files On-Demand option available at "Settings"? Make sure the service "Windows Cloud Files Filter Driver" start type is set to 2 (AUTO_START). Enabling this feature sets the following registry key value to 2.
 
 [HKLM\SYSTEM\CurrentControlSet\Services\CldFlt]"Start"="dword:00000002"
 
@@ -492,8 +492,8 @@ To find the library ID, sign in as a global or SharePoint admin in Office 365, b
 
 ![The Getting ready to sync dialog box](media/copy-library-id.png)
 
-> [!NOTE]
-> The special characters in this copied string are in UniCode which needs to be converted to ASCII find and replace the following:
+
+The special characters in this copied string are in Unicode and need to be converted to ASCII according to the following table.
 
 |Find |Replace|
 |---- |-------|
@@ -504,9 +504,11 @@ To find the library ID, sign in as a global or SharePoint admin in Office 365, b
 | %2F |   /   |
 | %2E |   .   |
 
-> [!NOTE]
-> Alternatively, you can run the following in PowerShell, replacing "Copied String" with the library ID above:
-> [uri]::UnescapeDataString("Copied String")
+Alternatively, you can run the following in PowerShell, replacing "Copied String" with the library ID:
+
+  ```
+  [uri]::UnescapeDataString("Copied String")
+  ```
 
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
 
@@ -528,9 +530,9 @@ Enabling this policy sets the following registry key value to 1.
 ### Limit the sync client download speed to a fixed rate
 <a name="DownloadBandwidthLimit"> </a>
 
-This setting lets you configure the maximum speed at which the OneDrive sync client (OneDrive.exe) can download files. This rate is a fixed value in kilobytes per second, and applies only to syncing, not to downloading updates. The lower the rate, the slower files will download. 
+This setting lets you configure the maximum speed at which the OneDrive sync client (OneDrive.exe) can download files. This rate is a fixed value in kilobytes per second, and applies only to syncing, not to downloading updates. The lower the rate, the slower the files will download. 
 
-We recommend that you use this setting in cases where Files On-Demand is NOT enabled and where strict traffic restrictions are required, such as when you initially deploy the sync client in your organization or enable syncing of team sites. We don't recommend that you use this setting on an ongoing basis because it will decrease sync client performance and negatively impact the user experience. After initial sync, users typically sync only a few files at a time, and it doesn't have a significant effect on network performance. If you enable this setting, computers will use the maximum download rate that you specify, and users will not be able to change it.
+We recommend that you use this setting in cases where Files On-Demand is NOT enabled and where strict traffic restrictions are required, such as when you initially deploy the sync client in your organization or enable syncing of team sites. We don't recommend that you use this setting on an ongoing basis because it will decrease sync client performance and negatively impact the user experience. After the initial sync, users typically sync only a few files at a time, and it doesn't have a significant effect on network performance. If you enable this setting, computers will use the maximum download rate that you specify, and users will not be able to change it.
 
 If you enable this setting, enter the rate (from 1 to 100000) in the **Bandwidth** box. The maximum rate is 100000 KB/s. Any input lower than 50 KB/s will set the limit to 50 KB/s, even if the UI shows a lower value.
 
