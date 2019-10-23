@@ -24,11 +24,11 @@ description: "Learn to configure SharePoint Server Health Analyzer rules by usin
 
 Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources:
   
-- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
+- [Plan browser support](https://docs.microsoft.com/en-us/sharepoint/install/browser-support-planning-0)
     
-- [Accessibility features in SharePoint ](https://go.microsoft.com/fwlink/p/?LinkId=246501)
+- [Accessibility in SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/accessibility-in-sharepoint)
     
-- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
+- [Keyboard shortcuts](https://support.office.com/article/keyboard-shortcuts-in-sharepoint-online-466e33ee-613b-4f47-96bb-1c20f20b1015)
     
 - [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
     
