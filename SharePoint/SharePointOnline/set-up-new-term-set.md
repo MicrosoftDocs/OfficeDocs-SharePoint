@@ -1,6 +1,6 @@
 ---
 title: "Set up a new term set"
-ms.reviewer: 
+ms.reviewer: vrchowdh
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

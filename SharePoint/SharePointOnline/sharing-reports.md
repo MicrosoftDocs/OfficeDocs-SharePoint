@@ -1,6 +1,6 @@
 ---
 title: "Report on sharing"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -8,7 +8,6 @@ audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ROBOTS: NOINDEX
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -20,14 +19,22 @@ description: "Learn how to report on file and folder sharing in a SharePoint sit
 
 # Report on file and folder sharing in a SharePoint site
 
-You can create a CSV file of every unique file, user, permission and link on a given SharePoint site. This can help you understand how sharing is being used for the site, and if any files or folders are being shared with guests.
+You can create a CSV file of every unique file, user, permission and link on a given SharePoint site or OneDrive library. This can help you understand how sharing is being used and if any files or folders are being shared with guests.
 
-When you run the report, the CSV file is saved to a location of your choosing on the site. If you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
+When you run the report, the CSV file is saved to a location of your choosing on the site. 
 
-To run the report
+In SharePoint, if you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
+
+To run the report (SharePoint)
 1. Open the site where you want to run the report
 2. On the **Settings** menu, click **Site usage**.
 3. In the **Shared with external users** section, click **Run report**.
+4. Choose a location to save the report, and then click **Run report**.
+
+To run the report (OneDrive)
+1. Open OneDrive.
+2. On the **Settings** menu, click **OneDrive settings**.
+3. Click **More settings**, and then click **Run report**.
 4. Choose a location to save the report, and then click **Run report**.
 
 The report may take some time to run depending on the size of the site.

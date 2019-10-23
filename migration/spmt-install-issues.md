@@ -13,8 +13,6 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-ms.custom: 
-
 description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
 ---
 ## Troubleshooting SPMT installation issues
@@ -85,18 +83,17 @@ Minimum requirements (expect slow performance)
 The following table lists the required endpoints for using the SharePoint Migration Tool.</br>
 
 
-|**Required Endpoints**|
-|:-----|
-|https://secure.aadcdn.microsoftonline-p.com|</br>
-|https://login.microsoftonline.com|</br>
-|https://api.office.com|</br>
-|https://graph.windows.net|</br>
-|https://spmtreleasescus.blob.core.windows.net/</br>
-|https://aka.ms/</br>
-|https://*.queue.core.windows.net|</br>
-|https://*.blob.core.windows.net|</br>
-|https://*.pipe.aria.microsoft.com|</br>
-|https://*.sharepoint.com|</br>
+|**Required Endpoint**|**Why**|
+|:-----|:-----|
+|https://<spam><spam>secure.aadcdn.microsoftonline-p.<spam><spam>com|Authentication|
+|https://<spam><spam>login.microsoftonline.<spam><spam>com|Authentication|
+|https://<spam><spam>api.office.<spam><spam>com|Office 365 APIs for content move and validation|
+|https://<spam><spam>graph.windows.<spam><spam>net|Office 365 APIs for content move and validation|
+|https://<spam><spam>spmtreleasescus.blob.core.windows.<spam><spam>net|Installation|
+|https://<spam><spam>*.queue.core.windows.<spam><spam>net|Migration API Azure requirement|
+|https://<spam><spam>*.blob.core.windows.<spam><spam>net|Migration API Azure requirement|
+|https://<spam><spam>*.pipe.aria.microsoft.<spam><spam>com|Telemetry/update|
+|https://<spam><spam>*.sharepoint.<spam><spam>com|Destination for migratrion|
 
 
 

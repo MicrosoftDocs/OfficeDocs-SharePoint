@@ -1,6 +1,6 @@
 ---
 title: "Open the Term Store management tool"
-ms.reviewer: 
+ms.reviewer: vrchowdh
 ms.author: kaarins
 author: kaarins
 manager: pamgreen

@@ -22,7 +22,7 @@ If you're responsible for search in your organization, learn how you can tailor 
 
 SharePoint Online has both a classic and a modern search experience, where [Microsoft search in SharePoint](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) is the modern search experience. The most visible difference is that the Microsoft search box is placed at the top of SharePoint, in the header bar. Another difference is that Microsoft search is personal. The results one user sees are different from what other users see, even when they search for the same words. Users see results before they start typing in the search box, based on their previous activity and trending content in Office 365, and the results update as they type. The search results are easy to explore without any effort from you as an admin. Learn more about the Microsoft search experience for users in [Find what you need with Microsoft search](https://support.office.com/article/find-what-you-need-with-microsoft-search-d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87).
 
-Both search experiences use the same search index to find search results. You can customize and tailor the classic search experience more than Microsoft search in SharePoint. Some classic search settings can impact both experiences, [learn how to avoid impacting Microsoft search](differences-classic-modern-search.md). Read [When to use which search experience](get-started-with-modern-search-experience.md) to decide which experience your organization should use.
+Both search experiences use the same search index to find search results. You can customize and tailor the classic search experience more than Microsoft search in SharePoint. Some classic search settings can impact both experiences, [learn how to avoid impacting Microsoft search](differences-classic-modern-search.md). Read [When to use which search experience](get-started-with-modern-search-experience.md) to decide which experience is best for your organization.
 
 
 Below are the main areas where you can customize and impact the search experience and make sure that search is performing the way you want. The high-level overview of [How search works](overview-of-search.md#howsearchworks) can also help you understand where and how you can impact the search experience in SharePoint Online.
@@ -31,7 +31,7 @@ Many of the classic search features are available on the [search administration 
 
 ## 1. Make sure the content can be found
   
-The content must be crawled and added to the search index for your users to find what they're looking for when they search in SharePoint Online. Microsoft search uses the same index for SharePoint content as classic search does.
+The content must be crawled and added to the search index for your users to find what they're looking for when they search in SharePoint Online. Microsoft search uses the same index of SharePoint content as classic search does.
   
 See how you can make content searchable, and how you can crawl content to get it into the search index. Also, see how you can help users search for content across Office 365 and on-premises SharePoint Server at the same time. [Learn more](make-sure-content-can-be-found.md)
   

@@ -1,6 +1,6 @@
 ---
 title: Branding your SharePoint Online site
-ms.reviewer: 
+ms.reviewer: cathed
 ms.author: clake
 author: spowriter
 manager: pamgreen

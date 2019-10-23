@@ -1,6 +1,6 @@
 ---
 title: "Assign roles and permissions to manage term sets"
-ms.reviewer: 
+ms.reviewer: vrchowdh
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -492,16 +492,25 @@ To find the library ID, sign in as a global or SharePoint admin in Office 365, b
 
 ![The Getting ready to sync dialog box](media/copy-library-id.png)
 
-> [!NOTE]
-> The special characters in this copied string are in Unicode which needs to be converted to ASCII find and replace the following:
-> |Find |Replace|
-> |---- |-------|
-> | %2D |   -   |
-> | %7B |   {   |
-> | %7D |   }   |
-> | %3A |   :   |
-> | %2F |   /   |
-> | %2E |   .   |
+The special characters in this copied string are in Unicode and need to be converted to ASCII according to the following table.
+
+|Find |Replace|
+|---- |-------|
+| %2D |   -   |
+| %7B |   {   |
+| %7D |   }   |
+| %3A |   :   |
+| %2F |   /   |
+| %2E |   .   |
+
+You can also convert them to ASCII by using the following PowerShell code snippet:
+
+  ```
+  Add-Type -AssemblyName System.Web
+  $escapedLibraryID = "tenantId=1234s-s24s..."
+  [System.Web.HttpUtility]::UrlDecode($escapedLibraryID)
+  ```
+Copy the output of the above snippet into the **Value** field above. 
 
 Enabling this policy sets the following registry key, using the entire URL from the library you copied:
 

@@ -1,6 +1,6 @@
 ---
 title: "Manage site creation in SharePoint Online"
-ms.reviewer: 
+ms.reviewer: metorres
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
