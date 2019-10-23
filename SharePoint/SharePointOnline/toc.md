@@ -33,7 +33,7 @@
 ### [Manage site creation](manage-site-creation.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Change site addresses](change-site-address.md)
-### [Manage site redirects in SharePoint Online](manage-site-redirects.md)
+### [Manage site redirects](manage-site-redirects.md)
 ### [Create an organization assets library](organization-assets-library.md)
 ### [Create an organization news site](organization-news-site.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
