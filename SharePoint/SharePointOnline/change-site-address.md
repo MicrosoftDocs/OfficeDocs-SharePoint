@@ -24,7 +24,7 @@ description: "Learn how to change the URL of a SharePoint site."
 # Change a site address
 
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have set up the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different from what is described in this article. 
+> We are rolling out this feature. This means that you may not yet see this feature or it may look different from what is described in this article. The feature is currently not available to EDU tenants. 
 
 As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
 
@@ -43,7 +43,7 @@ You can't change the domain ("contoso" in the previous example) or any other par
 
 It can take about 10 minutes to change the site address (depending on the size of the site), and the site will be read-only during this time. We recommend changing addresses during times when site usage is low. 
 
-For this preview, you can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
+You can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
 
 ## Communicate the address change to users
 
