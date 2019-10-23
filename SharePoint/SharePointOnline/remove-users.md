@@ -72,7 +72,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
    $ExtUser = Get-SPOExternalUser -filter jondoe@fabrikam.com
    ```
    > [!NOTE]
-   >  Replace the **jondoe@fabrikam.com** placeholder with the account for your scenario.
+   >  Replace the **jondoe\@fabrikam.com** placeholder with the account for your scenario.
 
 5. Enter the following command:
  
