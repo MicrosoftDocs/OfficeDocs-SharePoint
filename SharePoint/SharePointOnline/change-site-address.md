@@ -100,7 +100,7 @@ Before you change the address of a site, it's important to communicate the chang
     Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
     ```
 
-For more info about this cmdlet, see [Start-SPOSiteContentRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
+For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
 
 ## Effects of changing a site address
 
