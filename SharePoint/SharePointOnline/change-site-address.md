@@ -77,7 +77,7 @@ Before you change the address of a site, it's important to communicate the chang
 7. Enter the new site address, and then select **Save**.
 
 > [!NOTE]
-> You can't change the address of hub sites, sites that are locked or on hold, or of sites that have BCS connections. 
+> You can't change the address of hub sites, sites that are locked or on hold, or of sites that have BCS connections. <br>When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
 
 ## Change site addresses by using Microsoft PowerShell
 
