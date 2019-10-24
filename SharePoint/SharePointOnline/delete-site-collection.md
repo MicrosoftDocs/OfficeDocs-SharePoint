@@ -61,7 +61,7 @@ By using the new SharePoint admin center, you can delete both classic and modern
  
 ## Permanently delete a site
 
-To reuse a URL from a deleted site, you need to permanently delete the site. After the site is permanently deleted, it might take up to 24 hours for the URL to become available. On the Deleted sites page of the new SharePoint admin center, you can permanently delete all sites except those that belong to Office 365 groups. 
+To reuse a URL from a deleted site (recreate a site), you need to permanently delete the site. After the site is permanently deleted, it might take up to 24 hours for the URL to become available. On the Deleted sites page of the new SharePoint admin center, you can permanently delete all sites except those that belong to Office 365 groups. 
 
 1. In the left pane of the new SharePoint admin center, select **Deleted sites**.
 
