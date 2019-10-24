@@ -33,6 +33,7 @@ This article describes some common issues and errors that you may encounter when
 |*The site cannot be created or updated*|Confirm that you have permissions to create the site and that the URL is valid</br></br>If the site exists, confirm you are the site collection administrator</br></br>If it still fails, create the site manually and point the migration tool to this newly created site.|
 |*Scan file failure: The folder name is invalid*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa)|
 |*Scan file failure: Target path is too long*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa)   </br></br></br>The entire path, including the file name, must contain fewer than 400 characters for OneDrive, OneDrive for Business and SharePoint Online.|
+|*Packaging failure: Cannot open file*|Packaging failed due to non-existing source.  Check if you can access the source root folder.|
 
 
 
@@ -74,6 +75,13 @@ This article describes some common issues and errors that you may encounter when
 |0x02010020|Disable migrating version history in SPMT settings or enable versioning in SPO.|
 |0x0201000E|Check if the global setting has filtered out special characters in the target path or if the path has unsupported characters.|
 |0x02010016|We are unable to find your SharePoint Server user.  Make sure you are a site collection admin.|
+|0X0201000F|Invalid site URL. Check if the site URL is valid. Try to access the URL via a browser.|
+|0x0207001|You do not have access to the task folder. Check if you can access  %appdata%\Microsoft\MigrationToolStorage.|
+|0x01410010|A failure occurred because of missing dependencies on list items. Check the FailureSummaryReport.csv for details. Check if the dependencies have been included in your migration scope.|
+|0x01510001|Packages failed to upload. 	If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
+|0x02070009|Several packages failed to upload. Pause the task and check your network connection.|
+|0x01710009|A failure occured due to job end failures; some items failed in the package. Restart migration.|
+0x01610001|The Azure container is expired. Retry migration task.|   
 
 
 ## Navigation errors

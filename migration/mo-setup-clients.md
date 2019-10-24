@@ -22,6 +22,9 @@ The Migration Manager centralizes the management of large file share migrations 
 
 When you run the setup file, you will be prompted for two sets of credentials: Your SharePoint Admin credentials to access your destination, and your Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager.  Migration Manager now sees it as an available "client" to which it can automatically assign migrations tasks that you create. The more clients you configure, the more resources Migration Managerhas to load balance the tasks you create. 
 
+After the "clients" are all configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically assigned to one of the clients which can be used interchangeably as the Windows credentials has access to any file share you plan on migrating.
+
+
 
 ## Before you begin
 
@@ -34,11 +37,10 @@ When you run the setup file, you will be prompted for two sets of credentials: Y
 
 - Confirm that your have SharePoint Admin credentials to access the “destination” of where you are migrating your content.
 
-- Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  **Best practice** Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
+- Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
-- Designate one person to run the setup file on the VMs or computers to ensure consistency
+- Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
 
-- After the "clients" are all configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically assigned to one of the clients which can be used interchangeably as the Windows credentials has access to any file share you plan on migrating.
 
 
  
