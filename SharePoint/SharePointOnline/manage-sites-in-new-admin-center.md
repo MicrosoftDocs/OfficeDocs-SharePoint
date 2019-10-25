@@ -29,32 +29,14 @@ The Active sites page of the new SharePoint admin center lets you view the Share
   
 To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, click "Try it now" in the upper right, and then select **Active sites**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-new-admin-center.md).
   
-## Create a site
-<a name="createsite"> </a>
-  
-1. Click **Create**.
-    
-2. Select to create a team site (which will create an Office 365 group) or a communication site. To create a classic site, or a new team site that doesn't include an Office 365 group, click **Other options**. For info about the new site templates, see [Create a team site in SharePoint Online](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d) and [Create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
-    
-    ![Create a group-connected team site, communication site, or other site from the admin center](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
-  
-## Delete a site
-<a name="deletesite"> </a>
-
-Global admins and SharePoint admins can now delete sites that belong to an Office 365 group. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels. 
-  
-1. In the left column, click to select a site.
-    
-2. Click **Delete**, and then click **Delete** to confirm. 
-    
-You can recover deleted sites for 93 days. For more info, see [Restore deleted sites](/restore-deleted-site-collection.md). Note that deleted groups must be restored within 30 days.
+For info about creating sites, see [Create a site](create-site-collection.md). For info about deleting sites, see [Delete a site](delete-site-collection.md)
   
 ## Add or remove owners
 <a name="addremoveadmins"> </a>
   
 1. In the left column, click to select a site. 
     
-2. Click **Owners**. For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary admin and add and remove other admins. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. 
+2. Click **Owners**. For Office 365 group-connected team sites, you can add and remove group owners. You can also also add and remove additional site admins. For other sites, you can add and remove admins and change the primary admin.  
     
 ## Change a site's hub site association
 <a name="hubsite"> </a>
@@ -147,7 +129,7 @@ You can search for a site by name, URL, primary admin, or template. To do this, 
 To export your list of all sites as a .csv file that you can work with in Excel, click **Export**.
   
 > [!NOTE]
-> The Export command exports all sites and includes all columns, even if your current view is filtered. 
+> The Export command exports all sites, even if your current view is filtered. 
   
 ## Customize columns
 <a name="customizecolumns"> </a>
