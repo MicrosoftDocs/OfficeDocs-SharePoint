@@ -78,7 +78,7 @@ During migration, it is not uncommon for your migration task to be throttled. Th
 
 For more technical background and information, please see 
 - [Migration API Overview](https://docs.microsoft.com/sharepoint/dev/apis/migration-api-overview) 
-- [Avoid getting throttled or blocked in SharePoint Online](http://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
+- [Avoid getting throttled or blocked in SharePoint Online](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 
 ## After migration
 After the migration is completed, verify that your content has been successfully moved to SharePoint Online or OneDrive.
@@ -170,5 +170,5 @@ Contact your third party vendor for specific questions on tool configuration.
  
 ## Related Topics
 
-[Avoid getting throttled or blocked in SharePoint Online](http://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
+[Avoid getting throttled or blocked in SharePoint Online](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 
