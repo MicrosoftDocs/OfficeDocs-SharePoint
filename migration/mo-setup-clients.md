@@ -6,7 +6,7 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - M365-collaboration
@@ -18,9 +18,11 @@ description: Set up multiple Migration Manager clients
 
 # Set up multiple Migration Manager clients
 
-The Migration Manager centralizes the management of large file share migrations by configuring one or computers or VMs as migration “clients”.  To do this, you download and run a setup file on each computer.  After each is successfully configured, it is recognized by Migration Manager as a migration "client". Migration Manager can then execute and monitor the migrations, automatically load balancing the task across the pool of clients have been configured. 
+The Migration Manager centralizes the management of large file share migrations by configuring one or computers or VMs as migration “clients”.  To do this, you download and run a setup file on each computer.  
 
-When you run the setup file, you will be prompted for two sets of credentials: Your SharePoint Admin credentials to access your destination, and your Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager.  Migration Manager now sees it as an available "client" to which it can automatically assign migrations tasks that you create. The more clients you configure, the more resources Migration Managerhas to load balance the tasks you create. 
+When you run the setup file, you are be prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager.  Migration Manager now sees it as an available "client" to which it can automatically assign migrations tasks that you create.
+
+After the "clients" are all configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically assigned to one of the configured clients. 
 
 
 ## Before you begin
@@ -34,11 +36,10 @@ When you run the setup file, you will be prompted for two sets of credentials: Y
 
 - Confirm that your have SharePoint Admin credentials to access the “destination” of where you are migrating your content.
 
-- Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  **Best practice** Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
+- Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
-- Designate one person to run the setup file on the VMs or computers to ensure consistency
+- Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
 
-- After the "clients" are all configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically assigned to one of the clients which can be used interchangeably as the Windows credentials has access to any file share you plan on migrating.
 
 
  

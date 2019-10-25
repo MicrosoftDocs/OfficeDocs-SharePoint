@@ -57,6 +57,9 @@ By using the new SharePoint admin center, you can create sites that use one of t
     ![The Create a site panel](media/c4c5173f-ca83-426f-a940-cb2869a3a64b.png)
 
 7. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
+ 
+> [!NOTE]
+> If you enter a site name and another site already exists at the default address for that name, the site address will automatically be changed to an available address. For example, if you enter "Marketing" as the site name, and you already have a site at /sites/marketing, the new site will be created at /sites/marketing2. If you want to re-use the URL "marketing" for the new site, you need to [permanently delete the existing site](delete-site-collection.md#permanently-delete-a-site) or [delete the redirect at that address](manage-site-redirects.md). 
     
  
 ## Create a classic site
