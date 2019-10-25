@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 3/10/2018
 audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
@@ -95,9 +94,7 @@ In a warm standby disaster recovery scenario, you create a warm standby environm
   
  **Virtual warm standby environments**
   
-Virtualization provides a workable and cost effective option for a warm standby recovery solution. You can use Hyper-V as an in-house solution or Azure as a hosted solution to provide necessary infrastructure for recovery.
-  
-You can create virtual images of the production servers and ship these images to the standby data center. By using the virtual standby solution, you have to make sure that the virtual images are created often enough to provide the level of farm configuration and content freshness that you must have for recovering the farm. At the secondary location, you must have an environment available in which you can easily configure and connect the images to re-create your farm environment. For more information, see [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
+Virtualization provides a workable and cost effective option for a warm standby recovery solution. You can use Hyper-V as an in-house solution or Azure as a hosted solution to provide necessary infrastructure for recovery. For more information, see [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
   
 ### Hot standby recovery
 
