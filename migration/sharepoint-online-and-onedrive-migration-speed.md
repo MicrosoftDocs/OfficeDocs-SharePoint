@@ -160,10 +160,11 @@ Follow these steps:
 - An estimate of when you would like to start and complete your migration:
 - Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc: 
 
-</br></br>
 
+*Question:* I am experiencing poor performance or throttling during migration.</br>
+*Answer:* For slowness, please ensure you are not running any unneeded software which may compete with migration bandwidth and try to migrate during off peak hour. For more information, please check guidance in this document. For throttling, please refer to Avoid getting throttled or blocked in SharePoint Online for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
-
+ 
 ## Related Topics
 
 [Avoid getting throttled or blocked in SharePoint Online](http://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
