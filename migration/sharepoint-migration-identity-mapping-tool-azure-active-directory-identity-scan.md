@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 01/5/2018
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - SPmigration
