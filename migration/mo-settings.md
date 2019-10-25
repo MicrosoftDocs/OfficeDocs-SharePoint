@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
-- IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
 description: "A complete listing of the Migration Manager basic and advanced settings." 

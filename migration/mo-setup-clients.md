@@ -1,5 +1,5 @@
 ---
-title: "Set up multiple Migration Manager clients"
+title: "Setup Migration Manager clients"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -10,13 +10,12 @@ ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - M365-collaboration
-- IT_Sharepoint_Server_Top
 - SPMigration
 search.appverid: MET150
 description: Set up multiple Migration Manager clients
 ---
 
-# Set up multiple Migration Manager clients
+# Setup Migration Manager clients
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or computers or VMs as migration “clients”.  To do this, you download and run a setup file on each computer.  
 

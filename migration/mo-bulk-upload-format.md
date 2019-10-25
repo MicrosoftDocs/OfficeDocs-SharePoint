@@ -1,5 +1,5 @@
 ---
-title: "How to format your CSV for data content migration using the Migration Manager"
+title: "How to format a CSV file for bulk upload in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -13,10 +13,10 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "How to format your CSV file for bulk upload in Migration Manager"
+description: "How to format a CSV file for bulk upload in Migration Manager"
 ---
 
-# How to format your CSV for data content migration in Migration Manager
+# How to format a CSV file for bulk upload in Migration Manager
 
   
 ## Using a comma separated value (CSV) file for data content migration
