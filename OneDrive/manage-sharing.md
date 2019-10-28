@@ -40,12 +40,19 @@ Instead of using the Sharing page in the OneDrive admin center to manage your sh
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
-For info about the settings on this page, see [Turn external sharing on or off for SharePoint Online](/sharepoint/turn-external-sharing-on-or-off)
+For informtion about setting up sharing for your organization, see:
+
+- [Collaborate with guests on a document](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)
+- [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
+- [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
   
 > [!NOTE]
 > Some sharing settings exist in multiple admin centers. When you change them in one place, the other admin centers will reflect the change. If you have multiple admins in your organization, make sure you communicate the changes you're making. In the Microsoft 365 admin center, under **Settings** \> **Services &amp; add-ins** \> **Sites**, the External sharing setting is the same as the SharePoint external sharing setting in the OneDrive admin center and the new SharePoint admin center. 
   
+## See also
 
+[Best practices for sharing files and folders with anonymous users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
 
-  
+[Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure)
 
+[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)

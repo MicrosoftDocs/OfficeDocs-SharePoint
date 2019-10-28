@@ -162,7 +162,7 @@ Follow these steps:
 
 
 *Question:* I am experiencing poor performance or throttling during migration.</br>
-*Answer:* If you are experiencing slowness, make sure you are not running any unnecessary software which may be competing with migration bandwidth. Try to migrate during off-peak hours. For more information, please check guidance in this document. For additional information on throttling, see:</br>
+*Answer:* If you are experiencing slowness, make sure you are not running any unnecessary software which may compete with migration resources including disk IO, network bandwidth, or antivirus software. Try to migrate during off-peak hours. For more information, please check guidance in this document. For additional information on throttling, see:</br>
  - [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) 
 
 
