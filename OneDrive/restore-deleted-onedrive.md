@@ -72,7 +72,7 @@ For more info about these cmdlets, see [Get-SPODeletedSite](https://go.microsoft
 After you recover the data you need from the OneDrive, we recommend that you permanently delete the OneDrive by running the following command:
   
 ```PowerShell
-Remove-SPOSite -Identity <URL>
+Remove-SPODeletedSite -Identity <URL>
 ```
 
 > [!CAUTION]
