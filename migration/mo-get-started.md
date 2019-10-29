@@ -26,13 +26,13 @@ Located in the SharePoint Admin Center, the Migration Manager guides you through
 
 ### How does it work? 
 
-It works in three simple steps – connect, create and migrate.
-
-- **Connect**. Connect your computer or VM to the SharePoint tenant where you want to migrate content
-
-- **Create**. Create a task by entering the URL of the file share that you want to migrate (your source) and URL of the SharePoint site to where you are migrating (your destination) 
-
-- **Migrate**.  After you click Migrate, Migration Manager does the rest. However many tasks you create, Migration Manager will assign it to the next available client, and you can view the progress, what VM or computer it is running on, and download reports after they complete.
+It works in four simple steps:
+|||
+|:-----|:-----|
+|![Install and connect](media/migrationmanagerflow-box1.png)|**Set up your migration clients**. Connect your computer or VM to the SharePoint tenant where you want to migrate content|
+|![Create tasks](media/migrationmanagerflow-box2.png)|**Create a task** by entering the URL of the file share that you want to migrate (your source) and URL of the SharePoint site to where you are migrating (your destination).|
+|![Migrate](media/migrationmanagerflow-box3.png)|**Migrate**. When you click *Migrate*, Migration Manager does the rest. However many tasks you create, Migration Manager will assign it to the next available client|
+|![Monitor & report](media/migrationmanagerflow-box4.png)|**Monitor and report**.  Monitor the progress and access reports across all the clients in one centralized location|
 
 
 ## How do I get started? 
