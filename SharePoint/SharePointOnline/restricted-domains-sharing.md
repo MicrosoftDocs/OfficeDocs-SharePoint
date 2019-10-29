@@ -27,8 +27,8 @@ description: "Allow sharing only with guests on specific domains, or block shari
 
 If you want to restrict sharing with other organizations (either at the organization level or site level), you can limit sharing by domain. 
 
-    > [!NOTE]
-    > If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).  
+> [!NOTE]
+> If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
 
 ## Limiting domains
 
@@ -54,7 +54,7 @@ You can limit domains by allowing only the domains you specify or by allowing al
     > [!NOTE]
     > Wildcards are not supported for domain entries. 
   
-You can also configure the organization-wide setting by using the [Set-SPOTenant](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet. 
+You can also configure the organization-wide setting by using the [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet. 
   
 You can also limit domains at the site collection level. Note the following considerations:
   
@@ -64,7 +64,7 @@ You can also limit domains at the site collection level. Note the following cons
     
 - If an organization-wide deny list is configured, then you can configure either an allow list or a deny list at the site collection level.
     
-- For individual OneDrive for Business site collections, you can only configure this setting by using the [Set-SPOSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet. 
+- For individual OneDrive for Business site collections, you can only configure this setting by using the [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet. 
     
  **To limit domains for a classic site collection**
   
