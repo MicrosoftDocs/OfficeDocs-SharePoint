@@ -55,7 +55,7 @@ No, although a single version of OneDrive.exe is installed, a new process is cre
 **Will the same update rings apply to per-machine?** 
 If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you will continue to be in the same ring as before. 
  
-In the past you may have used a user group policy (under HKCU) to select the Enterprise ring ([Receive OneDrive sync app updates on the Enterprise ring](https://docs.microsoft.com/en-us/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy will not work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing)).
+In the past you may have used a user group policy (under HKCU) to select the Enterprise ring ([Receive OneDrive sync app updates on the Enterprise ring](https://docs.microsoft.com/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy will not work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing)).
 
 > [!NOTE]
 > We do not recommend selecting the Enterprise ring while this feature is in preview because you will not receive bug fixes for any issues we find.  
