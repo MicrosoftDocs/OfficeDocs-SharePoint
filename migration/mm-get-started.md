@@ -15,6 +15,9 @@ ms.collection:
 search.appverid: MET150
 description: Get started with Migration Manager
 ---
+>[!Note]
+>Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
+
 
 # Get started with the Migration Manager (preview)
 Migrating content to the cloud is a time and resource intensive process and normally involves scaling up resources to accommodate the large volume of content that you are moving. This comes at a high operational cost of individually managing each migration computer and the migrations tasks that are running on it. Plus you aren't able to automatically load balance your jobs, or view at a glance the progress and status of your migration tasks across all your computers.
