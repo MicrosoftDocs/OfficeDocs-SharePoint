@@ -56,7 +56,7 @@ Make sure that you have:
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate 
 
-- **Prerequisites met:** Make sure your computer or VM has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md). 
+- **Prerequisites installed:** Make sure your computer or VM has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md). 
 
 
 
