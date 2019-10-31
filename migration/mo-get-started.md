@@ -28,11 +28,16 @@ Located in the SharePoint Admin Center, the Migration Manager guides you through
 
 It works in three simple steps:
 
+![Set up migration clients](media/mm-flow-box1.png)
 - **Connect.** Connect your computer or virtual machine to the SharePoint tenant where you want to migrate content
 
-- **Create tasks.** Create a task by entering the URL of the file share that you want to migrate (your source) and URL of the SharePoint site to where you are migrating (your destination). Migration Manager does the rest. However many tasks you create, Migration Manager will assign it to the next available client.
 
-- **Monitor and report.** Monitor progress across all clients and access reports from one central location. 
+![Create tasks and migrate](media/mm-flow-box2.png)
+**Create tasks.** Create a task by entering the URL of the file share that you want to migrate (your source) and URL of the SharePoint site to where you are migrating (your destination). Migration Manager does the rest. However many tasks you create, Migration Manager will assign it to the next available client.
+
+
+![Monitor and report](media/mm-flow-box3.png)
+**Monitor and report.** Monitor progress across all clients and access reports from one central location. 
 
 
 ## How do I get started? 
@@ -50,6 +55,7 @@ To get started, make sure you have:
 
 ### Related links
 
-[How to set up multiple clients in Migration Manager](mo-setup-clients.md)</br>
+[How to set up clients in Migration Manager](mo-setup-clients.md)</br>
 [Migration Manager settings](mo-settings.md)</br>
-[How to format your CSV file for bulk upload into the Migration Manager](mo-bulk-upload-format.md)</br>
+[How to format your CSV or JSON file for bulk upload into the Migration Manager](mo-bulk-upload-format.md)</br>
+[Migration Manager FAQs](mo-migrationmanager-faqs.md)</br>
