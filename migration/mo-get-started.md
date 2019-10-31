@@ -1,5 +1,5 @@
 ---
-title: "Get started with Migration Manager"
+title: "Get started with Migration Manager (Preview)"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,13 +16,12 @@ search.appverid: MET150
 description: Get started with Migration Manager
 ---
 
-# Get started with the Migration Manager
-
-Migrating content to the cloud is a time and resource intensive process and normally involves scaling up resources to accommodate the large volume of content that you are moving. This comes at a high operational cost of individually managing each server and the migrations tasks that are running on it. Plus you aren't able to automatically load balance your jobs, or view at a glance the progress and status of your migration tasks across all your devices.
+# Get started with the Migration Manager (preview)
+Migrating content to the cloud is a time and resource intensive process and normally involves scaling up resources to accommodate the large volume of content that you are moving. This comes at a high operational cost of individually managing each migration computer and the migrations tasks that are running on it. Plus you aren't able to automatically load balance your jobs, or view at a glance the progress and status of your migration tasks across all your computers.
 
 Migration Manager answers those challenges by providing you a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks.  
 
-Located in the SharePoint Admin Center, the Migration Manager guides you through the setup of your devices and the creation of your tasks.  You can specify global or task specific settings, view all-up task progress, and download summary and detailed reports.
+Located in the modern SharePoint Admin Center, the Migration Manager guides you through the setup of your clients and the creation of your tasks.  You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
 
 ### How does it work? 
 
@@ -30,9 +29,9 @@ It works in three simple steps:
 
 ![Set up migration clients](media/mm-flow-3box.png)
 
-- **Setup migration clients.** Connect your computer or virtual machine to the SharePoint tenant where you want to migrate content
+- **Setup migration clients.** Download and install a setup file on each computer or virtual machine you want to connect to Migration Manager.
 
-- **Create tasks & mgirate.** Create a task by entering the URL of the file share that you want to migrate (your source) and URL of the SharePoint site to where you are migrating (your destination). Migration Manager does the rest. However many tasks you create, Migration Manager will assign it to the next available client.
+- **Create tasks & migrate.** Create a task by entering the URL of the network file share that you want to migrate (your source) and the URL of the SharePoint site where you are migrating your content (your destination). Migration Manager does the rest. However many tasks you create, Migration Manager will automatically distribute the tasks across all the connected clients.
 
 - **Monitor and report.** Monitor progress across all clients and access reports from one central location. 
 
