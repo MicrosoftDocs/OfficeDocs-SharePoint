@@ -15,10 +15,13 @@ search.appverid: MET150
 description: Migration Manager FAQs
 ---
 
+# Frequently Asked Questions:  Migration Manager
+
+
 >[!Note]
 >Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
-# Frequently Asked Questions:  Migration Manager
+
 
 **Question:**  Can I run the SharePoint Migration Tool (SPMT) on the same computer that I have the Migration Manager agent installed?</br>
 **Answer:**   Yes.
