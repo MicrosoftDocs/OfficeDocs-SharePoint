@@ -44,7 +44,7 @@ To get started, make sure you have:
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate 
 
-- **Computer or VM** that has the necessary prerequisites installed:  See here for the [List of prerequisites](mo-setup-clients.md) 
+- **Computer or VM** that has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md) 
 
 - **Assigning tasks.** Migration Manager automatically assigns tasks to a available client, it does the load balancing for you. You cannot manually assign a task to a specific client.  
 
