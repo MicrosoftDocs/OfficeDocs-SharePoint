@@ -132,7 +132,7 @@ If users have a notebook open during the site address change, they'll see a note
 Users don't need to sign in again or take any other action.
 
 **Teams (for Office 365 group-connected sites)**<br>
-After the site address is changed, users won't be able to view the team's files within the Teams app, but they can access them from Teams by selecting **Open in SharePoint**. 
+After the site address is changed, users won't be able to view the team's files within the Teams app, but they can access them from Teams by selecting **Open in SharePoint**. This issue is actively being worked on and will be addressed soon. 
 
 **SharePoint mobile apps for Android and iOS**<br>
 The SharePoint mobile apps will detect the site’s new URL. Make sure that users have updated their apps to the latest version.  
