@@ -51,7 +51,7 @@ To get started, make sure you have:
 
 ### Related links
 
-[How to set up clients in Migration Manager](mo-setup-clients.md)</br>
-[Migration Manager settings](mo-settings.md)</br>
-[How to format your CSV or JSON file for bulk upload into the Migration Manager](mo-bulk-upload-format.md)</br>
-[Migration Manager FAQs](mo-migrationmanager-faqs.md)</br>
+[How to set up clients in Migration Manager](mm-setup-clients.md)</br>
+[Migration Manager settings](mm-settings.md)</br>
+[How to format your CSV or JSON file for bulk upload into the Migration Manager](mm-bulk-upload-format-csv-json.md)</br>
+[Migration Manager FAQs](mm-faqs.md)</br>
