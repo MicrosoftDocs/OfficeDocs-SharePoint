@@ -91,20 +91,16 @@ After the "clients" are all configured, anyone with the permission to go into th
 On completion this computer will be added to the available clients that the Migration Manager can assign tasks.
 
 
-
-
 ## Set up multiple clients
 
 Based on the size of the content you want to migrate, you can setup as many clients as you need. If you are setting up multiple clients, we recommend that you download the client setup file to a shared location. That way you can easily download the setup file on each of computer or VM.  
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin.
 2. In the left pane, under Admin centers, select SharePoint.
-3. In the left pane select **Migration solutions** and then **Migration Manager**.
+3. In the left pane select **Migration** and then **Migration Manager**.
 4. Select **Download client setup file**.  If you previously downloaded the setup file, click the *Clients* tab and select **Add client**.  Save the file to file to a shared location.
 5. Run the setup file on each VM or windows computer you plan on using to run migration tasks on.
 
 >[!Note]
 > Migration Manager automatically assigns tasks to a available client, it does the load balancing for you. You cannot manually assign a task to a specific client.
   
-
-

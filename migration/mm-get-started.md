@@ -28,7 +28,7 @@ Migration Manager answers those challenges by providing you a centralized way of
 
 Located in the modern SharePoint Admin Center, the Migration Manager guides you through the setup of your clients and the creation of your tasks.  You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
 
-### How does it work? 
+## How does it work? 
 
 It works in three simple steps:
 
@@ -43,15 +43,21 @@ It works in three simple steps:
 
 ## How do I get started? 
 
-To get started, make sure you have:
- 
+To get started:
+
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin.
+2. In the left pane, under Admin centers, select SharePoint.
+3. In the left pane select **Migration** and then **Migration Manager**.
+
+
+Make sure that you have:
+
 - **Access to the destination**: You must be either a global admin or SharePoint Online admin to the Office 365 tenant where you want to migrate your content.
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate 
 
-- **Computer or VM** that has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md) 
+- **Prerequisites met:** Make sure your computer or VM has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md). 
 
-- **Assigning tasks.** Migration Manager automatically assigns tasks to a available client, it does the load balancing for you. You cannot manually assign a task to a specific client.  
 
 
 ### Related links
