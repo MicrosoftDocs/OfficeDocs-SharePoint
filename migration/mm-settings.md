@@ -54,8 +54,5 @@ The following table details the settings available in the Migration Manager. Adv
 
 |**Setting**|**Description**|
 |:-----|:-----|
-|Migration auto re-run|Choose if you want to automatically rerun a migration task to look for changes or additions. Select either Run once, or Run up to 5 successive times.|
-|Migration Manager work folder  <br/> |Choose if you want to create your own working folder.  By default, a temp folder will be created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\SPMigration`. Please make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
-   
-
-
+|Migration auto re-run|Upon failure, re-try task up to 4 times.|
+|Migration Manager work folder|Choose if you want to create your own working folder.  By default, a temp folder will be created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\SPMigration`. Please make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
