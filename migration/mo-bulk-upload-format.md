@@ -1,5 +1,5 @@
 ---
-title: "How to format a CSV file for bulk upload in Migration Manager"
+title: "How to format a CSV or JSON file for bulk upload in Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -13,10 +13,10 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "How to format a CSV file for bulk upload in Migration Manager"
+description: "How to format a CSV or JSON file for bulk upload in Migration Manager"
 ---
 
-# How to format a CSV file for bulk upload in Migration Manager
+# How to format a CSV or JSON file for bulk upload in Migration Manager
 
   
 ## Using a comma separated value (CSV) file for data content migration
@@ -83,4 +83,71 @@ The following table explain the values needed in each column in your CSV file.
 |Target Web  <br/> | *Required*  . Enter the SharePoint Online site URL where the files are to be migrated.  <br/> |
 |Target DocLib  <br/> | *Required*  . Enter the name of the document library with the SharePoint Online site where the files are to be migrated.  <br/> |
 |Target SubFolder  <br/> | *Optional*  . Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  <br/> |
+
+## Using a JSON file for data content migration
+
+
+
+The following example shows the JSON format used in migrating your data.
+
+As with the CSV files, the minimum required values are Source, Source DocLib, Target Web and Target DocLib.  
+
+```json
+{
+  "Tasks": [
+    {
+      "SourcePath": "D:\\MigTest",
+      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+      "TargetList": "Documents",
+      "TargetListRelativePath": "subfolder"
+    },
+    {
+      "SourcePath": "http://EXHB-1873",
+      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+      "Items": {
+        "Lists": [
+          {
+            "SourceList": "versionList",
+            "TargetList": "NewVersionList"
+          }
+        ],
+        "SubSites": []
+      }
+    },
+    {
+      "SourcePath": "http://EXHB-1873",
+      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+      "Items": {
+        "Lists": [
+          {
+            "SourceList": "listVersion2",
+            "TargetList": "ListVersion2"
+          },
+          {
+            "SourceList": "listVersion3",
+            "TargetList": "ListVersion3"
+          }
+        ],
+        "SubSites": [
+          {
+            "SourceSubSitePath": "subSite",
+            "TargetSubSitePath": "targetSubSite",
+            "Lists": [
+              {
+                "SourceList": "testSubListB",
+                "TargetList": "TargetSubList"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "SourcePath": "http://EXHB-1873/subsite2",
+      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com/targetSubSite2"
+    }
+  ]
+}
+```
+   
 
