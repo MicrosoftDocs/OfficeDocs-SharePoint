@@ -14,10 +14,12 @@ ms.collection:
 search.appverid: MET150
 description: Set up multiple Migration Manager clients
 ---
+
+# Setup Migration Manager clients
+
 >[!Note]
 >Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
-# Setup Migration Manager clients
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or computers or VMs as migration “clients”.  To do this, you download and run a setup file on each computer.  
 
