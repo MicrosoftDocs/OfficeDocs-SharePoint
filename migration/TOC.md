@@ -16,12 +16,6 @@
 ### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
 ### [Reports](using-the-sharepoint-migration-tool-reports.md)
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
-## Migration Manager
-### [Get started](mo-get-started.md)
-### [Set up migration manager clients](mo-setup-client.md)
-### [Migration Manager settings](mo-settings.md)
-### [Format a CSV or JSON file for bulk upload to Migration Manager](mo-bulk-upload-format.md)
-### [FAQs](mo-migrationmanager-faqs.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance
