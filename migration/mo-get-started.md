@@ -26,13 +26,15 @@ Located in the SharePoint Admin Center, the Migration Manager guides you through
 
 ### How does it work? 
 
-It works in three simple steps – connect, create and migrate.
+It works in three simple steps:
 
-- **Connect**. Connect your computer or VM to the SharePoint tenant where you want to migrate content
+![Set up migration clients](media/mm-flow-3box.png)
 
-- **Create**. Create a task by entering the URL of the file share that you want to migrate (your source) and URL of the SharePoint site to where you are migrating (your destination) 
+- **Setup migration clients.** Connect your computer or virtual machine to the SharePoint tenant where you want to migrate content
 
-- **Migrate**.  After you click Migrate, Migration Manager does the rest. However many tasks you create, Migration Manager will assign it to the next available client, and you can view the progress, what VM or computer it is running on, and download reports after they complete.
+- **Create tasks & mgirate.** Create a task by entering the URL of the file share that you want to migrate (your source) and URL of the SharePoint site to where you are migrating (your destination). Migration Manager does the rest. However many tasks you create, Migration Manager will assign it to the next available client.
+
+- **Monitor and report.** Monitor progress across all clients and access reports from one central location. 
 
 
 ## How do I get started? 
@@ -43,11 +45,14 @@ To get started, make sure you have:
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate 
 
-- **Computer or VM** that has the necessary prerequisites installed:  See here for the [List of prerequisites](mo-setup-clients.md)  
+- **Computer or VM** that has the necessary prerequisites installed:  See here for the [List of prerequisites](mo-setup-clients.md) 
+
+- **Assigning tasks.** Migration Manager automatically assigns tasks to a available client, it does the load balancing for you. You cannot manually assign a task to a specific client.  
 
 
 ### Related links
 
-[How to set up multiple clients in Migration Manager](mo-setup-clients.md)</br>
+[How to set up clients in Migration Manager](mo-setup-clients.md)</br>
 [Migration Manager settings](mo-settings.md)</br>
-[How to format your CSV file for bulk upload into the Migration Manager](mo-bulk-upload-format.md)</br>
+[How to format your CSV or JSON file for bulk upload into the Migration Manager](mo-bulk-upload-format.md)</br>
+[Migration Manager FAQs](mo-migrationmanager-faqs.md)</br>

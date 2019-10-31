@@ -28,6 +28,11 @@ After the "clients" are all configured, anyone with the permission to go into th
 
 - Check to make sure all system prerequisites have been installed on your local computer or VM before downloading and installing the Migration Manager client setup file
 
+>[!Note]
+>Third party multi-factor authentication is not supported at this time.
+
+
+
 
 ### Recommended practices
 
@@ -54,7 +59,7 @@ After the "clients" are all configured, anyone with the permission to go into th
 |Network card|1 Gbps|High speed internet connection|
 |Operating system|Windows Server 2012 R2 or Windows 10 client|Windows Server 2012 R2 or Windows 10 client|
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
-|Anti-virus|Stop 3rd party anti-virus software on your computer prior to installation|Stop 3rd party anti-virus software on your computer prior to installation|</br>
+|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |</br>
 
 ### Required endpoints
 
@@ -88,7 +93,7 @@ On completion this computer will be added to the available clients that the Migr
 
 ## Set up multiple clients
 
-Based on the size of the content you want to migrate, you can setup as many clients as you need. If you are setting up multiple clients, we recommend that you download the client setup file to a shared location. That way you can you can easily download the setup file on each of computer or VM.  
+Based on the size of the content you want to migrate, you can setup as many clients as you need. If you are setting up multiple clients, we recommend that you download the client setup file to a shared location. That way you can easily download the setup file on each of computer or VM.  
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin.
 2. In the left pane, under Admin centers, select SharePoint.
@@ -96,6 +101,8 @@ Based on the size of the content you want to migrate, you can setup as many clie
 4. Select **Download client setup file**.  If you previously downloaded the setup file, click the *Clients* tab and select **Add client**.  Save the file to file to a shared location.
 5. Run the setup file on each VM or windows computer you plan on using to run migration tasks on.
 
-
+>[!Note]
+> Migration Manager automatically assigns tasks to a available client, it does the load balancing for you. You cannot manually assign a task to a specific client.
+  
 
 
