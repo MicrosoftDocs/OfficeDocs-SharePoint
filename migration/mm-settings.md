@@ -13,6 +13,8 @@ ms.collection:
 - M365-collaboration
 description: "A complete listing of the Migration Manager basic and advanced settings." 
 ---
+>[!Note]
+>Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 # Migration Manager Settings
 

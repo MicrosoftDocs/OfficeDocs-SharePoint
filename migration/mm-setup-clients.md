@@ -14,6 +14,8 @@ ms.collection:
 search.appverid: MET150
 description: Set up multiple Migration Manager clients
 ---
+>[!Note]
+>Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 # Setup Migration Manager clients
 
