@@ -33,5 +33,9 @@ description: Migration Manager FAQs
 **Question:**  Is multi-factor authentication supported by Migration Manager?</br>
 **Answer:**   Microsoft multi-factor authentication is supported; however third party multi-factor authentication is not.
 
-**Question:**  Can I manually assign tasks to a migration clients I have set up?</br>
-**Answer:**   No. Migration Manager does it for you by automatically loading balancing and assigning tasks to the next available client.
+**Question:**  Can I manually assign a task to a migration client I have set up?</br>
+**Answer:**   No. Migration Manager does it for you by automatically distributing tasks to the next available client.
+
+
+**Question:**  Where are local Migration Manager logs stored?</br>
+**Answer:**    The logs are stored here:  C:\Users\<Username>\AppData\Roaming\Microsoft\SPMigration.
