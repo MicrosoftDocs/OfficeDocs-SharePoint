@@ -10,7 +10,6 @@ ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - M365-collaboration
-- IT_Sharepoint_Server_Top
 - SPMigration
 search.appverid: MET150
 description: Get started with Migration Manager
