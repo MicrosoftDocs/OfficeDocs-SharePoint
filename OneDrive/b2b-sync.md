@@ -22,9 +22,6 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 The OneDrive sync app now lets users sync libraries or folders in SharePoint or OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We’re calling this new feature in the OneDrive sync app "B2B Sync". 
 
-> [!IMPORTANT]
-> This feature is not yet enabled for our customers in our Enterprise ring. Once build 19.086.* or newer is available to Enterprise ring users, the B2B Sync feature will be enabled.  [See the release notes for rollout info](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
-
 Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Office 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organization that have created guest accounts for them.
 
 > [!IMPORTANT]
