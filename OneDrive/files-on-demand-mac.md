@@ -42,5 +42,5 @@ Use the following commands to set file and folder states.
 > To set the file attribute state for all items within a folder on Mac, add the /r parameter.<br>Pinning an online-only file makes the sync app download the file contents, and unpinning a downloaded file frees up space on the device by not storing the file contents locally.<br>
 To set an online-only file or folder to "locally available," you must first set it to "always available."
 
-<br/>Meet [Windows and OneDrive sync app requirements](https://docs.microsoft.com/en-us/OneDrive/per-machine-installation) and still can't see Files On-Demand option available at "Settings"? Make sure service "Windows Cloud Files Filter Driver" start type is set to 2 (AUTO_START). Enabling this feature sets the following registry key value to 2.
+<br>If you meet the [Windows and OneDrive sync app requirements](per-machine-installation.md) and still can't see the Files On-Demand option under "Settings", make sure the service "Windows Cloud Files Filter Driver" start type is set to 2 (AUTO_START). Enabling this feature sets the following registry key value to 2.
 [HKLM\SYSTEM\CurrentControlSet\Services\CldFlt]"Start"="dword:00000002"

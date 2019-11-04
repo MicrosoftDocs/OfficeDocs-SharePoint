@@ -110,7 +110,7 @@ description: OneDrive documentation
                                 </a>
                             </li>                
                             <li>
-                                <a href="https://developer.microsoft.com/en-us/onedrive/docs">
+                                <a href="https://developer.microsoft.com/onedrive/docs">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
