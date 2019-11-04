@@ -18,7 +18,7 @@
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ## Migration Manager
 ### [Get started](mm-get-started.md)
-### [Set up migration manager clients](mm-setup-client.md)
+### [Set up migration manager clients](mm-setup-clients.md)
 ### [Migration Manager settings](mm-settings.md)
 ### [Format a CSV or JSON file for bulk upload to Migration Manager](mm-bulk-upload-format-csv-json.md)
 ### [FAQs](mm-faqs.md)
