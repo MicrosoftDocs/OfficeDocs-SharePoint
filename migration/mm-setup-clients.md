@@ -21,16 +21,16 @@ description: Set up multiple Migration Manager clients
 >Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 
-The Migration Manager centralizes the management of large file share migrations by configuring one or computers or VMs as migration “clients”.  To do this, you download and run a setup file on each computer.  
+The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration “clients”.  To do this, you download and run a setup file on each computer.  
 
-When you run the setup file, you are be prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager.  Migration Manager now sees it as an available "client" to which it can automatically assign migrations tasks that you create.
+When you run the setup file, you are prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager.  Migration Manager now sees it as an available "client" to which it can automatically distribute migrations tasks.
 
-After the "clients" are all configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically assigned to one of the configured clients. 
+After a client is configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically distributed to one of the configured clients. 
 
 
 ## Before you begin
 
-- Check to make sure all system prerequisites have been installed on your local computer or VM before downloading and installing the Migration Manager client setup file
+- Make sure all system prerequisites have been installed on your local computer or VM before running the Migration Manager client setup file
 
 >[!Note]
 >Third party multi-factor authentication is not supported at this time.
