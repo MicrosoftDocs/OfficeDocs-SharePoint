@@ -25,11 +25,11 @@ To make sure that users sync OneDrive files only on managed computers, you can c
   
  **To allow syncing only on PCs joined to specific domains**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=SyncSettings) and select **Sync** in the left pane. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com) and select **Sync** in the left pane.
     
     ![The Sync page of the OneDrive admin center](media/blocksyncdomain.png)
   
-2. Select the **Allow syncing only on PCs joined to specific domains** check box. 
+2. Select the **Allow syncing only on PCs joined to specific domains** check box.
     
 3. Click **Add domains**.
     
@@ -41,9 +41,8 @@ To make sure that users sync OneDrive files only on managed computers, you can c
 > [!IMPORTANT]
 > This setting is only applicable to Active Directory domains. It does not apply to Azure AD domains. If you have devices which are only Azure AD joined, consider using a [Conditional Access Policy](/azure/active-directory/conditional-access/overview) instead.
    
-5. If you want to prevent Mac OS users from syncing entirely, select the **Block sync on Mac OS** check box. 
+5. If you want to prevent Mac OS users from syncing entirely, select the **Block sync on Mac OS** check box.
     
-6. Click **Save** on the Sync page. 
+6. Click **Save** on the Sync page.
     
 For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
-

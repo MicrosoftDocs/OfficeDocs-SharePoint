@@ -38,7 +38,7 @@ If external sharing is enabled in your organization, these notifications are ena
   
 ## Turn on external sharing notifications
 
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=NotificationSettings) and select **Notifications** in the left pane. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com) and select **Notifications** in the left pane. 
     
     ![The Notifications page of the OneDrive admin center](media/1ac4d2c3-e8b8-45f1-a638-a4c7e72d3a1d.png)
   

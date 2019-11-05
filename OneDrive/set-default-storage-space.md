@@ -33,7 +33,7 @@ This storage space setting applies to all new and existing users who are license
 > [!WARNING]
 > If you decrease the storage limit and a user is over the new limit, their OneDrive will become read-only.
 
-1. Open the [OneDrive admin center](https://admin.onedrive.com/?v=StorageSettings) and click **Storage** in the left pane. 
+1. Open the [OneDrive admin center](https://admin.onedrive.com) and click **Storage** in the left pane. 
     
     ![The Storage page of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
   
