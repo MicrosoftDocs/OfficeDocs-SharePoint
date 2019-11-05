@@ -80,10 +80,10 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: This Dis
   Remove-SPDistributedCacheServiceInstance
   ```
 
-    > [!NOTE]
-    > This command stops the cache service and nonpersisted cached data will be lost. If you want to keep the cached data, use the graceful shutdown procedure that is described in [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), and then run the Remove-SPDistributedCacheServiceInstance cmdlet. The Remove-SPDistributedCacheServiceInstance cmdlet involves stopping and disabling the underlying AppFabric Caching service. Do not restart the AppFabric Caching service other than by running the Add-SPDistributedCacheServiceInstance cmdlet. 
+   > [!NOTE]
+   > This command stops the cache service and nonpersisted cached data will be lost. If you want to keep the cached data, use the graceful shutdown procedure that is described in [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), and then run the Remove-SPDistributedCacheServiceInstance cmdlet. The Remove-SPDistributedCacheServiceInstance cmdlet involves stopping and disabling the underlying AppFabric Caching service. Do not restart the AppFabric Caching service other than by running the Add-SPDistributedCacheServiceInstance cmdlet. 
   
-    For more information, see [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps).
+For more information, see [Remove-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Remove-SPDistributedCacheServiceInstance?view=sharepoint-ps).
     
 4. Verify that the server is removed from the cache cluster. To do this, in Central Administration, click **Manage services on server**, and then, on the **Services on Server** page, make sure that the Distributed Cache service is not listed. 
     
