@@ -32,7 +32,11 @@ By default, the first time that a user browses to their OneDrive it's automatica
     
 - Your organization plans to migrate from another online storage service.
     
-This article describes how to pre-provision OneDrive for your users by using PowerShell. 
+This article describes how to pre-provision OneDrive for your users by using PowerShell.
+
+- For info about setting the default storage size, see [Set the default storage space for OneDrive users](set-default-storage-space.md).
+
+- For info about the storage you get with each plan, see [OneDrive for Business Service Description](/office365/servicedescriptions/onedrive-for-business-service-description.md).
   
 > [!IMPORTANT]
 > The user accounts that you are pre-provisioning must be allowed to sign in.
@@ -76,4 +80,3 @@ To verify that OneDrive has been created for your users, see [Get a list of all 
 ## See also
 
 [Plan hybrid OneDrive for Business](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)
-

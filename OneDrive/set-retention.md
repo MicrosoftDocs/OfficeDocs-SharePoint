@@ -27,7 +27,7 @@ If a user's Office 365 account is deleted, their OneDrive for Business files are
   
  **To set the retention time for OneDrive accounts**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com), and select **Storage** in the left pane.
+1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and select **Storage** in the left pane.
     
     ![The Storage page of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
   
@@ -41,7 +41,7 @@ If a user's Office 365 account is deleted, their OneDrive for Business files are
 
 [Delete a user from your organization](/office365/admin/add-users/delete-a-user)
   
-[Set up OneDrive to alert managers and delegate access automatically when users leave your organization](http://go.microsoft.com/fwlink/p/?LinkId=798417&amp;clcid=0x409)
+[Set up OneDrive to alert managers and delegate access automatically when users leave your organization](retention-and-deletion.md)
   
 [Overview of retention policies](/office365/securitycompliance/retention-policies)
 
