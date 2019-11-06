@@ -65,7 +65,7 @@ When moving your team site, we recommend that you create team sites in SharePoin
  
 As you plan your migration, we recommend that a **hub site** the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through a hub.
 
-- [What is a SharePoint hub site?](https://support.office.com/en-us/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f?ui=en-US&rs=en-US&ad=US)
+- [What is a SharePoint hub site?](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f)
 
 - [Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
 
@@ -125,7 +125,7 @@ Before migrating your team site content, you must first pre-provision your users
 Create modern hub sites based on how you have mapped your sites to a system of hub site. 
 
 - [Create a hub site](https://docs.microsoft.com/en-us/sharepoint/create-hub-site)
-- [Assocate a SharePoint site with a hub site](https://support.office.com/en-us/article/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05?ui=en-US&rs=en-US&ad=US)
+- [Assocate a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05)
 
 
 

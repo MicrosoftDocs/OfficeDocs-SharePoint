@@ -35,7 +35,7 @@ To get the Serializer .dll, do the following:
 
 For a complete list of the supported webparts, see:
 
-- [SPMT & Migration API supported SharePoint web parts](https://docs.microsoft.com/en-us/sharepointmigration/spmt-supported-webparts)
+- [SPMT & Migration API supported SharePoint web parts](https://docs.microsoft.com/sharepointmigration/spmt-supported-webparts)
 
 
 
@@ -43,7 +43,7 @@ For a complete list of the supported webparts, see:
 
 For an explanation of the **SPWebPart** fields see:
 
-- [SPWebPart](https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-primepf/25cfceeb-7769-4331-9936-ce3b9ced87ad)
+- [SPWebPart](https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-primepf/25cfceeb-7769-4331-9936-ce3b9ced87ad)
 
 
 

@@ -139,11 +139,11 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 
 ### Make the switch! 
 The following articles will help your users “make the switch” from My Sites to OneDrive. The topics show how you used to do common tasks in OneDrive.
-- [Upload files to OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-a5710114-6aeb-4bf5-a336-dffa7cc0b77a?ui=en-US&rs=en-US&ad=US) 
-- [Manage folders in OneDrive](https://support.office.com/en-us/article/manage-folders-in-onedrive-20d7bb65-425a-4209-9b71-4cad046cfdc8?ui=en-US&rs=en-US&ad=US)
-- [Collaborate in OneDrive](https://support.office.com/en-us/article/collaborate-in-onedrive-d8a2a19a-e306-4ca5-9b00-19b0e96890d6?ui=en-US&rs=en-US&ad=US)
-- [Set up your mobile apps for OneDrive](https://support.office.com/en-us/article/set-up-your-mobile-apps-51deb017-14c2-4f92-8b7a-f635aaa4eb3c?ui=en-US&rs=en-US&ad=US)
-- [Stay connect with OneDrive](https://support.office.com/en-us/article/stay-connected-with-onedrive-829a8c87-713b-48ff-bfaa-54fa2c3b80d1?ui=en-US&rs=en-US&ad=US)
+- [Upload files to OneDrive](https://support.office.com/article/a5710114-6aeb-4bf5-a336-dffa7cc0b77a) 
+- [Manage folders in OneDrive](https://support.office.com/article/20d7bb65-425a-4209-9b71-4cad046cfdc8)
+- [Collaborate in OneDrive](https://support.office.com/article/d8a2a19a-e306-4ca5-9b00-19b0e96890d6)
+- [Set up your mobile apps for OneDrive](https://support.office.com/article/51deb017-14c2-4f92-8b7a-f635aaa4eb3c)
+- [Stay connect with OneDrive](https://support.office.com/article/829a8c87-713b-48ff-bfaa-54fa2c3b80d1)
 
 
 ## Advanced

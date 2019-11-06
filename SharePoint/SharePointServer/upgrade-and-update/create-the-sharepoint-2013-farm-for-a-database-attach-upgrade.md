@@ -191,7 +191,7 @@ The next step in creating the new environment is to apply general farm settings.
     
 - Blocked file types
     
-    For more information, see [Types of files that cannot be added to a list or library](https://support.office.com/en-us/article/Types-of-files-that-cannot-be-added-to-a-list-or-library-30BE234D-E551-4C2A-8DE8-F8546FFBF5B3).
+    For more information, see [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3).
     
 And you must configure all new farm-level settings that you want to use, such as the following:
   

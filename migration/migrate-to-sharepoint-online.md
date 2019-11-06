@@ -42,10 +42,10 @@ The method you select to move your data depends on a number of factors including
 
 Most migrations fall into regular phases as described below. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users.  See our migration guides to assist you in planning your migration.
 
-- [Box to OneDrive Migration Guide](https://docs.microsoft.com/en-us/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
-- [MySites to OneDrive Migration Guide](https://docs.microsoft.com/en-us/sharepointmigration/mysites-to-onedrive-migration-guide)
-- [File share to OneDrive and SharePoint Migration Guide](https://docs.microsoft.com/en-us/sharepointmigration/fileshare-to-odsp-migration-guide)
-- [SharePoint Server team sites Migration Guide](https://docs.microsoft.com/en-us/sharepointmigration/sp-teams-sites-migration-guide)
+- [Box to OneDrive Migration Guide](https://docs.microsoft.com/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide)
+- [MySites to OneDrive Migration Guide](https://docs.microsoft.com/sharepointmigration/mysites-to-onedrive-migration-guide)
+- [File share to OneDrive and SharePoint Migration Guide](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide)
+- [SharePoint Server team sites Migration Guide](https://docs.microsoft.com/sharepointmigration/sp-teams-sites-migration-guide)
 
 ## Assess your data
 
