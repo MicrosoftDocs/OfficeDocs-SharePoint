@@ -200,7 +200,7 @@ Here is the list of web parts that will be ignored by server side code (treated 
 *Question:*  How to fetch the web part connection info as the input for serialization API?
 *Answer:*    The web part connections could be found in <SPWebPartConnection> elements from the web part page in the response of operation ‘GetWebPartPage’ in ‘WebPartPagesWebService’.
 
-View flags: refer to this https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-wssfob/252d2086-6571-430f-863d-bcaf9d267e62 , e.g. all the view flags https://docs.microsoft.com/en-us/openspecs/sharepoint_protocols/ms-wssfob/16a9d8ca-185d-40ec-956e-bb6bf3488cf7 . You will need to convert all flag values to PRIME element ‘flags’.
+View flags: refer to this https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-wssfob/252d2086-6571-430f-863d-bcaf9d267e62 , e.g. all the view flags https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-wssfob/16a9d8ca-185d-40ec-956e-bb6bf3488cf7 . You will need to convert all flag values to PRIME element ‘flags’.
 
 ## Appendix
 

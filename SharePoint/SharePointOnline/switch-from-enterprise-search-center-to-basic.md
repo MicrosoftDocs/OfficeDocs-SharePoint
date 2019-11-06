@@ -20,13 +20,13 @@ description: "Learn how to swap your default search center from Enterprise back 
 
 The Basic Search Center is a classic search experience. To offer your users a richer search experience, you can either switch from a Basic Search Center to an Enterprise Search Center or rely on the modern search experience that SharePoint Online comes with. [Learn about differences between classic and modern search](https://docs.microsoft.com/sharepoint/differences-classic-modern-search) and [when to choose which search experience](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience) for your organization.
 
-If you are currently using the Enterprise Search Center, you can easily replace (swap) it with the Basic Search Center if needed.  This will result in your users seeing the classic search experience in their default search home page and default search results page.  You can use the [Invoke-SPOSiteSwap](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/invoke-spositeswap?view=sharepoint-ps) Windows PowerShell cmdlet in the SharePoint Online Management Console to do this. 
+If you are currently using the Enterprise Search Center, you can easily replace (swap) it with the Basic Search Center if needed.  This will result in your users seeing the classic search experience in their default search home page and default search results page.  You can use the [Invoke-SPOSiteSwap](https://docs.microsoft.com/powershell/module/sharepoint-online/invoke-spositeswap?view=sharepoint-ps) Windows PowerShell cmdlet in the SharePoint Online Management Console to do this. 
 
 ## How to use Invoke-SPOSiteSwap to swap your Search Center sites
 
 1. [Download the latest version of the Microsoft SharePoint Online Services Module for Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=35588).
 2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
-3. Run the [Invoke-SPOSiteSwap](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/invoke-spositeswap?view=sharepoint-ps) cmdlet.
+3. Run the [Invoke-SPOSiteSwap](https://docs.microsoft.com/powershell/module/sharepoint-online/invoke-spositeswap?view=sharepoint-ps) cmdlet.
 
 ```PowerShell  
 Invoke-SPOSiteSwap  

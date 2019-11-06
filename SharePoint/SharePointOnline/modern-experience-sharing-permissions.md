@@ -77,7 +77,7 @@ Giving people permissions to a site, group, or team gives them access to all sit
   - *People in your organization* links work for only people inside your Office 365 organization. (They don't work for guests in the directory, only members).  
   - *Specific people* links only work for the people that users specify when they share the item.  
 
-For more about the different types of sharing links, see [Securing your data](https://docs.microsoft.com/en-us/sharepoint/deploy-file-collaboration#securing-your-data).
+For more about the different types of sharing links, see [Securing your data](https://docs.microsoft.com/sharepoint/deploy-file-collaboration#securing-your-data).
 
 ## Guest sharing
 
@@ -89,7 +89,7 @@ SharePoint Online has external sharing settings at both the organization level a
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using *Anyone* links, users can still share with guests who sign in, and with internal users. 
   
-External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/en-us/Office365/Enterprise/microsoft-365-guest-settings#sharepoint-site-level) for more information.
+External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings#sharepoint-site-level) for more information.
   
 ### Security and privacy
 

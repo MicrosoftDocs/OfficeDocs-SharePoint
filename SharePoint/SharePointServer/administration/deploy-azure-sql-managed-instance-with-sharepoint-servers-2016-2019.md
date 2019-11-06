@@ -78,12 +78,12 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
 
 #### Other Resources
 
-[Azure SQL Database managed instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-index)
+[Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-index)
 
-[SQL Server instance migration to Azure SQL Database managed instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-migrate)
+[SQL Server instance migration to Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate)
 
-[Quickstart: Create an Azure SQL Database managed instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-get-started)
+[Quickstart: Create an Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started)
 
-[Quickstart: Configure Azure VM to connect to an Azure SQL Database Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-configure-vm)
+[Quickstart: Configure Azure VM to connect to an Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-configure-vm)
 
-[Quickstart: Restore a database to a Managed Instance](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-get-started-restore)
+[Quickstart: Restore a database to a Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore)

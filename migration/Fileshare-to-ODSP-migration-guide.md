@@ -133,7 +133,7 @@ Currently, there are a variety of migration offerings available to you. Which on
 
 |**Customer Self service**|**FastTrack driven**|**Partner driven**|
 |:-----|:-----|:-----|
-|No cost for Microsoft provided tool</br>[SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)|No cost; included in your [Microsoft 365 subscription](https://docs.microsoft.com/en-us/fasttrack/o365-data-migration)|Price dependent on complexity|
+|No cost for Microsoft provided tool</br>[SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)|No cost; included in your [Microsoft 365 subscription](https://docs.microsoft.com/fasttrack/o365-data-migration)|Price dependent on complexity|
 |Process flexible, you set the pace|Highly structured process and schedule|Customized to your need|
 |No need to configure complex infrastructure|Must set up infrastructure including external access rights, VPNs, test environment, admin environment, establish framework of contacts|Customized to your need|
 |Less time required involved in scheduling process and restrictions|Scheduling templates and questionnaires provided as part of the organization process|Customized to your need|

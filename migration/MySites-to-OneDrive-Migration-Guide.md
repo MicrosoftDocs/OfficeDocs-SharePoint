@@ -34,13 +34,13 @@ Before beginning your migration, it is important that you plan your outcome by p
 - The mapping of content from your source My Sites to the destination OneDrive.
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
 - Set permissions so IT can read/write from source to target destination
-- We highly recommend that you consider setting up a hybrid environment.  Learn more:  [SharePoint and OneDrive Configuration Roadmaps](https://docs.microsoft.com/en-us/sharepoint/hybrid/configuration-roadmaps). 
+- We highly recommend that you consider setting up a hybrid environment.  Learn more:  [SharePoint and OneDrive Configuration Roadmaps](https://docs.microsoft.com/sharepoint/hybrid/configuration-roadmaps). 
 
 
 
 ### What migrates?
 
-When you migrate to OneDrive using the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool), you will be migrating your content stored in your MySites document library into OneDrive.
+When you migrate to OneDrive using the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool), you will be migrating your content stored in your MySites document library into OneDrive.
 
 
 
@@ -55,7 +55,7 @@ An initial assessment can begin with working with your users in two main areas:
 
 ## Using the SharePoint Migration Assessment Tool (SMAT)
 
-The [SharePoint Migration Assessment Tool (SMAT)](https://docs.microsoft.com/en-us/sharepointmigration/overview-of-the-sharepoint-migration-assessment-tool) is a simple command line executable that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content.
+The [SharePoint Migration Assessment Tool (SMAT)](https://docs.microsoft.com/sharepointmigration/overview-of-the-sharepoint-migration-assessment-tool) is a simple command line executable that scans the contents of your SharePoint Server 2013 farm to help identify any issues before you migrate your content.
  
 After the scan is complete, SMAT generates summary and detailed reports showing the areas that could impact your migration.
 
@@ -65,14 +65,14 @@ Your environment will not be impacted while SMAT performs a scan of your environ
 
 |**Scan**|**Description**|
 |:-----|:-----|:-----|
-|**File Versions** |The more versions of a file you have, the longer it will take to migrate. Note: By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-file-versions)|
-|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-lists).|
-|**Long OneDrive URLs** |Content with long URLs exceeding the limit will be skipped.  They will not migrate.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-long-onedrive-urls)|
-|**Checked out files** |Only checked-in content will be migrated. Have users check in their files prior to migration to avoid data loss.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-checked-out-files)|
-|**Large Excel Files** |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-excel-files)|
-|**Large List Views**|In your My Site, you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive, the limit is in place continuously (24x7). While your lists and data will be migrated, some of your list views be throttled.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-large-list-views)|
-|**Browser File Handling**|SharePoint Server allows you to set it from “strict” to “permissive”.  However, in SharePoint Online and OneDrive, the “strict” setting is enforced and can’t be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-browser-file-handling)|
-|**InfoPath** |InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However,certain features of custom InfoPath forms will not be migrated.</br></br>[Learn more](https://docs.microsoft.com/en-us/sharepointmigration/migration-assessment-scan-infopath)|
+|**File Versions** |The more versions of a file you have, the longer it will take to migrate. Note: By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-file-versions)|
+|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-lists).|
+|**Long OneDrive URLs** |Content with long URLs exceeding the limit will be skipped.  They will not migrate.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-long-onedrive-urls)|
+|**Checked out files** |Only checked-in content will be migrated. Have users check in their files prior to migration to avoid data loss.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-checked-out-files)|
+|**Large Excel Files** |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-excel-files)|
+|**Large List Views**|In your My Site, you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive, the limit is in place continuously (24x7). While your lists and data will be migrated, some of your list views be throttled.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-list-views)|
+|**Browser File Handling**|SharePoint Server allows you to set it from “strict” to “permissive”.  However, in SharePoint Online and OneDrive, the “strict” setting is enforced and can’t be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-browser-file-handling)|
+|**InfoPath** |InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However,certain features of custom InfoPath forms will not be migrated.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-infopath)|
 
 
 
@@ -94,11 +94,11 @@ A SharePoint Server hybrid environment enables trusted communications between Sh
 
 ## Migrate
 
-Use the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool) as an easy way to migrate your existing My Sites to OneDrive. 
+Use the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) as an easy way to migrate your existing My Sites to OneDrive. 
 
-1. **Install and launch the SharePoint Migration Tool.** You will be selecting the bulk migration option using either the JSON or .CSV file you created. For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
+1. **Install and launch the SharePoint Migration Tool.** You will be selecting the bulk migration option using either the JSON or .CSV file you created. For detailed information on the SPMT and bulk migration see [How to use the SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
 
-2. **Create a mapping file.** Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
+2. **Create a mapping file.** Create a mapping file with source and target paths and save it as a .csv file.  For detailed information see,  [How to format your JSON or CSV for data content migration](https://docs.microsoft.com/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration).
 
 
 

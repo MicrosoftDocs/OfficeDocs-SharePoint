@@ -22,7 +22,7 @@ description: "How to troubleshoot common errors in the SharePoint Migration Tool
 This article describes some common issues and errors that you may encounter when using the SharePoint Migration Tool (SPMT), and how to help you resolve them.
 
 >[!Note]
-> For help on SPMT installation issues, see: [Troubleshooting SPMT installation issues](https://docs.microsoft.com/en-us/sharepointmigration/spmt-install-issues)
+> For help on SPMT installation issues, see: [Troubleshooting SPMT installation issues](https://docs.microsoft.com/sharepointmigration/spmt-install-issues)
 
 ## Common error messages
 

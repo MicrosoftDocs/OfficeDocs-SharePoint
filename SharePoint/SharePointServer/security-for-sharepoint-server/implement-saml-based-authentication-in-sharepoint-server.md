@@ -24,7 +24,7 @@ description: "Implement a Security Assertion Markup Language (SAML) security tok
 In SAML claims mode, SharePoint Server accepts SAML tokens from a trusted external Security Token Provider (STS), often known as a claims provider trust. A user who attempts to log on is directed to an external claims provider (for example, the Windows Live ID claims provider), which authenticates the user and produces a SAML token. SharePoint Server accepts and processes this token, augmenting the claim and creating a claims identity object for the user.
 
 ## Concepts and terminology ##
-To understand the concepts and terminology that are used in SAML-based authentication, see [Authentication Overview](https://docs.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/authentication-overview).
+To understand the concepts and terminology that are used in SAML-based authentication, see [Authentication Overview](https://docs.microsoft.com/sharepoint/security-for-sharepoint-server/authentication-overview).
 
 
 ## SharePoint Server with Active Directory Federation Services 2.0 ##
@@ -61,7 +61,7 @@ If the AD FS STS domain is configured by using additional claims, it will be ign
 **Add trusted certificates by using a Windows PowerShell script**
 
 1.	Check that you meet the following minimum requirements:
-- See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+- See [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
 - Read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
 2.	Copy the following variable declarations, and paste them into a text editor, like Notepad. Set input values specific to your organization. You will use these values in Step 3. Save the file, and name it **Add-ADFSCerts.ps1**.
 
@@ -100,7 +100,7 @@ $adfsCertName = "< Input ADFS Cert Name >"
 ## Create the trusted provider by using a Windows PowerShell script ##
 
 1.	Check that you meet the following minimum requirements:
-- See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+- See [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
 - Read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
 
 2.	Copy the following variable declarations, and paste them into a text editor, such as Notepad. Set input values specific to your organization. You will use these values in Step 3. Save the file, and name it **TrustedProviderConfiguration-Regular.ps1**.
@@ -155,7 +155,7 @@ New-SPTrustedRootAuthority -Name $adfsCertName -Certificate $adfsCert New-SPTrus
 ### Create the trusted provider by using a Windows PowerShell script ###
 
 1.	Check that you meet the following minimum requirements:
-- See [Add-SPShellAdmin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+- See [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
 - Read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
 
 2.	Copy the following variable declarations, and paste them into a text editor, such as Notepad. Set input values specific to your organization. You will use these values in Step 3. Save the file, and name it **TrustedProviderConfiguration-Regular.ps1**.
@@ -228,10 +228,10 @@ $ap = Get-SPTrustedIdentityTokenIssuer $tokenIdentityProviderName $ap.ProviderRe
 ## Enable tracing for SharePoint Server claims ##
 
 To enable tracing for SharePoint 2013, you can use the following ways:
- - Enable tracing in Windows Identity Foundation (WIF). For information about how to enable tracing, see [WIF Tracing](https://docs.microsoft.com/en-us/dotnet/framework/security/how-to-enable-wif-tracing).
+ - Enable tracing in Windows Identity Foundation (WIF). For information about how to enable tracing, see [WIF Tracing](https://docs.microsoft.com/dotnet/framework/security/how-to-enable-wif-tracing).
  - Configure diagnostic logging in SharePoint Server. 
 
-For information about how to configure diagnostic logging, see [Configure diagnostic logging in SharePoint Server](https://docs.microsoft.com/en-us/sharepoint/administration/configure-diagnostic-logging).
+For information about how to configure diagnostic logging, see [Configure diagnostic logging in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/configure-diagnostic-logging).
 
 
 ## Trusted identity providers and user profile synchronization ##
@@ -243,7 +243,7 @@ When you configure a directory synchronization connection, you can specify the t
 To provide the user profile application with sufficient information to map the imported profiles to authenticated users, you have to set the imported attributed to the corresponding authenticated users identity claim. The claim is immutable. It cannot be changed after it is configured in the trusted identity provider. To map users correctly, the user profile system must be informed of which of the attributes it can import to be used as the identity claim. The key is to identify the identity claim for the user profile system so that there is enough information to match the identity claim with the corresponding profile entry. The Claim User Identifier property is used to establish the mapping.
 
 The next profile import will result in users who are associated with the corresponding profile entries.
-For additional information about user profile synchronization, see [User Profile Synchronization in SharePoint Server 2013](https://docs.microsoft.com/en-us/sharepoint/administration/overview-of-profile-synchronization-in-sharepoint-server-2013) and [User Profile Synchronization in SharePoint Server 2016](https://docs.microsoft.com/en-us/sharepoint/administration/profile-synchronization-in-sharepoint-server-2013).
+For additional information about user profile synchronization, see [User Profile Synchronization in SharePoint Server 2013](https://docs.microsoft.com/sharepoint/administration/overview-of-profile-synchronization-in-sharepoint-server-2013) and [User Profile Synchronization in SharePoint Server 2016](https://docs.microsoft.com/sharepoint/administration/profile-synchronization-in-sharepoint-server-2013).
 
 
 ## Using audiences with claims-based sites ##
@@ -254,7 +254,7 @@ To take advantage of audiences, you need to create profiles for users either man
 
 After the profiles are created, audiences can be created. You can't use a user-based audience, such as membership in a group, for the audience unless you implement custom code. It might be more efficient to use the property-based audience.
 
-For more information see, [Claims-Based Identity Term Definitions](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee534975(v=office.14)).
+For more information see, [Claims-Based Identity Term Definitions](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/ee534975(v=office.14)).
 
 
 
