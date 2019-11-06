@@ -35,6 +35,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/onedrive/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "OneDrive/*.md": "OneDrive",
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
