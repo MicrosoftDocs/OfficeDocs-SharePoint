@@ -65,7 +65,7 @@ Each of these standby data centers has specific characteristics and requirements
     
     **Cons:** The slowest option to recover. 
     
-- Warm standby disaster recovery strategy with [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint).
+- Warm standby disaster recovery strategy with [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-sharepoint).
     
     **Pros:** Often fairly inexpensive to recover, because a virtual server farm can require little configuration upon recovery. 
     

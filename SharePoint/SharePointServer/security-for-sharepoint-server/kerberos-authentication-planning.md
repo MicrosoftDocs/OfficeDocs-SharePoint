@@ -88,13 +88,13 @@ Claims-based authentication can be used as an alternative to Kerberos delegation
     
 For more information about Kerberos authentication, see the following resources:
    
-- [Microsoft Kerberos](https://docs.microsoft.com/en-us/windows/desktop/secauthn/microsoft-kerberos)
+- [Microsoft Kerberos](https://docs.microsoft.com/windows/desktop/secauthn/microsoft-kerberos)
     
 - [Kerberos Explained](/previous-versions/windows/it-pro/windows-2000-server/bb742516(v=technet.10))
 
 - [How the Kerberos Version 5 Authentication Protocol Works](/previous-versions/windows/it-pro/windows-server-2003/cc772815(v=ws.10))
 
-- [Kerberos Authentication Tools and Settings](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc738673(v%3dws.10)) 
+- [Kerberos Authentication Tools and Settings](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc738673(v%3dws.10)) 
     
 ## Kerberos authentication and claims-based authentication
 <a name="section2"> </a>

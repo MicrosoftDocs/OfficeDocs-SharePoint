@@ -28,7 +28,7 @@ SharePoint Server does not support the following type of operations while ShareP
 
  * Virtual machine online backups - If full virtual machine backups are required, shut down the SharePoint and SQL Servers in the farm prior to taking virtual machine backups. If a restore is required, restore all servers in the farm.
  * Virtual machine snapshots - If a snapshot of SharePoint is required, shut down all SharePoint Servers and SQL Servers in the farm prior to taking a virtual machine snapshot. If a restore is required, restore all servers in the farm. Delete the snapshot as soon as possible as it may incur a performance penalty.
- * Virtual machine replication - Note an exception to this is [Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-sharepoint).
+ * Virtual machine replication - Note an exception to this is [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-sharepoint).
  * SAN (Storage Area Network) replication of SharePoint Server virtual disks
 
 SharePoint Server also does not support dynamic/ballooning memory and we recommend against using differencing disks for long periods of time.

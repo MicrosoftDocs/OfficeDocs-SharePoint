@@ -23,7 +23,7 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Server 2016.
   
-For a comparison of SharePoint on-premises features between SharePoint 2013 and SharePoint Server 2016 editions, see [SharePoint feature availability across on-premises solutions](http://go.microsoft.com/fwlink/p/?LinkID=760410&amp;clcid=0x409). For new features in SharePoint Server 2016 for end users, see [What's new in SharePoint Server 2016](https://support.office.com/en-us/article/What-s-new-in-SharePoint-Server-2016-089369b5-c3d4-4551-8bed-22b2548abd3b).
+For a comparison of SharePoint on-premises features between SharePoint 2013 and SharePoint Server 2016 editions, see [SharePoint feature availability across on-premises solutions](http://go.microsoft.com/fwlink/p/?LinkID=760410&amp;clcid=0x409). For new features in SharePoint Server 2016 for end users, see [What's new in SharePoint Server 2016](https://support.office.com/article/089369b5-c3d4-4551-8bed-22b2548abd3b).
   
 ## Summary of features
 
@@ -233,7 +233,7 @@ In SharePoint Server 2016 when you post images and videos to a document library,
 ### Information Rights Management
 <a name="InfoRights"> </a>
 
-For more information, see [Secure and sync with Information Rights Management on OneDrive for Business](http://go.microsoft.com/fwlink/p/?LinkID=620223&amp;clcid=0x4809) and [Apply Information Rights Management to a list or library](https://support.office.com/en-us/article/Apply-Information-Rights-Management-to-a-list-or-library-3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
+For more information, see [Secure and sync with Information Rights Management on OneDrive for Business](http://go.microsoft.com/fwlink/p/?LinkID=620223&amp;clcid=0x4809) and [Apply Information Rights Management to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
   
 ### Large file support
 <a name="largefile"> </a>
@@ -351,7 +351,7 @@ The following list shows the sharing improvements that are available for SharePo
 ### SharePoint Search Service application
 <a name="search"> </a>
 
-SharePoint Search supports indexing of up to 500 million items per Search Server application. For more information, see [Overview of search architecture in SharePoint Server](../search/search-architecture-overview.md). For information about SharePoint cloud hybrid search, see [Learn about cloud hybrid search for SharePoint](https://support.office.com/en-us/article/Learn-about-cloud-hybrid-search-for-SharePoint-af830951-8ddf-48b2-8340-179c1cc4d291?ui=en-US&amp;rs=en-US&amp;ad=US).
+SharePoint Search supports indexing of up to 500 million items per Search Server application. For more information, see [Overview of search architecture in SharePoint Server](../search/search-architecture-overview.md). For information about SharePoint cloud hybrid search, see [Learn about cloud hybrid search for SharePoint](https://support.office.com/article/af830951-8ddf-48b2-8340-179c1cc4d291).
   
 ### Simplified SSL configuration for Central Administration site
 <a name="search"> </a>
@@ -439,6 +439,4 @@ sh  arepoint@contoso.com
 
 ## Related Topics
 
-[What is SharePoint?](https://support.office.com/en-us/article/What-is-SharePoint-97b915e6-651b-43b2-827d-fb25777f446f?ui=en-US&amp;rs=en-US&amp;ad=US)
-  
-
+[What is SharePoint?](https://support.office.com/article/97b915e6-651b-43b2-827d-fb25777f446f)

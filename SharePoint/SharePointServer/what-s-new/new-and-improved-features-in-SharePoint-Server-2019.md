@@ -22,7 +22,7 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Server 2019.
 
-To read more about the updated modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/en-us/article/differences-between-sharepoint-server-2016-and-2019-ba84c8a3-3ce2-4252-926e-c67654ceb4a3). 
+To read more about the updated modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/article/ba84c8a3-3ce2-4252-926e-c67654ceb4a3). 
 
 ## Detailed description of new features
 
@@ -246,6 +246,6 @@ Customers can opt in and opt out of the telemetry experience at any time.
 
 ## Related Topics
 
-[What is SharePoint?](https://support.office.com/en-us/article/What-is-SharePoint-97b915e6-651b-43b2-827d-fb25777f446f?ui=en-US&amp;rs=en-US&amp;ad=US)
+[What is SharePoint?](https://support.office.com/article/97b915e6-651b-43b2-827d-fb25777f446f)
 
 [New development capabilities for SharePoint 2019](/sharepoint/dev/general-development/sharepoint-2019-development-platform)

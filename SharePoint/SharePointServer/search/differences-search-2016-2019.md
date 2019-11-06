@@ -18,7 +18,7 @@ description: "Learn about the differences between the search experiences in Shar
 
 In addition to the classic search experience, SharePoint Server 2019 comes with a modern search experience. Both search experiences use the same search index to find results. 
 
-As a user, the most visual difference is that in modern search, you see results even before you start typing in the search box, and the results update as you type. [Learn about the modern search experience](https://support.office.com/en-us/article/what-s-new-in-search-in-sharepoint-server-2019-public-preview-3f56ab51-f10f-4a34-a8c6-bfe02f44896d)​.
+As a user, the most visual difference is that in modern search, you see results even before you start typing in the search box, and the results update as you type. [Learn about the modern search experience](https://support.office.com/article/3f56ab51-f10f-4a34-a8c6-bfe02f44896d)​.
 
 As a search administrator, you can’t turn off neither classic nor modern search. Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the modern search experience on the SharePoint home page, communication sites, and modern team sites. There are some differences between the search experiences from a search administrator's perspective.
 

@@ -34,11 +34,11 @@ The following SharePoint Server 2016 conformance statement, VPAT, and EN 301 549
 
 Many of the accessibility features in SharePoint Online also apply to SharePoint Server 2016 and SharePoint 2013. For more information about these accessibility features, see the following topics:
   
-- [Keyboard shortcuts](https://support.office.com/en-us/article/Keyboard-shortcuts-in-SharePoint-Online-466e33ee-613b-4f47-96bb-1c20f20b1015)
+- [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)
     
-- [Using screen readers](https://support.office.com/en-us/article/Accessibility-features-in-SharePoint-Online-f291404a-dc7e-44de-a31f-d81b3099c2b9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1#bkm_moretasks)
+- [Using screen readers](https://support.office.com/article/f291404a-dc7e-44de-a31f-d81b3099c2b9#bkm_moretasks)
     
-- [Create accessible sites](https://support.office.com/en-us/article/Accessibility-features-in-SharePoint-Online-f291404a-dc7e-44de-a31f-d81b3099c2b9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1#bkm_accessiblesites)
+- [Create accessible sites](https://support.office.com/article/f291404a-dc7e-44de-a31f-d81b3099c2b9#bkm_accessiblesites)
     
 - [Plan browser support in SharePoint Server 2016](install/browser-support-planning-0.md)
     
@@ -48,7 +48,7 @@ Many of the accessibility features in SharePoint Online also apply to SharePoint
 
 [Microsoft accessibility](https://www.microsoft.com/en-us/accessibility/)
   
-[Accessibility features in SharePoint Online](https://support.office.com/en-us/article/Accessibility-features-in-SharePoint-Online-f291404a-dc7e-44de-a31f-d81b3099c2b9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)
+[Accessibility features in SharePoint Online](https://support.office.com/article/f291404a-dc7e-44de-a31f-d81b3099c2b9?fromAR=1)
   
 [Accessibility support for enterprise](https://support.microsoft.com/en-us/accessibility/enterprise-answer-desk)
 
