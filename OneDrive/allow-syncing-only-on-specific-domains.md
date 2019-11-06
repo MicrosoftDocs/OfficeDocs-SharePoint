@@ -25,7 +25,7 @@ To make sure that users sync OneDrive files only on managed computers, you can c
   
  **To allow syncing only on PCs joined to specific domains**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com) and select **Sync** in the left pane.
+1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and select **Sync** in the left pane.
     
     ![The Sync page of the OneDrive admin center](media/blocksyncdomain.png)
   

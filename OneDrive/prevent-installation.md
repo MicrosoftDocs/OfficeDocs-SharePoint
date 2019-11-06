@@ -23,7 +23,7 @@ The Sync button helps users install and set up the new OneDrive sync app. If you
   
  **To prevent users from downloading the OneDrive sync app**
   
-1. Open the [OneDrive admin center](https://admin.onedrive.com), and click **Sync** in the left pane.
+1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and select **Sync** in the left pane.
     
     ![The Sync page of the OneDrive admin center](media/preventinstallation.png)
   
