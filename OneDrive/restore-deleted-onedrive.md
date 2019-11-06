@@ -22,10 +22,14 @@ description: "Learn how to restore a deleted user's OneDrive when the deleted us
 # Restore a deleted OneDrive
 
 When you delete a user in the Microsoft 365 admin center (or when a user is removed through Active Directory synchronization), the user's OneDrive will be retained for the number of days you specify in the OneDrive admin center. (For info, see [Set the default file retention for deleted OneDrive users](set-retention.md).) The default is 30 days. During this time, shared content can still be accessed by other users. At the end of the time, the OneDrive will be in a deleted state for 93 days and can only be restored by a global or SharePoint admin.
+
+For info about using Files Restore to restore a OneDrive to a previous point in time, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
+
+For info about restoring items from the recycle bin in OneDrive, see [Restore deleted files or folders](https://support.office.com/article/949ada80-0026-4db3-a953-c99083e6a84f).
   
 ## Restore a deleted OneDrive when the deleted user no longer appears in the Microsoft 365 admin center
 
-If the user was deleted within 30 days, you can restore the user and all their data from the Microsoft 365 admin center. To learn how, see [Restore a user in Office 365](/office365/admin/add-users/restore-user). If you deleted the user more than 30 days ago, the user will no longer appear in the Microsoft 365 admin center, and you'll need to use PowerShell to restore the OneDrive. 
+If the user was deleted within 30 days, you can restore the user and all their data from the Microsoft 365 admin center. To learn how, see [Restore a user in Office 365](/office365/admin/add-users/restore-user). If you deleted the user more than 30 days ago, the user will no longer appear in the Microsoft 365 admin center, and you'll need to use PowerShell to restore the OneDrive.
   
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -36,7 +40,7 @@ If the user was deleted within 30 days, you can restore the user and all their d
     
 3. Determine if the OneDrive is available for restore
     
-  - If you know the URL of the OneDrive, run the following command: 
+  - If you know the URL of the OneDrive, run the following command:
     
   ```PowerShell
   Get-SPODeletedSite -Identity <URL>
@@ -76,9 +80,8 @@ Remove-SPODeletedSite -Identity <URL>
 ```
 
 > [!CAUTION]
-> When you permanently delete a OneDrive, you will not be able to restore it. 
+> When you permanently delete a OneDrive, you will not be able to restore it.
   
 ## See also
 
 [OneDrive retention and deletion](retention-and-deletion.md)
-
