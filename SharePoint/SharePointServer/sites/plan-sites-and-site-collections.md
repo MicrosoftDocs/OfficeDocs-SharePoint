@@ -26,7 +26,7 @@ Every SharePoint Server site belongs to only one site collection and a site coll
 
 ![Diagram of a site collection](../media/DiagramOfSiteCollection.gif)
   
-The SharePoint Server 2019 modern experience is similar to the experience in SharePoint Online. The modern experience is compelling, flexible, and easier to use. The main difference is hub sites aren't available in SharePoint Server. We do recommend in SharePoint Server 2019 that you create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint Online. For more information about the modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/en-us/article/differences-between-sharepoint-server-2016-and-2019-ba84c8a3-3ce2-4252-926e-c67654ceb4a3?ui=en-US&rs=en-US&ad=US).
+The SharePoint Server 2019 modern experience is similar to the experience in SharePoint Online. The modern experience is compelling, flexible, and easier to use. The main difference is hub sites aren't available in SharePoint Server. We do recommend in SharePoint Server 2019 that you create site collections for each unit of work instead of creating subsites. This will make it easier when migrating your SharePoint farm to SharePoint Online. For more information about the modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/article/ba84c8a3-3ce2-4252-926e-c67654ceb4a3).
     
 ## Sites and site collections planning principles
 <a name="section1"> </a>

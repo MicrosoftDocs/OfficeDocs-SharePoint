@@ -142,7 +142,7 @@ The following illustration shows a SharePoint Server 2016 farm (SPHA_farm) that 
   
 ### Prepare the Windows Server cluster environment
 
-Obtain access to or create a three node Windows Server Failover Clustering (WSFC) cluster that you can use to install SQL Server on each cluster node. For information and detailed steps to configure a Windows Server failover cluster, see [Failover Clustering](https://docs.microsoft.com/en-us/windows-server/failover-clustering/failover-clustering-overview).
+Obtain access to or create a three node Windows Server Failover Clustering (WSFC) cluster that you can use to install SQL Server on each cluster node. For information and detailed steps to configure a Windows Server failover cluster, see [Failover Clustering](https://docs.microsoft.com/windows-server/failover-clustering/failover-clustering-overview).
   
 ### Prepare the SQL Server environment
 <a name="proc1"> </a>
@@ -195,7 +195,7 @@ Use the following procedure to install SQL Server 2014 (SP1).
     
 2. Install SQL Server on each cluster node.
     
-    For more information, see [Quick-Start Installation of SQL Server 2014](https://docs.microsoft.com/en-us/sql/getting-started/quick-start-installation-of-sql-server-2014) and [Installing SQL Server 2014 Step by Step Tutorial](https://go.microsoft.com/fwlink/?LinkID=724036).
+    For more information, see [Quick-Start Installation of SQL Server 2014](https://docs.microsoft.com/sql/getting-started/quick-start-installation-of-sql-server-2014) and [Installing SQL Server 2014 Step by Step Tutorial](https://go.microsoft.com/fwlink/?LinkID=724036).
     
 ### Install SQL Server 2016 or SQL Server 2017
 
@@ -234,7 +234,7 @@ You must enable Always On for each database server in the cluster.
     
 7. Repeat the previous steps to enable Always On for SQL Server on the other cluster nodes.
     
-For more information, see [Enable and Disable AlwaysOn Availability Groups (SQL Server)](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/enable-and-disable-always-on-availability-groups-sql-server).
+For more information, see [Enable and Disable AlwaysOn Availability Groups (SQL Server)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/enable-and-disable-always-on-availability-groups-sql-server).
   
 ### Create and configure the availability group
 <a name="proc3"> </a>
@@ -244,7 +244,7 @@ Depending on the SQL Server 2014 (SP1), SQL Server 2016/2017, or SQL Server 2012
 The process that creates an availability group requires you to provide a name for the availability group and then select an eligible user database on the connected server instance as an availability database.
   
 > [!NOTE]
-> A database must be a user database in order to add it to an availability group. System databases can't belong to an availability group. For more information, see the "Availability Database Prerequisites and Restrictions" section of [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017#PrerequisitesForAGs) and see [Creation and Configuration of Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=724040). 
+> A database must be a user database in order to add it to an availability group. System databases can't belong to an availability group. For more information, see the "Availability Database Prerequisites and Restrictions" section of [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017#PrerequisitesForAGs) and see [Creation and Configuration of Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=724040). 
   
 If there are no user databases on the instance of the connected server, which is the case in our example, you need to create one. Use the following procedure to create a temporary user database that will be a temporary primary replica for the group. 
   
@@ -295,7 +295,7 @@ The following table shows the information that you have to provide for each repl
 |**Initial Role** <br/> |Indicates the role that the new replica will first perform: Primary or Secondary.  <br/> |
 |**Automatic Failover (Up to 2)** <br/> |Indicates the type of failover that the replica uses: automatic or manual.  <br/> |
 |**Synchronous Commit (Up to 3)** <br/> |Indicates the type of commit that is used for the replica.  <br/> |
-|**Readable Secondary** <br/> |Indicates whether a secondary replica can be read.  <br/> The configuration options are unavailable for read access, read-only, and read-only intent. For more information, see [Offload read-only workload to secondary replica of an Always On availability group](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/active-secondaries-readable-secondary-replicas-always-on-availability-groups) and [Configure Read-Only Routing for an Availability Group (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=626915).  <br/> **Note:** In SQL Server 2014 and later, readable secondary replicas now remain available for read workloads when they are disconnected from primary replicas or during cluster quorum loss.  <br/> |
+|**Readable Secondary** <br/> |Indicates whether a secondary replica can be read.  <br/> The configuration options are unavailable for read access, read-only, and read-only intent. For more information, see [Offload read-only workload to secondary replica of an Always On availability group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/active-secondaries-readable-secondary-replicas-always-on-availability-groups) and [Configure Read-Only Routing for an Availability Group (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=626915).  <br/> **Note:** In SQL Server 2014 and later, readable secondary replicas now remain available for read workloads when they are disconnected from primary replicas or during cluster quorum loss.  <br/> |
 
 > [!NOTE]
 > SharePoint Server does not leverage read-only replicas. It will only leverage the primary replica in the availability group.
@@ -307,7 +307,7 @@ The following table shows the information that you have to provide for each repl
   
 As part of the availability group creation process, you have to make an exact copy of the data on the primary replica and install the copy on the secondary replica. This is the initial data synchronization for the Availability Group. For more information, see [Select Initial Data Synchronization Page (AlwaysOn Availability Group Wizards)](https://go.microsoft.com/fwlink/?LinkID=691235).
   
-A network share must exist and must be accessed by all the nodes in the Always On configuration to do the initial data synchronization between all the cluster nodes that host a replica. For more information, see [Network Shares Extension](https://go.microsoft.com/fwlink/p/?LinkId=245722) and [Storage](https://docs.microsoft.com/en-us/windows-server/storage/storage).
+A network share must exist and must be accessed by all the nodes in the Always On configuration to do the initial data synchronization between all the cluster nodes that host a replica. For more information, see [Network Shares Extension](https://go.microsoft.com/fwlink/p/?LinkId=245722) and [Storage](https://docs.microsoft.com/windows-server/storage/storage).
   
 The following restrictions exist when you use the New Availability Group wizard to start data synchronization:
   
@@ -357,12 +357,12 @@ Use the following procedure to create an availability group on the primary repli
     
 6. On the **Specify Replicas** page, use the following tabs to configure the replicas for SP-AG1: **Replicas**, **Endpoints**, and **Backup Preferences**. 
     
-7. An availability group listener is a virtual network name that provides client connectivity to the database a given availability group. Availability group listeners direct incoming connections to the primary replica or to a read-only secondary replica. The listener provides fast application failover after an availability group fails over. For more information, see [Connect to an Always On availability group listener](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover).
+7. An availability group listener is a virtual network name that provides client connectivity to the database a given availability group. Availability group listeners direct incoming connections to the primary replica or to a read-only secondary replica. The listener provides fast application failover after an availability group fails over. For more information, see [Connect to an Always On availability group listener](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover).
     
     On the **Listener** tab, configure an availability group listener for our example, use the name AGListener. 
     
     > [!IMPORTANT]
-    > Intermittent, unusually high latency might occur when you use availability groups that have replicas that are deployed on multiple subnets. As a best practice, connections to SharePoint availability groups in a multi-subnet environment should configure **specifyMultiSubnetFailover=True** to avoid issues caused by high network latency. For more information, see the [Supporting Availability Group Multi-Subnet Failovers](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover?#SupportAgMultiSubnetFailover) section. 
+    > Intermittent, unusually high latency might occur when you use availability groups that have replicas that are deployed on multiple subnets. As a best practice, connections to SharePoint availability groups in a multi-subnet environment should configure **specifyMultiSubnetFailover=True** to avoid issues caused by high network latency. For more information, see the [Supporting Availability Group Multi-Subnet Failovers](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover?#SupportAgMultiSubnetFailover) section. 
   
     You cannot directly specify **MultiSubnetFailover=True** because a SharePoint client cannot directly modify a connection string. You must use PowerShell via the SharePoint Management Shell to set this value on the **MultiSubnetFailover** database property. The following example shows how you can do this. 
     

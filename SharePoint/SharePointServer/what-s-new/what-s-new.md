@@ -34,7 +34,7 @@ Articles contain an overview of new and improved product features, updates, depr
 
 #### Other Resources
 
-[What is SharePoint](https://support.office.com/en-us/article/What-is-SharePoint-97b915e6-651b-43b2-827d-fb25777f446f)
+[What is SharePoint](https://support.office.com/article/97b915e6-651b-43b2-827d-fb25777f446f)
   
 [About SharePoint](https://dev.office.com/sharepoint)
 

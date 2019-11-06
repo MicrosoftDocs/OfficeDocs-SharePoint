@@ -118,5 +118,5 @@ To verify that your query suggestions are working correctly, in a search box, ty
 [Manage query suggestions in SharePoint Server](manage-query-suggestions.md)
 #### Other Resources
 
-[Customize query suggestions in SharePoint search](https://docs.microsoft.com/en-us/sharepoint/manage-query-suggestions)
+[Customize query suggestions in SharePoint search](https://docs.microsoft.com/sharepoint/manage-query-suggestions)
 
