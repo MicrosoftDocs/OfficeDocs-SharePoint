@@ -39,7 +39,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/sharepointmigration/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "titleSuffix": "Migrate to SharePoint and OneDrive"
+      "titleSuffix": "Migrate to SharePoint and OneDrive",
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
