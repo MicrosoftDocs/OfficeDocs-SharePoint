@@ -24,7 +24,7 @@ description: "Learn how to change the URL of a SharePoint site."
 # Change a site address
 
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have set up the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different from what is described in this article. 
+> We are rolling out this feature. This means that you may not yet see this feature or it may look different from what is described in this article. The feature is currently not available to EDU tenants. 
 
 As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
 
@@ -43,7 +43,7 @@ You can't change the domain ("contoso" in the previous example) or any other par
 
 It can take about 10 minutes to change the site address (depending on the size of the site), and the site will be read-only during this time. We recommend changing addresses during times when site usage is low. 
 
-For this preview, you can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
+You can change the address of up to 100 sites at a time. To change an additional site address, wait for another change to finish. 
 
 ## Communicate the address change to users
 
@@ -77,7 +77,7 @@ Before you change the address of a site, it's important to communicate the chang
 7. Enter the new site address, and then select **Save**.
 
 > [!NOTE]
-> You can't change the address of hub sites, sites that are locked or on hold, or of sites that have BCS connections. 
+> You can't change the address of hub sites, sites that are locked or on hold, or of sites that have BCS connections. <br>When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
 
 ## Change site addresses by using Microsoft PowerShell
 
@@ -91,16 +91,16 @@ Before you change the address of a site, it's important to communicate the chang
 3. Run the following command to verify that the site address can be changed:
 
     ```PowerShell
-    Start-SPOSiteContentRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
+    Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
     ```
 
 4. Run the following command to change the site address:
 
     ```PowerShell
-    Start-SPOSiteContentRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
+    Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
     ```
 
-For more info about this cmdlet, see [Start-SPOSiteContentRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
+For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
 
 ## Effects of changing a site address
 
@@ -132,7 +132,7 @@ If users have a notebook open during the site address change, they'll see a note
 Users don't need to sign in again or take any other action.
 
 **Teams (for Office 365 group-connected sites)**<br>
-After the site address is changed, users won't be able to view the team's files within the Teams app, but they can access them from Teams by selecting **Open in SharePoint**. 
+After the site address is changed, users won't be able to view the team's files within the Teams app, but they can access them from Teams by selecting **Open in SharePoint**. This issue is actively being worked on and will be addressed soon. 
 
 **SharePoint mobile apps for Android and iOS**<br>
 The SharePoint mobile apps will detect the site’s new URL. Make sure that users have updated their apps to the latest version.  

@@ -6,7 +6,7 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -51,7 +51,7 @@ Leave these settings in place for the duration of your migration.
  > [!NOTE]
  > Changes to this setting might take up to 24 hours to take effect.
 
-For more information, see: [Allow or prevent custom script](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)</br>
+For more information, see: [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script)</br>
 
 #### Note about logging in
 When you first launch the SharePoint Migration Tool (SPMT), you will be prompted for your Office 365 username and password. The Office 365 credentials you provide will be to the migration *destination*.

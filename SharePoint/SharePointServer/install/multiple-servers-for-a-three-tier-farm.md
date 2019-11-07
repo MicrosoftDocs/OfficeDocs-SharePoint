@@ -90,7 +90,7 @@ Ensure that SQL Server is updated to the required level and the TCP/IP protocol 
   
 Organizations whose database administrators operate independently from SharePoint administrators will have to make sure that the correct version of SQL Server is available and updated to the required level. In addition, you will have to request a DBA-created database . 
   
-For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md), and [Databases that support SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=259177).
+For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md), and [Databases that support SharePoint 2013](http://download.microsoft.com/download/D/2/A/D2AE15B9-6F47-4328-878D-276F851C9E06/itpro-2013-db-poster.pdf).
   
 Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallism Server Configuration option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017) and [Degree of Parallelism](/previous-versions/sql/sql-server-2008-r2/ms188611(v=sql.105)).
   

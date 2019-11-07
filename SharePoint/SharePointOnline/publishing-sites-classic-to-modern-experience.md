@@ -133,7 +133,7 @@ If you are using a classic publishing site, you should know that it is possible 
 
 ### Wiki pages
 
-Wiki pages are a content type available in publishing sites, but they are not available in Communication sites. However, you can create modern pages using the [Text web part](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801) to cover many of the same scenarios as Wiki pages. Note that Wiki syntax is not available in a Text web part.
+Wiki pages are a content type available in publishing sites, but they are not available in Communication sites. However, you can create modern pages using either a [Text web part](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801) or [Markdown web part](https://support.office.com/article/use-the-markdown-web-part-6d73c06d-2877-4bc9-988b-f2896016c50b) to cover many of the same scenarios as Wiki pages. Note that Wiki syntax is not available in a Text web part.
 
 ## Web parts
 
@@ -194,4 +194,4 @@ You can also share a communication site externally if needed, but at the moment 
 
 ## Audience targeting
 
-In the classic experience, many types of content can be targeted to appear only to people who are members of a particular group or audience. This capability is available in the modern experience with modern Pages, the News web part, and the Highlighted content web parts. For example, if you have two departments within your organization that have different policies, you can choose to show a News post about a policy to just the people in the department that the policy applies to. To learn how to enable audience targeting, see [Target content to specific audiences](https://support.office.com/en-us/article/Target-content-to-specific-audiences-33D84CB6-14ED-4E53-A426-74C38EA32293).
+In the classic experience, many types of content can be targeted to appear only to people who are members of a particular group or audience. This capability is available in the modern experience with modern Pages, the News web part, and the Highlighted content web parts. For example, if you have two departments within your organization that have different policies, you can choose to show a News post about a policy to just the people in the department that the policy applies to. To learn how to enable audience targeting, see [Target content to specific audiences](https://support.office.com/article/33D84CB6-14ED-4E53-A426-74C38EA32293).

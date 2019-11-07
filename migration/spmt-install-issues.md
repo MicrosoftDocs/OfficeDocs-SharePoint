@@ -5,7 +5,7 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -19,6 +19,9 @@ description: "Troubleshoot common installation errors in the SharePoint Migratio
 
 If you are having trouble installing the SharePoint Migration Tool, this article provides information on the possible causes and steps to correct the problem.
 
+If after troubleshooting you still are experiencing problems, consider downloading and installing the public preview (beta) of SPMT. It contains the latest updates and fixes.</br>
+[Download SPMT Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
+
 ### **Common issues**
 
 If you are having issues loading the SharePoint Migration tool, here are a few items that are commonly forgotten.
@@ -26,8 +29,8 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |**Item**|**Requirement**|
 |:-----|:-----|
 |System architecture| Must be x64|
-|.Net version |Must be 4.6.2 or higher. See [How to determine which versions are installed](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|
-|Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ 2015 Redistributable Update 3 RC](https://www.microsoft.com/en-us/download/details.aspx?id=52685).|
+|.Net version |Must be 4.6.2 or higher. See [How to determine which versions are installed](https://docs.microsoft.com/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|
+|Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ 2015 Redistributable Update 3 RC](https://www.microsoft.com/download/details.aspx?id=52685).|
 |Anti-virus| Stop 3rd party anti-virus software on your computer prior to installation.
 
  ### Download the tool instead

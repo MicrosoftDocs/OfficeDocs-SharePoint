@@ -6,7 +6,7 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -48,9 +48,9 @@ The SharePoint Migration Tool supports having only **one** Managed Metadata Serv
  ![Default site collection term store](media/managed-metadata-issue1.png)
 
 To learn more:</br></br>
- [Configure the SharePoint Server Managed Metadata service](https://docs.microsoft.com/en-us/SharePoint/governance/configure-the-managed-metadata-service).
+ [Configure the SharePoint Server Managed Metadata service](https://docs.microsoft.com/SharePoint/governance/configure-the-managed-metadata-service).
  
-[SharePoint Migration Tool:  Overview and download](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool)
+[SharePoint Migration Tool:  Overview and download](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)
 
 
 

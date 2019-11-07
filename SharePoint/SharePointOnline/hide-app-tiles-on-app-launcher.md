@@ -50,7 +50,7 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
     
 5. In **Show or Hide App Tiles**, choose the tile you want to hide.
     
-    ![SPO SharePoint Settings Show/hide options section](media/516f0f56-c44e-465e-8ec5-ba56fbbe2b3b.PNG)
+    ![SPO SharePoint Settings Show/hide options section](media/516f0f56-c44e-465e-8ec5-ba56fbbe2b3b.png)
   
     > [!NOTE]
     > If you have an Office 365 Education subscription, you also have the option to hide **OneNote Class Notebooks** and **OneNote Staff Notebooks**. <br>> Hiding the OneDrive tile also hides the tiles for Word, Excel, PowerPoint, and OneNote. 

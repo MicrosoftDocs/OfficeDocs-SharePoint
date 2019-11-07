@@ -6,7 +6,7 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -24,7 +24,7 @@ description: "How to format your JSON or CSV file for data content migration"
   
 ## Using a comma separated value (CSV) file for data content migration
 
-The SharePoint Online Migration tool, lets you use a comma separated (CSV) file to bulk migrate your data. Use any text editor, or an application like Excel, to create the CSV file.
+The SharePoint Migration tool (SPMT) lets you use a comma separated (CSV) file to bulk migrate your data. Use any text editor, or an application like Excel, to create the CSV file.
   
  **CSV file format**
   
@@ -88,9 +88,6 @@ The following table explain the values needed in each column in your CSV file.
 |Target SubFolder  <br/> | *Optional*  . Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  <br/> |
 
 ## Using a JSON file for data content migration
-
-> [!IMPORTANT]
-> The support of the use of a JSON file for data migration is in beta release of the Microsoft product, SharePoint Migration Tool. The information that follows is as-is and is subject to change without notice. 
 
 
 The following example shows the JSON format used in migrating your data.

@@ -24,7 +24,7 @@ Themes give you a quick and easy way to change the look and feel of any site in 
   
 Using themes is one way to change the look and feel of a site. Themes are part of the larger, updated branding and design capabilities in SharePoint Servers 2016 and 2019. 
 
-The SharePoint Server 2019 modern experience includes new Team and Communication sites. These modern sites contain visually compelling web parts that you can customize. For more information, see [What is a SharePoint team site?](https://support.office.com/en-us/article/What-is-a-SharePoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) and [What is a SharePoint communication site?](https://support.office.com/en-us/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732)
+The SharePoint Server 2019 modern experience includes new Team and Communication sites. These modern sites contain visually compelling web parts that you can customize. For more information, see [What is a SharePoint team site?](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e) and [What is a SharePoint communication site?](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732)
   
 This article includes an overview of themes and how they work. This article does not describe how to create custom themes, called composed looks, or how to upload and manage themes in a theme gallery. It also doesn't discuss how to plan for the overall branding of sites by using master pages or cascading style sheets.
   
@@ -117,4 +117,4 @@ You can create new designs by creating new list items in the composed looks list
   
 [Branding SharePoint sites in the SharePoint add-in model](https://go.microsoft.com/fwlink/?linkid=845555)
 
-[Change the look of your SharePoint site](https://support.office.com/en-us/article/Change-the-look-of-your-SharePoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818)
+[Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818)

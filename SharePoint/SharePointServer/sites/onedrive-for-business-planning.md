@@ -29,7 +29,7 @@ description: "Learn about things you need to consider when planning to setup One
 One of the first planning considerations you should make is if you truly want to use OneDrive for Business in SharePoint Server, or if you would be better suited to use OneDrive for Business in Office 365. Many companies select to use OneDrive for Business in an on-premises environment due to industry restrictions (for example, finance or government), or business rules that prohibit transmitting their data over the internet. If your company isn't restricted by either, you should also explore the possibility of using OneDrive for Business in Office 365. The key benefits in using OneDrive for Business in Office 365 is that you only need an internet connection to use it, versus being connected to your network, and that user storage is provided by your Office 365 service.
   
 > [!NOTE]
-> For more information about OneDrive for Business in Office 365, see [What is OneDrive for Business?](https://support.office.com/en-US/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
+> For more information about OneDrive for Business in Office 365, see [What is OneDrive for Business?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
   
 ## Setting up OneDrive for Business
 <a name="section2"> </a>

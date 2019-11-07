@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 12/6/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - SPMigration

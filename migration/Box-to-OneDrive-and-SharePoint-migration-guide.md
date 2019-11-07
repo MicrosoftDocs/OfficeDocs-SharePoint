@@ -6,7 +6,7 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - M365-collaboration
@@ -77,7 +77,7 @@ All of the following recommended assessments can be performed using Box’s Fold
 
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
-|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/en-us/article/Types-of-files-that-cannot-be-added-to-a-list-or-library-30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](/sharepoint/security-considerations-of-allowing-custom-script)|
+|**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](/sharepoint/security-considerations-of-allowing-custom-script)|
 |**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint Online and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
 |**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint Online limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
 |**Large drives and complex sharing**|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box’s Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc). Move these sets of content out and into new drives before starting migration.|
@@ -138,17 +138,17 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 ### Onboarding related resources
 - [Microsoft 365 adoption guide](https://devfasttrackv4storage.blob.core.windows.net/marketing/en-us/resources/Microsoft%20365%20User%20Adoption%20Guide.pdf): Outlining methodology and resources for implementing proven adoption success factors
 - [Posters, email templates](https://fasttrack.microsoft.com/microsoft365/resourcehub): customizable templates to generate internal awareness and excitement
-- [OneDrive](https://support.office.com/en-us/article/onedrive-video-training-1f608184-b7e6-43ca-8753-2ff679203132?ocmsassetID=1f608184-b7e6-43ca-8753-2ff679203132&ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/video-create-a-team-or-communication-site-551e190a-8fbe-47ae-a88a-798b443c46b1?ui=en-US&rs=en-US&ad=US) video training
-- [OneDrive](https://support.office.com/en-us/article/upload-files-to-onedrive-for-business-a1397e56-61ec-4ed2-9dac-727bf8ac3357?ui=en-US&rs=en-US&ad=US) and [team library](https://support.office.com/en-us/article/sign-in-to-sharepoint-online-324a89ec-e77b-4475-b64a-13a0c14c45ec?ui=en-US&rs=en-US&ad=US) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
+- [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1) video training
+- [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
 
 ### Make the switch! 
 The following articles will help your users “make the switch” from Box to OneDrive. The topics show how you used to do common tasks in Box and how you do the same in OneDrive.
 
-- [Switch to OneDrive from Box](https://support.office.com/en-us/article/Switch-to-OneDrive-from-Box-b7f3c899-edb7-44ab-bc3f-0a37e9f1a7fa)
-- [Open with OneDrive](https://support.office.com/en-us/article/open-with-onedrive-c24d1cef-dddb-43b9-929b-45b571b84990?ui=en-US&rs=en-US&ad=US)
-- [Store with OneDrive](https://support.office.com/en-us/article/store-with-onedrive-7be433cd-d95b-46d8-9e8e-a1e32ecc4724?ui=en-US&rs=en-US&ad=US)
-- [Work together with OneDrive](https://support.office.com/en-us/article/work-together-with-onedrive-626cff9f-9a56-472b-a77d-b019d97eec8d?ui=en-US&rs=en-US&ad=US)
-- [Learn more about OneDrive](https://support.office.com/en-us/article/learn-more-about-onedrive-38acc14b-fd86-466e-b802-baece8107c86?ui=en-US&rs=en-US&ad=US)
+- [Switch to OneDrive from Box](https://support.office.com/article/b7f3c899-edb7-44ab-bc3f-0a37e9f1a7fa)
+- [Open with OneDrive](https://support.office.com/article/c24d1cef-dddb-43b9-929b-45b571b84990)
+- [Store with OneDrive](https://support.office.com/article/7be433cd-d95b-46d8-9e8e-a1e32ecc4724)
+- [Work together with OneDrive](https://support.office.com/article/626cff9f-9a56-472b-a77d-b019d97eec8d)
+- [Learn more about OneDrive](https://support.office.com/article/38acc14b-fd86-466e-b802-baece8107c86)
 
 
 

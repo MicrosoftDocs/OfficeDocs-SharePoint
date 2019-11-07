@@ -80,7 +80,7 @@ Additionally, the DBA may have to be a member of the **SharePoint_Shell_Access**
 ### SharePoint Server roles and services
 <a name="SPRolesandServices"> </a>
 
-In general, you should remove the ability to create new databases from SharePoint Server service accounts. Other than the account under which the timer service runs (typically the farm account), no SharePoint Server service account should have the sysadmin role on the SQL Server instance and no SharePoint Server service account should be a local Administrator on the server that runs SQL Server.
+In general, you should remove the ability to create new databases from SharePoint Server service accounts. No SharePoint Server service account should have the sysadmin role on the SQL Server instance and no SharePoint Server service account should be a local Administrator on the server that runs SQL Server.
   
 For more information about SharePoint Server accounts, see [Account permissions and security settings in SharePoint Server 2016](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md).
   

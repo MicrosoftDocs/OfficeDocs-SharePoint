@@ -68,7 +68,7 @@ The following articles about managing web parts in SharePoint Server are availab
 [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md)
 #### Other Resources
 
-[Add, edit, minimize, or delete a Web Part from a page](https://support.office.com/en-us/article/Add-edit-minimize-or-delete-a-Web-Part-from-a-page-362b1684-ad95-4a53-b826-443d8d9bdee0)
+[Add, edit, minimize, or delete a Web Part from a page](https://support.office.com/article/362b1684-ad95-4a53-b826-443d8d9bdee0)
   
-[Using web parts on pages](https://support.office.com/en-us/article/Using-web-parts-on-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0?ui=en-US&amp;rs=en-US&amp;ad=US)
+[Using web parts on pages](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0)
 

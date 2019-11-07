@@ -40,7 +40,7 @@ description: OneDrive documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-Manage-400x140.svg" alt="Monitor showing a chart, and a tablet and phone" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/OneDrive-Manage-400x140.svg" alt="Monitor showing a chart, and a tablet and phone" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -59,7 +59,7 @@ description: OneDrive documentation
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-Security-400x140.svg" alt="A sheild with a check mark and clouds" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/OneDrive-Security-400x140.svg" alt="A shield with a check mark and clouds" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -110,7 +110,7 @@ description: OneDrive documentation
                                 </a>
                             </li>                
                             <li>
-                                <a href="https://developer.microsoft.com/en-us/onedrive/docs">
+                                <a href="https://developer.microsoft.com/onedrive/docs">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
