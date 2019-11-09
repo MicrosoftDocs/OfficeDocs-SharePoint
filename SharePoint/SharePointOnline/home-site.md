@@ -44,9 +44,9 @@ When you set a site as your home site:
 ## Limitations
 
 - Only one site in an organization can be set as a home site. 
-- The site you select must be a communication site that is not associated with a hub. It can't be a subsite. 
-- This feature doesn't work if your organization has configured [Office 365 Multi-Geo](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)
-- SharePoint framework extensions will work on the home site, but not the SharePoint start page.
+- The site you select must be a communication site that's not associated with a hub. It can't be a subsite. 
+- This feature doesn't work if your organization has configured [Office 365 Multi-Geo](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365).
+- SharePoint Framework (SPFx) extensions will work on the home site, but not the SharePoint start page.
  
 ## Set up your home site
 
@@ -56,7 +56,7 @@ When you set a site as your home site:
     - Try out various page layouts, including the vertical section. For info, see [Add sections and columns](https://support.office.com/article/fc491eb4-f733-4825-8fe2-e1ed80bd0899).
     - Use [audience targeting](https://support.office.com/article/68113d1b-be99-4d4c-a61c-73b087f48a81) with SharePoint news and navigation links to tailor the experience for your audiences.
     - Use personalized web parts, preferably in a unique visual location like the vertical section with background color, which allows users to quickly consume organization content and get back to their work. 
-    - Extend the site as needed by using the SharePoint Framework. To get started building custom web parts, see [SharePoint Framework Tutorial 1](https://www.youtube.com/watch?v=S3tG2DE8tR8). For info about app extensions, see [Getting started with SharePoint Framework Application customizers](https://www.youtube.com/watch?v=gp056PEZoRQ&list=PLR9nK3mnD-OV6WhWHOMAvW-T_EBGKIs3u&index=18&t=0s).
+    - Extend the site as needed by using the SharePoint Framework (SPFx). To get started building custom web parts, see [SharePoint Framework Tutorial 1](https://www.youtube.com/watch?v=S3tG2DE8tR8). For info about app extensions, see [Getting started with SharePoint Framework Application customizers](https://www.youtube.com/watch?v=gp056PEZoRQ&list=PLR9nK3mnD-OV6WhWHOMAvW-T_EBGKIs3u&index=18&t=0s).
     - Make sure the site is set up for regular content updates. 
 3. Create a launch plan for redirecting from your current solution to the new home site and notifying users of the change.
 4. Make sure the site adheres to the [guidelines for healthy portals](https://Aka.ms/portalhealth).
@@ -90,4 +90,4 @@ Yes. For info on registering the site as a hub site, see [Create a hub site](cre
 
 **What's the difference between the home site and the SharePoint start page?**
 
-The [SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e) is tailored for each user, powered by intelligence from the Microsoft Graph. It's a personalized way to find resources. The SharePoint home site is a carefully crafted collection of content that the organization wants to deliver to users. 
+The [SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e) is tailored for each user, powered by intelligence from the Microsoft Graph. It's a personalized way to find resources. Your home site is a carefully crafted collection of content that your organization wants to deliver to users. 
