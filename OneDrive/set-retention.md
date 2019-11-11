@@ -33,7 +33,7 @@ If a user's Office 365 account is deleted, their OneDrive for Business files are
   
 2. Enter the number of days you want to retain OneDrive files in the **Days to retain files in OneDrive after a user account is marked for deletion** box.
     
-    The setting takes effect for the next user that is deleted as well as any users that re in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time. The minimum value is 30 days and the maximum value is 3650 days (ten years).
+    The setting takes effect for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time. The minimum value is 30 days and the maximum value is 3650 days (ten years).
     
 3. Click **Save**.
     
