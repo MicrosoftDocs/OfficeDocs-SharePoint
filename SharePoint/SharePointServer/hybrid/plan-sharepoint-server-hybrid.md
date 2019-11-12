@@ -13,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
+- SPO_Content
 ms.assetid: ae92f528-9768-4ea1-9b19-110fb4c88c7f
 description: "Read about SharePoint hybrid solutions. Get details on cloud hybrid search for SharePoint, using hybrid OneDrive for Business, and more."
 ---

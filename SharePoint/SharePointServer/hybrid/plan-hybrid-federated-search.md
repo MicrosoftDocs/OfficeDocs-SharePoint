@@ -13,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- SPO_Content
 ms.assetid: d845819f-0cbf-4595-bb14-19414acbd79b
 description: "Plan to configure a SharePoint hybrid environment so that user searches from a Search Center display hybrid federated results."
 ---

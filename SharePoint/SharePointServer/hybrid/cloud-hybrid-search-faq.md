@@ -7,7 +7,7 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-ms.collection:
+ms.collection: SPO_Content
 localization_priority: Priority
 ms.custom: 
 description: "Cloud hybrid search service (Cloud SSA) FAQ"

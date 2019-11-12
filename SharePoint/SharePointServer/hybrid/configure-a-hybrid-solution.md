@@ -14,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - M365-collaboration
+- SPO_Content
 ms.assetid: ad39b1b5-a73b-4a48-af5e-4f032ea52e1d
 description: "Configure a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Office 365."
 ---

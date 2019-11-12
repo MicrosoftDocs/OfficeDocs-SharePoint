@@ -14,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - M365-collaboration
+- SPO_Content
 ms.assetid: 43e52f2f-2586-451d-814d-edf43f3459ab
 
 description: "Learn what prerequisites you'll need to configure hybrid for SharePoint Server."
