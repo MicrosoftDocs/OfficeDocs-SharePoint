@@ -33,7 +33,7 @@ A typical use case is in eDiscovery, where you can grant a security group permis
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. Choose **Classic features**. 
+3. Choose **More features**. 
  
 4. Under **Search**, select **Open**.
     

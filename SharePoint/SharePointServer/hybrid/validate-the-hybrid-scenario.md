@@ -14,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - M365-collaboration
+- SPO_Content
 ms.assetid: 48a1c449-7bf6-4f12-a5f3-1933caadf713
 description: "How to validate the Business Connectivity Services (BCS) hybrid solution is working."
 ---

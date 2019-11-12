@@ -62,7 +62,7 @@ To understand your environment before you upgrade it, and to plan for the time t
 
 To guarantee a smooth upgrade from SharePoint Server 2013 to SharePoint Server 2016, follow these best practices:
   
-1. Install the latest [Cumulative Update for SharePoint Server 2013](https://docs.microsoft.com/en-us/officeupdates/sharepoint-updates#sharepoint-2013-update-history) and latest [Public Update for SharePoint Server 2016](https://docs.microsoft.com/en-us/officeupdates/sharepoint-updates#sharepoint-2016-update-history) (but at a minimum, SharePoint Server 2013 must be running the March 2013 PU (15.0.4481.1005)).
+1. Install the latest [Cumulative Update for SharePoint Server 2013](https://docs.microsoft.com/officeupdates/sharepoint-updates#sharepoint-2013-update-history) and latest [Public Update for SharePoint Server 2016](https://docs.microsoft.com/officeupdates/sharepoint-updates#sharepoint-2016-update-history) (but at a minimum, SharePoint Server 2013 must be running the March 2013 PU (15.0.4481.1005)).
 
 2. Ensure that the environment is fully functioning before you begin to upgrade.
     

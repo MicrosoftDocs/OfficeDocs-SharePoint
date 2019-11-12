@@ -10,8 +10,6 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
-- IT_SharePoint_Hybrid_Top
-- IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
 ms.custom:

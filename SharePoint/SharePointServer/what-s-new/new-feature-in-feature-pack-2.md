@@ -37,7 +37,7 @@ SharePoint Server 2016 Feature Pack 2 contains SharePoint Framework client-side 
   
 [New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-in-feature-pack-1.md)
   
-[What's new in SharePoint Server 2016](https://support.office.com/en-US/article/What-s-new-in-SharePoint-Server-2016-089369b5-c3d4-4551-8bed-22b2548abd3b?ui=en-US&amp;rs=en-US&amp;ad=US)
+[What's new in SharePoint Server 2016](https://support.office.com/article/089369b5-c3d4-4551-8bed-22b2548abd3b)
   
 ## See also
 

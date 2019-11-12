@@ -40,7 +40,7 @@ The amount of SharePoint Online space your organization has is based on your num
     ![Storage bar on the Active sites page](media/active-sites-storage-bar.png)
 
     > [!NOTE]
-    > The amounts shown on the bar do not include OneDrive storage. For information about OneDrive storage, see the [OneDrive service description](/office365/servicedescriptions/onedrive-for-business-service-description).
+    > The storage used doesn't include changes made within the last 24-48 hours. 
 
 ## Set automatic or manual site storage limits
 <a name="__toc365547981"> </a>

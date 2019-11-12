@@ -18,6 +18,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: 81ea6763-c331-453b-80f7-8028c3e551f8
 description: "Learn how to configure hybrid OneDrive for Business with Office 365."

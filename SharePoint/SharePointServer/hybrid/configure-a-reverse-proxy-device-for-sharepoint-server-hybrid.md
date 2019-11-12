@@ -11,6 +11,7 @@ ms.prod: sharepoint-server-itpro
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
+- SPO_Content
 localization_priority: Normal
 ms.assetid: 1780ec27-19f8-4d77-b787-8abc23921258
 

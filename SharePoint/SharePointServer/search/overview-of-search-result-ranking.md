@@ -227,5 +227,5 @@ You can read more about how to create, deploy and use a custom ranking model in 
   
 [Overview of the search schema in SharePoint Server](search-schema-overview.md)
   
-[Create a custom ranking model by using the Ranking Model Tuning App](https://docs.microsoft.com/en-us/sharepoint/search/create-custom-ranking-model)
+[Create a custom ranking model by using the Ranking Model Tuning App](https://docs.microsoft.com/sharepoint/search/create-custom-ranking-model)
 

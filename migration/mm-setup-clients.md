@@ -1,5 +1,5 @@
 ---
-title: "Set up multiple Migration Manager clients"
+title: "Setup Migration Manager clients"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -10,24 +10,32 @@ ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - M365-collaboration
-- IT_Sharepoint_Server_Top
 - SPMigration
 search.appverid: MET150
 description: Set up multiple Migration Manager clients
 ---
 
-# Set up multiple Migration Manager clients
+# Setup Migration Manager clients
 
-The Migration Manager centralizes the management of large file share migrations by configuring one or computers or VMs as migration “clients”.  To do this, you download and run a setup file on each computer.  
+>[!Note]
+>Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
-When you run the setup file, you are be prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager.  Migration Manager now sees it as an available "client" to which it can automatically assign migrations tasks that you create.
 
-After the "clients" are all configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically assigned to one of the configured clients. 
+The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration “clients”.  To do this, you download and run a setup file on each computer.  
+
+When you run the setup file, you are prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager.  Migration Manager now sees it as an available "client" to which it can automatically distribute migrations tasks.
+
+After a client is configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically distributed to one of the configured clients. 
 
 
 ## Before you begin
 
-- Check to make sure all system prerequisites have been installed on your local computer or VM before downloading and installing the Migration Manager client setup file
+- Make sure all system prerequisites have been installed on your local computer or VM before running the Migration Manager client setup file
+
+>[!Note]
+>Third party multi-factor authentication is not supported at this time.
+
+
 
 
 ### Recommended practices
@@ -42,20 +50,18 @@ After the "clients" are all configured, anyone with the permission to go into th
 
 
 
- 
-
 
 ### Prerequisites
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
 |CPU|64-bit quad core processor or better|64-bit 1.4 GHz 2-core processor or better|
-|.Net version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
+|.Net version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](https://docs.microsoft.com/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
 |RAM|16 GB|8GB|
 |Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|High speed internet connection|
 |Operating system|Windows Server 2012 R2 or Windows 10 client|Windows Server 2012 R2 or Windows 10 client|
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
-|Anti-virus|Stop 3rd party anti-virus software on your computer prior to installation|Stop 3rd party anti-virus software on your computer prior to installation|</br>
+|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |</br>
 
 ### Required endpoints
 
@@ -85,18 +91,16 @@ After the "clients" are all configured, anyone with the permission to go into th
 On completion this computer will be added to the available clients that the Migration Manager can assign tasks.
 
 
-
-
 ## Set up multiple clients
 
-Based on the size of the content you want to migrate, you can setup as many clients as you need. If you are setting up multiple clients, we recommend that you download the client setup file to a shared location. That way you can you can easily download the setup file on each of computer or VM.  
+Based on the size of the content you want to migrate, you can setup as many clients as you need. If you are setting up multiple clients, we recommend that you download the client setup file to a shared location. That way you can easily download the setup file on each of computer or VM.  
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin.
 2. In the left pane, under Admin centers, select SharePoint.
-3. In the left pane select **Migration solutions** and then **Migration Manager**.
+3. In the left pane select **Migration** and then **Migration Manager**.
 4. Select **Download client setup file**.  If you previously downloaded the setup file, click the *Clients* tab and select **Add client**.  Save the file to file to a shared location.
 5. Run the setup file on each VM or windows computer you plan on using to run migration tasks on.
 
-
-
-
+>[!Note]
+> Migration Manager automatically assigns tasks to a available client, it does the load balancing for you. You cannot manually assign a task to a specific client.
+  

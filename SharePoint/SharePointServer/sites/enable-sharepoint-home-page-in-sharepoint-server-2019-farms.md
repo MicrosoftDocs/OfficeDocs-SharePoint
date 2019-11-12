@@ -43,7 +43,7 @@ The SharePoint home page experience includes the following features:
 
   - **Suggested:** These sites that have the most activity that you’re not following.
 
-For more information, see the &#8220;2019&#8221; section in [Find news, sites, and portals in SharePoint](https://support.office.com/en-us/article/find-news-sites-and-portals-in-sharepoint-6b85097a-87e0-4611-a29a-dfd49b1a1220).
+For more information, see the &#8220;2019&#8221; section in [Find news, sites, and portals in SharePoint](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220).
 
 ## Requirements to enable the SharePoint home page
 <a name="section2"> </a>

@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
+- SPO_Content
 ms.assetid: 91274b73-f7be-4066-a4ab-ec30af30016e
 description: "Learn how to configure inbound connectivity for SharePoint hybrid."
 ---

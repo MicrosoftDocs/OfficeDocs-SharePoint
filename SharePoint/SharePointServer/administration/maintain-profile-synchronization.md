@@ -60,7 +60,7 @@ SharePoint Server lets you handle several different user migration scenarios. Th
 4. Ensure that user migration by using  `stsadm -o migrateuser` has succeeded.
 
 >[!NOTE]
->[Move-SPUser](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/move-spuser) can also be used to migrate users.
+>[Move-SPUser](https://docs.microsoft.com/powershell/module/sharepoint-server/move-spuser) can also be used to migrate users.
     
 5. Ensure that the profile of the migrated user can be accessed by browsing to the My Site for that user, for example, http://mysite/person.aspx?accountname=\<new account name\>.
     
