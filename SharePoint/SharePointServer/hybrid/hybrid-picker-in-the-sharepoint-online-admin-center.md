@@ -15,6 +15,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: dcac4cbf-7840-470a-9712-3b968c4f06d0
 description: Learn how to use the Hybrid Picker wizard in the SharePoint Online admin center.

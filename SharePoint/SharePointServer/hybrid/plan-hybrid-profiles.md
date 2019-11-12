@@ -15,6 +15,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: ec40c4af-0344-43d3-97ac-5f91282db978
 description: "When you have both SharePoint Server and Office 365, by default users have a different profile in each location. This can lead to a confusing profile experience for your users. With hybrid profiles, user have a single profile in Office 365 where they can maintain all of their profile information."

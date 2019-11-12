@@ -12,6 +12,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- SPO_Content
 localization_priority: Normal
 ms.assetid: b291ea58-cfda-48ec-92d7-5180cb7e9469
 description: "Plan and prepare to configure inbound connectivity from Office 365 to SharePoint Server hybrid environment."

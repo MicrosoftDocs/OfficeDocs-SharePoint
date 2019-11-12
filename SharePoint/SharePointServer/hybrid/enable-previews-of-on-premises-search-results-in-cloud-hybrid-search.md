@@ -15,6 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPO_Content
 ms.custom: 
 ms.assetid: ccd99adc-b00a-4a0b-8609-a51ebe19c982
 description: "Learn how to enable display of previews of on-premises search results in a Search Center in Office 365 for cloud hybrid search."

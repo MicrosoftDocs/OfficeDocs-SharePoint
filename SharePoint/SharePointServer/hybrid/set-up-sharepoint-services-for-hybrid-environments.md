@@ -16,6 +16,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: 70e043ef-8908-436e-92bf-abbcd89874f7
 description: "Learn how to set up the SharePoint Server services you'll need for a hybrid environment."

@@ -13,6 +13,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
+- SPO_Content
 localization_priority: Priority
 ms.custom: 
 ms.assetid: f6d49e94-ad29-456d-8cd9-f940154d5a0e
