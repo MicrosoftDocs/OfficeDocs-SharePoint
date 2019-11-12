@@ -12,6 +12,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- SPO_Content
 localization_priority: Normal
 ms.assetid: d7173fc7-65cd-4201-8095-7ad805f50c95
 description: "Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint Online, and manually create an external list to surface the on-premises data."

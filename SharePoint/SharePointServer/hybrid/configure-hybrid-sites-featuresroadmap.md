@@ -15,6 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: 4bd426f4-105c-41cf-a4b8-815db62191ce
 description: "Learn how to configure hybrid sites features for SharePoint hybrid with Office 365."

@@ -16,6 +16,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: 1a11cbf3-ab19-4aa0-ae9c-8e4b793154a2
 description: "Learn how to show results from the Office 365 search index when searching from SharePoint Server sites with cloud hybrid search."

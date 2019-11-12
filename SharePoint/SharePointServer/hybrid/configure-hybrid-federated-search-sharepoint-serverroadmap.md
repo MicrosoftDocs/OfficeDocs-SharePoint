@@ -13,7 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
-- Strat_SP_gtc
+- SPO_Content
 ms.custom: 
 ms.assetid: 445bce79-f6d6-4ab6-9d50-f0672cd093f4
 description: "Learn how to configure hybrid federated search from SharePoint Server to SharePoint Online."
