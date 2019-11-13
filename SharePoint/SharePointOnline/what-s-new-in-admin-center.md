@@ -24,17 +24,24 @@ We're continuously adding new features to the new SharePoint admin center and fi
 > [!NOTE]
 > The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features described in this article. 
   
-## November 2019
+## December 2019
 
 - The navigation pane can be customized to show or hide items. 
 - On the Active sites page, you can select and replace the root site.
 - On the Active sites page, you can point to a name in the Primary admin column or on the Permissions tab of the details panel and see more info about the person. 
-- On the Active sites page, you can change site addresses.
 - On the Active sites page, the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. 
 - When you select a site and select **Sharing**, you can change the default sharing link type and default link permissions for the site. 
 - A new experience that lets you manage all site admins in one panel, view site members and visitors, and add site admins to sites that belong to Office 365 groups. 
 - The Settings page has been redesigned so you can see the value for settings on the main page.
 - Classic features can now be found under **More features**.
+
+## November 2019
+
+- If you're using the new sensitivity labels, you can view and edit them from the Active sites page.
+
+## October 2019
+
+- From the Active sites page, you can change site addresses.
 
 ## June 2019
 

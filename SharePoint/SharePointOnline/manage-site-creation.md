@@ -42,9 +42,14 @@ As a global or SharePoint admin in Office 365, you can let your users create and
 
     ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
-5. Select to create Office 365 group-connected team sites under /sites or /teams, select the default time zone and storage limit for new sites, and turn **Let users create new sites** On or Off. 
+5. Select **Let users create sites from the SharePoint start page and OneDrive** if you want users to be able to create sites from these services.
 
-6. Select **Save**.
+> [!NOTE]
+> Even if you clear this check box, users may be able to create Office 365 groups from other places in Office 365. Each group always comes with a team site.[Learn how to manage who can create Office 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
+
+6. Select to create Office 365 group-connected team sites under /sites or /teams, select the default time zone and storage limit for new sites.
+
+7. Select **Save**.
  
 ## Manage detailed site and subsite creation settings in the classic SharePoint admin center
 
@@ -56,15 +61,13 @@ As a global or SharePoint admin in Office 365, you can let your users create and
     
     ![Site creation settings](media/df009314-836b-4ed1-b656-c5c6dd07f1a5.png)
   
-    > [!NOTE]
-    > To allow only a select set of users to create groups, use the PowerShell cmdlet  `GroupCreationAllowedGroupId`. For info about this cmdlet, see [Azure Active Directory cmdlets for configuring group settings](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-groups-settings-cmdlets/). 
-  
-  
   - **A new team site or communication site**: Select to create the group-connected team sites under (/sites or /teams) and whether a secondary contact is required. To let users create sites from a custom form you've created, enter its URL in the **Use the form at this URL** box. When users select which type of site they want to create, they'll be able to access the form by clicking "See other options." 
     
-  - **A classic site**: Use this option to allow users to create only default classic sites or sites from your custom form. Specify where sites are created, and whether a site classification or secondary contact is required. To specify a custom form, enter the URL for the custom form in the **Use the form at this URL** box. 
+  - **A classic team subsite**: Use this option to allow users to create only default classic sites or sites from your custom form. Specify where sites are created, and whether a site classification or secondary contact is required. To specify a custom form, enter the URL for the custom form in the **Use the form at this URL** box. 
     
     > [!NOTE]
     > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell). 
   
-4. Select **OK**.
+4. Under **Subsite creation**, specify whether users can select **New** > **Subsite** on the Site contents page to create a new subsite. 
+
+5. Select **OK**.

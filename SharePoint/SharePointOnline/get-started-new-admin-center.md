@@ -35,7 +35,7 @@ The Home page of the new SharePoint admin center gives you an overview of ShareP
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner. 
 
 > [!TIP]
-> To set the new SharePoint admin center as the default experience, select **Settings** in the left pane, select **Default admin experience**, turn on **Open the new SharePoint admin center by default**, and then select **Save**.
+> To set the new SharePoint admin center as the default experience, select **Settings** in the left pane, select **Default admin experience**, select **Open the new SharePoint admin center by default**, and then select **Save**.
 
 ## View reports
 
@@ -65,6 +65,15 @@ In the Service health section of the home page, you can see whether the SharePoi
   
 ![The Service health card on the Home page](media/0336aab6-aecb-494c-9cd2-f279f452cc79.PNG)
   
+## Customize the navigation pane
+
+1. At the bottom of the navigation pane, select **Customize navigation**.
+2. Select the items you want to appear in the navigation pane, and then select **Save**.
+
+> [!TIP]
+> To minimize the navigation pane, select the **Collapse navigation menu** icon at the top of the navigation pane.
+
+
 ## Where to find things in the new SharePoint admin center
 
 If you're used to working in the classic SharePoint admin center, use the following table to learn where you can find features and tasks in the new admin center.
@@ -77,18 +86,13 @@ If you're used to working in the classic SharePoint admin center, use the follow
 |Select site collections on the site collections page and select **Delete**     |    On the Active sites page, select sites and then select Delete      |         |
 |Select a site collection on the site collections page and select **Properties**    |   On the Active sites page, select the site's name to open the details pane |    In the new SharePoint admin center, you can edit site details.     |
 |Select a site collection on the site collections page and select **Owners** > **Manage Administrators**     |    On the Active sites page, select a site, and then select Owners      |    The new experience also lets you view and edit Office 365 Group owners.      |
-|Select a site collection on the site collections page and select **Sharing**     |     On the Active sites page, select a site, and then select Sharing (or select multiple sites, and then select Bulk edit > Sharing)    |    Some site-level sharing settings are still coming to the new SharePoint admin center.     |
+|Select a site collection on the site collections page and select **Sharing**     |     On the Active sites page, select a site, and then select Sharing (or select multiple sites, and then select Bulk edit > Sharing)    |        |
 |On the site collections page, select **Buy Storage**     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
 |On the site collections page, select **Recycle Bin**    |    Deleted sites page    |         |
 |   Sharing page |       Sharing page  |        The new page includes the most common settings, and others are coming soon. |
 |Settings page     |    Settings page     |      The new page includes the most common settings, and others are coming soon. At the bottom of the new Settings page, you can select **classic settings page** to access all the classic settings.    |
 |Access control page     |    Access control page     |     The new SharePoint admin center contains all the classic settings and more.    |
-|Term store, User profiles, Search, Apps |   Classic features page      |         |
-|BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker)  |  Classic features page > More classic features       |         |
-
-
-
-
+|Term store, User profiles, Search, Apps, BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker) |   More features page      |         |
 
 
 ## See also
