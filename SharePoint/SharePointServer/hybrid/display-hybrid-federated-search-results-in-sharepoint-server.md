@@ -13,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- SPO_Content
 ms.assetid: 69f8553c-3df5-4366-ac6a-941e619a84cf
 description: "Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from both the SharePoint Server and SharePoint Online search indexes."
 ---

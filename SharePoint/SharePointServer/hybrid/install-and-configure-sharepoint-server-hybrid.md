@@ -14,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - M365-collaboration
+- SPO_Content
 ms.assetid: ea492d95-d2de-4db2-a848-96cb12dc9eaa
 description: "Learn about the installation and configuration tasks that are required to set up your chosen SharePoint hybrid solution."
 ---

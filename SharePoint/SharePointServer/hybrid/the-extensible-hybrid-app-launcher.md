@@ -15,6 +15,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: 50c7ba0d-67bb-4e0a-a173-ab2c5756fadf
 description: "The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Office 365."

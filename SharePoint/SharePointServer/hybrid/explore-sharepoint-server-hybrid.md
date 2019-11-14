@@ -16,6 +16,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: 4ab7d5bc-abd7-40df-a3db-4306044af01f
 description: "Overview and introductory articles on SharePoint Server hybrid to help you decide which hybrid solution you should use for your business."

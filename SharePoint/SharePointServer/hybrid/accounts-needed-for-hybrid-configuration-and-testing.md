@@ -14,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - M365-collaboration
+- SPO_Content
 ms.assetid: c824fa0f-bae9-4791-92ee-38d8e70140ec
 description: "Learn about the accounts you need to use when you configure a SharePoint Server hybrid solution."
 ---
