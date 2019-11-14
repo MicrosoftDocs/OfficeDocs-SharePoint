@@ -46,7 +46,7 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
 
     ![Screenshot of the dialog box that prompts users to protect their important folders](media/protect-important-folders-gpo.png)
 
-    If users dismiss the prompt, a dismissable reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, at which case the reminder notification will be dismissed.
+    If users dismiss the prompt, a dismissable reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
     ![Screenshot of the notification that reminds users to protect their important folders](media/protect-important-folders-notification.png)
 
