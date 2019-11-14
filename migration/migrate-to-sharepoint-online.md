@@ -66,7 +66,7 @@ Microsoft FastTrack services can help you get started with your migration to the
 |Migration Manager (preview)|Available in the SharePoint Admin center, Migraiton Manager provides a centralized way of connecting servers, creating tasks, and automatically distributing your migration tasks.|Ideal for enterprise customers migrating large file shares.|
 |Mover|Service for cloud to cloud migration.|Ideal for migrating data from other cloud service providers into OneDrive or SharePoint. Mover supports migration from over a dozen cloud service providers, including Box, Dropbox, Egnyte, and Google Drive.|
 |Azure Data Box| The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. Copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. Use SPMT to migrate content to SharePoint. |Ideal when you want remove the dependency on your WAN link to transfer data.|
-|OneDrive sync app  <br/> |After installing the OneDrive sync app and syncing your library, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint.  <br/> |Ideal for individual file migration.|
+|OneDrive sync app  <br/> |After installing the OneDrive sync app and syncing your library, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint.  <br/> |Ideal for individuals wanting to move files.|
 |Manual upload  <br/> |Uploading files one at a time from the SharePoint Online tenant. <br/> |Best for smaller files.|
 
 >[!Note]
