@@ -38,7 +38,7 @@ Browse the samples in the online [SharePoint look book](https://lookbook.microso
 Once you've decided on an sample you want to use in your tenant, select the **Add to your tenant** button near the bottom of the page. Note that you'll need to be signed in as a tenant admin to use this service.
 
 
-![](media/LookBookCover1.jpg)
+![](media/LookBookCover1.png)
 
 
 ### Enter your information
