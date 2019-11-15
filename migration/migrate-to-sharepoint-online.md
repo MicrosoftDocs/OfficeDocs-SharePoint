@@ -17,7 +17,7 @@ description: "Which tool to use when migrating content to SharePoint and OneDriv
 
 # Migrating your content to SharePoint and OneDrive
 
-Moving to SharePoint Online or OneDrive? There are several tools and methods you can use; what is best for your and your organization depends on a number of factors including the amount of data and the size. What data do you want or need to move? Where is the content currently stored? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
+Moving to SharePoint or OneDrive? There are several tools and methods you can use; what is best for you and your organization depends on a number of factors including the amount and size files. What content do you want or need to move? Where does it currently reside? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
 
 To learn more about the which tool to use, see the table below.
 
