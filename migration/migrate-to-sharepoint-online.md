@@ -19,6 +19,8 @@ description: "Which tool to use when migrating content to SharePoint and OneDriv
 
 Moving to SharePoint Online or OneDrive? There are several tools and methods you can use; what is best for your and your organization depends on a number of factors including the amount of data and the size. What data do you want or need to move? Where is the content currently stored? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
 
+To learn more about the which tool to use, see the table below.
+
 
 >[!Note]
 > On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
