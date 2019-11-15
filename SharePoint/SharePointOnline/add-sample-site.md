@@ -1,5 +1,5 @@
 ---
-title: Get started, get inspired: add a sample site to your tenant
+title: Add a sample site to your tenant
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
