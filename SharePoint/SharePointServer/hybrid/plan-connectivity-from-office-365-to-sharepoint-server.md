@@ -12,6 +12,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- SPO_Content
 localization_priority: Normal
 ms.assetid: b291ea58-cfda-48ec-92d7-5180cb7e9469
 description: "Plan and prepare to configure inbound connectivity from Office 365 to SharePoint Server hybrid environment."
@@ -229,7 +230,7 @@ During deployment, you'll install the SSL certificate both on the reverse proxy 
 ### Get a Secure Channel SSL certificate
 <a name="GetSecureChannel"> </a>
 
-Get a Secure Channel SSL wildcard or SAN (Subject Alternative Name) certificate for your on-premises public domain from a well-known certificate authority, such as DigiCert, VeriSign, Thawte, or GeoTrust.
+Get a Secure Channel SSL wildcard or SAN (Subject Alternative Name) certificate for your on-premises public domain from a well-known certificate authority, for example, DigiCert, VeriSign, Thawte, or GeoTrust.
   
 > [!NOTE]
 >  This certificate must support multiple names and must be at least 2048 bits. >  The **Subject** or **Subject Name** field of the certificate must contain a wildcard entry of the domain name in the External URL. For example, if your external URL is https://spexternal.public.adventureworks.com, the subject of your wildcard certificate should be **\*.public.adventureworks.com**. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint Administrators should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 

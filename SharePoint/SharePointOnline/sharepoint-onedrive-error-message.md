@@ -1,6 +1,6 @@
 ---
 title: "Sharing errors in SharePoint and OneDrive"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -29,28 +29,29 @@ First, change the external sharing setting for your organization:
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.   
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-3. In the left pane of the new SharePoint admin center, select **sharing**.
-4. Under **Sharing outside your organization**, choose **Allow users to invite and share with authenticated external users** or **Allow sharing to authenticated external users and using anonymous access links**.
-5. Click **OK**
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)    
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+4. In the left pane of the new SharePoint admin center, select **Policies** > **Sharing**.
+5. Under **External sharing**, choose **Anyone** or **New and existing guests** for both SharePoint and OneDrive.
+6. Select **Save**
 
 Next, check the external sharing settings for the site that you want to share from.
 
 ### If you're sharing from a SharePoint site:
 
-1. In the SharePoint admin center, click **Try it now** to open the new SharePoint admin center.
-2. In the left pane of the new SharePoint admin center, select **Active sites**.
-3. Click the site that you want to share from, and then under **External sharing** click **Change**.
-4. Make sure that either **New and existing guests** or **Anyone** is selected, and then click **Save** if you made changes.
+1. In the left pane of the new SharePoint admin center, select **Sites** > **Active sites**.
+2. Select the site that you want to share from, and then select **Sharing**.
+3. Make sure that either **New and existing guests** or **Anyone** is selected, and then click **Save** if you made changes.
 
 Try sharing again.
 
 ### If you're sharing from OneDrive:
 
-1. In the Microsoft 365 admin center, in the left pane, under **Admin centers**, select **OneDrive**. (You might need to select **Show all** to see the list of admin centers.)
-2. Under **External sharing**, select either **New and existing external users** or **Anyone** for **OneDrive**.
-3. Click **Save**.
+1. In the Microsoft 365 admin center, in the left pane, under **Users**, select **Active users**. 
+2. Select the user, and then select the OneDrive tab. 
+3. Select **Manage external sharing**.
+4. Make sure **Let people outside your organization access your site** is turned on and **Allow sharing with anonymous guest links and authenticated users** or **Allow sharing to authenticated guest users with invitations** is selected. 
 
 Try sharing again.
 
@@ -63,28 +64,29 @@ First, change the external sharing setting for your organization.
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.   
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-3. In the left pane of the new SharePoint admin center, select **sharing**.
-4. Under **Sharing outside your organization**, choose **Allow users to invite and share with authenticated external users** or **Allow sharing to authenticated external users and using anonymous access links**.
-5. Click **OK**
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)    
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+4. In the left pane of the new SharePoint admin center, select **Policies** > **Sharing**.
+5. Under **External sharing**, choose **Anyone** or **New and existing guests** for both SharePoint and OneDrive.
+6. Select **Save**
 
 Next, check the external sharing settings for the site that you want to share from.
 
 ### If you're sharing from a SharePoint site:
 
-1. In the SharePoint admin center, click **Try it now** to open the new SharePoint admin center.
-2. In the left pane of the new SharePoint admin center, select **Active sites**.
-3. Click the site that you want to share from, and then under **External sharing** click **Change**.
-4. Make sure that either **New and existing guests** or **Anyone** is selected, and then click **Save** if you made changes.
+1. In the left pane of the new SharePoint admin center, select **Sites** > **Active sites**.
+2. Select the site that you want to share from, and then select **Sharing**.
+3. Make sure that either **New and existing guests** or **Anyone** is selected, and then click **Save** if you made changes.
 
 Try sharing again.
 
 ### If you're sharing from OneDrive:
 
-1. In the Microsoft 365 admin center, in the left pane, under **Admin centers**, select **OneDrive**. (You might need to select **Show all** to see the list of admin centers.)
-2. Under **External sharing**, select either **New and existing external users** or **Anyone** for **OneDrive**.
-3. Click **Save**.
+1. In the Microsoft 365 admin center, in the left pane, under **Users**, select **Active users**. 
+2. Select the user, and then select the OneDrive tab. 
+3. Select **Manage external sharing**.
+4. Make sure **Let people outside your organization access your site** is turned on and **Allow sharing with anonymous guest links and authenticated users** or **Allow sharing to authenticated guest users with invitations** is selected. 
 
 Try sharing again.
 
@@ -95,14 +97,12 @@ Error OSE204 indicates that sharing is turned off for the site that you're tryin
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
-4. In the left pane of the new SharePoint admin center, select **Active sites**.
-5. Click the site that you want to share from.
-6. In the Properties pane, select the elipses (...), and then select **Sharing**.
-7. Select either **New and existing guests** or **Anyone**, and then click **Save**.
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)    
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+4. In the left pane of the new SharePoint admin center, select **Sites** > **Active sites**.
+5. Select the site that you want to share from, and then select **Sharing**.
+6. Make sure that either **New and existing guests** or **Anyone** is selected, and then click **Save**.
 
 Try sharing again.
 
@@ -113,13 +113,12 @@ Error OSE205 indicates that you can only share the site with guests who are alre
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-3. If the classic SharePoint admin center appears, select **Try it now** to open the new SharePoint admin center. 
-4. In the left pane of the new SharePoint admin center, select **Active sites**.
-5. Click the site that you want to share from.
-6. In the Properties pane, under **External sharing**, click **Change**.
-7. Select either **New and existing guests** or **Anyone**, and then click **Save**.
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)    
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+4. In the left pane of the new SharePoint admin center, select **Sites** > **Active sites**.
+5. Select the site that you want to share from, and then select **Sharing**.
+6. Make sure that either **New and existing guests** or **Anyone** is selected, and then click **Save**.
 
 ## OSE207
 
@@ -128,11 +127,12 @@ Error OSE207 indicates that external sharing is turned off for OneDrive. You can
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-2. In the left pane, under **Admin centers**, select **OneDrive**. (You might need to select **Show all** to see the list of admin centers.) 
-3. Select **Sharing**. 
-4. Under **External sharing**, select either **New and existing external users** or **Anyone** for **OneDrive**.
-5. Click **Save**.
+    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.    
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)    
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+4. In the left pane of the new SharePoint admin center, select **Policies** > **Sharing**.
+5. Under **External sharing**, choose **Anyone** or **New and existing guests** for OneDrive.
+6. Select **Save**
 
 Try sharing again.
 

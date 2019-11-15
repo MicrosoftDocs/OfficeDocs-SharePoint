@@ -1,6 +1,6 @@
 ---
 title: "Silently configure user accounts"
-ms.reviewer: 
+ms.reviewer: wsproule
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -15,18 +15,18 @@ search.appverid:
 - ODB160
 - MET150
 ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
-description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync client in an enterprise."
+description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync app in an enterprise."
 ---
 
 # Silently configure user accounts
 
-This article is for IT admins who would like to silently configure user accounts when deploying the new OneDrive sync client (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
+This article is for IT admins who would like to silently configure user accounts when deploying the new OneDrive sync app (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
   
 ## Overview
 
 If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. Before if begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set (on devices that don't have Files On-Demand enabled), OneDrive will prompt the user to choose folders to sync. For info about setting this threshold using Group Policy, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB). 
   
-If you enable this setting and the user is syncing files with the previous OneDrive for Business sync client (Groove.exe), the new sync client (OneDrive.exe) will attempt to take over syncing and import the user's sync settings. 
+If you enable this setting and the user is syncing files with the previous OneDrive for Business sync app (Groove.exe), the new sync app (OneDrive.exe) will attempt to take over syncing and import the user's sync settings. 
   
 ## Prerequisites
 
@@ -61,7 +61,7 @@ If the computers on your network are joined to Active Directory on-premises, you
 
 Using Group Policy:
   
-1. Enable silent account configuration. For info, see [Silently sign in users to the OneDrive sync client with their Windows credentials](use-group-policy.md#SilentAccountConfig). If a device is not already joined to Azure AD, enabling this setting will join it.
+1. Enable silent account configuration. For info, see [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#SilentAccountConfig). If a device is not already joined to Azure AD, enabling this setting will join it.
     
 2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB). Note that if you enable Files On-Demand, OneDrive will ignore the maximum size value.
     
@@ -97,17 +97,4 @@ New-ItemProperty -Path $HKLMregistryPath -Name 'SilentAccountConfig' -Value '1' 
 New-ItemProperty -Path $DiskSizeregistryPath -Name $TenantGUID -Value '102400' -PropertyType DWORD -Force | Out-Null ##Set max OneDrive threshold before prompting
 ``` 
 
-## Send feedback
-<a name="sendfeedback"> </a>
-
-Please let us know if you have feedback on this feature or encounter any issues:
-  
-1. Right-click the blue OneDrive icon in the notification area, at the far right of the taskbar.
-    
-2. Click **Report a problem**.
-    
-3. Enter a brief description and include the phrase "SilentConfig" in your message to send your feedback directly to engineers working on this feature. 
-    
-4. Click **OK**. You'll receive an email message with a ticket number to track your feedback.
-    
 

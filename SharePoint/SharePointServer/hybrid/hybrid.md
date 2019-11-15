@@ -14,6 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 - M365-collaboration
+- SPO_Content
 ms.assetid: f26ad022-5c99-4a27-a093-52cc9ee71296
 description: "Learn about SharePoint Server hybrid environments and the hybrid solutions available for SharePoint Server and SharePoint Online."
 ---

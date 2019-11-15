@@ -186,21 +186,21 @@ Use the procedure in this section to create a new claims-based SharePoint Server
     
   -  _\<Port\>_ is the port on which the web application will be created in IIS. 
     
-    > [!NOTE]
-    > For more information, see [New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps). 
+   > [!NOTE]
+   > For more information, see [New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps). 
   
-    The following example creates an https claims-based web application, using the current user credentials and the current machine name:
+   The following example creates an https claims-based web application, using the current user credentials and the current machine name:
     
   ```
   $ap = New-SPAuthenticationProvider
   New-SPWebApplication -Name "Contoso Internet Site" -URL "https://www.contoso.com"  -Port 80 
   -ApplicationPool "ContosoAppPool" 
-  -ApplicationPoolAccount (Get-SPManagedAccount "DOMAIN\jdoe") 
+  -ApplicationPoolAccount (Get-SPManagedAccount "DOMAIN\wa") 
   -AuthenticationProvider $ap -SecureSocketsLayer
   ```
 
-    > [!NOTE]
-    > After you have created the web site, you must configure SSL in IIS for this newly created web site. 
+   > [!NOTE]
+   > After you have created the web site, you must configure SSL in IIS for this newly created web site. 
   
 ## Create a classic-mode web application by using PowerShell
 <a name="section3"> </a>
@@ -243,11 +243,11 @@ Use the procedure in this section to create a new classic-mode SharePoint Server
     
   -  _\<URL\>_ is the public URL for the web application. 
     
-    > [!NOTE]
-    > For more information, see [New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps). 
+   > [!NOTE]
+   > For more information, see [New-SPWebApplication](/powershell/module/sharepoint-server/New-SPWebApplication?view=sharepoint-ps). 
   
-    > [!NOTE]
-    > After you successfully create the web application, when you open the Central Administration page, you see a health rule warning that indicates that one or more web applications is enabled with classic authentication mode. This is a reflection of our recommendation to use claims-based authentication instead of classic mode authentication. 
+   > [!NOTE]
+   > After you successfully create the web application, when you open the Central Administration page, you see a health rule warning that indicates that one or more web applications is enabled with classic authentication mode. This is a reflection of our recommendation to use claims-based authentication instead of classic mode authentication. 
   
 ## See also
 <a name="section3"> </a>

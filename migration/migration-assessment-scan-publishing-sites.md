@@ -7,12 +7,14 @@ manager: pamgreen
 ms.date: 9/12/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 33af6b99-4b90-4edd-8ff7-e8fe2f288d3d
 

@@ -13,6 +13,7 @@ ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server
 - IT_SharePoint_Hybrid_Top
+- SPO_Content
 ms.assetid: 3f7cf424-3340-4010-ad3b-6aef0cd74428
 description: "Learn how to configure the Business Connectivity Services (BCS) hybrid scenario to access on-premises data through SharePoint Online."
 ---

@@ -30,11 +30,11 @@ To get started with OneDrive, follow these steps:
 
 3.  **Add OneDrive licenses.** Review your plan options in [Compare OneDrive for Business plans](https://products.office.com/onedrive-for-business/compare-onedrive-for-business-plans), and then add the licenses you need.
 
-When you’ve completed these tasks, you’re ready to plan for, deploy, and configure the OneDrive sync client and applications. To do that, complete these three simple steps:
+When you’ve completed these tasks, you’re ready to plan for, deploy, and configure the OneDrive sync app and applications. To do that, complete these three simple steps:
 
 1.  **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use OneDrive. Often, small business customers don’t consider this step for new applications, and that can negatively affect the application’s success. The section [Adopt OneDrive](#adopt-onedrive) provides helpful resources for OneDrive adoption.
 
-2.  **Install and configure.** Sync clients are available for the Windows and macOS operating systems that provide a seamless experience for users interacting with their files. Most small businesses start by installing the sync client on their users’ devices, and then consider the OneDrive mobile apps later. In fact, you may already have the OneDrive client on your devices. Devices running the Windows 10 operating system and devices running Windows or macOS with Microsoft Office 2016 or later will have the OneDrive sync client already. For information about how to install and configure the OneDrive sync client and apps, see the section [Install and configure OneDrive](#install-and-set-up-onedrive-apps).
+2.  **Install and configure.** Sync app are available for the Windows and macOS operating systems that provide a seamless experience for users interacting with their files. Most small businesses start by installing the sync app on their users’ devices, and then consider the OneDrive mobile apps later. In fact, you may already have the OneDrive client on your devices. Devices running the Windows 10 operating system and devices running Windows or macOS with Microsoft Office 2016 or later will have the OneDrive sync app already. For information about how to install and configure the OneDrive sync app and mobile apps, see the section [Install and configure OneDrive](#install-and-set-up-onedrive-apps).
 
 3.  **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the OneDrive admin center. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
 
@@ -94,28 +94,28 @@ For information about a more formal Microsoft 365 user adoption strategy, see t
 
 ## Install and set up OneDrive apps
 
-You can upload, download, and interact with your OneDrive files from a web browser, but the ideal OneDrive experience comes from the Windows and Mac sync clients and the iOS and Android mobile apps. With these clients and apps, saving files to OneDrive and interacting with them is much easier than visiting a website each time you need something. Through this experience, you can seamlessly integrate OneDrive into your existing file interaction experiences.
+You can upload, download, and interact with your OneDrive files from a web browser, but the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. With these clients and apps, saving files to OneDrive and interacting with them is much easier than visiting a website each time you need something. Through this experience, you can seamlessly integrate OneDrive into your existing file interaction experiences.
 
 You can install OneDrive on any supported device. For small businesses, manual installations typically make the most sense. For some devices, the installation process may be as simple as installing an app from the app store. For others, you may need to delete older versions of OneDrive first. This section walks you through the installation and configuration of OneDrive on iOS and Android mobile devices, Windows devices, and computers running macOS. You may not need to install OneDrive on all these platforms, depending on the devices used in your organization.
 
-Most small businesses start by installing the OneDrive sync client on users’ Windows and macOS devices, and then consider the OneDrive mobile apps afterwards. You don’t need to install and configure OneDrive on all your devices before you start using it.
+Most small businesses start by installing the OneDrive sync app on users’ Windows and macOS devices, and then consider the OneDrive mobile apps afterwards. You don’t need to install and configure OneDrive on all your devices before you start using it.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CvJE]
 
-### Install and configure the sync client on a Windows device
+### Install and configure the sync app on a Windows device
 
-If your Windows device has either Office 2016 or Windows 10, it already has the OneDrive sync client.
+If your Windows device has either Office 2016 or Windows 10, it already has the OneDrive sync app.
 
-For devices running older versions of Windows or on which Office 2016 is not installed, you can download the OneDrive sync client for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
+For devices running older versions of Windows or on which Office 2016 is not installed, you can download the OneDrive sync app for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
 
 > [!NOTE]
-> If the device has an older version of the sync client, you’ll be asked to uninstall it when you install the new one.
+> If the device has an older version of the sync app, you’ll be asked to uninstall it when you install the new one.
 
-Configuring OneDrive for Windows is simple, but if you want to see a demonstration, see [Sync files with the OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) 
+Configuring OneDrive for Windows is simple, but if you want to see a demonstration, see [Sync files with the OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) 
 
 ### Install and configure OneDrive on a macOS device
 
-To install the OneDrive sync client on a computer running macOS, just follow the steps in [Sync files with the OneDrive sync client on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). The setup experience is similar to that for Windows. For more information about OneDrive on macOS, see [OneDrive for Mac – FAQ](https://support.office.com/article/3fc4062c-8051-4392-bff1-551e32840cd0). 
+To install the OneDrive sync app on a computer running macOS, just follow the steps in [Sync files with the OneDrive sync app on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). The setup experience is similar to that for Windows. For more information about OneDrive on macOS, see [OneDrive for Mac – FAQ](https://support.office.com/article/3fc4062c-8051-4392-bff1-551e32840cd0). 
 
 ## Install and configure OneDrive on a mobile device
 

@@ -7,12 +7,14 @@ manager: pamgreen
 ms.date: 9/12/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: a15bae85-86b3-4098-9bbd-631638d377b2
 description: "Learn how to mitigate issues with Email Enabled Lists during migration."

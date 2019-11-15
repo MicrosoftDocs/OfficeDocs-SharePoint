@@ -6,11 +6,10 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: Admin
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
-- Strat_SP_gtc
-- SPMTMigration
+- SPMigration
 - M365-collaboration
 ms.custom: 
 ms.assetid: 
@@ -38,7 +37,7 @@ description: "SharePoint Migration Tool table of supported webparts for migratio
  > [!NOTE]
  > Changes to this setting might take up to 24 hours to take effect.
 
-For more information, see: [Allow or prevent custom script](https://docs.microsoft.com/en-us/sharepoint/allow-or-prevent-custom-script)</br>
+For more information, see: [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script)</br>
 
 
 The following table details the SharePoint Webparts that are currently supported by the SharePoint Migration Tool (SPMT). 

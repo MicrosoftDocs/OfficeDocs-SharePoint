@@ -7,11 +7,13 @@ manager: pamgreen
 ms.date: 9/12/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: a65e4c80-cb0a-4944-a3a3-807d01b1f756
 description: "Learn how to mitigate issues with Browser File Handling during migration."

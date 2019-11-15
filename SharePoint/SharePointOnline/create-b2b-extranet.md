@@ -1,6 +1,6 @@
 ---
 title: "Use SharePoint Online as a business-to-business (B2B) extranet solution"
-ms.reviewer: 
+ms.reviewer: sesham
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -28,61 +28,47 @@ An extranet site in SharePoint Online is a site that you create to let external 
   
 Traditionally, deploying a SharePoint  *on-premises*  extranet site involves complex configuration to establish security measures and governance, including granting access inside the corporate firewall, and expensive initial and on-going cost. 
   
-But with Office 365, partners connect directly to a members-only site in SharePoint Online, without access to your on-premises environment or any other SharePoint Online sites. Office 365 extranet sites can be accessed anywhere there's an Internet connection.
+But with Office 365, partners connect directly to a members-only site in SharePoint Online, without access to your on-premises environment or any other SharePoint sites. Office 365 extranet sites can be accessed anywhere there's an Internet connection.
   
-Industry verticals where business-to-business (B2B) collaboration is key to their business success include automotive, manufacturing, retail and energy. The following example shows how Contoso Ltd uses a separate extranet site for collaboration with each of their partners and vendors.
-  
-![Office 365 extranet example](media/b4d2c726-9f16-4000-9671-e1200106c52d.png)
-  
-## SharePoint Online collaboration features
+Depending on your collaboration needs, you can include Office 365 groups or Microsoft Teams as part of your extranet.
 
- Key features offered in SharePoint Online collaboration include: 
-  
-- **Allow users to invite new partners:** In certain site collections, admins can optionally allow users to invite new partners. In this model, an email invitation is sent to the partner and the person must redeem it to access the resource. See [External sharing overview](external-sharing-overview.md) for details. 
-    
-- **Sharing by site owners only:** Only site owners can share with new partners. Site members, who are typically external partners, can see only the existing site members in the site. This helps in governing what partners can see and with whom they can share documents. 
-    
-- **Restricted domains sharing:** Admins can control the list of partner domains that their employees can share with outside the organization. Either an allow list of email domains or a deny list of email domains can be configured. See [Restricted Domains Sharing in SharePoint Online and OneDrive for Business](restricted-domains-sharing.md) more details. 
-    
-- **Auditing &amp; Reporting:** Activities of the business partner users are audited and reports can be viewed in Office 365 Activity Reports. 
-    
-## Why use Office 365 for B2B extranet sites?
+## Why use Office 365 for a B2B extranet?
 
- **Time-to-value and Cost savings:** Office 365 B2B extranet sites eliminate the need for creating a costly on-premises extranet sites. No additional hardware is required and using Office 365 greatly reduces the resource and labor costs. Your IT department can focus on more important tasks than creating and maintaining extranet infrastructure. 
+ **Time-to-value and Cost savings:** An Office 365 B2B extranet eliminates the need for creating a costly on-premises extranet sites. No additional hardware is required and using Office 365 greatly reduces the resource and labor costs. Your IT department can focus on more important tasks than creating and maintaining extranet infrastructure. 
   
  **Secure sharing:** Office 365 B2B extranet provides a highly secure sharing experience with the IT governance and policies that you require, including: 
   
-- The ability to protect yourself against accidental sharing by using  *site-owners only*  sharing which prevents site users from inviting new users to that site. 
+- The ability to protect yourself against accidental sharing by using  owner-approved sharing through Office 365 groups or teams, which prevents users from inviting new users without approval. 
     
-- The ability to restrict partner users to a single site. They cannot search for or view any content outside of their site. 
+- The ability to restrict partner users to a single site or team. They cannot search for or view any content on sites or teams to which they have not been invited.
     
-- The ability to restrict the External partner users to be able to only accept invitations from the email address to which the invitation was sent, external partner users to use their corporate Office 365 organization account or Microsoft account to access a site that was created solely for them.
-    
- **Seamless Collaboration:** Collaborate with your partner users as if they are part of your organization, including allowing them instant messaging and the ability to make Skype conference calls. 
+ **Seamless collaboration:** Collaborate with your partner users as if they are part of your organization, including allowing them chat and conferencing through Teams. 
   
- **Governance and Audit Reporting**. Office 365 B2B extranet offers visibility into the access of your content by external partner users. One of the key IT benefits is to be able to audit usage, including being able to see who is inviting whom and when an external user logs in to access the content.
+ **Auditing and reporting**. Office 365 B2B extranet offers visibility into the access of your content by external partner users. One of the key IT benefits is to be able to audit usage, including being able to see who is inviting whom and when an external user logs in to access the content. See [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) for more information.
+
+ **Security and governance**. Office 365 features such as [data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) and [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) provide a robust feature set to help you create a secure guest sharing environment.
   
-## Compare Office 365 hybrid extranet with a traditional SharePoint on-premises extranet
+## Compare Office 365 extranet with a traditional SharePoint on-premises extranet
 
 ||||
 |:-----|:-----|:-----|
-||**Office 365 hybrid extranet** <br/> |**SharePoint "on-premises" extranet** <br/> |
+||**Office 365 extranet** <br/> |**SharePoint "on-premises" extranet** <br/> |
 |Firewall access required for external users  <br/> |No  <br/> |Yes  <br/> |
 |Complex network and infrastructure configuration required  <br/> |No  <br/> |Yes  <br/> |
 |Security hardening  <br/> |Managed through Office 365 configurations  <br/> |Manually configured by IT staff  <br/> |
 |IT labor intensive  <br/> |No  <br/> |Yes  <br/> |
 |Ongoing maintenance needed  <br/> |Minimal  <br/> |Considerable  <br/> |
 |Additional hardware needed  <br/> |No  <br/> |Often  <br/> |
-|Controlling sharing experience for extranet sites  <br/> |Part of Office 365 sites functionality  <br/> |Often requires custom solutions/apps  <br/> |
-   
+|Controlling sharing experience for the extranet  <br/> |Part of Office 365 sites functionality  <br/> |Often requires custom solutions/apps  <br/> |
+
 ## Get started
 
 To get started setting up a SharePoint Online extranet site:
   
-1. Read [Planning SharePoint Online business-to-business (B2B) extranet sites](plan-b2b-extranet-sites.md) to learn about the different guest invitation models. 
+1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with an Office 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team. 
     
-2. Read [Securing a SharePoint Online extranet site](secure-extranet-site.md) to learn about the options for restricting your extranet site to only the users you want. 
-    
-3. Deploy your extranet by using [standard SharePoint Online sharing options](external-sharing-overview.md) or by [importing external users into Azure AD](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
-    
+2. Read [Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure) and [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment) to learn about options for securing your guest sharing environment.   
 
+## See also
+
+[Microsoft 365 guest sharing settings reference](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)

@@ -56,11 +56,11 @@ The aggregated newsfeed feature (available at newsfeed.aspx and typically access
 
 To ensure that users receive highly relevant help content, Microsoft is moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Office 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
-### Groove Sync Client
+### Groove Sync App
 
-The Groove sync client is our client for syncing documents between your personal devices and SharePoint Server 2010, 2013, and 2016 Team sites. SharePoint Server 2019 introduces support for the new OneDrive Sync Client (a.k.a. the Next Generation Sync Client), which provides a more reliable and feature-rich syncing experience. If Groove detects that your existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, it will attempt to migrate those sync relationships to the OneDrive Sync Client. Administrators can control this migration experience.
+The Groove sync app is our app for syncing documents between your personal devices and SharePoint Server 2010, 2013, and 2016 Team sites. SharePoint Server 2019 introduces support for the new OneDrive Sync app (a.k.a. the Next Generation Sync Client), which provides a more reliable and feature-rich syncing experience. If Groove detects that your existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, it will attempt to migrate those sync relationships to the OneDrive sync app. Administrators can control this migration experience.
 
-The Groove sync client will remain supported, but deprecated, for the SharePoint Server 2019 release.
+The Groove sync app will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
 ### InfoPath Services
 
@@ -70,7 +70,7 @@ There will not be a new InfoPath client shipped with this release. Microsoft wil
 
 ### Lists Web Service
 
-The following SOAP endpoints in the Lists web service depend on the Microsoft Sync Framework, which was necessary to support the Groove sync client. Because the Groove sync client is now a deprecated feature, these SOAP endpoints are also being deprecated for the SharePoint Server 2019 release.
+The following SOAP endpoints in the Lists web service depend on the Microsoft Sync Framework, which was necessary to support the Groove sync app. Because the Groove sync app is now a deprecated feature, these SOAP endpoints are also being deprecated for the SharePoint Server 2019 release.
 
 - [Lists.GetListItemChangesWithKnowledge](https://msdn.microsoft.com/library/websvclists.lists.getlistitemchangeswithknowledge.aspx)
 
@@ -134,10 +134,34 @@ Since the feature was first introduced in SharePoint, Microsoft BI strategy has 
 
 Microsoft announced that SharePoint Server 2019 Preview would support a new workflow management application called SharePoint Workflow Manager to run SharePoint Server 2013 workflows. However, the SharePoint Workflow Manager application was canceled before its final release. The RTM release of SharePoint Server 2019 supports [Service Bus 1.1](https://support.microsoft.com/help/4077554/add-support-for-tls-1-1-and-tls-1-2-on-service-bus-for-windows-server) and [Microsoft Workflow Manager 1.0 CU5](https://support.microsoft.com/help/4055730/description-of-the-cumulative-update-5-for-workflow-manager-1-0) to run SharePoint Server 2013 workflows. For more information, see [Install and configure workflow in SharePoint Server](/sharepoint/governance/install-and-configure-workflow-for-sharepoint-server).
 
+### Tags and Notes
+
+The Tags and Notes feature has been removed from SharePoint Server 2019. This means that users cannot create new tags and notes or access any existing ones.
+  
+Administrators can archive all existing tags and notes by using the **Export-SPTagsAndNotesData** cmdlet. 
+  
+Verify that you meet all of the following minimum requirements.
+  
+-  You must have membership in the **securityadmin** fixed server role on the SQL Server instance 
+    
+-  You must have membership in the **db_owner** fixed database role on all databases that are to be updated. 
+    
+-  You must be a member of the Administrators group on the server on which you are running the Microsoft PowerShell cmdlet. 
+    
+```
+Export-SPTagsAndNotesData -Site <http://site.contoso.com> -FilePath <tagsandnotes.zip>
+```
+
+Where :
+  
+-  `<http://site.contoso.com>` is the URL to an existing SharePoint root site where you want to export the tags and notes from. 
+    
+-  `<tagsandnotes.zip>` is the name you give to the .zip file that you want to export. 
+
 ### Visio Services - Silverlight Based Rendering
 
 Visio Services has 2 options for rendering Visio diagrams: Microsoft Silverlight-based and PNG-based. Microsoft Silverlight is a technology that will no longer be supported as of October 12, 2021. This means that, Silverlight-based rendering will no longer be supported in SharePoint Server 2019. Visio Services will only render Visio diagrams using the PNG-based technology.
 
 ## SharePoint Business Intelligence Scenarios
 
-For more information on SharePoint BI scenarios, review the SQL Server Reporting Services Team blog post, [Simplifying our SharePoint integration story](https://blogs.msdn.microsoft.com/sqlrsteamblog/2016/11/17/simplifying-our-sharepoint-integration-story/).
+For more information on SharePoint BI scenarios, review the SQL Server Reporting Services Team blog post, [Simplifying our SharePoint integration story](https://blogs.msdn.microsoft.com/sqlrsteamblog/2016/11/17/simplifying-our-sharepoint-integration-story/). Microsoft recommends using [Power BI](https://powerbi.microsoft.com/), [Power BI Report Server](https://powerbi.microsoft.com/report-server/), or [SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services) in native mode for reporting needs.

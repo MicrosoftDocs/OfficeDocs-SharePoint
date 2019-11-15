@@ -7,7 +7,7 @@ manager: pamgreen
 ms.date: 5/9/2018
 audience: Admin
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - Strat_SP_gtc

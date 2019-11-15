@@ -78,4 +78,5 @@ File chunks are stored in multiple containers in Azure, each of which is given a
 
 ## Related Seccion
 
-[Sharepoint Authentication](https://docs.microsoft.com/sharepoint/authentication)
+- [Sharepoint Authentication](https://docs.microsoft.com/sharepoint/authentication)
+

@@ -7,12 +7,13 @@ manager: pamgreen
 ms.date: 9/13/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 36fbe716-131a-4f50-a5e7-7846e504b912
 description: "Learn how to fix Workflow Running Solutions 2013 issues that occur during migration."

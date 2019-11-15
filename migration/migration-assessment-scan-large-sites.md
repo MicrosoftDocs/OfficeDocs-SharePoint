@@ -7,12 +7,14 @@ manager: pamgreen
 ms.date: 9/13/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: ee79a293-16a1-4483-8687-6e23d7d3e481
 description: "Learn how to mitigate issues with Large sites during migration."

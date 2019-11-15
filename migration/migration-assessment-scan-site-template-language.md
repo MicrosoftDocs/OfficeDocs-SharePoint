@@ -7,15 +7,13 @@ manager: pamgreen
 ms.date: 9/20/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
-ms.custom:
-ms.assetid: 5c3bd96b-4b2c-4c65-8950-ae19c9ec7429
-
+- SPMigration
+- M365-collaboration
 ---
 
 # Migration Assessment Scan: Site Template Language

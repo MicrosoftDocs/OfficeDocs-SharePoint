@@ -1,6 +1,6 @@
 ---
 title: "Set up a new term set"
-ms.reviewer: 
+ms.reviewer: vrchowdh
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -24,7 +24,7 @@ To set up a new term set, you must access the Term Store management tool, and th
 ![In the Term Store tool, you can select elements in the navigation pane to open a menu](media/cbfd78f1-e540-4233-97dd-def5c5d46ab8.png)
   
 > [!IMPORTANT]
->  To add a term set in the Term Store management tool, you must be a Group Manager or a Term Store Administrator. 
+>  To add a term set in the Term Store management tool, you must be a Contributor, Group Manager or a Term Store Administrator. 
   
 To set up a new term set, follow these steps.
   

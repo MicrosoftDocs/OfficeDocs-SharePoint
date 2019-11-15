@@ -7,12 +7,13 @@ manager: pamgreen
 ms.date: 7/5/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 8c63518d-4977-4bea-a376-09ec71b7ff56
 description: "Learn how to mitigate issues with Secure Store during migration."

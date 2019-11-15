@@ -7,12 +7,14 @@ manager: pamgreen
 ms.date: 9/13/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: 487c6ff4-d087-4743-a786-e6b86c2a1223
 description: "Learn how to mitigate issues with Master pages during migration."

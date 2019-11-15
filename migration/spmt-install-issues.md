@@ -5,7 +5,7 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: troubleshooting
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -13,13 +13,14 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-ms.custom: 
-
 description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
 ---
 ## Troubleshooting SPMT installation issues
 
 If you are having trouble installing the SharePoint Migration Tool, this article provides information on the possible causes and steps to correct the problem.
+
+If after troubleshooting you still are experiencing problems, consider downloading and installing the public preview (beta) of SPMT. It contains the latest updates and fixes.</br>
+[Download SPMT Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
 
 ### **Common issues**
 
@@ -28,8 +29,8 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |**Item**|**Requirement**|
 |:-----|:-----|
 |System architecture| Must be x64|
-|.Net version |Must be 4.6.2 or higher. See [How to determine which versions are installed](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|
-|Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ 2015 Redistributable Update 3 RC](https://www.microsoft.com/en-us/download/details.aspx?id=52685).|
+|.Net version |Must be 4.6.2 or higher. See [How to determine which versions are installed](https://docs.microsoft.com/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|
+|Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ 2015 Redistributable Update 3 RC](https://www.microsoft.com/download/details.aspx?id=52685).|
 |Anti-virus| Stop 3rd party anti-virus software on your computer prior to installation.
 
  ### Download the tool instead
@@ -85,18 +86,17 @@ Minimum requirements (expect slow performance)
 The following table lists the required endpoints for using the SharePoint Migration Tool.</br>
 
 
-|**Required Endpoints**|
-|:-----|
-|https://secure.aadcdn.microsoftonline-p.com|</br>
-|https://login.microsoftonline.com|</br>
-|https://api.office.com|</br>
-|https://graph.windows.net|</br>
-|https://spmtreleasescus.blob.core.windows.net/</br>
-|https://aka.ms/</br>
-|https://*.queue.core.windows.net|</br>
-|https://*.blob.core.windows.net|</br>
-|https://*.pipe.aria.microsoft.com|</br>
-|https://*.sharepoint.com|</br>
+|**Required Endpoint**|**Why**|
+|:-----|:-----|
+|https://<spam><spam>secure.aadcdn.microsoftonline-p.<spam><spam>com|Authentication|
+|https://<spam><spam>login.microsoftonline.<spam><spam>com|Authentication|
+|https://<spam><spam>api.office.<spam><spam>com|Office 365 APIs for content move and validation|
+|https://<spam><spam>graph.windows.<spam><spam>net|Office 365 APIs for content move and validation|
+|https://<spam><spam>spmtreleasescus.blob.core.windows.<spam><spam>net|Installation|
+|https://<spam><spam>*.queue.core.windows.<spam><spam>net|Migration API Azure requirement|
+|https://<spam><spam>*.blob.core.windows.<spam><spam>net|Migration API Azure requirement|
+|https://<spam><spam>*.pipe.aria.microsoft.<spam><spam>com|Telemetry/update|
+|https://<spam><spam>*.sharepoint.<spam><spam>com|Destination for migratrion|
 
 
 

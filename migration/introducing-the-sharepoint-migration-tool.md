@@ -6,48 +6,43 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
 - IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
-description: "Overview of the SharePoint Migration Tool."
+description: "Download and install the SharePoint Migration Tool."
 ---
 
 # Download and install the SharePoint Migration Tool
 
-Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
 
-The SharePoint Migration Tool (SPMT) lets you migrate content to SharePoint Online and OneDrive from the following locations:
+>[!Note]
+> On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
+>
+>**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
+>
+>Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
+
+
+
+Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool (SPMT) will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
+
+**SPMT** lets you migrate content to SharePoint Online and OneDrive from the following locations:
 
 - SharePoint Server 2013
-- SharePoint Server 2010 **
+- SharePoint Server 2010
 - Network and local file shares
   
-** Now in public preview.
-
 ## Download and install
 
-Download and install the SharePoint Migration Tool using one of the download links below.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
+Download and install **SPMT** using one of the download links below.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
 
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
 >[!NOTE]
->To install the current release download here: 
->
-> - [SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)
-
->[!NOTE]
->**NEW**: To download the new public preview release which includes support for **SharePoint Server 2010**:
->
->- [SharePoint Migration Tool Public Preview](https://aka.ms/spmt-beta-page)
-    
-
-> [!IMPORTANT]
-> If you are using the Chrome browser, you must install the **ClickOnce for Google Chrome** plug-in  *before*  installing the SharePoint Migration Tool. > To download and install the plug-in: Using Chrome, go to this site and then click **Add to Chrome**: [ClickOnce for Google Chrome plug-in](https://chrome.google.com/webstore/detail/clickonce-for-google-chro/kekahkplibinaibelipdcikofmedafmb?utm_source=chrome-app-launcher-info-dialog)
-
+>**Download and install**:   [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)
 
 
 ## Supported features

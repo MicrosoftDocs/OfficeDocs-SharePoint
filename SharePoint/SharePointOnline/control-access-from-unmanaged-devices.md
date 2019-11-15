@@ -1,6 +1,6 @@
 ---
 title: "Control access from unmanaged devices"
-ms.reviewer: 
+ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -22,9 +22,6 @@ description: "Learn how to block or limit access to SharePoint and OneDrive cont
 
 # Control access from unmanaged devices
 
-> [!NOTE]
-> Some functionality is introduced gradually to organizations that have set up the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature or it may look different from what is described in this article. 
-  
 As a SharePoint or global admin in Office 365, you can block or limit access to SharePoint and OneDrive content from unmanaged devices (those not [hybrid AD joined](/azure/active-directory/devices/overview#hybrid-azure-ad-joined-devices) or compliant in Intune). You can block or limit access for:
   
 - All users in the organization or only some users or security groups.
@@ -143,6 +140,9 @@ To block or limit access to specific sites, you must set the organization-wide p
     ![Creating a policy in the Azure AD admin center to use app-enforced restrictions](media/c6467cd8-612d-4f8e-98bf-4913b35f49f1.png)
   
 7. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall “SharePoint Online Management Shell.” <br>On the Download Center page, select your language and then click the Download button. You’ll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you’re running the 64-bit version of Windows or the x86 file if you’re running the 32-bit version. If you don’t know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
     
 8. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
@@ -161,10 +161,11 @@ To block or limit access to specific sites, you must set the organization-wide p
     To update multiple sites at once, use the following command as an example:
 
     ```PowerShell
-    ,(Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.spgrid.com/personal/") | Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
+    ,(Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/'") | Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
     ```
 
-    This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request.
+    This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request, which is fastest.
+
     
 > [!NOTE]
 > The site-level setting must be at least as restrictive as the organization-level setting. <br>By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 

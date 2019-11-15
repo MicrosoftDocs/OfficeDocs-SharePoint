@@ -16,6 +16,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: d10d1262-7127-424e-a0a8-1f3c5d42dd85
 description: "Learn to run Hybrid Picker in Office 365 for enterprises."

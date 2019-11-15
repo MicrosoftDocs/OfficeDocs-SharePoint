@@ -29,7 +29,7 @@ Help your users share, organize, and discover information with SharePoint.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Download the OneDrive sync client</h3>
+                        <h3>Download the OneDrive sync app</h3>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Inform and engage</h3>
-                        <p><a href="/sharepoint/guide-to-sharepoint-modern-experience">Modern intranet</a></p><p><a href="/sharepoint/planning-hub-sites">Plan your hub sites</a></p><p><a href="/sharepoint/change-links-list-on-sharepoint-home-page">Add featured links</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
+                        <p><a href="/sharepoint/guide-to-sharepoint-modern-experience">Create modern experiences</a></p><p><a href="/sharepoint/planning-hub-sites">Plan your hub sites</a></p><p><a href="/sharepoint/change-links-list-on-sharepoint-home-page">Add featured links</a></p><p><a href="https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe">Admin help for Yammer</a></p>
                     </div>
                 </div>
             </div>

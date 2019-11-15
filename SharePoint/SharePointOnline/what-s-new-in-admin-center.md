@@ -1,6 +1,6 @@
 ---
 title: "What's new in the SharePoint admin center"
-ms.reviewer: 
+ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -81,7 +81,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 ### Settings page
   
-- Settings for sync (if your organization used the previous sync client), notifications, site storage limits, default admin experience, and site creation
+- Settings for sync (if your organization used the previous sync app), notifications, site storage limits, default admin experience, and site creation
 
 ### API management page
   

@@ -602,6 +602,8 @@ The following table lists the default managed properties and their attributes. F
    
 
 ### Managed Properties Added in SharePoint Server 2016
+<a name="mp2016"></a>
+
 |||||||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |
@@ -670,6 +672,8 @@ The following table lists the default managed properties and their attributes. F
 |XLWorksheetCountRngID|Integer|No|Yes|No|Yes|Yes|Yes|XLWorksheetCountRngID||
 
 ### Managed Properties Added in SharePoint Server 2019
+<a name="mp2019"></a>
+
 |||||||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Property name**  |**Type**  |**Multi-valued**  |**Queryable**  |**Searchable**  |**Retrievable**  |**Refinable**  |**Sortable**  |**Mapped crawled properties**  |**Aliases**  |

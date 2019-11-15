@@ -1,6 +1,6 @@
 ---
 title: "SharePoint and OneDrive integration with Azure AD B2B (Preview)"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -19,7 +19,7 @@ This article describes how to enable SharePoint and OneDrive integration with Az
 
 Azure AD B2B provides authentication and management of guest users. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account (MSA).
 
-With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. This feature provides an upgraded experience from the existing [secure external sharing recipient experience](https://docs.microsoft.com/sharepoint/what-s-new-in-sharing-in-targeted-release). 
+With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. This feature provides an upgraded experience from the existing [secure external sharing recipient experience](what-s-new-in-sharing-in-targeted-release.md). 
 
 Enabling the preview does not change your sharing settings. For example, if you have site collections where external sharing is turned off, it will remain off.
 
@@ -50,7 +50,7 @@ To opt in to the Azure AD passcode authentication preview
 
 To opt in to the SharePoint and OneDrive integration with Azure AD B2B
 1. Install the latest version of the [SharePoint Online Services Module for Windows PowerShell](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell) (minimum version 8924.1200).
-2. Connect to your tenant by using [Connect-SPOService](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/connect-sposervice).
+2. Connect to your tenant by using [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice).
 3. Run the following cmdlets:
    ```PowerShell
    Set-SPOTenant -EnableAzureADB2BIntegration $true
@@ -59,7 +59,7 @@ To opt in to the SharePoint and OneDrive integration with Azure AD B2B
 
 ## Opting out of the preview
 
-You can disable the preview by running `Set-SPOTenant -EnableAzureADB2BIntegration $false`. (You can also [opt out of the Azure AD passcode authentication preview](https://docs.microsoft.com/en-us/azure/active-directory/b2b/one-time-passcode#opting-out-of-the-preview-after-opting-in).)
+You can disable the preview by running `Set-SPOTenant -EnableAzureADB2BIntegration $false`. (You can also [opt out of the Azure AD passcode authentication preview](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode#opting-out-of-the-preview-after-opting-in).)
 Content that was shared externally while the preview was enabled will need to be shared again with the specific external users.
 
 Note that after preview, this feature will replace the ad-hoc external sharing experience used in OneDrive and SharePoint today for all tenants and you will not be able to opt out.
@@ -70,6 +70,6 @@ We're interested in your feedback about this preview. Please fill out the [Feedb
 
 ## See also
 
-[Set-SPOTenant](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/set-spotenant)
+[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant)
 
 [External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)

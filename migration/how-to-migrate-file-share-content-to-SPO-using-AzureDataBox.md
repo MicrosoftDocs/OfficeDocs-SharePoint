@@ -6,7 +6,7 @@ author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 search.appverid: MET150
 ms.collection: 
 - IT_Sharepoint_Server_Top
@@ -64,15 +64,15 @@ The following steps relate to SharePoint Online.
 
 Take the following steps to copy data to your Data Box.
 
-1. [Order your Data Box](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-ordered).
-2. After you receive your Data Box, [Set up the device](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-set-up). You'll cable and configure your device.
-3. [Copy data to Data Box](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-copy-data). While copying, make sure to:
+1. [Order your Data Box](https://docs.microsoft.com/azure/databox/data-box-deploy-ordered).
+2. After you receive your Data Box, [Set up the device](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up). You'll cable and configure your device.
+3. [Copy data to Data Box](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data). While copying, make sure to:
 
     - Use only the *StorageAccountName_AzFile* folder in the Data Box to copy the data. This is because you want the data to end up in an Azure file share, not in block blobs or page blobs.
     - Copy files to a folder within *StorageAccountName_AzFile* folder. A subfolder within *StorageAccountName_AzFile* folder creates a file share. Files copied directly to *StorageAccountName_AzFile* folder fail and are uploaded as block blobs. This is the file share that you will mount on your VM in the next step.
-3. Run [Prepare to ship](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-picked-up#prepare-to-ship) on your device. A successful prepare to ship ensures a successful upload of files to Azure.
-4. [Return the device](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-picked-up#ship-data-box-back).
-5. [Verify the data upload to Azure](https://docs.microsoft.com/en-us/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
+3. Run [Prepare to ship](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#prepare-to-ship) on your device. A successful prepare to ship ensures a successful upload of files to Azure.
+4. [Return the device](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#ship-data-box-back).
+5. [Verify the data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
 
 
 ## Migrating your data to SharePoint Online using SPMT

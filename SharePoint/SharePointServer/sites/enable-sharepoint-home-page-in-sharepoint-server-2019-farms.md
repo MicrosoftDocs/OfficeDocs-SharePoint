@@ -43,7 +43,7 @@ The SharePoint home page experience includes the following features:
 
   - **Suggested:** These sites that have the most activity that you’re not following.
 
-For more information, see the &#8220;2019&#8221; section in [Find news, sites, and portals in SharePoint](https://support.office.com/en-us/article/find-news-sites-and-portals-in-sharepoint-6b85097a-87e0-4611-a29a-dfd49b1a1220).
+For more information, see the &#8220;2019&#8221; section in [Find news, sites, and portals in SharePoint](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220).
 
 ## Requirements to enable the SharePoint home page
 <a name="section2"> </a>
@@ -61,7 +61,12 @@ For more information, see the &#8220;2019&#8221; section in [Find news, sites, a
 6. Import profiles from Active Directory, if required
 
 7. Distributed Cache (Optional) Note that content following normally requires distributed cache. SharePoint home will show followed sites and may not require distributed cache directly. If your SharePoint home doesn't show content following, then deploy distributed cache in your farm.
- 
+
+>[!NOTE]
+> Distributed Cache is required to be running on at least one SharePoint Server in the farm.
+
+With this configuration in-place, the App Launcher and SharePoint Home Page button will appear.
+
 ## SharePoint home page in a hybrid environment
 
 SharePoint home page works best when Search and List of Followed sites are stored in a user’s My Site. In a SharePoint Server hybrid environment, the SharePoint home page is not rendered on SharePoint Server 2019. Instead, when you click SharePoint from the App Launcher, you’re re-directed to the SharePoint home page in the cloud.

@@ -7,10 +7,11 @@ manager: pamgreen
 ms.date: 01/5/2018
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Normal
-ms.assetid: 43b8829e-2a92-48ab-8c70-902fd0a8a91a
-
+ms.collection:
+- SPmigration
+- M365-collaboration
 ---
 
 # SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan

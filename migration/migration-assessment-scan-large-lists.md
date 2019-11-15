@@ -7,12 +7,14 @@ manager: pamgreen
 ms.date: 11/23/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
+- SPMigration
+- M365-collaboration
 ms.custom:
 ms.assetid: a10f6067-5cbe-4eb4-82f8-d57be628a3f6
 description: "Learn how to mitigate issues with Large Lists during migration."

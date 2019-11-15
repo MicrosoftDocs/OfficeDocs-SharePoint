@@ -15,6 +15,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
 - M365-collaboration
+- SPO_Content
 ms.custom: 
 ms.assetid: 11a23c57-af13-4b73-8f01-1de70775fc65
 description: "A hybrid environment can help your company get started in the cloud, taking a first step to explore the cloud functionality at own your own pace. It also enables enterprise users to be connected from almost anywhere to the resources and content they need."

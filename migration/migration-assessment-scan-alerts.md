@@ -7,11 +7,12 @@ manager: pamgreen
 ms.date: 9/12/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
+- SPMigration
 ms.custom: 
 ms.assetid: 11fa99a3-9e65-48f6-b460-31c8cf8d30e5
 description: "Learn how to fix issues with alerts during migration."

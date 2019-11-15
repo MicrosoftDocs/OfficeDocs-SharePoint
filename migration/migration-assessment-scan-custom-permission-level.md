@@ -7,10 +7,12 @@ manager: pamgreen
 ms.date: 12/14/2017
 audience: ITPro
 ms.topic: article
-ms.prod: sharepoint-server-itpro
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.assetid: 617ba8f7-eff1-4fcb-b9b8-ee5ef459a18c
-
+ms.collection:
+- SPMigration
+- M365-collaboration
 ---
 
 # Migration Assessment Scan: Custom Permission Level

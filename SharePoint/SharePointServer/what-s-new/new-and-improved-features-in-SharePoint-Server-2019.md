@@ -22,7 +22,7 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Server 2019.
 
-To read more about the updated modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/en-us/article/differences-between-sharepoint-server-2016-and-2019-ba84c8a3-3ce2-4252-926e-c67654ceb4a3). 
+To read more about the updated modern experience in SharePoint Server 2019, see [Differences between SharePoint Server 2016 and 2019](https://support.office.com/article/ba84c8a3-3ce2-4252-926e-c67654ceb4a3). 
 
 ## Detailed description of new features
 
@@ -144,9 +144,9 @@ SharePoint will treat the external resource as an external web application. The 
 
 SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments. For more information, see [Plan outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-planning) and [Configure outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-configuration).
 
-### Sync files with OneDrive sync client (NGSC)
+### Sync files with OneDrive sync app (NGSC)
 
-Users can use the new OneDrive sync client (NGSC – Next Generation Sync Client) instead of Groove.exe to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync client supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Deploy the new OneDrive sync client for Windows](/onedrive/deploy-on-windows) and [Deploy and configure the new OneDrive sync client for Mac](/onedrive/deploy-and-configure-on-macos).
+Users can use the new OneDrive sync app (NGSC – Next Generation Sync Client) instead of Groove.exe to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Deploy the new OneDrive sync app for Windows](/onedrive/deploy-on-windows) and [Deploy and configure the new OneDrive sync app for Mac](/onedrive/deploy-and-configure-on-macos).
 
 ### Use of # and % characters in file and folder names
 
@@ -228,7 +228,7 @@ We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The
 
 ### Telemetry privacy experience
 
-SharePoint Server 2019 now has an updated telemetry management experience. When you first set up a farm or browse to the SharePoint privacy settings page in Central Administration, you can now provide an email address for the telemetry contact of your organization. This is in anticipation of future telemetry reporting capabilities that will allow customers to associate SharePoint Server and OneDrive Sync Client telemetry with their hybrid tenancy.
+SharePoint Server 2019 now has an updated telemetry management experience. When you first set up a farm or browse to the SharePoint privacy settings page in Central Administration, you can now provide an email address for the telemetry contact of your organization. This is in anticipation of future telemetry reporting capabilities that will allow customers to associate SharePoint Server and OneDrive sync app telemetry with their hybrid tenancy.
 
 The email address provided is not sent outside of the SharePoint farm, not even to Microsoft. It is used in combination with other farm data to generate a unique hash value to represent your farm when uploading telemetry data to Microsoft. When customers want to associate telemetry with their hybrid tenancy, this email address will be part of the process to prove ownership of the telemetry data.
 
@@ -246,6 +246,6 @@ Customers can opt in and opt out of the telemetry experience at any time.
 
 ## Related Topics
 
-[What is SharePoint?](https://support.office.com/en-us/article/What-is-SharePoint-97b915e6-651b-43b2-827d-fb25777f446f?ui=en-US&amp;rs=en-US&amp;ad=US)
+[What is SharePoint?](https://support.office.com/article/97b915e6-651b-43b2-827d-fb25777f446f)
 
 [New development capabilities for SharePoint 2019](/sharepoint/dev/general-development/sharepoint-2019-development-platform)

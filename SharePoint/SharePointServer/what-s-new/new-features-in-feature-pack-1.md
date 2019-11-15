@@ -43,5 +43,5 @@ The following table provides a summary of the new features and enhancements that
 [New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[What's new in SharePoint Server 2016](https://support.office.com/en-US/article/What-s-new-in-SharePoint-Server-2016-089369b5-c3d4-4551-8bed-22b2548abd3b?ui=en-US&amp;rs=en-US&amp;ad=US)
+[What's new in SharePoint Server 2016](https://support.office.com/article/089369b5-c3d4-4551-8bed-22b2548abd3b)
 
