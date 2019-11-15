@@ -32,11 +32,11 @@ A home site is a [communication site](https://support.office.com/article/94A3342
 
 When you set a site as your home site:
 
-- It's integrated with the new [SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e). All users that have access to the home site will also see the branding, theming, header, navigation, and footer elements from the home site on their start page. Setting up a home site is a great way to add some custom experiences to the out-of-box SharePoint start page. A link (which is editable) that points to the new SharePoint start page is added to the home site navigation. This allows users to easily navigate between the organization-wide content on the home site and their personalized content on the start page. 
+- It's integrated with the new [SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e). All users that have access to the home site will also see the branding, theming, header, navigation, and footer elements from the home site on their start page. This makes the home site content elements more discoverable, and is a great way to add some custom experiences to the default SharePoint start page. A link (which is editable) that points to the new SharePoint start page is added to the home site navigation. This allows users to easily navigate between the organization-wide content on the home site and their personalized content on the start page. 
 
     ![Going from the home site to the SharePoint start page](media/home-site.gif)
 
-- It's easily accessible from the SharePoint mobile app for Android and iOS. All users that have access to the home site will see a home button on the Find tab of the mobile app. Since communication sites are responsive, the home site experience is great on mobile devices.
+- The home site is easily accessible from the SharePoint mobile app for Android and iOS. All users that have access to the home site will see a home button on the Find tab of the mobile app. Being communication sites, home sites are designed to be mobile friendly from the start.
 
     ![Link to the home site in the SharePoint mobile app](media/home-site-fre.png)
 
@@ -58,8 +58,8 @@ To set a site as your organization's home site, you first need to create and cus
     - Make sure the site is set up for regular content updates. Turn on [content approval](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9) to ensure high-quality content.
     - Consider making the site a [hub site](create-hub-site.md). Your home site can be registered as a hub site, but can't be associated with another hub.
 3. Create a launch plan for redirecting from your current solution to the new home site and notifying users of the change.
-4. Make sure the site adheres to the [guidelines for healthy portals](https://Aka.ms/portalhealth).
-5. When you're ready to launch, [replace your root site with the new site](modern-root-site.md#swap-your-root-site).
+4. Important: Make sure the site adheres to the [guidelines for healthy portals](https://Aka.ms/portalhealth).
+5. Optional (recommended): When you're ready to launch, [replace your root site with the new site](modern-root-site.md#swap-your-root-site).
 6. Make the site a home site by following the steps in the next section.
 7. Make sure to [customize the Office 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
 
