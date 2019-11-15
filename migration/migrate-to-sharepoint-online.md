@@ -59,7 +59,6 @@ Microsoft FastTrack services can help you get started with your migration to the
 
 ## Which tool to use?
 
-
 |**Tool/method**|**Description**|**Best for**|
 |:-----|:-----|:-----|
 |SharePoint Migration Tool|The SharePoint Migration Tool (SPMT) can migrate your files from SharePoint on-premises document libraries, lists or regular files shares.</br>Download either the current release or the latest public preview: </br></br>[SharePoint Migration Tool (current release)](http://spmtreleasescus.blob.core.windows.net/install/default.htm) or </br>[SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)|Ideal for migrating SharePoint Server 2010 & 2013 environments or smaller file shares.|
