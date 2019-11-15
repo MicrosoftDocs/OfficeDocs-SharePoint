@@ -28,7 +28,9 @@ description: "Moving to SharePoint Online?"
 
 Moving to SharePoint Online or OneDrive for Business?
 
-There are different options available to migrate content to SharePoint Online, depending on the size and quantity of files you need to move. See [Which tool to use?](#which-tool-to-use?) 
+There are different options available to migrate content to SharePoint Online, depending on the size and quantity of files you need to move.
+
+See [Which tool to use?](#which-tool-to-use) 
   
 ## What is SharePoint Online?
 
@@ -51,13 +53,13 @@ Most migrations fall into regular phases as described below. Proven success fact
 
   Use the SharePoint Assessment and Identity Management tool for SharePoint 2013 and 2010 servers to assist in migration to SharePoint online.
 
-  Go here to download: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=53598">SharePoint Migration Assessment Tool</a>.
+  Go here to download: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598">SharePoint Migration Assessment Tool</a>.
 
 ## Microsoft FastTrack services
 
-Microsoft FastTrack services can help you get started with your migration to the cloud. To learn more, go to <a href="https://fasttrack.microsoft.com/about"> Microsoft FastTrack.</a>
+Microsoft FastTrack services can help you get started with your migration to the cloud. To learn more, go to [Microsoft FastTrack](https://fasttrack.microsoft.com/about)
 
-## Which tool to use?
+## Which tool to use
 
 |**Tool/method**|**Description**|**Best for**|
 |:-----|:-----|:-----|
