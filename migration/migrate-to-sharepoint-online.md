@@ -17,6 +17,10 @@ description: "Moving to SharePoint Online?"
 
 # Migrate to SharePoint Online and OneDrive
 
+Moving to SharePoint Online or OneDrive for Business? There are several tools and methods you can use to migrate content to SharePoint Online or OneDrive, depending on the size and quantity of files you need to move.
+
+To learn more about what method is best for you, see: [Which tool to use?](#which-tool-to-use) 
+
 
 >[!Note]
 > On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
@@ -25,18 +29,16 @@ description: "Moving to SharePoint Online?"
 >
 >Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
 
-
-Moving to SharePoint Online or OneDrive for Business?
-
-There are different options available to migrate content to SharePoint Online, depending on the size and quantity of files you need to move.
-
-See [Which tool to use?](#which-tool-to-use) 
   
-## What is SharePoint Online?
+### What is SharePoint Online?
 
 A component of your Office 365 enterprise subscription, SharePoint Online (SPO) is a cloud based collaboration platform that lets you and your organization store, organize, and share data and easily communicate with each other. With SPO, you can share common resources and applications on portals, search to discover information and expertise across your organization, and stay in the know with personalized news in SharePoint home and the SharePoint mobile apps.
+
+### What is OneDrive?
+
+OneDrive is a cloud storage service that lets you store your personal files in one place, share them with others, and get to them from any device connected to the Internet.
   
-## Planning your move to SharePoint online
+## Planning your migration
 
 The method you select to move your data depends on a number of factors including the amount of data and the size. What data do you want or need to move? Where is the content currently stored? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
 
