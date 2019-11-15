@@ -53,7 +53,7 @@ Most migrations fall into regular phases as described below. Proven success fact
 
   Use the SharePoint Assessment and Identity Management tool for SharePoint 2013 and 2010 servers to assist in migration to SharePoint online.
 
-  Go here to download: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598">SharePoint Migration Assessment Tool</a>.
+  Go here to download: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
 
 ## Microsoft FastTrack services
 
