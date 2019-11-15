@@ -29,6 +29,8 @@ description: "Moving to SharePoint Online?"
 Moving to SharePoint Online or OneDrive for Business?
 
 There are different options available to migrate content to SharePoint Online, depending on the size and quantity of files you need to move.
+
+See [Which tool to use?](#which-tool-to-use) 
   
 ## What is SharePoint Online?
 
@@ -51,20 +53,23 @@ Most migrations fall into regular phases as described below. Proven success fact
 
   Use the SharePoint Assessment and Identity Management tool for SharePoint 2013 and 2010 servers to assist in migration to SharePoint online.
 
-  Go here to download: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=53598">SharePoint Migration Assessment Tool</a>.
+  Go here to download: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
 
 ## Microsoft FastTrack services
 
-Microsoft FastTrack services can help you get started with your migration to the cloud. To learn more, go to <a href="https://fasttrack.microsoft.com/about"> Microsoft FastTrack.</a>
+Microsoft FastTrack services can help you get started with your migration to the cloud. To learn more, go to [Microsoft FastTrack](https://fasttrack.microsoft.com/about)
 
-## Ways to move your data
+## Which tool to use
 
-|**Method**|**Description**|
-|:-----|:-----|
-|SharePoint Migration Tool|The SharePoint Migration Tool (SPMT) can easily migrate your files from SharePoint on-premises document libraries, lists or regular files shares.</br>Download either the current release or the latest public preview: </br></br>[SharePoint Migration Tool (current release)](http://spmtreleasescus.blob.core.windows.net/install/default.htm) or </br>[SharePoint Migration Tool Public Preview V3.0.104.3](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)|
-|PowerShell|To use the PowerShell version of the SPMT, see [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets).|
-|OneDrive sync app  <br/> |After installing the OneDrive sync app, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint Online.  <br/> |
-|Manual upload  <br/> |Uploading files one at a time from the SharePoint Online tenant. <br/> |
+|**Tool/method**|**Description**|**Best for**|
+|:-----|:-----|:-----|
+|SharePoint Migration Tool|The SharePoint Migration Tool (SPMT) can migrate your files from SharePoint on-premises document libraries, lists or regular files shares.</br>Download either the current release or the latest public preview: </br></br>[SharePoint Migration Tool (current release)](http://spmtreleasescus.blob.core.windows.net/install/default.htm) or </br>[SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)|Ideal for migrating SharePoint Server 2010 & 2013 environments or smaller file shares.|
+|PowerShell|Using the PowerShell version of the SPMT. See [Migrate to SharePoint Online using PowerShell](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets).|SPMT is ideal for migrating SharePoint Server 2010 & 2013 environments or smaller file shares via PowerShell. |
+|Migration Manager (preview)|Available in the SharePoint Admin center, Migration Manager provides a centralized way of connecting servers, creating tasks, and automatically distributing your migration tasks.|Ideal for customers migrating large file shares.|
+|Mover|Service for cloud to cloud migration.|Ideal for migrating data from other cloud service providers into OneDrive or SharePoint. Mover supports migration from over a dozen cloud service providers, including Box, Dropbox, Egnyte, and Google Drive. Use Mover to migrate from one SharePoint tenant to another.|
+|Azure Data Box| The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. One your data is in Azure, use SPMT to migrate content to SharePoint. |Ideal when you want remove the dependency on your WAN link to transfer data. Suitable for one-time migrations.|
+|OneDrive sync app  <br/> |After installing the OneDrive sync app and syncing your library, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint.  <br/> |Ideal for individuals wanting to move files.|
+|Manual upload  <br/> |Uploading files one at a time from the SharePoint Online tenant. <br/> |Best for smaller files.|
 
 >[!Note]
 >When you migrate your content to SharePoint Online or OneDrive using the SPMT or the Migration API, you are copying the files.  Your source files are not deleted.
