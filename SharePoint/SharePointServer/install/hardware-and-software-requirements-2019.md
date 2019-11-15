@@ -40,7 +40,7 @@ For a stretched farm architecture to work as a supported high-availability solut
 To provide fault tolerance in a stretched farm, use the standard best practice guidance to configure redundant service applications and databases.
   
 > [!NOTE]  
-> The intra-farm latency of \<1 ms one way, 99,9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed should also be in this case at least 1 gigabit per second.
+> The intra-farm latency of \<1 ms one way, 99.9% of the time over a period of ten minutes is also required for SharePoint environments with servers that are located in the same datacenter. The bandwidth speed should also be in this case at least 1 gigabit per second.
   
 ## Hardware requirements: SharePoint Servers and MinRole installations
 <a name="hwforwebserver"> </a>
@@ -92,18 +92,16 @@ This section provides minimum software requirements for each server in the farm.
 
 One of the following:
   
-- Microsoft SQL Server 2016 RTM Standard or Enterprise Editions
-    
-- Microsoft SQL Server 2017 RTM Standard or Enterprise Editions for Windows
+- A Standard or Enterprise Edition of SQL Server for Windows that supports database compatibility level 130. This includes SQL Server 2016, SQL Server 2017, SQL Server 2019, and any future version of SQL Server for Windows that supports database compatibility level 130. For more information about database compatibility levels, see [Compatibility Certification](/sql/database-engine/install-windows/compatibility-certification) and [ALTER DATABASE (Transact-SQL) Compatibility Level](/sql/t-sql/statements/alter-database-transact-sql-compatibility-level).
 
-- Microsoft Azure SQL Managed Instance (MI) - For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md).
+- Microsoft Azure SQL Managed Instance (MI). This is only supported if your SharePoint Server farm is hosted in Microsoft Azure. For more information, see [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](../administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019.md).
     
 > [!NOTE]
 > SQL Server products and all future public updates are supported through the SQL Server product lifecycle. 
   
 
 > [!NOTE]
-> SQL Server Express is not supported. Azure SQL Database (the DBaaS service) is also not supported for any SharePoint databases 
+> SQL Server Express is not supported. Azure SQL Database (the non-Managed Instance DBaaS service) is also not supported for any SharePoint databases.
   
 One of the following server operating systems:
   
@@ -129,7 +127,7 @@ One of the following server operating systems:
 > The minimum supported version is Office 2010 client.
   
 > [!IMPORTANT]
-> The Microsoft SharePoint Products Preparation Tool might not be able to install **Microsoft .NET Framework version 3.5** automatically. In this case you need to manually install the **.NET Framework 3.5 Feature** Windows Feature as a prerequisite using the Windows Server install media.
+> The Microsoft SharePoint Products Preparation Tool might not be able to install **Microsoft .NET Framework version 3.5** automatically. In this case you need to manually install the **.NET Framework 3.5 Features** Windows feature as a prerequisite using the Windows Server installation media.
 
 The Microsoft SharePoint Products Preparation Tool installs the following prerequisites on SharePoint servers in a farm:
   
