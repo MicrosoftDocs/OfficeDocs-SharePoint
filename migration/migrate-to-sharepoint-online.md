@@ -74,4 +74,4 @@ Microsoft FastTrack services can help you get started with your migration to the
 |Manual upload  <br/> |Uploading files one at a time from the SharePoint Online tenant. <br/> |Best for smaller files.|
 
 >[!Note]
->When you migrate your content to SharePoint Online or OneDrive using the SPMT or the Migration API, you are copying the files.  Your source files are not deleted.
+>When you migrate your content to SharePoint Online or OneDrive, you are copying the files.  Your source files are not deleted.
