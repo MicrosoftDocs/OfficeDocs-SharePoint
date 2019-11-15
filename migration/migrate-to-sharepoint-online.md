@@ -15,7 +15,7 @@ msCollection:
 description: "Which tool to use when migrating content to SharePoint and OneDrive"
 ---
 
-# Migrate to SharePoint Online and OneDrive
+# Migrating your content to SharePoint and OneDrive
 
 Moving to SharePoint Online or OneDrive for Business? There are several tools and methods you can use to migrate content to SharePoint Online or OneDrive. The method you choose depends on a number of factors including the amount of data and the size. What data do you want or need to move? Where is the content currently stored? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
 
