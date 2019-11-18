@@ -149,5 +149,5 @@ For more information, see [Dismount-SPContentDatabase](/powershell/module/sharep
   
 [New-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps)
   
-[Remove-SPContentDatabase](/powershell/module/sharepoint-server/New-SPContentDatabase?view=sharepoint-ps)
+[Remove-SPContentDatabase](/powershell/module/sharepoint-server/Remove-SPContentDatabase?view=sharepoint-ps)
 
