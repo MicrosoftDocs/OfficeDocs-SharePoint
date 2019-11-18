@@ -183,7 +183,7 @@ In addition to the general guidelines for link labels, consider the following fo
 
     -   Where am I?
 
-    -   What can I do here
+    -   What can I do here?
 
     -   Where can I go next?
 
