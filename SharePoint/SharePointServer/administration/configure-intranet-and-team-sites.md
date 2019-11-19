@@ -30,7 +30,7 @@ This document contains instructions for the following:
 **Watch the configure intranet and team sites with SharePoint Server 2013 test lab guide overview video**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/15211854-2e56-4cd9-9e8f-fdbebec99b5c?autoplay=false]
-For eBook versions of this TLG (including DOCX, EPUB, MOBI, and PDF), see [Test Lab Guide: eBook for SharePoint Server 2013 Intranet and Team Sites](https://www.microsoft.com/en-us/download/details.aspx?id=38839).
+For eBook versions of this TLG (including DOCX, EPUB, MOBI, and PDF), see [Test Lab Guide: eBook for SharePoint Server 2013 Intranet and Team Sites](https://www.microsoft.com/download/details.aspx?id=38839).
   
 ## Download the test lab guide
 

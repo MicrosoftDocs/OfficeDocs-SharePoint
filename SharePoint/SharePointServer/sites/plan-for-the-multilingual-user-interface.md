@@ -207,9 +207,8 @@ If you plan to enable the MUI feature on your site to provide users a way to col
 [Plan for variations in SharePoint Server](../administration/plan-for-variations.md)
 #### Other Resources
 
-[Language Packs for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57463)
+[Language Packs for SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57463)
 
-[Language Packs for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=51492)
+[Language Packs for SharePoint Server 2016](https://www.microsoft.com/download/details.aspx?id=51492)
   
-[Language Packs for SharePoint Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=37140)
-
+[Language Packs for SharePoint Server 2013](https://www.microsoft.com/download/details.aspx?id=37140)

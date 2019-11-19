@@ -28,7 +28,7 @@ The articles in this section are knowledge articles for Visio Services in ShareP
 
 Download and install:
 
-- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57776)
 
 - [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
 

@@ -690,9 +690,9 @@ The Report Server Alerting database stores all Data Alerts metadata and runtime 
 [Manage databases in SharePoint Server](../administration/database-management.md)
 #### Other Resources
 
-[SQL Server 2017](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
+[SQL Server 2017](https://www.microsoft.com/sql-server/sql-server-2017)
 
-[SQL Server 2016](https://www.microsoft.com/en-us/sql-server/sql-server-2016)
+[SQL Server 2016](https://www.microsoft.com/sql-server/sql-server-2016)
   
-[SQL Server 2014 Service Pack 1 release information](https://support.microsoft.com/en-us/kb/3058865)
+[SQL Server 2014 Service Pack 1 release information](https://support.microsoft.com/kb/3058865)
 

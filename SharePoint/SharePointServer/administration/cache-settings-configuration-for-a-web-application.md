@@ -113,7 +113,7 @@ Use the following procedure to configure the cache profile settings for a web ap
     > [!NOTE]
     > If you set this to true the settings specified in Web.config will be used for all page output cache profiles. This overrides any values that have been entered through the user interface at the site collection level. 
   
-8. To override the  `varyByHeader` attribute, type a custom parameter as specified in the .NET Framework Class Library entry [HttpCachePolicy.VaryByHeaders Property](https://msdn.microsoft.com/en-us/library/system.web.httpcachepolicy.varybyheaders%28v=vs.110%29.aspx).
+8. To override the  `varyByHeader` attribute, type a custom parameter as specified in the .NET Framework Class Library entry [HttpCachePolicy.VaryByHeaders Property](https://msdn.microsoft.com/library/system.web.httpcachepolicy.varybyheaders%28v=vs.110%29.aspx).
     
 9. To override the  `varyByParam` attribute, type a custom parameter as specified in the .NET Framework Class Library entry [HttpCachePolicy.VaryByParams Property](https://go.microsoft.com/fwlink/p/?LinkId=164242&amp;clcid=0x409).
     

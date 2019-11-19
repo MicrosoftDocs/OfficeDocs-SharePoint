@@ -65,21 +65,21 @@ If a list is very large, and users use a view or perform a query that exceeds th
 
 - **A:** Rename content types or fields that conflict with default names. 
     
-Occasionally, custom elements (such as a content type) may have a name that conflicts with a name in the new version. 
+Occasionally, custom elements (such as a content type) may have a name that conflicts with a name in the new version.
   
 In the upgrade log files, you may see an error such as the following:
   
-- Failed to activate site collection features on site Site Url. Exception: A duplicate content type name  _"name"_ was found. 
+- Failed to activate site collection features on site Site Url. Exception: A duplicate content type name  _"name"_ was found.
     
-This error indicates that a third-party content type was added to the specified site in SharePoint Server 2010. During upgrade to SharePoint 2013 its name conflicted with the default content type by the same name. Rename the third-party content type in the specified site to a different name and run upgrade again. For more information, see [Create or customize a content type](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=5&amp;origin=HA103591373). 
+This error indicates that a third-party content type was added to the specified site in SharePoint Server 2010. During upgrade to SharePoint 2013 its name conflicted with the default content type by the same name. Rename the third-party content type in the specified site to a different name and run upgrade again. For more information, see [Create or customize a content type](https://office.microsoft.com/office365-sharepoint-online-enterprise-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=5&amp;origin=HA103591373).
   
 > [!NOTE]
-> Either renaming or removing a content type can cause any customizations dependent on that content type to stop working. 
+> Either renaming or removing a content type can cause any customizations dependent on that content type to stop working.
   
 ### Q: My site looks ugly, doesn't behave as expected, or I see script errors
 <a name="UI"> </a>
 
-- **A:** Either edit the page or reset the page to the default version, or remove or replace the custom files. 
+- **A:** Either edit the page or reset the page to the default version, or remove or replace the custom files.
     
     A problem with custom or inline JavaScript or CSS files can cause these issues. For more information, see [Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](/SharePoint/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013).
     
@@ -101,12 +101,12 @@ This error indicates that a third-party content type was added to the specified 
     
     A Web Part or other control might have been added to the page that is not installed or is no longer supported. Either a Web Part was added to a zone or the page was directly edited to add a control or Web Part reference directly inline (possibly on a master page).
     
-    A SharePoint feature may need to be activated. For more information, see [Enable or disable site collection features](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/enable-or-disable-site-collection-features-HA102772720.aspx?CTT=1) and [Open and use the Web Part Maintenance Page](https://office.microsoft.com/en-us/sharepoint-help/open-and-use-the-web-part-maintenance-page-HA104046809.aspx?CTT=1). 
+    A SharePoint feature may need to be activated. For more information, see [Enable or disable site collection features](https://office.microsoft.com/en-usoffice365-sharepoint-online-enterprise-help/enable-or-disable-site-collection-features-HA102772720.aspx?CTT=1) and [Open and use the Web Part Maintenance Page](https://office.microsoft.com/sharepoint-help/open-and-use-the-web-part-maintenance-page-HA104046809.aspx?CTT=1).
     
 ### Q: I receive an error that I cannot create a subsite based on a site template because the site template uses the 2010 experience version and my site collection is in the 2013 experience version
 <a name="UI"> </a>
 
-- **A:** Recreate the site template in the 2013 experience. 
+- **A:** Recreate the site template in the 2013 experience.
     
     To recreate the site template, create a new subsite based on the 2013 experience, customize it again to match the template that you had, and then save the customized subsite as a template (on the **Site Settings** page, click **Save site as template**).
     

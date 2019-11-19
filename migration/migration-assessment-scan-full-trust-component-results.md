@@ -39,7 +39,7 @@ Determine the various reasons full trust code was used in your on premises envir
   
 If you find there is not an equivalent solution provided in SharePoint Online, you may want to look into customizing SharePoint Online by following the Office 365 patterns and practices documentation.
   
-https://msdn.microsoft.com/en-us/pnp_articles/office-365-development-patterns-and-practices-solution-guidance
+https://msdn.microsoft.com/pnp_articles/office-365-development-patterns-and-practices-solution-guidance
   
 ## Post Migration
 

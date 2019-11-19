@@ -73,7 +73,7 @@ To learn more about planning hub sites, see [Planning your SharePoint hub sites.
 
 In the modern SharePoint Online experience, it is easier to [*change the look*](https://support.office.com/article/Change-the-look-of-your-SharePoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818) and feel of your sites to match your company or organizational brand. You can customize the logo, colors, navigation, header, and footer – often without writing a single line of code. Branding can be applied at the site level, to a group of sites, or to all sites within your organization. SharePoint Online includes an updated set of default site themes and site designs (or templates) that are responsive and look great on any device. With site themes, you can customize your site’s logo and colors to match your brand.
 
-Coming soon are multiple options for headers and footers on Communication sites, and options for navigation such as a mega menu. Check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) for these and other features that are in development, rolling out, or launched.
+Coming soon are multiple options for headers and footers on Communication sites, and options for navigation such as a mega menu. Check the [Office 365 Roadmap](https://products.office.com/business/office-365-roadmap) for these and other features that are in development, rolling out, or launched.
 To learn more about branding options, see [Branding your SharePoint Online site](branding-sharepoint-online-sites-modern-experience.md). To learn more about planning navigation, see [Planning navigation for modern SharePoint](plan-navigation-modern-experience.md).
 
 ### Classic site templates and modern site designs

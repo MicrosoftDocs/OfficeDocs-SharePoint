@@ -60,7 +60,7 @@ The first step in configuring Site Mailboxes is to install the Exchange Server W
   
  **Install Exchange Web Services API on SharePoint Server**
   
-1. Download EWSManagedAPI.msi from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=42951) and save it to a folder on each web and application server. 
+1. Download EWSManagedAPI.msi from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=42951) and save it to a folder on each web and application server.
     
 2. Open a command window as administrator and navigate to the folder where you saved EWSManagedAPI.msi.
     

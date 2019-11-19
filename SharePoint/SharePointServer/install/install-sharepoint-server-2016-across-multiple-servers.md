@@ -54,7 +54,7 @@ For additional information about MinRole, see [Overview of MinRole Server Roles 
 
 Before you begin to install and configure SharePoint Servers 2016 or 2019, do the following:
   
-- Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2012 R2](https://msdn.microsoft.com/en-us/library/dn529133%28v=vs.85%29.aspx).
+- Ensure that you are familiar with the operating-system guidelines described in [Performance Tuning Guidelines for Windows Server 2012 R2](https://msdn.microsoft.com/library/dn529133%28v=vs.85%29.aspx).
     
 - Ensure that you have met all hardware and software requirements. For more information about these requirements, such as specific updates that you must install, see [Hardware and software requirements for SharePoint Server 2016](hardware-and-software-requirements.md). For SharePoint Server 2019, see [Hardware and software requirements for SharePoint Server 2019](hardware-and-software-requirements-2019.md).
     

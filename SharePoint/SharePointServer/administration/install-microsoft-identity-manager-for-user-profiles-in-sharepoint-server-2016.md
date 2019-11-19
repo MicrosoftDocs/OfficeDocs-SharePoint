@@ -30,7 +30,7 @@ description: "Learn about Microsoft Identity Manager (MIM) and how it's used for
 - [MIM configuration scenarios with SharePoint Server 2016](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md#BKMK_ConfigScene)
     
 > [!IMPORTANT]
-> The solutions files referenced in this article are available for download [here](https://github.com/OfficeDev/PnP-Tools/tree/master/Solutions/UserProfile.MIMSync). You will need a GitHub account for access. See the section 'Download the solutions files that you need' for more details. > Microsoft Identity Manager 2016 is available for download from the [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). (Log in and search on the product name.) > On your MIM server, be sure to install [KB3092179](https://support.microsoft.com/en-us/kb/3092179). 
+> The solutions files referenced in this article are available for download [here](https://github.com/OfficeDev/PnP-Tools/tree/master/Solutions/UserProfile.MIMSync). You will need a GitHub account for access. See the section 'Download the solutions files that you need' for more details. > Microsoft Identity Manager 2016 is available for download from the [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx). (Log in and search on the product name.) > On your MIM server, be sure to install [KB3092179](https://support.microsoft.com/kb/3092179).
   
 ## What is Microsoft Identity Manager?
 <a name="BKMK_WhatIsMIM1"> </a>
@@ -53,14 +53,14 @@ Which option is right for you?
 ## Choosing MIM for use with SharePoint Server 
 <a name="BKMK_ChooseMIM"> </a>
 
-If you choose MIM, there are some **prerequisites** of which you should be aware. You will need: 
+If you choose MIM, there are some **prerequisites** of which you should be aware. You will need:
   
-1. For SharePoint Server 2016, a Windows Server 2012 R2 computer or virtual machine for the installation of MIM components. For SharePoint Server 2019, a Windows Server 2016 computer is required. 
+1. For SharePoint Server 2016, a Windows Server 2012 R2 computer or virtual machine for the installation of MIM components. For SharePoint Server 2019, a Windows Server 2016 computer is required.
     
 2. SQL Server 2008 or above, to be installed either on the same machine as the MIM components, or remotely.
     
     > [!NOTE]
-    > If you have SQL Server running on a  *separate*  server from MIM, you'll need to install SQL Server native client (either for [2008](https://msdn.microsoft.com/en-us/sqlserver/aa937733.aspx) or [2012](https://www.microsoft.com/en-us/download/details.aspx?id=29065)) where you installed MIM. 
+    > If you have SQL Server running on a  *separate*  server from MIM, you'll need to install SQL Server native client (either for [2008](https://msdn.microsoft.com/sqlserver/aa937733.aspx) or [2012](https://www.microsoft.com/download/details.aspx?id=29065)) where you installed MIM.
   
 3. You'll need to create a service account in your domain to run the MIM Synchronization Service. This account should have the "Log on as a service" permissions granted to it on the machine where the MIM Synchronization Service will be installed. These permissions will normally be assigned automatically during setup of the service but can be manually assigned via the Local Security Policy (secpol.msc).
     
@@ -113,11 +113,11 @@ During these steps, you'll actually install three different elements essential t
 
 SharePoint Management Agent (SPMA) is an essential if you need to connect MIM to your SharePoint Server installation. We'll install and configure it now.
   
-1. You need to install the SPMA on the same server as is running MIM. Install the latest SPMA bits from [here](https://www.microsoft.com/en-us/download/details.aspx?id=41164).
+1. You need to install the SPMA on the same server as is running MIM. Install the latest SPMA bits from [here](https://www.microsoft.com/download/details.aspx?id=41164).
     
 2. Click **Download** and run the installation. You won't need to make any selections during this installation process. 
     
-3. Restart the Forefront Identity Manager Synchronization Service (again, you can get to this via Start or Windows key > **Run** > services.msc) 
+3. Restart the Forefront Identity Manager Synchronization Service (again, you can get to this via Start or Windows key > **Run** > services.msc)
     
 4. Once the installation completes, check Programs and Features in Control Panel on your MIM server to ensure you see **Forefront Identity Manager SharePoint Connector**.
     

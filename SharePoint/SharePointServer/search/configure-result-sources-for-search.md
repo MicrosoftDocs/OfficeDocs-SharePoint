@@ -95,21 +95,21 @@ Next:
     
 5. If you selected **Remote SharePoint** for the protocol, then in the **Remote Service URL** section, type the address of the root site collection of the remote SharePoint farm. 
     
-6. If you selected **OpenSearch 1.0/1.1** for the protocol, then in the **Source URL** section, type the URL of the OpenSearch source. 
+6. If you selected **OpenSearch 1.0/1.1** for the protocol, then in the **Source URL** section, type the URL of the OpenSearch source.
     
 7. If you selected **Exchange** for the protocol, then in the **Exchange Source URL** section, type the URL of the Exchange web service — for example, https://contoso.com/ews/exchange.asmx.
     
-8. In the **Query Transform** section, do one of the following: 
+8. In the **Query Transform** section, do one of the following:
     
   - Leave the default query transform ( **searchTerms**) as is. In this case, the query will be unchanged since the previous transform.
     
-  - Type a different query transform in the text box. For more information, see [Understanding query transforms](https://office.microsoft.com/en-us/sharepoint-server-help/understanding-query-transforms-HA102848843.aspx).
+  - Type a different query transform in the text box. For more information, see [Understanding query transforms](https://office.microsoft.com/sharepoint-server-help/understanding-query-transforms-HA102848843.aspx).
     
-  - Use the Query Builder to configure a query transform by doing the following: 
+  - Use the Query Builder to configure a query transform by doing the following:
     
     - Click **Launch Query Builder**.
     
-    - In the **Build Your Query** dialog box, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables. 
+    - In the **Build Your Query** dialog box, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables.
     
 **On the BASICS tab**
 

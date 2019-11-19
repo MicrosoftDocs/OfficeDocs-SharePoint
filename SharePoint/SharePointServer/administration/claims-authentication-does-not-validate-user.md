@@ -122,21 +122,21 @@ You can find the failed authentication attempt in the ULS log files either manua
     
 2. On the server that is running SharePoint Server or SharePoint Foundation, find the %CommonProgramFiles% **\Microsoft Shared\Web Server Extensions\16\LOGS** or %CommonProgramFiles% **\Microsoft Shared\Web Server Extensions\15\LOGS** folder. 
     
-3. In the **LOGS** folder, click **Date modified** to sort the folder by date, with the most recent at the top. 
+3. In the **LOGS** folder, click **Date modified** to sort the folder by date, with the most recent at the top.
     
 4. Try the authentication task againl
     
-5. In the **LOGS** folder window, double-click the log file at the top of the list to open the file in Notepad. 
+5. In the **LOGS** folder window, double-click the log file at the top of the list to open the file in Notepad.
     
 6. In **Notepad**, click **Edit,** click **Find**, type **Authentication Authorization** or **Claims Authentication**, and then click **Find Next**.
     
-7. Click **Cancel**, and then read the contents of the **Message** column. 
+7. Click **Cancel**, and then read the contents of the **Message** column.
     
-To use the ULS Viewer, download it from [ULS Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=44020) and save it to a folder on the server that is running SharePoint Server or SharePoint Foundation. After it is installed, follow these steps to locate the failed authentication attempt. 
+To use the ULS Viewer, download it from [ULS Viewer](https://www.microsoft.com/download/details.aspx?id=44020) and save it to a folder on the server that is running SharePoint Server or SharePoint Foundation. After it is installed, follow these steps to locate the failed authentication attempt.
   
  **To find the failed authentication attempt with the ULS Viewer**
   
-1. On the server that is running SharePoint Server or SharePoint Foundation, double-click **Ulsviewer** from the folder in which it is stored. 
+1. On the server that is running SharePoint Server or SharePoint Foundation, double-click **Ulsviewer** from the folder in which it is stored.
     
 2. In the **ULS Viewer**, click **File**, point to **Open From**, and then click **ULS**.
     
@@ -229,14 +229,14 @@ Use a tool such as [HttpWatch](https://go.microsoft.com/fwlink/p/?LinkId=275459)
     For example, you can monitor the HTTP messages that the web client computer sends and the responses of the federation server, which could include security tokens and their claims.
     
 > [!NOTE]
-> If you use Fiddler, the authentication attempt can fail after requiring three authentication prompts. To prevent this behavior, see [Using Fiddler With SAML and SharePoint to Get Past the Three Authentication Prompts](https://go.microsoft.com/fwlink/p/?LinkId=276792). 
+> If you use Fiddler, the authentication attempt can fail after requiring three authentication prompts. To prevent this behavior, see [Using Fiddler With SAML and SharePoint to Get Past the Three Authentication Prompts](https://go.microsoft.com/fwlink/p/?LinkId=276792).
   
 ### Step 5: Capture and analyze authentication network traffic
 
-Use a network traffic tool, such as [Network Monitor 3.4](https://www.microsoft.com/en-us/download/details.aspx?id=4865), to capture and analyze traffic between the web client computer, the server that is running SharePoint Server or SharePoint Foundation, and the systems on which SharePoint Server or SharePoint Foundation relies for claims authentication. 
+Use a network traffic tool, such as [Network Monitor 3.4](https://www.microsoft.com/download/details.aspx?id=4865), to capture and analyze traffic between the web client computer, the server that is running SharePoint Server or SharePoint Foundation, and the systems on which SharePoint Server or SharePoint Foundation relies for claims authentication.
   
 > [!NOTE]
-> In many cases, claims authentication uses Hypertext Transfer Protocol Secure (HTTPS)-based connections, which encrypt the messages sent between computers. You cannot see the contents of encrypted messages with a network traffic tool without the aid of an add-in or extension. For example, for Network Monitor, you must install and configure the [Network Monitor Decryption Expert](https://go.microsoft.com/fwlink/p/?LinkId=276793). As an easier alternative to attempting to decrypt HTTPS messages, use a tool such as Fiddler on the server that hosts SharePoint Server or SharePoint Foundation, which can report on the unencrypted HTTP messages. 
+> In many cases, claims authentication uses Hypertext Transfer Protocol Secure (HTTPS)-based connections, which encrypt the messages sent between computers. You cannot see the contents of encrypted messages with a network traffic tool without the aid of an add-in or extension. For example, for Network Monitor, you must install and configure the [Network Monitor Decryption Expert](https://go.microsoft.com/fwlink/p/?LinkId=276793). As an easier alternative to attempting to decrypt HTTPS messages, use a tool such as Fiddler on the server that hosts SharePoint Server or SharePoint Foundation, which can report on the unencrypted HTTP messages.
   
 An analysis of the network traffic can reveal the following:
   

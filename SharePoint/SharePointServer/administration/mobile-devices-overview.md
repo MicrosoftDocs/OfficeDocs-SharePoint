@@ -100,7 +100,7 @@ Browsing the web on a mobile device is now so common that a SharePoint site must
   
 ![Device channels](../media/sp15Con_DeviceChannels.png)
   
-For more information on using device channels, and understanding the larger custom design and site branding experience for SharePoint 2013, see [Plan device channels](https://msdn.microsoft.com/en-us/library/jj862343) and [Overview of Design Manager](https://msdn.microsoft.com/en-us/library/jj822363.aspx).
+For more information on using device channels, and understanding the larger custom design and site branding experience for SharePoint 2013, see [Plan device channels](https://msdn.microsoft.com/library/jj862343) and [Overview of Design Manager](https://msdn.microsoft.com/library/jj822363.aspx).
   
 ## Office Web Apps
 <a name="owa"> </a>

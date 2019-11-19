@@ -28,14 +28,14 @@ If you want to govern the activation of code-based sandbox solutions, you can ut
 After an administrator uploads a solution to the Managed Solutions Gallery, site collection administrators can add and activate the solution using existing processes. Code-based sandbox solutions that are not in the Managed Solutions Gallery can't be activated by site collection administrators within the web application.
   
 > [!IMPORTANT]
-> When an InfoPath form that contains custom code is published in a web application with a Managed Solutions Gallery, the form no longer renders in a browser. It also creates a category of sandbox solution that cannot be approved using the Managed Solutions Gallery, so publishing fails and the form can no longer be rendered by InfoPath Forms Services. For additional information, see [InfoPath Forms Containing Code Fail to Activate when using the Managed Solutions Gallery](https://support.microsoft.com/en-us/kb/3192603). 
+> When an InfoPath form that contains custom code is published in a web application with a Managed Solutions Gallery, the form no longer renders in a browser. It also creates a category of sandbox solution that cannot be approved using the Managed Solutions Gallery, so publishing fails and the form can no longer be rendered by InfoPath Forms Services. For additional information, see [InfoPath Forms Containing Code Fail to Activate when using the Managed Solutions Gallery](https://support.microsoft.com/kb/3192603).
   
 ## Overview
 
 The Managed Solutions Gallery is a new feature in the September Public Update for code-based sandbox solutions which can be downloaded from here, [SharePoint Updates](https://go.microsoft.com/fwlink/?LinkID=827479) https://go.microsoft.com/fwlink/?LinkID=827479 
   
 > [!NOTE]
-> The September Public Update includes the English-language version of the Managed Solutions Gallery. A future Public Update will include the Multi-language versions of the Managed Solutions Gallery. 
+> The September Public Update includes the English-language version of the Managed Solutions Gallery. A future Public Update will include the Multi-language versions of the Managed Solutions Gallery.
   
 > [!NOTE]
 > To initially setup and configure the Managed Solutions Gallery is only available by using the following Microsoft PowerShell cmdlets: [New-SPUserSolutionAllowList](/powershell/module/sharepoint-server/New-SPUserSolutionAllowList?view=sharepoint-ps), [Enable-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Enable-SPUserSolutionAllowList?view=sharepoint-ps). To use these cmdlets you must use elevated administrator privileges, by using RunAs Administrator. > Once the gallery is configured, it is treated as a document library (that is, SPList) and can be managed by using the user interface. 
@@ -44,7 +44,7 @@ Before you can use the Managed Solutions Gallery, you must create a site collect
   
  **Create and enable the Managed Solutions Gallery**
   
-1.  Verify that you meet all of the following minimum requirements: 
+1.  Verify that you meet all of the following minimum requirements:
     
   - You must have membership in the securityadmin fixed server role on the SQL Server instance
     
@@ -91,4 +91,3 @@ SharePoint Add-ins are self-contained extensions of SharePoint websites that you
 [Disable-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Disable-SPUserSolutionAllowList?view=sharepoint-ps)
   
 [Get-SPUserSolutionAllowList](/powershell/module/sharepoint-server/Get-SPUserSolutionAllowList?view=sharepoint-ps)
-

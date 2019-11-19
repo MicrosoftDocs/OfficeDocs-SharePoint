@@ -27,13 +27,13 @@ In this scenario, we'll take a look at how to set up Power Pivot for SharePoint 
 
 Before getting started, make sure you have:
   
-- [Configured Excel Services](configure-excel-services.md) in your SharePoint Server farm. 
+- [Configured Excel Services](configure-excel-services.md) in your SharePoint Server farm.
     
-- [Configured a data model server](manage-excel-services-data-model-settings.md) in Excel Services. You'll need an instance of [Analysis Services 2012 SP1 configured in Power Pivot mode](https://msdn.microsoft.com/en-us/library/jj219067.aspx) in order to do this. 
+- [Configured a data model server](manage-excel-services-data-model-settings.md) in Excel Services. You'll need an instance of [Analysis Services 2012 SP1 configured in Power Pivot mode](https://msdn.microsoft.com/library/jj219067.aspx) in order to do this.
     
-- [Configured Secure Store](configure-the-secure-store-service.md) in your SharePoint Server farm. 
+- [Configured Secure Store](configure-the-secure-store-service.md) in your SharePoint Server farm.
     
-- Downloaded [Microsoft SQL Server 2012 SP1 PowerPivot for Microsoft SharePoint](https://www.microsoft.com/en-us/download/details.aspx?id=35577) (spPowerPivot.msi). (We'll be installing this program using the procedures in this article.) 
+- Downloaded [Microsoft SQL Server 2012 SP1 PowerPivot for Microsoft SharePoint](https://www.microsoft.com/download/details.aspx?id=35577) (spPowerPivot.msi). (We'll be installing this program using the procedures in this article.)
     
 - Created an Active Directory account for the Power Pivot application pool. This is a domain user account and doesn't require any special permissions. It should be a unique account created for this purpose.
     

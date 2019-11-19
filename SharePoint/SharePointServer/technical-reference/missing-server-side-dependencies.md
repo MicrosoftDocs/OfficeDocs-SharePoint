@@ -20,13 +20,13 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Missing 
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
- **Rule Name:** Missing server side dependencies. 
+ **Rule Name:** Missing server side dependencies.
 
- **Summary:** When you first deploy SharePoint Server 2016 this rule can generate false errors. To resolve this, update to the [August 2016 PU release](https://www.microsoft.com/en-us/download/details.aspx?id=53399).
+ **Summary:** When you first deploy SharePoint Server 2016 this rule can generate false errors. To resolve this, update to the [August 2016 PU release](https://www.microsoft.com/download/details.aspx?id=53399).
   
 Typically when you see this rule, it states that some Search service web parts are missing. If this is the case then you can ignore this message.
   
- **Cause:** This rule typically occurs when you have deployed the Search service in a SharePoint Server farm. 
+ **Cause:** This rule typically occurs when you have deployed the Search service in a SharePoint Server farm.
   
  **Resolution: Reference the following Microsoft documentation**
   

@@ -43,7 +43,7 @@ Which option is right for you?
 |Cons  <br/> | A separate MIM server is recommended for use with your SharePoint farm.  <br/>  The more customized the more complex the architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from Active Directory to SharePoint Server Profile).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are supported.  <br/> |
    
 > [!TIP]
-> If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](https://technet.microsoft.com/en-us/library/jj219646.aspx). 
+> If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](https://technet.microsoft.com/library/jj219646.aspx).
   
 ## What is the MIM Synchronization Service?
 <a name="BKMK_WhatIsMIM1"> </a>

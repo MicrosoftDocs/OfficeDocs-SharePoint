@@ -46,7 +46,7 @@ Follow these steps to update your SharePoint server.
 |[1.1 - Enable TLS 1.1 and TLS 1.2 in Windows Schannel](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#EnableTLS) <br/> |Required  <br/> |N/A  <br/> |N/A  <br/> |
 |[1.2 - Enable TLS 1.1 and TLS 1.2 support in WinHTTP](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#EnableTLSWinHTTP) <br/> |Required  <br/> |Required  <br/> |N/A  <br/> |
 |[1.3 - Enable TLS 1.1 and TLS 1.2 support in Internet Explorer](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#enableIE) <br/> |Required  <br/> |Required  <br/> |N/A  <br/> |
-|[1.4 - Install SQL Server 2008 R2 Native Client update for TLS 1.2 support](https://www.microsoft.com/en-us/download/details.aspx?id=57606#InstallSQL) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
+|[1.4 - Install SQL Server 2008 R2 Native Client update for TLS 1.2 support](https://www.microsoft.com/download/details.aspx?id=57606#InstallSQL) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[1.5 - Install .NET Framework 4.6 or higher](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#InstallNET46) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |[1.6 - Enable strong cryptography in .NET Framework 4.6 or higher](/SharePoint/security-for-sharepoint-server/enable-tls-and-ssl-support-in-sharepoint-2013#CryptoNet45) <br/> |Required  <br/> |Required  <br/> |Required  <br/> |
 |The following ﻿steps are **recommended**. Although not directly required by SharePoint Server 2013, they may be necessary for other software ﻿that integrates with SharePoint Server 2013.  <br/> |
@@ -188,18 +188,18 @@ Internet Explorer versions earlier than Internet Explorer 11 did not enable TLS 
 
 The SQL Server 2008 R2 Native Client doesn't support TLS 1.1 or TLS 1.2 by default. You must install the SQL Server 2008 R2 Native Client update for TLS 1.2 support.
   
-To install the SQL Server 2008 R2 Native Client update, see [SQL 2008 and 2008 R2 TLS 1.2 SQL Native Client updates not available in Windows Catalog.](https://www.microsoft.com/en-us/download/details.aspx?id=57606)
+To install the SQL Server 2008 R2 Native Client update, see [SQL 2008 and 2008 R2 TLS 1.2 SQL Native Client updates not available in Windows Catalog.](https://www.microsoft.com/download/details.aspx?id=57606)
   
 ## 1.5 - Install .NET Framework 4.6 or higher
 <a name="InstallNET46"> </a>
 
 SharePoint 2013 requires .NET Framework 4.6, .NET Framework 4.6.1, or .NET Framework 4.6.2 to support TLS 1.2. Microsoft recommends installing the latest version of .NET Framework for the latest functionality and reliability improvements.
   
-To install .NET Framework 4.6.2, see the KB article [Microsoft .NET Framework 4.6.2 (Web Installer) for Windows](https://support.microsoft.com/en-us/kb/3120737)
+To install .NET Framework 4.6.2, see the KB article [Microsoft .NET Framework 4.6.2 (Web Installer) for Windows](https://support.microsoft.com/kb/3120737)
   
-To install .NET Framework 4.6.1, see the KB article [The .NET Framework 4.6.1 web installer for Windows ](https://support.microsoft.com/en-us/kb/3102438)
+To install .NET Framework 4.6.1, see the KB article [The .NET Framework 4.6.1 web installer for Windows ](https://support.microsoft.com/kb/3102438)
   
-To install .NET Framework 4.6, see the KB article [Microsoft .NET Framework 4.6 (Web Installer) for Windows](https://support.microsoft.com/en-us/kb/3045560)
+To install .NET Framework 4.6, see the KB article [Microsoft .NET Framework 4.6 (Web Installer) for Windows](https://support.microsoft.com/kb/3045560)
   
 ## 1.6 - Enable strong cryptography in .NET Framework 4.6 or higher
 <a name="CryptoNet45"> </a>

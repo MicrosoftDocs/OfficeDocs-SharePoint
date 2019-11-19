@@ -23,7 +23,7 @@ SharePoint is a powerful collaboration platform that lets you share and manage c
   
 SharePoint Server can be used on-premises or with an Office 365 enterprise subscription to take advantage of all the latest features. Share common resources and applications on sites. Use search to discover information and expertise across your organization. And stay in the know with personalized news in SharePoint home and the SharePoint mobile apps.
 
-To learn more, go to <a href="https://products.office.com/en-us/sharepoint/collaboration">Learn about SharePoint. </a>
+To learn more, go to <a href="https://products.office.com/sharepoint/collaboration">Learn about SharePoint. </a>
   
 ## Where do I start?
 

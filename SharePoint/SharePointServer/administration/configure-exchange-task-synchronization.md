@@ -39,7 +39,7 @@ What you need to know before you begin:
     
 - It's very important that you have **Secure Sockets Layer (SSL)** running for your SharePoint web application, this is required for security reasons (if you're browsing to a site where the URL starts with http, that's using SSL). If you're not familiar with SSL, the [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)) can help. If you're in a test environment and you're using **self-SSL**, I've put the steps for this at the bottom of this article. 
     
-- You'll probably want to have **MySites** enabled for SharePoint, to see tasks in one place in SharePoint. You can also view them in **Outlook**. 
+- You'll probably want to have **MySites** enabled for SharePoint, to see tasks in one place in SharePoint. You can also view them in **Outlook**.
     
 - Task Synchronization requires Exchange Server 2016, with end-user mailboxes.
     
@@ -48,7 +48,7 @@ What you need to know before you begin:
 ## Downloading and Installing Exchange Server Web Services API on SharePoint Server
 <a name="begin"> </a>
 
-We'll start by getting a copy of the **EWSManagedAPI.msi** from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=42951) (https://www.microsoft.com/en-us/download/details.aspx?id=35371). Download this to each application server (App server) in your SharePoint environment. These are the servers which users browse to when going to your SharePoint site. This component is needed for SharePoint and Exchange to be able to have this cross-product functionality.You need to install the EWSManagedAPI.msi file via a command-line window. Open that window as an administrator, then make sure you change directories as needed to get to the location of the downloaded file. You'll need to run this one line of script once you're there, exactly as you see it below: 
+We'll start by getting a copy of the **EWSManagedAPI.msi** from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=42951) (https://www.microsoft.com/download/details.aspx?id=35371). Download this to each application server (App server) in your SharePoint environment. These are the servers which users browse to when going to your SharePoint site. This component is needed for SharePoint and Exchange to be able to have this cross-product functionality.You need to install the EWSManagedAPI.msi file via a command-line window. Open that window as an administrator, then make sure you change directories as needed to get to the location of the downloaded file. You'll need to run this one line of script once you're there, exactly as you see it below:
   
 ```
 msiexec /i EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
