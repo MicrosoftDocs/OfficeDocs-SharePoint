@@ -30,8 +30,8 @@ For a visual look of the high-level steps, see
 
 |**File Type**  |**Download Location**  |
 |---------|---------|
-|Visio    |  [Upgrade from SharePoint 2013 to SharePoint Server 2019](http://download.microsoft.com/download/9/3/D/93DAA2C7-E11B-42B6-A405-B937CEDFC527/Upgrade2013to2019.vsdx)        |
-|PDF     |  [Upgrade from SharePoint 2013 to SharePoint Server 2019](http://download.microsoft.com/download/9/3/D/93DAA2C7-E11B-42B6-A405-B937CEDFC527/Upgrade2013to2019.pdf)       |
+|Visio    |  [Upgrade from SharePoint 2013 to SharePoint Server 2019](https://download.microsoft.com/download/9/3/D/93DAA2C7-E11B-42B6-A405-B937CEDFC527/Upgrade2013to2019.vsdx)        |
+|PDF     |  [Upgrade from SharePoint 2013 to SharePoint Server 2019](https://download.microsoft.com/download/9/3/D/93DAA2C7-E11B-42B6-A405-B937CEDFC527/Upgrade2013to2019.pdf)       |
 
 
 >[!NOTE]

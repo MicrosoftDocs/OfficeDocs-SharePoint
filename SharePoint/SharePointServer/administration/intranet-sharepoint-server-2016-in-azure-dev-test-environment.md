@@ -114,7 +114,7 @@ Record the name and password of the local administrator account in a secure loca
 > [!NOTE]
 > This Azure PowerShell command block creates an Azure availability set for the SQL1 virtual machine. This is done in case you want to add more SQL Server virtual machines to this basic configuration. 
   
-From the [Azure portal](http://portal.azure.com) on your local computer, connect to the SQL Server virtual machine (SQL1) using the credentials of the local administrator account. 
+From the [Azure portal](https://portal.azure.com) on your local computer, connect to the SQL Server virtual machine (SQL1) using the credentials of the local administrator account. 
   
 Next, join the SQL Server to the Windows Server AD domain with these commands at a Windows PowerShell prompt on SQL1.
   
@@ -186,7 +186,7 @@ Figure 3 shows the CorpNet and XPrem VNets with the additional SQL1 virtual mach
 
 In this phase, you create a SharePoint Server 2016 virtual machine in your virtual network, make it a member of the Windows Server AD domain, and then create a new single-server SharePoint farm.
   
-First, you must create a new Windows Server AD account for the SharePoint farm. From the [Azure portal](http://portal.azure.com) on your local computer, connect to DC2. Then, run the following command from an administrator-level Windows PowerShell command prompt on DC2: 
+First, you must create a new Windows Server AD account for the SharePoint farm. From the [Azure portal](https://portal.azure.com) on your local computer, connect to DC2. Then, run the following command from an administrator-level Windows PowerShell command prompt on DC2: 
   
 ```
 New-ADUser -SamAccountName sp_farm_db -AccountPassword (read-host "Set user password" -assecurestring) -name "sp_farm_db" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
@@ -237,7 +237,7 @@ Record the name and password of the local administrator account in a secure loca
   
 ### Configure the SharePoint Server 2016 virtual machine
 
-From the [Azure portal](http://portal.azure.com) on your local computer, connect to the SharePoint virtual machine (SP1) using the credentials of its local administrator account. 
+From the [Azure portal](https://portal.azure.com) on your local computer, connect to the SharePoint virtual machine (SP1) using the credentials of its local administrator account. 
   
 Join the SharePoint virtual machine to the Windows Server AD domain with these commands at the Windows PowerShell prompt on SP1:
   
@@ -298,7 +298,7 @@ Next, create a new, single-server SharePoint farm on SP1.
     
 17. On the **This completes the Farm Configuration Wizard** page, click **Finish**. The SharePoint Central Administration web page displays.
     
-18. From the [Azure portal](http://portal.azure.com) on your local computer, connect to the CLIENT1 VM. 
+18. From the [Azure portal](https://portal.azure.com) on your local computer, connect to the CLIENT1 VM. 
     
 19. From CLIENT1, open a new tab in Internet Explorer, type **http://sp1/** in the Address bar, and then press Enter. You should see the default Contoso team site. 
     

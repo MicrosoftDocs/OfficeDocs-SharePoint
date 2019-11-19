@@ -58,7 +58,7 @@ Microsoft supports the following SharePoint Server 2016 deployment scenarios on 
     
 Production farms running SharePoint 2013 are also supported. SharePoint 2010 is no longer in mainstream support, however it can be installed on Azure VMs for testing and validation of migration scenarios.
   
-As with other Microsoft workloads, licensing is handled with Licensing Mobility through Software Assurance. For more information, see [Licensing Microsoft server products for use in virtual environments](http://download.microsoft.com/download/3/d/4/3d42bdc2-6725-4b29-b75a-a5b04179958b/microsoftservervirtualization_licensemobility_vlbrief.pdf).
+As with other Microsoft workloads, licensing is handled with Licensing Mobility through Software Assurance. For more information, see [Licensing Microsoft server products for use in virtual environments](https://download.microsoft.com/download/3/d/4/3d42bdc2-6725-4b29-b75a-a5b04179958b/microsoftservervirtualization_licensemobility_vlbrief.pdf).
   
 ## The design process for SharePoint Server 2016 farms in Azure
 

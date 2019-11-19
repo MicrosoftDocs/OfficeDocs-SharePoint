@@ -434,7 +434,7 @@ The following table lists the recommended guidelines for managed metadata term s
 |Number of Variation Labels  <br/> |209 per term store  <br/> |Supported  <br/> |The maximum number of Variation Labels per term store is 209.  <br/> |
 |Number of terms in managed navigation term set  <br/> |2,000  <br/> |Supported  <br/> |The maximum supported number of terms in a managed navigation term set is 2,000.  <br/> |
 
-See also [Overview of Managed Metadata service in SharePoint 2013](https://technet.microsoft.com/library/ee424403.aspx) and [The impact of having multiple Managed Metadata services per farm](http://technet.microsoft.com/library/gg681889.aspx)
+See also [Overview of Managed Metadata service in SharePoint 2013](https://technet.microsoft.com/library/ee424403.aspx) and [The impact of having multiple Managed Metadata services per farm](https://technet.microsoft.com/library/gg681889.aspx)
 
 #### Visio Services limits
 <a name="Visio"> </a>

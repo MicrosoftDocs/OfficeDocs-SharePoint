@@ -362,6 +362,6 @@ When you add a new field to a content type, make sure that the field ID is the s
     
 4. Republish the updated content type from the other content type hubs (ContentTypeHub2 and ContentTypeHub3).
     
-    The following article on MSDN provides an example of how to use the object model to manipulate content types: [SPContentType class](http://msdn.microsoft.com/library/microsoft.sharepoint.spcontenttype).
+    The following article on MSDN provides an example of how to use the object model to manipulate content types: [SPContentType class](https://msdn.microsoft.com/library/microsoft.sharepoint.spcontenttype).
     
 
