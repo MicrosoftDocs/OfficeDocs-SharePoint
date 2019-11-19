@@ -42,13 +42,13 @@ Example: A food store has added a new managed property "gluten-free" and wants t
 Example: An accountancy company wants Excel workbooks (file type) to have higher ranking weight than what they get when using the standard ranking model.
     
    > [!IMPORTANT]
-   >  Creating a custom ranking model is rather complex, and you should not take this lightly. For a good result, expect to invest time on tasks such as judging a considerable number of queries. 
+   >  Creating a custom ranking model is rather complex, and you should not take this lightly. For a good result, expect to invest time on tasks such as judging a considerable number of queries.
   
-Learn more about ranking and ranking models: 
+Learn more about ranking and ranking models:
   
 - [Overview of search result ranking in SharePoint Server](/SharePoint/search/overview-of-search-result-ranking)
     
-- [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/en-us/library/dn169052.aspx)
+- [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/library/dn169052.aspx)
     
 
     
@@ -178,7 +178,7 @@ When you copy an existing ranking model, the new ranking model contains the same
     
 You can also remove features from the model.
   
- Read more about rank features and aggregation of rank features in [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/en-us/library/dn169052.aspx).
+ Read more about rank features and aggregation of rank features in [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/library/dn169052.aspx).
   
 ### Step 4b: Tune the weights
 <a name="__toc369771602"> </a>
@@ -234,18 +234,18 @@ The new ranking model is by default available for the site where you added the a
     
   - Current site collection
     
-  - **All site collections** (the whole Search Service Application) 
+  - **All site collections** (the whole Search Service Application)
     
 3. Click **Publish**.
     
-When you publish your ranking model, you'll get a GUID that identifies the ranking model. You can use the GUID in search, for example when configuring the **Search Results Web Part**, or to programmatically set the **RankingModelId** property of a query. 
+When you publish your ranking model, you'll get a GUID that identifies the ranking model. You can use the GUID in search, for example when configuring the **Search Results Web Part**, or to programmatically set the **RankingModelId** property of a query.
   
 ## More info about ranking and ranking models
 <a name="__toc369771605"> </a>
 
 - [Overview of search result ranking in SharePoint Server](/SharePoint/search/overview-of-search-result-ranking) 
     
-- [Customizing ranking models to improve relevance in SharePoint Server](https://msdn.microsoft.com/en-us/library/dn169052.aspx) 
+- [Customizing ranking models to improve relevance in SharePoint Server](https://msdn.microsoft.com/library/dn169052.aspx) 
     
    
 - [Manage query rules in SharePoint Server](/SharePoint/search/manage-query-rules)
@@ -253,6 +253,3 @@ When you publish your ranking model, you'll get a GUID that identifies the ranki
 - [Configure properties of the Search Results Web Part in SharePoint Server](/SharePoint/search/configure-properties-of-the-search-results-web-part)
     
 - [Manage the search schema in SharePoint Server](/SharePoint/search/manage-the-search-schema)
-    
-  
-

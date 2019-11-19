@@ -215,9 +215,9 @@ Do the following for each of the SharePoint servers:
 3. After the virtual machine restarts, create a Remote Desktop connection using the \<your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md).
     
 > [!NOTE]
-> The SharePoint servers are created from the SharePoint Server 2016 Trial image. You need to convert the installation to use a Retail or Volume License key for either the Standard or Enterprise edition of SharePoint Server 2016. For more information, see [SharePoint 2016 Licensing](https://products.office.com/en-us/sharepoint/sharepoint-licensing-overview). 
+> The SharePoint servers are created from the SharePoint Server 2016 Trial image. You need to convert the installation to use a Retail or Volume License key for either the Standard or Enterprise edition of SharePoint Server 2016. For more information, see [SharePoint 2016 Licensing](https://products.office.com/sharepoint/sharepoint-licensing-overview). 
   
-Next, you need to add the extra data disks to each SharePoint server. 
+Next, you need to add the extra data disks to each SharePoint server.
   
 For the first and second front end and distributed cache servers, run these commands at an administrator-level Windows PowerShell prompt to initialize the F: drive.
   
@@ -361,13 +361,13 @@ Perform the following procedure on the two front-end and distributed cache serve
     
 12. On the **Configuration Successful** page, click **Finish**.
     
-13. On the **Initial Farm Configuration** page, click **Cancel**. You should see the **Central Administration** page. 
+13. On the **Initial Farm Configuration** page, click **Cancel**. You should see the **Central Administration** page.
     
-When SharePoint creates the farm, it configures a set of server logins on the primary SQL Server virtual machine. The database itself stores all the database metadata and user information, and a user who is defined in this database does not need to have a corresponding login. The information in this database is replicated by the availability group and is available after a failover. For more information, see [Contained database](https://msdn.microsoft.com/en-us/library/ff929071.aspx).
+When SharePoint creates the farm, it configures a set of server logins on the primary SQL Server virtual machine. The database itself stores all the database metadata and user information, and a user who is defined in this database does not need to have a corresponding login. The information in this database is replicated by the availability group and is available after a failover. For more information, see [Contained database](https://msdn.microsoft.com/library/ff929071.aspx).
   
 However, by default, SharePoint databases are not contained databases. Therefore, you will need to manually configure the secondary database server so that it has the same set of logins for SharePoint farm accounts as the primary database server. You can perform this synchronization from SQL Server Management Studio by connecting to both servers at the same time.
   
-Here is the configuration that results from the successful completion of this phase. 
+Here is the configuration that results from the successful completion of this phase.
   
 **Phase 4: The SharePoint servers for your high-availability SharePoint Server 2016 farm**
 

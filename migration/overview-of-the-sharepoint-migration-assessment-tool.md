@@ -22,10 +22,10 @@ The SharePoint Migration assessment tool (SMAT) is a simple command line executa
 As the tool is designed to run without impacting your environment, you may observe the tool requires one to two days to complete a scan of your environment. During this time, the tool will report progress in the console window. After the scan is complete, you can find output files in the Logs directory. This is where you will find the summary and more detailed insights into the scenarios that could be impacted by migration.
   
 > [!NOTE]
-> To download the SharePoint Migration Tool, click here: [Download the SharePoint Migration Assessment Tool ](https://www.microsoft.com/en-us/download/details.aspx?id=53598)
+> To download the SharePoint Migration Tool, click here: [Download the SharePoint Migration Assessment Tool ](https://www.microsoft.com/download/details.aspx?id=53598)
   
 > [!NOTE]
-> To improve the quality of Microsoft products and services, the tool will report anonymous statistical information back to Microsoft. Optionally, you can identify your organization when prompted at the end of the scan. If the tool is not able to connect to the internet to report this information, the tool will still function as otherwise expected. 
+> To improve the quality of Microsoft products and services, the tool will report anonymous statistical information back to Microsoft. Optionally, you can identify your organization when prompted at the end of the scan. If the tool is not able to connect to the internet to report this information, the tool will still function as otherwise expected.
   
 ## Overview
 
@@ -111,8 +111,6 @@ At this time the executable for Identity Mapping [SMIT.exe] does not support scr
 
 To download the SharePoint Migration Tool and for more information about how to address issues identified in the assessment reports see.
   
-- [Download the SharePoint Migration Assessment Tool ](https://www.microsoft.com/en-us/download/details.aspx?id=53598)
+- [Download the SharePoint Migration Assessment Tool ](https://www.microsoft.com/download/details.aspx?id=53598)
     
 - [SharePoint Migration Assessment Tool: Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
-    
-

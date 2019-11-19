@@ -162,6 +162,4 @@ For more information see [Search the audit log in the Office 365 Security &amp; 
 
 [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)
   
-[TechNet Forums: Hybrid Auditing](https://social.technet.microsoft.com/Forums/office/en-US/home?forum=hybridauditing)
-  
-
+[TechNet Forums: Hybrid Auditing](https://social.technet.microsoft.com/Forums/office/home?forum=hybridauditing)

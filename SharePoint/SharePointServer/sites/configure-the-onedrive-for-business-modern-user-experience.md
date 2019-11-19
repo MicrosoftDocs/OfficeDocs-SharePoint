@@ -20,7 +20,7 @@ description: "Learn how to turn the OneDrive for Business modern user experience
   
 As part of the November 2016 public update for SharePoint Server 2016 (Feature Pack 1), a new modern user experience for OneDrive for Business is included. This modern user experience is turned on automatically when you install the public update. However, you can use Microsoft PowerShell to toggle the user experience off and on if you need to.
   
-The OneDrive for Business modern user experience requires an active [Software Assurance](https://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-default.aspx) contract at the time it is enabled, either by installation of the PU or by manual enablement. If you don't have an active Software Assurance contract at the time of enablement, then you must turn the OneDrive for Business modern user experience off. 
+The OneDrive for Business modern user experience requires an active [Software Assurance](https://www.microsoft.com/licensing/licensing-programs/software-assurance-default.aspx) contract at the time it is enabled, either by installation of the PU or by manual enablement. If you don't have an active Software Assurance contract at the time of enablement, then you must turn the OneDrive for Business modern user experience off.
   
  **Turn the OneDrive for Business modern user experience off**
   

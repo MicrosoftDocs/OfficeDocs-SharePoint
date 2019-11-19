@@ -91,7 +91,7 @@ By changing the properties and query in the Search Results Web Part you can you 
     
     - **Query text**
     
-      By default, the query variable {searchboxquery} is defined for this field. You can change the query text by using KQL. For more information about KQL, see [Keyword Query Language (KQL) syntax reference](https://msdn.microsoft.com/en-us/library/ee558911%28v=office.15%29.aspx). Alternatively you can use the **Keyword filter** and **Property filter** lists to build the query. 
+      By default, the query variable {searchboxquery} is defined for this field. You can change the query text by using KQL. For more information about KQL, see [Keyword Query Language (KQL) syntax reference](https://msdn.microsoft.com/library/ee558911%28v=office.15%29.aspx). Alternatively you can use the **Keyword filter** and **Property filter** lists to build the query. 
     
       The keyword query can consist of free-text keywords, property filters, or operators. Use braces to enclose query variables. The query variables will be replaced with an actual value when the query is run.
     

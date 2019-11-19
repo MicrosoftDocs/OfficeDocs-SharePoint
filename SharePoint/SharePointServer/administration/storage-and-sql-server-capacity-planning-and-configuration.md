@@ -357,21 +357,21 @@ In particular, you should consider your need for the following features:
 
     - SQL Server 2016 
  
-    - SQL Server 2017 RTM 
+    - SQL Server 2017 RTM
      
   **SharePoint 2013**
 
-    - SQL Server 2008 R2 with SP1 
+    - SQL Server 2008 R2 with SP1
 
-    - SQL Server 2012 Enterprise Edition 
+    - SQL Server 2012 Enterprise Edition
     
-- **Resource governor** Resource Governor is a technology introduced in SQL Server 2008 to enable you to manage SQL Server workloads and resources by specifying limits on resource consumption by incoming requests. Resource Governor enables you to differentiate workloads and allocate CPU and memory as they are requested, based on the limits that you specify. For more information about how to use Resource Governor, see [Resource Governor](https://msdn.microsoft.com/en-us/library/bb933866%28v=sql.120%29.aspx) for SQL Server 2014 and [Resource Governor](https://go.microsoft.com/fwlink/?LinkID=808798&amp;clcid=0x409) for SQL Servers 2016 and 2019. 
+- **Resource governor** Resource Governor is a technology introduced in SQL Server 2008 to enable you to manage SQL Server workloads and resources by specifying limits on resource consumption by incoming requests. Resource Governor enables you to differentiate workloads and allocate CPU and memory as they are requested, based on the limits that you specify. For more information about how to use Resource Governor, see [Resource Governor](https://msdn.microsoft.com/library/bb933866%28v=sql.120%29.aspx) for SQL Server 2014 and [Resource Governor](https://go.microsoft.com/fwlink/?LinkID=808798&amp;clcid=0x409) for SQL Servers 2016 and 2019.
     
     We recommend that you use Resource Governor with SharePoint Server to:
     
   - Limit the amount of SQL Server resources that the web servers targeted by the search crawl component consume. As a best practice, we recommend limiting the crawl component to 10 percent CPU when the system is under load.
     
-  - Monitor how many resources are consumed by each database in the system — for example, you can use Resource Governor to help you determine the best placement of databases among computers that are running SQL Server. 
+  - Monitor how many resources are consumed by each database in the system — for example, you can use Resource Governor to help you determine the best placement of databases among computers that are running SQL Server.
     
 - **Microsoft Power Pivot for SharePoint** Enables users to share and collaborate on user-generated data models and analysis in Excel on the web while automatically refreshing those analyses. You must have Office on the web to use Excel on the web with Power Pivot for SharePoint and SharePoint Server 2016. You can use SQL Server 2014 (SP1) or SQL Server 2016 RTM Enterprise Edition and SQL Server Analysis Services for business intelligence with SharePoint Server 2016. However, you can only use Power Pivot for SharePoint with SQL Server 2016 RTM, not with SQL Server 2014 (SP1). 
     

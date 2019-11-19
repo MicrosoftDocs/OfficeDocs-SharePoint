@@ -96,11 +96,11 @@ When you create catalog content by using SharePoint lists, we recommend that you
   
 For information about how to create site content types and site columns, see the following articles:
   
-- [Create or customize a content type](https://office.microsoft.com/en-us/sharepoint-server-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=1)
+- [Create or customize a content type](https://office.microsoft.com/sharepoint-server-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=1)
     
 - [Create a column in a SharePoint list or library](https://support.office.com/article/2b0361ae-1bd3-41a3-8329-269e5f81cfa2)
     
-- [Create a managed metadata column](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-a-managed-metadata-column-HA102832524.aspx?CTT=1)
+- [Create a managed metadata column](https://office.microsoft.com/office365-sharepoint-online-enterprise-help/create-a-managed-metadata-column-HA102832524.aspx?CTT=1)
     
 If you have large amounts of data in external business systems — for example, an ERP system — consider importing this data into one or more SharePoint lists. SharePoint Server does not have a solution for importing list content. However, you can develop custom import tools — for example, by using Microsoft PowerShell. For a set of example Microsoft PowerShell scripts that you can use to import list content for cross-site publishing, see [Import list content to Products list for SharePoint 2013 Preview](https://gallery.technet.microsoft.com/Import-list-content-to-f735d7fb). The example scripts import content only to a site collection that was created by using the Product Catalog Site Collection template.
   
@@ -160,7 +160,7 @@ In this example, let's say that you have a list that contains data for different
     
   - Desktops
     
-Each item in the shared list is associated with a value from this term set in the Item Category Managed Metadata site column. For more information about Managed Metadata columns, see [Create a Managed Metadata column](https://office.microsoft.com/en-us/sharepoint-server-help/create-a-managed-metadata-column-HA101631602.aspx?CTT=1).
+Each item in the shared list is associated with a value from this term set in the Item Category Managed Metadata site column. For more information about Managed Metadata columns, see [Create a Managed Metadata column](https://office.microsoft.com/sharepoint-server-help/create-a-managed-metadata-column-HA101631602.aspx?CTT=1).
   
 The following table describes how site columns and their corresponding values in the previous list are combined to create friendly URLs for catalog content when you connect a publishing site collection to this list.
   

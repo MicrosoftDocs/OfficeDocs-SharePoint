@@ -112,7 +112,7 @@ You **manage all other settings** in search administration in SharePoint Online 
   
 ### Crawling on-premises content
 
-With cloud hybrid search, the crawler can crawl the same content sources and use the same search connectors as in earlier SharePoint Server versions. This lets you crawl and push content from your SharePoint Server 2007, SharePoint Server 2010, SharePoint Server 2013 and SharePoint Server 2016 farms into the Office 365 search index. But, you can't index content that requires custom security trimming, because SharePoint Online in Office 365 doesn't support adding [custom security trimmers](https://msdn.microsoft.com/en-us/library/ee819930.aspx). 
+With cloud hybrid search, the crawler can crawl the same content sources and use the same search connectors as in earlier SharePoint Server versions. This lets you crawl and push content from your SharePoint Server 2007, SharePoint Server 2010, SharePoint Server 2013 and SharePoint Server 2016 farms into the Office 365 search index. But, you can't index content that requires custom security trimming, because SharePoint Online in Office 365 doesn't support adding [custom security trimmers](https://msdn.microsoft.com/library/ee819930.aspx).
   
 The crawler can crawl the same default file types as in earlier SharePoint Server versions. If you need to crawl other file types on-premises, you just add custom iFilters to the SharePoint Server 2013 or SharePoint Server 2016 farm. From the SharePoint Server 2013or SharePoint Server 2016 farm you can also change which file types the crawler crawls and includes in the search index in Office 365.
   

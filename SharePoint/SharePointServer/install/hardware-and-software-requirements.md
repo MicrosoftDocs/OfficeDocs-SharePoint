@@ -213,7 +213,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Windows Server AppFabric 1.1](https://go.microsoft.com/fwlink/p/?LinkId=618412)
     
-- [Cumulative Update Package 7 for AppFabric 1.1 for Windows Server](https://support.microsoft.com/en-us/kb/3092423)
+- [Cumulative Update Package 7 for AppFabric 1.1 for Windows Server](https://support.microsoft.com/kb/3092423)
     
 - [Visual C++ Redistributable Package for Visual Studio 2012](https://go.microsoft.com/fwlink/p/?LinkId=327788)
     

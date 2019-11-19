@@ -150,5 +150,4 @@ In order for SendingFarm to be able to get search results from the search index 
   
 [Getting a Full Result Set from a Remote SharePoint Index in SharePoint 2013](https://blogs.technet.com/b/speschka/archive/2013/01/24/getting-a-full-result-set-from-a-remote-sharepoint-index-in-sharepoint-2013.aspx)
   
-[An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET](https://msdn.microsoft.com/en-us/library/bb299886.aspx)
-
+[An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET](https://msdn.microsoft.com/library/bb299886.aspx)

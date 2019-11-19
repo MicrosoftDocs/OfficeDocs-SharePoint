@@ -160,7 +160,7 @@ In this scenario, the custom feature works correctly in SharePoint Server 2010. 
   
 Because the custom feature is expected to work in both SharePoint modes, you can use the same custom feature assemblies. You must install the solution package for both SharePoint modes as you did for the previous scenario. The key difference in this scenario is that the solution package must include logic that enables feature functionality that is conditionally based on site collection compatibility. 
   
-For example, let's say you have a method named Sample() implemented in a custom feature that was designed for SharePoint 2010. If you want to change its implementation in SharePoint 2013 mode, your code should include conditional logic that uses the [SPSite.CompatibilityLevel property](https://msdn.microsoft.com/en-us/library/office/microsoft.sharepoint.spsite.compatibilitylevel%28v=office.15%29.aspx):
+For example, let's say you have a method named Sample() implemented in a custom feature that was designed for SharePoint 2010. If you want to change its implementation in SharePoint 2013 mode, your code should include conditional logic that uses the [SPSite.CompatibilityLevel property](https://msdn.microsoft.com/library/office/microsoft.sharepoint.spsite.compatibilitylevel%28v=office.15%29.aspx):
   
 ```
 void Sample()
@@ -287,7 +287,7 @@ For web application scoped features, if the root site collection has not been up
 Regarding branding customizations, custom master pages are reset by default to seattle.master after a site collection upgrade in SharePoint 2013. If you are using the feature masking scenario, you need to reset any custom master pages that you have created for SharePoint 2013 site collections. For details about how to do this, see the MSDN article [Use Feature upgrade to apply new SharePoint Server 2013 master pages when upgrading from SharePoint 2010](https://go.microsoft.com/fwlink/?LinkId=396567).
   
 > [!NOTE]
-> For more information about the branding considerations you need to make when you upgrade site collections in SharePoint 2013, see [Branding issues that may occur when upgrading to SharePoint 2013](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013-HA104052656.aspx). 
+> For more information about the branding considerations you need to make when you upgrade site collections in SharePoint 2013, see [Branding issues that may occur when upgrading to SharePoint 2013](https://office.microsoft.com/office365-sharepoint-online-enterprise-help/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013-HA104052656.aspx).
   
 ## See also
 <a name="Add-OtherConsider"> </a>
@@ -296,7 +296,6 @@ Regarding branding customizations, custom master pages are reset by default to s
 
 [Create a plan for current customizations during upgrade to SharePoint 2013](/SharePoint/upgrade-and-update/create-a-communication-plan-for-the-upgrade-to-sharepoint-2013)
   
-[SharePoint 2013 and SharePoint Online solution pack for branding and site provisioning](https://www.microsoft.com/en-us/download/details.aspx?id=42030)
+[SharePoint 2013 and SharePoint Online solution pack for branding and site provisioning](https://www.microsoft.com/download/details.aspx?id=42030)
   
-[Branding issues that may occur when upgrading to SharePoint 2013](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013-HA104052656.aspx)
-
+[Branding issues that may occur when upgrading to SharePoint 2013](https://office.microsoft.com/office365-sharepoint-online-enterprise-help/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013-HA104052656.aspx)

@@ -206,17 +206,17 @@ Make sure you setup the App Urls in Central Administration on the DR site.
 Recovering the App Management Database does not preserve the App Domain even though it does preserve the App Prefix.
   
 > [!IMPORTANT]
-> Failing to set the App Domain will result in a DNS lookup failure and a site not found error in the browser. 
+> Failing to set the App Domain will result in a DNS lookup failure and a site not found error in the browser.
   
 ### b. Set up Access Database Logins for the secondary site
 
 Access Services requires the Contained Databases feature of SQL Server, which supports contained database logins. However, Access Services in SharePoint 2013 and 2016 only partially leverages this feature, and so the database logins are actually stored in the Master DB, just like any other login. The downside to this is that on failover we need to regenerate any missing logins and ensure we set the same password for the account.
   
-Fortunately, Microsoft has produced an easy way to do this documented right here (and we'll be using this article in step 1, below) [How to transfer logins and passwords between instances of SQL Server](https://support.microsoft.com/en-us/kb/918992).
+Fortunately, Microsoft has produced an easy way to do this documented right here (and we'll be using this article in step 1, below) [How to transfer logins and passwords between instances of SQL Server](https://support.microsoft.com/kb/918992).
   
 The process has three key steps:
   
-1. Use the script in [How to transfer logins and passwords between instances of SQL Server](https://support.microsoft.com/en-us/kb/918992) to generate two new stored procedures in the primary Access Services Database Server Master Database. 
+1. Use the script in [How to transfer logins and passwords between instances of SQL Server](https://support.microsoft.com/kb/918992) to generate two new stored procedures in the primary Access Services Database Server Master Database.
     
 2. Execute the Stored Procedure to generate a TSQL script that can be copied to the target secondary server, for example:
     

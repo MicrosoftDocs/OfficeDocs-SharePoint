@@ -77,11 +77,11 @@ When you set up cloud hybrid search, one of the steps is to create a cloud Searc
   
 A search architecture for cloud hybrid search consists of search components and databases that form a topology, and servers that host that topology. You need to plan the number of crawl components for your topology, which servers to host the search components and databases on, and the hardware required for each server.
   
-Before you get going, you should read [Learn about the search topology for cloud hybrid search](plan-cloud-hybrid-search-for-sharepoint.md#BKMK_Learn_search_topo_cloud_hybrid_search) to familiarize yourself with the search components in a search architecture for cloud hybrid search. 
+Before you get going, you should read [Learn about the search topology for cloud hybrid search](plan-cloud-hybrid-search-for-sharepoint.md#BKMK_Learn_search_topo_cloud_hybrid_search) to familiarize yourself with the search components in a search architecture for cloud hybrid search.
   
 ### Step 1: How much on-premises content can I index in Office 365?
 
-For each 1 TB of pooled storage space your tenant has in SharePoint Online, you can index 1 million items of on-premises content in the search index in Office 365. You can purchase more space to increase your quota, until it reaches the threshold of 20 million items. If you need to index more than 20 million items of on-premises content, contact [Microsoft Support](https://support.microsoft.com/en-us/assistedsupportproducts) to increase this threshold. 
+For each 1 TB of pooled storage space your tenant has in SharePoint Online, you can index 1 million items of on-premises content in the search index in Office 365. You can purchase more space to increase your quota, until it reaches the threshold of 20 million items. If you need to index more than 20 million items of on-premises content, contact [Microsoft Support](https://support.microsoft.com/assistedsupportproducts) to increase this threshold.
   
 ### Step 2: What size cloud search architecture do I need?
 
@@ -170,7 +170,7 @@ Some organizations assign access rights to their on-premises content by using on
   
 The Azure Active Directory Connect synchronization tool by default excludes some objects from synchronization. Security groups that have the attribute IsCriticalSecurityObject=true is one set of objects that the tool excludes, and Domain Users is an example of such a security group. Therefore, the access rights for the members of Domain Users aren't available in Azure Active Directory (AAD). Even if users have access to on-premises content, they don't get search results when they search for that content.
   
-Instead, assign access rights by using a group that doesn't have IsCriticalSecurityObject=true, for example the Everyone group, the Authenticated Users group, or a custom group. For a list of the conditions for excluding objects and more information about unexpected synchronization results, see [One or more objects don't sync when using the Azure Active Directory Sync tool](https://support.microsoft.com/en-us/kb/2643629).
+Instead, assign access rights by using a group that doesn't have IsCriticalSecurityObject=true, for example the Everyone group, the Authenticated Users group, or a custom group. For a list of the conditions for excluding objects and more information about unexpected synchronization results, see [One or more objects don't sync when using the Azure Active Directory Sync tool](https://support.microsoft.com/kb/2643629).
   
 ## Does your organization have on-premises content that's sensitive?
 <a name="BKMK_Sensitive_content"> </a>

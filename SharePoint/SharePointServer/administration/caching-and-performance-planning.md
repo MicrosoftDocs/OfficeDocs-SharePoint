@@ -34,7 +34,7 @@ The disk-based BLOB cache controls the caching for binary large objects (BLOBs),
   
 The BLOB cache also provides features that support serving media files to users. One such feature is support for byte-range requests, which lets users select a later point in the video and immediately begin playback. Another feature is progressive caching, which starts serving the beginning of a large video file while the rest of the file is being cached. Video files are divided and retrieved in smaller sections to reduce the load between the front-end and back-end servers. An administrator can configure the size of the sections.
   
-The BLOB cache is also a prerequisite for using the image renditions feature. Image renditions let you display different sized versions of an image on different pages in a publishing site, based on the same source image. When you create an image rendition, you specify the width and height for all images that use that image rendition. For more information, see [How to: Manage image renditions in SharePoint ](https://msdn.microsoft.com/en-us/library/jj720398.aspx) in the MSDN Library. 
+The BLOB cache is also a prerequisite for using the image renditions feature. Image renditions let you display different sized versions of an image on different pages in a publishing site, based on the same source image. When you create an image rendition, you specify the width and height for all images that use that image rendition. For more information, see [How to: Manage image renditions in SharePoint ](https://msdn.microsoft.com/library/jj720398.aspx) in the MSDN Library.
   
 ### Decide whether to use the BLOB cache
 <a name="Section1b"> </a>

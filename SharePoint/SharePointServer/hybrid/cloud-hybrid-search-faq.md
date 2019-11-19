@@ -378,7 +378,7 @@ If there are dedicated Search servers in the farm topology they should be able t
 
 ***Where can I download Cloud hybrid search service application onboarding script?***
 
-The latest version of Windows PowerShell scripts to configure Cloud hybrid search for SharePoint can be downloaded [here](https://www.microsoft.com/en-us/download/details.aspx?id=51490&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True).
+The latest version of Windows PowerShell scripts to configure Cloud hybrid search for SharePoint can be downloaded [here](https://www.microsoft.com/download/details.aspx?id=51490&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True).
 
 ***Is Cloud hybrid search service application onboarding supported for Government community cloud (GCC) & Office 365 operated by 21Vianet.***
 

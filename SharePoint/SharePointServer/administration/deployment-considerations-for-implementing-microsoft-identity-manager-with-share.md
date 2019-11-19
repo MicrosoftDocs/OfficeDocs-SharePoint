@@ -124,7 +124,7 @@ The MIM solution is designed to be highly available to prevent any single point 
 If you plan to use the MIM Synchronization service, do not select it. Instead select the **Use SharePoint Active Directory Import** option. There is a known issue with Audience compilation and Manager attribute if the **Enable External Identity Manager** option is selected. 
   
 > [!NOTE]
-> This issue is fixed in the February 2017 Public Update (PU), see [February 21, 2017, update for SharePoint Server 2016 (KB3141517)](https://support.microsoft.com/en-us/help/3141517/february-21-2017-update-for-sharepoint-server-2016-kb3141517)
+> This issue is fixed in the February 2017 Public Update (PU), see [February 21, 2017, update for SharePoint Server 2016 (KB3141517)](https://support.microsoft.com/help/3141517/february-21-2017-update-for-sharepoint-server-2016-kb3141517)
   
 ## Do not switch between synchronization types
 

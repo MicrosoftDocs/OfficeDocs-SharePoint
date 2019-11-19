@@ -19,15 +19,15 @@ description: "Use the Identity Mapping feature of the SharePoint Migration Asses
 Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to assist in your Identity Migration.
   
 > [!NOTE]
-> To download the SharePoint Migration Tool, click here: [Download the SharePoint Migration Assessment Tool ](https://www.microsoft.com/en-us/download/details.aspx?id=53598)
+> To download the SharePoint Migration Tool, click here: [Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
   
 ## Introduction
 
 Identity Migration is the process of mapping identities from the SharePoint on-premises environment to the target-state Azure AD.
   
-![Identity Mappping](media/acd1e636-0644-4848-bc2c-480b9cb29100.png)
+![Identity Mapping](media/acd1e636-0644-4848-bc2c-480b9cb29100.png)
   
-Since the synchronization of users and groups from AD to Azure AD is new to many customers, it is imperative that you assign appropriate resources, perform internal planning, and execute all Identity Migration-related tasks in unison with your overall on-premises migration plan. 
+Since the synchronization of users and groups from AD to Azure AD is new to many customers, it is imperative that you assign appropriate resources, perform internal planning, and execute all Identity Migration-related tasks in unison with your overall on-premises migration plan.
   
 The most important aspect of the identity project is verification that all needed users and groups are synchronized to Azure Active Directory. If this analysis is not conducted and migration takes place, you may have an issue with users losing access to content if they have not been migrated. 
   
@@ -53,23 +53,23 @@ Care should be taken to ensure all required users and groups are included in the
   
 The goal is to synchronize 100% of the identities that have access to the source SharePoint environment or provide reasons for any identities that are not synchronized.
   
-Initial preparation of all users and groups is needed to determine which users and groups to migrate. 
+Initial preparation of all users and groups is needed to determine which users and groups to migrate.
   
-- Ideally all users and groups will have TypeOfMatch set to ExactMatch or PartialMatch. 
+- Ideally all users and groups will have TypeOfMatch set to ExactMatch or PartialMatch.
     
-- If there are exceptions, these should be noted in the MappingRationale field of the FullIdentityReport.csv file for tracking purposes. 
+- If there are exceptions, these should be noted in the MappingRationale field of the FullIdentityReport.csv file for tracking purposes.
     
  **Steps:**
   
-1. Download the assessment tool to a computer in your SharePoint farm. To download, go here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53598)
+1. Download the assessment tool to a computer in your SharePoint farm. To download, go here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
     
-2. Provide consent to allow the tool to access your Azure Active Directory. 
+2. Provide consent to allow the tool to access your Azure Active Directory.
     
 3. Run the following: SMAT.exe -GenerateIdentityMapping 
     
-4. Open **FullIdentityReport.csv** in Excel. 
+4. Open **FullIdentityReport.csv** in Excel.
     
-5. Filter on TypeOfMatch = NoMatch. These users and groups will not have access to content post migration. For example, contoso\johndoe is listed as NoMatch. AclExists is True. Post migration any content that contoso\johndoe had access to on the source will not work for that account post migration. In order to resolve the issue, a site owner will need to add contoso\johndoe's Azure AD account back into permissions. 
+5. Filter on TypeOfMatch = NoMatch. These users and groups will not have access to content post migration. For example, contoso\johndoe is listed as NoMatch. AclExists is True. Post migration any content that contoso\johndoe had access to on the source will not work for that account post migration. In order to resolve the issue, a site owner will need to add contoso\johndoe's Azure AD account back into permissions.
     
 6. Filter on TypeOfMatch = PartialMatch. Ensure the matches we found are correct. It is possible for partial matches to be incorrect if multiple people have the same Display Names or the User Principal Names changed from the source to target. 
     
@@ -105,18 +105,18 @@ To generate the Identity Mapping Reports, you need to consent to allow assessmen
   
 This option will the SPO Identity Mapping tool to your tenant's Enterprise Applications section and allow anyone in your tenant to run the tool to perform identity mapping for migration in Office 365.
   
-1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53598)
+1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
     
 2. Run: SMAT.exe -ConfigureIdentityMapping
     
     > [!NOTE]
-    > It is not required to run this step on the SharePoint environment. You can run the above command on any machine that has access to the Azure tenant. 
+    > It is not required to run this step on the SharePoint environment. You can run the above command on any machine that has access to the Azure tenant.
   
-3. When prompted with the Azure logon dialog, enter your Azure tenant admin credentials. 
+3. When prompted with the Azure logon dialog, enter your Azure tenant admin credentials.
     
-4. When prompted for consent, click Accept. 
+4. When prompted for consent, click Accept.
     
-5. The SMAT.exe application will indicate the application was successfully registered. A SharePoint admin is now able to run the identity mapping process. 
+5. The SMAT.exe application will indicate the application was successfully registered. A SharePoint admin is now able to run the identity mapping process.
     
      ![Identity Mapping at the command prompt](media/c4f6fd7c-ff7c-4207-bb4f-549a350c2341.png)
   
@@ -124,7 +124,7 @@ This option will the SPO Identity Mapping tool to your tenant's Enterprise Appli
   
 It is possible for a user with Azure tenant admin rights to run the tool and only provide consent for themselves.
   
-1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53598)
+1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
     
 2. At the command line, type  `Run SMAT.exe -GenerateIdentityMapping`
     
@@ -205,5 +205,4 @@ IdentityMapping.csv is a pre-generated identity mapping file. All identities are
 
 #### Other Resources
 
-[Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=53598)
-
+[Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
