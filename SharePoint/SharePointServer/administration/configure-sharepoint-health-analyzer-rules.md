@@ -28,7 +28,7 @@ Because SharePoint Server runs as websites in Internet Information Services (IIS
     
 - [Accessibility in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/accessibility-in-sharepoint)
     
-- [Keyboard shortcuts](https://support.office.com/article/keyboard-shortcuts-in-sharepoint-online-466e33ee-613b-4f47-96bb-1c20f20b1015)
+- [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)
     
 - [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
     

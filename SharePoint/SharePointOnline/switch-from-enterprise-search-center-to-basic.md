@@ -46,7 +46,7 @@ Here's an example of how to use these parameters when swapping an existing Enter
 
 - **For your -SourceUrl**, you need the URL of your Basic Search Center site. The site must exist before running the cmdlet. For our example, we'll use <spam><spam>https://contoso.sharepoint.com/sites/SiteSearch<spam><spam>.
 
-    You can [create a Basic Search Center site](https://support.office.com/en-ie/article/using-templates-to-create-different-kinds-of-sharepoint-sites-449eccec-ff99-4cf3-b62e-dcfee37e8da4) from an Enterprise site template.
+    You can [create a Basic Search Center site](https://support.office.com/article/449eccec-ff99-4cf3-b62e-dcfee37e8da4) from an Enterprise site template.
 - **For your -TargetUrl**, you need the URL of your Enterprise Search Center site that you want to replace. For our example, we'll use <spam><spam>https://contoso.sharepoint.com/search<spam><spam>.
 - **For your -ArchiveUrl**, use a Url that does not currently exist at the location. Your Enterprise Search Center site will be archived to this site location. For our example, we'll use <spam><spam>https://contoso.sharepoint.com/sites/ArchivedEntSearch<spam><spam>. 
 

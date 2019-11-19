@@ -23,7 +23,7 @@ To identify usage trends and find out at what times activity is high or low, you
 You can also view the [most popular items](view-popularity-trends-and-most-popular-items.md#__view_the_most) in a library. You'll see which items have the most views, either recently or ever (from the first time the item became available.) 
 
 >[!NOTE]
-> For SharePoint Modern sites, please see [View usage data for your SharePoint site](https://support.office.com/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
+> For SharePoint Modern sites, please see [View usage data for your SharePoint site](https://support.office.com/article/2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
   
 ## View Popularity Trends for a site
 <a name="__view_popularity_trends_1"> </a>
