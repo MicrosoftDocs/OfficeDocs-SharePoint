@@ -33,7 +33,7 @@ Before you begin this operation, review the following information:
   
 - You must first create a folder on the database server for your backup files. If you want to store the snapshots at another location, you can move the backup files to a backup folder on the network after the operation is completed.
     
-- A database snapshot provides a read-only, static view of a source database as it existed at snapshot creation, minus any uncommitted transactions. Uncommitted transactions are rolled back in a newly created database snapshot because the Database Engine runs recovery after the snapshot was created (transactions in the database are not affected). For more information about database snapshots, see [Database Snapshots (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715786&amp;clcid=0x409). 
+- A database snapshot provides a read-only, static view of a source database as it existed at snapshot creation, minus any uncommitted transactions. Uncommitted transactions are rolled back in a newly created database snapshot because the Database Engine runs recovery after the snapshot was created (transactions in the database are not affected). For more information about database snapshots, see [Database Snapshots (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715786&amp;clcid=0x409). 
     
 ## Use SQL Server tools to back up a database to a snapshot in SharePoint Server
 <a name="proc1"> </a>
@@ -66,7 +66,7 @@ If you want to back up databases to snapshots, you must use SQL Server tools. Th
 
 #### Other Resources
 
-[Database Snapshots (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715786&amp;clcid=0x409)
+[Database Snapshots (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715786&amp;clcid=0x409)
   
-[Database Snapshots with AlwaysOn Availability Groups (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715787&amp;clcid=0x409)
+[Database Snapshots with AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715787&amp;clcid=0x409)
 

@@ -61,7 +61,7 @@ RBS is composed of the following components:
     
     An RBS provider consists of a managed library and, optionally, a set of native libraries that communicate with the BLOB store.
     
-    An example of an RBS provider is the SQL FILESTREAM provider. The SQL FILESTREAM provider is an add-in feature of SQL Server 2014 Service Pack 1 (SP1) that enables storage of and efficient access to BLOB data by using a combination of SQL Server 2014 (SP1) and the NTFS file system. For more information about FILESTREAM, see [FILESTREAM (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717991&amp;clcid=0x409) For information about how to enable and configure FILESTREAM, see [Enable and Configure FILESTREAM](http://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409).
+    An example of an RBS provider is the SQL FILESTREAM provider. The SQL FILESTREAM provider is an add-in feature of SQL Server 2014 Service Pack 1 (SP1) that enables storage of and efficient access to BLOB data by using a combination of SQL Server 2014 (SP1) and the NTFS file system. For more information about FILESTREAM, see [FILESTREAM (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717991&amp;clcid=0x409) For information about how to enable and configure FILESTREAM, see [Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409).
     
 - **BLOB store**
     
@@ -129,11 +129,11 @@ The FILESTREAM provider that is recommended for upgrading from stand-alone insta
 
 #### Other Resources
 
-[Binary Large Object (Blob) Data (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=733604&amp;clcid=0x409)
+[Binary Large Object (Blob) Data (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=733604&amp;clcid=0x409)
   
-[FILESTREAM (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717991&amp;clcid=0x409)
+[FILESTREAM (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717991&amp;clcid=0x409)
   
-[Remote BLOB Store Provider Library Implementation Specification](http://go.microsoft.com/fwlink/p/?LinkID=166066&amp;clcid=0x409)
+[Remote BLOB Store Provider Library Implementation Specification](https://go.microsoft.com/fwlink/p/?LinkID=166066&amp;clcid=0x409)
   
 [Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
 

@@ -80,9 +80,9 @@ Before you can use the Managed Solutions Gallery, you must create a site collect
     
 ## Transform your sandbox solutions to the SharePoint add-in model
 
-We encourage customers that are considering moving away from the sandbox solution to the new SharePoint add-in model to review the considerations outlined here, [Sandbox solution transformation guidance - InfoPath](http://go.microsoft.com/fwlink/?LinkID=827587&amp;clcid=0x409)
+We encourage customers that are considering moving away from the sandbox solution to the new SharePoint add-in model to review the considerations outlined here, [Sandbox solution transformation guidance - InfoPath](https://go.microsoft.com/fwlink/?LinkID=827587&amp;clcid=0x409)
   
-SharePoint Add-ins are self-contained extensions of SharePoint websites that you create, and that run without custom code on the SharePoint server. To learn more about Add-ins see, [SharePoint Add-ins](http://go.microsoft.com/fwlink/?LinkId=827588&amp;clcid=0x409)
+SharePoint Add-ins are self-contained extensions of SharePoint websites that you create, and that run without custom code on the SharePoint server. To learn more about Add-ins see, [SharePoint Add-ins](https://go.microsoft.com/fwlink/?LinkId=827588&amp;clcid=0x409)
   
 ## See also
 

@@ -141,19 +141,19 @@ You cannot restore the complete service application or service application proxy
     
 7. In Object Explorer, expand **Databases**.
     
-8. Right-click the database that you want to restore, point to **Tasks**, and then click **Restore Database**. 
+8. Right-click the database that you want to restore, point to **Tasks**, and then click **Restore Database**.
     
-9. In the **Restore Database** dialog box, on the **Options** page, select the kind of recovery that you want to perform from the **Recovery state** list. 
+9. In the **Restore Database** dialog box, on the **Options** page, select the kind of recovery that you want to perform from the **Recovery state** list.
     
-    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](http://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
+    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
     
-10. On the **General** page, in the **Destination for restore** section, select the database from the **To database** list. 
+10. On the **General** page, in the **Destination for restore** section, select the database from the **To database** list.
     
-11. In the **Source for restore** section, select the backup source from the **From database** list. 
+11. In the **Source for restore** section, select the backup source from the **From database** list.
     
-12. Alternatively, if you have moved the backup files to another computer, select the **From device** option. If the correct backup is not listed in the **Select the backup sets to restore** box, browse to the file by clicking the ellipsis button. 
+12. Alternatively, if you have moved the backup files to another computer, select the **From device** option. If the correct backup is not listed in the **Select the backup sets to restore** box, browse to the file by clicking the ellipsis button.
     
-13. Select the backup to restore from the **Select the backup sets to restore** box, and then click OK. 
+13. Select the backup to restore from the **Select the backup sets to restore** box, and then click OK.
     
 14. Click **OK** to restore the database. 
     

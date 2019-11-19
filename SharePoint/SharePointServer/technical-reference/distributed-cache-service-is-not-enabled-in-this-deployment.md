@@ -63,5 +63,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Distribu
 
 [Add-SPDistributedCacheServiceInstance](/powershell/module/sharepoint-server/Add-SPDistributedCacheServiceInstance?view=sharepoint-ps)
   
-[Planning and using the Distributed Cache service](http://go.microsoft.com/fwlink/p/?LinkID=271302)
-
+[Planning and using the Distributed Cache service](https://go.microsoft.com/fwlink/p/?LinkID=271302)

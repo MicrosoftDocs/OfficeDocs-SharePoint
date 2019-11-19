@@ -110,7 +110,7 @@ SQL Server provides the ability to reassign the ports that are used by the defau
 ## Blocking default SQL Server listening ports
 <a name="proc2"> </a>
 
-Windows Firewall with Advanced Security uses Inbound Rules and Outbound Rules to help secure incoming and outgoing network traffic. Because Windows Firewall blocks all incoming unsolicited network traffic by default, you do not have to explicitly block the default SQL Server listening ports. For more information, see [Windows Firewall with Advanced Security](http://go.microsoft.com/fwlink/p/?LinkID=718056&amp;clcid=0x409) and [Configuring the Windows Firewall to Allow SQL Server Access](http://go.microsoft.com/fwlink/p/?LinkID=718059&amp;clcid=0x409).
+Windows Firewall with Advanced Security uses Inbound Rules and Outbound Rules to help secure incoming and outgoing network traffic. Because Windows Firewall blocks all incoming unsolicited network traffic by default, you do not have to explicitly block the default SQL Server listening ports. For more information, see [Windows Firewall with Advanced Security](https://go.microsoft.com/fwlink/p/?LinkID=718056&amp;clcid=0x409) and [Configuring the Windows Firewall to Allow SQL Server Access](https://go.microsoft.com/fwlink/p/?LinkID=718059&amp;clcid=0x409).
   
 ## Configuring Windows Firewall to open manually assigned ports
 <a name="proc3"> </a>
@@ -182,7 +182,7 @@ If you block UDP port 1434 or TCP port 1433 on the computer that is running SQL 
   
 [Securing SharePoint: Harden SQL Server in SharePoint Environments](https://blogs.technet.com/b/rycampbe/archive/2013/10/14/securing-sharepoint-harden-sql-server-in-sharepoint-environments.aspx)
   
-[Configure a Windows Firewall for Database Engine Access](http://go.microsoft.com/fwlink/p/?LinkID=718060&amp;clcid=0x409)
+[Configure a Windows Firewall for Database Engine Access](https://go.microsoft.com/fwlink/p/?LinkID=718060&amp;clcid=0x409)
   
-[Configure a Server to Listen on a Specific TCP Port (SQL Server Configuration Manager)](http://go.microsoft.com/fwlink/p/?LinkID=718061&amp;clcid=0x409)
+[Configure a Server to Listen on a Specific TCP Port (SQL Server Configuration Manager)](https://go.microsoft.com/fwlink/p/?LinkID=718061&amp;clcid=0x409)
 

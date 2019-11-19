@@ -34,7 +34,7 @@ Before you begin this operation, review the following information:
     
     If you are using another provider you must manually back up these remote BLOB stores.
     
-- If you are using SQL Server with Transparent Data Encryption (TDE), and you are backing up your environment by using either SharePoint tools or SQL Server tools, the TDE encryption key in not backed up or restored. You must back up the key manually. When restoring, you must manually restore the key before restoring the data. For more information, see [Transparent Data Encryption (TDE)](http://go.microsoft.com/fwlink/p/?LinkID=715778&amp;clcid=0x409).
+- If you are using SQL Server with Transparent Data Encryption (TDE), and you are backing up your environment by using either SharePoint tools or SQL Server tools, the TDE encryption key in not backed up or restored. You must back up the key manually. When restoring, you must manually restore the key before restoring the data. For more information, see [Transparent Data Encryption (TDE)](https://go.microsoft.com/fwlink/p/?LinkID=715778&amp;clcid=0x409).
     
 ## Use PowerShell to back up a content database in SharePoint Server
 <a name="proc1"> </a>
@@ -126,7 +126,7 @@ You can use SQL Server tools to back up a content database.
     
 5. In the **Back Up Database** dialog box, confirm the database name. 
     
-6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)]( http://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
+6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)]( https://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
     
 7. In the **Backup component** area, click **Database**.
     

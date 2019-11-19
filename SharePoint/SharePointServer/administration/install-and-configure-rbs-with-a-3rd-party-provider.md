@@ -53,7 +53,7 @@ You must install RBS client library on all Web servers in the SharePoint farm. T
 
 1. Confirm that the user account performing these steps is a member of the Administrators group on the computer where you are installing the library.
     
-2. On any front-end or application server, for SharePoint Server 2016, download the [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409). Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
+2. On any front-end or application server, for SharePoint Server 2016, download the [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409). Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
     
     For SharePoint 2013, [download the RBS_amd64.msi file](https://go.microsoft.com/fwlink/p/?LinkId=271938).
     
@@ -67,7 +67,7 @@ You must install RBS client library on all Web servers in the SharePoint farm. T
 
 1. Confirm that the user account performing these steps is a member of the Administrators group on the computer where you are installing the library.
     
-2. On any web server, for SharePoint Server 2016, download the [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409). Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
+2. On any web server, for SharePoint Server 2016, download the [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409). Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
     
     For SharePoint 2013, [download the RBS_amd64.msi file](https://go.microsoft.com/fwlink/p/?LinkId=271938).
     
@@ -164,7 +164,7 @@ You should test the RBS installation on one Web server in the SharePoint farm to
 [Deciding to use RBS in SharePoint Server](rbs-planning.md)
 #### Other Resources
 
-[Remote Blob Store (RBS) (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
+[Remote Blob Store (RBS) (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
   
-[Enable and Configure FILESTREAM](http://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409)
+[Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409)
 

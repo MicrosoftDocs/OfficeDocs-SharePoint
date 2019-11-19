@@ -27,12 +27,12 @@ To learn about how to use PerformancePoint Services, see the following resources
   
 - [PerformancePoint Services and Dashboard Designer compiled help file (CHM)](https://www.microsoft.com/download/details.aspx?id=55772).
     
-- [PerformancePoint Services Dashboard Creation SuperFlow](http://go.microsoft.com/fwlink/p/?LinkId=226357)
+- [PerformancePoint Services Dashboard Creation SuperFlow](https://go.microsoft.com/fwlink/p/?LinkId=226357)
 
 > [!NOTE]
 > Silverlight is not available in PerformancePoint Services in SharePoint Server 2019, therefore the Decomposition Tree is not available.
     
 ## See also
 
-[PerformancePoint Services IT Configuration SuperFlow](http://go.microsoft.com/fwlink/p/?LinkId=226358)
+[PerformancePoint Services IT Configuration SuperFlow](https://go.microsoft.com/fwlink/p/?LinkId=226358)
 

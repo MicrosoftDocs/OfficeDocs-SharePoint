@@ -110,7 +110,7 @@ This section discusses the benefits and costs of using the FILESTREAM provider. 
   
 ### Benefits
 
-Microsoft currently supports only the FILESTREAM RBS provider with SharePoint Server. When you use this provider, the backup and restore features in SharePoint Server also back up and restore the BLOBs and the structured data in the content database without requiring you to do additional work. The FILESTREAM provider also supports Internet Small Computer System Interface (iSCSI) connected storage devices. For more information, see [FILESTREAM Compatibility with Other SQL Server Features](http://go.microsoft.com/fwlink/p/?LinkID=733605&amp;clcid=0x409). 
+Microsoft currently supports only the FILESTREAM RBS provider with SharePoint Server. When you use this provider, the backup and restore features in SharePoint Server also back up and restore the BLOBs and the structured data in the content database without requiring you to do additional work. The FILESTREAM provider also supports Internet Small Computer System Interface (iSCSI) connected storage devices. For more information, see [FILESTREAM Compatibility with Other SQL Server Features](https://go.microsoft.com/fwlink/p/?LinkID=733605&amp;clcid=0x409). 
   
 ### Costs
 
@@ -208,7 +208,7 @@ If the FILESTREAM provider is not practical for the environment, you can purchas
 
 #### Other Resources
 
-[Remote Blob Store (RBS) (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
+[Remote Blob Store (RBS) (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
   
 [SQL Server Remote BLOB Store and FILESTREAM feature comparison](https://blogs.msdn.com/b/sqlrbs/archive/2009/11/18/sql-server-remote-blob-store-and-filestream-feature-comparison.aspx)
 

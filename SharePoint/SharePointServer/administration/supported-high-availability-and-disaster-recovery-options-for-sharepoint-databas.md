@@ -381,7 +381,7 @@ The following table describes the supported high availability and disaster recov
 ## SQL Server System databases
 <a name="SQLSysDbs"> </a>
 
-SharePoint Server is built on SQL Server and uses the following SQL Server system databases: master, msdb, model, Resource, and tempdb. SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](http://go.microsoft.com/fwlink/?LinkID=733887&amp;clcid=0x409).
+SharePoint Server is built on SQL Server and uses the following SQL Server system databases: master, msdb, model, Resource, and tempdb. SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](https://go.microsoft.com/fwlink/?LinkID=733887&amp;clcid=0x409).
   
 You can only mirror user databases, put them in a SQL Server AlwaysOn availability group or log ship them. You can't use these approaches to provide high availability or disaster recovery for the system databases.
   
