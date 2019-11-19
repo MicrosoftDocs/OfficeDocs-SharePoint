@@ -7,7 +7,7 @@ manager: pamgreen
 ms.date: 10/5/2018
 audience: Admin
 ms.topic: article
-ms.prod: sharepoint-online
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - Adm_SPO
