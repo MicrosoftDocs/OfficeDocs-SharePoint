@@ -39,9 +39,9 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
          
     - Run **Setup.exe**
          
-    - Install the May 2019 sts core patch for SharePoint Server 2016, [KB 4464549](http://www.microsoft.com/downloads/details.aspx?familyid=ca8d6a39-efbc-4ae5-ad61-39a8c7236919) or SharePoint Server 2019, [KB 4464556](https://support.microsoft.com/en-us/help/4464556)
+    - Install the May 2019 sts core patch for SharePoint Server 2016, [KB 4464549](http://www.microsoft.com/downloads/details.aspx?familyid=ca8d6a39-efbc-4ae5-ad61-39a8c7236919) or SharePoint Server 2019, [KB 4464556](https://support.microsoft.com/help/4464556)
          
-    - Install the April 2019 wssloc MUI/language pack patch for SharePoint Server 2016, [KB 4461507](https://support.microsoft.com/en-us/help/4461507) or for SharePoint Server 2019, [KB 4462221](https://support.microsoft.com/en-us/help/4462221)
+    - Install the April 2019 wssloc MUI/language pack patch for SharePoint Server 2016, [KB 4461507](https://support.microsoft.com/help/4461507) or for SharePoint Server 2019, [KB 4462221](https://support.microsoft.com/help/4462221)
 
    > [!NOTE]
    > You can join other VMs to Active Directory in subnet 1.

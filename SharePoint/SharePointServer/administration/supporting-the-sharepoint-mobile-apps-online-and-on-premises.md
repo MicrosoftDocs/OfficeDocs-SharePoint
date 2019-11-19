@@ -53,14 +53,12 @@ These calls are related to data-collection and telemetry services. Telemetry dat
   
 Any suspicious network traffic should be flagged and investigated by administrators. While doing so, please be aware that the data-collection and telemetry services for the SharePoint mobile app cannot be turned off. It helps to have access to the Privacy Statements while making judgements about whether the SharePoint mobile app is right for your organization.
   
-- [Microsoft Privacy Statment](https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx)
+- [Microsoft Privacy Statment](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)
     
-- [Microsoft Online Services Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)
+- [Microsoft Online Services Privacy Statement](https://privacy.microsoft.com/privacystatement)
     
-- [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter)
+- [Microsoft Trust Center](https://www.microsoft.com/trustcenter)
     
-- [Microsoft Intune (on the Microsoft Trust Center site)](https://www.microsoft.com/en-us/trustcenter/CloudServices/Intune)
+- [Microsoft Intune (on the Microsoft Trust Center site)](https://www.microsoft.com/trustcenter/CloudServices/Intune)
     
-- [Office 365 (on the Microsoft Trust Center site)](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Office-365)
-    
-
+- [Office 365 (on the Microsoft Trust Center site)](https://www.microsoft.com/TrustCenter/CloudServices/Office-365)

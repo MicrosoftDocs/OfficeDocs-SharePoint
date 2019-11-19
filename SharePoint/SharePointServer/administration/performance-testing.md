@@ -94,15 +94,15 @@ If you do have to create sample data, there are a few considerations to keep in 
 ## Create Tests and Tools
 <a name="createtests"> </a>
 
-After the test environment is functional, it is time to create and fine-tune the tests that will be used to measure the performance capacity of the farm. This section will at times make references specifically to Visual Studio Team System (Team Test Load Agent), but many of the concepts are applicable irrespective of which load test tool you use. For more information about testing tools available for Azure DevOps (formerly VSTS), see [DevOps tools overview for Azure DevOps](/azure/devops/user-guide/devops-alm-overview). 
+After the test environment is functional, it is time to create and fine-tune the tests that will be used to measure the performance capacity of the farm. This section will at times make references specifically to Visual Studio Team System (Team Test Load Agent), but many of the concepts are applicable irrespective of which load test tool you use. For more information about testing tools available for Azure DevOps (formerly VSTS), see [DevOps tools overview for Azure DevOps](/azure/devops/user-guide/devops-alm-overview).
   
 You can also use the SharePoint Load Test Kit (LTK) in conjunction with VSTS for load testing of SharePoint 2010 farms. The Load Test Kit generates a Visual Studio Team System 2008 load test based on Windows SharePoint Services 3.0 and Microsoft Office SharePoint Server 2007 IIS logs. The VSTS load test can be used to generate synthetic load against SharePoint Foundation 2010 or SharePoint Server 2010 as part of a capacity planning exercise or a pre-upgrade stress test.
   
-The Load Test Kit is included in the Microsoft SharePoint 2010 Administration Toolkit v2.0, available from the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=20022). 
+The Load Test Kit is included in the Microsoft SharePoint 2010 Administration Toolkit v2.0, available from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=20022).
   
 A key criterion to the success of the tests is to be able to effectively simulate a realistic workload by generating requests across a wide range of the test site data, just as users would access a wide range of content in a production SharePoint Server 2013 farm. In order to do that, you will typically need to construct your tests such that they are data driven. Rather than creating hundreds of individual tests that are hard-coded to access a specific page, you should use just a few tests that use data sources containing the URLs for those items to dynamically access that set of pages.
   
- In Visual Studio Team System (Team Test Load Agent), a data source can come in a variety of formats, but a CSV file format is often easiest to manage and transport between development and test environments. Keep in mind that creating CSV files with that content might require the creation of custom tools to enumerate the SharePoint Server 2013-based environment and record the various URLs being used. 
+ In Visual Studio Team System (Team Test Load Agent), a data source can come in a variety of formats, but a CSV file format is often easiest to manage and transport between development and test environments. Keep in mind that creating CSV files with that content might require the creation of custom tools to enumerate the SharePoint Server 2013-based environment and record the various URLs being used.
   
 You may need to use tools for tasks like:
   

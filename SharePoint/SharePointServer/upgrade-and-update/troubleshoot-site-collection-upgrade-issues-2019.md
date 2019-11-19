@@ -95,12 +95,12 @@ In the upgrade log files, you may see an error such as the following:
     
     A Web Part or other control might have been added to the page that is not installed or is no longer supported. Either a Web Part was added to a zone or the page was directly edited to add a control or Web Part reference directly inline (possibly on a master page).
     
-    A SharePoint feature may need to be activated. For more information, see [Enable or disable site collection features](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/enable-or-disable-site-collection-features-HA102772720.aspx?CTT=1) and [Open and use the Web Part Maintenance Page](https://office.microsoft.com/en-us/sharepoint-help/open-and-use-the-web-part-maintenance-page-HA104046809.aspx?CTT=1). 
+    A SharePoint feature may need to be activated. For more information, see [Enable or disable site collection features](https://office.microsoft.com/en-usoffice365-sharepoint-online-enterprise-help/enable-or-disable-site-collection-features-HA102772720.aspx?CTT=1) and [Open and use the Web Part Maintenance Page](https://office.microsoft.com/sharepoint-help/open-and-use-the-web-part-maintenance-page-HA104046809.aspx?CTT=1).
     
 ### Q: My upgraded site does not render at all; instead, I see an "unexpected error" with a correlation ID
 <a name="UI"> </a>
 
- **A:** Your custom branding may use a custom master page that contains a custom content placeholder. 
+ **A:** Your custom branding may use a custom master page that contains a custom content placeholder.
   
 If your custom master page contains a custom content placeholder, and if custom page layouts also contain this custom content placeholder, then an error may prevent the home page of your site from rendering at all after upgrade. Instead, after upgrade, you may see the error message "An unexpected error has occurred."
   
@@ -109,4 +109,3 @@ If your custom master page contains a custom content placeholder, and if custom 
 #### Concepts
 
 [Upgrade a site collection to SharePoint Server 2019](upgrade-a-site-collection-2019.md)
-

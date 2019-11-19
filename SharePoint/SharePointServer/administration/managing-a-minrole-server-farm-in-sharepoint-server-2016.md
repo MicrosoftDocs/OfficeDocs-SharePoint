@@ -132,7 +132,7 @@ If you are a SharePoint developer intending to create an application with servic
     
 4. Override the **ShouldProvision(SPServerRole serverRole)** method to assign this service to specific server roles if necessary. 
     
-For more information about how to subscribe a service to a specific role, see [SPService class](https://msdn.microsoft.com/en-us/library/office/microsoft.sharepoint.administration.spservice.aspx) and [SPServiceInstance class](https://msdn.microsoft.com/en-us/library/office/microsoft.sharepoint.administration.spserviceinstance.aspx).
+For more information about how to subscribe a service to a specific role, see [SPService class](https://msdn.microsoft.com/elibrary/office/microsoft.sharepoint.administration.spservice.aspx) and [SPServiceInstance class](https://msdn.microsoft.com/library/office/microsoft.sharepoint.administration.spserviceinstance.aspx).
   
  **Integrate with role conversion pre-validation**
   

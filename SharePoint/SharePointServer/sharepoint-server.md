@@ -141,7 +141,7 @@ This guide helps IT Pros plan, deploy, and manage SharePoint Server 2016 and 201
                 <div class="card">
                     <div class="cardText">
                         <h3>Learn about SharePoint</h3>
-                        <p><a href="https://products.office.com/en-us/sharepoint/collaboration">What is SharePoint?</a></p>
+                        <p><a href="https://products.office.com/sharepoint/collaboration">What is SharePoint?</a></p>
                         <p><a href="https://www.youtube.com/watch?v=igkJVtG6eus">SharePoint Server 2019 overview</a></p>
                         <p><a href="https://techcommunity.microsoft.com/t5/SharePoint-Blog/bg-p/SPBlog">SharePoint blog</a></p>
                     </div>

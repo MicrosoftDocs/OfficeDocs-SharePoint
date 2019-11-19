@@ -48,14 +48,14 @@ To make OneDrive for Business in SharePoint Server available to your users, you 
 ## Using the OneDrive for Business sync app
 <a name="section3"> </a>
 
-The OneDrive for Business [sync apps](https://go.microsoft.com/fwlink/?LinkId=522308) give users the convenience of local storage of their files. Sync apps also enable users to take documents offline. Users then can use those documents when they're disconnected from SharePoint Server. Later, when the client computer or device reconnects to SharePoint Server, the files are synchronized. 
+The OneDrive for Business [sync apps](https://go.microsoft.com/fwlink/?LinkId=522308) give users the convenience of local storage of their files. Sync apps also enable users to take documents offline. Users then can use those documents when they're disconnected from SharePoint Server. Later, when the client computer or device reconnects to SharePoint Server, the files are synchronized.
   
 In a SharePoint Server on-premises environment, you may have the option to save directly to your document library (for example, from Office 2016), which is where files are synchronized from your OneDrive for Business local folder anyway. When the OneDrive for Business sync app is used in an on-premises environment, it's primary benefit is for synchronizing files on laptops that are used while disconnected from your corporate network at times, such as when traveling.
   
-The sync app also provides your users the added convenience of working with files directly from the local OneDrive for Business sync folder. Work with and saving your files directly in the folder is more convenient than opening your My Sites document library. 
+The sync app also provides your users the added convenience of working with files directly from the local OneDrive for Business sync folder. Work with and saving your files directly in the folder is more convenient than opening your My Sites document library.
   
 > [!IMPORTANT]
-> Use the [OneDrive for Business sync app for Groove.exe](https://support.microsoft.com/en-us/kb/2903984) when using OneDrive for Business in a SharePoint Server on-premises environment. The OneDrive for Business Next Generation sync app (OneDrive.exe) is currently not supported to work in a SharePoint Server on-premises environment. 
+> Use the [OneDrive for Business sync app for Groove.exe](https://support.microsoft.com/kb/2903984) when using OneDrive for Business in a SharePoint Server on-premises environment. The OneDrive for Business Next Generation sync app (OneDrive.exe) is currently not supported to work in a SharePoint Server on-premises environment.
   
  **Changes in file location**
   

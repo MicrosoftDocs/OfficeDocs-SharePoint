@@ -33,12 +33,12 @@ This article specifically talks about how to use the Data Box to migrate your fi
 
 #### For Data Box
 
-- Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription or see [Azure subscription pricing](https://azure.microsoft.com/en-us/pricing/). 
+- Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription or see [Azure subscription pricing](https://azure.microsoft.com/pricing/).
 - There is a fee to use Data Box. Make sure to review the [Data Box pricing](https://azure.microsoft.com/pricing/details/databox/).
 
 #### For SharePoint Online
 
-- Review the minimum requirements for the [SharePoint Migration Tool (SPMT)](/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
+- Review the minimum requirements for the [SharePoint Migration Tool (SPMT)](/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
 
 
 ## Workflow overview

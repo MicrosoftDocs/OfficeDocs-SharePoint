@@ -62,16 +62,16 @@ Select the **Open site** button, and you’ll see your sample site and content i
 ![](media/ProvSite.png)
 
 
-From here, you can explore the site and edit the pages and content. 
+From here, you can explore the site and edit the pages and content.
 
 **Additional resources**:
 
-[Create a communication site](https://support.office.com/en-us/article/Create-a-communication-site-in-SharePoint-Online-7FB44B20-A72F-4D2C-9173-FC8F59BA50EB)
+[Create a communication site](https://support.office.com/article/7FB44B20-A72F-4D2C-9173-FC8F59BA50EB)
 
-[Create a team site](https://support.office.com/en-us/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d)
+[Create a team site](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d)
 
-[Using web parts](https://support.office.com/en-us/article/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0)
+[Using web parts](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0)
 
-[Create and use modern pages](https://support.office.com/en-us/article/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec)
+[Create and use modern pages](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec)
 
 [SharePoint Design Guidance](https://spdesign.azurewebsites.net/)

@@ -151,7 +151,7 @@ The benefit for self-service migration is that you have full control over your p
 
 **Migration service providers**
 
-You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/en-us/partner/home). 
+You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
 
 ## User Onboarding
 Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 

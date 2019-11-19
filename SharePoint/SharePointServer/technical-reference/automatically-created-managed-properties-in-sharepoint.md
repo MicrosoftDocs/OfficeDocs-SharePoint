@@ -21,7 +21,7 @@ description: "Learn about the naming conventions for automatically created crawl
 ## How site columns become managed properties
 <a name="BKMK_FromSiteColumnsToManagedProperties"> </a>
 
-When you add columns to a SharePoint library or list, you can choose to add regular columns or site columns. For information about the difference between regular columns and site columns, see [Introduction to columns](https://msdn.microsoft.com/en-us/library/ms450825.aspx). In SharePoint, only site columns that contain values will automatically become managed properties when they are crawled. Regular columns will not automatically become managed properties when they are crawled. 
+When you add columns to a SharePoint library or list, you can choose to add regular columns or site columns. For information about the difference between regular columns and site columns, see [Introduction to columns](https://msdn.microsoft.com/library/ms450825.aspx). In SharePoint, only site columns that contain values will automatically become managed properties when they are crawled. Regular columns will not automatically become managed properties when they are crawled.
   
 Before you can share content in a library or list with other site collections, you must share the library or list as a catalog, and then start a full crawl of the content. For more information, see "Share a library or list as a catalog" in [Configure cross-site publishing in SharePoint Server](../administration/configure-cross-site-publishing.md).
   
