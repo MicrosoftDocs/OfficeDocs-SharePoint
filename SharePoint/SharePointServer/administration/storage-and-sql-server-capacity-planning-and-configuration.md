@@ -161,7 +161,7 @@ If you are integrating further with SQL Server, your environment may also includ
   
 The SQL Server 2016 Reporting Services (SSRS) add-in can be used with any SharePoint Server 2016 environment. If you are using the add-in, plan to support the two SQL Server Reporting Services databases and the additional load that is required for SQL Server Reporting Services.
   
-- SQL Server 2012 Power Pivot for SharePoint 2013 can be used in a SharePoint 2013 environment that includes SQL Server 2008 R2 Enterprise Edition and SQL Server Analysis Services. If in use, you must also plan to support the Power Pivot application database, and the additional load on the system. For more information, see [Plan a PowerPivot deployment in a SharePoint farm](https://go.microsoft.com/fwlink/p/?LinkID=186698), [Power Pivot - Overview and Learning](https://support.office.com/article/power-pivot-overview-and-learning-f9001958-7901-4caa-ad80-028a6d2432ed) and [Power View - Overview and Learning](https://support.office.com/article/power-view-overview-and-learning-5380e429-3ee0-4be2-97b7-64d7930020b6).
+- SQL Server 2012 Power Pivot for SharePoint 2013 can be used in a SharePoint 2013 environment that includes SQL Server 2008 R2 Enterprise Edition and SQL Server Analysis Services. If in use, you must also plan to support the Power Pivot application database, and the additional load on the system. For more information, see [Plan a PowerPivot deployment in a SharePoint farm](https://go.microsoft.com/fwlink/p/?LinkID=186698), [Power Pivot - Overview and Learning](https://support.office.com/article/f9001958-7901-4caa-ad80-028a6d2432ed) and [Power View - Overview and Learning](https://support.office.com/article/5380e429-3ee0-4be2-97b7-64d7930020b6).
     
 - The SQL Server 2008 R2 Reporting Services (SSRS) plug-in can be used with any SharePoint 2013 environment. If you are using the plug-in, plan to support the two SQL Server 2008 R2 Reporting Services databases and the additional load that is required for SQL Server 2008 R2 Reporting Services.
  
@@ -772,13 +772,13 @@ You can also monitor disk latency and analyze trends by using the sys.dm_io_virt
 
 Thanks to Bill Baer, Microsoft Senior Product Marketing Manager and Brian Alderman, CEO and Founder of MicroTechPoint for providing a series of online SQL Server 2012 training modules. Special thanks to Channel 9 Microsoft for hosting these online training modules. The following training modules provide details about SQL Server 2012 database settings to help you learn how to improve SharePoint Server 2016 performance, availability, and security.
   
-- [Tuning SQL Server 2012 for SharePoint 2013: (01) Key SQL Server and SharePoint Server Integration](http://channel9.msdn.com/Series/Tuning-SQL-Server-2012-for-SharePoint-2013/Tuning-SQL-Server-2012-for-SharePoint-2013-01-Key-SQL-Server-and-SharePoint-Server-Integration-Conce)
+- [Tuning SQL Server 2012 for SharePoint 2013: (01) Key SQL Server and SharePoint Server Integration](https://channel9.msdn.com/Series/Tuning-SQL-Server-2012-for-SharePoint-2013/Tuning-SQL-Server-2012-for-SharePoint-2013-01-Key-SQL-Server-and-SharePoint-Server-Integration-Conce)
     
-- [Tuning SQL Server 2012 for SharePoint 2013: (02) Best Practices for SQL Server Database Settings](http://channel9.msdn.com/Series/Tuning-SQL-Server-2012-for-SharePoint-2013/Tuning-SQL-Server-2012-for-SharePoint-2013-02-Best-Practices-for-SQL-Server-Database-Settings)
+- [Tuning SQL Server 2012 for SharePoint 2013: (02) Best Practices for SQL Server Database Settings](https://channel9.msdn.com/Series/Tuning-SQL-Server-2012-for-SharePoint-2013/Tuning-SQL-Server-2012-for-SharePoint-2013-02-Best-Practices-for-SQL-Server-Database-Settings)
     
-- [Tuning SQL Server 2012 for SharePoint 2013: (03) Server Settings for SQL Server](http://channel9.msdn.com/Series/Tuning-SQL-Server-2012-for-SharePoint-2013/Tuning-SQL-Server-2012-for-SharePoint-2013-03-Server-Settings-for-SQL-Server)
+- [Tuning SQL Server 2012 for SharePoint 2013: (03) Server Settings for SQL Server](https://channel9.msdn.com/Series/Tuning-SQL-Server-2012-for-SharePoint-2013/Tuning-SQL-Server-2012-for-SharePoint-2013-03-Server-Settings-for-SQL-Server)
     
-- [Tuning SQL Server 2012 for SharePoint 2013: (04) SQL Server and SharePoint Availability](http://channel9.msdn.com/Series/Tuning-SQL-Server-2012-for-SharePoint-2013/Tuning-SQL-Server-2012-for-SharePoint-2013-04-SQL-Server-and-SharePoint-Availability)
+- [Tuning SQL Server 2012 for SharePoint 2013: (04) SQL Server and SharePoint Availability](https://channel9.msdn.com/Series/Tuning-SQL-Server-2012-for-SharePoint-2013/Tuning-SQL-Server-2012-for-SharePoint-2013-04-SQL-Server-and-SharePoint-Availability)
     
 ## See also
 <a name="Section8A"> </a>

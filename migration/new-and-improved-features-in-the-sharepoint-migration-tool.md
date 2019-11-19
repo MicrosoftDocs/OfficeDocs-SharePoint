@@ -20,7 +20,7 @@ description: "Learn about the new features and updates to existing features in S
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
 >[!NOTE]
->**Download and install:**   [SharePoint Migration Tool ](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>**Download and install:**   [SharePoint Migration Tool ](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
 
 
@@ -197,7 +197,7 @@ In addition to a number of minor fixes, here are the primary improvements made i
    
 
 
-[Download SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+[Download SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
 

@@ -31,7 +31,7 @@ In the sections below, we call out the options and decisions that you as an admi
 
   - How you can protect your organization's data by managing access through permissions, data classifications, governance rules, and monitoring.
 
-We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](http://aka.ms/ProductivityArch) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
+We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](https://aka.ms/ProductivityArch) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
 
 Also see the [File Protection Solutions in Office 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect) diagram for an overview of recommended solutions to protect your data.
 

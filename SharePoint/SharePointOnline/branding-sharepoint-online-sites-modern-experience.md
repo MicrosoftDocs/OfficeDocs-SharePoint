@@ -36,7 +36,7 @@ SharePoint Online includes an updated set of default site themes that are respon
 
 ### Branding hub sites
 
-When you brand a [SharePoint Online hub site](https://support.office.com/article/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f), you can set it so the site branding is applied to any sites that [associate with it](https://support.office.com/article/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05). This includes any site theme or site design used by the hub site. This allows you to apply common navigation and branding across a set of sites and use accent colors to emphasize elements that need to stand out.
+When you brand a [SharePoint Online hub site](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f), you can set it so the site branding is applied to any sites that [associate with it](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05). This includes any site theme or site design used by the hub site. This allows you to apply common navigation and branding across a set of sites and use accent colors to emphasize elements that need to stand out.
 
 ## Classic experience vs. SharePoint Online
 
@@ -75,4 +75,4 @@ Check out the below resources that provide more details about how to use the mod
 
 [JSON schema](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-json-schema)
 
-[Theme generator](http://aka.ms/spthemebuilder)
+[Theme generator](https://aka.ms/spthemebuilder)
