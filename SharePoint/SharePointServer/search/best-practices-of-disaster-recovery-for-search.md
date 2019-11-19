@@ -275,7 +275,7 @@ If crawling read-only databases in the DR farm is the preferred choice, then you
   
 Ensure that all custom result sources, query rules, and search schema changes regarded as business critical are made at the search service application level in Central Administration and not within site collections or subsites. For example, consider a corporate intranet portal that has a dependency on specific query rules to manage the content on the home page. These rules would be created on the production farm and manually replicated to the DR farm to help make sure that this configuration is available. Similarly, custom mappings of crawled properties to managed properties must be implemented at the service application level in both farms.
   
-It is possible to capture the site-level and web-level search configuration items and export them to an XML file by using PowerShell. For example, the next PowerShell example will export configuration items from the site "http://intranet.contoso.com" to an XML file that is named intranetcontosocom.xml. This approach was published to the SharePoint community and is used with their permission. You can view this blog post at [Importing and Exporting Search Configuration Settings in SharePoint 2013](http://go.microsoft.com/fwlink/?LinkID=506746&amp;clcid=0x409)
+It is possible to capture the site-level and web-level search configuration items and export them to an XML file by using PowerShell. For example, the next PowerShell example will export configuration items from the site "http://intranet.contoso.com" to an XML file that is named intranetcontosocom.xml. This approach was published to the SharePoint community and is used with their permission. You can view this blog post at [Importing and Exporting Search Configuration Settings in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkID=506746&amp;clcid=0x409)
   
 ```
 Add-PSSnapin Microsoft.SharePoint.PowerShell-ea 0
@@ -337,7 +337,7 @@ In addition to the options that are provided in these articles and in this paper
     
 - [Restore-SPEnterpriseSearchServiceApplicationIndex](/powershell/module/sharepoint-server/Restore-SPEnterpriseSearchServiceApplicationIndex?view=sharepoint-ps)
     
-- [Back up and restore a search service application in SharePoint 2013 using VSS](http://go.microsoft.com/fwlink/?LinkID=506745&amp;clcid=0x409). .
+- [Back up and restore a search service application in SharePoint 2013 using VSS](https://go.microsoft.com/fwlink/?LinkID=506745&amp;clcid=0x409). .
     
 
 

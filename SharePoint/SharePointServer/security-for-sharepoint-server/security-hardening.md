@@ -59,7 +59,7 @@ The primary recommendation for SharePoint Server is to secure inter-farm communi
 |:-----|:-----|
 |Ports  <br/> | Block UDP 1434.  <br/>  Consider blocking TCP 1433.  <br/> |
    
-This article does not describe how to secure SQL Server. For more information about how to secure SQL Server, see [Securing SQL Server](http://go.microsoft.com/fwlink/p/?LinkId=186828) (http://go.microsoft.com/fwlink/p/?LinkId=186828). 
+This article does not describe how to secure SQL Server. For more information about how to secure SQL Server, see [Securing SQL Server](https://go.microsoft.com/fwlink/p/?LinkId=186828) (https://go.microsoft.com/fwlink/p/?LinkId=186828). 
   
 ## Specific port, protocol, and service guidance
 <a name="PortProtocolService"> </a>
@@ -201,7 +201,7 @@ When you extend a Web application by using Central Administration, SharePoint Se
   
 The Web server and application server snapshot presented earlier in this article lists recommendations for configuring Web.config files. These recommendations are intended to be applied to each Web.config file that is created, including the Web.config file for the Central Administration site.
   
-For more information about ASP.NET configuration files and editing a Web.config file, see [ASP.NET Configuration](http://go.microsoft.com/fwlink/p/?LinkID=73257) (http://go.microsoft.com/fwlink/p/?LinkID=73257). 
+For more information about ASP.NET configuration files and editing a Web.config file, see [ASP.NET Configuration](https://go.microsoft.com/fwlink/p/?LinkID=73257) (https://go.microsoft.com/fwlink/p/?LinkID=73257). 
   
 ## See also
 <a name="PortProtocolService"> </a>

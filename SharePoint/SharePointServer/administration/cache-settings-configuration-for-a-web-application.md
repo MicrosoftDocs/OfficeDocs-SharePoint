@@ -115,9 +115,9 @@ Use the following procedure to configure the cache profile settings for a web ap
   
 8. To override the  `varyByHeader` attribute, type a custom parameter as specified in the .NET Framework Class Library entry [HttpCachePolicy.VaryByHeaders Property](https://msdn.microsoft.com/en-us/library/system.web.httpcachepolicy.varybyheaders%28v=vs.110%29.aspx).
     
-9. To override the  `varyByParam` attribute, type a custom parameter as specified in the .NET Framework Class Library entry [HttpCachePolicy.VaryByParams Property](http://go.microsoft.com/fwlink/p/?LinkId=164242&amp;clcid=0x409).
+9. To override the  `varyByParam` attribute, type a custom parameter as specified in the .NET Framework Class Library entry [HttpCachePolicy.VaryByParams Property](https://go.microsoft.com/fwlink/p/?LinkId=164242&amp;clcid=0x409).
     
-10. To override the  `varyByCustom` attribute, type a custom parameter as specified in the .NET Framework Class Library entry [HttpCachePolicy.SetVaryByCustom Method](http://go.microsoft.com/fwlink/p/?LinkId=164240&amp;clcid=0x409).
+10. To override the  `varyByCustom` attribute, type a custom parameter as specified in the .NET Framework Class Library entry [HttpCachePolicy.SetVaryByCustom Method](https://go.microsoft.com/fwlink/p/?LinkId=164240&amp;clcid=0x409).
     
 11. To override the  `varyByRights` attribute, change the value from  `"true"` to  `"false"`. This will remove the requirement that users must have identical effective permissions on all securable objects to see the same cached page as any other user.
     
@@ -126,7 +126,7 @@ Use the following procedure to configure the cache profile settings for a web ap
 13. Save the Notepad file, and then close it.
     
 > [!CAUTION]
-> When you save a change to the web.config file, the web application in Internet Information Services (IIS) 7.0 automatically recycles. This recycling can cause a brief interruption in service to sites contained in that web application, and users can lose session state. For information about recycling web applications in IIS 7.0, see [Start or Stop the Web Server (IIS 8)](http://go.microsoft.com/fwlink/?LinkID=718159&amp;clcid=0x409). 
+> When you save a change to the web.config file, the web application in Internet Information Services (IIS) 7.0 automatically recycles. This recycling can cause a brief interruption in service to sites contained in that web application, and users can lose session state. For information about recycling web applications in IIS 7.0, see [Start or Stop the Web Server (IIS 8)](https://go.microsoft.com/fwlink/?LinkID=718159&amp;clcid=0x409). 
   
 ## Configure object cache settings
 <a name="object"> </a>
@@ -160,7 +160,7 @@ Use the following procedure to configure the object cache settings for a web app
 8. Save the Notepad file, and then close it.
     
 > [!CAUTION]
-> When you save a change to the web.config file, the web application in Internet Information Services (IIS) 7.0 automatically recycles. This recycling can cause a brief interruption in service to sites contained in that web application, and users can lose session state. For information about recycling web applications in IIS 7.0, see [Start or Stop the Web Server (IIS 8)](http://go.microsoft.com/fwlink/?LinkID=718159&amp;clcid=0x409). 
+> When you save a change to the web.config file, the web application in Internet Information Services (IIS) 7.0 automatically recycles. This recycling can cause a brief interruption in service to sites contained in that web application, and users can lose session state. For information about recycling web applications in IIS 7.0, see [Start or Stop the Web Server (IIS 8)](https://go.microsoft.com/fwlink/?LinkID=718159&amp;clcid=0x409). 
   
 ## See also
 <a name="object"> </a>

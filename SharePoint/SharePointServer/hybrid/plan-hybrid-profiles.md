@@ -54,7 +54,7 @@ The bulk update process works like this:
     
 3. A timer job running in SharePoint Online checks for queued import requests and performs the import operation based on the API calls and information in the provided file.
     
-For more information about the bulk update API, see [Introducing Bulk UPA Custom Profile Properties Update API for SharePoint Online](http://go.microsoft.com/fwlink/p/?LinkId=786318).
+For more information about the bulk update API, see [Introducing Bulk UPA Custom Profile Properties Update API for SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=786318).
   
 ## Working with Delve in SharePoint hybrid deployments
 <a name="MovingProfileData"> </a>

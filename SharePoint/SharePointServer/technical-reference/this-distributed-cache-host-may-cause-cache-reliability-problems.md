@@ -95,5 +95,5 @@ For more information, see [Remove-SPDistributedCacheServiceInstance](/powershell
 [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md)
 #### Other Resources
 
-[Planning and using the Distributed Cache service](http://go.microsoft.com/fwlink/p/?LinkID=271302)
+[Planning and using the Distributed Cache service](https://go.microsoft.com/fwlink/p/?LinkID=271302)
 

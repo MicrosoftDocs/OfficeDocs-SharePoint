@@ -36,7 +36,7 @@ If you want to deploy Duet Enterprise for Microsoft SharePoint you must use Shar
   
 ### SharePoint Foundation
 
-SharePoint Foundation 2013 remains available for use. For more information, see [SharePoint Foundation 2013](http://go.microsoft.com/fwlink/p/?LinkID=623474&amp;clcid=0x409).
+SharePoint Foundation 2013 remains available for use. For more information, see [SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkID=623474&amp;clcid=0x409).
   
 Previous releases of SharePoint Server included SharePoint Foundation, a free edition of SharePoint that included most of the core functionality and architecture provided by the commercial editions of SharePoint. SharePoint Foundation is no longer available in the SharePoint Server 2016 release.
   

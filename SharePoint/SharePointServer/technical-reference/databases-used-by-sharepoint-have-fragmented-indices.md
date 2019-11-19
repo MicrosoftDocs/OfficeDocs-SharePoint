@@ -28,6 +28,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Database
   
  **Resolution: Reorganize and rebuild indexes**
   
-1. To correct index fragmentation, you can reorganize an index or rebuild an index. For more information, see [Reorganize and Rebuild Indexes](http://go.microsoft.com/fwlink/?LinkID=780583&amp;clcid=0x409).
-    
-
+1. To correct index fragmentation, you can reorganize an index or rebuild an index. For more information, see [Reorganize and Rebuild Indexes](https://go.microsoft.com/fwlink/?LinkID=780583&amp;clcid=0x409).

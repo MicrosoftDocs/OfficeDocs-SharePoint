@@ -106,12 +106,12 @@ Before you set content databases to read-only, you may need to determine the con
 For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
   
 > [!NOTE]
-> We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
+> We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions.
   
-You can follow these steps to set read/write content databases to be read-only by using SQL Server Management Studio. You can also use the  `Transact-SQL ALTER DATABASE` statement to set content databases to be read-only. For more information, see [ALTER DATABASE (Transact-SQL)](http://go.microsoft.com/fwlink/p/?LinkID=717355&amp;clcid=0x409).
+You can follow these steps to set read/write content databases to be read-only by using SQL Server Management Studio. You can also use the  `Transact-SQL ALTER DATABASE` statement to set content databases to be read-only. For more information, see [ALTER DATABASE (Transact-SQL)](https://go.microsoft.com/fwlink/p/?LinkID=717355&amp;clcid=0x409).
   
 > [!IMPORTANT]
-> Do not perform this procedure on databases in a failover environment that were log-shipped or mirrored. If a database in a failover environment that is either log-shipped or mirrored is set as read-only then no updates are performed and the backup is not valid. 
+> Do not perform this procedure on databases in a failover environment that were log-shipped or mirrored. If a database in a failover environment that is either log-shipped or mirrored is set as read-only then no updates are performed and the backup is not valid.
   
  **To set content databases to read-only by using SQL Server**
   

@@ -112,7 +112,7 @@ You can configure the user accounts for the object cache by the the SharePoint C
     
 8. At the PowerShell command prompt, type the following command: ./SetUsers.ps1
     
-9. Reset Internet Information Services (IIS). For more information about IISReset, see [Start or Stop the Web Server (IIS 8)](http://go.microsoft.com/fwlink/?LinkID=718159&amp;clcid=0x409).
+9. Reset Internet Information Services (IIS). For more information about IISReset, see [Start or Stop the Web Server (IIS 8)](https://go.microsoft.com/fwlink/?LinkID=718159&amp;clcid=0x409).
     
 ## See also
 <a name="section2"> </a>

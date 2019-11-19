@@ -32,7 +32,7 @@ Download and install:
 
 - [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
 
-- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+- [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
 
 - [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
 

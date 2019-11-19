@@ -142,20 +142,20 @@ You can use SQL Server tools to restore a content database by following these st
     
 7. In the **Select a page** pane, click **Options**.
     
-8. In the **Restore options** section, select only **Overwrite the existing database**. Unless the environment or policies require otherwise, do not select the other options in this section. 
+8. In the **Restore options** section, select only **Overwrite the existing database**. Unless the environment or policies require otherwise, do not select the other options in this section.
     
-9. In the **Recovery state** section: 
+9. In the **Recovery state** section:
     
    - If you have included all the transaction logs that you must restore, select **RECOVER WITH RECOVERY**.
     
    - If you must restore additional transaction logs, select **RECOVER WITH NORECOVERY**.
     
-   - The third option, **RECOVER WITH STANDBY** is not used in this scenario. 
+   - The third option, **RECOVER WITH STANDBY** is not used in this scenario.
     
     > [!NOTE]
-    > For more information about these recovery options, see [Restore Database (Options Page)](http://go.microsoft.com/fwlink/p/?LinkID=717106&amp;clcid=0x409). 
+    > For more information about these recovery options, see [Restore Database (Options Page)](https://go.microsoft.com/fwlink/p/?LinkID=717106&amp;clcid=0x409).
   
-10. Click **OK** to complete the recovery operation. 
+10. Click **OK** to complete the recovery operation.
     
 11. Repeat steps 4 through 10 for each database that you are restoring.
     

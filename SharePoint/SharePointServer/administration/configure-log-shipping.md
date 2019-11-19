@@ -378,7 +378,7 @@ The required steps to configure, run, and validate log shipping are condensed an
 [Configure SQL Server AlwaysOn Availability Groups for SharePoint Server](configure-an-alwayson-availability-group.md)
 #### Other Resources
 
-[About Log Shipping (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=392694&amp;clcid=0x409)
+[About Log Shipping (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=392694&amp;clcid=0x409)
   
 [Replication Tutorials](https://go.microsoft.com/fwlink/?linkid=858913)
 

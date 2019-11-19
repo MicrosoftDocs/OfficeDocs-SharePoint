@@ -191,19 +191,19 @@ You cannot restore the complete SharePoint Search service application by using S
     
 3. In Object Explorer, expand **Databases**.
     
-4. Right-click the database that you want to restore, point to **Tasks**, point to **Restore**, and then click **Database**. 
+4. Right-click the database that you want to restore, point to **Tasks**, point to **Restore**, and then click **Database**.
     
-5. In the **Restore Database** dialog box, on the General page, select the database to restore to from the **To database** drop-down list. 
+5. In the **Restore Database** dialog box, on the General page, select the database to restore to from the **To database** drop-down list.
     
-6. Select the restore source from the **From database** drop-down list. 
+6. Select the restore source from the **From database** drop-down list.
     
-7. In the **Select the backup sets to restore section** area, select the check box next to the database. 
+7. In the **Select the backup sets to restore section** area, select the check box next to the database.
     
-8. On the Options tab, select the recovery state from the **Recover state** section. 
+8. On the Options tab, select the recovery state from the **Recover state** section.
     
-    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](http://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
+    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
     
-9. Click **OK** to restore the database. 
+9. Click **OK** to restore the database.
     
 10. Repeat steps 1-9 for each database that is associated with the service application.
     

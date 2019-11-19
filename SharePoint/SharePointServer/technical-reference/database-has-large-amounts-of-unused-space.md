@@ -31,13 +31,13 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Database
   
  **Resolution: Ignore this event, or shrink the database if you have to.**
   
-- Normally you can safely ignore this event. You shrink a database only if it proves absolutely necessary — for example, when you have performed an operation that removes a very large quantity of data from a database, and the free space is not expected to be used again. You can shrink the database by using the DBCC ShrinkDatabase command or SQL Server Management Studio. For more information, see [DBCC SHRINKDATABASE (Transact-SQL)](https://go.microsoft.com/fwlink/p/?LinkID=110852) (https://go.microsoft.com/fwlink/p/?LinkID=110852) and [Shrink a Database](http://go.microsoft.com/fwlink/?LinkID=760771&amp;clcid=0x409) (http://go.microsoft.com/fwlink/p/?LinkID=224904). 
+- Normally you can safely ignore this event. You shrink a database only if it proves absolutely necessary — for example, when you have performed an operation that removes a very large quantity of data from a database, and the free space is not expected to be used again. You can shrink the database by using the DBCC ShrinkDatabase command or SQL Server Management Studio. For more information, see [DBCC SHRINKDATABASE (Transact-SQL)](https://go.microsoft.com/fwlink/p/?LinkID=110852) (https://go.microsoft.com/fwlink/p/?LinkID=110852) and [Shrink a Database](https://go.microsoft.com/fwlink/?LinkID=760771&amp;clcid=0x409) (https://go.microsoft.com/fwlink/p/?LinkID=224904). 
     
-    The white paper [Database maintenance for SharePoint](http://go.microsoft.com/fwlink/p/?LinkID=229104) provides very important guidelines for shrinking a database. We strongly recommend that you read this white paper before you shrink a database. 
+    The white paper [Database maintenance for SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=229104) provides very important guidelines for shrinking a database. We strongly recommend that you read this white paper before you shrink a database. 
     
 ## See also
 
 #### Other Resources
 
-[Shrinking a Database](http://go.microsoft.com/fwlink/p/?LinkID=127459)
+[Shrinking a Database](https://go.microsoft.com/fwlink/p/?LinkID=127459)
 

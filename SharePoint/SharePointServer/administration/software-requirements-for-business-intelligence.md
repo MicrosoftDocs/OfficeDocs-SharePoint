@@ -57,7 +57,7 @@ The business intelligence tools for SharePoint Server 2013 include the following
 
 The requirements for Power Pivot for SharePoint Server 2016 are as follows: 
   
-- [Install Analysis Services in Power Pivot Mode](http://go.microsoft.com/fwlink/?LinkID=808752&amp;clcid=0x409) - in order to use the Excel Online features such as advanced data models on SharePoint Server 2016, an instance of SQL Server 2016 Analysis Services must be installed in Power Pivot mode. 
+- [Install Analysis Services in Power Pivot Mode](https://go.microsoft.com/fwlink/?LinkID=808752&amp;clcid=0x409) - in order to use the Excel Online features such as advanced data models on SharePoint Server 2016, an instance of SQL Server 2016 Analysis Services must be installed in Power Pivot mode. 
     
 - Office Online Server with Excel Online must be configured on the farm and at least one Analysis Services server in SharePoint mode must be registered in the Office Online Server configuration. Excel Online can use multiple Analysis Services servers, but they must all use the release version of SQL Server Management Studio (SSMS). For more information, see [Download SQL Server Management Studio (SSMS)](https://go.microsoft.com/fwlink/?linkid=857511).
     
@@ -193,7 +193,7 @@ For information about how to plan for Visio Services, see [Overview of Visio Ser
   
 [SQL 2012 SP1 Installation](https://go.microsoft.com/fwlink/p/?LinkID=255906)
   
-[Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](http://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409)
+[Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409)
   
-[Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](http://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409)
+[Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409)
 
