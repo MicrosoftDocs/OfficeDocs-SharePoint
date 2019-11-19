@@ -80,7 +80,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
 > For security reasons, we recommend HTTPS for a production environment. 
   
 > [!TIP]
-> For information about least-privilege configuration, see [Least Privilege Configuration for Workflow Manager with SharePoint Server 2013](http://blogs.msdn.com/b/briangre/archive/2013/02/20/least-privilege-configuration-for-windows-azure-workflow-with-sharepoint-2013.aspx). 
+> For information about least-privilege configuration, see [Least Privilege Configuration for Workflow Manager with SharePoint Server 2013](https://blogs.msdn.com/b/briangre/archive/2013/02/20/least-privilege-configuration-for-windows-azure-workflow-with-sharepoint-2013.aspx).
   
  **To configure Workflow Manager on a server that is part of the SharePoint Server farm and on which communication takes place by using HTTP**
   

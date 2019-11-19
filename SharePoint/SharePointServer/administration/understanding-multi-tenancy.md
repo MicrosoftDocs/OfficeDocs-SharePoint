@@ -521,7 +521,7 @@ The Microsoft PowerShell scripts contained in the following sub-sections are bas
   
 - http://www.harbar.net/articles/sp2013mt.aspx
     
-- http://gallery.technet.microsoft.com/scriptcenter
+- https://gallery.technet.microsoft.com/scriptcenter
     
 The PowerShell scripts provided include variables, which should be modified to suit your environment.
   
