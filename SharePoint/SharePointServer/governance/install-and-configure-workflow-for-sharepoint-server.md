@@ -195,7 +195,7 @@ Use these steps to validate that you have successfully installed and configured 
   
 1. Add a user to your SharePoint site, and grant the user Site Designer permissions.
     
-2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](http://msdn.microsoft.com/library/jj554671%28v=office.15%29).
+2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](https://msdn.microsoft.com/library/jj554671%28v=office.15%29).
     
 3. Run this workflow from the SharePoint user interface.
     

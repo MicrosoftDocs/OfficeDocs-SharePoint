@@ -71,7 +71,7 @@ In the upgrade log files, you may see an error such as the following:
   
 - Failed to activate site collection features on site Site Url. Exception: A duplicate content type name  _"name"_ was found. 
     
-This error indicates that a third-party content type was added to the specified site in SharePoint Server 2010. During upgrade to SharePoint 2013 its name conflicted with the default content type by the same name. Rename the third-party content type in the specified site to a different name and run upgrade again. For more information, see [Create or customize a content type](http://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=5&amp;origin=HA103591373). 
+This error indicates that a third-party content type was added to the specified site in SharePoint Server 2010. During upgrade to SharePoint 2013 its name conflicted with the default content type by the same name. Rename the third-party content type in the specified site to a different name and run upgrade again. For more information, see [Create or customize a content type](https://office.microsoft.com/en-us/office365-sharepoint-online-enterprise-help/create-or-customize-a-content-type-HA102773269.aspx?CTT=5&amp;origin=HA103591373). 
   
 > [!NOTE]
 > Either renaming or removing a content type can cause any customizations dependent on that content type to stop working. 

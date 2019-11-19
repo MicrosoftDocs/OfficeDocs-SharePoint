@@ -306,7 +306,7 @@ You should test the RBS installation on one Front-end server in the SharePoint f
   
 [Deciding to use RBS in SharePoint Server](rbs-planning.md)
   
-[Install and configure RBS with SharePoint 2013 and SQL Server 2012](http://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
+[Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
   
 [Install for SharePoint 2013](../install/install-for-sharepoint-2013.md)
   

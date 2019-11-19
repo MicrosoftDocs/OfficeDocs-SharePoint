@@ -1306,7 +1306,7 @@ The following XML shows how to replace the functionality of the **Disk Quota** b
 
 ```
 
-For additional information about how to customize the Server ribbon, see [Customizing the Server Ribbon](http://msdn.microsoft.com/en-us/library/ee539395%28office.14%29.aspx).
+For additional information about how to customize the Server ribbon, see [Customizing the Server Ribbon](https://msdn.microsoft.com/en-us/library/ee539395%28office.14%29.aspx).
   
 #### Extending a site subscription using custom properties
 

@@ -38,7 +38,7 @@ The database sizes listed in this article are based on the following ranges.
 |Extra-large  <br/> |More than 1 terabyte  <br/> |
    
     
-You can download the SharePoint Server 2016 database poster, as either a [PDF](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
+You can download the SharePoint Server 2016 database poster, as either a [PDF](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
   
 For a graphical overview of the databases that support SharePoint Server 2013, see [Database model](https://go.microsoft.com/fwlink/p/?LinkID=255376).
   
