@@ -25,7 +25,7 @@ description: ""
 # Upload on-premises content to SharePoint Online using PowerShell cmdlets
 
 > [!NOTE]
->  *January 10, 2018* > The **SharePoint Migration Tool** is now available to help simplify your migration process. This new tool provides a wizard-like experience to guide you through the process of migrating either your SharePoint on-premises document libraries or your on-premises file shares and move them to either SharePoint or OneDrive in Office 365. It is available to all Office 365 users. > To download the tool, go here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>  *January 10, 2018* > The **SharePoint Migration Tool** is now available to help simplify your migration process. This new tool provides a wizard-like experience to guide you through the process of migrating either your SharePoint on-premises document libraries or your on-premises file shares and move them to either SharePoint or OneDrive in Office 365. It is available to all Office 365 users. > To download the tool, go here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 > [!IMPORTANT]
 > Currently the SharePoint Migration Tool is not available for users of Office 365 operated by 21Vianet in China. 

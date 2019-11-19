@@ -41,9 +41,9 @@ Which search experience your users see depends on where they search from:
 
 **Mobile friendly** - The Microsoft search in SharePoint results page is mobile friendly.
 
-**User friendly interface** - Microsoft search in SharePoint offers a great user interface without a search administrator configuring anything. [Learn more](https://support.office.com/article/find-what-you-need-with-microsoft-search-d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87?ui=en-US&rs=en-US&ad=US)
+**User friendly interface** - Microsoft search in SharePoint offers a great user interface without a search administrator configuring anything. [Learn more](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87)
 
-**Microsoft search evolves** – The set of content types users can search for and the intelligence of the search box will grow over time. [Learn what’s coming next in Microsoft search](http://aka.ms/MicrosoftSearch)
+**Microsoft search evolves** – The set of content types users can search for and the intelligence of the search box will grow over time. [Learn what’s coming next in Microsoft search](https://aka.ms/MicrosoftSearch)
 
 ## When to use which search experience?
 Which experience your users see depends on whether your organization mostly uses classic or modern sites.  If you believe that Microsoft search in SharePoint gives your users the best experience, [learn how to get started with Microsoft search in SharePoint Online](https://docs.microsoft.com/microsoftsearch/get-started-search-in-sharepoint-online).

@@ -75,4 +75,4 @@ Check out the below resources that provide more details about how to use the mod
 
 [JSON schema](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-json-schema)
 
-[Theme generator](http://aka.ms/spthemebuilder)
+[Theme generator](https://aka.ms/spthemebuilder)
