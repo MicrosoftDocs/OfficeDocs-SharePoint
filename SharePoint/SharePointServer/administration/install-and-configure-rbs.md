@@ -52,7 +52,7 @@ By default, the FILESTREAM feature is installed when you install SQL Server. But
     
 3. Allow remote clients to have streaming access to FILESTREAM data if you need remote client access.
     
-To enable FILESTREAM for file I/O and to allow clients access, follow the instructions in [Enable and Configure FILESTREAM](http://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409). You only have to configure these settings one time for each database server where you want to use RBS.
+To enable FILESTREAM for file I/O and to allow clients access, follow the instructions in [Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409). You only have to configure these settings one time for each database server where you want to use RBS.
   
 ## Provision a BLOB store for each content database
 <a name="provision"> </a>
@@ -123,7 +123,7 @@ You must install RBS client library on the SQL Server node and all Front-end or 
     
     For SharePoint Server 2016, choose the correct install from the following list:
     
-  - [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)
+  - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)
     
   - [Microsoft SQL Server 2014 SP1 Feature Pack](https://www.microsoft.com/en-us/download/details.aspx?id=46696)
     
@@ -177,7 +177,7 @@ You must install RBS client library on the SQL Server node and all Front-end or 
     
     For SharePoint Server 2016, choose the correct install from the following list:
     
-  - [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)
+  - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)
     
   - [Microsoft SQL Server 2014 SP1 Feature Pack](https://www.microsoft.com/en-us/download/details.aspx?id=46696)
     
@@ -306,12 +306,12 @@ You should test the RBS installation on one Front-end server in the SharePoint f
   
 [Deciding to use RBS in SharePoint Server](rbs-planning.md)
   
-[Install and configure RBS with SharePoint 2013 and SQL Server 2012](http://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
+[Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
   
 [Install for SharePoint 2013](../install/install-for-sharepoint-2013.md)
   
-[Remote Blob Store (RBS) (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
+[Remote Blob Store (RBS) (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
   
-[Enable and Configure FILESTREAM](http://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409)
+[Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409)
   
 

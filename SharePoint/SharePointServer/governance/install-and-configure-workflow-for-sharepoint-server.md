@@ -105,7 +105,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
   
 5. Install the Workflow Manager Client on each server in the SharePoint farm.
     
-    Download and install the Workflow Manager Client here: [http://go.microsoft.com/fwlink/p/?LinkID=268376](http://go.microsoft.com/fwlink/p/?LinkID=268376)
+    Download and install the Workflow Manager Client here: [https://go.microsoft.com/fwlink/p/?LinkID=268376](https://go.microsoft.com/fwlink/p/?LinkID=268376)
     
  **To configure Workflow Manager on a server that is part of the SharePoint Server farm and on which communication takes place by using HTTPS**
   
@@ -134,7 +134,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
   
 6. Install the Workflow Manager Client on each server in the SharePoint farm.
     
-    Download and install the Workflow Manager Client here: [http://go.microsoft.com/fwlink/p/?LinkID=268376](http://go.microsoft.com/fwlink/p/?LinkID=268376)
+    Download and install the Workflow Manager Client here: [https://go.microsoft.com/fwlink/p/?LinkID=268376](https://go.microsoft.com/fwlink/p/?LinkID=268376)
     
  **To configure Workflow Manager on a server that is NOT part of the SharePoint Server farm and on which communication takes place by using HTTP**
   
@@ -144,7 +144,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
     Before you can run the workflow pairing cmdlet, you must install Workflow Manager Client on each of the servers in the SharePoint farm.
     
-    Download and install the Workflow Manager Client here: [http://go.microsoft.com/fwlink/p/?LinkID=268376](http://go.microsoft.com/fwlink/p/?LinkID=268376)
+    Download and install the Workflow Manager Client here: [https://go.microsoft.com/fwlink/p/?LinkID=268376](https://go.microsoft.com/fwlink/p/?LinkID=268376)
     
 3. Open the SharePoint Management Shell as an administrator. This is accomplished by right-clicking the **SharePoint 2013 Management Shell** command and choosing **Run as administrator**.
     
@@ -171,7 +171,7 @@ These factors translate into four scenarios. Each scenario configures a SharePoi
     
     Before you can run the workflow pairing cmdlet, you must install Workflow Manager Client on each of the servers in the SharePoint farm.
     
-    Download and install the Workflow Manager Client here: [http://go.microsoft.com/fwlink/p/?LinkID=268376](http://go.microsoft.com/fwlink/p/?LinkID=268376)
+    Download and install the Workflow Manager Client here: [https://go.microsoft.com/fwlink/p/?LinkID=268376](https://go.microsoft.com/fwlink/p/?LinkID=268376)
     
 4. Open the SharePoint Management Shell as an administrator. This is accomplished by right-clicking the **SharePoint Management Shell** command and choosing **Run as administrator**.
     
@@ -195,7 +195,7 @@ Use these steps to validate that you have successfully installed and configured 
   
 1. Add a user to your SharePoint site, and grant the user Site Designer permissions.
     
-2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](http://msdn.microsoft.com/library/jj554671%28v=office.15%29).
+2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](https://msdn.microsoft.com/library/jj554671%28v=office.15%29).
     
 3. Run this workflow from the SharePoint user interface.
     

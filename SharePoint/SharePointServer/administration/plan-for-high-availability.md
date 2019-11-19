@@ -95,7 +95,7 @@ Our example does not include all the roles, services, and service applications t
   
 - Distributed Cache requires special considerations during failover. For more information, see [Plan for the Distributed Cache service](plan-for-feeds-and-the-distributed-cache-service.md#plandc) and [Manage the Distributed Cache service in SharePoint Server](manage-the-distributed-cache-service.md).
     
-- SharePoint Workflow requires Workflow Manager 1.0 Cumulative Update 3. Configure workflow for SharePoint Server 2016 is the same as for SharePoint Server 2013. For more information, see [Description of the Cumulative Update 3 for Workflow Manager 1.0](http://go.microsoft.com/fwlink/?LinkID=798163&amp;clcid=0x409) and [Configuring a Highly Available Workflow in Workflow Manager 1.0](https://go.microsoft.com/fwlink/p/?LinkId=285353).
+- SharePoint Workflow requires Workflow Manager 1.0 Cumulative Update 3. Configure workflow for SharePoint Server 2016 is the same as for SharePoint Server 2013. For more information, see [Description of the Cumulative Update 3 for Workflow Manager 1.0](https://go.microsoft.com/fwlink/?LinkID=798163&amp;clcid=0x409) and [Configuring a Highly Available Workflow in Workflow Manager 1.0](https://go.microsoft.com/fwlink/p/?LinkId=285353).
     
     > [!NOTE]
     > The configuration of Workflow for SharePoint Server 2016 has not changed from SharePoint Server 2013. You must install the Workflow Manager 1.0 Cumulative Update 3. 
@@ -128,7 +128,7 @@ A failover cluster requires shared disk storage between two computers. In a two 
   
 An AlwaysOn Availability Group is a different technology in SQL Server 2014 (SP1) and SQL Server 2012 (think of it as a descendant of Database Mirroring) that uses some features exposed by Windows Clustering. However, it does not require shared disk storage, and the computers in an availability group do not have to have a specialized configuration of SQL Server installed on them. After a database server is added to a Windows Cluster, it is fairly easy to enable AlwaysOn Availability Groups and then configure the availability group that you want.
   
-In summary, any server that runs SQL Server 2014 (SP1) and SQL Server 2012 Enterprise Edition can use AlwaysOn Availability Groups by joining a cluster and configuring the availability group. AlwaysOn failover clusters require special hardware and configuration steps to set up Failover Cluster Instances. Each of these technologies has its use for specific environments, and both are complimentary competitors. For more information about these features, see [High Availability Solutions (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=718030&amp;clcid=0x409). For help deciding which SQL Server availability technology to use, see [Choosing a SQL Server Availability Technology](http://go.microsoft.com/fwlink/?LinkID=799828&amp;clcid=0x409).
+In summary, any server that runs SQL Server 2014 (SP1) and SQL Server 2012 Enterprise Edition can use AlwaysOn Availability Groups by joining a cluster and configuring the availability group. AlwaysOn failover clusters require special hardware and configuration steps to set up Failover Cluster Instances. Each of these technologies has its use for specific environments, and both are complimentary competitors. For more information about these features, see [High Availability Solutions (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=718030&amp;clcid=0x409). For help deciding which SQL Server availability technology to use, see [Choosing a SQL Server Availability Technology](https://go.microsoft.com/fwlink/?LinkID=799828&amp;clcid=0x409).
   
 > [!IMPORTANT]
 > Because each SQL Server high availability option has its own features, strengths, and weaknesses, one option is not necessarily better than another. For example, in a given scenario that uses AlwaysOn Availability Groups, minimizing data lose might be better than any performance gain that AlwaysOn Failover Cluster Instances achieves. You must choose a high-availability solution that is based on your business requirements and IT infrastructure requirements. 
@@ -150,7 +150,7 @@ SharePoint Server references the cluster as a whole. Therefore, failover is auto
 > [!NOTE]
 > When either a planned or unplanned failover happens, connections are dropped and must be established again when transitioning from one cluster node to another cluster node. 
   
-For detailed information about SQL Server failover clustering, see [AlwaysOn Failover Cluster Instances (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=786327&amp;clcid=0x409).
+For detailed information about SQL Server failover clustering, see [AlwaysOn Failover Cluster Instances (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=786327&amp;clcid=0x409).
   
 #### SQL Server AlwaysOn Availability Groups and SQL Server Database Mirroring
 
@@ -172,7 +172,7 @@ When an availability group fails over to a target instance or target server, all
 > [!NOTE]
 > Database issues, such as a database becoming suspect due to a loss of a data file, deletion of a database, or corruption of a transaction log do not cause a failover. 
   
-For more information about the benefits of AlwaysOn Availability Groups and an overview of AlwaysOn Availability Groups terminology, see [AlwaysOn Availability Groups (SQL Server)](http://go.microsoft.com/fwlink/?LinkID=718032&amp;clcid=0x409
+For more information about the benefits of AlwaysOn Availability Groups and an overview of AlwaysOn Availability Groups terminology, see [AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=718032&amp;clcid=0x409
 ).
   
  **Database mirroring**
@@ -187,7 +187,7 @@ Database mirroring provides database redundancy by keeping a mirrored copy of da
   
 For high-availability mirroring in a SharePoint farm, you must use high-safety mode with automatic failover. High-safety database mirroring requires three server instances: a principal, a mirror, and a witness. The witness server enables SQL Server to automatically fail over from the principal server to the mirror server. Failover from the principal database to the mirror database typically takes several seconds.
   
-For general information about database mirroring, see [Database Mirroring](http://go.microsoft.com/fwlink/?LinkID=786331&amp;clcid=0x409).
+For general information about database mirroring, see [Database Mirroring](https://go.microsoft.com/fwlink/?LinkID=786331&amp;clcid=0x409).
   
 > [!IMPORTANT]
 > Databases that are configured to use the SQL Server FILESTREAM remote BLOB store provider cannot be mirrored. 

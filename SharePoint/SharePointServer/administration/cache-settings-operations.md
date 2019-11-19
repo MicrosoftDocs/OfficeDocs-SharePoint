@@ -40,7 +40,7 @@ The page output cache uses cache profiles that specify how long items should be 
 You can configure cache profile settings for a web application by editing the Web.config file on the application server. The cache profile settings that you configure at the web application level will be used for all cache profiles in the site collections for that web application. 
   
 > [!NOTE]
-> There is a known issue with the Content Search Web Part. The SendContentBeforeQuery setting in the Web Part does not work correctly on pages that use output caching. This issue is resolved in the SharePoint Server 2013 cumulative update for March 2013. For more information, see Microsoft Knowledge Base article 2767999: [Description of the SharePoint Server 2013 update: March 12, 2013](http://go.microsoft.com/fwlink/p/?LinkId=286308). 
+> There is a known issue with the Content Search Web Part. The SendContentBeforeQuery setting in the Web Part does not work correctly on pages that use output caching. This issue is resolved in the SharePoint Server 2013 cumulative update for March 2013. For more information, see Microsoft Knowledge Base article 2767999: [Description of the SharePoint Server 2013 update: March 12, 2013](https://go.microsoft.com/fwlink/p/?LinkId=286308). 
   
 > [!NOTE]
 > To use the page output cache and the associated cache profile settings, you must be using the Publishing feature on your site. 
@@ -61,7 +61,7 @@ You can optimize the object cache for a web application by specifying the size o
 The anonymous search results cache is primarily used by publishing sites that allow access to anonymous users. It saves search results from anonymous users and reuses them for later queries that are the same as the original query. This improves performance on site pages that use the Content Search Web Part.
   
 > [!NOTE]
-> There is a known issue in which Content Search Web Part and the Catalog-Item Reuse Web Part do not use the anonymous search results cache on category pages. This issue is resolved in the SharePoint Server 2013 cumulative update for March 2013. For more information, see Microsoft Knowledge Base article 2767999: [Description of the SharePoint Server 2013 update: March 12, 2013](http://go.microsoft.com/fwlink/p/?LinkId=286308).
+> There is a known issue in which Content Search Web Part and the Catalog-Item Reuse Web Part do not use the anonymous search results cache on category pages. This issue is resolved in the SharePoint Server 2013 cumulative update for March 2013. For more information, see Microsoft Knowledge Base article 2767999: [Description of the SharePoint Server 2013 update: March 12, 2013](https://go.microsoft.com/fwlink/p/?LinkId=286308).
 
 >  [!NOTE]
 >  If you have category pages that you created before the cumulative update was installed, you must re-create the category pages. Save the layouts and any customizations on the original category pages that you want to keep. Disconnect and then reconnect to the catalog, and then copy the customizations to the new category pages.

@@ -40,7 +40,7 @@ Business continuity management is a management process or program that defines, 
     
 The result is a solution design or identified options, an implementation plan, a testing and organization acceptance plan, and a maintenance plan or schedule.
   
-An example of business continuity management is [Disaster recovery and protection for data and applications](http://go.microsoft.com/fwlink/?LinkID=787533&amp;clcid=0x409), which provides a snapshot of the business continuity program at Microsoft.
+An example of business continuity management is [Disaster recovery and protection for data and applications](https://go.microsoft.com/fwlink/?LinkID=787533&amp;clcid=0x409), which provides a snapshot of the business continuity program at Microsoft.
   
 Obviously Information Technology (IT) is a significant aspect of business continuity planning for many organizations. However, business continuity is more encompassing - it includes all the operations that are needed to make sure that an organization can continue to do business during and immediately after a major disruptive event. A business continuity plan includes, but is not limited to, the following elements:
   

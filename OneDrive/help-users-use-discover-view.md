@@ -47,7 +47,7 @@ Discover view functionality is available to Office 365 users in OneDrive for Bus
     
 Regardless of which of these Office 365 plans you have, you need to activate the SharePoint Online service and assign users a SharePoint Online license before they can start using the Discover view.
   
-OneDrive for Business in Office 365 is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome or Safari. For more information, see [Office 365 system requirements](http://go.microsoft.com/fwlink/p/?LinkID=797594&amp;clcid=0x409).
+OneDrive for Business in Office 365 is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome or Safari. For more information, see [Office 365 system requirements](https://go.microsoft.com/fwlink/p/?LinkID=797594&amp;clcid=0x409).
   
 ## Introducing the Discover view in your organization
 <a name="IntroDisView"> </a>

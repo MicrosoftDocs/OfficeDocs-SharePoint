@@ -38,7 +38,7 @@ The database sizes listed in this article are based on the following ranges.
 |Extra-large  <br/> |More than 1 terabyte  <br/> |
    
     
-You can download the SharePoint Server 2016 database poster, as either a [PDF](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](http://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
+You can download the SharePoint Server 2016 database poster, as either a [PDF](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf) or [Visio](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx) file. 
   
 For a graphical overview of the databases that support SharePoint Server 2013, see [Database model](https://go.microsoft.com/fwlink/p/?LinkID=255376).
   
@@ -87,7 +87,7 @@ The configuration database also contains specific data for SharePoint Server far
 #### Additional notes
 <a name="notes"> </a>
 
- **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are mirroring your system, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
+ **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are mirroring your system, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
   
  **Backup and Restore**. The configuration database is backed up when you perform a SharePoint farm configuration and content backup. Note that some configuration settings from the database are exported and stored as XML file. When a farm is restored, the configuration database is not restored. Instead, the saved configuration settings are imported. The configuration database can be successfully backed up and restored by using SQL Server or other tools if the SharePoint farm is first taken offline.
   
@@ -101,7 +101,7 @@ The Central Administration content database is considered to be a configuration 
 > [!NOTE]
 > Power Pivot for SharePoint can only be installed on SharePoint Server 2016 when you use SQL Server 2016 CTP 3.1 or later as the database server. 
   
-For more information, download [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](http://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409). For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](http://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409). 
+For more information, download [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409). For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409). 
   
 > [!NOTE]
 > Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server 2016. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server](/webappsserver/office-web-apps-server) and [Configure Excel Online administrative settings](/SharePoint/administration/configure-excel-services). 
@@ -169,7 +169,7 @@ Content database sizes up to 1 terabyte are supported only for large, single-sit
   
 Content database size varies significantly with the usage of the site. Growth factors include the number of documents, number of users, use of versioning, use of Recycle Bins, size of quotas, whether the audit trail is configured, and how many items are chosen for auditing.
   
-If Power Pivot for SharePoint is being used, the Excel Online files stored in SharePoint Server 2016 grow larger, which increases the size of the content database. For more information, see [PowerPivot for SharePoint (SSAS)](http://go.microsoft.com/fwlink/p/?LinkID=733878&amp;clcid=0x409).
+If Power Pivot for SharePoint is being used, the Excel Online files stored in SharePoint Server 2016 grow larger, which increases the size of the content database. For more information, see [PowerPivot for SharePoint (SSAS)](https://go.microsoft.com/fwlink/p/?LinkID=733878&amp;clcid=0x409).
   
 If Power Pivot for SharePoint is being used, the Excel files stored in SharePoint Server 2013 grow larger, which increases the size of the content database. For more information, see [Plan a PowerPivot Deployment in a SharePoint Farm](https://go.microsoft.com/fwlink/p/?LinkID=186698).
   
@@ -546,7 +546,7 @@ The State Service database stores temporary state information for InfoPath Forms
 ## SQL Server system databases
 <a name="Sec3"> </a>
 
-SharePoint Server is built on SQL Server and uses the SQL Server system databases. SQL Server does not let users directly update information in system objects such as system tables, system stored procedures, and catalog views. Instead, SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](http://go.microsoft.com/fwlink/p/?LinkID=733887&amp;clcid=0x409).
+SharePoint Server is built on SQL Server and uses the SQL Server system databases. SQL Server does not let users directly update information in system objects such as system tables, system stored procedures, and catalog views. Instead, SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](https://go.microsoft.com/fwlink/p/?LinkID=733887&amp;clcid=0x409).
   
 ### master database
 

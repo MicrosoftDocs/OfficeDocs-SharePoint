@@ -23,7 +23,7 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Server 2016.
   
-For a comparison of SharePoint on-premises features between SharePoint 2013 and SharePoint Server 2016 editions, see [SharePoint feature availability across on-premises solutions](http://go.microsoft.com/fwlink/p/?LinkID=760410&amp;clcid=0x409). For new features in SharePoint Server 2016 for end users, see [What's new in SharePoint Server 2016](https://support.office.com/article/089369b5-c3d4-4551-8bed-22b2548abd3b).
+For a comparison of SharePoint on-premises features between SharePoint 2013 and SharePoint Server 2016 editions, see [SharePoint feature availability across on-premises solutions](https://go.microsoft.com/fwlink/p/?LinkID=760410&amp;clcid=0x409). For new features in SharePoint Server 2016 for end users, see [What's new in SharePoint Server 2016](https://support.office.com/article/089369b5-c3d4-4551-8bed-22b2548abd3b).
   
 ## Summary of features
 
@@ -51,7 +51,7 @@ The following table provides a summary of the new features that you can try out 
 |**New Recycle Bin in OneDrive and Team sites** <br/> |SharePoint Server 2016 adds a link for the Recycle Bin in the left navigation area of the OneDrive and Team sites.  <br/> |NA  <br/> |
 |**Open Document Format (ODF)** <br/> |SharePoint Server 2016 adds support for Open Document Format (ODF) files to use in document library templates.  <br/> |For more information, see [Open Document Format (ODF) available for document libraries](#ODF).  <br/> |
 |**Project Server** <br/> |New Project Server features are available in SharePoint Server 2016.  <br/> |For more information, see [Project Server 2016 ](#project).  <br/> |
-|**ReFS file system support** <br/> |SharePoint Server 2016 now supports drives that are formatted with the ReFS file system.  <br/> |For more information about the ReFS file system, see [Resilient File System Overview](http://go.microsoft.com/fwlink/?LinkID=620210&amp;clcid=0x409) and [Resilient file system](http://go.microsoft.com/fwlink/?LinkID=620212&amp;clcid=0x409).  <br/> |
+|**ReFS file system support** <br/> |SharePoint Server 2016 now supports drives that are formatted with the ReFS file system.  <br/> |For more information about the ReFS file system, see [Resilient File System Overview](https://go.microsoft.com/fwlink/?LinkID=620210&amp;clcid=0x409) and [Resilient file system](https://go.microsoft.com/fwlink/?LinkID=620212&amp;clcid=0x409).  <br/> |
 |**SharePoint business intelligence** <br/> |SharePoint Server 2016 now supports SQL Server 2016 CTP 3.1 and the Power Pivot add-in and Power View.  <br/> |For more information about SharePoint business intelligence, see [Power Pivot add-in and Power View are now available to use with SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md#BI).  <br/> |
 |**SharePoint Search** <br/> |SharePoint Search Server Application has significant changes to its deployment.  <br/> |For more information, see [SharePoint Search Service application](#search).  <br/> |
 |**Sharing improvements** <br/> |SharePoint Server 2016 has many new sharing improvements available.  <br/> |For more information, see [Sharing](#share).  <br/> |
@@ -70,11 +70,11 @@ This section provides detailed descriptions of the new and updated features in S
 
 The following new Access features are available when you deploy Access Services in SharePoint Server 2016:
   
-- Support apps for Office. For more information, see [Spice up your Access app with add-ins for Office](http://go.microsoft.com/fwlink/p/?LinkID=620215&amp;clcid=0x409).
+- Support apps for Office. For more information, see [Spice up your Access app with add-ins for Office](https://go.microsoft.com/fwlink/p/?LinkID=620215&amp;clcid=0x409).
     
-- Access App Upgrade. For more information, see [Upgrade an Access app](http://go.microsoft.com/fwlink/p/?LinkID=620216&amp;clcid=0x4809).
+- Access App Upgrade. For more information, see [Upgrade an Access app](https://go.microsoft.com/fwlink/p/?LinkID=620216&amp;clcid=0x4809).
     
-- Download in Excel feature available for users to pivot Access tables. For more information, see [Introducing a new feature in Access 2013 web apps-Download in Excel](http://go.microsoft.com/fwlink/p/?LinkID=620218&amp;clcid=0x4809).
+- Download in Excel feature available for users to pivot Access tables. For more information, see [Introducing a new feature in Access 2013 web apps-Download in Excel](https://go.microsoft.com/fwlink/p/?LinkID=620218&amp;clcid=0x4809).
     
 - With the improved Related Item Control, you can do the following:
     
@@ -84,7 +84,7 @@ The following new Access features are available when you deploy Access Services 
     
   - Turn off the **Add link** at the bottom of the Related Item Control. 
     
-- The Cascading Combo box is now available in Access. For more information, see [Introducing a new user experience feature in Access web apps: Cascading Controls](http://go.microsoft.com/fwlink/p/?LinkID=620219&amp;clcid=0x4809).
+- The Cascading Combo box is now available in Access. For more information, see [Introducing a new user experience feature in Access web apps: Cascading Controls](https://go.microsoft.com/fwlink/p/?LinkID=620219&amp;clcid=0x4809).
     
 ### Central Administration is no longer provisioned on all servers by default
 <a name="access"> </a>
@@ -113,7 +113,7 @@ You can provision or unprovision Central Administration on individual servers in
 
 The document deletion policy allows you to delete documents in users' OneDrive for Business sites after specific periods of time. The In-Place Hold policy allows administrators to preserve documents, email, and other files.
   
-For more information, see [Overview of document deletion policies](http://go.microsoft.com/fwlink/p/?LinkID=620220&amp;clcid=0x4809).
+For more information, see [Overview of document deletion policies](https://go.microsoft.com/fwlink/p/?LinkID=620220&amp;clcid=0x4809).
   
 ### Document Library accessibility
 <a name="doclib"> </a>
@@ -200,7 +200,7 @@ Cloud hybrid search is a new hybrid search solution alternative. With cloud hybr
     
 - When users query your search index in Office 365, they get unified search results from both on-premises and Office 365 content.
     
-For more information about cloud hybrid search, see the public Microsoft cloud hybrid search program on [Microsoft Office connection](http://go.microsoft.com/fwlink/p/?LinkID=624235&amp;clcid=0x409).
+For more information about cloud hybrid search, see the public Microsoft cloud hybrid search program on [Microsoft Office connection](https://go.microsoft.com/fwlink/p/?LinkID=624235&amp;clcid=0x409).
   
 For more information, see [Plan for hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
   
@@ -221,9 +221,9 @@ With this new capability, you can:
     
 Information on configuring and using this feature is documented in SharePoint Online and Office 365. For more information, see:
   
-- [Search for sensitive content in SharePoint and OneDrive documents](http://go.microsoft.com/fwlink/p/?LinkID=620221&amp;clcid=0x4809)
+- [Search for sensitive content in SharePoint and OneDrive documents](https://go.microsoft.com/fwlink/p/?LinkID=620221&amp;clcid=0x4809)
     
-- [Use DLP in SharePoint Online to identify sensitive data stored on sites](http://go.microsoft.com/fwlink/p/?LinkID=620288&amp;clcid=0x4809)
+- [Use DLP in SharePoint Online to identify sensitive data stored on sites](https://go.microsoft.com/fwlink/p/?LinkID=620288&amp;clcid=0x4809)
     
 ### Image and video previews
 <a name="preview"> </a>
@@ -233,7 +233,7 @@ In SharePoint Server 2016 when you post images and videos to a document library,
 ### Information Rights Management
 <a name="InfoRights"> </a>
 
-For more information, see [Secure and sync with Information Rights Management on OneDrive for Business](http://go.microsoft.com/fwlink/p/?LinkID=620223&amp;clcid=0x4809) and [Apply Information Rights Management to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
+For more information, see [Secure and sync with Information Rights Management on OneDrive for Business](https://go.microsoft.com/fwlink/p/?LinkID=620223&amp;clcid=0x4809) and [Apply Information Rights Management to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
   
 ### Large file support
 <a name="largefile"> </a>
@@ -266,12 +266,12 @@ When you use a mobile device to access the home page for a SharePoint Server 201
 ### New controls for working with OneDrive for Business
 <a name="newcontrols"> </a>
 
-You can click a control to create new Office documents, upload files, synchronize your files for offline use, and share your files. For more information, see "Simple controls" on [The OneDrive Blog](http://go.microsoft.com/fwlink/?LinkID=620285&amp;clcid=0x4809).
+You can click a control to create new Office documents, upload files, synchronize your files for offline use, and share your files. For more information, see "Simple controls" on [The OneDrive Blog](https://go.microsoft.com/fwlink/?LinkID=620285&amp;clcid=0x4809).
   
 ### Open Document Format (ODF) available for document libraries
 <a name="ODF"> </a>
 
-The Open Document Format (ODF) enables you to create new files in a document library and save as ODF files so that users can edit the new file with a program they choose. For more information, see [Set Open Document Format (ODF) as the default file template for a library](http://go.microsoft.com/fwlink/?LinkID=620286&amp;clcid=0x4809).
+The Open Document Format (ODF) enables you to create new files in a document library and save as ODF files so that users can edit the new file with a program they choose. For more information, see [Set Open Document Format (ODF) as the default file template for a library](https://go.microsoft.com/fwlink/?LinkID=620286&amp;clcid=0x4809).
   
 ### Project Server 2016
 <a name="project"> </a>
@@ -289,7 +289,7 @@ Project Server 2016 for SharePoint Server 2016 has many new capabilities and fea
 For more information, see [What's new for IT pros in Project Server 2016 Preview](/project/what-s-new-for-it-pros-in-project-server-2016).
   
 > [!IMPORTANT]
-> Project Server 2016 is installed with SharePoint Server 2016 Enterprise, though is licensed separately. For more information about Project Server licensing, see [Licensing Project](http://go.microsoft.com/fwlink/p/?LinkID=761107&amp;clcid=0x409). 
+> Project Server 2016 is installed with SharePoint Server 2016 Enterprise, though is licensed separately. For more information about Project Server licensing, see [Licensing Project](https://go.microsoft.com/fwlink/p/?LinkID=761107&amp;clcid=0x409). 
   
 ### Power Pivot add-in and Power View are now available to use with SharePoint Server 2016
 <a name="BI"> </a>
@@ -314,7 +314,7 @@ The following SharePoint Server 2016 business intelligence features are availabl
     
 - Report Alerting
     
-For more information, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](http://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](http://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409).
+For more information, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409).
   
 ### Request Manager service improvements
 <a name="BI"> </a>
@@ -414,7 +414,7 @@ sharepoint@contoso.com
 ### Site folders view
 <a name="folders"> </a>
 
-For more information, see "Site folders" in [The OneDrive Blog](http://go.microsoft.com/fwlink/?LinkID=620285&amp;clcid=0x4809).
+For more information, see "Site folders" in [The OneDrive Blog](https://go.microsoft.com/fwlink/?LinkID=620285&amp;clcid=0x4809).
   
 ### Sites page pinning
 <a name="pin"> </a>

@@ -114,5 +114,5 @@ These instructions assume that you have installed SQL Server Management Studio o
 [Migrate content into or out of RBS in SharePoint Server](migrate-content-into-or-out-of-rbs.md)
 #### Other Resources
 
-[Install and configure RBS with SharePoint 2013 and SQL Server 2012](http://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
+[Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
 

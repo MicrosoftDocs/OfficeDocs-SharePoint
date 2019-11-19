@@ -330,7 +330,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft Silverlight 3](https://go.microsoft.com/fwlink/p/?LinkId=166506)
     
-- [Exchange Web Services Managed API, version 1.2](http://go.microsoft.com/fwlink/p/?linkid=238668)
+- [Exchange Web Services Managed API, version 1.2](https://go.microsoft.com/fwlink/p/?linkid=238668)
     
 - Microsoft SQL Server 2012 Native Client 64-bit edition - [ENU\x64\sqlncli.MSI](https://go.microsoft.com/fwlink/p/?LinkId=239568)
     
@@ -340,7 +340,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - Microsoft System CLR Types for Microsoft SQL Server 2012 64-bit edition - [SQLSysClrTypes.msi](https://go.microsoft.com/fwlink/p/?LinkId=239644)
     
-- Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition, which is also a component of SQL Server 2012 with Service Pack 1 (SP1) Express - [ENU\x64\SqlLocalDB.msi](http://go.microsoft.com/fwlink/p/?LinkId=262352)
+- Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition, which is also a component of SQL Server 2012 with Service Pack 1 (SP1) Express - [ENU\x64\SqlLocalDB.msi](https://go.microsoft.com/fwlink/p/?LinkId=262352)
     
 - [Microsoft SQL Server 2014](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017)
     

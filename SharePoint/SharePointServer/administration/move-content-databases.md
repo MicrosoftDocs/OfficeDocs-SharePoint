@@ -42,10 +42,10 @@ Before you begin this operation, moving a content database, review the following
 4. Detach the content database from the current SQL Server instance.
     
     > [!IMPORTANT]
-    > To move the content database file within the same instance SQL Server we recommend that you use the **FILENAME** clause of the **ALTER DATABASE** statement. For more information, see [Move User Databases](http://go.microsoft.com/fwlink/p/?LinkID=717306&amp;clcid=0x409). 
+    > To move the content database file within the same instance SQL Server we recommend that you use the **FILENAME** clause of the **ALTER DATABASE** statement. For more information, see [Move User Databases](https://go.microsoft.com/fwlink/p/?LinkID=717306&amp;clcid=0x409). 
   
     > [!IMPORTANT]
-    > To move a content database to another instance of SQL Server or to another server, we recommend that you use procedures found in [Database Detach and Attach (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717308&amp;clcid=0x409) or [Back Up and Restore of SQL Server Databases](http://go.microsoft.com/fwlink/p/?LinkID=717309&amp;clcid=0x409). 
+    > To move a content database to another instance of SQL Server or to another server, we recommend that you use procedures found in [Database Detach and Attach (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717308&amp;clcid=0x409) or [Back Up and Restore of SQL Server Databases](https://go.microsoft.com/fwlink/p/?LinkID=717309&amp;clcid=0x409). 
   
 5. Copy or move the content database .mdf, .ndf, and .ldf files from the source location to the destination location using File Explorer.
     
@@ -282,7 +282,7 @@ For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-
     
   -  _\<c:\timerjobfile.txt\>_ is the location of the file that you are creating that lists all timer jobs associated with the Web application. 
     
-For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps), [Out-File](http://go.microsoft.com/fwlink/p/?LinkID=717317&amp;clcid=0x409), [ForEach-Object](http://go.microsoft.com/fwlink/p/?LinkID=717315&amp;clcid=0x409), [Get-Content](http://go.microsoft.com/fwlink/p/?LinkID=717318&amp;clcid=0x409), and [Disable-SPTimerJob](/powershell/module/sharepoint-server/Disable-SPTimerJob?view=sharepoint-ps).
+For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps), [Out-File](https://go.microsoft.com/fwlink/p/?LinkID=717317&amp;clcid=0x409), [ForEach-Object](https://go.microsoft.com/fwlink/p/?LinkID=717315&amp;clcid=0x409), [Get-Content](https://go.microsoft.com/fwlink/p/?LinkID=717318&amp;clcid=0x409), and [Disable-SPTimerJob](/powershell/module/sharepoint-server/Disable-SPTimerJob?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -419,7 +419,7 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
 
     Where:  _\<c:\timerjobfile.txt\>_ is the location of the file that you created that lists all of the timer jobs associated with the Web application. 
     
-     For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps), [ForEach-Object](http://go.microsoft.com/fwlink/p/?LinkID=717315&amp;clcid=0x409), [Get-Content](http://go.microsoft.com/fwlink/p/?LinkID=717318&amp;clcid=0x409), and [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps).
+     For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps), [ForEach-Object](https://go.microsoft.com/fwlink/p/?LinkID=717315&amp;clcid=0x409), [Get-Content](https://go.microsoft.com/fwlink/p/?LinkID=717318&amp;clcid=0x409), and [Enable-SPTimerJob](/powershell/module/sharepoint-server/Enable-SPTimerJob?view=sharepoint-ps).
     
     > [!NOTE]
     > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

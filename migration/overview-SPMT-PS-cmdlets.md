@@ -65,7 +65,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
  
 ## Before you begin
 
-1. Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See [Office 365 integration with on-premises environments](http://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](http://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information.
+1. Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See [Office 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information.
 2.  Open the folder: </br>    *$env:UserProfile\Documents\WindowsPowerShell\Modules\Microsoft.SharePoint.MigrationTool.PowerShell*  </br>Make sure you have DLLs inside of it.
 3. From this location, run the the following PowerShell command</br></br>
     ```powershell

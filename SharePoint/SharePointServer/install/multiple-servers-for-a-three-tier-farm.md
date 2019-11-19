@@ -72,7 +72,7 @@ Before you begin to install and configure SharePoint 2013, do the following:
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](http://go.microsoft.com/fwlink/p/?LinkId=780865&amp;clcid=0x409)and [Degree of Parallelism](http://go.microsoft.com/fwlink/p/?LinkId=780866&amp;clcid=0x409).
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkId=780865&amp;clcid=0x409)and [Degree of Parallelism](https://go.microsoft.com/fwlink/p/?LinkId=780866&amp;clcid=0x409).
     
 > [!NOTE]
 > If your computer is in a Workgroup, you cannot install AppFabric for Windows Server. 
@@ -90,7 +90,7 @@ Ensure that SQL Server is updated to the required level and the TCP/IP protocol 
   
 Organizations whose database administrators operate independently from SharePoint administrators will have to make sure that the correct version of SQL Server is available and updated to the required level. In addition, you will have to request a DBA-created database . 
   
-For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md), and [Databases that support SharePoint 2013](http://download.microsoft.com/download/D/2/A/D2AE15B9-6F47-4328-878D-276F851C9E06/itpro-2013-db-poster.pdf).
+For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md), and [Databases that support SharePoint 2013](https://download.microsoft.com/download/D/2/A/D2AE15B9-6F47-4328-878D-276F851C9E06/itpro-2013-db-poster.pdf).
   
 Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallism Server Configuration option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017) and [Degree of Parallelism](/previous-versions/sql/sql-server-2008-r2/ms188611(v=sql.105)).
   
@@ -128,7 +128,7 @@ Use the following procedure to install prerequisites on each server in the farm.
   - [KB 2554876](
                     https://go.microsoft.com/fwlink/p/?LinkId=254221)
     
-  - [KB 2708075](http://go.microsoft.com/fwlink/p/?LinkID=254222)
+  - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
     
   - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
     

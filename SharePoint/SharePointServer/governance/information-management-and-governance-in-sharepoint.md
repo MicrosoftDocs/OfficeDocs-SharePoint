@@ -59,7 +59,7 @@ Questions to ask when you design a site or solution:
 |How will content be tagged and how will metadata be managed?  <br/> |[Plan for managed metadata in SharePoint Server](managed-metadata-planning.md) <br/> |
 |Does any of the content on the sites have unique security needs?  <br/> |[Permissions planning for sites and content in SharePoint Server](../sites/permissions-planning-for-sites-and-content.md) <br/> |
 |What is the authoritative source for terms?  <br/> |[Plan terms and term sets in SharePoint Server 2013](/previous-versions/office/sharepoint-server-2010/ee519604(v=office.14)) <br/> |
-|How will information be targeted at specific audiences?  <br/> |[Audience and content targeting planning (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkId=330811) <br/> |
+|How will information be targeted at specific audiences?  <br/> |[Audience and content targeting planning (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=330811) <br/> |
 |Do you need to have language-specific or product-specific versions of your sites?  <br/> |[Variations overview in SharePoint Server](../administration/variations-overview.md) <br/> |
 |Who will write content for the site and what method will you use to publish it?  <br/> |[Overview of publishing to Internet, intranet, and extranet sites in SharePoint Server](../administration/overview-of-publishing-to-internet-intranet-and-extranet-sites.md) <br/> |
    
@@ -73,8 +73,8 @@ Be sure to consider access to content when you design your solution and sites. T
 |**Question**|**More information**|
 |:-----|:-----|
 |How do I structure permission in a site?  <br/> |[Overview of site permissions in SharePoint 2013](/sharepoint/plan-your-permissions-strategy) <br/> |
-|How do I target content to a specific audience?  <br/> |[Audience and content targeting planning (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkID=330811) <br/> |
-|Should I use Information Rights Management (IRM) to protect content?  <br/> |[Plan Information Rights Management (SharePoint Server 2010)](http://go.microsoft.com/fwlink/?LinkId=330814) <br/> |
+|How do I target content to a specific audience?  <br/> |[Audience and content targeting planning (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkID=330811) <br/> |
+|Should I use Information Rights Management (IRM) to protect content?  <br/> |[Plan Information Rights Management (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=330814) <br/> |
    
 **IT governance: access**
 
@@ -93,9 +93,9 @@ Govern your information by using tools for information management, including:
 |Use workflows and approvals for Document Centers and site pages—wherever official documentation is stored.  <br/> |[Plan content types and workflows in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262735(v=office.14)) <br/> |
 |Use approval for published websites to control pages.  <br/> |[Plan for Internet, intranet, and extranet publishing sites in SharePoint Server](../administration/plan-for-internet-intranet-and-extranet-publishing-sites.md) and [Plan content types and workflows in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262735(v=office.14)) <br/> |
 |Use version history and version control to maintain a history and master document.  <br/> |[Plan document versioning, content approval, and check-out controls in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262378(v=office.14)) <br/> |
-|Manage libraries by using the Content Organizer.  <br/> |[Configure the Content Organizer to route documents](http://go.microsoft.com/fwlink/?LinkId=330815) <br/> |
+|Manage libraries by using the Content Organizer.  <br/> |[Configure the Content Organizer to route documents](https://go.microsoft.com/fwlink/?LinkId=330815) <br/> |
 |Use site policies to manage site collection life cycles.  <br/> |[Overview of site policies in SharePoint Server](../sites/site-policy-overview.md) <br/> |
-|Use Information Rights Management and auditing to secure and audit important corporate assets and any sites that contain sensitive information.  <br/> |[Apply Information Rights Management to a list or library](http://go.microsoft.com/fwlink/?LinkID=330818) and [Configure audit settings for a site collection](http://go.microsoft.com/fwlink/?LinkId=330817) <br/> |
+|Use Information Rights Management and auditing to secure and audit important corporate assets and any sites that contain sensitive information.  <br/> |[Apply Information Rights Management to a list or library](https://go.microsoft.com/fwlink/?LinkID=330818) and [Configure audit settings for a site collection](https://go.microsoft.com/fwlink/?LinkId=330817) <br/> |
    
 Determine the rules or policies that you need for the following types of items: pages, lists, documents, [records](records-management-in-sharepoint-server.md), rich [assets](../sites/managing-digital-assets-overview.md), blogs and wikis, [feeds](/sharepoint/administration/administration), anonymous comments, anonymous access, [terms and term sets](/previous-versions/office/sharepoint-server-2010/ee519604(v=office.14)), and external data ([Business Connectivity Services](../administration/business-connectivity-services-overview.md)).
   
@@ -135,8 +135,8 @@ The following table presents resources that are available to help information ar
 |Search  <br/> |[Plan search in SharePoint Server](../search/search-planning.md) <br/> |
 |Content expiration  <br/> |[Plan for information management policy in SharePoint Server](information-management-policy-planning.md) <br/> |
 |Publishing and managing pages  <br/> |[Plan for Internet, intranet, and extranet publishing sites in SharePoint Server](../administration/plan-for-internet-intranet-and-extranet-publishing-sites.md) <br/> |
-|Templates  <br/> |[Site Types: WebTemplates and Site Definitions](http://go.microsoft.com/fwlink/p/?LinkID=119099) <br/> |
-|Content approval  <br/> |[Plan document versioning, content approval, and check-out controls in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262378(v=office.14)) <br/> [Plan content approval and scheduling](http://go.microsoft.com/fwlink/?LinkId=403884) <br/> |
+|Templates  <br/> |[Site Types: WebTemplates and Site Definitions](https://go.microsoft.com/fwlink/p/?LinkID=119099) <br/> |
+|Content approval  <br/> |[Plan document versioning, content approval, and check-out controls in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262378(v=office.14)) <br/> [Plan content approval and scheduling](https://go.microsoft.com/fwlink/?LinkId=403884) <br/> |
 |Information management policies  <br/> |[Plan for information management policy in SharePoint Server](information-management-policy-planning.md) <br/> |
 |Social computing  <br/> |[Plan for My Sites in SharePoint Server](../install/my-sites-planning.md) <br/> [Plan for OneDrive for Business in SharePoint Server](../sites/onedrive-for-business-planning.md) <br/> |
    
