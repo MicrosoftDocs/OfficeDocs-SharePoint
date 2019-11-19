@@ -190,7 +190,7 @@ Cloud hybrid search service application works in an environment that has multipl
 
 - [Topologies for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 
-- [Implement-support-for-multiple-forests](https://support.office.com/article/Implement-support-for-multiple-forests-73c4a525-f6c4-434c-8409-0121a83ab26b)
+- [Implement-support-for-multiple-forests](https://support.office.com/article/73c4a525-f6c4-434c-8409-0121a83ab26b)
 
 ***When Cloud hybrid search service application crawls on-premises content, do crawled properties from SharePoint on-premises propagate to SharePoint Online?***
 

@@ -85,7 +85,7 @@ In order for Office 365 to send requests to the external endpoint of your revers
     
 If you don't yet have a public domain that you want to use for this purpose (such as adventureworks.com), get one now, and then create this A record. If you already took care of this during the planning phase, the name of your public domain and the IP address that you need to create this A Record are recorded in Table 3 of the worksheet.
   
-You have to complete the steps in the [Connect your domain to Office 365](https://support.office.com/article/connect-your-domain-to-office-365-cd74b4fa-6d34-4669-9937-ed178ac84515) article to add the host name of your public domain to Office 365. 
+You have to complete the steps in the [Connect your domain to Office 365](https://support.office.com/article/cd74b4fa-6d34-4669-9937-ed178ac84515) article to add the host name of your public domain to Office 365.
   
 ## Configure SharePoint Server
 <a name="configureSPServer"> </a>
