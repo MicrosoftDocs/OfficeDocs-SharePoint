@@ -43,7 +43,7 @@ description: "The articles in this section help you operate and maintain servers
     
 ## Downloadable resources about operations and maintenance in SharePoint Server
 
-Download the [System Center Management Pack](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) for SharePoint Server. 
+Download the [System Center Management Pack](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) for SharePoint Server. 
   
 ## See also
 

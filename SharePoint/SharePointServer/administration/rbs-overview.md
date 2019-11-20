@@ -61,7 +61,7 @@ RBS is composed of the following components:
     
     An RBS provider consists of a managed library and, optionally, a set of native libraries that communicate with the BLOB store.
     
-    An example of an RBS provider is the SQL FILESTREAM provider. The SQL FILESTREAM provider is an add-in feature of SQL Server 2014 Service Pack 1 (SP1) that enables storage of and efficient access to BLOB data by using a combination of SQL Server 2014 (SP1) and the NTFS file system. For more information about FILESTREAM, see [FILESTREAM (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717991&amp;clcid=0x409) For information about how to enable and configure FILESTREAM, see [Enable and Configure FILESTREAM](http://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409).
+    An example of an RBS provider is the SQL FILESTREAM provider. The SQL FILESTREAM provider is an add-in feature of SQL Server 2014 Service Pack 1 (SP1) that enables storage of and efficient access to BLOB data by using a combination of SQL Server 2014 (SP1) and the NTFS file system. For more information about FILESTREAM, see [FILESTREAM (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717991&amp;clcid=0x409) For information about how to enable and configure FILESTREAM, see [Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409).
     
 - **BLOB store**
     
@@ -98,9 +98,9 @@ SharePoint 2013 supports the FILESTREAM provider that is included in the SQL Ser
   
 - [Microsoft SQL Server 2008 R2 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=177388)
     
-- [Microsoft SQL Server 2012 Feature Pack](https://www.microsoft.com/en-us/download/details.aspx?id=29065)
+- [Microsoft SQL Server 2012 Feature Pack](https://www.microsoft.com/download/details.aspx?id=29065)
     
-- [Microsoft SQL Server 2014 Feature Pack](https://www.microsoft.com/en-us/download/details.aspx?id=42295)
+- [Microsoft SQL Server 2014 Feature Pack](https://www.microsoft.com/download/details.aspx?id=42295)
     
 Be aware that SQL Server Remote BLOB Store installation package for SQL Server 2014 is the only version of RBS that is supported by SharePoint Server 2016. SQL Server Remote BLOB Store installation package from the Feature Pack for SQL Server 2008 R2 and later are the only versions of RBS that are supported by SharePoint 2013. Earlier versions are not supported. Third-party RBS providers can also be used with the RBS APIs to create a BLOB storage solution that is compatible with SharePoint Server.
   
@@ -129,11 +129,11 @@ The FILESTREAM provider that is recommended for upgrading from stand-alone insta
 
 #### Other Resources
 
-[Binary Large Object (Blob) Data (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=733604&amp;clcid=0x409)
+[Binary Large Object (Blob) Data (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=733604&amp;clcid=0x409)
   
-[FILESTREAM (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717991&amp;clcid=0x409)
+[FILESTREAM (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717991&amp;clcid=0x409)
   
-[Remote BLOB Store Provider Library Implementation Specification](http://go.microsoft.com/fwlink/p/?LinkID=166066&amp;clcid=0x409)
+[Remote BLOB Store Provider Library Implementation Specification](https://go.microsoft.com/fwlink/p/?LinkID=166066&amp;clcid=0x409)
   
-[Install and configure RBS with SharePoint 2013 and SQL Server 2012](http://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
+[Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
 

@@ -248,7 +248,7 @@ The following procedure describes how to create and run a PowerShell script for 
   ./SuggestedFileName.ps1
   ```
 
-For more information, see [Export-Clixml](http://go.microsoft.com/fwlink/p/?LinkID=733400&amp;clcid=0x409), [Get-SPWebApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps), [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps).
+For more information, see [Export-Clixml](https://go.microsoft.com/fwlink/p/?LinkID=733400&amp;clcid=0x409), [Get-SPWebApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps), [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -350,9 +350,9 @@ Import-Clixml .\Get-SPAlternateURL.xml | %{$_.Uri | Get-Member}
 
 #### Other Resources
 
-[Export-Clixml](http://go.microsoft.com/fwlink/p/?LinkID=733400&amp;clcid=0x409)
+[Export-Clixml](https://go.microsoft.com/fwlink/p/?LinkID=733400&amp;clcid=0x409)
   
-[Import-Clixml](http://go.microsoft.com/fwlink/p/?LinkID=733402&amp;clcid=0x409)
+[Import-Clixml](https://go.microsoft.com/fwlink/p/?LinkID=733402&amp;clcid=0x409)
   
 [Get-SPAlternateURL](/powershell/module/sharepoint-server/Get-SPAlternateURL?view=sharepoint-ps)
   

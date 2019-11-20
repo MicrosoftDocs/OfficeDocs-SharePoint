@@ -190,7 +190,7 @@ Cloud hybrid search service application works in an environment that has multipl
 
 - [Topologies for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 
-- [Implement-support-for-multiple-forests](https://support.office.com/article/Implement-support-for-multiple-forests-73c4a525-f6c4-434c-8409-0121a83ab26b)
+- [Implement-support-for-multiple-forests](https://support.office.com/article/73c4a525-f6c4-434c-8409-0121a83ab26b)
 
 ***When Cloud hybrid search service application crawls on-premises content, do crawled properties from SharePoint on-premises propagate to SharePoint Online?***
 
@@ -378,7 +378,7 @@ If there are dedicated Search servers in the farm topology they should be able t
 
 ***Where can I download Cloud hybrid search service application onboarding script?***
 
-The latest version of Windows PowerShell scripts to configure Cloud hybrid search for SharePoint can be downloaded [here](https://www.microsoft.com/en-us/download/details.aspx?id=51490&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True).
+The latest version of Windows PowerShell scripts to configure Cloud hybrid search for SharePoint can be downloaded [here](https://www.microsoft.com/download/details.aspx?id=51490&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True).
 
 ***Is Cloud hybrid search service application onboarding supported for Government community cloud (GCC) & Office 365 operated by 21Vianet.***
 

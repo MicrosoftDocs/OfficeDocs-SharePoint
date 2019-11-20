@@ -305,12 +305,12 @@ When we turned off the Anonymous Search Results Cache in our test environment th
   
 By default, Content Search Web Parts are configured to use the Anonymous Search Results Cache. Catalog-Item Reuse Web Parts, which are used on catalog item pages, are not configured to use it due to the sparse access patterns these pages generally exhibit.
   
-To configure the caching behavior for an individual Web Part to use (or not use) the Anonymous Search Results Cache, set the value of the sub-property "TryCache" in the  `DataProviderJSON` property of the Web Part. If the value is "true", the query uses the cache. If the value is "false", the query does not use the cache for Anonymous search queries. 
+To configure the caching behavior for an individual Web Part to use (or not use) the Anonymous Search Results Cache, set the value of the sub-property "TryCache" in the  `DataProviderJSON` property of the Web Part. If the value is "true", the query uses the cache. If the value is "false", the query does not use the cache for Anonymous search queries.
   
 #### Effect of output cache
 <a name="anon"> </a>
 
-Output caching is an effective way to reduce the load on SharePoint Server 2013 in publishing scenarios. For more details about how Output Cache works in this article, see [Output Caching and Cache Profiles](https://msdn.microsoft.com/en-us/library/aa661294.aspx).
+Output caching is an effective way to reduce the load on SharePoint Server 2013 in publishing scenarios. For more details about how Output Cache works in this article, see [Output Caching and Cache Profiles](https://msdn.microsoft.com/library/aa661294.aspx).
   
 A SharePoint deployment may benefit from Output Caching to reduce the load on SharePoint content databases and the search service application. Here are some example situations:
   

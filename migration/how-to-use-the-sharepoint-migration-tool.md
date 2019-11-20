@@ -23,7 +23,7 @@ The SharePoint Migration Tool (SPMT) is a tool that migrates your files from Sha
   
 
 >[!NOTE]
->To install the current release download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+>To install the current release download here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm).
 
   
 ## Before you begin
@@ -83,7 +83,7 @@ Before you start using the SharePoint Migration Tool (SPMT), note where your dat
     
 ## Using the SharePoint Migration tool
 
-To install the current release download here: [SharePoint Migration Tool Version 2](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+To install the current release download here: [SharePoint Migration Tool Version 2](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
  **Migrating data files from SharePoint Server document libraries**
   

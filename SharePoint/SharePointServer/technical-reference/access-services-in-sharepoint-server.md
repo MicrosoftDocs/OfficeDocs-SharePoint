@@ -24,13 +24,13 @@ Learn how to resolve alerts about Access Services in the SharePoint Servers 2019
 The articles in this section are knowledge articles for Access Services in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Access Services in SharePoint Server.
 
 > [!NOTE]
->  Access Services 2010 and 2013 are deprecated but will remain supported for SharePoint Server 2019. We recommend to explore Microsoft [PowerApps](https://powerapps.microsoft.com/) and [Flows](http://flow.microsoft.com/) as potential alternatives to Access Services 2010 and 2013.
+>  Access Services 2010 and 2013 are deprecated but will remain supported for SharePoint Server 2019. We recommend to explore Microsoft [PowerApps](https://powerapps.microsoft.com/) and [Flows](https://flow.microsoft.com/) as potential alternatives to Access Services 2010 and 2013.
 
 Download and install:
 
-- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57776)
 
-- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+- [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
 
 - [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
 
@@ -380,9 +380,9 @@ One or more of the following might be the cause:
   
 #### Other Resources
 
-[System Center Monitoring Pack for SharePoint Foundation](http://go.microsoft.com/fwlink/p/?LinkId=272567)
+[System Center Monitoring Pack for SharePoint Foundation](https://go.microsoft.com/fwlink/p/?LinkId=272567)
   
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
-[System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
+[System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
 

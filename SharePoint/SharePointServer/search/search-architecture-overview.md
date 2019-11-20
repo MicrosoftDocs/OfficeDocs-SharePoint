@@ -20,13 +20,13 @@ description: "Learn about SharePoint Server search architecture, SharePoint Serv
   
 The search architecture contains search components and databases. How you structure the search architecture depends on where you intend to use search: for the enterprise or for Internet sites. When building the search architecture, you should take into account considerations such as high availability and fault tolerance, the volume of your content and the estimated amount of page views and queries per second.
   
-For information about search topologies for different use cases: see the technical diagrams [Enterprise search architectures for SharePoint Server 2016](https://www.microsoft.com/en-us/download/54292) and [Internet sites search architectures for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=54296).
+For information about search topologies for different use cases: see the technical diagrams [Enterprise search architectures for SharePoint Server 2016](https://www.microsoft.com/download/54292) and [Internet sites search architectures for SharePoint Server 2016](https://www.microsoft.com/download/details.aspx?id=54296).
   
     
 ## Overview of search components and search databases
 <a name="OverviewSearchComponents"> </a>
 
-The following tables show an overview of all the available search components and search databases. For more information about how search components and databases interact, see the [Search architectures for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=54295) technical diagram. 
+The following tables show an overview of all the available search components and search databases. For more information about how search components and databases interact, see the [Search architectures for SharePoint Server 2016](https://www.microsoft.com/download/details.aspx?id=54295) technical diagram. 
   
 **Search components**
 

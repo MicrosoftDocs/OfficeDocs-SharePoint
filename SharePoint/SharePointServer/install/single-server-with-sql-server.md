@@ -44,7 +44,7 @@ Before you begin to install and configure SharePoint 2013, do the following:
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](http://go.microsoft.com/fwlink/p/?LinkId=780865&amp;clcid=0x409)and [Degree of Parallelism](http://go.microsoft.com/fwlink/p/?LinkId=780866&amp;clcid=0x409).
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkId=780865&amp;clcid=0x409)and [Degree of Parallelism](https://go.microsoft.com/fwlink/p/?LinkId=780866&amp;clcid=0x409).
     
 > [!NOTE]
 > The Distributed Cache service gives you a complete social computing experience. For more information about the Distributed Cache service, see [Overview of microblog features, feeds, and the Distributed Cache service in SharePoint Server](/sharepoint/administration/administration), [Manage the Distributed Cache service in SharePoint Server](../administration/manage-the-distributed-cache-service.md), [Plan for feeds and the Distributed Cache service in SharePoint Server](../administration/plan-for-feeds-and-the-distributed-cache-service.md), and [What's new in authentication for SharePoint Server 2013](/SharePoint/what-s-new/new-and-improved-features-in-sharepoint-server-2016)
@@ -93,7 +93,7 @@ Because the prerequisite installer downloads components from the Microsoft Downl
   - [KB 2554876](
                         https://go.microsoft.com/fwlink/p/?LinkId=254221)
     
-  - [KB 2708075](http://go.microsoft.com/fwlink/p/?LinkID=254222)
+  - [KB 2708075](https://go.microsoft.com/fwlink/p/?LinkID=254222)
     
   - [KB 2759112](https://go.microsoft.com/fwlink/p/?LinkId=267536)
     

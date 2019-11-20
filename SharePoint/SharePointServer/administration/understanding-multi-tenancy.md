@@ -521,7 +521,7 @@ The Microsoft PowerShell scripts contained in the following sub-sections are bas
   
 - http://www.harbar.net/articles/sp2013mt.aspx
     
-- http://gallery.technet.microsoft.com/scriptcenter
+- https://gallery.technet.microsoft.com/scriptcenter
     
 The PowerShell scripts provided include variables, which should be modified to suit your environment.
   
@@ -1255,11 +1255,11 @@ The following feature definition shows how to add a new group, several links, an
 
 ```
 
-For additional information about custom actions, such as the default IDs for built-in links, see [Custom Action Definition Schema](https://msdn.microsoft.com/en-us/library/ms465980%28v=office.14%29.aspx).
+For additional information about custom actions, such as the default IDs for built-in links, see [Custom Action Definition Schema](https://msdn.microsoft.com/library/ms465980%28v=office.14%29.aspx).
   
 #### Customizing the ribbon
 
-The Server ribbon in SharePoint Server 2013 can be customized by using Server ribbon XML and ECMAScript (JavaScript, JScript). The XML defines the controls on the ribbon. The ECMAScript performs actions on a page or an object on the page. You can use ECMAScript that exists in the SharePoint **FoundationECMAScript** object model or built-in ECMAScript functions. You can also add your own ECMAScript to the page and use it to interact with the ribbon. 
+The Server ribbon in SharePoint Server 2013 can be customized by using Server ribbon XML and ECMAScript (JavaScript, JScript). The XML defines the controls on the ribbon. The ECMAScript performs actions on a page or an object on the page. You can use ECMAScript that exists in the SharePoint **FoundationECMAScript** object model or built-in ECMAScript functions. You can also add your own ECMAScript to the page and use it to interact with the ribbon.
   
 When customizing the Server ribbon, you can add, replace, and remove controls, groups, and tabs. Customizations to the ribbon are defined by using Server ribbon XML in a feature and can be deployed in a solution package (.wsp file). Ribbon customizations can be scoped to a particular list type by using the **RegistrationId** and **RegistrationType** attributes. Customizations can also be scoped to a site or to a particular web application by using the **Scope** attribute in the Feature.xml file. 
   
@@ -1306,7 +1306,7 @@ The following XML shows how to replace the functionality of the **Disk Quota** b
 
 ```
 
-For additional information about how to customize the Server ribbon, see [Customizing the Server Ribbon](http://msdn.microsoft.com/en-us/library/ee539395%28office.14%29.aspx).
+For additional information about how to customize the Server ribbon, see [Customizing the Server Ribbon](https://msdn.microsoft.com/library/ee539395%28office.14%29.aspx).
   
 #### Extending a site subscription using custom properties
 

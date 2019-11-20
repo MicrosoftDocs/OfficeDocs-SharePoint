@@ -21,13 +21,13 @@ description: "Learn how to resolve alerts about the Machine Translation service 
 
 Learn how to resolve alerts about the Machine Translation service in the SharePoint Servers 2019, 2016, and 2013 management pack for Systems Center Operations Manager (SCOM).
   
-The articles in this section are knowledge articles for the Machine Translation service in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems that involve the Machine Translation service. 
+The articles in this section are knowledge articles for the Machine Translation service in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems that involve the Machine Translation service.
 
 Download and install:
 
-- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57776)
 
-- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+- [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
 
 - [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
 
@@ -366,9 +366,9 @@ Resolution 5: Create a new Machine Translation Service application
   
 #### Other Resources
 
-[System Center Monitoring Pack for SharePoint Foundation](http://go.microsoft.com/fwlink/p/?LinkId=272567)
+[System Center Monitoring Pack for SharePoint Foundation](https://go.microsoft.com/fwlink/p/?LinkId=272567)
   
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
-[System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
+[System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
 

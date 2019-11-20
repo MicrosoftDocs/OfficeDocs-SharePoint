@@ -29,7 +29,7 @@ This article lists the minimum requirements and gives guidance about how and whe
   
 For examples of topologies, see the technical diagram [Internet sites search architectures for SharePoint Server 2016](https://docs.com/officeitpro/2341/internet-sites-search-architectures-for-sharepoint).
   
-For an overview and a description of search components and the overall search architecture, see [Overview of search architecture in SharePoint Server](search-architecture-overview.md) and the technical diagram [Search architectures for SharePoint Server 2016](http://download.microsoft.com/download/2/0/8/2081E053-4E56-4B87-87A4-9380D042B95D/SP_2016_Search_Architecture_Model.pdf).
+For an overview and a description of search components and the overall search architecture, see [Overview of search architecture in SharePoint Server](search-architecture-overview.md) and the technical diagram [Search architectures for SharePoint Server 2016](https://download.microsoft.com/download/2/0/8/2081E053-4E56-4B87-87A4-9380D042B95D/SP_2016_Search_Architecture_Model.pdf).
   
 ## Hardware requirements for search topologies for Internet sites
 <a name="HW_FIS"> </a>

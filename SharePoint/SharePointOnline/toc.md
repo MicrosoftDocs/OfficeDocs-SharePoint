@@ -7,6 +7,7 @@
 ### [Creating and launching a healthy SharePoint portal](portal-health.md)
 ## [Guide to the modern experience]()
 ### [Overview](guide-to-sharepoint-modern-experience.md)
+### [Add a sample site to your tenant](add-sample-site.md)
 ### [Information architecture](information-architecture-modern-experience.md)
 ### [Navigation](plan-navigation-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)

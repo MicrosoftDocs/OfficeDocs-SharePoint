@@ -32,14 +32,14 @@ Any file modified by the SharePoint System Account is excluded from the scan rep
   
 For more information on customized files and how to reset a file back to the default, read the following article:
   
-- [Customize a SharePoint page by using remote provisioning and CSS](https://msdn.microsoft.com/en-us/pnp_articles/customize-a-sharepoint-page-by-using-remote-provisioning-and-css)
+- [Customize a SharePoint page by using remote provisioning and CSS](https://msdn.microsoft.com/pnp_articles/customize-a-sharepoint-page-by-using-remote-provisioning-and-css)
     
 ## Data Migration
 
 Customized files are reverted to their uncustomized state during migration.
   
 > [!IMPORTANT]
-> Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
+> Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output.
   
 ## Preparing for Migration
 

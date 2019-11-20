@@ -186,9 +186,9 @@ Consider the following before you use farm backups:
     
 - SharePoint Server backup and recovery can be run together with SQL Server Enterprise features such as backup compression and transparent data encryption. 
     
-    If you are running SQL Server Enterprise, we recommend that you use backup compression. For more information about backup compression, see [Backup Compression (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717243&amp;clcid=0x409).
+    If you are running SQL Server Enterprise, we recommend that you use backup compression. For more information about backup compression, see [Backup Compression (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717243&amp;clcid=0x409).
     
-    If you decide to run databases with transparent data encryption, you must manually back up the key and restore the key. SharePoint Server backup and restore will not remind you about the key. For more information about transparent data encryption, see [Transparent Data Encryption (TDE)](http://go.microsoft.com/fwlink/p/?LinkID=715778&amp;clcid=0x409). 
+    If you decide to run databases with transparent data encryption, you must manually back up the key and restore the key. SharePoint Server backup and restore will not remind you about the key. For more information about transparent data encryption, see [Transparent Data Encryption (TDE)](https://go.microsoft.com/fwlink/p/?LinkID=715778&amp;clcid=0x409). 
     
 - If a content database is set to use the SQL FILESTREAM remote BLOB storage (RBS) provider, the RBS provider must be installed both on the database server that is being backed up and on the database server to which you recover the backup.
     
@@ -217,7 +217,7 @@ From the granular backup system, you can back up a site collection or export a s
 > [!NOTE]
 > Workflows are not included in exports of sites or lists. 
   
-If you are running SQL Server Enterprise, the granular backup system can optionally use SQL Server database snapshots to make sure that data remains consistent while the backup or export is in progress. After you create a snapshot, SharePoint Server uses it to create the backup or export package, and then deletes the snapshot. Database snapshots are linked to the source database. When the source database is offline, the snapshot is unavailable. For more information about database snapshots, see [Database Snapshots](http://go.microsoft.com/fwlink/p/?LinkID=715786&amp;clcid=0x409).
+If you are running SQL Server Enterprise, the granular backup system can optionally use SQL Server database snapshots to make sure that data remains consistent while the backup or export is in progress. After you create a snapshot, SharePoint Server uses it to create the backup or export package, and then deletes the snapshot. Database snapshots are linked to the source database. When the source database is offline, the snapshot is unavailable. For more information about database snapshots, see [Database Snapshots](https://go.microsoft.com/fwlink/p/?LinkID=715786&amp;clcid=0x409).
   
 Benefits of backing up a site collection by using a snapshot include the following: 
   

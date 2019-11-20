@@ -158,7 +158,7 @@ You cannot back up the whole User Profile service application or service applica
     
 6. In the **Back Up Database** dialog box, confirm the database name. 
     
-7. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
+7. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
     
 8. In the **Backup component** area, click **Database**.
     

@@ -123,7 +123,7 @@ The list of available languages that you can use to create a site collection or 
 > [!NOTE]
 > Every time that a language pack is installed, you must rerun the SharePoint Products Configuration Wizard, which stops and restarts Internet Information Services (IIS), the SharePoint Administration Service, and the SharePoint Timer Service. To minimize interruption of service to your users, you should plan to install all language packs before your sites go live. 
   
-Based on the language requirements of your site collections or sites, determine the language packs that must be installed on every web and application server. In your spreadsheet, for each site, record the list of language packs that you want to make available as alternative languages. For information about which language packs are available, see [Language Packs for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57463), [Language Packs for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=51492) and [Language Packs for SharePoint Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=37140).
+Based on the language requirements of your site collections or sites, determine the language packs that must be installed on every web and application server. In your spreadsheet, for each site, record the list of language packs that you want to make available as alternative languages. For information about which language packs are available, see [Language Packs for SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57463), [Language Packs for SharePoint Server 2016](https://www.microsoft.com/download/details.aspx?id=51492) and [Language Packs for SharePoint Server 2013](https://www.microsoft.com/download/details.aspx?id=37140).
   
 The following table lists when language packs are or are not required:
   
@@ -178,8 +178,8 @@ If you plan to translate content on your variations sites, you must decide wheth
 
 #### Other Resources
 
-[Language Packs for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57463)
+[Language Packs for SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57463)
 
-[Language Packs for SharePoint Server 2016](https://www.microsoft.com/en-us/download/details.aspx?id=51492)
+[Language Packs for SharePoint Server 2016](https://www.microsoft.com/download/details.aspx?id=51492)
   
-[Language Packs for SharePoint Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=37140)
+[Language Packs for SharePoint Server 2013](https://www.microsoft.com/download/details.aspx?id=37140)

@@ -25,7 +25,7 @@ description: ""
 # Upload on-premises content to SharePoint Online using PowerShell cmdlets
 
 > [!NOTE]
->  *January 10, 2018* > The **SharePoint Migration Tool** is now available to help simplify your migration process. This new tool provides a wizard-like experience to guide you through the process of migrating either your SharePoint on-premises document libraries or your on-premises file shares and move them to either SharePoint or OneDrive in Office 365. It is available to all Office 365 users. > To download the tool, go here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>  *January 10, 2018* > The **SharePoint Migration Tool** is now available to help simplify your migration process. This new tool provides a wizard-like experience to guide you through the process of migrating either your SharePoint on-premises document libraries or your on-premises file shares and move them to either SharePoint or OneDrive in Office 365. It is available to all Office 365 users. > To download the tool, go here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 > [!IMPORTANT]
 > Currently the SharePoint Migration Tool is not available for users of Office 365 operated by 21Vianet in China. 
@@ -61,7 +61,7 @@ Here are the steps for using SPO Migration powershell to upload your on-premises
   
 ## Before you begin
 
-- Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See See [Office 365 integration with on-premises environments](http://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](http://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
+- Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See See [Office 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
     
 - Install the SharePoint Online Management Shell and set up your working directory.
     
@@ -72,7 +72,7 @@ The first step is install the SharePoint Online Management shell.
   
 1. Uninstall all previous versions of the SharePoint Online Management Shell.
     
-2. Install from here: [SharePoint Online Management Shell](http://go.microsoft.com/fwlink/?LinkID=617148&amp;clcid=0x409).
+2. Install from here: [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?LinkID=617148&amp;clcid=0x409).
     
 3. Open **SharePoint Online Management Shell** and select **Run as Administrator**.
     
@@ -316,7 +316,7 @@ EncryptionKey                                       EncryptionMethod
 |Package size  <br/> |10-20 GB  <br/> Use -ParallelImport switch for File Share migration which will automatically split the big package into smaller ones.  <br/> |
 |File size  <br/> |2 GB  <br/> |
 |Target size  <br/> |Target site should remain non-accessible to users until migration is complete  <br/> |
-|SharePoint Online limits  <br/> |[SharePoint Online and OneDrive for Business: software boundaries and limits](http://go.microsoft.com/fwlink/?LinkID=616612&amp;clcid=0x409)SharePoint Online: software boundaries and limits  <br/> |
+|SharePoint Online limits  <br/> |[SharePoint Online and OneDrive for Business: software boundaries and limits](https://go.microsoft.com/fwlink/?LinkID=616612&amp;clcid=0x409)SharePoint Online: software boundaries and limits  <br/> |
    
 ## Azure Limits
 <a name="step7monitoring"> </a>

@@ -57,14 +57,14 @@ Follow these steps to update your SharePoint server.
 
 ODBC Driver 11 for SQL Server doesn't support TLS 1.1 or TLS 1.2 by default. You must install the ODBC Driver 11 for SQL Server update for TLS 1.2 support.
   
-- To install ODBC Driver 11 for SQL Server update for TLS 1.2 support, see [Microsoft® ODBC Driver 11 for SQL Server® - Windows](https://www.microsoft.com/en-us/download/details.aspx?id=36434).
+- To install ODBC Driver 11 for SQL Server update for TLS 1.2 support, see [Microsoft® ODBC Driver 11 for SQL Server® - Windows](https://www.microsoft.com/download/details.aspx?id=36434).
     
 ### 1.2 - Install SQL Server 2012 Native Client update for TLS 1.2 support
 <a name="sql2012"> </a>
 
 SQL Server 2012 Native Client doesn't support TLS 1.1 or TLS 1.2 by default. You must install the SQL Server 2012 Native Client update for TLS 1.2 support.
   
-- To install the SQL Server 2012 Native Client update, see [Microsoft® SQL Server® 2012 Native Client - QFE](https://www.microsoft.com/en-us/download/details.aspx?id=50402).
+- To install the SQL Server 2012 Native Client update, see [Microsoft® SQL Server® 2012 Native Client - QFE](https://www.microsoft.com/download/details.aspx?id=50402).
     
 ### 1.3 - Install .NET Framework 3.5 update for TLS 1.1 and TLS 1.2 support
 <a name="NET35x"> </a>

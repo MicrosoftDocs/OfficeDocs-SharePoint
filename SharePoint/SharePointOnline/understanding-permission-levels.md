@@ -20,7 +20,7 @@ f1_keywords:
 - '140326'
 - '101933'
 - '100014'
-ms.prod: sharepoint-online
+ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:
 - Adm_SPO

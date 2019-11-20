@@ -24,7 +24,7 @@ SharePoint Online offers two types of Search Centers: the **Basic** Search Cente
 
 Both Search Centers search the same content and show the same search results. The main difference is that the Enterprise Search Center comes with the search verticals People, Conversations, and Videos. Search verticals are pages that are tailored for displaying search results that are filtered and formatted for a specific content type or class. Search verticals help users move quickly between such different types and classes of content. Also, as a search administrator you have more options for tailoring the look and feel of the Enterprise Search Center.
 
-If your organization needs an enterprise-wide search experience, [evaluate first whether the modern search experience covers your needs](get-started-with-modern-search-experience.md). Modern search also comes with verticals, it doesn't require any set up, and the results are personal. [Learn about the modern search experience for users](https://support.office.com/article/what-s-new-in-search-in-office-365-b81ab573-ec9c-4aa9-a369-b3c630f878a7?). 
+If your organization needs an enterprise-wide search experience, [evaluate first whether the modern search experience covers your needs](get-started-with-modern-search-experience.md). Modern search also comes with verticals, it doesn't require any set up, and the results are personal. [Learn about the modern search experience for users](https://support.office.com/article/b81ab573-ec9c-4aa9-a369-b3c630f878a7?).
 
 If modern search doesn't cover you needs, you can [switch from the Basic Search Center to an Enterprise Search Center](switch-from-enterprise-search-center-to-basic.md).
 

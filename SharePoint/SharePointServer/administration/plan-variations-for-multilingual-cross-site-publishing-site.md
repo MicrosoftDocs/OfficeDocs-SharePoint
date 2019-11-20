@@ -195,5 +195,4 @@ For this combination, you should plan to do the following:
   
 [Create a multi-language website](https://office.microsoft.com/sharepoint-server-help/create-a-multi-language-website-HA102886546.aspx)
   
-[Work with multi-lingual term sets](https://support.office.com/article/Work-with-multi-lingual-term-sets-D04098AF-282B-45C3-97CB-59363042C1B3)
-
+[Work with multi-lingual term sets](https://support.office.com/article/D04098AF-282B-45C3-97CB-59363042C1B3)

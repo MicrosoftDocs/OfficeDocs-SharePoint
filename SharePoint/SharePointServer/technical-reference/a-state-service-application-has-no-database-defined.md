@@ -47,7 +47,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
   
 2. Start the SharePoint Management Shell.
     
-    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows](http://go.microsoft.com/fwlink/?LinkID=715712&amp;clcid=0x409).
+    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows](https://go.microsoft.com/fwlink/?LinkID=715712&amp;clcid=0x409).
     
 3. If no database already exists that you can use, type the following command at the PowerShell command prompt:
     

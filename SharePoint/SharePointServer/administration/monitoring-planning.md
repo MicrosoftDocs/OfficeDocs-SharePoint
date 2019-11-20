@@ -130,10 +130,10 @@ Identify the scenarios that you want to monitor —for example, health, workflow
 ## Determine daily, weekly, and monthly monitoring items
 <a name="section3"> </a>
 
-You can decide which items to monitor daily, weekly and monthly based on the "Daily Tasks" section (on page 45), the "Weekly Tasks" section (on page 53), the "Monthly Tasks" section (on page 54), and the "Impromptu Tasks" section (on page 54) in the [SharePoint Server 2013: Operations Framework and Checklists](https://www.microsoft.com/en-us/download/details.aspx?id=42531)white paper.
+You can decide which items to monitor daily, weekly and monthly based on the "Daily Tasks" section (on page 45), the "Weekly Tasks" section (on page 53), the "Monthly Tasks" section (on page 54), and the "Impromptu Tasks" section (on page 54) in the [SharePoint Server 2013: Operations Framework and Checklists](https://www.microsoft.com/download/details.aspx?id=42531)white paper.
   
 > [!NOTE]
-> While this white paper addresses SharePoint 2013, you can still use this information to help plan monitoring schedules for SharePoint Server. 
+> While this white paper addresses SharePoint 2013, you can still use this information to help plan monitoring schedules for SharePoint Server.
   
 ## Plan monitoring personnel
 <a name="section4"> </a>
@@ -213,5 +213,4 @@ The following table shows some factors that you should consider when you develop
 [Monitor cache performance in SharePoint Server 2016](monitor-cache-performance.md)
 #### Other Resources
 
-[Microsoft Network Monitor](https://www.microsoft.com/en-us/download/details.aspx?id=4865)
-
+[Microsoft Network Monitor](https://www.microsoft.com/download/details.aspx?id=4865)

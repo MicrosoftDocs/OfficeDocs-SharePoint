@@ -157,7 +157,7 @@ Minimum requirements for a single server with built-in database:
 - The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 R2 Standard or Datacenter
     
     > [!NOTE]
-    > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
+    > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/).
   
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876)
     
@@ -208,7 +208,7 @@ Minimum requirements for front-end web servers and application servers in a farm
 - The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 R2 Standard or Datacenter.
     
     > [!NOTE]
-    > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/en-us). 
+    > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/).
   
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876) 
     
@@ -275,7 +275,7 @@ The optional software in this section is supported but is not required to instal
 |**Environment**|**Optional software**|
 |:-----|:-----|
 |Single server with built-in database, front-end web servers, and application servers in a farm  <br/> | .NET Framework Data Provider for SQL Server (part of Microsoft .NET Framework)  <br/>  .NET Framework Data Provider for OLE DB (part of Microsoft .NET Framework)  <br/>  Workflow Manager  <br/>  You can install Workflow Manager on a dedicated computer.  <br/>  Microsoft SQL Server 2008 R2 Reporting Services Add-in for Microsoft SharePoint Technologies  <br/>  This add-in is used by Access Services for SharePoint Server 2016.  <br/>  Microsoft SQL Server 2012 Data-Tier Application (DAC) Framework 64-bit edition  <br/>  Microsoft SQL Server 2012 Transact-SQL ScriptDom 64-bit edition  <br/>  Microsoft System CLR Types for Microsoft SQL Server 2012 64-bit edition  <br/>  Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition  <br/>  Microsoft Data Services for the .NET Framework 4 and Silverlight 4 (formerly ADO.NET Data Services)  <br/>  Exchange Web Services Managed API, version 1.2  <br/>  Microsoft SQL Server 2008 R2 Remote Blob Store which is part of the Microsoft SQL Server 2008 R2 Feature Pack  <br/>  SQL Server 2008 R2 Analysis Services ADOMD.NET  <br/>  KB 2472264  <br/>  If you are running a geo-distributed deployment and your servers are running Windows Server 2008 R2, then installing KB 2472264 can optimize network latency in a dedicated datacenter network. For more information, and to download the software, see [You cannot customize some TCP configurations by using the netsh command in Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=254821).  <br/> |
-|Client computer  <br/> | Windows 7  <br/>  For information about how to use Windows 7 with SharePoint 2013 in a development environment, see [Start: Set up the development environment for SharePoint 2013](https://msdn.microsoft.com/en-us/library/ee554869%28v=office.15%29.aspx).  <br/>  Silverlight 3  <br/>  Office 2016  <br/>  Microsoft Office 2010 with Service Pack 2  <br/>  With [KB 2553248](https://go.microsoft.com/fwlink/p/?LinkID=254211) <br/>  Microsoft Office 2007 with Service Pack 2  <br/>  With [KB 2583910](https://go.microsoft.com/fwlink/p/?LinkID=254212) <br/>  Microsoft Office for Mac 2011 with Service Pack 1  <br/>  Microsoft Office 2008 for Mac version 12.2.9  <br/>  Support ends April 9, 2013.  <br/> |
+|Client computer  <br/> | Windows 7  <br/>  For information about how to use Windows 7 with SharePoint 2013 in a development environment, see [Start: Set up the development environment for SharePoint 2013](https://msdn.microsoft.com/library/ee554869%28v=office.15%29.aspx).  <br/>  Silverlight 3  <br/>  Office 2016  <br/>  Microsoft Office 2010 with Service Pack 2  <br/>  With [KB 2553248](https://go.microsoft.com/fwlink/p/?LinkID=254211) <br/>  Microsoft Office 2007 with Service Pack 2  <br/>  With [KB 2583910](https://go.microsoft.com/fwlink/p/?LinkID=254212) <br/>  Microsoft Office for Mac 2011 with Service Pack 1  <br/>  Microsoft Office 2008 for Mac version 12.2.9  <br/>  Support ends April 9, 2013.  <br/> |
    
 ## Links to applicable software
 <a name="section5"> </a>
@@ -330,7 +330,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft Silverlight 3](https://go.microsoft.com/fwlink/p/?LinkId=166506)
     
-- [Exchange Web Services Managed API, version 1.2](http://go.microsoft.com/fwlink/p/?linkid=238668)
+- [Exchange Web Services Managed API, version 1.2](https://go.microsoft.com/fwlink/p/?linkid=238668)
     
 - Microsoft SQL Server 2012 Native Client 64-bit edition - [ENU\x64\sqlncli.MSI](https://go.microsoft.com/fwlink/p/?LinkId=239568)
     
@@ -340,7 +340,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - Microsoft System CLR Types for Microsoft SQL Server 2012 64-bit edition - [SQLSysClrTypes.msi](https://go.microsoft.com/fwlink/p/?LinkId=239644)
     
-- Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition, which is also a component of SQL Server 2012 with Service Pack 1 (SP1) Express - [ENU\x64\SqlLocalDB.msi](http://go.microsoft.com/fwlink/p/?LinkId=262352)
+- Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition, which is also a component of SQL Server 2012 with Service Pack 1 (SP1) Express - [ENU\x64\SqlLocalDB.msi](https://go.microsoft.com/fwlink/p/?LinkId=262352)
     
 - [Microsoft SQL Server 2014](/sql/sql-server/sql-server-technical-documentation?view=sql-server-2017)
     

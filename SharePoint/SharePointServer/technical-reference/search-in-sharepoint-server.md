@@ -19,17 +19,17 @@ description: "Learn how to resolve alerts about the search index, content proces
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-xxx-xxx-md.md)]
 
-Learn how to resolve alerts about the search index, content processing, query processing, and other search issues in the SharePoint Servers 2019, 2016, and 2013 management pack for Systems Center Operations Manager (SCOM). 
+Learn how to resolve alerts about the search index, content processing, query processing, and other search issues in the SharePoint Servers 2019, 2016, and 2013 management pack for Systems Center Operations Manager (SCOM).
   
-The articles in this section are knowledge articles for search services in SharePoint Server. Typically, these articles appear when you click a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in search. 
+The articles in this section are knowledge articles for search services in SharePoint Server. Typically, these articles appear when you click a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in search.
 
 Download and install:
 
-- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57776)
+- [System Center Management Pack for SharePoint Server 2019](https://www.microsoft.com/download/details.aspx?id=57776)
 
-- [System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409) 
+- [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
 
-- [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568) 
+- [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
 
 - [System Center Monitoring Pack for SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=272567)
 
@@ -1301,9 +1301,9 @@ If persistent or recurring, check the host controller and restart if it is neces
   
 #### Other Resources
 
-[System Center Monitoring Pack for SharePoint Foundation](http://go.microsoft.com/fwlink/p/?LinkId=272567)
+[System Center Monitoring Pack for SharePoint Foundation](https://go.microsoft.com/fwlink/p/?LinkId=272567)
   
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
-[System Center Monitoring Pack for SharePoint Server 2016](http://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
+[System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
 

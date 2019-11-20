@@ -30,7 +30,7 @@ This section provides detailed descriptions of the new updated features in Share
 
 ### Access Services 2013 now supports Send Email
 
-The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://www.microsoft.com/en-us/microsoft-365/blog/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
+The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://www.microsoft.com/microsoft-365/blog/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
 
 ### Additional documentation links for Central Administration site
 
@@ -80,7 +80,7 @@ SharePoint Server 2019 users can now add modern site pages and modern web parts 
 ### Modern search experience
 SharePoint Server 2019 offers a modern search experience in addition to the classic one.
 
-In the modern search experience, the most visible difference for users is that they see results before they start typing in the search box, and the results update as they type. [Learn about the modern search experience](https://support.office.com/article/what-s-new-in-search-in-sharepoint-server-2019-public-preview-3f56ab51-f10f-4a34-a8c6-bfe02f44896d).
+In the modern search experience, the most visible difference for users is that they see results before they start typing in the search box, and the results update as they type. [Learn about the modern search experience](https://support.office.com/article/3f56ab51-f10f-4a34-a8c6-bfe02f44896d).
 
 There are some differences between the search experiences from a search administrator's perspective, [learn about these differences](../search/differences-search-2016-2019.md).
 

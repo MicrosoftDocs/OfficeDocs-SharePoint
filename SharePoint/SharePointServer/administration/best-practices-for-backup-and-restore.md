@@ -32,11 +32,11 @@ Backup and restore operations consume server resources and limit server performa
 In general, it is efficient to back up to a local disk on the database server instead of a network drive. You can then copy the data later to a shared folder on the network. Network drives with 1 millisecond or less latency between them and the database server perform well.
   
 > [!NOTE]
-> If you cannot back up to local drives, use network drives with similar latency. Because network backups are subject to network errors, verify the backup action after it finishes. For more information, see "Backing Up to a File on a Network Share" in [Backup Devices (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717189&amp;clcid=0x409). 
+> If you cannot back up to local drives, use network drives with similar latency. Because network backups are subject to network errors, verify the backup action after it finishes. For more information, see "Backing Up to a File on a Network Share" in [Backup Devices (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717189&amp;clcid=0x409).
   
-To avoid I/O bottlenecks, perform the main backup to a separate disk from the disk running SQL Servers 2017 RTM, 2016, 2014, 2012, or 2008 R2 with Service Pack 1 (SP1). For more information, see [Define a Logical Backup Device for a Disk File (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717191&amp;clcid=0x409).
+To avoid I/O bottlenecks, perform the main backup to a separate disk from the disk running SQL Servers 2017 RTM, 2016, 2014, 2012, or 2008 R2 with Service Pack 1 (SP1). For more information, see [Define a Logical Backup Device for a Disk File (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717191&amp;clcid=0x409).
   
-By design, most backup jobs consume all available I/O resources to complete the job. Therefore, you might see disk queuing, which can result in greater than usual latency for I/O requests. This is typical and should not be considered a problem. For more information, see [Monitor Disk Usage](http://go.microsoft.com/fwlink/p/?LinkID=717192&amp;clcid=0x409).
+By design, most backup jobs consume all available I/O resources to complete the job. Therefore, you might see disk queuing, which can result in greater than usual latency for I/O requests. This is typical and should not be considered a problem. For more information, see [Monitor Disk Usage](https://go.microsoft.com/fwlink/p/?LinkID=717192&amp;clcid=0x409).
   
 ### Avoid processing conflicts
 
@@ -50,7 +50,7 @@ For a graphical overview of the databases that support SharePoint Server 2016, s
   
 ### Use incremental backups for large databases
 
-Use incremental backups for large databases because you can make them quickly and maintain performance of the environment. Although you can restore full backups faster than incremental backups, continuous incremental backups minimize data loss. For more information about types of backups, see [Backup Overview (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717240&amp;clcid=0x409).
+Use incremental backups for large databases because you can make them quickly and maintain performance of the environment. Although you can restore full backups faster than incremental backups, continuous incremental backups minimize data loss. For more information about types of backups, see [Backup Overview (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717240&amp;clcid=0x409).
   
 ### Use compression during backup
 
@@ -59,7 +59,7 @@ In some circumstances, you can use compression to decrease the size of backups a
 > [!IMPORTANT]
 > SharePoint Server supports SQL Server backup compression. SQL Server data compression is not supported for SharePoint Server databases. 
   
-For more information about how backup compression affects performance in SQL Server, see [Backup Compression (SQL Server)](http://go.microsoft.com/fwlink/p/?LinkID=717243&amp;clcid=0x409).
+For more information about how backup compression affects performance in SQL Server, see [Backup Compression (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=717243&amp;clcid=0x409).
   
 ### Follow SQL Server backup and restore optimization recommendations
 
@@ -67,11 +67,11 @@ SQL Server backups use a combination of full, differential, and transaction log 
   
 If you are using the full recovery model, we recommend that you periodically truncate the transaction log files to avoid maintenance issues. 
   
-For detailed recommendations about how to optimize SQL Server backup and restore performance, see [Optimizing Backup and Restore Performance in SQL Server](http://go.microsoft.com/fwlink/p/?LinkId=126630).
+For detailed recommendations about how to optimize SQL Server backup and restore performance, see [Optimizing Backup and Restore Performance in SQL Server](https://go.microsoft.com/fwlink/p/?LinkId=126630).
   
 ### Use RAID 10 if you use RAID
 
-Carefully consider whether to use redundant array of independent disks (RAID) on the device to which you back up data. For example, RAID 5 has slow write performance, approximately the same speed as for a single disk. This is because RAID 5 has to maintain parity information. RAID 10 can provide faster backups because it doesn't need to manage parity. Therefore, it reads and writes data faster. For more information about how to use RAID with backups, see [Configure RAID for maximum SQL Server I/O throughput](http://go.microsoft.com/fwlink/p/?LinkId=126632 ) and [RAID Levels and SQL Server](http://go.microsoft.com/fwlink/p/?LinkId=282316).
+Carefully consider whether to use redundant array of independent disks (RAID) on the device to which you back up data. For example, RAID 5 has slow write performance, approximately the same speed as for a single disk. This is because RAID 5 has to maintain parity information. RAID 10 can provide faster backups because it doesn't need to manage parity. Therefore, it reads and writes data faster. For more information about how to use RAID with backups, see [Configure RAID for maximum SQL Server I/O throughput](https://go.microsoft.com/fwlink/p/?LinkId=126632 ) and [RAID Levels and SQL Server](https://go.microsoft.com/fwlink/p/?LinkId=282316).
   
 ### Configure SharePoint settings to improve backup or restore performance
 
@@ -144,10 +144,10 @@ Use PowerShell backup and recovery cmdlets to create a script file (\*.ps1) and 
     
 ### Use the SQL FILESTREAM provider with BLOB storage
 
-Remote BLOB Storage (RBS) is supported in a SharePoint Server farm. There are both pros and cons associated with using RBS in SharePoint Server. One related limitation of RBS with a SharePoint farm is that System Center Data Protection Manager cannot use the FILESTREAM provider to back up or restore RBS. SharePoint Server supports the FILESTREAM provider for backup and restore operations. A benefit of RBS with a SharePoint farm is that you can use either SharePoint tools or SQL Server tools to back up and restore the content database with the Remote BLOB Store (RBS) defined. This backs up and restores both the RBS and the content database. We do not recommend that you use RBS with other restore methods. For more information about the benefits and limitations of using RBS, see [Deciding to use RBS in SharePoint Server](rbs-planning.md). Download [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)that includes RBS.
+Remote BLOB Storage (RBS) is supported in a SharePoint Server farm. There are both pros and cons associated with using RBS in SharePoint Server. One related limitation of RBS with a SharePoint farm is that System Center Data Protection Manager cannot use the FILESTREAM provider to back up or restore RBS. SharePoint Server supports the FILESTREAM provider for backup and restore operations. A benefit of RBS with a SharePoint farm is that you can use either SharePoint tools or SQL Server tools to back up and restore the content database with the Remote BLOB Store (RBS) defined. This backs up and restores both the RBS and the content database. We do not recommend that you use RBS with other restore methods. For more information about the benefits and limitations of using RBS, see [Deciding to use RBS in SharePoint Server](rbs-planning.md). Download [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)that includes RBS.
   
 > [!NOTE]
-> SharePoint Server 2019 supports the FILESTREAM provider that is included with SQL Server 2017. SharePoint Server 2016 supports the FILESTREAM provider that is included with SQL Server 2014. For more information, see [Enable and Configure FILESTREAM](http://go.microsoft.com/fwlink/p/?LinkID=733464&amp;clcid=0x409). 
+> SharePoint Server 2019 supports the FILESTREAM provider that is included with SQL Server 2017. SharePoint Server 2016 supports the FILESTREAM provider that is included with SQL Server 2014. For more information, see [Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=733464&amp;clcid=0x409). 
   
 > [!NOTE]
 > SharePoint Server 2013 supports the FILESTREAM provider that is included in the [Microsoft® SQL Server® 2008 R2 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=177388). The SQL Server 2012 and SQL Server 2014 installation media includes RBS as an optional add-on component. 

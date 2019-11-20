@@ -68,7 +68,7 @@ The product group makes every effort to validate that SharePoint functionality w
 > Internet Explorer 11  *edge mode*  is not supported. Add sites to the **Compatibility View** list to make some features work. 
   
 > [!NOTE]
-> Microsoft Edge is supported with the SharePoint Server 2013 December 2015 CU. For additional information about the December 2015 CU, see [December 8, 2015, update for SharePoint Foundation 2013 (KB3114352)](https://support.microsoft.com/en-us/kb/3114352)
+> Microsoft Edge is supported with the SharePoint Server 2013 December 2015 CU. For additional information about the December 2015 CU, see [December 8, 2015, update for SharePoint Foundation 2013 (KB3114352)](https://support.microsoft.com/kb/3114352)
   
 #### Other supported browsers
 

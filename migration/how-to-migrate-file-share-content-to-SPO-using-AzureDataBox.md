@@ -33,12 +33,12 @@ This article specifically talks about how to use the Data Box to migrate your fi
 
 #### For Data Box
 
-- Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription or see [Azure subscription pricing](https://azure.microsoft.com/en-us/pricing/). 
+- Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription or see [Azure subscription pricing](https://azure.microsoft.com/pricing/).
 - There is a fee to use Data Box. Make sure to review the [Data Box pricing](https://azure.microsoft.com/pricing/details/databox/).
 
 #### For SharePoint Online
 
-- Review the minimum requirements for the [SharePoint Migration Tool (SPMT)](/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
+- Review the minimum requirements for the [SharePoint Migration Tool (SPMT)](/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
 
 
 ## Workflow overview
@@ -82,7 +82,7 @@ After you receive confirmation from the Azure data team that your data copy has 
 1.	Sign into the Azure portal, and then create a virtual machine.  Learn how:  [Quickstart: Create Windows virtual machine in the Azure portal](/azure/virtual-machines/windows/quick-create-portal).
 2.	[Mount the Azure file share onto that VM](/azure/storage/files/storage-how-to-use-files-windows).
 3.	Download the SharePoint Migration tool and install it on your Azure VM. 
-Download here: [SharePoint Migration Tool](http://spmtreleasescus.blob.core.windows.net/install/default.htm).
+Download here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm).
 4.	Start the SharePoint Migration Tool.  Click Sign in and enter your Office 365 username and password.<br><br>![SharePoint Migration Tool](media/spmt-intro.png)
 5.	When prompted “Where is your data?” select File share. Enter the path to your Azure file share where your data is located.
 6.	Follow the remaining prompts as normal, including your target location. For more info see: [How to use the SharePoint Migration Tool](/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 

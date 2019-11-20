@@ -186,7 +186,7 @@ Service applications in a SharePoint Server environment can be made up of both s
 ### Protecting SQL Server Reporting Services databases
 <a name="Workflow"> </a>
 
-SharePoint Server backup and recovery does not include SQL Server Reporting Services databases. You must use SQL Server tools for SharePoint Server. For more information, see [Backup and Restore Operations for Reporting Services](http://go.microsoft.com/fwlink/p/?LinkID=718025&amp;clcid=0x409).
+SharePoint Server backup and recovery does not include SQL Server Reporting Services databases. You must use SQL Server tools for SharePoint Server. For more information, see [Backup and Restore Operations for Reporting Services](https://go.microsoft.com/fwlink/p/?LinkID=718025&amp;clcid=0x409).
   
 ## Choose SharePoint backup and recovery tools
 <a name="ChooseTools"> </a>
@@ -209,9 +209,9 @@ For detailed information about the backup and recovery systems that can be used 
   
 - [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
     
-- [Backing Up and Restoring Databases in SQL Server](http://go.microsoft.com/fwlink/p/?LinkID=724311&amp;clcid=0x409)
+- [Backing Up and Restoring Databases in SQL Server](https://go.microsoft.com/fwlink/p/?LinkID=724311&amp;clcid=0x409)
     
-- [DPM overview](http://go.microsoft.com/fwlink/p/?LinkID=512012&amp;clcid=0x409)
+- [DPM overview](https://go.microsoft.com/fwlink/p/?LinkID=512012&amp;clcid=0x409)
     
 ## Determine SharePoint backup and recovery strategies
 <a name="DetermineStrategies"> </a>
@@ -288,11 +288,11 @@ If you are using SQL Server or SQL Server 2008 R2 Express backups, use a combina
   
 If you are using the full recovery model in SQL Server 2008, we recommend that you use the truncate option during backup to avoid maintenance issues. 
   
-For detailed recommendations about how to optimize SQL Server backup and restore performance, see [Optimizing Backup and Restore Performance in SQL Server](http://go.microsoft.com/fwlink/p/?LinkId=126630).
+For detailed recommendations about how to optimize SQL Server backup and restore performance, see [Optimizing Backup and Restore Performance in SQL Server](https://go.microsoft.com/fwlink/p/?LinkId=126630).
   
 ### Ensure sufficient write performance on the backup drive
 
-Carefully consider whether to use redundant array of independent disks (RAID) on your disk backup device. For example, RAID 5 has low write performance, approximately the same speed as for a single disk. (This is because RAID 5 maintains parity information.) Using RAID 10 for a backup device may provide faster backups. For more information about how to use RAID with backups, see [Configure RAID for maximum SQL Server I/O throughput](http://go.microsoft.com/fwlink/p/?LinkId=126632 ).
+Carefully consider whether to use redundant array of independent disks (RAID) on your disk backup device. For example, RAID 5 has low write performance, approximately the same speed as for a single disk. (This is because RAID 5 maintains parity information.) Using RAID 10 for a backup device may provide faster backups. For more information about how to use RAID with backups, see [Configure RAID for maximum SQL Server I/O throughput](https://go.microsoft.com/fwlink/p/?LinkId=126632 ).
   
 ## See also
 <a name="PlanEnhancedPerformance"> </a>
@@ -302,5 +302,5 @@ Carefully consider whether to use redundant array of independent disks (RAID) on
 [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
 #### Other Resources
 
-[Data Protection and Recovery](http://go.microsoft.com/fwlink/p/?LinkID=199237)
+[Data Protection and Recovery](https://go.microsoft.com/fwlink/p/?LinkID=199237)
 

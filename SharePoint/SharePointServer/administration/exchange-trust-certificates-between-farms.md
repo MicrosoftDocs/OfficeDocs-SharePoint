@@ -277,7 +277,7 @@ For more information about these PowerShell cmdlets, see the following articles:
     
  - [New-SPTrustedServiceTokenIssuer](/powershell/module/sharepoint-server/New-SPTrustedServiceTokenIssuer?view=sharepoint-ps)
     
- - [Get-PfxCertificate](http://go.microsoft.com/fwlink/?LinkID=717913&amp;clcid=0x409)
+ - [Get-PfxCertificate](https://go.microsoft.com/fwlink/?LinkID=717913&amp;clcid=0x409)
     
 For information about how to use a script to automate part of this process, see [Exchange trust certificates between farms](https://go.microsoft.com/fwlink/p/?LinkId=230666).
   
