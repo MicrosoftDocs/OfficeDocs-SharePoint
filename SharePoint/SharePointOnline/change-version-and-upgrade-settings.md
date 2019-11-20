@@ -68,19 +68,17 @@ You can choose whether to allow versions in your subscription and decide how use
  
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-4. In the left pane of the new SharePoint admin center, select **Classic features**. 
-. 
-5. Choose **More classic features**
-. 
-6. Under **Classic site collections page**, select **Open**. 
+4. In the left pane of the new SharePoint admin center, select **More features**. 
+ 
+5. Under **Classic site collections page**, select **Open**. 
 
-7. Select the site collection.
+6. Select the site collection.
     
-8. On the ribbon, select **Upgrade notifications** \> **Site collection upgrade settings**. 
+7. On the ribbon, select **Upgrade notifications** \> **Site collection upgrade settings**. 
     
-9. For **Allow Upgrade**, choose **Yes** or **No**.
+8. For **Allow Upgrade**, choose **Yes** or **No**.
     
-10. Select **Save**.
+9. Select **Save**.
     
 ## See also
 

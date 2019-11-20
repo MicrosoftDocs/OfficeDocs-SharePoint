@@ -75,11 +75,9 @@ You can also limit domains at the site collection level. Note the following cons
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
  
-3. Select **Classic features**.
-
-4. Select **More classic features**.
+3. Select **More features**.
     
-3. Under **Classic site collections page**, and then select **Open**.
+4. Under **Classic site collections page**, select **Open**.
  
 5. Select a site collection, and then select **Sharing**.
     

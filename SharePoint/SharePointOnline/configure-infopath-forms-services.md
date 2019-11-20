@@ -55,9 +55,9 @@ To configure browser-enabled user form templates
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
 . 
-3. In the left pane of the new SharePoint admin center, select **Classic features**. 
+3. In the left pane of the new SharePoint admin center, select **More features**. 
 . 
-4. Select **More classic features**, and then under **InfoPath** select **Open**.
+4. Under **InfoPath** select **Open**.
  
 5. In the **User Browser-enabled Form Templates** section, specify how you want user form templates to be processed by InfoPath Forms Services by completing the following steps: 
     
@@ -89,9 +89,9 @@ To make indexing InfoPath forms faster and easier, you can specify which user ag
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
 . 
-3. In the left pane of the new SharePoint admin center, select **Classic features**. 
+3. In the left pane of the new SharePoint admin center, select **More features**. 
 . 
-4. Select **More classic features**, and then under **InfoPath** select **Open**.
+4. Under **InfoPath** select **Open**.
     
 5. In the **Exempt User Agents** section, select the **Customize the list of exempt user agents** check box, and then do one of the following: 
     

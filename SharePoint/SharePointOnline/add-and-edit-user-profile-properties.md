@@ -34,7 +34,7 @@ If your organization uses the cloud identity model, your Office 365 user account
     
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.).
  
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. In the left pane of the new SharePoint admin center, select **More features**.
     
 4. Under **User profiles** , select **Open**. 
     
@@ -81,7 +81,7 @@ If your organization uses the cloud identity model, your Office 365 user account
 
 1. In the left pane of the admin center, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-2. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. In the left pane of the new SharePoint admin center, select **Classic features**.
+2. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. In the left pane of the new SharePoint admin center, select **More features**.
     
 3. Select **User profiles**, and then select **Open**. Under **People**, choose **Manage User Properties**. 
     

@@ -37,7 +37,7 @@ Even if you choose not to allow users to buy apps from the SharePoint Store, the
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
-3. In the left pane of the new SharePoint admin center, select **Classic features**.     
+3. In the left pane of the new SharePoint admin center, select **More features**.     
 
 4. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
     
@@ -59,7 +59,7 @@ When users request an app, they are requesting that an admin buys that app on th
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
-3. In the left pane of the new SharePoint admin center, select **Classic features**.     
+3. In the left pane of the new SharePoint admin center, select **More features**.     
 
 4. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
     
@@ -91,7 +91,7 @@ Documents stored on sites may contain apps for Office from several sources. You 
  
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
-3. In the left pane of the new SharePoint admin center, select **Classic features**.     
+3. In the left pane of the new SharePoint admin center, select **More features**.     
 
 4. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
  

@@ -47,7 +47,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 - The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page). 
 - On the Active sites page, you can select multiple sites and bulk edit sharing and hub association settings.
-- Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from the Classic features page so you can access them directly from the new SharePoint admin center.
+- Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from the More features page so you can access them directly from the new SharePoint admin center.
 
 
 ## In case you missed it
