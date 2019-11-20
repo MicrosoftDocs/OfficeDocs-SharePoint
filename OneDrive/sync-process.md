@@ -76,7 +76,7 @@ The OneDrive sync app uses the following to sync files:
 
 File chunks are stored in multiple containers in Azure, each of which is given a unique key. Each key is required to reassemble the complete file. There’s also a separate master key encrypting each file chunk key, ensuring the data remain secure even when not moving.
 
-## Related Seccion
+## Related topic
 
 - [Sharepoint Authentication](https://docs.microsoft.com/sharepoint/authentication)
 
