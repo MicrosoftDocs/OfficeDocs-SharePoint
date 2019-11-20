@@ -52,7 +52,7 @@ The previous OneDrive for Business sync app (Groove.exe) used a polling service 
 The authentication protocols depend on which version of SharePoint you are using.
 
  - For Sharepoint Server 2019, uses NTLM.
- - For Sharepoint Online, uses fed auth.
+ - SharePoint Online uses FedAuth.
 
 ## Syncing different file types
 
