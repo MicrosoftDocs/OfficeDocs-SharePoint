@@ -46,6 +46,14 @@ Here’s how it works:
 
 The previous OneDrive for Business sync app (Groove.exe) used a polling service to check for changes on a predetermined schedule. Polling can lead to system lag and slowness because it requires a lot of computing power. Using WNS is a significant enhancement.
   
+
+## Auhentication protocols
+
+The authentication protocols depend on which version of SharePoint you are using.
+
+ - SharePoint Server 2019 uses NTLM.
+ - SharePoint Online uses FedAuth.
+
 ## Syncing different file types
 
 OneDrive handles sync differently depending on the type of file.
@@ -67,3 +75,8 @@ The OneDrive sync app uses the following to sync files:
 ## Security and encryption
 
 File chunks are stored in multiple containers in Azure, each of which is given a unique key. Each key is required to reassemble the complete file. There’s also a separate master key encrypting each file chunk key, ensuring the data remain secure even when not moving.
+
+## Related topic
+
+- [SharePoint Online Authentication](https://docs.microsoft.com/sharepoint/authentication)
+

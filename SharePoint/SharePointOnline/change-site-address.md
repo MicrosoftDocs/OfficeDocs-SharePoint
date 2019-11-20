@@ -24,7 +24,7 @@ description: "Learn how to change the URL of a SharePoint site."
 # Change a site address
 
 > [!NOTE]
-> We are rolling out this feature. This means that you may not yet see this feature or it may look different from what is described in this article. The feature is currently not available to EDU tenants. 
+> We are rolling out this feature. This means that you may not yet see this feature or it may look different from what is described in this article. 
 
 As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
 
@@ -97,7 +97,7 @@ Before you change the address of a site, it's important to communicate the chang
 4. Run the following command to change the site address:
 
     ```PowerShell
-    Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
+    Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl>
     ```
 
 For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
