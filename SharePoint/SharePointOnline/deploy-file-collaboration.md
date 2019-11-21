@@ -1,5 +1,5 @@
 ---
-title: "File collaboration in SharePoint with Microsoft 365"
+title: "Plan and deploy a secure and productive file collaboration environment"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,10 +16,10 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn about file collaboration in SharePoint with Microsoft 365."
+description: "Learn about planning and deploying a secure and productive file collaboration environment."
 ---
 
-# File collaboration in SharePoint with Microsoft 365 
+# File collaboration in SharePoint with Microsoft 365
 
 With Microsoft 365 services, you can create a secure and productive file collaboration environment for your users. SharePoint powers much of this, but the capabilities of file collaboration in Microsoft 365 reach far beyond the traditional SharePoint site. Teams, OneDrive, and a variety of governance and security options all play a role in creating a rich environment where users can collaborate easily and where your organization's sensitive content remains secure.
 
