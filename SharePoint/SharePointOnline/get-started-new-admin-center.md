@@ -34,8 +34,15 @@ The Home page of the new SharePoint admin center gives you an overview of ShareP
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner. 
 
-> [!TIP]
-> To set the new SharePoint admin center as the default experience, select **Settings** in the left pane, select **Default admin experience**, select **Open the new SharePoint admin center by default**, and then select **Save**.
+## Open the new SharePoint admin center by default
+
+1. In the left pane, select **Settings**. 
+
+2. Select **Default admin experience**.
+
+3. Select **Open the new SharePoint admin center by default**, and then select **Save**.
+
+![The default admin experience setting](media/default-admin-experience.PNG)
 
 ## View reports
 
@@ -68,6 +75,7 @@ In the Service health section of the home page, you can see whether the SharePoi
 ## Customize the navigation pane
 
 1. At the bottom of the navigation pane, select **Customize navigation**.
+
 2. Select the items you want to appear in the navigation pane, and then select **Save**.
 
 > [!TIP]

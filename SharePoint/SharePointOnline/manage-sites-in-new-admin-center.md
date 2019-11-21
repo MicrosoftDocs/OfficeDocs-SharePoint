@@ -38,12 +38,12 @@ For info about creating sites, see [Create a site](create-site-collection.md). F
     
 2. Click **Owners**. For Office 365 group-connected team sites, you can add and remove group owners. You can also also add and remove additional site admins. For other sites, you can add and remove admins and change the primary admin.  
     
-## Change a site's hub site association
+## Change a site's hub association
 <a name="hubsite"> </a>
   
 1. In the left column, click to select a site. 
     
-2. Click **Hub site**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub site. The hub site menu lets you register a site as a hub site, associate it with a hub site, change its hub site association, and unregister it as a hub site. [More info about hub sites](planning-hub-sites.md) 
+2. Click **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The hub site menu lets you register a site as a hub site, associate it with a hub site, change its hub site association, and unregister it as a hub site. [More info about hub sites](planning-hub-sites.md) 
 
 ## Change the external sharing setting for a site
 <a name="changesitesharing"> </a>
@@ -52,55 +52,26 @@ For info about creating sites, see [Create a site](create-site-collection.md). F
     
 2. Click **Sharing**.
     
-3. Select an option, and then click **Save**.
+3. Select an option, and then click **Save**. For info about the options, see [Turn external sharing on or off for for a site](change-external-sharing-site.md).
     
     > [!NOTE]
     > The options that are available depend on the organization-wide setting you've selected. The setting for a site can be more restrictive, but not more permissive. 
 
   
-
-  
 ## View site details
 <a name="viewsitedetails"> </a>
 
-To see more info about a site, click the site name to open the details pane.
+To see more info about a site, click the site name to open the details panel.
   
-![Site insights in the details pane](media/d0ddbc56-328e-42fb-b143-3faa14799fac.PNG)
+![The General tab of the details panel](media/d0ddbc56-328e-42fb-b143-3faa14799fac.PNG)
   
-Site insights in the details pane:
+To view site activity including the number of files stored and storage usage, select the **Activity** tab.
   
-- The number of page views in the last 30 days
-    
-- The number of files viewed or edited in the last 30 days
-    
-- The date of the last activity on the site
-    
-- The number of files
-    
-- The amount of storage used (this value doesn't include changes made within the last 24-48 hours)
-    
-> [!NOTE]
-> All these insights are available as columns in the site list. For info about adding a column that doesn't appear, see [Customize columns](manage-sites-in-new-admin-center.md#customizecolumns). 
-  
-![Site properties in the details pane](media/addeb5ec-cfc7-4d0c-a789-7eeeabdea67c.PNG)
-  
-Site properties in the details pane:
-  
-- The domain
-    
-- A link to the site
-    
-- The site template (also available as a column in the site list)
+To view site admins, owners, members, and visitors, select the **Permissions** tab.
 
-- Hub site association
-    
-- Whether the site belongs to an Office 365 group (also available as a column in the site list)
-    
-- The site description if specified
-    
-- The primary admin (also available as a column in the site list) and additional admins, with links to change the admins. If a site belongs to an Office 365 group, you can change the admins by changing the group owners. 
-    
-- The external sharing status (also available as a column in the site list)
+![The Permissions tab of the details panel](media/addeb5ec-cfc7-4d0c-a789-7eeeabdea67c.PNG)
+  
+For info about the roles in this panel, see [About site permissions](site-permissions.md).
     
 ## Sort and filter the site list
 <a name="sortfilter"> </a>
