@@ -43,7 +43,7 @@ For info about creating sites, see [Create a site](create-site-collection.md). F
   
 1. In the left column, click to select a site. 
     
-2. Click **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The hub site menu lets you register a site as a hub site, associate it with a hub site, change its hub site association, and unregister it as a hub site. [More info about hub sites](planning-hub-sites.md) 
+2. Click **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. [More info about hub sites](planning-hub-sites.md) 
 
 ## Change the external sharing setting for a site
 <a name="changesitesharing"> </a>
@@ -85,23 +85,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
     If the column allows filtering, you'll see a "Filter by" option. Select the value or values that you want to show. Your selections will appear with a check mark beside them. To remove a selection, click that value again. To clear all filters on the column, select **Clear filters**.
     
     ![Filter options for the Template column](media/0d188752-2bce-4d69-9cf4-a16ab87a2892.PNG)
-  
-## Search for a site
-<a name="search"> </a>
 
-You can search for a site by name, URL, primary admin, or template. To do this, enter keywords in the Search box and press Enter.
-
-> [!NOTE] 
-> Search doesn't look in hub site display names for the keywords you enter. <br>All characters you enter are treated as part of the query. Search doesn't recognize operators or wildcards (*). 
-  
-## Export to CSV
-<a name="export"> </a>
-
-To export your list of all sites as a .csv file that you can work with in Excel, click **Export**.
-  
-> [!NOTE]
-> The Export command exports all sites, even if your current view is filtered. 
-  
 ## Customize columns
 <a name="customizecolumns"> </a>
 
@@ -120,7 +104,9 @@ The new SharePoint admin center comes with a few built-in views: Office 365 grou
   
 1. Customize columns, sort, and filter your view the way you want. (Views that are filtered through search can't be saved.)
     
-2. On the far right of the command bar, next to the Search box, click the View drop-down (the name changes depending on your current view).
+2. On the far right of the command bar, next to the Search box, click the View menu (the name changes depending on your current view).
+
+    ![The View menu](media/view-menu.PNG)
     
 3. Click **Save view as**.
     
@@ -129,4 +115,22 @@ The new SharePoint admin center comes with a few built-in views: Office 365 grou
     > [!NOTE]
     > To set the view as default, in the View drop-down, click **Set current view as default**. 
   
+  
+## Search for a site
+<a name="search"> </a>
+
+You can search for a site by name, URL, primary admin, or template. To do this, enter keywords in the Search box and press Enter.
+
+> [!NOTE] 
+> Search doesn't look in hub site display names for the keywords you enter. <br>All characters you enter are treated as part of the query. Search doesn't recognize operators or wildcards (*). 
+  
+## Export to CSV
+<a name="export"> </a>
+
+To export your list of all sites as a .csv file that you can work with in Excel, click **Export**.
+  
+> [!NOTE]
+> The Export command exports all sites, even if your current view is filtered. 
+  
+
 
