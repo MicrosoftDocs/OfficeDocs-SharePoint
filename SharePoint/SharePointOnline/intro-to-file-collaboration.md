@@ -23,7 +23,7 @@ description: "Learn about file collaboration in Microsoft 365, powered by ShareP
 
 Are you getting the most out of file collaboration in Microsoft 365, or are your users still storing files locally or on network file shares and sending them around in email? Maybe you're paying for another cloud storage service and not taking advantage of the space you get with your Microsoft 365 subscription. This article describes the benefits and key features of file collaboration in Microsoft 365. It also covers the steps to plan for and adopt Microsoft 365 file collaboration in your organization.
 
-The file collaboration capabilities in Microsoft 365 are available to you regardless of the size of your organization. If you have a small organization, each user can store their files in their individual library in OneDrive and you might want only a single team in Microsoft Teams for everyone in the organization.
+The file collaboration capabilities in Microsoft 365 are available to you whatever the size of your organization. If you have a small organization, each user can store their files in their individual library in OneDrive and you might want only a single team in Microsoft Teams for everyone in the organization.
 
 ## Why use Microsoft 365 cloud file storage?
 
@@ -41,7 +41,7 @@ By taking full advantage of SharePoint-powered file storage in Microsoft 365, yo
 
 ### Anywhere access
 
-When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data may not be recoverable. If a user's device is upgraded, local data has to be migrated. By storing files in the cloud, users can access them from all their devices, such as their phone and their home computer (depending on what you allow). They can even access files in a browser from other devices they trust. For example, if two colleagues travel to a customer site and one of their two laptops runs out of battery, they can both access all their files by signing in to portal.office.com on the other laptop. [Get the SharePoint mobile app](https://products.office.com/sharepoint/mobile-app).
+When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. If a user's device is upgraded, local data must be migrated. By storing files in the cloud, users can access them from all their devices, such as their phone and their home computer (depending on what you allow). They can even access files in a browser from other devices they trust. For example, if two colleagues travel to a customer site and one of their two laptops runs out of battery, they can both access all their files by signing in to portal.office.com on the other laptop. [Get the SharePoint mobile app](https://products.office.com/sharepoint/mobile-app).
 
 > [!NOTE]
 > If you're concerned about users signing in from kiosks or other shared, unmanaged devices, you might want to [enable idle session sign-out](https://docs.microsoft.com/sharepoint/sign-out-inactive-users).
@@ -50,7 +50,7 @@ When users keep files on their local device or on a network share, they're out o
 
 ### Enterprise-grade security
 
-Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files using your own key](https://docs.microsoft.com/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
+Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](https://docs.microsoft.com/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
 
 - **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [More info](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)
 
@@ -68,7 +68,7 @@ Files stored in SharePoint-powered storage locations in Microsoft 365 are [encry
 
 ### Secure sharing outside the organization
 
-SharePoint powers secure file sharing in Microsoft 365. You can specify if you want people outside the organization to be able to access files without authenticating (by signing in or providing a verification code). You can even block external sharing altogether. We recommend using the most permissive sharing option you can for each set of content. If you heavily restrict sharing and it blocks user productivity, users will typically find other ways to collaborate that provide you less oversight and control. For more info, see [Control sharing](https://docs.microsoft.com/sharepoint/deploy-file-collaboration#control-sharing).
+SharePoint powers secure file sharing in Microsoft 365. You can specify if you want people outside the organization to be able to access files without authenticating (by signing in or providing a verification code). You can even block external sharing altogether. We recommend using the most permissive sharing option that you can for each set of content. If you heavily restrict sharing and it blocks user productivity, users will typically find other ways to collaborate that provide you less oversight and control. For more info, see [Control sharing](https://docs.microsoft.com/sharepoint/deploy-file-collaboration#control-sharing).
 
 ![Screenshot of sharing dialog box showing a sharing link for people inside the organization.](media/sp-collabguide02.png)
 
@@ -86,7 +86,7 @@ Version history is also on by default, so users can view earlier changes and rol
 
 When users in the organization regularly store files in the Microsoft 365 cloud, they can quickly find recent files and other files that might be of interest. For example, they can discover files that coworkers or frequent collaborators are working on. [More info](https://support.office.com/article/46f92806-b52c-4187-b60e-b3bf8d25f73e)
 
-![The Office graph collects and analyses signals to show relevant content](media/sp-collabguide05.png)
+![The Office graph collects and analyzes signals to show relevant content](media/sp-collabguide05.png)
 
 ## Key features
 
