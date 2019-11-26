@@ -21,7 +21,7 @@ Workflows in SharePoint allow you to model and automate business processes. Thes
   
 Workflows help people to collaborate on documents and to manage project tasks by implementing business processes on documents and items in a SharePoint site. Workflows help organizations adhere to consistent business processes, and improve organizational efficiency and productivity. 
 
-# SharePoint 2013 Workflow and Microsoft Flow
+## SharePoint 2013 Workflow and Microsoft Flow
 
 SharePoint Server 2019 supports a variety of workflow technologies to meet the needs of our customers.  These workflow technologies are described below.
 * The SharePoint 2013 Workflow platform is the recommended workflow technology for SharePoint Server 2019.  These workflows integrate with Microsoft Workflow Manager and will provide a stable and reliable workflow experience for SharePoint Server 2019.​
