@@ -48,7 +48,7 @@ For information about how to use the Office 365 CDN, see [Use the Office 365 Con
 
 For more information about the Office 365 CDN, see [Office 365 CDN](/Office365/Enterprise/content-delivery-networks).
 
-# Related topics
+## Related topics
 
 [Performance guidance for SharePoint Online portals](/sharepoint/dev/solution-guidance/portal-performance)
 
