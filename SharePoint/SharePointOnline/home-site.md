@@ -74,7 +74,7 @@ After you create and customize the communication site that you want to use as yo
     
 2. Connect to SharePoint Online as a global admin or SharePoint admin in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-3. Run `Set-SPOHomeSite - HomeSiteUrl <siteUrl>`.
+3. Run `Set-SPOHomeSite -HomeSiteUrl <siteUrl>`.
 
     (Where siteUrl is the site you want to use)
 
