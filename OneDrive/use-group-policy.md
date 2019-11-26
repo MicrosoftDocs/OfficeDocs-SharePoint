@@ -120,6 +120,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Use OneDrive Files On-Demand](use-group-policy.md#FilesOnDemandEnabled)
 
+- [Allow OneDrive to disable Windows permission inheritance in folders synced read-only](use-group-policy.md#PermitDisablePermissionInheritance)
+
 > [!NOTE]
 > "Specify SharePoint Server URL and organization name" and "Specify the OneDrive location in a hybrid environment" are for customers who have SharePoint Server 2019. [More info about using the new OneDrive sync client with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client/)
 
@@ -404,6 +406,19 @@ prevent B2B Sync with:
 
 restore B2B Sync with:
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalSync"="dword:0"
+
+### Allow OneDrive to disable Windows permission inheritance in folders synced read-only
+<a name="PermitDisablePermissionInheritance"> </a>
+
+Enabling this setting will permit the OneDrive Sync Client to remove all inherited permissions within read-only folders syncing on a user's PC. This will improve the performance of the Sync Client when syncing folders that the user has read-only permission to.
+
+Enabling this setting for a user will not change their permissions to view or edit content in SharePoint.
+
+We do not recommend setting this policy for users not syncing read-only content.
+
+Enabling this policy sets the following Registry key to 1:
+
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"PermitDisablePermissionInheritance"="dword:00000001"
 
 ## User Configuration policies
 <a name="Glob"> </a>
