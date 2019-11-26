@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 7/124/2018
+ms.date: 07/24/2018
 audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
