@@ -121,7 +121,7 @@ To learn more about how to create and edit pages, see [Add a page to a site](htt
 
 ### Content approval for pages
 
-Content approval ensures that edits to pages meet company policies or standards. Classic publishing allows for content approval on pages using out-of-the-box workflows. Modern pages also provide for content approval, and once it is enabled, users need only to press a Submit button on the page to start the approval flow. The recommended way to do this is to use the built-in Microsoft Flow commands. Learn more at [Page approval flow](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9).
+Content approval ensures that edits to pages meet company policies or standards. Classic publishing allows for content approval on pages using out-of-the-box workflows. Modern pages also provide for content approval, and once it is enabled, users need only to press a Submit button on the page to start the approval flow. The recommended way to do this is to use the built-in Power Automate commands. Learn more at [Page approval flow](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9).
 
 ### Scheduling
 

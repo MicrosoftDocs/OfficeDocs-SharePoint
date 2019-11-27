@@ -42,11 +42,11 @@ The following features and functionality have been deprecated in SharePoint Serv
 
 ### Access Services 2010
 
-Access Services 2010 will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [PowerApps](https://powerapps.microsoft.com/) and [Flows](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
+Access Services 2010 will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Flows](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
 
 ### Access Services 2013
 
-Access Services 2013 will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [PowerApps](https://powerapps.microsoft.com/) and [Flows](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.
+Access Services 2013 will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Flows](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.
 
 ### Aggregated Newsfeed
 
