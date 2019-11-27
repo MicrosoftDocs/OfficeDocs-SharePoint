@@ -15,14 +15,14 @@ ms.collection:
 search.appverid: MET150
 description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
 ---
-## Troubleshooting SPMT installation issues
+# Troubleshooting SPMT installation issues
 
 If you are having trouble installing the SharePoint Migration Tool, this article provides information on the possible causes and steps to correct the problem.
 
 If after troubleshooting you still are experiencing problems, consider downloading and installing the public preview (beta) of SPMT. It contains the latest updates and fixes.</br>
 [Download SPMT Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
 
-### **Common issues**
+## **Common issues**
 
 If you are having issues loading the SharePoint Migration tool, here are a few items that are commonly forgotten.
 
@@ -33,29 +33,10 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ 2015 Redistributable Update 3 RC](https://www.microsoft.com/download/details.aspx?id=52685).|
 |Anti-virus| Stop 3rd party anti-virus software on your computer prior to installation.
 
- ### Download the tool instead
-
-If you still are experiencing unexplained errors, try downloading the SPMT tool to your local computer.  
-
-1. Download zip package to your local computer:  [Download SPMT.zip package](https://aka.ms/spmt-zip).
-2. Right-click the zip file, and click properties.
-3. On the General tab, select **Unblock** and then click OK.</br></br>
- ![SPMT Properties](media/spmtzip.png)
-</br></br>
-4. Open the zip file and extract all files.
-5. Run the microsoft.sharepoint.migrationtool.advancedapp.exe file.
-
-### **Install errors**
-
-|**Error**|**Suggested action**|
-|:-----|:-----|
-|"Application SharePoint Migration Tool is already installed from another location".|An unfinished installation may be the cause of this error. Uninstall the tool and then reinstall.|
-
-</br></br>
 
 ### **Check to make sure all system prerequisites have been installed**
 
-Requirements for best performance
+#### Requirements for best performance
 
 |**Component**|**Recommendation**|
 |:-----|:-----|
@@ -67,9 +48,8 @@ Requirements for best performance
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
 
 </br>
-</br>
 
-Minimum requirements (expect slow performance)
+#### Minimum requirements (expect slow performance)
 
 |**Component**|**Requirement**|
 |:-----|:-----|
@@ -81,7 +61,27 @@ Minimum requirements (expect slow performance)
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
    
 
-### Required Endpoints
+## Download the tool instead
+
+If you still are experiencing unexplained errors, try downloading the SPMT tool to your local computer.  
+
+1. Download zip package to your local computer:  [Download SPMT.zip package](https://aka.ms/spmt-zip).
+2. Right-click the zip file, and click properties.
+3. On the General tab, select **Unblock** and then click OK.</br></br>
+ ![SPMT Properties](media/spmtzip.png)
+</br></br>
+4. Open the zip file and extract all files.
+5. Run the microsoft.sharepoint.migrationtool.advancedapp.exe file.
+
+## **Install errors**
+
+|**Error**|**Suggested action**|
+|:-----|:-----|
+|"Application SharePoint Migration Tool is already installed from another location".|An unfinished installation may be the cause of this error. Uninstall the tool and then reinstall.|
+
+</br></br>
+
+## Required Endpoints
 
 The following table lists the required endpoints for using the SharePoint Migration Tool.</br>
 
