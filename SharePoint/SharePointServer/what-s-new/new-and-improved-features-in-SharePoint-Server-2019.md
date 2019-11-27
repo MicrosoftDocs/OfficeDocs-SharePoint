@@ -91,8 +91,8 @@ Modern team sites bring a fresh and responsive user experience to team collabora
 
 SharePoint Server 2019 will continue to support creating classic team sites.
 
-### Integration with Power Apps, Power BI and MS Flow
-SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features Power Apps, Power BI and MS Flow are now available. SharePoint Server 2019 includes process automation and forms technologies like Power Apps and Flow to connect with your on-premises data. These features needs to be configured via gateway.
+### Integration with Power Apps, Power BI and Power Automate
+SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features Power Apps, Power BI, and Power Automate are now available. SharePoint Server 2019 includes process automation and forms technologies like Power Apps and Flow to connect with your on-premises data. These features needs to be configured via gateway.
 
 ### SharePoint using modern Internet Information Services (IIS) APIs
 
