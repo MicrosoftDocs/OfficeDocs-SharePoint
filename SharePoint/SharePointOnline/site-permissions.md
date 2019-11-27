@@ -20,13 +20,13 @@ description: "Learn about site permissions that you can configure in the SharePo
 
 # Admin center site permissions reference
 
-On the **Permissions** tab, you can manage permissions for the site and also for any associated Office 365 group or Microsoft Teams team.
+On the **Permissions** tab, you can manage permissions for the site and also for any associated Office 365 group or Microsoft Teams team. These roles are specific to the selected site or group and do not give users access to the SharePoint admin center.
 
 ## Site admins
 
 Site admins (formerly called site collection administrators) have the highest level of SharePoint permissions. They have the same Full Control permissions of a site owner, plus they can do additional things, such as managing search, the recycle bin, and site collection features. They also have access to any items in the site, including in subsites, even if permissions inheritance has been broken.
 
-If there is an Office 365 group connected to the site, then group owners are automatically included as site admins.
+If there is an Office 365 group connected to the site, then group owners are automatically included as site admins and group members are automatically included as site members. Managing site permissions through group membership is recommended over giving people permissions directly to the site. This allows for easier administration and consistent access for users across group resources.
 
 ### Office 365 group owners
 
@@ -47,7 +47,11 @@ Site members have edit permissions to the SharePoint site and can add and remove
 ## Site visitors
 
 Site visitors have view-only permissions to the SharePoint site. This permission level is only used by SharePoint and is not related to permissions in an associated Office 365 group or team.
-  
+
+## Additional permissions
+
+There are additional [permission levels](understanding-permission-levels.md) in SharePoint beyond those shown on this panel. Users may have access to the site or its contents through those roles. Users may also have access to files or folders in the site through sharing links.
+
 ## See also
 
 [External sharing overview](external-sharing-overview.md)
