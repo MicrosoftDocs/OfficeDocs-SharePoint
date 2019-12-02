@@ -98,7 +98,7 @@ Delve will also link to old OneDrive URLs for a period of time after a UPN chang
 
 ## SharePoint automated workflows and customizations
 
-Any automated workflows that were created with Microsoft Flow or SharePoint 2013 workflows and refer to a OneDrive URL will not work after a UPN change. Similarly, any SharePoint apps (including PowerApps) that reference a OneDrive URL will need to be updated after a UPN change.
+Any automated workflows that were created with Power Automate or SharePoint 2013 workflows and refer to a OneDrive URL will not work after a UPN change. Similarly, any SharePoint apps (including Power Apps) that reference a OneDrive URL will need to be updated after a UPN change.
 
 ## Recommendations
 

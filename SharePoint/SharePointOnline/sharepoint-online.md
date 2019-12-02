@@ -162,7 +162,7 @@ Help your users share, organize, and discover information with SharePoint.
                 <div class="card">
                     <div class="cardText">
                         <h3>Transform business processes</h3>
-                        <p><a href="/flow/getting-started">Get started with Microsoft Flow</a></p><p><a href="/powerapps/">PowerApps</a></p>
+                        <p><a href="/flow/getting-started">Get started with Power Automate</a></p><p><a href="/powerapps/">Power Apps</a></p>
                     </div>
                 </div>
             </div>

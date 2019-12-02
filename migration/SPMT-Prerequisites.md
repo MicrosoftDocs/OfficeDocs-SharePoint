@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Tool Prerequisites"
+title: "SharePoint Migration Tool prerequisites"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -9,20 +9,14 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
-- IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
-ms.custom: 
-description: "Prerequisites for SPMT."
+description: "Prerequisites for SPMT"
 ---
+# Prerequisites for the SharePoint Migration Tool</br>
 
 
-## Prerequisites for the SharePoint Migration Tool</br>
-
-
-### Recommended requirements for best performance
-
+## Recommended requirements for best performance
 
 
 |**Component**|**Recommendation**|

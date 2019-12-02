@@ -143,8 +143,8 @@ If apps in your organization refer to the site's URL, you might need to republis
 **Flow**<br>
 Flows will need to be recreated after the site address change.  
 
-**PowerApps**<br>
-PowerApps will need to be recreated after the site address change. 
+**Power Apps**<br>
+Power Apps will need to be recreated after the site address change. 
 
 **Hub sites**<br>
 If the site is associated with a hub, it will need to be reassociated after the site address is changed. 

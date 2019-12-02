@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 5/22/2018
 audience: Admin
 ms.topic: reference
 ms.service: sharepoint-online
@@ -36,6 +35,8 @@ The site collection root is not the only parent on a site. Every securable objec
 By default, permissions are inherited from parent to child. That is, if you do not change the permission structure, then a list item inherits permissions (through its parent list) from the top-level site in the collection. However, even if you break inheritance for a list, that list is still a parent for its own list items. The list items for the list inherit the permissions that the list has, and if you change the permissions for the list, the list items inherit the changes.
   
 When you first break this chain of inheritance from parent to child, the child starts with a copy of the parent's permissions. Then, you edit these permissions to make them the way that you want. You can add permissions, remove permissions, create special groups, and so on. None of the changes affect the original parent. And, if you decide that breaking inheritance was the wrong decision, you can resume inheriting permissions at any time.
+
+When a user shares or stops sharing an item that contains other items with broken inheritance, a one-time push down of that permission addition or removal is sent to all child items, even those with broken inheritance. This is true for both direct permissions and sharing links. When managing permissions for an item with broken inheritance, users are able to remove any direct permissions on it. If an item with broken inheritance is accessible by a sharing link that was created on one of its parent folders and a user does not want that link to grant access to the item, then users can either remove the link entirely or they can move the file outside of the folder for which sharing link has permissions.
   
 ## More about permissions inheritance
 <a name="__toc340139790"> </a>
