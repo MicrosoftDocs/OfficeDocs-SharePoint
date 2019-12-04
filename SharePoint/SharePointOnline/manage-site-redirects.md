@@ -16,7 +16,7 @@ description: "Learn how to view and delete site redirects."
 
 # Manage site redirects 
 
-As part of [changing a site address](change-site-address.md), [moving a site to a different geo location](/office365/enterprise/move-sharepoint-between-geo-locations), or [swapping a site](modern-root-site#swap-your-root-site), we automatically create redirects to ensure that links pointing to the prior URL continue to work. These redirects are sites that use a special site template at the prior site URL.
+As part of [changing a site address](change-site-address.md), [moving a site to a different geo location](/office365/enterprise/move-sharepoint-between-geo-locations), or [swapping a site](modern-root-site.md#swap-your-root-site), we automatically create redirects to ensure that links pointing to the prior URL continue to work. These redirects are sites that use a special site template at the prior site URL.
 
 For example, if you changed a site address from https://<i></i>contoso.sharepoint.<i></i>com/sites/*OldSiteName* to https://<i></i>contoso.sharepoint.<i></i>com/sites/*NewSiteName* or moved a site from https://<i></i>*contoso*.sharepoint.<i></i>com/sites/SiteName to https://<i></i>*contosoEUR*.sharepoint.<i></i>com/sites/SiteName, we'll place a redirect (Template type REDIRECTSITE#0) at the old URL, which contains special headers and logic to redirect your browser requests to the new site.
 
