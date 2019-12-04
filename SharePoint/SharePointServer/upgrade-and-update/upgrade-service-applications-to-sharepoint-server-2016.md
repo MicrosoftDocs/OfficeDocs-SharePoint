@@ -299,9 +299,9 @@ To upgrade the Business Data Connectivity service application, you create the ne
 
 Where:
     
-  -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications. 
-    
-This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
+  -  _SharePoint Web Services default_ is the name of the service application pool that will contain the new service applications.
+  
+  This cmdlet sets the service application pool as a variable that you can use again in the cmdlets that follow. If you have multiple application pools and have to use a different application pool for a particular service application, repeat this step in the procedure to create each service application to use the appropriate application pool.
     
 4. To upgrade the Business Data Connectivity service application, at the Microsoft PowerShell command prompt, type the following command:
     
