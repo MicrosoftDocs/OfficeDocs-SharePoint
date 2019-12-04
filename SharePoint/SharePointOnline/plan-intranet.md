@@ -93,26 +93,27 @@ When you've decided on which solution to build first, work with the business lea
 |Weekly news post by a senior leader|Megan Bowen|News post views and shares|
 |Company business value slides known and used|Adele Vance|Slide downloads and sales team alignment|
 
+When you've listed out the primary objectives for the site, review who the site's users are and their goals:
 
+- Who are the target users of the solution?
+- What are their goals?
+- How do they get their job done today?
+- What systems and tools do they use today?
+- Who are the champions who will help them transition to the new solution?
 
+Once you have compiled this information, create a design brief to help map out the user journey of how you want the site to operate. For example:
 
-Who are the target users of the solution?
-What are their goals?
-How do they get their job done today?
-What systems and tools do they use today?
-Who are the champions who will help them transition to the new solution?
+|||
+|:----|:----|
+|Scenario|One-stop site for employees to hear from company leadership, learn the company's goals, and hear the latest news from customer meetings and industry events.|
+|Users|All company employees|
+|Value|Increase employee awareness and alignment with company strategy and business opportunities.|
+|User journey|News post is sent to the company announcing a leadership Q&A meeting.<br>Allan goes to the leadership portal to watch the event live.<br>John uses Yammer to ask a question at the meeting.<br>John shares the recording link with coworkers.|
+|Metrics|Live event views<br>Event recording views<br>Yammer engagement|
+|Stretch goals|Continued Yammer engagement<br>Improving employee sentiment (survey)|
 
+### Adoption success
 
-
-Design brief
-User journey
-Objectives
-Metrics / KPIs
-Sponsors
-Stretch goals
-
-
-Adoption Success Factors
 
 Stakeholders
 Recruit executive sponsors
@@ -120,17 +121,6 @@ Empower champions
 
 Scenarios
 Prioritize SharePoint scenarios
-Measure success
-
-
-Awareness
-Implement SharePoint comms campaign
-Execute launch events
-
-
-Training
-Train end users
-Ready help desk
 
 ## Choose solution components
 
@@ -147,8 +137,19 @@ SharePoint offers a variety of building blocks that you can use to create an int
 For the scenario that you've decided to build, choose the components that you'll need to use to meet the site's business objectives. We recommend creating a rapid prototype and granting access to your key stakeholders. This provides a substantive framework for further discussions and revisions of the design.
 
 
+## Roll out the pilot
+
+Measure success
 
 
+Awareness
+Implement SharePoint comms campaign
+Execute launch events
+
+
+Training
+Train end users
+Ready help desk
 
 
 
