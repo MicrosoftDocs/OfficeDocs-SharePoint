@@ -57,7 +57,7 @@ To get started:
 
 Make sure that you have:
 
-- **Access to the destination**: You must be either a global admin or SharePoint Online admin to the Office 365 tenant where you want to migrate your content.
+- **Access to the destination**: You must either be a global admin or SharePoint Online admin to the Office 365 tenant where you want to migrate your content.
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate 
 
