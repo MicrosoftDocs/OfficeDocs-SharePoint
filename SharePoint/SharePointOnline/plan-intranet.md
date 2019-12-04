@@ -118,6 +118,8 @@ For the scenario that you've decided to build, choose the components that you'll
 
 At this stage, we recommend that you involve your help desk so that the are prepared to answer questions once the site rolls out to a larger audience.
 
+For best practices for launching an intranet site, review [Creating and launching a healthy SharePoint portal](portal-health.md).
+
 ## Roll out the pilot
 
 When the prototype has evolved to a point where you want to share it more broadly, you can roll it out to a pilot group, or even to the whole organization. User adoption is a critical part of success for a new intranet site. We recommend that you use both a top down and bottom up approach to driving site usage:
