@@ -21,18 +21,18 @@ description: "Learn about planning and deploying a SharePoint intranet."
 
 # Plan an intelligent SharePoint intranet
 
-SharePoint offers a wide variety of options and tools to create intranet sites in your organization. Moving your intranet to SharePoint might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites on line and getting a return on your investment.
+SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
 
 We'll cover how to:
 
-- Review your current intranet and your existing SharePoint environment
+- Review your current intranet
 - Identify and prioritize your business scenarios for intranet sites
 - Identify one key scenario to prototype and pilot
 - Launch the pilot and engage with your users
 
 ## Review your existing intranet
 
-Your current intranet may be composed of sites from different business groups, such as HR, IT, Facilities, Engineering, and others. As a first step to planning your new SharePoint intranet, we recommend taking an inventory of your existing sites and meeting with the owners of each to determine their business requirements for new sites.
+Your current intranet may be composed of sites from different business groups, such as HR, IT, Facilities, Engineering, and others. As a first step to planning your new SharePoint intranet, we recommend taking an inventory of your existing sites and meeting with the owners of each to determine their business requirements for new sites. Take stock of where your content is located and how much content you would need to move when creating a new intranet site.
 
 As part of these meetings, you can identify the business needs that are addressed by each existing site as well as any requirements you might have for new sites.
 
@@ -44,7 +44,7 @@ Work with the intranet site owners in your organization to determine what an ide
 - What tools or technology do you want them to use to accomplish this?
 - How will they know that they're successful?
 
-For example, create a table like this to list out business scenarios that you want to address with intranet sites:
+For example, create a table like this to list out business scenarios that you want to address with intranet sites across your organization:
 
 |**As someone in...**|**I want to...**|**Using...**|**I know this is successful when...**|
 |:-------------------|:---------------|:-----------|:------------------------------------|
@@ -85,20 +85,20 @@ When you've decided on which solution to build first, work with the business lea
 
 When you've listed out the primary objectives for the site, review who the site's users are and their goals:
 
-- Who are the target users of the solution?
+- Who are the target users of the site?
 - What are their goals?
 - How do they get their job done today?
 - What systems and tools do they use today?
-- Who are the champions who will help them transition to the new solution?
+- Who are the champions who will help them transition to the new site or solution?
 
 Once you have compiled this information, create a design brief to help map out the user journey of how you want the site to operate. For example:
 
 |||
 |:----|:----|
-|Scenario|One-stop site for employees to hear from company leadership, learn the company's goals, and hear the latest news from customer meetings and industry events.|
+|Scenario|Leadership site: One-stop site for employees to hear from company leadership, learn the company's goals, and hear the latest news from customer meetings and industry events.|
 |Users|All company employees|
 |Value|Increase employee awareness and alignment with company strategy and business opportunities.|
-|User journey|News post is sent to the company announcing a leadership Q&A meeting.<br>Allan goes to the leadership portal to watch the event live.<br>John uses Yammer to ask a question at the meeting.<br>John shares the recording link with coworkers.|
+|User journey|News post is sent to the company announcing a leadership Q&A meeting.<br>Allan goes to the leadership portal to watch the event live.<br>Allan uses Yammer to ask a question at the meeting.<br>Allan shares the recording link with coworkers.|
 |Metrics|Live event views<br>Event recording views<br>Yammer engagement|
 |Stretch goals|Continued Yammer engagement<br>Improving employee sentiment (survey)|
 
@@ -116,7 +116,7 @@ SharePoint offers a variety of building blocks that you can use to create an int
 
 For the scenario that you've decided to build, choose the components that you'll need to use to meet the site's business objectives. We recommend creating a rapid prototype and granting access to your key stakeholders. This provides a substantive framework for further discussions and revisions of the design.
 
-At this stage, we recommend that you involve your help desk so that the are prepared to answer questions once the site rolls out to a larger audience.
+At this stage, we recommend that you involve your help desk so that they are prepared to answer questions once the site rolls out to a larger audience.
 
 For best practices for launching an intranet site, review [Creating and launching a healthy SharePoint portal](portal-health.md).
 
