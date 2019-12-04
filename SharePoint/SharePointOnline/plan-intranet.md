@@ -21,34 +21,24 @@ description: "Learn about planning and deploying a SharePoint intranet."
 
 # Plan an intelligent SharePoint intranet
 
-Inspire participants about what's possible with Intelligent Intranets
+SharePoint offers a wide variety of options and tools to create intranet sites in your organization. Moving your intranet to SharePoint might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites on line and getting a return on your investment.
+
+We'll cover how to:
 
 - Review your current intranet and your existing SharePoint environment
 - Identify and prioritize your business scenarios for intranet sites
 - Identify one key scenario to prototype and pilot
-
+- Launch the pilot and engage with your users
 
 ## Review your existing intranet
 
+Your current intranet may be composed of sites from different business groups, such as HR, IT, Facilities, Engineering, and others. As a first step to planning your new SharePoint intranet, we recommend taking an inventory of your existing sites and meeting with the owners of each to determine their business requirements for new sites.
 
-
-Your current intranet may be composed of sites from different business groups, such as HR, IT, Facilities, Engineering, and others. As a first step to planning your new SharePoint intranet, we recommend taking an inventory of your existing sites and surveying the owners of each to determine their business requirements for new sites.
-
-Business priorities for each business group, then prioritize from that
-
-
-- Communications and employee experiences
-- Knowledge sharing and discovery
-- Shared content and business solutions
-
-
-
-
-
-
-
+As part of these meetings, you can identify the business needs that are addressed by each existing site as well as any requirements you might have for new sites.
 
 ## Identify business scenarios
+
+Work with the intranet site owners in your organization to determine what an ideal intranet site would look like to them:
 
 - What do you want visitors to the site to be able to accomplish?
 - What tools or technology do you want them to use to accomplish this?
