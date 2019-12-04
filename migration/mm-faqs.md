@@ -21,8 +21,8 @@ description: Migration Manager FAQs
 >[!Note]
 >Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
-**Question:** Can I migrate files from SharePoint Server? </br>
-**Answer:**   At this time, Migration Manager only supports the migration of **file shares**.  It does not support SharePoint Server migration.
+**Question:** Can I migrate content from SharePoint Server? </br>
+**Answer:**   At this time, Migration Manager only supports the migration of **file shares**.  It does not support the migration of content from SharePoint Server.
 
 **Question:**  Can I run the SharePoint Migration Tool (SPMT) on the same computer that I have the Migration Manager agent installed?</br>
 **Answer:**   Yes.
