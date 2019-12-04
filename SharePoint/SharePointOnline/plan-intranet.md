@@ -102,16 +102,6 @@ Once you have compiled this information, create a design brief to help map out t
 |Metrics|Live event views<br>Event recording views<br>Yammer engagement|
 |Stretch goals|Continued Yammer engagement<br>Improving employee sentiment (survey)|
 
-### Adoption success
-
-
-Stakeholders
-Recruit executive sponsors
-Empower champions
-
-Scenarios
-Prioritize SharePoint scenarios
-
 ## Choose solution components
 
 SharePoint offers a variety of building blocks that you can use to create an intranet:
@@ -126,22 +116,23 @@ SharePoint offers a variety of building blocks that you can use to create an int
 
 For the scenario that you've decided to build, choose the components that you'll need to use to meet the site's business objectives. We recommend creating a rapid prototype and granting access to your key stakeholders. This provides a substantive framework for further discussions and revisions of the design.
 
+At this stage, we recommend that you involve your help desk so that the are prepared to answer questions once the site rolls out to a larger audience.
 
 ## Roll out the pilot
 
-Measure success
+When the prototype has evolved to a point where you want to share it more broadly, you can roll it out to a pilot group, or even to the whole organization. User adoption is a critical part of success for a new intranet site. We recommend that you use both a top down and bottom up approach to driving site usage:
 
+- Recruit executive sponsors who can ensure that the intranet project is funded and can help message the importance of the new site to others in the organization.
+- Empower champions throughout the organization to evangelize the new site on a grass roots level.
 
-Awareness
-Implement SharePoint comms campaign
-Execute launch events
+Other things you can do to drive success include:
+- Have launch events and communications campaigns
+- Provide formal training
+- Hold regular office hours where users can ask questions
 
+As the site rolls out and more users engage, watch your success metrics and make adjustments as needed to drive additional engagement and user satisfaction.
 
-Training
-Train end users
-Ready help desk
-
-
+When the site is on its way to success, take stock of any lessons learned in the process and proceed on to the next intranet project that you want to undertake.
 
 ## Related topics
 
