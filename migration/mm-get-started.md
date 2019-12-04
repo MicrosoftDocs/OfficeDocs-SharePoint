@@ -27,6 +27,10 @@ Migration Manager answers those challenges by providing you a centralized way of
 
 Located in the modern SharePoint Admin Center, the Migration Manager guides you through the setup of your clients and the creation of your tasks.  You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
 
+>[!Note]
+>Migration Manager currently supports only the migration of **file shares**. </br>
+This release does not support the migration of files from SharePoint Server.
+
 ## How does it work? 
 
 It works in three simple steps:
