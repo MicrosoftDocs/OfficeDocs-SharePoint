@@ -37,21 +37,21 @@ Nearly every version of SharePoint has had a way of creating custom layouts for 
 
 ## Workflows
 
-Microsoft recommends using [Microsoft Flow](https://flow.microsoft.com) for configuring and executing all workflows in your Office 365 environment, including SharePoint Online. For example, it&#39;s possible to create [unique approval workflows](/flow/modern-approvals) for content stored in SharePoint. Additionally, it&#39;s possible to use Flow as the default workflow engine [for approving SharePoint page content](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9), directly from the SharePoint user interface. Flows can be [triggered by SharePoint](/connectors/sharepointonline/#triggers) actions (such as when an item is created in a list), or perform [actions within SharePoint](/connectors/sharepointonline/#actions) (such as update a list item). While SharePoint Designer workflows are still supported, new workflows should be created using Flow.
+Microsoft recommends using [Power Automate](https://flow.microsoft.com) for configuring and executing all workflows in your Office 365 environment, including SharePoint Online. For example, it&#39;s possible to create [unique approval workflows](/flow/modern-approvals) for content stored in SharePoint. Additionally, it&#39;s possible to use Flow as the default workflow engine [for approving SharePoint page content](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9), directly from the SharePoint user interface. Flows can be [triggered by SharePoint](/connectors/sharepointonline/#triggers) actions (such as when an item is created in a list), or perform [actions within SharePoint](/connectors/sharepointonline/#actions) (such as update a list item). While SharePoint Designer workflows are still supported, new workflows should be created using Flow.
 
 ## Forms
 
-[PowerApps](https://powerapps.microsoft.com) can be used to create custom forms for use in modern SharePoint sites. There are several ways in which these PowerApps forms can be used in your SharePoint site:
+[Power Apps](https://powerapps.microsoft.com) can be used to create custom forms for use in modern SharePoint sites. There are several ways in which these Power Apps forms can be used in your SharePoint site:
 
 - [As a custom SharePoint list form](/powerapps/maker/canvas-apps/customize-list-form)
 - [As a custom SharePoint list view](https://support.office.com/article/9338b2d2-67ac-4b81-8e67-97da27e5e9ab)
 - [As a stand-alone app that uses a SharePoint as its data source](/powerapps/maker/canvas-apps/connections/connection-sharepoint-online)
 
-You can [embed a PowerApp form in a modern page](https://support.office.com/article/6285f05e-e441-408a-99d7-aa688195cd1c) using the PowerApps web part.
+You can [embed a Power App form in a modern page](https://support.office.com/article/6285f05e-e441-408a-99d7-aa688195cd1c) using the Power Apps web part.
 
-Forms that were previously created using InfoPath and hosted in SharePoint using InfoPath Forms Services should be converted to PowerApps forms, as Microsoft has announced [the deprecation of InfoPath](https://www.microsoft.com/microsoft-365/blog/2014/01/31/update-on-infopath-and-sharepoint-forms/).
+Forms that were previously created using InfoPath and hosted in SharePoint using InfoPath Forms Services should be converted to Power Apps forms, as Microsoft has announced [the deprecation of InfoPath](https://www.microsoft.com/microsoft-365/blog/2014/01/31/update-on-infopath-and-sharepoint-forms/).
 
-[Microsoft Forms](https://forms.office.com/) can also be used for [easily creating light-weight forms](https://support.office.com/forms). Like PowerApps, it&#39;s possible to [embed a Microsoft Form in a page](https://support.office.com/article/d4b4d3ce-7860-41e4-8a98-76380efe7256) using the Microsoft Forms web part.
+[Microsoft Forms](https://forms.office.com/) can also be used for [easily creating light-weight forms](https://support.office.com/forms). Like Power Apps, it's possible to [embed a Microsoft Form in a page](https://support.office.com/article/d4b4d3ce-7860-41e4-8a98-76380efe7256) using the Microsoft Forms web part.
 
 ## Customizing your SharePoint site programmatically
 
@@ -73,9 +73,9 @@ The following table gives an example of older methods for customizing sites alon
 
 | Legacy | Modern |
 | --- | --- |
-| Implement branding using custom master pages, page layouts, and themes | Use the &quot;apply a look&quot; option to customize branding elements like logo, header, footer and colors |
+| Implement branding using custom master pages, page layouts, and themes | Use the "apply a look" option to customize branding elements like logo, header, footer and colors |
 | Use custom navigation providers such as structured navigation or managed metadata navigation to dynamically generate navigational elements | Manually specify navigational links |
 | Create a wiki page and choose a text layout option to modify the layout of the page | Create a modern page and add section layouts to the page to arrange web parts on the page. |
 | Create a workflow using SharePoint Designer | Create a workflow using Flow |
-| Customize a SharePoint form using InfoPath | Customize a SharePoint form using a PowerApp |
+| Customize a SharePoint form using InfoPath | Customize a SharePoint form using a Power App |
 | Deploy a web part to a site using a sandbox solution | Use the SharePoint App Catalog to deploy a client-side web part to a site |

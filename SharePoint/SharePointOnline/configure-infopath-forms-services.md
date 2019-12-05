@@ -24,7 +24,7 @@ description: "How to configure Infopath in SharePoint Online."
 InfoPath Forms Services in SharePoint Online lets you deploy your organization's forms to your sites, enabling users fill out these forms in a web browser. You can configure InfoPath Forms Services in any of several ways, depending on the needs of your organization.
   
 > [!NOTE]
-> InfoPath Forms Services 2013 is the last release of InfoPath Forms Services. Microsoft PowerApps is the recommended solution for creating and delivering custom forms for SharePoint Online lists. Create new forms with PowerApps from the command bar or the **Customize** button on SharePoint Online list forms. Support for InfoPath Forms Services will match the support lifecycle for SharePoint Server 2016. 
+> InfoPath Forms Services 2013 is the last release of InfoPath Forms Services. Microsoft Power Apps is the recommended solution for creating and delivering custom forms for SharePoint Online lists. Create new forms with Power Apps from the command bar or the **Customize** button on SharePoint Online list forms. Support for InfoPath Forms Services will match the support lifecycle for SharePoint Server 2016. 
   
 ## Overview
 <a name="__toc336423362"> </a>

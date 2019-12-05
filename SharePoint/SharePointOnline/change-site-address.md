@@ -91,13 +91,13 @@ Before you change the address of a site, it's important to communicate the chang
 3. Run the following command to verify that the site address can be changed:
 
     ```PowerShell
-    Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl> -ValidationOnly
+    Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl> -ValidationOnly
     ```
 
 4. Run the following command to change the site address:
 
     ```PowerShell
-    Start-SPOSiteRename -Identity <SiteUrL> -NewSiteUrl <NewSiteUrl>
+    Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl>
     ```
 
 For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
@@ -143,8 +143,8 @@ If apps in your organization refer to the site's URL, you might need to republis
 **Flow**<br>
 Flows will need to be recreated after the site address change.  
 
-**PowerApps**<br>
-PowerApps will need to be recreated after the site address change. 
+**Power Apps**<br>
+Power Apps will need to be recreated after the site address change. 
 
 **Hub sites**<br>
 If the site is associated with a hub, it will need to be reassociated after the site address is changed. 

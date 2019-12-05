@@ -64,7 +64,7 @@ If you currently have SharePoint Server installed, chances are you have made som
 
 If you already have a portion of your company in the cloud or plan to do so in the future, know that certain customizations will not transfer to SharePoint Online.  Here is a list of few of those:
 
-•	Workflows, User Alerts, and custom master pages will not transfer to SharePoint Online. We recommend you use Microsoft Flow for workflows, reconfigure alerts once migrated, and use the out of the box customization for site look and feel changes.
+•	Workflows, User Alerts, and custom master pages will not transfer to SharePoint Online. We recommend you use Power Automate for workflows, reconfigure alerts once migrated, and use the out of the box customization for site look and feel changes.
 
 •	Custom Search schema will not transfer to SharePoint Online. When content is migrated to SharePoint Online, you may want to re-implement any custom Search schema configuration necessary.
 
@@ -84,7 +84,7 @@ Instead of using BCS to display your data, you could use PowerBI and a Data Mana
 
 If a portion of your sites are already in the cloud, or if you intend on moving online in the future, adopting the modern features now will help “futureproof” your installation.
 
-•	Use Office 365 Groups and Microsoft Flow.   Retire the use of email, Site mailboxes, or Mobile Accounts (SMS/Text Messaging)
+•	Use Office 365 Groups and Power Automate.   Retire the use of email, Site mailboxes, or Mobile Accounts (SMS/Text Messaging)
 
 •	Solutions that intercept and/or modify the HTTP pipeline you could use Azure Conditional Access Policies by fronting the farm by using the Azure AD App Proxy. For more information on how to use AD FS, see [Access Control Policies in Windows Server 2016 AD FS](/windows-server/identity/ad-fs/operations/access-control-policies-in-ad-fs).
 

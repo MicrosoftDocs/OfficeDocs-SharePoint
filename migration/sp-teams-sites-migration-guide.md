@@ -82,10 +82,10 @@ Decide how your team sites map to a modern hub architecture. It isn't necessary 
 
 
 ### Workflows and planning for the future
-In Office 365, **Microsoft Flow** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Microsoft Flow** to allow for better platform integration. 
+In Office 365, **Power Automate** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Power Automate** to allow for better platform integration. 
 
 To learn more:
-- [Get started with Microsoft Flow](https://docs.microsoft.com/flow/getting-started)
+- [Get started with Power Automate](https://docs.microsoft.com/flow/getting-started)
 
 >[!Note]
 >Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime.
