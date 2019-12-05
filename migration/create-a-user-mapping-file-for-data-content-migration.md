@@ -49,7 +49,7 @@ The following example uses Excel to create the CSV file.
     
 2. Enter the values for your user mapping.
     
-  - **Column A:** Enter the **SID of the user** from the source location.  *Required.* 
+  - **Column A:** Enter the **log in name of the user** from the source location.  *Required.* 
     
   - **Column B:** Enter the **principal username** on the target site.  *Required.* 
     
