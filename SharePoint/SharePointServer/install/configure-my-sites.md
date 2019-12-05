@@ -52,7 +52,7 @@ Ensure you have a User Profile service application that you want to use for My S
 > Although the **Create New User Profile service application** dialog box requests information in the **My Site Host URL** and **Personal Site Location** sections, for this task, remove any default values and leave those fields blank when you create the User Profile service application. Additionally, you can select any of the options in **Site Naming Format**. These settings will be configured separately later in this task. 
   
 > [!NOTE]
-> This section only applies to SharePoint Server 2013. > Optionally, configure profile synchronization if you want to synchronize user and group profile information that is stored in the SharePoint Server 2013 profile database with profile information that is stored in a directory service or business system. 
+> This section only applies to SharePoint Server 2013. Optionally, configure profile synchronization if you want to synchronize user and group profile information that is stored in the SharePoint Server 2013 profile database with profile information that is stored in a directory service or business system. 
   
 ## Create a My Site host site collection
 <a name="mysitehost"> </a>
