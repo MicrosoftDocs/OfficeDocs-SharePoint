@@ -31,26 +31,26 @@ To manage sites in the new SharePoint admin center, go to the current SharePoint
   
 For info about creating sites, see [Create a site](create-site-collection.md). For info about deleting sites, see [Delete a site](delete-site-collection.md)
   
-## Add or remove owners
+## Add or remove site admins and group owners
 <a name="addremoveadmins"> </a>
   
 1. In the left column, click to select a site. 
     
-2. Click **Owners**. For Office 365 group-connected team sites, you can add and remove group owners. You can also also add and remove additional site admins. For other sites, you can add and remove admins and change the primary admin.  
+2. Select **Permissions**. For a group-connected team site, you can add and remove group owners and additional site admins. For other sites, you can add and remove site admins and change the primary admin. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. For info about each role, see [About site permissions](site-permissions.md). 
     
 ## Change a site's hub association
 <a name="hubsite"> </a>
   
 1. In the left column, click to select a site. 
     
-2. Click **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. [More info about hub sites](planning-hub-sites.md) 
+2. Select **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. [More info about hub sites](planning-hub-sites.md) 
 
 ## Change the external sharing setting for a site
 <a name="changesitesharing"> </a>
   
 1. In the left column, click to select a site.
     
-2. Click **Sharing**.
+2. Select **Sharing**.
     
 3. Select an option, and then click **Save**. For info about the options, see [Turn external sharing on or off for for a site](change-external-sharing-site.md).
     

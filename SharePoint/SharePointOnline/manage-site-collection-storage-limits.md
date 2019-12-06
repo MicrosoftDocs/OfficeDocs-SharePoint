@@ -79,7 +79,7 @@ Follow these steps to specify individual site storage limits when your storage m
 
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-4. On the **Active sites** page of the new SharePoint admin center, select a site, select the ellipsis (...), and then select **Storage**. 
+4. On the **Active sites** page of the new SharePoint admin center, select a site, and then select **Storage**. 
 
     ![Changing the storage limit for a site](media/site-storage-limit.png)
     
