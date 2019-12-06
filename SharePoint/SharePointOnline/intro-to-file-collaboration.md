@@ -239,6 +239,7 @@ To set up external sharing in your organization, you need to make sure that sett
 - Design and deploy retention labels and DLP policies to protect sensitive and highly confidential files. [Learn how](https://docs.microsoft.com/microsoft-365/compliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
 
 - Block or limit access from unmanaged devices, sign out inactive users on unmanaged devices, or allow access from only specific IP address ranges. For info about setting up identity and device-access policies to protect content, see [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies).  
+
 ![Access control settings for SharePoint](media/sp-collabguide16.png)
 
 ### Storage
