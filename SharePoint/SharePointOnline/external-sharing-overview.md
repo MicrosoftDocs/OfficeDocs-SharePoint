@@ -50,7 +50,7 @@ If you want to get straight to setting up sharing, choose the scenario you want 
 
 SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. If a site's external sharing option and the organization-level sharing option don't match, the most restrictive value will always be applied.
   
-Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests who sign in, and with internal users. 
+Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow unauthenticated sharing using "Anyone" links (previously called "shareable" links or "anonymous access" links), users can still share with guests, who sign in, and with internal users. 
 
 > [!IMPORTANT]
 > Even if your organization-level setting allows external sharing, not all new sites allow it by default. The default sharing setting for Office 365 group-connected team sites is "New and existing guests." The default for communication sites and classic sites is "Only people in your organization." 
@@ -120,7 +120,7 @@ Anyone with the link (inside or outside your organization) can access files and 
   
 ![Sharing a folder by using an "Anyone" link](media/anyone-link.png)
 
-People who access files and folders anonymously through "Anyone" links aren't added to your organization's directory, and you can't assign them licenses. They also can't access sites anonymously. They can only view or edit the specific file or folder for which they have an "Anyone" link. 
+People who access files and folders through "Anyone" links aren't added to your organization's directory, and you can't assign them licenses. They also can't access sites using an "Anyone" link. They can only view or edit the specific file or folder for which they have an "Anyone" link. 
   
 ## Stopping sharing
 

@@ -230,7 +230,7 @@ When an Office 365 group is created from anywhere within Microsoft 365, a ShareP
 
 ### Sharing
 
-To set up external sharing in your organization, you need to make sure that settings across multiple admin centers are set the way you want. Guest sharing is enabled by default in SharePoint and OneDrive, but disabled for Microsoft Teams. [Configure Microsoft 365 to enable guest collaboration for Teams](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team). Set the external sharing level and the default sharing link type.
+To set up external sharing in your organization, you need to make sure that settings across multiple admin centers are set the way you want. Sharing with people outside your organization is enabled by default in SharePoint and OneDrive, but disabled for Microsoft Teams. [Configure Microsoft 365 to enable guest collaboration for Teams](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team). Set the external sharing level and the default sharing link type.
 
 ![External sharing permission levels for SharePoint and OneDrive](media/sp-collabguide15.png)
 
