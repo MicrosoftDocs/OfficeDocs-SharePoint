@@ -159,7 +159,7 @@ Try sharing again.
 
 ## OSE303
 
-Error OSE303 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with guests who sign in and by using Anyone links. To change this setting:
+Error OSE303 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with guests and by using Anyone links. To change this setting:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -188,7 +188,7 @@ Try sharing again.
 
 ## OSE304
 
-Error OSE304 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with guests who sign in. To change this setting:
+Error OSE304 indicates that the person sharing the file or folder is not a member of the security groups that are allowed to share with guests. To change this setting:
 
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
