@@ -51,15 +51,12 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
     
 - [Delete sites](delete-site-collection.md)
     
-- [Manage site collections and global settings](planning-guide.md)
-    
-- [Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md)
+- [Manage sharing settings at the organization level](turn-external-sharing-on-or-off.md)
     
 - [Add and remove site admins](manage-site-collection-administrators.md)
     
-- [Manage site collection storage limits](manage-site-collection-storage-limits.md)
-    
-- [Manage SharePoint Online user profiles](manage-user-profiles.md)
+- [Manage site storage limits](manage-site-collection-storage-limits.md)
+
     
   
 ## See also
