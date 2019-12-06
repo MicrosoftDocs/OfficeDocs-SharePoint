@@ -245,7 +245,7 @@ To set up external sharing in your organization, you need to make sure that sett
 
 By default, file storage for team sites is managed automatically. If you prefer to control storage manually, see [Manage site storage limits](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits). For info about setting the default storage space for individual libraries in OneDrive, see [Set the default storage space for OneDrive users](https://docs.microsoft.com/onedrive/set-default-storage-space). For information about the amount of storage that comes with your plan, see [SharePoint Online limits](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
-![Managing site storage limits](media/sp-collabguide17.png)
+![Managing site storage limits](media/site-storage-limits.png)
 
 ### Specify team site libraries to sync automatically
 
