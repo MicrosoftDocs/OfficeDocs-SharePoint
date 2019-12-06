@@ -180,7 +180,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 - **New SharePoint admin center**. In the new SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The **Active sites** page of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Office 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the new SharePoint admin center](https://docs.microsoft.com/sharepoint/get-started-new-admin-center).
 
-    ![The Active Sites page in the SharePoint admin center](media/sp-collabguide13.png)
+    ![The Active Sites page in the SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
 
 - **Microsoft PowerShell**. The SharePoint Online Management Shell is a PowerShell module that lets you run command-line operations. It makes performing batch operations more efficient, and is the only way to perform some management tasks in SharePoint and OneDrive. [Get started with the SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
@@ -226,7 +226,7 @@ To prepare for file collaboration in Microsoft 365, configure the following sett
 
 When an Office 365 group is created from anywhere within Microsoft 365, a SharePoint site is automatically created. You can let all users create groups, only some users, or you can block group creation and manage it centrally in your IT department. For info, see [Manage who can create Office groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). You can also use a naming policy for groups and set an expiration period so that groups that are no longer being used will be deleted. For more info, see [Plan for governance in Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide). If you allow users to create groups, you can also allow them to create team sites from the SharePoint start page and from OneDrive and manage default site settings. For info, see [Manage site creation](https://docs.microsoft.com/sharepoint/manage-site-creation).
 
-![Site creation settings in the new SharePoint admin center](media/sp-collabguide14.png)
+![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
 ### Sharing
 
