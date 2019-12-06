@@ -163,7 +163,7 @@ When users share files and folders, a shareable link is created which has permis
 
 It's important to educate your users in how these sharing links work and which they should use to best maintain the security of your data. Send your users links to [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c), and include information about your organization's policies for sharing information.
 
-**Anonymous access with *Anyone* links**
+**Unauthenticated access with *Anyone* links**
 
 *Anyone* links are a great way to easily share files and folders with guests. However, if you're sharing sensitive information, this may not be the best option.
 
@@ -321,7 +321,7 @@ For information on how to migrate content with the SharePoint Migration Tool, se
 
 [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
 
-[Best practices for sharing files and folders with anonymous users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
+[Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
 
 [Understanding how Microsoft Information Protection capabilities work together](https://youtu.be/FcOMnAL_LKA)
 
