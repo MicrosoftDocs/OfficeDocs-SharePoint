@@ -47,7 +47,7 @@ For detailed information about how to set up guest access for a site, see [Colla
 
 |**Select this option:**|**If you want to:**|
 |:-----|:-----|
-|Anyone  <br/> | Allow site owners and others with full control permission to share the site with people who authenticate. Allow site users to decide when sharing files and folders to require authentication or allow people to access the item anonymously. Anyone links to files and folders can be freely forwarded. <br/> |
+|Anyone  <br/> | Allow site owners and others with full control permission to share the site with people who authenticate. Allow site users to decide when sharing files and folders to require authentication or allow unauthenticated people to access the item. Anyone links to files and folders can be freely forwarded. <br/> |
 |New and existing guests  <br/> | Allow site owners and others with full control permission to share the site with people outside the organization. These people will need to sign in and will be added to the directory. Allow site users to share files and folders with people who aren't in the organization's directory. <br/> |
 |Existing guests  <br/> |Allow sharing with only people already in your directory. These users may exist in your directory because they previously accepted sharing invitations or because they were [manually added](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal). (You can tell an external user because they have **#EXT#** in their user name.)  <br/> |
 |Only people in your organization  <br/> |Prevent all site users from sharing any site content externally. (This is the default setting for new classic sites.)  <br/> |
@@ -61,7 +61,7 @@ The settings available are dependent on your organization-level setting. If you 
   
 ## See also
 
-[Best practices for sharing files and folders with anonymous users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
+[Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
 
 [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
 
