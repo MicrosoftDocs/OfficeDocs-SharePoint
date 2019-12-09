@@ -14,9 +14,7 @@ description: "Creating and launching a healthy SharePoint portal"
 
 # Creating and launching a healthy SharePoint portal
 
-A portal is a SharePoint site where your default landing page(s) for your company is created. Large organizations can have several portals. If you expect more than 20% of your users within your organization to access the page, you should consider that a portal page. 
-
-This shouldn't be confused with a team site your department uses to collaborate and share documents within your team.
+A SharePoint site on your intranet that has a large number of site viewers who consume content on the site. In large organizations there could be several of these, for example, a company portal and an HR portal. Typically portals have relatively few people who create and author the site and its content, and have many more people who read and consume the content.
 
 ## Guidance
 
