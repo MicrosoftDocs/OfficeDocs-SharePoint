@@ -34,7 +34,7 @@ description: "The SharePoint Migration Tool provides a wizard-like experience, p
 - SAML based claims
 - Client certificate authentication
 
->[!IMPORANT] 
+> [!IMPORTANT] 
 > If multiple authentication methods, including NTLM or Kerberos, are enabled in the on-premises SharePoint Web Application, NTLM and Kerberos authentication are not supported by the SharePoint Migration Tool. Please use a secondary form of authentication or convert the Web Application to use NTLM and/or Kerberos authentication only.<br>
 <br>
     
