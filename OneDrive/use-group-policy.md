@@ -64,6 +64,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 ## List of policies
 
   
+- [Allow OneDrive to disable Windows permission inheritance in folders synced read-only](use-group-policy.md#PermitDisablePermissionInheritance)
+
 - [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#AllowTenantList)
     
 - [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#EnableHoldTheFile)
@@ -120,7 +122,6 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Use OneDrive Files On-Demand](use-group-policy.md#FilesOnDemandEnabled)
 
-- [Allow OneDrive to disable Windows permission inheritance in folders synced read-only](use-group-policy.md#PermitDisablePermissionInheritance)
 
 > [!NOTE]
 > "Specify SharePoint Server URL and organization name" and "Specify the OneDrive location in a hybrid environment" are for customers who have SharePoint Server 2019. [More info about using the new OneDrive sync client with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client/)
@@ -133,7 +134,18 @@ Computer Configuration policies can be found under Computer Configuration\Polici
   
 ![Computer Configuration policies in the Group Policy Management Editor](media/07b81d35-9ccc-4c61-8a86-52d9bcff7ddb.png)
   
+### Allow OneDrive to disable Windows permission inheritance in folders synced read-only
+<a name="PermitDisablePermissionInheritance"> </a>
 
+This setting lets the OneDrive sync client remove all inherited permissions within read-only folders syncing on a user's PC. This will improve the performance of the sync client when syncing folders that the user has read-only permission to.
+
+Enabling this setting for a user will not change their permissions to view or edit content in SharePoint.
+
+We do not recommend setting this policy for users not syncing read-only content.
+
+Enabling this policy sets the following Registry key to 1:
+
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"PermitDisablePermissionInheritance"="dword:00000001"
   
 ### Allow syncing OneDrive accounts for only specific organizations
 <a name="AllowTenantList"> </a>
@@ -269,6 +281,19 @@ Enabling this policy sets the following registry key:
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptOut"="dword:00000001"
 
+### Prevent users from syncing libraries and folders shared from other organizations
+<a name="BlockExternalSync"> </a>
+
+The B2B Sync feature of the OneDrive sync client allows users at an organization to sync OneDrive for Business and SharePoint libraries and folders shared with them from another organization. [Learn about OneDrive B2B Sync](b2b-sync.md).
+
+Enabling this setting will prevent users at your organization from being able to use B2B Sync. Once the setting is enabled (value 1) on a computer, the sync client will not sync libraries and folders shared from other organizations. Modify the setting to the disabled state (value 0) in order to restore B2B Sync capability for your users.
+
+prevent B2B Sync with:
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalSync"="dword:1"
+
+restore B2B Sync with:
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalSync"="dword:0"
+
 ### Prompt users to move Windows known folders to OneDrive
 <a name="KFMOptInWithWizard"> </a>
 
@@ -394,31 +419,9 @@ Meet Windows and OneDrive sync client requirements and still can't see Files On-
 
 [HKLM\SYSTEM\CurrentControlSet\Services\CldFlt]"Start"="dword:00000002"
 
-### Prevent users from syncing libraries and folders shared from other organizations
-<a name="BlockExternalSync"> </a>
 
-The B2B Sync feature of the OneDrive sync client allows users at an organization to sync OneDrive for Business and SharePoint libraries and folders shared with them from another organization. [Learn about OneDrive B2B Sync](b2b-sync.md).
 
-Enabling this setting will prevent users at your organization from being able to use B2B Sync. Once the setting is enabled (value 1) on a computer, the sync client will not sync libraries and folders shared from other organizations. Modify the setting to the disabled state (value 0) in order to restore B2B Sync capability for your users.
 
-prevent B2B Sync with:
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalSync"="dword:1"
-
-restore B2B Sync with:
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive] "BlockExternalSync"="dword:0"
-
-### Allow OneDrive to disable Windows permission inheritance in folders synced read-only
-<a name="PermitDisablePermissionInheritance"> </a>
-
-Enabling this setting will permit the OneDrive Sync Client to remove all inherited permissions within read-only folders syncing on a user's PC. This will improve the performance of the Sync Client when syncing folders that the user has read-only permission to.
-
-Enabling this setting for a user will not change their permissions to view or edit content in SharePoint.
-
-We do not recommend setting this policy for users not syncing read-only content.
-
-Enabling this policy sets the following Registry key to 1:
-
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"PermitDisablePermissionInheritance"="dword:00000001"
 
 ## User Configuration policies
 <a name="Glob"> </a>
