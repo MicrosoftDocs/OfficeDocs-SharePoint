@@ -87,7 +87,7 @@ For more technical background and information, please see
 ## After migration
 After the migration is completed, verify that your content has been successfully moved to SharePoint Online or OneDrive.
 
-## Large migration (over 100 TB)
+## Large migrations over 100TB 
 
 If you are planning to migrate over 100TB, please submit a support request following the steps listed below. Make sure to include all requested information.
 
@@ -166,7 +166,7 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 </br></br>
 
 **Question: I am planning to migrate greater than 100TB.  Is there any preparation needed?**
-Answer: Please see Large migrations for steps to follow for large migrations.
+Answer: Please see [Large migrations](#large-migrations-over-100tb) for steps to follow for large migrations.
 
 **Question: I am experiencing poor performance or throttling during migration.**
 Answer: If you are experiencing slowness, make sure you are not running any unnecessary software which may compete with migration resources including disk IO, network bandwidth, or antivirus software. Try to migrate during off-peak hours. For more information, please check guidance in this document. For additional information on throttling, see:</br>
