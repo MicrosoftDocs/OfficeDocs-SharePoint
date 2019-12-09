@@ -50,7 +50,7 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 - Swapped site: A site swap completed successfully at this time
 - Failed site swap: A site swap failed at this time and won't be tried again
 
-By default, a site redirect will be created that will redirect traffic from the source site to the root site. [Manage site redirects](manage-site-redirects).
+By default, a site redirect will be created that will redirect traffic from the source site to the root site. For info about site redirects, see [Manage site redirects](manage-site-redirects).
  
 ### Limitations
 
@@ -83,8 +83,8 @@ For more info about using this cmdlet and what happens with the previous root si
 
 - The target site might return a "not found" (HTTP 404) error for a short time.
 - Content must be recrawled to update the search index for the sites that have been swapped. This might take some time depending on factors such as the amount of content in these sites. Anything dependent on the search index might return incomplete results until the swapped sites have been recrawled.
-- If creating a site redirect was disabled, then anything dependent on "static" links (such as File Sync and OneNote files) will need to be manually updated.
-- If the source site was an organizational news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
+- If creating a site redirect was disabled, then anything dependent on "static" links (such as the OneDrive sync app and OneNote files) will need to be manually updated.
+- If the source site was an organization news site, update the URL. [Get a list of all organization news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
 - Project Server sites might need to be validated to make sure they're still associated correctly.
 
 ## Apply the communication site experience to the root site (coming soon)
