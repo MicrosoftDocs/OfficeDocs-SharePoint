@@ -75,7 +75,7 @@ By default, a site redirect will be created that will redirect traffic from the 
 Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/CommunicationSite -TargetUrl https://contoso.sharepoint.com -ArchiveUrl https://contoso.sharepoint.com/sites/Archive
 ```
 
-(Where SourceUrl is the site you want to use, TargetUrl is the root site you want to replace, and ArchiveUrl is the location where you want to archive the current root site.)
+(Where **-SourceUrl** is the site you want to use, **-TargetUrl** is the root site you want to replace, and **-ArchiveUrl** is the location where you want to archive the current root site.)
 
 For more info about using this cmdlet and what happens with the previous root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).
 
