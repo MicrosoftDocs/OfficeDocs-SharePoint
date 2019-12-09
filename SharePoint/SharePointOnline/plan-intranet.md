@@ -30,6 +30,18 @@ We'll cover how to:
 - Identify one key scenario to prototype and pilot
 - Launch the pilot and engage with your users
 
+## What's possible with SharePoint?
+
+With SharePoint, any user can create highly functional intranet pages quickly without the need for writing code or other difficult customizations. These sites look great on any device or screen and provide deeply engaging experiences for your users.
+
+If you're currently using SharePoint Server for your intranet, you'll find SharePoint Online to be much easier to work with. Responsive, dynamic pages are easy for anyone to create, and the requirements for IT to build and maintain custom solutions are much less.
+
+As a first step, we recommend that you review the [SharePoint look book](https://aka.ms/sharepointlookbook) to see examples of what's possible with SharePoint. The look book provides a variety of examples of how to include news, events, resources, and personalized content in SharePoint sites that anyone can create and maintain.
+
+Also review the [Guide to the Modern experience in SharePoint](guide-to-sharepoint-modern-experience.md) for an understanding of how the different component parts work together.
+
+In the following sections, we look at how find the best starting point for your SharePoint intranet and how to prioritize the different intranet solutions that you may need for your organization. Keep these references handy as you work with your stakeholders - they can help you get the most value and best time to value for your intranet solutions.
+
 ## Review your existing intranet
 
 Your current intranet may be composed of sites from different business groups, such as HR, IT, Facilities, Engineering, and others. As a first step to planning your new SharePoint intranet, we recommend taking an inventory of your existing sites and meeting with the owners of each to determine their business requirements for new sites. Take stock of where your content is located and how much content you would need to move when creating a new intranet site.
@@ -140,4 +152,4 @@ When the site is on its way to success, take stock of any lessons learned in the
 
 [SharePoint lookbook](https://aka.ms/sharepointlookbook)
 
-[SharePoint provisioning service](https://provisioning.sharepointpnp.com)
+[Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
