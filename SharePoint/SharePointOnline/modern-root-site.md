@@ -45,6 +45,8 @@ Before you begin, make sure you:
 2. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
 3. Communicate the upcoming change to users. This can help reduce user confusion and calls to your help desk. If users are using files on the sites you're replacing, ask them to close the files and check the site recycle bin to make sure it contains no files they want to keep.  
 
+By default, a site redirect will be created that will redirect traffic from the source site to the root site. For info about site redirects, see [Manage site redirects](manage-site-redirects). 
+
 If you've [turned on audit log search](/office365/securitycompliance/turn-audit-log-search-on-or-off), the following events can be recorded:
 
 - Scheduled site swap: A site replacement (swap) was scheduled at this time
@@ -93,6 +95,8 @@ We recommend replacing the root site at a time when site usage is low.
     After you replace the root site, content must be recrawled to update the search index. This might take some time depending on factors such as the amount of content in these sites. Anything dependent on the search index might return incomplete results until the sites have been recrawled.
 
 11. If the new root site was an organization news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
+
+12. If you disabled site redirects, you'll need to update sharing links and any apps or files (like the OneDrive sync app and OneNote files) to refer to the new URL.
 
 > [!NOTE]
 > For info about using PowerShell to replace (swap) the root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).<br>Project Server sites might need to be validated to make sure they're still associated correctly.

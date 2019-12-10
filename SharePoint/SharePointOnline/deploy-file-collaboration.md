@@ -99,7 +99,7 @@ On devices running Windows or macOS, users can install the OneDrive sync app to 
 
 The two main decisions to consider for using OneDrive in collaboration scenarios are:
 
-  - Do you want to allow Office 365 users to share files in their own library with guests?
+  - Do you want to allow Office 365 users to share files in their own library with people outside your organization?
 
   - Do you want to restrict file sync in any way – such as only to managed devices?
 
@@ -129,15 +129,15 @@ These are each discussed in more detail below. There are many options to choose 
 
 The sharing settings that you configure for SharePoint and OneDrive determine who your users can collaborate with, both inside and outside your organization. Depending on your business needs and the sensitivity of your data, you can:
 
-  - Disallow sharing with guests
+  - Disallow sharing with people outside your organization
 
-  - Require guests to authenticate
+  - Require people outside your organization to authenticate
 
   - Restrict sharing to specified domains
 
 You can configure these settings for the entire organization, or for each site independently. For detailed information, see [Turn sharing on or off](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off) and [Turn sharing on or off for a site](https://docs.microsoft.com/sharepoint/change-external-sharing-site).
 
-See [Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure) for additional guidance around guest sharing.
+See [Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure) for additional guidance around sharing with people outside your organization.
 
 When users share files and folders, a shareable link is created which has permissions to the item. There are three primary link types:
 
@@ -163,13 +163,13 @@ When users share files and folders, a shareable link is created which has permis
 
 It's important to educate your users in how these sharing links work and which they should use to best maintain the security of your data. Send your users links to [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c), and include information about your organization's policies for sharing information.
 
-**Anonymous access with *Anyone* links**
+**Unauthenticated access with *Anyone* links**
 
-*Anyone* links are a great way to easily share files and folders with guests. However, if you're sharing sensitive information, this may not be the best option.
+*Anyone* links are a great way to easily share files and folders with people outside your organization. However, if you're sharing sensitive information, this may not be the best option.
 
-If you require guests to authenticate, *Anyone* links will not be available to users and you'll be able to audit guest activity on shared files and folders.
+If you require people outside your organization to authenticate, *Anyone* links will not be available to users and you'll be able to audit guest activity on shared files and folders.
 
-Though *Anyone* links do not require guests to authenticate, you can track the usage of *Anyone* links and revoke access if needed. If people in your organization frequently email documents to guests, *Anyone* links may be a better option.
+Though *Anyone* links do not require people outside your organization to authenticate, you can track the usage of *Anyone* links and revoke access if needed. If people in your organization frequently email documents to people outside your organization, *Anyone* links may be a better option.
 
 If you want to allow *Anyone* links, there are several options for a more secure sharing experience.
 
@@ -181,7 +181,7 @@ Another option is to configure a different link type to be displayed to the user
 
 *People in your organization* links are a great way to share information within your organization. *People in your organization* links work for anyone in your organization, so users can share files and folders with people who aren't part of a team or members of a site. The link gives them access to the particular file or folder and can be passed around inside the organization. This allows for easy collaboration with stakeholders from groups that may have separate teams or sites – such as design, marketing, and support groups.
 
-Creating a *People in your organization* link does not cause the file or folder to show up in search or give everyone direct access to the file or folder. Users must have the link in order to access the file or folder. The link does not work for guests.
+Creating a *People in your organization* link does not cause the file or folder to show up in search or give everyone direct access to the file or folder. Users must have the link in order to access the file or folder. The link does not work for guests or other people outside your organization.
 
 ***Specific people* links**
 
@@ -321,7 +321,7 @@ For information on how to migrate content with the SharePoint Migration Tool, se
 
 [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
 
-[Best practices for sharing files and folders with anonymous users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
+[Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
 
 [Understanding how Microsoft Information Protection capabilities work together](https://youtu.be/FcOMnAL_LKA)
 

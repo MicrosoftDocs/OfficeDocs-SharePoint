@@ -87,7 +87,7 @@ You can change your organization-level sharing settings in three different place
 - On the sharing page in the in the classic SharePoint admin center, where you can also specify detailed options. For more info, see [Additional settings](/sharepoint/turn-external-sharing-on-or-off#additional-settings).
 
 > [!IMPORTANT]
-> If you allow "anyone" links (sometimes referred to as "anonymous access" or "shareable"), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.
+> If you allow "Anyone" links (sometimes referred to as "anonymous access" or "shareable"), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.
 
 For more info, see [External sharing overview](/sharepoint/external-sharing-overview).
 
@@ -131,7 +131,7 @@ Sites and folders can be shared in different ways in SharePoint and OneDrive:
 B2B Sync works with all these methods of sharing. It has only the following requirements:
 
 - For guests to sync shared content, the content must be shared at the site or folder level. Guests can't sync files that are shared individually (for example, from the Office apps).
-- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an anonymous access link (also known as "anyone" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account.
+- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an Anyone  link (also known as "anonymous access" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account.
 
 ### Add guests to SharePoint sites
 

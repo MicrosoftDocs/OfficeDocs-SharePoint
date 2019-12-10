@@ -51,7 +51,7 @@ For informtion about setting up sharing for your organization, see:
   
 ## See also
 
-[Best practices for sharing files and folders with anonymous users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
+[Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
 
 [Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure)
 
