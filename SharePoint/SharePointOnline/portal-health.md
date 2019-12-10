@@ -14,7 +14,7 @@ description: "Creating and launching a healthy SharePoint portal"
 
 # Creating and launching a healthy SharePoint portal
 
-A SharePoint site on your intranet that has a large number of site viewers who consume content on the site. In large organizations there could be several of these, for example, a company portal and an HR portal. Typically portals have relatively few people who create and author the site and its content, and have many more people who read and consume the content.
+A portal is a SharePoint site on your intranet that has a large number of site viewers who consume content on the site. In large organizations there could be several of these; for example, a company portal and an HR portal. Typically portals have relatively few people who create and author the site and its content. Most visitors to the portal only read and consume the content.
 
 ## Guidance
 
