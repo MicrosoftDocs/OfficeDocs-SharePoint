@@ -50,7 +50,7 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 - Swapped site: A site swap completed successfully at this time
 - Failed site swap: A site swap failed at this time and won't be tried again
 
-By default, a site redirect will be created that will redirect traffic from the source site to the root site. For info about site redirects, see [Manage site redirects](manage-site-redirects).
+By default, a site redirect will be created that will redirect traffic from the source site to the root site. For info about site redirects, see [Manage site redirects](manage-site-redirects.md).
  
 ### Limitations
 
