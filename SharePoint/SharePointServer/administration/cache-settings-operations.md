@@ -18,7 +18,7 @@ description: "Learn about the available caches and the settings that can be conf
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-SharePoint Server provides four types of caches that help improve the speed at which web pages load in the browser: the BLOB cache, the page output cache, the object cache, and the anonymous search results cache. The BLOB cache is enabled and configured in the Web.config file in the web application to which you want to apply the cache. The page output cache and object cache areis usually configured in the user interface at the site collection level. Certain settings for these caches can also be configured at the web application level. The changes that you make to the Web.config file will be applied to all site collections and sites within the web application, and will supersede any configuration made at the site collection level or below.
+SharePoint Server provides four types of caches that help improve the speed at which web pages load in the browser: the BLOB cache, the page output cache, the object cache, and the anonymous search results cache. The BLOB cache is enabled and configured in the Web.config file in the web application to which you want to apply the cache. The page output cache and object cache are usually configured in the user interface at the site collection level. Certain settings for these caches can also be configured at the web application level. The changes that you make to the Web.config file will be applied to all site collections and sites within the web application, and will supersede any configuration made at the site collection level or below.
   
 > [!NOTE]
 > To use the page output cache or the object cache, you must be using the Publishing feature on your site. 
@@ -63,8 +63,8 @@ The anonymous search results cache is primarily used by publishing sites that al
 > [!NOTE]
 > There is a known issue in which Content Search Web Part and the Catalog-Item Reuse Web Part do not use the anonymous search results cache on category pages. This issue is resolved in the SharePoint Server 2013 cumulative update for March 2013. For more information, see Microsoft Knowledge Base article 2767999: [Description of the SharePoint Server 2013 update: March 12, 2013](https://go.microsoft.com/fwlink/p/?LinkId=286308).
 
->  [!NOTE]
->  If you have category pages that you created before the cumulative update was installed, you must re-create the category pages. Save the layouts and any customizations on the original category pages that you want to keep. Disconnect and then reconnect to the catalog, and then copy the customizations to the new category pages.
+> [!NOTE]
+> If you have category pages that you created before the cumulative update was installed, you must re-create the category pages. Save the layouts and any customizations on the original category pages that you want to keep. Disconnect and then reconnect to the catalog, and then copy the customizations to the new category pages.
   
 ## Articles about cache settings
 
