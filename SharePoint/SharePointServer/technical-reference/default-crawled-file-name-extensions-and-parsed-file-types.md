@@ -32,12 +32,12 @@ By default, SharePoint Server satisfies these requirements for many file types.
 The following table shows all the file formats that SharePoint Server has built-in format handlers for. The table shows one or several format ID and file name extensions for each file format. By default SharePoint Server is enabled to parse files that have these file formats and file name extensions. For each file name extension the table also indicates whether the Manage File Types page by default includes the file name extension.
   
 > [!NOTE]
->  SharePoint Online supports the same file name extensions as in this table. In addition, SharePoint Online also supports the following: .one .xlt .xlc .xlb 
+>  SharePoint Online supports the same file name extensions as in the table, except for .eml or .mht files. In addition, SharePoint Online also supports the following: .one .xlt .xlc .xlb 
   
 |||||
 |:-----|:-----|:-----|:-----|
 |**File format** <br/> |**Format ID** <br/> |**File name extension** <br/> |**File name extension listed on the Manage File Types page by default** <br/> |
-|Email message  <br/> |eml  <br/> |.eml  <br/> |Yes  <br/> |
+|Email message  <br/> |eml  <br/> |.eml  <br/> |Yes  <br/> | Not supported with SharePoint Online. 
 |Email message  <br/> |nws  <br/> |.nws  <br/> |Yes  <br/> |
 |HTML  <br/> |html  <br/> |.ascx  <br/> |Yes  <br/> |
 |HTML  <br/> |html  <br/> |.asp  <br/> |Yes  <br/> |
@@ -50,7 +50,7 @@ The following table shows all the file formats that SharePoint Server has built-
 |HTML  <br/> |html  <br/> |.htx  <br/> |No  <br/> |
 |HTML  <br/> |html  <br/> |.jhtml  <br/> |No  <br/> |
 |HTML  <br/> |html  <br/> |.stm  <br/> |No  <br/> |
-|MHTML document  <br/> |mhtml  <br/> |.mht  <br/> |Yes  <br/> |
+|MHTML document  <br/> |mhtml  <br/> |.mht  <br/> |Yes  <br/> | Not supported with SharePoint Online. 
 |MHTML document  <br/> |mhtml  <br/> |.mhtml  <br/> |Yes  <br/> |
 |Microsoft Excel  <br/> |xlb  <br/> |.xlb  <br/> |No  <br/> |
 |Microsoft Excel  <br/> |xlc  <br/> |.xlc  <br/> |No  <br/> |
