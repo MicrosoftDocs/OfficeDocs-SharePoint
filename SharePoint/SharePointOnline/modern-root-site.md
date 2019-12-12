@@ -49,6 +49,8 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 - Scheduled site swap: A site swap was scheduled at this time
 - Swapped site: A site swap completed successfully at this time
 - Failed site swap: A site swap failed at this time and won't be tried again
+
+By default, a site redirect will be created that will redirect traffic from the source site to the root site. For info about site redirects, see [Manage site redirects](manage-site-redirects.md).
  
 ### Limitations
 
@@ -56,7 +58,7 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 - The source site must be a modern team site (STS#3), a communication site (SITEPAGEPUBLISHING#0), or a classic team site (STS#0).
 - All subsites contained with the source and target sites will be swapped.
 - The source and target sites can't be connected to an Office 365 group. They also can't be hub sites or associated with a hub.<br>If a site is a hub site, unregister it as a hub site, swap the root site, and then register the site as a hub site. If a site is associated with a hub, disassociate the site, swap the root site, and then reassociate the site. [Learn how to manage hubs in the new SharePoint admin center](manage-sites-in-new-admin-center.md#change-a-sites-hub-site-association)
-- Any sharing links or bookmarks will need to be recreated after the site swap.
+- If creating a site redirect was disabled, any sharing links or bookmarks will need to be recreated after the site swap.
   
 ### Run the PowerShell cmdlet
 
@@ -73,7 +75,7 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 Invoke-SPOSiteSwap -SourceUrl https://contoso.sharepoint.com/sites/CommunicationSite -TargetUrl https://contoso.sharepoint.com -ArchiveUrl https://contoso.sharepoint.com/sites/Archive
 ```
 
-(Where SourceUrl is the site you want to use, TargetUrl is the root site you want to replace, and ArchiveUrl is the location where you want to archive the current root site.)
+(Where **-SourceUrl** is the site you want to use, **-TargetUrl** is the root site you want to replace, and **-ArchiveUrl** is the location where you want to archive the current root site.)
 
 For more info about using this cmdlet and what happens with the previous root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).
 
@@ -81,8 +83,8 @@ For more info about using this cmdlet and what happens with the previous root si
 
 - The target site might return a "not found" (HTTP 404) error for a short time.
 - Content must be recrawled to update the search index for the sites that have been swapped. This might take some time depending on factors such as the amount of content in these sites. Anything dependent on the search index might return incomplete results until the swapped sites have been recrawled.
-- Anything dependent on "static" links (such as File Sync and OneNote files) will need to be manually updated.
-- If the source site was an organizational news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
+- If creating a site redirect was disabled, then anything dependent on "static" links (such as the OneDrive sync app and OneNote files) will need to be manually updated.
+- If the source site was an organization news site, update the URL. [Get a list of all organization news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
 - Project Server sites might need to be validated to make sure they're still associated correctly.
 
 ## Apply the communication site experience to the root site (coming soon)
