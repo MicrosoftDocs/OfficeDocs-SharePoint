@@ -52,7 +52,7 @@ Micrososft releases Public Updates each month. The first update is known as the 
 The second type of patch is the language dependent patch. This patch covers all language packs, including English installations. This patch is required to fully update the farm, although may not be released every month. This patch is also known as the 'wssloc' patch.
 
 > [!IMPORTANT]
-> If a lanaguage dependent patch isn't available for a given month, update to the latest previosuly available language dependent patch. For example, if applying the July 2019 Public Update for SharePoint Server 2016, install the language indepdendnt update for July 2019 and the language dependent patch from April 2019. If you do not install the language dependent patch, you may encounter missing or incorrect functionality.
+> If a language dependent patch isn't available for a given month, update to the latest previously available language dependent patch. For example, if applying the July 2019 Public Update for SharePoint Server 2016, install the language independent update for July 2019 and the language dependent patch from April 2019. If you do not install the language dependent patch, you may encounter missing or incorrect functionality.
   
 ## Software update terminology
 <a name="terms"> </a>
@@ -190,7 +190,7 @@ Customizations are typically one of the top issues during a farm upgrade or soft
   
 #### Plan the update strategy
 
-During the Learnd phase of the update cycle, you should have determined an update strategy and the required downtime minimization. In addition to determining hardware, space, and software requirements, you must include the following in your update strategy:
+During the Learn phase of the update cycle, you should have determined an update strategy and the required downtime minimization. In addition to determining hardware, space, and software requirements, you must include the following in your update strategy:
   
 - The update sequence for the farm servers
     
