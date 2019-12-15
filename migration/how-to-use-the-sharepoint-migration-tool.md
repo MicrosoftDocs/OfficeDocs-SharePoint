@@ -34,6 +34,10 @@ Review the system requirements, settings, and permissions behavior before beginn
 - [SPMT Settings](spmt-settings.md)</br>
 - [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>
 
+ > [!IMPORTANT]
+ > - The required permissions at tenant level for the performer user is "SharePoint Admin".
+ > - The required permissions at site collection level for the performer user is "Admin".
+ 
 #### Allow or prevent Custom Script (NoScript)</br>
 In Office 365 tenants you can control whether users can run custom script on personal sites and self-service created sites. 
 
