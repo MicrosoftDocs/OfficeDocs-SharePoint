@@ -83,8 +83,8 @@ The directory that contains this script $ScriptDir = Split-Path -parent $MyInvoc
 # ADFS and root certificate names 
 $adfsCertName = "<Input ADFS Cert Name>"
 $MACertName = "<Input Machine Authority>" 
-$MIACertName = "<Input Certificate Authority>" 
-$RootCertName = "<Input Root name>" 
+$MIACertName = "<Input Certificate Authority>"
+$RootCertName = "<Input Root name>"
 
 # The local file path, which points to the certificate used to sign token requests (exported from the AD FS server) $certFilePath = $ScriptDir + "\Certificates\" # Build the certificates. $adfsCertPath = $certFilePath + $adfsCertName + ".cer" $MACertName = $certFilePath + $MACertName + ".cer" $MIACertPath = $certFilePath + $MIACertName + ".cer" $RootCertPath = $certFilePath + $BCTRCertName + ".cer" 
 # Import certificates to the SharePoint Trusted Root Authority. # $adfsCert = $null if($adfsCert -eq $null) { Write-Host "installing " $adfsCert $adfsCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($adfsCertPath) 
@@ -109,10 +109,10 @@ $RootCertName = "<Input Root name>"
 Settings you need to change for your organization before the script is run.
 ```Powershell
  #ADFS and root certificate names
- $adfsCertName = "<Input ADFS Certificate Name>" 
- $MACertName = "<Input Machine Authority>" 
- $MIACertName = "<Input Certificate Authority>" 
- $RootCertName = "<Input Root name>" 
+ $adfsCertName = "<Input ADFS Certificate Name>"
+ $MACertName = "<Input Machine Authority>"
+ $MIACertName = "<Input Certificate Authority>"
+ $RootCertName = "<Input Root name>"
 ```
 
 3.	Copy the following code, and paste it into Audiences.ps1 underneath the variable declarations from Step 2.
