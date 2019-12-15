@@ -91,7 +91,7 @@ $RootCertName = "<Input Root name>"
 # Install the certificate that was exported from the ADFS server. New-SPTrustedRootAuthority -Name $adfsCertName -Certificate $adfsCert New-SPTrustedRootAuthority -Name $MACertName -Certificate $MACertName New-SPTrustedRootAuthority -Name $MIACertName -Certificate $MIACertPath New-SPTrustedRootAuthority -Name $BCTRCertName -Certificate $RootCertPath } 
 ```
 
- >[!NOTE]
+ > [!NOTE]
  >You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
 4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint  Management Shell**.
@@ -155,7 +155,7 @@ $certFilePath = $ScriptDir + "\Certificates\" # Build the certificates. $adfsCer
  } 
 ```
 
- >[!NOTE]
+ > [!NOTE]
  >You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
 4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint Management Shell**.
@@ -234,7 +234,7 @@ $ap = Get-SPTrustedIdentityTokenIssuer $tokenIdentityProviderName $ap.ProviderRe
 $ap.Update() 
 ```
 
- >[!NOTE]
+ > [!NOTE]
  >You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
 4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint Management Shell**.
