@@ -81,7 +81,6 @@ The directory that contains this script $ScriptDir = Split-Path -parent $MyInvoc
 
 ```Powershell
 # ADFS and root certificate names 
-
 $adfsCertName = "<Input ADFS Cert Name>"
 $MACertName = "<Input Machine Authority>" 
 $MIACertName = "<Input Certificate Authority>" 
