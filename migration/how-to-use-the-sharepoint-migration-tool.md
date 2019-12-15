@@ -35,7 +35,7 @@ Review the system requirements, settings, and permissions behavior before beginn
 - [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>
 
  > [!IMPORTANT]
- > - The required permissions at tenant level for the performer user is "SharePoint Admin".
+ > - The required user permissions at tenant level is "SharePoint Admin".
  > - The required permissions at site collection level for the performer user is "Admin".
  
 #### Allow or prevent Custom Script (NoScript)</br>
@@ -227,4 +227,3 @@ When this setting is on, an incremental check of the SharePoint Online target en
   
 [SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
   
-
