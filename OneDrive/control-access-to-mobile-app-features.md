@@ -24,7 +24,7 @@ description: "Learn how to create a mobile application management policy for the
 
 If your organization has **Microsoft Intune** or **Enterprise Mobility + Security**, you can use the OneDrive admin center to create a global policy that manages the OneDrive and SharePoint mobile apps for Android and iOS. This policy only applies to users in your organization who are licensed for Microsoft Intune or Enterprise Mobility + Security.
   
- >[!NOTE]
+ > [!NOTE]
  >Your admin account needs to have an Intune license assigned to it for you to change the mobile application management settings in the OneDrive admin center. 
 
  >[!NOTE]
@@ -72,5 +72,4 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
   
 [Control access based on network location or app](control-access-based-on-network-location-or-app.md)
   
-
 
