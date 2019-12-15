@@ -28,7 +28,7 @@ If your organization has **Microsoft Intune** or **Enterprise Mobility + Securit
  > Your admin account needs to have an Intune license assigned to it for you to change the mobile application management settings in the OneDrive admin center. 
 
  >[!NOTE]
- > In the case that you disable a policy, this won't remove it from Intune.
+ > Disabling a policy won't remove it from Intune.
   
 Go to the Device access page of the [OneDrive admin center](https://admin.onedrive.com) to:
   
