@@ -36,7 +36,7 @@ Review the system requirements, settings, and permissions behavior before beginn
 
  > [!IMPORTANT]
  > - The required user permissions at tenant level is "SharePoint Admin".
- > - The required permissions at site collection level for the performer user is "Admin".
+ > - The required user permissions at site collection level is "Admin".
  
 #### Allow or prevent Custom Script (NoScript)</br>
 In Office 365 tenants you can control whether users can run custom script on personal sites and self-service created sites. 
