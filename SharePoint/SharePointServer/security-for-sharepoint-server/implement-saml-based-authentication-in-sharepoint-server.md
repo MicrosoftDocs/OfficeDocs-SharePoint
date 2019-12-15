@@ -92,7 +92,7 @@ $RootCertName = "<Input Root name>"
 ```
 
  > [!NOTE]
- >You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
+ > You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
 4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint  Management Shell**.
 5.	Change the command prompt to the directory to which you saved the file.
