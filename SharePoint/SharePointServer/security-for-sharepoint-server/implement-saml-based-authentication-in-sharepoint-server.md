@@ -107,7 +107,7 @@ $RootCertName = "<Input Root name>"
 2.	Copy the following variable declarations, and paste them into a text editor, such as Notepad. Set input values specific to your organization. You will use these values in Step 3. Save the file, and name it **TrustedProviderConfiguration-Regular.ps1**.
 
 Settings you need to change for your organization before the script is run.
-```Powershell
+```PowerShell
  #ADFS and root certificate names
  $adfsCertName = "<Input ADFS Certificate Name>"
  $MACertName = "<Input Machine Authority>"
@@ -138,7 +138,7 @@ $ScriptDir = Split-Path -parent $MyInvocation.MyCommand.Path
 
 $certFilePath = $ScriptDir + "\Certificates\" # Build the certificates. $adfsCertPath = $certFilePath + $adfsCertName + ".cer" $MACertName = $certFilePath + $MACertName + ".cer" $MIACertPath = $certFilePath + $MIACertName + ".cer" $RootCertPath = $certFilePath + $BCTRCertName + ".cer" 
 
-```Powershell
+```PowerShell
  # Import certificates to the SharePoint Trusted Root Authority**
 
  $adfsCert = $null 
@@ -182,7 +182,7 @@ $certFilePath = $ScriptDir + "\Certificates\" # Build the certificates. $adfsCer
 
 This script configures SharePoint 2013 with ADFS certificates and claim type maps and creates a Trusted Identity Token Issuer that enables SAML claims support in SharePoint web applications. These providers use the UPN or EMail claim rule for the identity claim. 
 
-```Powershell
+```PowerShell
 **The production ADFS redirect URL** 
 $signInUrl = https://sts.msft.net/adfs/ls/" 
 
