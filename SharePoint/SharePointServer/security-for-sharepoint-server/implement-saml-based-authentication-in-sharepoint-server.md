@@ -79,7 +79,7 @@ This script configures SharePoint 2013 with ADFS certificates and claim type map
 
 The directory that contains this script $ScriptDir = Split-Path -parent $MyInvocation.MyCommand.Path 
 
-```Powershell
+```PowerShell
 # ADFS and root certificate names 
 $adfsCertName = "<Input ADFS Cert Name>"
 $MACertName = "<Input Machine Authority>" 
