@@ -71,8 +71,8 @@ SPMT supports the following authentication methods:
  - SAML based claims
  - Client certificate authentication
 
->[!Important]
->If the on-premesis server is configured to support multiple authentication providers,including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
+> [!IMPORTANT]
+> If the on-premesis server is configured to support multiple authentication providers,including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
 
 ### Where is your data currently located?
 
@@ -163,7 +163,7 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
   
  Any errors in your file it will be detected on a line-by-line basis. The error will indicate which line or lines contains the errors. You will not be able to proceed until you correct the errors in your file. 
   
->[!IMPORTANT]
+> [!IMPORTANT]
 > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 
   
    
