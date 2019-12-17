@@ -65,9 +65,11 @@ Depending on your collaboration needs, you can include Office 365 groups or Micr
 
 To get started setting up a SharePoint Online extranet site:
   
-1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with an Office 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team. 
+1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with an Office 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
+
+2. Read [Create a B2B extranet with managed guests](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet) if you want to delegate guest access management to specific approvers in either your organization or the partner organization. 
     
-2. Read [Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure) and [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment) to learn about options for securing your guest sharing environment.   
+3. Read [Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure) and [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment) to learn about options for securing your guest sharing environment.   
 
 ## See also
 
