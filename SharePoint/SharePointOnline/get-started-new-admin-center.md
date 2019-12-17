@@ -58,7 +58,7 @@ On the Home page, you can see at a glance:
   
 ## View Message center posts
 
-In the Message center section of the home page, you can read official announcements about new and changed SharePoint features to help you manage upcoming changes. Each post gives you an overview of a change and how it may affect your users. Click a post to open it in the Microsoft 365 admin center (where you can dismiss it if you want to hide it from the list), or click **All active messages** to sort and filter the list of messages across all Office 365 services. [Message center in Office 365](/office365/admin/manage/message-center)
+In the Message center section of the home page, you can read official announcements about new and changed SharePoint features to help you manage upcoming changes. Each post gives you an overview of a change and how it might affect your users. Click a post to open it in the Microsoft 365 admin center (where you can dismiss it if you want to hide it from the list), or click **All active messages** to sort and filter the list of messages across all Office 365 services. [Message center in Office 365](/office365/admin/manage/message-center)
   
 ![The Message Center card on the Home page](media/804aeffa-f842-4951-a42e-86d7151b28fa.PNG)
   
