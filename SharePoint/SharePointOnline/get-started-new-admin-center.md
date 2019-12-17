@@ -31,6 +31,9 @@ The Home page of the new SharePoint admin center gives you an overview of ShareP
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+
+> [!NOTE]
+> [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center.
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner. 
 
