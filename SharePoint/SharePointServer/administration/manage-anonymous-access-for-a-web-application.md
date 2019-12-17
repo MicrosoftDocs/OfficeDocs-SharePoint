@@ -20,8 +20,8 @@ description: "Learn how to grant or deny anonymous access to a web application i
   
 You can enable or disable anonymous access for a web application. If you enable anonymous access for a web application, site administrators can then grant or deny anonymous access at the site collection, site, or item level. If anonymous access is disabled for a web application, no sites within that web application can be accessed by anonymous users. 
 
-    > [!NOTE]
-    > Both classic and modern experience sites support anonymous access.
+   > [!NOTE]
+   > Both classic and modern experience sites support anonymous access.
 
 The following permission policies can be specified for anonymous users:
   

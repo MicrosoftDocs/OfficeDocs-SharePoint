@@ -4,6 +4,6 @@
 # So if a pull request only touches javascript files, only these owners
 # will be requested to review.
 
-/OneDrive/ @kaarins @AndreaBarr
-/SharePoint/ @AndreaBarr
-/migration/ @JoanneHendrickson @AndreaBarr
+/OneDrive/ @kaarins
+/SharePoint/ @JoanneHendrickson @mikeplum
+/migration/ @JoanneHendrickson
