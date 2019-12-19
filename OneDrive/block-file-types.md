@@ -21,7 +21,7 @@ description: "Learn how to prevent users from uploading specific file types usin
 
 # Block syncing of specific file types
 
-You can prevent users from uploading specific file types when they sync their OneDrive for Business files.
+You can prevent users from uploading specific file types when they sync their OneDrive files.
 
 You must sign in as a global or SharePoint admin in your organization.
 
@@ -34,16 +34,16 @@ You must sign in as a global or SharePoint admin in your organization.
  **To block uploading of specific file types**
   
 1. Open the [OneDrive admin center](https://admin.onedrive.com), and click **Sync** in the left pane.
-    
+
     ![The Sync page of the OneDrive admin center](media/od-admin-sync.png)
   
 2. Select the **Block syncing of specific file types** check box.
-    
+
 3. Type the file name extensions you want to block, for example: **exe** or **mp3**.
-    
+
     > [!IMPORTANT]
     > Do not include the periods with the extensions, or any other punctuation, spaces, or special characters.
   
 4. Click **Save** on the Sync page.
-    
+
 For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)

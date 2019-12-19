@@ -22,7 +22,7 @@ description: "Learn how to change settings when deploying or managing the OneDri
 
 # Deploy and configure the new OneDrive sync app for Mac
 
-This article is for IT administrators managing OneDrive for Business settings in work or school environments. If you're not an IT administrator, read [Get started with the new OneDrive sync app on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f).
+This article is for IT administrators managing OneDrive settings in work or school environments. If you're not an IT administrator, read [Get started with the new OneDrive sync app on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f).
   
 ## Manage OneDrive settings on macOS using property list (Plist) files
 
@@ -38,15 +38,15 @@ Use the following keys to preconfigure or change settings for your users. The ke
 Deploy the settings on macOS in the typical way:
   
 1. Quit the OneDrive application.
-    
+
 2. Define the settings you want to change by creating a Plist with the values, or use a script to set the default values.
-    
+
 3. Deploy the settings onto the local computer.
-    
+
 4. Refresh the preferences cache.
-    
+
     On the next start of OneDrive, the new settings will be picked up.
-    
+
 ## Overview of settings
 
 The following table lists all the settings that are currently exposed for the OneDrive sync app. You need to configure the parameters in parentheses.
