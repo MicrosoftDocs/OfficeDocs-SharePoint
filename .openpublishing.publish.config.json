@@ -70,13 +70,6 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "sharepoint/common",
-      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
-      "branch": "live",
-      "branch_mapping": {},
-      "include_in_build": true
     }
   ],
   "branch_target_mapping": {
