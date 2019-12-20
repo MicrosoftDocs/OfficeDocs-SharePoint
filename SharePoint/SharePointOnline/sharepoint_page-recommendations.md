@@ -48,4 +48,4 @@ There are different ways to hide or disable recommendations:
 To learn how to disable at the page and site level, see [SharePoint page recommendations](https://support.office.com/article/sharepoint-page-recommendations-12bf4c4e-3452-4575-afd4-ef7536b027fa/).
 
 > [!NOTE]
-> Recommendations can't be turned off for an entire tenant.
+> Recommendations can't be disabled for an entire tenant.
