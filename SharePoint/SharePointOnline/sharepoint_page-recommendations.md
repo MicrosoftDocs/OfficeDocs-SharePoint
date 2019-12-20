@@ -37,15 +37,18 @@ Here is a diagram that shows how recommendations are determined in more detail:
 ![Recommendations Diagram](media/DMC_SharePointRecommendationConceptual_largertextsize.png)
 
 ## How to disable recommendations
-There are different ways to hide or disable recommendations:
+To learn how to disable at the page and site level, see [SharePoint page recommendations](https://support.office.com/article/sharepoint-page-recommendations-12bf4c4e-3452-4575-afd4-ef7536b027fa/).
+
+In the article linked above, you'll learn the three different ways to hide or disable recommendations:
 
 -   Users can hide individual recommendations  
 
 -   Page authors can turn off recommendations for the pages they create
 
--   Site owners can disable recommendations at the site level. 
-
-To learn how to disable at the page and site level, see [SharePoint page recommendations](https://support.office.com/article/sharepoint-page-recommendations-12bf4c4e-3452-4575-afd4-ef7536b027fa/).
+-   Site owners can disable recommendations at the site level
 
 > [!NOTE]
 > Recommendations can't be disabled for an entire tenant.
+
+
+
