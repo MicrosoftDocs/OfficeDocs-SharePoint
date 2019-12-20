@@ -24,7 +24,7 @@ Alternate access mappings direct users to the correct URLs during their interact
   
 Because the features of alternate access mapping are deprecated, we recommend that you use host-named site collections over alternate access mappings.
   
-For additional information about how to plan for host-named site collections, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
+For additional information about how to plan for host-named site collections, see [Host-named site collection architecture and deployment in SharePoint Server](host-named-site-collection-architecture-and-deployment.md).
     
 Alternate access mappings were implemented because there are common Internet deployment scenarios in which the URL of a web request received by Internet Information Services (IIS) differs from the URL that was typed by a user. This is most likely to occur in deployment scenarios that include reverse proxy publishing and load balancing.
   
@@ -122,5 +122,5 @@ For example, the search technology in SharePoint Server  can crawl content exter
 
 #### Concepts
 
-[Configure alternate access mappings for SharePoint 2013](configure-alternate-access-mappings.md)
+[Configure alternate access mappings for SharePoint Server](configure-alternate-access-mappings.md)
 
