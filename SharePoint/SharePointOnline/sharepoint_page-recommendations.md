@@ -1,5 +1,5 @@
 ---
-title: "How SharePoint page recommendations are determined"
+title: "How SharePoint page recommendations are generated"
 ms.reviewer: patkel
 ms.author: loreenl
 author: LoreenLa
