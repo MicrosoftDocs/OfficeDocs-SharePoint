@@ -87,13 +87,13 @@ Use the following procedure to change the authentication configuration for a zon
   
 6. On the **Edit Authentication** page, in the **Claims Authentication Types** section, select the authentication type that you want to use for this zone: 
     
-  - **Windows authentication (default value)**
+     - **Windows authentication (default value)**
     
-  - **Basic authentication**
+     - **Basic authentication**
     
-  - **Forms based authentication (FBA)**
+     - **Forms based authentication (FBA)**
     
-  - **Trusted Identity provider**
+     - **Trusted Identity provider**
     
 7. Change any other authentication configuration settings that you want to change, and click **Save**.
     
