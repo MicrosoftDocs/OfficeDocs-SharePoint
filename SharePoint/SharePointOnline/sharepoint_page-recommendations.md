@@ -22,7 +22,7 @@ search.appverid:
 - MET150
 description: "Learn how page recommendations are determined"
 ---
-# SharePoint page recommendations
+# How SharePoint page recommendations work
 SharePoint recommendations on modern pages help you and your users discover pages and news in your organization. At the bottom of news posts and pages, you'll see recommendations especially for you or your users. Recommendations show below the heading **You may also be interested in**.
 
 ![Recommendations](media/PageRecommendationsDocs.png)

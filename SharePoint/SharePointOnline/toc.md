@@ -16,7 +16,7 @@
 ### [Navigation](plan-navigation-modern-experience.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
-### [Page recommendations](sharepoint_page-recommendations.md)
+### [How page recommendations work](sharepoint_page-recommendations.md)
 ### [Search](get-started-with-modern-search-experience.md)
 ### [Permissions and sharing](modern-experience-sharing-permissions.md)
 ### [Performance](modern-experience-performance.md)
