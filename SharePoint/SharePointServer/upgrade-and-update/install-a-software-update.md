@@ -18,7 +18,7 @@ description: "Install a software update to perform a build-to-build upgrade on s
 
 # Install a software update for SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
   
 ## Before you begin
 <a name="begin"> </a>
