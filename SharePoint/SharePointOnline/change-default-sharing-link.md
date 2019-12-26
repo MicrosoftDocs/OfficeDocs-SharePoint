@@ -52,7 +52,7 @@ For info about the changing this setting at the organization level, see [File an
     
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.).
  
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. In the left pane of the new SharePoint admin center, select **More features**.
+3. In the left pane of the SharePoint admin center, select **More features**.
 
 4. Under **Classic site collections page**, select **Open**.
     

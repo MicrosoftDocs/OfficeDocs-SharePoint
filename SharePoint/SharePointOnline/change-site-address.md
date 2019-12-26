@@ -24,7 +24,7 @@ description: "Learn how to change the URL of a SharePoint site."
 # Change a site address
 
 > [!NOTE]
-> We are rolling out this feature. This means that you may not yet see this feature or it may look different from what is described in this article. 
+> We are rolling out this feature. This means that you may not yet see this feature or it may look different from what is described in this article. <br>This feature is not available for Office 365 Government GCC High customers.
 
 As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
 

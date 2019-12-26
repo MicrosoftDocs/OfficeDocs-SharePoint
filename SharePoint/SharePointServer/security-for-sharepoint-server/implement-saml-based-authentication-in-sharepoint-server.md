@@ -79,19 +79,20 @@ This script configures SharePoint 2013 with ADFS certificates and claim type map
 
 The directory that contains this script $ScriptDir = Split-Path -parent $MyInvocation.MyCommand.Path 
 
-```
+```PowerShell
 # ADFS and root certificate names 
-
-$adfsCertName = "< Input ADFS Cert Name >"
- $MACertName = "< Input Machine Authority >" $MIACertName = "< Input Certificate Authority >" $RootCertName = "< Input Root name >" 
+$adfsCertName = "<Input ADFS Cert Name>"
+$MACertName = "<Input Machine Authority>" 
+$MIACertName = "<Input Certificate Authority>"
+$RootCertName = "<Input Root name>"
 
 # The local file path, which points to the certificate used to sign token requests (exported from the AD FS server) $certFilePath = $ScriptDir + "\Certificates\" # Build the certificates. $adfsCertPath = $certFilePath + $adfsCertName + ".cer" $MACertName = $certFilePath + $MACertName + ".cer" $MIACertPath = $certFilePath + $MIACertName + ".cer" $RootCertPath = $certFilePath + $BCTRCertName + ".cer" 
-
 # Import certificates to the SharePoint Trusted Root Authority. # $adfsCert = $null if($adfsCert -eq $null) { Write-Host "installing " $adfsCert $adfsCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($adfsCertPath) 
-
 # Install the certificate that was exported from the ADFS server. New-SPTrustedRootAuthority -Name $adfsCertName -Certificate $adfsCert New-SPTrustedRootAuthority -Name $MACertName -Certificate $MACertName New-SPTrustedRootAuthority -Name $MIACertName -Certificate $MIACertPath New-SPTrustedRootAuthority -Name $BCTRCertName -Certificate $RootCertPath } 
 ```
-**Note**: You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
+
+ > [!NOTE]
+ > You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
 4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint  Management Shell**.
 5.	Change the command prompt to the directory to which you saved the file.
@@ -106,9 +107,12 @@ $adfsCertName = "< Input ADFS Cert Name >"
 2.	Copy the following variable declarations, and paste them into a text editor, such as Notepad. Set input values specific to your organization. You will use these values in Step 3. Save the file, and name it **TrustedProviderConfiguration-Regular.ps1**.
 
 Settings you need to change for your organization before the script is run.
-```
- # ADFS and root certificate names
-$adfsCertName = "< Input ADFS Certificate Name >" $MACertName = "< Input Machine Authority >" $MIACertName = "< Input Certificate Authority >" $RootCertName = "< Input Root name >" 
+```PowerShell
+ #ADFS and root certificate names
+ $adfsCertName = "<Input ADFS Certificate Name>"
+ $MACertName = "<Input Machine Authority>"
+ $MIACertName = "<Input Certificate Authority>"
+ $RootCertName = "<Input Root name>"
 ```
 
 3.	Copy the following code, and paste it into Audiences.ps1 underneath the variable declarations from Step 2.
@@ -125,28 +129,34 @@ $ScriptDir = Split-Path -parent $MyInvocation.MyCommand.Path
 
 **ADFS and root certificate names**
 
- - $adfsCertName = "< Input ADFS Cert Name >"
- - $MACertName = "< Input Machine Authority >"
- - $MIACertName = "< Input Certificate Authority >"
- - $RootCertName = "< Input Root name >" 
+ - $adfsCertName = "< Input ADFS Cert Name>"
+ - $MACertName = "< Input Machine Authority>"
+ - $MIACertName = "< Input Certificate Authority>"
+ - $RootCertName = "< Input Root name>" 
 
 **The local file path, which points to the certificate used to sign token requests (exported from the AD FS server)**
 
 $certFilePath = $ScriptDir + "\Certificates\" # Build the certificates. $adfsCertPath = $certFilePath + $adfsCertName + ".cer" $MACertName = $certFilePath + $MACertName + ".cer" $MIACertPath = $certFilePath + $MIACertName + ".cer" $RootCertPath = $certFilePath + $BCTRCertName + ".cer" 
 
+```PowerShell
+ # Import certificates to the SharePoint Trusted Root Authority**
 
+ $adfsCert = $null 
+ if($adfsCert -eq $null){ 
+    Write-Host "installing " + $adfsCert 
+    $adfsCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($adfsCertPath)
 
+    #Install the certificate that was exported from the ADFS server. 
+
+    New-SPTrustedRootAuthority -Name $adfsCertName -Certificate $adfsCert 
+    New-SPTrustedRootAuthority -Name $MACertName -Certificate $MACertName 
+    New-SPTrustedRootAuthority -Name $MIACertName -Certificate $MIACertPath 
+    New-SPTrustedRootAuthority -Name $BCTRCertName -Certificate $RootCertPath 
+ } 
 ```
-# Import certificates to the SharePoint Trusted Root Authority**
 
-$adfsCert = $null if($adfsCert -eq $null) { Write-Host "installing " $adfsCert $adfsCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($adfsCertPath)
-
- # Install the certificate that was exported from the ADFS server. 
-
-New-SPTrustedRootAuthority -Name $adfsCertName -Certificate $adfsCert New-SPTrustedRootAuthority -Name $MACertName -Certificate $MACertName New-SPTrustedRootAuthority -Name $MIACertName -Certificate $MIACertPath New-SPTrustedRootAuthority -Name $BCTRCertName -Certificate $RootCertPath } 
-```
-
-**Note**: You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
+ > [!NOTE]
+ > You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
 4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint Management Shell**.
 5.	Change the command prompt to the directory to which you saved the file.
@@ -164,22 +174,21 @@ New-SPTrustedRootAuthority -Name $adfsCertName -Certificate $adfsCert New-SPTrus
 
 **ADFS and root certificate names**
 
-- $adfsCertName = "< Input ADFS Certificate Name >" 
-- $MACertName = "< Input Machine Authority >"
-- $MIACertName = "< Input Certificate Authority >" 
-- $RootCertName = "< Input Root name >" 
+- $adfsCertName = "< Input ADFS Certificate Name>" 
+- $MACertName = "< Input Machine Authority>"
+- $MIACertName = "< Input Certificate Authority>" 
+- $RootCertName = "< Input Root name>" 
 
 
 This script configures SharePoint 2013 with ADFS certificates and claim type maps and creates a Trusted Identity Token Issuer that enables SAML claims support in SharePoint web applications. These providers use the UPN or EMail claim rule for the identity claim. 
 
-```
+```PowerShell
 **The production ADFS redirect URL** 
-
 $signInUrl = https://sts.msft.net/adfs/ls/" 
 
 **The URL and realm for the partner web application** 
-
-$webAppUri = "https://ppedrtest.mmsxl.com/" $siteRealm = "urn:039d:spdr:emp" 
+$webAppUri = "https://ppedrtest.mmsxl.com/" 
+$siteRealm = "urn:039d:spdr:emp" 
 
 **The directory that contains this script**
 $ScriptDir = Split-Path -parent $MyInvocation.MyCommand.Path
@@ -190,36 +199,43 @@ $IdClaimType = http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddres
 $adfsCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($adfsCertPath) 
 
 **The ADFS and root certificate names**
-
-$adfsCertName = "<Insert ADFS Certification Name>
+$adfsCertName = "<Insert ADFS Certification Name>"
 
 **The local file path, which points to the certificate used to sign token requests (exported from the AD FS server)**
+$certFilePath = $ScriptDir + "\\Certificates\\" 
 
-$certFilePath = $ScriptDir + "\Certificates\" # Build the certificates. $adfsCertPath = $certFilePath + $adfsCertName + ".cer" $adfsCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($adfsCertPath) 
+# Build the certificates. 
+$adfsCertPath = $certFilePath + $adfsCertName + ".cer" 
+$adfsCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($adfsCertPath) 
 
 **Create or rebuild TrustedIdentityTokenIssuer**
+$tokenIdentityProviderName = "RegularUsers" 
+$TrustedIdentityTokenIssuerDescription = "SAML Provider for SharePoint" 
 
-$tokenIdentityProviderName = "RegularUsers" $TrustedIdentityTokenIssuerDescription = "SAML Provider for SharePoint" foreach($issuer in Get-SPTrustedIdentityTokenIssuer) { if($issuer.Name -eq $tokenIdentityProviderName) {
-
- **Remove TrustedIdentityTokenIssuer (usually, to modify the ADFS property maps) if it already exists?**
- 
-Read-Host "Identity Token Issuer already exists. Remove and reinstall it? Press CTRL+C to cancel." 
-Remove-SPTrustedIdentityTokenIssuer -Identity $tokenIdentityProviderName } } 
+foreach($issuer in Get-SPTrustedIdentityTokenIssuer){ 
+    if($issuer.Name -eq $tokenIdentityProviderName){
+        **Remove TrustedIdentityTokenIssuer (usually, to modify the ADFS property maps) if it already exists?**
+        Read-Host "Identity Token Issuer already exists. Remove and reinstall it? Press CTRL+C to cancel." 
+        Remove-SPTrustedIdentityTokenIssuer -Identity $tokenIdentityProviderName 
+    } 
+} 
 
 Read-Host "Create a new SharePoint Trusted Identity Token Issuer?"
-
 **Create the SharePoint Trusted Identity Token Issuer**
  
-Write-Host "Creating SPTrustedIdentityTokenIssuer named " $tokenIdentityProviderName 
-$ap = New-SPTrustedIdentityTokenIssuer `-Name $tokenIdentityProviderName `-Description $TrustedIdentityTokenIssuerDescription `-realm $siteRealm `-ImportTrustCertificate $adfsCert `-SignInUrl $signInUrl ` -UseDefaultConfiguration `-IdentifierClaimIs USER-PRINCIPAL-NAME `-RegisteredIssuerName $siteRealm 
+Write-Host "Creating SPTrustedIdentityTokenIssuer named: ""$tokenIdentityProviderName"" "
+$ap = New-SPTrustedIdentityTokenIssuer -Name $tokenIdentityProviderName -Description $TrustedIdentityTokenIssuerDescription `
+      -realm $siteRealm -ImportTrustCertificate $adfsCert -SignInUrl $signInUrl  -UseDefaultConfiguration `
+      -IdentifierClaimIs "USER-PRINCIPAL-NAME" -RegisteredIssuerName $siteRealm 
 
 **Add the partner site realm to the trusted provider**
- 
 $uri = new-object System.Uri($webAppUri) 
-$ap = Get-SPTrustedIdentityTokenIssuer $tokenIdentityProviderName $ap.ProviderRealms.Add($uri,$siteRealm) $ap.Update() 
+$ap = Get-SPTrustedIdentityTokenIssuer $tokenIdentityProviderName $ap.ProviderRealms.Add($uri,$siteRealm) 
+$ap.Update() 
 ```
 
-**Note**:  You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
+ > [!NOTE]
+ > You can use a different file name, but you must save the file as an ANSI-encoded text file that has the extension .ps1.
 
 4.	On the **Start** menu, click **All Programs** > **Microsoft SharePoint Products** > **SharePoint Management Shell**.
 5.	Change the command prompt to the directory to which you saved the file.
@@ -233,7 +249,6 @@ To enable tracing for SharePoint 2013, you can use the following ways:
 
 For information about how to configure diagnostic logging, see [Configure diagnostic logging in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/configure-diagnostic-logging).
 
-
 ## Trusted identity providers and user profile synchronization ##
 
 This section describes the steps that let user profile synchronization use claims-based authentication with a trusted identity provider.
@@ -245,7 +260,6 @@ To provide the user profile application with sufficient information to map the i
 The next profile import will result in users who are associated with the corresponding profile entries.
 For additional information about user profile synchronization, see [User Profile Synchronization in SharePoint Server 2013](https://docs.microsoft.com/sharepoint/administration/overview-of-profile-synchronization-in-sharepoint-server-2013) and [User Profile Synchronization in SharePoint Server 2016](https://docs.microsoft.com/sharepoint/administration/profile-synchronization-in-sharepoint-server-2013).
 
-
 ## Using audiences with claims-based sites ##
 
 This section describes how SAML claims work with the audiences feature in SharePoint Server. By default, synchronization support is available for AD DS and several Lightweight Directory Access Protocol (LDAP) sources and from a Lightweight Directory Interchange Format (LDIF) file.  A problem is that the account name for most SAML claims users is something like i:05:t|AD FS with roles|fred@contoso.com.
@@ -255,13 +269,3 @@ To take advantage of audiences, you need to create profiles for users either man
 After the profiles are created, audiences can be created. You can't use a user-based audience, such as membership in a group, for the audience unless you implement custom code. It might be more efficient to use the property-based audience.
 
 For more information see, [Claims-Based Identity Term Definitions](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/ee534975(v=office.14)).
-
-
-
-
-
-
- 
-
-
-
