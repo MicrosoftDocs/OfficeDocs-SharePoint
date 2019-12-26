@@ -45,7 +45,7 @@ As a global or SharePoint admin in Office 365, you can let your users create and
 5. Select **Let users create sites from the SharePoint start page and OneDrive** if you want users to be able to create sites from these services.
 
     > [!NOTE]
-    > Even if you clear this check box, users may be able to create Office 365 groups from other places in Office 365. Each group always comes with a team site.[Learn how to manage who can create Office 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
+    > Even if you clear this check box, users may be able to create Office 365 groups from other places in Office 365. Each group always comes with a team site. [Learn how to manage who can create Office 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
 
 6. Select to create Office 365 group-connected team sites under /sites or /teams, select the default time zone and storage limit for new sites.
 
