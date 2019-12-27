@@ -1,5 +1,5 @@
 ---
-title: "Differences between the classic and modern search experiences in SharePoint Online"
+title: "Differences between the classic and modern search experiences in SharePoint"
 ms.reviewer: 
 author: MikePlumleyMSFT
 ms.author: mikeplum
@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 - MET150
  
-description: "Learn how the classic and modern search experiences in SharePoint Online differ"
+description: "Learn how the classic and modern search experiences in SharePoint differ"
 ---
 
-# Differences between the classic and modern search experiences in SharePoint Online
+# Differences between the classic and modern search experiences in SharePoint
 
-SharePoint Online has both a classic and a modern search experience. Microsoft search in SharePoint is the modern search experience. Both search experiences use the same search index to find results.
+SharePoint has both a classic and a modern search experience. Microsoft search in SharePoint is the modern search experience. Both search experiences use the same search index to find results.
 
 As a search admin, you can’t enable or disable either search experience, both are enabled by default. Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the Microsoft search experience on the SharePoint start page, hub sites, communication sites, and modern team sites. [Learn about classic and modern sites](https://support.office.com/article/5725c103-505d-4a6e-9350-300d3ec7d73f)
 

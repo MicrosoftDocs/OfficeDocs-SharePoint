@@ -105,7 +105,7 @@ As a global or SharePoint admin in Office 365, you can turn off or on query sugg
 ## See also
 <a name="__toc349558307"> </a>
 
-[Manage the Search Center in SharePoint Online](manage-search-center.md)
+[Manage the Search Center in SharePoint](manage-search-center.md)
   
 [Change settings for the Search Navigation Web Part](search-navigation-web-part.md)
   
