@@ -17,7 +17,7 @@ description: "Learn how to allow or prevent users from getting apps from the Sha
 
 # Configure settings for the SharePoint Store
 
-The SharePoint Store is an Internet-based service that offers apps for Office, SharePoint, Exchange, Access, and Project. Site users can access the SharePoint Store directly from a SharePoint Online site in order to browse for and buy third-party apps. If a SharePoint Online environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the App Catalog.
+The SharePoint Store is an Internet-based service that offers apps for Office, SharePoint, Exchange, Access, and Project. Site users can access the SharePoint Store directly from a SharePoint site in order to browse for and buy third-party apps. If a SharePoint environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the App Catalog.
   
 For more information about the SharePoint Store, see [Office Store and SharePoint Store Terms of Use](https://support.office.com/article/64c7f343-16b5-40bb-b39f-66c9d1c4d405).
   
@@ -26,7 +26,7 @@ For more information about how to buy apps, see [Buy an app from the SharePoint 
 ## Specify whether users can get apps from the SharePoint Store
 <a name="__top"> </a>
 
-By default, SharePoint Online is configured to allow users to get or request apps from the SharePoint Store. The option to change this setting will not be enabled if you have not yet created an App Catalog site. For information about how to create an App Catalog site, see [Use the App Catalog to make custom business apps available for your SharePoint Online environment](use-app-catalog.md).
+By default, SharePoint is configured to allow users to get or request apps from the SharePoint Store. The option to change this setting will not be enabled if you have not yet created an App Catalog site. For information about how to create an App Catalog site, see [Use the App Catalog to make custom business apps available for your SharePoint environment](use-app-catalog.md).
   
 Even if you choose not to allow users to buy apps from the SharePoint Store, they will still be able to browse the SharePoint Store and request apps.
   
@@ -37,7 +37,7 @@ Even if you choose not to allow users to buy apps from the SharePoint Store, the
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
-3. In the left pane of the new SharePoint admin center, select **Classic features**.     
+3. In the left pane of the new SharePoint admin center, select **More features**.     
 
 4. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
     
@@ -59,7 +59,7 @@ When users request an app, they are requesting that an admin buys that app on th
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
-3. In the left pane of the new SharePoint admin center, select **Classic features**.     
+3. In the left pane of the new SharePoint admin center, select **More features**.     
 
 4. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
     
@@ -91,7 +91,7 @@ Documents stored on sites may contain apps for Office from several sources. You 
  
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
-3. In the left pane of the new SharePoint admin center, select **Classic features**.     
+3. In the left pane of the new SharePoint admin center, select **More features**.     
 
 4. Under **Apps**, select **Open**, and then select **Configure Store Settings**.
  

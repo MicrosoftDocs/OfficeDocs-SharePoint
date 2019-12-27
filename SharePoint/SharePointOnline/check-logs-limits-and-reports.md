@@ -13,12 +13,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 581ea83b-5cb8-4603-80c1-e86eb59909c1
-description: "See if the crawler has added content to the search index, and if your users are finding what they're looking for in SharePoint Online."
+description: "See if the crawler has added content to the search index, and if your users are finding what they're looking for in SharePoint."
 ---
 
 # Check logs, limits and reports
 
-See if the crawler has added content to the search index, and if your users are finding what they're looking for in SharePoint Online.
+See if the crawler has added content to the search index, and if your users are finding what they're looking for in SharePoint.
   
 ## View search usage reports
   
@@ -26,7 +26,7 @@ This article describes how you can use search reports in the SharePoint admin ce
   
 ## Query throttling
   
-In SharePoint Online, you can't turn query throttling on or off, but you can use client-type information to make sure lower-priority clients like automated queries don't squeeze out higher-priority clients like UI. [Learn more](query-throttling.md).
+In SharePoint, you can't turn query throttling on or off, but you can use client-type information to make sure lower-priority clients like automated queries don't squeeze out higher-priority clients like UI. [Learn more](query-throttling.md).
   
 ## Set crawl log permissions
   
@@ -34,6 +34,4 @@ Use the crawl log to see if crawled content was successfully added to the search
   
 ## Search limits
   
-Look up the limits to SharePoint Online search. For example, there are limits to the number of entries you can have in a custom search dictionary and the number of results that can be returned for a query. [Learn more](search-limits.md).
-  
-
+Look up the limits to SharePoint search. For example, there are limits to the number of entries you can have in a custom search dictionary and the number of results that can be returned for a query. [Learn more](search-limits.md).

@@ -99,7 +99,7 @@ You can make changes to any of the default permissions levels, except **Full Con
 |||
    
 > [!NOTE]
-> Office 365 plans create a security group called "Everyone except external users" that contains every person you add into the Office 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Office 365 can access and edit the SharePoint Online site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Office 365 plans create a security group called "Company Administrators", which contains Office 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more information, please see [Default SharePoint groups](/sharepoint/default-sharepoint-groups). 
+> Office 365 plans create a security group called "Everyone except external users" that contains every person you add into the Office 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Office 365 can access and edit the SharePoint site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Office 365 plans create a security group called "Company Administrators", which contains Office 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more information, please see [Default SharePoint groups](/sharepoint/default-sharepoint-groups).
 
 By default, site owners and members can add new users to the site.
 
@@ -266,7 +266,7 @@ The following table describes the permissions that apply to personal views and w
 ## Lockdown mode
 <a name="__toc313623995"> </a>
 
- *Limited-access user permission lockdown mode*  is a [site collection feature](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) that you can use to secure published sites. When lockdown mode is turned on, fine-grain permissions for the limited access permission level are reduced. The following table details the default permissions of the limited access permission level and the reduced permissions when the lockdown mode feature is turned on. 
+ *Limited-access user permission lockdown mode*  is a [site collection feature](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) that you can use to secure published sites. When lockdown mode is turned on, fine-grain permissions for the limited access permission level are reduced. The following table details the default permissions of the limited access permission level and the reduced permissions when the lockdown mode feature is turned on.
   
 |**Permission**|**Limited access - default**|**Limited access - lockdown mode**|
 |:-----|:-----|:-----|
@@ -284,5 +284,3 @@ If you disable the limited-access user permission lockdown mode site collection 
 <a name="__toc313623995"> </a>
 
 Now that you have learned about permissions, inheritance, and permission levels, you may want to plan your strategy so that you can set guidelines for your users, minimize maintenance, and ensure compliance with your organization's data governance policies. For tips on planning your strategy, see [Plan your permissions strategy](plan-your-permissions-strategy.md).
-  
-

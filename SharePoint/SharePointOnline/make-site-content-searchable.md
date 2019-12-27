@@ -41,7 +41,7 @@ For example, let's say Joe is working on a Request for Proposal (RFP) in Microso
   
 Permissions can be applied to lists, sites, views, and Web Parts. Also, permissions can be dependent on other permissions. All of this can affect what the user sees in search results. Therefore, before adding any content to your site, you may want to familiarize yourself with SharePoint's permissions model, the permissions model of your site or organization, or to plan what the permissions model will be for your site.
   
-See also: [Default SharePoint Groups in SharePoint Online](default-sharepoint-groups.md)
+See also: [Default SharePoint Groups in SharePoint](default-sharepoint-groups.md)
   
 ## Show content on a site in search results
 <a name="__toc356211701"> </a>
@@ -77,7 +77,7 @@ As a site owner, you can decide whether items in lists and libraries on your sit
     
 5. On the List Settings page, under **General Settings**, click **Advanced settings**.
     
-6. In the **Search** section, under **Allow items from this document library to appear in search results**, select **Yes** to include all of the items in the list or library in search result. 
+6. In the **Search** section, under **Allow items from this document library to appear in search results**, select **Yes** to include all of the items in the list or library in search result.
     
 To prevent items from the list or library to appear in search results, select **No**.
   
@@ -93,7 +93,7 @@ For example, let's say five documents are displayed in a Shared Documents Web Pa
 You have the option of ignoring this setting to display all content in search results regardless of permissions. In this case, all content can appear in the search results, but unauthorized users will not be able to access the actual documents. Another option is to not include any ASPX content in search results, regardless of permissions.
   
 > [!NOTE]
-> To change this setting, you must have the Manage Permissions permission level. This permission level is included in the " *Site Name*  " Owner group. 
+> To change this setting, you must have the Manage Permissions permission level. This permission level is included in the " *Site Name*  " Owner group.
   
 1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
@@ -113,7 +113,7 @@ You have the option of ignoring this setting to display all content in search re
 As a site owner you can control whether the content in specific columns in lists or libraries appears in search results. By default, all content is included in search results. This setting is useful when you want to prevent sensitive data from appearing in search results.
   
 > [!NOTE]
-> To change this setting, you must have the Manage Permissions permission level. This permission level is included in the  *"Site Name"*  Owner group. 
+> To change this setting, you must have the Manage Permissions permission level. This permission level is included in the  *"Site Name"*  Owner group.
   
 1. On the site that contains the list or library, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     
@@ -122,13 +122,11 @@ As a site owner you can control whether the content in specific columns in lists
 3. In the **Excluded Columns from Search Indexing** section, under **Excluded**, check the box next to the Column Name for the column you want to exclude in search results.
     
 > [!NOTE]
-> Columns that appear are those that belong to the current site. 
+> Columns that appear are those that belong to the current site.
   
 ## Crawl and re-index a site
 <a name="__toc356211705"> </a>
 
-When people search for content on your SharePoint sites, what's in your search index decides what they'll find. The search index contains information from all documents and pages on your site. In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index.
+When people search for content on your SharePoint sites, what's in your search index decides what they'll find. The search index contains information from all documents and pages on your site. In SharePoint, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index.
   
-For cases in which the Search schema has changed where a managed property has been added/removed/changed, you will want to specifically request a full re-indexing of a site. See [Manually request crawling and re-indexing of a site](crawl-site-content.md) for more information. 
-  
-
+For cases in which the Search schema has changed where a managed property has been added/removed/changed, you will want to specifically request a full re-indexing of a site. See [Manually request crawling and re-indexing of a site](crawl-site-content.md) for more information.

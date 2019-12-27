@@ -1,5 +1,5 @@
 ---
-title: "Switch from an Enterprise Search Center to Basic in SharePoint Online"
+title: "Switch from an Enterprise Search Center to Basic in SharePoint"
 ms.reviewer: 
 ms.author: efrene
 author: efrene
@@ -12,15 +12,15 @@ localization_priority: Normal
 description: "Learn how to swap your default search center from Enterprise back to Basic."
 ---
 
-# Switch from an Enterprise Search Center to Basic in SharePoint Online
+# Switch from an Enterprise Search Center to Basic in SharePoint
 
 >[!Important]
->You currently may not be able to do the procedure documented in this article. This is because this capability is gradually rolled out to Microsoft 365 tenants, and it has not reached yours yet. Thank you for your patience. 
+>You currently may not be able to do the procedure documented in this article. This is because this capability is gradually rolled out to Microsoft 365 tenants, and it has not reached yours yet. Thank you for your patience.
 
 
-The Basic Search Center is a classic search experience. To offer your users a richer search experience, you can either switch from a Basic Search Center to an Enterprise Search Center or rely on the modern search experience that SharePoint Online comes with. [Learn about differences between classic and modern search](https://docs.microsoft.com/sharepoint/differences-classic-modern-search) and [when to choose which search experience](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience) for your organization.
+The Basic Search Center is a classic search experience. To offer your users a richer search experience, you can either switch from a Basic Search Center to an Enterprise Search Center or rely on the modern search experience that SharePoint comes with. [Learn about differences between classic and modern search](https://docs.microsoft.com/sharepoint/differences-classic-modern-search) and [when to choose which search experience](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience) for your organization.
 
-If you are currently using the Enterprise Search Center, you can easily replace (swap) it with the Basic Search Center if needed.  This will result in your users seeing the classic search experience in their default search home page and default search results page.  You can use the [Invoke-SPOSiteSwap](https://docs.microsoft.com/powershell/module/sharepoint-online/invoke-spositeswap?view=sharepoint-ps) Windows PowerShell cmdlet in the SharePoint Online Management Console to do this. 
+If you are currently using the Enterprise Search Center, you can easily replace (swap) it with the Basic Search Center if needed.  This will result in your users seeing the classic search experience in their default search home page and default search results page.  You can use the [Invoke-SPOSiteSwap](https://docs.microsoft.com/powershell/module/sharepoint-online/invoke-spositeswap?view=sharepoint-ps) Windows PowerShell cmdlet in the SharePoint Management Console to do this.
 
 ## How to use Invoke-SPOSiteSwap to swap your Search Center sites
 
@@ -61,13 +61,8 @@ Successfully running the cmdlet above would result in:
 - The Enterprise Search Center site will no longer be available as the default Search Center experience.
 
 
-
-
     
 ## See also
 <a name="__toc347912381"> </a>
 
-[Manage the Search Center in SharePoint Online](manage-search-center.md)
-  
-
-
+[Manage the Search Center in SharePoint](manage-search-center.md)

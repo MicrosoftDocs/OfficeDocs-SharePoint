@@ -21,7 +21,7 @@ description: "Learn how to install the OneDrive sync app for every user account 
 
 # Install the sync app per machine
 
-By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the “Program Files (x86)” directory, meaning all profiles on the computer will use the same OneDrive.exe binary. Other than where the sync app is installed, the behavior is the same.  
+By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the “Program Files (x86)”  or “Program Files” directory (depending on the OS architecture), meaning all profiles on the computer will use the same OneDrive.exe binary. Other than where the sync app is installed, the behavior is the same.  
 
 The new per-machine sync app provides:
 

@@ -1,5 +1,5 @@
 ---
-title: "Create a hub site in SharePoint Online"
+title: "Create a hub site in SharePoint"
 ms.reviewer: metorres
 ms.author: kaarins
 author: kaarins
@@ -15,10 +15,10 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 92bea781-15d8-4bda-805c-e441e2191ff3
-description: "Learn how to create a hub site in SharePoint Online"
+description: "Learn how to create a hub site in SharePoint"
 ---
 
-# Create a hub site in SharePoint Online
+# Create a hub site in SharePoint
 
 If you're a global or SharePoint admin in Office 365, you can convert any existing site to a hub site.
   
@@ -66,4 +66,3 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
 - For info about how site owners can customize hub sites, see [Set up your SharePoint hub site](https://support.office.com/article/e2daed64-658c-4462-aeaf-7d1a92eba098).
 
 - For info about removing a hub site, see [Remove a hub site](remove-hub-site.md).
-

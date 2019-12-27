@@ -16,7 +16,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 06bb1ed1-d150-42f4-9600-fb261d4b590c
-description: "What is permissions inheritance in SharePoint and SharePoint Online and why do we use it; what is a parent; permissions recommendations that can save time."
+description: "What is permissions inheritance in SharePoint and why do we use it; what is a parent; permissions recommendations that can save time."
 ---
 
 # What is permissions inheritance?
@@ -30,7 +30,7 @@ By default, SharePoint sites inherit permissions from a parent site. This means 
 
 The term parent, when used in SharePoint permissions, is just a way to emphasize inheritance. The parent passes down its permission settings to all its children. By default, the root site of a site collection is the first parent for all the sites and other objects that are below it in the site hierarchy.
   
-The site collection root is not the only parent on a site. Every securable object (sites, libraries, lists, and so on) in a site collection can be a parent. That is, the site collection root is the parent of its subsites, each site is the parent of its libraries and lists, and each list is the parent of the list items in it. In this terminology, an object with a parent is known as a child. So, a subsite is the child of its parent site, a list item is the child of its list parent, and so on. 
+The site collection root is not the only parent on a site. Every securable object (sites, libraries, lists, and so on) in a site collection can be a parent. That is, the site collection root is the parent of its subsites, each site is the parent of its libraries and lists, and each list is the parent of the list items in it. In this terminology, an object with a parent is known as a child. So, a subsite is the child of its parent site, a list item is the child of its list parent, and so on.
   
 By default, permissions are inherited from parent to child. That is, if you do not change the permission structure, then a list item inherits permissions (through its parent list) from the top-level site in the collection. However, even if you break inheritance for a list, that list is still a parent for its own list items. The list items for the list inherit the permissions that the list has, and if you change the permissions for the list, the list items inherit the changes.
   
@@ -43,13 +43,13 @@ When a user shares or stops sharing an item that contains other items with broke
 
 Permission inheritance enables an administrator to assign permission levels at one time, and have the permissions apply throughout the site collection. Permissions pass from parent to child throughout the SharePoint hierarchy, from the top level of a site to the bottom. Permission inheritance can save time for site administrators, especially on large or complex site collections.
   
-However, some scenarios have different requirements. In one scenario, you might have to restrict access to a site because it contains sensitive information that you must protect. In a different scenario, you might want to expand access and invite others to share information. If you want, you can break the inheritance behavior (stop inheriting permissions) at any level in the hierarchy. 
+However, some scenarios have different requirements. In one scenario, you might have to restrict access to a site because it contains sensitive information that you must protect. In a different scenario, you might want to expand access and invite others to share information. If you want, you can break the inheritance behavior (stop inheriting permissions) at any level in the hierarchy.
   
 Let's look at examples of these different scenarios.
   
-Suppose that you have a book distribution company called Litware, and that you subscribe to Office 365. You create a SharePoint Online site named www.litware.com. This is the site collection root. At the site collection root, you set up SharePoint groups, assign permission levels, and add users to the groups. 
+Suppose that you have a book distribution company called Litware, and that you subscribe to Office 365. You create a SharePoint site named www.litware.com. This is the site collection root. At the site collection root, you set up SharePoint groups, assign permission levels, and add users to the groups.
   
-Suppose then that you create subsites, such as www.Litware.com/BookAwards and www.litware.com/Bestsellers, and that these subsites contain more subsites. 
+Suppose then that you create subsites, such as www.Litware.com/BookAwards and www.litware.com/Bestsellers, and that these subsites contain more subsites.
   
 ### A scenario that uses default behavior
 <a name="__toc340139791"> </a>
@@ -61,11 +61,11 @@ The following illustration shows the default behavior, when permissions pass dir
 ### A scenario that restricts access to a site and its children
 <a name="__toc340139792"> </a>
 
-You might want to do this to restrict access to the separated site and its children. 
+You might want to do this to restrict access to the separated site and its children.
   
-For example, suppose that your company, Litware, supports active promotional opportunities and deals for bestsellers. Because the deals that the company offers are secret, only certain people in the company can access the information about the bestseller authors and deals. So, the administrators decide to separate the Bestsellers site, and break inheritance. 
+For example, suppose that your company, Litware, supports active promotional opportunities and deals for bestsellers. Because the deals that the company offers are secret, only certain people in the company can access the information about the bestseller authors and deals. So, the administrators decide to separate the Bestsellers site, and break inheritance.
   
-In the following illustration, the www.Litware.com/Bestsellers breaks inheritance from the parent site, www.litware.com. The site owners for the Best Sellers site change the permissions for the site, removing some groups and creating others. The subsites of the Bestsellers site, Authors and Deals, now inherit permissions only from the Bestsellers subsite. Only the groups and users for Bestsellers can access the lists and libraries that contain sensitive information. 
+In the following illustration, the www.Litware.com/Bestsellers breaks inheritance from the parent site, www.litware.com. The site owners for the Best Sellers site change the permissions for the site, removing some groups and creating others. The subsites of the Bestsellers site, Authors and Deals, now inherit permissions only from the Bestsellers subsite. Only the groups and users for Bestsellers can access the lists and libraries that contain sensitive information.
   
 ![Permissions inheritance broken illustration.](media/c24d5911-5972-43ec-8dc6-4acbc3b62317.png)
   
@@ -74,10 +74,8 @@ For ease of maintenance, we recommend that you use a similar method to restrict 
 ### A scenario that shares access for a library and its documents
 <a name="__toc340139793"> </a>
 
-In this scenario, suppose that Jane is an editor in your Local Books division. Jane is collaborating with an author on a history of the labor union movement. She compiled a research document that she wants to share with the author. The research would be really useful in their collaboration. However, the author does not work for Litware and can't access the information on the Litware site. 
+In this scenario, suppose that Jane is an editor in your Local Books division. Jane is collaborating with an author on a history of the labor union movement. She compiled a research document that she wants to share with the author. The research would be really useful in their collaboration. However, the author does not work for Litware and can't access the information on the Litware site.
   
 Jane has a simple solution - she can just share the document together with the author by clicking a command on the ribbon. SharePoint automatically handles all the details of permissions and access, by breaking inheritance on the document itself. Now, the local author can browse the site to the document location and access the document, but can't view or access any other information on the site.
   
 For more information about inviting an external user to use information on your site, see [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).
-  
-

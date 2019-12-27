@@ -1,5 +1,5 @@
 ---
-title: "Manage app licenses for a SharePoint Online environment"
+title: "Manage app licenses for a SharePoint environment"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -16,9 +16,9 @@ ms.assetid: cefcab58-d2ce-4823-91fe-ccdc59da64e9
 description: "Learn how to assign licenses, buy more licenses, recover licenses, and add license managers."
 ---
 
-# Manage app licenses for a SharePoint Online environment
+# Manage app licenses for a SharePoint environment
 
-As a SharePoint or global admin in Office 365, you can use the SharePoint admin center to manage licenses for apps purchased from the SharePoint Store, regardless of whether you purchased them. All apps available from the SharePoint Store have built-in licenses that SharePoint Online recognizes. An app license provides digital verification of a user's right to use an app. 
+As a SharePoint or global admin in Office 365, you can use the SharePoint admin center to manage licenses for apps purchased from the SharePoint Store, regardless of whether you purchased them. All apps available from the SharePoint Store have built-in licenses that SharePoint recognizes. An app license provides digital verification of a user's right to use an app. 
   
 It is important to keep track of the number of licenses that are available for each app so that the number of app users does not exceed the number of available licenses. If necessary, you can buy additional licenses for an app. 
   
@@ -34,19 +34,17 @@ From the admin center, you can also add users to an app, or delegate management 
 
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
-4. Select **More classic features**.
- 
-5. Under **Apps**, select **Open**.
+4. Under **Apps**, select **Open**.
 
-6. Select **Manage Licenses**. 
+5. Select **Manage Licenses**. 
     
-7. In the list of apps, select the app you want to update or view. 
+6. In the list of apps, select the app you want to update or view. 
     
-8. On the Manage App License page, you can review the details about the app license, such as the number of licenses available for users or the license type. You can also take a number of actions. 
+7. On the Manage App License page, you can review the details about the app license, such as the number of licenses available for users or the license type. You can also take a number of actions. 
     
-9.  Do any of the following: 
+8.  Do any of the following: 
     
 |****To do this:****|****Do this:****|
 |:-----|:-----|
@@ -67,4 +65,3 @@ In the License Managers section, select add manager. Type the name(s) of the peo
 [Add an app to a site](https://support.office.com/article/ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb)
   
 [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43)
-
