@@ -26,7 +26,7 @@ This article is for global and SharePoint admins in Office 365 who want to contr
 > [!NOTE]
 > Idle session sign-out applies to the entire organization and can't be set for specific sites or users. 
   
-Idle session sign-out is one of a number of policies you can use with SharePoint and OneDrive to balance security and user productivity and help keep your data safe regardless where users access the data, what device they're working on, and how secure their network connection is. For more ways to control access in SharePoint and OneDrive, see [How SharePoint Online and OneDrive safeguard your data in the cloud](safeguarding-your-data.md).
+Idle session sign-out is one of a number of policies you can use with SharePoint and OneDrive to balance security and user productivity and help keep your data safe regardless where users access the data, what device they're working on, and how secure their network connection is. For more ways to control access in SharePoint and OneDrive, see [How SharePoint and OneDrive safeguard your data in the cloud](safeguarding-your-data.md).
   
 ## The idle session sign-out experience
 
@@ -35,7 +35,7 @@ When a user is inactive in SharePoint and OneDrive for a period of time you spec
 ![Inactive Office 365 sign out warning message](media/80c0d10b-df78-4e3c-9df0-b94a923b3871.png)
   
 > [!NOTE]
-> Activity is counted as requests sent to SharePoint Online, such as clicks.  Moving the mouse and scrolling are not counted as activity. 
+> Activity is counted as requests sent to SharePoint, such as clicks.  Moving the mouse and scrolling are not counted as activity.
   
 If they don't click **Continue**, they'll be automatically signed out and will see this screen:
   

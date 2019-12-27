@@ -18,7 +18,7 @@ description: "Manually request crawling and full re-indexing of a site by clicki
 
 # Manually request crawling and re-indexing of a site, a library or a list
 
-In SharePoint Online, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index. You will want to manually request crawling and full re-indexing of a site, a document library, or a list after a schema change has occurred. 
+In SharePoint, content is automatically crawled based on a defined crawl schedule. The crawler picks up content that has changed since the last crawl and updates the index. You will want to manually request crawling and full re-indexing of a site, a document library, or a list after a schema change has occurred. 
 
 > [!CAUTION]
 >  Re-indexing a site can cause a massive load on the search system. Don't re-index your site unless you've made changes that require all items to be re-indexed. 

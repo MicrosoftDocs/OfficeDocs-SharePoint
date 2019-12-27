@@ -17,7 +17,7 @@ description: "Learn how to allow or prevent users from getting apps from the Sha
 
 # Configure settings for the SharePoint Store
 
-The SharePoint Store is an Internet-based service that offers apps for Office, SharePoint, Exchange, Access, and Project. Site users can access the SharePoint Store directly from a SharePoint Online site in order to browse for and buy third-party apps. If a SharePoint environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the App Catalog.
+The SharePoint Store is an Internet-based service that offers apps for Office, SharePoint, Exchange, Access, and Project. Site users can access the SharePoint Store directly from a SharePoint site in order to browse for and buy third-party apps. If a SharePoint environment has been configured to prevent users from getting apps from the SharePoint Store, users can still browse for and request apps. These requests are added to the App Requests list in the App Catalog.
   
 For more information about the SharePoint Store, see [Office Store and SharePoint Store Terms of Use](https://support.office.com/article/64c7f343-16b5-40bb-b39f-66c9d1c4d405).
   

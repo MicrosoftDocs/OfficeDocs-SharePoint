@@ -24,15 +24,15 @@ BCS makes it possible for you to set up a connection to the Target Application, 
 ## How the Secure Store Service Works
 <a name="__toc346879710"> </a>
 
-This SharePoint service makes access to external business application data easier. In order to understand why the Secure Store Service offers this benefit, it's important to understand that the username and password used to access external data stores may not be the same as the username and password used to access SharePoint Online. When a user accesses a SharePoint Online page that displays information from an external data system, SharePoint must make a separate request to retrieve information from the external data system. This must be made with credentials that are known to the external data system in order for the request for content to be successful. Only then can SharePoint display the information from the external data system on the page. The Secure Store Service stores the external data system credentials for this reason.
+This SharePoint service makes access to external business application data easier. In order to understand why the Secure Store Service offers this benefit, it's important to understand that the username and password used to access external data stores may not be the same as the username and password used to access SharePoint. When a user accesses a SharePoint page that displays information from an external data system, SharePoint must make a separate request to retrieve information from the external data system. This must be made with credentials that are known to the external data system in order for the request for content to be successful. Only then can SharePoint display the information from the external data system on the page. The Secure Store Service stores the external data system credentials for this reason.
   
 The Secure Store Service is designed to create a background mapping between a group of users in SharePoint, and a single user known to the external data system. When the Secure Store Service is properly configured, the following occurs: 
   
-- A user authenticates through Internet Information Services (the web server technology underlying SharePoint technologies) to SharePoint Online via valid credentials.
+- A user authenticates through Internet Information Services (the web server technology underlying SharePoint technologies) to SharePoint via valid credentials.
     
-- Inside SharePoint Online, the Secure Store Service uses mapped credentials known to the external business application to render any necessary external data on the site for the authenticated user.
+- Inside SharePoint, the Secure Store Service uses mapped credentials known to the external business application to render any necessary external data on the site for the authenticated user.
     
-Another benefit of the Secure Store Service is that it eliminates authentication prompts for users. When users navigate to SharePoint Online pages that access external data systems, the Secure Store Service is active in the background, checking user rights and providing mapped credentials to the external data when appropriate. This allows users to access the required data without prompting them to enter usernames and passwords specific to the external application.
+Another benefit of the Secure Store Service is that it eliminates authentication prompts for users. When users navigate to SharePoint pages that access external data systems, the Secure Store Service is active in the background, checking user rights and providing mapped credentials to the external data when appropriate. This allows users to access the required data without prompting them to enter usernames and passwords specific to the external application.
   
 ## Create a Target Application
 <a name="__toc346879711"> </a>
@@ -60,13 +60,13 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
 9. **Contact E-mail** Enter a valid email address for people to use when they have questions. 
     
-10. **Target Application Type**. By default, SharePoint Online uses type **Group Restricted**. 
+10. **Target Application Type**. By default, SharePoint uses type **Group Restricted**. 
     
 11. In the **Credential Fields** section, enter the **Field Names** and **Field Types** for the credentials that are required to access data in the Target Application. These fields determine how you will map identity in the Secure Store Service. By default, the Credential Fields list the Windows User Name and Windows Password with matching Field Types (User Name and Password), and specifies that the password is masked. 
     
 12. In the **Target Application Administrators** section, enter a list of users, or use the Browse button to search for the name of a group. This section usually contains the account of the SharePoint administrator, or a global administrator. 
     
-13. In the **Members** section, enter a list of users or SharePoint Online groups of users who need to access the target application. Or, you can use the Browse button to search for the name of a group that you want to map to the Target Application. 
+13. In the **Members** section, enter a list of users or SharePoint groups of users who need to access the target application. Or, you can use the Browse button to search for the name of a group that you want to map to the Target Application. 
     
 14. Select **OK** to accept this configuration and return to the Secure Storage Service page. The new Target Application appears on the page. 
     
@@ -132,5 +132,3 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
     >  Be careful when you enter the password. If you enter a password that is incorrect, you won't see a message about the error. Instead, you'll be able to continue with configuration. However, errors can occur later, when you attempt to access data through BCS. Also, if the password for the external data source is updated, you have to return to this page to manually update the password credentials. 
   
 7. When you finish entering values for credential fields, select **OK**.
-    
-

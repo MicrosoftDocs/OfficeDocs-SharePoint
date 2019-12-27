@@ -16,22 +16,22 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: a8609546-c0d7-4956-81b6-08e93eb4b290
-description: "How to configure Infopath in SharePoint Online."
+description: "How to configure Infopath in SharePoint."
 ---
 
 # Configure InfoPath Forms Services
 
-InfoPath Forms Services in SharePoint Online lets you deploy your organization's forms to your sites, enabling users fill out these forms in a web browser. You can configure InfoPath Forms Services in any of several ways, depending on the needs of your organization.
+InfoPath Forms Services in SharePoint lets you deploy your organization's forms to your sites, enabling users fill out these forms in a web browser. You can configure InfoPath Forms Services in any of several ways, depending on the needs of your organization.
   
 > [!NOTE]
-> InfoPath Forms Services 2013 is the last release of InfoPath Forms Services. Microsoft Power Apps is the recommended solution for creating and delivering custom forms for SharePoint Online lists. Create new forms with Power Apps from the command bar or the **Customize** button on SharePoint Online list forms. Support for InfoPath Forms Services will match the support lifecycle for SharePoint Server 2016. 
+> InfoPath Forms Services 2013 is the last release of InfoPath Forms Services. Microsoft Power Apps is the recommended solution for creating and delivering custom forms for SharePoint lists. Create new forms with Power Apps from the command bar or the **Customize** button on SharePoint list forms. Support for InfoPath Forms Services will match the support lifecycle for SharePoint Server 2016.
   
 ## Overview
 <a name="__toc336423362"> </a>
 
 This article discusses settings that apply only to user form templates, which are form templates that are not deployed by a developer. User form templates don't require Full Trust, and they don't contain code or other business logic.
   
-Form designers can publish user form templates to a list or a form library in a SharePoint Online site collection. Because user form templates can be deployed by many users, a server can potentially host thousands of user form templates. In large numbers, even form templates that contain no business logic can put a heavy load on the server.
+Form designers can publish user form templates to a list or a form library in a SharePoint site collection. Because user form templates can be deployed by many users, a server can potentially host thousands of user form templates. In large numbers, even form templates that contain no business logic can put a heavy load on the server.
   
 ## Configure browser-enabled user form templates
 <a name="__toc336423363"> </a>

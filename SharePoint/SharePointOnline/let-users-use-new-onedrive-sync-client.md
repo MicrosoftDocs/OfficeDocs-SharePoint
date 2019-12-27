@@ -19,16 +19,16 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 22e1f635-fb89-49e0-a176-edab26f69614
-description: "Learn how to enable users in your organization to sync SharePoint Online files with the new OneDrive sync app."
+description: "Learn how to enable users in your organization to sync SharePoint files with the new OneDrive sync app."
 ---
 
 # Let users sync SharePoint files with the new OneDrive sync app
 
-This article is for IT administrators in large organizations who want to enable users in their organizations to sync SharePoint Online team sites with the new OneDrive sync app. Smaller organizations and organizations that are new to Office 365 are already set up to sync OneDrive and SharePoint files with the new OneDrive sync app.
+This article is for IT administrators in large organizations who want to enable users in their organizations to sync SharePoint team sites with the new OneDrive sync app. Smaller organizations and organizations that are new to Office 365 are already set up to sync OneDrive and SharePoint files with the new OneDrive sync app.
   
-When you enable this feature, users will be able to sync the files in a SharePoint Online team site to their PCs and Macs using the OneDrive sync app (OneDrive.exe). As part of this, they will be able to:
+When you enable this feature, users will be able to sync the files in a SharePoint team site to their PCs and Macs using the OneDrive sync app (OneDrive.exe). As part of this, they will be able to:
   
-- Browse to a SharePoint Online site or shared folder and click **Sync** to sync all contents in the document library or only selected folders that are important to them. 
+- Browse to a SharePoint site or shared folder and click **Sync** to sync all contents in the document library or only selected folders that are important to them.
     
 - Change the folders they sync directly from their PC or Mac.
     
@@ -44,7 +44,7 @@ When you enable this feature, users will be able to sync the files in a SharePoi
 ## Deploy and configure the OneDrive sync app
 <a name="TestFeature"> </a>
 
-To enable users in your organization to sync SharePoint Online team sites with the OneDrive sync app, you first need to deploy the OneDrive sync app to your organization.
+To enable users in your organization to sync SharePoint team sites with the OneDrive sync app, you first need to deploy the OneDrive sync app to your organization.
   
 See [Deploy the new OneDrive sync app using SCCM](/onedrive/deploy-on-windows)
   
@@ -79,7 +79,7 @@ For info about the latest sync app releases, see [New OneDrive sync app release 
   
 6. Select **OK**.
     
-    These changes take several hours to propagate. To check that they've propagated, go to a SharePoint Online site and select **Sync**. In the browser dialog box that confirms the request to open a program, the "Program" should appear as "Microsoft OneDrive" and the "Address" should start with "odopen://"
+    These changes take several hours to propagate. To check that they've propagated, go to a SharePoint site and select **Sync**. In the browser dialog box that confirms the request to open a program, the "Program" should appear as "Microsoft OneDrive" and the "Address" should start with "odopen://"
     
 ## See also
 <a name="admincenter"> </a>
