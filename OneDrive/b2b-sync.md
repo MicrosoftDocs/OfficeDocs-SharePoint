@@ -44,6 +44,7 @@ This article gives an overview of the B2B Sync experience and describes these re
 - On the Mac, Files On-Demand thumbnails will not display from external organization's sites. Thumbnails will display correctly for files from the user's own organization. 
 - On the Mac, if the guest account was created with a different email address format than the form they are using with the sync app, the external site's content cannot be synced. For example, first.last@fabrikam.com vs alias@fabrikam.com.
 - On the Mac, the external content may be placed on the local computer in the user's own organization's folder instead of one with the external organization's name.
+- Multi-Factor Authentication from an external organization is not yet supported. Only guest accounts that don't require MFA will sync.
 
 ## Overview of the B2B Sync experience
 
