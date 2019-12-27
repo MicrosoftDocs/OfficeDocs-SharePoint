@@ -25,14 +25,14 @@ description: "Allow sharing only with guests on specific domains, or block shari
 
 # Restrict sharing of SharePoint and OneDrive content by domain
 
-If you want to restrict sharing with other organizations (either at the organization level or site level), you can limit sharing by domain. 
+If you want to restrict sharing with other organizations (either at the organization level or site level), you can limit sharing by domain.
 
 > [!NOTE]
 > If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
 
 ## Limiting domains
 
-You can limit domains by allowing only the domains you specify or by allowing all domains except those you block. 
+You can limit domains by allowing only the domains you specify or by allowing all domains except those you block.
   
  **To limit domains at the organization level**
   
@@ -41,20 +41,20 @@ You can limit domains by allowing only the domains you specify or by allowing al
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-4. In the left pane, select **Sharing**. 
+4. In the left pane, select **Sharing**.
     
-5. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**. 
+5. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-6. Select **Allow only specific domains** to create an allow list (most restrictive) or **Block specific domains** to block only the domains you specify. 
+6. Select **Allow only specific domains** to create an allow list (most restrictive) or **Block specific domains** to block only the domains you specify.
     
-7. List the domains (maximum of 1000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line. 
+7. List the domains (maximum of 1000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
-    > Wildcards are not supported for domain entries. 
+    > Wildcards are not supported for domain entries.
   
-You can also configure the organization-wide setting by using the [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet. 
+You can also configure the organization-wide setting by using the [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet.
   
 You can also limit domains at the site collection level. Note the following considerations:
   
@@ -64,7 +64,7 @@ You can also limit domains at the site collection level. Note the following cons
     
 - If an organization-wide deny list is configured, then you can configure either an allow list or a deny list at the site collection level.
     
-- For individual OneDrive for Business site collections, you can only configure this setting by using the [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet. 
+- For individual OneDrive site collections, you can only configure this setting by using the [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOSite) Windows PowerShell cmdlet.
     
  **To limit domains for a classic site collection**
   
@@ -74,26 +74,26 @@ You can also limit domains at the site collection level. Note the following cons
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
- 
+
 3. Select **Classic features**.
 
 4. Select **More classic features**.
     
 3. Under **Classic site collections page**, and then select **Open**.
- 
+
 5. Select a site collection, and then select **Sharing**.
     
-6. Under **Site collection additional settings**, select the **Limit external sharing using domain** check box. 
+6. Under **Site collection additional settings**, select the **Limit external sharing using domain** check box.
     
-7. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list. 
+7. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list.
     
-8. List maximum 100 domains (this limit applies for both Classic and Modern sites collections) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return. 
+8. List maximum 100 domains (this limit applies for both Classic and Modern sites collections) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return.
     
     > [!NOTE]
-    > Wildcards are not supported for domain entries. 
+    > Wildcards are not supported for domain entries.
   
 > [!NOTE]
-> To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive for Business site collections), you must use the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=2003901) PowerShell cmdlet. 
+> To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive site collections), you must use the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=2003901) PowerShell cmdlet.
   
 ## Sharing experience
 
@@ -109,13 +109,13 @@ After you limit sharing by domain, here's what you'll see when you share a docum
 
     ![Screenshot of error message when sharing OneDrive files with blocked users.](media/992f367d-1caa-4019-8fd8-af84c172319c.png)
   
-- **Sharing content with email domains that are allowed.** Users will be able to successfully share the content with the guest. A tooltip will appear to let them know that the guest is outside of their organization. 
+- **Sharing content with email domains that are allowed.** Users will be able to successfully share the content with the guest. A tooltip will appear to let them know that the guest is outside of their organization.
     
-    ![Screenshot of sucessfully sharing content with restricted users.](media/4e5ff064-a1d4-4a7d-bc7b-0541312e9383.png)
+    ![Screenshot of successfully sharing content with restricted users.](media/4e5ff064-a1d4-4a7d-bc7b-0541312e9383.png)
   
 ## User auditing and lifecycle management
 
-As with any extranet sharing scenario it's important to consider the lifecycle of your guest users, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint Online business-to-business (B2B) extranet sites](plan-b2b-extranet-sites.md) for more information. 
+As with any extranet sharing scenario it's important to consider the lifecycle of your guest users, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint Online business-to-business (B2B) extranet sites](plan-b2b-extranet-sites.md) for more information.
   
 ## See also
 
@@ -124,4 +124,3 @@ As with any extranet sharing scenario it's important to consider the lifecycle o
 [Extranet for Partners with Office 365](create-b2b-extranet.md)
   
 [Set-SPOTenant](https://go.microsoft.com/fwlink/?linkid=2003900)
-
