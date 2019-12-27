@@ -16,7 +16,7 @@ description: "Find the solution to SharePoint and OneDrive sharing errors"
 
 # Sharing errors in SharePoint and OneDrive
 
-This article covers the different errors that you might encounter when sharing files or folders from SharePoint Online or OneDrive for Business in Office 365. You need to be a global or SharePoint admin in your organization to fix these errors. If you are not an administrator, contact your help desk and give them your error code.
+This article covers the different errors that you might encounter when sharing files or folders from SharePoint or OneDrive in Office 365. You need to be a global or SharePoint admin in your organization to fix these errors. If you are not an administrator, contact your help desk and give them your error code.
 
 Note that changing these settings changes the types of external sharing that are allowed in your organization. In some cases, these settings may have been set by someone in your organization for business reasons.
 
@@ -48,10 +48,10 @@ Try sharing again.
 
 ### If you're sharing from OneDrive:
 
-1. In the Microsoft 365 admin center, in the left pane, under **Users**, select **Active users**. 
-2. Select the user, and then select the OneDrive tab. 
+1. In the Microsoft 365 admin center, in the left pane, under **Users**, select **Active users**.
+2. Select the user, and then select the OneDrive tab.
 3. Select **Manage external sharing**.
-4. Make sure **Let people outside your organization access your site** is turned on and **Allow sharing with anonymous guest links and authenticated users** or **Allow sharing to authenticated guest users with invitations** is selected. 
+4. Make sure **Let people outside your organization access your site** is turned on and **Allow sharing with anonymous guest links and authenticated users** or **Allow sharing to authenticated guest users with invitations** is selected.
 
 Try sharing again.
 
@@ -83,10 +83,10 @@ Try sharing again.
 
 ### If you're sharing from OneDrive:
 
-1. In the Microsoft 365 admin center, in the left pane, under **Users**, select **Active users**. 
-2. Select the user, and then select the OneDrive tab. 
+1. In the Microsoft 365 admin center, in the left pane, under **Users**, select **Active users**.
+2. Select the user, and then select the OneDrive tab.
 3. Select **Manage external sharing**.
-4. Make sure **Let people outside your organization access your site** is turned on and **Allow sharing with anonymous guest links and authenticated users** or **Allow sharing to authenticated guest users with invitations** is selected. 
+4. Make sure **Let people outside your organization access your site** is turned on and **Allow sharing with anonymous guest links and authenticated users** or **Allow sharing to authenticated guest users with invitations** is selected.
 
 Try sharing again.
 
@@ -145,9 +145,9 @@ Error OSE208 indicates that you can only share OneDrive files and folders with g
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
@@ -166,9 +166,9 @@ Error OSE303 indicates that the person sharing the file or folder is not a membe
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
@@ -195,9 +195,9 @@ Error OSE304 indicates that the person sharing the file or folder is not a membe
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
@@ -224,9 +224,9 @@ Error OSE401 indicates that your organization-level setting lets you share with 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
@@ -244,9 +244,9 @@ Error OSE402 indicates that your organization-level setting blocks sharing with 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
 
 4. In the left pane of the new SharePoint admin center, under **Policies**, select **Sharing**.
 
