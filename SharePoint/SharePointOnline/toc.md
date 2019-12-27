@@ -20,7 +20,7 @@
 ### [Root site](modern-root-site.md)
 ### [Lists and libraries](change-default-list-and-library-experience.md)
 ## [New admin center]()
-### [Home page](get-started-new-admin-center.md)
+### [Overview](get-started-new-admin-center.md)
 ### [What's new in admin center](what-s-new-in-admin-center.md)
 ### [Manage sites in new admin center](manage-sites-in-new-admin-center.md)
 ## [Hub sites]()
