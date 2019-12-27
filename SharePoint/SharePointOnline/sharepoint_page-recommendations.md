@@ -47,3 +47,28 @@ In the article linked above, you'll learn the three different ways to hide or di
 
 > [!NOTE]
 > Recommendations can't be disabled for an entire tenant.
+
+## How are recommendations determined for each user?
+
+This is a text version of the diagram above.
+
+**A user views a page or news post**
+When a user arrives on a page or news post, SharePoint finds the people who also viewed the page recently (up to the last 100 viewers).
+
+**Relevant users are determined**
+From the list of people who viewed the page or news post recently, SharePoint determines which of these are most relevant to the current viewer. The determination is made based on:
+-   People who work with the user frequently
+-   People who are within the direct management chain in Azure Active Directory. If Azure Active Directory is not set up, this factor will not be used.
+
+**Machine learning ranks content**
+
+The machine learning model ranks content that relevant users have consumed according to a variety of attributes, such as whether the content was viewed in the last 7 days, how many viewers it has had, and so on. 
+Content that the user hasn’t seen within the previous 7 days is ranked higher than other content. 
+Additionally, the user will see only content that they have access to
+Then, ranking is based on the following priority order:
+
+**People read next**. This is content that is viewed immediately after the page by the highest number of relevant users. It is displayed as the first two recommendations.
+
+**Popular with your colleagues**. This is content that has had at least 3 viewers in the previous 7 days.
+
+**Popular on this site**. This factor is used only if an item is from the same site.
