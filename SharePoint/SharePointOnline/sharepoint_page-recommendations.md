@@ -5,7 +5,7 @@ ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
 audience: Admin
-ms.topic: overview
+ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.custom: Adm_O365
@@ -14,13 +14,9 @@ ms.collection:
 - M365-collaboration
 search.appverid:
 - SPO160
-- MOE150
-- GEA150
-- BSA160
-- BCS160
-- GSP150
 - MET150
 description: "Learn how page recommendations are determined"
+
 ---
 # How SharePoint page recommendations work
 SharePoint recommendations on modern pages help you and your users discover pages and news in your organization. At the bottom of news posts and pages, you'll see recommendations especially for you or your users. Recommendations show below the heading **You may also be interested in**.
