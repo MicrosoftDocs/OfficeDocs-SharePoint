@@ -267,12 +267,11 @@ Error OSE403 indicates that the site from which you're sharing lets you share wi
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-4. Select **Classic features**.
-5. Select **More classic features**.
-6. Under **Classic site collections page**, select **Open**.
-7. Select the site that you're sharing from, and then click **Sharing** in the ribbon.
-8. Under **Site collection additional settings**, add the domain that you want to share with to the list of allowed domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains** check box.
-9. Click **Save**.
+4. Select **More features**.
+5. Under **Classic site collections page**, select **Open**.
+6. Select the site that you're sharing from, and then click **Sharing** in the ribbon.
+7. Under **Site collection additional settings**, add the domain that you want to share with to the list of allowed domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains** check box.
+8. Click **Save**.
 
 Try sharing again.
 
@@ -286,12 +285,11 @@ Error OSE404 indicates that the site from which you're sharing blocks sharing wi
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-4. Select **Classic features**.
-5. Select **More classic features**.
-6. Under **Classic site collections page**, select **Open**.
-7. Select the site that you're sharing from, and then click **Sharing** in the ribbon.
-8. Under **Site collection additional settings**, remove the domain that you want to share with from the list of blocked domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains**. check box.
-9. Click **Save**.
+4. Select **More features**.
+5. Under **Classic site collections page**, select **Open**.
+6. Select the site that you're sharing from, and then click **Sharing** in the ribbon.
+7. Under **Site collection additional settings**, remove the domain that you want to share with from the list of blocked domains. Alternatively, you can turn off domain filtering by clearing the **Limit external sharing using domains**. check box.
+8. Click **Save**.
 
 Try sharing again.
   

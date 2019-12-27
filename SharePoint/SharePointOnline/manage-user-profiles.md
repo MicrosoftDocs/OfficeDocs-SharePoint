@@ -54,9 +54,9 @@ Follow these steps to transfer ownership of a OneDrive to a different user, or g
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-3. In the left pane, select **Classic features**.
-
-4. Under **User profiles**, select **Open**.
+3. In the left pane, select **More features**.
+ 
+4. Under **User profiles**, select **Open**. 
     
 5. Under **People**, select **Manage User Profiles**.
     
@@ -126,9 +126,9 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
 
 In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-2. In the left pane, select **Classic features**.
-
-3. Under **User profiles**, select **Open**.
+2. In the left pane, select **More features**.
+ 
+3. Under **User profiles**, select **Open**. 
 
 4. Under **People**, select **Manage User Permissions**.
     

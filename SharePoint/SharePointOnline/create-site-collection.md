@@ -65,7 +65,7 @@ By using the new SharePoint admin center, you can create sites that use one of t
 ## Create a classic site
 <a name="__toc323551189_1"> </a>
 
-If you want to create a site that uses a classic template, you can do so directly from the Microsoft 365 admin center. 
+We recommend using the new site templates for all your new sites. However, if you need to create a site that uses a classic template, you can do so directly from the Microsoft 365 admin center. 
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     

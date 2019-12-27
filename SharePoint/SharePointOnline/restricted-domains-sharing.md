@@ -74,13 +74,11 @@ You can also limit domains at the site collection level. Note the following cons
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
-
-3. Select **Classic features**.
-
-4. Select **More classic features**.
+ 
+3. Select **More features**.
     
-3. Under **Classic site collections page**, and then select **Open**.
-
+4. Under **Classic site collections page**, select **Open**.
+ 
 5. Select a site collection, and then select **Sharing**.
     
 6. Under **Site collection additional settings**, select the **Limit external sharing using domain** check box.
