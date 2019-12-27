@@ -1,5 +1,5 @@
 ---
-title: "Use SharePoint Online as a business-to-business (B2B) extranet solution"
+title: "Use SharePoint as a business-to-business (B2B) extranet solution"
 ms.reviewer: sesham
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -19,16 +19,16 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 7b087413-165a-4e94-8871-4393e0b9c037
-description: "Learn how to use Office 365 SharePoint Online and OneDrive for Business as a Business to Business (B2B) extranet solution"
+description: "Learn how to use Office 365 SharePoint and OneDrive as a Business to Business (B2B) extranet solution"
 ---
 
-# Use SharePoint Online as a business-to-business (B2B) extranet solution
+# Use SharePoint as a business-to-business (B2B) extranet solution
 
-An extranet site in SharePoint Online is a site that you create to let external partners have access to specific content, and to collaborate with them. Extranet sites are a way for partners to securely do business with your organization. The content for your partner is kept in one place and they have only the content and access they need. They don't need to email the documents back and forth or use tools that are not sanctioned by your IT department.
+An extranet site in SharePoint is a site that you create to let external partners have access to specific content, and to collaborate with them. Extranet sites are a way for partners to securely do business with your organization. The content for your partner is kept in one place and they have only the content and access they need. They don't need to email the documents back and forth or use tools that are not sanctioned by your IT department.
   
 Traditionally, deploying a SharePoint  *on-premises*  extranet site involves complex configuration to establish security measures and governance, including granting access inside the corporate firewall, and expensive initial and on-going cost. 
   
-But with Office 365, partners connect directly to a members-only site in SharePoint Online, without access to your on-premises environment or any other SharePoint sites. Office 365 extranet sites can be accessed anywhere there's an Internet connection.
+But with Office 365, partners connect directly to a members-only site in SharePoint, without access to your on-premises environment or any other SharePoint sites. Office 365 extranet sites can be accessed anywhere there's an Internet connection.
   
 Depending on your collaboration needs, you can include Office 365 groups or Microsoft Teams as part of your extranet.
 
@@ -63,7 +63,7 @@ Depending on your collaboration needs, you can include Office 365 groups or Micr
 
 ## Get started
 
-To get started setting up a SharePoint Online extranet site:
+To get started setting up a SharePoint extranet site:
   
 1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with an Office 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
 

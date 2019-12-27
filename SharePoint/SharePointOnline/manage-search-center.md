@@ -1,5 +1,5 @@
 ---
-title: "Manage the Search Center in SharePoint Online"
+title: "Manage the Search Center in SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,11 +16,11 @@ ms.assetid: 174d36e0-2f85-461a-ad9a-8b3f434a4213
 description: "Learn how to customize the Search Center pages to improve the end user's search experience. Learn about search verticals (Everything, People, Videos, and Conversations) and the predefined Web Parts (Search Box Web Part, Search Results Web Part, Search Navigation Web Part, and Refinement Web Part.)"
 ---
 
-# Manage the Search Center in SharePoint Online
+# Manage the Search Center in SharePoint
 
 The Search Center is a classic search experience. The Search Center is a site or site collection that has a starting page where users enter search queries and a search results page where users can drill into and refine search results, or run a new query.  
 
-SharePoint Online offers two types of Search Centers: the **Basic** Search Center and the **Enterprise** Search Center. By default SharePoint Online is set up with the Basic Search Center. 
+SharePoint offers two types of Search Centers: the **Basic** Search Center and the **Enterprise** Search Center. By default, SharePoint is set up with the Basic Search Center. 
 
 Both Search Centers search the same content and show the same search results. The main difference is that the Enterprise Search Center comes with the search verticals People, Conversations, and Videos. Search verticals are pages that are tailored for displaying search results that are filtered and formatted for a specific content type or class. Search verticals help users move quickly between such different types and classes of content. Also, as a search administrator you have more options for tailoring the look and feel of the Enterprise Search Center.
 
@@ -63,5 +63,3 @@ For information about how to customize the Search Center Web Parts, see the foll
 - [Change settings for the Search Navigation Web Part](search-navigation-web-part.md)
     
 - [Change settings for the Refinement Web Part](refinement-web-part.md)
-    
-
