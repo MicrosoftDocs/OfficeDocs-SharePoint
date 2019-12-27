@@ -24,11 +24,11 @@ description: "Learn about the changes to how the previous OneDrive for Business 
 
 Starting in October 2017, we're changing how the previous OneDrive for Business sync app installs for enterprise customers using Office 365 ProPlus or Office 2016 with [Click-to-Run](https://go.microsoft.com/fwlink/p/?LinkId=526674).
   
-- The previous OneDrive for Business sync cliappent (Groove.exe) will no longer be installed by default with Office 2016 Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
-    
+- The previous OneDrive for Business sync app (Groove.exe) will no longer be installed by default with Office 2016 Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
+
 - When not in use or running, the previous OneDrive for Business sync app (Groove.exe) will be uninstalled, unless: (a) Groove is already configured to sync one or more SharePoint Online or SharePoint Server libraries or (b) a "PreventUninstall" registry key is present on the computer.
-    
-These changes won't affect Office 365 customers who are already using the new OneDrive sync app (OneDrive.exe) to sync OneDrive and SharePoint Online files. Neither will these changes affect enterprises who have deployed Office with the traditional Windows Installer-based (MSI) method.
+
+These changes won't affect Office 365 customers who are already using the new OneDrive sync app (OneDrive.exe) to sync OneDrive and SharePoint files. Neither will these changes affect enterprises who have deployed Office with the traditional Windows Installer-based (MSI) method.
   
 > [!NOTE]
 > The new OneDrive sync app (OneDrive.exe) is the recommended option for Office 365 and SharePoint Server 2019+ customers. However, the previous OneDrive for Business sync app (Groove.exe) is still fully supported and is used for on-premises instances of OneDrive for Business or SharePoint Server. [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
@@ -72,7 +72,7 @@ The following table shows more detail about which Office installations are affec
 |Office 2016 Click-to-Run - Monthly channel  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |
 |Office 2016 Click-to-Run - Semi-annual channel (Targeted)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
 |Office 2016 Click-to-Run - Semi-annual channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
-   
+
 For more information about Office channels, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus).
   
 Unless you need Groove.exe for some of your scenarios (for example, syncing on-premises SharePoint files), we strongly recommend leaving the new defaults in place and excluding Groove.exe from Office 2016 installations.
@@ -80,5 +80,3 @@ Unless you need Groove.exe for some of your scenarios (for example, syncing on-p
 ## Related Topics
 
 [Learn more about the Sync button update on SharePoint sites](https://support.office.com/article/9762aef3-d17f-4486-aae3-9c20bb979cbf)
-  
-
