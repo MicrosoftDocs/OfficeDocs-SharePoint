@@ -19,14 +19,14 @@ description: "Learn about the features currently in the new SharePoint admin cen
 
 # What's new in the SharePoint admin center
 
-We're continuously adding new features to the new SharePoint admin center and fixing issues we learn about. Here's a summary of what's included. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button. 
+We're continuously adding new features to the new SharePoint admin center and fixing issues we learn about. Here's a summary of what's included. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button.
   
 > [!NOTE]
-> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features described in this article. 
+> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see some features described in this article.
   
 ## June 2019
 
-- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page). 
+- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page).
 - On the Active sites page, you can select multiple sites and bulk edit sharing and hub association settings.
 - Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from the Classic features page so you can access them directly from the new SharePoint admin center.
 
@@ -35,7 +35,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 ### Home page and left pane
   
-- Two charts, along with messages and service health filtered to SharePoint Online
+- Two charts, along with messages and service health filtered to SharePoint
     
 - Links to the Microsoft 365 admin center for detailed reports, message center posts, and service health info
     
@@ -57,7 +57,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
     
 - Built-in views and the ability to create custom views
     
-- The ability to edit site-level sharing status 
+- The ability to edit site-level sharing status
     
 - Export to CSV
     
@@ -77,7 +77,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 ### Access control page
   
-- The ability to create policies that restrict access from unmanaged devices, sign out users from inactive browser sessions, allow access from only specific IP addresses, and block access from apps that don't use modern authentication. 
+- The ability to create policies that restrict access from unmanaged devices, sign out users from inactive browser sessions, allow access from only specific IP addresses, and block access from apps that don't use modern authentication.
 
 ### Settings page
   
@@ -86,6 +86,3 @@ We're continuously adding new features to the new SharePoint admin center and fi
 ### API management page
   
 - The ability to view pending and approved web API permissions and approve or reject access requests
-    
-
-
