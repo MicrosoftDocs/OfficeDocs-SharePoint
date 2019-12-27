@@ -70,7 +70,7 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
 4. Under **Search**, select Open.
     
@@ -106,7 +106,7 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
 4. Under **Search**, select Open.
    

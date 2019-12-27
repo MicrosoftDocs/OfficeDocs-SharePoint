@@ -1,5 +1,5 @@
 ---
-title: "Change a site address (preview)"
+title: "Change a site address"
 ms.reviewer: adwood
 ms.author: kaarins
 author: kaarins
@@ -70,9 +70,9 @@ Before you change the address of a site, it's important to communicate the chang
 
 5. Click the site name to open the details pane.
 
-6. In the Properties list, next to URL, select **Edit**.
+6. On the General tab, under URL, select **Edit**.
 
-    ![Changing the address of a site from /teams](media/change-site-address.png)
+    ![Changing the address of a site](media/change-site-address.png)
 
 7. Enter the new site address, and then select **Save**.
 
