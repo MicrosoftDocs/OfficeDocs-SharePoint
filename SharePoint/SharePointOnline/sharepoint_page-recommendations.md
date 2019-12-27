@@ -76,7 +76,3 @@ Then, ranking is based on the following priority order:
 **Popular with your colleagues**. This is content that has had at least 3 viewers in the previous 7 days.
 
 **Popular on this site**. This factor is used only if an item is from the same site.
-
-
-
-
