@@ -27,7 +27,7 @@ Learn how to manage search dictionaries. You can use search dictionaries to incl
 
 For company name extraction to work, that is, for a company name to be pulled from your content and for it to be mapped to the managed property **companies**, you have to make sure that:
   
-- The managed property setting **Company name extraction** is enabled on the managed property that you want to extract company names from. This setting is available for the managed properties **Title**, **Body** and **Notes**. See also [Manage the search schema in SharePoint Online](manage-search-schema.md).
+- The managed property setting **Company name extraction** is enabled on the managed property that you want to extract company names from. This setting is available for the managed properties **Title**, **Body** and **Notes**. See also [Manage the search schema in SharePoint](manage-search-schema.md).
     
 - The name of the company that you want to extract is in the prepopulated company name dictionary or in the **Company Inclusions** list. 
     

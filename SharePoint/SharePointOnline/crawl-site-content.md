@@ -34,7 +34,7 @@ When you have changed a managed property, or when you have changed the mapping o
   
 You can also choose to only re-index a document library or a list. When you have changed a managed property that's used in a library or list, or changed the mapping of crawled and managed properties, you can specifically request a re-indexing of that library or list only. All of the content in that library or list is marked as changed, and the content is picked up during the next scheduled crawl and re-indexed.
   
-Learn more about search and crawled and managed properties in [Manage the search schema in SharePoint Online](manage-search-schema.md).
+Learn more about search and crawled and managed properties in [Manage the search schema in SharePoint](manage-search-schema.md).
   
 See also: [Enable content on a site to be searchable](make-site-content-searchable.md)
   

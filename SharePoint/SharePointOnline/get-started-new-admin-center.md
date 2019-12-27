@@ -71,7 +71,7 @@ In the Message center section of the home page, you can read official announceme
   
 ## Service health
 
-In the Service health section of the home page, you can see whether the SharePoint Online service is healthy, or if it's experiencing an active advisory or incident. For more info about an advisory or incident, click it to open the Service health page of the Microsoft 365 admin center.
+In the Service health section of the home page, you can see whether the SharePoint service is healthy, or if it's experiencing an active advisory or incident. For more info about an advisory or incident, click it to open the Service health page of the Microsoft 365 admin center.
   
 ![The Service health card on the Home page](media/0336aab6-aecb-494c-9cd2-f279f452cc79.PNG)
   

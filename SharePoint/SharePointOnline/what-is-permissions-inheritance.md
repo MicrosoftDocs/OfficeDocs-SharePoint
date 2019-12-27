@@ -16,7 +16,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 06bb1ed1-d150-42f4-9600-fb261d4b590c
-description: "What is permissions inheritance in SharePoint and SharePoint Online and why do we use it; what is a parent; permissions recommendations that can save time."
+description: "What is permissions inheritance in SharePoint and why do we use it; what is a parent; permissions recommendations that can save time."
 ---
 
 # What is permissions inheritance?

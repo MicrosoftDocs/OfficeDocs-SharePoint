@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 02b36b7c-c1e1-4d73-9a92-5658389ed4b6
-description: "All search results are not relevant to everyone all the time. Learn how you can help users find exactly the results they're looking for in SharePoint Online."
+description: "All search results are not relevant to everyone all the time. Learn how you can help users find exactly the results they're looking for in SharePoint."
 ---
 
 # Show the right search results
 
-All search results are not relevant to everyone all the time. Learn how you can help users find exactly the results they're looking for in SharePoint Online. SharePoint Online has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
+All search results are not relevant to everyone all the time. Learn how you can help users find exactly the results they're looking for in SharePoint. SharePoint has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md).
   
 ## Manage the search schema
   
@@ -54,5 +54,3 @@ You can influence the pages or documents that should appear at the top of your l
 ## Export and import search settings
   
 You can export and import customized search configuration settings between tenants, site collections, and sites. The settings include all customized query rules, result sources, result types, ranking models and site search settings. Learn about [exporting and importing search settings](export-and-import-search-settings.md).
-  
-

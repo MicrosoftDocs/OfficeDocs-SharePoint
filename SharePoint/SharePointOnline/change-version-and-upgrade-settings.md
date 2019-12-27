@@ -20,15 +20,15 @@ description: "This article describes how to configure which version of SharePoin
 
 # Change site collection version and upgrade settings
 
-When Office 365 updates become available, global and SharePoint admins in Office 365 are the first to hear about them. SharePoint Online has a hierarchical structure, so updates are delivered in a cascading way. Updates start at the organization level and then flow down to site collections and sites. 
+When Office 365 updates become available, global and SharePoint admins in Office 365 are the first to hear about them. SharePoint has a hierarchical structure, so updates are delivered in a cascading way. Updates start at the organization level and then flow down to site collections and sites.
   
-You, as a global or SharePoint admin, determine who is allowed to upgrade site collections and can restrict upgrade permissions to a select group, or delegate upgrade responsibilities to site collection admins. Each method has its benefits. 
+You, as a global or SharePoint admin, determine who is allowed to upgrade site collections and can restrict upgrade permissions to a select group, or delegate upgrade responsibilities to site collection admins. Each method has its benefits.
   
 Limit upgrade options when you want to arrange a coordinated rollout of new features, or you have highly customized sites that need thorough testing before being upgraded. You can also delegate upgrade tasks when you have numerous site collections within your subscription. If, for example, you have team sites, personal sites, publishing sites, and project sites, delegation spreads the work around and enables site collection admins to determine when the time is right to implement the upgrades for their individual sites.
   
 ## About site collection versions
 
-If you're rolling out an upgrade, you don't want it to affect workday tasks or prevent users from creating sites when and where they need them. With versions, you can update your subscription to the new environment but allow your users to continue creating sites that look and feel like the old version. 
+If you're rolling out an upgrade, you don't want it to affect workday tasks or prevent users from creating sites when and where they need them. With versions, you can update your subscription to the new environment but allow your users to continue creating sites that look and feel like the old version.
 
 You can choose whether to allow versions in your subscription and decide how users can upgrade their own site collections. The classic settings page lets you choose from the following version options.
   
@@ -83,4 +83,3 @@ You can choose whether to allow versions in your subscription and decide how use
 ## See also
 
 [Manage site collections and global settings in the SharePoint admin center](planning-guide.md)
-
