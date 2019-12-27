@@ -69,11 +69,11 @@ The list you create in these steps will be saved to a text file.
    > [!NOTE]
    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
 	
-4. The script will prompt you for the SharePoint Online tenant admin Url. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint Online tenant admin Url.
+4. The script will prompt you for the SharePoint tenant admin Url. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint tenant admin Url.
 
-5. You will then be prompted to log into the tenant. Use a SharePoint Online Administrator or Global Administrator account.
+5. You will then be prompted to log into the tenant. Use a SharePoint Administrator or Global Administrator account.
 
-After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive Urls in your organization. The following text provides an example of how the list of Urls in this file should be formatted. 
+After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive Urls in your organization. The following text provides an example of how the list of Urls in this file should be formatted.
   
 ```
 Url                                                                
