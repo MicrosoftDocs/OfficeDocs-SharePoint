@@ -43,7 +43,7 @@ Once you have done this, you can then use the managed property **companies** to 
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**, and then select **Manage Search Dictionaries** to open the term store. 
     
@@ -65,7 +65,7 @@ Once you have done this, you can then use the managed property **companies** to 
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**. 
  
@@ -96,7 +96,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**. 
  
@@ -121,7 +121,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**. 
  
@@ -146,7 +146,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**.
  

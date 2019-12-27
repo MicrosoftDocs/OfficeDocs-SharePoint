@@ -34,19 +34,17 @@ From the admin center, you can also add users to an app, or delegate management 
 
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
-4. Select **More classic features**.
- 
-5. Under **Apps**, select **Open**.
+4. Under **Apps**, select **Open**.
 
-6. Select **Manage Licenses**. 
+5. Select **Manage Licenses**. 
     
-7. In the list of apps, select the app you want to update or view. 
+6. In the list of apps, select the app you want to update or view. 
     
-8. On the Manage App License page, you can review the details about the app license, such as the number of licenses available for users or the license type. You can also take a number of actions. 
+7. On the Manage App License page, you can review the details about the app license, such as the number of licenses available for users or the license type. You can also take a number of actions. 
     
-9.  Do any of the following: 
+8.  Do any of the following: 
     
 |****To do this:****|****Do this:****|
 |:-----|:-----|

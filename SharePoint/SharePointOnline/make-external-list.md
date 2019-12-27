@@ -97,15 +97,13 @@ To create a Secure Store Target Application, follow these steps.
     
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
-4. Select **More classic features**.
- 
-5. Under **Secure store**, select **Open**.
+4. Under **Secure store**, select **Open**.
     
-6. On the ribbon, select **New** to open the page where you can specify settings for a Target Application. 
+5. On the ribbon, select **New** to open the page where you can specify settings for a Target Application. 
     
-7. In the **Target Application Settings** section, do the following: 
+6. In the **Target Application Settings** section, do the following: 
     
   - Under **Target Application ID**, specify a value for a unique ID. This ID maps the External Content type to credentials that are required to authenticate the user. You cannot change the Target Application ID once you create the Target Application.
     
@@ -115,17 +113,17 @@ To create a Secure Store Target Application, follow these steps.
     
   - Under **Target Application Type**, verify that the value is set to **Group Restricted**. Group Restricted means that the Secure Store contains a mapping that connects a group of SharePoint users to a single, external data account that can act on their behalf. In addition, a Group Restricted application type is restricted to the specified external data system.
     
-8. In **Credential Fields** section, enter the field names that you want to use for the user name and password of the external data system. By default, the Secure Store uses the **Windows User Name** and **Windows Password**. We recommend that you accept these values. You cannot edit these Field Types after you finish creating the application.
+7. In **Credential Fields** section, enter the field names that you want to use for the user name and password of the external data system. By default, the Secure Store uses the **Windows User Name** and **Windows Password**. We recommend that you accept these values. You cannot edit these Field Types after you finish creating the application.
     
     ![Screenshot of the Credential Fields section of the Secure Store Target Application properties page. These fields allow you to specify the logon credentials for the target](media/404c21d4-8677-474c-ad01-5cdd8af06cbf.png)
   
-9. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint or global admin. 
+8. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint or global admin. 
     
-10. In the **Members** section, in the **Members** field enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
+9. In the **Members** section, in the **Members** field enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
   
      If you are a global administrator, you can create groups in MSODS in the Microsoft 365 admin center. 
     
-11. Select **OK** to create the Target Application and return to the Secure Store Service page. 
+10. Select **OK** to create the Target Application and return to the Secure Store Service page. 
     
 ### Store credentials for the Target Application
 <a name="__toc350352769"> </a>
@@ -139,15 +137,13 @@ After you create the Target Application, you are ready to enter the credentials 
 
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
-4. Select **More classic features**.
- 
-5. Under **Secure store**, select **Open**.
+4. Under **Secure store**, select **Open**.
   
-6. Select the arrow next to the new Target Application and then select **Set Credentials**. 
+5. Select the arrow next to the new Target Application and then select **Set Credentials**. 
     
-7. In the **Set Credentials for Secure Store Target Applications (Group)** dialog box, enter the user name and password of the account. The account must have access to the target database. In the following illustration, the user name is **Windows User Name** and the password is **Windows Password**.
+6. In the **Set Credentials for Secure Store Target Applications (Group)** dialog box, enter the user name and password of the account. The account must have access to the target database. In the following illustration, the user name is **Windows User Name** and the password is **Windows Password**.
     
     > [!IMPORTANT]
     >  Keep a secure record of this information. After you set these credentials, an administrator cannot retrieve them. 
@@ -282,11 +278,9 @@ To finish setting up the External List, you have to grant permissions to the peo
 
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
-4. Select **More classic features**.
- 
-5. Under **BCS**, select **Open**.
+4. Under **BCS**, select **Open**.
     
 5. Select **Manage BDC Models and External Content Types**. 
     

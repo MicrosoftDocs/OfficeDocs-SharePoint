@@ -22,7 +22,7 @@ description: "Learn how to add and remove site collection admins."
 
 # Manage site admins
 
-This article describes how global admins and SharePoint admins in Office 365 can add and remove site admins (previously called "site collection admins"). If you're an owner of a communication site, or a site that belongs to an Office 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're a an admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
+This article describes how global admins and SharePoint admins in Office 365 can add and remove site admins (previously called "site collection admins"). If you're an owner of a communication site, or a site that belongs to an Office 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're an admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
   
 > [!NOTE]
 > If you're a global admin and want info about assigning other users the SharePoint admin role in Office 365, see [Assigning admin permissions](/office365/admin/add-users/assign-admin-roles). 
@@ -44,8 +44,8 @@ By using the new SharePoint admin center, you can change the owners for sites th
 
 5. In the left column, click to select a site.
   
-6. Select **Owners**. For a group-connected team site, you can add and remove group owners. For other sites, you can change the primary admin and add and remove other admins. Note that if you remove a person as a primary admin, they will still be listed as an additional admin.
+6. Select **Owners**. For a group-connected team site, you can add and remove group owners and additional site admins. For other sites, you can add and remove site admins and change the primary admin. Note that if you remove a person as a primary admin, they will still be listed as an additional admin. For info about each role, see [About site permissions](site-permissions.md). 
 
-![Changing admins for a communication site](media/change-admins.png)
+![Changing admins for a team site](media/change-admins.png)
   
 
