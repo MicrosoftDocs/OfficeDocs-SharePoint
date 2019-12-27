@@ -45,7 +45,7 @@ Before you begin, make sure you:
 2. Review your source site to make sure it has the same policies, permissions, and external sharing settings as your current root site.
 3. Communicate the upcoming change to users. This can help reduce user confusion and calls to your help desk. If users are using files on the sites you're replacing, ask them to close the files and check the site recycle bin to make sure it contains no files they want to keep.  
 
-By default, a site redirect will be created that will redirect traffic from the source site to the root site. For info about site redirects, see [Manage site redirects](manage-site-redirects). 
+By default, a site redirect will be created that will redirect traffic from the source site to the root site. For info about site redirects, see [Manage site redirects](manage-site-redirects.md). 
 
 If you've [turned on audit log search](/office365/securitycompliance/turn-audit-log-search-on-or-off), the following events can be recorded:
 
@@ -57,7 +57,7 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 
 - The site you select as the new root site must be a communication site (SITEPAGEPUBLISHING#0), a modern team site that isn't connected to an Office 365 group (STS#3), or a classic team site (STS#0). 
 - The root site can't be connected to an Office 365 group. 
-- When you replace the root site, both the current site and the new site can't be hub sites or associated with a hub. If either site is a hub site, unregister it as a hub site, replace the root site, and then re-register the site as a hub site. If either site is associated with a hub, disassociate the site, replace the root site, and then reassociate the site. [Learn how to manage hubs in the new SharePoint admin center](manage-sites-in-new-admin-center.md#change-a-sites-hub-site-association)
+- When you replace the root site, both the current site and the new site can't be hub sites or associated with a hub. If either site is a hub site, unregister it as a hub site, replace the root site, and then re-register the site as a hub site. If either site is associated with a hub, disassociate the site, replace the root site, and then reassociate the site. [Learn how to manage hubs in the new SharePoint admin center](manage-sites-in-new-admin-center.md#change-a-sites-hub-association)
 - Replacing the root site with another site replaces any subsites within the sites.
 - The site you select as the new root site must be within the same domain as the current root site.
   
