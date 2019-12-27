@@ -1,5 +1,5 @@
 ---
-title: "Change a site address (preview)"
+title: "Change a site address"
 ms.reviewer: adwood
 ms.author: kaarins
 author: kaarins
