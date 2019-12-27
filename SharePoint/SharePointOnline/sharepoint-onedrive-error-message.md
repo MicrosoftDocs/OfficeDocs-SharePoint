@@ -297,6 +297,6 @@ Try sharing again.
 
 [External sharing overview](external-sharing-overview.md)
 
-[Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md)
+[Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md)
 
 [Stop sharing files or folders or change permissions](https://support.office.com/article/0a36470f-d7fe-40a0-bd74-0ac6c1e13323)

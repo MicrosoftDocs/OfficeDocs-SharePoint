@@ -28,19 +28,19 @@ description: "Learn how to use the SharePoint admin center to create and edit cu
 
 This article is for global admins and SharePoint admins in Office 365. 
 
-- If you're running SharePoint Server, see [Administer the User Profile service in SharePoint Server](/SharePoint/administration/user-profile-service-administration). 
+- If you're running SharePoint Server, see [Administer the User Profile service in SharePoint Server](/SharePoint/administration/user-profile-service-administration).
   
-- If you're not an admin, see [View and update your profile in Office Delve](https://support.office.com/article/4e84343b-eedf-45a1-aeb9-8627ccca14ba) for info about changing your profile. 
+- If you're not an admin, see [View and update your profile in Office Delve](https://support.office.com/article/4e84343b-eedf-45a1-aeb9-8627ccca14ba) for info about changing your profile.
   
 Most organizations don't need to change any user profile settings in the SharePoint admin center. For the organizations that do need to work with user profile settings, this article describes the most common tasks.
   
 ## Create and edit custom user properties
 <a name="customuserproperties"> </a>
 
-In Office 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Office 365 identity and Azure Active Directory](/office365/enterprise/about-office-365-identity). SharePoint Online receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint Online](add-and-edit-user-profile-properties.md).
+In Office 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Office 365 identity and Azure Active Directory](/office365/enterprise/about-office-365-identity). SharePoint receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint](add-and-edit-user-profile-properties.md).
   
 > [!NOTE]
-> Instead of creating user sub-types in the SharePoint admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups) or using the Azure AD admin center to [create groups with dynamic membership](/azure/active-directory/users-groups-roles/groups-dynamic-membership). 
+> Instead of creating user sub-types in the SharePoint admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups) or using the Azure AD admin center to [create groups with dynamic membership](/azure/active-directory/users-groups-roles/groups-dynamic-membership).
   
 ## Add and remove admins for a user's OneDrive
 <a name="addremoveadmins"> </a>
@@ -84,7 +84,7 @@ Audiences let you customize content on pages so that it appears only to particul
 For example, you can display a navigational link to only people in a particular geographic location. For info about using audiences, see [Target content to specific audiences](https://support.office.com/article/33d84cb6-14ed-4e53-a426-74c38ea32293).
 
 > [!NOTE]
-> Only sites that use classic templates can be customized based on audience. <br>Audiences are not a security feature. They help you deliver relevant content to specific groups of people, but don't prevent content from being available to anyone with the appropriate permissions. 
+> Only sites that use classic templates can be customized based on audience. <br>Audiences are not a security feature. They help you deliver relevant content to specific groups of people, but don't prevent content from being available to anyone with the appropriate permissions.
 
 To add, edit, or delete an audience or an audience rule, go to the Manage Audiences page:
   
@@ -94,8 +94,8 @@ To add, edit, or delete an audience or an audience rule, go to the Manage Audien
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If this opens the new SharePoint admin center, select **Classic SharePoint admin center** in the left pane.
-      
-3. In the left pane, select **User profiles**. 
+
+3. In the left pane, select **User profiles**.
     
 4. Under **People**, select **Manage Audiences**.
     
@@ -114,10 +114,10 @@ Audiences compile approximately weekly, and you can only view audience members a
 ## Disable OneDrive creation for some users
 <a name="disableonedrivecreation"> </a>
 
-If some users are licensed to use OneDrive, but you don't want them to create a OneDrive (perhaps for regulatory reasons), you can prevent them from doing so. 
+If some users are licensed to use OneDrive, but you don't want them to create a OneDrive (perhaps for regulatory reasons), you can prevent them from doing so.
 
 > [!NOTE]
-> If a user already created a OneDrive, changing the following setting won't delete it. 
+> If a user already created a OneDrive, changing the following setting won't delete it.
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -142,5 +142,3 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
 > The **Disable OneDrive** check box has no effect. Use the "Create Personal Site" check box to specify the security groups that have permission to create a OneDrive.  
   
 6. Select **OK**.
-    
-
