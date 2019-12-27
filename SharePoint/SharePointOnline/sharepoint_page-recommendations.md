@@ -44,9 +44,7 @@ In the article linked above, you'll learn the three different ways to hide or di
 
 -   Site owners can disable recommendations at the site level
 
-
-> [!NOTE]
-> Recommendations can't be disabled for an entire tenant.
+Recommendations can't be disabled for an entire tenant.
 
 ## How are recommendations determined for each user?
 
