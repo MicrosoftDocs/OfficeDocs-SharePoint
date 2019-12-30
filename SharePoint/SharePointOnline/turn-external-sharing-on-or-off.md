@@ -119,14 +119,22 @@ If you are using file requests, the link permissions must be set for **View and 
 
 **Display to owners the names of people who viewed their files**
 
-This setting lets you control whether the owner of a shared file can see the people who only view (and don't edit) the file in OneDrive file access statistics. File access statistics appear on a card when users hover over a file name or thumbnail in OneDrive. The statistics include the number of views on the file, the number of people who viewed it, and the list of people who viewed it.
+This setting lets you control whether the owner of a shared file can see on the file card the people who only view (and don't edit) the file in OneDrive. The file card appears when users hover over a file name or thumbnail in OneDrive. The info includes the number of views on the file, the number of people who viewed it, and the list of people who viewed it. To learn more about the file card, see [See files you shared in OneDrive](https://support.office.com/article/6b67b82b-9c5c-4348-ab10-fd5b0d8df76c). 
 
 > [!NOTE]
 > This setting is selected by default. If you clear it, file viewer info is still recorded and available to you to audit as an admin. OneDrive owners will also still be able to see people who have viewed their shared Office files by opening the files from Office.com or from the Office desktop apps.
 
-On the classic sharing page, you can choose whether you want the default link permission to be view or edit. 
+**Let site owners choose to display the names of people who viewed files or pages in SharePoint**
 
-You can also allow only users in specific security groups to share externally. To see the security groups in your organization, go to the [Groups page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/groups).
+This setting lets you specify whether site owners can allow users who have access to a file, page, or news post to see on the file card who has viewed the item. 
+
+This setting is turned on by default at the organization level and off at the site level for existing sites. Viewer information is shown only when the setting is on at both the organization and site level. We recommend that site owners enable this feature only on team sites that don't have sensitive information. Site owners can do this from the Site settings page by selecting **Manage site features**, searching for **SharePoint Viewers**, and selecting **Activate**.
+
+> [!NOTE]
+> Historical data is included when this setting is enabled. Likewise, if the setting is turned off and back on at the organization level or site level, the views during the off period will be included in the history.
+
+On the classic Sharing page, you can limit external sharing by security group and shorten sharing links or change their default permission.
+
 
 ## Need more help?
 
