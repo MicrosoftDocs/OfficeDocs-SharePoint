@@ -26,22 +26,16 @@ Note that this procedure applies to classic sites, communication sites, and new 
 
 For detailed information about how to set up guest access for a site, see [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site).
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has admin permissions for your organization.
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
-4. In the left pane of the new SharePoint admin center, under **Sites** select **Active sites**.
-    
-5. Select the site, and then select **Sharing**.
+2. Select the site, and then select **Sharing**.
 
     ![Changing the external sharing setting for a site](media/external-sharing-site.png)
      
-6. Select an external sharing option (see the following table), and select **Save**.
+3. Select an external sharing option (see the following table), and select **Save**.
     
 ### Which option to select...
 

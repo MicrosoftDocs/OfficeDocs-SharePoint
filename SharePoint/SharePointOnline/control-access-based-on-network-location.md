@@ -44,22 +44,16 @@ Here are some important considerations for setting a location-based policy:
 > [!NOTE]
 > It can take up to 15 minutes for these settings to take effect. 
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
+1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) and sign in with an account that has admin permissions for your organization.
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-
-4. In the left pane of the new SharePoint admin center, select **Access control**.
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
     
-5. Select **Network location** and turn on **Allow access only from specific IP address ranges**.
+2. Select **Network location** and turn on **Allow access only from specific IP address ranges**.
 
     ![The Network location panel](media/access-control-network-location.png)
     
-6. Enter IP addresses and address ranges separated by commas.
+3. Enter IP addresses and address ranges separated by commas.
   
     > [!IMPORTANT]
     > Make sure you include your own IP address so you don't lock yourself out. This setting not only restricts access to OneDrive and SharePoint sites, but also to the OneDrive and SharePoint admin centers, and to running PowerShell cmdlets. If you lock yourself out and can't connect from an IP address within a range you specified, you will need to contact Support for help.

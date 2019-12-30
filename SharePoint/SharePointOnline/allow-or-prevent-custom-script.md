@@ -45,35 +45,33 @@ In the SharePoint admin center, you can choose to allow users to run custom scri
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. In the left pane of the new SharePoint admin center, select **Settings**. 
-    
-3. At the bottom of the page, select **classic settings page**.
-    
-4. Under **Custom Script** choose: 
-    
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true) and sign in with an account that has admin permissions for your organization.
+
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+
+2. At the bottom of the page, select **classic settings page**.
+
+3. Under **Custom Script** choose:
+
   - **Allow users to run custom script on personal sites**.
-    
+
   - **Allow users to run custom script on self-service created sites**.
-    
+
     ![Custom script section of settings page in SharePoint admin center](media/a96d5c23-6389-4343-81cb-7f055617f6e8.png)
   
     > [!NOTE]
     > Because self-service site creation points to your organization's root site by default, changing the Custom Script setting allows custom script on your organization's root site. For info about changing where sites are created, see [Manage site creation in SharePoint](manage-site-creation.md). 
   
-5. Select **OK**. It can take up to 24 hours for the change to take effect.
-    
+4. Select **OK**. It can take up to 24 hours for the change to take effect.
+
 ## To allow custom script on other SharePoint sites
 <a name="__top"> </a>
 
 > [!CAUTION]
 > Before you allow custom script on sites in your organization, make sure you understand the [security implications](security-considerations-of-allowing-custom-script.md). 
   
-To allow custom script on a particular site (previously called "site collection") immediately, follow these steps: 
+To allow custom script on a particular site (previously called "site collection") immediately, follow these steps:
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
@@ -129,5 +127,3 @@ Before you prevent custom script on sites where you previously allowed it, we re
 ![Error message displayed when scripting is disabled on a site](media/1c7666a0-9538-484f-a691-6e424c5db71a.png)
   
 Communicating the change in advance can reduce user frustration and support calls.
-  
-
