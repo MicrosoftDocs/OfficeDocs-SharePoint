@@ -73,25 +73,13 @@ We do not support automated migration from per-machine to per-user. To revert ba
 
 **How can I detect the installation through SCCM?** 
 
-For SCCM, to detect the install we used the following two registry detection rules with an OR() connector:
-
-|Field|Value|
-|---|---|
-|Hive|   HKEY_LOCAL_MACHINE|
-|Key|    SOFTWARE\Wow6432Node\Microsoft\OneDrive|
-|Value|  Version|
-|32bit on 64bit| TRUE|
-|Type|   Version|
-|Value|  19.043.0304.0007|
-
+For SCCM, to detect the install, use the following registry detection rule:
 
 |Field|Value|
 |---|---|
 |Hive|   HKEY_LOCAL_MACHINE|
 |Key|    SOFTWARE\Microsoft\OneDrive|
 |Value|  Version|
-|32bit on 64bit| FALSE|
+|32bit on 64bit| TRUE|
 |Type|   Version|
 |Value|  19.043.0304.0007|
-
-This allows the per-machine version to be detected independent of the underlying client architecture.
