@@ -26,21 +26,15 @@ A typical use case is in eDiscovery, where you can grant a security group permis
 ## Grant users permission to view the crawl log information
 <a name="__top"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-    
-3. Choose **More features**. 
- 
-4. Under **Search**, select **Open**.
-    
-5. On the search administration page, choose **Crawl Log Permissions**.
-    
-6. In the **Crawl Log Permissions** box, enter names or email addresses. The names of valid users or user groups are shown in the list as you type letters in the box. 
-    
-7. Select **OK**.
-    
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+ 
+2. Under **Search**, select **Open**.
+    
+3. On the search administration page, choose **Crawl Log Permissions**.
+    
+4. In the **Crawl Log Permissions** box, enter names or email addresses. The names of valid users or user groups are shown in the list as you type letters in the box. 
+    
+5. Select **OK**.

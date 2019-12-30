@@ -26,16 +26,12 @@ You can customize and tailor the classic search experience more than Microsoft s
 ## How to get to the classic search administration page
 <a name="__top"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-2. When the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
-3. In the left pane of the new SharePoint admin center, select **More features**. 
-
-4. Under **Search**, select **Open**.
+2. Under **Search**, select **Open**.
 
     
 ## What do you want to do?
@@ -63,4 +59,3 @@ You can customize and tailor the classic search experience more than Microsoft s
 <a name="__top"> </a>
 
 [Search limits for SharePoint Online](search-limits.md)
-

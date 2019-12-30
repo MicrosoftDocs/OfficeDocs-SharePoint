@@ -33,55 +33,45 @@ The client sets the client type as a label in the query. The administrator confi
 > [!NOTE]
 > You can change the name of a client type that has been created for your tenant only. 
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-      
-3. Select **More features**.
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
-4. Under **Search**, select **Open**.
+2. Under **Search**, select **Open**.
     
-5. On the search administration page, choose **Manage Query Client Types**.
+3. On the search administration page, choose **Manage Query Client Types**.
     
-6. To add a client type, select **New Client Type**.
+4. To add a client type, select **New Client Type**.
     
-7. On the Edit a client type page, in the **Query Client Type** field, enter a name for the client type. 
+5. On the Edit a client type page, in the **Query Client Type** field, enter a name for the client type. 
     
-8. Choose **Top**, **Middle** or **Bottom** from the **Throttling Tier** list. 
+6. Choose **Top**, **Middle** or **Bottom** from the **Throttling Tier** list. 
     
     > [!NOTE]
     >  Lower priority queries are throttled first. The search system processes queries from top tier to bottom tier. 
   
-9. Select **OK**.
+7. Select **OK**.
     
 ## Prioritize a client query type
 <a name="__top"> </a>
 
 You can use throttling tiers to prioritize query processing. When the resource limit is reached, query throttling kicks in, and the search system processes queries, starting from the top tier, right through to the bottom tier.
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-      
-3. Select **More features**.
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
-4. Under **Search**, select **Open**.
+2. Under **Search**, select **Open**.
     
-5. On the search administration page, choose **Manage Query Client Types**.
+3. On the search administration page, choose **Manage Query Client Types**.
     
-6. Go to the **Client Type** section, and select the **System Type** that you want to change. 
+4. Go to the **Client Type** section, and select the **System Type** that you want to change. 
     
-7. Choose **Top**, **Middle** or **Bottom** from the **Throttling Tier** list. 
+5. Choose **Top**, **Middle** or **Bottom** from the **Throttling Tier** list. 
     
     > [!NOTE]
     >  Lower priority queries are throttled first. The search system processes queries from top tier to bottom tier. 
   
-8. Select **OK**.
-    
-
+6. Select **OK**.
