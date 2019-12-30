@@ -39,28 +39,24 @@ Object permissions apply only to a specific External System, BDC Model, or Exter
   
 To set object permissions for an object, follow these steps.
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+1. Go to the More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
-3. In the left pane of the new SharePoint admin center, select **More features**.
- 
-4. Under **BCS**, select **Open**.
+2. Under **BCS**, select **Open**.
   
-5. In the **business data catalog** section, select **Manage BDC Models and External Content Types**.
+3. In the **business data catalog** section, select **Manage BDC Models and External Content Types**.
     
-6. Select the check box next to the name of the ECT or external system that you want to manage. 
+4. Select the check box next to the name of the ECT or external system that you want to manage. 
     
-7. On the ribbon, select **Set Object Permissions**.
+5. On the ribbon, select **Set Object Permissions**.
     
     ![A screenshot of the Set Object Permissions dialog for Business Connectivity Services in SharePoint Online.](media/6af13f29-5126-470e-b2b9-a59d0ad569ca.png)
   
-8. Enter a user account or group name in the text box, and then select **Add**. You can also select **Browse** to look for the name that you want. 
+6. Enter a user account or group name in the text box, and then select **Add**. You can also select **Browse** to look for the name that you want. 
     
-9. Select the name of the account or group for which you want to set access to the ECT or external system. You can set permissions for only one account at a time. If you have multiple accounts or groups, you have to set levels of access for each account separately, by selecting them one at a time. 
+7. Select the name of the account or group for which you want to set access to the ECT or external system. You can set permissions for only one account at a time. If you have multiple accounts or groups, you have to set levels of access for each account separately, by selecting them one at a time. 
     
     The following table describes the permissions and their associated access levels.
     
@@ -331,5 +327,3 @@ If you want to see all the ECTs for a BDC Model, you just select the name of the
 This display can closely mirror the layout of the data source connected via an ECT, and give better insight into the structure of the underlying data.
   
 Also, the page displays any Associations, Actions, or Filters for this ECT at the bottom of the page.
-  
-

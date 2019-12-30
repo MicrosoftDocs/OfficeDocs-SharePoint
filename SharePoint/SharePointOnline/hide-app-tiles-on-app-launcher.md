@@ -37,25 +37,21 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 ## To hide app tiles
 <a name="__top"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
-    
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-    
-3. In the left pane, select **Settings**.
+1. Go to the Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has admin permissions for your organization.
 
-4. At the bottom of the page, select **classic settings page**.
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+
+2. At the bottom of the page, select **classic settings page**.
     
-5. In **Show or Hide App Tiles**, choose the tile you want to hide.
+3. In **Show or Hide App Tiles**, choose the tile you want to hide.
     
     ![SPO SharePoint Settings Show/hide options section](media/516f0f56-c44e-465e-8ec5-ba56fbbe2b3b.png)
   
     > [!NOTE]
     > If you have an Office 365 Education subscription, you also have the option to hide **OneNote Class Notebooks** and **OneNote Staff Notebooks**. <br>> Hiding the OneDrive tile also hides the tiles for Word, Excel, PowerPoint, and OneNote.
   
-6. Select **OK** to save the settings.
+4. Select **OK** to save the settings.
     
 ## See also
 <a name="__top"> </a>

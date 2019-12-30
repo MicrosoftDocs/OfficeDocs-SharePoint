@@ -55,29 +55,27 @@ For info about the latest sync app releases, see [New OneDrive sync app release 
 ## Set SharePoint to sync with the OneDrive sync app
 <a name="admincenter"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+1. Go to the Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has admin permissions for your organization.
+
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+2. Select **classic settings page**.
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
-    
-3. In the left pane, select **Settings**, and then select **classic settings page**.
-    
-4. Make sure "OneDrive Sync Button" is set to "Show the Sync button."
+3. Make sure "OneDrive Sync Button" is set to "Show the Sync button."
     
     ![Admin settings for OneDrive sync button](media/66be619a-fec1-4719-a819-7e3fa6e222f1.PNG)
   
     To sync SharePoint files with the new client, you must also sync OneDrive files with the new client.
     
-5. For "Sync Client for SharePoint," select **Start the new client**.
+4. For "Sync Client for SharePoint," select **Start the new client**.
     
     ![Admin setting for OneDrive sync client](media/894772b5-3e43-4a60-9887-99aca47a261c.PNG)
   
     > [!NOTE]
     > If you don't see the "Sync Client for SharePoint" setting on the Settings page, your organization is already set up to use the new OneDrive sync app. When users sign in to the OneDrive sync app (OneDrive.exe), it will automatically take over syncing the site libraries that the previous new OneDrive sync app (Groove.exe) was syncing. For information about how this works, and about the types of libraries that will continue syncing with the previous sync app, see [Transition from the previous OneDrive for Business sync app](/onedrive/transition-from-previous-sync-client). 
   
-6. Select **OK**.
+5. Select **OK**.
     
     These changes take several hours to propagate. To check that they've propagated, go to a SharePoint site and select **Sync**. In the browser dialog box that confirms the request to open a program, the "Program" should appear as "Microsoft OneDrive" and the "Address" should start with "odopen://"
     

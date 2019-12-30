@@ -27,24 +27,20 @@ From the admin center, you can also add users to an app, or delegate management 
 > [!NOTE]
 > The Office and SharePoint App Stores are optional services operated by Microsoft Corporation or its affiliate from any of Microsoft's worldwide facilities. The apps available in the Store are provided by various app publishers, and are subject to the app publisher's terms and conditions and privacy statement. Your use of any of these apps may result in your data being transferred to, stored, or processed in any country where the app publisher, its affiliates or service providers maintain facilities. Availability of specific apps and payment methods depends on your region and service. You can review the app publisher's terms and conditions and privacy statements before downloading and using such apps. 
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+1. Go to the More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
-3. In the left pane of the new SharePoint admin center, select **More features**.
- 
-4. Under **Apps**, select **Open**.
+2. Under **Apps**, select **Open**.
 
-5. Select **Manage Licenses**. 
+3. Select **Manage Licenses**. 
     
-6. In the list of apps, select the app you want to update or view. 
+4. In the list of apps, select the app you want to update or view. 
     
-7. On the Manage App License page, you can review the details about the app license, such as the number of licenses available for users or the license type. You can also take a number of actions. 
+5. On the Manage App License page, you can review the details about the app license, such as the number of licenses available for users or the license type. You can also take a number of actions. 
     
-8.  Do any of the following: 
+6.  Do any of the following: 
     
 |****To do this:****|****Do this:****|
 |:-----|:-----|
