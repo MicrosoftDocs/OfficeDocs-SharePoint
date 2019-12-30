@@ -73,7 +73,7 @@ We do not support automated migration from per-machine to per-user. To revert ba
 
 **How can I detect the installation through SCCM?** 
 
-For SCCM, to detect the install use the following  registry detection rule:
+For SCCM, to detect the install, use the following registry detection rule:
 
 |Field|Value|
 |---|---|
