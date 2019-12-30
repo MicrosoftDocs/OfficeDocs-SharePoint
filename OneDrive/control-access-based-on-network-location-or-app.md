@@ -21,7 +21,7 @@ description: "Learn how to apply conditional access settings in the OneDrive adm
 
 # Control access based on network location or app
 
-To prevent users and guests from accessing OneDrive and SharePoint content on devices outside of specific domains, set a location-based access control policy. While you can do this on the Device access page of the OneDrive admin center, we recommend using the new SharePoint admin center, where you can also control access from unmanaged devices. For info, see [Control access to SharePoint and OneDrive data based on network location](control-access-based-on-network-location.md).
+To prevent users and guests from accessing OneDrive and SharePoint content on devices outside of specific domains, set a location-based access control policy. While you can do this on the Device access page of the OneDrive admin center, we recommend using the new SharePoint admin center, where you can also control access from unmanaged devices. For info, see [Control access to SharePoint and OneDrive data based on network location](/sharepoint/control-access-based-on-network-location).
   
 
 
