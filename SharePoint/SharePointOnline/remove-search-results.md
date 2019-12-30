@@ -31,7 +31,7 @@ As a global or SharePoint admin in Office 365, you can temporarily remove items 
 
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-4. Select **Classic features**.
+4. Select **More features**.
  
 5. Under **Search**, select **Open**.
    

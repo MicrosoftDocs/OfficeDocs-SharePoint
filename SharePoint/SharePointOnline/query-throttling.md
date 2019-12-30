@@ -40,7 +40,7 @@ The client sets the client type as a label in the query. The administrator confi
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-3. Select **Classic features**.
+3. Select **More features**.
  
 4. Under **Search**, select **Open**.
     
@@ -69,7 +69,7 @@ You can use throttling tiers to prioritize query processing. When the resource l
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-3. Select **Classic features**.
+3. Select **More features**.
  
 4. Under **Search**, select **Open**.
     

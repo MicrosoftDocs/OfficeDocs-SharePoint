@@ -71,13 +71,13 @@ The key to creating a smooth user experience is to avoid creating barriers for y
 
 In Microsoft 365, SharePoint is integrated with a variety of other services to provide a much richer experience than is possible with on-premises solutions such as SharePoint Server. These integrations affect how you manage user permissions and what your users can do in a collaboration scenario.
 
-Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint Online, each SharePoint team site is part of an Office 365 group. An Office 365 group is a single permissions group that is associated with a variety of Office 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Office 365 group, they are given access to the SharePoint site along with the other connected services.
+Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint, each SharePoint team site is part of an Office 365 group. An Office 365 group is a single permissions group that is associated with a variety of Office 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Office 365 group, they are given access to the SharePoint site along with the other connected services.
 
 While you can continue to manage SharePoint site permissions separately by using SharePoint groups, we recommend managing permissions for SharePoint by adding people to or removing them from the associated Office 365 group. This provides easier administration as well as giving users access to a host of related services that they can use for better collaboration.
 
 Microsoft Teams provides a hub for collaboration by bringing together all the Office 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Office 365 group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions. For collaboration scenarios in your organization, we highly recommend using Teams rather than using services such as SharePoint independently.
 
-For details about how SharePoint and Teams interact, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
+For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
 
 ## Collaboration in client applications
 
@@ -309,9 +309,9 @@ For detailed information, see [Office 365 ATP for SharePoint, OneDrive, and Micr
 
 ## Migrate files from on-premises
 
-Microsoft 365 offers much greater versatility in collaboration scenarios than on-premises solutions such as SharePoint Server. If you have files in document libraries on SharePoint Server or in file shares, you can migrate them to SharePoint Online by using the SharePoint Migration Tool. The SharePoint Migration Tool can move files, OneDrive libraries, and even entire sites to SharePoint Online.
+Microsoft 365 offers much greater versatility in collaboration scenarios than on-premises solutions such as SharePoint Server. If you have files in document libraries on SharePoint Server or in file shares, you can migrate them to SharePoint by using the SharePoint Migration Tool. The SharePoint Migration Tool can move files, OneDrive libraries, and even entire sites to SharePoint.
 
-As part of your migration, you can use the [Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner) to scan and label sensitive information in your on-premises environment. With this information, you can reorganize your data if needed before migrating it to similarly labeled sites in SharePoint Online.
+As part of your migration, you can use the [Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner) to scan and label sensitive information in your on-premises environment. With this information, you can reorganize your data if needed before migrating it to similarly labeled sites in SharePoint.
 
 If the content that your users are collaborating on is located in SharePoint Server 2010 or SharePoint Server 2013, or in file shares, we recommend that you migrate it to Microsoft 365 to take advantage of the broader range of collaboration capabilities.
 

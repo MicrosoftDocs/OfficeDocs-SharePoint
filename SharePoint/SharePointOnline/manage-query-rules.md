@@ -31,7 +31,7 @@ You can create query rules at different levels: for the whole tenant, for a site
 
 You can configure query rules for one or more result sources, and you can specify a time period for when the query rule is active.
 
-SharePoint Online has both a classic and a modern search experience. Only query rules that promote an individual result towards the top of search results and that are defined for the default result source can affect the modern search experience. Users might see such promoted results on the **All** tab on the search results page when they search across all of SharePoint. [Learn more about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
+SharePoint has both a classic and a modern search experience. Only query rules that promote an individual result towards the top of search results and that are defined for the default result source can affect the modern search experience. Users might see such promoted results on the **All** tab on the search results page when they search across all of SharePoint. [Learn more about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md).
   
  
   
@@ -43,7 +43,7 @@ You can add several individual promoted results. When there is more than one pro
   
 1. Go to the **Manage Query Rules** page for the tenant, for a site collection, or a site: 
     
-  - For a tenant, in the new SharePoint admin center, select **Classic features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
+  - For a tenant, in the new SharePoint admin center, select **More features**. Under **Search**, select **Open**, and then on the search administration page, select **Manage Query Rules**.
     
   - For a site collection, in your site collection, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**. Under **Site Collection Administration**, select **Search Query Rules**.
 
@@ -235,5 +235,3 @@ When multiple query rules are active for a tenant, a site collection, or a site,
 |Query More Common in Source  <br/> |The query rule fires if users frequently sent this query from another source that you have already specified.  <br/> |In the **Query is more likely to be used in this source** list, select a result source.  <br/> |You selected **Local Video Results** in the list. The query rule fires if a user types the word "training" in a search box and if that word had already been frequently typed in a search box in the Videos vertical.  <br/> |
 |Result Type Commonly Clicked  <br/> |The query rule fires if other users frequently clicked a particular result type after typing the same query.  <br/> |In the **Commonly clicked results match result type** list, select a result type.  <br/> |You selected **SharePoint MicroBlog Post** in the list. If users frequently click a microblog post in search results, consider configuring the most recent microblog post as the first promoted result, and the next most recent microblog post as the second promoted result (in the **Actions** section).  <br/> |
 |Advanced Query Text Match  <br/> |You want to use a phrase or a dictionary entry that causes the query rule to fire, and then define more detailed conditions for when the query rule fires.  <br/> |Enter the phrase or term that causes the query rule to fire by doing one of the following:  <br/> Select **Query contains one of these phrases**, and type one or more phrases.  <br/> Select **Query contains an entry in this dictionary**, and then click **Import from term store**. In the dialog box, select a term from a term set, and then click **Save**.  <br/> Then, add more conditions by checking off options in the lists.  <br/> |You selected **Query contains one of these phrases**, and then chose **Start of query matches, but not entire query**. The query rule fires only if the phrase is at the beginning of a query, not if it's at the end.  <br/> |
-   
-

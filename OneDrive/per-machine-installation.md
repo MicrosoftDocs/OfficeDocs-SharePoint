@@ -21,7 +21,7 @@ description: "Learn how to install the OneDrive sync app for every user account 
 
 # Install the sync app per machine
 
-By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the “Program Files (x86)” directory, meaning all profiles on the computer will use the same OneDrive.exe binary. Other than where the sync app is installed, the behavior is the same.  
+By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs to be installed for each user account on the PC under the %localappdata% folder. With the new per-machine installation option, you can install OneDrive under the “Program Files (x86)”  or “Program Files” directory (depending on the OS architecture), meaning all profiles on the computer will use the same OneDrive.exe binary. Other than where the sync app is installed, the behavior is the same.  
 
 The new per-machine sync app provides:
 
@@ -73,25 +73,13 @@ We do not support automated migration from per-machine to per-user. To revert ba
 
 **How can I detect the installation through SCCM?** 
 
-For SCCM, to detect the install we used the following two registry detection rules with an OR() connector:
-
-|Field|Value|
-|---|---|
-|Hive|   HKEY_LOCAL_MACHINE|
-|Key|    SOFTWARE\Wow6432Node\Microsoft\OneDrive|
-|Value|  Version|
-|32bit on 64bit| TRUE|
-|Type|   Version|
-|Value|  19.043.0304.0007|
-
+For SCCM, to detect the install, use the following registry detection rule:
 
 |Field|Value|
 |---|---|
 |Hive|   HKEY_LOCAL_MACHINE|
 |Key|    SOFTWARE\Microsoft\OneDrive|
 |Value|  Version|
-|32bit on 64bit| FALSE|
+|32bit on 64bit| TRUE|
 |Type|   Version|
 |Value|  19.043.0304.0007|
-
-This allows the per-machine version to be detected independent of the underlying client architecture.

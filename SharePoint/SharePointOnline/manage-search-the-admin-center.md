@@ -33,7 +33,7 @@ You can customize and tailor the classic search experience more than Microsoft s
 
 2. When the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
 
-3. In the left pane of the new SharePoint admin center, select **Classic features**. 
+3. In the left pane of the new SharePoint admin center, select **More features**. 
 
 4. Under **Search**, select **Open**.
 
