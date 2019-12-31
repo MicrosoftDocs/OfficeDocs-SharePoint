@@ -51,7 +51,7 @@ To change the sharing settings for a site after you've set the organization-leve
 
     ![External sharing settings in the new SharePoint admin center](media/externalsharing.png)
 
-This setting is for your organization overall. Each site has its own sharing setting which you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
+    This setting is for your organization overall. Each site has its own sharing setting which you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
 ### Which option to select...
 
