@@ -22,12 +22,9 @@ As an admin who manages SharePoint Online (for more information, see [SharePoint
   
 There are two types of limits:
   
-- **Boundary** A number that can't be exceeded. 
-    
-- **Supported** A recommended number, based on testing that Microsoft has done, that shouldn't be exceeded. 
-    
+- **Boundary** A number that can't be exceeded.
+- **Supported** A recommended number, based on testing that Microsoft has done, that shouldn't be exceeded.
     If you exceed a supported limit, you might encounter unexpected results or see a significant decrease in performance.
-    
   
 These limits apply to all SharePoint Online plans.
   
@@ -41,7 +38,8 @@ The following table lists the limits for SharePoint Online search.
 |Indexed managed property size  <br/> |512 KB per managed property that is set to either "searchable" or "queryable"  <br/> |Boundary  <br/> ||
 |Retrievable managed property size  <br/> |16 KB per managed property  <br/> |Boundary  <br/> ||
 |Sortable and refinable managed property size  <br/> |16 KB per managed property  <br/> |Boundary  <br/> ||
-|Token size  <br/> |Variable - the size depends on the word breaker, and the word-breaker is language-dependent.  <br/> |Boundary  <br/> |Search can index tokens of any length but the word breaker that is used to produce tokens can limit the token length. Word breakers are language-aware components that break content into single words (tokens).  <br/> |
+|Token size  <br/> |Variable - the size depends on the word breaker, and the word-breaker is language-dependent.  <br/> |Boundary  <br/> |Search can index tokens of any length but the word breaker that is used to produce tokens can limit the token length. Word breakers are language-aware components that break content into single words (tokens).  <br/> ||
+|Unique indexed tokens per managed property <br/> |10,000 <br/> |Threshold <br/> |This is the maximum number of unique tokens that can be added to the search index per managed property. This limit can't be changed. If the limit is exceeded, the index will contain the first 10,000 tokens from the managed property and the file will be marked as partially processed by setting the IsPartiallyProcessed property to true. Exception: If the limit is reached for an ACL related managed property, no tokens from that managed property are added to the index. <br/> ||
 |Number of entries in a custom search dictionary  <br/> |5,000 terms per tenant  <br/> |Boundary  <br/> |This limits the number of terms allowed for inclusions and exclusions dictionaries for query spelling correction and company extraction. You can store more terms than this limit in the term store, but search only uses 5,000 terms per tenant.  <br/> |
 |Managed property mappings  <br/> |100 per managed property  <br/> |Supported  <br/> |Crawled properties can be mapped to managed properties. Exceeding this limit may decrease crawl speed and query performance.  <br/> |
 |Values per managed property  <br/> |1,000  <br/> |Boundary  <br/> |A managed property can have multiple values of the same type. This is the maximum number of values per managed multi-valued managed property per document. If this number is exceeded, the remaining values are discarded.  <br/> |
@@ -50,16 +48,11 @@ The following table lists the limits for SharePoint Online search.
 |Text length for queries using Keyword Query Language  <br/> |4 KB (4,096 characters)  <br/> |Boundary  <br/> |For Discovery queries the maximum text length is 16 KB (16,384 characters).  <br/> |
 |Number of rows in a result set  <br/> |500  <br/> |Boundary  <br/> |To display the entire result set, issue more paging queries.  <br/> For Discovery queries the maximum number of rows in a result set is 10,000.  <br/> |
 |User-defined full-text indexes  <br/> |3  <br/> |Boundary  <br/> ||
-|Maximum number of on-premises items indexed in Office 365  <br/> |20 million items  <br/> |Threshold  <br/> |For each 1 TB of storage space your tenant has in Office 365, you can index 1 million items of on-premises content in your tenant's search index in Office 365 with the cloud hybrid search solution. This quota is by default limited upwards to 20 million items. To increase the number of items that can be indexed beyond 20 million items, contact Microsoft Support.  <br/> |
-   
-## See also:
+|Maximum number of on-premises items indexed in Office 365  <br/> |20 million items  <br/> |Threshold  <br/> |For each 1 TB of storage space your tenant has in Office 365, you can index 1 million items of on-premises content in your tenant's search index in Office 365 with the cloud hybrid search solution. This quota is by default limited upwards to 20 million items. To increase the number of items that can be indexed beyond 20 million items, contact Microsoft Support.  <br/> ||
+
+## See also
   
 - [SharePoint Online Limit](https://go.microsoft.com/fwlink/p/?LinkID=856113)
-    
 - [SharePoint Online Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
-    
 - [Overview of the search schema in SharePoint Server 2013](/SharePoint/search/search-schema-overview)
-    
 - [SharePoint feature availability across Office 365 plans](/office365/servicedescriptions/sharepoint-online-service-description/search#bkmk_searchfeaturessp)
-    
-

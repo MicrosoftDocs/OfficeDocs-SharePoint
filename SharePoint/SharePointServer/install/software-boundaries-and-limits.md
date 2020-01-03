@@ -23,25 +23,25 @@ description: "Learn about the tested performance and capacity limits of SharePoi
   
 This article describes software boundaries and limits of SharePoint Server 2013. These include the following:
   
-- **Boundaries:** Static limits that cannot be exceeded by design 
-    
-- **Thresholds:** Configurable limits that can be exceeded to accommodate specific requirements 
-    
-- **Supported limits:** Configurable limits that have been set by default to a tested value 
-    
+- **Boundaries:** Static limits that cannot be exceeded by design
+
+- **Thresholds:** Configurable limits that can be exceeded to accommodate specific requirements
+
+- **Supported limits:** Configurable limits that have been set by default to a tested value
+
 > [!IMPORTANT]
-> Some values in this article are based on test results from SharePoint 2010 Products and may not represent the final values for SharePoint Server 2013. This article will be updated with appropriate values as SharePoint Server 2013 test data becomes available. > For information about current hardware and software requirements, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md). 
-  
+> Some values in this article are based on test results from SharePoint 2010 Products and may not represent the final values for SharePoint Server 2013. This article will be updated with appropriate values as SharePoint Server 2013 test data becomes available. > For information about current hardware and software requirements, see [Hardware and software requirements for SharePoint 2013](hardware-and-software-requirements-0.md).
+
 > [!NOTE]
-> The capacity planning information in this document provides guidelines for you to use in your planning. It is based on testing performed at Microsoft, on live properties. However, your results are likely to vary based on the equipment you use and the features and functionality that you implement for your sites. 
+> The capacity planning information in this document provides guidelines for you to use in your planning. It is based on testing performed at Microsoft, on live properties. However, your results are likely to vary based on the equipment you use and the features and functionality that you implement for your sites.
   
-    
 ## Overview of boundaries and limits
+
 <a name="Overview"> </a>
 
 This article contains information to help you understand the tested performance and capacity limits of SharePoint Server 2013, and offers guidelines for how limits relate to acceptable performance. Use the information in this article to determine whether your planned deployment falls within acceptable performance and capacity limits, and to appropriately configure limits in your environment.
   
-The test results and guidelines provided in this article apply to a single SharePoint Server 2013 farm. Adding servers to the installation might not increase the capacity limits of the objects that are listed in the tables in the [Limits and boundaries](#Limits) section later in this topic. On the other hand, adding server computers increases the throughput of a server farm, which might be necessary to achieve acceptable performance with many objects. In some cases, the requirements for high numbers of objects in a solution might require more servers in the farm. 
+The test results and guidelines provided in this article apply to a single SharePoint Server 2013 farm. Adding servers to the installation might not increase the capacity limits of the objects that are listed in the tables in the [Limits and boundaries](#Limits) section later in this topic. On the other hand, adding server computers increases the throughput of a server farm, which might be necessary to achieve acceptable performance with many objects. In some cases, the requirements for high numbers of objects in a solution might require more servers in the farm.
   
 Note that there are many factors that can affect performance in a given environment, and each of these factors can affect performance in different areas. Some of the test results and recommendations in this article might be related to features or user operations that do not exist in your environment, and therefore do not apply to your solution. Only thorough testing can give you exact data related to your own environment.
   
@@ -51,17 +51,17 @@ Note that there are many factors that can affect performance in a given environm
 In SharePoint Server 2013, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by the farm administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
   
 - Boundaries are absolute limits that cannot be exceeded by design. It is important to understand these limits to ensure that you do not make incorrect assumptions when you design your farm.
-    
+
     An example of a boundary is the 2 GB document size limit; you cannot configure SharePoint Server 2013 to store documents that are larger than 2 GB. This is a built-in absolute value, and cannot be exceeded by design.
-    
+
 - Thresholds are those that have a default value that cannot be exceeded unless the value is modified. Thresholds can, in certain circumstances, be exceeded to accommodate variances in your farm design, but it is important to understand that doing this may affect the performance of the farm in addition to the effective value of other limits.
-    
+
     The default value of certain thresholds can only be exceeded up to an absolute maximum value. A good example is the document size limit. By default, the default document size threshold is set to 250MB, but can be changed to support the maximum boundary of 2GB.
-    
+
 - Supported limits define the tested value for a given parameter. The default values for these limits were defined by testing, and represent the known limitations of the product. Exceeding supported limits may cause unexpected results, significant decrease in performance, or other harmful effects.
-    
+
     Some supported limits are configurable parameters that are set by default to the recommended value, while other supported limits relate to parameters that are not represented by a configurable value.
-    
+
 An example of a supported limit is the number of site collections per farm. The supported limit is the largest number of site collections per web application that met performance benchmarks during testing.
   
 It is important to be aware that many of the limit values that are provided in this document represent a point in a curve that describes an increasing resource load and concomitant decrease in performance as the value increases. Therefore, exceeding certain limits, such as the number of site collections per web application, may only result in a fractional decrease in farm performance. However, in most cases, operating at or near an established limit is not a best practice, as acceptable performance and reliability targets are best achieved when a farm's design provides for a reasonable balance of limits values.
@@ -99,11 +99,11 @@ This section lists the objects that can be a part of a solution and provides gui
 Use the guidelines in this article to review your overall solution plans. If your solution plans exceed the recommended guidelines for one or more objects, take one or more of the following actions:
   
 - Evaluate the solution to ensure that compensations are made in other areas.
-    
+
 - Flag these areas for testing and monitoring as you build your deployment.
-    
+
 - Redesign or partition the solution to ensure that you do not exceed capacity guidelines.
-    
+
 ### Limits by hierarchy
 <a name="hierarchy"> </a>
 
@@ -121,7 +121,7 @@ The following table lists the recommended guidelines for web applications.
 |Managed path for host-named site collections  <br/> |20 per farm  <br/> |Supported  <br/> |Managed paths for host-named site collections apply at the farm level. Each managed path that is created can be applied in any Web application.  <br/> |
 |Managed path for path-based site collections  <br/> |20 per web application  <br/> |Supported  <br/> |Managed paths are cached on the web server, and CPU resources are used to process incoming requests against the managed path list.  <br/> Managed paths for path-based site collections apply at the Web application level. You can create a different set of managed paths for each Web application. Exceeding 20 managed paths per web application adds more load to the web server for each request.  <br/> If you plan to exceed twenty managed paths in a given web application, we recommend that you test for acceptable system performance.  <br/> |
 |Solution cache size  <br/> |300 MB per web application  <br/> |Threshold  <br/> |The solution cache allows the InfoPath Forms service to hold solutions in cache in order to speed up retrieval of the solutions. If the cache size is exceeded, solutions are retrieved from disk, which may slow down response times. You can configure the size of the solution cache by using the PowerShell cmdlet Set-SPInfoPathFormsService. For more information, see [Set-SPInfoPathFormsService](/powershell/module/sharepoint-server/Set-SPInfoPathFormsService?view=sharepoint-ps).  <br/> |
-   
+
 #### Web server and application server limits
 <a name="WebserverAppServer"> </a>
 
@@ -130,7 +130,7 @@ The following table lists the recommended guidelines for web servers on the farm
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |Application pools  <br/> |10 per web server  <br/> |Threshold  <br/> | The maximum number is determined by hardware capabilities.  <br/>  This limit is dependent largely upon:  <br/>  The amount of memory allocated to the web servers  <br/>  The workload that the farm is serving, that is, the user base and the usage characteristics (a single highly active application pool can utilize 10 GB or more)  <br/> |
-   
+
 #### Content database limits
 <a name="ContentDB"> </a>
 
@@ -145,7 +145,7 @@ The following table lists the recommended guidelines for content databases.
 |Content database items  <br/> |60 million items including documents and list items  <br/> |Supported  <br/> |The largest number of items per content database that has been tested on SharePoint Server 2013 is 60 million items, including documents and list items. If you plan to store more than 60 million items in SharePoint Server 2013, you must deploy multiple content databases.  <br/> |
 |Site collections per content database  <br/> |10,000 maximum (2,500 non-Personal site collections and 7,500 Personal Sites, or 10,000 Personal Sites alone)  <br/> |Supported  <br/> |We strongly recommended limiting the number of site collections in a content database to 5,000. However, up to 10,000 site collections in a database are supported. Note that in a content database with up to 10,000 total site collections, a maximum of 2,500 of these can be non-Personal site collections. It is possible to support 10,000 Personal site collections if they are the only site collections within the content database.  <br/> These limits relate to speed of upgrade. The larger the number of site collections in a database, the slower the upgrade with respect to both database upgrade and site collection upgrades.  <br/> The limit on the number of site collections in a database is subordinate to the limit on the size of a content database that has more than one site collection. Therefore, as the number of site collections in a database increases, the average size of the site collections it contains must decrease.  <br/> Exceeding the 5,000 site collection limit puts you at risk of longer downtimes during upgrades. If you plan to exceed 5,000 site collections, we recommend that you have a clear upgrade strategy to address outage length and operations impact, and obtain additional hardware to speed up the software updates and upgrades that affect databases.  <br/> To set the warning and maximum levels for the number of sites in a content database, use the PowerShell cmdlet Set-SPContentDatabase with the -WarningSiteCount parameter. For more information, see [Set-SPContentDatabase]/powershell/module/sharepoint-server/Set-SPContentDatabase?view=sharepoint-ps).  <br/> |
 |Remote BLOB Storage (RBS) storage subsystem on Network Attached Storage (NAS)  <br/> |Time to first byte of any response from the NAS should remain within 40 milliseconds 95% of the time.  <br/> |Boundary  <br/> |When SharePoint Server 2013 is configured to use RBS, and the BLOBs reside on NAS storage, consider the following supported limit.  <br/> From the time that SharePoint Server 2013 requests a BLOB, until it receives the first byte from the NAS, 95% of the time no more than 40 milliseconds can pass.  <br/> |
-   
+
 #### Site collection limits
 <a name="SiteCollection"> </a>
 
@@ -157,7 +157,7 @@ The following table lists the recommended guidelines for site collections.
 |Web site  <br/> |250,000 per site collection / 250,000 per farm / 500,000 personal sites per farm.  <br/> |Supported  <br/> | The maximum recommended number of web sites is 500,000 sites based on the Personal Site template, and 250,000 sites based on all other templates. This limit applies per site collection as well as per farm.  <br/>  Performance can degrade as the number of subsites surpasses 2,000 at the site collection level.  <br/> IMPORTANT:  Staying below 2,000 subsites per site collection is strongly recommended.            You can create a very large total number of web sites by creating multiple site collections with up to 2,000 webs per site collection. For example, 125 site collections that contain 2,000 webs each will equate to 250,000 sites in the farm. However, this would be considered the maximum recommended limit for non-personal sites.  <br/>  If you have 250,000 site collections, all containing a root web site that is not the Personal Site template, adding a sub-site to any of those root sites would exceed the 250,000 web site boundary.  <br/>  If the recommended limit of 2,000 sites per site collection is exceeded, the following issues may occur:  <br/>  Deleting or creating a site or subsite can significantly affect a site's availability. Access to the site and subsites will be limited while the site is being deleted. Attempting to create many subsites at the same time may also fail.  <br/>  When having more than 2,000 subsites, the performance of actions such as executing PSConfig when adding a new server to an existing farm, or after installing SharePoint updates the drastically decrease.  <br/>  Executing the **stsadm -o checklocalupgradestatus** operation, or the daily execution of the **Product Version Job** timer job may take many hours to complete.  <br/>  Browsing the **Review database status** page (<your_SharePoint_CentralAdmin_URL>/_admin/UpgradeStatus.aspx) on the Central Administration web site may result in a timeout.  <br/> |
 |Site collection size  <br/> |Maximum size of the content database  <br/> |Supported  <br/> | A site collection can be as large as the content database size limit for the applicable usage scenario. For more information about the different content database size limits for specific usage scenarios, see the [Content database limits](software-boundaries-and-limits-0.md#ContentDB) table in this article.  <br/>  In general, we strongly recommend limiting the size of site collections to 100 GB for the following reasons:  <br/>  Certain site collection actions, such as site collection backup/restore or the PowerShell cmdlet Move-SPSite, cause large SQL Server operations which can affect performance or fail if other site collections are active in the same database. For more information, see [Move-SPSite](/powershell/module/sharepoint-server/Move-SPSite?view=sharepoint-p).  <br/>  SharePoint site collection backup and restore is only supported for a maximum site collection size of 100 GB. For larger site collections, the complete content database must be backed up. If multiple site collections larger than 100 GB are contained in a single content database, backup and restore operations can take a long time and are at risk of failure.  <br/> |
 |Number of device channels per publishing site collection  <br/> |10  <br/> |Boundary  <br/> |The maximum allowed number of device channels per publishing site collection is 10.  <br/> |
-   
+
 #### List and library limits
 <a name="ListLibrary"> </a>
 
@@ -178,7 +178,7 @@ The following table lists the recommended guidelines for lists and libraries. Fo
 |Subsite  <br/> |2,000 per site view  <br/> |Threshold  <br/> |The interface for enumerating subsites of a given web site does not perform well as the number of subsites surpasses 2,000. Similarly, the All Site Content page and the Tree View Control performance will decrease significantly as the number of subsites grows.  <br/> |
 |Coauthoring in Word, PowerPoint and Excel for .docx, .pptx, .ppsx and .xlsx files  <br/> |10 concurrent editors per document  <br/> |Threshold  <br/> |Recommended maximum number of concurrent editors is 10. The boundary is 99.  <br/> If there are 99 co-authors who have a single document opened for concurrent editing, each successive user sees a "File in use" error, and can only open a read-only copy.  <br/> More than 10 co-editors will lead to a gradually degraded user experience with more conflicts, and users might have to go through more iterations to successfully upload their changes to the server.  <br/> |
 |Security scope  <br/> |50,000 per list  <br/> |Threshold  <br/> |The maximum number of unique security scopes set for a list cannot exceed 50,000.  <br/> For most farms, we recommend that you consider lowering this limit to 5,000 unique scopes. For large lists, consider using a design that uses as few unique permissions as possible.  <br/> When the number of unique security scopes for a list exceeds the value of the list view threshold (set by default at 5,000 list items), additional SQL Server round trips take place when the list is viewed, which can adversely affect list view performance.  <br/> A scope is the security boundary for a securable object and any of its children that do not have a separate security boundary defined. A scope contains an Access Control List (ACL), but unlike NTFS ACLs, a scope can include security principals that are specific to SharePoint Server 2013. The members of an ACL for a scope can include Windows users, user accounts other than Windows users (such as forms-based accounts), Active Directory groups, or SharePoint groups.  <br/> |
-   
+
 #### Column limits
 <a name="Column"> </a>
 
@@ -202,15 +202,15 @@ SharePoint Server 2013 data is stored in SQL Server tables. Each column type has
 |Int  <br/> |750  <br/> |Threshold  <br/> |10 bytes  <br/> ||
 |Managed metadata  <br/> |190  <br/> |Threshold  <br/> |60 bytes for the first, 40 bytes for each subsequent  <br/> | The first Managed Metadata field added to a list is allocated four columns:  <br/>  A lookup field for the actual tag  <br/>  A hidden text field for the string value  <br/>  A lookup field for the catch all  <br/>  A lookup field for spillover of the catch all  <br/>  Each subsequent Managed Metadata field added to a list adds two more columns:  <br/>  A lookup field for the actual tag  <br/>  A hidden text field for the string value  <br/> |
 |Geolocation  <br/> |2  <br/> |Threshold  <br/> |30 bytes  <br/> ||
-   
+
 External Data columns have the concept of a primary column and secondary columns. When you add an external data column, you can select some secondary fields of the external content type that you want to be added to the list. For example, given an External Content Type "Customer" which has fields like "ID", "Name", "Country", and "Description", when you add an External Data column of type "Customer" to a list, you can add secondary fields to show the "ID", "Name" and "Description" of the Customer. Overall these are the columns that get added:
   
 - Primary column: A text field.
-    
+
 - Hidden Id column: A multi-line text field.
-    
+
 - Secondary columns: Each secondary column is a text/number/Boolean/multi-line text that is based on the data type of the secondary column as defined in the Business Data Catalog model. For example, ID might be mapped to a  *Number*  column; Name might be mapped to a  *Single line of text column*  ; Description might be mapped to a  *Multiple lines of text*  column. 
-    
+
 #### Page limits
 <a name="Page"> </a>
 
@@ -219,7 +219,7 @@ The following table lists the recommended guidelines for pages.
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |Web parts  <br/> |25 per wiki or Web Part page  <br/> |Threshold  <br/> |This figure is an estimate based on simple Web Parts. The complexity of the Web Parts dictates how many Web Parts can be used on a page before performance is affected.  <br/> |
-   
+
 #### Security limits
 <a name="Security"> </a>
 
@@ -230,7 +230,7 @@ The following table lists the recommended guidelines for pages.
 |Active Directory Principles/Users in a SharePoint group  <br/> |5,000 per SharePoint group  <br/> |Supported  <br/> | SharePoint Server 2013 enables you to add users or Active Directory groups to a SharePoint group.  <br/>  Having up to 5,000 users (or Active Directory groups or users) in a SharePoint group provides acceptable performance.  <br/>  The activities most affected by this limit are as follows:  <br/>  Fetching users to validate permissions. This operation takes incrementally longer with growth in number of users in a group.  <br/>  Rendering the membership of the view. This operation will always require time.  <br/> |
 |SharePoint groups  <br/> |10,000 per site collection  <br/> |Supported  <br/> |Above 10,000 groups, the time to execute operations is increased significantly. This is especially true of adding a user to an existing group, creating a new group, and rendering group views.  <br/> |
 |Security principal: size of the Security Scope  <br/> |5,000 per Access Control List (ACL)  <br/> |Supported  <br/> |The size of the scope affects the data that is used for a security check calculation. This calculation occurs every time that the scope changes. There is no hard limit, but the bigger the scope, the longer the calculation takes.  <br/> |
-   
+
 ### Limits by feature
 <a name="LimitsbyFeature"> </a>
 
@@ -242,7 +242,7 @@ This section lists limits sorted by feature.
 The recommended guidelines for search are organized according to the aspects of search that they impact: the topology, the size of items, dictionaries, crawling, schema, queries and results, ranking, and the index.
   
 > [!NOTE]
-> Limits for Search have changed significantly as the feature has been updated. For more information, see [Plan search in SharePoint Server](../search/search-planning.md). 
+> Limits for Search have changed significantly as the feature has been updated. For more information, see [Plan search in SharePoint Server](../search/search-planning.md).
   
 #### Search: topology limits
 
@@ -262,15 +262,15 @@ The topology limits ensure efficient communication between search components. Ex
 |Search components  <br/> |64 per Search service application  <br/> |Supported  <br/> |This limit does not include crawl components. The sum of all the other search components must stay within this limit.  <br/> |
 |Search service applications  <br/> |20 per farm  <br/> |Supported  <br/> |Multiple Search service applications can be deployed on the same farm, because you can assign search components and databases to separate servers. This limit is lower than the limit for the total number of service applications in a farm.  <br/> |
 |Content sources  <br/> |500 per Search service application  <br/> |Boundary  <br/> |There is overhead associated with each content source, so we recommend that you create the smallest number of content sources that satisfy your other operational requirements, for example differences in crawl priority and scheduling.  <br/> |
-   
+
 #### Search: item size limits
 
 The item size limits safeguard crawling performance and the size of the index. Here are some examples of how the limits can affect searching:
   
 - If you can't get results when you search for an item, the item could be too large. A warning will show up in the Crawl Log, stating that the file exceeded the maximum size that the crawler can download.
-    
+
 - If you search for text in an item and only get results from the first part of the text, the content processing component may have truncated the item because it exceeded some of item size limits. When the content processing component truncates an item, it indicates this by setting the managed property IsPartiallyProcessed to True. A warning will also show up in the Crawl Log, stating why the item was truncated.
-    
+
 If you tune item size limits, we recommend that you work with them in the order they appear in this table.
   
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
@@ -281,8 +281,9 @@ If you tune item size limits, we recommend that you work with them in the order 
 |Indexed managed property size  <br/> |512 KB per searchable/queryable managed property  <br/> |Threshold  <br/> |This is the default value for the maximum size of a managed property that is set to either "searchable" or "queryable". You can configure this limit by using PowerShell cmdlets and the schema object model to set the **MP.MaxCharactersInPropertyStoreIndex** attribute. Enter the value in bytes. The maximum value for this maximum size is 2,097,152 bytes.  <br/> If you increase this limit you enable indexing of more data per managed property. Indexing more data per managed property uses more disk space and increases the overall load on the search system.  <br/> |
 |Retrievable managed property size  <br/> |16 KB per managed property  <br/> |Threshold  <br/> |This is the default value for the maximum size of a retrievable managed property. You can configure this limit per managed property by using PowerShell cmdlets and the schema object model to set the **P.MaxCharactersInPropertyStoreForRetrieval**attribute. Enter the value in bytes. The maximum value for this maximum size is 2,097,152 bytes.  <br/> If you increase this limit you enable indexing of more data per managed property. Indexing and retrieving more data per managed property increases the overall load on the system and uses more disk space.  <br/> |
 |Sortable and refinable managed property size  <br/> |16 KB per managed property  <br/> |Boundary  <br/> |This is the maximum size of a sortable and refinable managed property.  <br/> |
-|Token size  <br/> |Variable  <br/> |Boundary  <br/> | Search can index tokens of any length. But the word breaker that search uses to produce tokens can limit the token length. Word breakers are language-aware components that break content into single words (tokens). You can also create custom word breakers. The token size limit therefore depends on the word breaker.  <br/>  Here's the limit of the word breaker for western languages:  <br/>  The word breaker only considers the first 1000 characters of a token for splitting, it ignores any remaining characters.  <br/>  The word breaker splits tokens that are longer than 300 characters into two or more tokens where no token has more than 300 characters. For example, a 612 character token is split into two 300 character tokens and one 12 character token.  <br/> |
-   
+|Token size  <br/> |Variable  <br/> |Boundary  <br/> | Search can index tokens of any length. But the word breaker that search uses to produce tokens can limit the token length. Word breakers are language-aware components that break content into single words (tokens). You can also create custom word breakers. The token size limit therefore depends on the word breaker.  <br/>  Here's the limit of the word breaker for western languages:  <br/>  The word breaker only considers the first 1000 characters of a token for splitting, it ignores any remaining characters.  <br/>  The word breaker splits tokens that are longer than 300 characters into two or more tokens where no token has more than 300 characters. For example, a 612 character token is split into two 300 character tokens and one 12 character token.  <br/> ||
+|Unique indexed tokens per managed property <br/> |1,000,000 <br/> |Threshold <br/> |This is the maximum number of unique tokens that can be added to the search index per managed property. This limit can't be changed. If the limit is exceeded, the index will contain the first 1,000,000 tokens from the managed property and the file will be marked as partially processed by setting the IsPartiallyProcessed property to true. Exception: If the limit is reached for an ACL related managed property, no tokens from that managed property are added to the index. <br/> |
+
 #### Search: dictionary limits
 
 The dictionary limits safeguard memory, content processing efficiency, and query results. 
@@ -292,7 +293,7 @@ The dictionary limits safeguard memory, content processing efficiency, and query
 |Number of entries in a thesaurus  <br/> |1 million  <br/> |Supported  <br/> |The thesaurus contains synonyms for query terms. Exceeding this tested limit may result in increased use of memory and an increased query response time.  <br/> |
 |Number of entries in a custom entity extraction dictionary  <br/> |1 million  <br/> |Supported  <br/> |Exceeding this tested limit may result in increased use of memory, slower indexing, and an increased query response time.  <br/> |
 |Number of entries in a custom search dictionary  <br/> |5,000 terms per tenant  <br/> |Boundary  <br/> |This limits the number of terms allowed for inclusions and exclusions dictionaries for query spelling correction and company extraction. You can store more terms than this limit in the Termstore, but search only uses 5000 terms per tenant.  <br/> |
-   
+
 #### Search: schema limits
 
 The schema limits safeguard memory resources and keep the management operation overhead at an acceptable level.
@@ -304,7 +305,7 @@ The schema limits safeguard memory resources and keep the management operation o
 |Managed property mappings  <br/> |100 per managed property  <br/> |Supported  <br/> |Crawled properties can be mapped to managed properties. Exceeding this limit might decrease crawl speed and query performance.  <br/> |
 |Values per managed property  <br/> |1000  <br/> |Boundary  <br/> |A managed property can have multiple values of the same type. This is the maximum number of values per managed multi-valued managed property per document. If this number is exceeded, the remaining values are discarded.  <br/> |
 |Metadata properties recognized  <br/> |100,000 per crawled item  <br/> |Supported  <br/> |This is the maximum number of metadata properties that the crawl component can determine when crawling an item. These metadata properties can be mapped or used for queries. Approaching this number of crawled properties might result in a low crawl rate.  <br/> |
-   
+
 #### Search: crawl limits
 
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
@@ -312,7 +313,7 @@ The schema limits safeguard memory resources and keep the management operation o
 |Start addresses  <br/> |500 per content source  <br/> |Supported  <br/> ||
 |Length of machine host name  <br/> |15 characters  <br/> |Threshold  <br/> |NetBIOS limits the maximum machine host name length to this value.  <br/> |
 |Crawl databases  <br/> |15 per Search service application  <br/> |Supported  <br/> ||
-   
+
 #### Search: query and result limits
 
 The limits for queries and results safeguard the search engine against executing very large query expressions and returning very large result sets. Preventing the search engine from executing very large query expressions and returning very large result sets prevents Denial-of-service (DoS) attacks and makes sure that results return timely. If you have to retrieve more results we recommend that you use paging.
@@ -323,7 +324,7 @@ The limits for queries and results safeguard the search engine against executing
 |Number of rows in a result set  <br/> |500 rows  <br/> |Supported  <br/> |This is the tested and default value for the maximum number of rows in a result set, except for a Discovery query. For Discovery queries 10,000 rows is the default value. To display the entire result set, issue more paging queries.  <br/> You can change the value for the maximum number of rows in a result set by using PowerShell cmdlets to change the Search service application property **MaxRowLimit**. **MaxRowLimit** defines the maximum value of the query property **RowLimit** and the Discovery query property **RowLimit**. **RowLimit** defines the number of rows each page contains in a result set. You can increase **MaxRowLimit** up to 10,000 rows, this is the supported boundary.  <br/> |
 |Results removal  <br/> |No limit  <br/> |Supported  <br/> ||
 |Search alert quota  <br/> |100,000 alerts per Search service application  <br/> |Supported  <br/> |End-users can set search alerts for the result set of a query. When the results are changed or updated, search notifies the end-user. This is the tested limit for a Search service application that has a mix of end-user queries (75%) and alert queries (25%). The limit for a Search service application that has only alert queries is 400,000 alerts. These limits are based on a system with five queries per second (QPS).  <br/> |
-   
+
 #### Search: ranking limits
 
 The ranking limits safeguard application server memory, query latency, and the size of the index.
@@ -333,7 +334,7 @@ The ranking limits safeguard application server memory, query latency, and the s
 |Ranking models  <br/> |1,000 per tenant  <br/> |Boundary  <br/> |Approaching this limit can adversely affect the overall system performance.  <br/> |
 |Unique contexts used for ranking  <br/> |15 unique contexts per rank model  <br/> |Boundary  <br/> |This is the maximum number of unique contexts per rank model.  <br/> |
 |Authoritative pages  <br/> |1 top level and minimal second and third level pages per Search service application  <br/> |Supported  <br/> |Use as few second- and third-level pages as possible while still achieving the desired relevance.  <br/> The boundary is 200 authoritative pages per relevance level per Search service application. If you add more pages, you may not achieve the desired relevance. Add the key site to the first relevance level. Add more key sites at either second or third relevance levels, one at a time. Evaluate relevance after each addition to make sure that that you have achieved the desired relevance effect.  <br/> |
-   
+
 #### Search: index limits
 
 The index limits safeguard the index from growing out of bounds and exceeding the available resources.
@@ -343,7 +344,7 @@ The index limits safeguard the index from growing out of bounds and exceeding th
 |Unique terms in the index  <br/> |2^31 (\>2 billion terms)  <br/> |Boundary  <br/> |This is the maximum number of unique terms that can exist in the index of a Search service application.  <br/> |
 |User defined full text indexes  <br/> |10  <br/> |Boundary  <br/> |This is the maximum number of full text indexes.  <br/> |
 |Indexed items  <br/> |10 million per index partition  <br/> |Supported  <br/> |Each index partition contains a subset of the whole search index. If the number of indexed items is high in relation to how much memory the server has, affects the query response time negatively.  <br/> For SharePoint Foundation 2013, the maximum number of indexed items is 2 million items per index partition.  <br/> For SharePoint Foundation 2013, the maximum number of indexed items is 2 million items per index partition, before applying the June 2016 Public Update. The June 2016 Public Update, increases this limit to 10 million items per index partition.  <br/> |
-   
+
 #### User Profile Service limits
 <a name="UPA"> </a>
 
@@ -353,7 +354,7 @@ The following table lists the recommended guidelines for User Profile Service.
 |:-----|:-----|:-----|:-----|
 |User profiles  <br/> |2,000,000 per service application  <br/> |Supported  <br/> |A user profile service application can support up to 2 million user profiles with full social features functionality. This number represents the number of profiles that can be imported into the people profile store from a directory service, and also the number of profiles a user profile service application can support without leading to performance decreases in social features.  <br/> |
 |Social tags, notes and ratings  <br/> |500,000,000 per social database  <br/> |Supported  <br/> |Up to 500 million total social tags, notes and ratings are supported in a social database without significant decreases in performance. However, database maintenance operations such as backup and restore may show decreased performance at that point.  <br/> |
-   
+
 #### Content deployment limits
 <a name="ContentDeployment"> </a>
 
@@ -362,7 +363,7 @@ The following table lists the recommended guidelines for content deployment.
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |Content deployment jobs running on different paths  <br/> |20  <br/> |Supported  <br/> |For concurrently running jobs on paths that are connected to site collections in the same source content database, there is an increased risk of deadlocks on the database. For jobs that must run concurrently, we recommend that you move the site collections into different source content databases.  <br/> Note: Concurrent running jobs on the same path are not possible.           If you are using SQL Server snapshots for content deployment, each path creates a snapshot. This increases the I/O requirements for the source database.  <br/> For more information, see [About deployment paths and jobs](/previous-versions/office/sharepoint-server-2010/ee721058(v=office.14)#section2a).  <br/> |
-   
+
 #### Blog limits
 <a name="Blog"> </a>
 
@@ -372,7 +373,7 @@ The following table lists the recommended guidelines for blogs.
 |:-----|:-----|:-----|:-----|
 |Blog posts  <br/> |5,000 per site  <br/> |Supported  <br/> |The maximum number of blog posts is 5,000 per site.  <br/> |
 |Comments  <br/> |1,000 per post  <br/> |Supported  <br/> |The maximum number of comments is 1,000 per post.  <br/> |
-   
+
 #### Business Connectivity Services limits
 <a name="BCS"> </a>
 
@@ -388,7 +389,7 @@ The following table lists the recommended guidelines for Business Connectivity S
 |Filter Descriptor (in-store)  <br/> |200 per ECT method  <br/> |Boundary  <br/> |The maximum number of Filter Descriptors per ECT method is 200.  <br/> |
 |ECT Identifier (in-store)  <br/> |20 per ECT  <br/> |Boundary  <br/> |The maximum number of identifiers per ECT is 20.  <br/> |
 |Database Item  <br/> |1,000,000 per request  <br/> |Threshold  <br/> |The default maximum number of items per request the database connector can return is 2,000, and the absolute maximum is 1,000,000.  <br/> The default max is used by the database connector to restrict the number of results that can be returned per page. The application can specify a larger limit via execution context; the absolute max enforces the allowed maximum even for applications that do not respect the default such as indexing.  <br/> |
-   
+
 #### Workflow limits
 <a name="Workflow"> </a>
 
@@ -409,7 +410,7 @@ The following table lists the recommended guidelines for workflow.
 |Workflow variable value size  <br/> |256 KB  <br/> |Boundary  <br/> |The maximum amount of data that can be stored in a single workflow variable is 256 KB. Exceeding this limit will cause the workflow instance to terminate.  <br/> |
 |Maximum list size for workflow lookups to non-indexed fields  <br/> |5,000 items per list view  <br/> |Threshold  <br/> |This limit is a result of the maximum view size limit. When this limit is exceeded, workflow lookups to non-indexed fields will fail for non-administrative users. At this threshold, an index must be created for the field, in order for workflows to be able to successfully perform lookups against the field.  <br/> |
 |Maximum list size for auto-start workflow associations  <br/> |10 million items per list  <br/> |Supported  <br/> |Testing has confirmed that the performance of auto-start workflow associations is not affected when list size grows to 1 million items. Because response time doesn't change as list size scales, the effective limit is the same as the maximum number of items in a non-workflow list.  <br/> |
-   
+
 #### Managed Metadata limits
 <a name="Workflow"> </a>
 
@@ -419,7 +420,7 @@ The following table lists the recommended guidelines for managed metadata config
 |:-----|:-----|:-----|:-----|
 |Number of folders with location-based defaults  <br/> |1,000 folders per site, or data file size of 256 Mb  <br/> |Boundary  <br/> |Location-based default metadata allows you to set default values for list columns per folder. You can only apply location-based default values on up to 1,000 folders per site, or up to the point at which the data file in which location-based default metadata is stored for the site (client_LocationBasedDefaults.html) reaches 265 Mb.  <br/> When the number of folders in the data file exceeds 1,000, or the data file size exceeds 256 Mb, default values added for additional folders will be ignored.  <br/> |
 |Number of links in or file size of a document that are updated when the target location changes  <br/> |1,000 links or file size of 256 Mb per document  <br/> |Boundary  <br/> |When a document containing links is added to a folder, SharePoint Foundation 2013 will update links automatically when the link target is moved to a new location. In a document with more than 1,000 links, or a document with a file size that exceeds 256 Mb, the document is treated as though it contains no links, and updates to link targets are ignored for the entire document.  <br/> |
-   
+
 #### Managed Metadata term store (database) limits
 <a name="termstore"> </a>
 
@@ -447,7 +448,7 @@ The following table lists the recommended guidelines for instances of Visio Serv
 |Visio web drawing recalculation time-out  <br/> |120 seconds  <br/> |Threshold  <br/> | Visio Services has a configuration setting that enables the administrator to change the maximum time that it can spend recalculating a drawing after a data refresh.  <br/>  A larger recalculation time-out leads to:  <br/>  Reduction in CPU and memory availability.  <br/>  Reduction in application requests per second.  <br/>  Increase in average latency across all documents.  <br/>  A smaller recalculation time-out leads to:  <br/>  Reduction of the complexity of diagrams that can be displayed.  <br/>  Increase in requests per second.  <br/>  Decrease in average latency across all documents.  <br/> |
 |Visio Services minimum cache age (data connected diagrams)  <br/> |Minimum cache age: 0 to 24hrs  <br/> |Threshold  <br/> |Minimum cache age applies to data connected diagrams. It determines the earliest point at which the current diagram can be removed from cache.  <br/> Setting Min Cache Age to a very low value will reduce throughput and increase latency, because invalidating the cache too often forces Visio to recalculate often and reduces CPU and memory availability.  <br/> |
 |Visio Services maximum cache age (non-data connected diagrams)  <br/> |Maximum cache age: 0 to 24hrs  <br/> |Threshold  <br/> |Maximum cache age applies to non-data connected diagrams. This value determines how long to keep the current diagram in memory.  <br/> Increasing Max Cache Age decreases latency for commonly requested drawings.  <br/> However, setting Max Cache Age to a very high value increases latency and slows throughput for items that are not cached, because the items already in cache consume and reduce available memory.  <br/> |
-   
+
 #### SharePoint Web Analytics service limits
 <a name="WebAnalytics"> </a>
 
@@ -464,7 +465,7 @@ The following table lists the recommended guidelines for PerformancePoint Servic
 |Columns and rows  <br/> |15 columns by 60,000 rows  <br/> |Threshold  <br/> |The maximum number of columns and rows when rendering any PerformancePoint dashboard object that uses a Excel workbook as a data source. The number of rows could change based on the number of columns.  <br/> |
 |Query on a SharePoint list  <br/> |15 columns by 5,000 rows  <br/> |Supported  <br/> |The maximum number of columns and row when rendering any PerformancePoint dashboard object that uses a SharePoint list as a data source. The number of rows could change based on the number of columns.  <br/> |
 |Query on a SQL Server data source  <br/> |15 columns by 20,000 rows  <br/> |Supported  <br/> |The maximum number of columns and row when rendering any PerformancePoint dashboard object that uses a SQL Server table data source. The number of rows could change based on the number of columns.  <br/> |
-   
+
 #### Word Automation Services limits
 <a name="WAS"> </a>
 
@@ -478,7 +479,7 @@ The following table lists the recommended guidelines for Word Automation Service
 |Conversion job size  <br/> |100,000 conversion items  <br/> |Supported  <br/> |A conversion job includes one or more conversion items, each of which represents a single conversion to be performed on a single input file in SharePoint. When a conversion job is started (using the ConversionJob.Start method), the conversion job and all conversion items are transmitted over to an application server which then stores the job in the Word Automation Services database. A large number of conversion items will increase both the execution time of the Start method and the number of bytes transmitted to the application server.  <br/> |
 |Total active conversion processes  <br/> |N-1, where N is the number of cores on each application server  <br/> |Threshold  <br/> |An active conversion process can consume a single processing core. Therefore, customers should not run more conversion processes than they have processing cores in their application servers. The conversion timer job and other SharePoint activities also require occasional use of a processing core.  <br/> We recommend that you always leave 1 core free for use by the conversion timer job and SharePoint.  <br/> |
 |Word Automation Services database size  <br/> |2 million conversion items  <br/> |Supported  <br/> |Word Automation Services maintains a persistent queue of conversion items in its database. Each conversion request generates one or more records.  <br/> Word Automation Services does not delete records from the database automatically, so the database can grow indefinitely without maintenance. Administrators can manually remove conversion job history by using the PowerShell cmdlet Remove-SPWordConversionServiceJobHistory. For more information, see [Remove-SPWordConversionServiceJobHistory](/powershell/module/sharepoint-server/Remove-SPWordConversionServiceJobHistory?view=sharepoint-ps).  <br/> |
-   
+
 #### Excel Services limits
 <a name="Excel"> </a>
 
@@ -487,7 +488,7 @@ The following table lists the recommended guidelines for Excel Services in Share
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |Maximum workbook size  <br/> |10 MB  <br/> |Supported  <br/> |The maximum size of a workbook that can be opened in Excel Services is 10 megabytes.  <br/> |
-   
+
 #### Machine Translation Service limits
 <a name="machine"> </a>
 
@@ -504,7 +505,7 @@ The following table lists the recommended guidelines for the Machine Translation
 |Maximum concurrent translation requests  <br/> |300  <br/> |Threshold  <br/> |More than 300 concurrent translation requests could cause translations to time out because requests are queued for longer than the timeout period.  <br/> |
 |Files per translation job  <br/> |100,000 files  <br/> |Supported  <br/> |Submitting jobs with a number of files that exceeds the limit causes job submittal time and processing time to be too long.  <br/> |
 |Machine Translation Service database size  <br/> |1,000,000 files  <br/> |Supported  <br/> |Operations to maintain the queue of jobs become slow if the database grows beyond the maximum number of files in the database.  <br/> |
-   
+
 #### Office Web Application Service limits
 <a name="OfficeWebApps"> </a>
 
@@ -515,7 +516,7 @@ The following table lists the recommended guidelines for Office Online. Office c
 |Cache size  <br/> |100 GB  <br/> |Threshold  <br/> |Space available to render documents, created as part of a content database. By default, the cache available to render documents is 100 GB. We do not recommend that you increase the available cache.  <br/> |
 |Renders  <br/> |One per document per second per CPU core per application server (maximum eight cores)  <br/> |Boundary  <br/> |This is the measured average number of renders that can be performed of "typical" documents on the application server over a period of time.  <br/> |
 |OneNote concurrent merge operations  <br/> |8 per document  <br/> |Threshold  <br/> |OneNote merges combine changes from multiple users who are co-authoring a notebook. If too many concurrent merges are already in progress, a conflict page is generated instead, which forces the user to perform the merge manually.  <br/> |
-   
+
 #### Project Server limits
 <a name="Project"> </a>
 
@@ -527,7 +528,7 @@ The following table lists the recommended guidelines for Project Server. For mor
 |Deliverables per project plan  <br/> |1,500 deliverables  <br/> |Boundary  <br/> |Project plans cannot contain more than 1,500 deliverables.  <br/> |
 |Number of fields in a view  <br/> |256  <br/> |Boundary  <br/> |A user cannot have more than 256 fields added to a view that they have defined in Project Web App.  <br/> |
 |Number of clauses in a filter for a view  <br/> |50  <br/> |Boundary  <br/> |A user cannot add a filter to a view that has more than 50 clauses in it.  <br/> |
-   
+
 #### SharePoint Apps limits
 <a name="SpApps"> </a>
 
@@ -543,7 +544,7 @@ The following table lists the recommended guidelines for apps for SharePoint.
 |Number of managers per app license  <br/> |30  <br/> |Boundary  <br/> |Only 30 people can manage a license. License managers can add or remove users or delete a license.  <br/> |
 |Number of app licenses assigned to a user viewable by that user  <br/> |2,000  <br/> |Boundary  <br/> |When more than 2,000 licenses are assigned to a user, that user will no longer see any apps in the default Add an App view. Instead, a message guiding you to search the app catalog or the SharePoint Store will appear.  <br/> |
 |Number of apps in the corporate catalog viewable by a single user  <br/> |500  <br/> |Boundary  <br/> |When more than 500 apps from the corporate catalog are available to a single user, that user will no longer see any apps in the default Add an App view. Instead, a message guiding you to search the app catalog or the SharePoint Store will appear.  <br/> |
-   
+
 #### Distributed cache service limits
 <a name="Velocity"> </a>
 
@@ -554,7 +555,7 @@ The following table lists the recommended guidelines for the distributed cache s
 |Number of followable entities (users, documents, sites and hashtags) per cache host  <br/> |400,000  <br/> |Supported  <br/> |The total number of entities that can be followed by a single user on a distributed cache host with 16GB RAM assigned to the distributed cache service is 400,000.  <br/> |
 |Number of cache hosts in a cluster  <br/> |16  <br/> |Boundary  <br/> |The total number of cache hosts a single distributed cache cluster can support is 16.  <br/> |
 |Maximum amount of memory dedicated to a cache host  <br/> |16GB  <br/> |Boundary  <br/> |The total amount of memory that can be dedicated to the distributed cache service on any one cache host in a cluster is 16GB.  <br/> |
-   
+
 #### Miscellaneous limits
 <a name="misc"> </a>
 
@@ -566,7 +567,7 @@ The following table lists limits and recommended guidelines for services and fea
 |Number of SharePoint sources per EDiscovery case  <br/> |100  <br/> |Boundary  <br/> |The maximum number of SharePoint sources that can be added to an EDiscovery case is 100.  <br/> |
 |Number of Exchange sources (mailboxes) per EDiscovery case  <br/> |1,500  <br/> |Boundary  <br/> |The maximum number of Exchange sources (mailboxes) per EDiscovery case is 1,500.  <br/> |
 |Maximum size of EDiscovery Query  <br/> |16K characters or 500 keywords  <br/> |Boundary  <br/> |The size of an EDiscovery query is limited to 500 keywords or 16,000 characters, whichever is reached first.  <br/> |
-   
+
 ## Related topics
 <a name="Limits"> </a>
 
@@ -574,4 +575,3 @@ The following table lists limits and recommended guidelines for services and fea
   
 [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md)
   
-
