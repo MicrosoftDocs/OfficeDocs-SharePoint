@@ -405,9 +405,9 @@ Please let us know if you have feedback on this feature or encounter any issues.
 ### Use OneDrive Files On-Demand
 <a name="FilesOnDemandEnabled"> </a>
 
-This setting lets you control whether OneDrive Files On-Demand is enabled for your organization. Files On-Demand helps you save storage space on your users' computers and minimize the network impact of sync. The feature is available to users running Windows 10 Fall Creators update (version 1709 or later). [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
+This setting lets you control whether OneDrive Files On-Demand is enabled for your organization. Files On-Demand helps you save storage space on your user's computers and minimize the network impact of sync. The feature is available to users running Windows 10 Fall Creators update (version 1709 or later). [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
   
-If you enable this setting, new users who set up the sync client will download online-only files by default. If you disable this setting, Windows 10 users will have the same sync behavior as users of previous versions of Windows, and won't be able to turn on Files On-Demand. If you do not configure this setting, users can turn Files On-Demand on or off.
+If you enable this setting, new users who set up the sync client won't download online-only files by default. The files don’t download to the device until the are opened. If you disable this setting, Windows 10 users will have the same sync behavior as users of previous versions of Windows, and won't be able to turn on Files On-Demand. If you do not configure this setting, users can turn Files On-Demand on or off.
 
 Enabling this policy sets the following registry key value to 1.
   
