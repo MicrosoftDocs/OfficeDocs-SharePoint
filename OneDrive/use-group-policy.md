@@ -162,6 +162,9 @@ This policy sets the following registry key.
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
   
 This setting will take priority over [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#BlockTenantList). Do not enable both settings at the same time.
+
+Use of this setting will disable the use of [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard).
+Do not enable both settings at the same time when you aim to use KFM.
   
 ### Block syncing OneDrive accounts for specific organizations
 <a name="BlockTenantList"> </a>
@@ -384,6 +387,9 @@ Enabling this policy sets the following registry keys:
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"
   
 Setting this value to 1 displays a notification after successful redirection.
+
+> [!NOTE]
+> If you enable this setting together with [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations), no folders will be redirected. Please disable or do not configure that policy in order to redirect your users' Documents, Pictures, and Desktop folders to OneDrive.
 
 [More info about known folder move](redirect-known-folders.md)
   
