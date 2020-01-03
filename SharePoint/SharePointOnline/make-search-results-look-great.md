@@ -24,7 +24,7 @@ SharePoint Online has both a classic and a modern search experience, where [Micr
 
 If you're responsible for search in your organization, you can customize how results are presented on classic search results pages. Read about how you can use the search web parts in SharePoint Online to make it easier for users find what they're looking for in the classic search experience.  
   
- ## Manage the Search Center
+## Manage the Search Center
   
 A Search Center is a classic site where users can enter search queries and view search results. [Learn more](manage-search-center.md).
   
@@ -58,4 +58,4 @@ When visitors browse to a page that contains a Content Search Web Part, the Web 
   
  ## Use result types and display types to change how search results look
   
-To help users quickly distinguish between different types of results you can use  *[result types](manage-result-types.md)*  and  *display templates*  to show important information directly in the search results. Users don't have to click on each result to see if they've found what they're looking for. [Learn more](use-result-types-and-display-templates.md).
+To help users quickly distinguish between different types of results, you can use  *[result types](manage-result-types.md)*  and  *display templates*  to show important information directly in the search results. Users don't have to click on each result to see if they've found what they're looking for. [Learn more](use-result-types-and-display-templates.md).
