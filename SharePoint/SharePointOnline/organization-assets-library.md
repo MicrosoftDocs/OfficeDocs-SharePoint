@@ -29,15 +29,15 @@ If your organization needs to store and manage files for all your users to use, 
     ![A post from an organization news site on the SharePoint start page](media/office-template-library.png)
 
 > [!NOTE]
-> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization, however all of these libraries must reside in the same site collection. You can't create organization asset libraries across multiple site collections.
+> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization, however all of these libraries must be in the same site collection. 
 
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
   
 1. Select an existing site or create a new site for the organization assets.
 
-> [!NOTE]
-> All organization asset libraries must be on the same site.
+    > [!NOTE]
+    > All organization asset libraries must be on the same site.
 
 2. Upload the files you want to make available to all users to a document library.
 
@@ -54,9 +54,9 @@ If your organization needs to store and manage files for all your users to use, 
     Add-SPOOrgAssetsLibrary -LibraryURL <URL> [-ThumbnailURL <URL> -OrgAssetType <asset type>] 
     ```
 
-LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. OrgAssetType is either ImageDocumentLibrary or OfficeTemplateLibrary[Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
+LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. OrgAssetType is either ImageDocumentLibrary or OfficeTemplateLibrary. [Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
 
-Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg`
+Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg` -OrgAssetType ImageDocumentLibrary
 
 
 > [!NOTE]
