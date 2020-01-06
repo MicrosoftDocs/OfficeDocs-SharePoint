@@ -402,7 +402,7 @@ Enabling this policy sets the following registry key value to 1.
 For more info about this feature, see [Silently configure user accounts](use-silent-account-configuration.md).
 Please let us know if you have feedback on this feature or encounter any issues. Right-click the OneDrive icon in the notification area and click "Report a problem." Please tag any feedback with "SilentConfig" so that your feedback will be sent directly to engineers working on this feature.
 
-### Use OneDrive Files On-Demand
+### Enable OneDrive Files On-Demand
 <a name="FilesOnDemandEnabled"> </a>
 
 This setting lets you control whether OneDrive Files On-Demand is enabled for your organization. Files On-Demand helps you save storage space on your users' computers and minimize the network impact of sync. The feature is available to users running Windows 10 Fall Creators update (version 1709 or later). [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
