@@ -18,12 +18,19 @@ description: "Specify a library as a location for assets that are centrally stor
 
 # Create an organization assets library
 
-If your organization needs to store and manage images like photos or logos centrally for all your users to use, you can specify one or more document libraries as an "organization assets library." This makes it easier for users to add these assets when they create SharePoint sites and pages.
+If your organization needs to store and manage files for all your users to use, you can specify one or more document libraries as an "organization assets library." You can create two types of organization assets:
+
+- **Images such as photos and logos**. When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified. 
+
+    ![A post from an organization news site on the SharePoint start page](media/image-library.png)
+
+- **Office templates**. When a user selects to create a new Office file (from Office.com or an Office desktop app), the user can select the tab for your organization to see the templates.
+
+    ![A post from an organization news site on the SharePoint start page](media/office-template-library.png)
 
 > [!NOTE]
-> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization, however all of these asset libraries must reside in the same site collection. You cannot add organization asset libraries from multiple site collections.
+> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization, however all of these libraries must reside in the same site collection. You can't create organization asset libraries across multiple site collections.
 
-When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified. 
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
   
@@ -44,10 +51,10 @@ When a user adds a web part to any modern page in SharePoint and that web part o
 5. Run the following command to designate the document library as an organization assets library:
   
     ```PowerShell
-    Add-SPOOrgAssetsLibrary -LibraryURL <String> [-ThumbnailURL <String>] 
+    Add-SPOOrgAssetsLibrary -LibraryURL <URL> [-ThumbnailURL <URL> -OrgAssetType <asset type>] 
     ```
 
-LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. [Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
+LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. OrgAssetType is either ImageDocumentLibrary or OfficeTemplateLibrary[Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
 
 Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg`
 
