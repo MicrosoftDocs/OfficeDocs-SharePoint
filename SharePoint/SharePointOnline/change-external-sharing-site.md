@@ -25,6 +25,8 @@ You must be a global or SharePoint admin in Office 365 to change the external sh
 Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md).
 
 For detailed information about how to set up guest access for a site, see [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site).
+
+To configure external sharing for a site
   
 1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
     
@@ -33,16 +35,22 @@ For detailed information about how to set up guest access for a site, see [Colla
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+3. In the left pane of the new SharePoint admin center, under **Sites** select **Active sites**.
     
-4. In the left pane of the new SharePoint admin center, under **Sites** select **Active sites**.
-    
-5. Select the site, and then select **Sharing**.
+4. Click the site name, and then select the **Policies** tab.
+
+5. Under **External sharing**, select **Edit**.
+     
+6. Select an external sharing option (see the following table).
 
     ![Changing the external sharing setting for a site](media/external-sharing-site.png)
-     
-6. Select an external sharing option (see the following table), and select **Save**.
-    
+
+7. If you want to limit the sharing of this site by domain, select the **Limit sharing by domain** check box and add the domains that you want to allow or block.
+
+8. If you want to change the default sharing link type, permissions, or expiration setting for this site, clear the **Same as organization-level setting** check box and set the value that you want to use for this site.
+
+9. Click **Save**.
+   
 ### Which option to select...
 
 |**Select this option:**|**If you want to:**|
