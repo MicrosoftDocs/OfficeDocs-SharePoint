@@ -235,7 +235,7 @@ You need to create an App Management service application.
 
 Hybrid uses the Microsoft SharePoint Foundation Subscription Settings Service which is turned off by default in SharePoint Server. Use the following procedure to turn it on.
   
- **To turn on the Microsoft SharePoint Foundation Subscription Settings Service **
+ **To turn on the Microsoft SharePoint Foundation Subscription Settings Service**
   
 1. In Central Administration, under **System Settings**, click **Manage services in this farm**.
     
