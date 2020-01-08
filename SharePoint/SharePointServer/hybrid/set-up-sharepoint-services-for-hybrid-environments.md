@@ -235,12 +235,18 @@ You need to create an App Management service application.
 
 Hybrid uses the Microsoft SharePoint Foundation Subscription Settings Service which is turned off by default in SharePoint Server. Use the following procedure to turn it on.
   
- **To turn on the Microsoft SharePoint Foundation Subscription Settings Service**
+ **To turn on the Microsoft SharePoint Foundation Subscription Settings Service (SharePoint Server 2013)**
+  
+1. In Central Administration, under **System Settings**, click **Manage services on server**.
+    
+2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, click **Start**
+
+ **To turn on the Microsoft SharePoint Foundation Subscription Settings Service** (SharePoint Server 2016 and 2019)
   
 1. In Central Administration, under **System Settings**, click **Manage services in this farm**.
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, click **Enable Auto Provision**
-    
+
 You must also have a Subscription Settings service application and proxy. These must be created by using Microsoft PowerShell. Use the example script provided at [New-SPSubscriptionSettingsServiceApplication](/powershell/module/sharepoint-server/New-SPSubscriptionSettingsServiceApplication?view=sharepoint-ps).
   
  ** Active Directory Domain Services synchronization connection **
