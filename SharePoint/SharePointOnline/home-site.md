@@ -15,7 +15,7 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-ROBOTS: NOINDEX
+
 
 description: "Plan and create the top landing page for your organization, and then set it as your home site."
 ---
@@ -26,7 +26,7 @@ A home site is a [communication site](https://support.office.com/article/94A3342
 ) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
 
 > [!NOTE]
-> This feature will roll out soon to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). 
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see the feature described in this article.
 
 ## Home site capabilities
 

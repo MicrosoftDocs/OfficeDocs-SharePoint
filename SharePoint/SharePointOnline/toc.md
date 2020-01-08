@@ -40,6 +40,7 @@
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Change site addresses](change-site-address.md)
 ### [Manage site redirects](manage-site-redirects.md)
+### [Set up a home site](home-site.md)
 ### [Create an organization assets library](organization-assets-library.md)
 ### [Create an organization news site](organization-news-site.md)
 ## [Sync]()
