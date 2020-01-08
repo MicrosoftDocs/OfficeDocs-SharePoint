@@ -75,7 +75,8 @@ After a client is configured, anyone with the permission to go into the SharePoi
 |https://*.<spam><spam>blob.core.windows<spam><spam>.net|Migration API Azure requirement|
 |https://*.<spam><spam>pipe.aria.microsoft<spam><spam>.com|Telemetry/update|
 |https://*.<spam><spam>sharepoint<spam><spam>.com|Destination for migration|
-
+|https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
+|https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
 
 ## Setup a single client
 
