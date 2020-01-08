@@ -27,7 +27,7 @@ For end-to-end guidance around how to configure guest sharing in Microsoft 365, 
 - [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
 - [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
 
-To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). 
+To change the sharing settings for a site after you've set the organization-level sharing settings, see [Turn external sharing on or off for for a site](change-external-sharing-site.md).To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). 
   
  
 ## Change the organization-level external sharing setting
@@ -46,19 +46,19 @@ To learn how to change the external sharing setting for a user's OneDrive, see [
 
 5. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is "Anyone."
 
-> [!NOTE]
->  The SharePoint setting applies to all site types, including those connected to Office 365 groups. <br> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive. <br> The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
+    > [!NOTE]
+    >  The SharePoint setting applies to all site types, including those connected to Office 365 groups. <br> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive. <br> The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
 
-![External sharing settings in the new SharePoint admin center](media/externalsharing.png)
+    ![External sharing settings in the new SharePoint admin center](media/externalsharing.png)
 
-This setting is for your organization overall. Each site has its own sharing setting which you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
+    This setting is for your organization overall. Each site has its own sharing setting which you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
 ### Which option to select...
 
 |**Select this option:**|**If you want to:**|
 |:-----|:-----|
-|**Anyone**  <br/> | Allow users to share files and folders by using links that let anyone who has the link access the files or folders without authenticating. This setting also allows users to share sites with new and existing guests who authenticate. If you select this setting, you can restrict the Anyone links so that they must expire within a specific number of days, or so that they can give only View permission. See [Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing) for more information.<br/>|
-|**New and existing guests** <br/> | Require people who have received invitations to sign in with their work or school account (if their organization uses Office 365) or a Microsoft account, or to provide a code to verify their identity. Users can share with guests already in your organization's directory, and they can send invitations to people who will be added to the directory if they sign in. For more info about verification codes, see [Secure external sharing in SharePoint Online](what-s-new-in-sharing-in-targeted-release.md)<br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
+|**Anyone**  <br/> | Allow users to share files and folders by using links that let anyone who has the link access the files or folders without authenticating. This setting also allows users to share sites with new and existing guests who authenticate. If you select this setting, you can restrict the Anyone links so that they must expire within a specific number of days, or so that they can give only View permission.<br/>[File requests](https://support.office.com/article/f54aa7f8-2589-4421-b351-d415fc3b83af) requires that OneDrive be set to **Anyone** and edit permissions for **Anyone** links be enabled. OneDrive settings other than **Anyone** disable file requests.<br/> See [Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing) for more information.<br/>|
+|**New and existing guests** <br/> | Require people who have received invitations to sign in with their work or school account (if their organization uses Office 365) or a Microsoft account, or to provide a code to verify their identity. Users can share with guests already in your organization's directory, and they can send invitations to people who will be added to the directory if they sign in. For more info about verification codes, see [Secure external sharing in SharePoint](what-s-new-in-sharing-in-targeted-release.md)<br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
 |**Existing guests** <br/> |Allow sharing only with guests who are already in your directory. These guests may exist in your directory because they previously accepted sharing invitations or because they were manually added, such as through [Azure B2B collaboration](/azure/active-directory/b2b/what-is-b2b). (To see the guests in your organization, go to the [Guests page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/GuestUsers)).  <br/> |
 |**Only people in your organization** <br/> | Turn off external sharing.
 
@@ -111,20 +111,30 @@ Choose the option you want to show by default when a user gets a link.
 
 **Link permissions** - You can restrict "Anyone" links so that they can only provide view permission for files or folders.
 
+If you are using file requests, the link permissions must be set for **View and edit** for files and **View, edit, and upload** for folders.
+
 ## Other
 
 ![External sharing settings in the new SharePoint admin center](media/othersettings.png)
 
 **Display to owners the names of people who viewed their files**
 
-This setting lets you control whether the owner of a shared file can see the people who only view (and don't edit) the file in OneDrive file access statistics. File access statistics appear on a card when users hover over a file name or thumbnail in OneDrive. The statistics include the number of views on the file, the number of people who viewed it, and the list of people who viewed it.
+This setting lets you control whether the owner of a shared file can see on the file card the people who only view (and don't edit) the file in OneDrive. The file card appears when users hover over a file name or thumbnail in OneDrive. The info includes the number of views on the file, the number of people who viewed it, and the list of people who viewed it. To learn more about the file card, see [See files you shared in OneDrive](https://support.office.com/article/6b67b82b-9c5c-4348-ab10-fd5b0d8df76c). 
 
 > [!NOTE]
 > This setting is selected by default. If you clear it, file viewer info is still recorded and available to you to audit as an admin. OneDrive owners will also still be able to see people who have viewed their shared Office files by opening the files from Office.com or from the Office desktop apps.
 
-On the classic sharing page, you can choose whether you want the default link permission to be view or edit. 
+**Let site owners choose to display the names of people who viewed files or pages in SharePoint**
 
-You can also allow only users in specific security groups to share externally. To see the security groups in your organization, go to the [Groups page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/groups).
+This setting lets you specify whether site owners can allow users who have access to a file, page, or news post to see on the file card who has viewed the item. 
+
+This setting is turned on by default at the organization level and off at the site level for existing sites. Viewer information is shown only when the setting is on at both the organization and site level. We recommend that site owners enable this feature only on team sites that don't have sensitive information. Site owners can do this from the Site settings page by selecting **Manage site features**, searching for **SharePoint Viewers**, and selecting **Activate**.
+
+> [!NOTE]
+> Historical data is included when this setting is enabled. Likewise, if the setting is turned off and back on at the organization level or site level, the views during the off period will be included in the history.
+
+On the classic Sharing page, you can limit external sharing by security group and shorten sharing links or change their default permission.
+
 
 ## Need more help?
 
@@ -134,7 +144,7 @@ You can also find help on security and permissions in these [YouTube videos from
 
 ## See also
 
-[Limit accidental exposure to files when sharing with guests](https://docs.microsoft.com/Office365/Enterprise/sharing-limit-accidental-exposure)
+[Limit accidental exposure to files when sharing with guests](/Office365/Enterprise/sharing-limit-accidental-exposure)
 
 [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
 

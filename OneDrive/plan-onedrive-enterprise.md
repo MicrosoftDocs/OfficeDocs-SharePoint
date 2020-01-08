@@ -32,7 +32,7 @@ OneDrive provides a robust but simple-to-use cloud storage platform for small bu
 
 -   **Protect your files with enterprise-grade security.** OneDrive has many security and compliance features, enabling you to meet some of the strictest compliance requirements out there.
 
-The Microsoft 365 family of products, which includes Office, Microsoft Outlook, SharePoint, Teams, OneDrive, and Yammer, provides a complete, intelligent, and secure solution to empower employees. Together, the Microsoft 365 applications unlock creativity and encourage teamwork through product integration and a simple user experience, all while providing intelligent security to help keep your data safe. In addition, Microsoft Graph enables you to interact with and report on the data within many of the Microsoft 365 applications. 
+The Microsoft 365 family of products, which includes Office, Microsoft Outlook, SharePoint, Teams, OneDrive, and Yammer, provides a complete, intelligent, and secure solution to empower employees. Together, the Microsoft 365 applications unlock creativity and encourage teamwork through product integration and a simple user experience, all while providing intelligent security to help keep your data safe. In addition, Microsoft Graph enables you to interact with and report on the data within many of the Microsoft 365 applications.
 
 ## Key OneDrive features
 
@@ -49,7 +49,7 @@ The features listed in this section address common customer concerns or specific
 -   Real-time team collaboration: Coauthoring in full versions of Microsoft Word, Excel, and PowerPoint
 
 -   Seamlessly connecting files to conversations
- 
+
 -   Intelligent discover with OneDrive Discover view
 
 -   OneDrive Files Restore
@@ -61,13 +61,13 @@ The features listed in this section address common customer concerns or specific
 -   eDiscovery
 
 -   Auditing and reporting
- 
+
 -   Encryption of data in transit and at rest
 
 -   Customer-controlled encryption keys
 
 -   Office 365 Customer Lockbox
- 
+
 -   Hybrid integration with SharePoint Server
 
 -   OneDrive Multi-Geo storage locations
@@ -116,7 +116,7 @@ OneDrive has a recycle bin similar to the one available on the Windows desktop. 
 
 ### Auditing and reporting
 
-OneDrive has detailed reporting and auditing capabilities for files it stores as well as for those files stored through other services that use OneDrive for storage, such as Microsoft SharePoint Online. In addition, you can audit individual file actions, including downloads, renames, and views. 
+OneDrive has detailed reporting and auditing capabilities for files it stores as well as for those files stored through other services that use OneDrive for storage, such as Microsoft SharePoint Online. In addition, you can audit individual file actions, including downloads, renames, and views.
 
 The Office 365 admin center handles reporting for cloud services, including OneDrive. You can view historical information like storage usage by user and for the organization, total file and active file counts, and account activity. The following image shows an example of a OneDrive report in the Office 365 admin center: file usage over the past 30 days.
 
@@ -133,7 +133,7 @@ OneDrive uses advanced data-encryption methods between your client and the data 
 
 Each file chunk is then randomly distributed among Microsoft Azure storage containers, and a construction map for the complete file is stored in a separate secure content database. For attackers to access the file, they would need all the file chunks, the keys, and the map—a highly improbable task. For more information about this process, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo/).
 
-### Customer-controlled encryption keys 
+### Customer-controlled encryption keys
 
 By using an Office 365 feature called *service encryption with Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed information about service encryption with Customer Key and how to configure it in your environment, see [Controlling your data in Office 365 using Customer Key](/office365/securitycompliance/controlling-your-data-using-customer-key/).
 
@@ -163,10 +163,10 @@ OneDrive is available in Office 365 U.S. Government plans. For information abou
 
 ## Deployment and management options
 
-You can deploy and manage OneDrive in many ways, but certain options make more sense in larger organizations than in smaller businesses and vice versa. For example, it likely wouldn’t make sense to have an enterprise management solution like Microsoft System Center Configuration Manager for a business that has just 10 employees. Table 1 outlines the deployment and management tools typically used for small businesses, medium-sized businesses, and enterprises. 
+You can deploy and manage OneDrive in many ways, but certain options make more sense in larger organizations than in smaller businesses and vice versa. For example, it likely wouldn’t make sense to have an enterprise management solution like Microsoft System Center Configuration Manager for a business that has just 10 employees. Table 1 outlines the deployment and management tools typically used for small businesses, medium-sized businesses, and enterprises.
 
 > [!NOTE]
-> Keep in mind that an organization in one size category would probably incorporate additional options from other size categories. This table is not intended to exclusively identify a technology with a specific business size. 
+> Keep in mind that an organization in one size category would probably incorporate additional options from other size categories. This table is not intended to exclusively identify a technology with a specific business size.
 
 |**Size of organization**|**Deployment tools used**|**Management**|
 |:-----|:-----|:-----|
@@ -174,7 +174,7 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 |Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, OneDrive admin center, Intune mobile application management (MAM) or MDM|
 |Enterprise|System Center Configuration Manager with Intune or Windows Autopilot|System Center Configuration Manger, Group Policy objects (GPOs), etc. |
 
-Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees’ computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you’re running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like System Center Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes. 
+Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees’ computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you’re running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like System Center Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
 
 ## Prerequisites
 
@@ -187,7 +187,7 @@ Depending on where your organization fits in this table and the technologies ava
 When deploying any new technology, there’s always an ideal process to follow to ensure that you deploy it correctly. This section covers the high-level planning and deployment steps to help ensure that your OneDrive deployment is successful.
 
 > [!NOTE]
-> OneDrive deployment can be as simple as a local installation and may not require all the steps in this section. For example, the “Determine devices” and “Align technologies” sections may not be applicable to small business interested in performing a simple installation of OneDrive. 
+> OneDrive deployment can be as simple as a local installation and may not require all the steps in this section. For example, the “Determine devices” and “Align technologies” sections may not be applicable to small business interested in performing a simple installation of OneDrive.
 
 ### Determine devices
 
@@ -323,7 +323,7 @@ These are the key decisions around sharing for OneDrive:
 
 -   **Do you want to restrict external sharing by domain?** You can restrict external sharing to specific domains or prevent sharing with specific domains.
 
-Note that the OneDrive sharing settings are a subset of the SharePoint Online sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint Online.
+Note that the OneDrive sharing settings are a subset of the SharePoint sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint.
 
 
 ## Data retention
@@ -368,7 +368,7 @@ The SharePoint Migration Tool can be used by your IT department to migrate files
 
 If user files are located in Windows known folders such as their desktop, Documents, or Pictures, you can use Known Folder Move. Known Folder Move enables users to select known folders to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders.
 
-Known Folder Move can be configured by administrators to automatically redirect known folders for all users on the domain. It's an easy way to migrate files kept in these locations. 
+Known Folder Move can be configured by administrators to automatically redirect known folders for all users on the domain. It's an easy way to migrate files kept in these locations.
 
 ### Files in other local disk folders
 
@@ -430,7 +430,7 @@ After you have planned your rollout, configure any settings you need before you 
 
 ## Deployment options
 
-You have several different options for deploying OneDrive: manually, using scripting, using Windows AutoPilot (for the sync app on Windows), using an MDM such as Intune, or using SCCM. 
+You have several different options for deploying OneDrive: manually, using scripting, using Windows AutoPilot (for the sync app on Windows), using an MDM such as Intune, or using SCCM.
 
 The OneDrive sync app is included as part of Windows 10 and Office 2016. You do not need to deploy the sync app to devices running these, though you may need to update the sync app to the latest version.
 
@@ -545,7 +545,7 @@ Unlike Windows, OneDrive doesn’t have a configuration service provider. Theref
 New-ItemProperty -Path $Path -Name $Name -Value $Value -PropertyType DWORD -Force | Out-Null
 ```
 
-where \$Path is the full path to the subkey to which you want to add a value to (for example, **Registry::HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\OneDrive**), \$Name is the name of the value you’re adding (for example, **AutomaticUploadBandwidthPercentage**), \$Value is the data within the new value (for example, **32**), and the value following the PropertyType switch is the type of value you’re adding. 
+where \$Path is the full path to the subkey to which you want to add a value to (for example, **Registry::HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\OneDrive**), \$Name is the name of the value you’re adding (for example, **AutomaticUploadBandwidthPercentage**), \$Value is the data within the new value (for example, **32**), and the value following the PropertyType switch is the type of value you’re adding.
 
 Save the PowerShell script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](/intune/intune-management-extension/) for instructions on how to deploy the PowerShell script in your environment.
 
@@ -565,7 +565,7 @@ Intune isn’t the only MDM option you can use to manage OneDrive apps and setti
 
 ## Manage OneDrive by using Group Policy
 
-You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For information, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md). 
+You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For information, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
 
@@ -574,7 +574,7 @@ You can use Group Policy to manage OneDrive settings for domain-joined computers
 
 Because Windows devices that you use System Center Configuration Manager to manage are either domain joined (and therefore managed in Active Directory) or administered through Intune, the role of System Center Configuration Manager in managing OneDrive settings is limited. When using System Center Configuration Manager to manage OneDrive, Microsoft recommends using either Group Policy or Intune, depending on whether the device is domain joined.
 
-System Center Configuration Manager can manage OneDrive updates and configuration alongside other updates in your environment, such as for Windows and Office applications. 
+System Center Configuration Manager can manage OneDrive updates and configuration alongside other updates in your environment, such as for Windows and Office applications.
 
 ### Manage OneDrive updates by using System Center Configuration Manager
 
@@ -589,4 +589,3 @@ Depending on where the OneDrive client originated—as part of an Office package
 ```PowerShell
 > Execute \<pathToExecutable\>\\OneDriveSetup.exe /update /restart
 ```
-

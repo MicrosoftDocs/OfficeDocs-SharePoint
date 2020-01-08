@@ -1,5 +1,5 @@
 ---
-title: "Enable auto-acceleration in SharePoint Online"
+title: "Enable auto-acceleration in SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -16,13 +16,13 @@ ms.assetid: 74985ebf-39e1-4c59-a74a-dcdfd678ef83
 description: "Enable auto-acceleration to send users directly to your identity provider to sign in."
 ---
 
-# Enable auto-acceleration in SharePoint Online
+# Enable auto-acceleration in SharePoint
 
 Auto-acceleration is a feature in SharePoint in which you specify the default identity provider endpoint for your organization. When a user accesses a resource, instead of signing in to login.microsoftonline.com, the user is sent directly to the identity provider (IdP). If you configured Integrated Windows Authentication on AD FS and the user's computer is domain-joined, they will have a completely seamless single sign on experience, just like accessing an on-premises resource.
   
 ## Requirements
 
-To enable auto-acceleration, you must have a single identity provider (IdP). SharePoint Online must have a specific site to target when accelerating. Your organization can have multiple domains as long as there is a single IdP endpoint.
+To enable auto-acceleration, you must have a single identity provider (IdP). SharePoint must have a specific site to target when accelerating. Your organization can have multiple domains as long as there is a single IdP endpoint.
    
 ## Enable auto-acceleration
 

@@ -75,7 +75,7 @@ Use the following procedure to download and deploy the AdventureWorks2012 databa
   
  **To deploy the AdventureWorks2012 database**
   
-1. Download [AdventureWorks2012_Data.mdf](https://msftdbprodsamples.codeplex.com/downloads/get/165399).
+1. Download [AdvetureWorks Database 2012](https://docs.microsoft.com/sql/samples/adventureworks-install-configure).
     
     > [!NOTE]
     > Because this file was downloaded from the Internet, it may be blocked by Windows. Right-click the file, and then click **Properties**. Click the **Unblock** button if it is present, and then click **OK**. (If the **Unblock** button is not present, then the file is not blocked.) 
@@ -102,7 +102,7 @@ Use the following procedure to download and deploy the AdventureWorksDW2012 data
   
  **To deploy the AdventureWorksDW2012 data warehouse**
   
-1. Download [AdventureWorksDW2012_Data.mdf](https://msftdbprodsamples.codeplex.com/downloads/get/165405).
+1. Download [AdvetureWorks Database 2012](https://docs.microsoft.com/sql/samples/adventureworks-install-configure).
     
     > [!NOTE]
     > Because this file was downloaded from the Internet, it may be blocked by Windows. Right-click the file, and then click **Properties**. Click the **Unblock** button if it is present, and then click **OK**. (If the **Unblock** button is not present, then the file is not blocked.) 
@@ -213,7 +213,7 @@ Once you have configured the login for the Analysis Services service account, th
   
  **To configure the AdventureWorks OLAP cube**
   
-1. Download [AdventureWorks Multidimensional Models SQL Server 2012.zip](https://msftdbprodsamples.codeplex.com/downloads/get/258486)
+1. Download [AdventureWorks Multidimensional Models SQL Server 2012](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)
     
     > [!NOTE]
     > Because this file was downloaded from the Internet, it may be blocked by Windows. Right-click the file, and then click **Properties**. Click the **Unblock** button if it is present, and then click **OK**. (If the **Unblock** button is not present, then the file is not blocked.) 

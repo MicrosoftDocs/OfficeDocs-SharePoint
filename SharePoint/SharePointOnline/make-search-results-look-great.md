@@ -13,16 +13,16 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: ae5186e7-ba4a-485b-95c3-a69be0377f12
-description: "Presenting the search results the right way makes content easier to find. Learn how you can use the search web parts in SharePoint Online to help users find what they're looking for."
+description: "Presenting the search results the right way makes content easier to find. Learn how you can use the search web parts in SharePoint to help users find what they're looking for."
 ---
 
 # Make the search results look great
 
 Presenting the search results the right way makes content easier to find for users.
 
-SharePoint Online has both a classic and a modern search experience, where [Microsoft search in SharePoint](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) is the modern search experience. [Learn about the differences between the search experiences in SharePoint Online](differences-classic-modern-search.md).
+SharePoint has both a classic and a modern search experience, where [Microsoft search in SharePoint](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) is the modern search experience. [Learn about the differences between the search experiences in SharePoint](differences-classic-modern-search.md).
 
-If you're responsible for search in your organization, you can customize how results are presented on classic search results pages. Read about how you can use the search web parts in SharePoint Online to make it easier for users find what they're looking for in the classic search experience.  
+If you're responsible for search in your organization, you can customize how results are presented on classic search results pages. Read about how you can use the search web parts in SharePoint to make it easier for users find what they're looking for in the classic search experience.  
   
 ## Manage the Search Center
   

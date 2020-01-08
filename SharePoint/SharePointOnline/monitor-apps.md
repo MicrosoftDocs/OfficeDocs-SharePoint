@@ -1,5 +1,5 @@
 ---
-title: "Monitor apps for your SharePoint Online environment"
+title: "Monitor apps for your SharePoint environment"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 81daca87-ef0c-4602-af89-9a749dbef377
-description: "Learn how to monitor app usage and error information for the apps being used in your SharePoint Online environment."
+description: "Learn how to monitor app usage and error information for the apps being used in your SharePoint environment."
 ---
 
-# Monitor apps for your SharePoint Online environment
+# Monitor apps for your SharePoint environment
 
-As a SharePoint or global admin in Office 365, you can monitor information such as app usage and error information for the apps that are in use in your SharePoint Online environment. Before you can monitor information about an app, you need to add it to the list of apps you want to monitor.
+As a SharePoint or global admin in Office 365, you can monitor information such as app usage and error information for the apps that are in use in your SharePoint environment. Before you can monitor information about an app, you need to add it to the list of apps you want to monitor.
   
 ## Select apps to monitor
 <a name="__top"> </a>
@@ -29,7 +29,7 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-3. Select **Classic features**.
+3. Select **More features**.
  
 4. Under **Apps**, click **Open**.
     
@@ -47,9 +47,9 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.
   
-2. n the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
       
-3. Select **Classic features**.
+3. Select **More features**.
  
 4. Under **Apps**, click **Open**. 
   
@@ -65,6 +65,4 @@ As a SharePoint or global admin in Office 365, you can monitor information such 
 > [!NOTE]
 > If you no longer want to monitor an app, you can select it on the Monitor Apps page, and select **Remove App** on the ribbon. <br>
     
-App usage and error detail information is processed by different timer jobs that are pre-configured to run at set times for SharePoint Online. These timer jobs pick up events for the previous day. For this reason, the data visible on the Monitor Apps page may be delayed for up to 29 hours.
-    
-
+App usage and error detail information is processed by different timer jobs that are pre-configured to run at set times for SharePoint. These timer jobs pick up events for the previous day. For this reason, the data visible on the Monitor Apps page may be delayed for up to 29 hours.

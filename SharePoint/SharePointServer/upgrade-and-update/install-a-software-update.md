@@ -1,5 +1,5 @@
 ---
-title: "Install a software update for SharePoint Server 2016"
+title: "Install a software update for SharePoint Server"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,9 +16,9 @@ ms.assetid: 72addaae-efe5-40bb-8c86-294e10266878
 description: "Install a software update to perform a build-to-build upgrade on servers in a SharePoint 2016 farm."
 ---
 
-# Install a software update for SharePoint Server 2016
+# Install a software update for SharePoint Server
 
-[!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]  
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
   
 ## Before you begin
 <a name="begin"> </a>

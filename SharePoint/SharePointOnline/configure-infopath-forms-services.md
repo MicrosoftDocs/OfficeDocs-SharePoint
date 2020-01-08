@@ -16,22 +16,22 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: a8609546-c0d7-4956-81b6-08e93eb4b290
-description: "How to configure Infopath in SharePoint Online."
+description: "How to configure Infopath in SharePoint."
 ---
 
 # Configure InfoPath Forms Services
 
-InfoPath Forms Services in SharePoint Online lets you deploy your organization's forms to your sites, enabling users fill out these forms in a web browser. You can configure InfoPath Forms Services in any of several ways, depending on the needs of your organization.
+InfoPath Forms Services in SharePoint lets you deploy your organization's forms to your sites, enabling users fill out these forms in a web browser. You can configure InfoPath Forms Services in any of several ways, depending on the needs of your organization.
   
 > [!NOTE]
-> InfoPath Forms Services 2013 is the last release of InfoPath Forms Services. Microsoft Power Apps is the recommended solution for creating and delivering custom forms for SharePoint Online lists. Create new forms with Power Apps from the command bar or the **Customize** button on SharePoint Online list forms. Support for InfoPath Forms Services will match the support lifecycle for SharePoint Server 2016. 
+> InfoPath Forms Services 2013 is the last release of InfoPath Forms Services. Microsoft Power Apps is the recommended solution for creating and delivering custom forms for SharePoint lists. Create new forms with Power Apps from the command bar or the **Customize** button on SharePoint list forms. Support for InfoPath Forms Services will match the support lifecycle for SharePoint Server 2016.
   
 ## Overview
 <a name="__toc336423362"> </a>
 
 This article discusses settings that apply only to user form templates, which are form templates that are not deployed by a developer. User form templates don't require Full Trust, and they don't contain code or other business logic.
   
-Form designers can publish user form templates to a list or a form library in a SharePoint Online site collection. Because user form templates can be deployed by many users, a server can potentially host thousands of user form templates. In large numbers, even form templates that contain no business logic can put a heavy load on the server.
+Form designers can publish user form templates to a list or a form library in a SharePoint site collection. Because user form templates can be deployed by many users, a server can potentially host thousands of user form templates. In large numbers, even form templates that contain no business logic can put a heavy load on the server.
   
 ## Configure browser-enabled user form templates
 <a name="__toc336423363"> </a>
@@ -54,12 +54,10 @@ To configure browser-enabled user form templates
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-. 
-3. In the left pane of the new SharePoint admin center, select **Classic features**. 
-. 
-4. Select **More classic features**, and then under **InfoPath** select **Open**.
+
+3. In the left pane of the new SharePoint admin center, select **More features**, and then under **InfoPath**, select **Open**.
  
-5. In the **User Browser-enabled Form Templates** section, specify how you want user form templates to be processed by InfoPath Forms Services by completing the following steps: 
+4. In the **User Browser-enabled Form Templates** section, specify how you want user form templates to be processed by InfoPath Forms Services by completing the following steps: 
     
     > [!NOTE]
     > These settings apply only to form templates published to form libraries. Workflow form templates and list forms are not affected. 
@@ -74,7 +72,7 @@ To configure browser-enabled user form templates
     > [!NOTE]
     > If this option is not selected, users can still publish browser-compatible form templates to form libraries, but these form templates cannot be filled out in a web browser. 
   
-6. Select **OK**.
+5. Select **OK**.
     
 ## Configure exempt user agents
 <a name="__toc336423364"> </a>
@@ -88,17 +86,15 @@ To make indexing InfoPath forms faster and easier, you can specify which user ag
 
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-. 
-3. In the left pane of the new SharePoint admin center, select **Classic features**. 
-. 
-4. Select **More classic features**, and then under **InfoPath** select **Open**.
+
+3. In the left pane of the new SharePoint admin center, select **More features**, and then under **InfoPath**, select **Open**.
     
-5. In the **Exempt User Agents** section, select the **Customize the list of exempt user agents** check box, and then do one of the following: 
+4. In the **Exempt User Agents** section, select the **Customize the list of exempt user agents** check box, and then do one of the following: 
     
-6. To add a user agent to the exempt list, type a name in the **Name** box, and then select **Add**.
+5. To add a user agent to the exempt list, type a name in the **Name** box, and then select **Add**.
     
-7. To remove a user agent from the list, select the name, and then select **Remove**.
+6. To remove a user agent from the list, select the name, and then select **Remove**.
     
-8. Select **OK**.
+7. Select **OK**.
     
 
