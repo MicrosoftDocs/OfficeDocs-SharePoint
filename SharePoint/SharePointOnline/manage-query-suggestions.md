@@ -21,7 +21,7 @@ Query spelling suggestions are words that appear below the search box as a user 
   
 Automatic query suggestions are generated daily for each result source and each site collection, so the query suggestions can be different for different result sources and site collections.
   
-SharePoint Online has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md). The modern search experience uses the same default result source as the classic search experience. Automatic query suggestions for the default result source appear in both the classic and modern search experiences.
+SharePoint has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md). The modern search experience uses the same default result source as the classic search experience. Automatic query suggestions for the default result source appear in both the classic and modern search experiences.
 
  You can manually create your own lists of query suggestions and import them to SharePoint. Manual query suggestions apply to **all** result sources, **all** site collections, and to **both** search experiences.
   
@@ -41,7 +41,7 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
  
 3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-4. Select **Classic features**.
+4. Select **More features**.
  
 5. Under **Search**, select **Open**.
 
@@ -50,7 +50,7 @@ Query suggestions are turned on by default. To turn them off, go to **Search Sug
    
 7. Open a text editor of your choice, and enter a list of terms that you want the system to always suggest to users. Only add one term per line to the text file, and don't mix languages in the text file.
     
-8. Save the text file to a location that's accessible from SharePoint Online.
+8. Save the text file to a location that's accessible from SharePoint.
     
 9. To import a list of query suggestions to SharePoint search, go to **Always suggest phrases** \> **Import from text file**. When you import query suggestions, any existing ones will be overwritten.
     
@@ -67,5 +67,3 @@ You can edit a list of query suggestions that you've manually created. To edit a
 To get rid of a list of query terms, you must overwrite it. Do this by importing an empty text file. 
   
 You can also prevent terms from appearing in the search box. To do this, create a text file with the query terms that you never want users to see below the search box, and then import it to **Never suggest phrases**.
-  
-

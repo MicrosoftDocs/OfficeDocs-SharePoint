@@ -27,7 +27,7 @@ Learn how to manage search dictionaries. You can use search dictionaries to incl
 
 For company name extraction to work, that is, for a company name to be pulled from your content and for it to be mapped to the managed property **companies**, you have to make sure that:
   
-- The managed property setting **Company name extraction** is enabled on the managed property that you want to extract company names from. This setting is available for the managed properties **Title**, **Body** and **Notes**. See also [Manage the search schema in SharePoint Online](manage-search-schema.md).
+- The managed property setting **Company name extraction** is enabled on the managed property that you want to extract company names from. This setting is available for the managed properties **Title**, **Body** and **Notes**. See also [Manage the search schema in SharePoint](manage-search-schema.md).
     
 - The name of the company that you want to extract is in the prepopulated company name dictionary or in the **Company Inclusions** list. 
     
@@ -43,7 +43,7 @@ Once you have done this, you can then use the managed property **companies** to 
     
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**, and then select **Manage Search Dictionaries** to open the term store. 
     
@@ -65,7 +65,7 @@ Once you have done this, you can then use the managed property **companies** to 
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**. 
  
@@ -96,7 +96,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**. 
  
@@ -121,7 +121,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**. 
  
@@ -146,7 +146,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 
 2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
     
-3. In the left pane, select **Classic features**. 
+3. In the left pane, select **More features**. 
  
 4. Under **Search**, select **Open**.
  

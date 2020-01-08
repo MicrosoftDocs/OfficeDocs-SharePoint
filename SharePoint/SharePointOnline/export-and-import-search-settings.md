@@ -24,7 +24,7 @@ As a global or SharePoint admin in Office 365, you can export and import customi
 
 When you export customized search configuration settings, SharePoint creates a search configuration file in XML format. This search configuration file includes all exportable customized search configuration settings at the tenant, site collection, or site level from where you start the export. A search configuration file for a site collection doesn't contain search configuration settings from the individual sites within the site collection. 
   
-When you import a search configuration file, SharePoint Online creates and enables each customized search configuration setting in the tenant, site collection or site from where you start the import.
+When you import a search configuration file, SharePoint creates and enables each customized search configuration setting in the tenant, site collection or site from where you start the import.
   
 This table shows the settings that you can export or import. For each setting, you'll find dependencies on other customized search configuration settings. If the customized search configuration settings depend on a customized search configuration setting at a different level, for example, if a site query rule depends on a result source at site collection level, you must export and import settings at all of the relevant levels.
   
@@ -70,7 +70,7 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
 4. Under **Search**, select Open.
     
@@ -106,7 +106,7 @@ If the import fails, remove the condition that caused the failure and reimport t
 
 In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
  
-3. In the left pane of the new SharePoint admin center, select **Classic features**.
+3. In the left pane of the new SharePoint admin center, select **More features**.
  
 4. Under **Search**, select Open.
    

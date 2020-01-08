@@ -15,7 +15,7 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-ROBOTS: NOINDEX
+
 
 description: "Plan and create the top landing page for your organization, and then set it as your home site."
 ---
@@ -26,7 +26,7 @@ A home site is a [communication site](https://support.office.com/article/94A3342
 ) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
 
 > [!NOTE]
-> This feature will roll out soon to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). 
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see the feature described in this article.
 
 ## Home site capabilities
 
@@ -59,7 +59,7 @@ To set a site as your organization's home site, you first need to create and cus
     - Consider making the site a [hub site](create-hub-site.md). Your home site can be registered as a hub site, but can't be associated with another hub.
 3. Create a launch plan for redirecting from your current solution to the new home site and notifying users of the change.
 4. Important: Make sure the site adheres to the [guidelines for healthy portals](https://Aka.ms/portalhealth).
-5. Optional (recommended): When you're ready to launch, [replace your root site with the new site](modern-root-site.md#swap-your-root-site).
+5. Optional (recommended): When you're ready to launch, [replace your root site with the new site](modern-root-site.md#replace-your-root-site).
 6. Make the site a home site by following the steps in the next section.
 7. Make sure to [customize the Office 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
 

@@ -52,7 +52,7 @@ Using the steps below as a template, create your own custom guidance for site ow
 - When you set up your site, it’s important to select the appropriate site classification level. Include references or links to your your organization’s data classification guidelines.</br>
 
 **Resources:**</br>
-- [Manage site creation in SharePoint Online](manage-site-creation.md)
+- [Manage site creation in SharePoint](manage-site-creation.md)
 - [Secure SharePoint Online Sites and Files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
 - [Branding and site provisioning solutions for SharePoint](/sharepoint/dev/solution-guidance/branding-and-site-provisioning-solutions-for-sharepoint)
 
@@ -75,7 +75,7 @@ Using the steps below as a template, create your own custom guidance for site ow
 **Resources:**</br>
 - [Manage site creation](manage-site-creation.md)
 - [SharePoint site theming overview](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview)
-- [Plan customizations, solutions and apps for SharePoint Online](extend-and-develop.md)
+- [Plan customizations, solutions and apps for SharePoint](extend-and-develop.md)
 
 
 **Sample text:**</br>
@@ -131,4 +131,3 @@ Using the steps below as a template, create your own custom guidance for site ow
 
 **Resources:** </br>
 - [Office 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide)
-

@@ -20,7 +20,7 @@ description: "Create and use result types to customize how results are displayed
 
 As a site collection administrator or site owner, you can create and use result types to customize how results are displayed for particular types of documents. 
   
-SharePoint Online has both a classic and a modern search experience. For the classic search experience, you use a result type to specify a [display template](use-result-types-and-display-templates.md) that the search system should use for a particular type of document or search result. As documents aren't all the same, search results shouldn't be either. By using result types and display templates, it's much easier for users to find the results they are looking for. You can't customize how results are displayed for the modern search experience. [Learn about the differences between the classic and modern search experiences in SharePoint Online](differences-classic-modern-search.md).
+SharePoint has both a classic and a modern search experience. For the classic search experience, you use a result type to specify a [display template](use-result-types-and-display-templates.md) that the search system should use for a particular type of document or search result. As documents aren't all the same, search results shouldn't be either. By using result types and display templates, it's much easier for users to find the results they are looking for. You can't customize how results are displayed for the modern search experience. [Learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md).
   
 A result type specifies one or more conditions to compare search results against, such as the type or the result source of the search result, and an action to take if a search result meets those conditions. The action specifies the display template to use for the search result. 
   
@@ -68,5 +68,3 @@ There are many preconfigured result types to choose from, and you can also creat
 8. Check the **Optimize for frequent use** box if the result type will be among the most frequently used result types. 
     
 9. Click **Save**. 
-    
-
