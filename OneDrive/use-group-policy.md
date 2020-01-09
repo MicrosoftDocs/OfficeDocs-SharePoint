@@ -242,7 +242,7 @@ If you enable this setting, users will be prevented from using the fetch feature
   
 Enabling this policy sets the following registry key value to 1.
   
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive\Remote Access] "GPOEnabled"="dword:00000001"
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"GPOEnabled"="dword:00000001"
   
 If you disable or do not configure both this setting and [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#DisablePersonalSync), users can use the fetch feature. For more info about fetching files, see [Fetch files on your PC](https://support.office.com/article/70761550-519c-4d45-b780-5a613b2f8822).
 
