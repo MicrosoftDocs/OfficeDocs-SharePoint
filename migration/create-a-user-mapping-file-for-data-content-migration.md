@@ -73,10 +73,9 @@ After you create your own user mapping file, upload it to the SharePoint Online 
 
 6.  Review your Migration details and then click **Next**.
 
-7.  On the choose your settings screen expand **View all settings**.
+7.  On the Choose your settings screen, expand **View all settings**.
 
 8.  Under Users section in the User mapping box, click **Choose file** and select your user mapping file.
 
 9.  Click **Save**.
     
-
