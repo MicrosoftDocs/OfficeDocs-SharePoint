@@ -24,7 +24,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Secu
   
  **Summary:** The Security Token Service is not issuing tokens. 
   
- **Cause:** The service could be malfunctioning or in a bad state, some assemblies are missing when you deploy the custom claims provider, or the STS certificate is expired. 
+ **Cause:** The service could be malfunctioning or in a bad state, some assemblies are missing when you deploy the custom claims provider, or the STS certificate has expired. 
  
   **Resolution: Restart the Security Token Service application pool.**
   
