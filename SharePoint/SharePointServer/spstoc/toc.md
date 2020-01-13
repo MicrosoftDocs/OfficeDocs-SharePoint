@@ -345,6 +345,7 @@
 ###### [Prepare your environment](../hybrid/prepare-your-environment.md)
 ####### [Deploy the hybrid scenario as an external list](../hybrid/deploy-the-hybrid-scenario-as-an-external-list.md)
 ###### [Validate the hybrid scenario](../hybrid/validate-the-hybrid-scenario.md)
+### [Remove hybrid scenarios](removing-sharepoint-hybrid-scenarios.md)
 ## [Governance](../governance/governance.md)
 ### [What is governance in SharePoint?](../governance/what-is-governance-in-sharepoint.md)
 ### [IT governance in SharePoint](../governance/it-governance-in-sharepoint.md)
