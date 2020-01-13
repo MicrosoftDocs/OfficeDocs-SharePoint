@@ -178,7 +178,7 @@ To install the online service management tools and configure the PowerShell wind
   Import-Module Microsoft.Online.SharePoint.PowerShell -force
   ```
 
-    If you need to run any of the configuration steps again later, remember to run these commands again to load the required modules and snap-ins in PowerShell.
+   If you need to run any of the configuration steps again later, remember to run these commands again to load the required modules and snap-ins in PowerShell.
     
 5. Configure remoting in Microsoft PowerShell:
     
@@ -189,7 +189,7 @@ To install the online service management tools and configure the PowerShell wind
   new-pssession
   ```
 
-    For more information, see [about_Remote_Requirements](https://go.microsoft.com/fwlink/?LinkId=392326) (https://go.microsoft.com/fwlink/?LinkId=392326). 
+   For more information, see [about_Remote_Requirements](https://go.microsoft.com/fwlink/?LinkId=392326). 
     
 6. To log on to your SharePoint Online tenant, from the PowerShell command prompt, type the following commands.
     
@@ -198,9 +198,9 @@ To install the online service management tools and configure the PowerShell wind
   Connect-MsolService -Credential $cred
   ```
 
-    You are prompted to log on. You need to log on using an Office 365 global administrator account.
+   You are prompted to log on. You need to log on using an Office 365 global administrator account.
     
-    Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
+   Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
     
 ### Configure server-to-server (S2S) authentication
 <a name="step2"> </a>
@@ -260,7 +260,6 @@ $stsCert=(Get-SPSecurityTokenServiceConfig).LocalLoginProvider.SigningCertificat
 $binCert = $stsCert.GetRawCertData()
 $credValue = [System.Convert]::ToBase64String($binCert);
 New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -Usage Verify -Value $credValue
-
 ```
 
 #### Step 3: Add an SPN for your public domain name to Azure Active Directory
@@ -272,7 +271,7 @@ Just like SPNs function in Active Directory, creating this SPN registers an obje
   
  **\<service type\>/\<instance name\>**
   
-where:
+Where:
   
 - \<service type\> is the SharePoint Online principal object, which is the same for all SharePoint Online tenants. 
     
@@ -307,7 +306,7 @@ $spns
 
 You should see a current list of SPNs for SharePoint Online in your Office 365 tenancy, and one of the SPNs should include your public root domain name, prefaced by the SharePoint Online application principal ID. This registration is a wildcard registration and should look like the following example:
   
-00000003-0000-0ff1-ce00-000000000000/*.<public domain name>.com
+`00000003-0000-0ff1-ce00-000000000000/*.<public domain name>.com`
   
 This should be the  *only*  SPN in the list that includes your public root domain name. 
   
@@ -349,10 +348,7 @@ To validate this step, from the PowerShell command prompt, type the following co
   
 ```
 $spocontextID
-```
-
-```
- Get-SPAuthenticationRealm
+Get-SPAuthenticationRealm
 ```
 
 The output of each of these commands is the GUID that represents the context ID of the SharePoint Online tenancy. These GUIDs should be identical.
@@ -386,12 +382,16 @@ Get-SPTrustedSecurityTokenIssuer
 
 The output that's expected is a description of the farm's trusted token issuer, where the value of the **RegisteredIssuerName** property is the following: 
   
-00000001-0000-0000-c000-000000000000@<context ID>where \<context ID\> is the context ID of your SharePoint Online tenancy, which is the value in the $spocontextID variable.
+`00000001-0000-0000-c000-000000000000@<context ID>`
+
+Where:
+
+- \<context ID\> is the context ID of your SharePoint Online tenancy, which is the value in the $spocontextID variable.
   
 ## Validation and next steps
 <a name="next"> </a>
 
- After finishing the tasks in this topic and its validation steps, you should check your SSO and Directory Synchronization setup.
+After finishing the tasks in this topic and its validation steps, you should check your SSO and Directory Synchronization setup.
   
 So that you have a history of the steps you've taken, you should capture the entire contents of the PowerShell buffer into a file. This will be crucial if you need to reference your configuration history to troubleshoot, or for any other reasons. This will also help you pick up where you left off if the configuration spans multiple days or involves multiple people.
   
