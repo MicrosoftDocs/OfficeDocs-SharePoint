@@ -47,5 +47,11 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Secu
 1. Check the event logs and ULS logs on all servers to find out which assemblies of the custom claims provider are missing.
     
 2. Install the missing assemblies into the global assembly cache manually. For more information, see [How to: Install an Assembly into the Global Assembly Cache](https://go.microsoft.com/fwlink/p/?LinkId=169102).
+
+**Resolution: Replace the STS certificate.**
+
+1. Check the event logs to verify the Event ID 8311 to confirm that the STS certificate is expired.
+
+2. Replace the STS certificate. For more information, see [Replace the STS certificate for SharePoint Server](https://docs.microsoft.com/sharepoint/administration/replace-the-sts-certificate).
     
 
