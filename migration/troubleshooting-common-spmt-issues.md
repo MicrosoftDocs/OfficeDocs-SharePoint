@@ -79,9 +79,12 @@ This article describes some common issues and errors that you may encounter when
 |0x0207001|You do not have access to the task folder. Check if you can access  %appdata%\Microsoft\MigrationToolStorage.|
 |0x01410010|A failure occurred because of missing dependencies on list items. Check the FailureSummaryReport.csv for details. Check if the dependencies have been included in your migration scope.|
 |0x01510001|Packages failed to upload. 	If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
+|0x01510001|Failed to Upload the Job to Server: Upload file failed during migration.|
 |0x02070009|Several packages failed to upload. Pause the task and check your network connection.|
 |0x01710009|A failure occured due to job end failures; some items failed in the package. Restart migration.|
+|0x01710009|Errors or timeout for Server Processing the file: Not all the items in the package have been migrated.|
 0x01610001|The Azure container is expired. Retry migration task.|   
+|0x01710006|Errors or timeout for Server Processing the file: Job Fatal Error.|
 
 
 ## Navigation errors
