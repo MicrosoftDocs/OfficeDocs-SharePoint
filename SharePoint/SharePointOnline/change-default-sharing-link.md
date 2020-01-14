@@ -63,7 +63,10 @@ For info about the changing this setting at the organization level, see [File an
     ![Screenshot of site-level default sharing link settings](media/default-sharing-link-type-site.png)
 
 7. Choose the default sharing link setting that you want to use for this site, and then click **Save**.
-    
+
+> [!NOTE]
+> You can set the default link type to *People with existing access* by running [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) with the `-DefaultLinkToExistingAccess` parameter.
+
 ## See also
 
 [Turn external sharing on or off for a site](change-external-sharing-site.md)
