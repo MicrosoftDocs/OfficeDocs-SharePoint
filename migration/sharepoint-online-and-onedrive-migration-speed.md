@@ -112,9 +112,6 @@ Follow these steps:
 
 5. Click **Contact Support**.
 6. Under **Description** enter “SharePoint Migration over 100TB”. 
-
-     ![Contact support](media/contact-support-100tb.png)
-
 7. Fill out the remaining information and click **Contact me**.
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
 - Estimated size of your migration: 
@@ -152,10 +149,6 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 
 5. Click **Contact Support**.
 6. Under **Description** enter “SharePoint Migration Throttling with 503”. 
-
-     ![Contact support](media/contact-support.png)
-
-
 7. Fill out the remaining information and click **Contact me**.
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
     - How much is left of your migration (x TB?) 
