@@ -50,7 +50,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Secu
 
 **Resolution: Replace the STS certificate.**
 
-1. Check the event logs to verify the Event ID 8311 to confirm that the STS certificate is expired.
+1. Check in the Application Event Log for the Event ID 8311 to confirm that the STS certificate is expired.
 
 2. Replace the STS certificate. For more information, see [Replace the STS certificate for SharePoint Server](https://docs.microsoft.com/sharepoint/administration/replace-the-sts-certificate).
     
