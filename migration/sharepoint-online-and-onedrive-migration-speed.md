@@ -158,22 +158,47 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 
 7. Fill out the remaining information and click **Contact me**.
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
-- How much is left of your migration (x TB?) 
-- Migration start and end date 
-- Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
-- Estimate the number of throttles (e.g. x throttle per hour?) and when (specific time and date) did the throttling happened 
-- Which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)  
+    - How much is left of your migration (x TB?) 
+    - Migration start and end date 
+    - Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
+    - Estimate the number of throttles (e.g. x throttle per hour?) and when (specific time and date) did the throttling happened 
+    - Which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)  
 </br></br>
 
-**Question: I am planning to migrate greater than 100TB.  Is there any preparation needed?**
-Answer: Please see [Large migrations](#large-migrations-over-100tb) for steps to follow for large migrations.
+**Question: If you cannot turn off the throttle, what can I do if I am being throttled or experience poor performance?**</br>
+Answer:  Here are some quick self-help checks to consider:</br>
 
-**Question: I am experiencing poor performance or throttling during migration.**
-Answer: If you are experiencing slowness, make sure you are not running any unnecessary software which may compete with migration resources including disk IO, network bandwidth, or antivirus software. Try to migrate during off-peak hours. For more information, please check guidance in this document. For additional information on throttling, see:</br>
- - [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) 
+- Try to migrate during off-peak business hours
+- If you are experiencing slowness, make sure you are not running any unnecessary software which may compete with migration resources.  This includes disk IO, network bandwidth, or antivirus software.
+- Check with your software provider to ensure you are migrating to SPO/OneDrive using *app-based authentication*.  Migration is a background task and should not be run in user mode. If attempted to migrate in user mode, it can trigger larger than normal throttling.
+</br></br>
+
+**Question: If I want to file a Microsoft support ticket, what information should I include?**</br>
+Answer:  Follow these steps and include the following information when filing Microsoft support ticket for any other migration reason:
+
+1. Navigate to https://admin.microsoft.com
+2. Ensure you are using the new admin center preview.
+
+>[!Note]
+>If you are using the old M365 admin center you can skip step 8 as the “Description” field will not exist.
+
+3. On the left navigation pane click **Support** and then **New Service Request**.This will activate the **Need Help?** pane on the right-hand side of your screen.
+
+4. In the **Briefly describe your issue** area, enter "SharePoint Migration issue.</br>
+5. Click **Contact Support**.
+6. Under **Description** enter a brief description of your migration issue. 
+7. Fill out the remaining information and click **Contact me**.
+8. Once the ticket has been created, made sure to include the following information:
+
+    - Your tenant URL
+    - How much is left of your migration (x TB?)
+    - Migration start and end date
+    - A description of where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
+    - If it is a throttling related escalation, provide information such as the number of throttles, how many throttles per hour, and the specific time and date the throttling happened. If you are experiencing poor performance, please describe the nature of the poor performance.
+    - Indicate which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)
+    - State if you are logging in using *user login* or *app-based authentication*.
 
 
-Contact your third party vendor for specific questions on tool configuration.
  
 ## Related Topics
 
