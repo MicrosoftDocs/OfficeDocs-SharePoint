@@ -76,10 +76,12 @@ Video is a great way to communicate to the people in your organization. Videos r
 
 ### Design the intranet portal page
 
+[Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d)
+
+
+
 ### Design your business-specific intranet site
 
-
-[Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d)
 
 [Guided walkthrough: setting up news for your organization](https://support.office.com/article/95a90834-96a2-463c-b741-31c4d2230706)
 
