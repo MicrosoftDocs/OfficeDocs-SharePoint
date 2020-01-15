@@ -55,6 +55,8 @@ The following are known issues with this release:
      `Set-AdfsGlobalAuthenticationPolicy -PrimaryIntranetAuthenticationProvider @('WindowsAuthentication', 'FormsAuthentication')`
     
 - If you enable location-based conditional access, users will get a prompt about every 90 to 120 minutes by default when they leave the set of approved IP address ranges. The exact timing depends on the access token expiry duration (60 minutes by default), when their computer last obtained a new access token, and any specific conditional access timeouts put in place.
+
+- Silent account configuration won't work on devices for users who require multi-factor authentication.
     
 ## Reporting problems
 
