@@ -191,6 +191,8 @@ Answer:  Follow these steps and include the following information when filing Mi
     - Indicate which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)
     - State if you are logging in using *user login* or *app-based authentication*.
 
+
+We welcome feedback and encourage you to submit suggestions or questions that will help us improve the content.
  
 ## Related Topics
 
