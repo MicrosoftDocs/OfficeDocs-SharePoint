@@ -77,8 +77,8 @@ Files and folders that you have opened from a shared location
 
 |**Windows file share permissions**|**SharePoint item access**|**SharePoint role**|
 |:-----|:-----|:-----|
-|Full control|Full control|Contribute|
-|Modify|Modify|	Contribute|
+|Full control|Full control|Full control|
+|Modify|Modify|Contribute|
 |Read and execute|Read and execute|Read|
 |List folder contents|List folder contents|Read|
 |Read|Read|Read|
