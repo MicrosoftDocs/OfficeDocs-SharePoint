@@ -16,11 +16,11 @@ description: "How to migrate OneNote folder using SPMT."
 
 # How to migrate OneNote folders using SPMT
 
-The SharePoint Migration Tool (SPMT) give you the option on how to migrate  your OneNote folders.  
+The SharePoint Migration Tool (SPMT) gives you the option on how to migrate your OneNote folders.  
 
 Before migrating your OneNote folders, it is important to understand a little about their file structure.  
 
-On a user’s computer, a **OneNote Notebook** is presented as a normal folder. For each Notebook, there is a .onetoc2 file created under the root folder of the Notebook folder. You can have as many Notebooks as you want.
+On a user’s computer, a **OneNote Notebook** is presented as a normal folder. For each Notebook, there is a *.onetoc2* file created under the root folder of the Notebook folder. You can have as many Notebooks as you want.
 
 
 ![OneNote migration setting](media/onenote-file-1.png)</br></br>
@@ -33,6 +33,7 @@ You can create multiple pages within a section, but the content of those pages w
 
 ![OneNote migration setting](media/onenote-file-2.png)</br></br>
 
+When you open the OneNote application, they appear like this:
 
 ![OneNote migration setting](media/onenote-file-3.png)</br></br>
 
