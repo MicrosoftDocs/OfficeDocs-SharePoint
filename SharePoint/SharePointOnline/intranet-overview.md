@@ -49,9 +49,14 @@ Once you have chosen a project to start with, meet with the business owners in t
 
 ### Organizing your intranet
 
-A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning Navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
+A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
 
-[Branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience)
+### Branding your intranet
+
+Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
+
+### Training your content creators
+
 
 
 ## Business owners and site owners
@@ -76,27 +81,27 @@ Video is a great way to communicate to the people in your organization. Videos r
 
 ### Design the intranet portal page
 
-The main intranet portal for your organization is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. With a modern portal page, you can still point to your legacy intranet sites from a modern portal page.
+The [main intranet portal for your organization](home-site.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. With a modern portal page, you can still point to your legacy intranet sites from a modern portal page.
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](https://docs.microsoft.com/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. Read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d) for an end-to-end look at creating this page.
 
+
+
+[Your new SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e?)
+
+
+
 ### Design your business-specific intranet site
 
+Usually, you'll want to develop your intranet pages using [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732). With communication sites, you can share news, reports, statuses, and other information through a variety of templates and web parts. for an end-to-end look at setting up a communication site, see [Guided walkthrough: Creating a communication site for your organization](https://support.office.com/article/d9aaecc7-e2df-43a7-acc2-bd37f1fe7cfe).
 
-[Guided walkthrough: setting up news for your organization](https://support.office.com/article/95a90834-96a2-463c-b741-31c4d2230706)
+You can use the [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165) to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting. Within the news web part, you can set up [audience targeting](https://support.office.com/article/68113d1b-be99-4d4c-a61c-73b087f48a81) to prioritize specific content for specific audiences. For an end-to-end look at using news in SharePoint, see [Guided walkthrough: setting up news for your organization](https://support.office.com/article/95a90834-96a2-463c-b741-31c4d2230706).
 
-[Guided walkthrough: Creating a communication site for your organization](https://support.office.com/article/d9aaecc7-e2df-43a7-acc2-bd37f1fe7cfe)
 
-[Communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732)
-Use communication sites to share news, reports, statuses, and other information through a variety of templates and web parts.
 
-Home sites - Create an engaging home for your organization, division, or function.
 
-[Hub sites](planning-hub-sites.md)
-Use hub sites to organize related sites and teams and centralize news, search, and content management.
 
-[SharePoint news](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)
-Use the news web part to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting.
+[Approval flow for modern pages](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9)
 
 [Yammer](https://docs.microsoft.com/yammer/yammer-landing-page)
 Use Yammer to connect with people across your organization beyond the boundaries of projects, functions, and departments.
@@ -104,6 +109,8 @@ Use Yammer to connect with people across your organization beyond the boundaries
 [Forms](https://docs.microsoft.com/forms-pro)
 Use forms to create custom quizzes, surveys, questionnaires, registrations and more.
 
+
+[Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818)
 
 
 ## Content creators
