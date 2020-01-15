@@ -47,6 +47,12 @@ If your existing intranet is using SharePoint server, consider how [migrating yo
 
 Once you have chosen a project to start with, meet with the business owners in that area of your organization and other stakeholders to plan the project.
 
+### Organizing your intranet
+
+[Planning Navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience)
+
+[Branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience)
+
 
 ## Business owners and site owners
 
@@ -62,16 +68,16 @@ As a business owner, you may be responsible for intranet content for a particula
 
 ### Migrate your data
 
-content migration
+One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up-to-date, and what's no longer needed and can be unpublished. Oftentimes, organizations can achieve higher user satisfaction and easier maintenance by removing content that's no longer needed. This also reduces the amount of content that you need to migrate to SharePoint.
 
-[Stream](https://docs.microsoft.com/stream)
-Use Stream to deliver live and on-demand meetings, events, and training.
+If you're migrating files from SharePoint Server on-premises or file shares, you can use the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online).
 
-### Design the site
+Video is a great way to communicate to the people in your organization. Videos ranging from executive briefings to individual users creating tutorials or sharing ideas can lead to greater engagement of intranet users. An important component of this in Microsoft 365 is [Microsoft Stream](https://docs.microsoft.com/stream). You can use Stream to deliver live and on-demand meetings, events, and training. If you have existing video content that you want to make available on your new intranet site, [upload it to Stream](https://docs.microsoft.com/en-us/stream/portal-upload-video) as part of your content migration process.
 
-[Planning Navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience)
+### Design the intranet portal page
 
-[Branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience)
+### Design your business-specific intranet site
+
 
 [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d)
 
@@ -102,13 +108,6 @@ Use forms to create custom quizzes, surveys, questionnaires, registrations and m
 
 [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)
 
-
-
-## Choose solution components
-
-
-
-SharePoint offers a variety of building blocks that you can use to create an intranet:
 
 
 
