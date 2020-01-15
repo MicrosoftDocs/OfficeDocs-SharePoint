@@ -49,7 +49,7 @@ Once you have chosen a project to start with, meet with the business owners in t
 
 ### Organizing your intranet
 
-[Planning Navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience)
+A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning Navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
 
 [Branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience)
 
