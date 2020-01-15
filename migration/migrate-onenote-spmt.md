@@ -22,18 +22,34 @@ Before migrating your OneNote folders, it is important to understand a little ab
 
 On a user’s computer, a **OneNote Notebook** is presented as a normal folder. For each Notebook, there is a .onetoc2 file created under the root folder of the Notebook folder. You can have as many Notebooks as you want.
 
+
+![OneNote migration setting](media/onenote-file-1.png)</br></br>
+
+
 If you create section groups in your Notebook, those are also presented as a folder. Under each section group, you can create multiple sections, and each one of those sections will be presented as *.one* file in file system. 
 
 You can create multiple pages within a section, but the content of those pages will be contained in the same .one file as the section to which they belong.
- 
-#### Selecting the OneNote settings in SPMT
 
-When migrating files using the SharePoint Migration Tool (SPMT), decide how you want your OneNote folders to appear. This is controlled by the SPMT setting  **Migrate OneNote folders as OneNote notebook**.
 
-The default setting is **Off**.
+![OneNote migration setting](media/onenote-file-2.png)</br></br>
+
+
+![OneNote migration setting](media/onenote-file-3.png)</br></br>
+
+
+
+## Selecting the OneNote settings in SPMT
+
+When migrating files using the SharePoint Migration Tool (SPMT), decide how you want your OneNote folders to appear. This is controlled by the SPMT setting  **Migrate OneNote folders as OneNote notebook**.  The default setting is **Off**.
 
 ![OneNote migration setting](media/onenote-settings.png)
 
-|**Setting**|**Off**|**On**|
-|:-----|:-----|:-----|
-|**Migrate OneNote folders as OneNote notebook**| If set to **Off**, the OneNote folders are migrated as a normal folder with files that you can navigate just as you can any other folders.|If set to **On**, the folders are migrated as **OneNote Notebook** content in SPO rather than a normal folder with files.|
+
+If you choose to migrate with the setting set to **Off**, your OneNote folders will migrate as a normal folder with files that you can navigate just as you can any other folder.  It will appear in SPO like this:
+
+![OneNote migration setting](media/onenote-file-4.png)
+
+
+If set to **On**, the folders are migrated as **OneNote Notebook** content in SPO rather than a normal folder with files.   It will appear in SPO like this:
+
+![OneNote migration setting](media/onenote-file-5.png)
