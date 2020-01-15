@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn about planning and deploying a SharePoint intranet."
 ---
 
-# Plan an intelligent SharePoint intranet
+# Modern intranet roadmap
 
 Planning an intranet can be a daunting task. In this article we look at the high level tasks that IT Professionals, business owners, site owners, and content creators must do to create and maintain a successful intranet with SharePoint. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. As you read, follow the links included for more detailed information on the areas that you're working on.
 
