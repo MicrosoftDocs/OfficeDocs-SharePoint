@@ -286,7 +286,7 @@ For an overview of testing in general in SharePoint , see [Performance testing f
 ### Test the storage I/O subsystem
 <a name="BKMK_TestIOSystem"> </a>
 
-To test the storage I/O subsystem, run the most important disk operations and measure the IOPS. You can use the SQLIO tool to run these tests. See [SQLIO Disk Subsystem Benchmark Tool](https://www.microsoft.com/downloads/details.aspx?familyid=9a8b005b-84e4-4f24-8d65-cb53442d9e19).
+To test the storage I/O subsystem, run the most important disk operations and measure the IOPS. You can use the DiskSpd tool to run these tests. See [DiskSpd: A Robust Storage Performance Tool](https://aka.ms/diskspd).
   
 #### Set up the test environment
 <a name="BKMK_SetTestEnvironment"> </a>
@@ -304,7 +304,7 @@ You need a different set-up for shared storage. If for example the workload from
 #### Create a test file
 <a name="BKMK_CreateTestFile"> </a>
 
-1. Create a 1 GB test file by using the command  `sqlio.exe -t32 -s1 -b256 1g`. This command creates a file named "1g".
+1. Create a 1 GB test file by using the command  `DiskSpd.exe -t32 -s1 -b256 1g`. This command creates a file named "1g".
     
 2. Save the test file on the storage device that you want to test. For example: on the hard disk of Host A in the medium farm.
     
@@ -321,14 +321,14 @@ It's a good idea to measure:
     
 - Read and write throughput for large transfers (see test number three and four below).
     
-The table below shows the SQLIO commands that you should use to run each test. All the commands assume that the "testfile" exists in the current directory. Each test runs for 300 seconds.
+The table below shows the DiskSpd commands that you should use to run each test. All the commands assume that the "testfile" exists in the current directory. Each test runs for 300 seconds.
   
 | **Test number** |      **Scope**      |                       **Command**                        |
 | :-------------- | :------------------ | :------------------------------------------------------- |
-| 1               | 64 KB read [IOPS]   | `sqlio.exe -kR -t4 -o25 -b64 -frandom -s300 testfile`    |
-| 2               | 256 KB write [IOPS] | `sqlio.exe -kW -t4 -o25 -b256 -frandom -s300 testfile`   |
-| 3               | 100 MB read [MB/s]  | `sqlio.exe -kR -t1 -o1 -b100000 -frandom -s300 testfile` |
-| 4               | 100 MB write [MB/s] | `sqlio.exe -kW -t1 -o1 -b100000 -frandom -s300 testfile` |
+| 1               | 64 KB read [IOPS]   | `DiskSpd.exe -kR -t4 -o25 -b64 -frandom -s300 testfile`    |
+| 2               | 256 KB write [IOPS] | `DiskSpd.exe -kW -t4 -o25 -b256 -frandom -s300 testfile`   |
+| 3               | 100 MB read [MB/s]  | `DiskSpd.exe -kR -t1 -o1 -b100000 -frandom -s300 testfile` |
+| 4               | 100 MB write [MB/s] | `DiskSpd.exe -kW -t1 -o1 -b100000 -frandom -s300 testfile` |
    
 #### Example results for local disk storage
 <a name="BKMK_ExampleDiskResults"> </a>
@@ -337,7 +337,7 @@ The sample results in the table below show a deployment where at least 50 percen
   
 The disk controller and the spindles of the disk strongly influence these results.
   
-If you test on empty disks, you'll get elevated results because the test file will be in the most optimal tracks across all spindles (short stroking). This can increase performance by up to two or three times. You'll get unrealistically high results if you test a hard disk that optimizes away accesses on uninitialized storage space, or storage containing all zeros, for example dynamic VHD/VHDX files. In this case, use a very large test file that contains real data, rather than generating a synthetic test file using SQLIO commands.
+If you test on empty disks, you'll get elevated results because the test file will be in the most optimal tracks across all spindles (short stroking). This can increase performance by up to two or three times. You'll get unrealistically high results if you test a hard disk that optimizes away accesses on uninitialized storage space, or storage containing all zeros, for example dynamic VHD/VHDX files. In this case, use a very large test file that contains real data, rather than generating a synthetic test file using DiskSpd commands.
   
 |                                                                                                               |        |        |        |        |      |
 | :------------------------------------------------------------------------------------------------------------ | :----- | :----- | :----- | :----- | :--- |
