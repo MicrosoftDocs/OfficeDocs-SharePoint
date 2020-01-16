@@ -1,5 +1,5 @@
 ---
-title: "Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager"
+title: "Deploy OneDrive apps using Microsoft Endpoint Configuration Manager"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -19,10 +19,10 @@ search.appverid:
 - MBS150
 - ODB150
 ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
-description: "Learn how to deploy OneDrive apps by using Microsoft Endpoint Configuration Manager."
+description: "Learn how to deploy OneDrive apps using Microsoft Endpoint Configuration Manager."
 ---
 
-# Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager
+# Deploy OneDrive apps using Microsoft Endpoint Configuration Manager
 
 You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive sync app (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 
@@ -58,22 +58,22 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
 2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Enterprise ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
   
-3. Download the [sample Configuration Manager package](https://go.microsoft.com/fwlink/p/?LinkId=824069). It's a .zip file that contains the script installer deployment type. For more information about packages and programs in Configuration Manager, see [Packages and programs in Configuration Manager](/sccm/apps/deploy-use/packages-and-programs/).
+3. Download the [sample Configuration Manager package](https://go.microsoft.com/fwlink/p/?LinkId=824069). It's a .zip file that contains the script installer deployment type. For more information about packages and programs in Configuration Manager, see [Packages and programs in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs/).
 
 
 > [!NOTE]
 > The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive sync app, if necessary.
 
   
-4. Copy the installer to a folder in the SCCM source content share. 
+4. Copy the installer to a folder in the Configuration Manager source content share. 
 
-5. In SCCM, select the **Software Library** workspace. Under **Application Management**, right-click **Applications**, and then select **Import Application**. 
+5. In Configuration Manager, select the **Software Library** workspace. Under **Application Management**, right-click **Applications**, and then select **Import Application**. 
 
 ![](media/deploy-onedrive-enterprise_image6.png)
 
 6. Select the sample package.
 
-7. Select the **Deployment Types** tab on the bottom of SCCM, right-click the deployment, and edit the properties to update the **Content location**.
+7. Select the **Deployment Types** tab on the bottom of Configuration Manager, right-click the deployment, and edit the properties to update the **Content location**.
 
 8. Right-click the package, select **Deploy**, and follow the steps in the Deploy Software Wizard.
 
@@ -87,7 +87,7 @@ Execute <pathToExecutable>\OneDriveSetup.exe /silent
 (where pathToExecutable is a location on the local computer or an accessible network share).
   
 > [!NOTE]
-> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with SCCM](https://go.microsoft.com/fwlink/?linkid=839723).</br>If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the /silent parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the /silent parameter. 
+> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with Configuration Manager](https://go.microsoft.com/fwlink/?linkid=839723).</br>If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the /silent parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the /silent parameter. 
   
 [Learn more about application management in Configuration Manager](https://go.microsoft.com/fwlink/p/?LinkId=535034).
 The installer will install the OneDrive executable file under **%localappdata%\Microsoft\OneDrive**. 
@@ -154,7 +154,7 @@ You can use Microsoft Endpoint Configuration Manager to deploy apps to mobile de
 
 ### Deploy the OneDrive app for iOS
 
-1. In SCCM, on the Home ribbon, select **Create Application**.
+1. In Configuration Manager, on the Home ribbon, select **Create Application**.
 
 2. In the **Type** box, select **App Package for iOS from App Store**.
 
@@ -164,11 +164,11 @@ You can use Microsoft Endpoint Configuration Manager to deploy apps to mobile de
 
 4. Target the app to users. 
 
-For more info, see [Create iOS applications with Configuration Manager](/sccm/mdm/deploy-use/creating-ios-applications/), and use  as the app location, as shown below.
+For more info, see [Create iOS applications with Configuration Manager](/configmgr/mdm/deploy-use/creating-ios-applications/), and use  as the app location, as shown below.
 
 ### Deploy the OneDrive app for Android
 
-1. In SCCM, on the Home ribbon, select **Create Application**.
+1. In Configuration Manager, on the Home ribbon, select **Create Application**.
 
 2. In the **Type** box, select **App Package for Android on Google Play**.
 
@@ -178,7 +178,7 @@ For more info, see [Create iOS applications with Configuration Manager](/sccm/md
 
 4. Target the app to users.
 
-For more info, see [Create Android applications with Configuration Manager](/sccm/mdm/deploy-use/creating-android-applications/). 
+For more info, see [Create Android applications with Configuration Manager](/configmgr/mdm/deploy-use/creating-android-applications/). 
 
 
 ## See also
