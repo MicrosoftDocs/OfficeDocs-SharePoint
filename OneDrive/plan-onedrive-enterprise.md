@@ -163,7 +163,7 @@ OneDrive is available in Office 365 U.S. Government plans. For information abou
 
 ## Deployment and management options
 
-You can deploy and manage OneDrive in many ways, but certain options make more sense in larger organizations than in smaller businesses and vice versa. For example, it likely wouldn’t make sense to have an enterprise management solution like Microsoft System Center Configuration Manager for a business that has just 10 employees. Table 1 outlines the deployment and management tools typically used for small businesses, medium-sized businesses, and enterprises.
+You can deploy and manage OneDrive in many ways, but certain options make more sense in larger organizations than in smaller businesses and vice versa. For example, it likely wouldn’t make sense to have an enterprise management solution like Microsoft Endpoint Configuration Manager for a business that has just 10 employees. Table 1 outlines the deployment and management tools typically used for small businesses, medium-sized businesses, and enterprises.
 
 > [!NOTE]
 > Keep in mind that an organization in one size category would probably incorporate additional options from other size categories. This table is not intended to exclusively identify a technology with a specific business size.
@@ -172,9 +172,9 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 |:-----|:-----|:-----|
 |Small business|Local installation|OneDrive admin center|
 |Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, OneDrive admin center, Intune mobile application management (MAM) or MDM|
-|Enterprise|System Center Configuration Manager with Intune or Windows Autopilot|System Center Configuration Manger, Group Policy objects (GPOs), etc. |
+|Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|System Center Configuration Manger, Group Policy objects (GPOs), etc. |
 
-Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees’ computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you’re running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like System Center Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
+Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees’ computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you’re running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
 
 ## Prerequisites
 
@@ -199,7 +199,7 @@ Your organization doesn’t have to manage all connected devices for them to use
 
 - Intune MDM or MAM
 
-For Windows 10 client devices that are joined to a domain, you have the additional option of using GPOs for management. Also, for those devices that are company owned and managed, you can use System Center Configuration Manager to deploy OneDrive.
+For Windows 10 client devices that are joined to a domain, you have the additional option of using GPOs for management. Also, for those devices that are company owned and managed, you can use Microsoft Endpoint Configuration Manager to deploy OneDrive.
 
 ### Align technologies
 
