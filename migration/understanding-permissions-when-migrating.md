@@ -33,7 +33,7 @@ The location of your on-premises data, and whether you have synchronized your Ac
    
 ### Permissions conditions and results
 
-The SharePoint Migration Tool permission control is effected by various conditions.  The following table lists all the conditions and the corresponding results.
+The SharePoint Migration Tool permission control is affected by various conditions.  The following table lists all the conditions and the corresponding results.
 
 |**Source**|**Preserve user permissions setting set to On**|**Migrating to**|**Target library permission before migration**|**Target library permission after migration**|**Note**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
