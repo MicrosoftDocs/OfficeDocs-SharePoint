@@ -25,11 +25,12 @@ Planning an intranet can be a daunting task. In this article we look at the high
 
 Keep in mind these key success factors as your team works together to plan and implement your intranet:
 
-- Have an executive sponsor
-- Design for simplicity and longevity 
-- Involve your business owners and other decision makers
-- Enable your business owners and content creators for self service
-- Train your content creators and your end users
+> [!div class="checklist"]
+> * Have an executive sponsor
+> * Design for simplicity and longevity
+> * Involve your business owners and other decision makers
+> * Enable your business owners and content creators for self service
+> * Train your content creators and your end users
 
 ## IT Pros and admins
 
