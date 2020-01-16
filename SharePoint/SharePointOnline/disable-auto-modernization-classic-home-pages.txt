@@ -2,7 +2,7 @@
 title: Disable automatic modernization of classic site home pages
 ms.reviewer: metorres
 ms.author: hokavian
-author: Holland-ODSP
+author: LoreenLa
 manager: pamgreen
 audience: Admin
 ms.topic: article
