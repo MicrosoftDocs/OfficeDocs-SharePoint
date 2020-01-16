@@ -48,27 +48,28 @@ If your existing intranet is using SharePoint server, consider how [migrating yo
 
 Once you have chosen a project to start with, meet with the business owners in that area of your organization and other stakeholders to plan the project.
 
-### Organizing your intranet
+### Organize your intranet
 
 A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
 
-### Branding your intranet
+### Brand your intranet
 
 Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
 
-### Training your content creators
+### Train your content creators
 
-
+[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)
 
 ## Business owners and site owners
 
 Keep in mind these key success factors as you plan and implement your intranet:
 
-- Have an executive sponsor
-- Design for simplicity and longevity 
-- Asks for feedback from users during all stages of the design process
-- Work with champions and thought leaders in the organization
-- Establish KPIs and regularly communicate them from project start to finish
+> [!div class="checklist"]
+> * Have an executive sponsor
+> * Design for simplicity and longevity 
+> * Asks for feedback from users during all stages of the design process
+> * Work with champions and thought leaders in the organization
+> * Establish KPIs and regularly communicate them from project start to finish
 
 As a business owner, you may be responsible for intranet content for a particular area of your organization such as HR or facilities. With SharePoint, you can easily create and maintain the content that you need. Look over the [SharePoint lookbook](https://aka.ms/sharepointlookbook) for some ideas before you start your intranet planning.
 
@@ -86,86 +87,28 @@ The [main intranet portal for your organization](home-site.md) is a big part of 
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](https://docs.microsoft.com/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. Read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d) for an end-to-end look at creating this page.
 
-
-
-[Your new SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e?)
-
-
-
 ### Design your business-specific intranet site
+
+As you start designing the intranet sites for your group, consider surveying your users to better understand their needs and how they currently interact with your content. You can use [Forms](https://docs.microsoft.com/forms-pro)
+to create custom surveys and questionnaires.
 
 Usually, you'll want to develop your intranet pages using [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732). With communication sites, you can share news, reports, statuses, and other information through a variety of templates and web parts. for an end-to-end look at setting up a communication site, see [Guided walkthrough: Creating a communication site for your organization](https://support.office.com/article/d9aaecc7-e2df-43a7-acc2-bd37f1fe7cfe).
 
 You can use the [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165) to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting. Within the news web part, you can set up [audience targeting](https://support.office.com/article/68113d1b-be99-4d4c-a61c-73b087f48a81) to prioritize specific content for specific audiences. For an end-to-end look at using news in SharePoint, see [Guided walkthrough: setting up news for your organization](https://support.office.com/article/95a90834-96a2-463c-b741-31c4d2230706).
 
+You can [change the look of your site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818) to match your organization's branding requirements.
 
-
-
-
-[Approval flow for modern pages](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9)
-
-[Yammer](https://docs.microsoft.com/yammer/yammer-landing-page)
-Use Yammer to connect with people across your organization beyond the boundaries of projects, functions, and departments.
-
-[Forms](https://docs.microsoft.com/forms-pro)
-Use forms to create custom quizzes, surveys, questionnaires, registrations and more.
-
-
-[Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818)
-
+Consider setting up an [approval flow](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9) for changes to your site. This can help you maintain standards within your group as people update pages with the latest information.
 
 ## Content creators
 
-[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)
+
 
 
 
 
 ## Related topics
 
-
-O365 intranet tools:
-	• Hub sites
-	• Comm sites
-	• Mega menu
-	• Events web part
-	• News web part
-	• Yammer web part
-	• Power BI web part
-	• Stream web part
-	• Search
-	• Project Cortex web parts
-	• Branding
-	• Metrics tracking
-	• Home site
-	• Audience targeting
-	• Learning Pathways
-Forms
-
-Core tasks
-
-IT
-	• Prioritize site additions/migrations
-		○ Planning article (existing)
-	• Platform integration (backend data, etc.)
-		○ Planning article (existing)
-	• Training business users for self service
-
-Business (site owners)
-	• Design site
-		○ Lookbook
-		○ Gutenberg content
-		○ Articles
-		○ Demo videos
-		○ Main portal page
-	• Migrate data
-		○ Add content to O365 infrastructure (Stream, etc.)
-		○ SharePoint Migration Tool
-	• Long term maintenance
-		○ Article
-		○ Demo video of making updates
-
-
-
+[Your new SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e?)
 
 [Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
