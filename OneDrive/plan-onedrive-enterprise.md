@@ -293,7 +293,7 @@ If you’ve decided to use Windows Information Protection with OneDrive, see the
 
 -   [Create a Windows Information Protection (WIP) policy using Microsoft Intune](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy/)
 
--   [Create a Windows Information Protection (WIP) policy using System Center Configuration Manager](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm/)
+-   [Create a Windows Information Protection (WIP) policy using Configuration Manager](/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm/)
 
 
 ### Azure Information Protection
