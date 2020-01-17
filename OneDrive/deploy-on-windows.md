@@ -58,7 +58,7 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
 2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Enterprise ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
   
-3. Download the [sample SCCM package](https://go.microsoft.com/fwlink/p/?LinkId=824069). It's a .zip file that contains the script installer deployment type. For more information about packages and programs in System Center Configuration Manager, see [Packages and programs in System Center Configuration Manager](/sccm/apps/deploy-use/packages-and-programs/).
+3. Download the [sample SCCM package](https://go.microsoft.com/fwlink/p/?LinkId=824069). It's a .zip file that contains the script installer deployment type. For more information about packages and programs in System Center Configuration Manager, see [Packages and programs in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
 
 
 > [!NOTE]
