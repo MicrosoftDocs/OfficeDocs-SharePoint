@@ -35,21 +35,13 @@ Before you can enable silent account configuration, you need to join your device
 If you have an on-premises environment that uses Active Directory, you can enable [hybrid Azure AD joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan) to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
   
 - Windows 10 
-    
 - Windows 8.1 
-    
 - Windows 7 
-
 - Windows Server 2019
-    
 - Windows Server 2016 
-    
 - Windows Server 2012 R2 
-    
 - Windows Server 2012 
-    
 - Windows Server 2008 R2
-
 If you federate your on-premises Active Directory with Azure AD, you must use AD FS to enable this feature. For info about using Azure AD Connect, see [Getting started with Azure AD Connect using express settings](/azure/active-directory/hybrid/how-to-connect-install-custom).
     
 > [!NOTE]
@@ -79,21 +71,13 @@ Using a script:
 
 ```PowerShell
 $HKLMregistryPath = 'HKLM:\SOFTWARE\Policies\Microsoft\OneDrive'##Path to HKLM keys
-
 $DiskSizeregistryPath = 'HKLM:\SOFTWARE\Policies\Microsoft\OneDrive\DiskSpaceCheckThresholdMB'##Path to max disk size key
-
 $TenantGUID = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
 
-IF(!(Test-Path $HKLMregistryPath))
-
-{New-Item -Path $HKLMregistryPath -Force}
-
-IF(!(Test-Path $DiskSizeregistryPath))
-
-{New-Item -Path $DiskSizeregistryPath -Force}
+if(!(Test-Path $HKLMregistryPath)){New-Item -Path $HKLMregistryPath -Force}
+if(!(Test-Path $DiskSizeregistryPath)){New-Item -Path $DiskSizeregistryPath -Force}
 
 New-ItemProperty -Path $HKLMregistryPath -Name 'SilentAccountConfig' -Value '1' -PropertyType DWORD -Force | Out-Null ##Enable silent account configuration
-
 New-ItemProperty -Path $DiskSizeregistryPath -Name $TenantGUID -Value '102400' -PropertyType DWORD -Force | Out-Null ##Set max OneDrive threshold before prompting
 ``` 
 
