@@ -79,7 +79,7 @@ To manage content at rest:
     
 ## Highly available, always recoverable
  
-Our datacenters are geo-distributed within the region and fault-tolerant. Data is mirrored in at least two datacenters to mitigate the impact of a natural disaster or service-impacting outage. See the [Where's my data?](https://o365datacentermap.azurewebsites.net/).
+Our datacenters are geo-distributed within the region and fault tolerant. Data is mirrored in at least two datacenters to mitigate the impact of a natural disaster or service-impacting outage. For more information, see [Where's my data?](https://o365datacentermap.azurewebsites.net/).
   
 Metadata backups are kept for 14 days and can be restored to any point in time within a 5-minute window. 
   
