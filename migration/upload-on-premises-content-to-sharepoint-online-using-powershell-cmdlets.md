@@ -95,18 +95,17 @@ Before you start the migration process, you need to setup your working directory
 In this step you need to identify your locations and credentials, including the location of your source files, target files and web location.
   
 On your local computer, open the SharePoint Online Management Shell. Run the following commands substituting your values.
-  
- `$cred = (Get-Credential admin@contoso.com)`
-  
- `$sourceFiles = '\\fileshare\users\charles'`
-  
- `$sourcePackage = 'C:\migration\CharlesDocumentsPackage_source'`
-  
- `$targetPackage = 'C:\migration\CharlesDocumentsPackage_target'`
-  
- `$targetWeb = 'https://contoso-my.sharepoint.com/personal/charles_contoso_com'`
-  
- `$targetDocLib = 'Documents'`
+
+```Powershell
+$cred = (Get-Credential admin@contoso.com)
+$sourceFiles = '\\fileshare\users\charles'
+$sourcePackage = 'C:\migration\CharlesDocumentsPackage_source'
+$targetPackage = 'C:\migration\CharlesDocumentsPackage_target'
+$targetWeb = 'https://contoso-my.sharepoint.com/personal/charles_contoso_com'
+$targetDocLib = 'Documents'
+
+New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $sourcePackage -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib -IgnoreHidden -ReplaceInvalidCharacters
+```
   
 [Upload on-premises content to SharePoint Online using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
   
@@ -133,7 +132,9 @@ The following parameters are required unless marked optional:
   
 This example shows how to create a new package from a file share, ignoring hidden files and replacing unsupported characters in a file/folder name.
   
- `New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $sourcePackage -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib -IgnoreHidden -ReplaceInvalidCharacters`
+```Powershell
+    New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $sourcePackage -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib -IgnoreHidden -ReplaceInvalidCharacters`
+```
   
 [Upload on-premises content to SharePoint Online using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
   
@@ -165,7 +166,9 @@ There are six required parameters to enter (others are optional
   
 This example shows how to convert a package to a targeted one by looking up data in the target site collection. It uses the -ParallelImport parameter to boost file share migration performance.
   
- `$finalPackages = ConvertTo-SPOMigrationTargetedPackage -ParallelImport -SourceFilesPath $sourceFiles -SourcePackagePath $sourcePackage -OutputPackagePath $targetPackage -Credentials $cred -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib`
+```Powershell
+$finalPackages = ConvertTo-SPOMigrationTargetedPackage -ParallelImport -SourceFilesPath $sourceFiles -SourcePackagePath $sourcePackage -OutputPackagePath $targetPackage -Credentials $cred -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib`
+```
   
 [Upload on-premises content to SharePoint Online using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
   
@@ -188,13 +191,17 @@ There are four required parameters to enter (others are optional):
   
 This example shows how to submit package data to create a new migration job.
   
- `$job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -SourcePackagePath $spoPackagePath -Credentials $cred -TargetWebUrl $targetWebUrl`
+```Powershell
+ $job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -SourcePackagePath $targetPackage -Credentials $cred -TargetWebUrl $targetWeb
+```
   
  **Example 2:**
   
 This example shows how to submit package data to create new migration jobs for parallel import.
-  
- `$jobs = $finalPackages | % {Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $_.FilesDirectory.FullName -SourcePackagePath $_.PackageDirectory.FullName -Credentials $cred -TargetWebUrl $targetWeb}`
+```Powershell  
+$jobs = $finalPackages | % {Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $_.FilesDirectory.FullName -SourcePackagePath $_.PackageDirectory.FullName -Credentials $cred -TargetWebUrl $targetWeb}
+```
+
   
 For each submitted job, the Invoke cmdlet returns these properties as part of a job:
   
@@ -234,43 +241,23 @@ If you're using the temporary Azure storage created by  *Invoke-SPOMigrationEncr
 
 The following is a sample script you can use that includes the complete steps from determining your locations and credentials to submitting your package data to create a new migration job.
   
-```
+```Powershell
 $userName = "admin@contoso.onmicrosoft.com"
-  
 $sourceFiles = "d:\data\documents"
-  
 $packagePath = "d:\data\documentPackage"
-  
 $spoPackagePath = "d:\data\documentPackageForSPO"
-  
 $targetWebUrl = "https://contoso.sharepoint.com/sites/finance"
-  
 $targetLibrary = "Documents"
-  
 $cred = Get-Credential $userName
   
 New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $packagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -IgnoreHidden -ReplaceInvalidCharacters
 ```
 
-$userName = "admin@contoso.onmicrosoft.com"
-  
-$sourceFiles = "d:\data\documents"
-  
-$packagePath = "d:\data\documentPackage"
-  
-$spoPackagePath = "d:\data\documentPackageForSPO"
-  
-$targetWebUrl = "https://contoso.sharepoint.com/sites/finance"
-  
-$targetLibrary = "Documents"
-  
-$cred = Get-Credential $userName
-  
-New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $packagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -IgnoreHidden -ReplaceInvalidCharacters
-  
 ## Convert package to a targeted one by looking up data in target site collection
-  
+
+```Powershell  
 $finalPackages = ConvertTo-SPOMigrationTargetedPackage -SourceFilesPath $sourceFiles -SourcePackagePath $packagePath -OutputPackagePath $spoPackagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -Credentials $cred
+```
   
 ## Submit package data to create new migration job
   
@@ -278,28 +265,27 @@ $job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -Sou
   
 This sample shows how to get the returned information of a job, which comes in the form of a GUID.
   
-```
+```Powershell
 $job = $jobs[0]
 $job.JobId
 Guid
 ----
 779c4b3b-ec24-4705-bb58-c38f4329418c
-
 ```
 
 This sample shows how to get the $job.ReportingQueueURi.AbosoluteUri.
   
-```
+```Powershell
 # To obtain the $job.ReportingQueueUri.AbsoluteUri
 https://spodm1bn1m013pr.queue.core.windows.net/953pq20161005-f84b9e51038b4139a179f973e95a6d6f?sv=2014-02-14&amp;sig=TgoUcrMk1Pz8VzkswQa7owD1n8TvLmCQFZGzyV7WV8M%3D&amp;st=2016-10-04T07%3A00%3A00Z&amp;se=2016-10-26T07%3A00%3A00Z&amp;sp=rap
 ```
 
 This sample demonstrates how to obtain the encryption key and the sample return.
   
-```
+```Powershell
 $job.Encryption
 EncryptionKey                                       EncryptionMethod
--------------                                             ----------------
+-----------------------                            ------------------
 {34, 228, 244, 194...}                              AES256CBC
 
 ```
