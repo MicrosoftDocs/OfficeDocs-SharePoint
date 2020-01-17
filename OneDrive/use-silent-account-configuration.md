@@ -42,6 +42,7 @@ If you have an on-premises environment that uses Active Directory, you can enabl
 - Windows Server 2012 R2 
 - Windows Server 2012 
 - Windows Server 2008 R2
+ 
 If you federate your on-premises Active Directory with Azure AD, you must use AD FS to enable this feature. For info about using Azure AD Connect, see [Getting started with Azure AD Connect using express settings](/azure/active-directory/hybrid/how-to-connect-install-custom).
     
 > [!NOTE]
