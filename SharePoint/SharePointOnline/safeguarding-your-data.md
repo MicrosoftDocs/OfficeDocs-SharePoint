@@ -50,7 +50,7 @@ Other things we recommend to increase security:
  
 ### Protected in transit
  
-When data transits into the service from clients, and between data centers, it's protected using best-in-class encryption. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo). We only permit secure access. We won't make authenticated connections over HTTP but, instead, redirect to HTTPS.
+When data transits into the service from clients, and between datacenters, it's protected using best-in-class encryption. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo). We only permit secure access. We won't make authenticated connections over HTTP but, instead, redirect to HTTPS.
   
 ### Protected at rest
  
