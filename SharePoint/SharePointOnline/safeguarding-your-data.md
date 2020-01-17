@@ -83,7 +83,7 @@ Our datacenters are geo-distributed within the region and fault-tolerant. Data i
   
 Metadata backups are kept for 14 days and can be restored to any point in time within a 5-minute window. 
   
-In the case of a ransomware attack, you can use Version history ([Enable and configure versioning for a list or library](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37)) to roll back, and the recycle bin or site collection recycle bin to restore ([Restore deleted items from the site collection recycle bin ](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b)). If an item is removed from the site collection recycle bin, you can call support within 14 days to access a backup. For info about the new Files Restore feature that lets users restore an entire OneDrive to any point within the past 30 days, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx).
+In the case of a ransomware attack, you can use Version history ([Enable and configure versioning for a list or library](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37)) to roll back, and the recycle bin or site collection recycle bin to restore ([Restore deleted items from the site collection recycle bin](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b)). If an item is removed from the site collection recycle bin, you can call support within 14 days to access a backup. For information about the new Files Restore feature that lets users restore an entire OneDrive to any point within the past 30 days, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx).
   
 ## Continuously validated
  
