@@ -104,7 +104,7 @@ The following snipped of code will pre-provision Onedrive for a large number of 
             Request-SPOPersonalSite -UserEmails $list
             Start-Sleep -Milliseconds 655
             $list = @()
-            $ii = 0
+            $j = 0
         }
     }
 ```
