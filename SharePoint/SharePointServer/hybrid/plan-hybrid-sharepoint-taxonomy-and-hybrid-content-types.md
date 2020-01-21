@@ -34,7 +34,7 @@ The shared taxonomy is mastered in SharePoint Online and a read-only copy is kep
 >[!IMPORTANT] 
 > Farm Administrators can modify Term Groups on-premises. These changes will not replicate to SharePoint Online. It is important that Farm Administrators be notified to not make changes on-premises.
   
-You also have the option of installing hybrid content types. This feature propagates updates from your SharePoint Online content types to your SharePoint Server site collections.
+You also have the option of installing hybrid content types. This feature propagates updates made to your SharePoint Online content types to your SharePoint Server site collections.
   
 ## Prerequisites
 
