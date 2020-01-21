@@ -17,29 +17,29 @@ description: Set up multiple Migration Manager clients
 
 # Setup Migration Manager clients
 
->[!Note]
+>[!NOTE]
 >Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 
-The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration “clients”.  To do this, you download and run a setup file on each computer.  
+The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration “clients”. To do this, you download and run a setup file on each computer.  
 
-When you run the setup file, you are prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager.  Migration Manager now sees it as an available "client" to which it can automatically distribute migrations tasks.
+When you run the setup file, you are prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "client" to which it can automatically distribute migrations tasks.
 
-After a client is configured, anyone with the permission to go into the SharePoint Admin center can create tasks.  The tasks will be automatically distributed to one of the configured clients.
+After a client is configured, anyone with the permission to go into the SharePoint Admin center can create tasks. The tasks will be automatically distributed to one of the configured clients.
 
 
 ## Before you begin
 
 - Make sure all system prerequisites have been installed on your local computer or VM before running the Migration Manager client setup file
 
->[!Note]
+>[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
 
 ### Recommended practices
 
 - Determine how many VMs or computers you plan on using for your migration tasks. Identify these up front.
 
-- Confirm that your have SharePoint Admin credentials to access the “destination” of where you are migrating your content.
+- Confirm that you have SharePoint Admin credentials to access the “destination” of where you are migrating your content.
 
 - Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
@@ -73,12 +73,10 @@ After a client is configured, anyone with the permission to go into the SharePoi
 ## Set up a single client
 
 1. Go to the [Desktop Tool (SPMT) page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true) and sign in with an account that has admin permissions for your organization.
->[!Note]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Desktop Tool (SPMT) page.
 2. Select **Download client setup file**.
-3. Click Run.
-4. Enter your SharePoint Admin username and password.  These are to the SharePoint tenant where you will be migrating your content. Click **Next**.
-5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate.  Click Run configuration.
+3. Click **Run**.
+4. Enter your SharePoint admin username and password. These are to the SharePoint environment where you will be migrating your content. Click **Next**.
+5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Click Run configuration.
 
 On completion this computer will be added to the available clients that the Migration Manager can assign tasks.
 
@@ -87,11 +85,9 @@ On completion this computer will be added to the available clients that the Migr
 Based on the size of the content you want to migrate, you can setup as many clients as you need. If you are setting up multiple clients, we recommend that you download the client setup file to a shared location. That way you can easily download the setup file on each of computer or VM.  
 
 1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true) and sign in with an account that has admin permissions for your organization.
->[!Note]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Migration Manager page.
-2. Select **Download client setup file**.  If you previously downloaded the setup file, click the *Clients* tab and select **Add client**.  Save the file to file to a shared location.
+2. Select **Download client setup file**. If you previously downloaded the setup file, click the *Clients* tab and select **Add client**. Save the file to file to a shared location.
 3. Run the setup file on each VM or windows computer you plan on using to run migration tasks on.
 
->[!Note]
+>[!NOTE]
 > Migration Manager automatically assigns tasks to a available client, it does the load balancing for you. You cannot manually assign a task to a specific client.
   

@@ -62,12 +62,12 @@ If you disable Delve, users will no longer see:
   
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has admin permissions for your organization.
 
->[!Note]
+>[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
  
-3. At the bottom of the page, select **classic settings page**.
+2. At the bottom of the page, select **classic settings page**.
     
-4.  Under **Delve (powered by Office Graph)**, select one of the following:  
+3.  Under **Delve (powered by Office Graph)**, select one of the following:  
     
   - **Enable Delve and related features**
     
@@ -127,12 +127,12 @@ There are a few things you should check if one or more users in your organizatio
   
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has admin permissions for your organization.
 
->[!Note]
+>[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
  
-3. At the bottom of the page, select **classic settings page**.
+2. At the bottom of the page, select **classic settings page**.
 
-4. Under **Delve (powered by Office Graph)**, make sure that you've selected **Enable Delve and related features**. 
+3. Under **Delve (powered by Office Graph)**, make sure that you've selected **Enable Delve and related features**. 
     
     > [!NOTE]
     > If you have a SharePoint Online standalone service (SharePoint Online Plan 1 or SharePoint Online Plan 2) you'll see the Delve setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet.

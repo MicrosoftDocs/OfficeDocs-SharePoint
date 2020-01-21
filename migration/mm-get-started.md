@@ -17,10 +17,10 @@ description: Get started with Migration Manager
 
 # Get started with the Migration Manager (preview)
 
->[!Note]
+>[!NOTE]
 >Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
->[!Note]
+>[!NOTE]
 >Migration Manager currently supports only the migration of **file shares**.
 >
 >This release does not support the migration of content from SharePoint Server.
@@ -29,7 +29,7 @@ Migrating content to the cloud is a time and resource intensive process and norm
 
 Migration Manager answers those challenges by providing you a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks.  
 
-Located in the modern SharePoint Admin Center, the Migration Manager guides you through the setup of your clients and the creation of your tasks.  You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
+Located in the modern SharePoint Admin Center, the Migration Manager guides you through the setup of your clients and the creation of your tasks. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
 
 ## How does it work?
 
@@ -49,12 +49,9 @@ To get started:
 
 Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true) and sign in with an account that has admin permissions for your organization.
 
->[!Note]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Migration Manager page.
-
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or SharePoint Online admin to the Office 365 tenant where you want to migrate your content.
+- **Access to the destination**: You must either be a global admin or SharePoint admin to the Office 365 tenant where you want to migrate your content.
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate.
 
