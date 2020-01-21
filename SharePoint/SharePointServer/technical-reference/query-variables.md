@@ -22,7 +22,7 @@ description: "Learn about the query variables that you can use when you configur
 
 The following tables show the query variables for SharePoint Server and SharePoint Online, and examples on how they can be used.
 
-_Note that not all query variables are supported in modern Microsoft Search experiences and API's._
+Note that not all query variables are supported in modern Microsoft Search experiences and APIs.
   
 **Site and site collection properties**
 
