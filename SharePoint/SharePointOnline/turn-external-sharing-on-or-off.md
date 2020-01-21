@@ -1,5 +1,5 @@
 ---
-title: "Turn external sharing on or off"
+title: "Manage sharing settings"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,10 +15,10 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how to change your SharePoint sharing settings."
+description: "Learn how to change your organization-level sharing settings for SharePoint and OneDrive."
 ---
 
-# Turn external sharing on or off
+# Manage sharing settings
 
 This article describes how global and SharePoint admins in Office 365 can change their organization-level sharing settings for SharePoint and OneDrive.
 
