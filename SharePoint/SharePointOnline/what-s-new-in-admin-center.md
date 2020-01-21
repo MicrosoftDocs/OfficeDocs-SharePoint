@@ -26,26 +26,26 @@ We're continuously adding new features to the new SharePoint admin center and fi
   
 ## December 2019
 
-- The navigation pane can be customized to show or hide items. 
-- On the Active sites page, you can select and replace the root site.
+- You can [customize the navigation pane to show or hide items](/sharepoint/get-started-new-admin-center#customize-the-navigation-pane).
+- On the Active sites page, you can [select and replace the root site](modern-root-site.md). 
 - On the Active sites page, you can point to a name in the Primary admin column or on the Permissions tab of the details panel and see more info about the person. 
-- On the Active sites page, the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. 
-- On the Active sites page, when you select a site and then select **Sharing**, you can change the default sharing link type and default link permissions for the site. 
-- On the Active sites page, a new experience lets you manage all site admins in one panel, view site members and visitors, and add site admins to sites that belong to Office 365 groups. 
+- On the Active sites page, the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. [Learn more about managing sites](manage-sites-in-new-admin-center.md)
+- On the Active sites page, when you select a site and then select **Sharing**, you can [change the default sharing link type and default link permissions for the site](change-external-sharing-site.md). 
+- On the Active sites page, a new experience lets you manage all site admins in one panel, view site members and visitors, and add site admins to sites that belong to Office 365 groups. [Learn more about managing site permissions](site-permissions.md) 
 - The Settings page has been redesigned to let you see the value for each setting without selecting each one for more info.
-- Classic features can now be found under **More features**.
+- Classic features can now be found under **More features**. [Learn where to find features in the new SharePoint admin center](/sharepoint/get-started-new-admin-center#where-to-find-things-in-the-new-sharepoint-admin-center)
 
 ## November 2019
 
-- If you're using the new sensitivity labels, you can view and edit them from the Active sites page.
+- If you're using the [new sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), you can view and edit them from the Active sites page.
 
 ## October 2019
 
-- From the Active sites page, you can change site addresses.
+- From the Active sites page, you can [change site addresses](change-site-address.md).
 
 ## June 2019
 
-- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page).
+- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page). [Learn how to select the default admin experience](/sharepoint/get-started-new-admin-center#open-the-new-sharepoint-admin-center-by-default)
 - On the Active sites page, you can select multiple sites and bulk edit sharing and hub association settings.
 - Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from the More features page so you can access them directly from the new SharePoint admin center.
 
