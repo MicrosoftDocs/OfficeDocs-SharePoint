@@ -133,7 +133,7 @@ If you want to auto-configure a SharePoint site to be synced, you can use the UR
 odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&amp;userEmail=UserEmail_HERE&amp;webUrl=WebURL_HERE"
 ```
 
-- Run the following command using Microsoft Endpoint script: 
+- Run the following command using Configuration Manager script:
     
   ```
   %localappdata%\Microsoft\OneDrive\OneDrive.exe 
