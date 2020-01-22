@@ -1,6 +1,6 @@
 ---
-title: "Sensitive by default"
-ms.reviewer: 
+title: "Mark new files as sensitive by default"
+ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -13,21 +13,22 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn how to block external sharing of newly uploaded files."
+description: "Learn how to block external sharing of newly added files."
 ---
 
-# Sensitive by default
+# Mark new files as sensitive by default
 
-When new files are added to SharePoint or OneDrive, it takes a while for them to be crawled and indexed. It takes additional time for the Office Data Loss Prevention (DLP) policy to scan the content and apply rules to help protect sensitive content. If external sharing is turned on, sensitive content may be accessed by guests before the Office DLP rule finishes processing. If you turn off external sharing to prevent this, you disable important collaboration scenarios.  
+When new files are added to SharePoint or OneDrive, it takes a while for them to be crawled and indexed. It takes additional time for the [Office Data Loss Prevention (DLP) policy](/microsoft-365/compliance/data-loss-prevention-policies) to scan the content and apply rules to help protect sensitive content. If external sharing is turned on, sensitive content could be shared and accessed by guests before the Office DLP rule finishes processing.   
 
-[Learn more about data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies)
-
-To address this issue, you can use a new PowerShell cmdlet to prevent guests from accessing newly added files until at least one Office DLP policy scans the content of the file. If the file has no sensitive content based on the DLP policy, then guests can access the file. But if the policy identifies sensitive content, then guests will not be able to access the file. 
+Instead of turning off external sharing entirely, you can address this issue by using a new PowerShell cmdlet. The cmdlet prevents guests from accessing newly added files until at least one Office DLP policy scans the content of the file. If the file has no sensitive content based on the DLP policy, then guests can access the file. If the policy identifies sensitive content, then guests will not be able to access the file. 
 
 > [!NOTE]
-> This cmdlet applies to newly added files in all SharePoint sites. It doesn't block sharing if an existing file is changed, and it doesn't block sharing for files in OneDrive.
+> This cmdlet applies to newly added files in all SharePoint sites. It doesn't block sharing if an existing file is changed. <br>The cmdlet doesn't cover files added to OneDrive. We're working to bring this functionality to OneDrive.
 
-1. Make sure you have at least one DLP policy enabled in your organization for content located in SharePoint.
+1. Make sure you have at least one DLP policy turned on for content located in SharePoint. [Learn how to create and turn on a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy)
+
+    > [!IMPORTANT]
+    > The policy must include all SharePoint sites and exclude none.
 
 2. [Download the latest SharePoint Online Management Shell version](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
