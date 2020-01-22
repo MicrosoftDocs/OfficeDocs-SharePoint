@@ -28,28 +28,24 @@ For detailed information about how to set up guest access for a site, see [Colla
 
 To configure external sharing for a site
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has admin permissions for your organization.
+
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+2. In the left column, click to select a site.
 
-3. In the left pane of the new SharePoint admin center, under **Sites** select **Active sites**.
-    
-4. Click the site name, and then select the **Policies** tab.
-
-5. Under **External sharing**, select **Edit**.
+3. Select **Sharing**.
      
-6. Select an external sharing option (see the following table).
+4. Select an external sharing option (see the following table).
 
     ![Changing the external sharing setting for a site](media/external-sharing-site.png)
 
-7. If you want to limit the sharing of this site by domain, select the **Limit sharing by domain** check box and add the domains that you want to allow or block.
+5. If you want to limit the sharing of this site by domain, select the **Limit sharing by domain** check box and add the domains that you want to allow or block.
 
-8. If you want to change the default sharing link type, permissions, or expiration setting for this site, clear the **Same as organization-level setting** check box and set the value that you want to use for this site.
+6. If you want to change the default sharing link type, permissions, or expiration setting for this site, clear the **Same as organization-level setting** check box and set the value that you want to use for this site. For more info, see [Change the default sharing link for a site](change-default-sharing-link.md).
 
-9. Click **Save**.
+7. Click **Save**.
    
 ### Which option to select...
 
