@@ -32,20 +32,16 @@ This article describes how you can use search reports in the SharePoint admin ce
 ## To view a report
 <a name="__top"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-    
-3. In the left pane, select **More features**.
-    
-4. Under **Search**, select **Open**.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-5. Choose **View Usage Reports**.
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
-6. Click a link on the page to retrieve a report. The report opens in an Excel spreadsheet or in another program that you can find online.
+2. Under **Search**, select **Open**.
+
+3. Choose **View Usage Reports**.
+    
+4. Click a link on the page to retrieve a report. The report opens in an Excel spreadsheet or in another program that you can find online.
     
 ### Overview of search reports
 
