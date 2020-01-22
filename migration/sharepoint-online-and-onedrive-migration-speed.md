@@ -130,7 +130,7 @@ Answer: Throttling is in place to protect the reliability and availability of th
 Answer:  Here are some quick self-help checks to consider:</br>
 
 - Try to migrate during off-peak business hours
-- If you are experiencing slowness, make sure you are not running any unnecessary software which may compete with migration resources.  This includes disk IO, network bandwidth, or antivirus software.
+- If you are experiencing slowness, make sure you are not running any unnecessary software which may compete with migration resources. 
 - Check with your software provider to ensure you are migrating to SPO/OneDrive using *app-based authentication*.  Migration is a background task and should not be run in user mode. If attempted to migrate in user mode, it can trigger larger than normal throttling.
 </br></br>
 
