@@ -54,7 +54,7 @@ The following table provides estimates of the type of speed you may achieve base
 The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. In addition, ensure that your permissions, sharing, or other limits are set up properly for migration and are within [SharePoint Online limits and boundaries](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 >[!Note]
-> If you are planning to migrate over 100TB, please review the section below:  [Large migration]
+> If you are planning to migrate over 100TB, please review the section below, **Large Migration**.
 
 
 
