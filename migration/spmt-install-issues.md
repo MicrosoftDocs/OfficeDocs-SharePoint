@@ -61,18 +61,6 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
    
 
-## Download the tool instead
-
-If you still are experiencing unexplained errors, try downloading the SPMT tool to your local computer.  
-
-1. Download zip package to your local computer:  [Download SPMT.zip package](https://aka.ms/spmt-zip).
-2. Right-click the zip file, and click properties.
-3. On the General tab, select **Unblock** and then click OK.</br></br>
- ![SPMT Properties](media/spmtzip.png)
-</br></br>
-4. Open the zip file and extract all files.
-5. Run the microsoft.sharepoint.migrationtool.advancedapp.exe file.
-
 ## **Install errors**
 
 |**Error**|**Suggested action**|
