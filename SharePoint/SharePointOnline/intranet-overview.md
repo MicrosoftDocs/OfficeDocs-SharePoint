@@ -83,7 +83,7 @@ Video is a great way to communicate to the people in your organization. Videos r
 
 ### Design the intranet portal page
 
-The [main intranet portal for your organization](home-site.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. With a modern portal page, you can still point to your legacy intranet sites from a modern portal page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
+The [main intranet portal for your organization](home-site.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. With a modern portal page, you can still point to your legacy intranet sites. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](https://docs.microsoft.com/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. Read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d) for an end-to-end look at creating this page.
 
