@@ -34,6 +34,32 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |Anti-virus| Stop 3rd party anti-virus software on your computer prior to installation.
 
 
+### Government cloud support
+
+If you are on a government cloud, you must first take these steps:
+
+1. Open microsoft.sharepoint.migration.common.dll.config.
+2. Change the value of **SPOEnvironmentType** to 2.  
+
+~~~XML
+    <appSettings>
+        <clear />
+        <add key="SPOEnvironmentType" value="2" />
+    </appSettings>
+/configuration>
+
+~~~
+
+>[!Note]
+>"0" = Worldwide consumer cloud
+>"1" = U.S. Government Cloud computing
+>"2" = U.S. Government Cloud computing high and DoD
+
+
+
+2.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
+
+
 ### **Check to make sure all system prerequisites have been installed**
 
 #### Requirements for best performance
