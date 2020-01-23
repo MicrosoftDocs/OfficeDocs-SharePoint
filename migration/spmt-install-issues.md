@@ -52,8 +52,8 @@ If you are on a government cloud, you must first take these steps:
 
 >[!Note]
 >"0" = Worldwide consumer cloud
->"1" = U.S. Government Cloud computing
->"2" = U.S. Government Cloud computing high and DoD
+>"1" = Government Cloud computing
+>"2" = Government Cloud computing high and DoD
 
 
 
