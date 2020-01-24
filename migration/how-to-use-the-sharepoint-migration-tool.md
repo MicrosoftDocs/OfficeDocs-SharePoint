@@ -77,7 +77,7 @@ Before you start using the SharePoint Migration Tool (SPMT), note where your dat
 - **SharePoint on-premises:** If you select the SharePoint on-premises option, you will be asked to enter the name of the SharePoint Server site where your files are located and prompted for your credentials for that site. You will indicate what document library you wish to migrate. 
     
     > [!NOTE]
-    > The SharePoint Migration Tool supports SharePoint Server 2010* and 2013.  **Support for 2010 is currently in Public Preview release.
+    > The SharePoint Migration Tool supports SharePoint Server 2010* and 2013.
   
 - **File share:** If you select the file share option, you will be asked to enter the location of the file share, the URL of the SharePoint Online site, and the document library where they will be copied. The files are not deleted from the source.
     
