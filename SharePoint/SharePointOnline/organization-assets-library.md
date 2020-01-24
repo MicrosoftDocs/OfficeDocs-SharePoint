@@ -24,7 +24,7 @@ If your organization needs to store and manage files for all your users to use, 
 
     ![A post from an organization news site on the SharePoint start page](media/image-library.png)
 
-- **Office templates**. When a user selects to create a new Office file (from Office.com or an Office desktop app), the user can select the tab for your organization to see the templates.
+- **Office templates**. When a user selects to create a new Office file (from Office.com or an Office desktop app), the user can select the tab for your organization to see the templates. (To use this feature on Office.com, users  need to be assigned a license to Office 365 E3 or E5.)
 
     ![A post from an organization news site on the SharePoint start page](media/office-template-library.png)
 
@@ -51,16 +51,16 @@ If your organization needs to store and manage files for all your users to use, 
 5. Run the following command to designate the document library as an organization assets library:
   
     ```PowerShell
-    Add-SPOOrgAssetsLibrary -LibraryURL <URL> [-ThumbnailURL <URL> -OrgAssetType <asset type>] 
+    Add-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType <ImageDocumentLibrary or OfficeTemplateLibrary>] [-CdnType <Public or Private>]
     ```
 
-LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. OrgAssetType is either ImageDocumentLibrary or OfficeTemplateLibrary. [Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
+LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. OrgAssetType is either ImageDocumentLibrary or OfficeTemplateLibrary. If you don't specify the OrgAssetType, the library will be designated as an image library by default. If you don't specify the CdnType, it will enable a private CDN by default. [Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
 
 Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg` -OrgAssetType ImageDocumentLibrary
 
 
 > [!NOTE]
-> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable CDN for each organization asset library you add. Vanity domains are currently not supported. [More info about CDNs](/office365/enterprise/content-delivery-networks)
+> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable a CDN for each organization asset library you add. Vanity domains are currently not supported. [More info about CDNs](/office365/enterprise/content-delivery-networks)
 
  
 ## Related commands 
