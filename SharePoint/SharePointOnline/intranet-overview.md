@@ -34,9 +34,7 @@ Keep in mind these key success factors as your team works together to plan and i
 
 ## Company intranet owner
 
-When creating an intranet in SharePoint, the company intranet owner has three major tasks:
-
-- Work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
+When creating an intranet in SharePoint, the company intranet owner works with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
 
 When you're ready to start down the road to a SharePoint intranet, first, take a look at the [SharePoint lookbook](https://aka.ms/sharepointlookbook). The lookbook provides examples of intranet pages that you can build in SharePoint and will give you an idea of the possibilities. Keep these in mind as you proceed through the planning and implementation process.
 
