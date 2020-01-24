@@ -24,9 +24,9 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Secu
   
  **Summary:** The Security Token Service is not issuing tokens. 
   
- **Cause:** The service could be malfunctioning or in a bad state, or some assemblies are missing when you deploy the custom claims provider. 
-  
- **Resolution: Restart the Security Token Service application pool.**
+ **Cause:** The service could be malfunctioning or in a bad state, some assemblies are missing when you deploy the custom claims provider, or the STS certificate has expired. 
+ 
+  **Resolution: Restart the Security Token Service application pool.**
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
     
@@ -54,4 +54,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The Secu
 
 2. Replace the STS certificate. For more information, see [Replace the STS certificate for SharePoint Server](https://docs.microsoft.com/sharepoint/administration/replace-the-sts-certificate).
     
+**Resolution: Update the STS certificate**
 
+ Confirm whether the STS certificate has expired by looking for Windows Application event log Event ID 8311 for source "SharePoint Foundation", category Topology, and with "NotTimeValid" in the message. This indicates an expired STS certificate. For more information on updating the STS certificate, please see [Replace the STS certificate for SharePoint Server](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/SharePoint/SharePointServer/administration/replace-the-sts-certificate.md).
