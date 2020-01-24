@@ -29,12 +29,12 @@ If your organization needs to store and manage files for all your users to use, 
     ![A post from an organization news site on the SharePoint start page](media/office-template-library.png)
 
 > [!NOTE]
-> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization, however all of these libraries must be in the same site collection. 
+> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization. All of these libraries (regardless of type) must be on the same site. 
 
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
   
-1. Select an existing site or create a new site for the organization assets.
+1. Select an existing site or create a new site for the organization assets. 
 
     > [!NOTE]
     > All organization asset libraries must be on the same site.
