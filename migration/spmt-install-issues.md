@@ -41,23 +41,16 @@ If you are on a government cloud, you must first take these steps:
 1. Open microsoft.sharepoint.migration.common.dll.config.
 2. Change the value of **SPOEnvironmentType** to 2.  
 
-~~~XML
-    <appSettings>
-        <clear />
-        <add key="SPOEnvironmentType" value="2" />
-    </appSettings>
-/configuration>
+![Change SPOEnvironmentType](media/gov-cloud-setting.png)
 
-~~~
+
+3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
+
 
 >[!Note]
->"0" = Worldwide consumer cloud
->"1" = Government Cloud computing
->"2" = Government Cloud computing high and DoD
-
-
-
-2.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
+>"0" = Worldwide consumer cloud</br>
+>"1" = U.S. Government Cloud computing</br>
+>"2" = U.S. Government Cloud computing high and DoD</br>
 
 
 ### **Check to make sure all system prerequisites have been installed**
