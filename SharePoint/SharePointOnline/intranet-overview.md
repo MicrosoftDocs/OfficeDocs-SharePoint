@@ -32,13 +32,11 @@ Keep in mind these key success factors as your team works together to plan and i
 > * Enable your business owners and content creators for self service
 > * Train your content creators and your end users
 
-## IT Pros and admins
+## Company intranet owner
 
-When creating an intranet in SharePoint, the IT department has three major tasks:
+When creating an intranet in SharePoint, the company intranet owner has three major tasks:
 
-- Work with business owners to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
-- Implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals.
-- Training business owners, content creators, and end users
+- Work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
 
 When you're ready to start down the road to a SharePoint intranet, first, take a look at the [SharePoint lookbook](https://aka.ms/sharepointlookbook). The lookbook provides examples of intranet pages that you can build in SharePoint and will give you an idea of the possibilities. Keep these in mind as you proceed through the planning and implementation process.
 
@@ -55,6 +53,11 @@ A critical part of your SharePoint intranet is your site architecture. By using 
 ### Brand your intranet
 
 Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
+
+## IT Pros and admins
+
+- Implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals.
+- Training business owners, content creators, and end users
 
 ### Train your content creators
 
