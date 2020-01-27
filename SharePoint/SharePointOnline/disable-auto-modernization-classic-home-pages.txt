@@ -1,0 +1,21 @@
+---
+title: Disable automatic modernization of classic site home pages
+ms.reviewer: metorres
+ms.author: hokavian
+author: LoreenLa
+manager: pamgreen
+audience: Admin
+ms.topic: article
+ms.service: sharepoint-online
+localization_priority: Normal
+ms.custom: Adm_O365
+ms.collection:  
+- Strat_SP_admin
+- M365-collaboration
+search.appverid:
+- SPO160
+- MET150
+description: "Learn how to disable automatic modernization of classic home site home pages"
+
+---
+# Classic home page modernization
