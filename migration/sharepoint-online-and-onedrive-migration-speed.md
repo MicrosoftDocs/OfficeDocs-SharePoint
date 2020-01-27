@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Online and OneDrive Migration Speed"
+title: "General migration performance guidance"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -9,8 +9,6 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:
-- IT_OneDriveAdmin
-- IT_OneDriveAdmin_Top
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
@@ -56,7 +54,7 @@ The following table provides estimates of the type of speed you may achieve base
 The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. In addition, ensure that your permissions, sharing, or other limits are set up properly for migration and are within [SharePoint Online limits and boundaries](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 >[!Note]
-> If you are planning to migrate over 100TB, please review the section below:  [Large migration]
+> If you are planning to migrate over 100TB, please review the section below, **Large Migration**.
 
 
 
@@ -112,9 +110,6 @@ Follow these steps:
 
 5. Click **Contact Support**.
 6. Under **Description** enter “SharePoint Migration over 100TB”. 
-
-     ![Contact support](media/contact-support-100tb.png)
-
 7. Fill out the remaining information and click **Contact me**.
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
 - Estimated size of your migration: 
@@ -124,14 +119,23 @@ Follow these steps:
 
 ## FAQ and Troubleshooting
 
-**Question: I am experiencing poor performance or throttling during migration.**
+**Question: I am experiencing poor performance or throttling during migration.**</br>
 Answer:  Please check up guidance in this document, plus refer to Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
-**Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**
+**Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**</br>
 Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
 </br></br>
 
-**Question: My migration is blocked with consistent high volume of Http 503 errors (“Server Too Busy”) ?**
+**Question: If you cannot turn off the throttle, what can I do if I am being throttled or experience poor performance?**</br>
+Answer:  Here are some quick self-help checks to consider:</br>
+
+- Try to migrate during off-peak business hours
+- If you are experiencing slowness, make sure you are not running any unnecessary software which may compete with migration resources. 
+- Check with your software provider to ensure you are migrating to SPO/OneDrive using *app-based authentication*.  Migration is a background task and should not be run in user mode. If attempted to migrate in user mode, it can trigger larger than normal throttling.
+</br></br>
+
+
+**Question: My migration is blocked with consistent high volume of Http 503 errors (“Server Too Busy”) ?**</br>
 Answer: If you are experiencing a high volume of HTTP 503 responses blocking your migration for extended period of time, please follow the steps below to create a support ticket.
 1. Navigate to https://admin.microsoft.com
 2. Ensure you are using the new admin center preview.
@@ -152,28 +156,43 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 
 5. Click **Contact Support**.
 6. Under **Description** enter “SharePoint Migration Throttling with 503”. 
-
-     ![Contact support](media/contact-support.png)
-
-
 7. Fill out the remaining information and click **Contact me**.
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
-- How much is left of your migration (x TB?) 
-- Migration start and end date 
-- Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
-- Estimate the number of throttles (e.g. x throttle per hour?) and when (specific time and date) did the throttling happened 
-- Which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)  
+    - How much is left of your migration (x TB?) 
+    - Migration start and end date 
+    - Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
+    - Estimate the number of throttles (e.g. x throttle per hour?) and when (specific time and date) did the throttling happened 
+    - Which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)  
 </br></br>
 
-**Question: I am planning to migrate greater than 100TB.  Is there any preparation needed?**
-Answer: Please see [Large migrations](#large-migrations-over-100tb) for steps to follow for large migrations.
 
-**Question: I am experiencing poor performance or throttling during migration.**
-Answer: If you are experiencing slowness, make sure you are not running any unnecessary software which may compete with migration resources including disk IO, network bandwidth, or antivirus software. Try to migrate during off-peak hours. For more information, please check guidance in this document. For additional information on throttling, see:</br>
- - [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) 
+**Question: If I want to file a Microsoft support ticket, what information should I include?**</br>
+Answer:  Follow these steps and include the following information when filing Microsoft support ticket for any other migration reason:
+
+1. Navigate to https://admin.microsoft.com
+2. Ensure you are using the new admin center preview.
+
+>[!Note]
+>If you are using the old M365 admin center you can skip step 8 as the “Description” field will not exist.
+
+3. On the left navigation pane click **Support** and then **New Service Request**.This will activate the **Need Help?** pane on the right-hand side of your screen.
+
+4. In the **Briefly describe your issue** area, enter "SharePoint Migration issue.</br>
+5. Click **Contact Support**.
+6. Under **Description** enter a brief description of your migration issue. 
+7. Fill out the remaining information and click **Contact me**.
+8. Once the ticket has been created, made sure to include the following information:
+
+    - Your tenant URL
+    - How much is left of your migration (x TB?)
+    - Migration start and end date
+    - A description of where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
+    - If it is a throttling related escalation, provide information such as the number of throttles, how many throttles per hour, and the specific time and date the throttling happened. If you are experiencing poor performance, please describe the nature of the poor performance.
+    - Indicate which migration tool you are using (e.g. SPMT, Sharegate, Mover, etc.)
+    - State if you are logging in using *user login* or *app-based authentication*.
 
 
-Contact your third party vendor for specific questions on tool configuration.
+We welcome feedback and encourage you to submit suggestions or questions that will help us improve the content.
  
 ## Related Topics
 

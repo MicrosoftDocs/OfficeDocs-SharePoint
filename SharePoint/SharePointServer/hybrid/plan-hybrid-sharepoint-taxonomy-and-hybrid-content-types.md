@@ -29,12 +29,12 @@ SharePoint hybrid taxonomy enables you to have a single taxonomy that spans Shar
   
 You can choose which term groups are shared between SharePoint Server and SharePoint Online and which are on-premises only or online only.
   
-The shared taxonomy is mastered inSharePoint Online and a read-only copy is kept updated in SharePoint Server. Shared terms, term sets, and groups are available in both locations.
+The shared taxonomy is mastered in SharePoint Online and a read-only copy is kept updated in SharePoint Server. Shared terms, term sets, and groups are available in both locations.
 
 >[!IMPORTANT] 
 > Farm Administrators can modify Term Groups on-premises. These changes will not replicate to SharePoint Online. It is important that Farm Administrators be notified to not make changes on-premises.
   
-You also have the option of installing hybrid content types. This feature propagates updates to your SharePoint Online content types to your SharePoint Server site collections.
+You also have the option of installing hybrid content types. This feature propagates updates made to your SharePoint Online content types to your SharePoint Server site collections.
   
 ## Prerequisites
 

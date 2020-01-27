@@ -25,16 +25,14 @@ As a global or SharePoint admin in Office 365, you can allow or prevent site col
   
 ## Allow or prevent site collection administrators from connecting classic team sites to new Office 365 groups
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has admin permissions for your organization.
+
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
+2. Select **classic settings page**.
     
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint** to open the SharePoint admin center. (You might need to select **Show more** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-    
-3. In the left pane, select **Settings**, and then select **classic settings page**.
-    
-4. Next to "Allow site owners to create Office 365 groups and attach them to existing sites," select **Do not allow site owners to create new Office 365 groups for their existing sites.** or **Allow site owners to create new Office 365 groups for their existing sites.**
+3. Next to "Allow site owners to create Office 365 groups and attach them to existing sites," select **Do not allow site owners to create new Office 365 groups for their existing sites.** or **Allow site owners to create new Office 365 groups for their existing sites.**
     
 When this setting is on, and the site collection administrator for a classic team site (with the template STS#0) is allowed to create groups, they will see the "Connect to a new Office 365 Group" option in settings. For more info, see:
   
@@ -47,6 +45,4 @@ When this setting is on, and the site collection administrator for a classic tea
 - [SharePoint modernization scanner tool](https://go.microsoft.com/fwlink/?linkid=873066)
     
 > [!NOTE]
-> If your organization has set up OneDrive and SharePoint Multi-Geo, site collection administrators can connect a site to a new Office 365 group only if the site's location matches the user's preferred data location. 
-  
-
+> If your organization has set up OneDrive and SharePoint Multi-Geo, site collection administrators can connect a site to a new Office 365 group only if the site's location matches the user's preferred data location.
