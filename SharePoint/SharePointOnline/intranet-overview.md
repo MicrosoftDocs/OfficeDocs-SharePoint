@@ -23,6 +23,14 @@ description: "Learn about planning and deploying a SharePoint intranet."
 
 Planning an intranet can be a daunting task. In this article we look at the high level tasks that IT Professionals, business owners, site owners, and content creators must do to create and maintain a successful intranet with SharePoint. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. As you read, follow the links included for more detailed information on the areas that you're working on.
 
+
+|Your role|Planning tasks|Build tasks|Live site maintenance|
+|:--------|:-------------|:----------|:------------------|
+|[Company intranet owner](#company-intranet-owner)|Branding, adoption, governance, information architecture, and change management|||
+|[IT / Admin](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, end user training|Site creation, navigation, search, branding, publishing||
+|[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
+|[Content creators](#content-creators)|Content best practices, content and site design|Create and share content, content collaboration|Update existing content, publish new content|
+
 Keep in mind these key success factors as your team works together to plan and implement your intranet:
 
 > [!div class="checklist"]
