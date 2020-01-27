@@ -134,7 +134,7 @@ The table below lists the refiners we want to use for the categories "Audio" and
 |Mega pixels  <br/> |Number  <br/> |List  <br/> |
 |Max ISO  <br/> |Number  <br/> |List  <br/> |
    
-It's important to define how you want your refiner values to be displayed because the different display options are tied to the property type. If that didn't make much sense to you, don't worry. We'll expalin more with examples in the next article.
+It's important to define how you want your refiner values to be displayed because the different display options are tied to the property type. If that didn't make much sense to you, don't worry. We'll explain more with examples in the next article.
   
 #### Next article in this series
 
