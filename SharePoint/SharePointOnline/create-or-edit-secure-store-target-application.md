@@ -20,6 +20,9 @@ description: "Learn how to configure a Secure Store Target Application, includin
 When you want to use external data, such as data from your other business applications or partner resources) in SharePoint, you can use Business Connectivity Services (BCS) together with Secure Store. And, you can manage BCS and Secure Store right in the SharePoint admin center. The external data source that you can connect to is called a Secure Store Target Application, or just a Target Application. 
   
 BCS makes it possible for you to set up a connection to the Target Application, and the Secure Store enables you to manage the credentials that are required by the external data source. 
+
+>[!NOTE]
+>To access the Secure Store, you must have the SharePoint Admin role or Global Admin role.
   
 ## How the Secure Store Service Works
 <a name="__toc346879710"> </a>
