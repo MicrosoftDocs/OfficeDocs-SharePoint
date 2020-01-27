@@ -24,7 +24,7 @@ You have a new home page for your team site. Now it's easier to post news and us
 
 This article covers all the details on how the feature works and the controls you have as an administrator. 
 
-# How it works? 
+## How it works? 
 
 If a classic team site meets the following criteria for being updated, the home page will automatically modernize the next time a user visits. When users first experience the change, they’ll see a walkthrough that highlights the new capabilities and includes a link to a help article with more details. 
 
@@ -62,7 +62,7 @@ The technical details:
 
  
 
-# Why update classic team site home pages to modern? 
+## Why update classic team site home pages to modern? 
 
 Over the years SharePoint modern pages have become powerful tools for collaboration and productivity at work and we want more users to take advantage of these capabilities. Automatically modernizin team site home pages that are not customized is the first step to helping classic SharePoint users get more out of their products. 
 
@@ -94,19 +94,19 @@ We understand there may be sites you don’t want updated. You can use the follo
 Note: It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. 
 
 
-# What about new classic team sites STS#0 after this change? 
+## What about new classic team sites STS#0 after this change? 
 
 Any classic team sites (STS#0) you create after modernizing the home pages will retain their classic home page for now. We are working towards a change that will set the default home page for classic team sites STS#0 as a modern page in the future. Classic team sites (STS#0) created during the rollout of this feature that are not customized will get updated. Once the feature rollout is completed, any classic team sites (STS#0) created will retain their classic home page. 
 
  
 
-# Can I also modernize the other pages in my sites? 
+## Can I also modernize the other pages in my sites? 
 
 For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages). 
 
  
 
-# Getting excited about modern? 
+## Getting excited about modern? 
 
 For more help in transitioning to modern, refer to the following resources: 
 
