@@ -26,7 +26,7 @@ description: "Learn about the MIM Synchronization service that is used in a Shar
 ## New to SharePoint Server 2016: MIM Synchronization service
 <a name="BKMK_WhatIsMIM1"> </a>
 
-Previous versions of SharePoint Server had a built-in copy of ForeFront Identity Manager (FIM) that ran inside SharePoint Server that allow user profile synchronization to occur. That version of FIM powered the User Profile Synchronization for products like SharePoint Server 2010 and SharePoint Server 2013. But in SharePoint Server 2016, FIM has been removed in favor of Microsoft Identity Manager, which is the successor to the FIM technology. Even though FIM has been removed, the basic architecture for MIM uses some of the same FIM technology. For addtional information on FIM technology, see [FIM 2010 Technical Overview](https://go.microsoft.com/fwlink/?linkid=841840)
+Previous versions of SharePoint Server had a built-in copy of ForeFront Identity Manager (FIM) that ran inside SharePoint Server that allow user profile synchronization to occur. That version of FIM powered the User Profile Synchronization for products like SharePoint Server 2010 and SharePoint Server 2013. But in SharePoint Server 2016, FIM has been removed in favor of Microsoft Identity Manager, which is the successor to the FIM technology. Even though FIM has been removed, the basic architecture for MIM uses some of the same FIM technology. For additional information on FIM technology, see [FIM 2010 Technical Overview](https://go.microsoft.com/fwlink/?linkid=841840)
   
 MIM is a separate server technology (not built-in to SharePoint Server). That means, if you have MIM, specifically the MIM Synchronization Service, running in your company, more than one SharePoint Server 2016 farm can rely upon it.
   
