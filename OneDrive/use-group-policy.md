@@ -59,7 +59,7 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 - The location where registry keys are written has been updated. When you use the latest files, you might delete registry keys that you set previously.
 
 > [!NOTE]
-> For information about storage, see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/onedrive-files-on-demand-and-storage-sense-for-windows-10-de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-storage).
+> For information about storage, see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](/windows/client-management/mdm/policy-csp-storage).
 
 ## List of policies
 
@@ -68,6 +68,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 - [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#AllowTenantList)
 
 - [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#EnableHoldTheFile)
+
+- [Block file downloads when users are low on disk space](use-group-policy.md#MinDiskSpaceLimitInMB)
 
 - [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#BlockTenantList)
 
@@ -121,6 +123,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Use OneDrive Files On-Demand](use-group-policy.md#FilesOnDemandEnabled)
 
+- [Warn users who are low on disk space](use-group-policy.md#WarningMinDiskSpaceLimitInMB)
+
 
 > [!NOTE]
 > "Specify SharePoint Server URL and organization name" and "Specify the OneDrive location in a hybrid environment" are for customers who have SharePoint Server 2019. [More info about using the new OneDrive sync app with SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client/)
@@ -163,6 +167,17 @@ This policy sets the following registry key.
   
 This setting will take priority over [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#BlockTenantList). Do not enable both settings at the same time.
   
+### Block file downloads when users are low on disk space
+<a name="MinDiskSpaceLimitInMB"> </a>
+
+This setting lets you specify a minimum amount of available disk space and block the OneDrive sync app (OneDrive.exe) from downloading files when users have less than this amount. 
+ 
+Users will be prompted with options to help free up space.
+  
+Enabling this policy sets the following registry key value to a number from 0 through 10240000.
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]" MinDiskSpaceLimitInMB
+
+
 ### Block syncing OneDrive accounts for specific organizations
 <a name="BlockTenantList"> </a>
 
@@ -357,7 +372,7 @@ Enabling this policy sets the following registry key:
  
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"GPOSetUpdateRing"="dword:0000000X"
 
-Set the value 4 for Insider, 5 for Production, or 0 for Enterprise. Note that when you configure this setting to 5 for Production, or 0 for Enterprise, the "Get OneDrive Insider preview updates before release" checkbox will not appear on the client Settings > About tab.
+Set the value 4 for Insider, 5 for Production, or 0 for Enterprise. Note that when you configure this setting to 5 for Production, or 0 for Enterprise, the "Get OneDrive Insider preview updates before release" checkbox will not appear on the Settings > About tab in the sync app.
   
 For more info on the builds currently available in each ring, see the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more info about the update rings and how the sync app checks for updates, see [The OneDrive sync app update process](sync-client-update-process.md).
 
@@ -393,7 +408,7 @@ Setting this value to 1 displays a notification after successful redirection.
 > [!IMPORTANT]
 > [Azure Active Directory Authentication Library](/azure/active-directory/develop/active-directory-authentication-libraries) is now enabled automatically when you enable this setting through Group Policy or by using the registry key, so you don't have to download and enable it separately.
   
-If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync app without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync app (Groove.exe), the new sync app will attempt to take over syncing the user's OneDrive from the previous client and preserve the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB) on PCs that don't have Files On-Demand and with [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
+If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync app without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync app (Groove.exe), the new sync app will attempt to take over syncing the user's OneDrive from the previous app and preserve the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB) on PCs that don't have Files On-Demand and with [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
 
 Enabling this policy sets the following registry key value to 1.
   
@@ -407,7 +422,7 @@ Please let us know if you have feedback on this feature or encounter any issues.
 
 This setting lets you control whether OneDrive Files On-Demand is enabled for your organization. Files On-Demand helps you save storage space on your users' computers and minimize the network impact of sync. The feature is available to users running Windows 10 Fall Creators update (version 1709 or later). [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
   
-If you enable this setting, new users who set up the sync app will download online-only files by default. If you disable this setting, Windows 10 users will have the same sync behavior as users of previous versions of Windows, and won't be able to turn on Files On-Demand. If you do not configure this setting, users can turn Files On-Demand on or off.
+If you enable this setting, new users who set up the sync app will see online-only files in File Explorer by default. File contents won't download until a file is opened. If you disable this setting, Windows 10 users will have the same sync behavior as users of previous versions of Windows, and won't be able to turn on Files On-Demand. If you do not configure this setting, users can turn Files On-Demand on or off.
 
 Enabling this policy sets the following registry key value to 1.
   
@@ -417,8 +432,13 @@ Meet Windows and OneDrive sync app requirements and still can't see Files On-Dem
 
 [HKLM\SYSTEM\CurrentControlSet\Services\CldFlt]"Start"="dword:00000002"
 
+### Warn users who are low on disk space
+<a name="WarningMinDiskSpaceLimitInMB"> </a>
 
-
+This setting lets you specify a minimum amount of available disk space and warn users when the OneDrive sync app (OneDrive.exe) downloads a file that causes them to have less than this amount. Users will be prompted with options to help free up space.
+  
+Enabling this policy sets the following registry key value to a number from 0 through 10240000.
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]" WarningMinDiskSpaceLimitInMB"
 
 
 ## User Configuration policies
