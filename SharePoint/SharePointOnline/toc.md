@@ -9,6 +9,7 @@
 ### [Creating and launching a healthy SharePoint portal](portal-health.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 ### [Create guidelines for site usage ](sites-usage-guidelines.md)
+### [Governance overview](governance-overview.md)
 ## [Guide to the modern experience]()
 ### [Overview](guide-to-sharepoint-modern-experience.md)
 ### [Add a sample site to your tenant](add-sample-site.md)
