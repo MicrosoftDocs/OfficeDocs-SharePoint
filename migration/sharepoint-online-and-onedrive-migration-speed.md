@@ -114,7 +114,7 @@ Follow these steps:
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
 - Estimated size of your migration: 
 - An estimate of when you would like to start and complete your migration:
-- Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc: 
+- Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.: 
 
 
 ## FAQ and Troubleshooting
