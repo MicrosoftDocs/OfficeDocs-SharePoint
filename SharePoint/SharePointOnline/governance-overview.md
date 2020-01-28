@@ -36,7 +36,7 @@ Use these resources to further explore governance in SharePoint and related serv
 
 ### Microsoft Teams
 
-- [Plan for governance in Microsoft teams](https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start)
+- [Plan for governance in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start)
 - [Plan for lifecycle management in Teams](https://docs.microsoft.com/MicrosoftTeams/plan-teams-lifecycle)
 
 ### Office 365 Groups
