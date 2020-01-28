@@ -50,7 +50,7 @@ The technical details:
 
 - Applies to both STS#0 site collections and subsites 
 
-- The update only applies to the home page. No other classic pages will be changed. We recommend using the [SharePoint PnP modernization framework](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages) for all other site pages. 
+- The update only applies to the home page. No other classic pages will be changed. We recommend using the [SharePoint PnP modernization framework](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages) for all other site pages. 
 
 - The new modern home page is named ‘Home.aspx’ and the classic page gets renamed to ‘Home(old).aspx’ 
 
@@ -70,7 +70,7 @@ How to prevent specific sites from being updated?
 
 We understand there may be sites you don’t want updated. You can use the following tools to disable the update on specific sites: 
 
-1. Use [PnP PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded 
+1. Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded 
 
 - Connect to a site 
 
@@ -88,7 +88,7 @@ We understand there may be sites you don’t want updated. You can use the follo
 
  
 
-2. Don’t know what sites will be impacted by this change? You can use the [SharePoint Modernization Scanner](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-scanner) to find the list of sites impacted. This tool will enable you to message users impacted if desired. If needed, use the PowerShell cmdlet above, or the following sample script to opt multiple sites out of the update: https://github.com/SharePoint/sp-dev-modernization/tree/dev/Scripts/HomePageModernizationOptOut  
+2. Don’t know what sites will be impacted by this change? You can use the [SharePoint Modernization Scanner](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner) to find the list of sites impacted. This tool will enable you to message users impacted if desired. If needed, use the PowerShell cmdlet above, or the following sample script to opt multiple sites out of the update: https://github.com/SharePoint/sp-dev-modernization/tree/dev/Scripts/HomePageModernizationOptOut  
  
 
 Note: It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. 
@@ -102,7 +102,7 @@ Any classic team sites (STS#0) you create after modernizing the home pages will 
 
 ## Can I also modernize the other pages in my sites? 
 
-For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages). 
+For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages). 
 
  
 
@@ -110,12 +110,12 @@ For a more consistent user experience, we recommend that you modernize all pages
 
 For more help in transitioning to modern, refer to the following resources: 
 
-- [Guide to modern experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)
+- [Guide to modern experience in SharePoint](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)
 
 - [SharePoint modern inspiration](https://lookbook.microsoft.com/)  
 
-- [Modernizing your classic sites](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-classic-sites)  
+- [Modernizing your classic sites](https://docs.microsoft.com/sharepoint/dev/transform/modernize-classic-sites)  
 
-- [Transform classic pages to modern pages](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-userinterface-site-pages) 
+- [Transform classic pages to modern pages](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages) 
 
  
