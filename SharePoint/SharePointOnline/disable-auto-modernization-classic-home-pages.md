@@ -66,7 +66,7 @@ The technical details:
 
 Over the years SharePoint modern pages have become powerful tools for collaboration and productivity at work and we want more users to take advantage of these capabilities. Automatically modernizin team site home pages that are not customized is the first step to helping classic SharePoint users get more out of their products. 
 
-How to prevent specific sites from being updated? 
+## How to prevent specific sites from being updated? 
 
 We understand there may be sites you don’t want updated. You can use the following tools to disable the update on specific sites: 
 
