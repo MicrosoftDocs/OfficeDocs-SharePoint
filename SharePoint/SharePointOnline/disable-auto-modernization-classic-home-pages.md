@@ -96,10 +96,9 @@ Note: It's highly recommended that you modernize your home site to benefit from 
 
 ## What about new classic team sites STS#0 after this change? 
 
-Any classic team sites (STS#0) you create after modernizing the home pages will retain their classic home page for now. We are working towards a change that will set the default home page for classic team sites STS#0 as a modern page in the future. Classic team sites (STS#0) created during the rollout of this feature that are not customized will get updated. Once the feature rollout is completed, any classic team sites (STS#0) created will retain their classic home page. 
+Classic team sites (STS#0) created during the rollout of this feature, that are not customized will get updated if the criteria are met. Once the feature rollout is completed, any classic team sites (STS#0) created will retain their classic home page. 
 
  
-
 ## Can I also modernize the other pages in my sites? 
 
 For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages). 
