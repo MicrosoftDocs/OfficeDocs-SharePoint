@@ -30,7 +30,7 @@ If a classic team site meets the following criteria for being updated, the home 
 
 We encourage users to adopt the change in order to benefit from the power of modernized pages. However, if site admins or site owners want to revert to the classic home page, they can. Instructions are available in the [support article](https://support.office.com/en-us/article/new-sharepoint-team-home-page-77cbbd3c-2a23-4a76-bfd7-c5bf95afe1c6?ui=en-US&rs=en-US&ad=US). 
 
-Update criteria: 
+### Update criteria: 
 
 - Classic team site (STS#0) only 
 
@@ -46,7 +46,7 @@ Update criteria:
 
  
 
-The technical details: 
+### The technical details: 
 
 - Applies to both STS#0 site collections and subsites 
 
@@ -54,13 +54,11 @@ The technical details:
 
 - The new modern home page is named ‘Home.aspx’ and the classic page gets renamed to ‘Home(old).aspx’ 
 
-- This update does not create an Office 365 Group for the team site 
+- This update does not create an [Office 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site 
 
 - Only site collection admins can revert to the classic home page through the link appearing in the left navigation. Site owners can revert to the classic page by visiting site pages and marking the classic page as their home page. 
 
-- Update happens on demand based on next site access. If a subsite is accessed, it will trigger the update for its root site collection and its other subsites. Remember, the update only applies to the root site collection and subsites if the criteria are met. 
-
- 
+- Update happens on demand based on next site access. If a subsite is accessed, it will trigger the update for its root site collection and its other subsites. Remember, the update only applies to the root site collection and subsites if the criteria are met.  
 
 ## Why update classic team site home pages to modern? 
 
@@ -72,26 +70,28 @@ We understand there may be sites you don’t want updated. You can use the follo
 
 1. Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded 
 
-- Connect to a site 
+```PowerShell
 
-- $cred = Get-Credential 
+#Connect to a site 
 
-- Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred 
+$cred = Get-Credential 
 
-- Enabling the feature that blocks uncustomized home page modernization 
+Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred 
 
-- Enable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web 
+#Enabling the feature that blocks uncustomized home page modernization 
 
-- And again disabling the feature that blocks uncustomized home page modernization 
+Enable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web 
 
-- Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web 
+#And again disabling the feature that blocks uncustomized home page modernization 
 
- 
+#Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web   
+
+```
 
 2. Don’t know what sites will be impacted by this change? You can use the [SharePoint Modernization Scanner](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner) to find the list of sites impacted. This tool will enable you to message users impacted if desired. If needed, use the PowerShell cmdlet above, or the following sample script to opt multiple sites out of the update: https://github.com/SharePoint/sp-dev-modernization/tree/dev/Scripts/HomePageModernizationOptOut  
  
 
-Note: It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. 
+NOTE: It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. 
 
 
 ## What about new classic team sites STS#0 after this change? 
@@ -103,7 +103,6 @@ Classic team sites (STS#0) created during the rollout of this feature, that are 
 
 For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages). 
 
- 
 
 ## Getting excited about modern? 
 
