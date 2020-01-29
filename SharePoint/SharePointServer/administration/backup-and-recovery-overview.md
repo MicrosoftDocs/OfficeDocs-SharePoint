@@ -182,7 +182,7 @@ Consider the following before you use farm backups:
   
 - There is no built-in scheduling system for backups. To schedule a backup, we recommend that you use PowerShell to create a backup script, and then use Windows Task Scheduler to run the backup script regularly.
     
-- We do not recommend that you use IIS metabase backup to protect IIS settings. Instead, document all IIS configurations for each web server by using a tool that provides the configuration monitoring you want, such as System Center Configuration Manager.
+- We do not recommend that you use IIS metabase backup to protect IIS settings. Instead, document all IIS configurations for each web server by using a tool that provides the configuration monitoring you want, such as Microsoft Endpoint Configuration Manager.
     
 - SharePoint Server backup and recovery can be run together with SQL Server Enterprise features such as backup compression and transparent data encryption. 
     
