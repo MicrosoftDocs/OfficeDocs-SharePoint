@@ -23,10 +23,10 @@ This workshop provides guidance on how you can roll out OneDrive Known Folder Mo
 
 - Plan for common challenges
 - Requirements for each deployment option
-- Deploy using Active Directory and Group Policy objects, SCCM, or Intune
+- Deploy using Active Directory and Group Policy objects, Microsoft Endpoint Configuration Manager, or Intune
 - Monitor device eligibility, known folder details, move status, and Group Policy object state
 
-The workshop assumes that you've already set up core infrastructure (Active Directory, DNS, AD Connect, SCCM) and doesn't cover third-party tools or custom applications integration.
+The workshop assumes that you've already set up core infrastructure (Active Directory, DNS, AD Connect, Microsoft Endpoint Configuration Manager) and doesn't cover third-party tools or custom applications integration.
 
 [Download the PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/OneDrive/media/OneDrive-for-Business-KFM.pdf?raw=true)
 
