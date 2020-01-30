@@ -148,7 +148,7 @@ After you have created the content package, use the  *ConvertTo-SPOMigrationTarg
   
 There are six required parameters to enter (others are optional
   
-- ParallelImport : Tell the tool to optimise performance by using parallel threads.
+- ParallelImport : Tell the tool to optimize performance by using parallel threads.
     
 - SourceFiles: points to the directory location where the package's source content files exist
     
