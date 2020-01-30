@@ -16,11 +16,13 @@ description: "Learn about the query variables that you can use when you configur
 
 # Query variables in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
 ## Query variables
 
-The following tables show the query variables for SharePoint Server, and examples on how they can be used.
+The following tables show the query variables for SharePoint Server and SharePoint Online, and examples on how they can be used.
+
+Note that not all query variables are supported in modern Microsoft Search experiences and APIs.
   
 **Site and site collection properties**
 
@@ -59,6 +61,7 @@ The following tables show the query variables for SharePoint Server, and example
 |{User.PreferredContentLanguage}  <br/> |Language as specified as Preferred Content Language in the profile of the user who issued the query.  <br/> |
 |{User.PreferredDisplayLanguage}  <br/> |Language as specified as Preferred Display Language in the profile of the user who issued the query.  <br/> |
 |{User.\<property\>}  <br/> |Any property from the user profile of the user who issued the query — for example, SPS-Interests, including custom properties.  <br/> |
+|{User.Audiences} <br/><br/>(SPO only)<br/> | Used with modern [SharePoint Online audience targeting](https://support.office.com/en-gb/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293#ID0EABAAA=SharePoint_Online) filtering on the managed property `ModernAudienceAadObjectIds`. Example: `ModernAudienceAadObjectIds:{User.Audiences}`. <br/>|
    
 **Term and term set properties**
 

@@ -112,7 +112,7 @@ Start-SharePointSync -Verbose
 
 ```
 
-![The output of running the Start-SharePointSync commandlet with -verbose switch to run the sync service managment agent.](../media/7bafbb31-696f-4724-ab98-fa1859125523.PNG)
+![The output of running the Start-SharePointSync commandlet with -verbose switch to run the sync service management agent.](../media/7bafbb31-696f-4724-ab98-fa1859125523.PNG)
   
 ## How to add more Active Directory Domains
 <a name="BKMK_StartSyncConfig"> </a>

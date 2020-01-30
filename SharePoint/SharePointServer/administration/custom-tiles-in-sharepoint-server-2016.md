@@ -93,7 +93,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
 After you add a new item in the custom tiles list due to caching, it may take up to 24 hours before you can see it appear in the app launcher. If you want to see it immediately, you can run **ClearSuiteLinksCache()** function in the developer browser's console which is displayed by pressing **F12** while in a browser session as displayed in the following diagram. 
 
   > [!NOTE]
-  > The **ClearSuiteLinksCache()** function is not available in SharePoint Server 2019 and will generate an error if used.
+  > The **ClearSuiteLinksCache()** function is not available for modern sites in SharePoint Server 2019 and will generate an error if used.
   
 ![Displays the developer browser's console in a browser session](../media/313b5ce5-07df-4fd3-8861-59d3c7635970.jpg)
   
