@@ -40,6 +40,8 @@ As a first step, we recommend that you review the [SharePoint look book](https:/
 
 Also review the [Guide to the Modern experience in SharePoint](guide-to-sharepoint-modern-experience.md) for an understanding of how the different component parts work together.
 
+For an interactive workshop to learn how to succeed with a SharePoint intranet, look for an [Acclelrator workshop](https://resources.techcommunity.microsoft.com/events/intelligent-intranet-accelerator-workshop) in a city near you.
+
 In the following sections, we look at how find the best starting point for your SharePoint intranet and how to prioritize the different intranet solutions that you may need for your organization. Keep these references handy as you work with your stakeholders - they can help you get the most value and best time to value for your intranet solutions.
 
 ## Review your existing intranet
