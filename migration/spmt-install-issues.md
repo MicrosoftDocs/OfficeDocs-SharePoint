@@ -34,6 +34,25 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |Anti-virus| Stop 3rd party anti-virus software on your computer prior to installation.
 
 
+### Government cloud support
+
+If you are on a government cloud, you must first take these steps:
+
+1. Open microsoft.sharepoint.migration.common.dll.config.
+2. Change the value of **SPOEnvironmentType** to 2.  
+
+![Change SPOEnvironmentType](media/gov-cloud-setting.png)
+
+
+3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
+
+
+>[!Note]
+>"0" = Worldwide consumer cloud</br>
+>"1" = U.S. Government Cloud computing</br>
+>"2" = U.S. Government Cloud computing high and DoD</br>
+
+
 ### **Check to make sure all system prerequisites have been installed**
 
 #### Requirements for best performance
@@ -61,18 +80,6 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
    
 
-## Download the tool instead
-
-If you still are experiencing unexplained errors, try downloading the SPMT tool to your local computer.  
-
-1. Download zip package to your local computer:  [Download SPMT.zip package](https://aka.ms/spmt-zip).
-2. Right-click the zip file, and click properties.
-3. On the General tab, select **Unblock** and then click OK.</br></br>
- ![SPMT Properties](media/spmtzip.png)
-</br></br>
-4. Open the zip file and extract all files.
-5. Run the microsoft.sharepoint.migrationtool.advancedapp.exe file.
-
 ## **Install errors**
 
 |**Error**|**Suggested action**|
@@ -96,7 +103,9 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https://<spam><spam>*.queue.core.windows.<spam><spam>net|Migration API Azure requirement|
 |https://<spam><spam>*.blob.core.windows.<spam><spam>net|Migration API Azure requirement|
 |https://<spam><spam>*.pipe.aria.microsoft.<spam><spam>com|Telemetry/update|
-|https://<spam><spam>*.sharepoint.<spam><spam>com|Destination for migratrion|
+|https://<spam><spam>*.sharepoint.<spam><spam>com|Destination for migration|
+|https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
+|https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|   
 
 
 

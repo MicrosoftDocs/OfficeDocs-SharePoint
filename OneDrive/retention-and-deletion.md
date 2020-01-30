@@ -34,43 +34,37 @@ If you give another user access to the OneDrive, that user will have 30 days by 
 
 By default, when a user is deleted, the user's manager is automatically given access to the user's OneDrive. Follow these steps to confirm that this automatic access delegation is enabled for your organization, and to set a secondary owner in case a user doesn't have a specified manager. If access delegation is disabled or a manager or secondary owner isn't set for a user, no one will have automatic access when the user is deleted or be warned that the OneDrive will be deleted.
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+>[!Note]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
-4. In the left pane, select **More features**.
+2. Under **User profiles**, select **Open**.
 
-5. Under **User profiles**, select **Open**.
+3. Under **My Site Settings**, select **Setup My Sites**.
 
-6. Under **My Site Settings**, select **Setup My Sites**.
+4. Next to **My Site Cleanup**, make sure **Enable access delegation** is selected.
 
-7. Next to **My Site Cleanup**, make sure **Enable access delegation** is selected.
+5. We recommend that you also specify a secondary owner account in the **My Site Cleanup** section. This account will be the appointed owner of the OneDrive if the user's manager isn't set in Azure AD. Email notifications will also be sent to the secondary owner account when the value is populated.
 
-8. We recommend that you also specify a secondary owner account in the **My Site Cleanup** section. This account will be the appointed owner of the OneDrive if the user's manager isn't set in Azure AD. Email notifications will also be sent to the secondary owner account when the value is populated.
-
-9. Select **OK**.
+6. Select **OK**.
   
 ## The OneDrive deletion process
 
 1. A user is deleted from the Microsoft 365 admin center or is removed through Active Directory synchronization.
-    
+
 2. The account deletion is synchronized to SharePoint.
-    
+
 3. The OneDrive Clean Up Job runs, and the OneDrive is marked for deletion. The deleted user will appear in the Microsoft 365 admin center for 30 days. The default retention period for OneDrive is also 30 days, but you can change this in the OneDrive admin center (see [Set the OneDrive retention for deleted users](set-retention.md)) or by using the PowerShell cmdlet `SetSPOTenant -OrphanedPersonalSitesRetentionPeriod <int32>`. For more information about using this cmdlet, see [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
-    
+
 4. If a manager is specified for the deleted user, the manager will receive an email telling them they have access to the OneDrive, and that the OneDrive will be deleted at the end of the retention period. For info about specifying a user's manager in the Azure Active Directory admin center, see [Add or update a user's profile information](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
-    
+
     If a manager isn't specified for the user account, but a secondary owner was entered in the SharePoint admin center, the secondary owner will receive an email telling them they have access to the OneDrive, and that the OneDrive will be deleted at the end of the retention period.
-    
+
 5. Seven days before the retention period expires, a second email will be sent to the manager or secondary owner as a reminder that the OneDrive will be deleted in seven days.
-    
+
 6. After seven days, the OneDrive for the deleted user is moved to the site collection recycle bin, where it is kept for 93 days. During this time, users will no longer be able to access any shared content in the OneDrive. To restore the OneDrive, you need to use PowerShell. For info, see [Restore a deleted OneDrive](restore-deleted-onedrive.md).
-    
+
     > [!NOTE]
     > The Recycle Bin is not indexed and therefore searches do not find content there. This means that an eDiscovery hold can't locate any content in the Recycle Bin in order to hold it. 
   

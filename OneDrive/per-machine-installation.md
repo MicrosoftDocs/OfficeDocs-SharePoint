@@ -41,7 +41,7 @@ The per-machine sync app supports syncing OneDrive and SharePoint files in Micro
 ## Deployment instructions
 
 1. Download OneDriveSetup.exe.
-2. Run “OneDriveSetup.exe /allusers” from a command prompt window (will result in a UAC prompt) or by using SCCM. This will install the sync app under the “Program Files (x86)\Microsoft OneDrive” directory. 
+2. Run “OneDriveSetup.exe /allusers” from a command prompt window (will result in a UAC prompt) or by using Microsoft Endpoint Configuration Manager. This will install the sync app under the “Program Files (x86)\Microsoft OneDrive” directory. 
 When setup completes, OneDrive will start. If accounts were added on the computer, they'll be migrated automatically.  
   
 ## FAQ
@@ -63,7 +63,7 @@ In the past you may have used a user group policy (under HKCU) to select the Ent
 **Does the per-machine sync app follow the same update process/cadence as the per-user sync app?** 
 Yes, the per-machine sync app will auto-update on the same cadence as the per-user sync app and the same rings are supported (see question above). The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync app update process](sync-client-update-process.md)
  
-The sync app is an extension of the service and a very thin client so auto-updating to the latest version is critical to maintaining a high-quality sync experience. As a result, we recommend that you keep your users in the default Production ring and rely on auto-update to take care of updating to the latest version. If your organization requires you to deploy updates manually through SCCM, we recommend that you select the Enterprise ring and deploy the upcoming builds before auto-update takes effect as described here. 
+The sync app is an extension of the service and a very thin client so auto-updating to the latest version is critical to maintaining a high-quality sync experience. As a result, we recommend that you keep your users in the default Production ring and rely on auto-update to take care of updating to the latest version. If your organization requires you to deploy updates manually through Configuration Manager, we recommend that you select the Enterprise ring and deploy the upcoming builds before auto-update takes effect as described here. 
 
 **Do automatic updates of the per-machine sync app require user intervention?**
 User intervention is not required for the per-machine sync app to update itself. Elevation is required when you first set it up. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.
@@ -71,9 +71,9 @@ User intervention is not required for the per-machine sync app to update itself.
 **How do I revert back to the per-user sync app if required?** 
 We do not support automated migration from per-machine to per-user. To revert back after installing per-machine, please uninstall the sync app and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the “/allusers” parameter.
 
-**How can I detect the installation through SCCM?** 
+**How can I detect the installation through Configuration Manager?** 
 
-For SCCM, to detect the install, use the following registry detection rule:
+For Configuration Manager, to detect the install, use the following registry detection rule:
 
 |Field|Value|
 |---|---|

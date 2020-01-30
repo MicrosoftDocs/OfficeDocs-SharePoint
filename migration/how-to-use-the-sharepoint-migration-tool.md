@@ -34,6 +34,10 @@ Review the system requirements, settings, and permissions behavior before beginn
 - [SPMT Settings](spmt-settings.md)</br>
 - [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>
 
+ > [!IMPORTANT]
+ > - The required permission at tenant level for the performer user is "SharePoint Admin".
+ > - The required permission at site collection level for the performer user is "Admin".
+ 
 #### Allow or prevent Custom Script (NoScript)</br>
 In Office 365 tenants you can control whether users can run custom script on personal sites and self-service created sites. 
 
@@ -67,8 +71,8 @@ SPMT supports the following authentication methods:
  - SAML based claims
  - Client certificate authentication
 
->[!Important]
->If the on-premesis server is configured to support multiple authentication providers,including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
+> [!IMPORTANT]
+> If the on-premesis server is configured to support multiple authentication providers,including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
 
 ### Where is your data currently located?
 
@@ -159,7 +163,7 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
   
  Any errors in your file it will be detected on a line-by-line basis. The error will indicate which line or lines contains the errors. You will not be able to proceed until you correct the errors in your file. 
   
->[!IMPORTANT]
+> [!IMPORTANT]
 > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 
   
    

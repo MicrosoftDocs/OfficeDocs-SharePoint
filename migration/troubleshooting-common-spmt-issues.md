@@ -83,8 +83,10 @@ This article describes some common issues and errors that you may encounter when
 |0x02070009|Several packages failed to upload. Pause the task and check your network connection.|
 |0x01710009|A failure occured due to job end failures; some items failed in the package. Restart migration.|
 |0x01710009|Errors or timeout for Server Processing the file: Not all the items in the package have been migrated.|
-0x01610001|The Azure container is expired. Retry migration task.|   
+|0x01610001|The Azure container is expired. Retry migration task.|   
 |0x01710006|Errors or timeout for Server Processing the file: Job Fatal Error.|
+|0x01710004|Errors or timeout for Server Processing the file. Fail to lookup folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
+|0x0131000F|Failed to Read the file. File is checked out.|
 
 
 ## Navigation errors
