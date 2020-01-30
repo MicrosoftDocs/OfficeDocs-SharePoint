@@ -49,6 +49,8 @@ This article describes some common issues and errors that you may encounter when
 |0x02060009| 1 - The site collection cannot be created because the URL is already in use or an invalid URL.|
 || 2 -  The site collection cannot be created because the URL contains invalid character.|
 || 3 -  The site collection cannot be created or updated.|
+|0x02060007| 1 - The site collection cannot be created because the URL is already in use or an invalid URL.|
+|| 2 -  The site collection cannot be created because the URL contains invalid character.|
 |0x02010018| 1 - Check your credentials and then try again.|
 || 2 -  A problem occurred accessing SharePoint.  Check your credentials and try again.|
 || 3 - A problem occurred accessing SharePoint.  Check your credentials and your network connection and try again.|
@@ -79,9 +81,14 @@ This article describes some common issues and errors that you may encounter when
 |0x0207001|You do not have access to the task folder. Check if you can access  %appdata%\Microsoft\MigrationToolStorage.|
 |0x01410010|A failure occurred because of missing dependencies on list items. Check the FailureSummaryReport.csv for details. Check if the dependencies have been included in your migration scope.|
 |0x01510001|Packages failed to upload. 	If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
+|0x01510001|Failed to Upload the Job to Server: Upload file failed during migration.|
 |0x02070009|Several packages failed to upload. Pause the task and check your network connection.|
 |0x01710009|A failure occured due to job end failures; some items failed in the package. Restart migration.|
-0x01610001|The Azure container is expired. Retry migration task.|   
+|0x01710009|Errors or timeout for Server Processing the file: Not all the items in the package have been migrated.|
+|0x01610001|The Azure container is expired. Retry migration task.|   
+|0x01710006|Errors or timeout for Server Processing the file: Job Fatal Error.|
+|0x01710004|Errors or timeout for Server Processing the file. Fail to lookup folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
+|0x0131000F|Failed to Read the file. File is checked out.|
 
 
 ## Navigation errors
@@ -97,7 +104,7 @@ This article describes some common issues and errors that you may encounter when
 ## Taxonomy errors
 |**Error**|**Reason**|**Action**|
 |:-----|:-----|:-----|
-|Migrate term store failed due to permission issue. |Current user is not a term store admin. |In the SharePoint Admin Center, select *Classic features*, and then under *Term store* click **Open**. Select the term store you want to migrate, then add the current user as a Term Store admininistrator.|
+|Migrate term store failed due to permission issue. |Current user is not a term store admin. |In the SharePoint Admin Center, select *Classic features*, and then under *Term store* click **Open**. Select the term store you want to migrate, then add the current user as a Term Store administrator.|
 |Migrate term store failed due to lack of working languages. |Not all working languages of source term store exist in the target term store. |Go to SharePoint Online site setting. Under Site Administration, click Term store management. Choose the term store you want to update, select and add all the languages existing in source term store to the target working language panel.|
 |Migrate term store failed due to default term store does not exist. |There is no default site collection term store at SP on-prem. |Go to SharePoint Server (on-premises) Central Administration, manage service application under Application Management, edit the properties of Managed Metadata Service Connection. Select the **This service application is the default storage location for column specific term sets**.|
 |Migrate term store failed due to several default term stores exist. |There are several default site collection term stores existing at SP on-prem. |Go to SharePoint OnPrem Central Administration, manage service application under Application Management, choose one Managed Metadata Service Connection as default term store. Deselect **This service application is the default storage location for column specific term sets** of other Managed Metadata Service Connections.|
