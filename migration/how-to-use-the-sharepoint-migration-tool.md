@@ -150,7 +150,7 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
     
 3. Select **JSON or CSV file for bulk migration.**
     
-5. Enter the full path of your .CSV or .JSON filewhere your content is located. Click **Add**.
+5. Enter the full path of your .CSV or .JSON file where your content is located. Click **Add**.
     
 6. Enter the URL of the SharePoint Online site where you want your files migrated. Click **Next**.
     
