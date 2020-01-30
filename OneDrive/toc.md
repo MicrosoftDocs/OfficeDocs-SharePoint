@@ -6,7 +6,7 @@
 ### [OneDrive guide for small businesses](One-Drive-Quickstart-Small-Business.md)
 ## [Sync]()
 ### [Sync app overview](one-drive-sync.md)
-### [Deploy using SCCM](deploy-on-windows.md)
+### [Deploy using Microsoft Endpoint Configuration Manager](deploy-on-windows.md)
 ### [Per-machine installation](per-machine-installation.md)
 ### [Set Files On-Demand states](files-on-demand-mac.md)
 ### [Use silent account configuration](use-silent-account-configuration.md)

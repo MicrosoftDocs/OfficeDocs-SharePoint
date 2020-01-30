@@ -114,13 +114,13 @@ Follow these steps:
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
 - Estimated size of your migration: 
 - An estimate of when you would like to start and complete your migration:
-- Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc: 
+- Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.: 
 
 
 ## FAQ and Troubleshooting
 
 **Question: I am experiencing poor performance or throttling during migration.**</br>
-Answer:  Please check up guidance in this document, plus refer to Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
+Answer:  Please check the guidance in this document, plus refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
 **Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**</br>
 Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
