@@ -36,7 +36,7 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 - Home page name is ‘Home.aspx’ 
 
-- Contains default webparts only: getting started (GettingStartedWebPart), Newsfeed (SiteFeedWebPart), and document library (XsltListViewWebPart). 
+- Contains default web parts only: getting started (GettingStartedWebPart), Newsfeed (SiteFeedWebPart), and document library (XsltListViewWebPart). 
 
 - No text is present (wiki HTML is not customized) 
 
@@ -62,7 +62,7 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 ## Why update classic team site home pages to modern? 
 
-Over the years SharePoint modern pages have become powerful tools for collaboration and productivity at work and we want more users to take advantage of these capabilities. Automatically modernizin team site home pages that are not customized is the first step to helping classic SharePoint users get more out of their products. 
+Over the years SharePoint modern pages have become powerful tools for collaboration and productivity at work and we want more users to take advantage of these capabilities. Automatically modernizing team site home pages that are not customized is the first step to helping classic SharePoint users get more out of their products. 
 
 ## How to prevent specific sites from being updated? 
 
