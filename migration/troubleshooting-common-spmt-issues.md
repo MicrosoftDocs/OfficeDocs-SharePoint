@@ -49,6 +49,8 @@ This article describes some common issues and errors that you may encounter when
 |0x02060009| 1 - The site collection cannot be created because the URL is already in use or an invalid URL.|
 || 2 -  The site collection cannot be created because the URL contains invalid character.|
 || 3 -  The site collection cannot be created or updated.|
+|0x02060007| 1 - The site collection cannot be created because the URL is already in use or an invalid URL.|
+|| 2 -  The site collection cannot be created because the URL contains invalid character.|
 |0x02010018| 1 - Check your credentials and then try again.|
 || 2 -  A problem occurred accessing SharePoint.  Check your credentials and try again.|
 || 3 - A problem occurred accessing SharePoint.  Check your credentials and your network connection and try again.|
