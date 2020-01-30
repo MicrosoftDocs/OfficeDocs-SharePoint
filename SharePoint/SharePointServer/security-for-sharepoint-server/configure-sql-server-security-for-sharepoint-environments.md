@@ -41,7 +41,7 @@ Before you begin this operation, review the following tasks about how to secure 
 ## Configuring a SQL Server instance to listen on a non-default port
 <a name="proc1"> </a>
 
-SQL Server provides the ability to reassign the ports that are used by the default instance and any named instances. In SQL Server Service Pack 1 (SP1), you reassign the TCP port by using SQL Server Configuration Manager. When you change the default ports, you make the environment more secure against hackers who know default assignments and use them to exploit your SharePoint environment.
+SQL Server provides the ability to reassign the ports that are used by the default instance and any named instances. In SQL Server, you reassign the TCP port by using SQL Server Configuration Manager. When you change the default ports, you make the environment more secure against hackers who know default assignments and use them to exploit your SharePoint environment.
   
  **To configure a SQL Server instance to listen on a non-default port**
   
