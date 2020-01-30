@@ -103,7 +103,9 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https://<spam><spam>*.queue.core.windows.<spam><spam>net|Migration API Azure requirement|
 |https://<spam><spam>*.blob.core.windows.<spam><spam>net|Migration API Azure requirement|
 |https://<spam><spam>*.pipe.aria.microsoft.<spam><spam>com|Telemetry/update|
-|https://<spam><spam>*.sharepoint.<spam><spam>com|Destination for migratrion|
+|https://<spam><spam>*.sharepoint.<spam><spam>com|Destination for migration|
+|https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
+|https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|   
 
 
 
