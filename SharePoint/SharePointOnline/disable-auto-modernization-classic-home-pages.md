@@ -71,7 +71,7 @@ We understand there may be sites you don’t want updated. You can use the follo
 Option 1: Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded 
 
 
-```PowerShell
+    ```PowerShell
 
    #Connect to a site 
 
@@ -87,7 +87,7 @@ Option 1: Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/
 
    #Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web   
 
-```
+    ```
 
 Option 2: Don’t know what sites will be impacted by this change? You can use the [SharePoint Modernization Scanner](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner) to find the list of sites impacted. This tool will enable you to message users impacted if desired. If needed, use the PowerShell cmdlet above, or the following sample script to opt multiple sites out of the update: https://github.com/SharePoint/sp-dev-modernization/tree/dev/Scripts/HomePageModernizationOptOut  
  
