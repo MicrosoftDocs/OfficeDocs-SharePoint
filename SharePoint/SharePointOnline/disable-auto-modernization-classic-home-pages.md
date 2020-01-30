@@ -72,19 +72,21 @@ Option 1: Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/
 
 
     ```PowerShell
-   #Connect to a site 
+    
+    #Connect to a site 
 
-   $cred = Get-Credential 
+    $cred = Get-Credential 
 
-   Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred 
+    Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred 
 
-   #Enabling the feature that blocks uncustomized home page modernization 
+    #Enabling the feature that blocks uncustomized home page modernization 
 
-   Enable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web 
+    Enable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web 
 
-   #And again disabling the feature that blocks uncustomized home page modernization 
+    #And again disabling the feature that blocks uncustomized home page modernization 
 
-   #Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web   
+    #Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web   
+   
     ```
 
 Option 2: Don’t know what sites will be impacted by this change? You can use the [SharePoint Modernization Scanner](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner) to find the list of sites impacted. This tool will enable you to message users impacted if desired. If needed, use the PowerShell cmdlet above, or the following sample script to opt multiple sites out of the update: https://github.com/SharePoint/sp-dev-modernization/tree/dev/Scripts/HomePageModernizationOptOut  
