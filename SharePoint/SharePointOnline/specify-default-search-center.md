@@ -22,28 +22,20 @@ As a global or SharePoint admin in Office 365, you can specify where searches sh
 ## Enter the address of your Search Center
 <a name="__goback"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-    
-4. Select **More features**. 
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
-5. Under **Search**, select **Open**.
+2. Under **Search**, select **Open**.
     
-6. On the search administration page, choose **Search Center Settings**.
+3. On the search administration page, choose **Search Center Settings**.
     
-7. In the **Search Center URL** box, type the URL of the Search Center site. 
+4. In the **Search Center URL** box, type the URL of the Search Center site.
   
     Example: http://companyportal/searchcenter/pages.
     
-8. Select **OK**.
+5. Select **OK**.
     
 > [!NOTE]
->  It may take up to 30 minutes before changes take effect. 
-  
-
+>  It may take up to 30 minutes before changes take effect.

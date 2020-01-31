@@ -36,31 +36,27 @@ The first step is to create the App Catalog site collection if it hasn't already
   
 Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create the App Catalog site collection. You can have only one App Catalog site collection for your organization, and you only need to create it once.
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-    
-3. In the left pane, select **More features**
- 
-4. Under **Apps**, select **Open**.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-5. Select **App Catalog**.
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+ 
+2. Under **Apps**, select **Open**.
+
+3. Select **App Catalog**.
     
-6. If the App Catalog site doesn't open, select **Create a new app catalog site**, and then select **OK**.
+4. If the App Catalog site doesn't open, select **Create a new app catalog site**, and then select **OK**.
     
     ![App catalog site dialog with Create a new app catalog site selected.](media/a7b6b416-5e02-43a8-a15a-f996b95dcc8f.PNG)
   
-7. On the Create App Catalog Site Collection page, enter the required information, and then select **OK**.
+5. On the Create App Catalog Site Collection page, enter the required information, and then select **OK**.
     
     ![Create App Catalog dialog box](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
   
 ## Step 2: Add custom apps to the App Catalog site
 <a name="__add_custom_apps"> </a>
 
-To get to the App Catalog site once it's been created, follow steps 1 through 4 in the previous section. The site may take a little time to appear. The App Catalog site will have a document library for Apps for Office and a document library for Apps for SharePoint, as well as a list that tracks App Requests from site users.
+To get to the App Catalog site once it's been created, follow steps 1 and 2 in the previous section. The site may take a little time to appear. The App Catalog site will have a document library for Apps for Office and a document library for Apps for SharePoint, as well as a list that tracks App Requests from site users.
   
 ![Screenshot of the home page of the App Catalog site.](media/e20ffd32-5162-49a0-a635-8486e0083afd.jpg)
   
