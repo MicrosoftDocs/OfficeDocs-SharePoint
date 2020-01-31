@@ -122,6 +122,8 @@ This setting lets you control whether the owner of a shared file can see on the 
 
 This setting lets you specify whether site owners can allow users who have access to a file, page, or news post to see on the file card who has viewed the item. 
 
+![Viewer information on the file card for a document.](media/8ff30cde-b358-4b35-9f9d-77cb01c69f09.png)
+
 This setting is turned on by default at the organization level and off at the site level for existing sites. Viewer information is shown only when the setting is on at both the organization and site level. We recommend that site owners turn on this feature only on team sites that don't have sensitive information. [Learn how site owners can turn on this feature](https://support.office.com/article/ee26dde0-c30e-4eca-b1c3-38922c450967).
 
 > [!NOTE]
