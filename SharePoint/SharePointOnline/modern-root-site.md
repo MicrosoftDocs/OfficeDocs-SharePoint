@@ -65,38 +65,32 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 
 We recommend replacing the root site at a time when site usage is low.  
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-    
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has admin permissions for your organization.
 
-4. In the left pane, under **Sites**, select **Active sites**.
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
-5. In the upper right, make sure the **All sites** view is selected.
+2. In the upper right, make sure the **All sites** view is selected.
 
-6. In the URL column, select to sort A to Z so the current root site appears at the top of the list.
+3. In the URL column, select to sort A to Z so the current root site appears at the top of the list.
 
-7. Select the root site (https<i></i>://contoso.<i></i>sharepoint.com).
+4. Select the root site (https<i></i>://contoso.<i></i>sharepoint.com).
 
-8. Select **Replace site**.
+5. Select **Replace site**.
 
     ![The Replace root site panel in the new SharePoint admin center](media/replace-root-site.png)
 
-9. In the **URL of the site you want to use** box, enter the full or relative URL of the site that you want to become the new root site.
+6. In the **URL of the site you want to use** box, enter the full or relative URL of the site that you want to become the new root site.
 
-10. Select **Save**.
+7. Select **Save**.
 
     While the root site is being replaced, it might return a "not found" (HTTP 404) error for few minutes.
 
     After you replace the root site, content must be recrawled to update the search index. This might take some time depending on factors such as the amount of content in these sites. Anything dependent on the search index might return incomplete results until the sites have been recrawled.
 
-11. If the new root site was an organization news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
+8. If the new root site was an organization news site, update the URL. [Get a list of all organizational news sites](/powershell/module/sharepoint-online/get-spoorgnewssite?view=sharepoint-ps)
 
-12. If you disabled site redirects, you'll need to update sharing links and any apps or files (like the OneDrive sync app and OneNote files) to refer to the new URL.
+9. If you disabled site redirects, you'll need to update sharing links and any apps or files (like the OneDrive sync app and OneNote files) to refer to the new URL.
 
 > [!NOTE]
 > For info about using PowerShell to replace (swap) the root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).<br>Project Server sites might need to be validated to make sure they're still associated correctly.

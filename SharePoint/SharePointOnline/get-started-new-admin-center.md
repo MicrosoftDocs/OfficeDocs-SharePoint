@@ -23,23 +23,19 @@ description: "Learn about the cards on the Home page of the new SharePoint admin
 
 To access the new SharePoint admin center:
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
+Go to the Home page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true) and sign in with an account that has admin permissions for your organization.
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Home page.
 
 > [!NOTE]
 > [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
   
-Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner. 
+Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner.
 
 ## Open the new SharePoint admin center by default
 
-1. In the left pane, select **Settings**. 
+1. In the left pane, select **Settings**.
 
 2. Select **Default admin experience**.
 
@@ -109,4 +105,3 @@ If you're used to working in the classic SharePoint admin center, use the follow
 ## See also
 
 [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md)
-

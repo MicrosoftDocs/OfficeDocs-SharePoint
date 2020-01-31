@@ -37,61 +37,53 @@ Another benefit of the Secure Store Service is that it eliminates authentication
 ## Create a Target Application
 <a name="__toc346879711"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+2. Under **Secure store**, select **Open**.
     
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
- 
-3. In the left pane of the new SharePoint admin center, select **More features**. 
-    
-4. Under **Secure store**, select **Open**.
-    
-5. In the **Manage Target Applications** group on the ribbon, select **New**.
+3. In the **Manage Target Applications** group on the ribbon, select **New**.
     
     ![Configuring a Secure Store Target Application in the SharePoint admin center](media/c3ba43ae-b8df-4b63-b187-9ce1bd6cb42f.png)
   
-6. In the **Target Application Settings** section, enter values for the following fields: 
+4. In the **Target Application Settings** section, enter values for the following fields: 
     
-7. **Target Application ID**. You might find it useful to assign a meaningful name. For example, if you are connecting to source that contains employee data, you might enter EmployeeTargetApp. 
+5. **Target Application ID**. You might find it useful to assign a meaningful name. For example, if you are connecting to source that contains employee data, you might enter EmployeeTargetApp. 
     
-8. Display Name. This field should be a user-friendly name for the Target Application. For example, you might use Employee Data.
+6. Display Name. This field should be a user-friendly name for the Target Application. For example, you might use Employee Data.
     
-9. **Contact E-mail** Enter a valid email address for people to use when they have questions. 
+7. **Contact E-mail** Enter a valid email address for people to use when they have questions. 
     
-10. **Target Application Type**. By default, SharePoint uses type **Group Restricted**. 
+8. **Target Application Type**. By default, SharePoint uses type **Group Restricted**. 
     
-11. In the **Credential Fields** section, enter the **Field Names** and **Field Types** for the credentials that are required to access data in the Target Application. These fields determine how you will map identity in the Secure Store Service. By default, the Credential Fields list the Windows User Name and Windows Password with matching Field Types (User Name and Password), and specifies that the password is masked. 
+9. In the **Credential Fields** section, enter the **Field Names** and **Field Types** for the credentials that are required to access data in the Target Application. These fields determine how you will map identity in the Secure Store Service. By default, the Credential Fields list the Windows User Name and Windows Password with matching Field Types (User Name and Password), and specifies that the password is masked. 
     
-12. In the **Target Application Administrators** section, enter a list of users, or use the Browse button to search for the name of a group. This section usually contains the account of the SharePoint administrator, or a global administrator. 
+10. In the **Target Application Administrators** section, enter a list of users, or use the Browse button to search for the name of a group. This section usually contains the account of the SharePoint administrator, or a global administrator. 
     
-13. In the **Members** section, enter a list of users or SharePoint groups of users who need to access the target application. Or, you can use the Browse button to search for the name of a group that you want to map to the Target Application. 
+11. In the **Members** section, enter a list of users or SharePoint groups of users who need to access the target application. Or, you can use the Browse button to search for the name of a group that you want to map to the Target Application. 
     
-14. Select **OK** to accept this configuration and return to the Secure Storage Service page. The new Target Application appears on the page. 
+12. Select **OK** to accept this configuration and return to the Secure Storage Service page. The new Target Application appears on the page. 
     
 ## Edit settings for a Target Application
 <a name="__toc346879712"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
- 
-2. In the left pane of the new SharePoint admin center, select **More features**. 
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
-3. Under **Secure store**, select **Open**.
+2. Under **Secure store**, select **Open**.
 
-4. Select an existing Target Application from the list of Target Applications.
+3. Select an existing Target Application from the list of Target Applications.
     
-5. On the ribbon, select **Edit**.
+4. On the ribbon, select **Edit**.
     
     > [!NOTE]
     >  Some fields on the Edit page are not available. These elements cannot be edited. After you create a Target Application, you can't change the **Target Application ID**, **Target Application Type**, or **Credentials Fields**. 
   
-6. Select any of the following to edit the contents:
+5. Select any of the following to edit the contents:
     
   - Display Name
     
@@ -101,29 +93,25 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
     
   - Members
     
-7. Select **OK**.
+6. Select **OK**.
     
 ## Set credentials for a Target Application
 <a name="__toc346879713"> </a>
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
- 
-2. In the left pane of the new SharePoint admin center, select **More features**. 
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
-3. Under **Secure store**, select **Open**.
+2. Under **Secure store**, select **Open**.
   
-4. Select a single Target Application from the list if you have created more than one.
+3. Select a single Target Application from the list if you have created more than one.
     
-5. In the **Credentials** group on the ribbon, select **Set**. This opens the **Set Credentials for Secure Store Target Application (Group)** dialog box. When you set credentials, you map a Target Application Group to a single set of credentials for an external data system. 
+4. In the **Credentials** group on the ribbon, select **Set**. This opens the **Set Credentials for Secure Store Target Application (Group)** dialog box. When you set credentials, you map a Target Application Group to a single set of credentials for an external data system. 
     
     ![Screenshot of the "Set credentials for a Secure Store Target Application" dialog. You can use this dialog to set the logon credentials for an external data source](media/ca3584ac-34d5-431d-a803-a6888b3a451d.png)
   
-6. In the **Set Credentials for Secure Store Target Application (Group)** dialog box, enter the credential values that you want. The credential fields that you enter apply to the external data system. 
+5. In the **Set Credentials for Secure Store Target Application (Group)** dialog box, enter the credential values that you want. The credential fields that you enter apply to the external data system. 
     
     > [!NOTE]
     >  The following fields cannot be edited. These fields specify the Secure Store mapping for the Target Application: **Target Application Name**, **Target Application ID**, and **Credential Owners**. 
@@ -131,4 +119,4 @@ In the left pane, under **Admin centers**, select **SharePoint**. (You might nee
     > [!IMPORTANT]
     >  Be careful when you enter the password. If you enter a password that is incorrect, you won't see a message about the error. Instead, you'll be able to continue with configuration. However, errors can occur later, when you attempt to access data through BCS. Also, if the password for the external data source is updated, you have to return to this page to manually update the password credentials. 
   
-7. When you finish entering values for credential fields, select **OK**.
+6. When you finish entering values for credential fields, select **OK**.

@@ -57,24 +57,18 @@ Before you change the address of a site, it's important to communicate the chang
 
 ## Change a site address in the new SharePoint admin center
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin to open the Microsoft 365 admin center. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the **Admin** tile to open the admin center.  
-    
-2. In the left pane of the admin center, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.).
- 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center. 
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has admin permissions for your organization.
 
-4. In the left pane of the new SharePoint admin center, select **Active sites**.
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
-5. Click the site name to open the details pane.
+2. Click the site name to open the details pane.
 
-6. On the General tab, under URL, select **Edit**.
+3. On the General tab, under URL, select **Edit**.
 
     ![Changing the address of a site](media/change-site-address.png)
 
-7. Enter the new site address, and then select **Save**.
+4. Enter the new site address, and then select **Save**.
 
 > [!NOTE]
 > You can't change the address of hub sites, sites that are locked or on hold, or of sites that have BCS connections. <br>When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
@@ -144,7 +138,8 @@ If apps in your organization refer to the site's URL, you might need to republis
 Flows will need to be recreated after the site address change.  
 
 **Power Apps**<br>
-Power Apps will need to be recreated after the site address change. 
+You need to reconnect the app or apps to your data source. 
+Start by deleting the existing SharePoint connections to any lists you may have before you reconnect to your data. Once you've done that, reconnect your app to the SharePoint lists you were using. Most fields should update automatically. Certain types seem to have trouble updating and can be fixed by simply deleting the field and then undoing the delete.
 
 **Hub sites**<br>
 If the site is associated with a hub, it will need to be reassociated after the site address is changed. 
@@ -157,4 +152,3 @@ SharePoint workflow 2013 will need to be re-published after the site address is 
   
 **Site customizations and embedded code**<br>
 Site customizations and embedded code that refer to URLs might need to be fixed after the site address change. Changing the site address will preserve data stored in SharePoint but won't change URL dependencies in custom solutions.
- 

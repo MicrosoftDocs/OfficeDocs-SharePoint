@@ -36,20 +36,16 @@ You can limit domains by allowing only the domains you specify or by allowing al
   
  **To limit domains at the organization level**
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) and sign in with an account that has admin permissions for your organization.
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
-
-4. In the left pane, select **Sharing**.
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
     
-5. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
+2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-6. Select **Allow only specific domains** to create an allow list (most restrictive) or **Block specific domains** to block only the domains you specify.
+3. Select **Allow only specific domains** to create an allow list (most restrictive) or **Block specific domains** to block only the domains you specify.
     
-7. List the domains (maximum of 1000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
+4. List the domains (maximum of 1000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.
@@ -68,24 +64,20 @@ You can also limit domains at the site collection level. Note the following cons
     
  **To limit domains for a classic site collection**
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
+2. Under **Classic site collections page**, select **Open**.
  
-3. Select **More features**.
+3. Select a site collection, and then select **Sharing**.
     
-4. Under **Classic site collections page**, select **Open**.
- 
-5. Select a site collection, and then select **Sharing**.
+4. Under **Site collection additional settings**, select the **Limit external sharing using domain** check box.
     
-6. Under **Site collection additional settings**, select the **Limit external sharing using domain** check box.
+5. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list.
     
-7. From the drop-down list, choose either **Don't allow sharing with users from these blocked domains** to deny access to targeted domains or **Allow sharing only with users from these domains** to limit access to only to the domains you list.
-    
-8. List maximum 100 domains (this limit applies for both Classic and Modern sites collections) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return.
+6. List maximum 100 domains (this limit applies for both Classic and Modern sites collections) in the box provided, using the format  *domain.com.* If listing more than one domain, separate each domain with a space or a carriage return.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.

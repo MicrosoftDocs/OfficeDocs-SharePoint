@@ -22,23 +22,15 @@ As a global or SharePoint admin in Office 365, you can temporarily remove items 
 > [!IMPORTANT]
 >  This is only a quick fix! Unless you delete the items or change the permissions of items manually, they will show up again in your search results after the next crawl. 
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
 
-2. In the left pane, under **Admin centers**, select **SharePoint**. (You might need to select **Show all** to see the list of admin centers.) 
-
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the new SharePoint admin center.
-      
-4. Select **More features**.
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
-5. Under **Search**, select **Open**.
+2. Under **Search**, select **Open**.
    
-6. On the search administration page, choose **Remove Search Results**.
+3. On the search administration page, choose **Remove Search Results**.
     
-7. On the Remove Search Results page, in the **URLs to remove** box, type the URLs that you want to remove from the search results. Type one URL on each line. 
+4. On the Remove Search Results page, in the **URLs to remove** box, type the URLs that you want to remove from the search results. Type one URL on each line. 
     
-8. Select **Remove Now**. The URLs are immediately removed from your search results.
-    
-
+5. Select **Remove Now**. The URLs are immediately removed from your search results.

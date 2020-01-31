@@ -17,23 +17,21 @@ description: Get started with Migration Manager
 
 # Get started with the Migration Manager (preview)
 
->[!Note]
+>[!NOTE]
 >Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
->[!Note]
+>[!NOTE]
 >Migration Manager currently supports only the migration of **file shares**.
 >
 >This release does not support the migration of content from SharePoint Server.
-
 
 Migrating content to the cloud is a time and resource intensive process and normally involves scaling up resources to accommodate the large volume of content that you are moving. This comes at a high operational cost of individually managing each migration computer and the migrations tasks that are running on it. Plus you aren't able to automatically load balance your jobs, or view at a glance the progress and status of your migration tasks across all your computers.
 
 Migration Manager answers those challenges by providing you a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks.  
 
-Located in the modern SharePoint Admin Center, the Migration Manager guides you through the setup of your clients and the creation of your tasks.  You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
+Located in the modern SharePoint Admin Center, the Migration Manager guides you through the setup of your clients and the creation of your tasks. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task-level reports.
 
-
-## How does it work? 
+## How does it work?
 
 It works in three simple steps:
 
@@ -45,25 +43,19 @@ It works in three simple steps:
 
 - **Monitor and report.** Monitor progress across all clients and access reports from one central location. 
 
-
-## How do I get started? 
+## How do I get started?
 
 To get started:
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin.
-2. In the left pane, under Admin centers, select SharePoint.
-3. In the left pane select **Migration** and then **Migration Manager**.
-
+Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true) and sign in with an account that has admin permissions for your organization.
 
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or SharePoint Online admin to the Office 365 tenant where you want to migrate your content.
+- **Access to the destination**: You must either be a global admin or SharePoint admin to the Office 365 tenant where you want to migrate your content.
 
-- **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate 
+- **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate.
 
-- **Prerequisites installed:** Make sure your computer or VM has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md). 
-
-
+- **Prerequisites installed:** Make sure your computer or VM has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md).
 
 ### Related links
 
