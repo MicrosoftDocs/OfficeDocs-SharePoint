@@ -138,7 +138,8 @@ If apps in your organization refer to the site's URL, you might need to republis
 Flows will need to be recreated after the site address change.  
 
 **Power Apps**<br>
-Power Apps will need to be recreated after the site address change. 
+You need to reconnect the app or apps to your data source. 
+Start by deleting the existing SharePoint connections to any lists you may have before you reconnect to your data. Once you've done that, reconnect your app to the SharePoint lists you were using. Most fields should update automatically. Certain types seem to have trouble updating and can be fixed by simply deleting the field and then undoing the delete.
 
 **Hub sites**<br>
 If the site is associated with a hub, it will need to be reassociated after the site address is changed. 
