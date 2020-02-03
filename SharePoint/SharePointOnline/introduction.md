@@ -31,29 +31,31 @@ Before you dive into building and configuring your organization's SharePoint env
 
 ## Migration
 
+If you have files on-premises that you need to move to SharePoint in Microsoft 365, or if you're still using SharePoint Server, the resources in this section can help you get started.
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
-|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](https://docs.microsoft.com/en-us/sharepointmigration/migrating-content-to-onedrive-for-business)<br>[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)|
+|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](https://docs.microsoft.com/sharepointmigration/migrating-content-to-onedrive-for-business)<br><br>[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)|
 |How to use connect your existing on-premises SharePoint sites to SharePoint in Microsoft 365|[Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid)|
 
 
 ## Governance
 
-[Overview of retention policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention-policies)
-[Overview of data loss prevention](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-loss-prevention-policies)
-[Overview of sensitivity labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels)
-[OneDrive retention and deletion](https://docs.microsoft.com/en-us/onedrive/retention-and-deletion)
-[Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)
-[Content Search in Office 365](https://docs.microsoft.com/en-us/microsoft-365/compliance/content-search)
+[Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
+[Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
+[Overview of sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+[OneDrive retention and deletion](https://docs.microsoft.com/onedrive/retention-and-deletion)
+[Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)
+[Content Search in Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search)
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
+|How to 
 
 
-[Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/en-us/onedrive/use-group-policy)
-[Set the default storage space for OneDrive users](https://docs.microsoft.com/en-us/onedrive/set-default-storage-space)
-[Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders)
+[Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/onedrive/use-group-policy)
+[Set the default storage space for OneDrive users](https://docs.microsoft.com/onedrive/set-default-storage-space)
+[Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders)
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
@@ -62,7 +64,7 @@ Before you dive into building and configuring your organization's SharePoint env
 ## Modern intranet
 
 [Plan an intelligent SharePoint intranet](plan-intranet.md)
-[Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
+[Planning your SharePoint hub sites](https://docs.microsoft.com/sharepoint/planning-hub-sites)
 [Manage site creation](manage-site-creation.md)
 [Plan your SharePoint site](https://support.office.com/article/35d9adfe-d5cc-462f-a63a-bae7f2529182)
 
@@ -73,9 +75,9 @@ Before you dive into building and configuring your organization's SharePoint env
 ## Collaboration
 
 [Collaborate with guests](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization)
-[External sharing overview](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview)
+[External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
 [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
-[File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/en-us/sharepoint/deploy-file-collaboration)
+[File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
