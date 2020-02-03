@@ -27,6 +27,80 @@ SharePoint Online is a cloud-based service that helps organizations share and ma
 - Seamlessly collaborate across the organization
   
 Before you dive into building and configuring your organization's SharePoint environment, there are a few things you should think about. For example, how will you manage sites with the objective to collaborate (team sites) and those with the objective to broadcast and share content for viewing (communication sites)?
+
+
+## Migration
+
+
+|**If you're looking for this information:**|**Go to this resource:**|
+|:-----|:-----|
+|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](https://docs.microsoft.com/en-us/sharepointmigration/migrating-content-to-onedrive-for-business)<br>[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)|
+|How to use connect your existing on-premises SharePoint sites to SharePoint in Microsoft 365|[Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid)|
+
+
+## Governance
+
+[Overview of retention policies](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention-policies)
+[Overview of data loss prevention](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-loss-prevention-policies)
+[Overview of sensitivity labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels)
+[OneDrive retention and deletion](https://docs.microsoft.com/en-us/onedrive/retention-and-deletion)
+[Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)
+[Content Search in Office 365](https://docs.microsoft.com/en-us/microsoft-365/compliance/content-search)
+
+|**If you're looking for this information:**|**Go to this resource:**|
+|:-----|:-----|
+
+
+[Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/en-us/onedrive/use-group-policy)
+[Set the default storage space for OneDrive users](https://docs.microsoft.com/en-us/onedrive/set-default-storage-space)
+[Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders)
+
+|**If you're looking for this information:**|**Go to this resource:**|
+|:-----|:-----|
+
+
+## Modern intranet
+
+[Plan an intelligent SharePoint intranet](plan-intranet.md)
+[Planning your SharePoint hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
+[Manage site creation](manage-site-creation.md)
+[Plan your SharePoint site](https://support.office.com/article/35d9adfe-d5cc-462f-a63a-bae7f2529182)
+
+|**If you're looking for this information:**|**Go to this resource:**|
+|:-----|:-----|
+
+
+## Collaboration
+
+[Collaborate with guests](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization)
+[External sharing overview](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview)
+[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
+[File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/en-us/sharepoint/deploy-file-collaboration)
+
+|**If you're looking for this information:**|**Go to this resource:**|
+|:-----|:-----|
+
+
+## Training
+
+[Train your users](https://docs.microsoft.com/office365/customlearning/custom_provision)
+[SharePoint training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)
+
+|**If you're looking for this information:**|**Go to this resource:**|
+|:-----|:-----|
+
+
+Customizing SharePoint
+[Customizing SharePoint](extend-and-develop.md)
+[SharePoint development](/sharepoint/dev/)
+
+
+
+
+
+
+
+
   
 We've divided the planning process into three steps. With each step, you'll find helpful resources to guide your decisions and get you better acquainted with SharePoint. 
   
@@ -37,7 +111,6 @@ We've divided the planning process into three steps. With each step, you'll find
 |![Toolbox icon.](media/232048cf-0bae-4e59-bb85-8c5f6a01e0c4.png)           <br/> | Customize sites with solutions &amp; apps  <br/> **Who does this?** SharePoint admins, site owners, solution developers  <br/> [Customizing SharePoint](extend-and-develop.md) <br/>[SharePoint development](/sharepoint/dev/) <br/> |
    
 ## More resources
-<a name="__top"> </a>
 
 Here are some articles that provide key information you may want to refer to during planning and as you maintain your SharePoint sites.
   
@@ -51,4 +124,11 @@ Here are some articles that provide key information you may want to refer to dur
 |How to migrate content from SharePoint Server to SharePoint Online.<br/>|[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)<br/>|
 |Where to find partners who provide solutions or services for Office 365  <br/> |[Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search) <br/> |
    
+## Related topics
+
+[SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
+
+[Getting started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+
+[Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search)
 
