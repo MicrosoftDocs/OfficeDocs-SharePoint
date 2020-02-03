@@ -26,8 +26,7 @@ SharePoint Online is a cloud-based service that helps organizations share and ma
 - Quickly find information
 - Seamlessly collaborate across the organization
   
-Before you dive into building and configuring your organization's SharePoint environment, there are a few things you should think about. For example, how will you manage sites with the objective to collaborate (team sites) and those with the objective to broadcast and share content for viewing (communication sites)?
-
+The resources on this page are designed to get you started. Depending on the needs of your organization, you may want to read about [migration](#migration) and [governance](#governance) options before you start rolling SharePoint out to your users. If you're ready to get started with SharePoint, read about [#collaboration] options and how to create a [modern intelligent intranet](#modern-intranet). As you roll out SharePoint to your organization, remember to [train your users](#training) to help them get the most out these tools.
 
 ## Migration
 
@@ -60,6 +59,16 @@ If you have files on-premises that you need to move to SharePoint in Microsoft 3
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
 
+## Collaboration
+
+[Collaborate with guests](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization)
+[External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
+[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
+[File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)
+
+|**If you're looking for this information:**|**Go to this resource:**|
+|:-----|:-----|
+
 
 ## Modern intranet
 
@@ -72,16 +81,6 @@ If you have files on-premises that you need to move to SharePoint in Microsoft 3
 |:-----|:-----|
 
 
-## Collaboration
-
-[Collaborate with guests](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization)
-[External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
-[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
-[File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)
-
-|**If you're looking for this information:**|**Go to this resource:**|
-|:-----|:-----|
-
 
 ## Training
 
@@ -92,13 +91,13 @@ If you have files on-premises that you need to move to SharePoint in Microsoft 3
 |:-----|:-----|
 
 
-Customizing SharePoint
+## Customizing SharePoint
+
 [Customizing SharePoint](extend-and-develop.md)
 [SharePoint development](/sharepoint/dev/)
 
-
-
-
+|**If you're looking for this information:**|**Go to this resource:**|
+|:-----|:-----|
 
 
 
