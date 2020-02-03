@@ -26,7 +26,7 @@ SharePoint Online is a cloud-based service that helps organizations share and ma
 - Quickly find information
 - Seamlessly collaborate across the organization
   
-The resources on this page are designed to get you started. Depending on the needs of your organization, you may want to read about [migration](#migration) and [governance](#governance) options before you start rolling SharePoint out to your users. If you're ready to get started with SharePoint, read about [#collaboration] options and how to create a [modern intelligent intranet](#modern-intranet). As you roll out SharePoint to your organization, remember to [train your users](#training) to help them get the most out these tools.
+The resources on this page are designed to get you started. Depending on the needs of your organization, you may want to read about [migration](#migration) and [governance](#governance) options before you start rolling SharePoint out to your users. If you're ready to get started with SharePoint, read about [#collaboration] options and how to create a [modern intelligent intranet](#modern-intranet). As you roll out SharePoint to your organization, remember to [train your users](#training) to help them get the most out of these tools.
 
 ## Migration
 
@@ -40,16 +40,19 @@ If you have files on-premises that you need to move to SharePoint in Microsoft 3
 
 ## Governance
 
-[Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
+If your organization has legal or other requirements that govern the handling of data, or if you have sensitive or confidential information that you want to protect, these references can help you configure SharePoint for your governance standards and policies.
+
+
+
 [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
 [Overview of sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
-[OneDrive retention and deletion](https://docs.microsoft.com/onedrive/retention-and-deletion)
 [Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)
 [Content Search in Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search)
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
-|How to 
+|How to ensure that you retain files for a specified period of time, or delete them on a specified schedule|[Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)<br><br>[OneDrive retention and deletion](https://docs.microsoft.com/onedrive/retention-and-deletion)|
+
 
 
 [Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/onedrive/use-group-policy)
