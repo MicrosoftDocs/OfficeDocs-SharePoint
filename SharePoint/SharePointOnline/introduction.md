@@ -79,47 +79,22 @@ SharePoint provides a rich set of tools to help you create and maintain your org
 
 ## Training
 
-[Train your users](https://docs.microsoft.com/office365/customlearning/custom_provision)
-[SharePoint training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)
+Administrators are often called upon to teach others in the organization how to use new technologies. Use these resources to help your users be successful with SharePoint in Microsoft 365.
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
+|Set up a customizable training portal with Microsoft training content for your organization|[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)|
+|Show your users the basics of SharePoint|[SharePoint training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)|
 
+## Customization
 
-## Customizing SharePoint
-
-[Customizing SharePoint](extend-and-develop.md)
-[SharePoint development](/sharepoint/dev/)
+SharePoint provides a wide range of options for customization. We recommend using the out-of-box features and functionality as much as possible to meet your organization's needs. If you do need to customize SharePoint, see these references.
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
+|Understand how to customize SharePoint using modern tools and techniques|[Customizing SharePoint](extend-and-develop.md)|
+|Build SharePoint Framework solutions, apps, add-ins, and solutions|[SharePoint development](/sharepoint/dev/)|
 
-
-
-
-  
-We've divided the planning process into three steps. With each step, you'll find helpful resources to guide your decisions and get you better acquainted with SharePoint. 
-  
-|||
-|:-----|:-----|
-|![Gear icon.](media/64f7c58f-851d-41c8-abe8-823ea52dce60.png)           <br/> | Set up your SharePoint environment  <br/> **Who does this?** Global admins and SharePoint admins in Office 365  <br/> [Plan your SharePoint hub sites](planning-hub-sites.md) <br/> [Collaborate with guests](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization) <br/> [Train your users](https://docs.microsoft.com/office365/customlearning/custom_provision) <br/> [Manage site creation](manage-site-creation.md) <br/>  |
-|![Stack of papers icon](media/abb183d3-208f-42f8-9cd6-7ddeb5127a38.png)           <br/> | Organize site content and plan content features  <br/> **Who does this?** Site admins or owners and communication stakeholders in your organization  <br/> [Plan your SharePoint site](https://support.office.com/article/35d9adfe-d5cc-462f-a63a-bae7f2529182) <br/> |
-|![Toolbox icon.](media/232048cf-0bae-4e59-bb85-8c5f6a01e0c4.png)           <br/> | Customize sites with solutions &amp; apps  <br/> **Who does this?** SharePoint admins, site owners, solution developers  <br/> [Customizing SharePoint](extend-and-develop.md) <br/>[SharePoint development](/sharepoint/dev/) <br/> |
-   
-## More resources
-
-Here are some articles that provide key information you may want to refer to during planning and as you maintain your SharePoint sites.
-  
-|**If you're looking for this information:**|**Go to this resource:**|
-|:-----|:-----|
-|How to use services across Microsoft 365 to create a secure guest sharing environment <br/> |[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment) <br/> |
-|SharePoint Online video training  <br/> |[SharePoint training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23) <br/> |
-|Storage space, number of supported sites, number of supported users  <br/> |[SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) <br/> |
-|How to use the SharePoint Online Management Shell to perform administrative tasks from the command line  <br/> |[Getting started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) <br/> |
-|How to integrate an on-premises deployment of SharePoint Server with SharePoint Online  <br/> |[Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid) <br/> |
-|How to migrate content from SharePoint Server to SharePoint Online.<br/>|[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)<br/>|
-|Where to find partners who provide solutions or services for Office 365  <br/> |[Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search) <br/> |
-   
 ## Related topics
 
 [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
@@ -127,4 +102,3 @@ Here are some articles that provide key information you may want to refer to dur
 [Getting started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 [Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search)
-
