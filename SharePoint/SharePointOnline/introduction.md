@@ -59,26 +59,23 @@ If you use OneDrive in your organization and you want to protect important files
 
 ## Collaboration
 
-[Collaborate with guests](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization)
-[External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
-[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
-[File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)
+SharePoint provides a rich collaboration environment where people inside and outside your organization can work together, coauthoring document. Microsoft 365 provides a variety of options to help you create a secure and productive file collaboration environment that meets the needs of your organization. Use these resources to get started.
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
-
+|Learn about file collaboration and how to plan your implementation|[File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)|
+|Learn about collaborating with people outside your organization|[External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)<br><br>[Collaborate with guests](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization)|
+|Use the security and compliance features in Microsoft 365 to help secure your guest sharing environment|[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)|
 
 ## Modern intranet
 
-[Plan an intelligent SharePoint intranet](plan-intranet.md)
-[Planning your SharePoint hub sites](https://docs.microsoft.com/sharepoint/planning-hub-sites)
-[Manage site creation](manage-site-creation.md)
-[Plan your SharePoint site](https://support.office.com/article/35d9adfe-d5cc-462f-a63a-bae7f2529182)
+SharePoint provides a rich set of tools to help you create and maintain your organization's intranet. Use these resources to get started.
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
-
-
+|Learn about the different types of SharePoint sites|[Plan your SharePoint site](https://support.office.com/article/35d9adfe-d5cc-462f-a63a-bae7f2529182)|
+|Select whether to allow users to create their own sites|[Manage site creation](manage-site-creation.md)|
+|Learn how to plan an intelligent intranet for your organization|[Plan an intelligent SharePoint intranet](plan-intranet.md)<br><br>[Planning your SharePoint hub sites](https://docs.microsoft.com/sharepoint/planning-hub-sites)|
 
 ## Training
 
