@@ -26,7 +26,7 @@ SharePoint Online is a cloud-based service that helps organizations share and ma
 - Quickly find information
 - Seamlessly collaborate across the organization
   
-The resources on this page are designed to get you started. Depending on the needs of your organization, you may want to read about [migration](#migration) and [governance](#governance) options before you start rolling SharePoint out to your users. If you're ready to get started with SharePoint, read about [#collaboration] options and how to create a [modern intelligent intranet](#modern-intranet). As you roll out SharePoint to your organization, remember to [train your users](#training) to help them get the most out of these tools.
+The resources on this page are designed to get you started. Depending on the needs of your organization, you may want to read about [migration](#migration) and [governance](#governance) options before you start rolling SharePoint out to your users. If you're ready to get started with SharePoint, read about [collaboration](#collaboration) options and how to create a [modern intelligent intranet](#modern-intranet). As you roll out SharePoint to your organization, remember to [train your users](#training) to help them get the most out of these tools.
 
 ## Migration
 
