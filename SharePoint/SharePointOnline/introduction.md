@@ -42,25 +42,20 @@ If you have files on-premises that you need to move to SharePoint in Microsoft 3
 
 If your organization has legal or other requirements that govern the handling of data, or if you have sensitive or confidential information that you want to protect, these references can help you configure SharePoint for your governance standards and policies.
 
-
-
-[Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
-[Overview of sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
-[Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)
-[Content Search in Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search)
-
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
 |How to ensure that you retain files for a specified period of time, or delete them on a specified schedule|[Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)<br><br>[OneDrive retention and deletion](https://docs.microsoft.com/onedrive/retention-and-deletion)|
+|How to classify documents based on the sensitivity of the information|[Overview of sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)<br><br>[Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)|
+|How to prevent the loss or exfiltration of important data in documents emails|[Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
+|Search for in-place items such as email, documents, and instant messaging conversations|[Content Search in Office 365](https://docs.microsoft.com/microsoft-365/compliance/content-search)|
 
-
-
-[Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/onedrive/use-group-policy)
-[Set the default storage space for OneDrive users](https://docs.microsoft.com/onedrive/set-default-storage-space)
-[Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders)
+If you use OneDrive in your organization and you want to protect important files by saving them to the cloud, govern how much storage space users get, or govern how users sync file, these references will help you configure your policies.
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
+|Protect important files on users' desktops or in their Documents folder|[Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders)|
+|Control how users sync files to their devices|[Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/onedrive/use-group-policy)|
+|Configure the amount of storage space users have in OneDrive|[Set the default storage space for OneDrive users](https://docs.microsoft.com/onedrive/set-default-storage-space)|
 
 ## Collaboration
 
