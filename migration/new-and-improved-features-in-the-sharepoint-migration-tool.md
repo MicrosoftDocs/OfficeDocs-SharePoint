@@ -32,10 +32,10 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|Document set suport|SPMT will attempt to enable the document set feature on site.  If enabling fails, the items in the documet set will be skipped and all the files under the documents will be skipped.|
-|List templates|DocumentTemplate settings supported|
-|Web part pages|Documents created from web part pages template under document library will now be migrated|
-|OneNote|New converting logic introduced|
+|Document set support|SPMT will attempt to enable the document set feature on site.  If enabling fails, the items in the document set will be skipped, and all the files under the documents will be skipped.|
+|Document Template|You can define a document template and choose to have it applied when adding new files.  SPMT now supports customized document templates.|
+|Web part templates|If your web part document template is not available in SPO, SPMT can migrate the template from your source environment.
+
 
 **Improvements**
 
@@ -45,7 +45,8 @@ In addition to several minor fixes, here are the primary improvements made in th
 |**Issue**|**Fix**|
 |:----|:-----|
 |Stability|General improvements have been made to remove some errors in tool.|
-|Progress bar|Enhancements have been made to the migration progress bar.|
+|Progress bar|Enhancements have been made to the migration progress bar to provide greater details of your progress.|
+|OneNote migration|Improvements made for importing OneNote notebooks.|
 
 
 
