@@ -8,14 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection:  
-- Strat_SP_admin
-- M365-collaboration
-search.appverid:
-- SPO160
-- BSA160
-- GSP150
-- MET150
+search.appverid: MET150
 description: "Learn about planning and deploying a SharePoint intranet."
 ---
 
