@@ -23,7 +23,6 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >**Download and install:**   [SharePoint Migration Tool ](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
 
-
 ### SPMT 3.2.115.3
 
 **New features**
