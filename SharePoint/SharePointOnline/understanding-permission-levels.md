@@ -1,55 +1,25 @@
 ---
 title: "Understanding permission levels in SharePoint"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+ROBOTS: NOINDEX
 ms.topic: reference
-f1_keywords:
-- 'O365M_AdminHm_SPOPermissions'
-- 'O365E_AdminHm_SPOPermissions'
-- 'MS.Admin.Manage.Templates'
-- 'MS.Admin.AddModify.Template'
-- '88347'
-- '37346'
-- '32087'
-- '2050'
-- '196186'
-- '163914'
-- '140326'
-- '101933'
-- '100014'
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection:
-- Adm_SPO
-- Adm_UI_Elements
-- SharePoint_Online
-ms.custom: Adm_O365_FullSet
-search.appverid:
-- GEA150
-- GMA150
-- GPA150
-- PJU120
-- SDR120
-- WSU150
-- SPO160
-- BSA160
-- GSP150
-- SPB160
-- OSU140
-- SPS150
-- OSU150
-- OSU160
-- WSU120
 ms.assetid: 87ecbb0e-6550-491a-8826-c075e4859848
 description: "Learn about permission levels in SharePoint and about the permissions that are associated with each level."
 ---
 
-# Understanding permission levels in SharePoint
+# Permission levels in SharePoint
 
-After you have created a SharePoint site, you may want to provide or restrict user access to the site or its contents. For example, you might want to provide access only to members of your team, or you might want to provide access to everyone, but restrict editing for some. The easiest way to work with permissions is to use the default groups and permissions levels provided, which cover most common scenarios. But, if you need to, you can set more fine-grained permissions beyond the default levels. This article describes the different permissions and permission levels, how SharePoint groups and permissions work together, and how permissions cascade through a site collection.
+While SharePoint offers a variety of permission levels for sites, we highly using the built-in SharePoint groups for communication sites and managing team site permissions through the associated Office 365 group. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+
+## Understanding permission levels
+
+The easiest way to work with permissions is to use the default groups and permissions levels provided, which cover most common scenarios. But, if you need to, you can set more fine-grained permissions beyond the default levels. This article describes the different permissions and permission levels, how SharePoint groups and permissions work together, and how permissions cascade through a site collection.
   
 > [!NOTE]
 > Want to go straight to the steps for changing or setting permission levels? See [How to create and edit Permission Levels](how-to-create-and-edit-permission-levels.md). 

@@ -1,33 +1,26 @@
 ---
 title: "How to create and edit permission levels"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
+ROBOTS: NOINDEX
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection:
-- Adm_SPO
-- SharePoint_Online
-ms.custom:
-- Adm_O365_FullSet
-- MiniMaven
-search.appverid:
-- WSU150
-- SPO160
-- BSA160
-- OSU150
-- OSU160
 ms.assetid: 53c86040-07fa-4ea7-bc55-34ee96b437fe
 description: "Learn how to create different permission levels for different groups of people within a site collection."
 ---
 
-# How to create and edit permission levels
+# Permission levels
 
-If you're a global or SharePoint admin in your organization, you probably want to control who can make changes on your site. For example, you might want employees in Finance to be able to edit lists, but employees in Marketing to only view those lists. That's where permissions and permissions levels come in.
-  
+While SharePoint allows considerable customization of site permissions, including custom permission levels, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Office 365 group. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+
+If you do need to create custom permission levels, this article describes how.
+
+## How to create and edit permission levels
+
 Permissions allow SharePoint users to perform certain actions, such as edit items in a list or create a site. But you can't assign individual permissions to individual users in SharePoint. Instead, you group related permissions together into a [permission level](understanding-permission-levels.md). Then you assign that permission level to a [SharePoint group](customize-sharepoint-site-permissions.md) that includes the people you are assigning permissions for. 
   
  SharePoint comes with some default [permission levels](understanding-permission-levels.md) that you can use, such as **Contribute** and **View Only**. But if one of those doesn't meet your needs, you can create a new permissions level. It's easier to keep track of permission levels if you don't change the defaults.
