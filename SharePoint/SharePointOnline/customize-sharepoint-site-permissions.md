@@ -38,7 +38,7 @@ The permissions page opens.
     
 4. On the **Create Group** page, in the **Name** and **About me** boxes, type a name and description for this SharePoint group. 
     
-5. In the **Owner**box, specify a single owner of this security group. 
+5. In the **Owner** box, specify a single owner of this security group. 
     
 6. In the **Group Settings** section, specify who can view and edit the membership of this group. 
     
