@@ -34,6 +34,10 @@ Review the system requirements, settings, and permissions behavior before beginn
 - [SPMT Settings](spmt-settings.md)</br>
 - [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>
 
+ > [!IMPORTANT]
+ > - The required permission at tenant level for the performer user is "SharePoint Admin".
+ > - The required permission at site collection level for the performer user is "Admin".
+ 
 #### Allow or prevent Custom Script (NoScript)</br>
 In Office 365 tenants you can control whether users can run custom script on personal sites and self-service created sites. 
 
@@ -67,8 +71,8 @@ SPMT supports the following authentication methods:
  - SAML based claims
  - Client certificate authentication
 
->[!Important]
->If the on-premesis server is configured to support multiple authentication providers,including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
+> [!IMPORTANT]
+> If the on-premesis server is configured to support multiple authentication providers,including Windows authentication, then Windows authentication **will not be supported**. If this describes your environment, use other authentication methods instead of Windows authentication. 
 
 ### Where is your data currently located?
 
@@ -142,30 +146,30 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
   
 1. Start the SharePoint Migration Tool, then enter your Office 365 username and password.
     
-2. Select **Start your first migration**.
+1. Select **Start your first migration**.
     
-3. Select **JSON or CSV file for bulk migration.**
+1. Select **JSON or CSV file for bulk migration.**
     
-5. Enter the full path of your .CSV or .JSON filewhere your content is located. Click **Add**.
+1. Enter the full path of your .CSV or .JSON file where your content is located. Click **Add**.
     
-6. Enter the URL of the SharePoint Online site where you want your files migrated. Click **Next**.
+1. Enter the URL of the SharePoint Online site where you want your files migrated. Click **Next**.
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
     
-3. Select **JSON or CSV file for bulk migration**. Enter the location of your file, or click **Choose File** to locate it. Click **Add**.
+1. Select **JSON or CSV file for bulk migration**. Enter the location of your file, or click **Choose File** to locate it. Click **Add**.
     
- If you are migrating files from an on-premises SharePoint Server, you will be prompted for your username and password for that site unless you provided those credentials in previous steps. 
+    If you are migrating files from an on-premises SharePoint Server, you will be prompted for your username and password for that site unless you provided those credentials in previous steps. 
   
- Any errors in your file it will be detected on a line-by-line basis. The error will indicate which line or lines contains the errors. You will not be able to proceed until you correct the errors in your file. 
+    Any errors in your file it will be detected on a line-by-line basis. The error will indicate which line or lines contains the errors. You will not be able to proceed until you correct the errors in your file. 
   
->[!IMPORTANT]
-> Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 
+   > [!IMPORTANT]
+   > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 
   
    
-4. If you want to select another set of data files to migrate, click **Add a source**. Otherwise, click **Next**.
+1. If you want to select another set of data files to migrate, click **Add a source**. Otherwise, click **Next**.
     
-7. Review your settings. Then click **Migrate**.
+1. Review your settings. Then click **Migrate**.
     
 ## Monitoring and reporting status of migration jobs
 
