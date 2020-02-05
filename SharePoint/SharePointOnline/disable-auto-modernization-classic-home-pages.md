@@ -67,7 +67,7 @@ Over the years SharePoint modern pages have become powerful tools for collaborat
 ## How to prevent specific sites from being updated? 
 
 We understand there may be sites you don’t want updated. You can use the following tools to disable the update on specific sites: 
-
+<change Option 1:, Option 2: and NOTE: to bold> 
 Option 1: Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded 
 
 
