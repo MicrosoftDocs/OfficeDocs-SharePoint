@@ -1,33 +1,24 @@
 ---
 title: "Customize SharePoint site permissions"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 10/5/2018
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection:
-- Adm_SPO
-- SharePoint_Online
-ms.custom:
-- Adm_O365_FullSet
-- MiniMaven
-search.appverid:
-- WSU150
-- SPO160
-- BSA160
-- SPB160
-- OSU150
-- OSU160
-- OSU190
 ms.assetid: b1e3cd23-1a78-4264-9284-87fed7282048
-description: "Learn to create, manage, and delete groups in SharePoint and SharePoint Online, including adding, removing, and updating users from groups, and setting permissions for users and groups."
+description: "Learn to create, manage, and delete groups in SharePoint."
 ---
 
-# Customize SharePoint site permissions
+# SharePoint site permissions
+
+While SharePoint allows considerable customization of site permissions, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Office 365 group. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+
+If you do need to customize SharePoint groups, this article describes how.
+
+## Customize site permissions
 
 A SharePoint group is a collection of users who all have the same set of permissions to sites and content. Rather than assign permissions one person at a time, you can use groups to conveniently assign the same permission level to many people at once. 
   
