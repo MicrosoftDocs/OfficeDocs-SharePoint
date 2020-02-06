@@ -105,10 +105,14 @@ Consider setting up an [approval flow](https://support.office.com/article/a8b2e6
 
 ## Content creators
 
+These references can help your content creators manage updates to the site.
 
-
-
-
+- [Create a document library in SharePoint](https://support.office.com/client/306728fe-0325-4b28-b60d-f902e1d75939)
+- [Create a list in SharePoint](https://support.office.com/article/0D397414-D95F-41EB-ADDD-5E6EFF41B083)
+- [Add texts and tables to your page](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801)
+- [Add content to your page using the Embed web part](https://support.office.com/article/721f3b2f-437f-45ef-ac4e-df29dba74de8)
+- [Use the image web part](https://support.office.com/article/A63B335B-AD0A-4954-A65D-33C6AF68BEB2)
+- [Use the News web part on a SharePoint page](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)
 
 ## Related topics
 
