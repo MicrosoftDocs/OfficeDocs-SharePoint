@@ -23,6 +23,32 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >**Download and install:**   [SharePoint Migration Tool ](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
 
+### SPMT 3.2.115.3
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool in this release:
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Document set support|SPMT will attempt to enable the document set feature on site.  If enabling fails, the items in the document set will be skipped, and all the files under the documents will be skipped.|
+|Document Template|You can define a document template and choose to have it applied when adding new files.  SPMT now supports customized document templates.|
+|Web part templates|If your web part document template is not available in SPO, SPMT can migrate the template from your source environment.
+
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+|Progress bar|Enhancements have been made to the migration progress bar to provide greater details of your progress.|
+|OneNote migration|Improvements made for importing OneNote notebooks.|
+
+
+
 
 ### SPMT 3.2.114.0
 

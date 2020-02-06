@@ -38,6 +38,7 @@
 ### [Restore deleted sites](restore-deleted-site-collection.md)
 ### [Manage site admins](manage-site-collection-administrators.md)
 ### [Manage site creation](manage-site-creation.md)
+### [Disable automatic modernization of classic site home pages](disable-auto-modernization-classic-home-pages.md)
 ### [Manage site storage limits](manage-site-collection-storage-limits.md)
 ### [Change site addresses](change-site-address.md)
 ### [Manage site redirects](manage-site-redirects.md)
