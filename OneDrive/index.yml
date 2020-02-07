@@ -27,15 +27,15 @@ additionalContent:
         # Card
         - title: Plan, deploy, and manage
           summary: Get the practical guidance you need to get the most out of OneDrive in your organization.
-          url: https://docs.microsoft.com/OneDrive/onedrive
+          url: /OneDrive/onedrive
         # Card
         - title: Hybrid deployments
           summary: Learn how to connect SharePoint Server with OneDrive in Office 365.
-          url: https://docs.microsoft.com/sharepoint/hybrid/plan-hybrid-onedrive-for-business
+          url: /sharepoint/hybrid/plan-hybrid-onedrive-for-business
         # Card
         - title: Troubleshoot
           summary: Find troubleshooting and support resources for IT Professionals and admins.
-          url: https://docs.microsoft.com/sharepoint/support/onedrive
+          url: /sharepoint/support/onedrive
     - title: For other audiences # < 60 chars (optional)
       items:
         # Card
