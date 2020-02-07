@@ -1,25 +1,23 @@
 ---
 title: "What is permissions inheritance?"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
+ROBOTS: NOINDEX
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal
-search.appverid:
-- WSU150
-- SPO160
-- OSU150
-- BSA160
-- GSP150
-- MET150
 ms.assetid: 06bb1ed1-d150-42f4-9600-fb261d4b590c
-description: "What is permissions inheritance in SharePoint and why do we use it; what is a parent; permissions recommendations that can save time."
+description: "What is permissions inheritance in SharePoint."
 ---
 
-# What is permissions inheritance?
+# Permissions inheritance in SharePoint
+
+While SharePoint allows considerable customization of site permissions, including changing inheritance, we highly recommend not breaking inheritance. Use the built-in SharePoint groups for communication sites and manage team site permissions through the associated Office 365. Use sharing links to share individual files and folders with people outside the site. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience,see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+
+## What is permissions inheritance?
 
 Permissions inheritance means that the permission settings of an element in a site collection are passed on to the children of that element. In this way, sites inherit permissions from the root site of the site collection, libraries inherit from the site that contains the library, and so on. Permission inheritance enables you to make a permission assignment once, and have that permission apply to all sites, lists, libraries, folders and items that inherit permissions. This behavior can reduce complexity and the amount of time Administrators and Site Owners spend on security management.
   

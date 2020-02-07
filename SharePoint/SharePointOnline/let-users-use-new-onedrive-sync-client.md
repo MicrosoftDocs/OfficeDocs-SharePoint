@@ -46,7 +46,7 @@ When you enable this feature, users will be able to sync the files in a SharePoi
 
 To enable users in your organization to sync SharePoint team sites with the OneDrive sync app, you first need to deploy the OneDrive sync app to your organization.
   
-See [Deploy the new OneDrive sync app using SCCM](/onedrive/deploy-on-windows)
+See [Deploy the new OneDrive sync app using Microsoft Endpoint Configuration Manager](/onedrive/deploy-on-windows)
   
 See [Deploy and configure the new OneDrive sync app for Mac](/onedrive/deploy-and-configure-on-macos)
 

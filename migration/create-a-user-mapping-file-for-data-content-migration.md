@@ -61,12 +61,21 @@ The following example uses Excel to create the CSV file.
   
 After you create your own user mapping file, upload it to the SharePoint Online Migration tool.
   
-1. Start the SharePoint Migration tool. Click **Next**. Enter your Office 365 username and password and then click **Sign in.**
-    
-2. Click the settings gear ![Settings for SPO Migration tool](media/bcec6d42-d9c4-4164-a8a3-456ca0eb6847.jpg) . 
-    
-3. In the User mapping box, click **Choose file** and select your user mapping file. 
-    
-4. Click **Save**.
-    
+1. Start the SharePoint Migration tool. Enter your Office 365 username and password and then click **Sign in**.
 
+2.  Click on **Start your first Migration**.
+
+3.  Choose your migration type.
+
+4.  Enter your source information and then click **Next**.
+
+5.  Enter your destination information and then click **Next**.
+
+6.  Review your Migration details and then click **Next**.
+
+7.  On the Choose your settings screen, expand **View all settings**.
+
+8.  Under Users section in the User mapping box, click **Choose file** and select your user mapping file.
+
+9.  Click **Save**.
+    

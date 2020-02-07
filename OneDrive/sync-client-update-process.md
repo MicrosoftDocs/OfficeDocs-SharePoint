@@ -65,12 +65,12 @@ For info about the latest releases, see [New OneDrive sync app release notes](ht
 
 At any given time, the next planned Enterprise ring release is published on the [OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) page with a link to the corresponding installer and the target date when that version will be released. On the specified date, the "Rolling out" version for the Enterprise ring becomes the new minimum. All sync apps below that version will automatically download the installer from the Internet and update themselves. 
 
-To deploy an updated version of the sync app for Windows, run the following command using System Center Configuration Manager:
+To deploy an updated version of the sync app for Windows, run the following command using Microsoft Endpoint Configuration Manager:
   
 ```
 Execute <pathToExecutable>\OneDriveSetup.exe /update /restart
 ```
 
-Where pathToExecutable is a location on the local computer or an accessible network share and OneDriveSetup.exe is the target version downloaded from the release notes page. Running this command restarts OneDrive.exe on all computers. If you don't want to restart the sync app, remove the /restart parameter. See [Deploy using SCCM](deploy-on-windows.md) for tips on how to set up the SCCM deployment package.
+Where pathToExecutable is a location on the local computer or an accessible network share and OneDriveSetup.exe is the target version downloaded from the release notes page. Running this command restarts OneDrive.exe on all computers. If you don't want to restart the sync app, remove the /restart parameter. See [Deploy using Microsoft Endpoint Configuration Manager](deploy-on-windows.md) for tips on how to set up the Microsoft Endpoint Configuration Manager deployment package.
 
 To deploy an updated version of the sync app for Mac, deploy the OneDrive.pkg with the target version by using your MDM solution.
