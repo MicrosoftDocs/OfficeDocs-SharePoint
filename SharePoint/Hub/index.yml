@@ -46,7 +46,7 @@ additionalContent:
         # Card
         - title: Troubleshoot
           summary: Find troubleshooting and support resources for IT Professionals and admins.
-          url: /troubleshoot
+          url: /sharepoint/troubleshoot
     - title: For other audiences # < 60 chars (optional)
       items:
         # Card
