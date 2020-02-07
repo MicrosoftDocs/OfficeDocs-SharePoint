@@ -79,13 +79,13 @@ Option 1: Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/
 
     Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred 
 
-    #Enabling the feature that blocks uncustomized home page modernization 
+    #Enable the feature to prevent modernization of an uncustomized home page 
 
     Enable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web 
 
-    #And again disabling the feature that blocks uncustomized home page modernization 
+    #And again disable the feature to allow modernization of an uncustomized home page 
 
-    #Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web   
+    Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web   
    
 ```
 
