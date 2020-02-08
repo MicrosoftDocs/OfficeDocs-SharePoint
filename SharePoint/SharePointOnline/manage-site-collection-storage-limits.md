@@ -83,7 +83,13 @@ Follow these steps to specify individual site storage limits when your storage m
  
 5. Select **Save**.
 
-If a site runs out of storage, site admins can go to the Storage Metrics page to request more. Pressing this button will send an email like the following to the global and SharePoint admins in the organization.
+If a site runs out of storage, site admins can request more by following these steps:
+
+1. Go to the Site Settings page.
+2. Under **Site Collection Administration**, select **Storage Metrics**.
+3. Select **Request more quota** in the upper right.
+
+This sends a storage request email to the global and SharePoint admins in the organization.
 
 ![Storage request email](media/request-more-storage.png)
     
