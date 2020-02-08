@@ -82,6 +82,10 @@ Follow these steps to specify individual site storage limits when your storage m
 4. Make sure **Notifications** is turned on to send an email to site admins when the site approaches the storage limit. Then enter a value as a percent for how full you want the storage to be when the email is sent. 
  
 5. Select **Save**.
+
+If a site runs out of storage, site admins can go to the Storage Metrics page to request more. Pressing this button will send an email like the following to the global and SharePoint admins in the organization.
+
+![Storage request email](media/request-more-storage.png)
     
 ### Monitor site storage limits by using PowerShell
 
