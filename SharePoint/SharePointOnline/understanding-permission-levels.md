@@ -15,7 +15,7 @@ description: "Learn about permission levels in SharePoint and about the permissi
 
 # Permission levels in SharePoint
 
-While SharePoint offers a variety of permission levels for sites, we highly using the built-in SharePoint groups for communication sites and managing team site permissions through the associated Office 365 group. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+While SharePoint offers a variety of permission levels for sites, we highly recommend using the built-in SharePoint groups for communication sites and managing team site permissions through the associated Office 365 group. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
 
 ## Understanding permission levels
 
