@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 9/1/2017
 audience: End User
 ms.topic: reference
 ms.service: sharepoint-online
@@ -32,7 +31,7 @@ The following table lists the limits for SharePoint Online search.
   
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
-|Size of document that can be downloaded by the crawl components  <br/> |64 MB<br/> |Boundary  <br/> |Search downloads metadata and content from a document until it reaches the maximum document size. The rest of the content is not downloaded.  <br/> |
+|Size of document that can be downloaded by the crawl components  <br/> |150 MB<br/> |Boundary  <br/> |Search downloads metadata and content from a document until it reaches the maximum document size. The rest of the content is not downloaded.  <br/> |
 |Parsed content size  <br/> |2 million characters  <br/> |Boundary  <br/> |Search stops parsing an item after it has parsed up to 2 million characters of content from it, including the item's attachments. The actual amount of parsed characters can be lower than this limit because search uses a maximum of 30 seconds on parsing a single item and its attachments. When search stops parsing an item, the item is marked as partially processed. Any unparsed content isn't processed and therefore isn't indexed.  <br/> |
 |Characters processed by the word breaker  <br/> |1,000,000  <br/> |Boundary  <br/> |Search breaks content into individual words (tokens). The word breaker produces tokens from the first 1,000,000 characters of a single item, including the item's attachments.  <br/> The actual amount of tokens can be lower than this limit because search uses a maximum of 30 seconds on word breaking. Any remaining content isn't processed.  <br/> |
 |Indexed managed property size  <br/> |512 KB per managed property that is set to either "searchable" or "queryable"  <br/> |Boundary  <br/> ||

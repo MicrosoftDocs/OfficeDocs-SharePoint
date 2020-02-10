@@ -41,14 +41,14 @@ The following table summarizes the support levels of typically used web browsers
   
 |**Browser**|**Supported**|**Not supported**|
 |:-----|:-----|:-----|
-|Microsoft Edge  <br/> |X  <br/> ||
+|Microsoft Edge (EdgeHTML - Legacy) <br/> |X  <br/> ||
 |Internet Explorer 11  <br/> |X  <br/> ||
 |Internet Explorer 10  <br/> |X  <br/> ||
 |Internet Explorer 9  <br/> ||X  <br/> |
 |Internet Explorer 8  <br/> ||X  <br/> |
 |Internet Explorer 7  <br/> ||X  <br/> |
 |Internet Explorer 6  <br/> ||X  <br/> |
-|Google Chrome (latest released version)  <br/> |X  <br/> ||
+|Microsoft Edge/Google Chrome (latest released version)  <br/> |X  <br/> ||
 |Mozilla Firefox (latest released version plus immediate previous version)  <br/> |X  <br/> ||
 |Apple Safari (latest released version)  <br/> |X  <br/> ||
 
@@ -59,14 +59,14 @@ The following table summarizes the support levels of typically used web browsers
   
 |**Browser**|**Supported**|**Not supported**|
 |:-----|:-----|:-----|
-|Microsoft Edge  <br/> |X  <br/> ||
+|Microsoft Edge (EdgeHTML - Legacy) <br/> |X  <br/> ||
 |Internet Explorer 11  <br/> |X  <br/> ||
 |Internet Explorer 10  <br/> ||X  <br/> ||
 |Internet Explorer 9  <br/> ||X  <br/> |
 |Internet Explorer 8  <br/> ||X  <br/> |
 |Internet Explorer 7  <br/> ||X  <br/> |
 |Internet Explorer 6  <br/> ||X  <br/> |
-|Google Chrome (latest released version)  <br/> |X  <br/> ||
+|Microsoft Edge/Google Chrome (latest released version)  <br/> |X  <br/> ||
 |Mozilla Firefox (latest released version plus immediate previous version)  <br/> |X  <br/> ||
 |Apple Safari (latest released version)  <br/> |X  <br/> ||
    
