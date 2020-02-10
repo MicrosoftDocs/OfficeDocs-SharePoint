@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 9/1/2017
 audience: End User
 ms.topic: reference
 ms.service: sharepoint-online
