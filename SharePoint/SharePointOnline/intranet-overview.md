@@ -39,7 +39,7 @@ Planning an intranet can be a daunting task. In this article we look at the high
 	
 ### How to think about a modern vs traditional intranet
 
-![Illustration of traditional intranet contents and modern intranet contents](intranet-traditional-vs-modern.png)
+![Illustration of traditional intranet contents and modern intranet contents](media/intranet-traditional-vs-modern.png)
 
 ### Key success factors:
 
@@ -247,7 +247,7 @@ Keep in mind these key success factors as you create and manage content for your
 
 ## Section 3: How to get started
 
-![Illustration of business scenario diagram](intranet-identify-business-scenarios.png)
+![Illustration of business scenario diagram](media/intranet-identify-business-scenarios.png)
 
 - New video: conceptual video of how to define business objectives
 - New: Powerpoint template and scenario planning template
