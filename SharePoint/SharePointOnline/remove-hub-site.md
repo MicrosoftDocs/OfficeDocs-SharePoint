@@ -20,7 +20,7 @@ description: "Learn how to make a hub site no longer a hub site (unregister it a
 
 # Unregister a site as a hub site
 
-If you're a global or SharePoint admin in Office 365, you can make a hub site no longer a hub site (unregister it as a hub site). Make sure you do this before you delete the hub site. When you demote a hub site, any sites still associated with the hub site will be disassociated the next time a user accesses them.
+If you're a global or SharePoint admin in Office 365, you can make a hub site no longer a hub site (unregister it as a hub site). Make sure you do this before you delete the hub site. When you unregister a hub site, any sites still associated with the hub will be disassociated the next time a user accesses them. Disassociating a site will remove the hub site navigation bar from the top of the site. The look that the site inherited from the hub site will stay the same and features such as additional navigation links, applications, or custom lists with specific columns that were added as part of the inherited hub site design will remain. Any hub-site-related web parts added to the home page will only show information from the site instead of from sites associated with the hub.
   
 ## Unregister a hub site in the new SharePoint admin center 
 
@@ -36,7 +36,7 @@ If you're a global or SharePoint admin in Office 365, you can make a hub site no
 3. Select **OK**.  
 
 > [!NOTE]
-> If a hub site has associated sites then you unregister it, it might take a while for the sites to be disassociated. If you re-register the hub site, the sites may remain associated.
+> If a hub site has associated sites when you unregister it, it might take a while for the sites to be disassociated. If you re-register the hub site, the sites may remain associated.
 
 ## See also
 
