@@ -39,8 +39,7 @@ Planning an intranet can be a daunting task. In this article we look at the high
 	
 ### How to think about a modern vs traditional intranet
 
-- Answer: What does it mean to be modern?
-- Visual content, modern vs traditional
+![Illustration of traditional intranet contents and modern intranet contents](intranet-traditional-vs-modern.png)
 
 ### Key success factors:
 
@@ -61,7 +60,7 @@ Over the years we have learned about what makes an intranet successful. These ar
 
 ### Roles, key tasks, and stages at-a-glance:
 
-|Your role|Planning tasks|Build tasks|Live site maintenance|
+|Your role|Planning tasks|Build tasks|Management tasks|
 |:--------|:-------------|:----------|:--------------------|
 |[Company intranet owner](#company-intranet-owner)|Branding, adoption, governance, information architecture, and change management|||
 |[IT / Admin](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, end user training|Site creation, navigation, search, branding, publishing||
@@ -104,23 +103,23 @@ Keep in mind these key success factors as you plan and implement your intranet:
 > * Ask for feedback from users during all stages of the design process
 > * Establish KPIs and regularly communicate them from project start to finish
 
-#### Key tasks:
+**Key tasks:**
 
 #### Organize your intranet
 
 A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
 
-**Start by:**
+*Start by:*
 
-**You'll know your done when:**
+*You'll know your done when:*
 
 #### Brand your intranet
 
 Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
 
-**Start by:**
+*Start by:*
 
-**You'll know your done when:**
+*You'll know your done when:*
 
 
 
@@ -133,7 +132,7 @@ Branding is an important part of your intranet. With SharePoint, you can [add br
 - Key success factors relevant to specific role
 - Entry points to role specific content
 
-#### Key tasks:
+**Key tasks:**
 
 #### Train your content creators
 
@@ -148,9 +147,9 @@ These references can help your content creators manage updates to the site.
 - [Use the image web part](https://support.office.com/article/A63B335B-AD0A-4954-A65D-33C6AF68BEB2)
 - [Use the News web part on a SharePoint page](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)
 
-**Start by:**
+*Start by:*
 
-**You'll know your done when:**
+*You'll know your done when:*
 
 
 #### Business owners and site owners
@@ -166,7 +165,7 @@ Keep in mind these key success factors as you plan and implement your intranet:
 > * Work with champions and thought leaders in the organization
 > * Establish KPIs and regularly communicate them from project start to finish
 
-#### Key tasks:
+**Key tasks:**
 
 #### Migrate your data
 
@@ -177,9 +176,9 @@ If you're migrating files from SharePoint Server on-premises or file shares, you
 Video is a great way to communicate to the people in your organization. Videos ranging from executive briefings to individual users creating tutorials or sharing ideas can lead to greater engagement of intranet users. An important component of this in Microsoft 365 is [Microsoft Stream](https://docs.microsoft.com/stream). You can use Stream to deliver live and on-demand meetings, events, and training. If you have existing video content that you want to make available on your new intranet site, [upload it to Stream](https://docs.microsoft.com/stream/portal-upload-video) as part of your content migration process.
 
 
-**Start by:**
+*Start by:*
 
-**You'll know your done when:**
+*You'll know your done when:*
 
 
 
@@ -189,9 +188,9 @@ The [main intranet portal for your organization](home-site.md) is a big part of 
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](https://docs.microsoft.com/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. Read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d) for an end-to-end look at creating this page.
 
-**Start by:**
+*Start by:*
 
-**You'll know your done when:**
+*You'll know your done when:*
 
 
 ### Design your business-specific intranet site
@@ -207,10 +206,9 @@ You can [change the look of your site](https://support.office.com/article/06bbad
 
 Consider setting up an [approval flow](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9) for changes to your site. This can help you maintain standards within your group as people update pages with the latest information.
 
+*Start by:*
 
-**Start by:**
-
-**You'll know your done when:**
+*You'll know your done when:*
 
 
 
@@ -226,7 +224,7 @@ Keep in mind these key success factors as you create and manage content for your
 - Ask for feedback and allow for comments and social interaction
 - Schedule content audits as needed to ensure content is relevant
 
-#### Key tasks:
+**Key tasks:**
 
 - Launch and manage sites
 - Create and manage content
@@ -234,9 +232,9 @@ Keep in mind these key success factors as you create and manage content for your
 - Build culture and community
 - Connect and collaborate
 
-**Start by:**
+*Start by:*
 
-**You'll know your done when:**
+*You'll know your done when:*
 
 
 
@@ -249,6 +247,10 @@ Keep in mind these key success factors as you create and manage content for your
 
 ## Section 3: How to get started
 
+![Illustration of business scenario diagram](intranet-identify-business-scenarios.png)
+
+- New video: conceptual video of how to define business objectives
+- New: Powerpoint template and scenario planning template
 
 
 ## Related topics
