@@ -14,27 +14,46 @@ description: "Learn about planning and deploying a SharePoint intranet."
 
 # Modern intranet roadmap
 
-Planning an intranet can be a daunting task. In this article we look at the high level tasks that IT Professionals, business owners, site owners, and content creators must do to create and maintain a successful intranet with SharePoint. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. As you read, follow the links included for more detailed information on the areas that you're working on.
+Planning an intranet can be a daunting task. In this article we look at the high level tasks that IT Professionals, business owners, site owners, and content creators must do to create and maintain a successful intranet with SharePoint. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. Follow the links for more detailed information on the areas that you're working on. 
 
 ![Illustration of an intranet timeline](media/intranet-timeline.png)
 
+## Who should use this roadmap?
+
+- Company intranet owners - the person managing the overall direction and coordination 
+- IT/Admins - traditional admin role
+- Business owners/site owners - the various stakeholders who are responsible for portions of the intranet
+- Content creators - the people creating and managing content on sites and pages
+
+## What you'll learn:
+
+- Understand at a high level the various roles and responsibilities of creating a modern intranet
+- Learn about key success factors and known barriers to success
+- See what you can do with SharePoint online out-of-the-box sites and web parts verse custom solutions
+- Use checkpoints and checklists to track your progress
+	
+
+## Roadmap contents:
+
+- Section 1: Introduction to intranet roles, responsibilities, planning stages, and timelines
+- Section 2: Intranet design fundamentals  
+- Section 3: Key tasks by role (stand alone)
+- Section 4: How to get started (stand alone) 
+
+## Section 1: Introduction to intranet roles, tasks, planning stages, and timelines
+
+### Roles, tasks, and stages at-a-glance:
 |Your role|Planning tasks|Build tasks|Live site maintenance|
 |:--------|:-------------|:----------|:------------------|
 |[Company intranet owner](#company-intranet-owner)|Branding, adoption, governance, information architecture, and change management|||
 |[IT / Admin](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, end user training|Site creation, navigation, search, branding, publishing||
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content creators](#content-creators)|Content best practices, content and site design|Create and share content, content collaboration|Update existing content, publish new content|
+</br>
 
-Keep in mind these key success factors as your team works together to plan and implement your intranet:
+### Introduction to roles
 
-> [!div class="checklist"]
-> * Have an executive sponsor
-> * Design for simplicity and longevity
-> * Involve your business owners and other decision makers
-> * Enable your business owners and content creators for self service
-> * Train your content creators and your end users
-
-## Company intranet owner
+#### Company intranet owner
 
 When creating an intranet in SharePoint, the company intranet owner works with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
 
