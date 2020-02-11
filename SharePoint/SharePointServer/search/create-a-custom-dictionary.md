@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Create a custom dictionary"
 ms.reviewer: 
 ms.author: mikeplum
