@@ -94,9 +94,7 @@ The company intranet owner works with business owners and IT to prioritize the i
 
 Start by getting inspired with the [SharePoint lookbook](https://aka.ms/sharepointlookbook). The lookbook provides examples of intranet pages that you can build in SharePoint and will give you an idea of the possibilities. Keep these in mind as you proceed through the planning and implementation process.
 
-Next, start to [plan your intelligent SharePoint intranet](https://docs.microsoft.com/sharepoint/plan-intranet) by reviewing your existing intranet and determining which project to start with for your best return on investment. As you prioritize your intranet projects, consider how to get the [best performance and scalability](https://docs.microsoft.com/SharePoint/portal-health) from the portals that you build.
-
-If your existing intranet is using SharePoint server, consider how [migrating your content to SharePoint Online](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) fits into your overall plan.
+Next, start to [plan your intelligent SharePoint intranet](https://docs.microsoft.com/sharepoint/plan-intranet) by reviewing your existing intranet and determining which project to start with for your best return on investment. As you prioritize your intranet projects, consider how to get the [best performance and scalability](https://docs.microsoft.com/SharePoint/portal-health) from the portals that you build. If your existing intranet is using SharePoint server, consider how [migrating your content to SharePoint Online](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) fits into your overall plan.
 
 Then, choose a project to start with and meet with the business owners in that area of your organization to plan the project.
 
@@ -263,7 +261,7 @@ Keep in mind these key success factors as you create and manage content for your
 | Role                 |Manage tasks          |             
 | :------------------- | -------------------: |
 | [Company intranet owner](#company-intranet-owner) |  Manage tasks | 
-| [IT / Admin](#it-pros-and-admins)| Manage tasksManage tasks               | 
+| [IT / Admin](#it-pros-and-admins)| Manage tasks             | 
 | [Business owners / site owners](#business-owners-and-site-owners)                 | Manage tasks                 | 
 | [Content creators](#content-creators)                |Manage tasks               |
 
@@ -271,4 +269,5 @@ Keep in mind these key success factors as you create and manage content for your
 ## Related topics
 
 [Your new SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e?)
+
 [Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
