@@ -53,7 +53,9 @@ To avoid user confusion, keep the following in mind when you turn on hybrid OneD
   
 - When you turn on this feature, your users will be directed to OneDrive for Business in Office 365 when they click OneDrive in SharePoint Server. Be sure to plan to migrate your users' content from their old SharePoint Server OneDrive for Business to the new one in Office 365.
     
-- Because there's no direct link between OneDrive for Business in SharePoint Server and OneDrive for Business in Office 365, users' **Shared with me** lists in Office 365 won't display documents that have been shared with them from on-premises SharePoint Server. 
+- Because there's no direct link between OneDrive for Business in SharePoint Server and OneDrive for Business in Office 365, users' **Shared with me** lists in Office 365 won't display documents that have been shared with them from on-premises SharePoint Server.
+
+- In SharePoint Server 2016 and SharePoint Server 2019, the custom company logo set in the Microsoft 365 Admin center will be displayed in the SuiteNav menu bar. For more information on how to set the company logo, see [Customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
     
 ## Getting started
 
