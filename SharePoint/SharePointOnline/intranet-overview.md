@@ -18,9 +18,16 @@ Planning an intranet can be a daunting task. In this article we look at the high
 
 ![Illustration of an intranet timeline](media/intranet-timeline.png)
 
+## Roadmap contents:
+
+- Section 1: Introduction to intranet roles, tasks, planning stages, and timelines
+- Section 2: Intranet design fundamentals  
+- Section 3: Key tasks by role 
+- Section 4: How to get started 
+
 ## Who should use this roadmap?
 
-- Company intranet owners - the person managing the overall direction and coordination 
+- Company intranet owners - the person managing the overall direction and coordination of your organization's intranet
 - IT/Admins - traditional admin role
 - Business owners/site owners - the various stakeholders who are responsible for portions of the intranet
 - Content creators - the people creating and managing content on sites and pages
@@ -28,34 +35,46 @@ Planning an intranet can be a daunting task. In this article we look at the high
 ## What you'll learn:
 
 - Understand at a high level the various roles and responsibilities of creating a modern intranet
-- Learn about key success factors and known barriers to success
 - See what you can do with SharePoint online out-of-the-box sites and web parts verse custom solutions
 - Use checkpoints and checklists to track your progress
 	
+## How to think about a modern vs traditional intranet
 
-## Roadmap contents:
+- Answer: What does it mean to be modern?
+- Visual content, modern vs traditional
 
-- Section 1: Introduction to intranet roles, responsibilities, planning stages, and timelines
-- Section 2: Intranet design fundamentals  
-- Section 3: Key tasks by role (stand alone)
-- Section 4: How to get started (stand alone) 
+## Key success factors:
+
+Over the years we have learned about what makes an intranet successful. These are known factors that can help accelerate the creation, adoption, and over all success of your intranet:
+
+> [!div class="checklist"]
+> * Have an executive sponsor and idenitfy intranet champions
+> * Established KPIs that are regularly communicated from the project's start to finish
+> * Design for simplicity and longevity 
+> * Involve your business owners and other decision makers
+> * Ask for feedback from users during all stages of the design process
+> * Establish a governance plan that allows for self-service sites creation
+> * Audit content to ensure quality and relevancy before migrating
+> * Enable social connection that encourages communication, engagement, and collaboration 
+> * Train your content creators and your end users
 
 ## Section 1: Introduction to intranet roles, tasks, planning stages, and timelines
 
 ### Roles, tasks, and stages at-a-glance:
+
 |Your role|Planning tasks|Build tasks|Live site maintenance|
-|:--------|:-------------|:----------|:------------------|
+|:--------|:-------------|:----------|:--------------------|
 |[Company intranet owner](#company-intranet-owner)|Branding, adoption, governance, information architecture, and change management|||
 |[IT / Admin](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, end user training|Site creation, navigation, search, branding, publishing||
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content creators](#content-creators)|Content best practices, content and site design|Create and share content, content collaboration|Update existing content, publish new content|
-</br>
+
 
 ### Introduction to roles
 
 #### Company intranet owner
 
-When creating an intranet in SharePoint, the company intranet owner works with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
+The company intranet owner works with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
 
 When you're ready to start down the road to a SharePoint intranet, first, take a look at the [SharePoint lookbook](https://aka.ms/sharepointlookbook). The lookbook provides examples of intranet pages that you can build in SharePoint and will give you an idea of the possibilities. Keep these in mind as you proceed through the planning and implementation process.
 
@@ -65,24 +84,20 @@ If your existing intranet is using SharePoint server, consider how [migrating yo
 
 Once you have chosen a project to start with, meet with the business owners in that area of your organization and other stakeholders to plan the project.
 
-### Organize your intranet
+Keep in mind these key success factors as you plan and implement your intranet:
 
-A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
+> [!div class="checklist"]
+> * Have an executive sponsor and find intranet champions
+> * Design for simplicity and longevity 
+> * Ask for feedback from users during all stages of the design process
+> * Establish KPIs and regularly communicate them from project start to finish
 
-### Brand your intranet
+#### IT/Admins
+- High level summary of role
+- Key success factors relevant to specific role
+- Entry points to role specific content
 
-Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
-
-## IT Pros and admins
-
-- Implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals.
-- Training business owners, content creators, and end users
-
-### Train your content creators
-
-[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)
-
-## Business owners and site owners
+#### Business owners and site owners
 
 As a business owner, you may be responsible for intranet content for a particular area of your organization such as HR or facilities. With SharePoint, you can easily create and maintain the content that you need. Look over the [SharePoint lookbook](https://aka.ms/sharepointlookbook) for some ideas before you start your intranet planning.
 
@@ -95,7 +110,76 @@ Keep in mind these key success factors as you plan and implement your intranet:
 > * Work with champions and thought leaders in the organization
 > * Establish KPIs and regularly communicate them from project start to finish
 
-### Migrate your data
+
+#### Content creators
+
+Content creators are the people who will be responsible for the day-to-day management and creation of content. Content creators can take on many responsibilities such as creating and publishing organizational news, subject matter experts for special projects and initiatives and thought leaders.
+
+Content creators should get familiar with SharePoint design fundamentals and building blocks. 
+
+Keep in mind these key success factors as create and manage content for your intranet:
+
+- Develop a content strategy and publishing schedule
+- Ask for feedback and allow for comments and social interaction
+- Schedule content audits as needed to ensure content is relevant
+
+
+### Introduction to intranget design stages
+
+| Stage 1: Plan        | Stage 2: Build       | Stage 3: Manage |
+| :------------------- | :------------------- |:----------------|
+| Analyze your current intranet  | Communicate goals progress regularly |Use metrics to measure progress |
+| Organize your current content and assets|Measure, learn and pivot as you go|Communicate what's new |
+| Develop business objectives |Get feedback regularly|Maintain high quality content |
+| Plan solutions to business objectives | Celebrate the launch of your new intranet |Educate end users |
+
+
+#### How roles and timelines work together
+
+- Visio PDF
+
+
+## Section 2: SharePoint design fundamentals and building blocks
+
+- Visio intranet building blocks
+- Visio site/page building blocks
+- SOC article - SPO design fundamentals
+
+## Section 3: Key tasks by role
+
+### Company intranet owner
+
+#### Organize your intranet
+
+A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
+
+#### Brand your intranet
+
+Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
+
+
+### IT Pros and admins
+
+- Implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals.
+- Training business owners, content creators, and end users
+
+#### Train your content creators
+
+[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)
+
+These references can help your content creators manage updates to the site.
+
+- [Create a document library in SharePoint](https://support.office.com/client/306728fe-0325-4b28-b60d-f902e1d75939)
+- [Create a list in SharePoint](https://support.office.com/article/0D397414-D95F-41EB-ADDD-5E6EFF41B083)
+- [Add texts and tables to your page](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801)
+- [Add content to your page using the Embed web part](https://support.office.com/article/721f3b2f-437f-45ef-ac4e-df29dba74de8)
+- [Use the image web part](https://support.office.com/article/A63B335B-AD0A-4954-A65D-33C6AF68BEB2)
+- [Use the News web part on a SharePoint page](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)
+
+
+### Business owners and site owners
+
+#### Migrate your data
 
 One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up-to-date, and what's no longer needed and can be unpublished. Oftentimes, organizations can achieve higher user satisfaction and easier maintenance by removing content that's no longer needed. This also reduces the amount of content that you need to migrate to SharePoint.
 
@@ -122,16 +206,18 @@ You can [change the look of your site](https://support.office.com/article/06bbad
 
 Consider setting up an [approval flow](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9) for changes to your site. This can help you maintain standards within your group as people update pages with the latest information.
 
-## Content creators
+### Content creators
 
-These references can help your content creators manage updates to the site.
+- Launch and manage sites
+- Create and manage content
+- Inform and engage
+- Build culture and community
+- Connect and collaborate
 
-- [Create a document library in SharePoint](https://support.office.com/client/306728fe-0325-4b28-b60d-f902e1d75939)
-- [Create a list in SharePoint](https://support.office.com/article/0D397414-D95F-41EB-ADDD-5E6EFF41B083)
-- [Add texts and tables to your page](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801)
-- [Add content to your page using the Embed web part](https://support.office.com/article/721f3b2f-437f-45ef-ac4e-df29dba74de8)
-- [Use the image web part](https://support.office.com/article/A63B335B-AD0A-4954-A65D-33C6AF68BEB2)
-- [Use the News web part on a SharePoint page](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)
+
+## Section 4: How to get started
+
+
 
 ## Related topics
 
