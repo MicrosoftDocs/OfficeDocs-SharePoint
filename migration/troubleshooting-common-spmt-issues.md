@@ -36,7 +36,7 @@ This article describes some common issues and errors that you may encounter when
 |*Scan File Failure: Not enough disk space to pack the file*|The disk space available for the migration working folder is too small for the size of your source file.  Adjust your disk space and try again.
 |*Packaging failure: Cannot open file*|Packaging failed due to non-existing source.  Check if you can access the source root folder.|
 |*A duplicate task has already been created.*|The CSV file used to do bulk migration cannot have duplicate entries.  Remove the duplicate line(s) and try again.|
-|*The parent folder was not migrated*|The parent was not migrated, and all items under the folder will fail. Please retry your migration.|
+|*The parent folder was not migrated*|The parent folder was not migrated, therefore all items under the folder will fail to migrate. Please retry your migration.|
 
 
 
