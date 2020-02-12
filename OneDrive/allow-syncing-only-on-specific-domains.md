@@ -24,7 +24,10 @@ description: "Learn how to restrict syncing to only devices on the domains you s
 To make sure that users sync OneDrive files only on managed computers, you can configure OneDrive to sync only on PCs that are joined to specific domains.
   
  **To allow syncing only on PCs joined to specific domains**
-  
+ 
+> [!NOTE]
+> These settings apply to both SharePoint online sites as well as OneDrive for business.
+
 1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and select **Sync** in the left pane.
     
     ![The Sync page of the OneDrive admin center](media/blocksyncdomain.png)
