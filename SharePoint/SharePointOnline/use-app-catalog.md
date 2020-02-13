@@ -94,7 +94,7 @@ If you want all users to use an app, you can deploy it to specific site collecti
 You can deploy a third-party app, or you can [deploy a custom app](use-app-catalog.md#__deploy_a_custom).
 
  > [!NOTE]
-    > This option is only available for SharePoint add-ins. To see tenant-scope deployment options for SharePoint Framework solutions see [Tenant-scoped solution deployment for SharePoint Framework solutions](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/tenant-scoped-deployment). 
+> This option is only available for SharePoint add-ins. To see tenant-scoped deployment options for SharePoint Framework solutions, see [Tenant-scoped solution deployment for SharePoint Framework solutions](https://docs.microsoft.com/sharepoint/dev/spfx/tenant-scoped-deployment). 
   
  **Deploy a third-party app**
   
