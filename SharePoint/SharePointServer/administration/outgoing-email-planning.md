@@ -107,10 +107,10 @@ SharePoint supports the following Simple Authentication and Security Layer (SASL
 
 Set **Use TLS connection encryption** to Yes to require SharePoint to extablish an encrypted connection to the SMTP server before sending email. A valid server certificate must be installed on the SMTP server to establish an encrypted connection. If this is set to Yes and an encrypted connection can't be established, no emails will be sent.
 
-> [!Note]
+> [!NOTE]
 > SharePoint supports STARTTLS to establish TLS connection encryption to an SMTP server. It doesn't support SMTPS to establish SSL connection encryption to an SMTP server.
 
-> [!Note]
+> [!NOTE]
 > Although SharePoint can require TLS connection encryption when sending email to an SMTP server, it can't control whether connection encryption will be used when that SMTP server sends the email to other SMTP servers. Work with your email administrator to configure your SMTP servers to favor connection encryption.
 
 ### Email impersonation
@@ -141,7 +141,7 @@ Run this command on your Microsoft Exchange Server to grant permission for the S
 
 <pre><code>Get-ReceiveConnector "&lt;Receive Connector Name&gt;" | Add-ADPermission -User &lt;DOMAIN\AuthenticatedEmailAccount&gt; -ExtendedRights ms-Exch-SMTP-Submit, ms-Exch-SMTP-Accept-Any-Recipient, ms-Exch-SMTP-Accept-Any-Sender, ms-Exch-SMTP-Accept-Authoritative-Domain-Sender, ms-Exch-Accept-Headers-Routing</code></pre>
 
-> [!Note]
+> [!NOTE]
 > When using Microsoft Exchange Server 2013 or later, this permission should be applied to the client proxy receive connector. When using Microsoft Exchange Server 2010 or earlier, this permission should be applied to the client frontend receive connector.
 
 ### Disable SharePoint email impersonation <a name="disable"> </a>

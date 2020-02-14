@@ -5,6 +5,7 @@
 ### What is supported by SPMT?
 #### [Supported features](what-is-supported-spmt.md)
 #### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 
+#### [Migrating OneNote Notebooks](migrate-onenote-spmt.md)
 #### [File and folder permissions](understanding-permissions-when-migrating.md)
 #### [Supported SharePoint web parts](spmt-supported-webparts.md)
 #### [Supported Site features](spmt-supported-site-features.md)
