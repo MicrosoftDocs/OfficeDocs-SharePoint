@@ -14,7 +14,7 @@ description: "Learn about planning and deploying a SharePoint intranet."
 
 # Modern intranet roadmap
 
-Planning an intranet can seem like a daunting task. In this article we look at the high level tasks you need to do to create and maintain a successful intranet with SharePoint.
+Your intranet might include your company's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR). In this article we look at the high level tasks you need to do to create and maintain a successful intranet with SharePoint.
 
 Whether you're the company intranet owner, an IT Professional or administrator, a site owner, or a content creator, you're in the right place. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. As you read the sections below, follow the links for more detailed information on the areas that you're working on.
 
@@ -53,7 +53,7 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 Over the years we have learned about what makes an intranet successful. These are known factors that can help accelerate the creation, adoption, and over all success of your intranet:
 
 > [!div class="checklist"]
-> * Have an executive sponsor and idenitfy intranet champions
+> * Have an executive sponsor and identify intranet champions
 > * Established KPIs that are regularly communicated from the project's start to finish
 > * Design for simplicity and longevity 
 > * Involve your business owners and other decision makers
@@ -174,6 +174,7 @@ If you're migrating files from SharePoint Server on-premises or file shares, you
 Video is a great way to communicate to the people in your organization. Videos ranging from executive briefings to individual users creating tutorials or sharing ideas can lead to greater engagement of intranet users. An important component of this in Microsoft 365 is [Microsoft Stream](https://docs.microsoft.com/stream). You can use Stream to deliver live and on-demand meetings, events, and training. If you have existing video content that you want to make available on your new intranet site, [upload it to Stream](https://docs.microsoft.com/stream/portal-upload-video) as part of your content migration process.
 
 *Start by:*
+
 *You'll know your done when:*
 
 #### Design the intranet portal page
@@ -183,6 +184,7 @@ The [main intranet portal for your organization](home-site.md) is a big part of 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](https://docs.microsoft.com/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. Read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d) for an end-to-end look at creating this page.
 
 *Start by:*
+
 *You'll know your done when:*
 
 #### Design your business-specific intranet site
@@ -199,6 +201,7 @@ You can [change the look of your site](https://support.office.com/article/06bbad
 Consider setting up an [approval flow](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9) for changes to your site. This can help you maintain standards within your group as people update pages with the latest information.
 
 *Start by:*
+
 *You'll know your done when:*
 
 
@@ -223,6 +226,7 @@ Keep in mind these key success factors as you create and manage content for your
 - Connect and collaborate
 
 *Start by:*
+
 *You'll know your done when:*
 
 ## Section 2: SharePoint design fundamentals and building blocks
