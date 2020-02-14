@@ -41,7 +41,7 @@ The primary difference between "on page" and site navigation is persistence. The
 
 Planning site navigation involves thinking about:
 
--   Organizing and labelling
+-   Organizing and labeling
 
 -   Usability and findability
 
