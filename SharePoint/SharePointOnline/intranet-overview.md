@@ -14,7 +14,9 @@ description: "Learn about planning and deploying a SharePoint intranet."
 
 # Modern intranet roadmap
 
-Planning an intranet can be a daunting task. In this article we look at the high level tasks that IT Professionals, business owners, site owners, and content creators must do to create and maintain a successful intranet with SharePoint. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. Follow the links for more detailed information on the areas that you're working on. 
+Planning an intranet can seem like a daunting task. In this article we look at the high level tasks you need to do to create and maintain a successful intranet with SharePoint.
+
+Whether you're the company intranet owner, an IT Professional or administrator, a site owner, or a content creator, you're in the right place. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. As you read the sections below, follow the links for more detailed information on the areas that you're working on.
 
 ![Illustration of an intranet timeline](media/intranet-timeline.png)
 
