@@ -33,10 +33,10 @@ This article describes some common issues and errors that you may encounter when
 |*The site cannot be created or updated*|Confirm that you have permissions to create the site and that the URL is valid</br></br>If the site exists, confirm you are the site collection administrator</br></br>If it still fails, create the site manually and point the migration tool to this newly created site.|
 |*Scan file failure: The folder name is invalid*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|
 |*Scan file failure: Target path is too long*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)   </br></br></br>The entire path, including the file name, must contain fewer than 400 characters for OneDrive, OneDrive for Business and SharePoint Online.|
-|*Scan File Failure: Not enough disk space to pack the file*|The disk space available for the migration working folder is too small for the size of your source file.  Adjust your disk space and try again.
+|*Scan File Failure: Not enough disk space to pack the file*|The disk space available for the migration working folder is too small for the size of your source file.  Enlarge your size of your working folder try again.
 |*Packaging failure: Cannot open file*|Packaging failed due to non-existing source.  Check if you can access the source root folder.|
 |*A duplicate task has already been created.*|The CSV file used to do bulk migration cannot have duplicate entries.  Remove the duplicate line(s) and try again.|
-|*The parent folder was not migrated*|The parent folder was not migrated, therefore all items under the folder will fail to migrate. Please retry your migration.|
+|*The parent folder was not migrated*|The parent folder was not migrated, therefore all items under the folder will fail to migrate. Check your parent folder and retry your migration.|
 
 
 
@@ -74,7 +74,7 @@ This article describes some common issues and errors that you may encounter when
 |0x02010010|Make sure the source list and target list have the same template. |
 |0x0204000D|All files and folders in the SPMT working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed during migration. Restart your migration.|
 |0x02040012|The temporary storage on your local computer is too low.  SPMT caches the package on the working folder. Expand your temporary storage and retry.|
-|0x02030003|There are too many items with unique permissions. Revise your SPO unique permissions list and then retry your migration.|
+|0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissiosn. aRetry your migration.|
 |0x02050001|Local storage file is corrupted.  The working folder was touched or modified during the migration.  Retry your migration.|
 |0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the SPMT working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
 |0x02010006|The source SharePoint site does not have any defined role definitions. Check to see if your role exists when accessing source site.|
