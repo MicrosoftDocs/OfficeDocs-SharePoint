@@ -22,14 +22,14 @@ If your organization needs to store and manage files for all your users to use, 
 
 - **Images such as photos and logos**. When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified. 
 
-    ![A post from an organization news site on the SharePoint start page](media/image-library.png)
+    ![Selecting an image to add to a SharePoint page](media/image-library.png)
 
-- **Office templates**. When a user selects to create a new Office file (from Office.com or an Office desktop app), the user can select the tab for your organization to see the templates. (To use this feature on Office.com, users  need to be assigned a license to Office 365 E3 or E5.)
+- **Office templates**. When a user selects to create a new Office file (from Office.com or the Word, Excel, or PowerPoint desktop app), the user can select the tab for your organization to see the templates. (To use this feature on Office.com, users  need to be assigned a license to Office 365 E3 or E5.)
 
-    ![A post from an organization news site on the SharePoint start page](media/office-template-library.png)
+    ![Selecting a template in PowerPoint](media/office-template-library.png)
 
 > [!NOTE]
-> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization. All of these libraries (regardless of type) must be on the same site. 
+> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization. All of these libraries (regardless of type) must be on the same site. Only libraries (not folders) can be set as organization asset libraries.
 
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
@@ -39,7 +39,7 @@ If your organization needs to store and manage files for all your users to use, 
     > [!NOTE]
     > All organization asset libraries must be on the same site.
 
-2. Set the permissions on the site. Add the people you want to be able to upload files as members or owners of the site or Office 365 group. Add anyone you want to be able to access the files (such as "Everyone except external users") as visitors. 
+2. Set the permissions on the site. Add the people you want to be able to upload files as members or owners of the site or Office 365 group. Add anyone you want to be able to access the files (such as "Everyone except external users") as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library. 
 
 3. Upload the images or Office templates to a document library.
 
