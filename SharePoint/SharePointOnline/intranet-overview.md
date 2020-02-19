@@ -14,9 +14,9 @@ description: "Learn about planning and deploying a SharePoint intranet."
 
 # Modern intranet roadmap
 
-Your intranet might include your company's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR). In this article we look at the high level tasks you need to do to create and maintain a successful intranet with SharePoint.
+Your intranet might include your company's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR). In this article we look at the high level tasks needed to create and maintain a successful intranet with SharePoint.
 
-Whether you're the company intranet owner, an IT Professional or administrator, a site owner, or a content creator, you're in the right place. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. As you read the sections below, follow the links for more detailed information on the areas that you're working on.
+Whether you're the company intranet owner, an IT Professional or administrator, a site owner, or a content creator - you're in the right place. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. As you read the sections below, follow the links for more detailed information on the areas that you're working on.
 
 ![Illustration of an intranet timeline](media/intranet-timeline.png)
 
@@ -28,9 +28,9 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 
 ### Who should use this roadmap?
 
-- Company intranet owners - the person managing the overall direction and coordination of your organization's intranet
-- IT/Admins - traditional admin role
-- Business owners/site owners - the various stakeholders who are responsible for portions of the intranet
+- Company intranet owners -  this is the person managing the overall direction and coordination of your organization's intranet
+- IT/Admins - one or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet
+- Business owners/site owners - the various stakeholders who will be responsible for creating and maintaining portions of the intranet
 - Content creators - the people creating and managing content on sites and pages
 
 ### What you'll learn:
@@ -43,10 +43,14 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 
 ![Illustration of traditional intranet contents and modern intranet contents](media/intranet-traditional-vs-modern.png)
 
-- Lorem ipsum dolor sit amet, consectetur adipisci elit
-- Iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-- Lorem ipsum dolor sit amet, consectetur adipisci elit
-- Iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate fluidly, and engage audiences with targeted content and news. 
+
+| Traditional intranet           | Modern intranet                |
+| :----------------------------- | :----------------------------- |
+| Communication primarily through email  | Communication primarily through chat and channels | 
+| Meetings usually take place in the office | Meet anytime, anywhere, on any device | 
+| Collaboration takes place in meetings or in a shared folder | Collaboration happens across products and channels | 
+| Corporate news dominates the newsfeed | Personalized news is targeted to specific audiences | 
 
 ### Key success factors:
 
@@ -71,8 +75,8 @@ Over the years we have learned about what makes an intranet successful. These ar
 |:--------|:-------------|:----------|:--------------------|
 |[Company intranet owner](#company-intranet-owner)|Branding, adoption, governance, information architecture, and change management|||
 |[IT / Admin](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, end user training|Site creation, navigation, search, branding, publishing||
-|[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
-|[Content creators](#content-creators)|Content best practices, content and site design|Create and share content, content collaboration|Update existing content, publish new content|
+|[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit, and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
+|[Content creators](#content-creators)|Content best practices, content, and site design|Create and share content, content collaboration|Update existing content, publish new content|
 
 ### Summary of intranet design stages
 
