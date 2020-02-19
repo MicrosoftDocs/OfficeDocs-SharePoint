@@ -98,11 +98,11 @@ This report is only generated if a failure occurs during the job run.
 
 When you need to do deeper investigation or a thorough verification of your migration task, the task level reports help you drill down into the specific details. The four recommended task level reports to use are:
   
-- **FileSummary.csv:** This is similar to the overall summary report except that it aggregates the data just for a single task. 
+- **ItemSummary.csv:** This is similar to the overall summary report except that it aggregates the data just for a single task. 
     
-- **FilesFailureReport.csv:** This is the failure report at the item level. This is a filtered version of the filese report, showing only failures. 
+- **ItemFailureReport.csv:** This is the failure report at the item level. This is a filtered version of the filese report, showing only failures. 
     
-- **FilesReport.csv:**  A list of all the items this task attempted to do 
+- **ItemReport.csv:**  A list of all the items this task attempted to do 
     
 - **ScanSummary.csv:** This report gives statistical totals. 
     
@@ -112,9 +112,9 @@ When you need to do deeper investigation or a thorough verification of your migr
     
 - **StructureFailureSummary.csv:**  This is an aggregate of all the structural task failure reports. This will only be generated if there are failures.
     
-### Files Summary
+### Item Summary
 
-The **FilesSummary.csv** report is a summary report at the task level. 
+The **ItemSummary.csv** report is a summary report at the task level. 
   
 |**Column**|**Description**|
 |:-----|:-----|
@@ -137,9 +137,9 @@ The **FilesSummary.csv** report is a summary report at the task level.
 |Failed querying  <br/> |Number of files that encountered an error or failure while being queried.  <br/> |
 |Device name  <br/> |Name of the device or computer that is running the migration job.  <br/> |
    
-### File Failure Report
+### Item Failure Report
 
-The **FilesFailureReport.csv**, is only generated if an error resulting in a file being unable or failing to migrate. 
+The **ItemFailureReport.csv**, is only generated if an error resulting in a file being unable or failing to migrate. 
   
 |**Column**|**Description**|
 |:-----|:-----|
@@ -161,9 +161,9 @@ The **FilesFailureReport.csv**, is only generated if an error resulting in a fil
 |Task ID  <br/> |The ID number of the Task.  <br/> |
 |Device name  <br/> |Name of the device or computer that is running the migration job.  <br/> |
    
-### Files Report
+### Item Report
 
-The **FilesReport.csv** is a detailed report that provides data on each file within the task. 
+The **ItemReport.csv** is a detailed report that provides data on each file within the task. 
   
 |**Column**|**Description**|
 |:-----|:-----|

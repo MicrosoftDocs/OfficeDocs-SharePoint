@@ -70,24 +70,17 @@ We understand there may be sites you don’t want updated. You can use the follo
 
 Option 1: Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded by enabling a web scoped feature on each site and sub site that’s being impacted.
 
+Connect to the site using Connect-PnPOnline. For example,
 
-```PowerShell
-    
-    #Connect to a site 
+`Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred`
 
-    $cred = Get-Credential 
+To prevent modernization of an uncustomized home page, run:
 
-    Connect-PnPOnline -Url https://[tenant].sharepoint.com/sites/siteurl -Credentials $cred 
+`Enable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web`
 
-    #Enabling the feature that blocks uncustomized home page modernization 
+If you later want to re-enable modernization of that page, run:
 
-    Enable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web 
-
-    #And again disabling the feature that blocks uncustomized home page modernization 
-
-    #Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web   
-   
-```
+`Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web`
 
 Option 2: Don’t know what sites will be impacted by this change? You can use the [SharePoint Modernization Scanner](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner) and run the scanner in “HomePageOnly” mode. The output of the modernization scanner run contains a file called SitesWithUncustomizedHomePages.csv. Use this file to get a list of sites and sub sites that will get a modern homepage. This tool will enable you to message users impacted if desired. If needed, use the PowerShell cmdlet above, or the following sample script to opt multiple sites out of the update: https://github.com/SharePoint/sp-dev-modernization/tree/dev/Scripts/HomePageModernizationOptOut  
  
