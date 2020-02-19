@@ -28,9 +28,9 @@ The procedures for sharing files and folders remain the same. They can be found 
   
 Guest accounts are still used for sharing sites, and you can always add guest users to your directory if you need to give them access to more than just a file or folder. "Anyone" links remain available and are unchanged.
   
-The following table shows the differences between sharing with external users with guest accounts and with ad-hoc external recipients.
+The following table shows the differences between sharing with external users with guest accounts and with ad hoc external recipients.
   
-||**Guest account**|**Ad-hoc external recipient**|
+||**Guest account**|**Ad hoc external recipient**|
 |:-----|:-----|:-----|
 |Can access shared files and folders  <br/> |Yes  <br/> |Yes  <br/> |
 |Verify access by…  <br/> |Signing in to Office 365  <br/> |Entering a time-sensitive and single-use code sent to the email address that the file or folder was share with  <br/> |
@@ -43,7 +43,7 @@ The following table shows the differences between sharing with external users wi
  This update also introduces some changes to the way that external sharing is audited. When using the share dialog to share with "specific people" and the recipients are all external users then a secure link will be created and the specified email addresses will be secured, or added, to the link. This appears in audit logs in the following ways:
   
 > [!NOTE]
-> If the UserType property of a User object is "guest", the user is outside of your organization but may be an ad-hoc external recipient that does not have a Guest account
+> If the UserType property of a User object is "guest", the user is outside of your organization but may be an ad hoc external recipient that does not have a Guest account
   
 > [!NOTE]
 > Auditing operations related to sharing invitations can still appear in situations when SharePoint items other than files and folders are shared with external users (for example, when sharing a SharePoint site with external users).
