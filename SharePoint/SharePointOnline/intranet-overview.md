@@ -45,12 +45,14 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 
 This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate fluidly, and engage audiences with targeted content and news. 
 
+
+
 | Traditional intranet           | Modern intranet                |
 | :----------------------------- | :----------------------------- |
-| Communication primarily through email  | Communication primarily through chat and channels | 
-| Meetings usually take place in the office | Meet anytime, anywhere, on any device | 
-| Collaboration takes place in meetings or in a shared folder | Collaboration happens across products and channels | 
-| Corporate news dominates the newsfeed | Personalized news is targeted to specific audiences | 
+| Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/en-us/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) | 
+| Meetings usually take place in the office | Meet [anytime, anywhere, on any device](https://support.office.com/en-us/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) | 
+| Collaboration takes place in meetings or in a shared folder | Collaboration happens across [applications and channels](https://support.office.com/en-us/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) | 
+| Corporate news dominates the newsfeed | Personalized news and content is [targeted to specific audiences](https://support.office.com/en-us/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) | 
 
 ### Key success factors:
 
