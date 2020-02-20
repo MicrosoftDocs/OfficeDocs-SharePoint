@@ -43,7 +43,7 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 
 ![Illustration of traditional intranet contents and modern intranet contents](media/intranet-traditional-vs-modern.png)
 
-This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate fluidly, and engage audiences with targeted content and news. 
+This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
 
 
 
@@ -64,8 +64,8 @@ Over the years we have learned about what makes an intranet successful. These ar
 > * Design for simplicity and longevity 
 > * Involve your business owners and other decision makers
 > * Ask for feedback from users during all stages of the design process
-> * Establish a governance plan that allows for self-service sites creation
-> * Audit content to ensure quality and relevancy before migrating
+> * Establish a governance plan that allows for self-service
+> * Audit existing content to ensure quality and relevancy before migrating to a new intranet
 > * Enable social connection that encourages communication, engagement, and collaboration 
 > * Train your content creators and your end users
 
@@ -88,11 +88,6 @@ Over the years we have learned about what makes an intranet successful. These ar
 | Organize your current content and assets|Measure, learn and pivot as you go|Communicate what's new |
 | Develop business objectives |Get feedback regularly|Maintain high quality content |
 | Plan solutions to business objectives | Celebrate the launch of your new intranet |Educate end users |
-
-
-#### How roles, stages and timelines work together
-
-- Visio PDF
 
 ### Summary of roles and key tasks
 
@@ -131,14 +126,6 @@ Branding is an important part of your intranet. With SharePoint, you can [add br
 
 *You'll know your done when -* You've determined the end-to-end look of the intranet from the home page to hub sites and individual sites.
 
-#### Plan the governance strategy
-Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal - ensuring company content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](https://docs.microsoft.com/en-us/sharepoint/governance-overview): naming conventions, guest access, classification of sites, groups, and files.
-
-*Start by -* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
-
-*You'll know your done when -* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
-
-
 #### IT/Admins
 
 - Implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals.
@@ -155,6 +142,15 @@ Governance is the set of policies, roles, and processes that control how your or
 > * Train your content creators and your end users
 
 **Key tasks:**
+#### Plan the governance strategy
+Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal - ensuring company content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](https://docs.microsoft.com/en-us/sharepoint/governance-overview): naming conventions, guest access, classification of sites, groups, and files.
+
+*Start by -* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
+
+*You'll know your done when -* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
+
+
+
 #### Train your content creators
 
 [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)
