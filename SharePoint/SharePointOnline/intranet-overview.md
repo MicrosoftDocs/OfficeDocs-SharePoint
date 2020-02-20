@@ -119,21 +119,24 @@ Keep in mind these key success factors as you plan and implement your intranet:
 
 A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
 
-*Start by:* Developing and understanding about what you need your intranet to accomplish and start organizing content assets and requirements. Organize depending on the needs of the business - by region, department, or function.  
-*You'll know your done when:* Business owners and end-users confirm they can find and have access to the content that makes their jobs more productive.
+*Start by -* Developing and understanding about what you need your intranet to accomplish and start organizing content assets and requirements. Organize depending on the needs of the business - by region, department, or function.  
+
+*You'll know your done when -* Business owners and end-users confirm they can find and have access to the content that makes their jobs more productive.
 
 #### Brand your intranet
 
 Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
 
-*Start by:* Answering - Do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own? Then, collect approved brand assets like brand colors, logos, and images depending on your company's branding requirements.
-*You'll know your done when:* You've determined the end-to-end look of the intranet from the home page to hub sites and individual sites.
+*Start by -* Answering - Do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own? Then, collect approved brand assets like brand colors, logos, and images depending on your company's branding requirements.
+
+*You'll know your done when -* You've determined the end-to-end look of the intranet from the home page to hub sites and individual sites.
 
 #### Plan the governance strategy
 Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal - ensuring company content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](https://docs.microsoft.com/en-us/sharepoint/governance-overview): naming conventions, guest access, classification of sites, groups, and files.
 
-*Start by:* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
-*You'll know your done when:* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
+*Start by -* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
+
+*You'll know your done when -* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
 
 
 #### IT/Admins
@@ -144,6 +147,12 @@ Governance is the set of policies, roles, and processes that control how your or
 - High level summary of role
 - Key success factors relevant to specific role
 - Entry points to role specific content
+
+> [!div class="checklist"]
+> * Establish a governance plan that allows for self-service sites creation
+> * Audit content to ensure quality and relevancy before migrating
+> * Enable social connection that encourages communication, engagement, and collaboration 
+> * Train your content creators and your end users
 
 **Key tasks:**
 #### Train your content creators
@@ -159,8 +168,8 @@ These references can help your content creators manage updates to the site.
 - [Use the image web part](https://support.office.com/article/A63B335B-AD0A-4954-A65D-33C6AF68BEB2)
 - [Use the News web part on a SharePoint page](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)
 
-*Start by:*
-*You'll know your done when:*
+*Start by -*
+*You'll know your done when -*
 
 
 #### Business owners and site owners
@@ -185,9 +194,16 @@ If you're migrating files from SharePoint Server on-premises or file shares, you
 
 Video is a great way to communicate to the people in your organization. Videos ranging from executive briefings to individual users creating tutorials or sharing ideas can lead to greater engagement of intranet users. An important component of this in Microsoft 365 is [Microsoft Stream](https://docs.microsoft.com/stream). You can use Stream to deliver live and on-demand meetings, events, and training. If you have existing video content that you want to make available on your new intranet site, [upload it to Stream](https://docs.microsoft.com/stream/portal-upload-video) as part of your content migration process.
 
-*Start by:*
+*Start by -* Understanding the full scope of content that might need to be migrated and then define the criteria used to target content that should be migrated, should be edited and then migrated, and should be retired. 
 
-*You'll know your done when:*
+*You'll know your done when -* You've got the minimum amount of content necessary to create and launch an effective SharePoint site.
+
+#### Determine your permissions and sharing strategy
+SharePoint [permissions](https://docs.microsoft.com/en-us/sharepoint/modern-experience-sharing-permissions) are managed through a set of roles within a site - owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Office 365 groups. 
+
+*Start by -* Determining who needs access, who should not have access, and how you will grant access for requests.
+
+*You'll know your done when -* All site owners and user have access to the content they need, while securing confidential content when appropriate.
 
 #### Design the intranet portal page
 
@@ -195,16 +211,16 @@ The [main intranet portal for your organization](home-site.md) is a big part of 
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](https://docs.microsoft.com/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. Read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d) for an end-to-end look at creating this page.
 
-*Start by:*
+*Start by -* Considering the goals from the perspective of your IT department, your organization's communications team, and end users of the experience. Design the portal page with simplicity and scalability in mind.
 
-*You'll know your done when:*
+*You'll know your done when -* You've created a launch plan for redirecting from your current portal page to the new page and have shared this plan with all stakeholders and end-users.
 
 #### Design your business-specific intranet site
 
 As you start designing the intranet sites for your group, consider surveying your users to better understand their needs and how they currently interact with your content. You can use [Forms](https://docs.microsoft.com/forms-pro)
 to create custom surveys and questionnaires.
 
-We recommend developing your intranet pages using [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732). With communication sites, you can share news, reports, statuses, and other information through a variety of templates and web parts. For an end-to-end look at setting up a communication site, see [Guided walkthrough: Creating a communication site for your organization](https://support.office.com/article/d9aaecc7-e2df-43a7-acc2-bd37f1fe7cfe).
+We recommend developing your intranet pages using [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732). With communication sites, you can share news, reports, statuses, and other information through a variety of templates and web parts. For an end-to-end look at setting up a communication site, see [Guided walkthrough: Creating a communication site for your organization](https://support.office.com/article/d9aaecc7-e2df-43a7-acc2-bd37f1fe7cfe). Learn more about [how to plan your sites](https://support.office.com/en-us/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US). 
 
 You can use the [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165) to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting. Within the news web part, you can set up [audience targeting](https://support.office.com/article/68113d1b-be99-4d4c-a61c-73b087f48a81) to prioritize specific content for specific audiences. For an end-to-end look at using news in SharePoint, see [Guided walkthrough: setting up news for your organization](https://support.office.com/article/95a90834-96a2-463c-b741-31c4d2230706).
 
@@ -212,34 +228,56 @@ You can [change the look of your site](https://support.office.com/article/06bbad
 
 Consider setting up an [approval flow](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9) for changes to your site. This can help you maintain standards within your group as people update pages with the latest information.
 
-*Start by:*
+*Start by -* Prioritizing business objectives, and then decide the type of sites and web parts that will be needed initially.
 
-*You'll know your done when:*
+*You'll know your done when -* Business and site owners have dedicated areas in SharePoint that can been owned and maintained with little over sight. 
 
 
 ### Content creators
 
-Content creators are the people who will be responsible for the day-to-day management and creation of content. Content creators can take on many responsibilities such as creating and publishing organizational news, subject matter experts for special projects and initiatives and thought leaders.
-
-Content creators should get familiar with SharePoint design fundamentals and building blocks. 
+Content creators are the people who will be responsible for the day-to-day management and creation of content. Content creators can take on many responsibilities such as creating and publishing organizational news, subject matter experts for special projects and initiatives and thought leaders. Content creators should get familiar with [SharePoint design fundamentals](https://support.office.com/en-us/article/Plan-your-SharePoint-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
 
 Keep in mind these key success factors as you create and manage content for your intranet:
 
-- Develop a content strategy and publishing schedule
-- Ask for feedback and allow for comments and social interaction
-- Schedule content audits as needed to ensure content is relevant
+> [!div class="checklist"]
+> * Have an executive sponsor
+> * Design for simplicity and longevity 
+> * Ask for feedback from users during all stages of the design process
+> * Work with champions and thought leaders in the organization
+> * Establish KPIs and regularly communicate them from project start to finish
 
-**Key tasks:**
+#### Inform and engage
 
-- Launch and manage sites
-- Create and manage content
-- Inform and engage
-- Build culture and community
-- Connect and collaborate
+
+
 
 *Start by:*
 
 *You'll know your done when:*
+
+#### Connect and collaborate
+
+
+
+*Start by:*
+
+*You'll know your done when:*
+
+#### Build culture and community
+
+
+*Start by:*
+
+*You'll know your done when:*
+
+
+
+
+
+
+
+
+
 
 ## Section 2: SharePoint design fundamentals and building blocks
 
