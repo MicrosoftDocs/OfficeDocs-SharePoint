@@ -924,8 +924,8 @@ In some environments, you must coordinate the rename and move procedures with th
 
     ```powershell
     New-SPEnterpriseSearchLinksDatabase -DatabaseName <SearchServiceLinksDatabase> –SearchApplication $ssa -DatabaseServer <SearchServiceDatabaseServer>
-    $oldLinksStoreDB = ([array]($ssa | Get-SPEnterpriseSearchLinksDatabase))[0]
-    $newLinksStoreDB = ([array]($ssa | Get-SPEnterpriseSearchLinksDatabase))[1]
+    $oldLinksStoreDB = Get-SPEnterpriseSearchLinksDatabase -Identity <oldDbName>
+    $newLinksStoreDB = Get-SPEnterpriseSearchLinksDatabase -Identity <newDbName>
     Move-SPEnterpriseSearchLinksDatabases -SearchApplication $ssa -TargetStores @($newLinksStoreDB) -Confirm:$false
     ```
 
