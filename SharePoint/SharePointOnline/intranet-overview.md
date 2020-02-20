@@ -174,9 +174,7 @@ If you do need to customize SharePoint, SharePoint provides Framework solutions,
 > [!div class="checklist"]
 > * Train your content creators
 
-[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) can help you bring a curated set of Microsoft content to your users.
-
-These references can help your content creators manage updates to the site.
+Depending on their background, the people in your organization may need some help getting started with SharePoint. [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) provides a way to bring a curated set of Microsoft content to your users. Other references that can help your content creators manage updates to the site include:
 
 - [Create a document library in SharePoint](https://support.office.com/client/306728fe-0325-4b28-b60d-f902e1d75939)
 - [Create a list in SharePoint](https://support.office.com/article/0D397414-D95F-41EB-ADDD-5E6EFF41B083)
@@ -185,8 +183,8 @@ These references can help your content creators manage updates to the site.
 - [Use the image web part](https://support.office.com/article/A63B335B-AD0A-4954-A65D-33C6AF68BEB2)
 - [Use the News web part on a SharePoint page](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)
 
-*Start by -*
-*You'll know your done when -*
+*Start by -* Determining your users needs for training on SharePoint and making these references known
+*You'll know your done when -* Questions about SharePoint intranet usage on company social media channels and through the help desk have decreased to a modest level.
 
 
 #### Business owners and site owners
