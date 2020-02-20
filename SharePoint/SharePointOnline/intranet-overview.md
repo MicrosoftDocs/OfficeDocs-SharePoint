@@ -110,15 +110,18 @@ Keep in mind these key success factors as you plan and implement your intranet:
 > * Establish KPIs and regularly communicate them from project start to finish
 
 **Key tasks:**
-#### Organize your intranet
+
+> [!div class="checklist"]
+> * Organize your intranet
 
 A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
 
-*Start by -* Developing and understanding about what you need your intranet to accomplish and start organizing content assets and requirements. Organize depending on the needs of the business - by region, department, or function.  
+*Start by -* Developing an understanding about what you need your intranet to accomplish and start organizing content assets and requirements. Organize depending on the needs of the business - by region, department, or function.  
 
 *You'll know your done when -* Business owners and end-users confirm they can find and have access to the content that makes their jobs more productive.
 
-#### Brand your intranet
+> [!div class="checklist"]
+> * Brand your intranet
 
 Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
 
@@ -148,12 +151,6 @@ Governance is the set of policies, roles, and processes that control how your or
 *Start by -* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
 
 *You'll know your done when -* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
-
-**Bold**
-### Heading 3
-#### Heading 4
-##### Heading 5
-Normal text
 
 #### Train your content creators
 
