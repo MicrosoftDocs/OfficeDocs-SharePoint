@@ -160,6 +160,9 @@ Your existing intranet may contain content from a variety of sources located on 
 
 Your current business owners and site owners may be best suited to evaluate if content should be migrated, and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. 
 
+*Start by -* Working with business leaders and other content stakeholders to review your existing content for relevance and accuracy.
+
+*You'll know your done when -* A curated set of content has been migrated to SharePoint.
 
 > [!div class="checklist"]
 > * Customize SharePoint to meet your business needs
