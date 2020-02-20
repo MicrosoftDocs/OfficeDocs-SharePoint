@@ -134,9 +134,7 @@ Branding is an important part of your intranet. With SharePoint, you can [add br
 - Implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals.
 - Training business owners, content creators, and end users
 
-- High level summary of role
-- Key success factors relevant to specific role
-- Entry points to role specific content
+Keep in mind these key success factors as you plan and implement your intranet:
 
 > [!div class="checklist"]
 > * Establish a governance plan that allows for self-service sites creation
@@ -145,12 +143,30 @@ Branding is an important part of your intranet. With SharePoint, you can [add br
 > * Train your content creators and your end users
 
 **Key tasks:**
-#### Plan the governance strategy
+
+> [!div class="checklist"]
+> * Plan the governance strategy
+
 Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal - ensuring company content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](https://docs.microsoft.com/en-us/sharepoint/governance-overview): naming conventions, guest access, classification of sites, groups, and files.
 
 *Start by -* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
 
 *You'll know your done when -* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
+
+> [!div class="checklist"]
+> * Migrate content from your existing intranet
+
+Your existing intranet may contain content from a variety of sources located on different platforms. A key task in creating your modern SharePoint intranet is determining the state of your existing content and deciding which content to migrate to the new intranet.
+
+Your current business owners and site owners may be best suited to evaluate if content should be migrated, and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. 
+
+
+> [!div class="checklist"]
+> * Customize SharePoint to meet your business needs
+
+With the SharePoint modern experience, you can create an engaging, easy to maintain intranet without the need for customization. We highly recommend using SharePoint default experiences where possible. This will provide easier change management over time.
+
+If you do need to customize SharePoint, SharePoint provides Framework solutions, apps, add-ins, and solutions to help you meet your business needs. See [SharePoint development](https://docs.microsoft.com/sharepoint/dev) for more information.
 
 #### Train your content creators
 
