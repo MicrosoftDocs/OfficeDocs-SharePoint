@@ -158,7 +158,7 @@ Governance is the set of policies, roles, and processes that control how your or
 
 Your existing intranet may contain content from a variety of sources located on different platforms. A key task in creating your modern SharePoint intranet is determining the state of your existing content and deciding which content to migrate to the new intranet.
 
-Your current business owners and site owners may be best suited to evaluate if content should be migrated, and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. 
+Your current business owners and site owners may be best suited to evaluate if content should be migrated, and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. [Mover](https://mover.io) can help you migrate from other cloud providers.
 
 *Start by -* Working with business leaders and other content stakeholders to review your existing content for relevance and accuracy.
 
@@ -171,9 +171,10 @@ With the SharePoint modern experience, you can create an engaging, easy to maint
 
 If you do need to customize SharePoint, SharePoint provides Framework solutions, apps, add-ins, and solutions to help you meet your business needs. See [SharePoint development](https://docs.microsoft.com/sharepoint/dev) for more information.
 
-#### Train your content creators
+> [!div class="checklist"]
+> * Train your content creators
 
-[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)
+[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) can help you bring a curated set of Microsoft content to your users.
 
 These references can help your content creators manage updates to the site.
 
@@ -202,7 +203,9 @@ Keep in mind these key success factors as you plan and implement your intranet:
 > * Establish KPIs and regularly communicate them from project start to finish
 
 **Key tasks:**
-#### Migrate your data
+
+> [!div class="checklist"]
+> * Migrate your data
 
 One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up-to-date, and what's no longer needed and can be unpublished. Oftentimes, organizations can achieve higher user satisfaction and easier maintenance by removing content that's no longer needed. This also reduces the amount of content that you need to migrate to SharePoint.
 
@@ -214,14 +217,17 @@ Video is a great way to communicate to the people in your organization. Videos r
 
 *You'll know your done when -* You've got the minimum amount of content necessary to create and launch an effective SharePoint site.
 
-#### Determine your permissions and sharing strategy
+> [!div class="checklist"]
+> * Determine your permissions and sharing strategy
+
 SharePoint [permissions](https://docs.microsoft.com/en-us/sharepoint/modern-experience-sharing-permissions) are managed through a set of roles within a site - owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Office 365 groups. 
 
 *Start by -* Determining who needs access, who should not have access, and how you will grant access for requests.
 
 *You'll know your done when -* All site owners and user have access to the content they need, while securing confidential content when appropriate.
 
-#### Design the intranet portal page
+> [!div class="checklist"]
+> * Design the intranet portal page
 
 The [main intranet portal for your organization](home-site.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. With a modern portal page, you can still point to your legacy intranet sites. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
@@ -231,7 +237,8 @@ The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb
 
 *You'll know your done when -* You've created a launch plan for redirecting from your current portal page to the new page and have shared this plan with all stakeholders and end-users.
 
-#### Design your business-specific intranet site
+> [!div class="checklist"]
+> * Design your business-specific intranet site
 
 As you start designing the intranet sites for your group, consider surveying your users to better understand their needs and how they currently interact with your content. You can use [Forms](https://docs.microsoft.com/forms-pro)
 to create custom surveys and questionnaires.
