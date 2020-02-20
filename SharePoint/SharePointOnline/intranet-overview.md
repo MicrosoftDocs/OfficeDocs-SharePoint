@@ -43,13 +43,13 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 
 ![Illustration of traditional intranet contents and modern intranet contents](media/intranet-traditional-vs-modern.png)
 
-This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate fluidly, and engage audiences with targeted content and news. 
+This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate fluidly, and engage audiences with targeted content and news. 
 
 
 
 | Traditional intranet           | Modern intranet                |
 | :----------------------------- | :----------------------------- |
-| Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/en-us/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) | 
+| Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/en-us/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) and [community portals](https://support.office.com/en-us/article/video-what-is-yammer-47526868-b136-40cc-a80d-c870eadd9ba5)| 
 | Meetings usually take place in the office | Meet [anytime, anywhere, on any device](https://support.office.com/en-us/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) | 
 | Collaboration takes place in meetings or in a shared folder | Collaboration happens across [applications and channels](https://support.office.com/en-us/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) | 
 | Corporate news dominates the newsfeed | Personalized news and content is [targeted to specific audiences](https://support.office.com/en-us/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) | 
@@ -104,7 +104,7 @@ Start by getting inspired with the [SharePoint lookbook](https://aka.ms/sharepoi
 
 Next, start to [plan your intelligent SharePoint intranet](https://docs.microsoft.com/sharepoint/plan-intranet) by reviewing your existing intranet and determining which project to start with for your best return on investment. As you prioritize your intranet projects, consider how to get the [best performance and scalability](https://docs.microsoft.com/SharePoint/portal-health) from the portals that you build. If your existing intranet is using SharePoint server, consider how [migrating your content to SharePoint Online](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) fits into your overall plan.
 
-Then, choose a project to start with and meet with the business owners in that area of your organization to plan the project.
+Then, choose a project to start and meet with the business owners in that area of your organization to plan the project.
 
 Keep in mind these key success factors as you plan and implement your intranet:
 
@@ -119,15 +119,21 @@ Keep in mind these key success factors as you plan and implement your intranet:
 
 A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hub sites](planning-hub-sites.md), you can create an intuitive intranet with common navigation across sites and an easy-to-manage permissions structure. See [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience) for a detailed look at site navigation in SharePoint.
 
-*Start by:*
-*You'll know your done when:*
+*Start by:* Developing and understanding about what you need your intranet to accomplish and start organizing content assets and requirements. Organize depending on the needs of the business - by region, department, or function.  
+*You'll know your done when:* Business owners and end-users confirm they can find and have access to the content that makes their jobs more productive.
 
 #### Brand your intranet
 
 Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
 
-*Start by:*
-*You'll know your done when:*
+*Start by:* Answering - Do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own? Then, collect approved brand assets like brand colors, logos, and images depending on your company's branding requirements.
+*You'll know your done when:* You've determined the end-to-end look of the intranet from the home page to hub sites and individual sites.
+
+#### Plan the governance strategy
+Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal - ensuring company content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](https://docs.microsoft.com/en-us/sharepoint/governance-overview): naming conventions, guest access, classification of sites, groups, and files.
+
+*Start by:* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
+*You'll know your done when:* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
 
 
 #### IT/Admins
