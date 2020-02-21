@@ -226,7 +226,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
 
 - [Visual C++ Redistributable Package for Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkId=627156)
     
-- [Visual C++ Redistributable Package for Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
+- [Visual C++ Redistributable Package for Visual Studio 2017](https://go.microsoft.com/fwlink/?LinkId=848299)
     
 - [Exchange Web Services Managed API, version 1.2](https://go.microsoft.com/fwlink/p/?linkid=238668)
     
