@@ -190,11 +190,11 @@ For more information about service application endpoints, see [Using Service End
 |Distributed Cache   |X   |X   |
    
 > [!NOTE]
-> Some of the features that use the Distributed Cache service include:Newsfeeds, Authentication, OneNote client access, Security Trimming, and improves Page load performance. At least one Distributed Cache server is required in the farm.
+> Some of the features that use the Distributed Cache service are Newsfeeds, Authentication, OneNote client access, Security Trimming, and improves Page load performance. At least one Distributed Cache server is required in the farm.
  
-### Additional application pool identity accounts
+### SharePoint Web Applications
 
-If you create additional application pools to host sites, plan for additional application pool identity accounts. The following table describes the application pool identity account. Plan one application pool account for each application pool that you plan to implement.
+A single account should be used for all Web Applications, named Web Application pool account. This allows the administrator to use a single IIS Application Pool for all Web Applications which increases performance and reduces memory usage on the server.
   
 |**Account**|**Purpose**|
 |:-----|:-----|
