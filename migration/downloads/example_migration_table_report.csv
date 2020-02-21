@@ -1,0 +1,5 @@
+Status,Source Path,Destination Path,Schedule ID,Files Successful,Files Failed,Files Skipped,Data Successful (MB),Data Failed (MB),Data Skipped (MB),Schedule,Tags,Notes,Last Run Start,Last Run End
+Current Status,user1@contoso.com,user__1@corp.contoso.com,sCheDuLEid1,"134,751","9,967",89,"131,694.52","2,345.34",0,Daily at 4:00,admin,These,2018-05-18T22:30:01+00:00,2018-05-18T23:00:43+00:00
+Current Staus,user2@contoso.com,user__2@corp.contoso.com,sCheDuLEid2,0,0,0,0,0,0, ,sales,can,,
+Current Status,user3@contoso.com,user__3@corp.contoso.com,sCheDuLEid3,,,,,,,,,be,,
+Current Staus,user4@contoso.com,user__4@corp.contoso.com,sCheDuLEid4,75149,0,53857,43469.46,0,8408.27,Monthly on 4th at 6:00,,anything,2018-05-19T09:00:00,2018-05-19T06:48:20+00:00
