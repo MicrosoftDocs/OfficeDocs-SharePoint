@@ -1,5 +1,5 @@
 ---
-title: "Account permissions and security settings in SharePoint Servers 2016 and 2019"
+title: "Account permissions and security settings in SharePoint Servers"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -17,9 +17,9 @@ ms.assetid: 55b99d80-3fa7-49f0-bdf4-adb5aa959019
 description: "Learn about the permissions and security settings to use with a deployment of SharePoint Server."
 ---
 
-# Account permissions and security settings in SharePoint Servers 2016 and 2019
+# Account permissions and security settings in SharePoint Servers
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
 
@@ -27,7 +27,7 @@ This article describes SharePoint administrative and services account permission
 > Do not use service account names that contain the symbol $.
 
 
-## About account permissions and security settings in SharePoint Servers 2016 and 2019
+## About account permissions and security settings in SharePoint Servers
 <a name="Section1"> </a>
 
 The SharePoint Products Configuration Wizard (Psconfig) and the Farm Configuration Wizard, both of which are run during a complete installation, configure many of the SharePoint baseline account permissions and security settings.
@@ -65,8 +65,8 @@ Service account name|What is it used for?|How many should be used?
 ----|----|----
 SharePoint Farm Administrator account|Personally identifiable account for a SharePoint Administrator|1-n
 SharePoint Farm Service Account| Timer Service, Insights, IIS App for CA, SP Web Services System, Security Token Service App Pool|1
-Default content access account|search crawling internal and external sources SP2016|1-n
-Content access accounts|search crawling internal and external sources SP2016 and SP2019|1-n
+Default content access account|search crawling internal and external sources|1-n
+Content access accounts|search crawling internal and external sources|1-n
 Web Application Pool account|All Web Applications without Central Administration|1
 SharePoint Service Application Pool account|All Service Applications|1
 Portal Super Reader|Object caching|1
@@ -155,9 +155,6 @@ This section describes the SharePoint Application Pool accounts that are set up 
 
 ### Default content access account
 
-> [!IMPORTANT]
-> Information in this section applies to SharePoint Server 2016 only.
-
 The default content access account is used within a specific service application to crawl content, unless a different authentication method is specified by a crawl rule for a URL or URL pattern. This account requires the following permission configuration settings:
 
 - The default content access account must be a domain user account that has read access to external or secure content sources that you want to crawl by using this account.
@@ -167,9 +164,6 @@ The default content access account is used within a specific service application
 - This account must not be a member of the Farm Administrators group.
 
 ### Content access accounts
-
-> [!IMPORTANT]
-> Information in this section applies to SharePoint Servers 2016 and 2019 only.
 
 Content access accounts are configured to access content by using the Search administration crawl rules feature. This type of account is optional, and you can configure it when you create a new crawl rule. For example, external content (such as a file share) might require this separate content access account. This account requires the following permission configuration settings:
 
@@ -286,6 +280,9 @@ This section describes permissions of groups that the SharePoint Servers 2016 an
 ### WSS_ADMIN_WPG
 
 *WSS_ADMIN_WPG* has read and write access to local resources. The application pool accounts for the Central Administration and Timer services are in *WSS_ADMIN_WPG*. The following table shows the *WSS_ADMIN_WPG* registry entry permissions.
+
+>[!NOTE]
+>SharePoint 2013 uses the registry path "15.0" instead of "16.0" and file system path "15" instead of "16". Some paths listed below do not apply to SharePoint Foundation 2013.
 
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|
