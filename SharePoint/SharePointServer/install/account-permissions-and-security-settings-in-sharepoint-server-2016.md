@@ -175,7 +175,7 @@ Content access accounts are configured to access content by using the Search adm
 
 The Web Application Pool account must be a domain user account. This account must not be a member of the Farm Administrators group.
 
-This account should b used for all web applications without Central Administration.
+This account should be used for all web applications without Central Administration.
 
 The following machine-level permission is configured automatically: This account is a member of *WSS_WPG*.
 
