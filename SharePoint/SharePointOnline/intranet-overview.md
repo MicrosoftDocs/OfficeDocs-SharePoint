@@ -218,7 +218,7 @@ Video is a great way to communicate to the people in your organization. Videos r
 > [!div class="checklist"]
 > * Determine your permissions and sharing strategy
 
-SharePoint [permissions](https://docs.microsoft.com/en-us/sharepoint/modern-experience-sharing-permissions) are managed through a set of roles within a site - owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Office 365 groups. 
+SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions) are managed through a set of roles within a site - owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Office 365 groups. 
 
 *Start by -* Determining who needs access, who should not have access, and how you will grant access for requests.
 
@@ -256,7 +256,7 @@ Consider setting up an [approval flow](https://support.office.com/article/a8b2e6
 
 ### Content creators
 
-Content creators are the people who will be responsible for the day-to-day management and creation of content. Content creators can take on many responsibilities such as creating and publishing organizational news, subject matter experts for special projects and initiatives and thought leaders. Content creators should get familiar with [SharePoint design fundamentals](https://support.office.com/en-us/article/Plan-your-SharePoint-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
+Content creators are the people who will be responsible for the day-to-day management and creation of content. Content creators can take on many responsibilities such as creating and publishing organizational news, subject matter experts for special projects and initiatives and thought leaders. Content creators should get familiar with [SharePoint design fundamentals](https://support.office.com/article/Plan-your-SharePoint-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
 
 Keep in mind these key success factors as you create and manage content for your intranet:
 
@@ -269,21 +269,21 @@ Keep in mind these key success factors as you create and manage content for your
 
 #### Inform and engage
 
-Collect and manage content using SharePoint [lists](https://support.office.com/en-us/article/video-introduction-to-lists-1d0b0500-baa0-4344-bdcb-7e1aea84ad11) and [libraries](https://support.office.com/en-us/article/video-introduction-to-libraries-1317b9aa-ca8f-4b5f-84aa-482c3c35dd65) just like you might collect information in Excel. Lists enable you and your teams to gather, track, and share information within SharePoint libraries. Easily add, reorder, sort, filter, and create custom views of libraries using the [Document library web part](https://support.office.com/en-us/article/use-the-document-library-web-part-a9dfecc3-2050-4528-9f00-2c5afc5731b0). Improve the display of lists with column and list view formatting using the [List web part](https://support.office.com/en-us/article/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537). Dynamically display content from a document library, a site, a site collection, or all sites using the [Highlighted content web part](https://support.office.com/en-us/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd). 
+Collect and manage content using SharePoint [lists](https://support.office.com/article/video-introduction-to-lists-1d0b0500-baa0-4344-bdcb-7e1aea84ad11) and [libraries](https://support.office.com/article/video-introduction-to-libraries-1317b9aa-ca8f-4b5f-84aa-482c3c35dd65) just like you might collect information in Excel. Lists enable you and your teams to gather, track, and share information within SharePoint libraries. Easily add, reorder, sort, filter, and create custom views of libraries using the [Document library web part](https://support.office.com/article/use-the-document-library-web-part-a9dfecc3-2050-4528-9f00-2c5afc5731b0). Improve the display of lists with column and list view formatting using the [List web part](https://support.office.com/article/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537). Dynamically display content from a document library, a site, a site collection, or all sites using the [Highlighted content web part](https://support.office.com/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd). 
 
-Create and curate news relevant to your audience using the [News web part](https://support.office.com/en-us/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165). Quickly create eye-catching posts like announcements, people news, status updates, and more that can include graphics and rich formatting. The News web part allows you to specify the source for automatic news posts and the order you want them to appear on your page.
+Create and curate news relevant to your audience using the [News web part](https://support.office.com/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165). Quickly create eye-catching posts like announcements, people news, status updates, and more that can include graphics and rich formatting. The News web part allows you to specify the source for automatic news posts and the order you want them to appear on your page.
 
-Customize the way your users view content and news by using [audience targeting](https://support.office.com/en-us/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293). Audience targeting enables specific content to be prioritized to specific audiences on the SharePoint start page, news on the mobile app, and in News web part when audience targeting is enabled. 
+Customize the way your users view content and news by using [audience targeting](https://support.office.com/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293). Audience targeting enables specific content to be prioritized to specific audiences on the SharePoint start page, news on the mobile app, and in News web part when audience targeting is enabled. 
 
 *Start by:* Organizing content into lists, libraries, and news. Then, connect specific content to specific audiences using audience targeting.
 
-*You'll know your done when:* You can confirm users have access to the right information at the right time by using [site usage and analytics](https://support.office.com/en-us/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and asking users for feedback. 
+*You'll know your done when:* You can confirm users have access to the right information at the right time by using [site usage and analytics](https://support.office.com/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and asking users for feedback. 
 
 #### Connect and collaborate
 
-With Office and OneDrive or SharePoint, multiple people can [collaborate](https://support.office.com/en-us/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) on a Word document, Excel spreadsheet, or PowerPoint presentation. When everyone is working at the same time, that's called co-authoring. [Co-authoring](https://support.office.com/en-us/article/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4?ocmsassetID=HA102772333&CTT=1&CorrelationId=b620f8ff-d4a2-437a-ba02-3f40546bd326&ui=en-US&rs=en-US&ad=US) is two or more authors work on different parts of a document at the same time. While one author works on his section of the document, another author can work on hers, without either interrupting the other's work. Co-authoring removes barriers to server-based document collaboration and helps organizations to reduce the overhead associated with traditional document sharing through attachments.
+With Office and OneDrive or SharePoint, multiple people can [collaborate](https://support.office.com/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) on a Word document, Excel spreadsheet, or PowerPoint presentation. When everyone is working at the same time, that's called co-authoring. [Co-authoring](https://support.office.com/article/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4?ocmsassetID=HA102772333&CTT=1&CorrelationId=b620f8ff-d4a2-437a-ba02-3f40546bd326&ui=en-US&rs=en-US&ad=US) is two or more authors work on different parts of a document at the same time. While one author works on his section of the document, another author can work on hers, without either interrupting the other's work. Co-authoring removes barriers to server-based document collaboration and helps organizations to reduce the overhead associated with traditional document sharing through attachments.
 
-Enable users to work on any device. When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. If a user's device is upgraded, local data must be migrated. By storing files OneDrive, users can access them from all their devices, such as their phone and their home computer (depending on what you allow). They can even access files in a browser from other devices they trust. [Get the SharePoint mobile app](https://products.office.com/en-us/sharepoint/mobile-app?rtc=1).
+Enable users to work on any device. When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. If a user's device is upgraded, local data must be migrated. By storing files OneDrive, users can access them from all their devices, such as their phone and their home computer (depending on what you allow). They can even access files in a browser from other devices they trust. [Get the SharePoint mobile app](https://products.office.com/sharepoint/mobile-app?rtc=1).
 
 *Start by:* Working with your site collection administrator, confirm which Microsoft 365 applications your organization has access to in order to understand which products can be co-authored. 
 
@@ -291,9 +291,9 @@ Enable users to work on any device. When users keep files on their local device 
 
 #### Build culture and community
 
-Help work groups connect and engage across your organization using Yammer. Use Yammer to discuss ideas, share updates, and network with others. Yammer Conversations allow users to participate in online conversations without leaving your SharePoint page. Yammer Highlights provides a quick overview of active conversations and a targeted portal to specific groups or conversations in Yammer. [Learn more about the Yammer Highlights and Yammer Conversations web parts](https://support.office.com/en-us/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da). 
+Help work groups connect and engage across your organization using Yammer. Use Yammer to discuss ideas, share updates, and network with others. Yammer Conversations allow users to participate in online conversations without leaving your SharePoint page. Yammer Highlights provides a quick overview of active conversations and a targeted portal to specific groups or conversations in Yammer. [Learn more about the Yammer Highlights and Yammer Conversations web parts](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da). 
  
-Sometimes content needs to be delivered through video - like when organization-wide announcements are made or when senior leaders host a live event. [Microsoft Stream](https://support.office.com/en-us/article/Microsoft-Stream-Your-company-s-video-portal-c3240bd5-5f80-4fd0-a37d-7a3275605f3a) is your company's own video site. Use the [Stream web part](https://support.office.com/en-us/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B) on your site to display video content.
+Sometimes content needs to be delivered through video - like when organization-wide announcements are made or when senior leaders host a live event. [Microsoft Stream](https://support.office.com/article/Microsoft-Stream-Your-company-s-video-portal-c3240bd5-5f80-4fd0-a37d-7a3275605f3a) is your company's own video site. Use the [Stream web part](https://support.office.com/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B) on your site to display video content.
 
 *Start by:* Finding news, announcements, and events to amplify throughout your organization.
 
@@ -318,7 +318,7 @@ Learn how to integrate [SharePoint design fundamentals](https://support.office.c
 ### Plan
 
 | Role                 |Plan tasks            |                 
-| :------------------- | -------------------: |
+| :------------------- | :------------------- |
 |[Company intranet owner](#company-intranet-owner)| Communicate goals and progress from project start to finish. Director of the branding direction, governance strategy, information architecture, change management, and product adoption| 
 |[IT / Admin](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and end-user training| 
 |[Business owners / site owners](#business-owners-and-site-owners)| Develop business objectives and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration| 
@@ -327,7 +327,7 @@ Learn how to integrate [SharePoint design fundamentals](https://support.office.c
 ### Build
 
 | Role                 |Build tasks           |                
-| :------------------- | -------------------: |
+| :------------------- | :------------------- |
 | [Company intranet owner](#company-intranet-owner) | Get user feedback along the way. Use findings from user feedback to learn and pivot your intranet plan.| 
 |[IT / Admin](#it-pros-and-admins)|  Implements decisions made by the intranet stakholders regarding site creation, navigation, search, branding, and publishing | 
 |[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting | 
@@ -336,9 +336,9 @@ Learn how to integrate [SharePoint design fundamentals](https://support.office.c
 ### Manage
 
 | Role                 |Manage tasks          |             
-| :------------------- | -------------------: |
+| :------------------- | :------------------- |
 | [Company intranet owner](#company-intranet-owner) | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch | 
-| [IT / Admin](#it-pros-and-admins)| Manage tasks| Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies.  
+| [IT / Admin](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies|   
 | [Business owners / site owners](#business-owners-and-site-owners) | Schedule content audits and use site usage metrics to measure progress| 
 | [Content creators](#content-creators)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant|
 
@@ -347,14 +347,14 @@ Learn how to integrate [SharePoint design fundamentals](https://support.office.c
 
 [SharePoint adoption resources](https://resources.techcommunity.microsoft.com/resources/sharepoint-adoption/#tips-campaign)
 
-[Ways to work with SharePoint](https://support.office.com/en-us/article/ways-to-work-with-sharepoint-17688238-3285-47cf-b8c7-cba3764acbdf)
+[Ways to work with SharePoint](https://support.office.com/article/ways-to-work-with-sharepoint-17688238-3285-47cf-b8c7-cba3764acbdf)
 
-[Guide to the Modern experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)
+[Guide to the Modern experience in SharePoint](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)
 
 [Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
 
-[Plan your intranet](https://docs.microsoft.com/en-us/sharepoint/plan-intranet)
+[Plan your intranet](https://docs.microsoft.com/sharepoint/plan-intranet)
 
-[Plan your site - get started](https://support.office.com/en-us/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
+[Plan your site - get started](https://support.office.com/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
 
 
