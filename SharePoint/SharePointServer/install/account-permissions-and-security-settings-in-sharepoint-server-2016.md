@@ -65,8 +65,8 @@ Service account name|What is it used for?|How many should be used?
 ----|----|----
 SharePoint Farm Administrator account|Personally identifiable account for a SharePoint Administrator|1-n
 SharePoint Farm Service Account| Timer Service, Insights, IIS App for CA, SP Web Services System, Security Token Service App Pool|1
-Default content access account|search crawling internal and external sources|1-n
-Content access accounts|search crawling internal and external sources|1-n
+Default content access account|Search crawling internal and external sources|1-n
+Content access accounts|Search crawling internal and external sources|1-n
 Web Application Pool account|All Web Applications without Central Administration|1
 SharePoint Service Application Pool account|All Service Applications|1
 Portal Super Reader|Object caching|1
