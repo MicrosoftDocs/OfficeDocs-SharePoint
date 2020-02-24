@@ -23,7 +23,7 @@ description: "Learn about the cards on the Home page of the new SharePoint admin
 
 To access the new SharePoint admin center:
 
-Go to the [Home page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), and sign in with an account that has [admin permissions](https://docs.microsoft.com/en-us/sharepoint/sharepoint-admin-role) for your organization.
+Go to the [Home page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the Home page.
