@@ -27,7 +27,7 @@ To install SharePoint Server, you have to have appropriate administrative and se
 > Do not use service account names that contain the symbol $ with the exception of using a Group Managed Service Account for SQL Server.
 
 > [!IMPORTANT]
-> SharePoint services do not support Managed Service Accounts or Group Managed Service Accounts.
+> SharePoint services do not support Active Directory Managed Service Accounts or Group Managed Service Accounts.
     
 Use this article along with [Initial deployment administrative and service accounts in SharePoint Server](../install/initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
   
@@ -54,7 +54,7 @@ The following table describes the accounts that are used to configure SQL Server
    
 ### Service application accounts
 
-The following table describes the accounts that are used to set up and configure a service application. Plan one set of an application pool and proxy group for each service application that you plan to implement.
+The following table describes the accounts that are used to set up and configure a service application.
   
 For more information about service application endpoints, see [Using Service Endpoints](https://go.microsoft.com/fwlink/p/?LinkId=227293).
   
