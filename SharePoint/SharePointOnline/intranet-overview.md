@@ -50,8 +50,8 @@ This intranet hub article provides guidance on how to plan and create your intra
 | Traditional intranet           | Modern intranet                |
 | :----------------------------- | :----------------------------- |
 | Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/en-us/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) and [community portals](https://support.office.com/en-us/article/video-what-is-yammer-47526868-b136-40cc-a80d-c870eadd9ba5)| 
-| Meetings usually take place in the office | Meet [anytime, anywhere, on any device](https://support.office.com/en-us/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) | 
-| Collaboration takes place in meetings or in a shared folder | Collaboration happens across [applications and channels](https://support.office.com/en-us/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) | 
+| Information architecture is deep and narrow | Information architecture is flat and wide allowing for [better cross-site navigation](https://docs.microsoft.com/en-us/sharepoint/plan-navigation-modern-experience)| 
+|Intranet and site branding are limited to default themes unless you customize | Easily [change the look and feel](https://docs.microsoft.com/en-us/sharepoint/branding-sharepoint-online-sites-modern-experience) of your website without writing any code | 
 | Corporate news dominates the newsfeed | Personalized news and content is [targeted to specific audiences](https://support.office.com/en-us/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) | 
 
 ### Key success factors:
@@ -269,42 +269,42 @@ Keep in mind these key success factors as you create and manage content for your
 
 #### Inform and engage
 
+Collect and manage content using SharePoint [lists](https://support.office.com/en-us/article/video-introduction-to-lists-1d0b0500-baa0-4344-bdcb-7e1aea84ad11) and [libraries](https://support.office.com/en-us/article/video-introduction-to-libraries-1317b9aa-ca8f-4b5f-84aa-482c3c35dd65) just like you might collect information in Excel. Lists enable you and your teams to gather, track, and share information within SharePoint libraries. Easily add, reorder, sort, filter, and create custom views of libraries using the [Document library web part](https://support.office.com/en-us/article/use-the-document-library-web-part-a9dfecc3-2050-4528-9f00-2c5afc5731b0). Improve the display of lists with column and list view formatting using the [List web part](https://support.office.com/en-us/article/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537). Dynamically display content from a document library, a site, a site collection, or all sites using the [Highlighted content web part](https://support.office.com/en-us/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd). 
 
+Create and curate news relevant to your audience using the [News web part](https://support.office.com/en-us/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165). Quickly create eye-catching posts like announcements, people news, status updates, and more that can include graphics and rich formatting. The News web part allows you to specify the source for automatic news posts and the order you want them to appear on your page.
 
+Customize the way your users view content and news by using [audience targeting](https://support.office.com/en-us/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293). Audience targeting enables specific content to be prioritized to specific audiences on the SharePoint start page, news on the mobile app, and in News web part when audience targeting is enabled. 
 
-*Start by:*
+*Start by:* Organizing content into lists, libraries, and news. Then, connect specific content to specific audiences using audience targeting.
 
-*You'll know your done when:*
+*You'll know your done when:* You can confirm users have access to the right information at the right time by using [site usage and analytics](https://support.office.com/en-us/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and asking users for feedback. 
 
 #### Connect and collaborate
 
+With Office and OneDrive or SharePoint, multiple people can [collaborate](https://support.office.com/en-us/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) on a Word document, Excel spreadsheet, or PowerPoint presentation. When everyone is working at the same time, that's called co-authoring. [Co-authoring](https://support.office.com/en-us/article/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4?ocmsassetID=HA102772333&CTT=1&CorrelationId=b620f8ff-d4a2-437a-ba02-3f40546bd326&ui=en-US&rs=en-US&ad=US) is two or more authors work on different parts of a document at the same time. While one author works on his section of the document, another author can work on hers, without either interrupting the other's work. Co-authoring removes barriers to server-based document collaboration and helps organizations to reduce the overhead associated with traditional document sharing through attachments.
 
+Enable users to work on any device. When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. If a user's device is upgraded, local data must be migrated. By storing files OneDrive, users can access them from all their devices, such as their phone and their home computer (depending on what you allow). They can even access files in a browser from other devices they trust. [Get the SharePoint mobile app](https://products.office.com/en-us/sharepoint/mobile-app?rtc=1).
 
-*Start by:*
+*Start by:* Working with your site collection administrator, confirm which Microsoft 365 applications your organization has access to in order to understand which products can be co-authored. 
 
-*You'll know your done when:*
+*You'll know your done when:* You can confirm users are able to accomplish more in their workday by using your site.
 
 #### Build culture and community
 
+Help work groups connect and engage across your organization using Yammer. Use Yammer to discuss ideas, share updates, and network with others. Yammer Conversations allow users to participate in online conversations without leaving your SharePoint page. Yammer Highlights provides a quick overview of active conversations and a targeted portal to specific groups or conversations in Yammer. [Learn more about the Yammer Highlights and Yammer Conversations web parts](https://support.office.com/en-us/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da). 
+ 
+Sometimes content needs to be delivered through video - like when organization-wide announcements are made or when senior leaders host a live event. [Microsoft Stream](https://support.office.com/en-us/article/Microsoft-Stream-Your-company-s-video-portal-c3240bd5-5f80-4fd0-a37d-7a3275605f3a) is your company's own video site. Use the [Stream web part](https://support.office.com/en-us/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B) on your site to display video content.
 
-*Start by:*
+*Start by:* Finding news, announcements, and events to amplify throughout your organization.
 
-*You'll know your done when:*
-
-
-
-
-
-
-
-
+*You'll know your done when:* You are regularly promoting news and events that start conversations and engage and connect wide audiences. 
 
 
 ## Section 2: SharePoint design fundamentals and building blocks
 
-- Visio intranet building blocks
-- Visio site/page building blocks
-- SOC article - SPO design fundamentals
+There are known design fundamentals that will contribute to the overall success of your intranet, site, or page. Ensuring specific fundamentals are integrated into your design will increase the likelihood that your business objectives and users needs will get met. 
+
+Learn how to integrate [SharePoint design fundamentals](https://support.office.com/en-us/article/plan-your-sharepoint-site-design-fundamentals-21761aac-f7f7-4499-b0ca-cf283477c32f?ui=en-US&rs=en-US&ad=US) into your design and tactics that can speed up or slow down your SharePoint project's success. 
 
 
 ## Section 3: How to get started
@@ -319,32 +319,42 @@ Keep in mind these key success factors as you create and manage content for your
 
 | Role                 |Plan tasks            |                 
 | :------------------- | -------------------: |
-|[Company intranet owner](#company-intranet-owner)| Plan tasks | 
-|[IT / Admin](#it-pros-and-admins)| Plan tasks          | 
-|[Business owners / site owners](#business-owners-and-site-owners)               | Plan tasks                 | 
-|[Content creators](#content-creators)|Plan tasks                  |
+|[Company intranet owner](#company-intranet-owner)| Communicate goals and progress from project start to finish. Director of the branding direction, governance strategy, information architecture, change management, and product adoption| 
+|[IT / Admin](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and end-user training| 
+|[Business owners / site owners](#business-owners-and-site-owners)| Develop business objectives and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration| 
+|[Content creators](#content-creators)| Authority on content best practices, content creation, content management and page design|
 
 ### Build
 
 | Role                 |Build tasks           |                
 | :------------------- | -------------------: |
-| [Company intranet owner](#company-intranet-owner) | Build tasks  | 
-|[IT / Admin](#it-pros-and-admins)|  Build tasks                | 
-|[Business owners / site owners](#business-owners-and-site-owners)             |  Build tasks                | 
-| [Content creators](#content-creators)                 | Build tasks                   |
+| [Company intranet owner](#company-intranet-owner) | Get user feedback along the way. Use findings from user feedback to learn and pivot your intranet plan.| 
+|[IT / Admin](#it-pros-and-admins)|  Implements decisions made by the intranet stakholders regarding site creation, navigation, search, branding, and publishing | 
+|[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting | 
+| [Content creators](#content-creators)| Create solutions to business objectives by creating and sharing relevant content with the right audiences|
 
 ### Manage
 
 | Role                 |Manage tasks          |             
 | :------------------- | -------------------: |
-| [Company intranet owner](#company-intranet-owner) |  Manage tasks | 
-| [IT / Admin](#it-pros-and-admins)| Manage tasks             | 
-| [Business owners / site owners](#business-owners-and-site-owners)                 | Manage tasks                 | 
-| [Content creators](#content-creators)                |Manage tasks               |
+| [Company intranet owner](#company-intranet-owner) | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch | 
+| [IT / Admin](#it-pros-and-admins)| Manage tasks| Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies.  
+| [Business owners / site owners](#business-owners-and-site-owners) | Schedule content audits and use site usage metrics to measure progress| 
+| [Content creators](#content-creators)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant|
 
 
 ## Related topics
 
-[Your new SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e?)
+[SharePoint adoption resources](https://resources.techcommunity.microsoft.com/resources/sharepoint-adoption/#tips-campaign)
+
+[Ways to work with SharePoint](https://support.office.com/en-us/article/ways-to-work-with-sharepoint-17688238-3285-47cf-b8c7-cba3764acbdf)
+
+[Guide to the Modern experience in SharePoint](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience)
 
 [Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
+
+[Plan your intranet](https://docs.microsoft.com/en-us/sharepoint/plan-intranet)
+
+[Plan your site - get started](https://support.office.com/en-us/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
+
+
