@@ -22,17 +22,17 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 **Roadmap contents:**
 
 - Introduction to roles, tasks, and timelines
-- Key tasks for the [company intranet owner] (#company-intranet-owner)
-- Key tasks for IT professionals or administrators
-- Key tasks for site owners
-- Key tasks for content creators
+- Key tasks for the [company intranet owner](#company-intranet-owner)
+- Key tasks for [IT professionals or administrators](#it-pros-and-admins)
+- Key tasks for [business owners and site owners](#business-owners-and-site-owners)
+- Key tasks for [content creators](#content-creators)
 
 **Who should use this roadmap?**
 
-- [Company intranet owners](#company-intranet-owner) -  this is the person managing the overall direction and coordination of your organization's intranet
-- IT/Admins - one or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet
-- Business owners/site owners - the various stakeholders who will be responsible for creating and maintaining portions of the intranet
-- Content creators - the people creating and managing content on sites and pages
+- [Company intranet owner](#company-intranet-owner) -  this is the person managing the overall direction and coordination of your organization's intranet
+- [IT pros and Admins](#it-pros-and-admins) - one or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet
+- [Business owners and site owners](#business-owners-and-site-owners) - the various stakeholders who will be responsible for creating and maintaining portions of the intranet
+- [Content creators](#content-creators) - the people creating and managing content on sites and pages
 
 **What you'll learn:**
 
@@ -42,7 +42,7 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 	
 **How to think about a modern vs traditional intranet design**
 
-This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/en-us/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
+This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
 
 
 | Traditional intranet           | Modern intranet                |
@@ -68,7 +68,7 @@ Over the years we have learned about what makes an intranet successful. These ar
 
 ## Introduction to roles, tasks, and timelines
 
-### Roles, key tasks, and stages at-a-glance:
+### At-a-glance:
 
 |Your role|Planning tasks|Build tasks|Management tasks|
 |:--------|:-------------|:----------|:--------------------|
@@ -77,14 +77,11 @@ Over the years we have learned about what makes an intranet successful. These ar
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit, and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content creators](#content-creators)|Content best practices, content, and site design|Create and share content, content collaboration|Update existing content, publish new content|
 
-### Summary of activities by design stages
+### Summary of activities by design stage
 
 | Stage 1: Plan          | Stage 2: Build         | Stage 3: Manage   |
 | :--------------------- | :--------------------- |:------------------|
-| Analyze your current intranet <br> Communicate goals progress regularly <br> Use metrics to measure progress |
-| Organize your current content and assets <br> Measure, learn, and pivot as you go <br> Communicate what's new |
-| Develop business objectives <br> Get feedback regularly <br> Maintain high quality content |
-| Plan solutions to business objectives <br> Celebrate the launch of your new intranet <br> Educate end users |
+| Analyze your current intranet <br> Develop business objectives  <br> Plan solutions to business objectives <br> Organize your current content and assets | Communicate goals progress regularly <br> Measure, learn, and pivot as you go <br> Get feedback regularly | Celebrate the launch of your new intranet <br> Use metrics to measure progress <br> Communicate what's new <br> Maintain high quality content <br> Educate end users |
 
 ## [Company intranet owner](#company-intranet-owner)
 
@@ -122,7 +119,7 @@ Branding is an important part of your intranet. With SharePoint, you can [add br
 
 *You'll know your done when -* You've determined the end-to-end look of the intranet from the home page to hub sites and individual sites.
 
-## IT/Admins
+## [IT pros and Admins](#it-pros-and-admins)
 
 - Implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals.
 - Training business owners, content creators, and end users
@@ -139,7 +136,7 @@ Keep in mind these key success factors as you plan and implement your intranet:
 
 #### Plan the governance strategy
 
-Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal - ensuring company content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](https://docs.microsoft.com/en-us/sharepoint/governance-overview): naming conventions, guest access, classification of sites, groups, and files.
+Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal - ensuring company content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](https://docs.microsoft.com/sharepoint/governance-overview): naming conventions, guest access, classification of sites, groups, and files.
 
 *Start by -* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
 
@@ -177,7 +174,7 @@ Depending on their background, the people in your organization may need some hel
 *You'll know your done when -* Questions about SharePoint intranet usage on company social media channels and through the help desk have decreased to a modest level.
 
 
-## Business owners and site owners
+## [Business owners and site owners](#business-owners-and-site-owners)
 
 As a business owner, you may be responsible for intranet content for a particular area of your organization such as HR or facilities. With SharePoint, you can easily create and maintain the content that you need. Look over the [SharePoint lookbook](https://aka.ms/sharepointlookbook) for some ideas before you start your intranet planning.
 
@@ -240,7 +237,7 @@ Consider setting up an [approval flow](https://support.office.com/article/a8b2e6
 *You'll know your done when -* Business and site owners have dedicated areas in SharePoint that can been owned and maintained with little over sight. 
 
 
-## Content creators
+## [Content creators](#content-creators)
 
 Content creators are the people who will be responsible for the day-to-day management and creation of content. Content creators can take on many responsibilities such as creating and publishing organizational news, subject matter experts for special projects and initiatives and thought leaders. Content creators should get familiar with [SharePoint design fundamentals](https://support.office.com/article/Plan-your-SharePoint-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
 
