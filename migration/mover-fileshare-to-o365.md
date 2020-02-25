@@ -444,7 +444,8 @@ The following Agents operate using a command line interface versus a user interf
 - Via the terminal, browse to the now unzipped `moveragent` folder, and run `./agent`.
 - Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
 - Open our app, and in the **agent authorization** box, paste the key.
->[Note]
+
+>[!Note]
 >The minimum system requirements are macOS 10.12.
 
 ### Linux
