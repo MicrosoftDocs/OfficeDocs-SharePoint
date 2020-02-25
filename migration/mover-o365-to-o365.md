@@ -33,7 +33,7 @@ A migration is a significant undertaking for any organization. Trying to grasp t
 
 Before, during, and after a migration, it is critical to communicate clearly and effectively with your user base. We provide timely support and communication materials to your transition team to help you communicate these changes with each stakeholder.
 
-**Management** — Management needs succinct information about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular information is important when running a department.
+**Management** — Management needs succinct info about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular info is important when running a department.
 
 For example, the Sales Manager needs to know how operations will be affected, such as *Can employees still work over the weekend, if needed?*
 
@@ -52,13 +52,13 @@ Key questions to address:
 
 ## Planning
 
-Planning is the most difficult part of a migration. It is also one of the most critical phases to get correct. To have a smooth and stress-free migration, you must gather relevant organizational information, determine project timelines, and mitigate any surprises that may appear.
+Planning is the most difficult part of a migration. It is also one of the most critical phases to get correct. To have a smooth and stress-free migration, you must gather relevant organizational info, determine project timelines, and mitigate any surprises that may appear.
 
-### Gathering information
+### Gathering info
 
-Before migration, it is important to gather all the information you need to run the migration smoothly. Make sure you have confirmed the information from the following checklist.
+Before migration, it is important to gather all the info you need to run the migration smoothly. Make sure you have confirmed the info from the following checklist.
 
-**Migration information checklist**
+**Migration info checklist**
 
 - Number of users to migrate
 - Data ownership
@@ -183,7 +183,7 @@ Keep in mind that while cloud storage is sometimes just a container for files, p
 We will manage the migration to ensure all of our data gets transfered securely and efficiently. If you have any questions or concerns about the process, let me know.
 </br>
 
-**Subject**: ATTENTION: Important Information Regarding Cloud Data Migration
+**Subject**: ATTENTION: Important Info Regarding Cloud Data Migration
 
 **Message**: As you know from prior emails, we are moving from Office 365 to a new Office 365 domain as our cloud storage provider.
 
@@ -739,7 +739,7 @@ Tips for creating the CSV:
       a. Find and select **Migration Actions**.</br>
       b. Select **Customize Columns**, and select **ID**.</br>
         
-    You'll now be able to see the ID appearing in each row. If you refresh the page, this information disappears unless you select **Save Column State**.
+    You'll now be able to see the ID appearing in each row. If you refresh the page, this info disappears unless you select **Save Column State**.
 
 Download an example CSV:
 
@@ -1133,7 +1133,7 @@ View an example CSV log or in your browser:
 - **Status**: Whether an action was a success or a failure.
 - **Size**: File size in bytes, or that it's a folder being created/operated on.
 - **Name**: File, folder, or action being acted upon.
-- **Additional Info**: More information about the particular action performed. For more info, see the following table.
+- **Additional Info**: More info about the particular action performed. For more info, see the following table.
 
 |**Message**|**Definition**|
 |:-----|:-----|
@@ -1223,13 +1223,13 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 
 ### Scan report
 
-For more information about the scanning process, see the **Scanning** section.
+For more info about the scanning process, see the **Scanning** section.
 
 After the scan report is downloaded and opened, look for these key items:
 
 - Users with a failed status. We recommend rerunning the scan for these user(s).
 - Users with one file or less. **Note**: Sharing permissions are still transfered.
-- Users with the most data. Use this information to decide about a data distribution strategy that suits your needs. For more info about data distribution, see **here**.
+- Users with the most data. Use this info to decide about a data distribution strategy that suits your needs. For more info about data distribution, see **here**.
 
 ![scan report example](media/scan-report-example.png)
 
@@ -1239,7 +1239,7 @@ The **Migration Report** provides an in-depth overview of your entire migration,
 
 To download this as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Report**.
 
-The CSV report provides the following information for each user pairing.
+The CSV report provides the following info for each user pairing.
 
 |**Header/Statistic**|**Definition**|
 |:-----|:-----|

@@ -16,27 +16,28 @@ description: "How to Migrate from On-premises File Shares to Office 365"
 # How to Migrate from G Suite Drive to Office 365
 
 ## Introduction
+
 Our purpose is to act as an intermediary between various web technologies that don't play nice together. We take your files from one place and copy them to another. No downloads and nothing to watch over—our web-hosted app does all the work!
 
 Undertaking any corporate migration is a daunting task. When moving from G Suite Drive to Office 365, there are many things to consider. Our team has done this enough times to have learned a thing or two. We hope this guide helps you migrate successfully from G Suite Drive to Office 365.
 
 If you experience any issues, do not hesitate to ask us questions!
 
-### File Processing Summary
+### File processing summary
 
 When we transfer a file, a temporary copy is downloaded from **G Suite Drive** to a temporary server and then uploaded to Office 365. Upon successful upload, that file is deleted from the temporary server. When your migration is complete, that temporary server is eliminated. Any log data expires in 90 days, and is never retained by us. We do not perform any actions beyond copying files and folders and sharing permissions. We never perform delete operations.
 
-## Communicating with Stakeholders
+## Communicating with stakeholders
 
 A migration is a significant undertaking for any organization. Trying to grasp the entire extent of all data and communicating with your employees is complicated. We sympathize!
 
-Before, during, and after a migration, it will be of utmost importance to communicate clearly and effectively with your user base. We will provide timely support and communication materials to your transition team to help you communicate these changes with each stakeholder.
+Before, during, and after a migration, it is critical to communicate clearly and effectively with your user base. We provide timely support and communication materials to your transition team to help you communicate these changes with each stakeholder.
 
-**Management** — Management needs succinct information about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular information is important when running a department.
+**Management** — Management needs succinct info about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular info is important when running a department.
 
-For example, the Sales Manager needs to know how operations will be affected, such as *Can employees still work over the weekend, if needed?*
+For example, the Sales Manager must know how operations will be affected, such as *Can employees still work over the weekend, if needed?*
 
-**End Users** — These are your bread-and-butter employees. They need to know when changes are taking place and who to go to with questions or issues.
+**Users** — These are your bread-and-butter employees. They need to know when changes are taking place and who to go to with questions or issues.
 
 Key questions to address:
 
@@ -46,19 +47,19 @@ Key questions to address:
 - How disruptive is this change going to be?
 - What are the differences between G Suite Drive and Office 365, and how do I reconcile them?
 
-**Third Parties** — If people outside your organization have access to collaborate on documents, this could potentially be interrupted and require resharing of data. We describe best practices for this event in our guide.
+**Third parties** — If people outside your organization have access to collaborate on documents, this could potentially be interrupted and require resharing of data. We describe best practices for this event in our guide.
 
-**IT Helpdesk/Support Staff** — If your organization is large enough to have specific support staff for other employees, they will need to understand each step of the migration.
+**IT Helpdesk/Support staff** — If your organization is large enough to have specific support staff for other employees, they will need to understand each step of the migration.
 
 ## Planning
 
-Planning is the most difficult part of a migration. It is also one of the most critical phases to get correct. To have a smooth and stress-free migration, you must gather relevant organizational information, determine project timelines, and mitigate any surprises that may appear.
+Planning is the most difficult part of a migration. It is also one of the most critical phases to get correct. To have a smooth and stress-free migration, you must gather relevant organizational info, determine project timelines, and mitigate any surprises that may appear.
 
-### Gathering Information
+### Gathering info
 
-Before migration, it is important to gather all the information you need to run the migration smoothly. Make sure you have confirmed the information from the following checklist.
+Before migration, it is important to gather all the info you need to run the migration smoothly. Make sure you have confirmed the info from the following checklist.
 
-**Migration Information Checklist**
+**Migration info checklist**
 
 - Number of users to migrate
 - Data ownership
@@ -81,7 +82,7 @@ This scan is effectively a simulated dry-run migration, with no set destination,
 
 Read through this guide to better understand the full migration process, or skip ahead to **Setting Up the Migration**. For detailed instructions about how to run the scan, see **Scanning.**
 
-### Number of Users to Migrate
+### Number of users to migrate
 
 Each *user* is defined by a unique source and destination pairing.
 
@@ -107,7 +108,7 @@ Migrations are run on a per-user basis. Because of our app's scalable infrastruc
 
 **Setting permissions is free**: Users that strictly collaborate in G Suite Drive receive equivalent sharing permissions in Office 365 for free.
 
-## Data Distribution
+## Data distribution
 
 Determining the distribution of data across the user base is an extremely important component of a migration because we copy data in a highly parallel manner, and our servers transfer data as fast as each cloud storage provider can handle. Both G Suite Drive and Office 365 have rate limits for how fast data can be downloaded and uploaded.
 
@@ -122,24 +123,25 @@ For example:
 
 If data cannot be broken up, this should not hinder other users from migrating. As a general rule, users with a lot of data require a lot of time to migrate.
 
-### Amount of Data to Move
+### Amount of data to move
 
 Knowing the total volume of data you are moving helps to create a more realistic timeline for your migration.
 
-### Your Migration Team
+### Your migration team
 
 Establish a migration team to lead your organization through the project. The team’s role includes liaising with us, undergoing training, and notifying employees of each change during the migration process.
 
-An IT Manager or the Head of IT could be a good choice for our point of contact because they will understand the ins and outs of your organization's systems. To ensure a smooth, successful migration, we will work closely together and be with you every step of the way.
+An IT Manager or the Head of IT is a good choice for our point of contact because they understand the ins and outs of your organization's systems. To ensure a smooth, successful migration, we work closely together and be with you every step of the way.
 
 ## Timelines
-### Be Realistic
+
+### Be realistic
 
 The amount of time required to plan, execute, and wrap up a migration depends on many factors. Organizational requirements, budget, security reviews, and support from management are just a few.
 
 We typically see corporate transfers take a minimum of 30 days to plan and execute. Ensure you allot yourself enough time for each stage, which we cover later on in this guide.
 
-### Evaluate your User Base
+### Evaluate your user base
 
 It is critical that you plan which users are migrating and when. Ask yourself questions like these:
 
@@ -151,11 +153,11 @@ It is critical that you plan which users are migrating and when. Ask yourself qu
 
 We recommend migrating during a slower organizational period, such as the weekend, to avoid work interruptions.
 
-### Keep Your Accounts Active
+### Keep your accounts active
 
 When migrating from G Suite Drive to Office 365, you need to ensure all your users are active and accessible. Knowing exactly when your G Suite Drive may shut down or expire is key to safely planning enough time to migrate.
 
-### Consider Migration Speed Factors
+### Consider migration speed factors
 
 We're the fastest way to migrate your data, but the speed of your migration may still be affected by bottlenecks. Speed bottlenecks include, but aren't limited to, the following:
 
@@ -176,13 +178,13 @@ Suffice to say, we cannot give you exact estimates on time because there are too
 
 We are available to have a conversation with you about estimates.
 
-### Notify Stakeholders About the Migration
+### Notify stakeholders about the migration
 
 Your employees have different needs with respect to their data, and it is paramount to know what those are. Take a shopping list of all departments, contact their managers, and identify key concerns in their processes and apps.
 
 Keep in mind that while cloud storage is sometimes just a container for files, people might also be using it with third-party apps or for more advanced collaboration.
 
-#### Example Emails to Send
+#### Example emails to send
 
 **Subject**: ATTENTION: Decision to Migrate from G Suite Drive to Office 365
 
@@ -191,7 +193,7 @@ Keep in mind that while cloud storage is sometimes just a container for files, p
 We will manage the migration to ensure all of our data gets transfered securely and efficiently. Let me know if you have any questions or concerns about the process.
 </br>
 
-**Subject**: ATTENTION: Important Information Regarding Cloud Data Migration
+**Subject**: ATTENTION: Important Info Regarding Cloud Data Migration
 
 **Message**: As you know from prior emails, we are moving from G Suite Drive to Office 365 as our cloud storage provider.
 
@@ -202,7 +204,8 @@ On Monday, April 10, 2020, all employees will be using Office 365.
 Questions and concerns can be directed to your immediate manager and/or our technical support staff via the usual channels.
 
 ## Connectors
-### What is a Connector?
+
+### What is a connector?
 
 A **Connector** is what we call our link to your cloud storage accounts.
 
@@ -212,9 +215,9 @@ Creating a **Connector** may involve authenticating via OAuth or with normal use
 
 Our authorization is lost when you delete the **Connector**, delete your account with us, or revoke our access through your cloud service's security settings.
 
-### Which Connector to Use for Each Microsoft Service
+### Which connector to use for each Microsoft service
 
-|**Microsoft Service**|**Which Mover Connector to Use**|
+|**Microsoft service**|**Which Mover connector to use**|
 |:-----|:-----|
 |Azure Blob Storage|Azure Blob Storage Connector|
 |OneDrive Consumer|	OneDrive Consumer Connector|
@@ -223,9 +226,9 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |SharePoint Online|Office 365 Connector|
 |SharePoint on-premise|	Agent Connector (source Connector only) or the **Microsoft SharePoint Migration Tool**|
 
-## Deleting Connectors
+## Deleting connectors
 
-Deleting a **Connector** will revoke our access to your cloud storage accounts. To confirm that we have been deauthorized, visit the security settings in your respective cloud service and check for our app.
+Deleting a **Connector** revokes our access to your cloud storage accounts. To confirm that we have been deauthorized, visit the security settings in your respective cloud service and check for our app.
 
 Using our app to remove our authorization with a particular cloud service is simple:
 
@@ -239,7 +242,7 @@ Using our app to remove our authorization with a particular cloud service is sim
 >[!Note]
 >Deleting a **Connector** is permanent and cannot be reversed. The **Connector** type disappears from the **Transfer Wizard**. To add a new **Connector**, select **Authorize New Connector**.
 
-### Reauthorizing Connectors
+### Reauthorizing connectors
 
 Reauthorizing a **Connector** is sometimes necessary if we lose authorization or access to your cloud storage accounts or web servers. It is also a good first step in trying to resolve most issues with your **Connectors**.
 
@@ -260,7 +263,7 @@ The process to authorize a Connector again is very simple:
 
 ### What gets transfered?
 
-Only owned folders and the root files for each user will be copied. If a user is not the owner of data they can access, we will not copy it. Content may be automatically re-shared once it is migrated so that each user has access to their content exactly as before.
+Only owned folders and the root files for each user are copied. If a user is not the owner of data they can access, we do not copy it. Content may be automatically re-shared once it is migrated so that each user has access to their content exactly as before.
 
 ### Does Mover sync files?
 
@@ -270,11 +273,11 @@ We compare the timestamps of the files in both the source and destination and tr
 
 Here are a few examples of how we deal with changes to files and folders.
 
-**Content changes**: If a document is edited in your source or you have added a few new files, we will copy them to your destination on the next incremental run, overwriting the previously existing file(s) in the destination.
+**Content changes**: If a document is edited in your source or you have added a few new files, we copy them to your destination on the next incremental run, overwriting the previously existing file(s) in the destination.
 
-**Name changes**: If the name of a file or folder changes in G Suite Drive, we will treat it as a brand new object. This can lead to duplicate files being migrated to Office 365, or worse: entire folders worth of data being duplicated from the changed folder downwards.
+**Name changes**: If the name of a file or folder changes in G Suite Drive, we treat it as a brand new object. This can lead to duplicate files being migrated to Office 365, or worse: entire folders worth of data being duplicated from the changed folder downwards.
 
-**Example**: Changing the path `/Sales/Clients` to `/Global Sales/Clients` will result in two copies of your `Sales` folder after the `Global Sales` folder is also copied during an incremental pass.
+**Example**: Changing the path `/Sales/Clients` to `/Global Sales/Clients` results in two copies of your `Sales` folder after the `Global Sales` folder is also copied during an incremental pass.
 
 ### Does Mover delete files?
 
@@ -290,7 +293,7 @@ During a migration, we do not explicitly set a user as an owner of data.
 
 In Office 365, ownership of files and folders is always implicitly set by virtue of copying data into a user.
 
-#### Translating Permissions
+#### Translating permissions
 
 ![Translating G Suite permissions](media/translating-gsuite-perms.png)
 
@@ -301,13 +304,13 @@ In Office 365, ownership of files and folders is always implicitly set by virtue
 
 Not recommended. Any major changes in directory structure should happen before or after your migration. It is also not a good idea to use the app to rearrange content.
 
-The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process will see all changes as new data. So, for example, if you change a folder name at the root, we will detect that as a new folder, and all of the contents will be re-transfered including all subfolders.
+The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is re-transfered, including all subfolders.
 
-When sharing permissions are transfered, both owners and collaborators will receive duplicate data if content has been rearranged or renamed.
+When sharing permissions are transfered, both owners and collaborators receive duplicate data if content has been rearranged or renamed.
 
 ### What happens to external sharing links?
 
-Our app does not recreate external sharing links. After migration, these will have to be set in the destination manually.
+Our app does not recreate external sharing links. After migration, these have to be set in the destination manually.
 
 ### What about external collaborators?
 
@@ -315,11 +318,11 @@ We do not share content with external collaborators. This policy is in place to 
 
 ### Does Mover preserve file versions?
 
-We do not preserve file versions. During a migration, only the most recent version of a file will be transfered from G Suite Drive to Office 365.
+We do not preserve file versions. During a migration, only the most recent version of a file are transfered from G Suite Drive to Office 365.
 
-### Does Mover notify end users?
+### Does Mover notify users?
 
-We automatically suppress all emails to end users so they are not bombarded with excessive notifications about the data they now have access to.
+We automatically suppress all emails to users so they are not bombarded with excessive notifications about the data they now have access to.
 
 ## Account FAQ
 
@@ -355,7 +358,7 @@ To enable multi-factor authentication, follow these steps.
 ![2 factor screen](media/2_factor_screen.png)
 
 >[!Note]
->You will be automatically signed out of your account.
+>You are automatically signed out of your account.
 
 4. Log in to your email, and copy the verification code sent to you. If a verification code email does not appear in your inbox [or spam], just below the verification window in the app sign-in, select **Didn't get the code? Resend now**.
 
@@ -390,7 +393,7 @@ To reiterate:
 - Deletes any subscriptions associated with your account.
 - Deletes your Mover account.
 
-**This will not:**
+**This does not:**
 
 - Delete your transfer history. We retain these for security and compliance.
 - Remove any trace that your account once existed with Mover.
@@ -416,7 +419,7 @@ You may, however, delete your account — losing the schedules, connector author
 
 ### How do I check my transfer usage?
 
-Checking your usage of our app will let you know the total amount of gigabytes you have transfered over the history of your account.
+Checking your usage of our app lets you know the total amount of gigabytes you have transfered over the history of your account.
 
 To check your transfer data usage, follow these steps.
 
@@ -439,13 +442,13 @@ If you're editing the source or destination paths in our app, simply select the 
 
 If you're creating a user mapping via CSV, you would map your Accounting Shared Drive as /Accounting, which is different than your Accounting user /accounting@company.com.
 
-### G Suite Shared Drives Permissions
+### G Suite Shared Drives permissions
 
 The app is not able to read or write permissions to Google Shared Drives. Shared Drives do not allow explicit folder level permissions. Rather, Shared Drive permissions are set based on the Shared Drive members.
 
 ### What’s the difference between file versions and revision history?
 
-Revision history for Google Docs, Sheets, and Slides is different than file versions in Google Drive. Revision history refers to the ability to see earlier versions of a file, and view who made specific edits to the document. During the migration, revision history will not be transfered. Only the most recent version of a file will be transfered.
+Revision history for Google Docs, Sheets, and Slides is different than file versions in Google Drive. Revision history refers to the ability to see earlier versions of a file, and view who made specific edits to the document. During the migration, revision history is not transfered. Only the most recent version of a file is transfered.
 
 ![revision history](media/revision-history.png)
 
@@ -453,21 +456,22 @@ Revision history for Google Docs, Sheets, and Slides is different than file vers
 
 #### What happens to Google Drawings, Forms, Sites, and Maps?
 
-Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These will not be transfered.
+Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These are not transfered.
 
 #### What about Docs, Slides, and Sheets?
 
-Google's proprietary formats are not compatible with anything other than G Suite Drive. When migrating from G Suite, the app will convert to the Microsoft Office format from Google's format.
+Google's proprietary formats are not compatible with anything other than G Suite Drive. When migrating from G Suite, the app converts to the Microsoft Office format from Google's format.
 
-Any Google format that is larger than 10 MB when it is converted will fail. This is a limitation Google has placed on their infrastructure. For more info, see https://developers.google.com/drive/api/v3/reference/files/export.
+Any Google format that is larger than 10 MB when it is converted fails. This is a limitation Google has placed on their infrastructure. For more info, see https://developers.google.com/drive/api/v3/reference/files/export.
 
 >[!Note]
 >The only way to migrate/download a Google format file is to request that they [Google] convert it. Mover does not control the conversion process, and the forced limitations are strictly on Google's end.
 
 ![google format vs office format](media/google-format-versus-office-format.png)
 
-#### Files Marked as Restricted
-G Suite Drive enables owners to disable the ability for users to copy, download, or print a file on a per-file basis. This feature must be disabled on each file for which it has been enabled, in order for a migration to function properly, or you will receive an error stating:
+#### Files marked as restricted
+
+G Suite Drive enables owners to disable the ability for users to copy, download, or print a file on a per-file basis. This feature must be disabled on each file for which it has been enabled, in order for a migration to function properly, or you receive an error stating:
 
 `Permissions issue: File marked as restricted or not copyable`
 
@@ -475,7 +479,7 @@ To disable this feature, see the **Sharing** settings for a file, and select **A
 
 ![restricted file](media/restricted-file.png)
 
-## Required Pre-scan of G Suite Drive
+## Required pre-scan of G Suite Drive
 
 Permissions and ownership of data in a G Suite Drive source can be complicated. To retain a similar directory structure and sharing scheme in the destination, our app must make some decisions on who owns what and where that data is best located.
 
@@ -483,9 +487,10 @@ Permissions and ownership of data in a G Suite Drive source can be complicated. 
 
 When a folder is shared out to another user, it appears in their **/Shared with me** section. From there, it can be added to the user’s /My Drive and then placed in any folder of their choosing, including their own folders, or other shared folders.
 
-Office 365 will not support this same nesting of shared data, which is why we’ve developed a solution.
+Office 365 does not support this same nesting of shared data, which is why we’ve developed a solution.
 
 ##### Examples
+
 See the following two examples for how users might create conflicting folder structures.
 
 **Example 1**:
@@ -495,11 +500,11 @@ See the following two examples for how users might create conflicting folder str
 4. There are now two conflicting subfolders that our app must make a decision on.
 
 **Example 2**:
-Any file or folder in a user’s My Drive may be arbitrarily added to a new location. These files or folders will now be viewable in multiple places. The *correct* location is now unclear.
+Any file or folder in a user’s My Drive may be arbitrarily added to a new location. These files or folders will be viewable in multiple places. The *correct* location is now unclear.
 
 ![file save in two places](media/file-saved-in-two-places-example.png)
 
-#### The Solution
+#### The solution
 
 In order to ensure your users still have access to all their important files, our app automatically makes an intelligent decision on which folder becomes the source of truth when multiple users have conflicting views.
 
@@ -514,12 +519,12 @@ Here is a visual guide to the pre-scan decision process:
 
 ![Pre-scan decision tree for G Suite](media/prescan-decision-tree-gsuite.png)
 
-### Before and After
+### Before and after
 
 G Suite Drive	Office 365
 ![G Suite before and after](media/gsuite-before-after.png)
 
-### Security Concerns
+### Security concerns
 
 Because of the nature of G Suite Drive’s sharing model, it can open up some security concerns when migrating to Office 365. The problem stems from the idea of negatively setting permissions, for example, sharing a parent folder, then removing permissions from some subfolders. All Office 365 destination subfolders inherit their parent permissions, which could have unintended consequences when performing a migration.
 
@@ -544,13 +549,12 @@ To perform a Google pre-scan, our engineers require the following:
   - To get the migration ID:
     - Find and select **Migration Actions**.
     - Select **Customize Columns**, and select **Migration ID**.
-    - You'll now be able to see the migration ID appearing in each row. If you refresh the page, this information disappears unless you select **Save Column State**.
+    - You'll now be able to see the migration ID appearing in each row. If you refresh the page, this info disappears unless you select **Save Column State**.
 
 ![add it customize column](media/add-id-customize-column.png)
 
 >[!Important]
 >The Google pre-scan must be run before the (counting) scan, otherwise the file counts will not be accurate. A Google pre-scan request could take up to one business day to be fielded, so provide all of the aforementioned info with at least 24 hours notice.
-
 
 ## Office 365 FAQ
 
@@ -575,8 +579,7 @@ Microsoft currently has no file type limitations, meaning you can upload data wi
 
 Filenames may be up to 256 characters.
 Folder names may have up to 250 characters.
-Total path length for folder and filename combinations may be up to 400 characters. For more information, see **below**.
-
+Total path length for folder and filename combinations may be up to 400 characters. For more info, see **below**.
 
 ### What happens to long paths?
 
@@ -597,11 +600,11 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 The original timestamps from G Suite Drive are preserved when migrating into Office 365.
 
 >[!Note]
->Timestamps are only applied to files/data transfered and not folders. Folders and Folder structure are created in the destination during migration and will reflect the date of the migration.
+>Timestamps are only applied to files/data transfered and not folders. Folders and Folder structure are created in the destination during migration, and reflect the date of the migration.
 
 ### Is file authorship preserved?
 
-When migrating from G Suite Drive into Office 365, the *modified by* author will be preserved; however, the *created by* is changed to the end user.
+When migrating from G Suite Drive into Office 365, the *modified by* author is preserved; however, the *created by* is changed to the user.
 
 ### Does the Mover app interact with the sync client in OneDrive for Business?
 
@@ -609,7 +612,7 @@ We do not interact with the sync client in OneDrive for Business. We recommend d
 
 ### What happens to shared data?
 
-Data shared with a user by another user will appear in the **Shared with me** folder. Data owned by a user appears in the user’s designated destination folder.
+Data shared with a user by another user appears in the **Shared with me** folder. Data owned by a user appears in the user’s designated destination folder.
 
 ### What about notifications?
 
@@ -617,7 +620,7 @@ The Mover app silences notifications during the migration to prevent users from 
 
 ### What happens to data shared to Office 365 Groups?
 
-Data shared to an Office 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify end users that they are now a member of an Office 365 Group.
+Data shared to an Office 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Office 365 Group.
 
 >[!Note]
 >This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
@@ -636,7 +639,7 @@ Both Modern and Classic sites are supported, and appear the same in our app.
 
 ### What will my file paths look like in SharePoint?
 
-During the migration setup (described later in this guide), you can edit the path(s) to specify where in SharePoint you would like your data to go. From the root level of SharePoint Online, you can go into **Site Collections**, and inside each **Site Collection**, you will find directories for **Site Contents** and **Subsites**.
+During the migration setup (described later in this guide), you can edit the path(s) to specify where in SharePoint you would like your data to go. From the root level of SharePoint Online, you can go into **Site Collections**, and inside each **Site Collection**, directories for **Site Contents** and **Subsites** appear.
 
 **Site Contents** takes you to document libraries (for example, the **Documents** section), whereas **Subsites** takes you to the **Subsites** of that site collection. Navigating **Subsites** takes you through the same dichotomy.
 
@@ -644,12 +647,11 @@ Most cloud storage providers, G Suite Drive for example, start the listing with 
 
 ![File paths in SPO](media/filepaths-in-sp.png)
 
-
 ### How does library permissions inheritance affect migration?
 
 To set specific permissions on folders in a document library, inheritance must be disabled. Permissions inheritance is typically turned on by default, which makes all the data within the library subject to the permissions set on the library. This is similar behavior to team folders or team drives in other cloud services, whereby if users have access to the root level, they have access to everything contained within.
 
-If inheritance is not disabled at the root, any permissions we try to set on individual folders will be overridden by the library access permissions.
+If inheritance is not disabled at the root, any permissions we try to set on individual folders are overridden by the library access permissions.
 
 **To disable inheritance:**
 
@@ -677,7 +679,7 @@ SharePoint sites do have file size and number limits, which are covered in detai
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
 
-## Setting Up the Migration
+## Setting up the migration
 
 ### Authorizing G Suite Drive (Administrator)
 
@@ -723,11 +725,14 @@ We now have access to your users and their data, so we can move on to **Connecto
 
 ![grant access to gdrive](media/grant-access-to-google-drive.png)
 
-### Troubleshooting a G Suite (Administrator) Connector
-#### App Permissions
+### Troubleshooting a G Suite (Administrator) connector
+
+#### App permissions
+
 For us to be able to view and transfer data to and from G Suite Drive, you must have our app installed as per the instructions in **Connector Creation**. In some cases, you may have the app installed, but disabled. If you are having problems connecting, you should ensure our marketplace app is enabled for all users. To access your third-party app settings in **Google Apps**, follow the same steps.
 
-#### Google Drive Permission Requirements
+#### Google Drive permission requirements
+
 Our app requires a Global Administrator for authorization. The following table provides a detailed list of the scopes we require.
 
 |**Permission**|**Details**|
@@ -737,7 +742,6 @@ Our app requires a Global Administrator for authorization. The following table p
 |View domains related to your customers	|Allows our app to view domain aliases and multi-domains (secondary domains) for your customers.|
 |View and manage the provisioning of groups on your domain	|Allows our app to provision and modify groups on your domain, as well as view and modify details and metadata of groups on your domain.|
 |View users on your domain	|Allows our app to view basic details and metadata of users on your domain.|
-
 
 ### Authorizing Office 365
 
@@ -765,17 +769,17 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 ![Authorize window](media/authorize-window.png)
 
-4. **Global Admin or SPO Admin:** Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
+4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
 
-5. **Global Admin or SPO Admin:** After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
-If you're an **SPO Admin:** To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
+If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
 
 If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![Authorize error](media/authorize-error.png)
 
-6. **Global Admin:** Log into the Azure Portal via **aka.ms/office365moverauth**. You’ll see a list of **Enterprise applications**.
+6. **Global Admin**: Log into the Azure Portal via **aka.ms/office365moverauth**. You’ll see a list of **Enterprise applications**.
 
 ![enterprise applications](media/enterprise-applications.png)
 
@@ -789,17 +793,17 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Office 365 Connector** is fully authorized and ready to go.
 
-### Troubleshooting an Office 365 Connector
+### Troubleshooting an Office 365 connector
 
-#### App Access Error
+#### App access error
 
 If you encounter an error on authorization, try signing out of any Microsoft accounts, and attempt to authorize the **Connector** in an Incognito Window.
 
-#### Global Admin Account Provisioning
+#### Global Admin account provisioning
 
 Your Global Admin user must have an Office 365 account provisioned in order to administer other Office 365 accounts. If you create a service account for our app, ensure you also assigned an Office 365 license, and walked through the Office 365 setup process.
 
-#### User Provisioning
+#### User provisioning
 
 Are your Office 365 users provisioned? All Office 365 users must log in to their Office 365, and open Office 365 for us to transfer into their accounts. You can also provision Office 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
 
@@ -807,7 +811,7 @@ Are your Office 365 users provisioned? All Office 365 users must log in to their
 
 `Request-SPOPersonalSite -UserEmails “neverloggedintest@example.onmicrosoft.com”`
 
-#### Office 365 Permission Requirements
+#### Office 365 permission requirements
 
 The app requires a Global Administrator for authorization. The following table lists the scopes we require:
 
@@ -817,19 +821,19 @@ The app requires a Global Administrator for authorization. The following table l
 |View your basic profile|	Allows the app to see your basic profile (name, picture, user name).|
 |Maintain access to data you have given it access to|	Allows the app to see and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.|
 
-### Connecting your Source G Suite Drive Account
+### Connecting your source G Suite Drive account
 
 If you are not already connected after you have authorized your source, select **G Suite Drive**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
 ![execution select gdrive source](media/execution-select-google-drive-source.png)
 
-### Connecting Your Destination Office 365 Account
+### Connecting your destination Office 365 Account
 
 If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
 ![execution select o365 destination](media/execution-select-office-365-destination.png)
 
-#### Creating a new Migration
+#### Creating a new migration
 
 Select **Continue Migration Setup**, and the app moves to the **Migration Manager**.
 
@@ -863,7 +867,7 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-#### Creating a New Migration from a CSV (Optional)
+#### Creating a new migration from a CSV (optional)
 
 Sometimes you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
@@ -909,10 +913,11 @@ To use an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-#### Reviewing Your Users
-##### Checking Paths
+#### Reviewing your users
 
-Confirm that the users in the G Suite Drive source match the users in the Office 365 destination. Usually the emails/usernames will match up, but it depends how you structure and name your users. *Be diligent during this step!*
+##### Checking paths
+
+Confirm that the users in the G Suite Drive source match the users in the Office 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
 #### Editing
 
@@ -956,7 +961,7 @@ Tips for creating the CSV:
       a. Find and select **Migration Actions**.</br>
       b. Select **Customize Columns**, and select **ID**.</br>
         
-    You'll now be able to see the ID appearing in each row. If you refresh the page, this information disappears unless you select **Save Column State**.
+    You'll now be able to see the ID appearing in each row. If you refresh the page, this info disappears unless you select **Save Column State**.
 
 Download an example CSV:
 
@@ -970,7 +975,7 @@ Download an example CSV:
 
 #### Adding
 
-If you missed users in your original CSV upload, or simply want to add new user entries to the current migration, add them via CSV. All entries you add in this manner will be appended to the current migration, meaning this won't modify existing rows and it is possible to create duplicate entries alongside the ones that already exist.
+If you missed users in your original CSV upload, or simply want to add new user entries to the current migration, add them via CSV. All entries you add in this manner are appended to the current migration, meaning this won't modify existing rows and it is possible to create duplicate entries alongside the ones that already exist.
 
 To add new users:
 
@@ -1026,7 +1031,7 @@ To delete a user entry:
 
 ![delete user](media/delete-user.png)
 
-### Reviewing Your Permission Map
+### Reviewing your permission map
 
 The permission map is a critical part of your migration.
 
@@ -1036,7 +1041,7 @@ To stay organized, we provide a secondary list of your users, called a permissio
 
 Another important consideration is that usernames and emails aren't always consistent across platforms, and the permission map helps us line up everyone.
 
-**Example:**  `jane@example.com` is actually `j.smith@example.com`
+**Example**:  `jane@example.com` is actually `j.smith@example.com`
 
 We automatically detect users and handle perfect matches. Any inconsistencies must be manually reconciled. The permission map can be continually updated, because with each incremental pass of the migration, permissions are reapplied.
 
@@ -1065,7 +1070,7 @@ You may either auto-discover or upload a permission map file. We automatically p
 >[!Note]
 >The G Suite Drive requires any groups in your permission map to use the group email address, and not the group name.
 
-### Uploading a Permission Map (Optional)
+### Uploading a permission map (optional)
 
 You can upload a permission map in CSV format. This overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
 
@@ -1108,7 +1113,7 @@ For example:
 
 ![excel overview](media/excel-overview.png)
 
-#### Exporting a Permission Map
+#### Exporting a permission map
 
 You can export a permission map in CSV format.
 
@@ -1118,23 +1123,23 @@ You can export a permission map in CSV format.
 
 ![excel save as csv](media/excel-save-as-csv.png)
 
-### Migration Manager Overview
+### Migration Manager overview
 
 The **Migration Manager** is the key part of the app itself. It is the primary screen for interacting during the data migration process.
 
 ![migration main mover](media/migration-main-mover.png)
 
-#### Migration Manager Dashboard
+#### Migration Manager dashboard
 
 Use the **Migration Manager** dashboard for a summary of your overall migration. This is covered in depth **here**.
 
-#### Main Menu Bar
+#### Main menu bar
 
 Use the app's main navigation bar to switch between the **Migration Manager**, **Transfer Wizard**, and your **Account** details, as well as contact support if you run into any issues during your migration.
 
 ![migration top mover](media/migration-top-mover.png)
 
-#### Migration Selection
+#### Migration selection
 
 Use the **Migration Selection** bar to navigate between separate multi-user migrations, as well as individual normal transfers.
 
@@ -1142,7 +1147,7 @@ Here, you are also able to edit and personalize the names of each multi-user mig
 
 ![migration edit mover](media/migration-edit-mover.png)
 
-#### Migration Actions
+#### Migration actions
 
 Use the **Migration Actions** menu to access things such as: the migration reports, the columns displayed, and the overall layout of your migration to best suit your personal needs.
 
@@ -1158,7 +1163,7 @@ You can also view more in-depth instructions by selecting the info button direct
 
 ![migration filter info](media/migration-filter-info.png)
 
-#### User Display
+#### User display
 
 The user display is the central focus of the **Migration Manager**, and displays all the users in the current migration.
 
@@ -1166,7 +1171,7 @@ This section of the app provides you with a column-by-column breakdown of each i
 
 ![migration users mover](media/migration-users-mover.png)
 
-#### User Actions and Finalization
+#### User actions and finalization
 
 This area of the screen contains the **User Actions** dropdown menu, the **Scan User** and **Start Migrating Users** buttons.
 
@@ -1182,7 +1187,7 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 
 ![migration actions mover](media/migration-finalize-mover.png)
 
-## Running the Migration
+## Running the migration
 
 ### Scanning
 
@@ -1193,7 +1198,7 @@ Scanning your source data is key to running a smooth and stress-free migration. 
 >
 >After a transfer is scanned, the source/destination are effectively *locked in.* Be sure to double-check that they are correct, and not left blank.
 
-### Running the Scan
+### Running the scan
 
 You now have a list of users appearing in the migration, complete with destination set up.
 
@@ -1216,7 +1221,7 @@ After users appear in green, yellow, or red, on the top right side of your scree
 
 The **Scan Report** is covered in-depth in the **Reports** subsection under the **Scan Report** section of this guide.
 
-#### Migrating Users
+#### Migrating users
 
 We recommend starting slow. Test one user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
 
@@ -1230,7 +1235,7 @@ We recommend starting slow. Test one user, then three to five. If it looks good,
 >[!Note]
 >If your transfer encounters an error or crashes, the app automatically reruns the transfer up to three times to attempt to resolve the issue.
 
-#### Canceling Users
+#### Canceling users
 
 To cancel a currently running transfer:
 
@@ -1240,11 +1245,11 @@ To cancel a currently running transfer:
 
 This action stops the transfer as soon as possible (usually within a few seconds).
 
-#### Rerunning Users
+#### Rerunning users
 
 The best way to resolve any issues with a transfer is to rerun it. This action checks over all the files in your destination, compares them to the source, and then transfers over the new or modified files.
 
-All transfers take advantage of our incremental feature and will only transfer new or modified data differences between G Suite Drive and Office 365.
+All transfers take advantage of our incremental feature and only transfer new or modified data differences between G Suite Drive and Office 365.
 
 As long as a transfer is not running, to restart a transfer, you can re-queue a user.
 
@@ -1253,11 +1258,11 @@ To rerun or restart your transfer, complete the following steps:
 1. Select the or user(s) you want to rerun.
 2. To run the users again, at the top right, select **Start Migrating X Users**.
 
-### Transfer Status Messages
+### Transfer status messages
 
 The following table lists additional info about each transfer status message from the **Migration Manager**.
 
-|**Status Message**|**Definition**|
+|**Status message**|**Definition**|
 |:-----|:-----|
 |Running pre-checks|	Our servers checking a few things and sending your transfer to the queue. Almost there!|
 |Queued to start, please be patient|	Your transfer will run as soon as possible. You can close your browser, and receive an email on completion. There is no limit to queued users.|
@@ -1272,9 +1277,9 @@ The following table lists additional info about each transfer status message fro
 |Connector auth failed|	One of your connectors isn't authorized correctly.|
 |Crashed, please retry|	We don't have a particular reason why your transfer failed, but generally this is due to server issues on our side or with the source or destination connectors. Contact us if you encounter a crash.|
 
-## Post-Migration Troubleshooting
+## Post-migration troubleshooting
 
-### General Troubleshooting
+### General troubleshooting
 
 Follow these steps if your migration is having issues:
 
@@ -1289,14 +1294,13 @@ Alternately, you can select multiple users, and from the **User Actions** dropdo
 4. Ensure you have enough storage space in Office 365 to accommodate the data you're moving in.
 5. Think files are missing? Check out our list of **Unsupported Files per Connector**.
 
-
-### Incremental Feature
+### Incremental feature
 
 Our incrementals are delta operations which compare files in your G Suite Drive to files in Office 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Office 365 data up to date when the very final cutover of users occurs. These incremental passes are an important part of our process.
 
-**Technical clarification:** We compare what you have in G Suite Drive to what is in Office 365, and we only transfer anything that doesn't already exist, or has a newer timestamp.
+**Technical clarification**: We compare what you have in G Suite Drive to what is in Office 365, and we only transfer anything that doesn't already exist, or has a newer timestamp.
 
-### 'Lost Files'
+### 'Lost files'
 
 During a transition where sharing paradigms change, there are many users who claim, “My files are lost!”
 
@@ -1308,7 +1312,7 @@ After all your files have been uploaded to Microsoft, the status of the transfer
 
 It is normal for this process to take a few hours, and ultimately depends on how much data there is to process.
 
-### Document Parser Error
+### Document parser error
 
 Large HTML or XML documents (256MB+) fail to transfer if the **Document Parser** is enabled for the destination site during the migration.
 
@@ -1320,9 +1324,9 @@ If this error message appears, you must contact Microsoft support directly to di
 
 If you require assistance with your communication strategy, ask us for help.
 
-## Transfer Logs
+## Transfer logs
 
-### Viewing Your Logs
+### Viewing your logs
 
 Viewing your logs is an excellent way to troubleshoot transfer issues. They inform you about each action we performed on each file and folder. If we run into any problems, you receive an error message next to the file with a description about what happened.
 
@@ -1347,16 +1351,16 @@ You can view a user's transfer logs by doing one of the following:
 >[!Note]
 >The zipped file provides logs in both CSV and HTML formats for only the most recent transfer of each user.
 
-View an example CSV log or in your browser here:
+View an example CSV log or in your browser:
 
 **example_user_log.html**
 
-### Interpreting a Log File
+### Interpreting a log file
 
 - **Status**: Whether an action was a success or a failure.
 - **Size**: File size in bytes, or that it's a folder being created/operated on.
 - **Name**: File, folder, or action being acted upon.
-- **Additional Info**: More information about the particular action performed. For more info, see the following table.
+- **Additional Info**: More info about the particular action performed. For more info, see the following table.
 
 |**Message**|**Definition**|
 |:-----|:-----|
@@ -1370,10 +1374,9 @@ View an example CSV log or in your browser here:
 |Skipping because of incremental	|Not an error by definition; it's just our incremental process at work.|
 |Scanned|	Not an error by definition; it's just our scanner counting your data.|
 
-
 ## Reports
 
-### Dashboard Overview
+### Dashboard overview
 
 The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transfered, and the amount of data scanned or transfered; as well as any issues, errors, or failures that may have occured.
 
@@ -1418,14 +1421,14 @@ The **Data** section of the **Migration Manager** dashboard shows the total of a
 
 ![migration manager data](media/migration-manager-data.png)
 
-### Active Filter List
+### Active filter list
 
 This provides the list of all current **Filters** that you can apply to the **Active Filter** search bar.
 
 >[!Note]
 >Applying the filters changes the statistic shown in the **Migration Manager** dashboard.
 
-|**Filter Label**|**Label Effect**|
+|**Filter label**|**Label effect**|
 |:-----|:-----|
 |Status|	Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
 |Files|	Filters based on files transfered, failed, and skipped.|
@@ -1445,25 +1448,25 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 |Destination name|	Displays transfers with a specific destination name.|
 |Source name|	Displays transfers with a specific source name.|
 
-### Scan Report
+### Scan report
 
-For more information about the scanning process, see the **Scanning** section.
+For more info about the scanning process, see the **Scanning** section.
 
 After the scan report is downloaded and opened, look for these key items:
 
 - Users with a failed status. We recommend rerunning the scan for these user(s).
 - Users with one file or less. **Note**: Sharing permissions are still transfered.
-- Users with the most data. Use this information to decide about a data distribution strategy that suits your needs. For more info about data distribution, see **here**.
+- Users with the most data. Use this info to decide about a data distribution strategy that suits your needs. For more info about data distribution, see **here**.
 
 ![scan report example](media/scan-report-example.png)
 
-### Migration Report
+### Migration report
 
 The **Migration Report** provides an in-depth overview of your entire migration, including (but not limited to) speed and time statistics, totals for files and data transfered, and info relating to the latest run.
 
 To download this as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Report**.
 
-The CSV report provides the following information for each user pairing:
+The CSV report provides the following info for each user pairing:
 
 |**Header/Statistic**|**Definition**|
 |:-----|:-----|
@@ -1498,7 +1501,7 @@ Download an example CSV:
 
 **example_migration_report.csv**
 
-### Migration Table Report
+### Migration table report
 
 The **Migration Table Report** generates an overview of your entire migration based on the custom designated columns you have set.
 
@@ -1512,7 +1515,7 @@ Download an example CSV:
 
 **example_migration_table_report.csv**
 
-### Migration Error Report
+### Migration error report
 
 The **Migration Error Report** generates a simplified **Migration Report** that focuses on any problematic files, folders, permission errors, or general errors.
 
@@ -1524,7 +1527,7 @@ Download an example CSV:
 
 **example_migration_error_report.csv**
 
-## Post-Migration tips
+## Post-migration tips
 
 We are stewards of your data. Our approach in all things is to see you successfully cross the finish line. We provide full service support and are ready to solve any problem and communicate with you about any issue.
 
@@ -1533,12 +1536,11 @@ We are stewards of your data. Our approach in all things is to see you successfu
 Follow up with users after migration to ensure they know where to access their data.
 Provide a link to set up their new Office 365 accounts. Be prepared to answer any questions or concerns, as it is common for users to complain about a new system.
 
-### Example Email
+### Example email
 
 **Subject**: ATTENTION: Login to Office 365*
 
-**Message**: 
-Over the weekend, we migrated our team from G Suite Drive to Office 365.
+**Message**: Over the weekend, we migrated our team from G Suite Drive to Office 365.
 
 All files and folders were transfered without any issues. To set up your new Office 365 account, follow this link.
 
@@ -1548,20 +1550,19 @@ From this point forward, log into your Office 365 account.
 
 Let us know if you have any questions or concerns.
 
-## End User Migration Guides
+## User migration guides
 
-This **End User Migration Guide** is intended to be distributed to end users via their migration management team. Feel free to customize messaging to best serve end users.
+This **User Migration Guide** is intended to be distributed to users via their migration management team. Feel free to customize messaging to best serve users.
 
-Read the following important information regarding your upcoming Office 365 migration.
+Read the following important info regarding your upcoming Office 365 migration.
 
 ### Timeline
 
 This migration happens behind the scenes. Your work day should not be interrupted.
-Files and folders will be migrated. Any root folders or files you own in G Suite Drive will be copied.
-A final cut-over will be planned after all users in your group have been migrated.
+Files and folders are migrated. Any root folders or files you own in G Suite Drive are copied.
+A final cut-over is planned after all users in your group have been migrated.
 
-
-### Dos and Don'ts
+### Dos and don'ts
 
 Do continue working in G Suite Drive as usual!
 
@@ -1573,9 +1574,9 @@ Don't make any major changes to file or folder names! Your files and folders are
 
 Files and folders are automatically processed to ensure they are compatible with Office 365.
 
-### What happens to External Sharing links?
+### What happens to external-sharing links?
 
-Our app does not recreate external sharing links. These will have to be set in the destination manually after migration.
+Our app does not recreate external-sharing links. These have to be set in the destination manually after migration.
 
 ### Your migration team
 
