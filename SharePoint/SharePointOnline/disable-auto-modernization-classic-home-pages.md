@@ -28,7 +28,7 @@ This article covers all the details on how the feature works and the controls yo
 
 If a classic team site meets the following criteria for being updated, the home page will automatically modernize the next time a user visits. When users first experience the change, they’ll see a walkthrough that highlights the new capabilities and includes a link to a help article with more details. 
 
-We encourage users to adopt the change in order to benefit from the power of modernized pages. However, if site admins or site owners want to revert to the classic home page, they can. Instructions are available in the [support article](https://support.office.com/en-us/article/new-sharepoint-team-home-page-77cbbd3c-2a23-4a76-bfd7-c5bf95afe1c6?ui=en-US&rs=en-US&ad=US). 
+We encourage users to adopt the change in order to benefit from the power of modernized pages. However, if site admins or site owners want to revert to the classic home page, they can. Instructions are available in the [support article](https://support.office.com/article/new-sharepoint-team-home-page-77cbbd3c-2a23-4a76-bfd7-c5bf95afe1c6). 
 
 ### Update criteria: 
 
