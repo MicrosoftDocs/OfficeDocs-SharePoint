@@ -1,5 +1,5 @@
 ---
-title: Migrating to Office 365 from Box
+title: Migrating from Box to Office 365
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -590,7 +590,7 @@ Authorizing Box as an Administrator or a Co-Administrator is straightforward. To
 9. Name your **Connector** <optional>.</br></br>
 ![Box co-admin name connector](media/name-connector-box-coadmin.png)</br></br>
 10. Select **Authorize** again. 
-11. If you are not logged in, to grant access, you can use either your Box credentials, or a SSO account.
+11. If you are not logged in, to grant access, you can use either your Box credentials, or a SSO account.</br></br>
 ![Log into grant access to box](media/log-in-to-grant-access-to-box.png)</br></br>
 12. To grant the app access to your Box account, select **Allow**.</br></br>
 ![grant access to box](media/grant-access-to-box.png)</br></br>
@@ -661,7 +661,7 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
 If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
 
@@ -669,7 +669,7 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![Authorize error](media/authorize-error.png)
 
-6. **Global Admin**: Log into the Azure Portal via **aka.ms/office365moverauth**. You’ll see a list of **Enterprise applications**.
+6. **Global Admin**: Log in to the Azure Portal via **aka.ms/office365moverauth**. You’ll see a list of **Enterprise applications**.
 
 ![Enterprise applications](media/enterprise-applications.png)
 
@@ -1100,11 +1100,11 @@ After users appear in green, yellow, or red, on the top right side of your scree
 
 ![scan report migration](media/scan-report-migration.png)
 
-The **Scan Report** is covered in-depth in the **Reports** subsection under the **Scan Report** section of this guide.
+For in-depth info about **Scan Report**, see the **Reports** subsection under the **Scan Report** section of this guide.
 
 #### Migrating users
 
-We recommend starting slow. Test one user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
+We recommend starting slowly. Test one user, then three to five. If all looks good, and you see data being downloaded and uploaded, start queuing everyone, and stage the rest of your users.
 
 1. To select a user(s), check their row's respective checkbox.
 2. Select **Start Migrating X Users.**
