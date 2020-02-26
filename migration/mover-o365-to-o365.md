@@ -637,9 +637,6 @@ Select one of two options:
 2. Upload Migration CSV File.
   - Either drag a file into the designated space, or select **Choose a file to upload**, and add a customized CSV file for your migration.
 
-  >[!Note]
->For more info about creating CSVs, see **below**.
-
 ![Add users menu](media/add-users-menu.png)
 
 >[!Note]
@@ -680,7 +677,6 @@ For example, this full URL won't work:
 It should be changed to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-
 #### Creating your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
@@ -720,7 +716,7 @@ To edit a user destination entry:
 
 ![Edit destination user](media/edit-destination-user.png)
 
-You can also choose to edit your user entries via CSV, though this is a fairly in-depth process. *If you are simply looking to make a handful of edits to your paths we recommend using the previous method.*
+You can also choose to edit your user entries via CSV, though this is a fairly in-depth process. *If you are simply looking to make a handful of edits to your paths, we recommend using the previous method.*
 
 To edit or update your current existing user pairings:
 
@@ -743,7 +739,7 @@ Tips for creating the CSV:
 
 Download an example CSV:
 
-**Example_Path_Edit.csv**
+[example_path_edit.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_path_edit.csv)
 
 ![Add ID customize column](media/add-id-customize-column.png)
 
@@ -843,7 +839,7 @@ You may either auto-discover or upload a permission map file. We automatically p
 >[!Note]
 >Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, `@gmail.com` to `@hotmail.com` - is automatically removed. The app marks these as redundant entries.
 
-### Uploading a permission map (Optional)
+### Uploading a permission map (optional)
 
 You can upload a permission map in CSV format. This overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
 
@@ -868,7 +864,7 @@ Permission maps should have two specific entries:
 
 Download an example CSV:
 
-**example_permission_map.csv**
+[example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
 
 #### Creating your CSV in Excel
 
@@ -1061,7 +1057,7 @@ Follow these steps if your migration is having issues:
 
 ![view logs](media/view_logs.png)
 
-Alternately, you can select multiple users, and from the **User Actions** dropdown menu, you can download their most recent collective logs in a zip file that provides them in both HTML and CSV formats.
+Alternatively, you can select multiple users, and from the **User Actions** dropdown menu, you can download their most recent collective logs in a zip file that provides them in both HTML and CSV formats.
 
 3. Check if your failed/unsupported files are too large to go into Office 365.
 4. Ensure you have enough storage space in Office 365 to accommodate the data you're moving in.
@@ -1126,7 +1122,7 @@ You can view a user's transfer logs by doing one of the following:
 
 View an example CSV log or in your browser:
 
-**example_user_log.html**
+[User log for DropboxAdmin to BoxAdmin transfer_ tRanSacTionID.html](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/User log for DropboxAdmin to BoxAdmin transfer_ tRanSacTionID.html)
 
 ### Interpreting a Log File
 
@@ -1272,7 +1268,7 @@ The CSV report provides the following info for each user pairing.
 
 Download an example CSV:
 
-**example_migration_report.csv**
+[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report.csv)
 
 ### Migration table report
 
@@ -1286,7 +1282,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-**example_migration_table_report.csv**
+[example_migration_table_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_table_report.csv)
 
 ### Migration error report
 
@@ -1298,7 +1294,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-**example_migration_error_report.csv**
+[example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_error_report.csv)
 
 ## Post-migration tips
 
