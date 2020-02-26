@@ -1,0 +1,3 @@
+ID,Source Path,Destination Path
+id12345,/firstname.lastname@domain.com,/f.lastname@domain.com
+id12345,/User01@example.com,/user_01@example.com
