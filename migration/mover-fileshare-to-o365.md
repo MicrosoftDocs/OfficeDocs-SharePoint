@@ -857,7 +857,7 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
 If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
 
@@ -1275,7 +1275,6 @@ Alternatively, you can select multiple users, and from the **User Actions** drop
 4. Ensure you have enough storage space in Office 365 to accommodate the data you're moving in.
 5. Think files are missing? Check out our list of **Unsupported Files per Connector**.
 
-
 ### Incremental feature
 
 Our incrementals are delta operations which compare files in your File Servers to files in Office 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Office 365 data up to date when the final cutover of users occurs. These incremental passes are an important part of our process.
@@ -1319,12 +1318,12 @@ During a migration, a file sometimes fails to download or upload. All failures a
 
 You can view a user's transfer logs by doing one of the following:
 
-1. Select the user row. This action opens the **Transfer Logs** sidebar. From here, select **View Log** on any previous transfer log for the selected user.
+1. Select the user row. The **Transfer Logs** sidebar appears. To view any previous transfer log for the user you selected, select **View Log**.
 
 ![view logs2](media/view_logs.png)
 
 >[!Note]
->To open a Transfer log in your web browser with built-in sorting and filter features, select **View Log**.
+>To open a transfer log in your web browser with built-in sorting and filter features, select **View Log**.
 
 2. To select multiple users, from the **User Actions** dropdown menu or the **Actions** menu in the side tab, select **Download Logs (zip file)**. As the label implies, multiple log files are zipped together for download.
 
