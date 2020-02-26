@@ -18,7 +18,6 @@ Your intranet might include your company's main landing page, portals for corpor
 
 Whether you're the company intranet owner, an IT Professional or administrator, a site owner, or a content creator - you're in the right place. Use this article as a hub to help you find the resources that you need for your role and the goals that you have for your intranet. As you read the sections below, follow the links for more detailed information on the areas that you're working on.
 
-
 **Roadmap contents:**
 
 - Introduction to roles, tasks, and timelines
@@ -279,9 +278,7 @@ Sometimes content needs to be delivered through video - like when organization-w
 
 *You'll know your done when:* You are regularly promoting news and events that start conversations and engage and connect wide audiences. 
 
-
 ## Get started
-
 
 ### Plan
 
@@ -297,8 +294,6 @@ Sometimes content needs to be delivered through video - like when organization-w
 |[Business owners / site owners](#business-owners-and-site-owners)| Develop and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration| 
 |[Content creators](#content-creators)| Authority on content best practices, content creation, content management and page design|
 
-
-
 ### Build
 
 > [!div class="checklist"]
@@ -312,8 +307,6 @@ Sometimes content needs to be delivered through video - like when organization-w
 |[IT / Admin](#it-pros-and-admins)|  Implement decisions made by the intranet stakeholders regarding site creation, navigation, search, branding, and publishing | 
 |[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting | 
 | [Content creators](#content-creators)| Create solutions to business objectives by creating and sharing relevant content with the right audiences|
-
-
 
 ### Manage
 
@@ -330,10 +323,6 @@ Sometimes content needs to be delivered through video - like when organization-w
 | [IT / Admin](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies|   
 | [Business owners / site owners](#business-owners-and-site-owners) | Schedule content audits and use site usage metrics to measure progress| 
 | [Content creators](#content-creators)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant|
-
-
-
-
 
 ## Related topics
 

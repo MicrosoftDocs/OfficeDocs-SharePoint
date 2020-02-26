@@ -5,6 +5,7 @@
 ### [SharePoint admin role](sharepoint-admin-role.md)
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
+### [Intranet roadmap](intranet-overview.md)
 ### [Plan your intranet](plan-intranet.md)
 ### [Creating and launching a healthy SharePoint portal](portal-health.md)
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
