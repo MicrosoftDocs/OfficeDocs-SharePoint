@@ -749,9 +749,6 @@ Select one of two options:
 2. Upload Migration CSV File.
   - Either drag a file into the designated space, or select **Choose a file to upload**, and add a customized CSV file for your migration.
 
-  >[!Note]
->For more info about creating CSVs, see **below**.
-
 ![Add users menu](media/add-users-menu.png)
 
 >[!Note]
@@ -761,7 +758,7 @@ Select one of two options:
 
 Sometimes you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
-In these cases, we trust the CSV upload option is useful. This allows you to lay out all your users and directories, and then provide it to us in a .csv format for us to create your migration.
+In these cases, we trust the CSV upload option is useful. This lets you lay out all your users and directories, and then provide it to us in a .csv format for us to create your migration.
 
 ##### Users to migrate
 
@@ -781,7 +778,7 @@ A heading for the source and destination, followed by the paths, and optional ta
 
 Download an example CSV:
 
-**Example_CSV_Map.csv**
+**example_CSV_map.csv**
 
 >[!Note]
 >When URL mapping to SharePoint Online, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
@@ -831,7 +828,7 @@ To edit a user destination entry:
 
 ![Edit destination user](media/edit-destination-user.png)
 
-You can also choose to edit your user entries via CSV, though this is a fairly in-depth process. *If you are simply looking to make a handful of edits to your paths we recommend using the previous method.*
+You can also choose to edit your user entries via CSV, though this is a fairly in-depth process. *If you are simply looking to make a handful of edits to your paths, we recommend using the previous method.*
 
 To edit or update your current existing user pairings:
 
@@ -850,11 +847,11 @@ Tips for creating the CSV:
         a. Find and select **Migration Actions**.</br>
         b. Select **Customize Columns**, and select **ID**.</br>
         
-        You'll now be able to see the ID appearing in each row. If you refresh the page, this information disappears unless you select **Save Column State**.
+        You'll now be able to see the ID appearing in each row. If you refresh the page, this info disappears unless you select **Save Column State**.
 
 Download an example CSV here:
 
-**Example_Path_Edit.csv**
+[example_path_edit.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_path_edit.csv)
 
 ![Add ID customize column](media/add-id-customize-column.png)
 
@@ -979,7 +976,7 @@ Permission maps should have two specific entries:
 
 Download an example CSV:
 
-**example_permission_map.csv**
+[example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
 
 #### Creating your CSV in Excel
 
@@ -1172,7 +1169,7 @@ Follow these steps if your migration is having issues:
 
 ![view logs](media/view_logs.png)
 
-Alternately, you can select multiple users, and from the **User Actions** dropdown menu, you can download their most recent collective logs in a zip file that provides them in both HTML and CSV formats.
+Alternatively, you can select multiple users, and from the **User Actions** dropdown menu, you can download their most recent collective logs in a zip file that provides them in both HTML and CSV formats.
 
 3. Check if your failed/unsupported files are too large to go into Office 365.
 4. Ensure you have enough storage space in Office 365 to accommodate the data you're moving in.
@@ -1237,7 +1234,7 @@ You can view a user's transfer logs by doing one of the following:
 
 View an example CSV log or in your browser here:
 
-**example_user_log.html**
+[example_user_log.html](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_User log for DropboxAdmin to BoxAdmin transfer_ tRanSacTionID.html)
 
 ### Interpreting a log file
 
@@ -1383,7 +1380,7 @@ The CSV report provides the following information for each user pairing:
 
 Download an example CSV:
 
-**example_migration_report.csv**
+[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report.csv)
 
 ### Migration table report
 
@@ -1397,7 +1394,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-**example_migration_table_report.csv**
+[example_migration_table_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_table_report.csv)
 
 ### Migration error report
 
@@ -1409,7 +1406,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-**example_migration_error_report.csv**
+[example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_error_report.csv)
 
 ## Post-migration tips
 
@@ -1422,7 +1419,7 @@ Provide a link to set up their new Office 365 accounts. Be prepared to answer an
 
 ### Example email
 
-**Subject**: ATTENTION: Login to Office 365*
+**Subject**: ATTENTION: Log in to Office 365*
 
 **Message**: Over the weekend, we migrated our team from Box to Office 365.
 
@@ -1430,9 +1427,9 @@ All files and folders were transfered without any issues. To set up your new Off
 
 Your username remains the same; however, you must create a new password.
 
-From this point forward, log into your Office 365 account.
+From this point forward, log in to your Office 365 account.
 
-Let us know if you have any questions or concerns.
+If you have any questions or concerns, let us know.
 
 ## User migration guides
 
