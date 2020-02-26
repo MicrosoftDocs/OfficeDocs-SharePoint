@@ -26,7 +26,7 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 - Key tasks for [IT professionals or administrators](#it-pros-and-admins)
 - Key tasks for [business owners and site owners](#business-owners-and-site-owners)
 - Key tasks for [content creators](#content-creators)
-- Get started
+- [Get started](#get-started)
 
 **Who should use this roadmap?**
 
@@ -38,12 +38,12 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 **What you'll learn:**
 
 - Understand at a high level the various roles and responsibilities of creating a modern intranet
-- See what you can do with SharePoint online out-of-the-box sites and web parts
-- How to use plannings stages and tasks to create checkpoints and checklists to track your progress
+- See what you can do with SharePoint out-of-the-box sites and web parts
+- How to use planning stages and tasks to create checkpoints and checklists to track your progress
 	
 **How to think about a modern vs traditional intranet design**
 
-This intranet hub article provides guidance on how to plan and create your intranet in the modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
+This intranet hub article provides guidance on how to plan and create your intranet in a modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
 
 
 | Traditional intranet           | Modern intranet                |
@@ -54,11 +54,11 @@ This intranet hub article provides guidance on how to plan and create your intra
 
 **Key success factors**
 
-Over the years we have learned about what makes an intranet successful. These are known factors that can help accelerate the creation, adoption, and over all success of your intranet:
+Over the years we have learned about what makes an intranet successful. These factors can help accelerate the creation, adoption, and overall success of your intranet:
 
 > [!div class="checklist"]
 > * Have an executive sponsor and identify intranet champions
-> * Established KPIs that are regularly communicated from the project's start to finish
+> * Establish KPIs that are regularly communicated from the project's start to finish
 > * Design for simplicity and longevity 
 > * Involve your business owners and other decision makers
 > * Ask for feedback from users during all stages of the design process
