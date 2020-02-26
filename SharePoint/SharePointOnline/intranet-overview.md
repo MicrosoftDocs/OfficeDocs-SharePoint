@@ -26,6 +26,7 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 - Key tasks for [IT professionals or administrators](#it-pros-and-admins)
 - Key tasks for [business owners and site owners](#business-owners-and-site-owners)
 - Key tasks for [content creators](#content-creators)
+- Get started
 
 **Who should use this roadmap?**
 
@@ -77,11 +78,6 @@ Over the years we have learned about what makes an intranet successful. These ar
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit, and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content creators](#content-creators)|Content best practices, content, and site design|Create and share content, content collaboration|Update existing content, publish new content|
 
-### Summary of activities by design stage
-
-| Stage 1: Plan          | Stage 2: Build         | Stage 3: Manage   |
-| :--------------------- | :--------------------- |:------------------|
-| Analyze your current intranet <br> Develop business objectives  <br> Plan solutions to business objectives <br> Organize your current content and assets | Communicate goals progress regularly <br> Measure, learn, and pivot as you go <br> Get feedback regularly | Celebrate the launch of your new intranet <br> Use metrics to measure progress <br> Communicate what's new <br> Maintain high quality content <br> Educate end users |
 
 ## [Company intranet owner](#company-intranet-owner)
 
@@ -285,7 +281,14 @@ Sometimes content needs to be delivered through video - like when organization-w
 *You'll know your done when:* You are regularly promoting news and events that start conversations and engage and connect wide audiences. 
 
 
+## Get started
+
+
 ### Plan
+
+- Analyze your current intranet 
+- [Develop business objectives ](https://review.docs.microsoft.com/en-us/sharepoint/plan-intranet?branch=mikeplum-intranet) and plan solutions to business objectives 
+- Organize your current content and assets 
 
 | Role                 |Plan tasks            |                 
 | :------------------- | :------------------- |
@@ -294,7 +297,13 @@ Sometimes content needs to be delivered through video - like when organization-w
 |[Business owners / site owners](#business-owners-and-site-owners)| Develop business objectives and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration| 
 |[Content creators](#content-creators)| Authority on content best practices, content creation, content management and page design|
 
+
+
 ### Build
+
+- Communicate goals progress regularly
+- Measure, learn, and pivot as you go 
+- Get feedback regularly 
 
 | Role                 |Build tasks           |                
 | :------------------- | :------------------- |
@@ -303,7 +312,14 @@ Sometimes content needs to be delivered through video - like when organization-w
 |[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting | 
 | [Content creators](#content-creators)| Create solutions to business objectives by creating and sharing relevant content with the right audiences|
 
+
+
 ### Manage
+
+- Celebrate the launch of your new intranet 
+- Use metrics to measure progress
+- Communicate what's new
+- Maintain high quality content <br> Educate end users
 
 | Role                 |Manage tasks          |             
 | :------------------- | :------------------- |
@@ -311,6 +327,9 @@ Sometimes content needs to be delivered through video - like when organization-w
 | [IT / Admin](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies|   
 | [Business owners / site owners](#business-owners-and-site-owners) | Schedule content audits and use site usage metrics to measure progress| 
 | [Content creators](#content-creators)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant|
+
+
+
 
 
 ## Related topics
