@@ -244,7 +244,7 @@ Deleting a **Connector** revokes our access to your cloud storage accounts. To c
 
 Using our app to remove our authorization with a particular cloud service is simple:
 
-1. From the **Transfer Wizard**, select **Manage ▼** for the **Connector** type you want to delete.
+1. From the **Transfer Wizard**, and for the **Connector** type you want to delete, select **Manage ▼**.
 2. To the right of **Connect**, select arrow ▼.
 3. Select **Delete**.
 4. Confirm you want to delete, and you're done!
@@ -436,7 +436,7 @@ Checking your usage of our app lets you know the total amount of gigabytes you h
 
 To check your transfer data usage, follow these steps.
 
-1. When logged in, in the top right corner of the app, select **account email** to visit your **Account** settings.
+1. Log in. To visit your **Account** settings, in the top right corner of the app, select **account email**.
 2. By default, you are already in the **Plan** section.
 
 ## Egnyte FAQ
@@ -525,8 +525,7 @@ Data shared to an Office 365 Group does not appear in the **Shared with me** sec
 After the user has logged in:
 
 1. Navigate to the left hand menu.
-2. Scroll down the folder listings to **Groups**.
-  a. If the available groups are not visible, to open the group directory, select the small arrow beside the **Groups** listing.
+2. Scroll down the folder listings to **Groups**. If the available groups are not visible, to open the group directory, select the small arrow beside the **Groups** listing.
 3. Select the desired group.
 From here, the left-hand menu should change, enabling you to open and edit **Files/Notes** within the selected Office 365 Group.
 
@@ -554,13 +553,12 @@ If inheritance is not disabled at the root, any permissions we try to set on ind
 
 In the Library settings, visit **Permissions for this document library**:
 
-1. Select **Stop Inheriting Permissions**.
-  a. This enables you to select the permissions you would like to remove:
+1. Select **Stop Inheriting Permissions**. This enables you to select the permissions you would like to remove:
    - Site members
    - Site visitors
 2. Select **Remove User Permissions**.
 
-This prevents site members/visitors from inheriting permissions to all the data that we migrate into that library, allowing permissions to only those site members who we explicitly write to the folders themselves.
+This prevents site members/visitors from inheriting permissions to all the data that we migrate into that library, while allowing permissions to only those site members who we explicitly write to the folders themselves.
 
 For more info about SharePoint Online permissions inheritance, see **here**.
 
@@ -606,7 +604,7 @@ Authorizing **Egnyte** as an administrator is straightforward. To authorize or a
 
 ![Log into grant access to Egynte](media/log-in-to-grant-access-to-egnyte.png)
 
-8. To grant the App access to your Egnyte Account, select **Allow**.
+8. To grant the App access to your Egnyte Account, select **Allow Access**.
 
 ![Grant access to Egnyte](media/grant-access-to-egnyte.png)
 
@@ -614,15 +612,15 @@ Authorizing **Egnyte** as an administrator is straightforward. To authorize or a
 
 Our app requires an **Administrator** for authorization. The following table lists the scopes we require:
 
-|**Permission**|**Details**|
+|**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
-|Create and manage bookmarks	|Allows our app to access and migrate bookmark data.|
-|View and manage folder permissions|Allows our app to access and create folder permission.|
-|View and manage groups|Allows our app to view all groups under in the available Egnyte Directory.|
-|View and manage users|Allows our app to view, edit, and manage users under the available Egnyte Directory.|
-|Generate audit reports	|Allows our app to generate and view reports available in the Egnyte Report Center.|
-|Create and manage links|Allows our app to create and manage internal links.|
-|Read and write all files and folders|Allows our app to view, edit, copy and paste all data from within the Egnyte available Directories.|
+|Create and manage bookmarks	|Access and migrate bookmark data.|
+|View and manage folder permissions|Access and create folder permission.|
+|View and manage groups|View all groups under in the available Egnyte Directory.|
+|View and manage users|View, edit, and manage users under the available Egnyte Directory.|
+|Generate audit reports	|Generate and view reports available in the Egnyte Report Center.|
+|Create and manage links|Create and manage internal links.|
+|Read and write all files and folders|View, edit, copy and paste all data from within the Egnyte-available Directories.|
 
 ### Authorizing Office 365
 
@@ -631,9 +629,9 @@ Our app requires an **Administrator** for authorization. The following table lis
 >
 >The Global Admin must grant these permissions *after* the **Office 365 Connector** is authorized within the main Mover app.
 
-The following instructions show you how to complete the authorization steps in the right order.
+To complete the authorization steps in the right order, see the following instructions.
 
-Some steps in the authorization process can be completed by a Global Admin or an SPO Admin. At the beginning of each step, we indicate who can complete it.
+A Global Admin or an SPO Admin can complete some steps in the authorization process. At the beginning of each step, we indicate who can complete it.
 
 1. **Global Admin or SPO Admin**: Via app.mover.io, log into the main Mover app. In the **Transfer Wizard**, select **Authorize New Connector**.
 
@@ -642,7 +640,7 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 ![Authorize new connector]( media/05-authorize-new-connector.png)
 
-2. **Global Admin or SPO Admin**: In the **Connector** list, find **Office 365**. Select **Authorize**.
+2. **Global Admin or SPO Admin**: In the **Connector** list, find **Office 365**, and select **Authorize**.
 
 ![Authorize O365](media/authorize-o365.png)
 
@@ -650,9 +648,9 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 ![Authorize window](media/authorize-window.png)
 
-4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
+4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error aapears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
 If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
 
@@ -660,7 +658,7 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![authorize error](media/authorize-error.png)
 
-6. **Global Admin**: Log into the Azure Portal via **aka.ms/office365moverauth**. You’ll see a list of **Enterprise applications**.
+6. **Global Admin**: Log into the Azure Portal via **aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
 
 ![Enterprise applications](media/enterprise-applications.png)
 
@@ -668,7 +666,7 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![O365 Mover app](media/o365-mover-app.png)
 
-8. **Global Admin**: In the left menu, find and open **Permissions**. Select **Grant admin consent for Mover**.
+8. **Global Admin**: In the left menu, find and open **Permissions**, and select **Grant admin consent for Mover**.
 
 ![o365 mover permissions](media/o365-mover-permissions.png)
 
@@ -708,7 +706,7 @@ If you are not already connected after you have authorized your source, select *
 
 ![execution select gdrive source](media/execution-select-egnyte-source.png)
 
-### Connecting Your destination Office 365 account
+### Connecting your destination Office 365 account
 
 If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
@@ -735,10 +733,10 @@ From your newly created migration in the **Migration Manager**, there are two wa
 Select one of two options:
 
 1. Auto Discover Users.
-  - Select **Automatically Discover and Add Users**, and the app automatically finds your users and attempts to match them up.
+  - For our app to automatically find your users and attempt to match them up, select **Automatically Discover and Add Users**.
 
 2. Upload Migration CSV File.
-  - Either drag a file into the designated space, or select **Choose a file to upload**, and add a customized CSV file for your migration.
+  - To add a customized CSV file for your migration, either drag a file into the designated space, or select **Choose a file to upload**.
 
 ![Add users menu](media/add-users-menu.png)
 

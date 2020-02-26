@@ -1,5 +1,5 @@
 ---
-title: Migrating to Office 365 from Dropbox
+title: Migrating from Dropbox to Office 365
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -346,10 +346,10 @@ To change your account password from the login screen, follow these steps.
 
 **From your account panel**
 
-If you are already logged in to our app, you can change your password there too.
+If you are already logged in to our app, you can change your password there, too.
 
-1. When logged in, select account email in the top right corner of the app to visit your **Account** settings (**shortcut**).
-2. From the left-hand menu, select **Password**.
+1. Log in. To visit your **Account** settings (**shortcut**), in the top right corner of our app, select account email.
+2. In the left-hand menu, select **Password**.
 3. Select **Reset Password**.
 4. Follow the steps we send to your account email and you're done!
 
@@ -359,7 +359,7 @@ If you are already logged in to our app, you can change your password there too.
 
 To enable multi-factor authentication, follow these steps.
 
-1. Log in to the app, and select your account email in the top right corner of the app to visit your **Account** settings (**shortcut**).
+1. Log in. To visit your **Account** settings (**shortcut**), in the top right corner of our app, select account email.
 2. From the left-hand menu, select **Password**.
 3. Under **Enable 2-Step Verification**, select **TURN ON**.
 
@@ -637,7 +637,7 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
 If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
 
