@@ -87,7 +87,7 @@ Start by getting inspired with the [SharePoint lookbook](https://aka.ms/sharepoi
 
 Next, start to [plan your intelligent SharePoint intranet](https://docs.microsoft.com/sharepoint/plan-intranet) by reviewing your existing intranet and determining which project to start with for your best return on investment. As you prioritize your intranet projects, consider how to get the [best performance and scalability](https://docs.microsoft.com/SharePoint/portal-health) from the portals that you build. If your existing intranet is using SharePoint server, consider how [migrating your content to SharePoint Online](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) fits into your overall plan.
 
-Then, choose a project to start and meet with the business owners in that area of your organization to plan the project.
+Then, choose a project to start with and meet with the business owners in that area of your organization to plan the project.
 
 Keep in mind these key success factors as you plan and implement your intranet:
 
@@ -117,8 +117,7 @@ Branding is an important part of your intranet. With SharePoint, you can [add br
 
 ## [IT pros and Admins](#it-pros-and-admins)
 
-- Implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals.
-- Training business owners, content creators, and end users
+IT Pros and admins implement the needed platform integration steps - such as with databases or line of business applications - needed by your business owners for their intranet portals. This may include content migration from existing systems. They also work with other stakeholders to determine a governance strategy for the intranet, and train people in the organization to use SharePoint and other tools to manage the intranet.
 
 Keep in mind these key success factors as you plan and implement your intranet:
 
@@ -160,7 +159,7 @@ Depending on their background, the people in your organization may need some hel
 
 - [Create a document library in SharePoint](https://support.office.com/client/306728fe-0325-4b28-b60d-f902e1d75939)
 - [Create a list in SharePoint](https://support.office.com/article/0D397414-D95F-41EB-ADDD-5E6EFF41B083)
-- [Add texts and tables to your page](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801)
+- [Add text and tables to your page](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801)
 - [Add content to your page using the Embed web part](https://support.office.com/article/721f3b2f-437f-45ef-ac4e-df29dba74de8)
 - [Use the image web part](https://support.office.com/article/A63B335B-AD0A-4954-A65D-33C6AF68BEB2)
 - [Use the News web part on a SharePoint page](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)
@@ -230,7 +229,7 @@ Consider setting up an [approval flow](https://support.office.com/article/a8b2e6
 
 *Start by -* Prioritizing business objectives, and then decide the type of sites and web parts that will be needed initially.
 
-*You'll know your done when -* Business and site owners have dedicated areas in SharePoint that can been owned and maintained with little over sight. 
+*You'll know your done when -* Business and site owners have dedicated areas in SharePoint that can been owned and maintained with little oversight. 
 
 
 ## [Content creators](#content-creators)
@@ -262,7 +261,7 @@ Customize the way your users view content and news by using [audience targeting]
 
 #### Connect and collaborate
 
-With Office and OneDrive or SharePoint, multiple people can [collaborate](https://support.office.com/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) on a Word document, Excel spreadsheet, or PowerPoint presentation. When everyone is working at the same time, that's called co-authoring. [Co-authoring](https://support.office.com/article/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4?ocmsassetID=HA102772333&CTT=1&CorrelationId=b620f8ff-d4a2-437a-ba02-3f40546bd326&ui=en-US&rs=en-US&ad=US) is two or more authors work on different parts of a document at the same time. While one author works on his section of the document, another author can work on hers, without either interrupting the other's work. Co-authoring removes barriers to server-based document collaboration and helps organizations to reduce the overhead associated with traditional document sharing through attachments.
+With Office and OneDrive or SharePoint, multiple people can [collaborate](https://support.office.com/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) on a Word document, Excel spreadsheet, or PowerPoint presentation. [Co-authoring](https://support.office.com/article/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4?ocmsassetID=HA102772333&CTT=1&CorrelationId=b620f8ff-d4a2-437a-ba02-3f40546bd326&ui=en-US&rs=en-US&ad=US) is two or more authors work on different parts of a document at the same time. While one author works on his section of the document, another author can work on hers, without either interrupting the other's work.
 
 Enable users to work on any device. When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. If a user's device is upgraded, local data must be migrated. By storing files OneDrive, users can access them from all their devices, such as their phone and their home computer (depending on what you allow). They can even access files in a browser from other devices they trust. [Get the SharePoint mobile app](https://products.office.com/sharepoint/mobile-app?rtc=1).
 
@@ -286,29 +285,31 @@ Sometimes content needs to be delivered through video - like when organization-w
 
 ### Plan
 
-- Analyze your current intranet 
-- [Develop business objectives ](https://review.docs.microsoft.com/en-us/sharepoint/plan-intranet?branch=mikeplum-intranet) and plan solutions to business objectives 
-- Organize your current content and assets 
+> [!div class="checklist"]
+> * Analyze your current intranet 
+> * [Develop and plan solutions to business objectives](https://docs.microsoft.com/sharepoint/plan-intranet)
+> * Organize your current content and assets 
 
 | Role                 |Plan tasks            |                 
 | :------------------- | :------------------- |
 |[Company intranet owner](#company-intranet-owner)| Communicate goals and progress from project start to finish. Director of the branding direction, governance strategy, information architecture, change management, and product adoption| 
 |[IT / Admin](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and end-user training| 
-|[Business owners / site owners](#business-owners-and-site-owners)| Develop business objectives and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration| 
+|[Business owners / site owners](#business-owners-and-site-owners)| Develop and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration| 
 |[Content creators](#content-creators)| Authority on content best practices, content creation, content management and page design|
 
 
 
 ### Build
 
-- Communicate goals progress regularly
-- Measure, learn, and pivot as you go 
-- Get feedback regularly 
+> [!div class="checklist"]
+> * Communicate goals progress regularly
+> * Measure, learn, and pivot as you go 
+> * Get feedback regularly 
 
 | Role                 |Build tasks           |                
 | :------------------- | :------------------- |
 | [Company intranet owner](#company-intranet-owner) | Get user feedback along the way. Use findings from user feedback to learn and pivot your intranet plan.| 
-|[IT / Admin](#it-pros-and-admins)|  Implements decisions made by the intranet stakholders regarding site creation, navigation, search, branding, and publishing | 
+|[IT / Admin](#it-pros-and-admins)|  Implement decisions made by the intranet stakeholders regarding site creation, navigation, search, branding, and publishing | 
 |[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting | 
 | [Content creators](#content-creators)| Create solutions to business objectives by creating and sharing relevant content with the right audiences|
 
@@ -316,10 +317,12 @@ Sometimes content needs to be delivered through video - like when organization-w
 
 ### Manage
 
-- Celebrate the launch of your new intranet 
-- Use metrics to measure progress
-- Communicate what's new
-- Maintain high quality content <br> Educate end users
+> [!div class="checklist"]
+> * Celebrate the launch of your new intranet 
+> * Use metrics to measure progress
+> * Communicate what's new
+> * Maintain high quality content
+> * Educate end users
 
 | Role                 |Manage tasks          |             
 | :------------------- | :------------------- |
