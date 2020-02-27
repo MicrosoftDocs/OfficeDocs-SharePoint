@@ -5,8 +5,10 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 ms.audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  
