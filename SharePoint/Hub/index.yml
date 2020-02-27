@@ -9,9 +9,7 @@ metadata:
   title: SharePoint documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: SharePoint documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
   ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
-  f1.keywords:
-- NOCSH
-ms.topic: hub-page # Required
+  ms.topic: hub-page # Required
   audience: ITPro
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
