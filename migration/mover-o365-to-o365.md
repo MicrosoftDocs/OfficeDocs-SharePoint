@@ -222,7 +222,7 @@ Deleting a **Connector** revokes our access to your cloud storage accounts. To c
 
 Using our app to remove our authorization with a particular cloud service is simple:
 
-1. From the **Transfer Wizard**, select **Manage ▼** for the **Connector** type you want to delete.
+1. From the **Transfer Wizard**, for the **Connector** type you want to delete, select **Manage ▼**.
 2. To the right of **Connect**, select arrow ▼.
 3. Select **Delete**.
 4. Confirm you want to delete, and you're done!
@@ -548,7 +548,7 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
-If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
+If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6–9), point your Global Admin to **aka.ms/office365moverauth**.
 
 If you're a **Global Admin**: Continue with Steps 6–9.
 
@@ -590,11 +590,11 @@ Are your Office 365 users provisioned? All Office 365 users must log in to their
 
 The app requires a Global Administrator for authorization. The following table lists the scopes we require:
 
-|**Permission**|**Details**|
+|**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
-|Create, edit, and delete items and lists in all your site collections|	Allows the app to create or delete document libraries and lists in all site collections on your behalf.|
+|Create, edit, and delete items and lists in all your site collections|Create or delete document libraries and lists in all site collections on your behalf.|
 |View your basic profile|	Allows the app to see your basic profile (name, picture, user name).|
-|Maintain access to data you have given it access to|	Allows the app to see and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.|
+|Maintain access to data you have given it access to|See and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.|
 
 ### Connecting your source Office 365 account
 
@@ -992,7 +992,7 @@ The **Scan Report** is covered in-depth in the **Reports** subsection under the 
 
 #### Migrating users
 
-We recommend starting slow. Test one user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
+We recommend starting slow. Test for multiple usone user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
 
 1. To select a user(s), check their row's respective checkbox.
 2. Select **Start Migrating X Users.**
@@ -1010,7 +1010,7 @@ To cancel a currently running transfer:
 
 1. Find the transfer(s) you want to cancel, and select them. A running transfer is in blue and have a status of **Running** or **Queued**.
 2. For multiple users, select the **User Actions** dropdown, or right-click on a single user.
-3. Select ***Cancel X Transfers**.
+3. Select **Cancel X Transfers**.
 
 This action stops the transfer as soon as possible (usually within a few seconds).
 
@@ -1053,7 +1053,7 @@ The following table lists additional info about each transfer status message fro
 Follow these steps if your migration is having issues:
 
 1. Rerun users. Select one or more users and to rerun them, on the top right of the **Migration Manager**, select **Start Migrating**.
-2. To view your most recent transfer log, select the user row you want to view. This action opens the **Transfer Logs** sidebar. From here, select the **View Log** button for the most recent transfer.
+2. To view your most recent transfer log, select the user row you want to view. The **Transfer Logs** sidebar appears. From here, select the **View Log** button for the most recent transfer.
 
 ![view logs](media/view_logs.png)
 
