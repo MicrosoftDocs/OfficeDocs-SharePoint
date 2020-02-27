@@ -76,7 +76,10 @@ Over the years SharePoint modern pages have become powerful tools for collaborat
 
 When users first experience the change, they’ll see a walkthrough that highlights the new capabilities and includes a link to a help article with more details like this:
 
-![Hub site navigation](media/homepage-upgrade-2.gif). 
+![Classic-to-modern upgrade experience](media/homepage-upgrade-2.gif)
+
+For more training, view [the classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf)
+
 
 
 ## How to prevent specific sites from being updated? 
