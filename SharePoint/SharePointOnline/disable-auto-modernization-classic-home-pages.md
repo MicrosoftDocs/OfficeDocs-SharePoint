@@ -35,32 +35,32 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 ### Update criteria: 
 
-- Classic team site (STS#0) only 
+- Classic team site (STS#0) only.
 
-- Home page name is ‘Home.aspx’ 
+- Home page name is ‘Home.aspx’.
 
 - Contains default web parts only: getting started (GettingStartedWebPart), Newsfeed (SiteFeedWebPart), and document library (XsltListViewWebPart). 
 
-- No text is present (wiki HTML is not customized) 
+- No text is present (wiki HTML is not customized).
 
-- DisplayFormTemplateName = "WikiEditForm" 
+- DisplayFormTemplateName = "WikiEditForm".
 
-- ModernizeHomepageOptOut feature is not activated 
+- ModernizeHomepageOptOut feature is not activated.
 
 >[!NOTE]
 >All update criteria must be met in order for a team site home page to qualify for the automatic upgrade.
 
 ### The technical details: 
 
-- Applies to both STS#0 site collections and all corresponding subsites
+- Applies to both STS#0 site collections and all corresponding subsites.
 
 - The update only applies to the home page. No other classic pages will be changed. We recommend using the [SharePoint PnP modernization framework](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages) for all other site pages. 
 
-- The new modern home page is named ‘Home.aspx’ and the classic page gets renamed to ‘Home(old).aspx’ 
+- The new modern home page is named ‘Home.aspx’ and the classic page gets renamed to ‘Home(old).aspx’.
 
-- This update does not create an [Office 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site 
+- This update does not create an [Office 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
 
-- Classic site themes will not carry over to the new team site home page. [Learn how to brand your modern team site home page.](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience)
+- Classic site themes will not carry over to the new team site home page. [Learn how to brand your modern team site home page.](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience).
 
 - Only site collection admins can revert to the classic home page through the link appearing in the left navigation. Site owners can revert to the classic page by visiting site pages and marking the classic page as their home page. 
 
@@ -78,7 +78,7 @@ When users first experience the change, they’ll see a walkthrough that highlig
 
 ![Classic-to-modern upgrade experience](media/homepage-upgrade-2.gif)
 
-For more training, view [the classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf)
+For more training, view [the classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf).
 
 
 ## How to prevent specific sites from being updated? 
