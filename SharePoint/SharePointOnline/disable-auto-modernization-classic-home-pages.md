@@ -75,10 +75,7 @@ When users first experience the change, they’ll see a walkthrough that highlig
 
 ![Hub site navigation](media/homepage-upgrade-gif.gif). 
 
-Review this Power Point presentation deck to understand more about what your new modern home page can do.
-
-![Hub site navigation](media/modernize-classic-home-page-walkthrough.pdf)
-
+Review the following presentation to understand more about what your new modern home page can do: [Modernize classic team site (STS#0) homepage](media/modernize-classic-home-page-walkthrough.pdf)
 
 ## How to prevent specific sites from being updated? 
 
