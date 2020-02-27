@@ -6,8 +6,10 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/12/2018
 audience: ITPro
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 - WSSCentralAdmin_ConfigEmail
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

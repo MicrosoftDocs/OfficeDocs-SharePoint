@@ -6,6 +6,8 @@ author: tomresing
 manager: pamgreen
 ms.date: 10/31/2017
 audience: ITPro
+f1.keywords:
+- CSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

@@ -5,6 +5,8 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: conceptual
 ms.service: one-drive
 localization_priority: Normal

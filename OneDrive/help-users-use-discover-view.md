@@ -6,6 +6,8 @@ author: kaarins
 manager: pamgreen
 ms.date: 06/7/2018
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: overview
 ms.service: one-drive
 localization_priority: Normal

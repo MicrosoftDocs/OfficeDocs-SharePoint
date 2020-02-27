@@ -5,6 +5,8 @@ manager:
 ms.author: kaarins
 author: kaarins
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
