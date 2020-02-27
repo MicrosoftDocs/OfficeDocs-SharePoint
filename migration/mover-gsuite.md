@@ -232,7 +232,7 @@ Deleting a **Connector** revokes our access to your cloud storage accounts. To c
 
 Using our app to remove our authorization with a particular cloud service is simple:
 
-1. From the **Transfer Wizard**, select **Manage ▼** for the **Connector** type you want to delete.
+1. From the **Transfer Wizard**, and for the **Connector** type you want to deletes, select **Manage ▼**.
 2. To the right of **Connect**, select arrow ▼.
 3. Select **Delete**.
 4. Confirm you want to delete, and you're done!
@@ -483,7 +483,7 @@ To disable this feature, see the **Sharing** settings for a file, and select **A
 
 Permissions and ownership of data in a G Suite Drive source can be complicated. To retain a similar directory structure and sharing scheme in the destination, our app must make some decisions on who owns what and where that data is best located.
 
-**G Suite Drive allows files and folders to exist in different places for different users.**
+*G Suite Drive allows files and folders to exist in different places for different users.*
 
 When a folder is shared out to another user, it appears in their **/Shared with me** section. From there, it can be added to the user’s /My Drive and then placed in any folder of their choosing, including their own folders, or other shared folders.
 
@@ -521,8 +521,7 @@ Here is a visual guide to the pre-scan decision process:
 
 ### Before and after
 
-G Suite Drive	Office 365
-![G Suite before and after](media/gsuite-before-after.png)
+![G Suite Drive before and after](media/gsuite-before-after.png)
 
 ### Security concerns
 
@@ -657,8 +656,7 @@ If inheritance is not disabled at the root, any permissions we try to set on ind
 
 In the Library settings, visit **Permissions for this document library**:
 
-1. Select **Stop Inheriting Permissions**.
-  a. This enables you to select the permissions you would like to remove:
+1. Select **Stop Inheriting Permissions**. This enables you to select the permissions you would like to remove:
    - Site members
    - Site visitors
 2. Select **Remove User Permissions**.
@@ -735,13 +733,13 @@ For us to be able to view and transfer data to and from G Suite Drive, you must 
 
 Our app requires a Global Administrator for authorization. The following table provides a detailed list of the scopes we require.
 
-|**Permission**|**Details**|
+|**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
-|See, edit, create, and delete all of your Google Drive files	|Allows our app the permission to edit, create, overwrite, and organize data in your Google Drive.|
-|View usage reports for your G Suite domain	|Grants permission to view reports about how users are using Google Apps within your G Suite domain.|
-|View domains related to your customers	|Allows our app to view domain aliases and multi-domains (secondary domains) for your customers.|
-|View and manage the provisioning of groups on your domain	|Allows our app to provision and modify groups on your domain, as well as view and modify details and metadata of groups on your domain.|
-|View users on your domain	|Allows our app to view basic details and metadata of users on your domain.|
+|See, edit, create, and delete all of your Google Drive files	|Permission to edit, create, overwrite, and organize data in your Google Drive.|
+|View usage reports for your G Suite domain	|Grant permission to view reports about how users are using Google Apps within your G Suite domain.|
+|View domains related to your customers	|View domain aliases and multi-domains (secondary domains) for your customers.|
+|View and manage the provisioning of groups on your domain	|Provision and modify groups on your domain, as well as view and modify details and metadata of groups on your domain.|
+|View users on your domain	|View basic details and metadata of users on your domain.|
 
 ### Authorizing Office 365
 
@@ -754,7 +752,7 @@ The following instructions show you how to complete the authorization steps in t
 
 Some steps in the authorization process can be completed by a Global Admin or an SPO Admin. At the beginning of each step, we indicate who can complete it.
 
-1. **Global Admin or SPO Admin**: Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
+1. **Global Admin or SPO Admin**: Log in to the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
 
 >[!Note]
 >Whether the **Office 365 Connector** is your source or destination connector (or both), you’ll need to go through this authorization process.
@@ -771,9 +769,9 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
-If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
+If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6–9), point your Global Admin to **aka.ms/office365moverauth**.
 
 If you're a **Global Admin**: Continue with Steps 6–9.
 
@@ -815,11 +813,11 @@ Are your Office 365 users provisioned? All Office 365 users must log in to their
 
 The app requires a Global Administrator for authorization. The following table lists the scopes we require:
 
-|**Permission**|**Details**|
+|**Permission**|**(Details) Allows out app to...**|
 |:-----|:-----|
-|Create, edit, and delete items and lists in all your site collections|	Allows the app to create or delete document libraries and lists in all site collections on your behalf.|
-|View your basic profile|	Allows the app to see your basic profile (name, picture, user name).|
-|Maintain access to data you have given it access to|	Allows the app to see and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.|
+|Create, edit, and delete items and lists in all your site collections|Create or delete document libraries and lists in all site collections on your behalf.|
+|View your basic profile|See your basic profile (name, picture, user name).|
+|Maintain access to data you have given it access to|See and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.|
 
 ### Connecting your source G Suite Drive account
 
@@ -1237,7 +1235,7 @@ To cancel a currently running transfer:
 
 1. Find the transfer(s) you want to cancel, and select them. A running transfer is in blue and have a status of **Running** or **Queued**.
 2. For multiple users, select the **User Actions** dropdown, or right-click on a single user.
-3. Select ***Cancel X Transfers**.
+3. Select **Cancel X Transfers**.
 
 This action stops the transfer as soon as possible (usually within a few seconds).
 
