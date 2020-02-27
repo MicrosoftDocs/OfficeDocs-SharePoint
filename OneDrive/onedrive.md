@@ -6,6 +6,8 @@ author: kaarins
 manager: pamgreen
 audience: ITPro
 layout: LandingPage
+f1.keywords:
+- NOCSH
 ms.topic: landing-page
 ms.service: one-drive
 localization_priority: Normal

@@ -6,6 +6,8 @@ author: tomresing
 manager: pamgreen
 ms.date: 7/20/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

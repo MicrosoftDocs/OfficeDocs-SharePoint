@@ -5,6 +5,8 @@ ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
