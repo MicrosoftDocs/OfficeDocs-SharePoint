@@ -78,10 +78,6 @@ When users first experience the change, they’ll see a walkthrough that highlig
 
 ![Hub site navigation](media/homepage-upgrade-2.gif). 
 
-Review this Power Point presentation deck to understand more about what your new modern home page can do.
-
-![Hub site navigation](media/modernize-classic-home-page-walkthrough.pdf)
-
 
 ## How to prevent specific sites from being updated? 
 
