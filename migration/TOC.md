@@ -26,7 +26,6 @@
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Mover Migration Guides & Release notes
-### Release notes
 ### [File shares to Office 365](mover-fileshare-to-o365.md)
 ### [Box to Office 365](mover-box-to-o365.md)
 ### [Dropbox to Office 365](mover-dropbox-to-o365.md)
