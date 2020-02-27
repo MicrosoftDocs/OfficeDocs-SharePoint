@@ -57,7 +57,7 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 - This update does not create an [Office 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site 
 
-- Classic site themes will not carry over to the new team site home page. [Learn how to brand your modern team site home page.](https://docs.microsoft.com/en-us/sharepoint/branding-sharepoint-online-sites-modern-experience)
+- Classic site themes will not carry over to the new team site home page. [Learn how to brand your modern team site home page.](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience)
 
 - Only site collection admins can revert to the classic home page through the link appearing in the left navigation. Site owners can revert to the classic page by visiting site pages and marking the classic page as their home page. 
 
@@ -102,7 +102,7 @@ If you later want to re-enable modernization of that page, run:
  
 
 **Option 3**:
-Add an out-of-the-box SharePoint [web part](https://support.office.com/en-us/article/classic-and-modern-web-part-experiences-3fdae6c3-8fc1-49ab-8708-8c104b882e64), a custom web part, or text to your team site home page.
+Add an out-of-the-box SharePoint [web part](https://support.office.com/article/classic-and-modern-web-part-experiences-3fdae6c3-8fc1-49ab-8708-8c104b882e64), a custom web part, or text to your team site home page.
 
 
 >[!NOTE]
