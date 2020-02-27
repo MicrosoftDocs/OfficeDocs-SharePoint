@@ -78,7 +78,6 @@ When users first experience the change, they’ll see a walkthrough that highlig
 
 ![Hub site navigation](media/homepage-upgrade-2.gif). 
 
-
 ## How to prevent specific sites from being updated? 
 
 We understand there may be sites you don’t want updated. You can use the following tools to disable the update on specific sites: 
