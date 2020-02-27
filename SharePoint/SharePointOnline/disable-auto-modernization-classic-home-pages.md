@@ -5,10 +5,13 @@ ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.custom: Adm_O365
+ms.custom: 
+- Adm_O365
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration

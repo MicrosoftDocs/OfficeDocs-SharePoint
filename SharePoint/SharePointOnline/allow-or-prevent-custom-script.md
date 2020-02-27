@@ -6,8 +6,10 @@ author: kaarins
 manager: pamgreen
 ms.date: 5/21/2018
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 - 'O365M_NoScript'
 - 'O365E_NoScript'
 ms.service: sharepoint-online

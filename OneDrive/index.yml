@@ -9,7 +9,9 @@ metadata:
   title: OneDrive documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: OneDrive documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
   ms.service: one-drive #Required; service per approved list. service slug assigned to your service by ACOM.
-  ms.topic: hub-page # Required
+  f1.keywords:
+- NOCSH
+ms.topic: hub-page # Required
   audience: ITPro
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
