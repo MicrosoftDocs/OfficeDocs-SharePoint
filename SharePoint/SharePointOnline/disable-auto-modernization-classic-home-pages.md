@@ -81,7 +81,6 @@ When users first experience the change, they’ll see a walkthrough that highlig
 For more training, view [the classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf)
 
 
-
 ## How to prevent specific sites from being updated? 
 
 We understand there may be sites you don’t want updated. You can use the following tools to disable the update on specific sites: 
