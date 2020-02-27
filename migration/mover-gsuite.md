@@ -281,7 +281,7 @@ Here are a few examples of how we deal with changes to files and folders.
 
 ### Does Mover delete files?
 
-We never delete your data from any source. The app simply takes your data from one place and copies it to another—akin to *copy and paste* rather than *cut and paste.* We also don't retain any of your cloud storage data for any reasons.
+We never delete your data from any source. Our app simply takes your data from one place and copies it to another—akin to *copy and paste* rather than *cut and paste.* We also don't retain any of your cloud storage data for any reasons.
 
 We strive to keep your users' experience as similar as possible between G Suite Drive and Office 365.
 
@@ -298,11 +298,11 @@ In Office 365, ownership of files and folders is always implicitly set by virtue
 ![Translating G Suite permissions](media/translating-gsuite-perms.png)
 
 >[!Note]
->The app only sets permissions on folders.
+>Our app only sets permissions on folders.
 
 ### Can I rearrange content during a migration?
 
-Not recommended. Any major changes in directory structure should happen before or after your migration. It is also not a good idea to use the app to rearrange content.
+Not recommended. Any major changes in directory structure should happen before or after your migration. It is also not a good idea to use our app to rearrange content.
 
 The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is re-transfered, including all subfolders.
 
@@ -340,7 +340,7 @@ To change your account password from the login screen, follow these steps.
 
 If you are already logged in to our app, you can change your password there too.
 
-1. When logged in, select account email in the top right corner of the app to visit your **Account** settings (**shortcut**).
+1. When logged in, select account email in the top right corner of our app to visit your **Account** settings (**shortcut**).
 2. From the left-hand menu, select **Password**.
 3. Select **Reset Password**.
 4. Follow the steps we send to your account email and you're done!
@@ -351,7 +351,7 @@ If you are already logged in to our app, you can change your password there too.
 
 To enable multi-factor authentication, follow these steps.
 
-1. Log in to the app, and select your account email in the top right corner of the app to visit your **Account** settings (**shortcut**).
+1. Log in to our app, and select your account email in the top right corner of our app to visit your **Account** settings (**shortcut**).
 2. From the left-hand menu, select **Password**.
 3. Under **Enable 2-Step Verification**, select **TURN ON**.
 
@@ -360,7 +360,7 @@ To enable multi-factor authentication, follow these steps.
 >[!Note]
 >You are automatically signed out of your account.
 
-4. Log in to your email, and copy the verification code sent to you. If a verification code email does not appear in your inbox [or spam], just below the verification window in the app sign-in, select **Didn't get the code? Resend now**.
+4. Log in to your email, and copy the verification code sent to you. If a verification code email does not appear in your inbox [or spam], just below the verification window in our app sign-in, select **Didn't get the code? Resend now**.
 
 ![verification code](media/verification_code.png)
 
@@ -378,7 +378,7 @@ Deleting your account deletes all your scheduled transfers, multi-user migration
 
 To close your account, follow these steps.
 
-1. When logged in, in the top right corner of the app, select **account email** to visit your **Account** settings (**shortcut**).
+1. When logged in, in the top right corner of our app, select **account email** to visit your **Account** settings (**shortcut**).
 2. On the left hand side, select **Leave Mover**.
 3. Read all of the text on that page.
 4. If you are ready, enter your current password, and select **Delete Account**.
@@ -407,7 +407,7 @@ To reiterate:
 
 By default, you receive an email every time a transfer is completed. To edit your email notification settings:
 
-1. To visit the account settings, in the top right of the app, select your email address.
+1. To visit the account settings, in the top right of our app, select your email address.
 2. Select **Preferences**.
 3. You have the option to receive emails **On Completion** (default), **Never**, or **Only on Errors**.
 
@@ -423,7 +423,7 @@ Checking your usage of our app lets you know the total amount of gigabytes you h
 
 To check your transfer data usage, follow these steps.
 
-1. When logged in, in the top right corner of the app, select **account email** to visit your **Account** settings.
+1. When logged in, in the top right corner of our app, select **account email** to visit your **Account** settings.
 2. By default, you are already in the **Plan** section.
 
 ## G Suite FAQ
@@ -436,7 +436,7 @@ When a folder is shared to another user, it appears in their **Shared with Me** 
 
 ### G Suite Shared Drives
 
-For easy access, the app displays **Shared Drives** (previously **Team Drives**) in the root of your connector (among the users).
+For easy access, our app displays **Shared Drives** (previously **Team Drives**) in the root of your connector (among the users).
 
 If you're editing the source or destination paths in our app, simply select the back button to find the root listing of users and Shared Drives, and select the source/destination that you would like.
 
@@ -444,7 +444,7 @@ If you're creating a user mapping via CSV, you would map your Accounting Shared 
 
 ### G Suite Shared Drives permissions
 
-The app is not able to read or write permissions to Google Shared Drives. Shared Drives do not allow explicit folder level permissions. Rather, Shared Drive permissions are set based on the Shared Drive members.
+Our app is not able to read or write permissions to Google Shared Drives. Shared Drives do not allow explicit folder level permissions. Rather, Shared Drive permissions are set based on the Shared Drive members.
 
 ### What’s the difference between file versions and revision history?
 
@@ -460,7 +460,7 @@ Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. 
 
 #### What about Docs, Slides, and Sheets?
 
-Google's proprietary formats are not compatible with anything other than G Suite Drive. When migrating from G Suite, the app converts to the Microsoft Office format from Google's format.
+Google's proprietary formats are not compatible with anything other than G Suite Drive. When migrating from G Suite, our app converts to the Microsoft Office format from Google's format.
 
 Any Google format that is larger than 10 MB when it is converted fails. This is a limitation Google has placed on their infrastructure. For more info, see https://developers.google.com/drive/api/v3/reference/files/export.
 
@@ -582,13 +582,13 @@ Total path length for folder and filename combinations may be up to 400 characte
 
 ### What happens to long paths?
 
-During a pre-scan, the app automatically detects and reports paths that are too long for OneDrive or SharePoint to accept. The current path length limit for Office 365 is 400 characters. The path length is calculated when going in to Office 365 and includes your tenant URL, user site, path, and any character encoding.
+During a pre-scan, our app automatically detects and reports paths that are too long for OneDrive or SharePoint to accept. The current path length limit for Office 365 is 400 characters. The path length is calculated when going in to Office 365 and includes your tenant URL, user site, path, and any character encoding.
 
 **Example**:
 
 This path is 93 characters long despite "Documents/Old Docs" being only 18 characters.
 https://example-my.sharepoint.com /personal /example_user /%2FDocuments%2FOld%20Docs
-If a file exists that has a very long path, the app skips it, and reports it in your log files.
+If a file exists that has a very long path, our app skips it, and reports it in your log files.
 
 To save time and headaches, before you migrate, you are encouraged to shorten any identified long paths.
 
@@ -686,11 +686,11 @@ To authorize or add a **G Suite Drive** account as a **Connector**, follow these
 >[!Important]
 >You must be a G Suite Administrator.
 
-1. From your **Google Apps** dashboard, select the app grid logo, and then select **Admin**.
+1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
 2. Select **Apps**, and then select **Marketplace Apps**.
 3. Near the top right, to add a new app, select **+**, and search for **Mover**.
 >[!Important]
->When the app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
+>When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
 4. Select **Domain Install**, and then select **Continue**.
 5. Select the checkbox stating you agree to the **Terms of Use**, and then select **Accept**.
 6. Select **Next**. To close the overlay window, select **Done**.
@@ -719,7 +719,7 @@ We now have access to your users and their data, so we can move on to **Connecto
 
 ![login to grant access to gdrive](media/log-in-to-grant-access-to-google-drive.png)
 
-14. To grant the App access to your G Suite (Administrator) Account, select **Allow**.
+14. To grant our app access to your G Suite (Administrator) Account, select **Allow**.
 
 ![grant access to gdrive](media/grant-access-to-google-drive.png)
 
@@ -727,7 +727,7 @@ We now have access to your users and their data, so we can move on to **Connecto
 
 #### App permissions
 
-For us to be able to view and transfer data to and from G Suite Drive, you must have our app installed as per the instructions in **Connector Creation**. In some cases, you may have the app installed, but disabled. If you are having problems connecting, you should ensure our marketplace app is enabled for all users. To access your third-party app settings in **Google Apps**, follow the same steps.
+For us to be able to view and transfer data to and from G Suite Drive, you must have our app installed as per the instructions in **Connector Creation**. In some cases, you may have our app installed, but disabled. If you are having problems connecting, you should ensure our marketplace app is enabled for all users. To access your third-party app settings in **Google Apps**, follow the same steps.
 
 #### Google Drive permission requirements
 
@@ -781,7 +781,7 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![enterprise applications](media/enterprise-applications.png)
 
-7. **Global Admin**: Find and select the Office 365 Mover app. A page appears that provides an overview of the app.
+7. **Global Admin**: Find and select the Office 365 Mover app. A page appears that provides an overview of our app.
 
 ![O365 mover app](media/o365-mover-app.png)
 
@@ -811,13 +811,13 @@ Are your Office 365 users provisioned? All Office 365 users must log in to their
 
 #### Office 365 permission requirements
 
-The app requires a Global Administrator for authorization. The following table lists the scopes we require:
+Our app requires a Global Administrator for authorization. The following table lists the scopes we require:
 
 |**Permission**|**(Details) Allows out app to...**|
 |:-----|:-----|
 |Create, edit, and delete items and lists in all your site collections|Create or delete document libraries and lists in all site collections on your behalf.|
 |View your basic profile|See your basic profile (name, picture, user name).|
-|Maintain access to data you have given it access to|See and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.|
+|Maintain access to data you have given it access to|See and update the data you gave it access to, even when you are not currently using our app. This does not give our app any additional permissions.|
 
 ### Connecting your source G Suite Drive account
 
@@ -833,7 +833,7 @@ If you are not already connected after you have authorized your destination, sel
 
 #### Creating a new migration
 
-Select **Continue Migration Setup**, and the app moves to the **Migration Manager**.
+Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
 ![create migration](media/create-migration.png)
 
@@ -852,7 +852,7 @@ From your newly created migration in the **Migration Manager**, there are two wa
 Select one of two options:
 
 1. Auto Discover Users.
-  - Select **Automatically Discover and Add Users**, and the app automatically finds your users and attempts to match them up.
+  - Select **Automatically Discover and Add Users**, and our app automatically finds your users and attempts to match them up.
 
 2. Upload Migration CSV File.
   - Either drag a file into the designated space, or select **Choose a file to upload**, and add a customized CSV file for your migration.
@@ -1057,7 +1057,7 @@ You may either auto-discover or upload a permission map file. We automatically p
 >A blank destination entry automatically cancels any permission sharing for that user or group.
 >
 >[!Note]
->Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, `@gmail.com` to `@hotmail.com` - is automatically removed. The app marks these as redundant entries.
+>Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, `@gmail.com` to `@hotmail.com` - is automatically removed. Our app marks these as redundant entries.
 
 #### G Suite Drive caveats
 
@@ -1119,7 +1119,7 @@ You can export a permission map in CSV format.
 
 ### Migration Manager overview
 
-The **Migration Manager** is the key part of the app itself. It is the primary screen for interacting during the data migration process.
+The **Migration Manager** is the key part of our app. It is the primary screen for interacting during the data migration process.
 
 ![migration main mover](media/migration-main-mover.png)
 
@@ -1129,7 +1129,7 @@ Use the **Migration Manager** dashboard for a summary of your overall migration.
 
 #### Main menu bar
 
-Use the app's main navigation bar to switch between the **Migration Manager**, **Transfer Wizard**, and your **Account** details, as well as contact support if you run into any issues during your migration.
+Use our app's main navigation bar to switch between the **Migration Manager**, **Transfer Wizard**, and your **Account** details, as well as contact support if you run into any issues during your migration.
 
 ![migration top mover](media/migration-top-mover.png)
 
@@ -1161,7 +1161,7 @@ You can also view more in-depth instructions by selecting the info button direct
 
 The user display is the central focus of the **Migration Manager**, and displays all the users in the current migration.
 
-This section of the app provides you with a column-by-column breakdown of each individual user in a migration. Here, you can also duplicate and edit source/destination paths of a user, as well as view the logs of any scanned or completed transfers.
+This section of our app provides you with a column-by-column breakdown of each individual user in a migration. Here, you can also duplicate and edit source/destination paths of a user, as well as view the logs of any scanned or completed transfers.
 
 ![migration users mover](media/migration-users-mover.png)
 
@@ -1209,7 +1209,7 @@ After the scan has successfully completed, the users appear in green. The scan t
 After users appear in green, yellow, or red, on the top right side of your screen, select **Migration Actions**, and then select **Scan Report**.
 
 >[!Note]
->If your scan encounters an error or crashes, the app automatically reruns the scan up to three times to attempt to resolve the issue.
+>If your scan encounters an error or crashes, our app automatically reruns the scan up to three times to attempt to resolve the issue.
 
 ![scan report migration](media/scan-report-migration.png)
 
@@ -1227,7 +1227,7 @@ We recommend starting slow. Test one user, then three to five. If it looks good,
 ![start migration](media/start_migration.png)
 
 >[!Note]
->If your transfer encounters an error or crashes, the app automatically reruns the transfer up to three times to attempt to resolve the issue.
+>If your transfer encounters an error or crashes, our app automatically reruns the transfer up to three times to attempt to resolve the issue.
 
 #### Canceling users
 
