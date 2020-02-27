@@ -772,7 +772,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 1. Download the Agent .exe, and select **Run**.
 
-![Download agent](media/download_agent.png)
+![Download agent](media/download_agent.png)</br></br>
 ![Run agent](media/run_agent.png)
 
 2. Agree to the **Terms of Use**, and select an install destination.
