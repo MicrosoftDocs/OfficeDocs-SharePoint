@@ -5,6 +5,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/24/2019
 ms.audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

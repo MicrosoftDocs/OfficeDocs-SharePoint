@@ -5,8 +5,10 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: troubleshooting
-f1_keywords:
+ms.custom:
 - 'SPOTADNS'
 - 'O365M_DomainsWizAdd_SPOUseMultiServices'
 - 'O365M_DomainsProp_SPO'

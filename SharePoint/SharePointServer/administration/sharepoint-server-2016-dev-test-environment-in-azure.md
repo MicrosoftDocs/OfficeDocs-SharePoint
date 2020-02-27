@@ -6,6 +6,8 @@ author: JoeDavies-MSFT
 manager: pamgreen
 ms.date: 03/15/2019
 audience: ITPro
+f1.keywords:
+- CSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
