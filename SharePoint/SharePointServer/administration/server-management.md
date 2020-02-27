@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 2/22/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

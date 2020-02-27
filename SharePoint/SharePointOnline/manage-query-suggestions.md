@@ -5,6 +5,8 @@ ms.author: arnek
 author: arnek
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
