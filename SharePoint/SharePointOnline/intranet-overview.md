@@ -254,21 +254,11 @@ Create and curate news relevant to your audience using the [News web part](https
 
 Customize the way your users view content and news by using [audience targeting](https://support.office.com/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293). Audience targeting enables specific content to be prioritized to specific audiences on the SharePoint start page, news on the mobile app, and in News web part when audience targeting is enabled. 
 
+Enable users to work on any device. When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. If a user's device is upgraded, local data must be migrated. By storing files OneDrive, users can access them from all their devices, such as their phone and their home computer. They can even access files in a browser from other devices they trust. [Get the SharePoint mobile app](https://products.office.com/sharepoint/mobile-app?rtc=1).
+
 *Start by:* Organizing content into lists, libraries, and news. Then, connect specific content to specific audiences using audience targeting.
 
 *You'll know your done when:* You can confirm users have access to the right information at the right time by using [site usage and analytics](https://support.office.com/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and asking users for feedback. 
-
-#### Connect and collaborate
-
-Modern intranets are successful when they drive employee connection to each other and shared resources. Modern connection and collaboration means enabling users to work in tandem with each other and content from any device. 
-
-[Co-authoring](https://support.office.com/article/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4?ocmsassetID=HA102772333&CTT=1&CorrelationId=b620f8ff-d4a2-437a-ba02-3f40546bd326&ui=en-US&rs=en-US&ad=US) is two or more authors work on different parts of the same document at the same time. While one author works on his section of the document, another author can work on hers, without either interrupting the other's work. Multiple people can [collaborate](https://support.office.com/article/Collaborate-in-SharePoint-Online-0c5c3345-0a61-4532-971c-5a1e0970fde3) on a Word document, Excel spreadsheet, or PowerPoint presentation. 
-
-Enable users to work on any device. When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. If a user's device is upgraded, local data must be migrated. By storing files OneDrive, users can access them from all their devices, such as their phone and their home computer. They can even access files in a browser from other devices they trust. [Get the SharePoint mobile app](https://products.office.com/sharepoint/mobile-app?rtc=1).
-
-*Start by:* Working with your administrator, confirm which Microsoft 365 applications your organization has access to in order to understand which products can be co-authored. 
-
-*You'll know your done when:* You can confirm users are able to accomplish more in their workday by using your site.
 
 #### Build culture and community
 
