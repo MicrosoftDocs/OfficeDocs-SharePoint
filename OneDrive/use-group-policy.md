@@ -71,8 +71,6 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#EnableHoldTheFile)
 
-- [Automatically adjust the sync app upload rate based on bandwidth availability](use-group-policy.md#ENABLE_AUTOMATIC_UPLOAD_BW_MGMT)
-
 - [Block file downloads when users are low on disk space](use-group-policy.md#MinDiskSpaceLimitInMB)
 
 - [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#BlockTenantList)
@@ -89,6 +87,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Disable the tutorial that appears at the end of OneDrive Setup](use-group-policy.md#DisableFRETutorial)
 
+- [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#ENABLE_AUTOMATIC_UPLOAD_BW_MGMT)
+ 
 - [Limit the sync app download speed to a fixed rate](use-group-policy.md#DownloadBandwidthLimit)
 
 - [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#AutomaticUploadBandwidthPercentage)
@@ -172,21 +172,7 @@ This policy sets the following registry key.
   
 This setting takes priority over [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#BlockTenantList). Do not enable both settings at the same time.
 
-### Automatically adjust the sync app upload rate based on bandwidth availability
-<a name="ENABLE_AUTOMATIC_UPLOAD_BW_MGMT"> </a>
 
-This setting lets the OneDrive sync app (OneDrive.exe) upload data in the background only when unused bandwidth is available. It prevents the sync app from interfering with other apps that are using the network. This setting is powered by the Windows LEDBAT (Low Extra Delay Background Transport) protocol. When LEDBAT detects increased latency that indicates other TCP connections are consuming bandwidth, the sync app will reduce its own consumption to prevent interference. When network latency decreases again and bandwidth is freed up, the sync app will increase the upload rate and consume the unused bandwidth.
-
-If you enable this setting, the sync app upload rate will be set to "Adjust automatically" based on bandwidth availability and users won't be able to change it. 
-
-If you disable or do not configure this setting, users can choose to limit the upload rate to a fixed value (in KB/second), or set it to "Adjust automatically." 
-
-> [!IMPORTANT]
-> If you enable or disable this setting, and then change it back to Not Configured, the last configuration will remain in effect. We recommend enabling this setting instead of "Limit the sync app upload speed to a fixed rate." You should not enable both settings at the same time. This setting will override "Limit the sync app upload rate to a percentage of throughput" if both are enabled on the same device.
-
-Enabling this policy sets the following registry key value to 1.
-[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\OneDrive]"ENABLE_AUTOMATIC_UPLOAD_BW_MGMT"="dword:00000001"
-  
 ### Block file downloads when users are low on disk space
 <a name="MinDiskSpaceLimitInMB"> </a>
 
@@ -228,6 +214,21 @@ Enabling this policy sets the following registry key value to 1.
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"DehydrateSyncedTeamSites"="dword:00000001"
 
 For info about querying and setting file and folder states, see [Set Files On-Demand states](files-on-demand-mac.md).
+  
+### Enable automatic upload bandwidth management for OneDrive
+<a name="ENABLE_AUTOMATIC_UPLOAD_BW_MGMT"> </a>
+
+This setting lets the OneDrive sync app (OneDrive.exe) upload data in the background only when unused bandwidth is available. It prevents the sync app from interfering with other apps that are using the network. This setting is powered by the Windows LEDBAT (Low Extra Delay Background Transport) protocol. When LEDBAT detects increased latency that indicates other TCP connections are consuming bandwidth, the sync app will reduce its own consumption to prevent interference. When network latency decreases again and bandwidth is freed up, the sync app will increase the upload rate and consume the unused bandwidth.
+
+If you enable this setting, the sync app upload rate will be set to "Adjust automatically" based on bandwidth availability and users won't be able to change it. 
+
+If you disable or do not configure this setting, users can choose to limit the upload rate to a fixed value (in KB/second), or set it to "Adjust automatically." 
+
+> [!IMPORTANT]
+> If you enable or disable this setting, and then change it back to Not Configured, the last configuration will remain in effect. We recommend enabling this setting instead of "Limit the sync app upload speed to a fixed rate." You should not enable both settings at the same time. This setting will override "Limit the sync app upload rate to a percentage of throughput" if both are enabled on the same device.
+
+Enabling this policy sets the following registry key value to 1.
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\OneDrive]"ENABLE_AUTOMATIC_UPLOAD_BW_MGMT"="dword:00000001"
   
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
