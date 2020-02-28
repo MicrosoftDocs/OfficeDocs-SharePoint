@@ -44,19 +44,18 @@ If you are on a government cloud, you must first take these steps:
 2. Change the value of **SPOEnvironmentType** to:
 
     - **2** if you are GCC high or DoD
-    - **0** if you use the Worldwide consumer cloud and GCC 
+    - **0** if you use the Worldwide consumer cloud or GCC 
 
-
-</br>For example:  
-![Change SPOEnvironmentType](media/gov-cloud-setting.png)
-
+    </br>For example:
+  
+    ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
 
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
 
->[!Note]</br>
->"0" = Worldwide consumer cloud and GCC</br>
->"2" = GCC high and DoD</br>
+>[!Note]
+>**0** = Worldwide consumer cloud and GCC</br>
+>**2** = GCC high and DoD</br>
 
 
 ### **Check to make sure all system prerequisites have been installed**
