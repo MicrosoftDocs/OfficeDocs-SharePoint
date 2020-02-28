@@ -41,17 +41,21 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 If you are on a government cloud, you must first take these steps:
 
 1. Open microsoft.sharepoint.migration.common.dll.config.
-2. Change the value of **SPOEnvironmentType** to 2.  
+2. Change the value of **SPOEnvironmentType** to:
 
-![Change SPOEnvironmentType](media/gov-cloud-setting.png)
+    - **2** if you are GCC high or DoD
+    - **0** if you use the Worldwide consumer cloud or GCC 
 
+    </br>For example:
+  
+    ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
 
 3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
 
 >[!Note]
->"0" = Worldwide consumer cloud</br>
->"2" = U.S. Government Cloud computing high and DoD</br>
+>**0** = Worldwide consumer cloud and GCC</br>
+>**2** = GCC high and DoD</br>
 
 
 ### **Check to make sure all system prerequisites have been installed**
