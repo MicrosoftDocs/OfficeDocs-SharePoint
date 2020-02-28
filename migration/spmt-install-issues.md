@@ -42,8 +42,10 @@ If you are on a government cloud, you must first take these steps:
 
 1. Open microsoft.sharepoint.migration.common.dll.config.
 2. Change the value of **SPOEnvironmentType** to:
-    - 2 if you are GCC high or Dod
-    - 0 if you use the Worldwide consumer cloud and GCC 
+
+    - **2** if you are GCC high or DoD
+    - **0** if you use the Worldwide consumer cloud and GCC 
+
 
 </br>For example:  
 ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
