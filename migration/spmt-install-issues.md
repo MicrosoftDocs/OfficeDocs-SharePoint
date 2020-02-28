@@ -4,6 +4,8 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: troubleshooting
 ms.service: sharepoint-online
 localization_priority: Priority

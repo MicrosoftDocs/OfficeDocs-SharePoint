@@ -6,6 +6,8 @@ author: efrene
 manager: pamgreen
 ms.date: 7/25/2019
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

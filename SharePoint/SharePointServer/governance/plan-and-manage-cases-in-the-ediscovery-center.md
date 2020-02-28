@@ -5,6 +5,8 @@ ms.author: MARKJJO
 author: MARKJJO
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: concetpual
 ms.prod: office-online-server
 localization_priority: Normal

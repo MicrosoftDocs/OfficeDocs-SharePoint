@@ -6,6 +6,8 @@ author: kaarins
 manager: pamgreen
 ms.date: 6/15/2017
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal

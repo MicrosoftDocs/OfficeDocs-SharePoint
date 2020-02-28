@@ -5,6 +5,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 01/5/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

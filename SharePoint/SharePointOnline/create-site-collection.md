@@ -5,8 +5,10 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 - 'TellMe_Admin'
 - 'O365P_SitesMgmtModern'
 - 'O365M_SitesMgmtModern'
