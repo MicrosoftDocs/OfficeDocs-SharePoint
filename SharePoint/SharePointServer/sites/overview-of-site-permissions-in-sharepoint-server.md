@@ -42,7 +42,7 @@ Before developing your plan for site and content access, you should consider the
     
 - How do you want to categorize and manage the users by using SharePoint groups? Groups have no permission until they are assigned a permission level for a specific site or for specific site content. When you assign permission levels to SharePoint groups at the site collection level, by default, all sites and site content inherit those permission levels. 
     
- For more information about how to use groups to help manage permissions, see [Choose security groups (SharePoint Server 2010)](/sharepoint/sites/sites).
+ For more information about how to use groups to help manage permissions, see [Overview of security groups in SharePoint Server](https://docs.microsoft.com/sharepoint/sites/overview-of-security-groups-in-sharepoint-server).
   
 ## About site permissions
 <a name="section1"> </a>
