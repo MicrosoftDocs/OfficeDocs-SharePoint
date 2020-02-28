@@ -48,7 +48,7 @@ This intranet hub article provides guidance on how to plan and create your intra
 | Traditional intranet           | Modern intranet                |
 | :----------------------------- | :----------------------------- |
 | Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/en-us/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) and [community portals](https://support.office.com/en-us/article/video-what-is-yammer-47526868-b136-40cc-a80d-c870eadd9ba5)| 
-| Static information like FAQ| Dynamic information thats community generated in [Yammer](https://support.office.com/en-us/article/Video-What-is-Yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c)| 
+| Static information like FAQ| Dynamic information that's community generated in [Yammer](https://support.office.com/en-us/article/Video-What-is-Yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c)| 
 | Corporate news dominates the newsfeed | Personalized news and content is [targeted to specific audiences](https://support.office.com/en-us/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) | 
 
 **Key success factors**
