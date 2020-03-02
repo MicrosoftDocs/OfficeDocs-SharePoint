@@ -24,18 +24,41 @@ description: "Learn about the features currently in the new SharePoint admin cen
 We're continuously adding new features to the new SharePoint admin center and fixing issues we learn about. Here's a summary of what's included. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button.
   
 > [!NOTE]
-> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br><br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article. 
+> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br><br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article. <br>To see what's recently rolled out in the Microsoft 365 admin center, see [What's new in the MIcrosoft 365 admin center](/microsoft-365/admin/whats-new-in-preview).
   
 ## December 2019
 
 - You can [customize the navigation pane to show or hide items](/sharepoint/get-started-new-admin-center#customize-the-navigation-pane).
+    
+    ![The Customize navigation option at the bottom of the navigation pane.](media/customize-navigation.png)
+
 - On the Active sites page, you can [select and replace the root site](modern-root-site.md). 
-- On the Active sites page, you can point to a name in the Primary admin column or on the Permissions tab of the details panel and see more info about the person. 
+
+    ![The Replace site button on the command bar.](media/replace-site-button.png)
+
+- On the Active sites page, you can point to a name in the Primary admin column or on the Permissions tab of the details panel and see info about the person. 
+
+    ![A card showing details about a user.](media/people-card.png)
+
 - On the Active sites page, the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. [Learn more about managing sites](manage-sites-in-new-admin-center.md)
+
+    ![The General tab of the details panel](media/d0ddbc56-328e-42fb-b143-3faa14799fac.PNG)
+
 - On the Active sites page, when you select a site and then select **Sharing**, you can [change the default sharing link type and default link permissions for the site](change-external-sharing-site.md). 
+
+    ![Default sharing link type settings](media/default-sharing-link-type-site.png)
+
 - On the Active sites page, a new experience lets you manage all site admins in one panel, view site members and visitors, and add site admins to sites that belong to Office 365 groups. [Learn more about managing site permissions](site-permissions.md) 
+
+    ![The permissions tab in the details panel.](media/permissions-panel.png)
+
 - The Settings page has been redesigned to let you see the value for each setting without selecting each one for more info.
+
+    ![The Settings page.](media/settings-page.png)
+
 - Classic features can now be found under **More features**. [Learn where to find features in the new SharePoint admin center](/sharepoint/get-started-new-admin-center#where-to-find-things-in-the-new-sharepoint-admin-center)
+
+    ![The More features page.](media/more-features-page.png)
 
 ## November 2019
 
