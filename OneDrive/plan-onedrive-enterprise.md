@@ -471,13 +471,13 @@ For information about installing the OneDrive app on a computer running macOS or
 To silently install the OneDrive sync app on an individual computer, run the following command:
 
 ```PowerShell
-\<pathToExecutable\>\\OneDriveSetup.exe /silent
+<pathToExecutable>\OneDriveSetup.exe /silent
 ```
 
 To silently update the OneDrive sync app, run the following command:
 
 ```PowerShell
-\<pathToExecutable\>\\OneDriveSetup.exe /update
+<pathToExecutable>\OneDriveSetup.exe /update
 ```
 
 For information about enabling silent account configuration, see [Silently configure user accounts](use-silent-account-configuration.md).
@@ -556,7 +556,7 @@ Save the PowerShell script as a .ps1 file. Then, see [Manage PowerShell scripts 
 OneDrive is updated through Windows Update in two waves. Out of the box, OneDrive sync apps are in the first wave, which means that they receive updates as soon as they’re published. The second wave receives those same updates several weeks later. To configure Windows devices to be in the second wave, you must configure the **EnableEnterpriseUpdate** entry by using the following command:
 
 ```PowerShell
-New-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\OneDrive' -Name 'EnableEnterpriseUpdate' -Value '1' -PropertyType DWORD -Force | Out-Null
+New-ItemProperty -Path 'HKCU:\SOFTWARE\Microsoft\OneDrive' -Name 'EnableEnterpriseUpdate' -Value '1' -PropertyType DWORD -Force | Out-Null
 ```
 
 Save the script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](/intune/intune-management-extension/) for instructions on how to deploy the PowerShell script in your environment.
@@ -590,5 +590,5 @@ Depending on where the OneDrive client originated—as part of an Office package
     Once downloaded, you can create a script in Configuration Manager by following the process in [Create and run PowerShell scripts from the Configuration Manager Console](/configmgr/apps/deploy-use/create-deploy-scripts/) or by using a traditional script-based application such as that in [Create applications in Configuration Manager](/configmgr/apps/deploy-use/create-applications/). When using either option, the command to update the OneDrive client using the installer is:
 
 ```PowerShell
-> Execute \<pathToExecutable\>\\OneDriveSetup.exe /update /restart
+<pathToExecutable>\OneDriveSetup.exe /update /restart
 ```
