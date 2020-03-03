@@ -856,13 +856,15 @@ Some steps in the authorization process can be completed by a Global Admin or an
 ![Authorize windows](media/authorize-window.png)
 
 4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
-If you are a Global Admin, a slightly different login screen will display.  
-
-![global admin o365](media/permissions-o365-global-admin.png)
 
 
 >[!Warning]
->If you are a Global Admin, **DO NOT** select the option **Consent on behalf of your organization**. 
+>If you are a Global Admin, a slightly different login screen will display.  
+>
+>**DO NOT** select the option **Consent on behalf of your organization**. This option **must** remain unselected.
+
+![global admin o365](media/permissions-o365-global-admin.png)
+
 
 
 
