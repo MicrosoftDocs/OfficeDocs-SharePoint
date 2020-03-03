@@ -855,11 +855,11 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 ![Authorize windows](media/authorize-window.png)
 
-4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
+4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You will be redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
 
 
 >[!Warning]
->If you are a Global Admin, a slightly different login screen will display.  
+>If you are a **Global Admin**, a slightly different login screen will display.  
 >
 >**DO NOT** select the option **Consent on behalf of your organization**. This option **must** remain unselected.
 
