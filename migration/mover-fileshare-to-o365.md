@@ -857,6 +857,17 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
 
+IF you are a Global Admin, the following login screen will display
+
+![global admin o365](permissions-o365-global-admin.png)
+
+
+>[!Warning]
+>If you are a Global Admin, you will get a login screen with an option to **Consent on behalf of your organization**. **DO NOT** select this option this must remain unselected.
+
+
+
+
 5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
 If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
