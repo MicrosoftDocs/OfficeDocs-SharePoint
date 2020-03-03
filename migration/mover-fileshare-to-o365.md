@@ -863,7 +863,7 @@ Some steps in the authorization process can be completed by a Global Admin or an
 >
 >**DO NOT** select the option **Consent on behalf of your organization**. This option **must** remain unselected.
 
-![global admin o365](media/permissions-o365-global-admin.png)
+- ![global admin o365](media/permissions-o365-global-admin.png)
 
 
 
