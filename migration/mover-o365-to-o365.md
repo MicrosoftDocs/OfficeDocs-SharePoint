@@ -214,7 +214,6 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |OneDrive for Business (Administrator)|	Office 365 Connector|
 |OneDrive for Business (User)|	OneDrive for Business (User) Connector|
 |SharePoint Online|Office 365 Connector|
-|SharePoint on-premise|	Agent Connector (source Connector only) or the **Microsoft SharePoint Migration Tool**|
 
 ## Deleting connectors
 
