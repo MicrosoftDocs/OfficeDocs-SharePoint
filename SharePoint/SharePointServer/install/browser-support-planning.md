@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 3/4/2020
 audience: ITPro
 f1.keywords:
 - NOCSH
