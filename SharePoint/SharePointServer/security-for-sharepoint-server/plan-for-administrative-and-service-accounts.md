@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/23/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -27,7 +29,7 @@ To install SharePoint Server, you have to have appropriate administrative and se
 > Do not use service account names that contain the symbol $ with the exception of using a Group Managed Service Account for SQL Server.
 
 > [!IMPORTANT]
-> SharePoint services do not support Managed Service Accounts or Group Managed Service Accounts.
+> SharePoint services do not support Active Directory Managed Service Accounts or Group Managed Service Accounts.
     
 Use this article along with [Initial deployment administrative and service accounts in SharePoint Server](../install/initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
   
@@ -54,7 +56,7 @@ The following table describes the accounts that are used to configure SQL Server
    
 ### Service application accounts
 
-The following table describes the accounts that are used to set up and configure a service application. Plan one set of an application pool and proxy group for each service application that you plan to implement.
+The following table describes the accounts that are used to set up and configure a service application.
   
 For more information about service application endpoints, see [Using Service Endpoints](https://go.microsoft.com/fwlink/p/?LinkId=227293).
   
@@ -190,11 +192,11 @@ For more information about service application endpoints, see [Using Service End
 |Distributed Cache   |X   |X   |
    
 > [!NOTE]
-> Some of the features that use the Distributed Cache service include:Newsfeeds, Authentication, OneNote client access, Security Trimming, and improves Page load performance. At least one Distributed Cache server is required in the farm.
+> Some of the features that use the Distributed Cache service are Newsfeeds, Authentication, OneNote client access, Security Trimming, and improves Page load performance. At least one Distributed Cache server is required in the farm.
  
-### Additional application pool identity accounts
+### SharePoint Web Applications
 
-If you create additional application pools to host sites, plan for additional application pool identity accounts. The following table describes the application pool identity account. Plan one application pool account for each application pool that you plan to implement.
+A single account should be used for all Web Applications, named Web Application pool account. This allows the administrator to use a single IIS Application Pool for all Web Applications which increases performance and reduces memory usage on the server.
   
 |**Account**|**Purpose**|
 |:-----|:-----|

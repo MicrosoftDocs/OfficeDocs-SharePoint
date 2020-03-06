@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 layout: LandingPage
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: landing-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

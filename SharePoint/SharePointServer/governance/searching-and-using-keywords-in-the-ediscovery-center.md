@@ -6,8 +6,10 @@ author: MARKJJO
 manager: pamgreen
 ms.date: 2/12/2018
 audience: ITPro
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 - DiscoverySearchSyntaxTips
 - WSSEndUser_DiscoverySearchSyntaxTips
 ms.prod: sharepoint-server-itpro

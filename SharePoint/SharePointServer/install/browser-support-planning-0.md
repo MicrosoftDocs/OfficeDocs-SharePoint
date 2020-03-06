@@ -4,8 +4,9 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 7/24/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -28,7 +29,7 @@ As you plan your deployment of SharePoint Servers 2016 or 2019, we recommend tha
 ## Key planning phase of browser support
 <a name="section2"> </a>
 
-Browser support is an important part of your SharePoint Servers 2016 or 2019 implementation. Before you install SharePoint Server 2016, make sure that you know the browsers that SharePoint Server 2016 supports. The information in this article describes browser support in the following sections:
+Browser support is an important part of your SharePoint Servers 2016 or 2019 implementation. Before you install SharePoint Server, make sure that you know the browsers that SharePoint Server supports. The information in this article describes browser support in the following sections:
   
 - Browser support levels
     
@@ -41,6 +42,7 @@ The following table summarizes the support levels of typically used web browsers
   
 |**Browser**|**Supported**|**Not supported**|
 |:-----|:-----|:-----|
+|Microsoft Edge (Chromium) <br/> |X  <br/> ||
 |Microsoft Edge (EdgeHTML - Legacy) <br/> |X  <br/> ||
 |Internet Explorer 11  <br/> |X  <br/> ||
 |Internet Explorer 10  <br/> |X  <br/> ||
@@ -48,7 +50,7 @@ The following table summarizes the support levels of typically used web browsers
 |Internet Explorer 8  <br/> ||X  <br/> |
 |Internet Explorer 7  <br/> ||X  <br/> |
 |Internet Explorer 6  <br/> ||X  <br/> |
-|Microsoft Edge/Google Chrome (latest released version)  <br/> |X  <br/> ||
+|Google Chrome (latest released version)  <br/> |X  <br/> ||
 |Mozilla Firefox (latest released version plus immediate previous version)  <br/> |X  <br/> ||
 |Apple Safari (latest released version)  <br/> |X  <br/> ||
 
@@ -59,6 +61,7 @@ The following table summarizes the support levels of typically used web browsers
   
 |**Browser**|**Supported**|**Not supported**|
 |:-----|:-----|:-----|
+|Microsoft Edge (Chromium) <br/> |X  <br/> ||
 |Microsoft Edge (EdgeHTML - Legacy) <br/> |X  <br/> ||
 |Internet Explorer 11  <br/> |X  <br/> ||
 |Internet Explorer 10  <br/> ||X  <br/> ||
@@ -66,14 +69,14 @@ The following table summarizes the support levels of typically used web browsers
 |Internet Explorer 8  <br/> ||X  <br/> |
 |Internet Explorer 7  <br/> ||X  <br/> |
 |Internet Explorer 6  <br/> ||X  <br/> |
-|Microsoft Edge/Google Chrome (latest released version)  <br/> |X  <br/> ||
+|Google Chrome (latest released version)  <br/> |X  <br/> ||
 |Mozilla Firefox (latest released version plus immediate previous version)  <br/> |X  <br/> ||
 |Apple Safari (latest released version)  <br/> |X  <br/> ||
    
 ### Browser details
 <a name="browserdetail"> </a>
 
-Review the details of the web browser that you have or plan to use in your organization to make sure that the web browser works with SharePoint Server 2016 and according to your business needs.
+Review the details of the web browser that you have or plan to use in your organization to make sure that the web browser works with SharePoint Server 2016 and 2019, and according to your business needs.
   
 
  **Internet Explorer and older functionality**

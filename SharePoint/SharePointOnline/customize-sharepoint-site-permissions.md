@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -133,7 +135,10 @@ If you have customized a permission level or created a new permission level, you
 5. On the **Edit Permissions** page, select the check box next to the name of the new permission level. If you select multiple permission levels, the permission level assigned to the group is the union of the individual permissions in the different levels. That is, if one level includes permissions (A, B, C), and the other level includes permissions (C, D), the new level for the group includes permissions (A, B, C, D). 
     
 6. Click **OK**.
-    
+
+> [!NOTE]
+> Permissions for the default SharePoint groups (Owners, Members, and Visitors) for Team sites that are connected to an Office 365 group can't be modified.
+
 ### Add, change, or remove a site collection administrator
 <a name="__toc340230108"> </a>
 

@@ -5,6 +5,8 @@ manager:
 ms.author: kaarins
 author: kaarins
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 ms.collection:  

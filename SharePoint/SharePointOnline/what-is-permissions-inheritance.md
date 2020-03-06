@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
 ROBOTS: NOINDEX
+f1.keywords:
+- NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal

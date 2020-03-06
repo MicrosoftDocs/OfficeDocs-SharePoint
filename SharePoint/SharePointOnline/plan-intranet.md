@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -121,7 +123,7 @@ Once you have compiled this information, create a design brief to help map out t
 SharePoint offers a variety of building blocks that you can use to create an intranet:
 
 - **[Communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732)** - Use communication sites to share news, reports, statuses, and other information through a variety of templates and web parts.
-- **Home sites** - Create an engaging home for your organization, division, or function.
+- **[Home sites](https://docs.microsoft.com/sharepoint/home-site)** - Create an engaging home for your organization, division, or function.
 - **[Hub sites](planning-hub-sites.md)** - Use hub sites to organize related sites and teams and centralize news, search, and content management.
 - **[SharePoint news](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)** - Use the news web part to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting.
 - **[Yammer](https://docs.microsoft.com/yammer/yammer-landing-page)** - Use Yammer to connect with people across your organization beyond the boundaries of projects, functions, and departments.

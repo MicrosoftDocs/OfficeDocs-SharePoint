@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 07/07/2015
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -147,7 +149,7 @@ Use the following procedure to create a custom dictionary.
 
 7.  In the **File name** box, type the file name in the following format: Custom*NNNN*.lex, where “Custom” is a literal string, *NNNN* is the four-digit hexadecimal code of the language for which you are creating the custom dictionary, and lex is the file name extension. For a list of valid file names for supported languages and dialects, see Supported languages later in this article.
 
-8.  In the **Save in** list, browse to the folder that contains the word breakers. By default, this folder is %ProgramFiles%\\Microsoft Office Servers\\14.0\\Bin.
+8.  In the **Save in** list, browse to the folder that contains the word breakers. By default, this folder is %ProgramFiles%\\Microsoft Office Servers\\14.0\\Bin for SharePoint Server 2010, %ProgramFiles%\\Microsoft Office Servers\\15.0\\Bin for SharePoint Server 2013 and %ProgramFiles%\\Microsoft Office Servers\\16.0\\Bin for Sharepoint Server 2016 and SharePoint Server 2019.
     
 
     > [!NOTE]
@@ -167,7 +169,7 @@ There must be a copy of the custom dictionary on each application server in the 
 
 1.  Verify that the user account that is performing this procedure is a member of the Administrators group on each application server (that is, each crawl server or query server) in the farm.
 
-2.  On each application server in the farm, copy the new custom dictionary file to the folder that contains the word breakers. By default, this folder is %ProgramFiles%\\Microsoft Office Servers\\14.0\\Bin.
+2.  On each application server in the farm, copy the new custom dictionary file to the folder that contains the word breakers. By default, this folder is %ProgramFiles%\\Microsoft Office Servers\\14.0\\Bin for SharePoint Server 2010, %ProgramFiles%\\Microsoft Office Servers\\15.0\\Bin for SharePoint Server 2013 and %ProgramFiles%\\Microsoft Office Servers\\16.0\\Bin for Sharepoint Server 2016 and SharePoint Server 2019.
     
 
     > [!NOTE]
@@ -175,9 +177,9 @@ There must be a copy of the custom dictionary on each application server in the 
 
 
 
-## Stop and restart the SharePoint Server Search 14 service on each application server
+## Stop and restart the SharePoint Server Search 14/15/16 service on each application server
 
-You must restart the SharePoint Server Search 14 service on each application server in the farm.
+You must restart the SharePoint Server Search 14 (for SharePoint Server 2010), SharePoint Server Search 15 (for SharePoint Server 2013) or SharePoint Server Search 16 (for SharePoint Server 2016 and SharePoint Server 2019)  service on each application server in the farm.
 
 
 > [!IMPORTANT]
@@ -185,13 +187,13 @@ You must restart the SharePoint Server Search 14 service on each application ser
 
 
 
-**To stop and restart the SharePoint Server Search 14 service on each application server**
+**To stop and restart the SharePoint Server Search 14/15/16 service on each application server**
 
 1.  Verify that the user account that is performing this procedure is a member of the Administrators group on the local computer.
 
 2.  On the **Start** menu, point to **All Programs**, point to **Administrative Tools**, and then click **Services**.
 
-3.  Right click the **SharePoint Server Search 14** service and then click **Properties**. The **Properties** dialog box appears.
+3.  Right click the **SharePoint Server Search 14** (for SharePoint Server 2010), **SharePoint Server Search 15** (for SharePoint Server 2013) or **SharePoint Server Search 16** (for SharePoint Server 2016 and SharePoint Server 2019) service and then click **Properties**. The **Properties** dialog box appears.
 
 4.  Click **Stop**. After the service stops, click **Start**.
 

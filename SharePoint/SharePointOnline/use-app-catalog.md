@@ -5,8 +5,10 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 - 'ManageAppCatalog'
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -92,6 +94,9 @@ To get to the App Catalog site once it's been created, follow steps 1 and 2 in t
 If you want all users to use an app, you can deploy it to specific site collections, managed paths, or site templates. Deploying an app essentially installs that app on a site for users so that is available for use. Deployed apps appear on the Site Contents page for a site.
   
 You can deploy a third-party app, or you can [deploy a custom app](use-app-catalog.md#__deploy_a_custom).
+
+ > [!NOTE]
+> This option is only available for SharePoint add-ins. To see tenant-scoped deployment options for SharePoint Framework solutions, see [Tenant-scoped solution deployment for SharePoint Framework solutions](https://docs.microsoft.com/sharepoint/dev/spfx/tenant-scoped-deployment). 
   
  **Deploy a third-party app**
   
