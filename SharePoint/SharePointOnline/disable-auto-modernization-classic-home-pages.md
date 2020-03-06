@@ -45,6 +45,8 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 - DisplayFormTemplateName = "WikiEditForm".
 
+- No custom MasterPage.
+
 - ModernizeHomepageOptOut feature is not activated.
 
 >[!NOTE]
