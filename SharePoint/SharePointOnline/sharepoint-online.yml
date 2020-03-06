@@ -1,18 +1,17 @@
 ### YamlMime:Landing
 
-title: Microsoft 365 compliance documentation # < 60 chars
-summary: If your organization needs to comply with legal or regulatory standards, start here to learn about compliance in Microsoft 365. # < 160 chars
+title: SharePoint # < 60 chars
+summary: Learn about how to use SharePoint in Microsoft 365. # < 160 chars
 
 metadata:
-  title: Microsoft 365 compliance documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Documentation for Microsoft 365 compliance features # Required; article description that is displayed in search results. < 160 chars.
-  services: office-365-security-compliance
-  ms.service: O365-seccomp #Required; service per approved list. service slug assigned to your service by ACOM.
+  title: SharePoint administration documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Documentation for SharePoint administration # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.subservice: subservice
   ms.topic: landing-page # Required
   ms.collection: m365-security-compliance
-  author: robmazz #Required; your GitHub user alias, with correct capitalization.
-  ms.author: robmazz #Required; microsoft alias of author; optional team alias.
+  author: MikePlumleyMSFT #Required; your GitHub user alias, with correct capitalization.
+  ms.author: mikeplum #Required; microsoft alias of author; optional team alias.
   ms.date: 09/20/2019 #Required; mm/dd/yyyy format
   localization_priority: Priority
 
@@ -24,18 +23,20 @@ landingContent:
   # Card (optional)
   - title: Manage information protection
     linkLists:
-      - linkListType: overview
+      - linkListType: reference
         links:
-          - text: Sensitivity labels
-            url: sensitivity-labels.md
-          - text: Data loss prevention (DLP)
-            url: data-loss-prevention-policies.md
-          - text: Sensitive information types
-            url: custom-sensitive-info-types.md
-          - text: Email encryption
-            url: email-encryption.md
-          - text: Customer Key
-            url: customer-key-overview.md  
+          - text: OneDrive sycn app
+            url: https://onedrive.live.com/about/download/
+          - text: Mobile app
+            url: https://products.office.com/sharepoint/mobile-app
+          - text: FastTrack onboarding and adoption services
+            url: https://fasttrack.microsoft.com/office
+          - text: Find a SharePoint certified partner
+            url: https://products.office.com/sharepoint/sharepoint-partners-sharepoint-support
+          - text: Visit the SharePoint community
+            url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
+          - text: Suggest a feature
+            url: https://sharepoint.uservoice.com/
 
   # Card
   - title: Manage information governance
