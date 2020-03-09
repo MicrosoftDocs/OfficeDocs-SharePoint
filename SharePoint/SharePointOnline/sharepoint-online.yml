@@ -100,7 +100,7 @@ landingContent:
           - text: New SharePoint admin center
             url: get-started-new-admin-center.md
           - text: SharePoint Online management shell
-            url: connect-sharepoint-online.md
+            url: https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online
           - text: Network planning and performance tuning
             url: https://docs.microsoft.com/office365/enterprise/network-planning-and-performance
 
