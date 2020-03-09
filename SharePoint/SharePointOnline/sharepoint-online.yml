@@ -9,7 +9,7 @@ metadata:
   ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.subservice: subservice
   ms.topic: landing-page # Required
-  ms.collection: m365-security-compliance
+  ms.collection: M365-collaboration
   author: MikePlumleyMSFT #Required; your GitHub user alias, with correct capitalization.
   ms.author: mikeplum #Required; microsoft alias of author; optional team alias.
   ms.date: 09/20/2019 #Required; mm/dd/yyyy format
@@ -41,7 +41,7 @@ landingContent:
   # Card
   - title: Share and work together
     linkLists:
-      - linkListType: learn
+      - linkListType: concept
         links:
           - text: Turn external sharing on or off
             url: turn-external-sharing-on-or-off.md         
@@ -57,7 +57,7 @@ landingContent:
   # Card
   - title: Inform and engage
     linkLists:
-      - linkListType: learn
+      - linkListType: concept
         links:
           - text: Create modern experiences
             url: guide-to-sharepoint-modern-experience.md
@@ -71,7 +71,7 @@ landingContent:
     # Card
   - title: Transform business processes
     linkLists:
-      - linkListType: learn
+      - linkListType: concept
         links:
           - text: Get started with Power Automate
             url: https://docs.microsoft.com/flow/getting-started
@@ -81,7 +81,7 @@ landingContent:
   # Card
   - title: Harness collective knowledge
     linkLists:
-      - linkListType: learn
+      - linkListType: concept
         links:
           - text: Overview of search
             url: overview-of-search.md
@@ -91,7 +91,7 @@ landingContent:
   # Card
   - title: Protect and manage
     linkLists:
-      - linkListType: learn
+      - linkListType: concept
         links:
           - text: Office 365 Security and Compliance
             url: https://docs.microsoft.com/office365/securitycompliance/
@@ -107,7 +107,7 @@ landingContent:
   # Card
   - title: Extend and develop
     linkLists:
-      - linkListType: learn
+      - linkListType: concept
         links:
           - text: Customizing SharePoint
             url: extend-and-develop.md
