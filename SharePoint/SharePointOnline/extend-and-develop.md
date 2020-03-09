@@ -39,7 +39,7 @@ Nearly every version of SharePoint has had a way of creating custom layouts for 
 
 ## Workflows
 
-Microsoft recommends using [Power Automate](https://flow.microsoft.com) for configuring and executing all workflows in your Office 365 environment, including SharePoint Online. For example, it&#39;s possible to create [unique approval workflows](/flow/modern-approvals) for content stored in SharePoint. Additionally, it&#39;s possible to use Flow as the default workflow engine [for approving SharePoint page content](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9), directly from the SharePoint user interface. Flows can be [triggered by SharePoint](/connectors/sharepointonline/#triggers) actions (such as when an item is created in a list), or perform [actions within SharePoint](/connectors/sharepointonline/#actions) (such as update a list item). While SharePoint Designer workflows are still supported, new workflows should be created using Flow.
+Microsoft recommends using [Power Automate](https://flow.microsoft.com) for configuring and executing all workflows in your Office 365 environment, including SharePoint Online. For example, it&#39;s possible to create [unique approval workflows](/flow/modern-approvals) for content stored in SharePoint. Additionally, it&#39;s possible to use Power Automate as the default workflow engine [for approving SharePoint page content](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9), directly from the SharePoint user interface. Flows can be [triggered by SharePoint](/connectors/sharepointonline/#triggers) actions (such as when an item is created in a list), or perform [actions within SharePoint](/connectors/sharepointonline/#actions) (such as update a list item). While SharePoint Designer workflows are still supported, new workflows should be created using Power Automate.
 
 ## Forms
 
@@ -78,6 +78,6 @@ The following table gives an example of older methods for customizing sites alon
 | Implement branding using custom master pages, page layouts, and themes | Use the "apply a look" option to customize branding elements like logo, header, footer and colors |
 | Use custom navigation providers such as structured navigation or managed metadata navigation to dynamically generate navigational elements | Manually specify navigational links |
 | Create a wiki page and choose a text layout option to modify the layout of the page | Create a modern page and add section layouts to the page to arrange web parts on the page. |
-| Create a workflow using SharePoint Designer | Create a workflow using Flow |
+| Create a workflow using SharePoint Designer | Create a workflow using Power Automate |
 | Customize a SharePoint form using InfoPath | Customize a SharePoint form using a Power App |
 | Deploy a web part to a site using a sandbox solution | Use the SharePoint App Catalog to deploy a client-side web part to a site |
