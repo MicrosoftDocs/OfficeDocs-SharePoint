@@ -40,7 +40,7 @@ The following table provides a summary of the new features and enhancements that
 
 #### Concepts
 
-[SharePoint Server](../sharepoint-server.md)
+[SharePoint Server](../sharepoint-server.yml)
   
 [New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md)
 #### Other Resources

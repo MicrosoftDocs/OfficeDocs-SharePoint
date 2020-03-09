@@ -1,7 +1,7 @@
 
   
 
-# [SharePoint Server](../sharepoint-server.md)
+# [SharePoint Server](../sharepoint-server.yml)
 ## [SharePoint Updates](/OfficeUpdates/sharepoint-updates?toc=/sharepoint/spstoc/toc.json)
 ## [Accessibility guidelines](../accessibility-guidelines.md)
 ## [What's new](../what-s-new/what-s-new.md)
