@@ -1,0 +1,121 @@
+### YamlMime:Landing
+
+title: SharePoint Server # < 60 chars
+summary: Learn about how to use SharePoint Server. # < 160 chars
+
+metadata:
+  title: This guide helps IT Pros plan, deploy, and manage SharePoint Server 2013, 2016 and 2019. # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Documentation for SharePoint Server # Required; article description that is displayed in search results. < 160 chars.
+  ms.prod: sharepoint-server-itpro #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: landing-page # Required
+  ms.collection: 
+  author: MikePlumleyMSFT #Required; your GitHub user alias, with correct capitalization.
+  ms.author: mikeplum #Required; microsoft alias of author; optional team alias.
+  ms.date: 03/09/2020 #Required; mm/dd/yyyy format
+  localization_priority: Priority
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: References
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Get started
+            url: getting-started.md
+          - text: Migration
+            url: https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online
+          - text: Hybrid
+            url: https://docs.microsoft.com/SharePoint/hybrid/hybrid
+          - text: Community
+            url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
+          - text: Product feedback
+            url: https://sharepoint.uservoice.com/
+          - text: End user content
+            url: https://support.office.com/sharepoint
+
+  # Card
+  - title: Learn about SharePoint
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is SharePoint?
+            url: https://products.office.com/sharepoint/collaboration        
+          - text: SharePoint Server 2019 overview
+            url: https://www.youtube.com/watch?v=igkJVtG6eus
+          - text: SharePoint blog
+            url: https://techcommunity.microsoft.com/t5/SharePoint-Blog/bg-p/SPBlog
+
+  # Card
+  - title: Before you start
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Hardware and software requirements
+            url: install/hardware-and-software-requirements-2019.md
+          - text: Hybrid
+            url: hybrid/sharepoint-hybrid-sites-and-search.md
+          - text: Security
+            url: security-for-sharepoint-server/security-for-sharepoint-server.md
+
+    # Card
+  - title: Manage your environment
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Sites Administration
+            url: sites/sites.md
+          - text: Server Management
+            url: administration/server-management.md
+          - text: Backup and recovery
+            url: administration/backup-and-recovery-overview.md
+          - text: Monitor your environment
+            url: administration/monitoring-overview.md
+
+  # Card
+  - title: Install
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: SharePoint Server 2016 and 2019 large scale farms
+            url: install/install-sharepoint-server-2016-across-multiple-servers.md
+          - text: SharePoint Server 2016 and 2019 small scale farms
+            url: install/install-sharepoint-server-2016-on-one-server.md
+          - text: SharePoint Server 2013 large scale farms
+            url: install/multiple-servers-for-a-three-tier-farm.md
+          - text: SharePoint Server 2013 small scale farms
+            url: install/single-server-with-sql-server.md
+
+  # Card
+  - title: Upgrade and update
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Upgrade to SharePoint Server 2019
+            url: upgrade-and-update/upgrade-to-sharepoint-server-2019.md
+          - text: Upgrade to SharePoint Server 2016
+            url: upgrade-and-update/upgrade-to-sharepoint-server-2016.md
+          - text: Apply updates to SharePoint Server 2016
+            url: upgrade-and-update/deploy-updates-for-sharepoint-server-2016.md
+          - text: Upgrade to SharePoint 2013
+            url: upgrade-and-update/upgrade-from-sharepoint-2010-to-sharepoint-2013.md
+          - text: Apply updates to SharePoint 2013
+            url: upgrade-and-update/deploy-software-updates-for-sharepoint-2013.md
+
+  # Card
+  - title: Legacy content
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: SharePoint Server 2007 end of support roadmap
+            url: https://docs.microsoft.com/office365/enterprise/sharepoint-2007-end-of-support
+          - text: Upgrading from Server 2010 and end of support
+            url: https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010
+          - text: SharePoint Server 2010
+            url: https://docs.microsoft.com/previous-versions/office/
+          - text: SharePoint Server 2007
+            url: https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc303422(v=office.12)
+
