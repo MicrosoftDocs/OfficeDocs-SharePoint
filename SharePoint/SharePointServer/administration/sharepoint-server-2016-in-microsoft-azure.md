@@ -74,7 +74,7 @@ See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Grou
   
 ## See also
 
-[SharePoint Server](../sharepoint-server.md)
+[SharePoint Server](../sharepoint-server.yml)
   
 [Install SharePoint Server](../install/install.md)
 
