@@ -373,7 +373,7 @@ If you are ready to deploy a production-ready, high availability SharePoint Serv
 
 #### Concepts
 
-[SharePoint Server](../sharepoint-server.md)
+[SharePoint Server](../sharepoint-server.yml)
   
 [Install SharePoint Server](../install/install.md)
 #### Other Resources

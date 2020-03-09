@@ -457,7 +457,7 @@ Start-AzVM -Name spVM -ResourceGroupName $rgName
 
 #### Concepts
 
-[SharePoint Server](../sharepoint-server.md)
+[SharePoint Server](../sharepoint-server.yml)
   
 [Install SharePoint Server](../install/install.md)
 #### Other Resources
