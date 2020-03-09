@@ -1,5 +1,5 @@
 ﻿
-# [SharePoint Online](sharepoint-online.yml)
+# [SharePoint](sharepoint-online.yml)
 ## [Get started]()
 ### [Introduction](introduction.md)
 ### [SharePoint admin role](sharepoint-admin-role.md)
