@@ -1,10 +1,10 @@
 ### YamlMime:Landing
 
 title: SharePoint Server # < 60 chars
-summary: Learn about how to use SharePoint Server. # < 160 chars
+summary: This guide helps IT Pros plan, deploy, and manage SharePoint Server 2013, 2016 and 2019. # < 160 chars
 
 metadata:
-  title: This guide helps IT Pros plan, deploy, and manage SharePoint Server 2013, 2016 and 2019. # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: Learn about how to use SharePoint Server. # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Documentation for SharePoint Server # Required; article description that is displayed in search results. < 160 chars.
   ms.prod: sharepoint-server-itpro #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
