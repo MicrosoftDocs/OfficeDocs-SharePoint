@@ -64,13 +64,13 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 - This update does not create an [Office 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
 
-- Classic site themes may not be identical once your page is updated to modern. [Learn how to apply custom styles and color to your site.](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
+- Classic site themes may not be identical once your page is updated to modern. [Learn how to apply custom styles and color to your site](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
 
 - Only site collection admins can revert to the classic home page through the link appearing in the left navigation. Site owners can revert to the classic page by visiting site pages and marking the classic page as their home page. 
 
 - Update happens on demand based on next site access. If a subsite is accessed, it will trigger the update for its root site collection and its other subsites. Remember, the update only applies to the root site collection and subsites if the criteria are met. 
 
-- We do not check the state of [custom actions](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins)therefor they will not transfer to your new modern page.
+- We do not check the state of [custom actions](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins), therefore they will not transfer to your new modern page.
 
 - We do not check the state of modern SharePoint lists and libraries for classic sites.
 
