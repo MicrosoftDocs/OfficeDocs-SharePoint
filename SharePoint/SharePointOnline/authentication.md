@@ -6,13 +6,16 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 6/21/2018
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-collaboration
-ms.custom: Adm_O365
+ms.custom: 
+- Adm_O365
 search.appverid:
 - MET150
 - SPO160

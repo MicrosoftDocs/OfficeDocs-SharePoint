@@ -5,8 +5,10 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 - 'quickshare'
 - 'o365p_enablespextluser'
 - 'O365P_AddSPExtlUser'

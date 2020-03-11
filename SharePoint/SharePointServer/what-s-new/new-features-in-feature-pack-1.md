@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/30/2016
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -38,7 +40,7 @@ The following table provides a summary of the new features and enhancements that
 
 #### Concepts
 
-[SharePoint Server](../sharepoint-server.md)
+[SharePoint Server](../sharepoint-server.yml)
   
 [New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md)
 #### Other Resources

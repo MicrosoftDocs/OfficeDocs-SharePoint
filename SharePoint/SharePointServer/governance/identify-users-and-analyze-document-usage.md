@@ -6,6 +6,8 @@ author: kaarins
 manager: pamgreen
 ms.date: 3/1/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

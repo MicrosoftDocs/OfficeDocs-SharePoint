@@ -6,6 +6,8 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/06/2018
 audience: ITPro
+f1.keywords:
+- CSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -72,7 +74,7 @@ See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Grou
   
 ## See also
 
-[SharePoint Server](../sharepoint-server.md)
+[SharePoint Server](../sharepoint-server.yml)
   
 [Install SharePoint Server](../install/install.md)
 

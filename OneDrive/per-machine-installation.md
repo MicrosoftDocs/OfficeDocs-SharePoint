@@ -5,10 +5,13 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-ms.custom: Adm_O365
+ms.custom: 
+- Adm_O365
 search.appverid:
 - MET150
 - BCS160

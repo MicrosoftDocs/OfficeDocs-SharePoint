@@ -4,6 +4,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

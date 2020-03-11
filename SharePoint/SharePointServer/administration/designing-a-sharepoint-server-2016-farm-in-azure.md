@@ -6,6 +6,8 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 10/19/2017
 audience: ITPro
+f1.keywords:
+- CSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -371,7 +373,7 @@ If you are ready to deploy a production-ready, high availability SharePoint Serv
 
 #### Concepts
 
-[SharePoint Server](../sharepoint-server.md)
+[SharePoint Server](../sharepoint-server.yml)
   
 [Install SharePoint Server](../install/install.md)
 #### Other Resources

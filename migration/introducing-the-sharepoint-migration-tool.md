@@ -5,6 +5,8 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -32,7 +34,9 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 **SPMT** lets you migrate content to SharePoint Online and OneDrive from the following locations:
 
 - SharePoint Server 2013
+- SharePoint Foundation 2013
 - SharePoint Server 2010
+- SharePoint Foundation 2010
 - Network and local file shares
   
 ## Download and install

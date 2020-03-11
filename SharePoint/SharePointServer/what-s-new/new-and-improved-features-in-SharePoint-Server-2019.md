@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -87,12 +89,12 @@ There are some differences between the search experiences from a search administ
 
 ### Modern Team sites
 
-Modern team sites bring a fresh and responsive user experience to team collaboration. The redesigned homepage improves the discoverability of the most common collaboration tasks while putting your team’s news front and center. Users can easily create modern team sites for themselves from SharePoint Home without needing to contact IT.
+Modern team sites bring a fresh and responsive user experience to team collaboration. The redesigned homepage improves the discoverability of the most common collaboration tasks while putting your team's news front and center. Users can easily create modern team sites for themselves from SharePoint Home without needing to contact IT.
 
 SharePoint Server 2019 will continue to support creating classic team sites.
 
 ### Integration with Power Apps, Power BI and Power Automate
-SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features Power Apps, Power BI, and Power Automate are now available. SharePoint Server 2019 includes process automation and forms technologies like Power Apps and Flow to connect with your on-premises data. These features needs to be configured via gateway.
+SharePoint Server 2019 brings cloud closer to the Customers and Customers closer to the cloud. The cloud features Power Apps, Power BI, and Power Automate are now available. SharePoint Server 2019 includes process automation and forms technologies like Power Apps and Power Automate to connect with your on-premises data. These features needs to be configured via gateway.
 
 ### SharePoint using modern Internet Information Services (IIS) APIs
 
