@@ -33,7 +33,7 @@ To define the entries in your thesaurus, you enter terms and their corresponding
   
 If you want to define more than one synonym for one key, you have to create multiple entries in the thesaurus. Also, if you want the synonym to work both ways, for example, if you want the term "IE" to also return search results for "Internet Explorer" and you want the term "Internet Explorer" to also return results for "IE", you have to create two thesaurus entries. 
   
-To create your thesaurus terms, you can use alphabetical Unicode characters such as a, ø, ü or é. Your terms can also include underscores (_), hyphens (-) and straight apostrophes ('). Your terms can't include non-alphabetical Unicode characters, such as hashtag (#), forward slash (/), back slash (\) , punctuation (.) or question mark (?). You also can't use abbreviations that include non-alphabetical Unicode characters, such as E.K.G or d\r. 
+To create your thesaurus terms, you can use alphabetical Unicode characters such as a, ø, ü or é. Your terms can also include underscores (_), hyphens (-) and straight apostrophes ('). Your terms can't include non-alphabetical Unicode characters, such as hashtag (#), forward slash (/), back slash (\\) , punctuation (.) or question mark (?). You also can't use abbreviations that include non-alphabetical Unicode characters, such as E.K.G or d\r. 
   
 The matching between the thesaurus keys and query terms is not case sensitive. When a query term matches a thesaurus key, the query is expanded with the synonym(s) for that key and the search results will contain results for the original query term as well as for the synonym.
   
