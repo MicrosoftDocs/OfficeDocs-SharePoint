@@ -25,7 +25,7 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
-          - text: OneDrive sycn app
+          - text: OneDrive sync app
             url: https://onedrive.live.com/about/download/
           - text: Mobile app
             url: https://products.office.com/sharepoint/mobile-app
