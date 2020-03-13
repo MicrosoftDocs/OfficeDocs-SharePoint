@@ -365,7 +365,7 @@ Enabling this policy sets the following registry key value to 1.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"ForcedLocalMassDeleteDetection"="dword:00000001"
 
-### Prompt users to move Windows known folders to OneDrive
+### Prompt users when they delete multiple OneDrive files on their local computer
 <a name="LocalMassDeleteFileDeleteThreshold"> </a>
 
 This policy sets the threshold for how many files a user can delete from a local OneDrive folder before the user is notified that the files will also be deleted from the cloud.
