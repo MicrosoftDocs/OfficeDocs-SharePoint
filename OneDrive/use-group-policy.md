@@ -352,19 +352,6 @@ Enabling this policy sets the following registry key:
 
 [More info about known folder move](redirect-known-folders.md)
 
-### Require users to confirm large delete operations
-<a name="ForcedLocalMassDeleteDetection"> </a>
-
-This setting makes users confirm that they want to delete files in the cloud when they delete a large number of synced files.
-
-If you enable this setting, a warning always appears when users delete a large number of synced files. If a user does not confirm a delete operation within 7 days, the files are not deleted.
-
-If you disable or do not configure this setting, users can choose to hide the warning, and always delete files in the cloud.
-
-Enabling this policy sets the following registry key value to 1.
-  
-[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"ForcedLocalMassDeleteDetection"="dword:00000001"
-
 ### Prompt users when they delete multiple OneDrive files on their local computer
 <a name="LocalMassDeleteFileDeleteThreshold"> </a>
 
@@ -379,6 +366,19 @@ If you do not configure this policy, users will see a notification when they del
 
 Enabling this policy sets the following registry key value to a number from 0 through 100000.
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"LocalMassDeleteFileDeleteThreshold"
+
+### Require users to confirm large delete operations
+<a name="ForcedLocalMassDeleteDetection"> </a>
+
+This setting makes users confirm that they want to delete files in the cloud when they delete a large number of synced files.
+
+If you enable this setting, a warning always appears when users delete a large number of synced files. If a user does not confirm a delete operation within 7 days, the files are not deleted.
+
+If you disable or do not configure this setting, users can choose to hide the warning, and always delete files in the cloud.
+
+Enabling this policy sets the following registry key value to 1.
+  
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"ForcedLocalMassDeleteDetection"="dword:00000001"
 
 ### Set the maximum size of a user's OneDrive that can download automatically
 <a name="DiskSpaceCheckThresholdMB"> </a>
