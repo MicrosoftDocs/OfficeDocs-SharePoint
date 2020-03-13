@@ -126,7 +126,7 @@ You can use PowerShell to restore the Secure Store Service.
 
     Where  _\<Passphrase\>_, is the one that you currently use.
 
-Should errors occur while updating the Secure Store passphrase, please see [Refresh the Secure Store encryption key](https://docs.microsoft.com/sharepoint/administration/configure-the-secure-store-service#refresh-the-secure-store-encryption-key).
+Should errors occur while updating the Secure Store passphrase, see [Refresh the Secure Store encryption key](https://docs.microsoft.com/sharepoint/administration/configure-the-secure-store-service#refresh-the-secure-store-encryption-key).
 
 For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps) and [Update-SPSecureStoreApplicationServerKey](/powershell/module/sharepoint-server/Update-SPSecureStoreApplicationServerKey?view=sharepoint-ps).
   
