@@ -26,7 +26,7 @@ description: "Learn how to install and configure the SMTP service and configure 
 > The SMTP authentication feature is only available in SharePoint Server 2019.
 
 > [!NOTE]
-> The TLS encryption feature is only available in SharePoint Server 2016 or later.
+> The TLS connection encryption feature is only available in SharePoint Server 2016 or later.
 
 This article describes how to configure outgoing email for a farm or for a specific web application for SharePoint Server. This article also describes how to install and configure the SMTP service that you must use to enable outgoing email.
   
