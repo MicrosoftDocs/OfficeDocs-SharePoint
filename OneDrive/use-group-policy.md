@@ -65,7 +65,7 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 ## List of policies
 
-- [Allow OneDrive to disable Windows permission inheritance in folders synced read-only](use-group-policy.md#PermitDisablePermissionInheritance)
+- [Allow OneDrive to disable Windows permission inheritance in folders synced read-only](use-group-policy.md#allow-onedrive-to-disable-windows-permission-inheritance-in-folders-synced-read-only)
 
 - [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#AllowTenantList)
 
@@ -142,7 +142,6 @@ Find *Computer Configuration policies* under Computer Configuration\Policies\Adm
 ![Computer Configuration policies in the Group Policy Management Editor](media/07b81d35-9ccc-4c61-8a86-52d9bcff7ddb.png)
 
 ### Allow OneDrive to disable Windows permission inheritance in folders synced read-only
-<a name="PermitDisablePermissionInheritance"> </a>
 
 This setting lets the OneDrive sync app remove all inherited permissions within read-only folders syncing on a user's PC. This improves the performance of the sync app when syncing folders that the user has read-only permission to.
 
