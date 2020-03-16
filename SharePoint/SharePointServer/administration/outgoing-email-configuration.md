@@ -25,6 +25,9 @@ description: "Learn how to install and configure the SMTP service and configure 
 > [!NOTE]
 > The SMTP authentication feature is only available in SharePoint Server 2019.
 
+> [!NOTE]
+> The TLS connection encryption feature is only available in SharePoint Server 2016 or later.
+
 This article describes how to configure outgoing email for a farm or for a specific web application for SharePoint Server. This article also describes how to install and configure the SMTP service that you must use to enable outgoing email.
   
 After you have installed SharePoint Server and completed the initial configuration of your server farm, you can configure outgoing email. Doing so enables users to create alerts to track such site items as lists, libraries, and documents. In addition, site administrators can receive administrative messages about site administrator issues, such as the information that site owners have exceeded their specified storage space. For more information, see [Plan outgoing email for a SharePoint Server farm](outgoing-email-planning.md).
