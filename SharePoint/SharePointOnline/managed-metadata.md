@@ -219,5 +219,18 @@ For example, if you are a Term Store Administrator or a Group Manager you can cr
 At each level of the hierarchy, you can configure specific properties for a group, term set, or term by using the properties pane in the Term Store management tool. For example, if you are configuring a term set, you can specify information such as Name, Description, Owner, Contact, and Stakeholders in pane available on the **General** tab. You can also specify whether you want a term set to be open or closed to new submissions from users. Or, you can choose the **Intended Use** tab, and specify whether the term set should be available for tagging or site navigation. 
   
 ![Term Store properties let you configure settings such as tagging](media/d2dc3643-9d66-4e74-8609-c12663436157.png)
-  
 
+## See also
+<a name="additionalinformation"></a>
+         
+[Introduction to managed metadata in SharePoint Server](https://support.office.com/article/b324aebd-67ab-45a8-933d-ceedb2d909ea)
+
+[Set up metadata navigation for a list or library](https://support.office.com/article/c222a75d-8b18-44e2-9ed8-7ee4e0d23cfc)
+
+[Configure metadata navigation for a list or library](https://support.office.com/article/a8ddfcd1-a486-4e0f-b1b1-f10ca79fa9bc)
+
+[Add an enterprise keywords column to a list or library](https://support.office.com/article/314ce556-e4bf-4ef7-9939-6a1bedfc434a)
+
+[Create a Managed Metadata column](https://support.office.com/article/8fad9e35-a618-4400-b3c7-46f02785d27f)
+
+[Import term sets](https://support.office.com/article/168fbc86-7fce-4288-9a1f-b83fc3921c18)
