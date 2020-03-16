@@ -67,67 +67,67 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Allow OneDrive to disable Windows permission inheritance in folders synced read-only](use-group-policy.md#allow-onedrive-to-disable-windows-permission-inheritance-in-folders-synced-read-only)
 
-- [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#AllowTenantList)
+- [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)
 
-- [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#EnableHoldTheFile)
+- [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
 
-- [Block file downloads when users are low on disk space](use-group-policy.md#MinDiskSpaceLimitInMB)
+- [Block file downloads when users are low on disk space](use-group-policy.md#block-file-downloads-when-users-are-low-on-disk-space)
 
-- [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#BlockTenantList)
+- [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)
 
-- [Coauthor and share in Office desktop apps](use-group-policy.md#EnableAllOcsiClients)
+- [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps)
 
-- [Configure team site libraries to sync automatically](use-group-policy.md#AutoMountTeamSites)
+- [Configure team site libraries to sync automatically](use-group-policy.md#configure-team-site-libraries-to-sync-automatically)
 
-- [Continue syncing on metered networks](use-group-policy.md#DisablePauseOnMeteredNetwork)
+- [Continue syncing on metered networks](use-group-policy.md#continue-syncing-on-metered-networks)
 
-- [Continue syncing when devices have battery saver mode turned on](use-group-policy.md#DisablePauseOnBatterySaver)
+- [Continue syncing when devices have battery saver mode turned on](use-group-policy.md#continue-syncing-when-devices-have-battery-saver-mode-turned-on)
 
-- [Convert synced team site files to online-only files](use-group-policy.md#DehydrateSyncedTeamSites)
+- [Convert synced team site files to online-only files](use-group-policy.md#convert-synced-team-site-files-to-online-only-files)
 
-- [Disable the tutorial that appears at the end of OneDrive Setup](use-group-policy.md#DisableFRETutorial)
+- [Disable the tutorial that appears at the end of OneDrive Setup](use-group-policy.md#disable-the-tutorial-that-appears-at-the-end-of-onedrive-setup)
 
-- [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#ENABLE_AUTOMATIC_UPLOAD_BW_MGMT)
+- [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
  
-- [Limit the sync app download speed to a fixed rate](use-group-policy.md#DownloadBandwidthLimit)
+- [Limit the sync app download speed to a fixed rate](use-group-policy.md#limit-the-sync-app-download-speed-to-a-fixed-rate)
 
-- [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#AutomaticUploadBandwidthPercentage)
+- [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
 
-- [Limit the sync app upload speed to a fixed rate](use-group-policy.md#UploadBandwidthLimit)
+- [Limit the sync app upload speed to a fixed rate](use-group-policy.md#limit-the-sync-app-upload-speed-to-a-fixed-rate)
 
-- [Prevent the sync app from generating network traffic until users sign in](use-group-policy.md#PreventNetworkTraffic)
+- [Prevent the sync app from generating network traffic until users sign in](use-group-policy.md#prevent-the-sync-app-from-generating-network-traffic-until-users-sign-in)
 
-- [Prevent users from changing the location of their OneDrive folder](use-group-policy.md#DisableCustomRoot)
+- [Prevent users from changing the location of their OneDrive folder](use-group-policy.md#prevent-users-from-changing-the-location-of-their-onedrive-folder)
 
-- [Prevent users from fetching files remotely](use-group-policy.md#RemoteAccessGPOEnabled)
+- [Prevent users from fetching files remotely](use-group-policy.md#prevent-users-from-fetching-files-remotely)
 
-- [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKnownFolderMove)
+- [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
 
-- [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#KFMBlockOptOut)
+- [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
 
-- [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#BlockExternalSync)
+- [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
 
-- [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#DisablePersonalSync)
+- [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)
 
-- [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard)
+- [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
 
-- [Receive OneDrive sync app updates on the Enterprise ring](use-group-policy.md#EnableEnterpriseUpdate)
+- [Receive OneDrive sync app updates on the Enterprise ring](use-group-policy.md#receive-onedrive-sync-app-updates-on-the-enterprise-ring)
 
-- [Require users to confirm large delete operations](use-group-policy.md#ForcedLocalMassDeleteDetection)
+- [Require users to confirm large delete operations](use-group-policy.md#require-users-to-confirm-large-delete-operations)
 
-- [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir)
+- [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder)
 
-- [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB)
+- [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically)
 
-- [Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing)
+- [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)
 
-- [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard)
+- [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
 
-- [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#SilentAccountConfig)
+- [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials)
 
-- [Use OneDrive Files On-Demand](use-group-policy.md#FilesOnDemandEnabled)
+- [Use OneDrive Files On-Demand](use-group-policy.md#use-onedrive-files-on-demand)
 
-- [Warn users who are low on disk space](use-group-policy.md#WarningMinDiskSpaceLimitInMB)
+- [Warn users who are low on disk space](use-group-policy.md#warn-users-who-are-low-on-disk-space)
 
 
 > [!NOTE]
