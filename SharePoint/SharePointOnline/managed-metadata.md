@@ -220,7 +220,7 @@ At each level of the hierarchy, you can configure specific properties for a grou
   
 ![Term Store properties let you configure settings such as tagging](media/d2dc3643-9d66-4e74-8609-c12663436157.png)
 
-### Additional Information
+## See also
 <a name="additionalinformation"></a>
          
 [Introduction to managed metadata in SharePoint Server](https://support.office.com/article/b324aebd-67ab-45a8-933d-ceedb2d909ea)
