@@ -1,0 +1,61 @@
+### YamlMime:Landing
+
+title: OneDrive # < 60 chars
+summary: Help users in your organization store, sync, and share files in Microsoft 365. # < 160 chars
+
+metadata:
+  title: OneDrive # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Help users in your organization store, sync, and share files in Microsoft 365. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.subservice: subservice
+  ms.topic: landing-page # Required
+  ms.collection: M365-collaboration
+  author: kaarins #Required; your GitHub user alias, with correct capitalization.
+  ms.author: kaarins #Required; microsoft alias of author; optional team alias.
+  ms.date: 03/17/2020 #Required; mm/dd/yyyy format
+  localization_priority: Priority
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Download
+    linkLists:
+      - linkListType: download
+        links:
+          - text: Get the latest sync app and mobile apps
+            url: https://onedrive.live.com/about/download/
+          
+
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Migrate to OneDrive
+            url: /sharepointmigration/migrate-to-sharepoint-online         
+          - text: Use FastTrack onboarding and adoption services
+            url: https://fasttrack.microsoft.com/office
+          - text: Adoption resources
+            url: https://resources.techcommunity.microsoft.com/resources/onedrive-adoption
+
+
+  # Card
+  - title: Resources
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Suggest a feature
+            url: https://onedrive.uservoice.com/
+          - text: Read the OneDrive blog
+            url: https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/bg-p/OneDriveBlog
+          - text: See the OneDrive rogadmap
+            url: https://products.office.com/business/office-365-roadmap?filters=onedrive
+          - text: Find apps that work with OneDrive
+            url: https://products.office.com/onedrive-for-business/apps-that-work-with-onedrive
+          - text: Troubleshoot issues
+            url: https://support.office.com/article/3db87243-ed3b-46f5-ace6-518db68429b1
+          -
+
