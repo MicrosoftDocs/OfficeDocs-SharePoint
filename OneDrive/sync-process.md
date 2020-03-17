@@ -49,7 +49,7 @@ Here’s how it works:
 The previous OneDrive for Business sync app (Groove.exe) used a polling service to check for changes on a predetermined schedule. Polling can lead to system lag and slowness because it requires a lot of computing power. Using WNS is a significant enhancement.
   
 
-## Auhentication protocols
+## Authentication protocols
 
 The authentication protocols depend on which version of SharePoint you are using.
 
