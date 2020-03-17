@@ -163,7 +163,7 @@ If users are experiencing issues, such as mixed user interface modes or they can
 
 #### Other Resources
 
-[Upgrade a site collection](https://office.microsoft.com/office365-sharepoint-online-enterprise-help/upgrade-a-site-collection-HA102865473.aspx?CTT=5&amp;origin=HA104034491)
+[Upgrade a site collection](upgrade-a-site-collection.md)
   
 [Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
 
