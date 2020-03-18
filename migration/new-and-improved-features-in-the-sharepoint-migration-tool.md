@@ -34,7 +34,7 @@ The following features are now available in the public preview version of the Sh
 |**Feature**|**Description**|
 |:-----|:-----|
 |Site creation|Ability to create sites during file share migration.|
-|Record libraries|Support for SharePoint Server (on-premises) Record libraries migration.|
+|Record libraries|Support for SharePoint Server migration of Record libraries.|
 |Settings|New setting for SharePoint on-premises migration, "Migrate site settings".  Lets you select if you want to migrate your site logo, title, description and other general settings. Default value is on.|
 |Settings |New setting for SharePoint Server migrations to control the migration of site and list general settings in single list migration.|
 |User feedback |Users can now provide feedback directly from the tool.|
