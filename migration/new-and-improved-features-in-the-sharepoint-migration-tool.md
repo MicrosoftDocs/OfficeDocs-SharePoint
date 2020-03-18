@@ -25,6 +25,32 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >**Download and install:**   [SharePoint Migration Tool ](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
 
 
+### SPMT Public Preview
+
+**New features**
+
+The following features are now available in the public preview version of the SharePoint Migration Tool.
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Smart URL|Smart URL handling for both SharePoint server and SPO|
+|User feedback |Users can now provide feedback directly from the tool|
+|Site creation| Ability to create sites during file share migration|
+|Record libraries|Support for SharePoint Server (on-premises) Record libraries migration|
+|Settings |New setting "Do not migrate the site and list general settings in single list migration|
+|Site settings|New setting for SharePoint on-premises migration. "Migrate site settings".  Choose if you want to migrate site logo, title, description and other general settings. Default value is on. If it's turned off, the setting will be skipped when migrating to existing destination site in site migration.|
+
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Performance|Improvements have been make to taxonomy migration.|
+|Improved URL handling|full URL|
+|Stability|General improvements have been made to remove some errors in tool.|
+
 ### SPMT 3.2.115.3
 
 **New features**
