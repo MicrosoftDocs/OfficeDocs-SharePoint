@@ -33,23 +33,22 @@ The following features are now available in the public preview version of the Sh
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|Smart URL|Smart URL handling for both SharePoint server and SPO|
-|User feedback |Users can now provide feedback directly from the tool|
-|Site creation| Ability to create sites during file share migration|
-|Record libraries|Support for SharePoint Server (on-premises) Record libraries migration|
-|Settings |New setting "Do not migrate the site and list general settings in single list migration|
-|Site settings|New setting for SharePoint on-premises migration. "Migrate site settings".  Choose if you want to migrate site logo, title, description and other general settings. Default value is on. If it's turned off, the setting will be skipped when migrating to existing destination site in site migration.|
+|Site creation|Ability to create sites during file share migration.|
+|Record libraries|Support for SharePoint Server (on-premises) Record libraries migration.|
+|Settings|New setting for SharePoint on-premises migration, "Migrate site settings".  Lets you select if you want to migrate your site logo, title, description and other general settings. Default value is on.|
+|Settings |New setting for SharePoint Server migrations to control the migration of site and list general settings in single list migration.|
+|User feedback |Users can now provide feedback directly from the tool.|
 
 
 **Improvements**
 
-In addition to several minor fixes, here are the primary improvements made in this release:
+In addition to several minor fixes, the primary improvements made in this release are:
 
 |**Issue**|**Fix**|
 |:----|:-----|
-|Performance|Improvements have been make to taxonomy migration.|
-|Improved URL handling|full URL|
-|Stability|General improvements have been made to remove some errors in tool.|
+|Performance|Improvements have been made to taxonomy migration.|
+|User input|Improved handling of full URL|
+
 
 ### SPMT 3.2.115.3
 
