@@ -23,6 +23,8 @@ To specify sites as "official" or "authoritative" for news in your organization,
 
 ![A post from an organization news site on the SharePoint start page](media/c9335bc4-6be2-41e8-bd53-bf32a946d179.png)
 
+SharePoint admins can specify any number of organization news sites. For multi-geo tenants, organization news sites would have to be set up for each geo location. Each geo location could use the same central organization news site, and/or have its own unique site that shows organization news specific to that region.
+
 > [!NOTE]
 > When SharePoint home sites are released, they will be automatically configured as organization news sites.
 
@@ -45,7 +47,6 @@ For more info about working with news, see [Use the News web part on a SharePoin
 
 Example: `Set-SPOOrgNewsSite -OrgNewsSiteUrl https://contoso.sharepoint.com/sites/Marketing`
 
- 
 ## Related commands 
 
 - View a list of all your organization news sites: [Get-SPOOrgNewsSite](/powershell/module/sharepoint-online/get-spoorgnewssite) 
