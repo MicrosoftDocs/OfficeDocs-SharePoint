@@ -81,7 +81,7 @@ To verify that OneDrive has been created for your users, see [Get a list of all 
   
 ## Pre-provisioning many users at the same time.
 
-The following snipped of code will pre-provision Onedrive for a large number of users in bigger companies.
+The following snipped of code will pre-provision OneDrive for a large number of users in bigger companies.
 
 ```Powershell
     $list = @()
