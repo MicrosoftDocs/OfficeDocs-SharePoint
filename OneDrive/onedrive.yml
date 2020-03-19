@@ -6,7 +6,7 @@ summary: Help users in your organization store, sync, and share files in Microso
 metadata:
   title: OneDrive # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Help users in your organization store, sync, and share files in Microsoft 365. # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: one-drive #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.subservice: subservice
   ms.topic: landing-page # Required
   ms.collection: M365-collaboration
@@ -51,7 +51,7 @@ landingContent:
             url: https://onedrive.uservoice.com/
           - text: Read the OneDrive blog
             url: https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/bg-p/OneDriveBlog
-          - text: See the OneDrive rogadmap
+          - text: See the OneDrive roadmap
             url: https://products.office.com/business/office-365-roadmap?filters=onedrive
           - text: Find apps that work with OneDrive
             url: https://products.office.com/onedrive-for-business/apps-that-work-with-onedrive
