@@ -42,7 +42,7 @@ When you set a site as your home site:
 
     ![Link to the home site in the SharePoint mobile app](media/home-site-fre.png)
 
-- Search for the site is scoped to all sites within the organization. Having a great search experience is critical for the success of the home site. [Learn more](https://transform.microsoft.com/products/microsoft-search)
+- Search for the site is scoped to all sites within the organization. Having a great search experience is critical for the success of the home site. [Learn more about Microsoft Search](/microsoftsearch/overview-microsoft-search)
 - The site is automatically set up as an [organization news site](organization-news-site.md). (Although you can have only one home site, you can have multiple organization news sites.)
 
 
@@ -72,7 +72,7 @@ After you create and customize the communication site that you want to use as yo
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall “SharePoint Online Management Shell.” <br>On the Download Center page, select your language and then click the Download button. You’ll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you’re running the 64-bit version of Windows or the x86 file if you’re running the 32-bit version. If you don’t know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
     
 2. Connect to SharePoint Online as a [global admin or SharePoint admin](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
