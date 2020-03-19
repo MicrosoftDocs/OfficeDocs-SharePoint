@@ -111,6 +111,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard)
 
+- [Prompt users when they delete multiple OneDrive files on their local computer](use-group-policy.md#LocalMassDeleteFileDeleteThreshold)
+
 - [Receive OneDrive sync app updates on the Enterprise ring](use-group-policy.md#EnableEnterpriseUpdate)
 
 - [Require users to confirm large delete operations](use-group-policy.md#ForcedLocalMassDeleteDetection)
@@ -233,7 +235,7 @@ Enabling this policy sets the following registry key value to 1.
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
 
-This setting lets you balance the performance of different upload tasks on a computer by specifying the percentage of the computer's upload throughput that the OneDrive sync app (OneDrive.exe) can use to upload files. Setting this as a percentage lets the sync app respond to both increases and decreases in throughput. The lower the percentage you set, the slower files upload. We recommend a value of 50% or higher. The sync app periodically uploads without restriction for one minute and then slows down to the upload percentage you set. This lets small files upload quickly while preventing large uploads from dominating the computer’s upload throughput. We recommend enabling this setting temporarily when you roll out [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard) or [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard) to control the network impact of uploading known folder contents.
+This setting lets you balance the performance of different upload tasks on a computer by specifying the percentage of the computer's upload throughput that the OneDrive sync app (OneDrive.exe) can use to upload files. Setting this as a percentage lets the sync app respond to both increases and decreases in throughput. The lower the percentage you set, the slower files upload. We recommend a value of 50% or higher. The sync app periodically uploads without restriction for one minute and then slows down to the upload percentage you set. This lets small files upload quickly while preventing large uploads from dominating the computer's upload throughput. We recommend enabling this setting temporarily when you roll out [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard) or [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard) to control the network impact of uploading known folder contents.
 
 ![Upload Throughput Calculation](media/limit-upload-rate-percentage-throughput.png)
   
@@ -272,7 +274,7 @@ Enabling this policy sets the following registry key value to 1.
 ### Prevent users from fetching files remotely
 <a name="RemoteAccessGPOEnabled"> </a>
 
-This setting lets you block users from using the fetch feature when they’re signed in to the OneDrive sync app (OneDrive.exe) with their personal OneDrive account. The fetch feature lets users go to OneDrive.com, select a Windows computer that's currently online and running the OneDrive sync app, and access all files from that computer. By default, users can use the fetch feature.
+This setting lets you block users from using the fetch feature when they're signed in to the OneDrive sync app (OneDrive.exe) with their personal OneDrive account. The fetch feature lets users go to OneDrive.com, select a Windows computer that's currently online and running the OneDrive sync app, and access all files from that computer. By default, users can use the fetch feature.
 
 If you enable this setting, users are prevented from using the fetch feature.
   
@@ -349,6 +351,23 @@ Enabling this policy sets the following registry key:
 (where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
 
 [More info about known folder move](redirect-known-folders.md)
+
+### Prompt users when they delete multiple OneDrive files on their local computer
+<a name="LocalMassDeleteFileDeleteThreshold"> </a>
+
+This policy sets the threshold for how many files a user can delete from a local OneDrive folder before the user is notified that the files will also be deleted from the cloud.
+ 
+If you enable this policy, users will see a notification if they delete more than the specified number of files from OneDrive on their local computer. The user will be given the option to continue to remove the cloud files, or restore the local files.
+
+> [!NOTE]
+> Even if you enable this policy, users won't receive notifications if they've selected the "Always remove files" check box on a previous notification, or if they've cleared the "Notify me when many files are deleted in the cloud" check box in OneDrive sync app settings.
+
+If you disable this policy, users will not receive a notification when they delete numerous OneDrive files on their local computer.
+
+If you do not configure this policy, users will see a notification when they delete more than 200 files within a short period of time.
+
+Enabling this policy sets the following registry key value to a number from 0 through 100000.
+[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"LocalMassDeleteFileDeleteThreshold"
 
 ### Require users to confirm large delete operations
 <a name="ForcedLocalMassDeleteDetection"> </a>
@@ -518,7 +537,7 @@ Enabling this policy sets the following registry key value to 1.
 
 This setting lets multiple users use the Office 365 ProPlus, Office 2019, or Office 2016 desktop apps to simultaneously edit an Office file stored in OneDrive. It also lets users share files from the Office desktop apps.
   
-If you enable this setting, the **Office** tab appears in OneDrive sync settings, and **Use Office 2016 to sync Office files that I open** is selected, by default.
+If you enable or do not configure this setting, the **Office** tab appears in OneDrive sync settings, and **Use Office 2016 to sync Office files that I open** is selected, by default.
   
 ![The Office tab in OneDrive sync app settings](media/c90cf228-c27e-4107-b4cf-2c0690a959a4.png)
 
