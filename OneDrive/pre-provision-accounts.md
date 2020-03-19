@@ -79,6 +79,37 @@ To verify that OneDrive has been created for your users, see [Get a list of all 
    >[!NOTE]
    >If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a    user's OneDrive isn't ready after 24 hours, please contact Support.
   
+# Pre-provisioning many users at the same time.
+
+The following snipped of code will pre-provision Onedrive for a large number of users in bigger companies.
+
+```Powershell
+    $list = @()
+    #Counters
+    $i = 0; $j = 0
+    
+
+    #Get licensed Users
+    $users=get-msoluser -All | ? {$_.islicensed -eq $true}
+    #total Licensed users
+    $count = $users.count
+
+    foreach ($u in $users){
+        $i++; $j++; 
+        Write-Host "$i/$count"
+
+        if ($j -lt 199){
+            $upn = $u.userprincipalname
+            $list += $upn
+        }
+        if ($j -gt 199){
+            Request-SPOPersonalSite -UserEmails $list
+            Start-Sleep -Milliseconds 655
+            $list = @()
+            $j = 0
+        }
+    }
+```
 ## See also
 
 [Plan hybrid OneDrive for Business](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)
