@@ -54,7 +54,7 @@ You can remove a web server or an application server from the server farm by uni
   
 1. Verify that the user account that completes this procedure has the following credentials:
     
-  - The user account that performs this procedure is a member of the Administrators group on the server.
+    - The user account that performs this procedure is a member of the Administrators group on the server.
     
 2. Stop the services that are running on the server. For information about how to determine which services are running on a specific server and stopping services, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
@@ -89,9 +89,9 @@ Verify that you have the following memberships:
   
 1. From a PowerShell command prompt, type the following command.
     
-  ```
-  Disconnect-SPConfigurationDatabase 
-  ```
+    ```
+    Disconnect-SPConfigurationDatabase 
+    ```
 
     > [!NOTE]
     > This cmdlet only removes the **local SharePoint server** from the SharePoint farm. It can't remove remote SharePoint servers or database servers from the SharePoint farm. 
@@ -105,20 +105,20 @@ You can remove a server from the SharePoint farm by using the PSConfig.exe tool 
   
 1. Verify that you have the following memberships:
     
-  - **securityadmin** fixed server role on the SQL Server instance. 
-    
-  - **db_owner** fixed database role on all databases that are to be updated. 
-    
-  - Administrators group on the server on which you are running the PSConfig.exe tool. 
-    
-    > [!NOTE]
-    > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. 
-  
-  - From a command prompt, type the following syntax.
-    
-  ```
-  psconfig.exe -cmd configdb -disconnect
-  ```
+    - **securityadmin** fixed server role on the SQL Server instance. 
+
+    - **db_owner** fixed database role on all databases that are to be updated. 
+
+    - Administrators group on the server on which you are running the PSConfig.exe tool. 
+
+      > [!NOTE]
+      > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. 
+
+    - From a command prompt, type the following syntax.
+
+      ```
+      psconfig.exe -cmd configdb -disconnect
+      ```
 
 ## Removing a database server from a SharePoint farm
 <a name="RemoveDB"> </a>
@@ -145,9 +145,9 @@ Before you remove a database server from a farm, make sure that you have moved a
   
 1. Verify that the user account that completes this procedure has the following credentials:
     
-  - The user account that performs this procedure is a member of the Farm Administrators SharePoint group.
-    
-  - The user account that performs this procedure is a member of the Administrators group on the server.
+    - The user account that performs this procedure is a member of the Farm Administrators SharePoint group.
+
+    - The user account that performs this procedure is a member of the Administrators group on the server.
     
 2. Stop the services that are running on the server. For information about how to determine which services are running on a specific server and stopping services, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
