@@ -587,6 +587,6 @@ Depending on where the OneDrive client originated—as part of an Office package
 
     Once downloaded, you can create a script in Configuration Manager by following the process in [Create and run PowerShell scripts from the Configuration Manager Console](/configmgr/apps/deploy-use/create-deploy-scripts/) or by using a traditional script-based application such as that in [Create applications in Configuration Manager](/configmgr/apps/deploy-use/create-applications/). When using either option, the command to update the OneDrive client using the installer is:
 
-```PowerShell
-<pathToExecutable>\OneDriveSetup.exe /update /restart
-```
+  ```PowerShell
+  <pathToExecutable>\OneDriveSetup.exe /update /restart
+  ```
