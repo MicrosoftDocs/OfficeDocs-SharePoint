@@ -37,7 +37,7 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 - Classic team site (STS#0) only.
 
-- Home page name is ‘Home.aspx’.
+- Home page name in any language is ‘Home.aspx’.
 
 - Contains default web parts only: getting started (GettingStartedWebPart), Newsfeed (SiteFeedWebPart), and document library (XsltListViewWebPart). 
 
@@ -46,6 +46,10 @@ We encourage users to adopt the change in order to benefit from the power of mod
 - DisplayFormTemplateName = "WikiEditForm".
 
 - ModernizeHomepageOptOut feature is not activated.
+
+- No custom master pages are detected.
+
+- The classic publishing feature is turned off.
 
 >[!NOTE]
 >All update criteria must be met in order for a team site home page to qualify for the automatic upgrade.
@@ -60,11 +64,15 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 - This update does not create an [Office 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
 
-- Classic site themes will not carry over to the new team site home page. [Learn how to brand your modern team site home page.](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience).
+- Classic site themes may not be identical once your page is updated to modern. [Learn how to apply custom styles and color to your site](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
 
 - Only site collection admins can revert to the classic home page through the link appearing in the left navigation. Site owners can revert to the classic page by visiting site pages and marking the classic page as their home page. 
 
 - Update happens on demand based on next site access. If a subsite is accessed, it will trigger the update for its root site collection and its other subsites. Remember, the update only applies to the root site collection and subsites if the criteria are met. 
+
+- We do not check the state of [custom actions](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins), therefore they will not transfer to your new modern page.
+
+- We do not check the state of modern SharePoint lists and libraries for classic sites.
 
 
 ## Why update classic team site home pages to modern? 
@@ -112,7 +120,7 @@ Add an out-of-the-box SharePoint [web part](https://support.office.com/article/c
 
 ## What about new classic team sites STS#0 created after this change? 
 
-Classic team sites (STS#0) created during the rollout of this feature, that are not customized will get updated if the criteria are met. Once the feature rollout is completed, any classic team sites (STS#0) created will retain their classic home page. 
+Classic team sites (STS#0) created after **May 1, 2020** will not get updated.  
 
  
 ## Can I also modernize the other pages in my sites? 

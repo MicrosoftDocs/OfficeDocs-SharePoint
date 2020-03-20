@@ -26,7 +26,7 @@ Learn how to resolve alerts about Access Services in the SharePoint Servers 2019
 The articles in this section are knowledge articles for Access Services in SharePoint Server. Typically, you would see these articles after clicking a link in an alert in the Operations Manager console. You can use these articles to help you troubleshoot and resolve problems in Access Services in SharePoint Server.
 
 > [!NOTE]
->  Access Services 2010 and 2013 are deprecated but will remain supported for SharePoint Server 2019. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Flows](https://flow.microsoft.com/) as potential alternatives to Access Services 2010 and 2013.
+>  Access Services 2010 and 2013 are deprecated but will remain supported for SharePoint Server 2019. We recommend to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010 and 2013.
 
 Download and install:
 

@@ -38,7 +38,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
 - For info about setting the default storage size, see [Set the default storage space for OneDrive users](set-default-storage-space.md).
 
-- For info about the storage you get with each plan, see [OneDrive for Business Service Description](/office365/servicedescriptions/onedrive-for-business-service-description.md).
+- For info about the storage you get with each plan, see [OneDrive for Business Service Description](https://docs.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description).
   
 > [!IMPORTANT]
 > The user accounts that you are pre-provisioning must be allowed to sign in.
@@ -79,6 +79,37 @@ To verify that OneDrive has been created for your users, see [Get a list of all 
    >[!NOTE]
    >If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a    user's OneDrive isn't ready after 24 hours, please contact Support.
   
+## Pre-provisioning many users at the same time.
+
+The following snipped of code will pre-provision OneDrive for a large number of users in bigger companies.
+
+```Powershell
+    $list = @()
+    #Counters
+    $i = 0; $j = 0
+    
+
+    #Get licensed Users
+    $users=get-msoluser -All | ? {$_.islicensed -eq $true}
+    #total Licensed users
+    $count = $users.count
+
+    foreach ($u in $users){
+        $i++; $j++; 
+        Write-Host "$i/$count"
+
+        if ($j -lt 199){
+            $upn = $u.userprincipalname
+            $list += $upn
+        }
+        if ($j -gt 199){
+            Request-SPOPersonalSite -UserEmails $list
+            Start-Sleep -Milliseconds 655
+            $list = @()
+            $j = 0
+        }
+    }
+```
 ## See also
 
 [Plan hybrid OneDrive for Business](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)

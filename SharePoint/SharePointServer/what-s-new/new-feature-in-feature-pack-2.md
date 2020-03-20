@@ -33,7 +33,7 @@ SharePoint Server 2016 Feature Pack 2 contains SharePoint Framework client-side 
   
 ## Related Topics
 
-[SharePoint Server](../sharepoint-server.md)
+[SharePoint Server](../sharepoint-server.yml)
   
 [New and improved features in SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md)
   
