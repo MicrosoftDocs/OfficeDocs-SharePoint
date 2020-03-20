@@ -47,11 +47,11 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
 1. If you're pre-provisioning OneDrive for many users, create a list of these users and save it as a file. For example, create a text file named Users.txt that contains:
 
-```
+    ```
     user1@contoso.com
     user2@contoso.com
     user3@contoso.com
-```
+    ```
 
 2. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -62,17 +62,17 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
     > [!NOTE]
     > The PowerShell command Request-SPOPersonalSite works only for users who are allowed to sign in. If you've blocked users from signing in, you can allow them to sign in by running the PowerShell command **Set-MsolUser** using the text file you created in Step 1.
-
+    >
     >```PowerShell
     >Get-Content -path "C:\Users.txt" | foreach{Set-MsolUser -UserPrincipalName $_ -BlockCredential $False}
     >```
 
 4. Run the PowerShell command [Request-SPOPersonalSite](/powershell/module/sharepoint-online/request-spopersonalsite?view=sharepoint-ps), consuming the text file you previously created in Step 1.
 
-    >```PowerShell
-    >$users = Get-Content -path "C:\Users.txt"
-    >Request-SPOPersonalSite -UserEmails $users
-    >```
+    ```PowerShell
+    $users = Get-Content -path "C:\Users.txt"
+    Request-SPOPersonalSite -UserEmails $users
+    ```
 
 To verify that OneDrive has been created for your users, see [Get a list of all user OneDrive URLs in your organization](list-onedrive-urls.md).
   
