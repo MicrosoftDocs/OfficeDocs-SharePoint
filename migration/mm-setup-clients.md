@@ -77,7 +77,7 @@ After a client is configured, anyone with the permission to go into the SharePoi
 
 ## Set up a single client
 
-1. Go to the [Desktop Tool (SPMT) page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [Desktop Tool (SPMT) page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 2. Select **Download client setup file**.
 3. Click **Run**.
 4. Enter your SharePoint admin username and password. These are to the SharePoint environment where you will be migrating your content. Click **Next**.
@@ -89,7 +89,7 @@ On completion this computer will be added to the available clients that the Migr
 
 Based on the size of the content you want to migrate, you can setup as many clients as you need. If you are setting up multiple clients, we recommend that you download the client setup file to a shared location. That way you can easily download the setup file on each of computer or VM.  
 
-1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 2. Select **Download client setup file**. If you previously downloaded the setup file, click the *Clients* tab and select **Add client**. Save the file to file to a shared location.
 3. Run the setup file on each VM or windows computer you plan on using to run migration tasks on.
 
