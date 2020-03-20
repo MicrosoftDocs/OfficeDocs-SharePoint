@@ -20,6 +20,12 @@ description: "This article explains the factors that influence migration speed a
 
 # General migration performance guidance
 
+>[!Important]
+>Many SharePoint Online and OneDrive customers run business-critical applications against the service that run in the background.  These include content migration, Data Loss Prevention (DLP), and backup solutions.  During these unprecedented times, we are taking steps to ensure that SharePoint Online and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
+>
+>In support of this objective, we have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours.  You should expect that these apps will achieve very limited throughput during these times.  However, during evening and weekend hours for the region, the service will be ready to process a significantly higher volume of requests from background apps.
+
+
 This article explains the factors that influence performance when migrating content to SharePoint Online and OneDrive.
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.
