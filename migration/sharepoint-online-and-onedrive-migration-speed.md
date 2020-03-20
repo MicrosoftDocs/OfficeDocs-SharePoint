@@ -20,7 +20,7 @@ description: "This article explains the factors that influence migration speed a
 >[!Important]
 > If you are experiencing a high volume of HTTP 503 responses blocking your migration **during evening and weekend hours**, please follow the steps under *My migration is blocked with consistent high volume of Http 503 errors ("Server Too Busy")?*   to create a support ticket.
 >
->Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and opening a support ticket will not lift throttle.
+>Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and opening a support ticket will not lift the throttle.
 > 
 
 
