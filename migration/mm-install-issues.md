@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting SPMT installation issues
+title: Troubleshooting Migration Manager installation issues
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -15,18 +15,15 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Troubleshoot common installation errors in the SharePoint Migration Tool."
+description: "Troubleshoot common installation errors in Migration Manager."
 ---
-# Troubleshooting SPMT installation issues
+# Troubleshooting agent installation issues in Migration Manager
 
-If you are having trouble installing the SharePoint Migration Tool, this article provides information on the possible causes and steps to correct the problem.
+If you are having trouble installing the agent file on your computers, this article provides information on the possible causes and steps to correct the problem.
 
-If after troubleshooting you still are experiencing problems, consider downloading and installing the public preview (beta) of SPMT. It contains the latest updates and fixes.</br>
-[Download SPMT Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) 
 
-## **Common issues**
+## **Make sure your computer meets the installation prerequisites**
 
-If you are having issues loading the SharePoint Migration tool, here are a few items that are commonly forgotten.
 
 |**Item**|**Requirement**|
 |:-----|:-----|
