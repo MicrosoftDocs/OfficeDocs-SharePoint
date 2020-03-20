@@ -96,7 +96,7 @@ Follow these steps:
 2. Ensure you are using the new admin center preview.
 
 >[!Note]
->If you are using the old M365 admin center you can skip step 8 as the “Description” field will not exist.
+>If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
 
 3. On the left navigation pane click **Support** and then **New Service Request**. 
 
@@ -111,7 +111,7 @@ Follow these steps:
      ![need help](media/need-help-100tb.png)
 
 5. Click **Contact Support**.
-6. Under **Description** enter “SharePoint Migration over 100TB”. 
+6. Under **Description** enter "SharePoint Migration over 100TB". 
 7. Fill out the remaining information and click **Contact me**.
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
 - Estimated size of your migration: 
@@ -125,7 +125,7 @@ Follow these steps:
 Answer:  Please check the guidance in this document, plus refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
 **Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**</br>
-Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
+Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and **opening a support ticket will not lift throttle**. Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
 </br></br>
 
 **Question: If you cannot turn off the throttle, what can I do if I am being throttled or experience poor performance?**</br>
@@ -137,13 +137,13 @@ Answer:  Here are some quick self-help checks to consider:</br>
 </br></br>
 
 
-**Question: My migration is blocked with consistent high volume of Http 503 errors (“Server Too Busy”) ?**</br>
-Answer: If you are experiencing a high volume of HTTP 503 responses blocking your migration for extended period of time, please follow the steps below to create a support ticket.
+**Question: My migration is blocked with consistent high volume of Http 503 errors ("Server Too Busy") ?**</br>
+Answer: If you are experiencing a high volume of HTTP 503 responses blocking your migration **during evening and weekend hours**, please follow the steps below to create a support ticket.
 1. Navigate to https://admin.microsoft.com
 2. Ensure you are using the new admin center preview.
 
 >[!Note]
->If you are using the old M365 admin center you can skip step 8 as the “Description” field will not exist.
+>If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
 
 3. On the left navigation pane click **Support** and then **New Service Request**. 
 
@@ -157,7 +157,7 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
      ![need help](media/need-help.png)
 
 5. Click **Contact Support**.
-6. Under **Description** enter “SharePoint Migration Throttling with 503”. 
+6. Under **Description** enter "SharePoint Migration Throttling with 503". 
 7. Fill out the remaining information and click **Contact me**.
 8. Once the ticket has been created please ensure you provide the support agent with the following information:
     - How much is left of your migration (x TB?) 
@@ -175,7 +175,7 @@ Answer:  Follow these steps and include the following information when filing Mi
 2. Ensure you are using the new admin center preview.
 
 >[!Note]
->If you are using the old M365 admin center you can skip step 8 as the “Description” field will not exist.
+>If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
 
 3. On the left navigation pane click **Support** and then **New Service Request**.This will activate the **Need Help?** pane on the right-hand side of your screen.
 
