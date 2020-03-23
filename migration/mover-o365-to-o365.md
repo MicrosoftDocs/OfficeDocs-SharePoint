@@ -1001,7 +1001,7 @@ The **Scan Report** is covered in-depth in the **Reports** subsection under the 
 
 #### Migrating users
 
-We recommend starting slow. Test for multiple usone user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
+We recommend starting slow. Test for one user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
 
 1. To select a user(s), check their row's respective checkbox.
 2. Select **Start Migrating X Users.**
