@@ -79,7 +79,7 @@ This article describes some common issues and errors that you may encounter when
 |0x02010010|Make sure the source list and target list have the same template. |
 |0x0204000D|All files and folders in the SPMT working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed during migration. Restart your migration.|
 |0x02040012|The temporary storage on your local computer is too low.  SPMT caches the package on the working folder. Expand your temporary storage and retry.|
-|0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissiosn. aRetry your migration.|
+|0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissions. Retry your migration.|
 |0x02050001|Local storage file is corrupted.  The working folder was touched or modified during the migration.  Retry your migration.|
 |0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the SPMT working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
 |0x02010006|The source SharePoint site does not have any defined role definitions. Check to see if your role exists when accessing source site.|
@@ -93,7 +93,7 @@ This article describes some common issues and errors that you may encounter when
 |0x01510001|Packages failed to upload. 	If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
 |0x01510001|Failed to Upload the Job to Server: Upload file failed during migration.|
 |0x02070009|Several packages failed to upload. Pause the task and check your network connection.|
-|0x01710009|A failure occured due to job end failures; some items failed in the package. Restart migration.|
+|0x01710009|A failure occurred due to job end failures; some items failed in the package. Restart migration.|
 |0x01710009|Errors or timeout for Server Processing the file: Not all the items in the package have been migrated.|
 |0x01610001|The Azure container is expired. Retry migration task.|   
 |0x01710006|Errors or timeout for Server Processing the file: Job Fatal Error.|
