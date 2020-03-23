@@ -5,8 +5,7 @@ ms.author: arnek
 author: arnek
 manager: pamgreen
 audience: Admin
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -23,7 +22,7 @@ Query spelling suggestions are words that appear below the search box as a user 
   
 Automatic query suggestions are generated daily for each result source and each site collection, so the query suggestions can be different for different result sources and site collections.
 
-For example, in the following screenshot, Contoso word is automatically suggested to the user.
+For example, in the following screenshot, "contoso" is automatically suggested.
 ![Screenshot of Query Suggestion.](media/query-suggestion.png)
   
 SharePoint has both a classic and a modern search experience, [learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md). The modern search experience uses the same default result source as the classic search experience. Automatic query suggestions for the default result source appear in both the classic and modern search experiences.
