@@ -109,11 +109,15 @@ You can remove a guest's permission to a site or folder, or you can delete the g
 
 To view or change the sharing setting for any site, use the new SharePoint admin center.
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has admin permissions for your organization.
->[!Note]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+
+    >[!Note]
+    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+
 2. Customize the view as necessary to see the External sharing column.
+
 3. If you need to, [change the external sharing setting for a site](/sharepoint/manage-sites-in-new-admin-center#change-the-external-sharing-setting-for-a-site).
+
 
 ## Methods of sharing
 
@@ -238,14 +242,15 @@ If a person’s guest account is deleted or their permission to shared content i
 - A notification will appear indicating that the library can’t be synced.
 
     ![We can't sync your document library notification](media/cant-sync-notification.png)
+    
 - The OneDrive icon in the notification area will show an error.
 
     ![OneDrive sync error icon](media/onedrive-error-icon.png)
 
-When the guest clicks the icon, they will see an error banner in the activity center.
+    When the guest clicks the icon, they will see an error banner in the activity center.
 
-![OneDrive needs your attention message](media/error-activity-center.png)
-![Request access or stop syncing library](media/error-resolution.png)
+    ![OneDrive needs your attention message](media/error-activity-center.png)
+    ![Request access or stop syncing library](media/error-resolution.png)
 
 ## Policy Setting to Prevent B2B Sync
 
@@ -256,10 +261,19 @@ You only need to take these actions if you wish to prevent users at your organiz
 The new BlockExternalSync setting is described in the adm\OneDrive.admx and OneDrive.adml files installed as part of the OneDrive sync product build 19.086.* or higher.  If you use ADM to manage your sync app policies, import the new files as you normally would to see the new setting.
 
 If you are using other management systems to deploy policies to your users' Windows PCs, use the equivalent of the following command to prevent B2B Sync:
+
+```console
 reg add "HKLM\SOFTWARE\Policies\Microsoft\OneDrive" /v BlockExternalSync /t REG_DWORD /d 1
+```
 
 On a Mac with the Apple Store version of OneDrive, use the equivalent of the following command to prevent B2B Sync:
+
+```console
 defaults write com.microsoft.OneDrive-mac BlockExternalSync -bool YES
+```
 
 On a Mac with the Standalone version of OneDrive, use the equivalent of the following command to prevent B2B Sync:
+
+```console
 defaults write com.microsoft.OneDrive BlockExternalSync -bool YES
+```
