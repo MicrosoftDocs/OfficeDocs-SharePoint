@@ -40,7 +40,7 @@ This article describes some common issues and errors that you may encounter when
 |*A duplicate task has already been created.*|The CSV file used to do bulk migration cannot have duplicate entries.  Remove the duplicate line(s) and try again.|
 |*The parent folder was not migrated*|The parent folder was not migrated, therefore all items under the folder will fail to migrate. Check your parent folder and retry your migration.|
 |*Task #, parameter 1. The source path should not be empty*|Confirm that the source path column in the CSV file has a value.|
-|*Task #, parameter 4. The target url is an invalid URL*|Confirm that the target url column in the CSV file has a value and is valid.|
+|*Task #, parameter 4. The target URL is an invalid URL*|Confirm that the target url column in the CSV file has a value and is valid.|
 |*Task #, parameter 5. The target list should not be empty*|Confirm that the target list column in the CSV file has a value.|
 
 
