@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.custom: 
-description: "How to troubleshoot common errors in the SharePoint Migration Tool."
+description: "How to troubleshoot common errors in Migration Manager."
 ---
-# Troubleshooting common SPMT issues and errors
+# Troubleshooting common Migration Manager issues and errors
 
-This article describes some common issues and errors that you may encounter when using the SharePoint Migration Tool (SPMT), and how to help you resolve them.
+This article describes some issues and errors that you may encounter when using Migration Manager, and how to help you resolve them.
 
 >[!Note]
-> For help on SPMT installation issues, see: [Troubleshooting SPMT installation issues](https://docs.microsoft.com/sharepointmigration/spmt-install-issues)
+> For help on Migration Manager agent installation issues, see: [Troubleshooting Migration Manager installation issues](https://review.docs.microsoft.com/sharepointmigration/mm-install-issues)
 
-## Common error messages
+## Frequently seen error messages
 
 |Message|Do this|
 |-----|-----|
@@ -42,7 +42,7 @@ This article describes some common issues and errors that you may encounter when
 
 
 
-## SPMT error codes 
+## Error codes 
 |**Error Code**|**Recommended action**|
 |:-----|:-----|
 |0x0201000D|Check if the list exists or if you can access it in the source site and target site.|
@@ -116,17 +116,3 @@ This article describes some common issues and errors that you may encounter when
 |Migrate term store failed due to default term store does not exist. |There is no default site collection term store at SP on-prem. |Go to SharePoint Server (on-premises) Central Administration, manage service application under Application Management, edit the properties of Managed Metadata Service Connection. Select the **This service application is the default storage location for column specific term sets**.|
 |Migrate term store failed due to several default term stores exist. |There are several default site collection term stores existing at SP on-prem. |Go to SharePoint OnPrem Central Administration, manage service application under Application Management, choose one Managed Metadata Service Connection as default term store. Deselect **This service application is the default storage location for column specific term sets** of other Managed Metadata Service Connections.|
 |Migrate pinned term failed due to its source term does not exist. |In some cases, the pinned term is in global term set (available for all sites connecting to this Managed Metadata Service Application), and the source term is in local term set (available for users of this site collection). Because SPMT will migrate the global terms first, then migrate the local ones, when trying to create the pinned term,  the source term has not been migrated yet.|Migrate again, and the pinned term will be created for the second time,  as the source term has been migrated before.|
-
-
-## Web part errors
-|**Error**|**Reason**|**Action**|
-|:-----|:-----|:-----|
-|Migration not supported web part | Currently, SPMT does not support this web part.| Check the list of currently supported web parts:  [SPMT supported web parts](spmt-supported-webparts.md) |
-|Migration failed due to referring list is missing |The list has not been added to the task list. |Check your web part and the referring list to ensure it is in your migration scope.|
-|Migration failed due to page being customized | SPMT currently does not support customized page migration. |Restore the page’s template page by using SharePoint Designer and restart your migration.|
-|Migration failed due to page migration failed |Migration of the page failed, and all the web parts on that page.| Retry migrating the failed page. If the page succeeds, then all the web parts on that page will successfully migrate.|
-|Migration failed due to it is an unsafe web part and the server setting ‘NoScript’| When the setting **NoScript** is turned on in the target SharePoint Online site, the web parts are considered to be unsafe as they could have the ability to execute JavaScript scripts or other code. Web parts will be blocked from migrating. |Turn off the  **NoScript** setting on the target SharePoint Online site so that these web parts will be unblocked. Important: Your site may be at risk if you turn off the settings. See this link for more info. |
-| Migration failed due to invalid XML definition |The XsltListView web part and ListView web part contain an XML definition which is critical for the migration of these web parts.  Sometimes the XML definition is invalid due to upgrading issues or server errors.|Delete the failed web part from the SharePoint Server  source page.  Re-add it and try the migration again.|
-| Migration failed due to invalid assembly name |The assembly name of the web part is critical for SPMT to migrate the web part. If the assembly of the web part cannot be parsed from its SOAP response the migration fails. |Check whether this web part is a supported “out-of-the box” (OOTB) web part. If it is supported, please file a bug and we will investigate.  However, if is a 3rd party web part, it is not supported. |
-|Migration failed due to web part connection failure. |The web part is connected to another web part that failed to migrate, causing both to fail. |Make sure the connected web part is migrated successfully. Re-try your migration.|
-|Migration failed due to unable to map user |If User field is a property of the web part, SPMT will attempt to map the user on the source web part (usually an on-premises user) to a user on the target SharePoint Online site. This error occurs when SPMT cannot map to the user. |Confirm that Azure Active Directory is used to sync all on-premises users to SharePoint Online. See this link for more info.|

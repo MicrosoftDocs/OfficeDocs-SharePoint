@@ -25,12 +25,18 @@ If you are having trouble installing the agent file on your computers, this arti
 ## **Make sure your computer meets the installation prerequisites**
 
 
-|**Item**|**Requirement**|
-|:-----|:-----|
-|System architecture| Must be x64|
-|.Net version |Must be 4.6.2 or higher. See [How to determine which versions are installed](https://docs.microsoft.com/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|
-|Microsoft Visual C++ 2015 Redistributable for X64.|SPMT is trying to add all the redistributions in packages, but missing some system dlls. Trying to install the package might help to resolve all the dependencies. Download: [Microsoft Visual C++ 2015 Redistributable Update 3 RC](https://www.microsoft.com/download/details.aspx?id=52685).|
-|Anti-virus| Stop 3rd party anti-virus software on your computer prior to installation.
+
+### Prerequisites
+|**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
+|:-----|:------|:-----|
+|CPU|64-bit quad core processor or better|64-bit 1.4 GHz 2-core processor or better|
+|.Net version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](https://docs.microsoft.com/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
+|RAM|16 GB|8GB|
+|Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
+|Network card|1 Gbps|High speed internet connection|
+|Operating system|Windows Server 2012 R2 or Windows 10 client|Windows Server 2012 R2 or Windows 10 client|
+|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
+|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |</br>
 
 
 ### Government cloud support
@@ -53,34 +59,6 @@ If you are on a government cloud, you must first take these steps:
 >[!Note]
 >**0** = Worldwide consumer cloud and GCC</br>
 >**2** = GCC high and DoD</br>
-
-
-### **Check to make sure all system prerequisites have been installed**
-
-#### Requirements for best performance
-
-|**Component**|**Recommendation**|
-|:-----|:-----|
-|CPU |64-bit quad core processor or better|
-|RAM |16 GB |
-|Local Storage|Solid state disk: 150 GB free space|
-|Network card|1 Gbps|
-|Operating system |Windows Server 2012 R2 or Windows 10 client  <br/> .NET Framework 4.6.2 |
-|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
-
-</br>
-
-#### Minimum requirements (expect slow performance)
-
-|**Component**|**Requirement**|
-|:-----|:-----|
-|CPU  |64-bit 1.4 GHz 2-core processor or better |
-|RAM|8 GB|
-|Local Storage|Hard disk: 150 GB free space|
-|Network card|High-speed Internet connection|
-|Operating system|Windows Server 2008 R2, Windows 7 updated or better  <br/> .NET Framework 4.6.2|
-|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
-   
 
 ## **Install errors**
 
