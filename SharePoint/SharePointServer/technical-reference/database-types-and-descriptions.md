@@ -89,7 +89,7 @@ The configuration database also contains specific data for SharePoint Server far
 #### Additional notes
 <a name="notes"> </a>
 
- **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are mirroring your system, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
+ **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are using SQL Server Always On availability groups or database mirroring, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
   
  **Backup and Restore**. The configuration database is backed up when you perform a SharePoint farm configuration and content backup. Note that some configuration settings from the database are exported and stored as XML file. When a farm is restored, the configuration database is not restored. Instead, the saved configuration settings are imported. The configuration database can be successfully backed up and restored by using SQL Server or other tools if the SharePoint farm is first taken offline.
   
