@@ -61,8 +61,9 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Office 365
-. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Office 365.
+
+     To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command:
  
@@ -97,7 +98,7 @@ You'll have to browse to each site collection that the user or guest visited, an
 
 1. Browse to the site and edit the URL by adding the following string to the end of it: **/_layouts/15/people.aspx?MembershipGroupId=0**
  
- 	For example, the full URL will resemble the following: **https://fabrikam.sharepoint.com/_layouts/15/people.aspx/membershipGroupId=0**
+     For example, the full URL will resemble the following: **https://fabrikam.sharepoint.com/_layouts/15/people.aspx/membershipGroupId=0**
 
 2. Select the person from the list, and then on the **Actions** menu, select **Delete Users from Site Collection**.
  

@@ -47,7 +47,7 @@ For info about the changing this setting at the organization level, see [File an
   
 ## Change the default link type for a site
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role)
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role)
  for your organization.
 
     > [!NOTE]
@@ -57,11 +57,11 @@ For info about the changing this setting at the organization level, see [File an
 
 3. Select **Sharing**.
 
-4. Under **Default sharing link type**, clear the **Same as organization-level setting** check box.
+4. Under **Default sharing link type**, clear the **Same as organization-level setting** checkbox.
 
     ![Screenshot of site-level default sharing link settings](media/default-sharing-link-type-site.png)
 
-5. Choose the default sharing link setting that you want to use for this site, and then click **Save**.
+5. Choose the default sharing link setting that you want to use for this site, and then select **Save**.
 
 > [!NOTE]
 > You can set the default link type to *People with existing access* by running [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) with the `-DefaultLinkToExistingAccess` parameter.
