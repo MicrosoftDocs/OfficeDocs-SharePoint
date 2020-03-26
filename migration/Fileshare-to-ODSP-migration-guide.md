@@ -18,7 +18,7 @@ ms.collection:
 search.appverid: MET150
 ms.custom: 
 ms.assetid: 
-
+description: "Learn how to evaluate the environment, prepare and migrate content from File sharing systems to OneDrive and SharePoint in Office 365."
 ---
 
 # File share to OneDrive and SharePoint Migration Guide

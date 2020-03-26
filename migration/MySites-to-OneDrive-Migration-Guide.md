@@ -15,7 +15,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-
+description: "Learn how to evaluate the environment, prepare and migrate content from MySites to OneDrive in Office 365."
 ---
 
 # MySites to OneDrive Migration Guide
