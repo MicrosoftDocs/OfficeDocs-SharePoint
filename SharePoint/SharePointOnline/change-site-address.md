@@ -154,3 +154,6 @@ SharePoint workflow 2013 will need to be re-published after the site address is 
   
 **Site customizations and embedded code**<br>
 Site customizations and embedded code that refer to URLs might need to be fixed after the site address change. Changing the site address will preserve data stored in SharePoint but won't change URL dependencies in custom solutions.
+
+**List View web part**<br>
+If a List View web part is added to a page and scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page and then add it again.
