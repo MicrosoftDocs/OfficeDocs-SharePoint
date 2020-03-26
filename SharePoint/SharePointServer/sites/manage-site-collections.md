@@ -15,7 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 606ba9e1-807a-4a1a-a1ad-4bad474e5371
-description: "Use these articles to learn how to manage site collections in SharePoint Server."
+description: "To learn how to manage site collections in SharePoint Server, see these articles."
 ---
 
 # Manage site collections in SharePoint Server
