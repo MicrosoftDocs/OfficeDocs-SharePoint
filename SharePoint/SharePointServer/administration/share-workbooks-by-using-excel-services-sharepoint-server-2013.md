@@ -19,7 +19,7 @@ description: "Excel Services in SharePoint Server enables you to share Excel con
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]
   
-Excel Services in SharePoint Server 2013 enables you to share all or parts of an Excel workbook with other people in a central location. When you publish a workbook to SharePoint Server 2013, you can choose between several browser view options (such as worksheet view and gallery view). You can also choose to display Excel content in a special SharePoint Web Part known as the Excel Web Access Web Part. Read this article to learn how to share workbooks using Excel Services.
+Excel Services in SharePoint Server 2013 enables you to share all or parts of an Excel workbook with other people in a central location. When you publish a workbook to SharePoint Server 2013, you can choose between several browser view options (such as worksheet view and gallery view). You can also choose to display Excel content in a special SharePoint Web Part known as the Excel Web Access Web Part. To learn how to share workbooks using Excel Services, see this article.
   
 In this article
   
