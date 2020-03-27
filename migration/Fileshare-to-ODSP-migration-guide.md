@@ -18,7 +18,7 @@ ms.collection:
 search.appverid: MET150
 ms.custom: 
 ms.assetid: 
-description: "Learn how to evaluate the environment, prepare and migrate content from File sharing systems to OneDrive and SharePoint in Office 365."
+description: "Learn how to evaluate the environment, prepare, and migrate content from File sharing systems to OneDrive and SharePoint in Office 365."
 ---
 
 # File share to OneDrive and SharePoint Migration Guide
@@ -186,5 +186,4 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 - [SharePoint Online video training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)
 - [Work together with OneDrive](https://support.office.com/article/626cff9f-9a56-472b-a77d-b019d97eec8d)
 - [Learn more about OneDrive](https://support.office.com/article/38acc14b-fd86-466e-b802-baece8107c86)
-
 
