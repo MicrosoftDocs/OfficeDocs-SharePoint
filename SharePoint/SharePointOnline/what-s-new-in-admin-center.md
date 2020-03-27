@@ -28,35 +28,35 @@ We're continuously adding new features to the new SharePoint admin center and fi
   
 ## December 2019
 
-- You can [customize the navigation pane to show or hide items](/sharepoint/get-started-new-admin-center#customize-the-navigation-pane).
+- **Customizable navigation pane**. You can [customize the navigation pane to show or hide items](/sharepoint/get-started-new-admin-center#customize-the-navigation-pane).
     
     ![The Customize navigation option at the bottom of the navigation pane.](media/customize-navigation.png)
 
-- On the Active sites page, you can [select and replace the root site](modern-root-site.md). 
+- **Root site replacement**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), you can [select and replace the root site](modern-root-site.md). 
 
     ![The Replace site button on the command bar.](media/replace-site-button.png)
 
-- On the Active sites page, you can point to a name in the Primary admin column or on the Permissions tab of the details panel and see info about the person. 
+- **People cards**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), you can point to a name in the Primary admin column or on the Permissions tab of the details panel and see info about the person. 
 
     ![A card showing details about a user.](media/people-card.png)
 
-- On the Active sites page, the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. [Learn more about managing sites](manage-sites-in-new-admin-center.md)
+- **Redesigned details panel**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the details panel that appears when you select a site has been redesigned to divide the information among multiple tabs. [Learn more about managing sites](manage-sites-in-new-admin-center.md)
 
     ![The General tab of the details panel](media/d0ddbc56-328e-42fb-b143-3faa14799fac.PNG)
 
-- On the Active sites page, when you select a site and then select **Sharing**, you can [change the default sharing link type and default link permissions for the site](change-external-sharing-site.md). 
+- **Additional site-level sharing settings**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), when you select a site and then select **Sharing**, you can [change the default sharing link type and default link permissions for the site](change-external-sharing-site.md). 
 
     ![Default sharing link type settings](media/default-sharing-link-type-site.png)
 
-- On the Active sites page, a new experience lets you manage all site admins in one panel, view site members and visitors, and add site admins to sites that belong to Office 365 groups. [Learn more about managing site permissions](site-permissions.md) 
+- **Site permission details**. On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), a new experience lets you manage all site admins in one panel, view site members and visitors, and add site admins to sites that belong to Office 365 groups. [Learn more about managing site permissions](site-permissions.md) 
 
     ![The permissions tab in the details panel.](media/permissions-panel.png)
 
-- The Settings page has been redesigned to let you see the value for each setting without selecting each one for more info.
+- **Redesigned Settings page**. The [Settings page](https://admin.microsoft.com/sharepoint?page=settings&modern=true) has been redesigned to let you see the value for each setting without selecting each one for more info.
 
     ![The Settings page.](media/settings-page.png)
 
-- Classic features can now be found under **More features**. [Learn where to find features in the new SharePoint admin center](/sharepoint/get-started-new-admin-center#where-to-find-things-in-the-new-sharepoint-admin-center)
+- **Updated More features page**. Classic features can now be found on the [More features page](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true). [Learn where to find features in the new SharePoint admin center](/sharepoint/get-started-new-admin-center#where-to-find-things-in-the-new-sharepoint-admin-center)
 
     ![The More features page.](media/more-features-page.png)
 
