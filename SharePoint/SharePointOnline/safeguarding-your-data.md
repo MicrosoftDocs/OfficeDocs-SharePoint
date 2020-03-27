@@ -1,5 +1,5 @@
 ---
-title: "How SharePoint Online and OneDrive safeguard your data in the cloud"
+title: "Cloud data security measures in SharePoint Online & OneDrive - SharePoint Online"
 ms.reviewer: mswann
 manager: 
 ms.author: kaarins

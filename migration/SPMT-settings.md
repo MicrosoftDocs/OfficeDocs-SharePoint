@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Tool Settings"
+title: "Available settings in SharePoint Migration Tool - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

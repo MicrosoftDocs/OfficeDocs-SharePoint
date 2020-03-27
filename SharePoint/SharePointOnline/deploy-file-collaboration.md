@@ -1,5 +1,5 @@
 ---
-title: "Plan and deploy a secure and productive file collaboration environment"
+title: "Plan & deploy a file collaboration environment - SharePoint Online"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT

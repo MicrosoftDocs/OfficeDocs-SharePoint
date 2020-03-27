@@ -1,5 +1,5 @@
 ---
-title: "Differences between the classic and modern search experiences in SharePoint"
+title: "Difference between classic and modern search experience - SharePoint Online"
 ms.reviewer: 
 author: MikePlumleyMSFT
 ms.author: mikeplum

@@ -1,5 +1,5 @@
 ---
-title: "General migration performance guidance"
+title: "Migration performance guide for SharePoint & OneDrive - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

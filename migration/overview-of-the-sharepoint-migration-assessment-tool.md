@@ -1,5 +1,5 @@
 ---
-title: "Overview of the SharePoint Migration Assessment Tool"
+title: "SharePoint Migration Assessment Tool - SharePoint Online"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen

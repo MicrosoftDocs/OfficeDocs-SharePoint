@@ -1,5 +1,5 @@
 ---
-title: "Restrict sharing of SharePoint and OneDrive content by domain"
+title: "Domain level restrictions for SharePoint & OneDrive content - SharePoint Online"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT

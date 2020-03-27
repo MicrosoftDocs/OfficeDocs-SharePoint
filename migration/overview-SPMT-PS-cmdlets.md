@@ -1,5 +1,5 @@
 ---
-title: "Using PowerShell cmdlets to migrate to SharePoint Online"
+title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

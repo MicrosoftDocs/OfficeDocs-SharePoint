@@ -1,5 +1,5 @@
 ---
-title: "MySites to OneDrive and SharePoint Migration Guide"
+title: "Migrate from MySites to OneDrive in Office 365 - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

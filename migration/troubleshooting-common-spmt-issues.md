@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting SharePoint Migration Tool"
+title: "Troubleshoot SharePoint Migration Toll - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
