@@ -16,7 +16,7 @@ search.appverid:
 - SPO160
 - MOE150
 ms.assetid: 1211e821-3559-4fbd-b157-853ac594d890
-description: "Configure the Content Search Web Part to cache search results for users who belong to the same AD security groups, and do this on pages that have more than 10 page loads per 15 minutes. Read this article to learn how."
+description: "Configure the Content Search Web Part to cache search results for users who belong to the same AD security groups, and do this on pages that have more than 10 page loads per 15 minutes. To learn how, see this article."
 ---
 
 # Make pages load faster with caching in the Content Search Web Part

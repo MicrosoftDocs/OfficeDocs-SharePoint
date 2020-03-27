@@ -102,7 +102,7 @@ Migrations are run on a per-user basis. Because of our app's scalable infrastruc
 
 Determining the distribution of data across the user base is an extremely important component of a migration because we copy data in a highly parallel manner, and our servers transfer data as fast as each cloud storage provider can handle. Office 365 has rate limits for how fast data can be downloaded and uploaded.
 
-The more users simultaneously being transfered, the higher our throughput for your migration. **We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.**
+The more users simultaneously being transferred, the higher our throughput for your migration. **We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.**
 
 >[!Note]
 >To maximize throughput, users should not own greater than 5TB of data. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds.
@@ -164,7 +164,7 @@ What may be surprising is how large of an impact factors other than the size of 
 
 For example, it is common for there to be half a second of overhead per file being moved. If you are moving 200,000 files, this would be 200,000 seconds or more than two days' worth of overhead alone!
 
-Suffice to say, we cannot give you exact estimates on time because there are too many factors at play at any given point. By the time you have read this section, we could have easily copied several files totalling many GB, or a few hundred files equaling a small amount of data.
+Suffice to say, we cannot give you exact estimates on time because there are too many factors at play at any given point. By the time you have read this section, we could have easily copied several files totaling many GB, or a few hundred files equaling a small amount of data.
 
 We are available to have a conversation with you about estimates.
 
@@ -180,7 +180,7 @@ Keep in mind that while cloud storage is sometimes just a container for files, p
 
 **Message**: A few months ago, management decided we will leaving Office 365 and transition to a new Office 365 domain. In the new Office 365, all employees will have access to cloud storage and its included apps.
 
-We will manage the migration to ensure all of our data gets transfered securely and efficiently. If you have any questions or concerns about the process, let me know.
+We will manage the migration to ensure all of our data gets transferred securely and efficiently. If you have any questions or concerns about the process, let me know.
 </br>
 
 **Subject**: ATTENTION: Important Info Regarding Cloud Data Migration
@@ -246,11 +246,11 @@ The process to authorize a Connector again is very simple:
 >[!Note]
 >You are unable to change the display name of the **Connector**. If you want to rename it, you must delete and re-add the **Connector**.
 
-**Connectors** are deauthorized automatically if they haven't transfered any data in the last 90 days. If you try to load a deauthorized **Connector** in the **Transfer Wizard**, an error message appears, along with a prompt to reauthorize the **Connector**.
+**Connectors** are automatically deauthorized if they haven't transferred any data in the last 90 days. If you try to load a deauthorized **Connector** in the **Transfer Wizard**, an error message appears, along with a prompt to reauthorize the **Connector**.
 
 ## Migration FAQ
 
-### What gets transfered?
+### What gets transferred?
 
 Only owned folders and the root files for each user are copied. If a user is not the owner of data they can access, we do not copy it. Content may be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
 
@@ -295,7 +295,7 @@ Not recommended. Any major changes in directory structure should happen before o
 
 The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process sees all changes as new data. So, for example, if you change a folder name at the root, we detect that as a new folder, and all of the contents is re-transfered, including all subfolders.
 
-When sharing permissions are transfered, both owners and collaborators receive duplicate data if content has been rearranged or renamed.
+When sharing permissions are transferred, both owners and collaborators receive duplicate data if content has been rearranged or renamed.
 
 ### What happens to external sharing links?
 
@@ -307,7 +307,7 @@ We do not share content with external collaborators. This policy is in place to 
 
 ### Does Mover preserve file versions?
 
-We do not preserve file versions. During a migration, only the most recent version of a file is transfered from Office 365 to Office 365.
+We do not preserve file versions. During a migration, only the most recent version of a file is transferred from Office 365 to Office 365.
 
 ### Does Mover notify users?
 
@@ -408,7 +408,7 @@ You may, however, delete your account — losing the schedules, connector author
 
 ### How do I check my transfer usage?
 
-Checking your usage of our app lets you know the total amount of gigabytes you have transfered over the history of your account.
+Checking your usage of our app lets you know the total amount of gigabytes you have transferred over the history of your account.
 
 To check your transfer data usage, follow these steps.
 
@@ -419,7 +419,7 @@ To check your transfer data usage, follow these steps.
 
 ### Will there be unsupported files and characters?
 
-Transfering from one Office 365 tenant to another means the source and the destination have the same limitations; therefore, your data should meet the compatibility requirements when downloading data from Office 365 and uploading data into Office 365.
+Transferring from one Office 365 tenant to another means the source and the destination have the same limitations; therefore, your data should meet the compatibility requirements when downloading data from Office 365 and uploading data into Office 365.
 
 ### Character limits for files and folders
 
@@ -429,7 +429,7 @@ Total path length for folder and filename combinations can have up to 400 charac
 
 ### What happens to OneNote notebooks?
 
-**OneNote notebooks** are viewed as folders in our app, with a table of contents (.onetoc2) file, and a file for each section (.one). These files are transfered to the destination, but will likely require reconfiguration in the destination.
+**OneNote notebooks** are viewed as folders in our app, with a table of contents (.onetoc2) file, and a file for each section (.one). These files are transferred to the destination, but will likely require reconfiguration in the destination.
 
 ### Are timestamps preserved?
 
@@ -626,7 +626,7 @@ Select **Continue Migration Setup**, and our app moves to the **Migration Manage
 
 ![Create migration](media/create-migration.png)
 
-The next step is to create a user list of who is transfering.
+The next step is to create a user list of who is transferring.
 
 From your newly created migration in the **Migration Manager**, there are two ways to add users:
 
@@ -1001,11 +1001,11 @@ The **Scan Report** is covered in-depth in the **Reports** subsection under the 
 
 #### Migrating users
 
-We recommend starting slow. Test for multiple usone user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
+We recommend starting slow. Test for one user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
 
 1. To select a user(s), check their row's respective checkbox.
 2. Select **Start Migrating X Users.**
-3. Review your migration summary. This informs you which user is being copied, where they are transfering from, and where to, as well as when the transfer will begin.
+3. Review your migration summary. This informs you which user is being copied, where they are transferring from, and where to, as well as when the transfer will begin.
 4. Review and agree to our terms and conditions, and then select **Continue**. Your users are immediately queued for migration.
 
 ![start migration](media/start_migration.png)
@@ -1045,7 +1045,7 @@ The following table lists additional info about each transfer status message fro
 |Running pre-checks|	Our servers checking a few things and sending your transfer to the queue. Almost there!|
 |Queued to start, please be patient|	Your transfer will run as soon as possible. You can close your browser, and receive an email on completion. There is no limit to queued users.|
 |Success. No files copied	|We have skipped all of your files without error, and have detected no new or modified files.|
-|Success. Some unsupported files not transfered|	We have skipped all of your files without error, and have detected no new or modified files. Files unsupported by the source or destination were skipped over.|
+|Success. Some unsupported files not transferred|	We have skipped all of your files without error, and have detected no new or modified files. Files unsupported by the source or destination were skipped over.|
 |Some upload errors, please retry|	We were able to download everything from the source, or skip files that already existed in the destination, but some files didn't make it into the destination.|
 |No files copied. Some upload errors, please retry	|We were able to download everything from the source, or skip files that already existed in the destination, but no files made it into the destination.|
 |Some download errors, please retry|	We weren't able to download everything from the source, but some files made it into the destination successfully.|
@@ -1142,8 +1142,8 @@ View an example CSV log or in your browser:
 
 |**Message**|**Definition**|
 |:-----|:-----|
-|Failed to download file successfully	|An issue occured with the Source Connector.|
-|Failed to upload file successfully	|An issue occured with the Destination Connector.|
+|Failed to download file successfully	|An issue occurred with the Source Connector.|
+|Failed to upload file successfully	|An issue occurred with the Destination Connector.|
 |Unknown error of type 400	|A 'bad request' error. It could be a problem with the Source (File Download) or Destination (File Upload). Typically, this means that something has changed client-side or server-side and could be resolved the next time you run the transfer.|
 |Unknown error of type 404	|This is a *server not found* error. Typically, this means that the Source (File Download) or Destination (File Upload) server is down or experiencing a temporary outage.|
 |Auth failure: attempt to renew authentication successful|	Authorization is failing either on the Source (File Download) or Destination (File Upload) Connector.|
@@ -1156,7 +1156,7 @@ View an example CSV log or in your browser:
 
 ### Dashboard overview
 
-The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transfered, and the amount of data scanned or transfered; as well as any issues, errors, or failures that may have occured.
+The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transferred, and the amount of data scanned or transferred; as well as any issues, errors, or failures that may have occurred.
 
 ![migration manager dash](media/migration-manager-dash.png)
 
@@ -1164,7 +1164,7 @@ The dashboard statistics given at the top of the **Migration Manager** provide a
 
 The **Transfers** section of the **Migration Manager** dashboard provides a brief rundown of all user transfers and scans.
 
-- **New**: Number of individual users that have yet to be scanned or transfered.
+- **New**: Number of individual users that have yet to be scanned or transferred.
 - **Running**: Number of users that are currently running either a scan or a transfer.
 - **Complete**: Number of users that have successfully completed scans or transfers.
 - **Issues**: Number of users that encountered errors during a scan or a transfer.
@@ -1177,9 +1177,9 @@ The **Transfers** section of the **Migration Manager** dashboard provides a brie
 
 #### Files
 
-The **Files** section of the **Migration Manager** dashboard provides a total of all files scanned and transfered across all users in a migration.
+The **Files** section of the **Migration Manager** dashboard provides a total of all files scanned and transferred across all users in a migration.
 
-- **Complete**: Number of files that have successfully scanned or transfered.
+- **Complete**: Number of files that have successfully scanned or transferred.
 - **Issues**: Number of files that have encountered issues and failed to scan or transfer.
 
 >[!Note]
@@ -1189,9 +1189,9 @@ The **Files** section of the **Migration Manager** dashboard provides a total of
 
 #### Data
 
-The **Data** section of the **Migration Manager** dashboard shows the total of all data scanned and transfered across all users in a migration.
+The **Data** section of the **Migration Manager** dashboard shows the total of all data scanned and transferred across all users in a migration.
 
-- **Complete**: Amount of data that has been successfully scanned and transfered.
+- **Complete**: Amount of data that has been successfully scanned and transferred.
 - **Issues**: Amount of data that encountered issues and has failed to scan or transfer.
 
 >[!Note]
@@ -1209,14 +1209,14 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 |**Filter label**|**Label effect**|
 |:-----|:-----|
 |Status|	Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
-|Files|	Filters based on files transfered, failed, and skipped.|
-|Data	|Filters based on data that has transfered, failed, or skipped.|
-|Success|	Displays all successful Data and Files transfered.|
+|Files|	Filters based on files transferred, failed, and skipped.|
+|Data	|Filters based on data that has transferred, failed, or skipped.|
+|Success|	Displays all successful Data and Files transferred.|
 |Failed	|Displays all Data and Files that have failed to transfer.|
 |Skipped	|Displays all data and files that were skipped.|
 |Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
 |Path	|Filters for specific source or destination path [for example, path:username].|
-|Destination|	Filters for specific destination path [for exaample, path:@domain<spam><spam>.com].|
+|Destination|	Filters for specific destination path [for example, path:@domain<spam><spam>.com].|
 |Source|	Filters for specific source path [for example, path:foldername].|
 |Destination path	|Functions the same as **Destination**.|
 |Source path	|Functions the same as **Source**.|
@@ -1233,14 +1233,14 @@ For more info about the scanning process, see the **Scanning** section.
 After the scan report is downloaded and opened, look for these key items:
 
 - Users with a failed status. We recommend rerunning the scan for these user(s).
-- Users with one file or less. **Note**: Sharing permissions are still transfered.
+- Users with one file or less. **Note**: Sharing permissions are still transferred.
 - Users with the most data. Use this info to decide about a data distribution strategy that suits your needs. For more info about data distribution, see **here**.
 
 ![scan report example](media/scan-report-example.png)
 
 ### Migration report
 
-The **Migration Report** provides an in-depth overview of your entire migration, including (but not limited to) speed and time statistics, totals for files and data transfered, and info relating to the latest run.
+The **Migration Report** provides an in-depth overview of your entire migration, including (but not limited to) speed and time statistics, totals for files and data transferred, and info relating to the latest run.
 
 To download this as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Report**.
 
@@ -1254,17 +1254,17 @@ The CSV report provides the following info for each user pairing.
 |Tags	|If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
 |Notes|	If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
 |First Run Start|	When the first transfer for this user pairing began.|
-|Files Transfered	|Total files transfered.|
-|MB Transfered	|Total data (MB) transfered.|
+|Files Transferred	|Total files transferred.|
+|MB Transferred	|Total data (MB) transferred.|
 |Times run|	Total number of times this user pairing has been run.|
 |Total Duration	|Total duration of each time this user pairing has been run.|
 |Average File Velocity (files/hour)|	Files transfered, divided by the total duration.|
 |Average Data Velocity (MB/hour)	|Data (MB) transfered, divided by the total duration.|
-|Last Status|	Last status of the user pairing.  This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
-|Last Status Code|	Internal reference number refering to the last status of the user pairing.|
+|Last Status|	Last status of the user pairing. This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
+|Last Status Code|	Internal reference number referring to the last status of the user pairing.|
 |Last Skipped|	Number of skipped files in the last run.|
-|Last Files|	Number of files transfered in the last run.|
-|Last MB	|Volume of data (MB) transfered in the last run.|
+|Last Files|	Number of files transferred in the last run.|
+|Last MB	|Volume of data (MB) transferred in the last run.|
 |Last MB Skipped	|Volume of data (MB) skipped in the last run.|
 |Last Failed Files	|Number of files that failed to transfer in the last run.|
 |Last Folders Listed	|Number of folders that we opened/created in the last run.|
@@ -1272,8 +1272,8 @@ The CSV report provides the following info for each user pairing.
 |Last Run Start	|When the latest transfer on this user pairing began.|
 |Last Run End	|When the latest transfer on this user pairing finished.|
 |Last Run Duration	|How long the latest transfer for this user pairing took to complete.|
-|Last File Velocity (files/hour)	|Files transfered, divided by the total duration for the last run.|
-|Last Data Velocity (MB/hour)|	Data (MB) transfered, divided by the total duration for the last run.|
+|Last File Velocity (files/hour)	|Files transferred, divided by the total duration for the last run.|
+|Last Data Velocity (MB/hour)|	Data (MB) transferred, divided by the total duration for the last run.|
 
 Download an example CSV:
 
@@ -1321,7 +1321,7 @@ Provide a link to set up their new Office 365 accounts. Be prepared to answer an
 **Message**: 
 Over the weekend, we migrated our team from Office 365 to our new Office 365.
 
-All files and folders were transfered without any issues. To set up your new Office 365 account, follow this link.
+All files and folders were transferred without any issues. To set up your new Office 365 account, follow this link.
 
 Your username remains the same; however, you must create a new password.
 

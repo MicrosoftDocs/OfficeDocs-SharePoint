@@ -32,7 +32,7 @@ This section describes prerequisite information that you need to know before you
 ### Who needs to read this and why
 <a name="Ad-WhoNeeds"> </a>
 
-This article is for IT professionals who must work with developers to deploy and maintain full-trust code based custom features across multiple site collections on a SharePoint Server 2013 farm. You should read this article to learn how you can use legacy custom features when you upgrade to SharePoint 2013, and what to do to help ensure that they work seamlessly for your users when site collections are upgraded from compatibility mode. It links to additional articles that provide more details for your developers.
+This article is for IT professionals who must work with developers to deploy and maintain full-trust code based custom features across multiple site collections on a SharePoint Server 2013 farm. To learn how you can use legacy custom features when you upgrade to SharePoint 2013, and what to do to help ensure that they work seamlessly for your users when site collections are upgraded from compatibility mode, see this article. It links to additional articles that provide more details for your developers.
   
 After a SharePoint Server 2010 farm is upgraded to SharePoint Server 2013, all site collections run in SharePoint 2010 compatibility mode. They remain in this mode until each site collection is upgraded to SharePoint 2013 mode. This way, your users can use the SharePoint Server 2010 user interface and functionality they're familiar with until you upgrade the individual site collection. You can also use the legacy custom features that you might have used in SharePoint Server 2010. You eventually will want to upgrade your site collections to SharePoint 2013 mode to take advantage of the new features and functionality it provides. When you make this upgrade, custom features that worked in SharePoint 2010 compatibility mode might no longer work. You need to make sure that there is continuity across SharePoint modes with the same features that are being used. This article describes how to do this.
   
@@ -289,7 +289,7 @@ For web application scoped features, if the root site collection has not been up
 Regarding branding customizations, custom master pages are reset by default to seattle.master after a site collection upgrade in SharePoint 2013. If you are using the feature masking scenario, you need to reset any custom master pages that you have created for SharePoint 2013 site collections. For details about how to do this, see the MSDN article [Use Feature upgrade to apply new SharePoint Server 2013 master pages when upgrading from SharePoint 2010](https://go.microsoft.com/fwlink/?LinkId=396567).
   
 > [!NOTE]
-> For more information about the branding considerations you need to make when you upgrade site collections in SharePoint 2013, see [Branding issues that may occur when upgrading to SharePoint 2013](https://office.microsoft.com/office365-sharepoint-online-enterprise-help/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013-HA104052656.aspx).
+> For more information about the branding considerations you need to make when you upgrade site collections in SharePoint 2013, see [Branding issues that may occur when upgrading to SharePoint 2013](/upgrade-and-update/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md).
   
 ## See also
 <a name="Add-OtherConsider"> </a>
@@ -300,4 +300,4 @@ Regarding branding customizations, custom master pages are reset by default to s
   
 [SharePoint 2013 and SharePoint Online solution pack for branding and site provisioning](https://www.microsoft.com/download/details.aspx?id=42030)
   
-[Branding issues that may occur when upgrading to SharePoint 2013](https://office.microsoft.com/office365-sharepoint-online-enterprise-help/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013-HA104052656.aspx)
+[Branding issues that may occur when upgrading to SharePoint 2013](/upgrade-and-update/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md)
