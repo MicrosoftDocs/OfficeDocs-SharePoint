@@ -1,5 +1,5 @@
 ---
-title: Information architecture in the SharePoint modern experience
+title: "Information architecture for modern experience - SharePoint Online"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla

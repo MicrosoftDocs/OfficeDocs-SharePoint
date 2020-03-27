@@ -1,5 +1,5 @@
 ---
-title: "Upload on-premises content to SharePoint Online using PowerShell cmdlets"
+title: "Use PowerShell cmdlets to upload on-premise content - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -21,7 +21,7 @@ ms.collection:
 search.appverid: MET150
 ms.custom: 
 ms.assetid: 555049c6-15ef-45a6-9a1f-a1ef673b867c
-description: ""
+description: "Learn how to use PowerShell cmdlets to migrate content from an on-premises file share to Office 365 SharePoint Online."
 ---
 
 # Upload on-premises content to SharePoint Online using PowerShell cmdlets

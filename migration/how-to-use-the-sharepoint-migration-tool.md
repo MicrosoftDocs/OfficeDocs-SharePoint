@@ -1,5 +1,5 @@
 ---
-title: "How to use the SharePoint Migration Tool"
+title: "How to use SharePoint Migration tool - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

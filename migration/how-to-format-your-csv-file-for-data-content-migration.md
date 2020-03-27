@@ -1,5 +1,5 @@
 ---
-title: "How to format your CSV or JSon file for data content migration"
+title: "Format JSon or CSV for data content migration - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

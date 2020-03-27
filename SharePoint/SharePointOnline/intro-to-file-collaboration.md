@@ -1,5 +1,5 @@
 ---
-title: "Intro to file collaboration in Microsoft 365, powered by SharePoint"
+title: "File collaboration in Microsoft 365 - SharePoint Online"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins

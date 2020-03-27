@@ -1,5 +1,5 @@
 ---
-title: "Introducing the SharePoint Migration Tool"
+title: "SharePoint Migration Tool for SharePoint and OneDrive - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

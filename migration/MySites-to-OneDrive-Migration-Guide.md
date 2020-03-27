@@ -1,5 +1,5 @@
 ---
-title: "MySites to OneDrive and SharePoint Migration Guide"
+title: "Migrate from MySites to OneDrive in Office 365 - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,7 +15,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-
+description: "Learn how to evaluate the environment, prepare, and migrate content from MySites to OneDrive in Office 365."
 ---
 
 # MySites to OneDrive Migration Guide
@@ -157,7 +157,6 @@ Currently, migration offerings available to you include:
 **Migration service providers**
 
 You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
-
 
 
 

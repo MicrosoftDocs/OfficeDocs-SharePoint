@@ -1,5 +1,5 @@
 ---
-title: "Use the App Catalog to make custom business apps available for your SharePoint environment"
+title: "Create custom business apps with App Catalog - SharePoint Online"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins

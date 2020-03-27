@@ -1,5 +1,5 @@
 ---
-title: "Use SharePoint as a business-to-business (B2B) extranet solution"
+title: "Use an extranet site in SharePoint as a B2B solution - SharePoint Online"
 ms.reviewer: sesham
 ms.author: mikeplum
 author: MikePlumleyMSFT

@@ -1,5 +1,5 @@
 ---
-title: "SharePoint and OneDrive integration with Azure AD B2B (Preview)"
+title: "Azure AD B2B integration for SharePoint & OneDrive - SharePoint Online"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT

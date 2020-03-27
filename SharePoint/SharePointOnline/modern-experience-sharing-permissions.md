@@ -1,5 +1,5 @@
 ---
-title: Sharing and permissions in the SharePoint modern experience
+title: "Sharing permissions in SharePoint modern experience - SharePoint Online"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT

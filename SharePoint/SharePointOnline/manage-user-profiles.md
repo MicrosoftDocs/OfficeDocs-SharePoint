@@ -1,5 +1,5 @@
 ---
-title: "Manage user profiles in the SharePoint admin center"
+title: "Manage user profiles in the SharePoint admin center - SharePoint Online"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins

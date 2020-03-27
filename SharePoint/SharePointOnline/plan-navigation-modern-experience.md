@@ -1,5 +1,5 @@
 ---
-title: Planning Navigation for the modern SharePoint experience
+title: "Navigation guide for modern Sharepoint experience - SharePoint Online"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
