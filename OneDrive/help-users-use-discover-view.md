@@ -43,7 +43,7 @@ Discover view functionality is available to Office 365 users in OneDrive, which 
 
 - Office 365 Government (E1, E3 and E4)
 
-- Office 365 Business Essentials
+- Microsoft 365 Business Basic
 
 - Office 365 Business Premium
 
