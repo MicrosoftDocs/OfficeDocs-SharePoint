@@ -554,7 +554,7 @@ This feature is not enabled for on-premises SharePoint sites.
 
 > [!IMPORTANT]
 > For optimum performance, we recommend storing no more than 300,000 files across all synced document libraries, even if you're using Files On-Demand or choosing only some folders within the libraries to sync.
-> Do not enable this setting for the same library to more than 1,000 devices. This is a limitation of Windows Push Notification Services (WNS).
+> Do not enable this setting for the same library to more than 1,000 devices, this is a limitation of Windows Push Notification Services (WNS).
 
 If you enable this setting, the OneDrive sync app automatically syncs the contents of the libraries you specified as online-only files the next time the user signs in. The user isn't able to stop syncing the libraries.  
 
