@@ -45,7 +45,7 @@ Help us improve the new SharePoint admin center! Tell us what you like or don't 
 
 3. Select **Open the new SharePoint admin center by default**, and then select **Save**.
 
-  ![The default admin experience setting](media/default-admin-experience.PNG)
+    ![The default admin experience setting](media/default-admin-experience.PNG)
 
 ## View reports
 
@@ -55,7 +55,7 @@ On the home page, at a glance, you can see:
     
 - The number of total and active sites each day for the past 30 days. ("Active" sites are any where users view a page or view, modify, upload, download, share, or sync a file.)
     
-![The reports on the home page](media/72b36579-70e8-4731-9e28-4f64cf577826.PNG)
+  ![The reports on the home page](media/72b36579-70e8-4731-9e28-4f64cf577826.PNG)
   
 > [!TIP]
 >  To filter a report, select an item in the legend. For example, on the **Files by activity type** chart, select **Viewed or edited**. <br>  To see values for a specific day, point to that day on the report. </br>  To see more details about a report, open the report in the Microsoft 365 admin center by selecting **Details**. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Microsoft 365 admin center, see [Office 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity) and [Office 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage). 
@@ -81,8 +81,8 @@ In the **Service health** section of the home page, you can see whether the Shar
 
 2. Select the items you want to appear in the nav pane, and then select **Save**.
 
-  > [!TIP]
-  > To minimize the nav pane, at the top of the nav pane, select the **Collapse navigation menu** icon.
+    > [!TIP]
+    > To minimize the nav pane, at the top of the nav pane, select the **Collapse navigation menu** icon.
 
 
 ## Where to find things in the new SharePoint admin center
