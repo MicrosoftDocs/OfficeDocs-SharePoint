@@ -45,7 +45,7 @@ Discover view functionality is available to Office 365 users in OneDrive, which 
 
 - Microsoft 365 Business Basic
 
-- Office 365 Business Premium
+- Microsoft 365 Business Standard
 
 Regardless of which of these Office 365 plans you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using the Discover view.
   

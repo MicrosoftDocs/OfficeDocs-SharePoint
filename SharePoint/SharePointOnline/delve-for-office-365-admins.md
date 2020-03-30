@@ -31,7 +31,7 @@ As an admin, you can make sure that you allow your organization to access Delve,
 ## What you need to get Delve
 <a name="BKMK_PrereqsDelve"> </a>
 
-Delve is available for Office 365 Enterprise (E1, E3, and E5), Office 365 Education (E1, E3 and E5), Office 365 Government (E1, E3 and E5), Microsoft 365 Business Basic and Office 365 Business Premium.
+Delve is available for Office 365 Enterprise (E1, E3, and E5), Office 365 Education (E1, E3 and E5), Office 365 Government (E1, E3 and E5), Microsoft 365 Business Basic and Microsoft 365 Business Standard.
   
 Regardless of which of these Office 365 plans you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using Delve. You also have to set up Exchange Online if you want attachments to show up on users' Home pages in Delve. If you set up Skype for Business Online, users can start Skype for Business Online conversations directly from Delve. And if you set up Yammer Enterprise, users can engage in Yammer conversations about documents directly from Delve.
   
@@ -159,7 +159,7 @@ There are a few things you should check if one or more users in your organizatio
     
   - Microsoft 365 Business Basic 
     
-  - Office 365 Business Premium 
+  - Microsoft 365 Business Standard 
     
  **Check that you've assigned the correct user licenses**
 <a name="#BKMK_CheckLicense"></a>
@@ -183,7 +183,7 @@ There are a few things you should check if one or more users in your organizatio
     
   - Microsoft 365 Business Basic plus SharePoint Online (Plan 1 or Plan 2)
     
-  - Microsoft Office 365 Business Premium plus SharePoint Online (Plan 1 or Plan 2)
+  - Microsoft 365 Business Standard plus SharePoint Online (Plan 1 or Plan 2)
     
     For more info about how to manage licenses, see [Assign licenses to users in Office 365 for business](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
     
