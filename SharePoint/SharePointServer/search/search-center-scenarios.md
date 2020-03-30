@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 3380e554-d1f8-46d6-9df0-cc102945f922
-description: "Use the information in this section to learn how to develop Search Center scenarios in SharePoint Server."
+description: "To learn how to develop Search Center scenarios in SharePoint Server, see this section."
 ---
 
 # Search center scenarios in SharePoint Server
