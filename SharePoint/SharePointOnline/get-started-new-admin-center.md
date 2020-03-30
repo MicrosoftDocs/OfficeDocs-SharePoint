@@ -99,9 +99,9 @@ If you're used to working in the classic SharePoint admin center, to learn where
 |On the **site collections** page, select **Buy Storage**.     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
 |On the **site collections** page, select **Recycle Bin**.    |    [**Deleted sites** page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true)    |         |
 |   **Sharing** page |       [**Sharing** page](https://admin.microsoft.com/sharepoint?page=sharing&modern=true)  |        The new page includes the most common settings, and others are coming soon. |
-|**Settings** page     |    [**Settings** page]( https://admin.microsoft.com/sharepoint?page=settings&modern=true)     |      The new page includes the most common settings, and others are coming soon. At the bottom of the new **Settings** page, to access all the classic settings, select **classic settings page**.    |
-|**Access control** page     |    [**Access control**] page(https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)     |     The new SharePoint admin center contains all the classic settings and more.    |
-|Term store, User profiles, Search, Apps, BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker). |   [**More features**] page(https://admin.microsoft.com/sharepoint?page=classicFeatures&modern=true)      |         |
+|**Settings** page     |    [**Settings** page](https://admin.microsoft.com/sharepoint?page=settings&modern=true)     |      The new page includes the most common settings, and others are coming soon. At the bottom of the new **Settings** page, to access all the classic settings, select **classic settings page**.    |
+|**Access control** page     |    [**Access control** page](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)     |     The new SharePoint admin center contains all the classic settings and more.    |
+|Term store, User profiles, Search, Apps, BCS, Secure store, Records management, InfoPath, Configure hybrid (hybrid picker). |   [**More features** page](https://admin.microsoft.com/sharepoint?page=classicFeatures&modern=true)      |         |
 
 
 ## See also
