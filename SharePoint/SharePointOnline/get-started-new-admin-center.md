@@ -27,8 +27,10 @@ To access the new SharePoint admin center:
 
 Go to the [home page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the home page.
+> [!NOTE]
+> If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page.
+> 
+> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the home page.
 
 > [!NOTE]
 > [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
@@ -43,7 +45,7 @@ Help us improve the new SharePoint admin center! Tell us what you like or don't 
 
 3. Select **Open the new SharePoint admin center by default**, and then select **Save**.
 
-![The default admin experience setting](media/default-admin-experience.PNG)
+  ![The default admin experience setting](media/default-admin-experience.PNG)
 
 ## View reports
 
@@ -79,8 +81,8 @@ In the **Service health** section of the home page, you can see whether the Shar
 
 2. Select the items you want to appear in the nav pane, and then select **Save**.
 
-> [!TIP]
-> To minimize the nav pane, at the top of the nav pane, select the **Collapse navigation menu** icon.
+  > [!TIP]
+  > To minimize the nav pane, at the top of the nav pane, select the **Collapse navigation menu** icon.
 
 
 ## Where to find things in the new SharePoint admin center
