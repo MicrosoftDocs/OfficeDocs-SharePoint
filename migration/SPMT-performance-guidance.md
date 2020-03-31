@@ -33,23 +33,23 @@ When using the SharePoint Migration Tool (SPMT), follow these guidelines to help
 During migration, information needs to be read from the source location. The speed at which that information can be read can impact your migration.  We recommend doing further testing to understand the actual bottleneck. 
 
 The speed is usually impacted by either 
-- The local network speed (between the computer running SPMT and the file server, or 
+- The local network speed (between the computer or VM running SPMT and the file server, or 
 - The performance of the file server itself.
 
 Suggestions:
 
-- Often local network speed is the problem. When the source content is located on the same computer on which SPMT is running, stop other applications which may compete the disk load for reading the data. 
--  Change the SPMT working folder setting to point to a different physical disk (if there is one) on your computer running SPMT.
+- Often local network speed is the problem. When the source content is located on the same computer or VM on which SPMT is running, stop other applications which may compete the disk load for reading the data. 
+-  Change the SPMT working folder setting to point to a different physical disk (if there is one) on your computer or VM running SPMT.
 
 
 
 ## Improving the migration computer speed
-SPMT executes a heavy load of data exchanging during the migration. Therefore the performance of the local disk of the computer running SPMT is important.
+SPMT executes a heavy load of data exchanging during the migration. Therefore the performance of the local disk of the computer or VM running SPMT is important.
 
 Suggestions:
  
 - Install and run SPMT on a computer with better disk performance, such as a fast SSD.   
-- The disk which hosts the SPMT working folder impacts the SPMT performance. If there are multipledisks on the computer, configure SPMT working folder setting to point to the disk with the best performance. 
+- The disk which hosts the SPMT working folder impacts the SPMT performance. If there are multiple disks on the computer, configure SPMT working folder setting to point to the disk with the best performance. 
 - Stop other applications which  creates a heavy load of disk operations when doing the migration.
 
 ## Improving your connectivity to 0ffice 365 and Azure 
