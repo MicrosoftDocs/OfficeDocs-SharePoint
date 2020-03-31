@@ -23,6 +23,9 @@ Undertaking any corporate migration is a daunting task. When moving from Office 
 
 If you experience any issues, do not hesitate to ask us questions!
 
+>[!Tip]
+> Need help? [Open a support request](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=c3fa6eba-e1f0-0715-4519-94a9740c5f2c)
+
 ### File processing summary
 
 When we transfer a file, a temporary copy is downloaded from **Office 365** to a temporary server and then uploaded to Office 365. Upon successful upload, that file is deleted from the temporary server. When your migration is complete, that temporary server is destroyed. Any log data expires in 90 days and is never retained by us. We do not perform any actions beyond copying files and folders and sharing permissions. We never perform delete operations.
