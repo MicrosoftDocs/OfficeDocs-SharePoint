@@ -28,7 +28,7 @@ To get started with OneDrive, follow these steps:
 
 1.  **Review basic OneDrive information.** Start by reviewing the introductory OneDrive information available at the [OneDrive help center](https://support.office.com/onedrive). You'll get answers to many of your questions, including the OneDrive experience and how it works.
 
-2.  **Set up a Microsoft Office 365 subscription.** You must set up an Office 365 subscription to use OneDrive, but you aren't required to purchase all the applications in the Office 365 suite. To get started, follow the steps in [Set up Office 365 for business](/office365/admin/setup/setup).
+2.  **Set up a Microsoft Office 365 subscription.** You must set up a subscription to use OneDrive, but you aren't required to purchase all the applications in the Microsoft 365 suite. To get started, follow the steps in [Set up Microsoft 365 Apps for business](/office365/admin/setup/setup).
 
 3.  **Add OneDrive licenses.** Review your plan options in [Compare OneDrive for Business plans](https://products.office.com/onedrive-for-business/compare-onedrive-for-business-plans), and then add the licenses you need.
 

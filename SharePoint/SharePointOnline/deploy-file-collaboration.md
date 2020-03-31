@@ -85,12 +85,11 @@ For details about how SharePoint and Teams interact, see [How SharePoint and One
 
 Office applications such as Word, Excel, and PowerPoint provide a wide variety of collaboration features, including co-authoring and @mentions, and are also integrated with sensitivity labels and data loss prevention (discussed below).
 
-We highly recommend deploying Office 365 ProPlus. Office 365 ProPlus provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
+We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 Apps for enterprise provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
 
-For details about deploying Office 365 ProPlus, see [Deployment guide for Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus).
+For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Aps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-for-Microsoft-365-Apps-for-enterprise).
 
 ## OneDrive libraries
-
 While SharePoint provides shared libraries for shared files that teams can collaborate on, users also have an individual library in OneDrive where they can store files that they own.
 
 When a user adds a file to their individual library, that file is not shared with anyone else. Users' individual libraries do, however, provide the same sharing capabilities as SharePoint, so users can share files in their individual libraries as needed.
@@ -149,11 +148,11 @@ When users share files and folders, a shareable link is created which has permis
       
     An *anyone* link is a transferrable, revocable secret key. It's transferrable because it can be forwarded to others. It's revocable because by deleting the link, you can revoke the access of everyone who got it through the link. It's secret because it can't be guessed or derived. The only way to get access is to get the link, and the only way to get the link is for somebody to give it to you.  
 
-  - *People in your organization* links work for only people inside your Office 365 organization. (They do not work for guests in the directory, only members).  
+  - *People in your organization* links work for only people inside your Microsoft 365 organization. (They do not work for guests in the directory, only members).  
 
     ![Diagram showing how people in my organization links can be passed from user to user inside the company](media/DMC_SharePointSharingLinks_PeopleInYourOrganization.png)
       
-    Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Office 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they'll be prompted to sign-in.  
+    Like an *anyone* link, a *people in my organization* link is a transferrable, revocable secret key. Unlike an *anyone* link, these links only work for people inside your Microsoft 365 organization. When somebody opens a *people in my organization* link, they need to be authenticated as a member in your directory. If they're not currently signed-in, they'll be prompted to sign-in.  
 
   - *Specific people* links only work for the people that users specify when they share the item.  
 
@@ -205,7 +204,7 @@ Data loss prevention sensitivity labels provide a way to classify groups, sites 
 
 Using sensitivity labels helps your users to share information safely and to maintain your governance policies without the need for users to become experts in those policies.
 
-For example, you could configure a policy that requires Office 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the “private” option when they choose a classification of confidential.
+For example, you could configure a policy that requires Office 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the "private" option when they choose a classification of confidential.
 
 **Conditions and actions**
 
@@ -293,11 +292,11 @@ For detailed information about Cloud App Security, see [Microsoft Cloud App Secu
 
 A variety of reports are available in Microsoft 365 to help you monitor site usage, document sharing, governance compliance, and a host of other events.
 
-For information about how to view reports on SharePoint site usage, see [Office 365 Reports in the Admin Center - SharePoint site usage](https://docs.microsoft.com/office365/admin/activity-reports/sharepoint-site-usage).
+For information about how to view reports on SharePoint site usage, see [Microsoft 365 Reports in the Admin Center - SharePoint site usage](https://docs.microsoft.com/office365/admin/activity-reports/sharepoint-site-usage).
 
-For information about how to view data loss prevention reports, see [View the reports for data loss prevention](https://docs.microsoft.com/office365/securitycompliance/view-the-dlp-reports).
+For info about how to view data loss prevention reports, see [View the reports for data loss prevention](https://docs.microsoft.com/office365/securitycompliance/view-the-dlp-reports).
 
-For information about how to view Cloud App Security reports, see [Generate data management reports](https://docs.microsoft.com/cloud-app-security/built-in-reports).
+For info about how to view Cloud App Security reports, see [Generate data management reports](https://docs.microsoft.com/cloud-app-security/built-in-reports).
 
 ### Manage threats
 

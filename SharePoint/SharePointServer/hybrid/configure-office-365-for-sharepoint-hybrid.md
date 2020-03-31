@@ -48,11 +48,11 @@ You might have already done some of these steps. If so, there's no need to repea
   
 ## 1. Sign up for Office 365
 
-You need an [Office 365 subscription](https://go.microsoft.com/fwlink/p/?LinkID=532795) in order to set up a hybrid environment with SharePoint Server. If you're planning to configure hybrid OneDrive for Business, be sure to subscribe to a plan that includes OneDrive for Business. All other hybrid SharePoint hybrid scenarios require an Enterprise plan that includes SharePoint Online. 
+To set up a hybrid environment with SharePoint Server, you need a [Microsoft 365 subscription](https://go.microsoft.com/fwlink/p/?LinkID=532795). If you're planning to configure hybrid OneDrive for Business, be sure to subscribe to a plan that includes OneDrive for Business. All other hybrid SharePoint hybrid scenarios require an Enterprise plan that includes SharePoint Online. 
   
 ## 2. Register your domain with Office 365
 
-When you sign up for Office 365, you're given an initial domain name that looks like contoso.onmicrosoft.com. However, in order to configure a hybrid environment with SharePoint Server, you must register a public domain that you own (such as contoso.com) in Office 365. For detailed information on how to do this, see [Work with domain names in Office 365](https://go.microsoft.com/fwlink/p/?LinkID=534807).
+When you sign up for Microsoft 365, you're given an initial domain name that looks like contoso.onmicrosoft.com. However, to configure a hybrid environment with SharePoint Server, you must register a public domain that you own (such as contoso.com) in Office 365. For detailed info about how to do this, see [Work with domain names in Office 365](https://go.microsoft.com/fwlink/p/?LinkID=534807).
   
 ## 3. Assign a UPN domain suffix
 <a name="assignUPN"> </a>

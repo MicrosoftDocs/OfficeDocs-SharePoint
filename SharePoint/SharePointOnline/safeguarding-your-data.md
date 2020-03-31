@@ -97,7 +97,7 @@ We have an automated workflow to identify machines that don't meet policies and 
   
 The Office 365 "Red Team" within Microsoft is made up of intrusion specialists. They look for any opportunity to gain unauthorized access. The "Blue Team" is made up of defense engineers who focus on prevention, detection, and recovery. They build intrusion detection and response technologies. To keep up with the learnings of the security teams at Microsoft, see [Security, Privacy, and Compliance Blog](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/bg-p/securityprivacycompliance).
   
-To monitor and observe activity in your Office 365 subscription:
+To monitor and observe activity in your Microsoft 365 subscription:
   
 - If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Office 365 Management APIs overview](/office/office-365-management-api/office-365-management-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP, and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For information, see [Overview of Office 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
     

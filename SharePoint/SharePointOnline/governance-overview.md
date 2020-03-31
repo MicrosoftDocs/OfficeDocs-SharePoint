@@ -48,5 +48,5 @@ Use these resources to further explore governance in SharePoint and related serv
 - [Office 365 Groups naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)
 - [Office 365 Group expiration policy](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)
 - [Guest access in Office 365 Groups](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
-- [Office 365 reports in the admin center – Office 365 Groups](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
+- [Microsoft 365 reports in the admin center – Office 365 Groups](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
 
