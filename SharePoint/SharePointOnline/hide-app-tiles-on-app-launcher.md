@@ -29,7 +29,7 @@ description: "See how to show or hide links to Sites or OneDrive."
 
 # Hide the OneDrive and SharePoint app tiles
 
-By default, the OneDrive and SharePoint app tiles appear in the app launcher and on the Office 365 portal. If your subscription doesn't include one of these services, or if you don't want users using one of them, you can hide the app tile for it.
+By default, the OneDrive and SharePoint app tiles appear in the app launcher and on the Microsoft 365 admin center​. If your subscription doesn't include one of these services, or if you don't want users using one of them, you can hide the app tile for it.
   
 ![Office 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
@@ -39,7 +39,7 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 ## To hide app tiles
 <a name="__top"> </a>
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
@@ -53,7 +53,7 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
     > [!NOTE]
     > If you have an Office 365 Education subscription, you also have the option to hide **OneNote Class Notebooks** and **OneNote Staff Notebooks**. <br>> Hiding the OneDrive tile also hides the tiles for Word, Excel, PowerPoint, and OneNote.
   
-4. Select **OK** to save the settings.
+4. To save the settings, select **OK**.
     
 ## See also
 <a name="__top"> </a>

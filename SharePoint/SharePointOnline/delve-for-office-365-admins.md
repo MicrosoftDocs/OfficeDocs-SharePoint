@@ -33,7 +33,7 @@ As an admin, you can make sure that you allow your organization to access Delve,
 
 Delve is available for Office 365 Enterprise (E1, E3, and E5), Office 365 Education (E1, E3 and E5), Office 365 Government (E1, E3 and E5), Microsoft 365 Business Basic and Microsoft 365 Business Standard.
   
-Regardless of which of these Office 365 plans you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using Delve. You also have to set up Exchange Online if you want attachments to show up on users' Home pages in Delve. If you set up Skype for Business Online, users can start Skype for Business Online conversations directly from Delve. And if you set up Yammer Enterprise, users can engage in Yammer conversations about documents directly from Delve.
+Regardless of which of these Office 365 subscriptions you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using Delve. You also have to set up Exchange Online if you want attachments to show up on users' Home pages in Delve. If you set up Skype for Business Online, users can start Skype for Business Online conversations directly from Delve. And if you set up Yammer Enterprise, users can engage in Yammer conversations about documents directly from Delve.
   
 Delve is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome or Safari.
 
@@ -120,14 +120,14 @@ There are a few things you should check if one or more users in your organizatio
   
 - [Check that you allow your organization to access Delve](#BKMK_OfficeGraphAccess).
     
-- Check that you're using an Office 365 plan that supports Delve
+- Check that you're using an Office 365 subscription that supports Delve.
     
-- Check that you've assigned the correct user licenses
+- Check that you've assigned the correct user licenses.
     
  **Check that you allow your organization to access Delve**
 <a name="BKMK_OfficeGraphAccess"></a>
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
@@ -218,7 +218,7 @@ The user pictures in Delve are from the SharePoint Online user profiles. If ther
   
 However, if other users still have  *access*  to documents from a user who has turned off **Documents**, they can still see those documents in Delve, just as they can search for them in SharePoint Online.
   
-Other information that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as information from the Azure Active Directory.
+Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Azure Active Directory.
   
  **Solution(s)**
   

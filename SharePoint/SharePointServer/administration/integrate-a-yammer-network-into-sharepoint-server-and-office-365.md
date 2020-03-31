@@ -36,13 +36,13 @@ For this scenario, we assume that:
 - You have already established directory synchronization with Office 365. 
     
 > [!IMPORTANT]
-> Planning your Office 365 user management is fundamental to deploying Office 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Office 365 uses Microsoft Azure Active Directory to provide authentication to Office 365 services, includingYammer Enterprise. This means Office 365 uses the identity that is synchronized with Azure AD to provide authentication. 
+> Planning your Office 365 user management is fundamental to deploying Office 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Office 365 uses Microsoft Azure Active Directory to provide authentication to Office 365 services, including Yammer Enterprise. This means Office 365 uses the identity that is synchronized with Azure AD to provide authentication. 
   
 ## Step 1: Configure directory synchronization
 
 You probably have already set up directory synchronization for Office 365 and your on-premises directory. If not, sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
-For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
+For more info, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
 
 ## Step 2: Use Yammer Embed
 

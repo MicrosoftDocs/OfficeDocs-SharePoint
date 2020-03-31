@@ -35,7 +35,7 @@ For this scenario, we assume that:
     
 ## Step 1: Purchase Yammer Enterprise
 
-Yammer Enterprise is included in many Office 365 plans, which means that you might already have licenses for the service. 
+Yammer Enterprise is included in many Office 365 subscriptions, which means that you might already have licenses for the service. 
   
 ## Step 2: Create your Yammer network
 
