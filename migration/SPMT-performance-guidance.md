@@ -19,42 +19,52 @@ description: "How to improved performance when using the SharePoint Migration To
 ---
 
 
-## Recommendations possibility 
+## Recommendations 
 
--	Improving the speed at which the source can be read will be most beneficial
--	Improving the migration machine speed will be most beneficial
--	Improving your connectivity to Azure/0365 will be most beneficial
--	[Performing migration following our published guidance will be most beneficial](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
-
-
-Article for each recommendation
-
-Improving the speed at which the source can be read 
-When it comes to migration, the information needs to be read from a source and the speed at which that information can be one of bottleneck for your migration.
-We recommend doing further test to understand which of the two is the actual bottleneck.
-the local network speed (between the SPMT machine and the file server)
-or
-the performance of the file server itself.
-Often, local network speed is the problem.
-When the source is the migrating machine, it is suggested to stop other application which may compete the disk load for reading the data. In the same time, configuring the SPMT setting to change the working folder to a different physical disk (if there is) is also something worth trying.
+-	[Improving the speed at which the source can be read](#improving-the-speed-at-which-the-source-can-be-read)
+-	[Improving the migration computer speed](#improving-the-migration-computer-speed)
+-	[Improving your connectivity to Azure/0365](#improving-your-connectivity-to-Azure-and-Office-365)
+-	[Performing migration following our published guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
 
 
+## Improving the speed at which the source can be read 
+During migration, information needs to be read from the source location. The speed at which that information can be read can impact your migration.  We recommend doing further testing to understand the actual bottleneck. 
 
-Improving the migration machine speed
-SPMT need a heavy load for data exchanging during the migration. So, the performance of the local disk of machine running the migration is important.
-Suggestion: 
-1.	Running the migration in a machine with better disk performance. It’s better to use a fast SSD. 
-2.	The disk which hosts the SPMT working folder impacts the SPMT performance. If there are multi disks in the machine, make sure the working folder is setting to the disk with better performance. There is a setting item in SPMT to configure the working folder.
-3.	Stop other applications which may put heave load of disk operations when doing the migration.
+The speed is usually impacted by either 
+- The local network speed (between the computer running SPMT and the file server, or 
+- The performance of the file server itself.
 
-Improving your connectivity to 0365/Azure 
-This is the speed of the network connection between the migration machine and Azure blob storage service. 
-Suggestion: 
-1.	Improve the bandwidth of the network access of the migration machine.
-2.	Running the SPMT in a machine with fast network access
-3.	Stop other application which may compete the network access with SPMT
+Suggestions:
 
-Performing migration following our best practice 
-Article that Annie created
+- Often local network speed is the problem. When the source content is located on the same computer on which SPMT is running, stop other applications which may compete the disk load for reading the data. 
+-  Change the SPMT working folder setting to point to a different physical disk (if there is one) on your computer running SPMT.
+
+
+
+## Improving the migration machine speed
+SPMT executes a heavy load of data exchanging during the migration. Therefore the performance of the local disk of the computer running SPMT is important.
+
+Suggestions:
+ 
+- Install and run SPMT on a computer with better disk performance, such as a fast SSD.   
+- The disk which hosts the SPMT working folder impacts the SPMT performance. If there are multipledisks on the computer, configure SPMT working folder setting to point to the disk with the best performance. 
+- Stop other applications which  creates a heavy load of disk operations when doing the migration.
+
+## Improving your connectivity to 0ffice 365 and Azure 
+
+The speed of the network connection between the computer running SPMT and the Azure blob storage service can impact your migration performance.  
+
+Suggestions: 
+
+- Improve the bandwidth of the network access of the computer running SPMT.
+- Run SPMT on a computer with fast network access
+- Stop other applications that may compete for network access with SPMT
+
+
+## Performing migration following our best practice 
+
+Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration. These are detailed here:
+
+- [General guidelines for migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
 
 
