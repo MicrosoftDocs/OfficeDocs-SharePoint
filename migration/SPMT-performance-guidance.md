@@ -43,7 +43,7 @@ Suggestions:
 
 
 
-## Improving the migration machine speed
+## Improving the migration computer speed
 SPMT executes a heavy load of data exchanging during the migration. Therefore the performance of the local disk of the computer running SPMT is important.
 
 Suggestions:
