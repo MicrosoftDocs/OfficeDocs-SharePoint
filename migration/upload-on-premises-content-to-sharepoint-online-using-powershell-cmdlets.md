@@ -18,8 +18,9 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
-ms.custom: 
 ms.assetid: 555049c6-15ef-45a6-9a1f-a1ef673b867c
 description: "Learn how to use PowerShell cmdlets to migrate content from an on-premises file share to Office 365 SharePoint Online."
 ---

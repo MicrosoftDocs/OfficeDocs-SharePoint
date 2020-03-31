@@ -15,6 +15,8 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
 description: "The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily copies them to your SharePoint Online tenant."
 ---

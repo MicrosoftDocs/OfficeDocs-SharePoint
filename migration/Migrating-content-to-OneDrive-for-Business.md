@@ -14,6 +14,8 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 description: "Migrating Content to OneDrive for Business."
 ---
 # Migrate content to OneDrive for Business 

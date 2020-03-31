@@ -13,6 +13,8 @@ localization_priority: Priority
 ms.collection: 
 - M365-collaboration
 - SPMigration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
 description: Get started with Migration Manager
 ---

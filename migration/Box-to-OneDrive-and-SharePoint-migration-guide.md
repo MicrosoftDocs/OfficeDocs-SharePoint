@@ -15,8 +15,9 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
-ms.custom: 
 ms.assetid: 
 description: "Learn how to evaluate the environment, prepare, and migrate content from Box to OneDrive in Office 365."
 ---

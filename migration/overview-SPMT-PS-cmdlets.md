@@ -18,6 +18,8 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
 description: "New Powershell cmdlets let you migrate to SharePoint Online."
 ---

@@ -10,6 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.custom:
 - 'ManageAppCatalog'
+- 'seo-marvel-mar2020'
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  

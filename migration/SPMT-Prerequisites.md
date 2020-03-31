@@ -13,6 +13,8 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 description: "Prerequisites for SPMT"
 ---
 # Prerequisites for the SharePoint Migration Tool</br>
