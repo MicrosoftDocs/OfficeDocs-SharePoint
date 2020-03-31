@@ -34,6 +34,7 @@
 ### [Office 365 to Office 365 (tenant to tenant)](mover-o365-to-o365.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
+### [SPMT migration performance guidelines](spmt-performance-guidance.md)
 ## SPMT Migration Scenario Guides
 ### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
