@@ -13,7 +13,8 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - MET150
- 
+ms.custom:
+- seo-marvel-mar2020
 description: "Learn how the classic and modern search experiences in SharePoint differ"
 ---
 

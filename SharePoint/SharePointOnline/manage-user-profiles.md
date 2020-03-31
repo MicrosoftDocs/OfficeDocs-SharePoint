@@ -11,6 +11,7 @@ ms.topic: article
 ms.custom:
 - 'ViewUserProfiles'
 - 'SPOTAMgUserProfiles'
+- 'seo-marvel-mar2020'
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  

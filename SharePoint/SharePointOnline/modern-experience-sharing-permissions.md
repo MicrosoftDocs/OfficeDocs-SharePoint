@@ -12,6 +12,8 @@ ms.service: sharepoint-online
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid:
 - SPO160
 - MET150

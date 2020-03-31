@@ -15,8 +15,9 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
-search.appverid: MET150
-ms.custom: 
+ms.custom:
+- seo-marvel-mar2020
+search.appverid: MET150 
 ms.assetid: 
 description: "How to format your JSON or CSV file for data content migration"
 ---

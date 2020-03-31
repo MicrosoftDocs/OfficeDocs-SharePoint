@@ -16,7 +16,8 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-ms.custom: 
+ms.custom:
+- seo-marvel-mar2020
 description: "How to troubleshoot common errors in the SharePoint Migration Tool."
 ---
 # Troubleshooting common SPMT issues and errors

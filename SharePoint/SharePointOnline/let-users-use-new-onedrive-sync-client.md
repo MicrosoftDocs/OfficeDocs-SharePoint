@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid:
 - SPO160
 - ODB160

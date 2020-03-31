@@ -14,6 +14,8 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 description: "Download and install the SharePoint Migration Tool."
 ---
 

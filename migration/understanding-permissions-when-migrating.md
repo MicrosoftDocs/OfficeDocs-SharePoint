@@ -13,6 +13,8 @@ localization_priority: Normal
 mscollection: 
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
 ms.assetid: 
 description: "File and folder permissions when using the SharePoint Migration Tool (SPMT)."
