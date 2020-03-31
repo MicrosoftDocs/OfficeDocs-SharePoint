@@ -17,7 +17,9 @@ ms.collection:
 search.appverid: MET150
 description: "How to improved performance when using the SharePoint Migration Tool."
 ---
+# Improving your migration performance when using SPMT
 
+When using the SharePoint Migration Tool (SPMT), follow these guidelines to help improve your migration performance.
 
 ## Recommendations 
 
