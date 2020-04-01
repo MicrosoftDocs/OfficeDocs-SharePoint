@@ -100,7 +100,7 @@ On devices running Windows or macOS, users can install the OneDrive sync app to 
 
 The two main decisions to consider for using OneDrive in collaboration scenarios are:
 
-  - Do you want to allow Office 365 users to share files in their own library with people outside your organization?
+  - Do you want to allow users to share files in their own library with people outside your organization?
 
   - Do you want to restrict file sync in any way – such as only to managed devices?
 
@@ -130,11 +130,11 @@ These are each discussed in more detail below. There are many options to choose 
 
 The sharing settings that you configure for SharePoint and OneDrive determine who your users can collaborate with, both inside and outside your organization. Depending on your business needs and the sensitivity of your data, you can:
 
-  - Disallow sharing with people outside your organization
+  - Disallow sharing with people outside your organization.
 
-  - Require people outside your organization to authenticate
+  - Require people outside your organization to authenticate.
 
-  - Restrict sharing to specified domains
+  - Restrict sharing to specified domains.
 
 You can configure these settings for the entire organization, or for each site independently. For detailed information, see [Turn sharing on or off](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off) and [Turn sharing on or off for a site](https://docs.microsoft.com/sharepoint/change-external-sharing-site).
 

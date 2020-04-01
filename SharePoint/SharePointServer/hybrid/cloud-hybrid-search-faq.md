@@ -240,44 +240,44 @@ By default, all people in the SharePoint Online User Profile application will be
 
 There are two ways to approach this problem today:
 
-- Make the Office 365 User Profile service the primary source of user information and let Office 365 Search take care of the indexing and presentation. With this approach, you do not need to crawl people on-premises.
+- Make the Office 365 User Profile service the primary source of user info, and let Office 365 Search take care of the indexing and presentation. With this approach, you do not need to crawl people on-premises.
 
-- Crawl the on-premises people profile store in addition to O365 crawling the tenant profile store. This will result in the described scenario of duplicate search results for each person; however, you can use query transformation to decide which results you want to display, even providing the ability for end users to choose between the different result sources at query time.
+- Crawl the on-premises people profile store in addition to Office 365 crawling the tenant profile store. This will result in the described scenario of duplicate search results for each person; however, you can use query transformation to decide which results you want to display, even providing the ability for end users to choose between the different result sources at query time.
 
-To utilise the on-premises profile store as the primary people search source, you should follow these steps:
+To utilize the on-premises profile store as the primary people search source, follow these steps:
 
 1. Create a new result source or copy the existing people results source.
 
-2. Edit the new result source and modify the Query Transformation box to include the Managed Property IsExternalContent as follows: `{?{searchTerms} ContentClass=urn:content-class:SPSPeople IsExternalcontent:1}`
+2. Edit the new result source, and modify the Query Transformation box to include the Managed Property IsExternalContent, as follows: `{?{searchTerms} ContentClass=urn:content-class:SPSPeople IsExternalcontent:1}`
 
 3. Create a new search results page and configure the Core Search Results web part to consume this new search result source.
 
-4. Complete the implementation by adding the new page to the search navigation settings. This will add the new page as a search vertical within the search center.
+4. Complete the implementation by adding the new page to the search navigation settings. This adds the new page as a search vertical within the search center.
 
-To utilise the Office 365 profile store as the primary people search source, you should follow the same steps but using a slightly different query transformation at step two, as follows:
+To utilize the Office 365 profile store as the primary people search source, follow the same steps but using a slightly different query transformation at step two, as follows:
 
 `{?{searchTerms} ContentClass=urn:content-class:SPSPeople NOT IsExternalcontent:1}`
 
 > [!NOTE]
-> The difference in the two transform is the insertion of NOT before the managed property to force the exclusion of External content, i.e non-Office 365 People Results.
+> The difference in the two transform is the insertion of NOT before the managed property to force the exclusion of External content, (for example, non-Office 365 People Results).
 
 ***I only see preview of Office documents in search results if the content resides in SharePoint Online. Office documents that reside in SharePoint on-premises do not show previews. Is this expected?***
 
-To enable previews for on-premises content, you need to set up an on-premises Office Web Apps Server (SharePoint Server 2013 only) or Office Online Server (SharePoint Server 2013 and higher) and configure SharePoint Server to use it. The guidelines are documented [here](https://docs.microsoft.com/SharePoint/hybrid/enable-previews-of-on-premises-search-results-in-cloud-hybrid-search). The behavior is a little different with site/webpage previews (aspx). When searching from SharePoint Online, you will see previews of aspx pages for the pages in SharePoint Online farm and not for the aspx pages from SharePoint Server. Currently, the site and web page hover templates check that the result item has the same host name as the current host. This is by design.
+To enable previews for on-premises content, you need to set up an on-premises Office Web Apps Server (SharePoint Server 2013 only) or Office Online Server (SharePoint Server 2013 and higher) and configure SharePoint Server to use it. The guidelines are documented [here](https://docs.microsoft.com/SharePoint/hybrid/enable-previews-of-on-premises-search-results-in-cloud-hybrid-search). The behavior is a little different with site/webpage previews (aspx). When searching from SharePoint Online, previews appear of aspx pages for the pages in SharePoint Online farm and not for the aspx pages from SharePoint Server. Currently, the site and web page hover templates check that the result item has the same host name as the current host. This is by design.
 
 ***Can Perfmon be leveraged to look at crawl statistics for Cloud hybrid search service application? If yes, what are the Perfmon counters?***
 
-There are perfmon counters that have been introduced for Cloud hybrid search service application. To get a list of all counters, you can run the following command in powershell:
+There are perfmon counters that have been introduced for Cloud hybrid search service application. To get a list of all counters, in PowerShell, run the following command:
 
 `((Get-Counter -ListSet "Search Gatherer Azure Plugin - SharePointServerSearch").counter`
 
 ***What is the recommended number of crawl databases for Cloud hybrid search service application?***
 
-Use one crawl database for each 20 million items in the content corpus. You can refer to this [article](https://docs.microsoft.com/SharePoint/search/redesign-for-specific-performance-requirements?redirectedfrom=MSDN#how-to-handle-more-items-in-the-index) for further details.
+Use one crawl database for each 20 million items in the content corpus. For more info, see this [article](https://docs.microsoft.com/SharePoint/search/redesign-for-specific-performance-requirements?redirectedfrom=MSDN#how-to-handle-more-items-in-the-index).
 
 ***I am using Cloud hybrid search service application to crawl content. In my Cloud SSA, I see all 6 components of the search topology. Which ones are hosted locally? For example, is there a local index?***
 
-No, the Cloud hybrid search service application is a crawler. The crawl component gets content from your on-premises farm and sends this content to the search index in Office 365. It uses connectors to interact with the content sources and uses the crawl database to store both temporary and historical information about the items it crawls, just like a regular crawl component.
+No. The Cloud hybrid search service application is a crawler. The crawl component gets content from your on-premises farm and sends this content to the search index in Office 365. It uses connectors to interact with the content sources and uses the crawl database to store both temporary and historical information about the items it crawls, just like a regular crawl component.
 
 ***What is pushed by Cloud hybrid search service application to Office 365 SharePoint Online endpoint during a crawl?***
 
@@ -310,9 +310,9 @@ Deploying additional crawlers will provide high availability for the crawler fun
 
 ***What are the Highly Available (HA) and Disaster Recovery (DR) recommendations for Cloud hybrid search service application?***
 
-It is recommended that for HA, at least two servers are configured in the same SharePoint on-premises farm and each machine hosts all the search roles. Additional servers can be used, but if at least two of each component are present, the Cloud SSA can be considered Highly Available.
+We recommend that for HA, at least two servers are configured in the same SharePoint on-premises farm and each machine hosts all the search roles. Additional servers can be used, but if at least two of each component are present, the Cloud SSA can be considered Highly Available.
 
-For disaster recovery, a second Cloud hybrid search service application can be built in the Disaster Recovery farm. You need to ensure that Cloud hybrid search service application must not crawl the same content as the primary farm unless a failover is initiated. In the event of failover, the Disaster Recovery farm can immediately serve search results from the same Office 365 search index.
+For disaster recovery, a second Cloud hybrid search service application can be built in the Disaster Recovery farm. Ensure that Cloud hybrid search service application must not crawl the same content as the primary farm unless a failover is initiated. In the event of failover, the Disaster Recovery farm can immediately serve search results from the same Office 365 search index.
 
 ***Can users query for items secured with SAML claims if crawled by a Cloud search service application?***
 

@@ -94,11 +94,11 @@ If you want to redirect only a specific set of your users from your on-premises 
   
  **To configure a OneDrive for Business redirection audience**
   
-1. On the Central Administration website, choose **Office 365** > **Configure hybrid OneDrive and Sites features**.
+1. On the Central Administration website, select **Office 365** > **Configure hybrid OneDrive and Sites features**.
     
-2. Choose **Use a specific audience** and type the  *audience name*  for the audience that contains your Office 365 users. 
+2. Select **Use a specific audience**, and for the audience that contains your Office 365 users, enter the  *audience name*. 
     
-3. Click **OK**.
+3. Select **OK**.
     
 ## Verify that then OneDrive for Business links work as expected
 <a name="Verify"> </a>
@@ -109,7 +109,7 @@ To check that the links are working as expected, have one of the users in the au
   
 If the user is redirected to Office 365 for OneDrive for Business, everything is working as expected.
   
-If users want to browse to their OneDrive for Business directory directly, they can go to https:// _\<yourtenant name\>_.onedrive.com in the browser. For example, https://contoso.onedrive.com will take users of Contoso tenancy to their OneDrive for Business document library. This is a simple way to bookmark the link for users of OneDrive for Business. Note that rich clients might not recognize this short URL.
+If users want to browse to their OneDrive for Business directory directly, they can go to https:// _\<yourtenant name\>_.onedrive.com in the browser. For example, https://contoso.onedrive.com will take users of Contoso tenancy to their OneDrive for Business document library. This is a simple way to bookmark the link for users of OneDrive for Business. Rich clients might not recognize this short URL.
   
 ## (Optional) Create a search vertical
 <a name="Verify"> </a>
@@ -119,22 +119,22 @@ You can set up a search vertical so that you can search content stored in OneDri
 ## (Optional) Customize the Office 365 navigation experience (SharePoint Server 2013)
 <a name="CustomNav"> </a>
 
-Now that your users are set up to be redirected to Office 365, you can customize what they see on the navigation bar there. By default, the navigation bar contains the following links: SkyDrive, Yammer or Newsfeed, and Sites. If you intend for your users to use only OneDrive for Business, you can remove the other links. If you want to allow your users to interact with Yammer or the SharePoint Newsfeed features or to create team sites in Office 365, you can leave those links on the navigation bar.
+Now that your users are set up to be redirected to Office 365, you can customize what they see on the navigation bar there. By default, the navigation bar contains the following links: SkyDrive, Yammer or Newsfeed, and Sites. If you intend for your users to use only OneDrive for Business, you can remove the other links. If you want to allow your users to interact with Yammer or the SharePoint Newsfeed features or to create team sites in Office 365, you can leave those links on the nav bar.
   
 > [!NOTE]
-> Turn on the appropriate navigation bar links for the set of SharePoint Online service features that you have purchased. For example, if you have OneDrive for Business with Office on the web, then you would turn on only the OneDrive for Business link, and not the Sites or Newsfeed links. OneDrive for Business with Office on the web does not include the Sites and Newsfeed features and users would see Access Denied messages if they clicked the links. You can, however, still choose to turn on Yammer as your social network and then turn on the Yammer/Newsfeed navigation link. 
+> Turn on the appropriate navigation bar links for the set of SharePoint Online service features that you have purchased. For example, if you have OneDrive for Business with Office on the web, then you would turn on only the OneDrive for Business link, and not the Sites or Newsfeed links. OneDrive for Business with Office on the web does not include the Sites and Newsfeed features and users would see Access Denied messages if they selected the links. You can, however, still choose to turn on Yammer as your social network and then turn on the Yammer/Newsfeed navigation link. 
   
  **To customize the navigation bar**
   
 1. Log on to Office 365 with a tenant administrator account.
     
-2. On the **Admin** tab, choose **SharePoint**.
+2. On the **Admin** tab, select **SharePoint**.
     
-3. Choose **Settings** on the left. 
+3. On the left, select **Settings**. 
     
 4. In the **Top Navigation Bar User Experience** section, specify the links to show or hide on the navigation bar. 
     
-5. Choose **OK** to save the settings and update the navigation bar. 
+5. To save the settings and update the navigation bar, select **OK**. 
     
 ## See also
 <a name="CustomNav"> </a>

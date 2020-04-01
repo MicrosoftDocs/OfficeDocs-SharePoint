@@ -23,20 +23,20 @@ This scenario describes the prerequisites and recommended steps to integrate a Y
   
 ## Scenario prerequisites
 
-For this scenario, we assume that:
+For this scenario, we assume that you have:
   
-- You have SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
+- SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
     
-- You have an existing Office 365 tenant and a Yammer network.
+- An existing Office 365 tenant and a Yammer network.
     
-- You have enabled Yammer as the Office 365 social experience on the SharePoint Online admin center.
+- Enabled Yammer as the Office 365 social experience on the SharePoint Online admin center.
     
-- You use Active Directory Domain Services (AD DS) as your identity provider and Active Directory Federation Services (AD FS) 2.0 for identity federation.
+- Active Directory Domain Services (AD DS) as your identity provider, and Active Directory Federation Services (AD FS) 2.0 for identity federation.
     
-- You have already established directory synchronization with Office 365. 
+- Already established directory synchronization with Office 365. 
     
 > [!IMPORTANT]
-> Planning your Office 365 user management is fundamental to deploying Office 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Office 365 uses Microsoft Azure Active Directory to provide authentication to Office 365 services, including Yammer Enterprise. This means Office 365 uses the identity that is synchronized with Azure AD to provide authentication. 
+> Planning your user management is fundamental to deploying Office 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Office 365 uses Microsoft Azure Active Directory to provide authentication to Office 365 services, including Yammer Enterprise. This means Office 365 uses the identity that is synchronized with Azure AD to provide authentication. 
   
 ## Step 1: Configure directory synchronization
 

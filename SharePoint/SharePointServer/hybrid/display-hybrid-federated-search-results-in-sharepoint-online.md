@@ -176,7 +176,7 @@ After a few moments, when federated users submit queries from the SharePoint Onl
 Use the following procedure to validate your configuration for viewing search results from the SharePoint Server deployment in SharePoint Online.
   
 > [!IMPORTANT]
-> If you are using single sign-on (SSO) authentication, it is important to test the hybrid Search functionality by using federated user accounts. Native Office 365 user accounts and AD accounts that are not federated are not recognized by both directory services. Therefore, they cannot authenticate using SSO and cannot be granted permissions to resources in both environments. For more information, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md). 
+> If you are using single sign-on (SSO) authentication, it is important to test the hybrid Search functionality by using federated user accounts. Native user accounts and AD accounts that are not federated are not recognized by both directory services. Therefore, they cannot authenticate using SSO and cannot be granted permissions to resources in both environments. For more info, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md). 
   
 1. Verify that the user account that you use to perform this procedure is a federated user who has been activated in SharePoint Online, and who has permissions to view the root site collection there.
     

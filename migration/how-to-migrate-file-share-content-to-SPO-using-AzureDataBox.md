@@ -35,7 +35,7 @@ This article specifically talks about how to use the Data Box to migrate your fi
 
 #### For Data Box
 
-- Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription or see [Azure subscription pricing](https://azure.microsoft.com/pricing/).
+- Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription, or see [Azure subscription pricing](https://azure.microsoft.com/pricing/).
 - There is a fee to use Data Box. Make sure to review the [Data Box pricing](https://azure.microsoft.com/pricing/details/databox/).
 
 #### For SharePoint Online
@@ -47,19 +47,27 @@ This article specifically talks about how to use the Data Box to migrate your fi
 
 This workflow requires you to perform steps on Data Box as well as on SharePoint Online.
 
-1.	Order Data Box. 
-2.	Receive and set up your Data Box.
-3.	Copy data from your on-premises file share to folder for Azure Files on your device.
-4.	After the copy is complete, ship the device back as per the instructions.
-5.  Wait for the data to completely upload to Azure.
+1. Order Data Box.
+
+2. Receive and set up your Data Box.
+
+3. Copy data from your on-premises file share to folder for Azure Files on your device.
+
+4. After the copy is complete, ship the device back as per the instructions.
+
+5. Wait for the data to completely upload to Azure.
 
 The following steps relate to SharePoint Online.
 
-6. Create a VM in the Azure portal and mount the Azure file share on it.
-7. Install the SPMT tool on the Azure VM.
-8. Run the SPMT tool using the Azure file share as the SOURCE.
-9. Complete the final steps of the tool.
-10. Verify and confirm your data.
+1. Create a VM in the Azure portal and mount the Azure file share on it.
+
+2. On the Azure VM, install SPMT.
+
+3. Using the Azure file share as the SOURCE, run SPMT.
+
+4. Complete the final steps of SPMT.
+
+5. Verify and confirm your data.
 
 
 ## Use Data Box to copy data
@@ -67,30 +75,40 @@ The following steps relate to SharePoint Online.
 Take the following steps to copy data to your Data Box.
 
 1. [Order your Data Box](https://docs.microsoft.com/azure/databox/data-box-deploy-ordered).
+
 2. After you receive your Data Box, [Set up the device](https://docs.microsoft.com/azure/databox/data-box-deploy-set-up). You'll cable and configure your device.
+
 3. [Copy data to Data Box](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data). While copying, make sure to:
 
     - Use only the *StorageAccountName_AzFile* folder in the Data Box to copy the data. This is because you want the data to end up in an Azure file share, not in block blobs or page blobs.
-    - Copy files to a folder within *StorageAccountName_AzFile* folder. A subfolder within *StorageAccountName_AzFile* folder creates a file share. Files copied directly to *StorageAccountName_AzFile* folder fail and are uploaded as block blobs. This is the file share that you will mount on your VM in the next step.
-3. Run [Prepare to ship](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#prepare-to-ship) on your device. A successful prepare to ship ensures a successful upload of files to Azure.
-4. [Return the device](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#ship-data-box-back).
-5. [Verify the data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
+    - Copy files to a folder within *StorageAccountName_AzFile* folder. A subfolder within *StorageAccountName_AzFile* folder creates a file share. Files copied directly to *StorageAccountName_AzFile* folder fail, and are uploaded as block blobs. This is the file share that you will mount on your VM in the next step.
+
+4. Run [Prepare to ship](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#prepare-to-ship) on your device. A successful 'prepare to ship' ensures a successful upload of files to Azure.
+
+5. [Return the device](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#ship-data-box-back).
+
+6. [Verify the data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
 
 
 ## Migrating your data to SharePoint Online using SPMT
 
-After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint Online.  For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
+After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint Online. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
 
-1.	Sign into the Azure portal, and then create a virtual machine.  Learn how:  [Quickstart: Create Windows virtual machine in the Azure portal](/azure/virtual-machines/windows/quick-create-portal).
-2.	[Mount the Azure file share onto that VM](/azure/storage/files/storage-how-to-use-files-windows).
-3.	Download the SharePoint Migration tool and install it on your Azure VM. 
+1. Sign into the Azure portal, and then create a virtual machine.  To learn how, see  [Quickstart: Create Windows virtual machine in the Azure portal](/azure/virtual-machines/windows/quick-create-portal).
+
+2. [Mount the Azure file share onto that VM](/azure/storage/files/storage-how-to-use-files-windows).
+
+3. Download the SharePoint Migration Tool, and install it on your Azure VM. 
+
 Download here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm).
-4.	Start the SharePoint Migration Tool.  Click Sign in and enter your Office 365 username and password.<br><br>![SharePoint Migration Tool](media/spmt-intro.png)
-5.	When prompted “Where is your data?” select File share. Enter the path to your Azure file share where your data is located.
-6.	Follow the remaining prompts as normal, including your target location. For more info see: [How to use the SharePoint Migration Tool](/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
+4. Start SPMT.  Select **Sign in**, and enter your Office 365 username and password.<br><br>![SharePoint Migration Tool](media/spmt-intro.png).
+
+5. When prompted for "Where is your data?", select **File share**. Enter the path to your Azure file share where your data is located.
+
+6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
 
 
 > [!IMPORTANT]
-> - The speed at which data is ingested into SharePoint Online is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, read:  [SharePoint Online and OneDrive Migration Speed](/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
-> - There is a risk of losing existing permissions on files when migrating the data to SharePoint Online. You may also lose certain metadata, such as “Created by” and “Date modified by”.
+> - The speed at which data is ingested into SharePoint Online is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint Online and OneDrive Migration Speed](/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
+> - There is a risk of losing existing permissions on files when migrating the data to SharePoint Online. You may also lose certain metadata, such as "Created by" and "Date modified by".
 

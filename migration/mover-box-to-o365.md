@@ -33,7 +33,7 @@ A migration is a significant undertaking for any organization. Trying to grasp t
 
 Before, during, and after a migration, it is critically important to communicate clearly and effectively with your user base. We provide timely support and documentation to your transition team to help you communicate these changes with each stakeholder.
 
-**Management** — Management needs succinct information about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular information is important when running a department.
+**Management** — Management needs succinct information about the how's and why's of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular information is important when running a department.
 
 For example, the Sales Manager needs to know how operations will be affected, such as *Can employees still work over the weekend, if needed?*
 
@@ -120,7 +120,7 @@ Knowing the total volume of data you are moving helps to create a more realistic
 
 ### Your migration team
 
-Establish a migration team to lead your organization through the project. The team’s role includes liaising with us, undergoing training, and notifying employees of each change during the migration process.
+Establish a migration team to lead your organization through the project. The team's role includes liaising with us, undergoing training, and notifying employees of each change during the migration process.
 
 An IT Manager or the Head of IT is a good choice for our point of contact because they understand the ins and outs of your organization's systems. To ensure a smooth, successful migration, we work closely together and be with you every step of the way.
 
@@ -210,9 +210,9 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |**Microsoft service**|**Which Mover connector to use**|
 |:-----|:-----|
 |Azure Blob Storage|Azure Blob Storage Connector|
-|OneDrive Consumer|	OneDrive Consumer Connector|
-|OneDrive for Business (Administrator)|	Office 365 Connector|
-|OneDrive for Business (User)|	OneDrive for Business (User) Connector|
+|OneDrive Consumer|    OneDrive Consumer Connector|
+|OneDrive for Business (Administrator)|    Office 365 Connector|
+|OneDrive for Business (User)|    OneDrive for Business (User) Connector|
 |SharePoint Online|Office 365 Connector|
 
 
@@ -418,7 +418,7 @@ This practice:
 1. Keeps their Box accounts for a few weeks before deleting them.
 2. Keeps their Box data available in read-only format.
 
-Think of your employees’ needs and what works best for the team.
+Think of your employees' needs and what works best for the team.
 
 ### What happens to Box Notes?
 
@@ -500,7 +500,7 @@ We do not interact with the sync client in OneDrive for Business. We recommend d
 
 ### What happens to shared data?
 
-Data shared with a user by another user appears in the **Shared with me** folder. Data owned by a user appears in the user’s designated destination folder.
+Data shared with a user by another user appears in the **Shared with me** folder. Data owned by a user appears in the user's designated destination folder.
 
 ### What about notifications?
 
@@ -614,10 +614,10 @@ For authorization, our app requires an **Administrator** or **Co-Administrator**
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
-|Read and write all files and folders stored in Box	|Read, create, update, and overwrite data in Box.|
-|Manage Enterprise	|Manage any data found in the authorized Box directory.|
-|Admin can make calls on behalf of Users	|Grants permission for our app to contact Box servers on behalf of users’ accounts.|
-|Admin or co-admin can make calls for any content in their enterprise	|Grants our app permission to contact Box servers on behalf of administrators or co-administrators regarding any data found in your business’s Box directory.|
+|Read and write all files and folders stored in Box    |Read, create, update, and overwrite data in Box.|
+|Manage Enterprise    |Manage any data found in the authorized Box directory.|
+|Admin can make calls on behalf of Users    |Grants permission for our app to contact Box servers on behalf of users' accounts.|
+|Admin or co-admin can make calls for any content in their enterprise    |Grants our app permission to contact Box servers on behalf of administrators or co-administrators regarding any data found in your business's Box directory.|
 
 #### Removing app access
 Deleting or disabling the account used to Authorize Box (Co-Admin) does not remove our app's access to Box.
@@ -647,7 +647,7 @@ Some steps in the authorization process can be completed by a Global Admin or an
 1. **Global Admin or SPO Admin**: Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
 
 >[!Note]
->Whether the **Office 365 Connector** is your source or destination connector (or both), you’ll need to go through this authorization process.
+>Whether the **Office 365 Connector** is your source or destination connector (or both), you'll need to go through this authorization process.
 
 ![Authorize new connector](media/05-authorize-new-connector.png)
 
@@ -661,15 +661,12 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
 
-
 >[!Warning]
 >If you are a **Global Admin**, a slightly different login screen will display.  
 >
 >**DO NOT** select the option **Consent on behalf of your organization**. This option **must** remain unselected.
 
 - ![global admin o365](media/permissions-o365-global-admin.png)
-
-
 
 5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
@@ -679,7 +676,7 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![Authorize error](media/authorize-error.png)
 
-6. **Global Admin**: Log in to the Azure Portal via **aka.ms/office365moverauth**. You’ll see a list of **Enterprise applications**.
+6. **Global Admin**: Log in to the Azure Portal via **aka.ms/office365moverauth**. You'll see a list of **Enterprise applications**.
 
 ![Enterprise applications](media/enterprise-applications.png)
 
@@ -709,7 +706,7 @@ Are your Office 365 users provisioned? All Office 365 users must log in to their
 
 `Connect-SPOService -Url https://example-admin.sharepoint.com -credential user@example.com`
 
-`Request-SPOPersonalSite -UserEmails “neverloggedintest@example.onmicrosoft.com”`
+`Request-SPOPersonalSite -UserEmails "neverloggedintest@example.onmicrosoft.com"`
 
 #### Office 365 permission requirements
 
@@ -747,7 +744,7 @@ From your newly created migration in the **Migration Manager**, there are two wa
 
 ![Add users](media/add-users.png)
 
-- Or, select **Migration Actions**, then select **Add to Migration**.
+- Or, select **Migration Actions**, and then select **Add to Migration**.
 
 ![Migration users](media/migration-users.png)
 
@@ -1155,18 +1152,18 @@ The following table lists additional info about each transfer status message fro
 
 |**Status message**|**Definition**|
 |:-----|:-----|
-|Running pre-checks|	Our servers checking a few things and sending your transfer to the queue. Almost there!|
-|Queued to start, please be patient|	Your transfer will run as soon as possible. You can close your browser, and receive an email on completion. There is no limit to queued users.|
-|Success. No files copied	|We have skipped all of your files without error, and have detected no new or modified files.|
-|Success. Some unsupported files not transfered|	We have skipped all of your files without error, and have detected no new or modified files. Files unsupported by the source or destination were skipped over.|
-|Some upload errors, please retry|	We were able to download everything from the source, or skip files that already existed in the destination, but some files didn't make it into the destination.|
-|No files copied. Some upload errors, please retry	|We were able to download everything from the source, or skip files that already existed in the destination, but no files made it into the destination.|
-|Some download errors, please retry|	We weren't able to download everything from the source, but some files made it into the destination successfully.|
-|No files copied. Some download errors, please retry	|We weren't able to download anything from the source!|
-|Some download and upload errors, please retry	|There were errors with both downloading and uploading files, although some incremental files may have been skipped successfully.|
-|General failure, please retry|	We don't have a particular reason why your transfer failed - maybe we were having trouble connecting to your source or destination properly, for example.|
-|Connector auth failed|	One of your connectors isn't authorized correctly.|
-|Crashed, please retry|	We don't have a particular reason why your transfer failed, but generally this is due to server issues on our side or with the source or destination connectors. Please contact us if you encounter a crash.|
+|Running pre-checks|    Our servers checking a few things and sending your transfer to the queue. Almost there!|
+|Queued to start, please be patient|    Your transfer will run as soon as possible. You can close your browser, and receive an email on completion. There is no limit to queued users.|
+|Success. No files copied    |We have skipped all of your files without error, and have detected no new or modified files.|
+|Success. Some unsupported files not transfered|    We have skipped all of your files without error, and have detected no new or modified files. Files unsupported by the source or destination were skipped over.|
+|Some upload errors, please retry|    We were able to download everything from the source, or skip files that already existed in the destination, but some files didn't make it into the destination.|
+|No files copied. Some upload errors, please retry    |We were able to download everything from the source, or skip files that already existed in the destination, but no files made it into the destination.|
+|Some download errors, please retry|    We weren't able to download everything from the source, but some files made it into the destination successfully.|
+|No files copied. Some download errors, please retry    |We weren't able to download anything from the source!|
+|Some download and upload errors, please retry    |There were errors with both downloading and uploading files, although some incremental files may have been skipped successfully.|
+|General failure, please retry|    We don't have a particular reason why your transfer failed - maybe we were having trouble connecting to your source or destination properly, for example.|
+|Connector auth failed|    One of your connectors isn't authorized correctly.|
+|Crashed, please retry|    We don't have a particular reason why your transfer failed, but generally this is due to server issues on our side or with the source or destination connectors. Please contact us if you encounter a crash.|
 
 ## Post-migration troubleshooting
 
@@ -1193,7 +1190,7 @@ Our incrementals are delta operations which compare files in your Box to files i
 
 ### 'Lost files'
 
-During a transition where sharing paradigms change, there are many users who claim, “My files are lost!”
+During a transition where sharing paradigms change, there are many users who claim, "My files are lost!"
 
 This is common if they are not in clear communication about how the sharing structure changes when they log in to Office 365. This can be mitigated with a clear communication strategy.
 
@@ -1255,15 +1252,15 @@ View an example CSV log or in your browser here:
 
 |**Message**|**Definition**|
 |:-----|:-----|
-|Failed to download file successfully	|An issue occured with the Source Connector.|
-|Failed to upload file successfully	|An issue occured with the Destination Connector.|
-|Unknown error of type 400	|A 'bad request' error. It could be a problem with the Source (File Download) or Destination (File Upload). Typically, this means that something has changed client-side or server-side and could be resolved the next time you run the transfer.|
-|Unknown error of type 404	|This is a *server not found* error. Typically, this means that the Source (File Download) or Destination (File Upload) server is down or experiencing a temporary outage.|
-|Auth failure: attempt to renew authentication successful|	Authorization is failing either on the Source (File Download) or Destination (File Upload) Connector.|
-|Backoff used: #|	Generally seen after an action listed as 'throttle.' This means we've made too many requests of that Connector, and must wait before trying whatever action we were trying to complete again.|
-|Folder Already Exists|	We attempted to create the folder, but we've already created it in a previous transfer, or it already exists in the destination.|
-|Skipping because of incremental	|Not an error by definition; it's just our incremental process at work.|
-|Scanned|	Not an error by definition; it's just our scanner counting your data.|
+|Failed to download file successfully    |An issue occured with the Source Connector.|
+|Failed to upload file successfully    |An issue occured with the Destination Connector.|
+|Unknown error of type 400    |A 'bad request' error. It could be a problem with the Source (File Download) or Destination (File Upload). Typically, this means that something has changed client-side or server-side and could be resolved the next time you run the transfer.|
+|Unknown error of type 404    |This is a *server not found* error. Typically, this means that the Source (File Download) or Destination (File Upload) server is down or experiencing a temporary outage.|
+|Auth failure: attempt to renew authentication successful|    Authorization is failing either on the Source (File Download) or Destination (File Upload) Connector.|
+|Backoff used: #|    Generally seen after an action listed as 'throttle.' This means we've made too many requests of that Connector, and must wait before trying whatever action we were trying to complete again.|
+|Folder Already Exists|    We attempted to create the folder, but we've already created it in a previous transfer, or it already exists in the destination.|
+|Skipping because of incremental    |Not an error by definition; it's just our incremental process at work.|
+|Scanned|    Not an error by definition; it's just our scanner counting your data.|
 
 ## Reports
 
@@ -1321,23 +1318,23 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 
 |**Filter label**|**Label effect**|
 |:-----|:-----|
-|Status|	Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
-|Files|	Filters based on files transfered, failed, and skipped.|
-|Data	|Filters based on data that has transfered, failed, or skipped.|
-|Success|	Displays all successful Data and Files transfered.|
-|Failed	|Displays all Data and Files that have failed to transfer.|
-|Skipped	|Displays all data and files that were skipped.|
-|Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
-|Path	|Filters for specific source or destination path [for example, path:username].|
-|Destination|	Filters for specific destination path [for exaample, path:@domain<spam><spam>.com].|
-|Source|	Filters for specific source path [for example, path:foldername].|
-|Destination path	|Functions the same as **Destination**.|
-|Source path	|Functions the same as **Source**.|
-|Tags	 |Lists transfers with previously implemented custom tags.|
-|Notes	|Filters by keywords in previously implemented custom notes.|
-|Code|	Filters for specific status codes.|
-|Destination name|	Displays transfers with a specific destination name.|
-|Source name|	Displays transfers with a specific source name.|
+|Status|    Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
+|Files|    Filters based on files transfered, failed, and skipped.|
+|Data    |Filters based on data that has transfered, failed, or skipped.|
+|Success|    Displays all successful Data and Files transfered.|
+|Failed    |Displays all Data and Files that have failed to transfer.|
+|Skipped    |Displays all data and files that were skipped.|
+|Schedule    |Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
+|Path    |Filters for specific source or destination path [for example, path:username].|
+|Destination|    Filters for specific destination path [for exaample, path:@domain<spam><spam>.com].|
+|Source|    Filters for specific source path [for example, path:foldername].|
+|Destination path    |Functions the same as **Destination**.|
+|Source path    |Functions the same as **Source**.|
+|Tags     |Lists transfers with previously implemented custom tags.|
+|Notes    |Filters by keywords in previously implemented custom notes.|
+|Code|    Filters for specific status codes.|
+|Destination name|    Displays transfers with a specific destination name.|
+|Source name|    Displays transfers with a specific source name.|
 
 ### Scan report
 
@@ -1361,32 +1358,32 @@ The CSV report provides the following information for each user pairing:
 
 |**Header/Statistic**|**Definition**|
 |:-----|:-----|
-|Schedule ID|	Our internal reference unique to the user pairing created.|
-|Source|	Source directory path.|
-|Destination	|Destination directory path.|
-|Tags	|If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
-|Notes|	If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
-|First Run Start|	When the first transfer for this user pairing began.|
-|Files Transfered	|Total files transfered.|
-|MB Transfered	|Total data (MB) transfered.|
-|Times run|	Total number of times this user pairing has been run.|
-|Total Duration	|Total duration of each time this user pairing has been run.|
-|Average File Velocity (files/hour)|	Files transfered, divided by the total duration.|
-|Average Data Velocity (MB/hour)	|Data (MB) transfered, divided by the total duration.|
-|Last Status|	Last status of the user pairing.  This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
-|Last Status Code|	Internal reference number refering to the last status of the user pairing.|
-|Last Skipped|	Number of skipped files in the last run.|
-|Last Files|	Number of files transfered in the last run.|
-|Last MB	|Volume of data (MB) transfered in the last run.|
-|Last MB Skipped	|Volume of data (MB) skipped in the last run.|
-|Last Failed Files	|Number of files that failed to transfer in the last run.|
-|Last Folders Listed	|Number of folders that we opened/created in the last run.|
-|Last Folders Failed	|Number of folders that we failed to open/create in the last run.|
-|Last Run Start	|When the latest transfer on this user pairing began.|
-|Last Run End	|When the latest transfer on this user pairing finished.|
-|Last Run Duration	|How long the latest transfer for this user pairing took to complete.|
-|Last File Velocity (files/hour)	|Files transfered, divided by the total duration for the last run.|
-|Last Data Velocity (MB/hour)|	Data (MB) transfered, divided by the total duration for the last run.|
+|Schedule ID|    Our internal reference unique to the user pairing created.|
+|Source|    Source directory path.|
+|Destination    |Destination directory path.|
+|Tags    |If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
+|Notes|    If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
+|First Run Start|    When the first transfer for this user pairing began.|
+|Files Transfered    |Total files transfered.|
+|MB Transfered    |Total data (MB) transfered.|
+|Times run|    Total number of times this user pairing has been run.|
+|Total Duration    |Total duration of each time this user pairing has been run.|
+|Average File Velocity (files/hour)|    Files transfered, divided by the total duration.|
+|Average Data Velocity (MB/hour)    |Data (MB) transfered, divided by the total duration.|
+|Last Status|    Last status of the user pairing.  This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
+|Last Status Code|    Internal reference number refering to the last status of the user pairing.|
+|Last Skipped|    Number of skipped files in the last run.|
+|Last Files|    Number of files transfered in the last run.|
+|Last MB    |Volume of data (MB) transfered in the last run.|
+|Last MB Skipped    |Volume of data (MB) skipped in the last run.|
+|Last Failed Files    |Number of files that failed to transfer in the last run.|
+|Last Folders Listed    |Number of folders that we opened/created in the last run.|
+|Last Folders Failed    |Number of folders that we failed to open/create in the last run.|
+|Last Run Start    |When the latest transfer on this user pairing began.|
+|Last Run End    |When the latest transfer on this user pairing finished.|
+|Last Run Duration    |How long the latest transfer for this user pairing took to complete.|
+|Last File Velocity (files/hour)    |Files transfered, divided by the total duration for the last run.|
+|Last Data Velocity (MB/hour)|    Data (MB) transfered, divided by the total duration for the last run.|
 
 Download an example CSV:
 

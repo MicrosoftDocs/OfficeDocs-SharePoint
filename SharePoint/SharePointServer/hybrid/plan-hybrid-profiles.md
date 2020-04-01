@@ -39,7 +39,7 @@ Profile redirection works as follows:
   
 - Profiles for all hybrid users are in Office 365. Clicking a hybrid user's profile in SharePoint Server redirects you to their profile in Office 365 (even if you're not a hybrid user yourself).
     
-- If you choose to use a SharePoint audience when you configure hybrid sites features, non-hybrid users (those not in the audience) retain their SharePoint Server profiles, and they also have profiles in Office 365 if they are licensed Office 365 users.
+- If you choose to use a SharePoint audience when you configure hybrid sites features, non-hybrid users (those not in the audience) retain their SharePoint Server profiles, and they also have profiles in Office 365 if they are licensed users.
     
 ## Moving custom profile properties to Office 365
 <a name="MovingProfileData"> </a>

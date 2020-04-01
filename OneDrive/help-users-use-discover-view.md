@@ -24,7 +24,7 @@ description: "Learn how to help users get the most out of the Discover view in O
 
 # Help users use the Discover view in OneDrive
 
-This article is for IT administrators. If you're not an IT admin, see [Are my documents safe in the Discover view in OneDrive for Business?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35) for info about using the Discover view.
+This article is for IT administrators. If you're not an IT admin, for info about using the Discover view, see [Are my documents safe in the Discover view in OneDrive for Business?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35).
   
 The more your users use OneDrive in Office 365 to work together, by viewing, editing and sharing each other's documents, the more useful the Discover view in OneDrive will be for everyone. Learn more about how you as an admin can help users get the most out of the Discover view.
   
@@ -35,7 +35,7 @@ As an admin, you can make sure that you allow your organization to access the Of
 ## What you need to get the Discover view
 <a name="WhatUNeed"> </a>
 
-Discover view functionality is available to Office 365 users in OneDrive, which is available in the following subscription plans of Office 365:
+Discover view functionality is available to users in OneDrive, which is available in the following subscription plans of Office 365:
   
 - Office 365 Enterprise (E1, E3, and E4)
 
@@ -62,12 +62,12 @@ SharePoint and OneDrive are the primary sources of content in the Discover view.
   
 ### Using the Discover view on a day-to-day basis
 
-You can point users to the Discover view help article: [Are my documents safe in the Discover view in OneDrive for Business?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35)
+Point users to the Discover view help article: [Are my documents safe in the Discover view in OneDrive for Business?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35)
   
 ## Help users troubleshoot the Discover view
 <a name="HelpTS"> </a>
 
-Use the information in this section to help troubleshoot issues in the Discover view.
+To help troubleshoot issues in the Discover view, see this info:
   
 - [Users don't see user pictures in the Discover view](help-users-use-discover-view.md#Nopics)
     
