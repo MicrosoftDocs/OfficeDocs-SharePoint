@@ -42,9 +42,9 @@ When you deploy, [Control sync throughput](network-utilization-planning.md#Contr
 ### Assess the available bandwidth and network conditions
 <a name="AssessAvailableBandwidth"> </a>
 
-You can leverage tools like Microsoft Message Analyzer or third-party speed test tools such as Wireshark or Fiddler to understand the actual download and upload throughput that the users experience. 
+You can leverage third-party speed test tools, like Wireshark or Fiddler, to understand the actual download and upload throughput that the users experience. 
   
-Packet loss, latency, and other factors can also impact OneDrive upload and download experience. For example, a high-latency network or network experiencing a lot of loss could result in a degraded OneDrive upload and download experience even on high bandwidth networks (1000 Mbps, for example). The loss and latency will likely vary based on the number of users that are on the same network and what those users are doing (downloading or uploading large files, etc).
+Packet loss, latency, and other factors can also impact OneDrive upload and download experience. For example, a high-latency network or network experiencing a lot of loss could result in a degraded OneDrive upload and download experience even on high bandwidth networks (1000 Mbps, for example). The loss and latency will likely vary based on the number of users that are on the same network and what those users are doing (like downloading or uploading large files).
   
 The bandwidth used by the sync app is predominantly file upload and download traffic and is usually closely correlated with file size and the number of files being synced. Therefore, the bandwidth used depends on the number of files in the user's OneDrive and in SharePoint document libraries they choose to sync, multiplied by the size of files, and then by the rate of change of any file. Other sync app traffic (such as checking for file changes and checking for app updates) is minimal.
   
