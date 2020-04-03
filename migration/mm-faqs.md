@@ -53,3 +53,8 @@ Answer: No, at this time the temporary working folder cannot be renamed.  It is 
 **Question:**  Does Migration Manager work with non-English SharePoint sites?</br>
 Answer: At this time, Migration Manager only supports English language SharePoint sites. </br></br>
 
+**Question:**  What happens when you "pause" a  task?</br>
+Answer: Pausing a task does not release the agent to another task. The agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted. </br></br>
+
+
+

@@ -95,4 +95,6 @@ Based on the size of the content you want to migrate, you can setup as many clie
 
 >[!NOTE]
 > Migration Manager automatically assigns tasks to a available client, it does the load balancing for you. You cannot manually assign a task to a specific client.
+>
+>Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
   
