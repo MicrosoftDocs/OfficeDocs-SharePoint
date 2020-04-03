@@ -1,5 +1,5 @@
 ---
-title: "Setup Migration Manager clients"
+title: "Setup Migration Manager agents"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -14,16 +14,16 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Set up multiple Migration Manager clients
+description: Set up multiple Migration Manager agents
 ---
 
-# Setup Migration Manager clients
+# Setup Migration Manager agents
 
 >[!NOTE]
 >Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 
-The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration “clients”. To do this, you download and run a setup file on each computer.  
+The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do this, you download and run a setup file on each computer.  
 
 When you run the setup file, you are prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "client" to which it can automatically distribute migrations tasks.
 
