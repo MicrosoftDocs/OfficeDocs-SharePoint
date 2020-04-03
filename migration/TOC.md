@@ -19,7 +19,7 @@
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ## Migration Manager
 ### [Get started](mm-get-started.md)
-### [Set up migration manager clients](mm-setup-clients.md)
+### [Set up migration manager agents](mm-setup-clients.md)
 ### [Migration Manager settings](mm-settings.md)
 ### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 ### [FAQs](mm-faqs.md)
@@ -31,7 +31,7 @@
 ### [Dropbox to Office 365](mover-dropbox-to-o365.md)
 ### [Egnyte to Office 365](mover-egnyte-to-o365.md)
 ### [G Suite Drive to Office 365](mover-gsuite.md)
-### [Office 365 to Office 365 (tenant to tenant)](mover-o365-to-o365.md)
+### [Office 365 to Office 365](mover-o365-to-o365.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [SPMT migration performance guidelines](spmt-performance-guidance.md)
