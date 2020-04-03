@@ -31,13 +31,13 @@ Answer:   Yes.
 
 
 **Question:**  Does the file share I am migrating need to be on a Windows computer?</br>
-Answer:    No.  As long as you can access the file share from the migration client, you can migrate it.
+Answer:    No.  As long as you can access the file share from the migration agent, you can migrate it.
 
 **Question:**  Is multi-factor authentication supported by Migration Manager?</br>
 Answer:    Microsoft multi-factor authentication is supported; however third party multi-factor authentication is not.
 
-**Question:**  Can I manually assign a task to a migration client I have set up?</br>
-Answer:   No. Migration Manager does it for you by automatically distributing tasks to the next available client.
+**Question:**  Can I manually assign a task to a migration agent I have set up?</br>
+Answer:   No. Migration Manager does it for you by automatically distributing tasks to the next available agent.
 
 
 **Question:**  Where are local Migration Manager logs stored?</br>
