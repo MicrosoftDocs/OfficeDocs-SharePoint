@@ -85,6 +85,11 @@ Alternatively, you can also directly configure the following underlying registry
 ## Differences between syncing files in SharePoint Server and SharePoint Online
 
 If your organization also uses the OneDrive sync app to sync files in Office 365, here’s what will be different for users who sync on-premises files.
+
+### Single Top Level URL
+The OneDrive sync client only allows synchronization with a single URL (including all Document Libraries in all Site Collections and subsites of the specified URL). It is not possible to add additional top-level URLs (Web Applications or Host-Named Site Collections) for the OneDrive synchronization client with SharePoint Server 2019.
+
+In SharePoint Online, you may synchronize with multiple top-level URLs, such as https://contoso-my.sharepoint.com and https://contoso.sharepoint.com.
   
 ### Folder names
 The OneDrive sync app creates the following folders on users’ computers:
