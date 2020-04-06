@@ -133,7 +133,7 @@ You can also consume this information in Power BI by using the Microsoft 365 usa
 
 OneDrive uses advanced data-encryption methods between your client and the data center, between servers in the data center, and at rest. At rest, OneDrive uses disk encryption through BitLocker Drive Encryption and file encryption to secure your data. Each file is encrypted with its own encryption key; anything larger than 64 KB is split into individual chunks, each of which has its own encryption key locked in a key store.
 
-Each file chunk is then randomly distributed among Microsoft Azure storage containers, and a construction map for the complete file is stored in a separate secure content database. For attackers to access the file, they would need all the file chunks, the keys, and the map—a highly improbable task. For more information about this process, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo/).
+Each file chunk is then randomly distributed among Microsoft Azure Storage containers, and a construction map for the complete file is stored in a separate secure content database. For attackers to access the file, they would need all the file chunks, the keys, and the map—a highly improbable task. For more information about this process, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo/).
 
 ### Customer-controlled encryption keys
 
@@ -389,7 +389,7 @@ If you already have the OneDrive client installed on Windows devices, start by d
 
 ### Upgrade from the Groove sync app to the OneDrive sync app
 
-If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed information about this process (and caveats), see [Transition from the previous OneDrive for business sync app](transition-from-previous-sync-client.md).
+If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed information about this process (and caveats), see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md).
 
 ### Sync app update process
 
