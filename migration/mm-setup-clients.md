@@ -97,4 +97,10 @@ Based on the size of the content you want to migrate, you can setup as many agen
 > Migration Manager automatically assigns tasks to a available agent, it does the load balancing for you. You cannot manually assign a task to a specific agent.
 >
 >Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
+
+>[!Note]
+>The connection between the agent and Migration Manager stays active as long as the computer is still running and the SPO admin credentials that were used to sign into the agent are still valid. 
+>
+>If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
+
   
