@@ -75,7 +75,7 @@ The Hybrid picker helps with or completes the setup of these hybrid features:
 
 - **[Hybrid self-service site creation](hybrid-self-service-site-creation.md)** - This feature redirects the default self-service site creation page in SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 (/_layouts/15/scsignup.aspx) to the SharePoint Online Group Creation page. This setting can be configured independently for each web application in your farm. It helps your users create their sites in SharePoint Online instead of SharePoint Server. 
 
-- **[Cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects the cloud Search service application to your Office 365 tenant. This is one of the steps needed to set up cloud hybrid search, you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include set-up of other hybrid features..
+- **[Cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects the cloud Search service application to your Office 365 tenant. This is one of the steps needed to set up cloud hybrid search, you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include set-up of other hybrid features.
 
 > [!TIP]
 > If the Hybrid Picker is run a second time with an enabled feature unchecked, this will not cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain. 
