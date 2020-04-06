@@ -56,5 +56,8 @@ Answer: At this time, Migration Manager only supports English language SharePoin
 **Question:**  What happens when you "pause" a  task?</br>
 Answer: Pausing a task does not release the agent to another task. The agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted. </br></br>
 
+**Question:**  How long does the agent stay connect to Migration Manager?
+Answer:  The connection between the agent and Migration Manager stays active as long as the computer is still running and the SPO admin credentials that were used to sign into the agent are still valid. If the agent does becomes disconnected, the agent holds the token to the Migration Manager for up to 7 days. After which the agent will need to be reinstalled.
+
 
 
