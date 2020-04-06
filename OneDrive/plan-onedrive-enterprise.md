@@ -389,7 +389,7 @@ If you already have the OneDrive client installed on Windows devices, start by d
 
 ### Upgrade from the Groove sync app to the OneDrive sync app
 
-If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync clieappnt. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed information about this process (and caveats), see [Transition from the previous OneDrive for business sync app](transition-from-previous-sync-client.md).
+If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed information about this process (and caveats), see [Transition from the previous OneDrive for business sync app](transition-from-previous-sync-client.md).
 
 ### Sync app update process
 
