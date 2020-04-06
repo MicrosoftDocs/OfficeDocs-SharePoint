@@ -31,13 +31,13 @@ Answer:   Yes.
 
 
 **Question:**  Does the file share I am migrating need to be on a Windows computer?</br>
-Answer:    No.  As long as you can access the file share from the migration client, you can migrate it.
+Answer:    No.  As long as you can access the file share from the migration agent, you can migrate it.
 
 **Question:**  Is multi-factor authentication supported by Migration Manager?</br>
 Answer:    Microsoft multi-factor authentication is supported; however third party multi-factor authentication is not.
 
-**Question:**  Can I manually assign a task to a migration client I have set up?</br>
-Answer:   No. Migration Manager does it for you by automatically distributing tasks to the next available client.
+**Question:**  Can I manually assign a task to a migration agent I have set up?</br>
+Answer:   No. Migration Manager does it for you by automatically distributing tasks to the next available agent.
 
 
 **Question:**  Where are local Migration Manager logs stored?</br>
@@ -52,4 +52,9 @@ Answer: No, at this time the temporary working folder cannot be renamed.  It is 
 
 **Question:**  Does Migration Manager work with non-English SharePoint sites?</br>
 Answer: At this time, Migration Manager only supports English language SharePoint sites. </br></br>
+
+**Question:**  What happens when you "pause" a  task?</br>
+Answer: Pausing a task does not release the agent to another task. The agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted. </br></br>
+
+
 
