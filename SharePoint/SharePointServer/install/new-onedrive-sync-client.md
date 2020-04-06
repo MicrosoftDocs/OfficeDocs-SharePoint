@@ -38,7 +38,9 @@ If your users are already syncing document libraries with the previous OneDrive 
 To set up OneDrive with SharePoint Server 2019, you can either use Group Policy or set the registry keys directly. 
 
 > [!NOTE]
-> For settings that require a tenant ID, you can use **OP1** if you sync a single domain. Do not use this if you sync multiple domains. <br>The Known Folder Move settings don't work for SharePoint Server.
+> For settings that require a tenant ID, you can use **OP1** if you sync a single domain. Do not use this if you sync multiple domains.
+> 
+> The Known Folder Move settings don't work for SharePoint Server.
 
 ### Using Group Policy
 
