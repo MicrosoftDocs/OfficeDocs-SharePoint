@@ -50,7 +50,7 @@ Download SPMT using one of the links listed below.
 >- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
 
 
-After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
+After downloading and installing SPMT, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
 
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
