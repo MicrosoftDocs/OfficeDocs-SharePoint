@@ -29,8 +29,18 @@ Learn about the new features and updates to existing features in SharePoint Migr
 >- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
 
 
+### SPMT Public Preview 
 
-### SPMT Public Preview
+**New features**
+
+The following features are now available in the public preview version of the SharePoint Migration Tool.
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SPO.|
+
+
+### SPMT 3.2.16.1
 
 **New features**
 
