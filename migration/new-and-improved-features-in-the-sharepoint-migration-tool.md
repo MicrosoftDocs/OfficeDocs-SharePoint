@@ -40,7 +40,7 @@ The following features are now available in the public preview version of the Sh
 |SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SPO.|
 
 
-### SPMT 3.2.16.1
+### SPMT 3.2.116.1
 
 **New features**
 
