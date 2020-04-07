@@ -5,8 +5,7 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -17,7 +16,6 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-
 ms.assetid: 5ae550c4-bd20-4257-847b-5c20fb053622
 description: "Learn how to block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain."
 ---
@@ -42,38 +40,18 @@ Limiting access allows users to remain productive while addressing the risk of a
 > [!NOTE]
 > Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.  
   
-## Block access using the new SharePoint admin center
+## Block access
 
-1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Access control page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Access control page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
 
 2. Select **Unmanaged devices**. 
 
+    ![The Unmanaged devices pane in the SharePoint admin center](media/unmanaged-devices-block-access.png) 
+
 3. Select **Block access**, and then select **Save**. (Note that selecting this option will disable any previous conditional access policies you created from this page and create a new conditional access policy that applies to all users. Any customizations you made to previous policies will not be carried over.)
-
-    ![The Unmanaged devices pane in the new SharePoint admin center](media/unmanaged-devices-block-access.png) 
-
-4. Go to the Azure AD admin center, and select **Azure Active Directory** in the left pane. 
-
-5. Under **Security**, select **Conditional Access**. 
-
-6. Select the policy **[SharePoint admin center]Use app-enforced Restrictions for browser access**. 
-
-7. Select **Conditions**, and then select **Client apps**. "Browser" should already be selected. Select **Mobile apps and desktop clients**, select **Modern authentication clients** and **Other clients**, and then select **Done** twice. 
-
-8. Make sure that under **Session**, **Use app enforced restrictions** appears, and make sure that **Enable policy** is **On**. 
-
-9. Select **Save**. 
-
-> [!NOTE] 
-> **Conditional Access Session Control has two options:**
-- **Use app-enforced Restrictions** 
-  - This control only works with supported apps. Currently Exchange Online and SharePoint Online are the only cloud apps that support app enforced restrictions. Click here to learn more. [Use app enforced restrictions](https://docs.microsoft.com/azure/active-directory/conditional-access/controls#use-app-enforced-restrictions)
-
-- **Conditional Access App control**
-  - This control only works with featured apps. Click here to learn more. [Supported apps and clients](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)
 
 > [!NOTE] 
 > It can take 5-10 minutes for the policy to take effect. It won't take effect for users who are already signed in from unmanaged devices. 
@@ -81,9 +59,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 > [!IMPORTANT] 
 > If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.  
 
-
-
-## Limit access using the new SharePoint admin center
+## Limit access
 
 1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
@@ -98,7 +74,6 @@ Limiting access allows users to remain productive while addressing the risk of a
 
 > [!IMPORTANT] 
 > If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.  
-
   
 ## Limit access using PowerShell
 
