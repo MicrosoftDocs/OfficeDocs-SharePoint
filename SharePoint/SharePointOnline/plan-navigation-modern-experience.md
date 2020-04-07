@@ -14,11 +14,11 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about how to plan navigation in the SharePoint modern experience"
+description: How to plan navigation in the modern SharePoint experience, including options for implementing navigation based on the framework for your sites and intranet.
 ---
 
 # Planning Navigation for the modern SharePoint experience

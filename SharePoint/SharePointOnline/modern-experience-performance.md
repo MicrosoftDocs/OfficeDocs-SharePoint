@@ -12,7 +12,8 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 search.appverid: MET150
-description: "Learn about performance improvements in the SharePoint modern experience."
+description: Learn about performance improvements in the modern SharePoint experience, including performance improvements to search, lists, and document libraries.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Performance in the modern SharePoint experience

@@ -18,7 +18,8 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b
-description: "Learn how to allow or prevent users from adding pages on SharePoint sites."
+description: Learn about how to allow or prevent users from adding pages on SharePoint sites either organization-wide or at the site level.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Let users create modern site pages
@@ -81,8 +82,8 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   # Verify that the Site Pages feature is present in the web
   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -eq 0)
   {
-  	Write-Host "The Site Pages feature is already disabled in this web"
-  	return
+      Write-Host "The Site Pages feature is already disabled in this web"
+      return
   }
 
   # Remove the Site Pages feature from the web
@@ -96,11 +97,11 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   $context.ExecuteQuery()
   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -eq 0)
   {
-  	Write-Host "The Site Pages feature has been successfully disabled"
+      Write-Host "The Site Pages feature has been successfully disabled"
   }
   else
-  {	
-  	throw "The Site Pages feature failed to be disabled"
+  {    
+      throw "The Site Pages feature failed to be disabled"
   } 
   ```
 
@@ -163,8 +164,8 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   # Verify that the Site Pages feature is not present in the web
   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -gt 0)
   {
-  	Write-Host "The Site Pages feature is already enabled in this web"
-  	return
+      Write-Host "The Site Pages feature is already enabled in this web"
+      return
   }
 
   # Add the Site Pages feature back to the web
@@ -178,11 +179,11 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   $context.ExecuteQuery()
   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -gt 0)
   {
-  	Write-Host "The Site Pages feature has been successfully enabled"
+      Write-Host "The Site Pages feature has been successfully enabled"
   }
   else
   {
-  	throw "The Site Pages feature failed to be enabled"
+      throw "The Site Pages feature failed to be enabled"
   }
   ```
 

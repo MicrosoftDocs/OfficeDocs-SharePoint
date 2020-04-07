@@ -20,7 +20,8 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn about planning and deploying a secure and productive file collaboration environment."
+description: Learn about planning and deploying a secure and productive file collaboration environment in SharePoint with Microsoft 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # File collaboration in SharePoint with Microsoft 365
@@ -207,7 +208,7 @@ Data loss prevention sensitivity labels provide a way to classify groups, sites 
 
 Using sensitivity labels helps your users to share information safely and to maintain your governance policies without the need for users to become experts in those policies.
 
-For example, you could configure a policy that requires Office 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the “private” option when they choose a classification of confidential.
+For example, you could configure a policy that requires Office 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the "private" option when they choose a classification of confidential.
 
 **Conditions and actions**
 
