@@ -22,11 +22,13 @@ description: "Troubleshoot common installation errors in Migration Manager."
 If you are having trouble installing the agent file on your computers, this article provides information on the possible causes and steps to correct the problem.
 
 
+## 
+
 ## **Make sure your computer meets the installation prerequisites**
 
 
+**Prerequisites**
 
-### Prerequisites
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
 |CPU|64-bit quad core processor or better|64-bit 1.4 GHz 2-core processor or better|
@@ -41,13 +43,12 @@ If you are having trouble installing the agent file on your computers, this arti
 
 ### Government cloud support
 
-If you are on a government cloud, you must first take these steps:
+If you are on a **worldwide consumer cloud** or **GCC** government cloud, you must first take these steps:
 
 1. Open microsoft.sharepoint.migration.common.dll.config.
 2. Change the value of **SPOEnvironmentType** to:
 
-    - **2** if you are GCC high or DoD
-    - **0** if you use the Worldwide consumer cloud or GCC 
+     - **0** if you use the Worldwide consumer cloud or GCC 
 
     </br>For example:
   
@@ -58,7 +59,7 @@ If you are on a government cloud, you must first take these steps:
 
 >[!Note]
 >**0** = Worldwide consumer cloud and GCC</br>
->**2** = GCC high and DoD</br>
+</br>
 
 ## **Install errors**
 
