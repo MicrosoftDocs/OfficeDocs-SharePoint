@@ -14,9 +14,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: a6dca2a3-72d6-4717-abe9-a58f025ea26e
-description: "Overview of the SharePoint Migration Assessment Tool"
+description: Overview of the SharePoint Migration Assessment Tool (SMAT)  and how it helps identify the impact of migrating your server to SharePoint Online with Office 365.
 ---
 
 # Overview of the SharePoint Migration Assessment Tool

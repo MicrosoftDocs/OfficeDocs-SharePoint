@@ -8,7 +8,7 @@ ms.audience: Admin
 f1.keywords:
 - CSH
 ms.topic: article
-ms.custom:
+ms.custom: seo-marvel-apr2020
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  
@@ -20,7 +20,7 @@ search.appverid:
 - FRP150
 - MET150
 ms.assetid: aa93f89b-ffce-4edb-aa89-22b16d6915a7
-description: "Learn how to change the URL of a SharePoint site."
+description: Learn how to change the URL of a SharePoint site, including Office 365 group-connected team sites, communication sites, and classic team sites.
 ---
 
 # Change a site address

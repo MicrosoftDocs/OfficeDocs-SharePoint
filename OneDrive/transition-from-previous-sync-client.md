@@ -20,7 +20,8 @@ search.appverid:
 - GOB160
 - MET150
 ms.assetid: 4100df3a-0c96-464f-b0a8-c20de34da6fa
-description: "Learn how to upgrade your users to the new OneDrive sync app (OneDrive.exe)."
+description: Learn how to transition users from the previous OneDrive for Business sync app (Groove.exe) so that they sync with the new OneDrive sync app (OneDrive.exe).
+ms.custom: seo-marvel-apr2020
 ---
 
 # Transition from the previous OneDrive for Business sync app

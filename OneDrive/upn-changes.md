@@ -20,7 +20,8 @@ search.appverid:
 - MBS150
 - ODB150
 - MET150
-description: "Learn how changing a User Principal Name (UPN) affects the OneDrive URL and OneDrive features."
+description: Learn about how changing a User Principal Name (UPN) affects the OneDrive URL and OneDrive features.
+ms.custom: seo-marvel-apr2020
 ---
 
 # How UPN changes affect the OneDrive URL and OneDrive features

@@ -17,9 +17,8 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-
-
-description: "Plan and create the top landing page for your organization, and then set it as your home site."
+ms.custom: seo-marvel-apr2020
+description: Plan and create the top landing page for your organization, and then set it as your home site in SharePoint.
 ---
 
 # Set up a home site for your organization

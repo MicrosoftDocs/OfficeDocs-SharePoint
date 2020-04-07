@@ -14,7 +14,8 @@ search.appverid: MET150
 msCollection: 
 - SPMigration
 - M365-collaboration
-description: "Which tool to use when migrating content to SharePoint and OneDrive"
+description: Learn about migrating content to SharePoint and OneDrive, and which tool and method is best for you and your organization.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Migrating your content to SharePoint and OneDrive

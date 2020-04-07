@@ -21,7 +21,8 @@ search.appverid:
 - MBS150
 - ODB150
 ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
-description: "Learn how to deploy OneDrive apps using Microsoft Endpoint Configuration Manager."
+description: Learn how to deploy OneDrive apps as well as the mobile apps for iOS and Android using Microsoft Endpoint Configuration Manager.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Deploy OneDrive apps using Microsoft Endpoint Configuration Manager

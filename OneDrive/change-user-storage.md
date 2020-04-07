@@ -18,7 +18,8 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.assetid: 7448173d-a38c-48cf-acbb-09ac1b6237d4
-description: "Learn how to change a user's OneDrive storage space by using PowerShell."
+description: Admin can learn about how to change the OneDrive storage space for a specific user using PowerShell.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Change a specific user's OneDrive storage space

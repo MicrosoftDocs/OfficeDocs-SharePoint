@@ -10,7 +10,9 @@ f1.keywords:
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
-description: "Learn about the SharePoint file sync"
+description: Learn about the SharePoint file sync, including how when users sync the files on a team site, they can 
+work with the files in File Explorer or Finder.
+ms.custom: seo-marvel-apr2020
 ---
 
 # SharePoint file sync

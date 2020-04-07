@@ -18,7 +18,8 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn about planning and deploying a SharePoint intranet."
+description: Learn about planning and deploying an intelligent SharePoint intranet with a focus on quickly bringing sites online.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Plan an intelligent SharePoint intranet
