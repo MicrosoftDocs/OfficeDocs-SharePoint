@@ -44,7 +44,7 @@ The following features are now available in the public preview version of the Sh
 
 **New features**
 
-The following features are now available in the public preview version of the SharePoint Migration Tool.
+The following features were added to the SharePoint Migration Tool in this release:
 
 |**Feature**|**Description**|
 |:-----|:-----|
