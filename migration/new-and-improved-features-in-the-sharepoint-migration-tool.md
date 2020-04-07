@@ -21,8 +21,13 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
+ 
+
 >[!NOTE]
->**Download and install:**   [SharePoint Migration Tool ](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>Download SPMT using one of the links listed below.:</br>
+>- [Current release](https://aka.ms/spmt-ga-page) 
+>- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
+
 
 
 ### SPMT Public Preview
