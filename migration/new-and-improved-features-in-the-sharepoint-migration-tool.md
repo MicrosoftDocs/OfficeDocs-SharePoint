@@ -21,15 +21,30 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
+ 
+
 >[!NOTE]
->**Download and install:**   [SharePoint Migration Tool ](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>Download SPMT using one of the links listed below.:</br>
+>- [Current release](https://aka.ms/spmt-ga-page) 
+>- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
 
 
-### SPMT Public Preview
+### SPMT Public Preview 
 
 **New features**
 
 The following features are now available in the public preview version of the SharePoint Migration Tool.
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SPO.|
+
+
+### SPMT 3.2.116.1
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool in this release:
 
 |**Feature**|**Description**|
 |:-----|:-----|
