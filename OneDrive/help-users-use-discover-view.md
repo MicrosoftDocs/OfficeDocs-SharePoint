@@ -130,7 +130,7 @@ For developers, the Office Graph insights and rich relationships are exposed thr
 If you don't allow access to the Office Graph, you affect the relevance of the content displayed in the Discover view and in experiences elsewhere in Office 365, for example on the SharePoint start page. Allowing and not allowing access to the Office Graph will also affect Delve functionality.
   
 > [!NOTE]
-> For more information, see [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins).
+> For more info, see [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins).
   
 ## Additional resources
 <a name="AddRes"> </a>

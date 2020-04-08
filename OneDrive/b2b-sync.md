@@ -22,7 +22,7 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 # B2B Sync
 
-The OneDrive sync app now lets users sync libraries or folders in SharePoint or OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We’re calling this new feature in the OneDrive sync app "B2B Sync". 
+The OneDrive sync app now lets users sync libraries or folders in SharePoint or OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We're calling this new feature in the OneDrive sync app "B2B Sync". 
 
 Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Office 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organization that have created guest accounts for them.
 
@@ -64,7 +64,7 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
 
     ![The Sync button in a SharePoint document library](media/sync-button.png)
 
-4. The guest’s browser will display up a message asking if they want to open "Microsoft OneDrive," and they will need to allow this.
+4. The guest's browser will display up a message asking if they want to open "Microsoft OneDrive," and they will need to allow this.
 
 5. If this is the first time the guest has used the sync app with their Fabrikam account, they'll need to sign in. The email address will be automatically set to the Fabrikam account used in the previous steps. The guest needs to select "Sign in."
 
@@ -75,7 +75,7 @@ Here's an example of what happens after someone at "Contoso" shares a site or fo
     > [!NOTE]
     > The content is placed in a folder whose name includes the name of the organization ("SharePoint - Contoso" in this example). If the user is syncing SharePoint content from Fabrikam as well, they'll also have a "SharePoint - Fabrikam" folder.
 
-8.	The guest will continue through the OneDrive sync app setup wizard.
+8.    The guest will continue through the OneDrive sync app setup wizard.
 
 9. After closing the wizard, the site will begin syncing. The user can click the blue cloud icon in the notification area to open the OneDrive sync activity center and see the files syncing, open the local folder with the files, or open the SharePoint site in a web browser.
 
@@ -96,11 +96,11 @@ For more info, see [External sharing overview](/sharepoint/external-sharing-over
 
 ### Control external sharing
 
-When you allow users to share content from your organization externally, you can use several features in Office 365 to manage who has access to the content. Office 365 admins and site owners can review permissions and audit access to sites. For info, see [Searching for site content shared with external users](/office365/securitycompliance/keyword-queries-and-search-conditions) and [Turn on external sharing notifications](turn-on-external-sharing-notifications.md). You can enable external sharing with only specific internet domains, or you can block specific domains. For info, see [Restricted domains sharing](/sharepoint/restricted-domains-sharing). You can also allow only members of specific security groups to share externally. For info, see [Turn external sharing on or off](/sharepoint/turn-external-sharing-on-or-off).
+When you allow users to share content from your organization externally, you can use several features in Microsoft 365 to manage who has access to the content. Admins and site owners can review permissions and audit access to sites. For info, see [Searching for site content shared with external users](/office365/securitycompliance/keyword-queries-and-search-conditions) and [Turn on external sharing notifications](turn-on-external-sharing-notifications.md). You can enable external sharing with only specific internet domains, or you can block specific domains. For info, see [Restricted domains sharing](/sharepoint/restricted-domains-sharing). You can also allow only members of specific security groups to share externally. For info, see [Turn external sharing on or off](/sharepoint/turn-external-sharing-on-or-off).
 
 We recommend creating separate sites (site collections, not subsites) for each unit of work that you want to share externally. This way, you can clearly annotate the sites to indicate that external users have access, and avoid unintentional disclosure of information. For individual users sharing content from their OneDrive, we recommend creating separate folders for different projects or collaboration groups.
   
-You can remove a guest's permission to a site or folder, or you can delete the guest account to remove their permission from all of your organization’s content.
+You can remove a guest's permission to a site or folder, or you can delete the guest account to remove their permission from all of your organization's content.
 
 > [!IMPORTANT]
 > Any synced content will remain on the user's computer after permissions have been removed.
@@ -237,9 +237,9 @@ For more info, see:
 
 ## When a guest loses access to shared content
  
-If a person’s guest account is deleted or their permission to shared content is removed, the sync app will display an error.
+If a person's guest account is deleted or their permission to shared content is removed, the sync app will display an error.
  
-- A notification will appear indicating that the library can’t be synced.
+- A notification will appear indicating that the library can't be synced.
 
     ![We can't sync your document library notification](media/cant-sync-notification.png)
     

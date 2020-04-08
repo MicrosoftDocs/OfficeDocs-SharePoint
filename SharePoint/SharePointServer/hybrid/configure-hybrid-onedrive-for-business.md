@@ -96,7 +96,7 @@ If you want to redirect only a specific set of your users from your on-premises 
   
 1. On the Central Administration website, select **Office 365** > **Configure hybrid OneDrive and Sites features**.
     
-2. Select **Use a specific audience**, and for the audience that contains your Office 365 users, enter the  *audience name*. 
+2. Select **Use a specific audience**, and for the audience that contains your Microsoft 365 users, enter the  *audience name*. 
     
 3. Select **OK**.
     

@@ -38,7 +38,7 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
 
  **Search verticals** - Search verticals narrow search results to a specific set of content, for example to show only videos. If you currently use a search vertical in a Search Center in SharePoint Server, you have to recreate it in your Search Center in SharePoint Online in Office 365. 
   
- **Site search** - Your **existing search** in document libraries in SharePoint Server stops returning results when you move your search index to Office 365. Search is fastest when users use Search Centers that are in the same environment as the search index, so searching from an Office 365 Search Center gives a better experience. If your users need results from the Office 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010, you can set up search from SharePoint Server 2013 or SharePoint Server 2016. Plan a remote result source in SharePoint Server 2013 or SharePoint Server 2016 that gets results from the Office 365 search index and plan use of query federation. Because SharePoint Online in Office 365 processes your queries, your users have to use the query syntax that SharePoint Online supports. Learn more in [Show results from Office 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
+ **Site search** - Your **existing search** in document libraries in SharePoint Server stops returning results when you move your search index to Office 365. Search is fastest when users use Search Centers that are in the same environment as the search index, so searching from an Office 365 Search Center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010, you can set up search from SharePoint Server 2013 or SharePoint Server 2016. Plan a remote result source in SharePoint Server 2013 or SharePoint Server 2016 that gets results from the Microsoft 365 search index and plan use of query federation. Because SharePoint Online in Office 365 processes your queries, your users have to use the query syntax that SharePoint Online supports. Learn more in [Show results from Office 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
   
  **eDiscovery** - You might have to set up eDiscovery separately in SharePoint Server and in SharePoint Online in Office 365. 
   
@@ -61,7 +61,7 @@ Some of the search features you might be familiar with from SharePoint Server wo
   
  **Promotion/demotion of search results** - Promotion/demotion of search results is a SharePoint Server 2010 feature. Use result sources in SharePoint Online in Office 365 instead. 
   
- **Removal of on-premises search results** - In Central Administration in SharePoint Server you can select a Search service application and use the option "Index reset" to remove all items from the search index. Don't use this option for a cloud Search service application, the option deletes the crawl history from the crawl databases, but doesn't remove on-premises items from the Office 365 index because there is no direct communication between the cloud Search service application in SharePoint Server and the search index in Office 365. These on-premises items become orphans in the Office 365 index. If you want to remove all on-premises metadata from the Office 365 search index, remove all the on-premises content sources. Any on-premises items left in the Office 365 search index after the process has completed, are orphan items. 
+ **Removal of on-premises search results** - In Central Administration in SharePoint Server you can select a Search service application and use the option "Index reset" to remove all items from the search index. Don't use this option for a cloud Search service application, the option deletes the crawl history from the crawl databases, but doesn't remove on-premises items from the Office 365 index because there is no direct communication between the cloud Search service application in SharePoint Server and the search index in Office 365. These on-premises items become orphans in the Office 365 index. If you want to remove all on-premises metadata from the Microsoft 365 search index, remove all the on-premises content sources. Any on-premises items left in the Microsoft 365 search index after the process has completed, are orphan items. 
   
 Some of the search features you might be familiar with from SharePoint Server aren't available with cloud hybrid search. Plan to inform your users.
   
@@ -93,7 +93,7 @@ For cloud hybrid search we recommend using the default search architecture that 
   
 The grey components are inactive in cloud hybrid search, but they still need to be placed on servers as shown. Read about inactive components in [Learn about the search topology for cloud hybrid search](plan-cloud-hybrid-search-for-sharepoint.md#BKMK_Learn_search_topo_cloud_hybrid_search).
   
-Just as for on-premises only enterprise search, you can scale your search architecture. The main difference is that for cloud hybrid search it's only relevant to scale the crawl component. If you need to tune crawling, follow the guidance for crawling in [Redesign enterprise search topology for specific performance requirements in SharePoint 2016](../search/redesign-for-specific-performance-requirements.md) (the guidance for crawling also applies to cloud hybrid search). Note that if you crawl on-premises content at a high rate, the system might throttle feeding to the Office 365 search index to protect the Office 365 tenancy. If your search architecture has up to two crawl components, this should result in a sufficient and acceptable crawl rate. 
+Just as for on-premises only enterprise search, you can scale your search architecture. The main difference is that for cloud hybrid search it's only relevant to scale the crawl component. If you need to tune crawling, follow the guidance for crawling in [Redesign enterprise search topology for specific performance requirements in SharePoint 2016](../search/redesign-for-specific-performance-requirements.md) (the guidance for crawling also applies to cloud hybrid search). Note that if you crawl on-premises content at a high rate, the system might throttle feeding to the Microsoft 365 search index to protect the Office 365 tenancy. If your search architecture has up to two crawl components, this should result in a sufficient and acceptable crawl rate. 
   
 ### Step 3: What hardware requirements should I be aware of for cloud search architecture?
 
@@ -156,7 +156,7 @@ You can influence crawl performance and search freshness by how you manage crawl
 ## Decide how to synchronize Active Directories
 <a name="BKMK_Decide_sync_AD"> </a>
 
-When your on-premises content is crawled, parsed and encrypted, the access control lists (ACLs) for each item are crawled too. The Office 365 search index stores the ACLs together with the item, so the system needs to be able to recognize an on-premises user as the same person in Office 365. When you've set up Active Directory synchronization between your on-premises network (Windows Server Active Directory) and your Office 365 tenant (Windows Azure Active Directory), the system maps and translates the ACLs to the right users, and the users get security trimmed search results from the Office 365 index.
+When your on-premises content is crawled, parsed and encrypted, the access control lists (ACLs) for each item are crawled too. The Microsoft 365 search index stores the ACLs together with the item, so the system needs to be able to recognize an on-premises user as the same person in Office 365. When you've set up Active Directory synchronization between your on-premises network (Windows Server Active Directory) and your Office 365 tenant (Windows Azure Active Directory), the system maps and translates the ACLs to the right users, and the users get security trimmed search results from the Office 365 index.
   
 There are two methods to synchronize Active Directories:
   
@@ -177,7 +177,7 @@ Instead, assign access rights by using a group that doesn't have IsCriticalSecur
 ## Does your organization have on-premises content that's sensitive?
 <a name="BKMK_Sensitive_content"> </a>
 
-Some organizations have on-premises content that's considered sensitive because of regulatory, legal, or geopolitical constraints. In some cases, it's prohibited to add metadata from sensitive on-premises content to the Office 365 search index. In other cases, metadata from sensitive on-premises content can be added to the Office 365 search index, but only a limited number of users are allowed to open search results from the sensitive content.
+Some organizations have on-premises content that's considered sensitive because of regulatory, legal, or geopolitical constraints. In some cases, it's prohibited to add metadata from sensitive on-premises content to the Microsoft 365 search index. In other cases, metadata from sensitive on-premises content can be added to the Microsoft 365 search index, but only a limited number of users are allowed to open search results from the sensitive content.
   
 Here are two examples of how you could set up hybrid search to comply with these constraints:
   
@@ -195,7 +195,7 @@ Set up cloud hybrid search in combination with hybrid federated search.
     
 - Plan enterprise search in SharePoint Server to crawl the sensitive, on-premises content, see [Plan search in SharePoint Server](../search/search-planning.md). Plan content sources for the SSA that cover the sensitive content. The metadata from the crawled, sensitive content is added to the search index in SharePoint Server.
     
-- If your users need results from the Office 365 search index in on-premises SharePoint sites, plan hybrid federated search from SharePoint Server to display search results from the search index in SharePoint Server and from the search index in Office 365, see [Plan hybrid federated search for SharePoint Server](plan-hybrid-federated-search.md).
+- If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, plan hybrid federated search from SharePoint Server to display search results from the search index in SharePoint Server and from the search index in Office 365, see [Plan hybrid federated search for SharePoint Server](plan-hybrid-federated-search.md).
     
 ## Plan to validate cloud hybrid search before exposing it to your users
 <a name="BKMK_Plan_validation"> </a>
@@ -206,16 +206,16 @@ Plan for a custom result source that limits your Search Centers in Office 365 to
   
 ![Illustration showing how content enters the Office 365 index from both a SharePoint Server content farm and from Office 365.](../media/0b9c3308-ca8f-4721-a2f2-83b5ada1afe9.png)
   
-1. On-premises content. During crawl, metadata from this content is added to the Office 365 search index.
+1. On-premises content. During crawl, metadata from this content is added to the Microsoft 365 search index.
     
-2. Office 365 content. During crawl, metadata from this content is added to the Office 365 search index.
+2. Office 365 content. During crawl, metadata from this content is added to the Microsoft 365 search index.
     
 3. Default (or existing) Office 365 Search Center. You create a custom result source for this Search Center, which limits search results to show only Office 365 content. .
     
 4. New Office 365 Search Center, where you validate and tune how hybrid search results are shown. This Search Center uses the default result source and shows search results from both on-premises and Office 365 content. You set up access so only testers and administrators have access to this site.
     
 > [!NOTE]
-> Although you can keep the original search experience unchanged while tuning, you can't keep the original Office Delve experience unchanged. When metadata from on-premises content is in the Office 365 search index, Delve will display this content. 
+> Although you can keep the original search experience unchanged while tuning, you can't keep the original Office Delve experience unchanged. When metadata from on-premises content is in the Microsoft 365 search index, Delve will display this content. 
   
 ## Related Topics
 <a name="BKMK_Plan_validation"> </a>

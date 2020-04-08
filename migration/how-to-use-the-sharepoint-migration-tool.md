@@ -21,7 +21,7 @@ description: "The SharePoint Migration Tool is a tool that migrates your files f
 
 # Using the SharePoint Migration Tool
 
-The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily copies them to your SharePoint Online tenant. It is available to all Office 365 users.
+The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily copies them to your SharePoint Online tenant. It is available to all Microsoft 365 users.
   
 
 >[!NOTE]
@@ -60,7 +60,7 @@ Leave these settings in place for the duration of your migration.
 For more info, see, [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script)</br>
 
 #### Note about logging in
-When you first launch the SharePoint Migration Tool (SPMT), you are prompted for your Office 365 username and password. The credentials you provide will be to the migration *destination*.
+When you first launch the SharePoint Migration Tool (SPMT), you are prompted for your Microsoft 365 username and password. The credentials you provide will be to the migration *destination*.
 
 ### Authentication supported
 SPMT supports the following authentication methods:
@@ -93,7 +93,7 @@ To install the current release download, go to: [SharePoint Migration Tool](http
   
  **Migrating data files from SharePoint Server document libraries**
   
-1. Start SPMT, and then enter your Office 365 username and password.
+1. Start SPMT, and then enter your Microsoft 365 username and password.
     
 2. Select **Start your first migration**.
     
@@ -120,7 +120,7 @@ To install the current release download, go to: [SharePoint Migration Tool](http
     
  **Migrating data files from a local file share**
 
-1. Start SPMT, and then enter your Office 365 username and password.
+1. Start SPMT, and then enter your Microsoft 365 username and password.
     
 2. Select **Start your first migration**.
     
@@ -147,7 +147,7 @@ To install the current release download, go to: [SharePoint Migration Tool](http
 
 If you have many sources to migrate, you can use either a JSON or CSV file to do a bulk migration. To learn more on how to create a JSON or CSV file for data content migration, see [How to format your JSON or CSV file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md).
   
-1. Start SPMT, and then enter your Office 365 username and password.
+1. Start SPMT, and then enter your Microsoft 365 username and password.
     
 2. Select **Start your first migration**.
     
@@ -186,7 +186,7 @@ If you need to close SPMT before a submitted job has completed, you can restart 
 
 **To resume migration jobs**
   
-1. Launch SPMT. Using the same Office 365 username and password you used when you originally submitted the job, select **Sign In**. 
+1. Launch SPMT. Using the same Microsoft 365 username and password you used when you originally submitted the job, select **Sign In**. 
     
 2. After you sign in, a screen displays any paused migrations, providing details about what has been completed and what remains.
     

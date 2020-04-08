@@ -707,7 +707,7 @@ Your Global Admin user must have an Office 365 account provisioned in order to a
 
 #### User provisioning
 
-Are your Office 365 users provisioned? All Office 365 users must log in to their Office 365, and open Office 365 for us to transfer into their accounts. You can also provision Office 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
+Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to their Office 365, and open Microsoft 365 for us to transfer into their accounts. You can also provision Microsoft 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
 
 `Connect-SPOService -Url https://example-admin.sharepoint.com -credential user@example.com`
 

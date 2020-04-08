@@ -34,7 +34,7 @@ The Search Centers display results from the environments in two separate result 
   
 ![Illustration shows search results with hybrid federated search, separate ranking for on-premises and Office 365 content.](../media/85309132-5eac-4ca1-a870-d10a3a9597b1.png)
   
-If you've synchronized Active Directory (AD) between your on-premises network (Windows Server Active Directory) and your Office 365 tenant (Windows Azure Active Directory), Office 365 alters the document permissions that refer to on-premises users, so they refer to the corresponding Office 365 users, and the other way around. Users only see search results for content they have access to. 
+If you've synchronized Active Directory (AD) between your on-premises network (Windows Server Active Directory) and your Office 365 tenant (Windows Azure Active Directory), Office 365 alters the document permissions that refer to on-premises users, so they refer to the corresponding Microsoft 365 users, and the other way around. Users only see search results for content they have access to. 
   
 ## What are the scenarios for hybrid federated search?
 

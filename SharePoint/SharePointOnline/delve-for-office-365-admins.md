@@ -1,5 +1,5 @@
 ---
-title: "Office Delve for Office 365 admins"
+title: "Office Delve for admins"
 ms.reviewer: 
 ms.author: gretel
 author: gretel
@@ -20,7 +20,7 @@ ms.assetid: 54f87a42-15a4-44b4-9df0-d36287d9531b
 description: "The more you and your colleagues use Office 365 to work together, by viewing, editing and sharing each other's documents, the more useful Delve will be for all of you. Learn more about how you as an admin can help users get the most out of Delve."
 ---
 
-# Office Delve for Office 365 admins
+# Office Delve for admins
 
 The more you and your colleagues use Office 365 to work together, by viewing, editing and sharing each other's documents, the more useful Delve will be for all of you. Learn more about how you as an admin can help users get the most out of Delve.
   

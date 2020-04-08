@@ -68,7 +68,7 @@ The features listed in this section address common customer concerns or specific
 
 -   Customer-controlled encryption keys
 
--   Office 365 Customer Lockbox
+-   Microsoft 365 Customer Lockbox
 
 -   Hybrid integration with SharePoint Server
 

@@ -65,10 +65,10 @@ The [SharePoint Framework](https://dev.office.com/sharepoint/docs/spfx/sharepoin
     
 - The toolchain is based on common open source client development tools like npm, TypeScript, Yeoman, webpack, and gulp.
     
-- Office 365 admins have governance tools to immediately disable solutions regardless of the number of instances that have been used and the number of pages or sites across which they've been used.
+- Admins have governance tools to immediately disable solutions regardless of the number of instances that have been used and the number of pages or sites across which they've been used.
     
 - Solutions can be deployed in web parts and pages that use the classic experience or the new experience.
     
-- Only global admins, SharePoint admins, and people who have been given permission to manage the App Catalog can add solutions. (For info about giving users permission to manage the app catalog, see [Request app installation permissions](request-app-installation-permissions.md).)
+- Only global admins, SharePoint admins, and people who have been given permission to manage the App Catalog can add solutions. For info about giving users permission to manage the app catalog, see [Request app installation permissions](request-app-installation-permissions.md).
     
 

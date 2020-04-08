@@ -119,7 +119,7 @@ Any document that a user can view or edit in Office 365, can also appear in Delv
   
 You can use the HideFromDelve managed property to hide a document from Delve. You can keep storing the document in Office 365, and people can still find it through search - it just won't show up in Delve anymore. See [Hide documents from Delve](manage-search-schema.md#BKMK_HideFromDelveSteps).
   
-For more information about Delve, see [Office Delve for Office 365 admins](https://go.microsoft.com/fwlink/p/?LinkID=733496)
+For more info about Delve, see [Office Delve for Office 365 admins](https://go.microsoft.com/fwlink/p/?LinkID=733496)
   
 ## Create a new managed property
 <a name="__toc351360841"> </a>

@@ -37,15 +37,15 @@ There are two variants of hybrid search:
     
 ## What is cloud hybrid search?
 
-With the [cloud hybrid search solution](learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint, you index all your crawled content, including on-premises content, in your search index in Office 365. When users enter a query in a search center, they get search results from the Office 365 search index, and thus get results both from on-premises and Office 365 content. 
+With the [cloud hybrid search solution](learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint, you index all your crawled content, including on-premises content, in your search index in Office 365. When users enter a query in a search center, they get search results from the Microsoft 365 search index, and thus get results both from on-premises and Office 365 content. 
   
-![Figure showing on-premises and Office 365 content feeding the Office 365 search index, and search results coming from the Office 365 search index.](../media/190a4c47-d434-4d9b-bb14-81138f245ffd.png)
+![Figure showing on-premises and Microsoft 365 content feeding the Microsoft 365 search index, and search results coming from the Microsoft 365 search index.](../media/190a4c47-d434-4d9b-bb14-81138f245ffd.png)
   
 ## What is hybrid federated search?
 
-With the [hybrid federated search solution](learn-about-hybrid-federated-search-for-sharepoint.md) for SharePoint, you federate results from your search index in SharePoint Server 2013 and your search index in Office 365. When users enter a query in a search center, they get search results from the Office 365 search index and from the SharePoint Server 2013 search index, and thus get results both from on-premises and Office 365 content. 
+With the [hybrid federated search solution](learn-about-hybrid-federated-search-for-sharepoint.md) for SharePoint, you federate results from your search index in SharePoint Server 2013 and your search index in Microsoft 365. When users enter a query in a search center, they get search results from the Microsoft 365 search index and from the SharePoint Server 2013 search index, and thus get results both from on-premises and Office 365 content. 
   
-![Figure showing searches from Office 365 getting results from the on-premises search index and the Office 365 index, and searches from the on-premises index getting results from the on-premises search index and the Office 365 index](../media/651bc6ac-5dbb-4266-83d6-be1bba093506.png)
+![Figure showing searches from Microsoft 365 getting results from the on-premises search index and the Microsoft 365 index, and searches from the on-premises index getting results from the on-premises search index and the Microsoft 365 index](../media/651bc6ac-5dbb-4266-83d6-be1bba093506.png)
   
 ## Cloud hybrid search or hybrid federated search - what's the difference for your users?
 

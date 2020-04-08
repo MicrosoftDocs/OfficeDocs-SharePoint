@@ -21,14 +21,14 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 1a11cbf3-ab19-4aa0-ae9c-8e4b793154a2
-description: "Learn how to show results from the Office 365 search index when searching from SharePoint Server sites with cloud hybrid search."
+description: "Learn how to show results from the Microsoft 365 search index when searching from SharePoint Server sites with cloud hybrid search."
 ---
 
 # Show results from Office 365 in on-premises SharePoint with cloud hybrid search
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
-Learn how to show results from the Office 365 search index when searching from SharePoint Server sites with cloud hybrid search.
+Learn how to show results from the Microsoft 365 search index when searching from SharePoint Server sites with cloud hybrid search.
   
 After you've set up [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), your users get search results from both on-premises and Office 365 content when they use the search center in Office 365. However, your existing search in document libraries in SharePoint Server, such as Team Sites, stops returning results when you've set up cloud hybrid search. If your users need to search from Team Sites, you can set up search from SharePoint Server Team Sites to show results from the search index in Office 365. You use the cloud Search service application to achieve this. Note that searching from a Search Center in Office 365 will be faster than searching from a document library in SharePoint Server because the search index and the search center are in the same environment.
   
@@ -51,25 +51,25 @@ Follow these steps:
 
 1. Verify that the user account that you use to perform this procedure is an administrator for the cloud SSA.
     
-2. In the cloud search farm, in Central Administration, in the **Application Management** section, click **Manage service applications**. 
+2. In the cloud search farm, in Central Administration, in the **Application Management** section, select **Manage service applications**. 
     
-3. Click the cloud SSA to which you want to add a result source.
+3. Select the cloud SSA to which you want to add a result source.
     
-4. On the Search Administration page for the cloud SSA, in the Quick Launch, click **Result Sources**. 
+4. On the Search Administration page for the cloud SSA, in the Quick Launch, select **Result Sources**. 
     
-5. On the **Manage Result Sources** page, click **New Result Source**. 
+5. On the **Manage Result Sources** page, select **New Result Source**. 
     
 6. On the **Add Result Source** page, do the following: 
     
-1. In the **General Information** section, in the **Name text** box, type a name for the new result source—for example,  *Office 365 search index*  . 
+1. In the **General Information** section, in the **Name text** box, type a name for the new result source—for example,  *Microsoft 365 search index*. 
     
-2. (Optional) In the **General Information** section, in the **Description** text box, type a description of the new result source. 
+2. (Optional) In the **General Information** section, in the **Description** text box, enter a description of the new result source. 
     
     This description will appear as a tooltip when the pointer rests on the result source on certain configuration pages.
     
 3. In the **Protocol** section, select **Remote SharePoint**. 
     
-4. In the **Remote Service URL** section, type the address of the root site collection in SharePoint Online that you want to get search results from, such as https://adventure-works.sharepoint.com. 
+4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint Online that you want to get search results from, such as https://adventure-works.sharepoint.com. 
     
 5. In the **Type** section, select **SharePoint Search Results**. 
     
@@ -77,20 +77,20 @@ Follow these steps:
     
 7. In the **Credentials Information** section, select **Default Authentication.**
     
-8. Click **OK** to save the new result source. 
+8. To save the new result source, select **OK**. 
     
 ## Set the result source as the default result source for the cloud Search service application
 <a name="BKMK_Set_as_default_result_source"> </a>
 
 1. Verify that the user account that performs this procedure is an administrator for the cloud SSA.
     
-2. In the cloud search farm, in Central Administration, in the **Application Management** section, click **Manage service applications**. 
+2. In the cloud search farm, in Central Administration, in the **Application Management** section, select **Manage service applications**. 
     
-3. Click the cloud SSA for which you want to set the result source as default.
+3. Select the cloud SSA for which you want to set the result source as default.
     
-4. On the **Search Administration** page, in the **Queries and Results** section, click **Result Sources**. 
+4. On the **Search Administration** page, in the **Queries and Results** section, select **Result Sources**. 
     
-5. On the **Manage Result Sources** page, point to the result source that you want to set as default, click the arrow that appears, and then click **Set as Default**. 
+5. On the **Manage Result Sources** page, point to the result source that you want to set as default, select the arrow that appears, and then select **Set as Default**. 
     
 ## Set up query federation
 <a name="BKMK_Set_up_query_federation"> </a>
