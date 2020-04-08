@@ -13,12 +13,14 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 - BSA160
 
-description: "Learn about modernizing the root site for your organization."
+description: "Learn about modernizing the classic root site for your organization to a communication site as the root site."
 ---
 
 # Modernize your root site

@@ -13,11 +13,13 @@ localization_priority: Priority
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
+ms.custom:
+-  seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how to change your organization-level sharing settings for SharePoint and OneDrive."
+description: "Learn how global and SharePoint admins can change the organization-level sharing settings for SharePoint and OneDrive in Office 365."
 ---
 
 # Manage sharing settings

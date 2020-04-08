@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 localization_priority: Priority
-description: "Learn about sharing and permissions in the SharePoint modern experience"
+description: "In this article, you will learn about the available options for sharing and permissions in the SharePoint modern experience."
 ---
 
 # Sharing and permissions in the SharePoint modern experience

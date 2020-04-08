@@ -12,7 +12,9 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 search.appverid: MET150
-description: "Learn about performance improvements in the SharePoint modern experience."
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article, you will learn about performance improvements made in the SharePoint modern experience."
 ---
 
 # Performance in the modern SharePoint experience

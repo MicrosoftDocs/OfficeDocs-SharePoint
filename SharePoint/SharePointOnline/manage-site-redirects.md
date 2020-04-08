@@ -13,7 +13,9 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
-description: "Learn how to view and delete site redirects."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains information on how to manage site redirects in SharePoint. You'll learn, how to view and delete site redirects."
 ---
 
 # Manage site redirects 

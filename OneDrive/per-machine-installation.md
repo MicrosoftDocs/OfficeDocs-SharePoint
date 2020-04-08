@@ -12,6 +12,7 @@ ms.service: one-drive
 localization_priority: Normal
 ms.custom: 
 - Adm_O365
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - BCS160
@@ -19,7 +20,7 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
-description: "Learn how to install the OneDrive sync app for every user account on a Windows PC."
+description: "In this article, you'll learn how to install the OneDrive sync app for every user account on a Windows PC."
 ---
 
 # Install the sync app per machine
