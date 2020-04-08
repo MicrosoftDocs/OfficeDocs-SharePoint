@@ -5,8 +5,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: End User
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -14,7 +13,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 7c06e9ed-98b6-4304-a900-14773a8fa32f
-description: "As an admin who manages SharePoint Online (for more information, see SharePoint Online search administration overview), you should also be aware of limits to search. For example, there are limits to the number of entries you can have in a custom search dictionary or the number of rows that are returned as part of a search."
+description: "Learn about Search limits for SharePoint Online"
 ---
 
 # Search limits for SharePoint Online
@@ -47,7 +46,7 @@ The following table lists the limits for SharePoint Online search.
 |Values per managed property  <br/> |1,000  <br/> |Boundary  <br/> |A managed property can have multiple values of the same type. This is the maximum number of values per managed multi-valued managed property per document. If this number is exceeded, the remaining values are discarded.  <br/> |
 |Unique contexts used for ranking  <br/> |15 unique contexts per rank model  <br/> |Boundary  <br/> ||
 |Authoritative pages  <br/> |1 top level and minimal second- and third-level pages per tenant  <br/> |Supported  <br/> |Use as few second- and third-level pages as possible while still achieving the desired relevance.  <br/> If you add additional pages you may not achieve the desired relevance. Add the key site to the first relevance level. Add more key sites at either second or third relevance levels, one at a time. Evaluate relevance after each addition to ensure that you have achieved the desired relevance effect.  <br/> |
-|Text length for queries using Keyword Query Language  <br/> |4 KB (4,096 characters)  <br/> |Boundary  <br/> |For Discovery queries the maximum text length is 16 KB (16,384 characters).  <br/> |
+|Text length for queries using Keyword Query Language  <br/> |4 KB (4,096 characters)  <br/> |Boundary  <br/> ||
 |Number of rows in a result set  <br/> |500  <br/> |Boundary  <br/> |To display the entire result set, issue more paging queries.  <br/> For Discovery queries the maximum number of rows in a result set is 10,000.  <br/> |
 |User-defined full-text indexes  <br/> |3  <br/> |Boundary  <br/> ||
 |Maximum number of on-premises items indexed in Office 365  <br/> |20 million items  <br/> |Threshold  <br/> |For each 1 TB of storage space your tenant has in Office 365, you can index 1 million items of on-premises content in your tenant's search index in Office 365 with the cloud hybrid search solution. This quota is by default limited upwards to 20 million items. To increase the number of items that can be indexed beyond 20 million items, contact Microsoft Support.  <br/> ||
