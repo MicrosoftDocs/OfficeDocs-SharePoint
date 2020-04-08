@@ -19,7 +19,7 @@ search.appverid: MET150
 ---
 
 # MySites to OneDrive Migration Guide
-This guide will help you prepare to migrate from My Sites to OneDrive in Office 365.
+This guide will help you prepare to migrate from My Sites to OneDrive.
 
 Most migrations fall into regular phases as described below. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users.
 
@@ -73,7 +73,7 @@ Your environment will not be impacted while SMAT performs a scan of your environ
 |**Checked out files** |Only checked-in content will be migrated. Have users check in their files prior to migration to avoid data loss.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-checked-out-files)|
 |**Large Excel Files** |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-excel-files)|
 |**Large List Views**|In your My Site, you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive, the limit is in place continuously (24x7). While your lists and data will be migrated, some of your list views be throttled.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-list-views)|
-|**Browser File Handling**|SharePoint Server allows you to set it from “strict” to “permissive”.  However, in SharePoint Online and OneDrive, the “strict” setting is enforced and can’t be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-browser-file-handling)|
+|**Browser File Handling**|SharePoint Server allows you to set it from "strict" to "permissive".  However, in SharePoint Online and OneDrive, the "strict" setting is enforced and can't be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-browser-file-handling)|
 |**InfoPath** |InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However,certain features of custom InfoPath forms will not be migrated.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-infopath)|
 
 
@@ -106,7 +106,7 @@ Use the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/sharepoint
 
 
 ## Migration best practices
-Below is a typical migration process that follows Microsoft’s best practices guidance.
+Below is a typical migration process that follows Microsoft's best practices guidance.
 - Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
 
 - Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users on-premises My Sites accounts are disabled and they are directed to use the target OneDrive  environment. This method is preferred as it reduces user impact.</br></br>
@@ -129,7 +129,7 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 
 - **Be public about the timeline.** Publish the migration timeline and how it will impact them. Include any end user calls to action.</br></br>
 
-- **Reassure your users.** Assure them that if they have content already in OneDrive, that their content is safe and won’t be overwritten.</br></br>
+- **Reassure your users.** Assure them that if they have content already in OneDrive, that their content is safe and won't be overwritten.</br></br>
 
 - **Opting out**. Let them know whether individuals can opt-out of the migration process.</br></br>
 
@@ -140,7 +140,7 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 
 
 ### Make the switch! 
-The following articles will help your users “make the switch” from My Sites to OneDrive. The topics show how you used to do common tasks in OneDrive.
+The following articles will help your users "make the switch" from My Sites to OneDrive. The topics show how you used to do common tasks in OneDrive.
 - [Upload files to OneDrive](https://support.office.com/article/a5710114-6aeb-4bf5-a336-dffa7cc0b77a) 
 - [Manage folders in OneDrive](https://support.office.com/article/20d7bb65-425a-4209-9b71-4cad046cfdc8)
 - [Collaborate in OneDrive](https://support.office.com/article/d8a2a19a-e306-4ca5-9b00-19b0e96890d6)

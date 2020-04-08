@@ -70,5 +70,5 @@ If your key is lost or obtained by someone else, there are two defenses in place
 > Only those who have the key have access to the container. Other users in the subscription or the tenant do not have access. 
   
 >[!NOTE]
->The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German data center. 
+>The **SharePoint Migration Tool** is not available for users of Microsoft 365 operated by 21Vianet in China. It is also not available for users of Microsoft 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German data center. 
 

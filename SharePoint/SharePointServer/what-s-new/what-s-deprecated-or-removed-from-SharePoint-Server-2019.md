@@ -24,7 +24,7 @@ description: "Learn about the features and functionality that are deprecated or 
 
 Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019.
 
-Deprecated features are included in SharePoint Server 2019 for compatibility with previous product versions. For information about new features in SharePoint Server 2019, see [New and improved features in SharePoint Server 2019](new-and-improved-features-in-sharepoint-server-2019.md).
+Deprecated features are included in SharePoint Server 2019 for compatibility with previous product versions. For info about new features in SharePoint Server 2019, see [New and improved features in SharePoint Server 2019](new-and-improved-features-in-sharepoint-server-2019.md).
 
 ## Definitions
 
@@ -36,7 +36,7 @@ Different customers may have different interpretations of terms such as "depreca
 
 - **Removed**
 
-  A removed feature is no longer supported by Microsoft in SharePoint Server 2019. In many cases the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as "removed" is unsupported even if the feature is still present in the product.
+  A removed feature is no longer supported by Microsoft in SharePoint Server 2019. In many cases, the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as "removed" is unsupported even if the feature is still present in the product.
 
 ## Features deprecated in SharePoint Server 2019
 
@@ -52,11 +52,11 @@ Access Services 2013 will remain supported, but deprecated, for the SharePoint S
 
 ### Aggregated Newsfeed
 
-The aggregated newsfeed feature (available at newsfeed.aspx and typically accessed via the Newsfeed tile on the app launcher), will be set to read-only in SharePoint Server 2019. Both the tile in the app launcher and the option to implement the newsfeed capability will also be removed from this version forward. For customers who are currently using the aggregated newsfeed, we recommend considering options such as Team News, Communication Sites, Yammer and/or Teams. Please note that the Site Feed feature on an individual site is not impacted and will continue to be supported across all versions of the product.
+The aggregated newsfeed feature (available at newsfeed.aspx and typically accessed via the Newsfeed tile on the app launcher), will be set to read-only in SharePoint Server 2019. Both the tile in the app launcher and the option to implement the newsfeed capability will also be removed from this version forward. For customers who are currently using the aggregated newsfeed, we recommend considering options such as Team News, Communication Sites, Yammer and/or Teams. The Site Feed feature on an individual site is not impacted and will continue to be supported across all versions of the product.
 
 ### Custom Help
 
-To ensure that users receive highly relevant help content, Microsoft is moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Office 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
+To ensure that users receive highly relevant help content, we are moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Microsoft 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
 ### Groove Sync App
 

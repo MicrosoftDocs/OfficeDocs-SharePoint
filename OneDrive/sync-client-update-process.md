@@ -17,7 +17,7 @@ search.appverid:
 - ODB160
 - MET150
 ms.assetid: 2f748bc6-6f01-4406-a791-ec047f066d6d
-description: "Learn about the Production and Enterprise rings for OneDrive sync app updates"
+description: "Learn about the Production and Deferred rings for OneDrive sync app updates"
 ---
 
 # The OneDrive sync app update process
@@ -33,18 +33,18 @@ After we validate updates through rings within Microsoft, we release them to the
   
 ![Timeline of an update](media/5d705fbc-5553-4c7b-ae2f-cba394332a5e.png)
   
-The Enterprise ring provides builds that have been monitored throughout the Production rollout, so fewer releases are suspended. The Enterprise ring also lets you as an admin:
+The Deferred ring provides builds that have been monitored throughout the Production rollout, so fewer releases are suspended. The Deferred ring also lets you as an admin:
   
 - Control when you deploy updates (within 60 days of their release).
 
 - Deploy new versions from an internal network location to avoid using Internet bandwidth. (If you don't deploy an update after 60 days, it will be automatically downloaded and installed.)
 
-However, as the slowest ring, the Enterprise ring receives performance improvements, reliability fixes, and new features last.
+However, as the slowest ring, the Deferred ring receives performance improvements, reliability fixes, and new features last.
   
 > [!NOTE]
 > Microsoft reserves the right to bypass the 60-day grace period for critical updates. 
   
-To learn how to set the Enterprise ring for the Windows sync app using Group Policy, see [Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing). To learn how to set it for the Mac sync app, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+To learn how to set the Deferred ring for the Windows sync app using Group Policy, see [Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing). To learn how to set it for the Mac sync app, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
   
 ## How the sync app checks for and applies updates
 
@@ -63,9 +63,9 @@ For info about the latest releases, see [New OneDrive sync app release notes](ht
 > [!NOTE]
 > To apply sync app updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs. They are also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Office 365](/office365/enterprise/urls-and-ip-address-ranges). 
   
-## Deploying updates in the Enterprise ring
+## Deploying updates in the Deferred ring
 
-At any given time, the next planned Enterprise ring release is published on the [OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) page with a link to the corresponding installer and the target date when that version will be released. On the specified date, the "Rolling out" version for the Enterprise ring becomes the new minimum. All sync apps below that version will automatically download the installer from the Internet and update themselves. 
+At any given time, the next planned Deferred ring release is published on the [OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) page with a link to the corresponding installer and the target date when that version will be released. On the specified date, the "Rolling out" version for the Deferred ring becomes the new minimum. All sync apps below that version will automatically download the installer from the Internet and update themselves. 
 
 To deploy an updated version of the sync app for Windows, run the following command using Microsoft Endpoint Configuration Manager:
   

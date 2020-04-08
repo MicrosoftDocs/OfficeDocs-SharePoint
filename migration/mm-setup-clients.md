@@ -41,7 +41,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 - Determine how many VMs or computers you plan on using for your migration tasks. Identify these up front.
 
-- Confirm that you have SharePoint Admin credentials to access the “destination” of where you are migrating your content.
+- Confirm that you have SharePoint Admin credentials to access the "destination" of where you are migrating your content.
 
 - Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
@@ -64,8 +64,8 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |**Required endpoints**|**For**|
 |:-----|:-----|
 |https://secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
-|https://<spam><spam>api.office<spam><spam>.com|Office 365 APIs for content move and validation|
-|https://<spam><spam>graph.windows<spam><spam>.net|Office 365 APIs for content move and validation|
+|https://<spam><spam>api.office<spam><spam>.com|Microsoft 365 APIs for content move and validation|
+|https://<spam><spam>graph.windows<spam><spam>.net|Microsoft 365 APIs for content move and validation|
 |https://<spam><spam>spmtreleasescus.blob.core.windows<spam><spam>.net|Installation|
 |https://*<spam><spam>.queue.core.windows<spam><spam>.net|Migration API Azure requirement|
 |https://*.<spam><spam>blob.core.windows<spam><spam>.net|Migration API Azure requirement|

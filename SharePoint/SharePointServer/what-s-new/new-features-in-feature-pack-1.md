@@ -26,7 +26,7 @@ For a list of updates and associated KB articles for SharePoint Server 2016, Sha
 
 The following table provides a summary of the new features and enhancements that are included in the November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1) release.
   
-|**Feature**|**Description**|**More information**|
+|**Feature**|**Description**|**More info**|
 |:-----|:-----|:-----|
 |**MinRole enhancements** <br/> |The MinRole feature in SharePoint Server 2016 now includes two new server roles and enhanced support for small farms.  <br/> |For more information, see "Minrole enhancements" in [Overview of MinRole Server Roles in SharePoint Server 2016](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).  <br/> |
 |**SharePoint Custom Tiles** <br/> |SharePoint administrators can now add SharePoint and Office 365 workloads as custom tiles in SharePoint app launcher.  <br/> |For more information, see [Custom Tiles in SharePoint Server 2016](../administration/custom-tiles-in-sharepoint-server-2016.md).  <br/> |
