@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - ODB160
 - ODB150
@@ -20,7 +22,7 @@ search.appverid:
 - GOB160
 - MET150
 ms.assetid: 4100df3a-0c96-464f-b0a8-c20de34da6fa
-description: "Learn how to upgrade your users to the new OneDrive sync app (OneDrive.exe)."
+description: "Learn how to upgrade users from the previous OneDrive for Business sync app to the new OneDrive sync app (OneDrive.exe)."
 ---
 
 # Transition from the previous OneDrive for Business sync app

@@ -13,11 +13,13 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - ODB160
 - MET150
 ms.assetid: 2f748bc6-6f01-4406-a791-ec047f066d6d
-description: "Learn how the OneDrive sync app works"
+description: "Learn how the OneDrive sync app works. Understand how information flows between applications, how technologies work together, & how data is secured."
 ---
 
 # How sync works

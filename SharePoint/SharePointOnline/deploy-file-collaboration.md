@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SP_admin
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
-description: "Learn about planning and deploying a secure and productive file collaboration environment."
+description: "In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint with Microsoft 365."
 ---
 
 # File collaboration in SharePoint with Microsoft 365

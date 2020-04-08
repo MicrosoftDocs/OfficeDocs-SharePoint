@@ -14,8 +14,8 @@ search.appverid:
 - SPO160
 - MET150
 ms.custom:
-- seo-marvel-mar2020
-description: "Learn how the classic and modern search experiences in SharePoint differ"
+- seo-marvel-apr2020
+description: "This article, provides an overview of the difference between the classic and modern search experiences in SharePoint."
 ---
 
 # Differences between the classic and modern search experiences in SharePoint

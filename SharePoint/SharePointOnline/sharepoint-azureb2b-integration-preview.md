@@ -13,8 +13,8 @@ localization_priority: Priority
 ms.custom: Adm_O365
 ms.collection: M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
-description: "Learn about the SharePoint and OneDrive integration with Azure AD B2B (preview)."
+- seo-marvel-apr2020
+description: "In this article, you'll learn about the SharePoint and OneDrive integration with Azure AD B2B (preview)."
 ---
 
 # SharePoint and OneDrive integration with Azure AD B2B (Preview)
