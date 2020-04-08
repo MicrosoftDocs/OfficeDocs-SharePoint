@@ -113,7 +113,7 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Prompt users when they delete multiple OneDrive files on their local computer](use-group-policy.md#LocalMassDeleteFileDeleteThreshold)
 
-- [Receive OneDrive sync app updates on the Enterprise ring](use-group-policy.md#EnableEnterpriseUpdate)
+- [Receive OneDrive sync app updates on the Deferred ring](use-group-policy.md#EnableEnterpriseUpdate)
 
 - [Require users to confirm large delete operations](use-group-policy.md#ForcedLocalMassDeleteDetection)
 
@@ -404,7 +404,7 @@ Insiders ring users receive builds that let them preview new features coming to 
 
 Production ring users get the latest features as they become available. This ring is the default.
 
-Enterprise ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
+Deferred ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
 
 If you disable or do not configure this setting, users can join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program to get updates on the Insiders ring.
 
@@ -674,12 +674,12 @@ Enabling this policy sets the following registry key value to 1.
   
 [HKCU\SOFTWARE\Policies\Microsoft\OneDrive]"DisablePersonalSync"="dword:00000001" 
 
-### Receive OneDrive sync app updates on the Enterprise ring
+### Receive OneDrive sync app updates on the Deferred ring
 <a name="EnableEnterpriseUpdate"> </a>
 
-This setting lets you specify the Enterprise ring for users in your organization. We release OneDrive sync app (OneDrive.exe) updates to the public through three rings— first to Insiders, then Production, and finally Enterprise.
+This setting lets you specify the Deferred ring for users in your organization. We release OneDrive sync app (OneDrive.exe) updates to the public through three rings— first to Insiders, then Production, and finally Enterprise.
 
-Selecting the Enterprise ring gives you some extra time to prepare for updates, but means users must wait to receive the latest improvements. The Enterprise ring also lets you deploy updates from an internal network location on your own schedule.
+Selecting the Deferred ring gives you some extra time to prepare for updates, but means users must wait to receive the latest improvements. The Deferred ring also lets you deploy updates from an internal network location on your own schedule.
 
 Enabling this policy sets the following registry key value to 1:
   
