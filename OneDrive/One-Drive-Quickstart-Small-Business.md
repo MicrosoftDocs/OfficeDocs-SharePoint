@@ -13,8 +13,9 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
-description: Learn how to set up OneDrive in your small business, including the deployment and configuration options that make the most sense for small businesses.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+description: "This article is a quickstart guide, on how to get started with, and set up OneDrive for small businesses."
 ---
 
 # OneDrive QuickStart guide for small businesses

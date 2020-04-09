@@ -16,10 +16,10 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid: MET150 
 ms.assetid: 
-description: "How to format your JSON or CSV file for data content migration"
+description: "In this article, you will learn how to format a JSON or CSV file for data content migration using the SharePoint Migration tool (SPMT)."
 ---
 
 # How to format your JSON or CSV for data content migration

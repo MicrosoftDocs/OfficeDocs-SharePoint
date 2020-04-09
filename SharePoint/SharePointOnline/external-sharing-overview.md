@@ -14,12 +14,10 @@ ms.custom:
 - 'O365P_AddSPExtlUser'
 - 'O365M_EnableSPExtlUser'
 - 'O365E_EnableSPExtlUser'
-- seo-marvel-apr2020
+-  seo-marvel-apr2020
+-  Adm_O365
 ms.service: sharepoint-online
 localization_priority: Priority
-ms.custom: 
- - Adm_O365
- - seo-marvel-apr2020
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
@@ -33,7 +31,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: c8a462eb-0723-4b0b-8d0a-70feafe4be85
-description: Learn about the external sharing options in SharePoint Online to let users in your organization share content with people outside the organization.
+description: "Learn about the external sharing options in SharePoint Online. These options allow users in your organization share content with people outside the organization."
 ---
 
 # External sharing overview

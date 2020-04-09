@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: Learn about the prerequisites for SharePoint Migration Tool (SPMT), including minimum requirements and recommended requirements for best performance.
+description: "This article is a resource where you can find for information related to the prerequisites for the SharePoint Migration Tool"
 ---
 # Prerequisites for the SharePoint Migration Tool</br>
 

@@ -14,11 +14,11 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about information architecture in the SharePoint modern experience."
+description: "In this article, you will learn about information architecture in the SharePoint modern experience."
 ---
 
 # Information architecture in modern SharePoint

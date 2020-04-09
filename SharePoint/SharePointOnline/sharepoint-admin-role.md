@@ -11,8 +11,8 @@ ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.custom: 
- - Adm_O365
- - seo-marvel-apr2020
+- Adm_O365
+- seo-marvel-apr2020
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -25,7 +25,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: f08144d5-9d50-4922-8e77-4e1a27b40705
-description: SharePoint administrators can learn how to administer SharePoint and OneDrive within their organization.
+description: "Learn about the SharePoint admin role in Microsoft 365. SharePoint admins administer SharePoint and OneDrive in your organization."
 ---
 
 # About the SharePoint admin role in Microsoft 365

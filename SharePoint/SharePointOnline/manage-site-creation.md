@@ -13,14 +13,15 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
 ms.assetid: e72844a3-0171-47c9-befb-e98b23e2dcf9
-description: Manage site creation in SharePoint, including specify kinds of sites users can create, prevent users from creating sites, and specify the location of sites.
-ms.custom: seo-marvel-apr2020
+description: "In this article, you'll learn how to allow or prevent users from creating their own sites in SharePoint."
 ---
 
 # Manage site creation in SharePoint

@@ -13,12 +13,13 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
-- MET150
+- MET150s
 - BSA160
-ms.custom: seo-marvel-apr2020
-description: Plan and create the top landing page for your organization, and then set it as your home site in SharePoint.
+description: "Learn how to plan and create the top landing page for your organization, and then set it as your home site."
 ---
 
 # Set up a home site for your organization

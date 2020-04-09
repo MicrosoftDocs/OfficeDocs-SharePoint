@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: How to download and install the SharePoint Migration Tool to take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
+description: "This article is an overview of the SharePoint Migration Tool and provides resources for download and support."
 ---
 
 # Download and install the SharePoint Migration Tool

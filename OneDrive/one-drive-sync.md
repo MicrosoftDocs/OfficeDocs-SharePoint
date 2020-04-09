@@ -10,8 +10,9 @@ f1.keywords:
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-description: Learn about the OneDrive sync app, and how it enables you to  work with OneDrive files in File Explorer or Finder.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains resources to learn more about the OneDrive sync app. The app comes preinstalled in Windoes 10 devices, & Office 2016 & later installations."
 ---
 
 # The OneDrive sync app

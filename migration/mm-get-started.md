@@ -14,9 +14,9 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 ms.custom:
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid: MET150
-description: Get started with Migration Manager
+description: "Learn about how does the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
 
 # Get started with the Migration Manager (preview)

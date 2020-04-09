@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: How to plan navigation in the modern SharePoint experience, including options for implementing navigation based on the framework for your sites and intranet.
+description: "In this article, you will learn about fundamental principles and good practices for how to plan navigation in the SharePoint modern experience"
 ---
 
 # Planning Navigation for the modern SharePoint experience

@@ -13,11 +13,12 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-description: Learn about the Microsoft search experience and the classic  experience in SharePoint, and which search your users see depending on where they search from.
-ms.custom: seo-marvel-apr2020
+description: "In this article, you will learn about when to use the classic or modern search experience in SharePoint."
 ---
 
 # Search experiences in SharePoint

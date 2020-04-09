@@ -23,7 +23,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 81b763af-f301-4226-8842-8d13bd07face
-description: Learn about how to change the default sharing link type for a specific site in SharePoint and OneDrive.
+description: "Learn how to change the default sharing link for a specific site. You can change this setting at the organization level and at the site level."
 ---
 
 # Change the default link type for a site

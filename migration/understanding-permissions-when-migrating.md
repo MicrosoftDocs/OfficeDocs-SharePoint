@@ -14,10 +14,10 @@ mscollection:
 - SPMigration
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid: MET150
 ms.assetid: 
-description: "File and folder permissions when using the SharePoint Migration Tool (SPMT)."
+description: "Learn about what happens to the file and folder permissions when using the SharePoint Migration Tool (SPMT)."
 ---
 
 # File and folder permissions when using the SharePoint Migration Tool

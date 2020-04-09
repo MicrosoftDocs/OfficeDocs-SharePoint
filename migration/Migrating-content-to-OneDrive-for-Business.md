@@ -15,8 +15,8 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
-description: "Migrating Content to OneDrive for Business."
+- seo-marvel-apr2020
+description: "Now you can use the SharePoint Migration tool to migrate content to your own OneDrive for business for free."
 ---
 # Migrate content to OneDrive for Business 
  

@@ -16,9 +16,10 @@ ms.collection:
 search.appverid:
 - SPO160
 - MOE150
+ms.custom:
+- seo-marvel-apr2020
 ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
-description: Learn about how to get started with SharePoint Online, including migration, governance, collaboration, modern intranet, training, and customization.
-ms.custom: seo-marvel-apr2020
+description: "Learn about SharePoint online, which is a cloud-based service that helps organizations share and manage content, knowledge, and applications."
 ---
 
 # Introduction to SharePoint Online

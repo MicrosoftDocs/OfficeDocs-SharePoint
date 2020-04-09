@@ -16,8 +16,9 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: Create a report on file and folder sharing for a SharePoint site or OneDrive library as a CSV file of every unique file, user, permission, and link.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article, you will learn how to create a report on file and folder sharing in a SharePoint site."
 ---
 
 # Report on file and folder sharing in a SharePoint site
