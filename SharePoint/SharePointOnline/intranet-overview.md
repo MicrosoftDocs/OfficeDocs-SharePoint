@@ -39,7 +39,7 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 - Understand at a high level the various roles and responsibilities of creating a modern intranet
 - See what you can do with SharePoint out-of-the-box sites and web parts
 - How to use planning stages and tasks to create checkpoints and checklists to track your progress
-	
+    
 **How to think about a modern vs traditional intranet design**
 
 This intranet hub article provides guidance on how to plan and create your intranet in a modern, intelligent way. The Modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces - those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
@@ -104,15 +104,15 @@ A critical part of your SharePoint intranet is your site architecture. By using 
 
 *Start by -* Developing an understanding about what you need your intranet to accomplish and start organizing content assets and requirements. Organize depending on the needs of the business - by region, department, or function.  
 
-*You’ll know you’re done when -* Business owners and end-users confirm they can find and have access to the content that makes their jobs more productive.
+*You'll know you're done when -* Business owners and end-users confirm they can find and have access to the content that makes their jobs more productive.
 
 #### Brand your intranet
 
-Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Office 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
+Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/microsoft365/admin/setup/customize-your-organization-theme).
 
 *Start by -* Answering - Do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own? Then, collect approved brand assets like brand colors, logos, and images depending on your company's branding requirements.
 
-*You’ll know you’re done when -* You've determined the end-to-end look of the intranet from the home page to hub sites and individual sites.
+*You'll know you're done when -* You've determined the end-to-end look of the intranet from the home page to hub sites and individual sites.
 
 ## [IT pros and Admins](#it-pros-and-admins)
 
@@ -134,7 +134,7 @@ Governance is the set of policies, roles, and processes that control how your or
 
 *Start by -* Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
 
-*You’ll know you’re done when -* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
+*You'll know you're done when -* When governance stakeholders, business owners, and content creators can work effortlessly in SharePoint without slowing the rhythm of business. 
 
 #### Migrate content from your existing intranet
 
@@ -144,7 +144,7 @@ Your current business owners and site owners may be best suited to evaluate if c
 
 *Start by -* Working with business leaders and other content stakeholders to review your existing content for relevance and accuracy.
 
-*You’ll know you’re done when -* A curated set of content has been migrated to SharePoint.
+*You'll know you're done when -* A curated set of content has been migrated to SharePoint.
 
 #### Customize SharePoint to meet your business needs
 
@@ -165,7 +165,7 @@ Depending on their background, the people in your organization may need some hel
 
 *Start by -* Determining your users needs for training on SharePoint and making these references known
 
-*You’ll know you’re done when -* Questions about SharePoint intranet usage on company social media channels and through the help desk have decreased to a modest level.
+*You'll know you're done when -* Questions about SharePoint intranet usage on company social media channels and through the help desk have decreased to a modest level.
 
 
 ## [Business owners and site owners](#business-owners-and-site-owners)
@@ -193,7 +193,7 @@ Video is a great way to communicate to the people in your organization. Videos r
 
 *Start by -* Understanding the full scope of content that might need to be migrated and then define the criteria used to target content that should be migrated, should be edited and then migrated, and should be retired. 
 
-*You’ll know you’re done when -* You've got the minimum amount of content necessary to create and launch an effective SharePoint site.
+*You'll know you're done when -* You've got the minimum amount of content necessary to create and launch an effective SharePoint site.
 
 #### Determine your permissions and sharing strategy
 
@@ -201,7 +201,7 @@ SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience
 
 *Start by -* Determining who needs access, who should not have access, and how you will grant access for requests.
 
-*You’ll know you’re done when -* All site owners and user have access to the content they need, while securing confidential content when appropriate.
+*You'll know you're done when -* All site owners and user have access to the content they need, while securing confidential content when appropriate.
 
 #### Design the intranet portal page
 
@@ -211,7 +211,7 @@ The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb
 
 *Start by -* Considering the goals from the perspective of your IT department, your organization's communications team, and end users of the experience. Design the portal page with simplicity and scalability in mind.
 
-*You’ll know you’re done when -* You've created a launch plan for redirecting from your current portal page to the new page and have shared this plan with all stakeholders and end-users.
+*You'll know you're done when -* You've created a launch plan for redirecting from your current portal page to the new page and have shared this plan with all stakeholders and end-users.
 
 #### Design your business-specific intranet site
 
@@ -228,7 +228,7 @@ Consider setting up an [approval flow](https://support.office.com/article/a8b2e6
 
 *Start by -* Prioritizing business objectives, and then decide the type of sites and web parts that will be needed initially.
 
-*You’ll know you’re done when -* Business and site owners have dedicated areas in SharePoint that can been owned and maintained with little oversight. 
+*You'll know you're done when -* Business and site owners have dedicated areas in SharePoint that can been owned and maintained with little oversight. 
 
 
 ## [Content creators](#content-creators)
@@ -258,7 +258,7 @@ Enable users to work on any device. When users keep files on their local device 
 
 *Start by:* Organizing content into lists, libraries, and news. Then, connect specific content to specific audiences using audience targeting.
 
-*You’ll know you’re done when:* You can confirm users have access to the right information at the right time by using [site usage and analytics](https://support.office.com/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and asking users for feedback. 
+*You'll know you're done when:* You can confirm users have access to the right information at the right time by using [site usage and analytics](https://support.office.com/article/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and asking users for feedback. 
 
 #### Build culture and community
 
@@ -268,7 +268,7 @@ Sometimes content needs to be delivered through video - like when organization-w
 
 *Start by:* Finding news, announcements, and events to amplify throughout your organization.
 
-*You’ll know you’re done when:* You are regularly promoting news and events that start conversations and engage and connect wide audiences. 
+*You'll know you're done when:* You are regularly promoting news and events that start conversations and engage and connect wide audiences. 
 
 ## Get started
 

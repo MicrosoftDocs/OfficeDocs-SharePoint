@@ -31,7 +31,7 @@ description: "See how to show or hide links to Sites or OneDrive."
 
 By default, the OneDrive and SharePoint app tiles appear in the app launcher and on the Microsoft 365 admin center​. If your subscription doesn't include one of these services, or if you don't want users using one of them, you can hide the app tile for it.
   
-![Office 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
+![Microsoft 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
 > [!NOTE]
 > Hiding these services doesn't remove them for users. If users have saved the address of the service, they will still be able to access it. <br> If users click a tile for a service they don't have, they will see an Access Denied message.
@@ -42,7 +42,7 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+>If you have Microsoft 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Microsoft 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
 
 2. At the bottom of the page, select **classic settings page**.
     
@@ -60,6 +60,6 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 
 [Customize the navigation on your SharePoint site](https://support.office.com/article/3CD61AE7-A9ED-4E1E-BF6D-4655F0BF25CA#ID0EAACAAA=Online)
   
-[Customize the Office 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme)
+[Customize the Microsoft 365 theme for your organization](/microsoft365/admin/setup/customize-your-organization-theme)
   
 [Add custom tiles to the app launcher](/office365/admin/manage/customize-the-app-launcher)

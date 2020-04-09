@@ -27,12 +27,12 @@ description: ""
 # Upload on-premises content to SharePoint Online using PowerShell cmdlets
 
 > [!NOTE]
->  *January 10, 2018* > The **SharePoint Migration Tool** is now available to help simplify your migration process. This new tool provides a wizard-like experience to guide you through the process of migrating either your SharePoint on-premises document libraries or your on-premises file shares, and move them to either SharePoint or OneDrive in Office 365. It is available to all Microsoft 365 users. > To download the tool, go to: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>  *January 10, 2018* > The **SharePoint Migration Tool** is now available to help simplify your migration process. This new tool provides a wizard-like experience to guide you through the process of migrating either your SharePoint on-premises document libraries or your on-premises file shares, and move them to either SharePoint or OneDrive in Microsoft 365. It is available to all Microsoft 365 users. > To download the tool, go to: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 > [!IMPORTANT]
-> Currently, the SharePoint Migration Tool is not available for users of Office 365 operated by 21Vianet in China. 
+> Currently, the SharePoint Migration Tool is not available for users of Microsoft 365 operated by 21Vianet in China. 
   
-This is a step-by-step guide about how to use the SharePoint Online Migration PowerShell cmdlets to migrate content from an on-premises file share to Office 365.
+This is a step-by-step guide about how to use the SharePoint Online Migration PowerShell cmdlets to migrate content from an on-premises file share to Microsoft 365.
   
 SharePoint Online Migration PowerShell cmdlets are designed to move on-premises content from file shares. Requiring minimal CSOM calls, it leverages Azure temporary BLOB storage to scale to the demand of large migration of data content.
   
@@ -63,7 +63,7 @@ Follow these steps to use SPO Migration powershell to upload your on-premises da
   
 ## Before you begin
 
-- Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See See [Office 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
+- Provision your Microsoft 365 with either your existing active directory or one of the other options for adding accounts to Microsoft 365. See [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Microsoft 365 Apps for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
     
 - Install the SharePoint Online Management Shell and set up your working directory.
     

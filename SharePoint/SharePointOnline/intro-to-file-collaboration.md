@@ -62,7 +62,7 @@ Files stored in SharePoint-powered storage locations in Microsoft 365 are [encry
 
 - **Reports**. Monitor activity and usage in SharePoint and OneDrive. [More info](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?view=o365-worldwide#which-activity-reports-are-available-in-the-admin-center)
 
-- **Office 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [More info](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)
+- **Microsoft 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [More info](https://docs.microsoft.com/microsoft365/securitycompliance/atp-for-spo-odb-and-teams)
 
 - **Files Restore**. If a location is affected by malicious software, or someone deletes important files, you can [restore a document library](https://support.office.com/article/317791c3-8bd0-4dfd-8254-3ca90883d39a) to an earlier point in time.
 
@@ -170,7 +170,7 @@ In the new SharePoint admin center, you can see [SharePoint activity and usage r
 
 ### Multi-geo
 
-If you're a multinational organization with data residency requirements, you can use Multi-Geo in Office 365 to specify where files are stored. For information, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you're a multinational organization with data residency requirements, you can use Multi-Geo in Microsoft 365 to specify where files are stored. For information, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 ### Unified search
 
@@ -192,7 +192,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 **Assign the SharePoint admin role**. Users assigned this role will have access to the SharePoint admin center and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](https://docs.microsoft.com/sharepoint/sharepoint-admin-role).
 
-**Estimate and test your network bandwidth**. Before you roll out Office 365 in your organization, make sure that your network is set up for optimum performance. [Network planning and performance tuning](https://docs.microsoft.com/office365/enterprise/network-planning-and-performance). Before you deploy the sync app, make sure you also [estimate the bandwidth users will need for syncing](https://docs.microsoft.com/onedrive/network-utilization-planning).
+**Estimate and test your network bandwidth**. Before you roll out Microsoft 365 in your organization, make sure that your network is set up for optimum performance. [Network planning and performance tuning](https://docs.microsoft.com/office365/enterprise/network-planning-and-performance). Before you deploy the sync app, make sure you also [estimate the bandwidth users will need for syncing](https://docs.microsoft.com/onedrive/network-utilization-planning).
 
 ## Limitations
 

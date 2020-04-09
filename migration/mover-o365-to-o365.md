@@ -10,7 +10,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "How to Migrate to Microsoft 365 from Office 365"
+description: "How to migrate to Microsoft 365 from Office 365"
 ---
 
 # How to migrate to Microsoft 365 from Office 365
@@ -279,7 +279,7 @@ We strive to keep your users' experience as similar as possible between your new
 
 ### How are permissions affected?
 
-When moving from to Microsoft 365 from Office 365, user roles *on folders* change.
+When moving to Microsoft 365 from Office 365, user roles *on folders* change.
 
 During a migration, we do not explicitly set a user as an owner of data.
 

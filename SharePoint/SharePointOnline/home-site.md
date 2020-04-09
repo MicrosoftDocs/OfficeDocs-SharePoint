@@ -28,7 +28,7 @@ A home site is a [communication site](https://support.office.com/article/94A3342
 ) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
 
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see the feature described in this article.
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see the feature described in this article.
 
 ## Home site capabilities
 
@@ -63,7 +63,7 @@ To set a site as your organization's home site, you first need to create and cus
 4. Important: Make sure the site adheres to the [guidelines for healthy portals](https://Aka.ms/portalhealth).
 5. Optional (recommended): When you're ready to launch, [replace your root site with the new site](modern-root-site.md#replace-your-root-site).
 6. Make the site a home site by following the steps in the next section.
-7. Make sure to [customize the Office 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
+7. Make sure to [customize the Microsoft 365 theme for your organization](/microsoft365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
 
 ## Set a site as your home site
 
@@ -74,7 +74,7 @@ After you create and customize the communication site that you want to use as yo
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
     
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint Online as a [global admin or SharePoint admin](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run `Set-SPOHomeSite -HomeSiteUrl <siteUrl>`.
 

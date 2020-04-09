@@ -34,7 +34,7 @@ The OneDrive sync app uses [Windows Push Notification Services](/windows/uwp/des
 
 Here’s how it works:
 
-- A change occurs in Office 365.
+- A change occurs in Microsoft 365.
 
 - WNS alerts the sync app of the change.
 
@@ -42,7 +42,7 @@ Here’s how it works:
     - Any metadata changes happen immediately, like renaming or deleting files.
     - Downloading content also starts a specific session with the client.
 
-- Office 365 has metadata pointers directing it through Microsoft Azure.
+- Microsoft 365 has metadata pointers directing it through Microsoft Azure.
 
 - The changes are processed in the order they are received.
 

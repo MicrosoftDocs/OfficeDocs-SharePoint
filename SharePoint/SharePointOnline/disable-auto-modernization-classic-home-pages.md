@@ -62,7 +62,7 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 - The new modern home page is named ‘Home.aspx’ and the classic page gets renamed to ‘Home(old).aspx’.
 
-- This update does not create an [Office 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
+- This update does not create an [Microsoft 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
 
 - Classic site themes may not be identical once your page is updated to modern. [Learn how to apply custom styles and color to your site](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
 

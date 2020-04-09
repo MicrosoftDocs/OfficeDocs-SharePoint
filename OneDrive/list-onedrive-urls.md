@@ -24,14 +24,14 @@ description: "Learn how to display a list of every OneDrive in your organization
 
 # Get a list of all user OneDrive URLs in your organization
 
-This article is for global and SharePoint admins in Office 365.
+This article is for global and SharePoint admins in Microsoft 365.
   
 ## View the list of OneDrive users and URLs in your organization
 
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    > If you have Microsoft 365 Germany, sign in at https://portal.office.de. If you have Microsoft 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
 2. In the left pane, select **Reports** \> **Usage**. (You might need to select **Show all** to see the Reports option.) 
     
@@ -50,7 +50,7 @@ The list you create in these steps will be saved to a text file.
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall “SharePoint Online Management Shell.” <br> On the Download Center page, select your language and then click the Download button. You’ll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you’re running the 64-bit version of Windows or the x86 file if you’re running the 32-bit version. If you don’t know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br> On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard.
       
 2. Save the following text to a PowerShell file. For example, you could save it to a file named OneDriveSites.ps1.
     
@@ -59,7 +59,7 @@ The list you create in these steps will be saved to a text file.
     $LogFile = [Environment]::GetFolderPath("Desktop") + "\OneDriveSites.log"
     Connect-SPOService -Url $TenantUrl
     Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/'" | Select -ExpandProperty Url | Out-File $LogFile -Force
-	Write-Host "Done! File saved as $($LogFile)."
+    Write-Host "Done! File saved as $($LogFile)."
      ```
 
 3. Open the SharePoint Online Management Shell. Navigate to the directory where the script has been saved and run:
@@ -70,7 +70,7 @@ The list you create in these steps will be saved to a text file.
 
    > [!NOTE]
    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
-	
+    
 4. The script will prompt you for the SharePoint tenant admin Url. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint tenant admin Url.
 
 5. You will then be prompted to log into the tenant. Use a SharePoint Administrator or Global Administrator account.

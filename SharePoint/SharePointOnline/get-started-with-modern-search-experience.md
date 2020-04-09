@@ -31,7 +31,7 @@ Which search experience your users see depends on where they search from:
 
 ## Benefits of Microsoft search in SharePoint
 
-**Easy to search** - Microsoft search suggests results based on users’ previous activity in Office 365, right in the search box. On the search results page the results are ordered by relevance.
+**Easy to search** - Microsoft search suggests results based on users’ previous activity in Microsoft 365, right in the search box. On the search results page the results are ordered by relevance.
 
 **Find shared files** - Microsoft search uses advanced query understanding to make finding shared files simple. Users can easily find files they’re collaborating on.
 

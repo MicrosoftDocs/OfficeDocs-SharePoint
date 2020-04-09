@@ -50,7 +50,7 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
     
 - Encrypt app data when the device is locked
     
-- Require Office 365 sign-in each time the app is opened
+- Require Microsoft 365 sign-in each time the app is opened
     
 - Choose values for how often to verify user access and when to wipe app data when a device is offline.
     

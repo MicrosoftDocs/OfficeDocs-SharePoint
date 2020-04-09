@@ -134,5 +134,5 @@ For info about these policies, see:
 ## See also
 <a name="ControlSyncThroughput"> </a>
 
-[Network planning and performance tuning for Office 365](/office365/enterprise/network-planning-and-performance)
+[Network planning and performance tuning for Microsoft 365](/office365/enterprise/network-planning-and-performance)
 

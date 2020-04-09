@@ -20,7 +20,7 @@ description: "Improve search results by creating and managing query rules. Query
 
 # Manage query rules
 
-As a global or SharePoint admin in Office 365, you can improve search results in the classic search experience by creating and managing query rules. Query rules help searches respond to the intent of users. 
+As a global or SharePoint admin in Microsoft 365, you can improve search results in the classic search experience by creating and managing query rules. Query rules help searches respond to the intent of users. 
   
 In a query rule, you specify conditions and associated actions. When a query meets the conditions in a query rule, the search system performs the actions specified in the rule to improve the relevance of the search results. This could be by narrowing results or changing the order in which results are displayed. For example, a query rule condition could be that a term in a query matches a particular term in a SharePoint term set, or that a query is frequently performed on a particular result source in a search system, such as videos. When the query rule condition is met, an associated action could be to show a specific item at the top of the search results. Say you have an intranet site where all company events are maintained in a library, and you want to promote a first-aid seminar. To do this, you create a query rule that boosts the first-aid seminar to the top of the search results when someone searches for "seminar" or "event."
 

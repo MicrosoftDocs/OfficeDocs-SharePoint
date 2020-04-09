@@ -1,5 +1,5 @@
 ---
-title: "Let users connect classic team sites to new Office 365 groups"
+title: "Let users connect classic team sites to new Microsoft 365 groups"
 ms.reviewer: tmehta
 manager: 
 ms.author: kaarins
@@ -23,14 +23,14 @@ description: "Learn how global and SharePoint admins can allow or prevent site c
 
 # Let users connect classic team sites to new Office 365 groups
 
-As a global or SharePoint admin in Office 365, you can allow or prevent site collection administrators from connecting classic team sites to new Office 365 groups. You can also use Microsoft PowerShell or the API to connect sites to new Office 365 groups.
+As a global or SharePoint admin in Microsoft 365, you can allow or prevent site collection administrators from connecting classic team sites to new Office 365 groups. You can also use Microsoft PowerShell or the API to connect sites to new Office 365 groups.
   
 ## Allow or prevent site collection administrators from connecting classic team sites to new Office 365 groups
 
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+>If you have Microsoft 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Microsoft 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
 2. Select **classic settings page**.
     

@@ -73,7 +73,7 @@ To reduce the potential for confusion when users choose to add a copy versus a l
 
 The OneDrive Files Restore feature lets users restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents you with a histogram that shows file activity so that you can determine which recovered time meets your needs. From there, simply select the file history entry to which you want to restore, and all changes after that point will be rolled back.
 
-![Screenshot of the Restore my OneDrive page in Office 365](media/What-is-OneDrive-Small-Business_image4.png)
+![Screenshot of the Restore my OneDrive page in Microsoft 365](media/What-is-OneDrive-Small-Business_image4.png)
 
 In addition, because the histogram shows individual activity on a file, you can use this feature to quickly view your files' modification history. For more information about this feature, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 

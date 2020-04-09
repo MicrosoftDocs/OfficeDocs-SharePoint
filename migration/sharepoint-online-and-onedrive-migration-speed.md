@@ -62,7 +62,7 @@ The following table provides estimates of the type of speed you may achieve base
 The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. In addition, ensure that your permissions, sharing, or other limits are set up properly for migration and are within [SharePoint Online limits and boundaries](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 >[!Note]
-> If you are planning to migrate over 100TB, please review the section below, **Large Migration**.
+> If you are planning to migrate over 100TB, review the following section, **Large Migration**.
 
 
 
@@ -72,7 +72,7 @@ The speed of this step depends on the efficiency of the tool you are using and t
 ### I. Upload to Azure
 SPMT or your third-party tool will migrate your content into SharePoint Online using the Migration API, leveraging Azure as a temporary holding place.
 
-If you have a good connection and can configure your datacenter, choose the same datacenter location closest geographically to you for your Azure and your Office 365 account. 
+If you have a good connection and can configure your datacenter, choose the same datacenter location closest geographically to you for your Azure and your Microsoft 365 account. 
 Migration data throughput is highest during off-peak hours, which are typically nights and weekends in your region's time zone. Your region's time zone is determined by where your SharePoint Online tenant is set up.
 
 

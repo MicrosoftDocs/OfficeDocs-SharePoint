@@ -562,7 +562,7 @@ If you disable this setting, team site libraries that you've specified aren't au
 
 To configure the setting, in the **Options** box, select **Show**, and then enter a friendly name to identify the library in the **Value Name** field, and the entire library ID (tenantId=xxx&siteId=xxx&webId=xxx&listId=xxx&webUrl=httpsxxx&version=1) in the **Value** field.
 
-To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and select **Sync**. In the **Starting sync** dialog box, select the **Copy library ID** link.
+To find the library ID, sign in as a global or SharePoint admin in Microsoft 365, browse to the library, and select **Sync**. In the **Starting sync** dialog box, select the **Copy library ID** link.
 
 ![The Getting ready to sync dialog box](media/copy-library-id.png)
 

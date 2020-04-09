@@ -21,7 +21,7 @@ description: "Learn about governance best practices in SharePoint Online."
 
 # SharePoint governance overview
 
-Governance is the set of policies, roles, responsibilities, and processes that control how your organization's business divisions and IT teams work together to achieve its goals. Every organization has unique needs and goals that influence its approach to governance. Microsoft 365 includes a variety of options to enable your governance policies across SharePoint and related services, including Teams, Planner, Stream, Outlook, Yammer and Office 365 Groups.
+Governance is the set of policies, roles, responsibilities, and processes that control how your organization's business divisions and IT teams work together to achieve its goals. Every organization has unique needs and goals that influence its approach to governance. Microsoft 365 includes a variety of options to enable your governance policies across SharePoint and related services, including Teams, Planner, Stream, Outlook, Yammer and Microsoft 365 Groups.
 
 Your organization might require that you implement strict controls on how these teamwork tools are used. Naming conventions, guest access, and classification of sites, groups, and files can all be implemented in Microsoft 365. Keeping it all connected and secure is key to a consistent experience.
 
@@ -31,7 +31,7 @@ Use these resources to further explore governance in SharePoint and related serv
 
 ### SharePoint
 
-- [Manage site creation for SharePoint in Office 365](manage-site-creation.md)
+- [Manage site creation for SharePoint in Microsoft 365](manage-site-creation.md)
 - [SharePoint site designs & site script overview](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview)
 - [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
 - [Managing sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md)
