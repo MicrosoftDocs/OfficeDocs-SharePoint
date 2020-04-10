@@ -62,7 +62,11 @@ Files stored in SharePoint-powered storage locations in Microsoft 365 are [encry
 
 - **Reports**. Monitor activity and usage in SharePoint and OneDrive. [More info](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?view=o365-worldwide#which-activity-reports-are-available-in-the-admin-center)
 
+<<<<<<< Updated upstream
 - **Microsoft 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [More info](https://docs.microsoft.com/microsoft365/securitycompliance/atp-for-spo-odb-and-teams)
+=======
+- **Microsoft 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [More info](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)
+>>>>>>> Stashed changes
 
 - **Files Restore**. If a location is affected by malicious software, or someone deletes important files, you can [restore a document library](https://support.office.com/article/317791c3-8bd0-4dfd-8254-3ca90883d39a) to an earlier point in time.
 

@@ -35,7 +35,11 @@ In the sections below, we call out the options and decisions that you as an admi
 
 We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](https://aka.ms/ProductivityArch) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
 
+<<<<<<< Updated upstream
 Also, see the [File Protection Solutions in Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect) diagram for an overview of recommended solutions to protect your data.
+=======
+Also see the [File Protection Solutions in Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect) diagram for an overview of recommended solutions to protect your data.
+>>>>>>> Stashed changes
 
 ## Creating a successful collaboration experience
 
@@ -87,7 +91,11 @@ Office applications such as Word, Excel, and PowerPoint provide a wide variety o
 
 We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 Apps for enterprise provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
 
+<<<<<<< Updated upstream
 For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Aps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-for-Microsoft-365-Apps-for-enterprise).
+=======
+For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-for-microsoft-365-apps-for-enterprise).
+>>>>>>> Stashed changes
 
 ## OneDrive libraries
 While SharePoint provides shared libraries for shared files that teams can collaborate on, users also have an individual library in OneDrive where they can store files that they own.
@@ -100,7 +108,11 @@ On devices running Windows or macOS, users can install the OneDrive sync app to 
 
 The two main decisions to consider for using OneDrive in collaboration scenarios are:
 
+<<<<<<< Updated upstream
   - Do you want to allow users to share files in their own library with people outside your organization?
+=======
+  - Do you want to allow Microsoft 365 users to share files in their own library with people outside your organization?
+>>>>>>> Stashed changes
 
   - Do you want to restrict file sync in any way – such as only to managed devices?
 
@@ -292,21 +304,35 @@ For detailed information about Cloud App Security, see [Microsoft Cloud App Secu
 
 A variety of reports are available in Microsoft 365 to help you monitor site usage, document sharing, governance compliance, and a host of other events.
 
+<<<<<<< Updated upstream
 For information about how to view reports on SharePoint site usage, see [Microsoft 365 Reports in the Admin Center - SharePoint site usage](https://docs.microsoft.com/microsoft365/admin/activity-reports/sharepoint-site-usage).
 
 For info about how to view data loss prevention reports, see [View the reports for data loss prevention](https://docs.microsoft.com/microsoft365/securitycompliance/view-the-dlp-reports).
+=======
+For info about how to view reports on SharePoint site usage, see [Microsoft 365 Reports in the Admin Center - SharePoint site usage](https://docs.microsoft.com/office365/admin/activity-reports/sharepoint-site-usage).
+
+For info about how to view data loss prevention reports, see [View the reports for data loss prevention](https://docs.microsoft.com/office365/securitycompliance/view-the-dlp-reports).
+>>>>>>> Stashed changes
 
 For info about how to view Cloud App Security reports, see [Generate data management reports](https://docs.microsoft.com/cloud-app-security/built-in-reports).
 
 ### Manage threats
 
+<<<<<<< Updated upstream
 You can use ATP Safe Attachments (part of [Microsoft 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft365/securitycompliance/microsoft-365-atp)) to protect against users uploading malicious files to OneDrive, SharePoint, or Teams.
+=======
+You can use ATP Safe Attachments (part of [Microsoft 365 Advanced Threat Protection](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)) to protect against users uploading malicious files to OneDrive, SharePoint, or Teams.
+>>>>>>> Stashed changes
 
 When ATP discovers a malicious file, that file is locked so that users cannot open, move, or copy the file.
 
 The locked file is included in a list of quarantined items that you can monitor. You can then delete or release the file as appropriate.
 
+<<<<<<< Updated upstream
 For detailed info, see [Microsoft 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft365/securitycompliance/atp-for-spo-odb-and-teams).
+=======
+For detailed information, see [Microsoft 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams).
+>>>>>>> Stashed changes
 
 ## Migrate files from on-premises
 

@@ -24,17 +24,17 @@ description: "Learn how to allow or prevent users from creating their own sites 
 
 # Manage site creation in SharePoint
 
-As a global or SharePoint admin in Office 365, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and [Office 365 group-connected team sites](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+As a global or SharePoint admin in Microsoft 365, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and [Office 365 group-connected team sites](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
   
 >[!NOTE]
->Disabling site creation for users does not remove their ability to create Office 365 groups or resources, such as Microsoft Teams, which rely on a group. When an Office 365 group is created, a SharePoint site is also created. To restrict creation of Office 365 groups and the resources that rely on groups see [Manage who can create Office 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
+>Disabling site creation for users does not remove their ability to create Office 365 groups or resources, such as Microsoft Teams, which rely on a group. When an Office 365 group is created, a SharePoint site is also created. To restrict creation of Office 365 groups and the resources that rely on groups see [Manage who can create Office 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
   
 ## Manage site creation in the new SharePoint admin center
 
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+>If you have Microsoft 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Microsoft 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
 2. Select **Site creation**.
 
@@ -43,7 +43,7 @@ As a global or SharePoint admin in Office 365, you can let your users create and
 3. Select **Let users create sites from the SharePoint start page and OneDrive** if you want users to be able to create sites from these services.
 
     > [!NOTE]
-    > Even if you clear this check box, users may be able to create Office 365 groups from other places in Office 365. Each group always comes with a team site. [Learn how to manage who can create Office 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
+    > Even if you clear this check box, users may be able to create Office 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Office 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
 
 4. Select to create Office 365 group-connected team sites under /sites or /teams, select the default time zone and storage limit for new sites.
 

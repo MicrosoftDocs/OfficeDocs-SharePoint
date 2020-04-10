@@ -33,7 +33,7 @@ For company name extraction to work, that is, for a company name to be pulled fr
     
 - The name of the company that you want to extract is in the prepopulated company name dictionary or in the **Company Inclusions** list. 
     
-Once you have done this, you can then use the managed property **companies** to create refiners based on the extracted company name in the **Refinement Web** **Part**, on the search results page. 
+After you have done this, you can then use the managed property **companies** to create refiners based on the extracted company name in the **Refinement Web** **Part**, on the search results page. 
   
 ## Include company names
 <a name="__toc342653322"> </a>
@@ -47,7 +47,11 @@ Once you have done this, you can then use the managed property **companies** to 
     
 3. On the **Site Settings: Term Store Management Tool** page, to expand the **Search Dictionaries** menu, select the arrow. 
     
+<<<<<<< Updated upstream
 4. Select **Company Inclusions**, then select the arrow, and then select **Create Term**.
+=======
+4. Select **Company Inclusions**, select the arrow, and then select **Create Term**.
+>>>>>>> Stashed changes
     
 5. Enter the name of the company that you want to include in the box that appears.
     
@@ -67,7 +71,11 @@ Once you have done this, you can then use the managed property **companies** to 
    
 4. On the **Taxonomy Term Store** page, to expand the **Search Dictionaries** menu, select the arrow. 
     
+<<<<<<< Updated upstream
 5. Select **Company Exclusions**, then select the arrow, and then select **Create Term**.
+=======
+5. Select **Company Exclusions**, select the arrow, and then select **Create Term**.
+>>>>>>> Stashed changes
     
 6. Enter the name of the company that you want to exclude in the box that appears.
     
@@ -94,7 +102,11 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 
 4. On the **Site Settings: Term Store Management Tool** page, to expand the **Search Dictionaries** menu, select the arrow. 
     
+<<<<<<< Updated upstream
 5. Select **Query Spelling Inclusions**, then select the arrow, and then select **Create Term**.
+=======
+5. Select **Query Spelling Inclusions**, select the arrow, and then select **Create Term**.
+>>>>>>> Stashed changes
     
 6. Enter the query spelling that you want to include in the box that appears.
     
@@ -114,7 +126,11 @@ For example, if you enter a query that contains the word "ampitheater", the quer
   
 4. On the **Site Settings: Term Store Management Tool** page, to expand the **Search Dictionaries** menu, select the arrow.
     
+<<<<<<< Updated upstream
 5. Select **Query Spelling Exclusions**, then select the arrow, and then select **Create Term**.
+=======
+5. Select **Query Spelling Exclusions**, select the arrow, and then select **Create Term**.
+>>>>>>> Stashed changes
     
 6. Enter the query spelling that you want to exclude in the box that appears.
     
@@ -134,7 +150,11 @@ For example, if you enter a query that contains the word "ampitheater", the quer
    
 4. On the **Site Settings: Term Store Management Tool** page, to expand the **Search Dictionaries** menu, select the arrow.
     
+<<<<<<< Updated upstream
 5. Depending on which dictionary the term is in, select **Company Exclusions**, **Company Inclusions**, **Query Spelling Exclusions** or **Query Spelling Inclusions**.
+=======
+5. Depending on which dictionary the term is in, select **Company Exclusions**, **Company Inclusions**, **Query Spelling Exclusions**, or **Query Spelling Inclusions**.
+>>>>>>> Stashed changes
     
 6. Double-click the term that you want to edit.
     

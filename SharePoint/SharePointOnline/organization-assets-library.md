@@ -23,7 +23,7 @@ description: "Specify a library as a location for assets that are centrally stor
 If your organization needs to store and manage images like photos or logos centrally for all your users to use, you can specify one or more document libraries as an "organization assets library." This makes it easier for users to add these assets when they create SharePoint sites and pages.
 
 > [!NOTE]
-> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Office 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization, however all of these asset libraries must reside in the same site collection. You cannot add organization asset libraries from multiple site collections.
+> This feature is not available for Microsoft 365 Germany, Microsoft 365 operated by 21Vianet (China), or Microsoft 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization, however all of these asset libraries must reside in the same site collection. You cannot add organization asset libraries from multiple site collections.
 
 When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified. 
 
@@ -41,7 +41,7 @@ When a user adds a web part to any modern page in SharePoint and that web part o
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
     
-4. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+4. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 5. Run the following command to designate the document library as an organization assets library:
   
