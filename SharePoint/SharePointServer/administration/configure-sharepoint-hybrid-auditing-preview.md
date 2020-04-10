@@ -14,7 +14,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 86e0fc90-0ef8-4c22-9d3b-7af42bf882f1
-description: "Learn about how SharePoint Auditing generates reports for on-premises server users' file access logs for viewing in Office 365."
+description: "Learn about how SharePoint Auditing generates reports for on-premises server users' file access logs for viewing in Microsoft 365."
 ---
 
 # Configure SharePoint Hybrid Auditing in SharePoint 2016 (Preview)
@@ -22,11 +22,11 @@ description: "Learn about how SharePoint Auditing generates reports for on-premi
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
 > [!IMPORTANT]
-> Microsoft has ended support for the SharePoint Hybrid Auditing (Preview). It is no longer available in SharePoint Server 2016 as of the November 2019 Public Update ([KB4484143](https://support.microsoft.com/help/4484143). In addition, it has been disabled in the Office 365 service. Existing data is available in the Unified Audit Log but no new data can be sent from SharePoint Server to the Unified Audit Log, even if the November 2019 Public Update or later has not yet been installed.
+> Microsoft has ended support for the SharePoint Hybrid Auditing (Preview). It is no longer available in SharePoint Server 2016 as of the November 2019 Public Update ([KB4484143](https://support.microsoft.com/help/4484143). In addition, it has been disabled in the Microsoft 365 service. Existing data is available in the Unified Audit Log but no new data can be sent from SharePoint Server to the Unified Audit Log, even if the November 2019 Public Update or later has not yet been installed.
   
 ## Microsoft SharePoint Auditing (Preview)
 
-Microsoft SharePoint Hybrid Auditing is a new hybrid feature for SharePoint Server 2016 to help SharePoint administrators have visibility to user activities in their SharePoint environments. With this feature, SharePoint 2016 on-premise user activity logs can be uploaded to Office 365 and useful reports are generated. Configuration is simple and you can start viewing regularly updated reports in the Microsoft 365 admin center.
+Microsoft SharePoint Hybrid Auditing is a new hybrid feature for SharePoint Server 2016 to help SharePoint administrators have visibility to user activities in their SharePoint environments. With this feature, SharePoint 2016 on-premise user activity logs can be uploaded to Microsoft 365 and useful reports are generated. Configuration is simple and you can start viewing regularly updated reports in the Microsoft 365 admin center.
   
 SharePoint Hybrid Auditing is currently in **Preview** mode: 
   
@@ -44,9 +44,9 @@ Before you configure the SharePoint Hybrid Auditing feature, ensure you are:
     
 - A service application administrator (Full Control) for the User Profile Service 
     
-- An Office 365 Global Administrator or a SharePoint Online Administrator 
+- An Microsoft 365 Global Administrator or a SharePoint Online Administrator 
     
-- Logged into Office 365 and SharePoint Server from a server in your SharePoint Server farm 
+- Logged into Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm 
     
 - Able to launch the Hybrid Picker as a Farm Administrator with elevated permissions 
     
@@ -69,10 +69,10 @@ Please read [Hybrid picker in the SharePoint Online admin center](/sharepoint/hy
 
 1. Log in to your SharePoint Server 2016 on-premises as a Farm administrator.
     
-2. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+2. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 administrator permissions in your organization.)
     
     > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
+    > If you have Microsoft 365 Germany, sign in at https://portal.office.de. If you have Microsoft 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
     
 3. In the left pane, under **Admin centers**, select **Security &amp; Compliance**. (You might need to select **Show all** to see the list of admin centers.) 
         
@@ -90,16 +90,16 @@ Hybrid auditing uses the Hybrid Picker for configuration. Follow the steps in [H
     
 2. Select **Audit log search**. 
     
-3. Use this page to search for on-premises auditing events alongside your Office 365 auditing events.
+3. Use this page to search for on-premises auditing events alongside your Microsoft 365 auditing events.
     
 > [!NOTE]
->  You may need to wait approximately 30 minutes before on-premises auditing events show up in this display. <br>  While SharePoint Hybrid Auditing is in preview mode, it is possible to have some missing auditing events. <br>  Only a subset of the file activities is currently being uploaded from on-premises to Office 365. 
+>  You may need to wait approximately 30 minutes before on-premises auditing events show up in this display. <br>  While SharePoint Hybrid Auditing is in preview mode, it is possible to have some missing auditing events. <br>  Only a subset of the file activities is currently being uploaded from on-premises to Microsoft 365. 
   
-To learn more about Office 365 Auditing log search and how to use filtering to get tailored results, see [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
+To learn more about Microsoft 365 Auditing log search and how to use filtering to get tailored results, see [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
   
 ## How to turn off SharePoint Hybrid Auditing
 
-The SharePoint Hybrid Auditing feature uses the **Microsoft SharePoint Insights** service to upload activity logs to Office 365. To discontinue uploading the logs to Office 365 you must stop the Microsoft SharePoint Insights service. 
+The SharePoint Hybrid Auditing feature uses the **Microsoft SharePoint Insights** service to upload activity logs to Microsoft 365. To discontinue uploading the logs to Microsoft 365, you must stop the Microsoft SharePoint Insights service. 
   
 Make sure you have SharePoint OnPrem Farm Administrator privilege and Local Administrator privilege in SharePoint OnPrem VM.
   
@@ -118,19 +118,19 @@ Select one of the two following ways to stop the service in SharePoint 2016.
 
  **Stop the Insights Service in SharePoint Central Administration**
   
-1. On the SharePoint Server 2016 Central Administration website, click System Settings.
+1. On the **SharePoint Server 2016 Central Administration** website, select **System Settings**.
     
-2. On the System Settings page, in the Servers section, click **Manage services in this farm**. 
+2. On the **System Settings** page, in the **Servers** section, select **Manage services in this farm**. 
     
-3. Select **Microsoft SharePoint Insights** service, and then in the Action column click **Disable Auto Provision**
+3. Select **Microsoft SharePoint Insights** service, and then in the **Action** column, select **Disable Auto Provision**.
     
-4. Click **OK**. 
+4. Select **OK**. 
     
      ![Disable service in farm](../media/90c8c193-d289-4e18-9fd9-41b7130894aa.png)
   
-5. On the System Settings page, in the Servers section, click **Manage services on server**. 
+5. On the **System Settings** page, in the **Servers** section, select **Manage services on server**. 
     
-6. On the **Services on Server** page, switch server to each custom role server, and click **Stop** in the Action column. 
+6. On the **Services on Server** page, switch server to each custom role server, and in the **Action** column, select **Stop**. 
     
 ## What actions do I need to take after an In-Place-Upgrade?
 
@@ -146,15 +146,15 @@ Microsoft SharePoint Insights service must be restarted after an in-place-upgrad
   Start-SPService -Identity "Microsoft SharePoint Insights" -IncludeCustomServerRole 
   ```
 
-## What data/logs will be uploaded to Office 365?
+## What data/logs will be uploaded to Microsoft 365?
 
-All the audit logs under the folder **SPUnifiedAuditEntry** are uploaded to Office 365 for generating reports. The location of the folder can be found in SharePoint 2016 Central Administration. 
+All the audit logs under the folder **SPUnifiedAuditEntry** are uploaded to Microsoft 365 for generating reports. The location of the folder can be found in SharePoint 2016 Central Administration. 
   
-For more information see [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)
+For more information see [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/microsoft365/securitycompliance/search-the-audit-log-in-security-and-compliance)
   
-1. On the SharePoint Server 2016 Central Administration website, click **Monitoring** under **Central Administration**. 
+1. On the **SharePoint Server 2016 Central Administration** website, under **Central Administration**, select **Monitoring**. 
     
-2. In the **Reporting** section, click **Configure usage and health data collection**. 
+2. In the **Reporting** section, select **Configure usage and health data collection**. 
     
 3. In the **Usage Data Collection Settings**, **Log file location** can be found as follows. 
     
@@ -162,6 +162,6 @@ For more information see [Search the audit log in the Office 365 Security &amp; 
   
 ## Related Topics
 
-[Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)
+[Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/microsoft365/securitycompliance/search-the-audit-log-in-security-and-compliance)
   
 [TechNet Forums: Hybrid Auditing](https://social.technet.microsoft.com/Forums/office/home?forum=hybridauditing)

@@ -33,9 +33,9 @@ Advantages of Azure AD B2B include:
 - If you have configured Google federation in Azure AD, federated users can now access SharePoint and OneDrive resources that you have shared with them.
 - SharePoint and OneDrive sharing is subject to the Azure AD organizational relationships settings, such as **Members can invite** and **Guests can invite**.
 
-This preview is not supported in the following Office 365 services:
-- Office 365 Germany
-- Office 365 operated by 21Vianet
+This preview is not supported in the following Microsoft 365 services:
+- Microsoft 365 Germany
+- Microsoft 365 operated by 21Vianet
 - GCC High and DoD
 
 ## Opting in to the preview

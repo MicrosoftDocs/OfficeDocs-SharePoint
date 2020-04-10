@@ -28,7 +28,7 @@ description: "SharePoint admins administer SharePoint and OneDrive in your organ
 
 # About the SharePoint admin role in Microsoft 365
 
-Global admins in Microsoft 365 can assign users the SharePoint admin role for help with administering SharePoint. The global admin already has all the permissions of a SharePoint admin. For info about assigning a user the SharePoint admin role, see [Assign admin roles in Office 365 for business](/office365/admin/add-users/assign-admin-roles).
+Global admins in Microsoft 365 can assign users the SharePoint admin role for help with administering SharePoint. The global admin already has all the permissions of a SharePoint admin. For info about assigning a user the SharePoint admin role, see [Assign admin roles in Microsoft 365 for business](/office365/admin/add-users/assign-admin-roles).
 
    ![Manage admin roles in the Microsoft 365 admin center](media/sharepoint-admin-role.png)
   
@@ -64,7 +64,7 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 ## See also
 <a name="BK_KeyTasks"> </a>
 
-[About Office 365 admin roles](/office365/admin/add-users/about-admin-roles)
+[About Microsoft 365 admin roles](/microsoft365/admin/add-users/about-admin-roles)
   
 [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 

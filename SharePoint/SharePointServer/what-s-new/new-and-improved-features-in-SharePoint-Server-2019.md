@@ -238,13 +238,13 @@ Customers can opt in and opt out of the telemetry experience at any time.
 
 ### Visio Services accessibility
 
- Visio Services is introducing several accessibility improvements for high contrast displays, keyboard navigation, and Narrator. Users will be able to access different panes with the following shortcuts:
+ Visio Services is introducing several accessibility improvements for high contrast displays, keyboard navigation, and Narrator. Users can access different panes with the following shortcuts:
 
-1. Move focus to Comment pane = Alt + R
+- Move focus to Comment pane = Alt + R
  
-2. Move focus to Shape data pane = Alt + S
+- Move focus to Shape data pane = Alt + S
  
-3. Move focus to Canvas = Alt + C
+- Move focus to Canvas = Alt + C
 
 ## Related Topics
 
