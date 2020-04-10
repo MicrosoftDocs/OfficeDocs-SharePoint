@@ -11,7 +11,7 @@ ms.topic: article
 ms.custom:
 - 'WSSCentralAdmin_SharingLinkTypeLearnMore'
 - 'SharingLinkTypeLearnMore'
--  seo-marvel-apr2020
+- seo-marvel-arp2020
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  

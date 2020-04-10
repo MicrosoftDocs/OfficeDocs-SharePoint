@@ -17,7 +17,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid:
 - SPO160
-- MET150
+- MET150s
 - BSA160
 description: "Learn how to plan and create the top landing page for your organization, and then set it as your home site."
 ---
