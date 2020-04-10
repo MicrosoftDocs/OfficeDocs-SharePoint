@@ -72,7 +72,7 @@ The features listed in this section address common customer concerns or specific
 
 -   Hybrid integration with SharePoint Server
 
--   OneDrive Multi-Geo storage locations
+-   OneDrive Multi-Geo storage locations""""
 
 -   Government cloud
 
@@ -241,7 +241,7 @@ A variety of factors can impact the amount of network bandwidth used by OneDrive
 
 ### Multi-Geo
 
-If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed info about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed info about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](/microsoft365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 If you plan to deploy OneDrive Multi-Geo, there are two user scenarios:
 
