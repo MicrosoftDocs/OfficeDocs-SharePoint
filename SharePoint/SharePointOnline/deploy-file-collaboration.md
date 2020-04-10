@@ -91,11 +91,8 @@ Office applications such as Word, Excel, and PowerPoint provide a wide variety o
 
 We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 Apps for enterprise provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
 
-<<<<<<< Updated upstream
-For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Aps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-for-Microsoft-365-Apps-for-enterprise).
-=======
+
 For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-for-microsoft-365-apps-for-enterprise).
->>>>>>> Stashed changes
 
 ## OneDrive libraries
 While SharePoint provides shared libraries for shared files that teams can collaborate on, users also have an individual library in OneDrive where they can store files that they own.

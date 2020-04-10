@@ -23,42 +23,35 @@ description: "Learn important details that a SharePoint admin should consider wh
 ---
 
 # SharePoint Online planning guide
-
-Here's an overview of important details you should consider when planning how to build out, configure, and manage your SharePoint Online environment. 
-  
-## Plan the site collections you need to create
+    
+H    re's an overview of important details you should consider when planning how to build out, configure, and manage your SharePoint Online environment. 
+     
+# Plan the site collections you need to create
 <a name="__toc346712635"> </a>
 
 A site collection has the same owner and shares administrative settings, such as permissions. We recommend creating a separate site collection for each unit of work, and connecting them by using hub sites. To learn more, see [Planning your SharePoint hub sites](planning-hub-sites.md). 
   
 ### Plan your site collection details
 
- If you figure out a few basic details, (for example, what a site collection will be used for, and which users need to have access to it), this will help you make decisions about what type of site template to use, how much storage to allocate, and how many site collections you may need to create. To review your storage limits or the number of site collections that are supported for your plan, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits). 
+ If you figure out a few basic details — for example, what a site collection will be used for, and which users need to have access to it — then this will help you make decisions about what type of site template to use, how much storage to allocate, and how many site collections you might need to create. If you need to review your storage limits or the number of site collections that are supported for your plan, see [SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits). 
   
 |**If you want to determine this:**|**Ask this:**|
 |:-----|:-----|
-<<<<<<< Updated upstream
 |What type of site should I create?  <br/> For info about the new site templates and the variety of classic templates available in SharePoint Online, see [Using templates to create different kinds of SharePoint sites](https://support.office.com/article/449eccec-ff99-4cf3-b62e-dcfee37e8da4).  <br/> | Do you want to connect a group of people for collaboration, or do you want to broadcast content to a larger audience?  <br/>  Will the site fill a specialized purpose?  <br/> |
-|How many site collections do we need?  <br/> Business needs and your overall storage limits will affect this decision.  <br/> Certain types of sites, like the App Catalog and Search Center, exist as standalone site collections. Some of these may be automatically created for you when you sign up for Office 365. You may need additional site collections if your organization has other specialized purposes. For instance, some groups need to restrict access to their content.  <br/> | Are there divisions or groups that need to maintain separate data?  <br/>  Will you need different site collections for specialized purposes?  <br/>  Do you plan to use apps for SharePoint (if so, you will want to create an App Catalog site)  <br/> |
-|How much storage do we need?  <br/> When your organization purchases the SharePoint Online service, it is allocated a pool of storage based on the number of user licenses it purchased and the type of Office 365 subscription it purchased. For more info, see [Manage site collection storage limits](manage-site-collection-storage-limits.md).  <br/> | How many site collections do you think you'll need overall?  <br/>  How much storage comes with your subscription?  <br/> |
-|Do we need multi-language support?  <br/> The Multilingual User Interface (MUI) feature allows users to view sites or web pages in a language other than the default set on the site or site collection. The MUI feature is not a translation tool; it just changes the display language for certain default interface elements. For more info about multilingual sites, see [Introduction to multilingual features](https://support.office.com/article/53411469-53e3-4570-95e2-3651f166174f).  <br/> | Do any site collections need to be created in specific languages?  <br/> |
-=======
-|What type of site should I create?  <br/> For info on the new site templates and the variety of classic templates available in SharePoint Online, see [Using templates to create different kinds of SharePoint sites](https://support.office.com/article/449eccec-ff99-4cf3-b62e-dcfee37e8da4).  <br/> | Do you want to connect a group of people for collaboration, or do you want to broadcast content to a larger audience?  <br/>  Will the site fill a specialized purpose?  <br/> |
 |How many site collections do we need?  <br/> Business needs and your overall storage limits will affect this decision.  <br/> Certain types of sites, like the App Catalog and Search Center, exist as standalone site collections. Some of these may be automatically created for you when you sign up for Microsoft 365. You may need additional site collections if your organization has other specialized purposes. For instance, some groups need to restrict access to their content.  <br/> | Are there divisions or groups that need to maintain separate data?  <br/>  Will you need different site collections for specialized purposes?  <br/>  Do you plan to use apps for SharePoint (if so, you will want to create an App Catalog site)  <br/> |
 |How much storage do we need?  <br/> When your organization purchases the SharePoint Online service, it is allocated a pool of storage based on the number of user licenses it purchased, and the type of Office 365 plan it purchased. For more information, see [Manage site collection storage limits](manage-site-collection-storage-limits.md).  <br/> | How many site collections do you think you'll need overall?  <br/>  How much storage comes with your subscription?  <br/> |
-|Do we need multi-language support?  <br/> The Multilingual User Interface (MUI) feature allows users to view sites or web pages in a language other than the default set on the site or site collection. The MUI feature is not a translation tool; it just changes the display language for certain default interface elements. For more information about multilingual sites, see [Introduction to multilingual features](https://support.office.com/article/53411469-53e3-4570-95e2-3651f166174f).  <br/> | Do any site collections need to be created in specific languages?  <br/> |
->>>>>>> Stashed changes
+|Do we need multi-language support?  <br/> The Multilingual User Interface (MUI) feature allows users to view sites or web pages in a language other than the default set on the site or site collection. The MUI feature is not a translation tool; it just changes the display language for certain default interface elements. For more info about multilingual sites, see [Introduction to multilingual features](https://support.office.com/article/53411469-53e3-4570-95e2-3651f166174f).  <br/> | Do any site collections need to be created in specific languages?  <br/> |
    
 ### Plan to keep site collections manageable
 
-Governance is the set of policies, roles, responsibilities, and processes that control how your organization cooperates to achieve business goals. These goals center on the service you provide and the management of intellectual property your employees create. As you plan your site collections, build a plan for how to govern them. 
+Governance is the set of policies, roles, responsibilities, and processes that control how your organization cooperates to achieve business goals. These goals center on the service you provide and the management of intellectual property your employees create. As you plan your site collections you should also build a plan for how to govern them. 
   
 When you think about how to structure and govern your site collections, consider the answers to these questions.
   
 |**If you want to achieve this:**|**Ask this:**|
 |:-----|:-----|
 |An effective site collection consists of groups of individuals and teams that share common goals.  <br/> |Does the structure of your site collections add to your organization's effectiveness?  <br/> |
-|A secure site that is open to those who need the information, but where information is blocked from those who should not see it.  <br/> |Does the structure allow the information architecture to meet regulatory requirements, privacy needs, and security goals?  <br/> |
+|A secure site that is open to those who need the info, but where info is blocked from those who should not see it.  <br/> |Does the structure allow the information architecture to meet regulatory requirements, privacy needs, and security goals?  <br/> |
 |A permissions model that allows read access, write access, or both.  <br/> |What type of access will users need to the content?  <br/> |
 |Authorization for external users on only those site collections that need it. For more info about allowing external users access to your sites, see [External sharing overview](external-sharing-overview.md).  <br/> |Do users from outside the company need to have access?  <br/> |
 |A managed plan for sites that are well maintained.  <br/> |Who will be allowed to create and manage the sites in the site collection?  <br/> |
@@ -83,28 +76,16 @@ SharePoint Online provides the capability for site users to invite external user
   
 External sharing is enabled by default for your SharePoint Online environment (tenant) and the site collections in it. You may want to turn it off globally before people start using sites or until you know exactly how you want to use the feature. After you turn it on globally, you can allow external sharing for specific site collections, while keeping it turned off for site collections that will store content that is sensitive for your business. You should give thoughtful consideration to where you enable external sharing and what level of external sharing you allow.
   
-<<<<<<< Updated upstream
-For info about how users can share content, see [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).
-=======
-For information about how users can share content, see [Share SharePoint files or folders in Microsoft 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).
->>>>>>> Stashed changes
+For info about how users can share content, see [Share SharePoint files or folders in Microsoft 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).
   
 ### Protect content with Information Rights Management (IRM)
 <a name="__protect_content_with"> </a>
 
-<<<<<<< Updated upstream
-SharePoint Online IRM uses Microsoft Azure Active Directory Rights Management Services (RMS), an information protection technology in Office 365. Information Rights Management (IRM) protection can be applied to files in SharePoint lists and libraries. To learn more, see [What is Microsoft Azure Active Directory Rights Management?](/azure/information-protection/what-is-azure-rms)
+SharePoint Online IRM uses Microsoft Azure Active Directory Rights Management Services (RMS), an information protection technology in Microsoft 365. Information Rights Management (IRM) protection can be applied to files in SharePoint lists and libraries. To learn more, see [What is Microsoft Azure Active Directory Rights Management?](/azure/information-protection/what-is-azure-rms)
   
 When IRM has been enabled for a list or library, files are encrypted so that only authorized people can view them or take specific actions on them. Each rights-managed file also contains an issuance license that imposes restrictions on the people who view the file. Typical restrictions include making a file read-only, disabling the copying of text, preventing people from saving a local copy, and preventing people from printing the file. Client programs that can read IRM-supported file types use the issuance license within the rights-managed file to enforce these restrictions. This is how a rights-managed file retains its protection even after it is downloaded.
   
-By default, IRM is disabled when you sign up with Office 365. Before you turn on the IRM service using the SharePoint admin center, the global admin needs to first install the Microsoft PowerShell module for Rights Management, and then connect to the Rights Management service. For more info, see [Set up Information Rights Management (IRM) in SharePoint admin center](/office365/securitycompliance/set-up-irm-in-sp-admin-center) and [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
-=======
-SharePoint Online IRM uses Microsoft Azure Active Directory Rights Management Services (RMS), an information protection technology in Microsoft 365. Information Rights Management (IRM) protection can be applied to files in SharePoint lists and libraries. To learn more, read [What is Microsoft Azure Active Directory Rights Management?](/azure/information-protection/what-is-azure-rms)
-  
-When IRM has been enabled for a list or library, files are encrypted so that only authorized people can view them or take specific actions on them. Each rights-managed file also contains an issuance license that imposes restrictions on the people who view the file. Typical restrictions include making a file read-only, disabling the copying of text, preventing people from saving a local copy, and preventing people from printing the file. Client programs that can read IRM-supported file types use the issuance license within the rights-managed file to enforce these restrictions. This is how a rights-managed file retains its protection even after it is downloaded.
-  
-By default, IRM is disabled when you sign up with Microsoft 365. Before you turn on the IRM service using the SharePoint admin center, the Microsoft 365 global admin needs to first install the Microsoft PowerShell module for Rights Management and then connect to the Rights Management service. For more information see [Set up Information Rights Management (IRM) in SharePoint admin center](/office365/securitycompliance/set-up-irm-in-sp-admin-center) and [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
->>>>>>> Stashed changes
+By default, IRM is disabled when you sign up with Microsoft 365. Before you turn on the IRM service using the SharePoint admin center, the Microsoft 365 global admin needs to first install the Microsoft PowerShell module for Rights Management and then connect to the Rights Management service. For more info, see [Set up Information Rights Management (IRM) in SharePoint admin center](/office365/securitycompliance/set-up-irm-in-sp-admin-center) and [Apply Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
   
 ## Manage user profiles
 <a name="__plan_for_personal"> </a>
@@ -133,11 +114,7 @@ This step will help you determine where you may need to engage subject matter ex
 ## Evaluate partner solutions
 <a name="__configure_infopath_forms"> </a>
 
-<<<<<<< Updated upstream
-As part of your planning, you should evaluate whether your organization has specific business needs that might require you to use third-party services or applications to customize SharePoint Online. For example, your organization might need to migrate a large volume of content or a large number of users to your SharePoint Online site. Or, you might have business processes that require support for email-enabled lists. If you think that your organization might benefit from third-party services or applications, explore the professional services and applications available from partners in the [Microsoft Partner Center](https://go.microsoft.com/fwlink/?linkid=839525). You can find experts to help you deploy in the cloud or tailor Microsoft Office 365 for the needs of your business. It is a good idea to explore and research available third-party services and solutions at the beginning of your planning process. 
-  
-=======
 As part of your planning, you should evaluate whether your organization has specific business needs that might require you to use third-party services or applications to customize SharePoint Online. For example, your organization might need to migrate a large volume of content or a large number of users to your SharePoint Online site. Or you might have business processes that require support for email-enabled lists. If you think that your organization might benefit from third-party services or applications, please explore the professional services and applications available from partners in the [Microsoft Partner Center](https://go.microsoft.com/fwlink/?linkid=839525). You can find experts to help you deploy in the cloud or tailor Microsoft 365 for the needs of your business. It is a good idea to explore and research available third-party services and solutions at the beginning of your planning process. 
   
 
->>>>>>> Stashed changes
+""
