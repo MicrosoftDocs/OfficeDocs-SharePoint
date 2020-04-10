@@ -108,11 +108,7 @@ A critical part of your SharePoint intranet is your site architecture. By using 
 
 #### Brand your intranet
 
-<<<<<<< Updated upstream
 Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/microsoft365/admin/setup/customize-your-organization-theme).
-=======
-Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
->>>>>>> Stashed changes
 
 *Start by -* Answering - Do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own? Then, collect approved brand assets like brand colors, logos, and images depending on your company's branding requirements.
 

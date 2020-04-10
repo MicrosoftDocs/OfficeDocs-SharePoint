@@ -29,11 +29,8 @@ description: "See how to show or hide links to Sites or OneDrive."
 
 # Hide the OneDrive and SharePoint app tiles
 
-<<<<<<< Updated upstream
 By default, the OneDrive and SharePoint app tiles appear in the app launcher and on the Microsoft 365 admin center​. If your subscription doesn't include one of these services, or if you don't want users using one of them, you can hide the app tile for it.
-=======
-By default, the OneDrive and SharePoint app tiles appear in the app launcher and on the Microsoft 365 portal. If your subscription doesn't include one of these services, or if you don't want users using one of them, you can hide the app tile for it.
->>>>>>> Stashed changes
+
   
 ![Microsoft 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
@@ -50,7 +47,7 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 
 2. At the bottom of the page, select **classic settings page**.
     
-3. In **Show or Hide App Tiles**, choose the tile you want to hide.
+3. In **Show or Hide App Tiles**, select the tile you want to hide.
     
     ![SPO SharePoint Settings Show/hide options section](media/516f0f56-c44e-465e-8ec5-ba56fbbe2b3b.png)
   

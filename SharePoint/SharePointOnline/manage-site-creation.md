@@ -66,6 +66,6 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
     > [!NOTE]
     > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
   
-4. Under **Subsite creation**, specify whether users can select **New** > **Subsite** on the Site contents page to create a new subsite. 
+4. Under **Subsite creation**, on the Site contents page, to create a new subsite, specify whether users can select **New** > **Subsite**. 
 
 5. Select **OK**.

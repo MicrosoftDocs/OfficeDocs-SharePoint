@@ -117,7 +117,7 @@ To create a Secure Store Target Application, follow these steps.
   
 6. In the **Target Application Administrators** section, in the **Target Application Administrators** field, enter the name of a group or a list of users who can edit this Target Application. You can also search for the name of a group in Microsoft Online Directory Server. Typically, this section usually contains the name of the SharePoint or global admin. 
     
-7. In the **Members** section, in the **Members** field enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
+7. In the **Members** section, in the **Members** field, enter the name of the group that will use the Target Application. Generally, this is a group from the Microsoft Online Directory Service (MSODS). 
   
      If you are a global admin, you can create groups in MSODS in the Microsoft 365 admin center. 
     
@@ -128,7 +128,7 @@ To create a Secure Store Target Application, follow these steps.
 
 After you create the Target Application, you are ready to enter the credentials that Secure Store uses to access the external data. To set the credentials, follow these steps
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Microsoft 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Microsoft 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -137,7 +137,7 @@ After you create the Target Application, you are ready to enter the credentials 
   
 3. Select the arrow next to the new Target Application, and then select **Set Credentials**. 
     
-4. In the **Set Credentials for Secure Store Target Applications (Group)** dialog, enter the user name and password of the account. The account must have access to the target database. In the following illustration, the user name is **Windows User Name** and the password is **Windows Password**.
+4. In the **Set Credentials for Secure Store Target Applications (Group)** dialog, enter the user name and password of the account. The account must have access to the target database. In the following image, the username is **Windows User Name**, and the password is **Windows Password**.
     
     > [!IMPORTANT]
     >  Keep a secure record of this information. After you set these credentials, an administrator cannot retrieve them. 
@@ -155,10 +155,10 @@ To create an ECT, follow these steps.
   
 1. Start Microsoft SharePoint Designer.
     
-2. Select the **Open Site** button to open the SharePoint Online team site at the root collection. The URL for the root collection will resemble this example URL: https://tailspintoys.sharepoint.com. SharePoint Online might display a prompt for valid credentials. 
+2. To open the SharePoint Online team site at the root collection, select **Open Site**. The URL for the root collection will resemble this example URL: https://tailspintoys.sharepoint.com. SharePoint Online might display a prompt for valid credentials. 
     
     > [!NOTE]
-    >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint Online site. Typically, a SharePoint or global admin performs these steps. <br> If you want to change to a different user, select **Add a new user**, select **Personal** or **Organization**, and then sign in to the site as the SharePoint or global admin, and **Sign In**. 
+    >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint Online site. Typically, a SharePoint or global admin performs these steps. <br> If you want to change to a different user, select **Add a new user**, select **Personal** or **Organization**, sign in to the site as the SharePoint or global admin, and select **Sign In**. 
   
 3. After the site opens, in the **Site Objects** tree on the left of the application window, select **External Content Types**.
     

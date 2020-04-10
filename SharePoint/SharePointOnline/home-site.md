@@ -60,10 +60,10 @@ To set a site as your organization's home site, you first need to create and cus
     - Make sure the site is set up for regular content updates. Turn on [content approval](https://support.office.com/article/a8b2e689-d4a1-4639-8028-333c0ece30d9) to ensure high-quality content.
     - Consider making the site a [hub site](create-hub-site.md). Your home site can be registered as a hub site, but can't be associated with another hub.
 3. Create a launch plan for redirecting from your current solution to the new home site and notifying users of the change.
-4. Important: Make sure the site adheres to the [guidelines for healthy portals](https://Aka.ms/portalhealth).
-5. Optional (recommended): When you're ready to launch, [replace your root site with the new site](modern-root-site.md#replace-your-root-site).
-6. Make the site a home site by following the steps in the next section.
-7. Make sure to [customize the Microsoft 365 theme for your organization](/microsoft365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
+**Important**: Make sure the site adheres to the [guidelines for healthy portals](https://Aka.ms/portalhealth).
+4. Optional (recommended): When you're ready to launch, [replace your root site with the new site](modern-root-site.md#replace-your-root-site).
+5. To make the site a home site, follow the steps in the next section.
+6. Make sure to [customize the Microsoft 365 theme for your organization](/microsoft365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
 
 ## Set a site as your home site
 
