@@ -22,7 +22,7 @@ description: "Learn about site permissions that you can configure in the SharePo
 
 # Admin center site permissions reference
 
-On the **Permissions** tab, you can manage permissions for the site and also for any associated Office 365 group or Microsoft Teams team. These roles are specific to the selected site or group and do not give users access to the SharePoint admin center.
+On the **Permissions** tab, you can manage permissions for the site and also for any associated Microsoft 365 group or Microsoft Teams team. These roles are specific to the selected site or group and do not give users access to the SharePoint admin center.
 
 ## Site admins
 

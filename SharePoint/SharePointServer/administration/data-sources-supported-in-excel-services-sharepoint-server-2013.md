@@ -150,7 +150,7 @@ Native data is data that is imported into Excel and does not keep connections to
     
 - You and others can view and interact with workbooks that use native data in a browser window, whether the workbook is rendered by either Office Web Apps Server or SharePoint Server 2013. Note that data models are not supported in Office Web Apps Server, but PivotChart reports and PivotTable reports that use native data are supported.
     
-- If a workbook does not consume more than 10 MB of disk space, you can share or view the workbook on Office 365. This makes it possible to share information "in the cloud."
+- If a workbook does not consume more than 10 MB of disk space, you can share or view the workbook on Microsoft 365. This makes it possible to share information "in the cloud."
     
 ## See also
 <a name="part5"> </a>

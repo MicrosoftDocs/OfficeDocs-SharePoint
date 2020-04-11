@@ -22,7 +22,7 @@ description: "This article describes Custom Tiles which is one of the new featur
 
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
-In SharePoint Server, users can quickly and easily get to all of their SharePoint and Office 365 workloads directly from the app launcher. Now in addition to those, you can also add your own custom tiles that point to other SharePoint sites, external sites, legacy apps, and more. This makes it easy to find the relevant sites, apps, and resources to do your job
+In SharePoint Server, users can quickly and easily get to all of their SharePoint and Microsoft 365 workloads directly from the app launcher. Now in addition to those, you can also add your own custom tiles that point to other SharePoint sites, external sites, legacy apps, and more. This makes it easy to find the relevant sites, apps, and resources to do your job
   
 This feature is configured on the web app level by an ITPro administrator by using PowerShell cmdlets.
   
