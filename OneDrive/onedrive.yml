@@ -5,7 +5,7 @@ summary: Help users in your organization store, sync, and share files in Microso
 
 metadata:
   title: OneDrive # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Help users in your organization store, sync, and share files in Microsoft 365. # Required; article description that is displayed in search results. < 160 chars.
+  description: OneDrive for Business admin landing page, learn how to help users in your organization store, sync, and share files in Microsoft 365. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: one-drive #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.subservice: subservice
   ms.topic: landing-page # Required
@@ -16,6 +16,7 @@ metadata:
   audience: Admin
   ms.date: 03/17/2020 #Required; mm/dd/yyyy format
   localization_priority: Priority
+  ms.custom: seo-marvel-apr2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 

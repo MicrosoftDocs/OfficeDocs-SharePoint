@@ -1,5 +1,5 @@
 ---
-title: "How SharePoint Online and OneDrive safeguard your data in the cloud"
+title: "Cloud data security measures in SharePoint Online & OneDrive - SharePoint Online"
 ms.reviewer: mswann
 manager: 
 ms.author: kaarins
@@ -14,6 +14,8 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid:
 - SPO160
 - ODB160

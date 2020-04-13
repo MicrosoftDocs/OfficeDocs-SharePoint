@@ -17,8 +17,10 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - M365-collaboration
 - SPO_Content
+ms.custom:
+- seo-marvel-apr2020
 ms.assetid: bbb62edb-def7-45dd-931c-78746c3d9fa5
-description: "Watch this video to learn about the major pieces of an Office 365 hybrid deployment."
+description: "This video covers the major pieces of an Office 365 hybrid deployment. Watch this video if you are considering deploying an Office 365 hybrid solution."
 ---
 
 # The building blocks of Office 365 hybrid

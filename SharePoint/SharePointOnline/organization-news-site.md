@@ -14,7 +14,9 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Specify a site as an authoritative organization news site."
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article, you will learn how to specify a site as an official/authoritative organization news site."
 ---
 
 # Create an organization news site

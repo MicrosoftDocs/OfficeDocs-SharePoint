@@ -14,8 +14,10 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - MET150
+ms.custom:
+- seo-marvel-apr2020
 ms.assetid: a522cc35-4e63-49da-9968-85c588878932
-description: "Learn how to view popularity trends for an item, page, site, or site collection."
+description: "Learn how to view popularity trends for an item, page, site, or site collection. Popularity trends can help you identify times when the activity is high or low."
 ---
 
 # View Popularity Trends and Most Popular Items

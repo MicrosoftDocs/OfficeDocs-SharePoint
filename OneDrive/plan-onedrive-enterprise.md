@@ -12,8 +12,10 @@ ms.service: one-drive
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 localization_priority: Priority
-description: "Review features, plan, configure, deploy, and manage OneDrive in an enterprise."
+description: "This article is a guide on OneDrive for enterprises. Learn about features, planning, configuration, deployment, and management in OneDrive for enterprises."
 ---
 
 # OneDrive guide for enterprises

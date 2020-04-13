@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Tool Settings"
+title: "Available settings in SharePoint Migration Tool - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,6 +15,8 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 description: "A complete listing of the SharePoint Migration basic and advanced settings." 
 ---
 

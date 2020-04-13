@@ -12,12 +12,14 @@ ms.service: sharepoint-online
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 - BSA160
 ms.assetid: d8c63491-0410-405c-880a-8cef7fa4480a
-description: "Learn about tasks you can perform on the Active sites page of the new SharePoint admin center."
+description: "In this article, you'll learn about tasks you can perform on the Active sites page of the new SharePoint admin center."
 ---
 
 # Manage sites in the new SharePoint admin center

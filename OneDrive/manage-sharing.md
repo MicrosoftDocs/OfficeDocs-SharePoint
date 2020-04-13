@@ -13,12 +13,14 @@ localization_priority: Priority
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+-  seo-marvel-apr2020
 search.appverid:
 - ODB160
 - ODB150
 - MET150
 ms.assetid: ee8b91c5-05ec-44c2-9796-78fa27ec8425
-description: "Learn how to use the OneDrive admin center to control sharing settings for OneDrive and SharePoint."
+description: "Learn how to use the SharePoint admin center to control sharing settings for OneDrive and SharePoint."
 ---
 
 # Manage sharing in OneDrive and SharePoint

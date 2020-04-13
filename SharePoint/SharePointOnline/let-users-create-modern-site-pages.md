@@ -13,12 +13,14 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
 - MET150
 ms.assetid: c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b
-description: "Learn how to allow or prevent users from adding pages on SharePoint sites."
+description: "In this article, you will learn how to allow or prevent users from adding pages on SharePoint sites."
 ---
 
 # Let users create modern site pages

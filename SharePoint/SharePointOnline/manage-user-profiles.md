@@ -1,5 +1,5 @@
 ---
-title: "Manage user profiles in the SharePoint admin center"
+title: "Manage user profiles in the SharePoint admin center - SharePoint Online"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
@@ -11,6 +11,7 @@ ms.topic: article
 ms.custom:
 - 'ViewUserProfiles'
 - 'SPOTAMgUserProfiles'
+- 'seo-marvel-apr2020'
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  
@@ -23,7 +24,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "Learn how to use the SharePoint admin center to create and edit custom user properties, add and remove admins on OneDrive accounts, manage audiences, and disable OneDrive creation."
+description: Use the SharePoint admin center to create and edit user properties, add or remove admins on OneDrive accounts, manage audiences, and disable OneDrive creation.
 ---
 
 # Manage user profiles in the SharePoint admin center

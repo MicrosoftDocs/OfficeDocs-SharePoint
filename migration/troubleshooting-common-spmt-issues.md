@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting SharePoint Migration Tool"
+title: "Troubleshoot SharePoint Migration Toll - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,8 +16,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-ms.custom: 
-description: "How to troubleshoot common errors in the SharePoint Migration Tool."
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article, you'll learn how to troubleshoot common errors in the SharePoint Migration Tool (SPMT)."
 ---
 # Troubleshooting common SPMT issues and errors
 

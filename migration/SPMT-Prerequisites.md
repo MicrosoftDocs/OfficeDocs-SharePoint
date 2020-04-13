@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Tool prerequisites"
+title: "Prerequisites for SharePoint Migration Tool - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -13,7 +13,9 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
-description: "Prerequisites for SPMT"
+ms.custom:
+- seo-marvel-apr2020
+description: "This article is a resource where you can find for information related to the prerequisites for the SharePoint Migration Tool"
 ---
 # Prerequisites for the SharePoint Migration Tool</br>
 

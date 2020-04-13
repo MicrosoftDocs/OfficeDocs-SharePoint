@@ -13,13 +13,15 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
 ms.assetid: 9a7e46f9-3fc4-4297-955a-82cb292a5be0
-description: "Learn how to add and remove site collection admins."
+description: "Learn how global admins and SharePoint admins in Office 365 can add and remove site admins (previously called "site collection admins")."
 ---
 
 # Manage site admins

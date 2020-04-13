@@ -1,5 +1,5 @@
 ---
-title: "Restrict sharing of SharePoint and OneDrive content by domain"
+title: "Domain level restrictions for SharePoint & OneDrive content - SharePoint Online"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,6 +14,8 @@ ms.collection:
 - Ent_O365_Hybrid
 - Strat_OD_share
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
 ms.assetid: 5d7589cd-0997-4a00-a2ba-2320ec49c4e9
 description: "Allow sharing only with guests on specific domains, or block sharing with guests on specific domains."
