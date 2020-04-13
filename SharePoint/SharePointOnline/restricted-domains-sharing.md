@@ -34,7 +34,7 @@ You can limit domains by allowing only the domains you specify or by allowing al
   
  **To limit domains at the organization level**
   
-1. Go to the [Sharing page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [Sharing page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
@@ -64,7 +64,7 @@ You can also limit domains at the site collection level. Note the following cons
     
  **To limit domains for a site**
 
-1. Go to the [Active sites page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sitemanagement&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [Active sites page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sitemanagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
