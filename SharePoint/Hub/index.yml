@@ -57,4 +57,8 @@ additionalContent:
         - title: End users
           summary: Find help, training, and technical support for SharePoint users on support.office.com.
           url: https://support.office.com/sharepoint
+        # Card
+        - title: Microsoft Community Content
+          summary: Find solutions and scenario guidance for Microsoft 365 users as contributed by the IT Professional and Admin community.
+          url: https://docs.microsoft.com/microsoft-365/community/
 
