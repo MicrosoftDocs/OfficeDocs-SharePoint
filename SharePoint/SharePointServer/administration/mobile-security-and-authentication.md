@@ -113,7 +113,7 @@ The following tables detail the authentication types supported for browsers, One
 |**Basic authentication** <br/> |Organizations with a SharePoint environment configured to support Basic authentication.  <br/> |No  <br/> |SharePoint administrator plus the on-premises network administrator  <br/> |
    
 > [!NOTE]
-> If you're an Office 365 multi-organization user, you can connect from the OneDrive for Business app in any network environment, including Wi-Fi and cellular data. If you're not an Office 365 multi-organization user, you can connect only when using your organization's on-site Wi-Fi network. If you're unsure which user you are, contact your SharePoint admin. 
+> If you're an Microsoft 365 multi-organization user, you can connect from the OneDrive for Business app in any network environment, including Wi-Fi and cellular data. If you're not an Microsoft 365 multi-organization user, you can connect only when using your organization's on-site Wi-Fi network. If you're unsure which user you are, contact your SharePoint admin. 
   
 **Table: Mobile authentication support matrix for Office Hub**
 

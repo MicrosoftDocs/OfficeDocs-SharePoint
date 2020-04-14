@@ -52,7 +52,7 @@ By using Yammer groups, you can create a workspace dedicated to a certain topic,
   
 ## Yammer users
 
-Users are the core of the enterprise social network, and you can add users individually or in bulk from the Yammer **Admin** page. Yammer Enterprise users can be [Manage Yammer users across their life cycle from Office 365](/yammer/manage-yammer-users/manage-users-across-their-lifecycle).
+Users are the core of the enterprise social network, and you can add users individually or in bulk from the Yammer **Admin** page. Yammer Enterprise users can be [Manage Yammer users across their lifecycle from Microsoft 365](/yammer/manage-yammer-users/manage-users-across-their-lifecycle).
   
 Yammer users exist in a limited number of states, as shown in the following diagram:
 
@@ -60,7 +60,7 @@ Yammer users exist in a limited number of states, as shown in the following diag
   
 ## See also
 
-[About Yammer networks and Office 365 tenants](/yammer/configure-your-yammer-network/yammer-and-office-365)
+[About Yammer networks and Office 365 organizations](/yammer/configure-your-yammer-network/yammer-and-office-365)
 
 [Create and manage an external network in Yammer](/yammer/work-with-external-users/create-and-manage-an-external-network)
 

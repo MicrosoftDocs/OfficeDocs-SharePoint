@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 2b98f39e-649f-4b00-b025-0775ac996268
-description: "Learn how to integrate a Yammer network together with your SharePoint Server environment and your Office 365 organization."
+description: "Learn how to integrate a Yammer network together with your SharePoint Server environment and your Microsoft 365 organization."
 ---
 
 # Integrate a Yammer network into SharePoint Server and Microsoft 365
@@ -27,7 +27,7 @@ For this scenario, we assume that you have:
   
 - SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
     
-- An existing Office 365 organization and a Yammer network.
+- An existing Microsoft 365 organization and a Yammer network.
     
 - Enabled Yammer as the Microsoft 365 social experience on the SharePoint Online admin center.
     
@@ -36,7 +36,7 @@ For this scenario, we assume that you have:
 - Already established directory synchronization with Microsoft 365. 
     
 > [!IMPORTANT]
-> Planning your user management is fundamental to deploying Microsoft 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Microsoft 365 uses Microsoft Azure Active Directory to provide authentication to Microsoft 365 services, including Yammer Enterprise. This means Microsoft 365 uses the identity that is synchronized with Azure AD to provide authentication. 
+> Planning your user management is fundamental to deploying Microsoft 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Microsoft 365 uses Microsoft Azure Active Directory to provide authentication to Office 365 services, including Yammer Enterprise. This means Microsoft 365 uses the identity that is synchronized with Azure AD to provide authentication. 
   
 ## Step 1: Configure directory synchronization
 

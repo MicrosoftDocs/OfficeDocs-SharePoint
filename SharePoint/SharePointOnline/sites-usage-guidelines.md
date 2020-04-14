@@ -28,7 +28,7 @@ Using the steps below as a template, create your own custom guidance for site ow
 - Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
 
 **Sample text:**</br>
-*A SharePoint site is designed to be a powerful tool for team collaboration and communication. [enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.*</br>
+*A SharePoint site is designed to be a powerful tool for team collaboration and communication. [enter your IT/productivity service org] administers the Office 365 service your site is built on. The goal is to make it easy to accomplish your business goals.*</br>
 
 
  
@@ -47,11 +47,11 @@ Using the steps below as a template, create your own custom guidance for site ow
 ## ![Alt image text](media/subsite.png "Site")  Guidelines for creating your site
 
 **Guidance:**</br>
-- Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the “Create site” link on the SharePoint start page or you may have a unique provisioning process for your organization.  
+- Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the "Create site" link on the SharePoint start page or you may have a unique provisioning process for your organization.  
 - If you have specific site templates that you want your site owners to select when they create their own sites, include that info in this section.</br>
 - Include information on custom provisioning solutions.</br>
 - Are there any ownership or site classification requirements your organization has implemented? </br>
-- When you set up your site, it’s important to select the appropriate site classification level. Include references or links to your your organization’s data classification guidelines.</br>
+- When you set up your site, it's important to select the appropriate site classification level. Include references or links to your your organization's data classification guidelines.</br>
 
 **Resources:**</br>
 - [Manage site creation in SharePoint](manage-site-creation.md)
@@ -59,11 +59,11 @@ Using the steps below as a template, create your own custom guidance for site ow
 - [Branding and site provisioning solutions for SharePoint](/sharepoint/dev/solution-guidance/branding-and-site-provisioning-solutions-for-sharepoint)
 
 **Sample text:**</br>
-*Sites can be created via the “Create site” link at [**insert your SharePoint link**].* 
+*Sites can be created via the "Create site" link at [**insert your SharePoint link**].* 
 
 *You should have two site owners who are both full time employees at your org.*
 
-*When you set up your site, it’s important to select the appropriate site classification level. [**Insert link to your organization’s data classification guidelines**].*
+*When you set up your site, it's important to select the appropriate site classification level. [**Insert link to your organization's data classification guidelines**].*
 
  
 ## ![Alt image text](media/navigation.png "Site design")  Your site designs and customizations
@@ -81,7 +81,7 @@ Using the steps below as a template, create your own custom guidance for site ow
 
 
 **Sample text:**</br>
-*It’s important that your site meet your business needs. If you need to create a custom add-in or deploy a resource-intensive app, work with our internal team. For more information, contact [**insert information on how to contact your IT team**].*
+*It's important that your site meet your business needs. If you need to create a custom add-in or deploy a resource-intensive app, work with our internal team. For more information, contact [**insert information on how to contact your IT team**].*
 
  
 ## ![Alt image text](media/sharing.png "Sharing") Sharing guidelines
@@ -108,19 +108,19 @@ Using the steps below as a template, create your own custom guidance for site ow
 - [Manage site storage limits](manage-site-collection-storage-limits.md)
 
 **Sample text:** </br>
-*Your site allows for _____ MB/GB of storage. You’re encouraged to remove files and content you don't need anymore.*
+*Your site allows for _____ MB/GB of storage. You're encouraged to remove files and content you don't need anymore.*
 
  
 ## ![Alt image text](media/secure.png "Access")   Managing access
 
 **Guidance:**</br>
-- Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization’s policies. Explain how you will communicate changes to permissions to them.
+- Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization's policies. Explain how you will communicate changes to permissions to them.
 
 **Resources:** </br>
 - [Secure SharePoint Online Sites and Files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
 
 **Sample text:** </br>
-*Plan to review your site’s permissions on a regular basis and set the level of access appropriately.*
+*Plan to review your site's permissions on a regular basis and set the level of access appropriately.*
 
 
 ## ![Alt image text](media/policy.png "Policy")   Site lifecycle policy

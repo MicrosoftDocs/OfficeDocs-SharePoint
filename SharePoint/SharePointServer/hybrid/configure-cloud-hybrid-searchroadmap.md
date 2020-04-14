@@ -21,19 +21,19 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 0bba350d-ec33-43db-a873-930559c78dee
-description: "Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365."
+description: "Learn how to configure cloud hybrid search for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Microsoft 365."
 ---
 
 # Configure cloud hybrid search - roadmap
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
-Learn how to configure [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365. 
+Learn how to configure [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Microsoft 365. 
   
-This article describes how you set up cloud hybrid search in an environment with SharePoint Server and SharePoint Online for Office 365 for enterprises. With the cloud hybrid search solution, you add crawled metadata from all your content, including on-premises content, to your search index in Office 365. When users search in Office 365, they get search results from both on-premises and from Office 365 content.
+This article describes how you set up cloud hybrid search in an environment with SharePoint Server and SharePoint Online for Microsoft 365 for enterprises. With the cloud hybrid search solution, you add crawled metadata from all your content, including on-premises content, to your search index in Microsoft 365. When users search in Microsoft 365, they get search results from both on-premises and from Microsoft 365 content.
   
 > [!NOTE]
-> If you are an Office 365 Dedicated customer, setting up cloud hybrid search requires engagement of SharePoint Service Engineering staff. Contact your Microsoft Service Delivery Manager for assistance. If you aren't sure what type of customer you are, you can safely disregard this note. 
+> If you are an Microsoft 365 Dedicated customer, setting up cloud hybrid search requires engagement of SharePoint Service Engineering staff. Contact your Microsoft Service Delivery Manager for assistance. If you aren't sure what type of customer you are, you can safely disregard this note. 
   
 ## Before you start
 
