@@ -46,6 +46,7 @@ In Microsoft 365, tenants you can control whether users can run custom script on
 During migration, some web parts require this setting set to **allow**.  Otherwise, the web part will not be migrated.
 
 At least 24 hours before you start migration, do the following:
+
 1.   From the SharePoint Admin Center, select **Settings**.
 2.   Scroll down to **Custom Script**.
 3.   Select both of the following:</br>
