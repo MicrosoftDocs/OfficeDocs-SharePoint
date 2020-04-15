@@ -23,7 +23,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: f1dfdac2-81ad-452f-b5b6-df9e5a8e976e
-description: "Connect your on-premises SharePoint Server environment with OneDrive for Business in Office 365."
+description: "Connect your on-premises SharePoint Server environment with OneDrive for Business."
 ---
 
 # Configure hybrid OneDrive for Business
@@ -32,7 +32,7 @@ description: "Connect your on-premises SharePoint Server environment with OneDri
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
-You can redirect users to OneDrive for Business in Office 365 when they click **OneDrive** or **Sites** on the navigation bar or the app launcher. In this article are the steps you need to configure your on-premises environment to connect with OneDrive for Business in Office 365. You can find an overview of the process in [Plan for hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
+You can redirect users to OneDrive for Business, on the navigation bar or the app launcher, when they select **OneDrive** or **Sites**. This article provides the steps to configure your on-premises environment to connect with OneDrive for Business. You can find an overview of the process in [Plan for hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
   
 ## Video demonstration
 
@@ -46,7 +46,7 @@ This video shows a walkthrough of configuring hybrid OneDrive for Business.
   
 ## Configure user permissions
 
-To use OneDrive for Business in Office 365, your users must have **Create Personal Site** and **Follow People and Edit Profile** permissions. Both are controlled by the user permissions in the User Profile service application. 
+To use OneDrive for Business, your users must have **Create Personal Site** and **Follow People and Edit Profile** permissions. Both are controlled by the user permissions in the User Profile service application. 
   
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
     
@@ -63,7 +63,7 @@ To use OneDrive for Business in Office 365, your users must have **Create Person
 ## Configure hybrid OneDrive for Business
 <a name="Configure"> </a>
 
-To configure hybrid OneDrive for Business, you must be both a SharePoint Server farm administrator and an Office 365 global administrator. Perform these steps on a server in your SharePoint Server farm.
+To configure hybrid OneDrive for Business, you must be both a SharePoint Server farm administrator and an Microsoft 365 global administrator. Perform these steps on a server in your SharePoint Server farm.
   
  **To configure hybrid OneDrive for Business**
   
@@ -90,11 +90,11 @@ To configure hybrid OneDrive for Business, you must be both a SharePoint Server 
 ## Create an audience (if necessary)
 <a name="CreateAudience"> </a>
 
-If you want to redirect only a specific set of your users from your on-premises environment to OneDrive for Business in Office 365, you need to use an audience to identify that set of users. If you have an audience set up already that contains just those users, you can use that. Otherwise, you need to create an audience in SharePoint Server. See [Create an audience for SharePoint Server](../administration/create-an-audience-for-sharepoint-server.md) for information about how to create an audience for SharePoint. You can also use Microsoft PowerShell cmdlets to create an audience. 
+If you want to redirect only a specific set of your users from your on-premises environment to OneDrive for Business, you need to use an audience to identify that set of users. If you have an audience set up already that contains just those users, you can use that. Otherwise, you need to create an audience in SharePoint Server. See [Create an audience for SharePoint Server](../administration/create-an-audience-for-sharepoint-server.md) for information about how to create an audience for SharePoint. You can also use Microsoft PowerShell cmdlets to create an audience. 
   
  **To configure a OneDrive for Business redirection audience**
   
-1. On the Central Administration website, select **Office 365** > **Configure hybrid OneDrive and Sites features**.
+1. On the **Central Administration** website, select **Microsoft 365** > **Configure hybrid OneDrive and Sites features**.
     
 2. Select **Use a specific audience**, and for the audience that contains your Microsoft 365 users, enter the  *audience name*. 
     
@@ -105,18 +105,18 @@ If you want to redirect only a specific set of your users from your on-premises 
 
 It can take up to a minute for the changes to be updated in the User Profile service application for your on-premises farm. Because the link may be stored in the user's browser cache, we recommend you wait 24 hours and then verify the links are working.
   
-To check that the links are working as expected, have one of the users in the audience that is using the Office 365 option for OneDrive for Business sign in to your on-premises environment. From the user's personal site, have the user choose **OneDrive** from the navigation bar or app launcher. 
+To check that the links are working as expected, have one of the users in the audience that is using the Microsoft 365 option for OneDrive for Business sign in to your on-premises environment. From the user's personal site, have the user choose **OneDrive** from the navigation bar or app launcher. 
   
-If the user is redirected to Office 365 for OneDrive for Business, everything is working as expected.
+If the user is redirected to Microsoft 365 for OneDrive for Business, everything is working as expected.
   
 If users want to browse to their OneDrive for Business directory directly, they can go to https:// _\<yourtenant name\>_.onedrive.com in the browser. For example, https://contoso.onedrive.com will take users of Contoso tenancy to their OneDrive for Business document library. This is a simple way to bookmark the link for users of OneDrive for Business. Rich clients might not recognize this short URL.
   
 ## (Optional) Create a search vertical
 <a name="Verify"> </a>
 
-You can set up a search vertical so that you can search content stored in OneDrive for Business. The specific steps to set up the search vertical are in the article [Set up Search of OneDrive for Business in Office 365 from SharePoint Server](set-up-search-of-onedrive-for-business-in-office-365-from-sharepoint-server.md).
+You can set up a search vertical so that you can search content stored in OneDrive for Business. The specific steps to set up the search vertical are in the article [Set up Search of OneDrive for Business from SharePoint Server](set-up-search-of-onedrive-for-business-in-office-365-from-sharepoint-server.md).
   
-## (Optional) Customize the Office 365 navigation experience (SharePoint Server 2013)
+## (Optional) Customize the Microsoft 365 navigation experience (SharePoint Server 2013)
 <a name="CustomNav"> </a>
 
 Now that your users are set up to be redirected to Office 365, you can customize what they see on the navigation bar there. By default, the navigation bar contains the following links: SkyDrive, Yammer or Newsfeed, and Sites. If you intend for your users to use only OneDrive for Business, you can remove the other links. If you want to allow your users to interact with Yammer or the SharePoint Newsfeed features or to create team sites in Office 365, you can leave those links on the nav bar.

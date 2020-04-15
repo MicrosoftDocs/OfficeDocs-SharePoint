@@ -49,7 +49,7 @@ The following table lists the limits for SharePoint Online search.
 |Text length for queries using Keyword Query Language  <br/> |4 KB (4,096 characters)  <br/> |Boundary  <br/> ||
 |Number of rows in a result set  <br/> |500  <br/> |Boundary  <br/> |To display the entire result set, issue more paging queries.  <br/> For Discovery queries the maximum number of rows in a result set is 10,000.  <br/> |
 |User-defined full-text indexes  <br/> |3  <br/> |Boundary  <br/> ||
-|Maximum number of on-premises items indexed in Microsoft 365  <br/> |20 million items  <br/> |Threshold  <br/> |For each 1 TB of storage space your tenant has in Microsoft 365, you can index 1 million items of on-premises content in your tenant's search index in Microsoft 365 with the cloud hybrid search solution. This quota is by default limited upwards to 20 million items. To increase the number of items that can be indexed beyond 20 million items, contact Microsoft Support.  <br/> ||
+|Maximum number of on-premises items indexed in Microsoft 365  <br/> |20 million items  <br/> |Threshold  <br/> |For each 1 TB of storage space your tenant has in Microsoft 365, you can index 1 million items of on-premises content in your tenant's search index in Office 365 with the cloud hybrid search solution. This quota is by default limited upwards to 20 million items. To increase the number of items that can be indexed beyond 20 million items, contact Microsoft Support.  <br/> ||
 
 ## See also
   

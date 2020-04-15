@@ -211,7 +211,7 @@ When this setting is on, an incremental check of the SharePoint Online target en
 
 ## Availability  
 > [!NOTE]
-> Currently, the **SharePoint Migration Tool** is not available for users of Microsoft 365 operated by 21Vianet in China. </br></br> It is also not available for users of Microsoft 365 with the German cloud with the data trustee, *German Telekom*. However, we do support it for users in Germany whose data location is not in the German datacenter.
+> Currently, the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. </br></br> It is also not available for users of Microsoft 365 with the German cloud with the data trustee, *German Telekom*. However, we do support it for users in Germany whose data location is not in the German datacenter.
 
    
 ## Related Topics

@@ -33,34 +33,34 @@ The following table provides a summary of the new features that you can try out 
   
 |**Feature**|**Description**|**More information**|
 |:-----|:-----|:-----|
-|**Access Services** <br/> |New Access features are available when you deploy Access Services in SharePoint Server 2016 .  <br/> |For more information, see [Access Services plus Access client and server](#access).  <br/> |
+|**Access Services** <br/> |New Access features are available when you deploy Access Services in SharePoint Server 2016.  <br/> |For more info, see [Access Services plus Access client and server](#access).  <br/> |
 |**Compliance features** <br/> |New compliance features for SharePoint Server 2016 include the document deletion and in-place hold policies.  <br/> |For more information, see [Compliance features](#compliance).  <br/> |
 |**Customized web parts** <br/> |The compile time for customized XSLT files used for Content Query, Summary Links, and Table of Contents Web Parts is improved.  <br/> |NA  <br/> |
-|**Document Library accessibility** <br/> |SharePoint Server 2016 includes new document library accessibility features.  <br/> |For more information, see [Document Library accessibility](#doclib).  <br/> |
+|**Document Library accessibility** <br/> |SharePoint Server 2016 includes new document library accessibility features.  <br/> |For more info, see [Document Library accessibility](#doclib).  <br/> |
 |**Durable links** <br/> |Resource-based URLs now retain links when documents are renamed or moved in SharePoint.  <br/> |NA  <br/> |
-|**Encrypted Connections** <br/> |SharePoint Server 2016 supports TLS 1.2 connection encryption by default.  <br/> |For more information, see [Encrypted connections](#encrypted).  <br/> |
-|**Fast Site Collection Creation** <br/> |The Fast Site Collection Creation feature is a rapid method to create site collections and sites in SharePoint.  <br/> |For more information, see [Fast Site Collection Creation](#FSCC).  <br/> |
-|**Filenames - expanded support for special characters** <br/> |SharePoint Server 2016 now supports using some special characters in file names that were blocked in previous versions.  <br/> |For more information, see [File names - expanded support for special characters](#file).  <br/> |
-|**Hybrid in SharePoint 2016** <br/> |Hybrid in SharePoint Server 2016 enables you to integrate your on-premises farm with Office 365 productivity experiences, allowing you to adopt the cloud at your own pace.  <br/> |For more information, see [Hybrid in SharePoint Server 2016](#hybrid).  <br/> |
-|**Identify and search for sensitive content** <br/> |SharePoint Server 2016 now provides the same data loss prevention capabilities as Office 365.  <br/> |For more information, see [Identify and search for sensitive content in both SharePoint Server 2016 and OneDrive documents](#sensitive).  <br/> |
-|**Image and video previews** <br/> |You can now preview images and videos in SharePoint Server 2016 document libraries.  <br/> |For more information, see [Image and video previews](#preview).  <br/> |
-|**Information Rights Management** <br/> |SharePoint Server 2016 provides Information Rights Management (IRM) capabilities to secure information by encrypting and securing information on SharePoint libraries with OneDrive for Business.  <br/> |For more information, see [Information Rights Management](#InfoRights).  <br/> |
-|**Large file support** <br/> |SharePoint Server 2016 now supports uploading and downloading files larger than 2,047 MB.  <br/> |For more information, see [Large file support](#largefile).  <br/> |
-|**MinRole** <br/> |MinRole is a new feature in SharePoint Server 2016 that allows a SharePoint farm administrator to define each server's role in a farm topology.  <br/> |For more information, see [MinRole farm topology](#minrole).  <br/> |
-|**Mobile experience** <br/> |SharePoint Server 2016 offers an improved mobile navigation experience.  <br/> |For more information, see [Mobile experience](#mobile).  <br/> |
-|**New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)** <br/> |The November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1) offers seven new features for SharePoint Server 2016.  <br/> |For more information, see [New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-in-feature-pack-1.md).  <br/> |
-|**New controls for working with OneDrive for Business** <br/> |SharePoint Server 2016 provides controls at the top of your personal document folders that make common tasks in OneDrive for Business more accessible.  <br/> |For more information, see [New controls for working with OneDrive for Business](#newcontrols).  <br/> |
+|**Encrypted Connections** <br/> |SharePoint Server 2016 supports TLS 1.2 connection encryption by default.  <br/> |For more info, see [Encrypted connections](#encrypted).  <br/> |
+|**Fast Site Collection Creation** <br/> |The Fast Site Collection Creation feature is a rapid method to create site collections and sites in SharePoint.  <br/> |For more info, see [Fast Site Collection Creation](#FSCC).  <br/> |
+|**Filenames - expanded support for special characters** <br/> |SharePoint Server 2016 now supports using some special characters in file names that were blocked in previous versions.  <br/> |For more info, see [File names - expanded support for special characters](#file).  <br/> |
+|**Hybrid in SharePoint 2016** <br/> |Hybrid in SharePoint Server 2016 enables you to integrate your on-premises farm with Microsoft 365 productivity experiences, allowing you to adopt the cloud at your own pace.  <br/> |For more info, see [Hybrid in SharePoint Server 2016](#hybrid).  <br/> |
+|**Identify and search for sensitive content** <br/> |SharePoint Server 2016 now provides the same data loss prevention capabilities as Office 365.  <br/> |For more info, see [Identify and search for sensitive content in both SharePoint Server 2016 and OneDrive documents](#sensitive).  <br/> |
+|**Image and video previews** <br/> |You can now preview images and videos in SharePoint Server 2016 document libraries.  <br/> |For more info, see [Image and video previews](#preview).  <br/> |
+|**Information Rights Management** <br/> |SharePoint Server 2016 provides Information Rights Management (IRM) capabilities to secure info by encrypting and securing info about SharePoint libraries with OneDrive for Business.  <br/> |For more info, see [Information Rights Management](#InfoRights).  <br/> |
+|**Large file support** <br/> |SharePoint Server 2016 now supports uploading and downloading files larger than 2,047 MB.  <br/> |For more info, see [Large file support](#largefile).  <br/> |
+|**MinRole** <br/> |MinRole is a new feature in SharePoint Server 2016 that allows a SharePoint farm administrator to define each server's role in a farm topology.  <br/> |For more info, see [MinRole farm topology](#minrole).  <br/> |
+|**Mobile experience** <br/> |SharePoint Server 2016 offers an improved mobile navigation experience.  <br/> |For more info, see [Mobile experience](#mobile).  <br/> |
+|**New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)** <br/> |The November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1) offers seven new features for SharePoint Server 2016.  <br/> |For more info, see [New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-in-feature-pack-1.md).  <br/> |
+|**New controls for working with OneDrive for Business** <br/> |SharePoint Server 2016 provides controls at the top of your personal document folders that make common tasks in OneDrive for Business more accessible.  <br/> |For more info, see [New controls for working with OneDrive for Business](#newcontrols).  <br/> |
 |**New Recycle Bin in OneDrive and Team sites** <br/> |SharePoint Server 2016 adds a link for the Recycle Bin in the left navigation area of the OneDrive and Team sites.  <br/> |NA  <br/> |
-|**Open Document Format (ODF)** <br/> |SharePoint Server 2016 adds support for Open Document Format (ODF) files to use in document library templates.  <br/> |For more information, see [Open Document Format (ODF) available for document libraries](#ODF).  <br/> |
-|**Project Server** <br/> |New Project Server features are available in SharePoint Server 2016.  <br/> |For more information, see [Project Server 2016 ](#project).  <br/> |
-|**ReFS file system support** <br/> |SharePoint Server 2016 now supports drives that are formatted with the ReFS file system.  <br/> |For more information about the ReFS file system, see [Resilient File System Overview](https://go.microsoft.com/fwlink/?LinkID=620210&amp;clcid=0x409) and [Resilient file system](https://go.microsoft.com/fwlink/?LinkID=620212&amp;clcid=0x409).  <br/> |
-|**SharePoint business intelligence** <br/> |SharePoint Server 2016 now supports SQL Server 2016 CTP 3.1 and the Power Pivot add-in and Power View.  <br/> |For more information about SharePoint business intelligence, see [Power Pivot add-in and Power View are now available to use with SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md#BI).  <br/> |
-|**SharePoint Search** <br/> |SharePoint Search Server Application has significant changes to its deployment.  <br/> |For more information, see [SharePoint Search Service application](#search).  <br/> |
-|**Sharing improvements** <br/> |SharePoint Server 2016 has many new sharing improvements available.  <br/> |For more information, see [Sharing](#share).  <br/> |
-|**Site Folders view** <br/> |SharePoint Server 2016 provides a new Site Folders view that lets you access the document libraries in sites that you're following.  <br/> |For more information, see [Site folders view](#folders).  <br/> |
-|**Sites page pinning** <br/> |This new feature helps you see and follow sites.  <br/> |For more information, see [Sites page pinning](#pin).  <br/> |
-|**SMTP Connection Encryption** <br/> |SharePoint Server 2016 supports sending email to SMTP servers that use **STARTTLS** connection encryption.  <br/> |For more information, see [SMTP connection encryption](#smtpcon).  <br/> |
-|**SMTP ports (non-default)** <br/> |SharePoint Server 2016 adds support for SMTP servers that use TCP ports other than the default port (25).  <br/> |For more information, see [Use SMTP ports other than the default (25)](#smtpport).  <br/> |
+|**Open Document Format (ODF)** <br/> |SharePoint Server 2016 adds support for Open Document Format (ODF) files to use in document library templates.  <br/> |For more info, see [Open Document Format (ODF) available for document libraries](#ODF).  <br/> |
+|**Project Server** <br/> |New Project Server features are available in SharePoint Server 2016.  <br/> |For more info, see [Project Server 2016 ](#project).  <br/> |
+|**ReFS file system support** <br/> |SharePoint Server 2016 now supports drives that are formatted with the ReFS file system.  <br/> |For more info about the ReFS file system, see [Resilient File System Overview](https://go.microsoft.com/fwlink/?LinkID=620210&amp;clcid=0x409) and [Resilient file system](https://go.microsoft.com/fwlink/?LinkID=620212&amp;clcid=0x409).  <br/> |
+|**SharePoint business intelligence** <br/> |SharePoint Server 2016 now supports SQL Server 2016 CTP 3.1 and the Power Pivot add-in and Power View.  <br/> |For more info about SharePoint business intelligence, see [Power Pivot add-in and Power View are now available to use with SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md#BI).  <br/> |
+|**SharePoint Search** <br/> |SharePoint Search Server Application has significant changes to its deployment.  <br/> |For more info, see [SharePoint Search Service application](#search).  <br/> |
+|**Sharing improvements** <br/> |SharePoint Server 2016 has many new sharing improvements available.  <br/> |For more info, see [Sharing](#share).  <br/> |
+|**Site Folders view** <br/> |SharePoint Server 2016 provides a new Site Folders view that lets you access the document libraries in sites that you're following.  <br/> |For more info, see [Site folders view](#folders).  <br/> |
+|**Sites page pinning** <br/> |This new feature helps you see and follow sites.  <br/> |For more info, see [Sites page pinning](#pin).  <br/> |
+|**SMTP Connection Encryption** <br/> |SharePoint Server 2016 supports sending email to SMTP servers that use **STARTTLS** connection encryption.  <br/> |For more info, see [SMTP connection encryption](#smtpcon).  <br/> |
+|**SMTP ports (non-default)** <br/> |SharePoint Server 2016 adds support for SMTP servers that use TCP ports other than the default port (25).  <br/> |For more info, see [Use SMTP ports other than the default (25)](#smtpport).  <br/> |
 |**Web Application Open Platform Interface Protocol (WOPI)** <br/> |You can now rename files, create new files, and share files from within the WOPI iframe on the browser page.  <br/> |NA  <br/> |
    
 ## Detailed description of features
@@ -221,7 +221,7 @@ With this new capability, you can:
     
 - Turn on **DLP Policies** from the Compliance Policy Center site collection to notify end users and administrators when documents with sensitive information are stored in SharePoint and automatically protect the documents from improper sharing. 
     
-Information on configuring and using this feature is documented in SharePoint Online and Office 365. For more information, see:
+Information about configuring and using this feature is documented in SharePoint Online and Microsoft 365. For more info, see:
   
 - [Search for sensitive content in SharePoint and OneDrive documents](https://go.microsoft.com/fwlink/p/?LinkID=620221&amp;clcid=0x4809)
     
@@ -230,7 +230,7 @@ Information on configuring and using this feature is documented in SharePoint On
 ### Image and video previews
 <a name="preview"> </a>
 
-In SharePoint Server 2016 when you post images and videos to a document library, you can see a preview by hovering the mouse over the image or video, or by clicking on them.
+In SharePoint Server 2016, when you post images and videos to a document library, you can see a preview by hovering the mouse over the image or video, or by selecting them.
   
 ### Information Rights Management
 <a name="InfoRights"> </a>

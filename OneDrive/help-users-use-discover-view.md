@@ -47,7 +47,7 @@ Discover view functionality is available to users in OneDrive, which is availabl
 
 - Microsoft 365 Business Standard
 
-Regardless of which of these Office 365 subscriptions you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using the Discover view.
+Regardless of which of these Microsoft 365 subscriptions you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using the Discover view.
   
 OneDrive in Microsoft 365 is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome or Safari. For more info, see [Microsoft 365 system requirements](https://go.microsoft.com/fwlink/p/?LinkID=797594&amp;clcid=0x409).
   
@@ -93,15 +93,15 @@ If users don't have any recently modified or viewed content in these content sou
   
  **Solution(s)**
   
-- Encourage your users to store and share documents in SharePoint and OneDrive. For more information, see [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d) (the Discover view is powered by Delve).
+- Encourage your users to store and share documents in SharePoint and OneDrive. For more info, see [Store your documents where Office Delve can get to them](https://support.office.com/article/49a0db49-5e6c-4dda-816e-e11dd77de49d) (the Discover view is powered by Delve).
 
 - Check the permission settings on the SharePoint sites to make sure that the user has access to the correct sites and their content.
 
 - Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**.
 
-- As an admin, you can allow your organization to access the Office Graph. This makes sure the Discover view shows the most relevant content to users. See [Control access to the Office Graph](/sharepoint/delve-for-office-365-admins) for more information.
+- As an admin, you can allow your organization to access the Office Graph. This makes sure the Discover view shows the most relevant content to users. For more info, see [Control access to the Office Graph](/sharepoint/delve-for-office-365-admins).
 
-- Make sure that you've assigned users a license to access to the Microsoft 365 services that you've activated.
+- Make sure that you've assigned users a license to access to the Office 365 services that you've activated.
 
 ### Users are concerned that private or sensitive documents are available in the Discover view
 <a name="UsersConcern"> </a>
@@ -112,7 +112,7 @@ Any document that a user can view or edit in Microsoft 365, can also appear in t
   
 - Check the permission settings for the documents, sites and libraries and make sure that only the intended users have access to the content.
 
-- If you want to prevent specific documents from appearing in the Discover view, follow the steps in [Manage the search schema in SharePoint Online](/sharepoint/manage-search-schema). You can keep storing the documents in Microsoft 365, and people can still find them through search - they just won't show up in the Discover view or Delve.
+- If you want to prevent specific documents from appearing in the Discover view, follow the steps in [Manage the search schema in SharePoint Online](/sharepoint/manage-search-schema). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in the Discover view or Delve.
     
 ## About the Office Graph
 <a name="AboutOG"> </a>
@@ -127,10 +127,10 @@ For developers, the Office Graph insights and rich relationships are exposed thr
   
 ### What is the effect of allowing or not allowing access to the Office Graph?
 
-If you don't allow access to the Office Graph, you affect the relevance of the content appearing in the Discover view and in experiences elsewhere in Microsoft 365 (for example on the SharePoint start page). Allowing and not allowing access to the Office Graph will also affect Delve functionality.
+If you don't allow access to the Office Graph, you affect the relevance of the content appearing in the Discover view and in experiences elsewhere in Office 365 (for example on the SharePoint start page). Allowing and not allowing access to the Office Graph will also affect Delve functionality.
   
 > [!NOTE]
-> For more info, see [Office Delve for Microsoft 365 admins](/sharepoint/delve-for-office-365-admins).
+> For more info, see [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins).
   
 ## Additional resources
 <a name="AddRes"> </a>
@@ -151,4 +151,4 @@ End users
     
 Admins
   
-- [Office Delve for Microsoft 365 admins](/sharepoint/delve-for-office-365-admins)
+- [Office Delve for Office 365 admins](/sharepoint/delve-for-office-365-admins)

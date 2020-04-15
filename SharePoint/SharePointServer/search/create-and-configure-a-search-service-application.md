@@ -71,7 +71,7 @@ The accounts that you use for the Search service, the Search Admin Web Service a
 
 Each Search service application has a separate content index. You can create multiple Search service applications if you want to have different content indexes for different sets of content. For example, if you want to segregate sensitive content (such as employee benefits information) into a separate content index, you can create a separate Search service application to correspond to that set of content.
   
-If your SharePoint environment is hybrid, you can index content that resides in SharePoint Server into the Office 365 content index. In this case you need to create a Search service application of type **cloud**. You can only create one cloud Search service application per farm, but you can create multiple SSAs in combination with the single cloud SSA. 
+If your SharePoint environment is hybrid, you can index content that resides in SharePoint Server into the Office 365 content index. In this case, you must create a Search service application of type **cloud**. You can only create one cloud Search service application per farm, but you can create multiple SSAs in combination with the single cloud SSA. 
   
 > [!NOTE]
 > Each Search service application has its own search topology. If you create more than one Search service application in a farm, we recommend that you allocate dedicated servers for the search topology of each Search service application. Deploying several Search service applications to the same servers will significantly increase the resource requirements (CPU and memory) on those servers. 

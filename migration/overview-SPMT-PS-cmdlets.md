@@ -31,7 +31,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 
 
 >[!NOTE]
->These PowerShell cmdlets are currently not available for users of Microsoft 365 operated by 21Vianet in China. They are also not available for users of Microsoft 365 with the German cloud using the data trustee, *German Telekom*. However, they are supported for users in Germany whose data location is not in the German datacenter.
+>These PowerShell cmdlets are currently not available for users of Office 365 operated by 21Vianet in China. They are also not available for users of Microsoft 365 with the German cloud using the data trustee, *German Telekom*. However, they are supported for users in Germany whose data location is not in the German datacenter.
 
   
 ## System requirements

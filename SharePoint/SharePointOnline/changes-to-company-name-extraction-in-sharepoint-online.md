@@ -28,7 +28,7 @@ If you have configured company name extraction on a managed property, you will s
 
 ### What happens when company name extraction is deprecated?
 
-If you have configured company name extraction to be surfaced in the classic Enterprise Search Center as a refiner (refer to the above illustration), you will see the refiner is not populated with data over time resulting in the CompanyName refiner to be empty once the deprecation has been completed. The rest of the search experience will not be impacted. The Company Inclusions and Exclusion lists configured in the Term Store Management Tool will not be removed.
+If you have configured company name extraction to be surfaced in the classic Enterprise Search Center as a refiner (see the previous illustration), the refiner is not populated with data over time resulting in the CompanyName refiner to be empty after the deprecation has been completed. The rest of the search experience is not impacted. The Company Inclusions and Exclusion lists configured in the Term Store Management Tool will not be removed.
 
 For developers and custom solutions, third-party applications using the SharePoint REST/CSOM API will not have the CompanyName refiner returned in the results. Any other refiners and query features will continue to work.
 

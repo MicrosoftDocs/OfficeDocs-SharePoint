@@ -210,7 +210,7 @@ This file path length limit increase makes it easier to sync deeply nested conte
 
 ### Hybrid experiences improvements
 
-- The "OneDrive by Default" experience for SharePoint Server 2013 is now available in SharePoint Server 2019. When enabled, any attempt to browse to the My Site Host welcome page will be redirected to Office 365.
+- The "OneDrive by Default" experience for SharePoint Server 2013 is now available in SharePoint Server 2019. When enabled, any attempt to browse to the My Site Host welcome page will be redirected to Microsoft 365.
 
 - A SharePoint hybrid status bar was added to the top of Central Administration. The hybrid status bar will appear once the SharePoint Server 2019 farm meets the minimum system requirements needed to enable hybrid, and will give you direct access to launch the SharePoint Hybrid Configuration Wizard.
 
@@ -226,7 +226,7 @@ Sharing email notifications have been refreshed to use a modern template design.
 
 ### Suite Navigation and App Launcher improvements
 
-We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Office 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint Online.
+We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Microsoft 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint Online.
 
 ### Telemetry privacy experience
 

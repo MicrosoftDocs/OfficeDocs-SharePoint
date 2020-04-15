@@ -1,5 +1,5 @@
 ---
-title: "Show results from Office 365 in on-premises SharePoint with cloud hybrid search"
+title: "Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -24,13 +24,13 @@ ms.assetid: 1a11cbf3-ab19-4aa0-ae9c-8e4b793154a2
 description: "Learn how to show results from the Microsoft 365 search index when searching from SharePoint Server sites with cloud hybrid search."
 ---
 
-# Show results from Office 365 in on-premises SharePoint with cloud hybrid search
+# Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
 Learn how to show results from the Microsoft 365 search index when searching from SharePoint Server sites with cloud hybrid search.
   
-After you've set up [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), your users get search results from both on-premises and Office 365 content when they use the search center in Office 365. However, your existing search in document libraries in SharePoint Server, such as Team Sites, stops returning results when you've set up cloud hybrid search. If your users need to search from Team Sites, you can set up search from SharePoint Server Team Sites to show results from the search index in Office 365. You use the cloud Search service application to achieve this. Note that searching from a Search Center in Office 365 will be faster than searching from a document library in SharePoint Server because the search index and the search center are in the same environment.
+After you've set up [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), your users get search results from both on-premises and Microsoft 365 content when they use the search center in Office 365. However, your existing search in document libraries in SharePoint Server, such as Team Sites, stops returning results when you've set up cloud hybrid search. If your users need to search from Team Sites, you can set up search from SharePoint Server Team Sites to show results from the search index in Office 365. You use the cloud Search service application to achieve this. Note that searching from a Search Center in Office 365 will be faster than searching from a document library in SharePoint Server because the search index and the search center are in the same environment.
   
 Here's an overview of the cloud hybrid search solution. The light grey lines represent what you're setting up by following the steps in this article.
   

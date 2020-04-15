@@ -40,7 +40,7 @@ Hybrid federated search and Cloud hybrid search are the two hybrid experiences t
 
 With hybrid federated search solution for SharePoint, the results are federated from your search index in SharePoint Server as well as index in Microsoft 365. SharePoint on-premises crawls on-premises content and SharePoint Online crawls SharePoint Online corpus. Post hybrid configurations, when authenticated users submit a query in a search center, a real time query would be fired against both indexes and authorized users will get search results from the Microsoft 365 search index as well as from the SharePoint Server search index. However, the results are separate and distinct from one another often displayed in separate search verticals or result blocks.
 
-Cloud hybrid search service application for SharePoint Server is a crawl-based solution. All crawled content, including on-premises content, is processed by Microsoft 365 search engine and resides in search index in Microsoft 365. When authenticated users submits a query in SharePoint Online search center, they get search results from Microsoft 365 search index, thus see items both from on-premises and Microsoft 365 content. If you want to get the same experience in on-premises SharePoint Server search center, you need to configure a remote result source in the on-premises farm to fetch results from Microsoft 365 index.
+Cloud hybrid search service application for SharePoint Server is a crawl-based solution. All crawled content, including on-premises content, is processed by Microsoft 365 search engine and resides in search index in Office 365. When authenticated users submits a query in SharePoint Online search center, they get search results from Microsoft 365 search index, thus see items both from on-premises and Microsoft 365 content. If you want to get the same experience in on-premises SharePoint Server search center, you need to configure a remote result source in the on-premises farm to fetch results from Microsoft 365 index.
 
 ***What are the supported topologies in hybrid federated search?***
 
@@ -277,7 +277,7 @@ Use one crawl database for each 20 million items in the content corpus. For more
 
 ***I am using Cloud hybrid search service application to crawl content. In my Cloud SSA, I see all 6 components of the search topology. Which ones are hosted locally? For example, is there a local index?***
 
-No. The Cloud hybrid search service application is a crawler. The crawl component gets content from your on-premises farm and sends this content to the search index in Microsoft 365. It uses connectors to interact with the content sources and uses the crawl database to store both temporary and historical information about the items it crawls, just like a regular crawl component.
+No. The Cloud hybrid search service application is a crawler. The crawl component gets content from your on-premises farm and sends this content to the search index in Office 365. It uses connectors to interact with the content sources and uses the crawl database to store both temporary and historical information about the items it crawls, just like a regular crawl component.
 
 ***What is pushed by Cloud hybrid search service application to SharePoint Online endpoint during a crawl?***
 
@@ -382,7 +382,7 @@ If there are dedicated Search servers in the farm topology they should be able t
 
 The latest version of Windows PowerShell scripts to configure Cloud hybrid search for SharePoint can be downloaded [here](https://www.microsoft.com/download/details.aspx?id=51490&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True).
 
-***Is Cloud hybrid search service application onboarding supported for Government community cloud (GCC) & Microsoft 365 operated by 21Vianet.***
+***Is Cloud hybrid search service application onboarding supported for Government community cloud (GCC) & Office 365 operated by 21Vianet.***
 
 Yes, you can refer to our [post](https://blogs.technet.microsoft.com/beyondsharepoint/2017/06/30/announcing-hybrid-search-availability-for-office-365-us-government-communication-and-office-365-operated-by-21vianet/) for details.
 

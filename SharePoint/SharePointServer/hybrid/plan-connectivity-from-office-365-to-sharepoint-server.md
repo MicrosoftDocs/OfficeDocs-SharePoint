@@ -1,5 +1,5 @@
 ---
-title: "Plan connectivity from Office 365 to SharePoint Server"
+title: "Plan connectivity from Microsoft 365 to SharePoint Server"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -17,16 +17,16 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 ms.assetid: b291ea58-cfda-48ec-92d7-5180cb7e9469
-description: "Plan and prepare to configure inbound connectivity from Office 365 to SharePoint Server hybrid environment."
+description: "Plan and prepare to configure inbound connectivity from Microsoft 365 to SharePoint Server hybrid environment."
 ---
 
-# Plan connectivity from Office 365 to SharePoint Server
+# Plan connectivity from Microsoft 365 to SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
-This article is designed to help you plan and prepare to configure inbound connectivity from Office 365 for enterprises to SharePoint Server through a reverse proxy device. This is required for the following hybrid environments: 
+This article is designed to help you plan and prepare to configure inbound connectivity from Microsoft 365 for enterprises to SharePoint Server through a reverse proxy device. This is required for the following hybrid environments: 
   
-- Inbound hybrid search (displaying search results from SharePoint Server in Office 365)
+- Inbound hybrid search (displaying search results from SharePoint Server in Microsoft 365)
     
 - Hybrid Business Connectivity Services
     
@@ -212,7 +212,7 @@ For more information on how SSL certificates are used in SharePoint hybrid envir
 ### About Secure Channel SSL certificates
 <a name="AboutSecureChannel"> </a>
 
-A Secure Channel SSL certificate provides authentication and encryption for the secure communication channel between the reverse proxy device and Office 365, acting as both a server and a client certificate. It also verifies the identity of the reverse proxy endpoint that's used to publish the on-premises SharePoint Server site collection.
+A Secure Channel SSL certificate provides authentication and encryption for the secure communication channel between the reverse proxy device and Microsoft 365, acting as both a server and a client certificate. It also verifies the identity of the reverse proxy endpoint that's used to publish the on-premises SharePoint Server site collection.
   
 This certificate must be either a wildcard or a SAN certificate and be issued by a public root certification authority. The subject field of this certificate must contain the host name of the external endpoint of the reverse proxy server or a wildcard URL that covers all host names in the namespace. It must use at least 2048-bit encryption.
   
@@ -246,7 +246,7 @@ The STS certificate of the on-premises SharePoint farm requires a default certif
 ## Record the accounts needed for configuration and testing
 <a name="certificates"> </a>
 
-A SharePoint hybrid environment setup requires several user accounts in both your on-premises Active Directory and the Office 365 directory (Azure Active Directory that is surfaced in the Office 365 directory). These accounts have different permissions and group or role memberships. Some of the accounts are used to deploy and configure software, and some are needed to test specific functionality to help guarantee that security and authentication systems are working as expected.
+A SharePoint hybrid environment setup requires several user accounts in both your on-premises Active Directory and the Microsoft 365 directory (Azure Active Directory that is surfaced in the Microsoft 365 directory). These accounts have different permissions and group or role memberships. Some of the accounts are used to deploy and configure software, and some are needed to test specific functionality to help guarantee that security and authentication systems are working as expected.
   
 - Go to [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md) for a complete explanation of the required user accounts, including notes about roles and identity providers. 
     
