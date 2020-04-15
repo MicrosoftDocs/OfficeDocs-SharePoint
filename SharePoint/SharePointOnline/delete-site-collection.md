@@ -39,7 +39,7 @@ You should notify the site admins and any subsite owners before you delete a sit
 
 ## Delete a site in the new SharePoint admin center
 
-By using the new SharePoint admin center, you can delete both classic and modern sites. Both global and SharePoint admins can now delete sites that belong to Office 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
+By using the new SharePoint admin center, you can delete both classic and modern sites. Both global and SharePoint admins can now delete sites that belong to Microsoft 365 groups. Deleting these sites will delete the group and all its resources, including the Outlook mailbox and calendar, and any Teams channels.
   
 1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
@@ -53,11 +53,11 @@ By using the new SharePoint admin center, you can delete both classic and modern
     ![Deleting a site on the Active sites page](media/delete-site.png)
 
 > [!NOTE]
-> To delete a hub site, you first need to unregister it as a hub site. <br>Deleted Office 365 groups are retained for only 30 days.<br>For info about deleting a site by using PowerShell, see [Remove-SPOSite](/powershell/module/sharepoint-online/remove-sposite).
+> To delete a hub site, you first need to unregister it as a hub site. <br>Deleted Microsoft 365 groups are retained for only 30 days.<br>For info about deleting a site by using PowerShell, see [Remove-SPOSite](/powershell/module/sharepoint-online/remove-sposite).
  
 ## Permanently delete a site
 
-To reuse a URL from a deleted site (recreate a site), you need to permanently delete the site. After the site is permanently deleted, it might take up to 24 hours for the URL to become available. On the Deleted sites page of the new SharePoint admin center, you can permanently delete all sites except those that belong to Office 365 groups. 
+To reuse a URL from a deleted site (recreate a site), you need to permanently delete the site. After the site is permanently deleted, it might take up to 24 hours for the URL to become available. On the Deleted sites page of the new SharePoint admin center, you can permanently delete all sites except those that belong to Microsoft 365 groups. 
 
 1. Go to the [Deleted sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
@@ -68,7 +68,7 @@ To reuse a URL from a deleted site (recreate a site), you need to permanently de
 
 3. Select **Delete**, and then select **Delete** to confirm.
 
-To permanently delete sites (including Office 365 group-connected team sites) by using PowerShell, follow these steps:
+To permanently delete sites (including Microsoft 365 group-connected team sites) by using PowerShell, follow these steps:
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -91,7 +91,7 @@ To permanently delete sites (including Office 365 group-connected team sites) by
 |---------|---------|---------|
 |Root site     |Not recommended. [Replace the root site with a different site](modern-root-site.md#replace-your-root-site). When the site is no longer a root site, its URL will be /sites/archive-*datetime*, and you can delete it from the Active sites page of the new SharePoint admin center or by using PowerShell       |  From the Deleted sites page of the new SharePoint admin center or by using PowerShell        |
 |Communication sites   |       Delete them from the Active sites page of the new SharePoint admin center or by using PowerShell  |     From the Deleted sites page of the new SharePoint admin center or by using PowerShell    |
-|Office 365 group-connected team sites    |    Delete Office 365 groups and all their resources from the Microsoft 365 admin center, the Active sites page of the new SharePoint admin center, or by using PowerShell     |     From PowerShell only    |
+|Microsoft 365 group-connected team sites    |    Delete Microsoft 365 groups and all their resources from the Microsoft 365 admin center, the Active sites page of the new SharePoint admin center, or by using PowerShell     |     From PowerShell only    |
 |Hub sites (those designated with "(Hub site)" in the Hub column)   |   [Unregister them as hub sites](remove-hub-site.md) from the Active sites page of the new SharePoint admin center, or by using PowerShell, and then delete them based on their site type      |     Based on their site type    |
 |Classic sites    | Delete them from the Active sites page of the new SharePoint admin center or by using PowerShell  |     From the Deleted sites page of the new SharePoint admin center or by using PowerShell    |
 

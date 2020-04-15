@@ -32,7 +32,7 @@ Traditionally, deploying a SharePoint  *on-premises*  extranet site involves com
   
 But with Microsoft 365, partners connect directly to a members-only site in SharePoint, without access to your on-premises environment or any other SharePoint sites. Microsoft 365 extranet sites can be accessed anywhere there's an Internet connection.
   
-Depending on your collaboration needs, you can include Office 365 groups or Microsoft Teams as part of your extranet.
+Depending on your collaboration needs, you can include Microsoft 365 groups or Microsoft Teams as part of your extranet.
 
 ## Why use Microsoft 365 for a B2B extranet?
 
@@ -40,7 +40,7 @@ Depending on your collaboration needs, you can include Office 365 groups or Micr
   
  **Secure sharing:** Microsoft 365 B2B extranet provides a highly secure sharing experience with the IT governance and policies that you require, including: 
   
-- The ability to protect yourself against accidental sharing by using  owner-approved sharing through Office 365 groups or teams, which prevents users from inviting new users without approval. 
+- The ability to protect yourself against accidental sharing by using  owner-approved sharing through Microsoft 365 groups or teams, which prevents users from inviting new users without approval. 
     
 - The ability to restrict partner users to a single site or team. They cannot search for or view any content on sites or teams to which they have not been invited.
     
@@ -67,7 +67,7 @@ Depending on your collaboration needs, you can include Office 365 groups or Micr
 
 To get started setting up a SharePoint extranet site:
   
-1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with an Office 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
+1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with an Microsoft 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
 
 2. Read [Create a B2B extranet with managed guests](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet) if you want to delegate guest access management to specific approvers in either your organization or the partner organization. 
     

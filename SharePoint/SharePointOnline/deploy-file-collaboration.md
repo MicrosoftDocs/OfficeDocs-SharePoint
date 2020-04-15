@@ -27,7 +27,7 @@ With Microsoft 365 services, you can create a secure and productive file collabo
 
 In the sections below, we call out the options and decisions that you as an administrator should consider when setting up a collaboration environment:
 
-  - How SharePoint relates to other collaboration services in Microsoft 365, including OneDrive, Office 365 Groups, and Teams.
+  - How SharePoint relates to other collaboration services in Microsoft 365, including OneDrive, Microsoft 365 Groups, and Teams.
 
   - How you can create an intuitive and productive collaboration environment for your users.
 
@@ -65,7 +65,7 @@ By using a combination of features – depending on the sensitivity of your data
 
 In SharePoint Server on-premises, many organizations chose an IT-focused model where users must request sites and provide a business justification. This was done to prevent site sprawl and to apply governance policies around access to sensitive data.
 
-In Microsoft 365, we recommend allowing users to create Teams, Office 365 Groups, and SharePoint sites as needed. You can use sensitivity labels to enforce permissions governance, take advantage of security features that protect your content, and use expiration and renewal policies to make sure unused sites don't accumulate.
+In Microsoft 365, we recommend allowing users to create Teams, Microsoft 365 Groups, and SharePoint sites as needed. You can use sensitivity labels to enforce permissions governance, take advantage of security features that protect your content, and use expiration and renewal policies to make sure unused sites don't accumulate.
 
 By choosing options that favor user self-service, you can minimize the impact on your IT staff while creating an easier experience for your users.
 
@@ -73,15 +73,15 @@ By choosing options that favor user self-service, you can minimize the impact on
 
 The key to creating a smooth user experience is to avoid creating barriers for your users that they don't understand or that they must escalate to your help desk. For example, turning external sharing off for a site might cause user confusion or frustration; whereas labeling the site and its contents as confidential and using data loss prevention policy tips and emails to educate your users in your governance policies, can lead to a much smoother experience for them.
 
-## SharePoint, Office 365 Groups, and Teams
+## SharePoint, Microsoft 365 Groups, and Teams
 
 In Microsoft 365, SharePoint is integrated with a variety of other services to provide a much richer experience than is possible with on-premises solutions such as SharePoint Server. These integrations affect how you manage user permissions and what your users can do in a collaboration scenario.
 
-Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint, each SharePoint team site is part of an Office 365 group. An Office 365 group is a single permissions group that is associated with a variety of Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Office 365 group, they are given access to the SharePoint site along with the other connected services.
+Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint, each SharePoint team site is part of an Microsoft 365 group. An Microsoft 365 group is a single permissions group that is associated with a variety of Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Microsoft 365 group, they are given access to the SharePoint site along with the other connected services.
 
-While you can continue to manage SharePoint site permissions separately by using SharePoint groups, we recommend managing permissions for SharePoint by adding people to or removing them from the associated Office 365 group. This provides easier administration as well as giving users access to a host of related services that they can use for better collaboration.
+While you can continue to manage SharePoint site permissions separately by using SharePoint groups, we recommend managing permissions for SharePoint by adding people to or removing them from the associated Microsoft 365 group. This provides easier administration as well as giving users access to a host of related services that they can use for better collaboration.
 
-Microsoft Teams provides a hub for collaboration by bringing together all the Office 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Office 365 group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions. For collaboration scenarios in your organization, we highly recommend using Teams rather than using services such as SharePoint independently.
+Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, plus a variety of Teams-specific services, in a single user experience with persistent chat. Teams uses the associated Microsoft 365 group to manage its permissions. Within the Teams experience, users can directly access SharePoint along with the other services without having to switch applications. This provides a centralized collaboration space with a single place to manage permissions. For collaboration scenarios in your organization, we highly recommend using Teams rather than using services such as SharePoint independently.
 
 For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
 
@@ -209,7 +209,7 @@ Data loss prevention sensitivity labels provide a way to classify groups, sites 
 
 Using sensitivity labels helps your users to share information safely and to maintain your governance policies without the need for users to become experts in those policies.
 
-For example, you could configure a policy that requires Office 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the "private" option when they choose a classification of confidential.
+For example, you could configure a policy that requires Microsoft 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the "private" option when they choose a classification of confidential.
 
 **Conditions and actions**
 

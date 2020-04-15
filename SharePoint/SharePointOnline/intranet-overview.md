@@ -197,7 +197,7 @@ Video is a great way to communicate to the people in your organization. Videos r
 
 #### Determine your permissions and sharing strategy
 
-SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions) are managed through a set of roles within a site - owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Office 365 groups. 
+SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions) are managed through a set of roles within a site - owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Microsoft 365 groups. 
 
 *Start by -* Determining who needs access, who should not have access, and how you will grant access for requests.
 

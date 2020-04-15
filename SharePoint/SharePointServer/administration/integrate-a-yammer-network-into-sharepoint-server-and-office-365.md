@@ -36,7 +36,7 @@ For this scenario, we assume that you have:
 - Already established directory synchronization with Microsoft 365. 
     
 > [!IMPORTANT]
-> Planning your user management is fundamental to deploying Microsoft 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Microsoft 365 uses Microsoft Azure Active Directory to provide authentication to Office 365 services, including Yammer Enterprise. This means Microsoft 365 uses the identity that is synchronized with Azure AD to provide authentication. 
+> Planning your user management is fundamental to deploying Microsoft 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Microsoft 365 uses Microsoft Azure Active Directory to provide authentication to Microsoft 365 services, including Yammer Enterprise. This means Microsoft 365 uses the identity that is synchronized with Azure AD to provide authentication. 
   
 ## Step 1: Configure directory synchronization
 

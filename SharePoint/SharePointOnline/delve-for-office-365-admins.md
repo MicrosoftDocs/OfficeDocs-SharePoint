@@ -42,7 +42,7 @@ The Delve O365 app is also enabled for modern authentication. For more info, see
 ## Get new Delve features quicker
 <a name="BKMK_DelveFirstRelease"> </a>
 
-If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the  *Standard release*  program. To learn more, see [Office 365 release options](/office365/admin/manage/release-options-in-office-365). 
+If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the  *Standard release*  program. To learn more, see [Microsoft 365 release options](/office365/admin/manage/release-options-in-office-365). 
    
    > [!TIP]
    > It takes some time to build personalized Delve views for users in your organization. If you opt in to the targeted release program just before the start of a weekend, it's more likely that people have a good Delve experience at the start of the next work week. 

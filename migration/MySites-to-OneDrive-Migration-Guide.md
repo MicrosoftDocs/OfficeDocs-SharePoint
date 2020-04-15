@@ -28,7 +28,7 @@ Most migrations fall into regular phases as follows. Proven success factors for 
 
 |**Migration planning**|**Assess and remediate**|**Prepare your OneDrive environment**|**Migrate**|**User onboarding**|
 |:-----|:-----|:-----|:-----|:-----|
-|What content goes where<br><br>Understanding permissions vs Sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Run SMAT<br><br>Assess key areas<br><br>Remediate issues|Pre-provision Office 365 and users|Migration steps<br><br>Configure SharePoint Hybrid<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted<br><br>Provide documentation for making the switch|
+|What content goes where<br><br>Understanding permissions vs Sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Run SMAT<br><br>Assess key areas<br><br>Remediate issues|Pre-provision Microsoft 365 and users|Migration steps<br><br>Configure SharePoint Hybrid<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted<br><br>Provide documentation for making the switch|
 
 ## Migration planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:

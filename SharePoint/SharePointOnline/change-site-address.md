@@ -30,8 +30,8 @@ description: "Learn how to change the URL of a SharePoint site."
 
 As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
 
-- Office 365 group-connected team sites
-- Modern team sites that don't belong to an Office 365 group
+- Microsoft 365 group-connected team sites
+- Modern team sites that don't belong to an Microsoft 365 group
 - Communication sites
 - Classic team sites
 
@@ -127,7 +127,7 @@ If users have a notebook open during the site address change, they'll see a note
 
 Users don't need to sign in again or take any other action.
 
-**Teams (for Office 365 group-connected sites)**<br>
+**Teams (for Microsoft 365 group-connected sites)**<br>
 After the site address is changed, users won't be able to view the team's files within the Teams app, but they can access them from Teams by selecting **Open in SharePoint**. This issue is actively being worked on and will be addressed soon. 
 
 **SharePoint mobile apps for Android and iOS**<br>

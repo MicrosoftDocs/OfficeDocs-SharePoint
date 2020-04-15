@@ -48,7 +48,7 @@ By using Yammer groups, you can create a workspace dedicated to a certain topic,
 - By using **private groups**, you can limit membership and participation to invitation or approval only from group administrators. You can hide private groups from the group's directory.
     
 > [!NOTE]
->Yammer groups aren't security principals like SharePoint groups, or Active Directory Domain Services (AD DS) groups, and synchronizing groups with AD DS isn't supported. With Yammer Enterprise, if you [Enforce Office 365 identity for Yammer users](/yammer/configure-your-yammer-network/enforce-office-365-identity), groups can be [Yammer and Office 365 Groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups). 
+>Yammer groups aren't security principals like SharePoint groups, or Active Directory Domain Services (AD DS) groups, and synchronizing groups with AD DS isn't supported. With Yammer Enterprise, if you [Enforce Microsoft 365 identity for Yammer users](/yammer/configure-your-yammer-network/enforce-office-365-identity), groups can be [Yammer and Microsoft 365 Groups](/yammer/manage-yammer-groups/yammer-and-office-365-groups). 
   
 ## Yammer users
 
@@ -60,7 +60,7 @@ Yammer users exist in a limited number of states, as shown in the following diag
   
 ## See also
 
-[About Yammer networks and Office 365 organizations](/yammer/configure-your-yammer-network/yammer-and-office-365)
+[About Yammer networks and Microsoft 365 organizations](/yammer/configure-your-yammer-network/yammer-and-office-365)
 
 [Create and manage an external network in Yammer](/yammer/work-with-external-users/create-and-manage-an-external-network)
 

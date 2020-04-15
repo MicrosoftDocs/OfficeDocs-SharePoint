@@ -30,7 +30,7 @@ Every script that runs in a SharePoint page (whether it's an HTML page in a docu
   
 - Scripts have access to everything the user has access to.
     
-- Scripts can access content across several Office 365 services and even beyond with Microsoft Graph integration.
+- Scripts can access content across several Microsoft 365 services and even beyond with Microsoft Graph integration.
     
 ## You can't audit the insertion of script
 
@@ -42,7 +42,7 @@ As a global admin, security admin, or SharePoint admin, you can allow or block c
     
 - Who inserted the code
     
-Any user who has "Add and Customize Pages" permission (part of the Design and Full Control permission levels) to any page or document library can insert code that can potentially have a powerful effect on all users and resources in the organization. The script has access to more than just the page or site - it can access content across all site collections and other Office 365 services in the organization. There are no boundaries for executing script. For info about site activity you can audit, see [Configure audit settings for a site collection](https://support.office.com/article/a9920c97-38c0-44f2-8bcb-4cf1e2ae22d2).
+Any user who has "Add and Customize Pages" permission (part of the Design and Full Control permission levels) to any page or document library can insert code that can potentially have a powerful effect on all users and resources in the organization. The script has access to more than just the page or site - it can access content across all site collections and other Microsoft 365 services in the organization. There are no boundaries for executing script. For info about site activity you can audit, see [Configure audit settings for a site collection](https://support.office.com/article/a9920c97-38c0-44f2-8bcb-4cf1e2ae22d2).
   
 ## You can't block or remove inserted script
 

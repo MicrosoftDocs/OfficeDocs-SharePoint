@@ -24,10 +24,10 @@ description: "Learn how to allow or prevent users from creating their own sites 
 
 # Manage site creation in SharePoint
 
-As a global or SharePoint admin in Microsoft 365, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and [Office 365 group-connected team sites](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+As a global or SharePoint admin in Microsoft 365, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and [Microsoft 365 group-connected team sites](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
   
 >[!NOTE]
->Disabling site creation for users does not remove their ability to create Office 365 groups or resources, such as Microsoft Teams, which rely on a group. When an Office 365 group is created, a SharePoint site is also created. To restrict creation of Office 365 groups and the resources that rely on groups see [Manage who can create Office 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
+>Disabling site creation for users does not remove their ability to create Microsoft 365 groups or resources, such as Microsoft Teams, which rely on a group. When an Microsoft 365 group is created, a SharePoint site is also created. To restrict creation of Microsoft 365 groups and the resources that rely on groups see [Manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
   
 ## Manage site creation in the new SharePoint admin center
 
@@ -43,9 +43,9 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
 3. Select **Let users create sites from the SharePoint start page and OneDrive** if you want users to be able to create sites from these services.
 
     > [!NOTE]
-    > Even if you clear this check box, users may be able to create Office 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Office 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
+    > Even if you clear this check box, users may be able to create Microsoft 365 groups from other places in Microsoft 365. Each group always comes with a team site. [Learn how to manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-4. Select to create Office 365 group-connected team sites under /sites or /teams, select the default time zone and storage limit for new sites.
+4. Select to create Microsoft 365 group-connected team sites under /sites or /teams, select the default time zone and storage limit for new sites.
 
 5. Select **Save**.
  
@@ -64,7 +64,7 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
     - **A classic team subsite**: Use this option to allow users to create only default classic sites or sites from your custom form. Specify where sites are created, and whether a site classification or secondary contact is required. To specify a custom form, enter the URL for the custom form in the **Use the form at this URL** box. 
     
     > [!NOTE]
-    > For info about classifying Office 365 groups, see [Manage Office 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
+    > For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
   
 4. Under **Subsite creation**, on the Site contents page, to create a new subsite, specify whether users can select **New** > **Subsite**. 
 

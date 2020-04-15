@@ -28,7 +28,7 @@ Using the steps below as a template, create your own custom guidance for site ow
 - Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
 
 **Sample text:**</br>
-*A SharePoint site is designed to be a powerful tool for team collaboration and communication. [enter your IT/productivity service org] administers the Office 365 service your site is built on. The goal is to make it easy to accomplish your business goals.*</br>
+*A SharePoint site is designed to be a powerful tool for team collaboration and communication. [enter your IT/productivity service org] administers the Microsoft 365 service your site is built on. The goal is to make it easy to accomplish your business goals.*</br>
 
 
  
@@ -126,10 +126,10 @@ Using the steps below as a template, create your own custom guidance for site ow
 ## ![Alt image text](media/policy.png "Policy")   Site lifecycle policy
 
 **Guidance:**</br>
-- Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Office 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.
+- Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Microsoft 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.
 - Setting this policy requires Microsoft 365 global admin permissions.
 - Does your organization take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.
 
 
 **Resources:** </br>
-- [Office 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide)
+- [Microsoft 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide)

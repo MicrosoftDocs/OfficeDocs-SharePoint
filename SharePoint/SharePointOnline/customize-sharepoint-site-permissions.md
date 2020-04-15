@@ -137,7 +137,7 @@ If you have customized a permission level or created a new permission level, you
 6. Click **OK**.
 
 > [!NOTE]
-> Permissions for the default SharePoint groups (Owners, Members, and Visitors) for Team sites that are connected to an Office 365 group can't be modified.
+> Permissions for the default SharePoint groups (Owners, Members, and Visitors) for Team sites that are connected to an Microsoft 365 group can't be modified.
 
 ### Add, change, or remove a site collection administrator
 <a name="__toc340230108"> </a>

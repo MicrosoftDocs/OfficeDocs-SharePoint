@@ -692,12 +692,12 @@ Data shared with a user by another user appears in the **Shared with me** folder
 
 The Mover app silences notifications during the migration to prevent users from being spammed.
 
-### What happens to data shared to Office 365 Groups?
+### What happens to data shared to Microsoft 365 Groups?
 
-Data shared to an Office 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Office 365 Group.
+Data shared to an Microsoft 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Microsoft 365 Group.
 
 >[!Note]
->This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
+>This is a limitation of Microsoft 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
 
 After the user has logged in:
 
@@ -705,7 +705,7 @@ After the user has logged in:
 - Scroll down the folder listings to **Groups**.
   - If the available groups are not visible, to open the group directory, select the small arrow beside the **Groups** listing.
 - Select the desired group.
-From here, the left-hand menu should change, enabling you to open and edit **Files/Notes** within the selected Office 365 Group.
+From here, the left-hand menu should change, enabling you to open and edit **Files/Notes** within the selected Microsoft 365 Group.
 
 ### What SharePoint site formats are supported?
 
