@@ -50,7 +50,7 @@ At least 24 hours before you start migration, do the following:
 2. Scroll down to "Custom Script".
 3. Select both of the following:</br>
 *Allow users to run custom script on personal sites*</br>
-*Allow users to run customer script on self-service created sites*
+*Allow users to run custom script on self-service created sites*
 
 Leave these settings in place for the duration of your migration.
 
