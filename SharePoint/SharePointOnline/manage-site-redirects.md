@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article contains information on how to manage site redirects in SharePoint. You'll learn, how to view and delete site redirects."
+description: "This article contains information on how to manage site redirects in SharePoint. You'll learn how to view and delete site redirects."
 ---
 
 # Manage site redirects 
