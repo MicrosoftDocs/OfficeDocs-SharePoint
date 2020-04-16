@@ -21,7 +21,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 3eff17b9-c709-462f-946c-17719af68aca
-description: "Learn how to query, and set file and folder states when you use OneDrive Files On-Demand."
+description: "Learn how to query and set file and folder states when you use OneDrive Files On-Demand."
 ---
 
 # Query and set Files On-Demand states
