@@ -1,5 +1,5 @@
 ---
-title: "Set up a secure file collaboration environment - SharePoint Online"
+title: "Migrate file shares to Office 365 SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
