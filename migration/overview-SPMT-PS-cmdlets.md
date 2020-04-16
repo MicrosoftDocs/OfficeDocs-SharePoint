@@ -21,7 +21,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn how the new Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint Online."
+description: "Learn how the Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint Online."
 ---
 
 # Migrate to SharePoint Online using PowerShell
