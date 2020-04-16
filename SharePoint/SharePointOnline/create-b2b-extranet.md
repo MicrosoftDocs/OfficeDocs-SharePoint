@@ -15,7 +15,6 @@ ms.collection:
 - Ent_O365_Hybrid
 - M365-collaboration
 ms.custom:
-- seo-marvel-mar2020
 search.appverid:
 - SPO160
 - MOE150
