@@ -15,7 +15,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
-description: "This article is a guide on OneDrive for enterprises. Learn about features, planning, configuration, deployment, and management in OneDrive for enterprises."
+description: "This article is a guide for enterprises on using OneDrive. Learn about features, planning, configuration, deployment, and management of OneDrive."
 ---
 
 # OneDrive guide for enterprises
