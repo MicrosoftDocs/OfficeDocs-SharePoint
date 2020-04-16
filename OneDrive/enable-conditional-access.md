@@ -20,7 +20,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 028d73d7-4b86-4ee0-8fb7-9a209434b04e
-description: "In this article, you will learn how to enable conditional access in the new OneDrive sync app for Windows."
+description: "In this article, you'll learn how to enable conditional access in the new OneDrive sync app for Windows."
 ---
 
 # Enable conditional access support in the OneDrive sync app for Windows
