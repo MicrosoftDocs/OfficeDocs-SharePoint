@@ -113,7 +113,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
     
 - The ability to restore sites individually
 
-- The ability to permanently delete sites, except sites connected to an Microsoft 365 group
+- The ability to permanently delete sites, except sites connected to a Microsoft 365 group
     
 ### Sharing page
   

@@ -28,7 +28,7 @@ A home site is a [communication site](https://support.office.com/article/94A3342
 ) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
 
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see the feature described in this article.
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-microsoft-365). This means that you might not yet see the feature described in this article.
 
 ## Home site capabilities
 

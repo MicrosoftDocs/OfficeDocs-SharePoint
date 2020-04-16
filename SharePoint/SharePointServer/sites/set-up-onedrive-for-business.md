@@ -25,7 +25,7 @@ description: "Learn the steps needed to set up OneDrive for Business in a ShareP
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> This article describes how to set up OneDrive for Business in a SharePoint Server on-premises environment, and does not describe OneDrive for Business in an Microsoft 365 environment. For more info about administering OneDrive for Business, see [OneDrive for Business admin help](https://go.microsoft.com/fwlink/p/?LinkId=824831). 
+> This article describes how to set up OneDrive for Business in a SharePoint Server on-premises environment, and does not describe OneDrive for Business in a Microsoft 365 environment. For more info about administering OneDrive for Business, see [OneDrive for Business admin help](https://go.microsoft.com/fwlink/p/?LinkId=824831). 
   
 When setting up OneDrive for Business in your SharePoint Server on-premises environment, an IT-administrator will need to go through the following steps: 
   

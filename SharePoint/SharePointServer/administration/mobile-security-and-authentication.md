@@ -103,17 +103,17 @@ The following tables detail the authentication types supported for browsers, One
 
 |**Authentication type**|**Description**|**Supported**|**Administrator type required for configuration**|
 |:-----|:-----|:-----|:-----|
-|**Org-ID** <br/> |Organizations with an Microsoft 365 or SharePoint Online organization without any federation.  <br/> |Yes  <br/> |Global admin  <br/> |
+|**Org-ID** <br/> |Organizations with a Microsoft 365 or SharePoint Online organization without any federation.  <br/> |Yes  <br/> |Global admin  <br/> |
 |**ADFS and Org-ID federation** <br/> |Organizations with a hybrid Microsoft 365 or SharePoint Online organization with users federated from an on-premises directory.  <br/> |Yes  <br/> |Global admin plus the on-premises network administrator plus the SharePoint administrator  <br/> |
 |**Windows authentication (NTLM)** <br/> |Organizations with a SharePoint environment configured to allow NTLM claims-based Windows authentication.  <br/> |Yes  <br/> |SharePoint administrator  <br/> |
 |**Forms-based authentication (FBA)** <br/> |Organizations with a SharePoint environment configured to allow Forms-based authentication or other compatible claims-based authentication via a standard web control.  <br/> |Yes  <br/> |SharePoint administrator  <br/> |
-|**Qualified non-ADFS identity providers** <br/> |Organizations with an Microsoft 365 or SharePoint Online environment configured to allow user sign-in that is federated with an identity provider qualified for rich clients in the [Works with Microsoft 365 - Identity program](https://go.microsoft.com/fwlink/p/?LinkId=511982).  <br/> |Yes  <br/> |SharePoint administrator plus the on-premises Network administrator or Global admin (in some organizations the Global admin is a requirement, not an option.)  <br/> |
+|**Qualified non-ADFS identity providers** <br/> |Organizations with a Microsoft 365 or SharePoint Online environment configured to allow user sign-in that is federated with an identity provider qualified for rich clients in the [Works with Microsoft 365 - Identity program](https://go.microsoft.com/fwlink/p/?LinkId=511982).  <br/> |Yes  <br/> |SharePoint administrator plus the on-premises Network administrator or Global admin (in some organizations the Global admin is a requirement, not an option.)  <br/> |
 |**All other non-ADFS identity providers** <br/> |Organizations with a SharePoint environment configured to allow a non-ADFS identity provider.  <br/> |No  <br/> |SharePoint administrator plus the on-premises network administrator  <br/> |
 |**Kerberos authentication** <br/> |Organizations with a SharePoint environment configured to support Kerberos authentication.  <br/> |No  <br/> |SharePoint administrator plus the on-premises network administrator  <br/> |
 |**Basic authentication** <br/> |Organizations with a SharePoint environment configured to support Basic authentication.  <br/> |No  <br/> |SharePoint administrator plus the on-premises network administrator  <br/> |
    
 > [!NOTE]
-> If you're an Microsoft 365 multi-organization user, you can connect from the OneDrive for Business app in any network environment, including Wi-Fi and cellular data. If you're not an Microsoft 365 multi-organization user, you can connect only when using your organization's on-site Wi-Fi network. If you're unsure which user you are, contact your SharePoint admin. 
+> If you're a Microsoft 365 multi-organization user, you can connect from the OneDrive for Business app in any network environment, including Wi-Fi and cellular data. If you're not a Microsoft 365 multi-organization user, you can connect only when using your organization's on-site Wi-Fi network. If you're unsure which user you are, contact your SharePoint admin. 
   
 **Table: Mobile authentication support matrix for Office Hub**
 

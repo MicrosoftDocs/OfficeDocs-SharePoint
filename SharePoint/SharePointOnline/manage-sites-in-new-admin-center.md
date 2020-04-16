@@ -27,7 +27,7 @@ The Active sites page of the new SharePoint admin center lets you view the Share
 ![Manage sites in the new SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
   
 > [!NOTE]
-> The Active sites page lists the root website for each site collection. Subsites aren't included in the list. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different. 
+> The Active sites page lists the root website for each site collection. Subsites aren't included in the list. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-microsoft-365). This means that you might not yet see some features described in this article, or they might look different. 
   
 To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, select "Open it now" in the upper right, and then select **Active sites**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-new-admin-center.md).
   

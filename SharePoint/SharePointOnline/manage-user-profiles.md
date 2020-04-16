@@ -39,7 +39,7 @@ Most organizations don't need to change any user profile settings in the SharePo
 ## Create and edit custom user properties
 <a name="customuserproperties"> </a>
 
-In Microsoft 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Microsoft 365 identity and Azure Active Directory](/microsoft365/enterprise/about-office-365-identity). SharePoint receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint](add-and-edit-user-profile-properties.md).
+In Microsoft 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Microsoft 365 identity and Azure Active Directory](/microsoft365/enterprise/about-microsoft-365-identity). SharePoint receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint](add-and-edit-user-profile-properties.md).
   
 > [!NOTE]
 > Instead of creating user sub-types in the SharePoint admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups) or using the Azure AD admin center to [create groups with dynamic membership](/azure/active-directory/users-groups-roles/groups-dynamic-membership).

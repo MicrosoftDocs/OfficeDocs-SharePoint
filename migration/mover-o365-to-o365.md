@@ -580,7 +580,7 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
 
-### Troubleshooting an Microsoft 365 connector
+### Troubleshooting a Microsoft 365 connector
 
 #### App access error
 
@@ -588,7 +588,7 @@ If you encounter an error on authorization, try signing out of any Microsoft acc
 
 #### Global Admin account provisioning
 
-Your Global Admin must have an Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you also assigned an Microsoft 365 license, and walked through the Microsoft 365 setup process.
+Your Global Admin must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you also assigned a Microsoft 365 license, and walked through the Microsoft 365 setup process.
 
 #### User provisioning
 
@@ -612,7 +612,7 @@ Our app requires a Global Administrator for authorization. The following table l
 
 If you are not already connected after you have authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
-![execution select source](media/execution-select-office-365-source.png)
+![execution select source](media/execution-select-microsoft-365-source.png)
 
 >[!Note]
 >SharePoint Online displays a user count when connecting to the **Transfer Wizard**. This does not represent the actual site count. The SharePoint Online connector counts both individual and team sites. However, the SharePoint Online connector only works with team sites, and does not work with individual user sites.
@@ -621,7 +621,7 @@ If you are not already connected after you have authorized your source, select *
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
+![Execution select Microsoft 365 destination](media/execution-select-microsoft-365-destination.png)
 
 #### Creating a new migration
 

@@ -44,7 +44,7 @@ Before you configure the SharePoint Hybrid Auditing feature, ensure you are:
     
 - A service application administrator (Full Control) for the User Profile Service 
     
-- An Microsoft 365 Global Administrator or a SharePoint Online Administrator 
+- a Microsoft 365 Global Administrator or a SharePoint Online Administrator 
     
 - Logged into Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm 
     

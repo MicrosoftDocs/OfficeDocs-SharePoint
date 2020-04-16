@@ -694,7 +694,7 @@ The Mover app silences notifications during the migration to prevent users from 
 
 ### What happens to data shared to Microsoft 365 Groups?
 
-Data shared to an Microsoft 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Microsoft 365 Group.
+Data shared to a Microsoft 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of a Microsoft 365 Group.
 
 >[!Note]
 >This is a limitation of Microsoft 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
@@ -893,7 +893,7 @@ If you're a **Global Admin**: Continue with Steps 6 – 9.
 
 9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
 
-### Troubleshooting an Microsoft 365 Connector
+### Troubleshooting a Microsoft 365 Connector
 
 #### App access error
 
@@ -901,7 +901,7 @@ If you encounter an error on authorization, try signing out of any Microsoft acc
 
 #### Global Admin account provisioning
 
-Your Global Admin user must have an Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you are also assigned an Microsoft 365 license and walked through the Microsoft 365 setup process.
+Your Global Admin user must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you are also assigned a Microsoft 365 license and walked through the Microsoft 365 setup process.
 
 #### User provisioning
 
@@ -934,7 +934,7 @@ If you are not already connected after you have authorized your source, select *
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
+![Execution select Microsoft 365 destination](media/execution-select-microsoft-365-destination.png)
 
 #### Creating a new migration
 

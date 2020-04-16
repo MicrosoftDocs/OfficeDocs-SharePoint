@@ -169,7 +169,7 @@ This policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\AllowTenantList] "1111-2222-3333-4444"
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-microsoft-365-organization-id.md))
   
 This setting takes priority over [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations). Do not enable both settings at the same time.
 
@@ -198,7 +198,7 @@ This policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\BlockTenantList] "1111-2222-3333-4444"﻿
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-microsoft-365-organization-id.md))
   
 This setting does NOT work if you have [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations) enabled. Do not enable both settings at the same time.
   
@@ -347,7 +347,7 @@ Enabling this policy sets the following registry key:
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMOptInWithWizard"="1111-2222-3333-4444"
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-microsoft-365-organization-id.md))
 
 For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
@@ -392,7 +392,7 @@ Enabling this policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DiskSpaceCheckThresholdMB]"1111-2222-3333-4444"=dword:0005000
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md) and 0005000 sets a threshold of 5000 MB).
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-microsoft-365-organization-id.md) and 0005000 sets a threshold of 5000 MB).
   
 ### Set the sync app update ring
 <a name="GPOSetUpdateRing"> </a>
@@ -433,7 +433,7 @@ Enabling this policy sets the following registry keys:
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptIn"="1111-2222-3333-4444"
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+(where "1111-2222-3333-4444" is the [tenant ID](find-your-microsoft-365-organization-id.md))
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"
   
@@ -650,7 +650,7 @@ For info about estimating the network bandwidth you need for sync, see [Network 
 
 This setting lets you block users from changing the location of the OneDrive folder on their computer.
   
-To use this setting, in the **Options** box, select **Show** to enter your [tenant ID](find-your-office-365-tenant-id.md), and enter 1 to enable the setting, or enter 0 to disable it.
+To use this setting, in the **Options** box, select **Show** to enter your [tenant ID](find-your-microsoft-365-organization-id.md), and enter 1 to enable the setting, or enter 0 to disable it.
   
 If you enable this setting, the **Change location** link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
   

@@ -39,7 +39,7 @@ Office Online Server is an Office server product that lets users access their do
   
 ![The illustration shows information flowing from a search result in the Search Center in Office 365, via an Office Web Apps Server, to SharePoint Server 2013 content, back via the Office Web Apps Server, to a preview of the content in the search center.](../media/2377b7af-2800-437c-8431-b903e8e30482.png)
   
-1. In an Microsoft 365 Search Center, a user hovers over a search result for a Word document that's stored on a SharePoint Server on-premises content farm.
+1. In a Microsoft 365 Search Center, a user hovers over a search result for a Word document that's stored on a SharePoint Server on-premises content farm.
     
 2. The request to show a preview of the document goes to the Office Online Server. You have to ensure that the Office Online Server is accessible from where the user is. For example, if you want to support users that are outside the corporate network, you can make the Office Online Server accessible through a reverse proxy.
     

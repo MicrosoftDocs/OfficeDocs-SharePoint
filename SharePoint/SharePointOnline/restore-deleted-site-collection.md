@@ -47,7 +47,7 @@ In the new SharePoint admin center, you can delete and restore all the new types
 3. Select **Restore**. (If you don't see the Restore button, make sure only one site is selected. The button won't appear if multiple sites are selected.)
  
 > [!NOTE]
-> Restoring a site that belongs to an Microsoft 365 group restores the Microsoft 365 group and all its resources. Note that the other group resources are retained for only 30 days, whereas the site is retained for 93. If the other group resources have been deleted, you can use the PowerShell command [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite) to permanently delete the site. <br>For info about permanently deleting sites from the Deleted sites page, see [Permanently delete a deleted site](delete-site-collection.md#permanently-delete-a-site).
+> Restoring a site that belongs to a Microsoft 365 group restores the Microsoft 365 group and all its resources. Note that the other group resources are retained for only 30 days, whereas the site is retained for 93. If the other group resources have been deleted, you can use the PowerShell command [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite) to permanently delete the site. <br>For info about permanently deleting sites from the Deleted sites page, see [Permanently delete a deleted site](delete-site-collection.md#permanently-delete-a-site).
   
   
 ## See also

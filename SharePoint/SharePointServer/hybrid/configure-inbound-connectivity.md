@@ -135,7 +135,7 @@ If you want to configure a site collection strategy by using a host-named site c
     
 5. Create an A record in the on-premises DNS.
     
-For more information about site collection strategy decisions, see the [Choose a site collection strategy](plan-connectivity-from-office-365-to-sharepoint-server.md#scstrategy) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md).
+For more info about site collection strategy decisions, see the [Choose a site collection strategy](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#scstrategy) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md).
   
 #### Ensure that the primary web application and root site collection exist
 <a name="hn_webapp"> </a>
@@ -262,7 +262,7 @@ If you want to configure a site collection strategy by using a path-based web ap
 > [!NOTE]
 > When you configure a site collection strategy without AAM, the public URL of the primary web application must be identical to the External URL. 
   
-For more info, see the [Choose a site collection strategy](plan-connectivity-from-office-365-to-sharepoint-server.md#scstrategy) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md).
+For more info, see the [Choose a site collection strategy](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#scstrategy) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md).
   
 #### Ensure that the primary web application exists
 <a name="woaam_webapp"> </a>
@@ -343,7 +343,7 @@ The following video demonstrates how a site collection strategy works with a pat
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/273c8df4-baf4-4896-b142-aaab0eb4316f?autoplay=false]
 #### Ensure that the primary web application exists
 
-You can use an existing web application as the primary web application, or you can create one. If you haven't made this decision yet, refer to [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) and decide before you go any further. 
+You can use an existing web application as the primary web application, or you can create one. If you haven't made this decision yet, refer to [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md) and decide before you go any further. 
   
 If during planning, you decided which existing web application to use as the primary web application, its URL should be recorded in the **Primary web application URL** row of Table 5c of the worksheet. If so, skip ahead to [Extend the primary web application](configure-inbound-connectivity.md#waam_extendwebapp). Otherwise, to create a web application to use as the primary web application, use the procedures in [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). The SharePoint hybrid configuration is not affected by the initial configuration of this web application when you configure this site collection strategy. This is because you'll apply the settings that you need for hybrid when you extend the web application a bit later. So you can use any settings that you want when you create a web application.
   

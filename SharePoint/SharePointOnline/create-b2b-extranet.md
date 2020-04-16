@@ -36,7 +36,7 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
 
 ## Why use Microsoft 365 for a B2B extranet?
 
- **Time-to-value and Cost savings:** An Microsoft 365 B2B extranet eliminates the need for creating a costly on-premises extranet sites. No additional hardware is required and using Microsoft 365 greatly reduces the resource and labor costs. Your IT department can focus on more important tasks than creating and maintaining extranet infrastructure. 
+ **Time-to-value and Cost savings:** a Microsoft 365 B2B extranet eliminates the need for creating a costly on-premises extranet sites. No additional hardware is required and using Microsoft 365 greatly reduces the resource and labor costs. Your IT department can focus on more important tasks than creating and maintaining extranet infrastructure. 
   
  **Secure sharing:** Microsoft 365 B2B extranet provides a highly secure sharing experience with the IT governance and policies that you require, including: 
   
@@ -67,7 +67,7 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
 
 To get started setting up a SharePoint extranet site:
   
-1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with an Microsoft 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
+1. Read [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site) if you want to limit your extranet to a site with a Microsoft 365 group, or [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team) if you want to include a team.
 
 2. Read [Create a B2B extranet with managed guests](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet) if you want to delegate guest access management to specific approvers in either your organization or the partner organization. 
     

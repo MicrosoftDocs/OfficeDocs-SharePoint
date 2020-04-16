@@ -28,7 +28,7 @@ On the **Permissions** tab, you can manage permissions for the site and also for
 
 Site admins (formerly called site collection administrators) have the highest level of SharePoint permissions. They have the same Full Control permissions of a site owner, plus they can do additional things, such as managing search, the recycle bin, and site collection features. They also have access to any items in the site, including in subsites, even if permissions inheritance has been broken.
 
-If there is an Microsoft 365 group connected to the site, then group owners are automatically included as site admins and group members are automatically included as site members. Managing site permissions through group membership is recommended over giving people permissions directly to the site. This allows for easier administration and consistent access for users across group resources.
+If there is a Microsoft 365 group connected to the site, then group owners are automatically included as site admins and group members are automatically included as site members. Managing site permissions through group membership is recommended over giving people permissions directly to the site. This allows for easier administration and consistent access for users across group resources.
 
 ### Microsoft 365 group owners
 
@@ -58,4 +58,4 @@ There are additional [permission levels](understanding-permission-levels.md) in 
 
 [External sharing overview](external-sharing-overview.md)
 
-[Overview of Microsoft 365 Groups for administrators](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups)
+[Overview of Microsoft 365 Groups for administrators](https://docs.microsoft.com/office365/admin/create-groups/microsoft-365-groups)

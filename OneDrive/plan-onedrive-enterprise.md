@@ -174,7 +174,7 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 |:-----|:-----|:-----|
 |Small business|Local installation|OneDrive admin center|
 |Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, OneDrive admin center, Intune mobile application management (MAM) or MDM|
-|Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy objects (GPOs), etc. |
+|Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy objects (GPOs), and so on. |
 
 Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees' computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
 
@@ -241,7 +241,7 @@ A variety of factors can impact the amount of network bandwidth used by OneDrive
 
 ### Multi-Geo
 
-If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed info about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](/microsoft365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed info about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](/microsoft365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365/).
 
 If you plan to deploy OneDrive Multi-Geo, there are two user scenarios:
 

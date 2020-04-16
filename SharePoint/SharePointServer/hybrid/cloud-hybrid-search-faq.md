@@ -80,7 +80,7 @@ The recommendation is to choose Cloud hybrid search for the following benefits.
 
 - Your users can use cloud capabilities such as Office Delve also for your on-premises content.
 
-- You no longer have to worry about the size of your search index, because your search index is in Microsoft 365. This means that the footprint of your SharePoint Server search farm is smaller, and your total cost of ownership for search is lower.
+- You no longer have to worry about the size of your search index, because your search index is in Office 365. This means that the footprint of your SharePoint Server search farm is smaller, and your total cost of ownership for search is lower.
 
 - You don't need to upgrade any of your existing installations of SharePoint to have enterprise search in the cloud because SharePoint Server supports crawling of existing SharePoint Server 2007 through SharePoint Server 2019 content farms.
 

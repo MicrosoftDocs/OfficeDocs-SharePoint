@@ -54,7 +54,7 @@ Learn more:
     
 - Your users automatically get the newest SharePoint Online search experience without your organization having to update your existing SharePoint servers.
     
-- You no longer have to worry about the size of your search index, because your search index is in Microsoft 365. This means that the footprint of your SharePoint Server search farm is smaller, and your total cost of ownership for search is lower.
+- You no longer have to worry about the size of your search index, because your search index is in Office 365. This means that the footprint of your SharePoint Server search farm is smaller, and your total cost of ownership for search is lower.
     
 - SharePoint Server 2013 supports crawling of existing SharePoint Server 2007 and SharePoint Server 2010 content farms.
     
@@ -71,7 +71,7 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
 
  **Search verticals** - Search verticals narrow search results to a specific set of content, for example to show only videos. If you currently use a search vertical in a search center in SharePoint Server, you have to recreate it in your search center in SharePoint Online in Microsoft 365. 
   
- **Site search** - Your existing search in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use search centers that are in the same environment as the search index, so searching from an Microsoft 365 search center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010 or SharePoint Server 2013, you can set up search in SharePoint Server to show hybrid results from your Microsoft 365 index. Because SharePoint Online in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint Online supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-microsoft-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
+ **Site search** - Your existing search in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use search centers that are in the same environment as the search index, so searching from a Microsoft 365 search center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010 or SharePoint Server 2013, you can set up search in SharePoint Server to show hybrid results from your Microsoft 365 index. Because SharePoint Online in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint Online supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-microsoft-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
   
  **eDiscovery search** - You might have to set up eDiscovery separately in SharePoint Server and in SharePoint Online in Microsoft 365. 
   

@@ -176,7 +176,7 @@ Site collections used for hybrid functionality must meet all these requirements,
 
 You can either use an existing web application or create one to use as the primary web application.
   
-If you prefer to manage the web application used for hybrid functionality independently or if your existing web application does not meet the requirements that are listed in the [Choose a site collection strategy](plan-connectivity-from-office-365-to-sharepoint-server.md#scstrategy) section, you should create a new web application. 
+If you prefer to manage the web application used for hybrid functionality independently or if your existing web application does not meet the requirements that are listed in the [Choose a site collection strategy](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#scstrategy) section, you should create a new web application. 
   
 |||
 |:-----|:-----|

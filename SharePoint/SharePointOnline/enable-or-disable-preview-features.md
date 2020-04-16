@@ -29,7 +29,7 @@ The **Preview Features** setting in the SharePoint admin center lets you enable 
 ![Preview Features setting in SharePoint Admin Center](media/cd0df213-4e8c-4636-bb87-c69879ff5919.png)
   
 > [!NOTE]
-> The **Preview Features** setting isn't related to the Targeted release option, which allows you to receive new updates and features as they become available. If you're interested in signing up for that, see [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-office-365).
+> The **Preview Features** setting isn't related to the Targeted release option, which allows you to receive new updates and features as they become available. If you're interested in signing up for that, see [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-microsoft-365).
   
 ## What the Preview Features setting enables
 

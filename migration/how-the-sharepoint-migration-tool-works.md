@@ -21,7 +21,7 @@ description: "The SharePoint Migration Tool provides a wizard-like experience, p
 
 # How the SharePoint Migration Tool works
 
- The SharePoint Migration Tool authenticates to the destination tenant after which you are prompted for the source file location and destination SPO site collection where you want the files to be migrated. After you submit the migration jobs by clicking **Migrate**, the scanning, packaging, uploading, and importing steps are performed in parallel across all the files provided for migration.
+ The SharePoint Migration Tool authenticates to the destination tenant after which you are prompted for the source file location and destination SPO site collection where you want the files to be migrated. After you submit the migration jobs by selecting **Migrate**, the scanning, packaging, uploading, and importing steps are performed in parallel across all the files provided for migration.
  
 >[!Note]
 > Use a Site Collection administrator account on the target SharePoint Online site when prompted for credentials.
@@ -40,7 +40,7 @@ description: "The SharePoint Migration Tool provides a wizard-like experience, p
 > If multiple authentication methods, including NTLM or Kerberos, are enabled in the on-premises SharePoint Web Application, NTLM and Kerberos authentication are not supported by the SharePoint Migration Tool. Please use a secondary form of authentication or convert the Web Application to use NTLM and/or Kerberos authentication only.<br>
 <br>
     
-**SCAN**: After you click **Migrate**, a scan will always be performed on every file, even if you decide not to migrate your files (see Advanced Settings). The scan verifies that there is access to the data source and write access to the SharePoint Online destination. It also scans the files for known potential issues.<br>
+**SCAN**: After you select **Migrate**, a scan will always be performed on every file, even if you decide not to migrate your files (see Advanced Settings). The scan verifies that there is access to the data source and write access to the SharePoint Online destination. It also scans the files for known potential issues.<br>
 
 **PACKAGING:** In the packaging stage, a content package is created that contains a manifest.<br>
  

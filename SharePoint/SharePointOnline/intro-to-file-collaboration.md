@@ -52,7 +52,7 @@ When users keep files on their local device or on a network share, they're out o
 
 ### Enterprise-grade security
 
-Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](https://docs.microsoft.com/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
+Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/microsoft-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](https://docs.microsoft.com/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
 
 - **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [More info](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)
 
@@ -174,7 +174,7 @@ In the new SharePoint admin center, you can see [SharePoint activity and usage r
 
 ### Multi-geo
 
-If you're a multinational organization with data residency requirements, you can use Multi-Geo in Microsoft 365 to specify where files are stored. For information, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you're a multinational organization with data residency requirements, you can use Multi-Geo in Microsoft 365 to specify where files are stored. For info, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365/).
 
 ### Unified search
 
@@ -230,7 +230,7 @@ To prepare for file collaboration in Microsoft 365, configure the following sett
 
 ### Site creation
 
-When an Microsoft 365 group is created from anywhere within Microsoft 365, a SharePoint site is automatically created. You can let all users create groups, only some users, or you can block group creation and manage it centrally in your IT department. For info, see [Manage who can create Office groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). You can also use a naming policy for groups and set an expiration period so that groups that are no longer being used will be deleted. For more info, see [Plan for governance in Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide). If you allow users to create groups, you can also allow them to create team sites from the SharePoint start page and from OneDrive and manage default site settings. For info, see [Manage site creation](https://docs.microsoft.com/sharepoint/manage-site-creation).
+When a Microsoft 365 group is created from anywhere within Microsoft 365, a SharePoint site is automatically created. You can let all users create groups, only some users, or you can block group creation and manage it centrally in your IT department. For info, see [Manage who can create Office groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). You can also use a naming policy for groups and set an expiration period so that groups that are no longer being used will be deleted. For more info, see [Plan for governance in Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide). If you allow users to create groups, you can also allow them to create team sites from the SharePoint start page and from OneDrive and manage default site settings. For info, see [Manage site creation](https://docs.microsoft.com/sharepoint/manage-site-creation).
 
 ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
@@ -242,7 +242,7 @@ To set up external sharing in your organization, you need to make sure that sett
 
 ### Security
 
-- Design and deploy retention labels and DLP policies to protect sensitive and highly confidential files. [Learn how](https://docs.microsoft.com/microsoft-365/compliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
+- Design and deploy retention labels and DLP policies to protect sensitive and highly confidential files. [Learn how](https://docs.microsoft.com/microsoft-365/compliance/protect-sharepoint-online-files-with-microsoft-365-labels-and-dlp).
 
 - Block or limit access from unmanaged devices, sign out inactive users on unmanaged devices, or allow access from only specific IP address ranges. For info about setting up identity and device-access policies to protect content, see [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies).  
 

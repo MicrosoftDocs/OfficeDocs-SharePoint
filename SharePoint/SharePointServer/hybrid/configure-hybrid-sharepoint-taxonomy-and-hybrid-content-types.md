@@ -60,7 +60,7 @@ While the copy process preserves most user information associated with term sets
   
 - You can replace the Active Directory groups with individual users within your taxonomy groups. The individual users will be copied when you copy your taxonomy groups.
     
-- You can copy your taxonomy groups with the Active Directory groups in place. You will see a PowerShell warning and the Active Directory group assignments will be lost if you proceed. You can then assign an Microsoft 365 group in place of the Active Directory group after you've copied the taxonomy groups.
+- You can copy your taxonomy groups with the Active Directory groups in place. You will see a PowerShell warning and the Active Directory group assignments will be lost if you proceed. You can then assign a Microsoft 365 group in place of the Active Directory group after you've copied the taxonomy groups.
     
  **Copying taxonomy groups**
   

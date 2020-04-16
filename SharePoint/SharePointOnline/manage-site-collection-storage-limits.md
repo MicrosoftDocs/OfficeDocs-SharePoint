@@ -48,7 +48,7 @@ By default, your SharePoint storage is available in a central pool from which al
 If you prefer to fine tune the storage space allocated to each site, you can set your storage management option to "manual" and specify individual site storage limits. 
 
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-microsoft-365). This means that you might not yet see some features described in this article, or they might look different.
   
    
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
@@ -168,7 +168,7 @@ Send-MailMessage -SmtpServer $Smtp -To $To -From $From -Subject $Subject -Attach
   
   - **$path** is the file system path you want the CSV file to output to.
    
-  - **\<SmtpServer\>** is the name of your SMTP mail server. 
+  - **\<SmtpServer\>** is the name of your SharePoint Migration Tool mail server. 
     
   - **\<SenderEmailAddress\>** is the global admin or SharePoint admin account that appears in the From line in the warning email. 
     

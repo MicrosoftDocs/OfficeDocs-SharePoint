@@ -27,7 +27,7 @@ description: "Learn how to allow or prevent users from creating their own sites 
 As a global or SharePoint admin in Microsoft 365, you can let your users create and administer their own SharePoint sites, determine what kind of sites they can create, and specify the location of the sites. By default, users can create communication sites and [Microsoft 365 group-connected team sites](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
   
 >[!NOTE]
->Disabling site creation for users does not remove their ability to create Microsoft 365 groups or resources, such as Microsoft Teams, which rely on a group. When an Microsoft 365 group is created, a SharePoint site is also created. To restrict creation of Microsoft 365 groups and the resources that rely on groups see [Manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
+>Disabling site creation for users does not remove their ability to create Microsoft 365 groups or resources, such as Microsoft Teams, which rely on a group. When a Microsoft 365 group is created, a SharePoint site is also created. To restrict creation of Microsoft 365 groups and the resources that rely on groups see [Manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-microsoft-365). This means that you might not yet see some features described in this article, or they might look different.
   
 ## Manage site creation in the new SharePoint admin center
 
@@ -64,7 +64,7 @@ As a global or SharePoint admin in Microsoft 365, you can let your users create 
     - **A classic team subsite**: Use this option to allow users to create only default classic sites or sites from your custom form. Specify where sites are created, and whether a site classification or secondary contact is required. To specify a custom form, enter the URL for the custom form in the **Use the form at this URL** box. 
     
     > [!NOTE]
-    > For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-office-365-groups-with-powershell).
+    > For info about classifying Microsoft 365 groups, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/manage-microsoft-365-groups-with-powershell).
   
 4. Under **Subsite creation**, on the Site contents page, to create a new subsite, specify whether users can select **New** > **Subsite**. 
 

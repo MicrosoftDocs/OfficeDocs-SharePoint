@@ -23,7 +23,7 @@ ms.assetid: c33f0214-4201-4807-9e8f-574d8fd05849
 
 SharePoint is a powerful collaboration platform that lets you share and manage content, knowledge, and applications to empower teamwork. 
   
-SharePoint Server can be used on-premises or with an Microsoft 365 enterprise subscription to take advantage of all the latest features. Share common resources and applications on sites. Use search to discover information and expertise across your organization. And stay in the know with personalized news in SharePoint home and the SharePoint mobile apps.
+SharePoint Server can be used on-premises or with a Microsoft 365 enterprise subscription to take advantage of all the latest features. Share common resources and applications on sites. Use search to discover information and expertise across your organization. And stay in the know with personalized news in SharePoint home and the SharePoint mobile apps.
 
 To learn more, go to <a href="https://products.office.com/sharepoint/collaboration">Learn about SharePoint. </a>
   

@@ -36,7 +36,7 @@ Follow these steps in the order shown. If you already completed a step when you 
   
 |**Step**|**Description**|
 |:-----|:-----|
-|**1. [Configure Microsoft 365 for SharePoint hybrid](configure-office-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your user accounts.  <br/> |
+|**1. [Configure Microsoft 365 for SharePoint hybrid](configure-microsoft-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your user accounts.  <br/> |
 |**2. [Set up SharePoint services for hybrid environments](set-up-sharepoint-services-for-hybrid-environments.md)** <br/> |Configure the needed SharePoint services for hybrid search, including User Profiles, MySites, and the Application Management service.  <br/> |
 |**3. (SharePoint Server 2013 only)[Install Service Pack 1 for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=521936)** <br/> |Be sure you've installed at least Service Pack 1 on your SharePoint Server 2013 farm or the OneDrive for Business redirect option will not be available.  <br/> |
 |**4. [Redirect OneDrive for Business users to Microsoft 365](configure-hybrid-onedrive-for-business.md)** <br/> |Configure hybrid OneDrive for Business in the SharePoint Central Administration website.  <br/> |

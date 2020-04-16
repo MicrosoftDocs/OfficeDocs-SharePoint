@@ -31,7 +31,7 @@ description: "Learn how to change the URL of a SharePoint site."
 As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
 
 - Microsoft 365 group-connected team sites
-- Modern team sites that don't belong to an Microsoft 365 group
+- Modern team sites that don't belong to a Microsoft 365 group
 - Communication sites
 - Classic team sites
 

@@ -32,9 +32,9 @@ Go to the [home page of the new SharePoint admin center](https://admin.microsoft
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the home page.
 
 > [!NOTE]
-> [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
+> [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-microsoft-365). This means that you might not yet see some features described in this article, or they might look different.
   
-Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner.
+Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, in the lower-right corner, select **Feedback**.
 
 ## Open the new SharePoint admin center by default
 

@@ -42,7 +42,7 @@ The Delve Office 365 app is also enabled for modern authentication. For more inf
 ## Get new Delve features quicker
 <a name="BKMK_DelveFirstRelease"> </a>
 
-If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the  *Standard release*  program. To learn more, see [Office 365 release options](/office365/admin/manage/release-options-in-office-365). 
+If you want to receive new functionality in Delve before it's made available in standard releases, you can opt in to the  *Targeted release*  program. You'll receive new feature updates a minimum of two weeks before customers in the *Standard release* program. To learn more, see [Office 365 release options](/office365/admin/manage/release-options-in-office-365). 
    
    > [!TIP]
    > It takes some time to build personalized Delve views for users in your organization. If you opt in to the targeted release program just before the start of a weekend, it's more likely that people have a good Delve experience at the start of the next work week. 
@@ -314,7 +314,7 @@ Admins
 
 - [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles.md)
 
-- [Microsoft 365 integration with on-premises environments](/office365/enterprise/office-365-integration)
+- [Microsoft 365 integration with on-premises environments](/office365/enterprise/microsoft-365-integration)
 
 - [User Account Management](/office365/servicedescriptions/office-365-platform-service-description/user-account-management)
 
@@ -324,6 +324,6 @@ Admins
 
 - [Yammer - Admin Help](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 
-- [Office 365 Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
+- [Office 365 Plan Options](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-plan-options)
   
-- [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-office-365)
+- [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-microsoft-365)

@@ -63,7 +63,7 @@ To use OneDrive for Business, your users must have **Create Personal Site** and 
 ## Configure hybrid OneDrive for Business
 <a name="Configure"> </a>
 
-To configure hybrid OneDrive for Business, you must be both a SharePoint Server farm administrator and an Microsoft 365 global administrator. Perform these steps on a server in your SharePoint Server farm.
+To configure hybrid OneDrive for Business, you must be both a SharePoint Server farm administrator and a Microsoft 365 global administrator. Perform these steps on a server in your SharePoint Server farm.
   
  **To configure hybrid OneDrive for Business**
   
@@ -105,7 +105,7 @@ If you want to redirect only a specific set of your users from your on-premises 
 
 It can take up to a minute for the changes to be updated in the User Profile service application for your on-premises farm. Because the link may be stored in the user's browser cache, we recommend you wait 24 hours and then verify the links are working.
   
-To check that the links are working as expected, have one of the users in the audience that is using the Microsoft 365 option for OneDrive for Business sign in to your on-premises environment. From the user's personal site, have the user choose **OneDrive** from the navigation bar or app launcher. 
+To check that the links are working as expected, have one of the users in the audience that is using the Microsoft 365 option for OneDrive for Business sign in to your on-premises environment. From the user's personal site, and from the navigation bar or app launcher, have the user select **OneDrive**. 
   
 If the user is redirected to Microsoft 365 for OneDrive for Business, everything is working as expected.
   
@@ -114,7 +114,7 @@ If users want to browse to their OneDrive for Business directory directly, they 
 ## (Optional) Create a search vertical
 <a name="Verify"> </a>
 
-You can set up a search vertical so that you can search content stored in OneDrive for Business. The specific steps to set up the search vertical are in the article [Set up Search of OneDrive for Business from SharePoint Server](set-up-search-of-onedrive-for-business-in-office-365-from-sharepoint-server.md).
+You can set up a search vertical so that you can search content stored in OneDrive for Business. The specific steps to set up the search vertical are in the article [Set up Search of OneDrive for Business from SharePoint Server](set-up-search-of-onedrive-for-business-from-sharepoint-server.md).
   
 ## (Optional) Customize the Microsoft 365 navigation experience (SharePoint Server 2013)
 <a name="CustomNav"> </a>
@@ -126,13 +126,13 @@ Now that your users are set up to be redirected to Office 365, you can customize
   
  **To customize the navigation bar**
   
-1. Log on to Office 365 with a tenant administrator account.
+1. Log on to Office 365 with an organization administrator account.
     
 2. On the **Admin** tab, select **SharePoint**.
     
 3. On the left, select **Settings**. 
     
-4. In the **Top Navigation Bar User Experience** section, specify the links to show or hide on the navigation bar. 
+4. In the **Top Navigation Bar User Experience** section, specify the links to show or hide on the nav bar. 
     
 5. To save the settings and update the navigation bar, select **OK**. 
     

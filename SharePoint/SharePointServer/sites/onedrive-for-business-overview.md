@@ -25,7 +25,7 @@ description: "Learn about OneDrive for Business in SharePoint Server."
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 > [!NOTE]
-> While OneDrive for Business is used in both SharePoint Server on-premises and Microsoft 365 environments, this article describes how it works in SharePoint Server. For more information about how it works in an Microsoft 365 environment, see [What is OneDrive for Business?](https://go.microsoft.com/fwlink/?LinkId=747076). 
+> While OneDrive for Business is used in both SharePoint Server on-premises and Microsoft 365 environments, this article describes how it works in SharePoint Server. For more information about how it works in a Microsoft 365 environment, see [What is OneDrive for Business?](https://go.microsoft.com/fwlink/?LinkId=747076). 
   
 OneDrive for Business is the default document library in a user's [What's new in social computing in SharePoint Server 2013](/sharepoint/what-s-new/what-s-new#MySites) in SharePoint Server or in Microsoft 365. The contents of this library can optionally be synchronized with one or more of the user's computers or devices. 
   
