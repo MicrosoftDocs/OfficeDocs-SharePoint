@@ -74,10 +74,10 @@ Copying taxonomy groups is done using the Copy-SPTaxonomyGroups PowerShell cmdle
 
 - Taxonomy groups in SharePoint Server to be copied to SharePoint Online.
     
-- Your Microsoft 365 global administrator credentials.
+- Your Microsoft 365 global admin credentials.
 
 >[!NOTE] 
-> If you receive an HTTP 400 error when attempting to use the `Copy-SPTaxonomyGroups` cmdlet with correct credentials, switch to a cloud-based global administrator instead of an Active Directory synchronized account.
+> If you receive an HTTP 400 error when attempting to use the `Copy-SPTaxonomyGroups` cmdlet with correct credentials, switch to a cloud-based global admin instead of an Active Directory synchronized account.
     
 - A list of the taxonomy groups that you want to copy.
     
@@ -141,7 +141,7 @@ The next step is to configure hybrid SharePoint taxonomy by running the Hybrid P
   
 1. Log on to a server in your SharePoint Server farm as the farm administrator. 
     
-2. From your SharePoint Server computer, open a web browser, and log on to Microsoft 365 as a global administrator.
+2. From your SharePoint Server computer, open a web browser, and log on to Microsoft 365 as a global admin.
     
 3. In the SharePoint Online Admin Center, select **configure hybrid**.
     

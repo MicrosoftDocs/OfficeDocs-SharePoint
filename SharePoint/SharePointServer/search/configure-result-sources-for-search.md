@@ -111,7 +111,7 @@ Next:
     
     - Click **Launch Query Builder**.
     
-    - In the **Build Your Query** dialog box, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables.
+    - In the **Build Your Query** dialog, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables.
     
 **On the BASICS tab**
 

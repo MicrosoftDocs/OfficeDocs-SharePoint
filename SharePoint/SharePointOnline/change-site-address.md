@@ -59,14 +59,14 @@ Before you change the address of a site, it's important to communicate the chang
 
 ## Change a site address in the new SharePoint admin center
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
-2. Click the site name to open the details pane.
+2. To open the details pane, select the site name.
 
-3. On the General tab, under URL, select **Edit**.
+3. On the **General** tab, under URL, select **Edit**.
 
     ![Changing the address of a site](media/change-site-address.png)
 

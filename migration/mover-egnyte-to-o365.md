@@ -706,7 +706,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to
 
 #### Microsoft 365 permission requirements
 
-Our app requires a Global Administrator for authorization. The following table lists the scopes we require.
+Our app requires a Global Admin for authorization. The following table lists the scopes we require.
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
@@ -724,7 +724,7 @@ If you are not already connected after you have authorized your source, select *
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![execution select m365 destination](media/execution-select-microsoft-365-destination.png)
+![execution select m365 destination](media/execution-select-office-365-destination.png)
 
 #### Creating a new migration
 

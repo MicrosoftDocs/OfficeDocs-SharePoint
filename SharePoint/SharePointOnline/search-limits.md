@@ -54,6 +54,6 @@ The following table lists the limits for SharePoint Online search.
 ## See also
   
 - [SharePoint Online Limit](https://go.microsoft.com/fwlink/p/?LinkID=856113)
-- [SharePoint Online Service Description](/microsoft365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
+- [SharePoint Online Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
 - [Overview of the search schema in SharePoint Server 2013](/SharePoint/search/search-schema-overview)
 - [SharePoint feature availability across Office 365 plans](/office365/servicedescriptions/sharepoint-online-service-description/search#bkmk_searchfeaturessp)

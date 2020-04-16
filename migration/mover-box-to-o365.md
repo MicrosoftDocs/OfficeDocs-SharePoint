@@ -733,7 +733,7 @@ If you are not already connected after you have authorized your source, select *
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![Execution select Microsoft 365 destination](media/execution-select-microsoft-365-destination.png)
+![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
 #### Creating a new migration
 

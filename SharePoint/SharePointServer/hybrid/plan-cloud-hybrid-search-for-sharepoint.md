@@ -38,7 +38,7 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
 
  **Search verticals** - Search verticals narrow search results to a specific set of content, for example to show only videos. If you currently use a search vertical in a Search Center in SharePoint Server, you have to recreate it in your Search Center in SharePoint Online in Microsoft 365. 
   
- **Site search** - Your **existing search** in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use Search Centers that are in the same environment as the search index, so searching from a Microsoft 365 Search Center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010, you can set up search from SharePoint Server 2013 or SharePoint Server 2016. Plan a remote result source in SharePoint Server 2013 or SharePoint Server 2016 that gets results from the Microsoft 365 search index and plan use of query federation. Because SharePoint Online in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint Online supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-microsoft-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
+ **Site search** - Your **existing search** in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use Search Centers that are in the same environment as the search index, so searching from a Microsoft 365 Search Center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010, you can set up search from SharePoint Server 2013 or SharePoint Server 2016. Plan a remote result source in SharePoint Server 2013 or SharePoint Server 2016 that gets results from the Microsoft 365 search index and plan use of query federation. Because SharePoint Online in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint Online supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
   
  **eDiscovery** - You might have to set up eDiscovery separately in SharePoint Server and in SharePoint Online in Microsoft 365. 
   
@@ -46,7 +46,7 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
   
 ### How do you want to display search results?
 
- **Previews** - When a user hovers over a search result that comes from Microsoft 365, info about the content as well as a preview of the content is displayed. Information about the content from search results that come from on-premises is displayed automatically, but you have to set up display of previews for this content. Plan an Office Web Apps Server farm and configure SharePoint Server 2013 to use Office Web Apps Server. Learn how in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-microsoft-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
+ **Previews** - When a user hovers over a search result that comes from Microsoft 365, info about the content as well as a preview of the content is displayed. Information about the content from search results that come from on-premises is displayed automatically, but you have to set up display of previews for this content. Plan an Office Web Apps Server farm and configure SharePoint Server 2013 to use Office Web Apps Server. Learn how in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
   
  **Custom security trimming** - SharePoint Online in Microsoft 365 doesn't support custom security trimming. 
   
@@ -164,7 +164,7 @@ There are two methods to synchronize Active Directories:
     
 - Directory synchronization with single sign-on (SSO)
     
-If you choose the SSO option, you can also configure password synchronization if you want to as a backup for SSO, but you must configure at least one of the two (password synchronization or SSO). Learn more and how to configure the two methods in [Microsoft 365 integration with on-premises environments](/microsoft365/enterprise/office-365-integration).
+If you choose the SSO option, you can also configure password synchronization if you want to as a backup for SSO, but you must configure at least one of the two (password synchronization or SSO). Learn more and how to configure the two methods in [Microsoft 365 integration with on-premises environments](/office365/enterprise/office-365-integration).
   
 ### Why can't users get hybrid results with cloud hybrid search when they're members of the Domain Users security group?
 

@@ -86,7 +86,7 @@ landingContent:
           - text: Overview of search
             url: overview-of-search.md
           - text: Delve for Microsoft 365 admins
-            url: https://docs.microsoft.com/sharepoint/delve-for-microsoft-365-admins
+            url: https://docs.microsoft.com/sharepoint/delve-for-office-365-admins
 
   # Card
   - title: Protect and manage
@@ -94,7 +94,7 @@ landingContent:
       - linkListType: concept
         links:
           - text: Microsoft 365 Security and Compliance
-            url: https://docs.microsoft.com/microsoft365/securitycompliance/
+            url: https://docs.microsoft.com/office365/securitycompliance/
           - text: How SharePoint and OneDrive safeguard your data
             url: safeguarding-your-data.md
           - text: New SharePoint admin center

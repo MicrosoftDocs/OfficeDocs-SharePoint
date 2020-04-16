@@ -512,7 +512,7 @@ Ensure that the logon account for the Windows SharePoint Services Timer service 
     
 5. In the **Select Users, Computers, Service Accounts, or Groups** dialog, in the **Enter the object names to select** box, enter the name of the logon account for the SharePoint Timer service, and then select **OK**.
     
-    This account is listed on the **Log On** tab of the **Properties** dialog box for the service in the Services snap-in. 
+    This account is listed on the **Log On** tab of the **Properties** dialog for the service in the Services snap-in. 
     
 6. In the **Permissions for** _User or Group_ box, next to **Modify**, select **Allow**.
     

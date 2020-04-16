@@ -55,7 +55,7 @@ Result sources can be created at the SharePoint Admin Center level, the site col
   
 For more info about result sources, see [Understanding result sources](https://office.microsoft.com/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](https://docs.microsoft.com/sharepoint/manage-result-sources).
   
-1. Verify that the user account that you use to perform this procedure is a global administrator for the Microsoft 365 subscription that you want to configure.
+1. Verify that the user account that you use to perform this procedure is a global admin for the Microsoft 365 subscription that you want to configure.
     
 2. In the SharePoint Online Admin Center, in the Quick Launch, select **search**.
     
@@ -94,7 +94,7 @@ Query rules can be created at the SharePoint Admin Center level, the site collec
   
 For more info about query rules, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Manage query rules in SharePoint Server](../search/manage-query-rules.md)
   
-1. Verify that the user account that you use to perform this procedure is a global administrator for the Microsoft 365 subscription that you want to configure.
+1. Verify that the user account that you use to perform this procedure is a global admin for the Microsoft 365 subscription that you want to configure.
     
 2. In the SharePoint Online Admin Center, in the Quick Launch, select **search**.
     
@@ -232,7 +232,7 @@ To validate your configuration for displaying search results from both SharePoin
 4. On the search results page, you should see results from the SharePoint Online search index and a result block from the SharePoint Server search index.
     
     > [!NOTE]
-    > To view the target of a search result that is from content in the SharePoint Server farm, a user must have at least Read permission for the root site collection in the primary web application. (In a SharePoint hybrid environment, the primary web application is in the SharePoint Server farm and is used to receive all connections from Microsoft 365. For more information about the primary web application, see [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md).) 
+    > To view the target of a search result that is from content in the SharePoint Server farm, a user must have at least Read permission for the root site collection in the primary web application. (In a SharePoint hybrid environment, the primary web application is in the SharePoint Server farm and is used to receive all connections from Microsoft 365. For more information about the primary web application, see [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md).) 
   
 5. If you do not see results from both search indexes on the search results page, do the following:'
     

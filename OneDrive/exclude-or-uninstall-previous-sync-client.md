@@ -24,7 +24,7 @@ description: "Learn about the changes to how the previous OneDrive for Business 
 
 # Changes to OneDrive sync app deployment in Office Click-to-Run
 
-Starting in October 2017, we're changing how the previous OneDrive for Business sync app installs for enterprise customers using Microsoft 365 Apps for enterprise or Office 2016 with [Click-to-Run](https://go.microsoft.com/fwlink/p/?LinkId=526674).
+Starting in October 2017, we've changed how the previous OneDrive for Business sync app installs for enterprise customers using Microsoft 365 Apps for enterprise or Office 2016 with [Click-to-Run](https://go.microsoft.com/fwlink/p/?LinkId=526674).
   
 - The previous OneDrive for Business sync app (Groove.exe) will no longer be installed by default with Office 2016 Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
 
@@ -48,9 +48,9 @@ To exclude Groove in your deployment, add this to your config file:
 </Product>
 ```
 
-For more information about configuration options, see [Configuration options for the Office 2016 Deployment Tool](/DeployOffice/configuration-options-for-the-office-2016-deployment-tool).
+For more info about configuration options, see [Configuration options for the Office 2016 Deployment Tool](/DeployOffice/configuration-options-for-the-office-2016-deployment-tool).
   
-To override the default behavior and make sure the previous OneDrive for Business sync app installs and stays installed, you'll need to provide a config file that doesn't exclude Groove.exe. Also, you'll need to set the "PreventUninstall" registry key on all computers where you need Groove.exe installed, so that the process doesn't uninstall Groove.exe.
+To override the default behavior and make sure the previous OneDrive for Business sync app installs and stays installed, you must provide a config file that doesn't exclude Groove.exe. Also, you must set the "PreventUninstall" registry key on all computers where you need Groove.exe installed, so that the process doesn't uninstall Groove.exe.
   
 ## Uninstalling Groove when not in use
 
@@ -75,7 +75,7 @@ The following table shows more detail about which Office installations are affec
 |Office 2016 Click-to-Run - Semi-annual channel (Targeted)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
 |Office 2016 Click-to-Run - Semi-annual channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
 
-For more information about Office channels, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-Microsoft-365-Apps-for-enterprise).
+For more info about Office channels, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus-for-enterprise).
   
 Unless you need Groove.exe for some of your scenarios (for example, syncing on-premises SharePoint files), we strongly recommend leaving the new defaults in place and excluding Groove.exe from Office 2016 installations.
   

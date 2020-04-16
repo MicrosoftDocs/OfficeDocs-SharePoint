@@ -92,7 +92,7 @@ Office applications such as Word, Excel, and PowerPoint provide a wide variety o
 We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 Apps for enterprise provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
 
 
-For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-for-microsoft-365-apps-for-enterprise).
+For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-apps-for-enterprise).
 
 ## OneDrive libraries
 While SharePoint provides shared libraries for shared files that teams can collaborate on, users also have an individual library in OneDrive where they can store files that they own.
@@ -305,14 +305,14 @@ For info about how to view Cloud App Security reports, see [Generate data manage
 
 ### Manage threats
 
-You can use ATP Safe Attachments (part of [Microsoft 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft365/securitycompliance/microsoft-365-atp)) to protect against users uploading malicious files to OneDrive, SharePoint, or Teams.
+You can use ATP Safe Attachments (part of [Microsoft 365 Advanced Threat Protection](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)) to protect against users uploading malicious files to OneDrive, SharePoint, or Teams.
 
 
 When ATP discovers a malicious file, that file is locked so that users cannot open, move, or copy the file.
 
 The locked file is included in a list of quarantined items that you can monitor. You can then delete or release the file as appropriate.
 
-For detailed info, see [Microsoft 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft365/securitycompliance/atp-for-spo-odb-and-teams).
+For detailed info, see [Microsoft 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams).
 
 ## Migrate files from on-premises
 
@@ -326,9 +326,9 @@ For information on how to migrate content with the SharePoint Migration Tool, se
 
 ## Related topics
 
-[Create a secure guest sharing environment](https://docs.microsoft.com/Microsoft365/Enterprise/create-a-secure-guest-sharing-environment)
+[Create a secure guest sharing environment](https://docs.microsoft.com/office365/Enterprise/create-a-secure-guest-sharing-environment)
 
-[Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Microsoft365/Enterprise/best-practices-anonymous-sharing)
+[Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/office365/Enterprise/best-practices-anonymous-sharing)
 
 [Understanding how Microsoft Information Protection capabilities work together](https://youtu.be/FcOMnAL_LKA)
 

@@ -26,7 +26,7 @@ description: "Learn about how SharePoint Auditing generates reports for on-premi
   
 ## Microsoft SharePoint Auditing (Preview)
 
-Microsoft SharePoint Hybrid Auditing is a new hybrid feature for SharePoint Server 2016 to help SharePoint administrators have visibility to user activities in their SharePoint environments. With this feature, SharePoint 2016 on-premise user activity logs can be uploaded to Microsoft 365 and useful reports are generated. Configuration is simple and you can start viewing regularly updated reports in the Microsoft 365 admin center.
+Microsoft SharePoint Hybrid Auditing is a new hybrid feature for SharePoint Server 2016 to help SharePoint admins have visibility to user activities in their SharePoint environments. With this feature, SharePoint 2016 on-premise user activity logs can be uploaded to Microsoft 365 and useful reports are generated. Configuration is simple and you can start viewing regularly updated reports in the Microsoft 365 admin center.
   
 SharePoint Hybrid Auditing is currently in **Preview** mode: 
   
@@ -44,11 +44,11 @@ Before you configure the SharePoint Hybrid Auditing feature, ensure you are:
     
 - A service application administrator (Full Control) for the User Profile Service 
     
-- a Microsoft 365 Global Administrator or a SharePoint Online Administrator 
+- a Microsoft 365 Global Admin or a SharePoint Online Admin 
     
 - Logged into Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm 
     
-- Able to launch the Hybrid Picker as a Farm Administrator with elevated permissions 
+- Able to launch the Hybrid Picker as a Farm Admin with elevated permissions 
     
  **Elevate the privileges on the on-premises SharePoint farm account.** The on-premises SharePoint farm account must be granted elevated privilege on each SharePoint server in the farm before you launch the Hybrid Picker to deploy the on-premises Hybrid Auditing feature. You must: 
   
@@ -150,7 +150,7 @@ Microsoft SharePoint Insights service must be restarted after an in-place-upgrad
 
 All the audit logs under the folder **SPUnifiedAuditEntry** are uploaded to Microsoft 365 for generating reports. The location of the folder can be found in SharePoint 2016 Central Administration. 
   
-For more information see [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/microsoft365/securitycompliance/search-the-audit-log-in-security-and-compliance)
+For more information see [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)
   
 1. On the **SharePoint Server 2016 Central Administration** website, under **Central Administration**, select **Monitoring**. 
     
@@ -162,6 +162,6 @@ For more information see [Search the audit log in the Microsoft 365 Security &am
   
 ## Related Topics
 
-[Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/microsoft365/securitycompliance/search-the-audit-log-in-security-and-compliance)
+[Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)
   
 [TechNet Forums: Hybrid Auditing](https://social.technet.microsoft.com/Forums/office/home?forum=hybridauditing)

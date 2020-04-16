@@ -27,7 +27,7 @@ As a global or SharePoint admin in Microsoft 365, you can allow or prevent site 
   
 ## Allow or prevent site collection administrators from connecting classic team sites to new Microsoft 365 groups
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 <<<<<<< Updated upstream

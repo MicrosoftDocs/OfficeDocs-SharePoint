@@ -67,7 +67,7 @@ The following procedures show how to manually do these tasks. If you have many u
     
 2. In the left pane, right-click the top-level node, and then click **Properties**.
     
-3. In the **UPN suffixes** dialog box, enter the domain suffix in the **Alternative UPN suffixes** box that you want for hybrid, and then click **Add** > **OK**.
+3. In the **UPN suffixes** dialog, enter the domain suffix in the **Alternative UPN suffixes** box that you want for hybrid, and then click **Add** > **OK**.
     
 For more information, see [Add user principal name suffixes](https://go.microsoft.com/fwlink/?LinkId=392430) (https://go.microsoft.com/fwlink/?LinkId=392430). 
   
@@ -77,7 +77,7 @@ For more information, see [Add user principal name suffixes](https://go.microsof
     
 2. In the **Name** column, right-click the user account that you want to federate, and then click **Properties**.
     
-3. In the **Properties** dialog box, click the **Account** tab. 
+3. In the **Properties** dialog, click the **Account** tab. 
     
 4. Select the UPN domain suffix that you added in the previous procedure from the drop-down list, as shown in the following picture.
     

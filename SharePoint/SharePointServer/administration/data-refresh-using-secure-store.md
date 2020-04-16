@@ -161,7 +161,7 @@ Now that everything is configured, we can set up the refresh schedule and other 
     
 3. Follow the wizard through to connect to the table that contains your data.
     
-4. When the wizard completes, you should see the **Import Data** dialog box. Choose the **Only Create Connection** option, and then select the **Add this data to the Data Model** check box. 
+4. When the wizard completes, you should see the **Import Data** dialog. Choose the **Only Create Connection** option, and then select the **Add this data to the Data Model** check box. 
     
 5. Choose **OK**.
     
@@ -169,7 +169,7 @@ Now that everything is configured, we can set up the refresh schedule and other 
     
 7. On the **Power Pivot** ribbon, choose **PivotTable**.
     
-8. On the **Insert Pivot** dialog box, choose the **Existing Worksheet** option, and then choose **OK**.
+8. On the **Insert Pivot** dialog, choose the **Existing Worksheet** option, and then choose **OK**.
     
 9. Select the fields that you want in the PivotTable report.
     

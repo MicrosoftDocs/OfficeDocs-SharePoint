@@ -56,7 +56,7 @@ Here's how you can change the set-up of the Search Navigation Web Part. You can 
     
 3. On the **Search Settings** page, in the **Configure Search Navigation** section, click to select the search vertical that you want to change, and then click **Edit**.
     
-4. In the **Navigation Link** dialog box:
+4. In the **Navigation Link** dialog:
     
   - To change the display name of a search vertical, in the **Title** field, type a display name.
     
@@ -93,7 +93,7 @@ Here's how you can add a link to the new search vertical page in the Web Part:
     
 3. On the **Search Settings** page, in the **Configure Search Navigation** section, click **Add Link**.
     
-4. In the **Navigation Link** dialog box:
+4. In the **Navigation Link** dialog:
     
   - In the **Title** field, type a display name.
     

@@ -38,7 +38,7 @@ The first step is to create the App Catalog site collection if it hasn't already
   
 Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create the App Catalog site collection. You can have only one App Catalog site collection for your organization, and you only need to create it once.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -51,9 +51,9 @@ Even if you don't plan to make internal custom apps available, you will not be a
     
     ![App catalog site dialog with Create a new app catalog site selected.](media/a7b6b416-5e02-43a8-a15a-f996b95dcc8f.PNG)
   
-5. On the **Create App Catalog Site Collection** page, enter the required information, and then select **OK**.
+5. On the **Create App Catalog Site Collection** page, enter the required info, and then select **OK**.
     
-    ![Create App Catalog dialog box](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
+    ![Create App Catalog dialog](media/0ee3e6a9-b293-4de4-a648-782d8f2f717e.PNG)
   
 ## Step 2: Add custom apps to the App Catalog site
 <a name="__add_custom_apps"> </a>
@@ -62,18 +62,18 @@ To get to the App Catalog site once it's been created, follow steps 1 and 2 in t
   
 ![Screenshot of the home page of the App Catalog site.](media/e20ffd32-5162-49a0-a635-8486e0083afd.jpg)
   
-1. On the home page of the App Catalog site, select the tile labeled either **Distribute apps for SharePoint** or **Distribute apps for Office**, depending on which type of app you are uploading.
+1. On the home page of the **App Catalog** site, select the tile labeled either **Distribute apps for SharePoint** or **Distribute apps for Office**, depending on which type of app you are uploading.
     
     ![The Getting started with your app catalog tiles with Distribute Apps for SharePoint highlighted.](media/2bbcbc6b-4d92-4da1-958d-4b8d4d37d8ee.PNG)
   
-2. Select **New** and browse to the app you want upload, or drag the app into the library.
+2. Select **New**, and browse to the app you want upload, or drag the app into the library.
     
     ![SPO App catalog SharePoint with New button highlighted](media/ef9d8d34-290c-4397-9422-836871c7de08.png)
   
     > [!NOTE]
-    > Depending on the functionality that the app provides, the developer can set a flag that allows you to make the app available to all sites in the organization. If the app builds something (for example, it creates a new list), you can't make it available to all sites and will need to deploy it as described in the next section under "Deploy a custom app." We always recommend testing solutions before deploying them more broadly. If the "Do you trust" dialog box appears when you upload the app, and you want to make the app available to all sites in your organization, select **Make this solution available to all sites in the organization**, and then click **Deploy**.
+    > Depending on the functionality that the app provides, the developer can set a flag that allows you to make the app available to all sites in the organization. If the app builds something (for example, it creates a new list), you can't make it available to all sites and will need to deploy it as described in the next section under "Deploy a custom app." We always recommend testing solutions before deploying them more broadly. If the "Do you trust" dialog appears when you upload the app, and you want to make the app available to all sites in your organization, select **Make this solution available to all sites in the organization**, and then click **Deploy**.
   
-3. To help site owners identify and use the app, right-click it, and then click **Properties**.
+3. To help site owners identify and use the app, right-click it, and then select **Properties**.
     
     ![Apps for SharePoint apps catalog with app selected](media/2113dcee-8f47-4f96-afb7-6978d4cf22d6.PNG)
   
@@ -102,17 +102,17 @@ You can deploy a third-party app, or you can [deploy a custom app](use-app-catal
   
 If you buy a site license for a third-party app, then that app is automatically available for users to install when they browse apps under **Apps You Can Add**.
   
-![Apps you can add dialog box with app highlighted](media/dc17da1e-74f3-4b3f-899b-7b08e80102e1.PNG)
+![Apps you can add dialog with app highlighted](media/dc17da1e-74f3-4b3f-899b-7b08e80102e1.PNG)
   
 However, if you want to make the app available for use without requiring users to find and install it, you can deploy it.
   
-1. If you have not already purchased the app, you must buy it first. For information about how to do this, see [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).
+1. If you have not already purchased the app, you must buy it first. For info about how to do this, see [Buy an app from the SharePoint Store](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43).
     
 2. On the **App Catalog** site, select **Settings**![Microsoft 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png), and then select **Add an app**.
     
 3. Select the app you want to add, and when prompted, select **Trust It**.
     
-    ![Do you trust App dialog box with Trust it selected](media/f2c1e382-b174-49be-80d6-5ec90c5c7efc.PNG)
+    ![Do you trust App dialog with Trust it selected](media/f2c1e382-b174-49be-80d6-5ec90c5c7efc.PNG)
   
 4. On the **Site Contents** page, find the app you want to deploy.
     

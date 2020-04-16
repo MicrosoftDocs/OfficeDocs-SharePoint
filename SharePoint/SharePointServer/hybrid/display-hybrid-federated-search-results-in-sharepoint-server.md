@@ -142,7 +142,7 @@ For more info about query rules, see [Plan to transform queries and order result
   
     - In the **Actions** section, under **Result Blocks**, select **Add Result Block**.
     
-       ![Screenshot of Add Result Block dialog box in SharePoint Server 2013](../media/AddResultBlockDialogBox.gif)
+       ![Screenshot of Add Result Block dialog in SharePoint Server 2013](../media/AddResultBlockDialogBox.gif)
   
     - (Optional) In the **Block Title** section, in the **Title** text box, change the title to the text that you want to appear above the result block on the search results page, such as Results for "{subjectTerms}" from SharePoint Online.
     

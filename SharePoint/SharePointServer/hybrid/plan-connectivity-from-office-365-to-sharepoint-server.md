@@ -88,7 +88,7 @@ SharePoint Online sends requests to a reverse proxy server that relays the reque
   
 Both the primary web application and a single site collection within the primary web application must be configured to accept inbound connections from SharePoint Online. 
   
-The SharePoint administrator associates the services and connection objects that are needed to support the hybrid solutions that are being deployed with the primary web application. Outbound connections can be made from any on-premises SharePoint Server web application by using the feature-specific configurations.
+The SharePoint admin associates the services and connection objects that are needed to support the hybrid solutions that are being deployed with the primary web application. Outbound connections can be made from any on-premises SharePoint Server web application by using the feature-specific configurations.
   
 A SharePoint Server web application is composed of an Internet Information Services (IIS) website that acts as a logical unit for the site collections that you create. Each web application is represented by a different IIS website that has a unique or shared application pool, that has a unique public URL, and that can also be configured to use up to five internal URLs using Alternate Access Mapping (AAM). A given web application is associated with a single content database and is configured to use a specific authentication method to connect to the database. Multiple web applications can be configured to use different authentication methods, and optionally AAMs, to provide access to a single content database. 
   
@@ -176,7 +176,7 @@ Site collections used for hybrid functionality must meet all these requirements,
 
 You can either use an existing web application or create one to use as the primary web application.
   
-If you prefer to manage the web application used for hybrid functionality independently or if your existing web application does not meet the requirements that are listed in the [Choose a site collection strategy](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#scstrategy) section, you should create a new web application. 
+If you prefer to manage the web application used for hybrid functionality independently or if your existing web application does not meet the requirements that are listed in the [Choose a site collection strategy](plan-connectivity-from-office-365-to-sharepoint-server.md#scstrategy) section, you should create a new web application. 
   
 |||
 |:-----|:-----|
@@ -219,7 +219,7 @@ This certificate must be either a wildcard or a SAN certificate and be issued by
 > [!IMPORTANT]
 > Wildcard certificates can secure only a single level of a DNS namespace. For example, if your external URL is **https://spexternal.public.adventureworks.com**, the subject of your wildcard certificate must be *.public.adventureworks.com, not *.adventureworks.com. 
   
-In scenarios where SharePoint Online is configured to request information from SharePoint Server, an SSL certificate is required to do the following:
+In scenarios where SharePoint Online is configured to request info from SharePoint Server, an SSL certificate is required to do the following:
   
 - Encrypt traffic over the security channel.
     
@@ -235,7 +235,7 @@ During deployment, you'll install the SSL certificate both on the reverse proxy 
 Get a Secure Channel SSL wildcard or SAN (Subject Alternative Name) certificate for your on-premises public domain from a well-known certificate authority, for example, DigiCert, VeriSign, Thawte, or GeoTrust.
   
 > [!NOTE]
->  This certificate must support multiple names and must be at least 2048 bits. >  The **Subject** or **Subject Name** field of the certificate must contain a wildcard entry of the domain name in the External URL. For example, if your external URL is https://spexternal.public.adventureworks.com, the subject of your wildcard certificate should be **\*.public.adventureworks.com**. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint Administrators should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 
+>  This certificate must support multiple names and must be at least 2048 bits. >  The **Subject** or **Subject Name** field of the certificate must contain a wildcard entry of the domain name in the External URL. For example, if your external URL is https://spexternal.public.adventureworks.com, the subject of your wildcard certificate should be **\*.public.adventureworks.com**. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint admins should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 
   
    
 ### About STS certificates
@@ -250,7 +250,7 @@ A SharePoint hybrid environment setup requires several user accounts in both you
   
 - Go to [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md) for a complete explanation of the required user accounts, including notes about roles and identity providers. 
     
-- **Record** the required account information in the worksheet as instructed. 
+- **Record** the required account info in the worksheet as instructed. 
     
 - Return to this planning article after you complete this step.
     

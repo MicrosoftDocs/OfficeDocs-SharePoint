@@ -61,7 +61,7 @@ On the left side of the page, a **Featured links** list appears.
     
     ![Featured links add selected](media/94b70b39-61a1-4a5b-9195-6c97832bb49e.png)
   
-3. Fill in the **Text to display** and **Address** in the **New link** dialog box. 
+3. Fill in the **Text to display** and **Address** in the **New link** dialog. 
     
     ![Adding a featured link](media/271749eb-7236-4349-b721-cad1d790ea7a.png)
   
@@ -86,7 +86,7 @@ On the left side of the page, a **Featured links** list appears.
     
     ![Editing a featured link](media/c319922b-6d0c-45a2-8493-7fb4276256fb.png)
   
-3. Fill in the **Text to display** and **Address** in the **Edit link** dialog box. 
+3. Fill in the **Text to display** and **Address** in the **Edit link** dialog. 
     
     ![Editing featured link content](media/28ccfb5d-3992-4546-b36b-d6223f80f611.png)
   
@@ -124,7 +124,7 @@ On the left side of the page, a **Featured links** list appears.
     
     ![Featured links with Delete highlighted](media/10a93009-9929-4102-b3b4-04aa318277ce.png)
   
-3. Click **Delete** in the confirmation dialog box. 
+3. Click **Delete** in the confirmation dialog. 
     
 4. To leave edit mode, click **Done** when you're finished. 
     

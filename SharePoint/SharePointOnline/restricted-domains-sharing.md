@@ -32,21 +32,21 @@ You can limit domains by allowing only the domains you specify or by allowing al
   
  **To limit domains at the organization level**
   
-1. Go to the [Sharing page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Sharing page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
     
 2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-3. Select **Allow only specific domains** to create an allow list (most restrictive) or **Block specific domains** to block only the domains you specify.
+3. To create an allow list (most restrictive), select **Allow only specific domains**; to block only the domains you specify, select **Block specific domains**.
     
 4. List the domains (maximum of 3000) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.
 
-5. Click **Save**.
+5. Select **Save**.
 
 You can also configure the organization-wide setting by using the [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant) PowerShell cmdlet.
   
@@ -62,25 +62,25 @@ You can also limit domains at the site collection level. Note the following cons
     
  **To limit domains for a site**
 
-1. Go to the [Active sites page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sitemanagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Active sites page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sitemanagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     >[!NOTE]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
-2. Click the site that you want to restrict domains on.
+2. Select the site that you want to restrict domains on.
  
-3. On the **Policies** tab, click **Edit** under **External sharing**.
+3. On the **Policies** tab, under **External sharing**, select **Edit**.
     
 2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box, and then select **Add domains**.
     
-3. Select **Allow only specific domains** to create an allow list (most restrictive) or **Block specific domains** to block only the domains you specify.
+3. Select **Allow only specific domains** to create an allow list (most restrictive), or to block only the domains you specify, select **Block specific domains**.
     
 4. List the domains (maximum of 100) in the box provided, using the format  *domain.com.* If listing more than one domain, enter each domain on a new line.
     
     > [!NOTE]
     > Wildcards are not supported for domain entries.
 
-5. Click **Save**, and then click **Save** again.  
+5. Select **Save**, and then select **Save** again.  
 
     > [!NOTE]
     > To configure the site collection setting for site collections that do not appear in this list (such as Group-connected sites or individual OneDrive site collections), you must use the [Set-SPOSite](https://go.microsoft.com/fwlink/?linkid=2003901) PowerShell cmdlet.

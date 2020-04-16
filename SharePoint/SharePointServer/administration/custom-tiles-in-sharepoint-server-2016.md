@@ -77,7 +77,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
 8. Click **new item** to add a new item to the list. 
     
-     ![Displays dialog box to create a new entry for a CustomTile in the November 2016 PU for SharePoint Server 2016](../media/6597a87e-cd66-463e-b405-8897926f9c55.jpg)
+     ![Displays dialog to create a new entry for a CustomTile in the November 2016 PU for SharePoint Server 2016](../media/6597a87e-cd66-463e-b405-8897926f9c55.jpg)
   
 9. Enter a **Title** for the new tile. The name will appear in the tile. 
     

@@ -119,7 +119,7 @@ In this procedure, you create a SQL Server login and then assign that login to a
     
 3. Under the **Login Name**, with the **User name** box pre-selected, in the first box, enter AdventureWorksUser
     
-4. In the second box, click **Browse**, in the **Select Login** dialog box, click **Browse**, select the SQL Server account, **SharePointGroupAccount**, and then click **OK** twice. 
+4. In the second box, click **Browse**, in the **Select Login** dialog, click **Browse**, select the SQL Server account, **SharePointGroupAccount**, and then click **OK** twice. 
     
 5. Under **Database Role** membership, select **db_owner**.
     
@@ -252,7 +252,7 @@ These procedures walk you through building an external content type for Business
   
  **Add columns**
   
-1. In the **Parameters Configuration** dialog box, by default all columns are selected. To remove unnecessary columns, clear the checkboxes next to the following columns: **Suffix** and **Demographics**.
+1. In the **Parameters Configuration** dialog, by default all columns are selected. To remove unnecessary columns, clear the checkboxes next to the following columns: **Suffix** and **Demographics**.
     
 2. For the **BusinessEntityID** select the **Map to Identifier** value. 
     
@@ -362,7 +362,7 @@ The external list contains customer data mapped to Microsoft Outlook contacts fo
   
 1. Open the SharePoint Server site that contains the external list. In the ribbon, on the **List** tab, in the **Connect &amp; Export** group, click **Connect to Outlook**.
     
-2. In the **Microsoft Office Customization Installer** dialog box, click **Install**.The installation should take a minute or two. 
+2. In the **Microsoft Office Customization Installer** dialog, click **Install**.The installation should take a minute or two. 
     
 3. Once the installation is complete, click **Close**. 
     

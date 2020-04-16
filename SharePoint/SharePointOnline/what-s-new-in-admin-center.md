@@ -24,7 +24,7 @@ description: "Learn about the features currently in the new SharePoint admin cen
 We're continuously adding new features to the new SharePoint admin center and fixing issues we learn about. Here's a summary of what's included. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button.
   
 > [!NOTE]
-> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br><br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article. <br>To see what's recently rolled out in the Microsoft 365 admin center, see [What's new in the MIcrosoft 365 admin center](/microsoft-365/admin/whats-new-in-preview).
+> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br><br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article. <br>To see what's recently rolled out in the Microsoft 365 admin center, see [What's new in the MIcrosoft 365 admin center](/office-365/admin/whats-new-in-preview).
   
 ## December 2019
 
@@ -62,7 +62,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 ## November 2019
 
-- If you're using the [new sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), you can view and edit them from the Active sites page.
+- If you're using the [new sensitivity labels](/office-365/compliance/sensitivity-labels-teams-groups-sites), you can view and edit them from the Active sites page.
 
 ## October 2019
 

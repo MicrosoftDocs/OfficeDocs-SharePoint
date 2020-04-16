@@ -52,7 +52,7 @@ These instructions assume that you have installed SQL Server Management Studio o
     
 2. Open SQL Server Management Studio.
     
-3. In the **Connect to Server** dialog box, specify the server type, server name, and authentication method of the database server that you want to connect to, and then click **Connect**.
+3. In the **Connect to Server** dialog, specify the server type, server name, and authentication method of the database server that you want to connect to, and then click **Connect**.
     
 4. Expand **Databases**.
     

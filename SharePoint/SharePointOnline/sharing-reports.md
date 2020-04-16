@@ -47,7 +47,7 @@ When the report is finished running you will receive an email with a link to the
 
 For items shared with direct access, the report contains one row for each user / item combination. SharePoint groups are shown in the report, but not individual users inside them.
 
-For items shared with a link, the report contains a row for each signed-in user who has used the link or has been sent the link through the sharing dialog box. Links emailed directly that haven't been clicked, and *Anyone* links are not included in the report.
+For items shared with a link, the report contains a row for each signed-in user who has used the link or has been sent the link through the sharing dialog. Links emailed directly that haven't been clicked, and *Anyone* links are not included in the report.
 
 The report contains the following columns:
 

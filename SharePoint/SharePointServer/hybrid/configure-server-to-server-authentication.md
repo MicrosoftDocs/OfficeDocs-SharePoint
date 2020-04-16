@@ -54,9 +54,9 @@ For example, you have to make sure that the on-premises search center site(s) th
     
 3. In the **Name** column, select the web application that you want to verify, and then on the ribbon, click **Authentication Providers**.
     
-4. In the **Authentication Providers** dialog box, in the **Zone** column, click the zone the search center site is associated with. 
+4. In the **Authentication Providers** dialog, in the **Zone** column, click the zone the search center site is associated with. 
     
-5. In the **Edit Authentication** dialog box, verify that Integrated Windows authentication and NTLM are selected as shown in the following picture. 
+5. In the **Edit Authentication** dialog, verify that Integrated Windows authentication and NTLM are selected as shown in the following picture. 
     
      ![This figure illustrates the authentication type setting for a web application](../media/ClaimType.jpg)
   
@@ -200,7 +200,7 @@ To install the online service management tools and configure the PowerShell wind
   Connect-MsolService -Credential $cred
   ```
 
-   You are prompted to log on. You need to log on using a Microsoft 365 global administrator account.
+   You are prompted to log on. You need to log on using a Microsoft 365 global admin account.
     
    Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
     

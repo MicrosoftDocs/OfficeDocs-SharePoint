@@ -32,7 +32,7 @@ This section provides detailed descriptions of the new updated features in Share
 
 ### Access Services 2013 now supports Send Email
 
-The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://www.microsoft.com/microsoft-365/blog/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
+The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://www.microsoft.com/office-365/blog/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
 
 ### Additional documentation links for Central Administration site
 
@@ -45,7 +45,7 @@ We've made it easier for farm administrators to reach the latest SharePoint admi
 
 Communication sites are a place to share news, showcase a story, or broadcast a message to other people. The new Hero web part can display up to five items with compelling images, text, and links to draw attention to your most important content. Users can easily create communication sites for themselves from SharePoint Home without needing to contact IT.
 
-### Fast site creation
+### Create fast sites
 
 Fast site creation in SharePoint Server 2019 allows users create new sites in a few seconds. Fast site creation is only supported with the following site templates:
 

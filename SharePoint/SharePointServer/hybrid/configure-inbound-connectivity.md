@@ -32,7 +32,7 @@ This article contains guidance the SharePoint hybrid environment deployment proc
 
  **Accessibility note:**SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines).
   
-If you haven't already done this, read [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md) before you start to configure anything.This is important because the planning article helps you make important decisions and record them on the [SharePoint hybrid deployment worksheet](https://go.microsoft.com/fwlink/?LinkId=391835), referred to in the rest of this article as the worksheet. This in turn informs which procedures in this article to use and which you can skip over.
+If you haven't already done this, read [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) before you start to configure anything.This is important because the planning article helps you make important decisions and record them on the [SharePoint hybrid deployment worksheet](https://go.microsoft.com/fwlink/?LinkId=391835), referred to in the rest of this article as the worksheet. This in turn informs which procedures in this article to use and which you can skip over.
   
 If you've read the planning article, you should have already done the following:
   
@@ -42,7 +42,7 @@ If you've read the planning article, you should have already done the following:
     
 |||
 |:-----|:-----|
-|![Edit icon](../media/mod_icon_edit_m.png)|These decisions are recorded in Table 2 of the worksheet. If not, go back and read [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md) and make these decisions before you go any further.  <br/> |
+|![Edit icon](../media/mod_icon_edit_m.png)|These decisions are recorded in Table 2 of the worksheet. If not, go back and read [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) and make these decisions before you go any further.  <br/> |
    
 ### Worksheet tips
 
@@ -83,7 +83,7 @@ For Microsoft 365 to send requests to the external endpoint of your reverse prox
   
 - A public domain registered with a domain registrar, such as GoDaddy.com, that the URL of the external endpoint of the reverse proxy device is associated with.
     
-- An A record in your public domain's DNS zone that's associated with the published SharePoint site (which is the External URL, such as spexternal.adventureworks.com). This enables Microsoft 365 to send requests to the external endpoint on the reverse proxy device that's configured for hybrid. This A record maps the External URL to the IP address of the Internet-facing endpoint of the reverse proxy device. For more information, see [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md).
+- An A record in your public domain's DNS zone that's associated with the published SharePoint site (which is the External URL, such as spexternal.adventureworks.com). This enables Microsoft 365 to send requests to the external endpoint on the reverse proxy device that's configured for hybrid. This A record maps the External URL to the IP address of the Internet-facing endpoint of the reverse proxy device. For more information, see [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md).
     
 If you don't yet have a public domain that you want to use for this purpose (such as adventureworks.com), get one now, and then create this A record. If you already took care of this during the planning phase, the name of your public domain and the IP address that you need to create this A Record are recorded in Table 3 of the worksheet.
   
@@ -110,7 +110,7 @@ This section tells you how to configure the SharePoint Server farm for use in an
 
 In a hybrid environment, data is exchanged between the root site collection in SharePoint Online and a specific web application in the on-premises SharePoint farm that's configured for hybrid. We call this the primary web application. This web application is the focal point on which your site collection strategy is configured.
   
-During the planning phase, you should have decided whether you'll use an existing web application or create one and which site collection strategy you'll configure. If so, your decisions are listed in the **Site collection strategy** row of Table 2 of the worksheet. If you haven't decided yet, review the [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md) article and make these decisions before you go any further. 
+During the planning phase, you should have decided whether you'll use an existing web application or create one and which site collection strategy you'll configure. If so, your decisions are listed in the **Site collection strategy** row of Table 2 of the worksheet. If you haven't decided yet, review the [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) article and make these decisions before you go any further. 
   
 Choose one of the following site collection strategies to configure:
   
@@ -135,7 +135,7 @@ If you want to configure a site collection strategy by using a host-named site c
     
 5. Create an A record in the on-premises DNS.
     
-For more info about site collection strategy decisions, see the [Choose a site collection strategy](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#scstrategy) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md).
+For more info about site collection strategy decisions, see the [Choose a site collection strategy](plan-connectivity-from-office-365-to-sharepoint-server.md#scstrategy) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md).
   
 #### Ensure that the primary web application and root site collection exist
 <a name="hn_webapp"> </a>
@@ -200,9 +200,9 @@ For more information about how to create a web application and root site collect
 Because this web application is configured to use SSL, you have to ensure that an SSL certificate is bound to the primary web application. For production environments, this certificate should be issued by a public certification authority (CA). For test and development environments, this can be a self-signed certificate. We call this the on-premises SharePoint SSL certificate.
   
 > [!TIP]
-> This is typically a separate certificate from the one that you'll later install on the reverse proxy device. For more info about these certificates, see the [Plan SSL certificates](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#certificates) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md). 
+> This is typically a separate certificate from the one that you'll later install on the reverse proxy device. For more info about these certificates, see the [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md). 
   
-After the certificate is bound to the web application, you'll be able to see this host name in the **Issued To** field in the **Server Certificates** dialog box in Internet Information Services (IIS). For more information, see [How to Set Up SSL on IIS 7.0](https://go.microsoft.com/fwlink/p/?LinkId=187887).
+After the certificate is bound to the web application, you'll be able to see this host name in the **Issued To** field in the **Server Certificates** dialog in Internet Information Services (IIS). For more information, see [How to Set Up SSL on IIS 7.0](https://go.microsoft.com/fwlink/p/?LinkId=187887).
   
 #### Create the host-named site collection
 <a name="hn_sitecoll"> </a>
@@ -262,12 +262,12 @@ If you want to configure a site collection strategy by using a path-based web ap
 > [!NOTE]
 > When you configure a site collection strategy without AAM, the public URL of the primary web application must be identical to the External URL. 
   
-For more info, see the [Choose a site collection strategy](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#scstrategy) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md).
+For more info, see the [Choose a site collection strategy](plan-connectivity-from-office-365-to-sharepoint-server.md#scstrategy) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md).
   
 #### Ensure that the primary web application exists
 <a name="woaam_webapp"> </a>
 
-You can use an existing web application as the primary web application, or you can create one. You should have made this decision during planning and recorded it in the **New or existing web application** row of Table 2 of the worksheet. If you haven't made this decision yet, refer to [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md) and decide before you go any further. Remember that when you configure a site collection strategy without AAM, the public URL of the primary web application must be identical to the External URL. 
+You can use an existing web application as the primary web application, or you can create one. You should have made this decision during planning and recorded it in the **New or existing web application** row of Table 2 of the worksheet. If you haven't made this decision yet, refer to [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) and decide before you go any further. Remember that when you configure a site collection strategy without AAM, the public URL of the primary web application must be identical to the External URL. 
   
 If during planning, you decided which existing web application to use as the primary web application, its URL should be recorded in the **Primary web application URL** row of Table 5b of the worksheet. If so, skip ahead to [Ensure that an SSL binding exists on the primary web application](configure-inbound-connectivity.md#ensuresslwoaam). Otherwise, to create a web application to use as the primary web application, use the procedures in [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)).
   
@@ -295,7 +295,7 @@ To make things easier for yourself in later procedures, we recommend that you do
 You have to ensure that an SSL certificate is bound to the primary web application. For production environments, this certificate should be issued by a public certification authority (CA). For test and development environments, this can be a self-signed certificate. We call this the on-premises SharePoint SSL certificate.
   
 > [!TIP]
-> This is typically a separate certificate from the one that you'll later install on the reverse proxy device, but you can use the Secure Channel SSL certificate for this if you want to. For more information about these certificates, see the [Plan SSL certificates](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#certificates) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md). 
+> This is typically a separate certificate from the one that you'll later install on the reverse proxy device, but you can use the Secure Channel SSL certificate for this if you want to. For more information about these certificates, see the [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md). 
   
 The host name of the web application must be in the **Subject** field of the SSL certificate. After the certificate is bound to the web application, you can see this host name in the **Issued To** field in the **Server Certificates** dialog in Internet Information Services (IIS). For more information, see [How to Set Up SSL on IIS 7.0](https://go.microsoft.com/fwlink/p/?LinkId=187887).
   
@@ -343,7 +343,7 @@ The following video demonstrates how a site collection strategy works with a pat
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/273c8df4-baf4-4896-b142-aaab0eb4316f?autoplay=false]
 #### Ensure that the primary web application exists
 
-You can use an existing web application as the primary web application, or you can create one. If you haven't made this decision yet, refer to [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md) and decide before you go any further. 
+You can use an existing web application as the primary web application, or you can create one. If you haven't made this decision yet, refer to [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) and decide before you go any further. 
   
 If during planning, you decided which existing web application to use as the primary web application, its URL should be recorded in the **Primary web application URL** row of Table 5c of the worksheet. If so, skip ahead to [Extend the primary web application](configure-inbound-connectivity.md#waam_extendwebapp). Otherwise, to create a web application to use as the primary web application, use the procedures in [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). The SharePoint hybrid configuration is not affected by the initial configuration of this web application when you configure this site collection strategy. This is because you'll apply the settings that you need for hybrid when you extend the web application a bit later. So you can use any settings that you want when you create a web application.
   
@@ -382,10 +382,10 @@ If you configured the extended web application to use SSL, you'll have to ensure
 For production environments, this certificate should be issued either by a public or an enterprise certification authority (CA). For test and development environments, this can be a self-signed certificate. We call this the on-premises SharePoint SSL certificate.
   
 > [!IMPORTANT]
-> This certificate must have the bridging host name of the URL in the **Subject** field. For example, if the bridging URL is https://bridge, the **Subject** field of the certificate must contain **bridge**. Therefore, this certificate can't be created by using IIS. But you can use a certificate creation tool such as MakeCert.exe to create it. After the certificate is bound to the web application, you can see this host name in the **Issued To** field in the **Server Certificates** dialog box in Internet Information Services (IIS). 
+> This certificate must have the bridging host name of the URL in the **Subject** field. For example, if the bridging URL is https://bridge, the **Subject** field of the certificate must contain **bridge**. Therefore, this certificate can't be created by using IIS. But you can use a certificate creation tool such as MakeCert.exe to create it. After the certificate is bound to the web application, you can see this host name in the **Issued To** field in the **Server Certificates** dialog in Internet Information Services (IIS). 
   
 > [!TIP]
-> This is typically a separate certificate from the one that you'll later install on the reverse proxy device. For more information about these certificates, see the [Plan SSL certificates](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#certificates) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-microsoft-365-to-sharepoint-server.md). 
+> This is typically a separate certificate from the one that you'll later install on the reverse proxy device. For more info about these certificates, see the [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md). 
   
 For more information about how to set up SSL, see [A guide to https and Secure Sockets Layer in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=392233).
   
@@ -402,7 +402,7 @@ To enable SharePoint Server to dynamically translate links in requests by using 
     
 3. On the **Alternate Access Mappings** page, click **Add Internal URLs**.
     
-4. In the **Alternate Access Mapping Collection** section, click the down arrow, and then click **Change Alternate Access Mapping Collection**. In the dialog box that is displayed, select the primary web application that you're configuring for hybrid.
+4. In the **Alternate Access Mapping Collection** section, click the down arrow, and then click **Change Alternate Access Mapping Collection**. In the dialog that is displayed, select the primary web application that you're configuring for hybrid.
     
 |||
 |:-----|:-----|
@@ -468,7 +468,7 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
   
  **To create a target application to store the Secure Channel SSL certificate**
   
-1. Verify that you're logged on to Microsoft 365 as a global administrator.
+1. Verify that you're logged on to Microsoft 365 as a global admin.
     
 2. In the SharePoint Online Administration Center, in the navigation pane, select **secure store**.
     
@@ -514,7 +514,7 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
     
 7. In the **Members** section, in the box, enter the names of the Azure AD users and groups that you want to enable to use hybrid solutions. 
     
-    The Microsoft 365 global administrator can create Azure AD groups. These are domain groups, not SharePoint groups.
+    The Microsoft 365 global admin can create Azure AD groups. These are domain groups, not SharePoint groups.
     
 |||
 |:-----|:-----|

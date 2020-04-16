@@ -6,7 +6,7 @@ author: jhendr
 manager: pamgreen
 layout: LandingPage
 ms.assetid: 
-ms.prod: microsoft-365-enterprise
+ms.prod: office-365-enterprise
 ms.tgt_pltfrm: na
 ms.devlang: na
 f1.keywords:

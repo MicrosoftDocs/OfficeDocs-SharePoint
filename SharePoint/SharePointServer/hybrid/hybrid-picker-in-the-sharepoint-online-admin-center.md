@@ -48,11 +48,11 @@ The following are the account requirements to run the Hybrid Picker. You must be
 
 - A service application administrator (Full Control) for the User Profile Service.
 
-- a Microsoft 365 Global Administrator, either with or without multi-factor authentication (MFA) enabled for the account.
+- a Microsoft 365 Global Admin, either with or without multi-factor authentication (MFA) enabled for the account.
 
 - Logged into Microsoft 365 and SharePoint Server from a server in your SharePoint Server farm.
 
-- Able to launch the Hybrid Picker as a Farm Administrator with elevated permissions.
+- Able to launch the Hybrid Picker as a Farm Admin with elevated permissions.
 
 > [!IMPORTANT]
 > The Hybrid Picker wizard must be launched from an on-premises server with SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 installed. Launch it in the environment you want to use for your SharePoint hybrid. 

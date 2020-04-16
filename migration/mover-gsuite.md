@@ -733,7 +733,7 @@ For us to be able to view and transfer data to and from G Suite Drive, you must 
 
 #### Google Drive permission requirements
 
-Our app requires a Global Administrator for authorization. The following table provides a detailed list of the scopes we require.
+Our app requires a Global Admin for authorization. The following table provides a detailed list of the scopes we require.
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
@@ -823,7 +823,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to
 
 #### Microsoft 365 permission requirements
 
-Our app requires a Global Administrator for authorization. The following table lists the scopes we require:
+Our app requires a Global Admin for authorization. The following table lists the scopes we require:
 
 |**Permission**|**(Details) Allows out app to...**|
 |:-----|:-----|

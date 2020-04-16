@@ -67,7 +67,7 @@ Managing permissions in hub sites is dependent on the underlying type of site. I
 
 Hub site owners define the shared experiences for hub navigation and theme. Hub site members create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on their individual sites.
 
-The SharePoint administrator must specify which users can connect other sites to the hub site. This is done in the SharePoint admin center and cannot be changed by site owners.
+The SharePoint admin must specify which users can connect other sites to the hub site. This is done in the SharePoint admin center and cannot be changed by site owners.
 
 ![Screenshot of hub site registration dialog in the SharePoint admin center](media/permissions-register-hub-site.png)
 
@@ -91,7 +91,7 @@ SharePoint Online has external sharing settings at both the organization level a
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using *Anyone* links, users can still share with guests, who sign in, and with internal users. 
   
-External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings#sharepoint-site-level) for more information.
+External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/Office365/Enterprise/office-365-guest-settings#sharepoint-site-level) for more information.
   
 ### Security and privacy
 

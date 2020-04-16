@@ -32,7 +32,7 @@ Go to the [home page of the new SharePoint admin center](https://admin.microsoft
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the home page.
 
 > [!NOTE]
-> [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/microsoft365/admin/manage/release-options-in-microsoft-365). This means that you might not yet see some features described in this article, or they might look different.
+> [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, in the lower-right corner, select **Feedback**.
 
@@ -64,7 +64,7 @@ On the home page, at a glance, you can see:
   
 ## View Message center posts
 
-In the **Message center** section of the home page, to help you manage upcoming changes, you can read official announcements about new and changed SharePoint features. Each post gives you an overview of a change, and how it might affect your users. To open a post, in the Microsoft 365 admin center, select it (where you can dismiss it if you want to hide it from the list). To sort and filter the [list of messages across all Microsoft 365 services](/microsoft365/admin/manage/message-center), select **All active messages**.
+In the **Message center** section of the home page, to help you manage upcoming changes, you can read official announcements about new and changed SharePoint features. Each post gives you an overview of a change, and how it might affect your users. To open a post, in the Microsoft 365 admin center, select it (where you can dismiss it if you want to hide it from the list). To sort and filter the [list of messages across all Microsoft 365 services](/office365/admin/manage/message-center), select **All active messages**.
   
 ![The Message Center card on the home page](media/804aeffa-f842-4951-a42e-86d7151b28fa.PNG)
   

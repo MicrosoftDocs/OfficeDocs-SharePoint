@@ -141,7 +141,7 @@ Use the following procedure to specify the default content access account.
   
 1. On the Search Administration page, in the **System Status** section, click the link in the **Default content access account** row. 
     
-2. In the **Default Content Access Account** dialog box, in the **Account** box, type the account that you created for content access in the form  _domain\user name_.
+2. In the **Default Content Access Account** dialog, in the **Account** box, type the account that you created for content access in the form  _domain\user name_.
     
 3. Type the password for this account in the **Password** and **Confirm Password** boxes. 
     
@@ -157,7 +157,7 @@ Use the following procedure to specify the contact email address.
   
 1. On the Search Administration page, in the **System Status** section, click the link for the **Contact e-mail address**.
     
-2. In the **Search E-mail Setting** dialog box, in the **E-mail Address** box, type the email address that you want to appear in the logs of servers that are crawled by the search system. 
+2. In the **Search E-mail Setting** dialog, in the **E-mail Address** box, type the email address that you want to appear in the logs of servers that are crawled by the search system. 
     
 3. Click **OK**.
     

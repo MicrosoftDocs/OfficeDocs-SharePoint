@@ -92,7 +92,7 @@ Typically, when you create a credentials mapping in Secure Store, you map multip
 
 To create a Secure Store Target Application, follow these steps.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -191,7 +191,7 @@ To create an ECT, follow these steps.
   
     ![Screenshot of the SQL Server Connection dialog where you can fill in the name of your SQL Azure database server and use Connect with Impersonated Custom ID to enter your Secure Store Application ID.](media/b99c06d1-046e-43c4-984f-c120d746e30a.png)
   
-    In the **SQL Server Connection** dialog box, select **Connect with Impersonated Custom Identity**. Then, in the **Secure Store Application ID** text box, type the Secure Store Application ID that stores credentials for the target database and then select **OK**.
+    In the **SQL Server Connection** dialog, select **Connect with Impersonated Custom Identity**. Then, in the **Secure Store Application ID** text box, type the Secure Store Application ID that stores credentials for the target database and then select **OK**.
     
 10. If you see a prompt for credentials to access the external data source, to access the external data system, enter the correct **User name** and **Password** credentials. Then, to connect, select **OK**. 
     
@@ -283,7 +283,7 @@ To finish setting up the External List, you have to grant permissions to the peo
     > [!NOTE]
     >  Make sure that at least one user or group has **Set Permissions** rights. If you don't assign someone this right, you might create an unmanageable BCS connection. 
   
-    ![Screenshot of the SetObject Permissions dialog box in SharePoint Online. Use this dialog to set permissions for a specified External Content Type.](media/5e760b77-b0cc-4be9-870e-217e902d9245.png)
+    ![Screenshot of the SetObject Permissions dialog in SharePoint Online. Use this dialog to set permissions for a specified External Content Type.](media/5e760b77-b0cc-4be9-870e-217e902d9245.png)
   
 6. Select **Propagate permissions to all methods of this external content type**. Doing this overwrites any existing permissions. 
     

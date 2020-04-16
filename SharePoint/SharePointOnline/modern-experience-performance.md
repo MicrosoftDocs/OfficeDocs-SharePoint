@@ -46,7 +46,7 @@ Content in **public** origins within the Microsoft 365 CDN is accessible anonymo
 
 The Microsoft 365 CDN service is included as part of your SharePoint Online subscription.
 
-For info about how to use the Microsoft 365 CDN, see [Use the Microsoft 365 Content Delivery Network (CDN) with SharePoint Online](/Office365/Enterprise/use-microsoft-365-cdn-with-spo).
+For info about how to use the Microsoft 365 CDN, see [Use the Microsoft 365 Content Delivery Network (CDN) with SharePoint Online](/Office365/Enterprise/use-office-365-cdn-with-spo).
 
 For more info about the Microsoft 365 CDN, see [Microsoft 365 CDN](/Office365/Enterprise/content-delivery-networks).
 
@@ -58,4 +58,4 @@ For more info about the Microsoft 365 CDN, see [Microsoft 365 CDN](/Office365/En
 
 [Content Delivery Networks](/Office365/Enterprise/content-delivery-networks)
 
-[Use the Microsoft 365 Content Delivery Network (CDN) with SharePoint Online](/Office365/Enterprise/use-microsoft-365-cdn-with-spo)
+[Use the Microsoft 365 Content Delivery Network (CDN) with SharePoint Online](/Office365/Enterprise/use-office-365-cdn-with-spo)

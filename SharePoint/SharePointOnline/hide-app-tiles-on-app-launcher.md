@@ -62,6 +62,6 @@ By default, the OneDrive and SharePoint app tiles appear in the app launcher and
 [Customize the navigation on your SharePoint site](https://support.office.com/article/3CD61AE7-A9ED-4E1E-BF6D-4655F0BF25CA#ID0EAACAAA=Online)
   
 <<<<<<< Updated upstream
-[Customize the Microsoft 365 theme for your organization](/microsoft365/admin/setup/customize-your-organization-theme)
+[Customize the Microsoft 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme)
   
 [Add custom tiles to the app launcher](/office365/admin/manage/customize-the-app-launcher)

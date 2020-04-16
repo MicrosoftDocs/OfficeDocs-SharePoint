@@ -679,11 +679,11 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 If you encounter an error on authorization, try signing out of any Microsoft accounts, and attempt to authorize the **Connector** in an Incognito Window.
 
-#### Global Admin account provisioning
+#### Provision global admin accounts
 
 Your Global Admin user must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you also assigned a Microsoft 365 license, and walked through the Microsoft 365 setup process.
 
-#### User provisioning
+#### Provision users
 
 Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to their Microsoft 365, and open Microsoft 365 for us to transfer into their accounts. You can also provision Microsoft 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
 
@@ -693,7 +693,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to
 
 #### Microsoft 365 permission requirements
 
-Our app requires a Global Administrator for authorization. The following table lists the scopes we require.
+Our app requires a Global Admin for authorization. The following table lists the scopes we require.
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
@@ -701,19 +701,19 @@ Our app requires a Global Administrator for authorization. The following table l
 |View your basic profile|See your basic profile (name, picture, user name).|
 |Maintain access to data you have given it access to|See and update the data you gave it access to, even when you are not currently using our app. This does not give our app any additional permissions.|
 
-### Connecting your source Dropbox account
+### Connect your source Dropbox account
 
 If you are not already connected after you have authorized your source, select **Dropbox**, and load the connector. An icon appears, and show you how many users you are migrating.
 
 ![execution select Dropbox source](media/execution-select-Dropbox-source.png)
 
-### Connecting Your destination Microsoft 365 account
+### Connect your destination Microsoft 365 account
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![Execution select Microsoft 365 destination](media/execution-select-microsoft-365-destination.png)
+![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
-#### Creating a new migration
+#### Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 

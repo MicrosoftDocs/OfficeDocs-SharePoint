@@ -99,7 +99,7 @@ If users don't have any recently modified or viewed content in these content sou
 
 - Check that the user is in the Active Directory and that he or she is a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**.
 
-- As an admin, you can allow your organization to access the Office Graph. This makes sure the Discover view shows the most relevant content to users. For more info, see [Control access to the Office Graph](/sharepoint/delve-for-microsoft-365-admins).
+- As an admin, you can allow your organization to access the Office Graph. This makes sure the Discover view shows the most relevant content to users. For more info, see [Control access to the Office Graph](/sharepoint/delve-for-office-365-admins).
 
 - Make sure that you've assigned users a license to access to the Office 365 services that you've activated.
 

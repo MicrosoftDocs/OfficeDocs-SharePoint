@@ -46,12 +46,12 @@ Here are some important considerations for setting a location-based policy:
 > [!NOTE]
 > It can take up to 15 minutes for these settings to take effect. 
   
-1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Access control page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
     
-2. Select **Network location** and turn on **Allow access only from specific IP address ranges**.
+2. Select **Network location**, and turn on **Allow access only from specific IP address ranges**.
 
     ![The Network location panel](media/access-control-network-location.png)
     

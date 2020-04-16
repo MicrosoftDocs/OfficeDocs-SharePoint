@@ -314,7 +314,7 @@ Admins
 
 - [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles.md)
 
-- [Microsoft 365 integration with on-premises environments](/office365/enterprise/microsoft-365-integration)
+- [Microsoft 365 integration with on-premises environments](/office365/enterprise/office-365-integration)
 
 - [User Account Management](/office365/servicedescriptions/office-365-platform-service-description/user-account-management)
 
@@ -324,6 +324,6 @@ Admins
 
 - [Yammer - Admin Help](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 
-- [Office 365 Plan Options](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-plan-options)
+- [Office 365 Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)
   
-- [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-microsoft-365)
+- [Set up the Standard or Targeted release options in Microsoft 365](/office365/admin/manage/release-options-in-office-365)

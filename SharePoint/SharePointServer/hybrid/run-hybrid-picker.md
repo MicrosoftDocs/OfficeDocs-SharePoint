@@ -37,12 +37,11 @@ Hybrid Picker is located in Microsoft 365 for enterprises, and you can use it to
   
  **To run Hybrid Picker**
   
-1. Log on to the console of a SharePoint Server farm server as a farm administrator.
+1. Log in to the console of a SharePoint Server farm server as a farm admin.
     
-2. From the farm server, connect to Microsoft 365 as a global administrator.
+2. From the farm server, connect to Microsoft 365 as a global admin.
     
-3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176)
+3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176).
     
-4. Follow the prompts in Hybrid Picker to configure your hybrid features.
+4. To configure your hybrid features, follow the prompts in Hybrid Picker.
     
-

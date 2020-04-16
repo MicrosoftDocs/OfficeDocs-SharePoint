@@ -46,15 +46,15 @@ Configuring hybrid self-service site creation is done by using the hybrid picker
   
 1. Log on to a server in your SharePoint Server farm as the farm administrator. 
     
-2. From your SharePoint Server computer, open a web browser and log on to Microsoft 365 as a global administrator.
+2. From your SharePoint Server computer, open a web browser and log on to Microsoft 365 as a global admin.
     
-3. In the SharePoint Online Admin Center, click **configure hybrid**.
+3. In the SharePoint Online Admin Center, select **configure hybrid**.
     
-4. On the hybrid picker page, click **Hybrid Picker**.
+4. On the hybrid picker page, select **Hybrid Picker**.
     
-5. Follow the wizard and choose **Hybrid self-service site creation** when prompted. 
+5. Follow the wizard, and when prompted, select **Hybrid self-service site creation**. 
     
-6. When prompted, choose the web application with which you want to use hybrid self-service site creation.
+6. When prompted, select the web application with which you want to use hybrid self-service site creation.
     
 When the hybrid picker wizard completes, hybrid self-service site creation will be enabled for the web application that you selected.
   
@@ -64,15 +64,15 @@ Once you have configured hybrid self-service site creation, you can manage it in
   
  **To manage hybrid self-service site creation**
   
-1. In Central Administration, click **Application Management**.
+1. In Central Administration, select **Application Management**.
     
-2. On the Application Management page, under **Site Collections**, click **Configure self-service site creation**.
+2. On the **Application Management** page, under **Site Collections**, select **Configure self-service site creation**.
     
 3. In the **Web Application** section, select the web application where you want to manage hybrid self-service site creation, and then select or clear the **Create Site Collections in SharePoint Online** check box. 
     
     > [!NOTE]
     > While hybrid users of this web application will be redirected to SharePoint Online for self-service site creation, the other settings on this page continue to apply to any on-premises only users. 
   
-4. Click **OK**.
+4. Select **OK**.
     
 

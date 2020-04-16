@@ -44,9 +44,9 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Applicat
     
 7. In the **Application Pools** list, right-click the application pool on which you want to disable the memory limits, and then click **Recycling**.
     
-8. In the **Edit Application Pool Recycling Settings** dialog box, in the **Memory Based Maximums** section, clear the **Virtual memory usage (in KB)** and **Private memory usage (in KB)** check boxes, and then click **Next**. 
+8. In the **Edit Application Pool Recycling Settings** dialog, in the **Memory Based Maximums** section, clear the **Virtual memory usage (in KB)** and **Private memory usage (in KB)** check boxes, and then click **Next**. 
     
-9. In the **Recycling Events to Log** dialog box, click **Finish**.
+9. In the **Recycling Events to Log** dialog, click **Finish**.
     
 ## See also
 

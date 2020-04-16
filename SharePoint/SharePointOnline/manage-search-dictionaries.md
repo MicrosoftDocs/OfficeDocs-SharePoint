@@ -38,7 +38,7 @@ After you have done this, you can then use the managed property **companies** to
 ## Include company names
 <a name="__toc342653322"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -47,11 +47,7 @@ After you have done this, you can then use the managed property **companies** to
     
 3. On the **Site Settings: Term Store Management Tool** page, to expand the **Search Dictionaries** menu, select the arrow. 
     
-<<<<<<< Updated upstream
 4. Select **Company Inclusions**, then select the arrow, and then select **Create Term**.
-=======
-4. Select **Company Inclusions**, select the arrow, and then select **Create Term**.
->>>>>>> Stashed changes
     
 5. Enter the name of the company that you want to include in the box that appears.
     
@@ -71,11 +67,7 @@ After you have done this, you can then use the managed property **companies** to
    
 4. On the **Taxonomy Term Store** page, to expand the **Search Dictionaries** menu, select the arrow. 
     
-<<<<<<< Updated upstream
 5. Select **Company Exclusions**, then select the arrow, and then select **Create Term**.
-=======
-5. Select **Company Exclusions**, select the arrow, and then select **Create Term**.
->>>>>>> Stashed changes
     
 6. Enter the name of the company that you want to exclude in the box that appears.
     
@@ -102,11 +94,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
 
 4. On the **Site Settings: Term Store Management Tool** page, to expand the **Search Dictionaries** menu, select the arrow. 
     
-<<<<<<< Updated upstream
 5. Select **Query Spelling Inclusions**, then select the arrow, and then select **Create Term**.
-=======
-5. Select **Query Spelling Inclusions**, select the arrow, and then select **Create Term**.
->>>>>>> Stashed changes
     
 6. Enter the query spelling that you want to include in the box that appears.
     
@@ -126,11 +114,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
   
 4. On the **Site Settings: Term Store Management Tool** page, to expand the **Search Dictionaries** menu, select the arrow.
     
-<<<<<<< Updated upstream
 5. Select **Query Spelling Exclusions**, then select the arrow, and then select **Create Term**.
-=======
-5. Select **Query Spelling Exclusions**, select the arrow, and then select **Create Term**.
->>>>>>> Stashed changes
     
 6. Enter the query spelling that you want to exclude in the box that appears.
     
@@ -150,11 +134,7 @@ For example, if you enter a query that contains the word "ampitheater", the quer
    
 4. On the **Site Settings: Term Store Management Tool** page, to expand the **Search Dictionaries** menu, select the arrow.
     
-<<<<<<< Updated upstream
-5. Depending on which dictionary the term is in, select **Company Exclusions**, **Company Inclusions**, **Query Spelling Exclusions** or **Query Spelling Inclusions**.
-=======
 5. Depending on which dictionary the term is in, select **Company Exclusions**, **Company Inclusions**, **Query Spelling Exclusions**, or **Query Spelling Inclusions**.
->>>>>>> Stashed changes
     
 6. Double-click the term that you want to edit.
     

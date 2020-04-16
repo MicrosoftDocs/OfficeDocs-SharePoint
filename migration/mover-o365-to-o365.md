@@ -600,7 +600,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to
 
 #### Microsoft 365 permission requirements
 
-Our app requires a Global Administrator for authorization. The following table lists the scopes we require:
+Our app requires a Global Admin for authorization. The following table lists the scopes we require:
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
@@ -608,22 +608,22 @@ Our app requires a Global Administrator for authorization. The following table l
 |View your basic profile|See your basic profile (name, picture, user name).|
 |Maintain access to data you have given it access to|See and update the data you gave it access to, even when you are not currently using our app. This does not give our app any additional permissions.|
 
-### Connecting your source Office 365 account
+### Connect your source Office 365 account
 
 If you are not already connected after you have authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
-![execution select source](media/execution-select-microsoft-365-source.png)
+![execution select source](media/execution-select-office-365-source.png)
 
 >[!Note]
 >SharePoint Online displays a user count when connecting to the **Transfer Wizard**. This does not represent the actual site count. The SharePoint Online connector counts both individual and team sites. However, the SharePoint Online connector only works with team sites, and does not work with individual user sites.
 
-### Connecting your destination Microsoft 365 account
+### Connect your destination Microsoft 365 account
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![Execution select Microsoft 365 destination](media/execution-select-microsoft-365-destination.png)
+![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
-#### Creating a new migration
+#### Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
@@ -654,13 +654,13 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-#### Creating a new migration from a CSV (optional)
+#### Create a new migration from a CSV (optional)
 
 Occasionally, you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
 In these cases, we trust the CSV upload option is useful. This allows you to lay out all your users and directories, and then provide it to us in a .csv format for us to create your migration.
 
-##### Users to migrate
+##### Migrate users
 
 Your CSV file must follow this format:
 
@@ -689,7 +689,7 @@ For example, this full URL won't work:
 It should be changed to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-#### Creating your CSV in Excel
+#### Create your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
 
@@ -700,13 +700,13 @@ To use an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-#### Reviewing your users
+#### Review your users
 
-##### Checking paths
+##### Check paths
 
 Confirm that the users in the Office 365 source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
-#### Editing
+#### Edit users
 
 Be aware that Users can only be edited if they haven't been scanned, or had a transfer run.
 
@@ -759,7 +759,7 @@ Download an example CSV:
 
 ![Update migration](media/update-migration.png)
 
-#### Adding
+#### Add users
 
 If you missed users in your original CSV upload, or simply want to add new user entries to the current migration, add them via CSV. All entries you add in this manner are appended to the current migration, meaning this doesn't modify existing rows, and you can create duplicate entries alongside the ones that already exist.
 
@@ -778,7 +778,7 @@ Tips for creating the CSV:
 
 ![Add to Migration](media/add-to-migration.png)
 
-#### Duplicating
+#### Duplicate users
 
 At any time, you may duplicate a user in the **Migration Manager** list. To duplicate a user entry:
 
@@ -803,7 +803,7 @@ To create or edit a schedule:
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
 
-##### Deleting
+##### Delete users
 
 Be aware that users can only be deleted if they haven't been scanned, or had a transfer run.
 
@@ -817,7 +817,7 @@ To delete a user entry:
 
 ![delete user](media/delete-user.png)
 
-### Reviewing your permission map
+### Review your permission map
 
 The permission map is a critical part of your migration.
 
@@ -851,7 +851,7 @@ You may either auto-discover or upload a permission map file. We automatically p
 >[!Note]
 >Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, `@gmail.com` to `@hotmail.com` - is automatically removed. Our app marks these as redundant entries.
 
-### Uploading a permission map (optional)
+### Upload a permission map (optional)
 
 You can upload a permission map in CSV format. This overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
 
@@ -878,7 +878,7 @@ Download an example CSV:
 
 [example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
 
-#### Creating your CSV in Excel
+#### Create your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -894,7 +894,7 @@ For example:
 
 ![excel overview](media/excel-overview.png)
 
-#### Exporting a permission map
+#### Export a permission map
 
 You can export a permission map in CSV format.
 
@@ -968,7 +968,7 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 
 ![migration finalize mover](media/migration-finalize-mover.png)
 
-## Running the migration
+## Run the migration
 
 ### Scanning
 
@@ -979,7 +979,7 @@ Scanning your source data is key to running a smooth and stress-free migration. 
 >
 >After a transfer is scanned, the source/destination are effectively *locked in.* Be sure to double-check that they are correct, and not left blank.
 
-### Running the scan
+### Run the scan
 
 You now have a list of users appearing in the migration, complete with destination set up.
 
@@ -1002,7 +1002,7 @@ After users appear in green, yellow, or red, on the top right side of your scree
 
 The **Scan Report** is covered in-depth in the **Reports** subsection under the **Scan Report** section of this guide.
 
-#### Migrating users
+#### Migrate users
 
 We recommend starting slow. Test for one user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
 
@@ -1016,7 +1016,7 @@ We recommend starting slow. Test for one user, then three to five. If it looks g
 >[!Note]
 >If your transfer encounters an error or crashes, our app automatically reruns the transfer up to three times to attempt to resolve the issue.
 
-#### Canceling users
+#### Cancel users
 
 To cancel a currently running transfer:
 
@@ -1026,7 +1026,7 @@ To cancel a currently running transfer:
 
 This action stops the transfer as soon as possible (usually within a few seconds).
 
-#### Rerunning users
+#### Rerun users
 
 The best way to resolve any issues with a transfer is to rerun it. This action checks over all the files in your destination, compares them to the source, and then transfers over the new or modified files.
 
@@ -1107,7 +1107,7 @@ If you require assistance with your communication strategy, ask us for help.
 
 ## Transfer logs
 
-### Viewing your logs
+### View your logs
 
 Viewing your logs is an excellent way to troubleshoot transfer issues. They inform you about each action we performed on each file and folder. If we run into any problems, you receive an error message next to the file with a description about what happened.
 
@@ -1136,7 +1136,7 @@ View an example CSV log or in your browser:
 
 [User log for DropboxAdmin to BoxAdmin transfer_ tRanSacTionID.html](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/User log for DropboxAdmin to BoxAdmin transfer_ tRanSacTionID.html)
 
-### Interpreting a Log File
+### Interpret a log file
 
 - **Status**: Whether an action was a success or a failure.
 - **Size**: File size in bytes, or that it's a folder being created/operated on.

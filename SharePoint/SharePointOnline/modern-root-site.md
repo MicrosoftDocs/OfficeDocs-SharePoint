@@ -30,7 +30,7 @@ When SharePoint is set up for an organization, a root (or top-level) site is cre
 - If you want to continue using the classic team site, [enable the modern site pages library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries) and [set a modern page as the home page](/sharepoint/dev/transform/modernize-userinterface-site-pages) of the root site. This gives users a modern team site experience with the left navigation.
 
 > [!IMPORTANT]
-> Before you launch an intranet landing page at your root site location, we strongly encourage you to [review the guidance about launching healthy portals](portal-health.md). <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-microsoft-365). This means that you might not yet see some features described in this article, or they might look different.
+> Before you launch an intranet landing page at your root site location, we strongly encourage you to [review the guidance about launching healthy portals](portal-health.md). <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
 
 ## What's the root site?
 
@@ -67,7 +67,7 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
 
 We recommend replacing the root site at a time when site usage is low.  
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.

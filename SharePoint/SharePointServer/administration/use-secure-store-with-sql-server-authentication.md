@@ -185,13 +185,13 @@ Use the following procedure to specify a Secure Store target application from Ex
     
 4. On the Save Data Connection File and Finish page, click **Authentication Settings**.
     
-5. In the **Excel Services Authentication Settings** dialog box, select the **Use a stored account** option, type the name of the Secure Store target application that you created to use for SQL Server Authentication, and then click **OK**.
+5. In the **Excel Services Authentication Settings** dialog, select the **Use a stored account** option, type the name of the Secure Store target application that you created to use for SQL Server Authentication, and then click **OK**.
     
 6. On the Save Data Connection File and Finish page, type a name for the data connection file (or keep the default) in the **File Name** text box, and then click **Finish**.
     
-7. In the **Import Data** dialog box, choose one of the **PivotTable** options, and then click **OK**.
+7. In the **Import Data** dialog, choose one of the **PivotTable** options, and then click **OK**.
     
-8. If a **SQL Server Login** dialog box appears, type the password for the **Login ID**, and then click **OK**.
+8. If a **SQL Server Login** dialog appears, type the password for the **Login ID**, and then click **OK**.
     
 Once you have connected to the data source, you can complete your Excel workbook and publish it to a SharePoint site to be rendered with Excel Services. The connection information to the Secure Store target application will remain embedded in the file.
   
@@ -209,7 +209,7 @@ Optionally, you can export the Secure Store connection information as an ODC fil
     
 2. Select the connection that you are using and then click **Properties**.
     
-3. In the **Connection Properties** dialog box, click the **Definition** tab. 
+3. In the **Connection Properties** dialog, click the **Definition** tab. 
     
 4. On the **Definition** tab, click **Authentication Settings**.
     
@@ -264,7 +264,7 @@ Use the following procedure to specify a Secure Store target application from Vi
     
 1. Click **Authentication Settings**.
     
-2. On the **Visio Services Authentication Settings** dialog box, choose the **Use a stored account** option, type the application ID of the Secure Store target application that you created in the **Application ID** text box, and click **OK**.
+2. On the **Visio Services Authentication Settings** dialog, choose the **Use a stored account** option, type the application ID of the Secure Store target application that you created in the **Application ID** text box, and click **OK**.
     
 3. Click Browse.
     
@@ -277,7 +277,7 @@ Use the following procedure to specify a Secure Store target application from Vi
     
 6. Click **Finish**.
     
-8. If the **Web File Properties** dialog box appears, update the Title, Description, and Keywords if desired, and click **OK**.
+8. If the **Web File Properties** dialog appears, update the Title, Description, and Keywords if desired, and click **OK**.
     
 9. On the Select Data Connection page, click **Finish**.
     

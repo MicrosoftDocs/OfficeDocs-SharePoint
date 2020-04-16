@@ -29,7 +29,7 @@ If you're a global or SharePoint admin in Microsoft 365, you can convert any exi
   
 ## Create a hub site in the new SharePoint admin center
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
@@ -41,7 +41,7 @@ If you're a global or SharePoint admin in Microsoft 365, you can convert any exi
     > [!TIP] 
     > Using the Hub site menu, you can also associate a site with the hub site, change a site's association to a different hub site, or disassociate a site from a hub site. 
 
-3. Enter a display name for the hub site and specify the individual users or security groups you want to allow to associate sites with the hub.
+3. Enter a display name for the hub site, and specify the individual users or security groups you want to allow to associate sites with the hub.
 
     ![The Register as hub site panel](media/register-hub-site-panel.png)
 
@@ -52,7 +52,6 @@ If you're a global or SharePoint admin in Microsoft 365, you can convert any exi
 4. Select **Save**.
 
 
-    
 ## See also
 
 - For info about using a site design that gets applied when sites join the hub, see [Set up a site design for your hub site](set-up-site-design-hub-site.md). For more info about site designs and site scripts, see [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview).

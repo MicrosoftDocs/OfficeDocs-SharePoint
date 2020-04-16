@@ -34,14 +34,14 @@ When users encounter an app that requires admin permission to install, they'll s
   
 ![Screen shot of the application details page with the Request Approval link highlighted](media/4b047f1e-0254-4bc6-82a5-b96e0c091d7f.jpg)
   
- Clicking the link displays an **App Request** dialog box where they provide justification for the request. 
+ Clicking the link displays an **App Request** dialog where they provide justification for the request. 
   
-![Screen shot of the app request dialog box](media/ad8f97f2-4cf1-41f8-bcd2-5cc7e1e0ecc6.jpg)
+![Screen shot of the app request dialog](media/ad8f97f2-4cf1-41f8-bcd2-5cc7e1e0ecc6.jpg)
   
 When they click **Request**, an automated email is sent to everyone who is a site collection admin for the app catalog.
   
 > [!NOTE]
-> Sometimes, depending on the Office Store settings, the **App Request** dialog box will include a place for users to indicate the number of licenses required along with the justification. See [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md) for more information. 
+> Sometimes, depending on the Office Store settings, the **App Request** dialog will include a place for users to indicate the number of licenses required along with the justification. See [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md) for more information. 
   
  **Approve or deny requests**
   
@@ -55,7 +55,7 @@ When they click **Request**, an automated email is sent to everyone who is a sit
     
   - **Reject** to deny the request and send an auto-generated email to the requester. 
     
-    ![Screen shot showing the Approve or Reject App Request dialog box](media/c5527b3f-6413-4591-9d91-5f89f2e253a3.png)
+    ![Screen shot showing the Approve or Reject App Request dialog](media/c5527b3f-6413-4591-9d91-5f89f2e253a3.png)
   
 The app catalog is where you store and manage all apps for the organization. There you can see a list of all pending app installation requests. 
   

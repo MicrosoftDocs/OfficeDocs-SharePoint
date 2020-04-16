@@ -43,7 +43,7 @@ This preview is not supported in the following Microsoft 365 services:
 This preview requires that your organization also be opted into the [Azure AD email one-time passcode authentication preview](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
 
 To opt in to the Azure AD passcode authentication preview
-1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global administrator.
+1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
 2. In the nav pane, select **Azure Active Directory**.
 3. Under **Manage**, select **Organizational Relationships**.
 4. Select **Settings**.

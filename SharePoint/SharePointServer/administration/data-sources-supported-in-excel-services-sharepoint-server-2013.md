@@ -72,13 +72,13 @@ In Excel 2016, you can connect to lots of data sources. These include the follow
     
 To bring data into Excel, you can use existing connections, or you can create your own connections. Existing connections can be stored on your computer or in a central location, such as a SharePoint site.
   
-Ideally, you'll have access to a set of existing data connections in a site, such as a Business Intelligence Center site, that you can use to work with data in Excel. This is especially helpful if you plan to publish a workbook to a documents library in a Business Intelligence Center site. Typically, a SharePoint administrator configures such locations as trusted locations in Excel Services. This makes it possible for you and others to refresh data in your workbooks to view the most current information. 
+Ideally, you'll have access to a set of existing data connections in a site, such as a Business Intelligence Center site, that you can use to work with data in Excel. This is especially helpful if you plan to publish a workbook to a documents library in a Business Intelligence Center site. Typically, a SharePoint admin configures such locations as trusted locations in Excel Services. This makes it possible for you and others to refresh data in your workbooks to view the most current information. 
   
  **To use an existing data connection in Excel**
   
 1. In Excel, on the **Data** tab, choose **Existing Connections**.
     
-2. Choose **Browse for More** to open the **Select a Data Source** dialog box. 
+2. Choose **Browse for More** to open the **Select a Data Source** dialog. 
     
 3. Specify the location of the data source that you want to use, select the data source, and then choose **Open**.
     

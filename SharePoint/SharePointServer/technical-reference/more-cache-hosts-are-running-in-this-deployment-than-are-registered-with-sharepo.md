@@ -38,7 +38,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: More Cac
     
 4. In the **Services** list, double-click **AppFabric Caching Service**.
     
-5. In the **AppFabric Caching Service Properties (Local Computer)** dialog box, click **Stop**.
+5. In the **AppFabric Caching Service Properties (Local Computer)** dialog, click **Stop**.
     
 ## See also
 <a name="server"> </a>

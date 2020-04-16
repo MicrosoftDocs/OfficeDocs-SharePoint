@@ -38,7 +38,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: InfoPath
     
 4. On the Web Applications page, click the Web application for which you want to configure a service connection, and then click **Service Connections** on the ribbon. 
     
-5. In the **Configure Service Application Associations** dialog box, ensure that the **State Service** check box is selected, and then click **OK**.
+5. In the **Configure Service Application Associations** dialog, ensure that the **State Service** check box is selected, and then click **OK**.
     
 **Create a new State Service application by using Microsoft PowerShell**
   

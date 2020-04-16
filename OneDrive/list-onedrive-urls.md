@@ -73,7 +73,7 @@ The list you create in these steps will be saved to a text file.
     
 4. The script will prompt you for the SharePoint tenant admin Url. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint tenant admin Url.
 
-5. You will then be prompted to log into the tenant. Use a SharePoint Administrator or Global Administrator account.
+5. You will then be prompted to log into the tenant. Use a SharePoint admin or Global Admin account.
 
 After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive Urls in your organization. The following text provides an example of how the list of Urls in this file should be formatted.
   

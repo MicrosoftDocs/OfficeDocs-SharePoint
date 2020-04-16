@@ -34,7 +34,7 @@ This article describes the prerequisites that are required to deploy a SharePoin
     
 - An operational SharePoint Server farm. Services must be running on the local farm - farms with federated services are not supported. For more information about setting up a farm, see [Install SharePoint Server](../install/install.md).
     
-- A [properly configured Microsoft 365 tenant](configure-microsoft-365-for-sharepoint-hybrid.md) that is provisioned with SharePoint Online with one of the following subscription plans: E1 supports [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) only, E3, or E4. 
+- A [properly configured Microsoft 365 organization](configure-office-365-for-sharepoint-hybrid.md) that is provisioned with SharePoint Online with one of the following subscription plans: E1 supports [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) only, E3, or E4. 
     
 ## Certificate requirements
 <a name="CertReq"> </a>
@@ -73,7 +73,7 @@ This section describes the certificates you'll need to configure a inbound conne
   
 #### About the Secure Channel SSL certificate
 
-This certificate provides authentication and encryption between the reverse proxy device and Microsoft 365. It must be either a wildcard or a SAN certificate and be issued by a public root certification authority. For more information, see [About Secure Channel SSL certificates](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#AboutSecureChannel) and [Get a Secure Channel SSL certificate](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#GetSecureChannel).
+This certificate provides authentication and encryption between the reverse proxy device and Microsoft 365. It must be either a wildcard or a SAN certificate and be issued by a public root certification authority. For more info, see [About Secure Channel SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#AboutSecureChannel) and [Get a Secure Channel SSL certificate](plan-connectivity-from-office-365-to-sharepoint-server.md#GetSecureChannel).
   
 #### About the on-premises SharePoint SSL certificate
 
@@ -81,7 +81,7 @@ If you'll configure your primary web application to use SSL (which is the web ap
   
 If this web application already exists and is configured for SSL, you're ready to go. Otherwise you have to either obtain or create one for this purpose. For production environments, this certificate should be issued by a public certification authority (CA). For test and development environments, it can be a self-signed certificate.
   
-For more info, see [Plan SSL certificates](plan-connectivity-from-microsoft-365-to-sharepoint-server.md#certificates). 
+For more info, see [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates). 
   
 #### Supported reverse proxy devices
 

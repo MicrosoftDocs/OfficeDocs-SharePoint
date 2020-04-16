@@ -33,7 +33,7 @@ Use these resources to further explore governance in SharePoint and related serv
 
 - [Manage site creation for SharePoint in Microsoft 365](manage-site-creation.md)
 - [SharePoint site designs & site script overview](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview)
-- [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
+- [Overview of retention policies](https://docs.microsoft.com/office-365/compliance/retention-policies)
 - [Managing sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md)
 
 ### Microsoft Teams
@@ -46,7 +46,7 @@ Use these resources to further explore governance in SharePoint and related serv
 - [Plan for governance in Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance)
 - [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
 - [Microsoft 365 Groups naming policy](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)
-- [Microsoft 365 Group expiration policy](https://docs.microsoft.com/office365/admin/create-groups/microsoft-365-groups-expiration-policy)
+- [Microsoft 365 Group expiration policy](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)
 - [Guest access in Microsoft 365 Groups](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
-- [Microsoft 365 reports in the admin center – Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-365-groups)
+- [Microsoft 365 reports in the admin center – Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
 

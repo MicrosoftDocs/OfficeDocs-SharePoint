@@ -296,7 +296,7 @@ In this procedure, you create the link in the SharePoint Server enterprise Searc
     
 4. In the **Navigation Link** dialog, do the following: 
     
-     ![screen shot of Navigation Link Dialog Box](../media/BoxCutterSearch-NavLinkDialogBox.jpg)
+     ![screen shot of Navigation Link dialog](../media/BoxCutterSearch-NavLinkDialogBox.jpg)
   
 1. In the **Title** box, enter the text (such as MyOneDrive) that you want to use for the search-vertical link in the enterprise Search Center that opens the search-results page that you created in the second procedure (Step 2) in this article.
     

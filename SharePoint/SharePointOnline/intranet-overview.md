@@ -30,7 +30,7 @@ Whether you're the company intranet owner, an IT Professional or administrator, 
 **Who should use this roadmap?**
 
 - [Company intranet owner](#company-intranet-owner) -  this is the person managing the overall direction and coordination of your organization's intranet
-- [IT pros and Admins](#it-pros-and-admins) - one or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet
+- [IT pros and Admins](#it-pros-and-admins) - one or more IT and SharePoint admins who will be responsible for managing the backend configuration and implementation for your organization's intranet
 - [Business owners and site owners](#business-owners-and-site-owners) - the various stakeholders who will be responsible for creating and maintaining portions of the intranet
 - [Content creators](#content-creators) - the people creating and managing content on sites and pages
 
@@ -108,7 +108,7 @@ A critical part of your SharePoint intranet is your site architecture. By using 
 
 #### Brand your intranet
 
-Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/microsoft365/admin/setup/customize-your-organization-theme).
+Branding is an important part of your intranet. With SharePoint, you can [add branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
 
 *Start by -* Answering - Do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own? Then, collect approved brand assets like brand colors, logos, and images depending on your company's branding requirements.
 

@@ -28,7 +28,7 @@ A home site is a [communication site](https://support.office.com/article/94A3342
 ) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
 
 > [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-microsoft-365). This means that you might not yet see the feature described in this article.
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see the feature described in this article.
 
 ## Home site capabilities
 
@@ -43,7 +43,7 @@ When you set a site as your home site:
 - The site is automatically set up as an [organization news site](organization-news-site.md). (Although you can have only one home site, you can have multiple organization news sites.)
 
 > [!NOTE]
-> Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=start%20page).
+> Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/office-365/roadmap?filters=&searchterms=start%20page).
 
 ## Plan and create your home site
 
@@ -62,7 +62,7 @@ To set a site as your organization's home site, you first need to create and cus
 **Important**: Make sure the site adheres to the [guidelines for healthy portals](https://Aka.ms/portalhealth).
 4. Optional (recommended): When you're ready to launch, [replace your root site with the new site](modern-root-site.md#replace-your-root-site).
 5. To make the site a home site, follow the steps in the next section.
-6. Make sure to [customize the Microsoft 365 theme for your organization](/microsoft365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
+6. Make sure to [customize the Microsoft 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme), adding your logo and linking it to the home site. 
 
 ## Set a site as your home site
 

@@ -913,7 +913,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users need to have l
 
 #### Microsoft 365 permission requirements
 
-Our app requires a Global Administrator for authorization. The following table lists the scopes we require:
+Our app requires a Global Admin for authorization. The following table lists the scopes we require:
 
 |**Permission**|**(Details) Allows out app to...**|
 |:-----|:-----|
@@ -924,19 +924,19 @@ Our app requires a Global Administrator for authorization. The following table l
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-### Connecting your source agent for Windows
+### Connect your source agent for Windows
 
 If you are not already connected after you have authorized your source, select **Agent for Windows**, and load the connector. An icon appears showing you the folders you are migrating.
 
 ![Execution select agent source](media/execution-select-agent-source.png)
 
-### Connecting your destination Microsoft 365 account
+### Connect your destination Microsoft 365 account
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![Execution select Microsoft 365 destination](media/execution-select-microsoft-365-destination.png)
+![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
-#### Creating a new migration
+#### Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 

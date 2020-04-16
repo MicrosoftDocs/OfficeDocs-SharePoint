@@ -38,7 +38,7 @@ If your users are already syncing document libraries with the previous OneDrive 
 To set up OneDrive with SharePoint Server 2019, you can either use Group Policy or set the registry keys directly. 
 
 > [!NOTE]
-> For settings that require a tenant ID, you can use **OP1** if you sync a single domain. Do not use this if you sync multiple domains.
+> For settings that require an organization ID, if you sync a single domain, you can use **OP1**. Do not use this if you sync multiple domains.
 > 
 > The Known Folder Move settings don't work for SharePoint Server.
 
@@ -105,7 +105,7 @@ Thumbnails don’t appear in File Explorer for files synced from SharePoint on-p
   
 ### Sharing from File Explorer
 
-When users share files and folders from File Explorer, the sharing option will open the browser instead of the Share dialog box.
+When users share files and folders from File Explorer, the sharing option will open the browser instead of the Share dialog.
   
 ### Privacy settings
 

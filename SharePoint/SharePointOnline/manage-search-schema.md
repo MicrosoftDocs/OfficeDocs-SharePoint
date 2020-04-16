@@ -136,7 +136,7 @@ If you need a property of a different type, or one that has different characteri
   
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -167,7 +167,7 @@ If you need a property of a different type, or one that has different characteri
     
 8. In the **Mappings to crawled properties** section, select **Add a mapping**.
     
-9. In the **crawled property selection** dialog, select a crawled property to map to the managed property, and then select **OK**. Repeat this step if you want to map more crawled properties to the same managed property.
+9. In the **crawled property selection** dialog, select a crawled property to map to the managed property, and then select **OK**. If you want to map more crawled properties to the same managed property, repeat this step.
     
 10. In the **Mappings to crawled properties** section, specify if you want to include: 
     

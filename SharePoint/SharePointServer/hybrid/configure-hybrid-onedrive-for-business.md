@@ -48,44 +48,44 @@ This video shows a walkthrough of configuring hybrid OneDrive for Business.
 
 To use OneDrive for Business, your users must have **Create Personal Site** and **Follow People and Edit Profile** permissions. Both are controlled by the user permissions in the User Profile service application. 
   
-1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group.
+1. Verify that the user account that is performing this procedure is a member of the Farm Admins group.
     
 2. In your on-premises SharePoint Server environment, go to **Central Administration** > **Manage Service Applications**.
     
 3. Click the User Profile Service Application.
     
-4. On the **Manage Profile Service** page, under **People**, click **Manage User Permissions**.
+4. On the **Manage Profile Service** page, under **People**, select **Manage User Permissions**.
     
-5. In the **Permissions for User Profile Service Application** dialog box, click **All Authenticated Users** (or a specific audience that you intend to use as a pilot group of users). 
+5. In the **Permissions for User Profile Service Application** dialog, select **All Authenticated Users** (or a specific audience that you intend to use as a pilot group of users). 
     
 6. Verify that the **Create Personal Site** and **Follow People and Edit Profile** permission check boxes are selected. 
     
 ## Configure hybrid OneDrive for Business
 <a name="Configure"> </a>
 
-To configure hybrid OneDrive for Business, you must be both a SharePoint Server farm administrator and a Microsoft 365 global administrator. Perform these steps on a server in your SharePoint Server farm.
+To configure hybrid OneDrive for Business, you must be both a SharePoint Server farm administrator and a Microsoft 365 global admin. Perform these steps on a server in your SharePoint Server farm.
   
  **To configure hybrid OneDrive for Business**
   
-1. In the SharePoint Online admin center, in the left navigation, click **configure hybrid**.
+1. In the SharePoint Online admin center, in the left navigation, select **configure hybrid**.
     
 2. Click **Go to Hybrid Picker Download Page**.
     
-3. On the SharePoint Hybrid Picker page, click **click here**.
+3. On the SharePoint Hybrid Picker page, select **click here**.
     
 4. Accept the security prompts to install and run the wizard.
     
-5. On the **SharePoint Hybrid Picker** page, click **Next**.
+5. On the **SharePoint Hybrid Picker** page, select **Next**.
     
-6. On the **Credentials** page, verify your on-premises credentials and enter your global administrator credentials. Click **Validate credentials**, and then click **Next**.
+6. On the **Credentials** page, verify your on-premises credentials and enter your global admin credentials. Select **Validate credentials**, and then select **Next**.
     
-7. On the **Checking prerequisites** page, click **Next**.
+7. On the **Checking prerequisites** page, select **Next**.
     
-8. On the **Select the features you want to use in your hybrid environment** page, select the Hybrid OneDrive check box and deselect any other check boxes. Click **Next**.
+8. On the **Select the features you want to use in your hybrid environment** page, select the Hybrid OneDrive check box and deselect any other check boxes. Select **Next**.
     
-9. When the configuration completes, click **Next**.
+9. When the configuration completes, select **Next**.
     
-10. Add a rating and comments if desired, and then click **Close**.
+10. Add a rating and comments if desired, and then select **Close**.
     
 ## Create an audience (if necessary)
 <a name="CreateAudience"> </a>

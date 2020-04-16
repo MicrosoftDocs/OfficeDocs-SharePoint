@@ -193,7 +193,7 @@ You must restart the SharePoint Server Search 14 (for SharePoint Server 2010), S
 
 2.  On the **Start** menu, point to **All Programs**, point to **Administrative Tools**, and then click **Services**.
 
-3.  Right click the **SharePoint Server Search 14** (for SharePoint Server 2010), **SharePoint Server Search 15** (for SharePoint Server 2013) or **SharePoint Server Search 16** (for SharePoint Server 2016 and SharePoint Server 2019) service and then click **Properties**. The **Properties** dialog box appears.
+3.  Right click the **SharePoint Server Search 14** (for SharePoint Server 2010), **SharePoint Server Search 15** (for SharePoint Server 2013) or **SharePoint Server Search 16** (for SharePoint Server 2016 and SharePoint Server 2019) service and then click **Properties**. The **Properties** dialog appears.
 
 4.  Click **Stop**. After the service stops, click **Start**.
 

@@ -55,7 +55,7 @@ Use the following procedure to reset the search index.
     
 6. On the Index Reset page, verify that the **Deactivate search alerts during reset** check box is checked, and then click **Reset Now**.
     
-7. In the confirmation dialog box that appears, click **OK** to confirm that you want to reset the index. 
+7. In the confirmation dialog that appears, click **OK** to confirm that you want to reset the index. 
     
     The Search Administration page opens and the System Status is displayed.
     

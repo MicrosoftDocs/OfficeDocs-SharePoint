@@ -57,7 +57,7 @@ To avoid user confusion, keep the following in mind when you turn on hybrid OneD
     
 - Because there's no direct link between OneDrive for Business in SharePoint Server and OneDrive for Business, users' **Shared with me** lists in Office 365 won't display documents that have been shared with them from on-premises SharePoint Server.
 
-- In SharePoint Server 2016 and SharePoint Server 2019, the custom company logo set in the Microsoft 365 Admin center appears in the SuiteNav menu bar. For more info about how to set the company logo, see [Customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/microsoft365/admin/setup/customize-your-organization-theme).
+- In SharePoint Server 2016 and SharePoint Server 2019, the custom company logo set in the Microsoft 365 Admin center appears in the SuiteNav menu bar. For more info about how to set the company logo, see [Customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
     
 ## Getting started
 

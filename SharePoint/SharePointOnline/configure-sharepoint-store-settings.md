@@ -32,7 +32,7 @@ By default, SharePoint is configured to allow users to get or request apps from 
   
 Even if you choose not to allow users to buy apps from the SharePoint Store, they will still be able to browse the SharePoint Store and request apps.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -41,9 +41,9 @@ Even if you choose not to allow users to buy apps from the SharePoint Store, the
     
 3. Next to **App Purchases**, do one of the following:
     
-  - Select **Yes** if you want users to be able to get free, trial, or paid third-party apps from the SharePoint store. 
+  - If you want users to be able to get free, trial, or paid third-party apps from the SharePoint store, select **Yes**. 
     
-  - Select **No** if you do not want users to be able to get third-party apps. 
+  - If you do not want users to be able to get third-party apps, select **No**. 
     
 ## View or manage app requests
 <a name="__top"> </a>

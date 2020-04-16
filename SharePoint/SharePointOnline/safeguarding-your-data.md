@@ -63,9 +63,9 @@ When data transits into the service from clients, and between datacenters, it's 
  **Application security**: Engineers who build features follow the security development lifecycle. Automated and manual analyses help identify possible vulnerabilities. The Microsoft security response center ([Microsoft Security Response Center](https://www.microsoft.com/msrc?rtc=1)) helps triage incoming vulnerability reports and evaluate mitigations. Through the Microsoft Cloud Bug Bounty, people across the world can earn money by reporting vulnerabilities. Read more about this at [Microsoft Cloud Bug Bounty Terms](https://www.microsoft.com/msrc/bounty-microsoft-cloud?rtc=1
 ).
   
- **Content protection**: Your data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Microsoft 365, see [Service encryption with Customer Key for Microsoft 365 FAQ](/microsoft365/securitycompliance/service-encryption-with-customer-key-faq).
+ **Content protection**: Your data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive for Business and SharePoint Online](/office365/securitycompliance/data-encryption-in-odb-and-spo). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Microsoft 365, see [Service encryption with Customer Key for Microsoft 365 FAQ](/office365/securitycompliance/service-encryption-with-customer-key-faq).
   
-The Microsoft 365 anti-malware engine scans documents at upload time for content matching an AV signature (updated hourly). For info, see [Virus detection in SharePoint Online](/office365/securitycompliance/virus-detection-in-spo). For more advanced protection, use Microsoft 365 Advanced Threat Protection (ATP). ATP analyzes content that's shared and applies threat intelligence and analysis to identify sophisticated threats. For info, see [Microsoft 365 Advanced Threat Protection](/microsoft365/securitycompliance/microsoft-365-atp).
+The Microsoft 365 anti-malware engine scans documents at upload time for content matching an AV signature (updated hourly). For info, see [Virus detection in SharePoint Online](/office365/securitycompliance/virus-detection-in-spo). For more advanced protection, use Microsoft 365 Advanced Threat Protection (ATP). ATP analyzes content that's shared and applies threat intelligence and analysis to identify sophisticated threats. For info, see [Microsoft 365 Advanced Threat Protection](/office365/securitycompliance/office-365-atp).
   
 To limit the risk of content being downloaded to untrusted devices: 
   
@@ -99,11 +99,11 @@ The Microsoft 365 "Red Team" within Microsoft is made up of intrusion specialist
   
 To monitor and observe activity in your Microsoft 365 subscription:
   
-- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Microsoft 365 Management APIs overview](/office/microsoft-365-management-api/microsoft-365-management-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP, and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For info, see [Overview of Microsoft 365 Cloud App Security](/microsoft365/securitycompliance/microsoft-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
+- If you have an on-premises security operations center or SIEM, you can monitor activity with the Management Activity API. For information, see [Microsoft 365 Management APIs overview](/office/office-365-management-api/office-365-management-apis-overview). This will show you activity from across SharePoint, Exchange, Azure Active Directory, DLP, and more. If you don't have an on-premises security operations center or SIEM, you can use Cloud App Security. Cloud App Security uses the Management Activity API. For info, see [Overview of Microsoft 365 Cloud App Security](/office365/securitycompliance/office-365-cas-overview). Through Cloud App Security, you can report, search, and alert on activity.
     
 - Use Azure Active Directory identity protection. This applies machine learning to detect suspicious account behavior, for example, simultaneous sign-ins from the same user in different parts of the world. You can configure identity protection to take action to block these sign-ins. For more info, see [Azure Active Directory Identity Protection](/azure/active-directory/identity-protection/overview).
     
-- Use Secure Score to evaluate the security profile of your subscription against a known good baseline, and identify opportunities to increase protection. For more info, see [Introducing the Microsoft 365 Secure Score](/microsoft365/securitycompliance/microsoft-365-secure-score).
+- Use Secure Score to evaluate the security profile of your subscription against a known good baseline, and identify opportunities to increase protection. For more info, see [Introducing the Microsoft 365 Secure Score](/office365/securitycompliance/office-365-secure-score).
     
 ## Audited and compliant
  
@@ -111,8 +111,8 @@ Regulatory compliance is fundamental to Microsoft 365. We make sure the service 
   
 To meet your regulatory requirements: 
   
-- Audit Microsoft 365 activity in the Security &amp; Compliance Center: [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/microsoft365/securitycompliance/search-the-audit-log-in-security-and-compliance).
+- Audit Microsoft 365 activity in the Security &amp; Compliance Center: [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
     
-- Create eDiscovery cases: [Manage eDiscovery cases in the Microsoft 365 Security &amp; Compliance Center](/microsoft365/SecurityCompliance/ediscovery-cases)
+- Create eDiscovery cases: [Manage eDiscovery cases in the Microsoft 365 Security &amp; Compliance Center](/office365/SecurityCompliance/ediscovery-cases)
     
 - Apply retention policies: [Create and apply information management policies](https://support.office.com/article/eb501fe9-2ef6-4150-945a-65a6451ee9e9).
