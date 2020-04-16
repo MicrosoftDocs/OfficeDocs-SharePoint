@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: "In this article, you will learn how to create a report on file and folder sharing in a SharePoint site."
+description: "In this article, you'll learn how to create a report on file and folder sharing on a SharePoint site."
 ---
 
 # Report on file and folder sharing in a SharePoint site
