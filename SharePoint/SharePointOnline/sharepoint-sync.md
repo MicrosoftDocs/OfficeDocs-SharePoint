@@ -12,7 +12,7 @@ ms.service: sharepoint-online
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
-description: "In this article, you will learn about the SharePoint file sync in the OneDrive sync app for Windows and Mac."
+description: "In this article, you'll learn about syncing SharePoint files using the OneDrive sync app for Windows and Mac."
 ---
 
 # SharePoint file sync
