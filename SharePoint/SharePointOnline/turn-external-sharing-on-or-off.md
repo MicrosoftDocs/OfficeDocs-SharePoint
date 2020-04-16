@@ -19,7 +19,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how global and SharePoint admins can change the organization-level sharing settings for SharePoint and OneDrive in Office 365."
+description: "Learn how global and SharePoint admins can change the organization-level sharing settings for SharePoint and OneDrive."
 ---
 
 # Manage sharing settings
