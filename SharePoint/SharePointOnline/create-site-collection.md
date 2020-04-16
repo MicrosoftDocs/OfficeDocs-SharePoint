@@ -27,7 +27,7 @@ search.appverid:
 - MBS150
 - MET150
 ms.assetid: 3a3d7ab9-5d21-41f1-b4bd-5200071dd539
-description: "This article describes how global admins and SharePoint admins in Office 365 can create sites (previously called "site collections")."
+description: "This article describes how global and SharePoint admins can create sites (previously called "site collections")."
 ---
 
 # Create a site
