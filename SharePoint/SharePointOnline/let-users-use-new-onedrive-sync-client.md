@@ -1,5 +1,5 @@
 ---
-title: "How to let users sync SharePoint files with OneDrive sync app - SharePoint Online"
+title: "How to let users sync SharePoint files with OneDrive sync app"
 ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
