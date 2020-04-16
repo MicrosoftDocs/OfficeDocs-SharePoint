@@ -19,7 +19,7 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
-description: "Learn about SharePoint online, which is a cloud-based service that helps organizations share and manage content, knowledge, and applications."
+description: "Learn about SharePoint online, which is a cloud-based service that helps organizations share and manage content, and collaborate with others."
 ---
 
 # Introduction to SharePoint Online
