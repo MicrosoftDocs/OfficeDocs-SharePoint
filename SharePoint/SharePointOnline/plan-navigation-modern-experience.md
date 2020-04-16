@@ -1,5 +1,5 @@
 ---
-title: "Navigation guide for modern Sharepoint experience - SharePoint Online"
+title: "Navigation guide for modern SharePoint experience"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "In this article, you will learn about fundamental principles and good practices for how to plan navigation in the SharePoint modern experience"
+description: "In this article, you'll learn about fundamental principles and good practices for how to plan navigation in the SharePoint modern experience"
 ---
 
 # Planning Navigation for the modern SharePoint experience
