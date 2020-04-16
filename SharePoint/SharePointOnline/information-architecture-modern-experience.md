@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "In this article, you will learn about information architecture in the SharePoint modern experience."
+description: "In this article, you'll learn about information architecture in the SharePoint modern experience."
 ---
 
 # Information architecture in modern SharePoint
