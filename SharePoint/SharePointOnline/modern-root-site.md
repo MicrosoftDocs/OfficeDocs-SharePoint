@@ -20,14 +20,14 @@ search.appverid:
 - MET150
 - BSA160
 
-description: "Learn about modernizing the classic root site for your organization to a communication site as the root site."
+description: "Learn about the options for modernizing the root site for your organization if it's currently a classic site."
 ---
 
 # Modernize your root site
   
 When SharePoint is set up for an organization, a root (or top-level) site is created. Before April 2019, the site was created as a classic team site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
 
-- If you have a different site that you want to use as your root site, or if you want to use a modern team site, [replace (swap) the root site](#replace-your-root-site) with it.
+- If you have a different site that you want to use as your root site (a communication site or modern team site that isn't connected to an Office 365 group), [replace (swap) the root site](#replace-your-root-site) with the other site.
 - If you want the content on your classic team site to be displayed with the layout of a communication site, [apply the communication site experience](#apply-the-communication-site-experience-to-the-root-site-coming-soon) to the root site. This feature isn't available yet, but is coming soon.
 - If you want to continue using the classic team site, [enable the modern site pages library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries) and [set a modern page as the home page](/sharepoint/dev/transform/modernize-userinterface-site-pages) of the root site. This gives users a modern team site experience with the left navigation.
 
