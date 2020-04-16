@@ -1,5 +1,5 @@
 ---
-title: "Box to OneDrive and SharePoint Migration Guide - SharePoint Online"
+title: "Box to OneDrive Migration Guide"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
