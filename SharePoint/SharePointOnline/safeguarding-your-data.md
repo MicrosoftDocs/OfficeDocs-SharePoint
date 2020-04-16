@@ -1,5 +1,5 @@
 ---
-title: "Cloud data security measures in SharePoint Online & OneDrive - SharePoint Online"
+title: "Cloud data security measures in SharePoint & OneDrive"
 ms.reviewer: mswann
 manager: 
 ms.author: kaarins
@@ -21,7 +21,7 @@ search.appverid:
 - ODB160
 - MET150
 ms.assetid: 5aa038e8-8ff0-4704-9e6a-fd72af0a2035
-description: "Learn what Microsoft does to protect your data in SharePoint Online and OneDrive, and steps you can take to increase security"
+description: "Learn what Microsoft does to protect your data in SharePoint and OneDrive, and steps you can take to increase security"
 ---
 
 # How SharePoint Online and OneDrive safeguard your data in the cloud
