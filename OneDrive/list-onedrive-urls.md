@@ -21,7 +21,7 @@ ms.collection: M365-collaboration
 ms.custom:
 -  seo-marvel-apr2020
 ms.assetid: 8e200cb2-c768-49cb-88ec-53493e8ad80a
-description: "In this article, you'll learn how to display a list of all OneDrive users and URLs in your organization."
+description: "In this article, you'll learn how to display a list of all the OneDrive URLs for the users in your organization."
 ---
 
 # Get a list of all user OneDrive URLs in your organization
