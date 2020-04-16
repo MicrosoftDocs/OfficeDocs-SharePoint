@@ -16,7 +16,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "In this article, you will learn how to specify a site as an official/authoritative organization news site."
+description: "In this article, you'll learn how to specify a site as an official or authoritative organization news site."
 ---
 
 # Create an organization news site
