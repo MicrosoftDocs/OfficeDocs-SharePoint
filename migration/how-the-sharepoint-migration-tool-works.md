@@ -1,5 +1,5 @@
 ---
-title: "How does the SharePoint Migration Tool Works? - SharePoint Online"
+title: "How does the SharePoint Migration Tool work? - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
