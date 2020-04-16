@@ -1,5 +1,5 @@
 ---
-title: "Sharing & permissions in the SharePoint modern experience - SharePoint Online"
+title: "Sharing & permissions in the SharePoint modern experience"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -18,7 +18,7 @@ search.appverid:
 - SPO160
 - MET150
 localization_priority: Priority
-description: "In this article, you will learn about the available options for sharing and permissions in the SharePoint modern experience."
+description: "In this article, you'll learn about the available options for sharing and permissions in the SharePoint modern experience."
 ---
 
 # Sharing and permissions in the SharePoint modern experience
