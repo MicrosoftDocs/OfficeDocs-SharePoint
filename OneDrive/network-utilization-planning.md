@@ -22,7 +22,7 @@ search.appverid:
 - GOB160
 - MET150
 ms.assetid: b664e743-ae8b-4a93-aefd-1b20c584a93a
-description: "Learn how IT admins can estimate the network bandwidth that thier users will need to sync their files with the OneDrive sync app."
+description: "Learn how IT admins can estimate the network bandwidth that users will need to sync their files with the OneDrive sync app."
 ---
 
 # Network utilization planning for the OneDrive sync app
