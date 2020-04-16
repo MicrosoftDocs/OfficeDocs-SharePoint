@@ -19,7 +19,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 8b1f8b6b-09c6-41c9-b1ca-88cbeee86ba2
-description: "In this article, you'll learn about how to remove or un-register a hub site so that it no longer remains a hub site."
+description: "In this article, you'll learn about how to remove (un-register) a hub site so that it no longer remains a hub site."
 ---
 
 # Unregister a site as a hub site
