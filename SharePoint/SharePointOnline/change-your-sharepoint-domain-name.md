@@ -15,7 +15,6 @@ ms.custom:
 - 'O365E_DomainsWizAdd_SPOUseMultiServices'
 - 'O365E_DomainsProp_SPO'
 - 'O365E_DomainsMain_PublicWebsite'
--  'seo-marvel-apr2020'
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
