@@ -19,7 +19,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 92bea781-15d8-4bda-805c-e441e2191ff3
-description: "In this article, you will learn how to create or convert a site as a hub site in SharePoint admin center."
+description: "In this article, you'll learn how to convert a site into a hub site in the SharePoint admin center."
 ---
 
 # Create a hub site in SharePoint
