@@ -1,5 +1,5 @@
 ---
-title: "Migrate content to OneDrive for Business - SharePoint Online"
+title: "Migrate content to OneDrive in Office 365"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
