@@ -1,5 +1,5 @@
 ---
-title: "Prerequisites for SharePoint Migration Tool - SharePoint Online"
+title: "Prerequisites for SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
