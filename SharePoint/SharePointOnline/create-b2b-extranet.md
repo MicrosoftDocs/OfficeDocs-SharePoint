@@ -14,7 +14,6 @@ localization_priority: Normal
 ms.collection:  
 - Ent_O365_Hybrid
 - M365-collaboration
-ms.custom:
 search.appverid:
 - SPO160
 - MOE150
