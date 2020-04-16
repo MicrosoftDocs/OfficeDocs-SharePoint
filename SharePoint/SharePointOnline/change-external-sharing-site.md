@@ -19,7 +19,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how to change the external sharing setting for a site. Only global or SharePoint admin in Office 365 can change the external sharing setting for a site"
+description: "Learn how global and SharePoint admins can change the external sharing setting for a site."
 ---
 
 # Turn external sharing on or off for a site
