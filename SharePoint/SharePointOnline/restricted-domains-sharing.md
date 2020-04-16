@@ -1,5 +1,5 @@
 ---
-title: "Domain level restrictions for SharePoint & OneDrive content - SharePoint Online"
+title: "Domain level restrictions for SharePoint & OneDrive content"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
