@@ -1,5 +1,5 @@
 ---
-title: "File collaboration in Microsoft 365 - SharePoint Online"
+title: "File collaboration in Microsoft 365 - SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
