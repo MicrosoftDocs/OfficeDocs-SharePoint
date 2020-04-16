@@ -24,7 +24,7 @@ search.appverid:
 - BCS160
 - GSP150
 - MET150
-description: "In this article, you will learn how to run scripts on sites when they're associated with a hub site."
+description: "In this article, you'll learn how to run scripts on sites that are associated with a hub site."
 ---
 
 # Set up a site design for your hub site  
