@@ -21,7 +21,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 77389c2c-8e7e-4b16-ab97-1c7103784b08
-description: "In this article, you'll learn how to use the SharePoint admin center to manage site collection storage quotas."
+description: "In this article, you'll learn how to use the SharePoint admin center to manage the storage limits for sites (previously called "site collections") in your organization."
 ---
 
 # Manage site storage limits
