@@ -1,5 +1,5 @@
 ---
-title: "Information architecture for modern experience - SharePoint Online"
+title: "Information architecture for the modern experience - SharePoint"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
