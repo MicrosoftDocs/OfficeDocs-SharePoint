@@ -1,5 +1,5 @@
 ---
-title: "Network location based access to SharePoint & OneDrive data - SharePoint Online"
+title: "Network location-based access to SharePoint and OneDrive"
 ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
