@@ -1,5 +1,5 @@
 ---
-title: "Why move from Publishing sites to Communication sites? - SharePoint Online"
+title: "Why move from publishing sites to communication sites? - SharePoint"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
