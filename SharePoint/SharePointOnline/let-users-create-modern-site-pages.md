@@ -20,7 +20,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b
-description: "In this article, you will learn how to allow or prevent users from adding pages on SharePoint sites."
+description: "In this article, you'll learn how to allow or prevent users from adding pages on SharePoint sites."
 ---
 
 # Let users create modern site pages
