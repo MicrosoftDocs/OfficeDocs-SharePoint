@@ -14,7 +14,7 @@ localization_priority: Priority
 search.appverid: MET150
 ms.custom:
 - seo-marvel-apr2020
-description: "In this article, you will learn about performance improvements made in the SharePoint modern experience."
+description: "In this article, you'll learn about performance improvements made in the SharePoint modern experience."
 ---
 
 # Performance in the modern SharePoint experience
