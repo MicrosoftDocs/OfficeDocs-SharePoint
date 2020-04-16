@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article is a quickstart guide, on how to get started with, and set up OneDrive for small businesses."
+description: "This article is a quickstart guide on how to get started with and set up OneDrive for small businesses."
 ---
 
 # OneDrive QuickStart guide for small businesses
