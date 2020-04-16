@@ -21,12 +21,12 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 9a7e46f9-3fc4-4297-955a-82cb292a5be0
-description: "Learn how global admins and SharePoint admins in Office 365 can add and remove site admins (previously called "site collection admins")."
+description: "Learn how global and SharePoint admins can add and remove site admins (previously called "site collection administrators")."
 ---
 
 # Manage site admins
 
-This article describes how global admins and SharePoint admins in Office 365 can add and remove site admins (previously called "site collection admins"). If you're an owner of a communication site, or a site that belongs to an Office 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're an admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
+This article describes how global admins and SharePoint admins in Office 365 can add and remove site admins (previously called "site collection administrators"). If you're an owner of a communication site, or a site that belongs to an Office 365 group, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#__BKMKMngSitePermissions) for info about giving people access to your site. If you're an admin for a classic site, see [Manage your SharePoint site settings](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42#id0eaabaaa=server). 
   
 > [!NOTE]
 > If you're a global admin and want info about assigning other users the SharePoint admin role in Office 365, see [Assigning admin permissions](/office365/admin/add-users/assign-admin-roles). 
