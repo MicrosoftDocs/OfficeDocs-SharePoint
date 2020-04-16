@@ -20,7 +20,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: ee8b91c5-05ec-44c2-9796-78fa27ec8425
-description: "Learn how to use the SharePoint admin center to control sharing settings for OneDrive and SharePoint."
+description: "Learn how to control sharing at the organization level for OneDrive and SharePoint."
 ---
 
 # Manage sharing in OneDrive and SharePoint
