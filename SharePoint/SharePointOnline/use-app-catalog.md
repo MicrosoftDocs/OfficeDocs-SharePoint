@@ -1,5 +1,5 @@
 ---
-title: "Create custom business apps with App Catalog - SharePoint Online"
+title: "Distribute business apps using the App Catalog - SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -21,7 +21,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 0b6ab336-8b83-423f-a06b-bcc52861cba0
-description: "Learn how SharePoint admins can use the SharePoint App Catalog site to make custom business apps that can be deployed for site users to install sites."
+description: "Learn how SharePoint admins can use the SharePoint App Catalog site to upload and install (deploy) custom business apps and third-party apps."
 ---
 
 # Use the App Catalog to make custom business apps available for your SharePoint environment
