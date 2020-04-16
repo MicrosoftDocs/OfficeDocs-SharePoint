@@ -1,5 +1,5 @@
 ---
-title: "Format JSon or CSV for data content migration - SharePoint Online"
+title: "Format JSON or CSV for data content migration - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
