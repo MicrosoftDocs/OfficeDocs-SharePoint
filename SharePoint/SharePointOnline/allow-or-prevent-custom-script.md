@@ -25,7 +25,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 1f2c515f-5d7e-448a-9fd7-835da935584f
-description: "Learn how global or SharePoint admin in Office 365, can change the custom script setting for SharePoint sites in the organization."
+description: "Learn how global and SharePoint admins can change the custom script setting for SharePoint sites in the organization."
 ---
 
 # Allow or prevent custom script
