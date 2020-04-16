@@ -16,7 +16,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn about how does the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
+description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
 
 # Get started with the Migration Manager (preview)
