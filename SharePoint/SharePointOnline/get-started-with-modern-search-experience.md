@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "In this article, you will learn about when to use the classic or modern search experience in SharePoint."
+description: "In this article, you'll learn about when to use the classic or modern search experience in SharePoint."
 ---
 
 # Search experiences in SharePoint
