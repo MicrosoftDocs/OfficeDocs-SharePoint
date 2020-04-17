@@ -26,6 +26,10 @@ We're continuously adding new features to the new SharePoint admin center and fi
 > [!NOTE]
 > The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br><br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article. <br>To see what's recently rolled out in the Microsoft 365 admin center, see [What's new in the MIcrosoft 365 admin center](/microsoft-365/admin/whats-new-in-preview).
   
+## April 2020
+
+- **Support for the Global reader role**. Users assigned this role can view all info in the admin center, but can't save any changes. [Learn more about this role](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader)
+
 ## December 2019
 
 - **Customizable navigation pane**. You can [customize the navigation pane to show or hide items](/sharepoint/get-started-new-admin-center#customize-the-navigation-pane).
