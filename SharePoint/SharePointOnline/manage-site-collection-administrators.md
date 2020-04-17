@@ -21,7 +21,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 9a7e46f9-3fc4-4297-955a-82cb292a5be0
-description: "Learn how global and SharePoint admins can add and remove site admins (previously called "site collection administrators")."
+description: "Learn how global and SharePoint admins can add and remove site admins."
 ---
 
 # Manage site admins
