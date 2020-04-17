@@ -1,5 +1,5 @@
 ---
-title: "Box to OneDrive and SharePoint Migration Guide"
+title: "Box to OneDrive Migration Guide"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,10 +15,11 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
-ms.custom: 
 ms.assetid: 
-
+description: "Learn how to evaluate the environment, prepare, and migrate content from Box to OneDrive in Office 365."
 ---
 
 # Box to OneDrive Migration Guide
@@ -183,7 +184,6 @@ Microsoft’s recommendation is to not handle external sharing during the act of
 - For **Shared libraries**:<br> 
     - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. Read more details here: [Use Office 365 SharePoint Online as a business-to-business (B2B) extranet solution](/sharepoint/create-b2b-extranet).<br>
     - If content cannot be grouped as such, then externally reshare on the file or folder level in the target team library. 
-
 
 
 

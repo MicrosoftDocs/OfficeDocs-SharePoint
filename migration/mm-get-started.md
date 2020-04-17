@@ -1,5 +1,5 @@
 ---
-title: "Get started with Migration Manager (Preview)"
+title: "Get started with Migration Manager (preview) - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -13,8 +13,10 @@ localization_priority: Priority
 ms.collection: 
 - M365-collaboration
 - SPMigration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid: MET150
-description: Get started with Migration Manager
+description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
 
 # Get started with the Migration Manager (preview)
