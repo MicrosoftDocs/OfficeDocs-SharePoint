@@ -77,7 +77,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 ## Set up a single agent
 
-1. Go to the [Desktop Tool (SPMT) page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 2. Select **Download agent setup file**.
 3. Click **Run**.
 4. Enter your SharePoint admin username and password. These are to the SharePoint environment where you will be migrating your content. Click **Next**.
