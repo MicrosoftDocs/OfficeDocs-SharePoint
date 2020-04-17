@@ -19,7 +19,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 91c18651-c017-47d1-9c27-3a22f325d6f1
-description: "In this article, you'll learn how to restore deleted sites (previously called "site collections") in the SharePoint admin center."
+description: "In this article, you'll learn how to restore deleted sites in the SharePoint admin center."
 ---
 
 # Restore deleted sites
