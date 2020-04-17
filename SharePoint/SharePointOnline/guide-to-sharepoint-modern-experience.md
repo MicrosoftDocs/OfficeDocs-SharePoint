@@ -13,10 +13,12 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about the SharePoint modern experience."
+description: "In this article, you'll learn about the modern experience in SharePoint and how you can begin to take advantage of it."
 ---
 
 # Guide to the Modern experience in SharePoint

@@ -1,5 +1,5 @@
 ---
-title: "Intro to file collaboration in Microsoft 365, powered by SharePoint"
+title: "File collaboration in Microsoft 365 - SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
@@ -54,15 +56,15 @@ When users keep files on their local device or on a network share, they're out o
 
 Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](https://docs.microsoft.com/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
 
-- **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [More info](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)
+- **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [See Overview of data loss prevention](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)
 
-- **Retention labels**. Classify files to be retained, permanently deleted, or marked as a record. [More info](https://docs.microsoft.com/office365/securitycompliance/labels)
+- **Retention labels**. Classify files to be retained, permanently deleted, or marked as a record. [See Overview of retention labels](https://docs.microsoft.com/office365/securitycompliance/labels)
 
-- **Sensitivity labels**. Classify and protect highly confidential files with encryption and permissions. [More info](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels)
+- **Sensitivity labels**. Classify and protect highly confidential files with encryption and permissions. [See Learn about sensitivity labels](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels)
 
-- **Reports**. Monitor activity and usage in SharePoint and OneDrive. [More info](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?view=o365-worldwide#which-activity-reports-are-available-in-the-admin-center)
+- **Reports**. Monitor activity and usage in SharePoint and OneDrive. [See Which activity reports are available in the admin center](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?view=o365-worldwide#which-activity-reports-are-available-in-the-admin-center)
 
-- **Office 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [More info](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)
+- **Office 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [See Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)
 
 - **Files Restore**. If a location is affected by malicious software, or someone deletes important files, you can [restore a document library](https://support.office.com/article/317791c3-8bd0-4dfd-8254-3ca90883d39a) to an earlier point in time.
 
@@ -188,7 +190,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 ## Prerequisites
 
-**Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint Online service description](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, Advanced eDiscovery. For info, see <https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description>.
+**Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint Online service description](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, Advanced eDiscovery. For info, [see Office 365 platform service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
 
 **Assign the SharePoint admin role**. Users assigned this role will have access to the SharePoint admin center and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](https://docs.microsoft.com/sharepoint/sharepoint-admin-role).
 

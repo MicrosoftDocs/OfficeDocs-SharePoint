@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - ODB160
 - MOE150
@@ -20,7 +22,7 @@ search.appverid:
 - MBS150
 - ODB150
 - MET150
-description: "Learn how changing a User Principal Name (UPN) affects the OneDrive URL and OneDrive features."
+description: "In this article, you'll learn how changing a User Principal Name (UPN) affects the OneDrive URL and OneDrive features."
 ---
 
 # How UPN changes affect the OneDrive URL and OneDrive features

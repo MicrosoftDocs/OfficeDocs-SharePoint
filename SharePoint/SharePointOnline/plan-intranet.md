@@ -13,12 +13,14 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
-description: "Learn about planning and deploying a SharePoint intranet."
+description: "Learn about how to plan a new SharePoint intranet with focus on bringing sites online quickly and getting a return on your investment"
 ---
 
 # Plan an intelligent SharePoint intranet
