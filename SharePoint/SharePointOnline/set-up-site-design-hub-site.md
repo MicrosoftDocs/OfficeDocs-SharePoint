@@ -10,7 +10,9 @@ f1.keywords:
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.custom: Adm_O365
+ms.custom: 
+- Adm_O365
+- seo-marvel-apr2020
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -22,7 +24,7 @@ search.appverid:
 - BCS160
 - GSP150
 - MET150
-description: "Learn how to run scripts on sites when they're associated with a hub site."
+description: "In this article, you'll learn how to run scripts on sites that are associated with a hub site."
 ---
 
 # Set up a site design for your hub site  

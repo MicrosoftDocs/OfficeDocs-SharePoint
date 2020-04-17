@@ -1,5 +1,5 @@
 ---
-title: "Using PowerShell cmdlets to migrate to SharePoint Online"
+title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -18,8 +18,10 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid: MET150
-description: "New Powershell cmdlets let you migrate to SharePoint Online."
+description: "Learn how the Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint Online."
 ---
 
 # Migrate to SharePoint Online using PowerShell
