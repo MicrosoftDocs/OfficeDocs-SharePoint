@@ -1,5 +1,5 @@
 ---
-title: "General migration performance guidance"
+title: "Migration performance guide for SharePoint & OneDrive - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -13,8 +13,9 @@ localization_priority: Priority
 ms.collection:
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid: MET150
-ms.custom: 
 description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Online Migration API."
 ---
 

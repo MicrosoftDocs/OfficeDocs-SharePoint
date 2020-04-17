@@ -12,6 +12,7 @@ ms.service: one-drive
 localization_priority: Normal
 ms.custom: 
 - Adm_O365
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - BCS160
@@ -19,7 +20,7 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
-description: "Learn how to install the OneDrive sync app for every user account on a Windows PC."
+description: "In this article, you'll learn how to install the OneDrive sync app for every user account on a Windows PC."
 ---
 
 # Install the sync app per machine
@@ -58,15 +59,15 @@ No, although a single version of OneDrive.exe is installed, a new process is cre
 **Will the same update rings apply to per-machine?** 
 If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you will continue to be in the same ring as before. 
  
-In the past you may have used a user group policy (under HKCU) to select the Enterprise ring ([Receive OneDrive sync app updates on the Enterprise ring](https://docs.microsoft.com/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy will not work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing)).
+In the past you may have used a user group policy (under HKCU) to select the Deferred ring ([Receive OneDrive sync app updates on the Deferred ring](https://docs.microsoft.com/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy will not work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing)).
 
 > [!NOTE]
-> We do not recommend selecting the Enterprise ring while this feature is in preview because you will not receive bug fixes for any issues we find.  
+> We do not recommend selecting the Deferred ring while this feature is in preview because you will not receive bug fixes for any issues we find.  
  
 **Does the per-machine sync app follow the same update process/cadence as the per-user sync app?** 
 Yes, the per-machine sync app will auto-update on the same cadence as the per-user sync app and the same rings are supported (see question above). The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync app update process](sync-client-update-process.md)
  
-The sync app is an extension of the service and a very thin client so auto-updating to the latest version is critical to maintaining a high-quality sync experience. As a result, we recommend that you keep your users in the default Production ring and rely on auto-update to take care of updating to the latest version. If your organization requires you to deploy updates manually through Configuration Manager, we recommend that you select the Enterprise ring and deploy the upcoming builds before auto-update takes effect as described here. 
+The sync app is an extension of the service and a very thin client so auto-updating to the latest version is critical to maintaining a high-quality sync experience. As a result, we recommend that you keep your users in the default Production ring and rely on auto-update to take care of updating to the latest version. If your organization requires you to deploy updates manually through Configuration Manager, we recommend that you select the Deferred ring and deploy the upcoming builds before auto-update takes effect as described here. 
 
 **Do automatic updates of the per-machine sync app require user intervention?**
 User intervention is not required for the per-machine sync app to update itself. Elevation is required when you first set it up. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.

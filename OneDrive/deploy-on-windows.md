@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - ODB160
@@ -21,7 +23,7 @@ search.appverid:
 - MBS150
 - ODB150
 ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
-description: "Learn how to deploy OneDrive apps using Microsoft Endpoint Configuration Manager."
+description: "In this article, you'll learn how to deploy OneDrive apps using Microsoft Endpoint Configuration Manager."
 ---
 
 # Deploy OneDrive apps using Microsoft Endpoint Configuration Manager
@@ -58,7 +60,7 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
 1. In Configuration Manager, select **Create Device Collection** and follow the steps in the Create Device Collection Wizard. 
 
-2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Enterprise ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
+2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Deferred ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
   
 3. Download the [sample Configuration Manager package](https://go.microsoft.com/fwlink/p/?LinkId=824069). It's a .zip file that contains the script installer deployment type. For more information about packages and programs in Configuration Manager, see [Packages and programs in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs).
 
