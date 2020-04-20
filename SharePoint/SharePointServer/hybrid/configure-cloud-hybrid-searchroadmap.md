@@ -93,7 +93,10 @@ On the application server that hosts the SharePoint ServerCentral Administration
   
 1. Log on to the console as a farm administrator.
     
-2. Connect to Office 365 as a global administrator.
+2. Connect to Office 365 as one of the following roles:
+   - Global Administrator
+   - Application Administrator
+   - Cloud Application Administrator
     
 3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176) to download, install, and start the Hybrid Picker wizard. 
     
@@ -120,7 +123,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
   
 1. Make sure you're using the same user account as when you installed SharePoint Server. This account is granted the appropriate permissions to run Window Powershell cmdlets.
     
-2. Start the Windows Powershell console with administrator privileges: Click **Start**, type **PowerShell**, and then right-click **Windows PowerShell** and select **Run as administrator.**
+2. Start the Windows PowerShell console with administrator privileges: Click **Start**, type **PowerShell**, and then right-click **Windows PowerShell** and select **Run as administrator.**
     
 3. Run the **CreateCloudSSA.ps1** PowerShell script. 
     
@@ -192,7 +195,10 @@ On the application server that hosts the SharePoint ServerCentral Administration
 
     **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and ** CloudSsaID ** is the name of the cloud SSA that you created earlier. 
     
-7. When prompted, type the global admin credentials for your Office 365 tenant.
+7. When prompted, use one of the following admin rules to sign in your Office 365 tenant:
+   - Global Administrator
+   - Application Administrator
+   - Cloud Application Administrator
     
 ## Set up search architecture in SharePoint Server for cloud hybrid search
 <a name="BKMK_SetupSearchArch"> </a>

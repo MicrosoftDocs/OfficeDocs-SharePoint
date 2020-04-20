@@ -1,5 +1,5 @@
 ---
-title: "Let users sync SharePoint files with the new OneDrive sync app"
+title: "How to let users sync SharePoint files with the OneDrive sync app"
 ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid:
 - SPO160
 - ODB160

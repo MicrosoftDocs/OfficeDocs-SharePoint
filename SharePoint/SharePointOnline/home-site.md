@@ -13,13 +13,13 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 - BSA160
-
-
-description: "Plan and create the top landing page for your organization, and then set it as your home site."
+description: "Learn how to plan and create the top landing page for your organization, and then set it as your home site."
 ---
 
 # Set up a home site for your organization
@@ -43,7 +43,7 @@ When you set a site as your home site:
 - The site is automatically set up as an [organization news site](organization-news-site.md). (Although you can have only one home site, you can have multiple organization news sites.)
 
 > [!NOTE]
-> We're working to integrate the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) so users can easily navigate between them, and so that the branding, theming, header, navigation, and footer elements from the home site are applied to the start page.
+> Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=start%20page).
 
 ## Plan and create your home site
 
