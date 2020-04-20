@@ -13,6 +13,8 @@ localization_priority: Priority
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - ODB160
 - MOE150
@@ -21,7 +23,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
-description: "Learn how to use Group Policy to administer settings for the OneDrive sync app."
+description: "In this article, you'll learn how to use Group Policy to administer settings for the OneDrive sync app."
 ---
 
 # Use Group Policy to control OneDrive sync settings

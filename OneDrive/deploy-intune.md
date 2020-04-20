@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - ODB160
@@ -21,7 +23,7 @@ search.appverid:
 - MBS150
 - ODB150
 ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
-description: "Learn how to deploy OneDrive apps by using Intune."
+description: "In this article, you'll learn how to deploy OneDrive apps to iOS, Androind and Windows using Intune."
 ---
 
 # Deploy OneDrive apps by using Intune
@@ -78,6 +80,7 @@ To use Intune to deploy OneDrive to Windows devices, follow these steps:
 
 > [!NOTE]
 > You aren't required to deploy the entire Microsoft 365 suite at once. If you need the OneDrive sync app only, you can select that one item.
+
 
 6. Click to configure the required App Suite information, and then select**OK**.
 7. Click to configure the required App Suite Settings, and then select **OK**.

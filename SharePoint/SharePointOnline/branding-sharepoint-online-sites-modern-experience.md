@@ -13,10 +13,12 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about branding your sites in the SharePoint modern experience."
+description: "Learn about branding your sites in the SharePoint modern experience to match your company or organizational brand."
 ---
 
 # Branding your SharePoint site
