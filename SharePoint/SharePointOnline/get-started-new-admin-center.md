@@ -37,16 +37,6 @@ Go to the [home page of the new SharePoint admin center](https://admin.microsoft
   
 Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner.
 
-## Open the new SharePoint admin center by default
-
-1. In the left pane, select **Settings**.
-
-2. Select **Default admin experience**.
-
-3. Select **Open the new SharePoint admin center by default**, and then select **Save**.
-
-    ![The default admin experience setting](media/default-admin-experience.PNG)
-
 ## View reports
 
 On the home page, at a glance, you can see:
