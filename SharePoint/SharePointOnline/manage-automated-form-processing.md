@@ -1,7 +1,7 @@
 ---
 title: "Manage automated form processing"
 ms.reviewer: ssquires
-ms.author: tomresing
+ms.author: toresing
 author: tomresing
 manager: pamgreen
 audience: Admin
