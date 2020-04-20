@@ -23,7 +23,7 @@ search.appverid:
 - MBS150
 - ODB150
 ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
-description: "In this article, you'll learn how to deploy OneDrive apps to iOS, Androind and Windows using Intune."
+description: "In this article, you'll learn how to deploy OneDrive apps to iOS, Android and Windows using Intune."
 ---
 
 # Deploy OneDrive apps by using Intune
