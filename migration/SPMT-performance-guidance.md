@@ -25,7 +25,7 @@ When using the SharePoint Migration Tool (SPMT), follow these guidelines to help
 
 -	[Improving the speed at which the source can be read](#improving-the-speed-at-which-the-source-can-be-read)
 -	[Improving the migration computer speed](#improving-the-migration-computer-speed)
--	[Improving your connectivity to Microsoft 365 and Azure](#improving-your-connectivity-to-office-365-and-azure)
+-	[Improving your connectivity to 0ffice 365 and Azure](#improving-your-connectivity-to-0ffice-365-and-azure)
 -	[Performing migration following our published guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
 
 

@@ -115,7 +115,7 @@ If users want to browse to their OneDrive for Business directory directly, they 
 ## (Optional) Create a search vertical
 <a name="Verify"> </a>
 
-You can set up a search vertical so that you can search content stored in OneDrive for Business. The specific steps to set up the search vertical are in the article [Set up Search of OneDrive for Business from SharePoint Server](set-up-search-of-onedrive-for-business-from-sharepoint-server.md).
+You can set up a search vertical so that you can search content stored in OneDrive for Business. The specific steps to set up the search vertical are in the article [Set up Search of OneDrive for Business from SharePoint Server](set-up-search-of-onedrive-for-business-in-office-365-from-sharepoint-server.md).
   
 ## (Optional) Customize the Microsoft 365 navigation experience (SharePoint Server 2013)
 <a name="CustomNav"> </a>
