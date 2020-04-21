@@ -11,6 +11,8 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 53c86040-07fa-4ea7-bc55-34ee96b437fe
 description: "Learn how to create different permission levels for different groups of people within a site collection."
 ---

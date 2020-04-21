@@ -10,6 +10,8 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: b1e3cd23-1a78-4264-9284-87fed7282048
 ms.custom:
 - seo-marvel-apr2020

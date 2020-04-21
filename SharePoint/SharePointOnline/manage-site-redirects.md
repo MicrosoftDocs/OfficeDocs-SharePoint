@@ -10,6 +10,8 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration

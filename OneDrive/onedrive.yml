@@ -16,6 +16,7 @@ metadata:
   audience: Admin
   ms.date: 03/17/2020 #Required; mm/dd/yyyy format
   localization_priority: Priority
+  search.appverid: MET150
   ms.custom: seo-marvel-apr2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new

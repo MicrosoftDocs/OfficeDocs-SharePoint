@@ -10,6 +10,8 @@ f1.keywords:
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: IT_Sharepoint_Server_Top
 description: "Learn about the differences between the search experiences in SharePoint Server"
 ---
