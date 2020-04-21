@@ -341,7 +341,6 @@
 ##### [Display hybrid federated search results in SharePoint Online](../hybrid/display-hybrid-federated-search-results-in-sharepoint-online.md)
 ##### [Configure hybrid SharePoint taxonomy and hybrid content types](../hybrid/configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md)
 ##### [Hybrid self-service site creation](../hybrid/hybrid-self-service-site-creation.md)
-##### [Set up Search of OneDrive for Business from SharePoint Server](../hybrid/set-up-search-of-onedrive-for-business-from-sharepoint-server.md)
 ##### [Deploy a Business Connectivity Services hybrid solution](../hybrid/deploy-a-business-connectivity-services-hybrid-solution.md)
 ###### [Prepare your environment](../hybrid/prepare-your-environment.md)
 ####### [Deploy the hybrid scenario as an external list](../hybrid/deploy-the-hybrid-scenario-as-an-external-list.md)
