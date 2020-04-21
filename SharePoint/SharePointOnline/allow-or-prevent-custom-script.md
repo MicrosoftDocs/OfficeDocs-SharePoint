@@ -12,6 +12,7 @@ ms.topic: article
 ms.custom:
 - 'O365M_NoScript'
 - 'O365E_NoScript'
+- 'seo-marvel-apr2020'
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  
@@ -24,7 +25,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 1f2c515f-5d7e-448a-9fd7-835da935584f
-description: "Learn how to change the custom script setting for SharePoint sites in your organization."
+description: "Learn how global and SharePoint admins can change the custom script setting for SharePoint sites in the organization."
 ---
 
 # Allow or prevent custom script

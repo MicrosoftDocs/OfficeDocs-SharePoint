@@ -16,7 +16,9 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to report on file and folder sharing in a SharePoint site."
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article, you'll learn how to create a report on file and folder sharing on a SharePoint site."
 ---
 
 # Report on file and folder sharing in a SharePoint site

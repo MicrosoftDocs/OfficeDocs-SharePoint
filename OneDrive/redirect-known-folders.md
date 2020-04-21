@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - ODB160
 - ODB150
@@ -20,7 +22,7 @@ search.appverid:
 - GOB160
 - MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
-description: "Learn how to redirect users' Documents folders or other known folders to OneDrive."
+description: "In this article, you'll learn how to redirect users' Documents folders or other known folders to OneDrive."
 ---
 
 # Redirect and move Windows known folders to OneDrive

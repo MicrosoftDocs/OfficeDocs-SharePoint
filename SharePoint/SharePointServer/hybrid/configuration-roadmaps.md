@@ -17,8 +17,10 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - M365-collaboration
 - SPO_Content
+ms.custom:
+-  seo-marvel-apr2020
 ms.assetid: feedf4f0-0e18-4592-983b-8d769830bcac
-description: "Follow these roadmaps to set up your chosen SharePoint Server hybrid solution."
+description: "Learn about the roadmaps that guide you through the steps you need to follow to set up your chosen SharePoint Server hybrid solution."
 ---
 
 # SharePoint Server hybrid configuration roadmaps

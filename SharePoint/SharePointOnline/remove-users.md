@@ -11,6 +11,7 @@ ms.topic: article
 ms.custom:
 - 'ViewUserProfiles'
 - 'SPOTAMgUserProfiles'
+- 'seo-marvel-apr2020'
 ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid:
@@ -20,7 +21,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "Learn how to remove deleted users from SharePoint Online in different scenarios."
+description: "In this article, you'll learn how to remove deleted users from SharePoint Online in different scenarios."
 ---
 
 # How to remove deleted users from SharePoint Online

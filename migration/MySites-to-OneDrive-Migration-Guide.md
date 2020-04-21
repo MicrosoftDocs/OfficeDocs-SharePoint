@@ -1,5 +1,5 @@
 ---
-title: "MySites to OneDrive and SharePoint Migration Guide"
+title: "Migrate from MySites to OneDrive in Office 365"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -14,8 +14,10 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid: MET150
-
+description: "Learn how to evaluate the environment, prepare, and migrate content from MySites to OneDrive in Office 365."
 ---
 
 # MySites to OneDrive Migration Guide
@@ -63,14 +65,14 @@ Your environment will not be impacted while SMAT performs a scan of your environ
 
 |**Scan**|**Description**|
 |:-----|:-----|:-----|
-|**File Versions** |The more versions of a file you have, the longer it will take to migrate. Note: By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-file-versions)|
-|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-lists).|
-|**Long OneDrive URLs** |Content with long URLs exceeding the limit will be skipped.  They will not migrate.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-long-onedrive-urls)|
-|**Checked out files** |Only checked-in content will be migrated. Have users check in their files prior to migration to avoid data loss.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-checked-out-files)|
-|**Large Excel Files** |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-excel-files)|
-|**Large List Views**|In your My Site, you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive, the limit is in place continuously (24x7). While your lists and data will be migrated, some of your list views be throttled.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-list-views)|
-|**Browser File Handling**|SharePoint Server allows you to set it from "strict" to "permissive".  However, in SharePoint Online and OneDrive, the "strict" setting is enforced and can't be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-browser-file-handling)|
-|**InfoPath** |InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However,certain features of custom InfoPath forms will not be migrated.</br></br>[Learn more](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-infopath)|
+|**File Versions** |The more versions of a file you have, the longer it will take to migrate. Note: By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.</br></br>[See Migration Assessment Scan: File Versions](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-file-versions)|
+|**Large Lists** |Lists over 20,000 items have caused issues with migration, making it more difficult to predict how long it takes to migrate sites. List data is migrated, but the larger the list the more unpredictable the migration process has proven. Extremely large lists can result in an extended migration.</br></br>[See Migration Assessment Scan: Large Lists](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-lists).|
+|**Long OneDrive URLs** |Content with long URLs exceeding the limit will be skipped.  They will not migrate.</br></br>[See Migration Assessment Scan: Long OneDrive URLs](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-long-onedrive-urls)|
+|**Checked out files** |Only checked-in content will be migrated. Have users check in their files prior to migration to avoid data loss.</br></br>[See Migration Assessment Scan: Checked-out files](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-checked-out-files)|
+|**Large Excel Files** |If you attempt to open a file larger than 10MB from OneDrive (online), it will prompt you to open the file in the Excel client application.</br></br>[See Migration Assessment Scan: Large Excel Files](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-excel-files)|
+|**Large List Views**|In your My Site, you can configure list view throttling so there are a set number of hours per day where the throttle on views is lifted. In OneDrive, the limit is in place continuously (24x7). While your lists and data will be migrated, some of your list views be throttled.</br></br>[See Migration Assessment Scan: Large List Views](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-list-views)|
+|**Browser File Handling**|SharePoint Server allows you to set it from "strict" to "permissive".  However, in SharePoint Online and OneDrive, the "strict" setting is enforced and can't be modified.  Data will be migrated, but the behavior with the HTM and HTML files will change from opening within the browser to prompting the user to download.</br></br>[See Migration Assessment Scan: Browser File Handling](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-browser-file-handling)|
+|**InfoPath** |InfoPath lets developers build custom forms for accepting user input in a variety of locations throughout SharePoint. However,certain features of custom InfoPath forms will not be migrated.</br></br>[See Migration Assessment Scan: InfoPath](https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-infopath)|
 
 
 ## Prepare your OneDrive environment
@@ -98,6 +100,9 @@ Use the [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/sharepoint
 
 The following actions show a typical migration process that follows Microsoft's best practices guidance.
 
+
+## Migration best practices
+Below is a typical migration process that follows Microsoft's best practices guidance.
 - Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
 
 - Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users on-premises My Sites accounts are disabled and they are directed to use the target OneDrive  environment. This method is preferred as it reduces user impact.</br></br>
@@ -149,4 +154,7 @@ Currently, migration offerings available to you include:
 
 **Migration service providers**
 
-You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Microsoft 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
+You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
+
+
+

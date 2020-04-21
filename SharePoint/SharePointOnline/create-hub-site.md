@@ -13,11 +13,13 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 92bea781-15d8-4bda-805c-e441e2191ff3
-description: "Learn how to create a hub site in SharePoint"
+description: "In this article, you'll learn how to convert a site into a hub site in the SharePoint admin center."
 ---
 
 # Create a hub site in SharePoint

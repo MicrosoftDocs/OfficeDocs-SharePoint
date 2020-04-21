@@ -13,11 +13,13 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 4e95dcd8-7e79-4732-aa9b-2f351031b4c2
-description: "Learn about SharePoint intranet hub sites and how to -plan for them before you create them."
+description: "In this article, you'll learn about SharePoint intranet hub sites and how to plan them before you create them."
 ---
 
 # Planning your SharePoint hub sites

@@ -1,5 +1,5 @@
 ---
-title: Moving from Publishing sites to Communication sites
+title: "Why move from publishing sites to communication sites? - SharePoint"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
@@ -13,6 +13,8 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom:
+- seo-marvel-mar2020
 search.appverid:
 - SPO160
 - MET150

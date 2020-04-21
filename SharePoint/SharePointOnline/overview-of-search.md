@@ -16,6 +16,7 @@ search.appverid:
 - MET150
 ms.assetid: 479cfd6b-900b-46aa-b497-c13787771d3f
 description: "Learn how you can customize the search experience in SharePoint Online to help users find the information they're looking for."
+ms.custom: seo-marvel-apr2020
 ---
 
 # Overview of search in SharePoint Online
@@ -41,17 +42,17 @@ See how you can make content searchable, and how you can crawl content to get it
   
 Presenting the search results the right way makes content easier to find.
   
-See how you can manage the classic experience in the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [Learn more](make-search-results-look-great.md)
+See how you can manage the classic experience in the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [See Make the search results look great](make-search-results-look-great.md)
   
 ## 3. Show relevant search results
   
 All search results are not relevant to everyone all the time.
   
-See how you can show each user exactly the results they're looking for. [Learn more](show-relevant-search-results.md)
+See how you can show each user exactly the results they're looking for. [See Show the right search results](show-relevant-search-results.md)
   
 ## 4. Check logs, limits and reports
   
-See how you can check if the crawler has added content to the search index, and if your users are finding what they're looking for. Look up the limits for search, for example how many entries you can have in a custom search dictionary. [Learn more](check-logs-limits-and-reports.md)
+See how you can check if the crawler has added content to the search index, and if your users are finding what they're looking for. Look up the limits for search, for example how many entries you can have in a custom search dictionary. [See Check logs, limits and reports](check-logs-limits-and-reports.md)
   
 ## How search works
 <a name="howsearchworks"> </a>

@@ -5,11 +5,12 @@ summary: Learn about how to use SharePoint in Microsoft 365. # < 160 chars
 
 metadata:
   title: SharePoint administration documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  description: Documentation for SharePoint administration # Required; article description that is displayed in search results. < 160 chars.
+  description: Documentation to help you learn about SharePoint and how to use it in Microsoft 365. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.subservice: subservice
   ms.topic: landing-page # Required
   ms.collection: M365-collaboration
+  ms.custom: seo-marvel-apr2020
   author: MikePlumleyMSFT #Required; your GitHub user alias, with correct capitalization.
   ms.author: mikeplum #Required; microsoft alias of author; optional team alias.
   ms.date: 09/20/2019 #Required; mm/dd/yyyy format

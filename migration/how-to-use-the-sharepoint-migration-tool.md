@@ -1,5 +1,5 @@
 ---
-title: "How to use the SharePoint Migration Tool"
+title: "How to use SharePoint Migration tool - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,8 +15,10 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid: MET150
-description: "The SharePoint Migration Tool is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily copies them to your SharePoint Online tenant."
+description: The SharePoint Migration Tool copies your files from SharePoint on-premises document libraries or regular file shares to your SharePoint Online tenant.
 ---
 
 # Using the SharePoint Migration Tool

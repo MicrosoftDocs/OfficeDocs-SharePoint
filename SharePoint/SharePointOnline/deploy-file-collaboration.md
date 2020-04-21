@@ -1,5 +1,5 @@
 ---
-title: "Plan and deploy a secure and productive file collaboration environment"
+title: "Plan & deploy a file collaboration environment - SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,12 +13,14 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
-description: "Learn about planning and deploying a secure and productive file collaboration environment."
+description: "In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint with Microsoft 365."
 ---
 
 # File collaboration in SharePoint with Microsoft 365
@@ -35,11 +37,7 @@ In the sections below, we call out the options and decisions that you as an admi
 
 We recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](https://aka.ms/ProductivityArch) poster and refer to it while you read this article. This poster provides detailed illustrations of how the collaboration services in Microsoft 365 relate to each other and interact.
 
-<<<<<<< Updated upstream
-Also, see the [File Protection Solutions in Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect) diagram for an overview of recommended solutions to protect your data.
-=======
 Also see the [File Protection Solutions in Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources#BKMK_O365fileprotect) diagram for an overview of recommended solutions to protect your data.
->>>>>>> Stashed changes
 
 ## Creating a successful collaboration experience
 

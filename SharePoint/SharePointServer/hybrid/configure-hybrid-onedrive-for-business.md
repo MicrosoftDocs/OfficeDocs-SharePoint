@@ -21,7 +21,8 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: 
+ms.custom:
+- seo-marvel-apr2020
 ms.assetid: f1dfdac2-81ad-452f-b5b6-df9e5a8e976e
 description: "Connect your on-premises SharePoint Server environment with OneDrive for Business."
 ---

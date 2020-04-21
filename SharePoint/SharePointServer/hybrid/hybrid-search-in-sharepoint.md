@@ -18,7 +18,7 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: c7f7540b-d631-4fdb-8dc6-fa90553a998e
 description: "Hybrid search lets your users search for files and documents across SharePoint Server and Microsoft 365 at the same time. Depending on how you set up hybrid search, you can have only on-premises users search for content stored in Microsoft 365, only online users search for content stored in SharePoint Server, or both user groups search for content stored in the other environment."
 ---

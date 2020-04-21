@@ -13,10 +13,12 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+-  seo-marvel-apr2020
 search.appverid:
 - ODB160
 - MET150
-description: "Learn about the options for deploying OneDrive Known Folder Move."
+description: "This article contains resources for a workshop, to help you learn about the options for deploying OneDrive Known Folder Move."
 ---
 
 # Known Folder Move workshop

@@ -11,7 +11,9 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.assetid: b1e3cd23-1a78-4264-9284-87fed7282048
-description: "Learn to create, manage, and delete groups in SharePoint."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains information on how to customize SharePoint site permissions. Learn how to create, manage, and delete groups in SharePoint."
 ---
 
 # SharePoint site permissions

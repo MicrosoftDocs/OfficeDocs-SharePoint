@@ -17,7 +17,8 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: a180fa28-6405-4679-9ec3-81d2028c4efc
-description: "Learn about managed metadata to enable enhanced search and navigation, creating terms that become document attributes and let users progressively refine search parameters."
+description: Managed metadata enables enhanced search and navigation, creating terms that become document attributes and let users progressively refine search parameters.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Introduction to managed metadata

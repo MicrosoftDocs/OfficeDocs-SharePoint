@@ -75,4 +75,4 @@ To get started setting up a SharePoint extranet site:
 
 ## See also
 
-[Microsoft 365 guest sharing settings reference](https://docs.microsoft.com/Office365/Enterprise/office-365-guest-settings)
+[Microsoft 365 guest sharing settings reference](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)
