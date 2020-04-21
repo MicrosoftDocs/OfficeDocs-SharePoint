@@ -115,11 +115,11 @@ When you have added a new property to a list or to a library, or when you have c
 
 Delve uses managed properties to query the Office graph and to display content cards in Delve. For example, you can see managed properties like Author, Filename, ModifiedBy and LastModifiedTime on the Delve content cards.
   
-Any document that a user can view or edit in Office 365, can also appear in Delve. Delve doesn't change any permissions and users will only see documents they already have access to. Sometimes, though, you may want to prevent a document from appearing in Delve.
+Any document that a user can view or edit in Microsoft 365, can also appear in Delve. Delve doesn't change any permissions and users will only see documents they already have access to. Sometimes, though, you may want to prevent a document from appearing in Delve.
   
 You can use the HideFromDelve managed property to hide a document from Delve. You can keep storing the document in Office 365, and people can still find it through search - it just won't show up in Delve anymore. See [Hide documents from Delve](manage-search-schema.md#BKMK_HideFromDelveSteps).
   
-For more information about Delve, see [Office Delve for Office 365 admins](https://go.microsoft.com/fwlink/p/?LinkID=733496)
+For more info about Delve, see [Office Delve for Office 365 admins](https://go.microsoft.com/fwlink/p/?LinkID=733496)
   
 ## Create a new managed property
 <a name="__toc351360841"> </a>
@@ -136,60 +136,14 @@ If you need a property of a different type, or one that has different characteri
   
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
  
-3. Select **Manage Search Schema** on the search administration page. 
-    
-**Go to the Search Schema page for a site collection**
-    
-1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
-    
-2. Under **Site Collection Administration**, select Click **Search Schema**.
-    
-3. Click **Managed Properties**.
-    
-4. Click **New Managed Property** on the **Managed Properties** page. 
-    
-5. type the name of the new managed property in the **Property name** box in the **Name and description** section. Type a description if you want. 
-    
-6. In the **Type** section, select one of the available options for the property: 
-    
-  - Yes/No
-    
-  - Text
-    
-7. In the **Main characteristics** section, select one or several of the available options. 
-    
-8. In the **Mappings to crawled properties** section, click **Add a mapping**.
-    
-9. In the **crawled property selection** dialog box, choose a crawled property to map to the managed property, and then click **OK**. Repeat this step if you want to map more crawled properties to the same managed property.
-    
-10. In the **Mappings to crawled properties** section, specify if you want to include: 
-    
-  - All content from all crawled properties mapped to this managed property
-    
-  - Content from the first crawled property that contains a value and, optionally, in which order
-    
-11. Click **OK**.
-    
-## Create a managed property by renaming an existing one
-<a name="__ref341260321"> </a>
-
-**Go to the Search Schema page for the tenant**
-    
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
-
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
- 
-2. Under **Search**, select **Open**.
-
-3. Select **Manage Search Schema** on the search administration page. 
+3. On the search administration page, select **Manage Search Schema**. 
     
 **Go to the Search Schema page for a site collection**
     
@@ -197,20 +151,66 @@ If you need a property of a different type, or one that has different characteri
     
 2. Under **Site Collection Administration**, select **Search Schema**.
     
-3. On the Managed Properties page, find an unused managed property. By unused, we mean that the property is not mapped to a crawled property: the **Mapped Crawled Properties** column is empty. See the [Default unused managed properties](manage-search-schema.md#DefaultUnusedMPs) table for more details. 
+3. Select **Managed Properties**.
+    
+4. On the **Managed Properties** page, select **New Managed Property**. 
+    
+5. In the **Name and description** section, in the **Property name** box, enter the name of the new managed property. Optionally, enter a description. 
+    
+6. In the **Type** section, select one of the available options for the property: 
+    
+  - Yes/No.
+    
+  - Text.
+    
+7. In the **Main characteristics** section, select one or several of the available options. 
+    
+8. In the **Mappings to crawled properties** section, select **Add a mapping**.
+    
+9. In the **crawled property selection** dialog, select a crawled property to map to the managed property, and then select **OK**. If you want to map more crawled properties to the same managed property, repeat this step.
+    
+10. In the **Mappings to crawled properties** section, specify if you want to include: 
+    
+  - All content from all crawled properties mapped to this managed property.
+    
+  - Content from the first crawled property that contains a value and, optionally, in which order.
+    
+11. Select **OK**.
+    
+## Create a managed property by renaming an existing one
+<a name="__ref341260321"> </a>
+
+**Go to the Search Schema page for the tenant**
+    
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
+ 
+2. Under **Search**, select **Open**.
+
+3. On the search administration page, select **Manage Search Schema**. 
+    
+**Go to the Search Schema page for a sste collection**
+    
+1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
+    
+2. Under **Site Collection Administration**, select **Search Schema**.
+    
+3. On the **Managed Properties** page, find an unused managed property. By unused, we mean that the property is not mapped to a crawled property: the **Mapped Crawled Properties** column is empty. See the [Default unused managed properties](manage-search-schema.md#DefaultUnusedMPs) table for more details. 
     
     > [!IMPORTANT]
     > To be able to use the property as a refiner later, choose a managed property that is marked with **Refine**. 
   
-4. Point to the managed property, click the arrow, and then click **Edit/Map property**.
+4. Point to the managed property, select the arrow, and then select **Edit/Map property**.
     
-5. On the Edit Managed Property page, under **Main characteristics**, in the **Alias** section, enter the new name for the property in the **Alias** box. 
+5. On the **Edit Managed Property** page, under **Main characteristics**, in the **Alias** section, in the **Alias** box, enter the new name for the property. 
     
-6. In the **Mappings to crawled properties** section, click **Add a mapping**.
+6. In the **Mappings to crawled properties** section, select **Add a mapping**.
     
-7. On the Crawled property selection page, select a crawled property to map to the managed property and then click **OK**. Repeat this step to map more crawled properties to this managed property.
+7. On the **Crawled property selection** page, select a crawled property to map to the managed property, and then select **OK**. Repeat this step to map more crawled properties to this managed property.
     
-8. Click **OK**.
+8. Select **OK**.
     
     > [!IMPORTANT]
     > When you have created a new managed property this way, the library or list that will use the refiner must be re-crawled and re-indexed before the property will appear as an option in the refinement configuration. See [Request re-indexing of a document library or list](manage-search-schema.md#__ref341258429). 
@@ -220,14 +220,14 @@ If you need a property of a different type, or one that has different characteri
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
-3. Select **Manage Search Schema** on the search administration page.
+3. On the search administration page, select **Manage Search Schema**.
 
     
 **Go to the Search Schema page for a site collection**
@@ -236,11 +236,11 @@ If you need a property of a different type, or one that has different characteri
     
 2. Under **Site Collection Administration**, select **Search Schema**.
     
-3. On the **Managed Properties** tab, you see all the managed properties, the settings on the managed properties and the crawled properties they are mapped to. 
+3. On the **Managed Properties** tab, you see all the managed properties, the settings on the managed properties, and the crawled properties they are mapped to. 
     
-4. To view crawled properties and the managed properties they are mapped to, click **Crawled Properties**.
+4. To view crawled properties and the managed properties they are mapped to, select **Crawled Properties**.
     
-5. To view crawled property categories, click **Categories**.
+5. To view crawled property categories, select **Categories**.
     
 ## Edit a managed property
 <a name="__toc351360844"> </a>
@@ -251,14 +251,14 @@ If you need a property of a different type, or one that has different characteri
   
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
-3. Select **Manage Search Schema** on the search administration page.
+3. On the search administration page, select **Manage Search Schema**.
 
     
 **Go to the Search Schema page for a site collection**
@@ -267,25 +267,25 @@ If you need a property of a different type, or one that has different characteri
     
 2. Under **Site Collection Administration**, select **Search Schema**.
     
-3. Find the managed property that you want to edit in the **Property Name** column on the **Managed Properties** tab, or type the name in the **Filter** box. 
+3. On the **Managed Properties** tab, in the **Property Name** column, find the managed property that you want to edit, or in the **Filter** box, enter the name. 
     
-4. Point to the managed property in the list, click the arrow, and then click **Edit/Map property**.
+4. Point to the managed property in the list, select the arrow, and then select **Edit/Map property**.
     
-5. Edit the settings on the **Edit Managed Property** page, and then click **OK**.
+5. On the **Edit Managed Property** page, edit the settings, and then select **OK**.
     
 ## Delete a managed property
 <a name="__toc351360845"> </a>
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
-3. Select **Manage Search Schema** on the search administration page.
+3. On the search administration page, select **Manage Search Schema**.
 
 **Go to the Search Schema page for a site collection**
     
@@ -293,11 +293,11 @@ If you need a property of a different type, or one that has different characteri
     
 2. Under **Site Collection Administration**, select **Search Schema**.
     
-3. On the **Managed Properties** tab, find the managed property that you want to delete, or enter its name in the **Filter** box. 
+3. On the **Managed Properties** tab, find the managed property that you want to delete, or in the **Filter** box, enter its name. 
     
-4. Point to the managed property that you want to delete, click the arrow, and then click **Delete**.
+4. Point to the managed property that you want to delete, select the arrow, and then select **Delete**.
     
-5. Click **OK**.
+5. Select **OK**.
     
     > [!IMPORTANT]
     >  If you delete a managed property: >  Users can't search on the property. >  A query rule that uses the property no longer works. >  A custom web part that uses the property no longer works. 
@@ -307,15 +307,14 @@ If you need a property of a different type, or one that has different characteri
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
-3. Select **Manage Search Schema** on the search administration page.
-
+3. On the search administration page, select **Manage Search Schema**.
 
     
 **Go to the Search Schema page for a site collection**
@@ -326,31 +325,31 @@ If you need a property of a different type, or one that has different characteri
     
 3. Choose **Crawled Properties**.
     
-4. On the Crawled Properties page, find the crawled property that you want to map to a managed property, or enter its name in the **Crawled properties** box under **Filters**.
+4. On the **Crawled Properties** page, find the crawled property that you want to map to a managed property, or under **Filters**, enter its name in the **Crawled properties** box.
     
-5. Point to the crawled property that you want to map, click the arrow, and then click **Edit/Map property**.
+5. Point to the crawled property that you want to map, select the arrow, and then select **Edit/Map property**.
     
-6. On the Edit Crawled Property page, in the **Mappings to managed properties** section, click **Add a Mapping**.
+6. On the **Edit Crawled Property** page, in the **Mappings to managed properties** section, select **Add a Mapping**.
     
-7. In the **managed property selection** dialog box, select a managed property to map to the crawled property and then click **OK**. Repeat this step to map more managed properties to this crawled property.
+7. In the **managed property selection** dialog, select a managed property to map to the crawled property, and then select **OK**. Repeat this step to map more managed properties to this crawled property.
     
-8. In the **Include in full-text index** section, select the box if you want to include the content of this crawled property in the full-text index. 
+8. In the **Include in full-text index** section, if you want to include the content of this crawled property in the full-text index, select the box. 
     
-9. Click **OK**.
+9. Select **OK**.
     
 ## View or edit crawled property categories
 <a name="__toc351360847"> </a>
 
 **Go to the Search Schema page for the tenant**
     
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
-3. Select **Manage Search Schema** on the search administration page.
+3. On the search administration page, select **Manage Search Schema**.
 
     
 **Go to the Search Schema page for a site collection**
@@ -359,7 +358,7 @@ If you need a property of a different type, or one that has different characteri
     
 2. Under **Site Collection Administration**, select **Search Schema**.
     
-3. Choose **Categories**.
+3. Select **Categories**.
     
 4. On the Categories page, find the crawled property category that you want to view or edit.
     
@@ -395,47 +394,47 @@ If you don't want a document to show up in Delve, you can create a HideFromDelve
   
  **Add a site column to the library or list where the document is stored**
   
-1. Sign in as a site collection administrator and go to the site where the document that you want to hide from Delve is stored.
+1. Sign in as a site collection administrator, and go to the site where the document that you want to hide from Delve is stored.
     
-2. On the ribbon, click the **List** or **Library** tab. 
+2. On the ribbon, select the **List** or **Library** tab. 
     
-3. Click **Create Column** in the **Manage Views** group. 
+3. In the **Manage Views** group, select **Create Column**. 
     
-4. Type HideFromDelve in the **Column name** box under the Name and Type section, and then select **Yes/No (check box)**.
+4. Under the **Name and Type** section, in the **Column name** box, enter HideFromDelve, and then select **Yes/No** (check box)*
     
     > [!IMPORTANT]
-    > Click **No** in the **Default value** dropdown menu in the **Additional Column Settings** section. If you select **Yes**, all new documents will be hidden from Delve. 
+    > In the **Additional Column Settings** section, in the **Default value** dropdown, select **No**. If you select **Yes**, all new documents are hidden from Delve. 
   
 5. Do one of the following:
     
-  - For SharePoint 2016 or SharePoint Online, uncheck the **Add to all content types** checkbox. 
+  - For SharePoint 2016 or SharePoint Online, clear the **Add to all content types** check box. 
     
-  - For SharePoint 2013, uncheck the **Add to default view** checkbox. 
+  - For SharePoint 2013, clear the **Add to default view** check box. 
     
-6. Click **OK**.
+6. Select **OK**.
     
  **Mark the document you want to hide from Delve**
   
 1. Go to the site where the document that you want to hide from Delve is stored.
     
-2. Find the document that you want to hide in the library or list, click **edit properties** and then check HideFromDelve. 
+2. Find the document that you want to hide in the library or list, select **edit properties**, and then check **HideFromDelve**. 
     
-3. Click **OK**.
+3. Select **OK**.
     
 After the next scheduled crawl, or after you [Request re-indexing of a document library or list](manage-search-schema.md#__ref341258429), the document is hidden from Delve. If you want the document to show up in Delve again, uncheck the **HideFromDelve** column for the hidden document. 
   
 ## Request re-indexing of a document library or list
 <a name="__ref341258429"> </a>
 
-1. On your site, go to the list or library where you have added the new property and click the title. You should see the **Library** or **List** tabs. 
+1. On your site, go to the list or library where you have added the new property, and select the title. The **Library** or **List** tabs appear. 
     
-2. In the ribbon, click the **Library** tab or the **List** tab. 
+2. On the ribbon, select the **Library** tab or the **List** tab. 
     
-3. Click **Library settings** or **List settings** under the **Settings** section. 
+3. Under the **Settings** section, select **Library settings** or **List settings**. 
     
-4. On the Settings page, under **General Settings**, choose **Advanced settings**.
+4. On the **Settings** page, under **General Settings**, select **Advanced settings**.
     
-5. Scroll down to **Reindex Document Library** or **Reindex List**, and click the button. All of the content in the document library or list will be re-indexed during the next scheduled crawl.
+5. Scroll down to **Reindex Document Library** or **Reindex List**, and select the button. All of the content in the document library or list are re-indexed during the next scheduled crawl.
     
     > [!NOTE]
     > This may cause a massive load on the search system, so be sure to re-index only after you've made all the changes you want to be re-indexed. 

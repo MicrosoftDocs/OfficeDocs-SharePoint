@@ -26,12 +26,12 @@
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Mover Migration Guides
-### [File shares to Office 365](mover-fileshare-to-o365.md)
-### [Box to Office 365](mover-box-to-o365.md)
-### [Dropbox to Office 365](mover-dropbox-to-o365.md)
-### [Egnyte to Office 365](mover-egnyte-to-o365.md)
-### [G Suite Drive to Office 365](mover-gsuite.md)
-### [Office 365 to Office 365](mover-o365-to-o365.md)
+### [File shares to Microsoft 365](mover-fileshare-to-o365.md)
+### [Box to Microsoft 365](mover-box-to-o365.md)
+### [Dropbox to Microsoft 365](mover-dropbox-to-o365.md)
+### [Egnyte to Microsoft 365](mover-egnyte-to-o365.md)
+### [G Suite Drive to Microsoft 365](mover-gsuite.md)
+### [Office 365 to Microsoft 365](mover-o365-to-o365.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [SPMT migration performance guidelines](spmt-performance-guidance.md)

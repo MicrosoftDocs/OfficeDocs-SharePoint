@@ -168,7 +168,7 @@ To use SQL Server to back up the databases that are associated with the Search s
     
 4. Right-click the database that you want to back up, point to **Tasks**, and then click **Back Up**.
     
-5. In the **Back Up Database** dialog box, confirm the database name. 
+5. In the **Back Up Database** dialog, confirm the database name. 
     
 6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409). 
     

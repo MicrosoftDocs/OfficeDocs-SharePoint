@@ -17,7 +17,7 @@ description: "Learn about permission levels in SharePoint and about the permissi
 
 # Permission levels in SharePoint
 
-While SharePoint offers a variety of permission levels for sites, we highly recommend using the built-in SharePoint groups for communication sites and managing team site permissions through the associated Office 365 group. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+While SharePoint offers a variety of permission levels for sites, we highly recommend using the built-in SharePoint groups for communication sites and managing team site permissions through the associated Microsoft 365 group. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
 
 ## Understanding permission levels
 
@@ -53,7 +53,7 @@ An important concept to understand is permissions inheritance. By design, all th
 
 Default permission levels allow you to quickly and easily provide common levels of permissions for one user or groups of users.
   
-You can make changes to any of the default permissions levels, except **Full Control** and **Limited Access**, both of which are described more fully in the table below.
+You can make changes to any of the default permissions levels, except **Full Control** and **Limited Access**, both of which are described more fully in the following table.
   
 |**Permission Level**|**Description**||
 |:-----|:-----|:-----|
@@ -71,7 +71,7 @@ You can make changes to any of the default permissions levels, except **Full Con
 |||
    
 > [!NOTE]
-> Office 365 plans create a security group called "Everyone except external users" that contains every person you add into the Office 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Office 365 can access and edit the SharePoint site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Office 365 plans create a security group called "Company Administrators", which contains Office 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more information, please see [Default SharePoint groups](/sharepoint/default-sharepoint-groups).
+> Microsoft 365 subscriptions create a security group called "Everyone except external users" that contains every person you add into the Microsoft 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Microsoft 365 can access and edit the SharePoint site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Microsoft 365 subscriptions create a security group called "Company Administrators", which contains Microsoft 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more info, see [Default SharePoint groups](/sharepoint/default-sharepoint-groups).
 
 By default, site owners and members can add new users to the site.
 

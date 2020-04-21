@@ -65,7 +65,7 @@ The app usage and app error details data that is on the app monitoring pages can
 Note that if you view the app error details page for a specific instance of an app, the number of errors for the app is synchronized with the error messages in the list. This occurs because the number of errors appears in the app error details page instead of the events that are processed by the ECM analytics timer job.
   
 > [!NOTE]
-> Be aware that in the Monitored Apps page, the error dialog box can show more errors than are counted. The errors are counted every 24 hours, but the error messages are processed more often. As a result, the error dialog box can show error messages that are generated in the current day before the count is updated at the end of the day. 
+> Be aware that in the Monitored Apps page, the error dialog can show more errors than are counted. The errors are counted every 24 hours, but the error messages are processed more often. As a result, the error dialog can show error messages that are generated in the current day before the count is updated at the end of the day. 
   
  **To view the app usage details in Monitored Apps**
   
@@ -96,10 +96,10 @@ Note that if you view the app error details page for a specific instance of an a
 ## Monitoring app details in a SharePoint site
 <a name="proc3"> </a>
 
-This section explains how site owners can monitor and understand the usage of apps for SharePoint. A site owner can view the error and usage details for apps for SharePoint by selecting an app in the Site Contents page and then clicking Monitor in the app dialog box.
+This section explains how site owners can monitor and understand the usage of apps for SharePoint. A site owner can view the error and usage details for apps for SharePoint by selecting an app in the Site Contents page and then clicking Monitor in the app dialog.
   
 > [!NOTE]
-> Be aware that in the app details page, the error dialog box can show more errors than are counted. The errors are counted every 24 hours, but the error messages are processed more often. As a result, the error dialog box can show error messages that are generated in the current day before the count is updated at the end of the day. 
+> Be aware that in the app details page, the error dialog can show more errors than are counted. The errors are counted every 24 hours, but the error messages are processed more often. As a result, the error dialog can show error messages that are generated in the current day before the count is updated at the end of the day. 
   
  **To view the app usage details in a SharePoint site**
   

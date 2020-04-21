@@ -110,7 +110,7 @@ After you run a query, you can view the SharePoint results by relevance to the q
   
 To narrow down which items are exported, you can further refine the results by file extension and by property, such as Author or Title. 
   
-In the query dialog box, click the **Advanced Query Options** link. You can see your underlying query syntax for SharePoint, the content sources included in your query, any filters for your query, and any refinements. 
+In the query dialog, click the **Advanced Query Options** link. You can see your underlying query syntax for SharePoint, the content sources included in your query, any filters for your query, and any refinements. 
   
 ## Find more information about eDiscovery
 <a name="__top"> </a>

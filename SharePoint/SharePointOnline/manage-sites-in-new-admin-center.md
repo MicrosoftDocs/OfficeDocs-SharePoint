@@ -24,12 +24,12 @@ description: "In this article, you'll learn about tasks you can perform on the A
 
 # Manage sites in the new SharePoint admin center
 
-The Active sites page of the new SharePoint admin center lets you view the SharePoint sites in your organization (including the new communication sites and sites that belong to Office 365 groups). It also lets you sort and filter sites, search for a site, and create new sites.
+The Active sites page of the new SharePoint admin center lets you view the SharePoint sites in your organization (including the new communication sites and sites that belong to Microsoft 365 groups). It also lets you sort and filter sites, search for a site, and create new sites.
   
 ![Manage sites in the new SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
   
 > [!NOTE]
-> The Active sites page lists the root website for each site collection. Subsites aren't included in the list. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different. 
+> The Active sites page lists the root website for each site collection. Subsites aren't included in the list. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different. 
   
 To manage sites in the new SharePoint admin center, go to the current SharePoint admin center, select "Open it now" in the upper right, and then select **Active sites**. For info about the new SharePoint admin center, see [Get started with the new SharePoint admin center](get-started-new-admin-center.md).
   
@@ -104,7 +104,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
 ## Switch views and create custom views
 <a name="views"> </a>
 
-The new SharePoint admin center comes with a few built-in views: Office 365 group sites, Sites without a group, Largest sites, Least active sites, and Most popular shared sites. You can also create and save custom views.
+The new SharePoint admin center comes with a few built-in views: Microsoft 365 group sites, Sites without a group, Largest sites, Least active sites, and Most popular shared sites. You can also create and save custom views.
   
 1. Customize columns, sort, and filter your view the way you want. (Views that are filtered through search can't be saved.)
     
@@ -114,7 +114,7 @@ The new SharePoint admin center comes with a few built-in views: Office 365 grou
     
 3. Click **Save view as**.
     
-4. In the **Save as** dialog box, enter a name for the view. 
+4. In the **Save as** dialog, enter a name for the view. 
     
     > [!NOTE]
     > To set the view as default, in the View drop-down, click **Set current view as default**. 

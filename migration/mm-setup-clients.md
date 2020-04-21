@@ -41,7 +41,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 - Determine how many VMs or computers you plan on using for your migration tasks. Identify these up front.
 
-- Confirm that you have SharePoint Admin credentials to access the “destination” of where you are migrating your content.
+- Confirm that you have SharePoint Admin credentials to access the "destination" of where you are migrating your content.
 
 - Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
@@ -64,8 +64,8 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |**Required endpoints**|**For**|
 |:-----|:-----|
 |https://secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
-|https://<spam><spam>api.office<spam><spam>.com|Office 365 APIs for content move and validation|
-|https://<spam><spam>graph.windows<spam><spam>.net|Office 365 APIs for content move and validation|
+|https://<spam><spam>api.office<spam><spam>.com|Microsoft 365 APIs for content move and validation|
+|https://<spam><spam>graph.windows<spam><spam>.net|Microsoft 365 APIs for content move and validation|
 |https://<spam><spam>spmtreleasescus.blob.core.windows<spam><spam>.net|Installation|
 |https://*<spam><spam>.queue.core.windows<spam><spam>.net|Migration API Azure requirement|
 |https://*.<spam><spam>blob.core.windows<spam><spam>.net|Migration API Azure requirement|
@@ -77,11 +77,11 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 ## Set up a single agent
 
-1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Desktop Tool (SPMT) page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 2. Select **Download agent setup file**.
-3. Click **Run**.
-4. Enter your SharePoint admin username and password. These are to the SharePoint environment where you will be migrating your content. Click **Next**.
-5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Click **Run configuration**.
+3. Select **Run**.
+4. Enter your SharePoint admin username and password. These are to the SharePoint environment where you will be migrating your content. Select **Next**.
+5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Run configuration**.
 
 On completion this computer will be added to the available agents that the Migration Manager can assign tasks.
 
@@ -89,8 +89,8 @@ On completion this computer will be added to the available agents that the Migra
 
 Based on the size of the content you want to migrate, you can setup as many agents as you need. If you are setting up multiple agents, we recommend that you download the agent setup file to a shared location. That way you can easily download the setup file on each of computer or VM.  
 
-1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
-2. Select **Download agent setup file**. If you previously downloaded the setup file, click the *agents* tab and select **Add agent**. Save the file to file to a shared location.
+1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+2. Select **Download agent setup file**. If you previously downloaded the setup file, select the *agents* tab, and select **Add agent**. Save the file to file to a shared location.
 3. Run the setup file on each VM or windows computer you plan on using to run migration tasks on.
 
 >[!NOTE]

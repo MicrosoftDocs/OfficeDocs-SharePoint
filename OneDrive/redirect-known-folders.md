@@ -48,7 +48,7 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
 
     Use this setting to give the users a call to action to move their Windows known folders.
 
-    ![Screenshot of the dialog box that prompts users to protect their important folders](media/protect-important-folders-gpo.png)
+    ![Screenshot of the dialog that prompts users to protect their important folders](media/protect-important-folders-gpo.png)
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 

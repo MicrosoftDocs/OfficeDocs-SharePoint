@@ -33,7 +33,7 @@ To get started exploring hybrid, see the following articles:
   
 - [SharePoint hybrid sites and search](https://go.microsoft.com/fwlink/p/?LinkID=746868)
     
-- [Extranet for Partners with Office 365](https://go.microsoft.com/fwlink/p/?LinkID=746943)
+- [Extranet for Partners with Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=746943)
     
 For detailed hybrid configuration information, see [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md).
   

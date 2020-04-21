@@ -162,7 +162,7 @@ The **Select the column that categorizes items for navigation** setting already 
   
 Also remember [Stage 2: Import list content into the Product Catalog Site Collection in SharePoint Server](stage-2-import-list-content-into-the-product-catalog-site-collection.md), where we showed how the **Item Category** column is tied to the **Product Hierarchy** term set. Now we will specify from where in the **Product Hierarchy** term set the catalog navigation should start. 
   
-1. In the **Root term of hierarchy** section, click the label icon. A dialog box showing the **Product Hierarchy** term set opens. 
+1. In the **Root term of hierarchy** section, click the label icon. A dialog showing the **Product Hierarchy** term set opens. 
     
 2. Select "Electronics".
     

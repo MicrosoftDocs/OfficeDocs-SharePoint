@@ -101,7 +101,7 @@ After you install the prerequisites, follow these steps to install SharePoint Se
   
 6. Click **Install Now**.
     
-7. When Setup finishes, a dialog box prompts you to run the **SharePoint Products Configuration Wizard**. You can start the wizard immediately or from the Windows command prompt later.
+7. When Setup finishes, a dialog prompts you to run the **SharePoint Products Configuration Wizard**. You can start the wizard immediately or from the Windows command prompt later.
     
 ## Add the new SharePoint server to the farm
 <a name="addserver"> </a>

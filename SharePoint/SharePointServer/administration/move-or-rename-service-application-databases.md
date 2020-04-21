@@ -178,7 +178,7 @@ Moving a database requires that you first detach the database from the SQL Serve
     
 3. Right-click the **Databases** node, point to **Tasks**, and then click **Attach**.
     
-4. In the **Attach Database** dialog box, browse to where you moved the .mdf, .ndf, and .ldf files, select the .mdf file for the database that you want to attach, and then click **OK**. Repeat this step for each database that you're moving.
+4. In the **Attach Database** dialog, browse to where you moved the .mdf, .ndf, and .ldf files, select the .mdf file for the database that you want to attach, and then click **OK**. Repeat this step for each database that you're moving.
     
 ### Rename a database by using SQL Server Management Studio
 <a name="MoveFull"> </a>
@@ -202,7 +202,7 @@ Pointing to the moved or renamed database is the next step. You can do this with
     
 2. In Central Administration, under **Application Management**, click **Manage service applications**.
     
-3. On the Manage Service application page, click the empty area in the row next to the service application name. The ribbon becomes active, click **Properties** and the **Edit Service Application** dialog box appears. 
+3. On the Manage Service application page, click the empty area in the row next to the service application name. The ribbon becomes active, click **Properties** and the **Edit Service Application** dialog appears. 
     
 4. Change the database server or database name, and then click **OK**.
     
@@ -489,7 +489,7 @@ The following procedures show how to move or delete the Business Data Connectivi
     
 3. Right-click the **Databases** node, point to **Tasks**, and then click **Attach**.
     
-4. In the **Attach Database** dialog box, browse to where you moved the .mdf, .ndf, and .ldf files, select the .mdf file for the database that you want to attach, and then click **OK**. Repeat this step for each database that you're moving.
+4. In the **Attach Database** dialog, browse to where you moved the .mdf, .ndf, and .ldf files, select the .mdf file for the database that you want to attach, and then click **OK**. Repeat this step for each database that you're moving.
     
 ### Point the Business Data Connectivity service application to a moved database
 <a name="Point"> </a>
@@ -514,7 +514,7 @@ Before you delete and re-create a service application, document the settings for
     
 4. On the ribbon, click **Delete**.
     
-5. In the Delete Service Application dialog box, select the check box next to **Delete data associated with the Service Applications** if you want to delete the service application database. If you want to retain the database, leave this check box cleared. 
+5. In the Delete Service Application dialog, select the check box next to **Delete data associated with the Service Applications** if you want to delete the service application database. If you want to retain the database, leave this check box cleared. 
     
 6. Click **OK** to delete the service application, or click **Cancel** to stop the operation. 
     
@@ -588,7 +588,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
    - Right-click the database that you want to set to read/write or read-only, and then click **Properties**.
     
-   - In the **Database Properties** dialog box, on the **Options** properties page, in the **State** section, select **True** or **False** in the list next to Database Read-Only, and then click **OK**.
+   - In the **Database Properties** dialog, on the **Options** properties page, in the **State** section, select **True** or **False** in the list next to Database Read-Only, and then click **OK**.
     
    - Click **Yes**.
     
@@ -602,7 +602,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. Right-click the database that you want to back up, point to **Tasks**, and then click **Back Up**.
     
-5. In the **Back Up Database** dialog box, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
+5. In the **Back Up Database** dialog, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
     
     For more information about the type of backup to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889).
     
@@ -650,7 +650,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. Right-click the database that you want to restore, point to **Tasks**, point to **Restore**, and then click **Database**. 
     
-5. In the **Restore Database** dialog box, on the **General** page, select the database to restore to from the **To database** list. 
+5. In the **Restore Database** dialog, on the **General** page, select the database to restore to from the **To database** list. 
     
 6. Select the restore source from the **From database** list. 
     
@@ -790,7 +790,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
    - Right-click the database that you want to set to read/write or read-only, and then click **Properties**.
     
-   - In the **Database Properties** dialog box, on the **Options** properties page, in the **State** section, select **True** or **False** in the list next to Database Read-Only, and then click **OK**.
+   - In the **Database Properties** dialog, on the **Options** properties page, in the **State** section, select **True** or **False** in the list next to Database Read-Only, and then click **OK**.
     
    - Click **Yes**.
     
@@ -804,7 +804,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. Right-click the database that you want to back up, point to **Tasks**, and then click **Back Up**.
     
-5. In the **Back Up Database** dialog box, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
+5. In the **Back Up Database** dialog, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
     
     For more information about the type of backup to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp).
     
@@ -852,7 +852,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. Right-click the database that you want to restore, point to **Tasks**, point to **Restore**, and then click **Database**. 
     
-5. In the **Restore Database** dialog box, on the **General** page, select the database to restore to from the **To database** list. 
+5. In the **Restore Database** dialog, on the **General** page, select the database to restore to from the **To database** list. 
     
 6. Select the restore source from the **From database** list. 
     

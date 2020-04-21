@@ -119,7 +119,7 @@ The following procedure installs binaries, configures security permissions, and 
   
 6. Click **Install Now**.
     
-7. When Setup finishes, a dialog box prompts you to complete the configuration of your server. Ensure that the **Run the SharePoint Products Configuration Wizard now** check box is selected. 
+7. When Setup finishes, a dialog prompts you to complete the configuration of your server. Ensure that the **Run the SharePoint Products Configuration Wizard now** check box is selected. 
     
 8. Click **Close** to start the configuration wizard. 
     
@@ -134,11 +134,11 @@ Use the following procedure to install and configure the configuration database 
   
 1. Verify that the user account that is performing this procedure is the farm administrator user account. For information about the farm administrator user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. If you have closed the SharePoint Products Configuration Wizard, you can access it by clicking **Start**, point to **All Apps**, click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
+2. If you have closed the SharePoint Products Configuration Wizard, you can access it by clicking **Start**, point to **All Apps**, click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog appears, click **Continue**.
     
 3. On the **Welcome to SharePoint Products** page, click **Next**.
     
-4. In the dialog box that notifies you that some services might have to be restarted during configuration, click **Yes**.
+4. In the dialog that notifies you that some services might have to be restarted during configuration, click **Yes**.
     
 5. On the **Connect to a server farm** page, click **Create a new server farm**, and then click **Next**.
     
@@ -229,9 +229,9 @@ If you receive a proxy server error message, perform the following procedure:
     
 5. In the **Add this web site to the zone** box, type the URL to your site, and then click **Add**.
     
-6. Click **Close** to close the **Trusted Sites** dialog box. 
+6. Click **Close** to close the **Trusted Sites** dialog. 
     
-7. Click **OK** to close the **Internet Options** dialog box. 
+7. Click **OK** to close the **Internet Options** dialog. 
     
  **To disable Internet Explorer Enhanced Security settings**
   
@@ -245,7 +245,7 @@ If you receive a proxy server error message, perform the following procedure:
     
 4. In the **Security Information** section, click **Configure IE ESC**.
     
-    The **Internet Explorer Enhanced Security Configuration** dialog box appears. 
+    The **Internet Explorer Enhanced Security Configuration** dialog appears. 
     
 5. In the **Administrators** section, click **Off** to disable the Internet Explorer Enhanced Security settings, and then click **OK**.
     
@@ -269,9 +269,9 @@ If you receive a proxy server error message, perform the following procedure:
     
 8. Select the **Bypass proxy server for local addresses** check box. 
     
-9. Click **OK** to close the **Local Area Network (LAN) Settings** dialog box. 
+9. Click **OK** to close the **Local Area Network (LAN) Settings** dialog. 
     
-10. Click **OK** to close the **Internet Options** dialog box. 
+10. Click **OK** to close the **Internet Options** dialog. 
     
 ### Run the Farm Configuration Wizard
 <a name="configurebrowser"> </a>

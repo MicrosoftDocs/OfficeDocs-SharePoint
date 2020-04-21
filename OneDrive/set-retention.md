@@ -25,7 +25,7 @@ description: "Learn how to specify how long the files of deleted users are prese
 
 # Set the OneDrive retention for deleted users
 
-If a user's Office 365 account is deleted, their OneDrive files are preserved for a period of time that you can specify.
+If a user's Microsoft 365 account is deleted, their OneDrive files are preserved for a period of time that you can specify.
   
  **To set the retention time for OneDrive accounts**
   

@@ -24,7 +24,7 @@ description: "Enable users in your organization to sync IRM-protected locations 
 
 # Let users sync IRM-protected files with the OneDrive sync app
 
-This article is for Office 365 global or SharePoint admins who want their users to be able to sync IRM-protected SharePoint document libraries and OneDrive locations using the new OneDrive sync app.
+This article is for Microsoft 365 global or SharePoint admins who want their users to be able to sync IRM-protected SharePoint document libraries and OneDrive locations using the new OneDrive sync app.
   
 ## Prerequisites
 

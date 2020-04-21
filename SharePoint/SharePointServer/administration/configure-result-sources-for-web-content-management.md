@@ -111,7 +111,7 @@ You can create a result source for a Search service application, a site collecti
     
 1. Click **Launch Query Builder**.
     
-2. In the **Build Your Query** dialog box, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables. 
+2. In the **Build Your Query** dialog, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables. 
     
   - 
    **On the BASICS tab**
