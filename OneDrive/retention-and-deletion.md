@@ -17,12 +17,12 @@ search.appverid:
 - ODB160
 - MET150
 ms.assetid: ef883c48-332c-42f5-8aea-f0e2366c15f9
-description: "Learn what happens to a user's OneDrive when the user's Office 365 account for the organization is deleted"
+description: "Learn what happens to a user's OneDrive when the user's Microsoft 365 account for the organization is deleted"
 ---
 
 # OneDrive retention and deletion
 
-This article describes how you can manage a user's OneDrive when you delete the user's Office 365 account for your organization, and what steps happen automatically.
+This article describes how you can manage a user's OneDrive when you delete the user's Microsoft 365 account for your organization, and what steps happen automatically.
   
 ## Deleting a user from the Microsoft 365 admin center
 
@@ -36,7 +36,7 @@ If you give another user access to the OneDrive, that user will have 30 days by 
 
 By default, when a user is deleted, the user's manager is automatically given access to the user's OneDrive. Follow these steps to confirm that this automatic access delegation is enabled for your organization, and to set a secondary owner in case a user doesn't have a specified manager. If access delegation is disabled or a manager or secondary owner isn't set for a user, no one will have automatic access when the user is deleted or be warned that the OneDrive will be deleted.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     >[!Note]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -73,6 +73,4 @@ By default, when a user is deleted, the user's manager is automatically given ac
     ![OneDrive timeline of OneDrive Deletion](media/SMC_OneDrive_TimelineOfOneDriveDeletion_conceptual.png)
 
 > [!NOTE]
-> Retention policies always take precedence to the standard OneDrive deletion process, so content included in a policy could be deleted before 30 days or retained for longer than the OneDrive retention. For more info, see [Overview of retention policies](/office365/securitycompliance/retention-policies). Likewise, if a OneDrive is put on hold as part of an eDiscovery case, managers and secondary owners will be sent email about the pending deletion, but the OneDrive won't be deleted until the hold is removed.
-> 
-> The retention period for cleanup of OneDrive begins when a user account is deleted from Azure Active Directory. No other action will cause the cleanup process to occur, including blocking the user from signing in or removing the user's license. For info about removing a user's license, see [Remove licenses from users in Office 365 for business](/office365/admin/subscriptions-and-billing/remove-licenses-from-users).
+> Retention policies always take precedence to the standard OneDrive deletion process, so content included in a policy could be deleted before 30 days or retained for longer than the OneDrive retention. For more info, see [Overview of retention policies](/office365/securitycompliance/retention-policies). Likewise, if a OneDrive is put on hold as part of an eDiscovery case, managers and secondary owners will be sent email about the pending deletion, but the OneDrive won't be deleted until the hold is removed. <br>The retention period for cleanup of OneDrive begins when a user account is deleted from Azure Active Directory. No other action will cause the cleanup process to occur, including blocking the user from signing in or removing the user's license. For info about removing a user's license, see [Remove licenses from users in Microsoft 365 for business](/office365/admin/subscriptions-and-billing/remove-licenses-from-users).

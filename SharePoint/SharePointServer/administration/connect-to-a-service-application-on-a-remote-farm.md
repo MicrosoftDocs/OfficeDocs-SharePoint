@@ -43,7 +43,7 @@ Before you begin this operation, review [Share service applications across farms
     > [!NOTE]
     > You can obtain the URL from the administrator of the publishing farm. For more information, see [Publish service applications in SharePoint Server](publish-a-service-application.md). There are two kinds of URLs that you can use in this step: either the URL of the service application or the URL of the remote farm's topology service application. If you use the URL of the service application, only the corresponding service application will be listed in Step 6 of this procedure. If you use the URL of the topology service, all service applications in the farm will be listed in Step 6 of this procedure. 
   
-6. The new **Connect to a Remote Service Application** dialog box displays the service applications that match the URL that you typed in Step 5. Click the row that contains the name of the service application, and then select the check box to add the service application connection to the farm's default list of service application connections (that is, the default proxy group). Click **OK**.
+6. The new **Connect to a Remote Service Application** dialog displays the service applications that match the URL that you typed in Step 5. Click the row that contains the name of the service application, and then select the check box to add the service application connection to the farm's default list of service application connections (that is, the default proxy group). Click **OK**.
     
 7. You are prompted to change the connection name. Type a new name into the **Connection Name** text box or leave the default name, and then click **OK**.
     

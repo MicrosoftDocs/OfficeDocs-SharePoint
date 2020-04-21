@@ -22,7 +22,7 @@ description: "Learn how to add or remove a file type from the search index and h
   
 Before you start, you may want to read [Default crawled file name extensions and parsed file types in SharePoint Server](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md). This article lists the file types that SharePoint Server by default includes in the search index.
   
-If your SharePoint environment is hybrid and uses [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), you can decide what types of files that are stored in SharePoint Server that you want to add or remove from the Office 365 index. Use the following procedures on the server that hosts the crawl component in the cloud Search service application. 
+If your SharePoint environment is hybrid and uses [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), you can decide what types of files that are stored in SharePoint Server that you want to add or remove from the Microsoft 365 index. Use the following procedures on the server that hosts the crawl component in the cloud Search service application. 
   
 To add or remove a file type from the search index: 
   

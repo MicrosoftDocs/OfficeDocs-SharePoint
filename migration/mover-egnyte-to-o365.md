@@ -1,5 +1,5 @@
 ---
-title: Migrating to Office 365 from Egnyte
+title: Migrating to Microsoft 365 from Egnyte
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,16 +10,16 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "How to Migrate from Egnyte to Office 365"
+description: "How to Migrate from Egnyte to Microsoft 365"
 ---
 
-# How to migrate from Egnyte to Office 365
+# How to migrate from Egnyte to Microsoft 365
 
 ## Introduction
 
 Our purpose is to act as an intermediary between various web technologies that don't play nice together. We take your files from one place and copy them to another. No downloads and nothing to watch over—our web-hosted app does all the work!
 
-Undertaking any corporate migration is a daunting task. When moving from Egynte to Office 365, there are many things to consider. Our team has done this enough times to have learned a thing or two. We hope this guide helps you migrate successfully from Egynte to Office 365.
+Undertaking any corporate migration is a daunting task. When moving from Egynte to Microsoft 365, there are many things to consider. Our team has done this enough times to have learned a thing or two. We hope this guide helps you migrate successfully from Egynte to Microsoft 365.
 
 If you experience any issues, please do not hesitate to ask us questions!
 
@@ -30,7 +30,7 @@ If you experience any issues, please do not hesitate to ask us questions!
 
 ### File processing summary
 
-When we transfer a file, a temporary copy is downloaded from **Egynte** to a temporary server and then uploaded to Office 365. Upon successful upload, that file is deleted from the temporary server. When your migration is complete, that temporary server is eliminated. Any log data expires in 90 days and is never retained by us. We do not perform any actions beyond copying files and folders and sharing permissions. We never perform delete operations.
+When we transfer a file, a temporary copy is downloaded from **Egynte** to a temporary server, and then uploaded to Microsoft 365. Upon successful upload, that file is deleted from the temporary server. When your migration is complete, that temporary server is eliminated. Any log data expires in 90 days and is never retained by us. We do not perform any actions beyond copying files and folders and sharing permissions. We never perform delete operations.
 
 ## Communicating with stakeholders
 
@@ -38,7 +38,7 @@ A migration is a significant undertaking for any organization. Trying to grasp t
 
 Before, during, and after a migration, it is critical to communicate clearly and effectively with your user base. We provide timely support and communication materials to your transition team to help you communicate these changes with each stakeholder.
 
-**Management** — Management needs succinct info about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular info is important when running a department.
+**Management** — Management needs succinct info about the how's and why's of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular info is important when running a department.
 
 For example, the Sales Manager needs to know how operations will be affected, such as *Can employees still work over the weekend, if needed?*
 
@@ -50,7 +50,7 @@ Key questions to address:
 - How does it impact me?
 - What are the benefits?
 - How disruptive is this change going to be?
-- What are the differences between Egnyte and Office 365, and how do I reconcile them?
+- What are the differences between Egnyte and Microsoft 365, and how do I reconcile them?
 
 **Third parties** — If people outside your organization have access to collaborate on documents, this could potentially be interrupted and require resharing of data. We describe best practices for this event in our guide.
 
@@ -113,21 +113,21 @@ Migrations are run on a per-user basis. Because of our app's scalable infrastruc
 
 **Collaborators-only**: Your fiscal budget need only include users that own data in Egnyte. Anyone that strictly engages as a collaborator in Egnyte (for example, they only share other users' content), do not have any data copied, and therefore do not incur a fee.
 
-**Setting permissions is free**. Users that strictly collaborate in Egnyte receive equivalent sharing permissions in Office 365 for free.
+**Setting permissions is free**: Users that strictly collaborate in Egnyte receive equivalent sharing permissions in Microsoft 365 for free.
 
 ### Data ownership
 
-You must consider data ownership. If a user has only shared data, and absolutely no owned data, we transfer no files from Egnyte to Office 365 for that particular individual.
+You must consider data ownership. If a user has only shared data, and absolutely no owned data, we transfer no files from Egnyte to Microsoft 365 for that particular individual.
 
 Definitions:
 
-- **Shared data** are files and folders that are not owned by the user. When permissions are applied in Office 365 after transfering, folders are shared again with the appropriate users.
+- **Shared data** are files and folders that are not owned by the user. When permissions are applied in Microsoft 365 after transfering, folders are shared again with the appropriate users.
 - **Owned data** are files and folders that are owned by the user. Data almost always needs to have an owner within your organization. This is the only data that we actually transfer.
 - **Ownership** is typically determined by who created the file or folder, but in some cases it can depend on the owner or creator of the parent (upper or top-level) folder.
 
 ## Data distribution
 
-Determining the distribution of data across the user base is an extremely important component of a migration because we copy data in a highly parallel manner, and our servers transfer data as fast as each cloud storage provider can handle. Both Egnyte and Office 365 have rate limits for how fast data can be downloaded and uploaded.
+Determining the distribution of data across the user base is an extremely important component of a migration because we copy data in a highly parallel manner, and our servers transfer data as fast as each cloud storage provider can handle. Both Egnyte and Microsoft 365 have rate limits for how fast data can be downloaded and uploaded.
 
 The more users simultaneously being transfered, the higher our throughput for your migration. **We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.**
 
@@ -146,7 +146,7 @@ Knowing the total volume of data you are moving helps to create a more realistic
 
 ### Your migration team
 
-Establish a migration team to lead your organization through the project. The team’s role includes liaising with us, undergoing training, and notifying employees of each change during the migration process.
+Establish a migration team to lead your organization through the project. The team's role includes liaising with us, undergoing training, and notifying employees of each change during the migration process.
 
 An IT Manager or the Head of IT is a good choice for our point of contact because they understand the ins and outs of your organization's systems. To ensure a smooth, successful migration, we work closely together and be with you every step of the way.
 
@@ -172,7 +172,7 @@ We recommend migrating during a slower organizational period, such as the weeken
 
 ### Keep your accounts active
 
-When migrating from Egnyte to Office 365, you need to ensure all your users are active and accessible. Knowing exactly when your Egnyte may shut down or expire is key to safely planning enough time to migrate.
+When migrating from Egnyte to Microsoft 365, you need to ensure all your users are active and accessible. Knowing exactly when your Egnyte may shut down or expire is key to safely planning enough time to migrate.
 
 ### Consider migration speed factors
 
@@ -203,20 +203,20 @@ Keep in mind that while cloud storage is sometimes just a container for files, p
 
 #### Example emails to send
 
-**Subject**: ATTENTION: Decision to Migrate from Egnyte to Office 365
+**Subject**: ATTENTION: Decision to Migrate from Egnyte to Microsoft 365
 
-**Message**: A few months ago, management decided we will be leaving Egnyte and transition to Office 365. In Office 365, all employees will have access to cloud storage and its included apps.
+**Message**: A few months ago, management decided we will be leaving Egnyte and transition to Microsoft 365. In Microsoft 365, all employees will have access to cloud storage and its included apps.
 
 We manage the migration to ensure all of our data gets transfered securely and efficiently. Let me know if you have any questions or concerns about the process.
 </br>
 
 **Subject**: ATTENTION: Important Info Regarding Cloud Data Migration
 
-**Message**: As you know from prior emails, we are moving from Egnyte to Office 365 as our cloud storage provider.
+**Message**: As you know from prior emails, we are moving from Egnyte to Microsoft 365 as our cloud storage provider.
 
 To assist in this migration, we ask all employees to finish working and upload any last changes to files in Egnyte by 17:00 PT on Friday, April 7, 2020. Changes to files or data in Egnyte after this time are not moved.
 
-On Monday, April 10, 2020, all employees will be using Office 365.
+On Monday, April 10, 2020, all employees will be using Microsoft 365.
 
 Questions and concerns can be directed to your immediate manager and/or our technical support staff via the usual channels.
 
@@ -237,10 +237,10 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |**Microsoft service**|**Which Mover connector to use**|
 |:-----|:-----|
 |Azure Blob Storage|Azure Blob Storage Connector|
-|OneDrive Consumer|	OneDrive Consumer Connector|
-|OneDrive for Business (Administrator)|	Office 365 Connector|
-|OneDrive for Business (User)|	OneDrive for Business (User) Connector|
-|SharePoint Online|Office 365 Connector|
+|OneDrive Consumer|    OneDrive Consumer Connector|
+|OneDrive for Business (Administrator)|    Microsoft 365 Connector|
+|OneDrive for Business (User)|    OneDrive for Business (User) Connector|
+|SharePoint Online|Microsoft 365 Connector|
 
 ## Deleting connectors
 
@@ -291,7 +291,7 @@ Here are a few examples of how we deal with changes to files and folders.
 
 **Content changes**: If a document is edited in your source or you have added a few new files, we copy them to your destination on the next incremental run, overwriting the previously existing file(s) in the destination.
 
-**Name changes**: If the name of a file or folder changes in Egnyte, we treat it as a brand new object. This can lead to duplicate files being migrated to Office 365, or worse: entire folders worth of data being duplicated from the changed folder downwards.
+**Name changes**: If the name of a file or folder changes in Egnyte, we treat it as a brand new object. This can lead to duplicate files being migrated to Microsoft 365, or worse: entire folders worth of data being duplicated from the changed folder downwards.
 
 **Example**: Changing the path `/Sales/Clients` to `/Global Sales/Clients` results in two copies of your `Sales` folder after the `Global Sales` folder is also copied during an incremental pass.
 
@@ -299,15 +299,15 @@ Here are a few examples of how we deal with changes to files and folders.
 
 We never delete your data from any source. Our app simply takes your data from one place and copies it to another—akin to *copy and paste* rather than *cut and paste.* We also don't retain any of your cloud storage data for any reasons.
 
-We strive to keep your users' experience as similar as possible between Egynte and Office 365.
+We strive to keep your users' experience as similar as possible between Egynte and Microsoft 365.
 
 ### How are permissions affected?
 
-When moving from Egnyte to Office 365, user roles *on folders* change.
+When moving from Egnyte to Microsoft 365, user roles *on folders* change.
 
 During a migration, we do not explicitly set a user as an owner of data.
 
-In Office 365, ownership of files and folders is always implicitly set by virtue of copying data into a user.
+In Microsoft 365, ownership of files and folders is always implicitly set by virtue of copying data into a user.
 
 #### Translating permissions
 
@@ -334,7 +334,7 @@ We do not share content with external collaborators. This policy is in place to 
 
 ### Does Mover preserve file versions?
 
-We do not preserve file versions. During a migration, only the most recent version of a file is transfered from Egnyte to Office 365.
+We do not preserve file versions. During a migration, only the most recent version of a file is transfered from Egnyte to Microsoft 365.
 
 ### Does Mover notify users?
 
@@ -455,11 +455,11 @@ During the migration setup (described later in this guide), you can edit the pat
 
 Most cloud storage providers, Egynte, for example, start the listing with a user such as `/user@example.com/marketing data`. Egnyte does not do this, so you would be looking at a path such as `/Shared/marketing data` if it's a Shared folder, or `/Private/example/marketing data` if it's a Private folder.
 
-## Office 365 FAQ
+## Microsoft 365 FAQ
 
 ### Will there be unsupported files and characters?
 
-We automatically process file and folder names to ensure they are accepted by Office 365:
+We automatically process file and folder names to ensure they are accepted by Microsoft 365:
 
 - Files larger than `15 GB` are not migrated.
 - Files with a size of `0 bytes` (zero-byte files) are not migrated.
@@ -468,7 +468,7 @@ We automatically process file and folder names to ensure they are accepted by Of
 - Leading tildes (`~`) are removed.
 - Leading or trailing whitespace is removed.
 - Leading or trailing periods (`.`) are removed.
-- See all invalid file or folder names and other Office 365 limitations **here**.
+- See all invalid file or folder names and other Microsoft 365 limitations **here**.
 
 In some possible circumstances with older sites, any file or folder ending in `_files` could fail. If you experience these errors, contact Support.
 
@@ -482,7 +482,7 @@ Total path length for folder and filename combinations can have up to 400 charac
 
 ### What happens to long paths?
 
-During a pre-scan, our app automatically detects and reports paths that are too long for OneDrive or SharePoint to accept. The current path length limit for Office 365 is 400 characters. The path length is calculated when going in to Office 365 and includes your tenant URL, user site, path, and any character encoding.
+During a pre-scan, our app automatically detects and reports paths that are too long for OneDrive or SharePoint to accept. The current path length limit for Microsoft 365 is 400 characters. The path length is calculated when going in to Microsoft 365 and includes your tenant URL, user site, path, and any character encoding.
 
 **Example**:
 
@@ -498,14 +498,14 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 
 ### Are timestamps preserved?
 
-The original timestamps from Egynte are preserved when migrating into Office 365.
+The original timestamps from Egynte are preserved when migrating into Microsoft 365.
 
 >[!Note]
 >Timestamps are only applied to files/data transfered, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
 
 ### Is file authorship preserved?
 
-When migrating from Egnyte into Office 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
+When migrating from Egnyte into Microsoft 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
 
 ### Does the Mover app interact with the sync client in OneDrive for Business?
 
@@ -513,25 +513,25 @@ We do not interact with the sync client in **OneDrive for Business**. Before a m
 
 ### What happens to shared data?
 
-Data shared with a user by another user appears in the **Shared with me** folder. Data owned by a user appears in the user’s designated destination folder.
+Data shared with a user by another user appears in the **Shared with me** folder. Data owned by a user appears in the user's designated destination folder.
 
 ### What about notifications?
 
 To prevent users from being spammed, the Mover app silences notifications during the migration.
 
-### What happens to data shared to Office 365 Groups?
+### What happens to data shared to Microsoft 365 Groups?
 
-Data shared to an Office 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Office 365 Group.
+Data shared to a Microsoft 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of a Microsoft 365 Group.
 
 >[!Note]
->This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
+>This is a limitation of Microsoft 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
 
 After the user has logged in:
 
 1. Navigate to the left hand menu.
 2. Scroll down the folder listings to **Groups**. If the available groups are not visible, to open the group directory, select the small arrow beside the **Groups** listing.
 3. Select the desired group.
-From here, the left-hand menu should change, enabling you to open and edit **Files/Notes** within the selected Office 365 Group.
+From here, the left-hand menu should change, enabling you to open and edit **Files/Notes** within the selected Microsoft 365 Group.
 
 ### What SharePoint site formats are supported?
 
@@ -618,20 +618,20 @@ Our app requires an **Administrator** for authorization. The following table lis
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
-|Create and manage bookmarks	|Access and migrate bookmark data.|
+|Create and manage bookmarks    |Access and migrate bookmark data.|
 |View and manage folder permissions|Access and create folder permission.|
 |View and manage groups|View all groups under in the available Egnyte Directory.|
 |View and manage users|View, edit, and manage users under the available Egnyte Directory.|
-|Generate audit reports	|Generate and view reports available in the Egnyte Report Center.|
+|Generate audit reports    |Generate and view reports available in the Egnyte Report Center.|
 |Create and manage links|Create and manage internal links.|
 |Read and write all files and folders|View, edit, copy and paste all data from within the Egnyte-available Directories.|
 
-### Authorizing Office 365
+### Authorizing Microsoft 365
 
 >[!Warning]
->To fully authorize the **Office 365 Connector**, a Global Admin is required to grant permissions to the Office 365 Mover app within the Azure portal.
+>To fully authorize the **Microsoft 365 Connector**, a Global Admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
 >
->The Global Admin must grant these permissions *after* the **Office 365 Connector** is authorized within the main Mover app.
+>The Global Admin must grant these permissions *after* the **Microsoft 365 Connector** is authorized within the main Mover app.
 
 To complete the authorization steps in the right order, see the following instructions.
 
@@ -640,15 +640,15 @@ A Global Admin or an SPO Admin can complete some steps in the authorization proc
 1. **Global Admin or SPO Admin**: Via app.mover.io, log into the main Mover app. In the **Transfer Wizard**, select **Authorize New Connector**.
 
 >[!Note]
->Whether the **Office 365 Connector** is your source or destination connector (or both), you must complete this authorization process.
+>Whether the **Microsoft 365 Connector** is your source or destination connector (or both), you must complete this authorization process.
 
 ![Authorize new connector]( media/05-authorize-new-connector.png)
 
-2. **Global Admin or SPO Admin**: In the **Connector** list, find **Office 365**, and select **Authorize**.
+2. **Global Admin or SPO Admin**: In the **Connector** list, find **Microsoft 365**, and select **Authorize**.
 
 ![Authorize O365](media/authorize-o365.png)
 
-3. **Global Admin or SPO Admin**: A window with an **Authorize** button appears. It prompts you to give your Office 365 Connector a display name <optional>. Select **Authorize**.
+3. **Global Admin or SPO Admin**: A window with an **Authorize** button appears. It prompts you to give your Microsoft 365 Connector a display name <optional>. Select **Authorize**.
 
 ![Authorize window](media/authorize-window.png)
 
@@ -664,7 +664,7 @@ A Global Admin or an SPO Admin can complete some steps in the authorization proc
 
 
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error aapears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error aapears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
 
 If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
 
@@ -676,17 +676,17 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![Enterprise applications](media/enterprise-applications.png)
 
-7. **Global Admin**: Find and select the **Office 365 Mover** app. A page appears that provides an overview of our app.
+7. **Global Admin**: Find and select the **Microsoft 365 Mover** app. A page appears that provides an overview of our app.
 
 ![O365 Mover app](media/o365-mover-app.png)
 
-8. **Global Admin**: In the left menu, find and open **Permissions**, and select **Grant admin consent for Mover**.
+8. **Global Admin**: In the left menu, find and open **Permissions**. Select **Grant admin consent for Mover**.
 
 ![o365 mover permissions](media/o365-mover-permissions.png)
 
-9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Office 365 Connector** is fully authorized and ready to go.
+9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
 
-### Troubleshooting an Office 365 connector
+### Troubleshooting a Microsoft 365 connector
 
 #### App access error
 
@@ -694,19 +694,19 @@ If you encounter an error on authorization, try signing out of any Microsoft acc
 
 #### Global Admin account provisioning
 
-Your Global Admin user must have an Office 365 account provisioned to administer other Office 365 accounts. If you create a service account for our app, ensure you also assigned an Office 365 license, and walked through the Office 365 setup process.
+Your Global Admin user must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you also assigned a Microsoft 365 license, and walked through the Microsoft 365 setup process.
 
 #### User provisioning
 
-Are your Office 365 users provisioned? All Office 365 users must log in to their Office 365, and open Office 365 for us to transfer into their accounts. You can also provision Office 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately)::
+Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to their Microsoft 365, and open Microsoft 365 for us to transfer into their accounts. You can also provision Microsoft 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately)::
 
 `Connect-SPOService -Url https://example-admin.sharepoint.com -credential user@example.com`
 
-`Request-SPOPersonalSite -UserEmails “neverloggedintest@example.onmicrosoft.com”`
+`Request-SPOPersonalSite -UserEmails "neverloggedintest@example.onmicrosoft.com"`
 
-#### Office 365 permission requirements
+#### Microsoft 365 permission requirements
 
-Our app requires a Global Administrator for authorization. The following table lists the scopes we require.
+Our app requires a Global Admin for authorization. The following table lists the scopes we require.
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
@@ -720,11 +720,11 @@ If you are not already connected after you have authorized your source, select *
 
 ![execution select gdrive source](media/execution-select-egnyte-source.png)
 
-### Connecting your destination Office 365 account
+### Connecting your destination Microsoft 365 account
 
-If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
+If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![execution select o365 destination](media/execution-select-office-365-destination.png)
+![execution select m365 destination](media/execution-select-office-365-destination.png)
 
 #### Creating a new migration
 
@@ -807,7 +807,7 @@ To use an Excel spreadsheet to create your CSV:
 
 ##### Checking paths
 
-Confirm that the users in the Egnyte source match the users in the Office 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
+Confirm that the users in the Egnyte source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
 #### Editing
 
@@ -826,7 +826,7 @@ To edit a user destination entry:
 
 1. To select a user row, on the left side of a row, select the respective checkbox.
 2. On the right and directly above the user rows, find **User Actions**, or right-click the user row for which you want to edit the destination path.
-3. A new side panel opens, enabling you to edit the Office 365 destination path.
+3. A new side panel opens, enabling you to edit the Microsoft 365 destination path.
 4. To select your parent destination path, double-click it. To complete your edit, select **Save**.
 
 ![edit destination user](media/edit-destination-user.png)
@@ -939,7 +939,7 @@ We automatically detect users and handle perfect matches. Any inconsistencies mu
 
 ![edit permission map](media/edit-permission-map.png)
 
-You may either auto-discover or upload a permission map file. We automatically pair perfect matches. If a user or group in Egnyte does not have a perfect match in Office 365, you can correct it in our interface.
+You may either auto-discover or upload a permission map file. We automatically pair perfect matches. If a user or group in Egnyte does not have a perfect match in Microsoft 365, you can correct it in our interface.
 
 2. Select **Auto-discover Users**.
 
@@ -1134,7 +1134,7 @@ This action stops the transfer as soon as possible (usually within a few seconds
 
 The best way to resolve any issues with a transfer is to rerun it. This action checks over all the files in your destination, compares them to the source, and then transfers over the new or modified files.
 
-All transfers take advantage of our incremental feature, and only transfer new or modified data differences between Egnyte and Office 365.
+All transfers take advantage of our incremental feature, and only transfer new or modified data differences between Egnyte and Microsoft 365.
 
 As long as a transfer is not running, to restart a transfer, you can re-queue a user.
 
@@ -1149,18 +1149,18 @@ The following table lists additional info about each transfer status message fro
 
 |**Status message**|**Definition**|
 |:-----|:-----|
-|Running pre-checks|	Our servers checking a few things and sending your transfer to the queue. Almost there!|
-|Queued to start, please be patient|	Your transfer will run as soon as possible. You can close your browser, and receive an email on completion. There is no limit to queued users.|
-|Success. No files copied	|We have skipped all of your files without error, and have detected no new or modified files.|
-|Success. Some unsupported files not transferred|	We have skipped all of your files without error, and have detected no new or modified files. Files unsupported by the source or destination were skipped over.|
-|Some upload errors, please retry|	We were able to download everything from the source, or skip files that already existed in the destination, but some files didn't make it into the destination.|
-|No files copied. Some upload errors, please retry	|We were able to download everything from the source, or skip files that already existed in the destination, but no files made it into the destination.|
-|Some download errors, please retry|	We weren't able to download everything from the source, but some files made it into the destination successfully.|
-|No files copied. Some download errors, please retry	|We weren't able to download anything from the source!|
-|Some download and upload errors, please retry	|There were errors with both downloading and uploading files, although some incremental files may have been skipped successfully.|
-|General failure, please retry|	We don't have a particular reason why your transfer failed - maybe we were having trouble connecting to your source or destination properly, for example.|
-|Connector auth failed|	One of your connectors isn't authorized correctly.|
-|Crashed, please retry|	We don't have a particular reason why your transfer failed, but generally this is due to server issues on our side or with the source or destination connectors. Contact us if you encounter a crash.|
+|Running pre-checks|    Our servers checking a few things and sending your transfer to the queue. Almost there!|
+|Queued to start, please be patient|    Your transfer will run as soon as possible. You can close your browser, and receive an email on completion. There is no limit to queued users.|
+|Success. No files copied    |We have skipped all of your files without error, and have detected no new or modified files.|
+|Success. Some unsupported files not transferred|    We have skipped all of your files without error, and have detected no new or modified files. Files unsupported by the source or destination were skipped over.|
+|Some upload errors, please retry|    We were able to download everything from the source, or skip files that already existed in the destination, but some files didn't make it into the destination.|
+|No files copied. Some upload errors, please retry    |We were able to download everything from the source, or skip files that already existed in the destination, but no files made it into the destination.|
+|Some download errors, please retry|    We weren't able to download everything from the source, but some files made it into the destination successfully.|
+|No files copied. Some download errors, please retry    |We weren't able to download anything from the source!|
+|Some download and upload errors, please retry    |There were errors with both downloading and uploading files, although some incremental files may have been skipped successfully.|
+|General failure, please retry|    We don't have a particular reason why your transfer failed - maybe we were having trouble connecting to your source or destination properly, for example.|
+|Connector auth failed|    One of your connectors isn't authorized correctly.|
+|Crashed, please retry|    We don't have a particular reason why your transfer failed, but generally this is due to server issues on our side or with the source or destination connectors. Contact us if you encounter a crash.|
 
 ## Post-migration troubleshooting
 
@@ -1175,21 +1175,21 @@ Follow these steps if your migration is having issues:
 
 Alternatively, you can select multiple users, and from the **User Actions** dropdown menu, you can download their most recent collective logs in a zip file that provides them in both HTML and CSV formats.
 
-3. Check if your failed/unsupported files are too large to go into Office 365.
-4. Ensure you have enough storage space in Office 365 to accommodate the data you're moving in.
+3. Check if your failed/unsupported files are too large to go into Microsoft 365.
+4. Ensure you have enough storage space in Microsoft 365 to accommodate the data you're moving in.
 5. Think files are missing? Check out our list of **Unsupported Files per Connector**.
 
 ### Incremental feature
 
-Our incrementals are delta operations which compare files in your Office 365 to files in Office 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Office 365 data up to date when the very final cutover of users occurs. These incremental passes are an important part of our process.
+Our incrementals are delta operations which compare files in your Egnyte to files in Microsoft 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Microsoft 365 data up to date when the very final cutover of users occurs. These incremental passes are an important part of our process.
 
-**Technical clarification**: We compare what you have in Egnyte to what is in Office 365, and we only transfer anything that doesn't already exist, or has a newer timestamp.
+**Technical clarification**: We compare what you have in Egnyte to what is in Microsoft 365, and we only transfer anything that doesn't already exist, or has a newer timestamp.
 
 ### 'Lost files'
 
-During a transition where sharing paradigms change, there are many users who claim, “My files are lost!”
+During a transition where sharing paradigms change, there are many users who claim, "My files are lost!"
 
-This is common if they are not in clear communication about how the sharing structure changes when they log in to Office 365. This can be mitigated with a clear communication strategy.
+This is common if they are not in clear communication about how the sharing structure changes when they log in to Microsoft 365. This can be mitigated with a clear communication strategy.
 
 ### Waiting for Microsoft
 
@@ -1249,15 +1249,15 @@ View an example CSV log or in your browser:
 
 |**Message**|**Definition**|
 |:-----|:-----|
-|Failed to download file successfully	|An issue occured with the Source Connector.|
-|Failed to upload file successfully	|An issue occured with the Destination Connector.|
-|Unknown error of type 400	|A 'bad request' error. It could be a problem with the Source (File Download) or Destination (File Upload). Typically, this means that something has changed client-side or server-side and could be resolved the next time you run the transfer.|
-|Unknown error of type 404	|This is a *server not found* error. Typically, this means that the Source (File Download) or Destination (File Upload) server is down or experiencing a temporary outage.|
-|Auth failure: attempt to renew authentication successful|	Authorization is failing either on the Source (File Download) or Destination (File Upload) Connector.|
-|Backoff used: #|	Generally seen after an action listed as 'throttle.' This means we've made too many requests of that Connector, and must wait before trying whatever action we were trying to complete again.|
-|Folder Already Exists|	We attempted to create the folder, but we've already created it in a previous transfer, or it already exists in the destination.|
-|Skipping because of incremental	|Not an error by definition; it's just our incremental process at work.|
-|Scanned|	Not an error by definition; it's just our scanner counting your data.|
+|Failed to download file successfully    |An issue occured with the Source Connector.|
+|Failed to upload file successfully    |An issue occured with the Destination Connector.|
+|Unknown error of type 400    |A 'bad request' error. It could be a problem with the Source (File Download) or Destination (File Upload). Typically, this means that something has changed client-side or server-side and could be resolved the next time you run the transfer.|
+|Unknown error of type 404    |This is a *server not found* error. Typically, this means that the Source (File Download) or Destination (File Upload) server is down or experiencing a temporary outage.|
+|Auth failure: attempt to renew authentication successful|    Authorization is failing either on the Source (File Download) or Destination (File Upload) Connector.|
+|Backoff used: #|    Generally seen after an action listed as 'throttle.' This means we've made too many requests of that Connector, and must wait before trying whatever action we were trying to complete again.|
+|Folder Already Exists|    We attempted to create the folder, but we've already created it in a previous transfer, or it already exists in the destination.|
+|Skipping because of incremental    |Not an error by definition; it's just our incremental process at work.|
+|Scanned|    Not an error by definition; it's just our scanner counting your data.|
 
 ## Reports
 
@@ -1315,23 +1315,23 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 
 |**Filter label**|**Label effect**|
 |:-----|:-----|
-|Status|	Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
-|Files|	Filters based on files transfered, failed, and skipped.|
-|Data	|Filters based on data that has transfered, failed, or skipped.|
-|Success|	Displays all successful Data and Files transfered.|
-|Failed	|Displays all Data and Files that have failed to transfer.|
-|Skipped	|Displays all data and files that were skipped.|
-|Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
-|Path	|Filters for specific source or destination path [for example, path:username].|
-|Destination|	Filters for specific destination path [for exaample, path:@domain<spam><spam>.com].|
-|Source|	Filters for specific source path [for example, path:foldername].|
-|Destination path	|Functions the same as **Destination**.|
-|Source path	|Functions the same as **Source**.|
-|Tags	 |Lists transfers with previously implemented custom tags.|
-|Notes	|Filters by keywords in previously implemented custom notes.|
-|Code|	Filters for specific status codes.|
-|Destination name|	Displays transfers with a specific destination name.|
-|Source name|	Displays transfers with a specific source name.|
+|Status|    Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
+|Files|    Filters based on files transfered, failed, and skipped.|
+|Data    |Filters based on data that has transfered, failed, or skipped.|
+|Success|    Displays all successful Data and Files transfered.|
+|Failed    |Displays all Data and Files that have failed to transfer.|
+|Skipped    |Displays all data and files that were skipped.|
+|Schedule    |Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
+|Path    |Filters for specific source or destination path [for example, path:username].|
+|Destination|    Filters for specific destination path [for exaample, path:@domain<spam><spam>.com].|
+|Source|    Filters for specific source path [for example, path:foldername].|
+|Destination path    |Functions the same as **Destination**.|
+|Source path    |Functions the same as **Source**.|
+|Tags     |Lists transfers with previously implemented custom tags.|
+|Notes    |Filters by keywords in previously implemented custom notes.|
+|Code|    Filters for specific status codes.|
+|Destination name|    Displays transfers with a specific destination name.|
+|Source name|    Displays transfers with a specific source name.|
 
 ### Scan report
 
@@ -1355,32 +1355,32 @@ The CSV report provides the following info for each user pairing.
 
 |**Header/Statistic**|**Definition**|
 |:-----|:-----|
-|Schedule ID|	Our internal reference unique to the user pairing created.|
-|Source|	Source directory path.|
-|Destination	|Destination directory path.|
-|Tags	|If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
-|Notes|	If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
-|First Run Start|	When the first transfer for this user pairing began.|
-|Files Transfered	|Total files transfered.|
-|MB Transfered	|Total data (MB) transfered.|
-|Times run|	Total number of times this user pairing has been run.|
-|Total Duration	|Total duration of each time this user pairing has been run.|
-|Average File Velocity (files/hour)|	Files transfered, divided by the total duration.|
-|Average Data Velocity (MB/hour)	|Data (MB) transfered, divided by the total duration.|
-|Last Status|	Last status of the user pairing.  This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
-|Last Status Code|	Internal reference number refering to the last status of the user pairing.|
-|Last Skipped|	Number of skipped files in the last run.|
-|Last Files|	Number of files transfered in the last run.|
-|Last MB	|Volume of data (MB) transfered in the last run.|
-|Last MB Skipped	|Volume of data (MB) skipped in the last run.|
-|Last Failed Files	|Number of files that failed to transfer in the last run.|
-|Last Folders Listed	|Number of folders that we opened/created in the last run.|
-|Last Folders Failed	|Number of folders that we failed to open/create in the last run.|
-|Last Run Start	|When the latest transfer on this user pairing began.|
-|Last Run End	|When the latest transfer on this user pairing finished.|
-|Last Run Duration	|How long the latest transfer for this user pairing took to complete.|
-|Last File Velocity (files/hour)	|Files transfered, divided by the total duration for the last run.|
-|Last Data Velocity (MB/hour)|	Data (MB) transfered, divided by the total duration for the last run.|
+|Schedule ID|    Our internal reference unique to the user pairing created.|
+|Source|    Source directory path.|
+|Destination    |Destination directory path.|
+|Tags    |If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
+|Notes|    If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
+|First Run Start|    When the first transfer for this user pairing began.|
+|Files Transfered    |Total files transfered.|
+|MB Transfered    |Total data (MB) transfered.|
+|Times run|    Total number of times this user pairing has been run.|
+|Total Duration    |Total duration of each time this user pairing has been run.|
+|Average File Velocity (files/hour)|    Files transfered, divided by the total duration.|
+|Average Data Velocity (MB/hour)    |Data (MB) transfered, divided by the total duration.|
+|Last Status|    Last status of the user pairing.  This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
+|Last Status Code|    Internal reference number refering to the last status of the user pairing.|
+|Last Skipped|    Number of skipped files in the last run.|
+|Last Files|    Number of files transfered in the last run.|
+|Last MB    |Volume of data (MB) transfered in the last run.|
+|Last MB Skipped    |Volume of data (MB) skipped in the last run.|
+|Last Failed Files    |Number of files that failed to transfer in the last run.|
+|Last Folders Listed    |Number of folders that we opened/created in the last run.|
+|Last Folders Failed    |Number of folders that we failed to open/create in the last run.|
+|Last Run Start    |When the latest transfer on this user pairing began.|
+|Last Run End    |When the latest transfer on this user pairing finished.|
+|Last Run Duration    |How long the latest transfer for this user pairing took to complete.|
+|Last File Velocity (files/hour)    |Files transfered, divided by the total duration for the last run.|
+|Last Data Velocity (MB/hour)|    Data (MB) transfered, divided by the total duration for the last run.|
 
 Download an example CSV:
 
@@ -1419,19 +1419,19 @@ We are stewards of your data. Our approach in all things is to see you successfu
 ### Communication
 
 Follow up with users after migration to ensure they know where to access their data.
-Provide a link to set up their new Office 365 accounts. Be prepared to answer any questions or concerns, as it is common for users to complain about a new system.
+Provide a link to set up their new Microsoft 365 accounts. Be prepared to answer any questions or concerns, as it is common for users to complain about a new system.
 
 ### Example email
 
-**Subject**: ATTENTION: Login to Office 365*
+**Subject**: ATTENTION: Login to Microsoft 365*
 
-**Message**: Over the weekend, we migrated our team from Egnyte to Office 365.
+**Message**: Over the weekend, we migrated our team from Egnyte to Microsoft 365.
 
-All files and folders were transfered without any issues. To set up your new Office 365 account, follow this link..
+All files and folders were transfered without any issues. To set up your new Microsoft 365 account, follow this link..
 
 Your username remains the same; however, you must create a new password.
 
-From this point forward, log into your Office 365 account rather than your old Egnyte account.
+From this point forward, log into your Microsoft 365 account rather than your old Egnyte account.
 
 Let us know if you have any questions or concerns.
 
@@ -1439,7 +1439,7 @@ Let us know if you have any questions or concerns.
 
 This User Migration Guide is intended to be distributed to users via their migration management team. Feel free to customize messaging to best serve users.
 
-For more info about your upcoming Office 365 migration, see the following sections.
+For more info about your upcoming Microsoft 365 migration, see the following sections.
 
 ### Timeline
 
@@ -1451,13 +1451,13 @@ For more info about your upcoming Office 365 migration, see the following sectio
 
 **Do** continue working in Egynte as usual!
 
-**Don't** start using Office 365 until you have been notified the final cutover is complete!
+**Don't** start using Microsoft 365 until you have been notified the final cutover is complete!
 
-**Don't** make any major changes to file or folder names! Your files and folders are continually copied from Egynte to Office 365, but changes to file names or folders can result in duplicated data.
+**Don't** make any major changes to file or folder names! Your files and folders are continually copied from Egynte to Microsoft 365, but changes to file names or folders can result in duplicated data.
 
 ### Filenames
 
-Files and folders are automatically processed to ensure they are compatible with Office 365.
+Files and folders are automatically processed to ensure they are compatible with Microsoft 365.
 
 ### What happens to External Sharing links?
 
@@ -1465,4 +1465,4 @@ Our app does not recreate external sharing links. After migration, these must be
 
 ### Your migration team
 
-If you need more help with Office 365, shortening paths, or just want to say thanks. e-mail <your end-user support email>.
+If you need more help with Microsoft 365, shortening paths, or just want to say thanks, e-mail <your user support email>.

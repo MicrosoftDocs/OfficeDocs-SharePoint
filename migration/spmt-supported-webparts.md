@@ -22,9 +22,9 @@ description: "SharePoint Migration Tool table of supported webparts for migratio
 
 > [!Important]
 >**Allow or prevent Custom Script (NoScript)** </br>
->In Office 365 tenants you can control whether users can run custom script on personal sites and self-service created sites. 
+>With Microsoft 365 tenants, you can control whether users can run custom script on personal sites and self-service created sites. 
 >
->During migration, some web parts require this setting set to **allow**.  Otherwise, the web part will not be migrated.
+>During migration, some web parts require this setting set to **allow**. Otherwise, the web part will not be migrated.
 >
 >At least 24 hours before you start migration, do the following:
 >1. From the SharePoint Admin Center, select Settings.

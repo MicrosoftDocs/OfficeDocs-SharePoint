@@ -117,7 +117,7 @@ Use the following procedure to create the publishing rule and web listener.
     > [!NOTE]
     > If you use SSL, ensure that you have a valid certificate installed on the primary web application. 
   
-6. In the **Internal Publishing Details** dialog box, in the **Internal site name** text box, type the internal DNS name of the  *bridging URL*  , and then click **Next**. This is the URL that the TMG server will use to relay requests to the primary web application. 
+6. In the **Internal Publishing Details** dialog, in the **Internal site name** text box, type the internal DNS name of the  *bridging URL*  , and then click **Next**. This is the URL that the TMG server will use to relay requests to the primary web application. 
     
     > [!NOTE]
     > Do not type the protocol (http:// or https://). 
@@ -131,7 +131,7 @@ Use the following procedure to create the publishing rule and web listener.
     > [!NOTE]
     > If TMG can resolve the primary web application using the host name you provided in the previous step, you do not have to perform this step. 
   
-8. In the **Public Name Details** dialog box, accept the default setting on the **Accept requests for** menu. In the **Public name** text box, type the host name of your  *External URL*  (for example, "sharepoint.adventureworks.com"), and then click **Next**. This is the host name in the external URL that SharePoint Online will use to connect with your SharePoint Server farm.
+8. In the **Public Name Details** dialog, accept the default setting on the **Accept requests for** menu. In the **Public name** text box, type the host name of your  *External URL*  (for example, "sharepoint.adventureworks.com"), and then click **Next**. This is the host name in the external URL that SharePoint Online will use to connect with your SharePoint Server farm.
     
     > [!NOTE]
     > Do not type the protocol (http:// or https://). 
@@ -140,33 +140,33 @@ Use the following procedure to create the publishing rule and web listener.
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The External URL is recorded in **Row 3** (External URL) of **Table 3: Public Domain Info** in the SharePoint Hybrid worksheet. |
    
-9. In the **Select a Web Listener** dialog box, select **New**.
+9. In the **Select a Web Listener** dialog, select **New**.
     
-10. In the **New Web Listener Wizard** dialog box, in the **Web listener name** text box, type a name for the web listener, and then click **Next**.
+10. In the **New Web Listener Wizard** dialog, in the **Web listener name** text box, type a name for the web listener, and then click **Next**.
     
-11. In the Client Connection Security dialog box, select **Require SSL secured connections with clients**, and then click **Next**.
+11. In the Client Connection Security dialog, select **Require SSL secured connections with clients**, and then click **Next**.
     
-12. In the **Web Listener IP Addresses** dialog box, select **External \<All IP addresses\>**, and then click **Next**. 
+12. In the **Web Listener IP Addresses** dialog, select **External \<All IP addresses\>**, and then click **Next**. 
     
-    If you want to restrict the listener to listen only on a specific external IP address, click the **Select IP Addresses** button, and then in the **External Network Listener IP Selection** dialog box, select **Specified IP addresses on the Forefront TMG computer in the selected network**. Click **Add** to specify an IP address, and then click **OK**.
+    If you want to restrict the listener to listen only on a specific external IP address, click the **Select IP Addresses** button, and then in the **External Network Listener IP Selection** dialog, select **Specified IP addresses on the Forefront TMG computer in the selected network**. Click **Add** to specify an IP address, and then click **OK**.
     
-13. In the **Listener SSL Certificates** dialog box, select **Use a single certificate for this Web Listener**, and click the **Select Certificate** button. In the **Select Certificate** dialog box, select the **Secure Channel SSL certificate** you imported to the TMG computer, click **Select**, and then click **Next**.
+13. In the **Listener SSL Certificates** dialog, select **Use a single certificate for this Web Listener**, and click the **Select Certificate** button. In the **Select Certificate** dialog, select the **Secure Channel SSL certificate** you imported to the TMG computer, click **Select**, and then click **Next**.
     
-14. In the **Authentication Settings** dialog box, select **SSL Client Certificate Authentication**, and then click **Next**. This setting enforces client certificate credentials for inbound connections using the Secure Channel certificate.
+14. In the **Authentication Settings** dialog, select **SSL Client Certificate Authentication**, and then click **Next**. This setting enforces client certificate credentials for inbound connections using the Secure Channel certificate.
     
 15. Click **Next** to bypass Forefront TMG single sign-on settings. 
     
 16. Review the **New Listener** summary page, and click **Finish**. This returns you to the Publishing Rule Wizard in which your newly created web listener is automatically selected.
     
-17. In the **Select Web Listener** dialog box, in the **Web Listener** drop-down menu, make sure the correct web listener is selected, and click **Next**.
+17. In the **Select Web Listener** dialog, in the **Web Listener** drop-down menu, make sure the correct web listener is selected, and click **Next**.
     
-18. In the **Authentication Delegation** dialog box, select **No delegation, but client may authenticate directly** from the drop-down menu, and then click **Next**.
+18. In the **Authentication Delegation** dialog, select **No delegation, but client may authenticate directly** from the drop-down menu, and then click **Next**.
     
-19. In the **Alternate Access Mapping Configuration** dialog box, select **SharePoint AAM is already configured on the SharePoint server**, and then click **Next**.
+19. In the **Alternate Access Mapping Configuration** dialog, select **SharePoint AAM is already configured on the SharePoint server**, and then click **Next**.
     
-20. In the **User Sets** dialog box, select the **All Authenticated Users** entry, and click **Remove**. Then click **Add**, and in the **Add Users** dialog box, select **All Users**, and then click **Add**. Click **Close** to close the **Add Users** dialog box, and then click **Next**.
+20. In the **User Sets** dialog, select the **All Authenticated Users** entry, and click **Remove**. Then click **Add**, and in the **Add Users** dialog, select **All Users**, and then click **Add**. Click **Close** to close the **Add Users** dialog, and then click **Next**.
     
-21. In the **Completing the New SharePoint Publishing Rule Wizard** dialog box, confirm your settings, and then click **Finish**.
+21. In the **Completing the New SharePoint Publishing Rule Wizard** dialog, confirm your settings, and then click **Finish**.
     
 There are several settings that you must now verify or change in the publishing rule you just created.
   
@@ -174,11 +174,11 @@ There are several settings that you must now verify or change in the publishing 
   
 1. In the Forefront TMG Management Console, in the left navigation pane, select **Firewall Policy**, and in the **Firewall Policy Rules** list, right-click the publishing rule you just created, and click **Configure HTTP**.
     
-2. In the **Configure HTTP policy for rule** dialog box, on the **General** tab, under **URL Protection**, confirm that both **Verify normalization** and **Block high bit characters** are unchecked, and then click **OK**.
+2. In the **Configure HTTP policy for rule** dialog, on the **General** tab, under **URL Protection**, confirm that both **Verify normalization** and **Block high bit characters** are unchecked, and then click **OK**.
     
 3. Right-click the publishing rule you just created again, and click **Properties**.
     
-4. In the **\<rule name\> Properties** dialog box, on the **To** tab, uncheck the **Forward the original host header instead of the actual one** box. Under **Proxy requests to published site**, ensure that **Requests appear to come from the original client** is selected. 
+4. In the **\<rule name\> Properties** dialog, on the **To** tab, uncheck the **Forward the original host header instead of the actual one** box. Under **Proxy requests to published site**, ensure that **Requests appear to come from the original client** is selected. 
     
 5. On the **Link Translation** tab, ensure that the **Apply link translation to this rule** check box is set correctly: 
     
@@ -194,7 +194,7 @@ There are several settings that you must now verify or change in the publishing 
     
 9. To validate your configuration, right-click the new publishing rule from the **Firewall Policy Rules** list, and click **Properties**.
     
-10. In the **\<rule name\> Properties** dialog box, click the **Test Rule** button. TMG runs a series of tests to check for connectivity to the SharePoint site and displays the results of the tests in a list. Click each configuration test for a description of the test and its results. Fix any errors that appear. 
+10. In the **\<rule name\> Properties** dialog, click the **Test Rule** button. TMG runs a series of tests to check for connectivity to the SharePoint site and displays the results of the tests in a list. Click each configuration test for a description of the test and its results. Fix any errors that appear. 
     
 ## See also
 <a name="config"> </a>

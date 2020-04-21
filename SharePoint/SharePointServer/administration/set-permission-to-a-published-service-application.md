@@ -150,7 +150,7 @@ This procedure explains how to set permission to any service application, but mo
     
 4. On the ribbon, click **Permissions**.
     
-5. In the **Connection Permissions** dialog box, do the following: 
+5. In the **Connection Permissions** dialog, do the following: 
     
    - Manually paste the ID of the consuming farm. You found the ID earlier in the PowerShell section when you used  _\<consumingfarmid\>_.
     

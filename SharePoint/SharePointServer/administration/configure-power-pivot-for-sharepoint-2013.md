@@ -284,7 +284,7 @@ Now that everything is configured, we can do a simple test to see if it's workin
     
 3. Follow the wizard through to connect to the table that contains your data.
     
-4. When the wizard completes, you should see the **Import Data** dialog box. Choose the **Only Create Connection** option and select the **Add this data to the Data Model** check box. 
+4. When the wizard completes, you should see the **Import Data** dialog. Choose the **Only Create Connection** option and select the **Add this data to the Data Model** check box. 
     
 5. Click **OK**.
     
@@ -292,7 +292,7 @@ Now that everything is configured, we can do a simple test to see if it's workin
     
 7. In the **Power Pivot** ribbon, click **PivotTable**.
     
-8. On the **Insert Pivot** dialog box, choose the **Existing Worksheet** option, and then click **OK**.
+8. On the **Insert Pivot** dialog, choose the **Existing Worksheet** option, and then click **OK**.
     
 9. Select the fields that you want in the PivotTable report.
     

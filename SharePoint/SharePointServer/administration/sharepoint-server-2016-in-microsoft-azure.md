@@ -26,7 +26,7 @@ description: "Find out why Microsoft Azure is the best place to host your ShareP
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]  
   
-To realize the productivity and collaboration benefits of SharePoint, Microsoft recommends SharePoint Online with Microsoft Office 365. If SharePoint Online is not the best option for you right now, you can deploy SharePoint Server 2016 on intranet servers, which can be in your on-premises datacenter or hosted in Microsoft Azure infrastructure services. Whether it's for development, testing, staging, production, or disaster recovery purposes, Azure is a perfect home for your SharePoint farms in the cloud.
+To realize the productivity and collaboration benefits of SharePoint, Microsoft recommends SharePoint Online with Microsoft 365. If SharePoint Online is not the best option for you right now, you can deploy SharePoint Server 2016 on intranet servers, which can be in your on-premises datacenter or hosted in Microsoft Azure infrastructure services. Whether it's for development, testing, staging, production, or disaster recovery purposes, Azure is a perfect home for your SharePoint farms in the cloud.
   
 Here are some of the benefits:
   
@@ -48,7 +48,7 @@ Here are some of the benefits:
     
 - You can run your Microsoft applications where they run best.
     
-    Choosing Azure to host your SharePoint Server 2016 farms is a safe bet on the cloud that was built by the same company that built SharePoint and SQL Server. These applications have been battle-tested to perform well on Azure. Use your existing licenses with license mobility and the Azure Hybrid Use Benefit, and get first-class, first-party support across Azure, SharePoint, and SQL Server. Running your SharePoint Server 2016 farms on Azure ensures your solution is running on the same cloud framework that hosts Office 365 and Microsoft Dynamics 365.
+    Choosing Azure to host your SharePoint Server 2016 farms is a safe bet on the cloud that was built by the same company that built SharePoint and SQL Server. These applications have been battle-tested to perform well on Azure. Use your existing licenses with license mobility and the Azure Hybrid Use Benefit, and get first-class, first-party support across Azure, SharePoint, and SQL Server. Running your SharePoint Server 2016 farms on Azure ensures your solution is running on the same cloud framework that hosts Microsoft 365 and Microsoft Dynamics 365.
     
 ## Proof of concept
 

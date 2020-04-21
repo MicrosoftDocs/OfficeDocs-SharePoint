@@ -41,7 +41,7 @@ Which option is right for you?
 ||||
 |:-----|:-----|:-----|
 ||**Microsoft Identity Management server** <br/> |**Active Directory Import** <br/> |
-|Pros  <br/> | Flexibility allows for customized import.  <br/>  Can be customized for bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Multi-forest scenarios are supported.  <br/> | Very fast performance.  <br/>  Known to be reliable (used by Office 365).  <br/>  Configurable inside of Central Administration. (Less complex).  <br/> |
+|Pros  <br/> | Flexibility allows for customized import.  <br/>  Can be customized for bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Multi-forest scenarios are supported.  <br/> | Very fast performance.  <br/>  Known to be reliable (used by Microsoft 365).  <br/>  Configurable inside of Central Administration. (Less complex).  <br/> |
 |Cons  <br/> | A separate MIM server is recommended for use with your SharePoint farm.  <br/>  The more customized the more complex the architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from Active Directory to SharePoint Server Profile).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are supported.  <br/> |
    
 > [!TIP]
