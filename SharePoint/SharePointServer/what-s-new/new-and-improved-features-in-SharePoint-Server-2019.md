@@ -32,7 +32,7 @@ This section provides detailed descriptions of the new updated features in Share
 
 ### Access Services 2013 now supports Send Email
 
-The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://www.microsoft.com/microsoft-365/blog/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
+The Access Services 2013 service application now supports the SendEmail action for sending email messages from apps. See [Introducing Send Email in Access 2013 web apps](https://www.microsoft.com/office-365/blog/2015/01/12/introducing-send-email-access-2013-web-apps/) for more details.
 
 ### Additional documentation links for Central Administration site
 
@@ -45,7 +45,7 @@ We've made it easier for farm administrators to reach the latest SharePoint admi
 
 Communication sites are a place to share news, showcase a story, or broadcast a message to other people. The new Hero web part can display up to five items with compelling images, text, and links to draw attention to your most important content. Users can easily create communication sites for themselves from SharePoint Home without needing to contact IT.
 
-### Fast site creation
+### Create fast sites
 
 Fast site creation in SharePoint Server 2019 allows users create new sites in a few seconds. Fast site creation is only supported with the following site templates:
 
@@ -210,7 +210,7 @@ This file path length limit increase makes it easier to sync deeply nested conte
 
 ### Hybrid experiences improvements
 
-- The "OneDrive by Default" experience for SharePoint Server 2013 is now available in SharePoint Server 2019. When enabled, any attempt to browse to the My Site Host welcome page will be redirected to Office 365.
+- The "OneDrive by Default" experience for SharePoint Server 2013 is now available in SharePoint Server 2019. When enabled, any attempt to browse to the My Site Host welcome page will be redirected to Microsoft 365.
 
 - A SharePoint hybrid status bar was added to the top of Central Administration. The hybrid status bar will appear once the SharePoint Server 2019 farm meets the minimum system requirements needed to enable hybrid, and will give you direct access to launch the SharePoint Hybrid Configuration Wizard.
 
@@ -226,7 +226,7 @@ Sharing email notifications have been refreshed to use a modern template design.
 
 ### Suite Navigation and App Launcher improvements
 
-We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Office 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint Online.
+We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Microsoft 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint Online.
 
 ### Telemetry privacy experience
 
@@ -238,13 +238,13 @@ Customers can opt in and opt out of the telemetry experience at any time.
 
 ### Visio Services accessibility
 
- Visio Services is introducing several accessibility improvements for high contrast displays, keyboard navigation, and Narrator. Users will be able to access different panes with the following shortcuts:
+ Visio Services is introducing several accessibility improvements for high contrast displays, keyboard navigation, and Narrator. Users can access different panes with the following shortcuts:
 
-1. Move focus to Comment pane = Alt + R
+- Move focus to Comment pane = Alt + R
  
-2. Move focus to Shape data pane = Alt + S
+- Move focus to Shape data pane = Alt + S
  
-3. Move focus to Canvas = Alt + C
+- Move focus to Canvas = Alt + C
 
 ## Related Topics
 

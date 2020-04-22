@@ -29,7 +29,7 @@ description: "Learn how to enable display of previews of on-premises search resu
 
 Learn how to enable display of previews of on-premises search results in a Search Center in Office 365 for cloud hybrid search.
   
-In [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), when users search in Office 365, they get search results from both on-premises and Office 365 content. When a user hovers over a search result that comes from Office 365, information about the content as well as a preview of the content is displayed. Information about the content from search results that come from SharePoint Server is displayed automatically, but display of previews is not automatic. You can enable such display of previews for content from SharePoint Server 2013 and SharePoint Server 2016, but not for content from SharePoint Server 2010. Users can click search results that come from SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016 to access the content.
+In [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), when users search in Microsoft 365, they get search results from both on-premises and Microsoft 365 content. When a user hovers over a search result that comes from Microsoft 365, info about the content as well as a preview of the content is displayed. Information about the content from search results that come from SharePoint Server is displayed automatically, but display of previews is not automatic. You can enable such display of previews for content from SharePoint Server 2013 and SharePoint Server 2016, but not for content from SharePoint Server 2010. Users can click search results that come from SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016 to access the content.
   
 To enable previews for on-premises content in SharePoint Server you need to set up an on-premises Office Online Server and configure SharePoint Server to use it.
   
@@ -37,9 +37,9 @@ To enable previews for on-premises content in SharePoint Server you need to set 
 
 Office Online Server is an Office server product that lets users access their documents online using a web browser. For SharePoint Server content farms, it's the stand-alone Office Online Server that delivers the browser-based versions of Word, PowerPoint, Excel, and OneNote.
   
-![The illustration shows information flowing from a search result in the search center in Office 365, via an Office Web Apps Server, to SharePoint Server 2013 content, back via the Office Web Apps Server, to a preview of the content in the search center.](../media/2377b7af-2800-437c-8431-b903e8e30482.png)
+![The illustration shows information flowing from a search result in the Search Center in Office 365, via an Office Web Apps Server, to SharePoint Server 2013 content, back via the Office Web Apps Server, to a preview of the content in the search center.](../media/2377b7af-2800-437c-8431-b903e8e30482.png)
   
-1. In an Office 365 Search Center, a user hovers over a search result for a Word document that's stored on a SharePoint Server on-premises content farm.
+1. In a Microsoft 365 Search Center, a user hovers over a search result for a Word document that's stored on a SharePoint Server on-premises content farm.
     
 2. The request to show a preview of the document goes to the Office Online Server. You have to ensure that the Office Online Server is accessible from where the user is. For example, if you want to support users that are outside the corporate network, you can make the Office Online Server accessible through a reverse proxy.
     

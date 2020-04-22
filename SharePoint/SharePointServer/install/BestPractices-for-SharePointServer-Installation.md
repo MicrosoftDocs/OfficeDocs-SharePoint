@@ -86,7 +86,7 @@ Instead of using BCS to display your data, you could use PowerBI and a Data Mana
 
 If a portion of your sites are already in the cloud, or if you intend on moving online in the future, adopting the modern features now will help “futureproof” your installation.
 
-•	Use Office 365 Groups and Power Automate.   Retire the use of email, Site mailboxes, or Mobile Accounts (SMS/Text Messaging)
+•	Use Microsoft 365 Groups and Power Automate.   Retire the use of email, Site mailboxes, or Mobile Accounts (SMS/Text Messaging)
 
 •	Solutions that intercept and/or modify the HTTP pipeline you could use Azure Conditional Access Policies by fronting the farm by using the Azure AD App Proxy. For more information on how to use AD FS, see [Access Control Policies in Windows Server 2016 AD FS](/windows-server/identity/ad-fs/operations/access-control-policies-in-ad-fs).
 

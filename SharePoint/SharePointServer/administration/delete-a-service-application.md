@@ -43,7 +43,7 @@ To ensure that the service application is available for potential future use, co
     
 4. On the ribbon, click **Delete**.
     
-5. In the confirmation dialog box, select the check box next to **Delete data associated with the Service Applications** if you want to delete the service application database. If you want to retain the database, leave this check box cleared. 
+5. In the confirmation dialog, select the check box next to **Delete data associated with the Service Applications** if you want to delete the service application database. If you want to retain the database, leave this check box cleared. 
     
 6. Click **OK** to delete the service application, or click **Cancel** to stop the operation. 
     

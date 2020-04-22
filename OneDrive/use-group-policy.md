@@ -161,17 +161,17 @@ Enabling this policy sets the following registry key value to 1:
 ### Allow syncing OneDrive accounts for only specific organizations
 <a name="AllowTenantList"> </a>
 
-This setting lets you prevent users from easily uploading files to other organizations by specifying a list of allowed tenant IDs.
+This setting lets you prevent users from easily uploading files to other organizations by specifying a list of allowed organization IDs.
 
 If you enable this setting, users get an error if they attempt to add an account from an organization that is not allowed. If a user has already added the account, the files stop syncing.
 
-To enter a tenant ID, in the **Options** box, select **Show**.
+To enter a organization ID, in the **Options** box, select **Show**.
   
 This policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\AllowTenantList] "1111-2222-3333-4444"
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+(where "1111-2222-3333-4444" is the [organization ID](find-your-office-365-tenant-id.md))
   
 This setting takes priority over [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations). Do not enable both settings at the same time.
 
@@ -190,17 +190,17 @@ Enabling this policy sets the following registry key value to a number from 0 th
 ### Block syncing OneDrive accounts for specific organizations
 <a name="BlockTenantList"> </a>
 
-This setting lets you prevent users from uploading files to another organization by specifying a list of blocked tenant IDs.
+This setting lets you prevent users from uploading files to another organization by specifying a list of blocked organization IDs.
 
 If you enable this setting, users get an error if they attempt to add an account from an organization that is blocked. If a user has already added the account, the files stop syncing.
   
-To enter the tenant ID, in the **Options** box, select **Show**.
+To enter the organization ID, in the **Options** box, select **Show**.
   
 This policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\BlockTenantList] "1111-2222-3333-4444"﻿
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+(where "1111-2222-3333-4444" is the [organization ID](find-your-office-365-tenant-id.md))
   
 This setting does NOT work if you have [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations) enabled. Do not enable both settings at the same time.
   
@@ -236,7 +236,7 @@ Enabling this policy sets the following registry key value to 1.
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
 
-This setting lets you balance the performance of different upload tasks on a computer by specifying the percentage of the computer's upload throughput that the OneDrive sync app (OneDrive.exe) can use to upload files. Setting this as a percentage lets the sync app respond to both increases and decreases in throughput. The lower the percentage you set, the slower files upload. We recommend a value of 50% or higher. The sync app periodically uploads without restriction for one minute and then slows down to the upload percentage you set. This lets small files upload quickly while preventing large uploads from dominating the computer’s upload throughput. We recommend enabling this setting temporarily when you roll out [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive), or [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive) to control the network impact of uploading known folder contents.
+This setting lets you balance the performance of different upload tasks on a computer by specifying the percentage of the computer's upload throughput that the OneDrive sync app (OneDrive.exe) can use to upload files. Setting this as a percentage lets the sync app respond to both increases and decreases in throughput. The lower the percentage you set, the slower files upload. We recommend a value of 50% or higher. The sync app periodically uploads without restriction for one minute and then slows down to the upload percentage you set. This lets small files upload quickly while preventing large uploads from dominating the computer's upload throughput. We recommend enabling this setting temporarily when you roll out [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive), or [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive) to control the network impact of uploading known folder contents.
 
 ![Upload Throughput Calculation](media/limit-upload-rate-percentage-throughput.png)
   
@@ -341,7 +341,7 @@ This setting shows the following window that prompts users to move their Documen
   
 ![Window prompting users to protect important folders](media/protect-important-folders-gpo.png)
   
-If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the previous window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
+If you enable this setting and provide your organization ID, users who are syncing their OneDrive see the previous window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
   
 If you disable or do not configure this setting, the window that prompts users to protect their important folders doesn't appear.
   
@@ -349,7 +349,7 @@ Enabling this policy sets the following registry key:
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMOptInWithWizard"="1111-2222-3333-4444"
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+(where "1111-2222-3333-4444" is the [organization ID](find-your-office-365-tenant-id.md))
 
 For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
@@ -388,13 +388,13 @@ Enabling this policy sets the following registry key value to 1.
 
 This setting is used in conjunction with [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials) on devices that don't have OneDrive Files On-Demand enabled. Any user who has a OneDrive that's larger than the specified threshold (in MB) is prompted to choose the folders they want to sync before the OneDrive sync app (OneDrive.exe) downloads the files.
   
-To enter the tenant ID and the maximum size in MB (from 0 to 4294967295), in the **Options** box, select **Show**. The default value is 500.
+To enter the organization ID and the maximum size in MB (from 0 to 4294967295), in the **Options** box, select **Show**. The default value is 500.
   
 Enabling this policy sets the following registry key.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DiskSpaceCheckThresholdMB]"1111-2222-3333-4444"=dword:0005000
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md) and 0005000 sets a threshold of 5000 MB).
+(where "1111-2222-3333-4444" is the [organization ID](find-your-office-365-tenant-id.md) and 0005000 sets a threshold of 5000 MB).
   
 ### Set the sync app update ring
 <a name="GPOSetUpdateRing"> </a>
@@ -425,7 +425,7 @@ Use this setting to redirect your users' Documents, Pictures, and Desktop folder
 > [!NOTE]
 > If you're using this setting with a build earlier than 18.171.0823.0001, we recommend also enabling [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard).
   
-If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
+If you enable this setting and provide your organization ID, you can choose whether to display a notification to users after their folders have been redirected.
   
 ![OneDrive protection message](media/d28dbca8-f51a-43b2-b069-c483a53c6d0b.png)
   
@@ -435,7 +435,7 @@ Enabling this policy sets the following registry keys:
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptIn"="1111-2222-3333-4444"
   
-(where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md))
+(where "1111-2222-3333-4444" is the [organization ID](find-your-office-365-tenant-id.md))
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMSilentOptInWithNotification"
   
@@ -496,7 +496,7 @@ This setting specifies what happens when conflicts occur between Office file ver
  
 If you enable this setting, users can decide if they want to merge changes or keep both copies. Users can also configure the sync app to always fork the file and keep both copies, as follows.
   
-![The Office tab of the Sync settings dialog box](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
+![The Office tab of the Sync settings dialog](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
   
 Enabling this policy sets the following registry key value to 1.
   
@@ -536,7 +536,7 @@ Enabling this policy sets the following registry key value to 1.
 ### Coauthor and share in Office desktop apps
 <a name="EnableAllOcsiClients"> </a>
 
-This setting lets multiple users use the Office 365 ProPlus, Office 2019, or Office 2016 desktop apps to simultaneously edit an Office file stored in OneDrive. It also lets users share files from the Office desktop apps.
+This setting lets multiple users use the Microsoft 365 Apps for enterprise, Office 2019, or Office 2016 desktop apps to simultaneously edit an Office file stored in OneDrive. It also lets users share files from the Office desktop apps.
   
 If you enable or do not configure this setting, the **Office** tab appears in OneDrive sync settings, and **Use Office 2016 to sync Office files that I open** is selected, by default.
   
@@ -564,9 +564,9 @@ If you disable this setting, team site libraries that you've specified aren't au
 
 To configure the setting, in the **Options** box, select **Show**, and then enter a friendly name to identify the library in the **Value Name** field, and the entire library ID (tenantId=xxx&siteId=xxx&webId=xxx&listId=xxx&webUrl=httpsxxx&version=1) in the **Value** field.
 
-To find the library ID, sign in as a global or SharePoint admin in Office 365, browse to the library, and select **Sync**. In the **Starting sync** dialog box, select the **Copy library ID** link.
+To find the library ID, sign in as a global or SharePoint admin in Microsoft 365, browse to the library, and select **Sync**. In the **Starting sync** dialog, select the **Copy library ID** link.
 
-![The Getting ready to sync dialog box](media/copy-library-id.png)
+![The Getting ready to sync dialog](media/copy-library-id.png)
 
 The special characters in this copied string are in Unicode and must be converted to ASCII according to the following table.
 
@@ -652,14 +652,14 @@ For info about estimating the network bandwidth you need for sync, see [Network 
 
 This setting lets you block users from changing the location of the OneDrive folder on their computer.
   
-To use this setting, in the **Options** box, select **Show** to enter your [tenant ID](find-your-office-365-tenant-id.md), and enter 1 to enable the setting, or enter 0 to disable it.
+To use this setting, in the **Options** box, select **Show**, and enter your [organization ID](find-your-office-365-tenant-id.md). To enable the setting, enter 1; to disable it, enter 0.
   
 If you enable this setting, the **Change location** link is hidden in OneDrive Setup. The OneDrive folder is created in the default location, or in the custom location you specified if you enabled [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
   
 Enabling this policy sets the following registry key value to 1.
  [HKCU\Software\Policies\Microsoft\OneDrive\DisableCustomRoot] "1111-2222-3333-4444"="dword:00000001"
   
-(where "1111-2222-3333-4444" is the tenant ID)
+(where "1111-2222-3333-4444" is the organization ID)
   
 If you disable this setting, users can change the location of their sync folder in OneDrive Setup.
 
@@ -696,13 +696,13 @@ For more info about the update rings and how the sync app checks for updates, se
 
 This setting lets you set a specific path as the default location of the OneDrive folder on users' computers. By default, the path is under %userprofile%.
   
-If you enable this setting, the default location of the OneDrive - {organization name} folder is the path that you specify. To specify your tenant ID and the path, in the **Options** box, select **Show**.
+If you enable this setting, the default location of the OneDrive - {organization name} folder is the path that you specify. To specify your organization ID and the path, in the **Options** box, select **Show**.
   
 This policy sets the following registry key to a string that specifies the file path.
   
 [HKCU\SOFTWARE\Policies\Microsoft\OneDrive\DefaultRootDir] "1111-2222-3333-4444"="{User path}"
   
-(where "1111-2222-3333-4444" is the tenant ID)
+(where "1111-2222-3333-4444" is the organization ID)
   
 If you disable this setting, the local  *OneDrive - {organization name}*  folder location defaults to %userprofile%.
   

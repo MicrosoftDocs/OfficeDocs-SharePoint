@@ -16,7 +16,7 @@ search.appverid: MET150
 ---
 
 # SharePoint Server Team Sites Migration Guide
-This guide will help you prepare to migrate from SharePoint Server teams sites to SharePoint Online in Office 365.
+This guide will help you prepare to migrate from SharePoint Server teams sites to SharePoint Online in Microsoft 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
@@ -84,7 +84,7 @@ Decide how your team sites map to a modern hub architecture. It isn't necessary 
 
 
 ### Workflows and planning for the future
-In Office 365, **Power Automate** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Power Automate** to allow for better platform integration. 
+In Microsoft 365, **Power Automate** is the product that allows you to easily create and manage workflow. If you are currently using SharePoint workflows, we recommend that you consider "future-proofing" your environment by identifying the workflows you want to keep and recreate them using **Power Automate** to allow for better platform integration. 
 
 To learn more:
 - [Get started with Power Automate](https://docs.microsoft.com/flow/getting-started)
@@ -118,10 +118,10 @@ Also included is the SharePoint Migration Identity Management Tool, that does id
 
 ## Prepare your SharePoint environment
 
-Before migrating your team site content, you must first pre-provision your users in Office 365.
+Before migrating your team site content, you must first pre-provision your users in Microsoft 365.
 
   For guidance on pre-provisioning see: 
-- [Prepare to provision users through directory synchronization to Office 365](/office365/enterprise/prepare-for-directory-synchronization)
+- [Prepare to provision users through directory synchronization to Microsoft 365](/office365/enterprise/prepare-for-directory-synchronization)
 
 
 Create modern hub sites based on how you have mapped your sites to a system of hub site. 
@@ -133,12 +133,12 @@ Create modern hub sites based on how you have mapped your sites to a system of h
 
 ## Migration process
 
-Below is a typical migration process that follows Microsoft’s best practices guidance.
+Below is a typical migration process that follows Microsoft's best practices guidance.
 
 1. Select a small set of sites for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
-2.	Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which SharePoint Server team sites are disabled and they are directed to use the SharePoint Online environment. This method is preferred as it reduces user impact.</br></br>
-3.	Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.</br></br>
-4.	Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their SharePoint sites. This helps eliminate users from updating duplicate copies of content.</br></br>
+2.    Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which SharePoint Server team sites are disabled and they are directed to use the SharePoint Online environment. This method is preferred as it reduces user impact.</br></br>
+3.    Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.</br></br>
+4.    Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their SharePoint sites. This helps eliminate users from updating duplicate copies of content.</br></br>
 
 
 
@@ -153,7 +153,7 @@ The benefit for self-service migration is that you have full control over your p
 
 **Migration service providers**
 
-You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Office 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
+You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Microsoft 365.  For more info, see [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
 
 ## User Onboarding
 Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
@@ -165,14 +165,14 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
  Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Include:
 
 - The migration timeline and how it will impact them. Include any end user calls to action. 
-- Assure them that if they have content already in SharePoint, that their content is safe and won’t be overwritten. 
+- Assure them that if they have content already in SharePoint, that their content is safe and won't be overwritten. 
 - Let them know whether individuals can opt-out of the migration process
 
 ### Onboarding related resources
 
    ![User onboarding](media/SP-User-Onboard.png)
 
-The SharePoint adoption resource center serves as a one stop shop for all adoption and change management related content.  The Success Factors detailed on the SharePoint Adoption Resource website will help make sure you’re set up for a successful roll-out of SharePoint. 
+The SharePoint adoption resource center serves as a one stop shop for all adoption and change management related content.  The Success Factors detailed on the SharePoint Adoption Resource website will help make sure you're set up for a successful roll-out of SharePoint. 
 
 - **[SharePoint Adoption Resource Center](https://resources.techcommunity.microsoft.com/resources/SharePoint-adoption/)**
 

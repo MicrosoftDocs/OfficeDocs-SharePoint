@@ -36,7 +36,7 @@ If the crawler does not connect or get a response within the time specified, it 
     
      ![Screenshot of crawler time-out settings on Farm Search Administration page](../media/CrawlerTimeoutSettings.gif)
   
-5. In the **Search Time-out Setting** dialog box, do the following: 
+5. In the **Search Time-out Setting** dialog, do the following: 
     
   - In the **Connection time (in seconds)** text box, type the number of seconds that you want the crawler to wait when it attempts to connect to a content repository. The default value is 60 seconds. 
     

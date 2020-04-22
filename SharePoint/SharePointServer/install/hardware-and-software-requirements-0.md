@@ -292,7 +292,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
     
 - [Microsoft SharePoint Foundation 2013](https://go.microsoft.com/fwlink/p/?LinkId=258859)
     
-- [Office 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkId=258856)
+- [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?LinkId=258856)
     
 - [The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876)](https://go.microsoft.com/fwlink/p/?LinkId=258850)
     

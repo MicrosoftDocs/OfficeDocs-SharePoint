@@ -22,7 +22,7 @@ description: "Plan and implement host-named site collections in SharePoint Serve
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-Host-named site collections are the preferred method to deploy sites in SharePoint Server. Because the Office 365 environment uses host-named site collections, new features are optimized for these site collections and they are expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
+Host-named site collections are the preferred method to deploy sites in SharePoint Server. Because the Microsoft 365 environment uses host-named site collections, new features are optimized for these site collections and they are expected to be more reliable. Learn how to plan for and implement host-named site collections, design URLs, and manage URLs.
     
 ## Architecture and design for host-named site collections
 <a name="section1"> </a>
@@ -62,7 +62,7 @@ When creating a Web application for host-named site collections, the URL of the 
   
 ![URLs of the Web app and root site collection.](../media/HNSC_Webapp_root_URL.jpg)
   
-This architecture is recommended to deploy sites because it is the same architecture that the Office 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
+This architecture is recommended to deploy sites because it is the same architecture that the Microsoft 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
   
 The recommended configuration does not include the following elements:
   

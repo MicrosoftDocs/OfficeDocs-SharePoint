@@ -129,7 +129,7 @@ After you install the prerequisites, follow these steps to install SharePoint 20
     > [!TIP]
     > As a best practice, we recommend that you install SharePoint 2013 on a drive that does not contain the operating system. 
   
-7. When Setup finishes, a dialog box prompts you to run the SharePoint Products Configuration Wizard. You can start the wizard immediately or from the Windows command prompt later.
+7. When Setup finishes, a dialog prompts you to run the SharePoint Products Configuration Wizard. You can start the wizard immediately or from the Windows command prompt later.
     
 ## Add the new SharePoint server to the farm
 <a name="addserver"> </a>

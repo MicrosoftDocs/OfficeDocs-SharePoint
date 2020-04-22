@@ -47,7 +47,7 @@ You can create a User Profile service application by using either the SharePoint
     
 2. In the **Create** group of the ribbon, click **New**, and then click **User Profile Service Application** in the list of service applications to create. 
     
-3. In the **Create New User Profile Service Application** dialog box, in the **Name** section, type a unique name for the User Profile service application. 
+3. In the **Create New User Profile Service Application** dialog, in the **Name** section, type a unique name for the User Profile service application. 
     
 4. In the **Application Pool** section, select **Use existing application pool** to choose an existing application pool from the list or select **Create a new application pool** to create a new application pool. 
     
