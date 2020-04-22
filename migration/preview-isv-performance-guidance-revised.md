@@ -137,9 +137,7 @@ Remember there are other limits that must be considered. To learn more, read [Sh
   
 The alternate option is to keep your source layout, and instead apply unique ACLs at the key folder level of the migration **destination**.
 
-*Example:*
-
-Your source has over 100K. At your target location, create folders titled A, B, C, and D and apply the unique ACLs and scope ID. This will break the inheritance. Then proceed with your content migration. 
+*Example:*  Your source has over 100K. At your target location, create folders titled A, B, C, and D and apply the unique ACLs and scope ID. This will break the inheritance. Then proceed with your content migration. 
 
 Optionally, if you want to prevent sharing until migration is completed, set the ACL to NULL.
 
