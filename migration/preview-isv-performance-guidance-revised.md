@@ -136,9 +136,7 @@ Remember there are other limits that must be considered. See SharePoint limits f
  
 #### Method 2
   
-Create your destination layout to avoid exceeding limits.
-
-The alternate option is to keep your source layout, applying unique ACLs at the key folder level of the destination.
+The alternate option is to keep your source layout, and instead apply unique ACLs at the key folder level of the migration **destination**.
 
 *Example:*
 
