@@ -135,17 +135,17 @@ Remember there are other limits that must be considered. To learn more, read [Sh
  
 #### Method 2
   
-The alternate option is to keep your source layout, and instead apply unique ACLs at the key folder level of the migration **destination**.
+The alternate option is to keep your source layout, and instead apply unique ACLs at the key folder level of the migration destination.
 
 *Example:*  Your source has over 100K. At your target location, create folders titled A, B, C, and D and apply the unique ACLs and scope ID. This will break the inheritance. Then proceed with your content migration. 
 
 Optionally, if you want to prevent sharing until migration is completed, set the ACL to NULL.
 
-After the incremental migration has completed, and only if you previously set the ACL to NULL, you can reapply the unique ACL for folders A, B, C, D separately.   When you re-apply the ACL, evaluate your folder size starting at the lowest level of hierarchy. See
+After the incremental migration has completed, and only if you previously set the ACL to NULL, you can reapply the unique ACL for folders A, B, C, D separately.   When you re-apply the ACL, evaluate your folder size starting at the lowest level of hierarchy. In the following example, you would start at level.  
 
   ![Parent root folder](media/parent-root-folder.png)</br></br>
 
->[!Note]
+>[!Tip]
 >To detect the number of files available in an SharePoint online in a document library or list, issue the Asynchronous Metadata Read (AMR) API call. Then leverage the function:
 >$ folder.item["SMTotalFileCount"] 
 >
