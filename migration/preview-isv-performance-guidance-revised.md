@@ -101,11 +101,11 @@ To query for every item in a specific folder, the query should sort by the filen
 
 ### Unique permission & role assignment limits
 
-**Unique permissions:** For SharePoint and OneDrive, the number of unique ACLs for items in a list or library is limited to 50,000. Calls will fail if you attempt to apply permission on a structure with more than 50,000 unique ACLs. 
+For SharePoint and OneDrive, the number of unique ACLs for items in a list or library is limited to 50,000. Calls will fail if you attempt to apply permission on a structure with more than 50,000 unique ACLs. 
 
 While the supported limit is 50,000, the recommended general limit is 5,000. Making changes to more than 5,000 uniquely permissioned items at a time slows migration performance. 
 
-**Role assignment:**  There is a role assignment limit of 5,000 per ACL.
+There is a role assignment limit of 5,000 per ACL.
   
 
 ### Understanding security scope during migration
