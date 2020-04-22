@@ -145,6 +145,14 @@ After the incremental migration has completed, and only if you previously set th
 
   ![Parent root folder](media/parent-root-folder.png)</br></br>
 
+>[!Note]
+>To detect the number of files available in an SharePoint online in a document library or list, issue the Asynchronous Metadata Read (AMR) API call. Then leverage the function:
+>$ folder.item["SMTotalFileCount"] 
+>
+>This will return the cumulative file counts in the folder tree for a given folder item. 
+>To learn more, see [Asynchronous Metadata Read (AMR)](https://docs.microsoft.com/en-us/sharepoint/dev/apis/export-amr-api). This is not available for SharePoint Server.
+
+
 ## For migrations over 100TB 
 
 For customers migrating greater than 100TB of data, please follow the instructions on how to create a support ticket to help the product team to prepare the backend for the customers. 
