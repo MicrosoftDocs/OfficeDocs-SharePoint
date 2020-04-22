@@ -117,7 +117,7 @@ permissions.  Before you begin your migration, confirm how many items are in you
 #### Permission inheritance
 There is a 100,000 limit on the number of items that can be updated or removed as a part of creating a new SharePoint security scope. If you are migrating from a source with a structure that has more than 100,000 children (e.g. files, folders, lists or other object types), you need to structure the migration by importing security in multiple places to avoid exceeding the 100K limit. If the threshold is reached, any VROOM invite, REST share link, or any other permission modifying function call, will trigger HTTP 429 throttles. Permissions will not be updated. 
 
-To learn more about the service limits in SharePoint for Microsoft 365, see SharePoint Limits.
+To learn more about the service limits in SharePoint for Microsoft 365, see [SharePoint Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits#items-in-lists-and-libraries).
 
 If you have a folder with greater than 100K items, we recommend one of the following approaches.
 
