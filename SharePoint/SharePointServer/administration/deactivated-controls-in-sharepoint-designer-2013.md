@@ -12,7 +12,7 @@ ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 091165d1-76c4-4c15-ae75-cf338b573b13
-description: "Learn which SharePoint Designer features can be turned off by a SharePoint administrator."
+description: "Learn which SharePoint Designer features can be turned off by a SharePoint admin."
 ---
 
 # Deactivated controls in SharePoint Designer 2013

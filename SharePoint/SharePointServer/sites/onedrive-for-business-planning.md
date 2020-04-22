@@ -25,13 +25,13 @@ description: "Learn about things you need to consider when planning to setup One
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
     
-## OneDrive for Business - Office 365 or SharePoint Server
+## OneDrive for Business - Microsoft 365 or SharePoint Server
 <a name="section1"> </a>
 
-One of the first planning considerations you should make is if you truly want to use OneDrive for Business in SharePoint Server, or if you would be better suited to use OneDrive for Business in Office 365. Many companies select to use OneDrive for Business in an on-premises environment due to industry restrictions (for example, finance or government), or business rules that prohibit transmitting their data over the internet. If your company isn't restricted by either, you should also explore the possibility of using OneDrive for Business in Office 365. The key benefits in using OneDrive for Business in Office 365 is that you only need an internet connection to use it, versus being connected to your network, and that user storage is provided by your Office 365 service.
+One of the first planning considerations you should make is if you truly want to use OneDrive for Business in SharePoint Server, or if you would be better suited to use OneDrive for Business. Many companies select to use OneDrive for Business in an on-premises environment due to industry restrictions (for example, finance or government), or business rules that prohibit transmitting their data over the internet. If your company isn't restricted by either, you should also explore the possibility of using OneDrive for Business. The key benefits in using OneDrive for Business is that you only need an internet connection to use it, versus being connected to your network, and that user storage is provided by your Microsoft 365 service.
   
 > [!NOTE]
-> For more information about OneDrive for Business in Office 365, see [What is OneDrive for Business?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
+> For more info about OneDrive for Business, see [What is OneDrive for Business?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
   
 ## Setting up OneDrive for Business
 <a name="section2"> </a>
@@ -45,7 +45,7 @@ To make OneDrive for Business in SharePoint Server available to your users, you 
 |My Sites  <br/> |Provides a personal site for individual users in an organization, and is where the user's document library resides.  <br/> |
    
 > [!NOTE]
-> For detailed information about how to set up each service as required for OneDrive for Business, see [Set up OneDrive for Business in a SharePoint Server on-premises environment](set-up-onedrive-for-business.md). 
+> For detailed info about how to set up each service as required for OneDrive for Business, see [Set up OneDrive for Business in a SharePoint Server on-premises environment](set-up-onedrive-for-business.md). 
   
 ## Using the OneDrive for Business sync app
 <a name="section3"> </a>
@@ -82,7 +82,7 @@ Be mindful of the potential impact of these changes on your network.
 
 Sync apps use the http:// or https:// protocol of the site that they're synchronizing with to transfer data. If the OneDrive for Business site uses a Secure Socket Layer (SSL) connection (https://), then the data being transferred by the sync app is encrypted; otherwise, it's not.
   
-Office 365 uses SSL for OneDrive for Business connections by default. If you're using SharePoint Server, we recommend configuring your My Site host to use SSL for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires an SSL connection for OneDrive for Business clients that connect to SharePoint Server from outside the organization's intranet.
+Microsoft 365 uses SSL for OneDrive for Business connections by default. If you're using SharePoint Server, we recommend configuring your My Site host to use SSL for any connections that will occur outside your corporate domain. If you're using Active Directory directory services, you can configure the Group Policy setting **Sync Only On Domain Network**. The setting requires an SSL connection for OneDrive for Business clients that connect to SharePoint Server from outside the organization's intranet.
   
 Data on local disks on both server and Windows client computers can be encrypted by using [Windows BitLocker Drive Encryption](https://go.microsoft.com/fwlink/p/?LinkId=163122).
   
@@ -95,7 +95,7 @@ If storing files on a client workstation is against your corporate policy, you c
 ## Moving to a hybrid environment
 <a name="section5"> </a>
 
-At a later time, you might explore the possibility of using OneDrive for Business in Office 365 for various reasons, such as keeping your on-premises sites and customizations in their current state, but offloading the personal storage aspect of it to the cloud. This would also provide your users access to their business files while not connected to the corporate network.
+At a later time, you might explore the possibility of using OneDrive for Business for various reasons, such as keeping your on-premises sites and customizations in their current state, but offloading the personal storage aspect of it to the cloud. This would also provide your users access to their business files while not connected to the corporate network.
   
 > [!NOTE]
 > For more information about configuring a hybrid environment for OneDrive for Business in SharePoint Server, see [Configure hybrid OneDrive for Business - roadmap](../hybrid/configure-hybrid-onedrive-for-businessroadmap.md). 

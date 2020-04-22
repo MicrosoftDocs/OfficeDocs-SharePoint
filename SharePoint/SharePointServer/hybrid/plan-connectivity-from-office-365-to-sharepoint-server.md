@@ -1,5 +1,5 @@
 ---
-title: "Plan connectivity from Office 365 to SharePoint Server"
+title: "Plan connectivity from Microsoft 365 to SharePoint Server"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -17,16 +17,16 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 ms.assetid: b291ea58-cfda-48ec-92d7-5180cb7e9469
-description: "Plan and prepare to configure inbound connectivity from Office 365 to SharePoint Server hybrid environment."
+description: "Plan and prepare to configure inbound connectivity from Microsoft 365 to SharePoint Server hybrid environment."
 ---
 
-# Plan connectivity from Office 365 to SharePoint Server
+# Plan connectivity from Microsoft 365 to SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
-This article is designed to help you plan and prepare to configure inbound connectivity from Office 365 for enterprises to SharePoint Server through a reverse proxy device. This is required for the following hybrid environments: 
+This article is designed to help you plan and prepare to configure inbound connectivity from Microsoft 365 for enterprises to SharePoint Server through a reverse proxy device. This is required for the following hybrid environments: 
   
-- Inbound hybrid search (displaying search results from SharePoint Server in Office 365)
+- Inbound hybrid search (displaying search results from SharePoint Server in Microsoft 365)
     
 - Hybrid Business Connectivity Services
     
@@ -88,7 +88,7 @@ SharePoint Online sends requests to a reverse proxy server that relays the reque
   
 Both the primary web application and a single site collection within the primary web application must be configured to accept inbound connections from SharePoint Online. 
   
-The SharePoint administrator associates the services and connection objects that are needed to support the hybrid solutions that are being deployed with the primary web application. Outbound connections can be made from any on-premises SharePoint Server web application by using the feature-specific configurations.
+The SharePoint admin associates the services and connection objects that are needed to support the hybrid solutions that are being deployed with the primary web application. Outbound connections can be made from any on-premises SharePoint Server web application by using the feature-specific configurations.
   
 A SharePoint Server web application is composed of an Internet Information Services (IIS) website that acts as a logical unit for the site collections that you create. Each web application is represented by a different IIS website that has a unique or shared application pool, that has a unique public URL, and that can also be configured to use up to five internal URLs using Alternate Access Mapping (AAM). A given web application is associated with a single content database and is configured to use a specific authentication method to connect to the database. Multiple web applications can be configured to use different authentication methods, and optionally AAMs, to provide access to a single content database. 
   
@@ -212,14 +212,14 @@ For more information on how SSL certificates are used in SharePoint hybrid envir
 ### About Secure Channel SSL certificates
 <a name="AboutSecureChannel"> </a>
 
-A Secure Channel SSL certificate provides authentication and encryption for the secure communication channel between the reverse proxy device and Office 365, acting as both a server and a client certificate. It also verifies the identity of the reverse proxy endpoint that's used to publish the on-premises SharePoint Server site collection.
+A Secure Channel SSL certificate provides authentication and encryption for the secure communication channel between the reverse proxy device and Microsoft 365, acting as both a server and a client certificate. It also verifies the identity of the reverse proxy endpoint that's used to publish the on-premises SharePoint Server site collection.
   
 This certificate must be either a wildcard or a SAN certificate and be issued by a public root certification authority. The subject field of this certificate must contain the host name of the external endpoint of the reverse proxy server or a wildcard URL that covers all host names in the namespace. It must use at least 2048-bit encryption.
   
 > [!IMPORTANT]
 > Wildcard certificates can secure only a single level of a DNS namespace. For example, if your external URL is **https://spexternal.public.adventureworks.com**, the subject of your wildcard certificate must be *.public.adventureworks.com, not *.adventureworks.com. 
   
-In scenarios where SharePoint Online is configured to request information from SharePoint Server, an SSL certificate is required to do the following:
+In scenarios where SharePoint Online is configured to request info from SharePoint Server, an SSL certificate is required to do the following:
   
 - Encrypt traffic over the security channel.
     
@@ -235,7 +235,7 @@ During deployment, you'll install the SSL certificate both on the reverse proxy 
 Get a Secure Channel SSL wildcard or SAN (Subject Alternative Name) certificate for your on-premises public domain from a well-known certificate authority, for example, DigiCert, VeriSign, Thawte, or GeoTrust.
   
 > [!NOTE]
->  This certificate must support multiple names and must be at least 2048 bits. >  The **Subject** or **Subject Name** field of the certificate must contain a wildcard entry of the domain name in the External URL. For example, if your external URL is https://spexternal.public.adventureworks.com, the subject of your wildcard certificate should be **\*.public.adventureworks.com**. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint Administrators should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 
+>  This certificate must support multiple names and must be at least 2048 bits. >  The **Subject** or **Subject Name** field of the certificate must contain a wildcard entry of the domain name in the External URL. For example, if your external URL is https://spexternal.public.adventureworks.com, the subject of your wildcard certificate should be **\*.public.adventureworks.com**. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint admins should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 
   
    
 ### About STS certificates
@@ -246,11 +246,11 @@ The STS certificate of the on-premises SharePoint farm requires a default certif
 ## Record the accounts needed for configuration and testing
 <a name="certificates"> </a>
 
-A SharePoint hybrid environment setup requires several user accounts in both your on-premises Active Directory and the Office 365 directory (Azure Active Directory that is surfaced in the Office 365 directory). These accounts have different permissions and group or role memberships. Some of the accounts are used to deploy and configure software, and some are needed to test specific functionality to help guarantee that security and authentication systems are working as expected.
+A SharePoint hybrid environment setup requires several user accounts in both your on-premises Active Directory and the Microsoft 365 directory (Azure Active Directory that is surfaced in the Microsoft 365 directory). These accounts have different permissions and group or role memberships. Some of the accounts are used to deploy and configure software, and some are needed to test specific functionality to help guarantee that security and authentication systems are working as expected.
   
 - Go to [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md) for a complete explanation of the required user accounts, including notes about roles and identity providers. 
     
-- **Record** the required account information in the worksheet as instructed. 
+- **Record** the required account info in the worksheet as instructed. 
     
 - Return to this planning article after you complete this step.
     

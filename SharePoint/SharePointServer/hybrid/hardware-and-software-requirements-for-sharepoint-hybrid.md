@@ -26,7 +26,7 @@ description: "Learn what prerequisites you'll need to configure hybrid for Share
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
-This article describes the prerequisites that are required to deploy a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Office 365 for enterprises.
+This article describes the prerequisites that are required to deploy a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Microsoft 365 for enterprises.
   
 ## Hardware and software requirements
 
@@ -34,7 +34,7 @@ This article describes the prerequisites that are required to deploy a SharePoin
     
 - An operational SharePoint Server farm. Services must be running on the local farm - farms with federated services are not supported. For more information about setting up a farm, see [Install SharePoint Server](../install/install.md).
     
-- A [properly configured Office 365 tenant](configure-office-365-for-sharepoint-hybrid.md) that is provisioned with SharePoint Online with one of the following subscription plans: E1 supports [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) only, E3, or E4. 
+- A [properly configured Microsoft 365 organization](configure-office-365-for-sharepoint-hybrid.md) that is provisioned with SharePoint Online with one of the following subscription plans: E1 supports [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) only, E3, or E4. 
     
 ## Certificate requirements
 <a name="CertReq"> </a>
@@ -46,9 +46,9 @@ For more information, see [Replace the STS certificate](plan-server-to-server-au
 ## Inbound connectivity requirements
 <a name="CertReq"> </a>
 
-The following hybrid solutions require inbound connectivity from Office 365 to SharePoint Server:
+The following hybrid solutions require inbound connectivity from Microsoft 365 to SharePoint Server:
   
-- Inbound hybrid search (displaying search results from SharePoint Server in Office 365)
+- Inbound hybrid search (displaying search results from SharePoint Server in Microsoft 365)
     
 - Hybrid Business Connectivity Services
     
@@ -69,11 +69,11 @@ Inbound connectivity requires the following:
   
 ### Certificate requirements
 
-This section describes the certificates you'll need to configure a inbound connectivity from Office 365 to SharePoint Server.
+This section describes the certificates you'll need to configure a inbound connectivity from Microsoft 365 to SharePoint Server.
   
 #### About the Secure Channel SSL certificate
 
-This certificate provides authentication and encryption between the reverse proxy device and Office 365. It must be either a wildcard or a SAN certificate and be issued by a public root certification authority. For more information, see [About Secure Channel SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#AboutSecureChannel) and [Get a Secure Channel SSL certificate](plan-connectivity-from-office-365-to-sharepoint-server.md#GetSecureChannel).
+This certificate provides authentication and encryption between the reverse proxy device and Microsoft 365. It must be either a wildcard or a SAN certificate and be issued by a public root certification authority. For more info, see [About Secure Channel SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#AboutSecureChannel) and [Get a Secure Channel SSL certificate](plan-connectivity-from-office-365-to-sharepoint-server.md#GetSecureChannel).
   
 #### About the on-premises SharePoint SSL certificate
 
@@ -81,7 +81,7 @@ If you'll configure your primary web application to use SSL (which is the web ap
   
 If this web application already exists and is configured for SSL, you're ready to go. Otherwise you have to either obtain or create one for this purpose. For production environments, this certificate should be issued by a public certification authority (CA). For test and development environments, it can be a self-signed certificate.
   
-For more information, see [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates). 
+For more info, see [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates). 
   
 #### Supported reverse proxy devices
 

@@ -44,7 +44,7 @@ However, as the slowest ring, the Deferred ring receives performance improvement
 > [!NOTE]
 > Microsoft reserves the right to bypass the 60-day grace period for critical updates. 
   
-To learn how to set the Deferred ring for the Windows sync app using Group Policy, see [Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing). To learn how to set it for the Mac sync app, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md). For info about the Office 365 update process, see [Overview of update channels for Office 365 ProPlus](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+To learn how to set the Deferred ring for the Windows sync app using Group Policy, see [Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing). To learn how to set it for the Mac sync app, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md). For info about the Microsoft 365 update process, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
   
 ## How the sync app checks for and applies updates
 
@@ -61,7 +61,7 @@ If both of these are true, OneDrive downloads the update to a hidden folder with
 For info about the latest releases, see [New OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
 
 > [!NOTE]
-> To apply sync app updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs. They are also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Office 365](/office365/enterprise/urls-and-ip-address-ranges). 
+> To apply sync app updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs. They are also used to enable and disable features and apply bug fixes. See [More info about the URLs and IP address ranges used in Microsoft 365](/office365/enterprise/urls-and-ip-address-ranges). 
   
 ## Deploying updates in the Deferred ring
 

@@ -168,7 +168,7 @@ The destination farm must be running the same version or a later version of Shar
     
 3. Right-click the **Databases** node, point to **Tasks**, and then click **Attach**.
     
-4. In the **Attach Database** dialog box, browse to where you transferred the .mdf, .ldf, and .ndf files, select the .mdf file for the database that you want to attach, and then click **OK**.
+4. In the **Attach Database** dialog, browse to where you transferred the .mdf, .ldf, and .ndf files, select the .mdf file for the database that you want to attach, and then click **OK**.
     
 5. Repeat for each content database that you are moving.
     
@@ -351,7 +351,7 @@ For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/
     
 3. Right-click the **Databases** node, point to **Tasks**, and then click **Attach**.
     
-4. In the **Attach Database** dialog box, browse to where you transferred the .mdf, .ldf, and .ndf files, select the .mdf file for the database that you want to attach, and then click **OK**.
+4. In the **Attach Database** dialog, browse to where you transferred the .mdf, .ldf, and .ndf files, select the .mdf file for the database that you want to attach, and then click **OK**.
     
 5. Repeat for each content database that you are moving.
     

@@ -47,7 +47,7 @@ The design samples illustrate sites for a fictitious company named Fabrikam, Inc
 
 Host-named site collections in SharePoint Server provide URL management and scalability of sites within a single web application. The two versions of the Corporate Portal design sample show implementations that are based on the use of the traditional path-based site collections or host-named site collections. Both of these design samples utilize claims-based authentication with a single zone. These samples are discussed in greater detail later in this article.
   
-We recommend using the design based on host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md), for more information). This design is recommended because it is the same architecture that the Office 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
+We recommend using the design based on host-named site collections unless requirements dictate that path-based sites with alternate access mapping are necessary (see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md), for more information). This design is recommended because it is the same architecture that the Microsoft 365 environment uses. Consequently, this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
   
 ### Extranet with Dedicated Zones for Authentication
 
@@ -299,7 +299,7 @@ The Corporate Portal with Path-based Sites example uses partitioned services for
 
 ![Services architecture](../media/ServerArch_LogicalArchitectureModel.gif)
   
-Deploying partitioned services adds complexity to the architecture and makes it difficult to migrate sites to Office 365 at a later time. A simpler option for the Partner sites is to deploy dedicated but unpartitioned instances of the Managed Metadata service and Search service if these are required to be separate. Many organizations rely on the security trimming feature of Search, rather than deploying dedicated instances of the Search service.
+Deploying partitioned services adds complexity to the architecture and makes it difficult to migrate sites to Microsoft 365 at a later time. A simpler option for the Partner sites is to deploy dedicated but unpartitioned instances of the Managed Metadata service and Search service if these are required to be separate. Many organizations rely on the security trimming feature of Search, rather than deploying dedicated instances of the Search service.
   
 The Extranet design sample includes only one proxy group but it also uses partitioned services for both the Managed Metadata and Search service applications.
   
@@ -381,7 +381,7 @@ If you implement host-named site collections with a single web application, each
 ## Site collections
 <a name="section10a"> </a>
 
-The recommended configuration for deploying sites is using host-named site collections with all sites located within a single web application. This configuration is recommended to deploy sites because it is the same architecture that the Office 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
+The recommended configuration for deploying sites is using host-named site collections with all sites located within a single web application. This configuration is recommended to deploy sites because it is the same architecture that the Microsoft 365 environment uses. Consequently this is the most heavily tested configuration. New features, including the App model and Request Management, are optimized for this configuration, and it is the most reliable configuration going forward.
   
 Although we recommend host-named site collections for most architectures, you should use the traditional path-based site collections and alternate access mapping if any of the following conditions apply:
   
@@ -451,7 +451,7 @@ You can use either of the following two approaches to design site collections in
     
   - You cannot share templates and navigation across projects or teams that might otherwise share a site collection.
     
-- Create a finite number of site collections for your organization based on the way your organization operates. In this approach, a SharePoint administrator creates site collections. After a site collection is created, teams can create sites within the site collection. This approach provides the opportunity to implement a thoughtful taxonomy that provides structure to the way team sites are managed and grow. There is also more opportunity to share templates and navigation between projects and teams that share a site collection. However, this approach also includes some disadvantages.
+- Create a finite number of site collections for your organization based on the way your organization operates. In this approach, a SharePoint admin creates site collections. After a site collection is created, teams can create sites within the site collection. This approach provides the opportunity to implement a thoughtful taxonomy that provides structure to the way team sites are managed and grow. There is also more opportunity to share templates and navigation between projects and teams that share a site collection. However, this approach also includes some disadvantages.
     
 The design samples incorporate the second approach, which results in a similar site collection hierarchy for team sites and published intranet content. The challenge for information architects is to create a second tier of site collections that makes sense for the organization. The following table suggests different types of organizations.
   

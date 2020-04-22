@@ -49,7 +49,7 @@ In the previous blog post, we told you that managed property that's used to spec
     
      ![Add A Mapping](../media/OTCSP_AddAMapping.png)
   
-5. In the **Crawled property selection** dialog box, use the **Search for crawled property name** field to search for the crawled property that you want to map to this managed property. 
+5. In the **Crawled property selection** dialog, use the **Search for crawled property name** field to search for the crawled property that you want to map to this managed property. 
     
     In our Contoso scenario, we want to map the site column called  *Group Number*  . Crawled properties don't contain spaces. Therefore, exclude the space, enter  *GroupNumber*  and select **Find**. 
     
@@ -234,7 +234,7 @@ When the Usage analytics timer job starts, it'll take the usage events from yest
     
      ![Set as Read Only](../media/OTCSP_SetAsReadOnly.png)
   
-5. In the **Confirm Attribute Changes** dialog box, select **Apply changes to this folder, subfolder and files** and then click **OK**. 
+5. In the **Confirm Attribute Changes** dialog, select **Apply changes to this folder, subfolder and files** and then click **OK**. 
     
      ![Apply to Folders](../media/OTCSP_ApplyToFolders.png)
   

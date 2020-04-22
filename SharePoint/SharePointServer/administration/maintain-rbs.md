@@ -112,7 +112,7 @@ You must schedule a separate RBS Maintainer task for every database that uses RB
     
   - On the **Actions** tab, click **New**.
     
-  - In the **New Action** dialog box, in the **Action** drop-down list, select **Start a program**.
+  - In the **New Action** dialog, in the **Action** drop-down list, select **Start a program**.
     
   - Under **Settings**, in the **Program/script** box, browse to the Maintainer binary file  _\<RBS installation directory\>_\Maintainer\Microsoft.Data.SqlRemoteBlobs.Maintainer.exe, and in the **Add arguments (optional)** text box, add any optional arguments. The following default values are created by the installer: 
     
@@ -122,7 +122,7 @@ You must schedule a separate RBS Maintainer task for every database that uses RB
     
   - On the **Triggers** tab, click **New**. 
     
-  - In the **New Trigger** dialog box, schedule the task, and then click **OK**. We recommend that you schedule the task to run during low system activity times.
+  - In the **New Trigger** dialog, schedule the task, and then click **OK**. We recommend that you schedule the task to run during low system activity times.
     
   - On the **General** tab, under **Security**, make sure that the user account has the appropriate permissions to run the task. You can change permissions by clicking **Change User or Group**.
     

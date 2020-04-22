@@ -29,7 +29,7 @@ We recommend that you reserve some time to complete all of the steps for the sce
   
 ## Scenarios for Yammer and SharePoint Server
 
-Read these articles for common scenarios on integrating Yammer and SharePoint Server.
+Read these articles for common scenarios about integrating Yammer and SharePoint Server.
   
 |**Scenario**|**Description**|
 |:-----|:-----|
@@ -37,7 +37,7 @@ Read these articles for common scenarios on integrating Yammer and SharePoint Se
 |[Integrate a single Yammer network into SharePoint Server](integrate-a-single-yammer-network-into-sharepoint-server.md) <br/> |Learn how to integrate a single, active Yammer network together with your SharePoint Server  environment.  <br/> |
 |[Integrate multiple Yammer networks into SharePoint Server](integrate-multiple-yammer-networks-into-sharepoint-server.md) <br/> |As of October 26, 2018, multiple Yammer networks are no longer supported.    <br/> |
 |[Integrate a Yammer network into SharePoint Serverwith social features](integrate-a-yammer-network-into-sharepoint-server-with-social-features.md) <br/> |Learn how to integrate a Yammer network together with your SharePoint Server environment where you already use SharePoint social features.  <br/> |
-|[Integrate a Yammer network into SharePoint Server and Office 365](integrate-a-yammer-network-into-sharepoint-server-and-office-365.md) <br/> |Learn how to integrate a Yammer network together with your SharePoint Server environment and your Office 365 tenant.  <br/> |
+|[Integrate a Yammer network into SharePoint Server and Microsoft 365](integrate-a-yammer-network-into-sharepoint-server-and-office-365.md) <br/> |Learn how to integrate a Yammer network together with your SharePoint Server environment and your Microsoft 365 organization.  <br/> |
    
 ## See also
 

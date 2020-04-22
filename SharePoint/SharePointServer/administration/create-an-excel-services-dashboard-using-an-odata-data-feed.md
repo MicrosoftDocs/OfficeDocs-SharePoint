@@ -100,7 +100,7 @@ Our example dashboard uses data that is imported into Excel via an OData data fe
   - Choose **Use this name and password**, specify an appropriate user name and password, and then choose the **Next** button. 
     
     > [!TIP]
-    > If you don't know which option to choose, contact a SharePoint administrator. 
+    > If you don't know which option to choose, contact a SharePoint admin. 
   
 6. On the **Select Tables** page, choose the **CompanySales** table and the **TerritorySalesDrilldown** table. Then choose the **Next** button. 
     
@@ -124,9 +124,9 @@ At this point, we have imported data into Excel by using an OData data feed. The
   
 1. In Excel, on the **File** tab, choose **Options**.
     
-2. In the **Excel Options** dialog box, choose **Add-Ins**.
+2. In the **Excel Options** dialog, choose **Add-Ins**.
     
-3. In the **Manage** list, choose **COM Add-Ins**, and then choose the **Go** button to open the **COM Add-Ins** dialog box. 
+3. In the **Manage** list, choose **COM Add-Ins**, and then choose the **Go** button to open the **COM Add-Ins** dialog. 
     
 4. Select **Microsoft Office PowerPivot for Excel 2013**, and then choose **OK**. The **PowerPivot** tab is now visible in Excel. 
     
@@ -140,7 +140,7 @@ Now that the Power Pivot add-in for Excel is enabled, the next step is to create
     
 2. In the **PowerPivot for Excel** window, on the **Design** tab, in the **Relationships** group, choose **Create Relationship**.
     
-3. In the **Create Relationship** dialog box, specify the following settings: 
+3. In the **Create Relationship** dialog, specify the following settings: 
     
   - In the **Table** list, verify that **CompanySales** is selected. 
     
@@ -174,15 +174,15 @@ We begin by creating the ProductSales report.
   
 1. In Excel, select **Sheet1**.
     
-2. On the **Insert** tab, in the **Charts** section, choose **PivotChart**.The **Create PivotChart** dialog box appears. 
+2. On the **Insert** tab, in the **Charts** section, choose **PivotChart**.The **Create PivotChart** dialog appears. 
     
 3. In the **Choose the data that you want to analyze** section, choose the **Use an external data source** option, and then choose the **Choose Connection** button. 
     
-    The **Existing Connections** dialog box appears. 
+    The **Existing Connections** dialog appears. 
     
 4. On the **Tables** tab, select the **Tables in Workbook Data Model** option, and then choose the **Open** button. 
     
-5. In the **Create PivotChart** dialog box, choose the **Existing Worksheet** option, and then choose the **OK** button. 
+5. In the **Create PivotChart** dialog, choose the **Existing Worksheet** option, and then choose the **OK** button. 
     
     **Chart1** opens for editing. 
     
@@ -200,7 +200,7 @@ We begin by creating the ProductSales report.
     
 1. Somewhere in the PivotChart report, right-click, and then choose **PivotChart Options**.
     
-2. In the **PivotChart Options** dialog box, in the **PivotChart Name** box, type ProductSalesReport.
+2. In the **PivotChart Options** dialog, in the **PivotChart Name** box, type ProductSalesReport.
     
     > [!TIP]
     > Make sure that the name that you specify contains only alphanumeric characters (no spaces). 
@@ -221,11 +221,11 @@ At this point, we have created a PivotChart report showing product sales. The ne
     
 3. In the **Choose the data that you want to analyze** section, choose the **Use an external data source** option, and then choose the **Choose Connection** button. 
     
-    The **Existing Connections** dialog box appears. 
+    The **Existing Connections** dialog appears. 
     
 4. On the **Tables** tab, select the **Tables in Workbook Data Model** option, and then choose the **Open** button. 
     
-5. In the **Create PivotChart** dialog box, choose the **Existing Worksheet** option, and then choose the **OK** button. 
+5. In the **Create PivotChart** dialog, choose the **Existing Worksheet** option, and then choose the **OK** button. 
     
     **PivotChart2** opens for editing. 
     
@@ -264,11 +264,11 @@ Using Excel, there are several different kinds of filters we can create and add 
     
 2. On the **Insert** tab, in the **Filter** group, choose **Slicer**.
     
-    The Existing Connections dialog box appears.
+    The Existing Connections dialog appears.
     
 3. On the **Data Model** tab, select the **Tables in Workbook Data Model** option, and then choose the **Open** button. 
     
-4. In the **Insert Slicers** dialog box, take the following steps: 
+4. In the **Insert Slicers** dialog, take the following steps: 
     
 1. In the **CompanySales** section, choose **OrderYear**.
     
@@ -284,7 +284,7 @@ Using Excel, there are several different kinds of filters we can create and add 
     
 2. On the **Options** tab, in the **Slicer** group, choose the **Report Connections** toolbar command. 
     
-3. In the **Report Connections** dialog box, choose the **ProductSalesReport** and **GeoSalesReport** check boxes, and then choose the **OK** button. 
+3. In the **Report Connections** dialog, choose the **ProductSalesReport** and **GeoSalesReport** check boxes, and then choose the **OK** button. 
     
 4. Repeat these steps for the **EmployeeLastName** slicer. 
     
@@ -326,13 +326,13 @@ The next step is to publish the workbook to a SharePoint library. The workbook u
     For our example, we used the Documents library that is available by default in a Business Intelligence Center site. The SharePoint address we used resembles http://servername/sites/bicenter/documents.
     
     > [!TIP]
-    > Contact a SharePoint administrator if you do not know the SharePoint address for a library that you can use. 
+    > Contact a SharePoint admin if you do not know the SharePoint address for a library that you can use. 
   
-3. In the **Documents** library, click **+ New Document** to open the **Add a Document** dialog box. 
+3. In the **Documents** library, click **+ New Document** to open the **Add a Document** dialog. 
     
-4. Choose **Browse**, and then use the **Choose File to Upload** dialog box to select the Adventure Works Sales Reports workbook. Then choose **Open**.
+4. Choose **Browse**, and then use the **Choose File to Upload** dialog to select the Adventure Works Sales Reports workbook. Then choose **Open**.
     
-5. In the **Add a document** dialog box, choose **OK**. The workbook is added to the library.
+5. In the **Add a document** dialog, choose **OK**. The workbook is added to the library.
     
 Now that we have created and published the dashboard, we can use it to explore data.
   
@@ -358,7 +358,7 @@ Now that the dashboard is open for viewing, we can use it to obtain answers to s
 |**Question**|**Action**|
 |:-----|:-----|
 |In 2005, which product category had the most sales?  <br/> |In the **OrderYear** slicer, choose 2005. Notice that in the **ProductSalesReport** chart, the Bikes product category has the highest sales amount.  <br/> |
-|Which year had the highest amount of sales for the Bikes product category?  <br/> |To find the answer, we'll use the Quick Explore feature. Follow these steps:  <br/> Clear the OrderYear slicer. In the ProductSalesReport chart, select the Bikes bar. The Quick Explore button appears. Click (or tap) the Quick Explore button to open the Explore dialog box. Expand CompanySales, choose OrderYear, and then choose Drill To OrderYear. The ProductSalesReport chart updates to show sales amounts for the Bikes product category. According to the **ProductSalesReport** chart, 2007 was the year in which this company had the highest sales amounts for the Bikes category.  <br/> |
+|Which year had the highest amount of sales for the Bikes product category?  <br/> |To find the answer, we'll use the Quick Explore feature. Follow these steps:  <br/> Clear the OrderYear slicer. In the ProductSalesReport chart, select the Bikes bar. The Quick Explore button appears. Click (or tap) the Quick Explore button to open the Explore dialog. Expand CompanySales, choose OrderYear, and then choose Drill To OrderYear. The ProductSalesReport chart updates to show sales amounts for the Bikes product category. According to the **ProductSalesReport** chart, 2007 was the year in which this company had the highest sales amounts for the Bikes category.  <br/> |
 |In France, which product subcategory has the highest amount of sales?  <br/> | To find the answer, we'll use the Quick Explore feature. Follow these steps:  <br/>  Refresh the browser window to restore the dashboard to its default view.  <br/>  In the **GeoSalesReport** chart, select the **France** bar to display the Quick Explore button.  <br/>  Click (or tap) the Quick Explore button.  <br/>  Expand **CompanySales**, choose **ProductSubCategory**, and then choose **Drill To ProductSubCategory**. The chart updates to display lots of products.  <br/>  Point to the tallest bar. A callout appears that indicates that bar corresponds to the Road Bikes subcategory.  <br/>  According to the GeoSalesReport chart, Road Bikes has the highest amount of sales in France for this company.  <br/> |
    
 ## See also

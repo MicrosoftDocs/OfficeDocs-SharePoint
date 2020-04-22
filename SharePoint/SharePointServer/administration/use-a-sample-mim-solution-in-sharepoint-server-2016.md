@@ -127,7 +127,7 @@ Now that you've loaded the initial configuration, you can add more domains for s
     
 2. In the Management Agents tab, select the ADMA management agent > **Properties** > **Actions**.
     
-3. In the **Properties** dialog box > **Configure Directory Partitions**. 
+3. In the **Properties** dialog > **Configure Directory Partitions**. 
     
 4. In the list of directory partitions, select any domain you want to synchronize (and remember that credentials for these domains may be required).
     

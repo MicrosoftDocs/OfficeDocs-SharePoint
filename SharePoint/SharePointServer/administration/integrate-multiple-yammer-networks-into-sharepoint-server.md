@@ -21,7 +21,7 @@ description: "Learn how to integrate multiple active Yammer networks together wi
 
 This scenario describes the prerequisites and recommended steps to integrate multiple active Yammer networks together with your SharePoint Server environment.
 
-    [!NOTE] Multiple active Yammer networks on one Office 365 account are no longer supported after October 26, 2018. For more information, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks)
+    [!NOTE] Multiple active Yammer networks on one account are no longer supported after October 26, 2018. For more info, see [FAQ: Consolidating multiple Yammer networks](/yammer/configure-your-yammer-network/faq-consolidate-multiple-yammer-networks)
   
 ## Scenario prerequisites
 
@@ -59,9 +59,9 @@ When you are ready to merge networks:
   
 ## Step 2: Set up directory synchronization
 
-Office 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to [Enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042). If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
+Microsoft 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to [Enforce Microsoft 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042). If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
-For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
+For more information, see [Plan for directory synchronization for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
   
 ## Step 3: Disable default SharePoint Server social features
 
@@ -80,7 +80,7 @@ After you disable the default SharePoint Server social features, you should [use
 [Social scenarios with Yammer and SharePoint Server](social-scenarios-with-yammer-and-sharepoint-server.md)
 #### Other Resources
 
-[Manage Yammer users across their life cycle from Office 365](https://go.microsoft.com/fwlink/?linkid=875043)
+[Manage Yammer users across their life cycle from Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875043)
 
 [Yammer - Admin Help](https://go.microsoft.com/fwlink/?linkid=525575)
 

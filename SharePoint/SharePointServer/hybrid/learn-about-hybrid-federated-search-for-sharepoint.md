@@ -19,22 +19,22 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 27312a69-cd8d-4260-bf53-363a83e6e4ae
-description: "With the hybrid federated search solution, you use both your index in SharePoint Server and your index in Office 365 Both SharePoint Server and SharePoint Online Search services can query the search index in the other environment and return federated results. When users search from a Search Center, the search results come from both your search index in SharePoint Server and your search index in Office 365."
+description: "With the hybrid federated search solution, you use both your index in SharePoint Server and your index in Microsoft 365. Both SharePoint Server and SharePoint Online Search services can query the search index in the other environment and return federated results. When users search from a Search Center, the search results come from both your search index in SharePoint Server and your search index in Office 365."
 ---
 
 # Learn about hybrid federated search for SharePoint
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
-With the hybrid federated search solution, you use both your index in SharePoint Server and your index in Office 365 Both SharePoint Server and SharePoint Online Search services can query the search index in the other environment and return federated results. When users search from a Search Center, the search results come from both your search index in SharePoint Server and your search index in Office 365.
+With the hybrid federated search solution, you use both your index in SharePoint Server and your index in Microsoft 365. Both SharePoint Server and SharePoint Online Search services can query the search index in the other environment and return federated results. When users search from a Search Center, the search results come from both your search index in SharePoint Server and your search index in Office 365.
   
 ![Illustration show search in two environments, one with hybrid federated search and one without.](../media/4f94457c-1678-434e-94eb-5a2aaee68fce.png)
   
-The Search Centers display results from the environments in two separate result blocks. Each Search Center displays and ranks search results from its own environment and uses ranking from the other environment for the other environment's search results. Let's use the Search Center in SharePoint Online in Office 365 as an example. This Search Center displays and ranks search results from the search index in Office 365, but for search results from the search index in SharePoint Server this Search Center uses the ranking from SharePoint Server and displays these search results in the order that they arrive.
+The Search Centers display results from the environments in two separate result blocks. Each Search Center displays and ranks search results from its own environment and uses ranking from the other environment for the other environment's search results. Let's use the Search Center in SharePoint Online in Microsoft 365 as an example. This Search Center displays and ranks search results from the search index in Office 365, but for search results from the search index in SharePoint Server this Search Center uses the ranking from SharePoint Server and displays these search results in the order that they arrive.
   
-![Illustration shows search results with hybrid federated search, separate ranking for on-premises and Office 365 content.](../media/85309132-5eac-4ca1-a870-d10a3a9597b1.png)
+![Illustration shows search results with hybrid federated search, separate ranking for on-premises and Microsoft 365 content.](../media/85309132-5eac-4ca1-a870-d10a3a9597b1.png)
   
-If you've synchronized Active Directory (AD) between your on-premises network (Windows Server Active Directory) and your Office 365 tenant (Windows Azure Active Directory), Office 365 alters the document permissions that refer to on-premises users, so they refer to the corresponding Office 365 users, and the other way around. Users only see search results for content they have access to. 
+If you've synchronized Active Directory (AD) between your on-premises network (Windows Server Active Directory) and your Microsoft 365 organization (Windows Azure Active Directory), Microsoft 365 alters the document permissions that refer to on-premises users, so they refer to the corresponding Microsoft 365 users, and the other way around. Users only see search results for content they have access to. 
   
 ## What are the scenarios for hybrid federated search?
 
@@ -46,13 +46,13 @@ Show search results from SharePoint Online in a Search Center in SharePoint Serv
   
 ### Hybrid federated search results in SharePoint Online
 
-![Illustration shows the Office 365 search center getting results from the search index in Office 365 and the search index in SharePoint Server](../media/a51187e1-8fb9-4378-a9ee-ed5b210b2e52.png)
+![Illustration shows the Microsoft 365 search center getting results from the search index in Office 365 and the search index in SharePoint Server](../media/a51187e1-8fb9-4378-a9ee-ed5b210b2e52.png)
   
 Show search results from SharePoint Server in a Search Center in SharePoint Online. This scenario requires a reverse proxy device, see [Display hybrid federated search results in SharePoint Online](display-hybrid-federated-search-results-in-sharepoint-online.md).
   
 ### Hybrid federated search from both SharePoint Server and SharePoint Online
 
-![Illustration shows the Office 365 search center and a search center in SharePoint Server getting results from the search index in Office 365 and the search index in SharePoint Server](../media/0c208d87-7939-4ec3-9fc0-af2061f62b6a.png)
+![Illustration shows the Microsoft 365 search center and a search center in SharePoint Server getting results from the search index in Office 365 and the search index in SharePoint Server](../media/0c208d87-7939-4ec3-9fc0-af2061f62b6a.png)
   
 Show search results from both environments in Search Centers both in SharePoint Online and SharePoint Server. This scenario requires a reverse proxy device, see [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) and [Display hybrid federated search results in SharePoint Online](display-hybrid-federated-search-results-in-sharepoint-online.md).
   

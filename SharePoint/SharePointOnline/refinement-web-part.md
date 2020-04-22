@@ -24,7 +24,7 @@ The Refinement Web Part filters search results into categories called refiners. 
   
 By default, the Refinement Web Part is used on all default search vertical pages in the Enterprise Search Center, which are the search results pages for **Everything**, **People**, **Conversations**, and **Videos**.
   
-As a global or SharePoint admin in Office 365, you can change how the Refinement Web Part is set up. You can:
+As a global or SharePoint admin in Microsoft 365, you can change how the Refinement Web Part is set up. You can:
   
 - Filter search results from a different Search Results Web Part.
     
