@@ -147,6 +147,7 @@ After the incremental migration has completed, and only if you previously set th
 
 >[!Tip]
 >To detect the number of files available in an SharePoint online in a document library or list, issue the Asynchronous Metadata Read (AMR) API call. Then leverage the function:
+>
 >$ folder.item["SMTotalFileCount"] 
 >
 >This will return the cumulative file counts in the folder tree for a given folder item. 
