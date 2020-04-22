@@ -15,14 +15,12 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Troubleshoot common installation errors in Migration Manager."
+description: "Troubleshoot common installation issues in Migration Manager."
 ---
 # Troubleshooting agent installation issues in Migration Manager
 
 If you are having trouble installing the agent file on your computers, this article provides information on the possible causes and steps to correct the problem.
 
-
-## 
 
 ## **Make sure your computer meets the installation prerequisites**
 

@@ -1,5 +1,5 @@
 ---
-title: "Using the SharePoint Migration Tool Reports"
+title: "Migration Manager Reports"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,10 +16,10 @@ mscollection:
 search.appverid: MET150
 ---
 
-# Using the SharePoint Migration Tool Reports
+# Using the Migration Manager Reports
 
 
-The SharePoint Migration Tool generates log files, summary and task level reports to help you manage, audit and troubleshoot your migration process.
+Migration Manager generates log files, summary and task level reports to help you manage, audit and troubleshoot your migration process.
   
 ## How to view the reports
 

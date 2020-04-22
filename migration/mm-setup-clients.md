@@ -85,6 +85,9 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 On completion this computer will be added to the available agents that the Migration Manager can assign tasks.
 
+>[!Important]
+> Passwords are not stored in the installer.
+
 ## Set up multiple agents
 
 Based on the size of the content you want to migrate, you can setup as many agents as you need. If you are setting up multiple agents, we recommend that you download the agent setup file to a shared location. That way you can easily download the setup file on each of computer or VM.  
