@@ -141,7 +141,7 @@ The alternate option is to keep your source layout, and instead apply unique ACL
 
 Optionally, if you want to prevent sharing until migration is completed, set the ACL to NULL.
 
-After the incremental migration has completed, and only if you previously set the ACL to NULL, you can reapply the unique ACL for folders A, B, C, D separately.   When you re-apply the ACL, evaluate your folder size starting at the lowest level of hierarchy. In the following example, you would start at level.  
+After the incremental migration has completed, and only if you previously set the ACL to NULL, you can reapply the unique ACL for folders A, B, C, D separately.   When you re-apply the ACL, evaluate your folder size starting at the lowest level of hierarchy. In the following example, you would start at level 3.  
 
   ![Parent root folder](media/parent-root-folder.png)</br></br>
 
