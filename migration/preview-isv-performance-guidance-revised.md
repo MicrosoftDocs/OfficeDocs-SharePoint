@@ -129,10 +129,9 @@ First, scan and determine which folder structure that has greater than 100K item
 Then restructure the folder structure in the source. For example, divide a single folder of 500K into 5 folders at the root so each folder has less than 100K items.
 Make sure that there are no more than 50K unique ACLs in the structure. 
 
-*Example:*
-At the source, break up the structure into 4 folders, A, B, C, and D, ensuring each contains less than 100,000 items. Then perform the migration. 
+*Example:*  At the source, break up the structure into 4 folders, A, B, C, and D, ensuring each contains less than 100,000 items. Then perform the migration. 
 
-Remember there are other limits that must be considered. See SharePoint limits for details. 
+Remember there are other limits that must be considered. To learn more, read [SharePoint Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits#items-in-lists-and-libraries).
  
 #### Method 2
   
