@@ -42,14 +42,19 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 - SharePoint Foundation 2010
 - Network and local file shares
   
-## Download and install
+</br></br>
 
-Download SPMT using one of the links listed below.  
 
->[!NOTE]
->**Download and install**:</br>
->- [Current release](https://aka.ms/spmt-ga-page) 
->- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
+## Current and pre-release versions
+
+Download and install SPMT using one of the links listed below.  
+
+
+||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
+|:-----|:-----|:-----|:-----|:-----|
+|Last released build|[3.4.118.0](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  |[3.2.118.0](https://aka.ms/spmt-ga-page)|[3.2.118.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
+
+
 
 
 After downloading and installing SPMT, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.

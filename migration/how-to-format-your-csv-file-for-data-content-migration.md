@@ -63,7 +63,7 @@ The following example uses Excel to create the CSV file.
     
 2. Enter the values for your migration jobs. Enter one migration source and destination per row. See the reference table below for further explanation of columns.
     
-  - **Column A:** Enter either a file share path or an on-premises SharePoint Server site URL.  *Required.* 
+  - **Column A:** Enter either a file share path or an on-premises SharePoint Server site URL. For SharePoint Server 2013 and 2016, you can also use either the log in name or the SID in this column. *Required.* 
     
   - **Column B:** Enter name of the SharePoint Server document library you are migrating. If you leave this field empty, all document libraries will be migrated. If you are migrating a file share, leave this column empty.  *Optional.* 
     
