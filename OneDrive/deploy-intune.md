@@ -81,7 +81,7 @@ To use Intune to deploy OneDrive to Windows devices, follow these steps:
 ![](media/deploy-onedrive-enterprise_image3.png)
 
 > [!NOTE]
-> You aren’t required to deploy the entire Office 365 suite at once. If you need the OneDrive sync app only, you can select that one item.
+> You aren't required to deploy the entire Office 365 suite at once. If you need the OneDrive sync app only, you can select that one item.
 
 6. Click to configure the required App Suite information, and then click **OK**.
 7. Click to configure the required App Suite Settings, and then click **OK**.
