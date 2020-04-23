@@ -51,7 +51,7 @@ Although you can use an existing web application, for optimal performance and se
 Ensure you have a User Profile service application that you want to use for My Sites. 
   
 > [!IMPORTANT]
-> Although the **Create New User Profile service application** dialog box requests information in the **My Site Host URL** and **Personal Site Location** sections, for this task, remove any default values and leave those fields blank when you create the User Profile service application. Additionally, you can select any of the options in **Site Naming Format**. These settings will be configured separately later in this task. 
+> Although the **Create New User Profile service application** dialog requests information in the **My Site Host URL** and **Personal Site Location** sections, for this task, remove any default values and leave those fields blank when you create the User Profile service application. Additionally, you can select any of the options in **Site Naming Format**. These settings will be configured separately later in this task. 
   
 > [!NOTE]
 > This section only applies to SharePoint Server 2013. Optionally, configure profile synchronization if you want to synchronize user and group profile information that is stored in the SharePoint Server 2013 profile database with profile information that is stored in a directory service or business system. 
@@ -69,7 +69,7 @@ The My Site host site collection is a site collection that uses the Enterprise s
     
 2. In Central Administration, click **Application Management**, and then click **Create site collections**.
     
-3. On the **Create Site Collection** page, in the **Web Application** section, ensure that the selected web application is the web application that you want to host My Sites. If it is not, expand the list, and then click **Change Web Application**. In the **Select Web Application** dialog box, select a different web application. 
+3. On the **Create Site Collection** page, in the **Web Application** section, ensure that the selected web application is the web application that you want to host My Sites. If it is not, expand the list, and then click **Change Web Application**. In the **Select Web Application** dialog, select a different web application. 
     
 4. In the **Title and Description** section, type a title and description for the site collection. 
     
@@ -100,7 +100,7 @@ The wildcard inclusion managed path is the path under which separate site collec
     
 4. On the **Web Applications** tab, in the **Manage** group, click **Managed Paths**. 
     
-5. In the **Define Managed Paths** dialog box, in the **Add a New Path** section, in the **Path** box, type the path that you want to append to the URL namespace, and then select **Wildcard inclusion**. For example, if your web application URL is http://mysites.contoso.com/ and you want users' individual site collections created under a path named "personal", type personal in the **Path** box. Separate My Sites site collections will be created for each user under http://mysites.contoso.com/personal/. 
+5. In the **Define Managed Paths** dialog, in the **Add a New Path** section, in the **Path** box, type the path that you want to append to the URL namespace, and then select **Wildcard inclusion**. For example, if your web application URL is http://mysites.contoso.com/ and you want users' individual site collections created under a path named "personal", type personal in the **Path** box. Separate My Sites site collections will be created for each user under http://mysites.contoso.com/personal/. 
     
 6. Click **Add Path**, and then click **OK**.
     
@@ -125,7 +125,7 @@ Additionally, if you have other SharePoint sites from which you want users to be
     
 4. On the **Web Applications** tab, in the **Manage** group, click **Service Connections**. 
     
-5. In the **Configure Service Application Associations** dialog box, in the **Edit the following group of connections** list, select **default** if the default group contains the service applications that you want to connect to the web application. 
+5. In the **Configure Service Application Associations** dialog, in the **Edit the following group of connections** list, select **default** if the default group contains the service applications that you want to connect to the web application. 
     
   - If you choose **[Custom]**, select any service applications to which you want to connect the web application, including the User Profile service application, the managed metadata service application, and the Search service application.
     
@@ -148,7 +148,7 @@ Self-service site creation enables the automatic creation of a separate site col
     
 4. On the **Web Applications** tab, in the **Security** group, click **Self-Service Site Creation**. 
     
-5. In the **Self-Service Site Creation Management** dialog box, in **Site Collections**, select **On**. Optionally, in **Quota template to apply**, select a quota template.
+5. In the **Self-Service Site Creation Management** dialog, in **Site Collections**, select **On**. Optionally, in **Quota template to apply**, select a quota template.
     
 6. In **Start a Site** for SharePoint Server 2013 and 2016 or **Site Creation** in SharePoint Server 2019, any option may be selected, including hiding the Self-Service Site Creation process from the user.
     
@@ -158,7 +158,7 @@ Perform these additional steps to configure permissions for users to create team
   
 1. In the **Policy** group, click **Permission Policy.**
     
-2. On **Manage Permission Policy Levels** dialog box, click **Add Permission Policy Level.**
+2. On **Manage Permission Policy Levels** dialog, click **Add Permission Policy Level.**
     
 3. Type a name for the permission policy.
     
@@ -168,7 +168,7 @@ Perform these additional steps to configure permissions for users to create team
     
 6. In the **Policy** group, click **User Policy**.
     
-7. On **Policy for Web Application** dialog box, click **Add Users**.
+7. On **Policy for Web Application** dialog, click **Add Users**.
     
 8. On **Add Users**, in **Zones** select **(All Zones)**, then click **Next**.
     
@@ -320,7 +320,7 @@ User Profile service application administrators can add links to trusted My Site
 ### Configure links to Office client applications
 <a name="officelinks"> </a>
 
-Users' My Sites are convenient locations for users to save files that they work on in Office client applications, such as Word, Excel, and PowerPoint. After you configure an environment for My Sites, you can add a link to the **Favorite Links** section that users see when they save documents in the **Save As** dialog box in Office client applications. Users can then select their My Site and save files to the **Documents** library available on their My Site. 
+Users' My Sites are convenient locations for users to save files that they work on in Office client applications, such as Word, Excel, and PowerPoint. After you configure an environment for My Sites, you can add a link to the **Favorite Links** section that users see when they save documents in the **Save As** dialog in Office client applications. Users can then select their My Site and save files to the **Documents** library available on their My Site. 
   
  **To add a link to Office client applications**
   
@@ -342,14 +342,14 @@ Users' My Sites are convenient locations for users to save files that they work 
     
 8. In the **Description** box, type a brief name for this location. 
     
-    This is the name that will appear in the Favorite Links section of the Save As dialog box.
+    This is the name that will appear in the Favorite Links section of the Save As dialog.
     
 9. Select the type of the location that this link represents. For example, if the target location is a SharePoint document library, select **Document Library**.
     
 10. In the **Target Audiences** box, either type the name of the user or group to add or using the address book to find a user or group to add. Separate multiple user names or group names with a semicolon (;). You may also type All site users to select all users. 
     
     > [!NOTE]
-    > To use the address book, click the book icon. In the dialog box that appears, type all or part of a user's name, and then press ENTER. Scroll through the search results, and double-click the name of the user or users whom you want to add. Then click **OK**. 
+    > To use the address book, click the book icon. In the dialog that appears, type all or part of a user's name, and then press ENTER. Scroll through the search results, and double-click the name of the user or users whom you want to add. Then click **OK**. 
   
 11. Click **OK**. 
     

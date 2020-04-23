@@ -62,7 +62,7 @@ The procedure for mapping a crawled property to a refinable managed property is 
     
      ![Add A Mapping](../media/OTCSP_AddAMapping.png)
   
-5. In the **Crawled property selection** dialog box, use the **Search for crawled property name** field to search for the crawled property that you want to map to this refinable managed property. 
+5. In the **Crawled property selection** dialog, use the **Search for crawled property name** field to search for the crawled property that you want to map to this refinable managed property. 
     
     In our scenario, we knew we wanted to use the site column called  *Internal Writer*  . Crawled properties don't contain spaces. Therefore, we entered  *InternalWriter*  . 
     
@@ -183,7 +183,7 @@ To display custom refiners, here's what you should do:
     
      ![Default Refiner Date](../media/OTCSP_DefaultRefinerDate.png)
   
-    To display the refiner values in a more user-friendly way, in the **Refinement configuration** dialog box, from the **Display template** menu, we selected **Slider with bar graph**. In the **Dates** section, we selected **Last day, week, month, six months and year**. 
+    To display the refiner values in a more user-friendly way, in the **Refinement configuration** dialog, from the **Display template** menu, we selected **Slider with bar graph**. In the **Dates** section, we selected **Last day, week, month, six months and year**. 
     
      ![Configure Slider With Bar](../media/OTCSP_ConfigureSliderWithBar.png)
   
@@ -201,7 +201,7 @@ To display custom refiners, here's what you should do:
   
     Repeat this step for all your refinable managed properties.
     
-12. To save the configurations, click **OK** in the **Refinement configuration** dialog box, and then **OK** in the Web Part tool pane. 
+12. To save the configurations, click **OK** in the **Refinement configuration** dialog, and then **OK** in the Web Part tool pane. 
     
 13. Save the page.
     

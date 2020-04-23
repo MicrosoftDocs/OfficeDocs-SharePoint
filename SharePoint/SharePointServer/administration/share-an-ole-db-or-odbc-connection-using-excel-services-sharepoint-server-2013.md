@@ -33,9 +33,9 @@ Before you begin this task, review the following information about prerequisites
     
 - You must have at least Contribute permissions assigned in SharePoint Server 2013.
     
-- You will need information from a SharePoint administrator about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
+- You will need info from a SharePoint admin about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
     
-- You will need information about the data source that you want to use. In particular, you must know the data source name, user name, and password to connect to the data source.
+- You will need info about the data source that you want to use. In particular, you must know the data source name, user name, and password to connect to the data source.
     
 - If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
     
@@ -52,55 +52,55 @@ Use the following procedures to create OLE DB or ODBC data connections
   
  **To create a connection by using the Data Connection Wizard in Excel**
   
-1. In Excel, on the **Data** tab, in the **Get External Data** group, click **From Other Sources**, and then select **From Data Connection Wizard**.
+1. In Excel, on the **Data** tab, in the **Get External Data** group, select **From Other Sources**, and then select **From Data Connection Wizard**.
     
     The Data Connection Wizard opens.
     
-2. In the **What kind of data source do you want to connect to?** list, choose a data source, and then click **Next**.
+2. In the **What kind of data source do you want to connect to?** list, select a data source, and then select **Next**.
     
 3. Depending on the kind of data source that you selected, specify the necessary information for that data source.
     
     > [!TIP]
-    > The information that you specify varies according to the data source. For example, a Data Feed data source requires a link or location to a data feed and logon credentials, whereas an Excel workbook data source requires you to locate where the workbook is stored. Contact a database administrator for specific details regarding the connection that you want to create. 
+    > The info that you specify varies according to the data source. For example, a Data Feed data source requires a link or location to a data feed and logon credentials, whereas an Excel workbook data source requires you to locate where the workbook is stored. For specific details regarding the connection that you want to create, contact a database admin. 
   
-4. On the **Select Database and Table** page, in the **Select the database that contains the data that you want** list, select the database that you want to use. Do not click **Next** yet. 
+4. On the **Select Database and Table** page, in the **Select the database that contains the data that you want** list, select the database that you want to use. Do not select **Next** yet. 
     
-5. On the **Select Database and Table** page, select the table (or tables) that you want to use, and then click **Next**. 
+5. On the **Select Database and Table** page, select the table (or tables) that you want to use, and then select **Next**. 
     
 6. On the **Save Data Connection File and Finish** page, take the following steps: 
     
-1. In the **File Name** box, keep or change the default file name. 
+1. In the **File Name** box, keep or change the default filename. 
     
-2. In the **Description** box, type a brief description for the data connection. 
+2. In the **Description** box, enter a brief description for the data connection. 
     
-3. In the **Friendly Name** box, keep the default name or type a new name for file. 
+3. In the **Friendly Name** box, keep the default name, or enter a new name for file. 
     
-4. In the **Search Keywords** box, type some words or phrases that will help users find the data connection when it is published to SharePoint Server 2013. 
+4. In the **Search Keywords** box, enter some words or phrases that will help users find the data connection when it is published to SharePoint Server 2013. 
     
-5. Next to **Excel Services**, click **Authentication Settings…**.
+5. Next to **Excel Services**, select **Authentication Settings…**.
     
-6. Select **None**, and then click **OK**.
+6. Select **None**, and then select **OK**.
     
-7. Click **Finish** to close the **Save Data Connection File and Finish** page. 
+7. To close the **Save Data Connection File and Finish** page, select **Finish**. 
     
-7. On the **Import Data** page, click **Only Create Connection**, and then click **OK**.
+7. On the **Import Data** page, select **Only Create Connection**, and then select **OK**.
     
 8. Repeat steps 1-7 until you have created all the data connections that you want.
     
-If cannot create the connection that you want by using the Data Connection Wizard in Excel, you can try to create the connection by using a Microsoft Query wizard. This is useful for connecting to older databases. However, the connection that you create might not be supported in Excel Services. Contact a SharePoint administrator to verify that the connection that you create is supported so that people can refresh data in Excel Services files. The following procedure describes how to create a connection by using a Microsoft Query wizard.
+If you cannot create the connection that you want by using the Data Connection Wizard in Excel, you can try to create the connection by using a Microsoft Query wizard. This is useful for connecting to older databases. However, the connection that you create might not be supported in Excel Services. Contact a SharePoint admin to verify that the connection that you create is supported so that people can refresh data in Excel Services files. The following procedure describes how to create a connection by using a Microsoft Query wizard.
   
  **To create a connection by using a Microsoft Query wizard in Excel**
   
-1. In Excel, on the **Data** tab, in the **Get External Data** group, click **From Other Sources**, and then select **From Microsoft Query**.
+1. In Excel, on the **Data** tab, in the **Get External Data** group, select **From Other Sources**, and then select **From Microsoft Query**.
     
-    The Choose Data Source dialog box appears.
+    The **Choose Data Source** dialog appears.
     
-2. Use the **Databases**, **Queries**, or **OLAP Cubes** tab to specify the data source that you want to use. 
+2. To specify the data source that you want to use, select the **Databases**, **Queries**, or **OLAP Cubes** tab. 
     
     > [!TIP]
-    > The information that you specify varies according to the data source. For example, if you select an Access database or an Excel file, you'll be prompted to navigate to the database or file on your computer. Or, if you choose to use a data source that is not listed, you'll be prompted to create a data source and then specify the kind of data source, location, and credentials to connect to it. Contact a database administrator for specific details regarding the connection that you want to create. 
+    > The info that you specify varies according to the data source. For example, if you select an Access database or an Excel file, you'll be prompted to navigate to the database or file on your computer. Or, if you choose to use a data source that is not listed, you'll be prompted to create a data source and then specify the kind of data source, location, and credentials to connect to it. Contact a database administrator for specific details regarding the connection that you want to create. 
   
-3. On the **Import Data** page, click **Only Create Connection**, and then click **OK**.
+3. On the **Import Data** page, select **Only Create Connection**, and then select **OK**.
     
 4. Repeat steps 1-3 until you have created all the data connections that you want.
     
@@ -120,19 +120,19 @@ After data connections are created, the next step is to upload it to a data conn
     
     If you are using a Business Intelligence Center, the website address (URL) resembles http://servername/sites/bicenter.
     
-2. Click **Site Contents** to view the lists and libraries that are available for that site. 
+2. To view the lists and libraries that are available for that site, select **Site Contents**. 
     
-3. Click **Data Connections** to open that library. 
+3. To open that library, select **Data Connections**. 
     
-4. Click **New Item** to open the **Add a document** dialog box. 
+4. To open the **Add a document** dialog, select **New Item**. 
     
-5. Click **Browse** to open the **Choose File to Upload** dialog box. 
+5. To open the **Choose File to Upload** dialog, select **Browse**. 
     
-6. Assuming the data connection is saved in its default location, click **Libraries**, click **Documents**, and then double-click **My Data Sources**.
+6. Assuming the data connection is saved in its default location, select **Libraries**, then select **Documents**, and then double-click **My Data Sources**.
+
+7. Select the ODC file that you want to upload, and then select **Open**.
     
-7. Select the ODC file that you want to upload, and then click **Open**.
-    
-8. In the **Add a document** dialog box, click **OK**.
+8. In the **Add a document** dialog, select **OK**.
     
     A **Data Connections** form opens. 
     
@@ -140,15 +140,15 @@ After data connections are created, the next step is to upload it to a data conn
     
   - In the **Content Type** section, confirm that **Office Data Connection File** is selected. 
     
-  - In the **Name** box, keep or change the file name of the ODC file. 
+  - In the **Name** box, keep or change the filename of the ODC file. 
     
   - In the **Title** box, keep or change the title of the ODC file. 
     
-  - In the **Description** box, type a description of the data connection. 
+  - In the **Description** box, enter a description of the data connection. 
     
-  - In the **Keywords** box, type one or more words or phrases. This information is used by search queries to discover the data connection. 
+  - In the **Keywords** box, enter one or more words or phrases. This info is used by search queries to discover the data connection. 
     
-    Then click **Save**.
+    Select **Save**.
     
     The data connection is added to the library. Repeat this procedure for each data connection that you want to share.
     

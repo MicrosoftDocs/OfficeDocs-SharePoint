@@ -26,10 +26,10 @@ description: "Learn how admins can change the Featured links list on the SharePo
 
 # Add featured links to the SharePoint start page
 
- As a global or SharePoint admin in Office 365, you can feature the sites and content you want on the SharePoint start page by changing the **Featured links** list in the left pane. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
+ As a global or SharePoint admin in Microsoft 365, you can feature the sites and content you want on the SharePoint start page by changing the **Featured links** list in the left pane. To add links to a SharePoint Server page, see [Video: Add a link to a page](https://support.office.com/article/F9B329F9-67BB-4258-A686-9CD98415E7CA).
   
 > [!NOTE]
-> To learn more about the SharePoint start page, see [Find news, sites, and portals in Office 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 
+> To learn more about the SharePoint start page, see [Find news, sites, and portals in Microsoft 365](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220). 
   
 To view the SharePoint start page:
   
@@ -37,21 +37,20 @@ To view the SharePoint start page:
     
 2. Select SharePoint from the list of apps. 
     
-    ![Office 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
+    ![Microsoft 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
-    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Office 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top left corner of the page, and then select **SharePoint**.
+    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Microsoft 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top left corner of the page, and then select **SharePoint**.
     
-    ![Office 365 app list from app launcher button](media/c0e1bfcd-a6e0-416d-a3c1-687ec8d7e82b.png)
+    ![Microsoft 365 app list from app launcher button](media/c0e1bfcd-a6e0-416d-a3c1-687ec8d7e82b.png)
   
-Can't find the app you're looking for? From the app launcher, select **All apps** to see an alphabetical list of the Office 365 apps available to you. From there, you can search for a specific app. 
+Can't find the app you're looking for? From the app launcher, to see an alphabetical list of all the available Microsoft 365 apps, select **All apps**. From there, search for a specific app. 
   
-You'll see the **Featured links** list on the left side of the page. 
+On the left side of the page, a **Featured links** list appears. 
   
 ![Featured links list on the SharePoint start page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
   
 ## Add a link
 
-1. Click **Edit** at the top of the list. 
     
     ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
   
@@ -62,7 +61,7 @@ You'll see the **Featured links** list on the left side of the page.
     
     ![Featured links add selected](media/94b70b39-61a1-4a5b-9195-6c97832bb49e.png)
   
-3. Fill in the **Text to display** and **Address** in the **New link** dialog box. 
+3. Fill in the **Text to display** and **Address** in the **New link** dialog. 
     
     ![Adding a featured link](media/271749eb-7236-4349-b721-cad1d790ea7a.png)
   
@@ -87,7 +86,7 @@ You'll see the **Featured links** list on the left side of the page.
     
     ![Editing a featured link](media/c319922b-6d0c-45a2-8493-7fb4276256fb.png)
   
-3. Fill in the **Text to display** and **Address** in the **Edit link** dialog box. 
+3. Fill in the **Text to display** and **Address** in the **Edit link** dialog. 
     
     ![Editing featured link content](media/28ccfb5d-3992-4546-b36b-d6223f80f611.png)
   
@@ -125,7 +124,7 @@ You'll see the **Featured links** list on the left side of the page.
     
     ![Featured links with Delete highlighted](media/10a93009-9929-4102-b3b4-04aa318277ce.png)
   
-3. Click **Delete** in the confirmation dialog box. 
+3. Click **Delete** in the confirmation dialog. 
     
 4. To leave edit mode, click **Done** when you're finished. 
     

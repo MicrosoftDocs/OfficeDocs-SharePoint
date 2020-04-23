@@ -64,7 +64,7 @@ The Default zone is the zone that is first created when a web application is cre
     
 6. Right-click **Basic Authentication**, and then click **Edit**.
     
-7. In the **Edit Basic Authentication Settings** dialog box, in the **Default domain** text box, type the appropriate default domain. 
+7. In the **Edit Basic Authentication Settings** dialog, in the **Default domain** text box, type the appropriate default domain. 
     
     The default domain is the name of a domain against which you want users to be authenticated when they do not provide a domain name.
     
@@ -74,10 +74,10 @@ The Default zone is the zone that is first created when a web application is cre
     
 The web site is now configured to use basic authentication.
   
-You can also configure basic authentication when you create a web application in SharePoint Server Central Administration by selecting **Basic authentication (password is sent in clear text)** in the **Claims Authentication Types** section of the **Create New Web Application** dialog box. 
+You can also configure basic authentication when you create a web application in SharePoint Server Central Administration by selecting **Basic authentication (password is sent in clear text)** in the **Claims Authentication Types** section of the **Create New Web Application** dialog. 
   
 > [!SECURITY NOTE]
-> In the **Claims Authentication Types** section of the **Create New Web Application** dialog box, you can select **Integrated Windows authentication**, **Basic authentication (password is sent in clear text)**, or both. If you select both, SharePoint Server will offer both authentication types to the client web browser. The client web browser then determines the type of authentication to use. If you only select **Basic authentication (password is sent in clear text)**, make sure that you enable SSL for this web application. 
+> In the **Claims Authentication Types** section of the **Create New Web Application** dialog, you can select **Integrated Windows authentication**, **Basic authentication (password is sent in clear text)**, or both. If you select both, SharePoint Server will offer both authentication types to the client web browser. The client web browser then determines the type of authentication to use. If you only select **Basic authentication (password is sent in clear text)**, make sure that you enable SSL for this web application. 
   
 ## See also
 <a name="Section2"> </a>

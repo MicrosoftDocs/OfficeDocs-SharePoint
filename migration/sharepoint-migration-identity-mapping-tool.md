@@ -21,7 +21,7 @@ description: "Use the Identity Mapping feature of the SharePoint Migration Asses
 Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to assist in your Identity Migration.
   
 > [!NOTE]
-> To download the SharePoint Migration Tool, click here: [Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
+> To download the SharePoint Migration Tool, select: [Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
   
 ## Introduction
 
@@ -105,7 +105,7 @@ To generate the Identity Mapping Reports, you need to consent to allow assessmen
   
  **Option 1:** Run the assessment tool with the -ConfigureIdentityMapping switch. 
   
-This option will the SPO Identity Mapping tool to your tenant's Enterprise Applications section and allow anyone in your tenant to run the tool to perform identity mapping for migration in Office 365.
+This option will the SPO Identity Mapping tool to your tenant's Enterprise Applications section and allow anyone in your tenant to run the tool to perform identity mapping for migration in Microsoft 365.
   
 1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
     
@@ -116,7 +116,7 @@ This option will the SPO Identity Mapping tool to your tenant's Enterprise Appli
   
 3. When prompted with the Azure logon dialog, enter your Azure tenant admin credentials.
     
-4. When prompted for consent, click Accept.
+4. When prompted for consent, select **Accept**.
     
 5. The SMAT.exe application will indicate the application was successfully registered. A SharePoint admin is now able to run the identity mapping process.
     
@@ -132,7 +132,7 @@ It is possible for a user with Azure tenant admin rights to run the tool and onl
     
 3. When prompted with the Azure logon dialog, enter your Azure Tenant Admin credentials. 
     
-4. When prompted for consent, click OK. This will only consent the app for the logon provided. 
+4. When prompted for consent, select **OK**. This will only consent the app for the logon provided. 
     
 5. The identity mapping will run and generate the needed reports. 
     
@@ -142,13 +142,13 @@ Follow the steps below to remove consent for the SPO Identity Mapping Applicatio
   
 1. Browse https://portal.azure.com 
     
-2. Logon as a tenant admin.
+2. Log in as an organization admin.
     
 3. Locate Enterprise applications. 
     
-4. Click All applications. 
+4. Select **All applications**. 
     
-5. Select SPO Identity Mapping Tool in the list of applications and then click **Delete**. 
+5. In the list of applications, select **SPO Identity Mapping Tool**, and then select **Delete**. 
     
 ## Reports generated
 

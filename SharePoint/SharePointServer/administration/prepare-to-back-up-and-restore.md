@@ -69,7 +69,7 @@ Use this procedure to create a shared folder on the network that can receive and
     
 3. On the server on which you want to store the backup data, create a folder.
     
-4. On the **Sharing** tab of the **Properties** dialog box, click **Advanced Sharing**, and then click **Permissions**, add the following accounts and assign them Full Control of the shared folder:
+4. On the **Sharing** tab of the **Properties** dialog, click **Advanced Sharing**, and then click **Permissions**, add the following accounts and assign them Full Control of the shared folder:
     
    - SQL Server service account (MSSQLSERVER)
     

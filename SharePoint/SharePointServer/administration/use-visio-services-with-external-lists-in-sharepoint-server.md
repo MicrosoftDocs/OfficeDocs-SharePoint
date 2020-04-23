@@ -135,7 +135,7 @@ The following procedures describe how to create and configure an External Conten
     
 10. Select your data source type from the **Data Source Type** list. (This example assumes a SQL Server data source.) 
     
-11. In the **SQL Server Connection** dialog box: 
+11. In the **SQL Server Connection** dialog: 
     
   - In the **Database Server** box, type the name of your database server. 
     
@@ -209,7 +209,7 @@ The data from the external list is now available in Visio and you can link it to
     
 2. Click **Computer**, and then click **Browse**.
     
-3. Type the URL of the SharePoint document library in the location box at the top of the **Save As** dialog box, and then press Enter. 
+3. Type the URL of the SharePoint document library in the location box at the top of the **Save As** dialog, and then press Enter. 
     
 4. Type a file name, and then click **Save**.
     

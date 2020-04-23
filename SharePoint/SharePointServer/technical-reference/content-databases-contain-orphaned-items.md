@@ -34,11 +34,11 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Content 
     
 2. On the SharePoint Central Administration website, click **Monitoring**, in the **Health Analyzer** section, click **Review problems and solutions**.
     
-3. On the Review problems and solutions page, click the alert for the failing rule, and then click **Fix Now**. Keep the dialog box open so you can run the rule again to confirm the resolution.
+3. On the Review problems and solutions page, click the alert for the failing rule, and then click **Fix Now**. Keep the dialog open so you can run the rule again to confirm the resolution.
     
     > [!NOTE]
     > The Fix Now feature removes all orphans from the content database. 
   
-4. After following the steps in the **Remedy** section, in the **Review problems and solutions** dialog box for the alert, click **Re-analyze Now** to confirm the resolution. If the problem is resolved, the rule is not flagged as a failing rule on the Review problems and solutions page. 
+4. After following the steps in the **Remedy** section, in the **Review problems and solutions** dialog for the alert, click **Re-analyze Now** to confirm the resolution. If the problem is resolved, the rule is not flagged as a failing rule on the Review problems and solutions page. 
     
 

@@ -176,7 +176,7 @@ When you create a custom search vertical, the first thing that you must do is to
     
      ![Configure Search Navigation](../media/OTCSP_AddLink.png)
   
-8. In the **Navigation Link** dialog box, in the **Title** field, enter the search vertical title. This text will appear as the "tab" name on your search results page. 
+8. In the **Navigation Link** dialog, in the **Title** field, enter the search vertical title. This text will appear as the "tab" name on your search results page. 
     
     In our scenario, we entered  *Art*  . 
     
@@ -188,7 +188,7 @@ When you create a custom search vertical, the first thing that you must do is to
     
      ![URL Art](../media/OTCSP_URLArt.png)
   
-10. Click **OK** to close the **Navigation Link** dialog Box. 
+10. Click **OK** to close the **Navigation Link** dialog. 
     
 11. On the **Search Settings** page, in the **Configure Search Navigation** section, select the search verticals that you don't want to display, and then click **Delete**. 
     
@@ -212,11 +212,11 @@ When you create a custom search vertical, the first thing that you must do is to
   
 15. On your new search vertical page, select to edit the page, and then to edit the **Search Results Web Part**. 
     
-16. In the Web Part tool page, click **Change query**. This opens a dialog box. 
+16. In the Web Part tool page, click **Change query**. This opens a dialog. 
     
      ![Change Query](../media/OTCSP_ChangeQuery.png)
   
-17. In the **Build Your Query** dialog box, from the **Select a query** menu, select the result source that you created for this search vertical (what we did in the previous section). 
+17. In the **Build Your Query** dialog, from the **Select a query** menu, select the result source that you created for this search vertical (what we did in the previous section). 
     
     In our scenario, we selected  *Art result source (Site Collection)*  . 
     

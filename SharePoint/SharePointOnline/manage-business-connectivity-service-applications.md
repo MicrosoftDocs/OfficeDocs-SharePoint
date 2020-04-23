@@ -41,7 +41,7 @@ Object permissions apply only to a specific External System, BDC Model, or Exter
   
 To set object permissions for an object, follow these steps.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -138,7 +138,7 @@ To import a BDC Model, follow these steps:
   
 6. In the **File Type** section, select **Model** or **Resource** as the file type that you want to import. 
     
-7. In the **Advanced Settings** section, choose one or more of the following resources to import: 
+7. In the **Advanced Settings** section, select one or more of the following resources to import: 
     
 8. **Localized names** to import localized names for the ECTs in a particular locale. Imported localized names are merged with the existing localized names by Business Data Connectivity. 
     
@@ -163,25 +163,25 @@ To export a BDC Model or Resource file, follow these steps:
     
 3. Select **Manage BDC Models and External Content Types**.
     
-4. Select the drop down list and select **BDC Model** in the **View** group. 
+4. Select the dropdown, and in the **View** group, select **BDC Model**. 
     
-5. Select the name of the BDC Model that you want to export and then select **Export** in the ribbon. 
+5. Select the name of the BDC Model that you want to export, on the ribbon, select **Export**. 
     
 6. On the Business Data Connectivity Models page, select the model or resource file to export.
     
-7. On the Export page, in the **File Type** section, select **Model** or **Resource** to specify the type of file that you want to export. 
+7. On the Export page, in the **File Type** section, to specify the type of file that you want to export, select **Model** or **Resource**. 
     
-8. In the **Advanced Settings** section, select one or more of the following to further refine the data export. 
+8. In the **Advanced Settings** section, to further refine the data export, select one or more of the following: 
     
-  - Select **Localized names** to export localized names for the ECTs in a particular locale. 
+  - To export localized names for the ECTs in a particular locale, select**Localized names**. 
     
-  - Select **Properties** to export properties for ECTs. 
+  - To export properties for ECTs, select **Properties**. 
     
-  - Select **Permissions** to export permissions for ECTs. 
+  - To export permissions for ECTs, select **Permissions**. 
     
-  - Select **Proxies** to export an implementation-specific proxy that is used to connect to the external system. 
-    
-9. If you saved a file of resource settings for later use, type the name of the file to export in the **Use Custom Environment Settings** field. 
+  - To export an implementation-specific proxy that is used to connect to the external system, select **Proxies**.
+  . 
+9. If you saved a file of resource settings for later use, enter the name of the file to export in the **Use Custom Environment Settings** field. 
     
 10. Select **Export** to start a dialog that enables you to save a \*.bdcm file to your local drive. You can open the \*.bdcm file in a text editor. 
     
@@ -203,27 +203,27 @@ To add an action to an ECT, follow these steps.
     
 3. Select **Manage BDC Models and External Content Types**.
     
-4. Point to the name of the ECT to which you want to add an action, and then select the arrow that appears. From the menu, select **Add Action** to open the **Add Action** page. 
+4. Point to the name of the ECT to which you want to add an action, and then select the arrow that appears. From the menu, to open the **Add Action** page, select **Add Action**. 
     
 5. In the **Name** field, give the action a meaningful name. 
     
-6. In the URL field, enter the URL that you want the action to open.
+6. In the URL field, for the action you want to open, enter the URL.
     
     > [!NOTE]
     >  Under the control, you can find an example URL. The example shows how to add one (or more) parameter place-holders such as {0}, or {1} (http://www.adventure-works.com/sample.aspx?p0={0}&amp;p1={1} ). 
   
-7. If you want web parts on the site to be able to use this new action, choose one of the following options:
+7. If you want web parts on the site to be able to use this new action, select one of the following options:
     
 |**Command**|**Action**|
 |:-----|:-----|
 |Yes  <br/> |Starts the action in a new browser window (preserves the page context).  <br/> |
 |No  <br/> |Starts the action in the same browser window.  <br/> |
    
-8. In the **URL Parameters** field, specify any parameters that are required by the URL. Notice that these are numbered in the interface starting at 0. 
+8. In the **URL Parameters** field, specify any parameters that are required by the URL. These are numbered in the interface starting at 0. 
     
 9. Decide if you want to use an **Icon** or not. This field also allows you to use Standard icons. 
     
-10. If you want the action to be the default action, select the Default Action check box.
+10. If you want the action to be the default action, select the **Default Action** check box.
     
     > [!IMPORTANT]
     >  Parameters can contain personally identifying information such as names and Social Security numbers. When you design an action, be careful not to use fields that display personally identifying information. 
@@ -318,7 +318,7 @@ The **BDC Model** view offers ribbon commands that enable you to import or expor
   
 ![A graphic of the BDC Models view ribbon in SPO's BCS.](media/4c5e8df9-32fc-4233-a8d8-b0b54f25547a.png)
   
-If you want to see all the ECTs for a BDC Model, you just select the name of the Model. Then, if you select the name of an ECT, you open a table that shows the fields that are defined for the ECT. It resembles the following table.
+If you want to see all the ECTs for a BDC Model, select the name of the Model. If you select the name of an ECT, open a table that shows the fields that are defined for the ECT. It resembles the following table.
   
 |**Name**|**Type**|**Display by Default**|
 |:-----|:-----|:-----|
@@ -328,4 +328,4 @@ If you want to see all the ECTs for a BDC Model, you just select the name of the
    
 This display can closely mirror the layout of the data source connected via an ECT, and give better insight into the structure of the underlying data.
   
-Also, the page displays any Associations, Actions, or Filters for this ECT at the bottom of the page.
+Also, at the bottom of the page, any Associations, Actions, or Filters for this ECT appear.

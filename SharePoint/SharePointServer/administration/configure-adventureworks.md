@@ -90,7 +90,7 @@ Use the following procedure to download and deploy the AdventureWorks2012 databa
     
 5. Right-click **Databases**, and then click **Attach**.
     
-6. On the **Attach Databases** dialog box, click **Add**.
+6. On the **Attach Databases** dialog, click **Add**.
     
 7. Navigate to the location where you copied AdventureWorks2012_Data.mdf, select the file, and then click **OK**.
     
@@ -117,7 +117,7 @@ Use the following procedure to download and deploy the AdventureWorksDW2012 data
     
 5. Right-click **Databases**, and then click **Attach**.
     
-6. On the **Attach Databases** dialog box, click **Add**.
+6. On the **Attach Databases** dialog, click **Add**.
     
 7. Navigate to the location where you copied AdventureWorksDW2012_Data.mdf, select the file, and then click **OK**.
     
@@ -224,7 +224,7 @@ Once you have configured the login for the Analysis Services service account, th
     
 3. In the **Enterprise** folder, double-click AdventureWorksDW2012Multidimensional-EE.sln. 
     
-4. If the **Choose Default Environment Settings** dialog box appears, choose the **Business Intelligence Settings** option, and then click **Start Visual Studio**.
+4. If the **Choose Default Environment Settings** dialog appears, choose the **Business Intelligence Settings** option, and then click **Start Visual Studio**.
     
 5. In Visual Studio, at the top of the **Solution Explorer** window, right click **AdventureWorksDW2012Multidimensional-EE** and click **Deploy**.
     
@@ -257,7 +257,7 @@ Use the following procedure to grant access to the AdventureWorks databases. If 
     
 5. If you are using an Active Directory group, click **Object Types**, select the **Groups** check box, and then click **OK**.
     
-6. On the **Select User or Group** dialog box, type the name of the Active Directory group or user to whom you want to grant database access, and then click **OK**.
+6. On the **Select User or Group** dialog, type the name of the Active Directory group or user to whom you want to grant database access, and then click **OK**.
     
 7. Under **Select a page**, click **User Mapping**.
     
@@ -291,7 +291,7 @@ Use the following procedure to grant access to the AdventureWorks OLAP cube.
     > [!NOTE]
     > If you will be using Secure Store or an unattended service account to access the cube, include those credentials here. 
   
-8. On the **Select Users or Groups** dialog box, click **OK**.
+8. On the **Select Users or Groups** dialog, click **OK**.
     
 9. In the **Select a page** pane, click **Cubes**.
     

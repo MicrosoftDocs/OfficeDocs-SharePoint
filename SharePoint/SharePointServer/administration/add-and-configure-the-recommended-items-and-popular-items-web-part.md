@@ -60,9 +60,9 @@ Here are the steps to configure the RIWP:
     
      ![Edit WP](../media/OTCSP_EditWP.png)
   
-3. In the Web Part tool pane, select **Change query**. This opens a dialog box. 
+3. In the Web Part tool pane, select **Change query**. This opens a dialog. 
     
-4. In the **Build Your Query** dialog box, select the following: 
+4. In the **Build Your Query** dialog, select the following: 
     
   - In the **Get recommended items for** section, select **A token from the URL** and then select from which URL value that you want to get recommendations. In our Contoso scenario, we want to get recommendations from **{URL.Token.2} (number)**. 
     
@@ -181,7 +181,7 @@ In our Contoso scenario, we'll show the PIWP above the CSWP.
     
      ![Edit PIWP](../media/OTCSP_EditPIWP.png)
   
-3. In the Web Part tool pane, select **Change query**. This will open a dialog box. 
+3. In the Web Part tool pane, select **Change query**. This will open a dialog. 
     
 4. In the **Restrict by app** section, select **Specify a URL** and enter the URL of your Authoring site. 
     

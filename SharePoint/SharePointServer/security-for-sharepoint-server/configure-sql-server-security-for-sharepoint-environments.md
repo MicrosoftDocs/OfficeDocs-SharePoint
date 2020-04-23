@@ -125,7 +125,7 @@ To access a SQL Server instance through a firewall, you must configure the firew
     
 2. In **Control Panel**, open **System and Security**.
     
-3. Click **Windows Firewall**, and then click **Advanced Settings** to open the **Windows Firewall with Advanced Security** dialog box. 
+3. Click **Windows Firewall**, and then click **Advanced Settings** to open the **Windows Firewall with Advanced Security** dialog. 
     
 4. In the navigation pane, click **Inbound Rules** to display the available options in the **Actions** pane. 
     
@@ -134,7 +134,7 @@ To access a SQL Server instance through a firewall, you must configure the firew
 6. Use the wizard to complete the steps that are required to allow access to the port that you defined in [Configuring a SQL Server instance to listen on a non-default port](#proc1).
     
     > [!NOTE]
-    > You can configure the Internet Protocol security (IPsec) to help secure communication to and from your computer that is running SQL Server by configuring the Windows firewall. You do this by selecting **Connection Security Rules** in the navigation pane of the Windows Firewall with Advanced Security dialog box. 
+    > You can configure the Internet Protocol security (IPsec) to help secure communication to and from your computer that is running SQL Server by configuring the Windows firewall. You do this by selecting **Connection Security Rules** in the navigation pane of the Windows Firewall with Advanced Security dialog. 
   
 ## Configuring SQL Server client aliases
 <a name="proc4"> </a>
@@ -157,7 +157,7 @@ If you block UDP port 1434 or TCP port 1433 on the computer that is running SQL 
     
 5. In the main window under Items, right-click **Aliases**, and select **New Alias**.
     
-6. In the **Alias - New** dialog box, in the **Alias Name** field, enter a name for the alias. For example, enter SharePoint  __alias_.
+6. In the **Alias - New** dialog, in the **Alias Name** field, enter a name for the alias. For example, enter SharePoint  __alias_.
     
 7. In the **Port No** field, enter the port number for the database instance. For example, enter 40000. Make sure that the protocol is set to TCP/IP. 
     
