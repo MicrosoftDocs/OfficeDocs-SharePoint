@@ -14,6 +14,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 2cd8f257-c29b-423d-8265-d44e6214d095
+ms.custom: seo-marvel-apr2020
 description: "View usage reports and search reports and see how often your users search, what their top queries are, and which queries they're having trouble getting answers for. Usage analytics and search analytics replace the discontinued web analytics from previous versions of SharePoint."
 ---
 
@@ -59,7 +60,7 @@ This article describes how you can use search reports in the SharePoint admin ce
 |Query Rule Usage by Day  <br/> |This report shows how often query rules trigger, how many dictionary terms they use, and how often users click their promoted results. Use this report to see how useful your query rules and promoted results are to users.  <br/> |
 |Query Rule Usage by Month  <br/> |This report shows how often query rules trigger, how many dictionary terms they use, and how often users click their promoted results. Use this report to see how useful your query rules and promoted results are to users.  <br/> |
    
-## See also
+## Related topics
 <a name="__top"> </a>
 
 [Office 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage)
