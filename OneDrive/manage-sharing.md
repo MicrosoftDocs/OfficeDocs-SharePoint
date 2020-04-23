@@ -29,6 +29,8 @@ To manage the OneDrive sharing settings for your organization, use the [**Sharin
 
 To learn more, see [Manage sharing settings](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
 
+To learn how to change the external sharing setting of an individual user's OneDrive, see [Change the external sharing setting for a user's OneDrive](user-external-sharing-settings.md). For info about how to share a file or folder in OneDrive, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07#BKMK_BusinessTab).
+
 > [!NOTE]
 > Some sharing settings exist in multiple admin centers. For example, the SharePoint setting on the [**Settings page** in the Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home#/SettingsMultiPivot) is the same as the SharePoint external sharing setting in the OneDrive admin center and the new SharePoint admin center. When you change sharing settings, make sure you communicate the changes with any other admins in your organization. 
 
