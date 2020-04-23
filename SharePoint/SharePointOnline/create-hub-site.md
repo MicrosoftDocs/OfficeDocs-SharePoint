@@ -13,8 +13,7 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
-ms.custom:
-- seo-marvel-apr2020
+ms.custom: seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
@@ -55,7 +54,7 @@ If you're a global or SharePoint admin in Office 365, you can convert any existi
 
 
     
-## See also
+## Related topics
 
 - For info about using a site design that gets applied when sites join the hub, see [Set up a site design for your hub site](set-up-site-design-hub-site.md). For more info about site designs and site scripts, see [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview).
 

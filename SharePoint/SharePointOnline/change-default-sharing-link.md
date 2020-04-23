@@ -11,7 +11,7 @@ ms.topic: article
 ms.custom:
 - 'WSSCentralAdmin_SharingLinkTypeLearnMore'
 - 'SharingLinkTypeLearnMore'
-- seo-marvel-arp2020
+- 'seo-marvel-apr2020'
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  
@@ -66,6 +66,6 @@ For info about the changing this setting at the organization level, see [File an
 > [!NOTE]
 > You can set the default link type to *People with existing access* by running [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) with the `-DefaultLinkToExistingAccess` parameter.
 
-## See also
+## Related topics
 
 [Turn external sharing on or off for a site](change-external-sharing-site.md)

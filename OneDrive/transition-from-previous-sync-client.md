@@ -35,7 +35,7 @@ If you're not an IT admin, to learn how to begin syncing files using the new One
 > If your organization never used the previous OneDrive for Business sync app, or had fewer than 250 licensed Office 365 users in June 2016, your users are already using the new OneDrive sync app to sync files in OneDrive and SharePoint.
   
   
-## Overview
+## Syncing files with OneDrive for Business sync app to OneDrive sync app 
 
 When users who are syncing files with the previous OneDrive for Business sync app (Groove.exe) sign in to the new OneDrive sync app (OneDrive.exe), the following things happen:
   

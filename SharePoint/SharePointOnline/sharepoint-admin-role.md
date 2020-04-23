@@ -63,7 +63,7 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 
     
   
-## See also
+## Related topics
 <a name="BK_KeyTasks"> </a>
 
 [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles)
