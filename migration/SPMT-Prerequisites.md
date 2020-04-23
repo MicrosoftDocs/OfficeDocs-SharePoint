@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article is a resource where you can find prerequisites and endoint information for the SharePoint Migration Tool."
+description: "This article is a resource where you can find prerequisites and endpoint information for the SharePoint Migration Tool."
 ---
 # Prerequisites & Endpoints for the SharePoint Migration Tool</br>
 
