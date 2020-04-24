@@ -47,7 +47,7 @@ description: "This article is a resource where you can find prerequisites and en
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
 
 
-## Required Endpoints
+## Required endpoints
 
 The following table lists the required endpoints for using the SharePoint Migration Tool.</br>
 
