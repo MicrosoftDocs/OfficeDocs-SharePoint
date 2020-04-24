@@ -44,20 +44,9 @@ Make sure you have met the installation requirements for installing an agent on 
 If you are on a **worldwide consumer cloud** or **GCC** government cloud, you must first take these steps:
 
 1. Open microsoft.sharepoint.migration.common.dll.config.
-2. Change the value of **SPOEnvironmentType** to:
+2. Change the value of **SPOEnvironmentType** to **0** if you use the Worldwide consumer cloud or GCC.
+3. Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 
-     - **0** if you use the Worldwide consumer cloud or GCC 
-
-    </br>For example:
-  
-    ![Change SPOEnvironmentType](media/gov-cloud-setting.png)
-
-3.  Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
-
-
->[!Note]
->**0** = Worldwide consumer cloud and GCC</br>
-</br>
 
 ## Install errors
 
