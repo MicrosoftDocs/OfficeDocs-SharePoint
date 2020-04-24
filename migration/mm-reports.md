@@ -27,15 +27,15 @@ These reports can be viewed while the migration is taking place or after the job
   
  **Viewing task level reports:**
   
-1. After the migration has begun, click **View reports**.
+1. To see the report on a task, the task name from the list. A panel will appear to the right.
     
-2. A file folder will open listing the task level reports that have been generated for that specific task.
+2. Select **Download task report**. The report will download after the task is complete.
     
  **Viewing summary reports:**
-  
-1. After migration completes, click **Migration details**.
+ 
+1. Select one or more completed tasks from the list. Click **Summary report**.
      
-2. A folder with the summary reports opens.
+2. An aggregate summary report will be downloaded to your computer.
     
 ## Summary Reports
 
