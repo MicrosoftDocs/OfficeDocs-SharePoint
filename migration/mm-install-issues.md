@@ -22,10 +22,10 @@ description: "Troubleshoot common installation issues in Migration Manager."
 If you are having trouble installing the agent file on your computers, this article provides information on the possible causes and steps to correct the problem.
 
 
-## Make sure your computer meets the installation prerequisites
+## Agent installation prerequisites
 
+Make sure you have met the installation requirements for installing an agent on your computer or virtual machine.
 
-**Prerequisites**
 
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
@@ -39,7 +39,7 @@ If you are having trouble installing the agent file on your computers, this arti
 |Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |</br>
 
 
-### Government cloud support
+## Government cloud support
 
 If you are on a **worldwide consumer cloud** or **GCC** government cloud, you must first take these steps:
 
@@ -59,7 +59,7 @@ If you are on a **worldwide consumer cloud** or **GCC** government cloud, you mu
 >**0** = Worldwide consumer cloud and GCC</br>
 </br>
 
-## **Install errors**
+## Install errors
 
 |**Error**|**Suggested action**|
 |:-----|:-----|
