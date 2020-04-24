@@ -1,5 +1,5 @@
 ---
-title: "Prerequisites for SharePoint Migration Tool"
+title: "Prerequisites and Endpoints for SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,9 +15,9 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article is a resource where you can find prerequisites information for the SharePoint Migration Tool"
+description: "This article is a resource where you can find prerequisites and endoint information for the SharePoint Migration Tool."
 ---
-# Prerequisites for the SharePoint Migration Tool</br>
+# Prerequisites & Endpoints for the SharePoint Migration Tool</br>
 
 
 ## Recommended requirements for best performance
@@ -33,7 +33,7 @@ description: "This article is a resource where you can find prerequisites inform
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
 
 </br>
-</br>
+
 
 ### Minimum requirements (expect slow performance)
 
@@ -45,6 +45,34 @@ description: "This article is a resource where you can find prerequisites inform
 |Network card|High-speed Internet connection|
 |Operating system|Windows Server 2008 R2, Windows 7 updated or better  <br/> .NET Framework 4.6.2|
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
+
+
+## Required Endpoints
+
+The following table lists the required endpoints for using the SharePoint Migration Tool.</br>
+
+
+|**Required Endpoint**|**Why**|
+|:-----|:-----|
+|https://<span><span>secure.aadcdn.microsoftonline-p.<span><span>com|Authentication|
+|https://<span><span>login.microsoftonline.<span><span>com|Authentication|
+|https://<span><span>api.office.<span><span>com|Microsoft 365 APIs for content move and validation|
+|https://<span><span>graph.windows.<span><span>net|Microsoft 365 APIs for content move and validation|
+|https://<span><span>spmtreleasescus.blob.core.windows.<span><span>net|Installation|
+|https://<span><span>*.queue.core.windows.<span><span>net|Migration API Azure requirement|
+|https://<span><span>*.blob.core.windows.<span><span>net|Migration API Azure requirement|
+|https://<span><span>*.pipe.aria.microsoft.<span><span>com|Telemetry/update|
+|https://<span><span>*.sharepoint.<span><span>com|Destination for migration|
+|https://<span><span>*.blob.core.usgovcloudapi.<span><span>net|Migration API Azure Government requirement|
+|https://<span><span>*.queue.core.usgovcloudapi.<span><span>net|Migration API Azure Government requirement|
+|https://<span><span>spoprod-a.akamaihd.<span><span>net|UI icons|
+|https://<span><span>static2.sharepointonline.<span><span>com|UI icons|
+
+
+
+
+
+
    
 
 
