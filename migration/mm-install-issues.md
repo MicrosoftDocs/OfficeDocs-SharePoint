@@ -22,7 +22,7 @@ description: "Troubleshoot common installation issues in Migration Manager."
 If you are having trouble installing the agent file on your computers, this article provides information on the possible causes and steps to correct the problem.
 
 
-## **Make sure your computer meets the installation prerequisites**
+## Make sure your computer meets the installation prerequisites
 
 
 **Prerequisites**
@@ -68,8 +68,6 @@ If you are on a **worldwide consumer cloud** or **GCC** government cloud, you mu
 </br></br>
 
 ## Required Endpoints
-
-The following table lists the required endpoints for using the SharePoint Migration Tool.</br>
 
 
 |**Required Endpoint**|**Why**|
