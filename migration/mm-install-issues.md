@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Migration Manager installation issues
+title: Migration Manager - Troubleshooting installation issues
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
