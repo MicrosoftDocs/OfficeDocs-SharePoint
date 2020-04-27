@@ -19,7 +19,8 @@ search.appverid:
 - BSA160
 
 ms.assetid: 5ae550c4-bd20-4257-847b-5c20fb053622
-description: "Learn how to block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain."
+description: Learn how to block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Control access from unmanaged devices
