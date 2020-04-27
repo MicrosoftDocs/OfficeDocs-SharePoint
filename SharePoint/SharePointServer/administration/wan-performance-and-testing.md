@@ -38,7 +38,7 @@ SharePoint Server 2013 is optimized to perform well over WAN connections. This a
 
 SharePoint Server 2013 responds to incoming requests 50% faster the previous version. It utilizes available bandwidth between the server and the client almost 40% more efficiently than the previous version. These performance gains were quantified in Microsoft's environment with the busiest SharePoint farms in the world. 
   
-A Microsoft Office 365 environment demands higher levels of performance over WAN connections because many customers are geographically distributed. As a result, Office 365 was extensively tested under WAN conditions. Testing scenarios included latencies up to 300 milliseconds, which is much higher than latencies between the North America and Asia.
+A Microsoft 365 environment demands higher levels of performance over WAN connections because many customers are geographically distributed. As a result, Microsoft 365 was extensively tested under WAN conditions. Testing scenarios included latencies up to 300 milliseconds, which is much higher than latencies between the North America and Asia.
   
 To achieve up to 40% improvement in the use of available bandwidth (compared to the previous version), optimizations were targeted to various layers of the network stack:
   

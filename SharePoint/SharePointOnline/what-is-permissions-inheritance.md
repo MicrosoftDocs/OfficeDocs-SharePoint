@@ -17,7 +17,7 @@ description: "What is permissions inheritance in SharePoint."
 
 # Permissions inheritance in SharePoint
 
-While SharePoint allows considerable customization of site permissions, including changing inheritance, we highly recommend not breaking inheritance. Use the built-in SharePoint groups for communication sites and manage team site permissions through the associated Office 365. Use sharing links to share individual files and folders with people outside the site. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience,see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+While SharePoint allows considerable customization of site permissions, including changing inheritance, we highly recommend not breaking inheritance. Use the built-in SharePoint groups for communication sites and manage team site permissions through the associated Microsoft 365. Use sharing links to share individual files and folders with people outside the site. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience,see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
 
 ## What is permissions inheritance?
 
@@ -47,7 +47,7 @@ However, some scenarios have different requirements. In one scenario, you might 
   
 Let's look at examples of these different scenarios.
   
-Suppose that you have a book distribution company called Litware, and that you subscribe to Office 365. You create a SharePoint site named www.litware.com. This is the site collection root. At the site collection root, you set up SharePoint groups, assign permission levels, and add users to the groups.
+Suppose that you have a book distribution company called Litware, and that you subscribe to Microsoft 365. You create a SharePoint site named www.litware.com. This is the site collection root. At the site collection root, you set up SharePoint groups, assign permission levels, and add users to the groups.
   
 Suppose then that you create subsites, such as www.Litware.com/BookAwards and www.litware.com/Bestsellers, and that these subsites contain more subsites.
   
@@ -78,4 +78,4 @@ In this scenario, suppose that Jane is an editor in your Local Books division. J
   
 Jane has a simple solution - she can just share the document together with the author by clicking a command on the ribbon. SharePoint automatically handles all the details of permissions and access, by breaking inheritance on the document itself. Now, the local author can browse the site to the document location and access the document, but can't view or access any other information on the site.
   
-For more information about inviting an external user to use information on your site, see [Share SharePoint files or folders in Office 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).
+For more info about inviting an external user to use information on your site, see [Share SharePoint files or folders in Microsoft 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).

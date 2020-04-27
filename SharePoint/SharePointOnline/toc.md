@@ -54,7 +54,7 @@
 ### [Per-machine installation](/onedrive/per-machine-installation)
 ### [Use silent account configuration](/onedrive/use-silent-account-configuration)
 ### [Use Group Policy](/onedrive/use-group-policy)
-### [Find your tenant ID](/onedrive/find-your-office-365-tenant-id)
+### [Find your organization ID](/onedrive/find-your-office-365-tenant-id)
 ### [Set Files On-Demand states](/onedrive/files-on-demand-mac)
 ### [Sync app update process](/onedrive/sync-client-update-process)
 ### [Let users sync IRM-protected files](let-users-sync-irm-protected-files.md)

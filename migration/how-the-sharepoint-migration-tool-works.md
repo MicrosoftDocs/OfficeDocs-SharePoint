@@ -1,5 +1,5 @@
 ---
-title: "How the SharePoint Migration Tool works"
+title: "How does the SharePoint Migration Tool work? - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,13 +15,15 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid: MET150
-description: "The SharePoint Migration Tool provides a wizard-like experience, prompting you for information to simplify migrating your data from your on-premises SharePoint Server document libraries and local file shares to SharePoint Online (SPO)."
+description: The SharePoint Migration Tool simplifies migrating your data from on-premises SharePoint Server document libraries and local file shares to SharePoint Online.
 ---
 
 # How the SharePoint Migration Tool works
 
- The SharePoint Migration Tool authenticates to the destination tenant after which you are prompted for the source file location and destination SPO site collection where you want the files to be migrated. After you submit the migration jobs by clicking **Migrate**, the scanning, packaging, uploading, and importing steps are performed in parallel across all the files provided for migration.
+ The SharePoint Migration Tool authenticates to the destination tenant after which you are prompted for the source file location and destination SPO site collection where you want the files to be migrated. After you submit the migration jobs by selecting **Migrate**, the scanning, packaging, uploading, and importing steps are performed in parallel across all the files provided for migration.
  
 >[!Note]
 > Use a Site Collection administrator account on the target SharePoint Online site when prompted for credentials.
@@ -40,7 +42,7 @@ description: "The SharePoint Migration Tool provides a wizard-like experience, p
 > If multiple authentication methods, including NTLM or Kerberos, are enabled in the on-premises SharePoint Web Application, NTLM and Kerberos authentication are not supported by the SharePoint Migration Tool. Please use a secondary form of authentication or convert the Web Application to use NTLM and/or Kerberos authentication only.<br>
 <br>
     
-**SCAN**: After you click **Migrate**, a scan will always be performed on every file, even if you decide not to migrate your files (see Advanced Settings). The scan verifies that there is access to the data source and write access to the SharePoint Online destination. It also scans the files for known potential issues.<br>
+**SCAN**: After you select **Migrate**, a scan will always be performed on every file, even if you decide not to migrate your files (see Advanced Settings). The scan verifies that there is access to the data source and write access to the SharePoint Online destination. It also scans the files for known potential issues.<br>
 
 **PACKAGING:** In the packaging stage, a content package is created that contains a manifest.<br>
  
@@ -70,5 +72,5 @@ If your key is lost or obtained by someone else, there are two defenses in place
 > Only those who have the key have access to the container. Other users in the subscription or the tenant do not have access. 
   
 >[!NOTE]
->The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German data center. 
+>The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Microsoft 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German data center. 
 

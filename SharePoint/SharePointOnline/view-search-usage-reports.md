@@ -14,7 +14,8 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 2cd8f257-c29b-423d-8265-d44e6214d095
-description: "View usage reports and search reports and see how often your users search, what their top queries are, and which queries they're having trouble getting answers for. Usage analytics and search analytics replace the discontinued web analytics from previous versions of SharePoint."
+description: Learn about usage analytics and search analytics, which enable you to view usage and search reports to see how often your users search, and their top queries.
+ms.custom: seo-marvel-apr2020
 ---
 
 # View search usage reports
@@ -34,16 +35,16 @@ This article describes how you can use search reports in the SharePoint admin ce
 ## To view a report
 <a name="__top"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
 2. Under **Search**, select **Open**.
 
-3. Choose **View Usage Reports**.
+3. Select **View Usage Reports**.
     
-4. Click a link on the page to retrieve a report. The report opens in an Excel spreadsheet or in another program that you can find online.
+4. To retrieve a report, select a link on the page. The report opens in an Excel spreadsheet or in another program that you can find online.
     
 ### Overview of search reports
 
@@ -62,7 +63,7 @@ This article describes how you can use search reports in the SharePoint admin ce
 ## See also
 <a name="__top"> </a>
 
-[Office 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage)
+[Microsoft 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage)
   
-[Office 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity)
+[Microsoft 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity)
 

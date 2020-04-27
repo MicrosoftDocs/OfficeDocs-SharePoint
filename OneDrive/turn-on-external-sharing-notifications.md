@@ -36,7 +36,7 @@ To help your OneDrive users monitor and control which external users have access
 If external sharing is enabled in your organization, these notifications are enabled by default.
   
 > [!NOTE]
-> Office 365 admins can use [Search the audit log in the Office 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) to monitor content that is shared externally. 
+> Admins can use [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) to monitor content that is shared externally.
   
 ## Turn on external sharing notifications
 

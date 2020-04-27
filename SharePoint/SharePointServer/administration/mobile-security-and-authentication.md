@@ -86,7 +86,7 @@ SharePoint Server 2013 supports multiple authentication methods and authenticati
     
 - Determine whether you want to make SharePoint sites available for mobile devices when the devices are used outside the corporate firewall. If you do, the method that you use to enable external access can also affect mobile device authentication.
     
-The following tables detail the authentication types supported for browsers, OneDrive for Business, and the Office Hub Windows Phone experience in SharePoint Server 2013. For the below, OrgID refers to Microsoft Online Services ID, the identity provider for Office 365. Also, MSOFBA refers to Microsoft Office Forms Based Authentication. 
+The following tables detail the authentication types supported for browsers, OneDrive for Business, and the Office Hub Windows Phone experience in SharePoint Server 2013. For the below, OrgID refers to Microsoft Online Services ID, the identity provider for Microsoft 365. Also, MSOFBA refers to Microsoft Office Forms Based Authentication. 
   
 **Table: Mobile authentication support for SharePoint browsers**
 
@@ -103,17 +103,17 @@ The following tables detail the authentication types supported for browsers, One
 
 |**Authentication type**|**Description**|**Supported**|**Administrator type required for configuration**|
 |:-----|:-----|:-----|:-----|
-|**Org-ID** <br/> |Organizations with an Office 365 or SharePoint Online tenant without any federation.  <br/> |Yes  <br/> |Global admin  <br/> |
-|**ADFS and Org-ID federation** <br/> |Organizations with a hybrid Office 365 or SharePoint Online tenant with users federated from an on-premises directory.  <br/> |Yes  <br/> |Global admin plus the on-premises network administrator plus the SharePoint administrator  <br/> |
-|**Windows authentication (NTLM)** <br/> |Organizations with a SharePoint environment configured to allow NTLM claims-based Windows authentication.  <br/> |Yes  <br/> |SharePoint administrator  <br/> |
-|**Forms-based authentication (FBA)** <br/> |Organizations with a SharePoint environment configured to allow Forms-based authentication or other compatible claims-based authentication via a standard web control.  <br/> |Yes  <br/> |SharePoint administrator  <br/> |
-|**Qualified non-ADFS identity providers** <br/> |Organizations with an Office 365 or SharePoint Online environment configured to allow user sign-in that is federated with an identity provider qualified for rich clients in the [Works with Office 365 - Identity program](https://go.microsoft.com/fwlink/p/?LinkId=511982).  <br/> |Yes  <br/> |SharePoint administrator plus the on-premises Network administrator or Global admin (in some organizations the Global admin is a requirement, not an option.)  <br/> |
-|**All other non-ADFS identity providers** <br/> |Organizations with a SharePoint environment configured to allow a non-ADFS identity provider.  <br/> |No  <br/> |SharePoint administrator plus the on-premises network administrator  <br/> |
-|**Kerberos authentication** <br/> |Organizations with a SharePoint environment configured to support Kerberos authentication.  <br/> |No  <br/> |SharePoint administrator plus the on-premises network administrator  <br/> |
-|**Basic authentication** <br/> |Organizations with a SharePoint environment configured to support Basic authentication.  <br/> |No  <br/> |SharePoint administrator plus the on-premises network administrator  <br/> |
+|**Org-ID** <br/> |Organizations with a Microsoft 365 or SharePoint Online organization without any federation.  <br/> |Yes  <br/> |Global admin  <br/> |
+|**ADFS and Org-ID federation** <br/> |Organizations with a hybrid Microsoft 365 or SharePoint Online organization with users federated from an on-premises directory.  <br/> |Yes  <br/> |Global admin plus the on-premises network administrator plus the SharePoint admin  <br/> |
+|**Windows authentication (NTLM)** <br/> |Organizations with a SharePoint environment configured to allow NTLM claims-based Windows authentication.  <br/> |Yes  <br/> |SharePoint admin  <br/> |
+|**Forms-based authentication (FBA)** <br/> |Organizations with a SharePoint environment configured to allow Forms-based authentication or other compatible claims-based authentication via a standard web control.  <br/> |Yes  <br/> |SharePoint admin  <br/> |
+|**Qualified non-ADFS identity providers** <br/> |Organizations with a Microsoft 365 or SharePoint Online environment configured to allow user sign-in that is federated with an identity provider qualified for rich clients in the [Works with Microsoft 365 - Identity program](https://go.microsoft.com/fwlink/p/?LinkId=511982).  <br/> |Yes  <br/> |SharePoint admin plus the on-premises Network administrator or Global admin (in some organizations the Global admin is a requirement, not an option.)  <br/> |
+|**All other non-ADFS identity providers** <br/> |Organizations with a SharePoint environment configured to allow a non-ADFS identity provider.  <br/> |No  <br/> |SharePoint admin plus the on-premises network administrator  <br/> |
+|**Kerberos authentication** <br/> |Organizations with a SharePoint environment configured to support Kerberos authentication.  <br/> |No  <br/> |SharePoint admin plus the on-premises network administrator  <br/> |
+|**Basic authentication** <br/> |Organizations with a SharePoint environment configured to support Basic authentication.  <br/> |No  <br/> |SharePoint admin plus the on-premises network administrator  <br/> |
    
 > [!NOTE]
-> If you're an Office 365 multi-tenant user you can connect from the OneDrive for Business app in any network environment including Wi-Fi and cellular data. If you're not using multi-tenant Office 365, you can connect only when using your organization's on-site Wi-Fi network. Contact your SharePoint administrator if you're unsure which user you are. 
+> If you're a Microsoft 365 multi-organization user, you can connect from the OneDrive for Business app in any network environment, including Wi-Fi and cellular data. If you're not a Microsoft 365 multi-organization user, you can connect only when using your organization's on-site Wi-Fi network. If you're unsure which user you are, contact your SharePoint admin. 
   
 **Table: Mobile authentication support matrix for Office Hub**
 
@@ -138,7 +138,7 @@ This section provides authentication guidance and considerations for the SharePo
   
  **Authentication support for the SharePoint Newsfeed App**
   
-The following table details the authentication types supported for the SharePoint Newsfeed App in SharePoint Server 2013. For the below, OrgID refers to Microsoft Online Services ID, the identity provider for Office 365. Also, MSOFBA refers to Microsoft Office Forms Based Authentication.
+The following table details the authentication types supported for the SharePoint Newsfeed App in SharePoint Server 2013. For the following, OrgID refers to Microsoft Online Services ID, the identity provider for Microsoft 365. Also, MSOFBA refers to Microsoft Office Forms Based Authentication.
   
 **Table: Mobile authentication support matrix for the SharePoint Newsfeed App**
 

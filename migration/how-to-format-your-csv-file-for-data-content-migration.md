@@ -1,5 +1,5 @@
 ---
-title: "How to format your CSV or JSon file for data content migration"
+title: "Format JSON or CSV for data content migration - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,10 +15,11 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
-search.appverid: MET150
-ms.custom: 
+ms.custom:
+- seo-marvel-apr2020
+search.appverid: MET150 
 ms.assetid: 
-description: "How to format your JSON or CSV file for data content migration"
+description: "In this article, you will learn how to format a JSON or CSV file for data content migration using the SharePoint Migration tool (SPMT)."
 ---
 
 # How to format your JSON or CSV for data content migration
@@ -62,7 +63,7 @@ The following example uses Excel to create the CSV file.
     
 2. Enter the values for your migration jobs. Enter one migration source and destination per row. See the reference table below for further explanation of columns.
     
-  - **Column A:** Enter either a file share path or an on-premises SharePoint Server site URL.  *Required.* 
+  - **Column A:** Enter either a file share path or an on-premises SharePoint Server site URL. For SharePoint Server 2013 and 2016, you can also use either the log in name or the SID in this column. *Required.* 
     
   - **Column B:** Enter name of the SharePoint Server document library you are migrating. If you leave this field empty, all document libraries will be migrated. If you are migrating a file share, leave this column empty.  *Optional.* 
     

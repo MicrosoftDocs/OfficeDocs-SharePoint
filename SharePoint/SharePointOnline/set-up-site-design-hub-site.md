@@ -10,7 +10,9 @@ f1.keywords:
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.custom: Adm_O365
+ms.custom: 
+- Adm_O365
+- seo-marvel-apr2020
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
@@ -22,7 +24,7 @@ search.appverid:
 - BCS160
 - GSP150
 - MET150
-description: "Learn how to run scripts on sites when they're associated with a hub site."
+description: "In this article, you'll learn how to run scripts on sites that are associated with a hub site."
 ---
 
 # Set up a site design for your hub site  
@@ -30,10 +32,10 @@ description: "Learn how to run scripts on sites when they're associated with a h
 A site design is one or more site scripts that SharePoint runs when a site is associated with a hub site. Actions describe changes to apply to the new site, such as creating a new list or adding nodes to the site navigation. Site designs provide reusable lists and custom actions so your users can quickly get started with the features they need. 
 
 > [!NOTE]
-> For organizations using Multi-Geo Capabilities in Office 365, hub site designs work only when sites are in the same geo location as the hub site.
+> For organizations using Multi-Geo Capabilities in Microsoft 365, hub site designs work only when sites are in the same geo location as the hub site.
 
 > [!NOTE]
-> These instructions require the SharePoint Administrator or Global Administrator role in Office 365.
+> These instructions require the SharePoint admin or Global Admin role in Microsoft 365.
 
 ## 1. Create a JSON script, add it, and create the site design 
 

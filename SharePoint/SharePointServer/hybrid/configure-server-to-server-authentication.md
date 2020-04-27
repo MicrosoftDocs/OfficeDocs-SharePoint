@@ -54,9 +54,9 @@ For example, you have to make sure that the on-premises search center site(s) th
     
 3. In the **Name** column, select the web application that you want to verify, and then on the ribbon, click **Authentication Providers**.
     
-4. In the **Authentication Providers** dialog box, in the **Zone** column, click the zone the search center site is associated with. 
+4. In the **Authentication Providers** dialog, in the **Zone** column, click the zone the search center site is associated with. 
     
-5. In the **Edit Authentication** dialog box, verify that Integrated Windows authentication and NTLM are selected as shown in the following picture. 
+5. In the **Edit Authentication** dialog, verify that Integrated Windows authentication and NTLM are selected as shown in the following picture. 
     
      ![This figure illustrates the authentication type setting for a web application](../media/ClaimType.jpg)
   
@@ -200,7 +200,7 @@ To install the online service management tools and configure the PowerShell wind
   Connect-MsolService -Credential $cred
   ```
 
-   You are prompted to log on. You need to log on using an Office 365 global administrator account.
+   You are prompted to log on. You need to log on using a Microsoft 365 global admin account.
     
    Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
     
@@ -219,7 +219,7 @@ This section describes the variables you will set in the procedure that follows.
 |$spcn  <br/> |The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.  <br/> |
 |$spsite  <br/> |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **https://sharepoint.adventureworks.com**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or https://sharepoint.adventureworks.com.  <br/> |
 |$site  <br/> |The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.  <br/> |
-|$spoappid  <br/> |The SharePoint Online application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint Online objects in an Office 365 tenant.  <br/> |
+|$spoappid  <br/> |The SharePoint Online application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint Online objects in a Microsoft 365 organization.  <br/> |
 |$spocontextID  <br/> |The context ID (ObjectID) of your SharePoint Online tenant. This value is a unique GUID that identifies your SharePoint Online tenant.  <br/> This value is automatically detected when you run the command to set the variable.  <br/> |
 |$metadataEndpoint  <br/> |The URL that is used by your Azure Active Directory proxy to connect to your Azure Active Directory tenancy.  <br/> You don't need to input a value for this variable.  <br/> |
    
@@ -253,7 +253,7 @@ In this step, you upload the STS certificate for your SharePoint Server farm to 
   
 ![This figure illustrates the architecture involved when a STS certificate is uploaded to SharePoint Online](../media/TrustSTS.jpg)
   
-The commands in this step add the new on-premises STS certificate (public key only) to the SharePoint Online *principal object*  of your Office 365 tenancy. 
+The commands in this step add the new on-premises STS certificate (public key only) to the SharePoint Online *principal object*  of your Microsoft 365 organization. 
   
 From the PowerShell command prompt, type the following commands.
   
@@ -306,7 +306,7 @@ $spns = $msp.ServicePrincipalNames
 $spns
 ```
 
-You should see a current list of SPNs for SharePoint Online in your Office 365 tenancy, and one of the SPNs should include your public root domain name, prefaced by the SharePoint Online application principal ID. This registration is a wildcard registration and should look like the following example:
+You should see a current list of SPNs for SharePoint Online in your Microsoft 365 organization, and one of the SPNs should include your public root domain name, prefaced by the SharePoint Online application principal ID. This registration is a wildcard registration and should look like the following example:
   
 `00000003-0000-0ff1-ce00-000000000000/*.<public domain name>.com`
   
@@ -338,15 +338,15 @@ The expected output is a description of the registered application principal wit
 #### Step 5: Set the SharePoint authentication realm
 <a name="step7"> </a>
 
-This step sets the authentication realm of your SharePoint Server farm to the context ID of the organization's Office 365 tenancy.
+This step sets the authentication realm of your SharePoint Server farm to the context ID of the organization's Microsoft 365 organization.
   
-From the PowerShell command prompt, type the following command.
+From the PowerShell command prompt, enter the following command.
   
 ```
 Set-SPAuthenticationRealm -realm $spocontextID
 ```
 
-To validate this step, from the PowerShell command prompt, type the following commands.
+To validate this step, from the PowerShell command prompt, enter the following commands.
   
 ```
 $spocontextID
@@ -363,7 +363,7 @@ The output of each of these commands is the GUID that represents the context ID 
 
 In this step, you create an Azure Active Directory proxy service in the SharePoint Server farm. This enables Azure Active Directory as a  *trusted token issuer*  that SharePoint Server will use to sign and authenticate claims tokens from SharePoint Online. 
   
-From the PowerShell command prompt, type the following commands.
+From the PowerShell command prompt, enter the following commands.
   
 ```
 New-SPAzureAccessControlServiceApplicationProxy -Name "ACS" -MetadataServiceEndpointUri $metadataEndpoint -DefaultProxyGroup
@@ -372,11 +372,11 @@ New-SPTrustedSecurityTokenIssuer -MetadataEndpoint $metadataEndpoint -IsTrustBro
 
 To validate the **New-SPAzureAccessControlServiceApplicationProxy** command: 
   
-1. Browse the SharePoint 2016 Central Administration website, and click **Security** > **General Security** > **Manage trust**.
+1. Browse the SharePoint 2016 Central Administration website, and select **Security** > **General Security** > **Manage trust**.
     
-2. Make sure you have an entry with a name that begins with **ACS** and the type **Trusted Service Consumer**.
+2. Make sure you have an entry with a name that begins with **ACS**, and the enter **Trusted Service Consumer**.
     
-To validate this step, from the PowerShell command prompt, type the following command.
+To validate this step, from the PowerShell command prompt, enter the following command.
   
 ```
 Get-SPTrustedSecurityTokenIssuer

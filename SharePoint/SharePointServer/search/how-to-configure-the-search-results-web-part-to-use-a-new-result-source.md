@@ -78,13 +78,13 @@ To save space, we'll only show you how to create a result source as a Site colle
     
      ![Create Result Source](../media/OTCSP_NewResultSource.png)
   
-3. On the **Add Result Source** page, enter a **Name**. Select values for **Protocol** and **Type**, and then click **Launch Query Builder**. This opens a dialog box. 
+3. On the **Add Result Source** page, enter a **Name**. Select values for **Protocol** and **Type**, and then click **Launch Query Builder**. This opens a dialog. 
     
     In our scenario, we named the result source  *Articles*  , and kept the default values for Protocol and Type. 
     
      ![Add Result Source](../media/OTCSP_AddResultSource.png)
   
-4. In the **Build Your Query** dialog box, define the result source. 
+4. In the **Build Your Query** dialog, define the result source. 
     
     Remember, in our scenario we only wanted search results to come from a particular site within the farm. Therefore, in the **Query text** field we added the following: 
     
@@ -114,7 +114,7 @@ To save space, we'll only show you how to create a result source as a Site colle
   
     Notice that 52 results were returned. (I will tell you why this is kind of cool in the next section…).
     
-7. Click **OK** to close the dialog box, and then **Save**. 
+7. Click **OK** to close the dialog, and then **Save**. 
     
 So now that we have a result source for the Search Center, we can move on to configuring the Search Results Web Part to use the new result source.
   
@@ -143,17 +143,17 @@ By default, the **Search Results Web Part** is used on the search results page. 
     
      ![Click Edit Web Part](../media/OTCSP_EditWebPart2.png)
   
-4. In the Web Part tool pane, click **Change query**. This opens a dialog box. 
+4. In the Web Part tool pane, click **Change query**. This opens a dialog. 
     
      ![Change Query](../media/OTCSP_ChangeQuery.png)
   
-5. In the dialog box, from the **Select a query** menu, select your newly-created result source. 
+5. In the dialog, from the **Select a query** menu, select your newly-created result source. 
     
     In our scenario, we selected the **Articles (Site Collection)** result source. 
     
      ![Select New Result Source](../media/OTCSP_SelectNewResultSource.png)
   
-6. Click **OK** in the dialog box, click **OK** in the Web Part Tool pane, and then save the page. To verify that the configuration is working, enter a query. 
+6. Click **OK** in the dialog, click **OK** in the Web Part Tool pane, and then save the page. To verify that the configuration is working, enter a query. 
     
     In our scenario, we entered  *search configuration*  . 
     

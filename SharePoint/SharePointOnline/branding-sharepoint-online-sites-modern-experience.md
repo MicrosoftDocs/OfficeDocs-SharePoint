@@ -13,10 +13,12 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about branding your sites in the SharePoint modern experience."
+description: "Learn about branding your sites in the SharePoint modern experience to match your company or organizational brand."
 ---
 
 # Branding your SharePoint site
@@ -26,15 +28,15 @@ In the modern SharePoint experience, you can easily [change the look](https://su
 ![](media/branding-sharepoint-online-sites-modern-experience_image1.png)
 
 > [!NOTE]
-> Branding your SharePoint site will not change the overall look of your Office 365 service For more information about branding Office 365, see [Customize the Office 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme).
+> Branding your SharePoint site will not change the overall look of your Microsoft 365 service. For more info about branding Microsoft 365, see [Customize the Microsoft 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme).
 
 ## Site branding in the classic experience
 
-In the classic SharePoint experience, there are a set of default themes that can require a considerable amount of customization to get them to match your organization’s brand. Also, they aren’t very responsive, making the experience on different devices inconsistent. Most site branding requires the use of custom master pages or alternate CSS configurations. Master pages provide a great deal of flexibility, but they can be problematic. For example, anytime updates are made to SharePoint, any customizations made to the master page may no longer work or may not work the way you expect them to. SharePoint [ignores these customizations](/sharepoint/dev/transform/modernize-branding) unless you’re running in classic experience mode because they’re incompatible with the modern user interface. To avoid this, use only the recommended modern approaches to brand your SharePoint sites.
+In the classic SharePoint experience, there are a set of default themes that can require a considerable amount of customization to get them to match your organization's brand. Also, they aren't very responsive, making the experience on different devices inconsistent. Most site branding requires the use of custom master pages or alternate CSS configurations. Master pages provide a great deal of flexibility, but they can be problematic. For example, anytime updates are made to SharePoint, any customizations made to the master page may no longer work or may not work the way you expect them to. SharePoint [ignores these customizations](/sharepoint/dev/transform/modernize-branding) unless you're running in classic experience mode because they're incompatible with the modern user interface. To avoid this, use only the recommended modern approaches to brand your SharePoint sites.
 
 ## Modern site branding
 
-SharePoint includes an updated set of default site themes that are responsive and look great on any device. With site themes, you can customize your site’s logo and colors to match your brand. Site designs provide specific layouts and other functionality for your site. Additional branding can be achieved using custom themes or site designs without worrying about something breaking when SharePoint is updated. [Custom themes](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview) let you create additional color schemes beyond the defaults. [Custom site designs](/sharepoint/dev/declarative-customization/site-design-overview) let you control the site theme and other customizations like the site navigation, default applications, and other settings. Custom themes or designs can be applied to a new site when it’s created or applied to an existing site or group of sites.
+SharePoint includes an updated set of default site themes that are responsive and look great on any device. With site themes, you can customize your site's logo and colors to match your brand. Site designs provide specific layouts and other functionality for your site. Additional branding can be achieved using custom themes or site designs without worrying about something breaking when SharePoint is updated. [Custom themes](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview) let you create additional color schemes beyond the defaults. [Custom site designs](/sharepoint/dev/declarative-customization/site-design-overview) let you control the site theme and other customizations like the site navigation, default applications, and other settings. Custom themes or designs can be applied to a new site when it's created or applied to an existing site or group of sites.
 
 ### Branding hub sites
 
@@ -55,7 +57,7 @@ Some things to consider before branding your classic experience sites in SharePo
 
 -   Do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own?
 
--   You should compile a list of all current sites, what site templates they use, any customizations that have been made to the master pages or CSS, and decide which of these customizations you need to keep. You can run the [SharePoint “Modern” user interface experience scanner](https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.UIExperience.Scanner) which will do a deep analysis of all the sites in your organization and create reports that give you details about sites that have incompatible master pages or alternate CSS settings. [SharePoint handles branding differently](/sharepoint/dev/transform/modernize-branding) for classic site templates such as the publishing site. You’ll want to [troubleshoot any custom theme issues](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview#troubleshoot-custom-theme-issues) you run into.
+-   You should compile a list of all current sites, what site templates they use, any customizations that have been made to the master pages or CSS, and decide which of these customizations you need to keep. You can run the [SharePoint "Modern" user interface experience scanner](https://github.com/SharePoint/PnP-Tools/tree/master/Solutions/SharePoint.UIExperience.Scanner) which will do a deep analysis of all the sites in your organization and create reports that give you details about sites that have incompatible master pages or alternate CSS settings. [SharePoint handles branding differently](/sharepoint/dev/transform/modernize-branding) for classic site templates such as the publishing site. You'll want to [troubleshoot any custom theme issues](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview#troubleshoot-custom-theme-issues) you run into.
 
 -   What areas do you want to customize (logo, colors, fonts, header/footer, navigation)?
 

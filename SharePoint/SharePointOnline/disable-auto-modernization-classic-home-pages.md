@@ -62,7 +62,7 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 - The new modern home page is named ‘Home.aspx’ and the classic page gets renamed to ‘Home(old).aspx’.
 
-- This update does not create an [Office 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
+- This update does not create an [Microsoft 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
 
 - Classic site themes may not be identical once your page is updated to modern. [Learn how to apply custom styles and color to your site](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
 
@@ -84,7 +84,7 @@ Over the years SharePoint modern pages have become powerful tools for collaborat
 
 When users first experience the change, they’ll see a walkthrough that highlights the new capabilities and includes a link to a help article with more details like this:
 
-![Classic-to-modern upgrade experience](media/homepage-upgrade-2.gif)
+![Classic-to-modern upgrade experience](media/classictomodernnewGIF.gif)
 
 For more training, view [the classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf).
 

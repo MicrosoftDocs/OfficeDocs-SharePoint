@@ -51,7 +51,7 @@ To enable usage cookies, do the following:
     
      ![General Settings](../media/OTCSP_GeneralSettings.png)
   
-3. In the **Web Application General Settings** dialog box, in the **Usage Cookie** section, for **Usage Cookie Status**, click **On**. 
+3. In the **Web Application General Settings** dialog, in the **Usage Cookie** section, for **Usage Cookie Status**, click **On**. 
     
      ![On](../media/OTCSP_On.png)
   

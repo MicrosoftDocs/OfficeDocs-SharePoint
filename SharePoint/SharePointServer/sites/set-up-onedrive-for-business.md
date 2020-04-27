@@ -25,7 +25,7 @@ description: "Learn the steps needed to set up OneDrive for Business in a ShareP
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> This article describes how to set up OneDrive for Business in a SharePoint Server on-premises environment, and does not describe OneDrive for Business in an Office 365 environment. For more information about administering OneDrive for Business in Office 365, see [OneDrive for Business admin help](https://go.microsoft.com/fwlink/p/?LinkId=824831). 
+> This article describes how to set up OneDrive for Business in a SharePoint Server on-premises environment, and does not describe OneDrive for Business in a Microsoft 365 environment. For more info about administering OneDrive for Business, see [OneDrive for Business admin help](https://go.microsoft.com/fwlink/p/?LinkId=824831). 
   
 When setting up OneDrive for Business in your SharePoint Server on-premises environment, an IT-administrator will need to go through the following steps: 
   
@@ -59,15 +59,15 @@ First, let's create a Managed Metadata service application.
   
  **To create a Managed Metadata service application**
   
-1. In Central Administration, under **Application Management**, click **Manage service applications**.
+1. In the **Central Administration** website, under **Application Management**, select **Manage service applications**.
     
-2. Click **New**, and then click **Managed Metadata Service**.
+2. Select **New**, and then select **Managed Metadata Service**.
     
-3. Type a name for the service application in the **Name** box. 
+3. In the **Name** box, enter a name for the service application. 
     
-4. In the **Database Name** box, type a name for the database. 
+4. In the **Database Name** box, enter a name for the database. 
     
-5. Under **Application Pool**, choose **SharePoint Web Services Default** from the **Use existing application pool list**.
+5. Under **Application Pool**, from the **Use existing application pool list**, select **SharePoint Web Services Default** .
     
 6. Click **OK**.
     

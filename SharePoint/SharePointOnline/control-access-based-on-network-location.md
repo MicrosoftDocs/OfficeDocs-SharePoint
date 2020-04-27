@@ -1,5 +1,5 @@
 ---
-title: "Control access to SharePoint and OneDrive data based on network location"
+title: "Network location-based access to SharePoint and OneDrive"
 ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
@@ -13,13 +13,15 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
 ms.assetid: b5a5f1f1-1174-4c6b-91d0-9273a6b6971f
-description: "Learn how to restrict access to SharePoint and OneDrive from untrusted networks."
+description: "In this article, you'll learn how to control access to SharePoint and OneDrive data based on network location."
 ---
 
 # Control access to SharePoint and OneDrive data based on network location
@@ -46,12 +48,12 @@ Here are some important considerations for setting a location-based policy:
 > [!NOTE]
 > It can take up to 15 minutes for these settings to take effect. 
   
-1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Access control page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
     
-2. Select **Network location** and turn on **Allow access only from specific IP address ranges**.
+2. Select **Network location**, and turn on **Allow access only from specific IP address ranges**.
 
     ![The Network location panel](media/access-control-network-location.png)
     

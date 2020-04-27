@@ -27,9 +27,9 @@ description: "Learn about the OneDrive sync app support for desktop virtualizati
 For all [supported operating systems](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e), the OneDrive sync app supports:
 
 - Virtual desktops that persist between sessions. 
-- Non-persistent environments that use [Windows Virtual Desktop](https://www.microsoft.com/microsoft-365/modern-desktop/enterprise/windows-virtual-desktop).
+- Non-persistent environments that use [Windows Virtual Desktop](https://www.microsoft.com/office-365/modern-desktop/enterprise/windows-virtual-desktop).
 
-The sync app also supports non-persistent environments that have [FSLogix Apps 2.8 or later](https://fslogix.com/products/fslogix-apps), [FSLogix Office 365 Container](https://fslogix.com/products/office-365-container), and a Microsoft 365 or Office 365 subscription for all of the following operating systems:
+The sync app also supports non-persistent environments that have [FSLogix Apps 2.8 or later](https://fslogix.com/products/fslogix-apps), [FSLogix Microsoft 365 Container](https://fslogix.com/products/office-365-container), and a Microsoft 365 subscription for all of the following operating systems:
 
 - Windows 10, 32 or 64-bit (supports VHDX files) 
 - Windows 7, 32 or 64-bit (supports VHD files) 
@@ -48,6 +48,6 @@ The sync app also supports non-persistent environments that have [FSLogix Apps 2
 
 ## See also
 
-Learn more about [VHDX](/openspecs/windows_protocols/ms-vhdx/83f6b700-6216-40f0-aa99-9fcb421206e2) and [VHD](/windows/desktop/vstor/about-vhd)
+Learn more about [VHDX](/openspecs/windows_protocols/ms-vhdx/83f6b700-6216-40f0-aa99-9fcb421206e2) and [VHD](/windows/desktop/vstor/about-vhd).
 
-For info about creating virtual hard disks, see [Manage virtual hard disks](/windows-server/storage/disk-management/manage-virtual-hard-disks)
+For info about creating virtual hard disks, see [Manage virtual hard disks](/windows-server/storage/disk-management/manage-virtual-hard-disks).

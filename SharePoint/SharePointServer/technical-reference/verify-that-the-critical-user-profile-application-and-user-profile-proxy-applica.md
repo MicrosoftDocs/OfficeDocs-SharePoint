@@ -36,7 +36,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify t
     
 3. On the Health Analyzer Rule Definitions - All Rules page, in the **Category: Configuration** section, click the name of the rule. 
     
-4. In the **Health Analyzer Rule Definitions** dialog box, click **Edit Item**.
+4. In the **Health Analyzer Rule Definitions** dialog, click **Edit Item**.
     
 5. Select the **Repair Automatically** check box, and then click **Save**.
     

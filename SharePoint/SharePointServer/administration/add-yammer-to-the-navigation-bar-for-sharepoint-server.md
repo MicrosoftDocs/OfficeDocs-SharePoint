@@ -27,18 +27,18 @@ The user account that is performing this procedure must be a member of the Farm 
 
 1. Start the SharePoint Central Administration tool.
 
-2. In the **Office 365** section, choose **Configure Yammer**.
+2. In the **Microsoft 365** section, select **Configure Yammer**.
 
-3. On the **Yammer Configuration** page, choose **Activate Yammer**.
+3. On the **Yammer Configuration** page, select **Activate Yammer**.
 
      ![Yammer Configuration page in Central Admin](../media/yammer-spserver-config.png) 
    
      After a few minutes, the **Activate Yammer** button changes to **Deactivate Yammer**. This may take up to 30 minutes.
 
-4. Verify that Yammer is selected by clicking the Office 365 icon. You should the Yammer app listed.
+4. To verify that Yammer is selected, select the Microsoft 365 icon. You should the Yammer app listed.
     Here's what it looks like in SharePoint Server 2019:
 
-     ![SharePoint Server 2019 Office 365 navigation showing the Yammer app](../media/yammer_spserver_apps2019.png)
+     ![SharePoint Server 2019 Microsoft 365 navigation showing the Yammer app](../media/yammer_spserver_apps2019.png)
 
     Here's what it looks like in SharePoint Server 2016: 
 
@@ -46,7 +46,7 @@ The user account that is performing this procedure must be a member of the Farm 
 
 ## In SharePoint Server 2013 running Service Pack 1 for SharePoint Server 2013
  
-1. On the Central Administration website, in the **Office 365** section, choose **Configure Yammer**.
+1. On the **Central Administration** website, in the **Microsoft 365** section, select **Configure Yammer**.
 
 2. On the **Configure Yammer** page, select **Activate Yammer**. 
      

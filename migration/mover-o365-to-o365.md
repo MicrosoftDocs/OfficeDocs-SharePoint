@@ -1,5 +1,5 @@
 ---
-title: Migrating to Office 365 from Office 365
+title: Migrating to Microsoft 365 from Microsoft 365
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,16 +10,16 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "How to Migrate from Office 365 to Office 365"
+description: "How to migrate to Microsoft 365 from Office 365"
 ---
 
-# How to migrate from Office 365 to Office 365
+# How to migrate to Microsoft 365 from Office 365
 
 ## Introduction
 
 Our purpose is to act as an intermediary between various web technologies that don't play nice together. We take your files from one place and copy them to another. No downloads and nothing to watch over—our web-hosted app does all the work!
 
-Undertaking any corporate migration is a daunting task. When moving from Office 365 to Office 365, there are many things to consider. Our team has done this enough times to have learned a thing or two. We hope this guide helps you migrate successfully from Office 365 to Office 365.
+Undertaking any corporate migration is a daunting task. When moving to Microsoft 365 from Office 365, there are many things to consider. Our team has done this enough times to have learned a thing or two. We hope this guide helps you migrate successfully to Microsoft 365 from Office 365.
 
 If you experience any issues, do not hesitate to ask us questions!
 
@@ -28,7 +28,7 @@ If you experience any issues, do not hesitate to ask us questions!
 
 ### File processing summary
 
-When we transfer a file, a temporary copy is downloaded from **Office 365** to a temporary server and then uploaded to Office 365. Upon successful upload, that file is deleted from the temporary server. When your migration is complete, that temporary server is destroyed. Any log data expires in 90 days and is never retained by us. We do not perform any actions beyond copying files and folders and sharing permissions. We never perform delete operations.
+When we transfer a file, a temporary copy is downloaded from **Office 365** to a temporary server, and then uploaded to Microsoft 365. Upon successful upload, that file is deleted from the temporary server. When your migration is complete, that temporary server is destroyed. Any log data expires in 90 days and is never retained by us. We do not perform any actions beyond copying files and folders and sharing permissions. We never perform delete operations.
 
 ## Communicating with stakeholders
 
@@ -36,7 +36,7 @@ A migration is a significant undertaking for any organization. Trying to grasp t
 
 Before, during, and after a migration, it is critical to communicate clearly and effectively with your user base. We provide timely support and communication materials to your transition team to help you communicate these changes with each stakeholder.
 
-**Management** — Management needs succinct info about the how’s and why’s of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular info is important when running a department.
+**Management** — Management needs succinct info about the how's and why's of the migration, such as costs, benefits, and expectations. You must paint a clear picture about what a successful migration should look like. Granular info is important when running a department.
 
 For example, the Sales Manager needs to know how operations will be affected, such as *Can employees still work over the weekend, if needed?*
 
@@ -99,11 +99,11 @@ Migrations are run on a per-user basis. Because of our app's scalable infrastruc
 
 **Collaborators-only**: Your fiscal budget need only include users that own data in Office 365. Anyone that strictly engages as a collaborator in Office 365 (for example, they only share other users' content), do not have any data copied, and therefore do not incur a fee.
 
-**Setting permissions is free**: Users that strictly collaborate in Office 365 receive equivalent sharing permissions in Office 365 for free.
+**Setting permissions is free**: Users that strictly collaborate in Office 365 receive equivalent sharing permissions in Microsoft 365 for free.
 
 ## Data distribution
 
-Determining the distribution of data across the user base is an extremely important component of a migration because we copy data in a highly parallel manner, and our servers transfer data as fast as each cloud storage provider can handle. Office 365 has rate limits for how fast data can be downloaded and uploaded.
+Determining the distribution of data across the user base is an extremely important component of a migration because we copy data in a highly parallel manner, and our servers transfer data as fast as each cloud storage provider can handle. Microsoft 365 has rate limits for how fast data can be downloaded and uploaded.
 
 The more users simultaneously being transferred, the higher our throughput for your migration. **We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.**
 
@@ -122,7 +122,7 @@ Knowing the total volume of data you are moving helps to create a more realistic
 
 ### Your migration team
 
-Establish a migration team to lead your organization through the project. The team’s role includes liaising with us, undergoing training, and notifying employees of each change during the migration process.
+Establish a migration team to lead your organization through the project. The team's role includes liaising with us, undergoing training, and notifying employees of each change during the migration process.
 
 An IT Manager or the Head of IT is a good choice for our point of contact because they understand the ins and outs of your organization's systems. To ensure a smooth, successful migration, we work closely together and are with you every step of the way.
 
@@ -148,7 +148,7 @@ We recommend migrating during a slower organizational period, such as the weeken
 
 ### Keep your accounts active
 
-When migrating from Office 365 to Office 365, you need to ensure all your users are active and accessible. Knowing exactly when your Office 365 may shut down or expire is key to safely planning enough time to migrate.
+When migrating to Microsoft 365 from Office 365, you need to ensure all your users are active and accessible. Knowing exactly when your Office 365 may shut down or expire is key to safely planning enough time to migrate.
 
 ### Consider migration speed factors
 
@@ -179,20 +179,20 @@ Keep in mind that while cloud storage is sometimes just a container for files, p
 
 #### Example emails to send
 
-**Subject**: ATTENTION: Decision to Migrate from Office 365 to Office 365
+**Subject**: ATTENTION: Decision to migrate to Microsoft 365 from Office 365 
 
-**Message**: A few months ago, management decided we will leaving Office 365 and transition to a new Office 365 domain. In the new Office 365, all employees will have access to cloud storage and its included apps.
+**Message**: A few months ago, management decided we will leaving Office 365 and transition to a new Microsoft 365 domain. In the new Microsoft 365, all employees will have access to cloud storage and its included apps.
 
 We will manage the migration to ensure all of our data gets transferred securely and efficiently. If you have any questions or concerns about the process, let me know.
 </br>
 
 **Subject**: ATTENTION: Important Info Regarding Cloud Data Migration
 
-**Message**: As you know from prior emails, we are moving from Office 365 to a new Office 365 domain as our cloud storage provider.
+**Message**: As you know from prior emails, we are moving to a new Microsoft 365 domain from the Office 365 domain as our cloud storage provider.
 
 To assist in this migration, we ask all employees to finish working and upload any last changes to files in the source Office 365 by 17:00 PT on Friday, April 7, 2020. Changes to files or data in the source Office 365 after this time will not be moved.
 
-On Monday, April 10, 2020, all employees will be using our new Office 365 domain.
+On Monday, April 10, 2020, all employees will be using our new Microsoft 365 domain.
 
 Questions and concerns can be directed to your immediate manager and/or our technical support staff via the usual channels.
 
@@ -213,10 +213,10 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |**Microsoft service**|**Which Mover connector to use**|
 |:-----|:-----|
 |Azure Blob Storage|Azure Blob Storage Connector|
-|OneDrive Consumer|	OneDrive Consumer Connector|
-|OneDrive for Business (Administrator)|	Office 365 Connector|
-|OneDrive for Business (User)|	OneDrive for Business (User) Connector|
-|SharePoint Online|Office 365 Connector|
+|OneDrive Consumer|    OneDrive Consumer Connector|
+|OneDrive for Business (Administrator)|    Microsoft 365 Connector|
+|OneDrive for Business (User)|    OneDrive for Business (User) Connector|
+|SharePoint Online|Microsoft 365 Connector|
 
 ## Deleting connectors
 
@@ -267,7 +267,7 @@ Here are a few examples of how we deal with changes to files and folders.
 
 **Content changes**: If a document is edited in your source or you have added a few new files, we copy them to your destination on the next incremental run, overwriting the previously existing file(s) in the destination.
 
-**Name changes**: If the name of a file or folder changes in Office 365, we treat it as a brand new object. This can lead to duplicate files being migrated to Office 365, or worse: entire folders worth of data being duplicated from the changed folder downwards.
+**Name changes**: If the name of a file or folder changes in Office 365, we treat it as a brand new object. This can lead to duplicate files being migrated to Microsoft 365, or worse in that entire folders worth of data would be duplicated from the changed folder downwards.
 
 **Example**: Changing the path `/Sales/Clients` to `/Global Sales/Clients` results in two copies of your `Sales` folder after the `Global Sales` folder is also copied during an incremental pass.
 
@@ -275,19 +275,19 @@ Here are a few examples of how we deal with changes to files and folders.
 
 We never delete your data from any source. Our app simply takes your data from one place and copies it to another—akin to *copy and paste* rather than *cut and paste.* We also don't retain any of your cloud storage data for any reasons.
 
-We strive to keep your users' experience as similar as possible between your new Office 365 and old Office 365 domains.
+We strive to keep your users' experience as similar as possible between your new Microsoft 365 and old Office 365 domains.
 
 ### How are permissions affected?
 
-When moving from Office 365 to Office 365, user roles *on folders* change.
+When moving to Microsoft 365 from Office 365, user roles *on folders* change.
 
 During a migration, we do not explicitly set a user as an owner of data.
 
-In Office 365, ownership of files and folders is always implicitly set by virtue of copying data into a user.
+In Microsoft 365, ownership of files and folders is always implicitly set by virtue of copying data into a user.
 
 ### Translating permissions
 
-![old office 365 role to new o365 role](media/old-office-role-new-role.png)
+![old office 365 role to new microsoft 365 role](media/old-office-role-new-role.png)
 
 >[!Note]
 >Our app only sets permissions on folders.
@@ -310,7 +310,7 @@ We do not share content with external collaborators. This policy is in place to 
 
 ### Does Mover preserve file versions?
 
-We do not preserve file versions. During a migration, only the most recent version of a file is transferred from Office 365 to Office 365.
+We do not preserve file versions. During a migration, only the most recent version of a file is transferred to Microsoft 365 from Office 365.
 
 ### Does Mover notify users?
 
@@ -418,11 +418,11 @@ To check your transfer data usage, follow these steps.
 1. Log in. To visit your **Account** settings, in the top right corner of our app, select **account email**.
 2. By default, you are already in the **Plan** section.
 
-## Office 365 FAQ
+## Microsoft 365 FAQ
 
 ### Will there be unsupported files and characters?
 
-Transferring from one Office 365 tenant to another means the source and the destination have the same limitations; therefore, your data should meet the compatibility requirements when downloading data from Office 365 and uploading data into Office 365.
+Transferring from one Microsoft 365 tenant to another means the source and the destination have the same limitations; therefore, your data should meet the compatibility requirements when downloading data from Office 365 and uploading data into Microsoft 365.
 
 ### Character limits for files and folders
 
@@ -436,14 +436,14 @@ Total path length for folder and filename combinations can have up to 400 charac
 
 ### Are timestamps preserved?
 
-The original timestamps from Office 365 are preserved when migrating to Office 365.
+The original timestamps from Office 365 are preserved when migrating to Microsoft 365.
 
 >[!Note]
 >Timestamps are only applied to files/data transfered, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
 
 ### Is file authorship preserved?
 
-When migrating from Office 365 into Office 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
+When migrating to Microsoft 365 from Office 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
 
 ### Does the Mover app interact with the sync client in OneDrive for Business?
 
@@ -451,7 +451,7 @@ We do not interact with the sync client in **OneDrive for Business**. Before a m
 
 ### What happens to shared data?
 
-Data shared with a user by another user appears in the **Shared with me** folder. Data owned by a user will appear in the user’s designated destination folder.
+Data shared with a user by another user appears in the **Shared with me** folder. Data owned by a user will appear in the user's designated destination folder.
 
 ### What about notifications?
 
@@ -520,12 +520,12 @@ Some list view options may prevent search list views with more than 5,000 items 
 
 ## Setting up the migration
 
-### Authorizing Office 365
+### Authorizing Microsoft 365
 
 >[!Warning]
->To fully authorize the **Office 365 Connector**, a Global Admin is required to grant permissions to the Office 365 Mover app within the Azure portal.
+>To fully authorize the **Microsoft 365 Connector**, a Global Admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
 >
->The Global Admin must grant these permissions *after* the Office 365 Connector is authorized within the main Mover app.
+>The Global Admin must grant these permissions *after* the Microsoft 365 Connector is authorized within the main Mover app.
 
 The following instructions show you how to complete the authorization steps in the right order.
 
@@ -534,15 +534,15 @@ Some steps in the authorization process can be completed by a Global Admin or an
 1. **Global Admin or SPO Admin:** Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
 
 >[!Note]
->Whether the **Office 365 Connector** is your source or destination connector (or both), you’ll need to go through this authorization process.
+>Whether the **Microsoft 365 Connector** is your source or destination connector (or both), you'll need to go through this authorization process.
 
 ![Authorize new connector](media/05-authorize-new-connector.png)
 
-2. **Global Admin or SPO Admin**: In the **Connector** list, find **Office 365**. Select **Authorize**.
+2. **Global Admin or SPO Admin**: In the **Connector** list, find **Microsoft 365**. Select **Authorize**.
 
 ![Authorize O365](media/authorize-o365.png)
 
-3. **Global Admin or SPO Admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Office 365 Connector**.  Select **Authorize**.
+3. **Global Admin or SPO Admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Microsoft 365 Connector**.  Select **Authorize**.
 
 ![Authorize windows](media/authorize-window.png)
 
@@ -558,7 +558,7 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
 
 If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6–9), point your Global Admin to **aka.ms/office365moverauth**.
 
@@ -566,11 +566,11 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![Authorize error](media/authorize-error.png)
 
-6. **Global Admin**: Log into the Azure Portal via **aka.ms/office365moverauth**. You’ll see a list of **Enterprise applications**.
+6. **Global Admin**: Log into the Azure Portal via **aka.ms/office365moverauth**. You'll see a list of **Enterprise applications**.
 
 ![Enterprise applications](media/enterprise-applications.png)
 
-7. **Global Admin**: Find and select the **Office 365 Mover** app. A page appears that provides an overview of our app.
+7. **Global Admin**: Find and select the **Microsoft 365 Mover** app. A page appears that provides an overview of our app.
 
 ![O365 Mover app](media/o365-mover-app.png)
 
@@ -578,9 +578,9 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 ![o365 mover permissions](media/o365-mover-permissions.png)
 
-9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Office 365 Connector** is fully authorized and ready to go.
+9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
 
-### Troubleshooting an Office 365 connector
+### Troubleshooting a Microsoft 365 connector
 
 #### App access error
 
@@ -588,19 +588,19 @@ If you encounter an error on authorization, try signing out of any Microsoft acc
 
 #### Global Admin account provisioning
 
-Your Global Admin must have an Office 365 account provisioned to administer other Office 365 accounts. If you create a service account for our app, ensure you also assigned an Office 365 license, and walked through the Office 365 setup process.
+Your Global Admin must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you also assigned a Microsoft 365 license, and walked through the Microsoft 365 setup process.
 
 #### User provisioning
 
-Are your Office 365 users provisioned? All Office 365 users must log in to their Office 365, and open Office 365 for us to transfer into their accounts. You can also provision Office 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
+Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to their Microsoft 365, and open Microsoft 365 for us to transfer into their accounts. You can also provision Microsoft 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
 
 `Connect-SPOService -Url https://example-admin.sharepoint.com -credential user@example.com`
 
-`Request-SPOPersonalSite -UserEmails “neverloggedintest@example.onmicrosoft.com”`
+`Request-SPOPersonalSite -UserEmails "neverloggedintest@example.onmicrosoft.com"`
 
-#### Office 365 permission requirements
+#### Microsoft 365 permission requirements
 
-Our app requires a Global Administrator for authorization. The following table lists the scopes we require:
+Our app requires a Global Admin for authorization. The following table lists the scopes we require:
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
@@ -608,7 +608,7 @@ Our app requires a Global Administrator for authorization. The following table l
 |View your basic profile|See your basic profile (name, picture, user name).|
 |Maintain access to data you have given it access to|See and update the data you gave it access to, even when you are not currently using our app. This does not give our app any additional permissions.|
 
-### Connecting your source Office 365 account
+### Connect your source Office 365 account
 
 If you are not already connected after you have authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
@@ -617,13 +617,13 @@ If you are not already connected after you have authorized your source, select *
 >[!Note]
 >SharePoint Online displays a user count when connecting to the **Transfer Wizard**. This does not represent the actual site count. The SharePoint Online connector counts both individual and team sites. However, the SharePoint Online connector only works with team sites, and does not work with individual user sites.
 
-### Connecting your destination Office 365 account
+### Connect your destination Microsoft 365 account
 
-If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
+If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
-![Execution select Office 365 destination](media/execution-select-office-365-destination.png)
+![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
-#### Creating a new migration
+#### Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
@@ -654,13 +654,13 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-#### Creating a new migration from a CSV (optional)
+#### Create a new migration from a CSV (optional)
 
 Occasionally, you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
 In these cases, we trust the CSV upload option is useful. This allows you to lay out all your users and directories, and then provide it to us in a .csv format for us to create your migration.
 
-##### Users to migrate
+##### Migrate users
 
 Your CSV file must follow this format:
 
@@ -689,7 +689,7 @@ For example, this full URL won't work:
 It should be changed to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-#### Creating your CSV in Excel
+#### Create your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
 
@@ -700,13 +700,13 @@ To use an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-#### Reviewing your users
+#### Review your users
 
-##### Checking paths
+##### Check paths
 
-Confirm that the users in the Office 365 source match the users in the Office 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
+Confirm that the users in the Office 365 source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
-#### Editing
+#### Edit users
 
 Be aware that Users can only be edited if they haven't been scanned, or had a transfer run.
 
@@ -723,7 +723,7 @@ To edit a user destination entry:
 
 1. To select a user row, on the left side of a row, select the respective checkbox.
 2. On the right and directly above the user rows, find **User Actions**, or right-click the user row for which you want to edit the destination path.
-3. A new side panel opens, enabling you to edit the Office 365 destination path.
+3. A new side panel opens, enabling you to edit the Microsoft 365 destination path.
 4. To select your parent destination path, double-click it. To complete your edit, select **Save**.
 
 ![Edit destination user](media/edit-destination-user.png)
@@ -759,7 +759,7 @@ Download an example CSV:
 
 ![Update migration](media/update-migration.png)
 
-#### Adding
+#### Add users
 
 If you missed users in your original CSV upload, or simply want to add new user entries to the current migration, add them via CSV. All entries you add in this manner are appended to the current migration, meaning this doesn't modify existing rows, and you can create duplicate entries alongside the ones that already exist.
 
@@ -778,7 +778,7 @@ Tips for creating the CSV:
 
 ![Add to Migration](media/add-to-migration.png)
 
-#### Duplicating
+#### Duplicate users
 
 At any time, you may duplicate a user in the **Migration Manager** list. To duplicate a user entry:
 
@@ -803,7 +803,7 @@ To create or edit a schedule:
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
 
-##### Deleting
+##### Delete users
 
 Be aware that users can only be deleted if they haven't been scanned, or had a transfer run.
 
@@ -817,7 +817,7 @@ To delete a user entry:
 
 ![delete user](media/delete-user.png)
 
-### Reviewing your permission map
+### Review your permission map
 
 The permission map is a critical part of your migration.
 
@@ -835,7 +835,7 @@ We automatically detect users and handle perfect matches. Any inconsistencies mu
 
 ![permission map](media/edit-permission-map.png)
 
-You may either auto-discover or upload a permission map file. We automatically pair perfect matches. If a user or group in Office 365 does not have a perfect match in Office 365, you can correct it in our interface.
+You may either auto-discover or upload a permission map file. We automatically pair perfect matches. If a user or group in Office 365 does not have a perfect match in Microsoft 365, you can correct it in our interface.
 
 2. Select **Auto-discover Users**.
 
@@ -851,7 +851,7 @@ You may either auto-discover or upload a permission map file. We automatically p
 >[!Note]
 >Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, `@gmail.com` to `@hotmail.com` - is automatically removed. Our app marks these as redundant entries.
 
-### Uploading a permission map (optional)
+### Upload a permission map (optional)
 
 You can upload a permission map in CSV format. This overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
 
@@ -878,7 +878,7 @@ Download an example CSV:
 
 [example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
 
-#### Creating your CSV in Excel
+#### Create your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -894,7 +894,7 @@ For example:
 
 ![excel overview](media/excel-overview.png)
 
-#### Exporting a permission map
+#### Export a permission map
 
 You can export a permission map in CSV format.
 
@@ -968,7 +968,7 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 
 ![migration finalize mover](media/migration-finalize-mover.png)
 
-## Running the migration
+## Run the migration
 
 ### Scanning
 
@@ -979,7 +979,7 @@ Scanning your source data is key to running a smooth and stress-free migration. 
 >
 >After a transfer is scanned, the source/destination are effectively *locked in.* Be sure to double-check that they are correct, and not left blank.
 
-### Running the scan
+### Run the scan
 
 You now have a list of users appearing in the migration, complete with destination set up.
 
@@ -1002,7 +1002,7 @@ After users appear in green, yellow, or red, on the top right side of your scree
 
 The **Scan Report** is covered in-depth in the **Reports** subsection under the **Scan Report** section of this guide.
 
-#### Migrating users
+#### Migrate users
 
 We recommend starting slow. Test for one user, then three to five. If it looks good, and you see data being downloaded and uploaded, start queuing everyone and stage the rest of your users.
 
@@ -1016,7 +1016,7 @@ We recommend starting slow. Test for one user, then three to five. If it looks g
 >[!Note]
 >If your transfer encounters an error or crashes, our app automatically reruns the transfer up to three times to attempt to resolve the issue.
 
-#### Canceling users
+#### Cancel users
 
 To cancel a currently running transfer:
 
@@ -1026,11 +1026,11 @@ To cancel a currently running transfer:
 
 This action stops the transfer as soon as possible (usually within a few seconds).
 
-#### Rerunning users
+#### Rerun users
 
 The best way to resolve any issues with a transfer is to rerun it. This action checks over all the files in your destination, compares them to the source, and then transfers over the new or modified files.
 
-All transfers take advantage of our incremental feature and only transfer new or modified data differences between Office 365 and Office 365.
+All transfers take advantage of our incremental feature and only transfer new or modified data differences between Office 365 and Microsoft 365.
 
 As long as a transfer is not running, to restart a transfer, you can re-queue a user.
 
@@ -1045,18 +1045,18 @@ The following table lists additional info about each transfer status message fro
 
 |**Status message**|**Definition**|
 |:-----|:-----|
-|Running pre-checks|	Our servers checking a few things and sending your transfer to the queue. Almost there!|
-|Queued to start, please be patient|	Your transfer will run as soon as possible. You can close your browser, and receive an email on completion. There is no limit to queued users.|
-|Success. No files copied	|We have skipped all of your files without error, and have detected no new or modified files.|
-|Success. Some unsupported files not transferred|	We have skipped all of your files without error, and have detected no new or modified files. Files unsupported by the source or destination were skipped over.|
-|Some upload errors, please retry|	We were able to download everything from the source, or skip files that already existed in the destination, but some files didn't make it into the destination.|
-|No files copied. Some upload errors, please retry	|We were able to download everything from the source, or skip files that already existed in the destination, but no files made it into the destination.|
-|Some download errors, please retry|	We weren't able to download everything from the source, but some files made it into the destination successfully.|
-|No files copied. Some download errors, please retry	|We weren't able to download anything from the source!|
-|Some download and upload errors, please retry	|There were errors with both downloading and uploading files, although some incremental files may have been skipped successfully.|
-|General failure, please retry|	We don't have a particular reason why your transfer failed - maybe we were having trouble connecting to your source or destination properly, for example.|
-|Connector auth failed|	One of your connectors isn't authorized correctly.|
-|Crashed, please retry|	We don't have a particular reason why your transfer failed, but generally this is due to server issues on our side or with the source or destination connectors. Contact us if you encounter a crash.|
+|Running pre-checks|    Our servers checking a few things and sending your transfer to the queue. Almost there!|
+|Queued to start, please be patient|    Your transfer will run as soon as possible. You can close your browser, and receive an email on completion. There is no limit to queued users.|
+|Success. No files copied    |We have skipped all of your files without error, and have detected no new or modified files.|
+|Success. Some unsupported files not transferred|    We have skipped all of your files without error, and have detected no new or modified files. Files unsupported by the source or destination were skipped over.|
+|Some upload errors, please retry|    We were able to download everything from the source, or skip files that already existed in the destination, but some files didn't make it into the destination.|
+|No files copied. Some upload errors, please retry    |We were able to download everything from the source, or skip files that already existed in the destination, but no files made it into the destination.|
+|Some download errors, please retry|    We weren't able to download everything from the source, but some files made it into the destination successfully.|
+|No files copied. Some download errors, please retry    |We weren't able to download anything from the source!|
+|Some download and upload errors, please retry    |There were errors with both downloading and uploading files, although some incremental files may have been skipped successfully.|
+|General failure, please retry|    We don't have a particular reason why your transfer failed - maybe we were having trouble connecting to your source or destination properly, for example.|
+|Connector auth failed|    One of your connectors isn't authorized correctly.|
+|Crashed, please retry|    We don't have a particular reason why your transfer failed, but generally this is due to server issues on our side or with the source or destination connectors. Contact us if you encounter a crash.|
 
 ## Post-migration troubleshooting
 
@@ -1071,21 +1071,21 @@ Follow these steps if your migration is having issues:
 
 Alternatively, you can select multiple users, and from the **User Actions** dropdown menu, you can download their most recent collective logs in a zip file that provides them in both HTML and CSV formats.
 
-3. Check if your failed/unsupported files are too large to go into Office 365.
-4. Ensure you have enough storage space in Office 365 to accommodate the data you're moving in.
+3. Check if your failed/unsupported files are too large to go into Microsoft 365.
+4. Ensure you have enough storage space in Microsoft 365 to accommodate the data you're moving in.
 5. Think files are missing? Check out our list of **Unsupported Files per Connector**.
 
 ### Incremental feature
 
-Our incrementals are delta operations which compare files in your Office 365 to files in Office 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Office 365 data up to date when the very final cutover of users occurs. These incremental passes are an important part of our process.
+Our incrementals are delta operations which compare files in your Office 365 to files in Microsoft 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Microsoft 365 data up to date when the very final cutover of users occurs. These incremental passes are an important part of our process.
 
-**Technical clarification:** We compare what you have in Office 365 to what is in Office 365, and we only transfer anything that doesn't already exist, or has a newer timestamp.
+**Technical clarification:** We compare what you have in Office 365 to what is in Microsoft 365, and we only transfer anything that doesn't already exist, or has a newer timestamp.
 
 ### 'Lost files'
 
-During a transition where sharing paradigms change, there are many users who claim, “My files are lost!”
+During a transition where sharing paradigms change, there are many users who claim, "My files are lost!"
 
-This is common if they are not in clear communication about how the sharing structure changes when they log in to Office 365. This can be mitigated with a clear communication strategy.
+This is common if they are not in clear communication about how the sharing structure changes when they log in to Microsoft 365. This can be mitigated with a clear communication strategy.
 
 ### Waiting for Microsoft
 
@@ -1107,7 +1107,7 @@ If you require assistance with your communication strategy, ask us for help.
 
 ## Transfer logs
 
-### Viewing your logs
+### View your logs
 
 Viewing your logs is an excellent way to troubleshoot transfer issues. They inform you about each action we performed on each file and folder. If we run into any problems, you receive an error message next to the file with a description about what happened.
 
@@ -1136,7 +1136,7 @@ View an example CSV log or in your browser:
 
 [User log for DropboxAdmin to BoxAdmin transfer_ tRanSacTionID.html](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/User log for DropboxAdmin to BoxAdmin transfer_ tRanSacTionID.html)
 
-### Interpreting a Log File
+### Interpret a log file
 
 - **Status**: Whether an action was a success or a failure.
 - **Size**: File size in bytes, or that it's a folder being created/operated on.
@@ -1145,15 +1145,15 @@ View an example CSV log or in your browser:
 
 |**Message**|**Definition**|
 |:-----|:-----|
-|Failed to download file successfully	|An issue occurred with the Source Connector.|
-|Failed to upload file successfully	|An issue occurred with the Destination Connector.|
-|Unknown error of type 400	|A 'bad request' error. It could be a problem with the Source (File Download) or Destination (File Upload). Typically, this means that something has changed client-side or server-side and could be resolved the next time you run the transfer.|
-|Unknown error of type 404	|This is a *server not found* error. Typically, this means that the Source (File Download) or Destination (File Upload) server is down or experiencing a temporary outage.|
-|Auth failure: attempt to renew authentication successful|	Authorization is failing either on the Source (File Download) or Destination (File Upload) Connector.|
-|Backoff used: #|	Generally seen after an action listed as 'throttle.' This means we've made too many requests of that Connector, and must wait before trying whatever action we were trying to complete again.|
-|Folder Already Exists|	We attempted to create the folder, but we've already created it in a previous transfer, or it already exists in the destination.|
-|Skipping because of incremental	|Not an error by definition; it's just our incremental process at work.|
-|Scanned|	Not an error by definition; it's just our scanner counting your data.|
+|Failed to download file successfully    |An issue occurred with the Source Connector.|
+|Failed to upload file successfully    |An issue occurred with the Destination Connector.|
+|Unknown error of type 400    |A 'bad request' error. It could be a problem with the Source (File Download) or Destination (File Upload). Typically, this means that something has changed client-side or server-side and could be resolved the next time you run the transfer.|
+|Unknown error of type 404    |This is a *server not found* error. Typically, this means that the Source (File Download) or Destination (File Upload) server is down or experiencing a temporary outage.|
+|Auth failure: attempt to renew authentication successful|    Authorization is failing either on the Source (File Download) or Destination (File Upload) Connector.|
+|Backoff used: #|    Generally seen after an action listed as 'throttle.' This means we've made too many requests of that Connector, and must wait before trying whatever action we were trying to complete again.|
+|Folder Already Exists|    We attempted to create the folder, but we've already created it in a previous transfer, or it already exists in the destination.|
+|Skipping because of incremental    |Not an error by definition; it's just our incremental process at work.|
+|Scanned|    Not an error by definition; it's just our scanner counting your data.|
 
 ## Reports
 
@@ -1211,23 +1211,23 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 
 |**Filter label**|**Label effect**|
 |:-----|:-----|
-|Status|	Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
-|Files|	Filters based on files transferred, failed, and skipped.|
-|Data	|Filters based on data that has transferred, failed, or skipped.|
-|Success|	Displays all successful Data and Files transferred.|
-|Failed	|Displays all Data and Files that have failed to transfer.|
-|Skipped	|Displays all data and files that were skipped.|
-|Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
-|Path	|Filters for specific source or destination path [for example, path:username].|
-|Destination|	Filters for specific destination path [for example, path:@domain<spam><spam>.com].|
-|Source|	Filters for specific source path [for example, path:foldername].|
-|Destination path	|Functions the same as **Destination**.|
-|Source path	|Functions the same as **Source**.|
-|Tags	 |Lists transfers with previously implemented custom tags.|
-|Notes	|Filters by keywords in previously implemented custom notes.|
-|Code|	Filters for specific status codes.|
-|Destination name|	Displays transfers with a specific destination name.|
-|Source name|	Displays transfers with a specific source name.|
+|Status|    Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
+|Files|    Filters based on files transferred, failed, and skipped.|
+|Data    |Filters based on data that has transferred, failed, or skipped.|
+|Success|    Displays all successful Data and Files transferred.|
+|Failed    |Displays all Data and Files that have failed to transfer.|
+|Skipped    |Displays all data and files that were skipped.|
+|Schedule    |Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
+|Path    |Filters for specific source or destination path [for example, path:username].|
+|Destination|    Filters for specific destination path [for example, path:@domain<spam><spam>.com].|
+|Source|    Filters for specific source path [for example, path:foldername].|
+|Destination path    |Functions the same as **Destination**.|
+|Source path    |Functions the same as **Source**.|
+|Tags     |Lists transfers with previously implemented custom tags.|
+|Notes    |Filters by keywords in previously implemented custom notes.|
+|Code|    Filters for specific status codes.|
+|Destination name|    Displays transfers with a specific destination name.|
+|Source name|    Displays transfers with a specific source name.|
 
 ### Scan report
 
@@ -1251,32 +1251,32 @@ The CSV report provides the following info for each user pairing.
 
 |**Header/Statistic**|**Definition**|
 |:-----|:-----|
-|Schedule ID|	Our internal reference unique to the user pairing created.|
-|Source|	Source directory path.|
-|Destination	|Destination directory path.|
-|Tags	|If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
-|Notes|	If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
-|First Run Start|	When the first transfer for this user pairing began.|
-|Files Transferred	|Total files transferred.|
-|MB Transferred	|Total data (MB) transferred.|
-|Times run|	Total number of times this user pairing has been run.|
-|Total Duration	|Total duration of each time this user pairing has been run.|
-|Average File Velocity (files/hour)|	Files transfered, divided by the total duration.|
-|Average Data Velocity (MB/hour)	|Data (MB) transfered, divided by the total duration.|
-|Last Status|	Last status of the user pairing. This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
-|Last Status Code|	Internal reference number referring to the last status of the user pairing.|
-|Last Skipped|	Number of skipped files in the last run.|
-|Last Files|	Number of files transferred in the last run.|
-|Last MB	|Volume of data (MB) transferred in the last run.|
-|Last MB Skipped	|Volume of data (MB) skipped in the last run.|
-|Last Failed Files	|Number of files that failed to transfer in the last run.|
-|Last Folders Listed	|Number of folders that we opened/created in the last run.|
-|Last Folders Failed	|Number of folders that we failed to open/create in the last run.|
-|Last Run Start	|When the latest transfer on this user pairing began.|
-|Last Run End	|When the latest transfer on this user pairing finished.|
-|Last Run Duration	|How long the latest transfer for this user pairing took to complete.|
-|Last File Velocity (files/hour)	|Files transferred, divided by the total duration for the last run.|
-|Last Data Velocity (MB/hour)|	Data (MB) transferred, divided by the total duration for the last run.|
+|Schedule ID|    Our internal reference unique to the user pairing created.|
+|Source|    Source directory path.|
+|Destination    |Destination directory path.|
+|Tags    |If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
+|Notes|    If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
+|First Run Start|    When the first transfer for this user pairing began.|
+|Files Transferred    |Total files transferred.|
+|MB Transferred    |Total data (MB) transferred.|
+|Times run|    Total number of times this user pairing has been run.|
+|Total Duration    |Total duration of each time this user pairing has been run.|
+|Average File Velocity (files/hour)|    Files transfered, divided by the total duration.|
+|Average Data Velocity (MB/hour)    |Data (MB) transfered, divided by the total duration.|
+|Last Status|    Last status of the user pairing. This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
+|Last Status Code|    Internal reference number referring to the last status of the user pairing.|
+|Last Skipped|    Number of skipped files in the last run.|
+|Last Files|    Number of files transferred in the last run.|
+|Last MB    |Volume of data (MB) transferred in the last run.|
+|Last MB Skipped    |Volume of data (MB) skipped in the last run.|
+|Last Failed Files    |Number of files that failed to transfer in the last run.|
+|Last Folders Listed    |Number of folders that we opened/created in the last run.|
+|Last Folders Failed    |Number of folders that we failed to open/create in the last run.|
+|Last Run Start    |When the latest transfer on this user pairing began.|
+|Last Run End    |When the latest transfer on this user pairing finished.|
+|Last Run Duration    |How long the latest transfer for this user pairing took to complete.|
+|Last File Velocity (files/hour)    |Files transferred, divided by the total duration for the last run.|
+|Last Data Velocity (MB/hour)|    Data (MB) transferred, divided by the total duration for the last run.|
 
 Download an example CSV:
 
@@ -1315,19 +1315,19 @@ We are stewards of your data. Our approach in all things is to see you successfu
 ### Communication
 
 Follow up with users after migration to ensure they know where to access their data.
-Provide a link to set up their new Office 365 accounts. Be prepared to answer any questions or concerns, as it is common for users to complain about a new system.
+Provide a link to set up their new Microsoft 365 accounts. Be prepared to answer any questions or concerns, as it is common for users to complain about a new system.
 
 ### Example email
 
-**Subject**: ATTENTION: Login to Office 365*
+**Subject**: ATTENTION: Log in to Microsoft 365*
 
 **Message**: 
-Over the weekend, we migrated our team from Office 365 to our new Office 365.
+Over the weekend, we migrated our team to our new Microsoft 365 from Office 365.
 
-All files and folders were transferred without any issues. To set up your new Office 365 account, follow this link.
+All files and folders were transferred without any issues. To set up your new Microsoft 365 account, follow this link.
 
 Your username remains the same; however, you must create a new password.
 
-From this point forward, log into your Office 365 account.
+From this point forward, log into your Microsoft 365 account.
 
 If you have any questions or concerns, let us know.

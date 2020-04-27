@@ -32,11 +32,11 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: The pagi
   
 1. Verify that you are a member of the Administrators group on the local computer.
     
-2. In the **System Properties** dialog box, on the **Advanced** tab, in the **Performance** section, click **Settings**.
+2. In the **System Properties** dialog, on the **Advanced** tab, in the **Performance** section, click **Settings**.
     
-3. In the **Performance Options** dialog box, on the **Advanced** tab, in the **Virtual memory** section, click **Change**.
+3. In the **Performance Options** dialog, on the **Advanced** tab, in the **Virtual memory** section, click **Change**.
     
-4. In the **Virtual Memory** dialog box, select the **Automatically manage paging file size for all drives** check box, or clear the check box and specify a paging file size that is equal to or greater than the physical memory that is available on the computer. We recommend that you either allow the system to manage the page file size or to set it at 150% of the size of the physical RAM. 
+4. In the **Virtual Memory** dialog, select the **Automatically manage paging file size for all drives** check box, or clear the check box and specify a paging file size that is equal to or greater than the physical memory that is available on the computer. We recommend that you either allow the system to manage the page file size or to set it at 150% of the size of the physical RAM. 
     
 5. Click **OK**, and then restart the computer to apply the changes.
     

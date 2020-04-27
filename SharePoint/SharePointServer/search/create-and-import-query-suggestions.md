@@ -53,7 +53,7 @@ Now that you have a query suggestions file, the next task is to import it to Sha
 ## How to import a query suggestions file to SharePoint Online
 <a name="BKMK_HowToImportQuerySuggestionsFileToSharepointOnline"> </a>
 
-1. From the Office 365 Admin menu, select **SharePoint**. 
+1. From the Microsoft 365 Admin menu, select **SharePoint**. 
     
      ![Share Point Menu](../media/OTCSP_SharePointMenu.png)
   

@@ -38,26 +38,26 @@ In this article
 ## Before you begin
 <a name="begin"> </a>
 
-Before you begin this task, review the following information about prerequisites:
+Before you begin this task, review the following info about prerequisites:
   
 - You must be using Excel and SharePoint Server 2013.
     
-- Excel Services must be configured to include a trusted data connections library and a trusted document library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).
+- Excel Services must be configured to include a trusted data connections library and a trusted document library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more info, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).
     
-- You will need information from a SharePoint administrator about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
+- You will need info from a SharePoint admin about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
     
 - You must have at least Contribute permissions assigned to you for the SharePoint library where you plan to publish the workbook.
     
 - You should have already created an Excel workbook that contains at least one item, such as a chart, table, PivotChart report, PivotTable report, or range of data. 
     
-- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
+- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more info, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
     
-- If you plan to publish a workbook that contains a Power View sheet, SQL Server Reporting Services must be configured in SharePoint integrated mode. For more information, see [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](https://go.microsoft.com/fwlink/p/?LinkId=296782).
+- If you plan to publish a workbook that contains a Power View sheet, SQL Server Reporting Services must be configured in SharePoint integrated mode. For more info, see [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](https://go.microsoft.com/fwlink/p/?LinkId=296782).
     
 ## Share workbooks using Excel Services
 <a name="part2"> </a>
 
-Suppose that you have created an Excel workbook that contains information that you want to share with others. Suppose additionally that you might want to display some content in that workbook in multiple locations. Excel Services enables you to do this by following a simple process:
+Suppose that you have created an Excel workbook that contains info that you want to share with others. Suppose additionally that you might want to display some content in that workbook in multiple locations. Excel Services enables you to do this by following a simple process:
   
 1. Define one or more named items in the workbook. These items can be charts, tables, PivotChart reports, PivotTable reports, ranges of data, and so on.
     
@@ -82,7 +82,7 @@ As you create items, such as PivotChart reports, PivotTable reports, slicers, Ti
     
     To define the whole worksheet as a named item, choose an empty cell in the worksheet, and then press CTRL+A.
     
-2. On the **Formulas** tab, in the **Defined Names** group, choose **Define Name** to open the **New Name** dialog box. 
+2. On the **Formulas** tab, in the **Defined Names** group, choose **Define Name** to open the **New Name** dialog. 
     
 3. In the **Name** box, type a name for the item. Choose a unique name that won't be repeated in the workbook. 
     
@@ -131,7 +131,7 @@ Use one of the following procedures to specify browser view options for the work
     
 4. If the workbook contains slicers or a Timeline control, click **Add**, select slicers or Timeline controls that you want to display, and then click **OK**.
     
-5. Click **OK** to close the **Browser View Options** dialog box. 
+5. Click **OK** to close the **Browser View Options** dialog. 
     
 6. Then close Excel.
     
@@ -151,11 +151,11 @@ When you publish a workbook you add it to a SharePoint library, such as a Docume
     > [!NOTE]
     > To specify a location as a trusted location in Excel Services, see [Manage Excel Services trusted file locations (SharePoint Server 2013)](manage-excel-services-trusted-file-locations.md). 
   
-3. In the library that you selected, choose **+ New Document** to open the **Add a Document** dialog box. 
+3. In the library that you selected, choose **+ New Document** to open the **Add a Document** dialog. 
     
-4. Choose **Browse**, and then use the **Choose File to Upload** dialog box to select the workbook that you want to publish. Then choose **Open**.
+4. Choose **Browse**, and then use the **Choose File to Upload** dialog to select the workbook that you want to publish. Then choose **Open**.
     
-5. In the **Add a document** dialog box, choose **OK**. The workbook is added to the library.
+5. In the **Add a document** dialog, choose **OK**. The workbook is added to the library.
     
 Now that you have published a workbook to a SharePoint library, you can display content from that workbook in an Excel Web Access Web Part.
   
