@@ -19,6 +19,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: d25713bb-5cf8-4874-9b5b-e8bee3b94f13
+ms.custom: seo-marvel-apr2020
 description: "Learn how to create a mobile application management policy for the OneDrive and SharePoint mobile apps in the OneDrive admin center. "
 ---
 
@@ -66,7 +67,7 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
     
 4. Click **Save**.
     
-## See also
+## Related topics
 
 [Intune Documentation](https://go.microsoft.com/fwlink/?linkid=2003459)
   

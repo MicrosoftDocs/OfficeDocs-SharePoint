@@ -23,7 +23,7 @@ description: "This article is an overview of the SharePoint Migration Tool and p
 
 
 >[!Note]
-> On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
+> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
 >
 >**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
 >
@@ -35,6 +35,7 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 
 **SPMT** lets you migrate content to SharePoint Online and OneDrive from the following locations:
 
+- SharePoint Server 2016 (Public Preview)
 - SharePoint Server 2013
 - SharePoint Foundation 2013
 - SharePoint Server 2010
@@ -43,12 +44,18 @@ Designed to be used for migrations ranging from the smallest set of files to a l
   
 ## Download and install
 
-Download and install **SPMT** using one of the download links below.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
+Download SPMT using one of the links listed below.  
+
+>[!NOTE]
+>**Download and install**:</br>
+>- [Current release](https://aka.ms/spmt-ga-page) 
+>- [Public preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  
+
+
+After downloading and installing SPMT, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
 
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
->[!NOTE]
->**Download and install**:   [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)
 
 
 ## Supported features

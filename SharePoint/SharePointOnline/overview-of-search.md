@@ -36,23 +36,23 @@ Many of the classic search features are available on the [search administration 
   
 The content must be crawled and added to the search index for your users to find what they're looking for when they search in SharePoint Online. Microsoft search uses the same index of SharePoint content as classic search does.
   
-See how you can make content searchable, and how you can crawl content to get it into the search index. Also, see how you can help users search for content across Office 365 and on-premises SharePoint Server at the same time. [Learn more](make-sure-content-can-be-found.md)
+See how you can make content searchable, and how you can crawl content to get it into the search index. Also, see how you can help users search for content across Office 365 and on-premises SharePoint Server at the same time. [See Make sure content can be found](make-sure-content-can-be-found.md)
   
 ## 2. Make the search results look great
   
 Presenting the search results the right way makes content easier to find.
   
-See how you can manage the classic experience in the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [Learn more](make-search-results-look-great.md)
+See how you can manage the classic experience in the Search Center in SharePoint Online, and how you can use the different search Web Parts to help each user find what they're looking for. [See Make the search results look great](make-search-results-look-great.md)
   
 ## 3. Show relevant search results
   
 All search results are not relevant to everyone all the time.
   
-See how you can show each user exactly the results they're looking for. [Learn more](show-relevant-search-results.md)
+See how you can show each user exactly the results they're looking for. [See Show the right search results](show-relevant-search-results.md)
   
 ## 4. Check logs, limits and reports
   
-See how you can check if the crawler has added content to the search index, and if your users are finding what they're looking for. Look up the limits for search, for example how many entries you can have in a custom search dictionary. [Learn more](check-logs-limits-and-reports.md)
+See how you can check if the crawler has added content to the search index, and if your users are finding what they're looking for. Look up the limits for search, for example how many entries you can have in a custom search dictionary. [See Check logs, limits and reports](check-logs-limits-and-reports.md)
   
 ## How search works
 <a name="howsearchworks"> </a>

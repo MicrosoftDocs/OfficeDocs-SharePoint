@@ -17,7 +17,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid:
 - SPO160
-- MET150
+- MET150s
 - BSA160
 description: "Learn how to plan and create the top landing page for your organization, and then set it as your home site."
 ---
@@ -34,17 +34,16 @@ A home site is a [communication site](https://support.office.com/article/94A3342
 
 When you set a site as your home site:
 
-- It's integrated with the new [SharePoint start page](https://support.office.com/article/5ffd35a6-9fd8-47a4-900d-c548208d092e). All users that have access to the home site will also see the branding, theming, header, navigation, and footer elements from the home site on their start page. This makes the home site content elements more discoverable, and is a great way to add some custom experiences to the default SharePoint start page. A link (which is editable) that points to the new SharePoint start page is added to the home site navigation. This allows users to easily navigate between the organization-wide content on the home site and their personalized content on the start page. 
-
-    ![Going from the home site to the SharePoint start page](media/home-site.gif)
-
-- The home site is easily accessible from the SharePoint mobile app for Android and iOS. All users that have access to the home site will see a home button on the Find tab of the mobile app. Being communication sites, home sites are designed to be mobile friendly from the start.
+- It's easily accessible from the SharePoint mobile app for Android and iOS. All users that have access to the home site will see a home button on the Find tab of the mobile app. Being communication sites, home sites are designed to be mobile friendly from the start.
 
     ![Link to the home site in the SharePoint mobile app](media/home-site-fre.png)
 
 - Search for the site is scoped to all sites within the organization. Having a great search experience is critical for the success of the home site. [Learn more about Microsoft Search](/microsoftsearch/overview-microsoft-search)
+
 - The site is automatically set up as an [organization news site](organization-news-site.md). (Although you can have only one home site, you can have multiple organization news sites.)
 
+> [!NOTE]
+> We're working to integrate the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) so users can easily navigate between them, and so that the branding, theming, header, navigation, and footer elements from the home site are applied to the start page.
 
 ## Plan and create your home site
 
