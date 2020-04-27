@@ -89,7 +89,7 @@ The cloud SSA lets you crawl and add metadata from on-premises content to the se
   
 Use the Hybrid Picker to connect your SharePoint Server and Microsoft 365 environments and create the cloud Search service application.
   
-On the application server that hosts the SharePoint ServerCentral Administration website:
+On the application server that hosts the SharePoint Server Central Administration website:
   
 1. Log on to the console as a farm administrator.
     
