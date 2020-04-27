@@ -1,24 +1,21 @@
 ---
 title: "Manage security groups"
 ms.reviewer: srice
-ms.author: jackwi-alt
-author: JackWightSteyer
+ms.author: v-jwight
+author: jackwi-alt
 manager: pamgreen
 audience: Admin
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:  
 - Strat_OD_share
 - M365-collaboration
 ms.custom:
--  seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
 description: "Learn how to manage security groups for sharing files and folders in SharePoint and OneDrive."
 ---
 
