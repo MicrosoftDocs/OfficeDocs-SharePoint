@@ -88,24 +88,26 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
 
 For info about using the OneDrive Group Policy objects, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md).
 
-## Moving from previous Windows Folder Redirection Group Policy
-The OneDrive Known Folder Move Group Policy objects won't work if you previously used Windows Folder Redirection Group Policy objects to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. Here are the steps you must take to get into a state where the Known Folder Move Group Policy will work:
-- If folder(s) have been redirected to OneDrive using Windows Folder Redirection Group Policy
+## Transition from the Windows Folder Redirection Group Policy objects
+The OneDrive Known Folder Move Group Policy objects won't work if you previously used [Windows Folder Redirection Group Policy objects](/windows-server/storage/folder-redirection/deploy-folder-redirection) to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. Follow these steps to switch to using the Known Folder Move Group Policy objects.
+
+- If folders have been redirected to OneDrive using Windows Folder Redirection Group Policy:
+
   1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive.
-  2. Enable KFM Group Policy.
-  3. Your known folders shouldn't have moved anywhere.
-- If folder(s) have been redirected to a location on a local PC
-  1. Disable the Window Folder Redirection Group Policy and make sure to redirect the folder(s) back to the user profile location.
-  2. Enable KFM Group Policy.
-  3. Known folders should have been moved successfully to OneDrive.
-- If folder(s) have been redirected to Network Share 
+  2. Enable KFM Group Policy. Known folder contents aren't moved.
+  
+- If folders have been redirected to a location on a local PC:
+
+  1. Disable the Window Folder Redirection Group Policy and make sure to redirect the folders back to the user profile location.
+  2. Enable KFM Group Policy. Known folders move to OneDrive.
+  
+- If folders have been redirected to a network file share: 
 
   > [!NOTE]
-  > Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and OneDrive build 17.3.7064.1005 or later are recommended to get Files on Demand benefits.
+  > We recommend using Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and OneDrive build 17.3.7064.1005 to get the benefits from Files On-Demand.
   
-  1. Use a migration tool ([Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365), [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool), etc.) to copy contents in the Network Share location to a user's ODB, making sure that all contents go into existing Documents, Pictures, or Desktop (create if it doesn’t exist) folders.
+  1. Use a migration tool ([Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365), [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool), etc.) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into existing Documents, Pictures, or Desktop (create if it doesn’t exist) folders.
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive. 
-  3. Enable KFM Group Policy.
-  4. Known folders should have been moved to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which should contain all of the Network share content that was moved in previously.
+  3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which contain all the file share content that you moved in the first step.
 
-For info about Windows Folder Redirection, see [Deploy Folder Redirection with Offline Files](/windows-server/storage/folder-redirection/deploy-folder-redirection). 
+
