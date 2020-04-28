@@ -103,7 +103,7 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
   >[!NOTE]
   > Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and OneDrive build 17.3.7064.1005 or later recommended to get Files on Demand benefits
   
-  1. Use a migration tool (Mover, SharePoint Migration Tool, etc.) to copy contents in Network Share location to user's ODB, make sure all content goes into existing Documents, Pictures, or Desktop (create if it doesn’t exist) folders.
+  1. Use a migration tool ([Mover](https://docs.microsoft.com/en-us/sharepointmigration/mover-fileshare-to-o365), [SharePoint Migration Tool](https://docs.microsoft.com/en-us/sharepointmigration/introducing-the-sharepoint-migration-tool), etc.) to copy contents in Network Share location to user's ODB, make sure all content goes into existing Documents, Pictures, or Desktop (create if it doesn’t exist) folders.
   2. Disable the Window Folder Redirection Group Policy, make sure to leave the folder and contents on OneDrive 
   3. Enable KFM Group Policy
   4. Known folders should be moved to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which should contain all of the Network share content that you moved in step b.
