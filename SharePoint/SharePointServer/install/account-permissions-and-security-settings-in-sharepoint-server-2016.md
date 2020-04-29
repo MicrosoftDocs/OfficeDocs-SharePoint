@@ -43,7 +43,7 @@ The following sections describe recommendations on SharePoint Service accounts.
 
 Microsoft recommends using a minimal number of Service Application Pool accounts in the farm. This is to reduce memory usage and increase performance while maintaining the appropriate level of security.
 
-- Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the **SharePoint Farm Administrator account** outlined below. Each SharePoint administrator should use a separate account to clearly identify activity performed by the administrator on the farm.
+- Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the **SharePoint Farm Administrator account** outlined below. Each SharePoint admin should use a separate account to clearly identify activity performed by the administrator on the farm.
 
 - If possible use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and grant permissions as outlined below. This simplifies the management of the SharePoint Farm Administrator accounts significantly.
 
@@ -65,7 +65,7 @@ Microsoft recommends using a minimal number of Service Application Pool accounts
 
 Service account name|What is it used for?|How many should be used?
 ----|----|----
-SharePoint Farm Administrator account|Personally identifiable account for a SharePoint Administrator|1-n
+SharePoint Farm Administrator account|Personally identifiable account for a SharePoint admin|1-n
 SharePoint Farm Service Account| Timer Service, Insights, IIS App for CA, SP Web Services System, Security Token Service App Pool|1
 Default content access account|Search crawling internal and external sources|1-n
 Content access accounts|Search crawling internal and external sources|1-n

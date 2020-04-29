@@ -20,7 +20,7 @@ description: "This article contains information on how to customize SharePoint s
 
 # SharePoint site permissions
 
-While SharePoint allows considerable customization of site permissions, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Office 365 group. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+While SharePoint allows considerable customization of site permissions, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Microsoft 365 group. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
 
 If you do need to customize SharePoint groups, this article describes how.
 
@@ -141,7 +141,7 @@ If you have customized a permission level or created a new permission level, you
 6. Click **OK**.
 
 > [!NOTE]
-> Permissions for the default SharePoint groups (Owners, Members, and Visitors) for Team sites that are connected to an Office 365 group can't be modified.
+> Permissions for the default SharePoint groups (Owners, Members, and Visitors) for Team sites that are connected to a Microsoft 365 group can't be modified.
 
 ### Add, change, or remove a site collection administrator
 <a name="__toc340230108"> </a>

@@ -16,7 +16,7 @@ description: "The Company Name Extraction option in SharePoint is being deprecat
 
 # Changes to company name extraction in SharePoint
 
-As we continue to deliver rich new search experiences with Microsoft search, we'll be making changes to some of the classic search experiences in Office 365. Beginning on November 15th, 2019, we'll be removing Company Name Extraction from SharePoint. Company Name Extraction in SharePoint allows the search system to extract company names from content under a specific set of conditions using a pre-populated dictionary or through using the Company Inclusions or Company Exclusions lists. While company name extraction has become a relied-upon solution to derive one or more company names from content in SharePoint, both the dictionary and its underlying feature set have become obsolete.
+As we continue to deliver rich new search experiences with Microsoft search, we'll be making changes to some of the classic search experiences in Microsoft 365. Beginning on November 15th, 2019, we'll be removing Company Name Extraction from SharePoint. Company Name Extraction in SharePoint allows the search system to extract company names from content under a specific set of conditions using a pre-populated dictionary or through using the Company Inclusions or Company Exclusions lists. While company name extraction has become a relied-upon solution to derive one or more company names from content in SharePoint, both the dictionary and its underlying feature set have become obsolete.
 
 ![Screenshot of Search in SharePoint Online](media/spo-extraction-01.png)
 
@@ -28,7 +28,7 @@ If you have configured company name extraction on a managed property, you will s
 
 ### What happens when company name extraction is deprecated?
 
-If you have configured company name extraction to be surfaced in the classic Enterprise Search Center as a refiner (refer to the above illustration), you will see the refiner is not populated with data over time resulting in the CompanyName refiner to be empty once the deprecation has been completed. The rest of the search experience will not be impacted. The Company Inclusions and Exclusion lists configured in the Term Store Management Tool will not be removed.
+If you have configured company name extraction to be surfaced in the classic Enterprise Search Center as a refiner (see the previous illustration), the refiner is not populated with data over time resulting in the CompanyName refiner to be empty after the deprecation has been completed. The rest of the search experience is not impacted. The Company Inclusions and Exclusion lists configured in the Term Store Management Tool will not be removed.
 
 For developers and custom solutions, third-party applications using the SharePoint REST/CSOM API will not have the CompanyName refiner returned in the results. Any other refiners and query features will continue to work.
 

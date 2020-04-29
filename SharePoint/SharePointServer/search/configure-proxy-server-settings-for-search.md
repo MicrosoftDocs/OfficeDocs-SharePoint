@@ -35,9 +35,9 @@ A farm administrator or Search service application administrator can specify pro
     
     The default value is **None**.
     
-5. In the **Search Proxy Setting** dialog box, do one of the following: 
+5. In the **Search Proxy Setting** dialog, do one of the following: 
     
-     ![Search Proxy Setting dialog box](../media/SearchProxySettingDialog.GIF)
+     ![Search Proxy Setting dialog](../media/SearchProxySettingDialog.GIF)
   
   - Select **Do not connect by using a proxy server** if you do not want to use a proxy server for crawling or federation. 
     
@@ -53,7 +53,7 @@ A farm administrator or Search service application administrator can specify pro
     
     - Select the **Use these proxy settings for access to federated sites** check box if you want the search system to use the proxy server when it queries external content repositories. 
     
-6. In the **Search Proxy Setting** dialog box, click **OK**.
+6. In the **Search Proxy Setting** dialog, click **OK**.
     
 ## See also
 <a name="section1"> </a>

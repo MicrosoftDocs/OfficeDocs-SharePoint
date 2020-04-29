@@ -35,21 +35,21 @@ For this scenario, we assume that:
     
 ## Step 1: Purchase Yammer Enterprise
 
-Yammer Enterprise is included in many Office 365 plans, which means that you might already have licenses for the service. 
+Yammer Enterprise is included in many Microsoft 365 subscriptions, which means that you might already have licenses for the service. 
   
 ## Step 2: Create your Yammer network
 
 To set up a Yammer network, see [Yammer admin help](https://docs.microsoft.com/yammer/yammer-landing-page).
   
-When you set up your network, [enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042).
+When you set up your network, [enforce Microsoft 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042).
   
-For information about how users are managed in Yammer Enterprise, see [Manage Yammer users across their life cycle from Office 365](https://go.microsoft.com/fwlink/?linkid=875043).
+For information about how users are managed in Yammer Enterprise, see [Manage Yammer users across their life cycle from Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875043).
   
 ## Step 3: Set up directory synchronization
 
-Office 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to enforce Office 365 identity. If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
+Microsoft 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to enforce Microsoft 365 identity. If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
-For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
+For more information, see [Plan for directory synchronization for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
   
 ## Step 4: Disable default SharePoint Server social features
 
@@ -68,7 +68,7 @@ After you disable the default SharePoint Server social features, you should [use
 [Social scenarios with Yammer and SharePoint Server](social-scenarios-with-yammer-and-sharepoint-server.md)
 #### Other Resources
 
-[Manage Yammer users across their life cycle from Office 365](https://go.microsoft.com/fwlink/?linkid=875043)
+[Manage Yammer users across their life cycle from Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875043)
 
 [Yammer - Admin Help](https://go.microsoft.com/fwlink/?linkid=525575)
 

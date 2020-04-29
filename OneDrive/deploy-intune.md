@@ -45,18 +45,18 @@ Use Intune to deploy the mobile apps for iOS and Android and to deploy the new O
     ![](media/deploy-onedrive-enterprise_image1.png)
 
 6. Select it, select **Select**, and then select **Add**.
-7. Select **Assignments**, and choose the group you created. For info about this, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
+7. Select **Assignments** and select the group you created. For info about this, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
 
 For more info about using Intune to deploy apps to iOS devices, see [How to add iOS store apps to Microsoft Intune](https://github.com/MicrosoftDocs/IntuneDocs/blob/master/intune/store-apps-ios.md). 
 
-For more info about deploying Office 365 apps to MacOS devices using Intune, see [How to assign Office 365 to MacOS devices with Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365-macos).
+For more info about deploying Microsoft 365 apps to MacOS devices using Intune, see [How to assign Microsoft 365 to MacOS devices with Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365-macos).
 
 ### Deploy OneDrive to Android devices by using Intune
 
-1. In the Azure AD admin center, create a group of devices or users to target the deployment.
+1. To target the deployment in the Azure AD admin center, create a group of devices or users.
 2. In Intune, select **Client apps**, then select **Apps**, and then select **Add**.
 3. Under **App type**, select **Android**.
-4. Click to configure the app info, and enter the required info, including **https://play.google.com/store/apps/details?id=com.microsoft.skydrive** for the Appstore URL, and **Android 4.0 (Ice Cream Sandwich)** for the minimum operating system. 
+4. To configure the app information, enter the required info, including **https://play.google.com/store/apps/details?id=com.microsoft.skydrive** for the Appstore URL and **Android 4.0 (Ice Cream Sandwich)** for the minimum operating system. 
 
     ![](media/deploy-onedrive-enterprise_image2.png)
 
@@ -87,4 +87,4 @@ To use Intune to deploy OneDrive to Windows devices, follow these steps:
 9. Select **Assignments**, and choose the group you created.
 10. If you want to use silent account configuration, add a PowerShell script to do this, and assign it to the group. For info about this, see [Silently configure user accounts](use-silent-account-configuration.md).
 
-For more info about deploying Office 365 apps to Windows 10 devices using Intune, see [How to assign Office 365 apps to Windows 10 devices with Microsoft Intune](/intune/apps-add-office365/). 
+For more info about deploying Microsoft 365 apps to Windows 10 devices using Intune, see [How to assign Office 365 apps to Windows 10 devices with Microsoft Intune](/intune/apps-add-office365/). 

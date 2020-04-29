@@ -72,7 +72,7 @@ The Microsoft SharePoint Products Preparation Tool checks for the presence of pr
 
 Ensure that SQL Server is updated to the required level and the TCP/IP protocol is enabled for the network configuration. 
   
-Organizations whose database administrators operate independently from SharePoint administrators will have to make sure that the correct version of SQL Server is available and updated to the required level. In addition, you will have to request a DBA-created database. 
+Organizations whose database administrators operate independently from SharePoint admins will have to make sure that the correct version of SQL Server is available and updated to the required level. In addition, you will have to request a DBA-created database. 
   
 For additional information about DBA databases, see [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md), [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
@@ -133,7 +133,7 @@ The following procedure installs binaries, configures security permissions, and 
   
 6.  Click **Install Now**.
     
-7. When the Setup program is finished, a dialog box prompts you to complete the configuration of your server. Clear the **Run the SharePoint Products and Technologies Configuration Wizard now** check box. 
+7. When the Setup program is finished, a dialog prompts you to complete the configuration of your server. Clear the **Run the SharePoint Products and Technologies Configuration Wizard now** check box. 
     
     > [!NOTE]
     > For consistency of approach, we recommend that you do not run the configuration wizard until you have installed SharePoint Server 2016 on all SharePoint servers that will participate in the server farm. 
@@ -149,11 +149,11 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. On the server that will host Central Administration (the application server), click **Start**, point to **All Apps**, and then click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog box appears, click **Continue**.
+2. On the server that will host Central Administration (the application server), click **Start**, point to **All Apps**, and then click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog appears, click **Continue**.
     
 3. On the **Welcome to SharePoint Products** page, click **Next**.
     
-4. In the dialog box that notifies you that some services might have to be restarted during configuration, click **Yes**.
+4. In the dialog that notifies you that some services might have to be restarted during configuration, click **Yes**.
     
 5. On the **Connect to a server farm** page, click **Create a new server farm**, and then click **Next**.
     

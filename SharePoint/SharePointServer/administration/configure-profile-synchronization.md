@@ -344,7 +344,7 @@ After you start the User Profile synchronization service, for day to day operati
     
 3. Right click **WMI Control**, and then click **Properties**.
     
-4. In the **WMI Control Properties** dialog box, click the **Security** tab. 
+4. In the **WMI Control Properties** dialog, click the **Security** tab. 
     
 5. Expand the **Root** list, and then select the Microsoft FIM 2010 namespace **MicrosoftIdentityIntegrationServer**.
     
@@ -352,7 +352,7 @@ After you start the User Profile synchronization service, for day to day operati
     
 7. Add the farm account to the list of groups and users, and then in the **Permissions for Authenticated Users** box, select **Allow** for the **Remote Enable** permission. 
     
-8.  Click **OK** to dismiss the **Security for ROOT\MicrosoftIdentityIntegrationServer** dialog box, and then click **OK** to dismiss the **WMI Control Properties** dialog box. 
+8.  Click **OK** to dismiss the **Security for ROOT\MicrosoftIdentityIntegrationServer** dialog, and then click **OK** to dismiss the **WMI Control Properties** dialog. 
     
 ### Reset IIS
 <a name="ResetIISProc"> </a>
@@ -369,7 +369,7 @@ If the SharePoint Central Administration website and the User Profile synchroniz
     
 2. Start a Command Prompt with elevated privileges.
     
-3. In the **User Account Control** dialog box, click **Yes**.
+3. In the **User Account Control** dialog, click **Yes**.
     
 4. In the **Administrator: Command Prompt** window, type iisreset and then press ENTER. 
     

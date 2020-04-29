@@ -52,7 +52,7 @@ Use this procedure to uninstall SharePoint 2013.
     
 4. In the **Programs** area, click **Uninstall a program**.
     
-5. In the **Uninstall or change a program** dialog box, click **Microsoft SharePoint Server 2013**.
+5. In the **Uninstall or change a program** dialog, click **Microsoft SharePoint Server 2013**.
     
 6. Click **Change**.
     

@@ -25,7 +25,7 @@ description: "Learn the FQDNs and ports to include in your allow lists to let us
 > [!IMPORTANT]
 > Filtering internet traffic requires advanced networking knowledge and isn't suitable for all customers.
   
- **If you are looking for a listing of endpoints used by OneDrive in Office 365, see [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).**
+ **If you are looking for a listing of endpoints used by OneDrive in Microsoft 365, see [Microsoft 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).**
   
 ## Supported hosts and ports for OneDrive
 

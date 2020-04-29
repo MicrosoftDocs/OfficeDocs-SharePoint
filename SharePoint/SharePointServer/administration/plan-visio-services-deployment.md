@@ -88,6 +88,6 @@ Visio Services settings and Visio documents stored in SharePoint Server librarie
   
 ## Requirements for authors of Visio diagrams
 
-Visio Services lets you display Visio diagrams in a Web Part without the need to have Visio installed on the client computer. However, Visio Services does not allow for creating or editing Visio diagrams. As part of your deployment plan for Visio Services, you should also plan for the needs of diagram authors within your organization. Each diagram author who has to use Visio Services must have a copy of Visio Professional, Visio Premium, or Visio Pro for Office 365.
+Visio Services lets you display Visio diagrams in a Web Part without the need to have Visio installed on the client computer. However, Visio Services does not allow for creating or editing Visio diagrams. As part of your deployment plan for Visio Services, you should also plan for the needs of diagram authors within your organization. Each diagram author who has to use Visio Services must have a copy of Visio Professional, Visio Premium, or Visio Pro for Microsoft 365.
   
 

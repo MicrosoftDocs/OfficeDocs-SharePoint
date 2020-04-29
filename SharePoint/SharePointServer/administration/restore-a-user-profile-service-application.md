@@ -105,7 +105,7 @@ Use the following procedures to restore a User Profile service application by us
     
 6. On the Restore from Backup — Step 3 of 3: Select Restore Options page, in the **Restore Component** section, make sure that **Farm\Shared Services Applications\\<User Profile Service service application name\>** appears in the **Restore the following component** list. 
     
-    In the **Restore Options** section, under **Type of restore**, select the **Same configuration** option. A dialog box will appear that asks you to confirm the operation. Click **OK**.
+    In the **Restore Options** section, under **Type of restore**, select the **Same configuration** option. A dialog will appear that asks you to confirm the operation. Click **OK**.
     
 7. Click **Start Restore**.
     
@@ -145,7 +145,7 @@ You cannot restore the complete service application or service application proxy
     
 8. Right-click the database that you want to restore, point to **Tasks**, and then click **Restore Database**.
     
-9. In the **Restore Database** dialog box, on the **Options** page, select the kind of recovery that you want to perform from the **Recovery state** list.
+9. In the **Restore Database** dialog, on the **Options** page, select the kind of recovery that you want to perform from the **Recovery state** list.
     
     For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
     

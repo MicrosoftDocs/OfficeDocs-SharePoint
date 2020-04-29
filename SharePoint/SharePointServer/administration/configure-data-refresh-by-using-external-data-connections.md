@@ -123,7 +123,7 @@ Use the following procedure to create an ODC file and create a data-connected di
     
 1. Click **Authentication Settings**.
     
-2. On the **Visio Services Authentication Settings** dialog box, choose the **Use a stored account** option, type the application ID of the Secure Store target application that you created in the **Application ID** text box, and click **OK**.
+2. On the **Visio Services Authentication Settings** dialog, choose the **Use a stored account** option, type the application ID of the Secure Store target application that you created in the **Application ID** text box, and click **OK**.
     
 3. Click Browse.
     
@@ -136,7 +136,7 @@ Use the following procedure to create an ODC file and create a data-connected di
     
 6. Click **Finish**.
     
-7. If the **Web File Properties** dialog box appears, click **OK**.
+7. If the **Web File Properties** dialog appears, click **OK**.
     
 8. On the Select Data Connection page, click **Finish**.
     
@@ -162,9 +162,9 @@ Use the following procedure to connect to an existing ODC file.
     
 4. On the Select Data Connection page, click **Browse**.
     
-5. On the **Existing Connections** dialog box, click **Browse for More**.
+5. On the **Existing Connections** dialog, click **Browse for More**.
     
-6. In the **Data Selector** dialog box, in the **URL** box, type the URL of the data connection library where you saved the ODC file, and then press Enter. 
+6. In the **Data Selector** dialog, in the **URL** box, type the URL of the data connection library where you saved the ODC file, and then press Enter. 
     
 7. Select the ODC file and then click **Open**.
     

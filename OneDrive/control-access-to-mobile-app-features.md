@@ -34,23 +34,27 @@ If your organization has **Microsoft Intune** or **Enterprise Mobility + Securit
   
 Go to the Device access page of the [OneDrive admin center](https://admin.onedrive.com) to:
   
-- Block downloading files in the apps
+- Block downloading files in the apps.
     
-- Block taking screenshots in the Android apps
+- Block taking screenshots in the Android apps.
     
-- Block copying files and content within files
+- Block copying files and content within files.
     
-- Block printing files in the apps
+- Block printing files in the apps.
     
-- Block backing up app data
+- Block backing up app data.
     
-- Require an app passcode
+- Require an app passcode.
     
-- Block opening OneDrive and SharePoint files in other apps
+- Block opening OneDrive and SharePoint files in other apps.
     
-- Encrypt app data when the device is locked
+- Encrypt app data when the device is locked.
     
-- Require Office 365 sign-in each time the app is opened
+<<<<<<< Updated upstream
+- Require Microsoft 365 sign-in each time the app is opened
+=======
+- Require Microsoft 365 sign-in each time the app is opened.
+>>>>>>> Stashed changes
     
 - Choose values for how often to verify user access and when to wipe app data when a device is offline.
     

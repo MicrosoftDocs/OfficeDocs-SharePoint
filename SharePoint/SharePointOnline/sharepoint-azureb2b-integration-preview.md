@@ -37,7 +37,7 @@ Advantages of Azure AD B2B include:
 - If you have configured Google federation in Azure AD, federated users can now access SharePoint and OneDrive resources that you have shared with them.
 - SharePoint and OneDrive sharing is subject to the Azure AD organizational relationships settings, such as **Members can invite** and **Guests can invite**.
 
-This preview is not supported in the following Office 365 services:
+This preview is not supported in the following Microsoft 365 services:
 - Office 365 Germany
 - Office 365 operated by 21Vianet
 - GCC High and DoD
@@ -47,12 +47,12 @@ This preview is not supported in the following Office 365 services:
 This preview requires that your organization also be opted into the [Azure AD email one-time passcode authentication preview](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
 
 To opt in to the Azure AD passcode authentication preview
-1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global administrator.
-2. In the navigation pane, select **Azure Active Directory**.
+1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
+2. In the nav pane, select **Azure Active Directory**.
 3. Under **Manage**, select **Organizational Relationships**.
 4. Select **Settings**.
 5. Under **Enable Email One-Time Passcode for guests (Preview)**, select **Yes**.
-6. Click **Save**.
+6. Select **Save**.
 
 To opt in to the SharePoint and OneDrive integration with Azure AD B2B
 1. Install the latest version of the [SharePoint Online Services Module for Windows PowerShell](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell) (minimum version 8924.1200).

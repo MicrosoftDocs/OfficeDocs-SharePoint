@@ -58,9 +58,9 @@ Use the following procedure to create a permission policy level.
     
 4. In the **Policy** group of the ribbon, click **Permission Policy**.
     
-5. In the Manage permission policy levels dialog box, click **Add Permission Policy Level**.
+5. In the Manage permission policy levels dialog, click **Add Permission Policy Level**.
     
-6. In the Add permission policy level dialog box, in the **Name and Description** section, type the name and description for the policy that you want to create. 
+6. In the Add permission policy level dialog, in the **Name and Description** section, type the name and description for the policy that you want to create. 
     
 7. In the **Site Collection Permissions** section, select the site collection permissions for this policy. 
     
@@ -90,7 +90,7 @@ Use the following procedure to edit a permission policy level.
     
 4. In the **Policy** group of the ribbon, click **Permission Policy**.
     
-5. In the Manage permission policy levels dialog box, click the link for the permission policy level that you want to edit.
+5. In the Manage permission policy levels dialog, click the link for the permission policy level that you want to edit.
     
 6. On the Edit permission policy level page, edit the settings, and then click **Save**.
     
@@ -108,7 +108,7 @@ You might want to delete a permission policy level if the users or groups for wh
     
 4. In the **Policy** group of the ribbon, click **Permission Policy**.
     
-5. In the Manage permission policy levels dialog box, select the check box of the permission policy level that you want to delete, and then click **Delete Selected Permission Policy Levels**.
+5. In the Manage permission policy levels dialog, select the check box of the permission policy level that you want to delete, and then click **Delete Selected Permission Policy Levels**.
     
 6. Click **OK** to confirm the deletion. 
     
@@ -137,11 +137,11 @@ Use the following procedure to add users to a permission policy level.
     
 4. In the Policy group of the ribbon, click **User Policy**.
     
-5. In the Policy for Web Application dialog box, click **Add Users**.
+5. In the Policy for Web Application dialog, click **Add Users**.
     
-6. In the Add Users dialog box, in the **Zone** list, click the zone to which you want the permission policy level to apply and then click **Next**.
+6. In the Add Users dialog, in the **Zone** list, click the zone to which you want the permission policy level to apply and then click **Next**.
     
-7. In the Add Users dialog box, in the **Choose Users** section, type the user names, group names, or e-mail addresses that you want to add to the permission policy level. 
+7. In the Add Users dialog, in the **Choose Users** section, type the user names, group names, or e-mail addresses that you want to add to the permission policy level. 
     
 8. In the **Choose Permissions** section, select the permissions that you want the users to have. 
     
@@ -163,7 +163,7 @@ Use the following procedure to edit the permissions granted by a permission poli
     
 4. In the **Policy** group of the ribbon, click **User Policy**.
     
-5. In the Policy for Web Application dialog box, select the check box next to the user or group that you want to manage, and then click **Edit Permissions of Selected Users**.
+5. In the Policy for Web Application dialog, select the check box next to the user or group that you want to manage, and then click **Edit Permissions of Selected Users**.
     
 6. On the Edit Users page, in the **Permission Policy Levels** section, select the permissions that you want the users to have. 
     
@@ -185,7 +185,7 @@ Use the following procedure to delete a user from a permission policy level.
     
 4. In the **Policy** group of the ribbon, click **User Policy**.
     
-5. In the Policy for Web Application dialog box, select the check box next to the user or group that you want to delete, click **Delete Selected Users**, and then click **OK**.
+5. In the Policy for Web Application dialog, select the check box next to the user or group that you want to delete, click **Delete Selected Users**, and then click **OK**.
     
 ## See also
 <a name="section1"> </a>

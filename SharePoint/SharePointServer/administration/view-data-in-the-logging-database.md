@@ -85,7 +85,7 @@ To access the pre-defined views, you must access the SharePoint Server 2016 logg
     > [!NOTE]
     > If you do not have Management Studio on the server, reinstall SQL Server 2008 and add the Management Studio component. For more information, see [SQL Server Install](https://go.microsoft.com/fwlink/p/?LinkId=237482). 
   
-3. In the **Connect to Server** dialog box, choose **Database Engine**. Then specify the server name, for example, ServerName\SharePoint. Select the authentication type ( **Windows Authentication** or **SQL Server Authentication**) that you configured through SharePoint Server 2016Central Administration. If it is **SQL Server Authentication**, specify the credentials for the database administrator. After the information is set, click **Connect**. 
+3. In the **Connect to Server** dialog, choose **Database Engine**. Then specify the server name, for example, ServerName\SharePoint. Select the authentication type ( **Windows Authentication** or **SQL Server Authentication**) that you configured through SharePoint Server 2016Central Administration. If it is **SQL Server Authentication**, specify the credentials for the database administrator. After the information is set, click **Connect**. 
     
 4. Switch to the **Object Explorer** view by clicking **View**, and then clicking **Object Explorer**. Expand **Databases** to see the logging database that has default name **SharePoint_Logging** or a name that you configured in Central Administration. 
     

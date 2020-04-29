@@ -38,7 +38,7 @@ Before you begin this operation, review [Share service applications across farms
     
 4. On the ribbon, click **Publish**.
     
-5. In the **Publish Service Application** dialog box do the following tasks: 
+5. In the **Publish Service Application** dialog do the following tasks: 
     
    - Select the **Connection Type** that you want from the drop-down list. 
     

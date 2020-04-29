@@ -101,25 +101,27 @@ To manage the use of network bandwidth, you can configure a QoS policy with a sp
     
 2. Browse to the location where you want to create the new policy. For example, if all your client computers are located in an OU (Organizational Unit) named "Clients" then the new policy should be created in the "Clients" OU. 
     
-3. Right-click the location, and then click **Create a GPO in this domain**, and **Link it here**. 
+3. Right-click the location, select **Create a GPO in this domain**, and then select **Link it here**. 
     
-4. In the **New GPO** dialog box, enter a name for the new Group Policy object in the **Name** box (for example, "OneDrive sync app") and then click **OK**. 
+4. In the **New GPO** dialog, enter a name for the new Group Policy object in the **Name** box (for example, "OneDrive sync app") and then select **OK**. 
     
-5. Right-click the policy and then click **Edit**. 
+5. Right-click the policy, and then select **Edit**. 
     
-6. In the Group Policy Management Editor, expand **Computer Configuration**, expand **Policies**, expand **Windows Settings**, right-click **Policy-based QoS**, and then click **Create new policy**. 
+6. In the Group Policy Management Editor, expand **Computer Configuration**, expand **Policies**, expand **Windows Settings**, right-click **Policy-based QoS**, and then select **Create new policy**. 
     
-7. In the Policy-based QoS dialog box, enter a name for the new policy in the **Name** box (for example, "OneDrive sync app"). 
+7. In the **Policy-based QoS** dialog, enter a name for the new policy in the **Name** box (for example, "OneDrive sync app"). 
     
 8. Select **Specify DSCP Value** and set the appropriate value between 0 and 63 based on your organization's QoS strategy. 
     
-9. In the **Outbound Throttle Rate** box, enter a rate in KBps and click **Next**. 
+9. In the **Outbound Throttle Rate** box, enter a rate in KBps, and select **Next**. 
     
-10. Select **Only applications with this executable name** and enter "onedrive.exe" to apply the QoS policy to only the OneDrive sync app process. Click **Next**. 
+10. Select **Only applications with this executable name** and to apply the QoS policy to only the OneDrive sync app process, enter "onedrive.exe". Select **Next**. 
     
-11. Make sure that both **Any source IP address** and **Any destination IP address** are selected and then click **Next**. These two settings ensure that packets will be managed regardless of which computer (IP address) sent those packets and which computer (IP address) will receive those packets. 
+11. Make sure that both **Any source IP address** and **Any destination IP address** are selected, and then select **Next**. These two settings ensure that packets will be managed regardless of which computer (IP address) sent those packets and which computer (IP address) will receive those packets. 
     
-12. In the **Select the protocol this QoS policy applies to** list, select **TCP**. Leave **from any source port** and **to any destination** selected. Click **Finish**.
+12. In the **Select the protocol this QoS policy applies to** list, select **TCP**. Leave **from any source port** and **to any destination** selected.
+
+13. Select **Finish**.
     
 ### Use OneDrive Group Policy objects
 
@@ -136,5 +138,5 @@ For info about these policies, see:
 ## See also
 <a name="ControlSyncThroughput"> </a>
 
-[Network planning and performance tuning for Office 365](/office365/enterprise/network-planning-and-performance)
+[Network planning and performance tuning for Microsoft 365](/office365/enterprise/network-planning-and-performance)
 

@@ -39,7 +39,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Alternat
     
 3. On the Alternate Access Mappings page, on the **Alternate Access Mapping Collection** menu, click **Change Alternate Access Mapping Collection**.
     
-4. In the **Select An Alternate Access Mapping Collection** dialog box, click the alternate access mapping collection for which you want to change the default zone URL. 
+4. In the **Select An Alternate Access Mapping Collection** dialog, click the alternate access mapping collection for which you want to change the default zone URL. 
     
 5. On the Alternate Access Mappings page, click **Edit Public URLs**.
     

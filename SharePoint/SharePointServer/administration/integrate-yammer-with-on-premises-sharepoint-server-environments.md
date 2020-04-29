@@ -23,11 +23,11 @@ Although SharePoint Server provides basic enterprise social features, Yammer Ent
 
 Before you integrate Yammer into your SharePoint Server  environment, you should learn about:
 - Yammer networks, groups, and users, and how they combine to create a foundation for providing you with a rich Yammer experience within SharePoint. For more information, see [Yammer networks, groups, and users overview](yammer-networks-groups-and-users-overview.md).
-- Directory synchronization and enforcing Office 365 identity in Yammer. By using directory synchronization, your organization can use existing on-premises user accounts. Your organization can also significantly reduce operational costs and give its employees safer and easier access to Yammer. 
+- Directory synchronization and enforcing Microsoft 365 identity in Yammer. By using directory synchronization, your organization can use existing on-premises user accounts. Your organization can also significantly reduce operational costs and give its employees safer and easier access to Yammer. 
   
-    Office 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to enforce Office 365 identity so that users only have to sign on once to access both SharePoint and Yammer content. If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
+    Microsoft 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to enforce Microsoft 365 identity so that users only have to sign on once to access both SharePoint and Yammer content. If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
-    For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044), [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669), and [Enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875249)
+    For more info, see [Plan for directory synchronization for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875044), [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669), and [Enforce Microsoft 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875249)
     
 ## Add Yammer to the navigation for SharePoint 
 
@@ -35,7 +35,7 @@ In SharePoint Server 2019 and SharePoint Server 2016, you can add a Yammer tile 
 
 Here's what it looks like in SharePoint Server 2019:
 
-![SharePoint Server 2019 Office 365 navigation showing the Yammer app](../media/yammer_spserver_apps2019.png)
+![SharePoint Server 2019 Microsoft 365 navigation showing the Yammer app](../media/yammer_spserver_apps2019.png)
 
 Here's what it looks like in SharePoint Server 2016: 
 

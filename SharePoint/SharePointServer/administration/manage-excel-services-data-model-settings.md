@@ -84,7 +84,7 @@ Use the following procedure to remove an instance of SQL Server 2012 SP1 Analysi
     
 4. Hover over the server that you want to edit, click the arrow that appears, and then click **Delete**.
     
-5. Click **OK** on the delete confirmation dialog box. 
+5. Click **OK** on the delete confirmation dialog. 
     
 ## See also
 <a name="proc3"> </a>
