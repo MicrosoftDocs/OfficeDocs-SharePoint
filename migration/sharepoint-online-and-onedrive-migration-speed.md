@@ -29,7 +29,7 @@ description: "This article explains the factors that influence migration speed a
 >[!Important]
 >**Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. **Opening a support ticket will not lift throttle**.
 >
->See the [FAQ and Troubleshooting](#aq-and-troubleshooting) section below for additional information.
+>See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section below for additional information.
 
 
 This article explains the factors that influence performance when migrating content to SharePoint Online and OneDrive.
