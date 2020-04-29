@@ -89,7 +89,7 @@ The cloud SSA lets you crawl and add metadata from on-premises content to the se
   
 Use the Hybrid Picker to connect your SharePoint Server and Microsoft 365 environments and create the cloud Search service application.
   
-On the application server that hosts the SharePoint ServerCentral Administration website:
+On the application server that hosts the SharePoint Server Central Administration website:
   
 1. Log on to the console as a farm administrator.
     
@@ -120,7 +120,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
   
 1. Make sure you're using the same user account as when you installed SharePoint Server. This account is granted the appropriate permissions to run Window Powershell cmdlets.
     
-2. Start the Windows Powershell console with administrator privileges: Select **Start**, enter **PowerShell**, and then right-click **Windows PowerShell**, and select **Run as administrator.**
+2. Start the Windows PowerShell console with administrator privileges: Select **Start**, enter **PowerShell**, and then right-click **Windows PowerShell**, and select **Run as administrator.**
     
 3. Run the **CreateCloudSSA.ps1** PowerShell script. 
     
