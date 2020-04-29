@@ -50,12 +50,8 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
 - Block opening OneDrive and SharePoint files in other apps.
     
 - Encrypt app data when the device is locked.
-    
-<<<<<<< Updated upstream
-- Require Microsoft 365 sign-in each time the app is opened
-=======
+
 - Require Microsoft 365 sign-in each time the app is opened.
->>>>>>> Stashed changes
     
 - Choose values for how often to verify user access and when to wipe app data when a device is offline.
     
