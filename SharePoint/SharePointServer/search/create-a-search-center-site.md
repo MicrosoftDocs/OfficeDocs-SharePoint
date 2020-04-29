@@ -72,9 +72,9 @@ After you create the Search Center site, you must grant site access to users so 
     
 3. Open the **Site** menu by clicking the gear icon in the upper-right portion of the page, and then click **Shared with**.
     
-4. In the **Shared With** dialog box, click **Invite people**.
+4. In the **Shared With** dialog, click **Invite people**.
     
-5. In the **Share \<SearchCenterName\>** dialog box, in the **Enter users separated with semicolons** text box, type the names of the Windows user groups and Windows users to whom you want to grant permissions for submitting queries and viewing search results in the Search Center. 
+5. In the **Share \<SearchCenterName\>** dialog, in the **Enter users separated with semicolons** text box, type the names of the Windows user groups and Windows users to whom you want to grant permissions for submitting queries and viewing search results in the Search Center. 
     
     For example, to grant access to the Search Center to all Windows users, type NT Authority\authenticated users.
     

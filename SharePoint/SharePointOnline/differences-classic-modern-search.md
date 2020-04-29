@@ -1,5 +1,5 @@
 ---
-title: "Difference between classic and modern search experience - SharePoint Online"
+title: "Difference between classic & modern search experiences - SharePoint"
 ms.reviewer: 
 author: MikePlumleyMSFT
 ms.author: mikeplum
@@ -15,7 +15,7 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: "This article, provides an overview of the difference between the classic and modern search experiences in SharePoint."
+description: "This article provides an overview of the difference between the classic and modern search experiences in SharePoint."
 ---
 
 # Differences between the classic and modern search experiences in SharePoint
@@ -24,7 +24,7 @@ SharePoint has both a classic and a modern search experience. Microsoft search i
 
 As a search admin, you can’t enable or disable either search experience, both are enabled by default. Users get the classic search experience on publishing sites, classic team sites, and in the Search Center. Users get the Microsoft search experience on the SharePoint start page, hub sites, communication sites, and modern team sites. [Learn about classic and modern sites](https://support.office.com/article/5725c103-505d-4a6e-9350-300d3ec7d73f)
 
-The most visible difference is that the Microsoft search box is placed at the top of the SharePoint, in the header bar. Another difference is that Microsoft search is personal. The results you see are different from what other people see, even when you search for the same words. You'll see results before you start typing in the search box, based on your previous activity and trending content in Office 365, and the results update as you type. [Learn more about the Microsoft search experience for users](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87)​.
+The most visible difference is that the Microsoft search box is placed at the top of the SharePoint, in the header bar. Another difference is that Microsoft search is personal. The results you see are different from what other people see, even when you search for the same words. You'll see results before you start typing in the search box, based on your previous activity and trending content in Microsoft 365, and the results update as you type. [Learn more about the Microsoft search experience for users](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87)​.
 
 ​Search admin can customize the *classic* search experience, but not the Microsoft search experience. As a search admin you can *tailor* Microsoft search to your organization so it's easy for your users to find often needed content in your organization.
 

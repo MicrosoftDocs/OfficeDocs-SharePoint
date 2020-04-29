@@ -1,5 +1,5 @@
 ---
-title: "Why move from Publishing sites to Communication sites? - SharePoint Online"
+title: "Why move from publishing sites to communication sites? - SharePoint"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
@@ -51,7 +51,7 @@ When you are ready to begin creating new Communication sites and using modern fe
 
 ## Structure and navigation
 
-Let’s say your organization has a publishing site for Human Resources, with subsites for Benefits, Policies, Training, and Careers. It might be organized like this:
+Let's say your organization has a publishing site for Human Resources, with subsites for Benefits, Policies, Training, and Careers. It might be organized like this:
 
 ![Sites and subsites](media/hierarchy.png)
 
@@ -75,9 +75,9 @@ To learn more about planning hub sites, see [Planning your SharePoint hub sites.
 
 ## Branding and site design
 
-In the modern SharePoint Online experience, it is easier to [*change the look*](https://support.office.com/article/Change-the-look-of-your-SharePoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818) and feel of your sites to match your company or organizational brand. You can customize the logo, colors, navigation, header, and footer – often without writing a single line of code. Branding can be applied at the site level, to a group of sites, or to all sites within your organization. SharePoint Online includes an updated set of default site themes and site designs (or templates) that are responsive and look great on any device. With site themes, you can customize your site’s logo and colors to match your brand.
+In the modern SharePoint Online experience, it is easier to [*change the look*](https://support.office.com/article/Change-the-look-of-your-SharePoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818) and feel of your sites to match your company or organizational brand. You can customize the logo, colors, navigation, header, and footer – often without writing a single line of code. Branding can be applied at the site level, to a group of sites, or to all sites within your organization. SharePoint Online includes an updated set of default site themes and site designs (or templates) that are responsive and look great on any device. With site themes, you can customize your site's logo and colors to match your brand.
 
-Coming soon are multiple options for headers and footers on Communication sites, and options for navigation such as a mega menu. Check the [Office 365 Roadmap](https://products.office.com/business/office-365-roadmap) for these and other features that are in development, rolling out, or launched.
+Coming soon are multiple options for headers and footers on Communication sites, and options for navigation such as a mega menu. Check the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap) for these and other features that are in development, rolling out, or launched.
 To learn more about branding options, see [Branding your SharePoint Online site](branding-sharepoint-online-sites-modern-experience.md). To learn more about planning navigation, see [Planning navigation for modern SharePoint](plan-navigation-modern-experience.md).
 
 ### Classic site templates and modern site designs
@@ -102,7 +102,7 @@ Master pages and page layouts are components of a publishing site. Page layouts 
 
 In the classic experience, you may have created web part pages based on page layouts. Page layouts can be locked down to control what is authored on a page. However, they are inflexible in that pages based on page layouts are confined to the layout and options provided by the page layout.
 
-Modern pages provide a fast, easy way to build responsive pages using the functionality of modern web parts. Pages are similar to classic web part pages and publishing pages, but are less structured and easier to create.  And, each page’s layout is flexible in that it can be changed anytime.
+Modern pages provide a fast, easy way to build responsive pages using the functionality of modern web parts. Pages are similar to classic web part pages and publishing pages, but are less structured and easier to create.  And, each page's layout is flexible in that it can be changed anytime.
 
 *Classic web part page*:
 
@@ -117,7 +117,7 @@ Pages are made up of a title area and sections. Sections can include a full-widt
 
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2ZpSP&AutoPlayVideo=false]
 
-**Publishing** On a classic publishing site, commands for Publish and Check in/Check out are available on the ribbon. In the modern experience, it is even easier for authors to discover how to edit and make their content visible with buttons to Edit, Save, and Publish right on the page. When a modern page is in edit mode, it is automatically checked out to the person who is editing. When a page is saved or published, it is automatically checked in. If someone has a page open for editing but hasn’t made any changes to it for at least 5 minutes, it is automatically saved and taken out of Edit mode so that others can access and edit the page.
+**Publishing** On a classic publishing site, commands for Publish and Check in/Check out are available on the ribbon. In the modern experience, it is even easier for authors to discover how to edit and make their content visible with buttons to Edit, Save, and Publish right on the page. When a modern page is in edit mode, it is automatically checked out to the person who is editing. When a page is saved or published, it is automatically checked in. If someone has a page open for editing but hasn't made any changes to it for at least 5 minutes, it is automatically saved and taken out of Edit mode so that others can access and edit the page.
 
 ![Publish button](media/publishing-sites-classic-to-modern-experience_image8.png)
 
@@ -129,7 +129,7 @@ Content approval ensures that edits to pages meet company policies or standards.
 
 ### Scheduling
 
-Scheduling content to “go live” at specific times is a feature of classic publishing sites. This capability is coming soon to the modern experience. Check the [Office 365 Roadmap](https://products.office.com/business/office-365-roadmap) for this and other features that are in development, rolling out, or launched.
+Scheduling content to "go live" at specific times is a feature of classic publishing sites. This capability is coming soon to the modern experience. Check the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap) for this and other features that are in development, rolling out, or launched.
 
 **Moving from classic to modern pages** At this time, there is not a way to change a classic page into a modern page without using a [multi-step code solution,](/sharepoint/dev/transform/modernize-userinterface-site-pages) which may work well for IT Admins and developers. If you are neither of those, we recommend you gradually start planning for and creating modern pages as needed.
 
@@ -147,7 +147,7 @@ Important: Classic web parts cannot be used on modern pages and modern out-of-th
 
 To learn about all of the modern web parts, see [Using web parts on SharePoint Online pages](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0). To learn about modern web parts that have similar purposes to classic web parts, see [Classic and modern web part experiences](https://support.office.com/article/3fdae6c3-8fc1-49ab-8708-8c104b882e64).
 
-For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to third party solutions and API’s secured by Azure Active Directory](/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, you can find design guidance and standards for web parts at [Designing great SharePoint experiences](/sharepoint/dev/design/design-guidance-overview).
+For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to third party solutions and API's secured by Azure Active Directory](/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, you can find design guidance and standards for web parts at [Designing great SharePoint experiences](/sharepoint/dev/design/design-guidance-overview).
 
 ### Web parts unique to publishing sites
 
@@ -185,12 +185,12 @@ Built on modern pages and web parts, you can tell stories with rich, attractive 
 
 ![Places where news is shown](media/publishing-sites-classic-to-modern-experience_image9.png)
 
-News posts can be created from the SharePoint start page, from a team site or communication site, and from pages that have the News web part on them already. You can customize sources and layouts of news, and soon you’ll be able to organize and order news posts as well as target specific audiences for news.
+News posts can be created from the SharePoint start page, from a team site or communication site, and from pages that have the News web part on them already. You can customize sources and layouts of news, and soon you'll be able to organize and order news posts as well as target specific audiences for news.
 To learn more about how to create and share News, see [Create and share news on your SharePoint sites](https://support.office.com/article/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7).
 
 ## Users and permissions
 
-You probably don’t want a large group of people having the ability to make changes to your site that communicates information to a whole department or organization. Publishing portal sites included roles such as Approvers and Designers. Communication sites present a simplified experience, so not all of these roles are present by default. While you could set up roles like these manually, we recommend you use the new sharing interface, which also can provide you with needed controls.
+You probably don't want a large group of people having the ability to make changes to your site that communicates information to a whole department or organization. Publishing portal sites included roles such as Approvers and Designers. Communication sites present a simplified experience, so not all of these roles are present by default. While you could set up roles like these manually, we recommend you use the new sharing interface, which also can provide you with needed controls.
 
 To help you limit who has permissions to change the site, communication sites are not group-enabled like modern team sites are. This means that a Communication site is not automatically connected to a group of people with edit permissions. However, you can give specific people permission to make changes to your communication sites by selecting **Site permissions** under **Settings** and then **Share a site**. You can use Advanced permissions to give even more granular permissions if needed. For more in-depth information on the differences between classic and modern permissions, see [Permissions and Sharing in the SharePoint modern experience](sharing-permissions-modern-experience.md).
 

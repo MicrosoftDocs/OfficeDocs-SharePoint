@@ -31,32 +31,31 @@ SharePoint has both a classic and a modern search experience, [learn about the d
   
 To create query suggestions for multiple languages, you'll need to create a separate file for each language. The language determines how the query suggestions are processed internally in the search system. All manual query suggestions are always displayed for **all** languages. Add each phrase as a separate line in the text file that you create and save the file in UTF-8 encoding. 
   
-Query suggestions are turned on by default. To turn them off, go to **Search Suggestions** and uncheck **Show search suggestions**.
+Query suggestions are turned on by default. To turn them off, go to **Search Suggestions**, and clear **Show search suggestions**.
   
 ## To create query suggestions in SharePoint search
 <a name="__toc343004643"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
 2. Under **Search**, select **Open**.
 
-3. Select **Query Suggestion Settings** on the search administration page.
-
-   
+3. On the search administration page, select **Query Suggestion Settings**.
+ 
 4. Open a text editor of your choice, and enter a list of terms that you want the system to always suggest to users. Only add one term per line to the text file, and don't mix languages in the text file.
     
 5. Save the text file to a location that's accessible from SharePoint.
     
-6. To import a list of query suggestions to SharePoint search, go to **Always suggest phrases** \> **Import from text file**. When you import query suggestions, any existing ones will be overwritten.
+6. To import a list of query suggestions to SharePoint search, go to **Always suggest phrases** > **Import from text file**. When you import query suggestions, any existing ones will be overwritten.
     
 7. Browse to the file that you want to import.
     
 8. Go to **Language for suggestion phrases**, and select the processing language of your query suggestions. It should match the language of the terms in the text file. 
     
-9. Choose **Save Settings**.
+9. Select **Save Settings**.
     
 ### Related tasks
 

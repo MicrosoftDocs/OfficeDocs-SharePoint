@@ -19,7 +19,7 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: 13bb2b6b-dd8c-447e-b71b-0e4bb9efe1d3
-description: "Learn what the default SharePoint security groups are available for SharePoint sites in Office 365."
+description: "Learn what the default SharePoint security groups are available for SharePoint sites in Microsoft 365."
 ---
 
 # Default SharePoint groups
@@ -39,7 +39,7 @@ Here are links to information on understanding and setting SharePoint permission
 ## Permission levels for default SharePoint groups
 <a name="__toc352237424"> </a>
 
-SharePoint groups enable you to control access for sets of users instead of individual users. SharePoint groups are usually composed of many individual users. They can also hold Azure Active Directory security groups (created in Office 365 or Azure AD), or can be a combination of individual users and security groups. 
+SharePoint groups enable you to control access for sets of users instead of individual users. SharePoint groups are usually composed of many individual users. They can also hold Azure Active Directory security groups (created in Microsoft 365 or Azure AD), or can be a combination of individual users and security groups. 
   
 Each SharePoint group has a permission level. A permission level is simply a collection of individual permissions, such as Open, View, Edit or Delete. All the users in a group automatically have the permission level of the group. You can organize users into any number of groups, depending on the complexity of your organization, or your needs.
   
@@ -84,7 +84,7 @@ The following table describes the SharePoint groups that are created when you us
 
 "Everyone except external users" is a special group that doesn't appear in the Microsoft 365 admin center, and "Company Administrator" acts like a group but is a role in Azure AD. 
   
- **Everyone except external users** All users added to your organization automatically become members of "Everyone except external users". Please note that you cannot change default permissions granted to "Everyone except external users" on Office 365 group-connected team sites. If a group-connected team site is set to "Public," "Everyone except external users" has a default permission level of "Edit." When a group-connected team site is set to "Private," "Everyone except external users" can't be granted any permission to the site. Although the "Site permissions" tab will allow modifications to be granted, a background job will block such modifications to take effect. To change the privacy setting for a group-connected team site, select the Settings icon, and then select **Site information**.  
+ **Everyone except external users** All users added to your organization automatically become members of "Everyone except external users". Please note that you cannot change default permissions granted to "Everyone except external users" on Microsoft 365 group-connected team sites. If a group-connected team site is set to "Public," "Everyone except external users" has a default permission level of "Edit." When a group-connected team site is set to "Private," "Everyone except external users" can't be granted any permission to the site. Although the "Site permissions" tab will allow modifications to be granted, a background job will block such modifications to take effect. To change the privacy setting for a group-connected team site, select the Settings icon, and then select **Site information**.  
   
  **Company Administrator** This group contains all users who are assigned the global admin role. For more info about this role and its permissions in Azure AD, see [Company administrator](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#company-administrator). The root site for your organization is created with "Company Administrator" as the primary admin. 
   
@@ -98,14 +98,14 @@ A site can have several site admins, but must have one and only one primary admi
   
 In SharePoint on-premises, you designate a site collection administrator when you create a site.
   
-## SharePoint administrators
+## SharePoint admins
   
 ||**SharePoint Online**|**SharePoint On-premises**|
 |:-----|:-----|:-----|
 |Who can use this group?  <br/> |Yes  <br/> |No, by default.  <br/> Requires special installation.  <br/> |
    
-In SharePoint Online, there is also a SharePoint administrator. A SharePoint administrator can use the SharePoint admin center or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
+In SharePoint Online, there is also a SharePoint admin. A SharePoint admin can use the SharePoint admin center or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
     
-If you are using SharePoint on-premises, you do not have a SharePoint administrator or SharePoint admin center.
+If you are using SharePoint on-premises, you do not have a SharePoint admin or SharePoint admin center.
   
 

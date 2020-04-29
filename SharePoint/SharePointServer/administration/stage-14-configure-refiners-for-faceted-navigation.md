@@ -83,7 +83,7 @@ Here we go!
     
      ![Add Mapping](../media/OTCSP_AddMapping.png)
   
-5. In the **Crawled property selection** dialog box, use the **Search for a crawled property name** field to search for the crawled property that you want to map to this managed property. 
+5. In the **Crawled property selection** dialog, use the **Search for a crawled property name** field to search for the crawled property that you want to map to this managed property. 
     
     In our Contoso catalog, the site column that contains the price information is called "RetBasePrice", so enter this in the **Search for a crawled property name** field, and then click **Find**. 
     
@@ -157,11 +157,11 @@ Because we used the Product Catalog template when we created our authoring site 
 ### How to add refiners to all terms in a term set
 <a name="BKMK_HowToAddRefinersToAllTermsInATermSeT"> </a>
 
-1. Click your term set name. In our Contoso scenario, this is **Electronics**. Then click the **FACETED NAVIGATION** tab and **Customize refiners**. This opens a dialog box. 
+1. Click your term set name. In our Contoso scenario, this is **Electronics**. Then click the **FACETED NAVIGATION** tab and **Customize refiners**. This opens a dialog. 
     
      ![Customize Refiners](../media/OTCSP_CustomizeRefiners.png)
   
-2. In the **Available refiners** section of the dialog box, scroll down and select **RefinableString01**. This is the managed property we want to use for the  *Brand*  refiner. Notice that sample values are shown (a good sign that we're on the right path), together with the alias we gave this property when we mapped it to a crawled property. 
+2. In the **Available refiners** section of the dialog, scroll down and select **RefinableString01**. This is the managed property we want to use for the  *Brand*  refiner. Notice that sample values are shown (a good sign that we're on the right path), together with the alias we gave this property when we mapped it to a crawled property. 
     
      ![RefinableString01](../media/OTCSP_RefinableString01.png)
   
@@ -199,11 +199,11 @@ So this is starting to look fairly good. However we want to have the  *Price*  r
     
      ![Preview Refiners Configured](../media/OTCSP_PreviewRefinersConfigured.png)
   
-10. To save the changes, click **OK** in the dialog box  *and* **Save** in the Term Store Management Tool. 
+10. To save the changes, click **OK** in the dialog  *and* **Save** in the Term Store Management Tool. 
     
-     ![OK Dialog Box](../media/OTCSP_OKDialogBox.png)
+     ![OK dialog](../media/OTCSP_OKDialogBox.png)
   
-     ![Save Dialog Box](../media/OTCSP_Save.png)
+     ![Save dialog](../media/OTCSP_Save.png)
   
 Now that we have added the refiners that should be applied to all categories, the next task is to add the refiners that should be applied only to a subset of categories.
   
@@ -218,7 +218,7 @@ When adding refiners to a specific term in a term set, the procedure is identica
     
      ![Stop Inheriting Cameras](../media/OTCSP_StopInheritingCameras.png)
   
-2. Click **Customize refiners**. This opens a dialog box. 
+2. Click **Customize refiners**. This opens a dialog. 
     
      ![Cameras Customize Refiners](../media/OTCSP_CamerasCustomizeRefiners.png)
   

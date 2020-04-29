@@ -1,5 +1,5 @@
 ---
-title: "Navigation guide for modern Sharepoint experience - SharePoint Online"
+title: "Navigation guide for modern SharePoint experience"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "In this article, you will learn about fundamental principles and good practices for how to plan navigation in the SharePoint modern experience"
+description: "In this article, you'll learn about fundamental principles and good practices for how to plan navigation in the SharePoint modern experience"
 ---
 
 # Planning Navigation for the modern SharePoint experience
@@ -65,7 +65,7 @@ There is no one right way to organize your navigation links. You will make diffe
 
 -   Focus areas or functions
 
-The default navigation for all SharePoint sites primarily includes *type* of content. For [**communication sites**](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732), the default navigation includes Documents, Pages, and Site Contents. These categories are helpful as you are building your site, but they are not typically going to add value to your visitors once your site is ready to launch because the consumer of a communication site typically doesn't care about the *type* of content – they care about the *purpose* or *subject* of the content. For communication sites, plan to delete the "out of the box" navigation when you are ready to launch and replace it with something that aligns with the guidance provided in the local navigation section of this guide. The default navigation for [**team sites**](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e) includes links to the related (and critical) services provided by Office 365 for modern teams – including a link to the shared Site Notebook and the Conversations for the team in Outlook. These represent the typical "services" that teams need to effectively collaborate and might be hard for people to find without the experience provided by the navigation. You may choose to supplement or refine these links for your team sites, but you will also likely find that the default navigation experience is a good starting point and you will be more likely to keep most of these links.
+The default navigation for all SharePoint sites primarily includes *type* of content. For [**communication sites**](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732), the default navigation includes Documents, Pages, and Site Contents. These categories are helpful as you are building your site, but they are not typically going to add value to your visitors once your site is ready to launch because the consumer of a communication site typically doesn't care about the *type* of content – they care about the *purpose* or *subject* of the content. For communication sites, plan to delete the "out of the box" navigation when you are ready to launch and replace it with something that aligns with the guidance provided in the local navigation section of this guide. The default navigation for [**team sites**](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e) includes links to the related (and critical) services provided by Microsoft 365 for modern teams – including a link to the shared Site Notebook and the Conversations for the team in Outlook. These represent the typical "services" that teams need to effectively collaborate and might be hard for people to find without the experience provided by the navigation. You may choose to supplement or refine these links for your team sites, but you will also likely find that the default navigation experience is a good starting point and you will be more likely to keep most of these links.
 
 ### Labeling
 

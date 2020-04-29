@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
-description: "This article is a guide on OneDrive for enterprises. Learn about features, planning, configuration, deployment, and management in OneDrive for enterprises."
+description: "This article is a guide for enterprises on using OneDrive. Learn about features, planning, configuration, deployment, and management of OneDrive."
 ---
 
 # OneDrive guide for enterprises
 
-With OneDrive for Business, you can easily and securely store and access your files from all your devices. You can work with others regardless of whether they're inside or outside your organization and terminate that sharing whenever you want. OneDrive helps protect your work through advanced encryption while the data is in transit and at rest in data centers. OneDrive also helps ensure that users adhere to your most rigorous compliance standards by enabling them to choose where their data lives and providing detailed reporting of how that data has changed and been accessed. OneDrive connects you to your personal and shared files in Microsoft Office 365, enhancing collaboration capabilities within Office 365 applications. With OneDrive on the web, desktop, or mobile, you can access all your personal files plus the files shared with you from other people or teams, including files from Microsoft Teams and SharePoint.
+With OneDrive for Business, you can easily and securely store and access your files from all your devices. You can work with others regardless of whether they're inside or outside your organization and terminate that sharing whenever you want. OneDrive helps protect your work through advanced encryption while the data is in transit and at rest in data centers. OneDrive also helps ensure that users adhere to your most rigorous compliance standards by enabling them to choose where their data lives and providing detailed reporting of how that data has changed and been accessed. OneDrive connects you to your personal and shared files in Microsoft Microsoft 365, enhancing collaboration capabilities within Microsoft 365 apps. With OneDrive on the web, desktop, or mobile, you can access all your personal files plus the files shared with you from other people or teams, including files from Microsoft Teams and SharePoint.
 
 ## Why deploy OneDrive?
 
@@ -176,7 +176,7 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 |:-----|:-----|:-----|
 |Small business|Local installation|OneDrive admin center|
 |Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, OneDrive admin center, Intune mobile application management (MAM) or MDM|
-|Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy objects (GPOs), etc. |
+|Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy objects (GPOs), and so on. |
 
 Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees' computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
 
@@ -199,7 +199,7 @@ Your organization doesn't have to manage all connected devices for them to use O
 
 - OneDrive admin center
 
-- Office 365 MDM
+- Microsoft 365 MDM
 
 - Intune MDM or MAM
 
@@ -219,7 +219,7 @@ Because OneDrive provides access to files on many kinds of devices, it restricts
 
 ## Feature releases and requests
 
-If you want to see the functionality currently under development for OneDrive and Office 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Lastly, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
+If you want to see the functionality currently under development for OneDrive and Office 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/office-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Lastly, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
 
 ## Keys to successful user adoption
 
@@ -227,7 +227,7 @@ User adoption is important to the overall success of any new application. Ideall
 
 -   **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing OneDrive and Office 365 succeed in the organization. It is important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. In fact, a SharePoint user study in 2013 showed that people prefer to learn from a coworker than from an IT employee. For more info about how to identify key stakeholders for your OneDrive and Office 365 implementation, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more info about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
 
--   **Scenarios.** When planning to implement OneDrive and Office 365, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and Office 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/?rtc=1).
+-   **Scenarios.** When planning to implement OneDrive and Office 365, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and Office 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://www.microsoft.com/office-365/success/?rtc=1).
 
 -   **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more info about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
 
@@ -243,7 +243,7 @@ A variety of factors can impact the amount of network bandwidth used by OneDrive
 
 ### Multi-Geo
 
-If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed info about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you have data residency requirements, consider OneDrive Multi-Geo. With OneDrive Multi-Geo, you can specify a preferred data location (PDL), from available locations around the world, for each user's OneDrive. For detailed info about OneDrive Multi-Geo, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 If you plan to deploy OneDrive Multi-Geo, there are two user scenarios:
 
@@ -263,11 +263,11 @@ Key decisions:
 
 ### Hybrid
 
-If you currently use OneDrive or MySites in SharePoint Server on-premises, we highly recommend deploying hybrid OneDrive. With hybrid OneDrive, users are redirected from their on-premises OneDrive to OneDrive in Office 365. Hybrid OneDrive allows for seamless navigation to OneDrive in the cloud from both SharePoint on-premises and Office 365.
+If you currently use OneDrive or MySites in SharePoint Server on-premises, we highly recommend deploying hybrid OneDrive. With hybrid OneDrive, users are redirected from their on-premises OneDrive to OneDrive in Microsoft 365. Hybrid OneDrive allows for seamless navigation to OneDrive in the cloud from both SharePoint on-premises and Microsoft 365.
 
-When you deploy hybrid OneDrive, the OneDrive links in the SharePoint Server ribbon and app launcher will point to OneDrive in Office 365. If your users have files in on-premises OneDrive, they may have trouble accessing them unless they've bookmarked the old URL. It's important to have a migration plan for these files before you deploy hybrid OneDrive. For migration options, see [Migrating data](#migrating-data) later in this article.
+When you deploy hybrid OneDrive, the OneDrive links in the SharePoint Server ribbon and app launcher will point to OneDrive in Microsoft 365. If your users have files in on-premises OneDrive, they may have trouble accessing them unless they've bookmarked the old URL. It's important to have a migration plan for these files before you deploy hybrid OneDrive. For migration options, see [Migrating data](#migrating-data) later in this article.
 
-If you don't use OneDrive in SharePoint Server, but you do have an on-premises SharePoint environment, you may still want to consider deploying hybrid OneDrive. Doing so will update the OneDrive navigation links in SharePoint Server to point to OneDrive in Office 365 – again, giving your users seamless navigation to OneDrive in the cloud from either location.
+If you don't use OneDrive in SharePoint Server, but you do have an on-premises SharePoint environment, you may still want to consider deploying hybrid OneDrive. Doing so will update the OneDrive navigation links in SharePoint Server to point to OneDrive in Microsoft 365 – again, giving your users seamless navigation to OneDrive in the cloud from either location.
 
 For more info about how to configure OneDrive in a hybrid scenario and how it works, see [Plan hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business/).
 
@@ -279,7 +279,7 @@ Key decisions:
 
 -   Do you want to deploy hybrid OneDrive?
 
--   Do your users have OneDrive on-premises data that needs to be migrated to OneDrive in Office 365?
+-   Do your users have OneDrive on-premises data that needs to be migrated to OneDrive in Microsoft 365?
 
 ## Information protection
 
@@ -309,7 +309,7 @@ For more info about Azure Information Protection, see [What is Azure Information
 If you have decided to use Azure Information Protection, to configure the necessary settings for it to work with OneDrive, see [Office 365: Configuration for clients and online services to use the Azure Rights Management service](/azure/information-protection/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration/).
 
 
-### OneDrive integration with other Office 365 features
+### OneDrive integration with other Microsoft 365 features
 
 OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For info about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact/).
 
@@ -361,7 +361,7 @@ Key decisions:
 
 ### Files in on-premises OneDrive or MySites libraries
 
-If users' existing files are in on-premises SharePoint, OneDrive, or MySites, you can use the SharePoint Migration Tool to migrate the files to Office 365.
+If users' existing files are in on-premises SharePoint, OneDrive, or MySites, you can use the SharePoint Migration Tool to migrate the files to Microsoft 365.
 
 For detailed info about the SharePoint Migration Tool, see [How the SharePoint Migration Tool works](/sharepointmigration/how-the-sharepoint-migration-tool-works/).
 
@@ -390,7 +390,6 @@ If you already have the OneDrive client installed on Windows devices, start by d
 
 
 ### Upgrade from the Groove sync app to the OneDrive sync app
-
 
 If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed info about this process (and caveats), see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md).
 

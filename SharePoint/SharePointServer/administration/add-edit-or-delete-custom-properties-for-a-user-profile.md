@@ -44,7 +44,7 @@ Perform the following procedure to create a user profile property.
 6. In the **Property Settings** section, in the **Display Name** box, type the user profile property name that will be displayed to all users. 
     
     > [!NOTE]
-    > If you use multiple languages in your deployment, you can provide alternative display names for each language by clicking **Edit Languages**. In the dialog box, click **Add Language**, select a language from the menu, and then type the display name in the new language. You can add display names for any of the available languages. The display name that appears depends on the language of the operating system on the computer of the user who views the property. 
+    > If you use multiple languages in your deployment, you can provide alternative display names for each language by clicking **Edit Languages**. In the dialog, click **Add Language**, select a language from the menu, and then type the display name in the new language. You can add display names for any of the available languages. The display name that appears depends on the language of the operating system on the computer of the user who views the property. 
   
 7. On the **Type** drop-down list, click the data type for the property. 
     
@@ -60,7 +60,7 @@ Perform the following procedure to create a user profile property.
 11. In the **User Description** section, in the **Description** box, type the instructions or information that is displayed to users about this user profile property. 
     
     > [!NOTE]
-    > If you use multiple languages in your deployment, you can provide alternative display names for each language by clicking **Edit Languages**. In the dialog box, click **Add Language**, select a language from the menu, and then type the display name in the new language. You can add display names for any of the available languages. The display name that appears depends on the language of the operating system on the computer of the user who views the property. 
+    > If you use multiple languages in your deployment, you can provide alternative display names for each language by clicking **Edit Languages**. In the dialog, click **Add Language**, select a language from the menu, and then type the display name in the new language. You can add display names for any of the available languages. The display name that appears depends on the language of the operating system on the computer of the user who views the property. 
   
 12. In the **Policy Settings** section, select the policy setting and default privacy setting that you want for this property. Click to select **User can override box** to enable users to override these settings. 
     
@@ -114,7 +114,7 @@ Perform the following procedure to delete a user profile property.
     
 3. On the **Manage User Profile Properties** page, in the **Property Name** column, select the user profile property that you want to remove, and then, in the dropdown menu, click **Delete**.
     
-4. In the dialog box, verify that you have selected the correct user profile property, and then click **OK**.
+4. In the dialog, verify that you have selected the correct user profile property, and then click **OK**.
     
 ## See also
 <a name="delete"> </a>

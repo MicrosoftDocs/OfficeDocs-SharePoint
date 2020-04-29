@@ -21,19 +21,19 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn how the new Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint Online."
+description: "Learn how the Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint Online."
 ---
 
 # Migrate to SharePoint Online using PowerShell
 
-This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2010 and SharePoint 2013 on-premises document libraries and list items, and file shares to Office 365.  For information on all current PowerShell cmdlets relating to SharePoint Online migration, please see the [Microsoft SharePoint Migration Tool cmdlet reference](https://docs.microsoft.com/powershell/spmt/intro?view=spmt-ps).
+This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2010 and SharePoint 2013 on-premises document libraries and list items, and file shares to Microsoft 365.  For information on all current PowerShell cmdlets relating to SharePoint Online migration, please see the [Microsoft SharePoint Migration Tool cmdlet reference](https://docs.microsoft.com/powershell/spmt/intro?view=spmt-ps).
 
 The PowerShell cmdlets provide the same functionalities as the [SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md) .
 
 
 
 >[!NOTE]
->These PowerShell cmdlets are currently not available for users of Office 365 operated by 21Vianet in China. They are also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, they are supported for users in Germany whose data location is not in the German datacenter.
+>These PowerShell cmdlets are currently not available for users of Office 365 operated by 21Vianet in China. They are also not available for users of Microsoft 365 with the German cloud using the data trustee, *German Telekom*. However, they are supported for users in Germany whose data location is not in the German datacenter.
 
   
 ## System requirements
@@ -69,7 +69,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
  
 ## Before you begin
 
-1. Provision your Office 365 with either your existing active directory or one of the other options for adding accounts to Office 365. See [Office 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Office 365 for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information.
+1. Provision your Microsoft 365 with either your existing active directory or one of the other options for adding accounts to Microsoft 365. See [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Microsoft 365 Apps for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information.
 2.  Open the folder: </br>    *$env:UserProfile\Documents\WindowsPowerShell\Modules\Microsoft.SharePoint.MigrationTool.PowerShell*  </br>Make sure you have DLLs inside of it.
 3. From this location, run the the following PowerShell command</br></br>
     ```powershell
@@ -157,7 +157,7 @@ Start-SPMTMigration
 
 
 ```
-Example 2: IT admin wants to bring the migration from the background “NoShow mode” to the foreground, run below the cmdlet, so he can see the migration progress in the console.<br>
+Example 2: IT admin wants to bring the migration from the background "NoShow mode" to the foreground, run below the cmdlet, so he can see the migration progress in the console.<br>
 ```powershell
 Show-SPMTMigration 
 ```

@@ -27,25 +27,14 @@ To access the new SharePoint admin center:
 
 Go to the [home page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=home&modern=true), and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
 
-> [!NOTE]
-> If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page.
-> 
-> If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the home page.
+
+>[!NOTE]
+>If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center, and open the home page.
 
 > [!NOTE]
-> [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Office 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
+> [Microsoft Partners](/office365/admin/misc/add-partner) can't access the new SharePoint admin center. <br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article, or they might look different.
   
-Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, click **Feedback** in the lower-right corner.
-
-## Open the new SharePoint admin center by default
-
-1. In the left pane, select **Settings**.
-
-2. Select **Default admin experience**.
-
-3. Select **Open the new SharePoint admin center by default**, and then select **Save**.
-
-    ![The default admin experience setting](media/default-admin-experience.PNG)
+Help us improve the new SharePoint admin center! Tell us what you like or don't like, send a suggestion, or file a bug. To send us feedback, in the lower-right corner, select **Feedback**.
 
 ## View reports
 
@@ -58,14 +47,14 @@ On the home page, at a glance, you can see:
   ![The reports on the home page](media/72b36579-70e8-4731-9e28-4f64cf577826.PNG)
   
 > [!TIP]
->  To filter a report, select an item in the legend. For example, on the **Files by activity type** chart, select **Viewed or edited**. <br>  To see values for a specific day, point to that day on the report. </br>  To see more details about a report, open the report in the Microsoft 365 admin center by selecting **Details**. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Microsoft 365 admin center, see [Office 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity) and [Office 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage). 
+>  To filter a report, select an item in the legend. For example, on the **Files by activity type** chart, select **Viewed or edited**. <br>  To see values for a specific day, point to that day on the report. </br>  To see more details about a report, open the report in the Microsoft 365 admin center by selecting **Details**. Here, you can see tables of activity by site or users, change the reporting period, pivot the report, export the report data into a .csv file that you can open in Excel, and more. For more info about the SharePoint reports in the Microsoft 365 admin center, see [Microsoft 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity) and [Microsoft 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage). 
   
 > [!NOTE]
 > Reports typically don't include activity from the last 24 to 48 hours. 
   
 ## View Message center posts
 
-In the **Message center** section of the home page, to help you manage upcoming changes, you can read official announcements about new and changed SharePoint features. Each post gives you an overview of a change, and how it might affect your users. To open a post, in the Microsoft 365 admin center, select it (where you can dismiss it if you want to hide it from the list). To sort and filter the [list of messages across all Office 365 services](/office365/admin/manage/message-center), select **All active messages**.
+In the **Message center** section of the home page, to help you manage upcoming changes, you can read official announcements about new and changed SharePoint features. Each post gives you an overview of a change, and how it might affect your users. To open a post, in the Microsoft 365 admin center, select it (where you can dismiss it if you want to hide it from the list). To sort and filter the [list of messages across all Microsoft 365 services](/office365/admin/manage/message-center), select **All active messages**.
   
 ![The Message Center card on the home page](media/804aeffa-f842-4951-a42e-86d7151b28fa.PNG)
   
@@ -93,10 +82,10 @@ If you're used to working in the classic SharePoint admin center, to learn where
 |Classic  |New  |Notes  |
 |---------|---------|---------|
 |site collections page     |    [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true)     |      The new SharePoint admin center refers to site collections as "sites."   |
-|On the **site collections** page, select **New** > **Private Site Collection**.    |    [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) > **Create**     |     In the new SharePoint admin center, you can create Office 365 group-connected team sites and communication sites, as well as classic sites.    |
+|On the **site collections** page, select **New** > **Private Site Collection**.    |    [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) > **Create**     |     In the new SharePoint admin center, you can create Microsoft 365 group-connected team sites and communication sites, as well as classic sites.    |
 |On the **site collections** page, select **site collections** > **Delete**.     |    On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **sites**, and then select **Delete**.      |         |
 |On the **site collections** page, select a site collection > **Properties**.    |   On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), to open the **details** pane, select the site's name.  |    In the new SharePoint admin center, you can edit site details.     |
-|On the **site collections** page, select a site collection > **Owners** > **Manage Administrators**.     |    On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and then select **Owners**.      |    The new experience also lets you view and edit Office 365 Group owners.      |
+|On the **site collections** page, select a site collection > **Owners** > **Manage Administrators**.     |    On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and then select **Owners**.      |    The new experience also lets you view and edit Microsoft 365 Group owners.      |
 |On the **site collections** page, select a site collection > **Sharing**.     |     On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and then select **Sharing** (or select multiple sites, and then select **Bulk edit** > **Sharing**).    |        |
 |On the **site collections** page, select **Buy Storage**.     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
 |On the **site collections** page, select **Recycle Bin**.    |    [**Deleted sites** page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true)    |         |

@@ -19,7 +19,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 4e95dcd8-7e79-4732-aa9b-2f351031b4c2
-description: "In this article, you'll learn about SharePoint intranet hub sites and how to plan before create those sites."
+description: "In this article, you'll learn about SharePoint intranet hub sites and how to plan them before you create them."
 ---
 
 # Planning your SharePoint hub sites
@@ -30,7 +30,7 @@ description: "In this article, you'll learn about SharePoint intranet hub sites 
 
 SharePoint hub sites provide an important building block for your intranet. They are the "connective tissue" you use when organizing families of team sites and communication sites together.
   
-One of the key principles of modern intranets based on SharePoint is that each unit of work should get a separate site collection to optimally manage governance and growth over time. Each communication site and Office 365 group-connected team site is created as a site collection that can have its own permissions. A hub site (most commonly created from a communication site) should also be considered its own unit of work that brings together numerous other sites.
+One of the key principles of modern intranets based on SharePoint is that each unit of work should get a separate site collection to optimally manage governance and growth over time. Each communication site and Microsoft 365 group-connected team site is created as a site collection that can have its own permissions. A hub site (most commonly created from a communication site) should also be considered its own unit of work that brings together numerous other sites.
   
 In the past, many organizations used subsites to create connective tissue for their intranets, using the site collection's shared navigation to connect sites and the hierarchical structure of subsite relationships to nest sites within sites. However, subsites don't give any room for flexibility and change. Since subsites are a physical construct reflected in the URL for content, if you reorganize your business relationships, you will break all the intranet relationships in your content. Subsites can also create challenges when it comes to governance because many features (including policy features like retention and classification) in SharePoint apply to all sites within the site collection, whether you want them to or not. This means that you must frequently enable a feature for the entire site collection, even if it's only applicable to one subsite.
   
@@ -68,7 +68,7 @@ Many successful intranets include the following elements:
     
 - **Search**: The ability for employees to find content even if they don't know where it lives. 
     
-The emphasis for each of these elements can vary based on organizational priorities and to some extent, the digital maturity of the organization. Office 365 provides three main building blocks to help you create your intranet in a way that allows you to configure experiences that align with your business, your employees, and your readiness. Different organizations will use the building blocks in different ways, but the building blocks themselves reflect common patterns that organizations use to get work done:
+The emphasis for each of these elements can vary based on organizational priorities and to some extent, the digital maturity of the organization. Microsoft 365 provides three main building blocks to help you create your intranet in a way that allows you to configure experiences that align with your business, your employees, and your readiness. Different organizations will use the building blocks in different ways, but the building blocks themselves reflect common patterns that organizations use to get work done:
   
 - Team sites (collaboration)
     
@@ -83,11 +83,11 @@ At their core, the three types of building blocks share a common structure. For 
 |||||
 |:-----|:-----|:-----|:-----|
 ||**Team site** <br/> |**Communication site** <br/> |**Hub site** <br/> |
-|**Primary business objective** <br/> |**Collaborate** <br/> When you want to create a place where the members of a work group or project team can work together on project deliverables, plan an event, track status, or exchange ideas, you want a team site. Team sites are connected by default to an Office 365 group to deliver a full range of communication and collaboration tools, including Microsoft Teams and Planner.  <br/> |**Communicate** <br/> When you want to broadcast a message, tell a story, share content for viewing (but not editing), or showcase services or people, you want a communication site. Communication site owners often want to include an engagement component - for example an "Ask Business Development" area on a site communicating information about business development. This is a great place to connect a Yammer group.  <br/> |**Connect** <br/> When you want to create a shared experience for a family of related sites—to discover related content by rolling up site activity and news, organize related sites so that they share a common navigation, and apply a common look and feel.  <br/> |
+|**Primary business objective** <br/> |**Collaborate** <br/> When you want to create a place where the members of a work group or project team can work together on project deliverables, plan an event, track status, or exchange ideas, you want a team site. Team sites are connected by default to a Microsoft 365 group to deliver a full range of communication and collaboration tools, including Microsoft Teams and Planner.  <br/> |**Communicate** <br/> When you want to broadcast a message, tell a story, share content for viewing (but not editing), or showcase services or people, you want a communication site. Communication site owners often want to include an engagement component - for example an "Ask Business Development" area on a site communicating information about business development. This is a great place to connect a Yammer group.  <br/> |**Connect** <br/> When you want to create a shared experience for a family of related sites—to discover related content by rolling up site activity and news, organize related sites so that they share a common navigation, and apply a common look and feel.  <br/> |
 |**Content authors** <br/> |**All members are content authors** who jointly create and edit content.  <br/> |**Small number of content authors** and a much larger number of content readers or consumers.  <br/> |**Hub site owner** defines the shared experiences for hub navigation and theme. **Hub site members** create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on individual sites.  <br/> |
 |**Governance** <br/> (as allowed for your organization based on the settings in the Security &amp; Compliance center)  <br/> |Norms typically **determined by the team**. Practices are aligned in the best way to get work done.  <br/> |Policies often **determined by the organization** to ensure consistency of experience and effective management of organizational information.  <br/> |Governance **determined by each owner of the associated site based on the type of site and organizational policies**. The best experience for visitors is achieved when everyone has at least read permissions for associated sites (but this is not required).  <br/> |
-|**Permissions** <br/> |Office 365 group, plus SharePoint groups and permission levels  <br/> |SharePoint group  <br/> |Same as original site type. Hub sites do not alter an associated site's permissions.  <br/> |
-|**Created by** <br/> |**Site owner** (unless this has been disabled in your organization) or **admin**.  <br/> |**Site owner** (unless this has been disabled in your organization)  <br/> |**Global admin** or **SharePoint admin** in Office 365  <br/> |
+|**Permissions** <br/> |Microsoft 365 group, plus SharePoint groups and permission levels  <br/> |SharePoint group  <br/> |Same as original site type. Hub sites do not alter an associated site's permissions.  <br/> |
+|**Created by** <br/> |**Site owner** (unless this has been disabled in your organization) or **admin**.  <br/> |**Site owner** (unless this has been disabled in your organization)  <br/> |**Global admin** or **SharePoint admin** in Microsoft 365  <br/> |
 |**Examples** <br/> | Project team working together to complete deliverables and manage tasks  <br/>  Holiday party planning committee planning the annual get-together  <br/>  HR performance management team  <br/>  Executive committee—different leadership groups within the organization  <br/>  Extranet site to work with Partner A  <br/> | Travel team publishing guidelines about corporate travel  <br/>  Policies and procedures  <br/>  Micro-site for a new corporate initiative  <br/>  Resources for the sales team for a product or service  <br/> | HR hub that provides a connection and roll up for all HR functions, such as benefits, compensation, performance management, talent acquisition, and a manager portal  <br/>  Sales hub providing enterprise resources for the Sales organization and connecting regional sales team and communication sites  <br/>  Location-specific hub that groups the communication and team sites for a specific location (the New York office)  <br/> |
    
 ## What should be a hub site?
@@ -149,7 +149,7 @@ A good practice is to start with a consistent approach for all functions that ha
   
 ## How should I organize my hub site?
 
-Hub sites provide two primary organizational experiences that you should think about as part of the hub planning process. Though creating a hub site must be done by the global or SharePoint admin in Office 365, planning, managing and organizing the hub site is the responsibility of the hub site owner. The organizing concepts for hubs are:
+Hub sites provide two primary organizational experiences that you should think about as part of the hub planning process. Though creating a hub site must be done by the global or SharePoint admin in Microsoft 365, planning, managing and organizing the hub site is the responsibility of the hub site owner. The organizing concepts for hubs are:
   
 - Association
     
@@ -198,7 +198,7 @@ You can probably see that these approaches might be easier to implement with a s
   
 ## Know how your audience will consume SharePoint hub sites
 
-Your audience might consume SharePoint hub sites via the SharePoint start page in Office 365—both the sites themselves and how news flows from the hub to the start page. Also, consider SharePoint mobile apps, which could be used to access the hub home page, news, and navigation to associated sites. Consider the value of mobile app notifications. Encourage your users to stay connected on the go with the [SharePoint mobile app](https://products.office.com/SharePoint/mobile-app?wt.mc_id=AID638358_QSG_175660). Make sure that you consider operating systems, screen sizes, resolution, and form factors. All modern sites, pages, news, and lists should work well across all of these, and some will reflow as people consume content on small devices.
+Your audience might consume SharePoint hub sites via the SharePoint start page in Microsoft 365—both the sites themselves and how news flows from the hub to the start page. Also, consider SharePoint mobile apps, which could be used to access the hub home page, news, and navigation to associated sites. Consider the value of mobile app notifications. Encourage your users to stay connected on the go with the [SharePoint mobile app](https://products.office.com/SharePoint/mobile-app?wt.mc_id=AID638358_QSG_175660). Make sure that you consider operating systems, screen sizes, resolution, and form factors. All modern sites, pages, news, and lists should work well across all of these, and some will reflow as people consume content on small devices.
   
 ## Additional important considerations
 

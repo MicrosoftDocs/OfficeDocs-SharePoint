@@ -19,12 +19,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how global and SharePoint admins can change the organization-level sharing settings for SharePoint and OneDrive in Office 365."
+description: "Learn how global and SharePoint admins can change the organization-level sharing settings for SharePoint and OneDrive."
 ---
 
 # Manage sharing settings
 
-This article describes how global and SharePoint admins in Office 365 can change their organization-level sharing settings for SharePoint and OneDrive.
+This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level sharing settings for SharePoint and OneDrive.
 
 For end-to-end guidance around how to configure guest sharing in Microsoft 365, see:
 - [Collaborate with guests on a document](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)
@@ -37,7 +37,7 @@ To change the sharing settings for a site after you've set the organization-leve
 ## Change the organization-level external sharing setting
 <a name="__turn_external_sharing"> </a>
   
-1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
@@ -45,7 +45,7 @@ To change the sharing settings for a site after you've set the organization-leve
 2. Under **External sharing**, specify your sharing level for SharePoint and OneDrive. The default level for both is "Anyone."
 
     > [!NOTE]
-    >  The SharePoint setting applies to all site types, including those connected to Office 365 groups. <br> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive. <br> The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
+    >  The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups. <br> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive. <br> The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
 
     ![External sharing settings in the new SharePoint admin center](media/externalsharing.png)
 
@@ -56,7 +56,7 @@ To change the sharing settings for a site after you've set the organization-leve
 |**Select this option:**|**If you want to:**|
 |:-----|:-----|
 |**Anyone**  <br/> | Allow users to share files and folders by using links that let anyone who has the link access the files or folders without authenticating. This setting also allows users to share sites with new and existing guests who authenticate. If you select this setting, you can restrict the Anyone links so that they must expire within a specific number of days, or so that they can give only View permission.<br/>[File requests](https://support.office.com/article/f54aa7f8-2589-4421-b351-d415fc3b83af) requires that OneDrive be set to **Anyone** and edit permissions for **Anyone** links be enabled. OneDrive settings other than **Anyone** disable file requests.<br/> See [Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing) for more information.<br/>|
-|**New and existing guests** <br/> | Require people who have received invitations to sign in with their work or school account (if their organization uses Office 365) or a Microsoft account, or to provide a code to verify their identity. Users can share with guests already in your organization's directory, and they can send invitations to people who will be added to the directory if they sign in. For more info about verification codes, see [Secure external sharing in SharePoint](what-s-new-in-sharing-in-targeted-release.md)<br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
+|**New and existing guests** <br/> | Require people who have received invitations to sign in with their work or school account (if their organization uses Microsoft 365) or a Microsoft account, or to provide a code to verify their identity. Users can share with guests already in your organization's directory, and they can send invitations to people who will be added to the directory if they sign in. For more info about verification codes, see [Secure external sharing in SharePoint](what-s-new-in-sharing-in-targeted-release.md)<br/>  Invitations to view content can be redeemed only once. After an invitation has been accepted, it cannot be shared or used by others to gain access.  <br/> |
 |**Existing guests** <br/> |Allow sharing only with guests who are already in your directory. These guests may exist in your directory because they previously accepted sharing invitations or because they were manually added, such as through [Azure B2B collaboration](/azure/active-directory/b2b/what-is-b2b). (To see the guests in your organization, go to the [Guests page in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/GuestUsers)).  <br/> |
 |**Only people in your organization** <br/> | Turn off external sharing.
 

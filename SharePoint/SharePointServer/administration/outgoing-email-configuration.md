@@ -112,7 +112,7 @@ If you enable anonymous access and relayed email messages, you increase the poss
     
 5. On the **Access** tab, in the **Access control** area, click **Authentication**.
     
-6. In the **Authentication** dialog box, verify that **Anonymous access** is selected, and click **OK**.
+6. In the **Authentication** dialog, verify that **Anonymous access** is selected, and click **OK**.
     
 7. On the **Access** tab, in the **Relay restrictions** area, click **Relay**.
     
@@ -124,7 +124,7 @@ If you enable anonymous access and relayed email messages, you increase the poss
     
    - Click **Add**, and then add servers one at a time by IP address, or in groups by using a subnet or domain.
     
-   - Click **OK** three times to close the **Computer**, **Relay Restrictions**, and **Properties** dialog boxes. 
+   - Click **OK** three times to close the **Computer**, **Relay Restrictions**, and **Properties** dialoges. 
     
 Ensure that the SMTP service is running and set to start automatically. To do this, use the following procedure.
   
@@ -135,7 +135,7 @@ Ensure that the SMTP service is running and set to start automatically. To do th
     
 2. In **Services**, right-click **Simple Mail Transfer Protocol (SMTP)**, and then select **Properties**.
     
-3. In the **Simple Mail Transfer Protocol (SMTP) Properties** dialog box, on the **General** tab, in the **Startup type** list, select **Automatic**, and then click **OK**.
+3. In the **Simple Mail Transfer Protocol (SMTP) Properties** dialog, on the **General** tab, in the **Startup type** list, select **Automatic**, and then click **OK**.
     
 
 ## Set the application credential key on each server in the farm

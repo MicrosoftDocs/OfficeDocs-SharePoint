@@ -1,5 +1,5 @@
 ---
-title: "How to let users sync SharePoint files with OneDrive sync app - SharePoint Online"
+title: "How to let users sync SharePoint files with the OneDrive sync app"
 ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
@@ -28,7 +28,7 @@ description: "Learn how to enable users in your organization to sync SharePoint 
 
 # Let users sync SharePoint files with the new OneDrive sync app
 
-This article is for IT administrators in large organizations who want to enable users in their organizations to sync SharePoint team sites with the new OneDrive sync app. Smaller organizations and organizations that are new to Office 365 are already set up to sync OneDrive and SharePoint files with the new OneDrive sync app.
+This article is for IT administrators in large organizations who want to enable users in their organizations to sync SharePoint team sites with the new OneDrive sync app. Smaller organizations and organizations that are new to Microsoft 365 are already set up to sync OneDrive and SharePoint files with the new OneDrive sync app.
   
 When you enable this feature, users will be able to sync the files in a SharePoint team site to their PCs and Macs using the OneDrive sync app (OneDrive.exe). As part of this, they will be able to:
   
@@ -59,7 +59,7 @@ For info about the latest sync app releases, see [New OneDrive sync app release 
 ## Set SharePoint to sync with the OneDrive sync app
 <a name="admincenter"> </a>
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
@@ -81,7 +81,7 @@ For info about the latest sync app releases, see [New OneDrive sync app release 
   
 5. Select **OK**.
     
-    These changes take several hours to propagate. To check that they've propagated, go to a SharePoint site and select **Sync**. In the browser dialog box that confirms the request to open a program, the "Program" should appear as "Microsoft OneDrive" and the "Address" should start with "odopen://"
+    These changes take several hours to propagate. To check that they've propagated, go to a SharePoint site and select **Sync**. In the browser dialog that confirms the request to open a program, the "Program" should appear as "Microsoft OneDrive" and the "Address" should start with "odopen://"
     
 ## See also
 <a name="admincenter"> </a>

@@ -20,14 +20,14 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b
-description: "In this article, you will learn how to allow or prevent users from adding pages on SharePoint sites."
+description: "In this article, you'll learn how to allow or prevent users from adding pages on SharePoint sites."
 ---
 
 # Let users create modern site pages
 
 Using SharePoint Online pages is a great way to share ideas using images, Excel, Word and PowerPoint documents, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and they look great on any device. 
   
-If you're a global or SharePoint admin in Office 365, you can allow or prevent the creation of SharePoint Online site pages by users. You can do this organization-wide by changing settings in the SharePoint admin center, or at the site level by using a Microsoft PowerShell script.
+If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent the creation of SharePoint Online site pages by users. You can do this organization-wide by changing settings in the SharePoint admin center, or at the site level by using a Microsoft PowerShell script.
   
 > [!NOTE]
 > The following procedures are for SharePoint pages only. When you allow creation of site pages, the **Add a page** command in the **Settings** menu creates new site pages. If you turn off the ability to create site pages, users can still add a SharePoint page from the **New** menu on the Home page and add from the classic page to a Wiki library using the same command. 
@@ -36,7 +36,7 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
   
 ## Allow or prevent creation of site pages at the organization level in the SharePoint admin center
 
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
@@ -51,7 +51,7 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
     
 2. Install the [SharePoint Online Client Components SDK](https://www.microsoft.com/download/details.aspx?id=42038).
     
-3. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
     > [!NOTE]
     > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
@@ -133,7 +133,7 @@ If you're a global or SharePoint admin in Office 365, you can allow or prevent t
     
 2. Install the [SharePoint Online Client Components SDK](https://www.microsoft.com/download/details.aspx?id=42038).
     
-3. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
     > [!NOTE]
     > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 

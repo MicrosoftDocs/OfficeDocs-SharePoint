@@ -17,7 +17,7 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: a522cc35-4e63-49da-9968-85c588878932
-description: "Learn how to view popularity trends for an item, page, site, or site collection. Popularity trends can help you identify times when the activity is high or low."
+description: "Learn how to view popularity trends for an item, page, subsite, or site. Popularity trends can help you identify times when the activity is high or low."
 ---
 
 # View Popularity Trends and Most Popular Items
@@ -90,6 +90,6 @@ To see more details for each item, click the **Popularity Trends** link under ea
 ## View Usage and Search reports for all sites
 <a name="__view_the_most"> </a>
 
-If you're a global or SharePoint admin in Office 365, you can view search usage reports for the whole organization. See [View usage and search reports](view-search-usage-reports.md).
+If you're a global or SharePoint admin in Microsoft 365, you can view search usage reports for the whole organization. See [View usage and search reports](view-search-usage-reports.md).
   
 

@@ -1,5 +1,5 @@
 ---
-title: "File collaboration in Microsoft 365 - SharePoint Online"
+title: "File collaboration in Microsoft 365 - SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -54,7 +54,7 @@ When users keep files on their local device or on a network share, they're out o
 
 ### Enterprise-grade security
 
-Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](https://docs.microsoft.com/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
+Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](https://docs.microsoft.com/office-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
 
 - **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [See Overview of data loss prevention](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)
 
@@ -64,7 +64,7 @@ Files stored in SharePoint-powered storage locations in Microsoft 365 are [encry
 
 - **Reports**. Monitor activity and usage in SharePoint and OneDrive. [See Which activity reports are available in the admin center](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?view=o365-worldwide#which-activity-reports-are-available-in-the-admin-center)
 
-- **Office 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [See Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)
+- **Microsoft 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [More info](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)
 
 - **Files Restore**. If a location is affected by malicious software, or someone deletes important files, you can [restore a document library](https://support.office.com/article/317791c3-8bd0-4dfd-8254-3ca90883d39a) to an earlier point in time.
 
@@ -74,7 +74,7 @@ Files stored in SharePoint-powered storage locations in Microsoft 365 are [encry
 
 SharePoint powers secure file sharing in Microsoft 365. You can specify if you want people outside the organization to be able to access files without authenticating (by signing in or providing a verification code). You can even block external sharing altogether. We recommend using the most permissive sharing option that you can for each set of content. If you heavily restrict sharing and it blocks user productivity, users will typically find other ways to collaborate that provide you less oversight and control. For more info, see [Control sharing](https://docs.microsoft.com/sharepoint/deploy-file-collaboration#control-sharing).
 
-![Screenshot of sharing dialog box showing a sharing link for people inside the organization.](media/sp-collabguide02.png)
+![Screenshot of sharing dialog showing a sharing link for people inside the organization.](media/sp-collabguide02.png)
 
 ### Real-time collaboration and version management
 
@@ -84,7 +84,7 @@ When users store Office files in the Microsoft 365 cloud, they can avoid the has
 
 Version history is also on by default, so users can view earlier changes and roll back as necessary. [Learn more about working with version history](https://support.office.com/article/53262060-5092-424d-a50b-c798b0ec32b1).
 
-![Version History dialog box with 3 versions.](media/sp-collabguide04.png)
+![Version History dialog with 3 versions.](media/sp-collabguide04.png)
 
 ### Intelligence that helps users discover files
 
@@ -131,7 +131,7 @@ Because individual libraries in OneDrive are powered by SharePoint, users can ea
 
 ![A screenshot of a list of SharePoint sites on the OneDrive website.](media/sp-collabguide07.png)
 
-### Syncing for offline access
+### Sync for offline access
 
 With the [OneDrive sync app](https://onedrive.live.com/about/download/), users can sync files between their computer and the Microsoft 365 cloud. When users add, change, or delete a file or folder locally, the file or folder is added, changed, or deleted in the cloud and vice versa. Users can work with synced files directly in File Explorer and the apps they use. Whenever the user is online, any changes that they or other users make will sync automatically. With Files On-Demand (available with Windows 10 and Mac), users can easily browse and organize files in OneDrive and SharePoint by using File Explorer or Finder, but the files don't take up space on the local computer. [Learn more about Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
 
@@ -143,7 +143,7 @@ If your users are used to sharing files as attachments in Outlook, they can use 
 
 ![Change Permission options include Recipients can edit and Recipients can view](media/sp-collabguide09.png)
 
-### Integration with Microsoft Office
+### Integrate with Microsoft Office
 
 In the Office apps, users can easily [open files saved in the Microsoft cloud](https://support.office.com/article/97f087d8-3136-4485-8e86-c5b12a8c4176) and [save documents to OneDrive](https://support.office.com/article/b9e0c0a9-2bd7-42cf-9178-24d60c51ac75). [Learn more](https://support.office.com/article/ea3807bc-2b73-406f-a8c9-a493de18258b). When users comment on an Office document and use the **@** sign with someone's name, the person mentioned receives mail with a link to the comment. Clicking the link brings them into the document and into the conversation.
 
@@ -172,7 +172,7 @@ In the new SharePoint admin center, you can see [SharePoint activity and usage r
 
 ### Multi-geo
 
-If you're a multinational organization with data residency requirements, you can use Multi-Geo in Office 365 to specify where files are stored. For information, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you're a multinational organization with data residency requirements, you can use Multi-Geo in Microsoft 365 to specify where files are stored. For info, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 ### Unified search
 
@@ -182,7 +182,7 @@ Microsoft Search helps users find files within modern SharePoint sites and from 
 
 As a global or SharePoint admin for your organization, you have a couple of options for managing SharePoint sites and settings:
 
-- **New SharePoint admin center**. In the new SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The **Active sites** page of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Office 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the new SharePoint admin center](https://docs.microsoft.com/sharepoint/get-started-new-admin-center).
+- **New SharePoint admin center**. In the new SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The **Active sites** page of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the new SharePoint admin center](https://docs.microsoft.com/sharepoint/get-started-new-admin-center).
 
     ![The Active Sites page in the SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
 
@@ -194,7 +194,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 **Assign the SharePoint admin role**. Users assigned this role will have access to the SharePoint admin center and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](https://docs.microsoft.com/sharepoint/sharepoint-admin-role).
 
-**Estimate and test your network bandwidth**. Before you roll out Office 365 in your organization, make sure that your network is set up for optimum performance. [Network planning and performance tuning](https://docs.microsoft.com/office365/enterprise/network-planning-and-performance). Before you deploy the sync app, make sure you also [estimate the bandwidth users will need for syncing](https://docs.microsoft.com/onedrive/network-utilization-planning).
+**Estimate and test your network bandwidth**. Before you roll out Microsoft 365 in your organization, make sure that your network is set up for optimum performance. [Network planning and performance tuning](https://docs.microsoft.com/office365/enterprise/network-planning-and-performance). Before you deploy the sync app, make sure you also [estimate the bandwidth users will need for syncing](https://docs.microsoft.com/onedrive/network-utilization-planning).
 
 ## Limitations
 
@@ -204,7 +204,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 ## Manage feature changes
 
-- To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
+- To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/office-365/roadmap).
 
 - To keep on top of the latest SharePoint features rolling out, refer to the [Message Center](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide).
 
@@ -216,7 +216,7 @@ User adoption is important to the overall success of any rollout. To maximize yo
 
 - **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 file collaboration succeed in your organization. It's important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. Studies have shown that people prefer to learn from a coworker than from an IT employee. For more information about how to identify key stakeholders, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more information about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
 
-- **Scenarios.** Identify and define your business scenarios and how those scenarios align with the benefits of file collaboration in Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/?rtc=1).
+- **Scenarios.** Identify and define your business scenarios and how those scenarios align with the benefits of file collaboration in Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://www.microsoft.com/office-365/success/?rtc=1).
 
 - **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more information about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
 
@@ -226,9 +226,9 @@ Many resources are available from Microsoft to help you drive user adoption with
 
 To prepare for file collaboration in Microsoft 365, configure the following settings.
 
-### Site creation
+### Create sites
 
-When an Office 365 group is created from anywhere within Microsoft 365, a SharePoint site is automatically created. You can let all users create groups, only some users, or you can block group creation and manage it centrally in your IT department. For info, see [Manage who can create Office groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). You can also use a naming policy for groups and set an expiration period so that groups that are no longer being used will be deleted. For more info, see [Plan for governance in Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide). If you allow users to create groups, you can also allow them to create team sites from the SharePoint start page and from OneDrive and manage default site settings. For info, see [Manage site creation](https://docs.microsoft.com/sharepoint/manage-site-creation).
+When a Microsoft 365 group is created from anywhere within Microsoft 365, a SharePoint site is automatically created. You can let all users create groups, only some users, or you can block group creation and manage it centrally in your IT department. For info, see [Manage who can create Office groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). You can also use a naming policy for groups and set an expiration period so that groups that are no longer being used will be deleted. For more info, see [Plan for governance in Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide). If you allow users to create groups, you can also allow them to create team sites from the SharePoint start page and from OneDrive and manage default site settings. For info, see [Manage site creation](https://docs.microsoft.com/sharepoint/manage-site-creation).
 
 ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 
@@ -240,9 +240,9 @@ To set up external sharing in your organization, you need to make sure that sett
 
 ### Security
 
-- Design and deploy retention labels and DLP policies to protect sensitive and highly confidential files. [Learn how](https://docs.microsoft.com/microsoft-365/compliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
+- Design and deploy retention labels and DLP policies to protect sensitive and highly confidential files. [Learn how](https://docs.microsoft.com/office-365/compliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
 
-- Block or limit access from unmanaged devices, sign out inactive users on unmanaged devices, or allow access from only specific IP address ranges. For info about setting up identity and device-access policies to protect content, see [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies).  
+- Block or limit access from unmanaged devices, sign out inactive users on unmanaged devices, or allow access from only specific IP address ranges. For info about setting up identity and device-access policies to protect content, see [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/office-365/enterprise/sharepoint-file-access-policies).  
 
 ![Access control settings for SharePoint](media/sp-collabguide16.png)
 

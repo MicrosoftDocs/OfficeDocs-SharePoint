@@ -16,7 +16,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn about how does the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
+description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
 
 # Get started with the Migration Manager (preview)
@@ -51,11 +51,11 @@ It works in three simple steps:
 
 To get started:
 
-Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or SharePoint admin to the Office 365 tenant where you want to migrate your content.
+- **Access to the destination**: You must either be a global admin or SharePoint admin to the Microsoft 365 tenant where you want to migrate your content.
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate.
 

@@ -38,6 +38,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Verify e
     
 5. In the **Web Application/Service Application** column, click the User Profile service application for which you want to edit connections. 
     
-6. In the **Configure Service Application Associations** dialog box, select the **Search Service** check box, or select **Default** in the **Edit the following group of connections** list, and then click **OK**. By default, all connections are included.
+6. In the **Configure Service Application Associations** dialog, select the **Search Service** check box, or select **Default** in the **Edit the following group of connections** list, and then click **OK**. By default, all connections are included.
     
 

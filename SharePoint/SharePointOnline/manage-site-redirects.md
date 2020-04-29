@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article contains information on how to manage site redirects in SharePoint. You'll learn, how to view and delete site redirects."
+description: "This article contains information on how to manage site redirects in SharePoint. You'll learn how to view and delete site redirects."
 ---
 
 # Manage site redirects 
@@ -36,7 +36,7 @@ In some cases, you might want to free up the old URL to use it for a new site. T
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
     
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Office 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 

@@ -20,7 +20,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 59b83701-cefd-4bf8-b4d1-d4659b60da08
-description: "This article contains information to help you learn how to apply conditional access settings in the OneDrive admin center."
+description: "In this article, you'll learn how to apply conditional access settings in the OneDrive admin center."
 ---
 
 # Control access based on network location or app

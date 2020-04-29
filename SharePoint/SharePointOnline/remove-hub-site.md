@@ -19,16 +19,16 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 8b1f8b6b-09c6-41c9-b1ca-88cbeee86ba2
-description: "In this article, you'll learn about how to remove or un-register a hub site so that it no longer remains a hub site."
+description: "In this article, you'll learn about how to remove (un-register) a hub site so that it no longer remains a hub site."
 ---
 
 # Unregister a site as a hub site
 
-If you're a global or SharePoint admin in Office 365, you can make a hub site no longer a hub site (unregister it as a hub site). Make sure you do this before you delete the hub site. When you unregister a hub site, any sites still associated with the hub will be disassociated the next time a user accesses them. Disassociating a site will remove the hub site navigation bar from the top of the site. The look that the site inherited from the hub site will stay the same and features such as additional navigation links, applications, or custom lists with specific columns that were added as part of the inherited hub site design will remain. Any hub-site-related web parts added to the home page will only show information from the site instead of from sites associated with the hub.
+If you're a global or SharePoint admin in Microsoft 365, you can make a hub site no longer a hub site (unregister it as a hub site). Make sure you do this before you delete the hub site. When you unregister a hub site, any sites still associated with the hub will be disassociated the next time a user accesses them. Disassociating a site will remove the hub site navigation bar from the top of the site. The look that the site inherited from the hub site will stay the same and features such as additional navigation links, applications, or custom lists with specific columns that were added as part of the inherited hub site design will remain. Any hub-site-related web parts added to the home page will only show information from the site instead of from sites associated with the hub.
   
 ## Unregister a hub site in the new SharePoint admin center 
 
-1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
