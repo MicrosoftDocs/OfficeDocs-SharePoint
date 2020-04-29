@@ -24,20 +24,33 @@ description: "Learn how to change settings when deploying or managing the OneDri
 
 # Deploy and configure the new OneDrive sync app for Mac
 
-This article is for IT administrators managing OneDrive settings in work or school environments. If you're not an IT administrator, read [Get started with the new OneDrive sync app on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f).
+There are two basic ways that you, as an admin, can deploy the OneDrive sync app to Mac users in your organization:
+  
+- Have users install and set up the OneDrive sync app themselves by following the instructions in [Sync files with OneDrive on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). To install the OneDrive sync app for Mac, a user has to be administrator on the Mac or know an administrator account name and password. 
+    
+- Download the installer package file to your local network, and then use your software distribution tools to deploy the app to your users. By using a software distribution tool, you have more control over the deployment, including which users get the sync app and when. The OneDrive sync app for Mac uses the Apple Installer technology for installation. This means you can use the software distribution tools that you normally use to deploy software to Mac users. You can use [deploy and configure settings by using Intune](deploy-intune.md). Other common tools are [Jamf Pro](https://www.jamfsoftware.com/products/casper-suite/), [Munki](https://www.munki.org/), and [AutoPkg](https://github.com/autopkg/autopkg). You can also use [Apple Remote Desktop](https://www.apple.com/remotedesktop/) and [AppleScript](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html).
   
 ## Manage OneDrive settings on macOS using property list (Plist) files
 
-Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the store edition or the standalone edition of the sync app, but the property list file name and domain name will be different. When you apply the settings, make sure to target the appropriate domain depending on the edition of the sync app.
+After the OneDrive sync app for Mac is installed, users can configure settings for the app. These settings are called preferences. As an admin, you might want to provide users in your organization with a standard set of preferences. Preferences for the OneDrive sync app for Mac are stored in preference files. These files are often referred to as .plist files. 
   
 ||**Standalone**|**Mac App Store**|
 |:-----|:-----|:-----|
 |PList Location  <br/> |~/Library/Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
 |Domain  <br/> |com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> |
-   
-## Deploy the sync app settings
 
-Deploy the settings on macOS in the typical way:
+The best way to add or edit preferences is by using the defaults command. For example, if you want to disable personal accounts, you can open Terminal and enter the following command: 
+  
+```
+defaults write com.microsoft.OneDrive DisablePersonalSync true
+```
+
+Instead of copying a modified .plist file to computers in your organization, we recommend creating a script that incorporates all the defaults commands that you want to use to set preferences. Then deploy that script to your users. The script needs to be run in the user's context, because preferences are user specific. That also means that if several users share the same computer and each has a different account, then the script needs to be run for each user of that computer.
+  
+  
+## Configure sync app settings
+
+Configure the settings on macOS in the typical way:
   
 1. Quit the OneDrive application.
 
@@ -51,12 +64,12 @@ Deploy the settings on macOS in the typical way:
 
 ## Overview of settings
 
-The following table lists all the settings that are currently exposed for the OneDrive sync app. You need to configure the parameters in parentheses.
+Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app, but the property list file name and domain name will be different. When you apply the settings, make sure to target the appropriate domain depending on the edition of the sync app.
   
 |**Setting**|**Description**|**Parameters**|**Example Plist Entry**|
 |:-----|:-----|:-----|:-----|
 |Disable personal accounts  <br/> |Blocks users from signing in and syncing files in personal OneDrive accounts. If this key is set after a user has set up sync with a personal account, the user will be signed out.  <br/> |DisablePersonalSync (Bool): When set to true, this parameter prevents users from adding or syncing personal accounts.  <br/> |\<key\>DisablePersonalSync\</key\>  <br/> \<(Bool)/\>  <br/> |
-|Default folder location  <br/> |Specifies the default location of the OneDrive folder for each organization  <br/> |TenantID (String): TenantID determines which accounts the default folder location setting should apply to. [Find your Microsoft 365 organization ID](find-your-office-365-tenant-id.md) <br/> DefaultFolderPath (String): DefaultFolder specifies the default folder location.  <br/> Mac App Store:  <br/> The path must already exist when users set up the sync app.  <br/> Standalone:  <br/> The path will be created on users' computers if it doesn't already exist. Only with the Standalone sync app can you prevent users from changing the location.  <br/> |\<key\>Tenants\</key\>  <br/> \<dict\>  <br/> \<key\>(TenantID)\</key\>  <br/> \<dict\>  <br/> \<key\>DefaultFolder\</key\>  <br/> \<string\>(DefaultFolderPath)\</string\>  <br/> \</dict\>  <br/> \</dict\>  <br/> |
+|Default folder location  <br/> |Specifies the default location of the OneDrive folder for each organization  <br/> |TenantID (String): TenantID determines which accounts the default folder location setting should apply to. [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md) <br/> DefaultFolderPath (String): DefaultFolder specifies the default folder location.  <br/> Mac App Store:  <br/> The path must already exist when users set up the sync app.  <br/> Standalone:  <br/> The path will be created on users' computers if it doesn't already exist. Only with the Standalone sync app can you prevent users from changing the location.  <br/> |\<key\>Tenants\</key\>  <br/> \<dict\>  <br/> \<key\>(TenantID)\</key\>  <br/> \<dict\>  <br/> \<key\>DefaultFolder\</key\>  <br/> \<string\>(DefaultFolderPath)\</string\>  <br/> \</dict\>  <br/> \</dict\>  <br/> |
 |Automatic upload bandwidth percentage  <br/> |Enables the sync app to automatically set the amount of bandwidth used based on available bandwidth for uploading files  <br/> |AutomaticUploadBandwidthPercentage (int): This parameter determines the percentage of local upload bandwidth that the sync app can use. Accepted values are from 1 through 99.  <br/> |\<key\>AutomaticUploadBandwidthPercentage\</key\>  <br/> \<int\>(Bandwidth)\</int\>  <br/> |
 |Set maximum upload throughput  <br/> |Sets the maximum upload throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app  <br/> | UploadBandwidthLimited (int): This parameter determines the upload throughput in KB/sec that the sync app can use. The minimum rate is 50 KB/sec and the maximum rate is 100,000 KB/sec.  <br/> |\<key\>UploadBandwidthLimited\</key\>  <br/> \<int\>(Upload Throughput Rate in KB/sec)\</int\>  <br/> |
 |Set maximum download throughput  <br/> |Sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app  <br/> |DownloadBandwidthLimited (int): This parameter determines the download throughput in KB/sec that the sync app can use. The minimum rate is 50 KB/sec and the maximum rate is 100,000 KB/sec.  <br/> |\<key\>DownloadBandwidthLimited\</key\>  <br/> \<int\>(Download Throughput Rate in KB/sec)\</int\>  <br/> |

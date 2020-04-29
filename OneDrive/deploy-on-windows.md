@@ -149,7 +149,7 @@ odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&am
   ```
 
 > [!NOTE]
-> When you use Microsoft Endpoint Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). </br> For help finding your organization ID, see [Find your Microsoft 365 organization ID](find-your-office-365-tenant-id.md). 
+> When you use Microsoft Endpoint Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). </br> For help finding your tenant ID, see [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md). 
   
 ## Deploy the OneDrive app on mobile devices running iOS or Android
 
