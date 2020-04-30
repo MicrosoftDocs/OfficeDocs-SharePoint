@@ -19,7 +19,7 @@ ms.collection:
 - Strat_SP_gtc
 - M365-collaboration
 - SPO_Content
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: 4ab7d5bc-abd7-40df-a3db-4306044af01f
 description: "Overview and introductory articles on SharePoint Server hybrid to help you decide which hybrid solution you should use for your business."
 ---
@@ -45,9 +45,7 @@ When you're done exploring, [plan your hybrid deployment](plan-sharepoint-server
 |[Learn about hybrid federated search for SharePoint](learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |Learn about the different scenarios available for hybrid federated search and what search experiences they enable for your users.  <br/> |
 |[Hybrid picker in the SharePoint Online admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) <br/> |Learn about the hybrid picker configuration wizard and which hybrid scenarios it enables.  <br/> |
    
-## See also
-
-#### Concepts
+## Related topics
 
 [Hybrid for SharePoint Server](hybrid.md)
 
