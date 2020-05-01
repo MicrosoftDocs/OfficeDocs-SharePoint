@@ -11,6 +11,8 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+search.appverid:
+- MET150
 description: "Learn how to swap your default search center from Enterprise back to Basic."
 ---
 
