@@ -36,6 +36,23 @@ There are two primary advantages of moving or redirecting Windows known folders 
 - Saving files to OneDrive backs up your users' data in the cloud and gives them access to their files from any device.
 
 For these reasons, we recommend moving or redirecting known folders to OneDrive if you're an enterprise or large organization. Small or medium businesses may also find this useful, but keep in mind you'll need some experience with Group Policy. For info about the end-user experience, see [Protect your files by saving them to OneDrive](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057).
+
+## Known Folder Move workshop
+
+This workshop provides guidance on how you can roll out OneDrive Known Folder Move:
+
+- Plan for common challenges
+- Requirements for each deployment option
+- Deploy using Active Directory and Group Policy objects, Microsoft Endpoint Configuration Manager, or Intune
+- Monitor device eligibility, known folder details, move status, and Group Policy object state
+
+The workshop assumes that you've already set up core infrastructure (Active Directory, DNS, AD Connect, Microsoft Endpoint Configuration Manager) and doesn't cover third-party tools or custom applications integration.
+
+[Download the PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/OneDrive/media/OneDrive-for-Business-KFM.pdf?raw=true)
+
+[Download the PowerPoint presentation](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/OneDrive/media/OneDrive-for-Business-KFM.pptx?raw=true)
+
+![Ways to deploy Known Folder Move](media/OneDrive-for-Business-KFM.png)
   
 ## About the Known Folder Move Group Policy objects
 
@@ -106,7 +123,7 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
   > [!NOTE]
   > We recommend using Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and OneDrive build 17.3.7064.1005 to get the benefits from Files On-Demand.
   
-  1. Use a migration tool such as [Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365) or the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop (create if it doesn’t exist) folders.
+  1. Use a migration tool such as [Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365) or the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop (create if it doesn't exist) folders.
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive. 
   3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which contain all the file share content that you moved in the first step.
 
