@@ -55,7 +55,7 @@ If the computers on your network are joined to Active Directory on-premises, you
 
 Using Group Policy:
   
-1. Enable silent account configuration. For info, see [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#SilentAccountConfig). If a device is not already joined to Azure AD, enabling this setting will join it.
+1. Enable silent account configuration. For info, see [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#SilentAccountConfig). 
     
 2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB). Note that if you enable Files On-Demand, OneDrive will ignore the maximum size value.
     
