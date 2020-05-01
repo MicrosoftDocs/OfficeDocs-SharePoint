@@ -155,8 +155,12 @@ Minimum requirements for a single server with built-in database:
   
 > [!NOTE]
 > At this time, Windows Server 2016 RTM is not supported. 
-  
-- The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 R2 Standard or Datacenter
+
+One of the following server operating systems:
+
+- Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter
+- Windows Server 2012 Standard or Datacenter
+- Windows Server 2012 R2 Standard or Datacenter
     
     > [!NOTE]
     > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/).
@@ -207,7 +211,11 @@ Minimum requirements for front-end web servers and application servers in a farm
 > [!NOTE]
 > At this time, Windows Server 2016 RTM is not supported. 
   
-- The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 R2 Standard or Datacenter.
+One of the following server operating systems:
+
+- Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter
+- Windows Server 2012 Standard or Datacenter
+- Windows Server 2012 R2 Standard or Datacenter
     
     > [!NOTE]
     > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/).
