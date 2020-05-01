@@ -30,8 +30,8 @@ As the tool is designed to run without impacting your environment, you may obser
   
 > [!NOTE]
 > To improve the quality of Microsoft products and services, the tool will report anonymous statistical information back to Microsoft. Optionally, you can identify your organization when prompted at the end of the scan. If the tool is not able to connect to the internet to report this information, the tool will still function as otherwise expected.
-  
-## Overview
+
+## Modes in SharePoint Migration Assessment Tool
 
 The tool offers two modes: Assessment and Identity Mapping.
   
