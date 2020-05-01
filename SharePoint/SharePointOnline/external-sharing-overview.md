@@ -137,7 +137,7 @@ You can stop sharing with people who have an "Anyone" link by going to the file 
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
-You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
+You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLXPr7gfUMmKxzj4SEwD8v7n13X_OkSOgY).
   
 ## See also
 
