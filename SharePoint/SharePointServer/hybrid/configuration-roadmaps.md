@@ -17,8 +17,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - M365-collaboration
 - SPO_Content
-ms.custom:
--  seo-marvel-apr2020
+ms.custom: seo-marvel-apr2020
 ms.assetid: feedf4f0-0e18-4592-983b-8d769830bcac
 description: "Learn about the roadmaps that guide you through the steps you need to follow to set up your chosen SharePoint Server hybrid solution."
 ---
@@ -40,9 +39,7 @@ Choose the hybrid feature that you want to set up:
 |[Configure hybrid federated search from SharePoint Online to SharePoint Server - roadmap](configure-hybrid-federated-search-sharepoint-onlineroadmap.md) <br/> |With inbound hybrid search, users will be able to see search results from SharePoint Server when they perform a search in Microsoft 365 for enterprises.  <br/> |
 |[Configure hybrid Business Connectivity Services - roadmap](configure-hybrid-business-connectivity-servicesroadmap.md) <br/> |With hybrid Business Connectivity Services (BCS), you can leverage your existing BCS solutions to allow connections to your SharePoint Server data sources from SharePoint Online.  <br/> |
    
-## See also
-
-#### Concepts
+## Related topics
 
 [Plan SharePoint Server hybrid](plan-sharepoint-server-hybrid.md)
 

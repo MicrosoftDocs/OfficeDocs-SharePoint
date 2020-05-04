@@ -67,7 +67,7 @@ The settings available are dependent on your organization-level setting. If you 
 > [!NOTE]
 > You might have site content shared with a Microsoft 365 group that has guest members, and the group settings prevent guest members from accessing group resources. In this case, even if you turn on external sharing for the site, guests of the group may not be able to access site content. To enable or disable Microsoft 365 Group guest member access, see [Manage guest access in Microsoft 365 Groups](/office365/admin/create-groups/manage-guest-access-in-groups).
   
-## See also
+## Related topics
 
 [Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/Office365/Enterprise/best-practices-anonymous-sharing)
 

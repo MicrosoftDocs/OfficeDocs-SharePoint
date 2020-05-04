@@ -20,7 +20,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 7448173d-a38c-48cf-acbb-09ac1b6237d4
-description: "In this article, you'll learn how to change a user's OneDrive storage space by using PowerShell commands."
+description: In this article, you'll learn how to change a user's OneDrive storage space by using PowerShell commands.
 ---
 
 # Change a specific user's OneDrive storage space

@@ -19,6 +19,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: d25713bb-5cf8-4874-9b5b-e8bee3b94f13
+ms.custom: seo-marvel-apr2020
 description: "Learn how to create a mobile application management policy for the OneDrive and SharePoint mobile apps in the OneDrive admin center. "
 ---
 
@@ -49,12 +50,8 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
 - Block opening OneDrive and SharePoint files in other apps.
     
 - Encrypt app data when the device is locked.
-    
-<<<<<<< Updated upstream
-- Require Microsoft 365 sign-in each time the app is opened
-=======
+
 - Require Microsoft 365 sign-in each time the app is opened.
->>>>>>> Stashed changes
     
 - Choose values for how often to verify user access and when to wipe app data when a device is offline.
     
@@ -70,7 +67,7 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
     
 4. Click **Save**.
     
-## See also
+## Related topics
 
 [Intune Documentation](https://go.microsoft.com/fwlink/?linkid=2003459)
   
