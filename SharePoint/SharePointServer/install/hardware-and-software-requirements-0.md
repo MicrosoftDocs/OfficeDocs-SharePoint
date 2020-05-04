@@ -154,7 +154,7 @@ Minimum requirements for a database server in a farm:
 Minimum requirements for a single server with built-in database:
   
 > [!NOTE]
-> Windows Servers 2016 or higher is not supported. 
+> Windows Server 2016 or higher is not supported. 
 
 - One of the following server operating systems:
 
@@ -211,7 +211,7 @@ Minimum requirements for a single server with built-in database:
 Minimum requirements for front-end web servers and application servers in a farm:
   
 > [!NOTE]
-> Windows Servers 2016 or higher is not supported. 
+> Windows Server 2016 or higher is not supported. 
   
 - One of the following server operating systems:
 
