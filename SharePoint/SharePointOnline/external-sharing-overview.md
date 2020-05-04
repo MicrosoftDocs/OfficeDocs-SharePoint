@@ -63,7 +63,9 @@ Whichever option you choose at the organization or site level, the more restrict
 If you have confidential information that should never be shared externally, we recommend storing the information in a site that has external sharing turned off. Create additional sites as needed to use for external sharing. This helps you to manage security risk by preventing external access to sensitive information.
 
 > [!NOTE]
-> To limit *internal* sharing of contents on a site, you can prevent site members from sharing, and enable access requests. For info, see [Set up and manage access requests](https://support.office.com/article/94B26E0B-2822-49D4-929A-8455698654B3). <br>When users share a folder with multiple guests, the guests will be able to see each other's names in the Manage Access panel for the folder (and any items within it).
+> To limit *internal* sharing of contents on a site, you can prevent site members from sharing, and enable access requests. For info, see [Set up and manage access requests](https://support.office.com/article/94B26E0B-2822-49D4-929A-8455698654B3). 
+> 
+> When users share a folder with multiple guests, the guests will be able to see each other's names in the Manage Access panel for the folder (and any items within it).
   
 ## Sharing Microsoft 365 group-connected team sites
 
@@ -137,7 +139,7 @@ You can stop sharing with people who have an "Anyone" link by going to the file 
 
 [!INCLUDE[discussionforums.md](includes/discussionforums.md)]
 
-You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLKurDp05sqD0oE3KnohD69dkP5fHmrfuN).
+You can also find help on security and permissions in these [YouTube videos from SharePoint community experts](https://www.youtube.com/playlist?list=PLXPr7gfUMmKxzj4SEwD8v7n13X_OkSOgY).
   
 ## See also
 

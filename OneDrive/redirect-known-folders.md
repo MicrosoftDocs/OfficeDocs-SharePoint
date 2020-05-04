@@ -1,6 +1,6 @@
 ---
 title: "Redirect and move Windows known folders to OneDrive"
-ms.reviewer: zhdong
+ms.reviewer: cagreen
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -94,11 +94,11 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 - If folders have been redirected to OneDrive using Windows Folder Redirection Group Policy:
 
   1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive.
-  2. Enable KFM Group Policy. Known folder contents aren't moved.
+  2. Enable KFM Group Policy. Known folders remain in OneDrive.
   
 - If folders have been redirected to a location on a local PC:
 
-  1. Disable the Window Folder Redirection Group Policy and make sure to redirect the folders back to the user profile location.
+  1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents at the redirected location.
   2. Enable KFM Group Policy. Known folders move to OneDrive.
   
 - If folders have been redirected to a network file share: 
@@ -106,8 +106,7 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
   > [!NOTE]
   > We recommend using Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and OneDrive build 17.3.7064.1005 to get the benefits from Files On-Demand.
   
-  1. Use a migration tool such as [Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365) or the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop (create if it doesn’t exist) folders.
-  2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive. 
+  1. Use a migration tool such as [Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365) or the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop folders.
+  2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share. 
   3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which contain all the file share content that you moved in the first step.
-
 
