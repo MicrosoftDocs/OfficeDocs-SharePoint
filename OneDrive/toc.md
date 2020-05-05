@@ -8,6 +8,7 @@
 ### [Intune](deploy-intune.md)
 ### [Microsoft Endpoint Configuration Manager](deploy-on-windows.md)
 ## [Sync installation options]()
+### [Ideal state configuration](ideal-state-configuration.md)
 ### [Network utilization planning](network-utilization-planning.md)
 ### [Per-machine installation](per-machine-installation.md)
 ### [Sync on virtual desktops](sync-vdi-support.md)
