@@ -12,6 +12,8 @@ ms.service: sharepoint-online
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
+search.appverid:
+- MET150
 description: "In this article, you'll learn about syncing SharePoint files using the OneDrive sync app for Windows and Mac."
 ---
 

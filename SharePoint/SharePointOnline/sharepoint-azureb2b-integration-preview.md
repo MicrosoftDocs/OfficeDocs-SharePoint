@@ -10,6 +10,8 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.custom: Adm_O365
 ms.collection: M365-collaboration
 ms.custom:

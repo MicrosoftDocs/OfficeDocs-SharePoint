@@ -10,6 +10,8 @@ f1.keywords:
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
