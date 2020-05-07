@@ -33,6 +33,10 @@ SharePoint Online is a cloud-based service that helps organizations share and ma
   
 The resources on this page are designed to get you started. Depending on the needs of your organization, you may want to read about [migration](#migration) and [governance](#governance) options before you start rolling SharePoint out to your users. If you're ready to get started with SharePoint, read about [collaboration](#collaboration) options and how to create a [modern intelligent intranet](#modern-intranet). As you roll out SharePoint to your organization, remember to [train your users](#training) to help them get the most out of these tools.
 
+If you're just starting out with SharePoint, learn about the [FastTrack onboarding and adoption services](https://fasttrack.microsoft.com/office), [find a SharePoint certified partner](https://products.office.com/sharepoint/sharepoint-partners-sharepoint-support), or [visit the SharePoint community](https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint).
+
+Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.com/about/download) and the [Mobile app](https://products.office.com/sharepoint/mobile-app). You can also [suggest a feature](https://sharepoint.uservoice.com).
+
 ## Migration
 
 If you have files on-premises that you need to move to SharePoint in Microsoft 365, or if you're still using SharePoint Server, the resources in this section can help you get started.
