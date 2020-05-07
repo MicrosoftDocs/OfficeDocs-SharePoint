@@ -384,11 +384,6 @@
         "redirect_document_id": true
    },
    {
-      "source_path": "sharepoint/sharepointonline/sharepoint-online.md",
-        "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/introduction",
-        "redirect_document_id": true
-   },
-   {
       "source_path": "sharepoint/sharepointonline/sharepoint-online.yml",
         "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/introduction",
         "redirect_document_id": true
