@@ -37,16 +37,7 @@ After the OneDrive sync app for Mac is installed, users can configure settings f
 ||**Standalone**|**Mac App Store**|
 |:-----|:-----|:-----|
 |PList Location  <br/> |~/Library/Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
-|Domain  <br/> |com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> |
-
-The best way to add or edit preferences is by using the defaults command. For example, if you want to disable personal accounts, you can open Terminal and enter the following command: 
-  
-```
-defaults write com.microsoft.OneDrive DisablePersonalSync true
-```
-
-Instead of copying a modified .plist file to computers in your organization, we recommend creating a script that incorporates all the defaults commands that you want to use to set preferences. Then deploy that script to your users. The script needs to be run in the user's context, because preferences are user specific. That also means that if several users share the same computer and each has a different account, then the script needs to be run for each user of that computer.
-  
+|Domain  <br/> |com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> | 
   
 ## Configure sync app settings
 
@@ -69,7 +60,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 |**Setting**|**Description**|**Parameters**|**Example Plist Entry**|
 |:-----|:-----|:-----|:-----|
 |Disable personal accounts  <br/> |Blocks users from signing in and syncing files in personal OneDrive accounts. If this key is set after a user has set up sync with a personal account, the user will be signed out.  <br/> |DisablePersonalSync (Bool): When set to true, this parameter prevents users from adding or syncing personal accounts.  <br/> |\<key\>DisablePersonalSync\</key\>  <br/> \<(Bool)/\>  <br/> |
-|Default folder location  <br/> |Specifies the default location of the OneDrive folder for each organization  <br/> |TenantID (String): TenantID determines which accounts the default folder location setting should apply to. [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md) <br/> DefaultFolderPath (String): DefaultFolder specifies the default folder location.  <br/> Mac App Store:  <br/> The path must already exist when users set up the sync app.  <br/> Standalone:  <br/> The path will be created on users' computers if it doesn't already exist. Only with the Standalone sync app can you prevent users from changing the location.  <br/> |\<key\>Tenants\</key\>  <br/> \<dict\>  <br/> \<key\>(TenantID)\</key\>  <br/> \<dict\>  <br/> \<key\>DefaultFolder\</key\>  <br/> \<string\>(DefaultFolderPath)\</string\>  <br/> \</dict\>  <br/> \</dict\>  <br/> |
+|Default folder location  <br/> |Specifies the default location of the OneDrive folder for each organization  <br/> |TenantID (String): TenantID determines which accounts the default folder location setting should apply to. [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md) <br/> DefaultFolderPath (String): DefaultFolder specifies the default folder location.  <br/> Mac App Store:  <br/> The path must already exist when users set up the sync app.  <br/> Standalone:  <br/> The path will be created on users' computers if it doesn't already exist. Only with the Standalone sync app can you prevent users from changing the location.  <br/> |\<key>DefaultFolder</key><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key>Path</key><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(DefaultFolderPath)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key>TenantId</key><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(TenantID)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>|
 |Automatic upload bandwidth percentage  <br/> |Enables the sync app to automatically set the amount of bandwidth used based on available bandwidth for uploading files  <br/> |AutomaticUploadBandwidthPercentage (int): This parameter determines the percentage of local upload bandwidth that the sync app can use. Accepted values are from 1 through 99.  <br/> |\<key\>AutomaticUploadBandwidthPercentage\</key\>  <br/> \<int\>(Bandwidth)\</int\>  <br/> |
 |Set maximum upload throughput  <br/> |Sets the maximum upload throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app  <br/> | UploadBandwidthLimited (int): This parameter determines the upload throughput in KB/sec that the sync app can use. The minimum rate is 50 KB/sec and the maximum rate is 100,000 KB/sec.  <br/> |\<key\>UploadBandwidthLimited\</key\>  <br/> \<int\>(Upload Throughput Rate in KB/sec)\</int\>  <br/> |
 |Set maximum download throughput  <br/> |Sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app  <br/> |DownloadBandwidthLimited (int): This parameter determines the download throughput in KB/sec that the sync app can use. The minimum rate is 50 KB/sec and the maximum rate is 100,000 KB/sec.  <br/> |\<key\>DownloadBandwidthLimited\</key\>  <br/> \<int\>(Download Throughput Rate in KB/sec)\</int\>  <br/> |
