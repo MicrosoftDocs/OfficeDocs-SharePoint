@@ -181,7 +181,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
    .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd>
    ```
 
-    **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and ** CloudSsaID ** is the name of the cloud SSA that you created earlier. 
+    **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and **CloudSsaID** is the name of the cloud SSA that you created earlier. 
     
 6. If your environment is Office 365 US Government Communication, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
      
@@ -193,7 +193,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
    .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd> -IsPortalForUSGovernment $true
    ```
 
-   **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and ** CloudSsaID ** is the name of the cloud SSA that you created earlier. 
+   **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and **CloudSsaID** is the name of the cloud SSA that you created earlier. 
     
 7. When prompted, enter the global admin credentials for your Microsoft 365 organization.
     
