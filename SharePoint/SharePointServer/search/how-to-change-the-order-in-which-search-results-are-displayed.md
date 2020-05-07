@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/7/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -108,11 +110,11 @@ To save space, we'll only show you how to create a query rule as a Site collecti
   
 6. In the Actions section, specify what you want the query rule to do when it is triggered.
     
-    In our Search Center scenario, we selected **Change ranked results by changing the query**. This opened a dialog box where we could define what we wanted the query rule to do. 
+    In our Search Center scenario, we selected **Change ranked results by changing the query**. This opened a dialog where we could define what we wanted the query rule to do. 
     
      ![Changed Ranked Results](../media/OTCSP_ChangeRankedResults.jpg)
   
-7. We wanted to change the order of search result. Therefore, in the **Build Your Query** dialog box, we selected the **SORTING** tab. 
+7. We wanted to change the order of search result. Therefore, in the **Build Your Query** dialog, we selected the **SORTING** tab. 
     
      ![Sorting](../media/OTCSP_SORTING.jpg)
   
@@ -167,7 +169,7 @@ Here are the steps to verify that a query rule is being applied:
     
 2. In the Web Part tool pane, select **Change query**. 
     
-3. In the **Build Your Query** dialog box, select the **TEST** tab, and then **Show more**. 
+3. In the **Build Your Query** dialog, select the **TEST** tab, and then **Show more**. 
     
      ![Test](../media/OTCSP_TEST.png)
   

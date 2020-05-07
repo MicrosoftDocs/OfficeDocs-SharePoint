@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/30/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -36,7 +38,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Some con
     
 4. On the Health Analyzer Rule Definitions page, in the **Availability** category, click the name of the rule. 
     
-5. In the **Health Analyzer Rule Definitions** dialog box, click **Edit Item**, and then select the **Repair Automatically** check box. 
+5. In the **Health Analyzer Rule Definitions** dialog, click **Edit Item**, and then select the **Repair Automatically** check box. 
     
 6. Click **Save**. You can no longer add new sites to databases that exceed 100 GB.
     

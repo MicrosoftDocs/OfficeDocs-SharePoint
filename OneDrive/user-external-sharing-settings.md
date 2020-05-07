@@ -5,6 +5,8 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
@@ -26,7 +28,7 @@ After you set the organization-wide sharing settings for SharePoint and OneDrive
 > Instead of changing the external sharing setting for an individual user's OneDrive, you might want to block external sharing of sensitive information for all users. To learn how, see [Overview of data loss prevention policies](/office365/securitycompliance/data-loss-prevention-policies).
 
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
     
     > [!NOTE]
     > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center. 

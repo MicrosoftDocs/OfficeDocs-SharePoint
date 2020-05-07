@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 11/2/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -32,8 +34,8 @@ The following articles about planning email integration in SharePoint Server are
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[Plan incoming email for a SharePoint Server farm](incoming-email-planning.md) <br/> |Provides information on how to set up email for discussion groups.  <br/> |
-|[Plan outgoing email for a SharePoint Server farm](outgoing-email-planning.md) <br/> |Provides information about how to use alerts and administrative messages.  <br/> |
+|[Plan incoming email for a SharePoint Server farm](incoming-email-planning.md) <br/> |Provides info about how to set up email for discussion groups.  <br/> |
+|[Plan outgoing email for a SharePoint Server farm](outgoing-email-planning.md) <br/> |Provides info about how to use alerts and administrative messages.  <br/> |
 |[Configure Exchange Autodiscover with a My Site Host URL in SharePoint Server](configure-exchange-autodiscover-with-a-my-site-host-url.md) <br/> |Learn how to configure Exchange Autodiscover to find a user's SharePoint My Site URL.  <br/> |
    
 ## Additional resources about email integration
@@ -42,8 +44,8 @@ The following resources about email integration in SharePoint Server are also av
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[SMTP authentication when sending emails](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019#smtpauth) <br/> |Learn about SMTP authentication when sending emails in SharePoint Server 2019.  <br/> |
-|[SMTP connection encryption](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md#smtpcon) <br/> |Learn about new security available for SharePoint Server 2016 and SMTP servers.  <br/> |
+|[SharePoint Migration Tool authentication when sending emails](/sharepoint/what-s-new/new-and-improved-features-in-sharepoint-server-2019#smtpauth) <br/> |Learn about SMTP authentication when sending emails in SharePoint Server 2019.  <br/> |
+|[SharePoint Migration Tool connection encryption](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md#smtpcon) <br/> |Learn about new security available for SharePoint Server 2016 and SharePoint Migration Tool servers.  <br/> |
 |[Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#DocCollab2013) <br/> |Learn about new features available for Exchange 2016 and SharePoint Server 2016.  <br/> |
    
 ## See also

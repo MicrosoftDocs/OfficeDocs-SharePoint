@@ -6,12 +6,14 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/11/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 354706a8-a7f0-4e83-b2b0-bfccd1753c2e
-description: "Use these articles to learn how to configure incoming and outgoing email for a SharePoint Server."
+description: "To learn how to configure incoming and outgoing email for a SharePoint Server, see these articles."
 ---
 
 # Configure email integration for a SharePoint Server farm

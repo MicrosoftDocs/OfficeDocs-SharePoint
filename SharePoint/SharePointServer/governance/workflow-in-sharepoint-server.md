@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 3/7/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -25,5 +27,5 @@ Workflows help people to collaborate on documents and to manage project tasks by
 
 SharePoint Server 2019 supports a variety of workflow technologies to meet the needs of our customers.  These workflow technologies are described below.
 * The SharePoint 2013 Workflow platform is the recommended workflow technology for SharePoint Server 2019.  These workflows integrate with Microsoft Workflow Manager and will provide a stable and reliable workflow experience for SharePoint Server 2019.​
-* Power Automate is the new cloud-based platform to automate actions across a variety of applications and services.  Thanks to hybrid technology, you can also integrate Power Automate into your SharePoint Server environments using the On-Premises Data Gateway.  Each related user must be assigned a Power Apps Plan 1 license to use Flow with SharePoint Server, which is not included as part of the SharePoint Server license.  In addition, Power Automate is currently optimized for non-interactive workflows with SharePoint Server.  If you require interactive workflows, we recommend exploring the SharePoint 2013 Workflow platform instead.
-* The SharePoint 2010 Workflow platform is also supported in SharePoint Server 2019 for backward compatibility.  This allows SharePoint Sever 2019 to run legacy workflows from previous versions of SharePoint Server.  Although SharePoint 2010 workflows are still supported, we don’t recommend building new workflows using this technology.  Instead, we recommend exploring either SharePoint 2013 workflows or Power Automate.
+* Power Automate is the new cloud-based platform to automate actions across a variety of applications and services.  Thanks to hybrid technology, you can also integrate Power Automate into your SharePoint Server environments using the On-Premises Data Gateway.  Each related user must be assigned a Power Apps Plan 1 license to use Power Automate with SharePoint Server, which is not included as part of the SharePoint Server license.  In addition, Power Automate is currently optimized for non-interactive workflows with SharePoint Server.  If you require interactive workflows, we recommend exploring the SharePoint 2013 Workflow platform instead.
+* The SharePoint 2010 Workflow platform is also supported in SharePoint Server 2019 for backward compatibility.  This allows SharePoint Sever 2019 to run legacy workflows from previous versions of SharePoint Server.  Although SharePoint 2010 workflows are still supported, we don't recommend building new workflows using this technology.  Instead, we recommend exploring either SharePoint 2013 workflows or Power Automate.

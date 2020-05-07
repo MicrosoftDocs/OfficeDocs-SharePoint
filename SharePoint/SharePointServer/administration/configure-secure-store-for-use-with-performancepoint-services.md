@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/6/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -125,7 +127,7 @@ You must configure your PerformancePoint Services data connection to use the Sec
   
 1. In Dashboard Designer, on the Create tab, click Data Source.
     
-2. On the **Select a Data Source Template** dialog box, choose your data source and click OK. 
+2. On the **Select a Data Source Template** dialog, choose your data source and click OK. 
     
 3. In the Data Source Settings section, choose the Use a stored account option.
     

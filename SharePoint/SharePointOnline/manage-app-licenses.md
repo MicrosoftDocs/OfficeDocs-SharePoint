@@ -6,6 +6,8 @@ author: kaarins
 manager: pamgreen
 ms.date: 5/2/2018
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -18,7 +20,7 @@ description: "Learn how to assign licenses, buy more licenses, recover licenses,
 
 # Manage app licenses for a SharePoint environment
 
-As a SharePoint or global admin in Office 365, you can use the SharePoint admin center to manage licenses for apps purchased from the SharePoint Store, regardless of whether you purchased them. All apps available from the SharePoint Store have built-in licenses that SharePoint recognizes. An app license provides digital verification of a user's right to use an app. 
+As a SharePoint or global admin in Microsoft 365, you can use the SharePoint admin center to manage licenses for apps purchased from the SharePoint Store, regardless of whether you purchased them. All apps available from the SharePoint Store have built-in licenses that SharePoint recognizes. An app license provides digital verification of a user's right to use an app. 
   
 It is important to keep track of the number of licenses that are available for each app so that the number of app users does not exceed the number of available licenses. If necessary, you can buy additional licenses for an app. 
   
@@ -27,7 +29,7 @@ From the admin center, you can also add users to an app, or delegate management 
 > [!NOTE]
 > The Office and SharePoint App Stores are optional services operated by Microsoft Corporation or its affiliate from any of Microsoft's worldwide facilities. The apps available in the Store are provided by various app publishers, and are subject to the app publisher's terms and conditions and privacy statement. Your use of any of these apps may result in your data being transferred to, stored, or processed in any country where the app publisher, its affiliates or service providers maintain facilities. Availability of specific apps and payment methods depends on your region and service. You can review the app publisher's terms and conditions and privacy statements before downloading and using such apps. 
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.

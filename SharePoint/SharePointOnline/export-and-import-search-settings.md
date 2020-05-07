@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -17,7 +19,7 @@ description: "Learn how to export and import customized search configuration set
 
 # Export and import customized search configuration settings
 
-As a global or SharePoint admin in Office 365, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. 
+As a global or SharePoint admin in Microsoft 365, you can export and import customized search configuration settings between tenants, site collections, and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models and site search settings. It's also possible to export customized search configuration settings from a Search service application and import the settings to tenants, site collections, or sites. You can't export the default configuration settings. 
   
 ## Overview
 <a name="__toc351540657"> </a>
@@ -63,7 +65,7 @@ If the import fails, remove the condition that caused the failure and reimport t
 ## Export customized search configuration settings from a tenant
 <a name="__toc351540659"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -72,7 +74,7 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 3. Select **Export Search Configuration**.
     
-4. In the dialog box, select **Save**.
+4. In the dialog, select **Save**.
     
 ## Export customized search configuration settings from a site
 <a name="__toc351540660"> </a>
@@ -81,7 +83,7 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 2. On the **Site Settings** page, in the **Search** section, select **Configuration Export**.
     
-3. In the dialog box, select **Save**.
+3. In the dialog, select **Save**.
     
 ## Export customized search configuration settings from a site collection
 <a name="__toc351540661"> </a>
@@ -90,23 +92,23 @@ If the import fails, remove the condition that caused the failure and reimport t
     
 2. On the **Site Settings** page, in the **Site Collection Administration** section, select **Search Configuration Export**.
     
-3. In the dialog box, select **Save**.
+3. In the dialog, select **Save**.
     
 ## Import customized search configuration settings to a tenant
 <a name="__toc351540662"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
  
-2. Under **Search**, select Open.
+2. Under **Search**, select **Open**.
    
 3. On the **Import Search Configuration** page, browse to the file you want to import. 
     
 4. Select **Import**.
     
-5. On the **Search Config List** page verify that: 
+5. On the **Search Config List** page, verify that: 
     
 6. The search configuration file you imported is in the list, and that its status is **Imported Successfully**.
     

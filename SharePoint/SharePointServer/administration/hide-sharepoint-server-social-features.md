@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 09/07/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -278,7 +280,7 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
     
 9. Choose **Project** > **Add New Item**.
     
-10. In the **Add New Item - HideNewsfeed** dialog box, choose **User Control**.
+10. In the **Add New Item - HideNewsfeed** dialog, choose **User Control**.
     
 11. In the **Name** box, enter HideNewsfeed.ascx, then choose **Add**.
     
@@ -292,7 +294,7 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
     
 14. Choose **Project** > **Add New Item**.
     
-15. In the **Add New Item - HideNewsfeed** dialog box, choose **Empty Element**.
+15. In the **Add New Item - HideNewsfeed** dialog, choose **Empty Element**.
     
 16. In the **Name** box, enter HideNewsfeed, then choose **Add**.
     

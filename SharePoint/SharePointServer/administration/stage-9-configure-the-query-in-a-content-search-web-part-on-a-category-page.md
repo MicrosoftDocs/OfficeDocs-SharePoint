@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/17/2016
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -84,11 +86,11 @@ The CSWP contains a default query. Therefore, it already displays some content (
     
      ![Edit WP](../media/OTCSP_EditWP.png)
   
-2. In the Web Part tool pane, click **Change query**. This opens a dialog box. 
+2. In the Web Part tool pane, click **Change query**. This opens a dialog. 
     
      ![Change Query](../media/OTCSP_ChangeQuery.png)
   
-In the dialog box, notice that "Audio" is shown in the upper-left corner. This is the category we navigated to, and from which we selected to edit the page. Also notice that in the **RelevantResults** section, the top three results,  *Audio*  ,  *Cameras*  , and  *Computers*  , are listed. These are the same three results that were shown in the Web Part when we added it. 
+In the dialog, notice that "Audio" is shown in the upper-left corner. This is the category we navigated to, and from which we selected to edit the page. Also notice that in the **RelevantResults** section, the top three results,  *Audio*  ,  *Cameras*  , and  *Computers*  , are listed. These are the same three results that were shown in the Web Part when we added it. 
     
      ![Default Query](../media/OTCSP_DefautQuery.png)
   

@@ -5,8 +5,10 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 - 'SPOTACfgInfoPathWebSrvcPrx'
 - 'SPOTACfgInfoPathSrvc'
 ms.service: sharepoint-online
@@ -48,7 +50,7 @@ By default, browser-enabled user form templates can be published and rendered.
   
 To configure browser-enabled user form templates
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -77,7 +79,7 @@ To configure browser-enabled user form templates
 
 To make indexing InfoPath forms faster and easier, you can specify which user agents to exempt from receiving an entire webpage to index. This means that when a user agent you've specified as exempt encounters an InfoPath form, the form will be returned as an XML file (which looks like a hierarchical text file) instead of an entire webpage. You can use the procedure below to select this option and populate the agent list.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -86,7 +88,7 @@ To make indexing InfoPath forms faster and easier, you can specify which user ag
     
 4. In the **Exempt User Agents** section, select the **Customize the list of exempt user agents** check box, and then do one of the following: 
     
-5. To add a user agent to the exempt list, type a name in the **Name** box, and then select **Add**.
+5. To add a user agent to the exempt list, in the **Name** box, enter a name, and then select **Add**.
     
 6. To remove a user agent from the list, select the name, and then select **Remove**.
     

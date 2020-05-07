@@ -6,6 +6,8 @@ author: tomresing
 manager: pamgreen
 ms.date: 3/7/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -51,7 +53,7 @@ Procedures in this task:
     
     For PowerPoint 2013, expand **User Configuration**, **Administrative Templates**, **Microsoft PowerPoint 2013**, **Collaboration Settings**, **Co-authoring**, and then choose **Prevent Co-authoring**.
     
-5. In the **Prevent Co-authoring Properties** dialog box, select **Enabled**, and then choose **OK**.
+5. In the **Prevent Co-authoring Properties** dialog, select **Enabled**, and then choose **OK**.
     
  **To disable co-authoring for Word documents and PowerPoint presentations at the web service level by using Windows PowerShell (save as script and run script)**
   

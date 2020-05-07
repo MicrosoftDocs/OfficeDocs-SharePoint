@@ -1,20 +1,24 @@
 ---
-title: Information architecture in the SharePoint modern experience
+title: "Information architecture for the modern experience - SharePoint"
 ms.reviewer: 
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about information architecture in the SharePoint modern experience."
+description: "In this article, you'll learn about information architecture in the SharePoint modern experience."
 ---
 
 # Information architecture in modern SharePoint

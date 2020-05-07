@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -18,7 +20,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 4bd426f4-105c-41cf-a4b8-815db62191ce
-description: "Learn how to configure hybrid sites features for SharePoint hybrid with Office 365."
+description: "Learn how to configure hybrid sites features for SharePoint hybrid with Microsoft 365."
 ---
 
 # Configure hybrid sites features - roadmap
@@ -29,10 +31,10 @@ This article provides a roadmap for configuring [hybrid sites features](sharepoi
   
 |**Step**|**Description**|
 |:-----|:-----|
-|1. [Configure Office 365 for SharePoint hybrid](configure-office-365-for-sharepoint-hybrid.md) <br/> |Configure your Office 365 for enterprises tenant for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your user accounts.  <br/> |
+|1. [Configure Microsoft 365 for SharePoint hybrid](configure-office-365-for-sharepoint-hybrid.md) <br/> |Configure your Microsoft 365 for enterprises organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your user accounts.  <br/> |
 |2. [Set up SharePoint services for hybrid environments](set-up-sharepoint-services-for-hybrid-environments.md) <br/> |Configure the needed SharePoint services for hybrid search, including User Profiles, MySites, and the Application Management service.  <br/> |
 |**3. (SharePoint Server 2013 only) [Install the September PU for SharePoint Server 2013](/officeupdates/sharepoint-updates)** <br/> |Install the September 2015 PU or higher for SharePoint Server 2013. (We recommend installing the latest PU.)  <br/> |
-|3. [Run Hybrid Picker](run-hybrid-picker.md) <br/> |Configure hybrid sites features by running the Hybrid Picker in Office 365.  <br/> |
+|3. [Run Hybrid Picker](run-hybrid-picker.md) <br/> |Configure hybrid sites features by running the Hybrid Picker in Microsoft 365.  <br/> |
 |4. Quick test  <br/> | Check to make sure hybrid sites features are working:  <br/>  Log in to a SharePoint Server as a regular user. (Be sure you're a member of the correct audience if you used audiences.)  <br/>  Click the Follow link at the top of the page.  <br/>  You should see a small pop-up under **Follow** letting you know that you're following the site. Click this pop-up and notice that it navigates to your personal site, and the list of sites you're following in SharePoint Online.  <br/> |
    
 ## The extensible hybrid app launcher

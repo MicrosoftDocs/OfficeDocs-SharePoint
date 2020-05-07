@@ -1,10 +1,12 @@
 ---
-title: "Troubleshooting SharePoint Migration Tool"
+title: "Troubleshoot SharePoint Migration Tool - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -14,8 +16,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-ms.custom: 
-description: "How to troubleshoot common errors in the SharePoint Migration Tool."
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article, you'll learn how to troubleshoot common errors in the SharePoint Migration Tool (SPMT)."
 ---
 # Troubleshooting common SPMT issues and errors
 
@@ -37,6 +40,9 @@ This article describes some common issues and errors that you may encounter when
 |*Packaging failure: Cannot open file*|Packaging failed due to non-existing source.  Check if you can access the source root folder.|
 |*A duplicate task has already been created.*|The CSV file used to do bulk migration cannot have duplicate entries.  Remove the duplicate line(s) and try again.|
 |*The parent folder was not migrated*|The parent folder was not migrated, therefore all items under the folder will fail to migrate. Check your parent folder and retry your migration.|
+|*Task #, parameter 1. The source path should not be empty*|Confirm that the source path column in the CSV file has a value.|
+|*Task #, parameter 4. The target URL is an invalid URL*|Confirm that the target url column in the CSV file has a value and is valid.|
+|*Task #, parameter 5. The target list should not be empty*|Confirm that the target list column in the CSV file has a value.|
 
 
 
@@ -74,7 +80,7 @@ This article describes some common issues and errors that you may encounter when
 |0x02010010|Make sure the source list and target list have the same template. |
 |0x0204000D|All files and folders in the SPMT working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed during migration. Restart your migration.|
 |0x02040012|The temporary storage on your local computer is too low.  SPMT caches the package on the working folder. Expand your temporary storage and retry.|
-|0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissiosn. aRetry your migration.|
+|0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissions. Retry your migration.|
 |0x02050001|Local storage file is corrupted.  The working folder was touched or modified during the migration.  Retry your migration.|
 |0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the SPMT working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
 |0x02010006|The source SharePoint site does not have any defined role definitions. Check to see if your role exists when accessing source site.|
@@ -88,7 +94,7 @@ This article describes some common issues and errors that you may encounter when
 |0x01510001|Packages failed to upload. 	If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
 |0x01510001|Failed to Upload the Job to Server: Upload file failed during migration.|
 |0x02070009|Several packages failed to upload. Pause the task and check your network connection.|
-|0x01710009|A failure occured due to job end failures; some items failed in the package. Restart migration.|
+|0x01710009|A failure occurred due to job end failures; some items failed in the package. Restart migration.|
 |0x01710009|Errors or timeout for Server Processing the file: Not all the items in the package have been migrated.|
 |0x01610001|The Azure container is expired. Retry migration task.|   
 |0x01710006|Errors or timeout for Server Processing the file: Job Fatal Error.|
@@ -109,8 +115,8 @@ This article describes some common issues and errors that you may encounter when
 ## Taxonomy errors
 |**Error**|**Reason**|**Action**|
 |:-----|:-----|:-----|
-|Migrate term store failed due to permission issue. |Current user is not a term store admin. |In the SharePoint Admin Center, select *Classic features*, and then under *Term store* click **Open**. Select the term store you want to migrate, then add the current user as a Term Store administrator.|
-|Migrate term store failed due to lack of working languages. |Not all working languages of source term store exist in the target term store. |Go to SharePoint Online site setting. Under Site Administration, click Term store management. Choose the term store you want to update, select and add all the languages existing in source term store to the target working language panel.|
+|Migrate term store failed due to permission issue. |Current user is not a term store admin. |In the SharePoint Admin Center, select *Classic features*, and then under *Term store*, select **Open**. Select the term store you want to migrate, then add the current user as a Term Store administrator.|
+|Migrate term store failed due to lack of working languages. |Not all working languages of source term store exist in the target term store. |Go to SharePoint Online site setting. Under **Site Administration**, select **Term store management**. Select the term store you want to update, select and add all the languages existing in source term store to the target working language panel.|
 |Migrate term store failed due to default term store does not exist. |There is no default site collection term store at SP on-prem. |Go to SharePoint Server (on-premises) Central Administration, manage service application under Application Management, edit the properties of Managed Metadata Service Connection. Select the **This service application is the default storage location for column specific term sets**.|
 |Migrate term store failed due to several default term stores exist. |There are several default site collection term stores existing at SP on-prem. |Go to SharePoint OnPrem Central Administration, manage service application under Application Management, choose one Managed Metadata Service Connection as default term store. Deselect **This service application is the default storage location for column specific term sets** of other Managed Metadata Service Connections.|
 |Migrate pinned term failed due to its source term does not exist. |In some cases, the pinned term is in global term set (available for all sites connecting to this Managed Metadata Service Application), and the source term is in local term set (available for users of this site collection). Because SPMT will migrate the global terms first, then migrate the local ones, when trying to create the pinned term,  the source term has not been migrated yet.|Migrate again, and the pinned term will be created for the second time,  as the source term has been migrated before.|

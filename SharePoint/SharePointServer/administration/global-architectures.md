@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/5/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -38,7 +40,7 @@ This article uses the following terms:
 ## Evaluate your WAN connections
 <a name="section2"> </a>
 
-The most important factor that drives architectures for WAN environments is the performance of SharePoint Server across the WAN connections. Before you consider architecture options for your WAN environment, first evaluate the performance that users will experience for the most common actions they will perform. This can be done by using systematic benchmark testing across multiple WAN connections, or with simple user testing against a test environment. You can also create an evaluation site in Office 365 within the same region as the main company location, and test the user experience from multiple geographic locations.
+The most important factor that drives architectures for WAN environments is the performance of SharePoint Server across the WAN connections. Before you consider architecture options for your WAN environment, first evaluate the performance that users will experience for the most common actions they will perform. This can be done by using systematic benchmark testing across multiple WAN connections, or with simple user testing against a test environment. You can also create an evaluation site in Microsoft 365 within the same region as the main company location, and test the user experience from multiple geographic locations.
   
 If your organization currently deploys more than one farm geographically by using an earlier version of the product, you might be able to succeed with either a single, central-farm environment or with fewer farms. Do not assume that your organization will require the same number of farms as you deployed with an earlier version.
   
@@ -49,7 +51,7 @@ The first and best option to serve a world-wide user base is to deploy SharePoin
   
 ![Central environment model](../media/WANArch_central_model.gif)
   
-Due to the performance improvements in SharePoint Server global customers who are well connected with WAN connections can expect to succeed with a centralized deployment of SharePoint Server. For enterprise-scale customers, this might include more than one farm that is deployed to a single datacenter. Most customers can deploy a single farm to meet the needs of an organization (for example, United Airlines). Organizations can also use Office 365 as a central environment to serve a world-wide user base.
+Due to the performance improvements in SharePoint Server global customers who are well connected with WAN connections can expect to succeed with a centralized deployment of SharePoint Server. For enterprise-scale customers, this might include more than one farm that is deployed to a single datacenter. Most customers can deploy a single farm to meet the needs of an organization (for example, United Airlines). Organizations can also use Microsoft 365 as a central environment to serve a world-wide user base.
   
 If you deploy SharePoint Server on premises, several strategies can help optimize a centralized environment across WAN connections.
   
@@ -160,7 +162,7 @@ We do not recommend sharing the Search service application across these types of
   
 In-country farms represent a different challenge. If the purpose of an in-country farm is to prevent documents and files from residing in locations outside a political boundary, we do not recommend crawling content over the WAN. A search index contains at least fragments of the crawled content. Furthermore, a temporary copy of each document is downloaded to the search farm for processing. Therefore, a central farm that crawls an in-country farm includes a copy of the data in that in-country farm. If this is against company policy, we recommend that you use Remote SharePoint result sources instead. With this configuration, search results can include content from an in-country farm and content continues to reside only on the local farm, unless a user downloads a copy to their local computer.
   
-The one scenario in which crawling content over WAN connections is allowed is with a hybrid deployment in which an on-premises SharePoint Server farm is used to crawl content in an Office 365 Dedicated farm (O365-D) and provide search services to that farm. With the Office 365 Dedicated subscription plan each customer environment is placed on a dedicated server farm. Crawling the Office 365 dedicated farm provides a single relevancy-ranked set of results for the two environments. The dedicated Office 365 environment differs from the multi-tenant Office 365 environment. For hybrid environments that include the Office 365 multi-tenant environment, crawling the multi-tenant environment is not possible and the recommendation is to provide centralized search by using remote result sources.
+The one scenario in which crawling content over WAN connections is allowed is with a hybrid deployment in which an on-premises SharePoint Server farm is used to crawl content in a Microsoft 365 Dedicated farm (O365-D) and provide search services to that farm. With the Microsoft 365 Dedicated subscription plan each customer environment is placed on a dedicated server farm. Crawling the Microsoft 365 dedicated farm provides a single relevancy-ranked set of results for the two environments. The dedicated Microsoft 365 environment differs from the multi-tenant Microsoft 365 environment. For hybrid environments that include the Microsoft 365 multi-tenant environment, crawling the multi-tenant environment is not possible and the recommendation is to provide centralized search by using remote result sources.
   
 Despite the recommendations, sharing the Search service application over WAN connections is supported and can be implemented in the following ways:
   

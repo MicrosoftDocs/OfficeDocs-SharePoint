@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/7/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -88,7 +90,7 @@ Our example dashboard uses a Data Model that consists of five tables that are st
     
 4. In the **Data Connection Wizard**, in the **Server name** box, specify the name of the server where the Adventure Works sample dataset is stored. 
     
-5. In the **Select Database and Table** dialog box, in the **Select the database that contains the data that you want** list, choose **AdventureWorksDW2012**.
+5. In the **Select Database and Table** dialog, in the **Select the database that contains the data that you want** list, choose **AdventureWorksDW2012**.
     
 6. Select both **Connect to a specific table** and **Enable section of multiple tables**, and then select the following tables:
     
@@ -104,26 +106,26 @@ Our example dashboard uses a Data Model that consists of five tables that are st
     
 7. Verify that **Import relationships between tables is selected**, and then click **Next**.
     
-8. In the **Save Connection and Finish** dialog box, next to **Excel Services**, click **Authentication Settings**.
+8. In the **Save Connection and Finish** dialog, next to **Excel Services**, click **Authentication Settings**.
     
-9. In the **Excel Services Authentication Settings** dialog box, take one of the following steps: 
+9. In the **Excel Services Authentication Settings** dialog, take one of the following steps: 
     
   - If Excel Services is configured to use Secure Store Service, select **Use a stored account**. In the **Application ID** box, specify the Secure Store target application ID, and then choose the **OK** button. 
     
   - If Excel Services is configured to use the unattended service account, select **None**, and then choose the **OK** button. 
     
     > [!IMPORTANT]
-    > If you do not know which option to choose, contact a SharePoint administrator. 
+    > If you do not know which option to choose, contact a SharePoint admin. 
   
-10. Do not click **Finish** yet. In the **Save Data Connection File and Finish** dialog box, click **Browse**.
+10. Do not click **Finish** yet. In the **Save Data Connection File and Finish** dialog, click **Browse**.
     
 11. Type the address of the Business Intelligence Center site that you are using. The address typically takes the form http://servername/sites/bicenter.
     
 12. Double-click **Data Connections**, and then click **Save**.
     
-13. Click **Finish**. A Data Connections dialog box appears.
+13. Click **Finish**. A Data Connections dialog appears.
     
-14. In the **Data Connections** dialog box, take the following steps: 
+14. In the **Data Connections** dialog, take the following steps: 
     
 1. In the **Title** box, specify a title, such as Adventure Works Data Model.
     
@@ -131,9 +133,9 @@ Our example dashboard uses a Data Model that consists of five tables that are st
     
 3. In the **Keywords** box, specify some words and phrases, such as **Adventure Works** and **Data Model**.
     
-4. Click **OK** to close the Data Connections dialog box. 
+4. Click **OK** to close the Data Connections dialog. 
     
-15. On the **Import Data** dialog box, choose **Only Create Connection**. Make sure the **Add this data to the Data Model** is selected, and then click **OK**. The Data Model is created and saved in the Data Connections library in the Business Intelligence Center site.
+15. On the **Import Data** dialog, choose **Only Create Connection**. Make sure the **Add this data to the Data Model** is selected, and then click **OK**. The Data Model is created and saved in the Data Connections library in the Business Intelligence Center site.
     
     Keep the workbook open.
     
@@ -159,11 +161,11 @@ We begin by creating the Territory Sales report.
   
 1. In Excel, on the **Insert** tab, click **PivotChart**.
     
-2. In the **Create PivotChart** dialog box, select **Use an external data source**, and then click **Choose Connection**.
+2. In the **Create PivotChart** dialog, select **Use an external data source**, and then click **Choose Connection**.
     
-3. In the **Existing Connections** dialog box, on the **Tables** tab, select **Tables in Workbook Data Model**, and then click **Open**.
+3. In the **Existing Connections** dialog, on the **Tables** tab, select **Tables in Workbook Data Model**, and then click **Open**.
     
-4. In the **Create PivotChart** dialog box, choose **Existing Worksheet**, and then click **OK**. **Chart 1** opens for editing. In the PivotChart Fields section, notice the five tables that you selected for the Data Model are listed. 
+4. In the **Create PivotChart** dialog, choose **Existing Worksheet**, and then click **OK**. **Chart 1** opens for editing. In the PivotChart Fields section, notice the five tables that you selected for the Data Model are listed. 
     
 5. Expand **DimSalesTerritory**, and then select **SalesTerritoryCountry**.
     
@@ -173,7 +175,7 @@ We begin by creating the Territory Sales report.
     
 1. In the **PivotChart Fields** section, in the **Values** field well, click **Sum of SalesAmount**, and then click **Value Field Settings**.
     
-2. In the **Value Field Settings** dialog box, in the **Custom Name** box, type **Internet Sales**, and then click **OK**. The chart does not seem to have changed at this point, but you will see the changes after you complete the next step.
+2. In the **Value Field Settings** dialog, in the **Custom Name** box, type **Internet Sales**, and then click **OK**. The chart does not seem to have changed at this point, but you will see the changes after you complete the next step.
     
 8. In the **PivotChart Fields** section, expand **FactResellerSales**, and then select **SalesAmount**. The chart updates to show two sets of bars representing sales amounts across different countries.
     
@@ -181,7 +183,7 @@ We begin by creating the Territory Sales report.
     
 1. In the **PivotChart Fields** section, in the **Values** field well, click **Sum of SalesAmount**, and then click **Value Field Settings**.
     
-2. In the **Value Field Settings** dialog box, in the **Custom Name** box, type **Reseller Sales**, and then click **OK**.
+2. In the **Value Field Settings** dialog, in the **Custom Name** box, type **Reseller Sales**, and then click **OK**.
     
     The chart legend clearly indicates which values apply to Internet sales and which to reseller sales.
     
@@ -201,7 +203,7 @@ The next step is to create the Product Orders and Sales PivotTable report.
   
 1. In Excel, click cell D21. Then, on the **Insert** tab, click **PivotTable**.
     
-2. On the **Create PivotTable** dialog box, choose **Use an external data source**, and then click **Choose connection**.
+2. On the **Create PivotTable** dialog, choose **Use an external data source**, and then click **Choose connection**.
     
 3. On the **Tables** tab, select **Tables in Workbook Data Model**, and then click **Open**.
     
@@ -215,21 +217,21 @@ The next step is to create the Product Orders and Sales PivotTable report.
     
 8. In the **PivotTable Fields** section, in the **Values** field well, click **Sum of OrderQuantity**, and then click **Value Field Settings**.
     
-9. In the **Value Field Settings** dialog box, in the **Custom Name** box, type Internet Orders, and then click **OK**.
+9. In the **Value Field Settings** dialog, in the **Custom Name** box, type Internet Orders, and then click **OK**.
     
 10. In the **PivotTable Fields** section, expand **FactInternetSales**, and then select **SalesAmount**.
     
 11. In the **PivotTable Fields** section, in the **Values** field well, select **Sum of SalesAmount**, and then click **Value Field Settings**.
     
-12. In the **Format Cells** dialog box, in the **Category** pane, choose **Currency**, and then click **OK**.
+12. In the **Format Cells** dialog, in the **Category** pane, choose **Currency**, and then click **OK**.
     
-13. Click **OK** to close the **Value Field Settings** dialog box. The report now shows order quantities and sales amounts for various products sold online. 
+13. Click **OK** to close the **Value Field Settings** dialog. The report now shows order quantities and sales amounts for various products sold online. 
     
 14. In the **PivotTable Fields** list, in the **FactResellerSales** section, select **OrderQuantity**.
     
 15. In the **PivotTable Fields** section, in the **Values** field well, click **Sum of OrderQuantity**, and then click **Value Field Settings**.
     
-16. In the **Value Field Settings** dialog box, in the **Custom Name** field, type Reseller Orders, and then click **OK**.
+16. In the **Value Field Settings** dialog, in the **Custom Name** field, type Reseller Orders, and then click **OK**.
     
 17. In the **PivotTable Fields** section, in the **FactResellerSales** section, select **SalesAmount**.
     
@@ -237,9 +239,9 @@ The next step is to create the Product Orders and Sales PivotTable report.
     
 19. In the **Custom Name** box, type Reseller Sales, and then click **Number Format**.
     
-20. In the **Format Cells** dialog box, in the **Category** pane, choose **Currency**, and then click **OK**.
+20. In the **Format Cells** dialog, in the **Category** pane, choose **Currency**, and then click **OK**.
     
-21. Click **OK** to close the **Value Field Settings** dialog box. 
+21. Click **OK** to close the **Value Field Settings** dialog. 
     
     The report now shows order quantities and sales amounts for various products sold online and through resellers.
     
@@ -262,9 +264,9 @@ Using Excel, there are several different kinds of filters we can create. For exa
   
 1. In Excel, click cell A1. Then, on the **Insert** tab, click **Slicer**.
     
-2. In the **Existing Connections** dialog box, on the **Data Model** tab, select the Data Model we've been using in this workbook, and then click **Open**.
+2. In the **Existing Connections** dialog, on the **Data Model** tab, select the Data Model we've been using in this workbook, and then click **Open**.
     
-3. In the **Insert Slicers** dialog box, in the **DimPromotion** section, select **EnglishPromotionName**, and then click **OK**. The slicer appears on the worksheet.
+3. In the **Insert Slicers** dialog, in the **DimPromotion** section, select **EnglishPromotionName**, and then click **OK**. The slicer appears on the worksheet.
     
 4. Move the slicer so that its upper-left corner aligns with the upper-left corner of cell A1.
     
@@ -278,7 +280,7 @@ At this point, we have created the slicer but we have not connected it to the re
   
 1. Click to select the slicer. Then, on the **Slicer Tools Options** tab, in the **Slicer** group, click **Report Connections**.
     
-2. In the **Report Connections** dialog box, select the **Product Orders and Sales** report and the **Territory Sales** report, and then click **OK**. The slicer is now connected to the reports.
+2. In the **Report Connections** dialog, select the **Product Orders and Sales** report and the **Territory Sales** report, and then click **OK**. The slicer is now connected to the reports.
     
 To test the slicer, choose an item, such as **No Discount**. The reports refresh to show sales and order amounts for which No Discount was entered as the promotion type. Choose another item in the slicer, such as **Mountain-100 Clearance**. Notice that the reports update to show only reseller sales information. This means that for that promotion, no online sales were made. To clear the slicer, click the filter toolbar command next to the title of the slicer. The reports refresh to display information for all promotions.
   
@@ -347,7 +349,7 @@ Use one of the following procedures to specify browser view options for the work
     
 4. Click **Add**, select the **Promotion** slicer, and then click **OK**.
     
-5. Click **OK** to close the **Browser View Options** dialog box. 
+5. Click **OK** to close the **Browser View Options** dialog. 
     
 6. Then close Excel.
     
@@ -359,13 +361,13 @@ The next step is to publish the workbook to the Documents library in the Busines
     
 2. Click **Site Contents**, and then click **Documents**.
     
-3. Click **+ new document** to open the **Add a document** dialog box. 
+3. Click **+ new document** to open the **Add a document** dialog. 
     
-4. Click **Browse** to open the **Choose File to Upload** dialog box. 
+4. Click **Browse** to open the **Choose File to Upload** dialog. 
     
 5. Select the **Adventure Works Sales and Orders** workbook, and then click **Open**.
     
-6. In the **Add a document** dialog box, click **OK**.
+6. In the **Add a document** dialog, click **OK**.
     
 Now that we have created and published the dashboard, we can use it to explore data.
   
@@ -392,7 +394,7 @@ Now that the dashboard is open for viewing, we can use it to obtain answers to s
 |:-----|:-----|
 |Which two countries sold more on the Internet than through resellers?  <br/> |Look at the bar chart. Notice that in Australia and German, Internet sales amounts are greater than reseller sales amounts.  <br/> |
 |For the Volume Discount 41 to 60 promotion, which item had the highest sales amount?  <br/> |In the **Promotion** slicer, select **Volume Discount 41 to 60**. Notice the reports update to show reseller sales information only. In the PivotTable report, notice that Women's Mountain Shorts has the highest sales amount.  <br/> |
-|What product had the highest sales amounts for the reseller channel across all promotions?  <br/> |To answer this question, follow these steps.  <br/> Open the workbook in Excel. Make sure the slicer is cleared so that data for all promotions is displayed. In the PivotTable report, click a row in the Reseller Sales column. On the Data tab, click Sort to open the Sort by Value dialog box. Under Sort Options, select Largest to Smallest, and then click OK. Notice that the PivotTable report shows Mountain-200 with the highest sales amount in the reseller channel. |
+|What product had the highest sales amounts for the reseller channel across all promotions?  <br/> |To answer this question, follow these steps.  <br/> Open the workbook in Excel. Make sure the slicer is cleared so that data for all promotions is displayed. In the PivotTable report, click a row in the Reseller Sales column. On the Data tab, click Sort to open the Sort by Value dialog. Under Sort Options, select Largest to Smallest, and then click OK. Notice that the PivotTable report shows Mountain-200 with the highest sales amount in the reseller channel. |
 |Is it possible to change the bar chart to display order quantities across different countries instead of sales amounts?  <br/> |Click the bar chart to open the **PivotChart Fields** list. In the **FactInternetSales** section, select **OrderQuantity** and clear **SalesAmount**. In the **FactResellerSales** section, select **OrderQuantity** and clear **SalesAmount**. The bar chart updates to display order quantities across the different countries.  <br/> |
    
 ## See also

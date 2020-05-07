@@ -5,6 +5,8 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -20,7 +22,7 @@ description: "This article describes how to configure which version of SharePoin
 
 # Change site collection version and upgrade settings
 
-When Office 365 updates become available, global and SharePoint admins in Office 365 are the first to hear about them. SharePoint has a hierarchical structure, so updates are delivered in a cascading way. Updates start at the organization level and then flow down to site collections and sites.
+When Microsoft 365 updates become available, global and SharePoint admins in Microsoft 365 are the first to hear about them. SharePoint has a hierarchical structure, so updates are delivered in a cascading way. Updates start at the organization level and then flow down to site collections and sites.
   
 You, as a global or SharePoint admin, determine who is allowed to upgrade site collections and can restrict upgrade permissions to a select group, or delegate upgrade responsibilities to site collection admins. Each method has its benefits.
   
@@ -41,12 +43,12 @@ You can choose whether to allow versions in your subscription and decide how use
    
  **To configure version and upgrade settings for all site collections**
   
-1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
-2. Choose **classic settings page**.
+2. Select **classic settings page**.
     
 3. In **Global Experience Version Settings**, select the desired option.
     
@@ -57,7 +59,7 @@ You can choose whether to allow versions in your subscription and decide how use
   
  **To enable or disable upgrades on select site collections**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -68,7 +70,7 @@ You can choose whether to allow versions in your subscription and decide how use
     
 4. On the ribbon, select **Upgrade notifications** \> **Site collection upgrade settings**. 
     
-5. For **Allow Upgrade**, choose **Yes** or **No**.
+5. For **Allow Upgrade**, select **Yes** or **No**.
     
 6. Select **Save**.
     

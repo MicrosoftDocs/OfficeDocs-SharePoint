@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/7/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -119,7 +121,7 @@ You can connect to an Analysis Services data source either by entering the name 
     
 2. Click the **Create** tab, and then click **Data Source**.
     
-3. In the Category pane of the **Select a Data Source Template** dialog box, click **Multidimensional** and then click **Analysis Services**. Click **OK**.
+3. In the Category pane of the **Select a Data Source Template** dialog, click **Multidimensional** and then click **Analysis Services**. Click **OK**.
     
 4. In the left navigation pane (workspace browser), type the name of your data source.
     

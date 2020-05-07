@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/24/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -226,7 +228,7 @@ In scenarios where installing prerequisites directly from the Internet is not po
 
 - [Visual C++ Redistributable Package for Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkId=627156)
     
-- [Visual C++ Redistributable Package for Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
+- [Visual C++ Redistributable Package for Visual Studio 2017](https://go.microsoft.com/fwlink/?LinkId=848299)
     
 - [Exchange Web Services Managed API, version 1.2](https://go.microsoft.com/fwlink/p/?linkid=238668)
     

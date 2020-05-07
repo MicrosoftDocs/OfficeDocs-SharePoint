@@ -6,16 +6,20 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
 ROBOTS: NOINDEX
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 53c86040-07fa-4ea7-bc55-34ee96b437fe
 description: "Learn how to create different permission levels for different groups of people within a site collection."
 ---
 
 # Permission levels
 
-While SharePoint allows considerable customization of site permissions, including custom permission levels, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Office 365 group. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+While SharePoint allows considerable customization of site permissions, including custom permission levels, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Microsoft 365 group. This allows for much easier administration. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
 
 If you do need to create custom permission levels, this article describes how.
 

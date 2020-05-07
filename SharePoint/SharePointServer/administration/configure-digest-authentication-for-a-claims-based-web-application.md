@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/21/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -71,7 +73,7 @@ The Default zone is the zone that is first created when a web application is cre
     
 6. Right-click **Digest Authentication**, and then click **Edit**.
     
-7. In the **Edit Digest Authentication Settings** dialog box, in the **Realm** text box, type the appropriate realm, and then click **OK**.
+7. In the **Edit Digest Authentication Settings** dialog, in the **Realm** text box, type the appropriate realm, and then click **OK**.
     
     The realm is a DNS domain name or an IP address that will use the credentials that have been authenticated against your internal Windows domain. You must configure a realm name for digest authentication.
     

@@ -5,10 +5,16 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-description: "Learn about the OneDrive sync app"
+search.appverid:
+- MET150
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains resources to learn more about the OneDrive sync app. The app comes preinstalled with Windows 10 devices, and it's included with Office 2016 and later."
 ---
 
 # The OneDrive sync app

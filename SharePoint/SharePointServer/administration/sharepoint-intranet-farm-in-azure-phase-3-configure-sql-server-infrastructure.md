@@ -6,6 +6,8 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/06/2018
 audience: ITPro
+f1.keywords:
+- CSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -314,7 +316,7 @@ Due to current non-RFC-compliant behavior by DHCP in Azure, creation of a WSFC c
     
 11. Right-click the failed **IP Address** resource, and then click **Properties**.
     
-12. In the **IP Address Properties** dialog box, click **Static IP Address**.
+12. In the **IP Address Properties** dialog, click **Static IP Address**.
     
 13. Type an unused IP in the address range corresponding to the subnet on which the SQL server is located, and then click **OK**.
     

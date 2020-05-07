@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -57,7 +59,7 @@ Sandboxed solutions are solutions that site collection administrators can deploy
     
     In the **Restore Only Configuration Settings** section, make sure that the **Restore content and configuration settings** option is selected. 
     
-    In the **Restore Options** section, under **Type of Restore**, select the **Same configuration** option. A dialog box appears that asks you to confirm the operation. Click **OK**.
+    In the **Restore Options** section, under **Type of Restore**, select the **Same configuration** option. A dialog appears that asks you to confirm the operation. Click **OK**.
     
     Click **Start Restore**.
     

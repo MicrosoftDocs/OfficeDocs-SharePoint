@@ -5,16 +5,22 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: b1e3cd23-1a78-4264-9284-87fed7282048
-description: "Learn to create, manage, and delete groups in SharePoint."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains information on how to customize SharePoint site permissions. Learn how to create, manage, and delete groups in SharePoint."
 ---
 
 # SharePoint site permissions
 
-While SharePoint allows considerable customization of site permissions, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Office 365 group. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+While SharePoint allows considerable customization of site permissions, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Microsoft 365 group. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
 
 If you do need to customize SharePoint groups, this article describes how.
 
@@ -133,7 +139,10 @@ If you have customized a permission level or created a new permission level, you
 5. On the **Edit Permissions** page, select the check box next to the name of the new permission level. If you select multiple permission levels, the permission level assigned to the group is the union of the individual permissions in the different levels. That is, if one level includes permissions (A, B, C), and the other level includes permissions (C, D), the new level for the group includes permissions (A, B, C, D). 
     
 6. Click **OK**.
-    
+
+> [!NOTE]
+> Permissions for the default SharePoint groups (Owners, Members, and Visitors) for Team sites that are connected to a Microsoft 365 group can't be modified.
+
 ### Add, change, or remove a site collection administrator
 <a name="__toc340230108"> </a>
 

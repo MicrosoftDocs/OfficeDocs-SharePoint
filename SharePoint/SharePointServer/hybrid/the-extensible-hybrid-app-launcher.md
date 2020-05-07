@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/12/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -18,26 +20,26 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 50c7ba0d-67bb-4e0a-a173-ab2c5756fadf
-description: "The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Office 365."
+description: "The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Microsoft 365."
 ---
 
-# The extensible hybrid app launcher
+# Extensible hybrid app launcher
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
-The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Office 365.
+The extensible hybrid app launcher helps users to have a more seamless experience when navigating between SharePoint Server and Microsoft 365.
   
 ## What does it do?
 
-The extensible hybrid app launcher is designed to help you get to your Office 365 apps and services from SharePoint Server. Once you enable this feature, you'll see the Office 365 Delve and Video apps, along with your custom Office 365 tiles, appear in your SharePoint Server app launcher.
+The extensible hybrid app launcher is designed to help you get to your Microsoft 365 apps and services from SharePoint Server. After you enable this feature, the Office 365 Delve and Video apps appear, along with your custom Microsoft 365 tiles, in your SharePoint Server app launcher.
   
 ![Hybrid app launcher on a SharePoint Server site](../media/6389fb96-78b5-404e-be9a-f2aae4598a15.jpg)
   
 ## How do I customize tiles in my app launcher?
 
-[Custom tiles that you've pinned to your Office 365 app launcher](/office365/admin/manage/customize-the-app-launcher) will also appear in your SharePoint Server app launcher. 
+[Custom tiles that you've pinned to your Microsoft 365 app launcher](/office365/admin/manage/customize-the-app-launcher) also appears in your SharePoint Server app launcher. 
   
-If you want to change what you see in your SharePoint Server app launcher, make the change in the Office 365 app launcher, and the changes will be reflected in the SharePoint Server app launcher within a day or so.
+If you want to change what you see in your SharePoint Server app launcher, make the change in the Microsoft 365 app launcher, and the changes will be reflected in the SharePoint Server app launcher within a day or so.
   
 (You can also [customize your SharePoint Server 2016 app launcher separately](../administration/custom-tiles-in-sharepoint-server-2016.md).)
   

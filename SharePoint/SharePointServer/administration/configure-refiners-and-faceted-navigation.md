@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/11/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -70,7 +72,7 @@ For an overview of managed properties that are enabled as refiners by default, s
   
 7. In the **Mappings to crawled properties** section, click **Add a Mapping**.
     
-8. In the **Crawled property selection** dialog box, find the crawled property that you want to map to the refinable managed property in the list, or search for it by typing the name of the crawled property in the box, and then clicking **Find**.
+8. In the **Crawled property selection** dialog, find the crawled property that you want to map to the refinable managed property in the list, or search for it by typing the name of the crawled property in the box, and then clicking **Find**.
     
     > [!IMPORTANT]
     > When you search for a crawled property, you may find two crawled properties that represent the same content. For example, a site column of type Text named  *Color*  will during crawl discover two crawled properties:  *ows_Color*  and  *ows_q_TEXT_Color*  . Crawled properties that begin with either  *ows_r\<four letter code\>*  ,  *ows_q\<four letter code\>*  , or  *ows_taxId*  are automatically created crawled properties. When you select a crawled property to map to a refinable managed property, make sure that you don't map the automatically created crawled property. Instead, always map the crawled property that begins with  *ows_*  . > For more information about automatically created crawled properties, see [Automatically created managed properties in SharePoint Server](../technical-reference/automatically-created-managed-properties-in-sharepoint.md). 
@@ -136,7 +138,7 @@ For more information about automatically created managed properties, see [Automa
     
 9. In the **Mappings to crawled properties** section, click **Add a mapping**.
     
-10. In the **Crawled property selection** dialog box, find the crawled property that you want to map to the managed property in the list, or search for it by typing the name of the crawled property in the box, and then clicking **Find**.
+10. In the **Crawled property selection** dialog, find the crawled property that you want to map to the managed property in the list, or search for it by typing the name of the crawled property in the box, and then clicking **Find**.
     
     > [!IMPORTANT]
     > When you search for a crawled property, you may find two crawled properties that represent the same content. For example, a site column of type Date and Time named  *Created*  will during crawl discover two crawled properties:  *ows_Created*  and  *ows_q_DATE_Created*  . Crawled properties that begin with either  *ows_r\<four letter code\>,*  *ows_q\<four letter code\>*  or  *ows_taxId*  are automatically created crawled properties. When you select a crawled property to map to a managed property, make sure that you don't map the automatically created crawled property. Instead, always map the crawled property that begins with  *ows_.* 

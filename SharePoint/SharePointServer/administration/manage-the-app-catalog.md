@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/27/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -178,7 +180,7 @@ If you no longer want to offer a particular app to your users, you can remove it
     
 4. In the ribbon, on the **Files** tab, click **Delete Document** to remove the app. 
     
-5. In the dialog box, click **OK** to confirm that you want to send the item to the site Recycle Bin. 
+5. In the dialog, click **OK** to confirm that you want to send the item to the site Recycle Bin. 
     
     The app is removed.
     

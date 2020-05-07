@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/8/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -85,7 +87,7 @@ When you configure My Sites, the default content access account for search is au
     
 4. On the **Manage Service Applications** page, click the row that contains the User Profile service application, and then in the ribbon, click **Administrators**.
     
-5. In the **Administrators for User Profile Service Application** dialog box, in the **To add an account** box, type a user account in the form  *domain\user name*  . 
+5. In the **Administrators for User Profile Service Application** dialog, in the **To add an account** box, type a user account in the form  *domain\user name*  . 
     
 6. Click **Add**.
     

@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -91,7 +93,7 @@ To restrict access to a service application by using the SharePoint Central Admi
     
 4. In the **Sharing** group of the ribbon, click **Permissions**.
     
-5. In the **Connection Permissions** dialog box, type the service account name that you retrieved in the previous procedure, and then click **Add**. 
+5. In the **Connection Permissions** dialog, type the service account name that you retrieved in the previous procedure, and then click **Add**. 
     
 6. Ensure that the newly-added service account name is selected in the middle pane, and then click the appropriate check box in the bottom pane to supply the required permission level.
     
@@ -257,7 +259,7 @@ You can restore farm-wide access to a service application by adding the local fa
 
 1. Perform steps 1 through 3 of the procedure [To grant and remove permissions for service accounts to access a service application by using Central Administration](#Section2CA).
     
-2. In the **Connection Permissions** dialog box, copy the local farm ID that you retrieved in the previous procedure, and then click **Add**. 
+2. In the **Connection Permissions** dialog, copy the local farm ID that you retrieved in the previous procedure, and then click **Add**. 
     
 3. Ensure that the local farm ID is selected in the middle pane. Click the **Full Control** check box in the bottom pane. 
     

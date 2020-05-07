@@ -1,7 +1,8 @@
 # [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
 ##  SharePoint Migration Tool (SPMT)
 ### [Overview and Download](introducing-the-sharepoint-migration-tool.md)
-###  [Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+### [Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
+### [Prerequisites and Endpoints](spmt-prerequisites.md)
 ### What is supported by SPMT?
 #### [Supported features](what-is-supported-spmt.md)
 #### [Supported SharePoint list templates](sharepoint-migration-supported-list-templates.md) 
@@ -19,15 +20,23 @@
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ## Migration Manager
 ### [Get started](mm-get-started.md)
-### [Set up migration manager clients](mm-setup-clients.md)
+### [Set up migration manager agents](mm-setup-clients.md)
 ### [Migration Manager settings](mm-settings.md)
 ### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 ### [FAQs](mm-faqs.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
+## Mover Migration Guides
+### [File shares to Microsoft 365](mover-fileshare-to-o365.md)
+### [Box to Microsoft 365](mover-box-to-o365.md)
+### [Dropbox to Microsoft 365](mover-dropbox-to-o365.md)
+### [Egnyte to Microsoft 365](mover-egnyte-to-o365.md)
+### [G Suite Drive to Microsoft 365](mover-gsuite.md)
+### [Office 365 to Microsoft 365](mover-o365-to-o365.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
-## Migration Scenario Guides
+### [SPMT migration performance guidelines](spmt-performance-guidance.md)
+## SPMT Migration Scenario Guides
 ### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
 ### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
 ### [File share to OneDrive and SharePoint Migration Guide](Fileshare-to-ODSP-migration-guide.md)

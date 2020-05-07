@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/8/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -61,7 +63,7 @@ Before you begin this operation, review the information in [Overview of customiz
     
 3. On the **Site Settings** page, in the **Site Collection Administration** section click **Search Configuration Export**.
     
-4. In the dialog box, click **Save**.
+4. In the dialog, click **Save**.
     
 ## Export customized search configuration settings from a site
 <a name="proc3"> </a>
@@ -74,7 +76,7 @@ Before you begin this operation, review the information in [Overview of customiz
     
 3. On the **Site Settings** page, in the **Search** section click **Configuration Export**.
     
-4. In the dialog box, click **Save**.
+4. In the dialog, click **Save**.
     
 ## Import customized search configuration settings to a site collection
 <a name="proc5"> </a>

@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/1/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -20,9 +22,9 @@ description: "Learn about the benefits and uses of My Sites in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-This article provides an overview of My Sites end-user functionality and benefits for consideration by enterprise business decision makers or SharePoint administrators. It does not discuss the architecture of My Sites or information about planning and configuring My Sites.
+This article provides an overview of My Sites end-user functionality and benefits for consideration by enterprise business decision makers or SharePoint admins. It does not discuss the architecture of My Sites or information about planning and configuring My Sites.
   
-If you are a SharePoint administrator who is responsible for configuring My Sites in your organization, use this article together with [Plan for My Sites in SharePoint Server](my-sites-planning.md) to understand and plan for My Sites. You can then use [Configure My Sites in SharePoint Server](configure-my-sites.md) to configure My Sites and [Plan user profiles in SharePoint Server](../administration/plan-user-profiles.md) to see how user profile setup can influence the information that is displayed in My Sites. 
+If you are a SharePoint admin who is responsible for configuring My Sites in your organization, use this article together with [Plan for My Sites in SharePoint Server](my-sites-planning.md) to understand and plan for My Sites. You can then use [Configure My Sites in SharePoint Server](configure-my-sites.md) to configure My Sites and [Plan user profiles in SharePoint Server](../administration/plan-user-profiles.md) to see how user profile setup can influence the information that is displayed in My Sites. 
   
 ## Uses and benefits of My Sites
 <a name="section1"> </a>

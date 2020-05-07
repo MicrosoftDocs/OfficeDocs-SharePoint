@@ -1,10 +1,12 @@
 ---
-title: "Introducing the SharePoint Migration Tool"
+title: "SharePoint Migration Tool for SharePoint and OneDrive - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -12,14 +14,16 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
-description: "Download and install the SharePoint Migration Tool."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article is an overview of the SharePoint Migration Tool and provides resources for download and support."
 ---
 
 # Download and install the SharePoint Migration Tool
 
 
 >[!Note]
-> On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
+> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
 >
 >**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
 >
@@ -27,22 +31,36 @@ description: "Download and install the SharePoint Migration Tool."
 
 
 
-Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool (SPMT) will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Office 365.
+Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool (SPMT) will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Microsoft 365.
 
 **SPMT** lets you migrate content to SharePoint Online and OneDrive from the following locations:
 
+- SharePoint Server 2016 (Public Preview)
 - SharePoint Server 2013
+- SharePoint Foundation 2013
 - SharePoint Server 2010
+- SharePoint Foundation 2010
 - Network and local file shares
   
-## Download and install
+</br></br>
 
-Download and install **SPMT** using one of the download links below.  After downloading and installing the SharePoint Migration Tool, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
+
+## Current and pre-release versions
+
+Download and install SPMT using one of the links listed below.  
+
+
+||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
+|:-----|:-----|:-----|:-----|:-----|
+|Last released build|[3.4.118.0](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  |[3.2.118.0](https://aka.ms/spmt-ga-page)|[3.2.118.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
+
+
+
+
+After downloading and installing SPMT, read [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to help you get started.
 
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
->[!NOTE]
->**Download and install**:   [SharePoint Migration Tool](https://aka.ms/spmt-ga-page)
 
 
 ## Supported features
@@ -60,7 +78,7 @@ Planning is the key to a successful data migration.  The SharePoint Migration As
 To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.microsoft.com/download/details.aspx?id=53598&amp;751be11f-ede8-5a0c-058c-2ee190a24fa6=True)
   
 >[!NOTE]
->The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Office 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
+>The **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. It is also not available for users of Microsoft 365 with the German cloud using the data trustee, *German Telekom*. However, it is supported for users in Germany whose data location is not in the German datacenter.
 
 
 ## Related Topics

@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/20/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -66,7 +68,7 @@ To maintain user access to your original environment, set the SharePoint 2010 Pr
     
 3. Find the database that you want to configure to be read-only, right-click the database, and then click **Properties**.
     
-4. In the **Database Properties** dialog box, in the **Select a page** section, click **Options**.
+4. In the **Database Properties** dialog, in the **Select a page** section, click **Options**.
     
 5. In the details pane, under **Other options**, in the **State** section, next to **Database Read-Only**, click the arrow, and then select **True**.
     
@@ -108,7 +110,7 @@ After you complete this procedure, you will have created backups of the read-onl
     
 3. Right-click the database that you want to back up, point to **Tasks**, and then click **Back Up**. 
     
-    The **Back Up Database** dialog box appears. 
+    The **Back Up Database** dialog appears. 
     
 4. In the **Source** area, in the **Database** box, verify the database name. 
     
@@ -148,9 +150,9 @@ After you configure the new SharePoint 2013 server farm, you can restore the bac
     
 3. Right-click **Databases**, and then click **Restore Database**. 
     
-    The **Restore Database** dialog box appears. 
+    The **Restore Database** dialog appears. 
     
-4. In the **Restore Database** dialog box, on the **General** page, type the name of the database to be restored in the **To database** list. 
+4. In the **Restore Database** dialog, on the **General** page, type the name of the database to be restored in the **To database** list. 
     
     > [!TIP]
     > When you type the name for the restored database, you do not have to use the original name. If you want to change the database name from a name with a long GUID to a shorter, friendlier name, this is an opportunity to make that change. Be sure to also change the database and log file names in the file system (the MDF and LDF files) so that they match. 
@@ -159,15 +161,15 @@ After you configure the new SharePoint 2013 server farm, you can restore the bac
     
 6. To specify the source and location of the backup sets to restore, click **From device**, and then use the ellipsis ( **...**) to select the backup file.
     
-7. In the **Specify Backup** dialog box, in the **Backup media** box, be sure that **File** is selected. 
+7. In the **Specify Backup** dialog, in the **Backup media** box, be sure that **File** is selected. 
     
 8. In the **Backup location** area, click **Add**.
     
-9. In the **Locate Backup File** dialog box, select the file that you want to restore, click **OK**, and then, in the **Specify Backup** dialog box, click **OK**.
+9. In the **Locate Backup File** dialog, select the file that you want to restore, click **OK**, and then, in the **Specify Backup** dialog, click **OK**.
     
-10. In the **Restore Database** dialog box, under **Select the backup sets to restore** grid, select the **Restore** check box next to the most recent full backup. 
+10. In the **Restore Database** dialog, under **Select the backup sets to restore** grid, select the **Restore** check box next to the most recent full backup. 
     
-11. In the **Restore Database** dialog box, on the **Options** page, under **Restore options**, select the **Overwrite the existing database** check box. 
+11. In the **Restore Database** dialog, on the **Options** page, under **Restore options**, select the **Overwrite the existing database** check box. 
     
 12. Click **OK** to start the restore process. 
     
@@ -185,7 +187,7 @@ You cannot upgrade a database that is set to read-only. You must set the databas
     
 2. Select the database that you want to configure to be read-write, right-click the database, and then click **Properties**.
     
-3. In the **Database Properties** dialog box, in the **Select a page** section, click **Options**.
+3. In the **Database Properties** dialog, in the **Select a page** section, click **Options**.
     
 4. In the details pane, under **Other options**, in the **State** section, next to **Database Read-Only**, click the arrow, and then select **False**.
     

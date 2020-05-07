@@ -1,11 +1,13 @@
 ---
-title: "Account permissions and security settings in SharePoint Servers 2016 and 2019"
+title: "Account permissions and security settings in SharePoint Servers"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/8/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -17,9 +19,9 @@ ms.assetid: 55b99d80-3fa7-49f0-bdf4-adb5aa959019
 description: "Learn about the permissions and security settings to use with a deployment of SharePoint Server."
 ---
 
-# Account permissions and security settings in SharePoint Servers 2016 and 2019
+# Account permissions and security settings in SharePoint Servers
 
-[!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
 
@@ -27,7 +29,7 @@ This article describes SharePoint administrative and services account permission
 > Do not use service account names that contain the symbol $.
 
 
-## About account permissions and security settings in SharePoint Servers 2016 and 2019
+## About account permissions and security settings in SharePoint Servers
 <a name="Section1"> </a>
 
 The SharePoint Products Configuration Wizard (Psconfig) and the Farm Configuration Wizard, both of which are run during a complete installation, configure many of the SharePoint baseline account permissions and security settings.
@@ -41,7 +43,7 @@ The following sections describe recommendations on SharePoint Service accounts.
 
 Microsoft recommends using a minimal number of Service Application Pool accounts in the farm. This is to reduce memory usage and increase performance while maintaining the appropriate level of security.
 
-- Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the **SharePoint Farm Administrator account** outlined below. Each SharePoint administrator should use a separate account to clearly identify activity performed by the administrator on the farm.
+- Use an elevated, personally identifiable account for SharePoint installation, maintenance, and upgrades. This account will hold the roles required as outlined by the **SharePoint Farm Administrator account** outlined below. Each SharePoint admin should use a separate account to clearly identify activity performed by the administrator on the farm.
 
 - If possible use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and grant permissions as outlined below. This simplifies the management of the SharePoint Farm Administrator accounts significantly.
 
@@ -63,10 +65,10 @@ Microsoft recommends using a minimal number of Service Application Pool accounts
 
 Service account name|What is it used for?|How many should be used?
 ----|----|----
-SharePoint Farm Administrator account|Personally identifiable account for a SharePoint Administrator|1-n
+SharePoint Farm Administrator account|Personally identifiable account for a SharePoint admin|1-n
 SharePoint Farm Service Account| Timer Service, Insights, IIS App for CA, SP Web Services System, Security Token Service App Pool|1
-Default content access account|search crawling internal and external sources SP2016|1-n
-Content access accounts|search crawling internal and external sources SP2016 and SP2019|1-n
+Default content access account|Search crawling internal and external sources|1-n
+Content access accounts|Search crawling internal and external sources|1-n
 Web Application Pool account|All Web Applications without Central Administration|1
 SharePoint Service Application Pool account|All Service Applications|1
 Portal Super Reader|Object caching|1
@@ -155,9 +157,6 @@ This section describes the SharePoint Application Pool accounts that are set up 
 
 ### Default content access account
 
-> [!IMPORTANT]
-> Information in this section applies to SharePoint Server 2016 only.
-
 The default content access account is used within a specific service application to crawl content, unless a different authentication method is specified by a crawl rule for a URL or URL pattern. This account requires the following permission configuration settings:
 
 - The default content access account must be a domain user account that has read access to external or secure content sources that you want to crawl by using this account.
@@ -167,9 +166,6 @@ The default content access account is used within a specific service application
 - This account must not be a member of the Farm Administrators group.
 
 ### Content access accounts
-
-> [!IMPORTANT]
-> Information in this section applies to SharePoint Servers 2016 and 2019 only.
 
 Content access accounts are configured to access content by using the Search administration crawl rules feature. This type of account is optional, and you can configure it when you create a new crawl rule. For example, external content (such as a file share) might require this separate content access account. This account requires the following permission configuration settings:
 
@@ -181,7 +177,7 @@ Content access accounts are configured to access content by using the Search adm
 
 The Web Application Pool account must be a domain user account. This account must not be a member of the Farm Administrators group.
 
-This account should b used for all web applications without Central Administration.
+This account should be used for all web applications without Central Administration.
 
 The following machine-level permission is configured automatically: This account is a member of *WSS_WPG*.
 
@@ -286,6 +282,9 @@ This section describes permissions of groups that the SharePoint Servers 2016 an
 ### WSS_ADMIN_WPG
 
 *WSS_ADMIN_WPG* has read and write access to local resources. The application pool accounts for the Central Administration and Timer services are in *WSS_ADMIN_WPG*. The following table shows the *WSS_ADMIN_WPG* registry entry permissions.
+
+>[!NOTE]
+>SharePoint 2013 uses the registry path "15.0" instead of "16.0" and file system path "15" instead of "16". Some paths listed below do not apply to SharePoint Foundation 2013.
 
 |**Key name**|**Permissions**|**Inherit**|**Description**|
 |:-----|:-----|:-----|:-----|

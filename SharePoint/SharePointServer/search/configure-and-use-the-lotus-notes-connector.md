@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/7/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -97,7 +99,7 @@ Follow this procedure to install the Lotus Notes client application on the serve
     
 3. Start the Lotus Notes Installation Wizard.
     
-4. In the **Welcome to the Installation Wizard for Lotus Notes** dialog box, click **Next**.
+4. In the **Welcome to the Installation Wizard for Lotus Notes** dialog, click **Next**.
     
 5. On the License Agreement page, click **I accept the terms in the license agreement**, and then click **Next** to continue. 
     
@@ -143,7 +145,7 @@ Follow this procedure to grant Full Control permissions for the WSS_WPG group on
     
 4. Right-click the **Data** folder, and then click **Sharing and Security**.
     
-5. In the **Properties** dialog box, on the **Security** tab, click **Add**.
+5. In the **Properties** dialog, on the **Security** tab, click **Add**.
     
 6. In the **Select the object names to select** box, do one of the following, and then click **OK**:
     
@@ -151,7 +153,7 @@ Follow this procedure to grant Full Control permissions for the WSS_WPG group on
     
   - If search is installed on a server that is not an Active Directory domain controller, type  _server_\WSS_WPG, where  _server_ is the NetBIOS name of the server that hosts the crawl component. 
     
-7. In the **Properties** dialog box, in the **Permissions for WSS_WPG** section, select the **Allow** box in the **Full control** row, and then click **OK**.
+7. In the **Properties** dialog, in the **Permissions for WSS_WPG** section, select the **Allow** box in the **Full control** row, and then click **OK**.
     
 ## Configure the Lotus Notes client application
 <a name="LN_ConfigClient"> </a>
@@ -179,7 +181,7 @@ Follow this procedure to configure the Lotus Notes client application. The confi
     > [!NOTE]
     > If you are not prompted for a Domino certificate, click **Previous**, and ensure that you have entered the correct information. 
   
-9. If a dialog box appears that informs you that you are not authorized to access the specified directory, click **OK** to close the dialog box. This error is expected if the account that you are logged on with does not have access to the email folder on the Domino server. 
+9. If a dialog appears that informs you that you are not authorized to access the specified directory, click **OK** to close the dialog. This error is expected if the account that you are logged on with does not have access to the email folder on the Domino server. 
     
 10. On the Instant Messaging Setup page, cancel the selection **Setup instant messaging**.
     
@@ -204,7 +206,7 @@ Follow this procedure to verify that the certificate that you installed has acce
     
 2. In Lotus Notes, click **File**, point to **Database**, and then click **Open**.
     
-3. In the **Open Database** dialog box, select the Lotus Domino server that you want to connect to from the **Server** list. 
+3. In the **Open Database** dialog, select the Lotus Domino server that you want to connect to from the **Server** list. 
     
 4. In the **Database** list, select the database that you want to connect to, and then click **Open**. 
     
@@ -239,7 +241,7 @@ Follow this procedure to create a mappings database by using Domino Designer. Yo
     
 3. Click **File**, point to **Database**, and then click **New**.
     
-4. In the **New Database** dialog box, do the following: 
+4. In the **New Database** dialog, do the following: 
     
   - Select the Domino server from the **Server name** list. 
     
@@ -249,31 +251,31 @@ Follow this procedure to create a mappings database by using Domino Designer. Yo
     
     If the title that you chose is more than eight characters long, the file name will be truncated.
     
-  - Click **OK** to close the **New Database** dialog box. 
+  - Click **OK** to close the **New Database** dialog. 
     
 5. Click **Create**, point to **Design**, and then click **Form**.
     
 6. Click **Create**, and then click **Field**. 
     
-7. In the **Field** dialog box, in the **Name** box, type the name that you want to use for this field. This field will be used to store the Lotus Notes user IDs. 
+7. In the **Field** dialog, in the **Name** box, type the name that you want to use for this field. This field will be used to store the Lotus Notes user IDs. 
     
-8. Close the dialog box to save the field.
+8. Close the dialog to save the field.
     
 9. Click **Create**, and then click **Field**. 
     
-10. In the **Field** dialog box, in the **Name** box, type the name that you want to use for this field. This field will be used to store the Windows domain user accounts. 
+10. In the **Field** dialog, in the **Name** box, type the name that you want to use for this field. This field will be used to store the Windows domain user accounts. 
     
-11. Close the dialog box to save the field.
+11. Close the dialog to save the field.
     
 12. Click **File**, click **Save**, and then do the following:
     
   - Type a name in the **Save Form as** box. 
     
-  - Click **OK** to close the dialog box. 
+  - Click **OK** to close the dialog. 
     
 13. On the **Create** menu, point to **Design**, and then click **View**.
     
-14. In the **Create View** dialog box, do the following: 
+14. In the **Create View** dialog, do the following: 
     
   - In the **View name** box, type a name for this view. 
     
@@ -301,7 +303,7 @@ Follow this procedure to add user accounts to the mappings database using the Lo
     
 3. Click **File**, point to **Database**, and then click **Open**.
     
-4. In the **Open Database** dialog box, do the following: 
+4. In the **Open Database** dialog, do the following: 
     
   - Select the Domino server from the **Server name** list. 
     
@@ -348,7 +350,7 @@ Following this procedure to register Lotus Notes with the operating system of th
     
 5. On the Welcome to the Lotus Notes Index Setup Wizard page, click **Next**.
     
-6. In the **Register Lotus Notes for use with SharePoint Server** dialog box, do the following: 
+6. In the **Register Lotus Notes for use with SharePoint Server** dialog, do the following: 
     
   - In the **Location of the notes.ini file** box, ensure that the correct path of the Notes.ini file is specified. The default path of this file is  _\<SystemDrive\>_:\Program Files (x86)\lotus\notes\notes.ini, where  _\<SystemDrive\>_ is the drive on which Lotus Notes is installed. 
     

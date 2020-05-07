@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -22,19 +24,19 @@ description: "Learn about the features and functionality that are deprecated or 
 
 Learn about the features and functionality that are deprecated or removed in SharePoint Server 2019.
 
-Deprecated features are included in SharePoint Server 2019 for compatibility with previous product versions. For information about new features in SharePoint Server 2019, see [New and improved features in SharePoint Server 2019](new-and-improved-features-in-sharepoint-server-2019.md).
+Deprecated features are included in SharePoint Server 2019 for compatibility with previous product versions. For info about new features in SharePoint Server 2019, see [New and improved features in SharePoint Server 2019](new-and-improved-features-in-sharepoint-server-2019.md).
 
 ## Definitions
 
-Different customers may have different interpretations of terms such as “deprecated.” To ensure that customers fully understand what we mean by the terminology in this document, we’re including this brief definition of each term.
+Different customers may have different interpretations of terms such as "deprecated." To ensure that customers fully understand what we mean by the terminology in this document, we're including this brief definition of each term.
 
 - **Deprecated**
  
-  A deprecated feature is no longer being invested in by Microsoft and we discourage customers from taking a dependency on it if they haven’t used it before. Deprecated features are still supported by Microsoft in SharePoint Server 2019 for customers who are already using this feature in previous releases and need the feature for backward compatibility. Deprecated features may be removed in future major releases of SharePoint Server with no additional notice. Customers should begin to explore their options for migrating away from these features.
+  A deprecated feature is no longer being invested in by Microsoft and we discourage customers from taking a dependency on it if they haven't used it before. Deprecated features are still supported by Microsoft in SharePoint Server 2019 for customers who are already using this feature in previous releases and need the feature for backward compatibility. Deprecated features may be removed in future major releases of SharePoint Server with no additional notice. Customers should begin to explore their options for migrating away from these features.
 
 - **Removed**
 
-  A removed feature is no longer supported by Microsoft in SharePoint Server 2019. In many cases the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as “removed” is unsupported even if the feature is still present in the product.
+  A removed feature is no longer supported by Microsoft in SharePoint Server 2019. In many cases, the feature is actually removed from the product, but in some cases it may still be present. A feature labeled as "removed" is unsupported even if the feature is still present in the product.
 
 ## Features deprecated in SharePoint Server 2019
 
@@ -42,19 +44,19 @@ The following features and functionality have been deprecated in SharePoint Serv
 
 ### Access Services 2010
 
-Access Services 2010 will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Flows](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
+Access Services 2010 will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2010.
 
 ### Access Services 2013
 
-Access Services 2013 will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Flows](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.
+Access Services 2013 will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [Power Apps](https://powerapps.microsoft.com/) and [Power Automate](https://flow.microsoft.com/) as potential alternatives to Access Services 2013.
 
 ### Aggregated Newsfeed
 
-The aggregated newsfeed feature (available at newsfeed.aspx and typically accessed via the Newsfeed tile on the app launcher), will be set to read-only in SharePoint Server 2019. Both the tile in the app launcher and the option to implement the newsfeed capability will also be removed from this version forward. For customers who are currently using the aggregated newsfeed, we recommend considering options such as Team News, Communication Sites, Yammer and/or Teams. Please note that the Site Feed feature on an individual site is not impacted and will continue to be supported across all versions of the product.
+The aggregated newsfeed feature (available at newsfeed.aspx and typically accessed via the Newsfeed tile on the app launcher), will be set to read-only in SharePoint Server 2019. Both the tile in the app launcher and the option to implement the newsfeed capability will also be removed from this version forward. For customers who are currently using the aggregated newsfeed, we recommend considering options such as Team News, Communication Sites, Yammer and/or Teams. The Site Feed feature on an individual site is not impacted and will continue to be supported across all versions of the product.
 
 ### Custom Help
 
-To ensure that users receive highly relevant help content, Microsoft is moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Office 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
+To ensure that users receive highly relevant help content, we are moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Microsoft 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
 ### Groove Sync App
 
@@ -106,11 +108,11 @@ The following features and functionality have been removed in SharePoint Server 
 
 ### Code-Based Sandbox Solutions
 
-As announced in the Microsoft Office Dev Center and previous articles, code-based sandbox solutions were deprecated in SharePoint Server 2013 and have now been [removed](/sharepoint/what-s-new/what-s-new) in SharePoint Online. After careful consideration, we’ve decided to also remove support for code-based sandbox solutions in SharePoint Server 2019. Customers are recommended to explore [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) as an alternative, which are fully supported for both SharePoint on-premises and SharePoint Online.
+As announced in the Microsoft Office Dev Center and previous articles, code-based sandbox solutions were deprecated in SharePoint Server 2013 and have now been [removed](/sharepoint/what-s-new/what-s-new) in SharePoint Online. After careful consideration, we've decided to also remove support for code-based sandbox solutions in SharePoint Server 2019. Customers are recommended to explore [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) as an alternative, which are fully supported for both SharePoint on-premises and SharePoint Online.
 
 ### Digest Authentication
 
-As announced by the Windows Server team, Microsoft is [deprecating](/windows-server/get-started/removed-features-1709) the Digest authentication feature in Internet Information Services (IIS). This authentication mechanism isn’t very popular and there are many alternative authentication mechanisms available with better interoperability.
+As announced by the Windows Server team, Microsoft is [deprecating](/windows-server/get-started/removed-features-1709) the Digest authentication feature in Internet Information Services (IIS). This authentication mechanism isn't very popular and there are many alternative authentication mechanisms available with better interoperability.
 
 To ensure we remain compatible with potential future releases of Windows Server, we are removing support for Digest authentication in SharePoint Server 2019. The SharePoint prerequisite installer will no longer attempt to install this Windows feature. Customers using Digest authentication are recommended to explore alternatives such as Kerberos, NTLM, or SAML.
 
@@ -120,7 +122,7 @@ As announced by the Windows Server team, Microsoft is [deprecating](/windows-ser
 
 ### Multi-Tenancy
 
-As Microsoft continues to innovate in SharePoint Online, an increasing amount of SharePoint multi-tenancy capabilities are taking dependencies on cloud technologies that aren’t available in on-premises environments. The cost and complexity of providing an on-premises alternative has become prohibitive, so we will no longer support multi-tenancy in the SharePoint Server 2019 release. Existing SharePoint Server customers who depend on multi-tenancy are recommended to explore migrating to SharePoint Online. Other options include migrating to a non-multi-tenancy farm configuration or remaining with SharePoint Server 2016.
+As Microsoft continues to innovate in SharePoint Online, an increasing amount of SharePoint multi-tenancy capabilities are taking dependencies on cloud technologies that aren't available in on-premises environments. The cost and complexity of providing an on-premises alternative has become prohibitive, so we will no longer support multi-tenancy in the SharePoint Server 2019 release. Existing SharePoint Server customers who depend on multi-tenancy are recommended to explore migrating to SharePoint Online. Other options include migrating to a non-multi-tenancy farm configuration or remaining with SharePoint Server 2016.
 
 ### PDF Viewer (SharePoint Server 2019 Preview)
 

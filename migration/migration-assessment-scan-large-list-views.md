@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/13/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -37,7 +39,7 @@ The lists and their data will be migrated. However, the list views called out in
   
 ## Preparing for Migration
 
-Review the provided report and remediate the large list views prior to migration. For information on how to optimize list views, see [Manage large lists and libraries in Office 365](https://support.office.com/article/365-b4038448-ec0e-49b7-b853-679d3d8fb784).
+Review the provided report and remediate the large list views prior to migration. For information on how to optimize list views, see [Manage large lists and libraries in Microsoft 365](https://support.office.com/article/365-b4038448-ec0e-49b7-b853-679d3d8fb784).
   
 ## Post Migration
 

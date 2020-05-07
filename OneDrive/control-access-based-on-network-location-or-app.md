@@ -5,18 +5,22 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+-  seo-marvel-apr2020
 search.appverid:
 - ODB160
 - ODB150
 - MET150
 ms.assetid: 59b83701-cefd-4bf8-b4d1-d4659b60da08
-description: "Learn how to apply conditional access settings in the OneDrive admin center."
+description: "In this article, you'll learn how to apply conditional access settings in the OneDrive admin center."
 ---
 
 # Control access based on network location or app

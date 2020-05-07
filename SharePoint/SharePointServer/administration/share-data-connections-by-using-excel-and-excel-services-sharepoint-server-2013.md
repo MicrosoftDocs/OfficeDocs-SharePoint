@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/7/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -21,7 +23,7 @@ Excel can connect to lots of different data sources. These include SQL Server, a
   
 By storing data connections in an Excel Services trusted data connection library, people can easily access the data sources that they need without having to know the names of servers and databases. Data connections are reusable so that people can create multiple reports or workbooks using those data connections. In addition, Excel Services workbooks that use connections in a trusted data connection library can be updated so that people have easy access to current information.
   
-Use the articles in this section to learn how to create and publish external data connections using Excel Services.
+To learn how to create and publish external data connections using Excel Services, see the articles in this section.
   
 ## In this section
 

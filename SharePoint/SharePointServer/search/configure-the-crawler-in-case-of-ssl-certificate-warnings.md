@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/18/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -46,7 +48,7 @@ Use the following procedure to specify whether the crawler will crawl sites in t
     
      ![Screen shot of Farm Search Administration page](../media/SSL_certificate_warning_for_crawling.gif)
   
-5. In the **Search SSL Settings** dialog box, do one of the following: 
+5. In the **Search SSL Settings** dialog, do one of the following: 
     
   - If you do not want the crawler to crawl a site when there is an SSL certificate warning, make sure that the **Ignore SSL certificate name warnings** check box is cleared. For security reasons, the check box is cleared by default. 
     

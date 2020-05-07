@@ -1,6 +1,6 @@
 ﻿  
 
-# [OneDrive](onedrive.md)
+# [OneDrive](onedrive.yml)
 ## [Get started]()
 ### [OneDrive guide for enterprises](plan-onedrive-enterprise.md)
 ### [OneDrive guide for small businesses](One-Drive-Quickstart-Small-Business.md)
@@ -16,7 +16,7 @@
 ### [B2B Sync](b2b-sync.md)
 ### [How sync works](sync-process.md)
 ### [Use Group Policy](use-group-policy.md)
-### [Find your tenant ID](find-your-office-365-tenant-id.md)
+### [Find your organization ID](find-your-office-365-tenant-id.md)
 ### [Sync on virtual desktops](sync-vdi-support.md)
 ### [Deploy and configure on macOS](deploy-and-configure-on-macos.md)
 ### [Deploy using Intune](deploy-intune.md)

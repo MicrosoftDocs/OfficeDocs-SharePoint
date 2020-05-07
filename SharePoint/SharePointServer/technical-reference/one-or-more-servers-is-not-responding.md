@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 12/5/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -52,6 +54,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: One or m
     
 3. In the **Server** list, find the server that you want to remove, and then click **Remove Server**.
     
-4. In the warning message dialog box, click **OK**.
+4. In the warning message dialog, click **OK**.
     
 

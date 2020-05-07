@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/6/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -30,7 +32,7 @@ Basic exploration and navigation of these rendered diagrams are supported within
   
 Visio Services can also refresh the data and recalculate the visuals of a Visio diagram hosted on a SharePoint site. This enables published diagrams to refresh connections to various data sources and to update affected data graphics and text fields.
   
-Visio diagrams can be published to SharePoint Server by using Visio Professional, Visio Premium, or Visio Pro for Office 365.
+Visio diagrams can be published to SharePoint Server by using Visio Professional, Visio Premium, or Visio Pro for Microsoft 365.
   
 ## Data sources supported by Visio Services
 
@@ -72,7 +74,7 @@ Visio Services can render diagrams created in:
     
 - Visio 2016 Professional
     
-- Visio Pro for Office 365
+- Visio Pro for Microsoft 365
     
 Visio diagrams created in Visio 2010 must be published to a SharePoint site as a Visio Web drawing (\*.vdw) file. Standard Visio 2010 diagrams (.vsd files) are not rendered by Visio Services and require Visio 2010 to be viewed.
   

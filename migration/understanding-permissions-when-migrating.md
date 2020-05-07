@@ -1,19 +1,23 @@
 ---
-title: "File and folder permissions when using the SharePoint Migration Tool"
+title: "File & folder permission when using SharePoint Migration Tool - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
 mscollection: 
 - SPMigration
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid: MET150
 ms.assetid: 
-description: "File and folder permissions when using the SharePoint Migration Tool (SPMT)."
+description: "Learn about what happens to the file and folder permissions when using the SharePoint Migration Tool (SPMT)."
 ---
 
 # File and folder permissions when using the SharePoint Migration Tool

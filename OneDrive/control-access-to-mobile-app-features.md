@@ -6,6 +6,8 @@ author: kaarins
 manager: pamgreen
 ms.date: 06/25/2018
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
@@ -17,6 +19,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: d25713bb-5cf8-4874-9b5b-e8bee3b94f13
+ms.custom: seo-marvel-apr2020
 description: "Learn how to create a mobile application management policy for the OneDrive and SharePoint mobile apps in the OneDrive admin center. "
 ---
 
@@ -32,23 +35,23 @@ If your organization has **Microsoft Intune** or **Enterprise Mobility + Securit
   
 Go to the Device access page of the [OneDrive admin center](https://admin.onedrive.com) to:
   
-- Block downloading files in the apps
+- Block downloading files in the apps.
     
-- Block taking screenshots in the Android apps
+- Block taking screenshots in the Android apps.
     
-- Block copying files and content within files
+- Block copying files and content within files.
     
-- Block printing files in the apps
+- Block printing files in the apps.
     
-- Block backing up app data
+- Block backing up app data.
     
-- Require an app passcode
+- Require an app passcode.
     
-- Block opening OneDrive and SharePoint files in other apps
+- Block opening OneDrive and SharePoint files in other apps.
     
-- Encrypt app data when the device is locked
-    
-- Require Office 365 sign-in each time the app is opened
+- Encrypt app data when the device is locked.
+
+- Require Microsoft 365 sign-in each time the app is opened.
     
 - Choose values for how often to verify user access and when to wipe app data when a device is offline.
     
@@ -64,7 +67,7 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
     
 4. Click **Save**.
     
-## See also
+## Related topics
 
 [Intune Documentation](https://go.microsoft.com/fwlink/?linkid=2003459)
   

@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/1/2018
 audience: End User
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -69,7 +71,7 @@ To take any of the following actions, first [Open the Term Store management tool
 
 1. Select **Reuse Terms**.
     
-2. In the **Term Reuse** dialog box, expand the groups and term sets to find the term that you want to reuse under your selected parent term. 
+2. In the **Term Reuse** dialog, expand the groups and term sets to find the term that you want to reuse under your selected parent term. 
     
 3. Select the term and then select **OK**. 
     
@@ -80,7 +82,7 @@ To take any of the following actions, first [Open the Term Store management tool
     
 2. Select **Pin term with children**.
     
-3. In the **Reuse and Pin Term: Select a Source** dialog box, expand the groups and term sets. 
+3. In the **Reuse and Pin Term: Select a Source** dialog, expand the groups and term sets. 
     
 4. Select the term that you want to reuse and pin as a child of the selected term or term set.
     
@@ -93,7 +95,7 @@ To take any of the following actions, first [Open the Term Store management tool
 
 1. Select **Merge Term**.
     
-2. In the **Term Merge** dialog box, expand the term set that contains the term with which you want to merge you selected term. 
+2. In the **Term Merge** dialog, expand the term set that contains the term with which you want to merge you selected term. 
     
 3. Select the target term.
     
@@ -109,7 +111,7 @@ To take any of the following actions, first [Open the Term Store management tool
 
 1. Select **Move Term**.
     
-2. In the **Term Move** dialog box, expand the groups or term sets to find where you want to move the term. 
+2. In the **Term Move** dialog, expand the groups or term sets to find where you want to move the term. 
     
 3. Select the target term set or term. 
     

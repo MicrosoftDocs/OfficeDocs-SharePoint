@@ -5,6 +5,8 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -12,7 +14,9 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - SPMigration
 - M365-collaboration
-description: "List of features that are supported in the SharePoint Migration Tool (SPMT)"
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains a list of features that are supported in the SharePoint Migration Tool (SPMT)."
 ---
 
 # SPMT supported features

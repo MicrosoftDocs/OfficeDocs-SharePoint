@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/6/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -118,7 +120,7 @@ Each kind of connection has its advantages and drawbacks discussed here; choose 
 |:-----|:-----|:-----|
 |Data sources supported  <br/> | SQL Server  <br/>  OLE DB/ODBC  <br/>  Excel workbooks  <br/>  SharePoint lists  <br/>  Custom Data Providers  <br/> | SQL Server (supports all authentication methods)  <br/>  OLE DB/ODBC  <br/> |
 |Advantages  <br/> | All connection information is stored in the diagram.  <br/>  Embedded connections require little administrative overhead to support.  <br/>  Embedded connections are easy to create.  <br/> | Linked connections can be centrally stored, managed, audited, shared and access to them controlled by using a data connection library.  <br/>  Diagram authors can use existing connections without having to create queries and connection strings.  <br/>  If the data connection details for a data source change, an administrator only need update one ODC file. Thanks to that change, all diagrams that refer to the ODC file will use the updated connection information when the next refresh occurs. (An example of this scenario is when the database server is moved or the database name is changed.)  <br/> |
-|Drawbacks  <br/> | If the data connection details for a data source change, all diagrams with embedded connections to that data source will have to be republished with updated connection information.  <br/>  Embedded data connections are more difficult to audit by SharePoint administrators.  <br/> | Linked connections may require the help of a SharePoint administrator to share, manage and secure.  <br/>  Linked connections are saved in clear text and may contain database passwords. Extra care must be taken to help secure these files.  <br/> |
+|Drawbacks  <br/> | If the data connection details for a data source change, all diagrams with embedded connections to that data source will have to be republished with updated connection information.  <br/>  Embedded data connections are more difficult to audit by SharePoint admins.  <br/> | Linked connections may require the help of a SharePoint admin to share, manage and secure.  <br/>  Linked connections are saved in clear text and may contain database passwords. Extra care must be taken to help secure these files.  <br/> |
    
 Choose a linked data connection, by using an ODC file, for scenarios in which you must have a data connection to an enterprise-scale relational data source such as SQL Server. Linked data connections are most useful in scenarios in which they will be shared across many users and in which administrator control of the connection is important.
   

@@ -5,6 +5,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords: NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -194,14 +195,14 @@ Configuration and content storage and IOPS are the base layer that you must plan
 <a name="Section1b1"> </a>
 #### Configuration storage and IOPS
 
-Storage requirements for the Configuration database and the Central Administration content database are not large. We recommend that you allocate 2 GB for the Configuration database and 1 GB for the Central Administration content database. Over time, the Configuration database may grow beyond 1 GB. It does not grow quickly — it grows by approximately 40 MB for each 50,000 site collections. 
+Storage requirements for the Configuration database and the Central Administration content database are not large. We recommend that you allocate 2 GB for the Configuration database and 1 GB for the Central Administration content database. Over time, the configuration database may grow beyond 1 GB. It does not grow quickly — it grows by approximately 40 MB for each 50,000 site collections. 
   
-Transaction logs for the Configuration database can be large. Therefore, we recommend that you change the recovery model for the database from full to simple.
+Transaction logs for the configuration database can be large. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are using SQL Server Always On availability groups or database mirroring, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715518).
   
-> [!NOTE]
-> If you want to use SQL Server database mirroring to provide availability for the Configuration database, you must use the full recovery model. 
+> [!TIP]
+> If you are not using a SQL Server high availability solution which requires the use of the full recovery model, you may consider changing the configuration database to the simple recovery model.
   
-IOPS requirements for the Configuration database and Central Administration content database are minimal.
+IOPS requirements for the configuration database and Central Administration content database are minimal.
   
 #### Content storage and IOPS
 <a name="Section1b2"> </a>

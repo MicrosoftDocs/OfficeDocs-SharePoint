@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/7/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -31,7 +33,7 @@ Before you begin this task, review the following information about prerequisites
     
 - You must have at least Contribute permissions assigned in SharePoint Server 2013.
     
-- You will need information from a SharePoint administrator about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
+- You will need information from a SharePoint admin about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
     
 - If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
     
@@ -77,7 +79,7 @@ You can use Excel to create a connection a cube that is stored in Analysis Servi
   - If Excel Services is configured to use the unattended service account, select **None**, and then click **OK**.
     
     > [!IMPORTANT]
-    > If you do not know which option to choose, contact a SharePoint administrator. 
+    > If you do not know which option to choose, contact a SharePoint admin. 
   
 6. Click **Finish** to close the **Save Data Connection File and Finish** page. 
     
@@ -107,15 +109,15 @@ After data connections are created, the next step is to upload them to a data co
     
 3. Click **Data Connections** to open that library. 
     
-4. Click **New Item** to open the **Add a document** dialog box. 
+4. Click **New Item** to open the **Add a document** dialog. 
     
-5. Click **Browse** to open the **Choose File to Upload** dialog box. 
+5. Click **Browse** to open the **Choose File to Upload** dialog. 
     
 6. Assuming the data connection is saved in its default location, click **Libraries**, click **Documents**, and then double-click **My Data Sources**.
     
 7. Select the ODC file that you want to upload, and then click **Open**.
     
-8. In the **Add a document** dialog box, click **OK**.
+8. In the **Add a document** dialog, click **OK**.
     
     A **Data Connections** form opens. 
     

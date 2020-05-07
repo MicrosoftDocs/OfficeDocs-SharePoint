@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/8/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -109,7 +111,7 @@ Next:
     
     - Click **Launch Query Builder**.
     
-    - In the **Build Your Query** dialog box, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables.
+    - In the **Build Your Query** dialog, optionally build the query by specifying filters, sorting, and testing on the tabs as shown in the following tables.
     
 **On the BASICS tab**
 

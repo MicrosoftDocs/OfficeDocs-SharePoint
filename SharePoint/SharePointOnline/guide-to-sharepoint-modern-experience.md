@@ -5,16 +5,20 @@ ms.author: loreenl
 author: loreenla
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about the SharePoint modern experience."
+description: "In this article, you'll learn about the modern experience in SharePoint and how you can begin to take advantage of it."
 ---
 
 # Guide to the Modern experience in SharePoint
@@ -41,8 +45,8 @@ If you’ve implemented publishing sites or publishing-enabled sites in your org
 
 ## Search
 
-Search is an important part of any site – you want people to be able to find what they are looking for quickly and easily. SharePoint has both a classic and a modern search experience, where Microsoft search in SharePoint is the modern experience. The most visible difference is that the Microsoft search box is placed at the top of SharePoint, in the header bar. Another difference is that Microsoft search is personal. The results you see are different from what other people see, even when you search for the same words. You'll see results before you start typing in the search box, based on your previous activity and trending content in Office 365, and the results update as you type. Learn more about the Microsoft search experience for users in [Find what you need with Microsoft search](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87). There are other differences, especially around customization. Read [When to use which search experience](get-started-with-modern-search-experience.md) to decide which experience your organization should use.
+Search is an important part of any site – you want people to be able to find what they are looking for quickly and easily. SharePoint has both a classic and a modern search experience, where Microsoft search in SharePoint is the modern experience. The most visible difference is that the Microsoft search box is placed at the top of SharePoint, in the header bar. Another difference is that Microsoft search is personal. The results you see are different from what other people see, even when you search for the same words. You'll see results before you start typing in the search box, based on your previous activity and trending content in Microsoft 365, and the results update as you type. Learn more about the Microsoft search experience for users in [Find what you need with Microsoft search](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87). There are other differences, especially around customization. Read [When to use which search experience](get-started-with-modern-search-experience.md) to decide which experience your organization should use.
 
 ## Sharing and permissions
 
-SharePoint continues to provide both SharePoint groups as well as security groups maintained by Azure Active Directory. Office 365 also provides a third grouping option for SharePoint, [Office 365 Groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2). Office 365 Groups are similar to security groups, although Office 365 Groups include many additional benefits. Office 365 groups are provided a group email address as well as additional tools such as a group calendar, notebook, Planner, and a SharePoint Team site. Users assigned to an Office 365 Group may also be classified as either a group owner or a group member, in comparison to security groups where all group members have equal access under the group. Learn about the differences, benefits, and best practices for permissions and sharing in the modern experience in [Sharing and permissions in the SharePoint modern experience](sharing-permissions-modern-experience.md).
+SharePoint continues to provide both SharePoint groups as well as security groups maintained by Azure Active Directory. Microsoft 365 also provides a third grouping option for SharePoint, [Microsoft 365 Groups](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2). Microsoft 365 Groups are similar to security groups, although Microsoft 365 Groups include many additional benefits. Microsoft 365 groups are provided a group email address as well as additional tools such as a group calendar, notebook, Planner, and a SharePoint Team site. Users assigned to a Microsoft 365 Group may also be classified as either a group owner or a group member, in comparison to security groups where all group members have equal access under the group. Learn about the differences, benefits, and best practices for permissions and sharing in the modern experience in [Sharing and permissions in the SharePoint modern experience](sharing-permissions-modern-experience.md).

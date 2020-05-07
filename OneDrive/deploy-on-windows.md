@@ -5,12 +5,16 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - ODB160
@@ -19,7 +23,7 @@ search.appverid:
 - MBS150
 - ODB150
 ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
-description: "Learn how to deploy OneDrive apps using Microsoft Endpoint Configuration Manager."
+description: "In this article, you'll learn how to deploy OneDrive apps using Microsoft Endpoint Configuration Manager."
 ---
 
 # Deploy OneDrive apps using Microsoft Endpoint Configuration Manager
@@ -54,9 +58,9 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
   
 ### Use Microsoft Endpoint Configuration Manager to deploy the OneDrive sync app
 
-1. In Configuration Manager, select **Create Device Collection** and follow the steps in the Create Device Collection Wizard. 
+1. In Configuration Manager, select **Create Device Collection**, and follow the steps in the Create Device Collection wizard. 
 
-2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Enterprise ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
+2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Deferred ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
   
 3. Download the [sample Configuration Manager package](https://go.microsoft.com/fwlink/p/?LinkId=824069). It's a .zip file that contains the script installer deployment type. For more information about packages and programs in Configuration Manager, see [Packages and programs in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs).
 
@@ -72,7 +76,7 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
 6. Select the sample package.
 
-7. Select the **Deployment Types** tab on the bottom of Configuration Manager, right-click the deployment, and edit the properties to update the **Content location**.
+7. On the bottom of Configuration Manager, select the **Deployment Types** tab, right-click the deployment, and to update the **Content location**, edit the properties.
 
 8. Right-click the package, select **Deploy**, and follow the steps in the Deploy Software Wizard.
 
@@ -145,7 +149,7 @@ odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&am
   ```
 
 > [!NOTE]
-> When you use Microsoft Endpoint Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). </br> For help finding your tenant ID, see [Find your Office 365 tenant ID](find-your-office-365-tenant-id.md). 
+> When you use Microsoft Endpoint Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). </br> For help finding your organization ID, see [Find your Microsoft 365 organization ID](find-your-office-365-tenant-id.md). 
   
 ## Deploy the OneDrive app on mobile devices running iOS or Android
 
@@ -171,7 +175,7 @@ For more info, see [Create iOS applications with Configuration Manager](/configm
 
 2. In the **Type** box, select **App Package for Android on Google Play**.
 
-3. In the **Location** box, enter the app store URL, https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en
+3. In the **Location** box, enter the app store URL, https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en.
 
 ![](media/deploy-onedrive-enterprise_image5.png)
 

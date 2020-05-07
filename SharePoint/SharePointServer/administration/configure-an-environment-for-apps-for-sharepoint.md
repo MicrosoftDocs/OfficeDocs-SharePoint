@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/27/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -66,7 +68,7 @@ You have now created a forward lookup zone (and a domain name) to use for apps i
     
 2. In DNS Manager, under Forward Lookup Zones, right-click the new app domain name, and then click **New Alias (CNAME)**.
     
-3. In the New Resource Record dialog box, in the **Alias name (uses parent domain if left blank)** box, type \*.
+3. In the New Resource Record dialog, in the **Alias name (uses parent domain if left blank)** box, type \*.
     
     The Fully qualified domain name (FQDN) box displays \*. followed by the domain name that you created for apps. For example, \*.ContosoApps.com or \*.Contoso-Apps.com.
     
@@ -84,7 +86,7 @@ You have now created a forward lookup zone (and a domain name) to use for apps i
     
     For example, SharePoint.
     
-   **New Resource Record dialog box shows the wildcard alias for the app domain and the FQDN of the server that hosts the SharePoint sites.**
+   **New Resource Record dialog shows the wildcard alias for the app domain and the FQDN of the server that hosts the SharePoint sites.**
 
      ![Create a CNAME alias for the app domain](../media/SharePointApps_NewAliasCNAME.GIF)
   

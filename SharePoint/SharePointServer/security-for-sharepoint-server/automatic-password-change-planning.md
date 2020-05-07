@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/23/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -46,7 +48,7 @@ You can always override any automatic password reset schedule and force an immed
 ## Synchronize SharePoint Foundation account passwords with Active Directory Domain Services
 <a name="Synchronize"> </a>
 
-If AD DS and SharePoint Server account passwords are not synchronized, services in the SharePoint farm won't start. If an Active Directory administrator changes an Active Directory account password without coordinating the password change with a SharePoint administrator, there is a risk of service interruptions. In this scenario, a SharePoint administrator can immediately reset the password from the Account Management page using the password value that was changed in AD DS. The password is updated and immediately propagated to the other servers in the SharePoint farm.
+If AD DS and SharePoint Server account passwords are not synchronized, services in the SharePoint farm won't start. If an Active Directory administrator changes an Active Directory account password without coordinating the password change with a SharePoint admin, there is a risk of service interruptions. In this scenario, a SharePoint admin can immediately reset the password from the Account Management page using the password value that was changed in AD DS. The password is updated and immediately propagated to the other servers in the SharePoint farm.
   
 ## Reset all passwords immediately
 <a name="ResetAllPwd"> </a>

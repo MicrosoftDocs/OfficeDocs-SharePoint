@@ -1,16 +1,20 @@
 ---
 title: "Redirect and move Windows known folders to OneDrive"
-ms.reviewer: zhdong
+ms.reviewer: cagreen
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - ODB160
 - ODB150
@@ -18,7 +22,7 @@ search.appverid:
 - GOB160
 - MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
-description: "Learn how to redirect users' Documents folders or other known folders to OneDrive."
+description: In this article, you'll learn how to redirect users' Documents folders or other known folders to OneDrive.
 ---
 
 # Redirect and move Windows known folders to OneDrive
@@ -38,19 +42,21 @@ For these reasons, we recommend moving or redirecting known folders to OneDrive 
 To use the following Group Policy objects, you need the OneDrive sync build 18.111.0603.0004 or later. You can see your build number in the About tab in OneDrive settings.  We recommend upgrading to the latest available build before deploying to decrease deployment issues. Known Folder Move does not work for users syncing OneDrive files in SharePoint Server.  
 
 > [!IMPORTANT]
-   > The OneDrive Known Folder Move Group Policy objects won't work if you previously used Windows Folder Redirection Group Policy objects to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. Remove the Windows Group Policy objects for these folders before you enable the OneDrive Group Policy objects. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. For info about Windows Folder Redirection, see [Deploy Folder Redirection with Offline Files](/windows-server/storage/folder-redirection/deploy-folder-redirection).<br><br>If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For users who have a lot of files in their known folders, consider using the policy "[Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#AutomaticUploadBandwidthPercentage)" temporarily if you would like to minimize the network impact and then disable the policy once uploads are complete.
+   > If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For users who have a lot of files in their known folders, consider using the policy "[Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#AutomaticUploadBandwidthPercentage)" temporarily if you would like to minimize the network impact and then disable the policy once uploads are complete.
   
 - [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#KFMOptInWithWizard)
 
     Use this setting to give the users a call to action to move their Windows known folders.
 
-    ![Screenshot of the dialog box that prompts users to protect their important folders](media/protect-important-folders-gpo.png)
+    ![Screenshot of the dialog that prompts users to protect their important folders](media/protect-important-folders-gpo.png)
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 
     ![Screenshot of the notification that reminds users to protect their important folders](media/protect-important-folders-notification.png)
 
     If a user has already redirected their known folders to a different OneDrive account, they'll be prompted to direct the folders to the account for your organization (leaving existing files behind).
+    
+    We recommend deploying the prompt policy for existing devices only, and limiting the deployment to 5,000 devices a day and not exceeding 20,000 devices a week.
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#KFMOptInNoWizard)
     
@@ -69,7 +75,7 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
 
     For info about these errors, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems).
 
-    We recommend using this setting together with "Prompt users to move Windows known folders to OneDrive." If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.
+    We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week.  We also recommend using this setting together with "Prompt users to move Windows known folders to OneDrive." If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.  
    
 - [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#KFMBlockOptOut)
 
@@ -81,3 +87,26 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
 - [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKnownFolderMove)
 
 For info about using the OneDrive Group Policy objects, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md).
+
+## Transition from the Windows Folder Redirection Group Policy objects
+The OneDrive Known Folder Move Group Policy objects won't work if you previously used [Windows Folder Redirection Group Policy objects](/windows-server/storage/folder-redirection/deploy-folder-redirection) to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. Follow these steps to switch to using the Known Folder Move Group Policy objects.
+
+- If folders have been redirected to OneDrive using Windows Folder Redirection Group Policy:
+
+  1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on OneDrive.
+  2. Enable KFM Group Policy. Known folders remain in OneDrive.
+  
+- If folders have been redirected to a location on a local PC:
+
+  1. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents at the redirected location.
+  2. Enable KFM Group Policy. Known folders move to OneDrive.
+  
+- If folders have been redirected to a network file share: 
+
+  > [!NOTE]
+  > We recommend using Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and OneDrive build 17.3.7064.1005 to get the benefits from Files On-Demand.
+  
+  1. Use a migration tool such as [Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365) or the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop folders.
+  2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share. 
+  3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which contain all the file share content that you moved in the first step.
+

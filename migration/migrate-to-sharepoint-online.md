@@ -5,6 +5,8 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -12,7 +14,9 @@ search.appverid: MET150
 msCollection: 
 - SPMigration
 - M365-collaboration
-description: "Which tool to use when migrating content to SharePoint and OneDrive"
+ms.custom:
+- seo-marvel-apr2020
+description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive."
 ---
 
 # Migrating your content to SharePoint and OneDrive
