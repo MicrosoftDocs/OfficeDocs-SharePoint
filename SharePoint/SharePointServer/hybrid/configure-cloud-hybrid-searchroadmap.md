@@ -93,7 +93,10 @@ On the application server that hosts the SharePoint Server Central Administratio
   
 1. Log on to the console as a farm administrator.
     
-2. Connect to Microsoft 365 as a global admin.
+2. Connect to Office 365 as one of the following roles:
+   - Global Administrator
+   - Application Administrator
+   - Cloud Application Administrator
     
 3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176) to download, install, and start the Hybrid Picker wizard. 
     
