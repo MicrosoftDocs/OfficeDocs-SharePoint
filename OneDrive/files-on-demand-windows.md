@@ -21,15 +21,14 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 3eff17b9-c709-462f-946c-17719af68aca
-description: "Learn how to query and set file and folder states when you use OneDrive Files On-Demand."
+description: "Learn how to query and set file and folder states when you use OneDrive Files On-Demand on Windows."
 ---
 
 # Query and set Files On-Demand states in Windows
 
-With OneDrive Files On-Demand, files can be in one of three states. Each of these states corresponds to a file attribute state.
-To query the current state of a file or folder, use the following command:
+With OneDrive Files On-Demand, files can be in one of three states. Each of these states corresponds to a file attribute state. To query the current state of a file or folder, use the following command:
 
-- attrib <Path to file or folder>
+- attrib \<Path to file or folder>
 
 ## Scriptable commands
 
@@ -37,9 +36,9 @@ Use the following commands to set file and folder states.
 
 |**Files On-Demand state**|**File attribute state**|**Command**|
 |:-----|:-----|:-----|
-|Always available    <br/> |Pinned    <br/> |attrib +p <path\><br/> |
-|Locally available     <br/> |Clearpin    <br/> |attrib -p <path\>    <br/> |
-|Online-only    <br/> |Unpinned    <br/> |attrib +u <path\><br/> |
+|Always available    <br/> |Pinned    <br/> |attrib +p \<path\><br/> |
+|Locally available     <br/> |Clearpin    <br/> |attrib -p \<path\>    <br/> |
+|Online-only    <br/> |Unpinned    <br/> |attrib +u \<path\><br/> |
 
  > [!NOTE]
 > Pinning an online-only file makes the sync app download the file contents, and unpinning a downloaded file frees up space on the device by not storing the file contents locally.<br>
