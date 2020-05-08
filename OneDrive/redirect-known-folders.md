@@ -56,7 +56,9 @@ The workshop assumes that you've already set up core infrastructure (Active Dire
   
 ## About the Known Folder Move Group Policy objects
 
-To use the following Group Policy objects, you need the OneDrive sync build 18.111.0603.0004 or later. You can see your build number in the About tab in OneDrive settings.  We recommend upgrading to the latest available build before deploying to decrease deployment issues. Known Folder Move does not work for users syncing OneDrive files in SharePoint Server.  
+To use the following Group Policy objects, you need the OneDrive sync build 18.111.0603.0004 or later. You can see your build number in the About tab in OneDrive settings.  We recommend upgrading to the latest available build before deploying to decrease deployment issues. Known Folder Move does not work for users syncing OneDrive files in SharePoint Server.
+
+To check elibigiliy, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the [Known Folder Move PowerShell script](https://github.com/OneDrive/onedrive-admin-scripts/tree/master/Scripts/Sync-KFM-Deployment). 
 
 > [!IMPORTANT]
    > If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For users who have a lot of files in their known folders, consider using the policy "[Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#AutomaticUploadBandwidthPercentage)" temporarily if you would like to minimize the network impact and then disable the policy once uploads are complete.
