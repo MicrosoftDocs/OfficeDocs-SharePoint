@@ -1,5 +1,5 @@
 ---
-title: "Ideal state configuration"
+title: "Recommended sync app configuration"
 ms.reviewer: kaarins
 ms.author: kaarins
 author: jackwi-alt
@@ -25,9 +25,9 @@ ms.assetid: b664e743-ae8b-4a93-aefd-1b20c584a93a
 description: "View our recommendations for deploying and configuring the OneDrive sync app."
 ---
 
-# Ideal state configuration
+# Recommended sync app configuration
 
-For the OneDrive sync *ideal state* configuration, use this checklist.
+For the best performance, reliability, and user experience, follow these "ideal state" recommendations when you configure the sync app.
 
 ## Updates and rings
 
