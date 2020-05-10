@@ -20,11 +20,11 @@ search.appverid:
 description: "This article is a guide for enterprises on using OneDrive. Learn about features, planning, configuration, deployment, and management of OneDrive."
 ---
 
-# OneDrive guide for enterprises
+# OneDrive for Business guide for enterprises
 
 With OneDrive for Business, you can easily and securely store and access your files from all your devices. You can work with others regardless of whether they're inside or outside your organization and terminate that sharing whenever you want. OneDrive helps protect your work through advanced encryption while the data is in transit and at rest in data centers. OneDrive also helps ensure that users adhere to your most rigorous compliance standards by enabling them to choose where their data lives and providing detailed reporting of how that data has changed and been accessed. OneDrive connects you to your personal and shared files in Microsoft Microsoft 365, enhancing collaboration capabilities within Microsoft 365 apps. With OneDrive on the web, desktop, or mobile, you can access all your personal files plus the files shared with you from other people or teams, including files from Microsoft Teams and SharePoint.
 
-## Why deploy OneDrive?
+## Why deploy OneDrive for Business?
 
 OneDrive provides a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling companies to use OneDrive in whatever way benefits their business the most – whether that's simply a cloud-based file share for a small business or a highly utilized storage system that provides the basis for all collaboration within an enterprise. At its core, however, OneDrive enables you to securely share and work together on all your files. With OneDrive, you can:
 
@@ -40,7 +40,7 @@ OneDrive provides a robust but simple-to-use cloud storage platform for small bu
 
 The Microsoft 365 family of products, which includes Office, Microsoft Outlook, SharePoint, Teams, OneDrive, and Yammer, provides a complete, intelligent, and secure solution to empower employees. Together, the Microsoft 365 applications unlock creativity and encourage teamwork through product integration and a simple user experience, all while providing intelligent security to help keep your data safe. In addition, Microsoft Graph enables you to interact with and report on the data within many of the Microsoft 365 applications.
 
-## Key OneDrive features
+## Key OneDrive for Business features
 
 Unlike most other cloud storage providers, OneDrive makes most of its advanced features available to all subscription types. This gives smaller organizations the flexibility to use standard features out of the box, and configure advanced features based on the needs of their organization.
 
@@ -88,7 +88,7 @@ For a full list of feature availability across OneDrive plans, see [Microsoft On
 
 Known Folder Move makes it easier to move files in your users' Desktop, Documents, and Pictures folders to OneDrive. This lets users continue working in the folders they're familiar with and access their files from any device. It also helps you make sure your users' files are backed up in the cloud if anything happens to their device. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
-### OneDrive Files On-Demand
+### OneDrive for Business Files On-Demand
 
 OneDrive Files On-Demand enables users to view, search for, and interact with files stored in OneDrive from within File Explorer without downloading them all to their device. The feature provides a seamless look and feel for both OneDrive and local files without taking up space on the local hard drive. Files that have not been downloaded have a cloud icon for their status, as shown below. For those files that have been downloaded, the status shows a green checkmark.
 
@@ -155,7 +155,7 @@ Microsoft Trust Center provides info about Microsoft's trust policy, how Microso
 
 -   **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Office 365 with OneDrive give you GDPR-compliant tools; you simply need to incorporate those tools into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/trustcenter/privacy/gdpr/resources). For additional helpful info about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
 
-### OneDrive Multi-Geo storage locations
+### OneDrive for Business Multi-Geo storage locations
 
 Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users' data. You can designate storage geographies on a per-user basis.
 
@@ -215,7 +215,7 @@ When you've identified the devices that require access to OneDrive, you then ide
 
 You deploy, manage, and secure OneDrive based on the tools you chose in the previous steps. Each technology has different deployment, update, and management options, so when deploying OneDrive, you must first consider whether you need to upgrade existing devices. Also, securing OneDrive may include both client-side and cloud service–side configuration. Lastly, be sure to consider data compliance requirements, such as dedicated storage regions.
 
-## OneDrive limitations
+## OneDrive for Business limitations
 
 Because OneDrive provides access to files on many kinds of devices, it restricts the use of certain characters, filenames, and folder names. In addition, certain features are available only in the Windows operating system. For a full list of these and other limitations of OneDrive, see [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
 
@@ -311,7 +311,7 @@ For more info about Azure Information Protection, see [What is Azure Information
 If you have decided to use Azure Information Protection, to configure the necessary settings for it to work with OneDrive, see [Office 365: Configuration for clients and online services to use the Azure Rights Management service](/azure/information-protection/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration/).
 
 
-### OneDrive integration with other Microsoft 365 features
+### OneDrive for Business integration with other Microsoft 365 features
 
 OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For info about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact/).
 
@@ -447,7 +447,7 @@ Although not particularly scalable, you always have the option of installing One
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CvJE]
 
 
-### Manually install and configure OneDrive on a mobile device
+### Manually install and configure OneDrive for Business on a mobile device
 
 Installing the OneDrive app on a mobile device is simple: users can download the app from the app store on any Android, iOS, or Windows mobile device. To simplify the manual installation process even further, users can go to [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/) and enter the mobile phone number of their device. Microsoft will send a text message to the mobile device with a link to the app in the device's app store. Once installed, users can start the configuration process by opening the app and responding to the prompts.
 
@@ -457,7 +457,7 @@ Send your users the following links to set up OneDrive on their mobile devices:
 
 -   [Use OneDrive for Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36)
 
-### Manually install and configure OneDrive on a Windows device
+### Manually install and configure OneDrive for Business on a Windows device
 
 Manually installing OneDrive on a Windows device may or may not be necessary: many devices may already have it, either because the user installed Microsoft Office 2016 or simply because the device runs Windows 10, both of which include the OneDrive client by default. For devices running older versions of Windows or on which Office 2016 is not installed, you can download the new OneDrive sync app for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
 
@@ -466,11 +466,11 @@ Manually installing OneDrive on a Windows device may or may not be necessary: ma
 
 To manually configure OneDrive on a Windows device, see [Sync files with the OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49).
 
-### Manually install and configure OneDrive on a macOS device
+### Manually install and configure OneDrive for Business on a macOS device
 
 For info about installing the OneDrive app on a computer running macOS or adding a work account to an existing installation, see [Sync files with the OneDrive sync app on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f).
 
-## Install OneDrive on Windows devices by using scripting methods
+## Install OneDrive for Business on Windows devices by using scripting methods
 
 To silently install the OneDrive sync app on an individual computer, run the following command:
 
@@ -486,7 +486,7 @@ To silently update the OneDrive sync app, run the following command:
 
 For info about enabling silent account configuration, see [Silently configure user accounts](use-silent-account-configuration.md).
 
-## Deploy and configure OneDrive through Windows AutoPilot
+## Deploy and configure OneDrive for Business through Windows AutoPilot
 
 Windows AutoPilot provides a simple way to deliver PCs to users. It is an alternative to the traditional system imaging you typically perform when provisioning a new computer or repurposing an existing computer for a user. Rather than using deployment tools such as Microsoft Endpoint Configuration Manager, you can register your hardware info in Azure, and use a deployment profile to control the out-of-box experience and register the device in Azure Active Directory (Azure AD).
 
@@ -494,14 +494,14 @@ From there, Intune can deploy apps such as OneDrive to the device automatically.
 
 For an overview of Windows AutoPilot, see [Overview of Windows AutoPilot](/windows/deployment/windows-autopilot/windows-10-autopilot/).
 
-## Deploy OneDrive by using Intune
+## Deploy OneDrive for Business by using Intune
 
 To deploy the OneDrive sync app to Windows 10 or the mobile apps to Android or iOS, follow the steps in [Deploy OneDrive apps by using Intune](deploy-intune.md), or take a look at the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSk]
 
 
-## Deploy OneDrive using Microsoft Endpoint Configuration Manager
+## Deploy OneDrive for Business using Microsoft Endpoint Configuration Manager
 
 To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuration Manager, see [Deploy OneDrive apps by using Microsoft Endpoint Configuration Manager](deploy-on-windows.md).
 
@@ -509,7 +509,7 @@ To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuratio
 
 Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the Microsoft Endpoint Configuration Manager site. For detailed info about these prerequisites and how to prepare a Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/configmgr/core/clients/deploy/prepare-to-deploy-mac-clients/). When you've completed the prerequisites, you can deploy applications to Macs by completing the steps described in [Create Mac computer applications with Configuration Manager](https://docs.microsoft.com/configmgr/apps/get-started/creating-mac-computer-applications). For info about configuring the OneDrive sync app for macOS, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
 
-## Manage OneDrive
+## Manage OneDrive for Business
 
 The tools and technologies you use to manage OneDrive are based on the individual management task you want to perform. The following table shows the three primary categories to consider when managing OneDrive and the technologies and methods available for that category.
 
@@ -520,7 +520,7 @@ The tools and technologies you use to manage OneDrive are based on the individua
 |App updates|Update the OneDrive sync app or mobile apps|MDM (for example, Intune)<br>Microsoft Endpoint Configuration Manager<br>Group Policy<br>OneDrive admin center<br>Manually|
 |Sync app settings|Configure the sync app update ring, DLP policies, and other device or app restrictions.|MDM (for example, Intune)<br>Microsoft Endpoint Configuration Manager<br>Group Policy<br>Manually|
 
-## Manage OneDrive by using the OneDrive admin center
+## Manage OneDrive for Business by using the OneDrive admin center
 
 The OneDrive admin center [https://admin.onedrive.com](https://admin.onedrive.com) in Office 365 enables you to manage OneDrive settings and device access from one central location. Some settings in the OneDrive admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the OneDrive admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the OneDrive admin center.
 
@@ -541,7 +541,7 @@ Settings in the OneDrive admin center are grouped into six categories:
 -   **Notifications** - On the **Notifications** page, you define when OneDrive owners should receive notifications about sharing or accessing their data. For info about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
 
-## Manage OneDrive settings by using Intune
+## Manage OneDrive for Business settings by using Intune
 
 Unlike Windows, OneDrive doesn't have a configuration service provider. Therefore, to use Intune to configure OneDrive settings, you must deploy the setting's corresponding registry key and value by using a PowerShell cmdlet. Read [Use Group Policy to control OneDrive sync app settings](use-group-policy.md) for a list of settings and their corresponding registry values; then, construct a PowerShell script using the following cmdlet syntax:
 
@@ -553,7 +553,7 @@ where \$Path is the full path to the subkey to which you want to add a value to 
 
 Save the PowerShell script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](/intune/intune-management-extension/) for instructions on how to deploy the PowerShell script in your environment.
 
-### Manage OneDrive updates by using Intune
+### Manage OneDrive for Business updates by using Intune
 
 OneDrive is updated through Windows Update in two waves. Out of the box, OneDrive sync apps are in the first wave, which means that they receive updates as soon as they're published. The second wave receives those same updates several weeks later. To configure Windows devices to be in the second wave, you must configure the **EnableEnterpriseUpdate** entry by using the following command:
 
@@ -563,24 +563,24 @@ New-ItemProperty -Path 'HKCU:\SOFTWARE\Microsoft\OneDrive' -Name 'EnableEnterpri
 
 Save the script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](/intune/intune-management-extension/) for instructions on how to deploy the PowerShell script in your environment.
 
-### Manage OneDrive by using third-party MDM tools
+### Manage OneDrive for Business by using third-party MDM tools
 
 Intune isn't the only MDM option you can use to manage OneDrive apps and settings. For info about managing OneDrive for Windows 10 by using VMware AirWatch, see [Modern Management for Windows 10](https://www.air-watch.com/solutions/windows-10-management/). For info about managing OneDrive for Windows 10 by using MobileIron, see [Windows 10 in the Enterprise](https://www.mobileiron.com/solutions/multi-os-management/windows-10).
 
-## Manage OneDrive by using Group Policy
+## Manage OneDrive for Business by using Group Policy
 
 You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For info, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
 
 
-## Manage OneDrive using Microsoft Endpoint Configuration Manager
+## Manage OneDrive for Business using Microsoft Endpoint Configuration Manager
 
 Because Windows devices that you use Microsoft Endpoint Configuration Manager to manage are either domain joined (and therefore managed in Active Directory) or administered through Intune, the role of Configuration Manager in managing OneDrive settings is limited. When using Configuration Manager to manage OneDrive, Microsoft recommends using either Group Policy or Intune, depending on whether the device is domain joined.
 
 Configuration Manager can manage OneDrive updates and configuration alongside other updates in your environment, such as for Windows and Office applications.
 
-### Manage OneDrive updates using Microsoft Endpoint Configuration Manager
+### Manage OneDrive for Business updates using Microsoft Endpoint Configuration Manager
 
 Depending on where the OneDrive client originated—as part of an Office package, Windows 10, or as a stand-alone installation—there are two primary methods for using Configuration Manager to manage OneDrive updates:
 
