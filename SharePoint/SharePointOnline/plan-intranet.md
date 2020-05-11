@@ -110,10 +110,10 @@ To help decide which initiative to address first, work with the business leaders
 
 |**Initiative**|**Key content**|**Business owner**|**System success metric**|**Business success metric**|
 |:------------|:-----------------|:-----------------|
-|Educate employees about benefits (Benefits site)|Announcements and training videos|HR|News post views, Training video views|Help requests are reduced by x%|
-|Weekly news post by a senior leader|Streaming events and formal training|Engineering|Training content produced for all aspects of coding excellence, Monthly streaming events|Training completed successfully by x% of engineering staff|
-|Foster positive employee agreement about company strategy (Executive Leadership Yammer Community)|News posts, streaming events, Yammer conversations|HR|Ongoing monthly activity posts by leadership and comments by employees|Yammer conversations show positive sentiment, Comments addressed within 24 hours – “no question/comment left behind”, x% increase in employee satisfaction scores for executive communications|
-|Improve timeliness consistency in proposal development (Marketing site)|Company business value slides, Proposal templates|Marketing|Slide downloads and sales team alignment|x% reduction in the time to create proposals|
+|Educate employees about benefits (Benefits site)|- Announcements <br> - Training videos|HR|- News post views <br> - Training video views|Help requests are reduced by x%|
+|Weekly news post by a senior leader|- Streaming events <br> - Formal training|Engineering|- Training content produced for all aspects of coding excellence <br> - Monthly streaming events|Training completed successfully by x% of engineering staff|
+|Foster positive employee agreement about company strategy (Executive Leadership Yammer Community)|News posts <br> - Streaming events <br> - Yammer conversations|HR|Ongoing monthly activity posts by leadership and comments by employees|- Yammer conversations show positive sentiment <br> - Comments addressed within 24 hours – “no question/comment left behind” <br> - x% increase in employee satisfaction scores for executive communications|
+|Improve timeliness consistency in proposal development (Marketing site)|- Company business value slides <br> - Proposal templates|Marketing|- Slide downloads <br> - Sales team alignment|x% reduction in the time to create proposals|
 
 ## Choose pilot scenarios
 
@@ -149,9 +149,9 @@ After you have compiled this information, create a design brief to help map out 
 |Scenario|Leadership site: One-stop site for employees to hear from company leadership, learn the company's goals, and hear the latest news from customer meetings and industry events.|
 |Users|All company employees.|
 |Value|Increase employee awareness and alignment with company strategy and business initiatives.|
-|User journey|News post is sent to the company announcing a leadership Q&A meeting; Allan goes to the leadership portal to watch the event live; Allan uses Yammer to ask a question at the meeting; Allan shares the recording link with coworkers.|
-|Metrics|Live event views; Event recording views; Yammer engagement|
-|Stretch goals|Continued Yammer engagement; Improving employee sentiment (survey)|
+|User journey|- News post is sent to the company announcing a leadership Q&A meeting <br> - Allan goes to the leadership portal to watch the event live <br> - Allan uses Yammer to ask a question at the meeting <br> - Allan shares the recording link with coworkers.|
+|Metrics|- Live event views <br> - Event recording views <br> - Yammer engagement|
+|Stretch goals|- Continued Yammer engagement <br> - Improving employee sentiment (survey)|
 
 ## Choose solution components
 
