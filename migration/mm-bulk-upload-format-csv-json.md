@@ -42,7 +42,6 @@ This example shows how it would appear in a .txt file.
 ```
 Source,SourceDocLib,SourceSubFolder,TargetWeb,TargetDocLib,TargetSubFolder
 C:\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
-https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrarySubfolder_name,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
 
 ```
 
@@ -97,7 +96,7 @@ As with the CSV files, the minimum required values are Source, Source DocLib, Ta
 {
   "Tasks": [
     {
-      "SourcePath": "D:\\MigTest",
+      "SourcePath": \\contoso\fileshare\MigTest",
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
       "TargetList": "Documents",
       "TargetListRelativePath": "subfolder"
