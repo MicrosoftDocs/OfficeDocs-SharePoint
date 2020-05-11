@@ -24,7 +24,7 @@ description: "This article explains the factors that influence migration speed a
 >[!Important]
 >Many SharePoint Online and OneDrive customers run business-critical applications against the service that run in the background.  These include content migration, Data Loss Prevention (DLP), and backup solutions.  During these unprecedented times, we are taking steps to ensure that SharePoint Online and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
 >
->In support of this objective, we have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours.  You should expect that these apps will achieve very limited throughput during these times.  However, during evening and weekend hours for the region, the service will be ready to process a significantly higher volume of requests from background apps.
+>In support of this objective, we have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours.  You should expect that these apps will achieve very limited throughput during these times.  However, **during evening and weekend hours** for the region, the service will be ready to process a significantly higher volume of requests from background apps.
 
 >[!Important]
 >**Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Opening a support ticket will not lift throttle. See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section below for additional information.
@@ -34,11 +34,11 @@ This article explains the factors that influence performance when migrating cont
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.
 
-Currently, Microsoft's [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) as well as several third party vendor tools utilize the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Regardless of which migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
+Currently, Microsoft's [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
 
 ## Before migration
 
-Planning is the key to optimizing your migration.  Determine what content you need to migrate,  prioritize when the content needs to be migrated, and decide on what the optimal migration infrastructure should be.
+Planning is the key to optimizing your migration.  Determine what content you need to migrate, prioritize when the content needs to be migrated, and decide on what the optimal migration infrastructure should be.
 
 ### I. Scan the source
 
@@ -47,7 +47,7 @@ The first rule of a good migration is to know your source; evaluate and triage y
 ### II. Package the content
 This step is where the tool creates a proper package for the content to be imported into the cloud. This step is automated in SPMT and in most third-party tools. 
 
-**Package size.** To improve migration throughput, we recommend that you package at least 250 files per transfer. For the transfer size we recommend a minimum of 100MB and less than 250MB per package. This will result in a faster upload speed to Azure and leverages the scale capabilities of the migration API.
+**Package size.** To improve migration throughput, we recommend that you package at least 250 files per transfer. For the transfer size, we recommend a minimum of 100 MB and less than 250 MB per package. Keeping within these guidelines will result in a faster upload speed to Azure and leverages the scale capabilities of the migration API.
 
 The following table provides estimates of the type of speed you may achieve based on the types of content you are migrating.  
 
@@ -55,8 +55,8 @@ The following table provides estimates of the type of speed you may achieve base
 |**Type of metadata**|**Examples**|**Maximum**|
 |:-----|:-----|:-----|
 |Light|ISO files, video files |2 TB/day|
-|Medium |List items, Office files (~1.5MB)|1 TB/day|
-|Heavy|List items with custom columns, small files (~50kb)|250 GB /day|
+|Medium |List items, Office files (~1.5 MB)|1 TB/day|
+|Heavy|List items with custom columns, small files (~50 kb)|250 GB /day|
 
 
 - Large file size migrates faster than smaller ones. Small file size can result in larger overhead and processing time which directly impacts the performance.
