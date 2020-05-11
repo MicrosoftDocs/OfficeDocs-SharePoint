@@ -262,7 +262,7 @@ This is an aggregate of all the task failure reports. This will only be generate
 
 ### Performance report
 
-This report provides scores ranging from 1 to 100. The greater the number, the higher the speed. These scores cannot predict how fast the migration will perform, but they can help identify areas that could be impacting the migration performance.
+This report provides scores ranging from 1 to 100. The greater the number, the higher the speed. While these scores cannot predict how fast the migration will perform, they can help identify areas that could be impacting your migration performance.
 
 |**Column**|**Recommendation**|
 |:-----|:-----|:-----|
