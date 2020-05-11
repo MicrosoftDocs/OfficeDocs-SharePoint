@@ -1,7 +1,6 @@
 ﻿
-# [SharePoint](sharepoint-online.yml)
+# [SharePoint](introduction.md)
 ## [Get started]()
-### [Introduction](introduction.md)
 ### [SharePoint admin role](sharepoint-admin-role.md)
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
