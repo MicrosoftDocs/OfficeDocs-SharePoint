@@ -259,13 +259,3 @@ This is an aggregate of all the task failure reports. This will only be generate
 |Destination structure ID  <br/> |ID when available.  <br/> |
 |Time stamp  <br/> |The time at which the action occurred.  <br/> |
    
-### Performance report
-
-This report is based on the performance scores and guidance on how to address bottleneck. The scores are calculated by several factors. The scores range from 1 to 100; the greater the number, the higher the speed. These scores cannot predict how fast the migration will perform, but they can help identify bottlenecks by showing those areas with the slowest speed.
-
-|**Column**|**Description**|
-|:-----|:-----|
-|Reading source speed score<br/> |A low score could indicate issues reading the data source. This could mean that either the source computer does not have good disk performance or that the bandwidth between your source and SPMT is limited. <br/> |
-|Local disk performance score<br/> |A low score could indicate that the disk of the computer on which SPMT is running has anti-virus software or has shared disk throughput. <br/> |
-|Uploading speed score  <br/> |A low score could indicate that the network performance is poor. <br/> |
-|SPO throughput score <br/> |A low score could indicate that SharePoint online is handling the migration slowly, possibly from the SPO server side. <br/> |
