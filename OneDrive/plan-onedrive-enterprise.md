@@ -576,7 +576,7 @@ You can use Group Policy to manage OneDrive settings for domain-joined computers
 
 ## Manage OneDrive for Business using Microsoft Endpoint Configuration Manager
 
-Because Windows devices that you use Microsoft Endpoint Configuration Manager to manage are either domain joined (and therefore managed in Active Directory) or administered through Intune, the role of Configuration Manager in managing OneDrive settings is limited. When using Configuration Manager to manage OneDrive, Microsoft recommends using either Group Policy or Intune, depending on whether the device is domain joined.
+Because Windows devices that you use Microsoft Endpoint Configuration Manager to manage are either domain joined (and therefore managed in Active Directory) or administered through Intune, the role of Configuration Manager in managing OneDrive settings is limited. When using Configuration Manager to manage OneDrive, we recommend using either Group Policy or Intune, depending on whether the device is domain joined.
 
 Configuration Manager can manage OneDrive updates and configuration alongside other updates in your environment, such as for Windows and Office applications.
 
