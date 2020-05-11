@@ -96,7 +96,7 @@ As with the CSV files, the minimum required values are Source, Source DocLib, Ta
 {
   "Tasks": [
     {
-      "SourcePath": "D:\\MigTest",
+      "SourcePath": \\contoso\fileshare\MigTest",
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
       "TargetList": "Documents",
       "TargetListRelativePath": "subfolder"
