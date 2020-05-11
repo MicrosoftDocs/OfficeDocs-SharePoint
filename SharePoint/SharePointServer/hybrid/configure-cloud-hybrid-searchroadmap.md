@@ -93,7 +93,10 @@ On the application server that hosts the SharePoint Server Central Administratio
   
 1. Log on to the console as a farm administrator.
     
-2. Connect to Microsoft 365 as a global admin.
+2. Connect to Office 365 as one of the following roles:
+   - Global Administrator
+   - Application Administrator
+   - Cloud Application Administrator
     
 3. Navigate to [https://go.microsoft.com/fwlink/?linkid=867176](https://go.microsoft.com/fwlink/?linkid=867176) to download, install, and start the Hybrid Picker wizard. 
     
@@ -126,15 +129,15 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 4. When prompted, enter:
     
-  - The host name of the search server in SharePoint Server.
+   - The host name of the search server in SharePoint Server.
     
-  - If you've planned highly available search, the host name of the second search server.
+   - If you've planned highly available search, the host name of the second search server.
     
-  - The Search service account in this format: domain\username.
+   - The Search service account in this format: domain\username.
     
-  - A name of your choice for the cloud SSA.
+   - A name of your choice for the cloud SSA.
     
-  - The name of the database server in SharePoint Server.
+   - The name of the database server in SharePoint Server.
     
 5. Verify that you see the message that the cloud SSA was successfully created.
     
@@ -170,29 +173,32 @@ On the application server that hosts the SharePoint ServerCentral Administration
     
 5. If your environment is Microsoft 365 Apps for business, Office 365 Enterprise, Office 365 Education, Office 365 operated by 21Vianet, Office 365 Germany, or Office 365 US Government Defense, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
     
-  ```
-  Import-Module MSOnline
-  ```
+   ```
+   Import-Module MSOnline
+   ```
 
-  ```
-  .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd>
-  ```
+   ```
+   .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd>
+   ```
 
-    **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and ** CloudSsaID ** is the name of the cloud SSA that you created earlier. 
+    **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and **CloudSsaID** is the name of the cloud SSA that you created earlier. 
     
 6. If your environment is Office 365 US Government Communication, open an elevated PowerShell prompt, and run the **OnBoard-CloudHybridSearch.ps1** PowerShell script as follows: 
-    
-  ```
-  Import-Module MSOnline
-  ```
+     
+   ```
+   Import-Module MSOnline
+   ```
 
-  ```
-  .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd> -IsPortalForUSGovernment $true
-  ```
+   ```
+   .\OnBoard-CloudHybridSearch.ps1 -PortalUrl <SPOTenantPortalUrl> -CloudSsaId <CloudSSANameCreatd> -IsPortalForUSGovernment $true
+   ```
 
-    **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and ** CloudSsaID ** is the name of the cloud SSA that you created earlier. 
+   **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and **CloudSsaID** is the name of the cloud SSA that you created earlier. 
     
-7. When prompted, enter the global admin credentials for your Microsoft 365 organization.
+7. When prompted, use one of the following admin roles to sign in your Office 365 tenant:
+   - Global Administrator
+   - Application Administrator
+   - Cloud Application Administrator
     
 ## Set up search architecture in SharePoint Server for cloud hybrid search
 <a name="BKMK_SetupSearchArch"> </a>
@@ -285,11 +291,11 @@ After the full crawl completes, verify that your on-premises content shows up in
   
 1. Log in to Microsoft 365 with your work or school account. Make sure that:
     
-  - You have access to the validation Search Center.
+   - You have access to the validation Search Center.
     
-  - You have access to the content in the content source that you have crawled. If you performed step 1 of this roadmap, you should have access.
+   - You have access to the content in the content source that you have crawled. If you performed step 1 of this roadmap, you should have access.
     
-  - Your organization hasn't assigned user access rights to the on-premises content by using one of the default security groups in Windows Server Active Directory (AD), for example the Domain Users security group, see [Plan cloud hybrid search for SharePoint](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint).
+   - Your organization hasn't assigned user access rights to the on-premises content by using one of the default security groups in Windows Server Active Directory (AD), for example the Domain Users security group, see [Plan cloud hybrid search for SharePoint](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint).
     
 2. Search for **IsExternalContent:1** in the validation Search Center. The results you get should show content from the on-premises content source that you've crawled. 
     
