@@ -195,7 +195,7 @@ On the application server that hosts the SharePoint ServerCentral Administration
 
    **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint Online portal, and **CloudSsaID** is the name of the cloud SSA that you created earlier. 
     
-7. When prompted, use one of the following admin rules to sign in your Office 365 tenant:
+7. When prompted, use one of the following admin roles to sign in your Office 365 tenant:
    - Global Administrator
    - Application Administrator
    - Cloud Application Administrator
