@@ -57,7 +57,7 @@ For the best performance, reliability, and user experience, follow these "ideal 
 Windows users are familiar and comfortable with saving files to their Desktop, Documents, and Pictures folders from years of developing it as a habit. When you redirect and move these folders to OneDrive, users can continue saving files to these locations and they're backed up and available from any device. For more info, see [Redirect known folders](redirect-known-folders.md).
 
 - **On new PCs, enable the silent policy**. [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
-- **On existing PCs, gradually enable the prompt and/or silent policy**. [About the Known Folder Move Group Policy objects](use-group-policy.md#about-the-known-folder-move-group-policy-objects)
+- **On existing PCs, gradually enable the prompt and/or silent policy**. [About the Known Folder Move Group Policy objects](ideal-state-configuration.md#about-the-known-folder-move-group-policy-objects)
 
 
 
