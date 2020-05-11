@@ -35,7 +35,7 @@ There are six columns needed in your CSV file -- the first three are your source
   
 Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.
   
-![Sample format when using a CSV file](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
+![Sample format when using a CSV file](media/mm-sample-csv.png)
   
 This example shows how it would appear in a .txt file.
   
@@ -60,9 +60,9 @@ The following example uses Excel to create the CSV file.
     
   - **Column A:** Enter a file share path.  *Required.* 
     
-  - **Column B:** Leave this column **blank**. This column applies only to SharePoint Server which isn't supported in this release. 
+  - **Column B:** Leave this column **blank**. This column does not apply to file share migration. 
     
-  - **Column C:** Leave this column **blank**. This column applies only to SharePoint Server which isn't supported in this release. 
+  - **Column C:** Leave this column **blank**. This column does not apply to file share migration. 
     
   - **Column D:** Enter the SharePoint Online site URL where the files are to be migrated.  *Required.* 
     
