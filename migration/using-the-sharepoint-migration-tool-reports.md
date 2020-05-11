@@ -265,8 +265,8 @@ This is an aggregate of all the task failure reports. This will only be generate
 This report is based on the performance scores and guidance on how to address bottlenecks in your migration. The scores are calculated by several factors, and range from 1 to 100. The greater the number, the higher the speed. These scores cannot predict how fast the migration will perform, but they can help identify areas that could be impacting the migration performance.
 
 |**Column**|**Description**|
-|:-----|:-----|
-|Reading source speed score<br/> |A low score could indicate issues reading the data source. This could mean that either the source computer does not have good disk performance or that the bandwidth between your source and SPMT is limited. <br/> |
-|Local disk performance score<br/> |A low score could indicate that the disk of the computer on which SPMT is running has anti-virus software or has shared disk throughput. <br/> |
-|Uploading speed score  <br/> |A low score could indicate that the network performance is poor. <br/> |
-|SPO throughput score <br/> |A low score could indicate that SharePoint online is handling the migration slowly, possibly from the SPO server side. <br/> |  
+|:-----|:-----|:-----|
+|Reading source speed score<br/> |Improving the speed at which the source can be read will be most beneficial to improving performance.  Learn more at [Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-speed-at-which-the-source-can-be-read)<br/> |
+|Local disk performance score<br/> |Improving the migration machine speed will be most beneficial. Learn more: [Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-migration-computer-speed) <br/> |
+|Uploading speed score  <br/> |Improving your connectivity to Office 365 and Azure will be most beneficial.  Learn more: [Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/spmt-performance-guidance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
+|SPO throughput score <br/> |Performing migration following our published guidance will be most beneficial.  Learn more: [Improving your migration performance when using SPMT](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) <br/> |
