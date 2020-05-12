@@ -31,8 +31,12 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 
 ## Before you begin
-
-- Make sure all system prerequisites have been installed on your local computer or VM before running the Migration Manager agent setup file
+ 
+|**Check**|**Do**|
+|:-----|:-----|
+|[Prerequisites](#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
+|[Government cloud support](#government-cloud-support)|If you are on the worldwide consumer cloud or GCC government cloud, confirm your configuration file is set correctly. |
+|[Required Endpoints](#required-endpoints)|Review the required Endpoints|
 
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
