@@ -57,7 +57,7 @@ Your information architecture includes four primary elements:
 
 Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain. In the modern SharePoint experience, sub-sites are not recommended. In the new “flat” world of modern SharePoint, plan to create one site for each discrete topic or unit of work. This will allow you to easily distribute the management and accountability for each content collection and support your ability to move sites around in your navigational architecture without breaking links. Moreover, when a topic is no longer needed, you can easily archive or delete a site with minimal impact.
 
-In the new flat world, you have several ways to connect sites and content to each another as part of your information architecture toolkit:
+In the new flat world, you have several ways to connect sites and content to each other as part of your information architecture toolkit:
 
 - Use “roll up” web parts such as [News](https://support.office.com/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165) or [Highlighted Content](https://support.office.com/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd) or [Sites](https://support.office.com/article/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d) to dynamically surface content from other sites in an existing site.
 - Use inline hyperlinks to provide additional detail about a topic to provide more information to your reader (as demonstrated in the previous bullet).
@@ -80,7 +80,7 @@ Each site can belong to only one hub at a time, but you can associate hubs toget
 
 ## Home site
 
-A home site is a [communication site](https://support.office.com/article/what-is-a-sharepoint-communication-site-94a33429-e580-45c3-a090-5512a8070732?ui=en-US&rs=en-001&ad=US) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. For more info, see [Set up a home site for your organization](https://docs.microsoft.com/sharepoint/home-site).
+A home site is a [communication site](https://support.office.com/article/94a33429-e580-45c3-a090-5512a8070732) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. For more info, see [Set up a home site for your organization](https://docs.microsoft.com/sharepoint/home-site).
 
 ## Page architecture
 
@@ -92,7 +92,7 @@ Your site will generally include three types of pages:
 - **Navigation pages** that provide options or summary information for the reader and help them get to a decision point about where they want to go next.
 - **Destination pages** that are the end point of the reader’s journey. This is where you will present information to read, print, or download. If you have a lot of information on your destination page or you want to provide supplemental explanations for detailed topics, you can create an ancillary page.
 
-Because we know that most readers do not read every word on a web page or even scroll to the bottom, you need to pay attention to how you present information on each and every page. Make sure that you put the most important information – the information that your readers must have for your communication to be successful – at the top of the page. As the page continues, you can add additional information that is helpful, but not crucial. Think of this as writing with your summary or conclusion up front, instead of at the end. Use sections, headings, and bullets to make your pages easier to read. For more info, see [Add sections and columns on SharePoint modern page](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899?ui=en-us&rs=en-us&ad=us).
+Because we know that most readers do not read every word on a web page or even scroll to the bottom, you need to pay attention to how you present information on each and every page. Make sure that you put the most important information – the information that your readers must have for your communication to be successful – at the top of the page. As the page continues, you can add additional information that is helpful, but not crucial. Think of this as writing with your summary or conclusion up front, instead of at the end. Use sections, headings, and bullets to make your pages easier to read. For more info, see [Add sections and columns on SharePoint modern page](https://support.microsoft.com/office/fc491eb4-f733-4825-8fe2-e1ed80bd0899).
 
 ## Metadata architecture
 
