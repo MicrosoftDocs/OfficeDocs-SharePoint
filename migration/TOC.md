@@ -26,6 +26,7 @@
 ### [Reports](mm-reports.md)
 ### [FAQs](mm-faqs.md)
 ### [Troubleshooting](mm-troubleshoot.md)
+### [Performance guidance for Migration Manager](mm-performance.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Mover Migration Guides
