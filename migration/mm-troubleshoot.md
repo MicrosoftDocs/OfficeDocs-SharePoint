@@ -22,8 +22,22 @@ description: "Troubleshoot common errors in Migration Manager."
 
 This article describes some issues and errors that you may encounter when using Migration Manager, and how to help you resolve them.
 
->[!Note]
-> For help on Migration Manager agent installation issues, see: [Troubleshooting Migration Manager installation issues](https://review.docs.microsoft.com/sharepointmigration/mm-install-issues)
+## Check prerequisites and settings
+
+Make sure you have met the prerequisites for agent installation, and have reviewed the required endpoints. Government cloud customers should confirm they have set their configuration properly.
+
+- [Agent installation prerequisites](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#prerequisites)
+
+- [Required endpoints](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#required-endpoints)
+
+- [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#government-cloud-support)
+
+
+### Migration Mananger agent error messages
+|Message|Do this|
+|-----|-----|
+|*Current user does not have access to source file share*|Make sure the source file share is a netowrk file share and is shared with the current user.|
+|*The source file share does not exist*|Make sure the source file share is an existing network file share and is shared with current user.|
 
 ## Destination site URL issues
 
@@ -37,8 +51,6 @@ For bulk task upload:  You can specify both the site URL and the document librar
 
 |Message|Do this|
 |-----|-----|
-|*Current user does not have access to source file share*|Make sure the source file share is a netowrk file share and is shared with the current user.|
-|*The source file share does not exist*|Make sure the source file share is an existing network file share and is shared with current user.|
 |*Invalid source folder*|Confirm the path you entered is correct and follows the proper format</br></br>Confirm your have read access to the folder.|
 |*The site cannot be created or updated*|Confirm that you have permissions to create the site and that the URL is valid</br></br>If the site exists, confirm you are the site collection administrator</br></br>If it still fails, create the site manually and point the migration tool to this newly created site.|
 |*Scan file failure: The folder name is invalid*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|
@@ -84,7 +96,7 @@ For bulk task upload:  You can specify both the site URL and the document librar
 |0x02010010|Make sure the source list and target list have the same template. |
 |0x0204000D|All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed during migration. Restart your migration.|
 |0x02040012|The temporary storage on your local computer is too low.  Migration Manager caches the package on the working folder. Expand your temporary storage and retry.|
-|0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissiosn. aRetry your migration.|
+|0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissions. aRetry your migration.|
 |0x02050001|Local storage file is corrupted.  The working folder was touched or modified during the migration.  Retry your migration.|
 |0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the Migration Manager working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
 |0x02040009|The package can’t be created because the directory cannot be found.  All files and folders in the Migration Manager working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
@@ -99,6 +111,6 @@ For bulk task upload:  You can specify both the site URL and the document librar
 |0x01710009|A failure occured due to job end failures; some items failed in the package. Restart migration.|
 |0x01710009|Errors or timeout for Server Processing the file: Not all the items in the package have been migrated.|
 |0x01610001|The Azure container is expired. Retry migration task.|   
-|0x01710006|Errors or timeout for Server Processing the file: Job Fatal Error.|
-|0x01710004|Errors or timeout for Server Processing the file. Fail to lookup folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
+|0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
+|0x01710004|Errors or timeout for server processing the file. Fail to lookup folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
