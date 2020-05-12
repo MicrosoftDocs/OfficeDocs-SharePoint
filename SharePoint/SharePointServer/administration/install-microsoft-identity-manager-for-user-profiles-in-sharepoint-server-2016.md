@@ -91,7 +91,7 @@ During these steps, you'll actually install three different elements essential t
 5. Next, you type the credentials you want to use to run the MIM service. You won't need to configure extra permissions or policies in SQL server for this account (whether SQL Server is local or remote).
     
     > [!NOTE]
-    > If you're installing to a remote instance of SQL Server, the SQL Server Native Client must already installed on the MIM server before you install the MIM Synchronization Service. 
+    > If you're installing to a remote instance of SQL Server, the SQL Server Native Client must already be installed on the MIM server before you install the MIM Synchronization Service. 
   
 6. Next, set up the security groups that are needed for MIM to function. You can leave these as default if you wish, but in that case your security groups will be created on the local machine were MIM is being installed. If you have more than one machine configured to run MIM, you may want to create these security groups in Active Directory (AD). Do this in the same domain as the machines where MIM is configured, and enter the group names into this page of the wizard.
     
