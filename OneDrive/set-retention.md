@@ -10,6 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.custom:
 - 'O365E_ODACStorage'
+- 'seo-marvel-apr2020'
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
@@ -39,7 +40,7 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
 
 3. Click **Save**.
 
-## See also
+## Related topics
 
 [Delete a user from your organization](/office365/admin/add-users/delete-a-user)
   

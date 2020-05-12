@@ -578,7 +578,7 @@ Some list view options may prevent search list views with more than 5,000 items 
 
 Authorizing Box as an Administrator or a Co-Administrator is straightforward. To authorize or add a Multi-User Box account as a connector, follow these simple steps:
 
-1. Navigate to **Add Mover as a Custom Application**.
+1. Navigate to **[Add Mover as a Custom Application](https://app.box.com/master/custom-apps)**.
 2. Select **Authorize New App**.</br>
 ![Box coadmin auth](media/box_coad_auth_01.png)
 3. Enter the API Key: `7ypzdr66s3m80h3hutop34u7yml8928x`
@@ -608,7 +608,7 @@ You should now be connected to Box with Co-Admin authorization!
 
 1. Under **Enterprise Settings**, navigate to **Apps**. Here is a shortcut link: https://app.box.com/master/settings/openboxBox </br></br>
 ![enterprise settings](media/box-enterprise-settings.png)</br></br>
-2. Ensure **Publish Applications**: In the **Third Party Applications** page, uncheck **Disable published third party apps by default**.</br></br>
+2. In the **Third Party Applications** section, ensure "Publish Applications: Disable published third party apps by default" is unchecked.</br></br>
 ![box third party settings](media/box-third-party-settings.png)</br></br>
 3. Under **Individual Application Controls**, navigate to our app.
 4. Select **Available**.</br></br>
