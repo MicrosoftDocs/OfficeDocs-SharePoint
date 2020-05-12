@@ -42,7 +42,6 @@ Suggestions:
 -  Change the Migration Manager working folder setting to point to a different physical disk (if there is one) on your computer or VM running Migration Manager.
 
 
-
 ## Improving the migration computer speed
 Migration Manager executes a heavy load of data exchanging during the migration. Therefore the performance of the local disk of the computer or VM running the Migration Manager agent is important.
 
