@@ -33,7 +33,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 - [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#government-cloud-support)
 
 
-### Migration Mananger agent error messages
+## Migration Mananger agent error messages
 |Message|Do this|
 |-----|-----|
 |*Current user does not have access to source file share*|Make sure the source file share is a netowrk file share and is shared with the current user.|
