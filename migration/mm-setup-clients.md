@@ -63,7 +63,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
 |Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |</br>
 
-
+</br></br>
 ### Government cloud support
 
 If you are on a **worldwide consumer cloud** or **GCC** government cloud, you must first take these steps:
@@ -71,6 +71,7 @@ If you are on a **worldwide consumer cloud** or **GCC** government cloud, you mu
 1. Open microsoft.sharepoint.migration.common.dll.config.
 2. Change the value of **SPOEnvironmentType** to **0** if you use the Worldwide consumer cloud or GCC.
 3. Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
+</br></br>
 
 ### Required endpoints
 
