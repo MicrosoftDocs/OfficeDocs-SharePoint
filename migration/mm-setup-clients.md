@@ -64,9 +64,11 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |Network card|1 Gbps|High speed internet connection|
 |Operating system|Windows Server 2012 R2 or Windows 10 agent|Windows Server 2012 R2 or Windows 10 agent|
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
-|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |</br>
+|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |
+
 
 </br></br>
+
 ### Government cloud support
 
 If you are on a **worldwide consumer cloud** or **GCC** government cloud, you must first take these steps:
@@ -74,7 +76,9 @@ If you are on a **worldwide consumer cloud** or **GCC** government cloud, you mu
 1. Open microsoft.sharepoint.migration.common.dll.config.
 2. Change the value of **SPOEnvironmentType** to **0** if you use the Worldwide consumer cloud or GCC.
 3. Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
-</br></br></br>
+</br></br>
+
+### Required endpoints
 
 |**Required endpoints**|**For**|
 |:-----|:-----|
@@ -88,7 +92,7 @@ If you are on a **worldwide consumer cloud** or **GCC** government cloud, you mu
 |https://*.<spam><spam>sharepoint<spam><spam>.com|Destination for migration|
 |https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
 |https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
-</br></br></br>
+</br></br>
 
 
 ## Set up a single agent
