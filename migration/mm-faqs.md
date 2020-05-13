@@ -33,6 +33,8 @@ Answer:   Yes.
 **Question:**  Does the file share I am migrating need to be on a Windows computer?</br>
 Answer:    No.  As long as you can access the file share from the migration agent, you can migrate it.
 
+
+
 **Question:**  Is multi-factor authentication supported by Migration Manager?</br>
 Answer:    Microsoft multi-factor authentication is supported; however third party multi-factor authentication is not.
 
