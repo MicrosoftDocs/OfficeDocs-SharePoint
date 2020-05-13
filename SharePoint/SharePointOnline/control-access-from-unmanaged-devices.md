@@ -185,6 +185,6 @@ Blocking access and blocking download may impact the user experience in some app
 
 ## See also
 
-[Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/en-us/microsoft-365/enterprise/sharepoint-file-access-policies)
+[Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)
 
 [Control access to SharePoint Online and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
