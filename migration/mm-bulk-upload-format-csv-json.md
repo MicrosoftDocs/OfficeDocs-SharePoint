@@ -90,62 +90,23 @@ The following table explain the values needed in each column in your CSV file.
 
 The following example shows the JSON format used in migrating your data.
 
-As with the CSV files, the minimum required values are Source, Source DocLib, Target Web and Target DocLib.  
+As with the CSV files, the minimum required values are SourcePath, TargetPath and TargetList.  
 
 ```json
 {
   "Tasks": [
     {
-      "SourcePath": \\contoso\fileshare\MigTest",
+      "SourcePath": \\contoso\fileshare\dept1",
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
       "TargetList": "Documents",
-      "TargetListRelativePath": "subfolder"
+      "TargetListRelativePath": "dept1"
     },
     {
-      "SourcePath": "http://EXHB-1873",
+      "SourcePath": \\contoso\fileshare\dept2",
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
-      "Items": {
-        "Lists": [
-          {
-            "SourceList": "versionList",
-            "TargetList": "NewVersionList"
-          }
-        ],
-        "SubSites": []
-      }
-    },
-    {
-      "SourcePath": "http://EXHB-1873",
-      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
-      "Items": {
-        "Lists": [
-          {
-            "SourceList": "listVersion2",
-            "TargetList": "ListVersion2"
-          },
-          {
-            "SourceList": "listVersion3",
-            "TargetList": "ListVersion3"
-          }
-        ],
-        "SubSites": [
-          {
-            "SourceSubSitePath": "subSite",
-            "TargetSubSitePath": "targetSubSite",
-            "Lists": [
-              {
-                "SourceList": "testSubListB",
-                "TargetList": "TargetSubList"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "SourcePath": "http://EXHB-1873/subsite2",
-      "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com/targetSubSite2"
-    }
+      "TargetList": "Documents",
+      "TargetListRelativePath": "dept2"
+    },    
   ]
 }
 ```
