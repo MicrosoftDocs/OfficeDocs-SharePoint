@@ -26,24 +26,22 @@ This article describes some issues and errors that you may encounter when using 
 
 Make sure you have met the prerequisites for agent installation, and have reviewed the required endpoints. Government cloud customers should confirm they have set their configuration properly.
 
-- [Agent installation prerequisites](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#prerequisites)
+- [Agent installation prerequisites](https://review.docs.microsoft.com/sharepointmigration/mm-setup-clients#prerequisites)
 
-- [Required endpoints](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#required-endpoints)
+- [Required endpoints](https://review.docs.microsoft.com/sharepointmigration/mm-setup-clients#required-endpoints)
 
-- [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#government-cloud-support)
+- [Government cloud settings](https://review.docs.microsoft.com/sharepointmigration/mm-setup-clients#government-cloud-support)
 
 
 ## Agent error messages
 |Message|Do this|
 |-----|-----|
-|*Current user does not have access to source file share*|Make sure the source file share is a netowrk file share and is shared with the current user.|
-|*The source file share does not exist*|Make sure the source file share is an existing network file share and is shared with current user.|
+|*Current user does not have access to source file share*|Make sure the source file share is a network file share. Confirm that the Windows account associated with the agent has read permissions to the file share you want to migrate.|
+|*The source file share does not exist*|Make sure the source file share is an existing network file share. Confirm that the Windows account associated with the agent has read permissions to the file share you want to migrate.|
 
 ##  Destination site URL issues
 
-For an individual task:  You can only specify the site URL, but not the document and the folder.  The site always defaults to the documents library.
-
-For bulk task upload:  You can specify both the site URL and the document library folder.
+Make sure the site URL and document folder exists.
 
 
 
