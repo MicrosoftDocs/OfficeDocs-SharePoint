@@ -90,7 +90,7 @@ The following table explain the values needed in each column in your CSV file.
 
 The following example shows the JSON format used in migrating your data.
 
-As with the CSV files, the minimum required values are SourcePath, TargetPath and TargetList.  
+The minimum required values are SourcePath, TargetPath and TargetList.  
 
 ```json
 {
