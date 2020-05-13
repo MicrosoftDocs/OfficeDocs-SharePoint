@@ -40,7 +40,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
-</br></br>
+</br></br></br>
 ### Recommended practices
 
 - Determine how many VMs or computers you plan on using for your migration tasks. Identify these up front.
@@ -50,7 +50,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 - Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
 - Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
-</br></br>
+</br></br></br>
 ### Prerequisites
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
@@ -71,7 +71,7 @@ If you are on a **worldwide consumer cloud** or **GCC** government cloud, you mu
 1. Open microsoft.sharepoint.migration.common.dll.config.
 2. Change the value of **SPOEnvironmentType** to **0** if you use the Worldwide consumer cloud or GCC.
 3. Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
-</br></br>
+</br></br></br>
 
 ### Required endpoints
 
@@ -87,7 +87,7 @@ If you are on a **worldwide consumer cloud** or **GCC** government cloud, you mu
 |https://*.<spam><spam>sharepoint<spam><spam>.com|Destination for migration|
 |https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
 |https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
-
+</br></br></br>
 
 ## Set up a single agent
 
