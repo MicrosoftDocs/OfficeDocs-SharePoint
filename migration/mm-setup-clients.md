@@ -40,7 +40,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
-
+</br></br>
 ### Recommended practices
 
 - Determine how many VMs or computers you plan on using for your migration tasks. Identify these up front.
@@ -50,7 +50,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 - Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
 - Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
-
+</br></br>
 ### Prerequisites
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
