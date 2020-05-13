@@ -41,7 +41,7 @@ This example shows how it would appear in a .txt file.
   
 ```
 Source,SourceDocLib,SourceSubFolder,TargetWeb,TargetDocLib,TargetSubFolder
-C:\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
+\\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
 
 ```
 
