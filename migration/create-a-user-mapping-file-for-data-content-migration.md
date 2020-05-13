@@ -80,4 +80,6 @@ After you create your own user mapping file, upload it to the SharePoint Online 
 8. Under **Users** section in the **User mapping** box, select **Choose file**, and select your user mapping file.
 
 9. Select **Save**.
-    
+
+>[!Note]
+> It is not possible to map an AD group to a SharePoint group in the target site.  Currently it is also not possible to map a SharePoint group to a SharePoint group in SPMT.    
