@@ -76,9 +76,6 @@ If you are on a **worldwide consumer cloud** or **GCC** government cloud, you mu
 3. Double-click "microsoft.sharepoint.migrationtool.advancedapp.exe" to start SPMT.
 </br></br></br>
 
-
-### Required endpoints
-
 |**Required endpoints**|**For**|
 |:-----|:-----|
 |https://secure.<spam><spam>aadcdn.microsoftonline-p<spam><spam>.com|Authentication|
