@@ -21,15 +21,15 @@ Whether you're the organization intranet owners, an IT Professional or administr
 **Roadmap contents**:
 
 - Introduction to roles, tasks, and timelines
-- Key tasks for the [organizational intranet owners](#organizational-intranet-owners)
+- Key tasks for the [organization intranet owners](#organization-intranet-owners)
 - Key tasks for [IT professionals or administrators](#it-pros-and-admins)
 - Key tasks for [business owners and site owners](#business-owners-and-site-owners)
-- Key tasks for [content creators](#content-creators)
+- Key tasks for [content authors](#content-authors)
 - How to [get started](#get-started)
 
 **Who should use this roadmap?**
 
-- [Intranet owners](#intranet-owners) -  This is the person managing the overall direction and coordination of your organization's intranet.
+- [Organization intranet owners](#organization-intranet-owners) -  This is the person managing the overall direction and coordination of your organization's intranet.
 - [IT Pros and Admins](#it-pros-and-admins) - One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
 - [Business owners and site owners](#business-owners-and-site-owners) - The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
 - [Content authors](#content-authors) - The people creating and managing content on sites and pages.
@@ -79,12 +79,12 @@ Over the years, we have learned about what makes an intranet successful. These f
 
 |Your role|Planning tasks|Build tasks|Management tasks|
 |:--------|:-------------|:----------|:--------------------|
-|[Organization intranet owner](#organization-intranet-owner)|Strategy, branding, adoption, governance, information architecture, and change management|||
+|[Organization intranet owners](#organization-intranet-owners)|Strategy, branding, adoption, governance, information architecture, and change management|||
 |[IT / Admin](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, user training|Site creation, navigation, search, branding, publishing||
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit, and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content authors](#content-authors)|Content best practices, content, and site design|Create and maintain content, content collaboration|Update existing content, publish new content|
 
-## [Organization intranet owner](#organization-intranet-owner)
+## [Organization intranet owners](#organization-intranet-owners)
 
 The intranet owners work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit.
 
@@ -213,9 +213,9 @@ Video is a great way to communicate to the people in your organization for execu
 
 SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions) are managed through a set of roles within a site - owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Microsoft 365 groups. 
 
-*Start by -* Determining who needs access, who should not have access, and how you will grant access requests.
+*Start by* - Determining who needs access, who should not have access, and how you will grant access requests.
 
-*You'll know you're done when -* All site owners and user have access to the content they need, while securing confidential content when appropriate.
+*You'll know you're done when* - All site owners and user have access to the content they need, while securing confidential content when appropriate.
 
 #### Design the intranet portal page
 
