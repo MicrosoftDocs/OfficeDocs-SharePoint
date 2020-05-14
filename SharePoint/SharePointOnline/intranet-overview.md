@@ -22,7 +22,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 - Introduction to roles, tasks, and timelines
 - Key tasks for the [organization intranet owners](#organization-intranet-owners)
-- Key tasks for [IT professionals or administrators](#it-pros-and-admins)
+- Key tasks for [IT pros and admins](#it-pros-and-admins)
 - Key tasks for [business owners and site owners](#business-owners-and-site-owners)
 - Key tasks for [content authors](#content-authors)
 - How to [get started](#get-started)
@@ -30,7 +30,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 **Who should use this roadmap?**
 
 - [Organization intranet owners](#organization-intranet-owners) -  This is the person managing the overall direction and coordination of your organization's intranet.
-- [IT Pros and Admins](#it-pros-and-admins) - One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
+- [IT pros and admins](#it-pros-and-admins) - One or more IT and SharePoint administrators who will be responsible for managing the backend configuration and implementation for your organization's intranet.
 - [Business owners and site owners](#business-owners-and-site-owners) - The various stakeholders who will be responsible for creating and maintaining portions of the intranet.
 - [Content authors](#content-authors) - The people creating and managing content on sites and pages.
 
@@ -61,17 +61,16 @@ The new, modern experience in SharePoint is designed to be compelling, flexible,
 
 Over the years, we have learned about what makes an intranet successful. These factors can help accelerate the creation, adoption, and overall success of your intranet:
 
-> [!div class="checklist"]
-> * Ensure that your intranet goals are directly tied to key business outcomes.
-> * Have an executive sponsor and identify intranet champions.
-> * Establish KPIs that are regularly communicated from the project's start to finish.
-> * Design for simplicity and longevity.
-> * Involve your business owners and users to get feedback during all stages of the design process.
-> * Establish a governance plan that defines roles and responsibilities, guidelines, and best practices, compliance and retention, provisioning sites, and expectations for content management.
-> * Audit existing content to ensure quality and relevancy before migrating to a new intranet.
-> * Align your intranet with your organization brand and culture.
-> * Enable social connection that encourages communication, engagement, and collaboration.
-> * Train your content creators and your users.
+- Ensure that your intranet goals are directly tied to key business outcomes.
+- Have an executive sponsor and identify intranet champions.
+- Establish KPIs that are regularly communicated from the project's start to finish.
+- Design for simplicity and longevity.
+- Involve your business owners and users to get feedback during all stages of the design process.
+- Establish a governance plan that defines roles and responsibilities, guidelines, and best practices, compliance and retention, provisioning sites, and expectations for content management.
+- Audit existing content to ensure quality and relevancy before migrating to a new intranet.
+- Align your intranet with your organization brand and culture.
+- Enable social connection that encourages communication, engagement, and collaboration.
+- Train your content creators and your users.
 
 ## Introduction to roles, tasks, and timelines
 
@@ -80,7 +79,7 @@ Over the years, we have learned about what makes an intranet successful. These f
 |Your role|Planning tasks|Build tasks|Management tasks|
 |:--------|:-------------|:----------|:--------------------|
 |[Organization intranet owners](#organization-intranet-owners)|Strategy, branding, adoption, governance, information architecture, and change management|||
-|[IT / Admin](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, user training|Site creation, navigation, search, branding, publishing||
+|[IT pros / Admins](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, user training|Site creation, navigation, search, branding, publishing||
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit, and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content authors](#content-authors)|Content best practices, content, and site design|Create and maintain content, content collaboration|Update existing content, publish new content|
 
@@ -96,19 +95,20 @@ Choose one or more opportunities to start with and meet with the business owners
 
 As you plan and implement your intranet, keep in mind these key success factors:
 
-> [!div class="checklist"]
-> * For your intranet as a whole:
-    > * Have a sponsor for each initiative and an executive sponsor from the business for the intranet as a whole.
-    > * Ensure that your intranet goals are directly tied to key business goals.
-    > * Get a core team together to think about governance – make sure you align your governance decisions to business goals.
-    > * Align your intranet with your organization brand and culture.
-    > * Don’t assume you have to launch with a “big bang” – align communications and training with your launch plan.
+- For your intranet, as a whole:
 
-> * For each initiative:
-    > * Gather outcomes, not requirements – be sure to talk to site users, not just owners. 
-    > * Design to align to your organization standards – but allow the site “story” to dictate the navigation and page layouts.
-    > * Establish success goals for each site and review them regularly.
-    > * Test your proposed navigation with site visitors – make sure that visitors can easily get to their top tasks.
+- Have a sponsor for each initiative and an executive sponsor from the business for the intranet as a whole.
+- Ensure that your intranet goals are directly tied to key business goals.
+- Get a core team together to think about governance – make sure you align your governance decisions to business goals.
+- Align your intranet with your organization brand and culture.
+- Don’t assume you have to launch with a “big bang” – align communications and training with your launch plan.
+
+- For each initiative:
+
+- Gather outcomes, not requirements – be sure to talk to site users, not just owners. 
+- Design to align to your organization standards – but allow the site “story” to dictate the navigation and page layouts.
+- Establish success goals for each site and review them regularly.
+- Test your proposed navigation with site visitors – make sure that visitors can easily get to their top tasks.
 
 ### Key tasks:
 
@@ -128,18 +128,17 @@ Branding provides a way to align your intranet with your organizational culture.
 
 *You'll know you're done when* - You've determined the end-to-end look of the intranet from the home page to hubs to individual sites.
 
-## [IT pros and Admins](#it-pros-and-admins)
+## [IT pros and admins](#it-pros-and-admins)
 
 IT Pros and admins implement the needed platform integration steps needed by your business owners for their intranet portals - such as with databases or line of business applications. This may include content migration from existing systems. They also work with other stakeholders and the business to determine a governance strategy for the intranet and train people in the organization to use SharePoint and other tools to manage the intranet.
 
 As you plan and implement your intranet, keep in mind these key success factors:
 
-> [!div class="checklist"]
-> * Establish a governance plan that supports business needs as well as your retention, security, and compliance goals.
-> * Make sure all site owners, content authors, and visitors understand how governance applies to their roles.
-> * Clean up existing content prior to migration. Only migrate content that is relevant, current, and supports the outcome goals of each site.
-> * Enable social connection that encourages communication, engagement, and collaboration.
-> * Train your content authors and your users.
+- Establish a governance plan that supports business needs as well as your retention, security, and compliance goals.
+- Make sure all site owners, content authors, and visitors understand how governance applies to their roles.
+- Clean up existing content prior to migration. Only migrate content that is relevant, current, and supports the outcome goals of each site.
+- Enable social connection that encourages communication, engagement, and collaboration.
+- Train your content authors and your users.
 
 ### Key tasks:
 
@@ -188,18 +187,21 @@ As a business owner, you may be responsible for intranet content for a specific 
 
 Keep in mind these key success factors as you plan and implement your intranet:
 
-> [!div class="checklist"]
-> * Have a relentless focus on user experiences as you build your site – check labels for relevance, ensure images relate to the content, don’t assume – test!
-> * Clean up existing content prior to migration. Only migrate content that is relevant, current, and supports the outcome goals of the site. 
-> * Involve your users to get feedback during all stages of the build process.
-> * Make sure the site owner or contact is visible in a consistent place on the home page of the site so that visitors know to whom they should reach out for feedback.
-> * Plan launch communications, which might include a launch event or activity. Celebrate your success!
+- Have a relentless focus on user experiences as you build your site – check labels for relevance, ensure images relate to the content, don’t assume – test!
+- Clean up existing content prior to migration. Only migrate content that is relevant, current, and supports the outcome goals of the site. 
+- Involve your users to get feedback during all stages of the build process.
+- Make sure the site owner or contact is visible in a consistent place on the home page of the site so that visitors know to whom they should reach out for feedback.
+- Plan launch communications, which might include a launch event or activity. Celebrate your success!
 
 ### Key tasks:
 
 #### Migrate your data
 
-One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up-to-date, and what's no longer needed and can be deleted or archived. Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you will create confusion for your users who won’t be able to rely on search to consistently find the latest version of documents. Train your users to take advantage of SharePoint’s automated versioning – and remove version IDs and dates from filenames wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
+One of the largest tasks in creating a new intranet site is migrating your existing data to SharePoint. We highly recommend doing a content audit to see what's being used, what's up-to-date, and what's no longer needed and can be deleted or archived.
+
+Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you will create confusion for your users who won’t be able to rely on search to consistently find the latest version of documents.
+
+Train your users to take advantage of SharePoint’s automated versioning – and remove version IDs and dates from filenames wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
 If you're migrating files from SharePoint Server on-premises or file shares, you can use the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online).
 
@@ -247,12 +249,11 @@ Content authors are the people who create content on sites. Content authors can 
 
 As you create and manage content for your intranet, keep in mind these key success factors:
 
-> [!div class="checklist"]
-> * Consider whether content is best presented as a page or a document. Use pages when your content is dynamic and most easily communicated with engaging web parts such as images, video, or links. Use documents when your content is designed to be downloaded or printed.
-> * Summarize up front - place the information readers must have for your communication to be successful at the top of the page before you focus on the design.
-> * Use sections and heading styles to visually separate topics and concepts to make your pages more readable and accessible.
-> * Create custom page templates to drive consistency and simplify page creation.
-> * Ensure you follow image and video guidelines to keep page performance high.
+- Consider whether content is best presented as a page or a document. Use pages when your content is dynamic and most easily communicated with engaging web parts such as images, video, or links. Use documents when your content is designed to be downloaded or printed.
+- Summarize up front - place the information readers must have for your communication to be successful at the top of the page before you focus on the design.
+- Use sections and heading styles to visually separate topics and concepts to make your pages more readable and accessible.
+- Create custom page templates to drive consistency and simplify page creation.
+- Ensure you follow image and video guidelines to keep page performance high.
 
 ### Key tasks:
 
@@ -284,60 +285,56 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 ### Discover or Envision or Prepare
 
-> [!div class="checklist"]
-> * Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.
-> * Align key outcome goals with SharePoint capabilities to identify where you may need to invest in customization. Consider whether an “intranet in a box” solution might be appropriate for your organization.
-> * Think about governance. What processes will you need to create to provision, manage, and maintain sites and content? Do you have security, retention, or compliance goals that need to be considered?
-> * Think about branding and architecture – do you want all sites to share a common look and feel?
-> * Analyze possible opportunities to identify priorities.
+- Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.
+- Align key outcome goals with SharePoint capabilities to identify where you may need to invest in customization. Consider whether an “intranet in a box” solution might be appropriate for your organization.
+- Think about governance. What processes will you need to create to provision, manage, and maintain sites and content? Do you have security, retention, or compliance goals that need to be considered?
+- Think about branding and architecture – do you want all sites to share a common look and feel?
+- Analyze possible opportunities to identify priorities.
 
 | Role                 |Plan tasks            |                 
 | :------------------- | :------------------- |
 |[Organization intranet owners](#organization-intranet-owners)| Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.| 
-|[IT / Admin](#it-pros-and-admins)| Organize a core team to plan governance – make sure you align your governance decisions to business goals.| 
+|[IT pros / Admins](#it-pros-and-admins)| Organize a core team to plan governance – make sure you align your governance decisions to business goals.| 
 |[Business owners / site owners](#business-owners-and-site-owners)| Help identify key organizational opportunities and priorities.|
 
 ### Plan
 
-> [!div class="checklist"]
-> * Work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
-> * Start by developing an understanding about what you need your intranet to accomplish and start organizing content assets and business outcomes. Organize depending on the needs of the business - by region, department, or function – and by the topics that your users care about.
-> * As you prioritize your intranet projects, consider how to get the best performance and scalability from the portals that you build.
+- Work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
+- Start by developing an understanding about what you need your intranet to accomplish and start organizing content assets and business outcomes. Organize depending on the needs of the business - by region, department, or function – and by the topics that your users care about.
+- As you prioritize your intranet projects, consider how to get the best performance and scalability from the portals that you build.
 
 | Role                 |Build tasks           |                
 | :------------------- | :------------------- |
 | [Organization intranet owners](#organization-intranet-owners) | Communicate goals and progress from project start to finish. Director of the branding direction, governance strategy, information architecture, change management, and product adoption.| 
-|[IT / Admin](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and end-user training. | 
+|[IT pros / Admins](#it-pros-and-admins)| Responsible for platform integration, content migration, performance, scalability, and end-user training. | 
 |[Business owners / site owners](#business-owners-and-site-owners)| Develop and plan solutions to business objectives. Responsible for site permissions, content audit, and content migration. | 
 | [Content authors](#content-authors)| Authority on content best practices, content creation, content management and page design.|
 
 ### Build
 
-> [!div class="checklist"]
-> * Communicate goals progress regularly.
-> * Measure, learn, and pivot as you go.
-> * Get feedback regularly.
+- Communicate goals progress regularly.
+- Measure, learn, and pivot as you go.
+- Get feedback regularly.
 
 | Role                 |Build tasks           |                
 | :------------------- | :------------------- |
 | [Organization intranet owners](#organization-intranet-owners) | Get user feedback along the way. Use findings from user feedback to learn and pivot your intranet plan. | 
-|[IT / Admin](#it-pros-and-admins)| Implement decisions made by the intranet stakeholders regarding site creation, navigation, search, branding, and publishing. | 
+|[IT pros / Admins](#it-pros-and-admins)| Implement decisions made by the intranet stakeholders regarding site creation, navigation, search, branding, and publishing. | 
 |[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting. | 
 | [Content authors](#content-authors)| Create solutions to business objectives by creating and sharing relevant content with the right audiences. |
 
 ### Manage and Maintain
 
-> [!div class="checklist"]
-> * Celebrate the launch of your new intranet.
-> * Use metrics to measure progress.
-> * Communicate what's new.
-> * Maintain high quality content.
-> * Educate users.
+- Celebrate the launch of your new intranet.
+- Use metrics to measure progress.
+- Communicate what's new.
+- Maintain high quality content.
+- Educate users.
 
 | Role                 |Manage tasks          |             
 | :------------------- | :------------------- |
 | [Organization intranet owners](#organization-intranet-owners) | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch. | 
-| [IT / Admin](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies.|
+| [IT pros / Admins](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies.|
 | [Business owners / site owners](#business-owners-and-site-owners) | Schedule content audits and use site usage metrics to measure progress. | 
 | [Content authors](#content-authors)|Refresh existing content, publish new content and participate in scheduled content audits to keep content up-to-date and compliant.|
 
