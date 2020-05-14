@@ -38,8 +38,8 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 - Understand, at a high level, the various roles and responsibilities of creating a modern intranet.
 - See what you can do with SharePoint out-of-the-box sites and web parts.
-- Framework for planning your intranet around strategic business outcomes
-- Known success factors for creating engaging intranet experiences
+- Framework for planning your intranet around strategic business outcomes.
+- Known success factors for creating engaging intranet experiences.
 
 **Keep in mind**:
 
