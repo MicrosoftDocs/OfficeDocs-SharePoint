@@ -281,13 +281,13 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 ## Get started
 
-### Discover or Envision or Prepare
+### Envision
 
-- Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities.
+- Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities
 - Align key outcome goals with SharePoint capabilities to identify where you may need to invest in customization. Consider whether an “intranet in a box” solution might be appropriate for your organization.
 - Think about governance. What processes will you need to create to provision, manage, and maintain sites and content? Do you have security, retention, or compliance goals that need to be considered?
 - Think about branding and architecture – do you want all sites to share a common look and feel?
-- Analyze possible opportunities to identify priorities.
+- Analyze possible opportunities to identify priorities
 
 | Role                 |Plan tasks            |                 
 | :------------------- | :------------------- |
@@ -297,9 +297,9 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 ### Plan
 
-- Work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time.
+- Work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time
 - Start by developing an understanding about what you need your intranet to accomplish and start organizing content assets and business outcomes. Organize depending on the needs of the business - by region, department, or function – and by the topics that your users care about.
-- As you prioritize your intranet projects, consider how to get the best performance and scalability from the portals that you build.
+- As you prioritize your intranet projects, consider how to get the best performance and scalability from the portals that you build
 
 | Role                 |Build tasks           |                
 | :------------------- | :------------------- |
@@ -310,9 +310,9 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 ### Build
 
-- Communicate goals progress regularly.
-- Measure, learn, and pivot as you go.
-- Get feedback regularly.
+- Communicate goals progress regularly
+- Measure, learn, and pivot as you go
+- Get feedback regularly
 
 | Role                 |Build tasks           |                
 | :------------------- | :------------------- |
@@ -321,13 +321,13 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 |[Business owners / site owners](#business-owners-and-site-owners)|  Use business objectives to drive decisions around site creation, navigation, branding, and audience targeting. | 
 | [Content authors](#content-authors)| Create solutions to business objectives by creating and sharing relevant content with the right audiences. |
 
-### Manage and Maintain
+### Manage and maintain
 
-- Celebrate the launch of your new intranet.
-- Use metrics to measure progress.
-- Communicate what's new.
-- Maintain high quality content.
-- Educate users.
+- Celebrate the launch of your new intranet
+- Use metrics to measure progress
+- Communicate what's new
+- Maintain high quality content
+- Educate users
 
 | Role                 |Manage tasks          |             
 | :------------------- | :------------------- |
