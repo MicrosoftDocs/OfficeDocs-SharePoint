@@ -20,7 +20,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 **Roadmap contents**:
 
-- [Introduction to roles, tasks, and timelines](#introduction-to-roles,-tasks,-and-timelines)
+- [Introduction to roles, tasks, and timelines](#introduction-to-roles-tasks-and-timelines)
 - Key tasks for the [organization intranet owners](#organization-intranet-owners)
 - Key tasks for [IT pros and admins](#it-pros-and-admins)
 - Key tasks for [business owners and site owners](#business-owners-and-site-owners)
