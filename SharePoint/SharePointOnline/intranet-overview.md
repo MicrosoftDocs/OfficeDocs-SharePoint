@@ -20,7 +20,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 **Roadmap contents**:
 
-- Introduction to roles, tasks, and timelines
+- [Introduction to roles, tasks, and timelines](#introduction-to-roles,-tasks,-and-timelines)
 - Key tasks for the [organization intranet owners](#organization-intranet-owners)
 - Key tasks for [IT pros and admins](#it-pros-and-admins)
 - Key tasks for [business owners and site owners](#business-owners-and-site-owners)
@@ -83,7 +83,7 @@ Over the years, we have learned about what makes an intranet successful. These f
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit, and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content authors](#content-authors)|Content best practices, content, and site design|Create and maintain content, content collaboration|Update existing content, publish new content|
 
-## [Organization intranet owners](#organization-intranet-owners)
+## Organization intranet owners
 
 The intranet owners work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit.
 
@@ -126,7 +126,7 @@ Branding provides a way to align your intranet with your organizational culture.
 
 *You'll know you're done when* - You've determined the end-to-end look of the intranet from the home page to hubs to individual sites.
 
-## [IT pros and admins](#it-pros-and-admins)
+## IT pros and admins
 
 IT Pros and admins implement the needed platform integration steps needed by your business owners for their intranet portals - such as with databases or line of business applications. This may include content migration from existing systems. They also work with other stakeholders and the business to determine a governance strategy for the intranet and train people in the organization to use SharePoint and other tools to manage the intranet.
 
@@ -179,7 +179,7 @@ Depending on their background, the people in your organization may need some hel
 
 *You'll know you're done when* - Questions about SharePoint intranet usage on organization social media channels and through the help desk have decreased to a modest level.
 
-## [Business owners and site owners](#business-owners-and-site-owners)
+## Business owners and site owners
 
 As a business owner, you may be responsible for intranet content for a specific area of your organization such as HR or operations. You may also be the site owner, the person who has the permissions in SharePoint to create and maintain the content and experiences on the site. Before you start configuring individual sites, for some ideas, look over the [SharePoint look book](https://aka.ms/sharepointlookbook). As part of your overall governance plan, you may decide that sites need to follow consistent patterns to ensure that readers to not have to spend too much time orienting themselves as the go from site to site or topic to topic in the intranet.
 
@@ -241,7 +241,7 @@ To align your organization's branding requirements, you can [change the look of 
 
 *You'll know you're done when* - Business and site owners have dedicated areas in SharePoint that can been owned and maintained with little oversight.
 
-## [Content authors](#content-authors)
+## Content authors
 
 Content authors are the people who create content on sites. Content authors can take on many responsibilities such as creating and publishing news, creating topic-specific pages, or serving as subject matter experts and thought leaders for special projects and initiatives. Content authors should get familiar with [SharePoint design fundamentals](https://support.office.com/article/Plan-your-SharePoint-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
 
