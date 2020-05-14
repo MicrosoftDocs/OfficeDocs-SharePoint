@@ -96,19 +96,17 @@ Choose one or more opportunities to start with and meet with the business owners
 As you plan and implement your intranet, keep in mind these key success factors:
 
 - For your intranet, as a whole:
-
-- Have a sponsor for each initiative and an executive sponsor from the business for the intranet as a whole.
-- Ensure that your intranet goals are directly tied to key business goals.
-- Get a core team together to think about governance – make sure you align your governance decisions to business goals.
-- Align your intranet with your organization brand and culture.
-- Don’t assume you have to launch with a “big bang” – align communications and training with your launch plan.
+  - Have a sponsor for each initiative and an executive sponsor from the business for the intranet as a whole.
+  - Ensure that your intranet goals are directly tied to key business goals.
+  - Get a core team together to think about governance – make sure you align your governance decisions to business goals.
+  - Align your intranet with your organization brand and culture.
+  - Don’t assume you have to launch with a “big bang” – align communications and training with your launch plan.
 
 - For each initiative:
-
-- Gather outcomes, not requirements – be sure to talk to site users, not just owners. 
-- Design to align to your organization standards – but allow the site “story” to dictate the navigation and page layouts.
-- Establish success goals for each site and review them regularly.
-- Test your proposed navigation with site visitors – make sure that visitors can easily get to their top tasks.
+  - Gather outcomes, not requirements – be sure to talk to site users, not just owners. 
+  - Design to align to your organization standards – but allow the site “story” to dictate the navigation and page layouts.
+  - Establish success goals for each site and review them regularly.
+  - Test your proposed navigation with site visitors – make sure that visitors can easily get to their top tasks.
 
 ### Key tasks:
 
