@@ -578,26 +578,26 @@ Some list view options may prevent search list views with more than 5,000 items 
 
 Authorizing Box as an Administrator or a Co-Administrator is straightforward. To authorize or add a Multi-User Box account as a connector, follow these simple steps:
 
-1. Navigate to **[Add Mover as a Custom Application](https://app.box.com/master/custom-apps)**.
+1. Navigate to **[Add Mover as a Custom Application](https://app.box.com/master/custom-apps)**.</br>
 2. Select **Authorize New App**.</br>
 ![Box coadmin auth](media/box_coad_auth_01.png)
-3. Enter the API Key: `7ypzdr66s3m80h3hutop34u7yml8928x`
-4. Select **Next**.</br></br>
+1. Enter the API Key: `7ypzdr66s3m80h3hutop34u7yml8928x`
+2. Select **Next**.</br></br>
 ![Box co-admin authorization 2](media/box_coad_auth_02.png)</br></br>
-5. In the new window, select **Authorize** to authorize our app.</br></br>
+1. In the new window, select **Authorize** to authorize our app.</br></br>
 ![Box co-admin authorization 3](media/box_coad_auth_03.png)</br></br>
-6. In the Mover app, return to the **Transfer Wizard**, and select **Authorize New Connector**.</br></br>
+1. In the Mover app, return to the **Transfer Wizard**, and select **Authorize New Connector**.</br></br>
 ![Clear auth](media/clear_auth.png)</br></br>
-7. In the **Connector** list, find **Box (Co-Admin)**.
-8. Select **Authorize**.</br>
+1. In the **Connector** list, find **Box (Co-Admin)**.
+2. Select **Authorize**.</br>
 ![Box co-admin connector list](media/box_coadmin_connector_list_auth.png)</br></br>
     A new window (tab) opens.
-9. Name your **Connector** <optional>.</br></br>
+1. Name your **Connector** <optional>.</br></br>
 ![Box co-admin name connector](media/name-connector-box-coadmin.png)</br></br>
-10. Select **Authorize** again. 
-11. If you are not logged in, to grant access, you can use either your Box credentials, or a SSO account.</br></br>
+1. Select **Authorize** again. 
+2. If you are not logged in, to grant access, you can use either your Box credentials, or a SSO account.</br></br>
 ![Log into grant access to box](media/log-in-to-grant-access-to-box.png)</br></br>
-12. To grant our app access to your Box account, select **Allow**.</br></br>
+1. To grant our app access to your Box account, select **Allow**.</br></br>
 ![grant access to box](media/grant-access-to-box.png)</br></br>
 
 You should now be connected to Box with Co-Admin authorization!
@@ -606,10 +606,10 @@ You should now be connected to Box with Co-Admin authorization!
 
 **App Permissions**: Your organization may default all apps to disabled. See the following quick guide about how to ensure our app is enabled.
 
-1. Under **Enterprise Settings**, navigate to **Apps**. Here is a shortcut link: https://app.box.com/master/settings/openboxBox </br></br>
-![enterprise settings](media/box-enterprise-settings.png)</br></br>
-2. In the **Third Party Applications** section, ensure "Publish Applications: Disable published third party apps by default" is unchecked.</br></br>
-![box third party settings](media/box-third-party-settings.png)</br></br>
+1. Under **Enterprise Settings**, navigate to **Apps**. Here is a shortcut link: https://app.box.com/master/settings/apps </br></br>
+![enterprise settings](media/box-admin-console.png)</br></br>
+2. In the **Recommended Apps** section, ensure "Enable for 3rd party apps that are Added by Default only" is checked.</br></br>
+![box third party settings](media/recommended-apps.png)</br></br>
 3. Under **Individual Application Controls**, navigate to our app.
 4. Select **Available**.</br></br>
 ![enterprise app available](media/mover-enterprise-app-available.png)</br></br>
