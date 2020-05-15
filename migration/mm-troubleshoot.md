@@ -30,7 +30,6 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 - [Required endpoints](https://review.docs.microsoft.com/sharepointmigration/mm-setup-clients#required-endpoints)
 
-- [Government cloud settings](https://review.docs.microsoft.com/sharepointmigration/mm-setup-clients#government-cloud-support)
 
 
 ## Agent error messages
