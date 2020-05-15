@@ -19,10 +19,6 @@ description: "How to format a CSV or JSON file for bulk upload in Migration Mana
 
 # How to format a CSV or JSON file for bulk upload in Migration Manager
 
->[!Note]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
-
-
 
   
 ## Using a comma-separated value (CSV) file for data content migration

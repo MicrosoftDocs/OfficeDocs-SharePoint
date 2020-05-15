@@ -22,9 +22,6 @@ description: "Learn about how the Migration Manager tool in the modern SharePoin
 # Get started with the Migration Manager (preview)
 
 >[!NOTE]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
-
->[!NOTE]
 >Migration Manager currently supports only the migration of **file shares**.
 >
 >This release does not support the migration of content from SharePoint Server.

@@ -19,8 +19,6 @@ description: Set up multiple Migration Manager agents
 
 # Setup Migration Manager agents
 
->[!NOTE]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do this, you download and run a setup file on each computer.  
