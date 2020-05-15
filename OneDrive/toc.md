@@ -20,7 +20,6 @@
 ### [Use silent account configuration](use-silent-account-configuration.md)
 ### [Known Folder Move](redirect-known-folders.md)
 ### [Use Group Policy](use-group-policy.md)
-### [Find your tenant ID](find-your-office-365-tenant-id.md)
 ### [Set Files On-Demand states](files-on-demand-windows.md)
 ## [Configure sync on Mac]()
 ### [Deploy and configure on macOS](deploy-and-configure-on-macos.md)
