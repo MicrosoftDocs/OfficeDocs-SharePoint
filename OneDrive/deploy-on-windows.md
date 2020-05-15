@@ -72,7 +72,7 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
 5. In Configuration Manager, select the **Software Library** workspace. Under **Application Management**, right-click **Applications**, and then select **Import Application**. 
 
-![](media/deploy-onedrive-enterprise_image6.png)
+![Importing an application](media/deploy-onedrive-enterprise_image6.png)
 
 6. Select the sample package.
 
@@ -191,7 +191,7 @@ You can use Microsoft Endpoint Configuration Manager to deploy apps to mobile de
 
 3. In the **Location** box, enter the app store URL, https://itunes.apple.com/us/app/onedrive/id823766827?mt=12.
  
-![](media/deploy-onedrive-enterprise_image4.png)
+![Entering the App Store URL](media/deploy-onedrive-enterprise_image4.png)
 
 4. Target the app to users. 
 
@@ -205,7 +205,7 @@ For more info, see [Create iOS applications with Configuration Manager](/configm
 
 3. In the **Location** box, enter the app store URL, https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en.
 
-![](media/deploy-onedrive-enterprise_image5.png)
+![Entering the Google Play URL](media/deploy-onedrive-enterprise_image5.png)
 
 4. Target the app to users.
 

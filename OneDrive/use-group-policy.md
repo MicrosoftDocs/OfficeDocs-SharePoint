@@ -307,9 +307,6 @@ Enabling this policy sets the following registry key value to 1.
 
 This setting forces users to keep their Documents, Pictures, and Desktop folders directed to OneDrive.
 
-> [!NOTE]
-> This setting is available in the OneDrive sync app build 18.111.0603.0004 or later.
-  
 If you enable this setting, the **Stop protecting** button in the **Set up protection of important folders** window is disabled, and users receive an error if they try to stop syncing a known folder.
   
 If you disable or do not configure this setting, users can choose to redirect their known folders back to their PC.
@@ -335,9 +332,6 @@ restore B2B Sync with:
 <a name="KFMOptInWithWizard"> </a>
 
 This setting shows the following window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
-
-> [!NOTE]
-> This setting is available in the OneDrive sync app build 18.111.0603.0004 or later.
   
 ![Window prompting users to protect important folders](media/protect-important-folders-gpo.png)
   
@@ -413,17 +407,17 @@ Enabling this policy sets the following registry key:
  
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"GPOSetUpdateRing"="dword:0000000X"
 
-Set the value 4 for Insider, 5 for Production, or 0 for Enterprise. When you configure this setting to 5 for Production, or 0 for Enterprise, the "Get OneDrive Insider preview updates before release", in the sync app, the checkbox does not appear on the **Settings > About** tab.
+Set the value 4 for Insider, 5 for Production, or 0 for Deferred. When you configure this setting to 5 for Production, or 0 for Deferred, the "Get OneDrive Insider preview updates before release", in the sync app, the checkbox does not appear on the **Settings > About** tab.
   
 For more info on the builds currently available in each ring, see the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?). For more info about the update rings and how the sync app checks for updates, see [The OneDrive sync app update process](sync-client-update-process.md).
 
 ### Silently move Windows known folders to OneDrive
 <a name="KFMOptInNoWizard"> </a>
 
-Use this setting to redirect your users' Documents, Pictures, and Desktop folders to OneDrive without any user interaction. This setting is available in the OneDrive sync app build 18.111.0603.0004 or later. Before sync app build 18.171.0823.0001, this setting redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
+Use this setting to redirect your users' Documents, Pictures, and Desktop folders to OneDrive without any user interaction. Before sync app build 18.171.0823.0001, this setting redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
 
 > [!NOTE]
-> If you're using this setting with a build earlier than 18.171.0823.0001, we recommend also enabling [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive).
+> We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week.  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue. 
   
 If you enable this setting and provide your tenant ID, you can choose whether to display a notification to users after their folders have been redirected.
   
@@ -678,7 +672,7 @@ Enabling this policy sets the following registry key value to 1.
 ### Receive OneDrive sync app updates on the Deferred ring
 <a name="EnableEnterpriseUpdate"> </a>
 
-This setting lets you specify the Deferred ring for users in your organization. We release OneDrive sync app (OneDrive.exe) updates to the public through three rings— first to Insiders, then Production, and finally Enterprise.
+This setting lets you specify the Deferred ring for users in your organization. We release OneDrive sync app (OneDrive.exe) updates to the public through three rings— first to Insiders, then Production, and finally Deferred.
 
 Selecting the Deferred ring gives you some extra time to prepare for updates, but means users must wait to receive the latest improvements. The Deferred ring also lets you deploy updates from an internal network location on your own schedule.
 
