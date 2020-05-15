@@ -24,9 +24,9 @@ description: "Learn important details that a SharePoint admin should consider wh
 
 # SharePoint Online planning guide
     
-H    re's an overview of important details you should consider when planning how to build out, configure, and manage your SharePoint Online environment. 
+Here's an overview of important details you should consider when planning how to build out, configure, and manage your SharePoint Online environment. 
      
-# Plan the site collections you need to create
+## Plan the site collections you need to create
 <a name="__toc346712635"> </a>
 
 A site collection has the same owner and shares administrative settings, such as permissions. We recommend creating a separate site collection for each unit of work, and connecting them by using hub sites. To learn more, see [Planning your SharePoint hub sites](planning-hub-sites.md). 
