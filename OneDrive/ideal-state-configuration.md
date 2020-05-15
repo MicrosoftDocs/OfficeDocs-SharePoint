@@ -29,14 +29,25 @@ description: "View our recommendations for deploying and configuring the OneDriv
 
 For the best performance, reliability, and user experience, follow these "ideal state" recommendations when you configure the sync app.
 
+
+|![Download symbol](/office/media/icons/download-blue.svg)</br>Updates and rings   |![Chat symbol](/office/media/icons/chat.svg)</br>Windows Notification service  |![Cloud](/office/media/icons/cloud.svg) </br>Files On-Demand and Storage Sense |![Document](/office/media/icons/document.svg) <br>Office integration  |![User settings symbol](/office/media/icons/users-settings.svg)</br>Silent account configuration |![Migration arrow symbol](/office/media/icons/migration-blue.svg)</br>Known Folder Move|
+|---------|---------|---------|---------|---------|---------|
+|Allow traffic</br></br>Select some people for the Insiders ring and leave the rest in Production    |   Allow traffic      |   Keep Files On-Demand enabled</br></br>Enable Storage Sense policies      |     Keep Office collaboration enabled    |     Enable the policy    |     Enable the policies    |
+
+
 ## Updates and rings
 
-- **Allow access to oneclient.sfx.ms and g.live.com**. Devices must be able to reach these URLs to apply updates. Updates are installed automatically, so you don't need to package and deploy them. Because OneDrive runs in the background, updates are also installed silently and don't impact users. 
-- **Use the Insiders and Production rings**. Select several people in your IT department as early adopters to join the Insiders ring and receive features early. Leave everyone else in the organization on the default Production ring to ensure they receive bug fixes and new features in a timely fashion. This recommendation applies even if you are on the Semi-Annual Channel for Windows and Office. For more info, see [Sync app update process](sync-client-update-process.md).
+- **Allow access to oneclient.sfx.ms and g.live.com**. Computers must be able to reach these URLs to apply updates and bug fixes, and enable or disable features. Updates are installed automatically, so you don't need to package and deploy them. Because OneDrive runs in the background, updates are also installed silently and don't impact users. 
+- **Use the Insiders and Production rings**. Select several people in your IT department as early adopters to join the Insiders ring and receive features early. Leave everyone else in the organization on the default Production ring to ensure they receive bug fixes and new features in a timely fashion. This recommendation applies even if you are on the Semi-Annual Channel for Windows and Office. For more info, see [Sync app update process](sync-client-update-process.md). To set the update ring on Windows, see [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring). To set it on Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md)
 
 ## Windows Notification Service
   
-- **Allow traffic to \*.wns.windows.com**. The OneDrive sync app uses Windows Push Notification Services (WNS) for optimum performance and battery life. [See the complete list of required URL and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
+- **Make sure connection to the service is enabled**. Work with your network team to make sure proxies:  
+
+    -    Allow network traffic to bypass *.wns.microsoft.com 
+    -    Avoid HTTPS decryption for *.wns.microsoft.com. 
+ 
+    [See the complete list of required URL and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
 
 ## Files On-Demand and Storage Sense
 
