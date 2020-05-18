@@ -60,7 +60,6 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|High speed internet connection|
 |Operating system|Windows Server 2012 R2 or Windows 10 agent|Windows Server 2012 R2 or Windows 10 agent|
-|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
 |Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |
 
 

@@ -39,7 +39,7 @@ The speed is usually impacted by either
 Suggestions:
 
 - Often local network speed is the problem. When the source content is located on the same computer or VM on which Migration Manager agent is running, stop other applications which may compete the disk load for reading the data. 
--  Change the Migration Manager working folder setting to point to a different physical disk (if there is one) on your computer or VM running Migration Manager.
+
 
 
 ## Improving the migration computer speed
@@ -47,8 +47,7 @@ Migration Manager executes a heavy load of data exchanging during the migration.
 
 Suggestions:
  
-- Install and run the migration agent on a computer with better disk performance, such as a fast SSD.   
-- The disk which hosts the Migration Manager working folder impacts Migration Manager performance. If there are multiple disks on the computer, configure the Migration Manager working folder setting to point to the disk with the best performance. 
+- Install and run the migration agent on a computer with better disk performance, such as a fast SSD.
 - Stop other applications which  creates a heavy load of disk operations when doing the migration.
 
 ## Improving your connectivity to 0ffice 365 and Azure 

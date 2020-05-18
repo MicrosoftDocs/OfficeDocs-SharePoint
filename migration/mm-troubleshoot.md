@@ -40,7 +40,10 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 ##  Destination site URL issues
 
-Make sure the site URL and document folder exists.
+|Message|Do this|
+|:-----|:-----|
+|Destination site or web does not exist|Confirm the destination site or sub-site exists.|
+|Failed to check site or web existence.|Confirm the destination site or sub-site exists.|
 
 
 

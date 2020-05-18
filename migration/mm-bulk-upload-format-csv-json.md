@@ -75,22 +75,76 @@ The following example shows the JSON format used in migrating your data.
 The minimum required values are SourcePath, TargetPath and TargetList.  
 
 ```json
+
 {
+
   "Tasks": [
+
     {
+
       "SourcePath": \\contoso\fileshare\dept1",
+
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+
       "TargetList": "Documents",
-      "TargetListRelativePath": "dept1"
+
+      "TargetListRelativePath": "dept1",
+
+      "Settings": {
+
+        "MigrateHiddenItems": true
+
+        "MigrateItemsCreatedAfter": "2016-05-22",
+
+        "MigrateItemsModifiedAfter": "2016-05-22",
+
+        "SkipFilesWithExtensions": "txt:mp3",
+
+        "MigrateOneNoteNotebook": false,
+
+        "FilterOutPathSpecialCharacters": false
+
+        "MigrateOneNoteNotebook": true
+
+      }
+
     },
+
     {
+
       "SourcePath": \\contoso\fileshare\dept2",
+
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+
       "TargetList": "Documents",
-      "TargetListRelativePath": "dept2"
-    },    
+
+      "TargetListRelativePath": "dept2",
+
+      "Settings": {
+
+        "MigrateHiddenItems": true
+
+        "MigrateItemsCreatedAfter": "2016-05-22",
+
+        "MigrateItemsModifiedAfter": "2016-05-22",
+
+        "SkipFilesWithExtensions": "txt:mp3",
+
+        "MigrateOneNoteNotebook": false,
+
+        "FilterOutPathSpecialCharacters": false
+
+        "MigrateOneNoteNotebook": true
+
+      }
+
+    },   
+
   ]
+
 }
+
+ 
 ```
    
 
