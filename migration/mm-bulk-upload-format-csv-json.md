@@ -19,10 +19,6 @@ description: "How to format a CSV or JSON file for bulk upload in Migration Mana
 
 # How to format a CSV or JSON file for bulk upload in Migration Manager
 
->[!Note]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
-
-
 
   
 ## Using a comma-separated value (CSV) file for data content migration
@@ -40,13 +36,11 @@ Here's an example of the format for the CSV file. The rows show files that are b
 This example shows how it would appear in a .txt file.
   
 ```
-Source,SourceDocLib,SourceSubFolder,TargetWeb,TargetDocLib,TargetSubFolder
 \\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
-
 ```
 
 > [!IMPORTANT]
->  *Do not*  include a header row in your CSV file. The second example included headers to demonstrate the order of the fields. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
+>  *Do not*  include a header row in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
 
   
  **To create a CSV file for data migration**
@@ -71,18 +65,6 @@ The following example uses Excel to create the CSV file.
     
 3. Close and save as a Comma delimited (\*.csv) file.
     
-### Column definitions
-
-The following table explain the values needed in each column in your CSV file.
-  
-|||
-|:-----|:-----|
-|Source  <br/> | *Required*. Enter a file share path.  <br/> |
-|Source DocLib  <br/> | Leave this column empty as it is ignored for file share migration.<br/> |
-|Source SubFolder  <br/> | Leave this column empty as it is ignored for file share migration. <br/> |
-|Target Web  <br/> | *Required*  . Enter the SharePoint Online site URL where the files are to be migrated.  <br/> |
-|Target DocLib  <br/> | *Required*  . Enter the name of the document library with the SharePoint Online site where the files are to be migrated.  <br/> |
-|Target SubFolder  <br/> | *Optional*  . Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  <br/> |
 
 ## Using a JSON file for data content migration
 
@@ -90,25 +72,79 @@ The following table explain the values needed in each column in your CSV file.
 
 The following example shows the JSON format used in migrating your data.
 
-As with the CSV files, the minimum required values are SourcePath, TargetPath and TargetList.  
+The minimum required values are SourcePath, TargetPath and TargetList.  
 
 ```json
+
 {
+
   "Tasks": [
+
     {
+
       "SourcePath": \\contoso\fileshare\dept1",
+
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+
       "TargetList": "Documents",
-      "TargetListRelativePath": "dept1"
+
+      "TargetListRelativePath": "dept1",
+
+      "Settings": {
+
+        "MigrateHiddenItems": true
+
+        "MigrateItemsCreatedAfter": "2016-05-22",
+
+        "MigrateItemsModifiedAfter": "2016-05-22",
+
+        "SkipFilesWithExtensions": "txt:mp3",
+
+        "MigrateOneNoteNotebook": false,
+
+        "FilterOutPathSpecialCharacters": false
+
+        "MigrateOneNoteNotebook": true
+
+      }
+
     },
+
     {
+
       "SourcePath": \\contoso\fileshare\dept2",
+
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
+
       "TargetList": "Documents",
-      "TargetListRelativePath": "dept2"
-    },    
+
+      "TargetListRelativePath": "dept2",
+
+      "Settings": {
+
+        "MigrateHiddenItems": true
+
+        "MigrateItemsCreatedAfter": "2016-05-22",
+
+        "MigrateItemsModifiedAfter": "2016-05-22",
+
+        "SkipFilesWithExtensions": "txt:mp3",
+
+        "MigrateOneNoteNotebook": false,
+
+        "FilterOutPathSpecialCharacters": false
+
+        "MigrateOneNoteNotebook": true
+
+      }
+
+    },   
+
   ]
+
 }
+
+ 
 ```
    
 
