@@ -56,9 +56,9 @@ The workshop assumes that you've already set up core infrastructure (Active Dire
   
 ## About the Known Folder Move Group Policy objects
 
-To use the following Group Policy objects, you need the OneDrive sync build 18.111.0603.0004 or later. You can see your build number in the About tab in OneDrive settings.  We recommend upgrading to the latest available build before deploying to decrease deployment issues. Known Folder Move does not work for users syncing OneDrive files in SharePoint Server.
+We recommend upgrading to the latest available build before deploying to decrease deployment issues. Known Folder Move does not work for users syncing OneDrive files in SharePoint Server.
 
-To check elibigiliy, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the [Known Folder Move PowerShell script](https://github.com/OneDrive/onedrive-admin-scripts/tree/master/Scripts/Sync-KFM-Deployment). 
+To check eligibility, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the [Known Folder Move PowerShell script](https://github.com/OneDrive/onedrive-admin-scripts/tree/master/Scripts/Sync-KFM-Deployment). 
 
 > [!IMPORTANT]
    > If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For users who have a lot of files in their known folders, consider using the policy "[Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)" temporarily if you would like to minimize the network impact and then disable the policy once uploads are complete.
@@ -79,10 +79,10 @@ To check elibigiliy, data volume, and item counts as you decide on a rollout pla
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
     
-    Use this setting to redirect known folders to OneDrive without any user interaction. Before sync app build 18.171.0823.0001, this setting redirected only empty known folders to OneDrive. Now, it redirects known folders that contain content and moves the content to OneDrive.
+    Use this setting to redirect and move known folders to OneDrive without any user interaction. 
 
     > [!NOTE]
-    > You can choose to display a notification to users after their folders have been redirected.  
+    > You can choose to display a notification to users after their folders have been redirected. 
 
     A number of errors can prevent this setting from taking effect, such as:
     - A file exceeds the maximum path length
@@ -123,7 +123,7 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
 - If folders have been redirected to a network file share: 
 
   > [!NOTE]
-  > We recommend using Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and OneDrive build 17.3.7064.1005 to get the benefits from Files On-Demand.
+  > We recommend using Windows 10 Fall Creators Update (version 1709 or later) or Windows Server 2019 and the current version of OneDrive to get the benefits from Files On-Demand.
   
   1. Use a migration tool such as [Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365) or the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop folders.
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share. 

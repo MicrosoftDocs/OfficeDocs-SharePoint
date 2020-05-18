@@ -146,9 +146,9 @@ SharePoint will treat the external resource as an external web application. The 
 
 SharePoint Server 2019 now supports authenticating to SMTP servers when sending email messages. Authentication can be configured through the Central Administration website and through PowerShell. SharePoint Server 2019 will still support anonymous connections to SMTP servers that don't require authentication. This makes it easier for customers to integrate SharePoint into highly secure environments where authentication is required to send emails. Customers no longer need to configure smart host relays for SharePoint in these environments. For more information, see [Plan outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-planning) and [Configure outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-configuration).
 
-### Sync files with OneDrive sync app (NGSC)
+### Sync files with the new OneDrive sync app (OneDrive.exe)
 
-Users can use the new OneDrive sync app (NGSC – Next Generation Sync Client) instead of Groove.exe to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Deploy the new OneDrive sync app for Windows](/onedrive/deploy-on-windows) and [Deploy and configure the new OneDrive sync app for Mac](/onedrive/deploy-and-configure-on-macos).
+Users can use the new OneDrive sync app instead of the previous OneDrive for Business sync app (Groove.exe) to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Configure syncing with the new OneDrive sync app](/sharepoint/install/new-onedrive-sync-client).
 
 ### Use of # and % characters in file and folder names
 
