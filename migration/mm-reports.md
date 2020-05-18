@@ -19,7 +19,25 @@ search.appverid: MET150
 # Using the Migration Manager Reports
 
 
-Migration Manager generates log files, summary and task level reports to help you manage, audit and troubleshoot your migration process.
+Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
+
+There are three different categories of report:
+
+Summary reports: 
+- [Summary report](#summary-report)
+- [Failure summary report](#summary-failure-report)
+
+Task level reports:
+- [Item summary](#item-summary)
+- [Item Failure Report](#item-failure-report)
+- [Item Report](#item-report)
+- [Scan Summary](#scan-summary)
+- [Structure Report](#structure-report)
+- [Structure Failure Report](#structure-failure-report)
+- [Structure Failure Summary](#structure-failure-summary)
+
+Performance report
+- [Performance Report](#performance-report)
   
 ## How to view the reports
 
@@ -37,7 +55,7 @@ These reports can be viewed while the migration is taking place or after the job
      
 2. An aggregate summary report will be downloaded to your computer.
     
-## Summary Reports
+## Summary Report types
 
 Two types of summary reports are generated. The second type of summary report generated only if there is failures.
   
@@ -257,13 +275,13 @@ This is an aggregate of all the task failure reports. This will only be generate
 |Time stamp  <br/> |The time at which the action occurred.  <br/> |
    
 
-### Performance report
+## Performance report
 
 This report provides scores ranging from 1 to 100. The greater the number, the higher the speed. While these scores cannot predict how fast the migration will perform, they can help identify areas that could be impacting your migration performance.
 
 |**Column**|**Recommendation**|
 |:-----|:-----|:-----|
-|Reading source speed score<br/> |[Improving the speed at which the source can be read](https://review.docs.microsoft.com/sharepointmigration/mm-performance#improving-the-speed-at-which-the-source-can-be-read?branch=jhendr-migration)<br/> |
+|Reading source speed score<br/> |[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-speed-at-which-the-source-can-be-read?branch=jhendr-migration)<br/> |
 |Local disk performance score<br/> |[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-migration-computer-speed?branch=jhendr-migration) <br/> |
 |Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure?branch=jhendr-migration)<br/> |
 |SPO throughput score <br/> |[Improving your migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) <br/> |

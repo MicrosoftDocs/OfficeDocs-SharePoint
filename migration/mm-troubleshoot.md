@@ -26,9 +26,9 @@ This article describes some issues and errors that you may encounter when using 
 
 Make sure you have met the prerequisites for agent installation, and have reviewed the required endpoints. Government cloud customers should confirm they have set their configuration properly.
 
-- [Agent installation prerequisites](https://review.docs.microsoft.com/sharepointmigration/mm-setup-clients#prerequisites)
+- [Agent installation prerequisites](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#prerequisites)
 
-- [Required endpoints](https://review.docs.microsoft.com/sharepointmigration/mm-setup-clients#required-endpoints)
+- [Required endpoints](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#required-endpoints)
 
 
 
@@ -79,7 +79,7 @@ Make sure the site URL and document folder exists.
 || 5 - A problem occurred accessing SharePoint.  Check your credentials and the format of your URL. Retry.|
 || 6 - A problem occurred accessing SharePoint.  Check your credentials and try again.  If the problem continues, please create a support case.|
 || 7 - A problem occurred accessing SharePoint.  Check your credentials and try opening your site in a browser.|
-|0x0204000A|Cannot create package file. All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed. Restart your migration.|
+|0x0204000A|Cannot create package file. All files and folders in the Migration Manager working folder must be closed. Restart your migration.|
 |0x02030001|1 - Check your credentials.  Restart your migration. 
 || 2 - Check your credentials. Restart your migration.
 || 3 - Check your credentials and your network connection. Restart your migration. 
@@ -88,26 +88,26 @@ Make sure the site URL and document folder exists.
 || 6 - Check your credentials and restart your migration.  If this continues, please a support case.
 || 7 - Check your credentials and try opening your site in a browser. Restart your migration.|
 |0x02010008|Confirm the path and format of the user mapping file and that you have permission to access it.|
-|0x02050001|All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed. Restart your migration.|
+|0x02050001|All files and folders in the Migration Manager working folder must be closed. Restart your migration.|
 |0x02010002|Check your network status.  If you can access the source sites from a browser, then create a support case.|
 |0x02010010|Make sure the source list and target list have the same template. |
-|0x0204000D|All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\MigrationToolStorage*, must be closed during migration. Restart your migration.|
+|0x0204000D|All files and folders in the Migration Manager working folder must be closed during migration. Restart your migration.|
 |0x02040012|The temporary storage on your local computer is too low.  Migration Manager caches the package on the working folder. Expand your temporary storage and retry.|
 |0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissions. aRetry your migration.|
 |0x02050001|Local storage file is corrupted.  The working folder was touched or modified during the migration.  Retry your migration.|
-|0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the Migration Manager working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
-|0x02040009|The package can’t be created because the directory cannot be found.  All files and folders in the Migration Manager working folder, %appdata%\Microsoft\MigrationToolStorage, must be closed. Restart your migration.|
+|0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the Migration Manager working folder must be closed. Restart your migration.|
+|0x02040009|The package can’t be created because the directory cannot be found.  All files and folders in the Migration Manager working folder must be closed. Restart your migration.|
 |0x02010020|Disable migrating version history in Migration Manager settings or enable versioning in SPO.|
 |0x0201000E|Check if the global setting has filtered out special characters in the target path or if the path has unsupported characters.|
 |0X0201000F|Invalid site URL. Check if the site URL is valid. Try to access the URL via a browser.|
-|0x0207001|You do not have access to the task folder. Check if you can access  %appdata%\Microsoft\MigrationToolStorage.|
+|0x0207001|You do not have access to the task folder. Check if you can access.|
 |0x01410010|A failure occurred because of missing dependencies on list items. Check the FailureSummaryReport.csv for details. Check if the dependencies have been included in your migration scope.|
-|0x01510001|Packages failed to upload. 	If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
+|0x01510001|Packages failed to upload. If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
 |0x01510001|Failed to Upload the Job to Server: Upload file failed during migration.|
 |0x02070009|Several packages failed to upload. Pause the task and check your network connection.|
-|0x01710009|A failure occured due to job end failures; some items failed in the package. Restart migration.|
+|0x01710009|A failure occurred due to job end failures; some items failed in the package. Restart migration.|
 |0x01710009|Errors or timeout for Server Processing the file: Not all the items in the package have been migrated.|
-|0x01610001|The Azure container is expired. Retry migration task.|   
+|0x01610001|The Azure container is expired. Retry migration task.|
 |0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for server processing the file. Fail to lookup folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|

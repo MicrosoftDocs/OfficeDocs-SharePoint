@@ -36,13 +36,11 @@ Here's an example of the format for the CSV file. The rows show files that are b
 This example shows how it would appear in a .txt file.
   
 ```
-Source,SourceDocLib,SourceSubFolder,TargetWeb,TargetDocLib,TargetSubFolder
 \\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
-
 ```
 
 > [!IMPORTANT]
->  *Do not*  include a header row in your CSV file. The second example included headers to demonstrate the order of the fields. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
+>  *Do not*  include a header row in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
 
   
  **To create a CSV file for data migration**
@@ -67,18 +65,6 @@ The following example uses Excel to create the CSV file.
     
 3. Close and save as a Comma delimited (\*.csv) file.
     
-### Column definitions
-
-The following table explain the values needed in each column in your CSV file.
-  
-|||
-|:-----|:-----|
-|Source  <br/> | *Required*. Enter a file share path.  <br/> |
-|Source DocLib  <br/> | Leave this column empty as it is ignored for file share migration.<br/> |
-|Source SubFolder  <br/> | Leave this column empty as it is ignored for file share migration. <br/> |
-|Target Web  <br/> | *Required*  . Enter the SharePoint Online site URL where the files are to be migrated.  <br/> |
-|Target DocLib  <br/> | *Required*  . Enter the name of the document library with the SharePoint Online site where the files are to be migrated.  <br/> |
-|Target SubFolder  <br/> | *Optional*  . Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  <br/> |
 
 ## Using a JSON file for data content migration
 
