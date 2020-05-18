@@ -40,16 +40,15 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 ##  Destination site URL issues
 
-|Message|Do this|
+|**Message**|**Recommended action**|
 |:-----|:-----|
 |Destination site or web does not exist|Confirm the destination site or sub-site exists.|
 |Failed to check site or web existence.|Confirm the destination site or sub-site exists.|
 
 
-
 ## Frequently seen error messages
 
-|Message|Do this|
+|**Message**|**Recommended action**|
 |-----|-----|
 |*Invalid source folder*|Confirm the path you entered is correct and follows the proper format</br></br>Confirm your have read access to the folder.|
 |*The site cannot be created or updated*|Confirm that you have permissions to create the site and that the URL is valid</br></br>If the site exists, confirm you are the site collection administrator</br></br>If it still fails, create the site manually and point the migration tool to this newly created site.|
@@ -59,7 +58,6 @@ Make sure you have met the prerequisites for agent installation, and have review
 |*Packaging failure: Cannot open file*|Packaging failed due to non-existing source.  Check if you can access the source root folder.|
 |*A duplicate task has already been created.*|The CSV file used to do bulk migration cannot have duplicate entries.  Remove the duplicate line(s) and try again.|
 |*The parent folder was not migrated*|The parent folder was not migrated, therefore all items under the folder will fail to migrate. Check your parent folder and retry your migration.|
-
 
 
 ## Error codes 
@@ -82,7 +80,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 || 5 - A problem occurred accessing SharePoint.  Check your credentials and the format of your URL. Retry.|
 || 6 - A problem occurred accessing SharePoint.  Check your credentials and try again.  If the problem continues, please create a support case.|
 || 7 - A problem occurred accessing SharePoint.  Check your credentials and try opening your site in a browser.|
-|0x0204000A|Cannot create package file. All files and folders in the Migration Manager working folder must be closed. Restart your migration.|
+|0x0204000A|Cannot create package file. All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
 |0x02030001|1 - Check your credentials.  Restart your migration. 
 || 2 - Check your credentials. Restart your migration.
 || 3 - Check your credentials and your network connection. Restart your migration. 
@@ -91,19 +89,19 @@ Make sure you have met the prerequisites for agent installation, and have review
 || 6 - Check your credentials and restart your migration.  If this continues, please a support case.
 || 7 - Check your credentials and try opening your site in a browser. Restart your migration.|
 |0x02010008|Confirm the path and format of the user mapping file and that you have permission to access it.|
-|0x02050001|All files and folders in the Migration Manager working folder must be closed. Restart your migration.|
+|0x02050001|All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
 |0x02010002|Check your network status.  If you can access the source sites from a browser, then create a support case.|
 |0x02010010|Make sure the source list and target list have the same template. |
-|0x0204000D|All files and folders in the Migration Manager working folder must be closed during migration. Restart your migration.|
+|0x0204000D|All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed during migration. Restart your migration.|
 |0x02040012|The temporary storage on your local computer is too low.  Migration Manager caches the package on the working folder. Expand your temporary storage and retry.|
 |0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissions. aRetry your migration.|
 |0x02050001|Local storage file is corrupted.  The working folder was touched or modified during the migration.  Retry your migration.|
-|0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the Migration Manager working folder must be closed. Restart your migration.|
-|0x02040009|The package can’t be created because the directory cannot be found.  All files and folders in the Migration Manager working folder must be closed. Restart your migration.|
+|0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
+|0x02040009|The package can’t be created because the directory cannot be found.  All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
 |0x02010020|Disable migrating version history in Migration Manager settings or enable versioning in SPO.|
 |0x0201000E|Check if the global setting has filtered out special characters in the target path or if the path has unsupported characters.|
 |0X0201000F|Invalid site URL. Check if the site URL is valid. Try to access the URL via a browser.|
-|0x0207001|You do not have access to the task folder. Check if you can access.|
+|0x0207001|You do not have access to the task folder. Check if you can access *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*.|
 |0x01410010|A failure occurred because of missing dependencies on list items. Check the FailureSummaryReport.csv for details. Check if the dependencies have been included in your migration scope.|
 |0x01510001|Packages failed to upload. If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
 |0x01510001|Failed to Upload the Job to Server: Upload file failed during migration.|
@@ -114,3 +112,8 @@ Make sure you have met the prerequisites for agent installation, and have review
 |0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for server processing the file. Fail to lookup folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
+
+
+
+
+
