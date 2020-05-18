@@ -20,8 +20,6 @@ description: Migration Manager FAQs
 # Frequently Asked Questions:  Migration Manager
 
 
->[!Note]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 **Question:** Can I migrate content from SharePoint Server? </br>
 Answer:   At this time, Migration Manager only supports the migration of **file shares**.  It does not support the migration of content from SharePoint Server.
@@ -32,6 +30,8 @@ Answer:   Yes.
 
 **Question:**  Does the file share I am migrating need to be on a Windows computer?</br>
 Answer:    No.  As long as you can access the file share from the migration agent, you can migrate it.
+
+
 
 **Question:**  Is multi-factor authentication supported by Migration Manager?</br>
 Answer:    Microsoft multi-factor authentication is supported; however third party multi-factor authentication is not.
