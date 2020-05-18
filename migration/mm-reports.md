@@ -24,11 +24,11 @@ Migration Manager generates log files, summary and task level reports, and a per
 There are three different categories of report:
 
 Summary reports: 
-- [Summary report](#summary-report)
-- [Failure summary report](#summary-failure-report)
+- [Summary Report](#summary-report)
+- [Failure Summary Report](#failure-summary-report)
 
 Task level reports:
-- [Item summary](#item-summary)
+- [Item Summary](#item-summary)
 - [Item Failure Report](#item-failure-report)
 - [Item Report](#item-report)
 - [Scan Summary](#scan-summary)
