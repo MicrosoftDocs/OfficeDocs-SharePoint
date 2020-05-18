@@ -19,8 +19,6 @@ description: Set up multiple Migration Manager agents
 
 # Setup Migration Manager agents
 
->[!NOTE]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do this, you download and run a setup file on each computer.  
@@ -31,11 +29,15 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 
 ## Before you begin
-
-- Make sure all system prerequisites have been installed on your local computer or VM before running the Migration Manager agent setup file
+ 
+|**Check**|**Do**|
+|:-----|:-----|
+|[Prerequisites](#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
+|[Required Endpoints](#required-endpoints)|Review the required Endpoints|
 
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
+</br></br></br>
 
 ### Recommended practices
 
@@ -46,8 +48,10 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 - Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
 - Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
+</br></br></br>
 
 ### Prerequisites
+
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
 |CPU|64-bit quad core processor or better|64-bit 1.4 GHz 2-core processor or better|
@@ -56,8 +60,10 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|High speed internet connection|
 |Operating system|Windows Server 2012 R2 or Windows 10 agent|Windows Server 2012 R2 or Windows 10 agent|
-|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
-|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |</br>
+|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |
+
+
+</br></br>
 
 ### Required endpoints
 
@@ -84,6 +90,9 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Run configuration**.
 
 On completion this computer will be added to the available agents that the Migration Manager can assign tasks.
+
+>[!Important]
+> Passwords are not stored in the installer.
 
 ## Set up multiple agents
 
