@@ -29,7 +29,7 @@ This article is for IT admins who manage the new OneDrive sync app (OneDrive.exe
   
 ## How we release updates through multiple rings
 
-After we validate updates through rings within Microsoft, we release them to the first public ring, Insiders. To try these latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. It takes about 3 days to roll out to this ring. Later, we release to organizations in the default update ring, Production. We roll them out to a small percentage of users in the ring at first, and slowly roll them out to everyone in the ring. This typically takes one to two weeks. At each increase along the way, we monitor telemetry for quality assurance purposes. In the rare case we detect an issue, we suspend the release, address the issue, and release a new update to users in the same order. After updates have completely rolled out within the Production ring, we release them to the next ring, Enterprise.
+After we validate updates through rings within Microsoft, we release them to the first public ring, Insiders. To try these latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. It takes about 3 days to roll out to this ring. Later, we release to organizations in the default update ring, Production. We roll them out to a small percentage of users in the ring at first, and slowly roll them out to everyone in the ring. This typically takes one to two weeks. At each increase along the way, we monitor telemetry for quality assurance purposes. In the rare case we detect an issue, we suspend the release, address the issue, and release a new update to users in the same order. After updates have completely rolled out within the Production ring, we release them to the next ring, Deferred.
   
 ![Timeline of an update](media/5d705fbc-5553-4c7b-ae2f-cba394332a5e.png)
   
@@ -44,7 +44,7 @@ However, as the slowest ring, the Deferred ring receives performance improvement
 > [!NOTE]
 > Microsoft reserves the right to bypass the 60-day grace period for critical updates. 
   
-To learn how to set the Deferred ring for the Windows sync app using Group Policy, see [Set the sync app update ring](use-group-policy.md#GPOSetUpdateRing). To learn how to set it for the Mac sync app, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md). For info about the Microsoft 365 update process, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+To learn how to set the Deferred ring for the Windows sync app using Group Policy, see [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring). To learn how to set it for the Mac sync app, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md). For info about the Microsoft 365 update process, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus). For info about the Windows 10 update process, see [Build deployment rings for Windows 10 updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
   
 ## How the sync app checks for and applies updates
 
