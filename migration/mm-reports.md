@@ -21,8 +21,6 @@ search.appverid: MET150
 
 Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
 
-There are three different categories of report:
-
 Summary reports: 
 - [Summary Report](#summary-report)
 - [Failure Summary Report](#failure-summary-report)
@@ -281,7 +279,7 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 
 |**Column**|**Recommendation**|
 |:-----|:-----|:-----|
-|Reading source speed score<br/> |[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-speed-at-which-the-source-can-be-read?branch=jhendr-migration)<br/> |
-|Local disk performance score<br/> |[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-migration-computer-speed?branch=jhendr-migration) <br/> |
-|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure?branch=jhendr-migration)<br/> |
+|Reading source speed score<br/> |[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-speed-at-which-the-source-can-be-read)<br/> |
+|Local disk performance score<br/> |[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-migration-computer-speed) <br/> |
+|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
 |SPO throughput score <br/> |[Improving your migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) <br/> |
