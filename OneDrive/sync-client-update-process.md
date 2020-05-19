@@ -31,7 +31,7 @@ This article is for IT admins who manage the new OneDrive sync app (OneDrive.exe
 
 After we validate updates through rings within Microsoft, we release them to the first public ring, Insiders. To try these latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. It takes about 3 days to roll out to this ring. Later, we release to organizations in the default update ring, Production. We roll them out to a small percentage of users in the ring at first, and slowly roll them out to everyone in the ring. This typically takes one to two weeks. At each increase along the way, we monitor telemetry for quality assurance purposes. In the rare case we detect an issue, we suspend the release, address the issue, and release a new update to users in the same order. After updates have completely rolled out within the Production ring, we release them to the next ring, Deferred.
   
-![Timeline of an update](media/5d705fbc-5553-4c7b-ae2f-cba394332a5e.png)
+![Release ring timeline](media/release-rings.png)
   
 The Deferred ring provides builds that have been monitored throughout the Production rollout, so fewer releases are suspended. The Deferred ring also lets you as an admin:
   
