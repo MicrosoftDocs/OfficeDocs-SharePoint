@@ -25,13 +25,15 @@ description: "Learn about the Production and Deferred rings for OneDrive sync ap
 This article is for IT admins who manage the new OneDrive sync app (OneDrive.exe) in an enterprise environment. It explains how we release updates to the sync app for Windows and the standalone sync app for Mac through rings of validation, and how the sync app checks for updates. Note that if you deploy OneDrive alongside Office (via the Office Deployment Tool or some other means), OneDrive will continue to check for updates independent of any Office update restrictions you set.
   
 > [!NOTE]
-> If you allow your users to sync personal OneDrive accounts, the update process described in this article and any settings you select apply to all instances of the sync app.<br>The sync app installed from the Mac App Store follows a separate update process. After we finish rolling out updates within the Production ring, we publish them to the Mac App Store, where they're immediately released to everyone.
+> If you allow your users to sync personal OneDrive accounts, the update process described in this article and any settings you select apply to all instances of the sync app.
+> 
+> The sync app installed from the Mac App Store follows a separate update process. After we finish rolling out updates within the Production ring, we publish them to the Mac App Store, where they're immediately released to everyone.
   
 ## How we release updates through multiple rings
 
 After we validate updates through rings within Microsoft, we release them to the first public ring, Insiders. To try these latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. It takes about 3 days to roll out to this ring. Later, we release to organizations in the default update ring, Production. We roll them out to a small percentage of users in the ring at first, and slowly roll them out to everyone in the ring. This typically takes one to two weeks. At each increase along the way, we monitor telemetry for quality assurance purposes. In the rare case we detect an issue, we suspend the release, address the issue, and release a new update to users in the same order. After updates have completely rolled out within the Production ring, we release them to the next ring, Deferred.
   
-![Timeline of an update](media/5d705fbc-5553-4c7b-ae2f-cba394332a5e.png)
+![Release ring timeline](media/release-rings.png)
   
 The Deferred ring provides builds that have been monitored throughout the Production rollout, so fewer releases are suspended. The Deferred ring also lets you as an admin:
   
