@@ -85,7 +85,7 @@ To transition users off of the previous OneDrive for Business sync app, first ma
 
 When the required software is installed on your users' computers, you can configure automatic takeover of syncing in two ways:
   
-- Silently - [Review the prerequisites and steps](use-silent-account-configuration.md), and then [use this policy](use-group-policy.md#SilentAccountConfig).  
+- Silently - [Review the prerequisites and steps](use-silent-account-configuration.md), and then [use this policy](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials).  
   
 - Manually - In the SharePoint admin center, [set OneDrive and SharePoint to sync with the new OneDrive sync app](/sharepoint/let-users-use-new-onedrive-sync-client#set-sharepoint-to-sync-with-the-onedrive-sync-client). This will run the new sync app the next time users click the Sync button in a SharePoint document library. If the options aren't available in the SharePoint admin center, the new OneDrive sync app is already set up to sync files in OneDrive and SharePoint.  
   
