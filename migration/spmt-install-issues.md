@@ -36,7 +36,7 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 |Anti-virus| Stop 3rd party anti-virus software on your computer prior to installation.
 
 
-## **Install errors**
+## Install errors
 
 |**Error**|**Suggested action**|
 |:-----|:-----|
