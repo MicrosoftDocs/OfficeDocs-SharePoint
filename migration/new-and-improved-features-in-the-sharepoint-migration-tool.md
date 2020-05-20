@@ -28,7 +28,7 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.11.0](https://aka.ms/spmt-beta-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|[3.2.118.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.0](https://aka.ms/spmt-beta-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|[3.2.118.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
 
 
   
@@ -47,7 +47,7 @@ The following features are now available in the public preview version of the Sh
 |User emails for OneDrive|User email accounts for OneDrive migration are now supported as an input value.|
 |Version info |A new file, %\AppData\Local\Apps\SharePointMigrationTool\Logs\ **SPMT-VersionHistory.log** will contain a users version history.|
 |Performance recommendations|The performance report contains direct links to detailed content on  performance recommendations.|
-|Setting update|The setting "Migration of web parts and pages" has been updated to allow customized scripts on the destination site to migrate more web parts.The default value is off.| 
+|Setting update|The setting "Migration of web parts and pages" has been updated to allow customized scripts on the destination site to allow the user to migrate more web parts.The default value is off.| 
 
 ### SPMT 3.2.118.0
 
