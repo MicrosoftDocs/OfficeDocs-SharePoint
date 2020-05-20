@@ -5,8 +5,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -19,11 +18,11 @@ description: "Learn how to plan for multilingual sites in SharePoint Server and 
 
 # Plan for multilingual sites in SharePoint Server
 
-[!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
+[!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-SharePoint Server and SharePoint Online have features that enable you to support users in different regions or users who speak different languages. You can use these features to create websites in different languages, or to enable users to view sites in their preferred language.
+SharePoint Server has features that enable you to support users in different regions or users who speak different languages. You can use these features to create websites in different languages, or to enable users to view sites in their preferred language.
   
-For information about how to create multilingual sites, see [Choose the languages you want to make available for a site's user interface](https://go.microsoft.com/fwlink/p/?LinkId=307131) and [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=307132). 
+For information about how to create multilingual sites, see [Choose the languages you want to make available for a site's user interface](https://go.microsoft.com/fwlink/p/?LinkId=307131) and [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=307132). For information about multilingual sites in SharePoint in Microsoft 365, see [Create multilingual communication sites, pages, and news](https://support.office.com/article/2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
   
 > [!IMPORTANT]
 > This section does not apply to SharePoint Foundation 2013. 
