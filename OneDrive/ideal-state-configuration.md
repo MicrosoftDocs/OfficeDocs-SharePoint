@@ -30,7 +30,7 @@ description: "View our recommendations for deploying and configuring the OneDriv
 For the best performance, reliability, and user experience, follow these "ideal state" recommendations when you configure the sync app.
 
 
-|![Download symbol](/office/media/icons/download-blue.svg)</br>Updates and rings   |![Chat symbol](/office/media/icons/chat.svg)</br>Windows Notification Service  |![Cloud](/office/media/icons/cloud.svg) </br>Files On-Demand and Storage Sense |![Document](/office/media/icons/document.svg) <br>Office integration  |![User settings symbol](/office/media/icons/users-settings.svg)</br>Silent account configuration |![Migration arrow symbol](/office/media/icons/migration-blue.svg)</br>Known Folder Move|
+|![Download symbol](/office/media/icons/download-blue.png)</br>Updates and rings   |![Chat symbol](/office/media/icons/chat.png)</br>Windows Notification Service  |![Cloud](/office/media/icons/cloud.png) </br>Files On-Demand and Storage Sense |![Document](/office/media/icons/document.png) <br>Office integration  |![User settings symbol](/office/media/icons/users-settings.png)</br>Silent account configuration |![Migration arrow symbol](/office/media/icons/migration-blue.png)</br>Known Folder Move|
 |---------|---------|---------|---------|---------|---------|
 |Allow traffic. Select some people for the Insiders ring and leave the rest in Production    |   Allow traffic      |   Keep Files On-Demand enabled and enable Storage Sense policies      |     Keep Office collaboration enabled    |     Enable the policy    |     Enable the policies    |
 
