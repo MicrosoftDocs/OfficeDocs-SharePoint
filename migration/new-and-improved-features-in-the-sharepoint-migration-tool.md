@@ -45,9 +45,9 @@ The following features are now available in the public preview version of the Sh
 |SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SharePoint online.|
 |Microsoft Teams added as a selection choice|Users can now select Teams and channels directly from the destination selection page.|
 |User emails for OneDrive|User email accounts for OneDrive migration are now supported as an input value.|
-|Version info |A new file, %\AppData\Local\Apps\SharePointMigrationTool\Logs\ **SPMT-VersionHistory.log** will contain a users version history.|
+|Version info |A new file, %\AppData\Local\Apps\SharePointMigrationTool\Logs\SPMT-VersionHistory.log will contain version history.|
 |Performance recommendations|The performance report contains direct links to detailed content on  performance recommendations.|
-|Setting update|The setting "Migration of web parts and pages" has been updated to allow customized scripts on the destination site to allow the user to migrate more web parts.The default value is off.| 
+|Setting update|The setting "Migration of web parts and pages" has been updated to allow customized scripts on the destination site to migrate more web parts.The default value is off.| 
 
 ### SPMT 3.2.118.0
 
