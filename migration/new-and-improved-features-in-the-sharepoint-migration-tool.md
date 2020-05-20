@@ -28,7 +28,7 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|3.4.11.0 |[3.2.118.0](https://aka.ms/spmt-ga-page)|[3.2.118.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.0](https://aka.ms/spmt-beta-page) |[3.2.118.1](https://aka.ms/spmt-ga-page)|[3.2.118.1](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
 
 
   
@@ -42,7 +42,12 @@ The following features are now available in the public preview version of the Sh
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SPO.|
+|SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SharePoint online.|
+|Microsoft Teams added as a selection choice|Users can now select Teams and channels directly from the destination selection page.|
+|User emails for OneDrive|User email accounts for OneDrive migration are now supported as an input value.|
+|Version info |A new file, %\AppData\Local\Apps\SharePointMigrationTool\Logs\SPMT-VersionHistory.log will contain version history.|
+|Performance recommendations|The performance report contains direct links to detailed content on  performance recommendations.|
+|New setting|A new setting, "Temporarily allow migration of scripts", will automatically allow the migration of scripted web parts without having to go in the tenant admin. | 
 
 ### SPMT 3.2.118.0
 
