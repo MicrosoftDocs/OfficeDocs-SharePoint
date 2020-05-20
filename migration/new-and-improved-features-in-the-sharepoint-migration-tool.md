@@ -47,7 +47,7 @@ The following features are now available in the public preview version of the Sh
 |User emails for OneDrive|User email accounts for OneDrive migration are now supported as an input value.|
 |Version info |A new file, %\AppData\Local\Apps\SharePointMigrationTool\Logs\SPMT-VersionHistory.log will contain version history.|
 |Performance recommendations|The performance report contains direct links to detailed content on  performance recommendations.|
-|New setting|New setting will automatically allow the migration of scripted web part without having to go in the tenant admin. | 
+|New setting|A new setting, "Temporarily allow migration of scripts", will automatically allow the migration of scripted web parts without having to go in the tenant admin. | 
 
 ### SPMT 3.2.118.0
 
