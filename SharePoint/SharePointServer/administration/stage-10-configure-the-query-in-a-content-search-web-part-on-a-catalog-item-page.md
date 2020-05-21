@@ -53,7 +53,7 @@ So, on our catalog item page we want to display items that have the same  *Group
 > [!NOTE]
 > The item details page that was automatically created when we connected our publishing site to our catalog as described in [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md) contained several Catalog Item Reuse Web Parts (CIRWP). There are scenarios where using CIRWPs to display item detail content would be appropriate. But, because the CIRWP is only able to display one item at a time, we can't use this Web Part for our Contoso scenario. 
   
-For information about how to customize the automatically created catalog item page using CIRWPs, see [How to: Customize page layouts for a catalog-based site in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=400646).
+For info about how to customize the automatically created catalog item page using CIRWPs, see [How to: Customize page layouts for a catalog-based site in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=400646).
   
 ### How to add a Content Search Web Part to a catalog item page
 <a name="BKMK_HowToAddAContentSearchWebPartToACatalogItemPage"> </a>
@@ -96,19 +96,19 @@ As mentioned above, when we configured the query in the CSWP on the catalog page
 ### How to configure a query in a Content Search Web Part on a catalog item page
 <a name="BKMK_HowToConfigureAQueryInAContentSearchWebPartOnACatalogItemPage"> </a>
 
-1. In the Web Part, click the **Web Part Menu** --> **Edit Web Part**. 
+1. In the Web Part, select the **Web Part** menu > **Edit Web Part**. 
     
-2. In the Web Part tool pane, click **Change query**. This opens a dialog. 
+2. In the Web Part tool pane, select **Change query**. This opens a dialog box. 
     
-3. In the dialog, from the **Select a query** list, select your catalog result source. In our scenario, it's  *catalog - Products Results*  . 
+3. In the dialog box, from the **Select a query** list, select your catalog result source. In our scenario, it's *catalog - Products Results*. 
     
      ![Catalog Result Source](../media/OTCSP_CatalogResultSource.png)
   
-4. Click **Switch to Advanced Mode**. 
+4. Select **Switch to Advanced Mode**. 
     
      ![Switch Advanced Mode](../media/OTCSP_SwitchAdvancedMode.png)
   
-In Advanced Mode, in the **Query text** field, you'll see some text. This is the query text that represents our result source  *catalog - Products Results*  . (We saw the same query text in Stage 9, when we looked at [How to view details of the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_HowToViewDetailsOfTheQueryConfiguration).)
+In Advanced Mode, in the **Query text** field, you'll see some text. This is the query text that represents our result source *catalog - Products Results*. (We saw the same query text in Stage 9, when we looked at [How to view details of the query configuration](stage-9-configure-the-query-in-a-content-search-web-part-on-a-category-page.md#BKMK_HowToViewDetailsOfTheQueryConfiguration).)
     
      ![Search Results From a Particular Site](../media/OTCSP_QueryTextResultSource.png)
   
@@ -122,7 +122,7 @@ In Advanced Mode, in the **Query text** field, you'll see some text. This is the
   
  **ProductCatalogGroupNumberOWSTEXT** is the managed property name of the site column  *Group Number*  . (Earlier in this series, we looked at naming convention for this column in [Naming convention for the default site columns in the Products list](from-site-column-to-managed-propertywhat-s-up-with-that.md#BKMK_NamingConventionfortheDefaultSiteColumnsintheProductsList).) Selecting **Contains** and **Value of a token from URL** will create the query variable we want to use. 
     
-7. Click **Add property filter**. 
+7. Select **Add property filter**. 
     
      ![Query Added](../media/OTCSP_QueryAdded.png)
   
@@ -130,31 +130,31 @@ Notice that **ProductCatalogGroupNumberOWSTEXT:{URLToken.1}** is added to the **
     
     So now you might be thinking "OK, that was easy, but what does **ProductCatalogGroupNumberOWSTEXT:{URLToken.1}** actually mean?" Let's break it down: 
     
-  - **ProductCatalogGroupNumberOWSTEXT** is the managed property that represents the  *Group Number*  column in our catalog. 
+  - **ProductCatalogGroupNumberOWSTEXT** is the managed property that represents the *Group Number* column in our catalog. 
     
   - The colon : means "contains"
     
-  - **{URLToken.1}** represents a value from the URL of the current page. The integer, in this case **1**, represents the value in the URL as counted from right to left. So, for example, in the URL  *http://www.contoso.com/cameras/camcorders/563714875/6637146586*  , the query variable {URLToken.1} represents the value  *6637146586*  . 
+  - **{URLToken.1}** represents a value from the URL of the current page. The integer, in this case **1**, represents the value in the URL as counted from right to left. So, for example, in the URL *http://www.contoso.com/cameras/camcorders/563714875/6637146586*, the query variable {URLToken.1} represents the value *6637146586*. 
     
     If we put the complete query together, it means the following:
     
     From the result source  *catalog - Products Results*  , search for items where the value of the managed property  *ProductCatalogGroupNumberOWSTEXT*  contains the value that is currently used as the first value in the URL, counting from right to left. 
     
-    In the last step of the procedure in [Stage 3: How to enable a list as a catalog in SharePoint Server](stage-3-how-to-enable-a-list-as-a-catalog.md), we defined that the item URL should contain both Group Number and Item Number as catalog Item and URL fields. This means that the first value in the URL, counting from right to left, is  *Item Number*  . We want to search for items that have the same  *Group Number*  . Therefore, we must make a small change to the query variable. 
+    In the last step of the procedure in [Stage 3: How to enable a list as a catalog in SharePoint Server](stage-3-how-to-enable-a-list-as-a-catalog.md), we defined that the item URL should contain both Group Number and Item Number as catalog Item and URL fields. This means that the first value in the URL, counting from right to left, is *Item Number*. We want to search for items that have the same *Group Number*. Therefore, we must make a small change to the query variable. 
     
 8. In the **Query text** field, change the number in the query variable to **2**. 
     
      ![URL Token 2](../media/OTCSP_URLToken2.png)
   
-Now the query in the Web Part will search for items where the value of the managed property  *ProductCatalogGroupNumberOWSTEXT*  contains the value that is currently used as the second value in the URL, counting from right to left. 
+Now the query in the Web Part will search for items where the value of the managed property *ProductCatalogGroupNumberOWSTEXT* contains the value that is currently used as the second value in the URL, counting from right to left. 
     
-9. To test that this query returns the correct results, click **Test query**. 
+9. To test that this query returns the correct results, select **Test query**. 
     
      ![Test Query 2](../media/OTCSP_TestQuery2.png)
   
-Notice that five items are displayed under **RelevantResults**. This verifies that the query is correct, because we know that the  *Northwind Traders 50W Car Radio*  is available in five colors. 
+Notice that five items are displayed under **RelevantResults**. This verifies that the query is correct, because we know that the *Northwind Traders 50W Car Radio* is available in five colors. 
     
-10. Click **OK** and save the page. 
+10. Select **OK** and save the page. 
     
      ![Query Results](../media/OTCSP_QueryResults.png)
   

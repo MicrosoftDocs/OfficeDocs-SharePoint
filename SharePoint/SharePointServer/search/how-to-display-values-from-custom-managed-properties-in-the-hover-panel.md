@@ -96,7 +96,7 @@ The following screen shot shows how these values are maintained for one item in 
   
 When adding custom properties to a hover panel, we have to add them to the **item display template** (highlighted in the illustration below). 
   
-Again, because this is not really intuitive:  *When adding custom properties to a hover panel, we have to add them to the item display template* .
+Again, because this is not really intuitive: *When adding custom properties to a hover panel, we have to add them to the item display template*.
   
 ![Result Type Specific DT](../media/OTCSP_ResultTypeSpecificDT.png)
   

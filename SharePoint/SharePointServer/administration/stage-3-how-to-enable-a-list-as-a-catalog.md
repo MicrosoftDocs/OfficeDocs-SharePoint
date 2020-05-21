@@ -29,11 +29,11 @@ As described in as described in [Stage 2: Import list content into the Product C
   
 ## Start stage 3
 
-1. On the **Products** list, from the **LIST** tab, click **List Settings**. 
+1. On the **Products** list, from the **LIST** tab, select **List Settings**. 
     
      ![List Settings](../media/OTCSP_ListSettings.PNG)
   
-2. On the **Settings** page, click **Catalog Settings**. 
+2. On the **Settings** page, select **Catalog Settings**. 
     
      ![Catalog Settings](../media/OTCSP_CatalogSettings.png)
   
@@ -47,7 +47,7 @@ By selecting this, we confirm that content from the **Products** list should be 
     
      ![Catalog Sharing 2](../media/OTCSP_CatalogSharing2.png)
   
-4. For **Anonymous Access**, click **Enable anonymous access**, and then click **Make Anonymous**. 
+4. For **Anonymous Access**, select **Enable anonymous access**, and then select **Make Anonymous**. 
     
      ![Anonymous Access](../media/OTCSP_AnonymousAccess.PNG)
   
@@ -67,7 +67,7 @@ In the previous article, [Stage 2: Import list content into the Product Catalog 
   
 By selecting **Item Category** here, we are in fact specifying that the navigation on our publishing site (the Contoso website) will be determined by the structure in the **Product Hierarchy** term set. 
     
-    In the following screen shot, notice that the structure in the **Product Hierarchy** term set matches the navigation on the Contoso website. 
+    In the following screenshot, notice that the structure in the **Product Hierarchy** term set matches the navigation on the Contoso website. 
     
      ![Contoso Product Hierarchy](../media/OTCSP_ContosoProductHierarchy.PNG)
   

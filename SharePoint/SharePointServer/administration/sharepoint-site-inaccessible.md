@@ -41,5 +41,4 @@ Follow these procedures to use the site inaccessible troubleshooting workflow.
     Add an indented paragraph under a numbered step by placing cursor before the **/para** tag, then press Enter. 
     
 3. Locate the appropriate starting place in the workflow and begin. Note that a list of multiple links will appear when you click on any of the boxes that say **click here for help**.
-    
 

@@ -63,7 +63,7 @@ After we have run the five PowerShell scripts, we get the following:
     
 - Terms in the **Product Hierarchy** term set. In our scenario, the term set reflects how Contoso has categorized their products, for example one category is called "Laptops" and another is "MP3" players. 
     
-- In the **Products** list, content in the **Item Category** column is associated with the correct term from the **Product Hierarchy** term set. The following screen shot shows how the list item  *Southridge Video Laptop15.4W M1548*  is associated with the term  *Laptops*  through the **Item Category** column. 
+- In the **Products** list, content in the **Item Category** column is associated with the correct term from the **Product Hierarchy** term set. The following screen shot shows how the list item *Southridge Video Laptop15.4W M1548* is associated with the term *Laptops* through the **Item Category** column. 
     
 ![Item Term Connection](../media/OTCSP_ItemTermConnection.PNG)
   

@@ -35,11 +35,11 @@ This article provides a roadmap for configuring [hybrid sites features](sharepoi
 |2. [Set up SharePoint services for hybrid environments](set-up-sharepoint-services-for-hybrid-environments.md) <br/> |Configure the needed SharePoint services for hybrid search, including User Profiles, MySites, and the Application Management service.  <br/> |
 |**3. (SharePoint Server 2013 only) [Install the September PU for SharePoint Server 2013](/officeupdates/sharepoint-updates)** <br/> |Install the September 2015 PU or higher for SharePoint Server 2013. (We recommend installing the latest PU.)  <br/> |
 |3. [Run Hybrid Picker](run-hybrid-picker.md) <br/> |Configure hybrid sites features by running the Hybrid Picker in Microsoft 365.  <br/> |
-|4. Quick test  <br/> | Check to make sure hybrid sites features are working:  <br/>  Log in to a SharePoint Server as a regular user. (Be sure you're a member of the correct audience if you used audiences.)  <br/>  Click the Follow link at the top of the page.  <br/>  You should see a small pop-up under **Follow** letting you know that you're following the site. Click this pop-up and notice that it navigates to your personal site, and the list of sites you're following in SharePoint in Microsoft 365.  <br/> |
+|4. Quick test  <br/> | Check to make sure hybrid sites features are working:  <br/>  Log in to a SharePoint Server as a regular user. (Be sure you're a member of the correct audience if you used audiences.)  <br/>  Select the Follow link at the top of the page.  <br/>  You should see a small pop-up under **Follow** letting you know that you're following the site. Select this pop-up and note that it navigates to your personal site, and the list of sites you're following in SharePoint in Microsoft 365.  <br/> |
    
 ## The extensible hybrid app launcher
 
-The app launcher is included as part of SharePoint Server 2016. If you want to add it to SharePoint Server 2013, open the SharePoint 2013 Management Shell and run the following cmdlet:.
+The app launcher is included as part of SharePoint Server 2016. If you want to add it to SharePoint Server 2013, open the SharePoint 2013 Management Shell and run the following cmdlet:
   
 ```
 install-SPFeature SuiteNav
@@ -58,6 +58,7 @@ This video shows a walkthrough of configuring sites features.
 **Video: Configure hybrid sites features**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/9097e969-aff1-479b-bcbf-3fc963051465?autoplay=false]
+
 ## See also
 
 #### Concepts

@@ -196,9 +196,9 @@ On the application server that hosts the SharePoint ServerCentral Administration
    **SPOTenantPortalUrl** is the URL of your company's or organization's SharePoint portal, and **CloudSsaID** is the name of the cloud SSA that you created earlier. 
     
 7. When prompted, use one of the following admin roles to sign in your Office 365 tenant:
-   - Global Administrator
-   - Application Administrator
-   - Cloud Application Administrator
+   - Global Admin
+   - Application Admin
+   - Cloud Application Admin
     
 ## Set up search architecture in SharePoint Server for cloud hybrid search
 <a name="BKMK_SetupSearchArch"> </a>
@@ -276,13 +276,13 @@ Start a full crawl of the content source. See [Start, pause, resume, or stop a c
   
 1. Verify that the user account that is performing this procedure is an administrator for the Cloud Search service application.
     
-2. On the home page of the SharePoint Central Administration website, in the **Application Management** section, click **Manage service applications**. 
+2. On the home page of the SharePoint Central Administration website, in the **Application Management** section, select **Manage service applications**. 
     
-3. On the Manage Service Applications page, click the cloud Search service application.
+3. On the Manage Service Applications page, select the cloud Search service application.
     
-4. On the Search Administration page, in the **Crawling** section, click **Content Sources**. 
+4. On the Search Administration page, in the **Crawling** section, select **Content Sources**. 
     
-5. On the Manage Content Sources page, in the list of content sources, point to the name of the content source that you want to crawl, click the arrow and then click **Start Full Crawl**. The value in the **Status** column changes to **Crawling Full** for the selected content source. 
+5. On the Manage Content Sources page, in the list of content sources, point to the name of the content source that you want to crawl, select the arrow and then select **Start Full Crawl**. The value in the **Status** column changes to **Crawling Full** for the selected content source. 
     
 ## Verify that cloud hybrid search works
 <a name="BKMK_VerifyCloudHybridSearch"> </a>

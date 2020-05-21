@@ -77,7 +77,7 @@ This article describes the steps that are required to publish and consume servic
     
     For more information, see [Publish service applications in SharePoint Server](publish-a-service-application.md).
     
-3. On the publishing farm, set the permission to the appropriate service applications for the consuming farm
+3. On the publishing farm, set the permission to the appropriate service applications for the consuming farm.
     
     You must give the consuming farm permission to the Application Discovery and Load Balancing Service Application on the publishing farm. After doing this, give the consuming farm permission to the published service applications that it will be consuming.
     

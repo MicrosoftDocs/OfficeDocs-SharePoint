@@ -67,11 +67,11 @@ Juggling between the different site collections can be a bit confusing. The fact
   
 Here we go!
   
-1. On your  *authoring site* , on the **Site Settings** page, click **Search Schema**. 
+1. On your *authoring site*, on the **Site Settings** page, select **Search Schema**. 
     
      ![Search Schema](../media/OTCSP_SearchSchema.png)
   
-2. In the **Managed property** field, type the name of the refiner-enabled managed property to which you want to map a crawled property, and then click the arrow button. In our Contoso scenario, we'll type  *RefinableInt01*  . 
+2. In the **Managed property** field, type the name of the refiner-enabled managed property to which you want to map a crawled property, and then select the arrow button. In our Contoso scenario, we'll enter *RefinableInt01*. 
     
      ![Refiner Enabled Managed Property](../media/OTCSP_RefinableInt01.png)
   
@@ -79,17 +79,17 @@ Here we go!
     
      ![Edit Property](../media/OTCSP_EditProperty.png)
   
-4. On the **Edit Managed Property** page, click **Add a Mapping**. 
+4. On the **Edit Managed Property** page, select **Add a Mapping**. 
     
      ![Add Mapping](../media/OTCSP_AddMapping.png)
   
-5. In the **Crawled property selection** dialog, use the **Search for a crawled property name** field to search for the crawled property that you want to map to this managed property. 
+5. In the **Crawled property selection** dialog box, use the **Search for a crawled property name** field to search for the crawled property that you want to map to this managed property. 
     
-    In our Contoso catalog, the site column that contains the price information is called "RetBasePrice", so enter this in the **Search for a crawled property name** field, and then click **Find**. 
+    In our Contoso catalog, the site column that contains the price information is called "RetBasePrice", so enter this in the **Search for a crawled property name** field, and then select **Find**. 
     
      ![Find CP](../media/OTCSP_FindCP.png)
   
-Two crawled properties are found:  *ows_q_NMBR_RetBasePrice*  and  *ows_RetBasePrice*  . 
+Two crawled properties are found: *ows_q_NMBR_RetBasePrice* and *ows_RetBasePrice*. 
     
      ![Two CPs Found](../media/OTCSP_TwoCPsFound.png)
   
@@ -102,22 +102,22 @@ This part is really tricky. Not only are two crawled properties found (very stra
     > [!IMPORTANT]
     > When mapping a crawled property to a refinable managed property, select the  *regular*  crawled property! 
   
-6. Select the regular crawled property found by the search you performed in the previous step, and then click **OK**. In our Contoso scenario, we'll select  *ows_RetBasePrice*  . 
+6. Select the regular crawled property found by the search you performed in the previous step, and then select **OK**. In our Contoso scenario, we'll select *ows_RetBasePrice*. 
     
      ![Select CP](../media/OTCSP_SelectCP.png)
   
-On the **Edit Managed Property** page, notice that the crawled property  *ows_RetBasePrice*  is added to the **Mappings to crawled properties** field. 
+On the **Edit Managed Property** page, note that the crawled property *ows_RetBasePrice* is added to the **Mappings to crawled properties** field. 
     
      ![CP Added](../media/OTCSP_CPadded.png)
   
-7. In the **Alias** field, type a name for the refiner. In our Contoso scenario, we'll type  *Price*  . 
+7. In the **Alias** field, enter a name for the refiner. In our Contoso scenario, we'll enter *Price*. 
     
      ![Alias Field](../media/OTCSP_Alias.png)
   
     > [!IMPORTANT]
-    > The alias that you enter here is  *not*  the refiner name that will be shown on our publishing site. This alias is intended to make our lives a bit easier while we are configuring refiners for faceted navigation (procedures that follow will explain how to do this). Remember, we can't change the name of the refinable managed property. Therefore, when doing the configuration, we must deal with many refinable managed properties that have similar names (  *RefinableString01*  ,  *RefinableString02*  , etc.). So this alias serves as a good reminder of what we mapped to the property. 
+    > The alias that you enter here is *not* the refiner name that will be shown on our publishing site. This alias is intended to make our lives a bit easier while we are configuring refiners for faceted navigation (procedures that follow will explain how to do this). Remember, we can't change the name of the refinable managed property. Therefore, when doing the configuration, we must deal with many refinable managed properties that have similar names (*RefinableString01*,  *RefinableString02*, and so on). So this alias serves as a good reminder of what we mapped to the property. 
   
-8. To finish the mapping, click **OK**. 
+8. To finish the mapping, select **OK**. 
     
      ![Finalize Mapping](../media/OTCSP_FinalizeMapping.png)
   
@@ -138,9 +138,9 @@ Now that we've mapped all the refiner-enabled managed properties that we want to
 
 After the catalog is reindexed, we can finally start to do some configuration. But before we start with the actual configuration, let's just verify that we can actually use the term set on the authoring site for faceted navigation.
   
-1. On your  *authoring site*  , go to **Site settings --\> Term store management**. 
+1. On your *authoring site*, go to **Site settings** > **Term store management**. 
     
-2. Click to mark the term set, in our scenario this is **Product Hierarchy**, and then click the tab **Intended Use**. 
+2. Click to mark the term set, in our scenario this is **Product Hierarchy**, and then select the tab **Intended Use**. 
     
 3. Verify that the check box **Use this Term Set for Faceted Navigation** is selected. 
     
@@ -157,33 +157,33 @@ Because we used the Product Catalog template when we created our authoring site 
 ### How to add refiners to all terms in a term set
 <a name="BKMK_HowToAddRefinersToAllTermsInATermSeT"> </a>
 
-1. Click your term set name. In our Contoso scenario, this is **Electronics**. Then click the **FACETED NAVIGATION** tab and **Customize refiners**. This opens a dialog. 
+1. Click your term set name. In our Contoso scenario, this is **Electronics**. Then, select the **FACETED NAVIGATION** tab and **Customize refiners**. This opens a dialog box. 
     
      ![Customize Refiners](../media/OTCSP_CustomizeRefiners.png)
   
-2. In the **Available refiners** section of the dialog, scroll down and select **RefinableString01**. This is the managed property we want to use for the  *Brand*  refiner. Notice that sample values are shown (a good sign that we're on the right path), together with the alias we gave this property when we mapped it to a crawled property. 
+2. In the **Available refiners** section of the dialog box, scroll down and select **RefinableString01**. This is the managed property we want to use for the  *Brand*  refiner. Note that sample values are shown (a good sign that we're on the right path), together with the alias we gave this property when we mapped it to a crawled property. 
     
      ![RefinableString01](../media/OTCSP_RefinableString01.png)
   
-3. To add this refiner to the term set, click **Add**. 
+3. To add this refiner to the term set, select **Add**. 
     
      ![Add RefinableString01](../media/OTCSP_AddRefinableString01.png)
   
-This moves the **RefinableString01** property over to the **Selected refiners** section. When a refiner is moved to the **Selected refiners** section, additional configuration options are shown. (We'll discuss them in step 7 and 8.) 
+This moves the **RefinableString01** property over to the **Selected refiners** section. When a refiner is moved to the **Selected refiners** section, additional configuration options are shown. (We'll discuss them in Steps 7 and 8.) 
     
      ![RefinableString01 Selected](../media/OTCSP_RefinableString01Selected.png)
   
-4. Repeat steps 1 - 3 to add **RefinableString02** (the  *Color*  refiner) and **RefinableInt01** (the  *Price*  refiner). 
+4. Repeat Steps 1 - 3 to add **RefinableString02** (the *Color* refiner) and **RefinableInt01** (the *Price* refiner). 
     
      ![All Top Refiners Selected](../media/OTCSP_AllTopRefinersSelected.png)
   
-5. To preview our refiners, click **Preview Refiners**. 
+5. To preview our refiners, select **Preview Refiners**. 
     
      ![Preview Top Refiners](../media/OTCSP_PreviewTopRefiners.png)
   
-So this is starting to look fairly good. However we want to have the  *Price*  refiner displayed first, and we would also like to change the intervals for the price values. For the  *Color*  refiner, we want to allow visitors to select multiple refiner values. 
+So this is starting to look fairly good. However we want to have the *Price* refiner appear first, and we would also like to change the intervals for the price values. For the *Color* refiner, we want to allow visitors to select multiple refiner values. 
     
-6. To move the Price refiner up, select **RefinableInt01** (notice the **Alias** name), and then click **Move up**. Move **RefinableInt01** up in the list until it is the first property in the **Selected refiners** section. 
+6. To move the Price refiner up, select **RefinableInt01** (note the **Alias** name), and then select **Move up**. Move **RefinableInt01** up in the list until it is the first property in the **Selected refiners** section. 
     
      ![Move Up](../media/OTCSP_MoveUp.png)
   
@@ -195,40 +195,40 @@ So this is starting to look fairly good. However we want to have the  *Price*  r
     
      ![RefinableString01 Multi-Value](../media/OTCSP_RefinableString01MultiValue.png)
   
-9. Click **Preview refiners** again. Notice that our  *Price*  refiner now shows our custom intervals, and is displayed with nice looking slider bars. Also our  *Color*  refiner now has check boxes that enable you to select multiple refiner values. 
+9. Select **Preview refiners** again. Notice that our *Price* refiner now shows our custom intervals, and appears with nice-looking slider bars. Also, our *Color* refiner now has check boxes that enable you to select multiple refiner values. 
     
      ![Preview Refiners Configured](../media/OTCSP_PreviewRefinersConfigured.png)
   
-10. To save the changes, click **OK** in the dialog  *and* **Save** in the Term Store Management Tool. 
+10. To save the changes, in the dialog box, select **OK**, and in the Term Store Management Tool, select **Save**. 
     
-     ![OK dialog](../media/OTCSP_OKDialogBox.png)
+     ![OK dialog box](../media/OTCSP_OKDialogBox.png)
   
-     ![Save dialog](../media/OTCSP_Save.png)
+     ![Save dialog box](../media/OTCSP_Save.png)
   
 Now that we have added the refiners that should be applied to all categories, the next task is to add the refiners that should be applied only to a subset of categories.
   
 ### How to add refiners to specific terms in a term set
 <a name="BKMK_HowToAddRefinersToSpecificlTermsInATermSeT"> </a>
 
-From [Stage 13: Plan to use refiners for faceted navigation in SharePoint Server - Part II](stage-13-plan-to-use-refiners-for-faceted-navigationpart-ii.md), remember that we want to add the refiners  *Zoom*  and  *Screen size*  to the  *Cameras*  category. We also want to add the refiners  *Mega pixels*  to the  *Digital cameras*  category, and  *Max ISO*  to the  *Digital SLR cameras*  category. 
+From [Stage 13: Plan to use refiners for faceted navigation in SharePoint Server - Part II](stage-13-plan-to-use-refiners-for-faceted-navigationpart-ii.md), remember that we want to add the refiners *Zoom* and *Screen size* to the *Cameras* category. We also want to add the refiners *Mega pixels* to the *Digital cameras* category, and *Max ISO* to the *Digital SLR cameras* category. 
   
-When adding refiners to a specific term in a term set, the procedure is identical for all terms. So, to save space, we'll only show how to add the refiners  *Zoom*  and  *Screen size*  to the  *Cameras*  term. 
+When adding refiners to a specific term in a term set, the procedure is identical for all terms. So, to save space, we'll only show how to add the refiners *Zoom* and *Screen size* to the *Cameras* term. 
   
-1. Click to select the term to which you want to add category specific refiners. In our scenario, this is **Cameras**. Click the **FACETED NAVIGATION** tab, **Stop inheriting**, and **OK** to verify. 
+1. Click to select the term to which you want to add category specific refiners. In our scenario, this is **Cameras**. Select the **FACETED NAVIGATION** tab, select **Stop inheriting**, and to verify, select **OK**. 
     
      ![Stop Inheriting Cameras](../media/OTCSP_StopInheritingCameras.png)
   
-2. Click **Customize refiners**. This opens a dialog. 
+2. Select **Customize refiners**. This opens a dialog box. 
     
      ![Cameras Customize Refiners](../media/OTCSP_CamerasCustomizeRefiners.png)
   
 3. To add and customize term-specific refiners, repeat the steps from the previous procedure.
     
-    In our scenario, we'll add the properties **RefinableString03** and **RefinableString04**. To verify that our refiners are added correctly, click **Preview refiners**. 
+    In our scenario, we'll add the properties **RefinableString03** and **RefinableString04**. To verify that our refiners are added correctly, select **Preview refiners**. 
     
      ![Camera Specific Refiners](../media/OTCSP_CameraSpecificRefiners.png)
   
-4. To save the changes, repeat step 10 from the previous procedure.
+4. To save the changes, repeat Step 10 from the previous procedure.
     
 Adding and configuring all the refiners we identified during our planning phase can take some time. The good news is that when we have finished this, it won't take much work to get the refiners to display on our website.
   

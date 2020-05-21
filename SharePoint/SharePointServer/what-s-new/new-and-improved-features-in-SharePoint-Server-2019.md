@@ -77,7 +77,7 @@ SharePoint Server 2019 now supports modern sharing experiences with a simplified
 
 ### Modern Site Pages, modern web parts and authoring
 
-SharePoint Server 2019 users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by clicking **New** > **Site Page**.
+SharePoint Server 2019 users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by selecting **New** > **Site Page**.
 
 ### Modern search experience
 SharePoint Server 2019 offers a modern search experience in addition to the classic one.

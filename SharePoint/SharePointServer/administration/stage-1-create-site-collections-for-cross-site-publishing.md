@@ -51,11 +51,11 @@ To create a Product Catalog Site Collection, go to **Central Administration** --
     
 5. In the field **Primary Site Collection Site Administrator**, enter the site administrator's **user name**. 
     
-The following screen shot provides more guidance.
+The following screenshot provides more guidance.
   
 ![Create Product Catalog](../media/OTCSP_CreateProductCatalog.PNG)
   
-Next, to create a Publishing Portal Site Collection, repeat the previous steps, except for the following difference: from the **Publishing** tab, choose **Publishing Portal**. The title of this site collection is **Contoso**. 
+Next, to create a Publishing Portal Site Collection, repeat the previous steps, except for the following difference: from the **Publishing** tab, select **Publishing Portal**. The title of this site collection is **Contoso**. 
   
 ![Create Publishing Portal](../media/OTCSP_CreatePublishingPortal.PNG)
   

@@ -114,7 +114,10 @@ When users share files and folders from File Explorer, the sharing option will o
 ### Privacy settings
 
 When setting up SharePoint Server, you'll be prompted to select if clients should send error reports and usage statistics back to Microsoft. If you enable the setting, individual users can opt out by following these steps:
-1.    Right-click the OneDrive cloud icon in the notification area, at the far right of the taskbar.
-2.    Click **Settings**. 
-3.    Click the **Settings** tab, and then clear the option under **Privacy**.
+
+1. At the far right of the taskbar, in the notification area, right-click the OneDrive cloud icon.
+
+2. Select **Settings**.
+
+3. Select the **Settings** tab, and then clear the option under **Privacy**.
 

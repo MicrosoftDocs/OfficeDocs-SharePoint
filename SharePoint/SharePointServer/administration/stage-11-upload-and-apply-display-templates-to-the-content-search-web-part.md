@@ -96,9 +96,9 @@ So now we're ready to apply these display templates to our Content Search Web Pa
 
 We first want to apply display templates to the CSWP on our category page. So, let's browse to "Audio."
   
-1. Click the **Settings** menu --> **Edit Page**. 
+1. Select the **Settings** menu > **Edit Page**. 
     
-2. In the Web Part, click the **Web Part Menu --\> Edit Web Part**. 
+2. In the Web Part, select the **Web Part** menu > **Edit Web Part**. 
     
 3. In the Web Part tool pane, in the **Display Templates** section, to apply the control display template, from the **Control** menu, select your control display template. In our Contoso scenario, this is **Contoso Electronics List with Paging**. 
     
@@ -108,7 +108,7 @@ We first want to apply display templates to the CSWP on our category page. So, l
     
      ![Apply Item Template](../media/OTCSP_ApplyItemTemplate.png)
   
-5. Click **OK**, and then save the page. 
+5. Select **OK**, and then save the page. 
     
      ![Audio 3 Items](../media/OTCSP_Audio3Items.png)
   
@@ -118,7 +118,7 @@ Suddenly, our "Audio" page is looking like it has been to one of those makeover 
     
      ![Number To Show](../media/OTCSP_NumberToShow.png)
   
-7. Click **OK**, and then save the page. 
+7. Select **OK**, and then save the page. 
     
      ![Audio 2](../media/OTCSP_Audio2.png)
   
@@ -128,9 +128,9 @@ Now our "Audio" page is looking really good. By using the paging arrows, we can 
   
 Now that our category page has a Contoso look, the next task is to apply display templates to the CSWP on our catalog item page.
   
-1. Browse to the catalog item page. In our scenario, we can do this by clicking the item "Northwind Traders 50W Car Radio" in the "Audio" category.
+1. Browse to the catalog item page. In our scenario, we can do this by selecting the item "Northwind Traders 50W Car Radio" in the "Audio" category.
     
-2. Repeat steps 1 - 7 in [How to apply display templates to a Content Search Web Part](stage-11-upload-and-apply-display-templates-to-the-content-search-web-part.md#BKMK_HowToApplyDisplayTemplatesToAContentSearchWebPart), but select the control and item display templates for the catalog item page.
+2. Repeat Steps 1 - 7 in [How to apply display templates to a Content Search Web Part](stage-11-upload-and-apply-display-templates-to-the-content-search-web-part.md#BKMK_HowToApplyDisplayTemplatesToAContentSearchWebPart), but select the control and item display templates for the catalog item page.
     
 And now your item details page also has a very nice Contoso look.
   

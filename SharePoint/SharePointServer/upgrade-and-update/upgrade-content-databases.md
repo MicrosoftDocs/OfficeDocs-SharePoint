@@ -19,8 +19,6 @@ description: "Learn how to upgrade content databases from SharePoint 2013 to Sha
 ---
 
 # Upgrade content databases to SharePoint Server 2016
-
- 
   
 When you upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server 2016. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server 2016.
   

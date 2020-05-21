@@ -47,6 +47,6 @@ Note that existing followed sites lists in SharePoint Server are not migrated to
   
 ## Setting up hybrid site following
 
-Hybrid site following is part of Hybrid Sites Features, and is available on both SharePoint Server 2013 and SharePoint Server 2016. See [Hybrid sites features and OneDrive for Business](sharepoint-hybrid-sites-and-search.md#SitesFeatures) for information about the other features included with Hybrid Sites Features. 
+Hybrid site following is part of Hybrid Sites Features, and is available on both SharePoint Server 2013 and SharePoint Server 2016. For info about the other features included with Hybrid Sites Features, see [Hybrid sites features and OneDrive for Business](sharepoint-hybrid-sites-and-search.md#SitesFeatures). 
   
 

@@ -43,11 +43,11 @@ To display hybrid search results in the SharePoint Server enterprise Search Cent
 
 In this procedure, you create a result source in the SharePoint Server deployment. This result source is a definition that specifies SharePoint in Microsoft 365 as a provider to get search results from. This definition specifies each of the following:
   
-- The SharePoint in Microsoft 365 URL to get search results from
+- SharePoint in Microsoft 365 URL to get search results from.
     
-- The protocol for getting those results
+- Protocol for getting those results.
     
-- The method for authenticating against SharePoint in Microsoft 365
+- Method for authenticating against SharePoint in Microsoft 365.
     
 Result sources can be created at the Search service application level, the site collection level, or the site level. In this procedure, you create the result source at the Search service application level. This will make the result source available to any query rule that is created at the same level, and also to any query rule that is created for a site collection or site that is in a web application that consumes the Search service application.
   

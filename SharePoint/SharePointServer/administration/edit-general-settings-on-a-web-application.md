@@ -77,7 +77,7 @@ Use the procedure described in this section to edit a SharePoint Server web appl
     
   - To disable security validation for sites on the web application, in the **Web Page Security Validation** section, from **Security validation is**, select **Off**. To change the expiration time for a security validation, change the settings for **Security validation expires** accordingly. 
     
-  - To disable the ability to send users their user name and password by e-mail, in the **Send User Name and Password in E-Mail** section, from **Send user name and password**, select **No**.
+  - To disable the ability to send users their user name and password by email, in the **Send User Name and Password in E-Mail** section, from **Send user name and password**, select **No**.
     
   - To deny pages in the _Layouts folder to reference site master pages for sites on the web application, in the **Master Page Settings for Application _Layouts Page**, from **Application _Layout pages reference site master pages**, select **No**.
     

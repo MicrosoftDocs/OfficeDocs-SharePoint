@@ -107,7 +107,7 @@ Use the following procedure to install prerequisites on each server in the farm.
   
 5. On the **License Terms for software products** page, review the terms, select the **I accept the terms of the License Agreement(s)** check box, and then select **Next**.
     
-6. If you see the **Your system needs to restart to continue** page, select **Finish** to restart the computer, and then repeat steps 2-4. 
+6. If you see the **Your system needs to restart to continue** page, select **Finish** to restart the computer, and then repeat Steps 2-4. 
     
 ## Install SharePoint Server 2016 on the farm servers
 <a name="InstallSP"> </a>

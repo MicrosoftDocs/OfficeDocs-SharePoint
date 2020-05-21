@@ -44,9 +44,9 @@ In hybrid SharePoint Server environments in which SharePoint in Microsoft 365 re
   
 ## Step 1: Install AD FS and the Web Application Proxy feature
 
-For information about installing AD FS in Windows Server 2012 R2, see [Active Directory Federation Services Overview](/windows-server/identity/active-directory-federation-services).
+For info about installing AD FS in Windows Server 2012 R2, see [Active Directory Federation Services Overview](/windows-server/identity/active-directory-federation-services).
   
-For information about installing the Web Application Proxy feature in Windows Server 2012 R2, see [Install Server Roles and Features on a Server Core Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj574158(v=ws.11)).
+For info about installing the Web Application Proxy feature in Windows Server 2012 R2, see [Install Server Roles and Features on a Server Core Server](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj574158(v=ws.11)).
   
 ## Step 2: Configure the Web Application Proxy
 
@@ -102,11 +102,11 @@ Where:
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|This is the thumbprint of the **Secure Channel SSL certificate**. The location of this certificate file is recorded in **Row 1** (Secure Channel SSL Certificate location and Filename) of **Table 4b: Secure Channel SSL Certificate**. |
    
-For additional information about the **Add-WebApplicationProxyApplication** cmdlet, see [Add-WebApplicationProxyApplication](/previous-versions/windows/powershell-scripting/dn283409(v=wps.630)).
+For additional infoabout the **Add-WebApplicationProxyApplication** cmdlet, see [Add-WebApplicationProxyApplication](/previous-versions/windows/powershell-scripting/dn283409(v=wps.630)).
   
 ## Validate the published application
 
-To validate the published application, use the **Get-WebApplicationProxyApplication** cmdlet. Type the following Microsoft PowerShell command. 
+To validate the published application, use the **Get-WebApplicationProxyApplication** cmdlet. Enter the following Microsoft PowerShell command:
   
 ```
 Get-WebApplicationProxyApplication |fl

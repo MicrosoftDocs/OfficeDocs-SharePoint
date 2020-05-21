@@ -42,17 +42,17 @@ First, remember how we can think about hit highlighting:
   
 ![Hit Highlighting Flow Chart](../media/OTCSP_HitHighlightingFlowChart.png)
   
-1. The managed properties that are listed in the **Hit-highlighted properties (JSON)** section of the Search Results Web Part and the "magical summary" property are passed to the  *HitHighlightedProperties*  property. 
+1. The managed properties that are listed in the **Hit-highlighted properties (JSON)** section of the Search Results Web Part and the "magical summary" property are passed to the *HitHighlightedProperties* property. 
     
-2. All values of the  *HitHighlightedProperties*  property are passed to the  *HitHighlightedSummary*  property. 
+2. All values of the *HitHighlightedProperties* property are passed to the  *HitHighlightedSummary*  property. 
     
-3. A truncated version of the values in  *HitHighlightedSummary*  is displayed in the Search Results Web Part with three dots at the end. 
+3. A truncated version of the values in *HitHighlightedSummary* appears in the Search Results Web Part with three dots at the end. 
     
-Also remember that each item display template contains a reference to the  *Item_CommonItem_Body*  display template, and that this template contains an  *onlick*  method that will result in automatically improved relevance based on the end-user's click behavior. 
+Also remember that each item display template contains a reference to the *Item_CommonItem_Body* display template, and that this template contains an *onlick* method that will result in automatically improved relevance based on the user's click behavior. 
   
 ![Common Item Reference](../media/OTCSP_CommonItemReference.png)
   
-So our strategy is this: create variables in the item display template that will be passed on and rendered by the  *Item_CommonItem_Body*  display template. 
+So our strategy is this: create variables in the item display template that will be passed on and rendered by the *Item_CommonItem_Body* display template. 
   
 Specifically, that means that we have to do the following:
   
@@ -60,9 +60,9 @@ Specifically, that means that we have to do the following:
     
 - Add the custom managed properties to an item display template.
     
-- In the item display template, create a variable that will be used by the property  *HitHighlightedSummary*  to display our two custom managed properties with hit highlighting. 
+- In the item display template, create a variable that will be used by the property *HitHighlightedSummary* to display our two custom managed properties with hit highlighting. 
     
-- In the item display template, leave the reference  `_#=ctx.RenderBody(ctx)=#_` so that the  *Item_ComonItem_Body*  display template will render the search result. This makes sure that we get automatically improved relevancy. 
+- In the item display template, leave the reference  `_#=ctx.RenderBody(ctx)=#_` so that the *Item_ComonItem_Body* display template will render the search result. This makes sure that we get automatically improved relevancy. 
     
 OK, now let's take it step-by-step, with examples of how we did this for our Search Center scenario.
   
@@ -73,11 +73,11 @@ First, you have to find the managed property names that correspond to the custom
   
 Next, you have to do some configuration on the **Search Results Web Part**. Here are the steps: 
   
-1. On the Search results page, choose the **Settings** menu, and then choose **Edit Page**. 
+1. On the Search results page, select the **Settings** menu, and then select **Edit Page**. 
     
-2. In the Search Results Web Part, choose **Web Part Menu** --> **Edit Web Part**. 
+2. In the Search Results Web Part, select **Web Part Menu** > **Edit Web Part**. 
     
-3. In the Web Part tool pane, choose to expand the **Display Templates** section, and then select **Use a single template to display items**. This will allow you to change the **Hit-highlighted properties (JSON)** field. 
+3. In the Web Part tool pane, select to expand the **Display Templates** section, and then select **Use a single template to display items**. This lets you change the **Hit-highlighted properties (JSON)** field. 
     
      ![Use Singel Template](../media/OTCSP_UseSingelTemplate.png)
   
@@ -85,23 +85,23 @@ Next, you have to do some configuration on the **Search Results Web Part**. Here
     
     "\<Managed property name\>"
     
-    In our Search Center scenario, we wanted to apply hit highlighting to the  *ContentSummaryOWSMTXT*  and the  *owstaxIdTechnicalSubject*  managed properties. 
+    In our Search Center scenario, we wanted to apply hit highlighting to the *ContentSummaryOWSMTXT* and the *owstaxIdTechnicalSubject* managed properties. 
     
      ![Highlighted Properties Added](../media/OTCSP_HighlightedPropertiesAdded.png)
   
-5. Select **Apply** to save the changes. This will close the **Display Templates** section. 
+5. Select **Apply** to save the changes. Thehe **Display Templates** section closes. 
     
-6. Select **Display Templates** to reopen the section, and select **Use result types to display items**. 
+6. To reopen the section, select **Display Templates**, and select **Use result types to display items**. 
     
      ![Expand Display Templates Section](../media/OTCSP_ExpandDisplayTemplatesSection.png)
   
-7. Click **OK** and save the page. 
+7. Select **OK** and save the page. 
     
     Next, you have to add the custom managed properties to an item display template. Here's what you should do:
     
 8. Open the item display template that belongs to the result type for which you want to customize search results.
     
-    In our Search Center scenario, this was  *TechNet content*  . 
+    In our Search Center scenario, this was *TechNet content*. 
     
 9. In the item display template, in the **ManagedPropertyMapping** tag, use the following syntax to add the custom managed properties that you want to display: 
     
@@ -146,15 +146,15 @@ After we made these changes, when users entered a query in the Search Center, th
   
 ![Search Results Details](../media/OTCSP_SearchResultsDetails.png)
   
-1. A custom icon
+- A custom icon
     
-2. The value of *Title* with hit highlighting 
+- The value of *Title* with hit highlighting 
     
-3. The value of *ContentSummaryOWSMTXT* with hit highlighting 
+- The value of *ContentSummaryOWSMTXT* with hit highlighting 
     
-4. The value of *owstaxIdTechnicalSubject* (The query words did not match the property value, but because of the variable that we created in step 10, the value is displayed.) 
+- The value of *owstaxIdTechnicalSubject* (The query words did not match the property value, but because of the variable that we created in step 10, the value appears.) 
     
-5. A link to the item in the list
+- A link to the item in the list
     
 We wanted to make one little change to how the value for *owstaxIdTechnicalSubject* appears. We wanted to give users a bit more context as to what this value represents. Therefore, we decided to add the text "Technical Subject:" before the value. Also, because this value is not always present for all list items, we decided it should only display when a value was present. 
   
@@ -162,7 +162,7 @@ To do this, we made a change to the variable that overrides the *HitHighlightedS
   
 ![Final Summary Variable](../media/OTCSP_FinalSummaryVariable.png)
   
-Notice that we added a slightly different color to the text "Technical Subject:". With this addition, the final search result is displayed as follows:
+Note that we added a slightly different color to the text "Technical Subject:". With this addition, the final search result is displayed as follows:
   
 ![Final Search Result](../media/OTCSP_FinalSearchResult.png)
   

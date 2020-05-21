@@ -48,6 +48,7 @@ This video shows a walkthrough of configuring hybrid taxonomy and hybrid content
 **Video: Configure hybrid taxonomy and content types**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/de549889-8831-4c29-a3f4-ffe8104dc0a5?autoplay=false]
+
 ## Migrate your taxonomy from SharePoint Server
 
 If you have an existing taxonomy in SharePoint Server, the best practice is to copy any term groups you want to be part of the shared taxonomy to SharePoint in Microsoft 365 before you configure hybrid SharePoint taxonomy. You can migrate additional taxonomy groups from SharePoint Server to SharePoint in Microsoft 365 to add to the shared taxonomy later, but if you do you may need to run the configuration wizard again to include them in the shared taxonomy.

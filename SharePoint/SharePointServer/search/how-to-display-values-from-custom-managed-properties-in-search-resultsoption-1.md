@@ -32,7 +32,7 @@ In this article, you'll learn:
 ## How to display a custom icon
 <a name="BKMK_HowtoDisplayaCustomIcon"> </a>
 
-In [Understanding how search results are displayed in SharePoint Server](understanding-how-search-results-are-displayed.md) we explained how the icons Word, PDF, and Excel are displayed for classic search results. In our Search Center scenario, we wanted to add the following custom icon next to all search results that belong to the newly created  *TechNet content*  result type: 
+In [Understanding how search results are displayed in SharePoint Server](understanding-how-search-results-are-displayed.md) we explained how the icons Word, PDF, and Excel are displayed for classic search results. In our Search Center scenario, we wanted to add the following custom icon next to all search results that belong to the newly created *TechNet content* result type: 
   
 TN
   
@@ -46,7 +46,7 @@ To display a custom icon for classic search results, here's what you should do:
   
 2. Open the item display template that is referenced from the result type for which you want to display a custom icon.
     
-    In our Search Center scenario, we also removed the if statement:  *if (ctx.CurrentItem.IsContainer)*  . 
+    In our Search Center scenario, we also removed the if statement: *if (ctx.CurrentItem.IsContainer)*. 
     
      ![Display Template Custom Icon](../media/OTCSP_DisplayTemplateCustomIcon.png)
   
@@ -75,21 +75,21 @@ Depending on your permission level, you can search for managed properties from t
    
 Here's what you should do:
   
-1. Go to **Site settings** --> **Search Schema**. 
+1. Go to **Site settings** > **Search Schema**. 
     
      ![Search Schema](../media/OTCSP_SearchSchema.png)
   
-2. On the **Managed Properties** page, in the **Managed property** field, type the name of the site column that you want to find the managed property name of. Remember that managed property names don't contain spaces. Therefore, if your site column name contains a space, leave it out. 
+2. On the **Managed Properties** page, in the **Managed property** field, enter the name of the site column that you want to find the managed property name of. Remember that managed property names don't contain spaces. Therefore, if your site column name contains a space, leave it out. 
     
-    In our Search Center scenario, we wanted to find the managed property name for the site column  *Content Summary*  . We entered  *ContentSummary*  in the **Managed property** field, and clicked the green arrow icon. 
+    In our Search Center scenario, we wanted to find the managed property name for the site column *Content Summary*. We entered *ContentSummary* in the **Managed property** field, and selected the green arrow icon. 
     
      ![Search Content Summary](../media/OTCSP_SearchContentSummary.png)
   
-    One search result was returned:  *ContentSummaryOWSMTXT*  . 
+    One search result was returned: *ContentSummaryOWSMTXT*. 
     
      ![Content Summary](../media/OTCSP_ContentSummary.png)
   
-    Because the **Content Summary** site column is of type  *Multiple lines of text*  , we knew this was the managed property name we wanted to use. 
+    Because the **Content Summary** site column is of type *Multiple lines of text*, we knew this was the managed property name we wanted to use. 
     
 3. Repeat the steps of this procedure to find the names of all of the managed properties that you want to display in your search results.
     
@@ -104,7 +104,7 @@ Here's what you should do:
   
 1. Open the item display template that belongs to the result type for which you want to customize search results.
     
-    In our Search Center scenario, this was  *TechNet content*  . 
+    In our Search Center scenario, this was *TechNet content*. 
     
 2. In the item display template, in the **ManagedPropertyMapping** tag, use the following syntax to add the custom managed properties that you want to display: 
 
@@ -112,7 +112,7 @@ Here's what you should do:
   '<Current item property name>':<Managed property name>'
   ```
 
- In our Search Center scenario, we wanted the values from the managed properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  to be displayed in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
+ In our Search Center scenario, we wanted the values from the managed properties *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject* to appear in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
     
      ![Add MPs](../media/OTCSP_AddMPs.png)
   
@@ -155,11 +155,11 @@ To better understand why the search results were displayed the way that they wer
   
 ![Display Template Flow](../media/OTCSP_DisplayTemplateFlow.png)
   
-1.  `ctx.CurrentItem.csr_Icon` points to the location of my custom icon. This variable is used by the  *Item_CommonItem_Body*  display template. 
+1.  `ctx.CurrentItem.csr_Icon` points to the location of my custom icon. This variable is used by the *Item_CommonItem_Body* display template. 
     
-2.  `_#=ctx.RenderBody(ctx)=#_` calls the  *Item_CommonItem_Body*  display template. (Remember [Understanding how item display templates and hit highlighting work in SharePoint Server](understanding-how-item-display-templates-and-hit-highlighting-work.md). The  *Item_CommonItem_Body*  display template displays the custom icon, title, and the link to the item.) 
+2.  `_#=ctx.RenderBody(ctx)=#_` calls the *Item_CommonItem_Body* display template. (Remember [Understanding how item display templates and hit highlighting work in SharePoint Server](understanding-how-item-display-templates-and-hit-highlighting-work.md). The *Item_CommonItem_Body* display template displays the custom icon, title, and the link to the item.) 
     
-3.  `_#= ctx.CurrentItem.ContentSummaryOWSMTXT =#_` and `_#= ctx.CurrentItem.owstaxIdTechnicalSubject =#_` display the values of the two managed properties,  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  . 
+3.  `_#= ctx.CurrentItem.ContentSummaryOWSMTXT =#_` and `_#= ctx.CurrentItem.owstaxIdTechnicalSubject =#_` display the values of the two managed properties,  *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject*. 
     
 To display the custom properties between the title and the link, you could take the  *Item_CommonItem_Body*  display template out of play by deleting the reference  `_#=ctx.RenderBody(ctx)=#_` from your custom display template. You could then add the properties in the order that you want them to display, for example as follows: 
   
@@ -169,15 +169,15 @@ The search result would then look like this:
   
 ![Results Without Common Reference](../media/OTCSP_ResultWithoutCommonReference.png)
   
-By working a bit more on the styling, you could have a good enough result. But, by deleting the reference to  `_#=ctx.RenderBody(ctx)=#_` ,the  *Item_CommonItem_Body*  display template is no longer used to display results. The  *Item_CommonItem_Body*  display template contains some functionality that will automatically improve the relevancy of your classic search results. So, before you delete the  `_#=ctx.RenderBody(ctx)=#_` reference, you should consider whether automatically improved relevancy is something that the users of your search site would benefit from. 
+By working a bit more on the styling, you could have a good enough result. But, by deleting the reference to  `_#=ctx.RenderBody(ctx)=#_` ,the *Item_CommonItem_Body* display template is no longer used to display results. The *Item_CommonItem_Body* display template contains some functionality that will automatically improve the relevancy of your classic search results. So, before you delete the  `_#=ctx.RenderBody(ctx)=#_` reference, you should consider whether automatically improved relevancy is something that the users of your search site would benefit from. 
   
 ## About click tracking and automatically improved relevancy
 <a name="BKMK_AboutClickTrackingandAutomaticallyImprovedRelevancy"> </a>
 
-The  *Item_CommonItem_Body*  display template contains an  *onlick*  method that tracks the click behavior of users. This tracking influences the relevancy of classic search results. For example, a search result that is often clicked by users will automatically be displayed higher up in the search results. 
+The *Item_CommonItem_Body* display template contains an *onlick* method that tracks the click behavior of users. This tracking influences the relevancy of classic search results. For example, a search result that is often clicked by users will automatically be displayed higher up in the search results. 
   
 > [!IMPORTANT]
-> If you want your classic search results to receive automatically improved relevancy based on the click behavior of users, do not delete the reference to  `_#=ctx.RenderBody(ctx)=#_`from the item display template. 
+> If you want your classic search results to receive automatically improved relevancy based on the click behavior of users, do not delete the reference to `_#=ctx.RenderBody(ctx)=#_` from the item display template. 
   
 In the next article, we'll explain how you can keep this reference, display custom properties between the title and link in the classic search results, and also apply hit highlighting to your custom properties.
   

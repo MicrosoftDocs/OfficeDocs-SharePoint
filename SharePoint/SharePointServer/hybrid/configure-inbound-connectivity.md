@@ -423,7 +423,7 @@ The protocol that you used is recorded in the Protocol of the extended web appli
    
 7. Select **Save**.
     
-    The URL that you specified in step 5 appears in the **Internal URL** column of the **Alternate Access Mappings** page. 
+    The URL that you specified in Step 5 appears in the **Internal URL** column of the **Alternate Access Mappings** page. 
     
 #### Create a CNAME record
 <a name="waam_createcname"> </a>

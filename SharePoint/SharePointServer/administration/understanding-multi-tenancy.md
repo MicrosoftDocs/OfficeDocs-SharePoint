@@ -250,7 +250,7 @@ Planning for user authentication types and methods should determine the followin
 
 SharePoint Server 2013 supports claims-based authentication. Active Directory Federation Services (AD FS) can be configured to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint Server 2013 web application. In this configuration, AD FS issues SAML-based security tokens consisting of claims so that client computers can access web applications that use claims-based authentication. You can use an alternative identity provider than AD FS. But it must support the WS-Federation standard. Also using AD FS configuration, custom code is required.
   
-For additional information about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+For additional info about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 ## Management and operational considerations
 <a name="begin"> </a>
@@ -259,7 +259,7 @@ This section discusses various management and operational considerations for a m
   
 ### Capacity management
 
-Capacity management is an ongoing process because no implementation remains static about content and usage. You have to plan for growth and change so that the SharePoint Server 2013 environment can continue to deliver an effective business solution. For additional information about capacity management in SharePoint Server 2013, see [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/ff758647(v=office.15)).
+Capacity management is an ongoing process because no implementation remains static about content and usage. You have to plan for growth and change so that the SharePoint Server 2013 environment can continue to deliver an effective business solution. For additional inf about capacity management in SharePoint Server 2013, see [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/ff758647(v=office.15)).
   
 #### App management
 

@@ -82,7 +82,7 @@ Before you can configure SharePoint Server to display hybrid federated search re
   
 - Perform at least one crawl in the SharePoint Server deployment, so that there is content in the SharePoint Server search index. (The SharePoint in Microsoft 365 content must also be crawled, but you don't have to attend to that because SharePoint in Microsoft 365 crawls its content automatically.) For more info, see [Manage crawling in SharePoint Server](../search/manage-crawling.md).
     
-- Create an enterprise Search Center in the SharePoint Server deployment by using the Enterprise Search Center template to create a new site collection. For more information, see [Create a Search Center site in SharePoint Server](../search/create-a-search-center-site.md).
+- Create an enterprise Search Center in the SharePoint Server deployment by using the Enterprise Search Center template to create a new site collection. For more info, see [Create a Search Center site in SharePoint Server](../search/create-a-search-center-site.md).
     
 ### Prerequisites for inbound hybrid search
 <a name="BKMK_PrereqsInbound"> </a>

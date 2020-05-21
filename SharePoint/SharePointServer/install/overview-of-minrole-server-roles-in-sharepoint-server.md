@@ -34,6 +34,7 @@ Learn about the new MinRole farm topology and its benefits in SharePoint Servers
 The following video gives a general overview what MinRole is and can do for your organization.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c5d811-fbce-4bac-b95e-820acf941b01?autoplay=false]
+
 ## Benefits of using the MinRole farm topology
 
 Some of the primary benefits to using MinRole are:

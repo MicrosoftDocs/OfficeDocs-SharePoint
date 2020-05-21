@@ -132,7 +132,7 @@ A result source can be created at the Search service application level, the site
     
     Your settings on the  _Search_service_application_name_:Add Result Source page then look something like this:
     
-     ![screen shot of Add Result Source page in SharePoint Server 2013](../media/BoxCutterSearch-AddResultSource.jpg)
+     ![screenshot of Add Result Source page in SharePoint Server 2013](../media/BoxCutterSearch-AddResultSource.jpg)
   
 8. To save the new result source, select **OK**. 
     

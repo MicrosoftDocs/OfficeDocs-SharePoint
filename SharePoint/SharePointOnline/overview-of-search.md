@@ -67,7 +67,7 @@ In lists and libraries, site columns store detailed information about each docum
 
 3. When a user enters a **query** in a search box, the query is sent to the search index. 
 
-4. The search engine finds **matching results** and sends them to a search results page.
+4. The search engine finds **matching results**, and sends them to a search results page.
 
 ![A schematic diagram showing the flow from lists/libraries to index, and from search page to index to search results page.](media/33dc2915-da17-4276-b8eb-79609d485d33.png)
 

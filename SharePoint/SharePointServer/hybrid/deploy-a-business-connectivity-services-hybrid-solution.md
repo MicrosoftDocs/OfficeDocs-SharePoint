@@ -81,11 +81,11 @@ The steps to completely deploy this scenario are presented in smaller procedures
 
 To configure the BCS hybrid solution:
   
-1. Follow the procedures in [Prepare your environment for the Business Connectivity Services hybrid scenario](prepare-your-environment.md) to configure the underlying settings and services needed. 
+1. To configure the underlying settings and services needed, follow the procedures in [Prepare your environment for the Business Connectivity Services hybrid scenario](prepare-your-environment.md). 
     
 2. If you want to use an external list, follow the procedures in [Deploy the Business Connectivity Services hybrid scenario as an external list](deploy-the-hybrid-scenario-as-an-external-list.md).
     
-3. Follow the procedures in [Validate the Business Connectivity Services hybrid scenario](validate-the-hybrid-scenario.md) to validate your setup. 
+3. To validate your setup, follow the procedures in [Validate the Business Connectivity Services hybrid scenario](validate-the-hybrid-scenario.md). 
     
 ## See also
 <a name="section4"> </a>

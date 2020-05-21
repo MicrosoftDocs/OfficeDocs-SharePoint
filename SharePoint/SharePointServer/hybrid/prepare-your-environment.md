@@ -79,7 +79,7 @@ Next, we need to add the credentials that we'll be using.
     
 2. In the **Windows User Name** box, enter the account name for the account that will have access to the OData service endpoint in  _domain\username_ format; for example, **Adventureworks\ODataAccount**.
     
-3. Type and confirm the password for that account, and then select **OK**.
+3. Enter and confirm the password for that account, and then select **OK**.
     
 ## Create and configure the OData service endpoint
 

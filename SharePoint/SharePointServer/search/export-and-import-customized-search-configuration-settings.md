@@ -59,11 +59,11 @@ Before you begin this operation, review the information in [Overview of customiz
   
 1. Verify that the user account that is performing this procedure has **Full control** permission level at the site collection. 
     
-2. In the site collection, on the **Settings** menu, click **Site settings**.
+2. In the site collection, on the **Settings** menu, select **Site settings**.
     
-3. On the **Site Settings** page, in the **Site Collection Administration** section click **Search Configuration Export**.
+3. On the **Site Settings** page, in the **Site Collection Administration** section, select **Search Configuration Export**.
     
-4. In the dialog, click **Save**.
+4. In the dialog box, select **Save**.
     
 ## Export customized search configuration settings from a site
 <a name="proc3"> </a>
@@ -72,11 +72,11 @@ Before you begin this operation, review the information in [Overview of customiz
   
 1. Verify that the user account that is performing this procedure has **Full control** permission level at the site. 
     
-2. On the site, on the **Settings** menu, click **Site settings**.
+2. On the site, on the **Settings** menu, select **Site settings**.
     
-3. On the **Site Settings** page, in the **Search** section click **Configuration Export**.
+3. On the **Site Settings** page, in the **Search** section, select **Configuration Export**.
     
-4. In the dialog, click **Save**.
+4. In the dialog box, select **Save**.
     
 ## Import customized search configuration settings to a site collection
 <a name="proc5"> </a>
@@ -85,11 +85,11 @@ Before you begin this operation, review the information in [Overview of customiz
   
 1. Verify that the user account that is performing this procedure has **Full control** permission level at the site collection. 
     
-2. In the site collection, in the **Settings** menu, click **Site settings**.
+2. In the site collection, in the **Settings** menu, select **Site settings**.
     
-3. On the **Site Settings** page, in the **Site Collection Administration** section, click **Search Configuration Import**.
+3. On the **Site Settings** page, in the **Site Collection Administration** section, select **Search Configuration Import**.
     
-4. On the **Import Search Configuration** page, either type the name and location of the search configuration file to import, or click **Browse** and select the file name and location of the search configuration file to import, and then click **Import**.
+4. On the **Import Search Configuration** page, either enter the name and location of the search configuration file to import, or select **Browse**, and select the file name and location of the search configuration file to import. Then, select **Import**.
     
 5. On the **Search Config List** page, verify that: 
     
@@ -106,11 +106,11 @@ Before you begin this operation, review the information in [Overview of customiz
   
 1. Verify that the user account that is performing this procedure has **Full control** permission level at the site. 
     
-2. On the site, on the **Settings** menu, click **Site settings**.
+2. On the site, on the **Settings** menu, select **Site settings**.
     
-3. On the **Site Settings** page, in the **Search** section click **Configuration Import**.
+3. On the **Site Settings** page, in the **Search** section, select **Configuration Import**.
     
-4. On the **Import Search Configuration** page, either type the name and location of the search configuration file to import, or click **Browse** and select the file name and location of the search configuration file to import, and then click **Import**.
+4. On the **Import Search Configuration** page, either enter the name and location of the search configuration file to import, or select **Browse**, and select the file name and location of the search configuration file to import. Then, select **Import**.
     
 5. On the **Search Config List** page, verify that: 
     
