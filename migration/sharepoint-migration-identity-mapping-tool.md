@@ -105,7 +105,7 @@ To generate the Identity Mapping Reports, you need to consent to allow assessmen
   
  **Option 1:** Run the assessment tool with the -ConfigureIdentityMapping switch. 
   
-This option will the SPO Identity Mapping tool to your tenant's Enterprise Applications section and allow anyone in your tenant to run the tool to perform identity mapping for migration in Microsoft 365.
+This option gives the SPO Identity Mapping tool access to your tenant's Enterprise Applications section. It allows anyone in your tenant to run the tool to perform identity mapping for migration in Microsoft 365.
   
 1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
     
