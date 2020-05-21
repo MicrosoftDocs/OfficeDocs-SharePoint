@@ -28,7 +28,7 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
 
 - Virtual desktops that persist between sessions. 
 - Non-persistent virtual desktops that use [Windows Virtual Desktop](https://www.microsoft.com/office-365/modern-desktop/enterprise/windows-virtual-desktop).
-- Non-persistent virtual desktops that have [FSLogix Apps 2.8 or later](https://docs.microsoft.com/en-us/fslogix/configure-profile-container-tutorial), [FSLogix Microsoft 365 Container](https://docs.microsoft.com/en-us/fslogix/configure-office-container-tutorial), and a Microsoft 365 subscription for all of the following operating systems:
+- Non-persistent virtual desktops that have [FSLogix Apps 2.8 or later](/fslogix/configure-profile-container-tutorial), [FSLogix Office Container](/fslogix/configure-office-container-tutorial), and a Microsoft 365 subscription for all of the following operating systems:
   - Windows 10, 32 or 64-bit (supports VHDX files) 
   - Windows 7, 32 or 64-bit (supports VHD files) 
   - Windows Server 2019 (supports VHDX)
