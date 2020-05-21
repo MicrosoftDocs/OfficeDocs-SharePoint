@@ -27,14 +27,14 @@ Previous versions of SharePoint Server had a built-in copy of ForeFront Identity
   
 It's also important to note, here, that Active Directory Import (sometimes called Active Directory Direct Import) is still included with SharePoint Server 2016, and is a User Profile Synchronization alternative that does not need a separate server installation. This means that SharePoint Server 2016 offers two options for User Profile Sync.
   
-A third option, if you're using Microsoft 365, is to use [hybrid profiles](https://go.microsoft.com/fwlink/p/?LinkID=746962) as part of a [SharePoint hybrid deployment](https://go.microsoft.com/fwlink/p/?LinkID=746868). With hybrid profiles, SharePoint Server 2016 on-premises profiles aren't necessary, as users are automatically redirected to their profile in SharePoint Online.
+A third option, if you're using Microsoft 365, is to use [hybrid profiles](https://go.microsoft.com/fwlink/p/?LinkID=746962) as part of a [SharePoint hybrid deployment](https://go.microsoft.com/fwlink/p/?LinkID=746868). With hybrid profiles, SharePoint Server 2016 on-premises profiles aren't necessary, as users are automatically redirected to their profile in SharePoint in Microsoft 365.
   
 Which option is right for you?
   
 |||||
 |:-----|:-----|:-----|:-----|
 ||**Microsoft Identity Manager 2016** <br/> |**Active Directory Import** <br/> |**Hybrid profiles** <br/> |
-|Pros  <br/> | Supports customized import.  <br/>  Supports bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Supports multi-forest scenarios.  <br/> | Very fast, high performance.  <br/>  Configurable inside of Central Administration. (Less complex.)  <br/> | Single profile for users who use both SharePoint Server and SharePoint Online.  <br/>  Can include Delve, depending on your Office 365 configuration.  <br/> |
+|Pros  <br/> | Supports customized import.  <br/>  Supports bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Supports multi-forest scenarios.  <br/> | Very fast, high performance.  <br/>  Configurable inside of Central Administration. (Less complex.)  <br/> | Single profile for users who use both SharePoint Server and SharePoint in Microsoft 365.  <br/>  Can include Delve, depending on your Office 365 configuration.  <br/> |
 |Cons  <br/> | A separate MIM server is recommended for use with your SharePoint Server farm.  <br/>  Customization can lead to more complex architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from AD DS to SharePoint Server).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos automatically.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are not supported.  <br/> | Can require a custom solution to move on-premises properties to Microsoft 365.  <br/> |
    
 These three options are mutually exclusive. Each is further described in the following sections.

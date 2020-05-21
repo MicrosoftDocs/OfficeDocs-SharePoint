@@ -1,4 +1,4 @@
-# [Migrate  to SharePoint Online](migrate-to-sharepoint-online.md)
+# [Migrate  to SharePoint](migrate-to-sharepoint-online.md)
 ##  SharePoint Migration Tool (SPMT)
 ### [Overview and Download](introducing-the-sharepoint-migration-tool.md)
 ### [Release Notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
@@ -27,8 +27,8 @@
 ### [FAQs](mm-faqs.md)
 ### [Troubleshooting](mm-troubleshoot.md)
 ### [Performance guidance for Migration Manager](mm-performance.md)
-## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
-## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
+## [Migrate to SharePoint using PowerShell](overview-SPMT-PS-cmdlets.md)
+## [Migrate to SharePoint using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Mover Migration Guides
 ### [File shares to Microsoft 365](mover-fileshare-to-o365.md)
 ### [Box to Microsoft 365](mover-box-to-o365.md)

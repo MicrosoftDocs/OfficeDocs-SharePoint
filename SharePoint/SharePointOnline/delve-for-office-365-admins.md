@@ -137,7 +137,7 @@ There are a few things you should check if one or more users in your organizatio
 3. Under **Delve (powered by Office Graph)**, make sure that you've selected **Enable Delve and related features**. 
     
     > [!NOTE]
-    > If you have a SharePoint Online standalone service (SharePoint Online Plan 1 or SharePoint Online Plan 2) you'll see the Delve setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet.
+    > If you have a SharePoint standalone service (SharePoint Plan 1 or SharePoint Plan 2) you'll see the Delve setting in the SharePoint admin center. However, users won't be able to use Delve or see Delve in the app launcher, because Delve is not available for standalone services yet.
   
  **Check that you're using an Office 365 plan that supports Delve**
 <a name="#BKMK_CheckPlan"></a>
@@ -175,48 +175,48 @@ There are a few things you should check if one or more users in your organizatio
     
 4. Verify that the user has one of the following combinations of licenses:
     
-  - Microsoft Office 365 Plan E1 plus SharePoint Online (Plan 1 or Plan 2)
+  - Microsoft Office 365 Plan E1 plus SharePoint (Plan 1 or Plan 2)
     
-  - Microsoft Office 365 Plan E3 plus SharePoint Online (Plan 1 or Plan 2)
+  - Microsoft Office 365 Plan E3 plus SharePoint (Plan 1 or Plan 2)
     
-  - Microsoft Office 365 Plan E5 plus SharePoint Online (Plan 1 or Plan 2)
+  - Microsoft Office 365 Plan E5 plus SharePoint (Plan 1 or Plan 2)
     
-  - Microsoft 365 Business Basic plus SharePoint Online (Plan 1 or Plan 2)
+  - Microsoft 365 Business Basic plus SharePoint (Plan 1 or Plan 2)
     
-  - Microsoft 365 Business Standard plus SharePoint Online (Plan 1 or Plan 2)
+  - Microsoft 365 Business Standard plus SharePoint (Plan 1 or Plan 2)
     
     For more info about how to manage licenses, see [Assign licenses to users in Microsoft 365 Apps for business](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
     
 ### Users see incorrect colleagues in Delve
 <a name="BKMK_DelveIncorrectColleague"> </a>
 
-If Azure Active Directory has outdated information or if hasn't been synced with the SharePoint Online user profiles, Delve may not show the most relevant colleagues.
+If Azure Active Directory has outdated information or if hasn't been synced with the SharePoint user profiles, Delve may not show the most relevant colleagues.
   
-Delve uses info from user profiles in Office 365 to determine who users in your organization work with most closely. These profiles contain information from Azure Active Directory and from SharePoint Online user profiles. Every 24 hours, people information from Azure Active Directory is automatically added to SharePoint Online user profiles.
+Delve uses info from user profiles in Office 365 to determine who users in your organization work with most closely. These profiles contain information from Azure Active Directory and from SharePoint user profiles. Every 24 hours, people information from Azure Active Directory is automatically added to SharePoint user profiles.
   
  **Solution(s)**
   
-- Check and clean up your Azure Active Directory, and wait for the information to sync to SharePoint Online user profiles.
+- Check and clean up your Azure Active Directory, and wait for the information to sync to SharePoint user profiles.
     
-- If you're an academic organization, the sync between Azure Active Directory and user profiles is not automatic. Your users will need to sign in to SharePoint Online at least once to create user profiles.
+- If you're an academic organization, the sync between Azure Active Directory and user profiles is not automatic. Your users will need to sign in to SharePoint at least once to create user profiles.
     
 - If you have an on-premises Active Directory and if you've set up Active Directory synchronization, make sure it's synced correctly with Azure Active Directory.
     
 ### Users don't see user pictures in Delve
 <a name="BKMK_DelvePictures"> </a>
 
-The user pictures in Delve are from the SharePoint Online user profiles. If there's no picture for a user in his or her SharePoint Online user profile, Delve has no picture to show.
+The user pictures in Delve are from the SharePoint user profiles. If there's no picture for a user in his or her SharePoint user profile, Delve has no picture to show.
   
  **Solution(s)**
   
-- Make sure that users upload their user profile picture to SharePoint Online. For more info, point users to [View and update your profile in Office Delve](https://support.office.com/article/4e84343b-eedf-45a1-aeb9-8627ccca14ba). 
+- Make sure that users upload their user profile picture to SharePoint. For more info, point users to [View and update your profile in Office Delve](https://support.office.com/article/4e84343b-eedf-45a1-aeb9-8627ccca14ba). 
     
 ### Users see documents from other users who have turned off Documents in Delve
 <a name="BKMK_DelveOff"> </a>
 
  Users can turn off **Documents** in Delve which means that they won't see any documents in Delve, and their **activities** and **relationships** in Office 365 won't be included in the Office Graph.
   
-However, if other users still have  *access*  to documents from a user who has turned off **Documents**, they can still see those documents in Delve, just as they can search for them in SharePoint Online.
+However, if other users still have  *access*  to documents from a user who has turned off **Documents**, they can still see those documents in Delve, just as they can search for them in SharePoint.
   
 Other info that's available to everyone in the organization will also be visible even if a user has turned off **Documents**, such as info from the Azure Active Directory.
   
@@ -270,7 +270,7 @@ Any document that a user can view or edit in Microsoft 365, can also appear in D
 ## About the Office Graph
 <a name="BKMK_AboutOfficeGraph"> </a>
 
-Delve is powered by the Office Graph. The Office Graph stores data representations about all Microsoft 365 items as nodes in a graph index. The Office Graph data is stored in the customer's partition of the SharePoint Online and Exchange Online environments, and has the same data protection and security as other customer data stored in the same cloud services. The Office Graph data and metadata are stored in the same data center region as the services the data was collected from. 
+Delve is powered by the Office Graph. The Office Graph stores data representations about all Microsoft 365 items as nodes in a graph index. The Office Graph data is stored in the customer's partition of the SharePoint and Exchange Online environments, and has the same data protection and security as other customer data stored in the same cloud services. The Office Graph data and metadata are stored in the same data center region as the services the data was collected from. 
   
 The Office Graph uses rich relationships to describe connections between items of different types. In addition, the Office Graph uses advanced analytics and machine learning techniques to create inferred rich relationships - what we call insights.
   
@@ -310,9 +310,9 @@ End users
 
 Admins
   
-- [SharePoint Online Planning Guide for Microsoft 365 Apps for business](introduction.md)
+- [SharePoint Planning Guide for Microsoft 365 Apps for business](introduction.md)
 
-- [Manage SharePoint Online user profiles from the SharePoint admin center](manage-user-profiles.md)
+- [Manage SharePoint user profiles from the SharePoint admin center](manage-user-profiles.md)
 
 - [Microsoft 365 integration with on-premises environments](/office365/enterprise/office-365-integration)
 

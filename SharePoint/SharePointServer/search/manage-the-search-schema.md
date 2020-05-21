@@ -221,7 +221,7 @@ You have to perform a full crawl of the content source that includes the crawled
 ## Add a managed property using tenant administration or site collection administration
 <a name="proc7"> </a>
 
-Tenant administrators and site collection administrators can create a search schema that is specific for their tenant or site collection. For more information how to manage the search schema for tenants and site collections, see [Manage the search schema in SharePoint Online](https://docs.microsoft.com/sharepoint/manage-search-schema).
+Tenant administrators and site collection administrators can create a search schema that is specific for their tenant or site collection. For more information how to manage the search schema for tenants and site collections, see [Manage the search schema in SharePoint](https://docs.microsoft.com/sharepoint/manage-search-schema).
   
 You can create new managed properties for a tenant or a site collection and map crawled properties to them. Alternatively, you can reuse existing, unused managed properties that do not have crawled properties mapped to them, and rename them using an **Alias**. Then, you must map crawled properties to the renamed managed property with the defined alias. 
   

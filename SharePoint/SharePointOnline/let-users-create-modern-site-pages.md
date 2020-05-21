@@ -25,9 +25,9 @@ description: "In this article, you'll learn how to allow or prevent users from a
 
 # Let users create modern site pages
 
-Using SharePoint Online pages is a great way to share ideas using images, Excel, Word and PowerPoint documents, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and they look great on any device. 
+Using SharePoint pages is a great way to share ideas using images, Excel, Word and PowerPoint documents, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and they look great on any device. 
   
-If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent the creation of SharePoint Online site pages by users. You can do this organization-wide by changing settings in the SharePoint admin center, or at the site level by using a Microsoft PowerShell script.
+If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent the creation of SharePoint site pages by users. You can do this organization-wide by changing settings in the SharePoint admin center, or at the site level by using a Microsoft PowerShell script.
   
 > [!NOTE]
 > The following procedures are for SharePoint pages only. When you allow creation of site pages, the **Add a page** command in the **Settings** menu creates new site pages. If you turn off the ability to create site pages, users can still add a SharePoint page from the **New** menu on the Home page and add from the classic page to a Wiki library using the same command. 
@@ -47,19 +47,19 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
     
 ## Prevent users from creating modern pages on a specific site by using PowerShell
 
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+1. [Download the latest SharePoint Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Install the [SharePoint Online Client Components SDK](https://www.microsoft.com/download/details.aspx?id=42038).
+2. Install the [SharePoint Client Components SDK](https://www.microsoft.com/download/details.aspx?id=42038).
     
-3. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
     > [!NOTE]
-    > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
+    > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
   
 4. Copy the following code and paste it into a text editor, such as Notepad. 
     
   ```PowerShell
-  # Load SharePoint Online Client Components SDK Module
+  # Load SharePoint Client Components SDK Module
   Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
 
   # Set script constants
@@ -129,19 +129,19 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
     
 ## Allow users to create modern pages on a specific site by using PowerShell
 
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+1. [Download the latest SharePoint Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Install the [SharePoint Online Client Components SDK](https://www.microsoft.com/download/details.aspx?id=42038).
+2. Install the [SharePoint Client Components SDK](https://www.microsoft.com/download/details.aspx?id=42038).
     
-3. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
     > [!NOTE]
-    > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
+    > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
   
 4. Copy the following code and paste it into a text editor, such as Notepad. 
     
   ```PowerShell
-  # Load SharePoint Online Client Components SDK Module
+  # Load SharePoint Client Components SDK Module
   Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
   
 # Set script constants

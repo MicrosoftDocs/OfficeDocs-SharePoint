@@ -21,7 +21,7 @@ description: "Learn how to upload page layouts and create new pages in a publish
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Most of the features described in this series are available only for private sites collections in SharePoint in Microsoft 365. 
   
 ## Quick overview
 

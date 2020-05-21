@@ -49,22 +49,22 @@ This article is for global and SharePoint admins in Microsoft 365.
 
 The list you create in these steps will be saved to a text file.
   
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+1. [Download the latest SharePoint Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br> On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Management Shell, go to Add or remove programs and uninstall "SharePoint Management Shell." <br> On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard.
       
 2. Save the following text to a PowerShell file. For example, you could save it to a file named OneDriveSites.ps1.
     
      ```PowerShell
-    $TenantUrl = Read-Host "Enter the SharePoint Online Tenant Admin Url"
+    $TenantUrl = Read-Host "Enter the SharePoint Tenant Admin Url"
     $LogFile = [Environment]::GetFolderPath("Desktop") + "\OneDriveSites.log"
     Connect-SPOService -Url $TenantUrl
     Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/'" | Select -ExpandProperty Url | Out-File $LogFile -Force
     Write-Host "Done! File saved as $($LogFile)."
      ```
 
-3. Open the SharePoint Online Management Shell. Navigate to the directory where the script has been saved and run:
+3. Open the SharePoint Management Shell. Navigate to the directory where the script has been saved and run:
 
     ```PowerShell
     PS C:\>.\OneDriveSites.ps1

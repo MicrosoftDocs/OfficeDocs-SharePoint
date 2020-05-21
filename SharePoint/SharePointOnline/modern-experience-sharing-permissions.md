@@ -23,7 +23,7 @@ description: "In this article, you'll learn about the available options for shar
 
 # Sharing and permissions in the SharePoint modern experience
 
-Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint Online, this remains true for some types of sites, but additional options are available.
+Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint, this remains true for some types of sites, but additional options are available.
 
 The three main types of sites in SharePoint are:
 
@@ -45,7 +45,7 @@ Microsoft Teams provides a hub for collaboration by bringing together various se
 
 For scenarios where a SharePoint site is used with Teams, we recommend doing all permission management through Teams. As with Microsoft 365 groups, team owners become site owners and team members become site members. View-only permissions are managed through the site.
 
-For details about how SharePoint and Teams interact, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
+For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive for Business interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
 
 ## Communication site permissions
 
@@ -85,9 +85,9 @@ For more about the different types of sharing links, see [Securing your data](ht
 
 ## Guest sharing
 
-The external sharing features of SharePoint Online let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online.
+The external sharing features of SharePoint let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. Planning for external sharing should be included as part of your overall permissions planning for SharePoint.
 
-SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. 
+SharePoint has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. 
 
 ![External sharing settings in the SharePoint admin center](media/externalsharing.png)
   
@@ -111,6 +111,6 @@ With Azure B2B integration, all guest users are added to the directory and can b
 
 [External sharing overview](external-sharing-overview.md)
 
-[Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md)
+[Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md)
 
 [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c)

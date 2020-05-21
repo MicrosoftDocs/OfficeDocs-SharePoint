@@ -34,7 +34,7 @@ See [Migration Assessment Scan: BCS](migration-assessment-scan-bcs.md) for more 
   
 ## Preparing for Migration
 
-Build out a plan for the external lists. It is possible to configure Hybrid BCS to access on-premises data from SharePoint Online, but this will require some planning. 
+Build out a plan for the external lists. It is possible to configure Hybrid BCS to access on-premises data from SharePoint, but this will require some planning. 
   
 See[Migration Assessment Scan: BCS](migration-assessment-scan-bcs.md) for more information about BCS 
   

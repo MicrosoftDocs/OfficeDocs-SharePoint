@@ -72,13 +72,13 @@ Here are the steps to add a custom action to the hover panel:
    ![Added MP](../media/OTCSP_AddedMP.png)
   
 3. > [!NOTE]
-    >You don't have do this step if you are using SharePoint Online. 
+    >You don't have do this step if you are using SharePoint in Microsoft 365. 
   
-    Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
+    Go to **Site settings** > **Search Result Types**. A **Property Sync** alert appears. 
     
       ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)
   
-   This alert is displayed because we have added a new managed property to an item display template (what we did in step 2). To update the result types with the newly added managed properties, choose **Update**. 
+   This alert appears because we have added a new managed property to an item display template (what we did in Step 2). To update the result types with the newly added managed properties, select **Update**. 
     
     ![Updated MPs](../media/OTCSP_UpdateMPs.png)
   
@@ -95,7 +95,7 @@ Here are the steps to add a custom action to the hover panel:
     
      ![New Action Displayed](../media/OTCSP_NewActionDisplayed.png)
   
-So now that you know how to change the way your classic search results are displayed, there is one more thing we should look at, and that is how you can change the text that is displayed in the Search Box Web Part.
+So now that you know how to change the way your classic search results are displayed, there is one more thing we should look at, and that is how you can change the text that appears in the Search Box Web Part.
   
 ### Next article in this series
 

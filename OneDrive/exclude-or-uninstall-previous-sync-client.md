@@ -28,7 +28,7 @@ Starting in October 2017, we've changed how the previous OneDrive for Business s
   
 - The previous OneDrive for Business sync app (Groove.exe) will no longer be installed by default with Office 2016 Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
 
-- When not in use or running, the previous OneDrive for Business sync app (Groove.exe) will be uninstalled, unless: (a) Groove is already configured to sync one or more SharePoint Online or SharePoint Server libraries or (b) a "PreventUninstall" registry key is present on the computer.
+- When not in use or running, the previous OneDrive for Business sync app (Groove.exe) will be uninstalled, unless: (a) Groove is already configured to sync one or more SharePoint or SharePoint Server libraries or (b) a "PreventUninstall" registry key is present on the computer.
 
 These changes won't affect customers who are already using the new OneDrive sync app (OneDrive.exe) to sync OneDrive and SharePoint files. Neither will these changes affect enterprises who have deployed Office with the traditional Windows Installer-based (MSI) method.
   

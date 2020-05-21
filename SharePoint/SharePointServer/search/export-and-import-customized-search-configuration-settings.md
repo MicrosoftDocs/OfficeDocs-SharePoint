@@ -20,7 +20,7 @@ description: "Learn how to export and import customized search configuration set
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-You can export and import customized search configuration settings between site collections and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models, and site search settings. It is also possible to export customized search configuration settings from a Search service application and import the settings to site collections and sites, but you cannot import customized search configuration settings to a Search service application. You can't export the default search configuration settings, and you can't import customized search configurations from SharePoint Server to SharePoint Online, or the other way around.
+You can export and import customized search configuration settings between site collections and sites. The settings that you export and import include all customized query rules, result sources, result types, ranking models, and site search settings. It is also possible to export customized search configuration settings from a Search service application and import the settings to site collections and sites, but you cannot import customized search configuration settings to a Search service application. You can't export the default search configuration settings, and you can't import customized search configurations from SharePoint Server to SharePoint in Microsoft 365, or the other way around.
   
 You can use the following methods to export or import customized search configuration settings:
   

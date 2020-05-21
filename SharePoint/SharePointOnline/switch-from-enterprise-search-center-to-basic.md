@@ -28,9 +28,9 @@ If you are currently using the Enterprise Search Center, you can easily replace 
 
 ## How to use Invoke-SPOSiteSwap to swap your Search Center sites
 
-1. [Download the latest version of the Microsoft SharePoint Online Services Module for Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=35588).
+1. [Download the latest version of the Microsoft SharePoint Services Module for Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=35588).
 
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
 3. Run the [Invoke-SPOSiteSwap](https://docs.microsoft.com/powershell/module/sharepoint-online/invoke-spositeswap?view=sharepoint-ps) cmdlet.
 

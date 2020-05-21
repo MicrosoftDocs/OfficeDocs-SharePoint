@@ -90,7 +90,7 @@ The following table describes the SharePoint groups that are created when you us
   
 ## Site administrators 
   
-||**SharePoint Online**|**SharePoint on-premises**|
+||**SharePoint**|**SharePoint on-premises**|
 |:-----|:-----|:-----|
 |Who can use this group?  <br/> |Yes  <br/> |Yes  <br/> |
    
@@ -100,11 +100,11 @@ In SharePoint on-premises, you designate a site collection administrator when yo
   
 ## SharePoint admins
   
-||**SharePoint Online**|**SharePoint On-premises**|
+||**SharePoint**|**SharePoint On-premises**|
 |:-----|:-----|:-----|
 |Who can use this group?  <br/> |Yes  <br/> |No, by default.  <br/> Requires special installation.  <br/> |
    
-In SharePoint Online, there is also a SharePoint admin. A SharePoint admin can use the SharePoint admin center or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
+In SharePoint, there is also a SharePoint admin. A SharePoint admin can use the SharePoint admin center or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
     
 If you are using SharePoint on-premises, you do not have a SharePoint admin or SharePoint admin center.
   

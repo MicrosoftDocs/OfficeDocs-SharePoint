@@ -17,7 +17,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - SPO_Content
 ms.assetid: 3f7cf424-3340-4010-ad3b-6aef0cd74428
-description: "Learn how to configure the Business Connectivity Services (BCS) hybrid scenario to access on-premises data through SharePoint Online."
+description: "Learn how to configure the Business Connectivity Services (BCS) hybrid scenario to access on-premises data through SharePoint in Microsoft 365."
 ---
 
 # Deploy a Business Connectivity Services hybrid solution in SharePoint
@@ -26,19 +26,19 @@ description: "Learn how to configure the Business Connectivity Services (BCS) hy
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   
-The Microsoft Business Connectivity Services (BCS) hybrid deployment scenario allows you to securely publish on-premises data to an external list or app for SharePoint in SharePoint Online. From there, users can view and edit the data, depending on the permissions that they have.
+The Microsoft Business Connectivity Services (BCS) hybrid deployment scenario allows you to securely publish on-premises data to an external list or app for SharePoint in Microsoft 365. From there, users can view and edit the data, depending on the permissions that they have.
   
 In this scenario, you will learn how to:
   
-- Configure your on-premises environment so that you can securely publish confidential business data to your SharePoint Online tenancy.
+- Configure your on-premises environment so that you can securely publish confidential business data to your SharePoint tenancy.
     
 - Create and configure an OData service endpoint and an external content type with Visual Studio 2012.
     
-- Prepare your SharePoint Online tenancy to host an app for SharePoint or an external list, which makes the external data available to your extranet users.
+- Prepare your SharePoint tenancy to host an app for SharePoint or an external list, which makes the external data available to your extranet users.
     
-- Create a connection settings object that tells Business Connectivity Services in SharePoint Online how to connect to the on-premises OData service endpoint.
+- Create a connection settings object that tells Business Connectivity Services in SharePoint how to connect to the on-premises OData service endpoint.
     
-- Deploy an app for SharePoint or external list to SharePoint Online.
+- Deploy an app for SharePoint or external list to SharePoint in Microsoft 365.
     
 - Validate and troubleshoot the BCS hybrid scenario.
     
@@ -46,21 +46,21 @@ In this scenario, you will learn how to:
 ## What these procedures help you deploy
 <a name="section2"> </a>
 
- BCS is a centralized infrastructure in SharePoint Server, Office 2016, and SharePoint Online that enables you to integrate data that is not in SharePoint products or Office 2016 into SharePoint Server. BCS implementations take many forms. This includes this hybrid form that uses SharePoint Online and SharePoint Server on-premises. These procedures show how to install and configure BCS to integrate data from an on-premises OData service endpoint into SharePoint Online. For this scenario, we use the AdventureWorks sample SQL database and create an OData service head for the database. The solution looks as shown in the following diagram. 
+ BCS is a centralized infrastructure in SharePoint Server, Office 2016, and SharePoint in Microsoft 365 that enables you to integrate data that is not in SharePoint products or Office 2016 into SharePoint Server. BCS implementations take many forms. This includes this hybrid form that uses SharePoint in Microsoft 365 and SharePoint Server on-premises. These procedures show how to install and configure BCS to integrate data from an on-premises OData service endpoint into SharePoint in Microsoft 365. For this scenario, we use the AdventureWorks sample SQL database and create an OData service head for the database. The solution looks as shown in the following diagram. 
   
 **Figure: Hybrid BCS solution**
 
 ![Shows the sequence of actions for BCS hybrid](../media/BCSHybridDiagram.jpg)
   
-1. An information worker logs on to SharePoint Online by using their federated account and opens an app for SharePoint or external list that needs data from an on-premises OData data source.
+1. An information worker logs on to SharePoint by using their federated account and opens an app for SharePoint or external list that needs data from an on-premises OData data source.
     
 2. The external list creates a request for the data and sends it to Business Connectivity Services. Business Connectivity Services looks at the connection settings object to see how to connect to the data source and which credentials to use.
     
 3. Business Connectivity Services retrieves two sets of credentials:
     
-1. The Secure Channel certificate from Secure Store in SharePoint Online. This is used for SharePoint Online authentication to the reverse proxy. 
+1. The Secure Channel certificate from Secure Store in SharePoint. This is used for SharePoint authentication to the reverse proxy. 
     
-2. An [OAuth](https://go.microsoft.com/fwlink/?LinkID=214783) token from the Azure AD Service. This is used for user authentication to the SharePoint Server farm. You gain access to the Azure AD service with your SharePoint Online subscription. It is a security token service that manages security tokens for users of SharePoint Online. 
+2. An [OAuth](https://go.microsoft.com/fwlink/?LinkID=214783) token from the Azure AD Service. This is used for user authentication to the SharePoint Server farm. You gain access to the Azure AD service with your SharePoint subscription. It is a security token service that manages security tokens for users of SharePoint. 
     
 4. Business Connectivity Services sends an HTTPS request to the published endpoint for the data source. The request includes the client certificate from Secure Store, the OAuth token, and a request for the data. The reverse proxy authenticates the request by using the client certificate and forwards it to the on-premises SharePoint Server farm. For more information about publishing SharePoint to the Internet, see [SharePoint publishing solution guide](https://go.microsoft.com/fwlink/?LinkId=253268) in the Forefront Technical Library. 
     

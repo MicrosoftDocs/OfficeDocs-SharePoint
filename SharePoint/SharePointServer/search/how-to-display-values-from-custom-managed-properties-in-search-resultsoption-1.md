@@ -134,22 +134,22 @@ Here's what you should do:
 4. Save the item display template.
     
    > [!NOTE]
-    > You don't have to do this step if you are using SharePoint Online. Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
+    > You don't have to do this step if you are using SharePoint in Microsoft 365. Go to **Site settings** > **Search Result Types**. A **Property Sync** alert appears. 
   
      ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)
   
-    This alert is displayed because we added managed properties to an item display template (what we did in step 2). To update the result types with the newly added managed properties, click **Update**. 
+    This alert is displayed because we added managed properties to an item display template (what we did in step 2). To update the result types with the newly added managed properties, select **Update**. 
     
      ![Updated MPs](../media/OTCSP_UpdateMPs.png)
   
     > [!IMPORTANT]
     > If you don't do this update, the newly added managed properties won't display in your search results. 
   
-    After we made this change, when users entered a query in our Search Center, both the value of  *ContentSummaryOWSMTXT*  and the value for  *owstaxIdTechnicalSubject*  were displayed in the search results. 
+    After we made this change, when users entered a query in our Search Center, both the value of *ContentSummaryOWSMTXT* and the value for *owstaxIdTechnicalSubject* appeared in the search results. 
     
      ![Search Results List Item](../media/OTCSP_SearchResultListItem.png)
   
-    Even though two custom properties were now displayed in the search results, the result wasn't completely right. For example, we wanted to display the two custom properties between the title and the link, and not below the link as was currently the case.
+    Even though two custom properties appeared in the search results, the result wasn't completely right. For example, we wanted to display the two custom properties between the title and the link, and not below the link as was currently the case.
     
 To better understand why the search results were displayed the way that they were, let's take a closer look at the customized item display template:
   
@@ -159,7 +159,7 @@ To better understand why the search results were displayed the way that they wer
     
 2.  `_#=ctx.RenderBody(ctx)=#_` calls the  *Item_CommonItem_Body*  display template. (Remember [Understanding how item display templates and hit highlighting work in SharePoint Server](understanding-how-item-display-templates-and-hit-highlighting-work.md). The  *Item_CommonItem_Body*  display template displays the custom icon, title, and the link to the item.) 
     
-3.  `_#= ctx.CurrentItem.ContentSummaryOWSMTXT =#_` and  `_#= ctx.CurrentItem.owstaxIdTechnicalSubject =#_` display the values of the two managed properties,  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  . 
+3.  `_#= ctx.CurrentItem.ContentSummaryOWSMTXT =#_` and `_#= ctx.CurrentItem.owstaxIdTechnicalSubject =#_` display the values of the two managed properties,  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  . 
     
 To display the custom properties between the title and the link, you could take the  *Item_CommonItem_Body*  display template out of play by deleting the reference  `_#=ctx.RenderBody(ctx)=#_` from your custom display template. You could then add the properties in the order that you want them to display, for example as follows: 
   

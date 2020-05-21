@@ -82,9 +82,9 @@ Limiting access allows users to remain productive while addressing the risk of a
   
 ## Limit access using PowerShell
 
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+1. [Download the latest SharePoint Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command:
 
@@ -103,7 +103,7 @@ To block or limit access to specific sites, you must set the organization-wide p
     
 2. Under **Users and groups**, select whether you want the policy to apply to all users or only specific security groups.
     
-3. Under **Cloud apps**, select **Microsoft 365 SharePoint Online**.
+3. Under **Cloud apps**, select **Microsoft 365 SharePoint**.
     
 4. Under **Conditions**, select **Client apps**, then select both **Mobile apps and desktop clients** and **Browser**.
     
@@ -113,14 +113,14 @@ To block or limit access to specific sites, you must set the organization-wide p
     
     ![Creating a policy in the Azure AD admin center to use app-enforced restrictions](media/c6467cd8-612d-4f8e-98bf-4913b35f49f1.png)
   
-7. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+7. [Download the latest SharePoint Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
+    > If you installed a previous version of the SharePoint Management Shell, go to Add or remove programs and uninstall "SharePoint Management Shell." 
     > 
     > On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see https://support.microsoft.com/help/13443/windows-which-operating-system. After the file downloads, run it and follow the steps in the Setup Wizard. 
     
-8. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+8. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 9. To block access to a single site, run the following command:
 
@@ -187,4 +187,4 @@ Blocking access and blocking download may impact the user experience in some app
 
 [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)
 
-[Control access to SharePoint Online and OneDrive data based on defined network locations](control-access-based-on-network-location.md)
+[Control access to SharePoint and OneDrive data based on defined network locations](control-access-based-on-network-location.md)

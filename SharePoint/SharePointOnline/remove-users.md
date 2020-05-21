@@ -1,5 +1,5 @@
 ---
-title: "Remove deleted users from SharePoint Online"
+title: "Remove deleted users from SharePoint"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
@@ -21,14 +21,14 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "In this article, you'll learn how to remove deleted users from SharePoint Online in different scenarios."
+description: "In this article, you'll learn how to remove deleted users from SharePoint in different scenarios."
 ---
 
-# How to remove deleted users from SharePoint Online
+# How to remove deleted users from SharePoint
 
 This article describes how to remove deleted users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or PUID issues only as advised by Microsoft Customer Support Services.
 
-- **Scenario 1: Someone is deleted from the Microsoft 365 admin center but still appears in SharePoint Online.**
+- **Scenario 1: Someone is deleted from the Microsoft 365 admin center but still appears in SharePoint.**
  
     When a user or guest browses to a SharePoint site, their user information is cached in the UserInfo list. When the user or guest is deleted, their related UserInfo information is not removed. Their profile still appears, which may cause confusion when people view the people picker.
 
@@ -58,11 +58,11 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 4. Select the user, click **Select**, and then click **Delete**.
  
-## Delete a guest by using the SharePoint Online Management Shell
+## Delete a guest by using the SharePoint Management Shell
 
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+1. [Download the latest SharePoint Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command:
  
@@ -85,7 +85,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 
 ## Remove people from the UserInfo list
 
-The preceding steps removed access to Microsoft 365 and SharePoint Online. However, the user or guest still appears in people searches and in the SharePoint Online Management Shell when you use the Get-SPOUser cmdlet. To completely remove people from SharePoint, you must remove them from the UserInfo list. There are two ways to do this:
+The preceding steps removed access to Microsoft 365 and SharePoint. However, the user or guest still appears in people searches and in the SharePoint Management Shell when you use the Get-SPOUser cmdlet. To completely remove people from SharePoint, you must remove them from the UserInfo list. There are two ways to do this:
 
 ### Site by site in SharePoint 
 
@@ -101,11 +101,11 @@ You'll have to browse to each site collection that the user or guest visited, an
 
 2. Select the person from the list, and then on the **Actions** menu, select **Delete Users from Site Collection**.
  
-### Using the SharePoint Online Management Shell
+### Using the SharePoint Management Shell
 
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+1. [Download the latest SharePoint Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command:
 

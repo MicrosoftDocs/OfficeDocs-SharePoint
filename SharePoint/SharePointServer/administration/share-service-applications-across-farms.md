@@ -41,9 +41,9 @@ Additionally, a SharePoint (N-1) farm can consume services from a SharePoint Ser
 
 Cross farm service publishing supported scenarios:
 
-- A SharePoint 2013 farm can consume services from a SharePoint 2016 farm
+- A SharePoint 2013 farm can consume services from a SharePoint 2016 farm.
 
-- A SharePoint 2016 farm can consume services from a SharePoint 2019 farm
+- A SharePoint 2016 farm can consume services from a SharePoint 2019 farm.
 
 > [!NOTE]
 > It is not supported to consume services from a server version which is more than one version behind. This means it is not supported for a SharePoint (N-2+) farm to consume services from a SharePoint (N) farm. For example, SharePoint 2013 cannot consume services from SharePoint 2019 as well as SharePoint 2010 cannot consume services from SharePoint 2016.

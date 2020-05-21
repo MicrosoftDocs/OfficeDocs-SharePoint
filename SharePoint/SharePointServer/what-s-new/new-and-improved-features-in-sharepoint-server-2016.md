@@ -178,9 +178,9 @@ In SharePoint Server 2016, new hybrid features are available to enable hybrid so
   
  **Hybrid sites**
   
- **Hybrid sites features** allows your users to have an integrated experience while using SharePoint Server and SharePoint Online sites: 
+ **Hybrid sites features** allows your users to have an integrated experience while using SharePoint Server and SharePoint in Microsoft 365 sites: 
   
-- Users can follow SharePoint Server and SharePoint Online sites, and see them consolidated in a single list.
+- Users can follow SharePoint Server and SharePoint in Microsoft 365 sites, and see them consolidated in a single list.
     
 - Users have a single profile in Office 365, where all of their profile info is stored.
     
@@ -213,7 +213,7 @@ For more info about the hybrid solutions available today, visit the [SharePoint 
 
 With this new capability, you can:
   
-- **Search for sensitive content** across SharePoint Server 2016, SharePoint Online, and OneDrive for Business. 
+- **Search for sensitive content** across SharePoint Server 2016, SharePoint in Microsoft 365, and OneDrive for Business. 
     
 - **Leverage 51 built-in sensitive information types** (credit cards, passport numbers, Social Security numbers, and more). 
     
@@ -221,11 +221,11 @@ With this new capability, you can:
     
 - Turn on **DLP Policies** from the Compliance Policy Center site collection to notify end users and administrators when documents with sensitive info are stored in SharePoint and automatically protect the documents from improper sharing. 
     
-Info about configuring and using this feature is documented in SharePoint Online and Microsoft 365. For more info, see:
+Info about configuring and using this feature is documented in SharePoint and Microsoft 365. For more info, see:
   
 - [Search for sensitive content in SharePoint and OneDrive documents](https://go.microsoft.com/fwlink/p/?LinkID=620221&amp;clcid=0x4809)
     
-- [Use DLP in SharePoint Online to identify sensitive data stored on sites](https://go.microsoft.com/fwlink/p/?LinkID=620288&amp;clcid=0x4809)
+- [Use DLP in SharePoint to identify sensitive data stored on sites](https://go.microsoft.com/fwlink/p/?LinkID=620288&amp;clcid=0x4809)
     
 ### Image and video previews
 <a name="preview"> </a>

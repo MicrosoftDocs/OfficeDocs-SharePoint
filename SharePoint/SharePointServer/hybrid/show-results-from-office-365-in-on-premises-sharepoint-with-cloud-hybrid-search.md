@@ -69,7 +69,7 @@ Follow these steps:
     
 3. In the **Protocol** section, select **Remote SharePoint**. 
     
-4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint Online that you want to get search results from, such as https://adventure-works.sharepoint.com. 
+4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint that you want to get search results from, such as https://adventure-works.sharepoint.com. 
     
 5. In the **Type** section, select **SharePoint Search Results**. 
     

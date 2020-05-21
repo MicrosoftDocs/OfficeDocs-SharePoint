@@ -21,7 +21,7 @@ description: "Learn how to configure the query in a Content Search Web Part on a
 
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Most of the features described in this series are available only for private sites collections in SharePoint in Microsoft 365. 
   
 ## Quick Overview
 

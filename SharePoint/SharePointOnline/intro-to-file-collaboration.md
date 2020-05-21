@@ -172,7 +172,7 @@ In the new SharePoint admin center, you can see [SharePoint activity and usage r
 
 ### Multi-geo
 
-If you're a multinational organization with data residency requirements, you can use Multi-Geo in Microsoft 365 to specify where files are stored. For info, see [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+If you're a multinational organization with data residency requirements, you can use Multi-Geo in Microsoft 365 to specify where files are stored. For info, see [Multi-Geo Capabilities in OneDrive and SharePoint in Microsoft 365](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 ### Unified search
 
@@ -186,11 +186,11 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
     ![The Active Sites page in the SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
 
-- **Microsoft PowerShell**. The SharePoint Online Management Shell is a PowerShell module that lets you run command-line operations. It makes performing batch operations more efficient, and is the only way to perform some management tasks in SharePoint and OneDrive. [Get started with the SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+- **Microsoft PowerShell**. The SharePoint Management Shell is a PowerShell module that lets you run command-line operations. It makes performing batch operations more efficient, and is the only way to perform some management tasks in SharePoint and OneDrive. [Get started with the SharePoint Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
 ## Prerequisites
 
-**Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint Online service description](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, Advanced eDiscovery. For info, [see Office 365 platform service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
+**Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint service description](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, Advanced eDiscovery. For info, [see Office 365 platform service description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
 
 **Assign the SharePoint admin role**. Users assigned this role will have access to the SharePoint admin center and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](https://docs.microsoft.com/sharepoint/sharepoint-admin-role).
 
@@ -248,7 +248,7 @@ To set up external sharing in your organization, you need to make sure that sett
 
 ### Storage
 
-By default, file storage for team sites is managed automatically. If you prefer to control storage manually, see [Manage site storage limits](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits). For info about setting the default storage space for individual libraries in OneDrive, see [Set the default storage space for OneDrive users](https://docs.microsoft.com/onedrive/set-default-storage-space). For information about the amount of storage that comes with your plan, see [SharePoint Online limits](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+By default, file storage for team sites is managed automatically. If you prefer to control storage manually, see [Manage site storage limits](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits). For info about setting the default storage space for individual libraries in OneDrive, see [Set the default storage space for OneDrive users](https://docs.microsoft.com/onedrive/set-default-storage-space). For information about the amount of storage that comes with your plan, see [SharePoint limits](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 ![Managing site storage limits](media/site-storage-limits.png)
 

@@ -20,23 +20,23 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: f14dddb4-ee1a-4471-95bc-2ce41613442a
-description: "SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint Online. This gives you a single, consistent taxonomy no matter where your sites are located."
+description: "SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint. This gives you a single, consistent taxonomy no matter where your sites are located."
 ---
 
 # Plan hybrid SharePoint taxonomy and hybrid content types
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
-SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint Online. This gives you a single, consistent taxonomy no matter where your sites are located.
+SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint in Microsoft 365. This gives you a single, consistent taxonomy no matter where your sites are located.
   
-You can choose which term groups are shared between SharePoint Server and SharePoint Online and which are on-premises only or online only.
+You can choose which term groups are shared between SharePoint Server and SharePoint in Microsoft 365 and which are on-premises only or online only.
   
-The shared taxonomy is mastered in SharePoint Online and a read-only copy is kept updated in SharePoint Server. Shared terms, term sets, and groups are available in both locations.
+The shared taxonomy is mastered in SharePoint in Microsoft 365 and a read-only copy is kept updated in SharePoint Server. Shared terms, term sets, and groups are available in both locations.
 
 >[!IMPORTANT] 
-> Farm Administrators can modify Term Groups on-premises. These changes will not replicate to SharePoint Online. It is important that Farm Administrators be notified to not make changes on-premises.
+> Farm Administrators can modify Term Groups on-premises. These changes will not replicate to SharePoint in Microsoft 365. It is important that Farm Administrators be notified to not make changes on-premises.
   
-You also have the option of installing hybrid content types. This feature propagates updates made to your SharePoint Online content types to your SharePoint Server site collections.
+You also have the option of installing hybrid content types. This feature propagates updates made to your SharePoint in Microsoft 365 content types to your SharePoint Server site collections.
   
 ## Prerequisites
 
@@ -46,25 +46,25 @@ Hybrid SharePoint taxonomy and hybrid content types are available in SharePoint 
     
 - Hybrid content types requires the June 2017 public update or later.
     
-Configuration of both features uses the Hybrid Picker in the SharePoint Online admin center, which also has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint Online admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) as you plan your hybrid SharePoint taxonomy rollout. 
+Configuration of both features uses the Hybrid Picker in the SharePoint admin center, which also has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) as you plan your hybrid SharePoint taxonomy rollout. 
   
 The functionality and configuration procedures are the same for both versions of SharePoint Server.
   
-As with all hybrid scenarios, hybrid SharePoint taxonomy and hybrid content types both rely on your [user accounts being synchronized between SharePoint Server and SharePoint Online](/office365/enterprise/office-365-integration), though users whose accounts are not synchronized can still use the replicated and local term sets on-premises.
+As with all hybrid scenarios, hybrid SharePoint taxonomy and hybrid content types both rely on your [user accounts being synchronized between SharePoint Server and SharePoint in Microsoft 365](/office365/enterprise/office-365-integration), though users whose accounts are not synchronized can still use the replicated and local term sets on-premises.
   
 ## How hybrid SharePoint taxonomy works
 
-Hybrid SharePoint taxonomy works by replicating changes that you make to your taxonomy in SharePoint Online to your term store in SharePoint Server. Replication is done at the term group level. Groups that are replicated via hybrid SharePoint taxonomy are set to read-only in SharePoint Server and can only be updated in SharePoint Online. (A term store administrator can still update the SharePoint Server groups, but such updates will be overwritten during the next replication.)
+Hybrid SharePoint taxonomy works by replicating changes that you make to your taxonomy in SharePoint in Microsoft 365 to your term store in SharePoint Server. Replication is done at the term group level. Groups that are replicated via hybrid SharePoint taxonomy are set to read-only in SharePoint Server and can only be updated in SharePoint in Microsoft 365. (A term store administrator can still update the SharePoint Server groups, but such updates will be overwritten during the next replication.)
   
-You choose the groups that you want to share across SharePoint Server and SharePoint Online. System and special groups (the System, Search, SearchDirectories, and People groups) cannot be replicated, but any other groups that you create can be. (Be sure you're not reusing terms between groups that you replicate and groups that you don't replicate.)
+You choose the groups that you want to share across SharePoint Server and SharePoint in Microsoft 365. System and special groups (the System, Search, SearchDirectories, and People groups) cannot be replicated, but any other groups that you create can be. (Be sure you're not reusing terms between groups that you replicate and groups that you don't replicate.)
   
-The Taxonomy Groups Replication SharePoint Server timer job polls SharePoint Online for taxonomy changes on a daily basis and replicates them to the SharePoint Server taxonomy store. This timer job performs a daily update of changes and a weekly full replication. You can reschedule the timer job to meet your needs or run it manually when you want to force an update.
+The Taxonomy Groups Replication SharePoint Server timer job polls SharePoint in Microsoft 365 for taxonomy changes on a daily basis and replicates them to the SharePoint Server taxonomy store. This timer job performs a daily update of changes and a weekly full replication. You can reschedule the timer job to meet your needs or run it manually when you want to force an update.
   
  **On-premises taxonomy**
   
-If you already have a taxonomy in SharePoint Server, you can copy it to SharePoint Online by using PowerShell. This allows you to create your master taxonomy from your existing SharePoint Server and SharePoint Online taxonomies, while maintaining the IDs of the terms, term sets, and term groups in those taxonomies.
+If you already have a taxonomy in SharePoint Server, you can copy it to SharePoint in Microsoft 365 by using PowerShell. This allows you to create your master taxonomy from your existing SharePoint Server and SharePoint in Microsoft 365 taxonomies, while maintaining the IDs of the terms, term sets, and term groups in those taxonomies.
   
-We recommend that you copy your taxonomy to SharePoint Online before you set up hybrid SharePoint taxonomy. You can do so at a later time, but you'll have to rerun the Hybrid Picker configuration wizard in order to turn on replication for those groups.
+We recommend that you copy your taxonomy to SharePoint in Microsoft 365 before you set up hybrid SharePoint taxonomy. You can do so at a later time, but you'll have to rerun the Hybrid Picker configuration wizard in order to turn on replication for those groups.
   
  **Local term sets**
   
@@ -72,9 +72,9 @@ You can continue to work with local term sets in both locations. They remain loc
   
 ## How hybrid content types work
 
-If you already have content types in SharePoint Server, you can copy them to SharePoint Online by using PowerShell. This allows you to create your master content types list from your existing SharePoint Server and SharePoint Online content types. You control which content types are shared across SharePoint Online and SharePoint Server.
+If you already have content types in SharePoint Server, you can copy them to SharePoint in Microsoft 365 by using PowerShell. This allows you to create your master content types list from your existing SharePoint Server and SharePoint in Microsoft 365 content types. You control which content types are shared across SharePoint in Microsoft 365 and SharePoint Server.
   
-We recommend that you copy your content types to SharePoint Online before you set up hybrid content types.
+We recommend that you copy your content types to SharePoint in Microsoft 365 before you set up hybrid content types.
   
 ## Get set up
 

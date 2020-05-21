@@ -55,9 +55,9 @@ See [Stopping replication of taxonomy groups](https://docs.microsoft.com/sharepo
 
 See [Manage hybrid self-service site creation](https://docs.microsoft.com/sharepoint/hybrid/hybrid-self-service-site-creation#manage-hybrid-self-service-site-creation).
 
-## Removing the Azure Access Control Service Application Proxy and SharePoint Online Application Principal Management Service Application Proxy
+## Removing the Azure Access Control Service Application Proxy and SharePoint Application Principal Management Service Application Proxy
 
-The final step to removing hybrid is to delete the **Azure Access Control Service Application Proxy** and **SharePoint Online Application Principal Management Service Application Proxy** created by the hybrid picker.
+The final step to removing hybrid is to delete the **Azure Access Control Service Application Proxy** and **SharePoint Application Principal Management Service Application Proxy** created by the hybrid picker.
 
 1. In the **Central Administration** website, select **Application Management**.
 2. In the **Application Management** page, select **Manage service applications**.

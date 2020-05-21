@@ -122,7 +122,7 @@
 ### [User profiles]()
 #### [Manage user profiles](manage-user-profiles.md)
 #### [Add and edit user profile properties](add-and-edit-user-profile-properties.md)
-#### [Remove users from SharePoint Online](remove-users.md)
+#### [Remove users from SharePoint](remove-users.md)
 ### [BCS connections]()
 #### [Manage BCS applications](manage-business-connectivity-service-applications.md)
 #### [Create or edit Secure Store Target Application](create-or-edit-secure-store-target-application.md)

@@ -34,7 +34,7 @@ This article describes Web Application Proxy and helps you set it up to use as a
 
 Web Application Proxy is a Remote Access service in Windows Server 2012 R2 that publishes web applications that users can interact with from many devices. It also includes proxy functionality for Active Directory Federation Services (AD FS). This helps system administrators provide secure access to an AD FS server. By using Web Application Proxy, system administrators choose how users authenticate themselves to a web application and can determine who is authorized to use one.
   
-In hybrid SharePoint Server environments in which SharePoint Online requests data from SharePoint Server, you can use Windows Server 2012 R2 with Web Application Proxy as a reverse proxy device to securely relay requests from the Internet to your on-premises SharePoint Server farm. 
+In hybrid SharePoint Server environments in which SharePoint in Microsoft 365 requests data from SharePoint Server, you can use Windows Server 2012 R2 with Web Application Proxy as a reverse proxy device to securely relay requests from the Internet to your on-premises SharePoint Server farm. 
   
 > [!IMPORTANT]
 > To use Web Application Proxy as a reverse proxy device in a hybrid SharePoint Server environment, you must also deploy AD FS in Windows Server 2012 R2. 
@@ -54,7 +54,7 @@ This section describes how to configure the Web Application Proxy feature after 
   
 1. Web Application Proxy matches the thumbprint against the secure channel certificate, which must be imported and installed in the local computer's Personal certificate store on the Web Application Proxy server.
     
-2. Configure Web Application Proxy with a published application that can accept inbound requests from your SharePoint Online tenant.
+2. Configure Web Application Proxy with a published application that can accept inbound requests from your SharePoint tenant.
     
 ### Import the Secure Channel SSL certificate
 
@@ -74,7 +74,7 @@ For information about how to import an SSL certificate, see [Import a Certificat
 > [!NOTE]
 > The steps in this section can be performed only by using Windows PowerShell. 
   
-To configure a published application to accept and relay requests from your SharePoint Online tenant, type the following Microsoft PowerShell command.
+To configure a published application to accept and relay requests from your SharePoint tenant, type the following Microsoft PowerShell command.
   
 ```
 Add-WebApplicationProxyApplication -ExternalPreauthentication ClientCertificate -ExternalUrl <external URL> -BackendServerUrl <bridging URL> -name <friendly name of the published application> -ExternalCertificateThumbprint <certificate thumbprint> -ClientCertificatePreauthenticationThumbprint <certificate thumbprint> -DisableTranslateUrlInRequestHeaders:$False -DisableTranslateUrlInResponseHeaders:$False
@@ -82,21 +82,21 @@ Add-WebApplicationProxyApplication -ExternalPreauthentication ClientCertificate 
 
 Where:
   
--  _\<externalUrl\>_ is the external URL for the web application. This is the public URL to which SharePoint Online will send inbound requests for SharePoint Server content and resources. 
+-  _\<externalUrl\>_ is the external URL for the web application. This is the public URL to which SharePoint in Microsoft 365 will send inbound requests for SharePoint Server content and resources. 
     
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The external URL is recorded in **Row 3** (External URL) of **Table 3: Public Domain Info** in the SharePoint Hybrid worksheet. |
    
--  _\<bridging URL\>_ is the internal URL you configured for the primary web application in your on-premises SharePoint Server farm. This is the URL to which Web Application Proxy will relay inbound requests from SharePoint Online. 
+-  _\<bridging URL\>_ is the internal URL you configured for the primary web application in your on-premises SharePoint Server farm. This is the URL to which Web Application Proxy will relay inbound requests from SharePoint in Microsoft 365. 
     
 |||
 |:-----|:-----|
-|![Edit icon](../media/mod_icon_edit_m.png)| The bridging URL is recorded in one the following locations in the SharePoint Hybrid worksheet:  <br/>  If your primary web application is configured with a  *host-named site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5a: Primary web application (host-named site collection)**.  <br/>  If your primary web application is configured with a  *path-based site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5b: Primary web application (path-based site collection without AAM)**.  <br/>  If your primary web application is configured with a  *path-based site collection with AAM*  , use the value in **Row 5** (Primary web application URL) of **Table 5c: Primary web application (path-based site collection with AAM)**.  <br/> |
+|![Edit icon](../media/mod_icon_edit_m.png)| The bridging URL is recorded in one the following locations in the SharePoint Hybrid worksheet:  <br/>  If your primary web application is configured with a *host-named site collection*, use the value in **Row 1** (Primary web application URL) of **Table 5a: Primary web application (host-named site collection)**.  <br/>  If your primary web application is configured with a  *path-based site collection*  , use the value in **Row 1** (Primary web application URL) of **Table 5b: Primary web application (path-based site collection without AAM)**.  <br/>  If your primary web application is configured with a  *path-based site collection with AAM*  , use the value in **Row 5** (Primary web application URL) of **Table 5c: Primary web application (path-based site collection with AAM)**.  <br/> |
    
 -  _\<friendly name of the published application\>_ is a name you choose to identify the published application in Web Application Proxy. 
     
--  _\<certificate thumbprint\>_ is the certificate thumbprint, as a string with no spaces, of the certificate to use for the address specified by the  _ExternalUrl_ parameter. This value should be entered twice, once for the  _ExternalCertificateThumbprint_ parameter and again for the  _ClientCertificatePreauthenticationThumbprint_ parameter. 
+-  _\<certificate thumbprint\>_ is the certificate thumbprint, as a string with no spaces, of the certificate to use for the address specified by the  _ExternalUrl_ parameter. This value should be entered twice, once for the _ExternalCertificateThumbprint_ parameter and again for the _ClientCertificatePreauthenticationThumbprint_ parameter. 
     
 |||
 |:-----|:-----|
@@ -138,9 +138,9 @@ The output should resemble the content in the following table.
 ## Troubleshooting
 <a name="troubleshooting"> </a>
 
-Web Application Proxy logs events and errors to the Application and Remote Access Windows Server event logs. Logging plays an important role in troubleshooting issues with connectivity and authentication between SharePoint Server and SharePoint Online. Identifying the component that is causing a connection failure can be challenging, and reverse proxy logs are the first place you should look for clues. Troubleshooting can involve comparing log events from Web Application Proxy event logs, SharePoint Server ULS logs, Windows Server event logs, and Internet Information Services (IIS) logs on multiple servers.
+Web Application Proxy logs events and errors to the Application and Remote Access Windows Server event logs. Logging plays an important role in troubleshooting issues with connectivity and authentication between SharePoint Server and SharePoint in Microsoft 365. Identifying the component that is causing a connection failure can be challenging, and reverse proxy logs are the first place you should look for clues. Troubleshooting can involve comparing log events from Web Application Proxy event logs, SharePoint Server ULS logs, Windows Server event logs, and Internet Information Services (IIS) logs on multiple servers.
   
-For more information on troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](/SharePoint/hybrid/hybrid).
+For more info about troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](/SharePoint/hybrid/hybrid).
   
 ## See also
 <a name="troubleshooting"> </a>

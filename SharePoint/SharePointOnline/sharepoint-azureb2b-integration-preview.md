@@ -55,7 +55,7 @@ To opt in to the Azure AD passcode authentication preview
 6. Select **Save**.
 
 To opt in to the SharePoint and OneDrive integration with Azure AD B2B
-1. Install the latest version of the [SharePoint Online Services Module for Windows PowerShell](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell) (minimum version 8924.1200).
+1. Install the latest version of the [SharePoint Services Module for Windows PowerShell](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell) (minimum version 8924.1200).
 2. Connect to your tenant by using [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice).
 3. Run the following cmdlets:
    ```PowerShell

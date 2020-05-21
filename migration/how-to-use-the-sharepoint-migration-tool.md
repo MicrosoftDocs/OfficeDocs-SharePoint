@@ -1,5 +1,5 @@
 ---
-title: "How to use SharePoint Migration tool - SharePoint Online"
+title: "How to use SharePoint Migration tool - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: The SharePoint Migration Tool copies your files from SharePoint on-premises document libraries or regular file shares to your SharePoint Online tenant.
+description: The SharePoint Migration Tool copies your files from SharePoint on-premises document libraries or regular file shares to your SharePoint tenant.
 ---
 
 # Using the SharePoint Migration Tool
 
-The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily copies them to your SharePoint Online tenant. It is available to all Microsoft 365 users.
+The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily copies them to your SharePoint tenant. It is available to all Microsoft 365 users.
   
 
 ## Current and pre-release versions
@@ -88,14 +88,14 @@ SPMT supports the following authentication methods:
 
 ### Where is your data currently located?
 
-Before you start using the SharePoint Migration Tool (SPMT), note where your data is located, and where you want those files located after migration. You will be prompted for the current location of your data files and the location of the SharePoint Online site collection where you want them copied. SPMT lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2010 or 2013 site, or from a local file share or network path.
+Before you start using the SharePoint Migration Tool (SPMT), note where your data is located, and where you want those files located after migration. You will be prompted for the current location of your data files and the location of the SharePoint site collection where you want them copied. SPMT lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2010 or 2013 site, or from a local file share or network path.
   
 - **SharePoint on-premises:** If you select the SharePoint on-premises option, you are prompted to enter the name of the SharePoint Server site where your files are located and prompted for your credentials for that site. You will indicate what document library you wish to migrate. 
     
     > [!NOTE]
     > SPMT supports SharePoint Server 2010* and 2013.
   
-- **File share:** If you select the file share option, you are prompted to enter the location of the file share, the URL of the SharePoint Online site, and the document library where they will be copied. The files are not deleted from the source.
+- **File share:** If you select the file share option, you are prompted to enter the location of the file share, the URL of the SharePoint site, and the document library where they will be copied. The files are not deleted from the source.
     
 ## Using the SharePoint Migration tool
 
@@ -122,7 +122,7 @@ To install the current release download, go to: [SharePoint Migration Tool](http
   
 6. Select the document library where your files are located. The dropdown contains all your possible choices.
     
-7. Enter the URL of the SharePoint Online site where you want your files migrated.
+7. Enter the URL of the SharePoint site where you want your files migrated.
     
 8. Select the document library to where your files will be copied.
     
@@ -138,7 +138,7 @@ To install the current release download, go to: [SharePoint Migration Tool](http
     
 4. Enter the source path of the file share where your content is located, and then select **Next**.
     
-5. Enter the URL of the SharePoint Online site where you want your files migrated, and then select **Next**.
+5. Enter the URL of the SharePoint site where you want your files migrated, and then select **Next**.
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
@@ -165,7 +165,7 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
     
 4. Enter the full path of your .CSV or .JSON file where your content is located, and then select **Add**.
     
-5. Enter the URL of the SharePoint Online site where you want your files migrated, and then select **Next**.
+5. Enter the URL of the SharePoint site where you want your files migrated, and then select **Next**.
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
@@ -209,7 +209,7 @@ After a migration task has completed, you can save it to be rerun at a later dat
 > [!NOTE]
 > If you wish to make changes to this setting, do so before your initial migration job is submitted. This setting is global; it will apply to all subsequent tasks you submit. 
   
-When this setting is on, an incremental check of the SharePoint Online target environment is performed. Files are evaluated as follows:
+When this setting is on, an incremental check of the SharePoint target environment is performed. Files are evaluated as follows:
   
 |**Status**|**Result**|
 |:-----|:-----|
@@ -235,7 +235,7 @@ When this setting is on, an incremental check of the SharePoint Online target en
   
 [Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
   
-[SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
+[SharePoint and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
   
 [SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
   

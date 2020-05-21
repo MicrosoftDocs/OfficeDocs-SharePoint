@@ -19,9 +19,9 @@ description: "Learn how to use SharePoint technologies to access data from a SQL
 
 # Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store
 
-As a SharePoint or global admin in Microsoft 365, you can use services in SharePoint Online to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.
+As a SharePoint or global admin in Microsoft 365, you can use services in SharePoint to access data from a Microsoft SQL Azure database. Because SQL Azure is a cloud-based relational database technology, the connection works completely in the cloud. This article describes how to use SharePoint technologies to access data from a SQL Azure database without having to write code.
   
-To use data from a SQL Azure database, you have to create an External List by using Business Connectivity Services (BCS) and Secure Store. BCS connects SharePoint solutions to external data, and Secure Store enables user authentication for the data. By using an External List, you can display the contents of a table from SQL Azure in SharePoint Online. Users can read, edit, and update the data, all in SharePoint Online. 
+To use data from a SQL Azure database, you have to create an External List by using Business Connectivity Services (BCS) and Secure Store. BCS connects SharePoint solutions to external data, and Secure Store enables user authentication for the data. By using an External List, you can display the contents of a table from SQL Azure in SharePoint. Users can read, edit, and update the data, all in SharePoint. 
   
 For more information about how to use BCS to use external data, see [Introduction to external data](https://support.office.com/article/676e60e7-d99f-463f-a173-65e9d63538c0).
   
@@ -36,11 +36,11 @@ The following table lists the steps and the required software for that step.
   
 |**What to do:**|**Where to do it:**|
 |:-----|:-----|
-|Step 1: Set permissions on the BCS Metadata Store  <br/> |SharePoint admin center (in SharePoint Online)  <br/> |
-|Step 2: Create a Secure Store Mapping  <br/> |SharePoint admin center (in SharePoint Online)  <br/> |
+|Step 1: Set permissions on the BCS Metadata Store  <br/> |SharePoint admin center (in SharePoint)  <br/> |
+|Step 2: Create a Secure Store Mapping  <br/> |SharePoint admin center (in SharePoint)  <br/> |
 |Step 3: Create an External Content Type (ECT)  <br/> |SharePoint Designer 2010 OR Visual Studio  <br/> |
-|Step 4: Create an External List  <br/> |SharePoint admin center (SharePoint Online)  <br/> |
-|Step 5: Grant permissions to manage your ECT  <br/> |SharePoint admin center (SharePoint Online)  <br/> |
+|Step 4: Create an External List  <br/> |SharePoint admin center (SharePoint)  <br/> |
+|Step 5: Grant permissions to manage your ECT  <br/> |SharePoint admin center (SharePoint)  <br/> |
    
 ## How BCS and Secure Store work together
 <a name="__toc350352765"> </a>
@@ -51,26 +51,26 @@ Business Connectivity Services (BCS) connects to data in an external data store.
     
 - A WCF web service that acts as an end-point for some other kind of data store 
     
-In SharePoint Online, BCS enables you to access an external data source by using the Secure Store. Secure Store keeps encrypted copies of credentials. It enables a SharePoint admin to associate a SharePoint group that uses a single SQL Azure account that can access the target database. When a SharePoint user browses the data in the External List, Secure Store uses the associated SQL Azure account to request the data from SQL.
+In SharePoint, BCS enables you to access an external data source by using the Secure Store. Secure Store keeps encrypted copies of credentials. It enables a SharePoint admin to associate a SharePoint group that uses a single SQL Azure account that can access the target database. When a SharePoint user browses the data in the External List, Secure Store uses the associated SQL Azure account to request the data from SQL.
   
-To make this possible, a SharePoint admin defines an External Content Type (ECT) in SharePoint Designer or in Visual Studio. Then, someone with appropriate permissions creates an External List on a SharePoint Online site by referencing the ECT. Users who have appropriate permission can view or update the list. 
+To make this possible, a SharePoint admin defines an External Content Type (ECT) in SharePoint Designer or in Visual Studio. Then, someone with appropriate permissions creates an External List on a SharePoint site by referencing the ECT. Users who have appropriate permission can view or update the list. 
   
 > [!NOTE]
->  SharePoint Online doesn't support offline use of external lists. 
+>  SharePoint doesn't support offline use of external lists. 
   
 This illustration shows how the connections between the different elements occur:
   
-![Diagram that shows the connectivity between a user, SharePoint Online, and an external data source in SQL Azure](media/4201a500-2932-4e53-867c-c911df2c729a.png)
+![Diagram that shows the connectivity between a user, SharePoint, and an external data source in SQL Azure](media/4201a500-2932-4e53-867c-c911df2c729a.png)
   
 The following list describes the steps in the connectivity process. Each step in this list corresponds to a number in the previous diagram.
   
-1. The user logs on to SharePoint Online and opens an External List. The Business Data Connectivity (BDC) service in SharePoint Online queries External Content Type for that list in the BDC metadata store that contains the list. The query asks for the following information: how to access the external system, which operations are supported, and what credentials to use. 
+1. The user logs on to SharePoint and opens an External List. The Business Data Connectivity (BDC) service in SharePoint queries External Content Type for that list in the BDC metadata store that contains the list. The query asks for the following information: how to access the external system, which operations are supported, and what credentials to use. 
     
 2. The BDC service runtime sends the request (SOAP over HTTP) to the endpoint of the SQL Azure Windows Communication Foundation (WCF) service.
     
 3. The SQL Azure service returns the data in a SOAP envelope.
     
-4. The SharePoint Online site displays the external list in the user's browser. The user can then perform all the configured operations on the data source for which the user has permissions.
+4. The SharePoint site displays the external list in the user's browser. The user can then perform all the configured operations on the data source for which the user has permissions.
     
 ## Step 1: Set permissions on the BCS Metadata store
 <a name="__toc350352766"> </a>
@@ -155,10 +155,10 @@ To create an ECT, follow these steps.
   
 1. Start Microsoft SharePoint Designer.
     
-2. To open the SharePoint Online team site at the root collection, select **Open Site**. The URL for the root collection will resemble this example URL: https://tailspintoys.sharepoint.com. SharePoint Online might display a prompt for valid credentials. 
+2. To open the SharePoint team site at the root collection, select **Open Site**. The URL for the root collection will resemble this example URL: https://tailspintoys.sharepoint.com. SharePoint might display a prompt for valid credentials. 
     
     > [!NOTE]
-    >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint Online site. Typically, a SharePoint or global admin performs these steps. <br> If you want to change to a different user, select **Add a new user**, select **Personal** or **Organization**, sign in to the site as the SharePoint or global admin, and select **Sign In**. 
+    >  If SharePoint displays a prompt for you to add a new user, ensure the user account you use has sufficient permissions. The user account must be able to make and test BCS changes to the SharePoint site. Typically, a SharePoint or global admin performs these steps. <br> If you want to change to a different user, select **Add a new user**, select **Personal** or **Organization**, sign in to the site as the SharePoint or global admin, and select **Sign In**. 
   
 3. After the site opens, in the **Site Objects** tree on the left of the application window, select **External Content Types**.
     
@@ -176,7 +176,7 @@ To create an ECT, follow these steps.
     
     ![Screenshot of the Add Connection dialog where you can choose a data source type. In this case, the type is SQL Server, which can be used to connect to SQL Azure.](media/0eaef7d3-8f67-403b-be39-a8c54922fd17.png)
     > [!NOTE]
-    >  .You cannot use on-premise data sources, such as .NET Type, with SharePoint Online. In addition, you cannot use a SQL Server data source that is on-premise with SharePoint Online. 
+    >  .You cannot use on-premise data sources, such as .NET Type, with SharePoint. In addition, you cannot use a SQL Server data source that is on-premise with SharePoint. 
   
 9. When you select SQL Server, specify the following:
     
@@ -222,12 +222,12 @@ When this step is complete, you are ready to create an External List to use the 
 ## Step 4: Create an External List
 <a name="__toc350352771"> </a>
 
-You can create an External List by using SharePoint Designer, or by adding an External List as an app on the SharePoint Online team site. This procedure describes how to create an External List from the team site in SharePoint Online.
+You can create an External List by using SharePoint Designer, or by adding an External List as an app on the SharePoint team site. This procedure describes how to create an External List from the team site in SharePoint.
   
-### Create an External List by using SharePoint Online
+### Create an External List by using SharePoint
 <a name="__toc350352772"> </a>
 
-1. Go to the home page of the SharePoint Online team site.
+1. Go to the home page of the SharePoint team site.
     
 2. Select **Settings**![Microsoft 365 Settings button](media/a9a59c0f-2e67-4cbf-9438-af273b0d552b.png) \> **Add an app**.
     
@@ -256,7 +256,7 @@ You can create an External List by using SharePoint Designer, or by adding an Ex
     
     ![The Create List and Form dialog with the selection made to create an External List, with all four fields filled out.](media/ab3907e2-f802-4e6e-a2df-73b678e1bae8.png)
   
-4. To create the External List in the SharePoint Online site, select **OK**, and then select **Save**. 
+4. To create the External List in the SharePoint site, select **OK**, and then select **Save**. 
     
 ## Step 5: Grant permissions to manage the ECT
 <a name="__toc350352774"> </a>
@@ -283,7 +283,7 @@ To finish setting up the External List, you have to grant permissions to the peo
     > [!NOTE]
     >  Make sure that at least one user or group has **Set Permissions** rights. If you don't assign someone this right, you might create an unmanageable BCS connection. 
   
-    ![Screenshot of the SetObject Permissions dialog in SharePoint Online. Use this dialog to set permissions for a specified External Content Type.](media/5e760b77-b0cc-4be9-870e-217e902d9245.png)
+    ![Screenshot of the SetObject Permissions dialog in SharePoint. Use this dialog to set permissions for a specified External Content Type.](media/5e760b77-b0cc-4be9-870e-217e902d9245.png)
   
 6. Select **Propagate permissions to all methods of this external content type**. Doing this overwrites any existing permissions. 
     

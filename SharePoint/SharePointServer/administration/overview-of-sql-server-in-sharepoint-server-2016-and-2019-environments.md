@@ -167,9 +167,9 @@ The following SharePoint Server 2016 business intelligence features are availabl
     
 - Report Alerting
     
-For more information, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409). 
+For more info, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409). 
   
-For more information, see [Supported Combinations of SharePoint and Reporting Services Server and Add-in (SQL Server 2016)](https://go.microsoft.com/fwlink/?LinkID=808645&amp;clcid=0x409) and [Install SQL Server 2016 Business Intelligence Features](https://go.microsoft.com/fwlink/?LinkID=808646&amp;clcid=0x409).
+For more info, see [Supported Combinations of SharePoint and Reporting Services Server and Add-in (SQL Server 2016)](https://go.microsoft.com/fwlink/?LinkID=808645&amp;clcid=0x409) and [Install SQL Server 2016 Business Intelligence Features](https://go.microsoft.com/fwlink/?LinkID=808646&amp;clcid=0x409).
   
 ### Power Pivot for SharePoint
 <a name="PP"> </a>

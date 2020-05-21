@@ -19,7 +19,7 @@ description: "Learn how to change the ranking of classic search results in Share
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
- **Audience:** SharePoint Server and SharePoint Online search administrators. 
+ **Audience:** SharePoint Server and SharePoint in Microsoft 365 search administrators. 
   
  **Before you start:**
   
@@ -35,7 +35,7 @@ To change the ranking of classic search results, you need:
     
 ## Why is search result ranking important?
 
-Whether you're working with an Enterprise Search Center on premises, with SharePoint Online, or with a cross-site publishing solution, your search results will be ranked. In most cases, this default search result ranking should be just fine.
+Whether you're working with an Enterprise Search Center on premises, with SharePoint in Microsoft 365, or with a cross-site publishing solution, your search results will be ranked. In most cases, this default search result ranking should be just fine.
   
 But, sometimes, you may want to influence the ranking of search results to make results even more relevant to your end-users. We recently published a set of  articles that explain how you can change the ranking of search results and that will help you understand how search result ranking works in SharePoint Server. (See references later in this article.)
   
@@ -47,7 +47,7 @@ Search results are ranked using a ranking model. A ranking model calculates the 
 
 If you are not satisfied with the search result ranking that SharePoint provides, we recommend that you add query rules to optimize search result ranking for your search scenarios.
   
-The good thing about query rules is that they are available to a large range of search administrators. You can add query rules to the Search service application as a search administrator on premises, or as a tenant administrator in SharePoint Online. You can also add and reuse query rules as a site collection administrator or site owner, both on premises and online.
+The good thing about query rules is that they are available to a large range of search administrators. You can add query rules to the Search service application as a search administrator on premises, or as a tenant administrator in SharePoint in Microsoft 365. You can also add and reuse query rules as a site collection administrator or site owner, both on premises and online.
   
 For each query rule, you can influence the way that you sort, rank and display search results. Each query rule consists of a query rule condition and a query rule action. Whenever a query matches a query rule condition, the query rule action that you specify in the query rule is triggered. After you have entered a condition, you can specify to:
   

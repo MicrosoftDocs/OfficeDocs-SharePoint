@@ -109,19 +109,19 @@ Next, you have to do some configuration on the **Search Results Web Part**. Here
 '<Current item property name>':<Managed property name>'
   ```
 
-   In our Search Center scenario, we wanted the values from the managed properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  to be displayed in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
+   In our Search Center scenario, we wanted the values from the managed properties *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject* to appear in the search result. To make the file easier to maintain, we named the current item properties the same as the managed properties. 
     
    ![Add MPs](../media/OTCSP_AddMPs.png)
   
-  Next, you have to create variables in the item display template that will be used and rendered by the  *Item_Common_Item_Body*  display template. Here's what you should do: 
+  Next, you have to create variables in the item display template that will be used and rendered by the *Item_Common_Item_Body* display template. Here's what you should do: 
     
 10. Because you have no guarantee that the values of your custom properties will contain any of the entered query words, that is, hit highlighting won't be used, you have to create variables that guarantee that that the value of your custom properties will be displayed regardless of hit highlighting.
     
-    The following screen shots show how we created two such variables for our custom properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  . 
+    The following screen shots show how we created two such variables for our custom properties *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject*. 
     
      ![Two Variables](../media/OTCSP_TwoVariables.png)
   
-11. In addition, we added a similar variable for the  *Title*  property. If you don't add this, the search results won't be rendered. 
+11. In addition, we added a similar variable for the *Title* property. If you don't add this, the search results won't be rendered. 
     
      ![Title Variable](../media/OTCSP_TitleVariable.png)
   
@@ -131,11 +131,11 @@ Next, you have to do some configuration on the **Search Results Web Part**. Here
   
 13. Save the item display template.
     > [!NOTE]
-    > You don't have to do this step if you are using SharePoint Online. Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
+    > You don't have to do this step if you are using SharePoint in Microsoft 365. Go to **Site settings** > **Search Result Types**. A **Property Sync** alert appears. 
   
      ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)
   
-    This alert is displayed because we added managed properties to an item display template (what we did in step 9). To update the result types with the newly added managed properties, choose **Update**. 
+    This alert appears because we added managed properties to an item display template (what we did in Step 9). To update the result types with the newly added managed properties, choose **Update**. 
     
      ![Updated MPs](../media/OTCSP_UpdateMPs.png)
   
@@ -148,17 +148,17 @@ After we made these changes, when users entered a query in the Search Center, th
   
 1. A custom icon
     
-2. The value of  *Title*  with hit highlighting 
+2. The value of *Title* with hit highlighting 
     
-3. The value of  *ContentSummaryOWSMTXT*  with hit highlighting 
+3. The value of *ContentSummaryOWSMTXT* with hit highlighting 
     
-4. The value of  *owstaxIdTechnicalSubject*  (The query words did not match the property value, but because of the variable that we created in step 10, the value is displayed.) 
+4. The value of *owstaxIdTechnicalSubject* (The query words did not match the property value, but because of the variable that we created in step 10, the value is displayed.) 
     
 5. A link to the item in the list
     
-We wanted to make one little change to how the value for  *owstaxIdTechnicalSubject*  was displayed. We wanted to give users a bit more context as to what this value represents. Therefore, we decided to add the text "Technical Subject:" before the value. Also, because this value is not always present for all list items, we decided it should only display when a value was present. 
+We wanted to make one little change to how the value for *owstaxIdTechnicalSubject* appears. We wanted to give users a bit more context as to what this value represents. Therefore, we decided to add the text "Technical Subject:" before the value. Also, because this value is not always present for all list items, we decided it should only display when a value was present. 
   
-To do this, we made a change to the variable that overrides the  *HitHighlightedSummary*  property: 
+To do this, we made a change to the variable that overrides the *HitHighlightedSummary* property: 
   
 ![Final Summary Variable](../media/OTCSP_FinalSummaryVariable.png)
   

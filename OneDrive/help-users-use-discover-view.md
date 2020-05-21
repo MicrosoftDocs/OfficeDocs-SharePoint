@@ -30,7 +30,7 @@ The more your users use OneDrive in Microsoft 365 to work together, by viewing, 
   
 The Discover view is powered by Office Delve, and both have a dependency on the Office Graph. It shows users the most relevant content based on who they work with and what they're working on. The information in the Discover view is tailored to each user. The Discover view doesn't change permissions and users will only see what they already have access to.
   
-As an admin, you can make sure that you allow your organization to access the Office Graph, and that you have set up other Microsoft 365 services that the Discover view uses, for instance SharePoint Online and Delve. You can also help people get started with the Discover view, and address questions that users might have.
+As an admin, you can make sure that you allow your organization to access the Office Graph, and that you have set up other Microsoft 365 services that the Discover view uses, for instance SharePoint and Delve. You can also help people get started with the Discover view, and address questions that users might have.
   
 ## What you need to get the Discover view
 <a name="WhatUNeed"> </a>
@@ -112,7 +112,7 @@ Any document that a user can view or edit in Microsoft 365, can also appear in t
   
 - Check the permission settings for the documents, sites and libraries and make sure that only the intended users have access to the content.
 
-- If you want to prevent specific documents from appearing in the Discover view, follow the steps in [Manage the search schema in SharePoint Online](/sharepoint/manage-search-schema). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in the Discover view or Delve.
+- If you want to prevent specific documents from appearing in the Discover view, follow the steps in [Manage the search schema in SharePoint](/sharepoint/manage-search-schema). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in the Discover view or Delve.
     
 ## About the Office Graph
 <a name="AboutOG"> </a>

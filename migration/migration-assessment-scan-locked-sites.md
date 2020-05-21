@@ -43,13 +43,13 @@ Ensure the list of locked sites is correct. If you have sites that are incorrect
   
 ## Post Migration
 
-To manage the lock status on sites on the target environment, leverage the SharePoint Online Management Shell.
+To manage the lock status on sites on the target environment, leverage the SharePoint Management Shell.
   
  **How to unlock a site collection on vNext**
   
 1. Use the Set-SPSite cmdlet from the PowerShell cmdlets to unlock sites.
     
-2. Download the cmdlets from the [SharePoint Online Management Shell download.](https://www.microsoft.com/download/details.aspx?id=35588) https://www.microsoft.com/download/details.aspx?id=35588 
+2. Download the cmdlets from the [SharePoint Management Shell download.](https://www.microsoft.com/download/details.aspx?id=35588) https://www.microsoft.com/download/details.aspx?id=35588 
     
 3. Launch SharePoint Management Shell
     
@@ -59,7 +59,7 @@ To manage the lock status on sites on the target environment, leverage the Share
   
 1. Use Set-SPSite from the PowerShell cmdlets to lock sites. This is similar to "No Access" in that users can't get to the site.
     
-2. Download the cmdlets from the [SharePoint Online Management Shell download.](https://www.microsoft.com/download/details.aspx?id=35588) https://www.microsoft.com/download/details.aspx?id=35588 
+2. Download the cmdlets from the [SharePoint Management Shell download.](https://www.microsoft.com/download/details.aspx?id=35588) https://www.microsoft.com/download/details.aspx?id=35588 
     
 3. Launch SharePoint Management Shell
     

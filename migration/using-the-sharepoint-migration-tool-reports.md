@@ -1,5 +1,5 @@
 ---
-title: "Assess SharePoint Migration Tool reports - SharePoint Online"
+title: "Assess SharePoint Migration Tool reports - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

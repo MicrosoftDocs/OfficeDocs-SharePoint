@@ -44,9 +44,9 @@ Profile redirection works as follows:
 ## Moving custom profile properties to Microsoft 365
 <a name="MovingProfileData"> </a>
 
-Many enterprises have business requirements to replicate custom attributes to the SharePoint Online user profile service. Some user attributes are synchronized from Active Directory Domain Services to Azure Active Directory. You can select which attributes are replicated from Active Directory Directory Services to Azure Active Directory. However, a standard set of attributes are replicated from Azure Active Directory to the SharePoint Online user profile store in Microsoft 365. This set of attributes cannot be customized like it can in SharePoint Server.
+Many enterprises have business requirements to replicate custom attributes to the SharePoint user profile service. Some user attributes are synchronized from Active Directory Domain Services to Azure Active Directory. You can select which attributes are replicated from Active Directory Directory Services to Azure Active Directory. However, a standard set of attributes are replicated from Azure Active Directory to the SharePoint user profile store in Microsoft 365. This set of attributes cannot be customized like it can in SharePoint Server.
   
-Where in SharePoint Server you might use Business Connectivity Services or Microsoft Identity Manager to import custom profile properties that are not located in Active Directory Directory Services, SharePoint Online does not support these solutions. For custom properties in SharePoint Online, a user profile bulk update API is available.
+Where in SharePoint Server you might use Business Connectivity Services or Microsoft Identity Manager to import custom profile properties that are not located in Active Directory Directory Services, SharePoint does not support these solutions. For custom properties in SharePoint, a user profile bulk update API is available.
   
 The bulk update process works like this:
   
@@ -54,14 +54,14 @@ The bulk update process works like this:
     
 2. The tool uploads the JSON file to Microsoft 365 and queues an import process.
     
-3. A timer job running in SharePoint Online checks for queued import requests and performs the import operation based on the API calls and information in the provided file.
+3. A timer job running in SharePoint checks for queued import requests and performs the import operation based on the API calls and information in the provided file.
     
-For more information about the bulk update API, see [Introducing Bulk UPA Custom Profile Properties Update API for SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=786318).
+For more info about the bulk update API, see [Introducing Bulk UPA Custom Profile Properties Update API for SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=786318).
   
 ## Working with Delve in SharePoint hybrid deployments
 <a name="MovingProfileData"> </a>
 
-If Delve is part of your Microsoft 365 organization, user profiles will be integrated with Delve, otherwise you'll have standard Microsoft 365 profiles. If you haven't used Delve before, you'll want to [learn more about it](https://support.office.com/article/1315665a-c6af-4409-a28d-49f8916878ca) and [how to administer it](/sharepoint/delve-for-office-365-admins). Delve user profiles contain the same properties as SharePoint Online profiles and can be imported in the same manner, as described above in [Moving custom profile properties to Microsoft 365](plan-hybrid-profiles.md#MovingProfileData).
+If Delve is part of your Microsoft 365 organization, user profiles will be integrated with Delve, otherwise you'll have standard Microsoft 365 profiles. If you haven't used Delve before, you'll want to [learn more about it](https://support.office.com/article/1315665a-c6af-4409-a28d-49f8916878ca) and [how to administer it](/sharepoint/delve-for-office-365-admins). Delve user profiles contain the same properties as SharePoint profiles and can be imported in the same manner, as described above in [Moving custom profile properties to Microsoft 365](plan-hybrid-profiles.md#MovingProfileData).
   
 ## Setting up hybrid profiles
 <a name="MovingProfileData"> </a>
@@ -73,5 +73,5 @@ Hybrid profiles is part of several hybrid feature bundles for SharePoint Server.
 
 #### Other Resources
 
-[About user profiles in SharePoint Online](/sharepoint/manage-user-profiles)
+[About user profiles in SharePoint](/sharepoint/manage-user-profiles)
 

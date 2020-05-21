@@ -86,10 +86,10 @@
         "feedback_product_url": { 
             "SharePointServer/search/*.md": "https://sharepoint.uservoice.com/forums/330321-sharepoint-search" },
         "searchScope": { 
-            "SharePointOnline/*.md": ["SharePoint Online"] },
+            "SharePointOnline/*.md": ["SharePoint"] },
         "titleSuffix": {
             "SharePointServer/*.md": "SharePoint Server",
-            "SharePointOnline/*.md": "SharePoint Online"
+            "SharePoint/*.md": "SharePoint"
         }
     },
     "template": [],

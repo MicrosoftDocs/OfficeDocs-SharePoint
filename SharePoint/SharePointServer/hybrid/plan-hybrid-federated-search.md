@@ -24,7 +24,7 @@ description: "Plan to configure a SharePoint hybrid environment so that user sea
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
-A SharePoint hybrid environment enables you to provide hybrid solutions that integrate functionality and data access between services and features of SharePoint Online in Microsoft 365 and SharePoint Server. With SharePoint hybrid federated search, user searches from a Search Center display hybrid results—that is, results from both the SharePoint Server 2013 and SharePoint Online search indexes.
+A SharePoint hybrid environment enables you to provide hybrid solutions that integrate functionality and data access between services and features of SharePoint in Microsoft 365 and SharePoint Server. With SharePoint hybrid federated search, user searches from a Search Center display hybrid results—that is, results from both the SharePoint Server 2013 and SharePoint in Microsoft 365 search indexes.
   
     
 ## Options for displaying hybrid federated search solutions
@@ -34,7 +34,7 @@ You can set up SharePoint hybrid federated search so that it works in either or 
   
 - User searches from the SharePoint Server Search Center display hybrid results. This is called outbound hybrid search. For information about how to set up outbound hybrid search, see [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md)
     
-- User searches from the SharePoint Online Search Center display hybrid results. This is called inbound hybrid search. For information about how to set up inbound hybrid search, see [Display hybrid federated search results in SharePoint Online](display-hybrid-federated-search-results-in-sharepoint-online.md)
+- User searches from the SharePoint Search Center display hybrid results. This is called inbound hybrid search. For information about how to set up inbound hybrid search, see [Display hybrid federated search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md)
     
 You can set up either search option first, and then optionally also set up the other one at any time.
   
@@ -45,7 +45,7 @@ You can set up either search option first, and then optionally also set up the o
 ## Choosing an option for displaying hybrid federated search
 <a name="BKMK_ChoosingSolution"> </a>
 
-How do you decide whether to set up hybrid federated search in the SharePoint Server farm (outbound hybrid search), or in SharePoint Online (inbound hybrid search), or both? That can depend in part on which deployment users are working in, what content they will need, and where that content is stored.
+How do you decide whether to set up hybrid federated search in the SharePoint Server farm (outbound hybrid search), or in SharePoint in Microsoft 365 (inbound hybrid search), or both? That can depend in part on which deployment users are working in, what content they will need, and where that content is stored.
   
 Outbound hybrid search is generally simplest hybrid federated search solution to configure, primarily because it doesn't require configuration of a reverse proxy device. It is also generally the safest hybrid federated search solution because, unlike inbound hybrid search, it doesn't involve receiving unsolicited calls from the Internet.
   
@@ -62,7 +62,7 @@ It can be reasonable to set up hybrid federated search in both deployments under
 - Most users are working in one deployment and most of the content is in the other deployment.
     
 > [!IMPORTANT]
-> If there is content in SharePoint Server that you don't want users of SharePoint Online to be able to view due to regulatory or legal or geopolitical constraints, then you should not set up any hybrid federated search in SharePoint Online that could return results that include that SharePoint Server content. For more information, see [Delete items from the search index or from search results in SharePoint Server](../search/delete-items-from-the-search-index-or-from-search-results.md). 
+> If there is content in SharePoint Server that you don't want users of SharePoint in Microsoft 365 to be able to view due to regulatory or legal or geopolitical constraints, then you should not set up any hybrid federated search in SharePoint in Microsoft 365 that could return results that include that SharePoint Server content. For more info, see [Delete items from the search index or from search results in SharePoint Server](../search/delete-items-from-the-search-index-or-from-search-results.md). 
   
 ## Prerequisites for hybrid federated search
 <a name="BKMK_Prereqs"> </a>
@@ -78,18 +78,18 @@ In this section:
 ### Prerequisites for outbound hybrid search
 <a name="BKMK_PrereqsOutbound"> </a>
 
-Before you can configure SharePoint Server to display hybrid federated search results, you have to complete all the steps in the [Configure hybrid federated search from SharePoint Server to SharePoint Online - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md). You must also do the following:
+Before you can configure SharePoint Server to display hybrid federated search results, you have to complete all the steps in the [Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md). You must also do the following:
   
-- Perform at least one crawl in the SharePoint Server deployment, so that there is content in the SharePoint Server search index. (The SharePoint Online content must also be crawled, but you don't have to attend to that because SharePoint Online crawls its content automatically.) For more information, see [Manage crawling in SharePoint Server](../search/manage-crawling.md).
+- Perform at least one crawl in the SharePoint Server deployment, so that there is content in the SharePoint Server search index. (The SharePoint in Microsoft 365 content must also be crawled, but you don't have to attend to that because SharePoint in Microsoft 365 crawls its content automatically.) For more info, see [Manage crawling in SharePoint Server](../search/manage-crawling.md).
     
 - Create an enterprise Search Center in the SharePoint Server deployment by using the Enterprise Search Center template to create a new site collection. For more information, see [Create a Search Center site in SharePoint Server](../search/create-a-search-center-site.md).
     
 ### Prerequisites for inbound hybrid search
 <a name="BKMK_PrereqsInbound"> </a>
 
-Before you can configure SharePoint Online to display hybrid federated search results, you have to complete all the steps in the [Configure hybrid federated search from SharePoint Online to SharePoint Server - roadmap](configure-hybrid-federated-search-sharepoint-onlineroadmap.md).
+Before you can configure SharePoint in Microsoft 365 to display hybrid federated search results, you have to complete all the steps in the [Configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server - roadmap](configure-hybrid-federated-search-sharepoint-onlineroadmap.md).
   
-In addition, you have to perform at least one crawl in the SharePoint Server deployment, so that there is content in the SharePoint Server search index. (The SharePoint Online content must also be crawled, but you don't have to attend to that because SharePoint Online crawls its content automatically.) For more information, see [Manage crawling in SharePoint Server](../search/manage-crawling.md).
+In addition, you have to perform at least one crawl in the SharePoint Server deployment, so that there is content in the SharePoint Server search index. (The SharePoint in Microsoft 365 content must also be crawled, but you don't have to attend to that because SharePoint in Microsoft 365 crawls its content automatically.) For more info, see [Manage crawling in SharePoint Server](../search/manage-crawling.md).
   
 ## Planning considerations for hybrid federated search
 <a name="BKMK_PlanningConsiderations"> </a>
@@ -109,16 +109,16 @@ In this section:
 ### Benchmark local search performance before you deploy hybrid federated search
 <a name="BKMK_Benchmark"> </a>
 
-Before you deploy hybrid federated search, we strongly recommend that you test local search in whichever deployments you plan to deploy hybrid federated search, such as in SharePoint Online or in SharePoint Server. At that time, troubleshoot any issues that arise that are related to local search, until you have local search working smoothly. That way, if search-related issues arise after you deploy hybrid federated search, you might have a better idea whether those issues might be attributable to hybrid federated search. 
+Before you deploy hybrid federated search, we strongly recommend that you test local search in whichever deployments you plan to deploy hybrid federated search, such as in SharePoint in Microsoft 365 or in SharePoint Server. At that time, troubleshoot any issues that arise that are related to local search, until you have local search working smoothly. That way, if search-related issues arise after you deploy hybrid federated search, you might have a better idea whether those issues might be attributable to hybrid federated search. 
   
 For example, in hybrid federated search, search results from the two deployments are displayed synchronously, which means that no results are displayed until results from both deployments are available. For this reason, if there is significant query latency, it is not likely to be immediately evident whether getting results from one deployment or the other is causing the lag. Therefore, before you deploy hybrid federated search, test local search performance to determine benchmarks for query latency. You can do this by running tests that simulate the user query load. Then try the same tests after you deploy hybrid federated search. If there is an increase in query latency after you deploy hybrid federated search, it might be due to a delay in getting search results from the remote deployment. The remote deployment might be slow to respond, or there might be network-related delays caused by factors such as low network bandwidth or geographical distance between the two deployments.
   
 ### Plan where to create the result source and query rule
 <a name="BKMK_PlanWhereCreate"> </a>
 
-When you configure either outbound or inbound hybrid search, there are two main steps. You perform these steps in the deployment in which you want users to be able to get hybrid federated search results. The first step is to create a result source, which specifies where to get remote search results from. For example, if you are configuring outbound search, you create a result source in the SharePoint Server farm that specifies SharePoint Online as the remote provider to get search results from. In the second step, you create a query rule. When the query rule fires, it causes search results from content in the remote deployment to be displayed in a separate group, called a result block, on a search results page in the local deployment.
+When you configure either outbound or inbound hybrid search, there are two main steps. You perform these steps in the deployment in which you want users to be able to get hybrid federated search results. The first step is to create a result source, which specifies where to get remote search results from. For example, if you are configuring outbound search, you create a result source in the SharePoint Server farm that specifies SharePoint in Microsoft 365 as the remote provider to get search results from. In the second step, you create a query rule. When the query rule fires, it causes search results from content in the remote deployment to be displayed in a separate group, called a result block, on a search results page in the local deployment.
   
-You can create the result source and query rule at the Search service application level in SharePoint Server (or at the tenant level in SharePoint Online), or at the site collection level, or the site level. If you create the result source at the Search service application level, the result source will be available to any query rule that is created at the same level, and also to any query rule that is created for a site collection or site that is in a web application that consumes the Search service application. Also, if you create the result source and query rule at the Search service application level, then they might be easier to keep track of, and they can generally be recovered in the case of a disaster recovery scenario. However, the advantage of creating the result source and query rule at the site collection level or the site level is that the administrative work of maintaining the result source and query rule is performed at that level, so that the Search service application administrator doesn't have to attend to it.
+You can create the result source and query rule at the Search service application level in SharePoint Server (or at the tenant level in SharePoint in Microsoft 365), or at the site collection level, or the site level. If you create the result source at the Search service application level, the result source will be available to any query rule that is created at the same level, and also to any query rule that is created for a site collection or site that is in a web application that consumes the Search service application. Also, if you create the result source and query rule at the Search service application level, then they might be easier to keep track of, and they can generally be recovered in the case of a disaster recovery scenario. However, the advantage of creating the result source and query rule at the site collection level or the site level is that the administrative work of maintaining the result source and query rule is performed at that level, so that the Search service application administrator doesn't have to attend to it.
   
 ### Plan where to display the result block from the remote deployment
 <a name="BKMK_PlanWhereDisplay"> </a>
@@ -140,7 +140,7 @@ With hybrid federated search, the target of a search result might be a document 
 
 #### Concepts
 
-[Configure hybrid federated search from SharePoint Server to SharePoint Online - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md)
+[Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md)
   
-[Configure hybrid federated search from SharePoint Online to SharePoint Server - roadmap](configure-hybrid-federated-search-sharepoint-onlineroadmap.md)
+[Configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server - roadmap](configure-hybrid-federated-search-sharepoint-onlineroadmap.md)
 

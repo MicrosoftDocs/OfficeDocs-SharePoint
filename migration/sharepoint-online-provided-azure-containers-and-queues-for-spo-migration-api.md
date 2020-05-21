@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Online provided Azure containers and queues for SPO Migration API"
+title: "SharePoint provided Azure containers and queues for SPO Migration API"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -21,21 +21,21 @@ ms.assetid: 742b5502-08e8-47f8-83c4-afb521725cb2
 
 ---
 
-# SharePoint Online provided Azure containers and queues for SPO Migration API
+# SharePoint provided Azure containers and queues for SPO Migration API
 
 ## Overview
 
-One of the requirements for using the SharePoint Online Migration API is the use of an Azure container for temporary storage. The cost of an Azure container is now free; the free default Azure container is now part of the basic SharePoint online offering. Every tenant who signs up for SharePoint Online will get this for free.
+One of the requirements for using the SharePoint Migration API is the use of an Azure container for temporary storage. The cost of an Azure container is now free; the free default Azure container is now part of the basic SharePoint offering. Every tenant who signs up for SharePoint will get this for free.
   
 Important key aspects include:
   
 - The containers and queues are unique per request and not reused. Once a container is given to a customer this container will not be reused or shared.
     
-- The containers and queue are automatically deleted. As per the standard SharePoint Online Compliance, Microsoft will automatically destroy the container within 30 to 90 days .
+- The containers and queue are automatically deleted. As per the standard SharePoint Compliance, Microsoft will automatically destroy the container within 30 to 90 days .
     
-- The containers and queues are in the customer's datacenter location. We make sure to provision containers that are in the same physical location as their SharePoint online tenant.
+- The containers and queues are in the customer's datacenter location. We make sure to provision containers that are in the same physical location as their SharePoint tenant.
     
-- The containers and queues can be obtained programmatically through SharePoint Online.
+- The containers and queues can be obtained programmatically through SharePoint.
     
 ## Encryption process
 

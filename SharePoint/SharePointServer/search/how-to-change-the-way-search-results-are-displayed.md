@@ -19,7 +19,7 @@ description: "Learn how to change the way search results are displayed in classi
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-SharePoint Server and SharePoint Online include many default search features that help users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business.
+SharePoint Server and SharePoint in Microsoft 365 include many default search features that help users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business.
   
 This series will explain how to customize the way search results are displayed in the classic search experience. To help explain these display concepts, we'll use examples from an internal list of Microsoft publications, a frequently-used tool among Microsoft content publishing professionals.
   

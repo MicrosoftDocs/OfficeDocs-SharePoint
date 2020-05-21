@@ -32,19 +32,19 @@ This topic provides an overview of the role of reverse proxy devices in a ShareP
 ## The role of a reverse proxy in a SharePoint Server hybrid deployment
 <a name="role"> </a>
 
-SharePoint Server and SharePoint Online can be configured in a hybrid configuration to securely combine search results and external data from Microsoft Business Connectivity Services. Reverse proxy devices play a role in the secure configuration of a hybrid SharePoint Server deployment when inbound traffic from SharePoint Online needs to be relayed to your on-premises SharePoint Server farm. For example, if a federated user uses a SharePoint Online search portal that is configured to return hybrid search results, a reverse proxy device intercepts and pre-authenticates the request for on-premises SharePoint Server content and then relays it to SharePoint Server. The reverse proxy device in a hybrid topology provides a secure endpoint for inbound traffic using SSL encryption and client certificate authentication.
+SharePoint Server and SharePoint in Microsoft 365 can be configured in a hybrid configuration to securely combine search results and external data from Microsoft Business Connectivity Services. Reverse proxy devices play a role in the secure configuration of a hybrid SharePoint Server deployment when inbound traffic from SharePoint in Microsoft 365 needs to be relayed to your on-premises SharePoint Server farm. For example, if a federated user uses a SharePoint in Microsoft 365 search portal that is configured to return hybrid search results, a reverse proxy device intercepts and pre-authenticates the request for on-premises SharePoint Server content and then relays it to SharePoint Server. The reverse proxy device in a hybrid topology provides a secure endpoint for inbound traffic using SSL encryption and client certificate authentication.
   
 ### How inbound connectivity works
 
 The following diagrams show how a reverse proxy device is used for inbound connectivity.
   
-With an inbound search solution, only the SharePoint Online site has search results from both locations.
+With an inbound search solution, only the SharePoint in Microsoft 365 site has search results from both locations.
   
 **Inbound connectivity**
 
 ![A graphic of an inbound proxy.](../media/Inbound.gif)
   
-In the example below, a federated user on the Internet uses the SharePoint Online search portal to search for content in both SharePoint Online and her company's on-premises SharePoint Server server.
+In the example below, a federated user on the Internet uses the SharePoint in Microsoft 365 search portal to search for content in both SharePoint in Microsoft 365 and her company's on-premises SharePoint Server server.
   
 **A federated user on the Internet searches for content that's located on her company's on-premises server.**
 
@@ -52,15 +52,15 @@ In the example below, a federated user on the Internet uses the SharePoint Onlin
   
 The following list describes the steps shown in the preceding picture.
   
-1. From the Internet, a federated user browses to her SharePoint Online site.
+1. From the Internet, a federated user browses to her SharePoint in Microsoft 365 site.
     
-2. SharePoint Online queries the search index in SharePoint Online and also sends the search query to the external URL of the on-premises SharePoint farm which resolves to the external endpoint of the reverse proxy device.
+2. SharePoint in Microsoft 365 queries the search index in SharePoint in Microsoft 365 and also sends the search query to the external URL of the on-premises SharePoint farm which resolves to the external endpoint of the reverse proxy device.
     
 3. The reverse proxy device pre-authenticates the request using the Secure Channel SSL certificate and relays the request to the URL of the primary web application.
     
 4. The SharePoint farm service account queries the on-premises search index and security trims the search results in the context of the user who sent the search request.
     
-5. Security trimmed search results are returned to SharePoint Online and displayed on the search results page. This result set includes search results from the SharePoint Online search index and search results from the search index of the SharePoint Server farm.
+5. Security trimmed search results are returned to SharePoint in Microsoft 365 and appear on the search results page. This result set includes search results from the SharePoint in Microsoft 365 search index and search results from the search index of the SharePoint Server farm.
     
 > [!NOTE]
 > Inbound connectivity enables access to content and resources in your on-premises SharePoint Server farm **from the internet** only if the user has an active, secure connection to the intranet network over VPN or DirectAccess or if the SharePoint Server farm is configured in an extranet topology. 

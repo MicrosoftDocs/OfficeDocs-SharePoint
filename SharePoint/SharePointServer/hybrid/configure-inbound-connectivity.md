@@ -25,7 +25,7 @@ description: "Learn how to configure inbound connectivity for SharePoint hybrid.
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   
-This article contains guidance the SharePoint hybrid environment deployment process, which integrates SharePoint Server and SharePoint Online.
+This article contains guidance the SharePoint hybrid environment deployment process, which integrates SharePoint Server and SharePoint in Microsoft 365.
   
 ## Before you begin
 <a name="begin"> </a>
@@ -61,13 +61,13 @@ Verify that these decisions are entered on the worksheet before you continue.
   
 ### Configuration phases
 
-In order to configure the environment infrastructure, you'll need both SharePoint Server interfaces, such as the SharePoint Central Administration website, and the Administration pages in SharePoint Online. To prevent you from having to switch between these interfaces more than necessary, we've organized the configuration steps into the following phases:
+In order to configure the environment infrastructure, you'll need both SharePoint Server interfaces, such as the SharePoint Central Administration website, and the Administration pages in SharePoint in Microsoft 365. To prevent you from having to switch between these interfaces more than necessary, we've organized the configuration steps into the following phases:
   
 - [Prepare your public domain](configure-inbound-connectivity.md#preparedomain)
     
 - [Configure SharePoint Server](configure-inbound-connectivity.md#configureSPServer)
     
-- [Create and configure a target application for the SSL certificate in SharePoint Online](configure-inbound-connectivity.md#configurespo)
+- [Create and configure a target application for the SSL certificate in SharePoint in Microsoft 365](configure-inbound-connectivity.md#configurespo)
     
 - [Validation and next steps](configure-inbound-connectivity.md#more)
     
@@ -108,7 +108,7 @@ This section tells you how to configure the SharePoint Server farm for use in an
 ### Configure a site collection strategy
 <a name="configsitecoll"> </a>
 
-In a hybrid environment, data is exchanged between the root site collection in SharePoint Online and a specific web application in the on-premises SharePoint farm that's configured for hybrid. We call this the primary web application. This web application is the focal point on which your site collection strategy is configured.
+In a hybrid environment, data is exchanged between the root site collection in SharePoint in Microsoft 365 and a specific web application in the on-premises SharePoint farm that's configured for hybrid. We call this the primary web application. This web application is the focal point on which your site collection strategy is configured.
   
 During the planning phase, you should have decided whether you'll use an existing web application or create one and which site collection strategy you'll configure. If so, your decisions are listed in the **Site collection strategy** row of Table 2 of the worksheet. If you haven't decided yet, review the [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) article and make these decisions before you go any further. 
   
@@ -396,32 +396,32 @@ To enable SharePoint Server to dynamically translate links in requests by using 
   
  **To configure AAM**
   
-1. In Central Administration, in the Quick Launch, click **Application Management**.
+1. In Central Administration, in the Quick Launch, select **Application Management**.
     
-2. In the **Web Applications** section, click **Configure alternate access mappings**.
+2. In the **Web Applications** section, select **Configure alternate access mappings**.
     
-3. On the **Alternate Access Mappings** page, click **Add Internal URLs**.
+3. On the **Alternate Access Mappings** page, select **Add Internal URLs**.
     
-4. In the **Alternate Access Mapping Collection** section, click the down arrow, and then click **Change Alternate Access Mapping Collection**. In the dialog that is displayed, select the primary web application that you're configuring for hybrid.
+4. In the **Alternate Access Mapping Collection** section, select the down arrow, and then select **Change Alternate Access Mapping Collection**. In the dialog box that appears, select the primary web application that you're configuring for hybrid.
     
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The URL of this web application is recorded in the **Primary web application URL** row of Table 5c of the worksheet. |
    
-5. In the **Add Internal URL** section, in the **URL protocol, host and port** box, type the URL you want to use as the bridging URL. This URL must have the same protocol as the extended web application, either **http** or **https**. For example, if you configured the extended web application by using **https**, the URL will resemble **https://bridge**. 
+5. In the **Add Internal URL** section, in the **URL protocol, host and port** box, enter the URL you want to use as the bridging URL. This URL must have the same protocol as the extended web application, either **http** or **https**. For example, if you configured the extended web application by using **https**, the URL will resemble **https://bridge**. 
     
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|
 The protocol that you used is recorded in the Protocol of the extended web application  row of Table 5c of the worksheet. Record this URL in the Bridging URL  row of Table 5c of the worksheet. |
    
-6. In the **Zone** drop-down menu, select the same zone that you used when you extended the web application. 
+6. In the **Zone** dropdown, select the same zone that you used when you extended the web application. 
     
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|This zone is recorded in the **Zone of the extended web application** row of Table 5c of the worksheet |
    
-7. Click **Save**.
+7. Select **Save**.
     
     The URL that you specified in step 5 appears in the **Internal URL** column of the **Alternate Access Mappings** page. 
     
@@ -438,9 +438,9 @@ To verify that the alias name you chose for your CNAME record is resolving to th
   
  **Verification step**
   
-1. Log on to the reverse proxy device as administrator and open a Windows command prompt.
+1. Log on to the reverse proxy device as an admin, and open a Windows command prompt.
     
-2. Ping the alias name in the CNAME record. For example, if the alias name is Bridge, then type the following and press Enter.
+2. Ping the alias name in the CNAME record. For example, if the alias name is Bridge, then enter the following, and press <Enter>.
     
   ```
   ping bridge
@@ -452,10 +452,10 @@ To verify that the alias name you chose for your CNAME record is resolving to th
     > [!NOTE]
     > If the  `ping` command is blocked on the network, try using either the  `tracert -4` or the  `pathping -4` command instead. 
   
-## Create and configure a target application for the SSL certificate in SharePoint Online
+## Create and configure a target application for the SSL certificate in SharePoint in Microsoft 365
 <a name="configurespo"> </a>
 
-In this section, you create and configure a Secure Store target application in SharePoint Online. This target application is used to store the Secure Channel SSL certificate and enable it so that it can be used by SharePoint Online services when users request data from the on-premises SharePoint farm. We refer to this target application as the Secure Channel Target Application.
+In this section, you create and configure a Secure Store target application in SharePoint in Microsoft 365. This target application is used to store the Secure Channel SSL certificate and enable it so that it can be used by SharePoint in Microsoft 365 services when users request data from the on-premises SharePoint farm. We refer to this target application as the Secure Channel Target Application.
   
 |||
 |:-----|:-----|
@@ -464,13 +464,13 @@ In this section, you create and configure a Secure Store target application in S
 > [!NOTE]
 > You can use either a certificate that contains a private key, such as a Private Information Exchange (.pfx) file or you can use an Internet Security Certificate File (.cer). If you use a .pfx file, you must provide a password for the private key later in this procedure. 
   
-When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid solution, you'll provide the name of the target application that you created so that SharePoint Online Search and Business Connectivity Services can get the Secure Channel SSL certificate that's needed to authenticate with the reverse proxy device.
+When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid solution, you'll provide the name of the target application that you created so that SharePoint in Microsoft 365 Search and Business Connectivity Services can get the Secure Channel SSL certificate that's needed to authenticate with the reverse proxy device.
   
  **To create a target application to store the Secure Channel SSL certificate**
   
 1. Verify that you're logged on to Microsoft 365 as a global admin.
     
-2. In the SharePoint Online Administration Center, in the navigation pane, select **secure store**.
+2. In the SharePoint Administration Center, in the navigation pane, select **secure store**.
     
 3. On the **Edit** tab, select **New**.
     

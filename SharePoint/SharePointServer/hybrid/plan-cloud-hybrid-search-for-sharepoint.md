@@ -36,11 +36,11 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
   
 ### Do your users need other types of search?
 
- **Search verticals** - Search verticals narrow search results to a specific set of content, for example to show only videos. If you currently use a search vertical in a Search Center in SharePoint Server, you have to recreate it in your Search Center in SharePoint Online in Microsoft 365. 
+ **Search verticals** - Search verticals narrow search results to a specific set of content, for example to show only videos. If you currently use a search vertical in a Search Center in SharePoint Server, you have to recreate it in your Search Center in SharePoint in Microsoft 365. 
   
- **Site search** - Your **existing search** in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use Search Centers that are in the same environment as the search index, so searching from a Microsoft 365 Search Center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010, you can set up search from SharePoint Server 2013 or SharePoint Server 2016. Plan a remote result source in SharePoint Server 2013 or SharePoint Server 2016 that gets results from the Microsoft 365 search index and plan use of query federation. Because SharePoint Online in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint Online supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
+ **Site search** - Your **existing search** in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use Search Centers that are in the same environment as the search index, so searching from a Microsoft 365 Search Center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010, you can set up search from SharePoint Server 2013 or SharePoint Server 2016. Plan a remote result source in SharePoint Server 2013 or SharePoint Server 2016 that gets results from the Microsoft 365 search index and plan use of query federation. Because SharePoint in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
   
- **eDiscovery** - You might have to set up eDiscovery separately in SharePoint Server and in SharePoint Online in Microsoft 365. 
+ **eDiscovery** - You might have to set up eDiscovery separately in SharePoint Server and in SharePoint in Microsoft 365. 
   
  **Cross-site publishing** - Cross-site publishing isn't available with cloud hybrid search. 
   
@@ -48,30 +48,30 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
 
  **Previews** - When a user hovers over a search result that comes from Microsoft 365, info about the content as well as a preview of the content is displayed. Information about the content from search results that come from on-premises is displayed automatically, but you have to set up display of previews for this content. Plan an Office Web Apps Server farm and configure SharePoint Server 2013 to use Office Web Apps Server. Learn how in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
   
- **Custom security trimming** - SharePoint Online in Microsoft 365 doesn't support custom security trimming. 
+ **Custom security trimming** - SharePoint in Microsoft 365 doesn't support custom security trimming. 
   
 ### Which search features do you need?
 <a name="BKMK_SearchFeatures"> </a>
 
 Some of the search features you might be familiar with from SharePoint Server work differently with cloud hybrid search. Plan to inform your users about the differences.
   
- **Best bets** - Best bets is a SharePoint Server 2010 feature. Use query rules in SharePoint Online in Microsoft 365 instead. 
+ **Best bets** - Best bets is a SharePoint Server 2010 feature. Use query rules in SharePoint in Microsoft 365 instead. 
   
- **Custom search scopes** - Custom search scopes is a SharePoint Server 2010 feature. Use result sources in SharePoint Online in Microsoft 365 instead. 
+ **Custom search scopes** - Custom search scopes is a SharePoint Server 2010 feature. Use result sources in SharePoint in Microsoft 365 instead. 
   
- **Promotion/demotion of search results** - Promotion/demotion of search results is a SharePoint Server 2010 feature. Use result sources in SharePoint Online in Microsoft 365 instead. 
+ **Promotion/demotion of search results** - Promotion/demotion of search results is a SharePoint Server 2010 feature. Use result sources in SharePoint in Microsoft 365 instead. 
   
  **Removal of on-premises search results** - In Central Administration in SharePoint Server you can select a Search service application and use the option "Index reset" to remove all items from the search index. Don't use this option for a cloud Search service application, the option deletes the crawl history from the crawl databases, but doesn't remove on-premises items from the Microsoft 365 index because there is no direct communication between the cloud Search service application in SharePoint Server and the search index in Office 365. These on-premises items become orphans in the Microsoft 365 index. If you want to remove all on-premises metadata from the Microsoft 365 search index, remove all the on-premises content sources. Any on-premises items left in the Microsoft 365 search index after the process has completed, are orphan items. 
   
 Some of the search features you might be familiar with from SharePoint Server aren't available with cloud hybrid search. Plan to inform your users.
   
- **Multi-tenancy on SharePoint Server 2013 or SharePoint Server 2016 farm** - A SharePoint Server 2013 orSharePoint Server 2016 farm can only attach to one tenant in SharePoint Online in Microsoft 365, therefore SharePoint Online can't preserve the tenant isolation of a multi-tenant SharePoint Server 2013 or SharePoint Server 2016 farm. 
+ **Multi-tenancy on SharePoint Server 2013 or SharePoint Server 2016 farm** - A SharePoint Server 2013 orSharePoint Server 2016 farm can only attach to one tenant in SharePoint in Microsoft 365, therefore SharePoint can't preserve the tenant isolation of a multi-tenant SharePoint Server 2013 or SharePoint Server 2016 farm. 
   
- **Custom entity extraction** - Custom entity extraction isn't available with cloud hybrid search because SharePoint Online in Microsoft 365 doesn't support custom entity extraction. 
+ **Custom entity extraction** - Custom entity extraction isn't available with cloud hybrid search because SharePoint in Microsoft 365 doesn't support custom entity extraction. 
   
- **Content enrichment web service** - The content enrichment web service call-out is not available with cloud hybrid search because SharePoint Online in Microsoft 365 doesn't support custom entity extraction. 
+ **Content enrichment web service** - The content enrichment web service call-out is not available with cloud hybrid search because SharePoint in Microsoft 365 doesn't support custom entity extraction. 
   
- **Thesaurus** - Thesauruses aren't available with cloud hybrid search because SharePoint Online in Microsoft 365 doesn't support thesauruses. 
+ **Thesaurus** - Thesauruses aren't available with cloud hybrid search because SharePoint in Microsoft 365 doesn't support thesauruses. 
   
 ## <a name="BKMK_Plan_search_architecture"> </a>Plan your search architecture in SharePoint Server for cloud hybrid search
 
@@ -83,7 +83,7 @@ Before you get going, you should read [Learn about the search topology for cloud
   
 ### Step 1: How much on-premises content can I index in Microsoft 365?
 
-For each 1 TB of pooled storage space your tenant has in SharePoint Online, you can index 1 million items of on-premises content in the search index in Office 365. You can purchase more space to increase your quota, until it reaches the threshold of 20 million items. If you need to index more than 20 million items of on-premises content, contact [Microsoft Support](https://support.microsoft.com/assistedsupportproducts) to increase this threshold.
+For each 1 TB of pooled storage space your tenant has in SharePoint, you can index 1 million items of on-premises content in the search index in Office 365. You can purchase more space to increase your quota, until it reaches the threshold of 20 million items. If you need to index more than 20 million items of on-premises content, contact [Microsoft Support](https://support.microsoft.com/assistedsupportproducts) to increase this threshold.
   
 ### Step 2: What size cloud search architecture do I need?
 

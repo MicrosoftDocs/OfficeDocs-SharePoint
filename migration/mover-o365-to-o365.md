@@ -216,7 +216,7 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |OneDrive Consumer|    OneDrive Consumer Connector|
 |OneDrive for Business (Administrator)|    Microsoft 365 Connector|
 |OneDrive for Business (User)|    OneDrive for Business (User) Connector|
-|SharePoint Online|Microsoft 365 Connector|
+|SharePoint|Microsoft 365 Connector|
 
 ## Deleting connectors
 
@@ -478,11 +478,11 @@ Both Modern and Classic sites are supported, and appear the same in our app.
 
 ### What will my file paths look like in SharePoint?
 
-During the migration setup (described later in this guide), you can edit the path(s) to specify where in SharePoint you would like your data to go. From the root level of SharePoint Online, you can go into **Site Collections**, and inside each **Site Collection**, find directories for **Site Contents** and **Subsites**.
+During the migration setup (described later in this guide), you can edit the path(s) to specify where in SharePoint you would like your data to go. From the root level of SharePoint, you can go into **Site Collections**, and inside each **Site Collection**, find directories for **Site Contents** and **Subsites**.
 
 **Site Contents** takes you to document libraries (for example, the **Documents** section), whereas **Subsites** takes you to the **Subsites** of that site collection. Navigating **Subsites** takes you through the same dichotomy.
 
-Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint Online does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
+Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
 ![File paths in SPO](media/filepaths-in-sp.png)
 
@@ -504,17 +504,17 @@ In the Library settings, visit **Permissions for this document library**:
 
 This prevents site members/visitors from inheriting permissions to all the data that we migrate into that library, allowing permissions to only those site members who we explicitly write to the folders themselves.
 
-For more info about SharePoint Online permissions inheritance, see **here**.
+For more info about SharePoint permissions inheritance, see **here**.
 
 ### Does Mover support Microsoft Teams?
 
-Microsoft Teams appears and operates the same as a SharePoint Online site.
+Microsoft Teams appears and operates the same as a SharePoint site.
 
-### What is the item limit for SharePoint Online?
+### What is the item limit for SharePoint?
 
 Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
-SharePoint sites do have file size and number limits, which are covered in detail here: **SharePoint Online limits**.
+SharePoint sites do have file size and number limits, which are covered in detail here: **SharePoint limits**.
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
 
@@ -615,7 +615,7 @@ If you are not already connected after you have authorized your source, select *
 ![execution select source](media/execution-select-office-365-source.png)
 
 >[!Note]
->SharePoint Online displays a user count when connecting to the **Transfer Wizard**. This does not represent the actual site count. The SharePoint Online connector counts both individual and team sites. However, the SharePoint Online connector only works with team sites, and does not work with individual user sites.
+>SharePoint displays a user count when connecting to the **Transfer Wizard**. This does not represent the actual site count. The SharePoint connector counts both individual and team sites. However, the SharePoint connector only works with team sites, and does not work with individual user sites.
 
 ### Connect your destination Microsoft 365 account
 
@@ -681,7 +681,7 @@ Download an example CSV:
 **Example_CSV_Map.csv**
 
 >[!Note]
->When URL mapping to SharePoint Online, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
+>When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
 
 For example, this full URL won't work:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents/Forms/AllItems.aspx`

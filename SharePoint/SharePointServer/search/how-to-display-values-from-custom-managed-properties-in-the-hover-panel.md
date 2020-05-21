@@ -109,27 +109,27 @@ To display custom properties in the hover panel, here's what you should do:
   ```
   '<Current item property name>':<Managed property name>'
   ```
-  In our Search Center scenario, we added four managed properties to the  *TechNet content*  item display template. 
+  In our Search Center scenario, we added four managed properties to the *TechNet content* item display template. 
     
      ![Added MPs](../media/OTCSP_AddedMPs.png)
   
 3. > [!NOTE]
-    > You do  *not*  have to do this step if you are using SharePoint Online. 
+    > You do *not* have to do this step if you are using SharePoint in Microsoft 365. 
   
-    Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
+    Go to **Site settings** > **Search Result Types**. A **Property Sync** alert appears. 
     
      ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)
   
-    This alert is displayed because we have added new managed properties to an item display template (we did this in step 2). To update the result types with the newly added managed properties, choose **Update**. 
+    This alert appears because we have added new managed properties to an item display template (we did this in Step 2). To update the result types with the newly added managed properties, choose **Update**. 
     
      ![Updated MPs](../media/OTCSP_UpdateMPs.png)
   
     > [!IMPORTANT]
-    > If you don't do the update, the newly added managed properties won't display in your hover panel. 
+    > If you don't do the update, the newly added managed properties won't appear in your hover panel. 
   
 4. Open the hover panel display template that you want to change, and use HTML to add the custom properties that you want to display.
     
-    In our Search Center scenario, we opened the  *TechNet_Content_HoverPanel*  . The following screen shot shows how we added our four custom properties. 
+    In our Search Center scenario, we opened the *TechNet_Content_HoverPanel. The following screenshot shows how we added our four custom properties. 
     
      ![Display Properties](../media/OTCSP_DisplayProperties.png)
   
@@ -139,13 +139,13 @@ By doing a new search and hovering over a search result, we saw that the four cu
   
 ![Custom Properties Displayed](../media/OTCSP_CustomPropertiesDisplayed.png)
   
-But, we are not completely through yet. The values for  *Internal Writer*  and  *Submission Contact*  were displayed differently. The screen shot might not show it clearly, but hopefully you can see that the value for  *Internal Writer*  was displayed well, but the value for  *Submission Contact*  was very long and contained an ugly GUID. 
+But, we are not completely through yet. The values for *Internal Writer* and *Submission Contact* appeared differently. The screen shot might not show it clearly, but hopefully you can see that the value for *Internal Writer* appeared well, but the value for *Submission Contact* was very long and contained an ugly GUID. 
   
-Both these values come from a site column of type **Person or Group**. The difference is that in the site column settings,  *Internal Writer*  is configured to show **Name**, whereas  *Submission Contact*  is configured to show **Name (with presence)**. 
+Both these values come from a site column of type **Person or Group**. The difference is that in the site column settings, *Internal Writer* is configured to show **Name**, whereas *Submission Contact* is configured to show **Name (with presence)**. 
   
 ![Site Column Settings](../media/OTCSP_SiteColumnSettings.png)
   
-To make  *Submission Contact*  display correctly, we copied the **HP.GetAuthorsHtml** method that is used by the  *Item_CommonHoverPanel_Body*  display template to display authors. 
+To make *Submission Contact* appear correctly, we copied the **HP.GetAuthorsHtml** method that is used by the *Item_CommonHoverPanel_Body* display template to display authors. 
   
 ![Authors Method](../media/OTCSP_AuthorsMethod.png)
   

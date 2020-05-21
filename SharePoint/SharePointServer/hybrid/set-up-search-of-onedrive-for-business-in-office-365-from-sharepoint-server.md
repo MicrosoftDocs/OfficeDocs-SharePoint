@@ -75,9 +75,9 @@ Before you perform the procedures in this article, make sure that you do each of
     
 - Configure a hybrid SharePoint environment according to the instructions in the following two articles, and in the following order:
     
-1. [Configure hybrid federated search from SharePoint Server to SharePoint Online - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md)
+1. [Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md)
     
-2. [Configure server-to-server authentication from SharePoint Server to SharePoint Online](configure-server-to-server-authentication.md)
+2. [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](configure-server-to-server-authentication.md)
     
     For additional information about synchronizing users and passwords, see [Ways to synchronize users and passwords](configure-hybrid-onedrive-for-business.md) in [Configure hybrid OneDrive for Business](configure-hybrid-onedrive-for-business.md).
     
@@ -112,9 +112,9 @@ A result source can be created at the Search service application level, the site
     
 3. In the **Protocol** section, select **Remote SharePoint**.
     
-4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint Online that you want to get search results from. 
+4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint that you want to get search results from. 
     
-    The address of the root site collection in SharePoint Online is typically of the form https:// _tenant_name_.sharepoint.com, where  _tenant_name_ is the name of the Microsoft 365 organization. 
+    The address of the root site collection in SharePoint is typically of the form https:// _tenant_name_.sharepoint.com, where  _tenant_name_ is the name of the Microsoft 365 organization. 
     
 5. In the **Type** section, select **SharePoint Search Results**.
     
@@ -341,7 +341,7 @@ To validate your configuration for displaying search results from OneDrive for B
   
  **To test your configuration for displaying search results from OneDrive for Business**
   
-1. Log on to the SharePoint Server deployment as a federated user who has been activated in Office 365, and who has permission to view the root site collection in SharePoint Online in Microsoft 365.
+1. Log on to the SharePoint Server deployment as a federated user who has been activated in Office 365, and who has permission to view the root site collection in SharePoint in Microsoft 365.
     
 2. Browse to the enterprise Search Center in the SharePoint Server deployment.
     
@@ -365,9 +365,9 @@ To validate your configuration for displaying search results from OneDrive for B
     
 1. You configured the hybrid SharePoint environment as described in the following articles, and in the following order:
     
-1. [Configure hybrid federated search from SharePoint Server to SharePoint Online - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md)
+1. [Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md)
     
-2. [Configure server-to-server authentication from SharePoint Server to SharePoint Online](configure-server-to-server-authentication.md)
+2. [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](configure-server-to-server-authentication.md)
     
 2. You completed the procedures described in [Configure hybrid OneDrive for Business](configure-hybrid-onedrive-for-business.md).
     

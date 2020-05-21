@@ -13,14 +13,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 3f8ea55b-e483-478c-8b35-a0ef4c6890f4
-description: "Learn about variations and the benefits and scenarios for using variations to create multilingual sites in SharePoint Server or SharePoint Online."
+description: "Learn about variations and the benefits and scenarios for using variations to create multilingual sites in SharePoint Server or SharePoint in Microsoft 365."
 ---
 
 # Variations overview in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
-The variations feature in SharePoint Server and SharePoint Online makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. When users visit the root site, they are redirected to the appropriate variation site, based on the language setting of their web browser. Content on a target variation site can be translated into other languages before it is published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on sites for which the SharePoint Server Publishing Infrastructure feature was activated.
+The variations feature in SharePoint Server and SharePoint in Microsoft 365 makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. When users visit the root site, they are redirected to the appropriate variation site, based on the language setting of their web browser. Content on a target variation site can be translated into other languages before it is published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on sites for which the SharePoint Server Publishing Infrastructure feature was activated.
   
 This article contains an overview of the variations feature. It describes the elements of the variations feature; provides an overview of site, list, and page creation for variation sites; lists some limitations of variations; and describes scenarios for using variations in SharePoint Server. This article does not describe the tasks that are involved in planning a solution that uses variations. For information about how to plan to use variations in your solution, see [Plan for variations in SharePoint Server](plan-for-variations.md). This article also does not describe how to create variation labels and hierarchies. For information about how to create a variation site, see [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=279696).
 
@@ -51,7 +51,7 @@ The variations feature consists of the following elements:
 - **Variation labels** A variation label is an identifier that names a new variation site. Variations of a site are defined by creating variation labels, one for each planned variation. 
     
     > [!NOTE]
-    > SharePoint Server supports up to 209 variation labels. SharePoint Online supports up to 50 variation labels. 
+    > SharePoint Server supports up to 209 variation labels. SharePoint in Microsoft 365 supports up to 50 variation labels. 
   
 - **Variation sites** Variation sites are the sites that are created based on the defined variation labels. There are two types of variation sites: 
     
@@ -103,7 +103,7 @@ The **Variations Settings** page contains the following options:
     
 - **Notification** Sends an email message to the contact of the target label of a target variation site when a new page or site is created or to the contact person of the specified page when a page is updated with revisions from the source variation site. If the label does not have a contact, then the email message is sent to the contact of the welcome page of a target variation site. By default, this option is enabled. 
     
-For information about how to specify variations settings, see [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=279696).
+For info about how to specify variations settings, see [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=279696).
   
 ### Variations timer jobs
 
@@ -118,7 +118,7 @@ The variations feature uses timer jobs to perform tasks such as creating and pro
 - **Variations Propagate Sites and Lists Job Definition** Creates variation sites and lists when the **Create Everywhere** option is enabled. By default, this timer job runs every 30 minutes. 
     
 > [!NOTE]
-> Timer jobs are not configurable in SharePoint Online. 
+> Timer jobs are not configurable in SharePoint. 
   
 For information about timer jobs, see [View timer job status in SharePoint Server 2016](view-timer-job-status.md).
   

@@ -16,7 +16,7 @@ search.appverid: MET150
 ---
 
 # SharePoint Server Team Sites Migration Guide
-This guide will help you prepare to migrate from SharePoint Server teams sites to SharePoint Online in Microsoft 365.
+This guide will help you prepare to migrate from SharePoint Server teams sites to SharePoint in Microsoft 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
@@ -51,7 +51,7 @@ What you discover will influence your overall strategy and timing, including:
 
 
 ### Understanding the modern architecture
-New features and enhancements are continually being rolled in SharePoint Online before being included in SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint Online.
+New features and enhancements are continually being rolled in SharePoint before being included in SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint.
 
 As you plan your migration strategy, it is important to understand the modern architecture.
 Begin by reading:
@@ -63,7 +63,7 @@ Begin by reading:
 
 **Modern team sites, pages and hubs**
 
-When moving your team site, we recommend that you create team sites in SharePoint Online that are "modern".  While this does not automatically make them group or **Microsoft Teams** connected, you will be able to connect them in the future. You can either create them using the user interface, PowerShell, or by using a migration tool such as the SharePoint Migration Tool (SPMT) that can create these sites for you.
+When moving your team site, we recommend that you create team sites in SharePoint that are "modern".  While this does not automatically make them group or **Microsoft Teams** connected, you will be able to connect them in the future. You can either create them using the user interface, PowerShell, or by using a migration tool such as the SharePoint Migration Tool (SPMT) that can create these sites for you.
  
 As you plan your migration, we recommend that a **hub site** the best way to create relationships between sites. We highly recommend taking this opportunity to bring those subsites to be their own site collections in order to connect them through a hub.
 
@@ -136,7 +136,7 @@ Create modern hub sites based on how you have mapped your sites to a system of h
 Below is a typical migration process that follows Microsoft's best practices guidance.
 
 1. Select a small set of sites for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
-2.    Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which SharePoint Server team sites are disabled and they are directed to use the SharePoint Online environment. This method is preferred as it reduces user impact.</br></br>
+2.    Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which SharePoint Server team sites are disabled and they are directed to use the SharePoint environment. This method is preferred as it reduces user impact.</br></br>
 3.    Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.</br></br>
 4.    Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their SharePoint sites. This helps eliminate users from updating duplicate copies of content.</br></br>
 

@@ -49,11 +49,11 @@ With the [hybrid federated search solution](learn-about-hybrid-federated-search-
   
 ## Cloud hybrid search or hybrid federated search - what's the difference for your users?
 
-With cloud hybrid search, search results come from one search index. A search center in for example SharePoint Online in Microsoft 365 displays and ranks results in one single result block. SharePoint Online calculates search relevance ranking and refiners for all your results, regardless of whether the results come from on-premises or Microsoft 365 content.
+With cloud hybrid search, search results come from one search index. A search center in for example SharePoint in Microsoft 365 displays and ranks results in one single result block. SharePoint calculates search relevance ranking and refiners for all your results, regardless of whether the results come from on-premises or Microsoft 365 content.
   
 ![Illustration of how search results display with cloud hybrid search and with hybrid federated search.](../media/d88c8cf0-2820-4d5f-b54a-06f285226f66.png)
   
-With hybrid federated search, search results come from two indexes. A search center in for example SharePoint Online in Microsoft 365 displays and ranks results in two result blocks. SharePoint Online displays and ranks search results from Microsoft 365 content, but uses the ranking from SharePoint Server 2013 for search results from on-premises content and displays these search results in the order that they arrive.
+With hybrid federated search, search results come from two indexes. A search center in for example SharePoint in Microsoft 365 displays and ranks results in two result blocks. SharePoint displays and ranks search results from Microsoft 365 content, but uses the ranking from SharePoint Server 2013 for search results from on-premises content and displays these search results in the order that they arrive.
   
 ![Illustrations shows results in two result blocks, ranked separately.](../media/86bc8cc0-c1d8-4f40-bac9-96e8a6383063.png)
   
@@ -63,7 +63,7 @@ We recommend that you choose **cloud hybrid search** for these benefits:
   
 - Your users get unified search results, search relevance ranking, and refiners even if your organization has a hybrid deployment with content both on-premises and in Microsoft 365. 
     
-- Your users automatically get the newest SharePoint Online search experience without your organization having to update your existing SharePoint servers.
+- Your users automatically get the newest SharePoint search experience without your organization having to update your existing SharePoint servers.
     
 - Your users can use cloud capabilities such as Office Delve also for your on-premises content.
     

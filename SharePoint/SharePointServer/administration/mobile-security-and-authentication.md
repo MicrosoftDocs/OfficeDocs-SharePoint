@@ -96,18 +96,18 @@ The following tables detail the authentication types supported for browsers, One
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |**Forms-Based Authentication (FBA)** <br/> |FBA  <br/> |Active Directory, LDAP, SQL  <br/> |On-premises, extranet  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|FBA  <br/> |OrgID  <br/> |SharePoint Online, hybrid -based scenarios  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|**SAML (Token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-Premises, SharePoint Online, hybrid-based scenarios  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|**SAML (Token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-Premises, SharePoint in Microsoft 365, hybrid-based scenarios  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
    
 **Table: Supported authentication types for the OneDrive for Business app**
 
 |**Authentication type**|**Description**|**Supported**|**Administrator type required for configuration**|
 |:-----|:-----|:-----|:-----|
-|**Org-ID** <br/> |Organizations with a Microsoft 365 or SharePoint Online organization without any federation.  <br/> |Yes  <br/> |Global admin  <br/> |
-|**ADFS and Org-ID federation** <br/> |Organizations with a hybrid Microsoft 365 or SharePoint Online organization with users federated from an on-premises directory.  <br/> |Yes  <br/> |Global admin plus the on-premises network administrator plus the SharePoint admin  <br/> |
+|**Org-ID** <br/> |Organizations with a Microsoft 365 or SharePoint organization without any federation.  <br/> |Yes  <br/> |Global admin  <br/> |
+|**ADFS and Org-ID federation** <br/> |Organizations with a hybrid Microsoft 365 or SharePoint organization with users federated from an on-premises directory.  <br/> |Yes  <br/> |Global admin plus the on-premises network administrator plus the SharePoint admin  <br/> |
 |**Windows authentication (NTLM)** <br/> |Organizations with a SharePoint environment configured to allow NTLM claims-based Windows authentication.  <br/> |Yes  <br/> |SharePoint admin  <br/> |
 |**Forms-based authentication (FBA)** <br/> |Organizations with a SharePoint environment configured to allow Forms-based authentication or other compatible claims-based authentication via a standard web control.  <br/> |Yes  <br/> |SharePoint admin  <br/> |
-|**Qualified non-ADFS identity providers** <br/> |Organizations with a Microsoft 365 or SharePoint Online environment configured to allow user sign-in that is federated with an identity provider qualified for rich clients in the [Works with Microsoft 365 - Identity program](https://go.microsoft.com/fwlink/p/?LinkId=511982).  <br/> |Yes  <br/> |SharePoint admin plus the on-premises Network administrator or Global admin (in some organizations the Global admin is a requirement, not an option.)  <br/> |
+|**Qualified non-ADFS identity providers** <br/> |Organizations with a Microsoft 365 or SharePoint environment configured to allow user sign-in that is federated with an identity provider qualified for rich clients in the [Works with Microsoft 365 - Identity program](https://go.microsoft.com/fwlink/p/?LinkId=511982).  <br/> |Yes  <br/> |SharePoint admin plus the on-premises Network administrator or Global admin (in some organizations the Global admin is a requirement, not an option.)  <br/> |
 |**All other non-ADFS identity providers** <br/> |Organizations with a SharePoint environment configured to allow a non-ADFS identity provider.  <br/> |No  <br/> |SharePoint admin plus the on-premises network administrator  <br/> |
 |**Kerberos authentication** <br/> |Organizations with a SharePoint environment configured to support Kerberos authentication.  <br/> |No  <br/> |SharePoint admin plus the on-premises network administrator  <br/> |
 |**Basic authentication** <br/> |Organizations with a SharePoint environment configured to support Basic authentication.  <br/> |No  <br/> |SharePoint admin plus the on-premises network administrator  <br/> |
@@ -123,10 +123,10 @@ The following tables detail the authentication types supported for browsers, One
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |NTLM  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Basic Authentication  <br/> |No  <br/> |Yes (https)  <br/> |
 |**Forms-Based Authentication (FBA)** <br/> |FBA  <br/> |Active Directory, LDAP, SQL  <br/> |On-premises, extranet  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |
-|FBA  <br/> |OrgID  <br/> |SharePoint Online, hybrid -based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |
-|FBA  <br/> |OrgID  <br/> |SharePoint Online, hybrid -based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |Yes  <br/> |
-|**SAML (token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint Online, hybrid -based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |
-|SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint Online, hybrid -based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |Yes  <br/> |
+|FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |
+|FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |Yes  <br/> |
+|**SAML (token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint, hybrid -based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |
+|SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint in Microsoft 365, hybrid-based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |Yes  <br/> |
    
 > [!NOTE]
 > In order for mobile devices to communicate with SharePoint servers, Internet Protocol Security (IPSec) must be disabled on the servers. The reason this must be done is that mobile devices are not domain-joined. 
@@ -134,7 +134,7 @@ The following tables detail the authentication types supported for browsers, One
 ### Authentication for the SharePoint Newsfeed App
 <a name="News"> </a>
 
-This section provides authentication guidance and considerations for the SharePoint Newsfeed app. This includes information for on-premises based deployments, and using SharePoint Online. 
+This section provides authentication guidance and considerations for the SharePoint Newsfeed app. This includes information for on-premises based deployments, and using SharePoint. 
   
  **Authentication support for the SharePoint Newsfeed App**
   
@@ -148,24 +148,24 @@ The following table details the authentication types supported for the SharePoin
 |**Windows Authentication** <br/> |NTLM  <br/> |Active Directory  <br/> |On-premises  <br/> |NTLM  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
 |Basic Authentication  <br/> |Active Directory  <br/> |On-premises, extranet  <br/> |Basic Authentication  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes (https)  <br/> |
 |**Forms-Based Authentication (FBA)** <br/> |FBA  <br/> |Active Directory, LDAP, SQL  <br/> |On-premises, extranet  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
-|FBA  <br/> |OrgID  <br/> |SharePoint Online, hybrid -based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
-|FBA  <br/> |OrgID  <br/> |SharePoint Online, hybrid -based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
-|**SAML (token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint Online, hybrid -based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
-|SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint Online, hybrid -based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
+|FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
+|FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
+|**SAML (token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint in Microsoft 365, hybrid-based scenarios  <br/> |MSOFBA  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |
+|SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint in Microsoft 365, hybrid -based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
    
 > [!IMPORTANT]
-> For federated scenarios in SharePoint Online, only Active Directory Federation Services (ADFS) 2.0 is supported. During the setup process it is necessary to support a passive federation authentication URI of:  *"urn:oasis:names:tc:SAML:2.0:ac:classes:Password"*  . 
+> For federated scenarios in SharePoint in Microsoft 365, only Active Directory Federation Services (ADFS) 2.0 is supported. During the setup process it is necessary to support a passive federation authentication URI of:  *"urn:oasis:names:tc:SAML:2.0:ac:classes:Password"*  . 
   
  **Authentication Workflows**
   
-The SharePoint Newsfeed App is supported for both on-premises and SharePoint Online use. Each option can present differences with end user authentication workflow. For example, this table provides sample authentication experiences for each type of implementation. 
+The SharePoint Newsfeed App is supported for both on-premises and SharePoint in Microsoft 365 use. Each option can present differences with end user authentication workflow. For example, this table provides sample authentication experiences for each type of implementation. 
   
 |**Deployment**|**Workflow**|**Details**|
 |:-----|:-----|:-----|
 |**On-premises** <br/> |![SPNewsfeed On-premises](../media/SP15Mobile_SPNewsOnPrem.jpg)| Supported Authentication Types  <br/>  Windows Authentication  <br/>  Forms Based Authentication  <br/>  SAML  <br/> |
-|**SharePoint Online** <br/> |![SPNewsfeed SPO](../media/SP15Mobile_SPNewsSPO.jpg)| Supported Authentication Types  <br/>  Forms Based Authentication  <br/>  SAML  <br/> |
+|**SharePoint in Microsoft 365** <br/> |![SPNewsfeed SPO](../media/SP15Mobile_SPNewsSPO.jpg)| Supported Authentication Types  <br/>  Forms-based Authentication  <br/>  SAML  <br/> |
    
-For more information on how to deploy the SharePoint Newsfeed App in your network, including configuring cross-firewall access, see [Configure external access for mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393835(v=office.14)).
+For more info about how to deploy the SharePoint Newsfeed App in your network, including configuring cross-firewall access, see [Configure external access for mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393835(v=office.14)).
   
 ## See also
 <a name="section2"> </a>

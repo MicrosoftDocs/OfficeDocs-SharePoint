@@ -1,5 +1,5 @@
 ---
-title: "Manage the search schema in SharePoint Online"
+title: "Manage the search schema in SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -19,9 +19,9 @@ ms.collection: M365-collaboration
 description: "Learn about the search schema and how you can view, create, or change managed properties, and map crawled properties to managed properties to create a customized search experience."
 ---
 
-# Manage the search schema in SharePoint Online
+# Manage the search schema in SharePoint
 
-The search schema controls what users can search for, how users can search it, and how you can present the results on your search websites. By changing the search schema, you can customize the search experience in SharePoint Online.
+The search schema controls what users can search for, how users can search it, and how you can present the results on your search websites. By changing the search schema, you can customize the search experience in SharePoint.
   
 ## About the search schema
 <a name="__toc351360836"> </a>
@@ -106,7 +106,7 @@ You can change the search schema for the whole tenant or for a specific site col
 ### Crawling and re-indexing
 <a name="__toc351360840"> </a>
 
-When you change managed properties or add new ones, the changes take effect only after the content has been re-crawled. In SharePoint Online, crawling happens automatically based on the defined crawl schedule.
+When you change managed properties or add new ones, the changes take effect only after the content has been re-crawled. In SharePoint, crawling happens automatically based on the defined crawl schedule.
   
 When you have added a new property to a list or to a library, or when you have changed properties that are used in a list or library, search has to re-crawl the content before your changes will be reflected in the search index. Because your changes are made in the search schema, and not to the actual site, the search will not automatically re-crawl the list or the library. To make sure that your changes are crawled, you can specifically request a re-indexing of the list or library. When you do this, the list or library content will be re-crawled so that you can start using your new managed properties in queries, query rules and display templates.
   
@@ -125,12 +125,12 @@ For more info about Delve, see [Office Delve for Office 365 admins](https://go.m
 <a name="__toc351360841"> </a>
 
 > [!NOTE]
-> Not all options are available in SharePoint Online.
+> Not all options are available in SharePoint.
 
 > [!NOTE]
 > Refinable Managed Properties cannot be created. Instead use the existing Refinable Managed Properties, e.g. RefinableString00 or RefinableInt00. Searching "Refinable" will show all of the usable Refinable Managed Properties available.
 
-In SharePoint Online, when you create a new managed property, it will have some limitations. For example, the property can only be of type **Text** or **Yes/No**, and it can't be refinable or sortable.
+In SharePoint, when you create a new managed property, it will have some limitations. For example, the property can only be of type **Text** or **Yes/No**, and it can't be refinable or sortable.
   
 If you need a property of a different type, or one that has different characteristics than what is available, follow the steps under [Create a managed property by renaming an existing one](manage-search-schema.md#__ref341260321).
   
@@ -246,7 +246,7 @@ If you need a property of a different type, or one that has different characteri
 <a name="__toc351360844"> </a>
 
 > [!NOTE]
-> Not all options are available in SharePoint Online. 
+> Not all options are available in SharePoint. 
   
   
 **Go to the Search Schema page for the tenant**
@@ -407,7 +407,7 @@ If you don't want a document to show up in Delve, you can create a HideFromDelve
   
 5. Do one of the following:
     
-  - For SharePoint 2016 or SharePoint Online, clear the **Add to all content types** check box. 
+  - For SharePoint 2016 or SharePoint in Microsoft 365, clear the **Add to all content types** check box. 
     
   - For SharePoint 2013, clear the **Add to default view** check box. 
     

@@ -20,14 +20,14 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 9b8d7f82-45d5-45e5-91c9-d728535a6567
-description: "When a user follows a site, a link to that site is added to the user's Followed Sites list. If you're using both SharePoint Server and SharePoint Online, your users will have different followed lists for sites in each location. With SharePoint hybrid, you can consolidate the info from both locations into the SharePoint Online list in Microsoft 365."
+description: "When a user follows a site, a link to that site is added to the user's Followed Sites list. If you're using both SharePoint Server and SharePoint in Microsoft 365, your users will have different followed lists for sites in each location. With SharePoint hybrid, you can consolidate the info from both locations into the SharePoint list in Microsoft 365."
 ---
 
 # Hybrid site following
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
-When a user follows a site, a link to that site is added to the user's Followed Sites list. If you're using both SharePoint Server and SharePoint Online, your users will have different followed lists for sites in each location. With SharePoint hybrid, you can consolidate the info from both locations into the SharePoint Online list in Microsoft 365.
+When a user follows a site, a link to that site is added to the user's Followed Sites list. If you're using both SharePoint Server and SharePoint, your users will have different followed lists for sites in each location. With SharePoint hybrid, you can consolidate the info from both locations into the SharePoint list in Microsoft 365.
   
 ## How hybrid site following works
 
