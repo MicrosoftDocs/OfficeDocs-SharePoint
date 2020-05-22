@@ -216,8 +216,8 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |:-----|:-----|
 |Azure Blob Storage|Azure Blob Storage Connector|
 |OneDrive Consumer|    OneDrive Consumer Connector|
-|OneDrive for Business (Administrator)|    Microsoft 365 Connector|
-|OneDrive for Business (User)|    OneDrive for Business (User) Connector|
+|OneDrive (Administrator)|    Microsoft 365 Connector|
+|OneDrive (User)|    OneDrive (User) Connector|
 |SharePoint|Microsoft 365 Connector|
 
 
@@ -499,9 +499,9 @@ The original timestamps from Box are preserved when migrating into Microsoft 365
 
 When migrating from Box into Microsoft 365, the *modified by* author is preserved; however, the *created by* is changed to the user.
 
-### Does the Mover app interact with the sync client in OneDrive for Business?
+### Does the Mover app interact with the sync client in OneDrive?
 
-We do not interact with the sync client in OneDrive for Business. We recommend disabling it before a migration. If you use it during a migration, it tries to sync all the migrating data.
+We do not interact with the sync client in OneDrive. We recommend disabling it before a migration. If you use it during a migration, it tries to sync all the migrating data.
 
 ### What happens to shared data?
 

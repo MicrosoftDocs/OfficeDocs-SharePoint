@@ -224,8 +224,8 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |:-----|:-----|
 |Azure Blob Storage|Azure Blob Storage Connector|
 |OneDrive Consumer|    OneDrive Consumer Connector|
-|OneDrive for Business (Administrator)|    Microsoft 365 Connector|
-|OneDrive for Business (User)|    OneDrive for Business (User) Connector|
+|OneDrive (Administrator)|    Microsoft 365 Connector|
+|OneDrive (User)|    OneDrive (User) Connector|
 |SharePoint|Microsoft 365 Connector|
 
 ## Deleting connectors

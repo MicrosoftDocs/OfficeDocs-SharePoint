@@ -28,7 +28,7 @@ Learn how to mitigate issues with Customized Profile pages during migration.
   
 ## Overview
 
-In the source environment, viewing a user's profile is managed by a page hosted in the My Site Host named Person.aspx. For example, selecting a colleague's name in a document library or from their OneDrive for Business will take you to the person.aspx page to view the user's profile.
+In the source environment, viewing a user's profile is managed by a page hosted in the My Site Host named Person.aspx. For example, selecting a colleague's name in a document library or from their Microsoft OneDrive will take you to the person.aspx page to view the user's profile.
   
 After migration to the target environment, the profile experience is managed by the Delve service. There is currently a limitation in that the Delve profile page cannot be modified. This scan report will show you any customizations that have been made to the Person.aspx page in the source environment. This data can be used to understand any impact with the move to the target environment with regards to the profile experience.
   
