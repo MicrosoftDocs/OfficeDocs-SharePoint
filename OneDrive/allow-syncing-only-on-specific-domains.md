@@ -44,7 +44,7 @@ To make sure that users sync OneDrive files only on managed computers, you can c
 > Make sure to add the domain GUID of the computer domain membership. If users are in a separate domain, only the domain GUID that the computer account is joined to is required.
 
 > [!IMPORTANT]
-> This setting is only applicable to Active Directory domains. It does not apply to Azure AD domains. If you have devices which are only Azure AD joined, consider using a [Conditional Access Policy](/azure/active-directory/conditional-access/overview) instead.
+> This setting is only applicable to Active Directory domains. It does not apply to Azure AD domains. If you have devices which are only Azure AD joined, consider using a [Conditional Access Policy](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#office-365-preview) targeting Office 365 instead.
    
 5. If you want to prevent Mac OS users from syncing entirely, select the **Block sync on Mac OS** check box.
     
