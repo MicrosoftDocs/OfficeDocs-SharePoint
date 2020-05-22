@@ -46,7 +46,7 @@ The following Azure AD user attributes are synced to the UPA.
 
 |Azure AD attribute|User profile property display names |Notes |Sync to sites|
 |:-------|:-------|:-------|:-------|
-|UserPrincipalName   | Account Name </br> User Name </br> User Principal Name | Example: </br> i:0#.f|membership|gherrera@contoso.com </br> gherrera@contoso.com | Yes |
+|UserPrincipalName   | Account Name </br> User Name </br> User Principal Name | Example: </br> i:0#.f<|>membership<|>gherrera@contoso.com </br> gherrera@contoso.com | Yes |
 |DisplayName |Name  | |Yes|
 |GivenName |FirstName  | |Yes |
 |sn  |LastName |  |Yes |
@@ -68,15 +68,15 @@ The following Azure AD user attributes are synced to the UPA.
 **How often are changes synced into the User Profile Application?**
 </br>
 User account attribute changes are collected in batches and processed for UPA synchronization. Times will vary based on the amount of changes requested in a single batch. The UPA synchronization is schedule to run at regular intervals.
-</br>
+</br></br>
 **Will UPA synchronization overwrite existing properties in SharePoint user profiles?**
 </br>
 For the default properties that are synced by UPA synchronization, values will be overwritten to align with Azure AD.
-</br>
+</br></br>
 **Does UPA synchronization update only properties that have changed?**
 </br>
 UPA synchronization is driven primarily by changes that are made Azure AD, including adding new users. A full import can occur under certain maintenance events.
-</br>
+</br></br>
 **Why isn't it possible to map additional properties for UPA synchronization to sync from Azure AD to the User Profile Application?**
 </br>
 UPA synchronization is limited to a preconfigured set of properties to guarantee consistent performance across the service. 
