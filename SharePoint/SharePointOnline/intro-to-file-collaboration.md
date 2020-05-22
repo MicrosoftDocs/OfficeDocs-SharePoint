@@ -204,7 +204,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 ## Manage feature changes
 
-- To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/office-365/roadmap).
+- To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 - To keep on top of the latest SharePoint features rolling out, refer to the [Message Center](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide).
 
