@@ -122,6 +122,7 @@
 ### [User profiles]()
 #### [Manage user profiles](manage-user-profiles.md)
 #### [Add and edit user profile properties](add-and-edit-user-profile-properties.md)
+#### [About user profile synchronization](user-profile-sync.md)
 #### [Remove users from SharePoint Online](remove-users.md)
 ### [BCS connections]()
 #### [Manage BCS applications](manage-business-connectivity-service-applications.md)
