@@ -61,7 +61,7 @@ The new, modern experience in SharePoint is designed to be compelling, flexible,
 
 Over the years, we have learned about what makes an intranet successful. These factors can help accelerate the creation, adoption, and overall success of your intranet:
 
-- Ensure that your intranet goals are directly tied to key business outcomes.
+- Ensure that your intranet goals are directly tied to [key business outcomes](https://docs.microsoft.com/en-us/sharepoint/plan-intranet.)
 - Have an executive sponsor and identify intranet champions.
 - Establish KPIs that are regularly communicated from the project's start to finish.
 - Design for simplicity and longevity.
@@ -82,6 +82,7 @@ Over the years, we have learned about what makes an intranet successful. These f
 |[IT pros / Admins](#it-pros-and-admins)|Platform integration, content migration, performance, scalability, user training|Site creation, navigation, search, branding, publishing||
 |[Business owners / site owners](#business-owners-and-site-owners)|Business objectives, permissions, content audit, and migration|Site creation, navigation, branding, audience targeting|Site management, scheduled content audits|
 |[Content authors](#content-authors)|Content best practices, content, and site design|Create and maintain content, content collaboration|Update existing content, publish new content|
+
 
 ## Organization intranet owners
 
@@ -283,6 +284,8 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 ### Envision
 
+![](media/IntranetEnvision.png)
+
 - Identify your key sponsors and stakeholders and review key organizational priorities. Document a vision that will help provide direction and help you prioritize opportunities
 - Align key outcome goals with SharePoint capabilities to identify where you may need to invest in customization. Consider whether an “intranet in a box” solution might be appropriate for your organization.
 - Think about governance. What processes will you need to create to provision, manage, and maintain sites and content? Do you have security, retention, or compliance goals that need to be considered?
@@ -297,6 +300,8 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 ### Plan
 
+![](media/IntranetPlan.png)
+
 - Work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit in the shortest time
 - Start by developing an understanding about what you need your intranet to accomplish and start organizing content assets and business outcomes. Organize depending on the needs of the business - by region, department, or function – and by the topics that your users care about.
 - As you prioritize your intranet projects, consider how to get the best performance and scalability from the portals that you build
@@ -310,6 +315,8 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 ### Build
 
+![](media/IntranetBuild.png)
+
 - Communicate goals progress regularly
 - Measure, learn, and pivot as you go
 - Get feedback regularly
@@ -322,6 +329,8 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 | [Content authors](#content-authors)| Create solutions to business objectives by creating and sharing relevant content with the right audiences. |
 
 ### Manage and maintain
+
+![](media/IntranetManage.png)
 
 - Celebrate the launch of your new intranet
 - Use metrics to measure progress
