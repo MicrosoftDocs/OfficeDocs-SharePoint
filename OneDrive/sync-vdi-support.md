@@ -27,7 +27,7 @@ description: "Learn about the OneDrive sync app support for desktop virtualizati
 For all [supported operating systems](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e), the OneDrive sync app supports:
 
 - Virtual desktops that persist between sessions. 
-- Non-persistent virtual desktops that use [Windows Virtual Desktop](https://www.microsoft.com/office-365/modern-desktop/enterprise/windows-virtual-desktop).
+- Non-persistent virtual desktops that use [Windows Virtual Desktop](https://azure.microsoft.com/services/virtual-desktop/).
 - Non-persistent virtual desktops that have [FSLogix Apps 2.8 or later](/fslogix/configure-profile-container-tutorial), [FSLogix Office Container](/fslogix/configure-office-container-tutorial), and a Microsoft 365 subscription for all of the following operating systems:
   - Windows 10, 32 or 64-bit (supports VHDX files) 
   - Windows 7, 32 or 64-bit (supports VHD files) 
