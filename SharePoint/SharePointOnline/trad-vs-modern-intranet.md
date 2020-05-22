@@ -59,7 +59,7 @@ What makes modernizing your intranet worth the effort:
 ### Secure and accessible
 
 |Traditional|New|How to get started |
-|:-------|:------:|--------:|
+|:-------|:------|:--------|
 | Deployed solely by IT   | Relies on a collaborative approach with several stakeholders across departments of the organization   |  Instead of assigning intranet tasks to a few IT members, assemble a team that represents the needs of your viewers and business to create intranet solutions. </br> [Learn more about modern intranet teams](https://docs.microsoft.com/sharepoint/intranet-overview)  |
 | Manually governed by IT | Uses governance models that provide flexibility for users in a compliant way based of the organization's goals - sharing, provisioning, risk mitigation | Instead of asking for permission to create a site from IT, site owners can create their own sites using SharePoint's out-of-the-box responsive designs and custom theming. </br> [Learn more about managing site creation](https://docs.microsoft.com/sharepoint/manage-site-creation)|
 | Resources can only be accessed in the office or on a computer | Work anytime, anywhere, any place, on any device | Instead of limiting access to content, use SharePoint security and compliance features to make sure viewers have access to the right information on any device. </br> SharePoint works by default on mobile devices. |
@@ -67,7 +67,7 @@ What makes modernizing your intranet worth the effort:
 ### Informs and engages
 
 |Traditional|New|How to get started |
-|:-------|:------:|--------:|
+|:-------|:------|:--------|
 | Communication primarily through email   | Communicate primarily through SharePoint news, community portals, and Yammer   |  Instead of sharing a project update in a newsletter, announce your update on your project's site and in the Yammer feed to start an engaging conversation. </br>  [Learn more about using the Yammer web part](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) |
 | Outdated news is shared in a corporate news feed or newsletter | SharePoint news posts transform news into a visually engaging experience that can be created quickly and distributed to specific audiences in real-time |Instead of communicating big announcements through an org-wide email, create a news post that will dynamically display to your relevant audience. </br> [Learn more about creating a news site](https://docs.microsoft.com/sharepoint/organization-news-site)|
 | Disjointed experience for international organizations | Multi-lingual and audience targeting features ensure users relate to relevant information | Instead of creating separate experiences for unique viewers, target navigational links to specific audiences. </br> [Learn more about targeting content to specific audiences](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293?ui=en-us&rs=en-gb&ad=gb) |
@@ -75,7 +75,7 @@ What makes modernizing your intranet worth the effort:
 ### Builds community and culture
 
 |Traditional|New|How to get started |
-|:-------|:------:|--------:|
+|:-------|:------|:--------|
 | Intranet structure is based on organization structure   | Role and task-based portals house community initiative-driven projects   |  Instead of separating content by organizational structure, use hubs to organize content based on business initiatives. </br>  [Learn more about planning hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites) |
 | In-person gatherings to build team and organizational culture | Frequent engagement through online events that showcase people, celebrate milestones, and maintain consistent conversation using Yammer and Microsoft Stream |Instead of semi-annual gatherings, record online events and embed the event recording using Microsoft stream in a news post. </br> [Learn more about using the Stream web part](https://support.office.com/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B)|
 | Infrequent interaction between the organization and leadership | Aligns organizations with leadership through live events, dynamic content like news, and social connection | Instead of formal engagements with leadership, create accessible outlets in the form of live events in Yammer. </br> [Learn more about organizing a live event in Yammer](https://support.office.com/article/Organize-a-live-event-in-Yammer-105dd7af-9caf-4a5e-8a44-56d203e96551) |
@@ -83,7 +83,7 @@ What makes modernizing your intranet worth the effort:
 ### Creates and extends knowledge
 
 |Traditional|New|How to get started |
-|:-------|:------:|--------:|
+|:-------|:------|:--------|
 | Static information like FAQ   | Dynamic information that's community generated in Yammer   |  Instead of creating a FAQ page, embed a Yammer web part that connects viewers to subject matter experts and provides insights into previous conversations. </br>  [Learn more about using the Yammer web part](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da) |
 | Browse to find | Search *and* browse to find |Instead of limiting viewers access to content, use SharePoint modern search features that protect sensitive content while increasing search success. </br> [Learn more about search in SharePoint](https://docs.microsoft.com/sharepoint/overview-of-search)|
 | Collection of websites | Collection of experiences | Instead of organizing your internet by area of business, organize by business outcomes and initiatives. </br> [Learn more about planning hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites) |
