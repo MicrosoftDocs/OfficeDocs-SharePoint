@@ -46,7 +46,7 @@ The following Azure AD user attributes are synced to the UPA.
 
 |Azure AD attribute|User profile property display names |Notes |Sync to sites|
 |:-------|:-------|:-------|:-------|
-|UserPrincipalName   | Account Name </br> User Name </br> User Principal Name | Example: </br> i:0#.f<|>membership<|>gherrera@contoso.com </br> gherrera@contoso.com | Yes |
+|UserPrincipalName   | Account Name </br> User Name </br> User Principal Name | Example: </br> i:0#.f <|> membership <|> gherrera@contoso.com </br> gherrera@contoso.com | Yes |
 |DisplayName |Name  | |Yes|
 |GivenName |FirstName  | |Yes |
 |sn  |LastName |  |Yes |
@@ -63,7 +63,7 @@ The following Azure AD user attributes are synced to the UPA.
 > [!NOTE]
 > To update additional or custom properties, see [Bulk update custom user profile properties](https://docs.microsoft.com/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online).
 
-# Frequently asked questions (FAQs)
+## Frequently asked questions (FAQs)
 
 **How often are changes synced into the User Profile Application?**
 </br>
