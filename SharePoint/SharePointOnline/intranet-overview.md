@@ -61,7 +61,7 @@ The new, modern experience in SharePoint is designed to be compelling, flexible,
 
 Over the years, we have learned about what makes an intranet successful. These factors can help accelerate the creation, adoption, and overall success of your intranet:
 
-- Ensure that your intranet goals are directly tied to [key business outcomes](https://docs.microsoft.com/en-us/sharepoint/plan-intranet.)
+- Ensure that your intranet goals are directly tied to [key business outcomes](https://docs.microsoft.com/sharepoint/plan-intranet).
 - Have an executive sponsor and identify intranet champions.
 - Establish KPIs that are regularly communicated from the project's start to finish.
 - Design for simplicity and longevity.
