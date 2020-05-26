@@ -28,7 +28,7 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.0](https://aka.ms/spmt-beta-page) |[3.2.118.1](https://aka.ms/spmt-ga-page)|[3.2.118.1](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.0](https://aka.ms/spmt-beta-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
 
 
   
@@ -139,7 +139,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |Site migration|SharePoint sites that are "out of the box" - sites that do not use any coding or 3rd party tools - can now be migrated. SPMT now preserves site audits. |
 |Navigation|Migration of navigation and icons is now supported.|
 |Site descriptions|Site description can now be migrated.|
-|SharePoint webparts|SPMT now supports the migration of SharePoint webparts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Webparts](spmt-supported-webparts.md).|
+|SharePoint web parts|SPMT now supports the migration of SharePoint web parts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Web parts](spmt-supported-webparts.md).|
 |Page migration|Pages in the site asset library can now be migrated.|
 |Managed metadata|This release supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.|
 |JSON improvements|Task level settings are now supported for bulk upload using JSON.|
