@@ -36,18 +36,33 @@ Download and install SPMT using one of the links listed below.
 
 ### SPMT Public Preview 
 
-**New features**
 
 The following features are now available in the public preview version of the SharePoint Migration Tool.
 
 |**Feature**|**Description**|
 |:-----|:-----|
 |SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SharePoint online.|
+
+
+### SPMT 3.2.119.0
+
+The following features were added to the SharePoint Migration Tool in this release:
+
+**New features**
+
+|**Feature**|**Description**|
+|:-----|:-----|
 |Microsoft Teams added as a selection choice|Users can now select Teams and channels directly from the destination selection page.|
 |User emails for OneDrive|User email accounts for OneDrive migration are now supported as an input value.|
 |Version info |A new file, %\AppData\Local\Apps\SharePointMigrationTool\Logs\SPMT-VersionHistory.log will contain version history.|
 |Performance recommendations|The performance report contains direct links to detailed content on  performance recommendations.|
 |New setting|A new setting, "Temporarily allow migration of scripts", will automatically allow the migration of scripted web parts without having to go in the tenant admin. | 
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Performance|General improvements have been made to the tool.|
 
 ### SPMT 3.2.118.0
 
