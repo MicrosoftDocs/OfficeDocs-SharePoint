@@ -6,17 +6,18 @@ The following API description is based upon use of the SharePoint Client Side Ob
 >[!Note]
 > The CreateCopyJob API is deprecated.
 
-## Methods
-CreateCopyJobs
+## Method
+
+### CreateCopyJobs
 This method creates a new copy or move job allows customer to copy or move a file or folder from one site in SharePoint/OneDrive/Team to another site. 
 
-### Syntax
+#### Syntax
 ```cs
 public List<SPCopyMigrationInfo> CreateCopyJobs(Uri[] exportObjectUris, Uri destinationUri, SPCopyMigrationOptions options)
 ```
    
 
-### Parameter
+#### Parameter
 |**Parameter**|**Description**|
 |:-----|:-----|
 |exportObjectUris|URL for the files or folders of a list which user want to copy or move|
@@ -83,6 +84,7 @@ public bool ExcludeChildren { get; set; }
 ```
 For this operation, only the root level folder of the URL is being copied. The sub folders or files within the folder will not be moved or copied
 </br>
+
 ### Output
 
 |**Output parameter**|**Description**|
@@ -96,7 +98,7 @@ For this operation, only the root level folder of the URL is being copied. The s
 ```cs
 public Uri JobQueueUri { get; set; } 
 ```
-The reporting features are the same as they are for CreateMigrationJob. Logging is provided to track the status of the createCopyJobs. By default, blob queue permissions and settings are set to "all access”. It will provide job status : Job start, Job end, Job error information . 
+The reporting features are the same as they are for CreateMigrationJob. Logging is provided to track the status of the createCopyJobs. By default, blob queue permissions and settings are set to "all access”. It will provide job status : Job start, Job end, Job error information. 
 
 ### Limitations
 
