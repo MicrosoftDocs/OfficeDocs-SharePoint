@@ -1,5 +1,5 @@
 ---
-title: "Let users create modern site pages"
+title: "Allow users to create modern pages"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
@@ -20,30 +20,37 @@ search.appverid:
 - BSA160
 - MET150
 ms.assetid: c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b
-description: "In this article, you'll learn how to allow or prevent users from adding pages on SharePoint sites."
+description: "In this article, you'll learn how to allow or prevent users from adding modern pages on SharePoint sites."
 ---
 
-# Let users create modern site pages
+# Allow users to create modern pages
 
-Using SharePoint Online pages is a great way to share ideas using images, Excel, Word and PowerPoint documents, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and they look great on any device. 
+Using modern pages in Microsoft SharePoint is a great way to share ideas using images, Office files, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and modern pages look great on any device. 
   
-If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent the creation of SharePoint Online site pages by users. You can do this organization-wide by changing settings in the SharePoint admin center, or at the site level by using a Microsoft PowerShell script.
+If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent users from creating modern pages. You can do this at the organization level by changing settings in the SharePoint admin center. If you allow the creation of site pages as the organization level, site owners can [turn it of or off at the site level](https://support.office.com/article/787F3BA1-9DF6-480A-AB4C-9F4525490CB9). 
   
 > [!NOTE]
-> The following procedures are for SharePoint pages only. When you allow creation of site pages, the **Add a page** command in the **Settings** menu creates new site pages. If you turn off the ability to create site pages, users can still add a SharePoint page from the **New** menu on the Home page and add from the classic page to a Wiki library using the same command. 
->
-> If instead you want to disallow the ability for members to create or modify any kind of SharePoint page, you can change the permissions on the Site Pages library to disallow editing for users in the Members group of the site.
+> If you want to prevent members from creating or modifying any SharePoint pages on a site, go to Site Pages, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Library settings** > **Permissions for this document library**, and then set the Members group to Read. 
   
-## Allow or prevent creation of site pages at the organization level in the SharePoint admin center
+## Change page creation settings at the organization level 
 
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
+    >[!NOTE]
+    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
-2. Select **classic settings page**.
+2. Select **Pages**.
     
-3. Next to **Site pages**, select either **Allow users to create site pages** or **Prevent users from creating site pages**.
+3. Select or clear **Allow users to create new modern pages**.
+
+    > [!NOTE]
+    > Preventing users from creating modern pages hides the following options:<br>- On the Site Pages and Site contents pages > **New** > **Page**.<br>- **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Add a page**.<br>Users can still add pages from other modern pages, either from the New menu or from modern webparts (such as News). 
+
+4. You can also select to allow or prevent commenting on modern pages. If you allow commenting, it can be turned on or off at the page level. 
+
+    ![Pages settings in the new SharePoint admin center](media/pages-setting.png)
+
+
     
 ## Prevent users from creating modern pages on a specific site by using PowerShell
 
