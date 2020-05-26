@@ -65,53 +65,53 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
   
 4. Copy the following code and paste it into a text editor, such as Notepad. 
     
-  ```PowerShell
-  # Load SharePoint Online Client Components SDK Module
-  Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
+   ```PowerShell
+   # Load SharePoint Online Client Components SDK Module
+   Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
 
-  # Set script constants
-  $sitePagesFeatureIdString = 'B6917CB1-93A0-4B97-A84D-7CF49975D4EC'
+   # Set script constants
+   $sitePagesFeatureIdString = 'B6917CB1-93A0-4B97-A84D-7CF49975D4EC'
 
-  # Set up client context
-  $userName = Read-Host "Username"
-  $password = Read-Host "Password" -AsSecureString
-  $siteUrl = Read-Host "Site Url"
-  $webUrl = Read-Host "Server-Relative Web Url"
-  $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
-  $credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
-  $context.Credentials = $credentials
+   # Set up client context
+   $userName = Read-Host "Username"
+   $password = Read-Host "Password" -AsSecureString
+   $siteUrl = Read-Host "Site Url"
+   $webUrl = Read-Host "Server-Relative Web Url"
+   $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
+   $credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
+   $context.Credentials = $credentials
 
-  # Get the list of existing features
-  $web = $context.Site.OpenWeb($webUrl)
-  $features = $web.Features
-  $context.Load($features)
-  $context.ExecuteQuery()
+   # Get the list of existing features
+   $web = $context.Site.OpenWeb($webUrl)
+   $features = $web.Features
+   $context.Load($features)
+   $context.ExecuteQuery()
 
-  # Verify that the Site Pages feature is present in the web
-  if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -eq 0)
-  {
-      Write-Host "The Site Pages feature is already disabled in this web"
-      return
-  }
+   # Verify that the Site Pages feature is present in the web
+   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -eq 0)
+   {
+       Write-Host "The Site Pages feature is already disabled in this web"
+       return
+   }
 
-  # Remove the Site Pages feature from the web
-  $features.Remove((new-object 'System.Guid' $sitePagesFeatureIdString), $false)
-  $context.ExecuteQuery()
+   # Remove the Site Pages feature from the web
+   $features.Remove((new-object 'System.Guid' $sitePagesFeatureIdString), $false)
+   $context.ExecuteQuery()
 
-  # Verify that the Site Pages feature is no longer present in the Web
-  $web = $context.Site.OpenWeb($webUrl)
-  $features = $web.Features
-  $context.Load($features)
-  $context.ExecuteQuery()
-  if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -eq 0)
-  {
-      Write-Host "The Site Pages feature has been successfully disabled"
-  }
-  else
-  {    
-      throw "The Site Pages feature failed to be disabled"
-  } 
-  ```
+   # Verify that the Site Pages feature is no longer present in the Web
+   $web = $context.Site.OpenWeb($webUrl)
+   $features = $web.Features
+   $context.Load($features)
+   $context.ExecuteQuery()
+   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -eq 0)
+   {
+       Write-Host "The Site Pages feature has been successfully disabled"
+   }
+   else
+   {    
+       throw "The Site Pages feature failed to be disabled"
+   } 
+   ```
 
 5. Save the text file, and then change its extension. In this example, we name it SitePagesOut.ps1.
     
@@ -122,17 +122,17 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
     
 7. Run the following command:
     
-  ```
-  ./SitePagesOut.ps1
-  ```
+   ```
+   ./SitePagesOut.ps1
+   ```
 
 8. The script will prompt you for a **SiteUrl** and **WebUrl**. 
     
-    If you have a site such as "https://contoso.sharepoint.com/sites/marketing/northwindcompete"
+   If you have a site such as "https://contoso.sharepoint.com/sites/marketing/northwindcompete"
     
-    For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
+   For the **SiteUrl** you would enter:  `https://contoso.sharepoint.com/sites/marketing`
     
-    And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
+   And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
     
 ## Allow users to create modern pages on a specific site by using PowerShell
 
@@ -144,56 +144,56 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
     
     > [!NOTE]
     > Read [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255) and make sure you run the SharePoint Online Management Shell as an administrator and the correct execution policy to run unsigned scripts. 
-  
+   
 4. Copy the following code and paste it into a text editor, such as Notepad. 
     
-  ```PowerShell
-  # Load SharePoint Online Client Components SDK Module
-  Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
+   ```PowerShell
+   # Load SharePoint Online Client Components SDK Module
+   Import-Module 'C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll'
   
-# Set script constants
-  $sitePagesFeatureIdString = 'B6917CB1-93A0-4B97-A84D-7CF49975D4EC'
+   # Set script constants
+   $sitePagesFeatureIdString = 'B6917CB1-93A0-4B97-A84D-7CF49975D4EC'
 
-  # Set up client context
-  $userName = Read-Host "Username"
-  $password = Read-Host "Password" -AsSecureString
-  $siteUrl = Read-Host "Site Url"
-  $webUrl = Read-Host "Server-Relative Web Url"
-  $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
-  $credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
-  $context.Credentials = $credentials
+   # Set up client context
+   $userName = Read-Host "Username"
+   $password = Read-Host "Password" -AsSecureString
+   $siteUrl = Read-Host "Site Url"
+   $webUrl = Read-Host "Server-Relative Web Url"
+   $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
+   $credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
+   $context.Credentials = $credentials
 
-  # Get the list of existing features
-  $web = $context.Site.OpenWeb($webUrl)
-  $features = $web.Features
-  $context.Load($features)
-  $context.ExecuteQuery()
+   # Get the list of existing features
+   $web = $context.Site.OpenWeb($webUrl)
+   $features = $web.Features
+   $context.Load($features)
+   $context.ExecuteQuery()
 
-  # Verify that the Site Pages feature is not present in the web
-  if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -gt 0)
-  {
-      Write-Host "The Site Pages feature is already enabled in this web"
-      return
-  }
+   # Verify that the Site Pages feature is not present in the web
+   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -gt 0)
+   {
+       Write-Host "The Site Pages feature is already enabled in this web"
+       return
+   }
 
-  # Add the Site Pages feature back to the web
-  $features.Add((new-object 'System.Guid' $sitePagesFeatureIdString), $false, [Microsoft.SharePoint.Client.FeatureDefinitionScope]::None)
-  $context.ExecuteQuery()
+   # Add the Site Pages feature back to the web
+   $features.Add((new-object 'System.Guid' $sitePagesFeatureIdString), $false, [Microsoft.SharePoint.Client.FeatureDefinitionScope]::None)
+   $context.ExecuteQuery()
 
-  # Verify that the Site Pages feature is now present in the web
-  $web = $context.Site.OpenWeb($webUrl)
-  $features = $web.Features
-  $context.Load($features)
-  $context.ExecuteQuery()
-  if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -gt 0)
-  {
-      Write-Host "The Site Pages feature has been successfully enabled"
-  }
-  else
-  {
-      throw "The Site Pages feature failed to be enabled"
-  }
-  ```
+   # Verify that the Site Pages feature is now present in the web
+   $web = $context.Site.OpenWeb($webUrl)
+   $features = $web.Features
+   $context.Load($features)
+   $context.ExecuteQuery()
+   if(($features | ? { $_.DefinitionId -eq $sitePagesFeatureIdString }).Count -gt 0)
+   {
+       Write-Host "The Site Pages feature has been successfully enabled"
+   }
+   else
+   {
+       throw "The Site Pages feature failed to be enabled"
+   }
+   ```
 
 5. Save the text file, and then change its extension. In this example, we name it SitePagesIn.ps1.
     
@@ -204,9 +204,9 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
     
 7. Run the following command:
     
-  ```
-  ./SitePagesIn.ps1
-  ```
+   ```powershell
+   ./SitePagesIn.ps1
+   ```
 
 8. The script will prompt you for a **SiteUrl** and **WebUrl**. 
     
