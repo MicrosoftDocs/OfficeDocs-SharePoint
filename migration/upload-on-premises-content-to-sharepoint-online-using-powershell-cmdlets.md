@@ -37,7 +37,7 @@ This is a step-by-step guide about how to use the SharePoint Migration PowerShel
   
 SharePoint Migration PowerShell cmdlets are designed to move on-premises content from file shares. Requiring minimal CSOM calls, it leverages Azure temporary BLOB storage to scale to the demand of large migration of data content.
   
-Follow these steps to use SPO Migration powershell to upload your on-premises data into SharePoint:
+Follow these steps to use SharePoint Migration powershell to upload your on-premises data into SharePoint:
   
 [Step 1: Install the SharePoint Management Shell](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md#Step1InstallShell).
   
@@ -51,7 +51,7 @@ Follow these steps to use SPO Migration powershell to upload your on-premises da
   
 [Step 6: Submit content to import](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md#step6submitimport).
   
-[(Optional) Step 7: Processing and Monitoring your SPO Migration](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md#step7monitoring).
+[(Optional) Step 7: Processing and Monitoring your SharePoint Migration](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md#step7monitoring).
   
 ## Prerequisites
 
@@ -159,7 +159,7 @@ There are six required parameters to enter (others are optional):
     
 - OutputPackagePath: Points to your final package folder.
     
-- Credentials: SPO credential that has admin rights to the destination site.
+- Credentials: SharePoint credential that has admin rights to the destination site.
     
 - TargetWebU﻿rl: Points to your destination web.
     
@@ -209,7 +209,7 @@ For each submitted job, the Invoke cmdlet returns these properties as part of a 
   
 - JobId: ID of the job in SPO.
     
-- ReportingQueueUri: SPO Azure queue that stores the real-time progress messages of the migration.
+- ReportingQueueUri: SharePoint Azure queue that stores the real-time progress messages of the migration.
     
 - Encryption: Encryption key and method used during uploading the content to Azure. This is required when you decrypt the queue messages and import logs.
     
@@ -217,10 +217,10 @@ If you're using your own Azure storage account, to upload content into your stor
   
 [Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
   
-## (Optional) Step 7: Processing and monitoring your SPO migration
+## (Optional) Step 7: Processing and monitoring your SharePoint migration
 <a name="step7monitoring"> </a>
 
-After the job is submitted, only Azure and SPO are interacting to fetch and migrate the content into the destination. This process is timer-job based, which means it's in a queue on a first-come, first-served basis. This does not prevent other jobs from being queued up by the same person.
+After the job is submitted, only Azure and SharePoint are interacting to fetch and migrate the content into the destination. This process is timer-job based, which means it's in a queue on a first-come, first-served basis. This does not prevent other jobs from being queued up by the same person.
   
 If there are no other jobs running, there is a potential of a one-minute delay.
   

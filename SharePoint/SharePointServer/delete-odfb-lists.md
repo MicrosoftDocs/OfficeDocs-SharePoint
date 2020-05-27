@@ -49,7 +49,7 @@ Copy the contents below and paste them into a text file. Save the file as Delete
 
 ```powershell
 #DeleteODBLists
-#Deletes ODB experience settings, stored in several SharePoint Lists
+#Deletes OneDrive experience settings, stored in several SharePoint Lists
 param([string]$siteUrl, [bool]$useStoredCreds=$true)
 Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.Runtime.dll"

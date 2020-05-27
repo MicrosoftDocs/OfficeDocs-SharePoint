@@ -1,5 +1,5 @@
 ---
-title: "SharePoint provided Azure containers and queues for SPO Migration API"
+title: "SharePoint provided Azure containers and queues for SharePoint Migration API"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -21,7 +21,7 @@ ms.assetid: 742b5502-08e8-47f8-83c4-afb521725cb2
 
 ---
 
-# SharePoint provided Azure containers and queues for SPO Migration API
+# SharePoint provided Azure containers and queues for SharePoint Migration API
 
 ## Overview
 
@@ -39,12 +39,12 @@ Important key aspects include:
     
 ## Encryption process
 
-Before the Migration API can accept a migration job from a SPO provided Azure container, the data must be encrypted at rest using the AES CBC 256 standard.
+Before the Migration API can accept a migration job from a SharePoint-provided Azure container, the data must be encrypted at rest using the AES CBC 256 standard.
   
 > [!NOTE]
 > You can still provide your own Azure account if you prefer to not use encryption. 
   
-No one has direct access to the storage accounts or the containers. The SPO service has access to the storage accounts; and while a select number of engineers can run maintenance commands against them, they also don't have direct access to the accounts. Datacenter technicians are not prepped with knowledge of how data is laid out on disk, and do not have ready access to equipment to mount disks. All drives are physically destroyed before leaving the datacenter. Physical security is also in place across all of our datacenters.
+No one has direct access to the storage accounts or the containers. The SharePoint service has access to the storage accounts; and while a select number of engineers can run maintenance commands against them, they also don't have direct access to the accounts. Datacenter technicians are not prepped with knowledge of how data is laid out on disk, and do not have ready access to equipment to mount disks. All drives are physically destroyed before leaving the datacenter. Physical security is also in place across all of our datacenters.
   
 Each container is dedicated to the customer who it was provided to and not reused. The data is stored in the Azure blob anywhere from 30 to 90 days after which it is deleted.
   
@@ -55,7 +55,7 @@ When the data is deleted, the files are de-linked and later soft deleted from di
   
 ## Key to the container
 
-The default key is generated programmatically, and is only valid for 3 days. This key is the only way to gain access to the container. It is generated randomly and not reused. The container itself lives longer than the key, as the container is purged using SPO standard methods between 30-90 days from creation. SPO never stores the key, though potentially they could find the container. The container is housed in a shared Microsoft storage, technically outside the tenant (but within the region), and is protected using the API key.
+The default key is generated programmatically, and is only valid for 3 days. This key is the only way to gain access to the container. It is generated randomly and not reused. The container itself lives longer than the key, as the container is purged using SharePoint standard methods between 30-90 days from creation. SharePoint never stores the key, though potentially they could find the container. The container is housed in a shared Microsoft storage, technically outside the tenant (but within the region), and is protected using the API key.
   
 Only those who have the key have access. Other users in the subscription or the tenant do not have access.
   

@@ -62,5 +62,5 @@ The final step to removing hybrid is to delete the **Azure Access Control Servic
 1. In the **Central Administration** website, select **Application Management**.
 2. In the **Application Management** page, select **Manage service applications**.
 3. In the **Service Applications** page, highlight the Service Application named **ACS**. On the ribbon, select **Delete**.
-4. In the **Service Applications** page, highlight the Service Application named **SPO App Management Proxy**. On the ribbon, select **Delete**.
+4. In the **Service Applications** page, highlight the Service Application named **SharePoint App Management Proxy**. On the ribbon, select **Delete**.
 5. Perform an iisreset on all SharePoint Servers in the farm.

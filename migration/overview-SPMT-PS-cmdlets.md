@@ -132,7 +132,7 @@ $Global:SPCredential = New-Object -TypeName System.Management.Automation.PSCrede
 $Global:SourceListName = "SourceListName"
 
 
-#Define SPO target#
+#Define SharePoint target#
 $Global:SPOUrl = "https://contoso.sharepoint.com"
 $Global:UserName = "admin@contoso.onmicrosoft.com"
 $Global:PassWord = ConvertTo-SecureString -String "YourSPOPassword" -AsPlainText -Force
@@ -145,7 +145,7 @@ $Global:FileshareSource = "YourFileShareDataSource"
 #Import SPMT Migration Module#
 Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
 
-#Register the SPMT session with SPO credentials#
+#Register the SPMT session with SharePoint credentials#
 Register-SPMTMigration -SPOCredential $Global:SPOCredential -Force 
 
 #Add two tasks into the session. One is SharePoint migration task, and another is File Share migration task.#

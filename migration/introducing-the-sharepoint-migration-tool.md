@@ -95,6 +95,6 @@ To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.
   
 [SharePoint and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
   
-[SharePoint provided Azure containers and queues for SPO Migration API](sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
+[SharePoint provided Azure containers and queues for SharePoint Migration API](sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
   
 

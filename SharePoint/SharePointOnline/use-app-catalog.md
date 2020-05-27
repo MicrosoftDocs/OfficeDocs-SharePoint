@@ -69,7 +69,7 @@ To get to the App Catalog site once it's been created, follow steps 1 and 2 in t
   
 2. Select **New**, and browse to the app you want upload, or drag the app into the library.
     
-    ![SPO App catalog SharePoint with New button highlighted](media/ef9d8d34-290c-4397-9422-836871c7de08.png)
+    ![SharePoint App catalog SharePoint with New button highlighted](media/ef9d8d34-290c-4397-9422-836871c7de08.png)
   
     > [!NOTE]
     > Depending on the functionality that the app provides, the developer can set a flag that allows you to make the app available to all sites in the organization. If the app builds something (for example, it creates a new list), you can't make it available to all sites and will need to deploy it as described in the next section under "Deploy a custom app." We always recommend testing solutions before deploying them more broadly. If the "Do you trust" dialog appears when you upload the app, and you want to make the app available to all sites in your organization, select **Make this solution available to all sites in the organization**, and then click **Deploy**.

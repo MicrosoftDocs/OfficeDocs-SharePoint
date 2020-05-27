@@ -529,24 +529,24 @@ Some list view options may prevent search list views with more than 5,000 items 
 
 The following instructions show you how to complete the authorization steps in the right order.
 
-Some steps in the authorization process can be completed by a Global Admin or an SPO Admin. At the beginning of each step, we indicate who can complete it.
+Some steps in the authorization process can be completed by a Global Admin or a SharePoint Admin. At the beginning of each step, we indicate who can complete it.
 
-1. **Global Admin or SPO Admin:** Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
+1. **Global Admin or SharePoint Admin:** Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
 
 >[!Note]
 >Whether the **Microsoft 365 Connector** is your source or destination connector (or both), you'll need to go through this authorization process.
 
 ![Authorize new connector](media/05-authorize-new-connector.png)
 
-2. **Global Admin or SPO Admin**: In the **Connector** list, find **Microsoft 365**. Select **Authorize**.
+2. **Global Admin or SharePoint Admin**: In the **Connector** list, find **Microsoft 365**. Select **Authorize**.
 
 ![Authorize O365](media/authorize-o365.png)
 
-3. **Global Admin or SPO Admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Microsoft 365 Connector**.  Select **Authorize**.
+3. **Global Admin or SharePoint Admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Microsoft 365 Connector**.  Select **Authorize**.
 
 ![Authorize windows](media/authorize-window.png)
 
-4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
+4. **Global Admin or SharePoint Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
 
 
 >[!Warning]
@@ -557,10 +557,9 @@ Some steps in the authorization process can be completed by a Global Admin or an
 - ![global admin o365](media/permissions-o365-global-admin.png)
 
 
+5. **Global Admin or SharePoint Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
-
-If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6–9), point your Global Admin to **aka.ms/office365moverauth**.
+If you're an **SharePoint Admin**: To grant permissions and finish the authorization process (Steps 6–9), point your Global Admin to **aka.ms/office365moverauth**.
 
 If you're a **Global Admin**: Continue with Steps 6–9.
 

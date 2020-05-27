@@ -214,7 +214,7 @@ When this setting is on, an incremental check of the SharePoint target environme
 |**Status**|**Result**|
 |:-----|:-----|
 |Modified time of the source file is earlier than the modified time of the target file.  <br/> |File will not be migrated.  <br/> |
-|Files or lists exist in the SPO target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
+|Files or lists exist in the SharePoint target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
 |Time stamp on files or object in the source location is newer in the source <br/> |The newer files are migrated.  <br/> |
 |Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
 |Source is an on-premises SharePoint Server/  <br/> |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  <br/> |

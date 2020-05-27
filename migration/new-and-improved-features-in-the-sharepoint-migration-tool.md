@@ -55,7 +55,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |User feedback|Users can now provide feedback directly from the tool.|
 |Site creation for file shares|Site structure creation is now supported for file share migration.|
 |Records management|Support for SharePoint Server migration of Record libraries.|
-|Enable publishing|Users can now choose to skip enabling publishing feature on SPO communication site| 
+|Enable publishing|Users can now choose to skip enabling publishing feature on SharePoint communication site| 
 |Setting|New setting allows you to not migrate the site and list general settings in a single list migration.| 
 |Setting|New SharePoint setting, "Migrate site settings". Choose if you want to migrate site logo, title, description and other general settings). Default value is on. If it's turned off, the setting will be skipped when migrating to existing destination site in site migration.| 
 |Taxonomy migration|By default, managed metadata migration is turned off, and taxonomy is updated in incremental round.|
