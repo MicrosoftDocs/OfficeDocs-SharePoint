@@ -148,7 +148,7 @@
 #### [Configure InfoPath Forms Services](configure-infopath-forms-services.md)
 #### [Hide app tiles on app launcher](hide-app-tiles-on-app-launcher.md)
 #### [Change version and upgrade settings](change-version-and-upgrade-settings.md)
-#### [Let users create modern site pages](let-users-create-modern-site-pages.md)
+#### [Allow users to create modern pages](let-users-create-modern-site-pages.md)
 #### [Let users connect classic sites to groups](let-users-connect-classic-sites-to-groups.md)
 #### [Enable or disable preview features](enable-or-disable-preview-features.md)
 ### [Hybrid](/sharepoint/hybrid/hybrid)
