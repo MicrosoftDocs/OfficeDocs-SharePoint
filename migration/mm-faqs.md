@@ -20,8 +20,6 @@ description: Migration Manager FAQs
 # Frequently Asked Questions:  Migration Manager
 
 
->[!Note]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 **Question:** Can I migrate content from SharePoint Server? </br>
 Answer:   At this time, Migration Manager only supports the migration of **file shares**.  It does not support the migration of content from SharePoint Server.
@@ -32,6 +30,8 @@ Answer:   Yes.
 
 **Question:**  Does the file share I am migrating need to be on a Windows computer?</br>
 Answer:    No.  As long as you can access the file share from the migration agent, you can migrate it.
+
+
 
 **Question:**  Is multi-factor authentication supported by Migration Manager?</br>
 Answer:    Microsoft multi-factor authentication is supported; however third party multi-factor authentication is not.
@@ -58,6 +58,9 @@ Answer: Pausing a task does not release the agent to another task. The agent rem
 
 **Question:**  How long does an agent stay connected to Migration Manager?</br>
 Answer:  The connection between an agent and Migration Manager stays active as long as the computer is still running and the SPO admin credentials that were used to sign into the agent are still valid. If the agent does becomes disconnected, the agent holds the token to the Migration Manager for up to 7 days. After which the agent will need to be reinstalled.
+
+**Question:**  Is Migration Manager available for Government clouds?</br>
+Answer:  Yes. Here's how you configure it: [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-gov-cloud)
 
 
 

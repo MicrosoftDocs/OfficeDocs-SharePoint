@@ -17,7 +17,8 @@ search.appverid:
 - MET150
 - BSA160
 ms.assetid: 5ae550c4-bd20-4257-847b-5c20fb053622
-description: "Learn how to block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain."
+description: Learn how to block or limit access to SharePoint and OneDrive content on devices that aren't compliant or joined to a domain.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Control access from unmanaged devices
@@ -38,7 +39,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 
   
 > [!NOTE]
-> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](/office-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.  
+> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. [Learn about Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/) For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.  
   
 ## Block access
 
@@ -184,6 +185,6 @@ Blocking access and blocking download may impact the user experience in some app
 
 ## See also
 
-[Policy recommendations for securing SharePoint sites and files](/office-365/enterprise/sharepoint-file-access-policies)
+[Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)
 
 [Control access to SharePoint Online and OneDrive data based on defined network locations](control-access-based-on-network-location.md)

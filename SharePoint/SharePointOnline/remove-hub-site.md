@@ -42,6 +42,6 @@ If you're a global or SharePoint admin in Microsoft 365, you can make a hub site
 > [!NOTE]
 > If a hub site has associated sites when you unregister it, it might take a while for the sites to be disassociated. If you re-register the hub site, the sites may remain associated.
 
-## See also
+## Related topics
 
 To learn how to use Microsoft PowerShell to manage and delete hub sites, see [Manage SharePoint hub sites](/sharepoint/dev/features/hub-site/hub-site-powershell).

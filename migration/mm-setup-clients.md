@@ -19,8 +19,6 @@ description: Set up multiple Migration Manager agents
 
 # Setup Migration Manager agents
 
->[!NOTE]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do this, you download and run a setup file on each computer.  
@@ -31,11 +29,15 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 
 ## Before you begin
-
-- Make sure all system prerequisites have been installed on your local computer or VM before running the Migration Manager agent setup file
+ 
+|**Check**|**Do**|
+|:-----|:-----|
+|[Prerequisites](#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
+|[Required Endpoints](#required-endpoints)|Review the required Endpoints|
 
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
+</br></br></br>
 
 ### Recommended practices
 
@@ -46,8 +48,10 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 - Confirm that the Windows credentials you plan on using to configure the service has access to **all** the network file shares you plan to migrate.  
 
 - Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
+</br></br></br>
 
 ### Prerequisites
+
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
 |CPU|64-bit quad core processor or better|64-bit 1.4 GHz 2-core processor or better|
@@ -56,8 +60,10 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|High speed internet connection|
 |Operating system|Windows Server 2012 R2 or Windows 10 agent|Windows Server 2012 R2 or Windows 10 agent|
-|Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|Required for OneNote migration|
-|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |</br>
+|Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |
+
+
+</br></br>
 
 ### Required endpoints
 
@@ -74,16 +80,42 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
 |https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
 
+</br></br>
 
+### Government Cloud
+
+Settings for goverment cloud tenants are listed below.  The default setting is **0**.
+
+|**Cloud**|**Setting value**|
+|:-----|:-----|
+|Consumer|0|
+|GCC|0|
+|GCC High|2|
+|DoD|2|
+</br>
+If your are either a **GCC high** or **DoD** customer, you need to make a change to configuration file before you install the agent. To configure and install agent, do the following:
+
+1. Download the agent setup file.
+2. Open the setup file and remain on the **Welcome** page. 
+3. Open  *%temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\microsoft.sharepoint.migration.common.dll.config*.
+4. Change the value of *SPOEnvironmentType* from 0 to 2.
+5. On the Welcome page, click **Next**. Follow the prompts to enter your SharePoint admin username and password to your GCC High or DoD account.
+6. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
+7. Test agent access (optional) or click **Close**.
+</br></br>
 ## Set up a single agent
 
 1. Go to the [Desktop Tool (SPMT) page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 2. Select **Download agent setup file**.
-3. Select **Run**.
+3. Open the setup file. On the Welcome page, select **Next**.
 4. Enter your SharePoint admin username and password. These are to the SharePoint environment where you will be migrating your content. Select **Next**.
-5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Run configuration**.
+5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
+6. Test agent access (optional) or click **Close**.
 
 On completion this computer will be added to the available agents that the Migration Manager can assign tasks.
+
+>[!Important]
+> Passwords are not stored in the installer.
 
 ## Set up multiple agents
 

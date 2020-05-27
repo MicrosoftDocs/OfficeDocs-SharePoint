@@ -235,7 +235,7 @@ During deployment, you'll install the SSL certificate both on the reverse proxy 
 Get a Secure Channel SSL wildcard or SAN (Subject Alternative Name) certificate for your on-premises public domain from a well-known certificate authority, for example, DigiCert, VeriSign, Thawte, or GeoTrust.
   
 > [!NOTE]
->  This certificate must support multiple names and must be at least 2048 bits. >  The **Subject** or **Subject Name** field of the certificate must contain a wildcard entry of the domain name in the External URL. For example, if your external URL is https://spexternal.public.adventureworks.com, the subject of your wildcard certificate should be **\*.public.adventureworks.com**. >  Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint admins should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 
+>  This certificate must support multiple names and must be at least 2048 bits. Certificates typically expire at one-year intervals. So it's important to plan in advance for certificate renewals to avoid service interruptions. SharePoint admins should schedule a reminder for certificate replacement that gives you enough lead-in time to prevent a work stoppage. 
   
    
 ### About STS certificates

@@ -16,6 +16,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MOE150
+- MET150
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
@@ -32,13 +33,17 @@ SharePoint Online is a cloud-based service that helps organizations share and ma
   
 The resources on this page are designed to get you started. Depending on the needs of your organization, you may want to read about [migration](#migration) and [governance](#governance) options before you start rolling SharePoint out to your users. If you're ready to get started with SharePoint, read about [collaboration](#collaboration) options and how to create a [modern intelligent intranet](#modern-intranet). As you roll out SharePoint to your organization, remember to [train your users](#training) to help them get the most out of these tools.
 
+If you're just starting out with SharePoint, learn about the [FastTrack onboarding and adoption services](https://fasttrack.microsoft.com/office), [find a SharePoint certified partner](https://products.office.com/sharepoint/sharepoint-partners-sharepoint-support), or [visit the SharePoint community](https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint).
+
+Once you're using SharePoint, get the [OneDrive sync app](https://onedrive.live.com/about/download) and the [Mobile app](https://products.office.com/sharepoint/mobile-app). You can also [suggest a feature](https://sharepoint.uservoice.com).
+
 ## Migration
 
 If you have files on-premises that you need to move to SharePoint in Microsoft 365, or if you're still using SharePoint Server, the resources in this section can help you get started.
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
-|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](https://docs.microsoft.com/sharepointmigration/migrating-content-to-onedrive-for-business)<br><br>[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)|
+|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](https://docs.microsoft.com/sharepointmigration/migrating-content-to-onedrive-for-business)<br><br>[How to migrate from on-premises file shares to Microsoft 365](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365)<br><br>[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)|
 |How to use connect your existing on-premises SharePoint sites to SharePoint in Microsoft 365|[Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid)|
 
 ## Governance
@@ -47,10 +52,10 @@ If your organization has legal or other requirements that govern the handling of
 
 |**If you're looking for this information:**|**Go to this resource:**|
 |:-----|:-----|
-|How to ensure that you retain files for a specified period of time, or delete them on a specified schedule|[Overview of retention policies](https://docs.microsoft.com/office-365/compliance/retention-policies)<br><br>[OneDrive retention and deletion](https://docs.microsoft.com/onedrive/retention-and-deletion)|
-|How to classify documents based on the sensitivity of the information|[Overview of sensitivity labels](https://docs.microsoft.com/office-365/compliance/sensitivity-labels)<br><br>[Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/office-365/compliance/sensitivity-labels-sharepoint-onedrive-files)|
-|How to prevent the loss or exfiltration of important data in documents emails|[Overview of data loss prevention](https://docs.microsoft.com/office-365/compliance/data-loss-prevention-policies)|
-|Search for in-place items such as email, documents, and instant messaging conversations|[Content Search in Microsoft 365](https://docs.microsoft.com/office-365/compliance/content-search)|
+|How to ensure that you retain files for a specified period of time, or delete them on a specified schedule|[Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)<br><br>[OneDrive retention and deletion](https://docs.microsoft.com/onedrive/retention-and-deletion)|
+|How to classify documents based on the sensitivity of the information|[Overview of sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)<br><br>[Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)|
+|How to prevent the loss or exfiltration of important data in documents emails|[Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
+|Search for in-place items such as email, documents, and instant messaging conversations|[Content Search in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search)|
 
 If you use OneDrive in your organization and you want to protect important files by saving them to the cloud, govern how much storage space users get, or govern how users sync file, these references will help you configure your policies.
 

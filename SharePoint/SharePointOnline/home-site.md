@@ -24,11 +24,7 @@ description: "Learn how to plan and create the top landing page for your organiz
 
 # Set up a home site for your organization
   
-A home site is a [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732
-) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
-
-> [!NOTE]
-> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see the feature described in this article.
+A home site is a [communication site](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. 
 
 ## Home site capabilities
 
@@ -43,7 +39,7 @@ When you set a site as your home site:
 - The site is automatically set up as an [organization news site](organization-news-site.md). (Although you can have only one home site, you can have multiple organization news sites.)
 
 > [!NOTE]
-> Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/office-365/roadmap?filters=&searchterms=start%20page).
+> Integration between the home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the home site are applied to the start page and users can easily navigate between the pages) is not available at this time. Please watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
 
 ## Plan and create your home site
 

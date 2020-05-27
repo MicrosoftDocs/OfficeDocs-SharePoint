@@ -33,7 +33,7 @@ The SharePoint Migration tool (SPMT) lets you use a comma separated (CSV) file t
   
 There are six columns needed in your CSV file -- the first three are your source values, each providing detail about where your data is currently located. The remaining three columns indicate the site, document library and optional subfolder to where you are migrating your data. All six columns must be accounted for in the file, even if you are not needing a value for a given field.
   
-Here's an example of the format for the CSV file. The first row show files that are being migrated from a local file share. The second row shows files that are being migrated from an on-premises SharePoint Server site.
+Here's an example of the format for the CSV file. The first row show files that are being migrated from a local file share to SharePoint Online. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint Online. The third row show files that are being migrated from a local file share to OneDrive.
   
 ![SPO Migration Tool sample format when using a CSV file](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
   
@@ -43,7 +43,7 @@ This example shows how it would appear in a .txt file.
 Source,SourceDocLib,SourceSubFolder,TargetWeb,TargetDocLib,TargetSubFolder
 C:\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
 https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrarySubfolder_name,https://contoso.sharepoint.com/sites/Sample/,DocLibraryName,DocLibraryName_subfolder
-
+\\sharedfolder\homedrives\meganb,,,https://contoso-my.sharepoint.com/personal/meganb_contoso_com/,DocLibraryName,DocLibraryName_subfolder
 ```
 
 > [!IMPORTANT]
@@ -63,7 +63,7 @@ The following example uses Excel to create the CSV file.
     
 2. Enter the values for your migration jobs. Enter one migration source and destination per row. See the reference table below for further explanation of columns.
     
-  - **Column A:** Enter either a file share path or an on-premises SharePoint Server site URL.  *Required.* 
+  - **Column A:** Enter either a file share path or an on-premises SharePoint Server site URL. For SharePoint Server 2013 and 2016, you can also use either the log in name or the SID in this column. *Required.* 
     
   - **Column B:** Enter name of the SharePoint Server document library you are migrating. If you leave this field empty, all document libraries will be migrated. If you are migrating a file share, leave this column empty.  *Optional.* 
     

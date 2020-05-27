@@ -29,7 +29,7 @@ The User Profile service application in SharePoint Server provides a central loc
   
 - **User profiles** - contain detailed information about people in an organization. A user profile organizes and displays all of the properties related to each user, together with social tags, documents, and other items related to that user. 
     
-- **Profile synchronization** - provides a reliable way to synchronize groups and user profile information that is stored in the SharePoint Server profile database together with information that is stored in Active Directory Directory Services. 
+- **Profile synchronization** - provides a reliable way to synchronize groups and user profile information that is stored in the SharePoint Server profile database together with information that is stored in Active Directory Domain Services. 
     
     In SharePoint Server 2013, you can synchronize directly with other directories across the enterprise.
     

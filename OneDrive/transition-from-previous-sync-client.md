@@ -35,7 +35,7 @@ If you're not an IT admin, to learn how to begin syncing files using the new One
 > If your organization never used the previous OneDrive for Business sync app, or had fewer than 250 licensed Office 365 users in June 2016, your users are already using the new OneDrive sync app to sync files in OneDrive and SharePoint.
   
   
-## Overview
+## Syncing files with OneDrive for Business sync app to OneDrive sync app 
 
 When users who are syncing files with the previous OneDrive for Business sync app (Groove.exe) sign in to the new OneDrive sync app (OneDrive.exe), the following things happen:
   
@@ -85,7 +85,7 @@ To transition users off of the previous OneDrive for Business sync app, first ma
 
 When the required software is installed on your users' computers, you can configure automatic takeover of syncing in two ways:
   
-- Silently - [Review the prerequisites and steps](use-silent-account-configuration.md), and then [use this policy](use-group-policy.md#SilentAccountConfig).  
+- Silently - [Review the prerequisites and steps](use-silent-account-configuration.md), and then [use this policy](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials).  
   
 - Manually - In the SharePoint admin center, [set OneDrive and SharePoint to sync with the new OneDrive sync app](/sharepoint/let-users-use-new-onedrive-sync-client#set-sharepoint-to-sync-with-the-onedrive-sync-client). This will run the new sync app the next time users click the Sync button in a SharePoint document library. If the options aren't available in the SharePoint admin center, the new OneDrive sync app is already set up to sync files in OneDrive and SharePoint.  
   

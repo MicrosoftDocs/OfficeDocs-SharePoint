@@ -10,6 +10,8 @@ f1.keywords:
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
@@ -65,7 +67,7 @@ For more information about OneDrive Files On-Demand, see [Learn about OneDrive F
 
 ### Modern attachments
 
-OneDrive integrates with Microsoft Outlook to enable easy sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive. This allows your users to all collaborate on the same file instead of sending different versions bach and forth in email. In addition, you can configure sharing permissions on the files directly from within the Outlook client.
+OneDrive integrates with Microsoft Outlook to enable easy sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive. This allows your users to all collaborate on the same file instead of sending different versions back and forth in email. In addition, you can configure sharing permissions on the files directly from within the Outlook client.
 
 ![Screenshot of Outlook with a modern attachment and the right-click menu showing permissions options](media/What-is-OneDrive-Small-Business_image3.png)
 
