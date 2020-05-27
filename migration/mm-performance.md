@@ -50,7 +50,7 @@ Suggestions:
 - Install and run the migration agent on a computer with better disk performance, such as a fast SSD.
 - Stop other applications which  creates a heavy load of disk operations when doing the migration.
 
-## Improving your connectivity to 0ffice 365 and Azure 
+## Improving your connectivity to Office 365 and Azure 
 
 The speed of the network connection between the computer running Migration Manager and the Azure blob storage service can impact your migration performance.  
 
