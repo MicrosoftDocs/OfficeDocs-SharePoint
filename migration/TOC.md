@@ -19,26 +19,6 @@
 ### [Reports](using-the-sharepoint-migration-tool-reports.md)
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ## Migration Manager
-### [Overview](mover-overview.md)
-### [Connectors](mover-connectors.md)
-### [Setting up the migration]
-#### [Box to Office 365](mover-setting-up-box-to-o365.md)
-#### [Dropbox to Office 365](mover-setting-up-dropbox-to-o365.md)
-#### [Egnyte to Office 365](mover-setting-up-egnyte-too365.md)
-#### [File shares to Office 365](mover-setting-up-fileshare-to-o365.md)
-#### [G Suite Drive to Office 365](mover-setting-up-gsuite-to-o365.md)
-#### [Amazon WorkDocs to Office 365](mover-setting-up-amazonworkdocs-to-o365.md)
-#### [Office 365 to Office 365](mover-setting-up-o365-to-o365.md)
-#### [Other migrations to Office 365]
-##### [Amazon S3 to Office 365](mover-setting-up-amazons3-to-o365.md)
-##### [Azure Blob Storage to Office 365](mover-setting-up-azureblob-to-o365.md)
-##### [Google Cloud Storage to Office 365](mover-setting-up-googlecloudstore-to-o365.md)
-##### [FTP to Office 365](mover-setting-up-ftp-to-o365.md)
-##### [SFTP to Office 365](mover-setting-up-sftp-to-o365.md)
-##### NetDocuments to Office 365](mover-setting-up-netdocuments-to-o365.md)
-##### [WedDAV to Office 365](mover-setting-up-webdav-to-o365.md)
-
-
 ### [Get started](mm-get-started.md)
 ### [Set up migration manager agents](mm-setup-clients.md)
 ### [Migration Manager settings](mm-settings.md)
@@ -49,13 +29,25 @@
 ### [Performance guidance for Migration Manager](mm-performance.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
-## Mover Migration Guides
-### [File shares to Microsoft 365](mover-fileshare-to-o365.md)
-### [Box to Microsoft 365](mover-box-to-o365.md)
-### [Dropbox to Microsoft 365](mover-dropbox-to-o365.md)
-### [Egnyte to Microsoft 365](mover-egnyte-to-o365.md)
-### [G Suite Drive to Microsoft 365](mover-gsuite.md)
-### [Office 365 to Microsoft 365](mover-o365-to-o365.md)
+## Mover Migration Guide
+### [Overview](mover-overview.md)
+### [Connectors](mover-connectors.md)
+### Setting up the migration
+#### [Box to Office 365](mover-setting-up-box-to-o365.md)
+#### [Dropbox to Office 365](mover-setting-up-dropbox-to-o365.md)
+#### [Egnyte to Office 365](mover-setting-up-egnyte-too365.md)
+#### [File shares to Office 365](mover-setting-up-fileshare-to-o365.md)
+#### [G Suite Drive to Office 365](mover-setting-up-gsuite-to-o365.md)
+#### [Amazon WorkDocs to Office 365](mover-setting-up-amazonworkdocs-to-o365.md)
+#### [Office 365 to Office 365](mover-setting-up-o365-to-o365.md)
+#### Other migrations to Office 365
+##### [Amazon S3 to Office 365](mover-setting-up-amazons3-to-o365.md)
+##### [Azure Blob Storage to Office 365](mover-setting-up-azureblob-to-o365.md)
+##### [Google Cloud Storage to Office 365](mover-setting-up-googlecloudstore-to-o365.md)
+##### [FTP to Office 365](mover-setting-up-ftp-to-o365.md)
+##### [SFTP to Office 365](mover-setting-up-sftp-to-o365.md)
+##### NetDocuments to Office 365](mover-setting-up-netdocuments-to-o365.md)
+##### [WedDAV to Office 365](mover-setting-up-webdav-to-o365.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [SPMT migration performance guidelines](spmt-performance-guidance.md)
