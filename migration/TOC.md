@@ -20,6 +20,7 @@
 ### [Create User mapping files](create-a-user-mapping-file-for-data-content-migration.md)
 ## Migration Manager
 ### [Get started](mm-get-started.md)
+### [Government cloud configuration](mm-gov-cloud.md)
 ### [Set up migration manager agents](mm-setup-clients.md)
 ### [Migration Manager settings](mm-settings.md)
 ### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
