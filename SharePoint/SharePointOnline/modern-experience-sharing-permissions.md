@@ -29,7 +29,7 @@ The three main types of sites in SharePoint are:
 
 - **Team sites** - Team sites provide a collaboration environment for your teams and projects. Each team site, by default, is part of a Microsoft 365 group, which includes a mailbox, shared calendar, and other collaboration tools. Team sites may also be part of a team in Microsoft Teams. Permissions for team sites are best managed through the associated Microsoft 365 group or Teams team.
 - **Communication sites** - Communication sites are for broadcasting news and status across the organization. Communication site permissions are managed by using the SharePoint Owners, Members, and Visitors groups for the site.
-- **Hub sites** - Hub sites are team sites or communication sites that the administrator has configured as a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Microsoft 365 group if there is one. Special permissions are needed to associate sites to a hub site.
+- **Hubs** - Hubs are team sites or communication sites that the administrator has configured as a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hubs can be managed through the Owners, Members, and Visitors groups, or through the associated Microsoft 365 group if there is one. Special permissions are needed to associate sites to a hub.
 
 ## Team site permissions and Microsoft 365 Groups
 
@@ -63,15 +63,15 @@ If a communication site is used by members of a team in Teams, you may want to a
 
 The visitors group is a good place to use security groups. In many organizations, this is the easiest way to add large numbers of users to a site.
 
-## Hub site permissions
+## Hub permissions
 
-Managing permissions in hub sites is dependent on the underlying type of site. If the site is a group-connected team site, then you should manage permissions through the Microsoft 365 group. If it's a communication site, then you should manage permissions through the SharePoint groups.
+Managing permissions in hubs is dependent on the underlying type of site. If the site is a group-connected team site, then you should manage permissions through the Microsoft 365 group. If it's a communication site, then you should manage permissions through the SharePoint groups.
 
-Hub site owners define the shared experiences for hub navigation and theme. Hub site members create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on their individual sites.
+Hub owners define the shared experiences for hub navigation and theme. Hub members create content on the hub as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on their individual sites.
 
-The SharePoint admin must specify which users can connect other sites to the hub site. This is done in the SharePoint admin center and cannot be changed by site owners.
+The SharePoint admin must specify which users can connect other sites to the hub. This is done in the SharePoint admin center and cannot be changed by site owners.
 
-![Screenshot of hub site registration dialog in the SharePoint admin center](media/permissions-register-hub-site.png)
+![Screenshot of hub registration dialog in the SharePoint admin center](media/permissions-register-hub-site.png)
 
 ## Sharable links
 

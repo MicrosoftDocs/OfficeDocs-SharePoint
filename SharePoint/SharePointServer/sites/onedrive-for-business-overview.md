@@ -73,6 +73,6 @@ Setting up OneDrive hybrid requires [configuring Microsoft 365](https://go.micro
 
 Setting up OneDrive in SharePoint Server requires configuring a User Profile Service application and setting up My Sites. For detailed planning information, see [Plan for OneDrive in SharePoint Server](onedrive-for-business-planning.md).
   
-For more information about syncing OneDrive files in SharePoint Server 2016 or 2013, see [Sync SharePoint files with the OneDrive sync app (Groove.exe)](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd).
+For more info about syncing OneDrive files in SharePoint Server 2016 or 2013, see [Sync SharePoint files with the OneDrive sync app (Groove.exe)](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd).
   
 

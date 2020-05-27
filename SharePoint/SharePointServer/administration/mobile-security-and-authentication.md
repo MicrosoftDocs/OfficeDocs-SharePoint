@@ -129,7 +129,7 @@ The following tables detail the authentication types supported for browsers, One
 |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint in Microsoft 365, hybrid-based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |Yes  <br/> |
    
 > [!NOTE]
-> In order for mobile devices to communicate with SharePoint servers, Internet Protocol Security (IPSec) must be disabled on the servers. The reason this must be done is that mobile devices are not domain-joined. 
+> For mobile devices to communicate with SharePoint servers, Internet Protocol Security (IPSec) must be disabled on the servers. The reason this must be done is that mobile devices are not domain-joined. 
   
 ### Authentication for the SharePoint Newsfeed App
 <a name="News"> </a>

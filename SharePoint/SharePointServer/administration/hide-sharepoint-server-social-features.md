@@ -95,11 +95,11 @@ Each site admin must apply the following steps to their site.
 
 2. Move the pointer over the **Site Feed** Web Part, and select the box that appears on the right side of the Web Part.
 
-3.  On the ribbon, chose the **Web Part** tab, and then choose **Delete**.
+3.  On the ribbon, chose the **Web Part** tab, and then select **Delete**.
  
-4. Choose **OK**.
+4. Select **OK**.
 
-5. On the ribbon, choose the **Page** tab, and then choose **Stop Editing** and then **Save** to save your changes. 
+5. On the ribbon, select the **Page** tab, and then select **Stop Editing**, and to save your changes, select **Save**. 
     
 6. Check that the Team Site does not show the removed Web Parts.
 
@@ -108,9 +108,9 @@ Each site admin must apply the following steps to their site.
 If you have configured My Site for SharePoint Server 2016, you need to remove the Newseed web part from each My Site. A My Site host admin has to apply the following steps to each server in the server farm.
 1. Move the pointer over the **Newsfeed** Web Part, and select the box that appears on the right side of the Web Part. 
     
-2. On the ribbon, choose the **Web Part** tab, and then choose **Delete**.
+2. On the ribbon, select the **Web Part** tab, and then select **Delete**.
     
-3. Choose **OK**.
+3. Select **OK**.
     
 4. Repeat steps 2-4 for the **Followed Counts** and **Trending Hashtags** Web Parts. 
 
@@ -122,15 +122,15 @@ Remove Newsfeed Web Parts in team sites and My Sites, and hide user interface co
 
 As the site collection admin, you have to follow these steps on each team site that you want to remove the site feed from.
   
-1. Browse to the team site from which you want to remove the site feed, choose **Settings**, and then choose **Edit Page**.
+1. Browse to the team site from which you want to remove the site feed, select **Settings**, and then select **Edit Page**.
     
 2. Hover over the **Site Feed** Web Part, and select the box that appears to the right of the Web Part. 
     
-3. On the ribbon, choose the **Web Part** tab, and then choose **Delete**.
+3. On the ribbon, select the **Web Part** tab, and then select **Delete**.
     
-4. Choose **OK**.
+4. Select **OK**.
     
-5. On the ribbon, choose **Save**.
+5. On the ribbon, select **Save**.
     
 6. Check that the team site no longer shows the **Site Feed** Web Part. 
     
@@ -141,38 +141,38 @@ As the site collection admin, you have to follow these steps on each team site t
 
 A My Site host admin has to apply the following steps to each web server in the server farm.
   
-1. From any site in SharePoint Server 2013, choose **Newsfeed** to browse to a user's My Site. 
+1. From any site in SharePoint Server 2013, to browse to a user's My Site, select **Newsfeed**. 
     
-2. On the **Newsfeed** page, choose **Settings**, and then choose **Edit Page**.
+2. On the **Newsfeed** page, select **Settings**, and then select **Edit Page**.
     
 3. Move the pointer over the **Newsfeed** Web Part, and select the box that appears on the right side of the Web Part. 
     
-4. On the ribbon, choose the **Web Part** tab, and then choose **Delete**.
+4. On the ribbon, select the **Web Part** tab, and then select **Delete**.
     
-5. Choose **OK**.
+5. Select **OK**.
     
 6. Repeat steps 3-5 for the **Followed Counts** and **Trending Hashtags** Web Parts. 
     
     > [!NOTE]
     > It's a good idea to remove all social Web Parts, hidden or not hidden, to improve performance. 
   
-7. On the ribbon, choose **Stop Editing** to save your changes. 
+7. On the ribbon, to save your changes, select **Stop Editing**. 
     
 8. Check that the My Site does not show the removed Web Parts.
     
      ![Newsfeed page with Newsfeed removed](../media/NewsfeedpagewithNewsfeedremoved.GIF)
   
-9. Choose **About me** to open the user's profile page. 
+9. To open the user's profile page, select **About me**. 
     
-10. Choose **Settings**, and then choose **Edit Page**.
+10. Select **Settings**, and then select **Edit Page**.
     
 11. Move the pointer over the **Activity Feed** Web Part, and select the box that appears on the right side of the Web Part. 
     
-12. On the ribbon, choose the **Web Part** tab, and then choose **Delete**.
+12. On the ribbon, select the **Web Part** tab, and then select **Delete**.
     
-13. Choose **OK**.
+13. Select **OK**.
     
-14. On the ribbon, choose **Stop Editing** to save your changes. 
+14. On the ribbon, to save your changes, select **Stop Editing**. 
     
 15. Check that the user's profile page no longer shows the **Activity Feed** Web Part. 
     
@@ -206,7 +206,7 @@ After you complete these steps, the following changes are applied to the SharePo
   
 1. On your computer, open Notepad.
     
-2. Choose **File** > **Save As**.
+2. Select **File** > **Save As**.
     
 3. In the **File name** box, enter HideNewsfeed.css.
     
@@ -234,15 +234,15 @@ After you complete these steps, the following changes are applied to the SharePo
 
 5. Save and close the file.
     
-6. Browse to your My Site Host, then choose **Settings** > **Site Contents**.
+6. Browse to your My Site Host, then select **Settings** > **Site Contents**.
     
-7. Choose **Style Library**.
+7. Select **Style Library**.
     
-8. On the ribbon, choose the **Files** tab, and then choose **Upload Document**.
+8. On the ribbon, select the **Files** tab, and then select **Upload Document**.
     
-9. Choose **Browse**, locate the HideNewsfeed.css file, and then choose **Open**.
+9. Select **Browse**, locate the HideNewsfeed.css file, and then select **Open**.
     
-10. Choose **OK**.
+10. Select **OK**.
     
 If your My Site uses a custom Master Page, follow the steps in _Register the CSS file for a custom Master Page_. If your My Site uses an out-of-box Master Page, follow the steps in _Register the CSS file for an out-of-box Master Page_.
   
@@ -264,25 +264,25 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
   
 1. Start Visual Studio 2013 with Office Developers Tools for Visual Studio.
     
-2. Choose **File** > **New** > **Project**.
+2. Select **File** > **New** > **Project**.
     
-3. In the **Installed** pane, expand **Visual C#** > **Office/SharePoint**, then choose **SharePoint Solutions**.
+3. In the **Installed** pane, expand **Visual C#** > **Office/SharePoint**, then select **SharePoint Solutions**.
     
-4. Choose **SharePoint 2013 - Empty Project**.
+4. Select **SharePoint 2013 - Empty Project**.
     
 5. In the **Name** box, enter HideNewsfeed.
     
-6. Choose **OK**.
+6. Select **OK**.
     
 7. In the **SharePoint Customization Wizard**, select the My Site Host site collection to use for debugging.
     
-8. Choose **Deploy as a farm solution**, then choose **Finish**.
+8. Select **Deploy as a farm solution**, then select **Finish**.
     
-9. Choose **Project** > **Add New Item**.
+9. Select **Project** > **Add New Item**.
     
-10. In the **Add New Item - HideNewsfeed** dialog, choose **User Control**.
+10. In the **Add New Item - HideNewsfeed** dialog box, select **User Control**.
     
-11. In the **Name** box, enter HideNewsfeed.ascx, then choose **Add**.
+11. In the **Name** box, enter HideNewsfeed.ascx, then select **Add**.
     
 12. Copy and paste the following line at the end of HideNewsfeed.ascx
     
@@ -292,11 +292,11 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
 
 13. Save the HideNewsfeed.ascx file.
     
-14. Choose **Project** > **Add New Item**.
+14. Select **Project** > **Add New Item**.
     
-15. In the **Add New Item - HideNewsfeed** dialog, choose **Empty Element**.
+15. In the **Add New Item - HideNewsfeed** dialog, select **Empty Element**.
     
-16. In the **Name** box, enter HideNewsfeed, then choose **Add**.
+16. In the **Name** box, enter HideNewsfeed, then select **Add**.
     
 17. In the Elements.xml file, press Ctrl+A, then press Delete.
     
@@ -311,17 +311,17 @@ If your My Site uses a custom Master Page, follow the steps in _Register the CSS
 
 19. Save the Elements.xml file.
     
-20. Choose **Build** > **Deploy Solution**.
+20. Select **Build** > **Deploy Solution**.
     
     The control has to be deployed on each web server in the farm. For information about how to deploy and install a solution to the farm, see [Add-SPSolution](/powershell/module/sharepoint-server/Add-SPSolution?view=sharepoint-ps) and [Install-SPSolution](/powershell/module/sharepoint-server/Install-SPSolution?view=sharepoint-ps).
     
     The result is a SharePoint solution package that can be deployed and activated on the My Site Host site. 
     
-21. To activate the feature, browse to your My Site Host site, choose **Settings** > **Site Settings**.
+21. To activate the feature, browse to your My Site Host site, select **Settings** > **Site Settings**.
     
-22. On the **Site Settings** page, in the **Site Actions** section, choose **Manage site features**.
+22. On the **Site Settings** page, in the **Site Actions** section, select **Manage site features**.
     
-23. Locate the **HideNewsfeed Feature1**, and choose **Activate**.
+23. Locate the **HideNewsfeed Feature1**, and select **Activate**.
     
     > [!NOTE]
     > Instead of uploading the HideNewsfeed.css to the Style Library, you can create the CSS file in the SharePoint Solution package so that it is deployed together with the solution. 

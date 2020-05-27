@@ -119,5 +119,5 @@ When setting up SharePoint Server, you'll be prompted to select if clients shoul
 
 2. Select **Settings**.
 
-3. Select the **Settings** tab, and then clear the option under **Privacy**.
+3. Select the **Settings** tab, and under **Privacy**, clear the option.
 

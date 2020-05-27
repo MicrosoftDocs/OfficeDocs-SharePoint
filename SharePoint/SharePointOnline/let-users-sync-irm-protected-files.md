@@ -47,11 +47,11 @@ To prevent reliability issues, any users that are using the previous OneDrive sy
     
     ![OneDrive - System icon](media/a776932c-5360-4e97-990c-d7da3f3bb2d3.jpg)
   
-2. Click **Stop syncing a folder**.
+2. Select **Stop syncing a folder**.
     
     ![OneDrive - Menu](media/c475b620-0cc4-4ea0-b562-07f52e25a027.jpg)
   
-3. Select the IRM-protected library and click **Stop syncing**.
+3. Select the IRM-protected library, and select **Stop syncing**.
     
     ![OneDrive - stop sync dialog](media/414bc509-a0cd-4ecd-9566-12543735365e.jpg)
   
