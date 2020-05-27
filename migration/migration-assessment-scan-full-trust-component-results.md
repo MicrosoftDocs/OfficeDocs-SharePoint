@@ -39,9 +39,7 @@ Content is migrated to SharePoint Online, however functionality tied to full tru
 
 Determine the various reasons full trust code was used in your on premises environment. Build out a plan to replace the key business scenarios with SharePoint Online functionality. It may be necessary to build customizations or leverage add-ins to cover all scenarios.
   
-If you find there is not an equivalent solution provided in SharePoint Online, you may want to look into customizing SharePoint Online by following the Microsoft 365 patterns and practices documentation.
-  
-https://msdn.microsoft.com/pnp_articles/office-365-development-patterns-and-practices-solution-guidance
+If you find there is not an equivalent solution provided in SharePoint Online, you may want to look into customizing SharePoint Online by following the [Microsoft 365 patterns and practices documentation](https://docs.microsoft.com/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance).
   
 ## Post-migration
 
