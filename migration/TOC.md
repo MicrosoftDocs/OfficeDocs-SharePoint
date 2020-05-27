@@ -31,7 +31,7 @@
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Mover Migration Guide
 ### [Overview](mover-overview.md)
-### [Connectors](mover-connectors.md)
+### [Connectors](mover-connectors-general.md)
 ### Setting up the migration
 #### [Box to Office 365](mover-setting-up-box-to-o365.md)
 #### [Dropbox to Office 365](mover-setting-up-dropbox-to-o365.md)
