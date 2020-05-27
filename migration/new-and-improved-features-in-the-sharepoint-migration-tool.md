@@ -28,7 +28,7 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.0](https://aka.ms/spmt-beta-page) |[3.2.118.1](https://aka.ms/spmt-ga-page)|[3.2.118.1](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.0](https://aka.ms/spmt-beta-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
 
 
   
@@ -36,18 +36,33 @@ Download and install SPMT using one of the links listed below.
 
 ### SPMT Public Preview 
 
-**New features**
 
 The following features are now available in the public preview version of the SharePoint Migration Tool.
 
 |**Feature**|**Description**|
 |:-----|:-----|
 |SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SharePoint online.|
+
+
+### SPMT 3.2.119.0
+
+The following features were added to the SharePoint Migration Tool in this release:
+
+**New features**
+
+|**Feature**|**Description**|
+|:-----|:-----|
 |Microsoft Teams added as a selection choice|Users can now select Teams and channels directly from the destination selection page.|
 |User emails for OneDrive|User email accounts for OneDrive migration are now supported as an input value.|
 |Version info |A new file, %\AppData\Local\Apps\SharePointMigrationTool\Logs\SPMT-VersionHistory.log will contain version history.|
 |Performance recommendations|The performance report contains direct links to detailed content on  performance recommendations.|
 |New setting|A new setting, "Temporarily allow migration of scripts", will automatically allow the migration of scripted web parts without having to go in the tenant admin. | 
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Performance|General improvements have been made to the tool.|
 
 ### SPMT 3.2.118.0
 
@@ -139,7 +154,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |Site migration|SharePoint sites that are "out of the box" - sites that do not use any coding or 3rd party tools - can now be migrated. SPMT now preserves site audits. |
 |Navigation|Migration of navigation and icons is now supported.|
 |Site descriptions|Site description can now be migrated.|
-|SharePoint webparts|SPMT now supports the migration of SharePoint webparts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Webparts](spmt-supported-webparts.md).|
+|SharePoint web parts|SPMT now supports the migration of SharePoint web parts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Web parts](spmt-supported-webparts.md).|
 |Page migration|Pages in the site asset library can now be migrated.|
 |Managed metadata|This release supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.|
 |JSON improvements|Task level settings are now supported for bulk upload using JSON.|
