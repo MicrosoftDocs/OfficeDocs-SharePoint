@@ -70,7 +70,7 @@ Follow these steps to transfer ownership of a OneDrive to a different user, or g
     ![Manage the owners of a OneDrive](media/120f7c8c-262f-4a41-a484-e830c662f534.png)
   
 For info about automatically transferring ownership of OneDrive to a user's manager when the user account is marked for deletion, see [Set up access delegation](/onedrive/retention-and-deletion).
->[!NOTE]
+> [!NOTE]
 > For full OneDrive functionality, the user must be a site collection administrator of the organization's OneDrive site. Removing this permission is not supported.
 
 ## Manage audiences
