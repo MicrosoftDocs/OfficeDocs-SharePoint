@@ -17,6 +17,9 @@ description: "Explanation of Government Cloud configuration settings when using 
 ---
 # Government Cloud
 
+If your tenant resides in a goverment cloud, you may have additional steps to perform before using Migration Manager.
+
+
 ## Configuration values
 
 Configuration values for goverment cloud tenants are listed below.  The default setting is **0**.
