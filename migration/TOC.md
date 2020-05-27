@@ -46,8 +46,12 @@
 ##### [Google Cloud Storage to Office 365](mover-setting-up-googlecloudstore-to-o365.md)
 ##### [FTP to Office 365](mover-setting-up-ftp-to-o365.md)
 ##### [SFTP to Office 365](mover-setting-up-sftp-to-o365.md)
-##### NetDocuments to Office 365](mover-setting-up-netdocuments-to-o365.md)
+##### [NetDocuments to Office 365](mover-setting-up-netdocuments-to-o365.md)
 ##### [WedDAV to Office 365](mover-setting-up-webdav-to-o365.md)
+#### Mover Troubleshooting
+##### [Account FAQ](mover-account-faq.md)
+##### [Migration FAQ](mover-migration-faq.md)
+##### [Error messages](mover-error-faq.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [SPMT migration performance guidelines](spmt-performance-guidance.md)
