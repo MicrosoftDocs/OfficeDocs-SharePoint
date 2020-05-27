@@ -86,12 +86,16 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 
 Settings for goverment cloud tenants are listed below.  The default setting is **0**.
 
+
 |**Cloud**|**Setting value**|
 |:-----|:-----|
 |Consumer|0|
 |GCC|0|
 |GCC High|2|
 |DoD|2|
+
+
+
 </br>
 If your are either a **GCC high** or **DoD** customer, you need to make a change to configuration file before you install the agent. To configure and install agent, do the following:
 
@@ -105,7 +109,7 @@ If your are either a **GCC high** or **DoD** customer, you need to make a change
 </br></br>
 ## Set up a single agent
 
-1. Go to the [Desktop Tool (SPMT) page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern, and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 2. Select **Download agent setup file**.
 3. Open the setup file. On the Welcome page, select **Next**.
 4. Enter your SharePoint admin username and password. These are to the SharePoint environment where you will be migrating your content. Select **Next**.

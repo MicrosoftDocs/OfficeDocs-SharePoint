@@ -76,7 +76,7 @@ To learn more about planning hubs, see [Planning your SharePoint hubs](/sharepoi
 
 In the modern SharePoint Online experience, it is easy to [*change the look*](https://support.office.com/article/Change-the-look-of-your-SharePoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818) and feel of your sites to match your company or organizational brand. You can customize the logo, colors, navigation, header, and footer – often without writing a single line of code. Branding can be applied at the site level, to a group of sites, or to all sites within your organization. SharePoint Online includes an updated set of default site themes and site designs (or templates) that are responsive and look great on any device. With site themes, you can customize your site’s logo and colors to match your brand.
 
-Coming soon are multiple options for headers and footers on communication sites, and options for navigation such as a mega menu. For these and other features that are in development, rolling out, or launched, check the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). To learn more about branding options, see [Branding your SharePoint Online site](branding-sharepoint-online-sites-modern-experience.md). To learn more about planning navigation, see [Planning navigation for modern SharePoint](plan-navigation-modern-experience.md).
+Coming soon are multiple options for headers and footers on communication sites, and options for navigation such as a mega menu. For these and other features that are in development, rolling out, or launched, check the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap). To learn more about branding options, see [Branding your SharePoint Online site](branding-sharepoint-online-sites-modern-experience.md). To learn more about planning navigation, see [Planning navigation for modern SharePoint](plan-navigation-modern-experience.md).
 
 ### Classic site templates and modern site designs
 
@@ -126,7 +126,7 @@ Content approval ensures that edits to pages meet company policies or standards.
 
 ### Scheduling
 
-Scheduling content to “go live” at specific times is a feature of classic publishing sites. This capability is coming soon to the modern experience. For this and other features that are in development, rolling out, or launched, check the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap).
+Scheduling content to “go live” at specific times is a feature of classic publishing sites. This capability is coming soon to the modern experience. For this and other features that are in development, rolling out, or launched, check the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 **Moving from classic to modern pages**: At this time, there is not a way to change a classic page into a modern page without using a [multi-step code solution,](/sharepoint/dev/transform/modernize-userinterface-site-pages) which may work well for IT Admins and developers. If you are neither of those, we recommend you gradually start planning for and creating modern pages, as needed.
 
