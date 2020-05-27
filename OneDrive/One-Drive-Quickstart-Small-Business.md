@@ -20,9 +20,9 @@ ms.custom:
 description: "This article is a quickstart guide on how to get started with and set up OneDrive for small businesses."
 ---
 
-# OneDrive QuickStart guide for small businesses
+# Microsoft OneDrive QuickStart guide for small businesses
 
-OneDrive for Business is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling organizations to use OneDrive in whatever way benefits them the most. This guide focuses on the deployment and configuration options that make the most sense for small businesses looking to use OneDrive. From there, these organizations can select whatever additional management capabilities they require. For the full deployment guide, which contains other methods of deploying, configuring, and managing OneDrive, see [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
+Microsoft OneDrive is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling organizations to use OneDrive in whatever way benefits them the most. This guide focuses on the deployment and configuration options that make the most sense for small businesses looking to use OneDrive. From there, these organizations can select whatever additional management capabilities they require. For the full deployment guide, which contains other methods of deploying, configuring, and managing OneDrive, see [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 
 ## Getting started with OneDrive
 
@@ -34,7 +34,7 @@ To get started with OneDrive, follow these steps:
 
 2.  **Set up a Microsoft Office 365 subscription.** You must set up a subscription to use OneDrive, but you aren't required to purchase all the applications in the Microsoft 365 suite. To get started, follow the steps in [Set up Microsoft 365 Apps for business](/office365/admin/setup/setup).
 
-3.  **Add OneDrive licenses.** Review your plan options in [Compare OneDrive for Business plans](https://products.office.com/onedrive-for-business/compare-onedrive-for-business-plans), and then add the licenses you need.
+3.  **Add OneDrive licenses.** Review your plan options in [Compare OneDrive plans](https://products.office.com/onedrive-for-business/compare-onedrive-for-business-plans), and then add the licenses you need.
 
 When you've completed these tasks, you're ready to plan for, deploy, and configure the OneDrive sync app and applications. To do that, complete these three simple steps:
 
@@ -168,7 +168,7 @@ Settings in the OneDrive admin center are grouped into six categories:
 
 If you need help with OneDrive, you have many ways to find solutions to common issues or request help:
 
--   **Tech community.** Find helpful information from other customers in the community by reviewing the discussions in the [OneDrive for Business Tech Community](https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness) and the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
+-   **Tech community.** Find helpful information from other customers in the community by reviewing the discussions in the [OneDrive Tech Community](https://techcommunity.microsoft.com/t5/OneDrive-for-Business/ct-p/OneDriveforBusiness) and the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
 
 -   **Support documentation.** For a list of recent issues in OneDrive and how to resolve or work around them, see [Fixes or workarounds for recent issues in OneDrive](https://support.office.com/article/36110213-f3f6-490d-8cb7-3833539def0b). For getting started info, see [Get started with OneDrive](https://support.office.com/article/c7f31921-e2e5-4b00-959a-cc9ad6297de7), [Employee file storage (video training)](https://support.office.com/article/12dbe3e4-dbef-48f8-a90e-87f1bc607073) and [Why use OneDrive to store your docs](https://support.office.com/article/e55c4fa8-1e03-4d75-956b-924620bdfa2d).
 

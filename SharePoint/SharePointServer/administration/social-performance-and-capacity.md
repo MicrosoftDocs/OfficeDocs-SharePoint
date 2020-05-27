@@ -136,9 +136,9 @@ Testing focused on the following key scenarios:
     
 - Outlook Social Connector Activity Feed Sync
     
-- OneDrive for Business page access
+- OneDrive page access
     
-- OneDrive for Business client usage
+- OneDrive client usage
     
 To simulate a realistic deployment scenario, all tests were run on a database that already had data. The dataset was a model of a tree organization with an average of 4-6 users per team, and 3-4 levels deep. To generate these numbers, we analyzed traffic from an internal social site. The following table describes the set of parameters that we used to build the initial data set.
   
@@ -178,9 +178,9 @@ To create each of our scale tests, we applied the following action mix to the pr
 |Navigate to the user's private profile page  <br/> |4%  <br/> |Profile  <br/> |Profile page (http://my/person.aspx)  <br/> |
 |Automatic syncing of activity feed  <br/> |32%  <br/> |Outlook Social Connector  <br/> |none  <br/> |
 |Navigate to the **People I'm following** page  <br/> |3%  <br/> |Follow People List  <br/> |http://my/MyPeople.aspx  <br/> |
-|Navigate to the default document library  <br/> |6%  <br/> |OneDrive for Business  <br/> |https://msft-my.spoppe.com/personal/\<user\>/Documents  <br/> |
-|Navigate to followed documents page  <br/> |3%  <br/> |OneDrive for Business  <br/> |https://msft-my.spoppe.com/personal/\<user\>/Social/FollowedContent.aspx  <br/> |
-|Navigate to followed documents page  <br/> |3%  <br/> |OneDrive for Business  <br/> |https://msft-my.spoppe.com/personal/\<user\>/Social/FollowedContent.aspx  <br/> |
+|Navigate to the default document library  <br/> |6%  <br/> |OneDrive  <br/> |https://msft-my.spoppe.com/personal/\<user\>/Documents  <br/> |
+|Navigate to followed documents page  <br/> |3%  <br/> |OneDrive  <br/> |https://msft-my.spoppe.com/personal/\<user\>/Social/FollowedContent.aspx  <br/> |
+|Navigate to followed documents page  <br/> |3%  <br/> |OneDrive  <br/> |https://msft-my.spoppe.com/personal/\<user\>/Social/FollowedContent.aspx  <br/> |
 |Navigate to the site feed page  <br/> |8%  <br/> |Site Feed  <br/> |Site Feed page (https://\<domain\>/teams/\<site\>/newsfeed.aspx_  <br/> |
 |View all replies on a thread  <br/> |1%  <br/> |Newsfeed  <br/> |Newsfeed page (http://my/default.aspx)  <br/> |
 |View **Everyone** feed  <br/> |3%  <br/> |Newsfeed  <br/> |Newsfeed page (http://my/default.aspx)  <br/> |
@@ -202,13 +202,13 @@ To create each of our scale tests, we applied the following action mix to the pr
 |Reply to a post in the site feed  <br/> |0.15%  <br/> |Site Feed  <br/> |Site feed page (https://\<domain\>/teams/\<site\>/newsfeed.aspx)  <br/> |
 |Create post in the site feed with a tag  <br/> |0.05%  <br/> |Site Feed  <br/> |Site feed page (https://\<domain\>/teams/\<site\>/newsfeed.aspx)  <br/> |
    
-**OneDrive for Business client actions**
+**OneDrive client actions**
 
 |**User action**|**Percentage**|**Scenario**|**Feature or URL**|
 |:-----|:-----|:-----|:-----|
-|OneDrive for Business initial sync  <br/> |0.2%  <br/> |OneDrive for Business  <br/> |Initial Sync  <br/> |
-|OneDrive for Business incremental sync - download a file  <br/> |0.88%  <br/> |OneDrive for Business  <br/> |Incremental Sync  <br/> |
-|OneDrive for Business incremental sync - no changes  <br/> |8.1%  <br/> |OneDrive for Business  <br/> |Incremental Sync  <br/> |
+|OneDrive initial sync  <br/> |0.2%  <br/> |OneDrive  <br/> |Initial Sync  <br/> |
+|OneDrive incremental sync - download a file  <br/> |0.88%  <br/> |OneDrive  <br/> |Incremental Sync  <br/> |
+|OneDrive incremental sync - no changes  <br/> |8.1%  <br/> |OneDrive  <br/> |Incremental Sync  <br/> |
    
 ### Test Methodology
 <a name="scaling"> </a>

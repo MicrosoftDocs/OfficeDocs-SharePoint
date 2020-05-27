@@ -148,7 +148,7 @@ SharePoint Server 2019 now supports authenticating to SMTP servers when sending 
 
 ### Sync files with the new OneDrive sync app (OneDrive.exe)
 
-Users can use the new OneDrive sync app instead of the previous OneDrive for Business sync app (Groove.exe) to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Configure syncing with the new OneDrive sync app](/sharepoint/install/new-onedrive-sync-client).
+Users can use the new OneDrive sync app instead of the previous OneDrive sync app (Groove.exe) to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Configure syncing with the new OneDrive sync app](/sharepoint/install/new-onedrive-sync-client).
 
 ### Use of # and % characters in file and folder names
 

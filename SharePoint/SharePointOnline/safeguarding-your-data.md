@@ -54,7 +54,7 @@ Other things we recommend to increase security:
  
 ### Protected in transit
  
-When data transits into the service from clients, and between datacenters, it's protected using best-in-class encryption. For info, see [Data Encryption in OneDrive for Business and SharePoint](/office365/securitycompliance/data-encryption-in-odb-and-spo). We only permit secure access. We won't make authenticated connections over HTTP but, instead, redirect to HTTPS.
+When data transits into the service from clients, and between datacenters, it's protected using best-in-class encryption. For info, see [Data Encryption in OneDrive and SharePoint](/office365/securitycompliance/data-encryption-in-odb-and-spo). We only permit secure access. We won't make authenticated connections over HTTP but, instead, redirect to HTTPS.
   
 ### Protected at rest
  
@@ -65,7 +65,7 @@ When data transits into the service from clients, and between datacenters, it's 
  **Application security**: Engineers who build features follow the security development lifecycle. Automated and manual analyses help identify possible vulnerabilities. The Microsoft security response center ([Microsoft Security Response Center](https://www.microsoft.com/msrc?rtc=1)) helps triage incoming vulnerability reports and evaluate mitigations. Through the Microsoft Cloud Bug Bounty, people across the world can earn money by reporting vulnerabilities. Read more about this at [Microsoft Cloud Bug Bounty Terms](https://www.microsoft.com/msrc/bounty-microsoft-cloud?rtc=1
 ).
   
- **Content protection**: Your data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive for Business and SharePoint](/office365/securitycompliance/data-encryption-in-odb-and-spo). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Microsoft 365, see [Service encryption with Customer Key for Microsoft 365 FAQ](/office365/securitycompliance/service-encryption-with-customer-key-faq).
+ **Content protection**: Your data is encrypted at the disk level using BitLocker encryption and at the file level using keys. For info, see [Data Encryption in OneDrive and SharePoint](/office365/securitycompliance/data-encryption-in-odb-and-spo). For information about using Customer Key to provide and control the keys that are used to encrypt your data at rest in Microsoft 365, see [Service encryption with Customer Key for Microsoft 365 FAQ](/office365/securitycompliance/service-encryption-with-customer-key-faq).
   
 The Microsoft 365 anti-malware engine scans documents at upload time for content matching an AV signature (updated hourly). For info, see [Virus detection in SharePoint](/office365/securitycompliance/virus-detection-in-spo). For more advanced protection, use Microsoft 365 Advanced Threat Protection (ATP). ATP analyzes content that's shared and applies threat intelligence and analysis to identify sophisticated threats. For info, see [Microsoft 365 Advanced Threat Protection](/office365/securitycompliance/office-365-atp).
   

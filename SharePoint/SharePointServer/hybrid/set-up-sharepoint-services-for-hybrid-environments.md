@@ -48,7 +48,7 @@ SharePoint Server hybrid configurations all require the following services to be
     
 - My Sites 
     
-If you're setting up OneDrive for Business, these are the only services you need. If you're setting up a hybrid Search or hybrid sites features, there are some additional requirements that we'll cover in the next section.
+If you're setting up OneDrive, these are the only services you need. If you're setting up a hybrid Search or hybrid sites features, there are some additional requirements that we'll cover in the next section.
   
 If you've already configured these services, there's no need to add additional instances of them for hybrid, but be sure to see [Configure hybrid specific settings](set-up-sharepoint-services-for-hybrid-environments.md#HybridSettings) for important configuration information for the User Profile Service for SharePoint and BCS hybrid deployments. 
   

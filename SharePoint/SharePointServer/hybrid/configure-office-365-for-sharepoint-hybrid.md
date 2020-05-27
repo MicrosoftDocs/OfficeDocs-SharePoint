@@ -48,7 +48,7 @@ You might have already done some of these steps. If so, there's no need to repea
   
 ## 1. Sign up for Microsoft 365
 
-To set up a hybrid environment with SharePoint Server, you need a [Microsoft 365 subscription](https://go.microsoft.com/fwlink/p/?LinkID=532795). If you're planning to configure hybrid OneDrive for Business, be sure to subscribe to a plan that includes OneDrive for Business. All other hybrid SharePoint hybrid scenarios require an Enterprise plan that includes SharePoint in Microsoft 365. 
+To set up a hybrid environment with SharePoint Server, you need a [Microsoft 365 subscription](https://go.microsoft.com/fwlink/p/?LinkID=532795). If you're planning to configure hybrid OneDrive, be sure to subscribe to a plan that includes OneDrive. All other hybrid SharePoint hybrid scenarios require an Enterprise plan that includes SharePoint in Microsoft 365. 
   
 ## 2. Register your domain with Microsoft 365
 

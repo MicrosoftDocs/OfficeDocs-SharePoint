@@ -32,7 +32,7 @@ Choose the hybrid feature that you want to set up:
   
 |**Content**|**Description**|
 |:-----|:-----|
-|[Configure hybrid OneDrive for Business - roadmap](configure-hybrid-onedrive-for-businessroadmap.md) <br/> |With hybrid OneDrive for Business, users will be redirected to OneDrive for Business when they select the **OneDrive** link in SharePoint Server.  <br/> |
+|[Configure hybrid OneDrive - roadmap](configure-hybrid-onedrive-for-businessroadmap.md) <br/> |With hybrid OneDrive, users will be redirected to OneDrive when they select the **OneDrive** link in SharePoint Server.  <br/> |
 |[Configure hybrid sites features - roadmap](configure-hybrid-sites-featuresroadmap.md) <br/> |With hybrid sites features, you can integrate parts of your site navigation between SharePoint Server and Microsoft 365 for enterprises.  <br/> |
 |[Configure cloud hybrid search - roadmap](configure-cloud-hybrid-searchroadmap.md) <br/> |With cloud hybrid search, you have a single search index in Office 365 for enterprises with content from SharePoint Server and SharePoint in Microsoft 365.  <br/> |
 |[Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md) <br/> |With outbound hybrid search, users will be able to see search results from Microsoft 365 for enterprises when they perform a search in SharePoint Server.  <br/> |

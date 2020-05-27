@@ -98,14 +98,14 @@ Office Online Server is an Office server product that delivers browser-based ver
   
 A Office Online Server farm is typically located in the same datacenter as the SharePoint Server 2016 farm, although this is not a requirement. Locating a Office Online Server farm in a remote datacenter where SharePoint sites are not located will not improve performance. For more information, see [Office Web Apps Server overview](/webappsserver/office-web-apps-server-overview).
   
-### OneDrive for Business
+### Microsoft OneDrive
 
-OneDrive for Business lets users sync their My Site library or other SharePoint libraries on team sites to their computers. They can then work with files in these libraries directly in Windows Explorer. Users can access these files even when they are offline. Updates to files sync with SharePoint when a user is online.
+OneDrive lets users sync their My Site library or other SharePoint libraries on team sites to their computers. They can then work with files in these libraries directly in Windows Explorer. Users can access these files even when they are offline. Updates to files sync with SharePoint when a user is online.
   
-OneDrive for Business works well in environments that have intermittent connections or in environments that have high latency or low bandwidth connections. It is not intended to be used by many users who are editing the same file offline at the same time. For more information see [Sync your OneDrive or other SharePoint libraries to your computer with OneDrive for Business](https://go.microsoft.com/fwlink/p/?LinkId=279879).
+OneDrive works well in environments that have intermittent connections or in environments that have high latency or low bandwidth connections. It is not intended to be used by many users who are editing the same file offline at the same time. For more information see [Sync your OneDrive or other SharePoint libraries to your computer with OneDrive](https://go.microsoft.com/fwlink/p/?LinkId=279879).
   
 > [!NOTE]
-> At this time, the OneDrive for Business next generation sync app is not available in SharePoint Server. 
+> At this time, the OneDrive next generation sync app is not available in SharePoint Server. 
   
 ## Design a central site with multiple farms
 <a name="section5"> </a>

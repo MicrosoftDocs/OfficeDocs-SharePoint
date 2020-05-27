@@ -33,27 +33,27 @@ This article is for Microsoft 365 global or SharePoint admins who want their use
 
 - You've applied [Information Rights Management (IRM) to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1). (On-premises SharePoint Server libraries can't be synced with the new OneDrive sync app.)
     
-- Your users have disabled syncing using the previous OneDrive for Business sync app
+- Your users have disabled syncing using the previous OneDrive sync app
     
 ## Known issues
 
 - This feature doesn't support the IRM setting that expires document access rights.
     
-## Disabling the previous OneDrive for Business sync app
+## Disabling the previous OneDrive sync app
 
-To prevent reliability issues, any users that are using the previous OneDrive for Business sync app (Groove.exe) to sync an IRM-protected library must disable syncing.
+To prevent reliability issues, any users that are using the previous OneDrive sync app (Groove.exe) to sync an IRM-protected library must disable syncing.
   
-1. On a computer that uses the previous OneDrive for Business sync app to sync IRM-protected libraries, right-click the blue OneDrive for Business icon in the notification area, at the far right of the taskbar:
+1. On a computer that uses the previous OneDrive sync app to sync IRM-protected libraries, right-click the blue OneDrive icon in the notification area, at the far right of the taskbar:
     
-    ![OneDrive for Business - System icon](media/a776932c-5360-4e97-990c-d7da3f3bb2d3.jpg)
+    ![OneDrive - System icon](media/a776932c-5360-4e97-990c-d7da3f3bb2d3.jpg)
   
 2. Click **Stop syncing a folder**.
     
-    ![OneDrive for Business - Menu](media/c475b620-0cc4-4ea0-b562-07f52e25a027.jpg)
+    ![OneDrive - Menu](media/c475b620-0cc4-4ea0-b562-07f52e25a027.jpg)
   
 3. Select the IRM-protected library and click **Stop syncing**.
     
-    ![OneDrive for Business - stop sync dialog](media/414bc509-a0cd-4ecd-9566-12543735365e.jpg)
+    ![OneDrive - stop sync dialog](media/414bc509-a0cd-4ecd-9566-12543735365e.jpg)
   
 ## Setup instructions
 

@@ -64,7 +64,7 @@ When you follow the steps in this article, the following enterprise social featu
 
 When you follow the steps in this article, the following enterprise social features do not change:
   
-- Following documents. Users can follow documents to bookmark the ones they are interested in. Users can follow documents from the hover panel in OneDrive for Business, the hover panel in the library list view, the ribbon in a document library, and so on. Users can see their followed documents by choosing **OneDrive**, then choosing **Followed Documents**.
+- Following documents. Users can follow documents to bookmark the ones they are interested in. Users can follow documents from the hover panel in OneDrive, the hover panel in the library list view, the ribbon in a document library, and so on. Users can see their followed documents by choosing **OneDrive**, then choosing **Followed Documents**.
     
 - Following sites. Users can follow sites to bookmark the ones they are interested in. Users can follow sites by choosing **Sites** on the top navigation bar. 
     

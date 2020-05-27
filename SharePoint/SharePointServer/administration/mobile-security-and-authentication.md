@@ -86,7 +86,7 @@ SharePoint Server 2013 supports multiple authentication methods and authenticati
     
 - Determine whether you want to make SharePoint sites available for mobile devices when the devices are used outside the corporate firewall. If you do, the method that you use to enable external access can also affect mobile device authentication.
     
-The following tables detail the authentication types supported for browsers, OneDrive for Business, and the Office Hub Windows Phone experience in SharePoint Server 2013. For the below, OrgID refers to Microsoft Online Services ID, the identity provider for Microsoft 365. Also, MSOFBA refers to Microsoft Office Forms Based Authentication. 
+The following tables detail the authentication types supported for browsers, OneDrive, and the Office Hub Windows Phone experience in SharePoint Server 2013. For the below, OrgID refers to Microsoft Online Services ID, the identity provider for Microsoft 365. Also, MSOFBA refers to Microsoft Office Forms Based Authentication. 
   
 **Table: Mobile authentication support for SharePoint browsers**
 
@@ -99,7 +99,7 @@ The following tables detail the authentication types supported for browsers, One
 |FBA  <br/> |OrgID  <br/> |SharePoint, hybrid-based scenarios  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |**SAML (Token-based)** <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-Premises, SharePoint in Microsoft 365, hybrid-based scenarios  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
    
-**Table: Supported authentication types for the OneDrive for Business app**
+**Table: Supported authentication types for the OneDrive app**
 
 |**Authentication type**|**Description**|**Supported**|**Administrator type required for configuration**|
 |:-----|:-----|:-----|:-----|
@@ -113,7 +113,7 @@ The following tables detail the authentication types supported for browsers, One
 |**Basic authentication** <br/> |Organizations with a SharePoint environment configured to support Basic authentication.  <br/> |No  <br/> |SharePoint admin plus the on-premises network administrator  <br/> |
    
 > [!NOTE]
-> If you're a Microsoft 365 multi-organization user, you can connect from the OneDrive for Business app in any network environment, including Wi-Fi and cellular data. If you're not a Microsoft 365 multi-organization user, you can connect only when using your organization's on-site Wi-Fi network. If you're unsure which user you are, contact your SharePoint admin. 
+> If you're a Microsoft 365 multi-organization user, you can connect from the OneDrive app in any network environment, including Wi-Fi and cellular data. If you're not a Microsoft 365 multi-organization user, you can connect only when using your organization's on-site Wi-Fi network. If you're unsure which user you are, contact your SharePoint admin. 
   
 **Table: Mobile authentication support matrix for Office Hub**
 

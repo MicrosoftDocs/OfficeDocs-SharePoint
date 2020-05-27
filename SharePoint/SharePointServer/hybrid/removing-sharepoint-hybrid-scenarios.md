@@ -39,7 +39,7 @@ Cloud Hybrid Search may be removed by deleting the Search Service Application.
 
 ## OneDrive and sites
 
-After you have configured OneDrive for Business and Sites hybrid, you can manage it in the SharePoint Central Administration website.
+After you have configured OneDrive and Sites hybrid, you can manage it in the SharePoint Central Administration website.
 
 1. In the **Central Administration** website, select **Microsoft 365**.
 2. On the Microsoft 365 page, select **Configure hybrid OneDrive and Sites features**.

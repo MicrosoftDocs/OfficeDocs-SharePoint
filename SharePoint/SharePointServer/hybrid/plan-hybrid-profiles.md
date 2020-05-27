@@ -66,7 +66,7 @@ If Delve is part of your Microsoft 365 organization, user profiles will be integ
 ## Setting up hybrid profiles
 <a name="MovingProfileData"> </a>
 
-Hybrid profiles is part of several hybrid feature bundles for SharePoint Server. For details, see [Hybrid sites features and OneDrive for Business](sharepoint-hybrid-sites-and-search.md#SitesFeatures).
+Hybrid profiles is part of several hybrid feature bundles for SharePoint Server. For details, see [Hybrid sites features and OneDrive](sharepoint-hybrid-sites-and-search.md#SitesFeatures).
   
 ## See also
 <a name="MovingProfileData"> </a>

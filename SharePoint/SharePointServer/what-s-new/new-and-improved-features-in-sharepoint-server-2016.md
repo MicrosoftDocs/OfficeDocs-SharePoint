@@ -44,12 +44,12 @@ The following table provides a summary of the new features that you can try out 
 |**Hybrid in SharePoint 2016** <br/> |Hybrid in SharePoint Server 2016 enables you to integrate your on-premises farm with Microsoft 365 productivity experiences, allowing you to adopt the cloud at your own pace.  <br/> |For more info, see [Hybrid in SharePoint Server 2016](#hybrid).  <br/> |
 |**Identify and search for sensitive content** <br/> |SharePoint Server 2016 now provides the same data loss prevention capabilities as Office 365.  <br/> |For more info, see [Identify and search for sensitive content in both SharePoint Server 2016 and OneDrive documents](#sensitive).  <br/> |
 |**Image and video previews** <br/> |You can now preview images and videos in SharePoint Server 2016 document libraries.  <br/> |For more info, see [Image and video previews](#preview).  <br/> |
-|**Information Rights Management** <br/> |SharePoint Server 2016 provides Information Rights Management (IRM) capabilities to secure info by encrypting and securing info about SharePoint libraries with OneDrive for Business.  <br/> |For more info, see [Information Rights Management](#InfoRights).  <br/> |
+|**Information Rights Management** <br/> |SharePoint Server 2016 provides Information Rights Management (IRM) capabilities to secure info by encrypting and securing info about SharePoint libraries with OneDrive.  <br/> |For more info, see [Information Rights Management](#InfoRights).  <br/> |
 |**Large file support** <br/> |SharePoint Server 2016 now supports uploading and downloading files larger than 2,047 MB.  <br/> |For more info, see [Large file support](#largefile).  <br/> |
 |**MinRole** <br/> |MinRole is a new feature in SharePoint Server 2016 that allows a SharePoint farm administrator to define each server's role in a farm topology.  <br/> |For more info, see [MinRole farm topology](#minrole).  <br/> |
 |**Mobile experience** <br/> |SharePoint Server 2016 offers an improved mobile navigation experience.  <br/> |For more info, see [Mobile experience](#mobile).  <br/> |
 |**New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)** <br/> |The November 2016 Public Update for SharePoint Server 2016 (Feature Pack 1) offers seven new features for SharePoint Server 2016.  <br/> |For more info, see [New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)](new-features-in-feature-pack-1.md).  <br/> |
-|**New controls for working with OneDrive for Business** <br/> |SharePoint Server 2016 provides controls at the top of your personal document folders that make common tasks in OneDrive for Business more accessible.  <br/> |For more info, see [New controls for working with OneDrive for Business](#newcontrols).  <br/> |
+|**New controls for working with OneDrive** <br/> |SharePoint Server 2016 provides controls at the top of your personal document folders that make common tasks in OneDrive more accessible.  <br/> |For more info, see [New controls for working with OneDrive](#newcontrols).  <br/> |
 |**New Recycle Bin in OneDrive and Team sites** <br/> |SharePoint Server 2016 adds a link for the Recycle Bin in the left navigation area of the OneDrive and Team sites.  <br/> |NA  <br/> |
 |**Open Document Format (ODF)** <br/> |SharePoint Server 2016 adds support for Open Document Format (ODF) files to use in document library templates.  <br/> |For more info, see [Open Document Format (ODF) available for document libraries](#ODF).  <br/> |
 |**Project Server** <br/> |New Project Server features are available in SharePoint Server 2016.  <br/> |For more info, see [Project Server 2016 ](#project).  <br/> |
@@ -113,7 +113,7 @@ You can provision or unprovision Central Administration on individual servers in
 ### Compliance features
 <a name="compliance"> </a>
 
-The document deletion policy lets you delete documents in users' OneDrive for Business sites after specific periods of time. The In-Place Hold policy allows administrators to preserve documents, email, and other files.
+The document deletion policy lets you delete documents in users' OneDrive sites after specific periods of time. The In-Place Hold policy allows administrators to preserve documents, email, and other files.
   
 For more info, see [Overview of document deletion policies](https://go.microsoft.com/fwlink/p/?LinkID=620220&amp;clcid=0x4809).
   
@@ -186,9 +186,9 @@ In SharePoint Server 2016, new hybrid features are available to enable hybrid so
     
 For more info, see [SharePoint hybrid sites and search](../hybrid/sharepoint-hybrid-sites-and-search.md).
   
- **Hybrid OneDrive for Business**
+ **Hybrid OneDrive**
   
-Hybrid sites features are used in concert with **Hybrid OneDrive for Business** (introduced in SharePoint Server 2013 with Service Pack 1 (SP1)): 
+Hybrid sites features are used in concert with **Hybrid OneDrive** (introduced in SharePoint Server 2013 with Service Pack 1 (SP1)): 
   
 - Users can sync files with Office 365 and share them with others.
     
@@ -204,7 +204,7 @@ Cloud hybrid search is a new hybrid search solution alternative. With cloud hybr
     
 For more info about cloud hybrid search, see the public Microsoft cloud hybrid search program on [Microsoft Office connection](https://go.microsoft.com/fwlink/p/?LinkID=624235&amp;clcid=0x409).
   
-For more info, see [Plan for hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
+For more info, see [Plan for hybrid OneDrive](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
   
 For more info about the hybrid solutions available today, visit the [SharePoint Hybrid Solutions Center](https://go.microsoft.com/fwlink/p/?LinkID=613711).
   
@@ -213,7 +213,7 @@ For more info about the hybrid solutions available today, visit the [SharePoint 
 
 With this new capability, you can:
   
-- **Search for sensitive content** across SharePoint Server 2016, SharePoint in Microsoft 365, and OneDrive for Business. 
+- **Search for sensitive content** across SharePoint Server 2016, SharePoint in Microsoft 365, and OneDrive. 
     
 - **Leverage 51 built-in sensitive information types** (credit cards, passport numbers, Social Security numbers, and more). 
     
@@ -235,7 +235,7 @@ In SharePoint Server 2016, when you post images and videos to a document library
 ### Information Rights Management
 <a name="InfoRights"> </a>
 
-For more info, see [Secure and sync with Information Rights Management on OneDrive for Business](https://go.microsoft.com/fwlink/p/?LinkID=620223&amp;clcid=0x4809) and [Apply Information Rights Management to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
+For more info, see [Secure and sync with Information Rights Management on OneDrive](https://go.microsoft.com/fwlink/p/?LinkID=620223&amp;clcid=0x4809) and [Apply Information Rights Management to a list or library](https://support.office.com/article/3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1).
   
 ### Large file support
 <a name="largefile"> </a>
@@ -265,7 +265,7 @@ For more info about the MinRole feature, see [Overview of MinRole Server Roles i
 
 When you use a mobile device to access the home page for a SharePoint Server 2016 team site, you can tap tiles or links on the screen to navigate the site. You can also switch from the mobile view to PC view, which displays site pages as they are seen on a client computer. This view is also touch enabled.
   
-### New controls for working with OneDrive for Business
+### New controls for working with OneDrive
 <a name="newcontrols"> </a>
 
 You can sslect a control to create new Office documents, upload files, synchronize your files for offline use, and share your files. For more info, see "Simple controls" on [The OneDrive Blog](https://go.microsoft.com/fwlink/?LinkID=620285&amp;clcid=0x4809).

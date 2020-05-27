@@ -105,7 +105,7 @@ When the amount of indexed items increases while the indexed items change at the
 ### How to increase the ingestion rate and the freshness of results
 <a name="BKMK_HowIncreaseIngestion"> </a>
 
-There are some situations where you might need to increase the ingestion rate. One example is if your environment requires very fresh results and the content volume is close to the upper item limit for your search architecture, or the content changes often. Content might change often if people used to archive files on a team site, but now they store their files on OneDrive for Business while they work on them. Search indexes all the changes people make to their files.
+There are some situations where you might need to increase the ingestion rate. One example is if your environment requires very fresh results and the content volume is close to the upper item limit for your search architecture, or the content changes often. Content might change often if people used to archive files on a team site, but now they store their files on OneDrive while they work on them. Search indexes all the changes people make to their files.
   
 It's useful to understand which factors influence how quickly search can ingest items:
   

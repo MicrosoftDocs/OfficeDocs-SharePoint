@@ -41,9 +41,9 @@ This table gives a quick overview of hybrid integration between SharePoint Serve
   
 ||**Non-hybrid**|**Hybrid**|
 |:-----|:-----|:-----|
-|**OneDrive for Business** <br/> |OneDrive for Business is available in Office 365 but there is no link to it from SharePoint Server. If you've deployed MySites, users may have a second OneDrive for Business in SharePoint Server.  <br/> |**OneDrive** links are provided in SharePoint Server which direct users to OneDrive for Business.  <br/> (See [Plan hybrid OneDrive for Business](plan-hybrid-onedrive-for-business.md) for detailed information.)  <br/> |
+|**OneDrive** <br/> |OneDrive is available in Office 365 but there is no link to it from SharePoint Server. If you've deployed MySites, users may have a second OneDrive in SharePoint Server.  <br/> |**OneDrive** links are provided in SharePoint Server which direct users to OneDrive.  <br/> (See [Plan hybrid OneDrive](plan-hybrid-onedrive-for-business.md) for detailed information.)  <br/> |
 |**Site following** <br/> |The followed sites list in Microsoft 365 tracks followed SharePoint in Microsoft 365 sites. If you've deployed MySites, a second followed sites list in SharePoint Server tracks followed SharePoint Server sites.  <br/> |Followed sites from both locations are consolidated in the SharePoint in Microsoft 365 followed sites list. SharePoint Server links to the followed sites list redirect users to the SharePoint in Microsoft 365 followed sites list.  <br/> (See [Hybrid site following](hybrid-site-following.md) for detailed information.)  <br/> |
-|**Document following** <br/> |If you've deployed MySites, the followed documents list in SharePoint Server tracks followed SharePoint Server documents.  <br/> |Hybrid document following is not available. If you use hybrid OneDrive for Business, the SharePoint Server followed documents list will be hidden from users. (Note that if you configure hybrid search and you have Delve, you can favorite SharePoint Server documents.)  <br/> |
+|**Document following** <br/> |If you've deployed MySites, the followed documents list in SharePoint Server tracks followed SharePoint Server documents.  <br/> |Hybrid document following is not available. If you use hybrid OneDrive, the SharePoint Server followed documents list will be hidden from users. (Note that if you configure hybrid search and you have Delve, you can favorite SharePoint Server documents.)  <br/> |
 |**Profiles** <br/> |Users have separate profiles in SharePoint Server and in Microsoft 365.  <br/> |Profiles exist in both locations, but SharePoint Server links to users' profiles redirect profiles in Microsoft 365.  <br/> (See [Plan hybrid profiles](plan-hybrid-profiles.md) for detailed information.)  <br/> |
 |**Extensible app launcher** <br/> |Users see a different app launcher in Microsoft 365 and in SharePoint Server.  <br/> |There are still separate app launchers, but the SharePoint Server app launcher includes several tiles from Microsoft 365.  <br/> (See [The extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) for detailed information.)  <br/> |
 |**Hybrid self-service site creation** <br/> |Users see separate self-service site creation experiences in SharePoint Server and SharePoint in Microsoft 365, as configured by the administrator.  <br/> |Users going to the default SharePoint Server site creation page are redirected to the SharePoint Group Creation page, allowing them to create sites in SharePoint.  <br/> (See [Hybrid self-service site creation](hybrid-self-service-site-creation.md) for detailed information.)  <br/> |
@@ -53,18 +53,18 @@ This table gives a quick overview of hybrid integration between SharePoint Serve
 
 Many of the SharePoint hybrid features make use of a technique called redirection. With redirection, when users attempt to access a service in SharePoint Server using site navigation, they are automatically redirected to the equivalent service in Microsoft 365.
   
-For example, in a non-hybrid environment, when a user selects **OneDrive** on a SharePoint Server site, they are taken to their SharePoint Server OneDrive for Business location. With hybrid OneDrive for Business, when a user selects **OneDrive**, they are taken to OneDrive for Business.
+For example, in a non-hybrid environment, when a user selects **OneDrive** on a SharePoint Server site, they are taken to their SharePoint Server OneDrive location. With hybrid OneDrive, when a user selects **OneDrive**, they are taken to OneDrive.
   
-Hybrid OneDrive for Business, hybrid site following, and hybrid profiles all use redirection to send users from on-premises SharePoint Server to the equivalent service in Microsoft 365. The on-premises SharePoint Server services continue to function in the background and are accessible by users if they've bookmarked the URL.
+Hybrid OneDrive, hybrid site following, and hybrid profiles all use redirection to send users from on-premises SharePoint Server to the equivalent service in Microsoft 365. The on-premises SharePoint Server services continue to function in the background and are accessible by users if they've bookmarked the URL.
   
-When redirection is used, existing data in SharePoint Server is not automatically migrated to the equivalent Microsoft 365 service. Documents in OneDrive for Business and user profile information have to be manually migrated for each user, and SharePoint Server followed sites will have to be re-followed.
+When redirection is used, existing data in SharePoint Server is not automatically migrated to the equivalent Microsoft 365 service. Documents in OneDrive and user profile information have to be manually migrated for each user, and SharePoint Server followed sites will have to be re-followed.
   
-## Hybrid sites features and OneDrive for Business
+## Hybrid sites features and OneDrive
 <a name="SitesFeatures"> </a>
 
 Several hybrid features are bundled together to help ease deployment. The two feature bundles are:
   
-- Hybrid OneDrive for Business
+- Hybrid OneDrive
     
 - Hybrid sites features
     
@@ -72,9 +72,9 @@ Several hybrid features are bundled together to help ease deployment. The two fe
   
 The following table shows which hybrid features are included with each option.
   
-||**Hybrid OneDrive for Business**|**Hybrid sites features**|
+||**Hybrid OneDrive**|**Hybrid sites features**|
 |:-----|:-----|:-----|
-|OneDrive for Business  <br/> |X  <br/> |X  <br/> |
+|OneDrive  <br/> |X  <br/> |X  <br/> |
 |Site following  <br/> ||X  <br/> |
 |Profiles  <br/> |X  <br/> |X  <br/> |
 |Extensible app launcher\*  <br/> ||X  <br/> |
@@ -86,7 +86,7 @@ The following table shows which hybrid features are included with each option.
 
 To get started configuring hybrid features for your environment, choose a feature below:
   
-- [Configure hybrid OneDrive for Business - roadmap](configure-hybrid-onedrive-for-businessroadmap.md)
+- [Configure hybrid OneDrive - roadmap](configure-hybrid-onedrive-for-businessroadmap.md)
     
 - [Configure hybrid sites features - roadmap](configure-hybrid-sites-featuresroadmap.md)
     

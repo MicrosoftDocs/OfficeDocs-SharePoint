@@ -32,7 +32,7 @@ Discover how a SharePoint hybrid environment using SharePoint Server and SharePo
   
 ![Online + On-premises = Hybrid](../media/Hybrid_Concept.gif)
   
-Offload your users' personal storage to SharePoint in Microsoft 365 with hybrid OneDrive for Business. Maximize the reach of Search to get search results from both SharePoint Server and SharePoint in Microsoft 365. Extend access to Microsoft Business Connectivity Services data and applications to the cloud. The following articles describe the currently supported SharePoint hybrid options and configurations and will help you decide which hybrid solution you should use to meet your business goals.
+Offload your users' personal storage to SharePoint in Microsoft 365 with hybrid OneDrive. Maximize the reach of Search to get search results from both SharePoint Server and SharePoint in Microsoft 365. Extend access to Microsoft Business Connectivity Services data and applications to the cloud. The following articles describe the currently supported SharePoint hybrid options and configurations and will help you decide which hybrid solution you should use to meet your business goals.
   
 When you're done exploring, [plan your hybrid deployment](plan-sharepoint-server-hybrid.md).
   

@@ -50,7 +50,7 @@ When users keep files on their local device or on a network share, they're out o
 > [!NOTE]
 > If you're concerned about users signing in from kiosks or other shared, unmanaged devices, you might want to [enable idle session sign-out](https://docs.microsoft.com/sharepoint/sign-out-inactive-users).
 
-![Accessing Libraries via the OneDrive for Business mobile app](media/sp-collabguide01.png)
+![Accessing Libraries via the OneDrive mobile app](media/sp-collabguide01.png)
 
 ### Enterprise-grade security
 

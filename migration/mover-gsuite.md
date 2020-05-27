@@ -607,9 +607,9 @@ The original timestamps from G Suite Drive are preserved when migrating into Mic
 
 When migrating from G Suite Drive into Microsoft 365, the *modified by* author is preserved; however, the *created by* is changed to the user.
 
-### Does the Mover app interact with the sync client in OneDrive for Business?
+### Does the Mover app interact with the sync client in OneDrive?
 
-We do not interact with the sync client in OneDrive for Business. We recommend disabling it prior to a migration. If you use it during a migration, it tries to sync all the migrating data.
+We do not interact with the sync client in OneDrive. We recommend disabling it prior to a migration. If you use it during a migration, it tries to sync all the migrating data.
 
 ### What happens to shared data?
 

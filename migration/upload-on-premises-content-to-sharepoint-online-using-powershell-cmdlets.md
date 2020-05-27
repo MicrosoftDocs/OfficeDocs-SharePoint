@@ -304,7 +304,7 @@ EncryptionKey                                       EncryptionMethod
 |Package size  <br/> |10-20 GB  <br/> Use -ParallelImport switch for File Share migration which automatically splits the big package into smaller ones.  <br/> |
 |File size  <br/> |2 GB  <br/> |
 |Target size  <br/> |Target site should remain non-accessible to users until migration is complete.  <br/> |
-|SharePoint limits  <br/> |[SharePoint and OneDrive for Business: software boundaries and limits](https://go.microsoft.com/fwlink/?LinkID=616612&amp;clcid=0x409)SharePoint: software boundaries and limits.  <br/> |
+|SharePoint limits  <br/> |[SharePoint and OneDrive: software boundaries and limits](https://go.microsoft.com/fwlink/?LinkID=616612&amp;clcid=0x409)SharePoint: software boundaries and limits.  <br/> |
    
 ## Azure Limits
 <a name="step7monitoring"> </a>

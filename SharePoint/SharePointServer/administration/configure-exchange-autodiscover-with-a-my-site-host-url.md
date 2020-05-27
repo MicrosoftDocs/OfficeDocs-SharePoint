@@ -24,7 +24,7 @@ description: "Learn how to configure Exchange Autodiscover to find a user's Shar
   
 In SharePoint Server, a My Site gives users rich social networking and collaboration features that enable content sharing, discussions, and other features for users to do their jobs. The Exchange Server 2013 Autodiscover service configures profile settings on mail clients and mobile devices based on a supplied user name and password. The Autodiscover service can also be configured to allow for a simpler, seamless configuration experience to a My Site for Office 2016 client integration. For example, Office 2016 client and mobile phone apps can use Exchange Autodiscover to find a user's My Site based on the My Site Host URL stored in Active Directory Domain Services (AD DS). Instead of identifying and entering the My Site Host URL, a user's email address and password are the only requirements to configure and provision client functionality for:
   
-- OneDrive for Business — Open and save a document to your OneDrive for Business location.
+- Microsoft OneDrive — Open and save a document to your OneDrive location.
     
 - Access a Newsfeed on a device.
     

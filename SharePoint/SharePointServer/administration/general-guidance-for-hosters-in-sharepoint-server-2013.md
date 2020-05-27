@@ -194,7 +194,7 @@ The service applications available in a SharePoint Server 2013 on-premises envir
 |Excel Calculation  <br/> |No  <br/> |No  <br/> |No  <br/> |
 |Performance Point  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
 |Yammer  <br/> |No  <br/> |No  <br/> |No  <br/> |
-|SharePoint Integration for OneDrive for Business  <br/> |No  <br/> |No  <br/> |No  <br/> |
+|SharePoint Integration for OneDrive  <br/> |No  <br/> |No  <br/> |No  <br/> |
    
 > [!NOTE]
 > The column, **Supported for Multi-Tenancy**, means you can't configure it in multi-tenancy. You will get an error message. 

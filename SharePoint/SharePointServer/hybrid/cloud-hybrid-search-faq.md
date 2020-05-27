@@ -182,7 +182,7 @@ The following are documented and supported topologies:
 
 - [Configure rich document collaboration using Exchange Server 2016, Office Online Server (OOS) and SharePoint Server](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/Configure-rich-document-collaboration-using-Exchange-Server-2016/ba-p/606021)
 
-- [Configure document collaboration with OneDrive for Business and Exchange 2016 on-premises](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-document-collaboration)
+- [Configure document collaboration with OneDrive and Exchange 2016 on-premises](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-document-collaboration)
 
 - Exchange Online + SharePoint in Microsoft 365.
 

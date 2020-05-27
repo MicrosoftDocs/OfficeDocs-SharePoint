@@ -27,7 +27,7 @@ This article is for IT admins who would like to silently configure user accounts
   
 If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. Before if begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set (on devices that don't have Files On-Demand enabled), OneDrive will prompt the user to choose folders to sync. For info about setting this threshold using Group Policy, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically). 
   
-If you enable this setting and the user is syncing files with the previous OneDrive for Business sync app (Groove.exe), the new sync app (OneDrive.exe) will attempt to take over syncing and import the user's sync settings. 
+If you enable this setting and the user is syncing files with the previous OneDrive sync app (Groove.exe), the new sync app (OneDrive.exe) will attempt to take over syncing and import the user's sync settings. 
   
 ## Prerequisites
 
