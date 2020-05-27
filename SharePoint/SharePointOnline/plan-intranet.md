@@ -89,7 +89,7 @@ Think of this step as an opportunity to learn. You are learning about what is im
 
 ## Identify initiatives
 
-Using the information you gathered during your research, work with your key intranet stakeholders to identify initiatives that reflect your organizational priorities – as well as any barriers that you might exist when you are implementing them.
+Using the information you gathered during your research, work with your key intranet stakeholders to identify initiatives that reflect your organizational priorities – as well as any barriers that might exist when you are implementing them.
 
 While you may ultimately implement solutions to address all of the identified initiatives, prioritizing which project to do first will help you achieve early success and user engagement as efficiently as possible.
 
