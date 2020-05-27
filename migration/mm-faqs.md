@@ -59,5 +59,8 @@ Answer: Pausing a task does not release the agent to another task. The agent rem
 **Question:**  How long does an agent stay connected to Migration Manager?</br>
 Answer:  The connection between an agent and Migration Manager stays active as long as the computer is still running and the SPO admin credentials that were used to sign into the agent are still valid. If the agent does becomes disconnected, the agent holds the token to the Migration Manager for up to 7 days. After which the agent will need to be reinstalled.
 
+**Question:**  Is Migration Manager available for Government clouds?</br>
+Answer:  Yes. Here's how you configure it: [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-gov-cloud)
+
 
 
