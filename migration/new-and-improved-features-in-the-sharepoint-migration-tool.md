@@ -58,6 +58,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |Performance recommendations|The performance report contains direct links to detailed content on  performance recommendations.|
 |New setting|A new setting, "Temporarily allow migration of scripts", will automatically allow the migration of scripted web parts without having to go in the tenant admin. | 
 
+
 **Improvements**
 
 |**Issue**|**Fix**|
