@@ -24,6 +24,8 @@ Information barriers are policies in Microsoft 365 that an admin can configure t
 
 The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that allows Research and Sales to communicate with HR, but not with each other. 
 
+![Example of segments in an organization](media/info-barriers-segments-example.png)
+
 With SharePoint information barriers, a SharePoint or global admin can associate up to 10 segments with any SharePoint site. The segments are associated at the site level (previously called site collection level). Segments can't be associated at the subsite level.
 
 In the above example, Sales and HR are compatible segments, and Research and HR are compatible segments. Because Sales and Research are incompatible, users in Sales will see an Access Denied error if they try to access sites that have the Research segment associated. 
@@ -107,6 +109,37 @@ Users will see search results from sites:
 - That have an associated segment that matches that of the user and the user has access permission to the site. 
 - That don't have associated segments if they have access to the site. 
 
+SharePoint site owner’s segment changes: 
+If the site owner’s segment is changed, they will not be able to access the SharePoint site if their segment does not match the segments associated with the site. In this case, the SharePoint Admin is advised to update the site accordingly. 
+
+Example: 
+In Contoso Corporation, there is an existing site ‘contosobank.sharepoint.com/sites/SalesTeam’ which is associated with segment – Sales. User Enrico (segment – Sales) is the Site owner. 
+When compliance admin updates user Enrico’s segment from Sales to Research; user Enrico will no longer be able to access site ‘contosobank.sharepoint.com/sites/SalesTeam’. 
+
+Segment’s policy changes: 
+When the information barriers policy administrator makes changes to an existing policy, the change may impact the compatibility of the existing segments in the tenant. As a result, we recommend the SharePoint Admin to update the impacted site’s segments accordingly.
+Example: 
+In Contoso Corporation, there is an existing site ‘contosobank.sharepoint.com/sites/GlobalFinance’ which
+is associated with compatible segments – Sales and HR. 
+Few months later, the compliance admin updates the policy of the segment ‘Sales’ due to which Sales is no longer allowed communication and collaboration with HR i.e. segment Sales and HR are not compatible segments anymore. 
+In this case, we recommend the SharePoint Admin to update the site – ‘contosobank.sharepoint.com/sites/GlobalFinance’ with the appropriate segment association to make it compliant with the information barrier policy in the tenant. 
+In future, we will have a reporting capability using which the SharePoint Admin will be able to see the list of all existing sites which are no longer compatible due to policy changes done by the compliance admin. 
+
+Known End User Experiences
+
+1.	Multi-geo tenant (provide link aka.ms/sharepointmultigeo)
+
+a.	Site geo-move of a segment associated site is currently not supported. 
+b.	If your tenant admin needs to geo-move a site, we recommend you to first geo-move the site and then associate segment to it. 
+
+2.	Open SharePoint Site experience: 
+
+More Information: 
+•	To learn more about information barriers, see Information barriers.
+•	To set up information barrier policies, see Define policies for information barriers.
+•	To edit or remove information barrier policies, see Edit (or remove) information barrier policies.
+•	Info barriers in Teams https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams 
+•	Teams and SharePoint site connected to it https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams#teams-policies-and-sharepoint-sites
 
 
 
