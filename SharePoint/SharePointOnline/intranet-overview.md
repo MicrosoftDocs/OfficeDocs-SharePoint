@@ -220,7 +220,7 @@ SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience
 
 *Start by* — Determining who needs access, who should not have access, and how you will grant access requests.
 
-*You'll know you're done when* — All site owners and user have access to the content they need, while securing confidential content when appropriate.
+*You'll know you're done when* - All site owners and users have access to the content they need, while securing confidential content when appropriate.
 
 #### Design the intranet portal page
 
