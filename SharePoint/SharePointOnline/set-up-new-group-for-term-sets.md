@@ -26,24 +26,24 @@ In the Term Store Management Tool, a group is a set of term sets that all share 
 > [!IMPORTANT]
 >  To create a new term set group, you must be a Term Store admin. 
   
-![Screenshot of navigation pane in Term Store Management Tool, showing the New Group menu item selected](media/e4e5afaf-0b6b-4606-b0c8-8b0f56b663c0.png)
+![Screenshot of navigation pane in Term Store Management Tool, showing the New Group menu item selected](media/add-term-group.png)
   
 To set up a new group for term sets, follow these steps.
-  
+   
 1. [Open the Term Store management tool](open-term-store-management-tool.md).
     
-2. In the tree view pane, select the taxonomy. Then point to it, select the arrow that appears, and then select **New Group**.
+2. In the tree view pane, select the taxonomy. Then point to it, select the arrow that appears, and then select **Add term group**.
     
 3. Type a name for your new group, and then press ENTER.
     
-4. In the **Properties** pane, enter a description for the group. 
+4. To edit the Term group **name** and **description**, select **Edit**. The **Edit name and description** panel appears. Enter a description to help users understand the purpose of this term group. Select **Save**. 
     
-5. In the **Group Managers** box, enter the names of the people that you want to add. To find and add users, you can also select **Browse**. 
+5. To edit **Group Managers**, select **Edit**. The **Edit admins** panel appears. Enter a name or email address to create new term groups, and set and assign users to the group manager role. Select **Save**.
     
-6. In the **Contributors** box, enter the names of people that you want to add. To find and add users, you can also select **Browse**. 
+6.  To edit **Contributors**, select **Edit**. The **Edit admins** panel appears. Enter a name or email address to create new term groups, and set and assign users to the group manager role. Select **Save**.
     
-7. Select **Save**.
+7. To copy the unique identifier for this term group, select **Copy**.
     
 > [!NOTE]
->  To delete a group, point to the group, select the arrow that appears, and then select **Delete Group**. You can only delete empty groups. 
+>  To add term set, rename term group, delete term group, or import a term set, to the right of the group name, select the **More options** (vertical ellipsis icon), and make your selection. You can only delete empty groups. 
   
