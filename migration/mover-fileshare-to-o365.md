@@ -619,7 +619,7 @@ To monitor the Agent activity, use:</br> `./agent Monitor`. To stop monitoring A
 `$ ./agent monitor`</br>
 `Connecting to Mover Agent`</br>
 `Mover Agent Key:`<br> `00000000000000000000000000000000`</br>
-`Connected to bifrost.mover.io on ports 8081 and 4002.`</br>
+`Connected to bifrost.mover.io on port 443.`</br>
 `Ready to transfer!Browse: /`</br>
 `Browse: /Users`</br>
 `Browse: /Users/mover`</br>
