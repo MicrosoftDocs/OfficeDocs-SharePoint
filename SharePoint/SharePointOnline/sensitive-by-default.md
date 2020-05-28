@@ -20,14 +20,14 @@ description: "Learn how to block external sharing of newly added files."
 
 # Mark new files as sensitive by default
 
-When new files are added to SharePoint or OneDrive, it takes a while for them to be crawled and indexed. It takes additional time for the [Office Data Loss Prevention (DLP) policy](/office-365/compliance/data-loss-prevention-policies) to scan the content and apply rules to help protect sensitive content. If external sharing is turned on, sensitive content could be shared and accessed by guests before the Office DLP rule finishes processing.   
+When new files are added to SharePoint or OneDrive, it takes a while for them to be crawled and indexed. It takes additional time for the [Office Data Loss Prevention (DLP) policy](/microsoft-365/compliance/data-loss-prevention-policies) to scan the content and apply rules to help protect sensitive content. If external sharing is turned on, sensitive content could be shared and accessed by guests before the Office DLP rule finishes processing.   
 
 Instead of turning off external sharing entirely, you can address this issue by using a new PowerShell cmdlet. The cmdlet prevents guests from accessing newly added files until at least one Office DLP policy scans the content of the file. If the file has no sensitive content based on the DLP policy, then guests can access the file. If the policy identifies sensitive content, then guests will not be able to access the file. 
 
 > [!NOTE]
 > This cmdlet applies to newly added files in all SharePoint sites. It doesn't block sharing if an existing file is changed. <br>The cmdlet doesn't cover files added to OneDrive. We're working to bring this functionality to OneDrive.
 
-1. Make sure you have at least one DLP policy turned on for content located in SharePoint. [Learn how to create and turn on a DLP policy](/office-365/compliance/create-test-tune-dlp-policy)
+1. Make sure you have at least one DLP policy turned on for content located in SharePoint. [Learn how to create and turn on a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy)
 
     > [!IMPORTANT]
     > The policy must include all SharePoint sites and exclude none.
