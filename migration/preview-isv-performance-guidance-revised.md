@@ -68,10 +68,7 @@ In this example, at the source, break up the structure into 4 folders, A, B, C, 
 ### Method 2: Create your destination layout to avoid exceeding limits
 The alternate approach is to keep your source layout, applying unique scopes at the destination before migration.
 
-Example:
-
-
-Your source folder has 250,000 items within it. At your target location, create folders A, B, C, and D and apply the unique scopes and scope ID. This will break inheritance. Then proceed with your content migration. 
+**Example:**  Your source folder has 250,000 items within it. At your target location, create folders A, B, C, and D and apply the unique scopes and scope ID. This will break inheritance. Then proceed with your content migration. 
 If you do not want your end users to share items until migration is completed, use the Migration API to migrate the content & scopes, but set the scope to NULL to prevent any use. 
 After all the content and incremental migrations are completed, apply the proper scope.
 
@@ -82,7 +79,7 @@ After the incremental migration has completed, and only if you previously set th
 The REST share link or any other permission-modifying function will not take effect if you attempt to update the permission on a file that is checked out by a user.
 Finally, if a SharePoint site or OneDrive location is being actively used during migration, the existing permissions applied on that site, user or document will be enforced.
  
-Example: If you attempt to modify the permission on a site that only allows access to existing users already defined on the site, and the user you are attempting to add to a file or folder does not already have permissions on the site itself, the permission call (e.g. VROOM Invite) will not be able to make the modification. 
+**Example:** If you attempt to modify the permission on a site that only allows access to existing users already defined on the site, and the user you are attempting to add to a file or folder does not already have permissions on the site itself, the permission call (e.g. VROOM Invite) will not be able to make the modification. 
 
 
 
