@@ -43,7 +43,8 @@ The SharePoint Migration Tool (SPMT) supports the migration of the following loc
 |Site description|Site descriptions can be migrated||
 |Incremental|Tasks can also be saved to be rerun at a later date, allowing you to move only those new or updated files in the source location.||
 |Pages|Pages in the site asset library||
-
+|Microsoft Teams|Users can select Teams and channels directly from the destination selection page.||
+|Taxonomy migration|By default, managed metadata migration is turned off, and taxonomy is updated in incremental rounds.||
 
 > [!Note]
 > Do you have a suggestion or feature request to improve the SPMT? Share it with us at [User Voice](https://sharepoint.uservoice.com/forums/282887-sharepoint-hybrid-or-migration-to-office365)
