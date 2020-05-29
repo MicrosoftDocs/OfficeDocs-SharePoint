@@ -92,7 +92,7 @@
             },
         "hideEdit": {
             "SharePointServer/*.md": true 
-            }            
+            },       
         "titleSuffix": {
             "SharePointServer/*.md": "SharePoint Server",
             "SharePointOnline/*.md": "SharePoint Online"
