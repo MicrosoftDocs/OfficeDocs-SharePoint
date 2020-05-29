@@ -21,9 +21,8 @@ search.appverid: MET150
 
 Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
 
-Summary reports: 
+Summary report: 
 - [Summary Report](#summary-report)
-- [Failure Summary Report](#failure-summary-report)
 
 Task level reports:
 - [Item Summary](#item-summary)
