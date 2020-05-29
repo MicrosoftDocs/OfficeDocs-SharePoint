@@ -32,7 +32,7 @@ In the above example, the HR segment is compatible with both Sales and Research.
 
 ## Prerequisites
 
-- [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers)
+- [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
 - Complete the form to enable information barriers in your organization. 
 - Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 
@@ -68,7 +68,7 @@ In the above example, the HR segment is compatible with both Sales and Research.
       ```
 
     Example: 
-    Set-SPOSite -Identity https://contoso.sharepoint.com/sites/ResearchTeamSite 
+    Set-SPOSite -Identity https:<i></i>//contoso<i></i>.sharepoint<i></i>.com/sites/ResearchTeamSite 
 -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
 
 An error will appear if you attempt to associate a segment that isn't compatible with the site’s existing segments. 

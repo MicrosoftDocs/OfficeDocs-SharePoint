@@ -32,7 +32,7 @@ With information barriers in OneDrive, when a segment is applied to a user, with
 
 ## Prerequisites
 
-- [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers)
+- [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
 - Complete the form to enable information barriers in your organization. 
 - Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 
@@ -65,16 +65,16 @@ With information barriers in OneDrive, when a segment is applied to a user, with
 
     ```PowerShell
     Get-SPOSite -Identity <site URL> | Select InformationSegment 
-   
+    ```
 
     Example: 
-    Get-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment 
+    Get-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment 
 
 
 ## Associate or remove additional segments on a user's OneDrive
 
 > [!WARNING]
-> If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user. Similarly, don't remove the user's segment from their OneDrive.
+> If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user. Similarly, don't remove a user's segment from their OneDrive.
 
 To associate a segment with a OneDrive, run the following command in the SharePoint Online Management Shell.
 
@@ -83,7 +83,7 @@ Set-Sposite -Identity <site URL> -AddInformationSegment <segment GUID>
  ```
 
 Example: 
-Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com  
+Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
 -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
 
 An error will appear if you attempt to associate a segment that isn't compatible with the existing segments. 
@@ -97,7 +97,7 @@ Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
  ``` 
 
 Example:  
-Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com  
+Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
 -RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
 
 ## Sharing files from a OneDrive that has segments associated
