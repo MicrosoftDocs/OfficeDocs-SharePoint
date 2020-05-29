@@ -27,7 +27,7 @@ You can use the Term Store Management Tool to create terms in a term set, or man
 > [!IMPORTANT]
 >  To create and manage terms in the Term Store Management Tool, you must be a Contributor, a Group Manager, or a Term Store admin. 
   
-![You can select a group name in the Term Store Management Tool to open a menu that lets you add terms to a term set](media/f5f2bdaa-0bd1-441b-81a2-e732de310d97.png)
+![You can select a group name in the Term Store Management Tool to open a menu that lets you add terms to a term set](media/create-manage-term-sets.png)
   
 To create a term in a term set, follow these steps.
   
@@ -38,92 +38,88 @@ To create a term in a term set, follow these steps.
     
 2. In the tree-view pane, expand the groups to find the term set to which you want to add a term.
     
-3. Point to the term set where you want to add a term, select the arrow that appears, and then select **Create Term**.
+3. Point to the term set where you want to add a term, select the **More options** (vertical ellipsis icon), and then select **Add term**.
     
-4. Enter the name that you want to use as the default label for the newly created term in the tree view.
+4. In the tree view, enter the name that you want to use as the default label for the newly created term.
     
-5. In the **Properties** pane, specify the following info about the new term: 
+5. To edit the term **name** panel, specify the following info about the new term: 
     
-    - **Available for tagging** Select the check box to make this term available for tagging. If you clear the check box, the term is visible but disabled in the tagging tools. 
+    - Under the **General** tab, to add languages, translations, and synonyms, select **Add**. The **Add translation and synonyms** panel appears. Select your language, translation, description, and add synonyms. Select **Save.**.
 
-    - **Language** Select the language for this label for the term. 
-    
-    - **Description** eNTER a description to help users understand how to apply this term, or to differentiate it from similar terms. 
-    
-    - **Default Label** Enter the word or phrase that you want to use as the default label for the term in this language. 
-    
-    - **Other Labels** Enter any synonyms for this term. To add multiple synonyms, ENTER the first synonym, AND to add more lines, press **ENTER**. 
+    - Under the **Usage settings** tab, to make the term available to the users and content editors of sites consuming this term set, select **Edit**. The **Available for tagging** panel appears. By default, the term is enabled for tagging. To disable, select the **Enable** checkbox. Select **Save.**.
+
+    - Under the **Advanced** tab, to use shared or local custom properties to store additional data about a term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save.**. 
+
   
 ## Take another action with terms
 <a name="__toc327965090"> </a>
 
 There are several actions that you can take on terms that will help you build and manage term sets as the business needs of your organization evolve. 
   
-To take any of the following actions, first [Open the Term Store management tool](open-term-store-management-tool.md), and then point to the term that you want to use for the action.
+To take any of the following actions, first [Open the Term Store Management Tool](open-term-store-management-tool.md), and then point to the term that you want to use for the action.
   
-### Copy a term
+### Rename term
+<a name="__rename_the_term"> </a>
+
+- Select **Rename term**. This action renames the \<original term name\>. 
+    
+    
+### Copy term
 <a name="__copy_the_term"> </a>
 
-- Select **Copy Term** The name of the new term is Copy of \<original term name\>. No child terms for the source term are copied. 
+- Select **Copy term**. This action shows the name of the new term as **Copy of \<original term name\>**. No child terms for the source term are copied. 
     
-### Reuse a term
-<a name="__reuse_a_term"> </a>
-
-1. Select **Reuse Terms**.
-    
-2. In the **Term Reuse** dialog box, expand the groups and term sets to find the term that you want to reuse under your selected parent term. 
-    
-3. Select the term, and then select **OK**. 
-    
-### Pin term with children
-<a name="__pin_term_with"> </a>
-
-1. When you pin a term with children, you reuse the term in a different security group. 
-    
-2. Select **Pin term with children**.
-    
-3. In the **Reuse and Pin Term: Select a Source** dialog BOX, expand the groups and term sets. 
-    
-4. Select the term that you want to reuse and pin as a child of the selected term or term set.
-    
-5. Check or clear **Block users from using this keyword outside the context of its new Term Set destination**.
-    
-6. Select **OK**.
-    
-### Merge a term with another
-<a name="__merge_a_term"> </a>
-
-1. Select **Merge Term**.
-    
-2. In the **Term Merge** dialog box, expand the term set that contains the term with which you want to merge you selected term. 
-    
-3. Select the target term.
-    
-4. Select **OK**.
-    
-### Deprecate a term
-<a name="__deprecate_a_term"> </a>
-
-- Select **Deprecate Term** This action makes any instances of this term in any term set to which it belongs unavailable for tagging. Any child terms of the term are not deprecated. 
-    
-### Move a term
+### Move term
 <a name="__move_a_term"> </a>
 
-1. Select **Move Term**.
+1. Select **Move term**. The **Move to** panel appears.
     
-2. In the **Term Move** dialog box, expand the groups or term sets to find where you want to move the term. 
+2. Select the target term set or term. 
     
-3. Select the target term set or term. 
+3. Select **Move**.
     
-4. Select **OK**.
-    
-### Delete a term
+### Delete term
 <a name="__delete_a_term"> </a>
 
-1. Select **Delete Term**.
+1. Select **Delete term**. A warning dialog box appears stating *If you delete this term, any terms below it will also be deleted. Terms that are shared with other term sets will be placed in the Orphaned terms term set under System.* 
     
-2. Select **OK**.
+2. Select **Delete**.
     
-This action deletes the term and its child terms. If this term is a source term that other locations reuse, it is put in the Orphaned Terms term set in the System group.
-  
+### Pin term
+<a name="__pin_term_to"> </a>
 
+1. Select **Pin term**. The **Pint term to** panel appears.
+
+2. Select the target term set or term where you want to pin the term. 
+    
+3. Select **Pin**.
+
+Pinning a term makes linked copies of the term and its children available at the destination. You can only create or edit the children of a pinned term at the source and the changes will reflect everywhere the term is used.
+    
+### Reuse term
+<a name="__reuse_a_term"> </a>
+
+1. Select **Reuse term**. The **Reuse term to** panel appears.
+    
+2. Select the target term set or term where you want to reuse the term. 
+    
+3. Select the term, and then select **Reuse**.
+
+Reusing a term makes linked copies of the term and its children available at the destination. You can create children for a reused term anywhere it is used but will exist only in the term set they were created.
+    
+
+### Merge term
+<a name="__merge_a_term"> </a>
+
+1. Select **Merge term**. The **Merge to** panel appears.
+    
+2. Select the target term set or term where you want to merge the term. 
+    
+3. Select **Merge**.
+
+Merging this term with another will collapse its synonyms, translations and custom properties into the other term.
+    
+### Deprecate term
+<a name="__deprecate_a_term"> </a>
+
+- Select **Deprecate Term**. This action makes any instances of this term in any term set to which it belongs unavailable for tagging. Child terms of the term are not deprecated. 

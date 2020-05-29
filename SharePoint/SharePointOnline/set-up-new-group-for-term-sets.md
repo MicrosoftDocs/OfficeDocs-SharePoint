@@ -34,7 +34,7 @@ To set up a new group for term sets, follow these steps.
     
 2. In the tree view pane, select the taxonomy. Then point to it, select the arrow that appears, and then select **Add term group**.
     
-3. Type a name for your new group, and then press ENTER.
+3. Enter a name for your new group, and then press ENTER.
     
 4. To edit the Term group **name** and **description**, select **Edit**. The **Edit name and description** panel appears. Enter a description to help users understand the purpose of this term group. Select **Save**. 
     
