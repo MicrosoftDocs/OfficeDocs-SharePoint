@@ -22,13 +22,13 @@ description: "Learn about associating segments with a site, and what happens whe
 
 Information barriers are policies in Microsoft 365 that an admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
-The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that allows Research and Sales to communicate with HR, but not with each other. 
+The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that allows Sales and Research to communicate with HR, but not with each other. 
 
 ![Example of segments in an organization](media/info-barriers-segments-example.png)
 
 With SharePoint information barriers, a SharePoint or global admin can associate up to 10 segments with any SharePoint site. The segments are associated at the site level (previously called site collection level). Segments can't be associated at the subsite level.
 
-In the above example, Sales and HR are compatible segments, and Research and HR are compatible segments. Because Sales and Research are incompatible, users in Sales will see an Access Denied error if they try to access sites that have the Research segment associated. 
+In the above example, the HR segment is compatible with both Sales and Research. Because Sales and Research are incompatible, users in Sales will see an Access Denied error if they try to access sites that have the Research segment associated. 
 
 > [!NOTE]
 > Associating a segment with a site doesn't grant permission to the site. To access a site, users still need to have access permission to it. 
