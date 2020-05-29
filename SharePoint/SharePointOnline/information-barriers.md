@@ -26,12 +26,9 @@ The following image illustrates three segments in an organization: HR, Sales, an
 
 ![Example of segments in an organization](media/info-barriers-segments-example.png)
 
-With SharePoint information barriers, a SharePoint or global admin can associate up to 10 segments with any SharePoint site. The segments are associated at the site level (previously called site collection level). Segments can't be associated at the subsite level.
+With SharePoint information barriers, a SharePoint or global admin can associate up to 10 compatible segments with any SharePoint site. The segments are associated at the site level (previously called site collection level). Segments can't be associated at the subsite level.
 
-In the above example, the HR segment is compatible with both Sales and Research. Because Sales and Research are incompatible, users in Sales will see an Access Denied error if they try to access sites that have the Research segment associated. 
-
-> [!NOTE]
-> Associating a segment with a site doesn't grant permission to the site. To access a site, users still need to have access permission to it. 
+In the above example, the HR segment is compatible with both Sales and Research. However, the Sales and Research segments are incompatible. They can't be associated with the same site. 
 
 ## Prerequisites
 
@@ -43,11 +40,11 @@ In the above example, the HR segment is compatible with both Sales and Research.
 
 1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a global admin. 
 
-2.	Run the following command to get the list of segments and their GUIDs.
+2. Run the following command to get the list of segments and their GUIDs.
 
-      ```PowerShell
-      Get-OrganizationSegment | ft Name, EXOSegmentID
-      ```
+    ```PowerShell
+    Get-OrganizationSegment | ft Name, EXOSegmentID
+    ```
 
 3.	Save the list of segments.
 
@@ -79,35 +76,40 @@ An error will appear if you attempt to associate a segment that isn't compatible
 > [!NOTE]
 > To remove a segment, use the -RemoveInformationSegment parameter.
 
-> [!NOTE]
-> When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site. SharePoint admins can't change the segments associated with a site when the site is connected to a team. [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams)
+## Segments associated with Microsoft Teams sites
+
+When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site. SharePoint admins can't change the segments associated with a site when the site is connected to a team. [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams)
 
 ## View the segments associated with a site
 
 Run the following command in the SharePoint Online Management Shell to return the GUIDs of any segments associated with a site.
 
-      ```PowerShell
-      Get-SPOSite -Identity <site URL> | Select InformationSegment
-      ```
+```PowerShell
+Get-SPOSite -Identity <site URL> | Select InformationSegment
+```
 
 ## Sharing sites that have segments associated
 
 When a segment is associated with a site:
 
 - The option to share with "Anyone with the link" is disabled.
-- The site and its content can be shared only with users whose segment matches that of the site. Users can share with other users in a compatible segment only if that compatible segment is also associated with the site.
+- The site and its content can be shared only with users whose segment matches that of the site. For example, a user in Sales can share only with other users in Sales, even if HR segment is also associated with the site.
 - New users can be added to the site as site members only if their segment matches that of the site. 
 
 When a site has no segments associated: 
 
-- The site and its contents can be shared based on the information barriers policy applied to the user. If the user is allowed to communicate and collaborate with another user, the user will be able to share the site with that user.
+- The site and its contents can be shared based on the information barriers policy applied to the user. For example, if a user in HR is allowed to communicate with users in Research, the user will be able to share the site with those users. 
+
+## Access to sites that have segments associated
+
+Access to a SharePoint site is allowed only to users whose segment matches a segment associated with the site AND who have access permission to the site.  
 
 ## Search
 
-Users will see search results from sites:
+Users will see search results from:
 
-- That have an associated segment that matches that of the user and the user has access permission to the site. 
-- That don't have associated segments if they have access to the site. 
+- Sites that have an associated segment that matches that of the user and the user has access permission to the site. 
+- Sites that don't have associated segments if they have access to the site. 
 
 ## Effects of changing segments and policies
 
