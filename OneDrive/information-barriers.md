@@ -22,7 +22,7 @@ description: "Learn about associating segments with a OneDrive, and what happens
 
 # Use information barriers with OneDrive
 
-Information barriers are policies in Microsoft 365 that an admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
+Information barriers are policies in Microsoft 365 that an admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as the financial and legal industries. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
 The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that allows Sales and Research to communicate with HR, but not with each other. 
 
