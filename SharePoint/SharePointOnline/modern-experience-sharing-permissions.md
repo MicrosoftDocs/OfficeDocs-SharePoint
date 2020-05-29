@@ -93,7 +93,7 @@ SharePoint has external sharing settings at both the organization level and the 
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using *Anyone* links, users can still share with guests, who sign in, and with internal users. 
   
-External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/Office365/Enterprise/office-365-guest-settings#sharepoint-site-level) for more information.
+External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-guest-settings) for more information.
   
 ### Security and privacy
 

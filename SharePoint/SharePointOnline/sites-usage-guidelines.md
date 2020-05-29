@@ -132,4 +132,4 @@ Using the steps below as a template, create your own custom guidance for site ow
 
 
 **Resources:** </br>
-- [Microsoft 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide)
+- [Microsoft 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy)

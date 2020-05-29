@@ -68,7 +68,7 @@ To reuse a URL from a deleted site (recreate a site), you need to permanently de
 
 2. In the left column, select a site.
 
-3. Select **Delete**, and yo confirm, select **Delete**.
+3. Select **Delete**, and to confirm, select **Delete**.
 
 To permanently delete sites (including Microsoft 365 group-connected team sites) by using PowerShell, follow these steps:
 

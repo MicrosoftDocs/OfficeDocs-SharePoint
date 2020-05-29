@@ -105,7 +105,8 @@ To generate the Identity Mapping Reports, you need to consent to allow assessmen
   
  **Option 1:** Run the assessment tool with the -ConfigureIdentityMapping switch. 
   
-This option will the SharePoint Identity Mapping tool to your tenant's Enterprise Applications section and allow anyone in your tenant to run the tool to perform identity mapping for migration in Microsoft 365.
+
+This option gives the assessment tool access to your tenant's Enterprise Applications section. It allows anyone in your tenant to run the tool to perform identity mapping for migration in Microsoft 365.
   
 1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
     
@@ -166,7 +167,7 @@ If the identity was not found in Azure Active Directory, the Azure Active Direct
   
 |**Column name**|**Source**|**Description**|
 |:-----|:-----|:-----|
-|UniqueID  <br/> |SharePoint  <br/> |For Windows accounts this will be a Security Identifier (SID). For non-Windows accoutns, this will be the claim used to ACL SharePoint.  <br/> |
+|UniqueID  <br/> |SharePoint  <br/> |For Windows accounts this will be a Security Identifier (SID). For non-Windows accounts, this will be the claim used to ACL SharePoint.  <br/> |
 |TypeOfMatch  <br/> |Assessment Tool  <br/> |**ExactMatch** - The source identity is a Windows account and we were able to match the SID in SharePoint to the OnPremisesSecurityIdentifier in Azure AD.  <br/> **PartialMatch** - The match was based on UserPrincipalName, Email, or Display Name. For groups, we only partial match on Display Name.  <br/> **NoMatch** - Unable to match the identity against any information.  <br/> |
 |IsGroup  <br/> |SharePoint  <br/> |True if the identity is a group.  <br/> |
 |ACLExists  <br/> |SharePoint  <br/> |True if the identity is associated with permissions in SharePoint. This indicates the identity has access to some piece of content.  <br/> |
@@ -199,7 +200,7 @@ IdentityMapping.csv is a pre-generated identity mapping file. All identities are
   
 |**Column name**|**Description**|
 |:-----|:-----|
-|UniqueIdentity  <br/> |Uniquevalue to identify the object in the source environment. For Windows identities, this will be the Security Identifier (SID). For all other identity types, this will be the claim found in SharePoint.  <br/> |
+|UniqueIdentity  <br/> |Unique value to identify the object in the source environment. For Windows identities, this will be the Security Identifier (SID). For all other identity types, this will be the claim found in SharePoint.  <br/> |
 |TargetIdentity  <br/> |Identity to map the source identity to.  <br/> For users, this value is the User Principal Name of the user in Azure Active Directory. For groups, this value is the Object Id of the group in Azure Active Directory.  <br/> |
 |IsGroup  <br/> |True if the row represents a group.  <br/> |
    

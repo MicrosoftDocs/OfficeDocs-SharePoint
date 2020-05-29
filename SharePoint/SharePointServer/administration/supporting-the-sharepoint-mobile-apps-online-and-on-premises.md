@@ -63,4 +63,4 @@ Any suspicious network traffic should be flagged and investigated by administrat
     
 - [Microsoft Intune (on the Microsoft Trust Center site)](https://www.microsoft.com/trustcenter/CloudServices/Intune)
     
-- [Microsoft 365 (on the Microsoft Trust Center site)](https://www.microsoft.com/TrustCenter/CloudServices/office-365)
+- [Microsoft 365 (on the Microsoft Trust Center site)](https://www.microsoft.com/trust-center/product-overview)

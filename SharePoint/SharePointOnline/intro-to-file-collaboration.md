@@ -54,7 +54,7 @@ When users keep files on their local device or on a network share, they're out o
 
 ### Enterprise-grade security
 
-Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](https://docs.microsoft.com/office-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
+Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](https://docs.microsoft.com/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](https://docs.microsoft.com/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](https://docs.microsoft.com/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
 
 - **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [See Overview of data loss prevention](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)
 
@@ -204,7 +204,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 ## Manage feature changes
 
-- To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/office-365/roadmap).
+- To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 - To keep on top of the latest SharePoint features rolling out, refer to the [Message Center](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide).
 
@@ -216,7 +216,7 @@ User adoption is important to the overall success of any rollout. To maximize yo
 
 - **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing Microsoft 365 file collaboration succeed in your organization. It's important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. Studies have shown that people prefer to learn from a coworker than from an IT employee. For more information about how to identify key stakeholders, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more information about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
 
-- **Scenarios.** Identify and define your business scenarios and how those scenarios align with the benefits of file collaboration in Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://www.microsoft.com/office-365/success/?rtc=1).
+- **Scenarios.** Identify and define your business scenarios and how those scenarios align with the benefits of file collaboration in Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
 
 - **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more information about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
 
@@ -240,9 +240,9 @@ To set up external sharing in your organization, you need to make sure that sett
 
 ### Security
 
-- Design and deploy retention labels and DLP policies to protect sensitive and highly confidential files. [Learn how](https://docs.microsoft.com/office-365/compliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
+- Design and deploy retention labels and DLP policies to protect sensitive and highly confidential files. [Learn how](https://docs.microsoft.com/microsoft-365/compliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
 
-- Block or limit access from unmanaged devices, sign out inactive users on unmanaged devices, or allow access from only specific IP address ranges. For info about setting up identity and device-access policies to protect content, see [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/office-365/enterprise/sharepoint-file-access-policies).  
+- Block or limit access from unmanaged devices, sign out inactive users on unmanaged devices, or allow access from only specific IP address ranges. For info about setting up identity and device-access policies to protect content, see [Policy recommendations for securing SharePoint sites and files](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies).  
 
 ![Access control settings for SharePoint](media/sp-collabguide16.png)
 

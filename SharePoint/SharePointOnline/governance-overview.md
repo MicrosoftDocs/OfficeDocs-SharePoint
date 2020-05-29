@@ -33,7 +33,7 @@ Use these resources to further explore governance in SharePoint and related serv
 
 - [Manage site creation for SharePoint in Microsoft 365](manage-site-creation.md)
 - [SharePoint site designs & site script overview](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview)
-- [Overview of retention policies](https://docs.microsoft.com/office-365/compliance/retention-policies)
+- [Learn about retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
 - [Managing sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md)
 
 ### Microsoft Teams

@@ -51,7 +51,7 @@ Microsoft recommends using [Power Automate](https://flow.microsoft.com) for conf
 
 You can [embed a Power App form in a modern page](https://support.office.com/article/6285f05e-e441-408a-99d7-aa688195cd1c) using the Power Apps web part.
 
-Forms that were previously created using InfoPath and hosted in SharePoint using InfoPath Forms Services should be converted to Power Apps forms, as Microsoft has announced [the deprecation of InfoPath](https://www.microsoft.com/office-365/blog/2014/01/31/update-on-infopath-and-sharepoint-forms/).
+Forms that were previously created using InfoPath and hosted in SharePoint using InfoPath Forms Services should be converted to Power Apps forms, as Microsoft has announced [the deprecation of InfoPath](https://www.microsoft.com/microsoft-365/blog/2014/01/31/update-on-infopath-and-sharepoint-forms/).
 
 [Microsoft Forms](https://forms.office.com/) can also be used for [easily creating light-weight forms](https://support.office.com/forms). Like Power Apps, it's possible to [embed a Microsoft Form in a page](https://support.office.com/article/d4b4d3ce-7860-41e4-8a98-76380efe7256) using the Microsoft Forms web part.
 

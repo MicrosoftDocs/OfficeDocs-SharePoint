@@ -105,7 +105,7 @@ To monitor and observe activity in your Microsoft 365 subscription:
     
 - Use Azure Active Directory identity protection. This applies machine learning to detect suspicious account behavior, for example, simultaneous sign-ins from the same user in different parts of the world. You can configure identity protection to take action to block these sign-ins. For more info, see [Azure Active Directory Identity Protection](/azure/active-directory/identity-protection/overview).
     
-- Use Secure Score to evaluate the security profile of your subscription against a known good baseline, and identify opportunities to increase protection. For more info, see [Introducing the Microsoft 365 Secure Score](/office365/securitycompliance/office-365-secure-score).
+- Use Secure Score to evaluate the security profile of your subscription against a known good baseline, and identify opportunities to increase protection. For more info, see [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new?view=o365-worldwide).
     
 ## Audited and compliant
  

@@ -39,9 +39,8 @@ Content is migrated to SharePoint, however functionality tied to full trust code
 
 Determine the various reasons full trust code was used in your on premises environment. Build out a plan to replace the key business scenarios with SharePoint functionality. It may be necessary to build customizations or leverage add-ins to cover all scenarios.
   
-If you find there is not an equivalent solution provided in SharePoint, you may want to look into customizing SharePoint by following the Microsoft 365 patterns and practices documentation.
-  
-https://msdn.microsoft.com/pnp_articles/office-365-development-patterns-and-practices-solution-guidance
+
+If you find there is not an equivalent solution provided in SharePoint, you may want to look into customizing SharePoint by following the [Microsoft 365 patterns and practices documentation](/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance).
   
 ## Post-migration
 
