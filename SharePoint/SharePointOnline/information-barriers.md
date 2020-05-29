@@ -80,7 +80,7 @@ An error will appear if you attempt to associate a segment that isn't compatible
 > To remove a segment, use the -RemoveInformationSegment parameter.
 
 > [!NOTE]
-> When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site. SharePoint admins can't change the segments associated with a site when the site is connected to a team.
+> When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site. SharePoint admins can't change the segments associated with a site when the site is connected to a team. [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams)
 
 ## View the segments associated with a site
 
@@ -117,22 +117,5 @@ If an information barriers policy administrator changes an existing policy, the 
 
 ## Known issues
 
-1.	Multi-geo tenant (provide link aka.ms/sharepointmultigeo)
-
-a.	Site geo-move of a segment associated site is currently not supported. 
-b.	If your tenant admin needs to geo-move a site, we recommend you to first geo-move the site and then associate segment to it. 
-
-2.	Open SharePoint Site experience: 
-
-More Information: 
-•	To learn more about information barriers, see Information barriers.
-•	To set up information barrier policies, see Define policies for information barriers.
-•	To edit or remove information barrier policies, see Edit (or remove) information barrier policies.
-•	Info barriers in Teams https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams 
-•	Teams and SharePoint site connected to it https://docs.microsoft.com/en-us/microsoftteams/information-barriers-in-teams#teams-policies-and-sharepoint-sites
-
-
-
-
-
+- For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a site that has associated segments isn't supported. Remove any associated segments, move the site, and then reassociate the segments. 
 
