@@ -38,7 +38,7 @@ A Term Store admin can do these tasks:
 > [!IMPORTANT]
 >  You must be a Term Store admin to designate additional Term Store admins. 
   
-## Add Term Store admin
+## Add Term Store admins
   
 1. [Open the Term Store Management Tool](open-term-store-management-tool.md).
     
@@ -66,7 +66,7 @@ To add a Group Manager:
     
 3. In the tree view pane on the left, select the Group for which you want to add a Group Manager. 
     
-4. From the **People** page, select **Edit**. The **Edit name and description** panel appears. Add a term group name and description to help users understand the purpose of this term group. Select **Save.**
+4. From the **People** page, select **Edit**. The **Edit name and description** panel appears. Add a term group name and description to help users understand the purpose of this term group. Select **Save**.
 
 4.  For **Group Managers**, to add people who can create new term groups, set and assign users to the group manager and contributor role, select **Edit**. The **Edit admins** panel appears. Enter the names or email addresses of the people who you want to add as Group Managers. Select **Save**.
     
@@ -87,7 +87,7 @@ You must be either a Term Store admin or a Group Manager of a specific group to 
     
 3. In the tree view pane on the left, select the Group to which you want to add a Contributor. 
     
-4. For **Contributors**, set and assign users to the group manager and contributor role, select **Edit**. The **Edit contribtors** panel appears. Enter the names or email addresses of the people who you want to add as Contributors. Select **Save**. 
+4. For **Contributors**, set and assign users to the group manager and contributor role, select **Edit**. The **Edit contributors** panel appears. Enter the names or email addresses of the people who you want to add as Contributors. Select **Save**. 
 
     
 ## Managed metadata roles

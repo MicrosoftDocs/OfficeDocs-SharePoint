@@ -44,11 +44,11 @@ To create a term in a term set, follow these steps.
     
 5. To edit the term **name** panel, specify the following info about the new term: 
     
-    - Under the **General** tab, to add languages, translations, and synonyms, select **Add**. The **Add translation and synonyms** panel appears. Select your language, translation, description, and add synonyms. Select **Save.**.
+    - Under the **General** tab, to add languages, translations, and synonyms, select **Add**. The **Add translation and synonyms** panel appears. Select your language, translation, description, and add synonyms. Select **Save**.
 
-    - Under the **Usage settings** tab, to make the term available to the users and content editors of sites consuming this term set, select **Edit**. The **Available for tagging** panel appears. By default, the term is enabled for tagging. To disable, select the **Enable** checkbox. Select **Save.**.
+    - Under the **Usage settings** tab, to make the term available to the users and content editors of sites consuming this term set, select **Edit**. The **Available for tagging** panel appears. By default, the term is enabled for tagging. To disable, select the **Enable** checkbox. Select **Save**.
 
-    - Under the **Advanced** tab, to use shared or local custom properties to store additional data about a term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save.**. 
+    - Under the **Advanced** tab, to use shared or local custom properties to store additional data about a term sets, select **Edit**. The **Edit shared custom properties** panel appears. Add property names and values. Select **Save**. 
 
   
 ## Take another action with terms
@@ -81,14 +81,14 @@ To take any of the following actions, first [Open the Term Store Management Tool
 ### Delete term
 <a name="__delete_a_term"> </a>
 
-1. Select **Delete term**. A warning dialog box appears stating *If you delete this term, any terms below it will also be deleted. Terms that are shared with other term sets will be placed in the Orphaned terms term set under System.* 
+1. Select **Delete term**. A warning dialog box appears stating *If you delete this term, any terms below it will also be deleted. Terms that are shared with other term sets will be placed in the Orphaned terms term set under System*. 
     
 2. Select **Delete**.
     
 ### Pin term
 <a name="__pin_term_to"> </a>
 
-1. Select **Pin term**. The **Pint term to** panel appears.
+1. Select **Pin term**. The **Pin term to** panel appears.
 
 2. Select the target term set or term where you want to pin the term. 
     
@@ -122,4 +122,4 @@ Merging this term with another will collapse its synonyms, translations and cust
 ### Deprecate term
 <a name="__deprecate_a_term"> </a>
 
-- Select **Deprecate Term**. This action makes any instances of this term in any term set to which it belongs unavailable for tagging. Child terms of the term are not deprecated. 
+- Select **Deprecate term**. This action makes any instances of this term in any term set to which it belongs unavailable for tagging. Child terms of the term are not deprecated. 
