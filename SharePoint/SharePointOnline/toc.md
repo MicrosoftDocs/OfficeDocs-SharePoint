@@ -131,7 +131,7 @@
 #### [Make External List](make-external-list.md)
 ### [Managed metadata]()
 #### [Introduction](managed-metadata.md)
-#### [Open the Term Store management tool](open-term-store-management-tool.md)
+#### [Open the Term Store Management Tool](open-term-store-management-tool.md)
 #### [Set up new group for term sets](set-up-new-group-for-term-sets.md)
 #### [Create and manage terms](create-and-manage-terms.md)
 #### [Set up new term set](set-up-new-term-set.md)
