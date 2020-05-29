@@ -87,6 +87,12 @@
             "SharePointServer/search/*.md": "https://sharepoint.uservoice.com/forums/330321-sharepoint-search" },
         "searchScope": { 
             "SharePointOnline/*.md": ["SharePoint Online"] },
+        "feedback_system": {
+            "SharePointServer/*.md": "None" 
+            },
+        "hideEdit": {
+            "SharePointServer/*.md": true 
+            }            
         "titleSuffix": {
             "SharePointServer/*.md": "SharePoint Server",
             "SharePointOnline/*.md": "SharePoint Online"
