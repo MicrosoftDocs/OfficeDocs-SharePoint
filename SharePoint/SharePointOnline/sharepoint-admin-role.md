@@ -68,5 +68,5 @@ Here are some of the key tasks users can do when they are assigned to the ShareP
 
 [About Microsoft 365 admin roles](/office365/admin/add-users/about-admin-roles)
   
-[Getting started with SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+[Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 

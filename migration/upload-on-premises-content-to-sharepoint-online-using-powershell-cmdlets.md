@@ -39,7 +39,7 @@ SharePoint Migration PowerShell cmdlets are designed to move on-premises content
   
 Follow these steps to use SharePoint Migration powershell to upload your on-premises data into SharePoint:
   
-[Step 1: Install the SharePoint Management Shell](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md#Step1InstallShell).
+[Step 1: Install the SharePoint Online Management Shell](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md#Step1InstallShell).
   
 [Step 2: Setup your working directory](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md#Step2Setupworkingdir).
   
@@ -66,18 +66,18 @@ Follow these steps to use SharePoint Migration powershell to upload your on-prem
 
 - Provision your Microsoft 365 with either your existing active directory or one of the other options for adding accounts to Microsoft 365. See [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Microsoft 365 Apps for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
     
-- Install the SharePoint Management Shell and set up your working directory.
+- Install the SharePoint Online Management Shell and set up your working directory.
     
-## Step 1: Install the SharePoint Management Shell
+## Step 1: Install the SharePoint Online Management Shell
 <a name="Step1InstallShell"> </a>
 
-For the first step, install the SharePoint Management shell.
+For the first step, install the SharePoint Online Management shell.
   
-1. Uninstall all previous versions of the SharePoint Management Shell.
+1. Uninstall all previous versions of the SharePoint Online Management Shell.
     
-2. Install from here: [SharePoint Management Shell](https://go.microsoft.com/fwlink/?LinkID=617148&amp;clcid=0x409).
+2. Install from here: [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?LinkID=617148&amp;clcid=0x409).
     
-3. Open **SharePoint Management Shell**, and select **Run as Administrator**.
+3. Open **SharePoint Online Management Shell**, and select **Run as Administrator**.
     
 [Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
   
@@ -97,7 +97,7 @@ Before you start the migration process, you need to set up your working director
 
 In this step, you must identify your locations and credentials, including the location of your source files, target files and web location.
   
-On your local computer, open the SharePoint Management Shell. Run the following commands substituting your values:
+On your local computer, open the SharePoint Online Management Shell. Run the following commands substituting your values:
 
 ```Powershell
 $cred = (Get-Credential admin@contoso.com)

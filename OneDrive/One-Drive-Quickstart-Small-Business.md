@@ -20,7 +20,7 @@ ms.custom:
 description: "This article is a quickstart guide on how to get started with and set up OneDrive for small businesses."
 ---
 
-# Microsoft OneDrive QuickStart guide for small businesses
+# OneDrive QuickStart guide for small businesses
 
 Microsoft OneDrive is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling organizations to use OneDrive in whatever way benefits them the most. This guide focuses on the deployment and configuration options that make the most sense for small businesses looking to use OneDrive. From there, these organizations can select whatever additional management capabilities they require. For the full deployment guide, which contains other methods of deploying, configuring, and managing OneDrive, see [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 

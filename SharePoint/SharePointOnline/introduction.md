@@ -107,6 +107,6 @@ SharePoint provides a wide range of options for customization. We recommend usin
 
 [SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
-[Getting started with the SharePoint Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+[Getting started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 [Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search)
