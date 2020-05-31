@@ -20,7 +20,7 @@ search.appverid:
 description: "This article is a guide for enterprises on using OneDrive. Learn about features, planning, configuration, deployment, and management of OneDrive."
 ---
 
-# Microsoft OneDrive guide for enterprises
+# OneDrive guide for enterprises
 
 With Microsoft OneDrive, you can easily and securely store and access your files from all your devices. You can work with others regardless of whether they're inside or outside your organization and terminate that sharing whenever you want. OneDrive helps protect your work through advanced encryption while the data is in transit and at rest in data centers. OneDrive also helps ensure that users adhere to your most rigorous compliance standards by enabling them to choose where their data lives and providing detailed reporting of how that data has changed and been accessed. OneDrive connects you to your personal and shared files in Microsoft Microsoft 365, enhancing collaboration capabilities within Microsoft 365 apps. With OneDrive on the web, desktop, or mobile, you can access all your personal files plus the files shared with you from other people or teams, including files from Microsoft Teams and SharePoint.
 
@@ -393,7 +393,7 @@ If you already have the OneDrive client installed on Windows devices, start by d
 
 ### Upgrade from the Groove sync app to the OneDrive sync app
 
-If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed info about this process (and caveats), see [Transition from the previous OneDrive sync app](transition-from-previous-sync-client.md).
+If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed info about this process (and caveats), see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md).
 
 ### Sync app update process
 

@@ -39,7 +39,7 @@ You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive 
 The new OneDrive sync app can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync app, see [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
   
 > [!IMPORTANT]
-> If your users are currently using the OneDrive sync app (Groove.exe), and you want to move them to the OneDrive sync app, see [Transition from the previous OneDrive sync app](transition-from-previous-sync-client.md) before proceeding.  
+> If your users are currently using the OneDrive sync app (Groove.exe), and you want to move them to the OneDrive sync app, see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md) before proceeding.  
 
 ### Make sure that WNS is set up correctly
 

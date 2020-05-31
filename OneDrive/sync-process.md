@@ -24,7 +24,7 @@ description: "Learn how the OneDrive sync app works. Understand how information 
 
 # How sync works
 
-This article gives you an overview of how sync works in OneDrive. It helps you understand the logic behind how information flows between applications, how the technologies work together, and how data is secured.
+This article gives you an overview of how sync works in Microsoft OneDrive. It helps you understand the logic behind how information flows between applications, how the technologies work together, and how data is secured.
 
 [Download the PDF](https://go.microsoft.com/fwlink/p/?LinkId=829044)
 
@@ -48,7 +48,7 @@ Here's how it works:
 
 - The changes are processed in the order they are received.
 
-The previous OneDrive sync app (Groove.exe) used a polling service to check for changes on a predetermined schedule. Polling can lead to system lag and slowness because it requires a lot of computing power. Using WNS is a significant enhancement.
+The previous OneDrive for Business sync app (Groove.exe) used a polling service to check for changes on a predetermined schedule. Polling can lead to system lag and slowness because it requires a lot of computing power. Using WNS is a significant enhancement.
   
 
 ## Authentication protocols
@@ -56,7 +56,7 @@ The previous OneDrive sync app (Groove.exe) used a polling service to check for 
 The authentication protocols depend on which version of SharePoint you are using.
 
  - SharePoint Server 2019 uses NTLM.
- - SharePoint uses FedAuth.
+ - SharePoint in Microsoft 365 uses FedAuth.
 
 ## Syncing different file types
 
@@ -82,5 +82,5 @@ File chunks are stored in multiple containers in Azure, each of which is given a
 
 ## Related topic
 
-- [SharePoint Authentication](https://docs.microsoft.com/sharepoint/authentication)
+- [SharePoint Authentication in Microsoft 365](/sharepoint/authentication)
 
