@@ -204,7 +204,7 @@ One of the largest tasks in creating a new intranet site is migrating your exist
 
 Look for opportunities to eliminate prior versions of documents that you no longer need. If you migrate files ending .v1, .v2, and so on, you will create confusion for your users who won’t be able to rely on search to consistently find the latest version of documents.
 
-Train your users to take advantage of SharePoint’s automated versioning — and remove version IDs and dates from filenames wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
+Train your users to take advantage of SharePoint’s automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
 If you're migrating files from SharePoint Server on-premises or file shares, you can use the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online).
 
