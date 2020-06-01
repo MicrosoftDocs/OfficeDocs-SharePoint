@@ -1,13 +1,11 @@
 ---
 title: "Set up a new term set"
-ms.reviewer: vrchowdh
+ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 5/28/2020
-audience: End User
-f1.keywords:
-- NOCSH
+audience: Admin
+f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
