@@ -1,3 +1,17 @@
+---
+title: Mover Migration Tools overview and planning
+author: JoanneHendrickson
+manager: pamgreen
+audience: ITPro
+ms.topic: article
+ms.service: sharepoint-online
+localization_priority: Priority
+ms.collection: 
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
+description: "Overview and planning to the Mover Migration tools"
+
 Amazon S3
 Authorizing Amazon S3
 Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 account as a Connector, follow these simple steps:
