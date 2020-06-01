@@ -14,13 +14,13 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 0d84b4ce-a1d4-4e58-9ff0-eda67f96d332
-description: "Admins control the visibility of form processing in SharePoint document libaries through the admin center."
+description: "Admins control the visibility of form processing in SharePoint document libraries through the admin center."
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Manage automated form processing
 
-Admins can show or hide [automated form processing options in SharePoint document libaries](https://support.office.com/article/form-processing-in-sharepoint-cecf236f-224d-4630-9082-b5c79e0cd59a) through the admin center. 
+Admins can show or hide [automated form processing options in SharePoint document libraries](https://support.office.com/article/form-processing-in-sharepoint-cecf236f-224d-4630-9082-b5c79e0cd59a) through the admin center. 
 
 * During private preview, the menu options will either show in all libraries or none.
 * The options are shown in the **Automate** menu under the heading **[AI Builder](https://docs.microsoft.com/ai-builder/overview)**.
