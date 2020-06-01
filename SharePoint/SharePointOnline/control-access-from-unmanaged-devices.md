@@ -106,7 +106,7 @@ To block or limit access to specific sites, you must set the organization-wide p
     
 2. Under **Users and groups**, select whether you want the policy to apply to all users or only specific security groups.
     
-3. Under **Cloud apps**, select **Microsoft 365 SharePoint**.
+3. Under **Cloud apps**, select **Office 365 SharePoint Online**.
     
 4. Under **Conditions**, select **Client apps**, then select both **Mobile apps and desktop clients** and **Browser**.
     

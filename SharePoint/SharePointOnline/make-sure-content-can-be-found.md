@@ -20,7 +20,7 @@ description: "The content must be crawled and added to the search index for your
 
 # Make sure content can be found
 
-The content must be crawled and added to the search index for your users to find what they're searching for in SharePoint. SharePoint has both a classic and a modern search experience, both use the same search index.  [Learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md)
+The content must be crawled and added to the search index for your users to find what they're searching for in Microsoft SharePoint. SharePoint in Microsoft 365 has both a classic and a modern search experience, both use the same search index. [Learn about the differences between the classic and modern search experiences in SharePoint](differences-classic-modern-search.md)
 
   
  ## Make site content searchable
