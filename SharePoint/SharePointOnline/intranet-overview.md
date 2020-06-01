@@ -186,7 +186,7 @@ Depending on their background, the people in your organization may need some hel
 
 ## Business owners and site owners
 
-As a business owner, you may be responsible for intranet content for a specific area of your organization such as HR or operations. You may also be the site owner, the person who has the permissions in SharePoint to create and maintain the content and experiences on the site. Before you start configuring individual sites, for some ideas, look over the [SharePoint look book](https://aka.ms/sharepointlookbook). As part of your overall governance plan, you may decide that sites need to follow consistent patterns to ensure that readers to not have to spend too much time orienting themselves as the go from site to site or topic to topic in the intranet.
+As a business owner, you may be responsible for intranet content for a specific area of your organization such as HR or operations. You may also be the site owner, the person who has the permissions in SharePoint to create and maintain the content and experiences on the site. Before you start configuring individual sites, for some ideas, look over the [SharePoint look book](https://aka.ms/sharepointlookbook). As part of your overall governance plan, you may decide that sites need to follow consistent patterns to ensure that readers to not have to spend too much time orienting themselves as they go from site to site or topic to topic in the intranet.
 
 Keep in mind these key success factors as you plan and implement your intranet:
 
@@ -220,7 +220,7 @@ SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience
 
 *Start by* — Determining who needs access, who should not have access, and how you will grant access requests.
 
-*You'll know you're done when* — All site owners and user have access to the content they need, while securing confidential content when appropriate.
+*You'll know you're done when* - All site owners and users have access to the content they need, while securing confidential content when appropriate.
 
 #### Design the intranet portal page
 
@@ -268,7 +268,7 @@ Dynamically display content from a document library, a site, a site collection, 
 
 Create and curate news relevant to your audience using the [News web part](https://support.office.com/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165). Quickly create eye-catching posts like announcements, people news, status updates, and more that can include graphics and rich formatting.
 
-Customize the way your users view content and news by using [audience targeting](https://support.office.com/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293). AAudience targeting enables specific content to be prioritized to specific audiences on the SharePoint start page, news on the mobile app, and in News web part when audience targeting is enabled.
+Customize the way your users view content and news by using [audience targeting](https://support.office.com/article/target-files-news-and-pages-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293). Audience targeting enables specific content to be prioritized to specific audiences on the SharePoint start page, news on the mobile app, and in News web part when audience targeting is enabled.
 
 Enable users to work on any device. When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. [Get the SharePoint mobile app](https://products.office.com/sharepoint/mobile-app?rtc=1).
 
@@ -278,7 +278,7 @@ Enable users to work on any device. When users keep files on their local device 
 
 #### Build culture and community
 
-Help work groups connect and engage across your organization using Yammer. [Learn more about the Yammer Highlights and Yammer Conversations web parts](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da). Sometimes content needs to be delivered through video — like when organization-wide announcements are made or when senior leaders host a live event or when you want to provide a examples on pages that provide instructions. [Microsoft Stream](https://support.office.com/article/Microsoft-Stream-Your-company-s-video-portal-c3240bd5-5f80-4fd0-a37d-7a3275605f3a) is your organization's own video site. To display video content, use the [Stream web part](https://support.office.com/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B) on your site.
+Help work groups connect and engage across your organization using Yammer. [Learn more about the Yammer Highlights and Yammer Conversations web parts](https://support.office.com/article/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da). Sometimes content needs to be delivered through video - like when organization-wide announcements are made or when senior leaders host a live event or when you want to provide examples on pages that provide instructions. [Microsoft Stream](https://support.office.com/article/Microsoft-Stream-Your-company-s-video-portal-c3240bd5-5f80-4fd0-a37d-7a3275605f3a) is your organization's own video site. To display video content, use the [Stream web part](https://support.office.com/article/Use-the-Stream-web-part-B97FA87C-1337-4271-A059-17F0D2B26E8B) on your site.
 
 *Start by* — Finding news, announcements, and events to amplify on your site.
 
