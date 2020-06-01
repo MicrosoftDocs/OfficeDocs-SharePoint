@@ -32,7 +32,7 @@ This article covers all the features on the classic site collections page and wh
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) From the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **Create**. To create a classic site, select **Other options**. |
+|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png)<br/> From the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **Create**. To create a classic site, select **Other options**. |
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -54,7 +54,7 @@ On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManag
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![Site collections properties](media/site-collection-properties.png) |![Communication site](media/communication-site.png) The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.|
+|![Site collections properties](media/site-collection-properties.png) |![Communication site](media/communication-site.png)<br/> The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.|
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManag
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![Manage administrators](media/manage-administrators.png) |![Manage admins](media/manage-admins.png) For any sites that aren’t connected to an Microsoft 365 group, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Permissions**, and then select **Manage admins**.|
+|![Manage administrators](media/manage-administrators.png) |![Manage admins](media/manage-admins.png)<br/> For any sites that aren’t connected to an Microsoft 365 group, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Permissions**, and then select **Manage admins**.|
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -98,7 +98,7 @@ These options appear if you use manual site storage limits in your organization.
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![Set storage quota](media/set-storage-quota.png)|![Edit storage limit](media/edit-storage-limit.png) On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and on the command bar, select **Storage**.|
+|![Set storage quota](media/set-storage-quota.png)|![Edit storage limit](media/edit-storage-limit.png)<br/> On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and on the command bar, select **Storage**.|
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -130,7 +130,7 @@ These features have not been in use for more than a year.
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![Recycle bin](media/recycle-bin.png) |![Deleted sites](media/deleted-sites.png)In the new SharePoint admin center, go to the [Deleted sites page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true).|
+|![Recycle bin](media/recycle-bin.png) |![Deleted sites](media/deleted-sites.png)<br/> In the new SharePoint admin center, go to the [Deleted sites page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true).|
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -140,7 +140,7 @@ These features have not been in use for more than a year.
 
 ## Search by URL
 
-On th [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), use the Search box. As with the classic SharePoint admin center, you can also sort by URL.
+On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), use the Search box. As with the classic SharePoint admin center, you can also sort by URL.
 
 ## Available storage and storage limit bar
 
