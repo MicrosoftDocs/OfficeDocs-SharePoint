@@ -27,6 +27,8 @@ If you're a global or SharePoint admin in Microsoft 365, you can access the Term
 
     ![Screenshot of the Term Store Management Tool](media/term-store-management-tool.png)
 
+## Open term store management for a site
+
 If you need to edit the local taxonomy for a site, you can open the terms tore management tool from the site.
   
 1. For a site that you own, go to the **Site Settings** page.
