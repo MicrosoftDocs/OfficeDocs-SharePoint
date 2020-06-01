@@ -1,5 +1,5 @@
 ---
-title: Mover Migration Tools overview and planning
+title: Setting up your migration from NetDocuments to Office 365
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,8 +10,8 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Overview and planning to the Mover Migration tools"
-
+description: "Setting up your migration from NetDocuments to Office 365"
+---
 NetDocuments
 Authorizing NetDocuments
 Authorizing NetDocuments is straightforward. To authorize or add a NetDocuments account as a Connector, follow these simple steps:

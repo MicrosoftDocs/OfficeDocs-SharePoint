@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: "Overview and planning to the Mover Migration tools"
-
+---
 WebDAV
 Authorizing WebDAV
 Authorizing WebDAV is a fairly simple process - despite being an older protocol, many web applications still use it. This means you can connect to some web apps we don't formally have Connectors for via this method!

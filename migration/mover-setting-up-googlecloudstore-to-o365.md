@@ -1,5 +1,5 @@
 ---
-title: Mover Migration Tools overview and planning
+title: Setting up your migration from Google Cloud Store to Office 365
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,10 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Overview and planning to the Mover Migration tools"
+description: "Setting up your migration from Google Cloud Store to Office 365"
+---
+#  Google Cloud Storage
 
-oogle Cloud Storage
 Authorizing
 Authorizing Google Cloud Storage is straightforward. To authorize or add a Google Cloud Storage account as a Connector, follow these simple steps:
 
