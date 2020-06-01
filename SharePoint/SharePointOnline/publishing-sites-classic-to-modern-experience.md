@@ -66,7 +66,7 @@ This structure is no longer hierarchical in the technical sense. Instead, it is 
 
 -   Search across all associated sites.
 
--   Easily aggregate news and other types of content across all sites..
+-   Easily aggregate news and other types of content across all sites.
 
 The best part about hubs is that they are so flexible. As your organization changes, your intranet organization can change just as quickly, just by associating or disassociating a site.
 
@@ -80,7 +80,7 @@ Coming soon are multiple options for headers and footers on communication sites,
 
 ### Classic site templates and modern site designs
 
-[*SharePoint Online handles branding differently*](/sharepoint/dev/transform/modernize-branding) for classic site templates, like the publishing site. Instead of a site template, communication sites have three out-of-the-box layout designs: Topic, Showcase, and one open layout: Blank.
+[*SharePoint Online handles branding differently*](/sharepoint/dev/transform/modernize-branding) for classic site templates, like the publishing site. Instead of a site template, communication sites have three out-of-the-box layout designs: *Topic*, *Showcase*, and one open layout: *Blank*.
 
 When you [create a communication site in SharePoint Online](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb), you can start with a blank site or choose one of the other site designs, each of which comes with a default set of [web parts](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0). The options available are:
 
@@ -108,7 +108,7 @@ Modern pages provide a fast, easy way to build responsive pages using the functi
 
 *Modern web part page*:
 
-![Modern page](media/publishing-sites-classic-to-modern-experience_image5.png)
+![Modern web part page](media/publishing-sites-classic-to-modern-experience_image5.png)
 
 Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts or up to three regular columns. You can add a variety of web parts to the page, and easily move them around on the page to get the look you want. Check out this short video to see how to create, layout, and publish a page:
 
@@ -147,13 +147,13 @@ Modern pages use modern web parts. Modern web parts are designed to be easier to
 
 To learn about all of the modern web parts, see [Using web parts on SharePoint Online pages](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0). To learn about modern web parts that have similar purposes to classic web parts, see [Classic and modern web part experiences](https://support.office.com/article/3fdae6c3-8fc1-49ab-8708-8c104b882e64).
 
-For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to third-party solutions and APIs secured by Azure Active Directory](/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, you can find design guidance and standards for web parts at [Designing great SharePoint experiences](/sharepoint/dev/design/design-guidance-overview).
+For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to third-party solutions and APIs secured by Azure Active Directory](/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, find design guidance and standards for web parts at [Designing great SharePoint experiences](/sharepoint/dev/design/design-guidance-overview).
 
 ### Web parts unique to publishing sites
 
-Publishing sites include a variety of web parts that enable authors to insert video, rich text, forms, and dynamic content onto a site page. Three web parts that have been unique to publishing sites are the Content Query web part to show dynamic content,the Summary links web part, and the Table of contents web part to display links to important content. The following are a selection of modern web parts that help fulfill the same purposes as these web parts.
+Publishing sites include a variety of web parts that enable authors to insert video, rich text, forms, and dynamic content onto a site page. Three web parts that have been unique to publishing sites are the *Content query* web part to show dynamic content, the *Summary links* web part, and the *Table of contents* web part to display links to important content. The following are a selection of modern web parts that help fulfill the same purposes as these web parts.
 
-**Content query web part**: The [Highlighted content](https://support.office.com/article/e34199b0-ff1a-47fb-8f4d-dbcaed329efd) web part serves a similar purpose as the Content Query web part. It dynamically displays content from a document library, a site, a site collection, or multiple sites. With the Highlighted content web part, many of the advanced and confusing search/query options of the Content Query web part have been replaced with streamlined query options. However, unlike its classic counterparts, custom display templates are not allowed.
+**Content query**: The [Highlighted content](https://support.office.com/article/e34199b0-ff1a-47fb-8f4d-dbcaed329efd) web part serves a similar purpose as the Content Query web part. It dynamically displays content from a document library, a site, a site collection, or multiple sites. With the Highlighted content web part, many of the advanced and confusing search/query options of the Content Query web part have been replaced with streamlined query options. However, unlike its classic counterparts, custom display templates are not allowed.
 
 **Summary links, Table of contents**: There is not a 1:1 mapping of these web parts to modern web parts. However, there are several modern web parts that can fulfill the same purpose, which is to help your users navigate from a page level to important content. These are:
 
@@ -165,11 +165,11 @@ Publishing sites include a variety of web parts that enable authors to insert vi
 >
 > The Link web part shows one complete URL link and adds the ability to show or hide a preview pane with the link target.
 >
-> [Hero web part](https://support.office.com/article/D57F449B-19A0-4B0D-8CE3-BE5866430645)
+> [Hero](https://support.office.com/article/D57F449B-19A0-4B0D-8CE3-BE5866430645)
 >
 > The Hero web part is, by default, included on both the Topic and Showcase communication site templates. It is an attractive way to bring focus and visual interest to your page. You can display up to five items in the Hero web part and use compelling images, text, and links to draw attention to each. You can use the Hero web part at the top of a page or anywhere in the page as well. In general, you don’t want to use more than one hero web part on the same page. And, if you have more than 5 critical items to emphasize, consider using a different method to feature this content, such as the Quick links web part in a grid view.
 >
-> [Text web part](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801)
+> [Text](https://support.office.com/article/729c0aa1-bc0d-41e3-9cde-c60533f2c801)
 >
 > In the Text web part, you can add links within your content using the toolbar. Additionally, with the Text web part you can create a link that opens in a new tab.
 
