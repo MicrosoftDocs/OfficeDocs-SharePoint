@@ -82,7 +82,7 @@ On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManag
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![Sharing classic](media/sharing-classic.png) |![Sharing modern](media/sharing-modern.png)On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Sharing**.|
+|![Sharing classic](media/sharing-classic.png) |![Sharing modern](media/sharing-modern.png)<br/>On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Sharing**.|
 
 |**Classic**|**New**|
 |:-----|:-----|
