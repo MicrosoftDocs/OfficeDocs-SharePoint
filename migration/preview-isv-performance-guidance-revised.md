@@ -27,7 +27,7 @@ Inherited permissions are set as the default from the root site collection level
 
 Each time you break inheritance by granting access to a new user account or group at any level in a site, even on a single item, you are creating a new unique security “scope” ID and it is counted as a unique permission towards the total limit. The number of unique security scopes which can be set for a library (or list) cannot exceed 50,000.  
 
-Example:
+![Site hierarchy](media/hierarchy-perms.png)
  
 When the number of unique security scopes exceeds the value of the list view threshold, added SQL server round trips take place which can affect performance. 
 When migrating, we recommend that you have less than 5,000 unique scopes per library. 
