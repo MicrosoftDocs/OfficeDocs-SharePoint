@@ -73,25 +73,43 @@ Enabling site navigation means you can use the terms in this term set for site n
 
 3. Click **Save.**
 
-    3. Enabling either using the term set for site or faceted navigation opens two more options:
-    
-      1. For **Custom target page**, select **Edit**. The **Edit term set target page** panel appears. Move the toggle switch to enable **Use a custom target page**. Select **Select**, and then select **Save**. The target page appears when users navigate to a friendly URL in this term set. You can choose a custom target page if you want to display a specific page. Custom target pages that you set for individual terms will override this setting.
+Enabling either using the term set for site or faceted navigation enables options to set a custom target page and a custom catalog item page.
 
-      2. For **Custom catalog item page**, select **Edit**. The **Edit term set catalog item page** panel appears. Move the toggle switch to enable **Use a custom catalog item page**. Select **Select** and then select **Save**. If terms in this term set are used as catalog categories, you can select the page used to render catalog data for items under those categories.
+You can choose a custom target page if you want to display a specific page. Custom target pages that you set for individual terms will override this setting.
+
+To set a custom target page
+
+1. For **Custom target page**, select **Edit**. The **Edit term set target page** panel appears.
+2. Move the toggle switch to enable **Use a custom target page**. 
+3. Click **Select**, and then select **Save**. The target page appears when users navigate to a friendly URL in this term set. 
+
+If terms in this term set are used as catalog categories, you can select the page used to render catalog data for items under those categories.
+
+To set a custom catalog item page
+
+1. For **Custom catalog item page**, select **Edit**. The **Edit term set catalog item page** panel appears.
+2. Move the toggle switch to enable **Use a custom catalog item page**.
+3. Click **Select** and then select **Save**.
 
 **Advanced tab**
 
-9.  Under the **Advanced** tab, for **Translation**, select **Manage**. The **Translation** panel appears.
+You can use machine translation to translate your terms, or you can export and import XLIFF files. You must repeat the translation each time you update the term set.
 
-      1. To use machine translation to translate this term set into the working languages for the term store, select **Start**. You must repeat the translation each time you update the term set. The **Machine translation** panel appears. For the terms you want to translate, select either **All terms**, or **Only the terms updated since the last translation**. From both the **Translate from** and **Translate to** dropdowns, select a language. Select **Translate.**
-      
-      2. Use manual translation for applying a custom translation file as per your requirement to configure the term set. To export this term set to XLIFF, select **Export**. To import an XLIFF document to translate this term set, select **Import**.
+To configure translations
 
-      3. Select **Close.**
+1. Under the **Advanced** tab, for **Translation**, select **Manage**. The **Translation** panel appears.
+2. To use machine translation to translate this term set into the working languages for the term store, select **Start**. The **Machine translation** panel appears.
+3. For the terms you want to translate, select either **All terms**, or **Only the terms updated since the last translation**.
+4. From both the **Translate from** and **Translate to** dropdowns, select a language.
+5. Click **Translate.**
 
-    For **Custom properties**, select **Edit**. The **Edit Custom properties** panel appears. Use custom properties to store additional data about a term set.
+You can use custom properties to store additional data about a term set.
 
-      1. Enter a **Property name** and **Value**, and then select **Add**. Select **Save.**
+To edit custom properties
+
+1. For **Custom properties**, select **Edit**. The **Edit Custom properties** panel appears. 
+2. Enter a **Property name** and **Value**, and then select **Add**.\
+3. Click **Save.**
     
     
 To learn how to add a term to the new term set, see [Create and manage terms in a term set](create-and-manage-terms.md).
