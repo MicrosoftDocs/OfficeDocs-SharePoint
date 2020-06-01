@@ -42,7 +42,7 @@ Use Intune to deploy the mobile apps for iOS and Android and to deploy the new O
 4. Under **Search the App Store**, select **Select app**.
 5. In the search box, to find the OneDrive app, enter **Microsoft OneDrive**, as follows.
 
-    ![](media/deploy-onedrive-enterprise_image1.png)
+    ![Searching the App Store for Microsoft OneDrive](media/deploy-onedrive-enterprise_image1.png)
 
 6. Select it, select **Select**, and then select **Add**.
 7. Select **Assignments** and select the group you created. For info about this, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
@@ -58,7 +58,7 @@ For more info about deploying Microsoft 365 apps to MacOS devices using Intune, 
 3. Under **App type**, select **Android**.
 4. To configure the app information, enter the required info, including **https://play.google.com/store/apps/details?id=com.microsoft.skydrive** for the Appstore URL and **Android 4.0 (Ice Cream Sandwich)** for the minimum operating system. 
 
-    ![](media/deploy-onedrive-enterprise_image2.png)
+    ![App information for the OneDrive app for Android](media/deploy-onedrive-enterprise_image2.png)
 
 5. Select **OK**, and then select **Add**.
 6. Select **Assignments**, and select the group you created. For info about this, see [How to assign apps to groups with Microsoft Intune](/intune/apps-deploy/).
@@ -76,7 +76,7 @@ To use Intune to deploy OneDrive to Windows devices, follow these steps:
 4. Select **Configure App Suite**.
 5. Select **OneDrive Desktop**, and then select **OK**.
 
-    ![](media/deploy-onedrive-enterprise_image3.png)
+    ![Configuring the app suite by selecting OneDrive desktop](media/deploy-onedrive-enterprise_image3.png)
 
     > [!NOTE]
     > You aren't required to deploy the entire Microsoft 365 suite at once. If you need the OneDrive sync app only, you can select that one item.

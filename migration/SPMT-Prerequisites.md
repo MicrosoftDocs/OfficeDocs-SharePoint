@@ -29,7 +29,7 @@ description: "This article is a resource where you can find prerequisites and en
 |RAM |16 GB |
 |Local Storage|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|
-|Operating system |Windows Server 2012 R2 or Windows 10 client  <br/> .NET Framework 4.6.2 |
+|Operating system |Windows Server 2012 R2 or Windows 10 client or later  <br/> .NET Framework 4.6.2 or later |
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
 
 </br>
@@ -43,7 +43,7 @@ description: "This article is a resource where you can find prerequisites and en
 |RAM|8 GB|
 |Local Storage|Hard disk: 150 GB free space|
 |Network card|High-speed Internet connection|
-|Operating system|Windows Server 2008 R2, Windows 7 updated or better  <br/> .NET Framework 4.6.2|
+|Operating system|Windows Server 2008 R2, Windows 7 updated or better  <br/> .NET Framework 4.6.2 or later|
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration.|
 
 
