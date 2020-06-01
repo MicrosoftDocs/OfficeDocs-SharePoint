@@ -1,5 +1,5 @@
 ---
-title: Mover Migration Tools overview and planning
+title: Setting up FTP migration
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,18 +10,22 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Overview and planning to the Mover Migration tools"
+description: "Setting up FTP migration"
 ---
 
-FTP
-Authorizing FTP
+# Setting up FTP migration
+
+## Authorizing FTP
+
 Authorizing FTP is a fairly simple process - despite being a very old protocol, many web applications still use it. This means you can connect to some web apps we don't formally have Connectors for via this method!
 
 You can also connect to a regular FTP server using the app. To authorize or add an FTP server as a Connector, follow these simple steps:
 
-IMPORTANT! You will need to make sure our IP address is whitelisted on your FTP server. The IP address we use for FTP transfers is:
+>[!IMPORTANT] 
+>You will need to make sure our IP address is whitelisted on your FTP server. The IP address we use for FTP transfers is:
+>
+>- 104.198.169.166
 
-104.198.169.166
 Then:
 
 1. In the Transfer Wizard click Authorize New Connector.

@@ -19,6 +19,7 @@ description: "Setting up your migration from NetDocuments to Office 365"
 Authorizing NetDocuments is straightforward. To authorize or add a NetDocuments account as a Connector, follow these simple steps:
 
 1. In the Transfer Wizard click **Authorize New Connector**.
+
 ![Auth New Connector](media/clear_auth.png)
 
 2. Find NetDocuments in the Connector list.

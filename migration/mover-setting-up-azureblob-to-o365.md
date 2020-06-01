@@ -19,6 +19,7 @@ description: "Overview and planning to the Mover Migration tools"
 Authorizing Azure Blob Storage is straightforward. To authorize or add an Azure Blob Storage account as a Connector, follow these simple steps:
 
 1. In the Transfer Wizard click **Authorize New Connector**.
+
 ![Auth New Connector](media/clear_auth.png)
 
 2. Find Azure Blob Storage in the Connector list.
