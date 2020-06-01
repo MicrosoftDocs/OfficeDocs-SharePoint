@@ -27,7 +27,7 @@ Inherited permissions are set as the default at the root site collection level a
 
 Each time you break inheritance by granting access to a new user account or group at any level in a site, even on a single item, you are creating a new unique security “scope” ID. That scope is counted as a unique permission towards the total limit. A library (or list) cannot have greater than 50,000 unique security scopes.
 
-![Site hierarchy](media/hierarchy-perms.png)
+![Site hierarchy](images/hierarchy-perms.png)
  
 When the number of unique security scopes exceeds the value of the list view threshold, added SQL server round trips take place that can affect performance. 
 When migrating, we recommend that you have less than 5,000 unique scopes per library. 
@@ -49,7 +49,7 @@ To learn more about the service limits in SharePoint for Microsoft 365, see [Sha
 
 If your library (or list) has fewer than 100,000 items, and you have less than 50,000 unique scopes, you can migrate using the migration API and apply unique scopes to create folders with less 100K items to break inheritance as needed.
 
-## If you have folders containing more than 100,000 items
+## Folders containing more than 100,000 items
 
 If you have a folder with more than 100,000 items, we recommend one of the following approaches. Determine how many items are in your source or root folder, including lists or other object types. Scan and determine which folder structures have greater than 100,000 items.
 
@@ -62,7 +62,7 @@ Make sure that there are no more than 50,000 unique scopes in the structure: ide
 
 In this example, at the source, break up the structure into four folders, A, B, C, and D, each having less than 100,000 items. Then perform the migration. See the illustration below.
 
-![Hierarchy ABCD](media/hierarchy-abcd.png)
+![Hierarchy ABCD](images/hierarchy-abcd.png)
  
 >[!Note]
 >There are other limits that must be considered during migration. See [SharePoint Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits#items-in-lists-and-libraries) for details. 
