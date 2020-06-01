@@ -21,11 +21,8 @@ search.appverid: MET150
 
 Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
 
-There are three different categories of report:
-
-Summary reports: 
+Summary report: 
 - [Summary Report](#summary-report)
-- [Failure Summary Report](#failure-summary-report)
 
 Task level reports:
 - [Item Summary](#item-summary)
@@ -45,7 +42,7 @@ These reports can be viewed while the migration is taking place or after the job
   
  **Viewing task level reports:**
   
-1. To see the report on a task, the task name from the list. A panel will appear to the right.
+1. To see the report on a task, select the task name from the list. A panel will appear to the right.
     
 2. Select **Download task report**. The report will download after the task is complete.
     
@@ -55,64 +52,34 @@ These reports can be viewed while the migration is taking place or after the job
      
 2. An aggregate summary report will be downloaded to your computer.
     
-## Summary Report types
+## Summary Report
 
-Two types of summary reports are generated. The second type of summary report generated only if there is failures.
+The summary report is an aggregate report that lists all successfully completed, failed, and in-progress tasks.
   
-- **SummaryReport.csv.** This report contains a single row of data that gives the total picture total size, number of files migrated, duration. 
-    
-- **FailureSummary.csv.** This report is created only when failures or errors happen during the migration process. 
-    
-When assessing your migration jobs, we recommend that you first look at these summary reports. If a FailureSummary.csv file was not created, then no failures occurred during the job run.
+- **SummaryReport.csv.** This report contains a single row of data that gives the total picture; including total size, number of files migrated, duration.
+
+When assessing your migration jobs, we recommend that you first look at these summary reports. 
   
 ### Summary Report
 
 |**Column**|**Description**|
 |:-----|:-----|
-|Source  <br/> |File path or URL of the location of the data being migrated.  <br/> |
-|Destination  <br/> |The URL of the Site and library to where the data will be migrated.  <br/> |
+|Task name  <br/>|Friendly name of the migration task|
 |Status  <br/> |Status of each task (success, failure, in progress, not started)  <br/> |
-|Total bytes  <br/> |Total number of bytes scanned in source destination..  <br/> |
-|Total GB  <br/> |Total number of gigabytes scanned in source destination.  <br/> |
-|Count of files  <br/> |Total number of scanned items  <br/> |
-|Migrated bytes  <br/> |The total number of bytes of data migrated.  <br/> |
-|Migrated GB in current round  <br/> |The total size of the files migrated, expressed in gigabytes.  <br/> |
-|GB not migrated in current round  <br/> |The total size of the files not migrated, expressed in gigabytes.  <br/> |
-|Total scanned items  <br/> |Total number of files and list items, including those that will be filtered out because of settings or potential scan issues.  <br/> |
-|Total to be migrated in current round  <br/> |The total number of files that were expected to migrate excluding those filtered out based on settings or potential scan issues.  <br/> |
-|Migrated items in current round  <br/> |The total number of files migrated.  <br/> |
-|Items not migrated in current round  <br/> |Number of files that did not migrate.  <br/> |
-|Warning count in current round  <br/> |Number of warnings generated.  <br/> |
-|Start time  <br/> |The time the migration task began.  <br/> |
-|End time  <br/> |The time the migration task ended.  <br/> |
-|Duration  <br/> |Length of time in minutes that the migration task took to complete.  <br/> |
-|GB/hour  <br/> |How many GB per migrated per hour.  <br/> |
-|Round number  <br/> |The round number is the incremental number of times the report has been generated based on the multiple passes the tool made to get all the content it could into the destination.  <br/> |
-|Workflow ID  <br/> |The ID number of the migration workflow. Many tasks can be in a single workflow.  <br/> |
-|Task ID  <br/> |The individual task number.  <br/> |
-|Log Path  <br/> |The location of the log files for each task.  <br/> |
-   
-### Failure Summary Report
-
-This report is only generated if a failure occurs during the job run.
-  
-|**Column**|**Description**|
-|:-----|:-----|
 |Source  <br/> |File path or URL of the location of the data being migrated.  <br/> |
 |Destination  <br/> |The URL of the Site and library to where the data will be migrated.  <br/> |
-|File name  <br/> |Failed file or folder name or list items  <br/> |
-|Extension  <br/> |If it is a folder, then the extension is empty, else if it is a file, then extension is file extension.  <br/> |
-|File size  <br/> |Failed file or folder size or item size  <br/> |
-|Content type  <br/> |Folder or file.  <br/> |
-|Status  <br/> |Status of the file or folder that shows as "Failed" in this report.  <br/> |
-|Result category  <br/> |Failed reason category based on the job process.  <br/> |
-|Message  <br/> |Failed reason detail description.  <br/> |
-|Error code  <br/> |Failed reason errorcode.  <br/> |
-|Package number  <br/> |The package number for the package includes the failed item .  <br/> |
-|Migration job ID  <br/> |The job id for the package includes the failed item.  <br/> |
-|Incremental round  <br/> |The last incremental round number that item failed.  <br/> |
-|Task ID  <br/> |The individual task number.  <br/> |
-|Device name  <br/> |The name of the device or computer that is running the migration job.  <br/> |
+|Total scanned items  <br/> |Total number of files and list items, including those that will be filtered out because of settings or potential scan issues.  <br/> 
+|Total to be migrated items <br/> |The total number of files and list items that were expected to migrate excluding those filtered out based on settings or potential scan issues.  <br/> |
+|Migrated items <br/> |The total number of files migrated.  <br/> |
+|Items not migrated <br/> |Number of files that did not migrate.  <br/> |
+|Total bytes  <br/> |Total number of bytes scanned in source destination.  <br/> |
+|Total GB  <br/> |Total number of gigabytes scanned in source destination.  <br/> |
+|Migrated bytes  <br/> |The total number of bytes of data migrated.  <br/> |
+|Migrated GB <br/> |The total size of the files migrated, expressed in gigabytes.  <br/> |
+|Agent|The address of the migration agent (VM or computer) that is running the migration task.|	
+|Duration  <br/> |Length of time in minutes that the migration task took to complete.  <br/> |
+
+
    
 ## Task Reports
 
@@ -281,7 +248,7 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 
 |**Column**|**Recommendation**|
 |:-----|:-----|:-----|
-|Reading source speed score<br/> |[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-speed-at-which-the-source-can-be-read?branch=jhendr-migration)<br/> |
-|Local disk performance score<br/> |[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-migration-computer-speed?branch=jhendr-migration) <br/> |
-|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure?branch=jhendr-migration)<br/> |
+|Reading source speed score<br/> |[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-speed-at-which-the-source-can-be-read)<br/> |
+|Local disk performance score<br/> |[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-migration-computer-speed) <br/> |
+|Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
 |SPO throughput score <br/> |[Improving your migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) <br/> |

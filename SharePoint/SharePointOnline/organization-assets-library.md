@@ -40,7 +40,7 @@ If your organization needs to store and manage files for all your users to use, 
     > [!NOTE]
     > All organization asset libraries must be on the same site.
 
-2. Set the permissions on the site. Add the people you want to be able to upload files as members or owners of the site or Office 365 group. Add anyone you want to be able to access the files (such as "Everyone except external users") as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library. 
+2. **Set the permissions on the site**. Add the people you want to be able to upload files as members or owners of the site or Office 365 group. Add anyone you want to be able to access the files (such as "Everyone except external users") as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library. 
 
 3. Upload the images or Office templates to a document library.
 
