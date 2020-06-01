@@ -23,9 +23,12 @@ IMPORTANT! You will need to make sure our IP address is whitelisted on your SFTP
 104.198.169.166
 Then:
 
-In the Transfer Wizard click Authorize New Connector.Auth New Connector
-Find SFTP in the Connector list.
-Click Authorize.
+1. In the Transfer Wizard click Authorize New Connector.
+
+![Auth New Connector](media/clear_auth.png)
+
+2. Find SFTP in the Connector list.
+3. Click Authorize.
 SFTP Auth Connector
 A New window (tab) will open. Enter your credentials as follows:
 Display Name: Your connector's nickname - this can be anything to help distinguish it from other connectors.

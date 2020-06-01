@@ -18,9 +18,11 @@ Authorizing WebDAV is a fairly simple process - despite being an older protocol,
 
 You can also connect to a regular WebDAV server using our app. To authorize or add a WebDAV server as a Connector, follow these simple steps:
 
-In the Transfer Wizard click Authorize New Connector.Auth New Connector
-Find WebDAV in the Connector list.
-Click Authorize.WebDAV Auth Connector
+1. In the Transfer Wizard click Authorize New Connector.
+![Auth New Connector](media/clear_auth.png)
+2. Find **WebDAV** in the Connector list.
+3. Click **Authorize.**
+
 A New window (tab) will open. Enter your credentials as follows:
 Display Name: Your connector's nickname - this can be anything to help distinguish it from other connectors.
 Type: The type of WebDAV server you are connecting to in terms of encryption.
