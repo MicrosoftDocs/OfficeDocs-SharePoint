@@ -88,82 +88,10 @@
         "searchScope": { 
             "SharePointOnline/*.md": ["SharePoint Online"] },
             "hideEdit": {
-              "SharePointServer/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/*.md": "None" 
+              "SharePointServer//*.md": true
               },
-          "hideEdit": {
-              "SharePointServer/PSConfigHelp/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/PSConfigHelp/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/administration/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/administration/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/governance/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/governance/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/hybrid/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/hybrid/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/install/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/install/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/product-servicing-policy/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/product-servicing-policy/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/search/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/search/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/security-for-sharepoint-server/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/security-for-sharepoint-server/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/sites/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/sites/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/technical-reference/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/technical-reference/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/upgrade-and-update/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/upgrade-and-update/*.md": "None" 
-              },
-          "hideEdit": {
-              "SharePointServer/what-s-new/*.md": true 
-              },       
-          "feedback_system": {
-              "SharePointServer/what-s-new/*.md": "None" 
+              "feedback_system": {
+              "SharePointServer//*.md": "None"
               },
             "titleSuffix": {
             "SharePointServer/*.md": "SharePoint Server",
