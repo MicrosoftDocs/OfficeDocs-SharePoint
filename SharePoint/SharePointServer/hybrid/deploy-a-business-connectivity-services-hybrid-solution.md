@@ -52,7 +52,7 @@ In this scenario, you will learn how to:
 
 ![Shows the sequence of actions for BCS hybrid](../media/BCSHybridDiagram.jpg)
   
-1. An information worker logs on to SharePoint by using their federated account and opens an app for SharePoint or external list that needs data from an on-premises OData data source.
+1. An information worker signs in to SharePoint by using their federated account and opens an app for SharePoint or external list that needs data from an on-premises OData data source.
     
 2. The external list creates a request for the data and sends it to Business Connectivity Services. Business Connectivity Services looks at the connection settings object to see how to connect to the data source and which credentials to use.
     

@@ -102,7 +102,7 @@ Where:
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|This is the thumbprint of the **Secure Channel SSL certificate**. The location of this certificate file is recorded in **Row 1** (Secure Channel SSL Certificate location and Filename) of **Table 4b: Secure Channel SSL Certificate**. |
    
-For additional infoabout the **Add-WebApplicationProxyApplication** cmdlet, see [Add-WebApplicationProxyApplication](/previous-versions/windows/powershell-scripting/dn283409(v=wps.630)).
+For additional info about the **Add-WebApplicationProxyApplication** cmdlet, see [Add-WebApplicationProxyApplication](/previous-versions/windows/powershell-scripting/dn283409(v=wps.630)).
   
 ## Validate the published application
 

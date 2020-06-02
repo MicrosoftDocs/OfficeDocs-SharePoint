@@ -133,7 +133,7 @@ To continue, you need to install these tools on an on-premises SharePoint Server
     
 - Azure Active Directory Module for Windows PowerShell
     
-- SharePoint Management Shell
+- SharePoint Online Management Shell
     
 This is most easily accomplished on a web server in your SharePoint farm because it's easier to load the  *Microsoft.SharePoint.PowerShell*  snap-in on the web servers than on servers that don't have SharePoint Server installed. 
   
@@ -154,11 +154,11 @@ To install the online service management tools and configure the PowerShell wind
     
 2. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
     
-3. Install the SharePoint Management Shell:
+3. Install the SharePoint Online Management Shell:
     
-    [SharePoint Management Shell (64 bit version)](https://go.microsoft.com/fwlink/?LinkId=392323) (https://go.microsoft.com/fwlink/?LinkId=392323) 
+    [SharePoint Online Management Shell (64 bit version)](https://go.microsoft.com/fwlink/?LinkId=392323) 
     
-    For additional info, see [Introduction to the SharePoint management shell](https://go.microsoft.com/fwlink/?LinkId=392324) (https://go.microsoft.com/fwlink/?LinkId=392324). 
+    For additional info, see [Introduction to the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). 
     
 2. Open a PowerShell window.
     
@@ -193,14 +193,14 @@ To install the online service management tools and configure the PowerShell wind
 
    For more information, see [about_Remote_Requirements](https://go.microsoft.com/fwlink/?LinkId=392326). 
     
-6. To log on to your SharePoint tenant, from the PowerShell command prompt, enter the following commands:
+6. Enter the following commands to sign in to SharePoint, from the PowerShell command prompt:
     
   ```
   $cred=Get-Credential
   Connect-MsolService -Credential $cred
   ```
 
-   You are prompted to log on. You need to log on using a Microsoft 365 global admin account.
+   You are prompted to sign in. You need to sign in using a Microsoft 365 global admin account.
     
    Leave the PowerShell window open until you've completed all the steps in this article. You need it for a variety of procedures in the following sections.
     
@@ -246,12 +246,12 @@ After you populate these variables, you can view their values by entering the va
   
  `https://accounts.accesscontrol.windows.net/00fceb75-246c-4ac4-a0ad-7124xxxxxxxx/metadata/json/1`
   
-#### Step 2: Upload the STS certificate to SharePoint
+#### Step 2: Upload the STS certificate to SharePoint in Microsoft 365
 <a name="step4"> </a>
 
-In this step, you upload the STS certificate for your SharePoint Server farm to your SharePoint tenant, which enables SharePoint Server and SharePoint to connect to and consume each other's service applications.
+In this step, you upload the STS certificate for your SharePoint Server farm to your SharePoint tenant, which enables SharePoint Server and SharePoint in Microsoft 365 to connect to and consume each other's service applications.
   
-![This figure illustrates the architecture involved when a STS certificate is uploaded to SharePoint](../media/TrustSTS.jpg)
+![The architecture involved when a STS certificate is uploaded to SharePoint](../media/TrustSTS.jpg)
   
 The commands in this step add the new on-premises STS certificate (public key only) to the SharePoint *principal object*  of your Microsoft 365 organization. 
   
@@ -269,7 +269,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -U
 
 In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SPN is comprised of the SharePoint principal object and your company's public DNS namespace.
   
-Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and your SharePoint tenant. The basic syntax for the SPN is:
+Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
   
  **\<service type\>/\<instance name\>**
   
@@ -315,7 +315,7 @@ This should be the  *only*  SPN in the list that includes your public root domai
 #### Step 4: Register the SharePoint application principal object ID with SharePoint Server
 <a name="step6"> </a>
 
-This step registers the SharePoint application principal object ID with the on-premises SharePoint Application Management Service, which allows SharePoint Server to authenticate to SharePoint using OAuth.
+This step registers the SharePoint application principal object ID with the on-premises SharePoint Application Management Service, which allows SharePoint Server to authenticate to SharePoint in Microsoft 365 using OAuth.
   
 From the PowerShell command prompt, type the following commands.
   
@@ -331,7 +331,7 @@ To validate this step, from the PowerShell command prompt, type the $appPrincipa
 $appPrincipal | fl
 ```
 
-The expected output is a description of the registered application principal with the name **SharePoint**, which should look something like this.
+The expected output is a description of the registered application principal with the name **SharePoint Online**, which should look something like this.
   
 ![Registered application principal for SharePoint](../media/ValidateRegister_SPO.jpg)
   
@@ -361,7 +361,7 @@ The output of each of these commands is the GUID that represents the context ID 
 #### Step 6: Configure an on-premises proxy for Azure Active Directory
 <a name="step8"> </a>
 
-In this step, you create an Azure Active Directory proxy service in the SharePoint Server farm. This enables Azure Active Directory as a  *trusted token issuer*  that SharePoint Server will use to sign and authenticate claims tokens from SharePoint. 
+In this step, you create an Azure Active Directory proxy service in the SharePoint Server farm. This enables Azure Active Directory as a  *trusted token issuer*  that SharePoint Server will use to sign and authenticate claims tokens from SharePoint in Microsoft 365. 
   
 From the PowerShell command prompt, enter the following commands.
   
