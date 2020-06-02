@@ -52,20 +52,16 @@ public bool IsMoveMode { get; set; }
 ```
 >[!Important]
 >By default, this is set to copy. For a move operation, set this parameter to true.
-</br></br>
-
-
-
+</br>
+</br>
 
 ```cs
 public bool IgnoreVersionHistory { get; set; }
 ```
 
 If not specified, the version history will be ignored and not moved to the destination.
-</br></br>
-
-
-
+</br>
+</br>
 
 ```cs
 public bool AllowSchemaMismatch { get; set; }
@@ -73,7 +69,6 @@ public bool AllowSchemaMismatch { get; set; }
 This allows the item to move even if the target has a mismatched schema definition from the source list. 
 </br>
 </br>
-
 
 ```CS
 public bool AllowSmallerVersionLimitOnDestination { get; set; }
