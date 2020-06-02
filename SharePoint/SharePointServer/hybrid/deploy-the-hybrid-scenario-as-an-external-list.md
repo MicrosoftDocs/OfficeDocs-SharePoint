@@ -38,9 +38,9 @@ When you import the BDC Model file into SharePoint, you must be logged in to the
   
  **To import a BDCM file into the SharePoint BDC Metadata Store**
   
-1. Log on to your SharePoint tenancy by using an administrative account, and then open the SharePoint Administration Center.
-    
-2. In the Quick Launch, click **bcs**.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+
+2. Under **BCS**, select **Open**.
     
 3. Under **business connectivity services**, click **Manage BDC Models and External Content Types**.
     

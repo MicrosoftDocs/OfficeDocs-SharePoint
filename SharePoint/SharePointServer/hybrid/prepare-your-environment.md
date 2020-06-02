@@ -106,15 +106,17 @@ The Business Data Connectivity service (BDC) Metadata Store holds external conte
   
  **To set permissions on the BDC Metadata Store in SharePoint**
   
-1. Open the SharePoint Admin Center by using an administrative account.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+
+2. Under **BCS**, select **Open**.
     
-2. On the Quick Launch, select **BCS**, and then select **Manage BDC Models and External Content Types**.
+3. Select **Manage BDC Models and External Content Types**.
     
-3. Select **Set Metadata Store Permissions**, and add **All Authenticated Users** with at least **Execute** permissions. This will allow all users who authenticate to your SharePoint tenancy to use the external content types stored in the Metadata Store. 
+4. Select **Set Metadata Store Permissions**, and add **All Authenticated Users** with at least **Execute** permissions. This will allow all users who authenticate to your SharePoint tenancy to use the external content types stored in the Metadata Store. 
     
-4. Select the **Propagate permissions to all BCS Models, External Systems and External Content Types in the BDC Metadata Store. Doing so will overwrite existing permissions** check box. 
+5. Select the **Propagate permissions to all BCS Models, External Systems and External Content Types in the BDC Metadata Store. Doing so will overwrite existing permissions** check box. 
     
-5. Select **OK**.
+6. Select **OK**.
     
 ## Validate external access to reverse proxy published URL
 
@@ -154,28 +156,30 @@ Before you begin this procedure, make sure you have the following:
     
  **To configure the connection settings object for the BCS hybrid scenario**
   
-1. Open the SharePoint Admin Center by using an administrator account, and on the Quick Launch, select **bcs**.
+1. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+
+2. Under **BCS**, select **Open**.
     
-2. Select **Manage connections to on-premises services**.
+3. Select **Manage connections to on-premises services**.
     
-3. Select **Add**.
+4. Select **Add**.
     
-4. Give the connection settings object a name.
+5. Give the connection settings object a name.
     
     > [!IMPORTANT]
     > Keep track of this name; you will use it when you create the external content type in the next procedure. 
   
-5. In the **Service Address** box, enter the URL of the OData service endpoint that you created. 
+6. In the **Service Address** box, enter the URL of the OData service endpoint that you created. 
     
-6. For this scenario, select the **Use credentials stored in Sharepoint on-premises** as the authentication option, and then enter the name of target application ID that holds the group to account mapping. In this scenario, it is **ODataApp** that you created. 
+7. For this scenario, select the **Use credentials stored in Sharepoint on-premises** as the authentication option, and then enter the name of target application ID that holds the group to account mapping. In this scenario, it is **ODataApp** that you created. 
     
-7. In the **Authentication Mode** dropdown, select **Impersonate Window's Identity**.
+8. In the **Authentication Mode** dropdown, select **Impersonate Window's Identity**.
     
-8. In the **Internet-facing URL** box, enter the external URL with the /_vti_bin/client.svc extension. For example, https://hybridexternal.sharepoint.com/_vti_bin/client.svc.
+9. In the **Internet-facing URL** box, enter the external URL with the /_vti_bin/client.svc extension. For example, https://hybridexternal.sharepoint.com/_vti_bin/client.svc.
     
-9. In the **Secure Store Target Application ID** box, enter the ID of the target application that holds the Secure Channel certificate. For example, **SecureChannelTargetApp**.
+10. In the **Secure Store Target Application ID** box, enter the ID of the target application that holds the Secure Channel certificate. For example, **SecureChannelTargetApp**.
     
-10. Select **Create**.
+11. Select **Create**.
     
 ## Create and configure the external content type
 

@@ -21,7 +21,7 @@ ms.assetid: 445bce79-f6d6-4ab6-9d50-f0672cd093f4
 description: "Learn how to configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365."
 ---
 
-# Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365e - roadmap
+# Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   

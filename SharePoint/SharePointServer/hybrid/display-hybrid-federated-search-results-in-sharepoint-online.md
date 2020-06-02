@@ -51,15 +51,15 @@ In this procedure, you create a result source in SharePoint. This result source 
     
 - The ID of the target application that stores the Secure Store SSL certificate.
     
-Result sources can be created at the SharePoint Admin Center level, the site collection level, or the site level. In this procedure, you create the result source at the SharePoint Admin Center level. This makes the result source available to any query rule that is created at the same level, and also to any query rule that is created for a site collection or site.
+Result sources can be created at the organization level, the site collection level, or the site level. In this procedure, you create the result source at the organization level. This makes the result source available to any query rule that is created at the same level, and also to any query rule that is created for a site collection or site.
   
 For more info about result sources, see [Understanding result sources](https://office.microsoft.com/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](https://docs.microsoft.com/sharepoint/manage-result-sources).
   
-1. Verify that the user account that you use to perform this procedure is a global admin for the Microsoft 365 subscription that you want to configure.
-    
-2. In the SharePoint Admin Center, in the Quick Launch, select **search**.
-    
-3. On the **search administration** page, select **Manage Result Sources**.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+
+2. Under **Search**, select **Open**.
+
+3. Select **Manage Result Sources**.
     
 4. Select **New Result Source**.
     
@@ -90,15 +90,15 @@ For more info about result sources, see [Understanding result sources](https://o
 
 In this procedure, you create a query rule in SharePoint that uses the result source that you created in the previous procedure in this article. When the query rule fires, it causes search results from content in the SharePoint Server search index to appear in a result block on a search results page in SharePoint.
   
-Query rules can be created at the SharePoint Admin Center level, the site collection level, or the site level. In this procedure, you create a query rule at the SharePoint Admin Center level. Because you create the rule at this level, the rule can apply to any queries that users submit in this instance of SharePoint.
+Query rules can be created at the organization level, the site collection level, or the site level. In this procedure, you create a query rule at the organization level. Because you create the rule at this level, the rule can apply to any queries that users submit in this instance of SharePoint.
   
 For more info about query rules, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Manage query rules in SharePoint Server](../search/manage-query-rules.md)
   
-1. Verify that the user account that you use to perform this procedure is a global admin for the Microsoft 365 subscription that you want to configure.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+
+2. Under **Search**, select **Open**.
     
-2. In the SharePoint Admin Center, in the Quick Launch, select **search**.
-    
-3. On the **search administration** page, select **Manage Query Rules**.
+3. Select **Manage Query Rules**.
     
 4. On the **Manage Query Rules** page, do the following: 
     
@@ -178,11 +178,11 @@ Use the following procedure to validate your configuration for viewing search re
 > [!IMPORTANT]
 > If you are using single sign-on (SSO) authentication, it is important to test the hybrid Search functionality by using federated user accounts. Native user accounts and AD accounts that are not federated are not recognized by both directory services. Therefore, they cannot authenticate using SSO and cannot be granted permissions to resources in both environments. For more info, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md). 
   
-1. Verify that the user account that you use to perform this procedure is a federated user who has been activated in SharePoint in Microsoft 365, and who has permissions to view the root site collection there.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+
+2. Under **Search**, select **Open**.
     
-2. On the SharePoint Admin Center page, select **search**.
-    
-3. On the **search administration** page, select **Manage Query Rules**.
+3. Select **Manage Query Rules**.
     
 4. On the page for managing query rules, do the following:
     

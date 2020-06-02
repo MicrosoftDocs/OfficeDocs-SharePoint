@@ -468,15 +468,15 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
   
  **To create a target application to store the Secure Channel SSL certificate**
   
-1. Verify that you're logged on to Microsoft 365 as a global admin.
-    
-2. In the SharePoint Administration Center, in the navigation pane, select **secure store**.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+
+2. Under **Secure store**, select **Open**.
     
 3. On the **Edit** tab, select **New**.
     
 4. In the **Target Application Settings** section, do the following: 
     
-1. In the **Target Application ID** box, enter the name (which will be the ID) that you want to use for the target application—for example, we recommend that you name it **SecureChannelTargetApplication**. Do not use spaces in this name. 
+5. In the **Target Application ID** box, enter the name (which will be the ID) that you want to use for the target application—for example, we recommend that you name it **SecureChannelTargetApplication**. Do not use spaces in this name. 
     
     > [!NOTE]
     > You create the ID in this step—you do not receive the ID from elsewhere. This ID is a unique target application name that cannot be changed. 
@@ -485,34 +485,34 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|Record this name in the **Target Application ID** row of Table 6 of the worksheet. |
    
-2. In the **Display Name** box, enter the name that you want to use as the display name for the new target application. For example, **Secure Channel Target App**. 
+6. In the **Display Name** box, enter the name that you want to use as the display name for the new target application. For example, **Secure Channel Target App**. 
     
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|Record this name in the **Target Application Display Name** row of Table 6 of the worksheet. |
    
-3. In the **Contact E-mail** box, enter the name of the primary contact for this target application. 
+7. In the **Contact E-mail** box, enter the name of the primary contact for this target application. 
     
-5. In the **Credential Fields** section, do the following: 
+8. In the **Credential Fields** section, do the following: 
     
-1. In the **Field Name** column, in the first row, delete any existing text that is in the box, and then enter **Certificate**.
+9. In the **Field Name** column, in the first row, delete any existing text that is in the box, and then enter **Certificate**.
     
-2. In the **Field Type** column, in the first row, in the drop-down list, select **Certificate**.
+10. In the **Field Type** column, in the first row, in the drop-down list, select **Certificate**.
     
-3. In the **Field Name** column, in the second row, delete any existing text that is in the box, and then enter **Certificate Password**.
+11. In the **Field Name** column, in the second row, delete any existing text that is in the box, and then enter **Certificate Password**.
     
     > [!NOTE]
     > You must follow this step only if you are importing the certificate from a certificate that contains a private key, such as a Private Information Exchange (.pfx) file. 
   
-4. In the **Field Type** column, in the second row, in the dropdown, select **Certificate Password**.
+12. In the **Field Type** column, in the second row, in the dropdown, select **Certificate Password**.
     
     The credentials section should resemble the following illustration.
     
      ![This figure illustrates the credentials setting of a Secure Store Service Target Application](../media/SecureStoreService_Hybrid.jpg)
   
-6. In the **Target Application Administrators** section, in the box, enter the names of users who will have access to manage the settings of this target application. Make sure to add any users who will test the hybrid configuration so that they can make changes, if it's needed. 
+13. In the **Target Application Administrators** section, in the box, enter the names of users who will have access to manage the settings of this target application. Make sure to add any users who will test the hybrid configuration so that they can make changes, if it's needed. 
     
-7. In the **Members** section, in the box, enter the names of the Azure AD users and groups that you want to enable to use hybrid solutions. 
+14. In the **Members** section, in the box, enter the names of the Azure AD users and groups that you want to enable to use hybrid solutions. 
     
     The Microsoft 365 global admin can create Azure AD groups. These are domain groups, not SharePoint groups.
     
@@ -520,35 +520,35 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|A list of these users, or the group they were added to, is listed in the **Federated Users** row of Table 1 of the worksheet. |
    
-8. Select **OK**.
+15. Select **OK**.
     
-9. Select the check box next to the ID of the target application that you created (for example, **SecureChannelTargetApp**). 
+16. Select the check box next to the ID of the target application that you created (for example, **SecureChannelTargetApp**). 
     
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|This name is listed in the **Target Application Display Name** row of Table 6 of the worksheet. |
    
-10. On the **Edit** tab, in the **Credentials** group, select **Set**.
+17. On the **Edit** tab, in the **Credentials** group, select **Set**.
     
-11. In the **set credentials for secure store target application** dialog, do the following: 
+18. In the **set credentials for secure store target application** dialog, do the following: 
     
-1. Next to the **Certificate** field, select **Browse**.
+19. Next to the **Certificate** field, select **Browse**.
     
-2. Browse to the location of the Secure Channel SSL certificate, select the certificate, and then select **Open**.
+20. Browse to the location of the Secure Channel SSL certificate, select the certificate, and then select **Open**.
     
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The name and location of this certificate is recorded in the **Secure Channel SSL Certificate location and filename** row of Table 4b of the worksheet. |
    
-3. If the certificate you're using contains a private key, such as a Private Information Exchange (.pfx) file, in the **Certificate Password** field, enter the password of the certificate. Otherwise, go to step 12. 
+21. If the certificate you're using contains a private key, such as a Private Information Exchange (.pfx) file, in the **Certificate Password** field, enter the password of the certificate. Otherwise, go to step 12. 
     
 |||
 |:-----|:-----|
 |![Edit icon](../media/mod_icon_edit_m.png)|The password is recorded in the **Secure Channel SSL Certificate password** row of Table 4b of the worksheet. |
    
-4. In the **Confirm Certificate Password** field, re-enter the password of the certificate. 
+22. In the **Confirm Certificate Password** field, re-enter the password of the certificate. 
     
-12. Select **OK**.
+23. Select **OK**.
     
 For more info, see [Configure the Secure Store Service in SharePoint Server](../administration/configure-the-secure-store-service.md).
   

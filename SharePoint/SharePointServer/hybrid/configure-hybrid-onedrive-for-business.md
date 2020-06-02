@@ -68,25 +68,27 @@ To configure hybrid OneDrive, you must be both a SharePoint Server farm administ
   
  **To configure hybrid OneDrive**
   
-1. In the SharePoint admin center, in the left navigation, select **configure hybrid**.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+
+2. Under **Hybrid picker**, select **Open**.
     
-2. Click **Go to Hybrid Picker Download Page**.
+3. Click **Go to Hybrid Picker Download Page**.
     
-3. On the SharePoint Hybrid Picker page, select **click here**.
+4. On the SharePoint Hybrid Picker page, select **click here**.
     
-4. Accept the security prompts to install and run the wizard.
+5. Accept the security prompts to install and run the wizard.
     
-5. On the **SharePoint Hybrid Picker** page, select **Next**.
+6. On the **SharePoint Hybrid Picker** page, select **Next**.
     
-6. On the **Credentials** page, verify your on-premises credentials and enter your global admin credentials. Select **Validate credentials**, and then select **Next**.
+7. On the **Credentials** page, verify your on-premises credentials and enter your global admin credentials. Select **Validate credentials**, and then select **Next**.
     
-7. On the **Checking prerequisites** page, select **Next**.
+8. On the **Checking prerequisites** page, select **Next**.
     
-8. On the **Select the features you want to use in your hybrid environment** page, select the Hybrid OneDrive check box and deselect any other check boxes. Select **Next**.
+9. On the **Select the features you want to use in your hybrid environment** page, select the Hybrid OneDrive check box and deselect any other check boxes. Select **Next**.
     
-9. When the configuration completes, select **Next**.
+10. When the configuration completes, select **Next**.
     
-10. Add a rating and comments if desired, and then select **Close**.
+11. Add a rating and comments if desired, and then select **Close**.
     
 ## Create an audience (if necessary)
 <a name="CreateAudience"> </a>

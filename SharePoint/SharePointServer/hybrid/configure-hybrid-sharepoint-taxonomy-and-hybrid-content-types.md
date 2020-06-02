@@ -108,7 +108,7 @@ Note that you can also simply run Copy-SPTaxonomyGroups and you will be prompted
   
  **Copying content types**
   
-If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint by using the [Copy-SPContentTypes](/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps) cmdlet. For example: 
+If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint in Microsoft 365 by using the [Copy-SPContentTypes](/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps) cmdlet. For example: 
   
 ```
 Copy-SPContentTypes -LocalSiteUrl http://localsite/ -LocalTermStoreName "managed metadata service application proxy" -RemoteSiteUrl https://contoso.sharepoint.com/ -ContentTypeNames @("ContentTypeA", "ContentTypeB") -Credential $credential
@@ -142,11 +142,11 @@ The next step is to configure hybrid SharePoint taxonomy by running the Hybrid P
   
 1. Log on to a server in your SharePoint Server farm as the farm administrator. 
     
-2. From your SharePoint Server computer, open a web browser, and log on to Microsoft 365 as a global admin.
+2. From your SharePoint Server computer, open a web browser.
     
-3. In the SharePoint Admin Center, select **configure hybrid**.
-    
-4. On the hybrid picker page, select **Hybrid Picker**.
+3. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+
+4. Under **Hybrid picker**, select **Open**.
     
 5. Follow the wizard, and when prompted, select **Hybrid Taxonomy**. 
     

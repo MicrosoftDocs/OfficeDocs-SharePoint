@@ -29,7 +29,7 @@ For this scenario, we assume that you have:
     
 - An existing Microsoft 365 organization and a Yammer network.
     
-- Enabled Yammer as the Microsoft 365 social experience on the SharePoint admin center.
+- Enabled Yammer as the Microsoft 365 social experience in the classic SharePoint admin center.
     
 - Active Directory Domain Services (AD DS) as your identity provider, and Active Directory Federation Services (AD FS) 2.0 for identity federation.
     
