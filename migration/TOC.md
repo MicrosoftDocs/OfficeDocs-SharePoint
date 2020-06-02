@@ -36,7 +36,7 @@
 ### Setting up the migration
 #### [Box to Office 365](mover-setting-up-box-to-o365.md)
 #### [Dropbox to Office 365](mover-setting-up-dropbox-to-o365.md)
-#### [Egnyte to Office 365](mover-setting-up-egnyte-too365.md)
+#### [Egnyte to Office 365](mover-setting-up-egnyte-to-o365.md)
 #### [File shares to Office 365](mover-setting-up-fileshare-to-o365.md)
 #### [G Suite Drive to Office 365](mover-setting-up-gsuite-to-o365.md)
 #### [Amazon WorkDocs to Office 365](mover-setting-up-amazonworkdocs-to-o365.md)
