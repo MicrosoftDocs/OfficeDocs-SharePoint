@@ -23,6 +23,9 @@ description: "In this article, you'll learn about information architecture in th
 
 # Information architecture in modern SharePoint
 
+> [!NOTE]
+>   SharePoint Online documentation does not apply to SharePoint Server.
+
 Having a solid information architecture is an important prerequisite for realizing a well-maintained and well-performing portal. A good information architecture helps people find what they need and accomplish the tasks they want to complete – in a way that makes sense to them. Information architecture includes how you will organize and label your content and how your visitors will interact with the content to get work done.
 
 A great information architecture helps improve user adoption, satisfaction and productivity, reduce IT cost, reduce information overload, and minimize compliance and bad information risk.
