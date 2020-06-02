@@ -218,36 +218,3 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |OneDrive for Business (User)|    OneDrive for Business (User) Connector|
 |SharePoint Online|Microsoft 365 Connector|
 
-
-## Deleting connectors
-
-Deleting a **Connector** revokes our access to your cloud storage accounts. To confirm that we have been deauthorized, visit the security settings in your respective cloud service, and check for our app.
-
-Using our app to remove our authorization with a particular cloud service is simple:
-
-1. From the **Transfer Wizard**, select **Manage ▼** for the **Connector** type you want to delete.
-2. To the right of **Connect**, select arrow ▼.
-3. Select **Delete**.
-4. Confirm you want to delete, and you're done!
-
-![Delete connector](media/delete-connector.png)
-
->[!Note]
->Deleting a **Connector** is permanent and cannot be reversed. The **Connector** type disappears from the **Transfer Wizard**. To add a new **Connector**, select **Authorize New Connector**.
-
-### Reauthorizing connectors
-
-Reauthorizing a **Connector** is sometimes necessary if we lose authorization or access to your cloud storage accounts or web servers. It is also a good first step in trying to resolve most issues with your **Connectors**.
-
-The process to authorize a Connector again is very simple:
-
-1. Find the **Connector** type you want to reauthorize.
-2. Select **Manage ▼**.
-3. For other **Connector** options, next to **Connect**, select ▼.
-4. Select **Reauthorize**.
-5. Follow the same steps you performed when you first created the **Connector** to renew the authorization tokens/permissions.
-
->[!Note]
->You are unable to change the display name of the **Connector**. If you want to rename it, you must delete and re-add the **Connector**.
-
-**Connectors** are deauthorized automatically if they haven't transfered any data in the last 90 days. If you try to load a deauthorized **Connector** in the **Transfer Wizard**, an error message appears, along with a prompt to reauthorize the **Connector**.
