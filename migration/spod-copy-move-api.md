@@ -1,0 +1,154 @@
+---
+title: Migration API permission guidance
+ms.author: jhendr
+author: JoanneHendrickson
+manager: pamgreen
+audience: ITPro
+f1.keywords:
+- NOCSH
+ms.topic: troubleshooting
+ms.service: sharepoint-online
+localization_priority: Priority
+ms.collection: 
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
+description: "Migration API permission guidance"
+---
+# Microsoft 365 Copy and Move API (CreateCopyJobs)
+
+>[!Important]
+>SharePoint & OneDrive Copy and Move API replaces the CreateCopyJob API.  The CreateCopyJob API has been deprecated. 
+
+
+The following API is based on the use of the SharePoint Client Side Object Model (CSOM). We recommend using [NuGet](https://www.nuget.org/) packages when you reference CSOM in your solution. 
+
+You can find latest version of the SharePoint Online CSOM package from the [NuGet library](https://www.nuget.org/) using the ID, Microsoft.SharePointOnline.CSOM. 
+
+
+## Method
+
+### CreateCopyJobs
+This method creates a new copy or move job that lets you  copy or move a file or folder from one site in SharePoint, OneDrive, or Teams, to another site. 
+
+#### Syntax
+
+```cs
+public List<SPCopyMigrationInfo> CreateCopyJobs(Uri[] exportObjectUris, Uri destinationUri, SPCopyMigrationOptions options)
+ ```  
+
+#### Parameter
+
+|**Parameter**|**Description**|
+|:-----|:-----|
+|exportObjectUris|The URL of a file or folders in a list that you want to copy or move|
+|destinationUri|URL for the destination location.|
+
+##### SPCopyMigrationOptions
+
+```cs
+public bool IgnoreVersionHistory { get; set; }
+```
+
+If not specified, the version history will be ignored, and not moved to the destination.
+</br></br>
+
+
+```cs
+public bool IsMoveMode { get; set; }
+```
+By default, this is set to copy. For move operation, set this parameter to true.
+</br></br>
+
+
+```cs
+public bool AllowSchemaMismatch { get; set; }
+```
+This allows the item to move even if the target has mismatched schema definition to the source list. 
+</br></br>
+
+
+```CS
+public bool AllowSmallerVersionLimitOnDestination { get; set; }
+```
+
+This allows the move to take place if the target file has older version. By default it’s disallowed to prevent data loss.
+
+
+
+```cs
+public SPMigrationNameConflictBehavior NameConflictBehavior { get; set; }
+```
+
+If a name conflict occurs at the target site, the default reports a failure.
+
+
+
+```cs
+public bool IncludeItemPermissions { get; set; }
+```
+
+If set, will the user ID in
+
+
+```cs
+public SPMoveAndShareFileInfo MoveAndShareFileInfo { get; set; }
+```
+For move, specifies the IDs of the users and can share file operation. For internal use only.
+
+
+```cs
+public bool BypassSharedLock { get; set; }
+```
+This indicates whether a file with a share lock can still be moved in a move job. If you want to move a file that is locked, you need to set this.
+
+
+```cs
+public string[] ClientEtags { get; set; }
+```
+
+If set, and the source eTag doesn’t match the eTag specified, the copy and move won’t take place. If left NULL, no check will take place.
+
+
+```cs
+public bool MoveButKeepSource { get; set; }
+```
+
+Once set, this move operation is similar to copy. The file will move to destination, but the source content will not be deleted.
+
+
+
+```cs
+public bool ExcludeChildren { get; set; }
+```
+For this operation, only the root level folder of the URL is copied. The sub-folders or files within the folder will not be moved or copied.
+
+
+#### Output
+
+|**Output parameter**|**Description**|
+|:-----|:-----|
+|JobID/GUID|Return a unique Job ID associated with this asynchronous read|
+|SourceListItemUniqueIds|Return the source |
+|JobQueueUri|URL for accessing Azure queue used for returning notification of copy and move process|
+|EncryptionKey|	AES256CBC encryption key used to decrypt messages from job/manifest queue|
+
+
+```cs
+public Uri JobQueueUri { get; set; }
+```
+
+The reporting features are the same as they are for CreateMigrationJob. Logging tracks the status of the createCopyJobs. By default, blob queue permissions and settings are set to "all access”. It provides job status : Job start, Job end, Job error information . 
+
+### Limitation 
+Currently, the following limitations are:
+
+|**What**|**Limitation**|
+|:-----|:-----|
+|File size|	A file must be less than 2 GB.|
+|Number of items|	No more than 30,000 items in a job.|
+|Total size of job|	Job size not to exceed 100 GB.|
+
+
+
+
