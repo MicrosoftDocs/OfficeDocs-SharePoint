@@ -143,7 +143,7 @@ To help users sign in, you can use [silent account configuration](use-silent-acc
 > When you use Microsoft Endpoint Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). </br> For help finding your tenant ID, see [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md). 
   
   
-## Auto-configure Sharepoint site synchronization
+## Auto-configure SharePoint site synchronization
 
 If you want to auto-configure a SharePoint site to be synced, you can use the URL below as a guide to build the path to the SharePoint site you want to sync automatically:
 
@@ -152,9 +152,9 @@ odopen://sync/?siteId=<siteId>&webId=<webId>&webUrl=<webURL>&listId=<listId>&use
 ```
 where:
 - **\<siteId\>** is the SharePoint site siteId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/site/id.
-- **\<webId\>** is the Sharepoint site webId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/id.
-- **\<webUrl\>** is the Sharepoint site URL. You can get this URL visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/url.
-- **\<listId\>** is the Sharepoint site documents library GUID, enclosed in curly brackets. You can get this GUID visiting the document library in the browser, click in the gear icon and choosing "Library Settings". The URL will show the listId GUID at the end of URL, i.e. https://\<tenant\>.sharepoint.com/sites/\<SiteName\>/_layouts/15/listedit.aspx?List=%7B**xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx**%7D (a GUID with escaped curly brackets).
+- **\<webId\>** is the SharePoint site webId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/id.
+- **\<webUrl\>** is the SharePoint site URL. You can get this URL visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/url.
+- **\<listId\>** is the SharePoint site documents library GUID, enclosed in curly brackets. You can get this GUID visiting the document library in the browser, click in the gear icon and choosing "Library Settings". The URL will show the listId GUID at the end of URL, i.e. https://\<tenant\>.sharepoint.com/sites/\<SiteName\>/_layouts/15/listedit.aspx?List=%7B**xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx**%7D (a GUID with escaped curly brackets).
 - **\<userEmail\>** is the OneDrive's user email address used to sign in into OneDrive.
 - **\<webTitle\>** and **\<listTitle\>** are used to compose the name of the local folder where the OneDrive content is synchronized. By default, when you use the "Sync" button when in the browser to synchronize a document library, OneDrive uses the  SharePoint site name and the document library name to compose the local folder name, in the form of %userprofile%\\<TenantName\>\\<SiteName\> - \<DocumentLibraryName\>. You could use any other values if you prefer to. If you do not use these parameters, the local folder will be named "<TenantName> - Documents", despite of site and library names.
 

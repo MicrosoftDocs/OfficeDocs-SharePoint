@@ -259,7 +259,7 @@ This section discusses various management and operational considerations for a m
   
 ### Capacity management
 
-Capacity management is an ongoing process because no implementation remains static about content and usage. You have to plan for growth and change so that the SharePoint Server 2013 environment can continue to deliver an effective business solution. For additional inf about capacity management in SharePoint Server 2013, see [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/ff758647(v=office.15)).
+Capacity management is an ongoing process because no implementation remains static about content and usage. You have to plan for growth and change so that the SharePoint Server 2013 environment can continue to deliver an effective business solution. For more info about capacity management in SharePoint Server 2013, see [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/ff758647(v=office.15)).
   
 #### App management
 

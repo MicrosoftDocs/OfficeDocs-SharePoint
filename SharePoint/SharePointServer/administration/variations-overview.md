@@ -118,7 +118,7 @@ The variations feature uses timer jobs to perform tasks such as creating and pro
 - **Variations Propagate Sites and Lists Job Definition** Creates variation sites and lists when the **Create Everywhere** option is enabled. By default, this timer job runs every 30 minutes. 
     
 > [!NOTE]
-> Timer jobs are not configurable in SharePoint. 
+> Timer jobs are not configurable in SharePoint for Microsoft 365. 
   
 For information about timer jobs, see [View timer job status in SharePoint Server 2016](view-timer-job-status.md).
   

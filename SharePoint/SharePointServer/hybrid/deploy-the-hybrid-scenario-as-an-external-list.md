@@ -34,7 +34,7 @@ You'll need the .bcdm file for the next procedure.
   
 ## Import the BDCM file into the SharePoint BDC Metadata Store
 
-When you import the BDC Model file into SharePoint, you must be logged in to the SharePoint admin site as a federated account (an account imported to Microsoft 365 from On-Premise using Directory Sync). This federated account should also be given Global Admin rights in Microsoft 365. When importing the BDC Model to configure Hybrid BCS, certain calls are made to SharePoint Server that will require you use a federated user account. Be aware the account must also have a populated user profile in SharePoint Server.
+When you import the BDC Model file into SharePoint, you must be logged in to the SharePoint admin site as a federated account (an account imported to Microsoft 365 from on-premises using Directory Sync). This federated account should also be given Global Admin rights in Microsoft 365. When importing the BDC Model to configure Hybrid BCS, certain calls are made to SharePoint Server that will require you use a federated user account. Be aware the account must also have a populated user profile in SharePoint Server.
   
  **To import a BDCM file into the SharePoint BDC Metadata Store**
   

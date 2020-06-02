@@ -24,11 +24,11 @@ description: "The SharePoint mobile app makes using your SharePoint sites from a
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 
-The SharePoint mobile app makes using your SharePoint in Microsoft 365 sites from a phone and tablet easier than ever. Learn how to troubleshoot common issues when working with the SharePoint mobile app. 
+The SharePoint mobile app makes using your SharePoint sites from a phone and tablet easier than ever. Learn how to troubleshoot common issues when working with the SharePoint mobile app. 
   
 ## Overview
 
-If your SharePoint users are working on their files and data using mobile devices, they can leverage the new [SharePoint mobile app for iOS](https://go.microsoft.com/fwlink/?LinkID=808032), [Android](https://go.microsoft.com/fwlink/p/?linkid=828159 ) and [Windows 10 Mobile](https://go.microsoft.com/fwlink/p/?linkid=828162 ).
+If your SharePoint users are working on their files and data using mobile devices, they can leverage the [SharePoint mobile app for iOS](https://go.microsoft.com/fwlink/?LinkID=808032), [Android](https://go.microsoft.com/fwlink/p/?linkid=828159 ) and [Windows 10 Mobile](https://go.microsoft.com/fwlink/p/?linkid=828162 ).
   
 As an admin of an on-premises SharePoint Server farm, there are some guidelines of which you should be aware. In general, the SharePoint mobile app:
   
@@ -51,7 +51,7 @@ While logging in with the SharePoint mobile app, you, or your users, may see mes
 
 When iOS and Android devices are connected to SharePoint Server 2016 (on-premises), administrators may see some unexpected traffic on their network monitors. For example, users may see some query, and query-response traffic to and from addresses online, such as *bl3301-g.1drv.com, bn2.vortex.data.microsoft.com.akadns.net*, or even *weu-breeziest-in.cloudapp.net*. 
   
-These calls are related to data collection and telemetry services. Telemetry data is used to monitor customer experiences with the Microsoft 365 or SharePoint in Microsoft 365 services and general info about service reliability, for the purposes of analytics. For example, the first URL mentioned (*bl3301-g.1drv.com*) is related to OneDrive and many of the other URLs will have Microsoft in the domain name. 
+These calls are related to data collection and telemetry services. Telemetry data is used to monitor customer experiences with Microsoft 365 services and general info about service reliability, for the purposes of analytics. For example, the first URL mentioned (*bl3301-g.1drv.com*) is related to OneDrive and many of the other URLs will have Microsoft in the domain name. 
   
 Any suspicious network traffic should be flagged and investigated by administrators. While doing so, please be aware that the data-collection and telemetry services for the SharePoint mobile app cannot be turned off. It helps to have access to the Privacy Statements while making judgements about whether the SharePoint mobile app is right for your organization.
   

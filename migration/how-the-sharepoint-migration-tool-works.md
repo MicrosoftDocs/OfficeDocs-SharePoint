@@ -48,7 +48,7 @@ description: The SharePoint Migration Tool simplifies migrating your data from o
  
 **UPLOAD:** In the upload stage, the content package is uploaded to Azure with the manifest. Before a migration job can be accepted from a SharePoint-provided Azure container, the files and manifest are encrypted at rest using the AES-256-CBC standard.<br>
   
-**IMPORT:** During the import phase, the key is provided to SharePoint SAS. Only Azure and Sharepoint are interacting to fetch and migrate the data to the destination. This process is a timer job-based but does not prevent other jobs from being queued up. During the import, a report is created in the working folder, and live updates are made. After the migration job is completed, the log is stored in the Azure container and a final report is created.<br>
+**IMPORT:** During the import phase, the key is provided to SharePoint SAS. Only Azure and SharePoint are interacting to fetch and migrate the data to the destination. This process is a timer job-based but does not prevent other jobs from being queued up. During the import, a report is created in the working folder, and live updates are made. After the migration job is completed, the log is stored in the Azure container and a final report is created.<br>
 
 **SESSION AND RESUME:** While the migration is being performed, the tool saves information of the session in a hidden list on the users OneDrive site.  This allows the migration tool to resume any previous migration sessions.
     

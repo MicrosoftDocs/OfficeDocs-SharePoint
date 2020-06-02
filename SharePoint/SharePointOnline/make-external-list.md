@@ -177,7 +177,7 @@ To create an ECT, follow these steps.
     ![Screenshot of the Add Connection dialog where you can choose a data source type. In this case, the type is SQL Server, which can be used to connect to SQL Azure.](media/0eaef7d3-8f67-403b-be39-a8c54922fd17.png)
 
     > [!NOTE]
-    >  You cannot use on-premise data sources, such as .NET Type, with SharePoint in Microsoft 365. In addition, you cannot use a SQL Server data source that is on-premise with SharePoint in Microsoft 365. 
+    >  You cannot use on-premises data sources, such as .NET Type, with SharePoint in Microsoft 365. In addition, you cannot use a SQL Server data source that is on-premises with SharePoint in Microsoft 365. 
   
 9. When you select SQL Server, specify the following:
     

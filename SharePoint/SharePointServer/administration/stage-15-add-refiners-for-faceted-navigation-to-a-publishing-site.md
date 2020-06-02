@@ -21,7 +21,7 @@ description: "Learn how to add refiners for faceted navigation to a publishing s
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint in Microsoft 365. 
+> Many of the features described in this series are also available for most sites in SharePoint for Microsoft 365. 
   
 ## Quick overview
 

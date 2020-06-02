@@ -241,7 +241,7 @@ By default, the **Create Everywhere** option is enabled. You should carefully co
 The variations feature uses timer jobs to perform tasks such as creating and propagating sites and pages. A timer job runs inside OWSTIMER, a Windows service for SharePoint Server. Each timer job has its own default schedule for when the job runs. You can change the frequency with which each job runs on the **Job Definitions** page on the Central Administration website. 
   
 > [!NOTE]
-> Timer jobs are not configurable in SharePoint. 
+> Timer jobs are not configurable in SharePoint for Microsoft 365. 
   
 The following table lists the variations timer jobs and the default schedule for each job.
   

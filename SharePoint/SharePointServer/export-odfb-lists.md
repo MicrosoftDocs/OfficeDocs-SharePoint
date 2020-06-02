@@ -69,7 +69,7 @@ Copy the contents below and paste them into a text file. Save the file as **Expo
 
 ```powershell
 #ExportODBLists
-#Exports  Onedrive experience settings, stored in several SharePoint Lists
+#Exports OneDrive experience settings, stored in several SharePoint lists
 
 param([string]$siteUrl, [bool]$exportAllFields=$false, [bool]$useStoredCreds=$true, [string]$exportFolder)
 Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.dll"

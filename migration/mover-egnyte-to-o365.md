@@ -629,13 +629,13 @@ Our app requires an **Administrator** for authorization. The following table lis
 ### Authorizing Microsoft 365
 
 >[!Warning]
->To fully authorize the **Microsoft 365 Connector**, a Global Admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
+>To fully authorize the **Microsoft 365 Connector**, a global admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
 >
->The Global Admin must grant these permissions *after* the **Microsoft 365 Connector** is authorized within the main Mover app.
+>The global admin must grant these permissions *after* the **Microsoft 365 Connector** is authorized within the main Mover app.
 
 To complete the authorization steps in the right order, see the following instructions.
 
-A Global Admin or a Sharepoint Admin can complete some steps in the authorization process. At the beginning of each step, we indicate who can complete it.
+A global or SharePoint admin can complete some steps in the authorization process. At the beginning of each step, we indicate who can complete it.
 
 1. **Global Admin or SharePoint Admin**: Via app.mover.io, log into the main Mover app. In the **Transfer Wizard**, select **Authorize New Connector**.
 

@@ -757,7 +757,7 @@ Some list view options may prevent search list views with more than 5,000 items 
 
 ### Authorizing the desktop and server agent
 
-To enable swift and painless copying of data from on-premise desktop and server hard drives, we provide a very tiny agent that any Windows operating system can install.
+To enable swift and painless copying of data from on-premises desktop and server hard drives, we provide a very tiny agent that any Windows operating system can install.
 
 #### Compatibility
 

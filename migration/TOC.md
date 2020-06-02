@@ -12,7 +12,7 @@
 #### [Supported Site features](spmt-supported-site-features.md)
 ### [Troubleshooting installation issues](spmt-install-issues.md)
 ### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
-### [How the Sharepoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
+### [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
 ### [Settings](spmt-settings.md)
 ### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
 ### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
