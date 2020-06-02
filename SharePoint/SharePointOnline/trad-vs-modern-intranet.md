@@ -32,13 +32,13 @@ In the modern world, the intranet should be the center of your workplace. A mode
 
 Hallmarks of what constitutes a modern intranet:
 
-- **Rapid deployment** - adaptable designs can be built using out of the box pages and web parts and no longer solely depends on IT to deploy.
+- **Rapid deployment**: Adaptable designs can be built using out of the box pages and web parts and no longer solely depends on IT to deploy.
 
-- **Built with the UX in mind** - accessible design principals are built into the modern experience enabling viewers to securely access the intranet on any device.
+- **Built with the UX in mind**: Accessible design principals are built into the modern experience enabling viewers to securely access the intranet on any device.
 
-- **Personalized experience** - features like audience targeting, news, the Highlighted Content web part, and the My Feed web part make it easy to dynamically display personalized content.
+- **Personalized experience**: Features like audience targeting, news, the Highlighted Content web part, and the My Feed web part make it easy to dynamically display personalized content.
 
-- **Software as a service** - updates are automatic, ensuring you are using the latest technology.
+- **Software as a service**: Updates are automatic, ensuring you are using the latest technology.
 
 ## Why invest in the modern approach?
 
@@ -46,13 +46,13 @@ Investing in the modern approach looks different depending on the condition of y
 
 What makes modernizing your intranet worth the effort: 
 
-- **Move at the speed of your business** - display content dynamically using flexible designs that scale as your business grows.
+- **Move at the speed of your business**: Display content dynamically using flexible designs that scale as your business grows.
 
-- **Meet employees where they are** - target relevant content to specific viewers on any device.
+- **Meet employees where they are**: Target relevant content to specific viewers on any device.
 
-- **Reduce the cost of technical resources** - security, permissions, sharing, and other governance components can be centrally managed across Microsoft 365 apps.
+- **Reduce the cost of technical resources**: Security, permissions, sharing, and other governance components can be centrally managed across Microsoft 365 apps.
 
-- **Improves the likelihood of intranet success** - viewers are more likely to use the intranet when content is relevant, easy to navigate, and mobile.
+- **Improves the likelihood of intranet success**: Viewers are more likely to use the intranet when content is relevant, easy to navigate, and mobile.
 
 ## How to think about modern
 
