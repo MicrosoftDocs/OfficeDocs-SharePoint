@@ -28,6 +28,7 @@
 ### [Overview](get-started-new-admin-center.md)
 ### [What's new in admin center](what-s-new-in-admin-center.md)
 ### [Manage sites in new admin center](manage-sites-in-new-admin-center.md)
+### [Find classic site collection features](site-collections-page.md)
 ## [Hub sites]()
 ### [Planning](planning-hub-sites.md)
 ### [Create hub site](create-hub-site.md)
