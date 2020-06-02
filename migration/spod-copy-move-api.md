@@ -50,7 +50,8 @@ public List<SPCopyMigrationInfo> CreateCopyJobs(Uri[] exportObjectUris, Uri dest
 ```cs
 public bool IsMoveMode { get; set; }
 ```
-By default, this is set to copy. For move operation, set this parameter to true.
+>[!Important]
+>By default, this is set to copy. For a move operation, set this parameter to true.
 </br></br>
 
 
