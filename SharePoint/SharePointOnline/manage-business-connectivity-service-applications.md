@@ -32,7 +32,7 @@ After setup is complete, user permissions control access to the data that the co
     
 - Metadata Store permissions
     
-![A screenshot of the Edit ribbon in Business Connectivity Settings, showing BDC model Import button and permissions settings.](media/d78e7a3f-6199-4c5e-bbfd-dfa8d05c9826.png)
+![The Edit ribbon in Business Connectivity Settings, showing BDC model Import button and permissions settings.](media/d78e7a3f-6199-4c5e-bbfd-dfa8d05c9826.png)
   
 ### Object permissions
 <a name="__toc338059707"> </a>

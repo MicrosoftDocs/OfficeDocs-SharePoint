@@ -55,7 +55,7 @@ Using the steps below as a template, create your own custom guidance for site ow
 
 **Resources:**</br>
 - [Manage site creation in SharePoint](manage-site-creation.md)
-- [Secure SharePoint Sites and Files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
+- [Secure SharePoint sites and files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
 - [Branding and site provisioning solutions for SharePoint](/sharepoint/dev/solution-guidance/branding-and-site-provisioning-solutions-for-sharepoint)
 
 **Sample text:**</br>

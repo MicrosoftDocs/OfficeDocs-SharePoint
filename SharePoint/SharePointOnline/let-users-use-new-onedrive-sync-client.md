@@ -42,7 +42,7 @@ When you enable this feature, users will be able to sync the files in a SharePoi
     
 - Coauthor files in real time with Office 2016 (C2R build 16.0.7167.2xxx or MSI build 16.0.4432.100x)
     
-- Automatically transition from the existing OneDrive sync app (Groove.exe)
+- Automatically transition from the previous OneDrive sync app (Groove.exe)
     
    
 ## Deploy and configure the OneDrive sync app

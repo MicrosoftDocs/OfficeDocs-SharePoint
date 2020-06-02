@@ -51,7 +51,7 @@ The following tables detail the authentication types for browsers and Office Hub
 |SharePoint on-premises  <br/> |NTLM  <br/> |Active Directory  <br/> |Supported  <br/> |Supported  <br/> |
 |SharePoint on-premises  <br/> |Basic authentication  <br/> |Active Directory  <br/> |Supported  <br/> |Supported  <br/> |
 |SharePoint on-premises  <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |Supported  <br/> |Supported  <br/> |
-|SharePoint  <br/> |Forms-based authentication  <br/> |Org-ID  <br/> |Supported  <br/> |Supported  <br/> |
+|SharePoint in Microsoft 365  <br/> |Forms-based authentication  <br/> |Org-ID  <br/> |Supported  <br/> |Supported  <br/> |
    
 **Table: Mobile authentication support for Office Hub**
 
@@ -60,7 +60,7 @@ The following tables detail the authentication types for browsers and Office Hub
 |SharePoint on-premises  <br/> |NTLM  <br/> |Active Directory  <br/> |Supported  <br/> |
 |SharePoint on-premises  <br/> |Basic authentication  <br/> |Active Directory  <br/> |Not supported  <br/> |
 |SharePoint on-premises  <br/> |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |Not supported  <br/> |
-|SharePoint  <br/> |Forms-based authentication  <br/> |Org-ID  <br/> |Supported  <br/> |
+|SharePoint in Microsoft 365 <br/> |Forms-based authentication  <br/> |Org-ID  <br/> |Supported  <br/> |
    
 > [!IMPORTANT]
 > In order for mobile devices to communicate with SharePoint servers, Internet Protocol security (IPsec) must be disabled on the servers. This must be done because mobile devices are not domain-joined. 

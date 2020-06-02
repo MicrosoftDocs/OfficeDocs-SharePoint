@@ -27,7 +27,7 @@ To give you an idea of the goals for the Contoso website, here are some screen s
 ![Contoso Pages](../media/OTCSP_ContosoPages.jpg)
   
 > [!NOTE]
-> Most of the features described in this series are available only for private site collections in SharePoint. 
+> Most of the features described in this series are available only for private site collections in SharePoint for Microsoft 365. 
   
 ## Articles in this series
 
