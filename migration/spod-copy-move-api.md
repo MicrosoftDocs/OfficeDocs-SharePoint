@@ -25,26 +25,37 @@ The following API is based on the use of the SharePoint Client Side Object Model
 
 You can find the latest version of the SharePoint Online CSOM package from the [NuGet library](https://www.nuget.org/) using the ID *Microsoft.SharePointOnline.CSOM*. 
 
+## Limitations 
+Currently, the following limitations are:
+
+|**What**|**Limitation**|
+|:-----|:-----|
+|File size|	A file must be less than 2 GB.|
+|Number of items|	No more than 30,000 items in a job.|
+|Total size of job|	Job size not to exceed 100 GB.|
+
+
+
 
 ## Method
 
 ### CreateCopyJobs
 This method creates a new copy or move job that lets you  copy or move a file or folder from one site in SharePoint, OneDrive, or Teams, to another site. 
 
-### Syntax
+#### Syntax
 
 ```cs
 public List<SPCopyMigrationInfo> CreateCopyJobs(Uri[] exportObjectUris, Uri destinationUri, SPCopyMigrationOptions options)
  ```  
 
-### Parameters
+#### Parameters
 
 |**Parameter**|**Description**|
 |:-----|:-----|
 |exportObjectUris|The URL of a file or folders in a list that you want to copy or move|
 |destinationUri|URL for the destination location.|
 
-#### SPCopyMigrationOptions
+##### SPCopyMigrationOptions
 
 
 ```cs
@@ -161,16 +172,5 @@ public Uri JobQueueUri { get; set; }
 ```
 
 The reporting features are the same as they are for CreateMigrationJob. Logging tracks the status of the createCopyJobs. By default, blob queue permissions and settings are set to "all access”. It gives the job status as follows: job start, job end, and job error information. 
-
-## Limitation 
-Currently, the following limitations are:
-
-|**What**|**Limitation**|
-|:-----|:-----|
-|File size|	A file must be less than 2 GB.|
-|Number of items|	No more than 30,000 items in a job.|
-|Total size of job|	Job size not to exceed 100 GB.|
-
-
 
 
