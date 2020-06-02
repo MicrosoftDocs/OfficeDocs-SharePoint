@@ -44,7 +44,7 @@ public List<SPCopyMigrationInfo> CreateCopyJobs(Uri[] exportObjectUris, Uri dest
 |exportObjectUris|The URL of a file or folders in a list that you want to copy or move|
 |destinationUri|URL for the destination location.|
 
-### SPCopyMigrationOptions
+#### SPCopyMigrationOptions
 
 
 ```cs
