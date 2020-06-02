@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -104,6 +106,6 @@ The personal site collections are upgraded automatically when a user visits thei
   
 #### Other Resources
 
-[Upgrade a site collection](https://support.office.com/article/7f66dfdc-9a3d-4769-8a05-c654e4a27ec2)
+[Upgrade a site collection](upgrade-a-site-collection-2019.md)
   
 [Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)

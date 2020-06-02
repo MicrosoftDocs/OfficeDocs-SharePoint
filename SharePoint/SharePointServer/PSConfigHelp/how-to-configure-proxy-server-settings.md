@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/1/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -27,11 +29,11 @@ Use this procedure to configure the network proxy settings.
 
 1. On the **Start** screen, click **Control Panel**, click **Network and Sharing Center**, and then under **See also**, click **Internet Options**.
     
-2. In the **Internet Properties** dialog box, click the **Connections** tab. 
+2. In the **Internet Properties** dialog, click the **Connections** tab. 
     
 3. Click **LAN settings**.
     
-4. In the **Local Area Network (LAN) Settings** dialog box, in the **Automatic configuration** section, ensure that both check boxes are cleared. 
+4. In the **Local Area Network (LAN) Settings** dialog, in the **Automatic configuration** section, ensure that both check boxes are cleared. 
     
 5. In the **Proxy server** section, do the following : 
     
@@ -43,8 +45,8 @@ Use this procedure to configure the network proxy settings.
     
 4. Select the **Bypass proxy server for local addresses** check box. 
     
-6. Click **OK** to close the **Local Area Network (LAN) Settings** dialog box. 
+6. Click **OK** to close the **Local Area Network (LAN) Settings** dialog. 
     
-7. Click **OK** to close the **Internet Options** dialog box. 
+7. Click **OK** to close the **Internet Options** dialog. 
     
 

@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/11/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -31,7 +33,7 @@ For this scenario, we assume that:
     
 - You have one single, established Yammer Basic or Enterprise network that has active users.
     
-    For information about how users are managed in Yammer Enterprise, see [Manage Yammer users across their life cycle from Office 365](https://go.microsoft.com/fwlink/?linkid=875043).
+    For information about how users are managed in Yammer Enterprise, see [Manage Yammer users across their life cycle from Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875043).
     
 ## Scenario challenges
 
@@ -48,13 +50,13 @@ If you are using Yammer Basic, one of the top issues in this scenario is the inc
 |Same user and email address in AD DS and Yammer  <br/> |The same user exists in both AD DS and Yammer with the same user name and email address. For this user, there is no change in the user name after you set up directory synchronization and Yammer Enterprise.  <br/> |
 |Different user account  <br/> |User B used a different email address when they signed up for Yammer. For this user, there is a change after you set up Yammer Enterprise. For this scenario, you should let the affected users know about the changes to their logon credentials. The reason for the different logon credentials might be because the user joined the Basic network by using an alias, not their primary email address. It can also occur because the user changed their name. You can manage and make these email address changes by using the [Bulk Update Users](https://go.microsoft.com/fwlink/?LinkID=402146) page.  <br/> |
 |Different domain  <br/> |In a scenario where you have multiple Yammer networks, you have disconnected users. This scenario is no longer supported after October 26, 2018. By merging networks, everyone in your organization can use a single Yammer network. This scenario is covered in more detail in [Integrate multiple Yammer networks into SharePoint Server](integrate-multiple-yammer-networks-into-sharepoint-server.md).  <br/> |
-|Non-existent users  <br/> |When a user is removed or disabled in Office 365, if you have set up Yammer to [Enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042), the user is removed from Yammer Enterprise.  <br/> |
+|Non-existent users  <br/> |When a user is removed or disabled in Microsoft 365, if you have set up Yammer to [Enforce Microsoft 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042), the user is removed from Yammer Enterprise.  <br/> |
    
 ## Step 1: Set up directory synchronization
 
-Office 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to [Enforce Office 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042). If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
+Microsoft 365 uses Azure Active Directory for identity management, and Yammer Enterprise can be set up to [Enforce Microsoft 365 identity for Yammer users](https://go.microsoft.com/fwlink/?linkid=875042). If you're using an on-premises directory, in order to manage users in one place, you need to sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
-For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
+For more information, see [Plan for directory synchronization for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
   
 ## Step 2: Disable default SharePoint Server social features
 
@@ -73,7 +75,7 @@ After you disable the default SharePoint Server social features, you should [use
 [Social scenarios with Yammer and SharePoint Server](social-scenarios-with-yammer-and-sharepoint-server.md)
 #### Other Resources
 
-[Manage Yammer users across their life cycle from Office 365](https://go.microsoft.com/fwlink/?linkid=875043)
+[Manage Yammer users across their life cycle from Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875043)
 
 [Yammer - Admin Help](https://go.microsoft.com/fwlink/?linkid=525575)
 

@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 09/07/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -87,7 +89,7 @@ There are two options:
 
     - **Default to canonical** Only use this option if you have external networks. If a user switches to an external network from a Yammer feed embedded on a SharePoint page, if this option is checked, when the user returns to the SharePoint page, they will start by seeing their home network. If this is unchecked, the user will go directly to the external network.
 
-    - **Use SSO**: Configure redirection to your identity provider. The domain listed in the **Network permalink** field must be configured for federation in Office 365. For more information about this option, see [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502).
+    - **Use SSO**: Configure redirection to your identity provider. The domain listed in the **Network permalink** field must be configured for federation in Microsoft 365. For more information about this option, see [Embed](https://go.microsoft.com/fwlink/p/?LinkId=507501) in the [Yammer Developer Center](https://go.microsoft.com/fwlink/p/?LinkId=507502).
 
 3. Select the **Appearance** options.
     The header and footer options only apply to some types of feeds. The preview will show you whether they apply to the feed type you have selected.

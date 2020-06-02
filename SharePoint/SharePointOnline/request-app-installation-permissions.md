@@ -6,6 +6,8 @@ author: kaarins
 manager: pamgreen
 ms.date: 5/22/2018
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -22,7 +24,7 @@ Apps are small, easy-to-use web applications that add functionality to SharePoin
   
 Some apps are included with SharePoint, others might be developed by your organization, and still others are created by third-party developers and available for purchase from the SharePoint Store. 
   
- Only those users who have the appropriate permission level can add apps to a site. Typically, Full Control permission (or membership in the Site Owners group) is the minimum requirement. But some apps require access to data sources or web services to read data required for the app. This kind of app has permissions associated with it. When the app requires organization-level permissions, the requestor will need approval from an Office 365 admin to continue with the installation. The approval process includes a workflow, called the permission request flow, which ensures installation requests are directed to the right person. 
+ Only those users who have the appropriate permission level can add apps to a site. Typically, Full Control permission (or membership in the Site Owners group) is the minimum requirement. But some apps require access to data sources or web services to read data required for the app. This kind of app has permissions associated with it. When the app requires organization-level permissions, the requestor will need approval from a Microsoft 365 admin to continue with the installation. The approval process includes a workflow, called the permission request flow, which ensures installation requests are directed to the right person. 
   
 This article is intended for global admins and SharePoint admins at the organization level who receive requests for app installation.
   
@@ -32,14 +34,14 @@ When users encounter an app that requires admin permission to install, they'll s
   
 ![Screen shot of the application details page with the Request Approval link highlighted](media/4b047f1e-0254-4bc6-82a5-b96e0c091d7f.jpg)
   
- Clicking the link displays an **App Request** dialog box where they provide justification for the request. 
+ Clicking the link displays an **App Request** dialog where they provide justification for the request. 
   
-![Screen shot of the app request dialog box](media/ad8f97f2-4cf1-41f8-bcd2-5cc7e1e0ecc6.jpg)
+![Screen shot of the app request dialog](media/ad8f97f2-4cf1-41f8-bcd2-5cc7e1e0ecc6.jpg)
   
 When they click **Request**, an automated email is sent to everyone who is a site collection admin for the app catalog.
   
 > [!NOTE]
-> Sometimes, depending on the Office Store settings, the **App Request** dialog box will include a place for users to indicate the number of licenses required along with the justification. See [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md) for more information. 
+> Sometimes, depending on the Office Store settings, the **App Request** dialog will include a place for users to indicate the number of licenses required along with the justification. See [Configure settings for the SharePoint Store](configure-sharepoint-store-settings.md) for more information. 
   
  **Approve or deny requests**
   
@@ -53,7 +55,7 @@ When they click **Request**, an automated email is sent to everyone who is a sit
     
   - **Reject** to deny the request and send an auto-generated email to the requester. 
     
-    ![Screen shot showing the Approve or Reject App Request dialog box](media/c5527b3f-6413-4591-9d91-5f89f2e253a3.png)
+    ![Screen shot showing the Approve or Reject App Request dialog](media/c5527b3f-6413-4591-9d91-5f89f2e253a3.png)
   
 The app catalog is where you store and manage all apps for the organization. There you can see a list of all pending app installation requests. 
   

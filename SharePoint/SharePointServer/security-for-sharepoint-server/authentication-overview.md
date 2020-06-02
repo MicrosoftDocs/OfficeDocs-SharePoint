@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/21/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -126,7 +128,7 @@ For more information, see [Plan for app authentication in SharePoint 2013 Previe
 ## Server-to-server authentication in SharePoint Server
 <a name="s2sauth"> </a>
 
-Server-to-server authentication is the validation of a server's request for resources that is based on a trust relationship established between the STS of the server that runs SharePoint Server and the STS of another server that supports the OAuth server-to-server protocol, such as on-premises running SharePoint Server, Exchange Server 2016, Skype for Business 2016, or Azure Workflow Service, and SharePoint Server running in Office 365. Based on this trust relationship, a requesting server can access secured resources on the SharePoint server on behalf of a specified user account, subject to server and user permissions.
+Server-to-server authentication is the validation of a server's request for resources that is based on a trust relationship established between the STS of the server that runs SharePoint Server and the STS of another server that supports the OAuth server-to-server protocol, such as on-premises running SharePoint Server, Exchange Server 2016, Skype for Business 2016, or Azure Workflow Service, and SharePoint Server running in Microsoft 365. Based on this trust relationship, a requesting server can access secured resources on the SharePoint server on behalf of a specified user account, subject to server and user permissions.
   
 For example, a server running Exchange Server 2016 can request resources of a server running SharePoint Server for a specific user account. This contrasts with app authentication, in which the app does not have access to user account credential information. The user can be currently signed in to the server making the resource request or not, depending on the service and the request.
   
@@ -150,19 +152,19 @@ For on-premises servers, an example basic process is as follows:
     
 7. The service on the server running SharePoint Server renders the page for the user.
     
-When both servers are running in Office 365, an example process is as follows:
+When both servers are running in Microsoft 365, an example process is as follows:
   
 1. A user opens a SharePoint web page that requires information from another server (for example, display the list of tasks from both SharePoint Online and Exchange Online).
     
 2. SharePoint Online requests and receives a server-to-server token from ACS.
     
-3. SharePoint Online sends the server-to-server token to the Office 365 server.
+3. SharePoint Online sends the server-to-server token to the Microsoft 365 server.
     
-4. The Office 365 server verifies the user identity in the server-to-server token with ACS.
+4. The Microsoft 365 server verifies the user identity in the server-to-server token with ACS.
     
-5. The Office 365 server sends a message to SharePoint Online to indicate that the sent server-to-server token was valid.
+5. The Microsoft 365 server sends a message to SharePoint Online to indicate that the sent server-to-server token was valid.
     
-6. The service on SharePoint Online accesses the data on the Office 365 server.
+6. The service on SharePoint Online accesses the data on the Microsoft 365 server.
     
 7. The service on SharePoint Online renders the page for the user.
     

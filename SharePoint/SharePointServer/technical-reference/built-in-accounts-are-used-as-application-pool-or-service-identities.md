@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/31/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -24,7 +26,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Built-in
   
  **Summary:** Built-in or local computer accounts are used as an application pool identity or service identity. 
   
- **Cause:** Using built-in accounts as application pool identities or as service identities is not supported in a farm configuration. Build-in accounts include Network Service, Local Service, and Local System. 
+ **Cause:** Using built-in accounts as application pool identities or as service identities is not supported in a farm configuration. Built-in accounts include Network Service, Local Service, and Local System. 
   
  **Resolution: Change the identity that is used for the service or application pool**
   

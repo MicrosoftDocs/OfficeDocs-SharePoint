@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/21/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -93,19 +95,19 @@ To add or edit a query rule, you must go to the **Manage query rules** page. Dep
     
   - To apply the query rule to one or more specific result sources, select **One of these sources**. By default, the result source that you specified in step 1 is selected. To add a result source for the query rule, do the following: 
     
-    Click **Add Source**. In the **Add Source** dialog box, select a result source, and then click **Save**.
+    Click **Add Source**. In the **Add Source** dialog, select a result source, and then click **Save**.
     
 6. To restrict the query rule to categories —for example, that a query rule should fire only when a term from your managed navigation term set is included in the query — click **Show more conditions**, and then specify the following: 
     
-  - To restrict the query rule to a category, click **Add category**. In the **Import from Taxonomy** dialog box, select a term that when you include it in a query will cause the query rule to fire, and then click **Save**.
+  - To restrict the query rule to a category, click **Add category**. In the **Import from Taxonomy** dialog, select a term that when you include it in a query will cause the query rule to fire, and then click **Save**.
     
   - To restrict the query rule to a user segment, do the following:
     
 1. Click **Add User Segment**.
     
-2. In the **Add User Segment** dialog box, in the **Title** field, type the title for this rule. 
+2. In the **Add User Segment** dialog, in the **Title** field, type the title for this rule. 
     
-3. In the **Import from taxonomy** dialog box, select a term that represents a user segment that will cause the query rule to fire when it appears in a query. 
+3. In the **Import from taxonomy** dialog, select a term that represents a user segment that will cause the query rule to fire when it appears in a query. 
     
 4. Click **Save**
     
@@ -117,8 +119,8 @@ To add or edit a query rule, you must go to the **Manage query rules** page. Dep
 |**Query condition**|**Description**|**Configuration**|**Example**|
 |:-----|:-----|:-----|:-----|
 |**Query Matches Keyword Exactly** <br/> |Select this option if you want the query rule to fire when a query exactly matches a word or phrase that you specify.  <br/> |In the **Query exactly matches one of these phrases** text box, type one or more phrases separated by semicolons.  <br/> |You type "picture; pic" in the **Query contains one of these phrases** box. The query rule will fire when a user types "picture" or "pic" in a search box. The rule will not fire if a user types "pictures" or "sunny picture."  <br/> |
-|**Query Contains Action Term** <br/> |Select this option if you want the query rule to fire when a query contains a term that indicates something that the user wants to do. The term must be at the beginning or end of the query.  <br/> | Specify the action term that will cause the query rule to fire by doing one of the following:  <br/>  Select **Action term is one of these phrases**, and type one or more phrases.  <br/>  Select **Action term is an entry in this dictionary**, and then click **Import from taxonomy**. In the **Import from taxonomy** dialog box, select a term from a term set, and then click **Save**.  <br/> |You type the word "download" in the **Action term is one of these phrases** text box. When a user types "download Contoso Electronics datasheet" in a search box, the user is probably not searching for a document that contains the words "download," "Contoso," "Electronics," and "datasheet." Instead, the user is probably trying to download a Contoso Electronics datasheet. When a user types "download Contoso Electronics datasheet" in a search box, the query rule fires, and only the words "Contoso," "Electronics," and "datasheet" are passed to the search index.  <br/> |
-|**Query Matches Dictionary Exactly** <br/> |Select this option if you want the query rule to fire when the query exactly matches a dictionary entry.  <br/> |From the ** Query contains an entry in this dictionary ** menu, select a dictionary. To specify a different dictionary, click **Import from taxonomy**, and then from the **Import from taxonomy** dialog box, select a term from a term set, and then click **Save**.  <br/> |In an Internet business scenario, you have a term set named Brands that contains all brand names within your catalog. The query rule will fire when a user types a name that matches a term from the Brands term set.  <br/> |
+|**Query Contains Action Term** <br/> |Select this option if you want the query rule to fire when a query contains a term that indicates something that the user wants to do. The term must be at the beginning or end of the query.  <br/> | Specify the action term that will cause the query rule to fire by doing one of the following:  <br/>  Select **Action term is one of these phrases**, and type one or more phrases.  <br/>  Select **Action term is an entry in this dictionary**, and then click **Import from taxonomy**. In the **Import from taxonomy** dialog, select a term from a term set, and then click **Save**.  <br/> |You type the word "download" in the **Action term is one of these phrases** text box. When a user types "download Contoso Electronics datasheet" in a search box, the user is probably not searching for a document that contains the words "download," "Contoso," "Electronics," and "datasheet." Instead, the user is probably trying to download a Contoso Electronics datasheet. When a user types "download Contoso Electronics datasheet" in a search box, the query rule fires, and only the words "Contoso," "Electronics," and "datasheet" are passed to the search index.  <br/> |
+|**Query Matches Dictionary Exactly** <br/> |Select this option if you want the query rule to fire when the query exactly matches a dictionary entry.  <br/> |From the ** Query contains an entry in this dictionary ** menu, select a dictionary. To specify a different dictionary, click **Import from taxonomy**, and then from the **Import from taxonomy** dialog, select a term from a term set, and then click **Save**.  <br/> |In an Internet business scenario, you have a term set named Brands that contains all brand names within your catalog. The query rule will fire when a user types a name that matches a term from the Brands term set.  <br/> |
 |**Query More Common in Source** <br/> |Select this option if you want the query rule to fire if the query was frequently issued by users on a different result source that you specify.  <br/> |In the **Query is more likely to be used in this source** menu, select a result source.  <br/> |In the **Query is more likely to be used in this source** menu, you select **Local Video Results**. The query rule will fire if a user types the word "training" in a search box and that word was frequently typed in a search box in the Videos vertical.  <br/> |
 |**Result Type Commonly Clicked** <br/> |Select this option if you want the query rule to fire if other users frequently clicked a particular result type after they typed the same query.  <br/> |In the **Commonly clicked results match result type** menu, select a result type.  <br/> |In an Internet business scenario, you have a catalog of electronic products. Each product has a PDF datasheet. So when users query for a specific product, the search results will return two result types: one that links to the page that has the product details, and one that links to the PDF datasheet. You can create a query rule that will fire if the system over time recognizes that users frequently click the search result for the PDF datasheet. When you know the type of content the user is looking for, you can specify an action for this query rule.  <br/> |
 |**Advanced Query Text Match** <br/> |Select this option if you want to use a regular expression, a phrase, or a dictionary entry that will cause the query rule to fire.  <br/> |To match all phone numbers that are in a certain format, you specify a regular expression in the **Query matches this regular expression** box.  <br/> |To match all phone numbers that are in the format nnn-nnn-nnnn, you specify the regular expression "\(?(\d{3})\)?-?(\d{3})-(\d{4})".  <br/> |
@@ -130,7 +132,7 @@ To add or edit a query rule, you must go to the **Manage query rules** page. Dep
   
 8. In the **Actions** section, specify the action to take when the query rule fires. Specify one of the following: 
     
-  - To promote individual results so that they appear towards the top of search results, click **Add Promoted Result** (in SharePoint 2010 Products this was called Best Bets). In the **Add Promoted Result** dialog box, in the **Title** field, type the name that you want to give this promoted result. In the **URL** field, type the URL of the result that should be promoted. Render the URL as a banner instead of as a hyperlink. Click **Save**.
+  - To promote individual results so that they appear towards the top of search results, click **Add Promoted Result** (in SharePoint 2010 Products this was called Best Bets). In the **Add Promoted Result** dialog, in the **Title** field, type the name that you want to give this promoted result. In the **URL** field, type the URL of the result that should be promoted. Render the URL as a banner instead of as a hyperlink. Click **Save**.
     
     You can add several individual promoted results. When there is more than one promoted result, you can specify the relative ranking. 
     
@@ -240,7 +242,7 @@ The ranking model calculates a ranking order of search results. You can change t
   
 1. From step 8 of the procedure [Create a query rule](create-query-rules-for-web-content-management.md#BKMK_AddQueryRule), on the **Add Query Rule** page, in the **Actions** section, click **Change ranked results by changing the query**.
     
-2. In the **Build Your Query** dialog box, specify the following: 
+2. In the **Build Your Query** dialog, specify the following: 
     
   - On the **BASIC** tab, select options from the following lists to change ranked search results: 
     
@@ -319,7 +321,7 @@ When multiple query rules are active for a Search service application, a site co
   
 6. Click **Order Selected Rules**.
     
-7. In the **Order Selected Rules** dialog box, do either of the following, and then click **OK**:
+7. In the **Order Selected Rules** dialog, do either of the following, and then click **OK**:
     
   - Select **Move rules to new group with this name**, and then type a name for the group.
     

@@ -5,6 +5,8 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -17,9 +19,12 @@ description: "Learn how to configure a Secure Store Target Application, includin
 
 # Create or edit a Secure Store Target Application
 
-When you want to use external data, such as data from your other business applications or partner resources) in SharePoint, you can use Business Connectivity Services (BCS) together with Secure Store. And, you can manage BCS and Secure Store right in the SharePoint admin center. The external data source that you can connect to is called a Secure Store Target Application, or just a Target Application. 
+When you want to use external data (such as data from your other business applications or partner resources) in SharePoint, you can use Business Connectivity Services (BCS) together with Secure Store. And, you can manage BCS and Secure Store right in the SharePoint admin center. The external data source that you can connect to is called a Secure Store Target Application, or just a Target Application. 
   
 BCS makes it possible for you to set up a connection to the Target Application, and the Secure Store enables you to manage the credentials that are required by the external data source. 
+
+>[!NOTE]
+>To access the Secure Store, you must have the SharePoint Admin role or Global Admin role.
   
 ## How the Secure Store Service Works
 <a name="__toc346879710"> </a>
@@ -37,7 +42,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
 ## Create a Target Application
 <a name="__toc346879711"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -58,25 +63,25 @@ Another benefit of the Secure Store Service is that it eliminates authentication
     
 8. **Target Application Type**. By default, SharePoint uses type **Group Restricted**. 
     
-9. In the **Credential Fields** section, enter the **Field Names** and **Field Types** for the credentials that are required to access data in the Target Application. These fields determine how you will map identity in the Secure Store Service. By default, the Credential Fields list the Windows User Name and Windows Password with matching Field Types (User Name and Password), and specifies that the password is masked. 
+9. In the **Credential Fields** section, for the credentials that are required to access data in the Target Application, enter the **Field Names** and **Field Types**. These fields determine how you will map identity in the Secure Store Service. By default, the Credential Fields list the Windows User Name and Windows Password with matching Field Types (User Name and Password), and specifies that the password is masked. 
     
-10. In the **Target Application Administrators** section, enter a list of users, or use the Browse button to search for the name of a group. This section usually contains the account of the SharePoint administrator, or a global administrator. 
+10. In the **Target Application Administrators** section, enter a list of users, or to search for the name of a group, select **Browse**. This section usually contains the account of the SharePoint admin, or a global admin. 
     
-11. In the **Members** section, enter a list of users or SharePoint groups of users who need to access the target application. Or, you can use the Browse button to search for the name of a group that you want to map to the Target Application. 
+11. In the **Members** section, enter a list of users or SharePoint groups of users who need to access the target app. Or, to search for the name of a group that you want to map to the Target Application, select **Browse**. 
     
 12. Select **OK** to accept this configuration and return to the Secure Storage Service page. The new Target Application appears on the page. 
     
 ## Edit settings for a Target Application
 <a name="__toc346879712"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
     
 2. Under **Secure store**, select **Open**.
 
-3. Select an existing Target Application from the list of Target Applications.
+3. From the list of Target Applications, select an existing Target Application.
     
 4. On the ribbon, select **Edit**.
     
@@ -98,7 +103,7 @@ Another benefit of the Secure Store Service is that it eliminates authentication
 ## Set credentials for a Target Application
 <a name="__toc346879713"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -107,11 +112,11 @@ Another benefit of the Secure Store Service is that it eliminates authentication
   
 3. Select a single Target Application from the list if you have created more than one.
     
-4. In the **Credentials** group on the ribbon, select **Set**. This opens the **Set Credentials for Secure Store Target Application (Group)** dialog box. When you set credentials, you map a Target Application Group to a single set of credentials for an external data system. 
+4. In the **Credentials** group on the ribbon, select **Set**. This opens the **Set Credentials for Secure Store Target Application (Group)** dialog. When you set credentials, you map a Target Application Group to a single set of credentials for an external data system. 
     
     ![Screenshot of the "Set credentials for a Secure Store Target Application" dialog. You can use this dialog to set the logon credentials for an external data source](media/ca3584ac-34d5-431d-a803-a6888b3a451d.png)
   
-5. In the **Set Credentials for Secure Store Target Application (Group)** dialog box, enter the credential values that you want. The credential fields that you enter apply to the external data system. 
+5. In the **Set Credentials for Secure Store Target Application (Group)** dialog, enter the credential values that you want. The credential fields that you enter apply to the external data system. 
     
     > [!NOTE]
     >  The following fields cannot be edited. These fields specify the Secure Store mapping for the Target Application: **Target Application Name**, **Target Application ID**, and **Credential Owners**. 

@@ -1,46 +1,48 @@
 ---
-title: "Integrate a Yammer network into SharePoint Server and Office 365"
+title: "Integrate a Yammer network into SharePoint Server and Microsoft 365"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/7/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 2b98f39e-649f-4b00-b025-0775ac996268
-description: "Learn how to integrate a Yammer network together with your SharePoint Server environment and your Office 365 tenant."
+description: "Learn how to integrate a Yammer network together with your SharePoint Server environment and your Microsoft 365 organization."
 ---
 
-# Integrate a Yammer network into SharePoint Server and Office 365
+# Integrate a Yammer network into SharePoint Server and Microsoft 365
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
-This scenario describes the prerequisites and recommended steps to integrate a Yammer network together with your SharePoint Server environment and your Office 365 for professionals and small businesses tenant.
+This scenario describes the prerequisites and recommended steps to integrate a Yammer network together with your SharePoint Server environment and your Microsoft 365 Apps for enterprise or Microsoft 365 Apps for business.
   
 ## Scenario prerequisites
 
-For this scenario, we assume that:
+For this scenario, we assume that you have:
   
-- You have SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
+- SharePoint Server 2019, SharePoint Server 2016, or SharePoint Server 2013 SP1 or later installed.
     
-- You have an existing Office 365 tenant and a Yammer network.
+- An existing Microsoft 365 organization and a Yammer network.
     
-- You have enabled Yammer as the Office 365 social experience on the SharePoint Online admin center.
+- Enabled Yammer as the Microsoft 365 social experience on the SharePoint Online admin center.
     
-- You use Active Directory Domain Services (AD DS) as your identity provider and Active Directory Federation Services (AD FS) 2.0 for identity federation.
+- Active Directory Domain Services (AD DS) as your identity provider, and Active Directory Federation Services (AD FS) 2.0 for identity federation.
     
-- You have already established directory synchronization with Office 365. 
+- Already established directory synchronization with Microsoft 365. 
     
 > [!IMPORTANT]
-> Planning your Office 365 user management is fundamental to deploying Office 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Office 365 uses Microsoft Azure Active Directory to provide authentication to Office 365 services, includingYammer Enterprise. This means Office 365 uses the identity that is synchronized with Azure AD to provide authentication. 
+> Planning your user management is fundamental to deploying Microsoft 365 and Yammer Enterprise. To understand how user management works, it's important to understand that Microsoft 365 uses Microsoft Azure Active Directory to provide authentication to Microsoft 365 services, including Yammer Enterprise. This means Microsoft 365 uses the identity that is synchronized with Azure AD to provide authentication. 
   
 ## Step 1: Configure directory synchronization
 
-You probably have already set up directory synchronization for Office 365 and your on-premises directory. If not, sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
+You probably have already set up directory synchronization for Microsoft 365 and your on-premises directory. If not, sync your on-premises directory with Azure Active Directory by using Azure Active Directory Connect. 
   
-For more information, see [Plan for directory synchronization for Office 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
+For more info, see [Plan for directory synchronization for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=875044) and [Integrate your on-premises directories with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=869669).
 
 ## Step 2: Use Yammer Embed
 

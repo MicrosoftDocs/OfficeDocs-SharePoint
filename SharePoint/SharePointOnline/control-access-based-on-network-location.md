@@ -1,23 +1,27 @@
 ---
-title: "Control access to SharePoint and OneDrive data based on network location"
+title: "Network location-based access to SharePoint and OneDrive"
 ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
 ms.assetid: b5a5f1f1-1174-4c6b-91d0-9273a6b6971f
-description: "Learn how to restrict access to SharePoint and OneDrive from untrusted networks."
+description: "In this article, you'll learn how to control access to SharePoint and OneDrive data based on network location."
 ---
 
 # Control access to SharePoint and OneDrive data based on network location
@@ -32,7 +36,7 @@ Here are some important considerations for setting a location-based policy:
   
 - **External sharing**: If files and folders have been shared with guests who authenticate, they will not be able to access the resources outside of the defined IP address range. 
     
-- **Access from first and third-party apps**: Normally, a SharePoint document can be accessed from apps like Exchange, Yammer, Skype, Teams, Planner, Flow, PowerBI, Power Apps, OneNote, and so on. When a location-based policy is enabled, apps that do not support location-based policies are blocked. The only apps that currently support location-based policies are Teams, Yammer, and Exchange. This means that all other apps are blocked, even when these apps are hosted within the trusted network boundary. This is because SharePoint cannot determine whether a user of these apps is within the trusted boundary.
+- **Access from first and third-party apps**: Normally, a SharePoint document can be accessed from apps like Exchange, Yammer, Skype, Teams, Planner, Power Automate, PowerBI, Power Apps, OneNote, and so on. When a location-based policy is enabled, apps that do not support location-based policies are blocked. The only apps that currently support location-based policies are Teams, Yammer, and Exchange. This means that all other apps are blocked, even when these apps are hosted within the trusted network boundary. This is because SharePoint cannot determine whether a user of these apps is within the trusted boundary.
     
     > [!NOTE]
     > We recommend that when a location-based policy is enabled for SharePoint, the same policy and IP address ranges should be configured for Exchange and Yammer. SharePoint relies on these services to enforce that the users of these apps are within the trusted IP range.
@@ -44,12 +48,12 @@ Here are some important considerations for setting a location-based policy:
 > [!NOTE]
 > It can take up to 15 minutes for these settings to take effect. 
   
-1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Access control page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
     
-2. Select **Network location** and turn on **Allow access only from specific IP address ranges**.
+2. Select **Network location**, and turn on **Allow access only from specific IP address ranges**.
 
     ![The Network location panel](media/access-control-network-location.png)
     

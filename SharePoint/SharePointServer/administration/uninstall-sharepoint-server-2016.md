@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -48,7 +50,7 @@ Use this procedure to uninstall SharePoint Server 2016.
   
 4. In the **Programs** area, click **Uninstall a program**.
     
-5. In the **Uninstall or change a program** dialog box, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019**.
+5. In the **Uninstall or change a program** dialog, click **Microsoft SharePoint Server 2016** or **Microsoft SharePoint Server 2019**.
     
 6. Click **Change**.
     

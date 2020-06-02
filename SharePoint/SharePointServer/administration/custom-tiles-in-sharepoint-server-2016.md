@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 5/30/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -20,7 +22,7 @@ description: "This article describes Custom Tiles which is one of the new featur
 
 [!INCLUDE[appliesto-xxx-2016-2019-xxx-md](../includes/appliesto-xxx-2016-2019-xxx-md.md)] 
   
-In SharePoint Server, users can quickly and easily get to all of their SharePoint and Office 365 workloads directly from the app launcher. Now in addition to those, you can also add your own custom tiles that point to other SharePoint sites, external sites, legacy apps, and more. This makes it easy to find the relevant sites, apps, and resources to do your job
+In SharePoint Server, users can quickly and easily get to all of their SharePoint and Microsoft 365 workloads directly from the app launcher. Now in addition to those, you can also add your own custom tiles that point to other SharePoint sites, external sites, legacy apps, and more. This makes it easy to find the relevant sites, apps, and resources to do your job
   
 This feature is configured on the web app level by an ITPro administrator by using PowerShell cmdlets.
   
@@ -75,7 +77,7 @@ The custom tile feature is not enabled by default. To enable the feature, do the
     
 8. Click **new item** to add a new item to the list. 
     
-     ![Displays dialog box to create a new entry for a CustomTile in the November 2016 PU for SharePoint Server 2016](../media/6597a87e-cd66-463e-b405-8897926f9c55.jpg)
+     ![Displays dialog to create a new entry for a CustomTile in the November 2016 PU for SharePoint Server 2016](../media/6597a87e-cd66-463e-b405-8897926f9c55.jpg)
   
 9. Enter a **Title** for the new tile. The name will appear in the tile. 
     

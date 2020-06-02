@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/6/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -27,7 +29,7 @@ PerformancePoint Services has settings such as cache durations, filter behavior,
 |**Setting**|**Description**|
 |:-----|:-----|
 |Secure Store and Unattended Service Account  <br/> |A single shared user account is used to access all data sources. This is a low-privileged domain account stored in the Secure Store Service. An application ID is automatically mapped in the Secure Store Service that specifies the default secure store target application, PerformancePoint Services, and it looks up credential mapping when it connects to external data sources.  <br/> > [!IMPORTANT]> When you establish an unattended service account, first determine whether this account should have access to the data sources that will be retrieved in Dashboard Designer.           |
-|Comments  <br/> |Users who have appropriate permissions can annotate scorecard cells in Dashboard Designer and on a deployed SharePoint site.  <br/> > [!NOTE]> If a Dashboard Designer author attempts to add cell comments that are disabled, the author will receive a message that states, "An unexpected system error has occurred. Additional details have been logged for your administrator." If you want the author to be able to insert comments in a cell, select the check box, **Enable comments**.           You can also remove comments by clicking **Delete Comments by Date**. This command opens a dialog box. Select the date by which you want comments removed from the PerformancePoint Services database, and then click **Delete**.  <br/> |
+|Comments  <br/> |Users who have appropriate permissions can annotate scorecard cells in Dashboard Designer and on a deployed SharePoint site.  <br/> > [!NOTE]> If a Dashboard Designer author attempts to add cell comments that are disabled, the author will receive a message that states, "An unexpected system error has occurred. Additional details have been logged for your administrator." If you want the author to be able to insert comments in a cell, select the check box, **Enable comments**.           You can also remove comments by clicking **Delete Comments by Date**. This command opens a dialog. Select the date by which you want comments removed from the PerformancePoint Services database, and then click **Delete**.  <br/> |
 |Analysis Services EffectiveUserName  <br/> |The Analysis Services EffectiveUserName capability is an alternative to Windows delegation for allowing individual users to securely access Analysis Services data. When this setting is enable, all connections to Analysis Services data for individual users will be made using the EffectiveUserName connection string property instead of Windows delegation.  <br/> |
 |Cache  <br/> |Temporarily storing (or "caching") frequently-accessed items decreases load times for future requests. Specify the duration for items to remain in the cache.  <br/> |
 |Data Sources  <br/> |Set the duration of no response before a data source query is canceled.  <br/> |

@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -71,13 +73,13 @@ After you perform this procedure, the site collection and all of its content and
     
 5. On the **Delete Site Collection** page, in the **Site Collection** list, click **Change Site Collection**.
     
-    The **Select Site Collection** webpage dialog box appears. 
+    The **Select Site Collection** webpage dialog appears. 
     
 6. In the **Web Application** list, click **Change Web Application**.
     
-    The **Select Web Application** webpage dialog box appears. 
+    The **Select Web Application** webpage dialog appears. 
     
-7. Click the name of the web application that contains the site collection that you want to delete. Relative URLs of sites in the site collections of the web application that you have selected appear on the **Select Site Collection** dialog box. 
+7. Click the name of the web application that contains the site collection that you want to delete. Relative URLs of sites in the site collections of the web application that you have selected appear on the **Select Site Collection** dialog. 
     
 8. Click the relative URL of the site collection that you want to delete, and then click **OK**.
     

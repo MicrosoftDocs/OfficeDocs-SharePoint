@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/22/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -16,7 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPO_Content
 ms.assetid: ad39b1b5-a73b-4a48-af5e-4f032ea52e1d
-description: "Configure a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Office 365."
+description: "Configure a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Microsoft 365."
 ---
 
 # Configure a hybrid solution for SharePoint Server

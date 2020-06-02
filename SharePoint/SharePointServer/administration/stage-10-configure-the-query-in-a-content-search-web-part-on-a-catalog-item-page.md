@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 12/29/2016
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -96,9 +98,9 @@ As mentioned above, when we configured the query in the CSWP on the catalog page
 
 1. In the Web Part, click the **Web Part Menu** --> **Edit Web Part**. 
     
-2. In the Web Part tool pane, click **Change query**. This opens a dialog box. 
+2. In the Web Part tool pane, click **Change query**. This opens a dialog. 
     
-3. In the dialog box, from the **Select a query** list, select your catalog result source. In our scenario, it's  *catalog - Products Results*  . 
+3. In the dialog, from the **Select a query** list, select your catalog result source. In our scenario, it's  *catalog - Products Results*  . 
     
      ![Catalog Result Source](../media/OTCSP_CatalogResultSource.png)
   

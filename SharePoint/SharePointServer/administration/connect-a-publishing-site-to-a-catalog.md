@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/18/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -77,7 +79,7 @@ Before you connect the publishing site collection to a catalog, review the infor
     
   - Next to the **Root term of hierarchy** box, click **Browse for a valid choice**.
     
-  - In the **Select: Add Terms** dialog box, click the term that corresponds to the level from which you want to integrate the catalog tagging term set, click **Select**, and then click **OK**.
+  - In the **Select: Add Terms** dialog, click the term that corresponds to the level from which you want to integrate the catalog tagging term set, click **Select**, and then click **OK**.
     
   - To integrate the root term that is the parent of the selected term in the publishing site navigation term set, select the **Include root term in site navigation** check box. 
     
@@ -92,7 +94,7 @@ Before you connect the publishing site collection to a catalog, review the infor
     
   - Click **Browse for a valid choice** to display the publishing site navigation term set. 
     
-  - In the **Select: Add Terms** dialog box, click the term that corresponds to the level from which you want to integrate the catalog tagging term set, click **Select**, and then click **OK**.
+  - In the **Select: Add Terms** dialog, click the term that corresponds to the level from which you want to integrate the catalog tagging term set, click **Select**, and then click **OK**.
     
 9. If you want changes to the catalog tagging term set to be updated on the publishing site, in the **Navigation Pinning** section, select the **Pin terms to site navigation** check box. By default, this option is selected. If you clear this check box, changes made to the catalog tagging term set are not reflected on the publishing site navigation. 
     

@@ -5,6 +5,8 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 mscollection: 
@@ -19,8 +21,102 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Migration Tool.
   
->[!NOTE]
->**Download and install:**   [SharePoint Migration Tool ](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+
+## Current and pre-release versions
+
+Download and install SPMT using one of the links listed below.  
+
+||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
+|:-----|:-----|:-----|:-----|:-----|
+|Last released build|[3.4.119.0](https://aka.ms/spmt-beta-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
+
+
+  
+</br></br>
+
+### SPMT Public Preview 
+
+
+The following features are now available in the public preview version of the SharePoint Migration Tool.
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SharePoint online.|
+
+
+### SPMT 3.2.119.0
+
+The following features were added to the SharePoint Migration Tool in this release:
+
+**New features**
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Microsoft Teams added as a selection choice|Users can now select Teams and channels directly from the destination selection page.|
+|User emails for OneDrive|User email accounts for OneDrive migration are now supported as an input value.|
+|Version info |A new file, %\AppData\Local\Apps\SharePointMigrationTool\Logs\SPMT-VersionHistory.log will contain version history.|
+|Performance recommendations|The performance report contains direct links to detailed content on  performance recommendations.|
+|New setting|A new setting, "Temporarily allow migration of scripts", will automatically allow the migration of scripted web parts without having to go in the tenant admin. | 
+
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Performance|General improvements have been made to the tool.|
+
+### SPMT 3.2.118.0
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool in this release:
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|User feedback|Users can now provide feedback directly from the tool.|
+|Site creation for file shares|Site structure creation is now supported for file share migration.|
+|Records management|Support for SharePoint Server migration of Record libraries.|
+|Enable publishing|Users can now choose to skip enabling publishing feature on SPO communication site| 
+|Setting|New setting allows you to not migrate the site and list general settings in a single list migration.| 
+|Setting|New SharePoint setting, "Migrate site settings". Choose if you want to migrate site logo, title, description and other general settings). Default value is on. If it's turned off, the setting will be skipped when migrating to existing destination site in site migration.| 
+|Taxonomy migration|By default, managed metadata migration is turned off, and taxonomy is updated in incremental round.|
+
+
+**Improvements**
+
+In addition to several minor fixes, the primary improvements made in this release are:
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Performance|Improvements have been made to taxonomy migration.|
+|User input|Improved handling of full URL for both SharePoint Server and SharePoint Online.|
+
+
+
+### SPMT 3.2.115.3
+
+**New features**
+
+The following features were added to the SharePoint Migration Tool in this release:
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Document set support|SPMT will attempt to enable the document set feature on site.  If enabling fails, the items in the document set will be skipped, and all the files under the documents will be skipped.|
+|Document Template|You can define a document template and choose to have it applied when adding new files.  SPMT now supports customized document templates.|
+|Web part templates|If your web part document template is not available in SPO, SPMT can migrate the template from your source environment.
+
+
+**Improvements**
+
+In addition to several minor fixes, here are the primary improvements made in this release:
+
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Stability|General improvements have been made to remove some errors in tool.|
+|Progress bar|Enhancements have been made to the migration progress bar to provide greater details of your progress.|
+|OneNote migration|Improvements made for importing OneNote notebooks.|
+
 
 
 
@@ -59,7 +155,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |Site migration|SharePoint sites that are "out of the box" - sites that do not use any coding or 3rd party tools - can now be migrated. SPMT now preserves site audits. |
 |Navigation|Migration of navigation and icons is now supported.|
 |Site descriptions|Site description can now be migrated.|
-|SharePoint webparts|SPMT now supports the migration of SharePoint webparts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Webparts](spmt-supported-webparts.md).|
+|SharePoint web parts|SPMT now supports the migration of SharePoint web parts. See the full list of SPMT supported web parts: [SPMT Supported SharePoint Web parts](spmt-supported-webparts.md).|
 |Page migration|Pages in the site asset library can now be migrated.|
 |Managed metadata|This release supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.|
 |JSON improvements|Task level settings are now supported for bulk upload using JSON.|

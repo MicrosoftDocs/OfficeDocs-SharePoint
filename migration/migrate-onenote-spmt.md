@@ -4,6 +4,8 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: troubleshooting
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -37,7 +39,12 @@ When you open the OneNote application, they appear like this:
 
 ![OneNote migration setting](media/onenote-file-3.png)</br></br>
 
+**Recommended setting**
 
+We recommend that you migrate with this setting set to **On**. The files will migrate as a OneNote notebook.  You can open the notebooks with the OneNote application or via Microsoft Teams by manually adding a tab to Teams.
+
+>[Important]
+>If set to **Off**, you will likely receive errors when attempting to open the .one and .onetoc2 files. This is because the files that were migrated are for the desktop client version of OneNote which differs from the OneNote in SPO.
 
 ## Selecting the OneNote settings in SPMT
 

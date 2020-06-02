@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/27/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -30,7 +32,7 @@ Configuring apps for SharePoint requires the following:
     
 - Each app for SharePoint that is installed creates a subweb under the site on which it is installed with its own URL. This means that environments that contain many apps for SharePoint will have many additional subwebs. Be sure to consider this when planning for capacity for your farm.
     
-Additionally, using apps for SharePoint requires a separate DNS domain configuration (discussed below), as well as the Subscription Settings and App Management service applications. We cover how to configure the separate app domain and the service applications in the [apps for SharePoint configuration article](configure-an-environment-for-apps-for-sharepoint.md)/
+Additionally, using apps for SharePoint requires a separate DNS domain configuration (discussed below), as well as the Subscription Settings and App Management service applications. We cover how to configure the separate app domain and the service applications in the [apps for SharePoint configuration article](configure-an-environment-for-apps-for-sharepoint.md).
   
 ## Plan app configuration settings
 <a name="AppConfig"> </a>

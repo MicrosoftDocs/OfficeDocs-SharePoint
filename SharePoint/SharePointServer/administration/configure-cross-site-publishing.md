@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/18/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -198,7 +200,7 @@ After you create a term set on the authoring site collection, you have to make i
     
 10. Right-click the term set that you want to make available to all site collections, and then click **Move Term Set**.
     
-11. In the **Term Set Move** dialog box, click the global term set that you want to move the term set to, and then click **OK**.
+11. In the **Term Set Move** dialog, click the global term set that you want to move the term set to, and then click **OK**.
     
 12. Refresh the page.
     

@@ -1,11 +1,13 @@
 ---
-title: "Open the Term Store management tool"
-ms.reviewer: vrchowdh
-ms.author: kaarins
+title: "Open the Term Store Management TYool"
+ms.reviewer: mikeplum
+ms.author: kaarinS
 author: kaarins
 manager: pamgreen
-ms.date: 5/22/2018
+ms.date: 5/27/2020
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -14,25 +16,20 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Learn how to open the Term Store management tool from the Site Settings page or the SharePoint admin center."
+description: "Learn how to open the Term Store Management Tool from the Site Settings page or the SharePoint admin center."
 ---
 
-# Open the Term Store management tool
+# Open the Term Store Management Tool
 
-If your organization uses managed term sets to implement formal taxonomies, you can use the Term Store management tool to import or create the term sets. If you're a Term Store Administrator, follow these steps to open the Term Store management tool.
+If your organization uses managed term sets to implement formal taxonomies, you can use the Term Store management tool to import or create the term sets. If you're a Term store admin, follow these steps to open the Term Store Management Tool.
   
-1. Go to the Site Settings page for a site that you own.
+1. For a site that you own, go to the **Site Settings** page.
 2. Under **Site Administration**, select **Term store management**.
 
+![Term Store Management Tool](media/term-store-management-tool.png)
 
-![The Term Store Management Tool.](media/ba6c6939-f19a-4808-9156-499b05af5380.png)
-
-If you're a global or SharePoint admin in Office 365, you can access the Term Store management tool from the SharePoint admin center.
+If you're a global or SharePoint admin in Microsoft 365, you can access the Term Store Management Tool from the SharePoint admin center.
 
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
-
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
- 
-2. Under **term store**, click **Open**.
+1. Open the SharePoint admin center.
+2. In the left navigation, under **Content services**, choose **Term store**.

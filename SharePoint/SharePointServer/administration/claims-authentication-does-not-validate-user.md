@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/20/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -140,7 +142,7 @@ To use the ULS Viewer, download it from [ULS Viewer](https://www.microsoft.com/d
     
 2. In the **ULS Viewer**, click **File**, point to **Open From**, and then click **ULS**.
     
-3. In the **Setup the ULS Runtime feed** dialog box, verify that %CommonProgramFiles% **\Common Files\Microsoft Shared\Web Server Extensions\16\LOGS folder** or **\Common Files\Microsoft Shared\Web Server Extensions\15\LOGS folder** is specified in **Use ULS feed from default log-file directory**. If not, click **Use directory location for real-time feeds** and specify the %CommonProgramFiles% **\Microsoft Shared\Web Server Extensions\16\LOGS folder** or **\Microsoft Shared\Web Server Extensions\15\LOGS folder** in **Log file location**.
+3. In the **Setup the ULS Runtime feed** dialog, verify that %CommonProgramFiles% **\Common Files\Microsoft Shared\Web Server Extensions\16\LOGS folder** or **\Common Files\Microsoft Shared\Web Server Extensions\15\LOGS folder** is specified in **Use ULS feed from default log-file directory**. If not, click **Use directory location for real-time feeds** and specify the %CommonProgramFiles% **\Microsoft Shared\Web Server Extensions\16\LOGS folder** or **\Microsoft Shared\Web Server Extensions\15\LOGS folder** in **Log file location**.
     
     For %CommonProgramFiles%, substitute the value from the CommonProgramFiles environment variable of the server that is running SharePoint Server or SharePoint Foundation. For example, if the location is the C drive, %CommonProgramFiles% is set to C:\Program Files\Common Files.
     
@@ -148,7 +150,7 @@ To use the ULS Viewer, download it from [ULS Viewer](https://www.microsoft.com/d
     
 5. Click **Edit**, and then click **Modify Filter**.
     
-6. In the **Filter by** dialog box, in **Field**, click **Category**.
+6. In the **Filter by** dialog, in **Field**, click **Category**.
     
 7. In **Value**, type **Authentication Authorization** or **Claims Authentication**, and then click **OK**.
     
@@ -170,7 +172,7 @@ To determine how a web application or zone is configured to support one or more 
     
 3. In the list of authentication providers, click the appropriate zone (such as **Default**).
     
-4. In the **Edit Authentication** dialog box, in the **Claims Authentication Types** section, verify the settings for claims authentication. 
+4. In the **Edit Authentication** dialog, in the **Claims Authentication Types** section, verify the settings for claims authentication. 
     
   - For Windows claims authentication, verify that **Enable Windows Authentication** and **Integrated Windows authentication** are selected, and that either **NTLM** or **Negotiate (Kerberos)** is selected as needed. Select **Basic authentication** if it is needed. 
     

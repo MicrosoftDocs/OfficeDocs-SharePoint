@@ -5,6 +5,8 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -12,7 +14,9 @@ search.appverid: MET150
 msCollection: 
 - SPMigration
 - M365-collaboration
-description: "Which tool to use when migrating content to SharePoint and OneDrive"
+ms.custom:
+- seo-marvel-apr2020
+description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive."
 ---
 
 # Migrating your content to SharePoint and OneDrive
@@ -23,7 +27,7 @@ To learn more about the which tool to use, see the table below.
 
 
 >[!Note]
-> On October 21, 2019, Microsoft acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
+> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
 >
 >**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
 >

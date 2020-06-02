@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/22/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -146,9 +148,9 @@ Before you begin this procedure, make sure you have the following:
     
 - The ID of the Secure Store target application that you configured.
     
-- The Internet-facing URL that Office 365 uses to connect to the service address and that was published by the reverse proxy. This is the address that you used to browse to the external service in the last procedure, with the addition of /_vti_bin/client.svc.
+- The Internet-facing URL that Microsoft 365 uses to connect to the service address and that was published by the reverse proxy. This is the address that you used to browse to the external service in the last procedure, with the addition of /_vti_bin/client.svc.
     
-- The ID of the Secure Store target application for the Secure Channel certificate in Office 365.
+- The ID of the Secure Store target application for the Secure Channel certificate in Microsoft 365.
     
  **To configure the connection settings object for the BCS hybrid scenario**
   

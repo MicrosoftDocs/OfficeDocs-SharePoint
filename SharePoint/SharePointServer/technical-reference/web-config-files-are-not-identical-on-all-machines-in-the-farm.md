@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/31/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -62,7 +64,7 @@ By default, the **Repair Automatically** option is enabled for this rule. You ca
     
 3. On the Health Analyzer Rule Definitions - All Rules page, in the **Category: Configuration** section, click the name of the rule. 
     
-4. In the **Health Analyzer Rule Definitions** dialog box, click **Edit Item**.
+4. In the **Health Analyzer Rule Definitions** dialog, click **Edit Item**.
     
 5. Select the **Repair Automatically** check box, and then click **Save**.
     

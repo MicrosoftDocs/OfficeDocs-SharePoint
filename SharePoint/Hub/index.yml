@@ -1,0 +1,64 @@
+### YamlMime:Hub
+
+title: SharePoint documentation # < 60 chars
+summary: SharePoint documentation for IT professionals and admins # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
+brand: sharepoint
+
+metadata:
+  title: SharePoint documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: SharePoint documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: sharepoint-online #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  audience: ITPro
+  author: samanro #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 07/03/2019 #Required; mm/dd/yyyy format.
+  localization_priority: Priority
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: For IT Professionals # < 60 chars (optional)
+      items:
+        # Card
+        - title: SharePoint Online
+          summary: Find resources for managing SharePoint Online in your Microsoft 365 environment.
+          url: /sharepoint/sharepoint-online
+        # Card
+        - title: Migrate to SharePoint Online
+          summary: Move your data to the cloud. Migrate data from either your on-premises file shares or SharePoint Server to SharePoint Online.
+          url: /sharepointmigration/migrate-to-sharepoint-online
+        # Card
+        - title: SharePoint Hybrid
+          summary: Learn about solutions for the SharePoint hybrid environment, and how to connect SharePoint Server and Microsoft 365.
+          url: /sharepoint/hybrid/hybrid
+        # Card
+        - title: PowerShell Reference for SharePoint
+          summary: Learn about the PowerShell cmdlets you need to manage SharePoint Server or SharePoint Online.
+          url: /powershell/sharepoint
+        # Card
+        - title: SharePoint Server
+          summary: Plan, deploy, and manage SharePoint Server.
+          url: /sharepoint/sharepoint-server
+        # Card
+        - title: Troubleshoot
+          summary: Find troubleshooting and support resources for IT Professionals and admins.
+          url: /sharepoint/troubleshoot
+    - title: For other audiences # < 60 chars (optional)
+      items:
+        # Card
+        - title: Developers
+          summary: Guidance for developing solutions for SharePoint.
+          url: /sharepoint/dev
+        # Card
+        - title: End users
+          summary: Find help, training, and technical support for SharePoint users on support.office.com.
+          url: https://support.office.com/sharepoint
+        # Card
+        - title: Microsoft 365 Community Content
+          summary: Find solutions and scenario guidance for Microsoft 365 users as contributed by the IT Professional and Admin community.
+          url: https://docs.microsoft.com/microsoft-365/community/
+

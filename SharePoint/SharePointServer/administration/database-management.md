@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 8/4/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: hub-page
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

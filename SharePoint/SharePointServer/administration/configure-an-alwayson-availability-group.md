@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -264,7 +266,7 @@ If there are no user databases on the instance of the connected server, which is
     
 4. In Object Explorer, right-click **Databases** and then click **New Database**.
     
-5. In the New Database dialog box, type the **Database name:**, which is "TemporaryUserDB" for this example.
+5. In the New Database dialog, type the **Database name:**, which is "TemporaryUserDB" for this example.
     
     Because this is a temporary database that you delete after you create the availability group, you can use the default settings. Click **OK**.
     
@@ -272,7 +274,7 @@ If there are no user databases on the instance of the connected server, which is
     
 6. In Object Explorer expand **Databases** and right-click the temporary database that you just created. Pick **Tasks** and then choose **Back Up**.
     
-7. In the **Back Up Database** dialog box, click **OK** to accept all the default settings and create the back up. 
+7. In the **Back Up Database** dialog, click **OK** to accept all the default settings and create the back up. 
     
 ### About replicas and data synchronization
 

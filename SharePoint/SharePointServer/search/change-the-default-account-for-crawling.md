@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/14/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -40,7 +42,7 @@ The following procedure changes the user name and password for the default conte
     
      ![Screen shot of default content access account in the System Status section on the Search Administration page](../media/DefaultContentAccessAccount.gif)
   
-5. Click the default content access account name. The **Default Content Access Account** dialog box appears. 
+5. Click the default content access account name. The **Default Content Access Account** dialog appears. 
     
 6. (Optional) In the **Account** text box, type a new user name. 
     

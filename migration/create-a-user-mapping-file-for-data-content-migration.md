@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 01/11/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -16,21 +18,21 @@ ms.collection:
 - SPMigration
 search.appverid: MET150
 ms.assetid: 28c42985-1fd6-49d6-b9c5-b7f35e83efa1
-description: "This article describes how to create a user mapping file for data content migration while using the SharePoint Online Migration Tool."
+description: "Create a user mapping file for data content migration while using the SharePoint Online Migration Tool."
 ---
 
 # Create a user mapping file for data content migration
 
-This article describes how to create a user mapping file for data content migration while using the SharePoint Online Migration Tool.
+This article shows how to create a user mapping file to use with the SharePoint Online Migration Tool (SPMT).
   
-The SharePoint Migration Tool lets you migrate your files from SharePoint on-premises document libraries or your on-premises file shares and easily move them to either SharePoint or OneDrive in Office 365. It is available to Office 365 users.
+SPMT lets you migrate your files from SharePoint on-premises document libraries or on-premises file shares and move them to Microsoft 365. It's free to Microsoft 365 users.
   
 > [!NOTE]
 >  Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
   
 ## Create a user mapping file for data content migration
 
-When migrating your data from either a local file share or an on-premises SharePoint Server document library using the SharePoint Online Migration tool, a default user mapping file is used. You can also create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
+When migrating your data from either a local file share or an on-premises SharePoint Server document library, a default user mapping file is used. You can also create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
   
  **CSV file format**
   
@@ -49,33 +51,35 @@ The following example uses Excel to create the CSV file.
     
 2. Enter the values for your user mapping.
     
-  - **Column A:** Enter the **log in name of the user** from the source location.  *Required.* 
+  - **Column A:** From the source location, enter the **log in name of the user**.  *Required.* 
     
-  - **Column B:** Enter the **principal username** on the target site.  *Required.* 
+  - **Column B:** On the target site, enter the **principal username**.  *Required.* 
     
-  - **Column C:** If the principal username on the target site is a group, enter **TRUE**. If it is not a group, enter **FALSE**.  *Required.* 
+  - **Column C:** If the principal username on the target site is an Active Directory (AD) group, enter **TRUE**. If it's not an AD group, enter **FALSE**.  *Required.* 
     
-3. Close and save as a Comma delimited (\*.csv) file.
+3. Close and save as a comma-delimited (\*.csv) file.
     
  **Upload your User Mapping file to SharePoint Migration Tool**
   
 After you create your own user mapping file, upload it to the SharePoint Online Migration tool.
   
-1. Start the SharePoint Migration tool. Enter your Office 365 username and password and then click **Sign in**.
+1. Start SPMT. Enter your Microsoft 365 username and password, and then select **Sign in**.
 
-2.  Click on **Start your first Migration**.
+2. Select **Start your first Migration**.
 
-3.  Choose your migration type.
+3. Select your migration type.
 
-4.  Enter your source information and then click **Next**.
+4. Enter your source information, and then select **Next**.
 
-5.  Enter your destination information and then click **Next**.
+5. Enter your destination information, and then select **Next**.
 
-6.  Review your Migration details and then click **Next**.
+6. Review your migration details, and then select **Next**.
 
-7.  On the Choose your settings screen, expand **View all settings**.
+7. On the **Choose your settings** page, expand **View all settings**.
 
-8.  Under Users section in the User mapping box, click **Choose file** and select your user mapping file.
+8. Under **Users** section in the **User mapping** box, select **Choose file**, and select your user mapping file.
 
-9.  Click **Save**.
-    
+9. Select **Save**.
+
+>[!Note]
+> It is not possible to map an AD group to a SharePoint group in the target site.  Currently it is also not possible to map a SharePoint group to a SharePoint group in SPMT.    

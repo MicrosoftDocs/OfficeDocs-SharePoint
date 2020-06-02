@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -193,7 +195,6 @@ For information about how to plan for Visio Services, see [Overview of Visio Ser
   
 [SQL 2012 SP1 Installation](https://go.microsoft.com/fwlink/p/?LinkID=255906)
   
-[Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409)
+[Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://docs.microsoft.com/analysis-services/power-pivot-for-sharepoint-ssas)
   
-[Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409)
-
+[Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://docs.microsoft.com/sql/sql-server/install/install-sql-server-business-intelligence-features)

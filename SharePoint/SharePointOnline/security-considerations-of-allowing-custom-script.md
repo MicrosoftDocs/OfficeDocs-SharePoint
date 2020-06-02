@@ -6,6 +6,8 @@ author: kaarins
 manager: pamgreen
 ms.date: 6/15/2017
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -28,7 +30,7 @@ Every script that runs in a SharePoint page (whether it's an HTML page in a docu
   
 - Scripts have access to everything the user has access to.
     
-- Scripts can access content across several Office 365 services and even beyond with Microsoft Graph integration.
+- Scripts can access content across several Microsoft 365 services and even beyond with Microsoft Graph integration.
     
 ## You can't audit the insertion of script
 
@@ -40,7 +42,7 @@ As a global admin, security admin, or SharePoint admin, you can allow or block c
     
 - Who inserted the code
     
-Any user who has "Add and Customize Pages" permission (part of the Design and Full Control permission levels) to any page or document library can insert code that can potentially have a powerful effect on all users and resources in the organization. The script has access to more than just the page or site - it can access content across all site collections and other Office 365 services in the organization. There are no boundaries for executing script. For info about site activity you can audit, see [Configure audit settings for a site collection](https://support.office.com/article/a9920c97-38c0-44f2-8bcb-4cf1e2ae22d2).
+Any user who has "Add and Customize Pages" permission (part of the Design and Full Control permission levels) to any page or document library can insert code that can potentially have a powerful effect on all users and resources in the organization. The script has access to more than just the page or site - it can access content across all site collections and other Microsoft 365 services in the organization. There are no boundaries for executing script. For info about site activity you can audit, see [Configure audit settings for a site collection](https://support.office.com/article/a9920c97-38c0-44f2-8bcb-4cf1e2ae22d2).
   
 ## You can't block or remove inserted script
 
@@ -63,10 +65,10 @@ The [SharePoint Framework](https://dev.office.com/sharepoint/docs/spfx/sharepoin
     
 - The toolchain is based on common open source client development tools like npm, TypeScript, Yeoman, webpack, and gulp.
     
-- Office 365 admins have governance tools to immediately disable solutions regardless of the number of instances that have been used and the number of pages or sites across which they've been used.
+- Admins have governance tools to immediately disable solutions regardless of the number of instances that have been used and the number of pages or sites across which they've been used.
     
 - Solutions can be deployed in web parts and pages that use the classic experience or the new experience.
     
-- Only global admins, SharePoint admins, and people who have been given permission to manage the App Catalog can add solutions. (For info about giving users permission to manage the app catalog, see [Request app installation permissions](request-app-installation-permissions.md).)
+- Only global admins, SharePoint admins, and people who have been given permission to manage the App Catalog can add solutions. For info about giving users permission to manage the app catalog, see [Request app installation permissions](request-app-installation-permissions.md).
     
 

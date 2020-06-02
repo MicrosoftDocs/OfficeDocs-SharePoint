@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -136,7 +138,7 @@ iisreset
 Restart-Service SPTimerV4
 ```
 
-Complete the above steps on all SharePoint server in the farm. This completes the STS certificate replacement process. If you are using a hybrid farm, see [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](/sharepoint/dev/sp-add-ins/use-an-office-365-sharepoint-site-to-authorize-provider-hosted-add-ins-on-an-on) for additional steps required to upload the STS certificate to Azure.
+Complete the previous steps on all SharePoint server in the farm. This completes the STS certificate replacement process. If you are using a hybrid farm, see [Use a Microsoft 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](/sharepoint/dev/sp-add-ins/use-an-office-365-sharepoint-site-to-authorize-provider-hosted-add-ins-on-an-on) for additional steps required to upload the STS certificate to Azure.
 
 ## See Also
 

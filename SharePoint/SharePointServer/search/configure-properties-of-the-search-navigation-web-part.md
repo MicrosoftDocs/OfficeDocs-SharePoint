@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/8/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -77,7 +79,7 @@ For more information, see the following resources:
     
 4. On the **Search Settings** page, in the **Configure Search Navigation** section, click to select the search vertical for which you want to change the properties, and then click **Edit**.
     
-5. In the **Navigation Link** dialog box, do the following: 
+5. In the **Navigation Link** dialog, do the following: 
     
   - To change the display name of a search vertical, in the **Title** field, type a display name. 
     
@@ -103,7 +105,7 @@ Before you start this procedure, verify that you have created a new page for the
     
 4. On the **Search Settings** page, in the **Configure Search Navigation** section, click **Add Link**.
     
-5. In the **Navigation Link** dialog box, do the following: 
+5. In the **Navigation Link** dialog, do the following: 
     
   - In the **Title** field, type a display name. 
     

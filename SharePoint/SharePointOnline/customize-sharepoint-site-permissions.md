@@ -1,33 +1,30 @@
 ---
 title: "Customize SharePoint site permissions"
-ms.reviewer: 
+ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 10/5/2018
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ms.collection:
-- Adm_SPO
-- SharePoint_Online
-ms.custom:
-- Adm_O365_FullSet
-- MiniMaven
 search.appverid:
-- WSU150
-- SPO160
-- BSA160
-- SPB160
-- OSU150
-- OSU160
-- OSU190
+- MET150
 ms.assetid: b1e3cd23-1a78-4264-9284-87fed7282048
-description: "Learn to create, manage, and delete groups in SharePoint and SharePoint Online, including adding, removing, and updating users from groups, and setting permissions for users and groups."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains information on how to customize SharePoint site permissions. Learn how to create, manage, and delete groups in SharePoint."
 ---
 
-# Customize SharePoint site permissions
+# SharePoint site permissions
+
+While SharePoint allows considerable customization of site permissions, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Microsoft 365 group. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
+
+If you do need to customize SharePoint groups, this article describes how.
+
+## Customize site permissions
 
 A SharePoint group is a collection of users who all have the same set of permissions to sites and content. Rather than assign permissions one person at a time, you can use groups to conveniently assign the same permission level to many people at once. 
   
@@ -47,7 +44,7 @@ The permissions page opens.
     
 4. On the **Create Group** page, in the **Name** and **About me** boxes, type a name and description for this SharePoint group. 
     
-5. In the **Owner**box, specify a single owner of this security group. 
+5. In the **Owner** box, specify a single owner of this security group. 
     
 6. In the **Group Settings** section, specify who can view and edit the membership of this group. 
     
@@ -142,7 +139,10 @@ If you have customized a permission level or created a new permission level, you
 5. On the **Edit Permissions** page, select the check box next to the name of the new permission level. If you select multiple permission levels, the permission level assigned to the group is the union of the individual permissions in the different levels. That is, if one level includes permissions (A, B, C), and the other level includes permissions (C, D), the new level for the group includes permissions (A, B, C, D). 
     
 6. Click **OK**.
-    
+
+> [!NOTE]
+> Permissions for the default SharePoint groups (Owners, Members, and Visitors) for Team sites that are connected to a Microsoft 365 group can't be modified.
+
 ### Add, change, or remove a site collection administrator
 <a name="__toc340230108"> </a>
 

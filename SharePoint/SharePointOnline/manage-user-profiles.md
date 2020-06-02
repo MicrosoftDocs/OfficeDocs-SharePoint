@@ -5,10 +5,13 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- CSH
 ms.topic: article
-f1_keywords:
+ms.custom:
 - 'ViewUserProfiles'
 - 'SPOTAMgUserProfiles'
+- 'seo-marvel-apr2020'
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  
@@ -21,12 +24,12 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 494bec9c-6654-41f0-920f-f7f937ea9723
-description: "Learn how to use the SharePoint admin center to create and edit custom user properties, add and remove admins on OneDrive accounts, manage audiences, and disable OneDrive creation."
+description: Use the SharePoint admin center to create and edit custom user properties, add or remove admins on OneDrive accounts, manage audiences, and disable OneDrive creation.
 ---
 
 # Manage user profiles in the SharePoint admin center
 
-This article is for global admins and SharePoint admins in Office 365. 
+This article is for global admins and SharePoint admins in Microsoft 365. 
 
 - If you're running SharePoint Server, see [Administer the User Profile service in SharePoint Server](/SharePoint/administration/user-profile-service-administration).
   
@@ -37,7 +40,7 @@ Most organizations don't need to change any user profile settings in the SharePo
 ## Create and edit custom user properties
 <a name="customuserproperties"> </a>
 
-In Office 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Office 365 identity and Azure Active Directory](/office365/enterprise/about-office-365-identity). SharePoint receives this profile information. If you need to store additional info about your users, you can create custom properties in the SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint](add-and-edit-user-profile-properties.md).
+In Microsoft 365, identity is managed by Azure Active Directory. For info about this, see [Understanding Microsoft 365 identity and Azure Active Directory](/office365/enterprise/about-office-365-identity). SharePoint receives this profile information as described in [About user profile synchronization](user-profile-sync.md). If you need to store additional info about your users, you can create custom properties in the classic SharePoint admin center. For info about doing this, see [Add and edit user profile properties in SharePoint](add-and-edit-user-profile-properties.md).
   
 > [!NOTE]
 > Instead of creating user sub-types in the SharePoint admin center, we recommend using the Microsoft 365 admin center to [Compare groups](/office365/admin/create-groups/compare-groups) or using the Azure AD admin center to [create groups with dynamic membership](/azure/active-directory/users-groups-roles/groups-dynamic-membership).
@@ -47,7 +50,7 @@ In Office 365, identity is managed by Azure Active Directory. For info about thi
 
 Follow these steps to transfer ownership of a OneDrive to a different user, or give a user full control over another user's OneDrive.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -66,6 +69,9 @@ Follow these steps to transfer ownership of a OneDrive to a different user, or g
     
     ![Manage the owners of a OneDrive](media/120f7c8c-262f-4a41-a484-e830c662f534.png)
   
+> [!WARNING]
+> Do not remove a user as the admin of their own OneDrive. Doing this causes many experiences to break.
+
 For info about automatically transferring ownership of OneDrive to a user's manager when the user account is marked for deletion, see [Set up access delegation](/onedrive/retention-and-deletion).
   
 ## Manage audiences
@@ -84,7 +90,7 @@ For example, you can display a navigational link to only people in a particular 
 
 To add, edit, or delete an audience or an audience rule, go to the Manage Audiences page:
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -113,7 +119,7 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
 > [!NOTE]
 > If a user already created a OneDrive, changing the following setting won't delete it.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true) and sign in with an account that has admin permissions for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -126,7 +132,7 @@ If some users are licensed to use OneDrive, but you don't want them to create a 
   
 4. By default, "Everyone except external users" has permission to "Create Personal Site" (which includes creating a OneDrive and saving user data such as followed and frequent sites). Remove that group and add specific groups to allow only a subset of licensed users to create a OneDrive.
     
-    ![The permissions dialog box for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.png)
+    ![The permissions dialog for controlling who can create a OneDrive](media/a23b4ec4-7862-4fd4-895a-983fed62c24d.png)
 
 > [!NOTE]
 > The **Disable OneDrive** check box has no effect. Use the "Create Personal Site" check box to specify the security groups that have permission to create a OneDrive.  

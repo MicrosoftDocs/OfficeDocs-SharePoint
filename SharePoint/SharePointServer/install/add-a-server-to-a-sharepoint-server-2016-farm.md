@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/1/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -99,7 +101,7 @@ After you install the prerequisites, follow these steps to install SharePoint Se
   
 6. Click **Install Now**.
     
-7. When Setup finishes, a dialog box prompts you to run the **SharePoint Products Configuration Wizard**. You can start the wizard immediately or from the Windows command prompt later.
+7. When Setup finishes, a dialog prompts you to run the **SharePoint Products Configuration Wizard**. You can start the wizard immediately or from the Windows command prompt later.
     
 ## Add the new SharePoint server to the farm
 <a name="addserver"> </a>

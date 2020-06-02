@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/6/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -36,7 +38,7 @@ Use the following procedure to update the user permissions for a web application
     
 4. In the **Security** group of the ribbon, click **User Permissions**.
     
-5. In the **User Permissions for Web Application** dialog box, select the check boxes next to the permissions that you want to enable, and clear the check boxes next to those permissions that you want to disable. 
+5. In the **User Permissions for Web Application** dialog, select the check boxes next to the permissions that you want to enable, and clear the check boxes next to those permissions that you want to disable. 
     
     You can select all permissions by selecting the **Select All** check box. You can clear all permissions by clearing the **Select All** check box. 
     

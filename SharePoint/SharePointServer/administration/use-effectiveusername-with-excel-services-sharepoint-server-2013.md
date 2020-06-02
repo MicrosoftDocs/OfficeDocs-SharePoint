@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/7/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -147,7 +149,7 @@ In order for the EffectiveUserName feature to be used in a published report, the
     
 3. On the **Definition** tab, click **Authentication Settings**.
     
-4. On the **Excel Services Authentication Settings** dialog box, select the **Use the authenticated user's account** (Excel 2016) or **Windows Authentication** (Excel 2010) option, and then click **OK**.
+4. On the **Excel Services Authentication Settings** dialog, select the **Use the authenticated user's account** (Excel 2016) or **Windows Authentication** (Excel 2010) option, and then click **OK**.
     
 5. Click **OK** and then click **Close**.
     

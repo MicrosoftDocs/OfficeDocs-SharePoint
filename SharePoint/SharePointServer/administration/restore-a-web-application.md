@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -108,7 +110,7 @@ You can use Central Administration to restore a web application.
     
     In the **Restore Only Configuration Settings** section, make sure that the **Restore content and configuration settings** option is selected. 
     
-    In the **Restore Options** section, under **Type of Restore**, select the **Same configuration** option. A dialog box appears that asks you to confirm the operation. Click **OK**.
+    In the **Restore Options** section, under **Type of Restore**, select the **Same configuration** option. A dialog appears that asks you to confirm the operation. Click **OK**.
     
     > [!NOTE]
     > If the **Restore Only Configuration Settings** section does not appear, the backup that you selected is a configuration-only backup. You must select another backup. 
@@ -138,7 +140,7 @@ You cannot restore the complete web application by using SQL Server tools. Howev
     
     The database is automatically taken offline during the recovery operation and cannot be accessed by other processes.
     
-6. In the **Restore Database** dialog box, specify the destination and the source, and then select the backup set or sets that you want to restore. 
+6. In the **Restore Database** dialog, specify the destination and the source, and then select the backup set or sets that you want to restore. 
     
     The default values for destination and source are appropriate for most recovery scenarios.
     

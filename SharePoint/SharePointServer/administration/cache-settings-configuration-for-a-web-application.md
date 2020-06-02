@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/19/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -51,7 +53,7 @@ By default, the disk-based BLOB cache is off and must be enabled on the front-en
     
 4. Right-click the name of the web application for which you want to configure the disk-based cache, and then click **Explore**. Windows Explorer opens, with the directories for the selected web application listed.
     
-5. In the **Open With** dialog box, click **Notepad**, and then click **OK**.
+5. In the **Open With** dialog, click **Notepad**, and then click **OK**.
     
 6. In the web.config Notepad file, find the following line:  `<BlobCache location="C:\BlobCache\14" path="\.(gif|jpg|jpeg|jpe|jfif|bmp|dib|tif|tiff|themedbmp|themedcss|themedgif|themedjpg|themedpng|ico|png|wdp|hdp|css|js|asf|avi|flv|m4v|mov|mp3|mp4|mpeg|mpg|rm|rmvb|wma|wmv|ogg|ogv|oga|webm|xap)$" maxSize="10" enabled="false" />`
     

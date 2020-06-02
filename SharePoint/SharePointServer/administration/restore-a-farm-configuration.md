@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -92,7 +94,7 @@ You can use Central Administration to restore a farm's configuration.
     
     In the **Restore Only Configuration Settings** section, make sure that the **Restore content and configuration settings** option is selected. 
     
-    In the **Restore Options** section, select the **Type of Restore** option. Use the **Same configuration** setting. A dialog box will appear that asks you to confirm the operation. Click **OK**.
+    In the **Restore Options** section, select the **Type of Restore** option. Use the **Same configuration** setting. A dialog will appear that asks you to confirm the operation. Click **OK**.
     
     > [!NOTE]
     > If the **Restore Only Configuration Settings** section does not appear, then the backup that you selected is a configuration-only backup. 

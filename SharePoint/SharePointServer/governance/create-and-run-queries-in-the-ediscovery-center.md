@@ -6,6 +6,8 @@ author: MARKJJO
 manager: pamgreen
 ms.date: 2/12/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -64,7 +66,7 @@ By default, a query searches across all content sources, you can choose which di
 
 1. On the Query:New Item page, in the **Sources** section, click **Modify Query Scope**.
     
-2. In the dialog box that appears, click **All case content**,
+2. In the dialog that appears, click **All case content**,
     
 3. Click **Add location** for SharePoint content. 
     

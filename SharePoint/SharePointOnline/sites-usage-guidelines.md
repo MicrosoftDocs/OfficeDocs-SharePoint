@@ -6,9 +6,11 @@ author: jhendr
 manager: pamgreen
 layout: LandingPage
 ms.assetid: 
-ms.prod: microsoft-365-enterprise
+ms.prod: office-365-enterprise
 ms.tgt_pltfrm: na
 ms.devlang: na
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.author: jhendr
 localization_priority: None 
@@ -45,11 +47,11 @@ Using the steps below as a template, create your own custom guidance for site ow
 ## ![Alt image text](media/subsite.png "Site")  Guidelines for creating your site
 
 **Guidance:**</br>
-- Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the “Create site” link on the SharePoint start page or you may have a unique provisioning process for your organization.  
+- Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the "Create site" link on the SharePoint start page or you may have a unique provisioning process for your organization.  
 - If you have specific site templates that you want your site owners to select when they create their own sites, include that info in this section.</br>
 - Include information on custom provisioning solutions.</br>
 - Are there any ownership or site classification requirements your organization has implemented? </br>
-- When you set up your site, it’s important to select the appropriate site classification level. Include references or links to your your organization’s data classification guidelines.</br>
+- When you set up your site, it's important to select the appropriate site classification level. Include references or links to your your organization's data classification guidelines.</br>
 
 **Resources:**</br>
 - [Manage site creation in SharePoint](manage-site-creation.md)
@@ -57,11 +59,11 @@ Using the steps below as a template, create your own custom guidance for site ow
 - [Branding and site provisioning solutions for SharePoint](/sharepoint/dev/solution-guidance/branding-and-site-provisioning-solutions-for-sharepoint)
 
 **Sample text:**</br>
-*Sites can be created via the “Create site” link at [**insert your SharePoint link**].* 
+*Sites can be created via the "Create site" link at [**insert your SharePoint link**].* 
 
 *You should have two site owners who are both full time employees at your org.*
 
-*When you set up your site, it’s important to select the appropriate site classification level. [**Insert link to your organization’s data classification guidelines**].*
+*When you set up your site, it's important to select the appropriate site classification level. [**Insert link to your organization's data classification guidelines**].*
 
  
 ## ![Alt image text](media/navigation.png "Site design")  Your site designs and customizations
@@ -79,7 +81,7 @@ Using the steps below as a template, create your own custom guidance for site ow
 
 
 **Sample text:**</br>
-*It’s important that your site meet your business needs. If you need to create a custom add-in or deploy a resource-intensive app, work with our internal team. For more information, contact [**insert information on how to contact your IT team**].*
+*It's important that your site meet your business needs. If you need to create a custom add-in or deploy a resource-intensive app, work with our internal team. For more information, contact [**insert information on how to contact your IT team**].*
 
  
 ## ![Alt image text](media/sharing.png "Sharing") Sharing guidelines
@@ -106,28 +108,28 @@ Using the steps below as a template, create your own custom guidance for site ow
 - [Manage site storage limits](manage-site-collection-storage-limits.md)
 
 **Sample text:** </br>
-*Your site allows for _____ MB/GB of storage. You’re encouraged to remove files and content you don't need anymore.*
+*Your site allows for _____ MB/GB of storage. You're encouraged to remove files and content you don't need anymore.*
 
  
 ## ![Alt image text](media/secure.png "Access")   Managing access
 
 **Guidance:**</br>
-- Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization’s policies. Explain how you will communicate changes to permissions to them.
+- Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization's policies. Explain how you will communicate changes to permissions to them.
 
 **Resources:** </br>
 - [Secure SharePoint Online Sites and Files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
 
 **Sample text:** </br>
-*Plan to review your site’s permissions on a regular basis and set the level of access appropriately.*
+*Plan to review your site's permissions on a regular basis and set the level of access appropriately.*
 
 
 ## ![Alt image text](media/policy.png "Policy")   Site lifecycle policy
 
 **Guidance:**</br>
-- Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Office 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.
+- Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Microsoft 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.
 - Setting this policy requires Microsoft 365 global admin permissions.
 - Does your organization take extra measures related to site backup and restore? Let your site owners know how long the backup is available and if needed, how to get a site restored.
 
 
 **Resources:** </br>
-- [Office 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy?view=o365-worldwide)
+- [Microsoft 365 Group Expiration Policy](/office365/admin/create-groups/office-365-groups-expiration-policy)

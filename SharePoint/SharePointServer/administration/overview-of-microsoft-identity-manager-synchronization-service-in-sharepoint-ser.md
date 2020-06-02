@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/13/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: overview
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -39,7 +41,7 @@ Which option is right for you?
 ||||
 |:-----|:-----|:-----|
 ||**Microsoft Identity Management server** <br/> |**Active Directory Import** <br/> |
-|Pros  <br/> | Flexibility allows for customized import.  <br/>  Can be customized for bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Multi-forest scenarios are supported.  <br/> | Very fast performance.  <br/>  Known to be reliable (used by Office 365).  <br/>  Configurable inside of Central Administration. (Less complex).  <br/> |
+|Pros  <br/> | Flexibility allows for customized import.  <br/>  Can be customized for bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Multi-forest scenarios are supported.  <br/> | Very fast performance.  <br/>  Known to be reliable (used by Microsoft 365).  <br/>  Configurable inside of Central Administration. (Less complex).  <br/> |
 |Cons  <br/> | A separate MIM server is recommended for use with your SharePoint farm.  <br/>  The more customized the more complex the architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from Active Directory to SharePoint Server Profile).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are supported.  <br/> |
    
 > [!TIP]
@@ -74,10 +76,10 @@ The data is synchronized between Active Directory and the metaverse by using the
   
 ![Displays the MIM Synchronization Service in SharePoint Server 2016](../media/5fbadbd6-37a2-468e-ad41-6633f6244ae4.jpg)
   
-## How do I use these concepts ?
+## How do I use these concepts?
 <a name="BKMK_WhatIsMIM1"> </a>
 
-Now that you have a basic understanding of the general terms of what is an identity manager and how the MIM Synchronization Service works in SharePoint Server. The next thing you probably want to know is how do I install it and how do I get a MIM solution working in SharePoint Server. [Installing Microsoft Identity Manager (MIM)](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md#BKMK_InstallMIM) describes how to install MIM, and [Use a sample MIM solution in SharePoint Server 2016](use-a-sample-mim-solution-in-sharepoint-server-2016.md) shows how to use a sample MIM solution. 
+Now that you have a basic understanding of the general terms of an identity manager and how the MIM Synchronization Service works in SharePoint Server, the next thing you probably want to know is how to install a working MIM solution in SharePoint Server. [Installing Microsoft Identity Manager (MIM)](install-microsoft-identity-manager-for-user-profiles-in-sharepoint-server-2016.md#BKMK_InstallMIM) describes how to install MIM, and [Use a sample MIM solution in SharePoint Server 2016](use-a-sample-mim-solution-in-sharepoint-server-2016.md) shows how to use a sample MIM solution.
   
 ## See also
 <a name="BKMK_WhatIsMIM1"> </a>

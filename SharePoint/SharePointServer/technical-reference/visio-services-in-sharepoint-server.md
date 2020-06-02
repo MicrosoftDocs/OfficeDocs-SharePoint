@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: troubleshooting
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -204,7 +206,7 @@ Resolution 5: Create a new Visio Services application:
     
 3. On the ribbon, click **Delete**.
     
-4. In the **Delete Service Application** dialog box, click **OK**.
+4. In the **Delete Service Application** dialog, click **OK**.
     
 5. Create a new Visio Services application.
     

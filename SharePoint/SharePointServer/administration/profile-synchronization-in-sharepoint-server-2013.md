@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 2/27/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -25,7 +27,7 @@ Previous versions of SharePoint Server had a built-in copy of ForeFront Identity
   
 It's also important to note, here, that Active Directory Import (sometimes called Active Directory Direct Import) is still included with SharePoint Server 2016, and is a User Profile Synchronization alternative that does not need a separate server installation. This means that SharePoint Server 2016 offers two options for User Profile Sync.
   
-A third option, if you're using Office 365, is to use [hybrid profiles](https://go.microsoft.com/fwlink/p/?LinkID=746962) as part of a [SharePoint hybrid deployment](https://go.microsoft.com/fwlink/p/?LinkID=746868). With hybrid profiles, SharePoint Server 2016 on-premises profiles aren't necessary, as users are automatically redirected to their profile in SharePoint Online.
+A third option, if you're using Microsoft 365, is to use [hybrid profiles](https://go.microsoft.com/fwlink/p/?LinkID=746962) as part of a [SharePoint hybrid deployment](https://go.microsoft.com/fwlink/p/?LinkID=746868). With hybrid profiles, SharePoint Server 2016 on-premises profiles aren't necessary, as users are automatically redirected to their profile in SharePoint Online.
   
 Which option is right for you?
   
@@ -33,7 +35,7 @@ Which option is right for you?
 |:-----|:-----|:-----|:-----|
 ||**Microsoft Identity Manager 2016** <br/> |**Active Directory Import** <br/> |**Hybrid profiles** <br/> |
 |Pros  <br/> | Supports customized import.  <br/>  Supports bidirectional flow.  <br/>  Imports user profile photos automatically.  <br/>  Supports non-Active Directory LDAP sources.  <br/>  Supports multi-forest scenarios.  <br/> | Very fast, high performance.  <br/>  Configurable inside of Central Administration. (Less complex.)  <br/> | Single profile for users who use both SharePoint Server and SharePoint Online.  <br/>  Can include Delve, depending on your Office 365 configuration.  <br/> |
-|Cons  <br/> | A separate MIM server is recommended for use with your SharePoint Server farm.  <br/>  Customization can lead to more complex architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from AD DS to SharePoint Server).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos automatically.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are not supported.  <br/> | Can require a custom solution to move on-premises properties to Office 365.  <br/> |
+|Cons  <br/> | A separate MIM server is recommended for use with your SharePoint Server farm.  <br/>  Customization can lead to more complex architecture, deployment, and management.  <br/> | Import is unidirectional (changes go from AD DS to SharePoint Server).  <br/>  Import from a single Active Directory forest only.  <br/>  Does not import user photos automatically.  <br/>  Supports Active Directory LDAP only.  <br/>  Multi-forest scenarios are not supported.  <br/> | Can require a custom solution to move on-premises properties to Microsoft 365.  <br/> |
    
 These three options are mutually exclusive. Each is further described in the following sections.
   
@@ -70,8 +72,8 @@ To learn how to configure MIM for use with SharePoint Server 2016, see the follo
 ### Hybrid profiles
 <a name="MIM"> </a>
 
-Hybrid profiles can be configured as part of an overall SharePoint Hybrid deployment. Hybrid features help you integrate the user experience between SharePoint Server and Office 365 by linking common features together or by automatically redirecting users to Office 365 to use a given feature.
+Hybrid profiles can be configured as part of an overall SharePoint Hybrid deployment. Hybrid features help you integrate the user experience between SharePoint Server and Microsoft 365 by linking common features together or by automatically redirecting users to Microsoft 365 to use a given feature.
   
-With hybrid profiles, your users' profiles are handled entirely in Office 365. If there is data in your on-premises network that you want to include in your Office 365 profiles, you can create a custom solution to copy this data to Office 365.
+With hybrid profiles, your users' profiles are handled entirely in Microsoft 365. If there is data in your on-premises network that you want to include in your Microsoft 365 profiles, you can create a custom solution to copy this data to Microsoft 365.
   
 

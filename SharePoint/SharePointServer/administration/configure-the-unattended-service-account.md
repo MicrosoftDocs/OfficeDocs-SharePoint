@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/6/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -136,7 +138,7 @@ Use the following procedure to create an ODC file and create a data-connected dr
     
 1. Click **Authentication Settings**.
     
-2. On the **Visio Services Authentication Settings** dialog box, choose the **None** option and click **OK**.
+2. On the **Visio Services Authentication Settings** dialog, choose the **None** option and click **OK**.
     
 3. Click **Browse**.
     
@@ -149,7 +151,7 @@ Use the following procedure to create an ODC file and create a data-connected dr
     
 6. Click **Finish**.
     
-6. If the **Web File Properties** dialog box appears, click **Cancel**.
+6. If the **Web File Properties** dialog appears, click **Cancel**.
     
 7. On the Select Data Connection page, click **Finish**.
     
@@ -175,9 +177,9 @@ Use the following procedure to connect to an existing ODC file.
     
 4. On the Select Data Connection page, click **Browse**.
     
-5. On the **Existing Connections** dialog box, click **Browse for More**.
+5. On the **Existing Connections** dialog, click **Browse for More**.
     
-6. In the **Data Selector** dialog box, in the **URL** box, type the URL of the data connection library where you saved the ODC file, and then press Enter. 
+6. In the **Data Selector** dialog, in the **URL** box, type the URL of the data connection library where you saved the ODC file, and then press Enter. 
     
 7. Select the ODC file and then click **Open**.
     

@@ -5,6 +5,8 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -29,14 +31,20 @@ If your users are already syncing document libraries with the previous OneDrive 
 ## Requirements
 
 1. Install SharePoint Server 2019
-2. Install the OneDrive sync app version 18.131.0701.0004 or higher ([download](https://go.microsoft.com/fwlink/p/?LinkId=248256))
+2. Install the OneDrive sync app ([download](https://go.microsoft.com/fwlink/p/?LinkId=248256)). For deployment info, see:
+
+    - [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/onedrive/deploy-on-windows)
+    - [Deploy OneDrive apps by using Intune](/onedrive/deploy-intune)
+    - [Deploy and configure the new OneDrive sync app for Mac](/onedrive/deploy-and-configure-on-macos)
   
 ## Configure OneDrive for SharePoint Server 2019
 
 To set up OneDrive with SharePoint Server 2019, you can either use Group Policy or set the registry keys directly. 
 
 > [!NOTE]
-> For settings that require a tenant ID, you can use **OP1** if you sync a single domain. Do not use this if you sync multiple domains. <br>The Known Folder Move settings don't work for SharePoint Server.
+> For settings that require an organization ID, if you sync a single domain, you can use **OP1**. Do not use this if you sync multiple domains.
+> 
+> The Known Folder Move settings don't work for SharePoint Server.
 
 ### Using Group Policy
 
@@ -45,7 +53,7 @@ Configure the following two Group Policy objects to configure OneDrive to be use
 **Specify SharePoint Server URL and organization name**
 
 The URL will help the sync app locate the SharePoint Server and allows the sync app to authenticate and set up sync.
-The organization name lets you specify the name of the root folder that will be created in File Explorer. If you don’t supply an organization name, the sync app will use the first segment of the URL as the name. For example, office.sharepoint.com would become “office”.
+The organization name lets you specify the name of the root folder that will be created in File Explorer. If you don't supply an organization name, the sync app will use the first segment of the URL as the name. For example, office.sharepoint.com would become "office".
 
 **Specify the OneDrive location in a hybrid environment**
 
@@ -82,26 +90,31 @@ Alternatively, you can also directly configure the following underlying registry
  
 ## Differences between syncing files in SharePoint Server and SharePoint Online
 
-If your organization also uses the OneDrive sync app to sync files in Office 365, here’s what will be different for users who sync on-premises files.
+If your organization also uses the OneDrive sync app to sync files in Microsoft 365, here's what will be different for users who sync on-premises files.
+
+### Single Top Level URL
+The OneDrive sync client only allows synchronization with a single URL (including all Document Libraries in all Site Collections and subsites of the specified URL). It is not possible to add additional top-level URLs (Web Applications or Host-Named Site Collections) for the OneDrive synchronization client with SharePoint Server 2019.
+
+In SharePoint Online, you may synchronize with multiple top-level URLs, such as https://contoso-my.sharepoint.com and https://contoso.sharepoint.com.
   
 ### Folder names
-The OneDrive sync app creates the following folders on users’ computers:
+The OneDrive sync app creates the following folders on users' computers:
 OneDrive – Contoso (for syncing personal My Site files)
 Contoso (for syncing SharePoint team site files)
 
-In SharePoint Online, “Contoso” is the tenant name that has been set for the SharePoint Online instance. In SharePoint on-premises, there is no tenant name associated to the instance of SharePoint. You can set the this with the “Specify SharePoint Server URL and organization name” group policy, or the sync app will use the first segment of your SharePoint URL. 
+In SharePoint Online, "Contoso" is the tenant name that has been set for the SharePoint Online instance. In SharePoint on-premises, there is no tenant name associated to the instance of SharePoint. You can set the this with the "Specify SharePoint Server URL and organization name" group policy, or the sync app will use the first segment of your SharePoint URL. 
    
 ### File thumbnails and previews
-Thumbnails don’t appear in File Explorer for files synced from SharePoint on-premises. If you enable Files On-Demand, and a file is online-only, a file preview won’t be available. Image files and Office files will not have a thumbnail in File Explorer until the file is downloaded.
+Thumbnails don't appear in File Explorer for files synced from SharePoint on-premises. If you enable Files On-Demand, and a file is online-only, a file preview won't be available. Image files and Office files will not have a thumbnail in File Explorer until the file is downloaded.
   
 ### Sharing from File Explorer
 
-When users share files and folders from File Explorer, the sharing option will open the browser instead of the Share dialog box.
+When users share files and folders from File Explorer, the sharing option will open the browser instead of the Share dialog.
   
 ### Privacy settings
 
-When setting up SharePoint Server, you’ll be prompted to select if clients should send error reports and usage statistics back to Microsoft. If you enable the setting, individual users can opt out by following these steps:
-1.	Right-click the OneDrive cloud icon in the notification area, at the far right of the taskbar.
-2.	Click **Settings**. 
-3.	Click the **Settings** tab, and then clear the option under **Privacy**.
+When setting up SharePoint Server, you'll be prompted to select if clients should send error reports and usage statistics back to Microsoft. If you enable the setting, individual users can opt out by following these steps:
+1.    Right-click the OneDrive cloud icon in the notification area, at the far right of the taskbar.
+2.    Click **Settings**. 
+3.    Click the **Settings** tab, and then clear the option under **Privacy**.
 

@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/27/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -55,7 +57,7 @@ A farm administrator or a license manager can check the licenses for all apps fo
     
     The **Manage App License** page shows detailed licensing information. This includes the name of the app, the developer, and current license details. 
     
-4. In the top section, click the drop-down arrow in the dialog box to see purchase details for the selected app for SharePoint.
+4. In the top section, click the drop-down arrow in the dialog to see purchase details for the selected app for SharePoint.
     
     The app details include the following information:
     
@@ -71,7 +73,7 @@ A farm administrator or a license manager can check the licenses for all apps fo
     
 2. In the **People with a License** section, click **assign people**.
     
-3. In the dialog box that appears below, enter the user name that you want to add and then, click **Add User**.
+3. In the dialog that appears below, enter the user name that you want to add and then, click **Add User**.
     
     The user name is added to the list at the bottom of this section and the number of available licenses for this app is refreshed for the selected app for SharePoint.
     

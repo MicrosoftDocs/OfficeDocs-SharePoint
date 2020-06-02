@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -156,7 +158,7 @@ You cannot back up the whole User Profile service application or service applica
     
 5. Right-click the database that you want to back up, point to **Tasks**, and then click **Back Up**.
     
-6. In the **Back Up Database** dialog box, confirm the database name. 
+6. In the **Back Up Database** dialog, confirm the database name. 
     
 7. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
     

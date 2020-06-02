@@ -5,6 +5,8 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -16,8 +18,6 @@ description: "A complete listing of the Migration Manager basic and advanced set
 
 # Migration Manager Settings
 
->[!Note]
->Features noted in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
 
 
 The following table details the settings available in the Migration Manager. Advanced settings should only be changed or managed by your IT professional. 
@@ -55,4 +55,4 @@ The following table details the settings available in the Migration Manager. Adv
 |**Setting**|**Description**|
 |:-----|:-----|
 |Migration auto re-run|Upon failure, re-try task up to 4 times.|
-|Migration Manager work folder|Choose if you want to create your own working folder.  By default, a temp folder will be created. <br/> **Note:** By default, the working folder is `%appdata%\Microsoft\SPMigration`. Please make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|
+|Migration Manager work folder|A temporary working folder is created named `%appdata%\Microsoft\SPMigration`. </br></br> Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.|

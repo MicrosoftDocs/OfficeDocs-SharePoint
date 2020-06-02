@@ -5,6 +5,8 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -55,7 +57,7 @@ Use the following procedure to restore the Secure Store Service by using Central
     
 6. On the Restore from Backup — Step 3 of 3: Select Restore Options page, in the **Restore Component** section, make sure that **Farm\Shared Services\Shared Services Applications\\<Secure Store Service name\>** appears in the **Restore the following component** list. 
     
-    In the **Restore Options** section, under **Type of restore**, select the **Same configuration** option. A dialog box will appear that asks you to confirm the operation. Click **OK**.
+    In the **Restore Options** section, under **Type of restore**, select the **Same configuration** option. A dialog will appear that asks you to confirm the operation. Click **OK**.
     
     Click **Start Restore**.
     
@@ -71,7 +73,7 @@ Use the following procedure to restore the Secure Store Service by using Central
     
 11. On the Secure Store Service page, on the ribbon, click **Refresh Key**.
     
-12. In the **Refresh Key** dialog box, type the passphrase in the **Pass Phrase** box, and then click **OK**.
+12. In the **Refresh Key** dialog, type the passphrase in the **Pass Phrase** box, and then click **OK**.
     
 ## Using PowerShell to restore the Secure Store Service in SharePoint Server
 <a name="proc2"> </a>
@@ -123,7 +125,9 @@ You can use PowerShell to restore the Secure Store Service.
    ```
 
     Where  _\<Passphrase\>_, is the one that you currently use.
-    
+
+Should errors occur while updating the Secure Store passphrase, see [Refresh the Secure Store encryption key](https://docs.microsoft.com/sharepoint/administration/configure-the-secure-store-service#refresh-the-secure-store-encryption-key).
+
 For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/Restore-SPFarm?view=sharepoint-ps) and [Update-SPSecureStoreApplicationServerKey](/powershell/module/sharepoint-server/Update-SPSecureStoreApplicationServerKey?view=sharepoint-ps).
   
 > [!NOTE]
@@ -135,4 +139,3 @@ For more information, see [Restore-SPFarm](/powershell/module/sharepoint-server/
 #### Concepts
 
 [Back up the Secure Store Service in SharePoint Server](back-up-the-secure-store-service.md)
-

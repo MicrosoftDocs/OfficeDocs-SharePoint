@@ -1,0 +1,48 @@
+### YamlMime:Hub
+
+title: OneDrive documentation # < 60 chars
+summary: OneDrive documentation for IT professionals and admins # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | sql | sql-server | vs | visual-studio | windows | xamarin
+brand: m365
+
+metadata:
+  title: OneDrive documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: OneDrive documentation for IT professionals and admins # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: one-drive #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  audience: ITPro
+  author: samanro #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 07/03/2019 #Required; mm/dd/yyyy format.
+  localization_priority: Priority
+
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: For IT Professionals # < 60 chars (optional)
+      items:
+        # Card
+        - title: Plan, deploy, and manage
+          summary: Get the practical guidance you need to get the most out of OneDrive in your organization.
+          url: /OneDrive/onedrive
+        # Card
+        - title: Hybrid deployments
+          summary: Learn how to connect SharePoint Server with OneDrive in Microsoft 365.
+          url: /sharepoint/hybrid/plan-hybrid-onedrive-for-business
+        # Card
+        - title: Troubleshoot
+          summary: Find troubleshooting and support resources for IT Professionals and admins.
+          url: /sharepoint/support/onedrive
+    - title: For other audiences # < 60 chars (optional)
+      items:
+        # Card
+        - title: Developers
+          summary: Guidance for developing solutions for OneDrive.
+          url: https://developer.microsoft.com/onedrive/docs
+        # Card
+        - title: End users
+          summary: Find help, training, and technical support for users of OneDrive on support.office.com.
+          url: https://support.office.com/onedrive

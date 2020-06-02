@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 01/23/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -58,7 +60,7 @@ While the copy process preserves most user information associated with term sets
   
 - You can replace the Active Directory groups with individual users within your taxonomy groups. The individual users will be copied when you copy your taxonomy groups.
     
-- You can copy your taxonomy groups with the Active Directory groups in place. You will see a PowerShell warning and the Active Directory group assignments will be lost if you proceed. You can then assign an Office 365 group in place of the Active Directory group after you've copied the taxonomy groups.
+- You can copy your taxonomy groups with the Active Directory groups in place. You will see a PowerShell warning and the Active Directory group assignments will be lost if you proceed. You can then assign a Microsoft 365 group in place of the Active Directory group after you've copied the taxonomy groups.
     
  **Copying taxonomy groups**
   
@@ -72,10 +74,10 @@ Copying taxonomy groups is done using the Copy-SPTaxonomyGroups PowerShell cmdle
 
 - Taxonomy groups in SharePoint Server to be copied to SharePoint Online.
     
-- Your Office 365 global administrator credentials.
+- Your Microsoft 365 global admin credentials.
 
 >[!NOTE] 
-> If you receive an HTTP 400 error when attempting to use the `Copy-SPTaxonomyGroups` cmdlet with correct credentials, switch to a cloud-based global administrator instead of an Active Directory synchronized account.
+> If you receive an HTTP 400 error when attempting to use the `Copy-SPTaxonomyGroups` cmdlet with correct credentials, switch to a cloud-based global admin instead of an Active Directory synchronized account.
     
 - A list of the taxonomy groups that you want to copy.
     
@@ -125,11 +127,11 @@ For taxonomy replication to work properly, the account that runs the SharePoint 
   
  **To add a term store admin**
   
-1. In Central Administration, under **Application Management**, click **Manage service applications**.
+1. In the **Central Administration** website, under **Application Management**, select **Manage service applications**.
     
-2. Click the link for the Managed Metadata service application.
+2. Select the link for the Managed Metadata service application.
     
-3. Add the timer service account to the **Term Store Administrators** box, and then click **Save**.
+3. Add the timer service account to the **Term Store Administrators** box, and then select **Save**.
     
  **Configure hybrid SharePoint taxonomy using the Hybrid Picker**
   
@@ -139,29 +141,29 @@ The next step is to configure hybrid SharePoint taxonomy by running the Hybrid P
   
 1. Log on to a server in your SharePoint Server farm as the farm administrator. 
     
-2. From your SharePoint Server computer, open a web browser and log on to Office 365 as a global administrator.
+2. From your SharePoint Server computer, open a web browser, and log on to Microsoft 365 as a global admin.
     
-3. In the SharePoint Online Admin Center, click **configure hybrid**.
+3. In the SharePoint Online Admin Center, select **configure hybrid**.
     
-4. On the hybrid picker page, click **Hybrid Picker**.
+4. On the hybrid picker page, select **Hybrid Picker**.
     
-5. Follow the wizard and choose **Hybrid Taxonomy** when prompted. 
+5. Follow the wizard, and when prompted, select **Hybrid Taxonomy**. 
     
 6. Provide the following information when prompted:
     
-  - The URL of your SharePoint Server root site. (For example, https://sharepoint.)
+  - The URL of your SharePoint Server root site (for example, https://sharepoint).
     
-  - The name of your SharePoint Server managed metadata service application. (For example, Managed Metadata Service.)
+  - The name of your SharePoint Server managed metadata service application (for example, Managed Metadata Service).
     
-  - The names of the taxonomy groups that you want to replicate. (For example, Engineering;Marketing.)
+  - The names of the taxonomy groups that you want to replicate (for example, Engineering;Marketing).
     
-    Note, if you don't specify groups, then all groups except system and special groups are configured for replication.
+    If you don't specify groups, then all groups except system and special groups are configured for replication.
     
-Once you've configured hybrid SharePoint taxonomy, the taxonomy replication timer job will poll SharePoint Online on a daily basis for changes to the taxonomy.
+After you've configured hybrid SharePoint taxonomy, the taxonomy replication timer job will poll SharePoint Online on a daily basis for changes to the taxonomy.
   
 ## Running the taxonomy replication timer job
 
-Hybrid SharePoint taxonomy uses a timer job called Taxonomy Groups Replication to copy taxonomy information from SharePoint Online to SharePoint Server. The SharePoint Online APP Identity is used to authenticate to Office 365. By default, this timer job replicates taxonomy on a daily basis.
+Hybrid SharePoint taxonomy uses a timer job called Taxonomy Groups Replication to copy taxonomy information from SharePoint Online to SharePoint Server. The SharePoint Online APP Identity is used to authenticate to Microsoft 365. By default, this timer job replicates taxonomy on a daily basis.
   
 Like other timer jobs in SharePoint, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searcing for it in the timer job list in Central Administration.
   

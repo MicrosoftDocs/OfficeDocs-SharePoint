@@ -1,11 +1,13 @@
 ---
-title: "Configure Office 365 for SharePoint hybrid"
+title: "Configure Microsoft 365 for SharePoint hybrid"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/21/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -19,38 +21,38 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: eddba98c-dec8-4fc8-823d-d908bdf0bc83
-description: "Get Office 365 for enterprises set up for hybrid integration with SharePoint Server."
+description: "Get Microsoft 365 for enterprises set up for hybrid integration with SharePoint Server."
 ---
 
-# Configure Office 365 for SharePoint hybrid
+# Configure Microsoft 365 for SharePoint hybrid
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   
-## Configure Office 365 for SharePoint hybrid
+## Configure Microsoft 365 for SharePoint hybrid
 
-You have to set up some basic integration between Office 365 for enterprises and SharePoint Server before you can configure a hybrid environment. Do the following steps as described in this article:
+You have to set up some basic integration between Microsoft 365 for enterprises and SharePoint Server before you can configure a hybrid environment. Do the following steps as described in this article:
   
-1. Sign up for Office 365.
+1. Sign up for Microsoft 365.
     
-2. Register your domain with Office 365.
+2. Register your domain with Microsoft 365.
     
 3. Assign UPN domain suffixes.
     
-4. Synchronize accounts with Office 365.
+4. Synchronize accounts with Microsoft 365.
     
 5. Assign licenses to your users.
     
 You might have already done some of these steps. If so, there's no need to repeat them. But be sure you do each of the steps in the order shown above before you configure a hybrid environment.
   
-## 1. Sign up for Office 365
+## 1. Sign up for Microsoft 365
 
-You need an [Office 365 subscription](https://go.microsoft.com/fwlink/p/?LinkID=532795) in order to set up a hybrid environment with SharePoint Server. If you're planning to configure hybrid OneDrive for Business, be sure to subscribe to a plan that includes OneDrive for Business. All other hybrid SharePoint hybrid scenarios require an Enterprise plan that includes SharePoint Online. 
+To set up a hybrid environment with SharePoint Server, you need a [Microsoft 365 subscription](https://go.microsoft.com/fwlink/p/?LinkID=532795). If you're planning to configure hybrid OneDrive for Business, be sure to subscribe to a plan that includes OneDrive for Business. All other hybrid SharePoint hybrid scenarios require an Enterprise plan that includes SharePoint Online. 
   
-## 2. Register your domain with Office 365
+## 2. Register your domain with Microsoft 365
 
-When you sign up for Office 365, you're given an initial domain name that looks like contoso.onmicrosoft.com. However, in order to configure a hybrid environment with SharePoint Server, you must register a public domain that you own (such as contoso.com) in Office 365. For detailed information on how to do this, see [Work with domain names in Office 365](https://go.microsoft.com/fwlink/p/?LinkID=534807).
+When you sign up for Microsoft 365, you're given an initial domain name that looks like contoso.onmicrosoft.com. However, to configure a hybrid environment with SharePoint Server, you must register a public domain that you own (such as contoso.com) in Microsoft 365. For detailed info about how to do this, see [Work with domain names in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=534807).
   
 ## 3. Assign a UPN domain suffix
 <a name="assignUPN"> </a>
@@ -65,7 +67,7 @@ The following procedures show how to manually do these tasks. If you have many u
     
 2. In the left pane, right-click the top-level node, and then click **Properties**.
     
-3. In the **UPN suffixes** dialog box, enter the domain suffix in the **Alternative UPN suffixes** box that you want for hybrid, and then click **Add** > **OK**.
+3. In the **UPN suffixes** dialog, enter the domain suffix in the **Alternative UPN suffixes** box that you want for hybrid, and then click **Add** > **OK**.
     
 For more information, see [Add user principal name suffixes](https://go.microsoft.com/fwlink/?LinkId=392430) (https://go.microsoft.com/fwlink/?LinkId=392430). 
   
@@ -75,7 +77,7 @@ For more information, see [Add user principal name suffixes](https://go.microsof
     
 2. In the **Name** column, right-click the user account that you want to federate, and then click **Properties**.
     
-3. In the **Properties** dialog box, click the **Account** tab. 
+3. In the **Properties** dialog, click the **Account** tab. 
     
 4. Select the UPN domain suffix that you added in the previous procedure from the drop-down list, as shown in the following picture.
     
@@ -83,10 +85,10 @@ For more information, see [Add user principal name suffixes](https://go.microsof
   
 5. Repeat steps 2 through 4 for each additional user account that you want to federate.
     
-## 4. Synchronize user accounts with Office 365
+## 4. Synchronize user accounts with Microsoft 365
 <a name="assignUPN"> </a>
 
-In order to configure a hybrid environment, you must synchronize your on-premises Active Directory Domain Services user accounts with Office 365 by configuring one of the following:
+In order to configure a hybrid environment, you must synchronize your on-premises Active Directory Domain Services user accounts with Microsoft 365 by configuring one of the following:
   
 - Directory synchronization with password synchronization
     
@@ -94,11 +96,11 @@ In order to configure a hybrid environment, you must synchronize your on-premise
     
 If you choose the SSO option, you can also configure password synchronization if you want to as a backup for SSO, but you must configure at least one of the two (password synchronization or SSO). 
   
-For detailed information on how to configure these options, see [Office 365 integration with on-premises environments](https://go.microsoft.com/fwlink/p/?LinkID=524187).
+For detailed information on how to configure these options, see [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/p/?LinkID=524187).
   
 ## 5. Assign licenses to your users
 <a name="assignUPN"> </a>
 
-Your users must each have a license in Office 365 in order to be able to use hybrid features. Once your accounts are synchronized, [assign licenses to your users](https://go.microsoft.com/fwlink/p/?LinkID=529809).
+Your users must each have a license in Microsoft 365 in order to be able to use hybrid features. Once your accounts are synchronized, [assign licenses to your users](https://go.microsoft.com/fwlink/p/?LinkID=529809).
   
 

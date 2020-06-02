@@ -5,18 +5,22 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - ODB160
 - ODB150
 - MET150
 ms.assetid: 7d7168dd-9015-4245-a971-61b504f834d6
-description: "Learn how to prevent users from uploading specific file types using the OneDrive admin center."
+description: "In this article, you'll learn how to prevent users from uploading specific file types using the OneDrive admin center."
 ---
 
 # Block syncing of specific file types

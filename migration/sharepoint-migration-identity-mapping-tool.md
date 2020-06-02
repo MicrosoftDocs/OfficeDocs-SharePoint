@@ -5,6 +5,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 01/11/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -19,7 +21,7 @@ description: "Use the Identity Mapping feature of the SharePoint Migration Asses
 Use the Identity Mapping feature of the SharePoint Migration Assessment Tool to assist in your Identity Migration.
   
 > [!NOTE]
-> To download the SharePoint Migration Tool, click here: [Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
+> To download the SharePoint Migration Tool, select: [Download the SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
   
 ## Introduction
 
@@ -103,7 +105,7 @@ To generate the Identity Mapping Reports, you need to consent to allow assessmen
   
  **Option 1:** Run the assessment tool with the -ConfigureIdentityMapping switch. 
   
-This option will the SPO Identity Mapping tool to your tenant's Enterprise Applications section and allow anyone in your tenant to run the tool to perform identity mapping for migration in Office 365.
+This option gives the SPO Identity Mapping tool access to your tenant's Enterprise Applications section. It allows anyone in your tenant to run the tool to perform identity mapping for migration in Microsoft 365.
   
 1. Download the assessment tool from here: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598)
     
@@ -114,7 +116,7 @@ This option will the SPO Identity Mapping tool to your tenant's Enterprise Appli
   
 3. When prompted with the Azure logon dialog, enter your Azure tenant admin credentials.
     
-4. When prompted for consent, click Accept.
+4. When prompted for consent, select **Accept**.
     
 5. The SMAT.exe application will indicate the application was successfully registered. A SharePoint admin is now able to run the identity mapping process.
     
@@ -130,7 +132,7 @@ It is possible for a user with Azure tenant admin rights to run the tool and onl
     
 3. When prompted with the Azure logon dialog, enter your Azure Tenant Admin credentials. 
     
-4. When prompted for consent, click OK. This will only consent the app for the logon provided. 
+4. When prompted for consent, select **OK**. This will only consent the app for the logon provided. 
     
 5. The identity mapping will run and generate the needed reports. 
     
@@ -140,13 +142,13 @@ Follow the steps below to remove consent for the SPO Identity Mapping Applicatio
   
 1. Browse https://portal.azure.com 
     
-2. Logon as a tenant admin.
+2. Log in as an organization admin.
     
 3. Locate Enterprise applications. 
     
-4. Click All applications. 
+4. Select **All applications**. 
     
-5. Select SPO Identity Mapping Tool in the list of applications and then click **Delete**. 
+5. In the list of applications, select **SPO Identity Mapping Tool**, and then select **Delete**. 
     
 ## Reports generated
 
@@ -164,7 +166,7 @@ If the identity was not found in Azure Active Directory, the Azure Active Direct
   
 |**Column name**|**Source**|**Description**|
 |:-----|:-----|:-----|
-|UniqueID  <br/> |SharePoint  <br/> |For Windows accounts this will be a Security Identifier (SID). For non-Windows accoutns, this will be the claim used to ACL SharePoint.  <br/> |
+|UniqueID  <br/> |SharePoint  <br/> |For Windows accounts this will be a Security Identifier (SID). For non-Windows accounts, this will be the claim used to ACL SharePoint.  <br/> |
 |TypeOfMatch  <br/> |Assessment Tool  <br/> |**ExactMatch** - The source identity is a Windows account and we were able to match the SID in SharePoint to the OnPremisesSecurityIdentifier in Azure AD.  <br/> **PartialMatch** - The match was based on UserPrincipalName, Email, or Display Name. For groups, we only partial match on Display Name.  <br/> **NoMatch** - Unable to match the identity against any information.  <br/> |
 |IsGroup  <br/> |SharePoint  <br/> |True if the identity is a group.  <br/> |
 |ACLExists  <br/> |SharePoint  <br/> |True if the identity is associated with permissions in SharePoint. This indicates the identity has access to some piece of content.  <br/> |
@@ -197,7 +199,7 @@ IdentityMapping.csv is a pre-generated identity mapping file. All identities are
   
 |**Column name**|**Description**|
 |:-----|:-----|
-|UniqueIdentity  <br/> |Uniquevalue to identify the object in the source environment. For Windows identities, this will be the Security Identifier (SID). For all other identity types, this will be the claim found in SharePoint.  <br/> |
+|UniqueIdentity  <br/> |Unique value to identify the object in the source environment. For Windows identities, this will be the Security Identifier (SID). For all other identity types, this will be the claim found in SharePoint.  <br/> |
 |TargetIdentity  <br/> |Identity to map the source identity to.  <br/> For users, this value is the User Principal Name of the user in Azure Active Directory. For groups, this value is the Object Id of the group in Azure Active Directory.  <br/> |
 |IsGroup  <br/> |True if the row represents a group.  <br/> |
    

@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/17/2016
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -97,7 +99,7 @@ Remember [Stage 5: Connect your publishing site to a catalog in SharePoint Serve
     
 1. In the **Change target page for this term** section, click **Browse**. 
     
-2. In the **Select an Asset** dialog box, click **Pages**, and then select the category page that you want to apply. In our scenario, this is **ContosoCategoryPage.aspx**. 
+2. In the **Select an Asset** dialog, click **Pages**, and then select the category page that you want to apply. In our scenario, this is **ContosoCategoryPage.aspx**. 
     
      ![Select Category Page](../media/OTCSP_SelectCategoryPage.png)
   
@@ -111,7 +113,7 @@ By setting this reference, when visitors browse to "Audio" on the Contoso site, 
     
 1. In the **Change Catalog Item Page for this category** section, click **Browse**. 
     
-2. In the **Select an Asset** dialog box, click **Pages**, and then select the category page that you want to apply. In our scenario, this is **ContosoCatalogItemPage.aspx**. 
+2. In the **Select an Asset** dialog, click **Pages**, and then select the category page that you want to apply. In our scenario, this is **ContosoCatalogItemPage.aspx**. 
     
      ![Select Catalog Item Page](../media/OTCSP_SelectCatalogItemPage.png)
   

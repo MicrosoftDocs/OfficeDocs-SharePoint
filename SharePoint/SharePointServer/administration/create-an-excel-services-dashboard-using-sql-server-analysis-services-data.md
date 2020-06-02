@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/7/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -79,9 +81,9 @@ Our example dashboard uses a single data connection to data that is stored in SQ
   
 1. Open Microsoft Excel.
     
-2. Choose **Blank workbook** to create a workbook. 
+2. To create a workbook, select **Blank workbook**. 
     
-3. On the **Data** tab, choose **Get External Data** group, choose **From Other Sources**, and then choose **From Analysis Services**.
+3. On the **Data** tab, select **Get External Data** group, then select **From Other Sources**, and then select **From Analysis Services**.
     
     The Data Connection Wizard opens.
     
@@ -89,18 +91,18 @@ Our example dashboard uses a single data connection to data that is stored in SQ
     
 5. In the **Log on credentials** section, take one of the following steps: 
     
-  - If your organization is using Windows Authentication, choose **Use Windows Authentication**, and then choose the **Next** button. 
+  - If your organization is using Windows Authentication, select **Use Windows Authentication**, and then select **Next**. 
     
-  - If your organization is using specific user credentials, choose **Use the following User Name and Password**, specify an appropriate user name and password, and then choose the **Next** button. 
+  - If your organization is using specific user credentials, select **Use the following User Name and Password**, specify an appropriate user name and password, and then select **Next**. 
     
     > [!TIP]
-    > If you don't know which option to choose, contact a SharePoint administrator. 
+    > If you don't know which option to choose, contact a SharePoint admin. 
   
-6. On the **Select Database and Table** page, choose the **AdventureWorksDW2012Multidimensional-EE** database, choose the **Adventure Works** cube, and then choose the **Next** button. 
+6. On the **Select Database and Table** page, select the **AdventureWorksDW2012Multidimensional-EE** database, then select the **Adventure Works** cube, and then select **Next**. 
     
-7. On the **Save Data Connection File and Finish** page, choose the **Finish** button. 
+7. On the **Save Data Connection File and Finish** page, select **Finish**. 
     
-8. On the **Import Data** page, select the **Only Create Connection** option, and then choose the **OK** button. 
+8. On the **Import Data** page, select the **Only Create Connection** option, and then select **OK**. 
     
 9. Keep Excel open.
     
@@ -126,62 +128,62 @@ We begin by creating the ProductSales report.
   
  **To create the ProductSales report**
   
-1. In Excel, on the **Insert** tab, in the **Charts** section, choose **PivotChart**.
+1. In Excel, on the **Insert** tab, in the **Charts** section, select **PivotChart**.
     
-    The **Create PivotChart** dialog box appears. 
+    The **Create PivotChart** dialog appears. 
     
-2. In the **Choose the data that you want to analyze** section, choose the **Use an external data source** option, and then choose the **Choose Connection** button. 
+2. In the **Choose the data that you want to analyze** section, select the **Use an external data source** option, and then select **Choose Connection**. 
     
-    The **Existing Connections** dialog box appears. 
+    The **Existing Connections** dialog appears. 
     
-3. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then choose the **Open** button. 
+3. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then select **Open**. 
     
-4. In the **Create PivotChart** dialog box, choose the **Existing Worksheet** option, and then choose the **OK** button. 
+4. In the **Create PivotChart** dialog, select the **Existing Worksheet** option, and then select **OK**. 
     
     **Chart1** opens for editing. 
     
 5. In the **PivotChart Fields** list, specify the following options: 
     
-  - In the **Sales Summary** section, choose **Sales Amount**.
+  - In the **Sales Summary** section, select **Sales Amount**.
     
-    **Sales Amount** is displayed in the **Values** section, and the report updates to display a single bar. 
+    **Sales Amount** appears in the **Values** section, and the report updates to show a single bar. 
     
-  - In the **Product** section, choose **Product Categories**.
+  - In the **Product** section, select **Product Categories**.
     
-    **Product Categories** is displayed in the **Axis** section, and the report updates to display sales amounts across different product categories. 
+    **Product Categories** appears in the **Axis** section, and the report updates to show sales amounts across different product categories. 
     
 6. To sort the bars in descending order, take the following steps:
     
-1. In the **PivotChart Fields** list, click (or touch) the **Product Categories** dimension, and then choose the down arrow that appears. 
+1. In the **PivotChart Fields** list, select the **Product Categories** dimension, and then select the down arrow that appears. 
     
-    The **Select field** dialog box appears. 
+    The **Select field** dialog appears. 
     
-2. Choose **More Sort Options…** to open the **Sort (Category)** dialog box. 
+2. To open the **Sort (Category)** dialog, select **More Sort Options…**. 
     
-3. In the **Sort options** section, choose the **Descending (Z to A) by** option, and then use the list to select **Sales Amount**.
+3. In the **Sort options** section, select the **Descending (Z to A) by** option, and then use the list to select **Sales Amount**.
     
-4. Click **OK**.
+4. Select **OK**.
     
 7. To ensure that there is room for more reports, we'll move the PivotChart report closer to the upper-left corner of the worksheet. To do this, drag the report so that the upper-left corner aligns with the upper-left corner of cell B10 in the worksheet.
     
-8. To avoid confusion about report names later, we'll specify a new name for the report. On the **Analyze** tab, in the **PivotChart** group, in the **Chart Name** box, delete the text that says Chart1, type ProductSales, and then press the Enter key. 
+8. To avoid confusion about report names later, we'll specify a new name for the report. On the **Analyze** tab, in the **PivotChart** group, in the **Chart Name** box, delete the text that says Chart1, type ProductSales, and on your keyboard, press **<Enter>**. 
     
     > [!TIP]
     > Ensure that the name that you specify contains only alphanumeric characters (no spaces). 
   
 9. To ensure we don't encounter sizing issues later with the report, we'll specify size settings for the report. To do this, follow these steps:
     
-1. In an empty section of the report, such as inside the upper-right corner of the report, right-click (or touch and hold for a second), and then choose **Format Chart Area**.
+1. In an empty section of the report, such as inside the upper-right corner of the report, right-click, and then select **Format Chart Area**.
     
     The **Format Chart Area** list opens. 
     
-2. Below the **Chart Options**, choose the **Size and Properties** toolbar command. 
+2. Below the **Chart Options**, select the **Size and Properties** toolbar command. 
     
-3. Expand the **Size** section, and then choose the **Lock aspect ratio** option. 
+3. Expand the **Size** section, and then select the **Lock aspect ratio** option. 
     
-4. Expand the **Properties** section, choose the **Don't move or size with cells** option, and verify that the **Locked** option is selected. 
+4. Expand the **Properties** section, select the **Don't move or size with cells** option, and verify that the **Locked** option is selected. 
     
-5. To optionally specify alternate text for the report, expand the **Alt Text** section, and then type the text that you want to use for the report. 
+5. To optionally specify alternate text for the report, expand the **Alt Text** section, and then enter the text that you want to use for the report. 
     
 6. Close the **Format Chart Area** list. 
     
@@ -193,17 +195,17 @@ At this point, we have created a PivotChart report. The next step is to create a
   
  **To create the GeoSales report**
   
-1. In Excel, on the same worksheet that was used to create the ProductSales report, choose cell K10.
+1. In Excel, on the same worksheet that was used to create the ProductSales report, select cell K10.
     
-2. On the **Insert** tab, choose **PivotChart**.
+2. On the **Insert** tab, select **PivotChart**.
     
-3. In the **Choose the data that you want to analyze** section, choose the **Use an external data source** option, and then choose the **Choose Connection** button. 
+3. In the **Choose the data that you want to analyze** section, select the **Use an external data source** option, and then select **Choose Connection**. 
     
-    The **Existing Connections** dialog box appears. 
+    The **Existing Connections** dialog appears. 
     
-4. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then choose the **Open** button. 
+4. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then select **Open**. 
     
-5. In the **Create PivotChart** dialog box, choose the **Existing Worksheet** option, and then choose the **OK** button. 
+5. In the **Create PivotChart** dialog, select the **Existing Worksheet** option, and then select **OK**. 
     
     **Chart2** opens for editing. 
     
@@ -211,7 +213,7 @@ At this point, we have created a PivotChart report. The next step is to create a
     
 7. In the **PivotChart Fields** list, specify the following options: 
     
-  - In the **Sales Summary** section, choose **Sales Amount**.
+  - In the **Sales Summary** section, select **Sales Amount**.
     
   - In the **Sales Territory** section, drag **Sales Territory** to the **Legend** section. 
     
@@ -219,23 +221,23 @@ At this point, we have created a PivotChart report. The next step is to create a
     
 8. Specify size settings for the report by following these steps:
     
-1. In an empty section of the report, right-click (or touch and hold for a second), and then choose the **Format Chart Area** option. 
+1. In an empty section of the report, right-click, and then select the **Format Chart Area** option. 
     
     The **Format Chart Area** list opens. 
     
-2. Below the **Chart Options**, choose the **Size and Properties** toolbar command. 
+2. Below the **Chart Options**, select the **Size and Properties** toolbar command. 
     
-3. Expand the **Size** section, and then choose the **Lock aspect ratio** option. 
+3. Expand the **Size** section, and then select the **Lock aspect ratio** option. 
     
-4. Expand the **Properties** section, choose the **Don't move or size with cells** option, and verify that **Locked** is selected. 
+4. Expand the **Properties** section, select the **Don't move or size with cells** option, and verify that **Locked** is selected. 
     
-5. To optionally specify alt text for the report, expand the **Alt Text** section, and then type the text that you want to use for the report. 
+5. To optionally specify alt text for the report, expand the **Alt Text** section, and then enter the text that you want to use for the report. 
     
 6. Close the **Format Chart Area** list. 
     
-9. Specify a new name for the report. On the **Analyze** tab, in the **PivotChart** group, in the **Chart Name** box, delete the text that says Chart2, type GeoSales, and then press the Enter key. 
+9. Specify a new name for the report. On the **Analyze** tab, in the **PivotChart** group, in the **Chart Name** box, delete the text for Chart2, type GeoSales, and on your keyboard, and on your keyboard, press **<Enter>**. 
     
-10. On the **File** tab, choose the **Save** button. 
+10. On the **File** tab, select **Save**. 
     
 11. Keep the workbook open.
     
@@ -243,35 +245,35 @@ At this point, we have created two reports. The next step is to create the Chann
   
  **To create the ChannelSales report**
   
-1. In Excel, on the same worksheet that was used to create the previous reports, choose cell B26.
+1. In Excel, on the same worksheet that was used to create the previous reports, select cell B26.
     
-2. On the **Insert** tab, choose **PivotTable**.
+2. On the **Insert** tab, select **PivotTable**.
     
-3. In the **Choose the data that you want to analyze** section, choose the **Use an external data source** option, and then choose the **Choose Connection** button. 
+3. In the **Choose the data that you want to analyze** section, select the **Use an external data source** option, and then select **Choose Connection**. 
     
-    The **Existing Connections** dialog box appears. 
+    The **Existing Connections** dialog appears. 
     
-4. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then choose the **Open** button. 
+4. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then select **Open**. 
     
-5. Choose the **Existing Worksheet** option, and then choose the **OK** button. 
+5. Select the **Existing Worksheet** option, and then select **OK**. 
     
     **PivotTable3** opens for editing. 
     
 6. In the **PivotTable Fields** list, specify the following options: 
     
-  - In the **Sales Orders** section, choose ** Order Count **.
+  - In the **Sales Orders** section, select **Order Count**.
     
-  - In the **Sales Summary** section, choose **Sales Amount**.
+  - In the **Sales Summary** section, select **Sales Amount**.
     
-  - In the **Sales Channel** section, choose **Sales Channel**.
+  - In the **Sales Channel** section, select **Sales Channel**.
     
     The report updates to display a table showing order counts and sales amounts for the Internet and Reseller channels. 
     
-7. Choose cell B26, and then, in the **Formula** bar, delete the text that says Row Labels, and type Channel Sales. Then press the Enter key.
+7. Select cell B26, and then, in the **Formula** bar, delete the text for Row Labels, and enter 'Channel Sales.' Then, on your keyboard, press **<Enter>**.
     
-8. Specify a new name for the report. On the **Analyze** tab, in the **PivotTable** group, in the **PivotTable Name** box, delete the text that says PivotTable3, type ChannelSales, and then press the Enter key. 
+8. Specify a new name for the report. On the **Analyze** tab, in the **PivotTable** group, in the **PivotTable Name** box, delete the text for PivotTable3, type ChannelSales, and on your keyboard, press **<Enter>**. 
     
-9. On the **File** tab, choose the **Save** button. 
+9. On the **File** tab, select **Save**. 
     
 10. Keep the Excel workbook open.
     
@@ -279,35 +281,35 @@ At this point, we have created three reports using the same data source. The nex
   
  **To create the OrderSales report**
   
-1. In Excel, on the same worksheet that was used to create the previous reports, choose cell H26.
+1. In Excel, on the same worksheet that was used to create the previous reports, select cell H26.
     
-2. On the **Insert** tab, choose **PivotTable**.
+2. On the **Insert** tab, select **PivotTable**.
     
-3. In the **Choose the data that you want to analyze** section, choose the **Use an external data source** option, and then choose the **Choose Connection** button. 
+3. In the **Choose the data that you want to analyze** section, select the **Use an external data source** option, and then select **Choose Connection**. 
     
-    The **Existing Connections** dialog box appears. 
+    The **Existing Connections** dialog appears. 
     
-4. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then choose the **Open** button. 
+4. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then select **Open**. 
     
-5. Choose the **Existing Worksheet** option, and then choose the **OK** button. 
+5. Select the **Existing Worksheet** option, and then select **OK**. 
     
     **PivotTable4** opens for editing. 
     
 6. In the **PivotTable Fields** list, specify the following options: 
     
-  - In the **Sales Orders** section, choose ** Order Count **.
+  - In the **Sales Orders** section, select **Order Count**.
     
-  - In the **Sales Summary** section, choose **Sales Amount**.
+  - In the **Sales Summary** section, select **Sales Amount**.
     
-  - In the **Product** section, choose **Product Categories**.
+  - In the **Product** section, select **Product Categories**.
     
     The report updates to display a table showing order counts and sales amounts for different product categories. 
     
-7. Choose cell H26, and then, in the **Formula** bar, delete the default text that says **Row Labels**, and then type Products. Then press the Enter key.
+7. Select cell H26, and then, in the **Formula** bar, delete the default text for **Row Labels**, and then type Products. Then, on your keyboard, press **<Enter>**.
     
-8. Specify a new name for the report. On the **Analyze** tab, in the **PivotTable** group, in the **PivotTable Name** box, delete the text that says PivotTable4, type OrderSales, and then press the Enter key. 
+8. Specify a new name for the report. On the **Analyze** tab, in the **PivotTable** group, in the **PivotTable Name** box, delete the text for PivotTable4, type OrderSales, and on your keyboard, press **<Enter>**. 
     
-9. On the **File** tab, choose the **Save** button. 
+9. On the **File** tab, select **Save**. 
     
 10. Keep the workbook open.
     
@@ -320,17 +322,17 @@ Using Excel, there are several different kinds of filters we can create. For exa
   
  **To create a timeline control**
   
-1. In Excel, on the same worksheet that was used to create the reports, choose cell B1.
+1. In Excel, on the same worksheet that was used to create the reports, select cell B1.
     
-2. On the **Insert** tab, in the **Filter** group, choose **Timeline**.
+2. On the **Insert** tab, in the **Filter** group, select **Timeline**.
     
-    The Existing Connections dialog box appears.
+    The Existing Connections dialog appears.
     
-3. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then choose the **Open** button. 
+3. In the **Connections in this Workbook** section, select the **AdventureWorksDW2012Multidimensional-EE** data connection, and then select **Open**. 
     
-4. The **Insert Timelines** dialog box appears. 
+4. The **Insert Timelines** dialog appears. 
     
-5. Choose the **Date** option, and then choose the **OK** button. 
+5. Select the **Date** option, and then select **OK**. 
     
     A timeline control opens.
     
@@ -338,13 +340,13 @@ Using Excel, there are several different kinds of filters we can create. For exa
     
 7. To make the timeline control wider, use the resizing handles, and drag the sizing handle on the right side of the control to column M.
     
-8. Select the timeline control, and then, on the **Options** tab, in the **Timeline** group, choose the **Report Connections** toolbar command. 
+8. Select the timeline control, and on the **Options** tab, in the **Timeline** group, select the **Report Connections** toolbar command. 
     
-    The **Report Connections** dialog box appears. 
+    The **Report Connections** dialog appears. 
     
-9. Choose **ChannelSales**, **GeoSales**, **OrderSales**, and **ProductSales**, and then choose the **OK** button. 
+9. Select **ChannelSales**, **GeoSales**, **OrderSales**, and **ProductSales**, and then select **OK**. 
     
-10. On the **File** tab, choose the **Save** button. 
+10. On the **File** tab, select **Save**. 
     
 11. Keep the Excel workbook open.
     
@@ -353,21 +355,21 @@ At this point, we have created a dashboard. The next step is to publish it to Sh
 ## Publish the dashboard
 <a name="part3"> </a>
 
-To publish the workbook to SharePoint Server 2013, we'll follow a four-step process. First, we make some adjustments that affect how the workbook is displayed. Then, we specify Excel Services data authentication settings for the external data connection that we use. Next, we specify publish options for the workbook. Finally, we publish the workbook to SharePoint Server 2013.
+To publish the workbook to SharePoint Server 2013, we'll follow a four-step process. First, we make some adjustments that affect how the workbook appears. Then, we specify Excel Services data authentication settings for the external data connection that we use. Next, we specify publish options for the workbook. Finally, we publish the workbook to SharePoint Server 2013.
   
-We begin by making adjustments to the workbook. By default, our example dashboard displays gridlines on the worksheet that contains our dashboard. In addition, by default, the worksheet is called Sheet1. We can make some minor adjustments that will improve how the dashboard will be displayed.
+We begin by making adjustments to the workbook. By default, our example dashboard displays gridlines on the worksheet that contains our dashboard. In addition, by default, the worksheet is called Sheet1. We can make some minor adjustments to improve how the dashboard appears.
   
  **To make minor display improvements to the workbook**
   
-1. In Excel, choose the **View** tab. 
+1. In Excel, select the **View** tab. 
     
 2. To remove gridlines from the view, on the **View** tab, in the **Show** group, clear the **Gridlines** check box. 
     
 3. To remove row and column headings, on the **View** tab, in the **Show** group, clear the **Headings** check box. 
     
-4. To rename the worksheet, right-click its tab where it says **Sheet1**, and then choose **Rename**. Immediately type a new name for the worksheet, such as SalesDashboard, and then press the Enter key.
+4. To rename the worksheet, right-click its tab for **Sheet1**, and then select **Rename**. Enter a new name for the worksheet, such as SalesDashboard, and on your keyboard, press **<Enter>**.
     
-5. On the **File** tab, choose **Save**.
+5. On the **File** tab, select **Save**.
     
 6. Keep the workbook open.
     
@@ -375,47 +377,47 @@ The workbook we created uses an external data connection that we want to keep ac
   
  **To specify authentication settings for the external data connection**
   
-1. In Excel, on the **Data** tab, choose the **Connections** toolbar command. 
+1. In Excel, on the **Data** tab, select the **Connections** toolbar command. 
     
-    The **Workbook Connections** dialog box appears and displays the **AdventureWorksDW2012Multidimensional-EE** data connection. 
+    The **Workbook Connections** dialog appears, and displays the **AdventureWorksDW2012Multidimensional-EE** data connection. 
     
-2. Choose the **Properties** button. 
+2. Select **Properties**. 
     
-3. In the **Connection Properties** dialog box, on the **Definition** tab, next to **Excel Services**, choose the **Authentication Settings…** button. 
+3. In the **Connection Properties** dialog, on the **Definition** tab, next to **Excel Services**, select **Authentication Settings…**. 
     
-4. In the **Excel Services Authentication Settings** dialog box, take one of the following steps: 
+4. In the **Excel Services Authentication Settings** dialog, take one of the following steps: 
     
-  - If Excel Services is configured to use Windows Authentication or the EffectiveUserName feature, select **Use the authenticated user's account**, and then choose the **OK** button. 
+  - If Excel Services is configured to use Windows Authentication or the EffectiveUserName feature, select **Use the authenticated user's account**, and then select **OK**. 
     
-  - If Excel Services is configured to use Secure Store Service, select **Use a stored account**. In the **Application ID** box, specify the Secure Store target application ID, and then choose the **OK** button. 
+  - If Excel Services is configured to use Secure Store Service, select **Use a stored account**. In the **Application ID** box, specify the Secure Store target application ID, and then select **OK**. 
     
-  - If Excel Services is configured to use the unattended service account, select **None**, and then choose the **OK** button. 
+  - If Excel Services is configured to use the unattended service account, select **None**, and then select **OK**. 
     
     > [!IMPORTANT]
-    > If you do not know which option to choose, contact a SharePoint administrator. 
+    > If you do not know which option to select, contact a SharePoint admin. 
   
-5. Choose the **OK** button to close the **Connection Properties** dialog box. 
+5. To close the **Connection Properties** dialog, select **OK**. 
     
-6. If you see a message that states that the connection in the workbook will no longer be identical to the connection that is defined in the external file, choose **Yes**.
+6. If you see a message that states that the connection in the workbook will no longer be identical to the connection that is defined in the external file, select **Yes**.
     
-7. Choose the **Close** button to close the **Workbook Connections** dialog box. 
+7. To close the **Workbook Connections** dialog, select **Close**. 
     
-When we created the reports for the dashboard, we gave each one a unique name and defined it as a named item in Excel. In addition to publishing the workbook to SharePoint Server 2013, we should publish the named items that we defined. This makes it possible to display a named item in its own SharePoint Web Part later. We do this by specifying publish options for the workbook. 
+When we created the reports for the dashboard, we gave each one a unique name and defined it as a named item in Excel. In addition to publishing the workbook to SharePoint Server 2013, we should publish the named items that we defined. This makes it possible to show a named item in its own SharePoint Web Part later. We do this by specifying publish options for the workbook. 
   
 > [!TIP]
 > This article does not describe how to display a named item in its own SharePoint Web Part. Therefore, the following procedure is optional. However, we recommend that, as a best practice, you perform the following procedure. This can save you from having to republish the workbook later. 
   
  **To specify publish options for the workbook**
   
-1. On the **File** tab, choose **Info**, and then choose **Browser View Options**.
+1. On the **File** tab, select **Info**, and then select **Browser View Options**.
     
-2. Choose the **Browser View Options** button. 
+2. Select **Browser View Options**. 
     
-3. On the **Show** tab, use the list to choose **Items in the Workbook**.
+3. On the **Show** tab, use the list to select **Items in the Workbook**.
     
-4. Choose **All Charts** and **All PivotTables**, and then choose the **OK** button. 
+4. Select **All Charts**, then select **All PivotTables**, and then select **OK**. 
     
-5. On the **File** tab, choose the **Save** button. 
+5. On the **File** tab, select **Save**. 
     
 6. Keep the workbook open.
     
@@ -423,13 +425,13 @@ The next step is to publish the workbook to SharePoint Server 2013.
   
  **To publish the workbook to SharePoint Server**
   
-1. In Excel, on the **File** tab, choose **Save As**, choose **Computer**, and then choose the **Browse** button. 
+1. In Excel, on the **File** tab, select **Save As**, then select **Computer**, and then select **Browse**. 
     
-    The **Save As** dialog box appears. 
+    The **Save As** dialog appears. 
     
-2. In the address line, type the SharePoint address to an Excel Services trusted file location.
+2. In the address line, enter the SharePoint address to an Excel Services trusted file location.
     
-3. Choose the **Save** button. 
+3. Select **Save**. 
     
     The workbook is published in the SharePoint library that you specified.
     
@@ -446,11 +448,11 @@ After the dashboard was published to SharePoint Server 2013, it is available for
   
 1. Open a web browser.
     
-2. In the address bar, type the address to the Business Intelligence Center site where the dashboard was published.
+2. In the address bar, enter the address to the Business Intelligence Center site where the dashboard was published.
     
-3. Choose **Site Contents**, and then choose **Documents**.
+3. Select **Site Contents**, and then select **Documents**.
     
-4. Choose the **Adventure Works Sales** dashboard. 
+4. Select the **Adventure Works Sales** dashboard. 
     
     The dashboard opens for viewing.
     
@@ -460,11 +462,11 @@ Now that the dashboard is open for viewing, we can use it to obtain answers to s
 
 |**Question**|**Action**|
 |:-----|:-----|
-|Which product category has the largest number of orders?  <br/> |Using the OrderSales report, view the **Order Count** column for various product categories. You can see that Accessories has the largest number of orders. Notice also that Accessories also has the least total sales amount of all four product categories.  <br/> |
+|Which product category has the largest number of orders?  <br/> |Using the OrderSales report, view the **Order Count** column for various product categories. You can see that Accessories has the largest number of orders. Also, Accessories also has the least total sales amount of all four product categories.  <br/> |
 |Does this company sell more merchandise through the Internet channel, or the Reseller channel?  <br/> |Using the ChannelSales report, you can see that, although the Internet channel has more orders, the Reseller channel has the highest sales amount.  <br/> |
-|Which year resulted in the highest total sales amount?  <br/> |Using the timeline control near the top of the screen, choose the down arrow next to **MONTHS** and select **YEARS**. Use the control to select one year at a time. Notice that the year 2007 has the highest sales amount.  <br/> |
-|Which sales territory has the highest sales amount for this company for all time?  <br/> |Clear the filter from the timeline control by selecting the **Clear Filter** toolbar command in the upper-right corner of the timeline control. Notice that North America has the highest sales amount for this particular company.  <br/> |
-|Which subcategory of bikes has the highest overall sales?  <br/> |Using the **ProductSales** report, double-click (or touch and hold for a second) the bar for **Bikes**. The report updates to display three subcategories: **Mountain Bikes**, **Road Bikes**, and **Touring Bikes**. Notice that the Mountain Bikes subcategory has the highest sales amount.  <br/> |
+|Which year resulted in the highest total sales amount?  <br/> |Using the timeline control near the top of the screen, select the down arrow next to **MONTHS**, and select **YEARS**. Use the control to select one year at a time. The year 2007 has the highest sales amount.  <br/> |
+|Which sales territory has the highest sales amount for this company for all time?  <br/> |To clear the filter from the timeline control, in the upper-right corner of the timeline control, select the **Clear Filter** toolbar command. North America has the highest sales amount for this particular company.  <br/> |
+|Which subcategory of bikes has the highest overall sales?  <br/> |Using the **ProductSales** report, double-click the bar for **Bikes**. The report updates to show three subcategories: **Mountain Bikes**, **Road Bikes**, and **Touring Bikes**. The Mountain Bikes subcategory has the highest sales amount.  <br/> |
    
 ## See also
 <a name="part4"> </a>

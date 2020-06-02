@@ -5,12 +5,16 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - ODB160
@@ -19,7 +23,7 @@ search.appverid:
 - MBS150
 - ODB150
 ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
-description: "Learn how to deploy OneDrive apps using Microsoft Endpoint Configuration Manager."
+description: "In this article, you'll learn how to deploy OneDrive apps using Microsoft Endpoint Configuration Manager."
 ---
 
 # Deploy OneDrive apps using Microsoft Endpoint Configuration Manager
@@ -54,9 +58,9 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
   
 ### Use Microsoft Endpoint Configuration Manager to deploy the OneDrive sync app
 
-1. In Configuration Manager, select **Create Device Collection** and follow the steps in the Create Device Collection Wizard. 
+1. In Configuration Manager, select **Create Device Collection**, and follow the steps in the Create Device Collection wizard. 
 
-2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Enterprise ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
+2. Save the OneDriveSetup.exe installer for Windows to your local computer or a network share. [Download the Production ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/?linkid=844652) or [download the Deferred ring OneDriveSetup.exe installer for Windows](https://go.microsoft.com/fwlink/p/?linkid=860987). 
   
 3. Download the [sample Configuration Manager package](https://go.microsoft.com/fwlink/p/?LinkId=824069). It's a .zip file that contains the script installer deployment type. For more information about packages and programs in Configuration Manager, see [Packages and programs in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs).
 
@@ -68,11 +72,11 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
 
 5. In Configuration Manager, select the **Software Library** workspace. Under **Application Management**, right-click **Applications**, and then select **Import Application**. 
 
-![](media/deploy-onedrive-enterprise_image6.png)
+![Importing an application](media/deploy-onedrive-enterprise_image6.png)
 
 6. Select the sample package.
 
-7. Select the **Deployment Types** tab on the bottom of Configuration Manager, right-click the deployment, and edit the properties to update the **Content location**.
+7. On the bottom of Configuration Manager, select the **Deployment Types** tab, right-click the deployment, and to update the **Content location**, edit the properties.
 
 8. Right-click the package, select **Deploy**, and follow the steps in the Deploy Software Wizard.
 
@@ -123,15 +127,6 @@ To help users sign in, you can use [silent account configuration](use-silent-acc
   odopen://sync?useremail=youruseremail@organization.com
   ```
 
-If you want to auto-configure a SharePoint site to be synced, you can use the URL below as a guide to build the path to the SharePoint site you want to sync automatically. Replace HERE with the correct values for each component of the URL.
-  
-> [!NOTE]
-> Replace special characters like the period (.), hyphen (-), and at sign (@) with the corresponding encoded values. For example, if the URL includes a hyphen, replace the hyphen with its encoded value, **%2D**. Additionally, you will need Client Side Object Model (CSOM) knowledge to query the team site to determine the appropriate SiteID, WebID and ListID to build the appropriate URL. 
-  
-```
-odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&amp;userEmail=UserEmail_HERE&amp;webUrl=WebURL_HERE"
-```
-
 - Run the following command using Configuration Manager script:
     
   ```
@@ -145,7 +140,44 @@ odopen://sync/?siteId=SiteID_HERE&amp;webId=WebID_HERE&amp;listId=ListID_HERE&am
   ```
 
 > [!NOTE]
-> When you use Microsoft Endpoint Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). </br> For help finding your tenant ID, see [Find your Office 365 tenant ID](find-your-office-365-tenant-id.md). 
+> When you use Microsoft Endpoint Configuration Manager, make sure you run OneDrive.exe with User permissions (not as an Administrator). </br> For help finding your tenant ID, see [Find your Microsoft 365 tenant ID](find-your-office-365-tenant-id.md). 
+  
+  
+## Auto-configure Sharepoint site synchronization
+
+If you want to auto-configure a SharePoint site to be synced, you can use the URL below as a guide to build the path to the SharePoint site you want to sync automatically:
+
+```
+odopen://sync/?siteId=<siteId>&webId=<webId>&webUrl=<webURL>&listId=<listId>&userEmail=<userEmail>&webTitle=<webTitle>&listTitle=<listTitle>
+```
+where:
+- **\<siteId\>** is the SharePoint site siteId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/site/id.
+- **\<webId\>** is the Sharepoint site webId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/id.
+- **\<webUrl\>** is the Sharepoint site URL. You can get this URL visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/url.
+- **\<listId\>** is the Sharepoint site documents library GUID, enclosed in curly brackets. You can get this GUID visiting the document library in the browser, click in the gear icon and choosing "Library Settings". The URL will show the listId GUID at the end of URL, i.e. https://\<tenant\>.sharepoint.com/sites/\<SiteName\>/_layouts/15/listedit.aspx?List=%7B**xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx**%7D (a GUID with escaped curly brackets).
+- **\<userEmail\>** is the OneDrive's user email address used to sign in into OneDrive.
+- **\<webTitle\>** and **\<listTitle\>** are used to compose the name of the local folder where the OneDrive content is synchronized. By default, when you use the "Sync" button when in the browser to synchronize a document library, OneDrive uses the  SharePoint site name and the document library name to compose the local folder name, in the form of %userprofile%\\<TenantName\>\\<SiteName\> - \<DocumentLibraryName\>. You could use any other values if you prefer to. If you do not use these parameters, the local folder will be named "<TenantName> - Documents", despite of site and library names.
+
+For example, if you want to synchronize https://contoso.sharepoint.com/sites/SalesTeam-01/ProjectX, where "ProjectX" is the documents library to synchronize, to "%userprofile%\Contoso\Sales - Unicorn" folder, you will need the following parameters to compose the odopen:// URL:
+- siteId: {ssssssss-ssss-ssss-ssss-ssssssssssss}
+- webId:  {wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}
+- webUrl: https://contoso.sharepoint.com/sites/SalesTeam-01
+- listId: {llllllll-llll-llll-llll-llllllllllll}
+- userEmail: user@contoso.com
+- webTitle: Sales (you would use *SalesTeam-01* to mimic Sync button behavior instead)
+- listTitle: Unicorn (you would use *ProjectX* to mimic Sync button behavior instead)
+
+The resulting odopen:// URL will be:
+```
+odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}&webUrl=https://contoso.sharepoint.com/sites/SalesTeam&listId={llllllll-llll-llll-llll-llllllllllll}&userEmail=user@contoso.com&Title=Sales&listTitle=Unicorn
+```
+
+> [!NOTE]
+You will need Client Side Object Model (CSOM) knowledge if you want to automate quering the team site to determine the appropriate siteId, webId and listId to build the appropriate URL. 
+
+
+
+  
   
 ## Deploy the OneDrive app on mobile devices running iOS or Android
 
@@ -159,7 +191,7 @@ You can use Microsoft Endpoint Configuration Manager to deploy apps to mobile de
 
 3. In the **Location** box, enter the app store URL, https://itunes.apple.com/us/app/onedrive/id823766827?mt=12.
  
-![](media/deploy-onedrive-enterprise_image4.png)
+![Entering the App Store URL](media/deploy-onedrive-enterprise_image4.png)
 
 4. Target the app to users. 
 
@@ -171,9 +203,9 @@ For more info, see [Create iOS applications with Configuration Manager](/configm
 
 2. In the **Type** box, select **App Package for Android on Google Play**.
 
-3. In the **Location** box, enter the app store URL, https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en
+3. In the **Location** box, enter the app store URL, https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en.
 
-![](media/deploy-onedrive-enterprise_image5.png)
+![Entering the Google Play URL](media/deploy-onedrive-enterprise_image5.png)
 
 4. Target the app to users.
 

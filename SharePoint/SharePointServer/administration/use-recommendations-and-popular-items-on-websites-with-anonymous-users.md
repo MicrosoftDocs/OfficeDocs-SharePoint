@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/26/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -49,7 +51,7 @@ To enable usage cookies, do the following:
     
      ![General Settings](../media/OTCSP_GeneralSettings.png)
   
-3. In the **Web Application General Settings** dialog box, in the **Usage Cookie** section, for **Usage Cookie Status**, click **On**. 
+3. In the **Web Application General Settings** dialog, in the **Usage Cookie** section, for **Usage Cookie Status**, click **On**. 
     
      ![On](../media/OTCSP_On.png)
   

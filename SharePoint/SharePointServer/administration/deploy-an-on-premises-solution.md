@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/7/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -117,7 +119,7 @@ In this procedure, you create a SQL Server login and then assign that login to a
     
 3. Under the **Login Name**, with the **User name** box pre-selected, in the first box, enter AdventureWorksUser
     
-4. In the second box, click **Browse**, in the **Select Login** dialog box, click **Browse**, select the SQL Server account, **SharePointGroupAccount**, and then click **OK** twice. 
+4. In the second box, click **Browse**, in the **Select Login** dialog, click **Browse**, select the SQL Server account, **SharePointGroupAccount**, and then click **OK** twice. 
     
 5. Under **Database Role** membership, select **db_owner**.
     
@@ -250,7 +252,7 @@ These procedures walk you through building an external content type for Business
   
  **Add columns**
   
-1. In the **Parameters Configuration** dialog box, by default all columns are selected. To remove unnecessary columns, clear the checkboxes next to the following columns: **Suffix** and **Demographics**.
+1. In the **Parameters Configuration** dialog, by default all columns are selected. To remove unnecessary columns, clear the checkboxes next to the following columns: **Suffix** and **Demographics**.
     
 2. For the **BusinessEntityID** select the **Map to Identifier** value. 
     
@@ -266,7 +268,7 @@ These procedures walk you through building an external content type for Business
 3. Under properties, in the **Office property** dropdown, select the appropriate matching field: **FirstName** to **First Name (FirstName)**, **LastName** to ** Last Name (LastName) **, and **PhoneNumber** to **Primary Telephone Phone Number (PrimaryTelephonePhoneNumber)**, **EmailAddress** to **EmailAddress1 (Email1Address)**.
     
     > [!NOTE]
-    > Unmapped fields, depending on the number, are displayed as extended properties. For two to five fields they are listed as **Adjoining** meaning that they are appended to the form region at the bottom of an Outlook form's default page. For six or more fields they are listed as **Separate** and are added as a new page to an Microsoft Outlook. 
+    > Unmapped fields, depending on the number, are displayed as extended properties. For two to five fields they are listed as **Adjoining** meaning that they are appended to the form region at the bottom of an Outlook form's default page. For six or more fields they are listed as **Separate** and are added as a new page to a Microsoft Outlook. 
   
 4. For the following fields, **BusinessEntityID**, **FirstName**, **LastName**, and **EmailAddress** click and highlight the field, and then under **Properties**, click **Show in Picker**.
     
@@ -360,7 +362,7 @@ The external list contains customer data mapped to Microsoft Outlook contacts fo
   
 1. Open the SharePoint Server site that contains the external list. In the ribbon, on the **List** tab, in the **Connect &amp; Export** group, click **Connect to Outlook**.
     
-2. In the **Microsoft Office Customization Installer** dialog box, click **Install**.The installation should take a minute or two. 
+2. In the **Microsoft Office Customization Installer** dialog, click **Install**.The installation should take a minute or two. 
     
 3. Once the installation is complete, click **Close**. 
     

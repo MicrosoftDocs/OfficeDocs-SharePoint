@@ -6,6 +6,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 7/24/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -49,7 +51,7 @@ There are eight pre-defined server roles in 3 categories﻿ you can choose from 
 ||||
 |:-----|:-----|:-----|
 |**Server Role** <br/> |**Description** <br/> |**Notes** <br/> |
-|Single-Server Farm  <br/> |Service applications, services, and components required for a single-server farm belong on a server running the Single-Server Farm role. Use this role for development, testing, and limited production tasks.  <br/> |The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. Unlike Standalone Install, the SharePoint administrator must separately install and prepare Microsoft SQL Server. The SharePoint administrator must also configure the SharePoint farm services and web applications, either manually or by running the Farm Configuration Wizard. A SharePoint farm with the Single-Server Farm role cannot have more than one SharePoint server in the farm.  <br/> |
+|Single-Server Farm  <br/> |Service applications, services, and components required for a single-server farm belong on a server running the Single-Server Farm role. Use this role for development, testing, and limited production tasks.  <br/> |The Single-Server Farm role replaces the Standalone Install mode available in previous SharePoint Server releases. Unlike Standalone Install, the SharePoint admin must separately install and prepare Microsoft SQL Server. The SharePoint admin must also configure the SharePoint farm services and web applications, either manually or by running the Farm Configuration Wizard. A SharePoint farm with the Single-Server Farm role cannot have more than one SharePoint server in the farm.  <br/> |
 |Custom  <br/> |Service applications, services, and components that you want to manage, instead of using MinRole to manage them, belong on a Custom server.  <br/> |This server role is typically used to run services that do not integrate with MinRole. The farm administrator has full control over which service instances can run on servers assigned to the Custom server role. MinRole ﻿will not attempt to manage servers assigned to this role.  <br/> |
    
 > [!NOTE]
@@ -129,9 +131,9 @@ You can deploy your servers in a farm in any order you want. Any server role can
 
 When you create a new farm or join a server to an existing farm by using the SharePoint Products Configuration Wizard, a new form is displayed in the wizard. This form provides a description of each server role, and you can use it to select the role of this server. The server role radio button will be disabled for roles that are not available in this farm.
   
-![Displays PSConfig dialog box with shared roles in SharePoint Server 2016](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
+![Displays PSConfig dialog with shared roles in SharePoint Server 2016](../media/dea8528b-e903-4cc9-a698-25d203a91229.png)
 
-![Displays PSConfig dialog box with shared roles in SharePoint Server 2019](../media/PSConfigMinRole_2019.png)
+![Displays PSConfig dialog with shared roles in SharePoint Server 2019](../media/PSConfigMinRole_2019.png)
 
 
   

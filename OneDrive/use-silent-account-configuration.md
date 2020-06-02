@@ -5,6 +5,8 @@ ms.author: kaarins
 author: kaarins
 manager: pamgreen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
@@ -15,6 +17,7 @@ search.appverid:
 - ODB160
 - MET150
 ms.assetid: 64aa1f56-d7f6-4500-a408-1fde8fe6db36
+ms.custom: seo-marvel-apr2020
 description: "Learn how IT admins can enable silent account configuration when deploying the OneDrive sync app in an enterprise."
 ---
 
@@ -22,9 +25,7 @@ description: "Learn how IT admins can enable silent account configuration when d
 
 This article is for IT admins who would like to silently configure user accounts when deploying the new OneDrive sync app (OneDrive.exe) to managed Windows computers in their enterprise. This feature works for computers that are joined to Azure Active Directory (Azure AD).
   
-## Overview
-
-If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. Before if begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set (on devices that don't have Files On-Demand enabled), OneDrive will prompt the user to choose folders to sync. For info about setting this threshold using Group Policy, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB). 
+If you enable this feature, OneDrive.exe will attempt to sign in to the work or school account on the device that's joined to Azure AD. Before if begins syncing, it will check the available disk space. If syncing the user's entire OneDrive would cause the available space to drop below 1 GB or if the size exceeds the threshold you set (on devices that don't have Files On-Demand enabled), OneDrive will prompt the user to choose folders to sync. For info about setting this threshold using Group Policy, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically). 
   
 If you enable this setting and the user is syncing files with the previous OneDrive for Business sync app (Groove.exe), the new sync app (OneDrive.exe) will attempt to take over syncing and import the user's sync settings. 
   
@@ -35,21 +36,14 @@ Before you can enable silent account configuration, you need to join your device
 If you have an on-premises environment that uses Active Directory, you can enable [hybrid Azure AD joined devices](/azure/active-directory/devices/hybrid-azuread-join-plan) to join devices on your domain to Azure AD. Devices must be running one of the following operating systems:
   
 - Windows 10 
-    
 - Windows 8.1 
-    
 - Windows 7 
-
 - Windows Server 2019
-    
 - Windows Server 2016 
-    
 - Windows Server 2012 R2 
-    
 - Windows Server 2012 
-    
 - Windows Server 2008 R2
-
+ 
 If you federate your on-premises Active Directory with Azure AD, you must use AD FS to enable this feature. For info about using Azure AD Connect, see [Getting started with Azure AD Connect using express settings](/azure/active-directory/hybrid/how-to-connect-install-custom).
     
 > [!NOTE]
@@ -61,11 +55,11 @@ If the computers on your network are joined to Active Directory on-premises, you
 
 Using Group Policy:
   
-1. Enable silent account configuration. For info, see [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#SilentAccountConfig). If a device is not already joined to Azure AD, enabling this setting will join it.
+1. Enable silent account configuration. For info, see [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials). 
     
-2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#DiskSpaceCheckThresholdMB). Note that if you enable Files On-Demand, OneDrive will ignore the maximum size value.
+2. Optionally, specify the maximum OneDrive size that will download automatically in silent configuration. For info, see [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically). Note that if you enable Files On-Demand, OneDrive will ignore the maximum size value.
     
-3. Optionally, set the default location for the OneDrive folder. For info, see [Set the default location for the OneDrive folder](use-group-policy.md#DefaultRootDir).
+3. Optionally, set the default location for the OneDrive folder. For info, see [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
     
 > [!TIP]
 > To test single sign-on, run OneDrive setup using the /silent parameter and enter your user name. Setup should not prompt for credentials. 
@@ -79,21 +73,13 @@ Using a script:
 
 ```PowerShell
 $HKLMregistryPath = 'HKLM:\SOFTWARE\Policies\Microsoft\OneDrive'##Path to HKLM keys
-
 $DiskSizeregistryPath = 'HKLM:\SOFTWARE\Policies\Microsoft\OneDrive\DiskSpaceCheckThresholdMB'##Path to max disk size key
-
 $TenantGUID = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
 
-IF(!(Test-Path $HKLMregistryPath))
-
-{New-Item -Path $HKLMregistryPath -Force}
-
-IF(!(Test-Path $DiskSizeregistryPath))
-
-{New-Item -Path $DiskSizeregistryPath -Force}
+if(!(Test-Path $HKLMregistryPath)){New-Item -Path $HKLMregistryPath -Force}
+if(!(Test-Path $DiskSizeregistryPath)){New-Item -Path $DiskSizeregistryPath -Force}
 
 New-ItemProperty -Path $HKLMregistryPath -Name 'SilentAccountConfig' -Value '1' -PropertyType DWORD -Force | Out-Null ##Enable silent account configuration
-
 New-ItemProperty -Path $DiskSizeregistryPath -Name $TenantGUID -Value '102400' -PropertyType DWORD -Force | Out-Null ##Set max OneDrive threshold before prompting
 ``` 
 

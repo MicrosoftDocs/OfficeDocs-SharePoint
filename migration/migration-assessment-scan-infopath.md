@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/12/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -43,7 +45,7 @@ XSN files that leverage the following scenarios will need to be remediated. If r
     
 - XSN leverages managed code that will require remediation. Managed code is not supported on the target platform.
     
-- InfoPath forms that leverage people picker fields. These fields need to be updated with the new user's identity post migration. This is because the on-premises identity (e.g. Windows claims) does not match the user's Azure AD/Office 365 identity.
+- InfoPath forms that leverage people picker fields. These fields need to be updated with the new user's identity post migration. This is because the on-premises identity (e.g. Windows claims) does not match the user's Azure AD/Microsoft 365 identity.
     
 ## Post Migration
 

@@ -6,6 +6,8 @@ author: JoanneHendrickson
 manager: pamgreen
 ms.date: 7/5/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -69,29 +71,29 @@ To manage the lock status on sites on the target environment, leverage the Share
     
 2. Browse the site you want to be "Read Only".
     
-3. Click the gear icon in the top right, select Site Settings
+3. In the top right, select the gear icon, and then select **Site Settings**.
     
-4. Click Site Policies
+4. Select **Site Policies**.
     
-5. Click Create
+5. Select **Create**.
     
-  - a. Enter a Name and Description
+  - a. Enter a **Name** and **Description**.
     
-  - Select "Do not close or delete site automatically"
+  - Select **Do not close or delete site automatically**.
     
-  - Check "The site collection will be read only when it is closed"
+  - Check **The site collection will be read only when it is closed**.
     
-  - Click OK
+  - Select **OK**.
     
-6. On Site Settings, click Site Closure and Deletion
+6. On **Site Settings**, select **Site Closure and Deletion**.
     
-1. For Site Policy, select the "Read Only" policy from Step 4
+1. For **Site Policy**, select the "Read Only" policy from Step 4.
     
-2. Click OK
+2. Select **OK**.
     
-3. Go back into Site Closure and Deletion and click Close this site now The site is now "Read Only"
+3. Go back to **Site Closure and Deletion**, and select **Close this site now**. The site is now "Read Only".
     
-4. Only a site collection admin can access and click Open this site.
+4. Only a site collection admin can access and select **Open this site**.
     
 ## Scan Result Reports
 

@@ -6,6 +6,8 @@ author: tomresing
 manager: pamgreen
 ms.date: 10/31/2017
 audience: ITPro
+f1.keywords:
+- CSH
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -49,7 +51,7 @@ While logging in with the SharePoint mobile app, you, or your users, may see mes
 
 When iOS and Android devices are connected to SharePoint Server 2016 (on-premises), administrators may see some unexpected traffic on their network monitors. For example, users may see some query, and query-response traffic to and from addresses online, such as  *bl3301-g.1drv.com, bn2.vortex.data.microsoft.com.akadns.net*  , or even  *weu-breeziest-in.cloudapp.net*  . 
   
-These calls are related to data-collection and telemetry services. Telemetry data is used to monitor customer experiences with the Microsoft Office 365 or SharePoint Online services and general information about service reliability, for the purposes of analytics. For example, the first URL mentioned ( *bl3301-g.1drv.com*  ) is related to OneDrive and many of the other URLs will have Microsoft in the domain name. 
+These calls are related to data collection and telemetry services. Telemetry data is used to monitor customer experiences with the Microsoft 365 or SharePoint Online services and general information about service reliability, for the purposes of analytics. For example, the first URL mentioned ( *bl3301-g.1drv.com*  ) is related to OneDrive and many of the other URLs will have Microsoft in the domain name. 
   
 Any suspicious network traffic should be flagged and investigated by administrators. While doing so, please be aware that the data-collection and telemetry services for the SharePoint mobile app cannot be turned off. It helps to have access to the Privacy Statements while making judgements about whether the SharePoint mobile app is right for your organization.
   
@@ -61,4 +63,4 @@ Any suspicious network traffic should be flagged and investigated by administrat
     
 - [Microsoft Intune (on the Microsoft Trust Center site)](https://www.microsoft.com/trustcenter/CloudServices/Intune)
     
-- [Office 365 (on the Microsoft Trust Center site)](https://www.microsoft.com/TrustCenter/CloudServices/Office-365)
+- [Microsoft 365 (on the Microsoft Trust Center site)](https://www.microsoft.com/trust-center/product-overview)

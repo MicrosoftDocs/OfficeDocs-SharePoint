@@ -4,8 +4,9 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 7/18/2017
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: interactive-tutorial
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -20,7 +21,7 @@ description: "Learn about how SharePoint supports Internet Explorer, Google Chro
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]. 
   
-SharePoint 2013 supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, and ![Apple Safari browser logo](../media/safari-small.png) Apple Safari. However, certain web browsers could cause some SharePoint 2013 functionality to be downgraded, limited, or available only through alternative steps. 
+SharePoint 2013 supports several commonly used web browsers, such as ![Internet Explorer browser logo](../media/internetexplorersmall.png) Internet Explorer, ![Google Chrome browser logo](../media/chrome-small.jpg) Google Chrome, ![Mozilla Firefox browser logo](../media/firefox_small.png) Mozilla Firefox, ![Apple Safari browser logo](../media/safari-small.png) Apple Safari, and Microsoft Edge. However, certain web browsers could cause some SharePoint 2013 functionality to be downgraded, limited, or available only through alternative steps. 
   
 As you plan your deployment of SharePoint 2013, we recommend that you review the browsers used in your organization to guarantee optimal performance with SharePoint 2013.
   
@@ -41,9 +42,9 @@ The following table summarizes the support levels of typically used web browsers
   
 |**Browser**|**Supported**|**Not supported**|
 |:-----|:-----|:-----|
-|Microsoft Edge  <br/> |X  <br/> ||
+|Microsoft Edge (Chromium) <br/> |X  <br/> ||
+|Microsoft Edge (EdgeHTML - Legacy) <br/> |X  <br/> ||
 |Internet Explorer 11  <br/> |X  <br/> ||
-||||
 |Internet Explorer 10  <br/> |X  <br/> ||
 |Internet Explorer 9  <br/> |X  <br/> ||
 |Internet Explorer 8  <br/> |X  <br/> ||
@@ -68,7 +69,7 @@ The product group makes every effort to validate that SharePoint functionality w
 > Internet Explorer 11  *edge mode*  is not supported. Add sites to the **Compatibility View** list to make some features work. 
   
 > [!NOTE]
-> Microsoft Edge is supported with the SharePoint Server 2013 December 2015 CU. For additional information about the December 2015 CU, see [December 8, 2015, update for SharePoint Foundation 2013 (KB3114352)](https://support.microsoft.com/kb/3114352)
+> Microsoft Edge (Chromium-based and EdgeHTML-based) is supported with the SharePoint Server 2013 December 2015 CU. For additional information about the December 2015 CU, see [December 8, 2015, update for SharePoint Foundation 2013 (KB3114352)](https://support.microsoft.com/kb/3114352)
   
 #### Other supported browsers
 
@@ -98,8 +99,8 @@ Some functionality in SharePoint 2013 requires ActiveX controls. This produces l
 |StssyncHandler  <br/> |Owssupp.dll  <br/> |Enables synchronization of lists of events and lists of contacts in SharePoint with a messaging application such as Outlook 2016.  <br/> |Internet Explorer versions 8, 9, and 10  <br/> ||
 |ExportDatabase  <br/> |Owssupp.dll  <br/> |Enables a user to use an application such as Access to create or open a database that contains SharePoint list data.  <br/> |Internet Explorer versions 8, 9, and 10  <br/> |To export a list, the client computer must have a SharePoint compatible application.  <br/> |
 |OpenDocuments  <br/> |Owssupp.dll  <br/> |Starts Office client applications so that a user can create a document or edit a document. Enables users to create documents that are based on a specified template, open documents as read-only, or open documents as read/write.  <br/> |All except Internet Explorer version 10 in immersive mode.  <br/> |If a compatible Office application or browser is not installed on a client, an error message states that the feature requires a SharePoint compatible application and web browser.  <br/> |
-|UploadCtl  <br/> |Stsupld.dll  <br/> |Enables drag-and-drop in SharePoint 2013 visual mode "upload multiple files" dialog box.  <br/> |Internet Explorer versions 8 and 9.  <br/> ||
-|CopyCtl  <br/> |Stsupld.dll  <br/> |Enables a user to copy a document on a SharePoint site to one or more locations on a server.  <br/> |Internet Explorer versions 8, 9, and 10  <br/> |In Firefox, Google Chrome, and immersive mode of Internet Explorer version 10, the copy progress dialog box is not displayed.  <br/> |
+|UploadCtl  <br/> |Stsupld.dll  <br/> |Enables drag-and-drop in SharePoint 2013 visual mode "upload multiple files" dialog.  <br/> |Internet Explorer versions 8 and 9.  <br/> ||
+|CopyCtl  <br/> |Stsupld.dll  <br/> |Enables a user to copy a document on a SharePoint site to one or more locations on a server.  <br/> |Internet Explorer versions 8, 9, and 10  <br/> |In Firefox, Google Chrome, and immersive mode of Internet Explorer version 10, the copy progress dialog is not displayed.  <br/> |
 |PPActiveX  <br/> |PPSLAX.dll  <br/> |Starts PowerPoint to open presentations from a slide library or publish individual slides to a slide library.  <br/> |Internet Explorer versions 8, 9, and 10  <br/> |Does not work on Click-to-Run installations of Office and version of Office that run on Windows for ARM.  <br/> |
 |BCSLauncher  <br/> |BCSLaunch.dll  <br/> |Starts the Visual Studio Tools for Office installer to install a Visual Studio Tools for Office package that has been generated on the server.  <br/> |Internet Explorer versions 8, 9, and 10  <br/> ||
    
