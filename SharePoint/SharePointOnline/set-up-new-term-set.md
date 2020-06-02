@@ -47,7 +47,7 @@ To set up a new term set
 
 **Usage settings tab**
 
-To configure the term subimssion policy
+To configure the term submission policy
 
 1. On the **Usage settings** tab, for **Submission policy**, select **Edit**. The **Edit submission policy** panel appears.
     
