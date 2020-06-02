@@ -52,6 +52,7 @@ public bool IsMoveMode { get; set; }
 ```
 >[!Important]
 >By default, this is set to copy. For a move operation, set this parameter to true.
+
 </br>
 </br>
 
@@ -60,13 +61,15 @@ public bool IgnoreVersionHistory { get; set; }
 ```
 
 If not specified, the version history will be ignored and not moved to the destination.
+
 </br>
 </br>
 
 ```cs
 public bool AllowSchemaMismatch { get; set; }
 ```
-This allows the item to move even if the target has a mismatched schema definition from the source list. 
+This allows the item to move even if the target has a mismatched schema definition from the source list.
+ 
 </br>
 </br>
 
@@ -75,15 +78,16 @@ public bool AllowSmallerVersionLimitOnDestination { get; set; }
 ```
 
 This allows the move to take place if the target file has older version. By default it’s disallowed to prevent data loss.
-</br>
-</br>
 
+</br>
+</br>
 
 ```cs
 public SPMigrationNameConflictBehavior NameConflictBehavior { get; set; }
 ```
 
 If a name conflict occurs at the target site, the default reports a failure.
+
 </br>
 </br>
 
@@ -100,6 +104,7 @@ Reserved for interal use only.
 public SPMoveAndShareFileInfo MoveAndShareFileInfo { get; set; }
 ```
 Reserved for internal use only.
+
 </br>
 </br>
 
@@ -107,6 +112,7 @@ Reserved for internal use only.
 public bool BypassSharedLock { get; set; }
 ```
 This indicates whether a file with a share lock can still be moved in a move job. If you want to move a file that is locked, you need to set this.
+
 </br>
 </br>
 
@@ -115,6 +121,7 @@ public string[] ClientEtags { get; set; }
 ```
 
 If set, and the source eTag doesn’t match the eTag specified, the copy and move won’t take place. If left NULL, no check will take place.
+
 </br>
 </br>
 
