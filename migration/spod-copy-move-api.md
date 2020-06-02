@@ -95,15 +95,15 @@ If a name conflict occurs at the target site, the default reports a failure.
 ```cs
 public bool IncludeItemPermissions { get; set; }
 ```
+Reserved for interal use only.
 
-If set, will the user ID in
 </br>
 </br>
 
 ```cs
 public SPMoveAndShareFileInfo MoveAndShareFileInfo { get; set; }
 ```
-For move, specifies the IDs of the users and can share file operation. For internal use only.
+Reserved for internal use only.
 </br>
 </br>
 
@@ -126,7 +126,12 @@ If set, and the source eTag doesn’t match the eTag specified, the copy and mov
 public bool MoveButKeepSource { get; set; }
 ```
 
-Once set, this move operation is similar to copy. The file will move to destination, but the source content will not be deleted.
+Once set, this move operation is similar to copy. The file will move to destination, but the source content will not be deleted. If set, this will make a copy with the version history and preserve the original metadata. No source item deletions occurs at the end. 
+
+>[!Note]
+>This is not like the normal copy, which only copies the most recent major version and doesn't maintain all the metadata.
+
+
 </br>
 </br>
 
@@ -152,7 +157,7 @@ For this operation, only the root level folder of the URL is copied. The sub-fol
 public Uri JobQueueUri { get; set; }
 ```
 
-The reporting features are the same as they are for CreateMigrationJob. Logging tracks the status of the createCopyJobs. By default, blob queue permissions and settings are set to "all access”. It provides job status : Job start, Job end, Job error information . 
+The reporting features are the same as they are for CreateMigrationJob. Logging tracks the status of the createCopyJobs. By default, blob queue permissions and settings are set to "all access”. It gives the job status as follows: job start, job end, and job error information. 
 
 ## Limitation 
 Currently, the following limitations are:
