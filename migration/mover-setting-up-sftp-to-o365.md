@@ -1,5 +1,5 @@
 ---
-title: Mover Migration Tools overview and planning
+title: Setting up SFTP migration
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,17 +10,21 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Overview and planning to the Mover Migration tools"
+description: "Setting up SFTP migration"
 ---
-SFTP
-Authorizing SFTP
+# Setting up SFTP migration
+
+## Authorizing SFTP
+
 Authorizing SFTP (also known as SSH) is a fairly simple process - despite being a very old protocol, many web applications still use it. This means you can connect to some web apps we don't formally have Connectors for via this method!
 
 You can also connect to a regular SFTP server using our app. To authorize or add an SFTP server as a Connector, follow these simple steps:
 
-IMPORTANT! You will need to make sure our IP address is whitelisted on your SFTP server. The IP address our app uses for SFTP transfers is:
+>[!IMPORTANT]
+> You will need to make sure our IP address is whitelisted on your SFTP server. The IP address our app uses for SFTP transfers is:
+>
+> - 104.198.169.166
 
-104.198.169.166
 Then:
 
 1. In the Transfer Wizard click Authorize New Connector.
