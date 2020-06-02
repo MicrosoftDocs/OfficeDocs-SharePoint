@@ -675,13 +675,7 @@ A heading for the source and destination, followed by the paths, and optional ta
 
 >[!Note]
 >Ensure your CSV has no spaces after each comma-separated value. Values that require commas must be wrapped in quotation marks.
-
-Download an example CSV:
-
-**Example_CSV_Map.csv**
-
->[!Note]
->When URL mapping to SharePoint Online, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
+ When URL mapping to SharePoint Online, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
 
 For example, this full URL won't work:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents/Forms/AllItems.aspx`
