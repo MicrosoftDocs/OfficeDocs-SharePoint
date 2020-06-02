@@ -26,7 +26,7 @@ The following API is based on the use of the SharePoint Client Side Object Model
 You can find the latest version of the SharePoint Online CSOM package from the [NuGet library](https://www.nuget.org/) using the ID *Microsoft.SharePointOnline.CSOM*. 
 
 >[!Important]
->Learn more about [Limitations](#limitations) of this API before you begin.
+>Learn more about [limitations](#limitations) of this API before you begin.
 
 
 ## Method
