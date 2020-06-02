@@ -37,14 +37,14 @@ This method creates a new copy or move job that lets you  copy or move a file or
 public List<SPCopyMigrationInfo> CreateCopyJobs(Uri[] exportObjectUris, Uri destinationUri, SPCopyMigrationOptions options)
  ```  
 
-### Parameter
+### Parameters
 
 |**Parameter**|**Description**|
 |:-----|:-----|
 |exportObjectUris|The URL of a file or folders in a list that you want to copy or move|
 |destinationUri|URL for the destination location.|
 
-##### SPCopyMigrationOptions
+#### SPCopyMigrationOptions
 
 
 ```cs
@@ -154,7 +154,7 @@ public Uri JobQueueUri { get; set; }
 
 The reporting features are the same as they are for CreateMigrationJob. Logging tracks the status of the createCopyJobs. By default, blob queue permissions and settings are set to "all access”. It provides job status : Job start, Job end, Job error information . 
 
-### Limitation 
+## Limitation 
 Currently, the following limitations are:
 
 |**What**|**Limitation**|
