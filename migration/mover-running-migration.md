@@ -12,9 +12,9 @@ ms.collection:
 search.appverid: MET150
 description: "Running the mover migration"
 ---
-## Running the migration
+# Running the migration
 
-### Scanning
+## Scanning
 
 Scanning your source data is key to running a smooth and stress-free migration. For the full list of key data necessary for a smooth migration, see this **checklist**.
 
@@ -23,7 +23,7 @@ Scanning your source data is key to running a smooth and stress-free migration. 
 >
 >After a transfer is scanned, the source/destination are effectively *locked in.* Be sure to double-check that they are correct, and not left blank.
 
-### Running the scan
+## Running the scan
 
 You now have a list of users appearing in the migration, complete with destination set up.
 
@@ -46,7 +46,7 @@ After users appear in green, yellow, or red, on the top right side of your scree
 
 For in-depth info about **Scan Report**, see the **Reports** subsection under the **Scan Report** section of this guide.
 
-#### Migrating users
+### Migrating users
 
 We recommend starting slowly. Test one user, then three to five. If all looks good, and you see data being downloaded and uploaded, start queuing everyone, and stage the rest of your users.
 
@@ -60,7 +60,7 @@ We recommend starting slowly. Test one user, then three to five. If all looks go
 >[!Note]
 >If your transfer encounters an error or crashes, our app automatically reruns the transfer up to three times to attempt to resolve the issue.
 
-#### Canceling users
+### Canceling users
 
 To cancel a currently running transfer:
 
@@ -70,7 +70,7 @@ To cancel a currently running transfer:
 
 This action stops the transfer as soon as possible (usually within a few seconds).
 
-#### Rerunning users
+### Rerunning users
 
 The best way to resolve any issues with a transfer is to rerun it. This action checks over all the files in your destination, compares them to the source, and then transfers over the new or modified files.
 
