@@ -128,6 +128,7 @@ The user should now have full access to WorkDocs.
 5. Authorize With Us in App
 
 - In the Transfer Wizard click **Authorize New Connector**.
+- 
 ![Auth New Connector](media/clear_auth.png)
 
 - Find Amazon WorkDocs in the Connector list.
