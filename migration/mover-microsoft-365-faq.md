@@ -1,5 +1,5 @@
 
-# Mover Microsoft 365 FAQ
+# Microsoft 365 FAQ
 
 ## Unsupported files and characters
 We automatically process file and folder names to ensure they are accepted by Microsoft 365:
