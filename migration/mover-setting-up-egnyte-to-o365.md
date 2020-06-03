@@ -15,23 +15,7 @@ description: "Setting up your migration from Egnyte to Office 365"
 ---
 # Setting up your migration from Egnyte to Office 365
 
-## Egnyte FAQ
-
-### What is different about Egnyte?
-
-Unlike other cloud storage providers, Egnyte has a `Shared` folder and a `Private` folder. When migrating from Egnyte, our app defaults to the **Private** folders when auto-completing the user to user migration setup.
-
-### How will my paths look when Egnyte is my source?
-
-During the migration setup (described later in this guide), you can edit the path(s) to specify where in Egnyte you want the data to go. From the root level of Egnyte, you can go into `/Private` which lists the individual users and their data, or `/Shared` which is the main shared data repository.
-
-Most cloud storage providers, Egynte, for example, start the listing with a user such as `/user@example.com/marketing data`. Egnyte does not do this, so you would be looking at a path such as `/Shared/marketing data` if it's a Shared folder, or `/Private/example/marketing data` if it's a Private folder.
-
-
-
-## Setting up the migration
-
-### Authorizing Egnyte (Multi-User)
+## Authorizing Egnyte (Multi-User)
 
 Authorizing **Egnyte** as an administrator is straightforward. To authorize or add a Multi-User Egnyte account as a connector, follow these steps.
 
@@ -63,7 +47,7 @@ Authorizing **Egnyte** as an administrator is straightforward. To authorize or a
 
 ![Grant access to Egnyte](media/grant-access-to-egnyte.png)
 
-### Egnyte permission requirements
+## Egnyte permission requirements
 
 Our app requires an **Administrator** for authorization. The following table lists the scopes we require:
 
@@ -77,7 +61,7 @@ Our app requires an **Administrator** for authorization. The following table lis
 |Create and manage links|Create and manage internal links.|
 |Read and write all files and folders|View, edit, copy and paste all data from within the Egnyte-available Directories.|
 
-### Authorizing Microsoft 365
+## Authorizing Microsoft 365
 
 >[!Warning]
 >To fully authorize the **Microsoft 365 Connector**, a Global Admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
@@ -137,17 +121,17 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
 
-### Troubleshooting a Microsoft 365 connector
+## Troubleshooting a Microsoft 365 connector
 
-#### App access error
+### App access error
 
 If you encounter an error on authorization, try signing out of any Microsoft accounts, and attempt to authorize the **Connector** in an Incognito Window.
 
-#### Global Admin account provisioning
+### Global Admin account provisioning
 
 Your Global Admin user must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you also assigned a Microsoft 365 license, and walked through the Microsoft 365 setup process.
 
-#### User provisioning
+### User provisioning
 
 Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to their Microsoft 365, and open Microsoft 365 for us to transfer into their accounts. You can also provision Microsoft 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately)::
 
@@ -155,7 +139,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to
 
 `Request-SPOPersonalSite -UserEmails "neverloggedintest@example.onmicrosoft.com"`
 
-#### Microsoft 365 permission requirements
+### Microsoft 365 permission requirements
 
 Our app requires a Global Admin for authorization. The following table lists the scopes we require.
 
@@ -165,19 +149,19 @@ Our app requires a Global Admin for authorization. The following table lists the
 |View your basic profile|See your basic profile (name, picture, user name).|
 |Maintain access to data you have given it access to|See and update the data you gave it access to, even when you are not currently using our app. This does not give our app any additional permissions.|
 
-### Connecting your source Egnyte account
+## Connecting your source Egnyte account
 
 If you are not already connected after you have authorized your source, select **Egnyte**, and load the connector. An icon appears, and show you how many users you are migrating.
 
 ![execution select gdrive source](media/execution-select-egnyte-source.png)
 
-### Connecting your destination Microsoft 365 account
+## Connecting your destination Microsoft 365 account
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
 ![execution select m365 destination](media/execution-select-office-365-destination.png)
 
-#### Creating a new migration
+### Creating a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
@@ -208,13 +192,13 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-#### Creating a new migration from a CSV (optional)
+### Creating a new migration from a CSV (optional)
 
 Occasionally, you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
 In these cases, we trust the CSV upload option is useful. This allows you to lay out all your users and directories, and then provide it to us in a .csv format for us to create your migration.
 
-##### Users to migrate
+#### Users to migrate
 
 Your CSV file must follow this format:
 
@@ -243,7 +227,7 @@ For example, this full URL won't work:
 It should be changed to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-#### Creating your CSV in Excel
+### Creating your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
 
@@ -254,13 +238,13 @@ To use an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-#### Reviewing your users
+### Reviewing your users
 
-##### Checking paths
+#### Checking paths
 
 Confirm that the users in the Egnyte source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
-#### Editing
+### Editing
 
 Be aware that Users can only be edited if they haven't been scanned, or had a transfer run.
 
@@ -313,7 +297,7 @@ Download an example CSV:
 
 ![update migration](media/update-migration.png)
 
-#### Adding
+### Adding
 
 If you missed users in your original CSV upload, or simply want to add new user entries to the current migration, add them via CSV. All entries you add in this manner are appended to the current migration, meaning this won't modify existing rows and it is possible to create duplicate entries alongside the ones that already exist.
 
@@ -332,7 +316,7 @@ Tips for creating the CSV:
 
 ![Add to migration](media/add-to-migration.png)
 
-#### Duplicating
+### Duplicating
 
 At any time, you may duplicate a user in the **Migration Manager** list. To duplicate a user entry:
 
@@ -345,7 +329,7 @@ A new user entry appears. From here, you can change the directory, schedule, or 
 
 ![duplicate user](media/duplicate-user.png)
 
-#### Scheduling
+### Scheduling
 
 You can set an hourly, daily, weekly, or monthly schedule for each user, even after they have been run.
 
@@ -357,7 +341,7 @@ To create or edit a schedule:
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
 
-##### Deleting
+#### Deleting
 
 Be aware that users can only be deleted if they haven't been scanned, or had a transfer run.
 
@@ -372,7 +356,7 @@ To delete a user entry:
 
 ![delete user](media/delete-user.png)
 
-### Reviewing your permission map
+## Reviewing your permission map
 
 The permission map is a critical part of your migration.
 
@@ -406,7 +390,7 @@ You may either auto-discover or upload a permission map file. We automatically p
 >[!Note]
 >Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, `@gmail.com` to `@hotmail.com` - is automatically removed. Our app marks these as redundant entries.
 
-### Uploading a permission map (optional)
+## Uploading a permission map (optional)
 
 You can upload a permission map in CSV format. This overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
 
@@ -433,7 +417,7 @@ Download an example CSV:
 
 [example_permission_map.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map.csv)
 
-### Creating your CSV in Excel
+## Creating your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -449,7 +433,7 @@ For example:
 
 ![excel overview](media/excel-overview.png)
 
-#### Exporting a permission map
+### Exporting a permission map
 
 You can export a permission map in CSV format.
 
@@ -459,23 +443,23 @@ You can export a permission map in CSV format.
 
 ![excel save as csv](media/excel-save-as-csv.png)
 
-### Migration Manager overview
+## Migration Manager overview
 
 The **Migration Manager** is the key part of our app. It is the primary screen for interacting during the data migration process.
 
 ![migration main mover](media/migration-main-mover.png)
 
-#### Migration Manager dashboard
+### Migration Manager dashboard
 
 Use the **Migration Manager** dashboard for a summary of your overall migration. This is covered in depth **here**.
 
-#### Main menu bar
+### Main menu bar
 
 Use our app's main navigation bar to switch between the **Migration Manager**, **Transfer Wizard**, and your **Account** details, as well as contact support if you run into any issues during your migration.
 
 ![migration top mover](media/migration-top-mover.png)
 
-#### Migration selection
+### Migration selection
 
 Use the **Migration Selection** bar to navigate between separate multi-user migrations, as well as individual normal transfers.
 
@@ -483,13 +467,13 @@ Here, you are also able to edit and personalize the names of each multi-user mig
 
 ![migration edit mover](media/migration-edit-mover.png)
 
-#### Migration actions
+### Migration actions
 
 Use the **Migration Actions** menu to access things such as: the migration reports, the columns displayed, and the overall layout of your migration to best suit your personal needs.
 
 ![migration action mover](media/migration-action-mover.png)
 
-#### Filters
+### Filters
 
 Use the **Active Filters** bar to search your migration for specific key terms or custom tags you have applied.
 
@@ -499,7 +483,7 @@ You can also view more in-depth instructions by selecting the info button direct
 
 ![migration filter info](media/migration-filter-info.png)
 
-#### User display
+### User display
 
 The user display is the central focus of the **Migration Manager**, and displays all the users in the current migration.
 
@@ -507,7 +491,7 @@ This section of our app provides you with a column-by-column breakdown of each i
 
 ![migration users mover](media/migration-users-mover.png)
 
-#### User actions and finalization
+### User actions and finalization
 
 This area of the screen contains the **User Actions** dropdown menu, the **Scan User** and **Start Migrating Users** buttons.
 
@@ -522,3 +506,18 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 **Start # Migrating Users** opens a side tab enabling you to finalize and begin the migration.
 
 ![migration actions mover](media/migration-finalize-mover.png)
+
+
+## Egnyte FAQ
+
+### What is different about Egnyte?
+
+Unlike other cloud storage providers, Egnyte has a `Shared` folder and a `Private` folder. When migrating from Egnyte, our app defaults to the **Private** folders when auto-completing the user to user migration setup.
+
+### How will my paths look when Egnyte is my source?
+
+During the migration setup (described later in this guide), you can edit the path(s) to specify where in Egnyte you want the data to go. From the root level of Egnyte, you can go into `/Private` which lists the individual users and their data, or `/Shared` which is the main shared data repository.
+
+Most cloud storage providers, Egynte, for example, start the listing with a user such as `/user@example.com/marketing data`. Egnyte does not do this, so you would be looking at a path such as `/Shared/marketing data` if it's a Shared folder, or `/Private/example/marketing data` if it's a Private folder.
+
+
