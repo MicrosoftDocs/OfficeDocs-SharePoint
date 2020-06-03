@@ -13,7 +13,7 @@ search.appverid: MET150
 description: "Setting up your FTP migration to Office 365"
 ---
 
-# Setting up FTP migration
+# Setting up FTP migration to Office 365
 
 ## Authorizing FTP
 

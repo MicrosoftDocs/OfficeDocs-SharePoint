@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 description: "Setting up your migration from Google Cloud Store to Office 365"
 ---
-#  Google Cloud Storage
+#  Setting up your Google Cloud Storage migration to Office 365
 
 ## Authorizing Google cloud storage
 

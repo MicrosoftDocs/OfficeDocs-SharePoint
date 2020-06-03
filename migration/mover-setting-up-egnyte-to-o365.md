@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 description: "Setting up your migration from Egnyte to Office 365"
 ---
-# Setting up your migration from Egnyte using Mover
+# Setting up your migration from Egnyte to Office 365
 
 ## Egnyte FAQ
 

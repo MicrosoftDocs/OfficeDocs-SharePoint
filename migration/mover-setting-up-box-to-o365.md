@@ -15,7 +15,7 @@ description: "Setting up your migration from Box to Office 365"
 ---
 # Setting up your migration from Box to Office 365
 
-## Box FAQ
+## Before you begin:  Box FAQ
 
 ### Should we disable our Box accounts?
 Disabling employee access to their Box accounts mitigates any risk of them accessing data after the migration takes place.
