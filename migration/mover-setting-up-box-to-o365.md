@@ -56,6 +56,15 @@ For more info about this issue, see **here** and **here**.
 
 ## Setting up the migration
 
+- [Authorizing Box (Co-Admin)](#authorizing-box-(co-admin))
+
+- [Troubleshooting a Box (Co-Admin) connector)](#troubleshooting-a-box-(co-admin)-connector)
+
+- [Box permission requirements](#box-permission-requirements)
+
+- [Removing app access](#removing-app-access)
+
+
 ### Authorizing Box (Co-Admin)
 
 Authorizing Box as an Administrator or a Co-Administrator is straightforward. To authorize or add a Multi-User Box account as a connector, follow these simple steps:
