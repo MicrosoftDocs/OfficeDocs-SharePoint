@@ -3,6 +3,7 @@
 
 ## Unsupported files and characters
 We automatically process file and folder names to ensure they are accepted by Microsoft 365:
+
 - Files larger than `15 GB` are not migrated.
 - Files with a size of `0 bytes` (zero-byte files) are not migrated.
 - The following characters in file or folder names are removed:
@@ -18,6 +19,7 @@ In some possible circumstances with older sites, any file or folder ending in `_
 Microsoft currently has no file type limitations, meaning you can upload data with any file extension. For more info, see **here**.
 
 ## Character limits for files and folders
+
 -	Filenames can have up to 256 characters.
 - Folder names may have up to 250 characters.
 - Total path length for folder and filename combinations can have up to 400 characters. For more info, see **below**.
