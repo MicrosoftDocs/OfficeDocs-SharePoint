@@ -17,7 +17,6 @@ description: "Troubleshooting Mover errors"
 |Message|Definition|
 |:-----|:-----|
 |Error: "The Office 365 connector has not been authorized in the Azure Tenant yet."|Authorize the connector by granting admin consent in the Azure Tenant for the "Office 365 Mover" App.|
-|Error: "The Office 365 connector has not been authorized in the Azure Tenant yet."|Authorize the connector by granting admin consent in the Azure Tenant for the "Office 365 Mover" App.|
 |Error: "Authorization failure" shown on the connector.	|Confirm that the connector is fully authorize or Reauthorize the connector.
 |Error: Migration failing while using a .csv file as source/destination reference|Confirm that the User Transfer Row has the correct syntax for both source and destination paths|
 |Error: "Please retry" during migration.|Review log and confirm source/destination paths for user; check syntax if user transfer row was uploaded via .csv|

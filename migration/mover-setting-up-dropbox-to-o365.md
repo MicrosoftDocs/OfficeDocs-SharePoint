@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 description: "Setting up your migration from Dropbox to Office 365"
 ---
-# Setting up your migration from Dropbox using Mover
+# Setting up your migration from Dropbox to Office 365
 
 ## Dropbox FAQ
 
