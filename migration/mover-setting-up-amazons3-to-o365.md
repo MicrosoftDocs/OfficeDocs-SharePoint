@@ -60,7 +60,7 @@ Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 accoun
 - Next you'll need to go into Policies and hit Create Policy, and then press﻿Create Your Own Policy so we can make a custom policy.
 - Name this policy something you'll easily find - perhaps Example+﻿IAM﻿ or something along those lines - you can also include a description of what it is. You'll then need to copy and paste the following into the Policy Document field:
 
-```cs
+```json
 {
   "Version": "2012-10-17",
   "Statement": [

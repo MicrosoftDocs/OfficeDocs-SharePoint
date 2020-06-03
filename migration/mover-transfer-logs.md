@@ -1,4 +1,3 @@
-
 ---
 title: Mover transfer logs
 ms.author: jhendr

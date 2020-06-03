@@ -49,6 +49,11 @@
 ##### [SFTP to Office 365](mover-setting-up-sftp-to-o365.md)
 ##### [NetDocuments to Office 365](mover-setting-up-netdocuments-to-o365.md)
 ##### [WedDAV to Office 365](mover-setting-up-webdav-to-o365.md)
+###   [Running the migration](mover-running-migration.md)
+###   [Post-migration troubleshooting](mover-post-migration-troubleshooting.md)
+###   [Transfer logs](mover-transfer-logs.md)
+###   [Reports](mover-reports.md)
+###   [Post-migration tips](mover-post-migration-tips.md)
 ### Mover Troubleshooting
 #### [Account FAQ](mover-account-faq.md)
 #### [Migration FAQ](mover-migration-faq.md)

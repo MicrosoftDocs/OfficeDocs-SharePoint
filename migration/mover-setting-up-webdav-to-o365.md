@@ -16,7 +16,7 @@ description: "Setting up migration of WebDAV"
 
 ## Authorizing WebDAV
 
-Authorizing WebDAV is a fairly simple process - despite being an older protocol, many web applications still use it. This means you can connect to some web apps we don't formally have Connectors for via this method!
+Authorizing WebDAV is a fairly simple process - despite being an older protocol, many web applications still use it. This means you can connect to some web apps we don't formally have Connectors for via this method.
 
 You can also connect to a regular WebDAV server using our app. To authorize or add a WebDAV server as a Connector, follow these simple steps:
 

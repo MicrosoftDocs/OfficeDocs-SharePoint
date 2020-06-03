@@ -14,7 +14,7 @@ description: "Setting up your migration from Google Cloud Store to Office 365"
 ---
 #  Google Cloud Storage
 
-## Authorizing
+## Authorizing Google cloud storage
 
 Authorizing Google Cloud Storage is straightforward. To authorize or add a Google Cloud Storage account as a Connector, follow these simple steps:
 

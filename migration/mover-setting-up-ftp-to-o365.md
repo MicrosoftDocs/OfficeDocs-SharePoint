@@ -26,7 +26,7 @@ You can also connect to a regular FTP server using the app. To authorize or add 
 >
 >- 104.198.169.166
 
-Then:
+
 
 1. In the Transfer Wizard click Authorize New Connector.
 
@@ -71,7 +71,7 @@ Then:
 
 **FTPS (FTP over TLS):** When adding an FTP connector, switch from Use plain FTP to either Require explicit FTP over TLS or Require implicit FTP over TLS in the 'Type' field.
 
-**Transfer from FTP source:**If you're having trouble transferring from FTP:
+**Transfer from FTP source:** If you're having trouble transferring from FTP:
 
 - elect your finished transfer and click Start Migrating on the top right of the Migration Manager to rerun the the transfer.
 - View your most recent transfer log by selecting the transfer and clicking View Log from the User Actions dropdown menu and see if there are any particular error messages you could act on.

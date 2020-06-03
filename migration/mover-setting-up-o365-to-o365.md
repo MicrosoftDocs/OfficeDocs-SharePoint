@@ -13,9 +13,12 @@ search.appverid: MET150
 description: "Setting up migration from  Microsoft 365 to Microsoft 365"
 ---
 
-# Microsoft 365 FAQ
+# Setting up migration from Microsoft 365 to Microsoft 365
 
-## Will there be unsupported files and characters?
+
+## Before you begin:  Microsoft 365 FAQ
+
+### Will there be unsupported files and characters?
 
 Transferring from one Microsoft 365 tenant to another means the source and the destination have the same limitations; therefore, your data should meet the compatibility requirements when downloading data from Office 365 and uploading data into Microsoft 365.
 
