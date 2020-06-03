@@ -1,5 +1,5 @@
 ---
-title: Mover Migration Tools overview and planning
+title: Setting up Azure Blob Storage migration with Mover
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,7 +10,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Overview and planning to the Mover Migration tools"
+description: "Setting up Azure Blob Storage migration with Mover"
 ---
 # Setting up Azure Blob Storage migration
 

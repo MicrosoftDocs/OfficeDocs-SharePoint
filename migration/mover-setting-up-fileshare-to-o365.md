@@ -1,3 +1,20 @@
+---
+title: Setting up your migration from file shares using Mover
+ms.author: jhendr
+author: JoanneHendrickson
+manager: pamgreen
+audience: ITPro
+ms.topic: article
+ms.service: sharepoint-online
+localization_priority: Priority
+ms.collection: 
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
+description: "Setting up your migration from file shares using Mover"
+---
+# Setting up your migration from file shares using Mover
+
 ## Agent FAQ
 
 ### Windows

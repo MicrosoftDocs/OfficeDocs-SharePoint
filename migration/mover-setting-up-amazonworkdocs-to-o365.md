@@ -1,5 +1,5 @@
 ---
-title: Setting Up the Migration from AmazonWorkDocs with Mover
+title: Setting Up your migration from AmazonWorkDocs with Mover
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting Up the Migration from AmazonWorkDocs with Mover"
+description: "Setting up your migration from AmazonWorkDocs with Mover"
 ---
-# Setting Up the Migration from AmazonWorkDocs with Mover
+# Setting up your migration from AmazonWorkDocs with Mover
 
 ## Amazon WorkDocs FAQ
 

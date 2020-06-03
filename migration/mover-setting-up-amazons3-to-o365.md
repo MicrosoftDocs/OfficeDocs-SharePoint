@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 description: " Setting up migration from Amazon S3 using Mover"
 ---
-#  Setting up migration from Amazon S3 using Mover
+#  Setting up your migration from Amazon S3 using Mover
 
 ## Authorizing Amazon S3
 

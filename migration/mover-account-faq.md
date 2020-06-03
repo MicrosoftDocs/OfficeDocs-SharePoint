@@ -1,6 +1,26 @@
-## Account FAQ
+---
+title: "Mover Account FAQ"
+ms.reviewer: 
+ms.author: jhendr
+author: JoanneHendrickson
+manager: pamgreen
+audience: ITPro
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.service: sharepoint-online
+localization_priority: Priority
+ms.collection: 
+- IT_Sharepoint_Server_Top
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
+ms.custom: 
+description: "Mover Account FAQ"
+---
+# Account FAQ
 
-### How do I reset my password?
+## How do I reset my password?
 
 **From the sign in screen**
 
@@ -21,7 +41,7 @@ If you are already logged in to our app, you can change your password there, too
 
 ![reset password](media/reset_password.png)
 
-### How do I enable multi-factor authentication?
+## How do I enable multi-factor authentication?
 
 To enable multi-factor authentication, follow these steps.
 
@@ -46,7 +66,7 @@ To enable multi-factor authentication, follow these steps.
 
 ![Disable 2 factor](media/disable_2_factor.png)
 
-### How do I delete my account?
+## How do I delete my account?
 
 Deleting your account deletes all your scheduled transfers, multi-user migrations, and authorized connectors.
 
@@ -77,7 +97,7 @@ To reiterate:
 
 ![Delete account](media/delete_account.png) 
 
-### How do I edit my email notifications?
+## How do I edit my email notifications?
 
 By default, you receive an email every time a transfer is completed. To edit your email notification settings:
 
@@ -85,13 +105,13 @@ By default, you receive an email every time a transfer is completed. To edit you
 2. Select **Preferences**.
 3. You have the option to receive emails **On Completion** (default), **Never**, or **Only on Errors**.
 
-### Can I change my account email?
+## Can I change my account email?
 
 Unfortunately at this time, we do not allow you to change the email associated with your account.
 
 You may, however, delete your account — losing the schedules, connector authorizations, and transfer history associated with it — and create a new account with the email you would prefer.
 
-### How do I check my transfer usage?
+## How do I check my transfer usage?
 
 Checking your usage of our app lets you know the total amount of gigabytes you have transfered over the history of your account.
 

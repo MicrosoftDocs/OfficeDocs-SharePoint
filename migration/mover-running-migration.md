@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 description: "Running the mover migration"
 ---
-# Running the migration
+# Running the Mover migration
 
 ## Scanning
 
