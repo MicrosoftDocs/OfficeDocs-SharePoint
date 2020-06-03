@@ -36,6 +36,10 @@ Dropbox restricts sharing based on files or folders already shared. For example,
 
 ## Setting up the migration
 
+- [Authorizing Dropbox Business (Multi-User)](#authorizing-dropbox-business-(multi-user))
+- [Authoring Microsoft 365](#authorizing-microsoft-365)
+- 
+
 ### Authorizing Dropbox Business (Multi-User)
 
 Authorizing **Dropbox Business** as an administrator is straightforward. To authorize or add a Multi-User Dropbox Business account as a connector, follow these steps.

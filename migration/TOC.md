@@ -55,9 +55,9 @@
 ###  Mover Troubleshooting
 #### [Post-migration troubleshooting](mover-post-migration-troubleshooting.md)
 #### [Transfer logs](mover-transfer-logs.md)
+#### [Error messages](mover-error-faq.md)
 #### [Account FAQ](mover-account-faq.md)
 #### [Migration FAQ](mover-migration-faq.md)
-#### [Error messages](mover-error-faq.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [SPMT migration performance guidelines](spmt-performance-guidance.md)
