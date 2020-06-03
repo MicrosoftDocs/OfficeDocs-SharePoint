@@ -17,8 +17,7 @@ description: "Setting up migration from Amazon S3 to Office 365
 ## Authorizing Amazon S3
 
 Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 account as a Connector, follow these simple steps:
-
-1. In the Transfer Wizard click Authorize New Connector.
+1.	 In the Transfer Wizard click Authorize New Connector.
 
 ![Auth New Connector](media/clear_auth.png)
 
@@ -55,10 +54,10 @@ Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 accoun
 
 **Using Amazon S3 via IAM:** With Amazon S3, by default we should have no trouble accessing your buckets. Here's how to connect to S3 via IAM:
 
-- From the AWS dashboard, go to the ﻿Services﻿ menu, then Administration & Security, and then IAM.
+- From the AWS dashboard, go to the Services menu, then Administration & Security, and then IAM.
 - Then you'll want to create a user if you haven't already.
-- Next you'll need to go into Policies and hit Create Policy, and then press﻿Create Your Own Policy so we can make a custom policy.
-- Name this policy something you'll easily find - perhaps Example+﻿IAM﻿ or something along those lines - you can also include a description of what it is. You'll then need to copy and paste the following into the Policy Document field:
+- Next you'll need to go into Policies and hit Create Policy, and then pressCreate Your Own Policy so we can make a custom policy.
+- Name this policy something you'll easily find - perhaps Example+IAM or something along those lines - you can also include a description of what it is. You'll then need to copy and paste the following into the Policy Document field:
 
 ```json
 {
