@@ -1,5 +1,5 @@
 ---
-title: Setting up FTP migration
+title: Setting up your FTP migration to Office 365
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,7 +10,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up FTP migration"
+description: "Setting up your FTP migration to Office 365"
 ---
 
 # Setting up FTP migration

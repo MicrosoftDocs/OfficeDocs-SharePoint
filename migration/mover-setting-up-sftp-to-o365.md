@@ -1,5 +1,5 @@
 ---
-title: Setting up SFTP migration
+title: Setting up SFTP migration to Office 365
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up SFTP migration"
+description: "Setting up SFTP migration to Office 365"
 ---
-# Setting up SFTP migration
+# Setting up SFTP migration to Office 365
 
 ## Authorizing SFTP
 

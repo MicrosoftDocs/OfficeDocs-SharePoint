@@ -1,5 +1,5 @@
 ---
-title: Setting up Azure Blob Storage migration with Mover
+title: Setting up Azure Blob Storage migration to Office 365
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up Azure Blob Storage migration with Mover"
+description: "Setting up Azure Blob Storage migration to Office 365"
 ---
-# Setting up Azure Blob Storage migration
+# Setting up Azure Blob Storage migration to Office 365
 
 ## Authorizing Azure Blob Storage
 

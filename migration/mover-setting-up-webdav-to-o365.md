@@ -1,5 +1,5 @@
 ---
-title: Setting up migration of WebDAV
+title: Setting up migration of WebDAV to Office 365
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up migration of WebDAV"
+description: "Setting up migration of WebDAV to Office 365"
 ---
-# Setting up migration of WebDAV
+# Setting up migration of WebDAV to Office 365
 
 ## Authorizing WebDAV
 

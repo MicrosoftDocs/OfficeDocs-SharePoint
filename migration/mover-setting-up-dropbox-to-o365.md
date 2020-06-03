@@ -1,5 +1,5 @@
 ---
-title: Setting up your migration from Dropbox using Mover
+title: Setting up your migration from Dropbox to Office 365
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,7 +11,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from Dropbox using Mover"
+description: "Setting up your migration from Dropbox to Office 365"
 ---
 # Setting up your migration from Dropbox using Mover
 

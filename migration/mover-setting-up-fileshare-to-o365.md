@@ -1,5 +1,5 @@
 ---
-title: Setting up your migration from file shares using Mover
+title: Setting up your migration from file shares to Office 365
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,9 +11,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from file shares using Mover"
+description: "Setting up your migration from file shares to Office 365"
 ---
-# Setting up your migration from file shares using Mover
+# Setting up your migration from file shares to Office 365
 
 ## Agent FAQ
 

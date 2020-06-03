@@ -1,5 +1,5 @@
 ---
-title: Mover Migration - Setting up migration from Amazon S3
+title: Setting up migration from Amazon S3 to Office 365
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: " Setting up migration from Amazon S3 using Mover"
+description: "Setting up migration from Amazon S3 to Office 365
 ---
-#  Setting up your migration from Amazon S3 using Mover
+#  Setting up your migration from Amazon S3 to Office 365
 
 ## Authorizing Amazon S3
 
