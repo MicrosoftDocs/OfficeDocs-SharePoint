@@ -73,7 +73,7 @@ What makes modernizing your intranet worth the effort:
 | Disjointed experience for international organizations | Multi-lingual and audience targeting features ensure users relate to relevant information | Instead of creating separate experiences for unique viewers, target navigational links to specific audiences. </br> [Learn more about targeting content to specific audiences](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) |
 
 ### Builds community and culture
-
+https://support.microsoft.com/en-us/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293
 |Traditional|New|How to get started |
 |:-------|:------|:--------|
 | Intranet structure is based on organization structure   | Role and task-based portals house community initiative-driven projects   |  Instead of separating content by organizational structure, use hubs to organize content based on business initiatives. </br>  [Learn more about planning hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites) |
