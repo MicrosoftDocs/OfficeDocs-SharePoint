@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Mover errors
+title: Troubleshooting Mover migration errors
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 description: "Troubleshooting Mover errors"
 ---
-# Troubleshooting errors
+# Troubleshooting Mover migration errors
 
 |Message|Definition|
 |:-----|:-----|
