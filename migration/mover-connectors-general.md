@@ -1,5 +1,5 @@
 ---
-title: Mover Migration Tools overview and planning
+title: Mover Migration Connectors
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Overview and planning to the Mover Migration tools"
+description: "Mover Migration Connectors"
 ---
-## Connectors
+# Connectors
 
 ### What is a connector?
 

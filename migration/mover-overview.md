@@ -195,26 +195,3 @@ On Monday, April 10, 2020, all employees will be using our new Office 365 domain
 
 Questions and concerns can be directed to your immediate manager and/or our technical support staff via the usual channels.
 
-
-## Connectors
-
-### What is a connector?
-
-A **Connector** is what we call our link to your cloud storage accounts.
-
-To set up a transfer, you must grant us access to your cloud storage accounts. Without this link, we are unable to communicate with them.
-
-Creating a **Connector** may involve authenticating via OAuth or with normal username/password credentials. You only need to authenticate once per account.
-
-Our authorization is lost when you delete the **Connector**, delete your account with us, or revoke our access through your cloud service's security settings.
-
-### Which connector to use for each Microsoft service
-
-|**Microsoft service**|**Which Mover connector to use**|
-|:-----|:-----|
-|Azure Blob Storage|Azure Blob Storage Connector|
-|OneDrive Consumer|    OneDrive Consumer Connector|
-|OneDrive for Business (Administrator)|    Microsoft 365 Connector|
-|OneDrive for Business (User)|    OneDrive for Business (User) Connector|
-|SharePoint Online|Microsoft 365 Connector|
-

@@ -1,5 +1,5 @@
 ---
-title: Mover Migration Tools overview and planning
+title: Mover Migration - Setting up migration from Amazon S3
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Overview and planning to the Mover Migration tools"
+description: " Setting up migration from Amazon S3 using Mover"
 ---
-#  Setting up migration from Amazon S3
+#  Setting up migration from Amazon S3 using Mover
 
 ## Authorizing Amazon S3
 
