@@ -35,7 +35,7 @@ Delve is available for Office 365 Enterprise (E1, E3, and E5), Office 365 Educat
   
 Regardless of which Microsoft 365 or Office 365 subscriptions you have, you need to activate the SharePoint service and assign users a SharePoint license before they can start using Delve. You also have to set up Exchange Online if you want attachments to show up on users' Home pages in Delve. If you set up Skype for Business Online, users can start Skype for Business Online conversations directly from Delve. And if you set up Yammer Enterprise, users can engage in Yammer conversations about documents directly from Delve.
   
-Delve is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome or Safari.
+Delve is designed to work with the current or immediately previous version of Internet Explorer or Firefox, or the latest version of Chrome, or Safari.
 
 The Delve app is also enabled for modern authentication. For more info, see [Client app Support - Modern Authentication](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication).
   
