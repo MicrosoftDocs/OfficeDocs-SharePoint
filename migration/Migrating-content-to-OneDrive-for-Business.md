@@ -22,11 +22,11 @@ description: "Now you can use the SharePoint Migration tool to migrate content t
  
 ## Migrate to OneDrive for FREE
 
-If you have files and folders on your computer or on a network drive, you can use either of the following tools to to migrate that content to your own OneDrive for **FREE!**
+If you have files and folders on your computer or on a network drive, you can use either of the following tools to migrate that content to your own OneDrive for **FREE!**
 
 
 ### Migration Manager
-Go to the [Migration Manager page on the new SharePoint Admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true). Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the [Migration Manager page on the new SharePoint Admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true). Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
 To learn more see:  [Get started with Migration Manager](mm-get-started.md)
 <br>
