@@ -42,7 +42,7 @@
 #### [G Suite Drive to Office 365](mover-setting-up-gsuite-to-o365.md)
 #### [Amazon WorkDocs to Office 365](mover-setting-up-amazonworkdocs-to-o365.md)
 #### [Office 365 to Office 365](mover-setting-up-o365-to-o365.md)
-#### Other Connectors to Office 365
+#### Other Connectors
 ##### [Amazon S3 to Office 365](mover-setting-up-amazons3-to-o365.md)
 ##### [Azure Blob Storage to Office 365](mover-setting-up-azureblob-to-o365.md)
 ##### [Google Cloud Storage to Office 365](mover-setting-up-googlecloudstore-to-o365.md)
