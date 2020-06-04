@@ -20,20 +20,20 @@ description: "Learn about associating segments with a site, and what happens whe
 
 # Use information barriers with SharePoint
 
-Information barriers are policies in Microsoft 365 that an admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as the financial and legal industries. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
+Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
-The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that allows Sales and Research to communicate with HR, but not with each other. 
+The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. These segments are incompatible. 
 
 ![Example of segments in an organization](media/info-barriers-segments-example.png)
 
-With SharePoint information barriers, a SharePoint or global admin can associate up to 10 compatible segments with any SharePoint site. The segments are associated at the site level (previously called site collection level). Segments can't be associated at the subsite level.
+With SharePoint information barriers, a SharePoint or global admin can associate segments to a site to prevent the site from being shared with or accessed by users outside the segments. Up to 10 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level). Segments can't be associated at the subsite level.
 
-In the above example, the HR segment is compatible with both Sales and Research. However, the Sales and Research segments are incompatible. They can't be associated with the same site. 
+In the above example, the HR segment is compatible with both Sales and Research. However, because the Sales and Research segments are incompatible, they can't be associated with the same site. 
 
 ## Prerequisites
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- Complete the form to enable information barriers in your organization. 
+- Complete the form to enable SharePoint and OneDrive information barriers in your organization. 
 - Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 
 ## Use PowerShell to associate segments with a site
@@ -93,7 +93,7 @@ Get-SPOSite -Identity <site URL> | Select InformationSegment
 When a segment is associated with a site:
 
 - The option to share with "Anyone with the link" is disabled.
-- The site and its content can be shared only with users whose segment matches that of the site. For example, a user in Sales can share only with other users in Sales, even if HR segment is also associated with the site.
+- The site and its content can be shared only with users whose segment matches that of the site. For example, if a site is associated with only HR, only users in the HR segment can access that site (even though HR is compatible with both Sales and Research).
 - New users can be added to the site as site members only if their segment matches that of the site. 
 
 When a site has no segments associated: 
@@ -108,14 +108,14 @@ Access to a SharePoint site is allowed only to users whose segment matches a seg
 
 Users will see search results from:
 
-- Sites that have an associated segment that matches that of the user and the user has access permission to the site. 
+- Sites that have an associated segment that matches the user's segment and the user has access permission to the site. 
 - Sites that don't have associated segments if they have access to the site. 
 
-## Effects of changing segments and policies
+## Effects of changing information barriers policies and user segments
 
-If a SharePoint site owner’s segment changes, the user won't be able to access the site if their segment doesn't match any of the segments associated with the site. A SharePoint admin must associate the user's new segment with the site.
+If a compliance administrator changes an existing policy, the change may impact the compatibility of the segments associated with a site. For example, segments that were once compatible may no longer be compatible. A SharePoint admin must change the segments associated with an affected site accordingly. 
 
-If an information barriers policy administrator changes an existing policy, the change may impact the compatibility of the segments associated with a site. For example, segments that were once compatible may no longer be compatible. A SharePoint admin must change the segments associated with an affected site accordingly. 
+If a SharePoint site owner’s segment changes, the user won't be able to access the site if their segment doesn't match any of the segments associated with the site. To allow the user to access the site, a SharePoint admin must associate the user's new segment with the site.
 
 ## Known issues
 

@@ -121,9 +121,7 @@ Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
 Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
 -RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
 
-
-
-## Effects of changing information barriers policies or a user's segment 
+## Effects of changing information barriers policies and user segments 
 
 If a policy changes after files are shared, the sharing links will work only if the user attempting to access the shared files has a segment applied that matches a segment associated with the OneDrive.
 
