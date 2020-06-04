@@ -1,5 +1,5 @@
 ---
-title: Setting up your migration from file shares to Office 365
+title: Authorizing the File share Connector
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,25 +11,246 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from file shares to Office 365"
+description: "Authorizing the File share Connector"
 ---
-# Setting up your migration from file shares to Office 365
+# Authorizing the File share Connector
+
+## Agent FAQ
+
+### Windows
+
+The Windows Agent has two installers, one for the user-context and one for the service-context. The Windows Agent requires Microsoft .NET Framework 4.6.2 or greater.
+
+The differences between Windows installers are as follows:
+
+#### User-context installer
+
+- **Select to download**.
+- Installs and is run as the currently logged in Windows user.
+- Automatically updates.
+- Has access to local drives.
+- Has access to mapped network drives.
+- Is not available if the user logs out of Windows, or your remote desktop session expires.
+
+#### Service-context installer
+
+- **Select to download**.
+- Installs and is run as a Windows service.
+- Must be manually updated.
+- Has access only to local drives.
+- Is always available, even if the current user logs out, or your remote desktop session expires.
+
+
+#### Command line agents
+
+The following Agents operate using a command line interface versus a user interface.
+
+### macOS
+
+- **Select to download**.
+- Navigate to the download location, and unzip the **Mover Agent**.
+- Via the terminal, browse to the now unzipped `moveragent` folder, and run `./agent`.
+- Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
+- Open our app, and in the **agent authorization** box, paste the key.
+
+>[!Note]
+>The minimum system requirements are macOS 10.12.
+
+### Linux
+
+- **Select to download**.
+- Navigate to the download location, and unzip the Agent.
+- Via the terminal, browse to the now unzipped `moveragent` folder and run `./agent`.
+- Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
+- Open our app in your browser, and paste the key into the agent authorization box.
+
+### Windows command line installer (beta)
+
+- **Select to download**.
+- Installs and is run as a command line executable.
+- Must be manually updated.
+- Built from the same code base as the Linux and macOS agents.
+
+### How does the agent view users?
+
+The Agent works with files and folders. All users who are separated into their own folders can easily be mapped to their new location in Microsoft 365.
+
+A good example would be a large listing of home drives. Each home drive for a user could be transfered to their respective new user in Microsoft 365.
+
+![Agent view users](media/windows-view-users.png)
+
+### Troubleshooting the agent
+
+#### Checking the agent version
+
+To check which version of the Server Client you have installed, on the menu bar, select the **Help** tab.
+
+![faq agent](media/agent_version.png)
+
+If you are using the Mac or Linux version of our Agent, to find out the version you are using, follow these instructions: **Show Agent Version**.
+
+#### Accessing server agent log
+
+To access the **Agent Log**, navigate to the folder directory that you installed the desktop agent. A .log file appears that you can review, and send to our support team if an error should occur.
+
+>[!Note]
+>The agent .log file default location is `Windows\System(32/64)\config\systemprofile\AppData\Local\Mover`
+
+![agent log](media/agent_log.png)
+
+#### Commands for agent (Mac and Linux only)
+
+Our Agent supports the following commands:
+
+- Start the Agent
+- Stop the Agent
+- Show Agent Help
+- Show Agent Version
+- Check Agent Status
+- Disconnect the Agent
+- Connect the Agent
+- Monitor Agent Activity
+
+
+#### Start the agent
+
+To start the Agent, use: </br>`./agent start`.
+
+`$ ./agent start`</br>
+`Mover Agent Starting`</br>
+`Mover Agent Key:`</br> `0000000000000000000000000000000`</br>
+`Ctrl-C To Stop`
+
+#### Start the agent in the background
+
+To start the Agent in the background, use:</br>`./agent start &`.
+
+`$ ./agent start &[1] 8667`</br>
+`$ Mover Agent Starting`</br>
+`Mover Agent Key:`</br> `00000000000000000000000000000000`</br>
+`Ctrl-C To Stop`
+
+#### Stop the agent
+
+If the Agent is running in the foreground of the terminal, to stop the Agent, press `Ctrl-C`.
+
+`^CMover Agent Stopping`
+
+If the Agent is running the background or in another terminal session, use:</br> `./agent Stop`.
+
+`$ ./agent stop`</br>
+`Connecting to Mover Agent`</br>
+`Sending stop command`</br>
+`Mover Agent Stopping`</br>
+`Mover Agent stopped`</br>
+`[1]+ Done ./agent start`
+
+#### Show agent help
+
+To get a list of commands and options, use:</br> `./agent -h`.
+
+`$ ./agent -h`</br>
+`Mover Agent 1.0.6968.0`</br>
+`Usage: agent [options] [command]`
+
+`Options:`</br>
+`-? | -h | --help Show help information`</br>
+`-v | --version Show version information`
+
+`Commands:`
+
+- `connect| Connect to a running instance of the Agent and issue a connect command`</br>
+- `disconnect| Connect to a running instance of the Agent and issue a disconnect command`</br>
+- `monitor| Connect to a running instance of the Agent and monitor agent activity`</br>
+- `start| Start the Agent`</br>
+- `status| Connect to a running instance of the Agent and retrieve the current status`</br>
+- `stop| Stop the Agent`
+
+For more info about a command, use `agent [command] --help`.
+
+#### Show agent version
+
+To show the Agent version, use:</br> `./agent -v`
+
+`$ ./agent -v`</br>
+`Mover Agent`</br>
+`1.0.6968.0 (Unix 18.6.0.0)`
+
+#### Check agent status
+
+To check the status of the Agent, use:</br> `./agent status`
+
+`$ ./agent status`</br>
+`Connecting to Mover Agent`</br>
+`Mover Agent Key:`</br> `00000000000000000000000000000000`</br>
+`Mover Agent Status: online`
+
+#### Disconnect the agent
+
+To disconnect the Agent, use:</br> `./agent disconnect`
+
+`$ ./agent disconnect`</br>
+`Connecting to Mover Agent`</br>
+`Sending disconnect command`</br>
+`Mover Agent disconnected.`
+
+`$ ./agent status`</br>
+`Connecting to Mover Agent`</br>
+`Mover Agent Key:`<br>
+`00000000000000000000000000000000`</br>
+`Mover Agent Status: offline`
+
+
+#### Connect the agent
+
+To connect the Agent, use:</br> `./agent connect`
+
+`$ ./agent connect`</br>
+`Connecting to Mover Agent`</br>
+`Sending connect command`</br>
+`Mover Agent connected.`
+
+`$ ./agent status`</br>
+`Connecting to Mover Agent`</br>
+`Mover Agent Key:`<br>
+`00000000000000000000000000000000`</br>
+`Mover Agent Status: online`
+
+
+#### Monitor agent activity
+
+To monitor the Agent activity, use:</br> `./agent Monitor`. To stop monitoring Agent activity, use: `Ctrl-C`.
+
+`$ ./agent monitor`</br>
+`Connecting to Mover Agent`</br>
+`Mover Agent Key:`<br> `00000000000000000000000000000000`</br>
+`Connected to bifrost.mover.io on ports 8081 and 4002.`</br>
+`Ready to transfer!Browse: /`</br>
+`Browse: /Users`</br>
+`Browse: /Users/mover`</br>
+`Browse: /Users/mover/AgentTestData`</br>
+`Browse: /Users/mover/AgentTestData/TestDocuments`</br>
+`Upload: /Users/mover/AgentTestData/TestDocuments/TestTextDocument.txt`</br>
+`Upload: /Users/mover/AgentTestData/TestDocuments/file.txt`</br>
+`Upload: /Users/mover/AgentTestData/TestDocuments/picture.jpg`</br>
+`^C`
+
 
 ## Authorizing the desktop and server agent
 
 To enable swift and painless copying of data from on-premise desktop and server hard drives, we provide a very tiny agent that any Windows operating system can install.
 
-### Compatibility
+## Compatibility
 
 Windows XP is not supported.
 All other versions of Windows require the .NET Framework 4.6 for the Agent to function.
 Download and manually install .NET Framework 4.6 from this **link**.
 
-### Security
+## Security
 
 The Agent may only initiate outbound communication with our own servers. All communication is via encrypted TLS and no service other than ours is allowed to work with the agent.
 
-### Windows installation
+## Windows installation
 
 For Mac and Linux, the Agent folder appears in your Downloads, and is run through **command line operations**.
 
@@ -51,7 +272,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Agent key](media/agent_key.png)
 
-### Authorizing the agent in our app
+## Authorizing the agent in our app
 
 1. In the **Transfer Wizard**, select **Authorize New Connector**.
 
@@ -68,7 +289,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Name connector agent](media/name-connector-agent.png)
 
-#### Additional screenshots
+### Additional screenshots
 
 ![Additional screenshots](media/additional-screenshots.png)
 
@@ -196,7 +417,7 @@ If you are not already connected after you have authorized your destination, sel
 
 ![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
-### Create a new migration
+## Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
@@ -227,7 +448,7 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-### Creating a new migration from a CSV (optional)
+## Creating a new migration from a CSV (optional)
 
 Sometimes you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
@@ -250,7 +471,7 @@ Download an example CSV here:
 
 **Example_CSV_Map.csv**
 
-### Creating your CSV in Excel
+## Creating your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -263,7 +484,7 @@ If you are using an Excel spreadsheet to create your CSV:
 
 ### Reviewing your users
 
-#### Checking paths
+### Checking paths
 
 Confirm that the users in the File Servers source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 

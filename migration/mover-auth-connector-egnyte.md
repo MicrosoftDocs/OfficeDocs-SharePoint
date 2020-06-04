@@ -1,5 +1,5 @@
 ---
-title: Setting up your migration from Egnyte to Office 365
+title: Authorizing the Egnyte Connector 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,9 +11,23 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from Egnyte to Office 365"
+description: "Authorizing the Egnyte Connector "
 ---
-# Setting up your migration from Egnyte to Office 365
+# Authorizing the Egnyte Connector 
+
+## Egnyte FAQ
+
+### What is different about Egnyte?
+
+Unlike other cloud storage providers, Egnyte has a `Shared` folder and a `Private` folder. When migrating from Egnyte, our app defaults to the **Private** folders when auto-completing the user to user migration setup.
+
+### How will my paths look when Egnyte is my source?
+
+During the migration setup (described later in this guide), you can edit the path(s) to specify where in Egnyte you want the data to go. From the root level of Egnyte, you can go into `/Private` which lists the individual users and their data, or `/Shared` which is the main shared data repository.
+
+Most cloud storage providers, Egynte, for example, start the listing with a user such as `/user@example.com/marketing data`. Egnyte does not do this, so you would be looking at a path such as `/Shared/marketing data` if it's a Shared folder, or `/Private/example/marketing data` if it's a Private folder.
+
+
 
 ## Authorizing Egnyte (Multi-User)
 
@@ -139,7 +153,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to
 
 `Request-SPOPersonalSite -UserEmails "neverloggedintest@example.onmicrosoft.com"`
 
-### Microsoft 365 permission requirements
+## Microsoft 365 permission requirements
 
 Our app requires a Global Admin for authorization. The following table lists the scopes we require.
 
@@ -192,7 +206,7 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-### Creating a new migration from a CSV (optional)
+## Creating a new migration from a CSV (optional)
 
 Occasionally, you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
@@ -227,7 +241,7 @@ For example, this full URL won't work:
 It should be changed to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-### Creating your CSV in Excel
+## Reviewing your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
 
@@ -238,9 +252,9 @@ To use an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-### Reviewing your users
+## Reviewing your users
 
-#### Checking paths
+### Checking paths
 
 Confirm that the users in the Egnyte source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
@@ -341,7 +355,7 @@ To create or edit a schedule:
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
 
-#### Deleting
+### Deleting
 
 Be aware that users can only be deleted if they haven't been scanned, or had a transfer run.
 
@@ -506,18 +520,4 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 **Start # Migrating Users** opens a side tab enabling you to finalize and begin the migration.
 
 ![migration actions mover](media/migration-finalize-mover.png)
-
-
-## Egnyte FAQ
-
-### What is different about Egnyte?
-
-Unlike other cloud storage providers, Egnyte has a `Shared` folder and a `Private` folder. When migrating from Egnyte, our app defaults to the **Private** folders when auto-completing the user to user migration setup.
-
-### How will my paths look when Egnyte is my source?
-
-During the migration setup (described later in this guide), you can edit the path(s) to specify where in Egnyte you want the data to go. From the root level of Egnyte, you can go into `/Private` which lists the individual users and their data, or `/Shared` which is the main shared data repository.
-
-Most cloud storage providers, Egynte, for example, start the listing with a user such as `/user@example.com/marketing data`. Egnyte does not do this, so you would be looking at a path such as `/Shared/marketing data` if it's a Shared folder, or `/Private/example/marketing data` if it's a Private folder.
-
 

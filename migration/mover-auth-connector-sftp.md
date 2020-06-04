@@ -1,5 +1,5 @@
 ---
-title: Setting up SFTP migration to Office 365
+title: Authorizing the SFTP Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up SFTP migration to Office 365"
+description: "Authorizing the SFTP Connector"
 ---
-# Setting up SFTP migration to Office 365
+# Authorizing the SFTP Connector
 
 ## Authorizing SFTP
 

@@ -1,5 +1,5 @@
 ---
-title: Setting up your migration from Box to Office 365
+title: Authorizing the Box Connector
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,9 +11,46 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from Box to Office 365"
+description: "Authorizing the Box Connector"
 ---
-# Setting up your migration from Box to Office 365
+# Authorizing the Box Connector
+
+## Box FAQ
+
+### Should we disable our Box accounts?
+Disabling employee access to their Box accounts mitigates any risk of them accessing data after the migration takes place.
+
+This practice:
+
+1. Keeps their Box accounts for a few weeks before deleting them.
+2. Keeps their Box data available in read-only format.
+
+Think of your employees' needs and what works best for the team.
+
+### What happens to Box Notes?
+
+Our app does not currently support Box Notes conversion.
+
+### Locked files
+
+We automatically unlock locked Box files and download them.
+
+The file(s) remain unlocked after this process, so if you want to re-lock the files, you must do so from Box directly.
+
+### Disable email notifications
+
+In Box, there are settings to notify users when downloads occur for content they own. This can equate to spam during a migration because our app downloads all their files.
+
+When logged in as a Box admin, disable this setting from:  https://app.box.com/master/settings/notification
+
+![disable download box](media/disable-download-box.png)
+
+### Box data reporting
+
+We've found that Box occasionally has hiccups with reporting storage quotas in their service. If you discover that there is a discrepancy between what we are reporting and what Box's dashboard and/or reporting informs you, you must contact their support team and ask them to refresh/recalculate the storage quotas on your account (frequently, you need to escalate this beyond their first-level support).
+
+For more info about this issue, see **here** and **here**.
+
 
 ## Authorizing Box (Co-Admin)
 
@@ -79,43 +116,6 @@ To remove our app's access to Box:
 
 >[!Note]
 >To delete a custom app, you must contact Box.
-
-
-## Box FAQ
-
-### Should we disable our Box accounts?
-Disabling employee access to their Box accounts mitigates any risk of them accessing data after the migration takes place.
-
-This practice:
-
-1. Keeps their Box accounts for a few weeks before deleting them.
-2. Keeps their Box data available in read-only format.
-
-Think of your employees' needs and what works best for the team.
-
-### What happens to Box Notes?
-
-Our app does not currently support Box Notes conversion.
-
-### Locked files
-
-We automatically unlock locked Box files and download them.
-
-The file(s) remain unlocked after this process, so if you want to re-lock the files, you must do so from Box directly.
-
-### Disable email notifications
-
-In Box, there are settings to notify users when downloads occur for content they own. This can equate to spam during a migration because our app downloads all their files.
-
-When logged in as a Box admin, disable this setting from:  https://app.box.com/master/settings/notification
-
-![disable download box](media/disable-download-box.png)
-
-### Box data reporting
-
-We've found that Box occasionally has hiccups with reporting storage quotas in their service. If you discover that there is a discrepancy between what we are reporting and what Box's dashboard and/or reporting informs you, you must contact their support team and ask them to refresh/recalculate the storage quotas on your account (frequently, you need to escalate this beyond their first-level support).
-
-For more info about this issue, see **here** and **here**.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Setting up your migration from Google Cloud Store to Office 365
+title: Authorizing the Google Cloud Store Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from Google Cloud Store to Office 365"
+description: "Authorizing the Google Cloud Store Connector"
 ---
-#  Setting up your Google Cloud Storage migration to Office 365
+# Authorizing the Google Cloud Store Connector
 
 ## Authorizing Google cloud storage
 

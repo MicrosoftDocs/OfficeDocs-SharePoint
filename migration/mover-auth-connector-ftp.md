@@ -1,5 +1,5 @@
 ---
-title: Setting up your FTP migration to Office 365
+title: Authorizing the FTP Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,10 +10,11 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your FTP migration to Office 365"
+description: "Authorizing the FTP Connector"
 ---
 
-# Setting up FTP migration to Office 365
+# Authorizing the FTP Connector
+
 
 ## Authorizing FTP
 

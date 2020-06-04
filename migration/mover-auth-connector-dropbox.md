@@ -230,7 +230,7 @@ For example, this full URL won't work:
 It should be changed to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-## Creating your CSV in Excel
+### Creating your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
 
@@ -241,7 +241,7 @@ To use an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-### Reviewing your users
+## Reviewing your users
 
 ### Checking paths
 

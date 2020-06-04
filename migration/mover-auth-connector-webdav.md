@@ -1,5 +1,5 @@
 ---
-title: Setting up migration of WebDAV to Office 365
+title: Authorizing the WebDAV Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up migration of WebDAV to Office 365"
+description: "Authorizing the WebDAV Connector"
 ---
-# Setting up migration of WebDAV to Office 365
+# Authorizing the WebDAV Connector
 
 ## Authorizing WebDAV
 

@@ -1,5 +1,5 @@
 ---
-title: Setting up your migration from G Suite to Office 365
+title: Authorizing the G Suite Connector
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,11 +11,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from G Suite to Office 365"
+description: "Authorizing the G Suite Connector"
 ---
-# Setting up your migration from G Suite to Office 365
-
-## Setting up the migration
+# Authorizing the G Suite Connector
 
 ## Authorizing G Suite Drive (Administrator)
 
@@ -63,11 +61,11 @@ We now have access to your users and their data, so we can move on to **Connecto
 
 ## Troubleshooting a G Suite (Administrator) connector
 
-### App permissions
+## App permissions
 
 For us to be able to view and transfer data to and from G Suite Drive, you must have our app installed as per the instructions in **Connector Creation**. In some cases, you may have our app installed, but disabled. If you are having problems connecting, you should ensure our marketplace app is enabled for all users. To access your third-party app settings in **Google Apps**, follow the same steps.
 
-### Google Drive permission requirements
+## Google Drive permission requirements
 
 Our app requires a Global Admin for authorization. The following table provides a detailed list of the scopes we require.
 

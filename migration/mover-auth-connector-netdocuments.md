@@ -1,5 +1,5 @@
 ---
-title: Setting up your migration from NetDocuments to Office 365
+title: Authorizing the NetDocuments Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from NetDocuments to Office 365"
+description: "Authorizing the NetDocuments Connector"
 ---
-# Setting up your migration from NetDocuments
+# Authorizing the NetDocuments Connector
 
 ## Authorizing NetDocuments
 
