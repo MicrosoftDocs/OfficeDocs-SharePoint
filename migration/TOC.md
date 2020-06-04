@@ -34,7 +34,7 @@
 ### [Overview](mover-overview.md)
 ### [Connectors](mover-connectors-general.md)
 ### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
-### Setting up the migration
+### Authorizing Connectors
 #### [Box to Office 365](mover-setting-up-box-to-o365.md)
 #### [Dropbox to Office 365](mover-setting-up-dropbox-to-o365.md)
 #### [Egnyte to Office 365](mover-setting-up-egnyte-to-o365.md)

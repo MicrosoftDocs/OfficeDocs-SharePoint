@@ -13,7 +13,27 @@ ms.collection:
 search.appverid: MET150
 description: "Setting up your migration from Dropbox to Office 365"
 ---
-# Setting up your migration from Dropbox to Office 365
+# Authorizing Dropbox Connector
+
+
+## Dropbox FAQ
+
+### What happens to my unmounted folders?
+
+Dropbox supports a selective sync function which can cause problems when trying to transfer a shared folder that is *mounted* in a specific way in Dropbox's file system. These folders can not be transfered, but we can detect these folders upon request to help identify them.
+
+### What about Dropbox Team folders?
+
+For easy access, our app displays Team Folders in the root of your connector (among the users).
+
+If you're editing the source or destination paths in our app, select the back button to find the root listing of users and team drives, and select the source/destination that you want.
+
+If you're creating a user mapping via CSV, map your Accounting Team Folder as `/Accounting` which is different than your Accounting user `/accounting@company`.com.
+
+### How does Dropbox manage sharing and permissions?
+
+Dropbox restricts sharing based on files or folders already shared. For example, if you have shared a subfolder, Dropbox does not allow you to change the sharing permissions of the individual subfolders or files within that folder, nor are you allowed to modify the sharing scheme of the parent until you have unshared the subfolder.
+
 
 ## Authorizing Dropbox Business (Multi-User)
 
@@ -82,7 +102,6 @@ Some steps in the authorization process can be completed by a Global Admin or an
 - ![global admin o365](media/permissions-o365-global-admin.png)
 
 
-
 5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
 
 If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
@@ -145,7 +164,7 @@ If you are not already connected after you have authorized your destination, sel
 
 ![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
-### Create a new migration
+## Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
@@ -176,13 +195,13 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-### Creating a new migration from a CSV (optional)
+## Creating a new migration from a CSV (optional)
 
 Occasionally, you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
 In these cases, we trust the CSV upload option is useful. This allows you to lay out all your users and directories, and then provide it to us in a .csv format for us to create your migration.
 
-#### Users to migrate
+### Users to migrate
 
 Your CSV file must follow this format:
 
@@ -211,7 +230,7 @@ For example, this full URL won't work:
 It should be changed to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-### Creating your CSV in Excel
+## Creating your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
 
@@ -224,7 +243,7 @@ To use an Excel spreadsheet to create your CSV:
 
 ### Reviewing your users
 
-#### Checking paths
+### Checking paths
 
 Confirm that the users in the Dropbox source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
@@ -401,7 +420,7 @@ Download an example CSV:
 
 [example_permission_map.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
 
-### Creating your CSV in Excel
+## Creating your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -417,7 +436,7 @@ For example:
 
 ![excel overview](media/excel-overview.png)
 
-### Exporting a permission map
+## Exporting a permission map
 
 You can export a permission map in CSV format.
 
@@ -491,23 +510,4 @@ This area of the screen contains the **User Actions** dropdown, the **Scan User*
 
 ![migration finalize mover](media/migration-finalize-mover.png)
 
-
-
-## Dropbox FAQ
-
-### What happens to my unmounted folders?
-
-Dropbox supports a selective sync function which can cause problems when trying to transfer a shared folder that is *mounted* in a specific way in Dropbox's file system. These folders can not be transfered, but we can detect these folders upon request to help identify them.
-
-### What about Dropbox Team folders?
-
-For easy access, our app displays Team Folders in the root of your connector (among the users).
-
-If you're editing the source or destination paths in our app, select the back button to find the root listing of users and team drives, and select the source/destination that you want.
-
-If you're creating a user mapping via CSV, map your Accounting Team Folder as `/Accounting` which is different than your Accounting user `/accounting@company`.com.
-
-### How does Dropbox manage sharing and permissions?
-
-Dropbox restricts sharing based on files or folders already shared. For example, if you have shared a subfolder, Dropbox does not allow you to change the sharing permissions of the individual subfolders or files within that folder, nor are you allowed to modify the sharing scheme of the parent until you have unshared the subfolder.
 
