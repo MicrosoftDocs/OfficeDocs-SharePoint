@@ -39,7 +39,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
 - For info about setting the default storage size, see [Set the default storage space for OneDrive users](set-default-storage-space.md).
 
-- For info about the storage you get with each plan, see [OneDrive Service Description](https://docs.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description).
+- For info about the storage you get with each plan, see [OneDrive for Business Service Description](https://docs.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description).
   
 > [!IMPORTANT]
 > The user accounts that you are pre-provisioning must be allowed to sign in.
@@ -57,9 +57,9 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 2. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
-3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+3. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
     > [!NOTE]
     > The PowerShell command Request-SPOPersonalSite works only for users who are allowed to sign in. If you've blocked users from signing in, you can allow them to sign in by running the PowerShell command **Set-MsolUser** using the text file you created in Step 1.
@@ -113,4 +113,4 @@ The following code snippet will pre-provision OneDrive for a large number of use
 ```
 ## Related topics
 
-[Plan hybrid OneDrive](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)
+[Plan hybrid OneDrive for Business](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)

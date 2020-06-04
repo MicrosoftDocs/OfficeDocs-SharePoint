@@ -22,7 +22,7 @@ description: "Learn how to change the OneDrive external sharing setting for a us
 
 # Change the external sharing setting for a user's OneDrive
 
-After you set the organization-wide sharing settings for Microsoft SharePoint and Microsoft OneDrive, you can further restrict the external sharing for a specific OneDrive user. 
+After you set the organization-wide sharing settings for SharePoint and OneDrive, you can further restrict the external sharing for a specific OneDrive user. 
 
 > [!NOTE]
 > Instead of changing the external sharing setting for an individual user's OneDrive, you might want to block external sharing of sensitive information for all users. To learn how, see [Overview of data loss prevention policies](/office365/securitycompliance/data-loss-prevention-policies).

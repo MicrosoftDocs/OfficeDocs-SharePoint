@@ -26,7 +26,7 @@ additionalContent:
       items:
         # Card
         - title: Plan, deploy, and manage
-          summary: Get the practical guidance you need to get the most out of Microsoft OneDrive in your organization.
+          summary: Get the practical guidance you need to get the most out of OneDrive in your organization.
           url: /OneDrive/onedrive
         # Card
         - title: Hybrid deployments
@@ -40,9 +40,9 @@ additionalContent:
       items:
         # Card
         - title: Developers
-          summary: Guidance for developing solutions for Microsoft OneDrive.
+          summary: Guidance for developing solutions for OneDrive.
           url: https://developer.microsoft.com/onedrive/docs
         # Card
         - title: End users
-          summary: Find help, training, and technical support for your OneDrive users.
+          summary: Find help, training, and technical support for users of OneDrive on support.office.com.
           url: https://support.office.com/onedrive

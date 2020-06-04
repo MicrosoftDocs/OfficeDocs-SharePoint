@@ -24,13 +24,13 @@ description: "Learn how to help users get the most out of the Discover view in O
 
 # Help users use the Discover view in OneDrive
 
-This article is for IT administrators. If you're not an IT admin, for info about using the Discover view, see [Are my documents safe in the Discover view in OneDrive?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35).
+This article is for IT administrators. If you're not an IT admin, for info about using the Discover view, see [Are my documents safe in the Discover view in OneDrive for Business?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35).
   
 The more your users use OneDrive in Microsoft 365 to work together, by viewing, editing and sharing each other's documents, the more useful the Discover view in OneDrive will be for everyone. Learn more about how you as an admin can help users get the most out of the Discover view.
   
 The Discover view is powered by Office Delve, and both have a dependency on the Office Graph. It shows users the most relevant content based on who they work with and what they're working on. The information in the Discover view is tailored to each user. The Discover view doesn't change permissions and users will only see what they already have access to.
   
-As an admin, you can make sure that you allow your organization to access the Office Graph, and that you have set up other Microsoft 365 services that the Discover view uses, for instance SharePoint and Delve. You can also help people get started with the Discover view, and address questions that users might have.
+As an admin, you can make sure that you allow your organization to access the Office Graph, and that you have set up other Microsoft 365 services that the Discover view uses, for instance SharePoint Online and Delve. You can also help people get started with the Discover view, and address questions that users might have.
   
 ## What you need to get the Discover view
 <a name="WhatUNeed"> </a>
@@ -62,7 +62,7 @@ SharePoint and OneDrive are the primary sources of content in the Discover view.
   
 ### Using the Discover view on a day-to-day basis
 
-Point users to the Discover view help article: [Are my documents safe in the Discover view in OneDrive?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35)
+Point users to the Discover view help article: [Are my documents safe in the Discover view in OneDrive for Business?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35)
   
 ## Help users troubleshoot the Discover view
 <a name="HelpTS"> </a>
@@ -112,7 +112,7 @@ Any document that a user can view or edit in Microsoft 365, can also appear in t
   
 - Check the permission settings for the documents, sites and libraries and make sure that only the intended users have access to the content.
 
-- If you want to prevent specific documents from appearing in the Discover view, follow the steps in [Manage the search schema in SharePoint](/sharepoint/manage-search-schema). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in the Discover view or Delve.
+- If you want to prevent specific documents from appearing in the Discover view, follow the steps in [Manage the search schema in SharePoint Online](/sharepoint/manage-search-schema). You can keep storing the documents in Office 365, and people can still find them through search - they just won't show up in the Discover view or Delve.
     
 ## About the Office Graph
 <a name="AboutOG"> </a>
@@ -137,15 +137,15 @@ If you don't allow access to the Office Graph, you affect the relevance of the c
 
 End users
   
-- [Are my documents safe in the Discover view in OneDrive?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35)
+- [Are my documents safe in the Discover view in OneDrive for Business?](https://support.office.com/article/98cbb291-71e7-4355-b130-ac5f2cfe3d35)
     
 - [What is Office Delve?](https://support.office.com/article/1315665a-c6af-4409-a28d-49f8916878ca)
     
 - [How does Office Delve know what's relevant to me?](https://support.office.com/article/048d502e-80a7-4f77-ac5c-f9d81733c385)
     
-- [What is OneDrive?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
+- [What is OneDrive for Business?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
     
-- [Should I save my documents to OneDrive or a team site?](https://support.office.com/article/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e)
+- [Should I save my documents to OneDrive for Business or a team site?](https://support.office.com/article/d18d21a0-1f9f-4f6c-ac45-d52afa0a4a2e)
     
 - [Upload a folder or files to a document library](https://support.office.com/article/eb18fcba-c953-4d45-8d90-8da66edeacdb)
     

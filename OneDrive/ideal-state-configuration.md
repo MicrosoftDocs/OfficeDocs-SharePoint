@@ -27,7 +27,7 @@ description: "View our recommendations for deploying and configuring the OneDriv
 
 # Recommended sync app configuration
 
-For the best performance, reliability, and user experience, follow these "ideal state" recommendations when you configure the OneDrive sync app.
+For the best performance, reliability, and user experience, follow these "ideal state" recommendations when you configure the sync app.
 
 
 |![Download symbol](/office/media/icons/download-blue.png)</br>Updates and rings   |![Chat symbol](/office/media/icons/chat.png)</br>Windows Notification Service  |![Cloud](/office/media/icons/cloud.png) </br>Files On-Demand and Storage Sense |![Document](/office/media/icons/document.png) <br>Office integration  |![User settings symbol](/office/media/icons/users-settings.png)</br>Silent account configuration |![Migration arrow symbol](/office/media/icons/migration-blue.png)</br>Known Folder Move|

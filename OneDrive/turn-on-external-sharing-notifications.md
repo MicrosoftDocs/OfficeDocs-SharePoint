@@ -30,8 +30,9 @@ description: "Make sure OneDrive owners in your organization are emailed when th
 To help your OneDrive users monitor and control which external users have access to their files, make sure external sharing notifications are turned on. File and folder owners will be emailed when:
   
 - Another user invites external users to shared files
+    
 - An external user accepts an invitation to access their files
-
+    
 If external sharing is enabled in your organization, these notifications are enabled by default.
   
 > [!NOTE]

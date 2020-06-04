@@ -22,7 +22,7 @@ description: "Learn about the Production and Deferred rings for OneDrive sync ap
 
 # The OneDrive sync app update process
 
-This article is for IT admins who manage the new OneDrive sync app (OneDrive.exe) in an enterprise environment. It explains how we release updates to the sync app for Windows and the standalone sync app for Mac through rings of validation, and how the sync app checks for updates. Note that if you deploy the sync app alongside Office (via the Office Deployment Tool or some other means), it will continue to check for updates independent of any Office update restrictions you set.
+This article is for IT admins who manage the new OneDrive sync app (OneDrive.exe) in an enterprise environment. It explains how we release updates to the sync app for Windows and the standalone sync app for Mac through rings of validation, and how the sync app checks for updates. Note that if you deploy OneDrive alongside Office (via the Office Deployment Tool or some other means), OneDrive will continue to check for updates independent of any Office update restrictions you set.
   
 > [!NOTE]
 > If you allow your users to sync personal OneDrive accounts, the update process described in this article and any settings you select apply to all instances of the sync app.
