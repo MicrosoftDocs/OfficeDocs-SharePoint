@@ -1,5 +1,5 @@
 ---
-title: Setting up migration from  Microsoft 365 to Microsoft 365
+title: Authorizing the Microsoft 365 Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,7 +10,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up migration from  Microsoft 365 to Microsoft 365"
+description: " Authorizing the Microsoft 365 Connector"
 ---
 # Authorizing the Microsoft 365 Connector
 

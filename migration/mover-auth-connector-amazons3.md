@@ -1,5 +1,5 @@
 ---
-title: Setting up migration from Amazon S3 to Office 365
+title:Authorizing the Amazon S3 Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up migration from Amazon S3 to Office 365
+description: "Authorizing the Amazon S3 Connecto
 ---
-#  Setting up your migration from Amazon S3 to Office 365
+#  Authorizing the Amazon S3 Connector
 
 ## Authorizing Amazon S3
 

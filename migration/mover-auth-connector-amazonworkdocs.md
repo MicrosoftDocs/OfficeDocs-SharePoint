@@ -1,5 +1,5 @@
 ---
-title: Setting Up your migration from AmazonWorkDocs to Office 365
+title: Authorizing the AmazonWorkDocs Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your migration from AmazonWorkDocs to Office 365"
+description: "Authorizing the AmazonWorkDocs Connector"
 ---
-# Setting up your migration from AmazonWorkDocs to Office 365
+# Authorizing the AmazonWorkDocs Connector
 
 ## Amazon WorkDocs FAQ
 

@@ -1,5 +1,5 @@
 ---
-title: Setting up Azure Blob Storage migration to Office 365
+title: Authorizing the Azure Blob Storage Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up Azure Blob Storage migration to Office 365"
+description: "Authorizing the Azure Blob Storage Connector"
 ---
-# Setting up Azure Blob Storage migration to Office 365
+# Authorizing the Azure Blob Storage Connector
 
 ## Authorizing Azure Blob Storage
 
