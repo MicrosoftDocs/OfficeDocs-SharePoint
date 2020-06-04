@@ -22,15 +22,6 @@ description: "This article is an overview of the SharePoint Migration Tool and p
 # Download and install the SharePoint Migration Tool
 
 
->[!Note]
-> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
->
->**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
->
->Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
-
-
-
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool (SPMT) will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Microsoft 365.
 
 **SPMT** lets you migrate content to SharePoint Online and OneDrive from the following locations:
@@ -41,6 +32,9 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 - SharePoint Server 2010
 - SharePoint Foundation 2010
 - Network and local file shares
+
+>[!Note]
+>Learn more about how to migrate your file shares with [Migration Manager](mm-get-started.md).
   
 </br></br>
 
