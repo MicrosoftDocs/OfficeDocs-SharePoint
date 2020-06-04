@@ -22,19 +22,43 @@ description: "Learn about associating segments with a OneDrive, and what happens
 
 # Use information barriers with OneDrive
 
-Information barriers are policies in Microsoft 365 that an admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as the financial and legal industries. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
+Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
-The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that allows Sales and Research to communicate with HR, but not with each other. 
+The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. 
 
-![Example of segments in an organization](media/info-barriers-segments-example.png)
-
-With information barriers in OneDrive, when a segment is applied to a user, within 24 hours that segment is automatically associated with the user's OneDrive. Other segments that are all compatible with each other are also added. In the above example, the HR segment is compatible with both Sales and Research. However, the Sales and Research segments are incompatible. They can't be associated with the same OneDrive. In this example, a user in Sales or Research would automatically have the HR segment associated with their OneDrive. For the user in HR, only the HR segment would be associated with their OneDrive because the Sales and Research segments aren't compatible. 
+![Example of segments in an organization](/sharepoint/sharepointonline/media/info-barriers-segments-example.png)
 
 ## Prerequisites
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- Complete the form to enable information barriers in your organization. 
-- Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+- Complete the form to enable SharePoint and OneDrive information barriers in your organization. 
+- Create segments and define the users in each. Create policies that block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+ 
+With information barriers in OneDrive, when a segment is applied to a user, within 24 hours that segment is automatically associated with the user's OneDrive. If compatible segments are also all compatible with each other, they will be automatically associated with the OneDrive. If any segments are incompatible with each other, only the user's segment will be automatically associated. 
+
+In the above example, the HR segment is compatible with both Sales and Research. However, the Sales and Research segments are incompatible. In this case, the OneDrive for a user in Sales will have the Sales and HR segments, and the OneDrive for a user in Research will have the Research and HR segments. The OneDrive of a user in HR will have only the HR segment because Sales and Research are incompatible.
+
+When these segments are associated with the OneDrive, content can be shared with and accessed by only users who have a matching segment.
+
+## Sharing files from a OneDrive that has segments associated
+
+When a segment is associated with a OneDrive:
+
+- The option to share with "Anyone with the link" is disabled.
+- Files and folders can be shared only with users whose segment matches that of the OneDrive. In the above example, users in the Sales segment can share OneDrive content with other users in either the Sales or HR segment whereas users in the HR segment can share their OneDrive content with other users in the HR segment only. 
+
+When a OneDrive has no segments associated: 
+
+- The user can share files and folders based on the information barriers policy applied to the user and the sharing setting for the OneDrive. 
+
+## Accessing shared files from a OneDrive that has segments associated
+
+For a user to access content in a OneDrive associated with segments:
+
+- The user's segment must match a segment that is associated with the OneDrive.
+- The files must be shared with the user. 
+
+Non-segment users can access shared OneDrive files only from other non-segment users. They can't access shared OneDrive files from users who have a segment applied. 
 
 ## Use PowerShell to view the segments associated with a OneDrive
 
@@ -82,51 +106,42 @@ To associate a segment with a OneDrive, run the following command in the SharePo
 Set-Sposite -Identity <site URL> -AddInformationSegment <segment GUID> 
  ```
 
-Example: 
-Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
+Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
 -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
 
 An error will appear if you attempt to associate a segment that isn't compatible with the existing segments. 
 
 To remove segment from a OneDrive, run the following command.  
 
-Syntax:  
 
 ```PowerShell
 Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
  ``` 
 
-Example:  
-Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
+Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
 -RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
 
-## Sharing files from a OneDrive that has segments associated
 
-When a segment is associated with a OneDrive:
 
-- The option to share with "Anyone with the link" is disabled.
-- Files and folders can be shared only with users whose segment matches that of the OneDrive. In the above example, even though users in HR are allowed to communicate with users in Sales and Research, they can share their OneDrive files only with users in HR. 
+## Effects of changing information barriers policies or a user's segment 
 
-When a OneDrive has no segments associated: 
-
-- The user can share files and folders based on the information barriers policy applied to the user and the sharing setting for the OneDrive. 
-
-## Accessing shared files from a OneDrive that has segments associated
-
-For a user to access another person's OneDrive files:
-
-- The user's segment must match a segment that is associated with the OneDrive.
-- The files must be shared with the user. 
-
-Non-segment users can access shared OneDrive files only from other non-segment users. They can't access shared OneDrive files from users who have a segment applied. 
-
-## Effects of changing segments and policies
+If a policy changes after files are shared, the sharing links will work only if the user attempting to access the shared files has a segment applied that matches a segment associated with the OneDrive.
 
 If a user’s segment changes, the segment associated with their OneDrive will be automatically updated to match within 24 hours, and any compatible segments will be added.
-
-If files were previously shared, links will work only if the person accessing the shared files has a segment applied that matches a segment associated with the OneDrive.
 
 ## Known issues
 
 - For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a OneDrive that has associated segments isn't supported. Remove any associated segments, move the OneDrive, and then reassociate the segments. 
 - Global admins can't use the Microsoft Graph Explorer to access a OneDrive that has associated segments.
+
+## Example
+
+The example at the beginning of this article illustrates an organization with three segments: HR, Sales, and Research. An information barriers policy blocks communication and collaboration between Sales and Research. The segment HR has no restriction. In addition, the organization has users with no segments applied. The following table shows the effects of this configuration.
+
+
+|  |HR users  |Sales users  |Research users  |Non-segment users  |
+|---------|---------|---------|---------|---------|
+|Segments associated with OneDrive     |    HR     |     Sales, HR    |    Research, HR     |   None     |
+|OneDrive content can be shared with     |    HR only     |    Sales and HR     |     Research and HR    |    Anyone based on the sharing settings selected     |
+|OneDrive content can be accessed by     |   HR only      |     Sales and HR    |    Research and HR     |    Anyone with whom the content has been shared     |
+|Teams 1 on 1 chat is allowed with     |   HR, Sales, Research, and non-segment users      |   Sales, HR, and non-segment users      |    Research, HR, and non-segment users     |   Anyone based on external or guest access settings in Teams      |
