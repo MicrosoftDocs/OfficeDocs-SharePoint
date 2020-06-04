@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about governance best practices in SharePoint."
+description: "Learn about governance best practices in SharePoint Online."
 ---
 
 # SharePoint governance overview

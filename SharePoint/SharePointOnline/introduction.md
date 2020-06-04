@@ -1,5 +1,5 @@
 ---
-title: "Introduction to SharePoint"
+title: "Introduction to SharePoint Online"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -23,9 +23,9 @@ ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
 description: "Learn about SharePoint in Microsoft 365, which is a cloud-based service that helps organizations share and manage content, and collaborate with others."
 ---
 
-# Introduction to SharePoint in Microsoft 365
+# Introduction to SharePoint Online
 
-Microsoft SharePoint is a cloud-based service that helps organizations share and manage content, knowledge, and applications to: 
+SharePoint Online is a cloud-based service that helps organizations share and manage content, knowledge, and applications to: 
 
 - Empower teamwork
 - Quickly find information
@@ -105,7 +105,7 @@ SharePoint provides a wide range of options for customization. We recommend usin
 
 ## Related topics
 
-[SharePoint Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
+[SharePoint Online Limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
 [Getting started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 

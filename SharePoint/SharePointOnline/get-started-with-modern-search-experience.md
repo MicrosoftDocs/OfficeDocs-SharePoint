@@ -50,7 +50,7 @@ Which search experience your users see depends on where they search from:
 **Microsoft search evolves** – The set of content types users can search for and the intelligence of the search box will grow over time. [Learn what's coming next in Microsoft search](https://aka.ms/MicrosoftSearch)
 
 ## When to use which search experience?
-Which experience your users see depends on whether your organization mostly uses classic or modern sites.  If you believe that Microsoft search in SharePoint gives your users the best experience, [learn how to get started with Microsoft search in SharePoint](https://docs.microsoft.com/microsoftsearch/get-started-search-in-sharepoint-online).
+Which experience your users see depends on whether your organization mostly uses classic or modern sites.  If you believe that Microsoft search in SharePoint gives your users the best experience, [learn how to get started with Microsoft search in SharePoint Online](https://docs.microsoft.com/microsoftsearch/get-started-search-in-sharepoint-online).
 
 ### Should you use the Search Center or the SharePoint start page as your portal?
 If you need custom refiners or search verticals for organization-specific content, or you need to display results for organization-specific content differently than other content. Use the Search Center (classic search) as your portal. If not, we recommend promoting the SharePoint start page (Microsoft search) to your users.

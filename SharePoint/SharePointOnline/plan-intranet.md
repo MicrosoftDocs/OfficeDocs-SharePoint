@@ -25,7 +25,7 @@ description: "Learn about how to plan a new SharePoint intranet with focus on br
 
 # Plan an intelligent SharePoint intranet
 
-Microsoft SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
+SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
 
 We'll cover how to:
 
@@ -41,7 +41,7 @@ We'll cover how to:
 
 With SharePoint, any user can create highly functional intranet pages quickly without the need for writing code or other difficult customizations. These sites look great on any device or screen and provide deeply engaging experiences for your users.
 
-If you're currently using SharePoint Server for your intranet, you'll find SharePoint in Microsoft 365 to be much easier to work with. Responsive, dynamic pages are easy for anyone to create, and the requirements for IT to build and maintain custom solutions are much less.
+If you're currently using SharePoint Server for your intranet, you'll find SharePoint Online to be much easier to work with. Responsive, dynamic pages are easy for anyone to create, and the requirements for IT to build and maintain custom solutions are much less.
 
 As a first step, to see examples of what's possible with SharePoint, we recommend that you review the [SharePoint look book](https://aka.ms/sharepointlookbook). The look book provides a variety of examples about how to include news, events, resources, and personalized content in SharePoint sites that anyone can create and maintain.
 

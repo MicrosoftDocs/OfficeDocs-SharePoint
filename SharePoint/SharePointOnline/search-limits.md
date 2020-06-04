@@ -1,5 +1,5 @@
 ---
-title: "Search limits for SharePoint"
+title: "Search limits for SharePoint Online"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,12 +13,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 7c06e9ed-98b6-4304-a900-14773a8fa32f
-description: "Learn about Search limits for SharePoint"
+description: "Learn about Search limits for SharePoint Online"
 ---
 
-# Search limits for SharePoint
+# Search limits for SharePoint Online
 
-As an admin who manages SharePoint (for more info, see [SharePoint search administration overview](manage-search-the-admin-center.md)), you should also be aware of limits to search. For example, there are limits to the number of entries you can have in a custom search dictionary or the number of rows that are returned as part of a search.
+As an admin who manages SharePoint Online (for more information, see [SharePoint Online search administration overview](manage-search-the-admin-center.md)), you should also be aware of limits to search. For example, there are limits to the number of entries you can have in a custom search dictionary or the number of rows that are returned as part of a search.
   
 There are two types of limits:
   
@@ -26,9 +26,9 @@ There are two types of limits:
 - **Supported** A recommended number, based on testing that Microsoft has done, that shouldn't be exceeded.
     If you exceed a supported limit, you might encounter unexpected results or see a significant decrease in performance.
   
-These limits apply to all SharePoint plans.
+These limits apply to all SharePoint Online plans.
   
-The following table lists the limits for SharePoint search.
+The following table lists the limits for SharePoint Online search.
   
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
@@ -53,7 +53,7 @@ The following table lists the limits for SharePoint search.
 
 ## See also
   
-- [SharePoint Limit](https://go.microsoft.com/fwlink/p/?LinkID=856113)
-- [SharePoint Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
+- [SharePoint Online Limit](https://go.microsoft.com/fwlink/p/?LinkID=856113)
+- [SharePoint Online Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
 - [Overview of the search schema in SharePoint Server 2013](/SharePoint/search/search-schema-overview)
 - [SharePoint feature availability across Office 365 plans](/office365/servicedescriptions/sharepoint-online-service-description/search#bkmk_searchfeaturessp)

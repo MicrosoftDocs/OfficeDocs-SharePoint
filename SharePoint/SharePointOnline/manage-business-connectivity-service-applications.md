@@ -21,7 +21,7 @@ description: "Learn how to create BCS connections to data sources, such as SQL A
 
 # Manage Business Connectivity Service Applications
 
-In SharePoint for Microsoft 365, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information in the SharePoint admin center. Microsoft SharePoint uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. See also [Deploy a Business Connectivity Services hybrid solution in SharePoint](/sharepoint/hybrid/deploy-a-business-connectivity-services-hybrid-solution).
+In SharePoint Online, you can create Business Connectivity Services (BCS) connections to data sources, such as SQL Azure databases or Windows Communication Foundation (WCF) web services, that are outside the SharePoint site. Once you've created these connections, you can manage or edit BCS information in the SharePoint admin center. SharePoint Online uses BCS together with Secure Store Services to access and retrieve data such as BDC Models from external data systems. See also [Deploy a Business Connectivity Services hybrid solution in SharePoint](/sharepoint/hybrid/deploy-a-business-connectivity-services-hybrid-solution).
   
 ## Manage BCS permissions
 <a name="__toc338059706"> </a>
@@ -32,7 +32,7 @@ After setup is complete, user permissions control access to the data that the co
     
 - Metadata Store permissions
     
-![The Edit ribbon in Business Connectivity Settings, showing BDC model Import button and permissions settings.](media/d78e7a3f-6199-4c5e-bbfd-dfa8d05c9826.png)
+![A screenshot of the Edit ribbon in Business Connectivity Settings, showing BDC model Import button and permissions settings.](media/d78e7a3f-6199-4c5e-bbfd-dfa8d05c9826.png)
   
 ### Object permissions
 <a name="__toc338059707"> </a>
@@ -54,7 +54,7 @@ To set object permissions for an object, follow these steps.
     
 5. On the ribbon, select **Set Object Permissions**.
     
-    ![A screenshot of the Set Object Permissions dialog for Business Connectivity Services in SharePoint.](media/6af13f29-5126-470e-b2b9-a59d0ad569ca.png)
+    ![A screenshot of the Set Object Permissions dialog for Business Connectivity Services in SharePoint Online.](media/6af13f29-5126-470e-b2b9-a59d0ad569ca.png)
   
 6. Enter a user account or group name in the text box, and then select **Add**. You can also select **Browse** to look for the name that you want. 
     
@@ -113,7 +113,7 @@ You can import or export two types of model files:
  **Resource** Exports the localized names, properties, and permissions for a selected system. 
   
 > [!NOTE]
->  You can create a BDC Model using XML code. If you do so, it's important to know that you cannot use the authentication modes **RevertToSelf** and **PassThrough** with SharePoint. Although you might be able to import a BDC Model that was written in XML, the connection will not be usable. 
+>  You can create a BDC Model using XML code. If you do so, it's important to know that you cannot use the authentication modes **RevertToSelf** and **PassThrough** with SharePoint Online. Although you might be able to import a BDC Model that was written in XML, the connection will not be usable. 
   
 ### Import a BDC Model
 <a name="__toc338059710"> </a>
@@ -299,7 +299,7 @@ Depending on the type of BCS connection, the property settings can include any c
 #### Configure property settings
 <a name="__migbm_1"> </a>
 
-If you point to an External System Name, you can open a shortcut menu that includes a **Settings** command. This is useful for SharePoint connections that use Windows Communication Foundation (WCF) Web Services. By selecting the **Settings** option from the menu, you can configure any of the following settings: 
+If you point to an External System Name, you can open a shortcut menu that includes a **Settings** command. This is useful for SharePoint Online connections that use Windows Communication Foundation (WCF) Web Services. By selecting the **Settings** option from the menu, you can configure any of the following settings: 
   
 - Metadata Exchange URL
     
