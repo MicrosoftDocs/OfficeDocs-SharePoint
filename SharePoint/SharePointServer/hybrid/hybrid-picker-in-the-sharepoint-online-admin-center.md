@@ -32,7 +32,7 @@ description: Learn how to use the Hybrid Picker wizard in the SharePoint admin c
 
 Hybrid Picker is a wizard that can be downloaded to your SharePoint Server from Microsoft 365. The wizard helps automate certain configuration steps needed to connect your on-premises SharePoint Server environment with SharePoint in Microsoft 365. The Hybrid Picker wizard is your assistant, designed to do some of the work for you.
 
-Use the Hybrid Picker wizard to redirect OneDrive to SharePoint, leverage hybrid site features or app launcher, and add some extra integration between on-premises SharePoint Server and an extranet site made in Microsoft 365. Hybrid Picker also creates a Server-to-Server (S2S)/OAuth connection for your [SharePoint Hybrid features](sharepoint-hybrid-sites-and-search.md).
+Use the Hybrid Picker wizard to redirect OneDrive to Microsoft 365, leverage hybrid site features or app launcher, and add some extra integration between on-premises SharePoint Server and an extranet site made in Microsoft 365. Hybrid Picker also creates a Server-to-Server (S2S)/OAuth connection for your [SharePoint Hybrid features](sharepoint-hybrid-sites-and-search.md).
 
 ## Using the Hybrid Picker
 

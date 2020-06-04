@@ -79,14 +79,14 @@ In this section, you record information about URLs and host names in your enviro
 
 This section helps you plan the architecture of the SharePoint Server web applications that you will use in your hybrid environment.
   
-Inbound connectivity requires a secure communication channel between the on-premises SharePoint Server farm and SharePoint. Data is exchanged between a site collection in SharePoint and an on-premises web application over this communication channel.
+Inbound connectivity requires a secure communication channel between the on-premises SharePoint Server farm and SharePoint in Microsoft 365. Data is exchanged between a site collection in SharePoint and an on-premises web application over this communication channel.
   
-SharePoint sends requests to a reverse proxy server that relays the requests to a specific web application in the on-premises SharePoint Server farm that is configured for SharePoint hybrid. We refer to this as the primary web application.
+SharePoint in Microsoft 365 sends requests to a reverse proxy server that relays the requests to a specific web application in the on-premises SharePoint Server farm that is configured for SharePoint hybrid. We refer to this as the primary web application.
   
 > [!TIP]
 > Regardless of how many hybrid solutions that you plan to configure, you typically will use only one primary web application. You don't have to create extra primary web applications for each additional hybrid solution. 
   
-Both the primary web application and a single site collection within the primary web application must be configured to accept inbound connections from SharePoint. 
+Both the primary web application and a single site collection within the primary web application must be configured to accept inbound connections from SharePoint in Microsoft 365. 
   
 The SharePoint admin associates the services and connection objects that are needed to support the hybrid solutions that are being deployed with the primary web application. Outbound connections can be made from any on-premises SharePoint Server web application by using the feature-specific configurations.
   
@@ -158,7 +158,7 @@ Site collections used for hybrid functionality must meet all these requirements,
     
   - **If the public URL is different from the External URL:**
     
-    You need to configure an alternate access mapping (AAM) to relay inbound requests from SharePoint.
+    You need to configure an alternate access mapping (AAM) to relay inbound requests from SharePoint in Microsoft 365.
     
     Extend the primary web application and use the External URL as the **Public URL**. Then create an Internal URL (via **Add Internal URLs**) in the same security zone as the extended web application to use as a bridging URL. You will also configure the reverse proxy device to relay inbound requests from SharePoint to this bridging URL.
     

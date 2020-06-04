@@ -28,13 +28,13 @@ description: "Configure a SharePoint hybrid environment so that user searches fr
   
 This article describes how to configure a hybrid SharePoint environment so that searches from the SharePoint enterprise Search Center display hybrid results; that is, results from both search indexes (SharePoint in Microsoft 365 and SharePoint Server). This configuration is called inbound hybrid search. 
   
-The search results from SharePoint Server appear with the search results from SharePoint Server, but in a separate group called a result block. You can configure the block of results from SharePoint Server to appear above all the results from SharePoint, or to be ranked by relevance compared to the SharePoint results.
+The search results from SharePoint Server appear with the search results from SharePoint Server, but in a separate group called a result block. You can configure the block of results from SharePoint Server to appear above all the results from SharePoint in Microsoft 365, or to be ranked by relevance compared to the results from SharePoint in Microsoft 365.
   
-To display hybrid search results in the SharePoint Search Center, in SharePoint you perform the following procedures, which are described in detail in this article:
+To display hybrid search results in the SharePoint Search Center, follow these steps:
   
 - [Step 1: Create a result source that defines how to get search results from the SharePoint Server 2013 deployment](display-hybrid-federated-search-results-in-sharepoint-online.md#section1)
     
-- [Step 2: Create a query rule to turn on hybrid search results in SharePoint](display-hybrid-federated-search-results-in-sharepoint-online.md#section2)
+- [Step 2: Create a query rule to turn on hybrid search results in SharePoint for Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md#section2)
     
 - [Step 3: Test your configuration for displaying search results from SharePoint Server 2013 in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md#section3)
     
@@ -43,7 +43,7 @@ To display hybrid search results in the SharePoint Search Center, in SharePoint 
 ## Step 1: Create a result source that defines how to get search results from the SharePoint Server 2013 deployment
 <a name="section1"> </a>
 
-In this procedure, you create a result source in SharePoint. This result source is a definition that specifies SharePoint Server as a provider to get search results from. This definition specifies each of the following:
+In this procedure, you create a result source in SharePoint for Microsoft 365. This result source is a definition that specifies SharePoint Server as a provider to get search results from. This definition specifies each of the following:
   
 - The protocol for getting search results from the SharePoint Server deployment.
     
@@ -211,9 +211,9 @@ Use the following procedure to validate your configuration for viewing search re
 ## Step 4: Try a search from the SharePoint Search Center
 <a name="section4"> </a>
 
-To validate your configuration for displaying search results from both SharePoint Server and SharePoint in Microsoft 365 in the SharePoint Search Center, you can log on to SharePoint as a federated user and try some searches from the enterprise Search Center. Use the following procedure to validate your configuration in this way.
+To validate your configuration for displaying search results from both SharePoint Server and SharePoint in Microsoft 365 in the SharePoint Search Center, you can sign in to SharePoint as a federated user and try some searches from the enterprise Search Center. Use the following procedure to validate your configuration in this way.
   
-1. Log on to SharePoint as a federated user who has been activated in SharePoint, and who has permissions to view the root site collection there.
+1. Sign in to SharePoint as a federated user who has been activated in SharePoint, and who has permissions to view the root site collection there.
     
 2. Go to the enterprise Search Center in SharePoint.
     
@@ -223,13 +223,13 @@ To validate your configuration for displaying search results from both SharePoin
     
    - In the search box, enter a test query, such as the name of your company.
     
-    Make sure that the test query should yield search results from the SharePoint Server search index and the SharePoint search index.
+    Make sure that the test query should yield search results from the SharePoint Server search index and the search index for SharePoint in Microsoft 365.
     
    - Select the search icon, or press Enter.
     
    - Select a search vertical that uses a result source that you specified in step 5c of the second procedure in this article ([Step 2: Create a query rule to turn on hybrid search results in SharePoint](display-hybrid-federated-search-results-in-sharepoint-online.md#section2)), such as **Local SharePoint Results**. That is, select a search vertical that you specified on the **Add Query Rule** page, in the **Context** section, under **Query is performed on these sources**.
     
-4. On the search results page, you should see results from the SharePoint search index and a result block from the SharePoint Server search index.
+4. On the search results page, you should see results from the search index for SharePoint in Microsoft 365 and a result block from the SharePoint Server search index.
     
     > [!NOTE]
     > To view the target of a search result that is from content in the SharePoint Server farm, a user must have at least Read permission for the root site collection in the primary web application. (In a SharePoint hybrid environment, the primary web application is in the SharePoint Server farm and is used to receive all connections from Microsoft 365. For more information about the primary web application, see [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md).) 

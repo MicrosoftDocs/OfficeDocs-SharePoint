@@ -93,7 +93,7 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
   
  **Removal of on-premises search results** - In Central Administration in SharePoint Server you can select a Search service application and use the option "Index reset" to remove all content from the search index. This option does not work for cloud hybrid search because there is no direct communication between the cloud Search service application in SharePoint Server 2013 or SharePoint Server 2016 and the search index in Office 365. If you only want to remove some on-premises metadata from the Microsoft 365 search index, remove that on-premises content source, or create a crawl rule that doesn't crawl the URL of a file. If you need to remove all metadata from on-premises content from the search index in Office 365, open a ticket with Microsoft Support. 
   
- **Usage reports** - Usage reports are based on information about the crawled content and user actions on the SharePoint site. The cloud Search service application in SharePoint Server 2013 or SharePoint Server 2016 doesn't communicate with the usage analytics in SharePoint, so usage reports in SharePoint in Microsoft 365 don't contain information about user actions on sites in SharePoint Server 2013 or SharePoint Server 2016. 
+ **Usage reports** - Usage reports are based on information about the crawled content and user actions on the SharePoint site. The cloud Search service application in SharePoint Server 2013 or SharePoint Server 2016 doesn't communicate with the usage analytics in SharePoint for Microsoft 365, so usage reports in SharePoint for Microsoft 365 don't contain information about user actions on sites in SharePoint Server 2013 or SharePoint Server 2016. 
   
 ### Search features that aren't available with cloud hybrid search
 
@@ -120,11 +120,11 @@ The crawler can crawl the same default file types as in earlier SharePoint Serve
   
 ### The search schema in SharePoint in Microsoft 365
 
-You manage the search schema in SharePoint, see [Manage the Search Center in SharePoint](/sharepoint/manage-search-center).
+You manage the search schema in SharePoint for Microsoft 365, see [Manage the Search Center in SharePoint](/sharepoint/manage-search-center).
   
 The default mappings between crawled and managed properties in the search schema in Microsoft 365 also apply to the on-premises content. As long as you don't remove your existing, standard SSA, you can still set up a search schema in SharePoint Server, but this search schema won't apply to your on-premises content that the cloud SSA crawls.
   
-In the user interface for managing the search schema in SharePoint, you can't see the difference between the origin of properties such as categories, crawled properties, and automatically created managed properties. 
+In the user interface for managing the search schema in SharePoint for Microsoft 365, you can't see the difference between the origin of properties such as categories, crawled properties, and automatically created managed properties. 
   
 For content that's stored in Microsoft 365, you can customize the search schema at the tenant and the site collection level. For content that's stored on-premises, you can only customize the search schema at the tenant level. In the search index, metadata for content that's stored on-premises has the managed property ** IsExternalContent ** set to true. 
   
@@ -147,7 +147,7 @@ Here's how it works:
   
 - On-premises content (1) is crawled by the crawler in the cloud SSA (2) and pushed to the search index in Office 365 (3).
     
-- Users enter a query (4) in the SharePoint Search Center, the query is sent to the search index in Office 365 (3), and results are returned to the SharePoint Search Center (4).
+- Users enter a query (4) in the SharePoint Search Center, the query is sent to the search index in Microsoft 365 (3), and results are returned to the SharePoint Search Center (4).
     
 - If necessary, you can set up site search in SharePoint Server 2013 or SharePoint Server 2016 to get search results from your search index in Office 365. Users enter a query in an on-premises site search box (5) and the query is sent via the server with the cloud SSA (2) to the search index in Office 365 (3). Results are returned via the server with the cloud SSA (2) to the on-premises site search box (5).
     
