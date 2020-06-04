@@ -15,6 +15,10 @@ description: "How to Migrate from On-premises File Shares to Microsoft 365"
 ---
 # How to migrate from on-premises file shares to Microsoft 365
 
+>[!Note]
+> Learn more about using Migration Manager for your file share migration:  [Get started with Migration Manager](mm-get-started.md)
+
+
 ## Introduction
 
 Our purpose is to act as an intermediary between various web technologies that don't play nice together. We take your files from one place and copy them to another. No downloads and nothing to watch over—our web-hosted app does all the work!
