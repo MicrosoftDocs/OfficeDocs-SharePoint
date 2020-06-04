@@ -28,9 +28,7 @@ SharePoint Server automatically creates a query suggestion when users have click
 In this article, you'll learn:
   
 - [How to create a query suggestions file](create-and-import-query-suggestions.md#BKMK_HowToCreateAQuerySuggestionsFile)
-    
-- [How to import a query suggestions file to SharePoint Server](create-and-import-query-suggestions.md#BKMK_HowToImportQuerySuggestionsFileToSharepointOnline)
-    
+      
 - [How to import a query suggestions file to SharePoint Server](create-and-import-query-suggestions.md#BKMK_HowToImportQuerySuggestionsFileToSharepointServer2013)
     
 - [How to verify that your query suggestions are working](create-and-import-query-suggestions.md#BKMK_HowToVerifyThatYourQuerySuggestionsAreWorking)
