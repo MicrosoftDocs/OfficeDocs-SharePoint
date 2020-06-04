@@ -120,7 +120,7 @@ To specify from which existing managed property custom entities should be extrac
     
 7. On the Edit Managed Property page, edit the settings under **Custom entity extraction**. Select the custom entity extraction dictionary that you have imported, and then click **OK**.
     
-After the next full crawl has completed, the custom entity extractor is enabled. The original managed property content is saved unchanged in the search index. In addition, depending on the type of custom entity extractor you have enabled, the extracted entities are copied to one or more of the following managed properties:WordCustomRefiner1, WordCustomRefiner2, WordCustomRefiner3, WordCustomRefiner4, WordCustomRefiner5WordExactCustomRefinerWordPartCustomRefiner1, WordPartCustomRefiner2, WordPartCustomRefiner3. WordPartCustomRefiner4, WordPartCustomRefiner5WordPartExactCustomRefinerThese managed properties are automatically configured to be searchable, queryable, retrievable, sortable and refinable.
+After the next full crawl has completed, the custom entity extractor is enabled. The original managed property content is saved unchanged in the search index. In addition, depending on the type of custom entity extractor you have enabled, the extracted entities are copied to one or more of the following managed properties: WordCustomRefiner1, WordCustomRefiner2, WordCustomRefiner3, WordCustomRefiner4, WordCustomRefiner5, WordExactCustomRefiner, WordPartCustomRefiner1, WordPartCustomRefiner2, WordPartCustomRefiner3, WordPartCustomRefiner4, WordPartCustomRefiner5, WordPartExactCustomRefiner. These managed properties are automatically configured to be searchable, queryable, retrievable, sortable and refinable.
   
 ## Configure a refiner in the Web Part
 <a name="proc4"> </a>
