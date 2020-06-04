@@ -21,7 +21,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: 7b087413-165a-4e94-8871-4393e0b9c037
-description: "Learn how to use Microsoft 365 SharePoint and OneDrive as a Business to Business (B2B) extranet solution"
+description: "Learn how to use SharePoint and OneDrive in Microsoft 365 as a Business to Business (B2B) extranet solution"
 ---
 
 # Use SharePoint as a business-to-business (B2B) extranet solution
