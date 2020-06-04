@@ -129,7 +129,7 @@ Installing the OneDrive app on a mobile device is simple: download the app from 
 
 To learn how to perform tasks in OneDrive on an iOS device, see [Use OneDrive on iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-a244-fe3597a3c247). 
 
-To learn how to perform tasks in OneDrive on an iOS device, see [Use OneDrive on Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36). 
+To learn how to perform tasks in OneDrive on an Android device, see [Use OneDrive on Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36). 
 
 ## Manage OneDrive
 
