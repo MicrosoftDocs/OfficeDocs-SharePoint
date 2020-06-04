@@ -24,7 +24,7 @@ description: "Learn about associating segments with a OneDrive, and what happens
 
 Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
-The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. 
+The following image illustrates three segments in an organization: HR, Sales, and Research. An information barriers policy has been defined that blocks communication and collaboration between the Sales and Research segments. 
 
 ![Example of segments in an organization](/sharepoint/sharepointonline/media/info-barriers-segments-example.png)
 
@@ -142,4 +142,4 @@ The example at the beginning of this article illustrates an organization with th
 |Segments associated with OneDrive     |    HR     |     Sales, HR    |    Research, HR     |   None     |
 |OneDrive content can be shared with     |    HR only     |    Sales and HR     |     Research and HR    |    Anyone based on the sharing settings selected     |
 |OneDrive content can be accessed by     |   HR only      |     Sales and HR    |    Research and HR     |    Anyone with whom the content has been shared     |
-|Teams 1 on 1 chat is allowed with     |   HR, Sales, Research, and non-segment users      |   Sales, HR, and non-segment users      |    Research, HR, and non-segment users     |   Anyone based on external or guest access settings in Teams      |
+|Teams 1:1 chat is allowed with     |   HR, Sales, Research, and non-segment users      |   Sales, HR, and non-segment users      |    Research, HR, and non-segment users     |   Anyone based on external or guest access settings in Teams      |

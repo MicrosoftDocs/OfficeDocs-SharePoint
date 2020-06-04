@@ -22,7 +22,7 @@ description: "Learn about associating segments with a site, and what happens whe
 
 Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
-The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. These segments are incompatible. 
+The following image illustrates three segments in an organization: HR, Sales, and Research. An information barriers policy has been defined that blocks communication and collaboration between the Sales and Research segments. These segments are incompatible. 
 
 ![Example of segments in an organization](media/info-barriers-segments-example.png)
 
