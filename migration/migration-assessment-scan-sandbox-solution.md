@@ -29,9 +29,9 @@ Learn how to mitigate issues with Sandbox solutions during migration.
 ## Overview
 
 > [!IMPORTANT]
-> SharePoint does not support Sandbox solutions. 
+> SharePoint Online does not support Sandbox solutions. 
   
-SharePoint does not support sandbox solutions. As a result, any functionality that is using the sandbox in your current environment will need to be replaced with a supported technology. See the Office Dev Center Patterns and Practices site for information on building customizations.
+SharePoint Online does not support sandbox solutions. As a result, any functionality that is using the sandbox in your current environment will need to be replaced with a supported technology. See the Office Dev Center Patterns and Practices site for information on building customizations.
   
 https://dev.office.com/patterns-and-practices
   

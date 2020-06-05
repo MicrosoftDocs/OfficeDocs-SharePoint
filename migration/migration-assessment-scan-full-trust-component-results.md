@@ -26,25 +26,24 @@ ms.assetid: cb46c965-ad8b-4276-9f2c-5d684eb0f62a
 
 ## Overview
 
-The full trust solution scans check your SharePoint environment for references to code that was deployed via farm level solution packages [WSP] files. SharePoint does not support full trust solutions and as a result it will be necessary to understand where you are using this type of functionality and come up with a plan for migration to SharePoint.
+The full trust solution scans check your SharePoint environment for references to code that was deployed via farm level solution packages [WSP] files. SharePoint Online does not support full trust solutions and as a result it will be necessary to understand where you are using this type of functionality and come up with a plan for migration to SharePoint Online
   
 ## Migrate data
 
-Content is migrated to SharePoint, however functionality tied to full trust code will not function post migration. You may see failures when leveraging some of the content that relies on the full trust code that is no longer available post migration.
+Content is migrated to SharePoint Online, however functionality tied to full trust code will not function post migration. You may see failures when leveraging some of the content that relies on the full trust code that is no longer available post migration.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
   
 ## Prepare for migration
 
-Determine the various reasons full trust code was used in your on premises environment. Build out a plan to replace the key business scenarios with SharePoint functionality. It may be necessary to build customizations or leverage add-ins to cover all scenarios.
+Determine the various reasons full trust code was used in your on premises environment. Build out a plan to replace the key business scenarios with SharePoint Online functionality. It may be necessary to build customizations or leverage add-ins to cover all scenarios.
   
-
-If you find there is not an equivalent solution provided in SharePoint, you may want to look into customizing SharePoint by following the [Microsoft 365 patterns and practices documentation](/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance).
+If you find there is not an equivalent solution provided in SharePoint Online, you may want to look into customizing SharePoint Online by following the [Microsoft 365 patterns and practices documentation](https://docs.microsoft.com/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance).
   
 ## Post-migration
 
-Once the content migration is complete, implement the plan that was built during "Preparing for Migration". This could involve deploying customizations, add-ins, or enabling functionality on the sites via the SharePoint interface.
+Once the content migration is complete, implement the plan that was built during "Preparing for Migration". This could involve deploying customizations, add-ins, or enabling functionality on the sites via the SharePoint Online interface.
   
 ## Detailed output
 

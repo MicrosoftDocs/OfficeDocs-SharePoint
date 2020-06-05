@@ -16,9 +16,9 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "Now you can use the SharePoint Migration tool to migrate content to your own OneDrive for free."
+description: "Now you can use the SharePoint Migration tool to migrate content to your own OneDrive for business for free."
 ---
-# Migrate content to Microsoft OneDrive 
+# Migrate content to OneDrive for Business 
  
 ## Migrate to OneDrive for FREE
 

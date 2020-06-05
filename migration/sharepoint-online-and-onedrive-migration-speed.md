@@ -1,5 +1,5 @@
 ---
-title: "Migration performance guide for SharePoint & OneDrive - SharePoint"
+title: "Migration performance guide for SharePoint & OneDrive - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,13 +16,13 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 search.appverid: MET150
-description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Migration API."
+description: "This article explains the factors that influence migration speed at each phase while using the SharePoint Online Migration API."
 ---
 
 # General migration performance guidance
 
 >[!Important]
->Many SharePoint and OneDrive customers run business-critical applications against the service that run in the background.  These include content migration, Data Loss Prevention (DLP), and backup solutions.  During these unprecedented times, we are taking steps to ensure that SharePoint and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
+>Many SharePoint Online and OneDrive customers run business-critical applications against the service that run in the background.  These include content migration, Data Loss Prevention (DLP), and backup solutions.  During these unprecedented times, we are taking steps to ensure that SharePoint Online and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
 >
 >In support of this objective, we have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours.  You should expect that these apps will achieve very limited throughput during these times.  However, **during evening and weekend hours** for the region, the service will be ready to process a significantly higher volume of requests from background apps.
 
@@ -30,7 +30,7 @@ description: "This article explains the factors that influence migration speed a
 >**Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Opening a support ticket will not lift throttle. See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section below for additional information.
 
 
-This article explains the factors that influence performance when migrating content to SharePoint and OneDrive.
+This article explains the factors that influence performance when migrating content to SharePoint Online and OneDrive.
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.
 
@@ -63,7 +63,7 @@ The following table provides estimates of the type of speed you may achieve base
 
 - Files migrate faster than objects and list items.
 
-The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. In addition, ensure that your permissions, sharing, or other limits are set up properly for migration and are within [SharePoint limits and boundaries](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+The speed of this step depends on the efficiency of the tool you are using and the type of content that you package. Splitting your packages in a smart way is something that will greatly improve this step. In addition, ensure that your permissions, sharing, or other limits are set up properly for migration and are within [SharePoint Online limits and boundaries](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 >[!Note]
 > If you are planning to migrate over 100TB, review the following section, **Large Migration**.
@@ -74,28 +74,28 @@ The speed of this step depends on the efficiency of the tool you are using and t
 
 
 ### I. Upload to Azure
-SPMT or your third-party tool will migrate your content into SharePoint using the Migration API, leveraging Azure as a temporary holding place.
+SPMT or your third-party tool will migrate your content into SharePoint Online using the Migration API, leveraging Azure as a temporary holding place.
 
 If you have a good connection and can configure your datacenter, choose the same datacenter location closest geographically to you for your Azure and your Microsoft 365 account. 
-Migration data throughput is highest during off-peak hours, which are typically nights and weekends in your region's time zone. Your region's time zone is determined by where your SharePoint tenant is set up.
+Migration data throughput is highest during off-peak hours, which are typically nights and weekends in your region's time zone. Your region's time zone is determined by where your SharePoint Online tenant is set up.
 
 
 
 ### II. The Migration API
 
-The final step of the migration process is when the data is moved from Azure to SharePoint. This action is transparent to the user when using SPMT or a third- party tool.
+The final step of the migration process is when the data is moved from Azure to SharePoint Online. This action is transparent to the user when using SPMT or a third- party tool.
 
 To improve throughput, users are encouraged to run parallel tasks against different site collections if possible. We recommend that you do not submit more than 5,000 migration jobs/requests at one time. Over-queuing the network will create an extra load on the database and slow migration down. Make sure your task has completed before you upload a new migration request. Some tools may already be doing this for you.
 
-During migration, it is not uncommon for your migration task to be throttled. Throttling is implemented to ensure the best user experience and reliability of SharePoint. It is primarily used to load balance the database and can occur if you misconfigure migration settings, such as migrating all your content in a single task or attempting to migrate during peak hours. 
+During migration, it is not uncommon for your migration task to be throttled. Throttling is implemented to ensure the best user experience and reliability of SharePoint Online. It is primarily used to load balance the database and can occur if you misconfigure migration settings, such as migrating all your content in a single task or attempting to migrate during peak hours. 
 
 
 For more technical background and information, please see 
 - [Migration API Overview](https://docs.microsoft.com/sharepoint/dev/apis/migration-api-overview) 
-- [Avoid getting throttled or blocked in SharePoint](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
+- [Avoid getting throttled or blocked in SharePoint Online](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 
 ## After migration
-After the migration is completed, verify that your content has been successfully moved to SharePoint or OneDrive.
+After the migration is completed, verify that your content has been successfully moved to SharePoint Online or OneDrive.
 
 ## Large migrations over 100TB 
 
@@ -132,10 +132,10 @@ Follow these steps:
 ## FAQ and Troubleshooting
 
 **Question: I am experiencing poor performance or throttling during migration.**</br>
-Answer:  Please check the guidance in this document, plus refer to [Avoid getting throttled or blocked in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
+Answer:  Please check the guidance in this document, plus refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
 **Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**</br>
-Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and **opening a support ticket will not lift throttle**. Please refer to [Avoid getting throttled or blocked in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
+Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and **opening a support ticket will not lift throttle**. Please refer to [Avoid getting throttled or blocked in SharePoint Online](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
 </br></br>
 
 **Question: If you cannot turn off the throttle, what can I do if I am being throttled or experience poor performance?**</br>
@@ -208,5 +208,5 @@ We welcome feedback and encourage you to submit suggestions or questions that wi
  
 ## Related Topics
 
-[Avoid getting throttled or blocked in SharePoint](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
+[Avoid getting throttled or blocked in SharePoint Online](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 

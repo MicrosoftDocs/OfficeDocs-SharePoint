@@ -51,7 +51,7 @@ To manage the lock status on sites on the target environment, leverage the Share
     
 2. Download the cmdlets from the [SharePoint Online Management Shell download.](https://www.microsoft.com/download/details.aspx?id=35588) https://www.microsoft.com/download/details.aspx?id=35588 
     
-3. Launch SharePoint Online Management Shell
+3. Launch SharePoint Management Shell
     
 4. Run:  `Set-SPSite -LockStatus Unlock`
     
@@ -61,7 +61,7 @@ To manage the lock status on sites on the target environment, leverage the Share
     
 2. Download the cmdlets from the [SharePoint Online Management Shell download.](https://www.microsoft.com/download/details.aspx?id=35588) https://www.microsoft.com/download/details.aspx?id=35588 
     
-3. Launch SharePoint Online Management Shell
+3. Launch SharePoint Management Shell
     
 4. Run:  `Set-SPSite -LockStatus NoAccess`
     

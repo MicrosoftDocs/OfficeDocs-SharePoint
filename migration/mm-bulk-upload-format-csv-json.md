@@ -58,9 +58,9 @@ The following example uses Excel to create the CSV file.
     
   - **Column C:** Leave this column **blank**. This column does not apply to file share migration. 
     
-  - **Column D:** Enter the SharePoint site URL where the files are to be migrated.  *Required.* 
+  - **Column D:** Enter the SharePoint Online site URL where the files are to be migrated.  *Required.* 
     
-  - **Column E:** Enter the name of the document library in the SharePoint site where the files are to be migrated.  *Required.* 
+  - **Column E:** Enter the name of the document library in the SharePoint Online site where the files are to be migrated.  *Required.* 
     
   - **Column F:** Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  *Optional.* 
     

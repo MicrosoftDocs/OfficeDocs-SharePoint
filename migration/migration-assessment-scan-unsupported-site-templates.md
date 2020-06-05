@@ -27,7 +27,7 @@ Learn how to fix issues with Unsupported Site Templates during migration.
   
 ## Overview
 
-Every SharePoint site is based on a site template. In the SharePoint source environment, it was possible to create site collections using a variety of default templates as well as templates deployed via Full Trust Code (FTC). However, site collections that are supported for migration are the Team Site and Personal Site templates. The Personal Site Template is used for creating Microsoft OneDrive sites.
+Every SharePoint site is based on a site template. In the SharePoint source environment, it was possible to create site collections using a variety of default templates as well as templates deployed via Full Trust Code (FTC). However, site collections that are supported for migration are the Team Site and Personal Site templates. The Personal Site Template is used for creating OneDrive for Business sites.
   
 Supported Site Templates:
   

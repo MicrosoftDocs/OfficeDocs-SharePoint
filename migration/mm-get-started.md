@@ -1,5 +1,5 @@
 ---
-title: "Get started with Migration Manager  - SharePoint"
+title: "Get started with Migration Manager  - SharePoint Online"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

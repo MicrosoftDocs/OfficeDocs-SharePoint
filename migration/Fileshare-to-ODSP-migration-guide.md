@@ -55,7 +55,7 @@ When preparing for your file share migration, it is important to know what is be
 |File and folder structure|Windows hidden attributes on file and folder|
 |User level file and folder permissions|Explicit deny permissions|
 |Files under 15 GB|Inaccessible or corrupted documents| 
-|Site, document, and folder metadata|Files or folders exceeding current SharePoint restrictions and limitations|  
+|Site, document, and folder metadata|Files or folders exceeding current SharePoint Online restrictions and limitations|  
 
 
 ### What content goes where
@@ -75,7 +75,7 @@ How you have shared your files will dictate how they appear in the Shared with M
 
 Files and folders that you have opened from a shared location
 - After migration, the final permission level is determined by a mapping of the most restrictive share or NTFS permission level. 
-- A user's **Shared with me** folder in OneDrive won't be updated for source files shared with a group the user is a part of.
+- A user's **Shared with me** folder in OneDrive for Business won't be updated for source files shared with a group the user is a part of.
 - After migration, all advanced NTFS permissions are removed. For explicit deny permissions, this means the content is subject to parallel permissions or permission on the folder and parent level and may become accessible.
 
 |**Windows file share permissions**|**SharePoint item access**|**SharePoint role**|
@@ -103,8 +103,8 @@ Here are some of the more common issues that arise when preparing for migration:
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
 |**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](/sharepoint/security-considerations-of-allowing-custom-script)|
-|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Invalid file names and file types in OneDrive, OneDrive, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
-|**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
+|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Invalid file names and file types in OneDrive, OneDrive for Business, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint Online and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
+|**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint Online limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
 
 
 
@@ -155,7 +155,7 @@ FastTrack is a Microsoft service included in your subscription cost offering you
 
 Onboarding guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The [Data Migration](/fasttrack/O365-data-migration) benefit covers guidance on migrating content from file share, Box, or Google Drive source environments. 
 
-This guidance covers enablement of both OneDrive and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. For more details, see [FastTrack Center Benefit Overview](/fasttrack/O365-data-migration). Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
+This guidance covers enablement of both OneDrive for Business and the source environment. FastTrack will also perform specific data migration activities on behalf of the customer for those with 500 or more licenses. For more details, see [FastTrack Center Benefit Overview](/fasttrack/O365-data-migration). Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
 
 **Migration service providers**
 
@@ -179,6 +179,6 @@ Develop a plan to prepare your users for the upcoming change. Consideration fact
 - [Posters, email templates](https://fasttrack.microsoft.com/office365/resourcehub): customizable templates to generate internal awareness and excitement
 - [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1) video training
 - [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec) Quick start training guides: get up and running quickly with the basic info you need to be productive right away 
-- [SharePoint video training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)
+- [SharePoint Online video training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)
 - [Work together with OneDrive](https://support.office.com/article/626cff9f-9a56-472b-a77d-b019d97eec8d)
 - [Learn more about OneDrive](https://support.office.com/article/38acc14b-fd86-466e-b802-baece8107c86)

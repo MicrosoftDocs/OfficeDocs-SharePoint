@@ -238,9 +238,9 @@ Our authorization is lost when you delete the **Connector**, delete your account
 |:-----|:-----|
 |Azure Blob Storage|Azure Blob Storage Connector|
 |OneDrive Consumer|    OneDrive Consumer Connector|
-|OneDrive (Administrator)|    Microsoft 365 Connector|
-|OneDrive (User)|    OneDrive (User) Connector|
-|SharePoint|Microsoft 365 Connector|
+|OneDrive for Business (Administrator)|    Microsoft 365 Connector|
+|OneDrive for Business (User)|    OneDrive for Business (User) Connector|
+|SharePoint Online|Microsoft 365 Connector|
 
 ## Deleting connectors
 
@@ -507,9 +507,9 @@ The original timestamps from Egynte are preserved when migrating into Microsoft 
 
 When migrating from Egnyte into Microsoft 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
 
-### Does the Mover app interact with the sync client in OneDrive?
+### Does the Mover app interact with the sync client in OneDrive for Business?
 
-We do not interact with the sync client in **OneDrive**. Before a migration, We recommend disabling it. If you use it during a migration, it tries to sync all the migrating data.
+We do not interact with the sync client in **OneDrive for Business**. Before a migration, We recommend disabling it. If you use it during a migration, it tries to sync all the migrating data.
 
 ### What happens to shared data?
 
@@ -539,11 +539,11 @@ Both Modern and Classic sites are supported, and appear the same in our app.
 
 ### What will my file paths look like in SharePoint?
 
-During the migration setup (described later in this guide), you can edit the path(s) to specify where in SharePoint you would like your data to go. From the root level of SharePoint, you can go into **Site Collections**, and inside each **Site Collection**, directories for **Site Contents** and **Subsites** appear.
+During the migration setup (described later in this guide), you can edit the path(s) to specify where in SharePoint you would like your data to go. From the root level of SharePoint Online, you can go into **Site Collections**, and inside each **Site Collection**, directories for **Site Contents** and **Subsites** appear.
 
 **Site Contents** takes you to document libraries (for example, the **Documents** section), whereas **Subsites** takes you to the **Subsites** of that site collection. Navigating **Subsites** takes you through the same dichotomy.
 
-Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
+Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint Online does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
 ![File paths in SPO](media/filepaths-in-sp.png)
 
@@ -564,17 +564,17 @@ In the Library settings, visit **Permissions for this document library**:
 
 This prevents site members/visitors from inheriting permissions to all the data that we migrate into that library, while allowing permissions to only those site members who we explicitly write to the folders themselves.
 
-For more info about SharePoint permissions inheritance, see **here**.
+For more info about SharePoint Online permissions inheritance, see **here**.
 
 ### Does Mover support Microsoft Teams?
 
-Microsoft Teams appears and operates the same as a SharePoint site.
+Microsoft Teams appears and operates the same as a SharePoint Online site.
 
-### What is the item limit for SharePoint?
+### What is the item limit for SharePoint Online?
 
 Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
-SharePoint sites do have file size and number limits, which are covered in detail here: **SharePoint limits**.
+SharePoint sites do have file size and number limits, which are covered in detail here: **SharePoint Online limits**.
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
 
@@ -629,30 +629,30 @@ Our app requires an **Administrator** for authorization. The following table lis
 ### Authorizing Microsoft 365
 
 >[!Warning]
->To fully authorize the **Microsoft 365 Connector**, a global admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
+>To fully authorize the **Microsoft 365 Connector**, a Global Admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
 >
->The global admin must grant these permissions *after* the **Microsoft 365 Connector** is authorized within the main Mover app.
+>The Global Admin must grant these permissions *after* the **Microsoft 365 Connector** is authorized within the main Mover app.
 
 To complete the authorization steps in the right order, see the following instructions.
 
-A global or SharePoint admin can complete some steps in the authorization process. At the beginning of each step, we indicate who can complete it.
+A Global Admin or an SPO Admin can complete some steps in the authorization process. At the beginning of each step, we indicate who can complete it.
 
-1. **Global Admin or SharePoint Admin**: Via app.mover.io, log into the main Mover app. In the **Transfer Wizard**, select **Authorize New Connector**.
+1. **Global Admin or SPO Admin**: Via app.mover.io, log into the main Mover app. In the **Transfer Wizard**, select **Authorize New Connector**.
 
 >[!Note]
 >Whether the **Microsoft 365 Connector** is your source or destination connector (or both), you must complete this authorization process.
 
 ![Authorize new connector]( media/05-authorize-new-connector.png)
 
-2. **Global Admin or SharePoint Admin**: In the **Connector** list, find **Microsoft 365**, and select **Authorize**.
+2. **Global Admin or SPO Admin**: In the **Connector** list, find **Microsoft 365**, and select **Authorize**.
 
 ![Authorize O365](media/authorize-o365.png)
 
-3. **Global Admin or SharePointAdmin**: A window with an **Authorize** button appears. It prompts you to give your Microsoft 365 Connector a display name <optional>. Select **Authorize**.
+3. **Global Admin or SPO Admin**: A window with an **Authorize** button appears. It prompts you to give your Microsoft 365 Connector a display name <optional>. Select **Authorize**.
 
 ![Authorize window](media/authorize-window.png)
 
-4. **Global Admin or SharePointAdmin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
+4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
 
 
 >[!Warning]
@@ -664,9 +664,9 @@ A global or SharePoint admin can complete some steps in the authorization proces
 
 
 
-5. **Global Admin or SharePoint Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error aapears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
+5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error aapears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
 
-If you're an **SharePoint Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
+If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
 
 If you're a **Global Admin**: Continue with Steps 6–9.
 
@@ -784,7 +784,7 @@ Download an example CSV:
 **Example_CSV_Map.csv**
 
 >[!Note]
->When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
+>When URL mapping to SharePoint Online, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
 
 For example, this full URL won't work:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents/Forms/AllItems.aspx`

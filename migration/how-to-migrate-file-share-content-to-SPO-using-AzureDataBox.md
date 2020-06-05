@@ -1,5 +1,5 @@
 ---
-title: "How to migrate your file share content to SharePoint using the Azure Data Box"
+title: "How to migrate your file share content to SharePoint Online using the Azure Data Box"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,12 +16,12 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 localization_priority: Normal
-description: "Learn how to migrate your file share content to SharePoint using the Azure Data Box"
+description: "Learn how to migrate your file share content to SharePoint Online using the Azure Data Box"
 ---
 
-# Migrate your file share content to SharePoint using the Azure Data Box
+# Migrate your file share content to SharePoint Online using the Azure Data Box
 
-Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to easily migrate your file share content to SharePoint and OneDrive. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
+Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to easily migrate your file share content to SharePoint Online and OneDrive. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
 
 The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy terabytes of data from your servers to the device. After shipping it back to Microsoft, your data is copied into Azure. Depending on the size of data you intend to transfer, you can choose from:
 
@@ -29,7 +29,7 @@ The Microsoft Azure Data Box is a service that lets you order a device from the 
 - [Data Box](https://docs.microsoft.com/azure/databox/data-box-overview) with 80-TB usable capacity per device for medium-to-large datasets.
 - [Data Box Heavy](https://docs.microsoft.com/azure/databox/data-box-heavy-overview) with 770-TB usable capacity per device for large datasets.
 
-This article specifically talks about how to use the Data Box to migrate your file share content to SharePoint.  
+This article specifically talks about how to use the Data Box to migrate your file share content to SharePoint Online.  
 
 ## Requirements and costs
 
@@ -38,14 +38,14 @@ This article specifically talks about how to use the Data Box to migrate your fi
 - Data Box is only available for Enterprise Agreement (EA), Cloud solution provider (CSP), or Pay-as-you-go subscription offers. If your subscription does not fall in any of the above types, contact Microsoft Support to upgrade your subscription, or see [Azure subscription pricing](https://azure.microsoft.com/pricing/).
 - There is a fee to use Data Box. Make sure to review the [Data Box pricing](https://azure.microsoft.com/pricing/details/databox/).
 
-#### For SharePoint
+#### For SharePoint Online
 
 - Review the minimum requirements for the [SharePoint Migration Tool (SPMT)](/sharepointmigration/how-to-use-the-sharepoint-migration-tool).
 
 
 ## Workflow overview
 
-This workflow requires you to perform steps on Data Box as well as on SharePoint.
+This workflow requires you to perform steps on Data Box as well as on SharePoint Online.
 
 1. Order Data Box.
 
@@ -57,7 +57,7 @@ This workflow requires you to perform steps on Data Box as well as on SharePoint
 
 5. Wait for the data to completely upload to Azure.
 
-The following steps relate to SharePoint.
+The following steps relate to SharePoint Online.
 
 1. Create a VM in the Azure portal and mount the Azure file share on it.
 
@@ -90,9 +90,9 @@ Take the following steps to copy data to your Data Box.
 6. [Verify the data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
 
 
-## Migrating your data to SharePoint using SPMT
+## Migrating your data to SharePoint Online using SPMT
 
-After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
+After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint Online. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
 
 1. Sign into the Azure portal, and then create a virtual machine.  To learn how, see  [Quickstart: Create Windows virtual machine in the Azure portal](/azure/virtual-machines/windows/quick-create-portal).
 
@@ -109,6 +109,6 @@ Download here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.win
 
 
 > [!IMPORTANT]
-> - The speed at which data is ingested into SharePoint is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint and OneDrive Migration Speed](/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
-> - There is a risk of losing existing permissions on files when migrating the data to SharePoint. You may also lose certain metadata, such as "Created by" and "Date modified by".
+> - The speed at which data is ingested into SharePoint Online is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint Online and OneDrive Migration Speed](/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
+> - There is a risk of losing existing permissions on files when migrating the data to SharePoint Online. You may also lose certain metadata, such as "Created by" and "Date modified by".
 
