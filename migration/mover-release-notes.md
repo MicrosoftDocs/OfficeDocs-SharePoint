@@ -215,7 +215,7 @@ Backend release with customer fixes.
 ### Customer Workflow Impact
 - None
 
-### V1.15.1 (April 21, 2020)
+## V1.15.1 (April 21, 2020)
 
 A small frontend deploy.
 
