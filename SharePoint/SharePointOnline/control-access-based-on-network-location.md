@@ -26,7 +26,7 @@ description: "In this article, you'll learn how to control access to SharePoint 
 
 # Control access to SharePoint and OneDrive data based on network location
 
-As an IT admin, you can control access to SharePoint and OneDrive resources based on defined network locations that you trust. This is also known as location-based policy.
+As an IT admin, you can control access to SharePoint and OneDrive resources in Microsoft 365 based on defined network locations that you trust. This is also known as location-based policy.
   
 To do this, you define a trusted network boundary by specifying one or more authorized IP address ranges. Any user who attempts to access SharePoint and OneDrive from outside this network boundary (using web browser, desktop app, or mobile app on any device) will be blocked.
   

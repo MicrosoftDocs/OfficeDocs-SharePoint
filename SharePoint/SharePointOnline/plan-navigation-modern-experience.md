@@ -21,7 +21,7 @@ search.appverid:
 description: "In this article, you'll learn about fundamental principles and good practices for how to plan navigation in the SharePoint modern experience"
 ---
 
-# Planning Navigation for the modern SharePoint experience
+# Planning navigation for the modern SharePoint experience
 
 The fundamental principles and good practices for site and page navigation are equally applicable to both classic and modern SharePoint architectures. However, your options for *implementing* navigation differs based on the framework for your sites and intranet. For example, the "inherited" navigation experiences available in classic SharePoint site hierarchies (sites with subsites) are not available in the modern experience, but [hub sites](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) provide a great way to achieve the cross-site navigation features previously available in managed navigation and site hierarchies in classic SharePoint.
 
