@@ -22,7 +22,7 @@ description: "Learn about associating segments with a site, and what happens whe
 
 Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
-The following image illustrates three segments in an organization: HR, Sales, and Research. An information barriers policy has been defined that blocks communication and collaboration between the Sales and Research segments. These segments are incompatible. 
+The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. These segments are incompatible. 
 
 ![Example of segments in an organization](media/info-barriers-segments-example.png)
 
@@ -98,7 +98,7 @@ When a segment is associated with a site:
 
 When a site has no segments associated: 
 
-- The site and its contents can be shared based on the information barriers policy applied to the user. For example, if a user in HR is allowed to communicate with users in Research, the user will be able to share the site with those users. 
+- The site and its contents can be shared based on the information barrier policy applied to the user. For example, if a user in HR is allowed to communicate with users in Research, the user will be able to share the site with those users. 
 
 ## Access to sites that have segments associated
 
@@ -111,7 +111,7 @@ Users will see search results from:
 - Sites that have an associated segment that matches the user's segment and the user has access permission to the site. 
 - Sites that don't have associated segments if they have access to the site. 
 
-## Effects of changing information barriers policies and user segments
+## Effects of changing information barrier policies and user segments
 
 If a compliance administrator changes an existing policy, the change may impact the compatibility of the segments associated with a site. For example, segments that were once compatible may no longer be compatible. A SharePoint admin must change the segments associated with an affected site accordingly. 
 
