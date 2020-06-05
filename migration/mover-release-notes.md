@@ -57,7 +57,7 @@ Details of releases.
 
 ### V1.16.4 (June 3, 2020)
 
-Deploy to production: Backend release V.1.16.4.   We've just sent out a new production deploy with only some stability improvements.  We are setting FTP, SFTP, and WebDav connectors as private.
+A new backend release with some stability improvements. We are setting FTP, SFTP, and WebDav connectors as private.
 
 #### User/Support Impact
 
@@ -66,13 +66,13 @@ Deploy to production: Backend release V.1.16.4.   We've just sent out a new prod
 - API Consumers: When using the POST transactions/?type=transfer or POST transactions/?type=scan endpoints, if one of the schedules were already running, it will not return the error object in the response, and as a result the other response items were shifted in order. This has been fixed by ensuring that an error object is properly returned  for schedules that are already running. 
 
 #### Customer Workflow Impact
-- None 
 
+- None 
 
 
 ### V1.16.1.1 (June 1, 2020)
 
-Deploy to production: Frontend release V1.16.1.1.  This frontend release focuses on improving accessibility to our application for keyboard and screenreader users.
+This frontend release focuses on improving accessibility to our application for keyboard and screenreader users.
 
 #### User/Support Impact
 
@@ -95,7 +95,7 @@ Deploy to production: Frontend release V1.16.1.1.  This frontend release focuses
 
 ### V1.16.3.1 (May 29, 2020)
 
-Deploy to production: Backend release V1.16.3.1.  Announcing a deploy that should have no impact on customers. This  moves the storage location of pre-rendered user logs and scan reports into Azure Blob Storage.
+Deploy to production: A backend release deploy that should have no impact on customers. This  moves the storage location of pre-rendered user logs and scan reports into Azure Blob Storage.
 
 #### User/Support Impact
 - None
@@ -106,7 +106,7 @@ Deploy to production: Backend release V1.16.3.1.  Announcing a deploy that shoul
 
 ### V1.16.2 (May 28, 2020)
 
- Deploy to production:  Backend release 1.16.2.  New release of our Mover backend that includes an exciting new feature for preview (Box Notes to OneNote notebooks conversion) as well as a fix to a customer issue and stability fixes.
+ New release of our Mover backend that includes an exciting new feature for preview (Box Notes to OneNote notebooks conversion) as well as a fix to a customer issue and stability fixes.
 
 #### User Impact
 
@@ -120,31 +120,37 @@ Deploy to production: Backend release V1.16.3.1.  Announcing a deploy that shoul
 - None
 
 
-### May 25 DEPLOY PRODUCTION - backend @ v1.16.1
-Deploy to production:  Backend release We've just sent out a new production deploy with only some stability improvements. There are no customer facing changes. But this will help clear some backlogs in our migration job monitoring service.
+### V1.16.1 (May 25, 2020)
+
+Backend release with stability improvements. There are no customer facing changes. But this will help clear some backlogs in our migration job monitoring service.
 
 
-### May 20 DEPLOY PRODUCTION - frontend & backend @v1.16.0
-Deploy to production:  Backend release New frontend and backend deploy that cleans up left over billing related code
-#### User/Support Impact
-- Support: Adds an option to the jolt migration:modify command to set the auto_job_limit flag. Setting this flag will allow the new migration scaler to mange the job limit of the migration automatically. Valid values to set the new option to are true or false  
-#### Customer Workflow Impact
-- None 
-
-### May 14 DEPLOY PRODUCTION - backend @v1.15.11
-Deploy to production:  Backend release Just deployed changes improving experience to some of our users.
+### V1.16.0 (May 20, 2020)
+Deploy to production: Front and backend release clean up left over billing related code.
 
 #### User/Support Impact
 
-- User: TheMigrationManagertablewillgetpopulatedabitfasterfortheaveragemigration, whileverylargemigrations (1000sofusers) willseeaconsiderablespeedimprovement. 
-- User: IntheMigrationManagerview, somemigrationswithmanyusersthathavebeenscanned/migratedalargenumberoftimeswouldsometimesfailtopopulatethetable. Thishasbeenfixedbyoptimizinghowmigrationsgetpopulatedinordertoincreaseperformance. 
-- 
+- Support: Adds an option to the jolt migration:modify command to set the auto_job_limit flag. Setting this flag will allow the new migration scaler to mange the job limit of the migration automatically. Valid values to set the new option to are true or false 
+ 
+#### Customer Workflow Impact
+
+- None 
+
+### V1.15.11 (May `14, 2020)
+Backend release improving experience to some of our users.
+
+#### User/Support Impact
+
+- User: The Migration Manager table will get populated abitfaster for the average migration, whil every large migrations (1000s of users) will see a considerable speed improvement. 
+- User: In the Migration Manager overview, some migrations with many users that have been scanned/migrated a large number o times would sometimes fail to populate the table. This has been ixed by optimizing how migrations get populated in order to increase performance.
+
 #### Customer Workflow Impact
 - None 
 
 
-### May 13 DEPLOY PRODUCTION - frontend @ v1.15.4
- Deploy to production:  Backend release A pretty big frontend deploy has gone out, with little UX impact, but library upgrades. 
+### V1.15.4 (May 13,2020)
+
+A large frontend release, with little UX impact, but library upgrades. 
 
 #### User/Support Impact
 
@@ -161,7 +167,7 @@ Deploy to production:  Backend release Just deployed changes improving experienc
 
 ### V1.15.10 (May 12, 2020)
 
-Deploy to production:  Backend release V1.15.10. Deployed changes improving experience to some of our users.
+Backend release to improve experience to some of our users.
 
 #### User/Support Impact
 
@@ -174,7 +180,7 @@ Deploy to production:  Backend release V1.15.10. Deployed changes improving expe
 
 ### V1.15.9 (May 7, 2020)
 
- Deploy to production:  Backend release V1.15.9  A deploy went out addressing a customer concern about 0-byte files into Office 365, and with many more enhancements that don't currently have a direct user impact but will enable future improvements for our end users.
+ A backend release went out addressing a customer concern about 0-byte files into Office 365, and with many more enhancements that don't currently have a direct user impact but will enable future improvements for our end users.
 
 #### User/Support Impact
 
@@ -185,7 +191,7 @@ Deploy to production:  Backend release V1.15.10. Deployed changes improving expe
 
 ### V1.15.3 (May 1, 2020)
 
- Deploy to production: Frontend release V1.15.3.  A deploy to speed up bulk operation. 
+ A frontend deployment to speed up bulk operation. 
 
 #### User/Support Impact
 
@@ -222,7 +228,7 @@ Deploy to production: Backend release to address a customer migration.
 
 ### V1.15.7 (April 23, 2020)
 
- Deploy to production: Backend release to address a customer migration.
+ Backend release to address a customer migration.
 
 #### User/Support Impact
 
@@ -233,8 +239,9 @@ Deploy to production: Backend release to address a customer migration.
 - None
 
 
-### V1.15.6 (April 23, 2020)
-Deploy to production: Backend release with customer fixes.
+### V1.15.6 (April 23,2020)
+
+Backend release with customer fixes.
 
 #### User/Support Impact
 
@@ -245,7 +252,8 @@ Deploy to production: Backend release with customer fixes.
 - None
 
 ### V1.15.1 (April 21, 2020)
-Deploy to production:  Backend release A small frontend deploy.
+
+A small frontend deploy.
 
 #### User/Support Impact
 - User: Connector Authorization window where the user selects what connector to authorize now displays the full connector names without truncating them (on mobile phones, tablets and desktop).
@@ -253,9 +261,9 @@ Deploy to production:  Backend release A small frontend deploy.
 #### Customer Workflow Impact
 - None
 
-### DEPLOY PRODUCTION - backend @ v1.15.5.1 (April 21, 2020)
+### 1.15.5.1 (April 21, 2020)
 
- Deploy to production: Backend release A few fixes for our customers, expanding support for Dropbox and Google Drive (G Suite) scenarios.
+ A backend release that includes customer fixes, expanding support for Dropbox and Google Drive (G Suite) scenarios.
    
 #### User/Support Impact
 
@@ -270,7 +278,7 @@ Deploy to production:  Backend release A small frontend deploy.
 
 ### V1.15.4 (April 9, 2020)
 
-Deploy to production: Backend release. Fix to handle of Dropbox Team folders. This is a work in progress to catch up with the latest about Team Folders, but it fixes urgent issues to unblock customers.
+Backend release to fix to address handling of of Dropbox Team folders. This is a work in progress to catch up with the latest about Team Folders, but it fixes urgent issues to unblock customers.
 
 #### User/Support Impact
 
@@ -281,7 +289,7 @@ Deploy to production: Backend release. Fix to handle of Dropbox Team folders. Th
 
 ### V1.15.3 (April 8, 2020)
 
- Deploy to production: Backend release. Small but critical release for migrations out of G Suite (Admin). Please read the impact statement carefully.
+Small but critical backend release for migrations out of G Suite (Admin). Please read the impact statement carefully.
 
 #### User/Support Impact
 - User: Fixes a specific case in migrations from G Suite (Admin) that would end up in data duplication. The case relates to folders in an "owner" root that were shared with other users ("guest") and "guest" mounted the folder not in their root folder but somewhere deeper in their tree. In this case, the transfer would not obey the user priority list resulting in the folder being transferred for both "owner" and "guest". This regression was introduced on March 1, 2019 (June 2019 for FTC) and fixed now. Full impact is still being assessed. There is no need to re-run Google Prescans for affected migrations; instead, re-running the transfers will now skip the folder in question appropriately. Remediation for affected customers is to manually removed the duplicated data (upon identification). 
@@ -291,7 +299,7 @@ None
 
 ### V1.15.1 (April 2, 2020)
 
-Deploy to production:  Backend release  We're introducing a bug fix and stability improvements in this deploy.
+A backend release that includes bug fix and stability improvements.
 #### User/Support Impact
 - User: Users creating a new Mover account using the Sign in with Microsoft account feature will have appropriate access to running all types of transfers (some transfers appeared as not allowed to some new users). 
 
@@ -301,7 +309,7 @@ Deploy to production:  Backend release  We're introducing a bug fix and stabilit
 
 ### V1.15.0 (April 1, 2020)
 
-Deploy to production:  Backend & frontend release V1.15.0.
+Backend & frontend release.
 
 #### User/Support Impact
 - User: A new "Support" link will be displayed in the top navigation bar in the app. This link will point users to the new support system. The intercom widget will be disabled in the application. 
@@ -312,7 +320,7 @@ Special Customer Impact
 
 ### V1.14.1.1 (March 31, 2020)
 
-Deploy to production:  Backend release V1.14.1.1.
+Backend release.
 
 #### User/Support Impact
 - User: Fixed an issue with very old migrations with permission mappings that would prevent the app from loading. Support for these old migrations have been fixed.
@@ -330,7 +338,8 @@ Deploy to production:  Backend release V1.14.1.1.
 
 
 ### V1.14.0 (March 26,2020)
-Deploy to production:  A combined backend/frontend deploy with some fixes to reports and disabling the intercom widget.
+
+A combined backend/frontend deploy with some fixes to reports and disabling the intercom widget.
 
 ### User/Support Impact
 
@@ -344,7 +353,8 @@ Deploy to production:  A combined backend/frontend deploy with some fixes to rep
 - AvePoint: New signups will be disabled. 
 
 ### V1.13.10 (March 24, 2020)
- Deploy to production: A backend release with a new feature and potential performance fix. 
+
+A backend release with a new feature and potential performance fix. 
 
 #### User/Support Impact
 - User: Unique permissions from items within a Dropbox Team Folder will now be moved to the destination.
@@ -353,7 +363,7 @@ Deploy to production:  A combined backend/frontend deploy with some fixes to rep
 
 ### V1.13.9 (March 20, 2020)
 
-Deploy to production: Backend release to assist with the increased loads.
+Backend release to assist with the increased loads.
  
 #### User/Support Impact
 -  User: There were cases in which transfer cancellations were taking a long time to take effect. This fixes the issue by ensuring they happen faster. 
@@ -369,7 +379,8 @@ Deploy to production: Backend release to assist with the increased loads.
 
 
 ### V1.13.7 (March 17, 2020)
- Deploy to production:  Backend release with changes to help us determine the root cause for customer issues.
+
+Backend release with changes to help us determine the root cause for customer issues.
 
 #### User/Support Impact
 
@@ -382,7 +393,8 @@ Deploy to production: Backend release to assist with the increased loads.
 
 
 ### V1.13.5 (March 11, 2020)
-Deploy to production:  Backend release.
+
+Backend release.
 
 #### User/Support Impact
 
@@ -390,7 +402,7 @@ Deploy to production:  Backend release.
 
 ### V1.13.4 (March 9, 2020)
 
-Deploy to production:  Backend release 
+Backend release. 
 
 #### User/Support Impact
 
