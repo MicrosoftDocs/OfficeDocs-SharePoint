@@ -58,22 +58,23 @@ At least 24 hours before you start migration, do the following:
 
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
 
 2. At the bottom of the page, select **classic settings page**.
 
 3. Under **Custom Script**, select:
 
-**Allow users to run custom script on personal sites**</br>
-**Allow users to run customer script on self-service created sites**
+   **Allow users to run custom script on personal sites**</br>
+   **Allow users to run customer script on self-service created sites**
 
 Leave these settings in place for the duration of your migration.
 
- > [!NOTE]
- > Changes to this setting might take up to 24 hours to take effect.
+   > [!NOTE]
+   > Changes to this setting might take up to 24 hours to take effect.
 
-For more info, see, [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script)</br>
+   For more info, see, [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script).
+
 
 #### Note about logging in
 When you first launch the SharePoint Migration Tool (SPMT), you are prompted for your Microsoft 365 username and password. The credentials you provide will be to the migration *destination*.
