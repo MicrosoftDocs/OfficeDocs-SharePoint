@@ -122,7 +122,7 @@ Classic team sites (STS#0) created after **May 1, 2020** will not get updated.
  
 ## Can I also modernize the other pages in my sites? 
 
-For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](sharepoint/dev/transform/modernize-userinterface-site-pages). 
+For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](/sharepoint/dev/transform/modernize-userinterface-site-pages). 
 
 
 ## Getting excited about modern? 
