@@ -68,7 +68,7 @@ At least 24 hours before you start migration, do the following:
    **Allow users to run custom script on personal sites**</br>
    **Allow users to run customer script on self-service created sites**
 
-Leave these settings in place for the duration of your migration.
+   Leave these settings in place for the duration of your migration.
 
    > [!NOTE]
    > Changes to this setting might take up to 24 hours to take effect.
