@@ -310,7 +310,7 @@ Backend release.
 
 A combined backend/frontend deploy with some fixes to reports and disabling the intercom widget.
 
-## User/Support Impact
+### User/Support Impact
 
 - User: Accurate stats for files and bytes (success, failure, skipped, unsupported) will be displayed in the Migration Report. There will be no discrepancy for the stats shown in the report versus what's displayed in the Migration Manager UI. 
 - User: The Migration Manager UI will not be stuck for users that have migrations with very large permission mappings. Instead, the app will load permission mappings as needed (when editing them). If a migration has an excessively large permission mapping, the app will not display the editor. Instead, the user will be able to download the permission mapping as CSV, edit and then re-upload the CSV. 
