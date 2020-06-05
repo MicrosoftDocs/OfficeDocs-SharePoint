@@ -25,7 +25,7 @@ ms.custom:
 
 ## Overview
 
-In SharePoint it is possible to enable Audience Targeting on a list or library. After this feature is enabled users are able to target audiences on a given list item. Unfortunately during a migration from On-Premises SharePoint to SharePoint Online, the list and list item audience data will not migrate. This report will contain all the list items in the environment that are targeting audiences.
+In SharePoint it is possible to enable Audience Targeting on a list or library. After this feature is enabled users are able to target audiences on a given list item. Unfortunately during a migration from On-Premises SharePoint to SharePoint, the list and list item audience data will not migrate. This report will contain all the list items in the environment that are targeting audiences.
 
   
 ## Data Migration
@@ -37,7 +37,7 @@ The audience targeting data will not migrate.
   
 ## Preparing for Migration
 
-Leverage the report to understand the audiences that are being used to target list content to users. If this functionality is needed after migration to SharePoint Online, plan for the remediation of impacted content. This will involve creating new audiences in SharePoint Online environment and fixing the impacted list items post migration.
+Leverage the report to understand the audiences that are being used to target list content to users. If this functionality is needed after migration to SharePoint, plan for the remediation of impacted content. This will involve creating new audiences in SharePoint environment and fixing the impacted list items post migration.
   
 ## Post Migration
 

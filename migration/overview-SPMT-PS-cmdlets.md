@@ -1,5 +1,5 @@
 ---
-title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets - SharePoint Online"
+title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn how the Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint Online."
+description: "Learn how the Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint."
 ---
 
-# Migrate to SharePoint Online using PowerShell
+# Migrate to SharePoint using PowerShell
 
-This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2010 and SharePoint 2013 on-premises document libraries and list items, and file shares to Microsoft 365.  For information on all current PowerShell cmdlets relating to SharePoint Online migration, please see the [Microsoft SharePoint Migration Tool cmdlet reference](https://docs.microsoft.com/powershell/spmt/intro?view=spmt-ps).
+This article is about the new PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine. They can be used to move files from SharePoint 2010 and SharePoint 2013 on-premises document libraries and list items, and file shares to Microsoft 365.  For information on all current PowerShell cmdlets relating to SharePoint migration, please see the [Microsoft SharePoint Migration Tool cmdlet reference](https://docs.microsoft.com/powershell/spmt/intro?view=spmt-ps).
 
 The PowerShell cmdlets provide the same functionalities as the [SharePoint Migration Tool](introducing-the-sharepoint-migration-tool.md) .
 
@@ -132,7 +132,7 @@ $Global:SPCredential = New-Object -TypeName System.Management.Automation.PSCrede
 $Global:SourceListName = "SourceListName"
 
 
-#Define SPO target#
+#Define SharePoint target#
 $Global:SPOUrl = "https://contoso.sharepoint.com"
 $Global:UserName = "admin@contoso.onmicrosoft.com"
 $Global:PassWord = ConvertTo-SecureString -String "YourSPOPassword" -AsPlainText -Force
@@ -145,7 +145,7 @@ $Global:FileshareSource = "YourFileShareDataSource"
 #Import SPMT Migration Module#
 Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
 
-#Register the SPMT session with SPO credentials#
+#Register the SPMT session with SharePoint credentials#
 Register-SPMTMigration -SPOCredential $Global:SPOCredential -Force 
 
 #Add two tasks into the session. One is SharePoint migration task, and another is File Share migration task.#

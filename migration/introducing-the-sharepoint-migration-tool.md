@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Tool for SharePoint and OneDrive - SharePoint Online"
+title: "SharePoint Migration Tool for SharePoint and OneDrive - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -24,7 +24,7 @@ description: "This article is an overview of the SharePoint Migration Tool and p
 
 Designed to be used for migrations ranging from the smallest set of files to a large scale enterprise migration, the SharePoint Migration Tool (SPMT) will let you bring your information to the cloud and take advantage of the latest collaboration, intelligence, and security solutions with Microsoft 365.
 
-**SPMT** lets you migrate content to SharePoint Online and OneDrive from the following locations:
+**SPMT** lets you migrate content to SharePoint and OneDrive from the following locations:
 
 - SharePoint Server 2016 (Public Preview)
 - SharePoint Server 2013
@@ -61,13 +61,13 @@ If you experience issues with your installation, see [Troubleshooting installati
 
 For a complete description of features see:  [What does SPMT support?](what-is-supported-SPMT.md) 
 
-If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint Online using PowerShell](overview-spmt-ps-cmdlets.md).
+If you prefer using PowerShell, all SPMT functionality is supported. For more information see: [Migrate to SharePoint using PowerShell](overview-spmt-ps-cmdlets.md).
 
 
 
 ## Planning and assessment
 
-Planning is the key to a successful data migration.  The SharePoint Migration Assessment Tool (SMAT) is a simple command line executable that will scan the contents of your SharePoint Server 2013 farm to help identify any issues with data you plan to migrate to SharePoint Online. The results report points you to articles to help you fix any issues that were discovered. The tool runs in the background without impacting your production environment.
+Planning is the key to a successful data migration.  The SharePoint Migration Assessment Tool (SMAT) is a simple command line executable that will scan the contents of your SharePoint Server 2013 farm to help identify any issues with data you plan to migrate to SharePoint. The results report points you to articles to help you fix any issues that were discovered. The tool runs in the background without impacting your production environment.
   
 To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.microsoft.com/download/details.aspx?id=53598&amp;751be11f-ede8-5a0c-058c-2ee190a24fa6=True)
   
@@ -87,8 +87,8 @@ To download the tool: [SharePoint Migration Assessment Tool (SMAT)](https://www.
   
 [Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
   
-[SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
+[SharePoint and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
   
-[SharePoint Online provided Azure containers and queues for SPO Migration API](sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
+[SharePoint provided Azure containers and queues for SharePoint Migration API](sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md)
   
 
