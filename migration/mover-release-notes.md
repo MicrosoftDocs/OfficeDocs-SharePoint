@@ -53,9 +53,11 @@ This article discusses cumulative improvements in the Mover migration tool.
 
 ## Mover feature introduction and enhancements
 
-### June 3  DEPLOY PRODUCTION - backend @v1.16.4
+Details of releases.
 
-We've just sent out a new production deploy with only some stability improvements.  We are setting FTP, SFTP, and WebDav connectors as private.
+### V1.16.4 (June 3, 2020)
+
+Deploy to production: Backend release V.1.16.4.   We've just sent out a new production deploy with only some stability improvements.  We are setting FTP, SFTP, and WebDav connectors as private.
 
 #### User/Support Impact
 
@@ -68,9 +70,9 @@ We've just sent out a new production deploy with only some stability improvement
 
 
 
-### June 1 DEPLOY PRODUCTION - frontend @ v1.16.1.1
+### V1.16.1.1 (June 1, 2020)
 
- This frontend release focuses on improving accessibility to our application for keyboard and screenreader users.
+Deploy to production: Frontend release V1.16.1.1.  This frontend release focuses on improving accessibility to our application for keyboard and screenreader users.
 
 #### User/Support Impact
 
