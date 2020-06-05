@@ -1,5 +1,5 @@
 ---
-title: "How does the SharePoint Migration Tool work? - SharePoint"
+title: "How does the SharePoint Migration Tool work?"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -18,7 +18,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: The SharePoint Migration Tool simplifies migrating your data from on-premises SharePoint Server document libraries and local file shares to SharePoint.
+description: The SharePoint Migration Tool simplifies migrating your data from on-premises SharePoint Server document libraries and local file shares to SharePoint in Microsoft 365.
 ---
 
 # How the SharePoint Migration Tool works
@@ -50,7 +50,7 @@ description: The SharePoint Migration Tool simplifies migrating your data from o
   
 **IMPORT:** During the import phase, the key is provided to SharePoint SAS. Only Azure and SharePoint are interacting to fetch and migrate the data to the destination. This process is a timer job-based but does not prevent other jobs from being queued up. During the import, a report is created in the working folder, and live updates are made. After the migration job is completed, the log is stored in the Azure container and a final report is created.<br>
 
-**SESSION AND RESUME:** While the migration is being performed, the tool saves information of the session in a hidden list on the users OneDrive site.  This allows the migration tool to resume any previous migration sessions.
+**SESSION AND RESUME:** While the migration is being performed, the tool saves information of the session in a hidden list on the user's OneDrive. This allows the migration tool to resume any previous migration sessions.
     
 ## Encryption and security
 

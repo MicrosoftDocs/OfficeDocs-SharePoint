@@ -33,7 +33,7 @@ The SharePoint Migration tool (SPMT) lets you use a comma separated (CSV) file t
   
 There are six columns needed in your CSV file -- the first three are your source values, each providing detail about where your data is currently located. The remaining three columns indicate the site, document library and optional subfolder to where you are migrating your data. All six columns must be accounted for in the file, even if you are not needing a value for a given field.
   
-Here's an example of the format for the CSV file. The first row show files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint. The third row show files that are being migrated from a local file share to OneDrive.
+Here's an example of the format for the CSV file. The first row show files that are being migrated from a local file share to SharePoint. The second row shows files that are being migrated from an on-premises SharePoint Server site to SharePoint in Microsoft 365. The third row show files that are being migrated from a local file share to OneDrive.
   
 ![SharePoint Migration Tool sample format when using a CSV file](media/73fadfad-77ad-4d3a-b738-bc7063bc2659.jpg)
   

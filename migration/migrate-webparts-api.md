@@ -1,5 +1,5 @@
 ---
-title: "Migrating webparts using the Migration API"
+title: "Migrating web parts using the Migration API"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,9 +15,9 @@ msCollection:
 - M365-collaboration
 description: "SharePoint web part support in the Migration API"
 ---
-# Migrating webparts using the Migration API
+# Migrating web parts using the Migration API
 
-The Migration API supports the ability to migrate web parts to SharePoint using the PRIME package by calling CSOM/REST/SOAP WS to get web part data and properties to build the PRIME package.
+The Migration API supports the ability to migrate web parts to SharePoint in Microsoft 365using the PRIME package by calling CSOM/REST/SOAP WS to get web part data and properties to build the PRIME package.
 
 An advantage in using the Migration API for your web part migration is the ability to migrate your web parts in one call and improve performance. Part of the manifest includes the web part as you import its associated page. By using the Migration API you can can put all the web parts you have on that page.
 
@@ -35,7 +35,7 @@ To get the Serializer .dll, do the following:
 2. Browse to the install location of SPMT
 5. Locate and copy the *microsoft.sharepoint.migration.webpart.serializer.dll* and you can copy it into your project.
 
-For a complete list of the supported webparts, see:
+For a complete list of the supported web parts, see:
 
 - [SPMT & Migration API supported SharePoint web parts](https://docs.microsoft.com/sharepointmigration/spmt-supported-webparts)
 
@@ -171,7 +171,7 @@ Due the security control design on the server side, the following behavior:
         - Otherwise, go on migrating this web part
  
  
-Here is the list of web parts that will be ignored by server side code (treated as untrusted webpart) when NoScript is turned ON:
+Here is the list of web parts that will be ignored by server side code (treated as untrusted web part) when NoScript is turned ON:
 
 - XsltListViewWebPart
 - ContentEditorWebPart

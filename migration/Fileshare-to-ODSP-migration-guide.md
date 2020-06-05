@@ -1,5 +1,5 @@
 ---
-title: "Migrate file shares to Office 365 SharePoint and OneDrive"
+title: "Migrate file shares to SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -19,10 +19,10 @@ ms.custom:
 - seo-marvel-mar2020
 search.appverid: MET150
 ms.assetid: 
-description: "Learn how to evaluate the environment, prepare, and migrate content from File sharing systems to OneDrive and SharePoint in Office 365."
+description: "Learn how to evaluate the environment, prepare, and migrate content from file shares to OneDrive and SharePoint in Microsoft 365."
 ---
 
-# File share to OneDrive and SharePoint Migration Guide
+# File share to OneDrive and SharePoint migration guide
 This guide will help you prepare to migrate from File shares to OneDrive and SharePoint.
 
 Most migrations fall into regular phases as follows.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
@@ -103,7 +103,7 @@ Here are some of the more common issues that arise when preparing for migration:
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
 |**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](/sharepoint/security-considerations-of-allowing-custom-script)|
-|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Invalid file names and file types in OneDrive, OneDrive, and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
+|**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
 |**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
 
 

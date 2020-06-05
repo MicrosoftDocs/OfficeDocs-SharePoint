@@ -16,12 +16,12 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 localization_priority: Normal
-description: "Learn how to migrate your file share content to SharePoint using the Azure Data Box"
+description: "Learn how to migrate your file share content to SharePoint in Microsoft 365 by using the Azure Data Box"
 ---
 
 # Migrate your file share content to SharePoint using the Azure Data Box
 
-Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to easily migrate your file share content to SharePoint and OneDrive. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
+Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to easily migrate your file share content to SharePoint and OneDrive in Microsoft 365. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
 
 The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy terabytes of data from your servers to the device. After shipping it back to Microsoft, your data is copied into Azure. Depending on the size of data you intend to transfer, you can choose from:
 
@@ -29,7 +29,7 @@ The Microsoft Azure Data Box is a service that lets you order a device from the 
 - [Data Box](https://docs.microsoft.com/azure/databox/data-box-overview) with 80-TB usable capacity per device for medium-to-large datasets.
 - [Data Box Heavy](https://docs.microsoft.com/azure/databox/data-box-heavy-overview) with 770-TB usable capacity per device for large datasets.
 
-This article specifically talks about how to use the Data Box to migrate your file share content to SharePoint.  
+This article specifically talks about how to use the Data Box to migrate your file share content to SharePoint in Microsoft 365.  
 
 ## Requirements and costs
 
@@ -92,7 +92,7 @@ Take the following steps to copy data to your Data Box.
 
 ## Migrating your data to SharePoint using SPMT
 
-After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
+After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint in Microsoft 365. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
 
 1. Sign into the Azure portal, and then create a virtual machine.  To learn how, see  [Quickstart: Create Windows virtual machine in the Azure portal](/azure/virtual-machines/windows/quick-create-portal).
 

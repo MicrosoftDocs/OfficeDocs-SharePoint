@@ -51,7 +51,7 @@ What you discover will influence your overall strategy and timing, including:
 
 
 ### Understanding the modern architecture
-New features and enhancements are continually being rolled in SharePoint before being included in SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint.
+New features and enhancements are continually being rolled in SharePoint for Microsoft 365 before being included in SharePoint Server.  As a result, features and functionality that are available in SharePoint Server may be different than those in SharePoint.
 
 As you plan your migration strategy, it is important to understand the modern architecture.
 Begin by reading:

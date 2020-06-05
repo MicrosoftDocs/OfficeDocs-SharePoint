@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 ms.assetid: 57e13cc6-cec7-4b81-8fe9-7b2646fd5532
-description: "Learn how to mitigate issues with Locked Sites during migration."
+description: "Learn how to mitigate issues with locked sites during migration."
 ---
 
 # Migration Assessment Scan: Locked Sites
 
-Learn how to mitigate issues with Locked Sites during migration.
+Learn how to mitigate issues with locked sites during migration.
   
 ## Overview
 

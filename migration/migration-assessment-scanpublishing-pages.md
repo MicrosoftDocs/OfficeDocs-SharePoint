@@ -23,7 +23,7 @@ ms.assetid: 7f8e8ee7-c400-4530-a550-598c9bf33c44
 
 ## Overview
 
-Publishing sites are typically customized intranet sites that rely on page layouts to allow end users to quickly create articles that are published to end users. Due to the high level of customization that is involved with publishing sites, they may be difficult to migrate to SharePoint without an extensive amount of remediation effort.
+Publishing sites are typically customized intranet sites that rely on page layouts to allow end users to quickly create articles that are published to end users. Due to the high level of customization that is involved with publishing sites, they may be difficult to migrate to SharePoint in Microsoft 365 without an extensive amount of remediation effort.
   
 ## Data Migration
 
@@ -34,7 +34,7 @@ The files can migrate however the pages may not function correctly on the new pl
   
 ## Preparing for Migration
 
-Catalog the pages that leverage page layouts. Perform test migrations and plan for post migration remediation. You may find it's easier to start a new portal on SharePoint and archiving your on premises portal once that site is up and running.
+Catalog the pages that leverage page layouts. Perform test migrations and plan for post migration remediation. You may find it's easier to start a new portal in SharePoint for Microsoft 365 and archive your on-premises portal once that site is up and running.
   
 ## Post Migration
 

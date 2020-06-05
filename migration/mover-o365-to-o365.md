@@ -445,9 +445,9 @@ The original timestamps from Office 365 are preserved when migrating to Microsof
 
 When migrating to Microsoft 365 from Office 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
 
-### Does the Mover app interact with the sync client in OneDrive?
+### Does the Mover app interact with the OneDrive sync app?
 
-We do not interact with the sync client in **OneDrive**. Before a migration, We recommend disabling it. If you use it during a migration, it tries to sync all the migrating data.
+No, it doesn't interact with the OneDrive sync app. Before a migration, we recommend disabling the sync app. If it's running during a migration, it tries to sync all the migrating data.
 
 ### What happens to shared data?
 
@@ -523,61 +523,61 @@ Some list view options may prevent search list views with more than 5,000 items 
 ### Authorizing Microsoft 365
 
 >[!Warning]
->To fully authorize the **Microsoft 365 Connector**, a Global Admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
+>To fully authorize the **Microsoft 365 Connector**, a global admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
 >
->The Global Admin must grant these permissions *after* the Microsoft 365 Connector is authorized within the main Mover app.
+>The global admin must grant these permissions *after* the Microsoft 365 Connector is authorized within the main Mover app.
 
 The following instructions show you how to complete the authorization steps in the right order.
 
-Some steps in the authorization process can be completed by a Global Admin or a SharePoint Admin. At the beginning of each step, we indicate who can complete it.
+Some steps in the authorization process can be completed by a global or SharePoint admin. At the beginning of each step, we indicate who can complete it.
 
-1. **Global Admin or SharePoint Admin:** Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
+1. **Global or SharePoint admin:** Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
 
 >[!Note]
 >Whether the **Microsoft 365 Connector** is your source or destination connector (or both), you'll need to go through this authorization process.
 
 ![Authorize new connector](media/05-authorize-new-connector.png)
 
-2. **Global Admin or SharePoint Admin**: In the **Connector** list, find **Microsoft 365**. Select **Authorize**.
+2. **Global or SharePoint admin**: In the **Connector** list, find **Microsoft 365**. Select **Authorize**.
 
 ![Authorize O365](media/authorize-o365.png)
 
-3. **Global Admin or SharePoint Admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Microsoft 365 Connector**.  Select **Authorize**.
+3. **Global or SharePoint admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Microsoft 365 Connector**.  Select **Authorize**.
 
 ![Authorize windows](media/authorize-window.png)
 
-4. **Global Admin or SharePoint Admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
+4. **Global or SharePoint admin**: Follow the on-screen instructions. You are redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges and continue to authorize the connector.
 
 
 >[!Warning]
->If you are a **Global Admin**, a slightly different login screen will display.  
+>If you are a **global admin**, a slightly different login screen will display.  
 >
 >**DO NOT** select the option **Consent on behalf of your organization**. This option **must** remain unselected.
 
 - ![global admin o365](media/permissions-o365-global-admin.png)
 
 
-5. **Global Admin or SharePoint Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
+5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and see an error, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
 
-If you're an **SharePoint Admin**: To grant permissions and finish the authorization process (Steps 6–9), point your Global Admin to **aka.ms/office365moverauth**.
+If you're a **SharePoint Admin**: To grant permissions and finish the authorization process (Steps 6–9), point your global admin to **aka.ms/office365moverauth**.
 
-If you're a **Global Admin**: Continue with Steps 6–9.
+If you're a **global admin**: Continue with Steps 6–9.
 
 ![Authorize error](media/authorize-error.png)
 
-6. **Global Admin**: Log into the Azure Portal via **aka.ms/office365moverauth**. You'll see a list of **Enterprise applications**.
+6. **Global admin**: Log into the Azure Portal via **aka.ms/office365moverauth**. You'll see a list of **Enterprise applications**.
 
 ![Enterprise applications](media/enterprise-applications.png)
 
-7. **Global Admin**: Find and select the **Microsoft 365 Mover** app. A page appears that provides an overview of our app.
+7. **Global admin**: Find and select the **Microsoft 365 Mover** app. A page appears that provides an overview of our app.
 
 ![O365 Mover app](media/o365-mover-app.png)
 
-8. **Global Admin**: In the left menu, find and open **Permissions**. Select **Grant admin consent for Mover**.
+8. **Global admin**: In the left menu, find and open **Permissions**. Select **Grant admin consent for Mover**.
 
 ![o365 mover permissions](media/o365-mover-permissions.png)
 
-9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
+9. **Global admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
 
 ### Troubleshooting a Microsoft 365 connector
 
@@ -585,9 +585,9 @@ If you're a **Global Admin**: Continue with Steps 6–9.
 
 If you encounter an error on authorization, try signing out of any Microsoft accounts, and attempt to authorize the **Connector** in an Incognito Window.
 
-#### Global Admin account provisioning
+#### Global admin account provisioning
 
-Your Global Admin must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you also assigned a Microsoft 365 license, and walked through the Microsoft 365 setup process.
+Your global admin must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you also assigned a Microsoft 365 license, and walked through the Microsoft 365 setup process.
 
 #### User provisioning
 
@@ -599,7 +599,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to
 
 #### Microsoft 365 permission requirements
 
-Our app requires a Global Admin for authorization. The following table lists the scopes we require:
+Our app requires a global admin for authorization. The following table lists the scopes we require:
 
 |**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|

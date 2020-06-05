@@ -1,5 +1,5 @@
 ---
-title: "Migration performance guide for SharePoint & OneDrive - SharePoint"
+title: "Migration performance guide for SharePoint & OneDrive"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -22,7 +22,7 @@ description: "This article explains the factors that influence migration speed a
 # General migration performance guidance
 
 >[!Important]
->Many SharePoint and OneDrive customers run business-critical applications against the service that run in the background.  These include content migration, Data Loss Prevention (DLP), and backup solutions.  During these unprecedented times, we are taking steps to ensure that SharePoint and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
+>Many Microsoft SharePoint and Microsoft OneDrive customers run business-critical applications against the service that run in the background.  These include content migration, Data Loss Prevention (DLP), and backup solutions.  During these unprecedented times, we are taking steps to ensure that SharePoint and OneDrive services remain highly available and reliable for your users who depend on the service more than ever in remote work scenarios.
 >
 >In support of this objective, we have implemented tighter throttling limits on background apps (migration, DLP and backup solutions) during weekday daytime hours.  You should expect that these apps will achieve very limited throughput during these times.  However, **during evening and weekend hours** for the region, the service will be ready to process a significantly higher volume of requests from background apps.
 
@@ -30,7 +30,7 @@ description: "This article explains the factors that influence migration speed a
 >**Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Opening a support ticket will not lift throttle. See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section below for additional information.
 
 
-This article explains the factors that influence performance when migrating content to SharePoint and OneDrive.
+This article explains the factors that influence performance when migrating content to SharePoint and OneDrive in Microsoft 365.
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.
 
@@ -106,7 +106,7 @@ Follow these steps:
 2. Ensure you are using the new admin center preview.
 
 >[!Note]
->If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
+>If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
 
 3. On the left nav pane, select **Support**, and then select **New Service Request**. 
 

@@ -1,5 +1,5 @@
 ---
-title: "SharePoint provided Azure containers and queues for SharePoint Migration API"
+title: "SharePoint-provided Azure containers and queues for SharePoint Migration API"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -21,7 +21,7 @@ ms.assetid: 742b5502-08e8-47f8-83c4-afb521725cb2
 
 ---
 
-# SharePoint provided Azure containers and queues for SharePoint Migration API
+# SharePoint-provided Azure containers and queues for SharePoint Migration API
 
 ## Overview
 
@@ -31,7 +31,7 @@ Important key aspects include:
   
 - The containers and queues are unique per request and not reused. Once a container is given to a customer this container will not be reused or shared.
     
-- The containers and queue are automatically deleted. As per the standard SharePoint Compliance, Microsoft will automatically destroy the container within 30 to 90 days .
+- The containers and queue are automatically deleted. As per the standard SharePoint compliance, Microsoft will automatically destroy the container within 30 to 90 days .
     
 - The containers and queues are in the customer's datacenter location. We make sure to provision containers that are in the same physical location as their SharePoint tenant.
     

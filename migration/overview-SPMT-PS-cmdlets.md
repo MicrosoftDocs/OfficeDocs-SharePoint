@@ -1,5 +1,5 @@
 ---
-title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets - SharePoint"
+title: "Migrate to SharePoint and OneDrive using PowerShell cmdlets"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -21,7 +21,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn how the Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint."
+description: "Learn how the Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint in Microsoft 365."
 ---
 
 # Migrate to SharePoint using PowerShell
