@@ -19,13 +19,13 @@ description: "SharePoint web part support in the Migration API"
 
 The Migration API supports the ability to migrate web parts to SharePoint in Microsoft 365using the PRIME package by calling CSOM/REST/SOAP WS to get web part data and properties to build the PRIME package.
 
-An advantage in using the Migration API for your web part migration is the ability to migrate your web parts in one call and improve performance. Part of the manifest includes the web part as you import its associated page. By using the Migration API you can can put all the web parts you have on that page.
+An advantage in using the Migration API for your web part migration is the ability to migrate your web parts in one call and improve performance. Part of the manifest includes the web part as you import its associated page. By using the Migration API, you can put all the web parts you have on that page.
 
 ## Using the Serializer DLL
 
 There are two attributes that are handled in a unique way that requires using the WebPart User Properties Serializer DLL.
 
-There is a technical challenge to generate the property values for *AllUsersProperties* and *PerUserProperties* when building the PRIME package. This is because these the property values are BASE64 encoded blob, which are serialized web part properties and web part connection info.
+There is a technical challenge to generate the property values for *AllUsersProperties* and *PerUserProperties* when building the PRIME package. This is because the property values are a BASE64 encoded blob, which are serialized web part properties and web part connection info.
  
 
 To get the Serializer .dll, do the following:
@@ -161,9 +161,9 @@ For an explanation of the **SPWebPart** fields see:
 
 ## Security controls
 
-Due the security control design on the server side, the following behavior:
+Due to the security control design on the server side:
  
-- If the NoScript is off, then go on migrating all web part as currently
+- If NoScript is off, then go on migrating all web part 
 - If NoScript is on, then first check web part level safety
     - If SafeAgainstScript is false, do not import it
     - If SafeAgainstScript is true, then check the web part property level safety
@@ -171,7 +171,7 @@ Due the security control design on the server side, the following behavior:
         - Otherwise, go on migrating this web part
  
  
-Here is the list of web parts that will be ignored by server side code (treated as untrusted web part) when NoScript is turned ON:
+Here is the list of web parts that will be ignored by server-side code (treated as untrusted web part) when NoScript is turned ON:
 
 - XsltListViewWebPart
 - ContentEditorWebPart
@@ -202,7 +202,7 @@ Here is the list of web parts that will be ignored by server side code (treated 
 *Question:*  How to fetch the web part connection info as the input for serialization API?
 *Answer:*    The web part connections could be found in <SPWebPartConnection> elements from the web part page in the response of operation ‘GetWebPartPage’ in ‘WebPartPagesWebService’.
 
-View flags: refer to this https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-wssfob/252d2086-6571-430f-863d-bcaf9d267e62 , e.g. all the view flags https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-wssfob/16a9d8ca-185d-40ec-956e-bb6bf3488cf7 . You will need to convert all flag values to PRIME element ‘flags’.
+[View flags](https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-wssfob/252d2086-6571-430f-863d-bcaf9d267e62), for example [all the view flags](https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-wssfob/16a9d8ca-185d-40ec-956e-bb6bf3488cf7). You will need to convert all flag values to PRIME element ‘flags’.
 
 ## Appendix
 

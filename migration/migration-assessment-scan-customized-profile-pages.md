@@ -32,7 +32,7 @@ In the source environment, viewing a user's profile is managed by a page hosted 
   
 After migration to the target environment, the profile experience is managed by the Delve service. There is currently a limitation in that the Delve profile page cannot be modified. This scan report will show you any customizations that have been made to the Person.aspx page in the source environment. This data can be used to understand any impact with the move to the target environment with regards to the profile experience.
   
-To learn more, see: [How can I find people and information in Office Delve?](https://support.office.com/article/5b8bffdd-a50a-430a-8570-09b39481887c)
+To learn more, see: [How can I find people and information in Microsoft Delve?](https://support.office.com/article/5b8bffdd-a50a-430a-8570-09b39481887c)
   
 ## Preparing for Migration
 
