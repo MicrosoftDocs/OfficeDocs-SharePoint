@@ -23,7 +23,7 @@ As a global or SharePoint admin in Microsoft 365, you can customize and impact t
   
 The changes you make from the search administration page are valid for the whole tenant, but you can also customize search on site collection level and on site level.
 
-You can customize and tailor the classic search experience more than Microsoft search in SharePoint. Some classic search settings can impact both experiences, [learn how to avoid impacting Microsoft search](differences-classic-modern-search.md).
+You can customize and tailor the classic search experience more than Microsoft Search in SharePoint. Some classic search settings can impact both experiences, [learn how to avoid impacting Microsoft Search](differences-classic-modern-search.md).
   
 ## How to get to the classic search administration page
 <a name="__top"> </a>
