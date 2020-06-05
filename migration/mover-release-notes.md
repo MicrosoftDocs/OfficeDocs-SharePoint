@@ -93,9 +93,9 @@ Deploy to production: Frontend release V1.16.1.1.  This frontend release focuses
 - In the Migration Manager table, users would be able to open the Transfer Summary panel by clicking on a row. This behavious has changed and users will now need to either double click on the row or click on the status of the row. Also, the entire Migration Manager table appear visually different as changes were made to make it accessible for screenreader users. 
 
 
-### DEPLOY PRODUCTION - backend @ v1.16.3.1
+### V1.16.3.1 (May 29, 2020)
 
-Announcing a deploy that should have no impact on customers. This  moves the storage location of pre-rendered user logs and scan reports into Azure Blob Storage.
+Deploy to production: Backend release V1.16.3.1.  Announcing a deploy that should have no impact on customers. This  moves the storage location of pre-rendered user logs and scan reports into Azure Blob Storage.
 
 #### User/Support Impact
 - None
@@ -104,12 +104,9 @@ Announcing a deploy that should have no impact on customers. This  moves the sto
 - None
 
 
+### V1.16.2 (May 28, 2020)
 
-[5/28 9:53 AM] Diego Luces
-Important!
-### May 28, 2020:  DEPLOY PRODUCTION - backend @ v1.16.2
-
- New release of our Mover backend that includes an exciting new feature for preview (Box Notes to OneNote notebooks conversion) as well as a fix to a customer issue and stability fixes.
+ Deploy to production:  Backend release 1.16.2.  New release of our Mover backend that includes an exciting new feature for preview (Box Notes to OneNote notebooks conversion) as well as a fix to a customer issue and stability fixes.
 
 #### User Impact
 
@@ -124,18 +121,18 @@ Important!
 
 
 ### May 25 DEPLOY PRODUCTION - backend @ v1.16.1
- We've just sent out a new production deploy with only some stability improvements. There are no customer facing changes. But this will help clear some backlogs in our migration job monitoring service.
+Deploy to production:  Backend release We've just sent out a new production deploy with only some stability improvements. There are no customer facing changes. But this will help clear some backlogs in our migration job monitoring service.
 
 
 ### May 20 DEPLOY PRODUCTION - frontend & backend @v1.16.0
- New frontend and backend deploy that cleans up left over billing related code
+Deploy to production:  Backend release New frontend and backend deploy that cleans up left over billing related code
 #### User/Support Impact
 - Support: Adds an option to the jolt migration:modify command to set the auto_job_limit flag. Setting this flag will allow the new migration scaler to mange the job limit of the migration automatically. Valid values to set the new option to are true or false  
 #### Customer Workflow Impact
 - None 
 
 ### May 14 DEPLOY PRODUCTION - backend @v1.15.11
- Just deployed changes improving experience to some of our users.
+Deploy to production:  Backend release Just deployed changes improving experience to some of our users.
 
 #### User/Support Impact
 
@@ -147,7 +144,7 @@ Important!
 
 
 ### May 13 DEPLOY PRODUCTION - frontend @ v1.15.4
- A pretty big frontend deploy has gone out, with little UX impact, but library upgrades. 
+ Deploy to production:  Backend release A pretty big frontend deploy has gone out, with little UX impact, but library upgrades. 
 
 #### User/Support Impact
 
@@ -164,7 +161,7 @@ Important!
 
 ### May 12 DEPLOY PRODUCTION - backend @ v1.15.10
 
- Just deployed changes improving experience to some of our users.
+Deploy to production:  Backend release Just deployed changes improving experience to some of our users.
 
 #### User/Support Impact
 
@@ -177,7 +174,7 @@ Important!
 
 ### May 7 DEPLOY PRODUCTION - backend @ v1.15.9
 
- A deploy went out addressing a customer concern about 0-byte files into Office 365, and with many more enhancements that don't currently have a direct user impact but will enable future improvements for our end users.
+ Deploy to production:  Backend release A deploy went out addressing a customer concern about 0-byte files into Office 365, and with many more enhancements that don't currently have a direct user impact but will enable future improvements for our end users.
 
 #### User/Support Impact
 
@@ -188,7 +185,7 @@ Important!
 
 ### May 1 DEPLOY PRODUCTION - frontend @ v1.15.3
 
- A deploy to speed up bulk operation. 
+ Deploy to production:  Backend release A deploy to speed up bulk operation. 
 
 #### User/Support Impact
 
@@ -199,7 +196,7 @@ Important!
 - None
 
 ### DEPLOY PRODUCTION - frontend @ v1.15.2.1
- A small deploy fixing a frontend issue. But also testing part of our infrastructure move to Azure.
+ Deploy to production:  Backend release A small deploy fixing a frontend issue. But also testing part of our infrastructure move to Azure.
 
 #### User/Support Impact
 
@@ -211,7 +208,7 @@ Important!
 
 ### DEPLOY PRODUCTION - backend @ v1.15.8.1
 
- Another deploy today to tackle a customer migration. 
+Deploy to production:  Backend release  Another deploy today to tackle a customer migration. 
 
 #### User/Support Impact
 
@@ -225,7 +222,7 @@ Important!
 
 ### DEPLOY PRODUCTION - backend @ v1.15.7
 
- Another deploy today to tackle a customer migration.
+ Deploy to production:  Backend release Another deploy today to tackle a customer migration.
 
 #### User/Support Impact
 
@@ -237,7 +234,7 @@ Important!
 
 
 ### DEPLOY PRODUCTION - backend @ v1.15.6
- A deploy with customer fixes is coming out.
+Deploy to production:  Backend release  A deploy with customer fixes is coming out.
 
 #### User/Support Impact
 
@@ -248,7 +245,7 @@ Important!
 - None
 
 ### DEPLOY PRODUCTION - frontend @ v1.15.1
-A small frontend deploy.
+Deploy to production:  Backend release A small frontend deploy.
 
 #### User/Support Impact
 - User: Connector Authorization window where the user selects what connector to authorize now displays the full connector names without truncating them (on mobile phones, tablets and desktop).
@@ -258,7 +255,7 @@ A small frontend deploy.
 
 ### DEPLOY PRODUCTION - backend @ v1.15.5.1
 
- This release took some time but it's finally out. A few fixes for our customers, expanding support for Dropbox and Google Drive (G Suite) scenarios.
+ Deploy to production:  Backend release This release took some time but it's finally out. A few fixes for our customers, expanding support for Dropbox and Google Drive (G Suite) scenarios.
    
 #### User/Support Impact
 
@@ -273,7 +270,7 @@ A small frontend deploy.
 
 ### DEPLOY PRODUCTION - backend @ v1.15.4
 
- Last deploy of the week to get out a promised fix to handling of Dropbox Team Folders. This is a work in progress to catch up with the latest about Team Folders, but it fixes urgent issues to unblock customers.
+Deploy to production:  Backend release  Last deploy of the week to get out a promised fix to handling of Dropbox Team Folders. This is a work in progress to catch up with the latest about Team Folders, but it fixes urgent issues to unblock customers.
 
 #### User/Support Impact
 
@@ -284,7 +281,7 @@ None
 
 ### DEPLOY PRODUCTION - backend @v1.15.3
 
- This deploy is very small yet pretty critical for migrations out of G Suite (Admin). Please read the impact statement carefully.
+ Deploy to production:  Backend release This deploy is very small yet pretty critical for migrations out of G Suite (Admin). Please read the impact statement carefully.
 
 #### User/Support Impact
 - User: Fixes a specific case in migrations from G Suite (Admin) that would end up in data duplication. The case relates to folders in an "owner" root that were shared with other users ("guest") and "guest" mounted the folder not in their root folder but somewhere deeper in their tree. In this case, the transfer would not obey the user priority list resulting in the folder being transferred for both "owner" and "guest". This regression was introduced on March 1, 2019 (June 2019 for FTC) and fixed now. Full impact is still being assessed. There is no need to re-run Google Prescans for affected migrations; instead, re-running the transfers will now skip the folder in question appropriately. Remediation for affected customers is to manually removed the duplicated data (upon identification). 
@@ -294,7 +291,7 @@ None
 
 ### DEPLOY PRODUCTION - backend @v1.15.1
 
- We're introducing a bug fix and stability improvements in this deploy.
+Deploy to production:  Backend release  We're introducing a bug fix and stability improvements in this deploy.
 #### User/Support Impact
 - User: Users creating a new Mover account using the Sign in with Microsoft account feature will have appropriate access to running all types of transfers (some transfers appeared as not allowed to some new users). 
 
@@ -304,7 +301,7 @@ None
 
 ### DEPLOY PRODUCTION backend & frontend @ v1.15.0
 
-Mover folks! We are hitting April 1 deadlines on some projects with this deploy.
+Deploy to production:  Backend release 
 
 #### User/Support Impact
 - User: A new "Support" link will be displayed in the top navigation bar in the app. This link will point users to the new support system. The intercom widget will be disabled in the application. 
@@ -315,7 +312,7 @@ Special Customer Impact
 
 ### DEPLOY PRODUCTION - backend @ v1.14.1.1
 
- Deploying the following to production:
+ Deploy to production:  Backend release Deploying the following to production:
 
 #### User/Support Impact
 - User: Fixed an issue with very old migrations with permission mappings that would prevent the app from loading. Support for these old migrations have been fixed.
@@ -333,7 +330,7 @@ Special Customer Impact
 
 
 ### DEPLOY PRODUCTION - backend & frontend @ v1.14.0
- Last deploy of the week. A combined backend/frontend deploy with some fixes to reports and disabling the intercom widget.
+Deploy to production:  Backend release  Last deploy of the week. A combined backend/frontend deploy with some fixes to reports and disabling the intercom widget.
 
 ### User/Support Impact
 
@@ -347,14 +344,14 @@ Special Customer Impact
 - AvePoint: New signups will be disabled. 
 
 ### DEPLOY PRODUCTION - backend @ v1.13.10
- A deploy with a new feature but also with a potential performance fix. Not much otherwise.
+ Deploy to production:  Backend release A deploy with a new feature but also with a potential performance fix. Not much otherwise.
 #### User/Support Impact
 - User: Unique permissions from items within a Dropbox Team Folder will now be moved to the destination.
 #### Special Customer Impact
 - None
 
 ### DEPLOY PRODUCTION - backend @ v1.13.9
- Deploying the following to production on a Friday morning only because it will help us deal with the increased loads (smile)
+Deploy to production:  Backend release  Deploying the following to production on a Friday morning only because it will help us deal with the increased loads (smile)
 #### User/Support Impact
 -  User: There were cases in which transfer cancellations were taking a long time to take effect. This fixes the issue by ensuring they happen faster. 
 - Engineering: Adds more telemetry to help figure out what transfer steps are taking up a long time to complete. 
@@ -369,7 +366,7 @@ Special Customer Impact
 
 
 ### DEPLOY PRODUCTION - backend @ v1.13.7
- Deploying mostly changes to help us determine the root cause for customer issues.
+ Deploy to production:  Backend release Deploying mostly changes to help us determine the root cause for customer issues.
 
 #### User/Support Impact
 
@@ -382,12 +379,14 @@ Special Customer Impact
 
 
 ### DEPLOY PRODUCTION - backend @ v1.13.5
+Deploy to production:  Backend release 
 
 #### User/Support Impact
 
 - User: After a user runs a scan on a schedule, the scan reports (Long Paths, Common Paths, Large Files, Files Extension, Migration Scan Summary Report) were being generated sometimes with a pretty long delay. This is being fixed now. Also, the Migration Actions menu in the Migration Manager will update in real time when the scan reports finish generating and the proper count will be shown for the Scan Reports (zip file) menu item. 
 
 ### DEPLOY PRODUCTION - backend @ v1.13.4
+Deploy to production:  Backend release 
 
 #### User/Support Impact
 
