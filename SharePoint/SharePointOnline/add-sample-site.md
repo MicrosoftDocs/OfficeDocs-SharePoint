@@ -21,7 +21,7 @@ description: "Learn how to add a sample site to your tenant."
 
 # Add a sample site to your tenant
 
-Discover the modern experiences you can build with SharePoint. Use the SharePoint look book and integrated provisioning service to find inspiring samples of communication sites and team sites that look great on the web and on mobile devices. Then, add one or more sample sites to your tenant. You can customize the sample to use for your own site or use the site for learning or showing to your colleagues. You can do this all with the SharePoint look book and the integrated SharePoint provisioning service.</br>
+Discover the modern experiences you can build with Microsoft SharePoint. Use the SharePoint look book and integrated provisioning service to find inspiring samples of communication sites and team sites that look great on the web and on mobile devices. Then, add one or more sample sites to your tenant. You can customize the sample to use for your own site or use the site for learning or showing to your colleagues. You can do this all with the SharePoint look book and the integrated SharePoint provisioning service.</br>
 </br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wDLk]
@@ -43,7 +43,7 @@ Browse the samples in the online [SharePoint look book](https://lookbook.microso
 
 Select a sample to learn more about it. You’ll see the site features, web parts used, and content included. To show you how to use these features, links are provided to a help topic for each feature and its web part(s) in the list.  
 
-After you've decided on the sample you want to use in your tenant, near the bottom of the page, select **Add to your tenant**. To use this service, you'll need to be signed in as a tenant admin.
+After you've decided on the sample you want to use in your tenant, near the bottom of the page, select **Add to your tenant**. To use this service, you'll need to be signed in as a global or SharePoint admin in Microsoft 365.
 
 ![](media/LookBookCover1.png)
 
