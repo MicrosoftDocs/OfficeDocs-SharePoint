@@ -48,7 +48,7 @@ By taking full advantage of SharePoint-powered file storage in Microsoft 365, yo
 When users keep files on their local device or on a network share, they're out of luck when they don't have the device with them or don't have a connection to your network. If something happens to a user's device, the data might not be recoverable. If a user's device is upgraded, local data must be migrated. By storing files in the cloud, users can access them from all their devices, such as their phone and their home computer (depending on what you allow). They can even access files in a browser from other devices they trust. For example, if two colleagues travel to a customer site and one of their two laptops runs out of battery, they can both access all their files by signing in to portal.office.com on the other laptop. [Get the SharePoint mobile app](https://products.office.com/sharepoint/mobile-app).
 
 > [!NOTE]
-> If you're concerned about users signing in from kiosks or other shared, unmanaged devices, you might want to [enable idle session sign-out](/sign-out-inactive-users.md).
+> If you're concerned about users signing in from kiosks or other shared, unmanaged devices, you might want to [enable idle session sign-out](sign-out-inactive-users.md).
 
 ![Accessing Libraries via the OneDrive mobile app](media/sp-collabguide01.png)
 
