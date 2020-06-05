@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Assessment Tool - SharePoint Online"
+title: "SharePoint Migration Assessment Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: a6dca2a3-72d6-4717-abe9-a58f025ea26e
-description: "Overview of the SharePoint Migration Assessment Tool (SMAT). A tool that helps identify the impact of migrating your server to SharePoint Online with Office 365."
+description: "Overview of the SharePoint Migration Assessment Tool (SMAT). A tool that helps identify the impact of migrating your server to SharePoint in Microsoft 365."
 ---
 
 # Overview of the SharePoint Migration Assessment Tool
 
-The SharePoint Migration Assessment Tool is a simple command line executable that scans the contents of your SharePoint farm to help identify the impact of migrating your server to SharePoint Online with Microsoft 365.
+The SharePoint Migration Assessment Tool is a simple command line executable that scans the contents of your SharePoint farm to help identify the impact of migrating your server to SharePoint with Microsoft 365.
   
 As the tool is designed to run without impacting your environment, you may observe the tool requires one to two days to complete a scan of your environment. During this time, the tool reports progress in the console window. After the scan is complete, you can find output files in the Logs directory. This is where you can find the summary and more detailed insights into the scenarios that could be impacted by migration.
   
@@ -37,7 +37,7 @@ The tool offers two modes: Assessment and Identity Mapping.
   
 ### Assessment
 
-This is the default mode. If you run SMAT.exe, the assessment will run. The assessment process runs scans against the SharePoint farm and associated content looking for issues that have been known to cause issues for customers migrating into SharePoint Online. For more info about the scans that are available, see [SharePoint Migration Assessment Tool: Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
+This is the default mode. If you run SMAT.exe, the assessment will run. The assessment process runs scans against the SharePoint farm and associated content looking for issues that have been known to cause issues for customers migrating into SharePoint. For more info about the scans that are available, see [SharePoint Migration Assessment Tool: Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
   
 ### Identity Mapping
 
