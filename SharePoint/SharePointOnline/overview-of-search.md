@@ -15,7 +15,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 479cfd6b-900b-46aa-b497-c13787771d3f
-description: Learn how you can customize the search experience in SharePoint to help users find the information they're looking for.
+description: Learn how you can customize the search experience in Microsoft SharePoint to help users find the information they're looking for.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -23,7 +23,7 @@ ms.custom: seo-marvel-apr2020
 
 If you're responsible for search in your organization, learn how you can tailor the search experience to your organization and make search even better for your users.
 
-SharePoint has both a classic and a modern search experience, where [Microsoft search in SharePoint](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) is the modern search experience. The most visible difference is that the Microsoft search box is placed at the top of SharePoint, in the header bar. Another difference is that Microsoft search is personal. The results one user sees are different from what other users see, even when they search for the same words. Users see results before they start typing in the search box, based on their previous activity and trending content in Microsoft 365, and the results update as they type. The search results are easy to explore without any effort from you as an admin. Learn more about the Microsoft search experience for users in [Find what you need with Microsoft search](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87).
+SharePoint in Microsoft 365 has both a classic and a modern search experience, where [Microsoft search in SharePoint](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) is the modern search experience. The most visible difference is that the Microsoft search box is placed at the top of SharePoint, in the header bar. Another difference is that Microsoft search is personal. The results one user sees are different from what other users see, even when they search for the same words. Users see results before they start typing in the search box, based on their previous activity and trending content in Microsoft 365, and the results update as they type. The search results are easy to explore without any effort from you as an admin. Learn more about the Microsoft search experience for users in [Find what you need with Microsoft search](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87).
 
 Both search experiences use the same search index to find search results. You can customize and tailor the classic search experience more tha Microsoft search in SharePoint. Some classic search settings can impact both experiences, [learn how to avoid impacting Microsoft search](differences-classic-modern-search.md). Read [When to use which search experience](get-started-with-modern-search-experience.md) to decide which experience is best for your organization.
 

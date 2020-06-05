@@ -26,11 +26,11 @@ description: "Learn what Microsoft does to protect your data in SharePoint and O
 
 # How SharePoint and OneDrive safeguard your data in the cloud
  
-You control your data. When you put your data in SharePoint and OneDrive, you remain the owner of the data. For more info about the ownership of your data, see [Microsoft 365 Privacy by Design](https://www.microsoft.com/trustcenter/privacy/privacy-overview).
+You control your data. When you put your data in SharePoint and OneDrive for Microsoft 365, you remain the owner of the data. For more info about the ownership of your data, see [Microsoft 365 Privacy by Design](https://www.microsoft.com/trustcenter/privacy/privacy-overview).
   
 ## How we treat your data
  
-Microsoft engineers administer SharePoint and OneDrive using a Windows PowerShell console that requires two-factor authentication. We perform day-to-day tasks by running workflows so we can rapidly respond to new situations. Check-ins to the service require code review and management approval.
+Microsoft engineers administer SharePoint and OneDrive using a PowerShell console that requires two-factor authentication. We perform day-to-day tasks by running workflows so we can rapidly respond to new situations. Check-ins to the service require code review and management approval.
   
 No engineer has standing access to the service. When engineers need access, they must request it. Eligibility is checked, and if engineer access is approved, it's only for a limited time. In rare cases where Microsoft engineers need access to content (for example, if you submit a support ticket because a user can't access an important file that we believe is damaged), the engineers must check in a specific workflow that requires business justification and manager approval. An audit event is generated that you can view in the Microsoft 365 admin center. You can also turn on a feature called Customer Lockbox, so you need to approve the request. The engineer gets access only to the file in question. To learn how to turn on or off Customer Lockbox and approve and deny requests, see [Microsoft 365 Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests).
   

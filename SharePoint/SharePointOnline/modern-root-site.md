@@ -25,7 +25,7 @@ description: "Learn about the options for modernizing the root site for your org
 
 # Modernize your root site
   
-When SharePoint is set up for an organization, a root (or top-level) site is created. Before April 2019, the site was created as a classic team site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
+When Microsoft SharePoint is set up for an organization, a root (or top-level) site is created. Before April 2019, the site was created as a classic team site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
 
 - If you have a different site that you want to use as your root site (a communication site or modern team site that isn't connected to an Office 365 group), [replace (swap) the root site](#replace-your-root-site) with the other site.
 - If you want the content on your classic team site to be displayed with the layout of a communication site, [apply the communication site experience](#apply-the-communication-site-experience-to-the-root-site-coming-soon) to the root site. This feature isn't available yet, but is coming soon.

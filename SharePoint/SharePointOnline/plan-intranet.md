@@ -25,7 +25,7 @@ description: "Learn about how to plan a new SharePoint intranet with focus on br
 
 # Plan an intelligent SharePoint intranet
 
-Microsoft SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
+Microsoft SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint in Microsoft 365 might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
 
 We'll cover how to:
 

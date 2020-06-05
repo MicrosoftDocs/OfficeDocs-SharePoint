@@ -20,7 +20,7 @@ description: "Specify a library as a location for assets that are centrally stor
 
 # Create an organization assets library
 
-If your organization needs to store and manage files for all your users to use, you can specify one or more document libraries on a site as an "organization assets library." You can create two types of organization assets:
+If your organization needs to store and manage files for all your users to use, you can specify one or more document libraries on a SharePoint site as an "organization assets library." You can create two types of organization assets:
 
 - **Images such as photos and logos**. When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified. 
 

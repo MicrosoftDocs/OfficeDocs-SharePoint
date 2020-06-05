@@ -29,7 +29,7 @@ description: "In this article, you'll learn how global and SharePoint admins can
 > [!NOTE]
 >  This feature is not available for Microsoft 365 Government GCC High customers.
 
-As a global or SharePoint admin in your organization, you can change the URL for the following types of sites (previously called "site collections"):
+As a global or SharePoint admin in your organization, you can change the URL for the following types of SharePoint sites (previously called "site collections"):
 
 - Microsoft 365 group-connected team sites
 - Modern team sites that don't belong to a Microsoft 365 group
