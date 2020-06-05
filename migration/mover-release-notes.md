@@ -15,42 +15,7 @@ description: "Mover Release Notes"
 
 # Mover release notes
 
-This article discusses cumulative improvements in the Mover migration tool.
-
-## Version history
-
-|Release|Date|
-|:-----|:-----|
-|1.16.4|June 3|
-|1.16.1.1|June 1|
-|1.16.3.1|May 29|
-|1.16.2|May 28|
-|1.16.1|May 25|
-||May 22|
-|1.16.0|May 20|
-|1.15.11|May 14|
-|1.15.4|May 13|
-|1.15.10|May 12|
-|1.15.9|May 7|
-|1.15.3|May 1|
-|1.15.2.1|April 29|
-|1.15.8.1|April 28|
-|1.15.7|April 23|
-|1.15.6|April 23|
-|1.15.1|April 21|
-|1.15.5.1|April 21|
-|1.15.4|April 9|
-|1.15.3|April 8|
-|1.15.1|April 2|
-|1.15.0|April 1|
-|1.14.1.1|March 31|
-|1.14.0|March 26|
-|1.13.10|March 24|
-|1.13.9|March 20|
-|1.13.7|March 17|
-|1.13.5|March 11|
-|1.13.4|March 9|
-
+This article discusses cumulative features and enhancements in the Mover migration tool.
 
 
 ## V1.16.4 (June 3, 2020)
