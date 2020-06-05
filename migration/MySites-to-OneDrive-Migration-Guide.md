@@ -17,11 +17,11 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn how to evaluate the environment, prepare, and migrate content from MySites to OneDrive in Office 365."
+description: "Learn how to evaluate the environment, prepare, and migrate content from MySites to OneDrive in Microsoft 365."
 ---
 
 # MySites to OneDrive Migration Guide
-This guide will help you prepare to migrate from My Sites to OneDrive.
+This guide will help you prepare to migrate from My Sites to OneDrive in Microsoft 365.
 
 Most migrations fall into regular phases as follows. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users.
 
