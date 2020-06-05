@@ -51,7 +51,7 @@ This article discusses cumulative improvements in the Mover migration tool.
 |1.13.5|March 11|
 |1.13.4|March 9|
 
-
+## Mover feature introduction and enhancements
 
 ### June 3  DEPLOY PRODUCTION - backend @v1.16.4
 
@@ -70,7 +70,7 @@ We've just sent out a new production deploy with only some stability improvement
 
 ### June 1 DEPLOY PRODUCTION - frontend @ v1.16.1.1
 
-Mover team! This frontend release focuses on improving accessibility to our application for keyboard and screenreader users.
+ This frontend release focuses on improving accessibility to our application for keyboard and screenreader users.
 
 #### User/Support Impact
 
@@ -107,7 +107,7 @@ Announcing a deploy that should have no impact on customers. This  moves the sto
 Important!
 ### May 28, 2020:  DEPLOY PRODUCTION - backend @ v1.16.2
 
-Mover team! New release of our Mover backend that includes an exciting new feature for preview (Box Notes to OneNote notebooks conversion) as well as a fix to a customer issue and stability fixes.
+ New release of our Mover backend that includes an exciting new feature for preview (Box Notes to OneNote notebooks conversion) as well as a fix to a customer issue and stability fixes.
 
 #### User Impact
 
@@ -122,18 +122,18 @@ Mover team! New release of our Mover backend that includes an exciting new featu
 
 
 ### May 25 DEPLOY PRODUCTION - backend @ v1.16.1
-Mover team! We've just sent out a new production deploy with only some stability improvements. There are no customer facing changes. But this will help clear some backlogs in our migration job monitoring service.
+ We've just sent out a new production deploy with only some stability improvements. There are no customer facing changes. But this will help clear some backlogs in our migration job monitoring service.
 
 
 ### May 20 DEPLOY PRODUCTION - frontend & backend @v1.16.0
-Mover team! New frontend and backend deploy that cleans up left over billing related code
+ New frontend and backend deploy that cleans up left over billing related code
 #### User/Support Impact
 - Support: Adds an option to the jolt migration:modify command to set the auto_job_limit flag. Setting this flag will allow the new migration scaler to mange the job limit of the migration automatically. Valid values to set the new option to are true or false  
 #### Customer Workflow Impact
 - None 
 
 ### May 14 DEPLOY PRODUCTION - backend @v1.15.11
-Mover team! Just deployed changes improving experience to some of our users.
+ Just deployed changes improving experience to some of our users.
 
 #### User/Support Impact
 
@@ -145,7 +145,7 @@ Mover team! Just deployed changes improving experience to some of our users.
 
 
 ### May 13 DEPLOY PRODUCTION - frontend @ v1.15.4
-Mover team! A pretty big frontend deploy has gone out, with little UX impact, but library upgrades. 
+ A pretty big frontend deploy has gone out, with little UX impact, but library upgrades. 
 
 #### User/Support Impact
 
@@ -162,7 +162,7 @@ Mover team! A pretty big frontend deploy has gone out, with little UX impact, bu
 
 ### May 12 DEPLOY PRODUCTION - backend @ v1.15.10
 
-Mover team! Just deployed changes improving experience to some of our users.
+ Just deployed changes improving experience to some of our users.
 
 #### User/Support Impact
 
@@ -175,7 +175,7 @@ Mover team! Just deployed changes improving experience to some of our users.
 
 ### May 7 DEPLOY PRODUCTION - backend @ v1.15.9
 
-Mover team! A deploy went out addressing a customer concern about 0-byte files into Office 365, and with many more enhancements that don't currently have a direct user impact but will enable future improvements for our end users.
+ A deploy went out addressing a customer concern about 0-byte files into Office 365, and with many more enhancements that don't currently have a direct user impact but will enable future improvements for our end users.
 
 #### User/Support Impact
 
@@ -186,7 +186,7 @@ Mover team! A deploy went out addressing a customer concern about 0-byte files i
 
 ### May 1 DEPLOY PRODUCTION - frontend @ v1.15.3
 
-Mover team! A deploy to speed up bulk operation. 
+ A deploy to speed up bulk operation. 
 
 #### User/Support Impact
 
@@ -197,7 +197,7 @@ Mover team! A deploy to speed up bulk operation.
 - None
 
 ### DEPLOY PRODUCTION - frontend @ v1.15.2.1
-Mover team! A small deploy fixing a frontend issue. But also testing part of our infrastructure move to Azure.
+ A small deploy fixing a frontend issue. But also testing part of our infrastructure move to Azure.
 
 #### User/Support Impact
 
@@ -209,7 +209,7 @@ Mover team! A small deploy fixing a frontend issue. But also testing part of our
 
 ### DEPLOY PRODUCTION - backend @ v1.15.8.1
 
-Mover Team! Another deploy today to tackle a customer migration. 
+ Another deploy today to tackle a customer migration. 
 
 #### User/Support Impact
 
@@ -223,7 +223,7 @@ Mover Team! Another deploy today to tackle a customer migration.
 
 ### DEPLOY PRODUCTION - backend @ v1.15.7
 
-Mover Team! Another deploy today to tackle a customer migration.
+ Another deploy today to tackle a customer migration.
 
 #### User/Support Impact
 
@@ -235,7 +235,7 @@ Mover Team! Another deploy today to tackle a customer migration.
 
 
 ### DEPLOY PRODUCTION - backend @ v1.15.6
-Mover team! A deploy with customer fixes is coming out.
+ A deploy with customer fixes is coming out.
 
 #### User/Support Impact
 
@@ -256,7 +256,7 @@ A small frontend deploy.
 
 ### DEPLOY PRODUCTION - backend @ v1.15.5.1
 
-Mover team! This release took some time but it's finally out. A few fixes for our customers, expanding support for Dropbox and Google Drive (G Suite) scenarios.
+ This release took some time but it's finally out. A few fixes for our customers, expanding support for Dropbox and Google Drive (G Suite) scenarios.
    
 #### User/Support Impact
 
@@ -271,7 +271,7 @@ Mover team! This release took some time but it's finally out. A few fixes for ou
 
 ### DEPLOY PRODUCTION - backend @ v1.15.4
 
-Mover team! Last deploy of the week to get out a promised fix to handling of Dropbox Team Folders. This is a work in progress to catch up with the latest about Team Folders, but it fixes urgent issues to unblock customers.
+ Last deploy of the week to get out a promised fix to handling of Dropbox Team Folders. This is a work in progress to catch up with the latest about Team Folders, but it fixes urgent issues to unblock customers.
 
 #### User/Support Impact
 
@@ -282,7 +282,7 @@ None
 
 ### DEPLOY PRODUCTION - backend @v1.15.3
 
-Mover team! This deploy is very small yet pretty critical for migrations out of G Suite (Admin). Please read the impact statement carefully.
+ This deploy is very small yet pretty critical for migrations out of G Suite (Admin). Please read the impact statement carefully.
 
 #### User/Support Impact
 - User: Fixes a specific case in migrations from G Suite (Admin) that would end up in data duplication. The case relates to folders in an "owner" root that were shared with other users ("guest") and "guest" mounted the folder not in their root folder but somewhere deeper in their tree. In this case, the transfer would not obey the user priority list resulting in the folder being transferred for both "owner" and "guest". This regression was introduced on March 1, 2019 (June 2019 for FTC) and fixed now. Full impact is still being assessed. There is no need to re-run Google Prescans for affected migrations; instead, re-running the transfers will now skip the folder in question appropriately. Remediation for affected customers is to manually removed the duplicated data (upon identification). 
@@ -292,7 +292,7 @@ None
 
 ### DEPLOY PRODUCTION - backend @v1.15.1
 
-Mover team! We're introducing a bug fix and stability improvements in this deploy.
+ We're introducing a bug fix and stability improvements in this deploy.
 #### User/Support Impact
 - User: Users creating a new Mover account using the Sign in with Microsoft account feature will have appropriate access to running all types of transfers (some transfers appeared as not allowed to some new users). 
 
@@ -313,7 +313,7 @@ Special Customer Impact
 
 ### DEPLOY PRODUCTION - backend @ v1.14.1.1
 
-Mover team! Deploying the following to production:
+ Deploying the following to production:
 
 #### User/Support Impact
 - User: Fixed an issue with very old migrations with permission mappings that would prevent the app from loading. Support for these old migrations have been fixed.
@@ -331,7 +331,7 @@ Mover team! Deploying the following to production:
 
 
 ### DEPLOY PRODUCTION - backend & frontend @ v1.14.0
-Mover team! Last deploy of the week. A combined backend/frontend deploy with some fixes to reports and disabling the intercom widget.
+ Last deploy of the week. A combined backend/frontend deploy with some fixes to reports and disabling the intercom widget.
 
 ### User/Support Impact
 
@@ -345,14 +345,14 @@ Mover team! Last deploy of the week. A combined backend/frontend deploy with som
 - AvePoint: New signups will be disabled. 
 
 ### DEPLOY PRODUCTION - backend @ v1.13.10
-Mover team! A deploy with a new feature but also with a potential performance fix. Not much otherwise.
+ A deploy with a new feature but also with a potential performance fix. Not much otherwise.
 #### User/Support Impact
 - User: Unique permissions from items within a Dropbox Team Folder will now be moved to the destination.
 #### Special Customer Impact
 - None
 
 ### DEPLOY PRODUCTION - backend @ v1.13.9
-Mover team! Deploying the following to production on a Friday morning only because it will help us deal with the increased loads (smile)
+ Deploying the following to production on a Friday morning only because it will help us deal with the increased loads (smile)
 #### User/Support Impact
 -  User: There were cases in which transfer cancellations were taking a long time to take effect. This fixes the issue by ensuring they happen faster. 
 - Engineering: Adds more telemetry to help figure out what transfer steps are taking up a long time to complete. 
@@ -367,7 +367,7 @@ Mover team! Deploying the following to production on a Friday morning only becau
 
 
 ### DEPLOY PRODUCTION - backend @ v1.13.7
-Mover team! Deploying mostly changes to help us determine the root cause for customer issues.
+ Deploying mostly changes to help us determine the root cause for customer issues.
 
 #### User/Support Impact
 
