@@ -21,13 +21,13 @@ ms.collection:
 
 ## Overview
 
-In SharePoint, it is possible to create a custom permission level and then assign that permission level to users and groups. Some migration tools will have problems moving this information to SharePoint Online. As a result, permissions will not be the same for impacted users and groups post migration.
+In SharePoint, it is possible to create a custom permission level and then assign that permission level to users and groups. Some migration tools will have problems moving this information to SharePoint. As a result, permissions will not be the same for impacted users and groups post migration.
   
 For more information on permission levels, see [Understanding permission levels in SharePoint](/sharepoint/understanding-permission-levels).
   
 ## Data Migration
 
-With some tooling, this data is not migrated. It is recommended to use the permission levels provided by SharePoint. However, if custom permission levels are required, the permission levels would need to be manually recreated on the SharePoint Online sites.
+With some tooling, this data is not migrated. It is recommended to use the permission levels provided by SharePoint. However, if custom permission levels are required, the permission levels would need to be manually recreated on the SharePoint sites.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 

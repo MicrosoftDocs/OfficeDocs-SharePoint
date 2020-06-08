@@ -27,7 +27,7 @@ Learn how to fix issues with Web Application policies during migration.
   
 ## Overview
 
-In the source environment, there are typically discrete web applications for Team, Portal, Partner, and MySite (OneDrive). SharePoint On Premise allows the use of web application policies to grant or deny blanket-level permissions to entire web applications. These permissions override any permissions set at the site collection, site, list/library, or item level.
+In the source environment, there are typically discrete web applications for Team, Portal, Partner, and MySite (OneDrive). SharePoint Server allows the use of web application policies to grant or deny blanket-level permissions to entire web applications. These permissions override any permissions set at the site collection, site, list/library, or item level.
   
 The target environment uses a single web application to host all site collections.
   

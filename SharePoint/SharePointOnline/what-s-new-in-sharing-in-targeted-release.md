@@ -63,4 +63,4 @@ The following table shows the differences between sharing with external users wi
 ## See also
 [External sharing overview](external-sharing-overview.md)
 
-[Secure SharePoint Online sites and files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)
+[Secure SharePoint sites and files](/office365/securitycompliance/secure-sharepoint-online-sites-and-files)

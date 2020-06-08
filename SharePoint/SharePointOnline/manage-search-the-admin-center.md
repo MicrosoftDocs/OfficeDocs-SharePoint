@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Online classic search administration overview"
+title: "SharePoint classic search administration overview"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,16 +14,16 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 21ea5d29-6cb2-4e40-9cc8-77c05d94beb5
-description: "Use the SharePoint Online search administration page to customize the classic search experience for users. Define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search."
+description: "Use the search page in the classic SharePoint admin center to customize the classic search experience for users."
 ---
 
-# SharePoint Online classic search administration overview
+# SharePoint classic search administration overview
 
 As a global or SharePoint admin in Microsoft 365, you can customize and impact the search experiences for your users. You can define searchable managed properties in the search schema, identify high-quality pages to improve relevance, manage query rules and result sources, and remove individual results. You can also evaluate any changes by viewing reports about usage and search.
   
 The changes you make from the search administration page are valid for the whole tenant, but you can also customize search on site collection level and on site level.
 
-You can customize and tailor the classic search experience more than Microsoft search in SharePoint. Some classic search settings can impact both experiences, [learn how to avoid impacting Microsoft search](differences-classic-modern-search.md).
+You can customize and tailor the classic search experience more than Microsoft Search in SharePoint. Some classic search settings can impact both experiences, [learn how to avoid impacting Microsoft Search](differences-classic-modern-search.md).
   
 ## How to get to the classic search administration page
 <a name="__top"> </a>
@@ -55,9 +55,9 @@ You can customize and tailor the classic search experience more than Microsoft s
 |[Manage crawl log permissions](set-crawl-log-permissions.md) <br/> |Learn how to grant users or groups read access to crawl log information for the tenant. A typical use case is in eDiscovery, where users may need to check whether crawled content was in fact added to the search index.  <br/> |
    
 > [!NOTE]
-> Thesaurus isn't available in SharePoint Online. 
+> Thesaurus isn't available in SharePoint for Microsoft 365. 
   
 ## See also
 <a name="__top"> </a>
 
-[Search limits for SharePoint Online](search-limits.md)
+[Search limits for SharePoint](search-limits.md)

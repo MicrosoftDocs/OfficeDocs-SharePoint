@@ -19,19 +19,19 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 ms.assetid: 411c5512-e99c-4010-8a25-113515851cd7
-description: "Learn how to mitigate issues with Sandbox solutions during migration."
+description: "Learn how to mitigate issues with sandbox solutions during migration."
 ---
 
 # Migration Assessment Scan: Sandbox Solution
 
-Learn how to mitigate issues with Sandbox solutions during migration.
+Learn how to mitigate issues with sandbox solutions during migration.
   
 ## Overview
 
 > [!IMPORTANT]
-> SharePoint Online does not support Sandbox solutions. 
+> SharePoint in Microsoft 365 does not support sandbox solutions. 
   
-SharePoint Online does not support sandbox solutions. As a result, any functionality that is using the sandbox in your current environment will need to be replaced with a supported technology. See the Office Dev Center Patterns and Practices site for information on building customizations.
+SharePoint does not support sandbox solutions. As a result, any functionality that is using the sandbox in your current environment will need to be replaced with a supported technology. See the Office Dev Center Patterns and Practices site for information on building customizations.
   
 https://dev.office.com/patterns-and-practices
   
