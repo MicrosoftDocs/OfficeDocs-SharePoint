@@ -24,12 +24,12 @@ additionalContent:
     - title: For IT Professionals # < 60 chars (optional)
       items:
         # Card
-        - title: SharePoint Online
-          summary: Find resources for managing SharePoint Online in your Microsoft 365 environment.
+        - title: SharePoint in Microsoft 365
+          summary: Find resources for managing SharePoint in your Microsoft 365 environment.
           url: /sharepoint/sharepoint-online
         # Card
-        - title: Migrate to SharePoint Online
-          summary: Move your data to the cloud. Migrate data from either your on-premises file shares or SharePoint Server to SharePoint Online.
+        - title: Migrate to SharePoint in Microsoft 365
+          summary: Move your data to the cloud. Migrate data from either your on-premises file shares or SharePoint Server.
           url: /sharepointmigration/migrate-to-sharepoint-online
         # Card
         - title: SharePoint Hybrid
@@ -37,7 +37,7 @@ additionalContent:
           url: /sharepoint/hybrid/hybrid
         # Card
         - title: PowerShell Reference for SharePoint
-          summary: Learn about the PowerShell cmdlets you need to manage SharePoint Server or SharePoint Online.
+          summary: Learn about the PowerShell cmdlets you need to manage SharePoint Server or SharePoint in Microsoft 365.
           url: /powershell/sharepoint
         # Card
         - title: SharePoint Server
@@ -55,7 +55,7 @@ additionalContent:
           url: /sharepoint/dev
         # Card
         - title: End users
-          summary: Find help, training, and technical support for SharePoint users on support.office.com.
+          summary: Find help, training, and technical support for your SharePoint users.
           url: https://support.office.com/sharepoint
         # Card
         - title: Microsoft 365 Community Content
