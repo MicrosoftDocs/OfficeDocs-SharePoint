@@ -28,18 +28,18 @@ The following image illustrates three segments in an organization: HR, Sales, an
 
 ![Example of segments in an organization](/sharepoint/sharepointonline/media/info-barriers-segments-example.png)
 
-## Prerequisites
-
-- [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- Complete the form to enable SharePoint and OneDrive information barriers in your organization. 
-- Create segments and define the users in each. Create policies that block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
- 
-With information barriers in OneDrive, when a segment is applied to a user, within 24 hours that segment is automatically associated with the user's OneDrive. If compatible segments are also all compatible with each other, they will be automatically associated with the OneDrive. If any segments are incompatible with each other, only the user's segment will be automatically associated. 
+With information barriers in OneDrive, when a segment is applied to a user, within 24 hours that segment is automatically associated with the user's OneDrive. Other segments that are compatible with the user's segment and with each other will also get associated with the OneDrive. A OneDrive can have up to 10 segments associated with it. A global or SharePoint admin can manage these segments using PowerShell, as described later in the section [Associate or remove additional segments on a user's OneDrive](#associate-or-remove-segments-on-a-users-onedrive).
 
 In the above example, the HR segment is compatible with both Sales and Research. However, the Sales and Research segments are incompatible. In this case, the OneDrive for a user in Sales will have the Sales and HR segments, and the OneDrive for a user in Research will have the Research and HR segments. The OneDrive of a user in HR will have only the HR segment because Sales and Research are incompatible.
 
 When these segments are associated with the OneDrive, content can be shared with and accessed by only users who have a matching segment.
 
+## Prerequisites
+
+- [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
+- Complete the form to enable SharePoint and OneDrive information barriers in your organization. 
+- Create segments and define the users in each. Create policies that block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). Wait 24 hours for the changes to propagate through your environment.
+ 
 ## Sharing files from a OneDrive that has segments associated
 
 When a segment is associated with a OneDrive:
@@ -56,11 +56,14 @@ When a OneDrive has no segments associated:
 For a user to access content in a OneDrive associated with segments:
 
 - The user's segment must match a segment that is associated with the OneDrive.
+AND
 - The files must be shared with the user. 
 
 Non-segment users can access shared OneDrive files only from other non-segment users. They can't access shared OneDrive files from users who have a segment applied. 
 
 ## Use PowerShell to view the segments associated with a OneDrive
+
+A global or SharePoint admin can view and change the segments associated with a user's OneDrive. 
 
 1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a global admin. 
 
@@ -95,7 +98,7 @@ Non-segment users can access shared OneDrive files only from other non-segment u
     Get-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment 
 
 
-## Associate or remove additional segments on a user's OneDrive
+## Associate or remove segments on a user's OneDrive
 
 > [!WARNING]
 > If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user. Similarly, don't remove a user's segment from their OneDrive.
@@ -109,7 +112,7 @@ Set-Sposite -Identity <site URL> -AddInformationSegment <segment GUID>
 Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
 -AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
 
-An error will appear if you attempt to associate a segment that isn't compatible with the existing segments. 
+An error will appear if you attempt to associate a segment that isn't compatible with the existing segments on the OneDrive. 
 
 To remove segment from a OneDrive, run the following command.  
 
@@ -130,7 +133,6 @@ If a user’s segment changes, the segment associated with their OneDrive will b
 ## Known issues
 
 - For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a OneDrive that has associated segments isn't supported. Remove any associated segments, move the OneDrive, and then reassociate the segments. 
-- Global admins can't use the Microsoft Graph Explorer to access a OneDrive that has associated segments.
 
 ## Example
 
@@ -142,4 +144,8 @@ The example at the beginning of this article illustrates an organization with th
 |Segments associated with OneDrive     |    HR     |     Sales, HR    |    Research, HR     |   None     |
 |OneDrive content can be shared with     |    HR only     |    Sales and HR     |     Research and HR    |    Anyone based on the sharing settings selected     |
 |OneDrive content can be accessed by     |   HR only      |     Sales and HR    |    Research and HR     |    Anyone with whom the content has been shared     |
-|Teams 1:1 chat is allowed with     |   HR, Sales, Research, and non-segment users      |   Sales, HR, and non-segment users      |    Research, HR, and non-segment users     |   Anyone based on external or guest access settings in Teams      |
+
+## See also
+
+[Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
+[Information barriers in SharePoint](/sharepoint/information-barriers-in-teams)
