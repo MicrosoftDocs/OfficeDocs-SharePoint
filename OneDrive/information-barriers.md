@@ -22,7 +22,7 @@ description: "Learn about associating segments with a OneDrive, and what happens
 
 # Use information barriers with OneDrive
 
-Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one department is handling information that shouldn't be shared with specific other departments or a group needs to be prevented, or isolated, from collaborating with all users outside of that group. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
+Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
 The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. 
 
@@ -37,8 +37,9 @@ When these segments are associated with the OneDrive, content can be shared with
 ## Prerequisites
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- Complete the form to enable SharePoint and OneDrive information barriers in your organization. 
+- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. 
 - Create segments and define the users in each. Create policies that block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). Wait 24 hours for the changes to propagate through your environment.
+- After you have received an email response from us and set your information barrier policies to active, wait 24 hours for the changes to propagate through your environment.
  
 ## Sharing files from a OneDrive that has segments associated
 
@@ -53,10 +54,12 @@ When a OneDrive has no segments associated:
 
 ## Accessing shared files from a OneDrive that has segments associated
 
-For a user to access content in a OneDrive associated with segments:
+For a user to access content in a OneDrive that has segments associated:
 
 - The user's segment must match a segment that is associated with the OneDrive.
-AND
+
+    AND
+
 - The files must be shared with the user. 
 
 Non-segment users can access shared OneDrive files only from other non-segment users. They can't access shared OneDrive files from users who have a segment applied. 
@@ -101,7 +104,10 @@ A global or SharePoint admin can view and change the segments associated with a 
 ## Associate or remove segments on a user's OneDrive
 
 > [!WARNING]
-> If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user. Similarly, don't remove a user's segment from their OneDrive.
+> If the segments associated with a user's OneDrive don't match the segment applied to the user, the user won't be able to access their OneDrive. Be careful not to associate any segments with the OneDrive of a non-segment user. 
+
+> [!NOTE]
+> Any changes you make will be overwritten if the user's segment changes.
 
 To associate a segment with a OneDrive, run the following command in the SharePoint Online Management Shell.
 
@@ -116,7 +122,6 @@ An error will appear if you attempt to associate a segment that isn't compatible
 
 To remove segment from a OneDrive, run the following command.  
 
-
 ```PowerShell
 Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
  ``` 
@@ -124,13 +129,13 @@ Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
 Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
 -RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
 
-## Effects of changing information barrier policies and user segments 
-
-If a policy changes after files are shared, the sharing links will work only if the user attempting to access the shared files has a segment applied that matches a segment associated with the OneDrive.
+## Effects of changes to user segments or information barrier policies 
 
 If a user’s segment changes, the segment associated with their OneDrive will be automatically updated to match within 24 hours, and any compatible segments will be added.
 
-## Known issues
+If a policy changes after files are shared, the sharing links will work only if the user attempting to access the shared files has a segment applied that matches a segment associated with the OneDrive.
+
+## Not supported
 
 - For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a OneDrive that has associated segments isn't supported. Remove any associated segments, move the OneDrive, and then reassociate the segments. 
 
