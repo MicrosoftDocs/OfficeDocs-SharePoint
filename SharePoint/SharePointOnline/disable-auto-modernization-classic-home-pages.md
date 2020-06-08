@@ -18,22 +18,20 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to disable automatic modernization of classic home site home pages"
+description: "Learn how to disable automatic modernization of classic home pages"
 
 ---
 # Classic home page modernization
 
-You have a new home page for your team site. Now it's easier to post news and use on mobile than ever before. 
+Modernizing the home page of a classic SharePoint team site makes the page look great on any device and makes it easier for users to customize the layout and see news and activity. This article covers all the details on how automatic modernization works and the controls you have as an administrator. 
 
-This article covers all the details on how the feature works and the controls you have as an administrator. 
-
-## How it works? 
+## How it works 
 
 If a classic team site meets the following criteria for being updated, the home page will automatically modernize the next time a user visits. When users first experience the change, they’ll see a walkthrough that highlights the new capabilities and includes a link to a help article with more details. 
 
-We encourage users to adopt the change in order to benefit from the power of modernized pages. However, if site admins or site owners want to revert to the classic home page, they can. Instructions are available in the [support article](https://support.office.com/article/new-sharepoint-team-home-page-77cbbd3c-2a23-4a76-bfd7-c5bf95afe1c6). 
+We encourage users to adopt the change in order to benefit from the power of modernized pages. However, if site admins or site owners want to revert to the classic home page, they can. Instructions are available in the [support article](https://support.office.com/article/77cbbd3c-2a23-4a76-bfd7-c5bf95afe1c6). 
 
-### Update criteria: 
+### Update criteria 
 
 - Classic team site (STS#0) only.
 
@@ -52,33 +50,32 @@ We encourage users to adopt the change in order to benefit from the power of mod
 - The classic publishing feature is turned off.
 
 >[!NOTE]
->All update criteria must be met in order for a team site home page to qualify for the automatic upgrade.
+>All update criteria must be met for a team site home page to qualify for the automatic upgrade.
 
-### The technical details: 
+### The technical details 
 
 - Applies to both STS#0 site collections and all corresponding subsites.
 
-- The update only applies to the home page. No other classic pages will be changed. We recommend using the [SharePoint PnP modernization framework](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages) for all other site pages. 
+- The update applies only to the home page. No other classic pages will be changed. We recommend using the [SharePoint PnP modernization framework](/sharepoint/dev/transform/modernize-userinterface-site-pages) for all other site pages. 
 
 - The new modern home page is named ‘Home.aspx’ and the classic page gets renamed to ‘Home(old).aspx’.
 
-- This update does not create an [Microsoft 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
+- This update does not create a [Microsoft 365 Group](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group) for the team site.
 
-- Classic site themes may not be identical once your page is updated to modern. [Learn how to apply custom styles and color to your site](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
+- Classic site themes may not be identical once your page is updated to modern. [Learn how to apply custom styles and color to your site](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview).
 
-- Only site collection admins can revert to the classic home page through the link appearing in the left navigation. Site owners can revert to the classic page by visiting site pages and marking the classic page as their home page. 
+- Only site admins can revert to the classic home page through the link appearing in the left navigation. Site owners can revert to the classic page by visiting site pages and marking the classic page as their home page. 
 
 - Update happens on demand based on next site access. If a subsite is accessed, it will trigger the update for its root site collection and its other subsites. Remember, the update only applies to the root site collection and subsites if the criteria are met. 
 
-- We do not check the state of [custom actions](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins), therefore they will not transfer to your new modern page.
+- We do not check the state of [custom actions](/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins), therefore they will not transfer to your new modern page.
 
 - We do not check the state of modern SharePoint lists and libraries for classic sites.
 
 
 ## Why update classic team site home pages to modern? 
 
-Over the years SharePoint modern pages have become powerful tools for collaboration and productivity at work and we want more users to take advantage of these capabilities. Automatically modernizing team site home pages that are not customized is the first step to helping classic SharePoint users get more out of their products. 
-
+Over the years, SharePoint modern pages have become powerful tools for collaboration and productivity at work and we want more users to take advantage of these capabilities. Automatically modernizing team site home pages that are not customized is the first step to helping classic site users get more out of SharePoint. 
 
 ## What to expect after a classic team site home pages is updated to modern
 
@@ -86,14 +83,14 @@ When users first experience the change, they’ll see a walkthrough that highlig
 
 ![Classic-to-modern upgrade experience](media/classictomodernnewGIF.gif)
 
-For more training, view [the classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf).
+For more training, download the [classic to modern walkthrough](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/media/modernize-classic-home-page-walkthrough.pdf).
 
 
-## How to prevent specific sites from being updated? 
+## How to prevent specific sites from being updated 
 
-We understand there may be sites you don’t want updated. You can use the following tools to disable the update on specific sites: 
+To disable the update on specific sites, use one of the following options: 
 
-**Option 1**: Use [PnP PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded by enabling a web scoped feature on each site and sub site that’s being impacted.
+**Option 1**: Use [PnP PowerShell](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded by enabling a web scoped feature on each site and sub site that’s being impacted.
 
 Connect to the site using Connect-PnPOnline. For example,
 
@@ -107,11 +104,11 @@ If you later want to re-enable modernization of that page, run:
 
 `Disable-PnPFeature -Identity F478D140-B148-4038-9CB0-84A8F1E4BE09 -Scope Web`
 
-**Option 2**: Don’t know what sites will be impacted by this change? You can use the [SharePoint Modernization Scanner](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner) and run the scanner in “HomePageOnly” mode. The output of the modernization scanner run contains a file called SitesWithUncustomizedHomePages.csv. Use this file to get a list of sites and sub sites that will get a modern homepage. This tool will enable you to message users impacted if desired. If needed, use the PowerShell cmdlet above, or the following sample script to opt multiple sites out of the update: https://github.com/SharePoint/sp-dev-modernization/tree/dev/Scripts/HomePageModernizationOptOut  
+**Option 2**: Don’t know what sites will be impacted by this change? You can use the [SharePoint Modernization Scanner](/sharepoint/dev/transform/modernize-scanner) and run the scanner in “HomePageOnly” mode. The output of the modernization scanner run contains a file called SitesWithUncustomizedHomePages.csv. Use this file to get a list of sites and sub sites that will get a modern homepage. This tool will enable you to message users impacted if desired. If needed, use the PowerShell cmdlet above, or the following sample script to opt multiple sites out of the update: https://github.com/SharePoint/sp-dev-modernization/tree/dev/Scripts/HomePageModernizationOptOut  
  
 
 **Option 3**:
-Add an out-of-the-box SharePoint [web part](https://support.office.com/article/classic-and-modern-web-part-experiences-3fdae6c3-8fc1-49ab-8708-8c104b882e64), a custom web part, or text to your team site home page.
+Add an out-of-the-box SharePoint [web part](https://support.office.com/article/3fdae6c3-8fc1-49ab-8708-8c104b882e64), a custom web part, or text to your team site home page.
 
 
 >[!NOTE]
@@ -125,19 +122,19 @@ Classic team sites (STS#0) created after **May 1, 2020** will not get updated.
  
 ## Can I also modernize the other pages in my sites? 
 
-For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages). 
+For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](/sharepoint/dev/transform/modernize-userinterface-site-pages). 
 
 
 ## Getting excited about modern? 
 
 For more help in transitioning to modern, refer to the following resources: 
 
-- [Guide to modern experience in SharePoint](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)
+- [Guide to modern experience in SharePoint](guide-to-sharepoint-modern-experience.md)
 
 - [SharePoint modern inspiration](https://lookbook.microsoft.com/)  
 
-- [Modernizing your classic sites](https://docs.microsoft.com/sharepoint/dev/transform/modernize-classic-sites)  
+- [Modernizing your classic sites](/sharepoint/dev/transform/modernize-classic-sites)  
 
-- [Transform classic pages to modern pages](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages) 
+- [Transform classic pages to modern pages](/sharepoint/dev/transform/modernize-userinterface-site-pages) 
 
  
