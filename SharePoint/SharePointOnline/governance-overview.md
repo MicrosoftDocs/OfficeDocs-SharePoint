@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn about governance best practices in SharePoint Online."
+description: "Learn about governance best practices in SharePoint."
 ---
 
 # SharePoint governance overview
@@ -27,7 +27,7 @@ Your organization might require that you implement strict controls on how these 
 
 ## Resources
 
-Use these resources to further explore governance in SharePoint and related services.
+Use these resources to further explore governance in Microsoft SharePoint and related services.
 
 ### SharePoint
 
