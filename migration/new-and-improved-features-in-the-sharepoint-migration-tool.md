@@ -76,7 +76,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |User feedback|Users can now provide feedback directly from the tool.|
 |Site creation for file shares|Site structure creation is now supported for file share migration.|
 |Records management|Support for SharePoint Server migration of Record libraries.|
-|Enable publishing|Users can now choose to skip enabling publishing feature on SPO communication site| 
+|Enable publishing|Users can now choose to skip enabling publishing feature on SharePoint communication site| 
 |Setting|New setting allows you to not migrate the site and list general settings in a single list migration.| 
 |Setting|New SharePoint setting, "Migrate site settings". Choose if you want to migrate site logo, title, description and other general settings). Default value is on. If it's turned off, the setting will be skipped when migrating to existing destination site in site migration.| 
 |Taxonomy migration|By default, managed metadata migration is turned off, and taxonomy is updated in incremental round.|
@@ -89,7 +89,7 @@ In addition to several minor fixes, the primary improvements made in this releas
 |**Issue**|**Fix**|
 |:----|:-----|
 |Performance|Improvements have been made to taxonomy migration.|
-|User input|Improved handling of full URL for both SharePoint Server and SharePoint Online.|
+|User input|Improved handling of full URL for both SharePoint Server and SharePoint.|
 
 
 
@@ -181,7 +181,7 @@ The following features were added to the SharePoint Migration Tool, Version V2.1
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|Modern design|The SharePoint Migration tool has a new look and feel that is more closely aligned with the Sharepoint Online design for easier use. |
+|Modern design|The SharePoint Migration tool has a new look and feel that is more closely aligned with the SharePoint design for easier use. |
 
 **Improvements**
 
@@ -254,7 +254,7 @@ To use the SPMT 2.1 PowerShell feature (currently in open beta): <br>
     Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
     ```
     <br>To learn more, see:<br> 
-[Migrate to SharePoint Online using PowerShell](/sharepointmigration/overview-spmt-ps-cmdlets)<br>
+[Migrate to SharePoint using PowerShell](/sharepointmigration/overview-spmt-ps-cmdlets)<br>
 [SharePoint Migration Tool PowerShell Reference](/powershell/module/spmt)
 
    
@@ -278,7 +278,7 @@ The following features were added to the SharePoint Migration Tool, Version 1.1.
 |:-----|:-----|
 |Allow migration of 0 bytes files  <br/> |Files will be migrated even if they are of zero bytes.  <br/> |
 |Computer names column  <br/> |A column containing the name of the computers running the migration job has been added to the report.  <br/> |
-|Support of incremental check on target environment  <br/> |In SharePoint Online, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file will not be migrated.  <br/> |
+|Support of incremental check on target environment  <br/> |In SharePoint, an incremental check of the target environment will be performed. If the modified time of the source file is earlier than the modified time of the target file, the file will not be migrated.  <br/> |
    
 **Improvements**
 
