@@ -35,7 +35,7 @@ The following table details the settings available in the Migration Manager. Adv
 |**Setting**|**Description**|
 |:-----|:-----|
 |Azure Active Directory lookup |By default, this is set to **On**. If no user mapping file is provided by the user, then Azure Active Directory is used as the default for user mapping.|
-|User mapping file|By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in AAD.|
+|User mapping file|By default,  *Azure AD lookup*  is used to map users when submitting migration jobs. If you wish to use your own mapping file, select the file to be used by clicking **Choose file**. If you choose to use a custom user mapping file and want to preserve user permissions, turn off  *Azure Active Directory lookup*. By doing so, if a user isn't found in the mapping file, the tool won't look it up in Azure AD.|
 
 
 **Filters**
