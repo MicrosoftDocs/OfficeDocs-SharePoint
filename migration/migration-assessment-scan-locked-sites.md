@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 ms.assetid: 57e13cc6-cec7-4b81-8fe9-7b2646fd5532
-description: "Learn how to mitigate issues with Locked Sites during migration."
+description: "Learn how to mitigate issues with locked sites during migration."
 ---
 
 # Migration Assessment Scan: Locked Sites
 
-Learn how to mitigate issues with Locked Sites during migration.
+Learn how to mitigate issues with locked sites during migration.
   
 ## Overview
 
@@ -51,7 +51,7 @@ To manage the lock status on sites on the target environment, leverage the Share
     
 2. Download the cmdlets from the [SharePoint Online Management Shell download.](https://www.microsoft.com/download/details.aspx?id=35588) https://www.microsoft.com/download/details.aspx?id=35588 
     
-3. Launch SharePoint Management Shell
+3. Launch SharePoint Online Management Shell
     
 4. Run:  `Set-SPSite -LockStatus Unlock`
     
@@ -61,7 +61,7 @@ To manage the lock status on sites on the target environment, leverage the Share
     
 2. Download the cmdlets from the [SharePoint Online Management Shell download.](https://www.microsoft.com/download/details.aspx?id=35588) https://www.microsoft.com/download/details.aspx?id=35588 
     
-3. Launch SharePoint Management Shell
+3. Launch SharePoint Online Management Shell
     
 4. Run:  `Set-SPSite -LockStatus NoAccess`
     

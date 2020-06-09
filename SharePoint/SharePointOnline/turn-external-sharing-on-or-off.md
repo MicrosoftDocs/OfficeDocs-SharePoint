@@ -19,12 +19,12 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 6288296a-b6b7-4ea4-b4ed-c297bf833e30
-description: "Learn how global and SharePoint admins can change the organization-level sharing settings for SharePoint and OneDrive."
+description: "Learn how global and SharePoint admins can change the organization-level sharing settings for SharePoint and OneDrive in Microsoft 365."
 ---
 
 # Manage sharing settings
 
-This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level sharing settings for SharePoint and OneDrive.
+This article describes how global and SharePoint admins in Microsoft 365 can change their organization-level sharing settings for Microsoft SharePoint and Microsoft OneDrive.
 
 For end-to-end guidance around how to configure guest sharing in Microsoft 365, see:
 - [Collaborate with guests on a document](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)

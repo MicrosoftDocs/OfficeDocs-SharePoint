@@ -23,13 +23,13 @@ description: "In this article, you'll learn about the available options for shar
 
 # Sharing and permissions in the SharePoint modern experience
 
-Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint Online, this remains true for some types of sites, but additional options are available.
+Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint for Microsoft 365, this remains true for some types of sites, but additional options are available.
 
 The three main types of sites in SharePoint are:
 
 - **Team sites** - Team sites provide a collaboration environment for your teams and projects. Each team site, by default, is part of a Microsoft 365 group, which includes a mailbox, shared calendar, and other collaboration tools. Team sites may also be part of a team in Microsoft Teams. Permissions for team sites are best managed through the associated Microsoft 365 group or Teams team.
 - **Communication sites** - Communication sites are for broadcasting news and status across the organization. Communication site permissions are managed by using the SharePoint Owners, Members, and Visitors groups for the site.
-- **Hub sites** - Hub sites are team sites or communication sites that the administrator has configured as a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Microsoft 365 group if there is one. Special permissions are needed to associate sites to a hub site.
+- **Hub sites** - Hub sites are team sites or communication sites that the administrator has configured as the center of a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Microsoft 365 group if there is one. Special permissions are needed to associate sites to a hub.
 
 ## Team site permissions and Microsoft 365 Groups
 
@@ -45,7 +45,7 @@ Microsoft Teams provides a hub for collaboration by bringing together various se
 
 For scenarios where a SharePoint site is used with Teams, we recommend doing all permission management through Teams. As with Microsoft 365 groups, team owners become site owners and team members become site members. View-only permissions are managed through the site.
 
-For details about how SharePoint and Teams interact, see [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
+For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
 
 ## Communication site permissions
 
@@ -65,11 +65,11 @@ The visitors group is a good place to use security groups. In many organizations
 
 ## Hub site permissions
 
-Managing permissions in hub sites is dependent on the underlying type of site. If the site is a group-connected team site, then you should manage permissions through the Microsoft 365 group. If it's a communication site, then you should manage permissions through the SharePoint groups.
+Managing the permissions of a hub site is dependent on the underlying type of site. If the site is a group-connected team site, then you should manage permissions through the Microsoft 365 group. If it's a communication site, then you should manage permissions through the SharePoint groups.
 
-Hub site owners define the shared experiences for hub navigation and theme. Hub site members create content on the hub site as with any other SharePoint site. Owners and members of the sites associated with the parent hub create content on their individual sites.
+Hub site owners define the shared experiences for hub navigation and theme. Hub site members create content on the hub as with any other SharePoint site. Owners and members of the sites associated with the hub create content on their individual sites.
 
-The SharePoint admin must specify which users can connect other sites to the hub site. This is done in the SharePoint admin center and cannot be changed by site owners.
+The SharePoint admin must specify which users can connect other sites to the hub. This is done in the SharePoint admin center and cannot be changed by site owners.
 
 ![Screenshot of hub site registration dialog in the SharePoint admin center](media/permissions-register-hub-site.png)
 
@@ -85,9 +85,9 @@ For more about the different types of sharing links, see [Securing your data](ht
 
 ## Guest sharing
 
-The external sharing features of SharePoint Online let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. Planning for external sharing should be included as part of your overall permissions planning for SharePoint Online.
+The external sharing features of SharePoint let users in your organization share content with people outside the organization (such as partners, vendors, clients, or customers). You can also use external sharing to share between licensed users on multiple Microsoft 365 subscriptions if your organization has more than one subscription. Planning for external sharing should be included as part of your overall permissions planning for SharePoint.
 
-SharePoint Online has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. 
+SharePoint has external sharing settings at both the organization level and the site level (previously called the "site collection" level). To allow external sharing on any site, you must allow it at the organization level. You can then restrict external sharing for other sites. 
 
 ![External sharing settings in the SharePoint admin center](media/externalsharing.png)
   
@@ -111,6 +111,6 @@ With Azure B2B integration, all guest users are added to the directory and can b
 
 [External sharing overview](external-sharing-overview.md)
 
-[Turn external sharing on or off for SharePoint Online](turn-external-sharing-on-or-off.md)
+[Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md)
 
 [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c)
