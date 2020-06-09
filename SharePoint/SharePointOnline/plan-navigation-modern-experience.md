@@ -199,35 +199,35 @@ Local navigation is the static navigation that viewers see on every page of your
 
 Local navigation is on every page in your site – so make sure it is relevant. Think about how viewers might explore your content and use local navigation to support that exploration. For example, a travel site might have the following local navigation links that support viewers who are exploring the travel site from the perspective of "what am I allowed to do?" as well as viewers who are exploring the travel site from the perspective of the travel process – before, during, and after their trip.
 
-    -   Travel Guidelines
+  - Travel Guidelines
 
-        -   Air
+    - Air
 
-        -   Car
+    - Car
 
-        -   Ground Transportation
+    - Ground Transportation
 
-        -   Hotel
+    - Hotel
 
-        -   Train
+    - Train
 
-    -   Before You Go
+  - Before You Go
 
-        -   Travel Approval
+    - Travel Approval
 
-        -   Booking Service
+    - Booking Service
 
-    -   During Your Trip
+  - During Your Trip
 
-        -   Travel Safety
+    - Travel Safety
 
-        -   Itinerary Changes
+    - Itinerary Changes
 
-    -   After You Return
+  - After You Return
 
-        -   Expense Reporting
+    - Expense Reporting
 
-        -   Trip Reports
+    - Trip Reports
 
 ### Hub navigation
 
@@ -239,11 +239,11 @@ Hub navigation appears above the local navigation on each site, just below the s
 
 There are three special considerations for planning hub navigation:
 
-1.  A site can be in the hub navigation *and* be associated to the hub.
+ - A site can be in the hub navigation *and* be associated to the hub.
 
-2.  A site can be associated to a hub and *not* be in the hub navigation.
+ - A site can be associated to a hub and *not* be in the hub navigation.
 
-3.  A site can be in the hub navigation and *not associated to the hub.*
+ - A site can be in the hub navigation and *not associated to the hub*.
 
 **Scenario 1: Site is in the hub navigation and associated to the hub**
 
