@@ -86,10 +86,16 @@
         "feedback_product_url": { 
             "SharePointServer/search/*.md": "https://sharepoint.uservoice.com/forums/330321-sharepoint-search" },
         "searchScope": { 
-            "SharePointOnline/*.md": ["SharePoint Online"] },
-        "titleSuffix": {
-            "SharePointServer/*.md": "SharePoint Server",
-            "SharePointOnline/*.md": "SharePoint Online"
+            "SharePointOnline/**/*.md": ["SharePoint in Microsoft 365"] },
+            "hideEdit": {
+              "SharePointServer/**/*.md": true
+              },
+              "feedback_system": {
+              "SharePointServer/**/*.md": "None"
+              },
+            "titleSuffix": {
+            "SharePointServer/**/*.md": "SharePoint Server",
+            "SharePointOnline/**/*.md": "SharePoint in Microsoft 365"
         }
     },
     "template": [],

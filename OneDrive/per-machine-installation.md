@@ -29,7 +29,7 @@ By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs 
 
 The new per-machine sync app provides:
 
-- Automatic transitioning from the previous OneDrive sync app (Groove.exe)
+- Automatic transitioning from the previous OneDrive for Business sync app (Groove.exe)
 - Automatic conversion from per-user to per-machine
 - Automatic updates when a new version is available
 
@@ -61,9 +61,6 @@ If you selected the Insiders ring (via the [Windows Insider program](https://ins
  
 In the past you may have used a user group policy (under HKCU) to select the Deferred ring ([Receive OneDrive sync app updates on the Deferred ring](https://docs.microsoft.com/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy will not work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)).
 
-> [!NOTE]
-> We do not recommend selecting the Deferred ring while this feature is in preview because you will not receive bug fixes for any issues we find.  
- 
 **Does the per-machine sync app follow the same update process/cadence as the per-user sync app?** 
 Yes, the per-machine sync app will auto-update on the same cadence as the per-user sync app and the same rings are supported (see question above). The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync app update process](sync-client-update-process.md)
  
