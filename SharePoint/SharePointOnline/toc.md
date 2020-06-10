@@ -24,7 +24,7 @@
 ### [Performance](modern-experience-performance.md)
 ### [Root site](modern-root-site.md)
 ### [Lists and libraries](change-default-list-and-library-experience.md)
-### [Microsoft Fluid Framework – Admin Access Management](fluid-framework-admin-access.md)
+### [Fluid Framework](fluid-framework-access.md)
 ## [New admin center]()
 ### [Overview](get-started-new-admin-center.md)
 ### [What's new in admin center](what-s-new-in-admin-center.md)
