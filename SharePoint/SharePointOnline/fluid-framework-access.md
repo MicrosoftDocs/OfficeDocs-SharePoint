@@ -30,7 +30,7 @@ Microsoft Fluid Framework preview improves team collaboration by helping users c
 
 ### Disable Fluid Framework using PowerShell
 
-Fluid Framework preview is enabled by default. Follow this steps to disable it for your organization.
+Fluid Framework preview is enabled by default. Follow these steps to disable it for your organization.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
