@@ -1,5 +1,5 @@
 ---
-title: "Enabling communication site experiences in classic team sites"
+title: "Enable the communication site experience on classic team sites"
 ms.reviewer: dipadur
 ms.author: kaarins
 author: kaarins
@@ -16,83 +16,76 @@ search.appverid:
 - MET150
 - BSA160
 
-description: "Learn about enabling communication site experience on classic team sites."
+description: "Learn how to modernize classic team sites by enabling the communication site experience."
 ---
 
-# Enable modern communication site experience in classic team sites
-A SharePoint communication site is a great tool for sharing information with others in your organization. You can share news, reports, statuses, and other information in a visually compelling format. Now, any classic team site can have this capability too. With the execution of a simple PowerShell cmdlet, your classic team site can enjoy the features of modern communication sites. 
+# Enable the communication site experience on classic team sites
+A SharePoint [communication site](https://support.office.com/en-us/article/94a33429-e580-45c3-a090-5512a8070732) is a great tool for sharing information with others in your organization. Your users can share news, reports, statuses, and other information in a visually compelling format. Now, any classic team site can have this capability too. By running a PowerShell cmdlet, you can bring modern communication site features to your classic team sites. 
 
 > [!NOTE]
-> "Some functionality is introduced gradually to organizations that have set up the [targeted release for entire organization options in Microsoft 365](https://support.office.com/en-us/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature."
+> "Some functionality is introduced gradually to organizations that have set up the [Targeted release for entire organization option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature."
 
+### Limitations
 
-### Requirements
+- This command works only on **classic team sites that are not connected to a Microsoft 365 group** (the STS #0 site template).
+- This command can't be run on subsites within a site collection.
+- The user who runs the PowerShell cmdlet must have full owner permission on the target site.
+- The site must not SharePoint Server Publishing Infrastructure enabled at the site collection level or SharePoint Server Publishing enabled at the site level. [Learn more](https://support.microsoft.com/office/enable-publishing-features-479677a6-8b33-4ac7-907d-071c1c7e4518). If these features were previously enabled but have been deactivated, go to the [site contents page](https://support.microsoft.com/en-us/office/ba495c1e-00f4-475d-97c7-b518d546566b) and make sure it doesn't still contain a Pages library. [Learn more](https://support.microsoft.com/office/3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
+- After you enable the communication site experience on a classic site, you can't undo the change.
 
-1.	Once you enable communication site experience on a classic site, you cannot revert the change.
-2.	You can execute this **only on classic team sites that are not O365 group connected (i.e. the STS #0 site template)**
-3.	This command cannot be executed on sub sites of a site collection
-4.	The user executing the PowerShell cmdlet should have full owner permission on the target site 
-5.	The target site must not have
-    * [SharePoint Server Publishing Infrastructure](https://support.microsoft.com/en-us/office/enable-publishing-features-479677a6-8b33-4ac7-907d-071c1c7e4518) feature enabled at the site collection **OR**
-    * [SharePoint Server Publishing](https://support.microsoft.com/en-us/office/enable-publishing-features-479677a6-8b33-4ac7-907d-071c1c7e4518) feature enabled at the site level **OR**
-    * If you used to have the two features above enabled in the past and have now deactivated them make sure there is no Pages library in the site contents of the site left over from the publishing feature. See details [here](https://support.microsoft.com/en-us/office/features-enabled-in-a-sharepoint-online-publishing-site-3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
+### Effects of this change
 
-### What to expect after CMDLET execution:
-
-1.   A new modern page will be created in the site and will be set as the home page of the site. Open the site in a new browser tab to see the changes. 
-2.   Any user that has access to the site will see the new out-of-box communication site home page immediately after the cmdlet is executed. You can immediately change the home page of the site back to the previous page until you are ready to launch the new communication site experience in this site.
-3.   Full width pages with horizontal nav will be available (top nav from classic view will be hidden but can be seen in classic pages like the site settings page)
-    *   You can now enable site footer, mega menu, multilingual publishing etc. on this site)
-4.   NoScript will be turned ON
-5.	 Minor Versioning on the Site Pages library will be enabled
-6.	 Site Pages will be the default content type in the Site Pages library
-7.	 NO permissions will be changed on the site
-8.	 NO changes to SharePoint lists and libraries experience
-9.	 NO changes to content types enabled in the site
-10.  If the classic site colletion had sub sites, there will be NO impact or changes to the sub sites. 
-11. If you intend to launch a high traffic portal experience in this site or share this site with a large number of users, please make sure to follow all the published [portal launch guidelines](https://docs.microsoft.com/sharepoint/portal-health).
+- A new modern page is created in the site and set as the home page. Open the site in a new tab to see the changes. 
+- Any user that has access to the site will see the new empty home page immediately. Until you're ready to launch the new communication site experience, you can change the home page back to the former page.
+- Full width pages with horizontal navigation are available. (The top navigation from classic view is hidden, but can be seen on classic pages like the site settings page.) You can now [customize the navigation](https://support.office.com/article/Customize-the-navigation-on-your-SharePoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) on this site.
+- [Custom script](allow-or-prevent-custom-script.md) isn't allowed on the site.
+- Minor versioning on the Site Pages library is enabled. [Learn more about versioning](https://support.microsoft.com/office/0f6cd105-974f-44a4-aadb-43ac5bdfd247)
+- Site Pages are the default [content type](https://support.microsoft.com/office/e1277a2e-a1e8-4473-9126-91a0647766e5) in the Site Pages library
+- No site permissions are changed.
+- The SharePoint lists and libraries experience isn't changed.
+- Any content types enabled in the site aren't changed.
+- If the classic site collection had subsites, they aren't changed. 
+- If you intend to launch this site as a high traffic portal experience or share the site with a large number of users, make sure to follow the [portal launch guidelines](portal-health.md).
 
 ### Run the PowerShell cmdlet
 
-You can either use SharePoint Online Management Shell **OR** SharePoint PnP PowerShell to enable the communication site experience in a classic team site. We recommend that you test the experience with a minimally used classic site before executing on a heavily used classic site.
+You can use either the SharePoint Online Management Shell **OR** SharePoint PnP PowerShell to enable the communication site experience on a classic team site. We recommend that you test the experience with a minimally used classic site before running it on popular classic sites in your organization.
 
-#### SharePoint Admin instructions
+#### SharePoint admin instructions
 
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). You must have  SPO tenant admin PowerShell version 20122.1200 or greater.
-2. If you have an older version installed, please uninstall it from Windows Add/Remove programs or by running.
-3. Uninstall-Module -Name Microsoft.Online.SharePoint.PowerShell in Windows PowerShell, run as administrator
-4. Make sure that all old versions of the module are uninstalled before attempting to execute the cmdlet. You can check available versions by running 
-5. Get-Module -Name Microsoft.Online.SharePoint.PowerShell -ListAvailable | Select Name,Version
-6. Execute these commands below 
-    * $orgName="tenantname"
-    * $adminUPN = "admin@$orgname.onmicrosoft.com" ( or whatever is the admin login id)
-    * $userCredential = Get-Credential -UserName $adminUPN -Message "Type the password."
-    * Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
-    * Enable-SPOCommSite -SiteUrl https://$orgName.sharepoint.com
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
-#### Site Admin instructions
+2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+    
+3. Run the following command:
+    
+    ```PowerShell
+    Enable-SPOCommSite -SiteUrl https://$orgName.sharepoint.com
+    ```
 
-1.	Follow instructions [here](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to get started with SharePoint PnP PowerShell.
-2.	If you are using Windows 10, run this in PowerShell
-    * Install-Module SharePointPnPPowerShellOnline
-    * Connect-PnPOnline –Url <Url of Targetsite> –Credentials (Get-Credential)
-    * Enable-PnPCommSite
+#### Site admin instructions
 
-#### Frequently asked questions
+1.	[Learn how to use SharePoint PnP PowerShell commands](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps).
+2.	In Windows 10, run this in PowerShell:
 
-Will this cmdlet change all of my classic sites?
-  * NO. The cmdlet can be executed on one site at at time
+    ```PowerShell
+    Install-Module SharePointPnPPowerShellOnline
+    Connect-PnPOnline –Url <Url of Targetsite> –Credentials (Get-Credential)
+    Enable-PnPCommSite
+    ```
 
-Will this cmdlet change site template?
-  * NO. The cmdlet will enable feature in the given site which will then make the site behave like a communication site.
+### Frequently asked questions
 
-Will these sites show up as Communication sites in the SharePoint admin center?
-  * NO. The sites will continue to show as Team sites(classic experience)
+Will this cmdlet change all my classic sites?
+  * NO. The cmdlet can be run on one site at at time.
+
+Will this cmdlet change the site template?
+  * NO. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the SharePoint admin center.
 
 Why can't I use this cmdlet on publishing sites?
-  * The modern communication site experience is not compatible with the SharePoint server publishing features.
-
-
+  * The modern communication site experience isn't compatible with SharePoint Server publishing features.
 
 For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sharepoint-online/Enable-SPOCommSite). 

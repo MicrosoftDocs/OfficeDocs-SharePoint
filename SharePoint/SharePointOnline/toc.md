@@ -23,6 +23,7 @@
 ### [Permissions and sharing](modern-experience-sharing-permissions.md)
 ### [Performance](modern-experience-performance.md)
 ### [Root site](modern-root-site.md)
+### [Modernize classic team sites](modernize-classic-team-site.md)
 ### [Lists and libraries](change-default-list-and-library-experience.md)
 ## [New admin center]()
 ### [Overview](get-started-new-admin-center.md)
