@@ -28,7 +28,7 @@ description: "Learn how to change the default sharing link for a specific site. 
 
 # Change the default link type for a site
 
-Users can share files and folders in SharePoint and OneDrive by sending a link. They should select a link type based on the people to whom they want to give permission. The following link types are available: 
+Users can share files and folders in Microsoft SharePoint by sending a link. They should select a link type based on the people to whom they want to give permission. The following link types are available: 
 
 - Anyone with the link (previously called "anonymous access" or "shareable")
 - People in your organization with the link 

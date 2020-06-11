@@ -18,7 +18,6 @@ search.appverid: MET150
 
 # Using the Migration Manager Reports
 
-
 Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
 
 Summary report: 
@@ -43,15 +42,15 @@ These reports can be viewed while the migration is taking place or after the job
  **Viewing task level reports:**
   
 1. To see the report on a task, select the task name from the list. A panel will appear to the right.
-    
 2. Select **Download task report**. The report will download after the task is complete.
-    
+
+
  **Viewing summary reports:**
  
 1. Select one or more completed tasks from the list. Click **Summary report**.
-     
 2. An aggregate summary report will be downloaded to your computer.
-    
+
+
 ## Summary Report
 
 The summary report is an aggregate report that lists all successfully completed, failed, and in-progress tasks.
@@ -251,4 +250,4 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 |Reading source speed score<br/> |[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-speed-at-which-the-source-can-be-read)<br/> |
 |Local disk performance score<br/> |[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/mm-performance#improving-the-migration-computer-speed) <br/> |
 |Uploading speed score  <br/> |[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/mm-performance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
-|SPO throughput score <br/> |[Improving your migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) <br/> |
+|SharePoint throughput score <br/> |[Improving your migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed) <br/> |

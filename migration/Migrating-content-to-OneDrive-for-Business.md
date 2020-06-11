@@ -1,5 +1,5 @@
 ---
-title: "Migrate content to OneDrive in Office 365"
+title: "Migrate content to OneDrive in Microsoft 365"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "Now you can use the SharePoint Migration tool to migrate content to your own OneDrive for business for free."
+description: "Now you can use the SharePoint Migration tool to migrate content to OneDrive (for work or school accounts) for free."
 ---
-# Migrate content to OneDrive for Business 
+# Migrate content to a OneDrive work or school account
  
-## Migrate to OneDrive for FREE
+## Migrate to Microsoft OneDrive for FREE
 
-If you have files and folders on your computer or on a network drive, you can use either of the following tools to to migrate that content to your own OneDrive for **FREE!**
+If you have files and folders on your computer or on a network drive, you can use either of the following tools to migrate that content to your OneDrive work or school account for **FREE!**
 
 
 ### Migration Manager
-Go to the [Migration Manager page on the new SharePoint Admin center](https://admin.microsoft.com/sharepoint?page=migrationTool&modern=true). Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+Go to the [Migration Manager page on the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true). Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-To learn more see:  [Get started with Migration Manager](mm-get-started.md)
+To learn more see: [Get started with Migration Manager](mm-get-started.md)
 <br>
 
 ### SharePoint Migration tool
