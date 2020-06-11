@@ -25,14 +25,6 @@ A SharePoint [communication site](https://support.office.com/en-us/article/94a33
 > [!NOTE]
 > "Some functionality is introduced gradually to organizations that have set up the [Targeted release for entire organization option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature."
 
-## Limitations
-
-- This command works only on **classic team sites that are not connected to a Microsoft 365 group** (the STS #0 site template).
-- This command can't be run on subsites within a site collection.
-- The user who runs the PowerShell cmdlet must have full owner permission on the target site.
-- The site must not SharePoint Server Publishing Infrastructure enabled at the site collection level or SharePoint Server Publishing enabled at the site level. [Learn more](https://support.microsoft.com/office/enable-publishing-features-479677a6-8b33-4ac7-907d-071c1c7e4518). If these features were previously enabled but have been deactivated, go to the [site contents page](https://support.microsoft.com/en-us/office/ba495c1e-00f4-475d-97c7-b518d546566b) and make sure it doesn't still contain a Pages library. [Learn more](https://support.microsoft.com/office/3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
-- After you enable the communication site experience on a classic site, you can't undo the change.
-
 ## Effects of this change
 
 - A new modern page is created in the site and set as the home page. Open the site in a new tab to see the changes. 
@@ -46,6 +38,14 @@ A SharePoint [communication site](https://support.office.com/en-us/article/94a33
 - Any content types enabled in the site aren't changed.
 - If the classic site collection had subsites, they aren't changed. 
 - If you intend to launch this site as a high traffic portal experience or share the site with a large number of users, make sure to follow the [portal launch guidelines](portal-health.md).
+
+## Limitations
+
+- This command works only on **classic team sites that are not connected to a Microsoft 365 group** (the STS #0 site template).
+- This command can't be run on subsites within a site collection.
+- The user who runs the PowerShell cmdlet must have full owner permission on the target site.
+- The site must not SharePoint Server Publishing Infrastructure enabled at the site collection level or SharePoint Server Publishing enabled at the site level. [Learn more](https://support.microsoft.com/office/enable-publishing-features-479677a6-8b33-4ac7-907d-071c1c7e4518). If these features were previously enabled but have been deactivated, go to the [site contents page](https://support.microsoft.com/en-us/office/ba495c1e-00f4-475d-97c7-b518d546566b) and make sure it doesn't still contain a Pages library. [Learn more](https://support.microsoft.com/office/3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
+- After you enable the communication site experience on a classic site, you can't undo the change.
 
 ## Run the PowerShell cmdlet
 
