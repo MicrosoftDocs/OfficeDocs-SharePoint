@@ -30,7 +30,7 @@ A SharePoint [communication site](https://support.office.com/en-us/article/94a33
 - The site must be a **classic team site that is not connected to a Microsoft 365 group** (the STS #0 site template).
 - The site must be the top-level site in the site collection. It can't be a subsite
 - The user who runs the PowerShell cmdlet must have full owner permission on the target site.
-- The site must not have SharePoint Server Publishing Infrastructure enabled at the site collection level or SharePoint Server Publishing enabled at the site level. [Learn more](https://support.microsoft.com/office/enable-publishing-features-479677a6-8b33-4ac7-907d-071c1c7e4518). If these features were previously enabled but have been deactivated, go to the [site contents page](https://support.microsoft.com/en-us/office/ba495c1e-00f4-475d-97c7-b518d546566b) and make sure it doesn't still contain a Pages library. [Learn more](https://support.microsoft.com/office/3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
+- The site must not have SharePoint Server Publishing Infrastructure enabled at the site collection level or SharePoint Server Publishing enabled at the site level. [Learn how to enable and disable publishing features](https://support.microsoft.com/office/479677a6-8b33-4ac7-907d-071c1c7e4518). If these features were previously enabled but have been deactivated, go to the [site contents page](https://support.microsoft.com/office/ba495c1e-00f4-475d-97c7-b518d546566b) and make sure it doesn't still contain a Pages library. [Learn more about features enabled on a publishing site](https://support.microsoft.com/office/3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
 
 ## Effects of this change
 
