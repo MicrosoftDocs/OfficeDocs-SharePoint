@@ -46,7 +46,7 @@ The following Azure AD user attributes are synced to the UPA.
 
 |Azure AD attribute|User profile property display names |Notes |Sync to sites|
 |:-------|:-------|:-------|:-------|
-|UserPrincipalName   | Account Name </br> User Name </br> User Principal Name | Example: </br> i:0#.f <|> membership <|> gherrera@contoso.com </br> gherrera@contoso.com | Yes |
+|UserPrincipalName   | Account Name </br> User Name </br> User Principal Name | Example: </br> `i:0#.f <|> membership <|>` gherrera@contoso.com </br> gherrera@contoso.com | Yes |
 |DisplayName |Name  | |Yes|
 |GivenName |FirstName  | |Yes |
 |sn  |LastName |  |Yes |
