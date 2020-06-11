@@ -19,7 +19,8 @@ search.appverid:
 description: "Learn about enabling communication site experience on classic team sites."
 ---
 
-A SharePoint communication site is a great tool for sharing information with others in your organization. You can share news, reports, statuses, and other information in a visually compelling format. Now, any classic team site can have this capability too. With a simple powershell execution, all of your classic team sites can enjoy the features of modern communication sites. 
+# Enable modern communication site experience in classic team sites
+A SharePoint communication site is a great tool for sharing information with others in your organization. You can share news, reports, statuses, and other information in a visually compelling format. Now, any classic team site can have this capability too. With the execution of a simple PowerShell cmdlet, your classic team site can enjoy the features of modern communication sites. 
 
 > [!NOTE]
 > "Some functionality is introduced gradually to organizations that have set up the [targeted release for entire organization options in Microsoft 365](https://support.office.com/en-us/article/3b3adfa4-1777-4ff0-b606-fb8732101f47). This means that you may not yet see this feature."
@@ -71,10 +72,26 @@ You can either use SharePoint Online Management Shell **OR** SharePoint PnP Powe
 
 #### Site Admin instructions
 
-1.	Follow instructions [here](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to get started with SharePoint PnP PowerShell.
+1.	Follow instructions [here](https://docs.microsoft.com/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to get started with SharePoint PnP PowerShell.
 2.	If you are using Windows 10, run this in PowerShell
     * Install-Module SharePointPnPPowerShellOnline
     * Connect-PnPOnline –Url <Url of Targetsite> –Credentials (Get-Credential)
     * Enable-PnPCommSite
+
+#### Frequently asked questions
+
+Will this cmdlet change all of my classic sites?
+  * NO. The cmdlet can be executed on one site at at time
+
+Will this cmdlet change site template?
+  * NO. The cmdlet will enable feature in the given site which will then make the site behave like a communication site.
+
+Will these sites show up as Communication sites in the SharePoint admin center?
+  * NO. The sites will continue to show as Team sites(classic experience)
+
+Why can't I use this cmdlet on publishing sites?
+  * The modern communication site experience is not compatible with the SharePoint server publishing features.
+
+
 
 For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sharepoint-online/Enable-SPOCommSite). 
