@@ -50,7 +50,7 @@ A SharePoint communication site is a great tool for sharing information with oth
 8.	 NO changes to SharePoint lists and libraries experience
 9.	 NO changes to content types enabled in the site
 10.  If the classic site colletion had sub sites, there will be NO impact or changes to the sub sites. 
-11. If you intend to launch a high traffic portal experience in this site or share this site with a large number of users, please make sure to follow all the published [portal launch guidelines](https://docs.microsoft.com/en-us/sharepoint/portal-health).
+11. If you intend to launch a high traffic portal experience in this site or share this site with a large number of users, please make sure to follow all the published [portal launch guidelines](https://docs.microsoft.com/sharepoint/portal-health).
 
 ### Run the PowerShell cmdlet
 
