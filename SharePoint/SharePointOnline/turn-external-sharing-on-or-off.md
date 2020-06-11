@@ -5,8 +5,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -31,9 +30,14 @@ For end-to-end guidance around how to configure guest sharing in Microsoft 365, 
 - [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
 - [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
 
-To change the sharing settings for a site after you've set the organization-level sharing settings, see [Turn external sharing on or off for for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). 
-  
- 
+To change the sharing settings for a site after you've set the organization-level sharing settings, see [Turn external sharing on or off for for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings).
+
+## Video demonstration
+
+This video shows how the settings on the Sharing page in the SharePoint admin center affect the sharing options available to users.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yw9m?autoplay=false]
+
 ## Change the organization-level external sharing setting
 <a name="__turn_external_sharing"> </a>
   
