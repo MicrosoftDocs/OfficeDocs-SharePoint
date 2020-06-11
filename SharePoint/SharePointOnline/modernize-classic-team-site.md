@@ -82,16 +82,19 @@ You can use either the SharePoint Online Management Shell **OR** SharePoint PnP 
 ## Frequently asked questions
 
 Will this cmdlet change all my classic sites?
-  * NO. The cmdlet can be run on one site at at time.
+
+- No. The cmdlet can be run on one site at at time.
 
 Will this cmdlet change the site template?
-  * NO. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the SharePoint admin center.
+
+- No. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the SharePoint admin center.
 
 Why can't I use this cmdlet on publishing sites?
-  * The modern communication site experience isn't compatible with SharePoint Server publishing features.
 
-Can I run this command on the root (top-level) site in my organization?
+- The modern communication site experience isn't compatible with SharePoint Server publishing features.
 
-- Yes, if the site 
+Can I run this command on the root site in my organization?
+
+- Yes, if you meet the requirements listed at the beginning of this article.
 
 For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sharepoint-online/Enable-SPOCommSite). 
