@@ -23,7 +23,7 @@ description: "Learn how to modernize classic team sites by enabling the communic
 A SharePoint [communication site](https://support.office.com/en-us/article/94a33429-e580-45c3-a090-5512a8070732) is a great tool for sharing information with others in your organization. Your users can share news, reports, statuses, and other information in a visually compelling format. Now, any classic team site can have this capability too. By running a PowerShell cmdlet, you can bring modern communication site features to your classic team sites. 
 
 > [!NOTE]
-> "Some functionality is introduced gradually to organizations that have set up the [Targeted release for entire organization option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature."
+> Some functionality is introduced gradually to organizations that have set up the [Targeted release for entire organization option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature.
 
 ## Requirements
 
