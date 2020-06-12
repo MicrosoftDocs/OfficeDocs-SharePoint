@@ -25,7 +25,7 @@ description: "In this article, you'll learn how to configure the Microsoft OneDr
 
 # Use administrative templates in Intune
 
-Profiles in Microsoft Intune let you configure OneDrive sync app settings and push the the settings to devices in your organization. The administrative templates built in to Microsoft Intune make configuring the Microsoft OneDrive sync app easier than ever before.
+Profiles in Microsoft Intune let you configure settings and push them to devices in your organization. The administrative templates built in to Microsoft Intune make configuring the Microsoft OneDrive sync app easier than ever.
 
 1. Go to [The Configuration profiles page of the Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/configurationProfiles).
 2. Select **Create profile**.
@@ -36,11 +36,11 @@ Profiles in Microsoft Intune let you configure OneDrive sync app settings and pu
 
 5. Select **Create**.
 6. Enter a name for the profile, and optionally a description, and then select **Next**.
-7. Under **Computer Configuration** or **User Configuration**, select **OneDrive**, and select the setting you want to configure. For info about these settings, see [Use Group Policy](use-group-policy.md). For info about the recommended settings, see [Recommended sync app configuration](ideal-state-configuration.md)
+7. Under **Computer Configuration** or **User Configuration**, select **OneDrive**, and select the setting you want to configure. For info about these settings, see [Use Group Policy](use-group-policy.md). For info about the recommended settings, see [Recommended sync app configuration](ideal-state-configuration.md).
 
     ![Selecting configuration settings](media/create-profile.png)
 
-8. Select the settings related to the policy, and then select **OK**. Some settings require entering your tenant ID. [Learn how to find it](find-your-office-365-tenant-id.md)
+8. Configure the setting the way you want, and then select **OK**. Some settings require entering your tenant ID. [Learn how to find it](find-your-office-365-tenant-id.md). When you're done, select **Next**.
 9. Select scope tags, and then select **Next**. For info about scope tags, see [Use RBAC and scope tags for distributed IT](/mem/intune/fundamentals/scope-tags).
 10. In **Assignments**, include or exclude the profile from selected groups. For info about assigning profiles, see [Assign user and device profiles](/mem/intune/configuration/device-profile-assign).
 
