@@ -57,3 +57,4 @@ Profiles in Microsoft Intune let you configure settings and push them to devices
 - [Use Windows 10 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows)
 - [Understanding ADMX-backed policies](/windows/client-management/mdm/understanding-admx-backed-policies)
 - [Monitor device profiles in Microsoft Intune](/mem/intune/configuration/device-profile-monitor)
+- [Deploy the OneDrive sync app to Windows 10 devices as part of Office 365](deploy-intune.md#deploy-onedrive-to-windows-devices-by-using-intune)
