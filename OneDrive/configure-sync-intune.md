@@ -27,6 +27,8 @@ description: "In this article, you'll learn how to configure the Microsoft OneDr
 
 Profiles in Microsoft Intune let you configure settings and push them to devices in your organization. The administrative templates built in to Microsoft Intune make configuring the Microsoft OneDrive sync app easier than ever.
 
+## Create a profile
+
 1. Go to [The Configuration profiles page of the Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/configurationProfiles).
 2. Select **Create profile**.
 3. Under **Platform**, select **Windows 10 and later**.
@@ -46,7 +48,7 @@ Profiles in Microsoft Intune let you configure settings and push them to devices
 
     If the profile is assigned to user groups, then configured ADMX settings apply to any device that the user enrolls, and signs in to. If the profile is assigned to device groups, then configured ADMX settings apply to any user that signs into that device. This assignment happens if the ADMX setting is a computer configuration (`HKEY_LOCAL_MACHINE`), or a user configuration (`HKEY_CURRENT_USER`). With some settings, a computer setting assigned to a user may also impact the experience of other users on that device.     For more info, see [User groups vs. device groups](/mem/intune/configuration/device-profile-assign#user-groups-vs-device-groups).
 
-    Select **Next**.
+    When you're done, select **Next**.
 
 11. Review the profile, and then select **Create**.
 
