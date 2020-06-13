@@ -35,7 +35,7 @@ Here's an example of the format for the CSV file. The rows show files that are b
   
 This example shows how it would appear in a .txt file.
   
-```
+```console
 \\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/sitecollection,Documents,SubFolderName
 \\MigrationTests\testfiles,,,https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com,Documents,
 ```
@@ -52,17 +52,17 @@ The following example uses Excel to create the CSV file.
     
 2. Enter the values for your migration jobs. Enter one migration source and destination per row. See the reference table below for further explanation of columns.
     
-  - **Column A:** Enter a file share path.  *Required.* 
+   - **Column A:** Enter a file share path.  *Required.* 
     
-  - **Column B:** Leave this column **blank**. This column does not apply to file share migration. 
+   - **Column B:** Leave this column **blank**. This column does not apply to file share migration. 
     
-  - **Column C:** Leave this column **blank**. This column does not apply to file share migration. 
+   - **Column C:** Leave this column **blank**. This column does not apply to file share migration. 
     
-  - **Column D:** Enter the SharePoint site URL where the files are to be migrated.  *Required.* 
+   - **Column D:** Enter the SharePoint site URL where the files are to be migrated.  *Required.* 
     
-  - **Column E:** Enter the name of the document library in the SharePoint site where the files are to be migrated.  *Required.* 
+   - **Column E:** Enter the name of the document library in the SharePoint site where the files are to be migrated.  *Required.* 
     
-  - **Column F:** Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  *Optional.* 
+   - **Column F:** Enter the name of the subfolder in the document library. If this column is left empty then the files will be moved to the root level.  *Optional.* 
     
 3. Close and save as a Comma delimited (\*.csv) file.
     
@@ -82,43 +82,43 @@ The minimum required values are SourcePath, TargetPath and TargetList.
   "Tasks": [
 
     {
-      "SourcePath": \\contoso\fileshare\dept1",
+      "SourcePath": "\\\\contoso\\fileshare\\dept1",
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
       "TargetList": "Documents",
       "TargetListRelativePath": "dept1",
 
       "Settings": {
 
-        "MigrateHiddenItems": true
+        "MigrateHiddenItems": true,
         "MigrateItemsCreatedAfter": "2016-05-22",
         "MigrateItemsModifiedAfter": "2016-05-22",
         "SkipFilesWithExtensions": "txt:mp3",
         "MigrateOneNoteNotebook": false,
-        "FilterOutPathSpecialCharacters": false
+        "FilterOutPathSpecialCharacters": false,
         "MigrateOneNoteNotebook": true
       }
     },
 
     {
 
-      "SourcePath": \\contoso\fileshare\dept2",
+      "SourcePath": "\\\\contoso\\fileshare\\dept2",
       "TargetPath": "https://a830edad9050849387E18042320.sharepoint.com",
       "TargetList": "Documents",
       "TargetListRelativePath": "dept2",
 
       "Settings": {
 
-        "MigrateHiddenItems": true
+        "MigrateHiddenItems": true,
         "MigrateItemsCreatedAfter": "2016-05-22",
         "MigrateItemsModifiedAfter": "2016-05-22",
         "SkipFilesWithExtensions": "txt:mp3",
         "MigrateOneNoteNotebook": false,
-        "FilterOutPathSpecialCharacters": false
+        "FilterOutPathSpecialCharacters": false,
         "MigrateOneNoteNotebook": true
 
       }
 
-    },
+    }
   ]
 }
  
