@@ -1,5 +1,5 @@
 ---
-title: "Plan & deploy a file collaboration environment - SharePoint"
+title: Plan & deploy a file collaboration environment
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,12 +15,13 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 search.appverid:
 - SPO160
 - BSA160
 - GSP150
 - MET150
-description: "In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint with Microsoft 365."
+description: Learn how to plan and deploy a secure and productive SharePoint collaboration environment with Microsoft 365.
 ---
 
 # File collaboration in SharePoint with Microsoft 365
@@ -227,7 +228,7 @@ Microsoft Cloud App Security offers additional granular conditions, actions, and
 
 User notifications provide a way to communicate to your users – via email or policy tips – that data loss prevention has detected something that they should be aware of. The user can then decide the best course of action depending on the situation. For example, if a user unknowingly attempts to share a document that contains a credit card number, the user is prompted that a credit card number has been found and advised of your organization's policy regarding this.
 
-### Manage access
+### Manage access for your organization and guest users
 
 Microsoft 365 provides a variety of governance features to help you create an intuitive but secure collaboration environment for your users.
 
