@@ -1,5 +1,5 @@
 ---
-title: "Plan customizations, solutions, and apps for SharePoint"
+title: Plan SharePoint Online customizations
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
@@ -14,12 +14,17 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: b7898ebf-69b7-4196-81e3-b04e1a4e7d67
-description: "Learn about the range of options available for configuring and customizing SharePoint sites."
+description: Learn about the range of options, such as branding, navigation, and workflows available for configuring and customizing SharePoint sites.
+ms.custom: seo-marvel-jun2020
 ---
 
 # Customizing SharePoint
 
-In earlier versions of SharePoint, it was possible to make changes to a SharePoint environment by deploying custom code that would run in the physical SharePoint server environment. Changes made to SharePoint that didn&#39;t require the deployment of custom code were referred to as &quot;customizations&quot;, because the changes were not fundamentally changing the product&#39;s functioning but were rather configuring the existing product in a unique way. Examples of customizing SharePoint Server have included deploying custom branding elements such as master pages and style sheets to a site collection; deploying pre-configured web parts to a web part gallery; creating custom workflows in SharePoint Designer; changing the look and feel of list forms using InfoPath; and more. Because of the shared nature of the SharePoint infrastructure, Microsoft does not allow the deployment of custom code to its environment. As a result, the concept of customizing SharePoint as opposed to deploying custom code is no longer a relevant paradigm. However, it&#39;s still helpful to think of ways that SharePoint can be customized, or configured uniquely, in a broader sense of the word.
+In earlier versions of SharePoint, it was possible to make changes to a SharePoint environment by deploying custom code that would run in the physical SharePoint server environment. Changes made to SharePoint that didn&#39;t require the deployment of custom code were referred to as &quot;customizations&quot;, because the changes were not fundamentally changing the product&#39;s functioning but were rather configuring the existing product in a unique way.
+
+Examples of customizing SharePoint Server have included deploying custom branding elements such as master pages and style sheets to a site collection; deploying pre-configured web parts to a web part gallery; creating custom workflows in SharePoint Designer; changing the look and feel of list forms using InfoPath; and more.
+
+Because of the shared nature of the SharePoint infrastructure, Microsoft does not allow the deployment of custom code to its environment. As a result, the concept of customizing SharePoint as opposed to deploying custom code is no longer a relevant paradigm. However, it&#39;s still helpful to think of ways that SharePoint can be customized, or configured uniquely, in a broader sense of the word.
 
 The purpose of this document is to help you understand how you can customize your SharePoint environment using modern tools and techniques.
 
