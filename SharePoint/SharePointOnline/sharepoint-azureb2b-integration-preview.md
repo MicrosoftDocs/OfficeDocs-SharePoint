@@ -29,6 +29,8 @@ With SharePoint and OneDrive integration, the Azure B2B one-time passcode featur
 
 Enabling the preview does not change your sharing settings. For example, if you have site collections where external sharing is turned off, it will remain off.
 
+Once the preview is enabled you and your users do not have to re-share or do any manual migration for external users previously shared with. Instead, when an external user clicks on a link that was created before the preview was enabled, SharePoint will create a B2B Guest account on-demand at that moment. This Guest Invitation is created on behalf of the user who originally created the link that the external user clicked on. There are instances where this on-demand B2B Invite won't work, like if it conflicts with an AAD B2B policy or if the user who created the old link no longer is in the organization or no longer has permission to share or create B2B invitations.
+
 SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is currently in preview. After preview, this feature will replace the ad-hoc external sharing experience used in OneDrive and SharePoint today for all tenants.
 
 Advantages of Azure AD B2B include:
