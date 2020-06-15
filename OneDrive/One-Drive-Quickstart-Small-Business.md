@@ -17,16 +17,17 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article is a quickstart guide on how to get started with and set up OneDrive for small businesses."
+- seo-marvel-jun2020
+description: This article is a quickstart guide on how to get started with and set up the cloud storage service OneDrive for small businesses.
 ---
 
 # OneDrive QuickStart guide for small businesses
 
-Microsoft OneDrive is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling organizations to use OneDrive in whatever way benefits them the most. This guide focuses on the deployment and configuration options that make the most sense for small businesses looking to use OneDrive. From there, these organizations can select whatever additional management capabilities they require. For the full deployment guide, which contains other methods of deploying, configuring, and managing OneDrive, see [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
+Microsoft OneDrive is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling organizations to use OneDrive in whatever way benefits them the most. This user guide focuses on the deployment and configuration options that make the most sense for small businesses looking to use OneDrive. From there, these organizations can select whatever additional management capabilities they require. For the full deployment guide, which contains other methods of deploying, configuring, and managing OneDrive cloud storage, see [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 
 ## Getting started with OneDrive
 
-OneDrive is effective in even the largest enterprises, but it still has a small, easy-to-implement footprint that small businesses can take advantage of. After all, small businesses are often at highest risk for losing files on failed devices because few are concerned with centralized storage and backups. By using OneDrive, however, your small business can keep files safe, and your users can easily access them from all their devices.
+OneDrive is effective in even the largest enterprises, but it still has a small, easy-to-implement footprint that small businesses can take advantage of. After all, small businesses are often at highest risk for losing files on failed devices because few are concerned with centralized storage and backups. By using OneDrive cloud storage, however, your small business can keep files safe, and your users can easily access them from all their devices.
 
 To get started with OneDrive, follow these steps:
 
@@ -44,7 +45,7 @@ When you've completed these tasks, you're ready to plan for, deploy, and configu
 
 3.  **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the OneDrive admin center. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
 
-## Key OneDrive features for small businesses
+## Key OneDrive cloud storage features for small businesses
 
 Unlike most other cloud storage providers, OneDrive not only provides robust features to small businesses out of the box, but it also makes most of its advanced features available to them. This gives small businesses the flexibility to use advanced features based on the needs of their organization. 
 
@@ -67,7 +68,7 @@ For more information about OneDrive Files On-Demand, see [Learn about OneDrive F
 
 ### Modern attachments
 
-OneDrive integrates with Microsoft Outlook to enable easy sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive. This allows your users to all collaborate on the same file instead of sending different versions back and forth in email. In addition, you can configure sharing permissions on the files directly from within the Outlook client.
+OneDrive cloud storage integrates with Microsoft Outlook to enable easy sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive. This allows your users to all collaborate on the same file instead of sending different versions back and forth in email. In addition, you can configure sharing permissions on the files directly from within the Outlook client.
 
 ![Screenshot of Outlook with a modern attachment and the right-click menu showing permissions options](media/What-is-OneDrive-Small-Business_image3.png)
 
@@ -133,7 +134,7 @@ To learn how to perform tasks in OneDrive on an Android device, see [Use OneDriv
 
 ## Manage OneDrive
 
-Many small businesses use OneDrive without changing any of the options.
+Many small businesses use OneDrive cloud storage without changing any of the options.
 
 If you want to add some basic device and sharing restrictions to OneDrive, you can use the OneDrive admin center. To access the new OneDrive admin center, go to https://admin.onedrive.com. There, you can restrict the people with whom your users can share files, choose the devices your employees can use to access OneDrive, and more.
 
