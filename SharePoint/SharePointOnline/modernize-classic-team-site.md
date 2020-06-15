@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+ROBOTS: NOINDEX
 search.appverid:
 - SPO160
 - MET150
@@ -35,7 +36,7 @@ A SharePoint [communication site](https://support.office.com/en-us/article/94a33
 ## Effects of this change
 
 - A new modern page is created in the site and set as the home page. Open the site in a new tab to see the changes. 
-- Any user that has access to the site will see the new empty home page immediately. Until you're ready to launch the new communication site experience, you can change the home page back to the former page.
+- Any user that has access to the site will see the new home page with the default web parts and content immediately. Until you're ready to launch the new communication site experience, you can change the home page back to the former page.
 - Full width pages with horizontal navigation are available. (The top navigation from classic view is hidden, but can be seen on classic pages like the site settings page.) You can now [customize the navigation](https://support.office.com/article/Customize-the-navigation-on-your-SharePoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) on this site.
 - [Custom script](allow-or-prevent-custom-script.md) isn't allowed on the site.
 - Minor versioning on the Site Pages library is enabled. [Learn more about versioning](https://support.microsoft.com/office/0f6cd105-974f-44a4-aadb-43ac5bdfd247)
@@ -61,17 +62,19 @@ You can use either the SharePoint Online Management Shell **OR** SharePoint PnP 
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
+
 3. Run the following command:
-    
+
     ```PowerShell
-    Enable-SPOCommSite -SiteUrl https://$orgName.sharepoint.com
+    Enable-SPOCommSite -SiteUrl <URL of target site>
     ```
+
+For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sharepoint-online/Enable-SPOCommSite). 
 
 ### Site admin instructions
 
-1.	[Learn how to use SharePoint PnP PowerShell commands](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps).
-2.	In Windows 10, run this in PowerShell:
+1. [Learn how to use SharePoint PnP PowerShell commands](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps).
+2. In Windows 10, run the following commands in PowerShell:
 
     ```PowerShell
     Install-Module SharePointPnPPowerShellOnline
@@ -97,4 +100,10 @@ Can I run this command on the root site in my organization?
 
 - Yes, if you meet the requirements listed at the beginning of this article.
 
-For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sharepoint-online/Enable-SPOCommSite). 
+I'm getting the error "The requested operation is part of an experimental feature that is not supported in the current environment." What does this mean ?
+
+- This feature is being gradually rolled out, and is not available yet in your organization. Please try again in a few days. Refer to the message center post in the Microsoft 365 admin center for info about the rollout timeline.
+
+## See also
+
+For info about automatically modernizing the home pages of classic sites, see [Classic home page modernization](disable-auto-modernization-classic-home-pages.md)

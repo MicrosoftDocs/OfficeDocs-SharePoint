@@ -112,7 +112,7 @@ Add an out-of-the-box SharePoint [web part](https://support.office.com/article/3
 
 
 >[!NOTE]
->It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. 
+>It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. To learn how to enable the communication site experience on the home page of a specific classic site, see [Enable the communication site experience on classic team sites](modernize-classic-team-site.md)
 
 
 ## What about new classic team sites STS#0 created after this change? 
