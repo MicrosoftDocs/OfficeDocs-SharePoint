@@ -1,5 +1,5 @@
 ---
-title: Disable automatic modernization of classic site home pages
+title: Automatic modernization of classic home pages
 ms.reviewer: metorres
 ms.author: hokavian
 author: Holland-ODSP
@@ -18,7 +18,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to disable automatic modernization of classic home pages"
+description: "Learn about the automatic modernization of classic home pages, and how to disable this if you want."
 
 ---
 # Classic home page modernization
@@ -112,7 +112,7 @@ Add an out-of-the-box SharePoint [web part](https://support.office.com/article/3
 
 
 >[!NOTE]
->It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. To learn how to enable the communication site experience on the home page of a specific classic site, see [Enable the communication site experience on classic team sites](modernize-classic-team-site.md)
+>It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. To learn how to enable the communication site experience on the home page of a specific classic site, see [Enable the communication site experience on classic team sites](modernize-classic-team-site.md).
 
 
 ## What about new classic team sites STS#0 created after this change? 

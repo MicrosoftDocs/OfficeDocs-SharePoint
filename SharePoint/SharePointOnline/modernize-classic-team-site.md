@@ -106,4 +106,4 @@ I'm getting the error "The requested operation is part of an experimental featur
 
 ## See also
 
-For info about automatically modernizing the home pages of classic sites, see [Classic home page modernization](disable-auto-modernization-classic-home-pages.md)
+For info about automatically modernizing the home page on classic sites, see [Classic home page modernization](disable-auto-modernization-classic-home-pages.md).
