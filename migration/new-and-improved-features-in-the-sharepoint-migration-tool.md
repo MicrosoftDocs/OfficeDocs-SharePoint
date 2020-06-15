@@ -28,7 +28,7 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.0](https://aka.ms/spmt-beta-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.1](https://aka.ms/spmt-beta-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|
 
 
   
@@ -42,6 +42,12 @@ The following features are now available in the public preview version of the Sh
 |**Feature**|**Description**|
 |:-----|:-----|
 |SharePoint Server 2016|Ability to migrate SharePoint Server 2016 sites to SharePoint online.|
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Group mapping|Improvements have been made to the support of SharePoint group mapping.|
 
 
 ### SPMT 3.2.119.0
