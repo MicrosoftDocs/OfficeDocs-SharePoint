@@ -18,7 +18,7 @@ ms.assetid:
 description: "This article describes the user profile sync process for SharePoint in Microsoft 365, and the properties that are synced into user profiles."
 ---
 
-# Overview
+# User profile synchronization
 
 Microsoft SharePoint uses the Active Directory synchronization job to import user and group attribute information into the User Profile Application (UPA). When a new user is added to Azure Active Directory (Azure AD), the user account information is sent to the SharePoint directory store and the UPA sync process creates a profile in the User Profile Application based on a predetermined set of attributes. Once the profile has been created, any modifications to these attributes will be synced as part of regularly scheduled sync process.
 
@@ -46,7 +46,7 @@ The following Azure AD user attributes are synced to the UPA.
 
 |Azure AD attribute|User profile property display names |Notes |Sync to sites|
 |:-------|:-------|:-------|:-------|
-|UserPrincipalName   | Account Name </br> User Name </br> User Principal Name | Example: </br> i:0#.f <|> membership <|> gherrera@contoso.com </br> gherrera@contoso.com | Yes |
+|UserPrincipalName   | Account Name </br> User Name </br> User Principal Name | Example: </br> `i:0#.f <|> membership <|>` gherrera@contoso.com </br> gherrera@contoso.com | Yes |
 |DisplayName |Name  | |Yes|
 |GivenName |FirstName  | |Yes |
 |sn  |LastName |  |Yes |
