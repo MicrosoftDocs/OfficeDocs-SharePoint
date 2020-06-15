@@ -15,6 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
+- seo-marvel-jun2020
 search.appverid:
 - ODB160
 - ODB150
@@ -22,7 +23,7 @@ search.appverid:
 - GOB160
 - MET150
 ms.assetid: e1b3963c-7c6c-4694-9f2f-fb8005d9ef12
-description: In this article, you'll learn how to redirect users' Documents folders or other known folders to OneDrive.
+description: Learn how to perform a OneDrive Known Folder Move (KFM), redirecting your users' folders to OneDrive for backup and accessibility from any device.
 ---
 
 # Redirect and move Windows known folders to OneDrive
@@ -39,7 +40,7 @@ For these reasons, we recommend moving or redirecting known folders to OneDrive 
 
 ## Known Folder Move workshop
 
-This workshop provides guidance on how you can roll out OneDrive Known Folder Move:
+This workshop provides guidance on how you can roll out OneDrive Known Folder Move (KFM):
 
 - Plan for common challenges
 - Requirements for each deployment option
@@ -56,7 +57,7 @@ The workshop assumes that you've already set up core infrastructure (Active Dire
   
 ## About the Known Folder Move Group Policy objects
 
-We recommend upgrading to the latest available build before deploying to decrease deployment issues. Known Folder Move does not work for users syncing OneDrive files in SharePoint Server.
+We recommend upgrading to the latest available build before deploying to decrease deployment issues. Known Folder Move (KFM) does not work for users syncing OneDrive files in SharePoint Server.
 
 To check eligibility, data volume, and item counts as you decide on a rollout plan, and to later monitor progress of the rollout, use the [Known Folder Move PowerShell script](https://github.com/OneDrive/onedrive-admin-scripts/tree/master/Scripts/Sync-KFM-Deployment). 
 
@@ -108,7 +109,7 @@ To check eligibility, data volume, and item counts as you decide on a rollout pl
 For info about using the OneDrive Group Policy objects, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md).
 
 ## Transition from the Windows Folder Redirection Group Policy objects
-The OneDrive Known Folder Move Group Policy objects won't work if you previously used [Windows Folder Redirection Group Policy objects](/windows-server/storage/folder-redirection/deploy-folder-redirection) to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. Follow these steps to switch to using the Known Folder Move Group Policy objects.
+The OneDrive Known Folder Move (KFM) Group Policy objects won't work if you previously used [Windows Folder Redirection Group Policy objects](/windows-server/storage/folder-redirection/deploy-folder-redirection) to redirect the Documents, Pictures, or Desktop folders to a location other than OneDrive. The OneDrive Group Policy objects won't affect the Music and Videos folders, so you can keep them redirected with the Windows Group Policy objects. Follow these steps to switch to using the KFM Group Policy objects.
 
 - If folders have been redirected to OneDrive using Windows Folder Redirection Group Policy:
 
