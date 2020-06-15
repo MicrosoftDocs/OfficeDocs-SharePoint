@@ -23,7 +23,7 @@ description: "Learn how to enable or disable Microsoft Fluid Framework preview f
 
 # Manage access to Fluid Framework
 
-Microsoft Fluid Framework preview improves team collaboration by helping users create files where they can add components such as action items and check lists. [Learn more and watch a video about Fluid](https://support.microsoft.com/office/d05278db-b82b-4d1f-8523-cf0c9c2fb2df). As a global or SharePoint admin in Microsoft 365, you can manage access to Fluid Framework preview in your organization.
+Microsoft Fluid Framework preview improves team collaboration by helping users create files where they can add components such as action items and check lists. [Learn how to get started with Fluid](https://support.microsoft.com/office/d05278db-b82b-4d1f-8523-cf0c9c2fb2df). As a global or SharePoint admin in Microsoft 365, you can manage access to Fluid Framework preview in your organization.
 
 > [!NOTE]
 > This preview is rolling out. Some features are available only to organizations that have selected the [Targeted release option](/microsoft-365/admin/manage/release-options-in-office-365). You might not yet see this feature or it might look different than what is described.
