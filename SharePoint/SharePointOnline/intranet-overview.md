@@ -47,7 +47,7 @@ Intranets are a constant work in progress and are never really considered done. 
 
 **How to think about a modern vs traditional intranet design**
 
-The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/en-us/sharepoint/intranet-overview) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
+The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/sharepoint/intranet-overview) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
 
 
 | Traditional intranet           | Modern intranet                |
