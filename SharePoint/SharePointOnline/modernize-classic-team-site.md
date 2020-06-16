@@ -86,7 +86,7 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 
 **Will this cmdlet change all my classic sites?**
 
-- No. The cmdlet can be run on one site at at time.
+- No. The cmdlet can be run on one site at time.
 
 **Will this cmdlet change the site template?**
 
