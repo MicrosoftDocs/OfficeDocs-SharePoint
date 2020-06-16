@@ -10,6 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+ROBOTS: NOINDEX
 search.appverid:
 - SPO160
 - BSA160

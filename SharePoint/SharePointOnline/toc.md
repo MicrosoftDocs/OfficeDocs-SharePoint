@@ -80,7 +80,6 @@
 ### [Authentication](authentication.md)
 ### [Safeguarding your data](safeguarding-your-data.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
-### [Use information barriers](information-barriers.md)
 ## [Search]()
 ### [Overview](overview-of-search.md)
 ### [Classic and modern search differences](differences-classic-modern-search.md)

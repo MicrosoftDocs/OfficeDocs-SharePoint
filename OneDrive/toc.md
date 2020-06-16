@@ -34,7 +34,6 @@
 ### [Manage sharing](manage-sharing.md)
 ### [Set external sharing individually](user-external-sharing-settings.md)
 ### [Turn on external sharing notifications](turn-on-external-sharing-notifications.md)
-### [Use information barriers](information-barriers.md)
 ### [Allow syncing only on specific domains](allow-syncing-only-on-specific-domains.md)
 ### [Control access based on network location or app](control-access-based-on-network-location-or-app.md)
 ### [Control access to mobile app features](control-access-to-mobile-app-features.md)

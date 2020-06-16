@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+ROBOTS: NOINDEX
 search.appverid:
 - ODB160
 - ODB150
