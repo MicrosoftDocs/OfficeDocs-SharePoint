@@ -1,5 +1,5 @@
 ---
-title: "Use Group Policy to control OneDrive sync settings"
+title: "Use Group Policy to configure OneDrive sync settings"
 ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
@@ -23,7 +23,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
-description: "In this article, you'll learn how to use Group Policy to administer settings for the OneDrive sync app."
+description: In this article, you'll learn how to use Group Policy to administer settings and configure the OneDrive sync app.
 ---
 
 # Use Group Policy to control OneDrive sync settings
@@ -140,6 +140,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
     
 ## Computer Configuration policies
 <a name="PerTen"> </a>
+
+Enable or disable OneDrive Group Policy Object (GPO) settings to configure the OneDrive sync app.
 
 Under Computer Configuration\Policies\Administrative Templates\OneDrive, navigate to **Computer Configuration > Policies**.
   
