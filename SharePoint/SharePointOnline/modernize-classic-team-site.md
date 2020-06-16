@@ -56,7 +56,7 @@ You can use either the SharePoint Online Management Shell **OR** SharePoint PnP 
 
 ### SharePoint admin instructions
 
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251). Version 20122.1200 or later is required.
 
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
@@ -84,25 +84,113 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 
 ## Frequently asked questions
 
-Will this cmdlet change all my classic sites?
+**Will this cmdlet change all my classic sites?**
 
 - No. The cmdlet can be run on one site at at time.
 
-Will this cmdlet change the site template?
+**Will this cmdlet change the site template?**
 
 - No. The cmdlet enables communication site features, but the site still has the STS#0 site template. The site will continue to appear as "Team site (classic experience)" in the SharePoint admin center.
 
-Why can't I use this cmdlet on publishing sites?
+**Why can't I use this cmdlet on publishing sites?**
 
 - The modern communication site experience isn't compatible with SharePoint Server publishing features.
 
-Can I run this command on the root site in my organization?
+**Can I run this command on the root site in my organization?**
 
 - Yes, if you meet the requirements listed at the beginning of this article.
 
-I'm getting the error "The requested operation is part of an experimental feature that is not supported in the current environment." What does this mean ?
+**I'm getting the error "The requested operation is part of an experimental feature that is not supported in the current environment." What does this mean?**
 
 - This feature is being gradually rolled out, and is not available yet in your organization. Please try again in a few days. Refer to the message center post in the Microsoft 365 admin center for info about the rollout timeline.
+
+**How can I get a list of all classic sites that have the communication site experience enabled?**
+
+```PowerShell
+function Get-CommsiteEnabledSites{
+ 
+    $adminUrl = Read-Host "Enter the Admin URL of 0365 (eg. https://<Tenant Name>-admin.sharepoint.com)" 
+    $userName = Read-Host "Enter the username of 0365 (eg. admin@<tenantName>.onmicrosoft.com)" 
+    $password = Read-Host "Please enter the password for $($userName)" -AsSecureString
+ 
+    # set credentials 
+    $credentials = New-Object -TypeName System.Management.Automation.PSCredential -argumentlist $userName, $password 
+    $SPOCredentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($userName, $password)
+ 
+    #connect to to Office 365
+ 
+    try{
+ 
+        Connect-SPOService -Url $adminUrl -Credential $credentials 
+        write-host "Info: Connected succesfully to Office 365" -foregroundcolor green
+ 
+    }
+ 
+    catch{
+ 
+        write-host "Error: Could not connect to Office 365" -foregroundcolor red         
+        Break connectToO365
+ 
+    }
+    get-siteCollections  
+}
+ 
+
+ 
+function get-siteCollections{
+ 
+    write-host "----- List of classic sites with comm site feature enabled  -------" -foregroundcolor green
+
+#Get all site collections
+	$siteCollections = Get-SPOSite
+	 
+	#loop through all site collections
+	foreach ($siteCollection in $siteCollections){
+	 
+		#set variable for a tab in the table
+		$pixelsweb = 0
+		$pixelslist = 0
+		$enabledCommSite = Get-SPOIsCommSiteEnabled($siteCollection.url)
+		$background = "white"
+		if($enabledCommSite -ne ""){
+			$background = "cyan"
+		}		
+	}
+}
+
+function Get-SPOIsCommSiteEnabled($url){
+ 
+    #fill metadata information to the client context variable
+    $featureID = "f39dad74-ea79-46ef-9ef7-fe2370754f6f"
+    $context = New-Object Microsoft.SharePoint.Client.ClientContext($url)
+    $context.Credentials = $SPOcredentials
+    $web = $context.Web
+    $context.Load($web)
+    $context.load($web.Features)
+
+    try{
+ 
+        $context.ExecuteQuery()
+        $isCommSiteEnabled = $web.Features | Where {$_.DefinitionID -eq $featureID}
+		$webTemplate = $web.WebTemplate
+
+		if($webTemplate -ne "SITEPAGEPUBLISHING" -AND $isCommSiteEnabled){
+		    write-host "Found $($web.url)" -foregroundcolor green
+			return "Enabled"
+			
+		}
+    } 
+    catch{
+ 
+        write-host "Could not find web" -foregroundcolor red
+ 
+    }
+
+    return "" 
+}
+
+Get-CommsiteEnabledSites
+```
 
 ## See also
 
