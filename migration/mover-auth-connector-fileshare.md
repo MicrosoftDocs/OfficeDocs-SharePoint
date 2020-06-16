@@ -482,7 +482,7 @@ If you are using an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**. 
 
-### Reviewing your users
+## Reviewing your users
 
 ### Checking paths
 

@@ -254,9 +254,9 @@ To use an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-### Reviewing your users
+## Reviewing your users
 
-#### Checking paths
+### Checking paths
 
 Confirm that the users in the G Suite Drive source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
