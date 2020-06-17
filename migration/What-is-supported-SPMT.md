@@ -16,7 +16,8 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article contains a list of features that are supported in the SharePoint Migration Tool (SPMT)."
+- seo-marvel-jun2020
+description: In this article, learn about the supported features and locations of the SharePoint Migration Tool (SPMT).
 ---
 
 # SPMT supported features
