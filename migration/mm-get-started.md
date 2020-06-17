@@ -1,5 +1,5 @@
 ---
-title: "Get started with Migration Manager  - SharePoint"
+title: Get started with Migration Manager
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,7 +16,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
+description: Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it.
 ---
 
 # Get started with the Migration Manager
@@ -36,7 +36,7 @@ Located in the modern SharePoint Admin Center, the Migration Manager guides you 
 
 It works in three simple steps:
 
-![Set up migration agents](media/mm-flow-3box.png)
+![Set up SharePoint Migration Manager agents](media/mm-flow-3box.png)
 
 - **Setup migration agents.** Download and install a setup file on each computer or virtual machine you want to connect to Migration Manager.
 
