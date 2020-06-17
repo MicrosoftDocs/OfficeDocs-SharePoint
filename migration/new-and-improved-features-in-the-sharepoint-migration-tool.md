@@ -28,13 +28,11 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.1](https://aka.ms/spmt-beta-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.1](https://aka.ms/spmt-beta-page) |[3.4.119.1](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|
 
 
-  
-</br></br>
 
-### SPMT Public Preview 
+### SPMT Public Preview  (3.4.119.1)
 
 
 The following features are now available in the public preview version of the SharePoint Migration Tool.
