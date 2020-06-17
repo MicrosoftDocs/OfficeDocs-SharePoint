@@ -1,6 +1,6 @@
 ---
 title: "Change site collection version and upgrade settings"
-ms.reviewer: kaarins
+ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -22,10 +22,10 @@ description: "This article describes how to configure which version of SharePoin
 
 # Change site collection version and upgrade settings
 
-The **change site collection version** setting in the classic SharePoint admin center is no longer in use.
+The **Global Experience Version Settings** on the settings page of the classic SharePoint admin center are no longer in use.
 
 ![Global experience version settings](media/global-experience-version-settings.png)
 
-The **upgrade site collection settings** setting in the classic SharePoint admin center is no longer in use.
+The **Upgrade** settings on the site collections page of the classic SharePoint admin center are no longer in use.
 
 ![Site collection upgrade settings and upgrade notifications](media/site-collection-upgrade-settings-upgrade-notifications.png)
