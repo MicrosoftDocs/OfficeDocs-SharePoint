@@ -138,7 +138,7 @@ If a policy changes after files are shared, the sharing links will work only if 
 
 ## Not supported
 
-- For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a OneDrive that has associated segments isn't supported. Remove any associated segments, move the OneDrive, and then reassociate the segments. 
+For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a OneDrive that has associated segments isn't supported. Remove any associated segments, move the OneDrive, and then reassociate the segments. 
 
 ## Example
 
@@ -153,5 +153,5 @@ The example at the beginning of this article illustrates an organization with th
 
 ## See also
 
-[Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
-[Information barriers in SharePoint](/sharepoint/information-barriers-in-teams)
+- [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
+- [Information barriers in SharePoint](/sharepoint/information-barriers-in-teams)
