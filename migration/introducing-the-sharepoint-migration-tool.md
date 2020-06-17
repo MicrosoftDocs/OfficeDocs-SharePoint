@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Migration Tool for SharePoint and OneDrive"
+title: SharePoint Migration Tool download and related resources
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,7 +16,8 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article is an overview of the SharePoint Migration Tool and provides resources for download and support."
+- seo-marvel-jun2020
+description: Download the SharePoint Migration Tool and learn about other tools and resources to help with your migration.
 ---
 
 # Download and install the SharePoint Migration Tool
