@@ -46,7 +46,7 @@ After users appear in green, yellow, or red, on the top right side of your scree
 
 For in-depth info about **Scan Report**, see the **Reports** subsection under the **Scan Report** section of this guide.
 
-### Migrating users
+## Migrating users
 
 We recommend starting slowly. Test one user, then three to five. If all looks good, and you see data being downloaded and uploaded, start queuing everyone, and stage the rest of your users.
 
