@@ -144,8 +144,10 @@ The user should now have full access to WorkDocs.
 
 - Click **Authorize**.
 
-Authorizing Office 365
-Warning: To fully authorize the Office 365 Connector, a Global Admin is required to grant permissions to the Office 365 Mover app within the Azure Portal.
+## Authorizing Office 365
+
+>[!Important]
+>To fully authorize the Office 365 Connector, a Global Admin is required to grant permissions to the Office 365 Mover app within the Azure Portal.
 
 The Global Admin must grant these permissions AFTER the Office 365 Connector is authorized within the main Mover app.
 
@@ -153,69 +155,86 @@ The instructions below show you how to complete the authorization steps in the r
 
 Some steps in the authorization process can be completed by a Global Admin or an SPO Admin. At the beginning of each step, we indicate who can complete it.
 
-Global Admin or SPO Admin: Log into the main Mover app via app.mover.io. In the Transfer Wizard, select Authorize New Connector.
-Note: Whether the Office 365 Connector is your source or destination connector (or both), you’ll need to go through this authorization process.
+1. **Global Admin or SPO Admin:** Log into the main Mover app via app.mover.io. In the Transfer Wizard, select Authorize New Connector.
 
-Authorize New Connector
-Global Admin or SPO Admin: In the Connector list, find Office 365. Click Authorize.
-Authorize Office 365
-Global Admin or SPO Admin: A window with an Authorize button pops up. It asks you to give your Office 365 Connector a Display Name (optional).
-Click the Authorize button.
+>[!Note]
+>Whether the Office 365 Connector is your source or destination connector (or both), you’ll need to go through this authorization process.
 
-Authorize Window
-Global Admin or SPO Admin: Follow the on-screen instructions. You will be redirected to a Microsoft login screen where you will log in with your Microsoft admin privileges and continue to authorize the connector.
-Global Admin or SPO Admin: After authorizing the connector, you will be redirected to the Mover Transfer Wizard and see an error like the one below. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure Portal.
-If you're an SPO Admin: Point your Global Admin to aka.ms/office365moverauth to grant permissions and finish the authorization process (steps 6 – 9).
+![Authorize New Connector](media/05-authorize-new-connector.png)
 
-If you're a Global Admin: Continue with steps 6 – 9.
+2. **Global Admin or SPO Admin:** In the Connector list, find Office 365. Click Authorize.
 
-Authorize Error
-Global Admin: Log into the Azure Portal via aka.ms/office365moverauth. You’ll see a list of Enterprise Applications.
-Enterprise Applications List
-Global Admin: Find and select the Office 365 Mover app. A page will open that provides an overview of the app.
-Office 365 Mover App
-Global Admin: In the left menu, find and open Permissions. From there, select “Grant admin consent for Mover.”
-Office 365 Mover App Permissions
-Global Admin: This opens a pop-up window that guides you through the rest of the permissions process. It will close automatically when finished. Once this is done, your Office 365 Connector is fully authorized and ready to go.
+![Authorize Office 365](media/authorize-o365.png)
+
+3. **Global Admin or SPO Admin:** A window with an Authorize button pops up. It asks you to give your Office 365 Connector a Display Name (optional).  Click the Authorize button.
+
+![Authorize Window](media/authorize-window.png)
+
+4. **Global Admin or SPO Admin:** Follow the on-screen instructions. You will be redirected to a Microsoft login screen where you will log in with your Microsoft admin privileges and continue to authorize the connector.
+
+5. **Global Admin or SPO Admin:** After authorizing the connector, you will be redirected to the Mover Transfer Wizard and see an error like the one below. This means it is now time for a Global Admin in your tenant to grant permissions to the Office 365 Mover app in the Azure Portal.
+
+-  **If you're an SPO Admin:** Point your Global Admin to aka.ms/office365moverauth to grant permissions and finish the authorization process (steps 6 – 9).
+-  **If you're a Global Admin:** Continue with steps 6 – 9.
+
+![Authorize Error](media/authorize-error.png)
+
+6. Global Admin: Log into the Azure Portal via aka.ms/office365moverauth. You’ll see a list of Enterprise Applications.
+
+![Enterprise Applications List](media/enterprise-applications.png)
+
+7. Global Admin: Find and select the Office 365 Mover app. A page will open that provides an overview of the app.
+
+![Office 365 Mover App](media/o365-mover-app.png)
+
+8. **Global Admin:** In the left menu, find and open Permissions. From there, select “Grant admin consent for Mover.”
+
+![Office 365 Mover App Permissions](media/o365-mover-permissions.png)
+
+9. **Global Admin:** This opens a pop-up window that guides you through the rest of the permissions process. It will close automatically when finished. Once this is done, your Office 365 Connector is fully authorized and ready to go.
 
 ## Troubleshooting an Office 365 Connector
 
-Application Access Error
+### Application Access Error
 If you encounter an error on authorization, try signing out of any Microsoft accounts and attempt to authorize the Connector in an Incognito Window.
 
-Global Admin Account Provisioning
+### Global Admin Account Provisioning
+
 Your Global Admin user must have an Office 365 account provisioned in order to administer other Office 365 accounts. If you create a service account for our app, please ensure you also assigned an Office 365 license and walked through the Office 365 setup process.
 
-User Provisioning
+### User Provisioning
 Are your Office 365 users provisioned? All Office 365 users need to have logged in to their Office 365 and opened up Office 365 in order for us to be able to transfer into their accounts. You can also provision Office 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
 
-Connect-SPOService -Url https://example-admin.sharepoint.com -credential user@example.com
+`Connect-SPOService -Url https://example-admin.sharepoint.com -credential user@example.com`
 
-Request-SPOPersonalSite -UserEmails “neverloggedintest@example.onmicrosoft.com”
+`Request-SPOPersonalSite -UserEmails “neverloggedintest@example.onmicrosoft.com”`
 
-Office 365 Permission Requirements
-The app requires a Global Administrator for authorization. Here is a detailed list of the scopes we require:
+### Office 365 Permission Requirements
 
-Permission	Details
-Create, edit, and delete items and lists in all your site collections	Allow the application to create or delete document libraries and lists in all site collections on your behalf.
-View your basic profile	Allows the app to see your basic profile (name, picture, user name)
-Maintain access to data you have given it access to	Allows the app to see and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.
+The app requires a **Global Administrator** for authorization. Here is a detailed list of the scopes we require:
+
+|Permission|Details|
+|:-----|:-----|
+|Create, edit, and delete items and lists in all your site collections|	Allow the application to create or delete document libraries and lists in all site collections on your behalf.|
+|View your basic profile|Allows the app to see your basic profile (name, picture, user name)|
+|Maintain access to data you have given it access to|Allows the app to see and update the data you gave it access to, even when you are not currently using the app. This does not give the app any additional permissions.|
+
 
 ## Connecting Your Source Amazon WorkDocs Account
 
 If you are not already connected after you have authorized your source, click Amazon WorkDocs and load the connector. An icon will appear and show you how many users you are migrating.
 
-Select Amazon WorkDocs Source
+![Select Amazon WorkDocs Source](media/execution-select-amazon-workdocs-source.png)
 
 ## Connecting Your Destination Office 365 Account
 
 If you are not already connected after you have authorized your destination, click Office 365 and load the connector. An icon will appear and show you how many users you are migrating.
 
-Select Office 365 Destination
+![Select Office 365 Destination](media/execution-select-office-365-destination.png)
 
 ## Creating a New Migration
 
-Click Continue Migration Setup and the app will move to the Migration Manager.
+Click **Continue Migration Setup** and the app will move to the Migration Manager.
 
 How to create a new migration
 The next step is to create a user list of who is transferring.
