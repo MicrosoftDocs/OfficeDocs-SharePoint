@@ -13,7 +13,6 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
-ROBOTS: NOINDEX
 search.appverid:
 - ODB160
 - ODB150
@@ -154,4 +153,4 @@ The example at the beginning of this article illustrates an organization with th
 ## See also
 
 - [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
-- [Information barriers in SharePoint](/sharepoint/information-barriers-in-teams)
+- [Information barriers in SharePoint](/sharepoint/information-barriers)
