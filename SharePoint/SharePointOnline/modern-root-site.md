@@ -25,10 +25,10 @@ description: "Learn about the options for modernizing the root site for your org
 
 # Modernize your root site
   
-When Microsoft SharePoint is set up for an organization, a root (or top-level) site is created. Before April 2019, the site was created as a classic team site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site three ways:
+When Microsoft SharePoint is set up for an organization, a root (or top-level) site is created. Before April 2019, the site was created as a classic team site. Now, a communication site is set up as the root site for new organizations. If your environment was set up before April 2019, you can modernize your root site in three ways:
 
 - If you have a different site that you want to use as your root site (a communication site or modern team site that isn't connected to an Office 365 group), [replace (swap) the root site](#replace-your-root-site) with the other site.
-- If you want the content on your classic team site to be displayed with the layout of a communication site, [apply the communication site experience](#apply-the-communication-site-experience-to-the-root-site-coming-soon) to the root site. This feature isn't available yet, but is coming soon.
+- If you want to keep using the classic team site but add a new modern home page and enable full-width pages with horizontal navigation, [enable the communication site experience on the site](modernize-classic-team-site.md). 
 - If you want to continue using the classic team site, [enable the modern site pages library experience](/sharepoint/dev/transform/modernize-userinterface-lists-and-libraries) and [set a modern page as the home page](/sharepoint/dev/transform/modernize-userinterface-site-pages) of the root site. This gives users a modern team site experience with the left navigation.
 
 > [!IMPORTANT]
@@ -99,37 +99,3 @@ We recommend replacing the root site at a time when site usage is low.
 > [!NOTE]
 > For info about using PowerShell to replace (swap) the root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).<br>Project Server sites might need to be validated to make sure they're still associated correctly.
 
-## Apply the communication site experience to the root site (coming soon)
-
-When you apply the communication site experience to the root site:
-
-- A new modern home page is created for the root site (only the site at the root, not any subsites)
-- Full-width pages with horizontal navigation become available (the top navigation from classic view is hidden, but can be seen on classic pages like the Site settings page)
-- [Custom script](allow-or-prevent-custom-script.md) is disabled
-- Minor Versioning on the Site Pages library is enabled
-- Site Pages are the default content type in the Site Pages library
-
-The permissions and content of the root site aren't changed, and the root site still appears as having the template "team site (classic experience)" or STS#0.
-
-### Limitations
-
-- The root site can be converted to a communication site only if the classic publishing feature was never turned on. 
-- The root site must have quick launch site navigation enabled. [Learn how to do this](https://support.office.com/article/c040f014-acbb-4c98-8174-48428cf02b25)
-
-
-### Run the PowerShell cmdlet
-
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-    > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
-
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-    
-3. Run Enable-SPOCommSite.
-
-    ```PowerShell
-    Enable-SPOCommSite -SiteUrl https://contoso.sharepoint.com
-    ```
-
-For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sharepoint-online/Enable-SPOCommSite). 
