@@ -34,6 +34,7 @@ You must sign in as a global or SharePoint admin in your organization.
 
    > [!NOTE]
    > This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files will sync to their computer, but any changes they make on their computer won't be uploaded.
+
   
  **To block uploading of specific file types**
   
@@ -51,3 +52,6 @@ You must sign in as a global or SharePoint admin in your organization.
 4. Click **Save** on the Sync page.
 
 For info about setting this sync app restriction by using PowerShell, see [Set-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+
+   > [!NOTE]
+   > When you configure this setting, it takes approximately 8 hours for the OneDrive sync app to detect it and apply the change.
