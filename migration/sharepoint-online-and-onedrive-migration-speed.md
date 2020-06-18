@@ -180,7 +180,7 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 
 ## How to open a Microsoft support ticket
 
-If you want to file a Microsoft support ticket, follow these steps and include the following information when filing Microsoft support ticket for any other migration reason:
+If you want to file a Microsoft support ticket, follow these steps and include the following information for any migration reason:
 
 1. Navigate to https://admin.microsoft.com
 2. Ensure you are using the new admin center preview.
