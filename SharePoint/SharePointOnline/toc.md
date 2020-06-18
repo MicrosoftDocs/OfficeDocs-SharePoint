@@ -79,7 +79,7 @@
 ### [Control access based on network location](control-access-based-on-network-location.md)
 ### [Authentication](authentication.md)
 ### [Safeguarding your data](safeguarding-your-data.md)
-### [Use information barriers](information-barreirs.md)
+### [Use information barriers](information-barriers.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
 ## [Search]()
 ### [Overview](overview-of-search.md)
