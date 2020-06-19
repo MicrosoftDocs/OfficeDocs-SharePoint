@@ -178,14 +178,13 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 </br></br>
 
 
-**Question: If I want to file a Microsoft support ticket, what information should I include?**</br>
-Answer:  Follow these steps and include the following information when filing Microsoft support ticket for any other migration reason:
+## How to open a Microsoft support ticket
+
+If you want to file a Microsoft support ticket, follow these steps and include the following information for any migration reason:
 
 1. Navigate to https://admin.microsoft.com
 2. Ensure you are using the new admin center preview.
 
->[!Note]
->If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
 
 3. On the left nav pane, select **Support**, and then select **New Service Request**. This activates the **Need Help?** pane on the right-hand side of your screen.
 
@@ -193,6 +192,10 @@ Answer:  Follow these steps and include the following information when filing Mi
 5. Select **Contact Support**.
 6. Under **Description**, enter a brief description of your migration issue. 
 7. Fill out the remaining info, and select **Contact me**.
+
+>[!Note]
+>If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
+
 8. After the ticket has been created, make sure to include the following information:
 
     - Your organization URL.

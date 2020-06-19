@@ -10,7 +10,6 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
-ROBOTS: NOINDEX
 search.appverid:
 - SPO160
 - BSA160
@@ -141,8 +140,8 @@ Any sharing links will only work if a user's new segment or the new information 
 
 ## Not supported
 
-- For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a site that has associated segments isn't supported. Remove any associated segments, move the site, and then reassociate the segments. 
+For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a site that has associated segments isn't supported. Remove any associated segments, move the site, and then reassociate the segments. 
 
 ## See also
 
-[Information barriers in OneDrive](/onedrive/information-barriers-in-teams)
+[Information barriers in OneDrive](/onedrive/information-barriers)
