@@ -56,6 +56,7 @@
 #### [Error messages](mover-error-faq.md)
 #### [Account FAQ](mover-account-faq.md)
 #### [Migration FAQ](mover-migration-faq.md)
+###  [Mover release notes](mover-release-notes.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [SPMT migration performance guidelines](spmt-performance-guidance.md)
