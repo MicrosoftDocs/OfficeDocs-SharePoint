@@ -281,7 +281,7 @@ For example, this full URL won't work:
 Change it to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-## Creating your CSV in Excel
+### Creating your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
 
@@ -470,7 +470,7 @@ Download an example CSV:
 
 [example_permission_map_box.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
 
-## Creating your CSV in Excel
+### Creating your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -486,7 +486,7 @@ For example:
 
 ![excel overview](media/excel-overview.png)
 
-## Exporting a permission map
+### Exporting a permission map
 
 You can export a permission map in CSV format.
 

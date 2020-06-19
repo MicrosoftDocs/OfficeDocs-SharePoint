@@ -61,7 +61,7 @@ Authorizing **Egnyte** as an administrator is straightforward. To authorize or a
 
 ![Grant access to Egnyte](media/grant-access-to-egnyte.png)
 
-## Egnyte permission requirements
+### Egnyte permission requirements
 
 Our app requires an **Administrator** for authorization. The following table lists the scopes we require:
 
@@ -153,7 +153,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users must log in to
 
 `Request-SPOPersonalSite -UserEmails "neverloggedintest@example.onmicrosoft.com"`
 
-## Microsoft 365 permission requirements
+### Microsoft 365 permission requirements
 
 Our app requires a Global Admin for authorization. The following table lists the scopes we require.
 
@@ -212,7 +212,7 @@ Occasionally, you have thousands of users and a complicated directory schema tha
 
 In these cases, we trust the CSV upload option is useful. This allows you to lay out all your users and directories, and then provide it to us in a .csv format for us to create your migration.
 
-#### Users to migrate
+### Users to migrate
 
 Your CSV file must follow this format:
 
@@ -241,7 +241,7 @@ For example, this full URL won't work:
 It should be changed to:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-## Reviewing your CSV in Excel
+## Creating your CSV in Excel
 
 To use an Excel spreadsheet to create your CSV:
 
@@ -431,7 +431,7 @@ Download an example CSV:
 
 [example_permission_map.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map.csv)
 
-## Creating your CSV in Excel
+### Creating your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 

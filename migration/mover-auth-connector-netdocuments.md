@@ -14,7 +14,6 @@ description: "Authorizing the NetDocuments Connector"
 ---
 # Authorizing the NetDocuments Connector
 
-## Authorizing NetDocuments
 
 Authorizing NetDocuments is straightforward. To authorize or add a NetDocuments account as a Connector, follow these simple steps:
 

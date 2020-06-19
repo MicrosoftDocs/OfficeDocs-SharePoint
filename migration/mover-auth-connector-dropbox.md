@@ -344,7 +344,7 @@ To create or edit a schedule:
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
 
-#### Deleting
+### Deleting
 
 Be aware that users can only be deleted if they haven't been scanned, or had a transfer run.
 
@@ -420,7 +420,7 @@ Download an example CSV:
 
 [example_permission_map.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_permission_map_box.csv)
 
-## Creating your CSV in Excel
+### Creating your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -436,7 +436,7 @@ For example:
 
 ![excel overview](media/excel-overview.png)
 
-## Exporting a permission map
+### Exporting a permission map
 
 You can export a permission map in CSV format.
 
