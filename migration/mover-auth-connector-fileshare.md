@@ -235,22 +235,23 @@ To monitor the Agent activity, use:</br> `./agent Monitor`. To stop monitoring A
 `Upload: /Users/mover/AgentTestData/TestDocuments/picture.jpg`</br>
 `^C`
 
+## Setting up the migration
 
-## Authorizing the desktop and server agent
+### Authorizing the desktop and server agent
 
-To enable swift and painless copying of data from on-premise desktop and server hard drives, we provide a very tiny agent that any Windows operating system can install.
+To enable swift and painless copying of data from on-premises desktop and server hard drives, we provide a very tiny agent that any Windows operating system can install.
 
-## Compatibility
+#### Compatibility
 
 Windows XP is not supported.
 All other versions of Windows require the .NET Framework 4.6 for the Agent to function.
 Download and manually install .NET Framework 4.6 from this **link**.
 
-## Security
+#### Security
 
 The Agent may only initiate outbound communication with our own servers. All communication is via encrypted TLS and no service other than ours is allowed to work with the agent.
 
-## Windows installation
+#### Windows installation
 
 For Mac and Linux, the Agent folder appears in your Downloads, and is run through **command line operations**.
 
@@ -272,7 +273,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Agent key](media/agent_key.png)
 
-## Authorizing the agent in our app
+#### Authorizing the agent in our app
 
 1. In the **Transfer Wizard**, select **Authorize New Connector**.
 
@@ -289,13 +290,13 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Name connector agent](media/name-connector-agent.png)
 
-### Additional screenshots
+##### Additional screenshots
 
 ![Additional screenshots](media/additional-screenshots.png)
 
-## Troubleshooting an agent connector
+### Troubleshooting an agent connector
 
-### What operating systems are supported by the Mover agent?
+#### What operating systems are supported by the Mover agent?
 
 The Mover Agent supports many operating systems:
 
@@ -305,7 +306,7 @@ The Mover Agent supports many operating systems:
 - Windows 8.1
 - Windows 10
 
-### Removing the Mover agent
+#### Removing the Mover agent
 
 You can stop using the Mover Agent.
 
@@ -313,37 +314,37 @@ To stop the Mover Agent from connecting to the Mover's servers, select **Disconn
 
 To completely uninstall the Mover Agent, use the Windows program manager.
 
-## Authorizing Microsoft 365
+### Authorizing Microsoft 365
 
 >[!Warning]
->To fully authorize the **Microsoft 365 Connector**, a Global Admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
+>To fully authorize the **Microsoft 365 Connector**, a global admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
 >
->The Global Admin must grant these permissions *after* the **Microsoft 365 Connector** is authorized within the main Mover app.
+>The global admin must grant these permissions *after* the **Microsoft 365 Connector** is authorized within the main Mover app.
 
 The following instructions show you how to complete the authorization steps in the right order.
 
-Some steps in the authorization process can be completed by a Global Admin or an SPO Admin. At the beginning of each step, we indicate who can complete it.
+Some steps in the authorization process can be completed by a global or SharePoint admin. At the beginning of each step, we indicate who can complete it.
 
-1. **Global Admin or SPO Admin**: Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
+1. **Global or SharePoint admin**: Log into the main Mover app via **app.mover.io**. In the **Transfer Wizard**, select **Authorize New Connector**.
 
 >[!Note]
 >Whether the **Microsoft 365 Connector** is your source or destination connector (or both), you must complete this authorization process.
 
 ![Authorize new connector](media/05-authorize-new-connector.png)
 
-2. **Global Admin or SPO Admin**: In the **Connector** list, find **Microsoft 365**. Select **Authorize**.
+2. **Global or SharePoint admin**: In the **Connector** list, find **Microsoft 365**. Select **Authorize**.
 
 ![Authorize O365](media/authorize-o365.png)
 
-3. **Global Admin or SPO Admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Microsoft 365 Connector**.  Select **Authorize**.
+3. **Global or SharePoint admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Microsoft 365 Connector**.  Select **Authorize**.
 
 ![Authorize windows](media/authorize-window.png)
 
-4. **Global Admin or SPO Admin**: Follow the on-screen instructions. You will be redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
+4. **Global or SharePoint admin**: Follow the on-screen instructions. You will be redirected to a Microsoft login screen where you can log in with your Microsoft admin privileges, and continue to authorize the connector.
 
 
 >[!Warning]
->If you are a **Global Admin**, a slightly different login screen will display.  
+>If you are a **global Admin**, a slightly different login screen will display.  
 >
 >**DO NOT** select the option **Consent on behalf of your organization**. This option **must** remain unselected.
 
@@ -352,39 +353,39 @@ Some steps in the authorization process can be completed by a Global Admin or an
 
 
 
-5. **Global Admin or SPO Admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a Global Admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
+5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Microsoft 365 Mover app in the Azure portal.
 
-If you're an **SPO Admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your Global Admin to **aka.ms/office365moverauth**.
+If you're a **SharePoint admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your global admin to **aka.ms/office365moverauth**.
 
-If you're a **Global Admin**: Continue with Steps 6 – 9.
+If you're a **global admin**: Continue with Steps 6 – 9.
 
 ![Authorize error](media/authorize-error.png)
 
-6. **Global Admin**: Log into the Azure portal via aka.ms/office365moverauth. A list of **Enterprise applications** appears.
+6. **Global admin**: Log into the Azure portal via aka.ms/office365moverauth. A list of **Enterprise applications** appears.
 
 ![Enterprise applications](media/enterprise-applications.png)
 
-7. **Global Admin**: Find and select the Microsoft 365 Mover app. A page appears that provides an overview of our app.
+7. **Global admin**: Find and select the Microsoft 365 Mover app. A page appears that provides an overview of our app.
 
 ![O365 Mover app](media/o365-mover-app.png)
 
-8. **Global Admin**: In the left menu, find and open **Permissions**. Select **Grant admin consent for Mover**.
+8. **Global admin**: In the left menu, find and open **Permissions**. Select **Grant admin consent for Mover**.
 
 ![o365 mover permissions](media/o365-mover-permissions.png)
 
-9. **Global Admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
+9. **Global admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
 
-## Troubleshooting a Microsoft 365 Connector
+### Troubleshooting a Microsoft 365 Connector
 
-### App access error
+#### App access error
 
 If you encounter an error on authorization, try signing out of any Microsoft accounts, and in an Incognito window, attempt to authorize the Connector.
 
-### Global Admin account provisioning
+#### Global admin account provisioning
 
-Your Global Admin user must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you are also assigned a Microsoft 365 license and walked through the Microsoft 365 setup process.
+Your global admin user must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you are also assigned a Microsoft 365 license and walked through the Microsoft 365 setup process.
 
-### User provisioning
+#### User provisioning
 
 Are your Microsoft 365 users provisioned? All Microsoft 365 users need to have logged in to their Microsoft 365, and opened up Microsoft 365 for us to be able to transfer into their accounts. You can also provision Microsoft 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
 
@@ -392,9 +393,9 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users need to have l
 
 `Request-SPOPersonalSite -UserEmails "neverloggedintest@example.onmicrosoft.com"`
 
-### Microsoft 365 permission requirements
+#### Microsoft 365 permission requirements
 
-Our app requires a Global Admin for authorization. The following table lists the scopes we require:
+Our app requires a global admin for authorization. The following table lists the scopes we require:
 
 |**Permission**|**(Details) Allows out app to...**|
 |:-----|:-----|
@@ -405,19 +406,19 @@ Our app requires a Global Admin for authorization. The following table lists the
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-## Connect your source agent for Windows
+### Connect your source agent for Windows
 
 If you are not already connected after you have authorized your source, select **Agent for Windows**, and load the connector. An icon appears showing you the folders you are migrating.
 
 ![Execution select agent source](media/execution-select-agent-source.png)
 
-## Connect your destination Microsoft 365 account
+### Connect your destination Microsoft 365 account
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
 ![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
-## Create a new migration
+#### Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
@@ -448,13 +449,13 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-## Creating a new migration from a CSV (optional)
+#### Creating a new migration from a CSV (optional)
 
 Sometimes you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
 In these cases, we hope the CSV upload option is useful. This allows you to lay out all your users and directories and then give it to us in a .csv format for us to create your migration.
 
-#### Paths to migrate
+##### Paths to migrate
 
 Your CSV file must follow this format:
 
@@ -471,7 +472,7 @@ Download an example CSV here:
 
 **Example_CSV_Map.csv**
 
-## Creating your CSV in Excel
+#### Creating your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -482,13 +483,13 @@ If you are using an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**. 
 
-## Reviewing your users
+#### Reviewing your users
 
-### Checking paths
+##### Checking paths
 
 Confirm that the users in the File Servers source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
-### Editing
+#### Editing
 
 Be aware that users can only be edited if they haven't been scanned, or had a transfer run.
 
@@ -541,7 +542,7 @@ Download an example CSV here:</br>
 
 ![Update migration](media/update-migration.png)
 
-### Adding
+#### Adding
 
 If you missed users in your original CSV upload, or simply want to add new user entries to the current migration, you can add them via CSV. All entries added in this manner are appended to the current migration, meaning this won't modify existing rows, and it is possible to create duplicate entries alongside the ones that already exist.
 
@@ -560,7 +561,7 @@ Tips for creating the CSV:
 
 ![Add to Migration](media/add-to-migration.png)
 
-### Duplicating
+#### Duplicating
 
 At any time, you may duplicate a user in the **Migration Manager** list. To duplicate a user entry:
 
@@ -573,7 +574,7 @@ A new user entry appears. From here, you can change the directory, schedule, or 
 
 ![duplicate user](media/duplicate-user.png)
 
-### Scheduling
+#### Scheduling
 
 You can set an hourly, daily, weekly, or monthly schedule for each user, even after they have been run.
 
@@ -585,7 +586,7 @@ To create or edit a schedule:
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
 
-#### Deleting
+##### Deleting
 
 Be aware that users can only be deleted if they haven't been scanned, or had a transfer run.
 
@@ -599,23 +600,23 @@ To delete a user entry:
 
 ![delete user](media/delete-user.png)
 
-## Migration Manager overview
+### Migration Manager overview
 
 The **Migration Manager** is the key part of our app. It is the primary screen for interacting during the data migration process.
 
 ![migration main mover](media/migration-main-mover.png)
 
-### Migration Manager dashboard
+#### Migration Manager dashboard
 
 Use the **Migration Manager** dashboard for a summary of your overall migration. This is covered in depth **here**.
 
-### Main menu bar
+#### Main menu bar
 
 Use our app's main navigation bar to switch between the **Migration Manager**, **Transfer Wizard**, and your **Account** details, as well as contact support if you run into any issues during your migration.
 
 ![migration top mover](media/migration-top-mover.png)
 
-### Migration selection
+#### Migration selection
 
 Use the **Migration Selection** bar to navigate between separate multi-user migrations, as well as individual normal transfers.
 
@@ -623,13 +624,13 @@ Here, you are also able to edit and personalize the names of each multi-user mig
 
 ![migration edit mover](media/migration-edit-mover.png)
 
-### Migration actions
+#### Migration actions
 
 Use the **Migration Actions** menu to access things such as: the migration reports, the columns displayed, and the overall layout of your migration to best suit your personal needs.
 
 ![migration action mover](media/migration-action-mover.png)
 
-### Filters
+#### Filters
 
 Use the **Active Filters** bar to search your migration for specific key terms or custom tags you have applied.
 
@@ -639,7 +640,7 @@ You can also view more in-depth instructions by selecting the info button direct
 
 ![migration filter info](media/migration-filter-info.png)
 
-### User display
+#### User display
 
 The user display is the central focus of the **Migration Manager**, and displays all the users in the current migration.
 
@@ -647,7 +648,7 @@ This section of our app provides you with a column-by-column breakdown of each i
 
 ![migration users mover](media/migration-users-mover.png)
 
-### User actions and finalization
+#### User actions and finalization
 
 This area of the screen contains the **User Actions** dropdown menu, the **Scan User** and **Start Migrating Users** buttons.
 
@@ -662,226 +663,3 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 **Start # Migrating Users** opens a side tab enabling you to finalize and begin the migration.
 
 ![migration finalize mover](media/migration-finalize-mover.png)
-
-
-
-## Agent FAQ
-
-### Windows
-
-The Windows Agent has two installers, one for the user-context and one for the service-context. The Windows Agent requires Microsoft .NET Framework 4.6.2 or greater.
-
-The differences between Windows installers are as follows:
-
-#### User-context installer
-
-- **Select to download**.
-- Installs and is run as the currently logged in Windows user.
-- Automatically updates.
-- Has access to local drives.
-- Has access to mapped network drives.
-- Is not available if the user logs out of Windows, or your remote desktop session expires.
-
-#### Service-context installer
-
-- **Select to download**.
-- Installs and is run as a Windows service.
-- Must be manually updated.
-- Has access only to local drives.
-- Is always available, even if the current user logs out, or your remote desktop session expires.
-
-
-#### Command line agents
-
-The following Agents operate using a command line interface versus a user interface.
-
-### macOS
-
-- **Select to download**.
-- Navigate to the download location, and unzip the **Mover Agent**.
-- Via the terminal, browse to the now unzipped `moveragent` folder, and run `./agent`.
-- Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
-- Open our app, and in the **agent authorization** box, paste the key.
-
->[!Note]
->The minimum system requirements are macOS 10.12.
-
-### Linux
-
-- **Select to download**.
-- Navigate to the download location, and unzip the Agent.
-- Via the terminal, browse to the now unzipped `moveragent` folder and run `./agent`.
-- Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
-- Open our app in your browser, and paste the key into the agent authorization box.
-
-### Windows command line installer (beta)
-
-- **Select to download**.
-- Installs and is run as a command line executable.
-- Must be manually updated.
-- Built from the same code base as the Linux and macOS agents.
-
-### How does the agent view users?
-
-The Agent works with files and folders. All users who are separated into their own folders can easily be mapped to their new location in Microsoft 365.
-
-A good example would be a large listing of home drives. Each home drive for a user could be transfered to their respective new user in Microsoft 365.
-
-![Agent view users](media/windows-view-users.png)
-
-### Troubleshooting the agent
-
-#### Checking the agent version
-
-To check which version of the Server Client you have installed, on the menu bar, select the **Help** tab.
-
-![faq agent](media/agent_version.png)
-
-If you are using the Mac or Linux version of our Agent, to find out the version you are using, follow these instructions: **Show Agent Version**.
-
-#### Accessing server agent log
-
-To access the **Agent Log**, navigate to the folder directory that you installed the desktop agent. A .log file appears that you can review, and send to our support team if an error should occur.
-
->[!Note]
->The agent .log file default location is `Windows\System(32/64)\config\systemprofile\AppData\Local\Mover`
-
-![agent log](media/agent_log.png)
-
-#### Commands for agent (Mac and Linux only)
-
-Our Agent supports the following commands:
-
-- Start the Agent
-- Stop the Agent
-- Show Agent Help
-- Show Agent Version
-- Check Agent Status
-- Disconnect the Agent
-- Connect the Agent
-- Monitor Agent Activity
-
-
-#### Start the agent
-
-To start the Agent, use: </br>`./agent start`.
-
-`$ ./agent start`</br>
-`Mover Agent Starting`</br>
-`Mover Agent Key:`</br> `0000000000000000000000000000000`</br>
-`Ctrl-C To Stop`
-
-#### Start the agent in the background
-
-To start the Agent in the background, use:</br>`./agent start &`.
-
-`$ ./agent start &[1] 8667`</br>
-`$ Mover Agent Starting`</br>
-`Mover Agent Key:`</br> `00000000000000000000000000000000`</br>
-`Ctrl-C To Stop`
-
-#### Stop the agent
-
-If the Agent is running in the foreground of the terminal, to stop the Agent, press `Ctrl-C`.
-
-`^CMover Agent Stopping`
-
-If the Agent is running the background or in another terminal session, use:</br> `./agent Stop`.
-
-`$ ./agent stop`</br>
-`Connecting to Mover Agent`</br>
-`Sending stop command`</br>
-`Mover Agent Stopping`</br>
-`Mover Agent stopped`</br>
-`[1]+ Done ./agent start`
-
-#### Show agent help
-
-To get a list of commands and options, use:</br> `./agent -h`.
-
-`$ ./agent -h`</br>
-`Mover Agent 1.0.6968.0`</br>
-`Usage: agent [options] [command]`
-
-`Options:`</br>
-`-? | -h | --help Show help information`</br>
-`-v | --version Show version information`
-
-`Commands:`
-
-- `connect| Connect to a running instance of the Agent and issue a connect command`</br>
-- `disconnect| Connect to a running instance of the Agent and issue a disconnect command`</br>
-- `monitor| Connect to a running instance of the Agent and monitor agent activity`</br>
-- `start| Start the Agent`</br>
-- `status| Connect to a running instance of the Agent and retrieve the current status`</br>
-- `stop| Stop the Agent`
-
-For more info about a command, use `agent [command] --help`.
-
-#### Show agent version
-
-To show the Agent version, use:</br> `./agent -v`
-
-`$ ./agent -v`</br>
-`Mover Agent`</br>
-`1.0.6968.0 (Unix 18.6.0.0)`
-
-#### Check agent status
-
-To check the status of the Agent, use:</br> `./agent status`
-
-`$ ./agent status`</br>
-`Connecting to Mover Agent`</br>
-`Mover Agent Key:`</br> `00000000000000000000000000000000`</br>
-`Mover Agent Status: online`
-
-#### Disconnect the agent
-
-To disconnect the Agent, use:</br> `./agent disconnect`
-
-`$ ./agent disconnect`</br>
-`Connecting to Mover Agent`</br>
-`Sending disconnect command`</br>
-`Mover Agent disconnected.`
-
-`$ ./agent status`</br>
-`Connecting to Mover Agent`</br>
-`Mover Agent Key:`<br>
-`00000000000000000000000000000000`</br>
-`Mover Agent Status: offline`
-
-
-#### Connect the agent
-
-To connect the Agent, use:</br> `./agent connect`
-
-`$ ./agent connect`</br>
-`Connecting to Mover Agent`</br>
-`Sending connect command`</br>
-`Mover Agent connected.`
-
-`$ ./agent status`</br>
-`Connecting to Mover Agent`</br>
-`Mover Agent Key:`<br>
-`00000000000000000000000000000000`</br>
-`Mover Agent Status: online`
-
-
-#### Monitor agent activity
-
-To monitor the Agent activity, use:</br> `./agent Monitor`. To stop monitoring Agent activity, use: `Ctrl-C`.
-
-`$ ./agent monitor`</br>
-`Connecting to Mover Agent`</br>
-`Mover Agent Key:`<br> `00000000000000000000000000000000`</br>
-`Connected to bifrost.mover.io on ports 8081 and 4002.`</br>
-`Ready to transfer!Browse: /`</br>
-`Browse: /Users`</br>
-`Browse: /Users/mover`</br>
-`Browse: /Users/mover/AgentTestData`</br>
-`Browse: /Users/mover/AgentTestData/TestDocuments`</br>
-`Upload: /Users/mover/AgentTestData/TestDocuments/TestTextDocument.txt`</br>
-`Upload: /Users/mover/AgentTestData/TestDocuments/file.txt`</br>
-`Upload: /Users/mover/AgentTestData/TestDocuments/picture.jpg`</br>
-`^C`
-
