@@ -120,6 +120,6 @@ Microsoft Teams appears and operates the same as a SharePoint Online site.
 
 Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
-SharePoint sites do have file size and number limits, which are covered in detail here: **SharePoint Online limits**.
+SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint Online limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
