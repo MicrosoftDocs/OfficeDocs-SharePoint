@@ -30,7 +30,8 @@
 ### [Performance guidance for Migration Manager](mm-performance.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
-## Mover Migration Guide
+## Mover Migrations
+###  [Mover release notes](mover-release-notes.md)
 ### [Overview](mover-overview.md)
 ### [Connectors](mover-connectors-general.md)
 ### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
@@ -56,7 +57,6 @@
 #### [Error messages](mover-error-faq.md)
 #### [Account FAQ](mover-account-faq.md)
 #### [Migration FAQ](mover-migration-faq.md)
-###  [Mover release notes](mover-release-notes.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [SPMT migration performance guidelines](spmt-performance-guidance.md)
