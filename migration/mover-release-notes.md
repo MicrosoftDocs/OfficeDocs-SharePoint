@@ -99,7 +99,7 @@ Deploy to production: Front and backend release clean up left over billing relat
 
 - None 
 
-## V1.15.11 (May 14, 2020)
+## V1.15.11 (May `14, 2020)
 Backend release improving experience to some of our users.
 
 ### User/Support Impact
