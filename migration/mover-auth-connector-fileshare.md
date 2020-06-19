@@ -235,23 +235,21 @@ To monitor the Agent activity, use:</br> `./agent Monitor`. To stop monitoring A
 `Upload: /Users/mover/AgentTestData/TestDocuments/picture.jpg`</br>
 `^C`
 
-## Setting up the migration
-
-### Authorizing the desktop and server agent
+## Authorizing the desktop and server agent
 
 To enable swift and painless copying of data from on-premises desktop and server hard drives, we provide a very tiny agent that any Windows operating system can install.
 
-#### Compatibility
+### Compatibility
 
 Windows XP is not supported.
 All other versions of Windows require the .NET Framework 4.6 for the Agent to function.
 Download and manually install .NET Framework 4.6 from this **link**.
 
-#### Security
+### Security
 
 The Agent may only initiate outbound communication with our own servers. All communication is via encrypted TLS and no service other than ours is allowed to work with the agent.
 
-#### Windows installation
+### Windows installation
 
 For Mac and Linux, the Agent folder appears in your Downloads, and is run through **command line operations**.
 
@@ -273,7 +271,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Agent key](media/agent_key.png)
 
-#### Authorizing the agent in our app
+### Authorizing the agent in our app
 
 1. In the **Transfer Wizard**, select **Authorize New Connector**.
 
@@ -290,13 +288,13 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Name connector agent](media/name-connector-agent.png)
 
-##### Additional screenshots
+### Additional screenshots
 
 ![Additional screenshots](media/additional-screenshots.png)
 
-### Troubleshooting an agent connector
+## Troubleshooting an agent connector
 
-#### What operating systems are supported by the Mover agent?
+### What operating systems are supported by the Mover agent?
 
 The Mover Agent supports many operating systems:
 
@@ -306,7 +304,7 @@ The Mover Agent supports many operating systems:
 - Windows 8.1
 - Windows 10
 
-#### Removing the Mover agent
+### Removing the Mover agent
 
 You can stop using the Mover Agent.
 
@@ -314,7 +312,7 @@ To stop the Mover Agent from connecting to the Mover's servers, select **Disconn
 
 To completely uninstall the Mover Agent, use the Windows program manager.
 
-### Authorizing Microsoft 365
+## Authorizing Microsoft 365
 
 >[!Warning]
 >To fully authorize the **Microsoft 365 Connector**, a global admin is required to grant permissions to the Microsoft 365 Mover app within the Azure portal.
@@ -375,17 +373,17 @@ If you're a **global admin**: Continue with Steps 6 – 9.
 
 9. **Global admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Microsoft 365 Connector** is fully authorized and ready to go.
 
-### Troubleshooting a Microsoft 365 Connector
+## Troubleshooting a Microsoft 365 Connector
 
-#### App access error
+### App access error
 
 If you encounter an error on authorization, try signing out of any Microsoft accounts, and in an Incognito window, attempt to authorize the Connector.
 
-#### Global admin account provisioning
+### Global admin account provisioning
 
 Your global admin user must have a Microsoft 365 account provisioned to administer other Microsoft 365 accounts. If you create a service account for our app, ensure you are also assigned a Microsoft 365 license and walked through the Microsoft 365 setup process.
 
-#### User provisioning
+### User provisioning
 
 Are your Microsoft 365 users provisioned? All Microsoft 365 users need to have logged in to their Microsoft 365, and opened up Microsoft 365 for us to be able to transfer into their accounts. You can also provision Microsoft 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
 
@@ -393,7 +391,7 @@ Are your Microsoft 365 users provisioned? All Microsoft 365 users need to have l
 
 `Request-SPOPersonalSite -UserEmails "neverloggedintest@example.onmicrosoft.com"`
 
-#### Microsoft 365 permission requirements
+### Microsoft 365 permission requirements
 
 Our app requires a global admin for authorization. The following table lists the scopes we require:
 
@@ -406,19 +404,19 @@ Our app requires a global admin for authorization. The following table lists the
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**.
 
-### Connect your source agent for Windows
+## Connect your source agent for Windows
 
 If you are not already connected after you have authorized your source, select **Agent for Windows**, and load the connector. An icon appears showing you the folders you are migrating.
 
 ![Execution select agent source](media/execution-select-agent-source.png)
 
-### Connect your destination Microsoft 365 account
+## Connect your destination Microsoft 365 account
 
 If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
 ![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
 
-#### Create a new migration
+## Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
@@ -449,13 +447,13 @@ Select one of two options:
 >[!Note]
 >You still get to finalize your migration before any data moves!
 
-#### Creating a new migration from a CSV (optional)
+## Creating a new migration from a CSV (optional)
 
 Sometimes you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
 In these cases, we hope the CSV upload option is useful. This allows you to lay out all your users and directories and then give it to us in a .csv format for us to create your migration.
 
-##### Paths to migrate
+### Paths to migrate
 
 Your CSV file must follow this format:
 
@@ -472,7 +470,7 @@ Download an example CSV here:
 
 **Example_CSV_Map.csv**
 
-#### Creating your CSV in Excel
+### Creating your CSV in Excel
 
 If you are using an Excel spreadsheet to create your CSV:
 
@@ -483,9 +481,9 @@ If you are using an Excel spreadsheet to create your CSV:
   b. Select **Save As**.
   c. From the **File Format** options, select **CSV**. 
 
-#### Reviewing your users
+## Reviewing your users
 
-##### Checking paths
+### Checking paths
 
 Confirm that the users in the File Servers source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
@@ -542,7 +540,7 @@ Download an example CSV here:</br>
 
 ![Update migration](media/update-migration.png)
 
-#### Adding
+### Adding
 
 If you missed users in your original CSV upload, or simply want to add new user entries to the current migration, you can add them via CSV. All entries added in this manner are appended to the current migration, meaning this won't modify existing rows, and it is possible to create duplicate entries alongside the ones that already exist.
 
@@ -561,7 +559,7 @@ Tips for creating the CSV:
 
 ![Add to Migration](media/add-to-migration.png)
 
-#### Duplicating
+### Duplicating
 
 At any time, you may duplicate a user in the **Migration Manager** list. To duplicate a user entry:
 
@@ -574,7 +572,7 @@ A new user entry appears. From here, you can change the directory, schedule, or 
 
 ![duplicate user](media/duplicate-user.png)
 
-#### Scheduling
+### Scheduling
 
 You can set an hourly, daily, weekly, or monthly schedule for each user, even after they have been run.
 
@@ -586,7 +584,7 @@ To create or edit a schedule:
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
 
-##### Deleting
+### Deleting
 
 Be aware that users can only be deleted if they haven't been scanned, or had a transfer run.
 
@@ -600,23 +598,23 @@ To delete a user entry:
 
 ![delete user](media/delete-user.png)
 
-### Migration Manager overview
+## Migration Manager overview
 
 The **Migration Manager** is the key part of our app. It is the primary screen for interacting during the data migration process.
 
 ![migration main mover](media/migration-main-mover.png)
 
-#### Migration Manager dashboard
+### Migration Manager dashboard
 
 Use the **Migration Manager** dashboard for a summary of your overall migration. This is covered in depth **here**.
 
-#### Main menu bar
+### Main menu bar
 
 Use our app's main navigation bar to switch between the **Migration Manager**, **Transfer Wizard**, and your **Account** details, as well as contact support if you run into any issues during your migration.
 
 ![migration top mover](media/migration-top-mover.png)
 
-#### Migration selection
+### Migration selection
 
 Use the **Migration Selection** bar to navigate between separate multi-user migrations, as well as individual normal transfers.
 
@@ -624,13 +622,13 @@ Here, you are also able to edit and personalize the names of each multi-user mig
 
 ![migration edit mover](media/migration-edit-mover.png)
 
-#### Migration actions
+### Migration actions
 
 Use the **Migration Actions** menu to access things such as: the migration reports, the columns displayed, and the overall layout of your migration to best suit your personal needs.
 
 ![migration action mover](media/migration-action-mover.png)
 
-#### Filters
+### Filters
 
 Use the **Active Filters** bar to search your migration for specific key terms or custom tags you have applied.
 
@@ -640,7 +638,7 @@ You can also view more in-depth instructions by selecting the info button direct
 
 ![migration filter info](media/migration-filter-info.png)
 
-#### User display
+### User display
 
 The user display is the central focus of the **Migration Manager**, and displays all the users in the current migration.
 
@@ -648,7 +646,7 @@ This section of our app provides you with a column-by-column breakdown of each i
 
 ![migration users mover](media/migration-users-mover.png)
 
-#### User actions and finalization
+### User actions and finalization
 
 This area of the screen contains the **User Actions** dropdown menu, the **Scan User** and **Start Migrating Users** buttons.
 
