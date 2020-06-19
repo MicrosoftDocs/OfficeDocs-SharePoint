@@ -232,71 +232,83 @@ If you are not already connected after you have authorized your destination, cli
 
 ![Select Office 365 Destination](media/execution-select-office-365-destination.png)
 
-## Creating a New Migration
+## Creating a new migration
 
-Click **Continue Migration Setup** and the app will move to the Migration Manager.
+Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
-How to create a new migration
-The next step is to create a user list of who is transferring.
+![Create migration](media/create-migration.png)
 
-From your newly created migration in the Migration Manager there are two ways to add users:
+The next step creates a user list of those transfering.
 
-Click the Add Users button.
-How Add Users Button
-Or, click Migration Actions, then Add to Migration.
-How Add Users Dropdown
-You will now be able to select one of two options:
+From your newly created migration in the **Migration Manager**, there are two ways to add users:
 
-![Auto Discover Users[()]
-Click Automatically Discover and Add Users and the app will automatically find your users and attempt to match them up.
+- Select **Add Users**.
 
-Upload Migration CSV File.
-Either drag a file into the designated space or click Choose a file to upload and add a customized CSV file for your Migration.
-Note: CSV creation is covered in depth below.
+![Add users](media/add-users.png)
 
-How to add users to migration
-Note: You will still get to finalize your migration before any data moves!
+- Or, select **Migration Actions**, and then select **Add to Migration**.
 
-## Creating a New Migration from a CSV (Optional)
+![Migration users](media/migration-users.png)
 
-Sometimes you have thousands of users and a complicated directory schema that you wish to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
+Select one of two options:
 
-In these cases, we hope the CSV upload option is useful. This allows you to lay out all your users and directories and then give it to us in a .csv format for us to create your migration.
+1. Auto Discover Users.
+  - Select **Automatically Discover and Add Users**, and our app automatically finds your users and attempts to match them up.
 
-Users to migrate
-Please note your CSV file must follow this format:
+2. Upload Migration CSV File.
+  - Either drag a file into the designated space, or select **Choose a file to upload**, and add a customized CSV file for your migration.
 
-A heading for the source and destination, followed by the paths, and optionally tags on each line.
+![Add users menu](media/add-users-menu.png)
 
-Source Path,Destination Path,Tags
-user1@example.com,user__1@corp.example.com,"Pilot, IT"
-user2@example.com,user__2@corp.example.com,"Pilot, Sales"
-user3@example.com/src dir,user3@example.com/migrated,"Pilot, IT"
-Source Shared Drive,user4@example.com/Team Folder,"Pilot, Sales"
-https://TENANT02.sharepoint.com/sites/SiteName/Shared%20Documents,user5@example.com,"Marketing, Sales"
+>[!Note]
+>You still get to finalize your migration before any data moves!
 
-Note: Ensure your CSV has no spaces after each comma separated value. Values that require commas must be wrapped in quotation marks.
+## Creating a new migration from a CSV (optional)
 
-Download an example CSV here:
+Sometimes you have thousands of users and a complicated directory schema that you want to import. In these cases, it's desirable to plan out your migration in a spreadsheet.
 
-Note: When URL mapping to SharePoint Online you must remove everything after /Shared%20Documents or else the URL will fail.
+In these cases, we trust the CSV upload option is useful. This lets you lay out all your users and directories, and then provide it to us in a .csv format for us to create your migration.
+
+### Users to migrate
+
+Your CSV file must follow this format:
+
+A heading for the source and destination, followed by the paths, and optional tags on each line.
+
+`Source Path,Destination Path,Tags`</br>
+`user1@example.com,user__1@corp.example.com,"Pilot, IT"`</br>
+`user2@example.com,user__2@corp.example.com,"Pilot, Sales"`</br>
+`user3@example.com/src dir,user3@example.com/migrated,"Pilot, IT"`</br>
+`Source Shared Drive,user4@example.com/Team Folder,"Pilot, Sales"`</br>
+`https://TENANT02.sharepoint.com/sites/SiteName/Shared%20Documents,user5@example.com,"Marketing, Sales"`</br>
+
+>[!Note]
+>Ensure your CSV has no spaces after each comma separated value. Values that require commas must be wrapped in quotation marks.
+
+Download an example CSV:
+
+**example_CSV_map.csv**
+
+>[!Note]
+>When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
 
 For example, this full URL won't work:
-https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents/Forms/AllItems.aspx
+`https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents/Forms/AllItems.aspx`
 
-It should be changed to:
-https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents
+Change it to:
+`https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
 
-Example_CSV_Map.csv
-Creating your CSV in Excel
-If you are using an Excel spreadsheet to create your CSV:
+## Creating your CSV in Excel
 
-Ensure you have two columns, one titled Source Path, and one Destination Path.
-List the relative paths, domains, and usernames on the subsequent rows.
-Export your spreadsheet as a CSV
-Click File
-Click Save As
-Select CSV from the File Format options
+To use an Excel spreadsheet to create your CSV:
+
+1. Ensure you have two columns, one titled `Source Path`, and one `Destination Path`.
+2. List the relative paths, domains, and usernames on the subsequent rows.
+3. Export your spreadsheet as a CSV:
+  a. Select **File**.
+  b. Select **Save As**.
+  c. From the **File Format** options, select **CSV**.
+
 
 ## Reviewing your users
 
