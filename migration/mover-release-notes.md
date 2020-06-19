@@ -76,7 +76,7 @@ New release of our Mover backend that includes an exciting new feature for previ
 
 Backend release with stability improvements. There are no customer facing changes. But this will help clear some backlogs in our migration job monitoring service.
 
-## Backend v1.15.11 (May `14, 2020)
+## Backend v1.15.11 (May 14, 2020)
 Backend release improving experience to some of our users.
 
 ### Impact
@@ -84,7 +84,7 @@ Backend release improving experience to some of our users.
 - The Migration Manager table will get populated a bit faster for the average migration, whil every large migrations (1000s of users) will see a considerable speed improvement. 
 - In the Migration Manager overview, some migrations with many users that have been scanned/migrated a large number o times would sometimes fail to populate the table. This has been ixed by optimizing how migrations get populated in order to increase performance.
 
-## Frontend v1.15.4 (May 13,2020)
+## Frontend v1.15.4 (May 13, 2020)
 
 A large frontend release, with little UX impact, but library upgrades. 
 
