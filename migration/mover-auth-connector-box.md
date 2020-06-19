@@ -370,7 +370,7 @@ Tips for creating the CSV:
 
 ![Add to Migration](media/add-to-migration.png)
 
-## Duplicating
+### Duplicating
 
 At any time, you may duplicate a user in the **Migration Manager** list. To duplicate a user entry:
 
