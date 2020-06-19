@@ -44,11 +44,11 @@ Revision history for Google Docs, Sheets, and Slides is different than file vers
 
 ### What isn't transfered
 
-#### What happens to Google Drawings, Forms, Sites, and Maps?
+### What happens to Google Drawings, Forms, Sites, and Maps?
 
 Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These are not transfered.
 
-#### What about Docs, Slides, and Sheets?
+### What about Docs, Slides, and Sheets?
 
 Google's proprietary formats are not compatible with anything other than G Suite Drive. When migrating from G Suite, our app converts to the Microsoft Office format from Google's format.
 
@@ -59,7 +59,7 @@ Any Google format that is larger than 10 MB when it is converted fails. This is 
 
 ![google format vs office format](media/google-format-versus-office-format.png)
 
-#### Files marked as restricted
+### Files marked as restricted
 
 G Suite Drive enables owners to disable the ability for users to copy, download, or print a file on a per-file basis. This feature must be disabled on each file for which it has been enabled, in order for a migration to function properly, or you receive an error stating:
 
@@ -79,7 +79,7 @@ When a folder is shared out to another user, it appears in their **/Shared with 
 
 Microsoft 365 does not support this same nesting of shared data, which is why we've developed a solution.
 
-##### Examples
+### Examples
 
 See the following two examples for how users might create conflicting folder structures.
 
@@ -94,7 +94,7 @@ Any file or folder in a user's My Drive may be arbitrarily added to a new locati
 
 ![file save in two places](media/file-saved-in-two-places-example.png)
 
-#### The solution
+### The solution
 
 In order to ensure your users still have access to all their important files, our app automatically makes an intelligent decision on which folder becomes the source of truth when multiple users have conflicting views.
 
@@ -366,7 +366,7 @@ Download an example CSV:
 **Example_CSV_Map.csv**
 
 >[!Note]
->When URL mapping to SharePoint Online, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
+>When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
 
 For example, this full URL won't work:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents/Forms/AllItems.aspx`
