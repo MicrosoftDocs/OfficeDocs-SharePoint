@@ -247,7 +247,7 @@ Or, click Migration Actions, then Add to Migration.
 How Add Users Dropdown
 You will now be able to select one of two options:
 
-Auto Discover Users.
+![Auto Discover Users[()]
 Click Automatically Discover and Add Users and the app will automatically find your users and attempt to match them up.
 
 Upload Migration CSV File.
@@ -300,10 +300,10 @@ Select CSV from the File Format options
 
 ## Reviewing Your Users
 
-Checking Paths
+### Checking Paths
 Confirm that the users in the Amazon WorkDocs source match the users in the Office 365 destination. Usually the emails/usernames will match up, but it depends how you structure and name your users. Be diligent during this step!
 
-Editing
+### Editing
 Be aware that Users can only be edited if they haven't been scanned or had a transfer run.
 
 To edit a user source entry:
@@ -341,7 +341,7 @@ Adding column id
 Once you've created your CSV file using the above instructions and format, you can drag and drop the file into our app or click on Choose a file to upload. Changes to your user pairings will be implemented immediately.
 Update migration prompt
 
-Adding
+### Adding
 If you missed users in your original CSV upload, or simply wish to add new user entries to the current migration, you can add them via CSV. All entries added in this manner will be appended to the current migration, meaning this won't modify existing rows and it is possible to create duplicate entries alongside the ones that already exist.
 
 To add new users:
@@ -356,7 +356,7 @@ The CSV will be created the same way you would if you initially created the migr
 Once you've created your CSV file using the above instructions and format, you can drag and drop the file into our app or click on Choose a file to upload. Changes to your user pairings will be implemented immediately.
 Add to migration prompt
 
-Duplicating
+### Duplicating
 At any time you may duplicate a user in the Migration Manager list. To duplicate a user entry:
 
 Select a user row by clicking the respective checkbox on the left side of a row. You may select more than one entry at a time.
@@ -365,7 +365,7 @@ Click Duplicate # User in the context menu.
 You will be prompted to click OK and a new user entry will appear. From there you can change the directory, schedule, or even the entire user.
 Duplicate user prompt
 
-Scheduling
+### Scheduling
 You may set an hourly, daily, weekly, or monthly schedule for each user, even after they have been run.
 
 To create or edit a schedule:
@@ -375,7 +375,11 @@ Click the User Actions  dropdown menu.
 Select Schedule # Users.
 Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 Click Apply Schedules to X Users.
-Deleting
+
+
+
+### Deleting
+
 Be aware that users can only be deleted if they haven't been scanned or had a transfer run.
 
 To delete a user entry:
@@ -419,28 +423,29 @@ Note: Adding a new line for a specific users - ie. user01@gmail.com to user01@ho
 
 You may upload a permission map in CSV format. This will overwrite any existing permission map, so please be careful. In an ideal world, all users will be matched. If there are a few unmatched users, you may manually add names to the Destination field from the web interface.
 
-Permission map overview
+![Permission map overview](media/permission-map-overview.png)
 
 Please ensure that your permission map follows this strict format:
 
 A heading for the source and destination, followed by domain names, groups, usernames, or emails.
 
-Source User, Destination User
-example.com, example.com
-corp.example.com, example.com
-user@example.com, differentuser@example.com
-group, group
+`Source User, Destination User`
+`example.com, example.com`
+`corp.example.com, example.com`
+`user@example.com, differentuser@example.com`
+`group, group`
 
 Permission maps should have two specific entries:
 
-Any domain names that will be wildcard matched. Eg. example.com, example.com or contoso.com, corp.contoso.com. This will instruct our app to match any users with those domain names in their source email to their new destination email domain.
-Imperfect matches. Users that are differently named between the source and destination domains need to be explicitly listed. Eg. firstname@contoso.com, firstname_lastname@contoso.com
-Groups can also be included for most connectors. These are explicitly required and are not matched with a domain wildcard. Eg. Sales Team, Global Sales Team .
-Please note that we will strip all leading and trailing spaces from each path value, unless it is wrapped in quotation marks.
+1. Any domain names that will be wildcard matched. Eg. `example.com, example.com` or `contoso.com, corp.contoso.com`. This will instruct our app to match any users with those domain names in their source email to their new destination email domain.
+2. Imperfect matches. Users that are differently named between the source and destination domains need to be explicitly listed. Eg. `firstname@contoso.com, firstname_lastname@contoso.com`
+3. Groups can also be included for most connectors. These are explicitly required and are not matched with a domain wildcard. Eg. `Sales Team, Global Sales Team`.
+4. Please note that we will strip all leading and trailing spaces from each path value, unless it is wrapped in quotation marks.
+
 Download an example CSV here: example_permission_map.csv
 
-## Creating your CSV in Excel
-If you are using an Excel spreadsheet to create your CSV, ensure you have two columns, one titled Source User, and one Destination User, and check the spelling on the domains, usernames, and groups listed.
+### Creating your CSV in Excel
+If you are using an Excel spreadsheet to create your CSV, ensure you have two columns, one titled `Source User`, and one `Destination User`, and check the spelling on the domains, usernames, and groups listed.
 
 For example:
 Source User, Destination User
@@ -449,62 +454,75 @@ eric@example.com, ewarnke@example.com
 joshua@example.com, jbadach@example.com
 Sales Team,Global Sales Team
 
-Excel CSV overview
+![Excel CSV overview](media/excel-overview.png)
 
-Exporting a Permission Map
+### Exporting a Permission Map
 You may export a permission map in CSV format.
 
-Click File
-Click Save As
-Select CSV from the File Format options
-Saving as a CSV in Excel
+1. Click File
+2. Click Save As
+3. Select CSV from the File Format options
+
+![Saving as a CSV in Excel](media/excel-save-as-csv.png)
 
 ## Migration Manager Overview
 
 The Migration Manager is the key part of the application itself and the main screen you will be interacting with during the data migration process:
 
-Migration Manager Mover
-Migration Manager Dashboard
+![Migration Manager Mover](media/migration-main-mover.png)
+
+### Migration Manager Dashboard
+
 One of the important points of the Migration Manager is the dashboard, which gives you a summary of your overall migration; this is covered in depth here.
 
-Main Menu Bar
+### Main Menu Bar
 This is the application's main navigation bar.
 
 It will allow you to switch between the Migration Manager, Transfer Wizard, and your Account details; as-well-as contact support if you run into any issues during your migration.
 
-Migration Manager Top Menu Mover
-Migration Selection
+
+![Migration Manager Mover](media/migration-top-mover.png)
+
+
+### Migration Selection
 The Migration Selection bar allows you to navigate between separate multi-user migrations as-well-as individual Normal Transfers.
 
 From here you are also able to edit and personalize the names of each multi-user migration.
 
-Migration Manager Editing Mover
-Migration Actions
+![Migration Manager Editing Mover](media/migration-edit-mover.png)
+
+### Migration Actions
 The Migration Actions menu allows you to access things such as: the permission map and the migration reports, to the columns displayed and the overall layout of your migration to better suite your personal needs.
 
-Migration Manager Actions Mover
-Filters
+![Migration Manager Actions Mover](media/migration-action-mover.png)
+
+### Filters
 The Active Filters Bar allows you to search your migration for specific key terms or custom tags you have applied.
 
-Filter gif
+![Filter gif](media/migration-filter.gif)
+
 You can also view more in-depth instructions by clicking the info button directly to the right of the Active Filters search bar or by viewing the Active Filter List.
 
-Filter gif
-User Display
+![Filter](media/migration-filter-info.png)
+
+### User Display
 This is the central focus of the Migration Manager and displays all the users in the current migration.
 
 This section of the application provides you with a column-by-column breakdown of each individual user in a migration. Here you are also able to duplicate and edit source/destination paths of a user; as-well-as view the logs of any scanned or completed transfers.
 
-Migration Manager Users Mover
-User Actions & Finalization
+![Migration Manager Users Mover](media/migration-users-mover.png)
+
+### User Actions & Finalization
 This area of the screen contains the User Actions dropdown menu, the Scan User and Start Migrating Users buttons.
 
-Migration Manager Finalization Mover
-User Actions  opens a new dropdown menu that allows you to interact with a selected transfer.
+![Migration Manager Finalization Mover](media/migration-final-mover.png)
 
-Migration Manager User Actions Mover
-Scan # Users will perform a scan of the selected users; this will help identify any problematic files, folders or connectors.
+**User Actions** opens a new dropdown menu that allows you to interact with a selected transfer.
 
-Start # Migrating Users will open a side-tab that will allow you to finalize and begin the migration.
+![Migration Manager User Actions Mover](media/migration-actions-mover.png)
 
-Migration Manager User Actions Mover
+**Scan # Users** will perform a scan of the selected users; this will help identify any problematic files, folders or connectors.
+
+**Start # Migrating Users** will open a side-tab that will allow you to finalize and begin the migration.
+
+![Migration Manager User Actions Mover](media/migration-finalize-mover.png)
