@@ -84,11 +84,11 @@ Both Modern and Classic sites are supported, and appear the same in our app.
 
 ## What will my file paths look like in SharePoint?
 
-During the migration setup (described later in this guide), you can edit the path(s) to specify where in SharePoint you would like your data to go. From the root level of SharePoint Online, you can go into **Site Collections**, and inside each **Site Collection**, directories for **Site Contents** and **Subsites** appear.
+During the migration setup (described later in this guide), you can edit the path(s) to specify where in SharePoint you would like your data to go. From the root level of SharePoint, you can go into **Site Collections**, and inside each **Site Collection**, directories for **Site Contents** and **Subsites** appear.
 
 **Site Contents** takes you to document libraries (for example, the **Documents** section), whereas **Subsites** takes you to the **Subsites** of that site collection. Navigating **Subsites** takes you through the same dichotomy.
 
-Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint Online does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
+Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
 ![File paths in SPO](media/filepaths-in-sp.png)
 
@@ -114,12 +114,12 @@ For more info see [SharePoint permissions inheritance](https://docs.microsoft.co
 
 ## Does Mover support Microsoft Teams?
 
-Microsoft Teams appears and operates the same as a SharePoint Online site.
+Microsoft Teams appears and operates the same as a SharePoint site.
 
-## What is the item limit for SharePoint Online?
+## What is the item limit for SharePoint?
 
 Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
-SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint Online limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
