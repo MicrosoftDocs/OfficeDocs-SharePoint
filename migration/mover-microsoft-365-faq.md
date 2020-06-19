@@ -12,17 +12,17 @@ We automatically process file and folder names to ensure they are accepted by Mi
 - Leading tildes (`~`) are removed.
 - Leading or trailing whitespace is removed.
 - Leading or trailing periods (`.`) are removed.
-- For all invalid file or folder names and other Microsoft 365 limitations, see **here**.
+- See [Invalid file names and file types](https://support.office.com/en-us/article/invalid-file-names-and-file-types-in-onedrive-onedrive-for-business-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa) for all other limitations.
 
 In some possible circumstances with older sites, any file or folder ending in `_files` could fail. If you experience these errors, contact Support.
 
-Microsoft currently has no file type limitations, meaning you can upload data with any file extension. For more info, see **here**.
+Microsoft currently has no file type limitations, meaning you can upload data with any file extension. For more info, see [Types of files that cannot be added to a list or library](https://support.microsoft.com/en-us/office/types-of-files-that-cannot-be-added-to-a-list-or-library-30be234d-e551-4c2a-8de8-f8546ffbf5b3?ui=en-us&rs=en-us&ad=us)
 
 ## Character limits for files and folders
 
 -	Filenames can have up to 256 characters.
 - Folder names may have up to 250 characters.
-- Total path length for folder and filename combinations can have up to 400 characters. For more info, see **below**.
+- Total path length for folder and filename combinations can have up to 400 characters. For more info, see below.
 
 ## What happens to long paths?
 
@@ -32,7 +32,7 @@ During a pre-scan, our app automatically detects and reports paths that are too 
 
 This path is 93 characters long despite *Documents/Old Docs* being only 18 characters:</br>
 
-https://example-my.sharepoint.com /personal /example_user /%2FDocuments%2FOld%20Docs</br>
+`https://example-my.sharepoint.com /personal /example_user /%2FDocuments%2FOld%20Docs`
 
 If a file exists that has a very long path, our app skips it, and reports it in your log files.
 
@@ -110,7 +110,7 @@ In the Library settings, visit **Permissions for this document library**:
 
 This prevents site members/visitors from inheriting permissions to all the data that we migrate into that library, allowing permissions to only those site members who we explicitly write to the folders themselves.
 
-For more info about SharePoint Online permissions inheritance, see **here**.
+For more info see [SharePoint permissions inheritance](https://docs.microsoft.com/en-us/sharepoint/what-is-permissions-inheritance?redirectSourcePath=%252fen-us%252farticle%252fwhat-is-permissions-inheritance-06bb1ed1-d150-42f4-9600-fb261d4b590c).
 
 ## Does Mover support Microsoft Teams?
 
