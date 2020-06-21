@@ -48,7 +48,7 @@ Consider the following situations and note what the AD import option does not su
     
   - If you have a trust between two forests, the trusted forest objects will not be imported.
     
-  - AD import does support importing users from multiple forests provided you create one synchronization connection per forest. As an alternative, consider using Microsoft Identity Manager.
+  - AD import does support importing users from multiple Domains provided you create one synchronization connection per Domain. As an alternative, consider using Microsoft Identity Manager.
     
 - The AD import option does not support Contact objects (also known as cross-object pointers).
     
