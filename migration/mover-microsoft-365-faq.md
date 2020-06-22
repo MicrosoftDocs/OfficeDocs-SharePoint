@@ -12,11 +12,11 @@ We automatically process file and folder names to ensure they are accepted by Mi
 - Leading tildes (`~`) are removed.
 - Leading or trailing whitespace is removed.
 - Leading or trailing periods (`.`) are removed.
-- See [Invalid file names and file types](https://support.office.com/en-us/article/invalid-file-names-and-file-types-in-onedrive-onedrive-for-business-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa) for all other limitations.
+- See [Invalid file names and file types](https://support.office.com/article/invalid-file-names-and-file-types-in-onedrive-onedrive-for-business-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa) for all other limitations.
 
 In some possible circumstances with older sites, any file or folder ending in `_files` could fail. If you experience these errors, contact Support.
 
-Microsoft currently has no file type limitations, meaning you can upload data with any file extension. For more info, see [Types of files that cannot be added to a list or library](https://support.microsoft.com/en-us/office/types-of-files-that-cannot-be-added-to-a-list-or-library-30be234d-e551-4c2a-8de8-f8546ffbf5b3?ui=en-us&rs=en-us&ad=us)
+Microsoft currently has no file type limitations, meaning you can upload data with any file extension. For more info, see [Types of files that cannot be added to a list or library](https://support.microsoft.com/office/types-of-files-that-cannot-be-added-to-a-list-or-library-30be234d-e551-4c2a-8de8-f8546ffbf5b3)
 
 ## Character limits for files and folders
 
@@ -110,7 +110,7 @@ In the Library settings, visit **Permissions for this document library**:
 
 This prevents site members/visitors from inheriting permissions to all the data that we migrate into that library, allowing permissions to only those site members who we explicitly write to the folders themselves.
 
-For more info see [SharePoint permissions inheritance](https://docs.microsoft.com/en-us/sharepoint/what-is-permissions-inheritance?redirectSourcePath=%252fen-us%252farticle%252fwhat-is-permissions-inheritance-06bb1ed1-d150-42f4-9600-fb261d4b590c).
+For more info see [SharePoint permissions inheritance](https://docs.microsoft.com/sharepoint/what-is-permissions-inheritance).
 
 ## Does Mover support Microsoft Teams?
 
@@ -120,6 +120,6 @@ Microsoft Teams appears and operates the same as a SharePoint site.
 
 Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
-SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint limits](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.

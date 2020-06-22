@@ -1,5 +1,5 @@
 ---
-title:Authorizing the Amazon S3 Connector
+title: Authorizing the Amazon S3 Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
