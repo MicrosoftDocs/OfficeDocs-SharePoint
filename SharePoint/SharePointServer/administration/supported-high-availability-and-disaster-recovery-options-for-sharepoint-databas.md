@@ -45,7 +45,7 @@ The following tables provide the supported high availability and disaster recove
 ## Supported Versions of SQL Server
 
 For supported versions of SQL Server, see:
-- Hardware and software requirements for SharePoint Server 2019](https://docs.microsoft.com/SharePoint/install/hardware-and-software-requirements-2019)
+- [Hardware and software requirements for SharePoint Server 2019](https://docs.microsoft.com/SharePoint/install/hardware-and-software-requirements-2019)
 - [Hardware and software requirements for SharePoint Server 2016](https://docs.microsoft.com/SharePoint/install/hardware-and-software-requirements)
 - [Hardware and software requirements for SharePoint 2013](https://docs.microsoft.com/SharePoint/install/hardware-and-software-requirements-0) 
   
