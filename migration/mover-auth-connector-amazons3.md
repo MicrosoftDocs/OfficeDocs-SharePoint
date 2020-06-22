@@ -11,7 +11,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Authorizing the Amazon S3 Connecto
+description: "Authorizing the Amazon S3 Connector"
 ---
 #  Authorizing the Amazon S3 Connector
 
