@@ -3,6 +3,7 @@ title: Authorizing the Amazon S3 Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
+ms.date: 6/22/2020
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
