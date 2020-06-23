@@ -95,27 +95,8 @@ You can make it even easier for users by adding the Timesheet content type to a 
 
 8. Select **Save**.
 
-## Add columns to a content type
-
-The columns for a content type represent metadata. To add a metadata element, add a new column.
-
-For example, your organization might want to track specific metadata for purchase orders, such as account number, project number, and project manager. If you add columns for this information to the purchase order content type, SharePoint prompts users to provide the information when they save their work. In addition, if you add the content type to a list or library, you can define a view to display the columns.
-
-
-1. Go to the SharePoint admin center.
-
-2. Under **Content services**, select **Content type gallery**.
-
-3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to add a column.
-
-4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
-
-5. In the **Select site columns from existing category** section, select **Add** or **Remove** to add or remove columns from the choices that appear. You can choose a category to narrow the list of available columns.
-
-6. In the **Update List and Site Content Types** section, decide whether you want to update all site and content types that inherit from this content type with the settings on this page.
-
-7. Select **Save**.
-
 ## Related topics
+
+[Add columns to a content type](add-columns-content-type.md)
 
 [Create or customize a site content type](https://support.microsoft.com/office/27eb6551-9867-4201-a819-620c5658a60f)
