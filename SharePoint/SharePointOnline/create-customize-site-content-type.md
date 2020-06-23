@@ -36,13 +36,13 @@ To create a site content type that people can use everywhere on a site, follow t
 
 2. Under **Content services**, select **Content type gallery**. The **Content type gallery** page appears showing all the existing site content types, their respective parent and category. The one that you select becomes the parent group of your new content type.
 
-![Content type gallery](media/content-type-gallery.png)
+    ![Content type gallery](media/content-type-gallery.png)
 
 3. Select **Create content type**. The **Create content type** panel appears.
 
 4. On the **Create content type** panel, provide a name and description for the new content type.
 
-![Create content type](media/create-content-type.png)
+    ![Create content type](media/create-content-type.png)
 
 5. In the **Parent content type** section, from the **Category** amd **Content type** dropdowns, select the content type that you want to base this content type on.
 
@@ -88,7 +88,7 @@ To associate a template with a site content type, follow these steps.
 
 4. In the menu bar, under **Settings**, select **Advanced Settings**. The **Advanced Settings** panel appears.
 
-![Advanced settings](media/advanced-settings.png)
+    ![Advanced settings](media/advanced-settings.png)
 
 5. Enter the location of the template:
 
@@ -119,7 +119,7 @@ For example, your organization might want to track specific metadata for purchas
 
 4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
 
-![Add from existing site columns](media/add-from-existing-site-columns.png)
+    ![Add from existing site columns](media/add-from-existing-site-columns.png)
 
 5. In the **Select site columns from existing category** section, select a category, and then select **Add** or **Remove** to add or remove columns from the choices that appear.
 
