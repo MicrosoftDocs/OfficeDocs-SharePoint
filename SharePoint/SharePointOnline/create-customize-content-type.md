@@ -1,6 +1,6 @@
 ---
-title: "Create or customize a site content type"
-ms.reviewer: mikeplum
+title: "Create or customize a content type"
+ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -14,10 +14,10 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Learn how to create or customize a site content type in the SharePoint admin center for Enterprise Content Types."
+description: "Learn how to create or customize a content type in the SharePoint admin center."
 ---
 
-# Create or customize a site content type
+# Create or customize a content type
 
 Site content types help make it easy to provide consistency across a site. As a site owner, you create or customize a content type with the characteristics that you want, such as a certain template, specific metadata, and so on. For example, when a user chooses an item from the **New Item** or **New Document** menu, you can ensure that customized content is used.
 
@@ -35,8 +35,6 @@ To create a site content type that people can use everywhere on a site, follow t
 1. Go to the SharePoint admin center.
 
 2. Under **Content services**, select **Content type gallery**. The **Content type gallery** page appears showing all the existing site content types, their respective parent and category. The one that you select becomes the parent group of your new content type.
-
-    ![Content type gallery](media/content-type-gallery.png)
 
 3. Select **Create content type**. The **Create content type** panel appears.
 
@@ -88,8 +86,6 @@ To associate a template with a site content type, follow these steps.
 
 4. In the menu bar, under **Settings**, select **Advanced Settings**. The **Advanced Settings** panel appears.
 
-    ![Advanced settings](media/advanced-settings.png)
-
 5. Enter the location of the template:
 
     - If the template is stored on your site, select **Use an existing template**, and then enter the URL for the template that you want to use. To edit the template, select **Edit template**.
@@ -119,8 +115,6 @@ For example, your organization might want to track specific metadata for purchas
 
 4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
 
-    ![Add from existing site columns](media/add-from-existing-site-columns.png)
-
 5. In the **Select site columns from existing category** section, select a category, and then select **Add** or **Remove** to add or remove columns from the choices that appear.
 
 6. In the **Update List and Site Content Types** section, decide whether you want to update all site and content types that inherit from this site content type with the settings on this page.
@@ -130,8 +124,6 @@ For example, your organization might want to track specific metadata for purchas
 ## Set up the Document Information Panel for a site content type
 
 The Document Information Panel is available for Word, Excel, and PowerPoint in Microsoft Office 2010 and later. The Document Information Panel displays an InfoPath form on these documents where you can enter metadata information in the panel.
-
-![Document Information Panel](media/document-information-panel.png)
 
 For example, suppose that you want to make sure that salespeople provide the company name and phone number for every sales proposal. You can create a Proposal content type, and include company name and phone number in the Document Information Panel. When they open a Proposal document, users enter or update the required name and phone number. When they save the document, SharePoint automatically updates the metadata stored as columns in the document library.
 

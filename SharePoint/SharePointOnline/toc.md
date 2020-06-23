@@ -84,7 +84,7 @@
 #### [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md)
 ### [Content types]()
 
-#### [Create a content type](create-customize-site-content-type.md)
+#### [Create a content type](create-customize-content-type.md)
 #### [Add columns](add-columns-content-type.md)
 #### [Remove columns](remove-columns-content-type.md)
 #### [Publish](publish-content-type-hub.md)
