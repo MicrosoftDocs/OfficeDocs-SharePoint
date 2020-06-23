@@ -40,7 +40,7 @@ To add a column to a content type, follow these steps:
 
 4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
 
-![Add from existing site columns](media/add-from-existing-site-columns.png)
+    ![Add from existing site columns](media/add-from-existing-site-columns.png)
 
 5. In the **Select site columns from existing category** section, select a category, and then select **Add** or **Remove** to add or remove columns from the choices that appear.
 
@@ -48,7 +48,7 @@ To add a column to a content type, follow these steps:
 
 7. Select **Save**.
 
-![Update list site content types](media/update-list-site-content-types.png)
+    ![Update list site content types](media/update-list-site-content-types.png)
 
 ## Add a column to a list or library content type
 
@@ -68,7 +68,7 @@ To add a column to a content type, follow these steps:
 
 4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
 
-![Add from existing site columns](media/add-from-existing-site-columns.png)
+    ![Add from existing site columns](media/add-from-existing-site-columns.png)
 
 5. In the **Select site columns from existing category** section, select a category, and then select **Add** or **Remove** to add or remove columns from the choices that appear.
 
@@ -108,11 +108,11 @@ To change column order for a content type, follow these steps.
 
     - If you're working in a list, select the **List** tab, and then select **List Settings**.
     
-    ![List settings](media/list-settings.png)
+        ![List settings](media/list-settings.png)
 
     - If you're working in a library, select the **Library** tab, and then select **Library Settings**.
     
-    ![Library settings](media/library-settings.png)
+        ![Library settings](media/library-settings.png)
 
 3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to change a column's order. That site content type page appears.
 
@@ -144,15 +144,15 @@ To make a column required, optional or hidden, follow these steps.
 
 5. Select **Edit site column settings**. The **Edit site column settings** panel appears.
 
-![Edit site column settings](media/edit-site-column-settings.png)
+    ![Edit site column settings](media/edit-site-column-settings.png)
 
 6. In the **Show or hide site column** section, do one of the following:
 
-     - To show or hide this column in list, check or uncheck **Show this column in lists**, respectively.
+    - To show or hide this column in list, check or uncheck **Show this column in lists**, respectively.
 
-     - To make it optional for users to specify information for a column, select **Optional (may contain information)**.
+    - To make it optional for users to specify information for a column, select **Optional (may contain information)**.
 
-     - To require users to specify information for a column, select **Required (must contain information)**.
+    - To require users to specify information for a column, select **Required (must contain information)**.
     
 7. Under **Update sites and lists**, if you want to update all site and list content types that inherit from this content type with the settings on this page, check the box.
 
@@ -166,11 +166,11 @@ To make a column required, optional or hidden, follow these steps.
 
     - If you're working in a list, select the **List** tab, and then select **List Settings**.
     
-    ![List settings](media/list-settings.png)
+        ![List settings](media/list-settings.png)
 
     - If you're working in a library, select the **Library** tab, and then select **Library Settings**.
     
-    ![Library settings](media/library-settings.png)
+        ![Library settings](media/library-settings.png)
 
 3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type that you want to change a site content type by adding a column. That site content type page appears.
 
@@ -182,11 +182,11 @@ To make a column required, optional or hidden, follow these steps.
 
 ![Change content type column](media/change-content-type-column.png)
 
-     - To show or hide this column in list, check or uncheck **Show this column in lists**, respectively.
+    - To show or hide this column in list, check or uncheck **Show this column in lists**, respectively.
 
-     - To make it optional for users to specify information for a column, select **Optional (may contain information)**.
+    - To make it optional for users to specify information for a column, select **Optional (may contain information)**.
 
-     - To require users to specify information for a column, select **Required (must contain information)**.
+    - To require users to specify information for a column, select **Required (must contain information)**.
     
 7. Under **Update sites and lists**, if you want to update all site and list content types that inherit from this content type with the settings on this page, check the box.
 

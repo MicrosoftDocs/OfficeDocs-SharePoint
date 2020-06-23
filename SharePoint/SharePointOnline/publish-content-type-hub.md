@@ -22,9 +22,7 @@ description: "Learn how to publish a content type from a content publishing hub 
 > [!NOTE]
 > References to "hub" within this document are referring to content type syndication hubs, not SharePoint hubs. For more info about these items, see [What is a SharePoint hub?](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
 
-If you are working on a content type hub that publishes content types to other site collections, you can publish, republish, or unpublish content types centrally.
-
-![Content type publishing](media/content-type-publishing.png)
+If you are working on a content type hub that publishes content types to other site collections, you can publish, unpublish, or republish content types centrally.
 
 > [!IMPORTANT]
 > To manage content type publishing on a content type hub, you must be a Site Collection admin.
@@ -37,7 +35,7 @@ If you are working on a content type hub that publishes content types to other s
 
 4. In the menu bar, select **Publish**. The **Manage Publishing** panel appears.
 
-![Manage publishing](media/manage-publishing.png)
+    ![Manage publishing](media/manage-publishing.png)
 
 > [!NOTE]
 > In the list, if you don’t see **Publish**, then this site is not a content type hub. To manage updates for the content type, go to the content type hub. For more info about creating a content type hub, see [Activate a content type syndication hub](https://support.microsoft.com/office/activate-a-content-type-syndication-hub-in-sharepoint-server-versions-1d12ee7f-77e0-4b50-bf93-7628b8478bf6).
@@ -62,7 +60,7 @@ To manage a content type, you must go to the content type hub where that content
 
 3. From the **Active sites** page, in the **Site name** column, select the name of the site you want to manage. The site name panel appears.
 
-![Site manage](media/site-manage.png)
+    ![Site manage](media/site-manage.png)
 
 4. In the **Hub association** section, the names of any Managed Metadata Service apps appear that publish content types to this site collection listed in bold text. In the **URL** section, the URLs for the content type hubs are listed after the service app names. A list of the subscribed content types also appears.
 

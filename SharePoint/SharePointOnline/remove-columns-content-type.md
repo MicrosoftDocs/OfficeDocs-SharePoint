@@ -50,11 +50,11 @@ To remove a column from a content type, follow these steps:
 
     - If you're working in a list, select the **List** tab, and then select **List Settings**.
     
-    ![List settings](media/list-settings.png)
+        ![List settings](media/list-settings.png)
 
     - If you're working in a library, select the **Library** tab, and then select **Library Settings**.
     
-    ![Library settings](media/library-settings.png)
+        ![Library settings](media/library-settings.png)
 
 3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to remove a column.
 
