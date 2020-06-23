@@ -34,7 +34,7 @@ To create a site content type that people can use everywhere on a site, follow t
 
 1. Go to the SharePoint admin center.
 
-2. Under **Content services**, select **Content type gallery**. The Content type gallery appears showing all the existing site content types, their respective parent and category. The one that you select becomes the parent group of your new content type.
+2. Under **Content services**, select **Content type gallery**. The **Content type gallery** page appears showing all the existing site content types, their respective parent and category. The one that you select becomes the parent group of your new content type.
 
 ![Content type gallery](media/content-type-gallery.png)
 
@@ -115,17 +115,17 @@ For example, your organization might want to track specific metadata for purchas
 
 2. Under **Content services**, select **Content type gallery**.
 
-3. On the **Content type gallery** page, select the name of the site content type to which you want to add a column.
+3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to add a column.
 
 4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** page appears.
 
 ![Add from existing site columns](media/add-from-existing-site-columns.png)
 
-5. In the **Select site columns from existing category** section, select a category, and then **Add** or **Remove** columns from the choices that appear.
+5. In the **Select site columns from existing category** section, select a category, and then select **Add** or **Remove** to add or remove columns from the choices that appear.
 
 6. In the **Update List and Site Content Types** section, decide whether you want to update all site and content types that inherit from this site content type with the settings on this page.
 
-7. Select *Save**.
+7. Select **Save**.
 
 ## Set up the Document Information Panel for a site content type
 
