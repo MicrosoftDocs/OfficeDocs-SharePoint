@@ -12,7 +12,6 @@ ms.collection:
 search.appverid: MET150
 description: "Mover Release Notes"
 ---
-
 # Mover release notes
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
