@@ -36,7 +36,7 @@ The most important step in planning an effective information architecture is und
 - Who are your users? What key roles do they have?
 - What vocabulary to they have? What terms do they use to look for content?
 - What do they want to learn?
-- What do they want to do? What are their top task?
+- What do they want to do? What are their top tasks?
 
 ## Understand your content
 
