@@ -32,45 +32,43 @@ To create a site content type that people can use everywhere on a site, follow t
 
 **Create a content type**
 
-1. Go to the site where you want to create a site content type.
+1. Go to the SharePoint admin center.
 
-2. Select **Settings** ![Settings icon](media/settings-icon.png), and then select **Site Settings**.
+2. Under **Content services**, select **Content type gallery**. The Content type gallery appears showing all the existing site content types, their respective parent and category. The one that you select becomes the parent group of your new content type.
 
-3. Under **Web Designer Galleries**, select **Site content types**
+![Content type gallery](media/content-type-gallery.png)
 
-![Site content types](media/site-content-types.png)
+3. Select **Create content type**. The **Create content type** panel appears.
 
-The Gallery shows all the existing site content types, grouped in categories. The one that you select becomes the parent group of your new content type.
+4. On the **Create content type** panel, provide a name and description for the new content type.
 
-4. In the **Show Group** box, select the group that you want to use, and then select **Create**.
+![Create content type](media/create-content-type.png)
 
-5. On the **New Site Content** page, provide a name and description for the new content type.
+5. In the **Parent content type** section, from the **Category** amd **Content type** dropdowns, select the content type that you want to base this content type on.
 
-![New site content](media/new-site-content.png)
+6. In the **Category** section, you are provided two choices:
 
-6. In the **Parent Content Type** section, select the name of the parent group, and then select the **Parent Content Type**.
+    - To put the new content type in an existing category, select **Use an existing category**, and from the **Category** dropdown, select a category.
+    
+    - To put the content in a new category, select **Create a new category**, and in the **Category name** box, provide a name. 
 
-7. In the **Group** section, decide whether to put the new content type in an existing group, or to create a new group.
+7. Select **Create**.
 
-8. Select **OK**.
-
-When SharePoint creates the new content type, it opens the **Site Content Type** page for it, where you can customize it further.
+The new content type appears in the **Content type gallery**.
 
 ## Change the name of a site content type
 
-1. Go to the home page of the site that contains the content type that you want to rename.
+1. Go to the SharePoint admin center.
 
-2. Select **Settings** ![Settings icon](media/settings-icon.png), and then select **Site Settings**.
+2. Under **Content services**, select **Content type gallery**.
 
-3. In the **Web Designer Galleries** group, select **Site Content Types**.
+3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type that you want to change. That site content type page appears.
 
-4. On the **Site Contents Types** page, select the name of the content type that you want to change.
+4. On this page, on the command bar, select **Edit**. The **Edit content type** panel appears.
 
-5. On the **Site Content Type Information** page, under **Settings**, select **Name, description, and group**.
+5. In the **Name** text box, change the name of the content type.
 
-6. In the **Name** text box of the **Name and description** section, change the name of the content type.
-
-7. When done, select **OK**.
+6. When done, select **Save**.
 
 ## Associate a document template with a site content type
 
@@ -82,27 +80,27 @@ You can make it even easier for users by adding the Timesheet content type to a 
 
 To associate a template with a site content type, follow these steps.
 
-1. Go to the site for which you want to associate a template with a site content type.
+1. Go to the SharePoint admin center.
 
-2. Select **Settings** ![Settings icon](media/settings-icon.png), and then select **Site Settings**.
+2. Under **Content services**, select **Content type gallery**.
 
-3. Under **Web Designer Galleries**, select **Site content types**.
+3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type that you want to change by associating a Word, Excel, or PowerPoint template. That site content type page appears.
 
-4. Select the name of the content type that you want to change by associating a Word, Excel, or PowerPoint template.
+4. In the command bar, under **Settings**, select **Advanced Settings**. The **Advanced Settings** panel appears.
 
-5. Under **Settings**, select **Advanced settings**.
+![Advanced settings](media/advanced-settings.png)
 
-6. Enter the location of the template:
+5. Enter the location of the template:
 
-    - If the template is stored on your site, select **Enter the URL of an existing document template**, and then enter the URL for the template that you want to use.
+    - If the template is stored on your site, select **Use an existing template**, and then enter the URL for the template that you want to use. To edit the template, select **Edit template**.
 
-    - If the document template is stored on your local computer, select **Upload a new document template**, and then select **Browse**. In the **Choose File** dialog box, locate the file that you want to use, select it, and then select **Open**.
+    - If the document template is stored on your local computer, select **Upload a new document template**, and then select **Upload**. From the explorer page, locate the file that you want to use, select it, and then select **Open**.
 
-    ![Document template](media/document-template.png)
+6. Under **Permissions**, to select whether the content type can be modified, select either **Read** or **Edit**. You can change this setting later from this page by anyone with permissions to edit this content type.
 
-7. Under **Update all content types inheriting from this type?**, if you want to update all content types that inherit from this content type with the document template, select **Yes**.
+7. Under **Update site and lists**, if you want to update all site and list content types that inherit from this content type with the settings on this page, select **Enable**.
 
-8. Select **OK**.
+8. Select **Save**.
 
 ## Add columns to a site content type
 
@@ -113,21 +111,21 @@ For example, your organization might want to track specific metadata for purchas
 > [!NOTE]
 > To add a column to a content type, you must first select the content type. If you are not able to select the content types that appear, the site inherits its content types from a parent site. To add a column to the content type, you must change it on the parent site.
 
-1. Go to the site for which you want to add a column to a site content type.
+1. Go to the SharePoint admin center.
 
-2. Select **Settings** ![Settings icon](media/settings-icon.png), and then select **Site Settings**.
+2. Under **Content services**, select **Content type gallery**.
 
-3. Under **Web Designer Galleries**, select **Site content types**.
+3. On the **Content type gallery** page, select the name of the site content type to which you want to add a column.
 
-4. Select the name of the content type to which you want to add a column.
+4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** page appears.
 
-5. Under **Columns**, select **Add from existing site columns**.
+![Add from existing site columns](media/add-from-existing-site-columns.png)
 
-6. In the **Select Columns** section, under **Select columns from**, choose the parent group for the column.
+5. In the **Select site columns from existing category** section, select a category, and then **Add** or **Remove** columns from the choices that appear.
 
-7. Under **Available columns**, select the name of the column that you want, and then select **Add**.
+6. In the **Update List and Site Content Types** section, decide whether you want to update all site and content types that inherit from this site content type with the settings on this page.
 
-8. In the **Update List and Site Content Types** section, decide whether you want to update all content types that inherit from this site content type by selecting **Yes** or **No**.
+7. Select *Save**.
 
 ## Set up the Document Information Panel for a site content type
 
@@ -141,32 +139,23 @@ To learn more about content types and metadata, see [Add metadata columns to a c
 
 To set up a Document Information Panel for a document content type, follow these steps.
 
-1. Go to the site for which you want to change a site content type.
+1. Go to the SharePoint admin center.
 
-2. Select **Settings** ![Settings icon](media/settings-icon.png), and then select **Site Settings**.
+2. Under **Content services**, select **Content type gallery**.
 
-3. Under **Web Designer Galleries**, select **Site content types**.
-
-4. Choose the name of the site content type that you want to change.
+3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type that you want to change. That site content type page appears.
 
 > [!NOTE]
 > If names of the content types that appear are not hyperlinks, then this site inherits its site content types from another (parent) site. To update the site content type, go to the parent site.
 
-5. Under **Settings**, select **Document Information Panel settings**.
+4. Under **Settings**, select **Advanced settings**.
 
-6. In the **Document Information Panel Template** section, do one of the following:
+5. In the **Document template** section, do one of the following:
 
-    - To use a default template that displays the metadata (columns) that you defined for the content type, select **Use the default template for Microsoft Office applications**.
+    - To use a default template that displays the metadata (columns) that you defined for the content type, select **Use an existing template**.
 
-    - To use an existing custom template, select **Use existing custom template (URL, UNC, or URN)**, and then enter the path of the location of the template.
+    - To use an existing custom template, select **Use existing custom template**, and then enter the path of the location of the template.
 
-    - To upload an existing custom template (XSN), select **Upload an existing custom template (XSN) to use**, and to locate the template that you want to use, select **Browse**.
+    - To upload an existing custom template (XSN), select **Upload a new document template**, and to locate the template that you want to use, select **Upload**. From the explorer page, locate the file that you want to use, select it, and then select **Open**.
 
-    - To create a custom panel in InfoPath, select **Create a new custom template**.
-
-    > [!NOTE]
-    > If you select this option, InfoPath starts and displays the default template which you can customize to create a custom panel.
-
-7. In the **Show Always** section, specify whether you want documents of this content type to show the information panel automatically.
-
-8. Select **OK**.
+6. Select **Save**.
