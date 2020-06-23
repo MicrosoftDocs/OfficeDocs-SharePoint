@@ -1,5 +1,5 @@
 ---
-title: "Publish a content type from a content publishing hub"
+title: "Publish a content type"
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -14,18 +14,17 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Learn how to publish a content type from a content publishing hub in the SharePoint admin center for Enterprise Content Types."
+description: "Learn how to publish a content type from the SharePoint admin center."
 ---
 
-# Publish a content type from a content publishing hub
+# Publish a content type
 
 > [!NOTE]
 > References to "hub" within this document are referring to content type syndication hubs, not SharePoint hubs. For more info about these items, see [What is a SharePoint hub?](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
 
-If you are working on a content type hub that publishes content types to other site collections, you can publish, unpublish, or republish content types centrally.
+You can publish, unpublish, or republish content types centrally from the SharePoint admin center.
 
-> [!IMPORTANT]
-> To manage content type publishing on a content type hub, you must be a Site Collection admin.
+
 
 1. Go to the SharePoint admin center.
 
@@ -37,18 +36,14 @@ If you are working on a content type hub that publishes content types to other s
 
     ![Manage publishing](media/manage-publishing.png)
 
-> [!NOTE]
-> In the list, if you don’t see **Publish**, then this site is not a content type hub. To manage updates for the content type, go to the content type hub. For more info about creating a content type hub, see [Activate a content type syndication hub](https://support.microsoft.com/office/activate-a-content-type-syndication-hub-in-sharepoint-server-versions-1d12ee7f-77e0-4b50-bf93-7628b8478bf6).
-
 5. On the **Manage Publishing** page, do one of the following:
 
     - To make this content type available for download to all sites in the organization, select **Publish**.
+    - To publish updates to this content type, select **Republish**.
 
     - To make this content type unavailable for download to sites in the organization, select **Unpublish**. Any copies of this content type being used in other sites will be converted to a local content type.
 
-6. To publish changes made since the last publish and make them available for download to all sites in the organization, select **Republish**.
-
-7. Select **Save**.
+6. Select **Save**.
 
 ## Find the URL for a content type hub
 
