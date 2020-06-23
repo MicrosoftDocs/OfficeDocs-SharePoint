@@ -83,6 +83,12 @@
 #### [Set up new term set](set-up-new-term-set.md)
 #### [Assign roles and permissions to manage term sets](assign-roles-and-permissions-to-manage-term-sets.md)
 ### [Content types]()
+
+#### [Create a content type](create-customize-site-content-type.md)
+#### [Add columns](add-columns-content-type.md)
+#### [Remove columns](remove-columns-content-type.md)
+#### [Publish](publish-content-type-hub.md)
+
 ## [Security and compliance]()
 ### [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
 ### [Control access based on network location](control-access-based-on-network-location.md)
