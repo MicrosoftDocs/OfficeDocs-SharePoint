@@ -96,9 +96,6 @@ These would be considered two separate *user licenses* because they have differe
 
 Migrations are run on a per-user basis. Because of our app's scalable infrastructure, it is feasible to run dozens of users or thousands simultaneously. Any number of users can be migrated in whatever pre-defined order or grouping you desire.
 
-**Collaborators-only**: Your fiscal budget need only include users that own data in Office 365. Anyone that strictly engages as a collaborator in Office 365 (for example, they only share other users' content), do not have any data copied, and therefore do not incur a fee.
-
-**Setting permissions is free**: Users that strictly collaborate in Office 365 receive equivalent sharing permissions in Office 365 for free.
 
 ## Data distribution
 
