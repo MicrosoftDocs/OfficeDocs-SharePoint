@@ -206,7 +206,7 @@ If your organization spans a diverse population, you may want to make content in
 
 To create pages on communications sites in different languages, you use the translation feature to make copies of pages created in your default language. The copies can then be manually translated. Published translation pages are automatically shown in the appropriate language site, including in the News and Highlighted content web parts for each language.
 
-To learn how to set up and use the multingual feature for communication sites, see [Create multilingual communication sites, pages, and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+To learn how to set up and use the multilingual feature for communication sites, see [Create multilingual communication sites, pages, and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
 
 > [!NOTE]
 > At this time, the multilingual feature is available for communication sites only.
