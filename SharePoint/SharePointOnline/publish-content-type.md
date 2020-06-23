@@ -1,6 +1,6 @@
 ---
 title: "Publish a content type from a content publishing hub"
-ms.reviewer: mikeplum
+ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -86,3 +86,7 @@ If you're working on a site that subscribes to content types from a content type
 [Introduction to content types and content type publishing](https://support.microsoft.com/office/introduction-to-content-types-and-content-type-publishing-e1277a2e-a1e8-4473-9126-91a0647766e5?redirectSourcePath=%252fen-us%252foffice%252fintroduction-to-content-types-and-content-type-publishing-a5026d23-8df8-42f6-b0d6-1920880c0d03&ui=en-US&rs=en-US&ad=US)
 
 [Manage content type publishing](https://support.microsoft.com/office/manage-content-type-publishing-06f39ac0-5576-4b68-abbc-82b68334889b?ui=en-US&rs=en-US&ad=US)
+
+## Related topics
+
+[Publish a content type from a content publishing hub](https://support.microsoft.com/office/58081155-118d-4e7a-9cc5-d43b5dbb7d02)

@@ -115,3 +115,7 @@ For example, your organization might want to track specific metadata for purchas
 6. In the **Update List and Site Content Types** section, decide whether you want to update all site and content types that inherit from this content type with the settings on this page.
 
 7. Select **Save**.
+
+## Related topics
+
+[Create or customize a site content type](https://support.microsoft.com/office/27eb6551-9867-4201-a819-620c5658a60f)

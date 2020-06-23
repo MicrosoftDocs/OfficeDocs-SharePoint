@@ -1,6 +1,6 @@
 ---
 title: "Remove columns from a content type"
-ms.reviewer: mikeplum
+ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -14,7 +14,7 @@ search.appverid:
 - MET150
 ms.collection:  
 - M365-collaboration
-description: "Learn how to remove columns from a content type in the SharePoint admin center for Enterprise Content Types."
+description: "Learn how to remove columns from a content type in the SharePoint admin center."
 ---
 
 # Remove columns from a content type
@@ -63,3 +63,7 @@ To remove a column from a content type, follow these steps:
 5. Select the vertical ellipsis to the right of the site column name you selected, and from the dropdown, select **Delete**. A **Delete site column** dialog box appears prompting you that this action will remove the column from the content type. Existing items in lists will not be affected, but new items will not have this column.
 
 6. Select **Delete**.
+
+## Related topics
+
+[Remove columns from a content type](https://support.microsoft.com/office/f44da9ca-d70e-477a-93bf-6f6b046a1f39)

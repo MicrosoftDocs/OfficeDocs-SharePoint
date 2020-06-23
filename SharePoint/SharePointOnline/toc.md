@@ -87,7 +87,7 @@
 #### [Create a content type](create-customize-content-type.md)
 #### [Add columns](add-columns-content-type.md)
 #### [Remove columns](remove-columns-content-type.md)
-#### [Publish](publish-content-type-hub.md)
+#### [Publish](publish-content-type.md)
 
 ## [Security and compliance]()
 ### [Control access from unmanaged devices](control-access-from-unmanaged-devices.md)
