@@ -47,6 +47,7 @@ When you are ready to begin creating new communication sites and using modern fe
 
 -   [Audience targeting](#audience-targeting)
 
+-   [Multilingual communication sites](#multilingual-communication-sites)
 
 ## Structure and navigation
 
@@ -198,3 +199,14 @@ You can also share a communication site externally if needed from the SharePoint
 ## Audience targeting
 
 In the classic experience, many types of content can be targeted to appear only to people who are members of a particular group or audience. This capability is available in the modern experience with modern Pages and documents, the News web part, the Highlighted content web parts, and navigation. For example, if you have two departments within your organization that have different policies, you can choose to show a News post about a policy to just the people in the department that the policy applies to. To learn how to enable audience targeting, see [Target content to specific audiences](https://support.office.com/article/33D84CB6-14ED-4E53-A426-74C38EA32293).
+
+## Multilingual communication sites
+
+If your organization spans a diverse population, you may want to make content in your intranet sites available in multiple languages. User interface elements like site navigation, site title, and site description can be shown in the user's preferred language. Additionally, you can provide pages and news posts on communication sites that you translate and that are shown in the user's preferred language.
+
+To create pages on communications sites in different languages, you use the translation feature to make copies of pages created in your default language. The copies can then be manually translated. Published translation pages are automatically shown in the appropriate language site, including in the News and Highlighted content web parts for each language.
+
+To learn how to set up and use the multingual feature for communication sites, see [Create multilingual communication sites, pages, and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+
+> [!NOTE]
+> At this time, the multilingual feature is available for communication sites only.
