@@ -97,6 +97,8 @@ To make a column required, optional or hidden, follow these steps.
 
 ## Related topics
 
+[Remove columns from a content type](remove-columns-content-type.md)
+
 [Add columns to a content type](https://support.microsoft.com/office/1806e29e-8bcd-4058-b0e7-3aac40a3ae9a)
 
 [Add a content type to a list or library](https://support.microsoft.com/office/917366ae-f7a2-47ad-87a5-9689a1884e60)
