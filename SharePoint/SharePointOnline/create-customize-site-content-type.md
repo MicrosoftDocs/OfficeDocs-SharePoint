@@ -64,7 +64,7 @@ The new content type appears in the **Content type gallery**.
 
 3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type that you want to change. That site content type page appears.
 
-4. On this page, on the command bar, select **Edit**. The **Edit content type** panel appears.
+4. On this page, on the menu bar, select **Edit**. The **Edit content type** panel appears.
 
 5. In the **Name** text box, change the name of the content type.
 
@@ -86,7 +86,7 @@ To associate a template with a site content type, follow these steps.
 
 3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type that you want to change by associating a Word, Excel, or PowerPoint template. That site content type page appears.
 
-4. In the command bar, under **Settings**, select **Advanced Settings**. The **Advanced Settings** panel appears.
+4. In the menu bar, under **Settings**, select **Advanced Settings**. The **Advanced Settings** panel appears.
 
 ![Advanced settings](media/advanced-settings.png)
 
@@ -117,7 +117,7 @@ For example, your organization might want to track specific metadata for purchas
 
 3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to add a column.
 
-4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** page appears.
+4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
 
 ![Add from existing site columns](media/add-from-existing-site-columns.png)
 

@@ -38,7 +38,7 @@ To add a column to a content type, follow these steps:
 
 3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to add a column.
 
-4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** page appears.
+4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
 
 ![Add from existing site columns](media/add-from-existing-site-columns.png)
 
@@ -66,7 +66,7 @@ To add a column to a content type, follow these steps:
 
 3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to add a column.
 
-4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** page appears.
+4. Under **Site columns**, from the **Add site column** dropdown, select **Add from existing site columns**. The **Add from existing site columns** panel appears.
 
 ![Add from existing site columns](media/add-from-existing-site-columns.png)
 
@@ -142,7 +142,7 @@ To make a column required, optional or hidden, follow these steps.
 
 4. Under **Site columns**, in the **Name** column, select the name of the column that you want to make optional, required, or hidden.
 
-5. Select **Edit site column settings**. The **Edit site column settings** page appears.
+5. Select **Edit site column settings**. The **Edit site column settings** panel appears.
 
 ![Edit site column settings](media/edit-site-column-settings.png)
 
@@ -176,7 +176,7 @@ To make a column required, optional or hidden, follow these steps.
 
 4. Under **Site columns**, in the **Name** column, select the name of the column that you want to make optional, required, or hidden.
 
-5. To the right of the column name, select the vertical ellipsis, and then select **Edit site column settings**. The **Edit site column settings** page appears.
+5. To the right of the column name, select the vertical ellipsis, and then select **Edit site column settings**. The **Edit site column settings** panel appears.
 
 6. In the **Show or hide site column** section, do one of the following:
 

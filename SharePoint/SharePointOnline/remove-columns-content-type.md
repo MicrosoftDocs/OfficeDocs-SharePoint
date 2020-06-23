@@ -30,33 +30,17 @@ To remove a column from a content type, follow these steps:
 
 ## Remove a column from a site content type
 
-1. Go to the site where you want to change a site content type by adding a column.
+1. Go to the SharePoint admin center.
 
-2. Select **Settings** ![Settings icon](media/settings-icon.png), and then select **Site Settings**. (If you don't see the **Site Settings** option, select **Site Contents**, and then select **Site Settings**.)
+2. Under **Content services**, select **Content type gallery**.
 
-![Site settings](media/site-settings.png)
+3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to remove a column.
 
-3. Under **Web Designer Galleries**, select **Site content types**.
+4. Under **Site columns**, select the column name you want to remove.
 
-![Add site content types](media/site-content-types-add.png)
+5. Select the vertical ellipsis to the right of the site column name you selected, and from the dropdown, select **Delete**. A **Delete site column** dialog box appears prompting you that this action will remove the column from the content type. Existing items in lists will not be affected, but new items will not have this column.
 
-4. Select the name of the content type that you want to remove a column from.
-
-5. Under **Columns**, select the column name you want to remove. 
-
-6. In the **Update List and Site Content Types** section, under **Update all content types inheriting from this type?**, if you want to update all content types that inherit from this site content type, select **Yes**. If you don't want to update the content types that inherit from this site, select **No**.
-
-7. At the bottom right, select **Remove**.
-
-If you previously selected **Yes**, the following prompt appears:
-
-![Remove column prompt](media/remove-column-prompt.png)
-
-If you previously selected **No**, the following prompt appears:
-
-![Remove column prompt](media/remove-column-prompt-no.png)
-
-8. To confirm the removal, select **OK**.
+6. Select **Delete**.
 
 ## Remove a column from a list or library content type
 
@@ -72,15 +56,10 @@ If you previously selected **No**, the following prompt appears:
     
     ![Library settings](media/library-settings.png)
 
-3. Under **Content Types**, select the name of the content type that you want to remove a column from.
+3. On the **Content type gallery** page, under the **Site content type** column, select the name of the site content type to which you want to remove a column.
 
-![Content type remove](media/content-type-remove.png)
+4. Under **Site columns**, select the column name you want to remove.
 
-4. On the **Change Content Type Column** page, under **Columns**, select the column name you want to remove.
+5. Select the vertical ellipsis to the right of the site column name you selected, and from the dropdown, select **Delete**. A **Delete site column** dialog box appears prompting you that this action will remove the column from the content type. Existing items in lists will not be affected, but new items will not have this column.
 
-5. Select **Remove**.
-
-6. To confirm the column removal, select **OK**.
-
-![Column removal confirm](media/column-removal-confirm.png)
-
+6. Select **Delete**.
