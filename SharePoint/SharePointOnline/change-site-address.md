@@ -101,23 +101,22 @@ For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sh
 
 ## Effects of changing a site address
 
-While the change is in progress, the site is set to read-only, and a redirect is created. After the change is complete, users are redirected to the new URL if they've saved the site as a favorite or if they click a link to the site.
+While the change is in progress, the site is set to read-only, and a redirect is created. After the change is complete, users are redirected to the new URL if they've saved the site as a favorite, or if they select a link to the site.
  
-**Permissions**<br>
-People who have permission to access the site can access the site during and after the site address change.  
+**Apps**<br>
+If apps in your organization refer to the site's URL, you might need to republish the apps when you change the site's address.
 
-**Sharing links**<br>
-After the site address is changed, sharing links will automatically redirect to the new URL. 
+**Custom Forms Created in PowerApps**<br>
+You need to recreate the Custom Form after the site address change. 
 
-**Synced locations**<br>
-The OneDrive sync app will automatically detect and seamlessly transfer syncing to the new site URL after the site address has been changed. Users don't need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync app required.) 
-If a user updates a file while the site address is being changed, they'll see a message that file uploads are pending during the change. 
+**Hub sites**<br>
+If the site is associated with a hub, it will need to be reassociated after the site address is changed. 
 
-**Recycle bin**
-Any files in the recycle bin will be lost when the site address is changed. 
+**InfoPath forms**<br>
+InfoPath forms that refer to URLs might not work after the site address is changed.
 
-**Recent lists in Office apps**<br>
-The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.  
+**List View web part**<br>
+If a List View web part is added to a page and scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page and then add it again.
 
 **OneNote**<br>
 If users have a notebook open during the site address change, they'll see a notebook sync error. After the address is changed, the following OneNote apps will automatically detect and seamlessly sync notebooks to the new site URL:
@@ -127,6 +126,38 @@ If users have a notebook open during the site address change, they'll see a note
 - OneNote mobile app – Version 16.0.8431.1011 and later 
 
 Users don't need to sign in again or take any other action.
+
+**Permissions**<br>
+People who have permission to access the site can access the site during and after the site address change.  
+
+**Power Apps**<br>
+You need to reconnect the app or apps to your data source. 
+Start by deleting the existing SharePoint connections to any lists you may have before you reconnect to your data. Once you've done that, reconnect your app to the SharePoint lists you were using. Most fields should update automatically. Certain types seem to have trouble updating and can be fixed by simply deleting the field and then undoing the delete.
+
+**Power Automate**<br>
+Flows will need to be recreated after the site address change.  
+
+**Recent lists in Office apps**<br>
+The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.
+
+**Recycle bin**
+Any files in the recycle bin will be lost when the site address is changed.
+
+**SharePoint mobile apps for Android and iOS**<br>
+The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
+
+**SharePoint workflow 2013**<br>
+SharePoint workflow 2013 will need to be re-published after the site address is changed.
+
+**Sharing links**<br>
+After the site address is changed, sharing links will automatically redirect to the new URL.
+
+**Site customizations and embedded code**<br>
+Site customizations and embedded code that refer to URLs might need to be fixed after the site address change. Changing the site address will preserve data stored in SharePoint but won't change URL dependencies in custom solutions.
+
+**Synced locations**<br>
+The OneDrive sync app will automatically detect and seamlessly transfer syncing to the new site URL after the site address has been changed. Users don't need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync app required.) 
+If a user updates a file while the site address is being changed, they'll see a message that file uploads are pending during the change. 
 
 **Teams (for Microsoft 365 group-connected sites)**<br>
 When the site address change is complete, users will be able to access their SharePoint files in the Teams app, with the following limitations.
@@ -139,34 +170,4 @@ When the site address change is complete, users will be able to access their Sha
 |File search |Search in Teams will show files only from sites whose addresses have not been changed. |
 |File app – Microsoft Teams page |The Microsoft Teams page in the Teams File app will work after a user has visited the Files tab for any channel in the site. |
 |Teams mobile app |Open and download will continue to work. To edit a Word, Excel, or PowerPoint file in the site, use the Office app for the web or the desktop app. Files shared after the site address was changed can be edited in the Office mobile apps. |
-
-**SharePoint mobile apps for Android and iOS**<br>
-The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
-
-**Apps**<br>
-If apps in your organization refer to the site's URL, you might need to republish the apps when you change the site's address.  
-
-**Power Automate**<br>
-Flows will need to be recreated after the site address change.  
-
-**Power Apps**<br>
-You need to reconnect the app or apps to your data source. 
-Start by deleting the existing SharePoint connections to any lists you may have before you reconnect to your data. Once you've done that, reconnect your app to the SharePoint lists you were using. Most fields should update automatically. Certain types seem to have trouble updating and can be fixed by simply deleting the field and then undoing the delete.
-
-**Custom Forms Created in PowerApps**<br>
-You need to recreate the Custom Form after the site address change. 
-
-**Hub sites**<br>
-If the site is associated with a hub, it will need to be reassociated after the site address is changed. 
-
-**InfoPath forms**<br>
-InfoPath forms that refer to URLs might not work after the site address is changed. 
-
-**SharePoint workflow 2013**<br>
-SharePoint workflow 2013 will need to be re-published after the site address is changed. 
   
-**Site customizations and embedded code**<br>
-Site customizations and embedded code that refer to URLs might need to be fixed after the site address change. Changing the site address will preserve data stored in SharePoint but won't change URL dependencies in custom solutions.
-
-**List View web part**<br>
-If a List View web part is added to a page and scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page and then add it again.
