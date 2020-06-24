@@ -81,9 +81,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 > If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.
 
 >[!NOTE]
-
-> If you limit access and edit a site from an unmanaged device, image web parts won't display images that that you upload to the site assets library or directly to the web part.
-
+> If you limit access and edit a site from an unmanaged device, image web parts won't display images that that you upload to the site assets library or directly to the web part.</br></br>
 > To work around this issue, you can use this [SPList API](https://docs.microsoft.com/previous-versions/office/sharepoint-server/mt796229(v%3Doffice.15)) to exempt the block download policy on the site assets library. This allows the web part to download images from the site assets library.
   
 ## Limit access using PowerShell
