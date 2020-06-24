@@ -5,8 +5,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -15,11 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-search.appverid:
-- SPO160
-- BSA160
-- GSP150
-- MET150
+search.appverid: MET150
 description: "In this article, you'll learn about planning and deploying a secure and productive file collaboration environment in SharePoint with Microsoft 365."
 ---
 
@@ -75,7 +70,7 @@ The key to creating a smooth user experience is to avoid creating barriers for y
 
 In Microsoft 365, SharePoint is integrated with a variety of other services to provide a much richer experience than is possible with on-premises solutions such as SharePoint Server. These integrations affect how you manage user permissions and what your users can do in a collaboration scenario.
 
-Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint, each SharePoint team site is part of a Microsoft 365 group. a Microsoft 365 group is a single permissions group that is associated with a variety of Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Microsoft 365 group, they are given access to the SharePoint site along with the other connected services.
+Traditionally, SharePoint permissions have been managed through a set of permissions groups within a site (Owners, Members, Visitors, etc.). In SharePoint in Microsoft 365, each SharePoint team site is part of a Microsoft 365 group. a Microsoft 365 group is a single permissions group that is associated with a variety of Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, a shared calendar, and others. When you add owners or members to the Microsoft 365 group, they are given access to the SharePoint site along with the other connected services.
 
 While you can continue to manage SharePoint site permissions separately by using SharePoint groups, we recommend managing permissions for SharePoint by adding people to or removing them from the associated Microsoft 365 group. This provides easier administration as well as giving users access to a host of related services that they can use for better collaboration.
 
@@ -93,6 +88,7 @@ We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 A
 For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-apps-for-enterprise).
 
 ## OneDrive libraries
+
 While SharePoint provides shared libraries for shared files that teams can collaborate on, users also have an individual library in OneDrive where they can store files that they own.
 
 When a user adds a file to their individual library, that file is not shared with anyone else. Users' individual libraries do, however, provide the same sharing capabilities as SharePoint, so users can share files in their individual libraries as needed.
@@ -173,13 +169,15 @@ It's important to educate your users in how these sharing links work and which t
 
 If you require people outside your organization to authenticate, *Anyone* links will not be available to users and you'll be able to audit guest activity on shared files and folders.
 
-Though *Anyone* links do not require people outside your organization to authenticate, you can track the usage of *Anyone* links and revoke access if needed. If people in your organization frequently email documents to people outside your organization, *Anyone* links may be a better option.
+Though *Anyone* links do not require people outside your organization to authenticate, you can track the usage of *Anyone* links and revoke access if needed. If people in your organization frequently email documents to people outside your organization, *Anyone* links may be a better option than emailing an attachment.
 
 If you want to allow *Anyone* links, there are several options for a more secure sharing experience.
 
 You can restrict *Anyone* links to read-only. You can also set an expiration time limit, after which the link will stop working.
 
 Another option is to configure a different link type to be displayed to the user by default. This can help minimize the chances of inappropriate sharing. For example, if you want to allow *Anyone* links but are concerned that they only be used for specific purposes, you can [set the default link type](https://docs.microsoft.com/sharepoint/change-default-sharing-link) to *Specific people* links or *People in your organization* links instead of *Anyone* links. Users would then have to explicitly select *Anyone* links when they share a file or folder.
+
+You can also use data loss prevention to restrict *Anyone* link access to files that contain sensitive information.
 
 ***People in your organization* links**
 
