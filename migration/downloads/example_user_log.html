@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://api.mover.io/assets/css/bootstrap.min.css">
+    <title>User log for DropboxAdmin to BoxAdmin transfer: tRanSacTionID</title>
+    <style>
+    #search-bar {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    table tr td {
+        vertical-align: middle !important;
+        white-space: nowrap;
+    }
+    th {
+      cursor: pointer;
+    }
+    th:hover {
+      text-decoration: underline;
+    }
+    th:after {
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        content: "";
+        position: relative;
+        top: -10px;
+        right: -4px;
+    }
+    th.asc:after {
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 4px solid #000;
+        content: "";
+        position: relative;
+        top: 11px;
+        right: -4px;
+    }
+    th.desc:after {
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid #000;
+        content: "";
+        position: relative;
+        top: -9px;
+        right: -4px;
+    }
+    td[data-class=success], td[data-class=success] ~ td {
+        background-color: #dff0d8;
+    }
+    tr:hover td[data-class=success], tr:hover td[data-class=success] ~ td {
+        background-color: #d0e9c6;
+    }
+    td[data-class=skipped], td[data-class=skipped] ~ td {
+        background-color: #dff0d8;
+    }
+    tr:hover td[data-class=skipped], tr:hover td[data-class=skipped] ~ td {
+        background-color: #d0e9c6;
+    }
+    td[data-class=warning], td[data-class=warning] ~ td {
+        background-color: #fcf8e3;
+    }
+    tr:hover td[data-class=warning], tr:hover td[data-class=warning] ~ td {
+        background-color: #faf2cc;
+    }
+    .iconic-folder {
+      fill: #f1d862;
+    }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12" id="log">
+              <div class="col-xs-12 topbar">
+                <div class="pull-left">
+                <label>Source</label> <img src="https://app.mover.io/img/connectors/svg/DropboxAdmin.svg" style="height:20px">&nbsp;Dropbox Business (Administrator)&nbsp;&nbsp;&nbsp;<label>Path</label>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="folder" class="iconic iconic-folder iconic-size-sm" viewBox="0 0 16 16">
+                  <g class="iconic-metadata">
+                    <title>Folder</title>
+                  </g>
+                  <defs>
+                    <clipPath id="iconic-size-sm-folder-clip-0">
+                      <path d="M0 5h16v9h-16z"></path>
+                    </clipPath>
+                  </defs>
+                  <g class="iconic-container" data-width="16" data-height="14" transform="translate(0 1)">
+                    <path d="M.25 3h5.5c.138 0 .25-.112.25-.25v-2.5c0-.138-.112-.25-.25-.25h-5.5c-.138 0-.25.112-.25.25v2.5c0 .138.112.25.25.25z"
+                      class="iconic-folder-top iconic-folder-top-tag iconic-property-fill"></path>
+                    <path class="iconic-folder-top iconic-property-fill" d="M0 2.001h16v1.999h-16z"></path>
+                    <path clip-path="url(#iconic-size-sm-folder-clip-0)" d="M15.5 14h-15c-.276 0-.5-.224-.5-.5v-9c0-.276.224-.5.5-.5h15c.276 0 .5.224.5.5v9c0 .276-.224.5-.5.5z"
+                      class="iconic-folder-bottom iconic-property-fill"></path>
+                  </g>
+                </svg>&nbsp;/sales@mover.io&nbsp;
+                <br>
+                <label>Destination</label> <img src="https://app.mover.io/img/connectors/svg/BoxAdmin.svg" style="height:20px">&nbsp;Box&nbsp;&nbsp;&nbsp;<label>Path</label>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" data-icon="folder" class="iconic iconic-folder iconic-size-sm" viewBox="0 0 16 16">
+                  <g class="iconic-metadata">
+                    <title>Folder</title>
+                  </g>
+                  <defs>
+                    <clipPath id="iconic-size-sm-folder-clip-0">
+                      <path d="M0 5h16v9h-16z"></path>
+                    </clipPath>
+                  </defs>
+                  <g class="iconic-container" data-width="16" data-height="14" transform="translate(0 1)">
+                    <path d="M.25 3h5.5c.138 0 .25-.112.25-.25v-2.5c0-.138-.112-.25-.25-.25h-5.5c-.138 0-.25.112-.25.25v2.5c0 .138.112.25.25.25z"
+                      class="iconic-folder-top iconic-folder-top-tag iconic-property-fill"></path>
+                    <path class="iconic-folder-top iconic-property-fill" d="M0 2.001h16v1.999h-16z"></path>
+                    <path clip-path="url(#iconic-size-sm-folder-clip-0)" d="M15.5 14h-15c-.276 0-.5-.224-.5-.5v-9c0-.276.224-.5.5-.5h15c.276 0 .5.224.5.5v9c0 .276-.224.5-.5.5z"
+                      class="iconic-folder-bottom iconic-property-fill"></path>
+                  </g>
+                </svg>&nbsp;/support@mover.io/Test&nbsp;
+                </div>
+                <div id="search-bar">
+                  <form class="filter form-inline pull-right">
+                    <div class="form-group">
+                      <span id="log-warning" style='display:none;'>(logs older than 90 days are not retained)&nbsp;</span>
+                      <label for="history">Transfer List&nbsp;&nbsp;</label>
+                      <select type="history" id="history" name='history' onchange="location = '/v2/logs/download/'+this.options[this.selectedIndex].value;">>
+                      </select>
+                      <label for="filter">Filter&nbsp;&nbsp;</label>
+                      <button type="button" id='failures-button' class="btn btn-default">Failures</button>
+                      <button type="button" id='skipped-button' class="btn btn-default">Skipped</button>
+                      <input type="search" class="search form-control" id="filter" placeholder='search eg. "folder"'>
+                    </div>
+                  </form>
+                </div>
+              </div>
+                <table class="table table-hover table-bordered table-condensed">
+                    <thead>
+                        <tr>
+                            <th class="sort" data-sort="status">Status</th>
+                            <th class="sort" data-sort="start">Start</th>
+                            <th class="sort" data-sort="end">End</th>
+                            <th class="sort" data-sort="size"> Size</th>
+                            <th class="sort" data-sort="name">Name</th>
+                            <th class="sort" data-sort="message">Additional Info</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                    </tbody>
+                </table>
+                <ul class="pagination"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+    <script>
+    var values = [{"start":1532618639.8187912,"end":1532618640.579,"state":"success","status":"Success","action":"start","humanized_size":"n\/a","name":"start","message":"","size":"n\/a"},
+{"start":1532618643.39657,"end":1532618647.618,"state":"success","status":"Success","action":"folder","humanized_size":"folder","name":"\/","message":"","size":"folder"},
+{"start":1532618649.55,"end":1532618649.55,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Team Folder Made By Eric","message":"Skipping folder because it is not owned by the appropriate user.<br\/>","size":"folder"},
+{"start":1532618649.55,"end":1532618649.55,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Agent Testing","message":"Skipping folder because it is not owned by the appropriate user.<br\/>","size":"folder"},
+{"start":1532618649.55,"end":1532618649.55,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Get Started with Dropbox.pdf","message":"Skipping because of incremental.<br\/>","size":"folder"},
+{"start":1532618649.55,"end":1532618649.55,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Team folder testing permissions","message":"Skipping folder because it is not owned by the appropriate user.<br\/>","size":"folder"},
+{"start":1532618649.55,"end":1532618649.55,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Mark's Team Test","message":"Skipping folder because it is not owned by the appropriate user.<br\/>","size":"folder"},
+{"start":1532618649.55,"end":1532618649.55,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Get Started with Dropbox Paper.url","message":"Skipping because of incremental.<br\/>","size":"folder"},
+{"start":1532618649.5738001,"end":1532618649.8559999,"state":"success","status":"Success","action":"folder","humanized_size":"folder","name":"\/Test Folder","message":"","size":"folder"},
+{"start":1532618649.570663,"end":1532618649.9519999,"state":"success","status":"Success","action":"folder","humanized_size":"folder","name":"\/CAN YOU SEE THIS ONE","message":"","size":"folder"},
+{"start":1532618649.570663,"end":1532618649.9519999,"state":"warning","status":"Failure","action":"collectionCreate","humanized_size":"folder","name":"\/Can't Touch This","message":"Forbidden. The current user does not have permission to access the file or folder: access_denied_insufficient_permissions: Access denied - insufficient permission","size":"folder"},
+{"start":1532618650.23,"end":1532618650.23,"state":"success","status":"Success","action":"file","humanized_size":"4.7 KB","name":"\/Test Folder\/download.jpeg","message":"","size":"4857"},
+{"start":1532618650.2309999,"end":1532618650.2309999,"state":"success","status":"Success","action":"file","humanized_size":"5.9 KB","name":"\/Test Folder\/kitty.jpeg","message":"","size":"6048"},
+{"start":1532618650.2309999,"end":1532618650.2309999,"state":"success","status":"Success","action":"file","humanized_size":"37.7 MB","name":"\/Test Folder\/woof.jpeg","message":"","size":"39516676"},
+{"start":1532618650.2309999,"end":1532618650.2309999,"state":"success","status":"Success","action":"file","humanized_size":"9.7 MB","name":"\/Test Folder\/cat.jpeg","message":"","size":"10123923"},
+{"start":1532618650.2309999,"end":1532618650.2309999,"state":"success","status":"Success","action":"file","humanized_size":"9.7 MB","name":"\/Test Folder\/dog.jpeg","message":"","size":"10123923"},
+{"start":1532618649.566735,"end":1532618652.016,"state":"success","status":"Success","action":"folder","humanized_size":"folder","name":"\/Cute Animal Pictures","message":"","size":"folder"},
+{"start":1532618650.9151099,"end":1532618652.063,"state":"success","status":"Success","action":"folder","humanized_size":"folder","name":"\/Here is a new folder","message":"","size":"folder"},
+{"start":1532618652.3670001,"end":1532618652.3670001,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Cute Animal Pictures\/cat.jpeg","message":"Skipping because of incremental.<br\/>","size":"folder"},
+{"start":1532618652.3670001,"end":1532618652.3670001,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Cute Animal Pictures\/download.jpeg","message":"Skipping because of incremental.<br\/>","size":"folder"},
+{"start":1532618652.3670001,"end":1532618652.3670001,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Cute Animal Pictures\/dog.jpeg","message":"Skipping because of incremental.<br\/>","size":"folder"},
+{"start":1532618652.3670001,"end":1532618652.3670001,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Cute Animal Pictures\/kitty.jpeg","message":"Skipping because of incremental.<br\/>","size":"folder"},
+{"start":1532618652.3670001,"end":1532618652.3670001,"state":"success","status":"File Skipped","action":"folder","humanized_size":"folder","name":"\/Cute Animal Pictures\/woof.jpeg","message":"Skipping because of incremental.<br\/>","size":"folder"},
+{"start":1532618652.372499,"end":1532618652.783,"state":"success","status":"Success","action":"done","humanized_size":"n\/a","name":"Transfer Complete","message":"","size":"n\/a"},
+];
+    var metadata = {"txid":"ngsyJn2enVgejRBdb9swF8kS","records":{"total":28,"parsed":23}};
+    var options = {
+        valueNames: ['start', 'end', {attr:'data-class',name:'state'}, 'status', 'humanized_size', 'name', 'message'],
+        item: '<tr><td class="status state"></td><td class="start"></td><td class="end"></td><td class="humanized_size text-right"></td><td class="name"></td><td class="message"></td></tr>',
+        page: 100,
+        plugins: [
+            ListPagination({
+                outerWindow: 1
+            }),
+        ]
+    };
+    values.forEach(function (v) {
+        v.start = moment.unix(v.start).format('YYYY-MM-DD H:mm:ss');
+        v.end = moment.unix(v.end).format('YYYY-MM-DD H:mm:ss');
+    });
+    values.forEach(function(v){ v.state = v.status.indexOf('Skip') > -1 ? 'skipped' : v.state;});
+    var logList = new List('log', options, values);
+
+    var failures = document.getElementById('failures-button');
+    failures.addEventListener("click", function(e) {
+        document.getElementById('filter').value = 'Failure';
+        logList.search('Failure', ['status']);
+    }, false);
+
+    var skipped = document.getElementById('skipped-button');
+    skipped.addEventListener("click", function(e) {
+        document.getElementById('filter').value = 'Skipped';
+        logList.search('Skipped',['status']);
+    }, false);
+
+    var history_list = [{"tstart":1532618635,"txid":"tRanSacTionID"}];
+    var selectList = document.getElementById("history");
+
+    for (var i = 0; i < history_list.length; i++) {
+        var option = document.createElement("option");
+        option.value = history_list[i].txid;
+        option.text = i+1 + ' | ID: ' + history_list[i].txid + ' | ' + moment(history_list[i].tstart * 1000).format("DD-MM-YYYY HH:mm:ss");
+        option.selected = metadata['txid'] === history_list[i].txid;
+        if (moment(new Date()).diff(moment(history_list[i].tstart * 1000), 'days') > 90){
+          var warning = document.getElementById("log-warning");
+          warning.style.display = 'block';
+          option.disabled = true;
+        }
+        selectList.appendChild(option);
+    }
+
+    </script>
+  </body>
+
+</html>
