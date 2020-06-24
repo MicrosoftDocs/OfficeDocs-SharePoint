@@ -1,5 +1,5 @@
 ---
-title: Disable automatic modernization of classic site home pages
+title: Automatic modernization of classic home pages
 ms.reviewer: metorres
 ms.author: hokavian
 author: Holland-ODSP
@@ -18,7 +18,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to disable automatic modernization of classic home pages"
+description: "Learn about the automatic modernization of classic home pages, and how to disable this if you want."
 
 ---
 # Classic home page modernization
@@ -77,7 +77,7 @@ We encourage users to adopt the change in order to benefit from the power of mod
 
 Over the years, SharePoint modern pages have become powerful tools for collaboration and productivity at work and we want more users to take advantage of these capabilities. Automatically modernizing team site home pages that are not customized is the first step to helping classic site users get more out of SharePoint. 
 
-## What to expect after a classic team site home pages is updated to modern
+## What to expect after a classic team site home page is updated to modern
 
 When users first experience the change, they’ll see a walkthrough that highlights the new capabilities and includes a link to a help article with more details like this:
 
@@ -112,7 +112,7 @@ Add an out-of-the-box SharePoint [web part](https://support.office.com/article/3
 
 
 >[!NOTE]
->It's highly recommended that you modernize your home site to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. 
+>It's highly recommended that you modernize home pages to benefit from the latest SharePoint features and to improve the viewing experience for users on desktop and mobile. Another option for modernizing classic sites is to enable the communication site experience on a specific classic site. For info, see [Enable the communication site experience on classic team sites](modernize-classic-team-site.md).
 
 
 ## What about new classic team sites STS#0 created after this change? 
@@ -122,7 +122,7 @@ Classic team sites (STS#0) created after **May 1, 2020** will not get updated.
  
 ## Can I also modernize the other pages in my sites? 
 
-For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open source [SharePoint PnP Page Transformation solution](/sharepoint/dev/transform/modernize-userinterface-site-pages). 
+For a more consistent user experience, we recommend that you modernize all pages on classic team sites. This can be self-service done via the open-source [SharePoint PnP Page Transformation solution](/sharepoint/dev/transform/modernize-userinterface-site-pages). 
 
 
 ## Getting excited about modern? 
@@ -137,4 +137,4 @@ For more help in transitioning to modern, refer to the following resources:
 
 - [Transform classic pages to modern pages](/sharepoint/dev/transform/modernize-userinterface-site-pages) 
 
- 
+- [Enable the communication site experience on classic team sites](modernize-classic-team-site.md)
