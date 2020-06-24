@@ -36,6 +36,8 @@ To deploy apps in Intune, you use the [Microsoft Endpoint Manager admin center](
 
 ### Deploy the OneDrive sync app to Windows 10 devices 
 
+Although the sync app comes with Windows 10, you might use Intune to switch to [per-machine installation](per-machine-installation.md).
+
 1. Go to the [All apps page of the Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsMenu/allApps)
 2. Select **Add**.
 3. In the **App type** list, under **Microsoft 365 Apps**, select **Windows 10**, and then select **Select**. 
