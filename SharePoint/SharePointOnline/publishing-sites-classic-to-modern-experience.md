@@ -47,6 +47,7 @@ When you are ready to begin creating new communication sites and using modern fe
 
 -   [Audience targeting](#audience-targeting)
 
+-   [Multilingual communication sites](#multilingual-communication-sites)
 
 ## Structure and navigation
 
@@ -84,15 +85,15 @@ Coming soon are multiple options for headers and footers on communication sites,
 
 When you [create a communication site in SharePoint](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb), you can start with a blank site or choose one of the other site designs, each of which comes with a default set of [web parts](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0). The options available are:
 
--   **Topic** to share information such as news, events, and other content. The home page includes a [Hero web part](https://support.office.com/article/d57f449b-19a0-4b0d-8ce3-be5866430645), to highlight and link to important content; a [News web part](https://support.office.com/article/c2dcee50-f5d7-434b-8cb9-a7feefd9f165), to distribute announcements, reports, status, and more; an [Events web part](https://support.office.com/article/5fe4da93-5fa9-4695-b1ee-b0ae4c981909) based on a calendar list; and a [Highlighted content](https://support.office.com/article/e34199b0-ff1a-47fb-8f4d-dbcaed329efd) web part to dynamically show documents based on your criteria.
+ - **Topic** to share information such as news, events, and other content. The home page includes a [Hero web part](https://support.office.com/article/d57f449b-19a0-4b0d-8ce3-be5866430645), to highlight and link to important content; a [News web part](https://support.office.com/article/c2dcee50-f5d7-434b-8cb9-a7feefd9f165), to distribute announcements, reports, status, and more; an [Events web part](https://support.office.com/article/5fe4da93-5fa9-4695-b1ee-b0ae4c981909) based on a calendar list; and a [Highlighted content](https://support.office.com/article/e34199b0-ff1a-47fb-8f4d-dbcaed329efd) web part to dynamically show documents based on your criteria.
 
--   **Showcase** to use photos or images to showcase a product, team, or event. This is a highly visual design that includes a [Hero web part](https://support.office.com/article/d57f449b-19a0-4b0d-8ce3-be5866430645) with large imagery in a layered layout, and an [Image gallery](https://support.office.com/article/bbcbe560-14a7-4369-8ef5-3255845e3bfd) that can be displayed in several different layouts, such as a tiled layout or carousel layout.
+ - **Showcase** to use photos or images to showcase a product, team, or event. This is a highly visual design that includes a [Hero web part](https://support.office.com/article/d57f449b-19a0-4b0d-8ce3-be5866430645) with large imagery in a layered layout, and an [Image gallery](https://support.office.com/article/bbcbe560-14a7-4369-8ef5-3255845e3bfd) that can be displayed in several different layouts, such as a tiled layout or carousel layout.
 
--   **Blank** to create your own design.
+ - **Blank** to create your own design.
 
-> ![Types of communication sites](media/publishing-sites-classic-to-modern-experience_image3.png)
+   ![Types of communication sites](media/publishing-sites-classic-to-modern-experience_image3.png)
 
-If you want more customized branding and theming applied to each new site, you can use site designs with site scripts to provide custom configurations to apply when new sites are created. They can be used each time a new site is created to apply a consistent set of actions. Common site design actions typically affect the site itself, such as setting the theme or logo, creating lists, or configuring navigation. You can find more information on how to use site designs and scripts at [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview).
+   If you want more customized branding and theming applied to each new site, you can use site designs with site scripts to provide custom configurations to apply when new sites are created. They can be used each time a new site is created to apply a consistent set of actions. Common site design actions typically affect the site itself, such as setting the theme or logo, creating lists, or configuring navigation. You can find more information on how to use site designs and scripts at [SharePoint site design and site script overview](/sharepoint/dev/declarative-customization/site-design-overview).
 
 ## Pages
 
@@ -198,3 +199,14 @@ You can also share a communication site externally if needed from the SharePoint
 ## Audience targeting
 
 In the classic experience, many types of content can be targeted to appear only to people who are members of a particular group or audience. This capability is available in the modern experience with modern Pages and documents, the News web part, the Highlighted content web parts, and navigation. For example, if you have two departments within your organization that have different policies, you can choose to show a News post about a policy to just the people in the department that the policy applies to. To learn how to enable audience targeting, see [Target content to specific audiences](https://support.office.com/article/33D84CB6-14ED-4E53-A426-74C38EA32293).
+
+## Multilingual communication sites
+
+If your organization spans a diverse population, you may want to make content in your intranet sites available in multiple languages. User interface elements like site navigation, site title, and site description can be shown in the user's preferred language. Additionally, you can provide pages and news posts on communication sites that you translate and that are shown in the user's preferred language.
+
+To create pages on communications sites in different languages, you use the translation feature to make copies of pages created in your default language. The copies can then be manually translated. Published translation pages are automatically shown in the appropriate language site, including in the News and Highlighted content web parts for each language.
+
+To learn how to set up and use the multilingual feature for communication sites, see [Create multilingual communication sites, pages, and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+
+> [!NOTE]
+> At this time, the multilingual feature is available for communication sites only.
