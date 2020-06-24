@@ -47,7 +47,7 @@ For info about creating sites, see [Create a site](create-site-collection.md). F
   
 1. In the left column, select a site. 
     
-2. Select **Hub**. The options that appear depend on whether the site you selected is registered as a hub, or associated with a hub. The Hub menu lets you register a site as a hub, associate it with a hub, change its hub association, and unregister it as a hub. [More info about hubs](planning-hub-sites.md) 
+2. Select **Hub**. The options that appear depend on whether the site you selected is registered as a hub site, or associated with a hub. The Hub menu lets you register a site as a hub site, associate it with a hub, change its hub association, and unregister it as a hub site. [More info about hubs](planning-hub-sites.md) 
 
 ## Change the external sharing setting for a site
 <a name="changesitesharing"> </a>
@@ -85,7 +85,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
     
 2. Select how you want to arrange the items. The options vary depending on the column. For example, you might have options to sort alphabetically, in numeric order, or chronologically.
     
-    If the column allows filtering, a "Filter by" option appears. Select the value(s) that you want to show. Your selections appear with a check mark beside them. To remove a selection, select that value again. To clear all filters on the column, select **Clear filters**.
+    If the column allows filtering, a "Filter by" option appears. Select the value or values that you want to show. Your selections appear with a check mark beside them. To remove a selection, select that value again. To clear all filters on the column, select **Clear filters**.
     
     ![Filter options for the Template column](media/0d188752-2bce-4d69-9cf4-a16ab87a2892.PNG)
 
@@ -94,7 +94,7 @@ Sorting and filtering the site list is just like sorting and filtering other lis
 
 1. Select the arrow next to any column header, and then select **Customize columns**.
     
-2. Select and clear check boxes to show and hide columns.
+2. To show and hide columns, select and clear check boxes.
     
 3. To rearrange the columns, point to a column, and select the up or down arrow to move the column up or down.
     
@@ -125,7 +125,7 @@ The new SharePoint admin center comes with a few built-in views: Microsoft 365 g
 4. In the **Save as** dialog box, enter a name for the view. 
     
     > [!NOTE]
-    > To set the view as default, in the **View** dropdown, select **Set current view as default**. 
+    > To set the view as default, in the **View** box, select **Set current view as default**. 
   
   
 ## Search for a site
@@ -134,15 +134,15 @@ The new SharePoint admin center comes with a few built-in views: Microsoft 365 g
 You can search for a site by name, URL, primary admin, or template. To do this, enter keywords in the Search box, and press Enter.
 
 > [!NOTE] 
-> Search doesn't look in hub display names for the keywords you enter. <br>All characters you enter are treated as part of the query. Search doesn't recognize operators or wildcards (*). 
+> Search doesn't look in hub site display names for the keywords you enter. <br>All characters you enter are treated as part of the query. Search doesn't recognize operators or wildcards (*). 
   
 ## Export to CSV
 <a name="export"> </a>
 
-To export your list of all sites as a .csv file that you can work with in Excel, select **Export**.
+To export the site list you're viewing as a .csv file that you can work with in Excel, select **Export**.
   
 > [!NOTE]
-> The Export command exports all sites, even if your current view is filtered. 
+> The .csv file lists the hub as a GUID and the template as an ID (for example, STS#0).
   
 
 
