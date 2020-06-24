@@ -94,7 +94,7 @@ For example:
 
 These would be considered two separate *user licenses* because they have different destinations.
 
-Migrations are run on a per-user basis. Because of our app's scalable infrastructure, it is feasible to run dozens of users or thousands simultaneously. Any number of users can be migrated in whatever pre-defined order or grouping you desire.
+Mover allows up to 5 users to simultaneously transfer.
 
 
 ## Data distribution

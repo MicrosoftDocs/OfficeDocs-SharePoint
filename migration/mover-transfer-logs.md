@@ -42,7 +42,7 @@ You can view a user's transfer logs by doing one of the following:
 
 View an example CSV log or in your browser here:
 
-[example_user_log.html](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_User log for DropboxAdmin to BoxAdmin transfer_ tRanSacTionID.html)
+[Example_user_log.html](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/blob/live/migration/downloads/example_user_log.html)
 
 ## Interpreting a log file
 

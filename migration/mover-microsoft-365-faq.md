@@ -42,14 +42,14 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 
 ## Are timestamps preserved?
 
-The original timestamps from Dropbox are preserved when migrating into Microsoft 365.
+The original timestamps are preserved when migrating into Microsoft 365.
 
 >[!Note]
->Timestamps are only applied to files/data transfered, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
+>Timestamps are only applied to files/data transferred, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
 
 ## Is file authorship preserved?
 
-When migrating from Dropbox into Microsoft 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
+When migrating content into Microsoft 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
 
 ## Does the Mover app interact with the sync client in OneDrive for Business?
 
