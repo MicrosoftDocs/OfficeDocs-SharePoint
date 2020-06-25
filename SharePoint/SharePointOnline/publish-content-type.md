@@ -19,7 +19,7 @@ description: "Learn how to publish a content type from the SharePoint admin cent
 
 # Publish a content type
 
-You can publish, unpublish, or republish content types centrally from the SharePoint admin center.
+You can publish, unpublish, or republish content types in the content type hub from the SharePoint admin center.
 
 **To publish, republish, or unpublish a content type**
 
