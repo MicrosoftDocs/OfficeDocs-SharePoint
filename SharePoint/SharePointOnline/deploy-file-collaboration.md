@@ -201,11 +201,11 @@ For detailed information about data loss prevention, see [Overview of data loss 
 
 **Sensitivity labels**
 
-Data loss prevention sensitivity labels provide a way to classify groups, sites and documents with descriptive labels that can then be used to enforce a governance workflow.
+Sensitivity labels provide a way to classify teams, groups, sites, and documents with descriptive labels that can then be used to enforce a governance workflow.
 
 Using sensitivity labels helps your users to share information safely and to maintain your governance policies without the need for users to become experts in those policies.
 
-For example, you could configure a policy that requires Microsoft 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the "private" option when they choose a classification of confidential.
+For example, you could configure a policy that requires Microsoft 365 groups classified as confidential to be private rather than public. In such a case, a user creating a group, team, or SharePoint site would only see the "private" option when they choose a classification of confidential. For information about using sensitivity labels with teams, groups, and sites, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
 **Conditions and actions**
 
@@ -214,8 +214,6 @@ With data loss protection conditions and actions, you can enforce a governance w
 Examples include:
 
   - If customer information is detected in a document, then users cannot share that document with guests.
-
-  - If an Office document is saved to a site marked as confidential, then a watermark is automatically added to the document.
 
   - If a document contains the name of a confidential project, then guests cannot open the document even if it has been shared with them.
 
@@ -249,7 +247,7 @@ Examples include:
 
   - Erase company data from managed devices
 
-As you consider your options governing access to information through device management, keep in mind that guest users are likely to have unmanaged devices. For sites where you've enabled guest sharing, be sure to provide the needed access to unmanaged devices, even if that's just web access via a PC or Mac. Azure Active Directory conditional access (discussed below) offers some options to reduce the risk of guest users with unmanaged devices.
+As you consider your options governing access to information through device management, keep in mind that guest users are likely to have unmanaged devices. For sites where you've enabled guest sharing, be sure to provide the needed access to unmanaged devices, even if that's just web access via a PC or Mac. Azure Active Directory conditional access (discussed below) offers some options to reduce the risk of guest users with unmanaged devices. [Some settings can be configured directly from SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
 
 Intune in Microsoft 365 provides detailed device profiling options and can also deploy and manage individual apps such as Office apps and OneDrive. For detailed information about Intune and device management, see [What is Microsoft Intune?](https://docs.microsoft.com/intune/what-is-intune).
 
@@ -303,7 +301,6 @@ For info about how to view Cloud App Security reports, see [Generate data manage
 
 You can use ATP Safe Attachments (part of [Microsoft 365 Advanced Threat Protection](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)) to protect against users uploading malicious files to OneDrive, SharePoint, or Teams.
 
-
 When ATP discovers a malicious file, that file is locked so that users cannot open, move, or copy the file.
 
 The locked file is included in a list of quarantined items that you can monitor. You can then delete or release the file as appropriate.
@@ -316,7 +313,7 @@ Microsoft 365 offers much greater versatility in collaboration scenarios than on
 
 As part of your migration, you can use the [Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner) to scan and label sensitive information in your on-premises environment. With this information, you can reorganize your data if needed before migrating it to similarly labeled sites in SharePoint.
 
-If the content that your users are collaborating on is located in SharePoint Server 2010 or SharePoint Server 2013, or in file shares, we recommend that you migrate it to Microsoft 365 to take advantage of the broader range of collaboration capabilities.
+If the content that your users are collaborating on is located in SharePoint Server or in file shares, we recommend that you migrate it to Microsoft 365 to take advantage of the broader range of collaboration capabilities.
 
 For information on how to migrate content with the SharePoint Migration Tool, see [Download and install the SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool).
 
