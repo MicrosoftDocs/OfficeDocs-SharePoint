@@ -305,6 +305,17 @@ Global navigation is not yet available for modern SharePoint intranets. Until it
 
 -   Wait to add global navigation until it is available natively in the product.
 
+## Multilingual considerations
+If your organization spans a diverse population, you may want to make content in your intranet sites available in multiple languages. User interface elements like site navigation, site title, and site description can be shown in the user's preferred language. Additionally, you can provide pages and news posts on communication sites that you translate and that are shown in the user's preferred language.
+
+To show the site name, navigation, and footer of your site in the different languages you've made available, each must be translated manually.
+
+For example, let's say you've created a  communication site with an English default language, and you've enabled the site for Spanish and German languages. When you create a site, you set up the site name and description in the default language (in this case, English). You can also update the site name and description after site creation. Then you create the navigation nodes and footer content in English.
+
+After the site is set up in English, a user with Spanish as their preferred personal language manually edits and translates the title, description, navigation and footer content into Spanish. A user with German as their preferred personal language does the same for German. Once the content is translated, it will display for all users of those preferred languages. 
+
+For more information on how to set up and use multilingual features, see [Create multilingual communication sites](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+
 ## Managing navigation expectations
 
 Navigation enhances the story of your digital workplace by making it easy for users to browse the content they need. On the *internet*, we expect to have to search for the content we need. Yet on the *intranet*, viewers *expect* a navigation experience that is carefully curated to help them understand and find the content they need.
