@@ -1,5 +1,5 @@
 ---
-title: SharePoint Migration Tool download and related resources
+title: SharePoint Migration Tool download and overview
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -17,7 +17,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-description: Download the SharePoint Migration Tool and learn about other tools and resources to help with your migration.
+description: Learn how to download and install the SharePoint Migration Tool, and then use the included resources to plan and complete your content migration.
 ---
 
 # Download and install the SharePoint Migration Tool
