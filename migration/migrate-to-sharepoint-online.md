@@ -1,5 +1,5 @@
 ---
-title: Select the right tool for your SharePoint Online migration
+title: Select the right tool for your SharePoint migration
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -42,7 +42,7 @@ To learn more about the which tool to use, see the table below.
 |SharePoint Migration Tool|The SharePoint Migration Tool (SPMT) can migrate your files from SharePoint on-premises document libraries, lists or regular files shares.</br></br>Download either the current release or the latest public preview: </br></br>[SharePoint Migration Tool (current release)](https://spmtreleasescus.blob.core.windows.net/install/default.htm) or </br>[SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)|Ideal for migrating SharePoint Server 2010 & 2013 environments.|
 |Mover|Service for cloud to cloud migration. To learn more, see: [Mover](https://mover.io/)|Ideal for migrating data from other cloud service providers into OneDrive or SharePoint.|
 |PowerShell|Using the PowerShell version of the SPMT. See [Migrate to SharePoint using PowerShell](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets).|SPMT is ideal for migrating SharePoint Server 2010 & 2013 environments via PowerShell. |
-|Microsoft FastTrack |Microsoft FastTrack services can help you get started with your online migration to the cloud.|When you need assistance to help you get started on your migration project.|
+|Microsoft FastTrack |Microsoft FastTrack services can help you get started with your migration to the cloud.|When you need assistance to help you get started on your migration project.|
 |Azure Data Box| The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. Once your data is in Azure, use SPMT to migrate content to SharePoint. </br> To learn more, see [Migrate using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)|Ideal when you want remove the dependency on your WAN link to transfer data.|
 |OneDrive sync app  <br/> |After installing the OneDrive sync app and syncing your library, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint.  <br/> To learn more, see:  [OneDrive sync app](https://docs.microsoft.com/onedrive/one-drive-sync)|Ideal for individuals wanting to move files.|
 |Manual upload  <br/> |Uploading files one at a time to SharePoint. <br/> |Best for smaller files.|
