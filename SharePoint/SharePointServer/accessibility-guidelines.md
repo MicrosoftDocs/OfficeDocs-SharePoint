@@ -34,7 +34,7 @@ The following SharePoint Server 2016 conformance statement, VPAT, and EN 301 549
   
 ## Accessibility features in SharePoint Server
 
-Many of the accessibility features in SharePoint for Microsoft 365 also apply to SharePoint Server 2016 and SharePoint 2013. For more information about these accessibility features, see the following topics:
+Many of the accessibility features in SharePoint in Microsoft 365 also apply to SharePoint Server 2016 and SharePoint 2013. For more information about these accessibility features, see the following topics:
   
 - [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)
     
@@ -50,6 +50,6 @@ Many of the accessibility features in SharePoint for Microsoft 365 also apply to
 
 [Microsoft accessibility](https://www.microsoft.com/accessibility/)
   
-[Accessibility features in SharePoint for Microsoft 365](https://support.office.com/article/f291404a-dc7e-44de-a31f-d81b3099c2b9?fromAR=1)
+[Accessibility features in SharePoint in Microsoft 365](https://support.office.com/article/f291404a-dc7e-44de-a31f-d81b3099c2b9?fromAR=1)
   
 [Accessibility support for enterprise](https://support.microsoft.com/accessibility/enterprise-answer-desk)

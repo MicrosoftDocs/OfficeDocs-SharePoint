@@ -20,7 +20,7 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 27d3e6b8-7922-4015-a5fd-8c240eaa6357
-description: "Hybrid self-service site creation redirects the default self-service site creation page in SharePoint Server to the SharePoint in Microsoft 365 Group Creation page. By configuring this feature, you can help your users to create their sites in SharePoint for Microsoft 365 instead of SharePoint Server."
+description: "Hybrid self-service site creation redirects the default self-service site creation page in SharePoint Server to the SharePoint in Microsoft 365 Group Creation page. By configuring this feature, you can help your users to create their sites in SharePoint in Microsoft 365 instead of SharePoint Server."
 ---
 
 # Hybrid self-service site creation

@@ -42,7 +42,7 @@ The following figure presents three examples of farm topologies and illustrates 
 
 ![How many Discovery Centers are needed?](../media/how-many-discovery-centers.gif)
   
-A Search service application in an on-premises SharePoint farm cannot crawl content in SharePoint for Microsoft 365. If you have discoverable content there, you will also have to create an eDiscovery Center in SharePoint for Microsoft 365.
+A Search service application in an on-premises SharePoint farm cannot crawl content in SharePoint in Microsoft 365. If you have discoverable content there, you will also have to create an eDiscovery Center in SharePoint in Microsoft 365.
   
 Record how many eDiscovery Centers you will have.
   
@@ -82,7 +82,7 @@ Within SharePoint Server, eDiscovery users must be able to view all content. Thi
 We recommend that you grant permissions at the web application level, if that is possible in your environment.
   
 > [!NOTE]
-> Because SharePoint in Microsoft 365 is a hosted service, admins cannot access web applications directly. Therefore, in SharePoint for Microsoft 365 you must explicitly add eDiscovery users as site collection administrators on each site collection that contains discoverable content. 
+> Because SharePoint in Microsoft 365 is a hosted service, admins cannot access web applications directly. Therefore, in SharePoint in Microsoft 365 you must explicitly add eDiscovery users as site collection administrators on each site collection that contains discoverable content. 
   
 Decide whether you will grant permissions by web application or by site collection. If you will grant permissions at the web application level, identify which web applications you will have to grant access to eDiscovery users. (It is likely that this will be all web applications.) If you will grant permissions at the site collection level, identify which site collections eDiscovery users will need access to and record your decisions.
   

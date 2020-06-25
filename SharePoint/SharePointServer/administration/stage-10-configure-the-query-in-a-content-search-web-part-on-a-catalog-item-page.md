@@ -21,7 +21,7 @@ description: "Learn how to configure the query in a Content Search Web Part on a
 
   
 > [!NOTE]
-> Many of the features described in this series are also available for most sites in SharePoint for Microsoft 365. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Quick Overview
 

@@ -29,7 +29,7 @@ This guide presents the configuration choices for the common scenarios.
   
 - **[On-premises deployment](configure-business-connectivity-services-solutions.md#sectiononprem)** All the Business Connectivity Services components are under your organizations control behind your firewall. 
     
-- **[Cloud-only deployment](configure-business-connectivity-services-solutions.md#sectioncloud)** All the Business Connectivity Services components are in SharePoint for Microsoft 365. 
+- **[Cloud-only deployment](configure-business-connectivity-services-solutions.md#sectioncloud)** All the Business Connectivity Services components are in SharePoint in Microsoft 365. 
     
 - **[Hybrid deployment](configure-business-connectivity-services-solutions.md#sectionhybrid)** SharePoint in Microsoft 365 uses Business Connectivity Services to connect to data that lives in the cloud. 
     
@@ -60,7 +60,7 @@ The procedures in [Deploy a Business Connectivity Services on-premises solution 
 ## Cloud-only deployment
 <a name="sectioncloud"> </a>
 
-The procedures in [Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store](/sharepoint/make-external-list)[Deploy a Business Connectivity Services cloud-only solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution) show you how to deploy a solution that involves a Business Connectivity Services infrastructure that is in SharePoint for Microsoft 365. 
+The procedures in [Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store](/sharepoint/make-external-list)[Deploy a Business Connectivity Services cloud-only solution in SharePoint 2013](/SharePoint/administration/deploy-an-on-premises-solution) show you how to deploy a solution that involves a Business Connectivity Services infrastructure that is in SharePoint in Microsoft 365. 
   
 ## Hybrid deployment
 <a name="sectionhybrid"> </a>

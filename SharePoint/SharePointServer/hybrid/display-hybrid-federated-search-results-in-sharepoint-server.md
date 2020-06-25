@@ -17,7 +17,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - SPO_Content
 ms.assetid: 69f8553c-3df5-4366-ac6a-941e619a84cf
-description: "Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from the search indexes in SharePoint Server and in SharePoint for Microsoft 365."
+description: "Configure a SharePoint hybrid environment so that user searches from the SharePoint Server Search Center display results from the search indexes in SharePoint Server and in SharePoint in Microsoft 365."
 ---
 
 # Display hybrid federated search results in SharePoint Server

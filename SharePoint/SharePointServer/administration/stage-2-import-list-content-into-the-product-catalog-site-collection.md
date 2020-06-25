@@ -21,7 +21,7 @@ description: "Learn how to import list content into the Product Catalog Site Col
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Many of the features described in this series are also available for most sites in SharePoint for Microsoft 365. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Start stage 2
 

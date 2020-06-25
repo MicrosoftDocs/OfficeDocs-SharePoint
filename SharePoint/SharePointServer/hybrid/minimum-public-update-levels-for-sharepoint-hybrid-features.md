@@ -78,7 +78,7 @@ The following table shows the minimum PU requirements for hybrid features in Sha
 |[Cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) <br/> |January 2016  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |July 2016  <br/> |
 |[Hybrid federated search (results in SharePoint Server)](/SharePoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint) <br/> |RTM  <br/> |
-|[Hybrid federated search (results in SharePoint for Microsoft 365)](/SharePoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint) <br/> |May 2014  <br/> |
+|[Hybrid federated search (results in SharePoint in Microsoft 365)](/SharePoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint) <br/> |May 2014  <br/> |
 |[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |September 2015  <br/> |
 |[Hybrid profiles](plan-hybrid-profiles.md) <br/> |September 2015  <br/> |
 |[Hybrid site following](hybrid-site-following.md) <br/> |July 2016  <br/> |

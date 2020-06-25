@@ -23,7 +23,7 @@ description: "Get an introduction to cross-site publishing."
 To build our Contoso website, we'll use cross-site publishing, a publishing method introduced with SharePoint Server 2016. But before we start, let's get a bit more familiar with how cross-site publishing works.
   
 > [!NOTE]
-> Many of the features described in this series are also available for most sites in SharePoint for Microsoft 365. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## What is cross-site publishing?
 

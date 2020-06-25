@@ -21,7 +21,7 @@ description: "Learn how to configure the query in a Content Search Web Part on a
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Many of the features described in this series are also available for most sites in SharePoint for Microsoft 365. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Quick Overview
 

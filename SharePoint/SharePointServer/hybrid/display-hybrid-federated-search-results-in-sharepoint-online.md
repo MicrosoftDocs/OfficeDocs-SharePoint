@@ -20,7 +20,7 @@ ms.assetid: c24cffe8-fa32-43e4-95ed-42118ef9643d
 description: "Configure a SharePoint hybrid environment so that user searches from the SharePoint in Microsoft 365 Search Center display results from both the SharePoint in Microsoft 365 and SharePoint Server search indexes."
 ---
 
-# Display hybrid federated search results in SharePoint for Microsoft 365
+# Display hybrid federated search results in SharePoint in Microsoft 365
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
@@ -34,7 +34,7 @@ To display hybrid search results in the SharePoint in Microsoft 365 Search Cente
   
 - [Step 1: Create a result source that defines how to get search results from the SharePoint Server 2013 deployment](display-hybrid-federated-search-results-in-sharepoint-online.md#section1)
     
-- [Step 2: Create a query rule to turn on hybrid search results in SharePoint for Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md#section2)
+- [Step 2: Create a query rule to turn on hybrid search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md#section2)
     
 - [Step 3: Test your configuration for displaying search results from SharePoint Server 2013 in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md#section3)
     
@@ -43,7 +43,7 @@ To display hybrid search results in the SharePoint in Microsoft 365 Search Cente
 ## Step 1: Create a result source that defines how to get search results from the SharePoint Server 2013 deployment
 <a name="section1"> </a>
 
-In this procedure, you create a result source in SharePoint for Microsoft 365. This result source is a definition that specifies SharePoint Server as a provider to get search results from. This definition specifies each of the following:
+In this procedure, you create a result source in SharePoint in Microsoft 365. This result source is a definition that specifies SharePoint Server as a provider to get search results from. This definition specifies each of the following:
   
 - The protocol for getting search results from the SharePoint Server deployment.
     

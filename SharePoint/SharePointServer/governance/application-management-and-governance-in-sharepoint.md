@@ -130,7 +130,7 @@ The guidance for whether to use apps for SharePoint or SharePoint solutions is t
     
   - Can integrate with cloud-based resources.
     
-  - Are available for both sites in SharePoint Server and sites in SharePoint for Microsoft 365.
+  - Are available for both sites in SharePoint Server and sites in SharePoint in Microsoft 365.
     
 - **Use farm solutions for administrators**
     

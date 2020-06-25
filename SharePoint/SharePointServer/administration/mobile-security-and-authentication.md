@@ -154,7 +154,7 @@ The following table details the authentication types supported for the SharePoin
 |SAML  <br/> |WS-Federation 1.1 compatible Identity Provider  <br/> |On-premises, SharePoint in Microsoft 365, hybrid -based scenarios  <br/> |Active Authentication(IDCRL)  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |
    
 > [!IMPORTANT]
-> For federated scenarios in SharePoint for Microsoft 365, only Active Directory Federation Services (ADFS) 2.0 is supported. During the setup process it is necessary to support a passive federation authentication URI of:  *"urn:oasis:names:tc:SAML:2.0:ac:classes:Password"*  . 
+> For federated scenarios in SharePoint in Microsoft 365, only Active Directory Federation Services (ADFS) 2.0 is supported. During the setup process it is necessary to support a passive federation authentication URI of:  *"urn:oasis:names:tc:SAML:2.0:ac:classes:Password"*  . 
   
  **Authentication Workflows**
   
@@ -163,7 +163,7 @@ The SharePoint Newsfeed App is supported for both on-premises and SharePoint in 
 |**Deployment**|**Workflow**|**Details**|
 |:-----|:-----|:-----|
 |**On-premises** <br/> |![SharePoint Newsfeed On-premises](../media/SP15Mobile_SPNewsOnPrem.jpg)| Supported Authentication Types  <br/>  Windows Authentication  <br/>  Forms Based Authentication  <br/>  SAML  <br/> |
-|**SharePoint in Microsoft 365** <br/> |![Newsfeed in SharePoint for Microsoft 365](../media/SP15Mobile_SPNewsSPO.jpg)| Supported Authentication Types  <br/>  Forms-based Authentication  <br/>  SAML  <br/> |
+|**SharePoint in Microsoft 365** <br/> |![Newsfeed in SharePoint in Microsoft 365](../media/SP15Mobile_SPNewsSPO.jpg)| Supported Authentication Types  <br/>  Forms-based Authentication  <br/>  SAML  <br/> |
    
 For more info about how to deploy the SharePoint Newsfeed App in your network, including configuring cross-firewall access, see [Configure external access for mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393835(v=office.14)).
   
