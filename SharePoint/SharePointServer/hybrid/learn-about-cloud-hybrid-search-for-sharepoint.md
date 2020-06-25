@@ -20,14 +20,14 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: 53566956-a4c7-478a-b23b-e389b7de2eaa
-description: "With the cloud hybrid search solution for SharePoint, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Microsoft 365 content."
+description: "With the cloud hybrid search solution for SharePoint in Microsoft 365, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Microsoft 365 content."
 ---
 
-# Learn about cloud hybrid search for SharePoint
+# Learn about cloud hybrid search for SharePoint in Microsoft 365
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
-With the cloud hybrid search solution for SharePoint, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Microsoft 365 content.
+With the cloud hybrid search solution for SharePoint in Microsoft 365, you index all your crawled content, including on-premises content, in your search index in Office 365. When users query your search index in Office 365, they get search results from both on-premises and Microsoft 365 content.
   
 ![Illustration showing search in two environments with and without cloud hybrid search](../media/8f9abe49-522b-47e8-9882-a7bd242f9006.png)
   
@@ -52,7 +52,7 @@ Learn more:
 
 - Your users get unified search results, search relevance ranking, and refiners even if your organization has content both on-premises and in Microsoft 365. 
     
-- Your users automatically get the newest SharePoint search experience without your organization having to update your existing SharePoint servers.
+- Your users automatically get the newest SharePoint in Microsoft 365 search experience without your organization having to update your existing SharePoint servers.
     
 - You no longer have to worry about the size of your search index, because your search index is in Office 365. This means that the footprint of your SharePoint Server search farm is smaller, and your total cost of ownership for search is lower.
     
@@ -71,7 +71,7 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
 
  **Search verticals** - Search verticals narrow search results to a specific set of content, for example to show only videos. If you currently use a search vertical in a search center in SharePoint Server, you have to recreate it in your search center in SharePoint in Microsoft 365. 
   
- **Site search** - Your existing search in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use search centers that are in the same environment as the search index, so searching from a Microsoft 365 search center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010 or SharePoint Server 2013, you can set up search in SharePoint Server to show hybrid results from your Microsoft 365 index. Because SharePoint in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
+ **Site search** - Your existing search in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use search centers that are in the same environment as the search index, so searching from a Microsoft 365 search center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint in Microsoft 365 sites, such as in existing Team Sites in SharePoint Server 2010 or SharePoint Server 2013, you can set up search in SharePoint Server to show hybrid results from your Microsoft 365 index. Because SharePoint in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint in Microsoft 365 supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
   
  **eDiscovery search** - You might have to set up eDiscovery separately in SharePoint Server and in SharePoint in Microsoft 365. 
   
@@ -93,7 +93,7 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
   
  **Removal of on-premises search results** - In Central Administration in SharePoint Server you can select a Search service application and use the option "Index reset" to remove all content from the search index. This option does not work for cloud hybrid search because there is no direct communication between the cloud Search service application in SharePoint Server 2013 or SharePoint Server 2016 and the search index in Office 365. If you only want to remove some on-premises metadata from the Microsoft 365 search index, remove that on-premises content source, or create a crawl rule that doesn't crawl the URL of a file. If you need to remove all metadata from on-premises content from the search index in Office 365, open a ticket with Microsoft Support. 
   
- **Usage reports** - Usage reports are based on information about the crawled content and user actions on the SharePoint site. The cloud Search service application in SharePoint Server 2013 or SharePoint Server 2016 doesn't communicate with the usage analytics in SharePoint for Microsoft 365, so usage reports in SharePoint for Microsoft 365 don't contain information about user actions on sites in SharePoint Server 2013 or SharePoint Server 2016. 
+ **Usage reports** - Usage reports are based on information about the crawled content and user actions on the SharePoint in Microsoft 365 site. The cloud Search service application in SharePoint Server 2013 or SharePoint Server 2016 doesn't communicate with the usage analytics in SharePoint in Microsoft 365, so usage reports in SharePoint in Microsoft 365 don't contain information about user actions on sites in SharePoint Server 2013 or SharePoint Server 2016. 
   
 ### Search features that aren't available with cloud hybrid search
 
@@ -116,15 +116,15 @@ You **manage all other settings** in search administration in SharePoint in Micr
 
 With cloud hybrid search, the crawler can crawl the same content sources and use the same search connectors as in earlier SharePoint Server versions. This lets you crawl and push content from your SharePoint Server 2007, SharePoint Server 2010, SharePoint Server 2013 and SharePoint Server 2016 farms into the Microsoft 365 search index. But, you can't index content that requires custom security trimming, because SharePoint in Microsoft 365 doesn't support adding [custom security trimmers](https://msdn.microsoft.com/library/ee819930.aspx).
   
-The crawler can crawl the same default file types as in earlier SharePoint Server versions. If you need to crawl other file types on-premises, you just add custom iFilters to the SharePoint Server 2013 or SharePoint Server 2016 farm. From the SharePoint Server 2013or SharePoint Server 2016 farm you can also change which file types the crawler crawls and includes in the search index in Office 365.
+The crawler can crawl the same default file types as in earlier SharePoint Server versions. If you need to crawl other file types on-premises, you just add custom iFilters to the SharePoint Server 2013 or SharePoint Server 2016 farm. From the SharePoint Server 2013 or SharePoint Server 2016 farm, you can also change which file types the crawler crawls and includes in the search index in Office 365.
   
 ### The search schema in SharePoint in Microsoft 365
 
-You manage the search schema in SharePoint for Microsoft 365, see [Manage the Search Center in SharePoint](/sharepoint/manage-search-center).
+You manage the search schema in SharePoint in Microsoft 365, see [Manage the Search Center in SharePoint in Microsoft 365](/sharepoint/manage-search-center).
   
 The default mappings between crawled and managed properties in the search schema in Microsoft 365 also apply to the on-premises content. As long as you don't remove your existing, standard SSA, you can still set up a search schema in SharePoint Server, but this search schema won't apply to your on-premises content that the cloud SSA crawls.
   
-In the user interface for managing the search schema in SharePoint for Microsoft 365, you can't see the difference between the origin of properties such as categories, crawled properties, and automatically created managed properties. 
+In the user interface for managing the search schema in SharePoint in Microsoft 365, you can't see the difference between the origin of properties such as categories, crawled properties, and automatically created managed properties. 
   
 For content that's stored in Microsoft 365, you can customize the search schema at the tenant and the site collection level. For content that's stored on-premises, you can only customize the search schema at the tenant level. In the search index, metadata for content that's stored on-premises has the managed property ** IsExternalContent ** set to true. 
   
@@ -147,7 +147,7 @@ Here's how it works:
   
 - On-premises content (1) is crawled by the crawler in the cloud SSA (2) and pushed to the search index in Office 365 (3).
     
-- Users enter a query (4) in the SharePoint Search Center, the query is sent to the search index in Microsoft 365 (3), and results are returned to the SharePoint Search Center (4).
+- Users enter a query (4) in the SharePoint in Microsoft 365 Search Center, the query is sent to the search index in Microsoft 365 (3), and results are returned to the SharePoint in Microsoft 365 Search Center (4).
     
 - If necessary, you can set up site search in SharePoint Server 2013 or SharePoint Server 2016 to get search results from your search index in Office 365. Users enter a query in an on-premises site search box (5) and the query is sent via the server with the cloud SSA (2) to the search index in Office 365 (3). Results are returned via the server with the cloud SSA (2) to the on-premises site search box (5).
     
@@ -159,7 +159,7 @@ Here's how it works:
 [Configure cloud hybrid search - roadmap](configure-cloud-hybrid-searchroadmap.md)
 #### Other Resources
 
-[Plan cloud hybrid search for SharePoint](plan-cloud-hybrid-search-for-sharepoint.md)
+[Plan cloud hybrid search for SharePoint in Microsoft 365](plan-cloud-hybrid-search-for-sharepoint.md)
   
-[Hybrid search in SharePoint](hybrid-search-in-sharepoint.md)
+[Hybrid search in SharePoint in Microsoft 365](hybrid-search-in-sharepoint.md)
 

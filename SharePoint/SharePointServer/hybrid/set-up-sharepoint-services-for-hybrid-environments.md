@@ -24,13 +24,13 @@ ms.assetid: 70e043ef-8908-436e-92bf-abbcd89874f7
 description: "Learn how to set up the SharePoint Server services you'll need for a hybrid environment."
 ---
 
-# Set up SharePoint services for hybrid environments
+# Set up SharePoint Server services for hybrid environments
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
  **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article. **
   
-## Set up SharePoint services for hybrid
+## Set up SharePoint Server services for hybrid
 
 SharePoint Server services such as My Sites, User Profiles, and Managed Metadata can be challenging to deploy and can require a lot of planning. If you plan to make use of these services in depth, we highly recommend that you follow the detailed planning information for [My Sites](../install/my-sites-planning.md), [User Profiles](../administration/user-profiles-and-identities.md), and [Managed Metadata](../governance/managed-metadata-planning.md).
   
@@ -235,7 +235,7 @@ You need to create an App Management service application.
 ### Configure hybrid specific settings
 <a name="HybridSettings"> </a>
 
-Hybrid uses the Microsoft SharePoint Foundation Subscription Settings Service which is turned off by default in SharePoint Server. Use the following procedure to turn it on.
+Hybrid uses the Microsoft SharePoint in Microsoft 365 Foundation Subscription Settings Service which is turned off by default in SharePoint Server. Use the following procedure to turn it on.
   
  **To turn on the Microsoft SharePoint Foundation Subscription Settings Service (SharePoint Server 2013)**
   
@@ -243,7 +243,7 @@ Hybrid uses the Microsoft SharePoint Foundation Subscription Settings Service wh
     
 2. For the **Microsoft SharePoint Foundation Subscription Settings Service**, select **Start**.
 
- **To turn on the Microsoft SharePoint Foundation Subscription Settings Service** (SharePoint Server 2016 and 2019)
+ **To turn on the Microsoft SharePoint Foundation Subscription Settings Service** (SharePoint Server 2016 and SharePoint 2019)
   
 1. In Central Administration, under **System Settings**, select **Manage services in this farm**.
     
@@ -301,7 +301,7 @@ After you verify the user property mappings, we need to synchronize the UPN doma
   
  **To start profile synchronization manually**
   
-1. On the SharePoint Central Administration website, in the **Application Management** section, select **Manage service applications**.
+1. On the SharePoint in Microsoft 365 Central Administration website, in the **Application Management** section, select **Manage service applications**.
     
 2. Select the User Profile service application.
     

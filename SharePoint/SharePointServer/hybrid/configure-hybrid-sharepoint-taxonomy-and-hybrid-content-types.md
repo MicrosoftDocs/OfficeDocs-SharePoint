@@ -82,7 +82,7 @@ Copying taxonomy groups is done using the Copy-SPTaxonomyGroups PowerShell cmdle
     
 - A list of the taxonomy groups that you want to copy.
     
-Run the cmdlet as a farm administrator from one of the servers in your SharePoint farm.
+Run the cmdlet as a farm admin from one of the servers in your SharePoint in Microsoft 365 farm.
   
 Use the following syntax to copy your taxonomy groups:
   
@@ -124,7 +124,7 @@ We also recommend that you back up your term store before you proceed.
   
  **Make the timer service account a term store admin**
   
-For taxonomy replication to work properly, the account that runs the SharePoint Timer Service must be a term store administrator in SharePoint Server. (To find this account, check the Log On As account for the SharePoint Timer Service on your server.) Use the following procedure to add this account as a term store administrator.
+For taxonomy replication to work properly, the account that runs the SharePoint Timer Service must be a term store admin in SharePoint Server. (To find this account, check the Log On As account for the SharePoint Timer Service on your server.) Use the following procedure to add this account as a term store administrator.
   
  **To add a term store admin**
   
@@ -166,7 +166,7 @@ After you've configured hybrid SharePoint taxonomy, the taxonomy replication tim
 
 Hybrid SharePoint taxonomy uses a timer job called Taxonomy Groups Replication to copy taxonomy information from SharePoint in Microsoft 365 to SharePoint Server. The SharePoint in Microsoft 365 APP Identity is used to authenticate to Microsoft 365. By default, this timer job replicates taxonomy on a daily basis.
   
-Like other timer jobs in SharePoint, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searcing for it in the timer job list in Central Administration.
+Like other timer jobs in SharePoint in Microsoft 365, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searcing for it in the timer job list in Central Administration.
   
 ## Stopping replication of taxonomy groups
 

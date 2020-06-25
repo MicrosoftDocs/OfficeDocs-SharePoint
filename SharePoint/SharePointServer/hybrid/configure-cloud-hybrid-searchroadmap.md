@@ -33,7 +33,7 @@ Learn how to configure [cloud hybrid search](/SharePoint/hybrid/learn-about-clou
 This article describes how you set up cloud hybrid search in an environment with SharePoint Server and SharePoint in Microsoft 365 for enterprises. With the cloud hybrid search solution, you add crawled metadata from all your content, including on-premises content, to your search index in Office 365. When users search in Microsoft 365, they get search results from both on-premises and from Microsoft 365 content.
   
 > [!NOTE]
-> If you are a Microsoft 365 Dedicated customer, setting up cloud hybrid search requires engagement of SharePoint Service Engineering staff. Contact your Microsoft Service Delivery Manager for assistance. If you aren't sure what type of customer you are, you can safely disregard this note. 
+> If you are a Microsoft 365 Dedicated customer, setting up cloud hybrid search requires engagement of SharePoint Service Engineering staff. For assistance, contact your Microsoft Service Delivery Manager. If you aren't sure what type of customer you are, you can safely disregard this note. 
   
 ## Before you start
 
@@ -316,7 +316,7 @@ You might find this guidance useful:
     
 - [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md). 
     
-- To publish your SharePoint Server site and make it accessible for your users, follow the best practices in Plan for Internet, intranet, and extranet publishing sites in SharePoint Server
+- To publish your SharePoint Server site and make it accessible for your users, follow the best practices in Plan for Internet, intranet, and extranet publishing sites in SharePoint Server.
     
 - To open a link from a search result that comes from on-premises content, users have to either be connected to the on-premises intranet via a Virtual Private Network (VPN) connection or be logged on to where the content is stored. Alternatively, you enable users to open such links by [installing a reverse proxy device](/SharePoint/hybrid/configure-a-reverse-proxy-device-for-sharepoint-server-hybrid) for SharePoint Server. 
     
@@ -334,8 +334,8 @@ In addition, it may be necessary to configure the `machine.config` to support th
 ## Related Topics
 <a name="BKMK_TuneCloudHybridSearch"> </a>
 
-[Learn about cloud hybrid search for SharePoint](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
+[Learn about cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
   
-[Plan cloud hybrid search for SharePoint](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
+[Plan cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
   
 

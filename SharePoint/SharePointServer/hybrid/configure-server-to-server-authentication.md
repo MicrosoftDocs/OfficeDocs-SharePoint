@@ -48,7 +48,7 @@ For example, you have to make sure that the on-premises search center site(s) th
   
  **To verify that a web application meets the requirement**
   
-1. Confirm that the user account that will do this procedure is a member of the Farm Administrators SharePoint group.
+1. Confirm that the user account that will do this procedure is a member of the Farm Admins SharePoint group.
     
 2. In Central Administration, select **Application Management**, and then select **Manage web applications**.
     
@@ -133,7 +133,7 @@ To continue, you need to install these tools on an on-premises SharePoint Server
     
 - Azure Active Directory Module for Windows PowerShell
     
-- SharePoint Online Management Shell
+- SharePoint in Microsoft 365 Management Shell
     
 This is most easily accomplished on a web server in your SharePoint farm because it's easier to load the  *Microsoft.SharePoint.PowerShell*  snap-in on the web servers than on servers that don't have SharePoint Server installed. 
   
@@ -154,11 +154,11 @@ To install the online service management tools and configure the PowerShell wind
     
 2. Install the [latest version of the Azure Active Directory Module for Windows PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/28552.microsoft-azure-active-directory-powershell-module-version-release-history.aspx)
     
-3. Install the SharePoint Online Management Shell:
+3. Install the SharePoint in Microsoft 365 Management Shell:
     
-    [SharePoint Online Management Shell (64 bit version)](https://go.microsoft.com/fwlink/?LinkId=392323) 
+    [SharePoint in Microsoft 365 Management Shell (64 bit version)](https://go.microsoft.com/fwlink/?LinkId=392323) 
     
-    For additional info, see [Introduction to the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). 
+    For additional info, see [Introduction to the SharePoint in Microsoft 365 Management Shell](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell). 
     
 2. Open a PowerShell window.
     
@@ -193,7 +193,7 @@ To install the online service management tools and configure the PowerShell wind
 
    For more information, see [about_Remote_Requirements](https://go.microsoft.com/fwlink/?LinkId=392326). 
     
-6. Enter the following commands to sign in to SharePoint, from the PowerShell command prompt:
+6. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
     
   ```
   $cred=Get-Credential
@@ -207,7 +207,7 @@ To install the online service management tools and configure the PowerShell wind
 ### Configure server-to-server (S2S) authentication
 <a name="step2"> </a>
 
-Now that you installed the tools to enable you to remotely administer Azure Active Directory and SharePoint, you're ready to set up server-to-server authentication.
+Now that you installed the tools to enable you to remotely administer Azure Active Directory and SharePoint in Microsoft 365, you're ready to set up server-to-server authentication.
   
 #### About the variables you'll create
 
@@ -219,8 +219,8 @@ This section describes the variables you will set in the procedure that follows.
 |$spcn  <br/> |The root domain name of your public domain. This value should not be in the form of a URL; it should be the **domain name only**, with **no protocol**.  <br/> An example is adventureworks.com.  <br/> |
 |$spsite  <br/> |The internal URL of your on-premises primary web application, such as **http://sharepoint** or **https://sharepoint.adventureworks.com**. This value is a full URL using the proper protocol (either **http:** // or **https://** ).  <br/> This is the internal URL of the web application that you are using for hybrid functionality.  <br/> An example is http://sharepoint or https://sharepoint.adventureworks.com.  <br/> |
 |$site  <br/> |The object of your on-premises primary web application. The command that populates this variable gets the object of the site you specified in the **$spsite** variable.  <br/> This variable is automatically populated.  <br/> |
-|$spoappid  <br/> |The SharePoint application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint objects in a Microsoft 365 organization.  <br/> |
-|$spocontextID  <br/> |The context ID (ObjectID) of your SharePoint tenant. This value is a unique GUID that identifies your SharePoint tenant.  <br/> This value is automatically detected when you run the command to set the variable.  <br/> |
+|$spoappid  <br/> |The SharePoint in Microsoft 365 application principal ID is always 00000003-0000-0ff1-ce00-000000000000. This generic value identifies SharePoint in Microsoft 365 objects in a Microsoft 365 organization.  <br/> |
+|$spocontextID  <br/> |The context ID (ObjectID) of your SharePoint in Microsoft 365 tenant. This value is a unique GUID that identifies your SharePoint in Microsoft 365 tenant.  <br/> This value is automatically detected when you run the command to set the variable.  <br/> |
 |$metadataEndpoint  <br/> |The URL that is used by your Azure Active Directory proxy to connect to your Azure Active Directory tenancy.  <br/> You don't need to input a value for this variable.  <br/> |
    
 #### Step 1: Set variables
@@ -249,11 +249,11 @@ After you populate these variables, you can view their values by entering the va
 #### Step 2: Upload the STS certificate to SharePoint in Microsoft 365
 <a name="step4"> </a>
 
-In this step, you upload the STS certificate for your SharePoint Server farm to your SharePoint tenant, which enables SharePoint Server and SharePoint in Microsoft 365 to connect to and consume each other's service applications.
+In this step, you upload the STS certificate for your SharePoint Server farm to your SharePoint in Microsoft 365 tenant, which enables SharePoint Server and SharePoint in Microsoft 365 to connect to and consume each other's service applications.
   
-![The architecture involved when a STS certificate is uploaded to SharePoint](../media/TrustSTS.jpg)
+![The architecture involved when a STS certificate is uploaded to SharePoint in Microsoft 365](../media/TrustSTS.jpg)
   
-The commands in this step add the new on-premises STS certificate (public key only) to the SharePoint *principal object*  of your Microsoft 365 organization. 
+The commands in this step add the new on-premises STS certificate (public key only) to the SharePoint in Microsoft 365 *principal object*  of your Microsoft 365 organization. 
   
 From the PowerShell command prompt, type the following commands.
   
@@ -267,7 +267,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId $spoappid -Type asymmetric -U
 #### Step 3: Add an SPN for your public domain name to Azure Active Directory
 <a name="step5"> </a>
 
-In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SPN is comprised of the SharePoint principal object and your company's public DNS namespace.
+In this step, you add a service principal name (SPN) to your Azure Active Directory tenant. The SPN is comprised of the SharePoint in Microsoft 365 principal object and your company's public DNS namespace.
   
 Just like SPNs function in Active Directory, creating this SPN registers an object in Azure Active Directory that is used to support mutual authentication between SharePoint Server and SharePoint in Microsoft 365. The basic syntax for the SPN is:
   
@@ -275,7 +275,7 @@ Just like SPNs function in Active Directory, creating this SPN registers an obje
   
 Where:
   
-- \<service type\> is the SharePoint principal object, which is the same for all SharePoint tenants. 
+- \<service type\> is the SharePoint in Microsoft 365 principal object, which is the same for all SharePoint in Microsoft 365 tenants. 
     
 - \<instance name\> is the URL of your company's public DNS domain namespace, which is always expressed as a wildcard, even if the Secure Channel SSL Certificate is a SAN certificate. 
     
@@ -287,7 +287,7 @@ If the common name in your certificate is sharepoint.adventureworks.com, the syn
   
  `00000003-0000-0ff1-ce00-000000000000/*.adventureworks.com`
   
-Using a wildcard value lets SharePoint validate connections with  *any host*  in that domain. This is useful if you ever need to change the host name of the external endpoint (if your topology includes one) or if you want to change your SharePoint Server web application, in the future. 
+Using a wildcard value lets SharePoint in Microsoft 365 validate connections with  *any host*  in that domain. This is useful if you ever need to change the host name of the external endpoint (if your topology includes one) or if you want to change your SharePoint Server web application, in the future. 
   
 To add the SPN to Azure Active Directory, enter the following commands in the Azure Active Directory Module for Windows PowerShell command prompt.
   
@@ -306,16 +306,16 @@ $spns = $msp.ServicePrincipalNames
 $spns
 ```
 
-You should see a current list of SPNs for SharePoint in your Microsoft 365 organization, and one of the SPNs should include your public root domain name, prefaced by the SharePoint application principal ID. This registration is a wildcard registration and should look like the following example:
+You should see a current list of SPNs for SharePoint in Microsoft 365 in your Microsoft 365 organization, and one of the SPNs should include your public root domain name, prefaced by the SharePoint in Microsoft 365 application principal ID. This registration is a wildcard registration and should look like the following example:
   
 `00000003-0000-0ff1-ce00-000000000000/*.<public domain name>.com`
   
 This should be the  *only*  SPN in the list that includes your public root domain name. 
   
-#### Step 4: Register the SharePoint application principal object ID with SharePoint Server
+#### Step 4: Register the SharePoint in Microsoft 365 application principal object ID with SharePoint Server
 <a name="step6"> </a>
 
-This step registers the SharePoint application principal object ID with the on-premises SharePoint Application Management Service, which allows SharePoint Server to authenticate to SharePoint in Microsoft 365 using OAuth.
+This step registers the SharePoint in Microsoft 365 application principal object ID with the on-premises SharePoint in Microsoft 365 Application Management Service, which allows SharePoint Server to authenticate to SharePoint in Microsoft 365 using OAuth.
   
 From the PowerShell command prompt, type the following commands.
   
@@ -333,9 +333,9 @@ $appPrincipal | fl
 
 The expected output is a description of the registered application principal with the name **SharePoint Online**, which should look something like this.
   
-![Registered application principal for SharePoint](../media/ValidateRegister_SPO.jpg)
+![Registered application principal for SharePoint in Microsoft 365](../media/ValidateRegister_SPO.jpg)
   
-#### Step 5: Set the SharePoint authentication realm
+#### Step 5: Set the SharePoint in Microsoft 365 authentication realm
 <a name="step7"> </a>
 
 This step sets the authentication realm of your SharePoint Server farm to the context ID of the organization's Microsoft 365 organization.
@@ -353,7 +353,7 @@ $spocontextID
 Get-SPAuthenticationRealm
 ```
 
-The output of each of these commands is the GUID that represents the context ID of the SharePoint tenancy. These GUIDs should be identical.
+The output of each of these commands is the GUID that represents the context ID of the SharePoint in Microsoft 365 tenancy. These GUIDs should be identical.
   
 > [!IMPORTANT]
 > If you have configured farm setup scripts that specify the farm authentication realm value, you should update the setup scripts with this new value before you run them again. > For more information about the requirements for realm values in farm setup scripts, see [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md). Because you have now configured this SharePoint farm to participate in the hybrid configuration, the SharePoint farm authentication realm value must always match the tenant context identifier. If you change this value, the farm will no longer participate in hybrid functionality. 
@@ -388,7 +388,7 @@ The output that's expected is a description of the farm's trusted token issuer, 
 
 Where:
 
-- \<context ID\> is the context ID of your SharePoint tenancy, which is the value in the $spocontextID variable.
+- \<context ID\> is the context ID of your SharePoint in Microsoft 365 tenancy, which is the value in the $spocontextID variable.
   
 ## Validation and next steps
 <a name="next"> </a>

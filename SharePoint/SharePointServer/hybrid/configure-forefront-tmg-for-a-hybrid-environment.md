@@ -92,7 +92,7 @@ For more info about how to import an SSL certificate, see [Import a Certificate]
 ## Configure TMG 2010
 <a name="config"> </a>
 
-In this section, you configure a **web listener** and a **publishing rule** that will receive inbound requests from SharePoint and relay them to the primary web application of your SharePoint Server farm. The web listener and publishing rule work together to define the connection rules and to pre-authenticate and relay the requests. You configure the web listener to authenticate inbound connections using the Secure Channel certificate you installed in the last procedure. 
+In this section, you configure a **web listener** and a **publishing rule** that will receive inbound requests from SharePoint in Microsoft 365 and relay them to the primary web application of your SharePoint Server farm. The web listener and publishing rule work together to define the connection rules and to pre-authenticate and relay the requests. You configure the web listener to authenticate inbound connections using the Secure Channel certificate you installed in the last procedure. 
   
 For more info about configuring publishing rules in TMG, see [Configuring Web publishing](/previous-versions//cc441546(v=technet.10)).
   
@@ -131,7 +131,7 @@ Use the following procedure to create the publishing rule and web listener.
     > [!NOTE]
     > If TMG can resolve the primary web application using the host name you provided in the previous step, you do not have to perform this step. 
   
-8. In the **Public Name Details** dialog box, accept the default setting on the **Accept requests for** menu. In the **Public name** text box, enter the host name of your *External URL*  (for example, "sharepoint.adventureworks.com"), and then select **Next**. This is the host name in the external URL that SharePoint will use to connect with your SharePoint Server farm.
+8. In the **Public Name Details** dialog box, accept the default setting on the **Accept requests for** menu. In the **Public name** text box, enter the host name of your *External URL*  (for example, "sharepoint.adventureworks.com"), and then select **Next**. This is the host name in the external URL that SharePoint in Microsoft 365 will use to connect with your SharePoint Server farm.
     
     > [!NOTE]
     > Do not enter the protocol (http:// or https://). 
@@ -194,7 +194,7 @@ There are several settings that you must now verify or change in the publishing 
     
 9. To validate your configuration, right-click the new publishing rule from the **Firewall Policy Rules** list, and select **Properties**.
     
-10. In the **\<rule name\> Properties** dialog box, select the **Test Rule** button. TMG runs a series of tests to check for connectivity to the SharePoint site and displays the results of the tests in a list. For a description of the test and its results, select each configuration test. Fix any errors that appear. 
+10. In the **\<rule name\> Properties** dialog box, select the **Test Rule** button. TMG runs a series of tests to check for connectivity to the SharePoint in Microsoft 365 site, and displays the results of the tests in a list. For a description of the test and its results, select each configuration test. Fix any errors that appear. 
     
 ## See also
 <a name="config"> </a>

@@ -83,7 +83,7 @@ For Microsoft 365 to send requests to the external endpoint of your reverse prox
   
 - A public domain registered with a domain registrar, such as GoDaddy.com, that the URL of the external endpoint of the reverse proxy device is associated with.
     
-- An A record in your public domain's DNS zone that's associated with the published SharePoint site (which is the External URL, such as spexternal.adventureworks.com). This enables Microsoft 365 to send requests to the external endpoint on the reverse proxy device that's configured for hybrid. This A record maps the External URL to the IP address of the Internet-facing endpoint of the reverse proxy device. For more information, see [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md).
+- An A record in your public domain's DNS zone that's associated with the published SharePoint in Microsoft 365 site (which is the External URL, such as spexternal.adventureworks.com). This enables Microsoft 365 to send requests to the external endpoint on the reverse proxy device that's configured for hybrid. This A record maps the External URL to the IP address of the Internet-facing endpoint of the reverse proxy device. For more information, see [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md).
     
 If you don't yet have a public domain that you want to use for this purpose (such as adventureworks.com), get one now, and then create this A record. If you already took care of this during the planning phase, the name of your public domain and the IP address that you need to create this A Record are recorded in Table 3 of the worksheet.
   
@@ -224,12 +224,12 @@ Where:
     
 - https://sharepoint is the web application that the site collection is created in. 
     
-For more information, see [Host-named site collection architecture and deployment in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc424952(v=office.14)).
+For more information, see [Host-named site collection architecture and deployment in SharePoint Server](/previous-versions/office/SharePoint-server-2010/cc424952(v=office.14)).
   
 #### Configure split DNS
 <a name="hn_configdns"> </a>
 
-You have to configure split DNS. This is a common configuration that's used to help ensure that on-premises client computers resolve a server name to internal IP addresses, even though public DNS resolution resolves the same service name to a completely different public IP address. This enables users to be redirected to an endpoint that uses standard SharePoint security-enhanced mechanisms for authentication, but queries from Microsoft 365 can be directed through a reverse proxy configured to use certificate authentication.
+You have to configure split DNS. This is a common configuration that's used to help ensure that on-premises client computers resolve a server name to internal IP addresses, even though public DNS resolution resolves the same service name to a completely different public IP address. This enables users to be redirected to an endpoint that uses standard SharePoint in Microsoft 365 security-enhanced mechanisms for authentication, but queries from Microsoft 365 can be directed through a reverse proxy configured to use certificate authentication.
   
 For more information about how to use split DNS in a hybrid topology, see [Architecture Design Recommendation for SharePoint 2013 Hybrid Search Features](https://go.microsoft.com/fwlink/?LinkId=392219). For information about how to configure a split DNS, see [A faulty split-brain DNS configuration can prevent a seamless SSO sign-in experience](https://support.microsoft.com/kb/2715326).
   
@@ -281,7 +281,7 @@ In general, you should use the default settings. However, the following configur
 |In the **Security Configuration** section  <br/> |Ensure that **Allow Anonymous** is set to **No**.  <br/> |
 |In the **Security Configuration** section  <br/> |Ensure that **Use Secure Sockets Layer (SSL)** is set to **Yes**. You'll have to bind an SSL certificate to the web application, which we discuss more in the next section.  <br/> |
 |In the **Claims Authentication Types** section  <br/> |Select the **Enable Windows Authentication** check box, select the **Integrated Windows authentication** check box, and in the drop-down menu, select **NTLM**.  <br/> |
-|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, https://spexternal.adventureworks.com.  <br/> By default, SharePoint appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
+|In the **Public URL** section, in the **URL** box  <br/> |Type the External URL—for example, https://spexternal.adventureworks.com.  <br/> By default, SharePoint in Microsoft 365 appends the port number to the default URL that it recommends for this field. When you replace that URL with the external URL, don't append the port number.  <br/> |
    
 To make things easier for yourself in later procedures, we recommend that you do the following.
   
@@ -292,7 +292,7 @@ To make things easier for yourself in later procedures, we recommend that you do
 #### Ensure that an SSL binding exists on the primary web application
 <a name="ensuresslwoaam"> </a>
 
-You have to ensure that an SSL certificate is bound to the primary web application. For production environments, this certificate should be issued by a public certification authority (CA). For test and development environments, this can be a self-signed certificate. We call this the on-premises SharePoint SSL certificate.
+You have to ensure that an SSL certificate is bound to the primary web application. For production environments, this certificate should be issued by a public certification authority (CA). For test and development environments, this can be a self-signed certificate. We call this the on-premises SharePoint in Microsoft 365 SSL certificate.
   
 > [!TIP]
 > This is typically a separate certificate from the one that you'll later install on the reverse proxy device, but you can use the Secure Channel SSL certificate for this if you want to. For more information about these certificates, see the [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md). 
@@ -302,7 +302,7 @@ The host name of the web application must be in the **Subject** field of the SSL
 #### Configure split DNS
 <a name="woaam_splitdns"> </a>
 
-You have to configure split DNS. This is a common configuration that's used to help ensure that on-premises client computers resolve a server name to internal IP addresses, even though public DNS resolution resolves the same service name to a completely different public IP address. This enables users to be redirected to an endpoint that uses standard SharePoint security-enhanced mechanisms for authentication, but queries from Microsoft 365 can be directed through a reverse proxy that's configured to use certificate authentication.
+You have to configure split DNS. This is a common configuration that's used to help ensure that on-premises client computers resolve a server name to internal IP addresses, even though public DNS resolution resolves the same service name to a completely different public IP address. This enables users to be redirected to an endpoint that uses standard SharePoint in Microsoft 365 security-enhanced mechanisms for authentication, but queries from Microsoft 365 can be directed through a reverse proxy that's configured to use certificate authentication.
   
 For more info about how to use split DNS in a hybrid topology, see [Architecture Design Recommendation for SharePoint 2013 Hybrid Search Features](https://go.microsoft.com/fwlink/?LinkID=392219). For information about how to configure a split DNS, see [A faulty split-brain DNS configuration can prevent a seamless SSO sign-in experience](https://support.microsoft.com/kb/2715326).
   
@@ -361,7 +361,7 @@ When you've completed the procedures in this section, you'll have two IIS websit
 > [!IMPORTANT]
 > Ensure that you perform these procedures on the specific web applications that you intend to use as the primary web application for SharePoint hybrid solutions. The URL of this web application that you have to extend is recorded in the **Primary web application URL** row of Table 5c of the worksheet. 
   
-To extend the web application, use the procedures in [Extend claims-based web applications in SharePoint](../administration/extend-a-claims-based-web-application.md). In general, you should use the default settings. But, the following configuration settings are required.
+To extend the web application, use the procedures in [Extend claims-based web applications in SharePoint in Microsoft 365](../administration/extend-a-claims-based-web-application.md). In general, you should use the default settings. But, the following configuration settings are required.
   
 **Required configuration settings**
 
@@ -379,7 +379,7 @@ To extend the web application, use the procedures in [Extend claims-based web ap
 
 If you configured the extended web application to use SSL, you'll have to ensure that an SSL certificate is bound to the web application that you extended in the previous section. Otherwise, if you configured the extended web application for **HTTP** (unencrypted), skip ahead to [Configure AAM](configure-inbound-connectivity.md#waam_configureaam).
   
-For production environments, this certificate should be issued either by a public or an enterprise certification authority (CA). For test and development environments, this can be a self-signed certificate. We call this the on-premises SharePoint SSL certificate.
+For production environments, this certificate should be issued either by a public or an enterprise certification authority (CA). For test and development environments, this can be a self-signed certificate. We call this the on-premises SharePoint in Microsoft 365 SSL certificate.
   
 > [!IMPORTANT]
 > This certificate must have the bridging host name of the URL in the **Subject** field. For example, if the bridging URL is https://bridge, the **Subject** field of the certificate must contain **bridge**. Therefore, this certificate can't be created by using IIS. But you can use a certificate creation tool such as MakeCert.exe to create it. After the certificate is bound to the web application, you can see this host name in the **Issued To** field in the **Server Certificates** dialog in Internet Information Services (IIS). 
@@ -387,7 +387,7 @@ For production environments, this certificate should be issued either by a publi
 > [!TIP]
 > This is typically a separate certificate from the one that you'll later install on the reverse proxy device. For more info about these certificates, see the [Plan SSL certificates](plan-connectivity-from-office-365-to-sharepoint-server.md#certificates) section of [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md). 
   
-For more information about how to set up SSL, see [A guide to https and Secure Sockets Layer in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=392233).
+For more info about how to set up SSL, see [A guide to https and Secure Sockets Layer in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=392233).
   
 #### Configure AAM
 <a name="waam_configureaam"> </a>
@@ -514,7 +514,7 @@ When you configure SharePoint hybrid solutions in Phase 4: Configure a hybrid so
     
 14. In the **Members** section, in the box, enter the names of the Azure AD users and groups that you want to enable to use hybrid solutions. 
     
-    The Microsoft 365 global admin can create Azure AD groups. These are domain groups, not SharePoint groups.
+    The Microsoft 365 global admin can create Azure AD groups. These are domain groups, not SharePoint in Microsoft 365 groups.
     
 |||
 |:-----|:-----|

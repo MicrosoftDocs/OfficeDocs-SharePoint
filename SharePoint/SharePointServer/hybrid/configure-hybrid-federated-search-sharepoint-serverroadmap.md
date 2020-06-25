@@ -31,8 +31,8 @@ Follow these steps in the order shown. If you already completed a step when you 
   
 |**Step**|**Description**|
 |:-----|:-----|
-|**1. [Configure Microsoft 365 for SharePoint hybrid](configure-office-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your user accounts.  <br/> |
-|**2. [Set up SharePoint services for hybrid environments](set-up-sharepoint-services-for-hybrid-environments.md)** <br/> |Configure the needed SharePoint services for hybrid search, including User Profiles, MySites, and the Application Management service.  <br/> |
+|**1. [Configure Microsoft 365 for SharePoint in Microsoft 365 hybrid](configure-office-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your user accounts.  <br/> |
+|**2. [Set up SharePoint in Microsoft 365 services for hybrid environments](set-up-sharepoint-services-for-hybrid-environments.md)** <br/> |Configure the needed SharePoint in Microsoft 365 services for hybrid search, including User Profiles, MySites, and the Application Management service.  <br/> |
 |**3. [Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365](configure-server-to-server-authentication.md)** <br/> |Configure server-to-server authentication between SharePoint Server and Microsoft 365. If you've already configured [hybrid sites features](configure-hybrid-sites-featuresroadmap.md), then server-to-server authentication has already been configured and you can skip this step.  <br/> |
 |**4. [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md)** <br/> |Configure your search service application to display search results from Microsoft 365.  <br/> |
    

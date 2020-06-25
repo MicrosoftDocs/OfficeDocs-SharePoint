@@ -20,14 +20,14 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: dc7d1bd3-8ca0-412a-b7e5-f357afa84299
-description: "Setting up cloud hybrid search for SharePoint requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution."
+description: "Setting up cloud hybrid search for SharePoint in Microsoft 365 requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution."
 ---
 
-# Plan cloud hybrid search for SharePoint
+# Plan cloud hybrid search for SharePoint in Microsoft 365
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
-Setting up [cloud hybrid search](learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution. 
+Setting up [cloud hybrid search](learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint in Microsoft 365 requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution. 
   
 ## What search experiences do your users need?
 <a name="BKMK_what_experience"> </a>
@@ -38,7 +38,7 @@ When you've set up cloud hybrid search and a full crawl of the on-premises conte
 
  **Search verticals** - Search verticals narrow search results to a specific set of content, for example to show only videos. If you currently use a search vertical in a Search Center in SharePoint Server, you have to recreate it in your Search Center in SharePoint in Microsoft 365. 
   
- **Site search** - Your **existing search** in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use Search Centers that are in the same environment as the search index, so searching from a Microsoft 365 Search Center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010, you can set up search from SharePoint Server 2013 or SharePoint Server 2016. Plan a remote result source in SharePoint Server 2013 or SharePoint Server 2016 that gets results from the Microsoft 365 search index and plan use of query federation. Because SharePoint in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
+ **Site search** - Your **existing search** in document libraries in SharePoint Server stops returning results when you move your search index to Microsoft 365. Search is fastest when users use Search Centers that are in the same environment as the search index, so searching from a Microsoft 365 Search Center gives a better experience. If your users need results from the Microsoft 365 search index in on-premises SharePoint sites, such as in existing Team Sites in SharePoint Server 2010, you can set up search from SharePoint Server 2013 or SharePoint Server 2016. Plan a remote result source in SharePoint Server 2013 or SharePoint Server 2016 that gets results from the Microsoft 365 search index and plan use of query federation. Because SharePoint in Microsoft 365 processes your queries, your users have to use the query syntax that SharePoint in Microsoft 365 supports. Learn more in [Show results from Microsoft 365 in on-premises SharePoint with cloud hybrid search](show-results-from-office-365-in-on-premises-sharepoint-with-cloud-hybrid-search.md).
   
  **eDiscovery** - You might have to set up eDiscovery separately in SharePoint Server and in SharePoint in Microsoft 365. 
   
@@ -75,7 +75,7 @@ Some of the search features you might be familiar with from SharePoint Server ar
   
 ## <a name="BKMK_Plan_search_architecture"> </a>Plan your search architecture in SharePoint Server for cloud hybrid search
 
-When you set up cloud hybrid search, one of the steps is to create a cloud Search service application (cloud SSA) on your SharePoint Server 2013 orSharePoint Server 2016 search farm. When you create this cloud SSA, a default search architecture is created for you on the server running the cloud SSA. Each search farm can have only one cloud SSA, but can have multiple SSAs in combination with the cloud SSA.
+When you set up cloud hybrid search, one of the steps is to create a cloud Search service application (cloud SSA) on your SharePoint Server 2013 or SharePoint Server 2016 search farm. When you create this cloud SSA, a default search architecture is created for you on the server running the cloud SSA. Each search farm can have only one cloud SSA, but can have multiple SSAs in combination with the cloud SSA.
   
 A search architecture for cloud hybrid search consists of search components and databases that form a topology, and servers that host that topology. You need to plan the number of crawl components for your topology, which servers to host the search components and databases on, and the hardware required for each server.
   
@@ -83,7 +83,7 @@ Before you get going, you should read [Learn about the search topology for cloud
   
 ### Step 1: How much on-premises content can I index in Microsoft 365?
 
-For each 1 TB of pooled storage space your tenant has in SharePoint, you can index 1 million items of on-premises content in the search index in Office 365. You can purchase more space to increase your quota, until it reaches the threshold of 20 million items. If you need to index more than 20 million items of on-premises content, contact [Microsoft Support](https://support.microsoft.com/assistedsupportproducts) to increase this threshold.
+For each 1 TB of pooled storage space your tenant has in SharePoint in Microsoft 365, you can index 1 million items of on-premises content in the search index in Office 365. You can purchase more space to increase your quota, until it reaches the threshold of 20 million items. If you need to index more than 20 million items of on-premises content, contact [Microsoft Support](https://support.microsoft.com/assistedsupportproducts) to increase this threshold.
   
 ### Step 2: What size cloud search architecture do I need?
 
@@ -220,7 +220,7 @@ Plan for a custom result source that limits your Search Centers in Office 365 to
 ## Related Topics
 <a name="BKMK_Plan_validation"> </a>
 
-[Learn about cloud hybrid search for SharePoint](learn-about-cloud-hybrid-search-for-sharepoint.md)
+[Learn about cloud hybrid search for SharePoint in Microsoft 365](learn-about-cloud-hybrid-search-for-SharePoint in Microsoft 365.md)
   
 [Configure cloud hybrid search - roadmap](configure-cloud-hybrid-searchroadmap.md)
   

@@ -36,8 +36,8 @@ Follow these steps in the order shown. If you already completed a step when you 
   
 |**Step**|**Description**|
 |:-----|:-----|
-|**1. [Configure Microsoft 365 for SharePoint hybrid](configure-office-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your user accounts.  <br/> |
-|**2. [Set up SharePoint services for hybrid environments](set-up-sharepoint-services-for-hybrid-environments.md)** <br/> |Configure the needed SharePoint services for hybrid search, including User Profiles, MySites, and the Application Management service.  <br/> |
+|**1. [Configure Microsoft 365 for SharePoint in Microsoft 365 hybrid](configure-office-365-for-sharepoint-hybrid.md)** <br/> |Configure your Microsoft 365 organization for a hybrid environment, including registering your domain, configuring UPN suffixes, and synchronizing your user accounts.  <br/> |
+|**2. [Set up SharePoint in Microsoft 365 services for hybrid environments](set-up-sharepoint-services-for-hybrid-environments.md)** <br/> |Configure the needed SharePoint in Microsoft 365 services for hybrid search, including User Profiles, MySites, and the Application Management service.  <br/> |
 |**3. (SharePoint Server 2013 only)[Install Service Pack 1 for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=521936)** <br/> |Be sure you've installed at least Service Pack 1 on your SharePoint Server 2013 farm or the OneDrive redirect option will not be available.  <br/> |
 |**4. [Redirect OneDrive users to Microsoft 365](configure-hybrid-onedrive-for-business.md)** <br/> |Configure hybrid OneDrive in the SharePoint Central Administration website.  <br/> |
 |**5. Quick test** <br/> | Check to make sure OneDrive is being redirected to Microsoft 365:  <br/>  Log in to a SharePoint Server as a regular user. (Be sure you're a member of the correct audience if you used audiences.)  <br/>  In the app launcher, select **OneDrive**.  <br/>  The URL in the browser address bar should change from that of your on-premises farm, to the personal site URL of SharePoint in Microsoft 365.  <br/> |
@@ -46,7 +46,7 @@ Follow these steps in the order shown. If you already completed a step when you 
 
 #### Concepts
 
-[Hardware and software requirements for SharePoint hybrid](hardware-and-software-requirements-for-sharepoint-hybrid.md)
+[Hardware and software requirements for SharePoint in Microsoft 365 hybrid](hardware-and-software-requirements-for-sharepoint-hybrid.md)
   
 [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md)
 

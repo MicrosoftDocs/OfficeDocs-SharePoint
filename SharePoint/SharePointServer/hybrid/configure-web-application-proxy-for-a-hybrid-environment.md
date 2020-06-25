@@ -54,7 +54,7 @@ This section describes how to configure the Web Application Proxy feature after 
   
 1. Web Application Proxy matches the thumbprint against the secure channel certificate, which must be imported and installed in the local computer's Personal certificate store on the Web Application Proxy server.
     
-2. Configure Web Application Proxy with a published application that can accept inbound requests from your SharePoint tenant.
+2. Configure Web Application Proxy with a published application that can accept inbound requests from your SharePoint in Microsoft 365 tenant.
     
 ### Import the Secure Channel SSL certificate
 
@@ -74,7 +74,7 @@ For information about how to import an SSL certificate, see [Import a Certificat
 > [!NOTE]
 > The steps in this section can be performed only by using Windows PowerShell. 
   
-To configure a published application to accept and relay requests from your SharePoint tenant, type the following Microsoft PowerShell command.
+To configure a published application to accept and relay requests from your SharePoint in Microsoft 365 tenant, type the following Microsoft PowerShell command.
   
 ```
 Add-WebApplicationProxyApplication -ExternalPreauthentication ClientCertificate -ExternalUrl <external URL> -BackendServerUrl <bridging URL> -name <friendly name of the published application> -ExternalCertificateThumbprint <certificate thumbprint> -ClientCertificatePreauthenticationThumbprint <certificate thumbprint> -DisableTranslateUrlInRequestHeaders:$False -DisableTranslateUrlInResponseHeaders:$False

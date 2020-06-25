@@ -49,6 +49,6 @@ If you have to create a new web application to configure for hybrid functionalit
     
     This is the best choice if you want users to go to an enterprise search portal in a new site collection to use hybrid search.
     
-Integrated Windows authentication using NTLM is required to allow the SharePoint Authentication service to pass user claims to SharePoint in Microsoft 365 using OAuth.
+Integrated Windows authentication using NTLM is required to allow the SharePoint in Microsoft 365 Authentication service to pass user claims to SharePoint in Microsoft 365 using OAuth.
   
 

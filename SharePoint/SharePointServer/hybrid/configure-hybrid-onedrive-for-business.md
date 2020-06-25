@@ -31,7 +31,7 @@ description: "Connect your on-premises SharePoint Server environment with OneDri
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
- **This article is part of a roadmap of procedures for configuring SharePoint hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
+ **This article is part of a roadmap of procedures for configuring SharePoint in Microsoft 365 hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
 You can redirect users to Microsoft OneDrive, on the navigation bar or the app launcher, when they select **OneDrive** or **Sites**. This article provides the steps to configure your on-premises environment to connect with OneDrive. You can find an overview of the process in [Plan for hybrid OneDrive](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
   
@@ -74,7 +74,7 @@ To configure hybrid OneDrive, you must be both a SharePoint Server farm administ
     
 3. Click **Go to Hybrid Picker Download Page**.
     
-4. On the SharePoint Hybrid Picker page, select **click here**.
+4. On the SharePoint in Microsoft 365 Hybrid Picker page, select **click here**.
     
 5. Accept the security prompts to install and run the wizard.
     
@@ -125,7 +125,7 @@ You can set up a search vertical so that you can search content stored in OneDri
 Now that your users are set up to be redirected to Office 365, you can customize what they see on the navigation bar there. By default, the navigation bar contains the following links: SkyDrive, Yammer or Newsfeed, and Sites. If you intend for your users to use only OneDrive, you can remove the other links. If you want to allow your users to interact with Yammer or the SharePoint Newsfeed features or to create team sites in Office 365, you can leave those links on the nav bar.
   
 > [!NOTE]
-> Turn on the appropriate navigation bar links for the set of SharePoint service features that you have purchased. For example, if you have OneDrive with Office on the web, then you would turn on only the OneDrive link, and not the Sites or Newsfeed links. OneDrive with Office on the web does not include the Sites and Newsfeed features and users would see Access Denied messages if they selected the links. You can, however, still choose to turn on Yammer as your social network and then turn on the Yammer/Newsfeed navigation link. 
+> Turn on the appropriate navigation bar links for the set of SharePoint in Microsoft 365 service features that you have purchased. For example, if you have OneDrive with Office on the web, then you would turn on only the OneDrive link, and not the Sites or Newsfeed links. OneDrive with Office on the web does not include the Sites and Newsfeed features and users would see Access Denied messages if they selected the links. You can, however, still choose to turn on Yammer as your social network and then turn on the Yammer/Newsfeed navigation link. 
   
  **To customize the navigation bar**
   

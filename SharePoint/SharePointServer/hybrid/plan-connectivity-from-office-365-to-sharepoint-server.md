@@ -50,7 +50,7 @@ This topic will help you do the following:
  **Create a build log.** As in any complex implementation project, a detailed record of every design decision, server configuration, procedure, command output, and error is a very important reference for troubleshooting, support, and awareness. We highly recommend that you thoroughly document your deployment process. 
   
 > [!CAUTION]
-> For security reasons, store the worksheet and the build log in a security-enhanced place, such as a secured file share or SharePoint document library, and grant permissions only to administrators who are involved in the deployment process and must know this information. 
+> For security reasons, store the worksheet and the build log in a security-enhanced place, such as a secured file share or SharePoint in Microsoft 365 document library, and grant permissions only to administrators who are involved in the deployment process and must know this information. 
   
 ## Collect and record URL and host name information
 <a name="collectURL"> </a>
@@ -79,7 +79,7 @@ In this section, you record information about URLs and host names in your enviro
 
 This section helps you plan the architecture of the SharePoint Server web applications that you will use in your hybrid environment.
   
-Inbound connectivity requires a secure communication channel between the on-premises SharePoint Server farm and SharePoint in Microsoft 365. Data is exchanged between a site collection in SharePoint and an on-premises web application over this communication channel.
+Inbound connectivity requires a secure communication channel between the on-premises SharePoint Server farm and SharePoint in Microsoft 365. Data is exchanged between a site collection in SharePoint in Microsoft 365 and an on-premises web application over this communication channel.
   
 SharePoint in Microsoft 365 sends requests to a reverse proxy server that relays the requests to a specific web application in the on-premises SharePoint Server farm that is configured for SharePoint hybrid. We refer to this as the primary web application.
   
@@ -94,7 +94,7 @@ A SharePoint Server web application is composed of an Internet Information Servi
   
 A web application's public URL is always used as the root URL in all links to sites and content accessed through the web application. Consider a web application with the public URL **https://spexternal.adventureworks.com** that has an internal URL **https://sharepoint** configured in AAM. When you browse to the internal URL https://sharepoint, SharePoint Server returns the website with the URL https://spexternal.adventureworks.com, and all links within the site will have URLs based on that path. 
   
-Alternate access mapping (AAM) is needed **only** when you are configuring inbound connectivity using a path-based site collection with a public URL that is different than the external URL. AAM lets you associate the external URL with the internal URL of a SharePoint site inside your organization. This enables SharePoint Server to route requests for internal URLs configured in AAM to the corresponding primary web application. 
+Alternate access mapping (AAM) is needed **only** when you are configuring inbound connectivity using a path-based site collection with a public URL that is different than the external URL. AAM lets you associate the external URL with the internal URL of a SharePoint in Microsoft 365 site inside your organization. This enables SharePoint Server to route requests for internal URLs configured in AAM to the corresponding primary web application. 
   
 For more information about claims-based web applications, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)).
   
@@ -140,7 +140,7 @@ Site collections used for hybrid functionality must meet all these requirements,
     > [!NOTE]
     > Although this is a web application requirement, it is listed here because it applies only to environments that have host-named site collections. 
   
-  - Your on-premises DNS server has to be configured with split DNS. You need to create a forward lookup zone for the Public Internet domain that you used for your public URL and an **A (host) record** in the forward lookup zone that has the IP address of the SharePoint Server server and the host name of your External URL. 
+  - Your on-premises DNS server has to be configured with split DNS. You need to create a forward lookup zone for the Public Internet domain that you used for your public URL and an **A (host) record** in the forward lookup zone that has the IP address of the SharePoint Server and the host name of your External URL. 
     
     > [!IMPORTANT]
     > The reverse proxy device must be able to resolve host names in this forward lookup zone to relay inbound requests to the SharePoint Server farm. 
@@ -149,7 +149,7 @@ Site collections used for hybrid functionality must meet all these requirements,
     
   - **If the public URL is identical to the External URL:**
     
-    Your on-premises DNS server must be configured with split DNS. You need to create a forward lookup zone for the Public Internet domain you used for your public URL and an **A record** in the forward lookup zone that has the IP address of the SharePoint Server server and the host name of your External URL. 
+    Your on-premises DNS server must be configured with split DNS. You need to create a forward lookup zone for the Public Internet domain you used for your public URL and an **A record** in the forward lookup zone that has the IP address of the SharePoint Server and the host name of your External URL. 
     
     > [!IMPORTANT]
     > The reverse proxy device must be able to resolve host names in this forward lookup zone to relay inbound requests to the SharePoint Server farm. 
@@ -160,7 +160,7 @@ Site collections used for hybrid functionality must meet all these requirements,
     
     You need to configure an alternate access mapping (AAM) to relay inbound requests from SharePoint in Microsoft 365.
     
-    Extend the primary web application and use the External URL as the **Public URL**. Then create an Internal URL (via **Add Internal URLs**) in the same security zone as the extended web application to use as a bridging URL. You will also configure the reverse proxy device to relay inbound requests from SharePoint to this bridging URL.
+    Extend the primary web application and use the External URL as the **Public URL**. Then create an Internal URL (via **Add Internal URLs**) in the same security zone as the extended web application to use as a bridging URL. You will also configure the reverse proxy device to relay inbound requests from SharePoint in Microsoft 365 to this bridging URL.
     
     Remember, alternate access mapping (AAM) is needed **only** when you are configuring inbound connectivity using a path-based site collection with a public URL that is different than the external URL. 
     

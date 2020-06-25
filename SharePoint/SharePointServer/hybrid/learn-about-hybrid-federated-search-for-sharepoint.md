@@ -22,7 +22,7 @@ ms.assetid: 27312a69-cd8d-4260-bf53-363a83e6e4ae
 description: "With the hybrid federated search solution, you use both your index in SharePoint Server and your index in Microsoft 365. Both SharePoint Server and SharePoint in Microsoft 365 Search services can query the search index in the other environment and return federated results. When users search from a Search Center, the search results come from both your search index in SharePoint Server and your search index in Office 365."
 ---
 
-# Learn about hybrid federated search for SharePoint
+# Learn about hybrid federated search for SharePoint in Microsoft 365
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
@@ -42,19 +42,19 @@ If you've synchronized Active Directory (AD) between your on-premises network (W
 
 ![Illustration shows an on-premises search center getting results from the search index in Office 365 and the search index in SharePoint Server.](../media/708141a3-4aa6-4e0d-ad12-c9ebb56cd672.png)
   
-Show search results from SharePoint in a Search Center in SharePoint Server. This is the simplest scenario to set up because an outbound connection doesn't require a reverse proxy device.
+Show search results from SharePoint in Microsoft 365 in a Search Center in SharePoint Server. This is the simplest scenario to set up because an outbound connection doesn't require a reverse proxy device.
   
-### Hybrid federated search results in SharePoint
+### Hybrid federated search results in SharePoint in Microsoft 365
 
 ![Illustration shows the Microsoft 365 search center getting results from the search index in Office 365 and the search index in SharePoint Server](../media/a51187e1-8fb9-4378-a9ee-ed5b210b2e52.png)
   
-Show search results from SharePoint Server in a Search Center in SharePoint. This scenario requires a reverse proxy device, see [Display hybrid federated search results in SharePoint](display-hybrid-federated-search-results-in-sharepoint-online.md).
+Show search results from SharePoint Server in a Search Center in SharePoint in Microsoft 365. This scenario requires a reverse proxy device, see [Display hybrid federated search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md).
   
 ### Hybrid federated search from both SharePoint Server and SharePoint in Microsoft 365
 
 ![Illustration shows the Microsoft 365 search center and a search center in SharePoint Server getting results from the search index in Office 365 and the search index in SharePoint Server](../media/0c208d87-7939-4ec3-9fc0-af2061f62b6a.png)
   
-Show search results from both environments in Search Centers both in SharePoint in Microsoft 365 and SharePoint Server. This scenario requires a reverse proxy device, see [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) and [Display hybrid federated search results in SharePoint](display-hybrid-federated-search-results-in-sharepoint-online.md).
+Show search results from both environments in Search Centers both in SharePoint in Microsoft 365 and SharePoint Server. This scenario requires a reverse proxy device, see [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) and [Display hybrid federated search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md).
   
 ## Should you set up hybrid federated search in the SharePoint Server farm, or in SharePoint in Microsoft 365?
 
@@ -73,7 +73,7 @@ Because hybrid federated search is based on federating results from the two envi
   
 ## How does hybrid federated search work?
 
-The key element of hybrid federated search is the result source. You need two results sources, one provides results from the local search index and one from the remote search index. For example, if you want to get search results from SharePoint in a Search Center in SharePoint Server, you create a result source in SharePoint Server that specifies SharePoint in Microsoft 365 as the provider of remote search results. Learn about result sources and federation in [Plan crawling and federation in SharePoint Server](../search/plan-crawling-and-federation.md) and in [Understanding result sources for search in SharePoint Server](../search/understanding-result-sources-for-search.md). [Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md).
+The key element of hybrid federated search is the result source. You need two results sources, one provides results from the local search index and one from the remote search index. For example, if you want to get search results from SharePoint in Microsoft 365 in a Search Center in SharePoint Server, you create a result source in SharePoint Server that specifies SharePoint in Microsoft 365 as the provider of remote search results. Learn about result sources and federation in [Plan crawling and federation in SharePoint Server](../search/plan-crawling-and-federation.md) and in [Understanding result sources for search in SharePoint Server](../search/understanding-result-sources-for-search.md). [Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap](configure-hybrid-federated-search-sharepoint-serverroadmap.md).
   
 ## See also
 
@@ -86,5 +86,5 @@ The key element of hybrid federated search is the result source. You need two re
 [Configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server - roadmap](configure-hybrid-federated-search-sharepoint-onlineroadmap.md)
 #### Other Resources
 
-[Hybrid search in SharePoint](hybrid-search-in-sharepoint.md)
+[Hybrid search in SharePoint in Microsoft 365](hybrid-search-in-sharepoint.md)
 

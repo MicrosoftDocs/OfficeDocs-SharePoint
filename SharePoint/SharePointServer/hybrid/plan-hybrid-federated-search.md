@@ -34,7 +34,7 @@ You can set up SharePoint hybrid federated search so that it works in either or 
   
 - User searches from the SharePoint Server Search Center display hybrid results. This is called outbound hybrid search. For information about how to set up outbound hybrid search, see [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md)
     
-- User searches from the SharePoint Search Center display hybrid results. This is called inbound hybrid search. For information about how to set up inbound hybrid search, see [Display hybrid federated search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md)
+- User searches from the SharePoint in Microsoft 365 Search Center display hybrid results. This is called inbound hybrid search. For information about how to set up inbound hybrid search, see [Display hybrid federated search results in SharePoint in Microsoft 365](display-hybrid-federated-search-results-in-sharepoint-online.md)
     
 You can set up either search option first, and then optionally also set up the other one at any time.
   

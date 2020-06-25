@@ -87,24 +87,24 @@ The BCS hybrid scenario supports connecting only to an OData source. If your ext
   
 To create and configure the OData service endpoint, perform the procedures in [How to: Create an OData data service that sends notifications to BCS in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=290977) in the MSDN Library. You will need the **ODataAccount** account to secure the service endpoint in Internet Information Services (IIS) 7.0. 
   
-## Prepare the SharePoint site and App Catalog
+## Prepare the SharePoint in Microsoft 365 site and App Catalog
 
-The BCS hybrid scenario publishes on-premises data to select users of SharePoint. You can present the data either through a SharePoint external list or through an app for SharePoint. In either case, you must identify or create a site in SharePoint through which the data will be offered. If you choose to use an app for SharePoint, you must also have a SharePointApp Catalog configured.
+The BCS hybrid scenario publishes on-premises data to select users of SharePoint in Microsoft 365. You can present the data either through a SharePoint in Microsoft 365 external list or through an app for SharePoint in Microsoft 365. In either case, you must identify or create a site in SharePoint in Microsoft 365 through which the data will be offered. If you choose to use an app for SharePoint in Microsoft 365, you must also have a SharePoint in Microsoft 365 App Catalog configured.
   
- **To prepare the SharePoint site and App Catalog**
+ **To prepare the SharePoint in Microsoft 365 site and App Catalog**
   
-1. Identify or [create a site](https://go.microsoft.com/fwlink/?LinkId=288864) in SharePoint for your external list or app for SharePoint. Ensure that all the federated users who will be using the BCS hybrid solution are added to the **Members** group for access to the site. (The easiest way to do this is to add your ODataGroup as a Member.) 
+1. Identify or [create a site](https://go.microsoft.com/fwlink/?LinkId=288864) in SharePoint in Microsoft 365 for your external list or app for SharePoint in Microsoft 365. Ensure that all the federated users who will be using the BCS hybrid solution are added to the **Members** group for access to the site. (The easiest way to do this is to add your ODataGroup as a Member.) 
     
-2. If you're going to be using a app for SharePoint, you must [enable the App Catalog](https://go.microsoft.com/fwlink/?LinkId=288886). 
+2. If you're going to be using a app for SharePoint in Microsoft 365, you must [enable the App Catalog](https://go.microsoft.com/fwlink/?LinkId=288886). 
     
     > [!NOTE]
-    > This scenario shows you how to directly deploy your app for SharePoint into the site you have prepared. It is also possible to deploy your app for SharePoint into the App Catalog. 
+    > This scenario shows you how to directly deploy your app for SharePoint in Microsoft 365 into the site you have prepared. It is also possible to deploy your app for SharePoint in Microsoft 365 into the App Catalog. 
   
-## Set permissions on the BDC Metadata Store in SharePoint
+## Set permissions on the BDC Metadata Store in SharePoint in Microsoft 365
 
-The Business Data Connectivity service (BDC) Metadata Store holds external content types, external systems, and BDC model definitions for the BDC Service Application. In this procedure, you configure administrative permissions on the Metadata Store and everything that it will contain. Later in this scenario, if you are using the manual import of the external content type method, you will be using the BDC Metadata Store. This external content type will be available across SharePoint. If you will only be using the automated deployment of an app for SharePoint, then you will not use the BDC Metadata Store, and the external content type is scoped to the app only.
+The Business Data Connectivity service (BDC) Metadata Store holds external content types, external systems, and BDC model definitions for the BDC Service Application. In this procedure, you configure administrative permissions on the Metadata Store and everything that it will contain. Later in this scenario, if you are using the manual import of the external content type method, you will be using the BDC Metadata Store. This external content type will be available across SharePoint in Microsoft 365. If you will only be using the automated deployment of an app for SharePoint in Microsoft 365, then you will not use the BDC Metadata Store, and the external content type is scoped to the app only.
   
- **To set permissions on the BDC Metadata Store in SharePoint**
+ **To set permissions on the BDC Metadata Store in SharePoint in Microsoft 365**
   
 1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
 
@@ -112,7 +112,7 @@ The Business Data Connectivity service (BDC) Metadata Store holds external conte
     
 3. Select **Manage BDC Models and External Content Types**.
     
-4. Select **Set Metadata Store Permissions**, and add **All Authenticated Users** with at least **Execute** permissions. This will allow all users who authenticate to your SharePoint tenancy to use the external content types stored in the Metadata Store. 
+4. Select **Set Metadata Store Permissions**, and add **All Authenticated Users** with at least **Execute** permissions. This will allow all users who authenticate to your SharePoint in Microsoft 365 tenancy to use the external content types stored in the Metadata Store. 
     
 5. Select the **Propagate permissions to all BCS Models, External Systems and External Content Types in the BDC Metadata Store. Doing so will overwrite existing permissions** check box. 
     
@@ -120,7 +120,7 @@ The Business Data Connectivity service (BDC) Metadata Store holds external conte
     
 ## Validate external access to reverse proxy published URL
 
-At this point in deploying the BCS hybrid scenario, you should confirm that you can access your on-premises SharePoint Server farm that has been configured to receive hybrid calls from SharePoint. This site was already configured in the [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md) procedures. Its URL is the one you published through your reverse proxy. 
+At this point in deploying the BCS hybrid scenario, you should confirm that you can access your on-premises SharePoint Server farm that has been configured to receive hybrid calls from SharePoint in Microsoft 365. This site was already configured in the [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md) procedures. Its URL is the one you published through your reverse proxy. 
   
 Before you begin this procedure, make sure you have the following:
   
@@ -128,7 +128,7 @@ Before you begin this procedure, make sure you have the following:
     
 - A computer to browse from that is in the extranet. For example, use a computer that is not on your corporate network and is not a member of your corporate domain.
     
-- The Secure Channel certificate that is stored in the SharePointSecure Store Service target application. This target application was configured in the [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md) procedures. In the example it was named **SecureChannelTargetApp**. You will need the password for the certificate as well.
+- The Secure Channel certificate that is stored in the SharePoint in Microsoft 365 Secure Store Service target application. This target application was configured in the [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md) procedures. In the example it was named **SecureChannelTargetApp**. You will need the password for the certificate as well.
     
 - The credentials of a federated account.
     
@@ -142,7 +142,7 @@ Before you begin this procedure, make sure you have the following:
     
 ## Create and configure the connection settings object
 
-Unlike BCS in SharePoint Server, BCS in SharePoint requires that you configure a connection settings object, which contains additional information to establish the connection to the external system and the OData source.
+Unlike BCS in SharePoint Server, BCS in SharePoint in Microsoft 365 requires that you configure a connection settings object, which contains additional information to establish the connection to the external system and the OData source.
   
 Before you begin this procedure, make sure you have the following:
   
@@ -183,9 +183,9 @@ Before you begin this procedure, make sure you have the following:
     
 ## Create and configure the external content type
 
-In every BCS solution, the external content type defines the external data to SharePoint Server. It includes descriptions of how the data is structured, how it is secured, the specific portions of the external data that you want to interact with, and the permitted operations. When an external list or app for SharePoint or business data Web Part makes a request for external data, the Business Data Connectivity service refers to the external content type for the list or app or Web Part to understand how to communicate with the external data source. 
+In every BCS solution, the external content type defines the external data to SharePoint Server. It includes descriptions of how the data is structured, how it is secured, the specific portions of the external data that you want to interact with, and the permitted operations. When an external list or app for SharePoint in Microsoft 365 or business data Web Part makes a request for external data, the Business Data Connectivity service refers to the external content type for the list or app or Web Part to understand how to communicate with the external data source. 
   
-In the BCS hybrid scenario, only OData sources are supported and the preferred way to make an external content type for an OData source is to use Visual Studio 2012. Visual Studio 2012 simplifies the external content type creation process by directly connecting to the OData source, reading it, and building the external content type XML for you. Once created, you have to make some minor changes to the XML, such as inserting which connection settings object to use and removing some of the boilerplate code, before you can deploy it to SharePoint for use in the BCS hybrid scenario.
+In the BCS hybrid scenario, only OData sources are supported and the preferred way to make an external content type for an OData source is to use Visual Studio 2012. Visual Studio 2012 simplifies the external content type creation process by directly connecting to the OData source, reading it, and building the external content type XML for you. Once created, you have to make some minor changes to the XML, such as inserting which connection settings object to use and removing some of the boilerplate code, before you can deploy it to SharePoint in Microsoft 365 for use in the BCS hybrid scenario.
   
 Before you begin, make sure you have the following:
   
@@ -203,7 +203,7 @@ When you are done creating the external content type, [deploy the hybrid scenari
 
 #### Concepts
 
-[Deploy a Business Connectivity Services hybrid solution in SharePoint](deploy-a-business-connectivity-services-hybrid-solution.md)
+[Deploy a Business Connectivity Services hybrid solution in SharePoint in Microsoft 365](deploy-a-business-connectivity-services-hybrid-solution.md)
   
 [Overview of Business Connectivity Services security tasks in SharePoint Server](../administration/security-tasks-overview.md)
 

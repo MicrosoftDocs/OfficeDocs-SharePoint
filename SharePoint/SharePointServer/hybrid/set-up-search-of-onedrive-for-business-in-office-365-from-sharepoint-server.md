@@ -112,9 +112,9 @@ A result source can be created at the Search service application level, the site
     
 3. In the **Protocol** section, select **Remote SharePoint**.
     
-4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint that you want to get search results from. 
+4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint in Microsoft 365 that you want to get search results from. 
     
-    The address of the root site collection in SharePoint is typically of the form https:// _tenant_name_.sharepoint.com, where  _tenant_name_ is the name of the Microsoft 365 organization. 
+    The address of the root site collection in SharePoint in Microsoft 365 is typically of the form https:// _tenant_name_.sharepoint.com, where  _tenant_name_ is the name of the Microsoft 365 organization. 
     
 5. In the **Type** section, select **SharePoint Search Results**.
     
@@ -312,9 +312,9 @@ In this procedure, you create the link in the SharePoint Server enterprise Searc
     
 4. (Optional) In the **Description** box, enter a description for the new link. 
     
-5. (Optional) In the **Audience** box, enter the name of a global audience, a SharePoint group, a distribution group, or a security group to which access to the new search-results page will be limited. 
+5. (Optional) In the **Audience** box, enter the name of a global audience, a SharePoint in Microsoft 365 group, a distribution group, or a security group to which access to the new search-results page will be limited. 
     
-    **All Site users** is the default value if you do not enter anything in the **Audience** box. The value **All site users** allows access to all users who can access the Search Center site. For more info, see "To grant access to the SharePoint Search Center" in [Create a Search Center site in SharePoint Server](../search/create-a-search-center-site.md).
+    **All Site users** is the default value if you do not enter anything in the **Audience** box. The value **All site users** allows access to all users who can access the Search Center site. For more info, see "To grant access to the SharePoint in Microsoft 365 Search Center" in [Create a Search Center site in SharePoint Server](../search/create-a-search-center-site.md).
     
 6. If you entered a value in the **Audience** box, then next to that box, select the **Check Names** icon to make sure that SharePoint Server recognizes the audience that you typed. 
     
@@ -375,7 +375,7 @@ To validate your configuration for displaying search results from OneDrive, you 
     
 2. Correct any errors or omissions, and try a search again.
     
-3. If you still do not see search results from OneDrive, check the SharePoint Unified Logging Service (ULS) logs, also called SharePoint trace logs.
+3. If you still do not see search results from OneDrive, check the SharePoint in Microsoft 365 Unified Logging Service (ULS) logs, also called SharePoint in Microsoft 365 trace logs.
     
     For more info, see [Overview of Unified Logging System (ULS) Logging](https://go.microsoft.com/fwlink/p/?LinkId=393137).
     

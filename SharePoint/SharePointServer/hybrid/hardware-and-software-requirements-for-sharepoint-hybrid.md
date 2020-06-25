@@ -52,7 +52,7 @@ The following hybrid solutions require inbound connectivity from Microsoft 365 t
     
 - Hybrid Business Connectivity Services
     
-- Hybrid Duet Enterprise Online for Microsoft SharePoint and SAP
+- Hybrid Duet Enterprise Online for Microsoft SharePoint in Microsoft 365 and SAP
     
 For each of these hybrid solutions, the requirements in the following sections apply.
   

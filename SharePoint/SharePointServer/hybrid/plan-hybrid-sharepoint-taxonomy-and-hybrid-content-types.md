@@ -20,10 +20,10 @@ ms.collection:
 - SPO_Content
 ms.custom: 
 ms.assetid: f14dddb4-ee1a-4471-95bc-2ce41613442a
-description: "SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint. This gives you a single, consistent taxonomy no matter where your sites are located."
+description: "SharePoint hybrid taxonomy enables you to have a single taxonomy that spans SharePoint Server and SharePoint in Microsoft 365. This gives you a single, consistent taxonomy no matter where your sites are located."
 ---
 
-# Plan hybrid SharePoint taxonomy and hybrid content types
+# Plan hybrid SharePoint in Microsoft 365 taxonomy and hybrid content types
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
 
@@ -40,7 +40,7 @@ You also have the option of installing hybrid content types. This feature propag
   
 ## Prerequisites
 
-Hybrid SharePoint taxonomy and hybrid content types are available in SharePoint Server 2013 and SharePoint Server 2016 with the following [SharePoint updates](/officeupdates/sharepoint-updates):
+Hybrid SharePoint taxonomy and hybrid content types are available in SharePoint Server 2013 and SharePoint Server 2016 with the following [SharePoint updates](/officeupdates/SharePoint in Microsoft 365-updates):
   
 - Hybrid taxonomy requires the November 2016 public update or later.
     

@@ -44,7 +44,7 @@ With an inbound search solution, only the SharePoint in Microsoft 365 site has s
 
 ![A graphic of an inbound proxy.](../media/Inbound.gif)
   
-In the example below, a federated user on the Internet uses the SharePoint in Microsoft 365 search portal to search for content in both SharePoint in Microsoft 365 and her company's on-premises SharePoint Server server.
+In the example below, a federated user on the Internet uses the SharePoint in Microsoft 365 search portal to search for content in both SharePoint in Microsoft 365 and her company's on-premises SharePoint server.
   
 **A federated user on the Internet searches for content that's located on her company's on-premises server.**
 
@@ -54,7 +54,7 @@ The following list describes the steps shown in the preceding picture.
   
 1. From the Internet, a federated user browses to her SharePoint in Microsoft 365 site.
     
-2. SharePoint in Microsoft 365 queries the search index in SharePoint in Microsoft 365 and also sends the search query to the external URL of the on-premises SharePoint farm which resolves to the external endpoint of the reverse proxy device.
+2. SharePoint in Microsoft 365 queries the search index in SharePoint in Microsoft 365, and also sends the search query to the external URL of the on-premises SharePoint farm which resolves to the external endpoint of the reverse proxy device.
     
 3. The reverse proxy device pre-authenticates the request using the Secure Channel SSL certificate and relays the request to the URL of the primary web application.
     
@@ -92,7 +92,7 @@ The table below lists the currently supported reverse proxy devices for SharePoi
   
 |**Supported reverse proxy devices**|**Configuration article**|**Additional information**|
 |:-----|:-----|:-----|
-|Azure Application Proxy|[Enable remote access to SharePoint with Azure AD Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-sharepoint-server)|Azure Application Proxy is an Azure service that allows remote access to services within your network without opening firewall ports from the Internet to your service.|
+|Azure Application Proxy|[Enable remote access to SharePoint in Microsoft 365 with Azure AD Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-sharepoint-server)|Azure Application Proxy is an Azure service that allows remote access to services within your network without opening firewall ports from the Internet to your service.|
 |Windows Server 2012 R2 with Web Application Proxy (WA-P)  <br/> |[Configure Web Application Proxy for a hybrid environment](configure-web-application-proxy-for-a-hybrid-environment.md) <br/> |Web Application Proxy (WA-P) is a Remote Access service in Windows Server 2012 R2 that publishes web applications that users can interact with from many devices.  <br/> > [!IMPORTANT]> To use Web Application Proxy as a reverse proxy device in a hybrid SharePoint Server environment, you must also deploy AD FS in Windows Server 2012 R2.           |
 |Forefront Threat Management Gateway (TMG) 2010  <br/> |[Configure Forefront TMG for a hybrid environment](configure-forefront-tmg-for-a-hybrid-environment.md) <br/> |Forefront TMG 2010 is a comprehensive, secure, web gateway solution that provides secure reverse proxy functionality.  <br/> > [!NOTE]> Forefront TMG 2010 is no longer sold by Microsoft but will be supported through 4/14/2020. For more information, see [Microsoft Support Lifecycle information for TMG 2010](https://support.microsoft.com/lifecycle/default.aspx?LN=en-us&amp;p1=14873&amp;x=13&amp;y=9).           |
 |F5 BIG-IP  <br/> |[Enabling SharePoint 2013 Hybrid Search with the BIG-IP](https://devcentral.f5.com/articles/enabling-sharepoint-2013-hybrid-search-with-the-big-ip) <br/> |External content managed by F5 Networks.  <br/> |

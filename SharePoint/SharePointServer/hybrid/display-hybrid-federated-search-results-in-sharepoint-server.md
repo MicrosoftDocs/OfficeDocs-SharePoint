@@ -85,7 +85,7 @@ For more info about result sources, see the following resources:
     
   - In the **Type** section, select **SharePoint Search Results**.
     
-  - In the **Query Transform** section, you can use the query transform to narrow the search results to a specified subset (for example, a subset that is from a particular SharePoint site collection or site). However, if you are **not** familiar with query transforms in SharePoint Server, we recommend that you **keep** the default query transform here. The default transform is **{searchTerms}**, which is a query variable that stands for the query that the user entered, as it was changed by the most recent query transform. If you are familiar with query transforms, either keep the default query transform, or enter a different query transform in the text box. If you want to use Query Builder to help you configure a different query transform, select **Launch Query Builder**. For more info about query building, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Query variables in SharePoint Server](../technical-reference/query-variables.md).
+  - In the **Query Transform** section, you can use the query transform to narrow the search results to a specified subset (for example, a subset that is from a particular SharePoint in Microsoft 365 site collection or site). However, if you are **not** familiar with query transforms in SharePoint Server, we recommend that you **keep** the default query transform here. The default transform is **{searchTerms}**, which is a query variable that stands for the query that the user entered, as it was changed by the most recent query transform. If you are familiar with query transforms, either keep the default query transform, or enter a different query transform in the text box. If you want to use Query Builder to help you configure a different query transform, select **Launch Query Builder**. For more info about query building, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Query variables in SharePoint Server](../technical-reference/query-variables.md).
     
      ![Query Transform and Credentials Information sections on New Result Source page in SP15](../media/ResultSourceInSP15_QueryTransform.gif)
   
@@ -214,7 +214,7 @@ To validate your configuration for displaying search results from both SharePoin
     
     - Correct any errors or omissions, and try a search again.
     
-6. If you still do not see search results from both search indexes, check the SharePoint Unified Logging Service (ULS) logs, also called the SharePoint trace logs.
+6. If you still do not see search results from both search indexes, check the SharePoint Unified Logging Service (ULS) logs, also called the SharePoint in Microsoft 365 trace logs.
     
     For more info, see [Overview of Unified Logging System (ULS) Logging](https://go.microsoft.com/fwlink/p/?LinkId=393137).
     

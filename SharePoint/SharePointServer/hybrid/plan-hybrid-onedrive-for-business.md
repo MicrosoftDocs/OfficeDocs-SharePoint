@@ -47,7 +47,7 @@ As an IT pro, you can:
     
 - Add storage for your users in the cloud in 25-100 gigabytes (GB) increments, as needed.
     
-- Continue to provide SharePoint features as usual in your on-premises farm.
+- Continue to provide SharePoint in Microsoft 365 features as usual in your on-premises farm.
     
  **Things to keep in mind**
   

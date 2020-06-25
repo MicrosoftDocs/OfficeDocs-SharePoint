@@ -30,7 +30,7 @@ SharePoint Server offers a variety of hybrid scenarios to help connect you on-pr
   
 Keep in mind that these are minimum updates. Later PUs are fine, and we always recommend that you keep your farm updated with the latest Public Update.
   
-Links to all the available Public Updates can be found at [SharePoint Updates](/officeupdates/sharepoint-updates).
+Links to all the available Public Updates can be found at [SharePoint in Microsoft 365 Updates](/officeupdates/sharepoint-updates).
   
 > [!NOTE]
 > [Hybrid extranet B2B collaboration sites](/sharepoint/create-b2b-extranet) have no on-premises components and thus have no PU requirements. 

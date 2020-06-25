@@ -63,7 +63,7 @@ Use the Hybrid Picker to either configure, or assist with the configuration of, 
 
 The Hybrid picker helps with or completes the setup of these hybrid features:
 
-- **[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md)** - Choosing this option will redirect on-premises My Sites/OneDrive sites to SharePoint and OneDrive. After the wizard completes, any click of the OneDrive link from on-premises redirects to OneDrive in the cloud. Your redirection is complete and users can begin to migrate any files to their online OneDrive. This option also sets up hybrid user profiles. When users click to view a profile, they will be redirected to the profile in Microsoft 365. 
+- **[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md)** - Choosing this option will redirect on-premises My Sites/OneDrive sites to SharePoint in Microsoft 365 and OneDrive. After the wizard completes, any click of the OneDrive link from on-premises redirects to OneDrive in the cloud. Your redirection is complete and users can begin to migrate any files to their online OneDrive. This option also sets up hybrid user profiles. When users click to view a profile, they will be redirected to the profile in Microsoft 365. 
 
 - **[Hybrid Sites Features](sharepoint-hybrid-sites-and-search.md)** - Choosing this option sets up hybrid sites features, a suite of site integration features, as well as OneDrive redirection. Selecting this option configures hybrid OneDrive and hybrid user profiles, hybrid site following, and the hybrid app launcher. 
 
@@ -73,7 +73,7 @@ The Hybrid picker helps with or completes the setup of these hybrid features:
 
 - **[Hybrid Taxonomy](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md)** - This feature allows a centralized taxonomy that's readable and writable in the Microsoft 365 Cloud, to be used as a read-only copy on-premises. This feature includes Hybrid Content type (June 2017 PU required) which will replicate the published content types in Microsoft 365 to on-premises. Choosing this option sets up OneDrive and user profile redirection, sites features, and hybrid app launcher. 
 
-- **[Hybrid self-service site creation](hybrid-self-service-site-creation.md)** - This feature redirects the default self-service site creation page in SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 (/_layouts/15/scsignup.aspx) to the SharePoint Group Creation page. This setting can be configured independently for each web application in your farm. It helps your users create their sites in SharePoint in Microsoft 365 instead of SharePoint Server. 
+- **[Hybrid self-service site creation](hybrid-self-service-site-creation.md)** - This feature redirects the default self-service site creation page in SharePoint Server 2013, SharePoint Server 2016, or SharePoint Server 2019 (/_layouts/15/scsignup.aspx) to the SharePoint in Microsoft 365 Group Creation page. This setting can be configured independently for each web application in your farm. It helps your users create their sites in SharePoint in Microsoft 365 instead of SharePoint Server. 
 
 - **[Cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)** - Choosing this option creates a cloud Search service application in SharePoint Server and connects the cloud Search service application to your Microsoft 365 organization. This is one of the steps needed to set up cloud hybrid search, you must do the rest of the steps yourself (see the [roadmap](configure-cloud-hybrid-searchroadmap.md)). This option doesn't include set-up of other hybrid features.
 
@@ -118,7 +118,7 @@ The results of this testing can be viewed as a report if any prerequisite isn't 
 
 ## Authentication realm update
 
-As part of hybrid configuration, the hybrid picker updates the on-premises farm's authentication realm to match the Microsoft 365 organization context ID. After the authentication realm is changed, existing SharePoint add-ins fail to authenticate. The hybrid picker will attempt to fix this issue automatically. If the hybrid picker is not able to fix this issue or if you choose to fix it manually, follow the steps in [Fix the HTTP 401 error with provider-hosted add-ins and issues with workflow and cross farm trust scenarios in SharePoint](https://support.microsoft.com/help/4010011).
+As part of hybrid configuration, the hybrid picker updates the on-premises farm's authentication realm to match the Microsoft 365 organization context ID. After the authentication realm is changed, existing SharePoint in Microsoft 365 add-ins fail to authenticate. The hybrid picker will attempt to fix this issue automatically. If the hybrid picker is not able to fix this issue or if you choose to fix it manually, follow the steps in [Fix the HTTP 401 error with provider-hosted add-ins and issues with workflow and cross farm trust scenarios in SharePoint in Microsoft 365](https://support.microsoft.com/help/4010011).
 
 ## See also
 
