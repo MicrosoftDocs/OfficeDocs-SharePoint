@@ -90,7 +90,7 @@ The provisioning service requires these permissions to create the tenant app cat
 
 ### Add owners to the site
 As the Tenant Admin, it's unlikely you'll be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
-1.	From the SharePoint Settings menu, select Site Permissions.
+1.	From the SharePoint **Settings** menu, select **Site Permissions**.
 2.	Select **Advanced Permission Settings**.
 3.	Select **Microsoft 365 learning pathways Owners**.
 4.	Select **New > Add Users to this group**, and then add the people you want to be site owners.
@@ -138,7 +138,7 @@ This is where new hire starts their onboarding journey. This site is for new hir
 - **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
 
 > [!IMPORTANT]
-> Connect social media accounts to links in the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820)
+> Connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820)
 
 - **Welcome** – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
 - **Contoso 101** – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
@@ -227,3 +227,112 @@ Consider associating the your existing departmental onboarding sites to your new
 - How to use [web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0)
 - Use the [Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909)
 - Use the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165)
+
+
+
+## Step 4: Share the NEO sites with end users
+
+After customizing content, get ready to share the new onboarding experience with new hires. Different permissions will apply to the pre-onboarding site since users will be external guests. Once new hires start working, use internal permissions sharing instructions to give access to the corporate onboarding site. 
+
+### Pre-onboarding site: External guest access 
+
+> [!NOTE]
+> If you are unable to add visitors to the pre-boarding site, work with your SharePoint administrator to [configure guest settings](https://docs.microsoft.com/sharepoint/change-external-sharing-site). 
+
+
+<<<<<<<Need to validate guidance here>>>>>>>>>
+
+
+### Corporate new hire site and departmental sites
+
+1.	Select **Share site** from the right-hand corner
+2.	In the **Share site** pane, enter the names of people or groups to add them to the site, or enter "Everyone except external users" to share the site with everyone in your organization.  
+3.	Change the permission level (Read, Edit, or Full control) as needed.
+4.	Enter an optional message to send to the person or clear the Send email box if you don't want to send an email.
+5.	Select **Share**.
+
+
+
+
+## Step 5: Measure the impact of your New Employee Onboarding hub 
+
+As a SharePoint site owner, you can view site usage data that shows you how users are interacting with your site. For example, you can see the number of people who have visited the site, how many times people have visited the site, and a list of files that have received the most views. Site owners should utilize SharePoint’s built-in site usage reporting capabilities to measure the impact of the NEO hub. [Learn how to view usage analytics for your site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
+
+Example of site usage data:
+
+![Image of SharePoint site analytics data](media/neositeusagereport.png)
+
+
+Define site success metrics to measure and optimize your organization’s onboarding process. The following is an example of possible metrics for a new employee onboarding hub:
+
+| Objective      | Business owner   | KPI measure | Data source   | KPI formula    | KPI baseline    | KPI target   |
+| :------------------- | :------------------- |:----------------|:------------------- | :------------------- |:----------------| :----------------|
+| Help onboard new employees more effectively   | Diego Siciliani   | New employee satisfaction  |  Survey data  |  Average score of new employee satisfaction with NEO Hub   |  N/A   | 4.25  
+| Help onboard new employees more effectively   | Diego Siciliani   | NEO hub usage  |  Site usage report  |  Number of unique viewers and visits   |  N/A   | 500 unique viewers/month and 1,500 views/month
+| Increase new employee retention  | Alexandre Levesque  | New employee retention  |  HR system retention data  |  % of new employee cohort that remain with the company after one year   |  75%   | 90%
+| Improve new employee engagement  | Diego Siciliani    | New employee engagement score |  Survey data  |  Average score of new employee engagement question  |  3.75   | 4.25
+
+
+
+### Managing and maintaining your NEO hub
+
+The NEO Hub should present the most up to date content your organization has to offer, so you’ll need to commit to maintaining relevant content throughout the experience. Develop a plan to audit content and refresh web parts as needed to ensure contact information, FAQs, the onboarding checklist, and People web parts are up tp date. Learn more about [managing communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
+
+- Train site owners and authors. Make sure all site owners and authors have appropriate training to maintain the site. Link to docs
+- Update content in web parts. Keep web parts like the People web part updated to ensure you are leveraging the full value of the NEO Hub.
+- Review previously established metrics after the launch. Use insights from [site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to promote content on the home page, update navigation, or re-write content for clarity.
+- Establish a schedule to audit content. Plan when site owners should audit content in advance to make sure your sites are always up to date.
+- Periodically review your site settings. Make [changes to the settings](https://support.microsoft.com/office/manage-your-sharepoint-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42?ui=en-us&rs=en-us&ad=us), site information, and permissions for the site as needed.
+
+
+## NEO hub FAQs
+
+**Question**: What are the requirements for installing the New Employee Onboarding (NEO) Hub into my tenant environment?
+**Answer**:
+- SharePoint Online and Communication Sites enabled.
+- The individual that will be provisioning CLO365 must be the tenant administrator of the target tenant for install.
+- The individual that will be provisioning CLO365 must be a site collection administrator of the app catalog in the target tenant for install.
+
+**Question**: How long will it take to install the site in our tenant environment?
+**Answer**: Based on our testing of the installation, it should take less than 15 minutes. This does not include time required to customize the site to your requirements.
+
+**Question**: Can I invite external guests to the Pre-Onboarding New Hire site that don’t have a Microsoft Outlook or current Office 365 account? 
+**Answer**: TBD
+
+**Question**: Is Microsoft 365 learning pathways an open source solution and what are the implications?
+**Answer**: [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an Open Source Software (OSS) solution and as such carries a set of benefits and considerations germane to OSS:
+*Benefits*
+- **Microsoft 365 learning pathways is a free solution**: Customers can install the solution in their tenant, customize it and make it available to end users
+- **OSS enables rapid development and collaboration**: All open source solutions are available to a broad community of contributors. Microsoft is committed to this method of driving innovation. To ensure we are delivering an experience that benefits the widest set of our customers our core service management team will reserve the right to determine what contributions are merged into our official build.
+- **OSS enables collaboration with partners**: Microsoft is working with several learning partners to support their efforts for future extensions and contributions to Microsoft 365 learning pathways. We will provide more information as these plans become finalized.
+Implications
+- **OSS is not a commercially available product**: Commercial products include updating and patching and are included in fee-based support contracts. While Microsoft currently offers documentation, updating and patching for Microsoft 365 learning pathways it is based on our commitment to improving this particular business scenario. Our plans are to continue investing in learning pathways, but customers should be aware that our service management team may change strategies in the future. Any future changes to Microsoft 365 learning pathways will be communicated in advance of taking effect.
+- **As OSS, Microsoft 365 learning pathways is supported through an online issues list on GitHub**: Microsoft 365 learning pathways is not covered by any existing Microsoft support contract. Submitted issues are triaged by Microsoft 365 learning pathways service owners and the community. Issue resolution service levels are NOT at the same level as a paid Microsoft support contract.
+
+
+### Feedback 
+Share your feedback with us. Our solution is only a success if it is enabling your business to achieve more. Please help us to make it better by giving us regular feedback through UserVoice. We regularly review comments and questions.
+
+
+
+
+
+**Sources**:
+
+  Gallup, State of the American Workplace, 2017
+  SHRM, Don't Underestimate the Importance of Good Onboarding, 2017
+  Source: Digitate, Super CIO: What the CIO sees—that other people don’t, 2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
