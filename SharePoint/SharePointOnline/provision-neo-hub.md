@@ -69,9 +69,9 @@ To deliver a consistent and integrated new hire onboarding experience the Micros
 
 ## Step 1: Provision NEO hub
 The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, an Office 365 Tenant Administrator can start the provisioning process with a few simple clicks. It is fast, easy, and takes only a few minutes to start the process. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
-Prerequisites
-To successfully set up the NEO hub via the SharePoint look book, the person doing the provisioning must meet the following pre-requisites:
-•	The person provisioning the NEO hub must be a Tenant Administrator of the tenant where the NEO hub will be provisioned.
+
+### Prerequisites
+To successfully set up the NEO hub via the SharePoint look book, the person doing the provisioning must be a Tenant Administrator of the tenant where the NEO hub will be provisioned.
 
 
 ### Provision the NEO hub
@@ -98,7 +98,7 @@ As the Tenant Admin, it's unlikely you'll be the person customizing the sites, s
 
 
 
-## Steps 2: Customize the onboarding experience 
+## Step 2: Customize the onboarding experience 
 The New Employee Onboarding (NEO) hub consists of three SharePoint site templates that can be customized to fit the needs of your users and organization. Many of the core pages are already built and pre-populated with content. Review content on sites and pages, then plan on customizing content, images, branding, web parts, and pages.
 
 It’s important to make sure the right content is available to users at the right time. It’s also important to make new employees feel welcome before their first day. Organizations with a standardized onboarding process report 50% greater new-hire productivity.    Alternatively, employees who have a negative onboarding experience are twice as likely to look for new opportunities shortly after starting a new job.    
@@ -114,14 +114,18 @@ Before you customize content in the NEO experience, ensure you understand the ne
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
 
 > [!NOTE]
-> The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites.
+> The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites. [Learn more about hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
 
 
 3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department. Consider associating departmental onboarding sites with existing department portals if you have them.
 
 
 ### Get started - Sign into your Microsoft 365 account 
-Note: You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
+
+> [!NOTE]
+> You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
+
+
 1.	Open your web browser and navigate to [office.com](office.com) or your organization’s sign-in location
 2.	Sign in with your username and password
 3.	Navigate to the location of the site using the URL supplied by your tenant administrator, or select SharePoint from the Microsoft 365 home page, and then select the site
@@ -131,6 +135,9 @@ Note: You need to be a site owner to customize and share the NEO sites. Work wit
 ### Explore and review pre-populated content
 #### Pre-Onboarding site:
 This is where new hire starts their onboarding journey. This site is for new hires who have accepted their job offer but have not officially joined the company yet. In this stage, new hires will be interested in learning more about the company, how to get ready for their official start date, and who to go to for questions. 
+
+> [!NOTE]
+> The NEO hub comes with many pre-build pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
 
 ![Image the pre-onboarding site](media/preneo.png)
  
@@ -147,12 +154,12 @@ This is where new hire starts their onboarding journey. This site is for new hir
 
 
 
-#### Corporate new hire hub:
+#### Corporate new hire site:
 This is the hub for the new employee onboarding experience and is designed to provide a high-level view of organizational goals, leadership, team structure, and resources. In this phase, users are looking for guidance, support, and clarity. Use this site to outline onboarding details and expectations during the first months of onboarding. Ensure users have access to support channels like [Yammer](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da), write FAQs relevant to your organization, and customize the [onboarding checklist](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7) to include the activities you want all new hires to do in their first 30, 60, 90 days.
 
 ![Image the corporate onboarding site](media/neocorp.png)
 
-##### NEO hub navigation:
+##### Corporate new hire site navigation:
 
 ![Image of the NEO hub navigation](media/neohubnav.png)
  
