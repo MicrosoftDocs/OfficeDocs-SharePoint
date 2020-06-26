@@ -98,14 +98,14 @@ As the Tenant Admin, it's unlikely you'll be the person customizing the sites, s
 
 
 
-##Steps 2: Customize the onboarding experience 
+## Steps 2: Customize the onboarding experience 
 The New Employee Onboarding (NEO) hub consists of three SharePoint site templates that can be customized to fit the needs of your users and organization. Many of the core pages are already built and pre-populated with content. Review content on sites and pages, then plan on customizing content, images, branding, web parts, and pages.
 
 It’s important to make sure the right content is available to users at the right time. It’s also important to make new employees feel welcome before their first day. Organizations with a standardized onboarding process report 50% greater new-hire productivity.    Alternatively, employees who have a negative onboarding experience are twice as likely to look for new opportunities shortly after starting a new job.    
 
 Before you customize content in the NEO experience, ensure you understand the needs of your users and the business objectives of your organization. New hires will need different kinds of support and resources depending on the onboarding phase and culture of your organization. Begin by signing into your account and reviewing pre-populated content. Then, customize content and prepare to share the site with new hires. 
 
-NEO hub contents:
+### NEO hub contents:
 
 ![Image of the NEO hub content](media/neotimeline.png)
  
@@ -113,7 +113,6 @@ NEO hub contents:
 
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
 
-Notes:
 > [!NOTE]
 > The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites.
 
@@ -123,7 +122,7 @@ Notes:
 
 ### Get started - Sign into your Microsoft 365 account 
 Note: You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
-1.	Open your Web browser and navigate to [office.com](office.com) or your organization’s sign-in location
+1.	Open your web browser and navigate to [office.com](office.com) or your organization’s sign-in location
 2.	Sign in with your username and password
 3.	Navigate to the location of the site using the URL supplied by your tenant administrator, or select SharePoint from the Microsoft 365 home page, and then select the site
 
@@ -135,16 +134,16 @@ This is where new hire starts their onboarding journey. This site is for new hir
 
 ![Image the pre-onboarding site](media/preneo.png)
  
-**Pre-populated site content:**
-- Home page – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
+#### Pre-populated site content:
+- **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
 
 > [!IMPORTANT]
 > Connect social media accounts to links in the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820)
 
-- Welcome – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
-- Contoso 101 – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
-- Prepare for your first day – Ensure new hires feel prepared and supported on their first day by providing details on what to bring and where to go. 
-- Help & Support – Highlight where to go for support and customize questions and answers for the FAQ page.
+- **Welcome** – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
+- **Contoso 101** – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
+- **Prepare for your first day** – Ensure new hires feel prepared and supported on their first day by providing details on what to bring and where to go. 
+- **Help & Support** – Highlight where to go for support and customize questions and answers for the FAQ page.
 
 
 
@@ -157,16 +156,16 @@ This is the hub for the new employee onboarding experience and is designed to pr
 
 ![Image of the NEO hub navigation](media/neohubnav.png)
  
-**Pre-populated hub contents:**
-•	Corporate onboarding (home page) – Highlight key resources in hub navigation. Customize the [hub and site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) to display major content categories to new hires.
-•	Who we are – Introduce users to more detail about the organization in the Our story, Our leadership, Our teams pages. Customize these pages and the Office locations page for your organization.
-•	Help & Support - Highlight where to go for support and customize questions and answers for the FAQ page.
-•	Community – Help new hires start building community right away and make sure new hires are aware of Employee resource groups and other connection channels.
-•	Departmental onboarding – Provide an entry point to departmental-level information from the hub navigation where users can access departmental onboarding sites. Templates for an Engineering and Sales onboarding site have been included. Use these site templates as both a source of inspiration of what your organization’s departmental onboarding sites could look like and to accelerate the creation of these sites for your organization.  	
+#### Pre-populated hub contents:
+- **Corporate onboarding (home page)** – Highlight key resources in hub navigation. Customize the [hub and site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) to display major content categories to new hires.
+- **Who we are** – Introduce users to more detail about the organization in the Our story, Our leadership, Our teams pages. Customize these pages and the Office locations page for your organization.
+- **Help & Support** - Highlight where to go for support and customize questions and answers for the FAQ page.
+- **Community** – Help new hires start building community right away and make sure new hires are aware of Employee resource groups and other connection channels.
+- **Departmental onboarding** – Provide an entry point to departmental-level information from the hub navigation where users can access departmental onboarding sites. Templates for an Engineering and Sales onboarding site have been included. Use these site templates as both a source of inspiration of what your organization’s departmental onboarding sites could look like and to accelerate the creation of these sites for your organization.  	
 
-**Pre-populated site (Contoso onboarding) contents:**
-•	Home page – Provide a high-level view of big concepts that will be relevant to new users.
-•	Start here – Specify what new hires can expect in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page.
+##### Pre-populated site (Contoso onboarding) contents:
+- **Home page** – Provide a high-level view of big concepts that will be relevant to new users.
+- **Start here** – Specify what new hires can expect in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page.
 
 
 
@@ -180,11 +179,11 @@ From the corporate onboarding hub, users can access specific resources for depar
 ![Image of the NEO departmental site](media/neocorpnav.png)
  
 
-**Pre-populated site contents:**
-•	Home page - Provide a high-level view of big concepts that will be relevant to new hires.
-•	Getting started – Help users quickly understand onboarding tasks, departmental procedures, and anything else that will help new hires be successful. 
-•	Meet the team – Introduce new hires to people, the organization structure and goals on the Leadership, The organization, and Our priorities pages.
-•	Help and support - Highlight where to go for support and consider creating a FAQ section.
+##### Pre-populated site contents:
+- **Home page** - Provide a high-level view of big concepts that will be relevant to new hires.
+- **Getting started** – Help users quickly understand onboarding tasks, departmental procedures, and anything else that will help new hires be successful. 
+- **Meet the team** – Introduce new hires to people, the organization structure and goals on the Leadership, The organization, and Our priorities pages.
+- **Help and support** - Highlight where to go for support and consider creating a FAQ section.
 
 
-**Next steps:**Customize place-holder content, edit the site navigation, add pages as needed, and hook up social media accounts in web parts.
+**Next steps:** Customize place-holder content, edit the site navigation, add pages as needed, and hook up social media accounts in web parts.
