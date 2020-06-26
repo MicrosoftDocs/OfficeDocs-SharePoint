@@ -23,7 +23,7 @@ description: "In this article, you'll learn about when to use the classic or mod
 
 # Search experiences in SharePoint
 
-Microsoft Search is the modern search experience in SharePoint for Microsoft 365 and is a personalized experience. It uses the insights of the Microsoft Graph to show results that are relevant to you. Routine tasks such as finding the right version of a document, getting back to a presentation you were editing, or a document you were collaborating with others on, are easy. [Learn more about Microsoft Search for users](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87). The classic search experience, on the other hand, can be tailored more to your organization. [Learn about the differences between the search experiences](differences-classic-modern-search.md). 
+Microsoft Search is the modern search experience in SharePoint in Microsoft 365 and is a personalized experience. It uses the insights of the Microsoft Graph to show results that are relevant to you. Routine tasks such as finding the right version of a document, getting back to a presentation you were editing, or a document you were collaborating with others on, are easy. [Learn more about Microsoft Search for users](https://support.office.com/article/d5ed5d11-9e5d-4f1d-b8b4-3d371fe0cb87). The classic search experience, on the other hand, can be tailored more to your organization. [Learn about the differences between the search experiences](differences-classic-modern-search.md). 
 
 Both search experiences are turned on by default and as a search administrator you can't turn either search experience off.
 Which search experience your users see depends on where they search from:

@@ -193,9 +193,9 @@ The App Management database is used by the App Management Service application. I
 |:-----|:-----|
 |Default database name when installed by using the SharePoint Products Configuration Wizard  <br/> |AppMng_Service_DB_\<GUID\>  <br/> |
 |Location requirements  <br/> |None  <br/> |
-|General size information and growth factors  <br/> |Small. Scale-up when the service application database reaches 10 GB. Scale out only on SharePoint Online.  <br/> |
+|General size information and growth factors  <br/> |Small. Scale-up when the service application database reaches 10 GB. Scale out only on SharePoint.  <br/> |
 |Read/write characteristics  <br/> |Write-heavy during apps installation and license renewal.  <br/> |
-|Recommended scaling method  <br/> |App License Management databases can scale out only on SharePoint Online.  <br/> |
+|Recommended scaling method  <br/> |App License Management databases can scale out only on SharePoint in Microsoft 365.  <br/> |
 |Associated Health rules  <br/> |None  <br/> |
 |Supported backup tools  <br/> |SharePoint Server backup and restore, PowerShell, and SQL Server.  <br/> |
 |Default recovery model  <br/> |Full  <br/> |

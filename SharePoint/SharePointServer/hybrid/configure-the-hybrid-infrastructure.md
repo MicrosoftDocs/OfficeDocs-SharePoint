@@ -27,4 +27,3 @@ description: "The articles in this section describe how to configure the underly
 
 The articles in this section describe how to configure the underlying infrastructure that you need to create a hybrid environment with SharePoint Server and Microsoft 365 for enterprises. Be sure to follow a [SharePoint hybrid roadmap](configuration-roadmaps.md) when following the procedures in these articles. 
   
-

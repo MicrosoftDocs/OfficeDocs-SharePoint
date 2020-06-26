@@ -14,18 +14,17 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: ca5a0b10-4020-4f9e-8ecc-30e64c4b109f
-description: "Learn about the multilingual user interface feature, how it works, and how to plan to use it in SharePoint Server and SharePoint Online."
+description: "Learn about the multilingual user interface feature, how it works, and how to plan to use it in SharePoint Server and SharePoint in Microsoft 365."
 ---
 
 # Plan for the multilingual user interface in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
-The multilingual user interface (MUI) feature enables users to display the user interface of a SharePoint Server or SharePoint Online site in the language they prefer, instead of the default language that was selected when the site was created. This article describes the use and benefits of the MUI feature, explains how the feature works, and lists the other features and functionality that are supported by the feature. It also describes how to add and edit application content, and how to export and import content for translation. It explains how to use the MUI feature with managed metadata, and describes the limitations of the feature. Finally, this article describes how to plan for using the MUI feature in a SharePoint Server site solution.
+The multilingual user interface (MUI) feature enables users to display the user interface of a SharePoint Server or SharePoint in Microsoft 365 site in the language they prefer, instead of the default language that was selected when the site was created. This article describes the use and benefits of the MUI feature, explains how the feature works, and lists the other features and functionality that are supported by the feature. It also describes how to add and edit application content, and how to export and import content for translation. It explains how to use the MUI feature with managed metadata, and describes the limitations of the feature. Finally, this article describes how to plan for using the MUI feature in a SharePoint Server site solution.
   
-For information about how to plan for multilingual sites, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md).
-  
-    
+For info about how to plan for multilingual sites, see [Plan for multilingual sites in SharePoint Server](plan-for-multilingual-sites.md).
+
 ## How the multilingual user interface works
 <a name="MUIWorks"> </a>
 
@@ -33,7 +32,7 @@ By default, when a new site is created, it is created in the default language of
   
 After language packs are installed on the server, the **Language settings** link is added to the **Site Settings** page. Site collection administrators and site owners use the **Language Settings** page to specify which alternate languages the site will support. After the site collection administrator or site owner has enabled alternate languages for a site, the next time that a user logs on to the site, SharePoint Server uses one of the following rules to determine the language in which to display content to the user: 
   
-1. If the User Profile service application is started on the SharePoint Server farm, the language preferences stored in the user profile are used. For information about how to add a list of languages to user profile settings in SharePoint Server, see [Add, edit, or delete custom properties in SharePoint Server user profiles](https://docs.microsoft.com/sharepoint/administration/add-edit-or-delete-custom-properties-for-a-user-profile). For information about how to add a list of languages to user profile settings in SharePoint Online Administration Center, see [Add and edit user profile properties](https://docs.microsoft.com/sharepoint/add-and-edit-user-profile-properties).
+1. If the User Profile service application is started on the SharePoint Server farm, the language preferences stored in the user profile are used. For info about how to add a list of languages to user profile settings in SharePoint Server, see [Add, edit, or delete custom properties in SharePoint Server user profiles](https://docs.microsoft.com/sharepoint/administration/add-edit-or-delete-custom-properties-for-a-user-profile). For information about how to add a list of languages to user profile settings in SharePoint Admin Center, see [Add and edit user profile properties](https://docs.microsoft.com/sharepoint/add-and-edit-user-profile-properties).
     
 2. If no language preference is defined in the user profile, the language preferences stored in the user's language settings for the site collection are used.
     
@@ -41,7 +40,7 @@ After language packs are installed on the server, the **Language settings** link
     
 4. If no language preference is defined in the user's web browser, the default site language is used.
     
-The MUI feature only displays site's user interface elements in a user's preferred language. It does not translate content or display content such as documents or list items in an alternate language. To translate webpage content, you use the variations feature in SharePoint Server or SharePoint Online.
+The MUI feature only displays site's user interface elements in a user's preferred language. It does not translate content or display content such as documents or list items in an alternate language. To translate webpage content, you use the variations feature in SharePoint Server or SharePoint in Microsoft 365.
   
 SharePoint Server provides three methods that you can use to change certain application content, such as list or library titles and descriptions: by using the user interface, by exporting and importing translations for a site, and by using the **SPUserResource** class in the **Microsoft.SharePoint** namespace. Not all user interface elements can be changed directly in the user interface. For example, user actions and commands can be changed only by using the **SPUserResource** class. For more information, see [SPUserResource class](https://go.microsoft.com/fwlink/p/?LinkId=307141).
   

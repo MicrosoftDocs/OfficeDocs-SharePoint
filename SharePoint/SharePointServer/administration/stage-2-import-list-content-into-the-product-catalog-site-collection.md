@@ -21,7 +21,7 @@ description: "Learn how to import list content into the Product Catalog Site Col
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Start stage 2
 
@@ -63,7 +63,7 @@ After we have run the five PowerShell scripts, we get the following:
     
 - Terms in the **Product Hierarchy** term set. In our scenario, the term set reflects how Contoso has categorized their products, for example one category is called "Laptops" and another is "MP3" players. 
     
-- In the **Products** list, content in the **Item Category** column is associated with the correct term from the **Product Hierarchy** term set. The following screen shot shows how the list item  *Southridge Video Laptop15.4W M1548*  is associated with the term  *Laptops*  through the **Item Category** column. 
+- In the **Products** list, content in the **Item Category** column is associated with the correct term from the **Product Hierarchy** term set. The following screen shot shows how the list item *Southridge Video Laptop15.4W M1548* is associated with the term *Laptops* through the **Item Category** column. 
     
 ![Item Term Connection](../media/OTCSP_ItemTermConnection.PNG)
   

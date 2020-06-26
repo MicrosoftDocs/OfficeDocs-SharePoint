@@ -13,7 +13,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 22d5dc9c-66bd-40d7-8c60-2a2a066db224
-description: "Learn how to plan for multilingual sites in SharePoint Server and SharePoint Online."
+description: "Learn how to plan for multilingual sites in SharePoint Server and SharePoint in Microsoft 365."
 ---
 
 # Plan for multilingual sites in SharePoint Server

@@ -1,5 +1,5 @@
 ---
-title: "Export OneDrive for Business experience settings"
+title: "Export OneDrive experience settings"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -11,27 +11,27 @@ ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
 localization_priority: Priority
-description: "Learn about exporting OneDrive for Business experience settings."
+description: "Learn about exporting OneDrive experience settings."
 ---
 
-# Export OneDrive for Business experience settings
+# Export Microsoft OneDrive  experience settings
 
-A user's OneDrive for Business experience stores information to help the user find and navigate to content of interest to them. Most of this information can be accessed by end users using the corresponding in-product features listed in the following table:
+A user's Microsoft OneDrive experience stores information to help the user find and navigate to content of interest to them. Most of this information can be accessed by end users using the corresponding in-product features listed in the following table:
 
 |Experience|Data stored|End user access|
 |:----|:----|:----|
-|Shared items|A list of documents shared with the user by others. It also presents a view of the documents the user has shared with others, which is a view of the permissions the user has set on the items in their OneDrive for Business account.|From a user's OneDrive for Business, select **Shared**.|
-|[Discover view](/onedrive/help-users-use-discover-view)|A list of relevant content they have access to, based on who they work with and what they're working on. <br>This depends on integration with the Office Graph, which admins can control in the **Settings** tab in the SharePoint admin center.|From a user's OneDrive for Business, select **Discover**.|
-|Mobile Push Notifications|Push notifications to users' OneDrive for Business and SharePoint Online mobile apps, if configured. This includes relevant activity such as new files shared with them. <br>Admins can manage these in **Settings** tab in the SharePoint admin center, under **Mobile Push Notifications – OneDrive** and **Mobile Push Notifications – SharePoint**.|View **Notifications** sent to the OneDrive for Business and SharePoint mobile apps.|
-|Followed Sites and Content|Users can follow sites, documents, or people.  <br>Followed sites can be viewed using in product experiences.|Followed sites can be viewed and managed in the SharePoint Home experience. This experience shows **Recent Sites** as well. <br>From a user's OneDrive for Business account, they can select the Settings gear icon, select **Site Settings**, then select **Newsfeed**. On the right side, they can click the appropriate content type under I'm Following.|
-|Newsfeed|A list of user activities, including followed content, mentions, and profile changes. Users can access it using in-product experiences.|From a user's OneDrive for Business account, they can select the Settings gear icon, select Site Settings, and then select Newsfeed. <br>Newsfeed settings can be managed as part of the user profile experience, that was previously described.|
-|Access requests|A list of requested access to content.|From a user's OneDrive for Business account, they can select the Settings gear icon, select **Site Settings**, and then select **Access Requests and Invitations**|
+|Shared items|A list of documents shared with the user by others. It also presents a view of the documents the user has shared with others, which is a view of the permissions the user has set on the items in their OneDrive account.|From a user's OneDrive, select **Shared**.|
+|[Discover view](/onedrive/help-users-use-discover-view)|A list of relevant content they have access to, based on who they work with and what they're working on. <br>This depends on integration with the Office Graph, which admins can control on the classic **Settings** page in the classic SharePoint admin center.|From a user's OneDrive, select **Discover**.|
+|Mobile Push Notifications|Push notifications to users' OneDrive and SharePoint mobile apps, if configured. This includes relevant activity such as new files shared with them. <br>Admins can manage these on the Notifications page of the OneDrive admin center and the Settings page of the new SharePoint admin center.|
+|Followed Sites and Content|Users can follow sites, documents, or people.  <br>Followed sites can be viewed using in product experiences.|Followed sites can be viewed and managed in the SharePoint Home experience. This experience shows **Recent Sites** as well. <br>From a user's OneDrive account, they can select the Settings gear icon, select **Site Settings**, then select **Newsfeed**. On the right side, they can click the appropriate content type under I'm Following.|
+|Newsfeed|A list of user activities, including followed content, mentions, and profile changes. Users can access it using in-product experiences.|From a user's OneDrive account, they can select the Settings gear icon, select Site Settings, and then select Newsfeed. <br>Newsfeed settings can be managed as part of the user profile experience, that was previously described.|
+|Access requests|A list of requested access to content.|From a user's OneDrive account, they can select the Settings gear icon, select **Site Settings**, and then select **Access Requests and Invitations**|
 
 An admin can export these lists by using [PowerShell Script](/powershell/scripting/powershell-scripting?view=powershell-6) and [SharePoint Client-Side Object Model (CSOM)](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands in this article. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
 
 This is a sample script and can be adapted to meet your organization’s needs. For example, an admin can extract the information for user1@contoso.com by using the following procedure.
 
-1.	Assign yourself admin permissions to the user's OneDrive for Business account. This can be done [in the Microsoft 365 admin center](/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data).
+1.	Assign yourself admin permissions to the user's OneDrive account. This can be done [in the Microsoft 365 admin center](/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data).
 
 2.  Install the required Microsoft PowerShell modules:
 
@@ -69,7 +69,7 @@ Copy the contents below and paste them into a text file. Save the file as **Expo
 
 ```powershell
 #ExportODBLists
-#Exports  ODB experience settings, stored in several SharePoint Lists
+#Exports OneDrive experience settings, stored in several SharePoint lists
 
 param([string]$siteUrl, [bool]$exportAllFields=$false, [bool]$useStoredCreds=$true, [string]$exportFolder)
 Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.dll"
