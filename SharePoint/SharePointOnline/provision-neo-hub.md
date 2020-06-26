@@ -31,12 +31,12 @@ Microsoft has created an open source New Employee Onboarding (NEO) hub to help o
 New employee onboarding (NEO) should be a strategic process that integrates new employees into an organization and its culture while providing the knowledge and tools needed to become fully contributing team members. 
 NEO processes often fall short for both the new hires and the organization. Only 12% of employees strongly agree their organization does a great job of onboarding new employees.   An engaging and well organized NEO process can make all the difference in helping a new hire navigate through an exciting – but stressful -  career journey, and it can have major organizational benefits. 
 
-**Strategically planned NEO experience can:**
+Strategically planned NEO experience can:
 
-**Improve new hire performance and time to productivity**
+**Improve new hire performance and time to productivity** -
 Organizations with a standard onboarding process report 50% greater new-hire productivity.   
 
-**Improve new employee retention**
+**Improve new employee retention** -
 69% of employees are more likely to stay with a company for three years if they had a great onboarding experience. Employees who have a negative onboarding experience are twice as likely to look for new opportunities in the near future.    
 
 ### The NEO experience process:
@@ -138,7 +138,7 @@ This is where new hire starts their onboarding journey. This site is for new hir
 - **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
 
 > [!IMPORTANT]
-> Connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820)
+> Plan to connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820)
 
 - **Welcome** – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
 - **Contoso 101** – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
@@ -193,12 +193,12 @@ From the corporate onboarding hub, users can access specific resources for depar
 ### Customize the content and look of your NEO sites 
 Now that you’ve reviewed the pre-built pages and pre-populated content, you are ready to customize the NEO experience for your organization. 
 
-### Navigation
+#### Navigation
 
 Site navigation is important because it helps users immediately understand what they can accomplish on a given site. The most effective SharePoint sites help viewers find what they need quickly so that they can use the information they to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem. Edit the hub and site navigation for all three NEO site designs to meet the needs of your audience and organization. [Learn how to edit site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca). 
 
  
-### Web parts
+#### Web parts
 Customize web parts with images, labels, links, and content that align with your organization’s mission. Keep images and descriptions simple and easy to understand for your new-hire audience.
 
 - **Hero web part** - Bring focus and visual interest to your page with the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645). You can display up to five items in the Hero web part and use compelling images, text, and links to draw attention to each.
@@ -207,10 +207,10 @@ Customize web parts with images, labels, links, and content that align with your
 - **Quick links web part** – Organize and display links to other resources with the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
 - **People web part** – Use the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display profile photos, contact information, and organizational information for people at work.
 
-### Site theme and branding
+#### Site theme and branding
 Edit the look of your SharePoint site to align with your organization's brand. Customize the site display name, logo, theme, header layout, navigation style, and more in the [Change the look panel](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b).
 
-### Hub site settings
+#### Hub site settings
 
 SharePoint hub sites help connect and organize sites based on project, department, division, region, etc. making it easier to:
 
@@ -230,7 +230,7 @@ Consider associating the your existing departmental onboarding sites to your new
 
 
 
-## Step 4: Share the NEO sites with end users
+## Step 3: Share the NEO sites with end users
 
 After customizing content, get ready to share the new onboarding experience with new hires. Different permissions will apply to the pre-onboarding site since users will be external guests. Once new hires start working, use internal permissions sharing instructions to give access to the corporate onboarding site. 
 
@@ -254,14 +254,9 @@ After customizing content, get ready to share the new onboarding experience with
 
 
 
-## Step 5: Measure the impact of your New Employee Onboarding hub 
+## Step 4: Measure the impact of your New Employee Onboarding hub
 
-As a SharePoint site owner, you can view site usage data that shows you how users are interacting with your site. For example, you can see the number of people who have visited the site, how many times people have visited the site, and a list of files that have received the most views. Site owners should utilize SharePoint’s built-in site usage reporting capabilities to measure the impact of the NEO hub. [Learn how to view usage analytics for your site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
-
-Example of site usage data:
-
-![Image of SharePoint site analytics data](media/neositeusagereport.png)
-
+### Define NEO hub success metrics
 
 Define site success metrics to measure and optimize your organization’s onboarding process. The following is an example of possible metrics for a new employee onboarding hub:
 
@@ -273,8 +268,18 @@ Define site success metrics to measure and optimize your organization’s onboar
 | Improve new employee engagement  | Diego Siciliani    | New employee engagement score |  Survey data  |  Average score of new employee engagement question  |  3.75   | 4.25
 
 
+### Leverage site usage data
 
-### Managing and maintaining your NEO hub
+As a SharePoint site owner, you can view site usage data that shows you how users are interacting with your site. For example, you can see the number of people who have visited the site, how many times people have visited the site, and a list of files that have received the most views. Site owners should utilize SharePoint’s built-in site usage reporting capabilities to measure the impact of the NEO hub. [Learn how to view usage analytics for your site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
+
+**Example of site usage data:**
+
+![Image of SharePoint site analytics data](media/neositeusagereport.png)
+
+
+
+
+## Step 5: Manage and maintain your NEO hub
 
 The NEO Hub should present the most up to date content your organization has to offer, so you’ll need to commit to maintaining relevant content throughout the experience. Develop a plan to audit content and refresh web parts as needed to ensure contact information, FAQs, the onboarding checklist, and People web parts are up tp date. Learn more about [managing communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
 
@@ -300,7 +305,7 @@ The NEO Hub should present the most up to date content your organization has to 
 **Answer**: TBD
 
 **Question**: Is Microsoft 365 learning pathways an open source solution and what are the implications?
-**Answer**: [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an Open Source Software (OSS) solution and as such carries a set of benefits and considerations germane to OSS:
+**Answer**: [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an Open Source Software (OSS) solution and as such carries a set of benefits and considerations to OSS:
 *Benefits*
 - **Microsoft 365 learning pathways is a free solution**: Customers can install the solution in their tenant, customize it and make it available to end users
 - **OSS enables rapid development and collaboration**: All open source solutions are available to a broad community of contributors. Microsoft is committed to this method of driving innovation. To ensure we are delivering an experience that benefits the widest set of our customers our core service management team will reserve the right to determine what contributions are merged into our official build.
@@ -310,6 +315,14 @@ Implications
 - **As OSS, Microsoft 365 learning pathways is supported through an online issues list on GitHub**: Microsoft 365 learning pathways is not covered by any existing Microsoft support contract. Submitted issues are triaged by Microsoft 365 learning pathways service owners and the community. Issue resolution service levels are NOT at the same level as a paid Microsoft support contract.
 
 
+**Sources**:
+
+  - Gallup, State of the American Workplace, 2017
+  - SHRM, Don't Underestimate the Importance of Good Onboarding, 2017
+ -  Source: Digitate, Super CIO: What the CIO sees—that other people don’t, 2018
+
+
+
 ### Feedback 
 Share your feedback with us. Our solution is only a success if it is enabling your business to achieve more. Please help us to make it better by giving us regular feedback through UserVoice. We regularly review comments and questions.
 
@@ -317,11 +330,7 @@ Share your feedback with us. Our solution is only a success if it is enabling yo
 
 
 
-**Sources**:
 
-  Gallup, State of the American Workplace, 2017
-  SHRM, Don't Underestimate the Importance of Good Onboarding, 2017
-  Source: Digitate, Super CIO: What the CIO sees—that other people don’t, 2018
 
 
 
