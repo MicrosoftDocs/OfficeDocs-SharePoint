@@ -73,7 +73,7 @@ When you have supplied all the correct values, run the resulting block at the Az
   
 ```
 # Set up variables common to both virtual machines
-$locName="<Azure location of the Sharepoint farm>"
+$locName="<Azure location of the SharePoint farm>"
 $vnetName="<Table V - Item 1 - Value column>"
 $subnetName="<Table S - Item 1 - Value column>"
 $avName="<Table A - Item 1 - Availability set name column>"

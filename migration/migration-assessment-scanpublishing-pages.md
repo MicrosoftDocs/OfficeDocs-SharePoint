@@ -34,7 +34,7 @@ The files can migrate however the pages may not function correctly on the new pl
   
 ## Preparing for Migration
 
-Catalog the pages that leverage page layouts. Perform test migrations and plan for post migration remediation. You may find it's easier to start a new portal in SharePoint for Microsoft 365 and archive your on-premises portal once that site is up and running.
+Catalog the pages that leverage page layouts. Perform test migrations and plan for post migration remediation. You may find it's easier to start a new portal in SharePoint in Microsoft 365 and archive your on-premises portal once that site is up and running.
   
 ## Post Migration
 

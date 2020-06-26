@@ -20,13 +20,13 @@ description: "Learn how to configure the new OneDrive sync app (OneDrive.exe) fo
 
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
    
-When you deploy SharePoint Server 2019 in your organization, your users can sync their OneDrive for Business files as well as SharePoint team site files by using the new OneDrive sync app (OneDrive.exe) for Windows. Compared with the previous OneDrive for Business sync app (Groove.exe), the new sync app provides:
+When you deploy SharePoint Server 2019 in your organization, your users can sync their OneDrive files as well as SharePoint team site files by using the new OneDrive sync app (OneDrive.exe) for Windows. Compared with the previous OneDrive sync app (Groove.exe), the new sync app provides:
 - Improved performance and reliability
 - Files On-Demand
 - Support for larger files
 - Higher sync limits
 - The ability to silently deploy
-If your users are already syncing document libraries with the previous OneDrive for Business sync app, they will transition to the new sync app automatically.
+If your users are already syncing document libraries with the previous OneDrive sync app, they will transition to the new sync app automatically.
     
 ## Requirements
 
@@ -57,7 +57,7 @@ The organization name lets you specify the name of the root folder that will be 
 
 **Specify the OneDrive location in a hybrid environment**
 
-This setting lets you specify if the sync app should authenticate against SharePoint Online or the SharePoint on-premises server if the identity exists in both identity providers.
+This setting lets you specify if the sync app should authenticate against SharePoint in Microsoft 365 or the SharePoint on-premises server if the identity exists in both identity providers.
 
 You should be able to find these Group Policy objects using the Group Policy Editor (gpedit.msc) when navigating to Computer Configuration\Administrative Templates\OneDrive. If the OneDrive folder is not present, you can add the OneDrive Group Policy template by coping the following two files from the OneDrive installation folder after you have installed the latest OneDrive sync app on that computer:
 
@@ -88,21 +88,21 @@ Alternatively, you can also directly configure the following underlying registry
 |HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremFrontDoorUrl|String|https://sharepoint.contoso.local|
 |HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremTenantName|String|Contoso|
  
-## Differences between syncing files in SharePoint Server and SharePoint Online
+## Differences between syncing files in SharePoint Server and SharePoint in Microsoft 365
 
 If your organization also uses the OneDrive sync app to sync files in Microsoft 365, here's what will be different for users who sync on-premises files.
 
-### Single Top Level URL
+### Single Top-level URL
 The OneDrive sync client only allows synchronization with a single URL (including all Document Libraries in all Site Collections and subsites of the specified URL). It is not possible to add additional top-level URLs (Web Applications or Host-Named Site Collections) for the OneDrive synchronization client with SharePoint Server 2019.
 
-In SharePoint Online, you may synchronize with multiple top-level URLs, such as https://contoso-my.sharepoint.com and https://contoso.sharepoint.com.
+In SharePoint in Microsoft 365, you may synchronize with multiple top-level URLs, such as https://contoso-my.sharepoint.com and https://contoso.sharepoint.com.
   
 ### Folder names
 The OneDrive sync app creates the following folders on users' computers:
 OneDrive – Contoso (for syncing personal My Site files)
 Contoso (for syncing SharePoint team site files)
 
-In SharePoint Online, "Contoso" is the tenant name that has been set for the SharePoint Online instance. In SharePoint on-premises, there is no tenant name associated to the instance of SharePoint. You can set the this with the "Specify SharePoint Server URL and organization name" group policy, or the sync app will use the first segment of your SharePoint URL. 
+In SharePoint in Microsoft 365, "Contoso" is the tenant name that has been set for the SharePoint in Microsoft 365 instance. In SharePoint on-premises, there is no tenant name associated to the instance of SharePoint. You can set the this with the "Specify SharePoint Server URL and organization name" group policy, or the sync app will use the first segment of your SharePoint URL. 
    
 ### File thumbnails and previews
 Thumbnails don't appear in File Explorer for files synced from SharePoint on-premises. If you enable Files On-Demand, and a file is online-only, a file preview won't be available. Image files and Office files will not have a thumbnail in File Explorer until the file is downloaded.
@@ -114,7 +114,10 @@ When users share files and folders from File Explorer, the sharing option will o
 ### Privacy settings
 
 When setting up SharePoint Server, you'll be prompted to select if clients should send error reports and usage statistics back to Microsoft. If you enable the setting, individual users can opt out by following these steps:
-1.    Right-click the OneDrive cloud icon in the notification area, at the far right of the taskbar.
-2.    Click **Settings**. 
-3.    Click the **Settings** tab, and then clear the option under **Privacy**.
+
+1. At the far right of the taskbar, in the notification area, right-click the OneDrive cloud icon.
+
+2. Select **Settings**.
+
+3. Select the **Settings** tab, and under **Privacy**, clear the option.
 

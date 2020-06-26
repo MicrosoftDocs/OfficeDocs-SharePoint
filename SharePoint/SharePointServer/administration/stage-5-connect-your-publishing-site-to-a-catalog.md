@@ -21,7 +21,7 @@ description: "Learn how to connect your publishing site to a catalog in SharePoi
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Quick overview
 
@@ -61,13 +61,13 @@ Remember, in [Stage 3: How to enable a list as a catalog in SharePoint Server](s
 
 ![icon how to](../media/OTCSP_icon_howto.png)
   
-1. On the Contoso site, go to **Site settings** --> **Manage catalog connections**. 
+1. On the Contoso site, go to **Site settings** > **Manage catalog connections**. 
     
-2. On the **Manage catalog connections** page, click **Connect to a catalog**. 
+2. On the **Manage catalog connections** page, select **Connect to a catalog**. 
     
      ![Connect to Catalog](../media/OTCSP_ConnectToCatalog.png)
   
-Our **Products** list is displayed as an available catalog. To connect to it, click **Connect**. 
+Our **Products** list appears as an available catalog. To connect to it, select **Connect**. 
     
      ![Connect](../media/OTCSP_Connect.png)
   
@@ -125,7 +125,7 @@ A site that was created by using the **Publishing Portal Site Collection** templ
   
 To view how the navigation of your site is set up:
   
-1. Go to **Site settings --\> Navigation**. 
+1. Go to **Site settings** > **Navigation**. 
     
 2. Verify that:
     
@@ -162,7 +162,7 @@ The **Select the column that categorizes items for navigation** setting already 
   
 Also remember [Stage 2: Import list content into the Product Catalog Site Collection in SharePoint Server](stage-2-import-list-content-into-the-product-catalog-site-collection.md), where we showed how the **Item Category** column is tied to the **Product Hierarchy** term set. Now we will specify from where in the **Product Hierarchy** term set the catalog navigation should start. 
   
-1. In the **Root term of hierarchy** section, click the label icon. A dialog showing the **Product Hierarchy** term set opens. 
+1. In the **Root term of hierarchy** section, select the label icon. A dialog box showing the **Product Hierarchy** term set opens. 
     
 2. Select "Electronics".
     
@@ -272,7 +272,7 @@ Here's what our final **Catalog Source Settings** page will be like:
     
      ![Final Catalog Source Settings Page](../media/OTCSP_FinalCatalogSourceSettingsPage.png)
   
-Click **OK**, and watch some cool things occur! 
+3. Select **OK**, and watch some cool things occur! 
     
 ### What happens when I click the OK button to connect to a catalog
 <a name="BKMK_WhatHappensWhenIClicktheOKButtontoConnecttoaCatalog"> </a>

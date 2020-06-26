@@ -93,7 +93,7 @@ Some customizations have very little risk or impact on your environment. Others 
   
 Also, when you think through the customizations to allow in your environment, consider carefully whether a particular customization is necessary. If it recreates functionality that is already available in the product (such as creating a Web Part that does the same thing as the Content Editor Web Part or the Content by Query Web Part), then that might be unnecessary work. Consider first whether the standard functionality can do what you want, or check the SharePoint Store to see if there is an app for SharePoint available that does what you need.
   
-## Life-cycle management
+## Lifecycle management
 <a name="Lifecycle"> </a>
 
 Follow these best practices to manage applications based on SharePoint Server 2016 throughout their life cycle:
@@ -130,7 +130,7 @@ The guidance for whether to use apps for SharePoint or SharePoint solutions is t
     
   - Can integrate with cloud-based resources.
     
-  - Are available for both SharePoint Online and on-premises SharePoint sites.
+  - Are available for both sites in SharePoint Server and sites in SharePoint in Microsoft 365.
     
 - **Use farm solutions for administrators**
     

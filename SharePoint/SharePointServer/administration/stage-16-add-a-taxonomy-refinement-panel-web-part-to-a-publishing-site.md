@@ -21,7 +21,7 @@ description: "Learn how to add a taxonomy refinement panel web part to a publish
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Quick overview
 
@@ -42,13 +42,13 @@ Throughout this series, when a new feature was introduced, we started by explain
 
 Browse to the page where you want to add the Web Part. In our scenario, let's browse to "Cameras."
   
-1. Click the **Settings** menu, and then select **Edit Page**. 
+1. Select the **Settings** menu, and then select **Edit Page**. 
     
-2. In the Web Part Zone where you want to add the Web Part, click **Add a Web Part**. 
+2. In the Web Part Zone where you want to add the Web Part, select **Add a Web Part**. 
     
-3. In the **Categories** list, click **Search**. 
+3. In the **Categories** list, select **Search**. 
     
-4. In the **Parts** list, click **Taxonomy Refinement Panel**, and then click **Add**. 
+4. In the **Parts** list, select **Taxonomy Refinement Panel**, and then select **Add**. 
     
 5. Save the page.
     

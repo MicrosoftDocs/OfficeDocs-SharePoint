@@ -68,7 +68,7 @@ The content that you export by using a query is formatted according to the Elect
 
 The Search service application is a key component of the search system in SharePoint Server. You can associate an eDiscovery Center with a Search service application. Any content that's indexed by the Search service application can be discovered from the eDiscovery Center. If you configure the Search service application to crawl file shares, you can use the eDiscovery Center to discover content on the file shares. If you configure the Search service application to crawl other websites - for example, a team site that was created by using SharePoint Server 2010 - you can use the eDiscovery Center to discover content on the websites. For SharePoint Server farms, you can also put the content on hold. If you add Exchange Server to the Search service application as a result source, you can discover content within Exchange mailboxes from the eDiscovery Center and put the mailboxes on hold. If you archive content from Skype for Business in Exchange, you can also discover Skype for Business content.
   
-If your environment includes two isolated Search service applications - for example, SharePoint Online and SharePoint Server on-premises - you need to have two eDiscovery Centers to discover content across the farms. 
+If your environment includes two isolated Search service applications - for example, SharePoint in Microsoft 365 and SharePoint Server on-premises - you need to have two eDiscovery Centers to discover content across the farms. 
   
 **A separate eDiscovery Center for each isolated Search service application.**
 

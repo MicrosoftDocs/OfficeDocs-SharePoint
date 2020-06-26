@@ -96,18 +96,18 @@ Use the following procedure to install prerequisites on each server in the farm.
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. In the SharePoint Server installation disc image, mount the ISO file, and then click the splash.hta file. The SharePoint Server 2016 splash screen is displayed..
+2. In the SharePoint Server installation disc image, mount the ISO file, and then select the splash.hta file. The SharePoint Server 2016 splash screen is displayed..
     
-3. Click **Install software prerequisites**. 
+3. Select **Install software prerequisites**. 
     
-4. On the **Welcome to the SharePoint 2016 Products Preparation Tool** page, click **Next**.
+4. On the **Welcome to the SharePoint 2016 Products Preparation Tool** page, select **Next**.
     
     > [!NOTE]
     > The preparation tool may have to restart the local server to complete the installation of some prerequisites. The installer will continue to run after the server is restarted without manual intervention. However, you will have to log on to the server again. 
   
-5. On the **License Terms for software products** page, review the terms, select the **I accept the terms of the License Agreement(s)** check box, and then click **Next**.
+5. On the **License Terms for software products** page, review the terms, select the **I accept the terms of the License Agreement(s)** check box, and then select **Next**.
     
-6. If you see the **Your system needs to restart to continue** page, click **Finish** to restart the computer, and then repeat steps 2-4. 
+6. If you see the **Your system needs to restart to continue** page, select **Finish** to restart the computer, and then repeat Steps 2-4. 
     
 ## Install SharePoint Server 2016 on the farm servers
 <a name="InstallSP"> </a>
@@ -120,25 +120,25 @@ The following procedure installs binaries, configures security permissions, and 
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. On the **SharePoint Server Start** page, click **Install SharePoint Server**.
+2. On the **SharePoint Server Start** page, select **Install SharePoint Server**.
     
-3. On the **Enter Your Product Key** page, enter your product key, and then click **Continue**.
+3. On the **Enter Your Product Key** page, enter your product key, and then select **Continue**.
     
-4. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then click **Continue**.
+4. On the **Read the Microsoft Software License Terms** page, review the terms, select the **I accept the terms of this agreement** check box, and then select **Continue**.
     
-5. Optional: To install SharePoint Server at a custom location, or to store search index files at a custom location, click the **File Location** tab, and then either type the custom location or click **Browse** to find the custom location. 
+5. Optional: To install SharePoint Server at a custom location, or to store search index files at a custom location, select the **File Location** tab, and then either enter the custom location, or to find the custom location, select **Browse**. 
     
     > [!NOTE]
     > As a best practice, we recommend that you install SharePoint Server on a non-system drive. > If you intend to use this computer as a search server, we recommend that you store the search index files on a separate storage volume or partition. Any other search data that needs to be stored, is stored in the same location as the search index files. You can only set this location at installation time. 
   
-6.  Click **Install Now**.
+6.  Select **Install Now**.
     
-7. When the Setup program is finished, a dialog prompts you to complete the configuration of your server. Clear the **Run the SharePoint Products and Technologies Configuration Wizard now** check box. 
+7. When the Setup program is finished, a dialog box prompts you to complete the configuration of your server. Clear the **Run the SharePoint Products and Technologies Configuration Wizard now** check box. 
     
     > [!NOTE]
     > For consistency of approach, we recommend that you do not run the configuration wizard until you have installed SharePoint Server 2016 on all SharePoint servers that will participate in the server farm. 
   
-8. Click **Close** to finish Setup. 
+8. To finish Setup, select **Close**. 
     
 ## Create and configure the farm
 <a name="CreateConfigure"> </a>
@@ -149,13 +149,13 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
   
 1. Verify that the user account that is performing this procedure is the Setup user account. For information about the Setup user account, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-2. On the server that will host Central Administration (the application server), click **Start**, point to **All Apps**, and then click **Microsoft SharePoint Products**, and then click **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog appears, click **Continue**.
+2. On the server that will host Central Administration (the application server), select **Start**, point to **All Apps**, and then select **Microsoft SharePoint Products**, and then select **SharePoint Products Configuration Wizard**. If the **User Account Control** dialog box appears, select **Continue**.
     
-3. On the **Welcome to SharePoint Products** page, click **Next**.
+3. On the **Welcome to SharePoint Products** page, select **Next**.
     
-4. In the dialog that notifies you that some services might have to be restarted during configuration, click **Yes**.
+4. In the dialog that notifies you that some services might have to be restarted during configuration, select **Yes**.
     
-5. On the **Connect to a server farm** page, click **Create a new server farm**, and then click **Next**.
+5. On the **Connect to a server farm** page, select **Create a new server farm**, and then select **Next**.
     
 6. On the **Specify Configuration Database Settings** page, do the following: 
     
@@ -170,9 +170,9 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
   
 4. In the **Password** box, type the user password. 
     
-7. Click **Next**.
+7. Select **Next**.
     
-8. On the Specify Farm Security Settings page, type a passphrase, and then click **Next**.
+8. On the Specify Farm Security Settings page, type a passphrase, and then select **Next**.
     
     Although a passphrase resembles a password, it is usually longer to improve security. It is used to encrypt credentials of accounts that are registered in SharePoint Servers 2016 or 2019. For example, the SharePoint Server server farm account that you provide when you run the SharePoint Products Configuration Wizard. Ensure that you remember the passphrase, because you must use it every time that you add a server to the farm.
     
@@ -194,26 +194,26 @@ To configure the farm, you run the SharePoint Products Configuration Wizard. Thi
     
 1. Either select the **Specify port number** check box and type the port number that you want the SharePoint Central Administration web application to use, or leave the **Specify port number** check box cleared if you want to use the default port number. 
     
-2. Click either **NTLM** or **Negotiate (Kerberos)**.
+2. Select either **NTLM** or **Negotiate (Kerberos)**.
     
-10. Click **Next**.
+10. Select **Next**.
     
-11. On the **Completing the SharePoint Products Configuration Wizard** page, review configuration settings, and then click **Next**.
+11. On the **Completing the SharePoint Products Configuration Wizard** page, review configuration settings, and then select **Next**.
     
-12. On the **Configuration Successful** page, click **Finish**.
+12. On the **Configuration Successful** page, select **Finish**.
     
     > [!NOTE]
     > If the SharePoint Products Configuration Wizard fails, check the log files on the drive on which SharePoint Server 2016 is installed, which are located in the %COMMONPROGRAMFILES%\Microsoft Shared\Web Server Extensions\16\LOGS folder. 
   
 13. The Central Administration website will open in a new browser window.
     
-    On the **Help Make SharePoint Better** page, click one of the following options and then click **OK**.
+    On the **Help Make SharePoint Better** page, select one of the following options and then select **OK**.
     
 1. **Yes, I am willing to participate (Recommended).**
     
 2. **No, I don't wish to participate.**
     
-14. On the **Initial Farm Configuration Wizard** page, you have the option to use a wizard to configure services or you can decide to configure services manually. For the purpose of this article, we use the manual option. Click **Cancel**. 
+14. On the **Initial Farm Configuration Wizard** page, you have the option to use a wizard to configure services or you can decide to configure services manually. For the purpose of this article, we use the manual option. Select **Cancel**. 
     
     We recommend waiting until your SharePoint farm has at least one of each type of server role joined to it before you run the Farm Configuration Wizard.
     
