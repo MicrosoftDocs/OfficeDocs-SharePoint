@@ -30,7 +30,7 @@ In [How to display values from custom managed properties in the hover panel in S
 
 Before we look at how to add a custom action to a hover panel, let's make sure we know what an action is.
   
-At the bottom of the hover panel there are some links that are called  *actions*  . When we choose one of these, something will occur. For example, in our Search Center scenario, when we choose "SEND" 
+At the bottom of the hover panel there are some links that are called *actions*. When we choose one of these, something will occur. For example, in our Search Center scenario, when we choose "SEND" 
   
 ![Send](../media/OTCSP_Send.png)
   
@@ -51,7 +51,7 @@ In our lists, when an article is published, the URL to the published article is 
   
 Because this URL is maintained in the list, we can add a custom action to the hover panel that will open the link.
   
-[How to display values from custom managed properties in the hover panel in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-the-hover-panel.md) showed how the hover panel actions are rendered by the  *Item_Common_HoverPanel_Actions*  display template. So, to add a custom action, you have to edit this file. 
+[How to display values from custom managed properties in the hover panel in SharePoint Server](how-to-display-values-from-custom-managed-properties-in-the-hover-panel.md) showed how the hover panel actions are rendered by the *Item_Common_HoverPanel_Actions* display template. So, to add a custom action, you have to edit this file. 
   
 But, similar to what we did when we added a custom property to the hover panel, you have to add the managed property that you want to use in your custom action to the item display template.
   
@@ -67,35 +67,35 @@ Here are the steps to add a custom action to the hover panel:
   '<Current item property name>':<Managed property name>'
   ```
 
-   In our Search Center scenario, we added the custom property we wanted to use to the  *TechNet content*  display template. 
+   In our Search Center scenario, we added the custom property we wanted to use to the *TechNet content* display template. 
     
    ![Added MP](../media/OTCSP_AddedMP.png)
   
 3. > [!NOTE]
-    >You don't have do this step if you are using SharePoint Online. 
+    >You don't have do this step if you are using SharePoint in Microsoft 365. 
   
-    Go to **Site settings** --> **Search Result Types**. Notice that a **Property Sync** alert is displayed. 
+    Go to **Site settings** > **Search Result Types**. A **Property Sync** alert appears. 
     
       ![Property Sync Alert](../media/OTCSP_PropertySyncAlert.png)
   
-   This alert is displayed because we have added a new managed property to an item display template (what we did in step 2). To update the result types with the newly added managed properties, choose **Update**. 
+   This alert appears because we have added a new managed property to an item display template (what we did in Step 2). To update the result types with the newly added managed properties, select **Update**. 
     
     ![Updated MPs](../media/OTCSP_UpdateMPs.png)
   
    > [!IMPORTANT]
     > If you don't do the update, the newly added managed properties won't display in your hover panel. 
   
-4. Open the  *Item_Common_HoverPanel_Actions*  display template. See how the default actions are created, and use JavaScript and HTML to add your custom action.
+4. Open the *Item_Common_HoverPanel_Actions* display template. See how the default actions are created, and use JavaScript and HTML to add your custom action.
     
-    In our Search Center scenario, we looked at how the OPEN action ( _#= editHmtl =#_ ) is created. Based on that, we created a new action: _#= viewHtml =#_. The following screen shot shows what we did.
+    In our Search Center scenario, we looked at how the OPEN action (_#= editHmtl =#_) is created. Based on that, we created a new action: _#= viewHtml =#_. The following screen shot shows what we did.
     
      ![Action Added](../media/OTCSP_ActionAdded.png)
   
-    By doing a new search and hovering over a search result, we saw that our new custom action was displayed. Nice!
+    By doing a new search and hovering over a search result, we saw that our new custom action appeared. Nice!
     
      ![New Action Displayed](../media/OTCSP_NewActionDisplayed.png)
   
-So now that you know how to change the way your classic search results are displayed, there is one more thing we should look at, and that is how you can change the text that is displayed in the Search Box Web Part.
+So now that you know how to change the way your classic search results are displayed, there is one more thing we should look at, and that is how you can change the text that appears in the Search Box Web Part.
   
 ### Next article in this series
 

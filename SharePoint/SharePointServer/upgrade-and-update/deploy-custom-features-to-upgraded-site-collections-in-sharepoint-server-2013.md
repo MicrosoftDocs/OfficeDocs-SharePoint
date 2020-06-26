@@ -298,6 +298,6 @@ Regarding branding customizations, custom master pages are reset by default to s
 
 [Create a plan for current customizations during upgrade to SharePoint 2013](/SharePoint/upgrade-and-update/create-a-communication-plan-for-the-upgrade-to-sharepoint-2013)
   
-[SharePoint 2013 and SharePoint Online solution pack for branding and site provisioning](https://www.microsoft.com/download/details.aspx?id=42030)
+[SharePoint 2013 and SharePoint in Microsoft 365 solution pack for branding and site provisioning](https://www.microsoft.com/download/details.aspx?id=42030)
   
 [Branding issues that may occur when upgrading to SharePoint 2013](/upgrade-and-update/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md)

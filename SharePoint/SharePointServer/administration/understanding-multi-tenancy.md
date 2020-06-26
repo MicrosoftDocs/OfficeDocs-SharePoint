@@ -26,7 +26,7 @@ description: "Learn about the multi-tenancy feature and the underlying component
 This article describes the components and services related to multi-tenancy in SharePoint Server 2013 and also provides architectural, security, operational, and management guidance to help service providers in gaining an understanding of multi-tenancy in SharePoint Server 2013 for planning, designing, building, and managing a multi-tenant SharePoint Server 2013 hosting platform.
   
 > [!NOTE]
-> OneDrive for Business with Yammer integration doesn't work for multi-tenancy or partitioned service applications for on-premises deployments. 
+> Microsoft OneDrive with Yammer integration doesn't work for multi-tenancy or partitioned service applications for on-premises deployments. 
   
 ## Before you begin
 <a name="begin"> </a>
@@ -82,7 +82,7 @@ To determine the list of service applications that is available in SharePoint Se
 
 A feature pack in SharePoint is a way to group a set of site-scoped or web-scoped features together. Once the SharePoint features are grouped, they can be associated with a site subscription (i.e., tenant). All site collections in that site subscription (tenant) can use only the site-scoped or web-scoped features that are part of the feature pack. This capability enables service providers to provide tiered service offerings based on different sets of features.
   
-In SharePoint Server 2013, a new feature has been added for assigning different SharePoint licenses on a per-user basis. It also turns on SharePoint license checks at run time. This feature provides additional flexibility for a service provider to build different service offerings throughout a simplified deployment model. In previous SharePoint versions, service providers had to build different SharePoint deployment models for each SharePoint version. For additional information about SharePoint features, see the **SharePoint feature availability across on-premises solutions** section of the following article: [SharePoint Online Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description).
+In SharePoint Server 2013, a new feature has been added for assigning different SharePoint licenses on a per-user basis. It also turns on SharePoint license checks at run time. This feature provides additional flexibility for a service provider to build different service offerings throughout a simplified deployment model. In previous SharePoint versions, service providers had to build different SharePoint deployment models for each SharePoint version. For additional information about SharePoint features, see the **SharePoint feature availability across on-premises solutions** section of the following article: [SharePoint Service Description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description).
   
 #### Information Rights Management
 
@@ -250,7 +250,7 @@ Planning for user authentication types and methods should determine the followin
 
 SharePoint Server 2013 supports claims-based authentication. Active Directory Federation Services (AD FS) can be configured to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint Server 2013 web application. In this configuration, AD FS issues SAML-based security tokens consisting of claims so that client computers can access web applications that use claims-based authentication. You can use an alternative identity provider than AD FS. But it must support the WS-Federation standard. Also using AD FS configuration, custom code is required.
   
-For additional information about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+For additional info about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
   
 ## Management and operational considerations
 <a name="begin"> </a>
@@ -259,7 +259,7 @@ This section discusses various management and operational considerations for a m
   
 ### Capacity management
 
-Capacity management is an ongoing process because no implementation remains static about content and usage. You have to plan for growth and change so that the SharePoint Server 2013 environment can continue to deliver an effective business solution. For additional information about capacity management in SharePoint Server 2013, see [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/ff758647(v=office.15)).
+Capacity management is an ongoing process because no implementation remains static about content and usage. You have to plan for growth and change so that the SharePoint Server 2013 environment can continue to deliver an effective business solution. For more info about capacity management in SharePoint Server 2013, see [Capacity management and sizing overview for SharePoint Server 2013](/previous-versions/office/ff758647(v=office.15)).
   
 #### App management
 
