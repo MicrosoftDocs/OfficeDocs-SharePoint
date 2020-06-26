@@ -27,7 +27,7 @@ Microsoft has created an open source New Employee Onboarding (NEO) hub to help o
 - Help stakeholders easily contribute to new employee onboarding
 - Measure effectiveness of new employee onboarding
 
-## Why invest in a new employee onboarding site?
+### Why invest in a new employee onboarding site?
 New employee onboarding (NEO) should be a strategic process that integrates new employees into an organization and its culture while providing the knowledge and tools needed to become fully contributing team members. 
 NEO processes often fall short for both the new hires and the organization. Only 12% of employees strongly agree their organization does a great job of onboarding new employees.   An engaging and well organized NEO process can make all the difference in helping a new hire navigate through an exciting – but stressful -  career journey, and it can have major organizational benefits. 
 
@@ -48,14 +48,14 @@ Organizations with a standard onboarding process report 50% greater new-hire pro
 
 
 
-## NEO hub contents:
+### NEO hub features:
 
 - **A fully configured and customizable set of new hire related sites built on SharePoint Online communication sites:** The NEO hub includes the sites, information architecture, design, user interface and features to help provide new hires with a great onboarding experience. The NEO hub can be customized to add your organization’s new hire content and to align with its look and feel. The NEO hub sites are responsive and work as they should on mobile. 
 - **Onboarding journey:** Onboarding can be an overwhelming experience for new hires with everything the new hire is typically expected to do and learn in a short period of time. Avoid overwhelming your new employees by providing them a curated onboarding journey that paces the new hire through a configurable activity list of administrative, technology, culture, training, and connection related to-do’s. The onboarding journey comes with a pre-configured list of new employee onboarding activities for you to customize for your processes. 
 - **Sample new hire site pages:** To inspire and provide design templates for arranging your content, the NEO hub includes sample inner site pages. Use these site pages as templates for your content. 
 - **Easy provisioning:** Provision the NEO hub from the SharePoint look book with just a few steps.
 
-### New hire sites 
+### NEO hub sites: 
 New employee onboarding involves multiple levels within an organization, including corporate onboarding, and departmental onboarding. Sometimes teams within a department also need a unique onboarding experience. Each onboarding level provides its own unique value, contributing to a comprehensive onboarding experience each new employee should experience. 
 Research has shown pre-onboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. 
 To deliver a consistent and integrated new hire onboarding experience the Microsoft open source New Employee Onboarding hub consists of three types of SharePoint site templates, designed to work as one cohesive and familiar experience for new hires. 
@@ -190,7 +190,7 @@ From the corporate onboarding hub, users can access specific resources for depar
 
 
 
-## Customize the content and look of your NEO sites 
+### Customize the content and look of your NEO sites 
 Now that you’ve reviewed the pre-built pages and pre-populated content, you are ready to customize the NEO experience for your organization. 
 
 ### Navigation
