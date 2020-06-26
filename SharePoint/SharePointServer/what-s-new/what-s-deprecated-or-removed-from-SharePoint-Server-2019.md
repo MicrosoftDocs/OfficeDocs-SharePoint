@@ -96,7 +96,7 @@ There will not be a new SharePoint Designer client shipped with this release. Mi
 
 ### Site Mailbox
 
-As we announced in the SharePoint Community Blog, site mailboxes are being [deprecated](https://techcommunity.microsoft.com/t5/SharePoint-Blog/Deprecation-of-Site-Mailboxes/ba-p/93028) in SharePoint Online. Site mailboxes will remain supported, but deprecated, in the SharePoint Server 2019 release. Customers are recommend to explore shared mailboxes as an alternative to site mailboxes.
+As we announced in the SharePoint Community Blog, site mailboxes are being [deprecated](https://techcommunity.microsoft.com/t5/SharePoint-Blog/Deprecation-of-Site-Mailboxes/ba-p/93028) in SharePoint. Site mailboxes will remain supported, but deprecated, in the SharePoint Server 2019 release. Customers are recommend to explore shared mailboxes as an alternative to site mailboxes.
 
 ### Site Manager
 
@@ -108,7 +108,7 @@ The following features and functionality have been removed in SharePoint Server 
 
 ### Code-Based Sandbox Solutions
 
-As announced in the Microsoft Office Dev Center and previous articles, code-based sandbox solutions were deprecated in SharePoint Server 2013 and have now been [removed](/sharepoint/what-s-new/what-s-new) in SharePoint Online. After careful consideration, we've decided to also remove support for code-based sandbox solutions in SharePoint Server 2019. Customers are recommended to explore [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) as an alternative, which are fully supported for both SharePoint on-premises and SharePoint Online.
+As announced in the Microsoft Office Dev Center and previous articles, code-based sandbox solutions were deprecated in SharePoint Server 2013 and have now been [removed](/sharepoint/what-s-new/what-s-new) in SharePoint in Microsoft 365. After careful consideration, we've decided to also remove support for code-based sandbox solutions in SharePoint Server 2019. Customers are recommended to explore [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) as an alternative, which are fully supported for both SharePoint on-premises and SharePoint.
 
 ### Digest Authentication
 
@@ -122,7 +122,7 @@ As announced by the Windows Server team, Microsoft is [deprecating](/windows-ser
 
 ### Multi-Tenancy
 
-As Microsoft continues to innovate in SharePoint Online, an increasing amount of SharePoint multi-tenancy capabilities are taking dependencies on cloud technologies that aren't available in on-premises environments. The cost and complexity of providing an on-premises alternative has become prohibitive, so we will no longer support multi-tenancy in the SharePoint Server 2019 release. Existing SharePoint Server customers who depend on multi-tenancy are recommended to explore migrating to SharePoint Online. Other options include migrating to a non-multi-tenancy farm configuration or remaining with SharePoint Server 2016.
+As Microsoft continues to innovate in SharePoint, an increasing amount of SharePoint multi-tenancy capabilities are taking dependencies on cloud technologies that aren't available in on-premises environments. The cost and complexity of providing an on-premises alternative has become prohibitive, so we will no longer support multi-tenancy in the SharePoint Server 2019 release. Existing SharePoint Server customers who depend on multi-tenancy are recommended to explore migrating to SharePoint in Microsoft 365. Other options include migrating to a non-multi-tenancy farm configuration or remaining with SharePoint Server 2016.
 
 ### PDF Viewer (SharePoint Server 2019 Preview)
 

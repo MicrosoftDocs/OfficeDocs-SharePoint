@@ -149,7 +149,7 @@ Use the following procedure to create a custom dictionary.
 
 7.  In the **File name** box, type the file name in the following format: Custom*NNNN*.lex, where “Custom” is a literal string, *NNNN* is the four-digit hexadecimal code of the language for which you are creating the custom dictionary, and lex is the file name extension. For a list of valid file names for supported languages and dialects, see Supported languages later in this article.
 
-8.  In the **Save in** list, browse to the folder that contains the word breakers. By default, this folder is %ProgramFiles%\\Microsoft Office Servers\\14.0\\Bin for SharePoint Server 2010, %ProgramFiles%\\Microsoft Office Servers\\15.0\\Bin for SharePoint Server 2013 and %ProgramFiles%\\Microsoft Office Servers\\16.0\\Bin for Sharepoint Server 2016 and SharePoint Server 2019.
+8.  In the **Save in** list, browse to the folder that contains the word breakers. By default, this folder is %ProgramFiles%\\Microsoft Office Servers\\14.0\\Bin for SharePoint Server 2010, %ProgramFiles%\\Microsoft Office Servers\\15.0\\Bin for SharePoint Server 2013 and %ProgramFiles%\\Microsoft Office Servers\\16.0\\Bin for SharePoint Server 2016 and SharePoint Server 2019.
     
 
     > [!NOTE]
@@ -169,7 +169,7 @@ There must be a copy of the custom dictionary on each application server in the 
 
 1.  Verify that the user account that is performing this procedure is a member of the Administrators group on each application server (that is, each crawl server or query server) in the farm.
 
-2.  On each application server in the farm, copy the new custom dictionary file to the folder that contains the word breakers. By default, this folder is %ProgramFiles%\\Microsoft Office Servers\\14.0\\Bin for SharePoint Server 2010, %ProgramFiles%\\Microsoft Office Servers\\15.0\\Bin for SharePoint Server 2013 and %ProgramFiles%\\Microsoft Office Servers\\16.0\\Bin for Sharepoint Server 2016 and SharePoint Server 2019.
+2.  On each application server in the farm, copy the new custom dictionary file to the folder that contains the word breakers. By default, this folder is %ProgramFiles%\\Microsoft Office Servers\\14.0\\Bin for SharePoint Server 2010, %ProgramFiles%\\Microsoft Office Servers\\15.0\\Bin for SharePoint Server 2013 and %ProgramFiles%\\Microsoft Office Servers\\16.0\\Bin for SharePoint Server 2016 and SharePoint Server 2019.
     
 
     > [!NOTE]

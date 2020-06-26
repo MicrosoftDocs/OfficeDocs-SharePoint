@@ -28,7 +28,7 @@ The following table lists the default timer jobs for SharePoint Server 2016.
   
 |**Timer job**|**Description**|**Default schedule**|
 |:-----|:-----|:-----|
-|Access Services monitor  <br/> |Monitors the connectivity of Access Services on SharePoint Online and SQL Azure.  <br/> |5 minutes  <br/> |
+|Access Services monitor  <br/> |Monitors the connectivity of Access Services on SharePoint and SQL Azure.  <br/> |5 minutes  <br/> |
 |Access Services provider for SQL connection statistics (SQL Azure only)  <br/> |Provides the statistics on connections to SQL for Access Services (SQL Azure only).  <br/> |Daily  <br/> |
 |Access Services provider for SQL Event Log (SQL Azure only)  <br/> |Gathers the SQL Server Event Log for Access Services (SQL Azure only).  <br/> |Daily  <br/> |
 |App installation service  <br/> |Installs and uninstalls apps.  <br/> |5 minutes  <br/> |
@@ -167,7 +167,7 @@ The following table lists the default timer jobs for SharePoint Server 2016.
 |Solution resource usage update  <br/> |Records resource usage data from sandboxed solution execution, and sends email to owners of site collections that are exceeding their allocated resource quota.  <br/> |15 minutes  <br/> |
 |State Service delete expired sessions  <br/> |Deletes expired data that is stored in the state service databases.  <br/> |Hourly  <br/> |
 |Storage metrics processing  <br/> |Processes storage metrics changes for site collections.  <br/> |5 minutes  <br/> |
-|Taxonomy groups replication  <br/> |A timer job for hybrid connected servers that updates the local SharePoint Server term store with the latest term changes made to the Enterprise Metadata service in the hybrid connected SharePoint Online tenant.  <br/> |Daily  <br/> |
+|Taxonomy groups replication  <br/> |A timer job for hybrid connected servers that updates the local SharePoint Server term store with the latest term changes made to the Enterprise Metadata service in the hybrid connected SharePoint tenant.  <br/> |Daily  <br/> |
 |Taxonomy update scheduler  <br/> |Updates site collections with the latest term changes that were made to the Enterprise Metadata service.  <br/> |Hourly  <br/> |
 |Timer service recycle  <br/> |Recycles the Timer service to free resources.  <br/> |Daily  <br/> |
 |Translation Export Job Definition  <br/> |Exports page and list content to XLIFF for human translation or machine translation via the Machine Translation Service.  <br/> |15 minutes  <br/> |

@@ -267,7 +267,7 @@ Use the preceding illustration as a guide to follow the recommended steps in the
   
  **To install the update by using the database-attach method**
   
-1. Create a new farm where you will install the software update. This farm does not require front-end web servers. For more information, see [Create the SharePoint 2016 farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade).
+1. Create a new farm where you will install the software update. This farm does not require front-end web servers. For more info, see [Create the SharePoint 2016 farm for a database attach upgrade](/sharepoint/upgrade-and-update/create-the-sharepoint-server-2016-farm-for-a-database-attach-upgrade).
     
     >[!NOTE]
     >If the original farm uses a database mirror, configure mirroring after you deploy the software update on the new farm. 

@@ -185,7 +185,7 @@ Before you can use any of the Microsoft PowerShell cmdlets, verify that you meet
 
 ### c. Recover the Access Services App Databases
 
-Again as with the other databases your choice of technique depends on the RTO and RPO. However, to carry out the recovery all you need to do is restore, or recover, the databases to the secondary server that has been correctly registered in Access Services using the **ServerReferenceID** of the primary database server. This is detailed in [Configure hybrid OneDrive for Business](../hybrid/configure-hybrid-onedrive-for-business.md).
+Again as with the other databases your choice of technique depends on the RTO and RPO. However, to carry out the recovery all you need to do is restore, or recover, the databases to the secondary server that has been correctly registered in Access Services using the **ServerReferenceID** of the primary database server. This is detailed in [Configure hybrid OneDrive](../hybrid/configure-hybrid-onedrive-for-business.md).
   
 ## Step 3: Configuration Actions Post Failover
 

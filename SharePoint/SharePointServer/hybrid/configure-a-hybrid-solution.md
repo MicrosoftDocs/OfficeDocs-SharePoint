@@ -18,7 +18,7 @@ ms.collection:
 - M365-collaboration
 - SPO_Content
 ms.assetid: ad39b1b5-a73b-4a48-af5e-4f032ea52e1d
-description: "Configure a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Microsoft 365."
+description: "Configure a SharePoint hybrid solution between SharePoint Server and SharePoint in Microsoft 365."
 ---
 
 # Configure a hybrid solution for SharePoint Server

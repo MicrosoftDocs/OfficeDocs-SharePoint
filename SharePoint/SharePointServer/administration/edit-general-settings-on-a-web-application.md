@@ -37,31 +37,31 @@ Use the procedure described in this section to edit a SharePoint Server web appl
     
   - For Windows Server 2008 R2:
     
-  - Click **Start**, click **SharePoint 2016**, and then click **SharePoint 2016 Central Administration**.
+  - Select **Start**, select **SharePoint 2016**, and then select **SharePoint 2016 Central Administration**.
     
   - For Windows Server 2012:
     
-  - On the **Start** screen, click **SharePoint 2016 Central Administration**.
+  - On the **Start** screen, select **SharePoint 2016 Central Administration**.
     
     If **SharePoint 2016 Central Administration** is not on the **Start** screen: 
     
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Central Administration**.
+  - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Central Administration**.
     
-    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
+    For more info about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
-3. On the Central Administration home page, click **Application Management**.
+3. On the Central Administration home page, select **Application Management**.
     
-4. On the **Application Management** page, in the **Web Applications** section, click **Manage web applications**.
+4. On the **Application Management** page, in the **Web Applications** section, select **Manage web applications**.
     
-5. Click on the web application that you want to edit.
+5. Select the web application that you want to edit.
     
-6. In the ribbon, from the **WEB APPLICATIONS** tab, click **General Settings**, and do the following:
+6. In the ribbon, from the **WEB APPLICATIONS** tab, select **General Settings**, and do the following:
     
-  - To change the default time zone for sites that are created on the web application, in the **Default Time Zone** section, from the **Select time zone** drop-down list, select a time zone. 
+  - To change the default time zone for sites that are created on the web application, in the **Default Time Zone** section, from the **Select time zone** dropdown, select a time zone. 
     
-  - To change the user settings provider for sites that are created on the web application, in the **User Settings Provider** section, from the **Select User Settings Provider** drop-down list, select a user settings provider. 
+  - To change the user settings provider for sites that are created on the web application, in the **User Settings Provider** section, from the **Select User Settings Provider** dropdown, select a user settings provider. 
     
-  - To change the default quota template for site collections created on the web application, in the **Default Quota Template** section, from the **Select quota template** drop-down list, select a quota template. 
+  - To change the default quota template for site collections created on the web application, in the **Default Quota Template** section, from the **Select quota template** dropdown, select a quota template. 
     
   - To disable person name actions and online presence information from being shown on sites on the web application, in the **Person Name Actions and Presence Settings** section, from **Enable additional actions and Online Status for members**, select **No**. 
     
@@ -77,7 +77,7 @@ Use the procedure described in this section to edit a SharePoint Server web appl
     
   - To disable security validation for sites on the web application, in the **Web Page Security Validation** section, from **Security validation is**, select **Off**. To change the expiration time for a security validation, change the settings for **Security validation expires** accordingly. 
     
-  - To disable the ability to send users their user name and password by e-mail, in the **Send User Name and Password in E-Mail** section, from **Send user name and password**, select **No**.
+  - To disable the ability to send users their user name and password by email, in the **Send User Name and Password in E-Mail** section, from **Send user name and password**, select **No**.
     
   - To deny pages in the _Layouts folder to reference site master pages for sites on the web application, in the **Master Page Settings for Application _Layouts Page**, from **Application _Layout pages reference site master pages**, select **No**.
     
@@ -92,7 +92,7 @@ Use the procedure described in this section to edit a SharePoint Server web appl
     > [!IMPORTANT]
     > Local legal restrictions might apply when you enable usage cookies on sites that have anonymous users. 
   
-7. To save your changes to this web application, click **OK**.
+7. To save your changes to this web application, select **OK**.
     
 ## See also
 <a name="section1"> </a>
