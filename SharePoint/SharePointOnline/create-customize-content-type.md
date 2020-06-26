@@ -21,7 +21,7 @@ description: "Learn how to create or customize a content type in the SharePoint 
 
 Content types help make it easy to provide consistency across a site. You create or customize a content type with the characteristics that you want, such as a certain template, specific metadata, and so on. For example, when a user chooses an item from the **New Item** or **New Document** menu, you can ensure that customized content is used.
 
-Content types created in SharePoint admin center are saved to the SharePoint content type hub.
+Content types created in SharePoint admin center are saved to the SharePoint content type hub located at /sites/ContentTypeHub.
 
 ![New Document Menu](media/new-document-menu.png)
 
