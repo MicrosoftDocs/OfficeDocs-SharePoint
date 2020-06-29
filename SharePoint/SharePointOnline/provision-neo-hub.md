@@ -70,19 +70,23 @@ To deliver a consistent and integrated new hire onboarding experience the Micros
 ## Step 1: Provision NEO hub
 The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, an Office 365 Tenant Administrator can start the provisioning process with a few simple clicks. It is fast, easy, and takes only a few minutes to start the process. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
+
 ### Prerequisites
 To successfully set up the NEO hub via the SharePoint look book, the person doing the provisioning must be a Tenant Administrator of the tenant where the NEO hub will be provisioned.
 
 
 ### Provision the NEO hub
+
+
+
 1.	Go to the [NEO hub solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
 2.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Tenant Admin credentials.
 3.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
-The provisioning service requires these permissions to create the tenant app catalog, install the application into the tenant app catalog and provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
-4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the destination URL for your site to be provisioned to.
+The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
+4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the url prefix for your site to be provisioned to.
 
 > [!NOTE]
-> Make the destination URL for your site something intuitive for your team members such as "/sites/MyTraining" or "/teams/LearnMicrosoft365".
+> The provisioning of the NEO Hub will result in four separate site collections getting installed in your tenant: i) Pre-Onboarding site, ii) Corporate new hire site, iii) Engineering new hire site, and iv) Sales new hire site. To differentiate these four sites from each other in terms of the url’s that get assigned, you must confirm a url prefix that will get applied to each of the four sites – e.g., i) neo/preonboarding, ii) neo/corporate, iii) neo/engineering, and iv) neo/sales. Make the url prefix for your site something intuitive for your team members such as "/sites/MyTraining" or "/teams/LearnMicrosoft365".
 
 
 6.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take up to 15 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
@@ -99,7 +103,7 @@ As the Tenant Admin, it's unlikely you'll be the person customizing the sites, s
 
 
 ## Step 2: Customize the onboarding experience 
-The New Employee Onboarding (NEO) hub consists of three SharePoint site templates that can be customized to fit the needs of your users and organization. Many of the core pages are already built and pre-populated with content. Review content on sites and pages, then plan on customizing content, images, branding, web parts, and pages.
+The New Employee Onboarding (NEO) hub consists of four SharePoint site templates that can be customized to fit the needs of your users and organization. Many of the core pages are already built and pre-populated with content. Review content on sites and pages, then plan on customizing content, images, branding, web parts, and pages.
 
 It’s important to make sure the right content is available to users at the right time. It’s also important to make new employees feel welcome before their first day. Organizations with a standardized onboarding process report 50% greater new-hire productivity.    Alternatively, employees who have a negative onboarding experience are twice as likely to look for new opportunities shortly after starting a new job.    
 
@@ -114,7 +118,7 @@ Before you customize content in the NEO experience, ensure you understand the ne
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
 
 > [!NOTE]
-> The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites. [Learn more about hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
+> The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites. [Learn more about SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
 
 
 3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department. Consider associating departmental onboarding sites with existing department portals if you have them.
@@ -137,7 +141,7 @@ Before you customize content in the NEO experience, ensure you understand the ne
 This is where new hire starts their onboarding journey. This site is for new hires who have accepted their job offer but have not officially joined the company yet. In this stage, new hires will be interested in learning more about the company, how to get ready for their official start date, and who to go to for questions. 
 
 > [!NOTE]
-> The NEO hub comes with many pre-build pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
+> The NEO hub comes with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
 
 ![Image the pre-onboarding site](media/preneo.png)
  
@@ -170,10 +174,9 @@ This is the hub for the new employee onboarding experience and is designed to pr
 - **Community** – Help new hires start building community right away and make sure new hires are aware of Employee resource groups and other connection channels.
 - **Departmental onboarding** – Provide an entry point to departmental-level information from the hub navigation where users can access departmental onboarding sites. Templates for an Engineering and Sales onboarding site have been included. Use these site templates as both a source of inspiration of what your organization’s departmental onboarding sites could look like and to accelerate the creation of these sites for your organization.  	
 
-##### Pre-populated site (Contoso onboarding) contents:
-- **Home page** – Provide a high-level view of big concepts that will be relevant to new users.
-- **Start here** – Specify what new hires can expect in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page.
-
+##### Pre-populated site (Corporate new hire site) contents:
+- **Home page** – Provide a high-level view of big concepts that will be relevant to new users. This is a great location to help new employees build their network and learn from more experienced and knowledgeable employees with [Microsoft Teams live events](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events#:~:text=Microsoft%20365%20live%20events%20bring%20live%20video%20streaming,community%20resides%2C%20using%20Microsoft%20Stream%2C%20Teams%2C%20or%20Yammer.)
+- **Start here** – Specify what new hires should do in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page. The new hire checklist found in this section comes pre-populated with a set of generic onboarding activities. Customize list content to meet your needs. [Learn more about working with SharePoint lists](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7).
 
 
 #### Departmental onboarding:
@@ -202,7 +205,7 @@ Now that you’ve reviewed the pre-built pages and pre-populated content, you ar
 
 #### Navigation
 
-Site navigation is important because it helps users immediately understand what they can accomplish on a given site. The most effective SharePoint sites help viewers find what they need quickly so that they can use the information they to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem. Edit the hub and site navigation for all three NEO site designs to meet the needs of your audience and organization. [Learn how to edit site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca). 
+Site navigation is important because it helps users immediately understand what can be accomplished on a given site. The most effective SharePoint sites help viewers find what they need quickly so that they can use the information to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem. Edit the hub and site navigation for all three NEO site designs to meet the needs of your audience and organization. [Learn how to edit site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca). 
 
  
 #### Web parts
@@ -213,6 +216,8 @@ Customize web parts with images, labels, links, and content that align with your
 - **Image web part** – Use the [Image web part](https://support.microsoft.com/office/use-the-image-web-part-a63b335b-ad0a-4954-a65d-33c6af68beb2) to add an image to a page.
 - **Quick links web part** – Organize and display links to other resources with the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
 - **People web part** – Use the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display profile photos, contact information, and organizational information for people at work.
+- **Twitter web part** - Use the [Twitter web part](https://support.microsoft.com/office/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820) to highlight topics and conversations on SharePoint pages.
+- **YouTube web part** - Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f) to embed YouTube videos right on your page.
 
 #### Site theme and branding
 Edit the look of your SharePoint site to align with your organization's brand. Customize the site display name, logo, theme, header layout, navigation style, and more in the [Change the look panel](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b).
@@ -225,7 +230,7 @@ SharePoint hub sites help connect and organize sites based on project, departmen
 - Apply common navigation, branding, and site structure across associated sites
 - Search across all associated sites. 
 
-Consider associating the your existing departmental onboarding sites to your new NEO hub. Learn how [hub site associations](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05) work and how to manage hub settings for your organization. Learn more about [SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
+Considering associating your departmental new hire sites to your existing departmental onboarding site. Learn how [hub site associations](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05) work and how to manage hub settings for your organization. Learn more about [SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
 
 
 
@@ -290,7 +295,7 @@ As a SharePoint site owner, you can view site usage data that shows you how user
 
 The NEO Hub should present the most up to date content your organization has to offer, so you’ll need to commit to maintaining relevant content throughout the experience. Develop a plan to audit content and refresh web parts as needed to ensure contact information, FAQs, the onboarding checklist, and People web parts are up tp date. Learn more about [managing communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
 
-- Train site owners and authors. Make sure all site owners and authors have appropriate training to maintain the site. Link to docs
+- Train site owners and authors. Make sure all site owners and authors have appropriate training and access to [maintain the site](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f).
 - Update content in web parts. Keep web parts like the People web part updated to ensure you are leveraging the full value of the NEO Hub.
 - Review previously established metrics after the launch. Use insights from [site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to promote content on the home page, update navigation, or re-write content for clarity.
 - Establish a schedule to audit content. Plan when site owners should audit content in advance to make sure your sites are always up to date.
@@ -303,23 +308,11 @@ The NEO Hub should present the most up to date content your organization has to 
 **Answer**:
 - SharePoint Online and Communication Sites enabled.
 - The individual that will be provisioning CLO365 must be the tenant administrator of the target tenant for install.
-- The individual that will be provisioning CLO365 must be a site collection administrator of the app catalog in the target tenant for install.
+
 
 **Question**: How long will it take to install the site in our tenant environment?
 **Answer**: Based on our testing of the installation, it should take less than 15 minutes. This does not include time required to customize the site to your requirements.
 
-**Question**: Can I invite external guests to the Pre-Onboarding New Hire site that don’t have a Microsoft Outlook or current Office 365 account? 
-**Answer**: TBD
-
-**Question**: Is Microsoft 365 learning pathways an open source solution and what are the implications?
-**Answer**: [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is an Open Source Software (OSS) solution and as such carries a set of benefits and considerations to OSS:
-*Benefits*
-- **Microsoft 365 learning pathways is a free solution**: Customers can install the solution in their tenant, customize it and make it available to end users
-- **OSS enables rapid development and collaboration**: All open source solutions are available to a broad community of contributors. Microsoft is committed to this method of driving innovation. To ensure we are delivering an experience that benefits the widest set of our customers our core service management team will reserve the right to determine what contributions are merged into our official build.
-- **OSS enables collaboration with partners**: Microsoft is working with several learning partners to support their efforts for future extensions and contributions to Microsoft 365 learning pathways. We will provide more information as these plans become finalized.
-Implications
-- **OSS is not a commercially available product**: Commercial products include updating and patching and are included in fee-based support contracts. While Microsoft currently offers documentation, updating and patching for Microsoft 365 learning pathways it is based on our commitment to improving this particular business scenario. Our plans are to continue investing in learning pathways, but customers should be aware that our service management team may change strategies in the future. Any future changes to Microsoft 365 learning pathways will be communicated in advance of taking effect.
-- **As OSS, Microsoft 365 learning pathways is supported through an online issues list on GitHub**: Microsoft 365 learning pathways is not covered by any existing Microsoft support contract. Submitted issues are triaged by Microsoft 365 learning pathways service owners and the community. Issue resolution service levels are NOT at the same level as a paid Microsoft support contract.
 
 
 **Sources**:
@@ -329,9 +322,6 @@ Implications
  -  Source: Digitate, Super CIO: What the CIO sees—that other people don’t, 2018
 
 
-
-### Feedback 
-Share your feedback with us. Our solution is only a success if it is enabling your business to achieve more. Please help us to make it better by giving us regular feedback through UserVoice. We regularly review comments and questions.
 
 
 
