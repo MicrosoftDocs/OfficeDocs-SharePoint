@@ -91,15 +91,17 @@ The provisioning service requires these permissions to provision the site templa
 
 6.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take up to 15 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
 
+### Enable external sharing for the Pre-onboarding site
 
-### Add owners to the site
+The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](https://review.docs.microsoft.com/sharepoint/change-external-sharing-site?branch=hokavian-neo-hub) for the Pre-onboarding site.  
+
+### Add owners to all sites
 As the Tenant Admin, it's unlikely you'll be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
 1.	From the SharePoint **Settings** menu, select **Site Permissions**.
 2.	Select **Advanced Permission Settings**.
 3.	Select **Microsoft 365 learning pathways Owners**.
 4.	Select **New > Add Users to this group**, and then add the people you want to be site owners.
 5.	Include the site URL in the Share message, and then select **Share**.
-
 
 
 ## Step 2: Customize the onboarding experience 
@@ -249,11 +251,14 @@ After customizing content, get ready to share the new onboarding experience with
 ### Pre-onboarding site: External guest access 
 
 > [!NOTE]
-> If you are unable to add visitors to the pre-boarding site, work with your SharePoint administrator to [configure guest settings](https://docs.microsoft.com/sharepoint/change-external-sharing-site). 
+> If you are unable to add visitors (external users, also referred to as guests) to the pre-boarding site, work with your SharePoint administrator to [turn on external sharing for a SharePoint site](https://docs.microsoft.com/sharepoint/change-external-sharing-site). 
 
+As a site owner, you can give external people access to the site by adding them as a **visitor**.
 
-<<<<<<<Need to validate guidance here>>>>>>>>>
-
+1. Select **Share site** from the right hand corner, or access permissions in **Settings > Site permissions**. 
+2. In the Share site pane, enter the names of people to add them to the site. The permission level will be ready only.
+4. Enter an optional message to send to the person, or clear the Send email box if you don't want to send an email.
+5. Select **Share.**
 
 ### Corporate new hire site and departmental sites
 
@@ -305,12 +310,14 @@ The NEO Hub should present the most up to date content your organization has to 
 ## NEO hub FAQs
 
 **Question**: What are the requirements for installing the New Employee Onboarding (NEO) Hub into my tenant environment?
+<br>
 **Answer**:
 - SharePoint Online and Communication Sites enabled.
 - The individual that will be provisioning CLO365 must be the tenant administrator of the target tenant for install.
 
 
 **Question**: How long will it take to install the site in our tenant environment?
+<br>
 **Answer**: Based on our testing of the installation, it should take less than 15 minutes. This does not include time required to customize the site to your requirements.
 
 
