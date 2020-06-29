@@ -791,7 +791,7 @@ A heading for the source and destination, followed by the paths, and optional ta
 
 Download an example CSV:
 
-**example_CSV_map.csv**
+[example_CSV_map.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_CSV_map.csv)
 
 >[!Note]
 >When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.

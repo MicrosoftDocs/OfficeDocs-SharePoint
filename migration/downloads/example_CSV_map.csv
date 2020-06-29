@@ -1,0 +1,6 @@
+Source Path,Destination Path,Tags
+user1@example.com,user__1@corp.example.com,"Pilot, IT"
+user2@example.com,user__2@corp.example.com,"Pilot, Sales"
+user3@example.com/src dir,user3@example.com/migrated,"Pilot, IT"
+Source Shared Drive,user4@example.com/Team Folder,"Pilot, Sales"
+https://TENANT02.sharepoint.com/sites/SiteName/Shared%20Documents,user5@example.com,"Marketing, Sales"
