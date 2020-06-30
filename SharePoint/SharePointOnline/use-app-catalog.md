@@ -166,7 +166,7 @@ If you upload a custom app to the App Catalog, it is automatically available for
 ## Remove an app from the App Catalog
 <a name="__toc347303053"> </a>
 
-If you no longer want a specific app to be available for users to install, you can remove it from the app catalog. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
+If you no longer want a specific app to be available for users to install, you can remove it from the App Catalog. Any instances of the app that have already been added to sites by users will remain, but the app will no longer be available for users to add to additional sites.
   
 1. On the **App Catalog** site, select the **Apps for SharePoint** list.
     
