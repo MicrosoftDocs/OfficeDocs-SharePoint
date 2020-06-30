@@ -113,9 +113,6 @@ After the site address is changed, sharing links will automatically redirect to 
 The OneDrive sync app will automatically detect and seamlessly transfer syncing to the new site URL after the site address has been changed. Users don't need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync app required.) 
 If a user updates a file while the site address is being changed, they'll see a message that file uploads are pending during the change. 
 
-**Recycle bin**
-Any files in the recycle bin will be lost when the site address is changed. 
-
 **Recent lists in Office apps**<br>
 The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.  
 
