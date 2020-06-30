@@ -48,8 +48,8 @@ This article covers all the features on the sharing page of the classic SharePoi
 |**Classic**|**New**|
 |:-----|:-----|
 |**Default link type** <br/> Direct - specific people <br/> Internal - only people in your organization <br/> Anonymous Access - anyone with the link |**File and folder links**  <br/> **Choose the type of link that's selected by default when users share files and folders in SharePoint and OneDrive.** <br/> Specific people (only the people the user specifies) <br/> Only people in your organization <br/> Anyone with the link  |
-|Use shorter links when sharing files and folders | **Other settings**<br/>Use short links for sharing files and folders|
-|<br/> **Default link permission** <br/> View <br/> Edit <br/> |**Choose the permission that's selected by default for sharing links.** <br/> View <br/> Edit <br/>|
+|Use shorter links when sharing files and folders | **Other settings**<br/>Use short links for sharing files and folders |
+|**Default link permission** <br/> View <br/> Edit <br/> |**Choose the permission that's selected by default for sharing links.** <br/> View <br/> Edit <br/>|
 
 ## Additional settings
 
