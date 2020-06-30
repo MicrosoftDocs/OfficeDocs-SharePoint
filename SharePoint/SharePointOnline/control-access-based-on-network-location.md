@@ -31,8 +31,7 @@ As an IT admin, you can control access to SharePoint and OneDrive resources in M
 To do this, you define a trusted network boundary by specifying one or more authorized IP address ranges. Any user who attempts to access SharePoint and OneDrive from outside this network boundary (using web browser, desktop app, or mobile app on any device) will be blocked.
 
 > [!IMPORTANT]
-> This feature relies on Azure AD Conditional Access policies being available.  You will need an AAD Premium P1 or P2 subscription for this to work.  For more information on this fact, refer to the announcment in the Azure Active Directory Identity Blog:
-> [https://techcommunity.microsoft.com/t5/azure-active-directory-identity/conditional-access-8220-limited-access-8221-policies-for/ba-p/245228](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/conditional-access-8220-limited-access-8221-policies-for/ba-p/245228)
+> This feature relies on Azure AD Conditional Access policies being available. You will need an Azure AD Premium P1 or P2 subscription for this to work. For more info about this, refer to the [announcement in the Azure Active Directory Identity Blog](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/conditional-access-8220-limited-access-8221-policies-for/ba-p/245228).
   
 ![Access restricted message in browser](media/7efa9e14-cd9e-4369-8f24-c218c222025d.png)
   
