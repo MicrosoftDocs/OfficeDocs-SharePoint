@@ -794,7 +794,7 @@ Download an example CSV:
 [example_CSV_map.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_CSV_map.csv)
 
 >[!Note]
->When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
+> When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise, the URL fails.
 
 For example, this full URL won't work:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents/Forms/AllItems.aspx`
