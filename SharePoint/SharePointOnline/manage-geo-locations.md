@@ -19,27 +19,28 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 
-description: "In this article, you'll learn about managing geo locations in the new SharePoint admin center."
+description: "In this article, you'll learn where to find geo location features in the new SharePoint admin center."
 ---
 
-# Find geo locations in the new SharePoint admin center
+# Find geo location features in the new SharePoint admin center
 
 This article covers all the features on the geo locations page and where you can find them in the new SharePoint admin center.
 
-![Ribbon on geo locations page](media/geo-locations-menu.png)
+In the new SharePoint admin center, you can also add and delete satellite locations and see the storage usage for the current location. 
 
 ## Manage geo locations
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![New geo locations](media/new-geo-locations.png)<br/> To administer SharePoint for a different location, click it on the map. |![Classic geo locations](media/classic-geo-locations.png)<br/> To administer the corresponding geo location, select the appropriate location link. |
+|![Classic geo locations](media/classic-geo-locations.png) |![New geo locations](media/new-geo-locations.png)<br/> Go to the [Geo locations page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=geoLocations&modern=true)|
 
 |**Classic**|**New**|
 |:-----|:-----|
-|  <br/> |+ Add location  <br/> |
-|Central Location <br/> |Central location  <br/> |
-|Satellite Locations  <br/> |   <br/> |
-|  <br/> |Storage for <<central location>>  <br/> |
+|Switch between locations |   Select a different location on the map or from the list at the top of the navigation pane. |
+| Identify the central location |Look for the pin on the map. <br/> |
+|See list of satellite locations <br/> | Expand the list at the top of the navigation pane. |
+
+
 
 
 
