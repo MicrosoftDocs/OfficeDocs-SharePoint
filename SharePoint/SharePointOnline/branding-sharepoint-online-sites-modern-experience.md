@@ -1,8 +1,8 @@
 ---
 title: Branding your SharePoint site
 ms.reviewer: cathed
-ms.author: clake
-author: spowriter
+ms.author: loreenl
+author: loreenla
 manager: pamgreen
 audience: Admin
 f1.keywords:

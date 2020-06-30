@@ -26,7 +26,7 @@ description: "Learn what prerequisites you'll need to configure hybrid for Share
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
-This article describes the prerequisites that are required to deploy a SharePoint hybrid solution between SharePoint Server and SharePoint Online in Microsoft 365 for enterprises.
+This article describes the prerequisites that are required to deploy a SharePoint hybrid solution between SharePoint Server and SharePoint in Microsoft 365 for enterprises.
   
 ## Hardware and software requirements
 
@@ -34,7 +34,7 @@ This article describes the prerequisites that are required to deploy a SharePoin
     
 - An operational SharePoint Server farm. Services must be running on the local farm - farms with federated services are not supported. For more information about setting up a farm, see [Install SharePoint Server](../install/install.md).
     
-- A [properly configured Microsoft 365 organization](configure-office-365-for-sharepoint-hybrid.md) that is provisioned with SharePoint Online with one of the following subscription plans: E1 supports [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) only, E3, or E4. 
+- A [properly configured Microsoft 365 organization](configure-office-365-for-sharepoint-hybrid.md) that is provisioned with SharePoint in Microsoft 365 with one of the following subscription plans: E1 supports [Display hybrid federated search results in SharePoint Server](display-hybrid-federated-search-results-in-sharepoint-server.md) only, E3, or E4. 
     
 ## Certificate requirements
 <a name="CertReq"> </a>
@@ -52,7 +52,7 @@ The following hybrid solutions require inbound connectivity from Microsoft 365 t
     
 - Hybrid Business Connectivity Services
     
-- Hybrid Duet Enterprise Online for Microsoft SharePoint and SAP
+- Hybrid Duet Enterprise Online for Microsoft SharePoint in Microsoft 365 and SAP
     
 For each of these hybrid solutions, the requirements in the following sections apply.
   

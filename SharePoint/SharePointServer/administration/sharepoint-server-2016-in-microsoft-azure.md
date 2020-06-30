@@ -26,7 +26,7 @@ description: "Find out why Microsoft Azure is the best place to host your ShareP
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]  
   
-To realize the productivity and collaboration benefits of SharePoint, Microsoft recommends SharePoint Online with Microsoft 365. If SharePoint Online is not the best option for you right now, you can deploy SharePoint Server 2016 on intranet servers, which can be in your on-premises datacenter or hosted in Microsoft Azure infrastructure services. Whether it's for development, testing, staging, production, or disaster recovery purposes, Azure is a perfect home for your SharePoint farms in the cloud.
+To realize the productivity and collaboration benefits of SharePoint, Microsoft recommends SharePoint in Microsoft 365. If SharePoint in Microsoft 365 is not the best option for you right now, you can deploy SharePoint Server 2016 on intranet servers, which can be in your on-premises datacenter or hosted in Microsoft Azure infrastructure services. Whether it's for development, testing, staging, production, or disaster recovery purposes, Azure is a perfect home for your SharePoint farms in the cloud.
   
 Here are some of the benefits:
   

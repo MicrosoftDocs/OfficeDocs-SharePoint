@@ -166,7 +166,7 @@ When you have finished creating your report, the next step is to save it to a Sh
     
 3. Type the URL of the SharePoint document library where you want to save the file.
     
-4. Type a filename, and then click **Save**.
+4. Type a file name, and then click **Save**.
     
 Once the workbook has been saved to SharePoint Server 2013, you can render it using Excel Services and the data will refresh based on the refresh settings configured in the Excel Services trusted file location settings.
   
