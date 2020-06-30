@@ -13,10 +13,6 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
-search.appverid:
-- SPO160
-- MOE150
-- MET150
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: d5089cdf-3fd2-4230-acbd-20ecda2f9bb8
