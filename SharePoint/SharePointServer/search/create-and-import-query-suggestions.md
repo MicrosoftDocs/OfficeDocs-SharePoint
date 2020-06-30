@@ -40,18 +40,14 @@ SharePoint Server automatically creates a query suggestion when users have click
   
 Now that you have a query suggestions file, the next task is to import it to SharePoint Server.
   
-## How to import a query suggestions file to SharePoint Online
+## How to import a query suggestions file to SharePoint
 <a name="BKMK_HowToImportQuerySuggestionsFileToSharepointOnline"> </a>
 
-1. From the Microsoft 365 Admin menu, select **SharePoint**. 
-    
-     ![Share Point Menu](../media/OTCSP_SharePointMenu.png)
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+
+2. Under **Search**, select **Open**.
   
-2. On the **SharePoint admin center**, select **search**. 
-    
-     ![Click Search](../media/OTCSP_search.png)
-  
-3. On the **search administration** page, select **Query Suggestion Settings**. 
+3. Select **Query Suggestion Settings**. 
     
      ![Select Query Suggestion Settings](../media/OTCSP_QuerySuggestionSettings.png)
   

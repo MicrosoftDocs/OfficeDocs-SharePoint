@@ -69,7 +69,7 @@ We now support storing files up to 15 GB in SharePoint document libraries. This 
 
 ### Modern lists and libraries
 
-SharePoint Server 2019 contains the modern experiences for lists and libraries in Team sites. This brings the experience up to date with that found in SharePoint Online.
+SharePoint Server 2019 contains the modern experiences for lists and libraries in Team sites. This brings the experience up to date with that found in SharePoint in Microsoft 365.
 
 ### Modern sharing experiences
 
@@ -77,7 +77,7 @@ SharePoint Server 2019 now supports modern sharing experiences with a simplified
 
 ### Modern Site Pages, modern web parts and authoring
 
-SharePoint Server 2019 users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by clicking **New** > **Site Page**.
+SharePoint Server 2019 users can now add modern site pages and modern web parts on team sites. Do this in the **Add a Page** in Site Actions or in the pages library by selecting **New** > **Site Page**.
 
 ### Modern search experience
 SharePoint Server 2019 offers a modern search experience in addition to the classic one.
@@ -148,7 +148,7 @@ SharePoint Server 2019 now supports authenticating to SMTP servers when sending 
 
 ### Sync files with the new OneDrive sync app (OneDrive.exe)
 
-Users can use the new OneDrive sync app instead of the previous OneDrive for Business sync app (Groove.exe) to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Configure syncing with the new OneDrive sync app](/sharepoint/install/new-onedrive-sync-client).
+Users can use the new OneDrive sync app instead of the previous OneDrive sync app (Groove.exe) to sync files in your SharePoint Server 2019 team sites and personal sites with your devices. The OneDrive sync app supports advanced features such as Files On-Demand, push notification, and IRM protection, while still being easy to use. For more information, see [Configure syncing with the new OneDrive sync app](/sharepoint/install/new-onedrive-sync-client).
 
 ### Use of # and % characters in file and folder names
 
@@ -214,7 +214,7 @@ This file path length limit increase makes it easier to sync deeply nested conte
 
 - A SharePoint hybrid status bar was added to the top of Central Administration. The hybrid status bar will appear once the SharePoint Server 2019 farm meets the minimum system requirements needed to enable hybrid, and will give you direct access to launch the SharePoint Hybrid Configuration Wizard.
 
-- We've added and updated hybrid links throughout Central Administration to launch the SharePoint Hybrid Configuration Wizard. This lets you skip clicking through multiple pages in the SharePoint Online Admin Center just to get to the SharePoint Hybrid Configuration Wizard.
+- We've added and updated hybrid links throughout Central Administration to launch the SharePoint Hybrid Configuration Wizard. This lets you skip clicking through multiple pages in the SharePoint Admin Center just to get to the SharePoint Hybrid Configuration Wizard.
 
 ### Recycle Bin restore improvements
 
@@ -226,7 +226,7 @@ Sharing email notifications have been refreshed to use a modern template design.
 
 ### Suite Navigation and App Launcher improvements
 
-We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Microsoft 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint Online.
+We've refreshed Suite Navigation and App Launcher in SharePoint Server 2019. The user interface now is closely aligned with what is seen in Microsoft 365 so that SharePoint hybrid customers will have a seamless experience as they move between SharePoint Server 2019 and SharePoint in Microsoft 365.
 
 ### Telemetry privacy experience
 

@@ -31,7 +31,7 @@ search.appverid:
 - GSP150
 - MET150
 ms.assetid: c8a462eb-0723-4b0b-8d0a-70feafe4be85
-description: "Learn about the external sharing options in SharePoint for Microsoft 365. These options allow users in your organization to share content with people outside the organization."
+description: "Learn about the external sharing options in SharePoint in Microsoft 365. These options allow users in your organization to share content with people outside the organization."
 ---
 
 # External sharing overview

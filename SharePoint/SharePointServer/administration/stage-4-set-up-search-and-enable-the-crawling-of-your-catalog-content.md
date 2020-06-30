@@ -21,7 +21,7 @@ description: "Learn how to set up search and enable crawl of your catalog conten
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Quick overview
 
@@ -66,9 +66,9 @@ Before you can start a full crawl in Central Administration, you must specify wh
   
 For this scenario, we'll crawl the **Local SharePoint** sites content source. 
   
-1. Go to **Central Administration** --> **Manage service applications** --> **Search Service Application** -- > **Content Sources**. 
+1. Go to **Central Administration** > **Manage service applications** > **Search Service Application** > **Content Sources**. 
     
-2. On the **Manage Content Sources** page, pause on the **Local SharePoint sites** content source, and select **Start Full Crawl** from the menu. 
+2. On the **Manage Content Sources** page, pause on the **Local SharePoint sites** content source, and from the menu, select **Start Full Crawl**. 
     
      ![Select Start Full Crawl](../media/OTCSP_StartFullCrawl.png)
   
@@ -78,7 +78,7 @@ The status of the crawl is shown in the **Status** column.
     
      ![Crawl Status](../media/OTCSP_CrawlStatus.png)
   
-4. Optionally, you can verify that your items are added to the search index by clicking **Crawl Log**. In our scenario, we now have 870 items in the search index, which is approximately the same number of products we have in the **Products** list. 
+4. Optionally, you can verify that your items are added to the search index by selecting **Crawl Log**. In our scenario, we now have 870 items in the search index, which is approximately the same number of products we have in the **Products** list. 
     
      ![Crawl Log](../media/OTCSP_CrawlLog.png)
   
@@ -91,9 +91,9 @@ Continuous crawls start automatically at set intervals. Any changes that were ma
   
 To enable continuous crawls:
   
-1. Go to **Central Administration** --> **Manage service applications** --> **Search Service Application** --> **Content Sources**. 
+1. Go to **Central Administration** > **Manage service applications** > **Search Service Application** > **Content Sources**. 
     
-2. On the **Manage Content Sources** page, click the content source for which you want to enable continuous crawl, in our scenario case, this is **Local SharePoint** sites. 
+2. On the **Manage Content Sources** page, select the content source for which you want to enable continuous crawl, in our scenario case, this is **Local SharePoint** sites. 
     
 3. Select the option **Enable Continuous Crawls**. 
     
@@ -119,18 +119,18 @@ So, by enabling continuous crawls, you can avoid much frustration from content m
 
 To mark a catalog for reindexing, here's what you should do:
   
-1. On the catalog (in our scenario the **Products** list in the Product Catalog Site Collection), click the **LIST** tab --> **List Settings** --> **Advanced Settings**. 
+1. On the catalog (in our scenario the **Products** list in the Product Catalog Site Collection), select the **LIST** tab > **List Settings** > **Advanced Settings**. 
     
-2. On the **Advanced Settings** page, click **Reindex List**. 
+2. On the **Advanced Settings** page, select **Reindex List**. 
     
-     ![Click Reindex List](../media/OTCSP_ReindexList.png)
+     ![Select Reindex List](../media/OTCSP_ReindexList.png)
   
 ### How to view crawl status and schedule for a catalog
 <a name="BKMK_HowtoViewCrawlStatusandScheduleforaCatalog"> </a>
 
 You can view the crawl status and schedule for a specific catalog. To do this:
   
-1. On the catalog (in our scenario the **Products** list in the Product Catalog Site Collection), click the **LIST** tab --> **List Settings** --> **Catalog Settings**. 
+1. On the catalog (in our scenario the **Products** list in the Product Catalog Site Collection), select the **LIST** tab > **List Settings** > **Catalog Settings**. 
     
 2. On the **Catalog Settings** page, you can see when the catalog was last crawled, and what crawls are scheduled to run when. In our scenario, we can see the catalog was last crawled on 3/4/2013 at 5:30:17 AM, and that continuous crawls are scheduled to run every 15 minutes. 
     

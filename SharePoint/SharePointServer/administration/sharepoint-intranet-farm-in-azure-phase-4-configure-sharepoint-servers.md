@@ -217,7 +217,7 @@ Do the following for each of the SharePoint servers:
 3. After the virtual machine restarts, create a Remote Desktop connection using the \<your domain>\sp_farm_db account credentials four times, once for each SharePoint server. You created these credentials in [SharePoint Intranet Farm in Azure Phase 2: Configure domain controllers](sharepoint-intranet-farm-in-azure-phase-2-configure-domain-controllers.md).
     
 > [!NOTE]
-> The SharePoint servers are created from the SharePoint Server 2016 Trial image. You need to convert the installation to use a Retail or Volume License key for either the Standard or Enterprise edition of SharePoint Server 2016. For more information, see [SharePoint 2016 Licensing](https://products.office.com/sharepoint/sharepoint-licensing-overview). 
+> The SharePoint servers are created from the SharePoint Server 2016 Trial image. You need to convert the installation to use a Retail or Volume License key for either the Standard or Enterprise edition of SharePoint Server 2016. For more info, see [SharePoint 2016 Licensing](https://products.office.com/sharepoint/sharepoint-licensing-overview). 
   
 Next, you need to add the extra data disks to each SharePoint server.
   
@@ -257,113 +257,113 @@ Use these steps to configure the first SharePoint application and search server 
   
 1. Create a remote desktop connection to the first SharePoint application and search server.
     
-2. From the Start screen, type **SharePoint**, and then click **SharePoint 2016 Products Configuration Wizard**.
+2. From the Start screen, enter **SharePoint**, and then select **SharePoint 2016 Products Configuration Wizard**.
     
-3. On the **Welcome to SharePoint Products** page, click **Next**.
+3. On the **Welcome to SharePoint Products** page, select **Next**.
     
-4. A **SharePoint Products Configuration Wizard** dialog appears, warning that services (such as IIS) will be restarted or reset. Click **Yes**.
+4. A **SharePoint Products Configuration Wizard** dialog appears, warning that services (such as IIS) will be restarted or reset. Select **Yes**.
     
-5. On the **Connect to a server farm** page, select **Create a new server farm**, and then click **Next**.
+5. On the **Connect to a server farm** page, select **Create a new server farm**, and then select **Next**.
     
 6. On the **Specify Configuration Database Settings** page: 
     
-  - In **Database server**, type the name of your first SQL server virtual machine.
+  - In **Database server**, enter the name of your first SQL server virtual machine.
     
-  - In **Username**, type \<your domain>**\sp_farm_db**.
+  - In **Username**, enter \<your domain>**\sp_farm_db**.
     
-  - In **Password**, type the sp_farm_db account password.
+  - In **Password**, enter the sp_farm_db account password.
     
     Note the value in the **Database name** field (default is SharePoint_Config). You will need this database name for the additional servers in the farm. 
     
-7. Click **Next**.
+7. Select **Next**.
     
-8. On the **Specify Farm Security Settings** page, type a passphrase twice. Record the passphrase and store it in a secure location for future reference. Click **Next**.
+8. On the **Specify Farm Security Settings** page, enter a passphrase twice. Record the passphrase and store it in a secure location for future reference. Select **Next**.
     
-9. On the **Specify Server Role** page, in **Shared Roles,** click **Application with Search,** and then click **Nex**t.
+9. On the **Specify Server Role** page, in **Shared Roles,** select **Application with Search,** and then select **Next**.
     
-10. On the **Configure SharePoint Central Administration Web Application** page, click **Next**.
+10. On the **Configure SharePoint Central Administration Web Application** page, select **Next**.
     
-11. The **Completing the SharePoint Products Configuration Wizard** page appears. Click **Next.**
+11. The **Completing the SharePoint Products Configuration Wizard** page appears. Select **Next**.
     
 12. The **Configuring SharePoint Products** page appears. Wait until the configuration process completes. 
     
-13. On the **Configuration Successful** page, click **Finish**. The new administration website starts.
+13. On the **Configuration Successful** page, select **Finish**. The new administration website starts.
     
-14. On the **Help Make SharePoint Better** page, click your choice to participate in the Customer Experience Improvement Program, and then click **OK**.
+14. On the **Help Make SharePoint Better** page, to participate in the Customer Experience Improvement Program, make your selection, and then select **OK**.
     
-15. On the Welcome page, click **Start the Wizard.**
+15. On the Welcome page, select **Start the Wizard**.
     
-16. On the **Service Applications and Services** page, in **Service Account**, click **Use existing managed account**, and then click **Next**. It can take a few minutes to display the next page.
+16. On the **Service Applications and Services** page, in **Service Account**, select **Use existing managed account**, and then select **Next**. It can take a few minutes to display the next page.
     
-17. On the **Create Site Collection** page, type a site name in **Title**, and then click **OK**.
+17. On the **Create Site Collection** page, enter a site name in **Title**, and then select **OK**.
     
-18. On the **This completes the Farm Configuration Wizard** page, click **Finish**. The SharePoint Central Administration web page displays.
+18. On the **This completes the Farm Configuration Wizard** page, select **Finish**. The SharePoint Central Administration web page appears.
     
-19. Open a new tab in Internet Explorer, type **http://**\<name of the first SharePoint application server>/ in the Address bar, and then press Enter. You should see the default team site.
+19. Open a new tab in Internet Explorer, in the Address bar, enter **http://**\<name of the first SharePoint application server>/, and then press Enter. You should see the default team site.
     
 Perform the following procedure on the second SharePoint application and search server (Table M - Item 7):
   
 1. Create a remote desktop connection to the second SharePoint application and search server.
     
-2. From the Start screen, type **SharePoint**, and then click **SharePoint 2016 Products Configuration Wizard**.
+2. From the Start screen, enter **SharePoint**, and then select **SharePoint 2016 Products Configuration Wizard**.
     
-3. On the **Welcome to SharePoint Products** page, click **Next**.
+3. On the **Welcome to SharePoint Products** page, select **Next**.
     
-4. A **SharePoint Products Configuration Wizard** dialog appears, warning that services (such as IIS) will be restarted or reset. Click **Yes**.
+4. A **SharePoint Products Configuration Wizard** dialog appears, warning that services (such as IIS) will be restarted or reset. Select **Yes**.
     
-5. On the **Connect to a server farm** page, select **Connect to an existing server farm**, and then click **Next**.
+5. On the **Connect to a server farm** page, select **Connect to an existing server farm**, and then select **Next**.
     
 6. On the **Specify Configuration Database Settings** page: 
     
-  - In **Database server**, type the name of your first SQL server virtual machine, and then click **Retrieve Database Names**.
+  - In **Database server**, enter the name of your first SQL server virtual machine, and then select **Retrieve Database Names**.
     
-  - In **Database name**, select the name of the SharePoint database from step 6 of the previous procedure.
+  - In **Database name**, select the name of the SharePoint database from Step 6 of the previous procedure.
     
-7. Click **Next**.
+7. Select **Next**.
     
-8. On the **Specify Farm Security Settings** page, in **Passphrase**, type the passphrase from step 8 of the previous procedure. Click **Next**.
+8. On the **Specify Farm Security Settings** page, in **Passphrase**, enter the passphrase from step 8 of the previous procedure. Select **Next**.
     
-9. On the **Specify Server Role** page, in **Shared Roles**, click **Application with Search**, and then click **Next**.
+9. On the **Specify Server Role** page, in **Shared Roles**, select **Application with Search**, and then select **Next**.
     
-10. The **Completing the SharePoint Products Configuration Wizard** page appears. Click **Next**.
+10. The **Completing the SharePoint Products Configuration Wizard** page appears. Select **Next**.
     
 11. The **Configuring SharePoint Products** page appears. Wait until the configuration process completes. 
     
-12. On the **Configuration Successful** page, click **Finish**.
+12. On the **Configuration Successful** page, select **Finish**.
     
-13. On the **Initial Farm Configuration** page, click **Cancel**. You should see the **Central Administration** page. 
+13. On the **Initial Farm Configuration** page, select **Cancel**. The **Central Administration** page appears. 
     
 Perform the following procedure on the two front-end and distributed cache servers (Table M - Items 8 and 9):
   
 1. Create a remote desktop connection to the SharePoint front-end and distributed cache server.
     
-2. From the Start screen, type **SharePoint**, and then click **SharePoint 2016 Products Configuration Wizard**.
+2. From the Start screen, enter **SharePoint**, and then select **SharePoint 2016 Products Configuration Wizard**.
     
-3. On the **Welcome to SharePoint Products** page, click **Next**.
+3. On the **Welcome to SharePoint Products** page, select **Next**.
     
-4. A **SharePoint Products Configuration Wizard** dialog appears, warning that services (such as IIS) will be restarted or reset. Click **Yes**.
+4. A **SharePoint Products Configuration Wizard** dialog box appears, warning that services (such as IIS) will be restarted or reset. Select **Yes**.
     
-5. On the **Connect to a server farm** page, select **Connect to an existing server farm**, and then click **Next**.
+5. On the **Connect to a server farm** page, select **Connect to an existing server farm**, and then select **Next**.
     
 6. On the **Specify Configuration Database Settings** page: 
     
-  - In **Database server**, type the name of your first SQL server virtual machine, and then click **Retrieve Database Names**.
+  - In **Database server**, enter the name of your first SQL server virtual machine, and then select **Retrieve Database Names**.
     
   - In **Database name**, select the name of the SharePoint database.
     
-7. Click **Next**.
+7. Select **Next**.
     
-8. On the **Specify Farm Security Settings** page, in **Passphrase**, type the farm passphrase.
+8. On the **Specify Farm Security Settings** page, in **Passphrase**, enter the farm passphrase.
     
-9. On the **Specify Server Role** page, in **Shared Roles**, click **Front-end with Distributed Cache**, and then click **Next**.
+9. On the **Specify Server Role** page, in **Shared Roles**, select **Front-end with Distributed Cache**, and then select **Next**.
     
-10. The **Completing the SharePoint Products Configuration Wizard** page appears. Click **Next**.
+10. The **Completing the SharePoint Products Configuration Wizard** page appears. Select **Next**.
     
 11. The **Configuring SharePoint Products** page appears. Wait until the configuration process completes. 
     
-12. On the **Configuration Successful** page, click **Finish**.
+12. On the **Configuration Successful** page, select **Finish**.
     
-13. On the **Initial Farm Configuration** page, click **Cancel**. You should see the **Central Administration** page.
+13. On the **Initial Farm Configuration** page, select **Cancel**. The **Central Administration** page appears.
     
 When SharePoint creates the farm, it configures a set of server logins on the primary SQL Server virtual machine. The database itself stores all the database metadata and user information, and a user who is defined in this database does not need to have a corresponding login. The information in this database is replicated by the availability group and is available after a failover. For more information, see [Contained database](https://msdn.microsoft.com/library/ff929071.aspx).
   

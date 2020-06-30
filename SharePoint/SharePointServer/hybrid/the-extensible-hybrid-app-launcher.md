@@ -45,7 +45,7 @@ If you want to change what you see in your SharePoint Server app launcher, make 
   
 ## How can I enable this feature?
 
- In SharePoint Server 2016, this feature is enabled as part of Hybrid Sites Features. See [Hybrid sites features and OneDrive for Business](sharepoint-hybrid-sites-and-search.md#SitesFeatures) for details. 
+ In SharePoint Server 2016, this feature is enabled as part of Hybrid Sites Features. See [Hybrid sites features and OneDrive](sharepoint-hybrid-sites-and-search.md#SitesFeatures) for details. 
   
 In SharePoint Server 2013, this feature is enabled using Windows PowerShell. It requires the [July 2016 PU](https://support.microsoft.com/kb/3115286) for SharePoint Server 2013. See the [hybrid sites features roadmap](configure-hybrid-sites-featuresroadmap.md) for details. 
   

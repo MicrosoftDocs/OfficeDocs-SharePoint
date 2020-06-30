@@ -26,7 +26,7 @@ The following table lists the default timer jobs for SharePoint 2013.
   
 |**Timer job**|**Description**|**Default schedule**|
 |:-----|:-----|:-----|
-|Access Services monitor  <br/> |Monitors the connectivity of Access Services on SharePoint Online and SQL Azure.  <br/> |5 minutes  <br/> |
+|Access Services monitor  <br/> |Monitors the connectivity of Access Services on SharePoint and SQL Azure.  <br/> |5 minutes  <br/> |
 |Analytics Event Store Retention  <br/> |Periodically cleans up the Event Store and the Reporting Database. All data older than 14 days is removed from the Event Store whereas all data older than 3 years is removed from the Reporting Database.  <br/> |Weekly  <br/> |
 |Analytics for Search service application  <br/> |Periodically schedules analytics for the Search service application.  <br/> |10 minutes  <br/> |
 |App installation service  <br/> |Installs and uninstalls apps.  <br/> |5 minutes  <br/> |
@@ -147,7 +147,7 @@ The following table lists the default timer jobs for SharePoint 2013.
 |Spelling dictionary update  <br/> |Updates the dynamic dictionary that is used to correct the spelling of queries with changes in the indexed content.  <br/> **Note:** <br/> This is a time-consuming operation. Do not schedule it to run more frequently than one time per day.  <br/> |Daily  <br/> |
 |State Service delete expired sessions  <br/> |Deletes expired data that is stored in the state service databases.  <br/> |Hourly  <br/> |
 |Storage metrics processing  <br/> |Processes storage metrics changes for site collections.  <br/> |5 minutes  <br/> |
-|Taxonomy groups replication  <br/> |A timer job for hybrid connected servers that updates the local SharePoint Server term store with the latest term changes made to the Enterprise Metadata service in the hybrid connected SharePoint Online tenant.  <br/> |Daily  <br/> |
+|Taxonomy groups replication  <br/> |A timer job for hybrid connected servers that updates the local SharePoint Server term store with the latest term changes made to the Enterprise Metadata service in the hybrid connected SharePoint tenant.  <br/> |Daily  <br/> |
 |Taxonomy update scheduler  <br/> |Updates site collections with the latest term changes that were made to the Enterprise Metadata service.  <br/> |Hourly  <br/> |
 |Timer service recycle  <br/> |Recycles the Timer service to free resources.  <br/> |Daily  <br/> |
 |Translation Export Job Definition  <br/> |Exports page and list content to XLIFF for human translation or machine translation via the Machine Translation Service.  <br/> |15 minutes  <br/> |

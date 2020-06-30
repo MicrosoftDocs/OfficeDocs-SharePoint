@@ -41,9 +41,9 @@ Additionally, a SharePoint (N-1) farm can consume services from a SharePoint Ser
 
 Cross farm service publishing supported scenarios:
 
-- A SharePoint 2013 farm can consume services from a SharePoint 2016 farm
+- A SharePoint 2013 farm can consume services from a SharePoint 2016 farm.
 
-- A SharePoint 2016 farm can consume services from a SharePoint 2019 farm
+- A SharePoint 2016 farm can consume services from a SharePoint 2019 farm.
 
 > [!NOTE]
 > It is not supported to consume services from a server version which is more than one version behind. This means it is not supported for a SharePoint (N-2+) farm to consume services from a SharePoint (N) farm. For example, SharePoint 2013 cannot consume services from SharePoint 2019 as well as SharePoint 2010 cannot consume services from SharePoint 2016.
@@ -77,7 +77,7 @@ This article describes the steps that are required to publish and consume servic
     
     For more information, see [Publish service applications in SharePoint Server](publish-a-service-application.md).
     
-3. On the publishing farm, set the permission to the appropriate service applications for the consuming farm
+3. On the publishing farm, set the permission to the appropriate service applications for the consuming farm.
     
     You must give the consuming farm permission to the Application Discovery and Load Balancing Service Application on the publishing farm. After doing this, give the consuming farm permission to the published service applications that it will be consuming.
     
