@@ -40,6 +40,8 @@ Organizations with a standard onboarding process report 50% greater new-hire pro
 69% of employees are more likely to stay with a company for three years if they had a great onboarding experience. Employees who have a negative onboarding experience are twice as likely to look for new opportunities in the near future.    
 
 ### The NEO experience process:
+<br>
+<br>
 
 | Provide new employee experiences and information      | Connect new employees to people and culture     | Help stakeholders easily contribute to new employee onboarding  | Measure effectiveness of new employee onboarding
 | :------------------- | :------------------- |:----------------|
@@ -64,15 +66,15 @@ To deliver a consistent and integrated new hire onboarding experience the Micros
 
 1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the pre-onboarding site only. 
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
-3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department
+3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department.
 
 
-## Step 1: Provision NEO hub
-The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, an Office 365 Tenant Administrator can start the provisioning process with a few simple clicks. It is fast, easy, and takes only a few minutes to start the process. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+## Step 1: Provision the NEO hub
+The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a Microsoft 365 Global admin can start the provisioning process with a few simple clicks. It is fast, easy, and takes only a few minutes to start the process. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
 
 ### Prerequisites
-To successfully set up the NEO hub via the SharePoint look book, the person doing the provisioning must be a Tenant Administrator of the tenant where the NEO hub will be provisioned.
+To successfully set up the NEO hub via the SharePoint look book, the person doing the provisioning must be a Global admin of the tenant where the NEO hub will be provisioned.
 
 
 ### Provision the NEO hub
@@ -80,13 +82,13 @@ To successfully set up the NEO hub via the SharePoint look book, the person doin
 
 
 1.	Go to the [NEO hub solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
-2.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Tenant Admin credentials.
+2.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Global admin credentials.
 3.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the url prefix for your site to be provisioned to.
 
 > [!NOTE]
-> The provisioning of the NEO Hub will result in four separate site collections getting installed in your tenant: i) Pre-Onboarding site, ii) Corporate new hire site, iii) Engineering new hire site, and iv) Sales new hire site. To differentiate these four sites from each other in terms of the url’s that get assigned, you must confirm a url prefix that will get applied to each of the four sites – e.g., i) neo/preonboarding, ii) neo/corporate, iii) neo/engineering, and iv) neo/sales. Make the url prefix for your site something intuitive for your team members such as "/sites/MyTraining" or "/teams/LearnMicrosoft365".
+> Provisioning the NEO Hub will result in 4 separate site collections getting installed in your tenant. You will be prompted to enter the 4 new site URLs where you can edit the site name, site title, description, and default value. 
 
 
 6.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take up to 15 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
@@ -96,11 +98,13 @@ The provisioning service requires these permissions to provision the site templa
 The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](https://review.docs.microsoft.com/sharepoint/change-external-sharing-site?branch=hokavian-neo-hub) for the Pre-onboarding site.  
 
 ### Add owners to all sites
-As the Tenant Admin, it's unlikely you'll be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
-1.	From the SharePoint **Settings** menu, select **Site Permissions**.
-2.	Select **Advanced Permission Settings**.
-3.	Select **Microsoft 365 learning pathways Owners**.
-4.	Select **New > Add Users to this group**, and then add the people you want to be site owners.
+As the Global admin, it's unlikely you'll be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
+
+![Image of the Share button](media/neoshare.png)
+
+1.	From the site right hand corner, select **Share**.
+2.	Add users, Microsoft 365 Groups, or security groups to give them access to the site.
+4.	Assign **Site owners** to each site.
 5.	Include the site URL in the Share message, and then select **Share**.
 
 
@@ -110,6 +114,14 @@ The New Employee Onboarding (NEO) hub consists of four SharePoint site templates
 It’s important to make sure the right content is available to users at the right time. It’s also important to make new employees feel welcome before their first day. Organizations with a standardized onboarding process report 50% greater new-hire productivity.    Alternatively, employees who have a negative onboarding experience are twice as likely to look for new opportunities shortly after starting a new job.    
 
 Before you customize content in the NEO experience, ensure you understand the needs of your users and the business objectives of your organization. New hires will need different kinds of support and resources depending on the onboarding phase and culture of your organization. Begin by signing into your account and reviewing pre-populated content. Then, customize content and prepare to share the site with new hires. 
+<br>
+
+**How to get started:** 
+
+1. Sign into your Microsoft 365 account
+2. Review pre-populated pages, web parts, and content
+3. Learn how to customize site navigation, theme, and permissions
+4. Share your site with new hires
 
 ### NEO hub contents:
 
@@ -126,15 +138,16 @@ Before you customize content in the NEO experience, ensure you understand the ne
 3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department. Consider associating departmental onboarding sites with existing department portals if you have them.
 
 
-### Get started - Sign into your Microsoft 365 account 
+
+### Sign into your Microsoft 365 account 
 
 > [!NOTE]
-> You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
+> You need to be a Site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
 
 
 1.	Open your web browser and navigate to [office.com](office.com) or your organization’s sign-in location
 2.	Sign in with your username and password
-3.	Navigate to the location of the site using the URL supplied by your tenant administrator, or select SharePoint from the Microsoft 365 home page, and then select the site
+3.	Navigate to the location of the site using the URL supplied by your Global admin, or select SharePoint from the Microsoft 365 home page, and then select the site
 
 
 
@@ -147,7 +160,7 @@ This is where new hire starts their onboarding journey. This site is for new hir
 
 ![Image the pre-onboarding site](media/preneo.png)
  
-#### Pre-populated site content:
+**Pre-populated site contents**:
 - **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
 
 > [!IMPORTANT]
@@ -271,7 +284,7 @@ As a site owner, you can give external people access to the site by adding them 
 
 
 
-## Step 4: Measure the impact of your New Employee Onboarding hub
+## Step 4: Measure the impact of your NEO hub
 
 ### Define NEO hub success metrics
 
@@ -298,7 +311,7 @@ As a SharePoint site owner, you can view site usage data that shows you how user
 
 ## Step 5: Manage and maintain your NEO hub
 
-The NEO Hub should present the most up to date content your organization has to offer, so you’ll need to commit to maintaining relevant content throughout the experience. Develop a plan to audit content and refresh web parts as needed to ensure contact information, FAQs, the onboarding checklist, and People web parts are up tp date. Learn more about [managing communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
+The NEO hub should present the most up to date content your organization has to offer, so you’ll need to commit to maintaining relevant content throughout the experience. Develop a plan to audit content and refresh web parts as needed to ensure contact information, FAQs, the onboarding checklist, and People web parts are up tp date. Learn more about [managing communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
 
 - Train site owners and authors. Make sure all site owners and authors have appropriate training and access to [maintain the site](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f).
 - Update content in web parts. Keep web parts like the People web part updated to ensure you are leveraging the full value of the NEO Hub.
@@ -313,7 +326,7 @@ The NEO Hub should present the most up to date content your organization has to 
 <br>
 **Answer**:
 - SharePoint Online and Communication Sites enabled.
-- The individual that will be provisioning CLO365 must be the tenant administrator of the target tenant for install.
+- The individual that will be provisioning CLO365 must be the Global admin of the target tenant for install.
 
 
 **Question**: How long will it take to install the site in our tenant environment?
