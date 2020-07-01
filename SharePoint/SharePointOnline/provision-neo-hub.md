@@ -41,7 +41,6 @@ Organizations with a standard onboarding process report 50% greater new-hire pro
 
 ### The NEO experience process:
 <br>
-<br>
 
 | Provide new employee experiences and information      | Connect new employees to people and culture     | Help stakeholders easily contribute to new employee onboarding  | Measure effectiveness of new employee onboarding
 | :------------------- | :------------------- |:----------------|
@@ -118,10 +117,11 @@ Before you customize content in the NEO experience, ensure you understand the ne
 
 **How to get started:** 
 
-1. Sign into your Microsoft 365 account
-2. Review pre-populated pages, web parts, and content
-3. Learn how to customize site navigation, theme, and permissions
-4. Share your site with new hires
+1. Understand the NEO hub contents
+2. Sign into your Microsoft 365 account
+3. Review pre-populated pages, web parts, and content
+4. Learn how to customize site navigation, theme, and permissions
+5. Share your site with new hires
 
 ### NEO hub contents:
 
@@ -156,15 +156,15 @@ Before you customize content in the NEO experience, ensure you understand the ne
 This is where new hire starts their onboarding journey. This site is for new hires who have accepted their job offer but have not officially joined the company yet. In this stage, new hires will be interested in learning more about the company, how to get ready for their official start date, and who to go to for questions. 
 
 > [!NOTE]
-> The NEO hub comes with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
+> The NEO hub comes with many pre-built pages that can be identified in the site navigation with this symbol **">>"**. Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
 
 ![Image the pre-onboarding site](media/preneo.png)
  
-**Pre-populated site contents**:
+**Pre-populated site contents:**
 - **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
 
 > [!IMPORTANT]
-> Plan to connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820)
+> Plan to connect social media accounts to the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820) and link to social media in the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645).
 
 - **Welcome** – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
 - **Contoso 101** – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
@@ -182,7 +182,7 @@ This is the hub for the new employee onboarding experience and is designed to pr
 
 ![Image of the NEO hub navigation](media/neohubnav.png)
  
-#### Pre-populated hub contents:
+**Pre-populated hub contents:**
 - **Corporate onboarding (home page)** – Highlight key resources in hub navigation. Customize the [hub and site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) to display major content categories to new hires.
 - **Who we are** – Introduce users to more detail about the organization in the Our story, Our leadership, Our teams pages. Customize these pages and the Office locations page for your organization.
 - **Help & Support** - Highlight where to go for support and customize questions and answers for the FAQ page.
