@@ -28,11 +28,26 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.1](https://aka.ms/spmt-beta-page) |[3.4.119.1](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.119.0](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.3](https://aka.ms/spmt-beta-page) |[3.4.119.2](https://aka.ms/spmt-ga-page)|[3.4.119.2](https://aka.ms/spmt-ga-page) |[3.4.119.2](https://aka.ms/spmt-ga-page)|
 
 
 
-### SPMT Public Preview  (3.4.119.1)
+### SPMT Public Preview  (3.4.119.3)
+
+The following features are now available in the public preview version of the SharePoint Migration Tool.
+
+|**Feature**|**Description**|
+|:-----|:-----|
+|Added selection feature|When migrating fileshares, users can choose to indicate the root folder as part of their source selection.|
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|Teams|Improvement in teams pages migration.|
+
+
+### SPMT 3.4.119.2
 
 
 The following features are now available in the public preview version of the SharePoint Migration Tool.
@@ -48,7 +63,8 @@ The following features are now available in the public preview version of the Sh
 |Group mapping|Improvements have been made to the support of SharePoint group mapping.|
 
 
-### SPMT 3.2.119.0
+
+### SPMT 3.2.119.2
 
 The following features were added to the SharePoint Migration Tool in this release:
 
@@ -68,6 +84,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |**Issue**|**Fix**|
 |:----|:-----|
 |Performance|General improvements have been made to the tool.|
+
 
 ### SPMT 3.2.118.0
 
