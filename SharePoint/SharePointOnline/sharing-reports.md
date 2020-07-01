@@ -38,8 +38,8 @@ To run the report (SharePoint)
 To run the report (OneDrive)
 1. Open OneDrive.
 2. On the **Settings** menu, click **OneDrive settings**.
-3. Click **More settings**, and then click **Run report**.
-4. Choose a location to save the report, and then click **Run report**.
+3. Click **More settings**, and then click **Run sharing report**.
+4. Choose a location to save the report, and then click **Save**.
 
 The report may take some time to run depending on the size of the site.
 
