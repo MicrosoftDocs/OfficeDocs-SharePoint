@@ -71,12 +71,4 @@ Check out the below resources that provide more details about how to use the mod
 
 [Change the look of your SharePoint site](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818)
 
-[SharePoint site theming](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-overview)
-
-[Modernize site branding](/sharepoint/dev/transform/modernize-branding)
-
-[Modernize your classic SharePoint sites](/sharepoint/dev/transform/modernize-classic-sites)
-
-[JSON schema](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-json-schema)
-
 [Theme generator](https://aka.ms/spthemebuilder)
