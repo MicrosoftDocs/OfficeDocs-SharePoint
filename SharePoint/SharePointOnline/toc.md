@@ -142,6 +142,7 @@
 #### [Monitor apps](monitor-apps.md)
 #### [Request app installation permissions](request-app-installation-permissions.md)
 #### [Use App Catalog](use-app-catalog.md)
+#### [Manage API access](api-access.md)
 #### [Allow or prevent custom script](allow-or-prevent-custom-script.md)
 #### [Security considerations of allowing custom script](security-considerations-of-allowing-custom-script.md)
 #### [Configure SharePoint Store settings](configure-sharepoint-store-settings.md)
