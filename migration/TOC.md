@@ -35,24 +35,25 @@
 ### [Performance guidance for Migration Manager](mm-performance.md)
 ## Mover Migrations
 ###  Overview
-#### [Plan your migration](mover-overview.md)
-#### [Manage connectors](mover-connectors-general.md)
+#### [Plan your migration](mover-plan-migration.md)
+#### [Manage connectors](mover-manage-connectors.md)
 #### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
 ###  Setup your source
-#### [Box](mover-auth-connector-box.md)
-#### [Dropbox](mover-auth-connector-dropbox.md)
-#### [Egnyte](mover-auth-connector-egnyte.md)
-#### [File shares](mover-auth-connector-fileshare.md)
-#### [G Suite Drive](mover-auth-connector-gsuite.md)
-#### [Amazon WorkDocs](mover-auth-connector-amazonworkdocs.md)
-#### [Office 365](mover-auth-connector-o365.md)
-#### [Amazon S3](mover-auth-connector-amazons3.md)
-#### [Azure Blob Storage](mover-auth-connector-azureblob.md)
-#### [Google Cloud Storage](mover-auth-connector-googlecloudstore.md)
-#### [NetDocuments](mover-auth-connector-netdocuments.md)
+#### [Box](mover-box.md)
+#### [Dropbox](mover-dropbox.md)
+#### [Egnyte](mover-egnyte.md)
+#### [File shares](mover-fileshare.md)
+#### [G Suite Drive](mover-gsuite-auth.md)
+#### [Amazon WorkDocs](mover-amazonworkdocs.md)
+#### [Office 365](mover-o365.md)
+#### [Amazon S3](mover-amazons3.md)
+#### [Azure Blob Storage](mover-azureblob.md)
+#### [Google Cloud Storage](mover-googlecloudstore.md)
+#### [NetDocuments](mover-netdocuments.md)
 ###  Setup your destination
-#### [Office 365]
-#### [OneDrive]
+####  Microsoft 365
+##### [Microsoft 365](mover-setup-m365-destination.md)
+##### [Troubleshoot your Microsoft 365 Connector](mover-troubleshoot-m365-connector.md)
 ###  [Setup your migration]
 ###  [Running the migration](mover-running-migration.md)
 ###  [Reports](mover-reports.md)
