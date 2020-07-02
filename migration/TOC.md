@@ -63,7 +63,7 @@
 #### [Transfer logs](mover-transfer-logs.md)
 #### [Error messages](mover-error-faq.md)
 #### [Account FAQ](mover-account-faq.md)
-#### [Migration FAQ](mover-migration-faq.md)
+#### [Mover Migration FAQ](mover-migration-faq.md)
 ## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance
