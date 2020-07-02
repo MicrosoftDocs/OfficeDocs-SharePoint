@@ -16,7 +16,7 @@ description: "Mover reports"
 
 ## Dashboard overview
 
-The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transfered, and the amount of data scanned or transfered; as well as any issues, errors, or failures that may have occured.
+The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transferred, and the amount of data scanned or transferred; as well as any issues, errors, or failures that may have occurred.
 
 ![migration manager dash](media/migration-manager-dash.png)
 
@@ -24,7 +24,7 @@ The dashboard statistics given at the top of the **Migration Manager** provide a
 
 The **Transfers** section of the **Migration Manager** dashboard provides a brief rundown of all user transfers and scans.
 
-- **New**: Number of individual users that have yet to be scanned or transfered.
+- **New**: Number of individual users that have yet to be scanned or transferred.
 - **Running**: Number of users that are currently running either a scan or a transfer.
 - **Complete**: Number of users that have successfully completed scans or transfers.
 - **Issues**: Number of users that encountered errors during a scan or a transfer.
@@ -39,11 +39,11 @@ The **Transfers** section of the **Migration Manager** dashboard provides a brie
 
 The **Files** section of the **Migration Manager** dashboard provides a total of all files scanned and transfered across all users in a migration.
 
-- **Complete**: Number of files that have successfully scanned or transfered.
+- **Complete**: Number of files that have successfully scanned or transferred.
 - **Issues**: Number of files that have encountered issues and failed to scan or transfer.
 
 >[!Note]
->The total number of **Files** is from both scanned and transfered users. Be aware that scanned files are marked as *Skipped* as they have yet to be transfered.
+>The total number of **Files** is from both scanned and transferred users. Be aware that scanned files are marked as *Skipped* as they have yet to be transferred.
 
 ![migration manager files](media/migration-manager-files.png)
 
@@ -55,7 +55,7 @@ The **Data** section of the **Migration Manager** dashboard shows the total of a
 - **Issues**: Amount of data that encountered issues and has failed to scan or transfer.
 
 >[!Note]
->The total amount of **Data** is from both scanned and transfered users. Be aware that scanned data is marked as *Skipped* as it has yet to be transfered.
+>The total amount of **Data** is from both scanned and transferred users. Be aware that scanned data is marked as *Skipped* as it has yet to be transferred.
 
 ![migration manager data](media/migration-manager-data.png)
 
@@ -164,3 +164,30 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 Download an example CSV:
 
 [example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_error_report.csv)
+
+## Skipped files and folders
+
+When files and folders are “skipped,” Mover has deliberately skipped that item during the transfer. Typically, items are skipped because:
+
+- That item with the same name and timestamp already exists in the destination.
+- They are set to be copied by a different user (to prevent data duplication).
+- It was a scan. Items are not copied during a scan.
+
+In the log, a skipped item has a status of either Folder skipped, File skipped or Failure. The Additional info column in the log will give you more insight as to why the item did not migrate.
+
+![Skipped files](media/mover-skipped-files.png)
+
+### Examples
+
+|STATUS|Additional info|
+|:-----|:-----|
+|Failure|Skipping folder because it is not owned by the appropriate user|
+||Skipping because OneDrive does not support this file type|
+||Skipping because file is not supported for export.|
+||Failing because file is too large.
+|File skipped|Skipping file because it is not owned by the appropriate user|
+||Skipping because file already exists
+||Skipping because file/folder is owned by [someone]
+||Skipping because file/folder is not owned by [someone]	
+|Folder skipped|Skipping folder to avoid data duplication|
+||Skipping folder to avoid data duplication because it is owned by [someone]
