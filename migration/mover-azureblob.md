@@ -10,7 +10,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Using Mover migration service, set up your Azure blob storage connector.
+description: "Using Mover migration service, set up your Azure blob storage connector."
 ---
 # Authorizing the Azure Blob Storage Connector
 

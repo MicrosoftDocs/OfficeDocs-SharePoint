@@ -11,7 +11,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Use the Mover migration service to set up your source Egnyte connector".
+description: "Use the Mover migration service to set up your Egnyte source connector."
 ---
 # Setting up the Egnyte source connector
 
