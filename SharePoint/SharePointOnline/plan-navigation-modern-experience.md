@@ -1,8 +1,8 @@
 ---
 title: "Plan navigation for the modern experience in SharePoint"
 ms.reviewer: 
-ms.author: loreenl
-author: loreenla
+ms.author: hokavian
+author: hokavian
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -300,8 +300,6 @@ Global navigation is not yet available for modern SharePoint intranets. Until it
 -   Create a "navigation" site (for example, your intranet "home" site) and use the logo in the suite bar and a Featured Site link on the SharePoint start page to make it easy for people to navigate to the "home" site from every destination site in your tenant.
 
 -   Use a single hub for the entire organization. This might be a reasonable strategy for a small organization, but the benefits of hubs decrease in value if you only have one so this may not work for the long term.
-
--   Use a single hub for the entire organization. This might be a reasonable short-term strategy for a small organization, but the benefits of hubs decrease in value if you only have one so this is not a viable solution in most cases.
 
 -   Wait to add global navigation until it is available natively in the product.
 
