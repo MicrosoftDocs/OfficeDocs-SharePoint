@@ -34,26 +34,30 @@
 ### [Troubleshooting](mm-troubleshoot.md)
 ### [Performance guidance for Migration Manager](mm-performance.md)
 ## Mover Migrations
-###  [Mover release notes](mover-release-notes.md)
-### [Overview](mover-overview.md)
-### [Connectors](mover-connectors-general.md)
-### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
-### Authorizing Connectors
-#### [Box to Office 365](mover-auth-connector-box.md)
-#### [Dropbox to Office 365](mover-auth-connector-dropbox.md)
-#### [Egnyte to Office 365](mover-auth-connector-egnyte.md)
-#### [File shares to Office 365](mover-auth-connector-fileshare.md)
-#### [G Suite Drive to Office 365](mover-auth-connector-gsuite.md)
-#### [Amazon WorkDocs to Office 365](mover-auth-connector-amazonworkdocs.md)
-#### [Office 365 to Office 365](mover-auth-connector-o365.md)
-#### Other Connectors
-##### [Amazon S3 to Office 365](mover-auth-connector-amazons3.md)
-##### [Azure Blob Storage to Office 365](mover-auth-connector-azureblob.md)
-##### [Google Cloud Storage to Office 365](mover-auth-connector-googlecloudstore.md)
-##### [NetDocuments to Office 365](mover-auth-connector-netdocuments.md)
-###   [Running the migration](mover-running-migration.md)
+###  Overview
+#### [Plan your migration](mover-overview.md)
+#### [Manage connectors](mover-connectors-general.md)
+#### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
+###  Setup your source
+#### [Box](mover-auth-connector-box.md)
+#### [Dropbox](mover-auth-connector-dropbox.md)
+#### [Egnyte](mover-auth-connector-egnyte.md)
+#### [File shares](mover-auth-connector-fileshare.md)
+#### [G Suite Drive](mover-auth-connector-gsuite.md)
+#### [Amazon WorkDocs](mover-auth-connector-amazonworkdocs.md)
+#### [Office 365](mover-auth-connector-o365.md)
+#### [Amazon S3](mover-auth-connector-amazons3.md)
+#### [Azure Blob Storage](mover-auth-connector-azureblob.md)
+#### [Google Cloud Storage](mover-auth-connector-googlecloudstore.md)
+#### [NetDocuments](mover-auth-connector-netdocuments.md)
+###  Setup your destination
+#### [Office 365]
+#### [OneDrive]
+###  [Setup your migration]
+###  [Running the migration](mover-running-migration.md)
 ###  [Reports](mover-reports.md)
 ###  [Post-migration tips](mover-post-migration-tips.md)
+###  [Mover release notes](mover-release-notes.md)
 ###  Mover Troubleshooting
 #### [Post-migration troubleshooting](mover-post-migration-troubleshooting.md)
 #### [Transfer logs](mover-transfer-logs.md)
