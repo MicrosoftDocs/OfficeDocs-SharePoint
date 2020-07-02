@@ -86,7 +86,7 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 |Destination name|	Displays transfers with a specific destination name.|
 |Source name|	Displays transfers with a specific source name.|
 
-### Scan report
+## Scan report
 
 For more information about the scanning process, see the **Scanning** section.
 
@@ -98,7 +98,7 @@ After the scan report is downloaded and opened, look for these key items:
 
 ![scan report example](media/scan-report-example.png)
 
-### Migration report
+## Migration report
 
 The **Migration Report** provides an in-depth overview of your entire migration, including (but not limited to) speed and time statistics, totals for files and data transfered, and info relating to the latest run.
 
@@ -139,7 +139,7 @@ Download an example CSV:
 
 [example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report.csv)
 
-### Migration table report
+## Migration table report
 
 The **Migration Table Report** generates an overview of your entire migration based on the custom designated columns you have set.
 
@@ -153,7 +153,7 @@ Download an example CSV:
 
 [example_migration_table_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_table_report.csv)
 
-### Migration error report
+## Migration error report
 
 The **Migration Error Report** generates a simplified **Migration Report** that focuses on any problematic files, folders, permission errors, or general errors.
 
