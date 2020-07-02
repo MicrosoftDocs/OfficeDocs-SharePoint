@@ -33,9 +33,9 @@ Alternatively, you can select multiple users, and from the **User Actions** drop
 
 ## Incremental feature
 
-Our incrementals are delta operations which compare files in your Box to files in Office 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Office 365 data up to date when the very final cutover of users occurs. These incremental passes are an important part of our process.
+Our incrementals are delta operations which compare files in your source to files in Office 365. Using this comparison, we copy anything that is new or has changed. This enables us to keep Office 365 data up to date when the very final cut-over of users occurs. These incremental passes are an important part of our process.
 
-**Technical clarification**: We compare what you have in Box to what is in Office 365 and we only transfer anything that doesn't already exist, or has a newer timestamp.
+**Technical clarification**: We compare what you have in your source to what is in Office 365 and we only transfer anything that doesn't already exist, or has a newer timestamp.
 
 ### 'Lost files'
 

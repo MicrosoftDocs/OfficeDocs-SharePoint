@@ -174,20 +174,3 @@ When files and folders are “skipped,” Mover has deliberately skipped that it
 - It was a scan. Items are not copied during a scan.
 
 In the log, a skipped item has a status of either Folder skipped, File skipped or Failure. The Additional info column in the log will give you more insight as to why the item did not migrate.
-
-![Skipped files](media/mover-skipped-files.png)
-
-### Examples
-
-|STATUS|Additional info|
-|:-----|:-----|
-|Failure|Skipping folder because it is not owned by the appropriate user|
-||Skipping because OneDrive does not support this file type|
-||Skipping because file is not supported for export.|
-||Failing because file is too large.
-|File skipped|Skipping file because it is not owned by the appropriate user|
-||Skipping because file already exists
-||Skipping because file/folder is owned by [someone]
-||Skipping because file/folder is not owned by [someone]	
-|Folder skipped|Skipping folder to avoid data duplication|
-||Skipping folder to avoid data duplication because it is owned by [someone]

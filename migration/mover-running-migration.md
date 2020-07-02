@@ -74,7 +74,7 @@ This action stops the transfer as soon as possible (usually within a few seconds
 
 The best way to resolve any issues with a transfer is to rerun it. This action checks over all the files in your destination, compares them to the source, and then transfers over the new or modified files.
 
-All transfers take advantage of our incremental feature and only transfers new or modified data differences between Box and Office 365.
+All transfers take advantage of our incremental feature and only transfers new or modified data differences between your source and Office 365.
 
 As long as a transfer is not running, to restart a transfer, you can re-queue a user.
 

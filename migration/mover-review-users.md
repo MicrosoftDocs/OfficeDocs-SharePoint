@@ -17,7 +17,7 @@ description: "Mover - reviewing users before migration"
 
 ## Checking paths
 
-Confirm that the users in the Box source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
+Confirm that the users in the source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
 ## Editing
 
@@ -27,7 +27,7 @@ To edit a user source entry:
 
 1. To select a user row, on the left side of a row, select the respective checkbox.
 2. On the right and directly above the user rows, find **User Actions**, or right-click the user row for which you want to edit the source path.
-3. A new side panel opens, enabling you to edit the Box source path.
+3. A new side panel opens, enabling you to edit the source path.
 4. To select your parent source path, double-click it, and to complete your edit, select **Save**.
 
 ![Edit source user](media/edit-source-user.png)
