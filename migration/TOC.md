@@ -50,11 +50,17 @@
 #### [Azure Blob Storage](mover-azureblob.md)
 #### [Google Cloud Storage](mover-googlecloudstore.md)
 #### [NetDocuments](mover-netdocuments.md)
-###  Setup your destination
+### Setup your destination
 ####  Microsoft 365
 ##### [Microsoft 365](mover-setup-m365-destination.md)
 ##### [Troubleshoot your Microsoft 365 Connector](mover-troubleshoot-m365-connector.md)
-###  [Setup your migration]
+###  Setup your migration
+#### [Create a new migration](mover-create-migration.md)
+#### [Create a new migration from a CSV (optional)](mover-create-migration-csv.md)
+#### [Review your users](mover-review-users.md)
+#### [Review your permission map](mover-review-permission-map.md)
+#### [Upload a permission map (optional)](mover-upload-permission-map.md)
+#### Mover migration manager
 ###  [Running the migration](mover-running-migration.md)
 ###  [Reports](mover-reports.md)
 ###  [Post-migration tips](mover-post-migration-tips.md)
