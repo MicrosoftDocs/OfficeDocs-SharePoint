@@ -1,5 +1,5 @@
 ---
-title: Authorizing the Google Cloud Store Connector
+title: Mover migration - setting up the Google Cloud store connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,9 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Authorizing the Google Cloud Store Connector"
+description: "Using the Mover migration service to set up the Google Cloud store connector"
 ---
-# Authorizing the Google Cloud Store Connector
+# Setting up your source: Google Cloud Store Connector
 
 
 Authorizing Google Cloud Storage is straightforward. To authorize or add a Google Cloud Storage account as a Connector, follow these simple steps:

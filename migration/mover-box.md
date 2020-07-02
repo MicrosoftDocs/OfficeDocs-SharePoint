@@ -1,5 +1,5 @@
 ---
-title: Authorizing the Box Connector
+title: Mover migration - Setting up your Box source connector
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
@@ -11,9 +11,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Authorizing the Box Connector"
+description: "Setting up your Box source connector to migrate to Microsoft 365."
 ---
-# Authorizing the Box Connector
+# Setting up your source:  Box
 
 ## Box FAQ
 

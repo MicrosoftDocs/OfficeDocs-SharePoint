@@ -1,5 +1,5 @@
 ---
-title: Authorizing the Azure Blob Storage Connector
+title: Mover migration - setup your Azure Blob Storage Connector
 author: JoanneHendrickson
 manager: pamgreen
 audience: ITPro
@@ -10,11 +10,9 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Authorizing the Azure Blob Storage Connector"
+description: "Using Mover migration service, set up your Azure blob storage connector.
 ---
 # Authorizing the Azure Blob Storage Connector
-
-## Authorizing Azure Blob Storage
 
 Authorizing Azure Blob Storage is straightforward. To authorize or add an Azure Blob Storage account as a Connector, follow these simple steps:
 
