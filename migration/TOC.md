@@ -60,7 +60,7 @@
 #### [Review your users](mover-review-users.md)
 #### [Review your permission map](mover-review-permission-map.md)
 #### [Upload a permission map (optional)](mover-upload-permission-map.md)
-#### Mover migration manager
+#### [Mover migration manager](mover-mm.md)
 ###  [Running the migration](mover-running-migration.md)
 ###  [Reports](mover-reports.md)
 ###  [Post-migration tips](mover-post-migration-tips.md)
