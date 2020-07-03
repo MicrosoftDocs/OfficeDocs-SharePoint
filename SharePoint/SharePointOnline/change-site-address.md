@@ -137,7 +137,7 @@ Start by deleting the existing SharePoint connections to any lists you may have 
 **Power Automate**<br>
 Flows will need to be recreated after the site address change.  
 
-**Recent lists in Office apps**<br>
+**Recent lists inside Office apps**<br>
 The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.
 
 **Recycle bin**
