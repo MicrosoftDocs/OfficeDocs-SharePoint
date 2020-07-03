@@ -328,7 +328,7 @@ Note that the OneDrive sharing settings are a subset of the SharePoint sharing s
 
 ## Data retention
 
-When a user leaves your organization and you've deleted that user's account, what happens to his or her data? When considering data retention compliance, determine what needs to happen with the deleted user's data. For some organizations, retaining deleted user data could be important continuity and preventing critical data loss. The default retention policy for deleted OneDrive users is 30 days. You can configure the setting to a range between 0 days and 3,650 days (ten years).
+When a user leaves your organization and you've deleted that user's account, what happens to the user's data? When considering data retention compliance, determine what needs to happen with the deleted user's data. For some organizations, retaining deleted user data could be important continuity and preventing critical data loss. The default retention policy for deleted OneDrive users is 30 days. You can configure the setting to a range between 0 days and 3,650 days (ten years).
 
 For more info about OneDrive retention, see [OneDrive retention and deletion](retention-and-deletion.md) and [Learn about retention policies](/microsoft-365/compliance/retention-policies?view=o365-worldwide).
 
@@ -428,7 +428,7 @@ After you have planned your rollout, configure any settings you need before you 
 
 ## Deployment options
 
-You have several different options for deploying OneDrive: manually, using scripting, using Windows AutoPilot (for the sync app on Windows), using an MDM such as Intune, or using Microsoft Endpoint Configuration Manager.
+You have several different options for deploying OneDrive: manually, using scripting, using Windows Autopilot (for the sync app on Windows), using an MDM such as Intune, or using Microsoft Endpoint Configuration Manager.
 
 The OneDrive sync app is included as part of Windows 10 and Office 2016. You do not need to deploy the sync app to devices running these, though you may need to update the sync app to the latest version.
 
@@ -477,13 +477,13 @@ To silently update the OneDrive sync app, run the following command:
 
 For info about enabling silent account configuration, see [Silently configure user accounts](use-silent-account-configuration.md).
 
-## Deploy and configure OneDrive through Windows AutoPilot
+## Deploy and configure OneDrive through Windows Autopilot
 
-Windows AutoPilot provides a simple way to deliver PCs to users. It is an alternative to the traditional system imaging you typically perform when provisioning a new computer or repurposing an existing computer for a user. Rather than using deployment tools such as Microsoft Endpoint Configuration Manager, you can register your hardware info in Azure, and use a deployment profile to control the out-of-box experience and register the device in Azure Active Directory (Azure AD).
+Windows Autopilot provides a simple way to deliver PCs to users. It is an alternative to the traditional system imaging you typically perform when provisioning a new computer or repurposing an existing computer for a user. Rather than using deployment tools such as Microsoft Endpoint Configuration Manager, you can register your hardware info in Azure, and use a deployment profile to control the out-of-box experience and register the device in Azure Active Directory (Azure AD).
 
 From there, Intune can deploy apps such as OneDrive to the device automatically. To deliver OneDrive during this process, complete the configuration steps in [Deploy OneDrive by using Intune](deploy-intune.md).
 
-For an overview of Windows AutoPilot, see [Overview of Windows AutoPilot](/windows/deployment/windows-autopilot/windows-10-autopilot/).
+For an overview of Windows Autopilot, see [Overview of Windows Autopilot](/windows/deployment/windows-autopilot/windows-10-autopilot/).
 
 ## Deploy OneDrive by using Intune
 
