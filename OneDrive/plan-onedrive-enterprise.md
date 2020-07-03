@@ -32,7 +32,7 @@ OneDrive provides a robust but simple-to-use cloud storage platform for small bu
 
 - **Share inside or outside your organization.** Securely share files with people inside or outside your organization by using their email address, even if they don't have a Microsoft Services Account. This common sharing experience is available in the web, mobile, and desktop versions of OneDrive.
 
-- **Collaborate with deep Microsoft Office integration.** Document coauthoring is available in the Office web apps, Office mobile apps, and Office desktop apps, helping you maintain a single working version of any file. Only OneDrive provides coauthoring capabilities in Office apps across all your devices.
+- **Collaborate with deep Microsoft Office integration.** Document coauthoring is available in Office for the web, Office mobile apps, and Office desktop apps, helping you maintain a single working version of any file. Only OneDrive provides coauthoring capabilities in Office apps across all your devices.
 
 - **Quickly find files that matter most.** Finding content in your OneDrive is simplified through the intelligence of the Microsoft Graph application programming interface. This technology simplifies finding what's important by providing file recommendations based on your relationship to other people, how you received various files, and when you last accessed them.
 
@@ -92,7 +92,7 @@ OneDrive Files On-Demand enables users to view, search for, and interact with fi
 
 ![Screenshot of Windows Explorer showing some OneDrive on disk and some in the cloud](media/onedrive-feature-overview_image3.png)
 
-Natively, files will be downloaded only when you need to access them. However, if you plan to access a file while disconnected from the internet, you can simply make the file available offline by right-clicking it, and then selecting **Always keep on this device**. Alternatively, if you want to free space on your device and remove the downloaded copy of a file, right-click the file, and then select **Free up space**. The following image shows the right-click menu for OneDrive files on a computer running the Windows operating system.
+Natively, files will be downloaded only when you need to access them. However, if you plan to access a file while disconnected from the internet, you can make the file available offline by right-clicking it, and then selecting **Always keep on this device**. Alternatively, if you want to free space on your device and remove the downloaded copy of a file, right-click the file, and then select **Free up space**. The following image shows the right-click menu for OneDrive files on a computer running the Windows operating system.
 
 ![Screenshot of the right-click menu in Windows Explorer showing options to keep the file on disk or in the cloud](media/onedrive-feature-overview_image4.png)
 
@@ -100,15 +100,15 @@ For more info about OneDrive Files On-Demand, see [Learn about OneDrive Files On
 
 ### Modern attachments
 
-OneDrive integrates with Outlook to allow seamless sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive, providing collaborative benefits such as version control typically lost when users email documents back and forth. In addition, you can configure sharing permissions on the files directly from within the Outlook client. For an example of a document in OneDrive being attached as a link to an email, as well as the experience of changing the sharing permissions on the link, see the following image.
+OneDrive integrates with Outlook to allow seamless sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive, providing collaborative benefits such as version control typically lost when users email documents back and forth. In addition, you can configure sharing permissions on the files directly from within the Outlook app. For an example of a document in OneDrive being attached as a link to an email, as well as the experience of changing the sharing permissions on the link, see the following image.
 
 ![Screenshot of Outlook showing a modern attachment and the right-click menu with permissions options](media/onedrive-feature-overview_image5.png)
 
-To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook client, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
+To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook app, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
 
 ### Files Restore
 
-The OneDrive Files Restore feature enables users to restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents users with a histogram that shows file activity so that they can determine which recovered time meets their needs. From there, users can simply select the file history entry to which they want to restore, and all changes after that point will be rolled back. The following image shows the Files Restore experience for a user.
+The OneDrive Files Restore feature enables users to restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents users with a histogram that shows file activity so that they can determine which recovered time meets their needs. From there, users can select the file history entry to which they want to restore, and all changes after that point will be rolled back. The following image shows the Files Restore experience for a user.
 
 ![Screenshot of the Restore my OneDrive screen](media/onedrive-feature-overview_image6.png)
 
@@ -129,11 +129,11 @@ The Microsoft 365 admin center handles reporting for cloud services, including O
 
 ![Screenshot of the 30-day file usage report](media/onedrive-feature-overview_image2.png)
 
-You can also consume this info in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insights into how specific regions or departments within your organization are using Office 365. For more info about this content pack, see [Microsoft 365 usage analytics](/office365/admin/usage-analytics/usage-analytics).
+You can also consume this info in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insight into how specific regions or departments within your organization are using Office 365. For more info about this content pack, see [Microsoft 365 usage analytics](/office365/admin/usage-analytics/usage-analytics).
 
 ### Encryption of data in transit and at rest
 
-OneDrive uses advanced data-encryption methods between your client and the data center, between servers in the data center, and at rest. At rest, OneDrive uses disk encryption through BitLocker Drive Encryption and file encryption to secure your data. Each file is encrypted with its own encryption key; anything larger than 64 KB is split into individual chunks, each of which has its own encryption key locked in a key store.
+OneDrive uses advanced data-encryption methods between your device and the data center, between servers in the data center, and at rest. At rest, OneDrive uses disk encryption through BitLocker Drive Encryption and file encryption to secure your data. Each file is encrypted with its own encryption key; anything larger than 64 KB is split into individual chunks, each of which has its own encryption key locked in a key store.
 
 Each file chunk is then randomly distributed among Microsoft Azure Storage containers, and a construction map for the complete file is stored in a separate secure content database. For attackers to access the file, they would need all the file chunks, the keys, and the map—a highly improbable task. For more info about this process, see [Data Encryption in OneDrive and SharePoint](/office365/securitycompliance/data-encryption-in-odb-and-spo/).
 
@@ -151,7 +151,7 @@ Microsoft Trust Center provides info about Microsoft's trust policy, how Microso
 
 - **Office 365 Trust Center.** Privacy, compliance, and cybersecurity are as important to Microsoft as they are to you. For info about how Office 365 can help you increase employee productivity while helping you safeguard your data, see [Microsoft Office 365](https://www.microsoft.com/trustcenter/cloudservices/office365) in the Microsoft Trust Center. For info about why you should trust Microsoft, Office 365, and OneDrive with your data, see [Office 365 Trust Center](https://www.microsoft.com/trust-center).
 
-- **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Office 365 with OneDrive give you GDPR-compliant tools; you simply need to incorporate those tools into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/trustcenter/privacy/gdpr/resources). For additional helpful info about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
+- **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Office 365 with OneDrive give you GDPR-compliant tools that you can integrate into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/trustcenter/privacy/gdpr/resources). For additional helpful info about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
 
 ### OneDrive Multi-Geo storage locations
 
@@ -180,7 +180,7 @@ Depending on where your organization fits in this table and the technologies ava
 
 ## Prerequisites
 
-- **Client and app requirements.** Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. With that in mind, OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of client and app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
+- **System requirements.** Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. With that in mind, OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of system requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
 - **License requirements.** There are multiple methods by which you can acquire a license for OneDrive. However, a few OneDrive features are available only within certain licensing models. For info about the licensing requirements for OneDrive, its advanced features, and any special licensing required for them, see [Office 365 plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
@@ -201,7 +201,7 @@ Your organization doesn't have to manage all connected devices for them to use O
 
 - Intune MDM or MAM
 
-For Windows 10 client devices that are joined to a domain, you have the additional option of using GPOs for management. Also, for those devices that are company owned and managed, you can use Microsoft Endpoint Configuration Manager to deploy OneDrive.
+For Windows 10 devices that are joined to a domain, you have the additional option of using GPOs for management. Also, for those devices that are company owned and managed, you can use Microsoft Endpoint Configuration Manager to deploy OneDrive.
 
 ### Align technologies
 
@@ -384,11 +384,11 @@ FastTrack is a Microsoft benefit that is included in your subscription.  FastTr
 
 Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
-If you already have the OneDrive client installed on Windows devices, start by determining the version or versions of OneDrive in your environment. Depending on your findings, you may need to change your deployment process to accommodate the current version (for example, run takeover commands in PowerShell to ensure that data sync responsibilities transition to the new client). To determine which version of OneDrive you're currently using, see [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
+If you already have the OneDrive sync app installed on Windows devices, start by determining the version or versions of OneDrive in your environment. Depending on your findings, you may need to change your deployment process to accommodate the current version (for example, run takeover commands in PowerShell to ensure that data sync responsibilities transition to the new sync app). To determine which version of OneDrive you're using, see [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
 
 ### Upgrade from the Groove sync app to the OneDrive sync app
 
-If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new client. For detailed info about this process (and caveats), see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md).
+If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new sync app. For detailed info about this process (and caveats), see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md).
 
 ### Sync app update process
 
@@ -452,7 +452,7 @@ Send your users the following links to set up OneDrive on their mobile devices:
 
 ### Manually install and configure OneDrive on a Windows device
 
-Manually installing OneDrive on a Windows device may or may not be necessary: many devices may already have it, either because the user installed Microsoft Office 2016 or simply because the device runs Windows 10, both of which include the OneDrive client by default. For devices running older versions of Windows or on which Office 2016 is not installed, you can download the new OneDrive sync app for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
+Manually installing OneDrive on a Windows device may or may not be necessary: many devices may already have it, either because the user installed Microsoft Office 2016 or simply because the device runs Windows 10, both of which include the OneDrive sync app by default. For devices running older versions of Windows or on which Office 2016 is not installed, you can download the new OneDrive sync app for Windows from [https://onedrive.live.com/about/download](https://onedrive.live.com/about/download/).
 
 > [!NOTE]
 > You may be required to uninstall an old version of the OneDrive sync app before you can install the new one. If so, you will receive a notification stating that you must uninstall the previous version before you can proceed.
@@ -553,13 +553,13 @@ Configuration Manager can manage OneDrive updates and configuration alongside ot
 
 ### Manage OneDrive updates using Microsoft Endpoint Configuration Manager
 
-Depending on where the OneDrive client originated—as part of an Office package, Windows 10, or as a stand-alone installation—there are two primary methods for using Configuration Manager to manage OneDrive updates:
+Depending on how you install the OneDrive sync app—as part of an Office package, Windows 10, or as a stand-alone installation—there are two primary methods for using Configuration Manager to manage OneDrive updates:
 
-- **Traditional updates managed through Windows Service Update Services (WSUS).** OneDrive product updates are downloaded to WSUS, and you can manage them alongside your Windows and Office updates. For info about how to configure Configuration Manager with WSUS, see [Install and configure a software update point](/configmgr/sum/get-started/install-a-software-update-point/).
+- **Traditional updates managed through Windows Server Update Services (WSUS).** OneDrive product updates are downloaded to WSUS, and you can manage them alongside your Windows and Office updates. For info about how to configure Configuration Manager with WSUS, see [Install and configure a software update point](/configmgr/sum/get-started/install-a-software-update-point/).
 
 - **Single-instance updates.** If you want to perform an ad hoc update of the OneDrive sync app on a Windows device, start by downloading the updated OneDrive sync app from [OneDrive for Windows](https://onedrive.live.com/about/download). This method is typically applicable only for older installations of Office running on devices with a Windows version earlier than Windows 10 that are not updating OneDrive as part of their other updates.
 
-    Once downloaded, you can create a script in Configuration Manager by following the process in [Create and run PowerShell scripts from the Configuration Manager Console](/configmgr/apps/deploy-use/create-deploy-scripts/) or by using a traditional script-based application such as that in [Create applications in Configuration Manager](/configmgr/apps/deploy-use/create-applications/). When using either option, the command to update the OneDrive client using the installer is:
+    Once downloaded, you can create a script in Configuration Manager by following the process in [Create and run PowerShell scripts from the Configuration Manager Console](/configmgr/apps/deploy-use/create-deploy-scripts/) or by using a traditional script-based application such as that in [Create applications in Configuration Manager](/configmgr/apps/deploy-use/create-applications/). When using either option, the command to update the OneDrive sync app using the installer is:
 
     ```PowerShell
     <pathToExecutable>\OneDriveSetup.exe /update /restart
