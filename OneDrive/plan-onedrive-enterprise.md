@@ -48,7 +48,7 @@ The features listed in this section address common customer concerns or specific
 
 - Known Folder Move
   
-- OneDrive Files On-Demand
+- Files On-Demand
 
 - Modern attachments
 
@@ -58,7 +58,7 @@ The features listed in this section address common customer concerns or specific
 
 - Intelligent discover with OneDrive Discover view
 
-- OneDrive Files Restore
+- Files Restore
 
 - Recycle bin
 
@@ -72,11 +72,11 @@ The features listed in this section address common customer concerns or specific
 
 - Customer-controlled encryption keys
 
-- Microsoft 365 Customer Lockbox
+- Customer Lockbox
 
 - Hybrid integration with SharePoint Server
 
-- OneDrive Multi-Geo storage locations
+- Multi-geo data residency
 
 - Government cloud
 
@@ -86,7 +86,7 @@ For a full list of feature availability across OneDrive plans, see [Microsoft On
 
 Known Folder Move makes it easier to move files in your users' Desktop, Documents, and Pictures folders to OneDrive. This lets users continue working in the folders they're familiar with and access their files from any device. It also helps you make sure your users' files are backed up in the cloud if anything happens to their device. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
-### OneDrive Files On-Demand
+### Files On-Demand
 
 OneDrive Files On-Demand enables users to view, search for, and interact with files stored in OneDrive from within File Explorer without downloading them all to their device. The feature provides a seamless look and feel for both OneDrive and local files without taking up space on the local hard drive. Files that have not been downloaded have a cloud icon for their status, as shown below. For those files that have been downloaded, the status shows a green checkmark.
 
@@ -122,14 +122,14 @@ OneDrive has a recycle bin similar to the one available on the Windows desktop. 
 
 OneDrive has detailed reporting and auditing capabilities for files it stores as well as for those files stored through other services that use OneDrive for storage, such as Microsoft SharePoint. In addition, you can audit individual file actions, including downloads, renames, and views.
 
-The Microsoft 365 admin center handles reporting for cloud services, including OneDrive. You can view historical information like storage usage by user and for the organization, total file and active file counts, and account activity. The following image shows an example of a OneDrive report for file usage over the past 30 days in the Office 365 admin center.
+The Microsoft 365 admin center handles reporting for cloud services, including OneDrive. You can view historical information like storage usage by user and for the organization, total file and active file counts, and account activity. The following image shows an example of a OneDrive report for file usage over the past 30 days in the Microsoft 365 admin center.
 
 > [!NOTE]
 > To export this info to a .csv file, select **Export**.
 
 ![Screenshot of the 30-day file usage report](media/onedrive-feature-overview_image2.png)
 
-You can also consume this info in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze Office 365 usage data by using prebuilt graphs and charts or by creating custom reports to gain insight into how specific regions or departments within your organization are using Office 365. For more info about this content pack, see [Microsoft 365 usage analytics](/office365/admin/usage-analytics/usage-analytics).
+You can also consume this info in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze usage data by using prebuilt graphs and charts or by creating custom reports to gain insight into how specific regions or departments within your organization are using Microsoft 365. For more info about this content pack, see [Microsoft 365 usage analytics](/office365/admin/usage-analytics/usage-analytics).
 
 ### Encryption of data in transit and at rest
 
@@ -139,25 +139,23 @@ Each file chunk is then randomly distributed among Microsoft Azure Storage conta
 
 ### Customer-controlled encryption keys
 
-By using an Office 365 feature called *service encryption with Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed info about service encryption with Customer Key, and how to configure it in your environment, see [Controlling your data in Office 365 using Customer Key](/office365/securitycompliance/controlling-your-data-using-customer-key/).
+By using a Microsoft 365 feature called *service encryption with Customer Key,* you can upload your own encryption keys to Azure Key Vault for use encrypting your data at rest in Azure data centers. Even though this encryption is done natively through BitLocker, customers can require the use of their own key to meet their security compliance requirements. Should users lose their key, they can retrieve a deleted key from the Recycle Bin for up to 90 days (based on your configuration). Before you can use this feature, however, you must create an Azure subscription and complete a few prerequisite steps. For detailed info about service encryption with Customer Key, and how to configure it in your environment, see [Controlling your data in Microsoft 365 using Customer Key](/office365/securitycompliance/controlling-your-data-using-customer-key/).
 
-### Office 365 Customer Lockbox
+### Customer Lockbox
 
-If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Office 365 Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more info about how to configure and use the Customer Lockbox feature, see [Office 365 Customer Lockbox Requests](/office365/admin/manage/customer-lockbox-requests).
+If a Microsoft support engineer needs to access your data to resolve an issue, that engineer is required to obtain approval from a Microsoft manager first. The Customer Lockbox feature adds a requirement to that process: you must approve or reject that access before the support engineer can access your data. With Customer Lockbox, you can also set boundaries on how long the engineer can access your data, and all activity during that time is logged for auditing purposes. For more info about how to configure and use the Customer Lockbox feature, see [Customer Lockbox in Office 365](/office365/admin/manage/customer-lockbox-requests).
 
 ### Microsoft Trust Center
 
-Microsoft Trust Center provides info about Microsoft's trust policy, how Microsoft products help you protect your data and maintain your customers' and users' trust, and why you should trust Microsoft products with your data. The following two categories provide details about Office 365 and OneDrive data privacy, compliance, and security:
+Microsoft Trust Center provides info about Microsoft's trust policy, how Microsoft products help you protect your data and maintain your customers' and users' trust, and why you should trust Microsoft products with your data. The following two categories provide details about Microsoft 365 and OneDrive data privacy, compliance, and security:
 
-- **Office 365 Trust Center.** Privacy, compliance, and cybersecurity are as important to Microsoft as they are to you. For info about how Office 365 can help you increase employee productivity while helping you safeguard your data, see [Microsoft Office 365](https://www.microsoft.com/trustcenter/cloudservices/office365) in the Microsoft Trust Center. For info about why you should trust Microsoft, Office 365, and OneDrive with your data, see [Office 365 Trust Center](https://www.microsoft.com/trust-center).
+- **Microsoft Trust Center.** Privacy, compliance, and cybersecurity are as important to Microsoft as they are to you. For info about how Microsoft 365 can help you increase employee productivity while helping you safeguard your data, see [Microsoft 365](https://www.microsoft.com/trust-center/product-overview#office-CustomSpacingTemplate-km3fxy2) in the Microsoft Trust Center. 
 
-- **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Office 365 with OneDrive give you GDPR-compliant tools that you can integrate into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/trustcenter/privacy/gdpr/resources). For additional helpful info about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
+- **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Microsoft 365 with OneDrive give you GDPR-compliant tools that you can integrate into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/trustcenter/privacy/gdpr/resources). For additional helpful info about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
 
-### OneDrive Multi-Geo storage locations
+### Multi-Geo data residency
 
-Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users' data. You can designate storage geographies on a per-user basis.
-
-For multinational customers with data residency requirements, you can use this feature to ensure that each user's data is stored in the geo location necessary for compliance. For more info about this feature, see [Multi-Geo Capabilities in OneDrive and SharePoint in Office 365](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
+Multi-Geo is Microsoft 365 feature that allows organizations to span their storage over multiple geo locations and specify where to store users' data. For multinational customers with data residency requirements, you can use this feature to ensure that each user's data is stored in the geo location necessary for compliance. For more info about this feature, see [Multi-Geo Capabilities in OneDrive and SharePoint](/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365/).
 
 ### Government cloud
 
@@ -217,15 +215,15 @@ Because OneDrive provides access to files on many kinds of devices, it restricts
 
 ## Feature releases and requests
 
-If you want to see the functionality currently under development for OneDrive and Office 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Lastly, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
+If you want to see the functionality currently under development for OneDrive and Microsoft 365, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) or the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/onedrive). Lastly, if you want to request new functionality or vote on great community ideas for OneDrive, visit [OneDrive UserVoice](https://onedrive.uservoice.com).
 
 ## Keys to successful user adoption
 
-User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Office 365 and OneDrive, you need to maximize user engagement with them. To do that, start by focusing on three critical success factors:
+User adoption is important to the overall success of any new application. Ideally, to feel that you have maximized your investment in Microsoft 365 and OneDrive, you need to maximize user engagement with them. To do that, start by focusing on three critical success factors:
 
-- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing OneDrive and Office 365 succeed in the organization. It is important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. In fact, a SharePoint user study in 2013 showed that people prefer to learn from a coworker than from an IT employee. For more info about how to identify key stakeholders for your OneDrive and Office 365 implementation, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more info about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
+- **Stakeholders.** Securing the participation and buy-in of key people within your organization is critical to successful user adoption. This support can come from business-focused leaders, IT leadership, or anyone else who has a vested interest in seeing OneDrive and Microsoft 365 succeed in the organization. It is important to have both executive or business leader support and product champions to help carry the knowledge to their peers. Whether you're formally delegating the product champion role or allowing it to grow organically, champions are mission critical to user adoption. In fact, a SharePoint user study in 2013 showed that people prefer to learn from a coworker than from an IT employee. For more info about how to identify key stakeholders for your OneDrive and Microsoft 365 implementation, see the [Identify key stakeholders guide](https://aka.ms/execsponsor). For more info about building a sustainable champion community, see [Build a champion program](https://aka.ms/office365champions).
 
-- **Scenarios.** When planning to implement OneDrive and Office 365, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and Office 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Office 365 Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
+- **Scenarios.** When planning to implement OneDrive and Microsoft 365, identify and define your business scenarios and how those scenarios align with the benefits of implementing OneDrive and Microsoft 365. Work with your key stakeholders to identify the goals of the business scenarios, and then match those goals against usage scenarios. For example, a business goal may be to maximize user productivity; a key usage scenario enabling that goal would be using OneDrive to access files from mobile devices, PCs, and Macs. For help with this process, see the [Productivity Library](https://support.office.com/article/d8ab82a5-5f02-4439-816b-4a5d35133e48).
 
 - **Awareness and training.** Creating awareness through awareness campaigns such as announcements, launch events, newsletters, town hall meetings, contests, and giveaways is a critical path to maximizing adoption. In addition, providing users with knowledge through classroom-style sessions and self-help guides helps them feel empowered to use OneDrive and Office 365. For more info about user communication and training on Office 365, see the [Plan your Office 365 Launch: Communication and Training Guide](https://aka.ms/commandtraining).
 
@@ -304,7 +302,7 @@ Azure Information Protection is a cloud-based solution that helps organizations 
 
 For more info about Azure Information Protection, see [What is Azure Information Protection](/azure/information-protection/what-is-information-protection/)? You can add Azure Information Protection to your Office 365 subscription on the Subscriptions page of the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home#/subscriptions).
 
-If you have decided to use Azure Information Protection, to configure the necessary settings for it to work with OneDrive, see [Office 365: Configuration for clients and online services to use the Azure Rights Management service](/azure/information-protection/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration/).
+If you have decided to use Azure Information Protection, to configure the necessary settings for it to work with OneDrive, see [Office 365: Configuration for online services to use the Azure Rights Management service](/azure/information-protection/configure-office365#sharepoint-online-and-onedrive-for-business-irm-configuration/).
 
 
 ### OneDrive integration with other Microsoft 365 features
@@ -513,7 +511,7 @@ The tools and technologies you use to manage OneDrive are based on the individua
 
 ## Manage OneDrive by using the OneDrive admin center
 
-The OneDrive admin center [https://admin.onedrive.com](https://admin.onedrive.com) in Office 365 enables you to manage OneDrive settings and device access from one central location. Some settings in the OneDrive admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the OneDrive admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the OneDrive admin center.
+The OneDrive admin center [https://admin.onedrive.com](https://admin.onedrive.com) enables you to manage OneDrive settings and device access from one central location. Some settings in the OneDrive admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the OneDrive admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the OneDrive admin center.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSt]
 
@@ -523,11 +521,11 @@ Settings in the OneDrive admin center are grouped into six categories:
 
 - **Sync** - On the **Sync** page, you can configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
 
-- **Storage** - On the **Storage** page, you specify the default OneDrive storage limit for users within your Office 365 organization. You can also configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). These organization-wide configuration settings are applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
+- **Storage** - On the **Storage** page, you specify the default OneDrive storage limit for users in your organization. You can also configure data retention settings for users whose accounts have been deleted (the maximum value is 10 years). These organization-wide configuration settings are applicable to all organizations, regardless of the device management tool they use. Use this page to configure the data retention value based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
 
 - **Device Access** - On the **Device Access** page, you can restrict device access to OneDrive based on network location and apps that don't use modern authentication among other application management options. Depending on your device management tool, the restrictions configurable on this page may overlap with other management settings. If a conflict occurs with an Intune policy, for example, the Intune policy will take precedence for the users that policy targets.
 
-- **Compliance** - The **Compliance** page provides a centralized list of links to auditing, DLP, retention, eDiscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. Selecting an item's link redirects you to the Office 365 Security & Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies in Office 365 and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
+- **Compliance** - The **Compliance** page provides a centralized list of links to auditing, DLP, retention, eDiscovery, and alerting capabilities within Microsoft 365 that are applicable to OneDrive. Selecting an item's link redirects you to the Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. Some capabilities won't be available if you're using Intune (for example, device management). For a walkthrough of how to create DLP policies and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template/).
 
 - **Notifications** - On the **Notifications** page, you define when OneDrive owners should receive notifications about sharing or accessing their data. For info about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
 
