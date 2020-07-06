@@ -2,7 +2,7 @@
 title: "Plan navigation for the modern experience in SharePoint"
 ms.reviewer: 
 ms.author: hokavian
-author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
