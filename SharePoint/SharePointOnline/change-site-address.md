@@ -141,7 +141,7 @@ Flows will need to be recreated after the site address change.
 The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.
 
 **Recycle bin**
-Any files in the recycle bin will be lost when the site address is changed.
+Files in the Recycle Bin will be restorable as per usual deletion timeframe.
 
 **SharePoint mobile apps for Android and iOS**<br>
 The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
@@ -164,7 +164,7 @@ When the site address change is complete, users will be able to access their Sha
 
 |Functionality  |Limitation  |
 |:---------|:---------|
-|Files tab in channels  |The Files tab will need to be refreshed.  |
+|Files tab in channels  |The Files tab will need to be refreshed once after the site rename.  |
 |Viewing files in Teams |Files shared in channels before the address was changed can be viewed in the Teams app on the channel's Files tab. They can also be viewed in Office apps for the web from the channel's Files tab or the conversation. To view Word, Excel, and PowerPoint files in the desktop apps:<br>Select the “Open in Desktop” option from the channel's Files tab.<br>Open the file in the Office app for the web, and then select “Open in Desktop”. |
 |Uploading files to channels |Uploading files from a computer or OneDrive to a channel conversation will work after a user has visited the Files tab for any channel in the site. |
 |File search |Search in Teams will show files only from sites whose addresses have not been changed. |
