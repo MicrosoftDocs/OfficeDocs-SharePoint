@@ -48,6 +48,7 @@ Your governance team may meet on a frequent basis during intranet planning and t
 There is no “one size fits all” model when it comes to intranet governance. In fact, your intranet governance plan may be different for different types of content. For example, you may want to have more formal policies and stricter governance guidelines for sites that face the entire organization and less strict policies for content that is more targeted, such as content for an individual department or a one-time event (see Figure 1). The best approach is to look at the different elements and think about what is critical or necessary for your organization. Consider your audience and the culture of your organization to guide your decisions and approach, as well as your overall Microsoft 365 governance expectations.
 
 ![Image of governance as it relates to types of content](media/gov-pyramid.png)
+<br>
 *Figure 1. Your governance decisions may be different (and stricter) based on the "reach" of your content.*
 
 At a minimum, consider each of these elements as part of your intranet governance planning effort. 
@@ -103,10 +104,12 @@ Each organization will have its own set of policies and guidelines. General topi
 A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience#guiding-principle--the-world-is-flat) which means that your intranet will contain a lot of sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance.  There are two popular solutions to governing new site creation:
 
 
-- **Implement a site request process for intranet sites** 
+**Implement a site request process for intranet sites** 
 
 You can easily [hide the option to create a new site](https://docs.microsoft.com/sharepoint/manage-site-creation) in the SharePoint admin center. If you do so, you will want to create a process for users to request a new intranet site. Having a request process makes it easy to review and track site requests and ensures that your environment remains “tidy,” but if your review and approval process takes too long, it could be frustrating for your users. Your provisioning process can leverage a site design to ensure consistency or you can manually create sites to follow your design patterns. A key part of your provisioning process will be to ensure that new site owners have the appropriate guidance and training that they need to be successful when you fulfill their site requests.
-- **Allow self-service site creation.** If you enable self-service site provisioning, you will want to consider providing site designs that embed your best practices so that new site owners start with a “template” that aligns to your governance guidelines. You will also want to track new sites in the Admin Center so that you can follow up with new site owners to provide the information that they need to be successful after the site has been created.
+**Allow self-service site creation.**
+
+ If you enable self-service site provisioning, you will want to consider providing site designs that embed your best practices so that new site owners start with a “template” that aligns to your governance guidelines. You will also want to track new sites in the Admin Center so that you can follow up with new site owners to provide the information that they need to be successful after the site has been created.
 
 In addition to providing a process to provision new sites, you will also want to think about a process to provision new [hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites) and associated hubs. Hubs must be provisioned by the Global or SharePoint Admin so you will need to think about how you will plan and govern the creation of new hubs.
 
@@ -138,11 +141,17 @@ Some common content issues include: Files are often duplicated rather than linke
 - Are there guidelines for creating intranet content? For example, what is the appropriate tone of voice and are there specific guidelines organizing content on pages? When should content authors create documents for the intranet and when should they create pages?
 - Are there accessibility standards that content authors need to follow? [Consider these 8 tips](https://techcommunity.microsoft.com/t5/humans-of-it-blog/guest-blog-8-tips-to-create-accessible-sharepoint-pages/ba-p/1338062) to create accessible SharePoint pages (from the [Humans of IT Blog](https://techcommunity.microsoft.com/t5/humans-of-it-blog/bg-p/HoIT-Blog) on the Microsoft Tech Community).
 - How should files be named? Should your governance content include file naming recommendations such as not including version numbers in file names?
+<br>
+
 **Information protection**
 - Does your organization have a requirement to protect certain types of sensitive information? If so, can your governance plan (and deployment) leverage [Microsoft 365 information protection](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) capabilities such as sensitivity labels and retention policies?
+<br>
+
 **Content review**
 - Do you want to set up [flows using Power Automate](https://docs.microsoft.com/power-automate/modern-approvals) to trigger intranet content review at a specific time interval?
 - Who is accountable to review content and at what frequency? Is it the site owner or the content author or another role? Is the expectation different for different types of sites or different types of content?
+<br>
+
 **Content disposition**
 - Do you have requirements to implement [records retention policies](https://docs.microsoft.com/microsoft-365/compliance/records-management?view=o365-worldwide) on some or all content to prevent accidental deletion?
 
@@ -154,11 +163,6 @@ Roles and responsibilities describe how each employee as an individual or in a r
 It “takes a village” to successfully support an intranet in any organization. You will need a team - and the team may include specialized roles that you leverage on an occasional basis, such as developers to create a custom web part, permanent roles such as site owners for whom intranet site management is a small part of their job, and other permanent roles for people whose entire job responsibilities involve intranet management. Some organizations find it helpful to organize their intranet resources in a center of excellence, which may include full time members of the IT staff supplemented with virtual members who work in different business groups around the organization. Others extend their centralized staff to include “[intranet champions](https://www.microsoft.com/microsoft-365/success/champions),” who extend the support team into various departments and geographic locations by volunteering to help ensure intranet success. 
 
 No matter who is in your “village,” it is critically important that everyone understands their role and for which aspects of the intranet they are responsible. Figure 2 shows an example of a role and responsibilities description for an intranet Site Owner. 
-
-
-
-![Image of site governance instructions for site owners](media/governance-example.png)
-*Figure 2. Sample intranet Site Owner role and responsibilities.*
 
 
 #### Some of the key roles to consider for your intranet governance plan include:
