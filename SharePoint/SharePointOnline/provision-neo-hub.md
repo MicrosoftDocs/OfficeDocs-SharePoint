@@ -196,7 +196,7 @@ From the corporate onboarding hub, users can access specific resources for depar
 ##### Pre-populated site contents:
 - **Home page** - Provide a high-level view of big concepts that will be relevant to new hires.
 - **Getting started** – Help users quickly understand onboarding tasks, departmental procedures, and anything else that will help new hires be successful. 
-- **Meet the team** – Introduce new hires to people, the organization structure and goals on the Leadership, The organization, and Our priorities pages.
+- **Meet the team** – Introduce new hires to people, the organization structure and goals on the Leadership, The organization, and Our priorities pages. Edits the [Call to Action web part](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00) to include links and images.
 - **Help and support** - Highlight where to go for support and consider creating a FAQ section.
 
 
