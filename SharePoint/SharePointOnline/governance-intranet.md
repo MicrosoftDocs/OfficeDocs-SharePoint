@@ -146,6 +146,57 @@ Some common content issues include: Files are often duplicated rather than linke
 **Content disposition**
 - Do you have requirements to implement [records retention policies](https://docs.microsoft.com/microsoft-365/compliance/records-management?view=o365-worldwide) on some or all content to prevent accidental deletion?
 
+### Security and information management
+Your governance plan should not only include what *should* be posted on the intranet – but it should also include guidelines for content that *should not* be posted on the intranet. You may be able to enforce some policies using [automated information protection](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) capabilities, but you will want to provide training and guidance for site owners and content authors to ensure that they understand their responsibilities when it comes to security and information management for both sites and content.
+
+### Roles and responsibilities
+Roles and responsibilities describe how each employee as an individual or in a role (such as Site Owner) is responsible for ensuring success of the intranet. Documenting roles and responsibilities is a critical aspect of your intranet governance plan. To ensure that intranet responsibilities are treated seriously, it is helpful to partner with your human resources organization to ensure that intranet responsibilities are part of job descriptions or performance goals.
+It “takes a village” to successfully support an intranet in any organization. You will need a team - and the team may include specialized roles that you leverage on an occasional basis, such as developers to create a custom web part, permanent roles such as site owners for whom intranet site management is a small part of their job, and other permanent roles for people whose entire job responsibilities involve intranet management. Some organizations find it helpful to organize their intranet resources in a center of excellence, which may include full time members of the IT staff supplemented with virtual members who work in different business groups around the organization. Others extend their centralized staff to include “[intranet champions](https://www.microsoft.com/microsoft-365/success/champions),” who extend the support team into various departments and geographic locations by volunteering to help ensure intranet success. 
+<br>
+No matter who is in your “village,” it is critically important that everyone understands their role and for which aspects of the intranet they are responsible. Figure 2 shows an example of a role and responsibilities description for an intranet Site Owner. 
+
+
+
+![Image of site governance instructions for site owners](media/governance-example.png)
+*Figure 2. Sample intranet Site Owner role and responsibilities.*
+
+
+#### Some of the key roles to consider for your intranet governance plan include:
+- Intranet Steering Committee
+- Intranet Business Owner
+- Intranet Technology Owner
+- Corporate Communications
+- Training
+- Intranet Governance Team
+- Site Owners
+- Hub Owners
+- Site Members/Editors
+- Site Visitors
+- Yammer Community Owners
+- Yammer Community Members
+- Team Owners
+- Team Members
+- Intranet/SharePoint/Microsoft 365 Champions
+
+### Feedback
+Your intranet governance plan should incorporate a mechanism to collect feedback from intranet users. This includes a vehicle to collect feedback – for example, a Microsoft Form linked from the footer of your home site – but also mechanisms to gather and process the feedback and take actions based on the feedback. It is a good idea to acknowledge all feedback, even if you don’t plan to take an immediate action.
+
+### Training and support
+Your intranet will not be successful if you don’t incorporate a way to provide training and support for all users, but most especially, Site Owners. The best way to reinforce your governance policies and guidelines is to build them in to your training. In other words, don’t provide training that only shows “how to” – make sure that your training also includes your policies and guidelines – the “how should” aspect of your governance plan.
+
+It is helpful to provide a dedicated site where Site Owners and other intranet users can find training and governance information. You can create your own “user resource center” as described earlier or leverage a third-party or Microsoft-provided training environment. To ensure that your training content is always current, you can link to content in Microsoft’s training platforms such as support.office.com and docs.microsoft.com. You can also embed the support.office.com training into your own environment by deploying [Microsoft 365 Learning Pathways](https://docs.microsoft.com/office365/customlearning/) in your tenant and adapting the content to include your governance policies and guidelines.
+
+You can help your intranet users find your training content by [adding a custom tile](https://docs.microsoft.com/microsoft-365/admin/manage/customize-the-app-launcher?view=o365-worldwide) to your Organization Profile or adding a [custom help link](https://docs.microsoft.com/microsoft-365/admin/misc/customize-help-desk?view=o365-worldwide) directly in Microsoft 365. 
+
+### Measurement 
+Your intranet measurement plan should be aligned to the criteria for success defined for the [intranet vision](https://docs.microsoft.com/sharepoint/plan-intranet). It should define the metrics and analytics used to track success, any associated KPIs, and processes for evaluating metrics and taking action to make improvements. 
+<br>
+Look for metrics that are more than just page views. Just because a page is viewed does not mean it is adding value to users. Instead, look at metrics that measure business value. For example, are you seeing fewer support tickets related to expense processing because your intranet was updated to include better and more up-to-date content about expense reports? Are you seeing fewer help desk calls regarding how to upload documents because you have updated your training content and made it more accessible? Are HR representatives spending more time on unique issues because the HR content is organized more effectively?
+<br>
+If your initial design plan identified key business outcomes or surveyed users to ensure they had easy access to the information they need for their job, repeat the process after you have deployed or updated your intranet to identify the business impact of your intranet update or investment. Supplement this data with qualitative feedback from site owners and users to create a comprehensive assessment of the effectiveness of your intranet and your governance plan.
+
+
+
 
 
 
