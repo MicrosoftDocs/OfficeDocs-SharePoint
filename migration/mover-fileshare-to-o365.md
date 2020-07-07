@@ -424,7 +424,7 @@ The differences between Windows installers are as follows:
 
 #### User-context installer
 
-- **Select to download**.
+- **[Select to download](https://agent.mover.io/windows/)**.
 - Installs and is run as the currently logged in Windows user.
 - Automatically updates.
 - Has access to local drives.
@@ -433,7 +433,7 @@ The differences between Windows installers are as follows:
 
 #### Service-context installer
 
-- **Select to download**.
+- **[Select to download](https://agent.mover.io/service/)**.
 - Installs and is run as a Windows service.
 - Must be manually updated.
 - Has access only to local drives.
@@ -446,7 +446,7 @@ The following Agents operate using a command line interface versus a user interf
 
 ### macOS
 
-- **Select to download**.
+- **[Select to download](https://agent.mover.io/osx/)**.
 - Navigate to the download location, and unzip the **Mover Agent**.
 - Via the terminal, browse to the now unzipped `moveragent` folder, and run `./agent`.
 - Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
@@ -457,7 +457,7 @@ The following Agents operate using a command line interface versus a user interf
 
 ### Linux
 
-- **Select to download**.
+- **[Select to download](https://agent.mover.io/linux/)**.
 - Navigate to the download location, and unzip the Agent.
 - Via the terminal, browse to the now unzipped `moveragent` folder and run `./agent`.
 - Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
@@ -465,7 +465,7 @@ The following Agents operate using a command line interface versus a user interf
 
 ### Windows command line installer (beta)
 
-- **Select to download**.
+- **[Select to download](https://agent.mover.io/windowscl/)**.
 - Installs and is run as a command line executable.
 - Must be manually updated.
 - Built from the same code base as the Linux and macOS agents.
