@@ -501,14 +501,14 @@ To access the **Agent Log**, navigate to the folder directory that you installed
 
 Our Agent supports the following commands:
 
-- Start the Agent
-- Stop the Agent
-- Show Agent Help
-- Show Agent Version
-- Check Agent Status
-- Disconnect the Agent
-- Connect the Agent
-- Monitor Agent Activity
+- [Start the Agent](#start-the-agent)
+- [Stop the Agent](#stop-the-agent)
+- [Show Agent Help](#show-agent-help)
+- [Show Agent Version](#show-agent-version)
+- [Check Agent Status](#check-agent-status)
+- [Disconnect the Agent](#disconnect-the-agent)
+- [Connect the Agent](#connect-the-agent)
+- [Monitor Agent Activity](#monitor-agent-activity)
 
 
 #### Start the agent
