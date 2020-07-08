@@ -16,6 +16,37 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Backend v1.18.1 (July 8, 2020)
+
+- Deprecation notices
+  - Starting July 1, 2020, Amazon WorkDocs and NetDocuments connectors have been deprecated. This means that users will not be able to authorize new Amazon WorkDocs or NetDocuments connectors. However, users will still be able to use existing Amazon WorkDocs and NetDocuments connectors until their end-of-life date of August 1, 2020. Users are encouraged to wrap up existing migrations involving these two connectors as soon as possible.
+- Error reporting improvements
+  - Improved error messages displayed in the User Log coming from the Agent connector.
+- Stability fixes
+  - Large transfers into Office 365 are now less likely to fail completely (red row in the Migration Manager), as a result of performance optimizations.
+
+## Frontend v1.18.1 (July 1, 2020)
+
+- Accessibility fixes
+  - Removed double tab stops in Authorize New Connector links in the Transfer Wizard.
+  - Fixed Migration Manager stats to display properly in all zoom levels, and in devices of all screen sizes.
+  - Enabled outlines on all links throughout the application when they have focus. This will help users locate the current element in focus when navigating the application using the keyboard.
+  - Removed "Coming Soon" video in the Migration Manager when the user has no migrations.
+  - Removed prompt to provide feedback when users close their accounts. It's natural for users to delete their accounts when their migrations are done. Alternatively, they can contact support to provide feedback.
+  - Added a light version for the "Sign in with Microsoft" button for users browsing the application using a high-contrast browser mode.
+  - Fixed the Mover logo for users browsing the application using a high-contrast browser mode.
+  - Navigation bars will now show a marker on the active and focused items in high-contrast browser mode.
+
+## Frontend & Backend v1.18.0 (June 25, 2020)
+
+- Error reporting improvements
+  - During a migration into Office 365, we would skip processing of source files over 15GB and mark them as successfully skipped. This changed for a while to instead process them and report on the processing errors. While Office 365 supports 100GB files now, migration of files over 15GB is not yet supported. So we have reverted back to the previous approach of skipping files larger than 15GB. Support for 100GB files will be announced once they are fully supported for migrations into Office 365.
+  - When running a migration from a non-existent source directory, the transfer would fail appropriately and the user log would have a yellow row in it. However, this row in the user log would sometimes contain no error message. This has been fixed so that a proper error message is included detailing that the source directory does not exist.
+  - During a migration into Office 365, while a file may be uploaded properly, its batch may fail to be submitted for processing. In these cases, the UI would show the file as failed, but the user log would not contain any entries showing that the file failed. This has been fixed by ensuring that there always exists a user log entry per file when a migration job (batch) within a transfer fails to submit.
+  - In the Migration Manager table, if there are skips because the file is unsupported on the source or destination, or if we are not allowed to download the file, then it will now show up as a failure and not as a regular incremental skip. Transactions that were mostly successful but only had these unsupported file issues, will end with status code 227 "Some files are unsupported" and the row will appear yellow in the Migration Manager.
+- New features
+  - On the Account Page, in the Admin Panel, a user is now able to add managers to their account in bulk. The user can enter a list of comma-separated email addresses to be added as account managers.
+
 ## Frontend v1.16.2 (June 12, 2020)
 
 - The Migration Manager table now includes an "information" icon in each row to make it more intuitive for users to know that additional information on the row can be viewed by clicking on that icon. This action will open the Transfer Summary side panel.
