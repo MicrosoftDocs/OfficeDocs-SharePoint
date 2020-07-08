@@ -46,6 +46,7 @@ Your governance team may meet on a frequent basis during intranet planning and t
 
 ## Governance Plan Elements
 There is no “one size fits all” model when it comes to intranet governance. In fact, your intranet governance plan may be different for different types of content. For example, you may want to have more formal policies and stricter governance guidelines for sites that face the entire organization and less strict policies for content that is more targeted, such as content for an individual department or a one-time event (see Figure 1). The best approach is to look at the different elements and think about what is critical or necessary for your organization. Consider your audience and the culture of your organization to guide your decisions and approach, as well as your overall Microsoft 365 governance expectations.
+<br>
 
 ![Image of governance as it relates to types of content](media/gov-pyramid.png)
 <br>
@@ -81,7 +82,7 @@ For example, consider the topic of site ownership. A policy might state, “All 
 
 Each organization will have its own set of policies and guidelines. General topics should include content oversight, site design, branding and user experience, site management, and security. 
 
-### To ensure success:
+#### Steps to ensure success:
 
 - Verify that your intranet policies and guidelines do not conflict with broader organizational polices and your overall governance decisions for Microsoft 365.
 - Publish policies and guidelines where users can easily find and follow them. Some policies may need to be published for “all users,” while others may need to be secured to protect the integrity of the application. Consider creating a governance site rather than a document to facilitate publishing and “consuming” governance policies and guidelines.
@@ -107,9 +108,10 @@ A key intranet governance decision involves determining who can create a new int
 **Implement a site request process for intranet sites** 
 
 You can easily [hide the option to create a new site](https://docs.microsoft.com/sharepoint/manage-site-creation) in the SharePoint admin center. If you do so, you will want to create a process for users to request a new intranet site. Having a request process makes it easy to review and track site requests and ensures that your environment remains “tidy,” but if your review and approval process takes too long, it could be frustrating for your users. Your provisioning process can leverage a site design to ensure consistency or you can manually create sites to follow your design patterns. A key part of your provisioning process will be to ensure that new site owners have the appropriate guidance and training that they need to be successful when you fulfill their site requests.
-**Allow self-service site creation.**
 
- If you enable self-service site provisioning, you will want to consider providing site designs that embed your best practices so that new site owners start with a “template” that aligns to your governance guidelines. You will also want to track new sites in the Admin Center so that you can follow up with new site owners to provide the information that they need to be successful after the site has been created.
+**Allow self-service site creation**
+
+If you enable self-service site provisioning, you will want to consider providing site designs that embed your best practices so that new site owners start with a “template” that aligns to your governance guidelines. You will also want to track new sites in the Admin Center so that you can follow up with new site owners to provide the information that they need to be successful after the site has been created.
 
 In addition to providing a process to provision new sites, you will also want to think about a process to provision new [hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites) and associated hubs. Hubs must be provisioned by the Global or SharePoint Admin so you will need to think about how you will plan and govern the creation of new hubs.
 
@@ -119,10 +121,10 @@ When an intranet site is no longer needed, there may be cases where your records
 ### Information architecture and search
 Well-planned [information architecture](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience) is a prerequisite for a successful and well-performing intranet. It is difficult to separate planning your intranet information architecture from planning your intranet governance. These two planning tasks go together and you will likely find that you are thinking about the two aspects of your intranet iteratively and simultaneously.
 Intranet governance should cover several key aspects of your information architecture:
-- Navigation architecture – how your sites and hubs will be associated to support users who navigate or browse for content.
-- Page architecture – guidelines for pages, especially site home pages, to help create consistent experiences across all intranet sites.
-- Metadata architecture – columns and content type planning to support consistent approaches for organizing content and pages.
-- Search experiences – understanding how users will find content when they don’t know where it might be in the architecture and how they will discover content. You can help users discover content and improve search outcomes by leveraging several features in search, including acronyms, bookmarks, Q&A, floor plans, and locations. For more information, learn how to [make content easy to find](https://docs.microsoft.com/microsoftsearch/make-content-easy-to-find) and how [search experiences](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience) work in SharePoint. Your governance plan should include how you will support and manage the creation of the search discovery attributes.
+- **Navigation architecture** – how your sites and hubs will be associated to support users who navigate or browse for content.
+- **Page architecture** – guidelines for pages, especially site home pages, to help create consistent experiences across all intranet sites.
+- **Metadata architecture** – columns and content type planning to support consistent approaches for organizing content and pages.
+- **Search experiences** – understanding how users will find content when they don’t know where it might be in the architecture and how they will discover content. You can help users discover content and improve search outcomes by leveraging several features in search, including acronyms, bookmarks, Q&A, floor plans, and locations. For more information, learn how to [make content easy to find](https://docs.microsoft.com/microsoftsearch/make-content-easy-to-find) and how [search experiences](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience) work in SharePoint. Your governance plan should include how you will support and manage the creation of the search discovery attributes.
 
 
 
@@ -135,7 +137,7 @@ Content management is one of the most important parts of your intranet governanc
 
 Some common content issues include: Files are often duplicated rather than linked – so search finds multiple copies of the same document and the searcher doesn’t know which one is the correct version. File names often include version numbers instead of allowing SharePoint to manage versions – so search finds all the various versions of a document and not just the most recent, making it harder for the searcher to find the current version of a file.
 
-#### Your governance plan should include these key content management concepts:
+Your governance plan should include these key content management concepts:
 **Content creation**
 - Where should content be published? For example, if I am not the “owner” of a document, should I publish it to my intranet site? Or instead, should I find the owner and ask them to publish it so that I can add a link?
 - Are there guidelines for creating intranet content? For example, what is the appropriate tone of voice and are there specific guidelines organizing content on pages? When should content authors create documents for the intranet and when should they create pages?
