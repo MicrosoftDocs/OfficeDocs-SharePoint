@@ -2,7 +2,7 @@
 title: "Planning intranet governance"
 ms.reviewer:
 ms.author: hokavian
-author: HollandODSP
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
