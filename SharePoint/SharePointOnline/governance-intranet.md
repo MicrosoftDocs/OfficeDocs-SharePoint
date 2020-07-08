@@ -105,11 +105,11 @@ Each organization will have its own set of policies and guidelines. General topi
 A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience#guiding-principle--the-world-is-flat) which means that your intranet will contain a lot of sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance.  There are two popular solutions to governing new site creation:
 
 
-**Implement a site request process for intranet sites** 
+#### Implement a site request process for intranet sites
 
 You can easily [hide the option to create a new site](https://docs.microsoft.com/sharepoint/manage-site-creation) in the SharePoint admin center. If you do so, you will want to create a process for users to request a new intranet site. Having a request process makes it easy to review and track site requests and ensures that your environment remains “tidy,” but if your review and approval process takes too long, it could be frustrating for your users. Your provisioning process can leverage a site design to ensure consistency or you can manually create sites to follow your design patterns. A key part of your provisioning process will be to ensure that new site owners have the appropriate guidance and training that they need to be successful when you fulfill their site requests.
 
-**Allow self-service site creation**
+#### Allow self-service site creation
 
 If you enable self-service site provisioning, you will want to consider providing site designs that embed your best practices so that new site owners start with a “template” that aligns to your governance guidelines. You will also want to track new sites in the Admin Center so that you can follow up with new site owners to provide the information that they need to be successful after the site has been created.
 
@@ -138,6 +138,7 @@ Content management is one of the most important parts of your intranet governanc
 Some common content issues include: Files are often duplicated rather than linked – so search finds multiple copies of the same document and the searcher doesn’t know which one is the correct version. File names often include version numbers instead of allowing SharePoint to manage versions – so search finds all the various versions of a document and not just the most recent, making it harder for the searcher to find the current version of a file.
 
 Your governance plan should include these key content management concepts:
+<br>
 **Content creation**
 - Where should content be published? For example, if I am not the “owner” of a document, should I publish it to my intranet site? Or instead, should I find the owner and ask them to publish it so that I can add a link?
 - Are there guidelines for creating intranet content? For example, what is the appropriate tone of voice and are there specific guidelines organizing content on pages? When should content authors create documents for the intranet and when should they create pages?
@@ -162,6 +163,7 @@ Your governance plan should not only include what *should* be posted on the intr
 
 ### Roles and responsibilities
 Roles and responsibilities describe how each employee as an individual or in a role (such as Site Owner) is responsible for ensuring success of the intranet. Documenting roles and responsibilities is a critical aspect of your intranet governance plan. To ensure that intranet responsibilities are treated seriously, it is helpful to partner with your human resources organization to ensure that intranet responsibilities are part of job descriptions or performance goals.
+
 It “takes a village” to successfully support an intranet in any organization. You will need a team - and the team may include specialized roles that you leverage on an occasional basis, such as developers to create a custom web part, permanent roles such as site owners for whom intranet site management is a small part of their job, and other permanent roles for people whose entire job responsibilities involve intranet management. Some organizations find it helpful to organize their intranet resources in a center of excellence, which may include full time members of the IT staff supplemented with virtual members who work in different business groups around the organization. Others extend their centralized staff to include “[intranet champions](https://www.microsoft.com/microsoft-365/success/champions),” who extend the support team into various departments and geographic locations by volunteering to help ensure intranet success. 
 
 No matter who is in your “village,” it is critically important that everyone understands their role and for which aspects of the intranet they are responsible. Figure 2 shows an example of a role and responsibilities description for an intranet Site Owner. 
@@ -200,6 +202,14 @@ Your intranet measurement plan should be aligned to the criteria for success def
 Look for metrics that are more than just page views. Just because a page is viewed does not mean it is adding value to users. Instead, look at metrics that measure business value. For example, are you seeing fewer support tickets related to expense processing because your intranet was updated to include better and more up-to-date content about expense reports? Are you seeing fewer help desk calls regarding how to upload documents because you have updated your training content and made it more accessible? Are HR representatives spending more time on unique issues because the HR content is organized more effectively?
 
 If your initial design plan identified key business outcomes or surveyed users to ensure they had easy access to the information they need for their job, repeat the process after you have deployed or updated your intranet to identify the business impact of your intranet update or investment. Supplement this data with qualitative feedback from site owners and users to create a comprehensive assessment of the effectiveness of your intranet and your governance plan.
+
+
+
+### Additional intranet governance resources:
+
+[SharePoint governance overview](https://review.docs.microsoft.com/sharepoint/governance-overview?branch=hokavian-intranet-governance)
+
+[How to think about your modern intranet](https://review.docs.microsoft.com/sharepoint/trad-vs-modern-intranet?branch=hokavian-intranet-governance)
 
 
 
