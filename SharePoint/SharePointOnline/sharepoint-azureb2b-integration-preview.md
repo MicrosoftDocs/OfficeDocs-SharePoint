@@ -52,7 +52,7 @@ To opt in to the Azure AD passcode authentication preview
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
 2. In the nav pane, select **Azure Active Directory**.
 3. In the **Overview** pane, click **External identities**.
-4. In the **Organizational identities** pane, click **External collaboration settings**.
+4. In the **Organizational identities** pane, select **External collaboration settings**.
 5. Under **Enable Email One-Time Passcode for guests (Preview)**, select **Yes**.
 6. Select **Save**.
 
