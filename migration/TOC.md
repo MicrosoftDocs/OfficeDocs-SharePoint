@@ -43,7 +43,7 @@
 #### [Dropbox](mover-dropbox.md)
 #### [Egnyte](mover-egnyte.md)
 #### [File shares](mover-fileshare.md)
-#### [G Suite Drive](mover-gsuite-auth.md)
+#### [G Suite Drive](mover-gsuite.md)
 #### [Office 365](mover-o365.md)
 #### [Amazon S3](mover-amazons3.md)
 #### [Azure Blob Storage](mover-azureblob.md)
