@@ -22,6 +22,8 @@ ms.assetid:
 description: "In this article, you will learn how to format a JSON or CSV file for data content migration using the SharePoint Migration tool (SPMT)."
 ---
 
+# Ensure your JSON or CSV file is located (Please include where this should be)
+
 # How to format your JSON or CSV for data content migration
 
   
