@@ -17,6 +17,10 @@ description: "Authorizing the File share Connector"
 
 ## Agent FAQ
 
+The Mover file share agent is written using .NET Core, and therefore is available across many platforms.
+ 
+**[Click here to select your operating system and download the agent.](https://aka.ms/MoverAgent)**
+
 ### Windows
 
 The Windows Agent has two installers, one for the user-context and one for the service-context. The Windows Agent requires Microsoft .NET Framework 4.6.2 or greater.
@@ -25,7 +29,6 @@ The differences between Windows installers are as follows:
 
 #### User-context installer
 
-- **[Select to download](https://aka.ms/MoverAgentWindows)**.
 - Installs and is run as the currently logged in Windows user.
 - Automatically updates.
 - Has access to local drives.
@@ -34,7 +37,6 @@ The differences between Windows installers are as follows:
 
 #### Service-context installer
 
-- **Select to download**.
 - Installs and is run as a Windows service.
 - Must be manually updated.
 - Has access only to local drives.
@@ -47,7 +49,6 @@ The following Agents operate using a command line interface versus a user interf
 
 ### macOS
 
-- **Select to download**.
 - Navigate to the download location, and unzip the **Mover Agent**.
 - Via the terminal, browse to the now unzipped `moveragent` folder, and run `./agent`.
 - Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
@@ -58,7 +59,6 @@ The following Agents operate using a command line interface versus a user interf
 
 ### Linux
 
-- **Select to download**.
 - Navigate to the download location, and unzip the Agent.
 - Via the terminal, browse to the now unzipped `moveragent` folder and run `./agent`.
 - Copy the key from the line that reads `[1] INFO ocess.BifrostService: Bifrost service initialized with connector key: <key>`.
@@ -66,7 +66,6 @@ The following Agents operate using a command line interface versus a user interf
 
 ### Windows command line installer (beta)
 
-- **Select to download**.
 - Installs and is run as a command line executable.
 - Must be manually updated.
 - Built from the same code base as the Linux and macOS agents.
