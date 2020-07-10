@@ -71,7 +71,7 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
 
 [Intune Documentation](https://go.microsoft.com/fwlink/?linkid=2003459)
   
-[Configure and deploy mobile application management policies in the Microsoft Intune console](https://go.microsoft.com/fwlink/?linkid=2003554)
+[How to create and assign app protection policies](https://docs.microsoft.com/mem/intune/apps/app-protection-policies)
   
 [Control access based on network location or app](control-access-based-on-network-location-or-app.md)
   
