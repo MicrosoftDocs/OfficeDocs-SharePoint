@@ -40,7 +40,7 @@ This article is for IT admins who manage the new OneDrive sync app in a Windows 
 
 1. Install the OneDrive sync app for Windows. (To see which builds are releasing and download builds, go to the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync app downloads the .adml and .admx files.
 
-2. Browse to %localappdata%\Microsoft\OneDrive\BuildNumber\adm\, to the subfolder for your language, as necessary.
+2. Browse to %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ (for [per-machine sync app](per-machine-installation.md) browse to C:\Program Files (x86)\Microsoft OneDrive\BuildNumber\adm\), to the subfolder for your language, as necessary
 
     (where *BuildNumber* is the number displayed in sync app settings on the **About** tab.) 
 
