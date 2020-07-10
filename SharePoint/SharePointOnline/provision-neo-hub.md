@@ -1,8 +1,8 @@
 ---
 title: Overview of the Microsoft New Employee Onboarding hub
 ms.reviewer: 
-ms.author: hokavian
-author: hokavian
+ms.author: Holland-ODSP
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -54,7 +54,7 @@ Based on our research, 69% of employees are more likely to stay with a company f
 - **Onboarding journey:** Onboarding can be an overwhelming experience for new hires with everything the new hire is typically expected to do and learn in a short period of time. Avoid overwhelming your new employees by providing them a curated onboarding journey that paces the new hire through a configurable activity list of administrative, technology, culture, training, and connection related to-do’s. The onboarding journey comes with a pre-configured list of new employee onboarding activities for you to customize for your processes. 
 - **Sample new hire site pages:** To inspire and provide design templates for arranging your content, the NEO hub includes sample inner site pages. Use these site pages as templates for your content. 
 - **Easy provisioning:** Provision the NEO hub from the SharePoint look book with just a few steps.
-- **Mobile ready:** The NEO hub can be easily accessed on a mobile device when you [get the SharePoint mobile app(https://www.microsoft.com/microsoft-365/sharepoint/mobile-app?wt.mc_id=AID686708_QSG_228389&ocid=AID686708_QSG_228389&rtc=1).
+- **Mobile ready:** The NEO hub can be easily accessed on a mobile device when you [get the SharePoint mobile app](https://www.microsoft.com/microsoft-365/sharepoint/mobile-app?wt.mc_id=AID686708_QSG_228389&ocid=AID686708_QSG_228389&rtc=1).
 
 ### NEO hub sites: 
 New employee onboarding involves multiple levels within an organization, including corporate onboarding, and departmental onboarding. Sometimes teams within a department also need a unique onboarding experience. Each onboarding level provides its own unique value, contributing to a comprehensive onboarding experience each new employee should experience. 

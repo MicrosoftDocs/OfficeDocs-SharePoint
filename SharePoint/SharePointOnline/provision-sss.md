@@ -1,8 +1,8 @@
 ---
 title: Add and customize the New Employee Onboarding hub
 ms.reviewer: 
-ms.author: hokavian
-author: hokavian
+ms.author: Holland-ODSP
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
