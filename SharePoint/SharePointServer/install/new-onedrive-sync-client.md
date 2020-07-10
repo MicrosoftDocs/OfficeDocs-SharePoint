@@ -25,7 +25,7 @@ When you deploy SharePoint Server 2019 in your organization, your users can sync
 - Files On-Demand
 - Support for larger files
 - Higher sync limits
-- The ability to silently deploy.  If your Windows users are already syncing document libraries with the previous OneDrive sync app, they will transition to the new sync app automatically.
+- The ability to silently deploy. If your Windows users are already syncing document libraries with the previous OneDrive sync app, they will transition to the new sync app automatically.
 - Mac support
     
 ## Requirements
@@ -141,4 +141,3 @@ When setting up SharePoint Server, you'll be prompted to select if clients shoul
 2. Select **Settings**.
 
 3. Select the **Settings** tab, and under **Privacy**, clear the option.
-
