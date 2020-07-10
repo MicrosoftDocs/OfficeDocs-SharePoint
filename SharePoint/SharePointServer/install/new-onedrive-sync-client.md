@@ -80,7 +80,7 @@ The organization name (SharePointOnPremTenantName) lets you specify the name of 
 
 This setting (SharePointOnPremPrioritization) lets you specify if the sync app should first set up a sync relationship with SharePoint in Microsoft 365 (the default) or the SharePoint on-premises server if the user identity exists in both identity providers. The sync application's Settings dialog can be used to "Add Account" the same identity for the other SharePoint realm after the first has been configured (if the user identity exists in both).
 
-You should be able to find these Group Policy objects using the Group Policy Editor (gpedit.msc) when navigating to Computer Configuration\Administrative Templates\OneDrive. If the OneDrive folder is not present, you can add the OneDrive Group Policy template by coping the following two files from the OneDrive installation folder after you have installed the latest OneDrive sync app on that computer:
+You should be able to find these Group Policy objects using the Group Policy Editor (gpedit.msc) when navigating to Computer Configuration\Administrative Templates\OneDrive. If the OneDrive folder is not present, you can add the OneDrive Group Policy template by copying the following two files from the OneDrive installation folder after you have installed the latest OneDrive sync app on that computer:
 
 - C:\Users\\*username*\AppData\Local\Microsoft\OneDrive\\*onedrivesyncclientversion*\adm\OneDrive.admx
 to
