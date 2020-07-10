@@ -30,7 +30,7 @@ Instead of turning off external sharing entirely, you can address this issue by 
 1. Make sure you have at least one DLP policy turned on for content located in SharePoint. [Learn how to create and turn on a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy)
 
     > [!IMPORTANT]
-    > The policy must include all SharePoint sites and OneDrive accounts and exclude none.
+    > The DLP policy must include all SharePoint sites and OneDrive accounts and exclude none.
 
 2. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
