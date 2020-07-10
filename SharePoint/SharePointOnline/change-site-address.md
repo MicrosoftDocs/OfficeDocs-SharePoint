@@ -141,7 +141,7 @@ Flows will need to be recreated after the site address change.
 The Word, Excel, and PowerPoint desktop apps and apps for the web will show the new URL after the change.
 
 **Recycle bin**
-Files in the Recycle Bin will be restorable as per usual deletion timeframe.
+Files in the Recycle Bin will be restorable as per the usual deletion timeframe.
 
 **SharePoint mobile apps for Android and iOS**<br>
 The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
