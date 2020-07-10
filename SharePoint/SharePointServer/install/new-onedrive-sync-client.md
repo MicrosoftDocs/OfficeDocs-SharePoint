@@ -52,7 +52,7 @@ For OneDrive Sync client computers:
   - Allow outbound TLS encrypted TCP/IP socket connection to reach \*.wns.windows.com
   - Avoid HTTPS decryption for \*.wns.windows.com on your proxy server as this likely will disconnect the socket connection.
   
-If either the SharePoint Server or the OneDrive sync client is unable to communicate with the WNS service then the sync client will fall back to polling the SharePoint Server roughly every 2 minutes looking for changes.  As a result your users may see delays of more than 2 minutes from the time of a server change to when the sync client downloads the changed file.
+If either the SharePoint Server or the OneDrive sync client is unable to communicate with the WNS service then the sync client will fall back to polling the SharePoint Server roughly every two minutes looking for changes.  As a result, your users may see delays of more than two minutes from the time of a server change to when the sync client downloads the changed file.
 
 ### 2. Opt-in to Sharing Improvement Information
 
