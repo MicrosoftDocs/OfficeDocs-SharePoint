@@ -43,7 +43,7 @@ When you deploy SharePoint Server 2019 in your organization, your users can sync
 
 ### 1. Allow WNS Traffic
 
-For the best user experience, SharePoint Server 2019 will send change notifications to sync clients via WNS web push notifications.  This feature ensures sync users quickly have the latest copies of any SharePoint Server file updates.  You may need to take steps to ensure outbound requests from your SharePoint Server and your user's sync client computers can reach and properly interact with the WNS service.
+For the best user experience, SharePoint Server 2019 will send change notifications to sync clients via WNS web push notifications. This feature ensures sync users quickly have the latest copies of any SharePoint Server file updates. You may need to take steps to ensure outbound requests from your SharePoint Server and your user's sync client computers can reach and properly interact with the WNS service.
 
 For SharePoint Server:
   - Allow outbound HTTPS connection to reach \*.notify.windows.com
