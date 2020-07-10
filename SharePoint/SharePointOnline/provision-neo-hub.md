@@ -116,7 +116,7 @@ Before you customize content in the NEO experience, ensure you understand the ne
 ### NEO hub contents:
 
 | Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding site          |
-| :------------------- | :------------------- |:----------------|
+| :------------------: | :------------------: |:---------------:|
 | ![Image of the Share link on a site](media/neotimelinepre.png)  | ![Image of the Share link on a site](media/neotimelinecorp.png)  | ![Image of the Share link on a site](media/neotimelinedept2.png)  |
 
  
