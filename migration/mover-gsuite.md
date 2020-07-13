@@ -114,7 +114,6 @@ The Google assignment process is fairly complicated; however, there are some bas
 ### A user story:
 > Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner, in which case I will see a shortcut link to my coworker's content in my OneDrive exactly where I expected that folder to be.
 
-Here is a visual guide to the google assignment process:
 
 
 
