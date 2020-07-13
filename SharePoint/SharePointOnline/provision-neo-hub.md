@@ -98,7 +98,6 @@ The Pre-onboarding site is intended to be shared with new hires as soon as they 
 ### Add owners to all sites
 As the Global admin, you may not be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
 
-![Image of the Share link on a site](media/sharelink.png)
 
 1. Select **Share** in the right-hand corner of the site.
 2. Add users, Office 365 Groups, or security groups to give them access to the site.
@@ -118,6 +117,7 @@ Before you customize content in the NEO experience, ensure you understand the ne
 | Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding site          |
 | :------------------: | :------------------: |:---------------:|
 | ![Image of the Share link on a site](media/neotimelinepre.png)  | ![Image of the Share link on a site](media/neotimelinecorp.png)  | ![Image of the Share link on a site](media/neotimelinedept2.png)  |
+| Share the Pre-onboarding site with new hires as soon as the job offer has been accepted | Share the Corporate onboarding site with new hires on their first day  | Managers and onboarding buddies should share their respective Departmental onboarding site   |
 
  
 1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
@@ -260,7 +260,6 @@ After customizing content, get ready to share the new onboarding experience with
 
 As a site owner, you can give external people access to the site by adding them as a **visitor**.
 
-![Image of the Share link on a site](media/sharelink.png)
 
 1. Select **Share site** from the right hand corner.
 2. In the Share site pane, enter the names of people to add them to the site. The permission level will be ready only.
