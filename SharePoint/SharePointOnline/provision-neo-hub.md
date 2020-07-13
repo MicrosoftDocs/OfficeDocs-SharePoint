@@ -335,8 +335,8 @@ The NEO Hub should present the most up to date content your organization has to 
 
 **Sources**:
 
-  - Gallup, State of the American Workplace, 2017
-  - SHRM, Don't Underestimate the Importance of Good Onboarding, 2017
+  - Gallup, State of the American Workplace, 2017*
+  - SHRM, Don't Underestimate the Importance of Good Onboarding, 2017**
  -  Source: Digitate, Super CIO: What the CIO sees—that other people don’t, 2018
 
 
