@@ -111,7 +111,6 @@ The google assignment process is fairly complicated; however, there are some bas
 Here is a visual guide to the google assignment process:
 
 
-### Before and after
 
 ![G Suite Drive before and after](media/google_assignment_before_after.png)
 
