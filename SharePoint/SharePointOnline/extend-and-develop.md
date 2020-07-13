@@ -1,5 +1,5 @@
 ---
-title: Plan customizations, solutions, and apps - SharePoint Online
+title: Plan customizations - SharePoint Online
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
