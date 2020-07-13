@@ -118,7 +118,6 @@ Here is a visual guide to the google assignment process:
 
 
 
-![G Suite Drive before and after](media/google_assignment_before_after.png)
 
 ### Security concerns
 
