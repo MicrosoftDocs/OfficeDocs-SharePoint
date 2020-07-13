@@ -114,10 +114,11 @@ Before you customize content in the NEO experience, ensure you understand the ne
 
 ### NEO hub contents:
 
-| Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding site          |
+| Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding sites          |
 | :------------------: | :------------------: |:---------------:|
 | ![Image of the Share link on a site](media/neotimelinepre.png)  | ![Image of the Share link on a site](media/neotimelinecorp.png)  | ![Image of the Share link on a site](media/neotimelinedept2.png)  |
 | Share the Pre-onboarding site with new hires as soon as the job offer has been accepted | Share the Corporate onboarding site with new hires on their first day  | Managers and onboarding buddies should share their respective Departmental onboarding site   |
+|   |   |        |
 
  
 1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
@@ -137,7 +138,7 @@ Before you customize content in the NEO experience, ensure you understand the ne
 > You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
 
 
-1.	Open your web browser and navigate to [office.com](office.com) or your organization’s sign-in location.
+1.	Open your web browser and navigate to [office.com](https://www.office.com) or your organization’s sign-in location.
 2.	Sign in with your username and password.
 3.	Navigate to the location of the site using the URL supplied by your Global admin, or select SharePoint from the Microsoft 365 home page, and then select the site.
 
