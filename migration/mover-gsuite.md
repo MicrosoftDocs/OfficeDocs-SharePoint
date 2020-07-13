@@ -104,7 +104,7 @@ Users may be scanned in any order. To prioritize conflict resolution please scan
 
 The Google assignment process is fairly complicated; however, there are some basic rules:
 
-1. When a folder in the root of a user's /My Drive conflicts with a folder in another user's /My Drive/subfolder, the subfolder always will win. Root folders never take priority over a subfolder during a conflict.
+1. When a folder in the root of a _User A/My Drive_ conflicts with a folder in another _User B/My Drive/subfolder_, the subfolder will win if the _User B_ is scanned first.
 2. If we determine _User A/My Drive/subfolder_ as a permanent location for _User A_, our app transfers ownership of the entire subfolder and all of its contents to _User A_ and shares it again with any collaborators.
 3. A folder can be "orphaned" by not existing in a My Drive. It can also be orphaned if it exists in a My Drive at the root, but is not owned by that user, and it doesn't exist in anyone else's My Drive including the Owner. **Orphaned items are very rare, but they will not be migrated!**
 
