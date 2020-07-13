@@ -18,6 +18,11 @@
 ### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
 ### [Reports](using-the-sharepoint-migration-tool-reports.md)
 ### [Create user mapping files](create-a-user-mapping-file-for-data-content-migration.md)
+### SPMT Migration Scenario Guides
+#### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
+#### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
+#### [File share to OneDrive and SharePoint Migration Guide](Fileshare-to-ODSP-migration-guide.md)
+#### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
 ## Migration Manager
 ### [Get started](mm-get-started.md)
 ### [Government cloud configuration](mm-gov-cloud.md)
@@ -28,23 +33,47 @@
 ### [FAQs](mm-faqs.md)
 ### [Troubleshooting](mm-troubleshoot.md)
 ### [Performance guidance for Migration Manager](mm-performance.md)
-## [Migrate to SharePoint using PowerShell](overview-SPMT-PS-cmdlets.md)
-## [Migrate to SharePoint using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
-## Mover Migration Guides
-### [File shares to Microsoft 365](mover-fileshare-to-o365.md)
-### [Box to Microsoft 365](mover-box-to-o365.md)
-### [Dropbox to Microsoft 365](mover-dropbox-to-o365.md)
-### [Egnyte to Microsoft 365](mover-egnyte-to-o365.md)
-### [G Suite Drive to Microsoft 365](mover-gsuite.md)
-### [Office 365 to Microsoft 365](mover-o365-to-o365.md)
+## Mover Migrations
+###  Overview
+#### [Plan your migration](mover-plan-migration.md)
+#### [Manage connectors](mover-manage-connectors.md)
+#### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
+###  Setup your source
+#### [Box](mover-box.md)
+#### [Dropbox](mover-dropbox.md)
+#### [Egnyte](mover-egnyte.md)
+#### [File shares](mover-fileshare.md)
+#### [G Suite Drive](mover-gsuite.md)
+#### [Office 365](mover-o365.md)
+#### [Amazon S3](mover-amazons3.md)
+#### [Azure Blob Storage](mover-azureblob.md)
+#### [Google Cloud Storage](mover-googlecloudstore.md)
+### Setup your destination
+####  Microsoft 365
+##### [Microsoft 365](mover-setup-m365-destination.md)
+##### [Troubleshoot your Microsoft 365 Connector](mover-troubleshoot-m365-connector.md)
+###  Setup your migration
+#### [Create a new migration](mover-create-migration.md)
+#### [Create a new migration from a CSV (optional)](mover-create-migration-csv.md)
+#### [Review your users](mover-review-users.md)
+#### [Review your permission map](mover-review-permission-map.md)
+#### [Upload a permission map (optional)](mover-upload-permission-map.md)
+#### [Mover migration manager](mover-mm.md)
+###  [Running the migration](mover-running-migration.md)
+###  [Reports](mover-reports.md)
+###  [Post-migration tips](mover-post-migration-tips.md)
+###  [Mover release notes](mover-release-notes.md)
+###  Mover Troubleshooting
+#### [Post-migration troubleshooting](mover-post-migration-troubleshooting.md)
+#### [Transfer logs](mover-transfer-logs.md)
+#### [Error messages](mover-error-faq.md)
+#### [Account FAQ](mover-account-faq.md)
+#### [Mover Migration FAQ](mover-migration-faq.md)
+## [Migrate to SharePoint Online using PowerShell](overview-SPMT-PS-cmdlets.md)
+## [Migrate to SharePoint Online using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
 ### [SPMT migration performance guidelines](spmt-performance-guidance.md)
-## SPMT Migration Scenario Guides
-### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
-### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
-### [File share to OneDrive and SharePoint Migration Guide](Fileshare-to-ODSP-migration-guide.md)
-### [SharePoint Server team sites Migration Guide](sp-teams-sites-migration-guide.md)
 ## SharePoint Migration Assessment Tool
 ### [Overview of the SharePoint Migration Assessment Tool](overview-of-the-sharepoint-migration-assessment-tool.md)
 ### [SharePoint Migration Assessment Tool:  Scan Reports Roadmap](sharepoint-migration-assessment-toolscan-reports-roadmap.md)
