@@ -85,9 +85,13 @@ To verify that OneDrive has been created for your users, see [Get a list of all 
 The following code snippet will pre-provision OneDrive for a large number of users.
 
 ```PowerShell
+$Credential=Get-Credential
+Connect-MsolService -Credential $credential
+Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint.com
+
     $list = @()
     #Counters
-    $i = 0; $j = 0
+    $i = 0;
     
 
     #Get licensed users
@@ -96,19 +100,22 @@ The following code snippet will pre-provision OneDrive for a large number of use
     $count = $users.count
 
     foreach ($u in $users){
-        $i++; $j++; 
+        $i++; 
         Write-Host "$i/$count"
-
-        if ($j -lt 199){
-            $upn = $u.userprincipalname
-            $list += $upn
-        }
-        if ($j -gt 199){
+        
+        $upn = $u.userprincipalname
+        $list += $upn
+        
+        if ($i -eq 199){ #We reached the limit
             Request-SPOPersonalSite -UserEmails $list
             Start-Sleep -Milliseconds 655
             $list = @()
-            $j = 0
+            $i = 0
         }
+
+    }
+    if($i -gt 0){
+        Request-SPOPersonalSite -UserEmails $list
     }
 ```
 ## Related topics
