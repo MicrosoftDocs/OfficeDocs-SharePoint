@@ -22,7 +22,7 @@ description: "Learn how to block external sharing of newly added files."
 
 When new files are added to SharePoint or OneDrive in Microsoft 365, it takes a while for them to be crawled and indexed. It takes additional time for the [Office Data Loss Prevention (DLP) policy](/microsoft-365/compliance/data-loss-prevention-policies) to scan the content and apply rules to help protect sensitive content. If external sharing is turned on, sensitive content could be shared and accessed by guests before the Office DLP rule finishes processing.   
 
-Instead of turning off external sharing entirely, you can address this issue by using a new PowerShell cmdlet. The cmdlet prevents guests from accessing newly added files until at least one Office DLP policy scans the content of the file. If the file has no sensitive content based on the DLP policy, then guests can access the file. If the policy identifies sensitive content, then guests will not be able to access the file, they receive Access Denied error "Due to organizational polices, you can't access this resource."
+Instead of turning off external sharing entirely, you can address this issue by using a new PowerShell cmdlet. The cmdlet prevents guests from accessing newly added files until at least one Office DLP policy scans the content of the file. If the file has no sensitive content based on the DLP policy, then guests can access the file. If the policy identifies sensitive content, then guests will not be able to access the file. They will receive the following access denied error message: "Due to organizational policies, you can't access this resource."
 
 > [!NOTE]
 > This cmdlet applies to newly added files in all SharePoint sites and OneDrive accounts. It doesn't block sharing if an existing file is changed.
@@ -46,6 +46,5 @@ Instead of turning off external sharing entirely, you can address this issue by 
     ```
 
 To disable this feature, run `Set-SPOTenant -MarkNewFilesSensitiveByDefault AllowExternalSharing`. 
-
 
 
