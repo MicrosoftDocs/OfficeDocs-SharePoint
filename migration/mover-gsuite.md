@@ -69,7 +69,7 @@ To disable this feature, see the **Sharing** settings for a file, and select **A
 
 ![restricted file](media/restricted-file.png)
 
-## Multi Parenting behavior G Suite Drive
+## Multi-parenting behaviour in G Suite Drive
 
 Permissions and ownership of data in a G Suite Drive source can be complicated. To retain a similar directory structure and sharing scheme in the destination, our app must make some decisions on who owns what and where that data is best located.
 
