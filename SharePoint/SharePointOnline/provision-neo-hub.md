@@ -59,13 +59,13 @@ Based on our research, 69% of employees are more likely to stay with a company f
 ### NEO hub sites: 
 New employee onboarding involves multiple levels within an organization, including corporate onboarding, and departmental onboarding. Sometimes teams within a department also need a unique onboarding experience. Each onboarding level provides its own unique value, contributing to a comprehensive onboarding experience each new employee should experience. 
 Research has shown Pre-onboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. 
-To deliver a consistent and integrated new hire onboarding experience the Microsoft open source New Employee Onboarding hub consists of three types of SharePoint site templates, designed to work as one cohesive and familiar experience for new hires. 
+To deliver a consistent and integrated new hire onboarding experience the Microsoft open source New Employee Onboarding hub consists of three types of SharePoint site templates, designed to work as one cohesive and familiar experience for new hires.
 
-| Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding sites          |
+| Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding sites            |
 | :------------------: | :------------------: |:---------------:|
-| ![Image of the Share link on a site](media/neotimelinepre.png)  | ![Image of the Share link on a site](media/neotimelinecorp.png)  | ![Image of the Share link on a site](media/neotimelinedept2.png)  |
-| Share the Pre-onboarding site with new hires as soon as the job offer has been accepted | Share the Corporate onboarding site with new hires on their first day  | Managers and onboarding buddies should share their respective Departmental onboarding site   |
-|   |   |        |
+| ![Image of the Share link on a site](media/neotimelinepre.png)   | ![Image of the Share link on a site](media/neotimelinecorp.png) | ![Image of the Share link on a site](media/neotimelinedept2.png)  |
+| Share the Pre-onboarding site with new hires as soon as the job offer has been accepted                | Share the Corporate onboarding site with new hires on their first day               | Managers and onboarding buddies should share their respective Departmental onboarding site            |
+|              |                 |             |
 <br>
 1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the Pre-onboarding site only. 
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
