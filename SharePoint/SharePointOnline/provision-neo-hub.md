@@ -65,7 +65,7 @@ To deliver a consistent and integrated new hire onboarding experience the Micros
 | :------------------: | :------------------: |:---------------:|
 | ![Image of the Share link on a site](media/neotimelinepre.png)| ![Image of the Share link on a site](media/neotimelinecorp.png)| ![Image of the Share link on a site](media/neotimelinedept2.png)|
 | Share the Pre-onboarding site with new hires as soon as the job offer has been accepted | Share the Corporate onboarding site with new hires on their first day| Managers and onboarding buddies should share their respective Departmental onboarding site |
-|              |                 |             |
+
 <br>
 1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the Pre-onboarding site only. 
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
