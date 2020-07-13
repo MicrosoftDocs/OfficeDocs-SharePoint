@@ -28,8 +28,8 @@ additionalContent:
           summary: Find resources for managing SharePoint in your Microsoft 365 environment.
           url: /sharepoint/sharepoint-online
         # Card
-        - title: Migrate to SharePoint in Microsoft 365
-          summary: Move your data to the cloud. Migrate data from either your on-premises file shares or SharePoint Server.
+        - title: Migrate to Microsoft 365
+          summary: Migrate your content to Microsoft 365. Migrate from file shares, SharePoint Server, Box, or many of the cloud storage providers.
           url: /sharepointmigration/migrate-to-sharepoint-online
         # Card
         - title: SharePoint Hybrid
