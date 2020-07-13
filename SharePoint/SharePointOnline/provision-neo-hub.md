@@ -61,7 +61,7 @@ New employee onboarding involves multiple levels within an organization, includi
 Research has shown Pre-onboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. 
 To deliver a consistent and integrated new hire onboarding experience the Microsoft open source New Employee Onboarding hub consists of three types of SharePoint site templates, designed to work as one cohesive and familiar experience for new hires.
 
-| Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding sites            |
+| Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding sites 
 | :------------------: | :------------------: |:---------------:|
 | ![Image of the Share link on a site](media/neotimelinepre.png)   | ![Image of the Share link on a site](media/neotimelinecorp.png) | ![Image of the Share link on a site](media/neotimelinedept2.png)  |
 | Share the Pre-onboarding site with new hires as soon as the job offer has been accepted                | Share the Corporate onboarding site with new hires on their first day               | Managers and onboarding buddies should share their respective Departmental onboarding site            |
