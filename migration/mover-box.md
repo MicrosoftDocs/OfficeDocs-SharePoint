@@ -29,7 +29,7 @@ Think of your employees' needs and what works best for the team.
 
 ### What happens to Box Notes?
 
-Our app does not currently support Box Notes conversion.
+Our app will automatically convert Box Notes to Word Document.
 
 ### Locked files
 
