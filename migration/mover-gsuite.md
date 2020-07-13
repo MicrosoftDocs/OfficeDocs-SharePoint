@@ -98,7 +98,9 @@ Any file or folder in a user's My Drive may be arbitrarily added to a new locati
 
 In order to ensure your users still have access to all their important files, our app automatically makes an intelligent decision on which folder becomes the source of truth when multiple users have conflicting views.
 
-Users can be scanned or transferred in any order. Conflict resolution will happen on both scan and transfer regardless of order (scan first, transfer first, etc).It is recommended that administrators and department heads be scanned or transferred first. This determines the order of conflict resolution, with administrators and department heads winning over other users.
+We automatically resolve conflicts between ownership. This will happen on either a scan or a transfer, whichever you perform first. We recommend you always scan first. Once run, this may not be undone.
+
+Users may be scanned in any order. To prioritize conflict resolution please scan users in preferred priority order. Typically customers scan their department heads so they are assigned any ownership conflicts. After that, scanning the rest of your users in any order in statistically just fine.
 
 The google assignment process is fairly complicated; however, there are some basic rules:
 
@@ -183,4 +185,3 @@ Our app requires a Global Admin for authorization. The following table provides 
 |View domains related to your customers    |View domain aliases and multi-domains (secondary domains) for your customers.|
 |View and manage the provisioning of groups on your domain    |Provision and modify groups on your domain, as well as view and modify details and metadata of groups on your domain.|
 |View users on your domain    |View basic details and metadata of users on your domain.|
-
