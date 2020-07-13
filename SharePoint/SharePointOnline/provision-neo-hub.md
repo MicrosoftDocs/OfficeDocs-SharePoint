@@ -44,7 +44,7 @@ Based on our research, 69% of employees are more likely to stay with a company f
 | Provide new employee experiences and information      | Connect new employees to people and culture     | Help stakeholders easily contribute to new employee onboarding  | Measure effectiveness of new employee onboarding
 | :------------------- | :------------------- |:----------------|
 | Sense of place       | Pre-onboarding       | Departmental and team onboarding |  Value realization
-| Onboarding journey   | Social connections and live events  | Easy to create and maintain compeling content experiences     | New employee surveying
+| Onboarding journey   | Social connections and live events  | Easy to create and maintain compeling content experiences     | Example model for KPIs
 
 
 
@@ -61,8 +61,12 @@ New employee onboarding involves multiple levels within an organization, includi
 Research has shown Pre-onboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. 
 To deliver a consistent and integrated new hire onboarding experience the Microsoft open source New Employee Onboarding hub consists of three types of SharePoint site templates, designed to work as one cohesive and familiar experience for new hires. 
 
-![Image of the NEO hub content](media/neotimeline2.png)
-
+| Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding sites          |
+| :------------------: | :------------------: |:---------------:|
+| ![Image of the Share link on a site](media/neotimelinepre.png)  | ![Image of the Share link on a site](media/neotimelinecorp.png)  | ![Image of the Share link on a site](media/neotimelinedept2.png)  |
+| Share the Pre-onboarding site with new hires as soon as the job offer has been accepted | Share the Corporate onboarding site with new hires on their first day  | Managers and onboarding buddies should share their respective Departmental onboarding site   |
+|   |   |        |
+<br>
 1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the Pre-onboarding site only. 
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
 3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department
