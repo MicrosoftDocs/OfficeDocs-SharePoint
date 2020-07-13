@@ -102,7 +102,7 @@ We automatically resolve conflicts between ownership. This will happen on either
 
 Users may be scanned in any order. To prioritize conflict resolution please scan users in preferred priority order. Typically customers scan their department heads so they are assigned any ownership conflicts. After that, scanning the rest of your users in any order in statistically just fine.
 
-The google assignment process is fairly complicated; however, there are some basic rules:
+The Google assignment process is fairly complicated; however, there are some basic rules:
 
 1. When a folder in the root of a user's /My Drive conflicts with a folder in another user's /My Drive/subfolder, the subfolder always will win. Root folders never take priority over a subfolder during a conflict.
 2. If we determine _User A/My Drive/subfolder_ as a permanent location for _User A_, our app transfers ownership of the entire subfolder and all of its contents to _User A_ and shares it again with any collaborators.
