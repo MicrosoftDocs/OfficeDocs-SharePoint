@@ -1,5 +1,5 @@
 ---
-title: OneDrive guide and best practices for enterprises
+title: OneDrive guide and best practices for enterprises - OneDrive for Business
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -18,7 +18,7 @@ ms.custom:
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Learn about features, planning, configuration, deployment, best practices, and management of OneDrive for enterprises.
+description: Learn about features, planning, configuration, deployment, best practices, and management of OneDrive in an enterprise environment.
 ---
 
 # OneDrive guide for enterprises
@@ -107,7 +107,7 @@ OneDrive integrates with Outlook to allow seamless sharing of OneDrive files tha
 
 ![Screenshot of Outlook showing a modern attachment and the right-click menu with permissions options](media/onedrive-feature-overview_image5.png)
 
-To reduce the potential for confusion when OneDrive enterprise users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook client, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
+To reduce the potential for confusion when OneDrive users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook client, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
 
 ### Files Restore
 
@@ -181,7 +181,7 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 |Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, OneDrive admin center, Intune mobile application management (MAM) or MDM|
 |Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy objects (GPOs), and so on. |
 
-Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive enterprise deployment simple by installing the sync app manually on your employees' computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
+Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees' computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
 
 ## Prerequisites
 
@@ -387,7 +387,7 @@ FastTrack is a Microsoft benefit that is included in your subscription. FastTrac
 
 ## Sync
 
-Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive enterprise experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
+Even though you can upload, download, and interact with your OneDrive files from a web browser, the ideal OneDrive experience comes from the Windows and Mac sync apps and the iOS and Android mobile apps. OneDrive is available for most operating systems and browsers and requires minimal hardware. For a full list of app requirements for using OneDrive, see [OneDrive system requirements](https://support.office.com/article/cc0cb2b8-f446-445c-9b52-d3c2627d681e).
 
 If you already have the OneDrive client installed on Windows devices, start by determining the version or versions of OneDrive in your environment. Depending on your findings, you may need to change your deployment process to accommodate the current version (for example, run takeover commands in PowerShell to ensure that data sync responsibilities transition to the new client). To determine which version of OneDrive you're currently using, see [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
 
@@ -404,7 +404,7 @@ You can update the OneDrive sync app in two waves:
 
 -   **Deferred ring** – In this ring, changes are rolled out after they've been validated in the Production ring, reducing the risk of issues.
 
-This setting is configured by using OneDrive Group Policy.
+This setting is configured by using a OneDrive Group Policy object.
 
 For details about the update process for the OneDrive sync app, see [The OneDrive sync app update process](sync-client-update-process.md).
 
@@ -570,7 +570,7 @@ Intune isn't the only MDM option you can use to manage OneDrive apps and setting
 
 ## Manage OneDrive by using Group Policy
 
-You can use OneDrive Group Policy to manage OneDrive settings for domain-joined computers in your environment. For info, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md).
+You can use OneDrive Group Policy objects to manage OneDrive settings for domain-joined computers in your environment. For info, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
 
