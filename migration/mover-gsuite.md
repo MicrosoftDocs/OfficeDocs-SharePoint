@@ -69,7 +69,7 @@ To disable this feature, see the **Sharing** settings for a file, and select **A
 
 ![restricted file](media/restricted-file.png)
 
-## Required pre-scan of G Suite Drive
+## Multi Parenting behavior G Suite Drive
 
 Permissions and ownership of data in a G Suite Drive source can be complicated. To retain a similar directory structure and sharing scheme in the destination, our app must make some decisions on who owns what and where that data is best located.
 
@@ -98,20 +98,21 @@ Any file or folder in a user's My Drive may be arbitrarily added to a new locati
 
 In order to ensure your users still have access to all their important files, our app automatically makes an intelligent decision on which folder becomes the source of truth when multiple users have conflicting views.
 
-Before your migration, our app can perform a pre-scan of all your source G Suite users. Users are ordered by priority, typically with administrators and department heads at the top. This determines the order of conflict resolution, with higher priority users winning over lower priority users.
+Users can be scanned or transferred in any order. Conflict resolution will happen on both scan and transfer regardless of order (scan first, transfer first, etc).It is recommended that administrators and department heads be scanned or transferred first. This determines the order of conflict resolution, with administrators and department heads winning over other users.
 
-The pre-scan process is fairly complicated; however, there are some basic rules:
+The google assignment process is fairly complicated; however, there are some basic rules:
 
 1. When a folder in the root of a user's /My Drive conflicts with a folder in another user's /My Drive/subfolder, the subfolder always will win. Root folders never take priority over a subfolder during a conflict.
-2. If a folder, which exists as a subfolder, is in different locations for different users, our app transfers ownership of the entire folder and all of its contents to the higher priority user, and shares it again with the user that lost the conflict.
+2. If a folder exists as a subfolder in users drive and if we determine that as a permanent location for folder, our app transfers ownership of the entire folder and all of its contents to that user, and shares it again with the users that lost the conflict.
+3. A folder can be "orphaned" by not existing in a My Drive.It can also be orphaned if it exists in a My Drive at the root, but is not owned by that user, and it doesn't exist in anyone else's My Drive including the Owner.
 
-Here is a visual guide to the pre-scan decision process:
+Here is a visual guide to the google assignment process:
 
-![Pre-scan decision tree for G Suite](media/prescan-decision-tree-gsuite.png)
+![Decision tree for G Suite](media/google_assignment_flowchart.png)
 
 ### Before and after
 
-![G Suite Drive before and after](media/gsuite-before-after.png)
+![G Suite Drive before and after](media/google_assignment_before_after.png)
 
 ### Security concerns
 
@@ -120,31 +121,6 @@ Because of the nature of G Suite Drive's sharing model, it can open up some secu
 ![G Suite Drive perms concerns](media/gsuite-perms-security-concern.png)
 
 In the previous scenario, our app would reapply collaborator permissions to the /Human Resources folder, and all subfolders inside it would inherit those permissions.
-
-### Requirements
-
-To perform a Google pre-scan, our engineers require the following:
-
-- A fully set up migration in our app, with transfers created for all users you want to migrate
-- A full list of all of your users in order of priority:
-  - Single column list of all account emails on your source Google domain (.csv/.xlsx).
-  - Includes all users you are migrating, even if they are non-priority.
-  - Highest priority at the top, lowest priority at the bottom, for example:
-    `ceo@email.com`
-    `manager@email.com`
-    `employee@email.com`
-
-- The migration ID
-  - To get the migration ID:
-    - Find and select **Migration Actions**.
-    - Select **Customize Columns**, and select **Migration ID**.
-    - You'll now be able to see the migration ID appearing in each row. If you refresh the page, this info disappears unless you select **Save Column State**.
-
-![add it customize column](media/add-id-customize-column.png)
-
->[!Important]
->The Google pre-scan must be run before the (counting) scan, otherwise the file counts will not be accurate. A Google pre-scan request could take up to one business day to be fielded, so provide all of the aforementioned info with at least 24 hours notice.
-
 
 ## Authorizing G Suite Drive (Administrator)
 
