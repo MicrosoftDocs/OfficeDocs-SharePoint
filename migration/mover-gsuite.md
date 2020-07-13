@@ -110,7 +110,6 @@ The google assignment process is fairly complicated; however, there are some bas
 
 Here is a visual guide to the google assignment process:
 
-![Decision tree for G Suite](media/google_assignment_flowchart.png)
 
 ### Before and after
 
