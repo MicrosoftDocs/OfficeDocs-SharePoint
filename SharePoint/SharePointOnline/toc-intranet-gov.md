@@ -13,7 +13,7 @@
 ## [Guide to the modern experience]()
 ### [Overview](guide-to-sharepoint-modern-experience.md)
 ### [How to think about your modern intranet](trad-vs-modern-intranet.md)
-### [Intranet governance](governance-intranet.md)
+### [Intranet governance](intranet-governance.md)
 ### [Add a sample site to your tenant](add-sample-site.md)
 ### [Information architecture](information-architecture-modern-experience.md)
 ### [Navigation](plan-navigation-modern-experience.md)
