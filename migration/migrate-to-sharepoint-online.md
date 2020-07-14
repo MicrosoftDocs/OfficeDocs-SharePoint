@@ -30,7 +30,6 @@ To learn more about the which tool to use, see the table below.
 >When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
 
 
-
 ## Which tool to use
 
 |**Tool/method**|**Description**|**Best for**|

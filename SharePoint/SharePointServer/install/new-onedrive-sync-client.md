@@ -30,14 +30,15 @@ When you deploy SharePoint Server 2019 in your organization, your users can sync
     
 ## Requirements
 
-1. Install SharePoint Server 2019
+1. Install SharePoint Server 2019.
+
 2. Install the OneDrive sync app ([download](https://go.microsoft.com/fwlink/p/?LinkId=248256)). For deployment info, see:
 
     - [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/onedrive/deploy-on-windows)
     - [Deploy OneDrive apps by using Intune](/onedrive/deploy-intune)
     - [Deploy and configure the new OneDrive sync app for Mac](/onedrive/deploy-and-configure-on-macos)
     
-3. [Configure OneDrive for SharePoint Server 2019](new-onedrive-sync-client.md#Configure-OneDrive-for-SharePoint-Server-2019)
+3. [Configure OneDrive for SharePoint Server 2019](new-onedrive-sync-client.md#Configure-OneDrive-for-SharePoint-Server-2019).
   
 ## Recommendations
 
@@ -103,7 +104,7 @@ More information:
 
 Alternatively, you can also directly configure the following underlying registry keys:
 
-|**Key**|**Type**|**Value**|**Required**|
+| Key | Type | Value | Required |
 |:-----|:-----|:-----|:-----|
 |HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremFrontDoorUrl|String|https://sharepoint.contoso.local|required|
 |HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremPrioritization|DWORD (32-bit)|1|optional|
