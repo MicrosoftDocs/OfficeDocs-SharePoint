@@ -1,5 +1,5 @@
 ---
-title: "Use Group Policy to configure OneDrive sync settings"
+title: "Use Group Policy to configure OneDrive sync settings - OneDrive for Business"
 ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
