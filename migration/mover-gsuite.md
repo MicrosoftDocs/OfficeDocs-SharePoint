@@ -128,14 +128,14 @@ In the previous scenario, our app would reapply collaborator permissions to the 
 
 To authorize or add a **G Suite Drive** account as a **Connector**, follow these simple steps:
 
->[!Important]
->You must be a G Suite Administrator.
+> [!Important]
+> You must be a G Suite Administrator.
 
 1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
 2. Select **Apps**, and then select **Marketplace Apps**.
 3. Near the top right, to add a new app, select **+**, and search for **Mover**.
->[!Important]
->When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
+  > [!Important]
+  > When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
 4. Select **Domain Install**, and then select **Continue**.
 5. Select the checkbox stating you agree to the **Terms of Use**, and then select **Accept**.
 6. Select **Next**. To close the overlay window, select **Done**.
