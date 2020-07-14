@@ -134,39 +134,39 @@ To authorize or add a **G Suite Drive** account as a **Connector**, follow these
 1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
 2. Select **Apps**, and then select **Marketplace Apps**.
 3. Near the top right, to add a new app, select **+**, and search for **Mover**.
-  > [!Important]
-  > When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
+   > [!Important]
+   > When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
 4. Select **Domain Install**, and then select **Continue**.
 5. Select the checkbox stating you agree to the **Terms of Use**, and then select **Accept**.
 6. Select **Next**. To close the overlay window, select **Done**.
-You should see our app installed amongst any other third-party apps you have. If it does not appear, simply refresh the page.
+   You should see our app installed amongst any other third-party apps you have. If it does not appear, simply refresh the page.
 
-We now have access to your users and their data, so we can move on to **Connector** authorization.
+   We now have access to your users and their data, so we can move on to **Connector** authorization.
 
-![google marketplace](media/google_marketplace.gif)
+   ![google marketplace](media/google_marketplace.gif)
 
 7. After install, select **our app**, and ensure that you grant Data Access. This is an extra security step required by G Suite.
 
-![grant data access g suite](media/grant-data-access-g-suite-admin.png)
+   ![grant data access g suite](media/grant-data-access-g-suite-admin.png)
 
 8. In the **Transfer Wizard**, select **Authorize New Connector**.
 
-![clear auth](media/clear_auth.png)
+   ![clear auth](media/clear_auth.png)
 
 9. In the **Connector** list, find **G Suite (Administrator)**.
 10. Select **Authorize**.
 11. A new window (tab) opens. Name your Connector <optional>.
 
-![name connector gdrive](media/name-connector-google-drive.png)
+   ![name connector gdrive](media/name-connector-google-drive.png)
 
 12. Select **Authorize** again.
 13. If you are not logged in, to sign in, use your Google credentials.
 
-![login to grant access to gdrive](media/log-in-to-grant-access-to-google-drive.png)
+   ![login to grant access to gdrive](media/log-in-to-grant-access-to-google-drive.png)
 
 14. To grant our app access to your G Suite (Administrator) Account, select **Allow**.
 
-![grant access to gdrive](media/grant-access-to-google-drive.png)
+   ![grant access to gdrive](media/grant-access-to-google-drive.png)
 
 ## Troubleshooting a G Suite (Administrator) connector
 
