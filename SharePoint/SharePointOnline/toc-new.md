@@ -1,56 +1,42 @@
 ﻿
 # [SharePoint](introduction.md)
-
-
-
-
 ## [Get started]()
 ### [Overview](guide-to-sharepoint-modern-experience.md)
 ### [Intro to file collaboration](intro-to-file-collaboration.md)
 ### [Plan secure file collaboration](deploy-file-collaboration.md)
 ### [Performance](modern-experience-performance.md)
 ### [Lists and libraries](change-default-list-and-library-experience.md)
-
-
 ## [The admin center]()
 ### [SharePoint admin role](sharepoint-admin-role.md)
 ### [Overview](get-started-new-admin-center.md)
 ### [What's new in admin center](what-s-new-in-admin-center.md)
 ### [Manage sites in new admin center](manage-sites-in-new-admin-center.md)
 ### [Find classic site collection features](site-collections-page.md)
-
 ## [Guide to the modern intranet]()
 ### [Intranet roadmap](intranet-overview.md)
 ### [Plan your intranet](plan-intranet.md)
 ### [Creating and launching a healthy SharePoint portal](portal-health.md)
 ### [How to think about your modern intranet](trad-vs-modern-intranet.md)
 ### [Intranet governance](governance-intranet.md)
-
 ## [Governance]()
 ### [Governance overview](governance-overview.md)
 ### [Create guidelines for site usage ](sites-usage-guidelines.md)
-
 ## [Navigation]()
 ### [Information architecture](information-architecture-modern-experience.md)
 ### [Navigation](plan-navigation-modern-experience.md)
-
 ## [Hubs]()
 ### [Planning](planning-hub-sites.md)
 ### [Create hub site](create-hub-site.md)
 ### [Remove hub site](remove-hub-site.md)
 ### [Set up site design](set-up-site-design-hub-site.md)
-
 ## [Sample sites]()
 ### [Add a sample site to your tenant](add-sample-site.md)
-
 ## [Publishing]()
 ### [Publishing](publishing-sites-classic-to-modern-experience.md)
 ### [How page recommendations work](sharepoint_page-recommendations.md)
 ### [Branding](branding-sharepoint-online-sites-modern-experience.md)
-
 ## [Sharing and permissions]()
 ### [Permissions and sharing](modern-experience-sharing-permissions.md)
-
 ## [Site administration]()
 ### [Add featured links to SharePoint start page](change-links-list-on-sharepoint-home-page.md)
 ### [Root site](modern-root-site.md)
@@ -66,7 +52,6 @@
 ### [Set up a home site](home-site.md)
 ### [Create an organization assets library](organization-assets-library.md)
 ### [Create an organization news site](organization-news-site.md)
-
 ## [Sync]()
 ### [File sync overview](sharepoint-sync.md)
 ### [OneDrive guide for enterprises](/onedrive/plan-onedrive-enterprise)
@@ -76,8 +61,7 @@
 ### [Per-machine installation](/onedrive/per-machine-installation)
 ### [Use silent account configuration](/onedrive/use-silent-account-configuration)
 ### [Use Group Policy](/onedrive/use-group-policy)
-### [Let users sync IRM-protected files](let-users-sync-irm-protected-files.md)
-
+### [Let users sync IRM-protected files](let-users-sync-irm-protected-files.md
 ## [Security and compliance]()
 ### [External sharing overview](external-sharing-overview.md)
 ### [Integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md)
@@ -101,7 +85,6 @@
 ### [Safeguarding your data](safeguarding-your-data.md)
 ### [Use information barriers](information-barriers.md)
 ### [Sign out inactive users](sign-out-inactive-users.md)
-
 ## [Search]()
 ### [Search](get-started-with-modern-search-experience.md)
 ### [Overview](overview-of-search.md)
@@ -141,7 +124,6 @@
 #### [Query throttling](query-throttling.md)
 #### [Search limits](search-limits.md)
 #### [View Popularity Trends and Most Popular Items](view-popularity-trends-and-most-popular-items.md)
-
 ## [Advanced]()
 ### [User profiles]()
 #### [Manage user profiles](manage-user-profiles.md)
