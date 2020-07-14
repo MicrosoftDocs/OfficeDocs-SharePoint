@@ -38,15 +38,15 @@ Our app is not able to read or write permissions to Google Shared Drives. Shared
 
 ### What's the difference between file versions and revision history?
 
-Revision history for Google Docs, Sheets, and Slides is different than file versions in Google Drive. Revision history refers to the ability to see earlier versions of a file, and view who made specific edits to the document. During the migration, revision history is not transfered. Only the most recent version of a file is transfered.
+Revision history for Google Docs, Sheets, and Slides is different than file versions in Google Drive. Revision history refers to the ability to see earlier versions of a file, and view who made specific edits to the document. During the migration, revision history is not transferred. Only the most recent version of a file is transferred.
 
 ![revision history](media/revision-history.png)
 
-## What isn't transfered
+## What isn't transferred
 
 ### What happens to Google Drawings, Forms, Sites, and Maps?
 
-Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These are not transfered.
+Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These are not transferred.
 
 ### What about Docs, Slides, and Sheets?
 
@@ -69,7 +69,7 @@ To disable this feature, see the **Sharing** settings for a file, and select **A
 
 ![restricted file](media/restricted-file.png)
 
-## Multi-parenting behaviour in G Suite Drive
+## Multi-parenting behavior in G Suite Drive
 
 Permissions and ownership of data in a G Suite Drive source can be complicated. To retain a similar directory structure and sharing scheme in the destination, our app must make some decisions on who owns what and where that data is best located.
 
