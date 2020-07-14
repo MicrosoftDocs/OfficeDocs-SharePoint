@@ -16,6 +16,13 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Backend v1.19.0 (July 14, 2020)
+
+Exciting new features for migrations out of G Suite and Box.
+
+- For migrations out of G Suite, requesting a "Google Pre-scan" was required before running the regular scans or transfers in order to prevent data duplication. The Google Pre-scan process has now been integrated into our regular migration scan and transfer processes, eliminating the need to request a Google Pre-scan from our support team. For more information, please refer to: https://aka.ms/MoverGSuite
+- For migrations out of Box, all Box Notes will now be automatically converted to Microsoft Word documents in the destination. For more information, please refer to: https://aka.ms/MoverBox
+
 ## Backend v1.18.1 (July 8, 2020)
 
 - Deprecation notices
