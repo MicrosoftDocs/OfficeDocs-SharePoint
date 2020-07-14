@@ -106,7 +106,7 @@ In order to ensure your users still have access to all their important files, ou
 
 We automatically resolve conflicts between ownership. This will happen on either a scan or a transfer, whichever you perform first.
 
-Users may be scanned in any order. To prioritize conflict resolution please scan users in preferred priority order. Typically customers scan their department heads so they are assigned any ownership conflicts. After that, scanning the rest of your users in any order in statistically just fine.
+Users may be scanned in any order. To prioritize conflict resolution please scan users in preferred priority order. Typically customers scan their department heads so they are assigned any ownership conflicts. After that, scanning the rest of your users in any order is statistically just fine.
 
 We recommend you always scan first. Once a folder has been assigned, this may not be undone.
 
@@ -115,14 +115,6 @@ The Google folder assignment process is fairly complicated; however, here are so
 1. The first folder assignment wins ownership. Anyone after that receives editor status in order to maintain access.
 2. If we determine _User A/My Drive/subfolder_ as a permanent location for _User A_, our app copies the entire subfolder and all of its contents to _User A_, therefore giving _User A_ ownership of the entire subfolder. We then share _User A/My Drive/subfolder_ with any collaborators.
 3. A folder can be "orphaned" by not existing in a My Drive. It can also be orphaned if it exists in a My Drive at the root, but is not owned by that user, and it doesn't exist in anyone else's My Drive including the Owner. **Orphaned items are very rare, and they will not be migrated!**
-
-### Security concerns
-
-Because of the nature of G Suite Drive's sharing model, it can open up some security concerns when migrating to Microsoft 365. The problem stems from the idea of negatively setting permissions, for example, sharing a parent folder, then removing permissions from some subfolders. All Microsoft 365 destination subfolders inherit their parent permissions, which could have unintended consequences when performing a migration.
-
-![G Suite Drive perms concerns](media/gsuite-perms-security-concern.png)
-
-In the previous scenario, our app would reapply collaborator permissions to the /Human Resources folder, and all subfolders inside it would inherit those permissions.
 
 ## Authorizing G Suite Drive (Administrator)
 
