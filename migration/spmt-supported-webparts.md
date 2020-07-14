@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: 
 ms.assetid: 
-description: "SharePoint Migration Tool table of supported web parts for migration."
+description: "SharePoint Migration Tool table of supported SharePoint web parts for migration."
 ---
 
 # SPMT supported SharePoint web parts
