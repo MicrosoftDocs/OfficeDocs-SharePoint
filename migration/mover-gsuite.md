@@ -106,7 +106,7 @@ In order to ensure your users still have access to all their important files, ou
 
 We automatically resolve conflicts between ownership. This will happen on either a scan or a transfer, whichever you perform first.
 
-Users may be scanned in any order. To prioritize conflict resolution please scan users in preferred priority order. Typically customers scan their department heads so they are assigned any ownership conflicts. After that, scanning the rest of your users in any order in statistically just fine.
+Users may be scanned in any order. To prioritize conflict resolution please scan users in preferred priority order. Typically customers scan their department heads so they are assigned any ownership conflicts. After that, scanning the rest of your users in any order is statistically just fine.
 
 We recommend you always scan first. Once a folder has been assigned, this may not be undone.
 
