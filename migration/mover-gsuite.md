@@ -117,17 +117,6 @@ The Google assignment process is fairly complicated; however, there are some bas
 > Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner, in which case I will see a shortcut link to my coworker's content in my OneDrive exactly where I expected that folder to be.
 
 
-
-
-
-### Security concerns
-
-Because of the nature of G Suite Drive's sharing model, it can open up some security concerns when migrating to Microsoft 365. The problem stems from the idea of negatively setting permissions, for example, sharing a parent folder, then removing permissions from some subfolders. All Microsoft 365 destination subfolders inherit their parent permissions, which could have unintended consequences when performing a migration.
-
-![G Suite Drive perms concerns](media/gsuite-perms-security-concern.png)
-
-In the previous scenario, our app would reapply collaborator permissions to the /Human Resources folder, and all subfolders inside it would inherit those permissions.
-
 ## Authorizing G Suite Drive (Administrator)
 
 To authorize or add a **G Suite Drive** account as a **Connector**, follow these simple steps:
