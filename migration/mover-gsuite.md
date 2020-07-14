@@ -105,7 +105,9 @@ Users may be scanned in any order. To prioritize conflict resolution please scan
 The Google assignment process is fairly complicated; however, there are some basic rules:
 
 1. When a folder in the root of a _User A/My Drive_ conflicts with a folder in another _User B/My Drive/subfolder_, the subfolder will win if the _User B_ is scanned first.
+
 2. If we determine _User A/My Drive/subfolder_ as a permanent location for _User A_, our app transfers ownership of the entire subfolder and all of its contents to _User A_ and shares it again with any collaborators.
+
 3. A folder can be "orphaned" by not existing in a My Drive. It can also be orphaned if it exists in a My Drive at the root, but is not owned by that user, and it doesn't exist in anyone else's My Drive including the Owner. **Orphaned items are very rare, but they will not be migrated!**
 
 ### Layman's terms:
@@ -134,41 +136,51 @@ To authorize or add a **G Suite Drive** account as a **Connector**, follow these
 >You must be a G Suite Administrator.
 
 1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
+
 2. Select **Apps**, and then select **Marketplace Apps**.
+
 3. Near the top right, to add a new app, select **+**, and search for **Mover**.
->[!Important]
->When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
+
+   > [!Important]
+   > When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
+   
 4. Select **Domain Install**, and then select **Continue**.
+
 5. Select the checkbox stating you agree to the **Terms of Use**, and then select **Accept**.
+
 6. Select **Next**. To close the overlay window, select **Done**.
-You should see our app installed amongst any other third-party apps you have. If it does not appear, simply refresh the page.
 
-We now have access to your users and their data, so we can move on to **Connector** authorization.
+   You should see our app installed amongst any other third-party apps you have. If it does not appear, simply refresh the page.
 
-![google marketplace](media/google_marketplace.gif)
+   We now have access to your users and their data, so we can move on to **Connector** authorization.
+
+   ![google marketplace](media/google_marketplace.gif)
 
 7. After install, select **our app**, and ensure that you grant Data Access. This is an extra security step required by G Suite.
 
-![grant data access g suite](media/grant-data-access-g-suite-admin.png)
+   ![grant data access g suite](media/grant-data-access-g-suite-admin.png)
 
 8. In the **Transfer Wizard**, select **Authorize New Connector**.
 
-![clear auth](media/clear_auth.png)
+   ![clear auth](media/clear_auth.png)
 
 9. In the **Connector** list, find **G Suite (Administrator)**.
+
 10. Select **Authorize**.
+
 11. A new window (tab) opens. Name your Connector <optional>.
 
-![name connector gdrive](media/name-connector-google-drive.png)
+    ![name connector gdrive](media/name-connector-google-drive.png)
 
 12. Select **Authorize** again.
+
 13. If you are not logged in, to sign in, use your Google credentials.
 
-![login to grant access to gdrive](media/log-in-to-grant-access-to-google-drive.png)
+    ![login to grant access to gdrive](media/log-in-to-grant-access-to-google-drive.png)
 
 14. To grant our app access to your G Suite (Administrator) Account, select **Allow**.
 
-![grant access to gdrive](media/grant-access-to-google-drive.png)
+    ![grant access to gdrive](media/grant-access-to-google-drive.png)
 
 ## Troubleshooting a G Suite (Administrator) connector
 
@@ -180,7 +192,7 @@ For us to be able to view and transfer data to and from G Suite Drive, you must 
 
 Our app requires a Global Admin for authorization. The following table provides a detailed list of the scopes we require.
 
-|**Permission**|**(Details) Allows our app to...**|
+| Permission | (Details) Allows our app to... |
 |:-----|:-----|
 |See, edit, create, and delete all of your Google Drive files    |Permission to edit, create, overwrite, and organize data in your Google Drive.|
 |View usage reports for your G Suite domain    |Grant permission to view reports about how users are using Google Apps within your G Suite domain.|
