@@ -96,73 +96,70 @@ Any file or folder in a user's My Drive may be arbitrarily added to a new locati
 
 ### The solution
 
-In order to ensure your users still have access to all their important files, our app automatically makes an intelligent decision on which folder becomes the source of truth when multiple users have conflicting views.
+#### Layman's terms:
+> For Google Drive, for each user, starting at their root My Drive, we descend into all root folders they own, and then all sub folders regardless of ownership. We transfer content to them while sharing out editors and viewer permissions on any folders, as required. We only stop descending when we find a folder that has already been copied by another user who transferred earlier, including potentially folders at the root My Drive level.
 
-We automatically resolve conflicts between ownership. This will happen on either a scan or a transfer, whichever you perform first. We recommend you always scan first. Once run, this may not be undone.
+#### A user story:
+> Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner, in which case I will see a shortcut link to my coworker's content in my OneDrive exactly where I expected that folder to be.
+
+In order to ensure your users still have access to all their important files, our app automatically makes a decision on which user owns a folder when multiple users have conflicting views.
+
+We automatically resolve conflicts between ownership. This will happen on either a scan or a transfer, whichever you perform first.
 
 Users may be scanned in any order. To prioritize conflict resolution please scan users in preferred priority order. Typically customers scan their department heads so they are assigned any ownership conflicts. After that, scanning the rest of your users in any order in statistically just fine.
 
-The Google assignment process is fairly complicated; however, there are some basic rules:
+We recommend you always scan first. Once a folder has been assigned, this may not be undone.
 
-1. When a folder in the root of a _User A/My Drive_ conflicts with a folder in another _User B/My Drive/subfolder_, the subfolder will win if the _User B_ is scanned first.
+The Google folder assignment process is fairly complicated; however, here are some basic rules:
 
-2. If we determine _User A/My Drive/subfolder_ as a permanent location for _User A_, our app transfers ownership of the entire subfolder and all of its contents to _User A_ and shares it again with any collaborators.
+1. The first folder assignment wins ownership. Anyone after that receives editor status in order to maintain access.
+2. If we determine _User A/My Drive/subfolder_ as a permanent location for _User A_, our app copies the entire subfolder and all of its contents to _User A_, therefore giving _User A_ ownership of the entire subfolder. We then share _User A/My Drive/subfolder_ with any collaborators.
+3. A folder can be "orphaned" by not existing in a My Drive. It can also be orphaned if it exists in a My Drive at the root, but is not owned by that user, and it doesn't exist in anyone else's My Drive including the Owner. **Orphaned items are very rare, and they will not be migrated!**
 
-3. A folder can be "orphaned" by not existing in a My Drive. It can also be orphaned if it exists in a My Drive at the root, but is not owned by that user, and it doesn't exist in anyone else's My Drive including the Owner. **Orphaned items are very rare, but they will not be migrated!**
+### Security concerns
 
-### Layman's terms:
-> For Google Drive, for each user, starting at their root My Drive, we descend into all root folders they own, and then all sub folders regardless of ownership. We transfer content to them while sharing out editors and viewer permissions on any folders, as required. We only stop descending when we find a folder that has already been copied by another user who transferred earlier, including potentially folders at the root My Drive level.
+Because of the nature of G Suite Drive's sharing model, it can open up some security concerns when migrating to Microsoft 365. The problem stems from the idea of negatively setting permissions, for example, sharing a parent folder, then removing permissions from some subfolders. All Microsoft 365 destination subfolders inherit their parent permissions, which could have unintended consequences when performing a migration.
 
-### A user story:
-> Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner, in which case I will see a shortcut link to my coworker's content in my OneDrive exactly where I expected that folder to be.
+![G Suite Drive perms concerns](media/gsuite-perms-security-concern.png)
 
+In the previous scenario, our app would reapply collaborator permissions to the /Human Resources folder, and all subfolders inside it would inherit those permissions.
 
 ## Authorizing G Suite Drive (Administrator)
 
 To authorize or add a **G Suite Drive** account as a **Connector**, follow these simple steps:
 
->[!Important]
->You must be a G Suite Administrator.
+> [!Important]
+> You must be a G Suite Administrator.
 
 1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
-
 2. Select **Apps**, and then select **Marketplace Apps**.
-
 3. Near the top right, to add a new app, select **+**, and search for **Mover**.
-
-   > [!Important]
-   > When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
-   
+    > [!Important]
+    > When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
 4. Select **Domain Install**, and then select **Continue**.
-
 5. Select the checkbox stating you agree to the **Terms of Use**, and then select **Accept**.
-
 6. Select **Next**. To close the overlay window, select **Done**.
+    You should see our app installed amongst any other third-party apps you have. If it does not appear, simply refresh the page.
 
-   You should see our app installed amongst any other third-party apps you have. If it does not appear, simply refresh the page.
+    We now have access to your users and their data, so we can move on to **Connector** authorization.
 
-   We now have access to your users and their data, so we can move on to **Connector** authorization.
-
-   ![google marketplace](media/google_marketplace.gif)
+    ![google marketplace](media/google_marketplace.gif)
 
 7. After install, select **our app**, and ensure that you grant Data Access. This is an extra security step required by G Suite.
 
-   ![grant data access g suite](media/grant-data-access-g-suite-admin.png)
+    ![grant data access g suite](media/grant-data-access-g-suite-admin.png)
 
 8. In the **Transfer Wizard**, select **Authorize New Connector**.
 
-   ![clear auth](media/clear_auth.png)
+    ![clear auth](media/clear_auth.png)
 
 9. In the **Connector** list, find **G Suite (Administrator)**.
-
 10. Select **Authorize**.
-
 11. A new window (tab) opens. Name your Connector <optional>.
 
     ![name connector gdrive](media/name-connector-google-drive.png)
 
 12. Select **Authorize** again.
-
 13. If you are not logged in, to sign in, use your Google credentials.
 
     ![login to grant access to gdrive](media/log-in-to-grant-access-to-google-drive.png)
@@ -181,7 +178,7 @@ For us to be able to view and transfer data to and from G Suite Drive, you must 
 
 Our app requires a Global Admin for authorization. The following table provides a detailed list of the scopes we require.
 
-| Permission | (Details) Allows our app to... |
+|**Permission**|**(Details) Allows our app to...**|
 |:-----|:-----|
 |See, edit, create, and delete all of your Google Drive files    |Permission to edit, create, overwrite, and organize data in your Google Drive.|
 |View usage reports for your G Suite domain    |Grant permission to view reports about how users are using Google Apps within your G Suite domain.|
