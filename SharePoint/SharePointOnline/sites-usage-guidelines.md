@@ -4,7 +4,6 @@ ms.reviewer:
 description: Checklist to help guide users to create their SharePoint site usage guidance.
 author: jhendr
 manager: pamgreen
-layout: LandingPage
 ms.assetid: 
 ms.prod: office-365-enterprise
 ms.tgt_pltfrm: na

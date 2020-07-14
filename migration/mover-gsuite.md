@@ -42,7 +42,7 @@ Revision history for Google Docs, Sheets, and Slides is different than file vers
 
 ![revision history](media/revision-history.png)
 
-### What isn't transfered
+## What isn't transfered
 
 ### What happens to Google Drawings, Forms, Sites, and Maps?
 
