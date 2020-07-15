@@ -41,7 +41,7 @@ To create a content type, follow these steps:
 
     ![Create content type](media/create-content-type.png)
 
-5. In the **Parent content type** section, from the **Category** amd **Content type** dropdowns, select the content type that you want to base this content type on.
+5. In the **Parent content type** section, from the **Category** and **Content type** dropdowns, select the content type that you want to base this content type on.
 
 6. In the **Category** section, you are provided two choices:
 
