@@ -1,8 +1,8 @@
 ---
 title: "Plan an intelligent SharePoint intranet"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: Holland-ODSP
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
