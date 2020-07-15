@@ -1,4 +1,4 @@
-# [Migrate to SharePoint](migrate-to-sharepoint-online.md)
+# [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
 ##  SharePoint Migration Tool (SPMT)
 ### [Overview and download](introducing-the-sharepoint-migration-tool.md)
 ### [Release notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
