@@ -136,7 +136,7 @@ To recover from switching of types, in the **Recovery Steps** section, see [Shar
   
 ## Picture export From SharePoint to Active Directory
 
-There is no support of picture export from SharePoint to Active Directory, so you need to plan for this migration.
+Microsoft Identity Manager supports exporting user profile pictures from SharePoint to Active Directory.
   
 ## No BCS Integration to support additional Profile Properties
 

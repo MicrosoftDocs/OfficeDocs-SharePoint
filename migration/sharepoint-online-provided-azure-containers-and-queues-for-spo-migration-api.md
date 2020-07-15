@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Online provided Azure containers and queues for SPO Migration API"
+title: "SharePoint-provided Azure containers and queues for SharePoint Migration API"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -21,30 +21,30 @@ ms.assetid: 742b5502-08e8-47f8-83c4-afb521725cb2
 
 ---
 
-# SharePoint Online provided Azure containers and queues for SPO Migration API
+# SharePoint-provided Azure containers and queues for SharePoint Migration API
 
 ## Overview
 
-One of the requirements for using the SharePoint Online Migration API is the use of an Azure container for temporary storage. The cost of an Azure container is now free; the free default Azure container is now part of the basic SharePoint online offering. Every tenant who signs up for SharePoint Online will get this for free.
+One of the requirements for using the SharePoint Migration API is the use of an Azure container for temporary storage. The cost of an Azure container is now free; the free default Azure container is now part of the basic SharePoint offering. Every tenant who signs up for SharePoint will get this for free.
   
 Important key aspects include:
   
 - The containers and queues are unique per request and not reused. Once a container is given to a customer this container will not be reused or shared.
     
-- The containers and queue are automatically deleted. As per the standard SharePoint Online Compliance, Microsoft will automatically destroy the container within 30 to 90 days .
+- The containers and queue are automatically deleted. As per the standard SharePoint compliance, Microsoft will automatically destroy the container within 30 to 90 days .
     
-- The containers and queues are in the customer's datacenter location. We make sure to provision containers that are in the same physical location as their SharePoint online tenant.
+- The containers and queues are in the customer's datacenter location. We make sure to provision containers that are in the same physical location as their SharePoint tenant.
     
-- The containers and queues can be obtained programmatically through SharePoint Online.
+- The containers and queues can be obtained programmatically through SharePoint.
     
 ## Encryption process
 
-Before the Migration API can accept a migration job from a SPO provided Azure container, the data must be encrypted at rest using the AES CBC 256 standard.
+Before the Migration API can accept a migration job from a SharePoint-provided Azure container, the data must be encrypted at rest using the AES CBC 256 standard.
   
 > [!NOTE]
 > You can still provide your own Azure account if you prefer to not use encryption. 
   
-No one has direct access to the storage accounts or the containers. The SPO service has access to the storage accounts; and while a select number of engineers can run maintenance commands against them, they also don't have direct access to the accounts. Datacenter technicians are not prepped with knowledge of how data is laid out on disk, and do not have ready access to equipment to mount disks. All drives are physically destroyed before leaving the datacenter. Physical security is also in place across all of our datacenters.
+No one has direct access to the storage accounts or the containers. The SharePoint service has access to the storage accounts; and while a select number of engineers can run maintenance commands against them, they also don't have direct access to the accounts. Datacenter technicians are not prepped with knowledge of how data is laid out on disk, and do not have ready access to equipment to mount disks. All drives are physically destroyed before leaving the datacenter. Physical security is also in place across all of our datacenters.
   
 Each container is dedicated to the customer who it was provided to and not reused. The data is stored in the Azure blob anywhere from 30 to 90 days after which it is deleted.
   
@@ -55,7 +55,7 @@ When the data is deleted, the files are de-linked and later soft deleted from di
   
 ## Key to the container
 
-The default key is generated programmatically, and is only valid for 3 days. This key is the only way to gain access to the container. It is generated randomly and not reused. The container itself lives longer than the key, as the container is purged using SPO standard methods between 30-90 days from creation. SPO never stores the key, though potentially they could find the container. The container is housed in a shared Microsoft storage, technically outside the tenant (but within the region), and is protected using the API key.
+The default key is generated programmatically, and is only valid for 3 days. This key is the only way to gain access to the container. It is generated randomly and not reused. The container itself lives longer than the key, as the container is purged using SharePoint standard methods between 30-90 days from creation. SharePoint never stores the key, though potentially they could find the container. The container is housed in a shared Microsoft storage, technically outside the tenant (but within the region), and is protected using the API key.
   
 Only those who have the key have access. Other users in the subscription or the tenant do not have access.
   

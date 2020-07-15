@@ -26,18 +26,18 @@ description: "Learn about the changes to how the previous OneDrive for Business 
 
 Starting in October 2017, we've changed how the previous OneDrive for Business sync app installs for enterprise customers using Microsoft 365 Apps for enterprise or Office 2016 with [Click-to-Run](https://go.microsoft.com/fwlink/p/?LinkId=526674).
   
-- The previous OneDrive for Business sync app (Groove.exe) will no longer be installed by default with Office 2016 Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
+- The previous sync app (Groove.exe) will no longer be installed by default with Office 2016 Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
 
-- When not in use or running, the previous OneDrive for Business sync app (Groove.exe) will be uninstalled, unless: (a) Groove is already configured to sync one or more SharePoint Online or SharePoint Server libraries or (b) a "PreventUninstall" registry key is present on the computer.
+- When not in use or running, the previous sync app (Groove.exe) will be uninstalled, unless: (a) Groove is already configured to sync one or more SharePoint or SharePoint Server libraries or (b) a "PreventUninstall" registry key is present on the computer.
 
 These changes won't affect customers who are already using the new OneDrive sync app (OneDrive.exe) to sync OneDrive and SharePoint files. Neither will these changes affect enterprises who have deployed Office with the traditional Windows Installer-based (MSI) method.
   
 > [!NOTE]
-> The new OneDrive sync app (OneDrive.exe) is the recommended option for Microsoft 365 and SharePoint Server 2019+ customers. However, the previous OneDrive for Business sync app (Groove.exe) is still fully supported and is used for on-premises instances of OneDrive for Business or SharePoint Server. [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
+> The new OneDrive sync app (OneDrive.exe) is the recommended option for Microsoft 365 and SharePoint Server 2019+ customers. However, the previous sync app (Groove.exe) is still fully supported and is used for on-premises instances of OneDrive or SharePoint Server. [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
   
 ## Ensuring Groove.exe is no longer installed
 
-When these changes roll out, the previous OneDrive for Business sync app (Groove.exe) will no longer be installed by default when a user installs Office 2016 via Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
+When these changes roll out, the previous sync app (Groove.exe) will no longer be installed by default when a user installs Office 2016 via Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
   
 To exclude Groove in your deployment, add this to your config file:
   

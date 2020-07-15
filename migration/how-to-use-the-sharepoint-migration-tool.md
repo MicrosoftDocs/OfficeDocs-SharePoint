@@ -1,5 +1,5 @@
 ---
-title: "How to use SharePoint Migration tool - SharePoint Online"
+title: "How to use SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: The SharePoint Migration Tool copies your files from SharePoint on-premises document libraries or regular file shares to your SharePoint Online tenant.
+description: The SharePoint Migration Tool copies your files from SharePoint on-premises document libraries or regular file shares to SharePoint in Microsoft 365.
 ---
 
 # Using the SharePoint Migration Tool
 
-The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily copies them to your SharePoint Online tenant. It is available to all Microsoft 365 users.
+The SharePoint Migration Tool (SPMT) is a tool that migrates your files from SharePoint on-premises document libraries or regular file shares and easily copies them to SharePoint in Microsoft 365. It is available to all Microsoft 365 users.
   
 
 ## Current and pre-release versions
@@ -41,13 +41,13 @@ Download and install SPMT using one of the links listed below.
 
 Review the system requirements, settings, and permissions behavior before beginning your migration.
 
-- [SPMT Prerequisites](spmt-prerequisites.md)</br>
-- [SPMT Settings](spmt-settings.md)</br>
+- [SPMT prerequisites](spmt-prerequisites.md)</br>
+- [SPMT settings](spmt-settings.md)</br>
 - [Understanding permissions when using the SharePoint Migration Tool](understanding-permissions-when-migrating.md)</br>
 
  > [!IMPORTANT]
- > - The required permission at tenant level for the performer user is "SharePoint Admin".
- > - The required permission at site collection level for the performer user is "Admin".
+ > - To migrate at the organization-level, you must be signed in as a global or SharePoint admin in Microsoft 365.
+ > - To migrate at the site collection level, you must be a site admin.
  
 #### Allow or prevent Custom Script (NoScript)</br>
 In Microsoft 365, tenants you can control whether users can run custom script on personal sites and self-service created sites. 
@@ -56,18 +56,25 @@ During migration, some web parts require this setting set to **allow**.  Otherwi
 
 At least 24 hours before you start migration, do the following:
 
-1.   From the SharePoint Admin Center, select **Settings**.
-2.   Scroll down to **Custom Script**.
-3.   Select both of the following:</br>
-**Allow users to run custom script on personal sites**</br>
-**Allow users to run customer script on self-service created sites**
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-Leave these settings in place for the duration of your migration.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the **Settings** page.
 
- > [!NOTE]
- > Changes to this setting might take up to 24 hours to take effect.
+2. At the bottom of the page, select **classic settings page**.
 
-For more info, see, [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script)</br>
+3. Under **Custom Script**, select:
+
+   **Allow users to run custom script on personal sites**</br>
+   **Allow users to run customer script on self-service created sites**
+
+   Leave these settings in place for the duration of your migration.
+
+   > [!NOTE]
+   > Changes to this setting might take up to 24 hours to take effect.
+
+   For more info, see, [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script).
+
 
 #### Note about logging in
 When you first launch the SharePoint Migration Tool (SPMT), you are prompted for your Microsoft 365 username and password. The credentials you provide will be to the migration *destination*.
@@ -88,14 +95,14 @@ SPMT supports the following authentication methods:
 
 ### Where is your data currently located?
 
-Before you start using the SharePoint Migration Tool (SPMT), note where your data is located, and where you want those files located after migration. You will be prompted for the current location of your data files and the location of the SharePoint Online site collection where you want them copied. SPMT lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2010 or 2013 site, or from a local file share or network path.
+Before you start using the SharePoint Migration Tool (SPMT), note where your data is located, and where you want those files located after migration. You will be prompted for the current location of your data files and the location of the SharePoint site where you want them copied. SPMT lets you select from two sources from which to migrate your data: from an on-premises SharePoint Server 2010 or 2013 site, or from a local file share or network path.
   
 - **SharePoint on-premises:** If you select the SharePoint on-premises option, you are prompted to enter the name of the SharePoint Server site where your files are located and prompted for your credentials for that site. You will indicate what document library you wish to migrate. 
     
     > [!NOTE]
     > SPMT supports SharePoint Server 2010* and 2013.
   
-- **File share:** If you select the file share option, you are prompted to enter the location of the file share, the URL of the SharePoint Online site, and the document library where they will be copied. The files are not deleted from the source.
+- **File share:** If you select the file share option, you are prompted to enter the location of the file share, the URL of the SharePoint site, and the document library where they will be copied. The files are not deleted from the source.
     
 ## Using the SharePoint Migration tool
 
@@ -122,7 +129,7 @@ To install the current release download, go to: [SharePoint Migration Tool](http
   
 6. Select the document library where your files are located. The dropdown contains all your possible choices.
     
-7. Enter the URL of the SharePoint Online site where you want your files migrated.
+7. Enter the URL of the SharePoint site where you want your files migrated.
     
 8. Select the document library to where your files will be copied.
     
@@ -138,7 +145,7 @@ To install the current release download, go to: [SharePoint Migration Tool](http
     
 4. Enter the source path of the file share where your content is located, and then select **Next**.
     
-5. Enter the URL of the SharePoint Online site where you want your files migrated, and then select **Next**.
+5. Enter the URL of the SharePoint site where you want your files migrated, and then select **Next**.
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
@@ -165,7 +172,7 @@ If you have many sources to migrate, you can use either a JSON or CSV file to do
     
 4. Enter the full path of your .CSV or .JSON file where your content is located, and then select **Add**.
     
-5. Enter the URL of the SharePoint Online site where you want your files migrated, and then select **Next**.
+5. Enter the URL of the SharePoint site where you want your files migrated, and then select **Next**.
     
     > [!NOTE]
     > If you have already signed in to that site once while using this tool, you won't be prompted again for the same site. 
@@ -209,12 +216,12 @@ After a migration task has completed, you can save it to be rerun at a later dat
 > [!NOTE]
 > If you wish to make changes to this setting, do so before your initial migration job is submitted. This setting is global; it will apply to all subsequent tasks you submit. 
   
-When this setting is on, an incremental check of the SharePoint Online target environment is performed. Files are evaluated as follows:
+When this setting is on, an incremental check of the SharePoint target environment is performed. Files are evaluated as follows:
   
 |**Status**|**Result**|
 |:-----|:-----|
 |Modified time of the source file is earlier than the modified time of the target file.  <br/> |File will not be migrated.  <br/> |
-|Files or lists exist in the SPO target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
+|Files or lists exist in the SharePoint target location.  <br/> |Migration will skip those existing objects during scan.  <br/> |
 |Time stamp on files or object in the source location is newer in the source <br/> |The newer files are migrated.  <br/> |
 |Source is a file share.  <br/> |Validation for migration will be based on the file/folder path.  <br/> |
 |Source is an on-premises SharePoint Server/  <br/> |Validation for migration will be based on list item GUID. Use the folder path as a fallback.  <br/> |
@@ -235,7 +242,7 @@ When this setting is on, an incremental check of the SharePoint Online target en
   
 [Create a user mapping file for data content migration](create-a-user-mapping-file-for-data-content-migration.md)
   
-[SharePoint Online and OneDrive Migration Speed](sharepoint-online-and-onedrive-migration-speed.md)
+[SharePoint and OneDrive migration speed](sharepoint-online-and-onedrive-migration-speed.md)
   
 [SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
   

@@ -21,7 +21,7 @@ description: "Learn how to add refiners for faceted navigation to a publishing s
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Quick overview
 
@@ -44,13 +44,13 @@ In this article, you'll learn:
 
 Browse to the page where you want to add the Refinement Web Part (RWP). In our scenario, let's browse to  *Cameras*  . 
   
-1. Click the **Settings** menu, and then click **Edit Page**. 
+1. Select the **Settings** menu, and then select **Edit Page**. 
     
-2. In the Web Part Zone where you want to add the Web Part, click **Add a Web Part**. 
+2. In the Web Part Zone where you want to add the Web Part, select **Add a Web Part**. 
     
-3. In the **Categories** list, click **Search**. 
+3. In the **Categories** list, select **Search**. 
     
-4. In the **Parts** list, click **Refinement**, and then click **Add**. 
+4. In the **Parts** list, select **Refinement**, and then select **Add**. 
     
     In our scenario, we'll add a RWP to Zone 2.
     
@@ -61,13 +61,13 @@ When you add the RWP to a page, it will display several default properties such 
 ### How to configure a Refinement Web Part to use refiners for faceted navigation
 <a name="BKMK_HowToconfigureRefinementWebParttouserefinersforfacetednavigation"> </a>
 
-1. In the Web Part, click the **Web Part Menu**, and then click **Edit Web Part**. 
+1. In the Web Part, select the **Web Part Menu**, and then select **Edit Web Part**. 
     
 2. In the Web Part tool pane, in the **Refiners** section, select **Use the refinement configuration defined in the Managed navigation term set**. 
     
      ![Configure WP](../media/OTCSP_ConfigureWP.png)
   
-3. Click **OK** and save the page. 
+3. Select **OK** and save the page. 
     
     And just like that, we've added refiners to our page. Nice, don't you think?
     
@@ -84,7 +84,7 @@ So, we've verified that our refiners work. But, we're not completely there with 
 
 To change a refiner display name, you have to change a JavaScript file in the master page gallery. Because we mapped our network drive in [Stage 6: Upload and apply a new master page to a publishing site in SharePoint Server](stage-6-upload-and-apply-a-new-master-page-to-a-publishing-site.md), this is a simple process.
   
-1. In your mapped network drive, go to **Display Templates --\> Language Files**. 
+1. In your mapped network drive, go to **Display Templates** > **Language Files**. 
     
 2. Go to the folder that corresponds to the language of your site, which in our scenario is **en-us**. 
     
@@ -96,7 +96,7 @@ To change a refiner display name, you have to change a JavaScript file in the ma
     
      `"rf_RefinementTitle_ManagedPropertyName": "Sample Refinement Title for ManagedPropertyName",`
     
-    For example, in our Contoso scenario, the refiner-enabled managed property  *RefinableInt01*  contains a  *Price*  refiner. To give this refiner a nice display name, we'll add the following line to the java script file: 
+    For example, in our Contoso scenario, the refiner-enabled managed property *RefinableInt01* contains a *Price* refiner. To give this refiner a nice display name, we'll add the following line to the java script file: 
     
      `"rf_RefinementTitle_RefinableInt01": "Price",`
     
@@ -104,15 +104,15 @@ To change a refiner display name, you have to change a JavaScript file in the ma
     
      ![Custom Strings File](../media/OTCSP_CustomStringsFile.png)
   
-5. Save this file, and refresh the  *Cameras*  page to verify that our refiners now have nice, user-friendly display names. 
+5. Save this file, and refresh the *Cameras* page to verify that our refiners now have nice, user-friendly display names. 
     
      ![Refiner Display Names Cameras](../media/OTCSP_RefinerDisplayNamesCameras.png)
   
-If we browse to the Digital cameras category, we can see that the category-specific refiner **MEGA PIXELS** is displayed. 
+If we browse to the Digital cameras category, we can see that the category-specific refiner **MEGA PIXELS** appears. 
     
      ![Refiner Mega Pixels](../media/OTCSP_RefinerMegaPixels.png)
   
-So, our category-specific refiners now display for the correct category, and they all have user-friendly names. But, there is another small detail that would make our refiners even better. Right now we can't see any numeric details for the refiner values. For example, we can't see how many cameras are of the color  *Silver*  , or how many cameras have  *14*  mega pixels. To see this information, we have to add **counts** to the refiner values. 
+So, our category-specific refiners now display for the correct category, and they all have user-friendly names. But, there is another small detail that would make our refiners even better. Right now we can't see any numeric details for the refiner values. For example, we can't see how many cameras are of the color *Silver*, or how many cameras have *14* mega-pixels. To see this info, we have to add **counts** to the refiner values. 
   
 ### How to add counts to refiner values
 <a name="BKMK_HowToAddCountsToRefinerValues"> </a>
@@ -125,17 +125,17 @@ So, our category-specific refiners now display for the correct category, and the
     
      ![Show Counts True](../media/OTCSP_ShowCountsTrue.png)
   
-4. Save the file, and refresh the  *Cameras*  page to verify that refiner counts are displayed. You'll see that refiner counts only display for refiners where it's only possible to select one refiner at a time. 
+4. Save the file, and refresh the *Cameras* page to verify that refiner counts are displayed. You'll see that refiner counts only display for refiners where it's only possible to select one refiner at a time. 
     
      ![Select Single Refiner](../media/OTCSP_RefinerCountsSingel.png)
   
-5. To add refiner counts to refiners where it's possible to select multiple refiner values, open the HTML file **Filer_MultiValue**, and repeat steps 3 and 4. 
+5. To add refiner counts to refiners where it's possible to select multiple refiner values, open the HTML file **Filer_MultiValue**, and repeat Steps 3 and 4. 
     
     Now when we refresh the Cameras page, all of the refiner values have counts.
     
      ![Multi Refiners](../media/OTCSP_RefinerCountsMulti.png)
   
-So, when visitors come to our Contoso site, they can use category-specific refiners to find the product they're looking for easily. But there's still one more thing missing: when visitors are on a top level category page, for example  *Cameras*  , they can't easily see which subcategories are under  *Cameras*  . Luckily, there is a Web Part that will fix this for us. We'll explore this in detail in the last article of this series. 
+So, when visitors come to our Contoso site, they can use category-specific refiners to find the product they're looking for easily. But there's still one more thing missing: when visitors are on a top level category page, for example *Cameras*, they can't easily see which subcategories are under *Cameras*. Luckily, there is a Web Part that will fix this for us. We'll explore this in detail in the last article of this series. 
   
 #### Next article in this series
 

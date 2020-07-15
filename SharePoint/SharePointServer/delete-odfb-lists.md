@@ -1,5 +1,5 @@
 ---
-title: "Deleting OneDrive for Business experience settings"
+title: "Deleting OneDrive experience settings"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -11,18 +11,18 @@ ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
 localization_priority: Priority
-description: "Learn about deleting OneDrive for Business experience settings."
+description: "Learn about deleting OneDrive experience settings."
 ---
 
-# Deleting OneDrive for Business experience settings
+# Deleting Microsoft OneDrive experience settings
 
-The recommended way to delete all OneDrive for Business experience settings and information is to remove the user's OneDrive for Business site, after reassigning any retained files to other users.
+The recommended way to delete all Microsoft OneDrive experience settings and information is to remove the user's OneDrive site, after reassigning any retained files to other users.
 
 An admin can delete these lists by using [PowerShell Script](/powershell/scripting/powershell-scripting?view=powershell-6) and [SharePoint Client-Side Object Model (CSOM)](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) commands. All of the needed CSOM assemblies are included in the SharePointPnPPowerShellOnline Microsoft PowerShell module.
 
 You can adapt the script included in this article to meet the your needs. For example, you can extract the information for user1@contoso.com as follows:
 
-1.	Assign yourself permissions to the user's OneDrive for Business account. This can be done in the Microsoft 365 admin center as described here.
+1.	Assign yourself permissions to the user's OneDrive account. This can be done in the Microsoft 365 admin center as described here.
 
 2.  Install the required Microsoft PowerShell modules:
 
@@ -39,7 +39,7 @@ You can adapt the script included in this article to meet the your needs. For ex
 The script will permanently delete the hidden lists containing these settings. 
   
 > [!IMPORTANT]
-> Do not run this script on OneDrive for Business accounts for active users that are still in the organization. 
+> Do not run this script on OneDrive accounts for active users that are still in the organization. 
 
 ## DeleteODBLists script
 Copy the contents below and paste them into a text file. Save the file as DeleteODBLists.ps1.
@@ -49,7 +49,7 @@ Copy the contents below and paste them into a text file. Save the file as Delete
 
 ```powershell
 #DeleteODBLists
-#Deletes ODB experience settings, stored in several SharePoint Lists
+#Deletes OneDrive experience settings, stored in several SharePoint Lists
 param([string]$siteUrl, [bool]$useStoredCreds=$true)
 Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "C:\Program Files\WindowsPowerShell\Modules\SharePointPnPPowerShellOnline\2.26.1805.0\Microsoft.SharePoint.Client.Runtime.dll"

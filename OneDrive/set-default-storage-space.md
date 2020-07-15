@@ -25,14 +25,13 @@ description: "In this article, you'll learn how to change the default storage sp
 
 # Set the default storage space for OneDrive users
 
-For most subscription plans, the default storage space for each user's OneDrive is 1 TB. Depending on your plan and the number of licensed users (see the [OneDrive for Business service description](/office365/servicedescriptions/onedrive-for-business-service-description) for info), you can increase the storage up to 5 TB.
+For most subscription plans, the default storage space for each user's OneDrive is 1 TB. Depending on your plan and the number of licensed users, you can increase this storage up to 5 TB. For info, see the [OneDrive service description](/office365/servicedescriptions/onedrive-for-business-service-description).
   
 > [!NOTE]
-> For help finding out which subscription you have, see [What Microsoft 365 Apps for business subscription do I have?](/office365/admin/admin-overview/what-subscription-do-i-have)<br> If your organization has a qualifying Microsoft 365 subscription and five (5) or more users, you can change the storage space to more than 5 TB. Contact Microsoft support to discuss your needs. You must assign at least one license to a user before you can increase the default OneDrive storage space. <br>The new storage limit is applied the next time a user accesses their OneDrive.
+> For help finding out which subscription you have, see [What Microsoft 365 Apps for business subscription do I have?](/office365/admin/admin-overview/what-subscription-do-i-have)<br> If your organization has a qualifying Microsoft 365 subscription and five (5) or more users, you can change the storage space to more than 5 TB. To discuss your needs, contact Microsoft support. You must assign at least one license to a user before you can increase the default OneDrive storage space. <br>The new storage limit is applied the next time a user accesses their OneDrive.
   
 ## Set the default OneDrive storage space in the OneDrive admin center
-
-This storage space setting applies to all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. (To check if a user has a specific storage limit, see the next section.) To change the storage space for specific users, you need to use Microsoft PowerShell. For info on how to do this, see [Change your users' OneDrive storage space using PowerShell](change-user-storage.md).
+This storage space setting applies to all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. (To check if a user has a specific storage limit, see the next section.) To change the storage space for specific users, you need to use Microsoft PowerShell. For info about how to do this, see [Change your users' OneDrive storage space using PowerShell](change-user-storage.md).
 
 > [!WARNING]
 > If you decrease the storage limit and a user is over the new limit, their OneDrive will become read-only.
@@ -67,8 +66,11 @@ This storage space setting applies to all new and existing users who are license
 ## Set the default OneDrive storage space using PowerShell
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-    
-2. Connect to SharePoint Online as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+
+2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
 3. Run the following command:
     

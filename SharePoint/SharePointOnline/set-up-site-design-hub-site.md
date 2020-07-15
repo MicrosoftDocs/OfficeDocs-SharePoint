@@ -29,7 +29,7 @@ description: In this article, you will learn how to run scripts on sites when th
 
 # Set up a site design for your hub site  
 
-A site design is one or more site scripts that SharePoint runs when a site is associated with a hub site. Actions describe changes to apply to the new site, such as creating a new list or adding nodes to the site navigation. Site designs provide reusable lists and custom actions so your users can quickly get started with the features they need. 
+A site design is one or more site scripts that Microsoft SharePoint runs when a site is associated with a hub site. Actions describe changes to apply to the new site, such as creating a new list or adding nodes to the site navigation. Site designs provide reusable lists and custom actions so your users can quickly get started with the features they need. 
 
 > [!NOTE]
 > For organizations using Multi-Geo Capabilities in Microsoft 365, hub site designs work only when sites are in the same geo location as the hub site.

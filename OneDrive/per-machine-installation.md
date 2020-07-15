@@ -29,7 +29,7 @@ By default, the OneDrive sync app installs per user, meaning OneDrive.exe needs 
 
 The new per-machine sync app provides:
 
-- Automatic transitioning from the previous OneDrive sync app (Groove.exe)
+- Automatic transitioning from the previous OneDrive for Business sync app (Groove.exe)
 - Automatic conversion from per-user to per-machine
 - Automatic updates when a new version is available
 

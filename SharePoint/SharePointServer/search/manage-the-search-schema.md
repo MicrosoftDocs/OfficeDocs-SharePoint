@@ -221,7 +221,7 @@ You have to perform a full crawl of the content source that includes the crawled
 ## Add a managed property using tenant administration or site collection administration
 <a name="proc7"> </a>
 
-Tenant administrators and site collection administrators can create a search schema that is specific for their tenant or site collection. For more information how to manage the search schema for tenants and site collections, see [Manage the search schema in SharePoint Online](https://docs.microsoft.com/sharepoint/manage-search-schema).
+Tenant administrators and site collection administrators can create a search schema that is specific for their tenant or site collection. For more information how to manage the search schema for tenants and site collections, see [Manage the search schema in SharePoint](https://docs.microsoft.com/sharepoint/manage-search-schema).
   
 You can create new managed properties for a tenant or a site collection and map crawled properties to them. Alternatively, you can reuse existing, unused managed properties that do not have crawled properties mapped to them, and rename them using an **Alias**. Then, you must map crawled properties to the renamed managed property with the defined alias. 
   
@@ -237,8 +237,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 2. Go to the **Search Schema** page for the tenant or for a site collection. 
     
-  - For the tenant, sign in to the Microsoft 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
-    
+  - For the tenant, go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. Under **Search**, select **Open**, and then select **Manage Search Schema**.
   - For the site collection, on your site, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Schema**.
     
 3. On the Managed Properties page, click **New Managed Property**.
@@ -271,8 +270,7 @@ See the table [Search schema changes that require content to be reindexed](manag
     
 2. Go to the **Search Schema** page for the tenant or for a site collection. 
     
-  - For the tenant, sign in to the Microsoft 365 Admin Center. Then, choose **Admin \> SharePoint**. You're now in the SharePoint admin center. Click **search**, and then on the search administration page, click **Manage Search Schema**.
-    
+  - For the tenant, go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. Under **Search**, select **Open**, and then select **Manage Search Schema**.
   - For the site collection, on your site, go to **Settings**, click **Site settings** and then under **Site Collection Administration**, click **Search Schema**.
     
 3. On the Managed Properties page, find an unused managed property. By unused, we mean that the property is not mapped to a crawled property: the **Mapped Crawled Properties** column is empty. See the [Default unused managed properties](manage-the-search-schema.md#DefaultUnusedMPs) table for more details. Point to the managed property, click the arrow, and then click **Edit/Map property**.

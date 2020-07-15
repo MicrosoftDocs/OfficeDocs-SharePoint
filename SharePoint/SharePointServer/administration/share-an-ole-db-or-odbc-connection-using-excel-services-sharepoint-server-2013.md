@@ -69,7 +69,7 @@ Use the following procedures to create OLE DB or ODBC data connections
     
 6. On the **Save Data Connection File and Finish** page, take the following steps: 
     
-1. In the **File Name** box, keep or change the default filename. 
+1. In the **File Name** box, keep or change the default file name. 
     
 2. In the **Description** box, enter a brief description for the data connection. 
     

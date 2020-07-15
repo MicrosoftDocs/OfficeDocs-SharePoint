@@ -19,8 +19,6 @@ description: Set up multiple Migration Manager agents
 
 # Setup Migration Manager agents
 
-
-
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do this, you download and run a setup file on each computer.  
 
 When you run the setup file, you are prompted for two sets of credentials: SharePoint Admin credentials to access your destination, and Windows credentials that have read access to any of the network file shares you plan to migrate. This pair of credentials creates a trust with Migration Manager. Migration Manager now sees it as an available "agent" to which it can automatically distribute migrations tasks.
@@ -59,7 +57,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |RAM|16 GB|8GB|
 |Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|High speed internet connection|
-|Operating system|Windows Server 2012 R2 or Windows 10 agent|Windows Server 2012 R2 or Windows 10 agent|
+|Operating system|Windows Server 2012 R2 or higher </br>Windows 10 agent|Windows Server 2012 R2 or higher </br>Windows 10 agent|
 |Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |
 
 
@@ -116,7 +114,7 @@ Based on the size of the content you want to migrate, you can setup as many agen
 >Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
 
 >[!Note]
->The connection between the agent and Migration Manager stays active as long as the computer is still running and the SPO admin credentials that were used to sign into the agent are still valid. 
+>The connection between the agent and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
 >
 >If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
 

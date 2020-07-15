@@ -1,5 +1,5 @@
 ---
-title: "Get started with Migration Manager  - SharePoint Online"
+title: "Get started with Migration Manager  - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -52,7 +52,7 @@ Go to the [Migration Manager page of the new SharePoint admin center](https://ad
 
 Make sure that you have:
 
-- **Access to the destination**: You must either be a global admin or SharePoint admin to the Microsoft 365 tenant where you want to migrate your content.
+- **Access to the destination**: You must either be a global admin or OneDrive/SharePoint admin to the Microsoft 365 tenant where you want to migrate your content. 
 
 - **Access to the source**: Windows credentials that have read access to any of the network file shares you plan to migrate.
 

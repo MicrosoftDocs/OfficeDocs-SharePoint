@@ -166,6 +166,9 @@ Minimum requirements for a single server with built-in database:
     
     > [!NOTE]
     > Windows Server 2012 R2 is only supported on a SharePoint Server 2013 Service Pack 1 environment. For additional information about Windows Server 2012 R2 support, see [SharePoint 2013 SP1 support in Windows Server 2012 R2](https://support.microsoft.com/kb/2891274/).
+    
+    > [!NOTE]
+    > Installing Office 2013 and SharePoint Server 2013 on the same computer is not supported.
   
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876)
     

@@ -1,5 +1,5 @@
 ---
-title: "Migration Manager Goverment Cloud settings"
+title: "Migration Manager Government Cloud settings"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
