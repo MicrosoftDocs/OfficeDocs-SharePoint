@@ -101,6 +101,9 @@ The provisioning service requires these permissions to provision the site templa
 
 6.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take up to 15 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
 
+> [!NOTE]
+> Have provisioning questions? Need to report an issue? Post your questions and comments about the provisioning of the NEO hub to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
+
 ### Enable external sharing for the Pre-onboarding site
 
 The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](https://review.docs.microsoft.com/sharepoint/change-external-sharing-site?branch=hokavian-neo-hub) for the Pre-onboarding site.  
@@ -328,16 +331,20 @@ The NEO Hub should present the most up to date content your organization has to 
 
 **Question**: What are the requirements for installing the New Employee Onboarding (NEO) Hub into my tenant environment?
 <br>
+
 **Answer**:
 - SharePoint Online and Communication Sites enabled.
 - The individual that will be provisioning CLO365 must be the Global admin of the target tenant for install.
 
-
 **Question**: How long will it take to install the site in our tenant environment?
 <br>
+
 **Answer**: Based on our testing of the installation, it should take less than 15 minutes. This does not include time required to customize the site to your requirements.
 
+**Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
+<br>
 
+**Answer**:Post your questions and comments about the provisioning of the NEO hub to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
 
 **Sources**:
 
