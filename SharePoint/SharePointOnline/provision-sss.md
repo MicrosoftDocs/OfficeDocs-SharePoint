@@ -273,7 +273,7 @@ As a site owner, you can give external people access to the site by adding them 
 
 
 
-## Step 4: Measure the impact of your New Employee Onboarding hub
+## Step 4: Measure the impact of your NEO hub
 
 ### Define NEO hub success metrics
 
