@@ -83,12 +83,16 @@ To successfully set up the NEO hub via the SharePoint look book, the person doin
 
 ### Provision the NEO hub
 
+![Image of the NEO hub solution in the lookbook](media/neo-look-book.png)
 
 1.	Go to the [NEO hub solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
 2.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Global admin credentials.
 3.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
+
+![Image of the NEO hub URL labels](media/neo-url.png)
+
 
 > [!NOTE]
 > Provisioning the NEO Hub will result in 4 separate site collections getting installed in your tenant. You will be prompted to enter the 4 new site URLs where you can edit the site name, site title, description, and default value. 
@@ -283,7 +287,7 @@ As a site owner, you can give external people access to the site by adding them 
 
 
 
-## Step 4: Measure the impact of your New Employee Onboarding hub
+## Step 4: Measure the impact of your NEO hub
 
 ### Define NEO hub success metrics
 
