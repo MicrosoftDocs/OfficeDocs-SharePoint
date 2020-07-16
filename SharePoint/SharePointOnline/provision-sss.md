@@ -1,5 +1,5 @@
 ---
-title: Add and customize the New Employee Onboarding hub
+title: Overview of the SharePoint Success Site 
 ms.reviewer: 
 ms.author: Holland-ODSP
 author: Holland-ODSP
@@ -16,319 +16,370 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to add and customize the NEO hub to your tenant"
+description: "Overview of the SharePoint Success Site"
 ---
 
-# Overview of the Microsoft New Employee Onboarding hub 
-Microsoft has created an open source New Employee Onboarding (NEO) hub to help organizations improve their onboarding process and experience the benefits of a well-planned new employee onboarding process. The NEO hub helps organizations: 
+# Overview of the SharePoint Success Site 
 
-- Provide new employee experiences and information
-- Connect new employees to people & culture
-- Help stakeholders easily contribute to new employee onboarding
-- Measure effectiveness of new employee onboarding
-
-### Why invest in a new employee onboarding site?
-New employee onboarding (NEO) should be a strategic process that integrates new employees into an organization and its culture while providing the knowledge and tools needed to become fully contributing team members. 
-NEO processes often fall short for both the new hires and the organization. Only 12% of employees strongly agree their organization does a great job of onboarding new employees.   An engaging and well organized NEO process can make all the difference in helping a new hire navigate through an exciting – but stressful -  career journey, and it can have major organizational benefits. 
-
-Strategically planned NEO experience can:
-
-**Improve new hire performance and time to productivity** -
-Organizations with a standard onboarding process report 50% greater new-hire productivity.   
-
-**Improve new employee retention** -
-69% of employees are more likely to stay with a company for three years if they had a great onboarding experience. Employees who have a negative onboarding experience are twice as likely to look for new opportunities in the near future.    
-
-### The NEO experience process:
-
-| Provide new employee experiences and information      | Connect new employees to people and culture     | Help stakeholders easily contribute to new employee onboarding  | Measure effectiveness of new employee onboarding
-| :------------------- | :------------------- |:----------------|
-| Sense of place       | Pre-onboarding       | Departmental and team onboarding |  Value realization
-| Onboarding journey   | Social connections and live events  | Easy to create and maintain compeling content experiences     | New employee surveying
+The SharePoint Success Site is a ready to deploy and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site is designed to support new SharePoint site owners in creating high-impact sites to meet the goals of your organization. Install the SharePoint Success Site in your tenant environment, customize the pre-populated training content, and make it available to end users.
 
 
+### Why invest in a SharePoint Success Site?
+The SharePoint Success Site helps site owners improve the quality and impact of the sites they build in SharePoint for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
 
-### NEO hub features:
+Leverage the SharePoint Success Site to:
 
-- **A fully configured and customizable set of new hire related sites built on SharePoint Online communication sites:** The NEO hub includes the sites, information architecture, design, user interface and features to help provide new hires with a great onboarding experience. The NEO hub can be customized to add your organization’s new hire content and to align with its look and feel. The NEO hub sites are responsive and work as they should on mobile. 
-- **Onboarding journey:** Onboarding can be an overwhelming experience for new hires with everything the new hire is typically expected to do and learn in a short period of time. Avoid overwhelming your new employees by providing them a curated onboarding journey that paces the new hire through a configurable activity list of administrative, technology, culture, training, and connection related to-do’s. The onboarding journey comes with a pre-configured list of new employee onboarding activities for you to customize for your processes. 
-- **Sample new hire site pages:** To inspire and provide design templates for arranging your content, the NEO hub includes sample inner site pages. Use these site pages as templates for your content. 
-- **Easy provisioning:** Provision the NEO hub from the SharePoint look book with just a few steps.
-
-### NEO hub sites: 
-New employee onboarding involves multiple levels within an organization, including corporate onboarding, and departmental onboarding. Sometimes teams within a department also need a unique onboarding experience. Each onboarding level provides its own unique value, contributing to a comprehensive onboarding experience each new employee should experience. 
-Research has shown pre-onboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. 
-To deliver a consistent and integrated new hire onboarding experience the Microsoft open source New Employee Onboarding hub consists of three types of SharePoint site templates, designed to work as one cohesive and familiar experience for new hires. 
-
-![Image of the NEO hub content](media/neotimeline.png)
-
-1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the pre-onboarding site only. 
-2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
-3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department
+- **Get more out of SharePoint** - Teach new site owners how to utilize the power behind SharePoint's communication and collaboration features. 
+- **Enable site owners to create high-impact sites** - Ensure site owners have the right information and support to create purposeful sites that are widely adopted by the intended audience. 
+- **Ensure site owners follow site creation policies** - Customize the site creation policy page on your SharePoint Success site to communicate organizational policy expectations early.
+- **Provide the most up-to-date content** - Equip site owners with SharePoint self-help content that is maintained by Microsoft and published as SharePoint evolves.
 
 
-## Step 1: Provision NEO hub
-The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, an Office 365 Tenant Administrator can start the provisioning process with a few simple clicks. It is fast, easy, and takes only a few minutes to start the process. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+#### Summary of how to launch a SharePoint Success Site:
 
+| Step 1      | Step 2       | Step 3  | Step 4
+| :-------------- | :---------------|:-----------| :-----------|
+| Meet the pre-requisites to provisioning the SharePoint Success Site      | Provision the SharePoint Success Site       | Customize the site design, playlists, content, and site creation guidelines |  Launch and share the site 
+
+
+### SharePoint Success Site features
+The SharePoint Success Site is designed to reduce the amount of work needed to plan, build, and manage new SharePoint sites for site owners and content authors in order to expedite your organization’s progress.
+
+SharePoint Success Site features:
+
+- **Fast provisioning:** Provision the SharePoint Success Site from the [Look book](https://lookbook.microsoft.com/) with just a few easy steps.
+- **Easily customizable:** Edit the site layout, branding, and Microsoft-provided playlist content to align with how you have set up SharePoint in your tenant.
+- **Comprehensive site owner training content:** Training on what makes an effective site and how to build and maintain the site.
+- **Site creation guidelines:** Create SharePoint usage guidelines that fit compliancy requirements for your organization.
+- **Create your own training playlists:** Add your own custom training content and playlists specific to your organization's desired business outcomes beyond SharePoint.
+
+
+
+### What comes with a SharePoint Success Site 
+The SharePoint Success Site comes with web parts and content to guide your users through the most up-to-date site creation training. There are several opportunities to customize the experience to better suit your organization’s goals, tenant configuration, and usage policy. 
+
+#### SharePoint communication site 
+The SharePoint Success Site is a SharePoint communication site that includes pre-populated pages, web parts, and site navigation. The site can be customized to incorporate your organization's existing branding, support, and community content.
+
+![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+
+#### Microsoft 365 learning pathways
+When you provision the SharePoint Success Site, you will first be required to install [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/). M365 learning pathways connects to a Microsoft-maintained content repository that includes publicly available SharePoint help content. As the content repository is updated, M365 learning pathways will automatically display updated SharePoint content. With M365 learning pathways, you can also create targeted training playlists that meet the needs of your organization beyond SharePoint training by uploading custom playlists. 
+
+![Image of the Microsoft 365 learning pathways solution](media/m365-learning-pathways.png)
+
+#### Microsoft-maintained content feed
+The SharePoint Success Site’s up-to-date content feed includes a range of content that helps new users and existing site owners plan, build, and manage SharePoint sites:
+
+- **Plan your site:** Guidance on how to plan a site, including what type of SharePoint site to use, access rights, and permission strategy.
+- **Create your site:** Content that helps new site owners create their site, including how to brand and customize their site and how to add content.
+- **Share and manage your site:** Guidance to help launch, share, and manage the new site.
+
+#### Success stories
+The success stories section is a gallery for organizations to showcase internal SharePoint site success stories that inspire others in the organization. Learn how to create a [Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d#:~:text=%20Create%20a%20form%20with%20Microsoft%20Forms%20,names%20can%20contain%20up%20to%2090...%20More%20) to solicit success stories from site owners and authors, and publish on your SharePoint Success Site to inspire.
+
+![Image of the Success Stories page](media/sss-success-stories.png)
+
+#### Site creation guidelines 
+The site creation guidelines page provides a starting point to educate new site authors about [SharePoint creation policies](https://docs.microsoft.com/sharepoint/sites-usage-guidelines) for your organization. The guidelines include suggested usage policy topics and questions to prompt consideration of usage policies within your organization. Customize the content in your SharePoint Success Site site creation guidelines page to serve your organization’s governance needs.
+
+![Image of the site creation guidelines page](media/sss-creation-guidelines.png)
+
+## Step 1: Provision the SharePoint Success Site
+An Office 365 tenant administrator can start the provisioning process for the SharePoint Success Site. Before getting started, make sure you've met the prerequisites for provisioning.
 
 ### Prerequisites
-To successfully set up the NEO hub via the SharePoint look book, the person doing the provisioning must be a Tenant Administrator of the tenant where the NEO hub will be provisioned.
+To successfully set up the SharePoint Success Site in your tenant you must install it using the [SharePoint Look book](https://lookbook.microsoft.com/). Meet the prerequisites for both the person provisioning and the tenant before you begin:
+
+<br>
+
+| Tenant admin role | +  | Collection owner of the App Catolog | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
+| :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
 
 
-### Provision the NEO hub
-
-![Image of the NEO hub solution in the lookbook](media/neo-look-book.png)
-
-1.	Go to the [NEO hub solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
-2.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Tenant Admin credentials.
-3.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
-The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
-4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the url prefix for your site to be provisioned to.
-
-![Image of the NEO hub URL labels](media/neo-url.png)
-
-> [!NOTE]
-> The provisioning of the NEO Hub will result in four separate site collections getting installed in your tenant: i) Pre-Onboarding site, ii) Corporate new hire site, iii) Engineering new hire site, and iv) Sales new hire site. To differentiate these four sites from each other in terms of the url’s that get assigned, you must confirm a url prefix that will get applied to each of the four sites – e.g., i) neo/preonboarding, ii) neo/corporate, iii) neo/engineering, and iv) neo/sales. Make the url prefix for your site something intuitive for your team members such as "/sites/MyTraining" or "/teams/LearnMicrosoft365".
-
-
-6.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take about 20 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
-
-### Enable external sharing for the Pre-onboarding site
-
-The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](https://review.docs.microsoft.com/sharepoint/change-external-sharing-site?branch=hokavian-neo-hub) for the Pre-onboarding site.  
-
-### Add owners to all sites
-As the Tenant Admin, it's unlikely you'll be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
-1.	From the SharePoint **Settings** menu, select **Site Permissions**.
-2.	Select **Advanced Permission Settings**.
-3.	Select **Microsoft 365 learning pathways Owners**.
-4.	Select **New > Add Users to this group**, and then add the people you want to be site owners.
-5.	Include the site URL in the Share message, and then select **Share**.
-
-
-## Step 2: Customize the onboarding experience 
-The New Employee Onboarding (NEO) hub consists of four SharePoint site templates that can be customized to fit the needs of your users and organization. Many of the core pages are already built and pre-populated with content. Review content on sites and pages, then plan on customizing content, images, branding, web parts, and pages.
-
-It’s important to make sure the right content is available to users at the right time. It’s also important to make new employees feel welcome before their first day. Organizations with a standardized onboarding process report 50% greater new-hire productivity.    Alternatively, employees who have a negative onboarding experience are twice as likely to look for new opportunities shortly after starting a new job.    
-
-Before you customize content in the NEO experience, ensure you understand the needs of your users and the business objectives of your organization. New hires will need different kinds of support and resources depending on the onboarding phase and culture of your organization. Begin by signing into your account and reviewing pre-populated content. Then, customize content and prepare to share the site with new hires. 
-
-### NEO hub contents:
-
-![Image of the NEO hub content](media/neotimeline.png)
- 
-1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the pre-onboarding site only. 
-
-2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
-
-> [!NOTE]
-> The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites. [Learn more about SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
-
-
-3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department. Consider associating departmental onboarding sites with existing department portals if you have them.
-
-
-### Get started - Sign into your Microsoft 365 account 
-
-> [!NOTE]
-> You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
-
-
-1.	Open your web browser and navigate to [office.com](office.com) or your organization’s sign-in location
-2.	Sign in with your username and password
-3.	Navigate to the location of the site using the URL supplied by your tenant administrator, or select SharePoint from the Microsoft 365 home page, and then select the site
-
-
-
-### Explore and review pre-populated content
-#### Pre-Onboarding site:
-This is where new hire starts their onboarding journey. This site is for new hires who have accepted their job offer but have not officially joined the company yet. In this stage, new hires will be interested in learning more about the company, how to get ready for their official start date, and who to go to for questions. 
-
-> [!NOTE]
-> The NEO hub comes with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
-
-![Image the pre-onboarding site](media/preneo.png)
- 
-#### Pre-populated site content:
-- **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
+The **person** doing the provisioning must meet the following pre-requisites:
+- Must be a tenant administrator of the tenant - also known as the Office 365 global administrator role - where the SharePoint Success Site will be provisioned. If you are not sure if you have been assigned the global administrator role, please see our troubleshooting steps.
+- The person provisioning the SharePoint Success Site must be a site collection owner of the App Catalog. If the person provisioning the SharePoint Success Site is not a site collection owner of the App Catalog, [complete these instructions to continue](https://docs.microsoft.com/office365/customlearning/addappadmin).
+	
+The **tenant** must meet the following provisioning pre-requisites:
+- A SharePoint App Catalog must be available within your tenant environment. If your organization does not have a SharePoint App catalog, refer to the [SharePoint Online documentation](https://docs.microsoft.com/sharepoint/use-app-catalog) to create one.
+- Your tenant must have **version 4.0 or higher** of M365 learning pathways. If you need to [upgrade your version](https://docs.microsoft.com/office365/customlearning/custom_update) or determine what version of M365 learning pathways you have review the documentation. If you need to install M365 learning pathways go to the [M365LP solution page](https://docs.microsoft.com/office365/customlearning/custom_provision) and review documentation for set up and configuration. 
 
 > [!IMPORTANT]
-> Plan to connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820)
-
-- **Welcome** – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
-- **Contoso 101** – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
-- **Prepare for your first day** – Ensure new hires feel prepared and supported on their first day by providing details on what to bring and where to go. 
-- **Help & Support** – Highlight where to go for support and customize questions and answers for the FAQ page.
+> If you need to create a SharePoint App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
 
 
+### Where to get started provisioning the SharePoint Success Site
 
-#### Corporate new hire site:
-This is the hub for the new employee onboarding experience and is designed to provide a high-level view of organizational goals, leadership, team structure, and resources. In this phase, users are looking for guidance, support, and clarity. Use this site to outline onboarding details and expectations during the first months of onboarding. Ensure users have access to support channels like [Yammer](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da), write FAQs relevant to your organization, and customize the [onboarding checklist](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7) to include the activities you want all new hires to do in their first 30, 60, 90 days.
+![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
-![Image the corporate onboarding site](media/neocorp.png)
+#### Provision M365 learning pathways for the first time
 
-##### Corporate new hire site navigation:
+If you **don’t already have** M365 learning pathways installed in your tenant, follow these instructions:
 
-![Image of the NEO hub navigation](media/neohubnav.png)
- 
-#### Pre-populated hub contents:
-- **Corporate onboarding (home page)** – Highlight key resources in hub navigation. Customize the [hub and site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) to display major content categories to new hires.
-- **Who we are** – Introduce users to more detail about the organization in the Our story, Our leadership, Our teams pages. Customize these pages and the Office locations page for your organization.
-- **Help & Support** - Highlight where to go for support and customize questions and answers for the FAQ page.
-- **Community** – Help new hires start building community right away and make sure new hires are aware of Employee resource groups and other connection channels.
-- **Departmental onboarding** – Provide an entry point to departmental-level information from the hub navigation where users can access departmental onboarding sites. Templates for an Engineering and Sales onboarding site have been included. Use these site templates as both a source of inspiration of what your organization’s departmental onboarding sites could look like and to accelerate the creation of these sites for your organization.  	
+1. Go to the [Look book M365 learning pathways solution page.](https://lookbook.microsoft.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239)
+2. Select **Add to your tenant**. If you aren't signed into to your tenant, the Provisioning Service will ask for your tenant admin credentials.
+3. From the Permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.**
 
-##### Pre-populated site (Corporate new hire site) contents:
-- **Home page** – Provide a high-level view of big concepts that will be relevant to new users. This is a great location to help new employees build their network and learn from more experienced and knowledgeable employees with [Microsoft Teams live events](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events#:~:text=Microsoft%20365%20live%20events%20bring%20live%20video%20streaming,community%20resides%2C%20using%20Microsoft%20Stream%2C%20Teams%2C%20or%20Yammer.)
-- **Start here** – Specify what new hires should do in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page. The new hire checklist found in this section comes pre-populated with a set of generic onboarding activities. Customize list content to meet your needs. [Learn more about working with SharePoint lists](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7).
-
-
-#### Departmental onboarding:
-From the corporate onboarding hub, users can access specific resources for departmental onboarding. Here, users need to learn about departmental leadership, culture, goals, and resources. Use departmental sites to provide access to communication channels, training guides, and events relevant to new hires.The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sale department. Consider associating departmental onboarding sites with existing department portals if you have them.
-
-![Image of the NEO departmental site](media/neodepartmental.png)
-
-##### Departmental site location in NEO hub navigation:
-
-![Image of the NEO departmental site](media/neocorpnav.png)
- 
-
-##### Pre-populated site contents:
-- **Home page** - Provide a high-level view of big concepts that will be relevant to new hires.
-- **Getting started** – Help users quickly understand onboarding tasks, departmental procedures, and anything else that will help new hires be successful. 
-- **Meet the team** – Introduce new hires to people, the organization structure and goals on the Leadership, The organization, and Our priorities pages.
-- **Help and support** - Highlight where to go for support and consider creating a FAQ section.
-
-
-**Next steps:** Customize place-holder content, edit the site navigation, add pages as needed, and hook up social media accounts in web parts.
-
-
-
-### Customize the content and look of your NEO sites 
-Now that you’ve reviewed the pre-built pages and pre-populated content, you are ready to customize the NEO experience for your organization. 
-
-#### Navigation
-
-Site navigation is important because it helps users immediately understand what can be accomplished on a given site. The most effective SharePoint sites help viewers find what they need quickly so that they can use the information to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem. Edit the hub and site navigation for all three NEO site designs to meet the needs of your audience and organization. [Learn how to edit site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca). 
-
- 
-#### Web parts
-Customize web parts with images, labels, links, and content that align with your organization’s mission. Keep images and descriptions simple and easy to understand for your new-hire audience.
-
-- **Hero web part** - Bring focus and visual interest to your page with the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645). You can display up to five items in the Hero web part and use compelling images, text, and links to draw attention to each.
-- **Text web part** - Use the [Text web part](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) to add paragraphs to your page. Formatting options like styles, bullets, indentations, highlighting, and links are available.
-- **Image web part** – Use the [Image web part](https://support.microsoft.com/office/use-the-image-web-part-a63b335b-ad0a-4954-a65d-33c6af68beb2) to add an image to a page.
-- **Quick links web part** – Organize and display links to other resources with the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82).
-- **People web part** – Use the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display profile photos, contact information, and organizational information for people at work.
-- **Twitter web part** - Use the [Twitter web part](https://support.microsoft.com/office/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820) to highlight topics and conversations on SharePoint pages.
-- **YouTube web part** - Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f) to embed YouTube videos right on your page.
-
-#### Site theme and branding
-Edit the look of your SharePoint site to align with your organization's brand. Customize the site display name, logo, theme, header layout, navigation style, and more in the [Change the look panel](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b).
-
-#### Hub site settings
-
-SharePoint hub sites help connect and organize sites based on project, department, division, region, etc. making it easier to:
-
-- Discover related content such as news and other site activities
-- Apply common navigation, branding, and site structure across associated sites
-- Search across all associated sites. 
-
-Considering associating your departmental new hire sites to your existing departmental onboarding site. Learn how [hub site associations](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05) work and how to manage hub settings for your organization. Learn more about [SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
-
-
-
-#### More customization resources: 
-- Add a [page to a SharePoint site](https://support.microsoft.com/office/add-a-page-to-a-communication-site-ce16986a-25ec-4907-b820-44d01ae8afb5)
-- How to use [web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0)
-- Use the [Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909)
-- Use the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165)
-
-
-
-## Step 3: Share the NEO sites with end users
-
-After customizing content, get ready to share the new onboarding experience with new hires. Different permissions will apply to the pre-onboarding site since users will be external guests. Once new hires start working, use internal permissions sharing instructions to give access to the corporate onboarding site. 
-
-### Pre-onboarding site: External guest access 
+![Image of the app catologue consent](media/app-catolog-consent2.png)
 
 > [!NOTE]
-> If you are unable to add visitors (external users, also referred to as guests) to the pre-boarding site, work with your SharePoint administrator to [turn on external sharing for a SharePoint site](https://docs.microsoft.com/sharepoint/change-external-sharing-site). 
+> By selecting **Consent on behalf of your organization** when adding the App Catalog, there is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
-As a site owner, you can give external people access to the site by adding them as a **visitor**.
+4. Wait about 30 minutes for the App Catalog to finish provisioning before adding the SharePoint Success Site. 
+5. Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the destination URL for your site to be provisioned to.
+6. Select **Provision** when ready to install M 365 learning pathways into your tenant environment. The provisioning process can take up to 15 minutes. You will be notified via email when the site is ready.
+7. Next, follow instructions for initializing the CustomConfig List
 
-1. Select **Share site** from the right hand corner, or access permissions in **Settings > Site permissions**. 
-2. In the Share site pane, enter the names of people to add them to the site. The permission level will be ready only.
-4. Enter an optional message to send to the person, or clear the Send email box if you don't want to send an email.
-5. Select **Share.**
-
-### Corporate new hire site and departmental sites
-
-1.	Select **Share site** from the right-hand corner
-2.	In the **Share site** pane, enter the names of people or groups to add them to the site, or enter "Everyone except external users" to share the site with everyone in your organization.  
-3.	Change the permission level (Read, Edit, or Full control) as needed.
-4.	Enter an optional message to send to the person or clear the Send email box if you don't want to send an email.
-5.	Select **Share**.
+> [!NOTE]
+> Make the destination URL for your site something friendly to your employees such as "/sites/MyTraining" or "/teams/LearnMicrosoft365".
 
 
+#### Or, update your current version of M365 learning pathways to version 4.0 or higher
+
+If using **version 3.0 or earlier** of M365 learning pathway, update your current version of to version 4.0 or higher using these instructions:
+
+> [!NOTE]
+> Version 4.0 of the M365 learning pathways solution is required to provision the SharePoint Success Site.
 
 
-## Step 4: Measure the impact of your NEO hub
+1. Verify your version of M365 learning pathways.
 
-### Define NEO hub success metrics
+    Example of where to view version:
 
-Define site success metrics to measure and optimize your organization’s onboarding process. The following is an example of possible metrics for a new employee onboarding hub:
+    Add image of version confirmation
 
-| Objective      | Business owner   | KPI measure | Data source   | KPI formula    | KPI baseline    | KPI target   |
-| :------------------- | :------------------- |:----------------|:------------------- | :------------------- |:----------------| :----------------|
-| Help onboard new employees more effectively   | Diego Siciliani   | New employee satisfaction  |  Survey data  |  Average score of new employee satisfaction with NEO Hub   |  N/A   | 4.25  
-| Help onboard new employees more effectively   | Diego Siciliani   | NEO hub usage  |  Site usage report  |  Number of unique viewers and visits   |  N/A   | 500 unique viewers/month and 1,500 views/month
-| Increase new employee retention  | Alexandre Levesque  | New employee retention  |  HR system retention data  |  % of new employee cohort that remain with the company after one year   |  75%   | 90%
-| Improve new employee engagement  | Diego Siciliani    | New employee engagement score |  Survey data  |  Average score of new employee engagement question  |  3.75   | 4.25
+2. 	If you need to, [update your M365 learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_update) to version 4.0
 
-
-### Leverage site usage data
-
-As a SharePoint site owner, you can view site usage data that shows you how users are interacting with your site. For example, you can see the number of people who have visited the site, how many times people have visited the site, and a list of files that have received the most views. Site owners should utilize SharePoint’s built-in site usage reporting capabilities to measure the impact of the NEO hub. [Learn how to view usage analytics for your site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
-
-**Example of site usage data:**
-
-![Image of SharePoint site analytics data](media/neositeusagereport.png)
+3. Once your M365 learning pathways is updated to version 4.0 or higher, proceed to provisioning the SharePoint Success Site.
 
 
 
+### Provision the SharePoint Success Site to your tenant from the Admin success center
 
-## Step 5: Manage and maintain your NEO hub
+1. Navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
+2. Sign in with your user name and password.
+3. Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Office 365 Home page, and then select the M365 learning pathways site.
+5. From the M365 learning pathways Home page, select **Get started with the Admin Success Center**.
 
-The NEO Hub should present the most up to date content your organization has to offer, so you’ll need to commit to maintaining relevant content throughout the experience. Develop a plan to audit content and refresh web parts as needed to ensure contact information, FAQs, the onboarding checklist, and People web parts are up tp date. Learn more about [managing communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
+Note for Holland - Add screen shot when available
 
-- Train site owners and authors. Make sure all site owners and authors have appropriate training and access to [maintain the site](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f).
-- Update content in web parts. Keep web parts like the People web part updated to ensure you are leveraging the full value of the NEO Hub.
-- Review previously established metrics after the launch. Use insights from [site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to promote content on the home page, update navigation, or re-write content for clarity.
-- Establish a schedule to audit content. Plan when site owners should audit content in advance to make sure your sites are always up to date.
-- Periodically review your site settings. Make [changes to the settings](https://support.microsoft.com/office/manage-your-sharepoint-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42?ui=en-us&rs=en-us&ad=us), site information, and permissions for the site as needed.
+> [!NOTE]
+> Make the destination URL for your site user friendly for your colleagues, such as “/sites/SharePointSuccess” or “/teams/SharePointSites”.
 
 
-## NEO hub FAQs
 
-**Question**: What are the requirements for installing the New Employee Onboarding (NEO) Hub into my tenant environment?
+#### Initialize the CustomConfig list
+When SharePoint Success Site provisioning is complete, the tenant admin who provisioned the site receives an email from the SharePoint Provisioning Service that contains a link to the new site. 
+
+1.	Select the link in the in the email and set up the site
+2.	Go to <YOUR-SITE-COLLECTION-URL>sites/<YOUR-SITE-NAME>/SitePages/CustomLearningAdmin.aspx. 
 <br>
-**Answer**:
-- SharePoint Online and Communication Sites enabled.
-- The individual that will be provisioning CLO365 must be the tenant administrator of the target tenant for install.
+Opening **CustomLearningAdmin.aspx** initializes the **CustomConfig** list item that sets up learning pathways for first use. You should see a page that looks like this:
+
+![Image of the first use page](media/m365-lp-custom-config.png)
+
+#### Add owners to the M365 learning pathways site
+Assign a few site owners to grant administrative privileges to customize the site and training content. This includes the ability to hide and show content and to build custom playlists through the learning pathways web part. 
+
+Do the same instructions below apply to this section?
+
+#### Add owners to the SharePoint Success Site
+Assign a few site owners to grant administrative privileges to customize the site content, branding, navigation, web parts, and theme.
+
+1. From the SharePoint **Settings** menu, select **Site permissions**
+2. Select **Advanced Permission Settings**.
+3. Select **SharePoint Success Site Owners**.
+4. Select **New > Add Users to this group**, and then add the people you want to be site owners.
+5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
+
+#### Site provisioning help
+
+- Reference [troubleshooting](https://docs.microsoft.com/office365/customlearning/feedback) for provisioning help
+- See M365 learning pathways [FAQs](https://docs.microsoft.com/office365/customlearning/faq)
+- Share your [feedback](https://github.com/pnp/custom-learning-office-365/issues) with us
 
 
-**Question**: How long will it take to install the site in our tenant environment?
+
+
+
+## Step 2: Customize the SharePoint Success Site 
+The SharePoint Success Site is a ready to deploy, up-to-date, and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site helps end users improve the quality and impact of the sites they build for internal audiences, while helping ensure they follow your organization’s site usage guidelines.
+The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date site creation training. However, there are opportunities to customize the experience to better suit your organization’s goals and usage policy. 
 <br>
-**Answer**: Based on our testing of the installation, it should take about 20 minutes. This does not include time required to customize the site to your requirements.
+
+**Before you publish your SharePoint Success Site, customize the following elements:**
+
+- Training content in M365 learning pathways 
+- The SharePoint Success Site template and web parts
+- Content in the site usage guidelines and success story sections
+- Branding details like the site logo and theme
+- Adoption and awareness materials
+
+![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+
+
+#### How does the SharePoint Success Site work? 
+
+The SharePoint Success Site consists of three parts:
+1. **SharePoint communication site** - The site comes pre-populated with content and web parts that can be customized.
+2. **Microsoft 365 learning pathways** - M365 learning pathways is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and upload your own training playlists.
+3. **Up-to-date SharePoint training content feed** - Content in the SharePoint Success Site is updated as SharePoint evolves and is managed by Microsoft.
+
+#### Summary of site requirements and permissions
+Before getting started, ensure that the SharePoint Success Site has been set up by your SharePoint tenant administrator. You need to be a site owner for *both* M365 learning pathways and the SharePoint Success Site in order to have permission to make changes.
+
+If you’re not sure, contact your SharePoint tenant administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the tenant administrator and M365 learning pathways has not been provisioned, see the provisioning guidance in step one.
+
+*Who can provision the SharePoint Success Site?*
+<br>
+- Tenant administrator, also known as Office 365 global administrator
+- SharePoint Site Collection Administrator with Owner permissions on the site
+<br>
+
+*Who has permissions to customize site template?*
+- Site collection administrator
+- SharePoint owner or member permissions
+<br>
+
+*Who can create custom playlists and hide/show content in M365 learning pathways?*
+- Site collection administrator for M365 learning pathways
+- SharePoint owner or member permissions for M365 learning pathways
+<br>
+
+*Who has permissions to use the SharePoint Success Site as a user?*
+- Office 365 user permissions/SharePoint Site Visitor permissions or higher
 
 
 
-**Sources**:
 
-  - Gallup, State of the American Workplace, 2017
-  - SHRM, Don't Underestimate the Importance of Good Onboarding, 2017
- -  Source: Digitate, Super CIO: What the CIO sees—that other people don’t, 2018
+### Get started with customization
+Once you've ensured you have the necessary permissions to customize the site it's time to get started with the customization process.
+The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll need to sign into Microsoft 365 to navigate to the site. 
+
+#### Sign in
+1.	Open your Web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
+2.	Sign in with your username and password.
+3.	Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Microsoft 365 Home page, and then select the **SharePoint Success Site**.
+
+
+### Explore and review the pre-populated training content
+1.	Review the Plan, Build, Launch and manage, and Advanced playlist sections to see the full suite of Microsoft curated content available in the SharePoint Success Site.
+2.	Select content categories and subcategories, and then navigate through the playlist to get a sense for how the SharePoint Success Site content is organized and displayed.
+
+**Plan your site page**:
+![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
+
+**Select a topic, and navigate through content using controls at the top of the article**:
+![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-module.png)
+
+### Customize playlist content and add your own custom playlists
+
+#### Show or hide sections to the playlist content
+
+
+
+Select which content to display in your SharePoint Success Site by [hiding and showing](https://docs.microsoft.com/office365/customlearning/custom_hideshowsub) subcategories of content. For example, if you don’t want users to have access to advanced site creation, you can hide that subcategory it won't be visible to users. Decide which content is appropriate for the purpose of your SharePoint Success Site. 
+
+![Image of the M365 learning pathways, SharePoint success site page](media/m365-lp-sss.png)
+
+#### Add your own custom playlists
+
+With Microsoft 365 learning pathways, you can [create custom playlists](https://docs.microsoft.com/office365/customlearning/custom_createnewplaylist) that are tailored to the unique needs of your organization. For example, create a playlist for team site integration with Microsoft Teams.
+
+
+### Customize the content and look of your SharePoint Success Site
+The following sections of the SharePoint Success Site can be customized to meet your requirements, prior to sharing with end users:
+
+#### SharePoint site template
+
+There are several different ways you can make the SharePoint Success Site template your own. Customize the following elements of your site to fit the need of your organization:
+
+- Update the SharePoint Success Site [branding](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) to align with your organization
+- Customize the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) 
+- [Add web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) to your site
+- Customize the [site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca)
+- Customize the [page layout](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899)
+- Add [new pages or edit pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec)
+
+#### Customize specific web parts
+
+- **Yammer web part** - Use a Yammer web part to connect new SharePoint site owners with extra support from SharePoint site owners and admins. Connect your Yammer account to the [ Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
+- **People web part** - Edit the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display contact information so new site owner can reach out for help.
+
+
+
+
+### Customize the Success stories page
+The success stories section is a gallery for organizations to showcase internal SharePoint Online success stories that inspire others in the organization. 
+
+Add image of success stories
+
+If available, add SharePoint success stories to your portal. If there are no ready-to-publish success stories, consider working with internal partners to create SharePoint successes by building high priority sites that align with business outcomes. Highlighting these “early wins” will help inspire others in the organization on the possibilities for using SharePoint themselves to achieve important business outcomes. Learn more about how to [create a form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) using Microsoft Forms.
+
+
+Note to administrators: Learn how to use the Microsoft Forms web part. See the example site success story below to develop questions for your form. Customize the content in this section to meet the needs of your organization.​​​​​​​ Delete this note before sharing with users. ​​​​​​​
+
+Create your form
+Add the Forms web part
+Check form submissions
+Post success stories on this page
+
+
+### Customize the Site creation guidelines page
+To ensure the proper use of SharePoint in your organization it is important to communicate your site usage guidelines to new and existing site owners. This should include guidelines for how people should create sites in your tenant, design standards, and how people should share information using SharePoint and Office 365. 
+
+The Sites Usage Guidelines Checklist is not intended to be a final policy document. Once you have created your own unique usage guidelines, remove the webpart from the Site usage guidelines page and replace it with your organization’s usage guidelines. See how to [create and use modern pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec?ui=en-us&rs=en-us&ad=us) on a SharePoint site. 
+Create site usage guidelines that are appropriate for your organization by reviewing our [site usage guidelines checklist](https://docs.microsoft.com/sharepoint/sites-usage-guidelines) that will help you create guidelines that:
+
+- Inspire discussion and consideration amongst your stakeholders on important site usage policies
+- Provide links to resources that can help you better understand the options related to key policy decisions
+- Provide sample text to get you started in creating your own policies
+
+The template site usage guideline checklist is not intended to be a final policy document. Once you have created your own unique usage guidelines, remove the Text web part from the Site usage guidelines page and replace it with your organization’s usage guidelines. 
+
+Note to administrators: Share your organization's site usage policies in this section. Include guidance for new site owners to follow when setting up and managing sites in your organization. Customize the content in this section to meet the needs of your organization. Delete this note before sharing with users. ​​​​​​​
+
+​​​​​​​Here are some things to keep in mind as you plan, build, and manage your SharePoint site :
+
+How to get a new SharePoint site
+Guidelines for using site templates
+Site design, branding, and customization
+Rules for sharing and permissions
+Capacity guidelines
+Site lifecycle policy
+
+
+
+
+#### Intranet team
+If your organization has an Intranet team that will be supporting site owners, consider profiling the Intranet team members on the SharePoint Success Site homepage using the people web part. 
+The **Plan your site** section in the SharePoint Success Site has a people web part you can use to add your own Intranet team. If you will not have a dedicated team supporting site owners, remove the current people web part.
+Learn more about the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05?ui=en-us&rs=en-us&ad=us). 
+
+
+## Step 3: Share the SharePoint Success Site with end-users
+Partner with others in your organization to ensure the SharePoint Success Site is widely known and adopted. Key success factors to managing the SharePoint Success Site:
+
+- Celebrate the launch of your SharePoint Success Site
+- Create and post news announcing the new resource
+- Ensure users have an outlet for questions and feedback
+- Plan to review the SharePoint Success site as needed to ensure content and site usage policies are still relevant 
+- Build culture and community by integrating a Yammer web part
+- Integrate and customize your organization’s high-value training content
+
+#### Adoption and awareness materials
+To help build, grow, and sustain your SharePoint adoption efforts, its recommended to form a SharePoint user group community on Yammer.  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the champions program guide for more information on how to build a successful champions program. To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
+
+Adoption and awareness materials - I would split this out into two numbered point: 1. SharePoint user group community show them a screen grab of what it could look like on their site, 2) Awareness campaign - use sample SharePoint Success Site launch announcement to drive awareness. We will need to link to sample copy they can edit. <Note: will send mail to get most up to date copy">
+
+
+### Measurement
+
+### Feedback and support
+	
+### Frequently asked questions
+
 
 
 
