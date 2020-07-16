@@ -77,7 +77,7 @@ To successfully set up the NEO hub via the SharePoint look book, the person doin
 
 ### Provision the NEO hub
 
-
+![Image of the NEO hub solution in the lookbook](media/neo-look-book.png)
 
 1.	Go to the [NEO hub solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
 2.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Tenant Admin credentials.
@@ -85,11 +85,13 @@ To successfully set up the NEO hub via the SharePoint look book, the person doin
 The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the url prefix for your site to be provisioned to.
 
+![Image of the NEO hub URL labels](media/neo-url.png)
+
 > [!NOTE]
 > The provisioning of the NEO Hub will result in four separate site collections getting installed in your tenant: i) Pre-Onboarding site, ii) Corporate new hire site, iii) Engineering new hire site, and iv) Sales new hire site. To differentiate these four sites from each other in terms of the url’s that get assigned, you must confirm a url prefix that will get applied to each of the four sites – e.g., i) neo/preonboarding, ii) neo/corporate, iii) neo/engineering, and iv) neo/sales. Make the url prefix for your site something intuitive for your team members such as "/sites/MyTraining" or "/teams/LearnMicrosoft365".
 
 
-6.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take up to 15 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
+6.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take about 20 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
 
 ### Enable external sharing for the Pre-onboarding site
 
@@ -318,7 +320,7 @@ The NEO Hub should present the most up to date content your organization has to 
 
 **Question**: How long will it take to install the site in our tenant environment?
 <br>
-**Answer**: Based on our testing of the installation, it should take less than 15 minutes. This does not include time required to customize the site to your requirements.
+**Answer**: Based on our testing of the installation, it should take about 20 minutes. This does not include time required to customize the site to your requirements.
 
 
 
