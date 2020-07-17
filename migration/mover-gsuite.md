@@ -96,11 +96,11 @@ Any file or folder in a user's My Drive may be arbitrarily added to a new locati
 
 ### The solution
 
-#### Layman's terms:
+#### Layperson's terms:
 > For Google Drive, for each user, starting at their root My Drive, we descend into all root folders they own, and then all sub folders regardless of ownership. We transfer content to them while sharing out editors and viewer permissions on any folders, as required. We only stop descending when we find a folder that has already been copied by another user who transferred earlier, including potentially folders at the root My Drive level.
 
 #### A user story:
-> Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner, in which case I will see a shortcut link to my coworker's content in my OneDrive exactly where I expected that folder to be.
+> Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner.
 
 In order to ensure your users still have access to all their important files, our app automatically makes a decision on which user owns a folder when multiple users have conflicting views.
 
