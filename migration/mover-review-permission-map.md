@@ -31,7 +31,7 @@ We automatically detect users and handle perfect matches. Any inconsistencies mu
 
 ![permission map](media/edit-permission-map.png)
 
-You may either auto-discover or upload a permission map file. We automatically pair perfect matches. If a user or group does not have a perfect match in Microsoft 365, you can correct it in our interface.
+You may either auto-discover or upload a permission map file. We automatically pair perfect matches. If a user or group does not have a perfect match in Office 365, you can correct it in our interface.
 
 2. Select **Auto-discover Users**.
 
