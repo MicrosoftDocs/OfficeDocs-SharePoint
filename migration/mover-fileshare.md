@@ -72,9 +72,9 @@ The following Agents operate using a command line interface versus a user interf
 
 ### How does the agent view users?
 
-The Agent works with files and folders. All users who are separated into their own folders can easily be mapped to their new location in Microsoft 365.
+The Agent works with files and folders. All users who are separated into their own folders can easily be mapped to their new location in Office 365.
 
-A good example would be a large listing of home drives. Each home drive for a user could be transfered to their respective new user in Microsoft 365.
+A good example would be a large listing of home drives. Each home drive for a user could be transfered to their respective new user in Office 365.
 
 ![Agent view users](media/windows-view-users.png)
 
@@ -318,8 +318,8 @@ If you are not already connected after you have authorized your source, select *
 
 ![Execution select agent source](media/execution-select-agent-source.png)
 
-## Connect your destination Microsoft 365 account
+## Connect your destination Office 365 account
 
-If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
+If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
 ![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
