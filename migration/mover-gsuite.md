@@ -77,7 +77,7 @@ Permissions and ownership of data in a G Suite Drive source can be complicated. 
 
 When a folder is shared out to another user, it appears in their **/Shared with me** section. From there, it can be added to the user's /My Drive and then placed in any folder of their choosing, including their own folders, or other shared folders.
 
-Microsoft 365 does not support this same nesting of shared data, which is why we've developed a solution.
+Office 365 does not support this same nesting of shared data, which is why we've developed a solution.
 
 ### Examples
 
