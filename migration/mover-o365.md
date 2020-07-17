@@ -116,6 +116,11 @@ Some list view options may prevent search list views with more than 5,000 items 
 
 ## Authorize Office 365
 
+>[!Warning]
+>To fully authorize the **Office 365 Connector**, a global admin is required to grant permissions to the Office 365 Mover app within the Azure portal.
+>
+>The global admin must grant these permissions *after* the **Office 365 Connector** is authorized within the main Mover app.
+
 The following instructions show you how to complete the authorization steps in the right order.
 
 Some steps in the authorization process can be completed by a global or SharePoint admin in Office 365. At the beginning of each step, we indicate who can complete it.
@@ -165,16 +170,4 @@ If you're a **global admin**: Continue with Steps 6–9.
 ![o365 mover permissions](media/o365-mover-permissions.png)
 
 9. **Global admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Office 365 Connector** is fully authorized and ready to go.
-
-
-
-## Connect your source Office 365 account
-
-If you are not already connected after you have authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you are migrating.
-
-![execution select source](media/execution-select-office-365-source.png)
-
->[!Note]
->SharePoint displays a user count when connecting to the **Transfer Wizard**. This does not represent the actual site count. The SharePoint connector counts both individual and team sites. However, the SharePoint connector only works with team sites, and does not work with individual user sites.
-
 

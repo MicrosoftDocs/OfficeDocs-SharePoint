@@ -13,7 +13,9 @@ ms.collection:
 search.appverid: MET150
 description: "Mover migration: Authorizing Office 365"
 ---
-# Authorize Office 365
+# Authorizing the Office 365 Connector
+
+## Authorize Office 365
 
 >[!Warning]
 >To fully authorize the **Office 365 Connector**, a global admin is required to grant permissions to the Office 365 Mover app within the Azure portal.
