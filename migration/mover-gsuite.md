@@ -71,7 +71,7 @@ To disable this feature, see the **Sharing** settings for a file, and select **A
 
 
     
-### Google Drive shortcuts
+### What happens to Google Drive shortcuts?
 
 Shortcut files are not supported for migration. These shortcut files will not be transferred.
 
