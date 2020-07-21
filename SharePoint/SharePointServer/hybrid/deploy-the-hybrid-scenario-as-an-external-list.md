@@ -17,7 +17,7 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 ms.assetid: d7173fc7-65cd-4201-8095-7ad805f50c95
-description: "Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint Online, and manually create an external list to surface the on-premises data."
+description: "Learn how to manually extract a Business Data Connectivity model, import the model into SharePoint in Microsoft 365, and manually create an external list to surface the on-premises data."
 ---
 
 # Deploy the Business Connectivity Services hybrid scenario as an external list
@@ -32,15 +32,15 @@ The external content type that you configured must be manually extracted and sav
   
 You'll need the .bcdm file for the next procedure.
   
-## Import the BDCM file into the SharePoint Online BDC Metadata Store
+## Import the BDCM file into the SharePoint in Microsoft 365 BDC Metadata Store
 
-When you import the BDC Model file into SharePoint Online, you must be logged in to the SharePoint Online admin site as a federated account (an account imported to Microsoft 365 from On-Premise using Directory Sync). This federated account should also be given Global Admin rights in Microsoft 365. When importing the BDC Model to configure Hybrid BCS, certain calls are made to SharePoint Server that will require you use a federated user account. Be aware the account must also have a populated user profile in SharePoint Server.
+When you import the BDC Model file into SharePoint in Microsoft 365, you must be signed in to the SharePoint admin center with a federated account (an account imported to Microsoft 365 from on-premises using Directory Sync). This federated account should also be given global admin rights in Microsoft 365. When importing the BDC Model to configure Hybrid BCS, certain calls are made to SharePoint Server that will require you use a federated user account. Be aware the account must also have a populated user profile in SharePoint Server.
   
- **To import a BDCM file into the SharePoint Online BDC Metadata Store**
+ **To import a BDCM file into the SharePoint in Microsoft 365 BDC Metadata Store**
   
-1. Log on to your SharePoint Online tenancy by using an administrative account, and then open the SharePoint Online Administration Center.
-    
-2. In the Quick Launch, click **bcs**.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+
+2. Under **BCS**, select **Open**.
     
 3. Under **business connectivity services**, click **Manage BDC Models and External Content Types**.
     
@@ -76,5 +76,5 @@ Once the list is created, [validate the scenario](validate-the-hybrid-scenario.m
 
 #### Concepts
 
-[Deploy a Business Connectivity Services hybrid solution in SharePoint](deploy-a-business-connectivity-services-hybrid-solution.md)
+[Deploy a Business Connectivity Services hybrid solution in SharePoint in Microsoft 365](deploy-a-business-connectivity-services-hybrid-solution.md)
 

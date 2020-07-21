@@ -44,8 +44,8 @@ For the best performance, reliability, and user experience, follow these "ideal 
   
 - **Make sure connection to the service is enabled**. Work with your network team to make sure proxies:  
 
-    -    Allow network traffic to bypass *.wns.microsoft.com 
-    -    Avoid HTTPS decryption for *.wns.microsoft.com. 
+    -    Allow network traffic to bypass *.wns.windows.com 
+    -    Avoid HTTPS decryption for *.wns.windows.com. 
  
     This applies to both Windows and Mac. [See the complete list of required URL and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
 

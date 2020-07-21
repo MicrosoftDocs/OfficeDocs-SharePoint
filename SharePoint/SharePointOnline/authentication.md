@@ -25,7 +25,7 @@ search.appverid:
 - BSA160
 - BCS160
 ms.assetid: 77965e8d-48ad-47bd-a656-57f17d6d1cc7
-description: "Explains how sessions and cookies work in SharePoint for Microsoft 365."
+description: "Explains how sessions and cookies work in SharePoint in Microsoft 365."
 ---
 
 # SharePoint authentication

@@ -29,9 +29,9 @@ description: "In this article, we look at how to configure hybrid SharePoint tax
 
 In this article, we look at how to configure hybrid SharePoint taxonomy and hybrid content types.
   
-Hybrid SharePoint taxonomy allows you to have a shared taxonomy between SharePoint Server and SharePoint Online. Hybrid content types allows you to have a shared set of content types between SharePoint Server and SharePoint Online.
+Hybrid SharePoint taxonomy allows you to have a shared taxonomy between SharePoint Server and SharePoint in Microsoft 365e. Hybrid content types allows you to have a shared set of content types between SharePoint Server and SharePoint in Microsoft 365e.
   
-Be sure to read [Plan hybrid SharePoint taxonomy and hybrid content types](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md) before you follow the procedures in this article. 
+Before you follow the procedures in this article, be sure to read [Plan hybrid SharePoint taxonomy and hybrid content types](plan-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md). 
   
 This feature is available in SharePoint Server 2013 and SharePoint Server 2016 with the following [SharePoint updates](/officeupdates/sharepoint-updates):
   
@@ -48,11 +48,12 @@ This video shows a walkthrough of configuring hybrid taxonomy and hybrid content
 **Video: Configure hybrid taxonomy and content types**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/de549889-8831-4c29-a3f4-ffe8104dc0a5?autoplay=false]
+
 ## Migrate your taxonomy from SharePoint Server
 
-If you have an existing taxonomy in SharePoint Server, the best practice is to copy any term groups you want to be part of the shared taxonomy to SharePoint Online before you configure hybrid SharePoint taxonomy. You can migrate additional taxonomy groups from SharePoint Server to SharePoint Online to add to the shared taxonomy later, but if you do you may need to run the configuration wizard again to include them in the shared taxonomy.
+If you have an existing taxonomy in SharePoint Server, the best practice is to copy any term groups you want to be part of the shared taxonomy to SharePoint in Microsoft 365 before you configure hybrid SharePoint taxonomy. You can migrate additional taxonomy groups from SharePoint Server to SharePoint in Microsoft 365 to add to the shared taxonomy later, but if you do you may need to run the configuration wizard again to include them in the shared taxonomy.
   
-The migration process copies taxonomy groups from SharePoint Server to SharePoint Online. This is done by using the [Copy-SPTaxonomyGroups](/powershell/module/sharepoint-server/Copy-SPTaxonomyGroups?view=sharepoint-ps) PowerShell cmdlet. 
+The migration process copies taxonomy groups from SharePoint Server to SharePoint in Microsoft 365. This is done by using the [Copy-SPTaxonomyGroups](/powershell/module/sharepoint-server/Copy-SPTaxonomyGroups?view=sharepoint-ps) PowerShell cmdlet. 
   
  **Active Directory groups**
   
@@ -70,9 +71,9 @@ Copying taxonomy groups is done using the Copy-SPTaxonomyGroups PowerShell cmdle
     
 - The URL of the SharePoint Server site where your taxonomy store is located.
     
-- The URL of the SharePoint Online site where your term store is located (http://\<TenantName\>.sharepoint.com).
+- The URL of the SharePoint in Microsoft 365 site where your term store is located (http://\<TenantName\>.sharepoint.com).
 
-- Taxonomy groups in SharePoint Server to be copied to SharePoint Online.
+- Taxonomy groups in SharePoint Server to be copied to SharePoint in Microsoft 365.
     
 - Your Microsoft 365 global admin credentials.
 
@@ -81,7 +82,7 @@ Copying taxonomy groups is done using the Copy-SPTaxonomyGroups PowerShell cmdle
     
 - A list of the taxonomy groups that you want to copy.
     
-Run the cmdlet as a farm administrator from one of the servers in your SharePoint farm.
+Run the cmdlet as a farm admin from one of the servers in your SharePoint in Microsoft 365 farm.
   
 Use the following syntax to copy your taxonomy groups:
   
@@ -107,7 +108,7 @@ Note that you can also simply run Copy-SPTaxonomyGroups and you will be prompted
   
  **Copying content types**
   
-If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint Online by using the [Copy-SPContentTypes](/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps) cmdlet. For example: 
+If you're planning to use hybrid content types, you can copy your SharePoint Server content types to SharePoint in Microsoft 365 by using the [Copy-SPContentTypes](/powershell/module/sharepoint-server/copy-spcontenttypes?view=sharepoint-ps) cmdlet. For example: 
   
 ```
 Copy-SPContentTypes -LocalSiteUrl http://localsite/ -LocalTermStoreName "managed metadata service application proxy" -RemoteSiteUrl https://contoso.sharepoint.com/ -ContentTypeNames @("ContentTypeA", "ContentTypeB") -Credential $credential
@@ -117,13 +118,13 @@ The content types will be copied into https://contoso.sharepoint.com/sites/conte
 
 ## Configure hybrid SharePoint taxonomy
 
-Configuration of hybrid SharePoint taxonomy is done using the Hybrid Picker in the SharePoint Online admin center. The Hybrid Picker has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint Online admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) before you follow the procedures in this section. 
+Configuration of hybrid SharePoint taxonomy is done using the Hybrid Picker in the SharePoint admin center. The Hybrid Picker has a number of prerequisites. Be sure to read [Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) before you follow the procedures in this section. 
   
 We also recommend that you back up your term store before you proceed.
   
  **Make the timer service account a term store admin**
   
-For taxonomy replication to work properly, the account that runs the SharePoint Timer Service must be a term store administrator in SharePoint Server. (To find this account, check the Log On As account for the SharePoint Timer Service on your server.) Use the following procedure to add this account as a term store administrator.
+For taxonomy replication to work properly, the account that runs the SharePoint Timer Service must be a term store admin in SharePoint Server. (To find this account, check the Log On As account for the SharePoint Timer Service on your server.) Use the following procedure to add this account as a term store administrator.
   
  **To add a term store admin**
   
@@ -135,17 +136,17 @@ For taxonomy replication to work properly, the account that runs the SharePoint 
     
  **Configure hybrid SharePoint taxonomy using the Hybrid Picker**
   
-The next step is to configure hybrid SharePoint taxonomy by running the Hybrid Picker in the SharePoint Online admin center.
+The next step is to configure hybrid SharePoint taxonomy by running the Hybrid Picker in the SharePoint admin center.
   
  **To configure hybrid SharePoint taxonomy**
   
 1. Log on to a server in your SharePoint Server farm as the farm administrator. 
     
-2. From your SharePoint Server computer, open a web browser, and log on to Microsoft 365 as a global admin.
+2. From your SharePoint Server computer, open a web browser.
     
-3. In the SharePoint Online Admin Center, select **configure hybrid**.
-    
-4. On the hybrid picker page, select **Hybrid Picker**.
+3. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+
+4. Under **Hybrid picker**, select **Open**.
     
 5. Follow the wizard, and when prompted, select **Hybrid Taxonomy**. 
     
@@ -159,17 +160,17 @@ The next step is to configure hybrid SharePoint taxonomy by running the Hybrid P
     
     If you don't specify groups, then all groups except system and special groups are configured for replication.
     
-After you've configured hybrid SharePoint taxonomy, the taxonomy replication timer job will poll SharePoint Online on a daily basis for changes to the taxonomy.
+After you've configured hybrid SharePoint taxonomy, the taxonomy replication timer job will poll SharePoint in Microsoft 365 on a daily basis for changes to the taxonomy.
   
 ## Running the taxonomy replication timer job
 
-Hybrid SharePoint taxonomy uses a timer job called Taxonomy Groups Replication to copy taxonomy information from SharePoint Online to SharePoint Server. The SharePoint Online APP Identity is used to authenticate to Microsoft 365. By default, this timer job replicates taxonomy on a daily basis.
+Hybrid SharePoint taxonomy uses a timer job called Taxonomy Groups Replication to copy taxonomy information from SharePoint in Microsoft 365 to SharePoint Server. The SharePoint in Microsoft 365 APP Identity is used to authenticate to Microsoft 365. By default, this timer job replicates taxonomy on a daily basis.
   
-Like other timer jobs in SharePoint, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searcing for it in the timer job list in Central Administration.
+Like other timer jobs in SharePoint in Microsoft 365, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searcing for it in the timer job list in Central Administration.
   
 ## Stopping replication of taxonomy groups
 
-If at any time you want to stop taxonomy replication between SharePoint Online and SharePoint Server, you can do so by using PowerShell. 
+If at any time you want to stop taxonomy replication between SharePoint in Microsoft 365 and SharePoint Server, you can do so by using PowerShell. 
   
 The [Stop-SPTaxonomyReplication](/powershell/module/sharepoint-server/Stop-SPTaxonomyReplication?view=sharepoint-ps) cmdlet will stop taxonomy replication. For example: 
   

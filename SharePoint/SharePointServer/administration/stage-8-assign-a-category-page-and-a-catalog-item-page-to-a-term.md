@@ -21,7 +21,7 @@ description: "Learn how to assign a category page and a catalog item page to a t
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Quick overview
 
@@ -83,13 +83,13 @@ So, after all that theory, in the next section, we'll show you how you can do th
 
 In [Stage 7: Upload page layouts and create new pages in a publishing site in SharePoint Server](stage-7-upload-page-layouts-and-create-new-pages-in-a-publishing-site.md), we created a new category page and a new catalog item page. Now we want to associate these pages with the terms in the term set that drives site navigation.
   
-1. On the Contoso site, go to **Site settings** and then **Term store management**. 
+1. On the Contoso site, go to **Site settings**, and then select **Term store management**. 
     
-2. In the **TAXONOMY TERM STORE** section, click a term, for example "Audio," and then click the **TERM-DRIVEN PAGES** tab. 
+2. In the **TAXONOMY TERM STORE** section, select a term, for example "Audio," and then select the **TERM-DRIVEN PAGES** tab. 
     
      ![Taxonomy Term Store](../media/OTCSP_Audio.png)
   
-In the **Target Page Settings** and **Catalog Item Page Settings** sections, there are four references pointing to two pages:  *Category-Electronics.aspx*  and  *CatalogItem-Electronics.aspx*  . 
+In the **Target Page Settings** and **Catalog Item Page Settings** sections, there are four references pointing to two pages: *Category-Electronics.aspx* and *CatalogItem-Electronics.aspx*. 
     
      ![Automatically Assigned Pages](../media/OTCSP_AutomaticallyAssignedPages.png)
   
@@ -97,33 +97,33 @@ Remember [Stage 5: Connect your publishing site to a catalog in SharePoint Serve
     
 3. In the **Target page settings** section, do the following: 
     
-1. In the **Change target page for this term** section, click **Browse**. 
+1. In the **Change target page for this term** section, select **Browse**. 
     
-2. In the **Select an Asset** dialog, click **Pages**, and then select the category page that you want to apply. In our scenario, this is **ContosoCategoryPage.aspx**. 
+2. In the **Select an Asset** dialog box, select **Pages**, and then select the category page that you want to apply. In our scenario, this is **ContosoCategoryPage.aspx**. 
     
      ![Select Category Page](../media/OTCSP_SelectCategoryPage.png)
   
 By setting this reference, when visitors browse to "Audio" on the Contoso site, the page  *ContosoCategoryPage.aspx*  will be used to display information. It is important to understand that visitors won't see the page name  *ContosoCategoryPage.aspx*  , but instead a friendly URL. More information about friendly URLs will be provided in [About the friendly URL for category pages](stage-8-assign-a-category-page-and-a-catalog-item-page-to-a-term.md#BKMK_AboutTheFriendlyURLForCategoryPages), later in this article.
     
-3. In the **Change target page for children of this term** section, repeat steps 3a and 3b. By setting this reference, when visitors browse to a child term of "Audio," for example "Speakers," the page  *ContosoCategoryPage.aspx*  is used to display information. 
+3. In the **Change target page for children of this term** section, repeat steps 3a and 3b. By setting this reference, when visitors browse to a child term of "Audio," for example "Speakers," the page *ContosoCategoryPage.aspx* is used to display information. 
     
      ![Target Page Settings](../media/OTCSP_TargetPageSettings.png)
   
 4. In the **Catalog Item Page Settings** section, do the following: 
     
-1. In the **Change Catalog Item Page for this category** section, click **Browse**. 
+1. In the **Change Catalog Item Page for this category** section, select **Browse**. 
     
-2. In the **Select an Asset** dialog, click **Pages**, and then select the category page that you want to apply. In our scenario, this is **ContosoCatalogItemPage.aspx**. 
+2. In the **Select an Asset** dialog box, select **Pages**, and then select the category page that you want to apply. In our scenario, this is **ContosoCatalogItemPage.aspx**. 
     
      ![Select Catalog Item Page](../media/OTCSP_SelectCatalogItemPage.png)
   
 By setting this reference, when visitors browse to an item that is tagged with the term "Audio," the page  *ContosoCatalogItemPage.aspx*  will be used to display information. 
     
-3. In the section **Change Catalog Item Page for children of this term**, repeat steps 4a and 4b. By setting this reference, when visitors browse to an item that is tagged with a child term of "Audio," for example "Speakers," the page  *ContosoCatalogItemPage.aspx*  will be used to display information. 
+3. In the section **Change Catalog Item Page for children of this term**, repeat steps 4a and 4b. By setting this reference, when visitors browse to an item that is tagged with a child term of "Audio," for example "Speakers," the page *ContosoCatalogItemPage.aspx* will be used to display information. 
     
      ![Item Page Settings](../media/OTCSP_ItemPageSettings.png)
   
-5. Repeat steps 2 - 4 for all terms to which you want to assign a category page and an item details page. In our scenario, we'll do this to all terms within the **Site Navigation** term set. 
+5. Repeat Steps 2 - 4 for all terms to which you want to assign a category page and an item details page. In our scenario, we'll do this to all terms within the **Site Navigation** term set. 
     
      ![All Terms](../media/OTCSP_AllTerms.png)
   
@@ -136,13 +136,13 @@ This is good, because when we created a category page in [Stage 7: Upload page l
 ### About the friendly URL for category pages
 <a name="BKMK_AboutTheFriendlyURLForCategoryPages"> </a>
 
-When you use managed navigation, the friendly URLs that visitors see are composed of the terms from the term set that drives site navigation. To see how friendly URLs are composed, on the **Term Store Management Tool** page, click a term, for example "Audio," and then click the **TERM-DRIVEN PAGES** tab. 
+When you use managed navigation, the friendly URLs that visitors see are composed of the terms from the term set that drives site navigation. To see how friendly URLs are composed, on the **Term Store Management Tool** page, select a term, for example "Audio," and then select the **TERM-DRIVEN PAGES** tab. 
   
-The friendly URL is displayed in the **Configure Friendly URL for this term** section. 
+The friendly URL appears in the **Configure Friendly URL for this term** section. 
   
 ![Configure Friendly URL](../media/OTCSP_FURLAudio.png)
   
-Similarly, when you click on "Car audio," you'll see the friendly URL for this page.
+Similarly, when you select "Car audio," you'll see the friendly URL for this page.
   
 ![Configure Friendly URL](../media/OTCSP_FURLCarAudio.png)
   

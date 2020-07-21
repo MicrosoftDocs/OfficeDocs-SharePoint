@@ -42,7 +42,7 @@ The following figure presents three examples of farm topologies and illustrates 
 
 ![How many Discovery Centers are needed?](../media/how-many-discovery-centers.gif)
   
-A Search service application in an on-premises SharePoint farm cannot crawl content in SharePoint Online. If you have discoverable content in SharePoint Online, you will also have to create an eDiscovery Center in SharePoint Online.
+A Search service application in an on-premises SharePoint farm cannot crawl content in SharePoint in Microsoft 365. If you have discoverable content there, you will also have to create an eDiscovery Center in SharePoint in Microsoft 365.
   
 Record how many eDiscovery Centers you will have.
   
@@ -63,7 +63,7 @@ List all the locations that contain content that must be discoverable. If you ha
 If you want to manage the discovery of Exchange Servers 2019, 2016, or 2013 content from a SharePoint Server eDiscovery Center, you must configure a Search service application to include Exchange Server 2019, 2016, or 2013 as a result source. If you want to manage the discovery of Skype for Business Server 2015 content from a SharePoint Server eDiscovery Center, you must configure Skype for Business Server 2015 to archive content to either Exchange Server 2019, 2016 or 2013.
 
 > [!NOTE]
-> SharePoint Server 2019 with Exchange 2019, enables Outlook on the web users to link to and share documents that are stored in OneDrive for Business instead of attaching files to messages. Users in SharePOint Server 2019 can collaborate on files the same way as in Microsoft 365. You'll need to run Office Online Server in your environment to do this. For more information, see the [Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
+> SharePoint Server 2019 with Exchange 2019 enables Outlook on the web users to link to and share documents that are stored in OneDrive instead of attaching files to messages. Users in SharePoint Server 2019 can collaborate on files the same way as in Microsoft 365. You'll need to run Office Online Server in your environment to do this. For more info, see the [Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
   
 > [!NOTE]
 > To manage discovery of Exchange content through SharePoint Server 2013, you must be using Exchange Server 2013. To manage discovery of Lync content through SharePoint, you must be using both Lync Server 2013 and Exchange Server 2013. 
@@ -82,7 +82,7 @@ Within SharePoint Server, eDiscovery users must be able to view all content. Thi
 We recommend that you grant permissions at the web application level, if that is possible in your environment.
   
 > [!NOTE]
-> Because SharePoint Online is a hosted service, administrators cannot access web applications directly. Therefore, in SharePoint Online you must explicitly add eDiscovery users as site collection administrators on each site collection that contains discoverable content. 
+> Because SharePoint in Microsoft 365 is a hosted service, admins cannot access web applications directly. Therefore, in SharePoint in Microsoft 365 you must explicitly add eDiscovery users as site collection administrators on each site collection that contains discoverable content. 
   
 Decide whether you will grant permissions by web application or by site collection. If you will grant permissions at the web application level, identify which web applications you will have to grant access to eDiscovery users. (It is likely that this will be all web applications.) If you will grant permissions at the site collection level, identify which site collections eDiscovery users will need access to and record your decisions.
   

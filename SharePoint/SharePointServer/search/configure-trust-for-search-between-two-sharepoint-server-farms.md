@@ -76,15 +76,15 @@ In order for SendingFarm to be able to get search results from the search index 
     
   - For Windows Server 2008 R2:
     
-    In the SharePoint Server environment, on the **Start** menu, click **All Programs**, click **SharePoint 2016**, and then click **SharePoint Management Shell**.
+    In the SharePoint Server environment, on the **Start** menu, select **All Programs**, select **SharePoint 2016**, and then select **SharePoint Management Shell**.
     
   - For Windows Server 2012:
     
-    - In the SharePoint Server environment, on the **Start** page, click **SharePoint Management Shell**.
+    - In the SharePoint Server environment, on the **Start** page, select **SharePoint Management Shell**.
     
-    - If **SharePoint Management Shell** is not on the **Start** page, right-click **Computer**, click **All apps**, and then click SharePoint Management Shell.
+    - If **SharePoint Management Shell** is not on the **Start** page, right-click **Computer**, select **All apps**, and then select SharePoint Management Shell.
     
-    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
+    For more info about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
     
 3. On a server in ReceivingFarm, run the following commands at a PowerShell command prompt. The commands use the OAuth 2.0 web authorization protocol to configure a server-to-server trust, so that ReceivingFarm will trust SendingFarm.
     

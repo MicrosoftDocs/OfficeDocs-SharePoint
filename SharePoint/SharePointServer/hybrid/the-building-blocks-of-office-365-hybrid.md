@@ -27,7 +27,7 @@ description: "Watch this video to learn about the major pieces of a Microsoft 36
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
-This chalk talk video covers the major pieces of Microsoft 365 hybrid deployments. This includes identity management, and a look at SharePoint, Exchange, and Skype for Business hybrid.
+This chalk talk video covers the major pieces of Microsoft 365 hybrid deployments. This includes identity management, and a look at SharePoint in Microsoft 365, Exchange, and Skype for Business hybrid.
   
 If you're considering deploying a Microsoft 365 hybrid solution, watch this video to learn more about how all the pieces fit together.
   

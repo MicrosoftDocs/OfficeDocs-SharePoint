@@ -47,7 +47,7 @@ You can't back up or restore everything in a SharePoint environment. For more in
   
 - You cannot use a backup made from one version to restore to another version.
     
-- You can use a backup made from one version to upgrade to another version.
+- You cannot use a backup made from one version to upgrade to another version.
     
 - The update level of the farm to which you restore cannot be lower than the update level of a backup.
     

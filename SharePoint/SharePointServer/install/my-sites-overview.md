@@ -47,7 +47,7 @@ The default links on the left navigation bar that are visible to the owner of th
     
 - **Apps**
     
-When a user views another user's profile, the links on the left navigation bar are similar, but also include a link to **Documents** and **People**. The **Documents** link lets other users view the My Site owner's public documents stored on the owner's OneDrive for Business, and the **People** link displays the people whom the My Site owner is following. 
+When a user views another user's profile, the links on the left navigation bar are similar, but also include a link to **Documents** and **People**. The **Documents** link lets other users view the My Site owner's public documents stored on the owner's OneDrive, and the **People** link displays the people whom the My Site owner is following. 
   
 My Sites give users rich social networking and collaboration features, which enable users to explore and share interests, projects, business relationships, content, and other data with people in the organization.
   
@@ -74,9 +74,9 @@ The **Newsfeed** page contains the information shown in the following table.
    
 ### OneDrive
 
-The **OneDrive** tab or tile links to the user's OneDrive for Business. OneDrive for Business is the user's personal file storage and synchronization service for business use. 
+The **OneDrive** tab or tile links to the user's OneDrive. OneDrive is the user's personal file storage and synchronization service for business use. 
   
-The user's OneDrive for Business usually includes a private folder and a folder that is shared with everyone, or with specific people. For more information, see [Overview of OneDrive for Business in SharePoint Server](../sites/onedrive-for-business-overview.md).
+The user's OneDrive usually includes a private folder and a folder that is shared with everyone, or with specific people. For more information, see [Overview of OneDrive in SharePoint Server](../sites/onedrive-for-business-overview.md).
   
 ### Sites
 
@@ -126,5 +126,5 @@ The tasks can be viewed based on importance, status (active), whether they are c
   
 [Plan user profiles in SharePoint Server](../administration/plan-user-profiles.md)
   
-[Overview of OneDrive for Business in SharePoint Server](../sites/onedrive-for-business-overview.md)
+[Overview of OneDrive in SharePoint Server](../sites/onedrive-for-business-overview.md)
 

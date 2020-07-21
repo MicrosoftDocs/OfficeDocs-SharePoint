@@ -21,7 +21,7 @@ description: "Learn about the search schema and how you can view, create, or cha
 
 # Manage the search schema in SharePoint
 
-The search schema controls what users can search for, how users can search it, and how you can present the results on your search websites. By changing the search schema, you can customize the search experience in SharePoint for Microsoft 365.
+The search schema controls what users can search for, how users can search it, and how you can present the results on your search websites. By changing the search schema, you can customize the search experience in SharePoint in Microsoft 365.
   
 ## About the search schema
 <a name="__toc351360836"> </a>
@@ -106,7 +106,7 @@ You can change the search schema for the whole tenant or for a specific site col
 ### Crawling and re-indexing
 <a name="__toc351360840"> </a>
 
-When you change managed properties or add new ones, the changes take effect only after the content has been re-crawled. In SharePoint for Microsoft 365, crawling happens automatically based on the defined crawl schedule.
+When you change managed properties or add new ones, the changes take effect only after the content has been re-crawled. In SharePoint in Microsoft 365, crawling happens automatically based on the defined crawl schedule.
   
 When you have added a new property to a list or to a library, or when you have changed properties that are used in a list or library, search has to re-crawl the content before your changes will be reflected in the search index. Because your changes are made in the search schema, and not to the actual site, the search will not automatically re-crawl the list or the library. To make sure that your changes are crawled, you can specifically request a re-indexing of the list or library. When you do this, the list or library content will be re-crawled so that you can start using your new managed properties in queries, query rules and display templates.
   
@@ -125,9 +125,9 @@ For more info about Delve, see [Office Delve for Office 365 admins](https://go.m
 <a name="__toc351360841"> </a>
 
 > [!NOTE]
-> Not all options are available in SharePoint for Microsoft 365.  Refinable Managed Properties cannot be created. Instead use the existing Refinable Managed Properties, e.g. RefinableString00 or RefinableInt00. Searching "Refinable" will show all of the usable Refinable Managed Properties available.
+> Not all options are available in SharePoint in Microsoft 365.  Refinable Managed Properties cannot be created. Instead use the existing Refinable Managed Properties, e.g. RefinableString00 or RefinableInt00. Searching "Refinable" will show all of the usable Refinable Managed Properties available.
 
-In SharePoint for Microsoft 365, when you create a new managed property, it will have some limitations. For example, the property can only be of type **Text** or **Yes/No**, and it can't be refinable or sortable.
+In SharePoint in Microsoft 365, when you create a new managed property, it will have some limitations. For example, the property can only be of type **Text** or **Yes/No**, and it can't be refinable or sortable.
   
 If you need a property of a different type, or one that has different characteristics than what is available, follow the steps under [Create a managed property by renaming an existing one](manage-search-schema.md#__ref341260321).
   

@@ -30,6 +30,6 @@ The following articles are included in this section:
 |[Manage web parts in SharePoint Server](manage-web-parts.md) <br/> |Helps you prepare to manage security for web parts pages and controls that are used with SharePoint Server 2016 and SharePoint 2013.  <br/> |
 |[Permissions planning for sites and content in SharePoint Server](permissions-planning-for-sites-and-content.md) <br/> |Learn about how to plan permissions for sites and site content for SharePoint Server 2016.  <br/> |
 |[Overview of managing digital assets in SharePoint Server 2013](managing-digital-assets-overview.md) <br/> | Learn about the asset library and how you can use it to store and share image, audio, or video files.  <br/> |
-|[Overview of OneDrive for Business in SharePoint Server](onedrive-for-business-overview.md) <br/> |Learn about OneDrive for Business in SharePoint Server.  <br/> |
+|[Overview of OneDrive in SharePoint Server](onedrive-for-business-overview.md) <br/> |Learn about OneDrive in SharePoint Server.  <br/> |
    
 

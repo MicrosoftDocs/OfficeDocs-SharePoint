@@ -23,7 +23,7 @@ description: "Learn about the timer jobs in SharePoint Server."
 This article describes the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013. A timer job runs in a specific Windows service for SharePoint Server 2019. Timer jobs perform infrastructure tasks for the Timer service, such as clearing the timer job history and recycling the Timer service. Timer jobs also perform tasks for web applications, such as sending email alerts. A timer job contains a definition of the service to run and specifies how frequently the service is started. The SharePoint Timer service (SPTimerv4) runs timer jobs. Many features in SharePoint Server rely on timer jobs to run services according to a schedule.
 
 > [!NOTE]
-> Classic timer jobs are not available in SharePoint Online. The timer jobs in this article are only available on SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.
+> Classic timer jobs are not available in SharePoint in Microsoft 365. The timer jobs in this article are only available on SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.
 
 ## Manage timer jobs
 <a name="ManageJobs"> </a>
@@ -51,8 +51,8 @@ The SharePoint Timer service (SPTimerv4) is based on the Gregorian calendar for 
 
 The following articles list the default timer jobs for SharePoint Server 2019, SharePoint Server 2016, and SharePoint 2013.
 
-- [Default timer jobs in SharePoint Server 2019](/Sharepoint/technical-reference/default-timer-jobs-in-sharepoint-server-2019)
+- [Default timer jobs in SharePoint Server 2019](/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-server-2019)
 
-- [Default timer jobs in SharePoint Server 2016](/SharePoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016)
+- [Default timer jobs in SharePoint Server 2016](/sharePoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016)
 
-- [Default timer jobs in SharePoint 2013](/SharePoint/technical-reference/default-timer-jobs-in-sharepoint-2013)
+- [Default timer jobs in SharePoint 2013](/sharePoint/technical-reference/default-timer-jobs-in-sharepoint-2013)

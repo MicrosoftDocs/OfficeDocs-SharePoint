@@ -55,7 +55,7 @@ You can customize and tailor the classic search experience more than Microsoft S
 |[Manage crawl log permissions](set-crawl-log-permissions.md) <br/> |Learn how to grant users or groups read access to crawl log information for the tenant. A typical use case is in eDiscovery, where users may need to check whether crawled content was in fact added to the search index.  <br/> |
    
 > [!NOTE]
-> Thesaurus isn't available in SharePoint for Microsoft 365. 
+> Thesaurus isn't available in SharePoint in Microsoft 365. 
   
 ## See also
 <a name="__top"> </a>

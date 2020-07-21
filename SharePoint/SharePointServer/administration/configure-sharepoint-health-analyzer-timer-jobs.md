@@ -37,17 +37,17 @@ You can use Central Administration to configure health data collection timer job
     > [!NOTE]
     > The health data collection timer job settings are farm-wide and cannot be set for individual servers in the farm. 
   
-2. In Central Administration, on the home page, click **Monitoring**.
+2. In Central Administration, on the home page, select **Monitoring**.
     
-3. On the **Monitoring** page, in the **Reporting** section, click **Configure usage and health data collection**.
+3. On the **Monitoring** page, in the **Reporting** section, select **Configure usage and health data collection**.
     
-4. On the **Configure usage and health data collection** page, in the **Health Data Collection** section, click **Enable health data collection**.
+4. On the **Configure usage and health data collection** page, in the **Health Data Collection** section, select **Enable health data collection**.
     
-5. In the **Health Data Collection** section, click **Health Logging Schedule**. The **Job Definitions** page opens. It lists all the timer jobs that collect health data. 
+5. In the **Health Data Collection** section, select **Health Logging Schedule**. The **Job Definitions** page opens. It lists all the timer jobs that collect health data. 
     
-6. On the **Job Definitions** page, click the timer job that you want to configure. 
+6. On the **Job Definitions** page, select the timer job that you want to configure. 
     
-7. On the **Edit Timer Job** page, in the **Recurring Schedule** section, change the timer job schedule, and then click **OK**.
+7. On the **Edit Timer Job** page, in the **Recurring Schedule** section, change the timer job schedule, and then select **OK**.
     
 ## Use Windows PowerShell to configure health data collection timer jobs
 <a name="section2"> </a>
@@ -71,11 +71,11 @@ You can configure the health data collection timer job schedule by using PowerSh
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about PowerShell permissions, see [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps). 
   
-2. On the **Start** menu, click **All Programs**. 
+2. On the **Start** menu, select **All Programs**. 
     
-3. Click **SharePoint 2016**.
+3. Select **SharePoint 2016**.
     
-4. Click **SharePoint 2016 Management Shell**.
+4. Select **SharePoint 2016 Management Shell**.
     
 5. At the PowerShell command prompt, type the following command:
     
@@ -111,7 +111,7 @@ You can configure the health data collection timer job schedule by using PowerSh
   Get-SPTimerJob | Format-Table -property id,title,schedule
   ```
 
-For more information, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps) and [Set-SPTimerJob](/powershell/module/sharepoint-server/Set-SPTimerJob?view=sharepoint-ps). 
+For more info, see [Get-SPTimerJob](/powershell/module/sharepoint-server/Get-SPTimerJob?view=sharepoint-ps) and [Set-SPTimerJob](/powershell/module/sharepoint-server/Set-SPTimerJob?view=sharepoint-ps). 
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 

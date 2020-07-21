@@ -26,7 +26,7 @@ SharePoint Server 2013 supports the video content type and the video player page
 Videos are known as digital assets or rich media in SharePoint Server 2013. SharePoint Server 2013 provides an asset library to store videos so that users can visit a central location to view them. For more information, see [Overview of managing digital assets in SharePoint Server 2013](../sites/managing-digital-assets-overview.md).
   
 > [!IMPORTANT]
-> SharePoint Online has different performance and scalability properties than on-premises SharePoint Server 2013 installations. Although SharePoint Online can stream video, this capability should be reserved for videos that are not very large, or for videos that have limited distribution. For video scenarios that do not fit these criteria, for best results, consider storing videos externally, and streaming them using a partner service such as Azure Media Services. > You can also search the Office Store to find partner apps that enable video integration into SharePoint Online. 
+> SharePoint in Microsoft 365 has different performance and scalability properties than on-premises SharePoint Server 2013 installations. Although SharePoint in Microsoft 365 can stream video, this capability should be reserved for videos that are not very large, or for videos that have limited distribution. For video scenarios that do not fit these criteria, for best results, consider storing videos externally, and streaming them using a partner service such as Azure Media Services. > You can also search the Office Store to find partner apps that enable video integration into SharePoint in Microsoft 365. 
   
 ## Introduction
 <a name="Intro"> </a>

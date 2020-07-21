@@ -69,7 +69,7 @@ Follow these steps:
     
 3. In the **Protocol** section, select **Remote SharePoint**. 
     
-4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint Online that you want to get search results from, such as https://adventure-works.sharepoint.com. 
+4. In the **Remote Service URL** section, enter the address of the root site collection in SharePoint in Microsoft 365 that you want to get search results from, such as https://adventure-works.sharepoint.com. 
     
 5. In the **Type** section, select **SharePoint Search Results**. 
     
@@ -120,10 +120,10 @@ In each of the following steps, when you refer to the SharePoint Server document
 ## Related Topics
 <a name="BKMK_Set_up_query_federation"> </a>
 
-[Learn about cloud hybrid search for SharePoint](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
+[Learn about cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
   
-[Plan cloud hybrid search for SharePoint](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
+[Plan cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
   
-[Configure cloud hybrid search for SharePoint](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap)
+[Configure cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap)
   
 

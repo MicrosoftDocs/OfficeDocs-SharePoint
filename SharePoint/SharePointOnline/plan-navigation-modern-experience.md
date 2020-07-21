@@ -1,8 +1,8 @@
 ---
 title: "Plan navigation for the modern experience in SharePoint"
 ms.reviewer: 
-ms.author: loreenl
-author: loreenla
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -301,9 +301,18 @@ Global navigation is not yet available for modern SharePoint intranets. Until it
 
 -   Use a single hub for the entire organization. This might be a reasonable strategy for a small organization, but the benefits of hubs decrease in value if you only have one so this may not work for the long term.
 
--   Use a single hub for the entire organization. This might be a reasonable short-term strategy for a small organization, but the benefits of hubs decrease in value if you only have one so this is not a viable solution in most cases.
-
 -   Wait to add global navigation until it is available natively in the product.
+
+## Multilingual considerations
+If your organization spans a diverse population, you may want to make content in your intranet sites available in multiple languages. User interface elements like site navigation, site title, and site description can be shown in the user's preferred language. Additionally, you can provide pages and news posts on communication sites that you translate and that are shown in the user's preferred language.
+
+To show the site name, navigation, and footer of your site in the different languages you've made available, each must be translated manually.
+
+For example, let's say you've created a  communication site with an English default language, and you've enabled the site for Spanish and German languages. When you create a site, you set up the site name and description in the default language (in this case, English). You can also update the site name and description after site creation. Then you create the navigation nodes and footer content in English.
+
+After the site is set up in English, a user with Spanish as their preferred personal language manually edits and translates the title, description, navigation and footer content into Spanish. A user with German as their preferred personal language does the same for German. Once the content is translated, it will display for all users of those preferred languages. 
+
+For more information on how to set up and use multilingual features, see [Create multilingual communication sites](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
 
 ## Managing navigation expectations
 

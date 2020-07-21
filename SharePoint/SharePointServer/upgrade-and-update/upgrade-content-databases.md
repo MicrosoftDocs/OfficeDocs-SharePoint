@@ -19,8 +19,6 @@ description: "Learn how to upgrade content databases from SharePoint 2013 to Sha
 ---
 
 # Upgrade content databases to SharePoint Server 2016
-
- 
   
 When you upgrade from SharePoint Server 2013 with Service Pack 1 (SP1) to SharePoint Server 2016, you must use a database attach upgrade, which means that you upgrade only the content for your environment and not the configuration settings. After you have configured the SharePoint Server 2016 environment, copied the content and service application databases, and upgraded the service applications, you can attach and upgrade the content databases to SharePoint Server 2016. This article explains the steps you take to attach and upgrade the content databases to SharePoint Server 2016.
   
@@ -130,13 +128,13 @@ Before you attach the content databases to the web applications, use the [Test-S
     
   - For Windows Server 2012 R2:
     
-  - On the **Start** screen, click **SharePoint 2016 Management Shell**.
+  - On the **Start** screen, select **SharePoint 2016 Management Shell**.
     
     If **SharePoint 2016 Management Shell** is not on the **Start** screen: 
     
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Management Shell**.
+  - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
     
 3. At the PowerShell command prompt, type the following command:
     
@@ -200,13 +198,13 @@ By default, when you created the web applications in the new SharePoint Server 2
     
   - For Windows Server 2012 R2:
     
-  - On the **Start** screen, click **SharePoint 2016 Management Shell**.
+  - On the **Start** screen, select **SharePoint 2016 Management Shell**.
     
     If **SharePoint 2016 Management Shell** is not on the **Start** screen: 
     
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Management Shell**.
+  - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
     
 3. At the PowerShell command prompt, type the following command and then press **ENTER**: 
     
@@ -233,7 +231,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
   
 - Verify that the user account that is performing this procedure is a member of the **db_owner** fixed database role for the databases. 
     
-- In Central Administration, click **Upgrade and Migration**, and then click **Check upgrade status**.
+- In Central Administration, select **Upgrade and Migration**, and then select **Check upgrade status**.
     
  **To view the upgrade log file**
   
@@ -275,13 +273,13 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     
   - For Windows Server 2012 R2:
     
-  - On the **Start** screen, click **SharePoint 2016 Management Shell**.
+  - On the **Start** screen, select **SharePoint 2016 Management Shell**.
     
     If **SharePoint 2016 Management Shell** is not on the **Start** screen: 
     
-  - Right-click **Computer**, click **All apps**, and then click **SharePoint 2016 Management Shell**.
+  - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
     
 3. At the PowerShell command prompt, type the following command:
     

@@ -34,13 +34,14 @@ Learn about the new MinRole farm topology and its benefits in SharePoint Servers
 The following video gives a general overview what MinRole is and can do for your organization.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c5d811-fbce-4bac-b95e-820acf941b01?autoplay=false]
+
 ## Benefits of using the MinRole farm topology
 
 Some of the primary benefits to using MinRole are:
   
 - **Simplified deployment**: Now you no longer need to worry about which services should be started on which servers. By deploying your farm in a recommended MinRole topology, you can focus on what functionality to enable in your farm and let SharePoint take care of the rest. 
     
-- **Improved performance and reliability**: Microsoft has been operating SharePoint Online for years and has analyzed the performance characteristics of SharePoint under a variety of conditions, including CPU, memory, disk I/O, and network latency. SharePoint Servers 2016 and 2019 have been optimized for the MinRole farm topology based on that analysis. By deploying your farm in a recommended MinRole topology, you'll be able to reduce network latency and increase reliability. 
+- **Improved performance and reliability**: Microsoft has been operating SharePoint in Microsoft 365 for years and has analyzed the performance characteristics of SharePoint under a variety of conditions, including CPU, memory, disk I/O, and network latency. SharePoint Servers 2016 and 2019 have been optimized for the MinRole farm topology based on that analysis. By deploying your farm in a recommended MinRole topology, you'll be able to reduce network latency and increase reliability. 
     
 - **Simplified capacity planning and farm scalability**: Microsoft bases capacity planning on the MinRole topology. By deploying your farm in a recommended MinRole topology, you'll be able to leverage more predictable and prescriptive capacity-planning guidance. Plus, it's now easier to add servers into your farm as your needs grow because SharePoint automatically configures the additional servers for you. 
     

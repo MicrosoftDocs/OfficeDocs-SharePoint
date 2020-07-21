@@ -115,7 +115,7 @@ The log-shipping infrastructure used for our disaster-recovery solution environm
   
 **Log shipping infrastructure and data flow**
 
-![Shows the log shipping infrastructure and directional flow between the on-premise and Azure farms.](../media/AZarch_LSinfrastructure.png)
+![The log shipping infrastructure and directional flow between the on-premises and Azure farms.](../media/AZarch_LSinfrastructure.png)
   
 The previous diagram shows the log shipping infrastructure and data flow. The diagram shows the SQL Server database servers and the file servers in the production farm and the Azure recovery farm. These farms are nearly identical, and each contains a primary and secondary replica for each AlwaysOn availability group. The file servers, FIL1 and AZ-FIL1, are configured the same, including the number of hard disks and disk sizes. Additional servers in the farm are not shown.
   

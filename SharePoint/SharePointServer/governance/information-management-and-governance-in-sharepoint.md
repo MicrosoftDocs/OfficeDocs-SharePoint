@@ -140,6 +140,6 @@ The following table presents resources that are available to help information ar
 |Templates  <br/> |[Site Types: WebTemplates and Site Definitions](https://go.microsoft.com/fwlink/p/?LinkID=119099) <br/> |
 |Content approval  <br/> |[Plan document versioning, content approval, and check-out controls in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262378(v=office.14)) <br/> [Plan content approval and scheduling](https://go.microsoft.com/fwlink/?LinkId=403884) <br/> |
 |Information management policies  <br/> |[Plan for information management policy in SharePoint Server](information-management-policy-planning.md) <br/> |
-|Social computing  <br/> |[Plan for My Sites in SharePoint Server](../install/my-sites-planning.md) <br/> [Plan for OneDrive for Business in SharePoint Server](../sites/onedrive-for-business-planning.md) <br/> |
+|Social computing  <br/> |[Plan for My Sites in SharePoint Server](../install/my-sites-planning.md) <br/> [Plan for OneDrive in SharePoint Server](../sites/onedrive-for-business-planning.md) <br/> |
    
 
