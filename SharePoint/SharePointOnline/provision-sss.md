@@ -61,7 +61,7 @@ The SharePoint Success Site comes with web parts and content to guide your users
 #### SharePoint communication site 
 The SharePoint Success Site is a SharePoint communication site that includes pre-populated pages, web parts, and site navigation. The site can be customized to incorporate your organization's existing branding, support, and community content.
 
-![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+![Image of the SharePoint Success Site landing page](./media/sss-landing.png)
 
 #### Microsoft 365 learning pathways
 When you provision the SharePoint Success Site, you will first be required to install [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/). M365 learning pathways connects to a Microsoft-maintained content repository that includes publicly available SharePoint help content. As the content repository is updated, M365 learning pathways will automatically display updated SharePoint content. With M365 learning pathways, you can also create targeted training playlists that meet the needs of your organization beyond SharePoint training by uploading custom playlists. 
