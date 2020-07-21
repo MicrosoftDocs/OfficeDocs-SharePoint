@@ -66,7 +66,7 @@ The SharePoint Success Site is a SharePoint communication site that includes pre
 #### Microsoft 365 learning pathways
 When you provision the SharePoint Success Site, you will first be required to install [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/). M365 learning pathways connects to a Microsoft-maintained content repository that includes publicly available SharePoint help content. As the content repository is updated, M365 learning pathways will automatically display updated SharePoint content. With M365 learning pathways, you can also create targeted training playlists that meet the needs of your organization beyond SharePoint training by uploading custom playlists. 
 
-![Image of the Microsoft 365 learning pathways solution](./media/m365-learning-pathways.png)
+![Image of the Microsoft 365 learning pathways solution](media/m365-learning-pathways.png)
 
 #### Microsoft-maintained content feed
 The SharePoint Success Site’s up-to-date content feed includes a range of content that helps new users and existing site owners plan, build, and manage SharePoint sites:
@@ -78,7 +78,7 @@ The SharePoint Success Site’s up-to-date content feed includes a range of cont
 #### Success stories
 The success stories section is a gallery for organizations to showcase internal SharePoint site success stories that inspire others in the organization. Learn how to create a [Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d#:~:text=%20Create%20a%20form%20with%20Microsoft%20Forms%20,names%20can%20contain%20up%20to%2090...%20More%20) to solicit success stories from site owners and authors, and publish on your SharePoint Success Site to inspire.
 
-![Image of the Success Stories page](./media/sss-success-stories.png)
+![Image of the Success Stories page](media/sss-success-stories.png)
 
 #### Site creation guidelines 
 The site creation guidelines page provides a starting point to educate new site authors about [SharePoint creation policies](https://docs.microsoft.com/sharepoint/sites-usage-guidelines) for your organization. The guidelines include suggested usage policy topics and questions to prompt consideration of usage policies within your organization. Customize the content in your SharePoint Success Site site creation guidelines page to serve your organization’s governance needs.
@@ -111,7 +111,7 @@ The **tenant** must meet the following provisioning pre-requisites:
 
 ### Where to get started provisioning the SharePoint Success Site
 
-![Image of the M365 decision tree](./media/sss-decision-tree-2.png)
+![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
 #### Provision M365 learning pathways for the first time
 
@@ -121,7 +121,7 @@ If you **don’t already have** M365 learning pathways installed in your tenant,
 2. Select **Add to your tenant**. If you aren't signed into to your tenant, the Provisioning Service will ask for your tenant admin credentials.
 3. From the Permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.**
 
-![Image of the app catologue consent](./media/app-catolog-consent2.png)
+![Image of the app catologue consent](media/app-catolog-consent2.png)
 
 > [!NOTE]
 > By selecting **Consent on behalf of your organization** when adding the App Catalog, there is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
@@ -177,7 +177,7 @@ When SharePoint Success Site provisioning is complete, the tenant admin who prov
 <br>
 Opening **CustomLearningAdmin.aspx** initializes the **CustomConfig** list item that sets up learning pathways for first use. You should see a page that looks like this:
 
-![Image of the first use page](./media/m365-lp-custom-config.png)
+![Image of the first use page](media/m365-lp-custom-config.png)
 
 #### Add owners to the M365 learning pathways site
 Assign a few site owners to grant administrative privileges to customize the site and training content. This includes the ability to hide and show content and to build custom playlists through the learning pathways web part. 
@@ -216,7 +216,7 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 - Branding details like the site logo and theme
 - Adoption and awareness materials
 
-![Image of the SharePoint Success Site landing page](./media/sss-landing.png)
+![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
 
 #### How does the SharePoint Success Site work? 
@@ -268,10 +268,10 @@ The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll ne
 2.	Select content categories and subcategories, and then navigate through the playlist to get a sense for how the SharePoint Success Site content is organized and displayed.
 
 **Plan your site page**:
-![Image of the SharePoint Success Site landing page, Plan your site](./media/sss-content-landing.png)
+![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
 **Select a topic, and navigate through content using controls at the top of the article**:
-![Image of the SharePoint Success Site landing page, Plan your site](./media/sss-content-module.png)
+![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-module.png)
 
 ### Customize playlist content and add your own custom playlists
 
@@ -281,7 +281,7 @@ The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll ne
 
 Select which content to display in your SharePoint Success Site by [hiding and showing](https://docs.microsoft.com/office365/customlearning/custom_hideshowsub) subcategories of content. For example, if you don’t want users to have access to advanced site creation, you can hide that subcategory it won't be visible to users. Decide which content is appropriate for the purpose of your SharePoint Success Site. 
 
-![Image of the M365 learning pathways, SharePoint success site page](./media/m365-lp-sss.png)
+![Image of the M365 learning pathways, SharePoint success site page](media/m365-lp-sss.png)
 
 #### Add your own custom playlists
 
