@@ -171,3 +171,8 @@ If you're a **global admin**: Continue with Steps 6–9.
 
 9. **Global admin**: A pop-up window appears that guides you through the rest of the permissions process. When complete, it closes automatically, and your **Office 365 Connector** is fully authorized and ready to go.
 
+## Connect your source Office 365 account
+
+If you are not already connected after you have authorized your source, select **Office 365**, and load the connector. An icon appears, and shows you how many users you are migrating.
+
+![execution select source](media/execution-select-office-365-source.png)	![execution select source](media/execution-select-office-365-source.png)
