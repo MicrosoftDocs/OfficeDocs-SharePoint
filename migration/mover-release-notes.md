@@ -16,6 +16,20 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Backend v1.19.1 (July 22, 2020)
+
+Migration Report improvements and bug fixes.
+
+- When authorizing or re-authorizing an Office 365 connector, they authentication flow will not necessarily ask for credentials, but instead will show a picker with accounts that are currently signed into Microsoft. This improves user experience as it prevents them from having to manually enter their credentials if they are already logged into Microsoft.
+- When running transfer from Office 365 source , if there are folders names with .one extension, there would be failure in transferring content of the folders to destination because the app would consider it as oneNote Notebook. A fix has been added to ensure we properly distinguish OneNote Note book and folders with .one extensions.
+- Signing into Mover. Some users were unable to sign in with their Microsoft account even though authorization seems to have gone fine. The application would redirect them back to the Mover login page after trying to load the UI, without any error messages. This has been fixed and these users should be able to sign in with their Microsoft accounts now.
+- The Migration Report had discrepancies in some of its metrics. This has been addressed and now the metrics should show what is expected of it. In the future, more fields will be added into this report in order to give users a better understanding of ongoing migrations.
+- When the user tries to authorize the Office 365 connector, and if the tenant lacks M365 licenses, the connector authorization will fail and the error message "Couldn't retrieve SharePoint Online site list. We suspect your tenant lacks SharePoint Online licenses" will be displayed in the UI.
+- When a transfer gets automatically re-queued, its status will now show as "Re-Queued" as opposed to "Queued". When it is running from an automatic re-queue, it will then show as "Rerunning".
+- Saving the permission map for a migration via the web UI that had a job_limit set or auto_job_limit set (migration scaler), would cause those fields to set back to null, so we would lose their setting. A fix has been added to prevent this issue.
+- Google Drive now has ability to allow users to create shortcut to their drive files, as a part of migrating the Google Drive app from multi-parenting to single-parenting behavioural model. Shortcuts are files that link to other files on the users drive. Mover app currently does not support moving those files to destination. The transfer will be completed with the row showing yellow colour, which means some files are unsupported, and rerun wont fix it.
+
+
 ## Backend v1.19.0 (July 14, 2020)
 
 Exciting new features for migrations out of G Suite and Box.
