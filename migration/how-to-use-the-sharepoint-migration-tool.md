@@ -33,7 +33,7 @@ Download and install SPMT using one of the links listed below.
 
 |**Public preview**|**First release**|**General Availability**|
 |:-----|:-----|:-----|
-|[Install](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) |[Install](https://aka.ms/spmt-ga-page)|[Install](https://aka.ms/spmt-ga-page)|
+|[Install here](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) |[Install here](https://aka.ms/spmt-ga-page)|[Install here](https://aka.ms/spmt-ga-page)|
 
 
 
