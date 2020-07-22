@@ -92,13 +92,12 @@ To successfully set up the NEO hub via the SharePoint look book, the person doin
 
 1.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 
-   The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
+    The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
 1.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
 
-   > [!NOTE]
-   > Provisioning the NEO Hub will result in 4 separate site collections getting installed in your tenant. You will be prompted to enter the 4 new site URLs where you can edit the site name, site title, description, and default value. 
-
+    > [!NOTE]
+    > Provisioning the NEO Hub will result in 4 separate site collections getting installed in your tenant. You will be prompted to enter the 4 new site URLs where you can edit the site name, site title, description, and default value. 
 
 1.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take up to 15 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
 
@@ -139,8 +138,8 @@ Before you customize content in the NEO experience, ensure you understand the ne
 
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
 
-   > [!NOTE]
-   > The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites. [Learn more about SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
+    > [!NOTE]
+    > The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites. [Learn more about SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
 
 3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sales department. Consider associating departmental onboarding sites with existing department portals if you have them.
 
