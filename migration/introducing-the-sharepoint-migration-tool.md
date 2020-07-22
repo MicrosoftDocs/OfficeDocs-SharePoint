@@ -44,10 +44,9 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 Download and install SPMT using one of the links listed below.  
 
 
-|**Public preview**|**First release**|**Full General Availability**|
+|**Public preview**|**First release**|**General Availability**|
 |:-----|:-----|:-----|
 |[Install](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) |[Install](https://aka.ms/spmt-ga-page)|[Install](https://aka.ms/spmt-ga-page)|
-
 
 
 
