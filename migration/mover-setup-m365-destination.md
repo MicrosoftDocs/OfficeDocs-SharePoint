@@ -47,10 +47,11 @@ Some steps in the authorization process can be completed by a global or SharePoi
     >[!Warning]
     >If you are a **global admin**, a slightly different login screen appears.  
     >
-    >If you select *Consent on behalf of your organization* during the authentication flow, you will grant admin access to your entire organization. DO NOT do this. You may additionally tighten your security beyond administrators by turning on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal; you would need to specifically assign your migrator users who may use the app.
+    >If you select *Consent on behalf of your organization* during the authentication flow, you will grant admin access to your entire organization. DO NOT do this. To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You will need to specifically assign your migrator users who may use the app.
 
-    - ![global admin o365](media/permissions-o365-global-admin.png)
-    - ![user assignment required](media/mover-user-assignment-setting.png)
+    ![global admin o365](media/permissions-o365-global-admin.png)</br>
+
+    ![user assignment required](media/mover-user-assignment-setting.png)
 
 5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
