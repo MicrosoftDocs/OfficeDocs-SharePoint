@@ -87,18 +87,20 @@ To successfully set up the NEO hub via the SharePoint look book, the person doin
 ![Image of the NEO hub solution in the lookbook](media/neo-look-book.png)
 
 1.	Go to the [NEO hub solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
-2.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Global admin credentials.
-3.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 
-The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
+1.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Global admin credentials.
 
-4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
+1.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 
-> [!NOTE]
-> Provisioning the NEO Hub will result in 4 separate site collections getting installed in your tenant. You will be prompted to enter the 4 new site URLs where you can edit the site name, site title, description, and default value. 
+   The provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
+
+1.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
+
+   > [!NOTE]
+   > Provisioning the NEO Hub will result in 4 separate site collections getting installed in your tenant. You will be prompted to enter the 4 new site URLs where you can edit the site name, site title, description, and default value. 
 
 
-6.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take up to 15 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
+1.	Select **Provision** when ready to install the NEO hub into your tenant environment. The provisioning process will take up to 15 minutes. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
 
 > [!NOTE]
 > Have provisioning questions? Need to report an issue? Post your questions and comments about the provisioning of the NEO hub to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
@@ -137,9 +139,8 @@ Before you customize content in the NEO experience, ensure you understand the ne
 
 2.	**Corporate onboarding site:** A place for new hires to visit to get the information they need and make the connections they want to successfully onboard to the organization. 
 
-> [!NOTE]
-> The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites. [Learn more about SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
-
+   > [!NOTE]
+   > The corporate new hire site is a hub and the departmental site templates are associated sites. This creates a coherent and consistent experience for the new hire across the corporate and departmental new hire sites. [Learn more about SharePoint hub sites](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f).
 
 3.	**Departmental onboarding sites:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The new employee onboarding hub includes two departmental template sites, one for an engineering department and one for a sales department. Consider associating departmental onboarding sites with existing department portals if you have them.
 
@@ -151,7 +152,9 @@ Before you customize content in the NEO experience, ensure you understand the ne
 
 
 1.	Open your web browser and navigate to [office.com](https://www.office.com) or your organization’s sign-in location.
+
 2.	Sign in with your username and password.
+
 3.	Navigate to the location of the site using the URL supplied by your Global admin, or select SharePoint from the Microsoft 365 home page, and then select the site.
 
 
@@ -168,8 +171,8 @@ This is where a new hire starts their onboarding journey. This site is for new h
 #### Pre-populated site content:
 - **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
 
-> [!IMPORTANT]
-> Plan to connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820)
+  > [!IMPORTANT]
+  > Plan to connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820).
 
 - **Welcome** – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
 - **Contoso 101** – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
@@ -310,7 +313,7 @@ As a SharePoint site owner, you can view site usage data that shows you how user
 
 **Example of site usage data:**
 
-![Image of SharePoint site analytics data](media/neositeusagereport.png)
+[ ![Image of SharePoint site analytics data](media/neositeusagereport.png) ](media/neositeusagereport.png#lightbox)
 
 
 
@@ -350,25 +353,3 @@ The NEO Hub should present the most up to date content your organization has to 
   - Gallup, State of the American Workplace, 2017*
   - SHRM, Don't Underestimate the Importance of Good Onboarding, 2017**
  -  Source: Digitate, Super CIO: What the CIO sees—that other people don’t, 2018
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
