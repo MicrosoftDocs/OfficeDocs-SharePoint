@@ -40,6 +40,7 @@
 ### [Set up site design](set-up-site-design-hub-site.md)
 ## [Sample sites]()
 ### [Add a sample site to your tenant](add-sample-site.md)
+### [Add the New Employee Onboarding hub to your tenant](provision-neo-hub.md)
 ## [Publishing]()
 ### [How page recommendations work](sharepoint_page-recommendations.md)
 ## [Site administration]()
