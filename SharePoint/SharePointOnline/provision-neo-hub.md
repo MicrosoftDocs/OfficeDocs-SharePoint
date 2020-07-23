@@ -75,7 +75,7 @@ To deliver a consistent and integrated new hire onboarding experience the Micros
 
 
 ## Step 1: Provision NEO hub
-The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **Microsoft 365 global admin** can start the provisioning process with a few steps. The whole process takes about 15 minutes to proviion. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **Microsoft 365 global admin** can start the provisioning process with a few steps. The whole process takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
 
 ### Prerequisites
