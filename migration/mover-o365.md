@@ -157,7 +157,7 @@ If you're a **SharePoint admin**: To grant permissions and finish the authorizat
 
 If you're a **global admin**: Continue with Steps 6–9.
 
-   ![Authorize error](media/authorize-error.png)
+![Authorize error](media/authorize-error.png)
 
 6. **Global admin**: Log in to the Azure Portal via **aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
 
