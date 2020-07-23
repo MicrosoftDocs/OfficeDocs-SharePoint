@@ -45,7 +45,7 @@ Based on our research, 69% of employees are more likely to stay with a company f
 | Provide new employee experiences and information      | Connect new employees to people and culture     | Help stakeholders easily contribute to new employee onboarding  | Measure effectiveness of new employee onboarding
 | :------------------- | :------------------- |:----------------|
 | Sense of place       | Pre-onboarding       | Departmental and team onboarding |  Value realization
-| Onboarding journey   | Social connections and live events  | Easy to create and maintain compeling content experiences     | Example model for KPIs
+| Onboarding journey   | Social connections and live events  | Easy to create and maintain compelling content experiences     | Example model for KPIs
 
 
 
