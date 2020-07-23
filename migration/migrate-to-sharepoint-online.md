@@ -19,19 +19,16 @@ ms.custom:
 description: "This article helps you understand, which tool to use when migrating content to SharePoint and OneDrive in Microsoft 365."
 ---
 
-# Migrating your content to SharePoint, OneDrive, and Teams
+# Migrate your content to Microsoft 365
 
-Moving to SharePoint or OneDrive in Microsoft 365? There are several tools and methods you can use; what is best for you and your organization depends on a number of factors. What is the size and amount of content you need to move? Where does it currently reside? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
+Moving to Microsoft 365? There are several tools and methods you can use; what is best for you and your organization depends on a number of factors. What is the size and amount of content you need to move? Where does it currently reside? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
 
 To learn more about the which tool to use, see the table below.
 
 
 >[!Note]
-> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
->
->**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
->
->Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
+>When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
+
 
 ## Which tool to use
 
@@ -47,5 +44,11 @@ To learn more about the which tool to use, see the table below.
 |Manual upload  <br/> |Uploading files one at a time to SharePoint. <br/> |Best for smaller files.|
 |SharePoint Assessment Tool|  A tool to assess and identify issues with SharePoint Server content prior to migration. </br>To download: [SharePoint Migration Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53598) | Ideal for assessing SharePoint Server 2010 and 2013 content prior to migration.|
 
+
 >[!Note]
->When you migrate your content to SharePoint or OneDrive, you are copying the files.  Your source files are not deleted.
+> Microsoft has acquired **Mover**, a leading provider of cloud file migration, including admin-led and self-service offerings. As customer demand to move content to the cloud continues to grow, Mover will help make it easier than ever for customers to migrate files to Microsoft 365.
+>
+>**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
+>
+>Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
+

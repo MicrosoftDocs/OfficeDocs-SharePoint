@@ -1,4 +1,4 @@
-# [Migrate to SharePoint](migrate-to-sharepoint-online.md)
+# [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
 ##  SharePoint Migration Tool (SPMT)
 ### [Overview and download](introducing-the-sharepoint-migration-tool.md)
 ### [Release notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
@@ -49,9 +49,9 @@
 #### [Azure Blob Storage](mover-azureblob.md)
 #### [Google Cloud Storage](mover-googlecloudstore.md)
 ### Setup your destination
-####  Microsoft 365
-##### [Microsoft 365](mover-setup-m365-destination.md)
-##### [Troubleshoot your Microsoft 365 Connector](mover-troubleshoot-m365-connector.md)
+####  Office 365
+##### [Office 365](mover-setup-m365-destination.md)
+##### [Troubleshoot your Office 365 Connector](mover-troubleshoot-m365-connector.md)
 ###  Setup your migration
 #### [Create a new migration](mover-create-migration.md)
 #### [Create a new migration from a CSV (optional)](mover-create-migration-csv.md)

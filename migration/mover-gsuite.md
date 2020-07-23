@@ -38,15 +38,15 @@ Our app is not able to read or write permissions to Google Shared Drives. Shared
 
 ### What's the difference between file versions and revision history?
 
-Revision history for Google Docs, Sheets, and Slides is different than file versions in Google Drive. Revision history refers to the ability to see earlier versions of a file, and view who made specific edits to the document. During the migration, revision history is not transfered. Only the most recent version of a file is transfered.
+Revision history for Google Docs, Sheets, and Slides is different than file versions in Google Drive. Revision history refers to the ability to see earlier versions of a file, and view who made specific edits to the document. During the migration, revision history is not transferred. Only the most recent version of a file is transferred.
 
 ![revision history](media/revision-history.png)
 
-### What isn't transfered
+## What isn't transferred
 
 ### What happens to Google Drawings, Forms, Sites, and Maps?
 
-Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These are not transfered.
+Google does not allow us to export Drawings, Forms, Sites, and Maps from Drive. These are not transferred.
 
 ### What about Docs, Slides, and Sheets?
 
@@ -69,7 +69,14 @@ To disable this feature, see the **Sharing** settings for a file, and select **A
 
 ![restricted file](media/restricted-file.png)
 
-## Required pre-scan of G Suite Drive
+
+    
+### What happens to Google Drive shortcuts?
+
+Shortcut files are not supported for migration. These shortcut files will not be transferred.
+
+
+## Multi-parenting behavior in G Suite Drive
 
 Permissions and ownership of data in a G Suite Drive source can be complicated. To retain a similar directory structure and sharing scheme in the destination, our app must make some decisions on who owns what and where that data is best located.
 
@@ -77,7 +84,7 @@ Permissions and ownership of data in a G Suite Drive source can be complicated. 
 
 When a folder is shared out to another user, it appears in their **/Shared with me** section. From there, it can be added to the user's /My Drive and then placed in any folder of their choosing, including their own folders, or other shared folders.
 
-Microsoft 365 does not support this same nesting of shared data, which is why we've developed a solution.
+Office 365 does not support this same nesting of shared data, which is why we've developed a solution.
 
 ### Examples
 
@@ -96,99 +103,69 @@ Any file or folder in a user's My Drive may be arbitrarily added to a new locati
 
 ### The solution
 
-In order to ensure your users still have access to all their important files, our app automatically makes an intelligent decision on which folder becomes the source of truth when multiple users have conflicting views.
+#### Layperson's terms:
+> For Google Drive, for each user, starting at their root My Drive, we descend into all root folders they own, and then all sub folders regardless of ownership. We transfer content to them while sharing out editors and viewer permissions on any folders, as required. We only stop descending when we find a folder that has already been copied by another user who transferred earlier, including potentially folders at the root My Drive level.
 
-Before your migration, our app can perform a pre-scan of all your source G Suite users. Users are ordered by priority, typically with administrators and department heads at the top. This determines the order of conflict resolution, with higher priority users winning over lower priority users.
+#### A user story:
+> Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner, in which case I will find that folder in my *Shared > Shared With Me* section of OneDrive.
 
-The pre-scan process is fairly complicated; however, there are some basic rules:
+In order to ensure your users still have access to all their important files, our app automatically makes a decision on which user owns a folder when multiple users have conflicting views.
 
-1. When a folder in the root of a user's /My Drive conflicts with a folder in another user's /My Drive/subfolder, the subfolder always will win. Root folders never take priority over a subfolder during a conflict.
-2. If a folder, which exists as a subfolder, is in different locations for different users, our app transfers ownership of the entire folder and all of its contents to the higher priority user, and shares it again with the user that lost the conflict.
+We automatically resolve conflicts between ownership. This will happen on either a scan or a transfer, whichever you perform first.
 
-Here is a visual guide to the pre-scan decision process:
+Users may be scanned in any order. To prioritize conflict resolution please scan users in preferred priority order. Typically customers scan their department heads so they are assigned any ownership conflicts. After that, scanning the rest of your users in any order is statistically just fine.
 
-![Pre-scan decision tree for G Suite](media/prescan-decision-tree-gsuite.png)
+We recommend you always scan first. Once a folder has been assigned, this may not be undone.
 
-### Before and after
+The Google folder assignment process is fairly complicated; however, here are some basic rules:
 
-![G Suite Drive before and after](media/gsuite-before-after.png)
-
-### Security concerns
-
-Because of the nature of G Suite Drive's sharing model, it can open up some security concerns when migrating to Microsoft 365. The problem stems from the idea of negatively setting permissions, for example, sharing a parent folder, then removing permissions from some subfolders. All Microsoft 365 destination subfolders inherit their parent permissions, which could have unintended consequences when performing a migration.
-
-![G Suite Drive perms concerns](media/gsuite-perms-security-concern.png)
-
-In the previous scenario, our app would reapply collaborator permissions to the /Human Resources folder, and all subfolders inside it would inherit those permissions.
-
-### Requirements
-
-To perform a Google pre-scan, our engineers require the following:
-
-- A fully set up migration in our app, with transfers created for all users you want to migrate
-- A full list of all of your users in order of priority:
-  - Single column list of all account emails on your source Google domain (.csv/.xlsx).
-  - Includes all users you are migrating, even if they are non-priority.
-  - Highest priority at the top, lowest priority at the bottom, for example:
-    `ceo@email.com`
-    `manager@email.com`
-    `employee@email.com`
-
-- The migration ID
-  - To get the migration ID:
-    - Find and select **Migration Actions**.
-    - Select **Customize Columns**, and select **Migration ID**.
-    - You'll now be able to see the migration ID appearing in each row. If you refresh the page, this info disappears unless you select **Save Column State**.
-
-![add it customize column](media/add-id-customize-column.png)
-
->[!Important]
->The Google pre-scan must be run before the (counting) scan, otherwise the file counts will not be accurate. A Google pre-scan request could take up to one business day to be fielded, so provide all of the aforementioned info with at least 24 hours notice.
-
+1. The first folder assignment wins ownership. Anyone after that receives editor status in order to maintain access.
+2. If we determine _User A/My Drive/subfolder_ as a permanent location for _User A_, our app copies the entire subfolder and all of its contents to _User A_, therefore giving _User A_ ownership of the entire subfolder. We then share _User A/My Drive/subfolder_ with any collaborators.
+3. A folder can be "orphaned" by not existing in a My Drive. It can also be orphaned if it exists in a My Drive at the root, but is not owned by that user, and it doesn't exist in anyone else's My Drive including the Owner. **Orphaned items are very rare, and they will not be migrated!**
 
 ## Authorizing G Suite Drive (Administrator)
 
 To authorize or add a **G Suite Drive** account as a **Connector**, follow these simple steps:
 
->[!Important]
->You must be a G Suite Administrator.
+> [!Important]
+> You must be a G Suite Administrator.
 
 1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
 2. Select **Apps**, and then select **Marketplace Apps**.
 3. Near the top right, to add a new app, select **+**, and search for **Mover**.
->[!Important]
->When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
+    > [!Important]
+    > When our app opens in a new tab/window, to verify that you are viewing the Marketplace using your admin Google account, at the top right, select the **account** icon.
 4. Select **Domain Install**, and then select **Continue**.
 5. Select the checkbox stating you agree to the **Terms of Use**, and then select **Accept**.
 6. Select **Next**. To close the overlay window, select **Done**.
-You should see our app installed amongst any other third-party apps you have. If it does not appear, simply refresh the page.
+    You should see our app installed amongst any other third-party apps you have. If it does not appear, simply refresh the page.
 
-We now have access to your users and their data, so we can move on to **Connector** authorization.
+    We now have access to your users and their data, so we can move on to **Connector** authorization.
 
-![google marketplace](media/google_marketplace.gif)
+    ![google marketplace](media/google_marketplace.gif)
 
 7. After install, select **our app**, and ensure that you grant Data Access. This is an extra security step required by G Suite.
 
-![grant data access g suite](media/grant-data-access-g-suite-admin.png)
+    ![grant data access g suite](media/grant-data-access-g-suite-admin.png)
 
 8. In the **Transfer Wizard**, select **Authorize New Connector**.
 
-![clear auth](media/clear_auth.png)
+    ![clear auth](media/clear_auth.png)
 
 9. In the **Connector** list, find **G Suite (Administrator)**.
 10. Select **Authorize**.
 11. A new window (tab) opens. Name your Connector <optional>.
 
-![name connector gdrive](media/name-connector-google-drive.png)
+    ![name connector gdrive](media/name-connector-google-drive.png)
 
 12. Select **Authorize** again.
 13. If you are not logged in, to sign in, use your Google credentials.
 
-![login to grant access to gdrive](media/log-in-to-grant-access-to-google-drive.png)
+    ![login to grant access to gdrive](media/log-in-to-grant-access-to-google-drive.png)
 
 14. To grant our app access to your G Suite (Administrator) Account, select **Allow**.
 
-![grant access to gdrive](media/grant-access-to-google-drive.png)
+    ![grant access to gdrive](media/grant-access-to-google-drive.png)
 
 ## Troubleshooting a G Suite (Administrator) connector
 
@@ -207,4 +184,3 @@ Our app requires a Global Admin for authorization. The following table provides 
 |View domains related to your customers    |View domain aliases and multi-domains (secondary domains) for your customers.|
 |View and manage the provisioning of groups on your domain    |Provision and modify groups on your domain, as well as view and modify details and metadata of groups on your domain.|
 |View users on your domain    |View basic details and metadata of users on your domain.|
-

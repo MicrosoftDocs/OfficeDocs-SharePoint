@@ -28,13 +28,34 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.3](https://aka.ms/spmt-beta-page) |[3.4.119.2](https://aka.ms/spmt-ga-page)|[3.4.119.2](https://aka.ms/spmt-ga-page) |[3.4.119.2](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.5](https://aka.ms/spmt-beta-page) |[3.4.119.4](https://aka.ms/spmt-ga-page)|[3.4.119.3](https://aka.ms/spmt-ga-page) |[3.4.119.3](https://aka.ms/spmt-ga-page)|
 
-
-
-### SPMT Public Preview  (3.4.119.3)
+### SPMT Public Preview  (3.4.119.5)
 
 The following features are now available in the public preview version of the SharePoint Migration Tool.
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|List URL|The original List URL end part format will now be preserved in the destination. 
+
+
+### SPMT 3.4.119.4
+
+The following features were added to the SharePoint Migration Tool in this release:
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+### SPMT 3.4.119.3
+
+The following features were added to the SharePoint Migration Tool in this release:
 
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -49,8 +70,7 @@ The following features are now available in the public preview version of the Sh
 
 ### SPMT 3.4.119.2
 
-
-The following features are now available in the public preview version of the SharePoint Migration Tool.
+The following features were added to the SharePoint Migration Tool in this release:
 
 |**Feature**|**Description**|
 |:-----|:-----|

@@ -17,7 +17,7 @@ description: "Mover - reviewing users before migration"
 
 ## Checking paths
 
-Confirm that the users in the source match the users in the Microsoft 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
+Confirm that the users in the source match the users in the Office 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
 
 ## Editing
 
@@ -36,7 +36,7 @@ To edit a user destination entry:
 
 1. To select a user row, on the left side of a row, select the respective checkbox.
 2. On the right and directly above the user rows, find **User Actions**, or right-click the user row for which you want to edit the destination path.
-3. A new side panel opens, enabling you to edit the Microsoft 365 destination path.
+3. A new side panel opens, enabling you to edit the Office 365 destination path.
 4. To select your parent destination path, double-click it. To complete your edit, select **Save**.
 
 ![Edit destination user](media/edit-destination-user.png)
