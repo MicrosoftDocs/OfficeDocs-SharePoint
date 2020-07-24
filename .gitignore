@@ -6,5 +6,8 @@ _themes*/
 .vs/
 common/
 .vscode/
+*.ini
+.DS_Store
+*.db
 
 .openpublishing.buildcore.ps1
