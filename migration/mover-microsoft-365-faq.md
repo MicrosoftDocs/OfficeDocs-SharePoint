@@ -50,8 +50,8 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 |Azure Blob Storage|No|No|Containers: No</br>Folders: No</br>Files: Yes|No|No||
 |Box (co-admin)|Yes|Yes|Yes|Yes|Yes|Box Notes are converted to Word documents.|
 |Box (single user)|Yes|Yes|Yes|Yes|Yes|Box Notes are converted to Word documents.|
-|Dropbox (single user)|No|No|Folders: No</br>Files: Yes|No|No|We have a feature request to get the timestamp and authorship information out of Dropbox. |
-|Dropbox Business (admin)|No|No|Folders: No</br>Files: Yes|No|Yes|We have a feature request to get the timestamp and authorship information out of Dropbox|
+|Dropbox (single user)|No|No|Folders: No</br>Files: Yes|No|No|We have a feature request to get </br>the timestamp and authorship information out of Dropbox. |
+|Dropbox Business (admin)|No|No|Folders: No</br>Files: Yes|No|Yes|We have a feature request to get</br> the timestamp and authorship information out of Dropbox|
 |Egnyte|No|Yes|Folders: No</br>Files: Yes|No|Yes||
 |G Suite (Admin)|Yes|Yes|Yes|No|Yes||
 |Google cloud storage|Buckets: Yes</br>Folders: No</br>Files: Same as modified date|No|Buckets: No</br>Folders: No</br>Files: Yes|No|No||
