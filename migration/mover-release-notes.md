@@ -16,9 +16,11 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
-## Backend v1.19.1 (July 22, 2020)
+## Backend v1.19.2 (July 31, 2020)
 
 Migration Report improvements and bug fixes.
+
+- When authorizing the G Suite Admin source connector, the template showed the prescan warning. As prescan is no longer needed due to its integration into the regular scan and transfer process, the warning from the connector authorization template in the UI has been removed.
 
 - When authorizing or re-authorizing an Office 365 connector, a picker will show accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they are already logged into Microsoft.
 

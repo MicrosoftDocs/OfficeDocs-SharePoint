@@ -40,16 +40,26 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 
 ![Turn this into this](media/turnthis-intothis-dropbox.png)
 
-## Are timestamps preserved?
+## What metadata is preserved in migrations into Office 365?
 
-The original timestamps are preserved when migrating into Microsoft 365.
 
->[!Note]
->Timestamps are only applied to files/data transferred, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
+|Source Connector|Creation date|Created by user|File modified date|Last modified by (user)|Folder permissions|Notes|
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|Agent|No|No|Yes|No|Yes||
+|Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|Yes|Yes|No|No||
+|Azure Blob Storage|No|No|Yes|No|No||
+|Box (co-admin)|Yes|Yes|Yes|Yes|Yes|Box Notes are converted to Word documents.|
+|Box (single user)|Yes|Yes|Yes|Yes|Yes|Box Notes are converted to Word documents.|
+|Dropbox (single user)|No|No|Yes|No|No|We have a feature request to get the timestamp and authorship information out of Dropbox.|
+|Dropbox Business (admin)|No|No|Yes|No|Yes|We have a feature request to get the timestamp and authorship information out of Dropbox.|
+|Egnyte|No|Yes|Yes|No|Yes||
+|G Suite (Admin)|Yes|Yes|Yes|No|Yes||
+|Google cloud storage|Buckets: Yes</br>Folders: No</br>Files: Same as modified date|No|Yes|No|No||
+|Google drive (Single user)|Yes|Yes|Yes|No|No||
+|Office 365 (OneDrive/SharePoint admin)|Yes|Yes|Yes|Yes|Yes ||
+|OneDrive Consumer|Yes|Yes|Yes|Yes|No||
+|OneDrive for Business (Single user)|Yes|Yes|Yes|Yes|No||
 
-## Is file authorship preserved?
-
-When migrating content into Microsoft 365, the *modified by* author is preserved. However, the *created by* is changed to the user.
 
 ## Does the Mover app interact with the sync client in OneDrive for Business?
 
