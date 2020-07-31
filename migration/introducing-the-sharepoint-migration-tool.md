@@ -26,7 +26,7 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 
 **SPMT** lets you migrate content to SharePoint and OneDrive from the following locations:
 
-- SharePoint Server 2016 (Public Preview)
+- SharePoint Server 2016
 - SharePoint Server 2013
 - SharePoint Foundation 2013
 - SharePoint Server 2010

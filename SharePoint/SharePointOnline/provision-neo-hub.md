@@ -45,7 +45,7 @@ Based on our research, 69% of employees are more likely to stay with a company f
 | Provide new employee experiences and information      | Connect new employees to people and culture     | Help stakeholders easily contribute to new employee onboarding  | Measure effectiveness of new employee onboarding
 | :------------------- | :------------------- |:----------------|
 | Sense of place       | Pre-onboarding       | Departmental and team onboarding |  Value realization
-| Onboarding journey   | Social connections and live events  | Easy to create and maintain compeling content experiences     | Example model for KPIs
+| Onboarding journey   | Social connections and live events  | Easy to create and maintain compelling content experiences     | Example model for KPIs
 
 
 
@@ -75,7 +75,7 @@ To deliver a consistent and integrated new hire onboarding experience the Micros
 
 
 ## Step 1: Provision NEO hub
-The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **Microsoft 365 global admin** can start the provisioning process with a few steps. The whole process takes about 15 minutes to proviion. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+The New Employee Onboarding (NEO) hub can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **Microsoft 365 global admin** can start the provisioning process with a few steps. The whole process takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
 
 ### Prerequisites
