@@ -9,7 +9,7 @@
     {
         "source_path": "sharepoint/sharepointserver/sharepoint-updates.md",
         "redirect_url": "https://docs.microsoft.com/officeupdates/sharepoint-updates",
-        "redirect_document_id": false
+        "redirect_document_id": true
      }, 
      {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/create-a-user-mapping-file-for-data-content-migration.md",
