@@ -43,7 +43,7 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 ## What metadata is preserved in migrations into Office 365?
 
 
-|Source Connector|Creation date|Created by user|Modified date|Last modfied by (user)|Folder permissions|Notes|
+|Source Connector|Creation date|Created by user|Modified date|Last modified by (user)|Folder permissions|Notes|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Agent|No|No|Yes|No|Yes||
 |Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|Buckets: No</br> Folders: No</br>Files: Yes|No|No||
