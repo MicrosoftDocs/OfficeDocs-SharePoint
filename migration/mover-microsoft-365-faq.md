@@ -61,8 +61,6 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 |OneDrive for Business (Single user)|Yes|Yes|Yes|Yes|No||
 
 
-
-
 ## Does the Mover app interact with the sync client in OneDrive for Business?
 
 We do not interact with the sync client in **OneDrive for Business**. Before a migration, We recommend disabling it. If you use it during a migration, it tries to sync all the migrating data.
