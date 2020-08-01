@@ -173,7 +173,7 @@
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-sandbox-solution.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-sandbox-solution",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-secure-store.md",
