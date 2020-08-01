@@ -13,22 +13,22 @@
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/create-a-user-mapping-file-for-data-content-migration.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/create-a-user-mapping-file-for-data-content-migration",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/how-the-sharepoint-migration-tool-works.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/how-the-sharepoint-migration-tool-works",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/how-to-format-your-csv-file-for-data-content-migration.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/how-to-use-the-sharepoint-migration-tool.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/how-to-use-the-sharepoint-migration-tool",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/migrate-to-sharepoint-online.md",
@@ -38,42 +38,42 @@
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/introducing-the-sharepoint-migration-tool.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migrate-to-sharepoint-online.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-alerts.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-alerts",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-apps.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-apps",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-bcs.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-bcs",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-browser-file-handling.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-browser-file-handling",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-checked-out-files.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-checked-out-files",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-customized-pages.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-customized-pages",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-customized-profile-pages.md",
