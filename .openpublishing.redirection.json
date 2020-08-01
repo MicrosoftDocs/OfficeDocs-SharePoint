@@ -228,52 +228,52 @@
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/sharepoint-migration-assessment-toolscan-reports-roadmap.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/sharepoint-migration-assessment-toolscan-reports-roadmap",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/sharepoint-migration-identity-mapping-tool.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/sharepoint-migration-identity-mapping-tool",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/sharepoint-migration-identity-mapping-active-directory-identity-scan.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/sharepoint-migration-identity-mapping-active-directory-identity-scan",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/sharepoint-migration-supported-list-templates.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/sharepoint-migration-supported-list-templates",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/sharepoint-online-and-onedrive-migration-speed.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/sharepoint-online-provided-azure-containers-and-queues-for-spo-migration-api",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/understanding-permissions-when-migrating.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/understanding-permissions-when-migrating",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/using-the-sharepoint-migration-tool-reports.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/using-the-sharepoint-migration-tool-reports",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md",
@@ -368,12 +368,12 @@
     {
       "source_path": "sharepoint/sharepointonline/secure-extranet-site.md",
       "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointonline/create-external-business-sharing-site.md",
       "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointonline/plan-b2b-extranet-sites.md",
