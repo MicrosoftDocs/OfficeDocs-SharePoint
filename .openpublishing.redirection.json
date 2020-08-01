@@ -78,97 +78,97 @@
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-customized-profile-pages.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-customized-profile-pages",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-custom-permission-level.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-custom-permission-level",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-custom-profile-property-mappings.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-custom-profile-property-mappings",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-email-enabled-lists.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-email-enabled-lists",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-external-list.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-external-list",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-file-versions.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-file-versions",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-full-trust-component-results.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-full-trust-component-results",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-infopath.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-infopath",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-irm-enabled-lists.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-irm-enabled-lists",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-large-excel-files.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-excel-files",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-large-lists.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-lists",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-large-list-views.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-list-views",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-large-sites.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-large-sites",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-locked-sites.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-locked-sites",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-long-onedrive-urls.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-long-onedrive-urls",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-managed-metadata-columns.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-managed-metadata-columns",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-master-pages.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-master-pages",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scanpublishing-pages.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scanpublishing-pages",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-publishing-sites.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-publishing-sites",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-sandbox-solution.md",
@@ -178,52 +178,52 @@
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-secure-store.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-secure-store",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-site-template-language.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-site-template-language",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-unsupported-site-templates.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-unsupported-site-templates",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-web-application-policies.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-web-application-policies",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-workflow-associations-2010.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-workflow-associations-2010",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-workflow-associations-2013.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-workflow-associations-2013",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-workflow-running-solutions-2010.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-workflow-running-solutions-2010",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/migration-assessment-scan-workflow-running-solutions-2013.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/migration-assessment-scan-workflow-running-solutions-2013",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/new-and-improved-features-in-the-sharepoint-migration-tool.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/new-and-improved-features-in-the-sharepoint-migration-tool",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/overview-of-the-sharepoint-migration-assessment-tool.md",
       "redirect_url": "https://docs.microsoft.com/sharepointmigration/overview-of-the-sharepoint-migration-assessment-tool",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "sharepoint/sharepointserver/migrate-to-sharepoint-online/sharepoint-migration-assessment-toolscan-reports-roadmap.md",
