@@ -63,7 +63,7 @@ For the steps to delete a user in the Microsoft 365 admin center, see [Delete a 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443). After the file downloads, run it and follow the steps in the Setup Wizard.
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
@@ -113,14 +113,14 @@ You'll have to browse to each site collection that the user or guest visited, an
 3. Run the following command:
 
    ```PowerShell
-   Remove-SPOUser -Site https://fabrikam.sharepoint.com -LoginName jondoe_fabrikam.com#EXT#@fabrikam.onmicrosoft.com
+   Remove-SPOUser -Site https://fabrikam.sharepoint.com -LoginName jondoe@fabrikam.com
    ```
    > [!NOTE]
-   >  Replace the _jondoe_fabrikam.com#EXT#@fabrikam.onmicrosoft.com_ placeholder with the person in question.  
+   >  Replace the _jondoe@fabrikam.com_ placeholder with the person in question.  
 
 ## Clear browser history
 
-SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607/microsoft-edge-view-delete-browser-history).
+SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607).
 
 When you clear the browser history, make sure that you also select to clear cookies and website data.
 
