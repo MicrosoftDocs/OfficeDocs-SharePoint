@@ -3,7 +3,7 @@ title: "SharePoint Migration Identity Mapping Tool SharePoint Identity Scan"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 01/5/2018
 audience: ITPro
 f1.keywords:

@@ -3,7 +3,7 @@ title: "Migration Assessment Scan Unsupported Site Templates"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 9/13/2017
 audience: ITPro
 f1.keywords:

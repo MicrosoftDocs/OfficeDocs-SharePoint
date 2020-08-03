@@ -2,7 +2,7 @@
 title: Mover migration - Troubleshoot Office 365 connector
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
