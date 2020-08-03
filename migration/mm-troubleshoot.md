@@ -3,7 +3,7 @@ title: "Troubleshooting Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

@@ -3,7 +3,7 @@ title: "Use PowerShell cmdlets to migrate on-premises content - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

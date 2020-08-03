@@ -3,7 +3,7 @@ title: "Prerequisites and Endpoints for SharePoint Migration Tool"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

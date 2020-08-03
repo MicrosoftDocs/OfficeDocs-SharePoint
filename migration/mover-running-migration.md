@@ -1,7 +1,7 @@
 ---
 title: Running the Mover migration
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online

@@ -2,7 +2,7 @@
 title: "SharePoint Server Team Sites Migration Guide"
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.audience: ITPro
 f1.keywords:
 - NOCSH

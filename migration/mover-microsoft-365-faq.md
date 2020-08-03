@@ -1,4 +1,17 @@
-
+---
+title: Mover Microsoft 365 Migration FAQ
+author: JoanneHendrickson
+manager: serdars
+audience: ITPro
+ms.topic: article
+ms.service: sharepoint-online
+localization_priority: Priority
+ms.collection: 
+- SPMigration
+- M365-collaboration
+search.appverid: MET150
+description: "Frequently asked questions when using Microsoft Mover to migrate to Microsoft 365."
+---
 # Microsoft 365 FAQ
 
 ## Unsupported files and characters

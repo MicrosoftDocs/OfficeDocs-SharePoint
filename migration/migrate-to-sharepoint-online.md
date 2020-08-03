@@ -3,7 +3,7 @@ title: "Migrate to Microsoft 365"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

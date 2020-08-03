@@ -3,7 +3,7 @@ title: "SharePoint Migration Tool for SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

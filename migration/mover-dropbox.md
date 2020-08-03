@@ -2,7 +2,7 @@
 title: Authorizing the Dropbox Connector
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
