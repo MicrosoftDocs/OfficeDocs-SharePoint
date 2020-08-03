@@ -64,7 +64,7 @@ Make sure you've rebooted and tested your WFEs before you take either out of the
 > [!IMPORTANT]
 > Side-by-side functionality, previously enabled with the below script, has been enabled regardless of the 'enableSideBySide' value as of [KB3178672](https://support.microsoft.com/help/3178672) (March 2017 update) for SharePoint Server 2016 and above.
 >
-> For SharePoint Server 2016 farms without KB3178672 or higher applied, side-by-side functionality can be applied with the following PowerSHell:
+> For SharePoint Server 2016 farms without KB3178672 or higher applied, side-by-side functionality can be applied with the following PowerShell scripts:
 >
 > `$webapp = Get-SPWebApplication <webappURL>`  
 > `$webapp.WebService.EnableSideBySide = $true`  
