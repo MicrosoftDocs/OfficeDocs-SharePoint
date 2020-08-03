@@ -1,7 +1,7 @@
 ---
 title: Mover Release Notes
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
