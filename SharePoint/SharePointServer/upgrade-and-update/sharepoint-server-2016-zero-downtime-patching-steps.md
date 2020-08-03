@@ -60,14 +60,18 @@ For the most part, everything you do on one side of the line (to the 01 servers)
 > General information on Software Updates for SharePoint Server 2016 can be found [here](/SharePoint/upgrade-and-update/software-updates-overview). Notice that the article links out to documentation on [permissions settings](/SharePoint/install/account-permissions-and-security-settings-in-sharepoint-server-2016) for SharePoint Server 2016. Review these articles as needed, and remember that part of patching involves database updates. If you've changed SQL Server permissions for SharePoint accounts post-installation, for example, you'll need to review these articles.
   
 Make sure you've rebooted and tested your WFEs before you take either out of the load balancer to avoid situations where the WFE to be patched first is taken out of rotation, and other WFEs don't handle the resulting load. All servers in the farm should be fresh from a reboot and healthy before you patch. Also, consider stopping Search crawls and Profile Imports during the upgrade or patch window.
-  
+
 > [!IMPORTANT]
-> You should enable the side-by-side file copy process before you Upgrade. Running in side-by-side ensures that all the web front ends in the farm serve the same static content during the upgrade, even if static files on a given WFE are being upgraded or replaced. Side-by-side is built in to PSCONFIG but must be enabled. This feature makes sure users have the same experience of the sites when browsing SharePoint and working on their files, even while file-system files are being changed and updated.  
-> To enable side-by-side upgrade capabilities, you will need to open SharePoint 2016 Management Shell and run the following commands on all your SharePoint servers:  
+> Side-by-side functionality, previously enabled with the below script, has been enabled regardless of the 'enableSideBySide' value as of [KB3178672](https://support.microsoft.com/help/3178672) (March 2017 update) for SharePoint Server 2016 and above.
+>
+> For SharePoint Server 2016 farms without KB3178672 or higher applied, side-by-side functionality can be applied with the following PowerShell scripts:
+>
 > `$webapp = Get-SPWebApplication <webappURL>`  
 > `$webapp.WebService.EnableSideBySide = $true`  
-> `$webapp.WebService.update()`  
-> Please note that administrators can opt out of side-by-side by setting the 'enableSideBySide' value to $false. Be aware that this could impact what users see when browsing. They may see upgraded UI in one browse, and not, in another, or may experience issues if, for example, javascript files are being changed or upgraded at the time of their browse.
+> `$webapp.WebService.update()`
+>
+> Running in side-by-side ensures that all the web front ends in the farm serve the same static content during the upgrade, even if static files on a given WFE are being upgraded or replaced. Side-by-side is built in to PSCONFIG but must be enabled. This feature makes sure users have the same experience of the sites when browsing SharePoint and working on their files, even while file-system files are being changed and updated.
+
   
 ### Phase 1 - Patch install
 
