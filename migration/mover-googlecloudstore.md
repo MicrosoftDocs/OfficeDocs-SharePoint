@@ -1,7 +1,7 @@
 ---
 title: Mover migration - setting up the Google Cloud store connector
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online

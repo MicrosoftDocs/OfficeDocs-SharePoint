@@ -2,7 +2,7 @@
 title: Migrating OneNote folders with SPMT
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

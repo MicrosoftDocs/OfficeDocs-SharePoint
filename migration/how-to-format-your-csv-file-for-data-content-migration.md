@@ -3,7 +3,7 @@ title: "Format JSON or CSV for data content migration - SharePoint"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

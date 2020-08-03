@@ -3,7 +3,7 @@ title: "SharePoint-provided Azure containers and queues for SharePoint Migration
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 7/18/2017
 audience: ITPro
 f1.keywords:
