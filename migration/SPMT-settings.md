@@ -90,7 +90,8 @@ The following table details the settings available in SPMT.  Advanced settings s
 >This feature is supported only for *General Purpose storage accounts* as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.
 
 >[!Important]
->**Cost:** If you choose to use your own Azure storage, be aware that you will be incur outbound Azure storage costs and will be billed according to your migration size. 
+>**Cost:**
+>If you choose to use your Azure storage, be aware that you will incur outbound Azure storage costs. Charges will be billed based on your migration size.
    
 ## Related topics
 
