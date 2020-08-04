@@ -213,10 +213,15 @@ For each submitted job, the Invoke cmdlet returns these properties as part of a 
     
 - Encryption: Encryption key and method used during uploading the content to Azure. This is required when you decrypt the queue messages and import logs.
     
-If you're using your own Azure storage account, to upload content into your storage, use  *Set-SPOMigrationPackageAzureSource*  and  *Submit-SPOMigrationJob*. 
+If you're using your own Azure storage account to upload content into your storage, use  *Set-SPOMigrationPackageAzureSource*  and  *Submit-SPOMigrationJob*. 
   
 [Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
-  
+
+
+>[!Important]
+>**Cost:**</br>
+>If you choose to use your Azure Storage, be aware that you could incur Bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/en-us/pricing/details/bandwidth/).
+ 
 ## (Optional) Step 7: Processing and monitoring your SharePoint migration
 <a name="step7monitoring"> </a>
 
