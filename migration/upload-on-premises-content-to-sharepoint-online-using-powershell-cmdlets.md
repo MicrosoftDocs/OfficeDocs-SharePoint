@@ -220,7 +220,7 @@ If you're using your own Azure storage account to upload content into your stora
 
 >[!Important]
 >**Cost:**</br>
->If you choose to use your Azure Storage, be aware that you could incur Bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/en-us/pricing/details/bandwidth/).
+>If you choose to use your Azure Storage, be aware that you could incur Bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
  
 ## (Optional) Step 7: Processing and monitoring your SharePoint migration
 <a name="step7monitoring"> </a>
@@ -303,9 +303,8 @@ EncryptionKey                                       EncryptionMethod
 ## Best Practices and Limitations
 <a name="step7monitoring"> </a>
 
-|||
-|:-----|:-----|
 |**Description** <br/> |**Recommendation** <br/> |
+|:-----|:-----|
 |Package size  <br/> |10-20 GB  <br/> Use -ParallelImport switch for File Share migration which automatically splits the big package into smaller ones.  <br/> |
 |File size  <br/> |2 GB  <br/> |
 |Target size  <br/> |Target site should remain non-accessible to users until migration is complete.  <br/> |
@@ -314,9 +313,8 @@ EncryptionKey                                       EncryptionMethod
 ## Azure Limits
 <a name="step7monitoring"> </a>
 
-|||
-|:-----|:-----|
 |**Resource** <br/> |**Default/Limit** <br/> |
+|:-----|:-----|
 |TB per storage account  <br/> |500 TB  <br/> |
 |Max size of single blob container, table, or queue.  <br/> |500 TB  <br/> |
 |Max number of blob containers, blobs, file shares, tables, queues, entities, or messages per storage account.  <br/> |Only limit is the 500 TB storage account capacity.  <br/> |

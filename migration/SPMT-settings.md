@@ -84,7 +84,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 
 >[!Important]
 >**Cost:**</br>
->If you choose to use your Azure Storage, be aware that you could incur Bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/en-us/pricing/details/bandwidth/).
+>If you choose to use your Azure Storage, be aware that you could incur Bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
 
 
 |**Setting**|**Description**|
