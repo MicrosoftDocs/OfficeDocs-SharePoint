@@ -86,10 +86,10 @@ The following table details the settings available in SPMT.  Advanced settings s
 |:-----|:-----|
 |Use custom Azure storage|If you wish to use your own Azure storage, set this value to **On**.  Enter your account and key, select if you want to enable or disable encryption, and if you want temporary working files to be deleted when migration is complete.|
 
->[Note!] 
+>[!Note] 
 >This feature is supported only for *General Purpose storage accounts* as General Purpose accounts support Azure blobs and queues. This feature is not available for Blob Storage accounts.
 
->[Important!]
+>[!Important]
 >**Cost:** If you choose to use your own Azure storage, be aware that you will be incur outbound Azure storage costs and will be billed according to your migration size. 
    
 ## Related topics
