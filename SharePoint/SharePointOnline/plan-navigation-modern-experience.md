@@ -29,13 +29,16 @@ No matter which framework you are using, you can use the guidance in this docume
 
 This planning guide primarily addresses *site* navigation: the top (communication site and hubs) and left (team site) navigation experiences.
 
+**Communication site navigation**
 ![Communication site navigation example:](media/comm-site-nav-example.png)
 
-![Hub navigation example:](media/hub-nav-example.png)
-
+**Team site navigation**
 ![Team site navigation example:](media/team-site-nav-example.png)
 
-*"When we're observing customers carrying out tasks on websites we notice certain common patterns. For example, we find that when people arrive at a particular site they start by **navigating about 70% of the time**. When people get stuck navigating they may resort to using site search."* -- Gerry McGovern, 31 January 2016
+**Hub navigation**
+![Hub navigation example:](media/hub-nav-example.png)
+
+*"When we're observing customers carrying out tasks on websites we notice certain common patterns. For example, we find that when people arrive at a particular site they start by **navigating about 70% of the time**. When people get stuck navigating they may resort to using site search."* -- Gerry McGovern
 
 ## Why navigation is important
 
