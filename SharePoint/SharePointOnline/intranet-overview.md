@@ -1,8 +1,8 @@
 ---
-title: "Modern intranet roadmap"
+title: "Intelligent intranet roadmap"
 ms.reviewer: 
 ms.author: Holland-ODSP
-author: Holland-ODSP
+author: hokavian
 manager: pamgreen
 audience: Admin
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 description: "Learn about planning and deploying a SharePoint intranet."
 ---
 
-# Modern intranet roadmap
+# Intelligent intranet roadmap
 
 Your intranet might include your organization's main landing page, portals for corporate communications, and individual sites for departments or divisions (like IT or HR). In this article we look at the high-level tasks needed to create and maintain a successful intranet with SharePoint in Microsoft 365.
 
@@ -36,7 +36,7 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 **What you'll learn**:
 
-- Understand, at a high level, the various roles and responsibilities of creating a modern intranet.
+- Understand, at a high level, the various roles and responsibilities of creating a intelligent intranet.
 - See what you can do with SharePoint out-of-the-box sites and web parts.
 - Framework for planning your intranet around strategic business outcomes.
 - Known success factors for creating engaging intranet experiences.
@@ -45,12 +45,12 @@ Whether you're the organization intranet owners, an IT Professional or administr
 
 Intranets are a constant work in progress and are never really considered done. Make sure you have a plan to keep your content relevant, otherwise your intranet will start losing value on the day that you launch. Celebrate your initial launch, plan to monitor and maintain your intranet and its content over time as the organization changes and business goals evolve.
 
-**How to think about a modern vs traditional intranet design**
+**How to think about a intelligent vs traditional intranet design**
 
 The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/sharepoint/intranet-overview) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
 
 
-| Traditional intranet           | Modern intranet                |
+| Traditional intranet           | intelligent intranet                |
 | :----------------------------- | :----------------------------- |
 | Communication primarily through email  | Communication primarily through [SharePoint sites](https://support.office.com/en-us/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) and [community portals](https://support.office.com/en-us/article/video-what-is-yammer-47526868-b136-40cc-a80d-c870eadd9ba5)| 
 | Static information like FAQ| Dynamic information that's community generated in [Yammer](https://support.office.com/en-us/article/Video-What-is-Yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c)| 
@@ -155,7 +155,7 @@ Governance is the set of policies, roles, and processes that control how your or
 
 #### Migrate content from your existing intranet
 
-Your existing intranet may contain content from a variety of sources located on different platforms. A key task in creating your modern SharePoint intranet is determining the state of your existing content and deciding which content to migrate to the new intranet.
+Your existing intranet may contain content from a variety of sources located on different platforms. A key task in creating your intelligent SharePoint intranet is determining the state of your existing content and deciding which content to migrate to the new intranet.
 
 Your current business owners and site owners may be best suited to evaluate if content should be migrated and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. [Mover](https://mover.io) can help you migrate from other cloud providers.
 
@@ -165,7 +165,7 @@ Your current business owners and site owners may be best suited to evaluate if c
 
 #### Customize SharePoint to meet your business needs
 
-With the SharePoint modern experience, you can create an engaging, easy to maintain intranet without the need for customization. We highly recommend using SharePoint default experiences where possible. This will provide easier change management over time.
+With the SharePoint intelligent experience, you can create an engaging, easy to maintain intranet without the need for customization. We highly recommend using SharePoint default experiences where possible. This will provide easier change management over time.
 
 If you do need to customize SharePoint, SharePoint provides Framework solutions, apps, add-ins, and solutions to help you meet your business needs. For more info, see [SharePoint development](https://docs.microsoft.com/sharepoint/dev).
 
@@ -224,7 +224,7 @@ SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience
 
 #### Design the intranet portal page
 
-The [main intranet portal for your organization](home-site.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with a modern portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
+The [main intranet portal for your organization](home-site.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
 The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](https://docs.microsoft.com/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
 
