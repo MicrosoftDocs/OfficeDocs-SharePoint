@@ -35,8 +35,8 @@ Security for us comes in four primary areas:
 
 - [Authorization of the service for a user](#authorization-of-service)
 - [Storage of user authorization information](#storage-of-user-authorization-information)
-- [Protection of our infrastructure from external intrusion](#protection-of-our-infrastructure-from-external-intrusion)
-- [Security of a user’s data as it flows through our system](#security-of-a-users-s-data-as-it-flows-through-our-system)
+- [Protection of our infrastructure from external intrusion](#security-of-infrastructure)
+- [Security of a user’s data as it flows through our system](#user-data-as-it-flows-through-us)
 
 ### Authorization of service
 
