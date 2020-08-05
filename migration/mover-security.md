@@ -38,11 +38,11 @@ Security for us comes in four primary areas:
 - [Protection of our infrastructure from external intrusion](#security-of-infrastructure)
 - [Security of a user’s data as it flows through our system](#user-data-as-it-flows-through-us)
 
-### **Authorization of service**
+### Authorization of service
 
 During the process of authentication with a cloud storage provider or other service, we require the collection of authentication data to be retrieved and stored for later use. There are two primary methods that are used to collect this data, OAuth and Direct password or key collection.
 
-#### OAuth
+##### OAuth
 
 OAuth (Open Authorization) is a web standard which provides a process for end-users to authorize third-party access to their server resources without sharing credentials. More information can be found at:
 
@@ -51,7 +51,7 @@ OAuth (Open Authorization) is a web standard which provides a process for end-us
 
 Although the exact encryption method varies browser by browser, Mover requires strong TLS encryption between Mover and the user for the initial authorization. All our OAuth token exchanges use TLS v1.2 to connect to the authorizing server. OAuth will allow the user to deny Mover access to the third-party service at any time by revoking our token.
 
-#### Direct password or key collection
+##### Direct password or key collection
 
 All password or key collection occurs through our web interface over a secure TLS connection utilizing strong ciphers, generally 256-bit AES or stronger.
 
@@ -67,17 +67,17 @@ These credentials are the key to accessing the customer’s files, and we take s
 
 It is important that our infrastructure is secured from external attacks. The following classes of servers have carefully implemented security policies.
 
-#### Runners
+##### Runners
 
 *Runners* are our servers that move files. Because our services rely on outbound connections, our security policy is straightforward and secure. There is no outside access allowed to these servers. All outbound traffic is pushed through a point firewall, obfuscating the infrastructure behind.
 
 For maintenance, SSH access is allowed through a two stage process. Access to the point firewall utilizing SSH keys only, then from there SSH access to the individual servers only via SSH keys. To further increase security, inbound SSH is only allowed from specific white-listed IP addresses.
 
-#### API servers
+##### API servers
 
 Our API servers, both for our public API and internal API, have a public facing interface. Similar to the Runners, the API servers have SSH management access through a two stage process. The main difference is that our API servers require a public-facing web interface that is completely open. Only TLS web traffic is allowed into this interface. For our internal application API, only authenticated session based traffic is allowed. For our public API, all access is secured through our managed API keys.
 
-#### Web interface
+##### Web interface
 
 All applications by Mover that have a web interface are secured using TLS strong ciphers. User input, including username and passwords, are passed securely to the backend over this encrypted TLS connection, identified by our site-wide 2048-bit TLS certificate.
 
