@@ -88,7 +88,7 @@ See what the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDoc
 Learn more about basic site [building blocks.](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Building%20blocks%20-%20sites%20and%20pages.pdf)
 
 
-## Organizational intranet owners
+## Organization intranet owners
 
 The intranet owners work with business owners and IT to prioritize the intranet projects in your portfolio for the greatest business benefit.
 
@@ -361,5 +361,5 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 [Plan your intranet](https://docs.microsoft.com/sharepoint/plan-intranet)
 
-[Plan your site — get started](https://support.office.com/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
+[Plan your communication site — get started](https://support.office.com/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
 
