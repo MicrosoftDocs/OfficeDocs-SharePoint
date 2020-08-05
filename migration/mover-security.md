@@ -45,8 +45,9 @@ During the process of authentication with a cloud storage provider or other serv
 #### OAuth
 
 OAuth (Open Authorization) is a web standard which provides a process for end-users to authorize third-party access to their server resources without sharing credentials. More information can be found at:
-•	[OAuth - Wikipedia](http://en.wikipedia.org/wiki/OAuth)
-•	[OAuth.net](http://oauth.net/)
+
+- [OAuth (Wikipedia)](http://en.wikipedia.org/wiki/OAuth)
+- [OAuth.net](http://oauth.net/)
 
 Although the exact encryption method varies browser by browser, Mover requires strong TLS encryption between Mover and the User for the initial authorization. All our OAuth token exchanges use TLS v1.2 to connect to the authorizing server. OAuth will allow the user to deny Mover access to the third-party service at any time by revoking our token.
 
