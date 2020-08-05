@@ -15,7 +15,7 @@ description: "Security measures that protect information when migrating and tran
 ---
 # Mover services migration security
 
-Mover Services consist of a highly available infrastructure with the primary purpose of moving files between cloud storage providers. We providesupply a level of service tailored for the customer, and we understand that security and reliability are the most important features. We are dedicated to continually improving, and the practices presented here should be considered the minimum standard of our implementation.
+Mover services consist of a highly available infrastructure with the primary purpose of moving files between cloud storage providers. We understand the importance of security and reliability to our customers, and provide a level of service tailored for each customer. We are dedicated to continually improving, and the practices presented here should be considered the minimum standard of our implementation.
 
 ## Secure Storage & Transfers
 
@@ -33,10 +33,10 @@ Microsoft employees are prohibited from viewing the content of files you transmi
 
 Security for us comes in four primary areas:
 
-1.	Authorization of the service for a user.
-2.	Storage of user authorization information.
-3.	Protection of our infrastructure from external intrusion.
-4.	Security of a user’s data as it flows through our system.
+- Authorization of the service for a user.
+- Storage of user authorization information.
+- Protection of our infrastructure from external intrusion.
+- Security of a user’s data as it flows through our system.
 
 ### Authorization of service
 
