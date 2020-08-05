@@ -44,12 +44,12 @@ During the process of authentication with a cloud storage provider or other serv
 
 ##### OAuth
 
-OAuth (Open Authorization) is a web standard which provides a process for end-users to authorize third-party access to their server resources without sharing credentials. More information can be found at:
+OAuth (Open Authorization) is a web standard which provides a process for end users to authorize third-party access to their server resources without sharing credentials. More information can be found at:
 
 - [OAuth (Wikipedia)](http://en.wikipedia.org/wiki/OAuth)
 - [OAuth.net](http://oauth.net/)
 
-Although the exact encryption method varies browser by browser, Mover requires strong TLS encryption between Mover and the user for the initial authorization. All our OAuth token exchanges use TLS v1.2 to connect to the authorizing server. OAuth will allow the user to deny Mover access to the third-party service at any time by revoking our token.
+Although the exact encryption method varies browser by browser, Mover requires strong TLS encryption between Mover and the user for the initial authorization. All our OAuth token exchanges use TLS 1.2 to connect to the authorizing server. OAuth will allow the user to deny Mover access to the third-party service at any time by revoking our token.
 
 ##### Direct password or key collection
 
@@ -57,15 +57,15 @@ All password or key collection occurs through our web interface over a secure TL
 
 ### Storage of user authorization information
 
-For us to have continual access to the user’s service, we need to store authorization credentials. In the case of OAuth or OAuth-like services such as Box, we store an authorization token which grants us access. 
+For us to have continual access to the user’s service, we need to store authorization credentials. For OAuth or OAuth-like services such as Box, we store an authorization token which grants us access. 
 
-In the case of a direct password or key, such as Amazon S3, we need to store direct authorization credentials.
+If there is a direct password or key, such as Amazon S3, we need to store direct authorization credentials.
 
-These credentials are the key to accessing the customer’s files, and we take special care to secure these properly. All tokens and passwords are encrypted using AES-256, wrapped with both global and user specific encryption keys. This data is then stored in our internal database servers with no outside access.
+These credentials are the key to accessing the customer’s files, and we take special care to secure credentials properly. All tokens and passwords are encrypted using AES-256, wrapped with both global and user-specific encryption keys. This data is then stored in our internal database servers with no outside access.
 
 ### Security of infrastructure
 
-It is important that our infrastructure is secured from external attacks. The following classes of servers have carefully implemented security policies.
+Our infrastructure is secured from external attacks. The following classes of servers have carefully implemented security policies.
 
 ##### Runners
 
@@ -75,7 +75,7 @@ For maintenance, SSH access is allowed through a two stage process. Access to th
 
 ##### API servers
 
-Our API servers, both for our public API and internal API, have a public facing interface. The main difference is that our API servers require a public-facing web interface that is completely open. Only TLS web traffic is allowed into this interface. For our internal application API, only authenticated session based traffic is allowed. For our public API, all access is secured through our managed API keys.
+Our API servers, both for our public API and internal API, have a public facing interface. The main difference is that our API servers require a public-facing web interface that is completely open. Only TLS web traffic is allowed into this interface. For our public API, only authenticated session based traffic is allowed. For our internal application API, all access is secured through our managed API keys.
 
 ##### Web interface
 
@@ -85,4 +85,4 @@ All applications by Mover that have a web interface are secured using TLS strong
 
 During the process of a transfer, all files are downloaded to our Runner servers, located in Microsoft Azure, then processed through to Microsoft 365 Migration APIs. Each step relies on TLS cryptographic protocols.
 
-During mediation process, Mover temporarily maintains a copy of your file on an encrypted file system before it uploads it to Microsoft 365. As soon as the upload of the file has been verified, we immediately remove the file from our cache. We never keep a copy of your data. We simply facilitate the transfer of your data and we have no interest in, or benefit from, retaining your data.
+During mediation process, Mover temporarily maintains a copy of your file on an encrypted file system before it uploads it to Microsoft 365. As soon as the upload of the file has been verified, we immediately remove the file from our cache. We never keep a copy of your data. We facilitate the transfer of your data and we have no interest in, or benefit from, retaining your data.
