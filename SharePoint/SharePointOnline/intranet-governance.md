@@ -207,10 +207,9 @@ If your initial design plan identified key business outcomes or surveyed users t
 
 ### Additional intranet governance resources:
 
-[SharePoint governance overview](https://docs.microsoft.com/en-us/sharepoint/governance-overview)
+[SharePoint governance overview](https://docs.microsoft.com/sharepoint/governance-overview)
 
 [How to think about your modern intranet](https://docs.microsoft.com/sharepoint/trad-vs-modern-intranet)
-
 
 
 
