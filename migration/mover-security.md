@@ -38,7 +38,7 @@ Security for us comes in four primary areas:
 - [Protection of our infrastructure from external intrusion](#security-of-infrastructure)
 - [Security of a user’s data as it flows through our system](#user-data-as-it-flows-through-us)
 
-### Authorization of service
+### **Authorization of service**
 
 During the process of authentication with a cloud storage provider or other service, we require the collection of authentication data to be retrieved and stored for later use. There are two primary methods that are used to collect this data, OAuth and Direct password or key collection.
 
