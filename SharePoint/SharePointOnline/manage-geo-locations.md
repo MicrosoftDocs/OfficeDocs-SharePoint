@@ -24,13 +24,9 @@ description: "In this article, you'll learn where to find geo location features 
 
 # Find geo location features in the new SharePoint admin center
 
-This article covers all the features on the classic geo locations page and where you can find them in the new SharePoint admin center.
-
-In the new SharePoint admin center, you can also add and delete satellite locations. 
+This article covers all the features on the geo locations page in the classic SharePoint admin center and where you can find them on the [Geo locations page](https://admin.microsoft.com/sharepoint?page=geoLocations&modern=true) in the new SharePoint admin center. In the new SharePoint admin center, you can also add and delete satellite locations. 
 
 ## Manage geo locations
-
-To manage geo locations in the new SharePoint admin center, go to the [Geo locations page](https://admin.microsoft.com/sharepoint?page=geoLocations&modern=true).
 
 |**Classic**|**New**|
 |:-----|:-----|
