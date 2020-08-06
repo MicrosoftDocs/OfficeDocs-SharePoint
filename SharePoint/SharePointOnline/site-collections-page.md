@@ -30,9 +30,11 @@ This article covers all the features on the classic site collections page and wh
 
 ## Create a new private site collection
 
+To create a site collection in the new SharePoint admin center, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and then select **Create**. To create a classic site, select **Other options**. 
+
 |**Classic**|**New**|
 |:-----|:-----|
-|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png)<br/> From the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select **Create**. To create a classic site, select **Other options**. |
+|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -40,7 +42,7 @@ This article covers all the features on the classic site collections page and wh
 |Change the URL path to /sites/ or /teams/ <br/> |Site address boxes appear after you begin entering a site name.  <br/> |
 |Web Site Address  <br/> |Site address boxes appear after you begin entering a site name. The name is entered by default as the address. To change it, select the Edit icon.   <br/> |
 |Select a language   <br/> |Select a language   <br/> |
-|Select a template: </br>Community: Team site (classic experience), Blog, Developer site, Project Site, Community Site</br>Enterprise: Document Center, eDiscovery Center, Records Center, Team Site – SharePoint Online configuration, Business Intelligence Center, Compliance Policy Center, My Site Host, Community Portal, Basic Search Center, Visio Process Repository</br>Publishing: Publishing Portal, Enterprise Wiki, Product Catalog </br>Custom:\<Select template later…> |In the **Choose a template** box, you can select **Document Center**, **Enterprise Wiki**, or **Publishing Portal**. To select the others, select **More templates**. This opens the classic **Create Site Collection** window. <br/> |
+|Select a template: </br>**Community**: Team site (classic experience), Blog, Developer site, Project Site, Community Site</br>**Enterprise**: Document Center, eDiscovery Center, Records Center, Team Site – SharePoint Online configuration, Business Intelligence Center, Compliance Policy Center, My Site Host, Community Portal, Basic Search Center, Visio Process Repository</br>**Publishing**: Publishing Portal, Enterprise Wiki, Product Catalog </br>**Custom**: \<Select template later…> |In the **Choose a template** box, you can select **Document Center**, **Enterprise Wiki**, or **Publishing Portal**. To select the others, select **More templates**. This opens the classic Create Site Collection window. <br/> |
 |Time Zone <br/> |Expand **Advanced settings** and select **Time zone**. <br/> |
 |Administrator <br/> |Primary Administrator <br/> |
 |Server Resource Quota <br/> |This setting has not had any effect for more than a year. <br/> |
@@ -48,13 +50,15 @@ This article covers all the features on the classic site collections page and wh
 
 ## Delete
 
-On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Delete**. As with the classic SharePoint admin center, you can’t delete the root site. To use a different top-level site in your organization, [replace your root site](https://docs.microsoft.com/sharepoint/modern-root-site).
+On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Delete**. As with the classic SharePoint admin center, you can’t delete the root (top-level) site. To swap this site with a different site, see [Replace your root site](https://docs.microsoft.com/sharepoint/modern-root-site).
 
 ## Properties
 
+The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.
+
 |**Classic**|**New**|
 |:-----|:-----|
-|![Site collections properties](media/site-collection-properties.png) |![Communication site](media/communication-site.png)<br/> The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.|
+|![Site collections properties](media/site-collection-properties.png) |![Communication site](media/communication-site.png)|
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -68,9 +72,11 @@ On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManag
 
 ## Owners
 
+To change the owners for any site that isn't connected to an Microsoft 365 group, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, select **Permissions** on the command bar, and then select **Manage admins**.
+
 |**Classic**|**New**|
 |:-----|:-----|
-|![Manage administrators](media/manage-administrators.png) |![Manage admins](media/manage-admins.png)<br/> For any sites that aren’t connected to an Microsoft 365 group, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Permissions**, and then select **Manage admins**.|
+|![Manage administrators](media/manage-administrators.png) |![Manage admins](media/manage-admins.png)|
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -80,9 +86,11 @@ On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManag
 
 ## Site collection-level sharing
 
+To change sharing settings for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Sharing** on the command bar.
+
 |**Classic**|**New**|
 |:-----|:-----|
-|![Sharing classic](media/sharing-classic.png) |![Sharing modern](media/sharing-modern.png)<br/>On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Sharing**.|
+|![Sharing classic](media/sharing-classic.png) |![Sharing modern](media/sharing-modern.png)|
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -94,11 +102,11 @@ On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManag
 
 ## Storage quota
 
-These options appear if you use manual site storage limits in your organization. 
+These options appear if you use manual site storage limits in your organization. To change the storage limit for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Storage** on the command bar.
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![Set storage quota](media/set-storage-quota.png)|![Edit storage limit](media/edit-storage-limit.png)<br/> On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and on the command bar, select **Storage**.|
+|![Set storage quota](media/set-storage-quota.png)|![Edit storage limit](media/edit-storage-limit.png)|
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -128,9 +136,11 @@ These features have not been in use for more than a year.
 
 ## Recycle bin
 
+To view your deleted sites, go to the new SharePoint admin center, go to the [Deleted sites page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true).
+
 |**Classic**|**New**|
 |:-----|:-----|
-|![Recycle bin](media/recycle-bin.png) |![Deleted sites](media/deleted-sites.png)<br/> In the new SharePoint admin center, go to the [Deleted sites page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true).|
+|![Recycle bin](media/recycle-bin.png) |![Deleted sites](media/deleted-sites.png)|
 
 |**Classic**|**New**|
 |:-----|:-----|
