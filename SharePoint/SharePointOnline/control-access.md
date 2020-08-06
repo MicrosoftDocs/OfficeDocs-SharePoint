@@ -24,15 +24,13 @@ description: "In this article, you'll learn where to find access control feature
 
 # Find access control features in the new SharePoint admin center
 
-This article covers all the features on the control access page of the classic SharePoint admin center and where to find them in the new SharePoint admin center.
-
-In the new SharePoint admin center, you can also sign out inactive users. [Learn more](sign-out-inactive-users.md)
+This article covers all the features on the control access page in the classic SharePoint admin center and where to find them on the [Access control page](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true) in the new SharePoint admin center. In the new SharePoint admin center, you can also sign out inactive users. [Learn more](sign-out-inactive-users.md)
 
 ## Control access
 
 |**Classic**|**New**|
 |:-----|:-----|
-|![Classic access control](media/classic-access-control.png)|![New access control](media/new-access-control.png) <br/> Go to the [Access control page of the SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).|
+|![Classic access control](media/classic-access-control.png)|![New access control](media/new-access-control.png) <br/> |
 
 |**Classic**|**New**|
 |:-----|:-----|
