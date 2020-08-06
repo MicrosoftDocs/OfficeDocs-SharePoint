@@ -21,7 +21,7 @@ Mover services consist of a highly available infrastructure with the primary pur
 
 The files transmitted through Mover are encrypted using the AES-256 standard. Your files are encrypted as soon as we receive them. We manage the encryption keys.
 
-Mover uses Microsoft Azure for our server infrastructure. You can find more information about Microsoft's security at the [Microsoft Azure website](https://azure.microsoft.com/en-us/).
+Mover uses Microsoft Azure for our server infrastructure. You can find more information about Microsoft's security at the [Microsoft Azure website](https://azure.microsoft.com).
 
 Your files are sent between the services you choose and our servers over a secure channel using TLS 1.2 (Transport Layer Security) encryption, the standard for secure Internet network connections.
 
