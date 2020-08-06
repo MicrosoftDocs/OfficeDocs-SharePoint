@@ -38,6 +38,7 @@
 #### [Plan your migration](mover-plan-migration.md)
 #### [Manage connectors](mover-manage-connectors.md)
 #### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
+#### [Security](mover-security.md)
 ###  Setup your source
 #### [Box](mover-box.md)
 #### [Dropbox](mover-dropbox.md)
