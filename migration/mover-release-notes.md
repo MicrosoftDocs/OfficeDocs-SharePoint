@@ -18,8 +18,6 @@ This article discusses cumulative features and enhancements in the Mover migrati
 
 ## Frontend v1.18.2  (August 6, 2020)
 
-Public Notes:
-
 - While using the App, notifications are sent to let you know if your request has been successful or if an error has occurred. The height and text size of notifications have been increased to improve visibility and awareness.
 
 - A message will display if you are trying to authorize Office 365 with a tenant that lacks SharePoint Online licenses.
