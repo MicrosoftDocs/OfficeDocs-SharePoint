@@ -45,7 +45,7 @@ To create a site collection in the new SharePoint admin center, go to the [Activ
 |Select a template: </br>**Community**: Team site (classic experience), Blog, Developer site, Project Site, Community Site</br>**Enterprise**: Document Center, eDiscovery Center, Records Center, Team Site – SharePoint Online configuration, Business Intelligence Center, Compliance Policy Center, My Site Host, Community Portal, Basic Search Center, Visio Process Repository</br>**Publishing**: Publishing Portal, Enterprise Wiki, Product Catalog </br>**Custom**: \<Select template later…> |In the **Choose a template** box, you can select **Document Center**, **Enterprise Wiki**, or **Publishing Portal**. To select the others, select **More templates**. This opens the classic Create Site Collection window. <br/> |
 |Time Zone <br/> |Expand **Advanced settings** and select **Time zone**. <br/> |
 |Administrator <br/> |Primary Administrator <br/> |
-|Server Resource Quota <br/> |This setting has not had any effect for more than a year. <br/> |
+|Server Resource Quota <br/> |This setting has had no effect for more than a year. <br/> |
 |Private Site Collection with Project Web App <br/> |Create a site and then use the [PowerShell cmdlet Set-SPOSite -EnablePWA](/powershell/module/sharepoint-online/set-sposite) to add or remove Project Web App.  |
 
 ## Delete
@@ -65,14 +65,14 @@ The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?pa
 |Title  <br/> |Site name column  <br/> |
 |Complete Web Site Address link <br/> |URL column shows the path after the domain. You can copy the link to save the full URL to the Clipboard. <br/> |
 |Primary Administrator <br/> |Primary admin column. <br/> |
-|Other Administrators  <br/> |For any sites that aren’t connected to an Office 365 group, select the site, and on the command bar, select **Permissions**, and then select **Manage admins**. (For group-connected sites, you have options for managing group owners and additional admins.) <br/> |
+|Other Administrators  <br/> |For any sites that aren’t connected to a Microsoft 365 group, select the site, and on the command bar, select **Permissions**, and then select **Manage admins**. (For group-connected sites, you have options for managing group owners and additional admins.) <br/> |
 |Number of subsites <br/> |Not available <br/> |
 |Storage Usage <br/> |Storage used (GB) column. <br/> |
-|Resource Usage, Server Resource Quota, Resource Usage Warning Level <br/> |These settings have not been in use for more than a year. <br/> |
+|Resource Usage, Server Resource Quota, Resource Usage Warning Level <br/> |These settings have had no effect for more than a year. <br/> |
 
 ## Owners
 
-To change the owners for any site that isn't connected to an Microsoft 365 group, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, select **Permissions** on the command bar, and then select **Manage admins**.
+To change the owners for any site that isn't connected to a Microsoft 365 group, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, select **Permissions** on the command bar, and then select **Manage admins**.
 
 |**Classic**|**New**|
 |:-----|:-----|
@@ -82,7 +82,7 @@ To change the owners for any site that isn't connected to an Microsoft 365 group
 |:-----|:-----|
 |Primary Site Collection Administrator <br/> |Switch the role of an existing admin to Primary Admin, or add an admin and then switch them to Primary admin. <br/> |
 |Site Collection Administrators <br/> |Use the Add an admin box to add an admin and the Remove button to remove an admin. <br/> |
-|Add Support Partner <br/> |This is available in PowerShell only. Go to the Site Permissions page for a site where you’ve added the support partner. Copy the encoded string for the partner, and to add it to other sites, use the [PowerShell cmdlet Set-SPOUser](/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps). <br/> |
+|Add Support Partner <br/> |This option is available in PowerShell only. Go to the Site Permissions page for a site where you’ve added the support partner. Copy the encoded string for the partner, and to add it to other sites, use the [PowerShell cmdlet Set-SPOUser](/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps). <br/> |
 
 ## Site collection-level sharing
 
@@ -98,7 +98,7 @@ To change sharing settings for a site, go to the [Active sites page](https://adm
 |Default link type <br/> |Default sharing link type <br/> - “Respect default organization setting” is the same as “Same as organization-level setting.”  <br/> - “Direct” is the same as “Specific people.” <br/> - “Internal” is the same as “Only people in your organization.” <br/> - “Anonymous Access” is the same as “Anyone with the link.” <br/>|
 |Default link permission <br/> |“Respect default organization setting” is the same as “Same as organization-level setting.” Both the classic and new admin centers have View and Edit options.  <br/>|
 |Limit external sharing by domain <br/>|Under **Advanced settings for external sharing**, select **Limit sharing by domain**. <br/>|
-|Turn off sharing for all non-owners on all sites in the site collection <br/>|This is available in PowerShell only. Use the cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) -DisableSharingForNonOwners <br/>|
+|Turn off sharing for all non-owners on all sites in the site collection <br/>|This option is available in PowerShell only. Use the cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) -DisableSharingForNonOwners <br/>|
 
 ## Storage quota
 
@@ -119,11 +119,11 @@ In the Microsoft 365 admin center, go to the [Purchase services page](https://go
 
 ## Server resource quota
 
-These settings have not had any effect for more than a year. 
+These settings have had no effect for more than a year. 
 
 ## Upgrade settings and notifications
 
-These features have not been in use for more than a year.
+These features haven't been in use for more than a year.
 
 ## Project Web App
 
@@ -146,7 +146,7 @@ To view your deleted sites, go to the new SharePoint admin center, go to the [De
 |:-----|:-----|
 |Restore Deleted Items <br/> |Select the site, and on the command bar, select **Restore**.  <br/>|
 |Deleted (date)  <br/> |Time deleted column. <br/> |
-|Days remaining  <br/>|This is incorrect in the classic admin center. To calculate this in the new SharePoint admin center, use the Time deleted column. <br/>|
+|Days remaining  <br/>|This info is incorrect in the classic admin center. To calculate this value in the new SharePoint admin center, use the Time deleted column. <br/>|
 
 ## Search by URL
 
@@ -158,7 +158,7 @@ The upper-right corner of the [Active sites page](https://admin.microsoft.com/sh
 
 ## Available resources bar
 
-Server resource quota and availability have not been in effect for more than a year. 
+Server resource quota and availability have had no effect for more than a year. 
 
 ## Project Web App instances available
 
@@ -168,11 +168,11 @@ This information is no longer displayed because you shouldn't need to worry abou
 
 ![Storage columns](media/storage-columns.png)
 
-Most of the sites listed in the classic SharePoint admin center are included on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true). A few are hidden because they are system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that don’t appear in the classic SharePoint admin center. To see the site list as it in the way it appeared in the classic SharePoint admin center, from the **View** menu, select **Classic sites**.  
+Most of the sites listed in the classic SharePoint admin center are included on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true). A few are hidden because they're system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that don’t appear in the classic SharePoint admin center. To see the site list as it in the way it appeared in the classic SharePoint admin center, from the **View** menu, select **Classic sites**.  
 
 In both the classic and new admin centers, you can select multiple sites and bulk edit the sharing or storage settings, or delete the sites.  
 
-In the classic site list, locked sites appear with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel, and at the top, **This site is locked** appears. 
+In the classic site list, locked sites appear with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
 
 If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size. 
 
