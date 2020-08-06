@@ -34,9 +34,9 @@ A SharePoint group is a collection of users who all have the same set of permiss
 ### Create a group
 <a name="__toc340230102"> </a>
 
-1. On your website or team site, click **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and click **Site settings**. If you don't see **Site settings**, click **Site information**, and then click **View all site settings**. On some pages, you may need to click **Site contents**, then click **Site settings**.
+1. On your website or team site, click **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and click **Site permissions**.
     
-2. On the **Site Settings** page, under **Users and Permissions**, click **Site Permissions**.
+2. On the **Permissions** page, click **Advanced Permissions Settings**.
   
 The permissions page opens.
     

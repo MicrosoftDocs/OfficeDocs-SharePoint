@@ -20,23 +20,45 @@ description: "Learn how to configure the new OneDrive sync app (OneDrive.exe) fo
 
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
    
-When you deploy SharePoint Server 2019 in your organization, your users can sync their OneDrive files as well as SharePoint team site files by using the new OneDrive sync app (OneDrive.exe) for Windows. Compared with the previous OneDrive sync app (Groove.exe), the new sync app provides:
+When you deploy SharePoint Server 2019 in your organization, your users can sync their OneDrive files as well as SharePoint team site files by using the new OneDrive sync app (OneDrive.exe) for Windows or Mac. Compared with the previous OneDrive sync app (Groove.exe), the new sync app provides:
 - Improved performance and reliability
 - Files On-Demand
 - Support for larger files
 - Higher sync limits
-- The ability to silently deploy
-If your users are already syncing document libraries with the previous OneDrive sync app, they will transition to the new sync app automatically.
+- The ability to silently deploy. If your Windows users are already syncing document libraries with the previous OneDrive sync app, they will transition to the new sync app automatically.
+- Mac support
     
 ## Requirements
 
-1. Install SharePoint Server 2019
+1. Install SharePoint Server 2019.
+
 2. Install the OneDrive sync app ([download](https://go.microsoft.com/fwlink/p/?LinkId=248256)). For deployment info, see:
 
     - [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/onedrive/deploy-on-windows)
     - [Deploy OneDrive apps by using Intune](/onedrive/deploy-intune)
     - [Deploy and configure the new OneDrive sync app for Mac](/onedrive/deploy-and-configure-on-macos)
+    
+3. [Configure OneDrive for SharePoint Server 2019](new-onedrive-sync-client.md#Configure-OneDrive-for-SharePoint-Server-2019).
   
+## Recommendations
+
+### 1. Allow WNS Traffic
+
+For the best user experience, SharePoint Server 2019 will send change notifications to sync clients via WNS web push notifications. This feature ensures sync users quickly have the latest copies of any SharePoint Server file updates. You may need to take steps to ensure outbound requests from your SharePoint Server and your user's sync client computers can reach and properly interact with the WNS service.
+
+For SharePoint Server:
+  - Allow outbound HTTPS connection to reach \*.notify.windows.com
+  
+For OneDrive Sync client computers:
+  - Allow outbound TLS encrypted TCP/IP socket connection to reach \*.wns.windows.com
+  - Avoid HTTPS decryption for \*.wns.windows.com on your proxy server as this likely will disconnect the socket connection.
+  
+If either the SharePoint Server or the OneDrive sync client is unable to communicate with the WNS service then the sync client will fall back to polling the SharePoint Server roughly every two minutes looking for changes.  As a result, your users may see delays of more than two minutes from the time of a server change to when the sync client downloads the changed file.
+
+### 2. Opt-in to Sharing Improvement Information
+
+When configuring the SharePoint server you have the option to enable sharing of improvement information with Microsoft. Enabling this opts connected sync clients into sending troubleshooting information. This allows the sync client team to proactively detect and correct problems, respond to customer reported problems, and improve the product over time. If this is disabled, customer escalations are harder to investigate and will require the customer to manually gather and provide logs from the impacted sync client machines.
+
 ## Configure OneDrive for SharePoint Server 2019
 
 To set up OneDrive with SharePoint Server 2019, you can either use Group Policy or set the registry keys directly. 
@@ -52,14 +74,14 @@ Configure the following two Group Policy objects to configure OneDrive to be use
   
 **Specify SharePoint Server URL and organization name**
 
-The URL will help the sync app locate the SharePoint Server and allows the sync app to authenticate and set up sync.
-The organization name lets you specify the name of the root folder that will be created in File Explorer. If you don't supply an organization name, the sync app will use the first segment of the URL as the name. For example, office.sharepoint.com would become "office".
+The URL (SharePointOnPremFrontDoorUrl) is used by the sync app to authenticate the user and to set up syncing of the user's SharePoint Server hosted personal OneDrive site.
+The organization name (SharePointOnPremTenantName) lets you specify the name of the root folder that will be created in File Explorer. If you don't supply an organization name, the sync app will use the first segment of the URL as the name. For example, office.sharepoint.com would create the folder "office".
 
 **Specify the OneDrive location in a hybrid environment**
 
-This setting lets you specify if the sync app should authenticate against SharePoint in Microsoft 365 or the SharePoint on-premises server if the identity exists in both identity providers.
+This setting (SharePointOnPremPrioritization) lets you specify if the sync app should first set up a sync relationship with SharePoint in Microsoft 365 (the default) or the SharePoint on-premises server if the user identity exists in both identity providers. The sync application's Settings dialog can be used to "Add Account" the same identity for the other SharePoint realm after the first has been configured (if the user identity exists in both).
 
-You should be able to find these Group Policy objects using the Group Policy Editor (gpedit.msc) when navigating to Computer Configuration\Administrative Templates\OneDrive. If the OneDrive folder is not present, you can add the OneDrive Group Policy template by coping the following two files from the OneDrive installation folder after you have installed the latest OneDrive sync app on that computer:
+You should be able to find these Group Policy objects using the Group Policy Editor (gpedit.msc) when navigating to Computer Configuration\Administrative Templates\OneDrive. If the OneDrive folder is not present, you can add the OneDrive Group Policy template by copying the following two files from the OneDrive installation folder after you have installed the latest OneDrive sync app on that computer:
 
 - C:\Users\\*username*\AppData\Local\Microsoft\OneDrive\\*onedrivesyncclientversion*\adm\OneDrive.admx
 to
@@ -82,20 +104,20 @@ More information:
 
 Alternatively, you can also directly configure the following underlying registry keys:
 
-|**Key**|**Type**|**Value**|
-|:-----|:-----|:-----|
-|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremPrioritization|DWORD (32-bit)|1|
-|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremFrontDoorUrl|String|https://sharepoint.contoso.local|
-|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremTenantName|String|Contoso|
+| Key | Type | Value | Required |
+|:-----|:-----|:-----|:-----|
+|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremFrontDoorUrl|String|https://sharepoint.contoso.local|required|
+|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremPrioritization|DWORD (32-bit)|1|optional|
+|HKLM:\\Software\Policies\Microsoft\OneDrive\SharePointOnPremTenantName|String|Contoso|optional|
  
 ## Differences between syncing files in SharePoint Server and SharePoint in Microsoft 365
 
 If your organization also uses the OneDrive sync app to sync files in Microsoft 365, here's what will be different for users who sync on-premises files.
 
 ### Single Top-level URL
-The OneDrive sync client only allows synchronization with a single URL (including all Document Libraries in all Site Collections and subsites of the specified URL). It is not possible to add additional top-level URLs (Web Applications or Host-Named Site Collections) for the OneDrive synchronization client with SharePoint Server 2019.
+If you have deployed multiple on-premises SharePoint Server farms in your enterprise, on a given client computer, you will only specify a single "SharePointOnPremFrontDoorUrl". For a given user, you should configure their computer with the SharePoint Server URL that hosts their individual OneDrive site or if they don't have a OneDrive site, where the team sites they are most likely to sync are hosted. Your users will be able to start syncing team site content from any of your on-premises SharePoint Server farms by navigating to the web experience of the Team Site and clicking the Sync button on that site.
 
-In SharePoint in Microsoft 365, you may synchronize with multiple top-level URLs, such as https://contoso-my.sharepoint.com and https://contoso.sharepoint.com.
+For example, you have a SharePoint Server farm for your Finance department and another for the rest of your company. Users who are members of the Finance department have their individual OneDrive site hosted on the Finance department's SharePoint Server farm. For those Finance employees, you use your computer management system to set the SharePointOnPremFrontDoorUrl registry key policy on their computer to have your Finance specific farm's URL. For all other employees, you set the SharePointOnPremFrontDoorUrl to your other SharePoint Server farm URL. The sync client will look for and provision on-demand as needed, the user's OneDrive site on the appropriate SharePoint Server farm.
   
 ### Folder names
 The OneDrive sync app creates the following folders on users' computers:
@@ -120,4 +142,3 @@ When setting up SharePoint Server, you'll be prompted to select if clients shoul
 2. Select **Settings**.
 
 3. Select the **Settings** tab, and under **Privacy**, clear the option.
-

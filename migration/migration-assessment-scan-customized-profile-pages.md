@@ -3,7 +3,7 @@ title: "Migration Assessment Scan Customized Profile Pages"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 5/17/2017
 audience: ITPro
 f1.keywords:

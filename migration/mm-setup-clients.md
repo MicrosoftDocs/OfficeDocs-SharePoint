@@ -3,7 +3,7 @@ title: "Setup Migration Manager agents"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -18,8 +18,6 @@ description: Set up multiple Migration Manager agents
 ---
 
 # Setup Migration Manager agents
-
-
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do this, you download and run a setup file on each computer.  
 
@@ -59,7 +57,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |RAM|16 GB|8GB|
 |Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|High speed internet connection|
-|Operating system|Windows Server 2012 R2 or Windows 10 agent|Windows Server 2012 R2 or Windows 10 agent|
+|Operating system|Windows Server 2012 R2 or higher </br>Windows 10 agent|Windows Server 2012 R2 or higher </br>Windows 10 agent|
 |Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |
 
 
