@@ -16,6 +16,14 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Backend v1.19.3 (Aug 6, 2020)
+
+End of life notification and bug fix.
+ 
+- The connectors for Amazon WorkDocs and NetDocuments have reached end of life. The connectors were deprecated July 1, 2020, and existing users notified. These connectors are no longer available.
+
+- When a migration job failed to submit during a migration into Office 365, error entries were not being added to the user log or migration error report. This has now been fixed.  All files contained in the failed migration job now have an error entry in the user log and the migration error report.
+
 ## Backend v1.19.2 (July 31, 2020)
 
 Migration Report improvements and bug fixes.
