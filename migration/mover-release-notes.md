@@ -16,6 +16,18 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Frontend v1.18.2  (August 6, 2020)
+
+Public Notes:
+
+- While using the App, notifications are sent to let you know if your request has been successful or if an error has occurred. The height and text size of notifications have been increased to improve visibility and awareness.
+
+- A message will display if you are trying to authorize Office 365 with a tenant that lacks SharePoint Online licenses.
+
+- You will not see Google pre-scan warnings when connecting to a G Suite source connector in the Transfer Wizard.
+
+- All non-success notifications will stay open for the user to read. Success notifications will automatically close after 5 seconds.
+
 ## Backend v1.19.3 (Aug 6, 2020)
 
 End of life notification and bug fix.
