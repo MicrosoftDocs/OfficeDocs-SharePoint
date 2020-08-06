@@ -2,7 +2,7 @@
 title: "Intelligent intranet roadmap"
 ms.reviewer: 
 ms.author: Holland-ODSP
-author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 ms.topic: article
