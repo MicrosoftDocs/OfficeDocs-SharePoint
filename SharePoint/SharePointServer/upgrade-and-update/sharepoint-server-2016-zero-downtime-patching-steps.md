@@ -27,7 +27,7 @@ Zero downtime patching (ZDP) is available in SharePoint Server 2016 and SharePoi
 >[!NOTE]
 >The steps in this article and information about Zero downtime patching also apply to SharePoint Server 2019.
   
-Zero downtime patching is a method of patching and upgrade developed in SharePoint Online. It was made to let administrators patch the service at the same time as users kept using their subscriptions. In other words, this tested method is designed to allow patching while people actively work with their files, and search crawls and renders results, on the SharePoint Server farm. That's what's meant by 'zero down time'.
+Zero downtime patching is a method of patching and upgrade developed in SharePoint in Microsoft 365. It was made to let administrators patch the service at the same time as users kept using their subscriptions. In other words, this tested method is designed to allow patching while people actively work with their files, and search crawls and renders results, on the SharePoint Server farm. That's what's meant by 'zero down time'.
   
 A couple of things to note as we discuss ZDP (we'll talk about these elements later in the article).
   
@@ -60,14 +60,18 @@ For the most part, everything you do on one side of the line (to the 01 servers)
 > General information on Software Updates for SharePoint Server 2016 can be found [here](/SharePoint/upgrade-and-update/software-updates-overview). Notice that the article links out to documentation on [permissions settings](/SharePoint/install/account-permissions-and-security-settings-in-sharepoint-server-2016) for SharePoint Server 2016. Review these articles as needed, and remember that part of patching involves database updates. If you've changed SQL Server permissions for SharePoint accounts post-installation, for example, you'll need to review these articles.
   
 Make sure you've rebooted and tested your WFEs before you take either out of the load balancer to avoid situations where the WFE to be patched first is taken out of rotation, and other WFEs don't handle the resulting load. All servers in the farm should be fresh from a reboot and healthy before you patch. Also, consider stopping Search crawls and Profile Imports during the upgrade or patch window.
-  
+
 > [!IMPORTANT]
-> You should enable the side-by-side file copy process before you Upgrade. Running in side-by-side ensures that all the web front ends in the farm serve the same static content during the upgrade, even if static files on a given WFE are being upgraded or replaced. Side-by-side is built in to PSCONFIG but must be enabled. This feature makes sure users have the same experience of the sites when browsing SharePoint and working on their files, even while file-system files are being changed and updated.  
-> To enable side-by-side upgrade capabilities, you will need to open SharePoint 2016 Management Shell and run the following commands on all your SharePoint servers:  
+> Side-by-side functionality, previously enabled with the below script, has been enabled regardless of the 'enableSideBySide' value as of [KB3178672](https://support.microsoft.com/help/3178672) (March 2017 update) for SharePoint Server 2016 and above.
+>
+> For SharePoint Server 2016 farms without KB3178672 or higher applied, side-by-side functionality can be applied with the following PowerShell scripts:
+>
 > `$webapp = Get-SPWebApplication <webappURL>`  
 > `$webapp.WebService.EnableSideBySide = $true`  
-> `$webapp.WebService.update()`  
-> Please note that administrators can opt out of side-by-side by setting the 'enableSideBySide' value to $false. Be aware that this could impact what users see when browsing. They may see upgraded UI in one browse, and not, in another, or may experience issues if, for example, javascript files are being changed or upgraded at the time of their browse.
+> `$webapp.WebService.update()`
+>
+> Running in side-by-side ensures that all the web front ends in the farm serve the same static content during the upgrade, even if static files on a given WFE are being upgraded or replaced. Side-by-side is built in to PSCONFIG but must be enabled. This feature makes sure users have the same experience of the sites when browsing SharePoint and working on their files, even while file-system files are being changed and updated.
+
   
 ### Phase 1 - Patch install
 
@@ -172,7 +176,7 @@ By default, WFEs are tweaked for low-latency, and the App servers for high-throu
 ## Why is High Availability required?
 <a name="BKMK_HA"> </a>
 
-HA is a broad topic in SharePoint. There are entire whitepapers and articles about it online, such as [this documentation](/SharePoint/administration/plan-for-high-availability) via TechNet. To simplify the concept, at least for this article, realize that ZDP (and also MinRole) originated in SharePoint Online (SPO). In SPO, virtualized servers have redundancies built in, so that two of the same role of server from the same SharePoint farm won't live on the same host or rack. This makes SPO more fault-tolerant. You can model the same situation by having two of each SharePoint Server role on separate hosts on different racks in your own datacenter, with a shared router or cabling between racks to make for quicker communication. You can also simply have two physical servers for each SharePoint Server role set up in a test environment (choosing separate power bars for each half of your farm, and making sure that routing between the set of servers is fast and, if possible, bypasses wider network traffic for lower latency). 
+HA is a broad topic in SharePoint. There are entire whitepapers and articles about it online, such as [this documentation](/SharePoint/administration/plan-for-high-availability) via TechNet. To simplify the concept, at least for this article, realize that ZDP (and also MinRole) originated in SharePoint in Microsoft 365. In SharePoint in Microsoft 365, virtualized servers have redundancies built in, so that two of the same role of server from the same SharePoint farm won't live on the same host or rack. This makes SharePoint more fault-tolerant. You can model the same situation by having two of each SharePoint Server role on separate hosts on different racks in your own datacenter, with a shared router or cabling between racks to make for quicker communication. You can also simply have two physical servers for each SharePoint Server role set up in a test environment (choosing separate power bars for each half of your farm, and making sure that routing between the set of servers is fast and, if possible, bypasses wider network traffic for lower latency). 
   
 The goals here are high availability and fault tolerance. That means top priorities are separating the roles across racks or servers, making sure you have two of every role, facilitating quick network traffic between these two tiers, and making sure your set up has systems in place to monitor and automatically failover database servers. In terms of manually installing services in SharePoint (as when choosing the 'Custom' role) it is important that the services have redundancy inside the farm. For example, Distributed Cache is clustered, your farm has multiple WFEs, you set up Application and Search servers in pairs. That way, in the event that one server has a serious issue, the other can handle user load.
   

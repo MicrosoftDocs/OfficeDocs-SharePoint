@@ -3,7 +3,7 @@ title: "Setup Migration Manager agents"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -18,8 +18,6 @@ description: Set up multiple Migration Manager agents
 ---
 
 # Setup Migration Manager agents
-
-
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do this, you download and run a setup file on each computer.  
 
@@ -50,7 +48,7 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 - Create a Windows admin account specifically to use for your migration project. Make sure this admin account has access to any file share that you plan on migrating. Log into each VM or computer with this account before you run the setup file.
 </br></br></br>
 
-### Prerequisites
+## Prerequisites
 
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
@@ -59,13 +57,13 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |RAM|16 GB|8GB|
 |Local Storage|Solid state disk: 150 GB free space|Solid state disk: 150 GB free space|
 |Network card|1 Gbps|High speed internet connection|
-|Operating system|Windows Server 2012 R2 or Windows 10 agent|Windows Server 2012 R2 or Windows 10 agent|
+|Operating system|Windows Server 2012 R2 or higher </br>Windows 10 agent|Windows Server 2012 R2 or higher </br>Windows 10 agent|
 |Anti-virus|Anti-virus software on your computer can slow down the migration speed. Be aware of this, but consider the risk of turning off your organization's antivirus software. |
 
 
 </br></br>
 
-### Required endpoints
+## Required endpoints
 
 |**Required endpoints**|**For**|
 |:-----|:-----|
@@ -80,33 +78,14 @@ After a agent is configured, anyone with the permission to go into the SharePoin
 |https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
 |https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
 
-</br></br>
+</br>
 
-### Government Cloud
+## Government Cloud
 
-Settings for goverment cloud tenants are listed below.  The default setting is **0**.
-
-
-|**Cloud**|**Setting value**|
-|:-----|:-----|
-|Consumer|0|
-|GCC|0|
-|GCC High|2|
-|DoD|2|
-
-
+If your tenant resides in a government cloud, you may have additional steps to perform before using Migration Manager.  To learn more: [Government Cloud and Migration Manager](mm-gov-cloud.md).
 
 </br>
-If your are either a **GCC high** or **DoD** customer, you need to make a change to configuration file before you install the agent. To configure and install agent, do the following:
 
-1. Download the agent setup file.
-2. Open the setup file and remain on the **Welcome** page. 
-3. Open  *%temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\microsoft.sharepoint.migration.common.dll.config*.
-4. Change the value of *SPOEnvironmentType* from 0 to 2.
-5. On the Welcome page, click **Next**. Follow the prompts to enter your SharePoint admin username and password to your GCC High or DoD account.
-6. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
-7. Test agent access (optional) or click **Close**.
-</br></br>
 ## Set up a single agent
 
 1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
@@ -135,7 +114,7 @@ Based on the size of the content you want to migrate, you can setup as many agen
 >Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
 
 >[!Note]
->The connection between the agent and Migration Manager stays active as long as the computer is still running and the SPO admin credentials that were used to sign into the agent are still valid. 
+>The connection between the agent and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
 >
 >If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
 

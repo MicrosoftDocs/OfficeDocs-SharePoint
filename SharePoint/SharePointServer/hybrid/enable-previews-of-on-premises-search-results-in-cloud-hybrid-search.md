@@ -85,9 +85,9 @@ Office Online Server needs to be on a separate server than SharePoint Server. He
 
 #### Other Resources
 
-[Learn about cloud hybrid search for SharePoint](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
+[Learn about cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
   
-[Plan cloud hybrid search for SharePoint](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
+[Plan cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
   
-[Configure cloud hybrid search for SharePoint](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap)
+[Configure cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap)
 

@@ -25,15 +25,15 @@ description: "How to validate the Business Connectivity Services (BCS) hybrid so
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
-Now that you have created an external list or deployed an app for SharePoint in SharePoint Online, you need to test the security you put in place. Every account that will be accessing and manipulating the external data must have three properties:
+Now that you have created an external list or deployed an app for SharePoint in Microsoft 365, you need to test the security you put in place. Every account that will be accessing and manipulating the external data must have three properties:
   
-- It must have user or greater permissions to the SharePoint Online site and the external list or app for SharePoint.
+- It must have user or greater permissions to the SharePoint in Microsoft 365 site and the external list or app for SharePoint in Microsoft 365.
     
 - It must be a federated account.
     
 - It must be a member of the on-premises global security group that you are using to control access to the OData service endpoint. For example, it must be a member of **ODataGroup**.
     
-In this procedure, you will open the SharePoint Online site and the external list or app for SharePoint with four different accounts.
+In this procedure, you will open the SharePoint in Microsoft 365 site and the external list or app for SharePoint in Microsoft 365 with four different accounts.
   
 ## 
 
@@ -48,7 +48,7 @@ In this procedure, you will open the SharePoint Online site and the external lis
 |**Account C** <br/>  Has site/list/app permissions.  <br/>  Is not federated (is a Microsoft 365 account only).  <br/>  Cannot be added to the on-premises global security group ( **ODataGroup**).  <br/> |External data does not display.  <br/> |If the external data does display and you can edit it, check your federation setup and membership of your on-premises global security group ( **Odata Group**).  <br/> |
 |**Account D** <br/>  Has site/list/app permissions.  <br/>  Is federated.  <br/>  Is not a member of your on-premises global security group ( **ODataGroup**).  <br/> |External data does not display.  <br/> |If the external data does display and you can edit it, check the membership of your on-premises global security group ( **ODataGroup**) and the permissions that you set on the OData service endpoint that you configure in [Deploy a Business Connectivity Services hybrid solution in SharePoint](/sharepoint/hybrid/deploy-a-business-connectivity-services-hybrid-solution) <br/> |
    
-2. Open (by using In-Private browsing if possible) the SharePoint Online site that contains the external list or app for SharePoint by using each of the accounts in turn. Be sure to completely log out and close your browser in between tests.
+2. Open (by using In-Private browsing if possible) the SharePoint in Microsoft 365 site that contains the external list or app for SharePoint in Microsoft 365 by using each of the accounts in turn. Be sure to completely log out and close your browser in between tests.
     
 3. If you don't see the expected outcome, refer to the troubleshooting step in the previous table, fix the issue, and repeat all four tests until you achieve the expected outcome.
     

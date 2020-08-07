@@ -3,7 +3,7 @@ title: "Migration Assessment Scan Large Lists"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 11/23/2017
 audience: ITPro
 f1.keywords:

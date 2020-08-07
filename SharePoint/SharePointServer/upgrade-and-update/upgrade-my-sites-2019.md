@@ -28,7 +28,7 @@ My Sites are personal site collections that end users can use to store their doc
   
 - **My Site Host.** The My Site Host is a special site collection shared among all My Site users. The My Site Host is used to show the profile (person.aspx) and newsfeed pages (default.aspx) on the My Site. The My Site Host is also used for storing the user profile photos. 
     
-- **Personal site collection.** In SharePoint Server 2019, the personal site collection is used to store a user's documents. In SharePoint Server 2019, the personal site collection contains OneDrive for Business, followed content, and so on. 
+- **Personal site collection.** In SharePoint Server 2019, the personal site collection is used to store a user's documents. In SharePoint Server 2019, the personal site collection contains OneDrive, followed content, and so on. 
     
 ## Plan to upgrade My Sites
 

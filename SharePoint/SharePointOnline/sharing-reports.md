@@ -23,11 +23,11 @@ description: "In this article, you'll learn how to create a report on file and f
 
 # Report on file and folder sharing in a SharePoint site
 
-You can create a CSV file of every unique file, user, permission and link on a given SharePoint site or OneDrive library. This can help you understand how sharing is being used and if any files or folders are being shared with guests. You must be a site collection administrator or a group owner (if the site is connected to a Microsoft 365 group) in order to run the report.
+You can create a CSV file of every unique file, user, permission and link on a given SharePoint site or OneDrive. This can help you understand how sharing is being used and if any files or folders are being shared with guests. You must be a site admin to run the report.
 
 When you run the report, the CSV file is saved to a location of your choosing on the site. 
 
-In SharePoint, if you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
+In Microsoft SharePoint, if you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
 
 To run the report (SharePoint)
 1. Open the site where you want to run the report
@@ -38,8 +38,8 @@ To run the report (SharePoint)
 To run the report (OneDrive)
 1. Open OneDrive.
 2. On the **Settings** menu, click **OneDrive settings**.
-3. Click **More settings**, and then click **Run report**.
-4. Choose a location to save the report, and then click **Run report**.
+3. Click **More settings**, and then click **Run sharing report**.
+4. Choose a location to save the report, and then click **Save**.
 
 The report may take some time to run depending on the size of the site.
 

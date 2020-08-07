@@ -21,7 +21,7 @@ description: "Learn how to upload page layouts and create new pages in a publish
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
   
 > [!NOTE]
-> Most of the features described in this series are available only for private sites collections in SharePoint Online. 
+> Many of the features described in this series are also available for most sites in SharePoint in Microsoft 365. 
   
 ## Quick overview
 
@@ -40,7 +40,7 @@ In this stage, you'll learn:
 - [How to create a page based on a page layout](stage-7-upload-page-layouts-and-create-new-pages-in-a-publishing-site.md#BKMK_HowToCreateAPageBasedOnAPageLayout)
     
 > [!NOTE]
-> This article doesn' *t*  cover how to create a page layout. It explains how to upload already completed page layouts. These files won't be made available for download. 
+> This article doesn't cover how to create a page layout. It explains how to upload already completed page layouts. These files won't be made available for download. 
   
 ## Start stage 7
 
@@ -98,11 +98,11 @@ To turn off versioning for the **Pages** library:
     
      ![Create Search Vertical: Site Contents](../media/OTCSP_SiteContents.png)
   
-2. On the **Site Contents** page, click **Pages**. 
+2. On the **Site Contents** page, select **Pages**. 
     
-3. In the **Pages** library, on the **LIBRARY** tab, click **Library Settings**. 
+3. In the **Pages** library, on the **LIBRARY** tab, select **Library Settings**. 
     
-4. On the **Settings** page, click **Versioning settings**. 
+4. On the **Settings** page, select **Versioning settings**. 
     
 5. In the **Require Check Out section**, for **Require documents to be checked out before they can be edited**, select **No**. 
     
@@ -115,25 +115,25 @@ We are now ready to create our two new pages.
 
 To create a new page:
   
-1. On the **Site Contents** page, click **Pages**. 
+1. On the **Site Contents** page, select **Pages**. 
     
-2. In the **Pages** library, click the **FILES** tab, and then click **New Document**. 
+2. In the **Pages** library, select the **FILES** tab, and then select **New Document**. 
     
      ![New Document](../media/OTCSP_NewDocument.png)
   
-3. On the **Create Page** page, enter a **Title** and a **URL name**. From the **Page Layout** list, select the page layout that you want to apply to the new page. In our scenario, the page layout is the newly uploaded page layout called  *ContosoElectronicsCategoryPageLayout*  . 
+3. On the **Create Page** page, enter a **Title** and a **URL name**. From the **Page Layout** list, select the page layout that you want to apply to the new page. In our scenario, the page layout is the newly uploaded page layout called *ContosoElectronicsCategoryPageLayout*. 
     
      ![Create Page](../media/OTCSP_CreatePage.png)
   
-After you click **OK**, the newly created page is shown in the **Pages** library. 
+After you select **OK**, the newly created page is shown in the **Pages** library. 
     
      ![New Category Page](../media/OTCSP_NewCategoryPage.png)
   
-4. In our Contoso scenario, we'll also need a catalog item page. To create this page, repeat steps 3 and 4 from the previous procedure. However for **Page Layout**, select  *ContosoElectroniceCatalogItemPageLayout*  . 
+4. In our Contoso scenario, we'll also need a catalog item page. To create this page, repeat Steps 3 and 4 from the previous procedure. However for **Page Layout**, select *ContosoElectroniceCatalogItemPageLayout*. 
     
      ![Create Catalog Item Page](../media/OTCSP_CreateCatalogItemPage.png)
   
-Our **Pages** library now contains two new pages:  *ContosoCategoryPage*  and  *ContosoCatalogItemPage*  . 
+Our **Pages** library now contains two new pages: *ContosoCategoryPage* and *ContosoCatalogItemPage*. 
     
      ![Two New Pages](../media/OTCSP_TwoNewPages.png)
   

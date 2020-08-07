@@ -1,9 +1,9 @@
 ---
-title: "Create a user mapping file for data content migration"
+title: "Create a user-mapping file for data content migration"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 01/11/2018
 audience: ITPro
 f1.keywords:
@@ -18,38 +18,38 @@ ms.collection:
 - SPMigration
 search.appverid: MET150
 ms.assetid: 28c42985-1fd6-49d6-b9c5-b7f35e83efa1
-description: "Create a user mapping file for data content migration while using the SharePoint Online Migration Tool."
+description: "Create a user-mapping file for data content migration while using the SharePoint Migration Tool."
 ---
 
-# Create a user mapping file for data content migration
+# Create a user-mapping file for data content migration
 
-This article shows how to create a user mapping file to use with the SharePoint Online Migration Tool (SPMT).
+This article shows how to create a user-mapping file to use with the SharePoint Migration Tool (SPMT).
   
 SPMT lets you migrate your files from SharePoint on-premises document libraries or on-premises file shares and move them to Microsoft 365. It's free to Microsoft 365 users.
   
 > [!NOTE]
 >  Currently the **SharePoint Migration Tool** is not available for users of Office 365 operated by 21Vianet in China. 
   
-## Create a user mapping file for data content migration
+## Create a user-mapping file for data content migration
 
-When migrating your data from either a local file share or an on-premises SharePoint Server document library, a default user mapping file is used. You can also create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
+A default user-mapping file is used when migrating your data from a local file share or an on-premises SharePoint Server document library. You can also create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
   
  **CSV file format**
   
 Here's an example of the format for the CSV file.
   
-![User mapping file for data content migration](media/7ff2f07d-7e67-4834-974b-34651cc5e79f.jpg)
+![User-mapping file for data content migration](media/7ff2f07d-7e67-4834-974b-34651cc5e79f.jpg)
   
 > [!IMPORTANT]
 > Do not include a header row in your CSV file. 
   
- **To create a User Mapping file for data migration**
+ **To create a user-mapping file for data migration**
   
 The following example uses Excel to create the CSV file.
   
 1. Start Excel.
     
-2. Enter the values for your user mapping.
+2. Enter the values for your user-mapping.
     
   - **Column A:** From the source location, enter the **log in name of the user**.  *Required.* 
     
@@ -59,9 +59,9 @@ The following example uses Excel to create the CSV file.
     
 3. Close and save as a comma-delimited (\*.csv) file.
     
- **Upload your User Mapping file to SharePoint Migration Tool**
+ **Upload your user-apping file to SharePoint Migration Tool**
   
-After you create your own user mapping file, upload it to the SharePoint Online Migration tool.
+After you create your own user-mapping file, upload it to the SharePoint Migration tool.
   
 1. Start SPMT. Enter your Microsoft 365 username and password, and then select **Sign in**.
 
@@ -77,7 +77,7 @@ After you create your own user mapping file, upload it to the SharePoint Online 
 
 7. On the **Choose your settings** page, expand **View all settings**.
 
-8. Under **Users** section in the **User mapping** box, select **Choose file**, and select your user mapping file.
+8. Under **Users** section in the **User mapping** box, select **Choose file**, and select your user-mapping file.
 
 9. Select **Save**.
 

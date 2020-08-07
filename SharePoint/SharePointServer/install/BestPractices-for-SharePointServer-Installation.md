@@ -64,11 +64,11 @@ Use supported service applications and consider phasing out the use of these dep
 
 If you currently have SharePoint Server installed, chances are you have made some customizations to suit your business needs. 
 
-If you already have a portion of your company in the cloud or plan to do so in the future, know that certain customizations will not transfer to SharePoint Online.  Here is a list of few of those:
+If you already have a portion of your company in the cloud or plan to do so in the future, know that certain customizations will not transfer to SharePoint.  Here is a list of few of those:
 
-•	Workflows, User Alerts, and custom master pages will not transfer to SharePoint Online. We recommend you use Power Automate for workflows, reconfigure alerts once migrated, and use the out of the box customization for site look and feel changes.
+•	Workflows, User Alerts, and custom master pages will not transfer to SharePoint. We recommend you use Power Automate for workflows, reconfigure alerts once migrated, and use the out of the box customization for site look and feel changes.
 
-•	Custom Search schema will not transfer to SharePoint Online. When content is migrated to SharePoint Online, you may want to re-implement any custom Search schema configuration necessary.
+•	Custom Search schema will not transfer to SharePoint. When content is migrated to SharePoint, you may want to re-implement any custom Search schema configuration necessary.
 
 •	Use SharePoint Add-ins with the Low Trust model.  To learn more, see [Creating SharePoint add in that use low trust authorization](/sharepoint/dev/sp-add-ins/creating-sharepoint-add-ins-that-use-low-trust-authorization).
 
@@ -90,6 +90,6 @@ If a portion of your sites are already in the cloud, or if you intend on moving 
 
 •	Solutions that intercept and/or modify the HTTP pipeline you could use Azure Conditional Access Policies by fronting the farm by using the Azure AD App Proxy. For more information on how to use AD FS, see [Access Control Policies in Windows Server 2016 AD FS](/windows-server/identity/ad-fs/operations/access-control-policies-in-ad-fs).
 
-•	Implement only the necessary Web Application Policies, such as self-service site creation, Object Cache, and Search Crawler accounts, but try to avoid further usage of Web Application Policies as they are not available in SharePoint Online.
+•	Implement only the necessary Web Application Policies, such as self-service site creation, Object Cache, and Search Crawler accounts, but try to avoid further usage of Web Application Policies as they are not available in SharePoint.
 
-•	For security purposes, phase out the use of anonymous SharePoint Server sites.  Also note that anonymous site access is not available in SharePoint Online. 
+•	For security purposes, phase out the use of anonymous SharePoint Server sites.  Also note that anonymous site access is not available in SharePoint in Microsoft 365. 

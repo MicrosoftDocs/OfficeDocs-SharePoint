@@ -3,7 +3,7 @@ title: "SharePoint Migration Tool supported SharePoint web parts"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: 
 ms.assetid: 
-description: "SharePoint Migration Tool table of supported webparts for migration."
+description: "SharePoint Migration Tool table of supported SharePoint web parts for migration."
 ---
 
 # SPMT supported SharePoint web parts

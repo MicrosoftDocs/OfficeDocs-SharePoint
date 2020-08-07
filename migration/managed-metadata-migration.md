@@ -3,7 +3,7 @@ title: "Migrating Managed Metadata"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -17,7 +17,7 @@ ms.collection:
 description: "Migrating Managed Metadata using the SPMT"
 ---
 
-# Migrating Managed Metadata to SharePoint Online using the SPMT
+# Migrating Managed Metadata to SharePoint using the SPMT
 
 The SharePoint Migration Tool lets you migrate managed metadata from SharePoint Server 2013 to SharePoint in Microsoft 365.
 

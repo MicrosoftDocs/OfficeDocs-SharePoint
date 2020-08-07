@@ -72,6 +72,6 @@ Perhaps you already have SharePoint Server and are considering moving to the clo
 |**Are you wanting to...**|**Read**|
 |:-----|:-----|
 |Decide which hybrid solution you should use for your business?  <br/> |[Explore SharePoint Server hybrid](hybrid/explore-sharepoint-server-hybrid.md) <br/> |
-|Find out how you can move your data from on-premises to SharePoint Online? <br/> |[Migrate to SharePoint Online](migrate-to-sharepoint-online/migrate-to-sharepoint-online.md) <br/> |
+|Find out how you can move your data from on-premises to SharePoint in Microsoft 365? <br/> |[Migrate to SharePoint](migrate-to-sharepoint-online/migrate-to-sharepoint-online.md) <br/> |
    
 

@@ -13,14 +13,14 @@ ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection: IT_Sharepoint_Server_Top
 ms.assetid: 45264de9-6859-45c1-9d6d-70035c471a2a
-description: "Learn how to plan for variations, identify the source and target variation sites, and decide how content will be synced on target variation sites in SharePoint Server and SharePoint Online."
+description: "Learn how to plan for variations, identify the source and target variation sites, and decide how content will be synced on target variation sites in SharePoint Server and SharePoint in Microsoft 365."
 ---
 
 # Plan for variations in SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)] 
   
-The variations feature in SharePoint Server and SharePoint Online makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. Content on a target variation site can be translated into other languages before it is published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on a site for which the SharePoint Server Publishing Infrastructure feature was activated.
+The variations feature in SharePoint Server and SharePoint in Microsoft 365 makes content available to specific audiences on different sites by syncing content from a source variation site to each target variation site. Content on a target variation site can be translated into other languages before it is published. Variations can be used only on sites that are created by using one of the Publishing site templates, or on a site for which the SharePoint Server Publishing Infrastructure feature was activated.
   
 This article contains information about important items that you should consider when you use variations in a publishing site collection, and it describes the tasks that are involved in planning a solution that uses variations in SharePoint Server. This article does not provide an overview of variations, describe how to use variations, or explain how to create variation labels and hierarchies. For more information about variations, see [Variations overview in SharePoint Server](variations-overview.md).
   
@@ -121,7 +121,7 @@ SharePoint Server has several features that enable you to support users in diffe
 
 Variations are used to create multilingual sites, and sites based on regional differences. Determine which variations are needed for your solution, and make a list of the sites that will belong to the variations hierarchy.
   
-If you will be using variations for creating multilingual sites in SharePoint Server, and if you want the site administration pages of the target variation sites to be displayed in another language, you must install the language pack for each language that corresponds to a variation site. For information about how to install language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md). If you will be using variations for creating multilingual sites in SharePoint Online, all language packs are installed and available for use.
+If you will be using variations for creating multilingual sites in SharePoint Server, and if you want the site administration pages of the target variation sites to be displayed in another language, you must install the language pack for each language that corresponds to a variation site. For information about how to install language packs, see [Install or uninstall language packs for SharePoint Server 2016](../install/install-or-uninstall-language-packs-0.md). If you will be using variations for creating multilingual sites in SharePoint in Microsoft 365, all language packs are installed and available for use.
   
 ## Specify the source variation site
 <a name="bkm_source"> </a>
@@ -188,7 +188,7 @@ Review the list of sites for your variations hierarchy, and record each target v
 - **Label contact** One or more contacts for the variation site. 
     
 > [!NOTE]
-> SharePoint Server supports up to 209 variation labels. SharePoint Online supports up to 50 variation labels. 
+> SharePoint Server supports up to 209 variation labels. SharePoint in Microsoft 365 supports up to 50 variation labels. 
   
 ### Plan custom master pages, layout pages or style sheets
 
@@ -233,7 +233,7 @@ By default, any new pages that are published in the Pages library of the source 
   
 Lists can be created automatically on target variation sites only if they are created on the source variation site before the variation hierarchy is created. If a list is created after the variations hierarchy is set up, a list must be created manually on the target variation sites by using the **Settings** button on the **Variations** tab on the ribbon for the list on the source variation site. However, new list items can be created automatically on a target variation site. 
   
-By default, the **Create Everywhere** option is enabled. You should carefully consider the potential increase in administrative tasks if you decide to enable the **Create Selectively** option. You can configure the settings for site, list, and page creation behavior on the **Variations Settings** page in Site Collection Administration. For information, see [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=279696).
+By default, the **Create Everywhere** option is enabled. You should carefully consider the potential increase in administrative tasks if you decide to enable the **Create Selectively** option. You can configure the settings for site, list, and page creation behavior on the **Variations Settings** page in Site Collection Administration. For info, see [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=279696).
   
 ## Plan variations timer job scheduling
 <a name="bkm_timerjobs"> </a>
@@ -241,7 +241,7 @@ By default, the **Create Everywhere** option is enabled. You should carefully co
 The variations feature uses timer jobs to perform tasks such as creating and propagating sites and pages. A timer job runs inside OWSTIMER, a Windows service for SharePoint Server. Each timer job has its own default schedule for when the job runs. You can change the frequency with which each job runs on the **Job Definitions** page on the Central Administration website. 
   
 > [!NOTE]
-> Timer jobs are not configurable in SharePoint Online. 
+> Timer jobs are not configurable in SharePoint in Microsoft 365. 
   
 The following table lists the variations timer jobs and the default schedule for each job.
   

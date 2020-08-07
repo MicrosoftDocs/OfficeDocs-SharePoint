@@ -1,8 +1,8 @@
 ---
 title: "Plan an intelligent SharePoint intranet"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: Holland-ODSP
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365solution-spintranet
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -25,7 +26,7 @@ description: "Learn about how to plan a new SharePoint intranet with focus on br
 
 # Plan an intelligent SharePoint intranet
 
-SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
+Microsoft SharePoint offers a wide variety of options and tools to create intranet sites for your organization. Moving your intranet to SharePoint in Microsoft 365 might take a while, particularly if you already have extensive intranet content. In this article, we'll look at how to plan a new SharePoint intranet with a focus on quickly bringing sites online and getting a return on your investment.
 
 We'll cover how to:
 
@@ -41,7 +42,7 @@ We'll cover how to:
 
 With SharePoint, any user can create highly functional intranet pages quickly without the need for writing code or other difficult customizations. These sites look great on any device or screen and provide deeply engaging experiences for your users.
 
-If you're currently using SharePoint Server for your intranet, you'll find SharePoint Online to be much easier to work with. Responsive, dynamic pages are easy for anyone to create, and the requirements for IT to build and maintain custom solutions are much less.
+If you're currently using SharePoint Server for your intranet, you'll find SharePoint in Microsoft 365 to be much easier to work with. Responsive, dynamic pages are easy for anyone to create, and the requirements for IT to build and maintain custom solutions are much less.
 
 As a first step, to see examples of what's possible with SharePoint, we recommend that you review the [SharePoint look book](https://aka.ms/sharepointlookbook). The look book provides a variety of examples about how to include news, events, resources, and personalized content in SharePoint sites that anyone can create and maintain.
 
@@ -158,7 +159,7 @@ After you have compiled this information, create a design brief to help map out 
 SharePoint offers a variety of building blocks that you can use to create an intranet:
 
 - **[Communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732)** - Use communication sites to share news, reports, statuses, and other information through a variety of templates and web parts.
-- **[Home sites](https://docs.microsoft.com/sharepoint/home-site)** - Use home sites to create an engaging home for your organization, division, or function.
+- **[Home site](home-site.md)** - A home site is a communication site that you set as the intranet landing page for your organization.
 - **[Hub sites](planning-hub-sites.md)** - Use hub sites to organize related sites and teams and centralize news, search, and content management.
 - **[SharePoint news](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)** - Use the news web part to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting.
 - **[Yammer](https://docs.microsoft.com/yammer/yammer-landing-page)** - Use Yammer to connect with people across your organization beyond the boundaries of projects, functions, and departments.

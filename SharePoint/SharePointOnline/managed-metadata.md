@@ -152,7 +152,7 @@ When the content across sites in an organization has consistent metadata, it is 
 ### Metadata navigation for sites
 <a name="__migbm_12"></a>
 
-Metadata navigation for sites enables a site administrator to create navigation elements based on metadata terms. For more information including performance recommendations, see [Navigation options for SharePoint Online](/office365/enterprise/navigation-options-for-sharepoint-online).
+Metadata navigation for sites enables a site administrator to create navigation elements based on metadata terms. For more information including performance recommendations, see [Navigation options for SharePoint](/office365/enterprise/navigation-options-for-sharepoint-online).
   
 ### Metadata navigation for lists and libraries
 <a name="__migbm_13"> </a>

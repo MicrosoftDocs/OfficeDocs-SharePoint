@@ -24,16 +24,6 @@ An easy way to help users search for information in SharePoint Server is to crea
 ![Query Suggestion](../media/OTCSP_coffee_suggestion.png)
   
 SharePoint Server automatically creates a query suggestion when users have clicked a search result for a query at least six times. For example, if users have entered the query word "coffee" and then clicked on a search result six times, then "coffee" automatically becomes a query suggestion. We can also create query spelling suggestions manually. In this article, we'll use a simple example to show how to do this.
-  
-In this article, you'll learn:
-  
-- [How to create a query suggestions file](create-and-import-query-suggestions.md#BKMK_HowToCreateAQuerySuggestionsFile)
-    
-- [How to import a query suggestions file to SharePoint Server](create-and-import-query-suggestions.md#BKMK_HowToImportQuerySuggestionsFileToSharepointOnline)
-    
-- [How to import a query suggestions file to SharePoint Server](create-and-import-query-suggestions.md#BKMK_HowToImportQuerySuggestionsFileToSharepointServer2013)
-    
-- [How to verify that your query suggestions are working](create-and-import-query-suggestions.md#BKMK_HowToVerifyThatYourQuerySuggestionsAreWorking)
     
 ## How to create a query suggestions file
 <a name="BKMK_HowToCreateAQuerySuggestionsFile"> </a>
@@ -50,18 +40,14 @@ In this article, you'll learn:
   
 Now that you have a query suggestions file, the next task is to import it to SharePoint Server.
   
-## How to import a query suggestions file to SharePoint Online
+## How to import a query suggestions file to SharePoint
 <a name="BKMK_HowToImportQuerySuggestionsFileToSharepointOnline"> </a>
 
-1. From the Microsoft 365 Admin menu, select **SharePoint**. 
-    
-     ![Share Point Menu](../media/OTCSP_SharePointMenu.png)
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+
+2. Under **Search**, select **Open**.
   
-2. On the **SharePoint admin center**, select **search**. 
-    
-     ![Click Search](../media/OTCSP_search.png)
-  
-3. On the **search administration** page, select **Query Suggestion Settings**. 
+3. Select **Query Suggestion Settings**. 
     
      ![Select Query Suggestion Settings](../media/OTCSP_QuerySuggestionSettings.png)
   

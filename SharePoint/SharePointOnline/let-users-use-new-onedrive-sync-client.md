@@ -42,7 +42,7 @@ When you enable this feature, users will be able to sync the files in a SharePoi
     
 - Coauthor files in real time with Office 2016 (C2R build 16.0.7167.2xxx or MSI build 16.0.4432.100x)
     
-- Automatically transition from the existing OneDrive for Business sync app (Groove.exe)
+- Automatically transition from the previous OneDrive sync app (Groove.exe)
     
    
 ## Deploy and configure the OneDrive sync app
@@ -74,7 +74,7 @@ For info about the latest sync app releases, see [New OneDrive sync app release 
     
 4. For "Sync Client for SharePoint," select **Start the new client**.
     
-    ![Admin setting for OneDrive sync client](media/894772b5-3e43-4a60-9887-99aca47a261c.PNG)
+    ![Admin setting for OneDrive sync app](media/894772b5-3e43-4a60-9887-99aca47a261c.PNG)
   
     > [!NOTE]
     > If you don't see the "Sync Client for SharePoint" setting on the Settings page, your organization is already set up to use the new OneDrive sync app. When users sign in to the OneDrive sync app (OneDrive.exe), it will automatically take over syncing the site libraries that the previous new OneDrive sync app (Groove.exe) was syncing. For information about how this works, and about the types of libraries that will continue syncing with the previous sync app, see [Transition from the previous OneDrive for Business sync app](/onedrive/transition-from-previous-sync-client). 

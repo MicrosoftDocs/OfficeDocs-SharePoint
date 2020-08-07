@@ -50,7 +50,7 @@ Perform the following steps:
     
 3. If you want content from Skype for Business Server to be discoverable, configure the server to archive to Exchange Server 2016. For information about how to configure Skype for Business Server 2015 archiving, see [Configure Skype for Business Server 2015 to use Exchange Server archiving](/skypeforbusiness/deploy/integrate-with-exchange-server/use-exchange-archiving).
 
-4. If you want SharePoint Server 2019 users to link to and share documents that are stored in OneDrive for Business instead of attaching file to Outlook messages, see the [Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
+4. If you want SharePoint Server 2019 users to link to and share documents that are stored in OneDrive instead of attaching file to Outlook messages, see the [Document collaboration](/Exchange/new-features/new-features?view=exchserver-2019#document-collaboration) section in **What's new in Exchange Server**.
     
 5. Perform the eDiscovery configuration steps for Exchange. For information about how to configure Exchange Server 2013 for eDiscovery, see [Integration with SharePoint](https://go.microsoft.com/fwlink/?linkid=857898).
     

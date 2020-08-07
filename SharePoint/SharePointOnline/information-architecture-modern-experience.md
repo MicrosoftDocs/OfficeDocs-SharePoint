@@ -27,7 +27,7 @@ Having a solid information architecture is an important prerequisite for realizi
 
 A great information architecture helps improve user adoption, satisfaction and productivity, reduce IT cost, reduce information overload, and minimize compliance and bad information risk.
 
-Designing the optimal structure requires good planning. It requires knowledge of the domain or content to be modeled, understanding the user and user experiences, and awareness of approaches and best practices in SharePoint. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Plus, the more you learn about your users, the more discoverable you can make your content.
+Designing the optimal structure requires good planning. It requires knowledge of the domain or content to be modeled, understanding the user and user experiences, and awareness of approaches and best practices in Microsoft SharePoint. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Plus, the more you learn about your users, the more discoverable you can make your content.
 
 ## Understand your users
 
@@ -36,7 +36,7 @@ The most important step in planning an effective information architecture is und
 - Who are your users? What key roles do they have?
 - What vocabulary to they have? What terms do they use to look for content?
 - What do they want to learn?
-- What do they want to do? What are their top task?
+- What do they want to do? What are their top tasks?
 
 ## Understand your content
 

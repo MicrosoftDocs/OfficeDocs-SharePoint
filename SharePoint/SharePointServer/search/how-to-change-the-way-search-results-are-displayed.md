@@ -19,7 +19,7 @@ description: "Learn how to change the way search results are displayed in classi
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-SharePoint Server and SharePoint Online include many default search features that help users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business.
+SharePoint Server and SharePoint in Microsoft 365 include many default search features that help users find what they're looking for. But you might want your search results to look a certain way, for example, display information that's specific to your company or business.
   
 This series will explain how to customize the way search results are displayed in the classic search experience. To help explain these display concepts, we'll use examples from an internal list of Microsoft publications, a frequently-used tool among Microsoft content publishing professionals.
   
@@ -72,31 +72,31 @@ In case you're not familiar with how search works, here's a high level represent
     
 Here's how to understand this high level representation in the context of Microsoft's internal Search Center.
   
-1. A Microsoft writer creates a list item for an article she'll be writing. Site columns, such as  *Title*  ,  *Content Summary*  , and  *Technical Subject*  , are used to store values, or in other words, information, about the article. 
+1. A Microsoft writer creates a list item for an article she'll be writing. Site columns, such as *Title*, *Content Summary*, and *Technical Subject*, are used to store values, or in other words, information, about the article. 
     
      ![List Item](../media/OTCSP_ListItem.png)
   
 2. The list is marked for continuous crawl. This means the list will be crawled at a set interval, for example, every minute.
     
-    You can see the crawl schedule in **List Settings** --> **Catalog Setting**. 
+    You can see the crawl schedule in **List Settings** > **Catalog Setting**. 
     
      ![Crawl Schedule](../media/OTCSP_CrawlSchedule.png)
   
-3. From **Site Settings** --> **Search Schema** you can search for managed properties. 
+3. From **Site Settings** > **Search Schema** you can search for managed properties. 
     
-    In this scenario, there's a managed property named  *ContentSummaryOWSMTXT*  , and another one named  *owstaxIdTechnicalSubject*  . They represent the site columns  *Content Summary*  and  *Technical Subject*  . For more information about the "transformation" of site columns into managed properties, see [From site column to managed property - What's up with that?](../administration/from-site-column-to-managed-propertywhat-s-up-with-that.md).
+    In this scenario, there's a managed property named *ContentSummaryOWSMTXT*, and another one named *owstaxIdTechnicalSubject*. They represent the site columns *Content Summary* and *Technical Subject*. For more info about the "transformation" of site columns into managed properties, see [From site column to managed property - What's up with that?](../administration/from-site-column-to-managed-propertywhat-s-up-with-that.md).
     
      ![Managed Properties](../media/OTCSP_ManagedProperties.png)
   
-4. On a search page, a user enters a query, for example  *customize search results*  . 
+4. On a search page, a user enters a query, for example *customize search results*. 
     
      ![Query](../media/OTCSP_Query.png)
   
-5. On a search results page, search results are displayed in a **Search Results Web Part**. The Web Part uses display templates that specify that the values from the managed properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  should be displayed in the search results (the display templates also specify many other things, but for now, let's just concentrate on the values of these two managed properties). The second search result is the list item created in step 1. We can see that the values from the managed properties  *ContentSummaryOWSMTXT*  and  *owstaxIdTechnicalSubject*  are displayed in the search result. 
+5. On a search results page, search results appear in a **Search Results Web Part**. The Web Part uses display templates that specify that the values from the managed properties *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject* should appear in the search results (the display templates also specify many other things, but for now, let's just concentrate on the values of these two managed properties). The second search result is the list item created in step 1. We can see that the values from the managed properties *ContentSummaryOWSMTXT* and *owstaxIdTechnicalSubject* appear in the search result. 
     
      ![Search Result](../media/OTCSP_SearchResult.png)
   
-You can also see details such as a small icon next to each search result on the page. These icons represent the site to which the article is published, such as Office.com and TechNet. The search result also contains the words "Technical Subject" in front of the value  *search*  . Later in this series, you'll learn how to add the icons and the words. But first, let's explore more details about how search results are displayed. 
+You can also see details such as a small icon next to each search result on the page. These icons represent the site to which the article is published, such as Office.com and TechNet. The search result also contains the words "Technical Subject" in front of the value *search*. Later in this series, you'll learn how to add the icons and the words. But first, let's explore more details about how search results are displayed. 
     
 ### Next article in this series
 

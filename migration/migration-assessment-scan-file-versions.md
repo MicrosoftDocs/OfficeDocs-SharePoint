@@ -3,7 +3,7 @@ title: "Migration Assessment Scan File Versions"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
@@ -32,7 +32,7 @@ Versions have historically impacted the length of a migration for a given site i
   
 ## Data Migration
 
-By default, versioning is enabled for all lists and libraries on the target platform. In the destination SPO site, there is no limit when versioning is enabled.
+By default, versioning is enabled for all lists and libraries on the target platform. In the destination SharePoint site, there is no limit when versioning is enabled.
   
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 

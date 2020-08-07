@@ -48,7 +48,7 @@ Consider the following situations and note what the AD import option does not su
     
   - If you have a trust between two forests, the trusted forest objects will not be imported.
     
-  - AD import does support importing users from multiple forests provided you create one synchronization connection per forest. As an alternative, consider using Microsoft Identity Manager.
+  - AD import does support importing users from multiple domains provided you create one synchronization connection per domain. As an alternative, consider using Microsoft Identity Manager.
     
 - The AD import option does not support Contact objects (also known as cross-object pointers).
     
@@ -202,4 +202,3 @@ To import profiles, you must have at least one synchronization connection to AD 
 #### Other Resources
 
 [Update-SPProfilePhotoStore](/powershell/module/sharepoint-server/Update-SPProfilePhotoStore?view=sharepoint-ps)
-

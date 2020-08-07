@@ -3,7 +3,7 @@ title: "Migration Assessment Scan Large Excel Files"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:

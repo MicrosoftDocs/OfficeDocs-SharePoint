@@ -106,4 +106,4 @@ Use this procedure to lock or unlock a site collection by using PowerShell.
 
 #### Other Resources
 
-[Manage site collections and global settings in the SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=845346)
+[SharePoint planning guide](/sharepoint/planning-guide)

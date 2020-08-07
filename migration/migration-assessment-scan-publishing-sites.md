@@ -3,7 +3,7 @@ title: "Migration Assessment Scan Publishing Sites"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:
@@ -26,7 +26,7 @@ ms.assetid: 33af6b99-4b90-4edd-8ff7-e8fe2f288d3d
 
 ## Overview
 
-Publishing sites are typically customized intranet sites that rely on page layouts to allow end users to quickly create articles that are published to end users. Due to the high level of customizations that are involved with publishing sites, they may be difficult to migrate to SPO without a lot of remediation.
+Publishing sites are typically customized intranet sites that rely on page layouts to allow end users to quickly create articles that are published to end users. Due to the high level of customizations that are involved with publishing sites, they may be difficult to migrate to SharePoint in Microsoft 365 without a lot of remediation.
   
 ## Data Migration
 
