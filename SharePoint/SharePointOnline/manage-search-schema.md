@@ -3,7 +3,6 @@ title: "Manage the search schema in SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
-ms.author: mikeplum
 manager: pamgreen
 audience: Admin
 f1.keywords:
