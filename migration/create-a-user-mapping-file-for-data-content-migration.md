@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
-ms.date: 01/11/2018
+ms.date: 08/12/2020
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -17,7 +17,6 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 search.appverid: MET150
-ms.assetid: 28c42985-1fd6-49d6-b9c5-b7f35e83efa1
 description: "Create a user-mapping file for data content migration while using the SharePoint Migration Tool."
 ---
 
@@ -36,10 +35,20 @@ A default user-mapping file is used when migrating your data from a local file s
   
  **CSV file format**
   
-Here's an example of the format for the CSV file.
+>[!Important]
+>For **SharePoint Server 2010** migrations, only the log in name is supported in column A.
+>
+>For **SharePoint Server 2013 and higher**, you may use either the log in name or the SID in column A.
+
+For all SharePoint Server versions:
   
-![User-mapping file for data content migration](media/7ff2f07d-7e67-4834-974b-34651cc5e79f.jpg)
-  
+![User-mapping file for data content migration](media/spmt-user-mapping.png)
+
+Only SharePoint Server 2013 & 2016 may use this format, in addition to using a log in name.
+
+![User-mapping for 2013 and 2016](media/spmt-user-mapping-2013.png) 
+
+
 > [!IMPORTANT]
 > Do not include a header row in your CSV file. 
   
