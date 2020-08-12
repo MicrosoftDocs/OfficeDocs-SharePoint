@@ -16,6 +16,24 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Frontend v1.18.2  (August 6, 2020)
+
+- While using the App, notifications are sent to let you know if your request has been successful or if an error has occurred. The height and text size of notifications have been increased to improve visibility and awareness.
+
+- A message will display if you are trying to authorize Office 365 with a tenant that lacks SharePoint Online licenses.
+
+- You will not see Google pre-scan warnings when connecting to a G Suite source connector in the Transfer Wizard.
+
+- All non-success notifications will stay open for the user to read. Success notifications will automatically close after 5 seconds.
+
+## Backend v1.19.3 (Aug 6, 2020)
+
+End of life notification and bug fix.
+ 
+- The connectors for Amazon WorkDocs and NetDocuments have reached end of life. The connectors were deprecated July 1, 2020, and existing users notified. These connectors are no longer available.
+
+- When a migration job failed to submit during a migration into Office 365, error entries were not being added to the user log or migration error report. This has now been fixed.  All files contained in the failed migration job now have an error entry in the user log and the migration error report.
+
 ## Backend v1.19.2 (July 31, 2020)
 
 Migration Report improvements and bug fixes.

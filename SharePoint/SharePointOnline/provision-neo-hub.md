@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Overview of the Microsoft New Employee Onboarding hub"
 ---
 
@@ -106,7 +105,7 @@ To successfully set up the NEO hub via the SharePoint look book, the person doin
 
 ### Enable external sharing for the Pre-onboarding site
 
-The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](https://review.docs.microsoft.com/sharepoint/change-external-sharing-site?branch=hokavian-neo-hub) for the Pre-onboarding site.  
+The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](https://docs.microsoft.com/sharepoint/change-external-sharing-site?branch=hokavian-neo-hub) for the Pre-onboarding site.  
 
 ### Add owners to all sites
 As the Global admin, you may not be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
@@ -171,7 +170,7 @@ This is where a new hire starts their onboarding journey. This site is for new h
 - **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
 
   > [!IMPORTANT]
-  > Plan to connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.comoffice/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820).
+  > Plan to connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.com/office/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820).
 
 - **Welcome** – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
 - **Contoso 101** – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
@@ -346,6 +345,14 @@ The NEO Hub should present the most up to date content your organization has to 
 <br>
 
 **Answer**:Post your questions and comments about the provisioning of the NEO hub to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).
+
+**Question**: Where can I share feedback for ideas on how to improve the SharePoint site experience? 
+<br>
+
+**Answer**:Post your ideas and comments about SharePoint sites in the [Site and Collaboration User Voice Forum](**Question**: Where can I ask questions or report an issue with the SharePoint provisioning service? 
+<br>
+
+**Answer**:Post your questions and comments about the provisioning of the NEO hub to the SharePoint [provisioning service forum](https://sharepoint.uservoice.com/forums/329214-sites-and-collaboration?category_id=144408).
 
 **Sources**:
 
