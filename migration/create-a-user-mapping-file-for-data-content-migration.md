@@ -62,9 +62,9 @@ The following example uses Excel to create the CSV file.
     
   - **Column A:** From the source location, enter the **log in name of the user**.  *Required.* 
     
-  - **Column B:** On the target site, enter the **principal username**.  *Required.* 
+  - **Column B:** On the target site, enter the **user principal name (UPN)**.  *Required.* 
     
-  - **Column C:** If the principal username on the target site is an Active Directory (AD) group, enter **TRUE**. If it's not an AD group, enter **FALSE**.  *Required.* 
+  - **Column C:** If the user principal name (UPN) on the target site is an Active Directory (AD) group, enter **TRUE**. If it's not an AD group, enter **FALSE**.  *Required.* 
     
 3. Close and save as a comma-delimited (\*.csv) file.
     
