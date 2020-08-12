@@ -39,7 +39,7 @@ Here's an example of the format for the CSV file.
 >[!Important]
 >For **SharePoint Server 2010** migrations, only the log in name is supported in column A.
 >
->For **SharePoint Server 2013 and higher**, you may use either the login name or the SID in column A.
+>For **SharePoint Server 2013 and higher**, you may use either the log in name or the SID in column A.
 
 For all SharePoint Server versions:
   
