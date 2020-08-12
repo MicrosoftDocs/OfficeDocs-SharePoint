@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
-ms.date: 01/11/2018
+ms.date: 08/12/2020
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -17,7 +17,6 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 search.appverid: MET150
-ms.assetid: 28c42985-1fd6-49d6-b9c5-b7f35e83efa1
 description: "Create a user-mapping file for data content migration while using the SharePoint Migration Tool."
 ---
 
@@ -38,7 +37,7 @@ A default user-mapping file is used when migrating your data from a local file s
   
 Here's an example of the format for the CSV file.
   
-![User-mapping file for data content migration](media/7ff2f07d-7e67-4834-974b-34651cc5e79f.jpg)
+![User-mapping file for data content migration](media/spmt-user-mapping.png)
   
 > [!IMPORTANT]
 > Do not include a header row in your CSV file. 
