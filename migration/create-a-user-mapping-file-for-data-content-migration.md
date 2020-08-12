@@ -35,7 +35,6 @@ A default user-mapping file is used when migrating your data from a local file s
   
  **CSV file format**
   
-Here's an example of the format for the CSV file.
 >[!Important]
 >For **SharePoint Server 2010** migrations, only the log in name is supported in column A.
 >
