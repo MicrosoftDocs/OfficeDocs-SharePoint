@@ -119,3 +119,36 @@ To check your transfer data usage, follow these steps.
 
 1. Log in. To visit your **Account** settings, in the top right corner of our app, select **account email**.
 2. By default, you are already in the **Plan** section.
+
+## How do I add an adminstrator to a Mover account?
+
+To add an Administrator to your Mover account: 
+1. Login to your account 
+2. Select your username in the upper right corner
+3. Choose the “Admin” tab
+4. Enter the email you wish to add under "add a mover account as your administrator". 
+
+>[!Note]
+> This will enable the Administrator to have full access to your account and act on your behalf for:
+>- Existing connectors
+>- Authorizing new connectors under your account
+>- Monitoring existing migrations
+>- Creating new migrations under your account
+>- The newly added Administrator will not receive and email invitation to administer your account. 
+>- The user must have their own valid Mover account before they can be added as an Administrator
+
+
+## As an administrator, how do log in using a different Mover account?  
+
+1. Login as yourself. 
+2. Select your username in the upper right corner
+3. Click the “Admin” tab.
+4. Under "Accounts you administer", you should see the accounts you can administer.
+5. Select **Login As**.
+
+
+Understanding the Login-as interface:
+•	(1) Shows the account are logged in as 
+•	(2) Allows them to return to their own Mover account. 
+•	(3) List of existing connectors under the user’s account
+•	(4) Monitor and execute migrations in the Migration Manager on the user’s behalf.
