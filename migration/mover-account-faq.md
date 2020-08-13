@@ -132,7 +132,7 @@ To add an Administrator to your Mover account:
 
 
 >[!Note]
-> This will enable the Administrator to have full access to your account and act on your behalf for:
+> This lets the Administrator to have full access to your account and act on your behalf for:
 >- Existing connectors
 >- Authorizing new connectors under your account
 >- Monitoring existing migrations
@@ -147,14 +147,21 @@ To add an Administrator to your Mover account:
 2. Select your username in the upper right corner
 3. Select the “Admin” tab.
 4. Under **Accounts you administer**, select the account you want to log in to.
+5. Select **Login As**.
 
 ![Accounts you can administer](media/mover-add-admin2.png)
 
-5. Select **Login As**.
 
 
-Understanding the Login-as interface:
-•	(1) Shows the account are logged in as 
-•	(2) Allows them to return to their own Mover account. 
-•	(3) List of existing connectors under the user’s account
-•	(4) Monitor and execute migrations in the Migration Manager on the user’s behalf.
+
+## Login-as options
+
+![Accounts you can administer](media/mover-add-admin3.png)
+
+(1) Shows the account you logged in as
+ 
+(2) Allows you to return to your own Mover account
+ 
+(3) List of existing connectors under the account
+
+(4) Monitor and execute migrations in the **Migration Manager** on the user’s behalf.
