@@ -15,6 +15,10 @@ description: "Mover - reviewing users before migration"
 ---
 # Mover migration: Reviewing your users
 
+## User caching
+
+Once we have loaded your users, *do not* modify your users in any way. Our system caches usernames once the connector is loaded, and any modification of usernames in Microsoft 365 or your source system after you connect will cause failures. We cache these names for four days.
+
 ## Checking paths
 
 Confirm that the users in the source match the users in the Office 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
