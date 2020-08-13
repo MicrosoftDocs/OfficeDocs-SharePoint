@@ -128,6 +128,9 @@ To add an Administrator to your Mover account:
 3. Choose the “Admin” tab
 4. Enter the email you wish to add under "add a mover account as your administrator". 
 
+![Click admin then enter email](media/mover-add-admin1.png)
+
+
 >[!Note]
 > This will enable the Administrator to have full access to your account and act on your behalf for:
 >- Existing connectors
@@ -143,7 +146,10 @@ To add an Administrator to your Mover account:
 1. Login as yourself. 
 2. Select your username in the upper right corner
 3. Click the “Admin” tab.
-4. Under "Accounts you administer", you should see the accounts you can administer.
+4. Under **Accounts you administer**, select the account you want to log in to.
+
+![Accounts you can administer](media/mover-add-admin2.png)
+
 5. Select **Login As**.
 
 
