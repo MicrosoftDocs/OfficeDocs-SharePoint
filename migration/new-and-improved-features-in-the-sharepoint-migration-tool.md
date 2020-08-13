@@ -28,11 +28,23 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.5](https://aka.ms/spmt-beta-page) |[3.4.119.5](https://aka.ms/spmt-ga-page)|[3.4.119.3](https://aka.ms/spmt-ga-page) |[3.4.119.3](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.6](https://aka.ms/spmt-beta-page) |[3.4.119.6](https://aka.ms/spmt-ga-page)|[3.4.119.3](https://aka.ms/spmt-ga-page) |[3.4.119.3](https://aka.ms/spmt-ga-page)|
 
-### SPMT Public Preview  (3.4.119.5)
+
+## Public Preview SPMT 3.4.119.6
 
 The following features are now available in the public preview version of the SharePoint Migration Tool.
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|General|General improvements have been made to fix some bugs in tool.
+
+
+## SPMT 3.4.119.5
+
+The following features are now available in the SharePoint Migration Tool.
 
 **Improvements**
 
@@ -41,7 +53,7 @@ The following features are now available in the public preview version of the Sh
 |List URL|The original List URL end part format will now be preserved in the destination. 
 
 
-### SPMT 3.4.119.4
+## SPMT 3.4.119.4
 
 The following features were added to the SharePoint Migration Tool in this release:
 
@@ -53,7 +65,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 
 
-### SPMT 3.4.119.3
+## SPMT 3.4.119.3
 
 The following features were added to the SharePoint Migration Tool in this release:
 
@@ -68,7 +80,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |Teams|Improvement in teams pages migration.|
 
 
-### SPMT 3.4.119.2
+## SPMT 3.4.119.2
 
 The following features were added to the SharePoint Migration Tool in this release:
 
@@ -84,7 +96,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 
 
-### SPMT 3.2.119.2
+## SPMT 3.2.119.2
 
 The following features were added to the SharePoint Migration Tool in this release:
 
@@ -106,7 +118,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |Performance|General improvements have been made to the tool.|
 
 
-### SPMT 3.2.118.0
+## SPMT 3.2.118.0
 
 **New features**
 
@@ -134,7 +146,7 @@ In addition to several minor fixes, the primary improvements made in this releas
 
 
 
-### SPMT 3.2.115.3
+## SPMT 3.2.115.3
 
 **New features**
 
@@ -161,7 +173,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 
 
 
-### SPMT 3.2.114.0
+## SPMT 3.2.114.0
 
 **New features**
 
@@ -185,7 +197,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 
 
 
-### SPMT V3.1.110.1
+## SPMT V3.1.110.1
 
 **New features**
 
@@ -214,7 +226,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 
 
 
-### SPMT V2.1.102.0
+## SPMT V2.1.102.0
 
 **New features**
 
@@ -233,7 +245,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 |Stability|General improvements have been made to remove some errors in tool.|
 
 
-### SPMT V2.1.101.6
+## SPMT V2.1.101.6
 
 **New features**
 
@@ -253,7 +265,7 @@ In addition to several minor fixes, here are the primary improvements made in th
 |Stability|General improvements have been made to remove some errors in tool.|
 
    
-### SPMT V2.1.101.0
+## SPMT V2.1.101.0
 
 **New features**
 
@@ -276,7 +288,7 @@ In addition to a number of minor fixes, here are the primary improvements made i
 
 
 
-### SPMT V2.1.100.0
+## SPMT V2.1.100.0
 
 **New features**
 
@@ -309,7 +321,7 @@ In addition to a number of minor fixes, here are the primary improvements made i
 |Permissions settings<br/> |Separate settings are now available to set file share permissions and the SharePoint on-premises permissions. <br/> |
 |Changes to migrating multiple versions <br/> |Checked-in version(s) of a file will migrate but any the checked-out version will not. <br/> |
 
-### SPMT V1.1.90.1
+## SPMT V1.1.90.1
 
 **New features**
 
