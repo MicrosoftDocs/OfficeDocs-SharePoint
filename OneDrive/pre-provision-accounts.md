@@ -42,7 +42,8 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 - For info about the storage you get with each plan, see [OneDrive Service Description](https://docs.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description).
   
 > [!IMPORTANT]
-> The user accounts that you are pre-provisioning must be allowed to sign in.
+> The user accounts that you are pre-provisioning must be allowed to sign in and must also have a SharePoint license assigned.
+>The actor executing this cmdlet must be at least assigned the SharePoint Online administrator role and have been assigned a SharePoint Online license to be able to provision the OneDrive. 
 
 ## Pre-provision OneDrive for users
 
