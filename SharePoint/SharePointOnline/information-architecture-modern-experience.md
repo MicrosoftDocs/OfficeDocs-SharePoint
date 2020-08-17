@@ -23,11 +23,9 @@ description: "In this article, you'll learn about information architecture in th
 
 # Information architecture in modern SharePoint
 
-Having a solid information architecture is an important prerequisite for realizing a well-maintained and well-performing portal. A good information architecture helps people find what they need and accomplish the tasks they want to complete – in a way that makes sense to them. Information architecture includes how you will organize and label your content and how your visitors will interact with the content to get work done.
+Having solid information architecture is an important prerequisite for realizing a well-maintained and well-performing portal. Good information architecture helps people find what they need and accomplish the tasks they want to complete – in a way that makes sense to them. Information architecture includes how you will organize and label your content and how your visitors will interact with the content to get work done. Great information architecture helps improve user adoption, satisfaction and productivity, reduce IT cost, reduce information overload, and minimize compliance and bad information risk.
 
-A great information architecture helps improve user adoption, satisfaction and productivity, reduce IT cost, reduce information overload, and minimize compliance and bad information risk.
-
-Designing the optimal structure requires good planning. It requires knowledge of the domain or content to be modeled, understanding the user and user experiences, and awareness of approaches and best practices in Microsoft SharePoint. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Plus, the more you learn about your users, the more discoverable you can make your content.
+Designing the optimal structure requires sufficient planning. It also requires knowledge of the domain or content to be modeled, understanding the user and user experiences, and awareness of approaches and best practices in Microsoft SharePoint. Even with a good plan, information architecture is a continuous process. Over time, organizations change, people change, and projects change. Plus, the more you learn about your users, the more discoverable you can make your content.
 
 ## Understand your users
 
