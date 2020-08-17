@@ -241,8 +241,9 @@ To enable swift and painless copying of data from on-premises desktop and server
 ### Compatibility
 
 Windows XP is not supported.
-All other versions of Windows require the .NET Framework 4.6 for the Agent to function.
-Download and manually install .NET Framework 4.6 from this **link**.
+All other versions of Windows require the Microsoft .NET Framework 4.6 for the Agent to function.
+
+[Download and manually install Microsoft .NET Framework 4.6](https://www.microsoft.com/en-ca/download/details.aspx?id=48130)
 
 ### Security
 
