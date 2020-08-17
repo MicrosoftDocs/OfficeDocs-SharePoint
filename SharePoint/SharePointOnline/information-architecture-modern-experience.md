@@ -74,7 +74,7 @@ No matter which framework you are using, to help make good decisions for navigat
 
 A hub is a special capability that a SharePoint Administrator can add to a site that designates a site as the “head” of a family of related sites. Sites that are associated to the hub share navigation, branding, and other elements.
 
-Each site can belong to only one hub at a time, but you can associate hubs together in a combination of navigation links and associated hubs as part of your navigation experience. Using hubs is far more flexible and adaptive to the changing needs of your organization. For more info, see [Planning your SharePoint hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites)
+Each site can belong to only one hub at a time, but you can associate hubs together in a combination of navigation links and associated hubs as part of your navigation experience. Using hubs is far more flexible and adaptive to the changing needs of your organization. For more info, see [Planning your SharePoint hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites).
 
 ## Home site
 
