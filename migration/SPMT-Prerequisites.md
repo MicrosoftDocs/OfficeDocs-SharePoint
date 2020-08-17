@@ -68,6 +68,9 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https://<span><span>static2.sharepointonline.<span><span>com|UI icons|
 
 
+
+## Optional endpoints
+
 |**Optional Endpoint**|**Why**|
 |:-----|:-----|
 |https://<span><span>*.table.core.windows.net|Optional endpoint.|Required only if you opted to opted to use your Azure Storage account.  See **Use custom Azure storage** in Settings.|
