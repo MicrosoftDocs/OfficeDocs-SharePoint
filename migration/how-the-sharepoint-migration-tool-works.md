@@ -3,7 +3,7 @@ title: "How does the SharePoint Migration Tool work?"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

@@ -1,8 +1,8 @@
 ---
-title: How to think about your modern intranet
+title: How to think about your intelligent intranet
 ms.reviewer: holland-odsp
 ms.author: holland-odsp
-author: holland-odsp
+author: pamgreen-msft
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -18,19 +18,19 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "In this article, you'll learn about how to think about your modern intranet."
+description: "In this article, you'll learn about how to think about your intelligent intranet."
 ---
-# How to think about your modern intranet
+# How to think about your intelligent intranet
 
 These days, there's an abundance of discussions about best practices to modernize your intranet - designing an intranet the new way, in the “modern” way, in the intelligent way - and so on. There aren't many discussions about what modern means as a concept, how modern thinking relates to technology, and how to apply modern principals to your organization's intranet. 
 
 Use this guide to understand how to leverage SharePoint to meet your organization's needs through integrating modern concepts into the design of your intranet, portals, and sites.
 
-## What does modern mean?
+## What does intelligent mean?
 
-In the modern world, the intranet should be the center of your workplace. A modern SharePoint intranet is engaging, informative, personalized, and integrated with the other portals and sites in your intranet as well as other Microsoft 365 apps like Microsoft Teams and Yammer. Modern intranets take many shapes and sizes depending on the ever-evolving needs of the business.
+In the modern world, the intranet should be the center of your workplace. An intelligent SharePoint intranet is engaging, informative, personalized, and integrated with the other portals and sites in your intranet as well as other Microsoft 365 apps like Microsoft Teams and Yammer. Modern intranets take many shapes and sizes depending on the ever-evolving needs of the business.
 
-Hallmarks of what constitutes a modern intranet:
+Hallmarks of what constitutes an intelligent intranet:
 
 - **Rapid deployment**: Adaptable designs can be built using out of the box pages and web parts and no longer solely depends on IT to deploy.
 
@@ -54,7 +54,7 @@ What makes modernizing your intranet worth the effort:
 
 - **Improves the likelihood of intranet success**: Viewers are more likely to use the intranet when content is relevant, easy to navigate, and mobile.
 
-## How to think about modern
+## How to think about intelligent intranets
 
 ### Secure and accessible
 

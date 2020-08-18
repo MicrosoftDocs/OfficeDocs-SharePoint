@@ -2,7 +2,7 @@
 title: Mover - Create a new migration with a CSV file
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
@@ -35,9 +35,16 @@ A heading for the source and destination, followed by the paths, and optional ta
 >[!Note]
 >Ensure your CSV has no spaces after each comma separated value. Values that require commas must be wrapped in quotation marks.
 
-Download an example CSV:
+Sample CSV file format:
 
-**example_CSV_map.csv**
+|Source Path|Destination Path|Tags|
+|:-----	|:-----	|:-----	|
+|user01@domain<span><span>.com|user_01@domain.<span><span>com|
+|Team Folder|user_02@domain.<span><span>com|
+|Shared Drive|user_03@domain.<span><span>com|
+|/C:/folder|user_04@domain.<span><span>com|
+|user01@domain<span><span>.<span><span>com|https<span><span>://TENANT01.<span><span>sharepoint.<span><span>com/sites/SiteName/Shared%20Documents|
+|https<span><span>://<span><span>TENANT01.sharepoint.<span><span>com/sites/SiteName/Shared%20Documents|https<span><span>://TENANT02.<span><span>sharepoint.<span><span>com/sites/SiteName/Shared%20Documents|
 
 >[!Note]
 >When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.

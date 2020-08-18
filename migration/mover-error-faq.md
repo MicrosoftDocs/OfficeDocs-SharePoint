@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Mover migration errors
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online

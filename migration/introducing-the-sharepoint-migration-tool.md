@@ -3,7 +3,7 @@ title: "SharePoint Migration Tool for SharePoint and OneDrive"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -26,7 +26,7 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 
 **SPMT** lets you migrate content to SharePoint and OneDrive from the following locations:
 
-- SharePoint Server 2016 (Public Preview)
+- SharePoint Server 2016
 - SharePoint Server 2013
 - SharePoint Foundation 2013
 - SharePoint Server 2010
@@ -44,10 +44,9 @@ Designed to be used for migrations ranging from the smallest set of files to a l
 Download and install SPMT using one of the links listed below.  
 
 
-||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
-|:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.1](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)  |[3.4.119.1](https://aka.ms/spmt-ga-page)|[3.2.119.0](https://aka.ms/spmt-ga-page) |[3.2.118.0](https://aka.ms/spmt-ga-page)|
-
+|**Public preview**|**First release**|**General Availability**|
+|:-----|:-----|:-----|
+|[Install here](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm) |[Install here](https://aka.ms/spmt-ga-page)|[Install here](https://aka.ms/spmt-ga-page)|
 
 
 

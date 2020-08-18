@@ -2,7 +2,7 @@
 title: Mover migration - Setting up your Box source connector
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
@@ -11,7 +11,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "Setting up your Box source connector to migrate to Microsoft 365."
+description: "Setting up your Box source connector to migrate to Office 365."
 ---
 # Setting up your source:  Box
 

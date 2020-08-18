@@ -102,7 +102,7 @@ Each organization will have its own set of policies and guidelines. General topi
 
 
 ### Site provisioning and decommissioning
-A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience#guiding-principle--the-world-is-flat) which means that your intranet will contain a lot of sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance.  There are two popular solutions to governing new site creation:
+A key intranet governance decision involves determining who can create a new intranet site. Your modern [intranet architecture will be “flat”](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience#guiding-principle--the-world-is-flat) which means that your intranet will contain a lot of sites. Do you want to provide a self-service model for new intranet sites or do you want to manage site creation through a form submission and workflow? There is no right answer to this question – but no matter which approach you choose, you need to think about governance. There are two popular solutions to governing new site creation:
 
 
 #### Implement a site request process for intranet sites
@@ -201,16 +201,15 @@ Your intranet measurement plan should be aligned to the criteria for success def
 
 Look for metrics that are more than just page views. Just because a page is viewed does not mean it is adding value to users. Instead, look at metrics that measure business value. For example, are you seeing fewer support tickets related to expense processing because your intranet was updated to include better and more up-to-date content about expense reports? Are you seeing fewer help desk calls regarding how to upload documents because you have updated your training content and made it more accessible? Are HR representatives spending more time on unique issues because the HR content is organized more effectively?
 
-If your initial design plan identified key business outcomes or surveyed users to ensure they had easy access to the information they need for their job, repeat the process after you have deployed or updated your intranet to identify the business impact of your intranet update or investment. Supplement this data with qualitative feedback from site owners and users to create a comprehensive assessment of the effectiveness of your intranet and your governance plan.
+If your initial design plan identified key business outcomes or surveyed users to ensure they had easy access to the information they need for their job, repeat the process after you have deployed or updated your intranet to identify the business impact of your intranet update or investment. Supplement this data with qualitative feedback from site owners and users to create a comprehensive assessment of the effectiveness of your intranet and your governance plan. Don't be afraid to decommission content or sites that are no longer relevant. You can optimize your intranet value by using metrics to identify duplicate, out-dated, and irrelevant content and sites. 
 
 
 
 ### Additional intranet governance resources:
 
-[SharePoint governance overview](https://review.docs.microsoft.com/sharepoint/governance-overview?branch=hokavian-intranet-governance)
+[SharePoint governance overview](https://docs.microsoft.com/sharepoint/governance-overview)
 
-[How to think about your modern intranet](https://review.docs.microsoft.com/sharepoint/trad-vs-modern-intranet?branch=hokavian-intranet-governance)
-
+[How to think about your modern intranet](https://docs.microsoft.com/sharepoint/trad-vs-modern-intranet)
 
 
 

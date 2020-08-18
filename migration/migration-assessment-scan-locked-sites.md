@@ -3,7 +3,7 @@ title: "Migration Assessment Scan Locked Sites"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 7/5/2017
 audience: ITPro
 f1.keywords:

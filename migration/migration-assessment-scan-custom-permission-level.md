@@ -3,7 +3,7 @@ title: "Migration Assessment Scan Custom Permission Level"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 12/14/2017
 audience: ITPro
 f1.keywords:

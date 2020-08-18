@@ -1,7 +1,7 @@
 ---
 title: Mover Migration FAQ
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
@@ -29,7 +29,7 @@ Here are a few examples of how we deal with changes to files and folders.
 
 **Content changes**: If a document is edited in your source or you have added a few new files, we copy them to your destination on the next incremental run, overwriting the previously existing file(s) in the destination.
 
-**Name changes**: If the name of a file or folder changes in Office 365, we treat it as a brand new object. This can lead to duplicate files being migrated to Microsoft 365, or worse in that entire folders worth of data would be duplicated from the changed folder downwards.
+**Name changes**: If the name of a file or folder changes in Office 365, we treat it as a brand new object. This can lead to duplicate files being migrated to Office 365, or worse in that entire folders worth of data would be duplicated from the changed folder downwards.
 
 **Example**: Changing the path `/Sales/Clients` to `/Global Sales/Clients` results in two copies of your `Sales` folder after the `Global Sales` folder is also copied during an incremental pass.
 
@@ -37,15 +37,15 @@ Here are a few examples of how we deal with changes to files and folders.
 
 We never delete your data from any source. Our app simply takes your data from one place and copies it to another—akin to *copy and paste* rather than *cut and paste.* We also don't retain any of your cloud storage data for any reasons.
 
-We strive to keep your users' experience as similar as possible between your new Microsoft 365 and old Office 365 domains.
+We strive to keep your users' experience as similar as possible between your new Office 365 and old Office 365 domains.
 
 ## How are permissions affected?
 
-When moving to Microsoft 365 from Office 365, user roles *on folders* change.
+When moving to Office 365 from Office 365, user roles *on folders* change.
 
 During a migration, we do not explicitly set a user as an owner of data.
 
-In Microsoft 365, ownership of files and folders is always implicitly set by virtue of copying data into a user.
+In Office 365, ownership of files and folders is always implicitly set by virtue of copying data into a user.
 
 ## Translating permissions
 
@@ -71,7 +71,7 @@ We do not share content with external collaborators. This policy is in place to 
 
 ## Does Mover preserve file versions?
 
-We do not preserve file versions. During a migration, only the most recent version of a file is transferred to Microsoft 365 from Office 365.
+We do not preserve file versions. During a migration, only the most recent version of a file is transferred to Office 365 from Office 365.
 
 ## Does Mover notify users?
 
