@@ -1,5 +1,5 @@
 ---
-title: "Azure AD B2B integration for SharePoint & OneDrive"
+title: Azure AD B2B integration for SharePoint & OneDrive
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,8 +15,8 @@ search.appverid:
 ms.collection: M365-collaboration
 ms.custom:
  - Adm_O365
-- seo-marvel-apr2020
-description: "In this article, you'll learn about the SharePoint and OneDrive integration with Azure AD B2B (preview)."
+ - seo-marvel-apr2020
+description: In this article, you'll learn about the SharePoint and OneDrive integration with Azure AD B2B (preview).
 ---
 
 # SharePoint and OneDrive integration with Azure AD B2B (Preview)
