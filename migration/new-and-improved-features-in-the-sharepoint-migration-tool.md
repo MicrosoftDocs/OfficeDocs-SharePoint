@@ -1,5 +1,5 @@
 ---
-title: "New and improved features in the SharePoint Migration Tool"
+title: "SharePoint Migration Tool (SPMT) Release notes"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -14,7 +14,7 @@ mscollection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: "Learn about the new features and updates to existing features in SharePoint Migration Tool."
+description: "Learn about the new features and updates to existing features in SharePoint Migration Tool in these release notes."
 ---
 
 # Release Notes:  SharePoint Migration Tool (SPMT)
@@ -28,10 +28,10 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.6](https://aka.ms/spmt-beta-page) |[3.4.119.6](https://aka.ms/spmt-ga-page)|[3.4.119.3](https://aka.ms/spmt-ga-page) |[3.4.119.3](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.6](https://aka.ms/spmt-beta-page) |[3.4.119.6](https://aka.ms/spmt-ga-page)|[3.4.119.6](https://aka.ms/spmt-ga-page) |[3.4.119.6](https://aka.ms/spmt-ga-page)|
 
 
-## Public Preview SPMT 3.4.119.6
+## SPMT 3.4.119.6
 
 The following features are now available in the public preview version of the SharePoint Migration Tool.
 
@@ -39,7 +39,7 @@ The following features are now available in the public preview version of the Sh
 
 |**Issue**|**Fix**|
 |:----|:-----|
-|General|General improvements have been made to fix some bugs in tool.
+|General|General improvements have been made in addition to some minor bug fixes in tool.
 
 
 ## SPMT 3.4.119.5
