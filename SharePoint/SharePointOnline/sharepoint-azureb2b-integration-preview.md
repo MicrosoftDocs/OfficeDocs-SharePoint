@@ -12,9 +12,9 @@ ms.service: sharepoint-online
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom: Adm_O365
 ms.collection: M365-collaboration
 ms.custom:
+ - Adm_O365
 - seo-marvel-apr2020
 description: "In this article, you'll learn about the SharePoint and OneDrive integration with Azure AD B2B (preview)."
 ---
