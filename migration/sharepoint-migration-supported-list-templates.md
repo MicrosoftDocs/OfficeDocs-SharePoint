@@ -3,7 +3,7 @@ title: "SharePoint Migration Tool supported SharePoint List templates"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ms.date: 5/9/2018
 audience: Admin
 f1.keywords:

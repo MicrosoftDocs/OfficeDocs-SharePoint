@@ -2,6 +2,6 @@
 title: "Welcome to SharePoint Migration"
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 ---
 # Welcome to sharepointmigration!

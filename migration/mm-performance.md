@@ -2,7 +2,7 @@
 title: Improving your Migration Manager performance
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

@@ -3,7 +3,7 @@ title: "Migrate to Microsoft 365"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -34,9 +34,9 @@ To learn more about the which tool to use, see the table below.
 
 |**Tool/method**|**Description**|**Best for**|
 |:-----|:-----|:-----|
-|Migration Manager|Available in the SharePoint Admin center, Migration Manager provides a centralized way of connecting servers, creating tasks, and automatically distributing your migration tasks.</br> To learn more, see: [Get started with Migration Manager](mm-get-started.md)|Ideal for customers migrating file shares.|
+|Migration Manager|Available in the SharePoint Admin center, Migration Manager provides a centralized way of connecting servers, creating tasks, and automatically distributing your migration tasks.</br> </br>Go to [Migration Manager](https://aka.ms/ODSP-MM) in the new SharePoint admin center. Sign in with an account that has admin permissions for your organization.</br> To learn more, see: [Get started with Migration Manager](mm-get-started.md)|Ideal for customers migrating file shares.|
 |SharePoint Migration Tool|The SharePoint Migration Tool (SPMT) can migrate your files from SharePoint on-premises document libraries, lists or regular files shares.</br></br>Download either the current release or the latest public preview: </br></br>[SharePoint Migration Tool (current release)](https://spmtreleasescus.blob.core.windows.net/install/default.htm) or </br>[SharePoint Migration Tool Public Preview](https://spmtreleasescus.blob.core.windows.net/betainstall/default.htm)|Ideal for migrating SharePoint Server 2010 & 2013 environments.|
-|Mover|Service for cloud to cloud migration. To learn more, see: [Mover](https://mover.io/)|Ideal for migrating data from other cloud service providers into OneDrive or SharePoint.|
+|Mover|Service for cloud to cloud migration. To learn more, see: [Mover](https://mover.io/)|Ideal for migrating data from other cloud service providers.|
 |PowerShell|Using the PowerShell version of the SPMT. See [Migrate to SharePoint using PowerShell](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets).|SPMT is ideal for migrating SharePoint Server 2010 & 2013 environments via PowerShell. |
 |Microsoft FastTrack |Microsoft FastTrack services can help you get started with your migration to the cloud.|When you need assistance to help you get started on your migration project.|
 |Azure Data Box| The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. Once your data is in Azure, use SPMT to migrate content to SharePoint. </br> To learn more, see [Migrate using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)|Ideal when you want remove the dependency on your WAN link to transfer data.|

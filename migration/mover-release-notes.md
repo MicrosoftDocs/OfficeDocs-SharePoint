@@ -1,7 +1,7 @@
 ---
 title: Mover Release Notes
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
@@ -15,6 +15,46 @@ description: "Mover Release Notes"
 # Mover release notes
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
+
+## Frontend v1.18.2  (August 6, 2020)
+
+- While using the App, notifications are sent to let you know if your request has been successful or if an error has occurred. The height and text size of notifications have been increased to improve visibility and awareness.
+
+- A message will display if you are trying to authorize Office 365 with a tenant that lacks SharePoint Online licenses.
+
+- You will not see Google pre-scan warnings when connecting to a G Suite source connector in the Transfer Wizard.
+
+- All non-success notifications will stay open for the user to read. Success notifications will automatically close after 5 seconds.
+
+## Backend v1.19.3 (Aug 6, 2020)
+
+End of life notification and bug fix.
+ 
+- The connectors for Amazon WorkDocs and NetDocuments have reached end of life. The connectors were deprecated July 1, 2020, and existing users notified. These connectors are no longer available.
+
+- When a migration job failed to submit during a migration into Office 365, error entries were not being added to the user log or migration error report. This has now been fixed.  All files contained in the failed migration job now have an error entry in the user log and the migration error report.
+
+## Backend v1.19.2 (July 31, 2020)
+
+Migration Report improvements and bug fixes.
+
+- When authorizing the G Suite Admin source connector, the template showed the prescan warning. As prescan is no longer needed due to its integration into the regular scan and transfer process, the warning from the connector authorization template in the UI has been removed.
+
+- When authorizing or re-authorizing an Office 365 connector, a picker will show accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they are already logged into Microsoft.
+
+- A fix has been made to distinguish OneNote notebooks and folders with .one extensions. Previously, when running a transfer from an Office 365 source, folder names with .one extension would fail to transfer the folders' content to the destination as the app would consider it as OneNote notebook. 
+
+- A fix has been made to correct an issue when signing into Mover. Some users were unable to sign in with their Microsoft account even though authorization seems to have gone fine. The application would redirect them back to the Mover login page after trying to load the UI, without any error messages. This behavior has been fixed; these users can now sign in with their Microsoft accounts.
+
+- A fix has been made to correct discrepancies in the migration reports metrics.  In the future, more fields will be added to this report to give users a better understanding of ongoing migrations.
+
+- When the user tries to authorize the Office 365 connector, and if the tenant lacks M365 licenses, the connector authorization will fail, and the error message "Couldn't retrieve SharePoint Online site list. We suspect your tenant lacks SharePoint Online licenses" will be displayed in the UI.
+
+- When a transfer gets automatically re-queued, its status will now show as "Re-Queued" as opposed to "Queued". When it is running from an automatic re-queue, it will show as "Rerunning".
+
+- Saving the permission map for a migration via the web UI that had a job_limit set or auto_job_limit set (migration scaler) caused those fields to set back to null, and the settings were lost. This issue is now fixed.
+
+- Google Drive now lets users create shortcuts to their drive files as part of migrating the Google Drive app from multi-parenting to single-parenting behavioral models. Shortcuts are files that link to other files on the user's drive. The Mover app currently does not support moving those files to a destination.  When completed, the transfer status row will display yellow, indicating that some files are unsupported and that rerunning won't fix it. 
 
 ## Backend v1.19.0 (July 14, 2020)
 

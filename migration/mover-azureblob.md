@@ -1,7 +1,7 @@
 ---
 title: Mover migration - setup your Azure Blob Storage Connector
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online

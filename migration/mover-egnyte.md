@@ -2,7 +2,7 @@
 title: Mover migration - setting up the Egnyte connector
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
@@ -82,9 +82,9 @@ If you are not already connected after you have authorized your source, select *
 
 ![execution select gdrive source](media/execution-select-egnyte-source.png)
 
-## Connecting your destination Microsoft 365 account
+## Connecting your destination Office 365 account
 
-If you are not already connected after you have authorized your destination, select **Microsoft 365**, and load the connector. An icon appears and show you how many users you are migrating.
+If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
 
 ![execution select m365 destination](media/execution-select-office-365-destination.png)
 

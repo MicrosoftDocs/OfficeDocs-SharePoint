@@ -2,7 +2,7 @@
 title: Authorizing the G Suite Connector
 ms.author: jhendr
 author: JoanneHendrickson
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
@@ -69,6 +69,13 @@ To disable this feature, see the **Sharing** settings for a file, and select **A
 
 ![restricted file](media/restricted-file.png)
 
+
+    
+### What happens to Google Drive shortcuts?
+
+Shortcut files are not supported for migration. These shortcut files will not be transferred.
+
+
 ## Multi-parenting behavior in G Suite Drive
 
 Permissions and ownership of data in a G Suite Drive source can be complicated. To retain a similar directory structure and sharing scheme in the destination, our app must make some decisions on who owns what and where that data is best located.
@@ -77,7 +84,7 @@ Permissions and ownership of data in a G Suite Drive source can be complicated. 
 
 When a folder is shared out to another user, it appears in their **/Shared with me** section. From there, it can be added to the user's /My Drive and then placed in any folder of their choosing, including their own folders, or other shared folders.
 
-Microsoft 365 does not support this same nesting of shared data, which is why we've developed a solution.
+Office 365 does not support this same nesting of shared data, which is why we've developed a solution.
 
 ### Examples
 
@@ -96,11 +103,11 @@ Any file or folder in a user's My Drive may be arbitrarily added to a new locati
 
 ### The solution
 
-#### Layman's terms:
+#### Layperson's terms:
 > For Google Drive, for each user, starting at their root My Drive, we descend into all root folders they own, and then all sub folders regardless of ownership. We transfer content to them while sharing out editors and viewer permissions on any folders, as required. We only stop descending when we find a folder that has already been copied by another user who transferred earlier, including potentially folders at the root My Drive level.
 
 #### A user story:
-> Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner, in which case I will see a shortcut link to my coworker's content in my OneDrive exactly where I expected that folder to be.
+> Any folders I own in my My Drive I will own in OneDrive. I will also own the contents of these folders, whether I technically owned the contents before or not. This is true unless my coworker transfers before me and they become the owner, in which case I will find that folder in my *Shared > Shared With Me* section of OneDrive.
 
 In order to ensure your users still have access to all their important files, our app automatically makes a decision on which user owns a folder when multiple users have conflicting views.
 
