@@ -29,6 +29,10 @@ As a global or SharePoint admin in Microsoft 365, you can set the OneDrive stora
   
 > [!NOTE]
 > For info about setting the default storage space, see [Set the default storage space for OneDrive users](set-default-storage-space.md). For info about the storage available for your Microsoft 365 subscription, see the [OneDrive service description](https://go.microsoft.com/fwlink/?linkid=826071).
+
+> [!NOTE]
+> The ability to change an indivduals storage from the UI is still not available for Multi-Geo enabled tenants. Please continue to utilize the Powershell method outlined below until this functionality becomes available. 
+
   
 ## Change the storage space for a specific user's OneDrive
 
