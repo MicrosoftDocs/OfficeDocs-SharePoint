@@ -81,7 +81,7 @@ Limiting access allows users to remain productive while addressing the risk of a
 > [!NOTE]
 > If you limit access and edit a site from an unmanaged device, image web parts won't display images that you upload to the site assets library or directly to the web part. To work around this issue, you can use this [SPList API](/previous-versions/office/sharepoint-server/mt796229(v%3Doffice.15)) to exempt the block download policy on the site assets library. This allows the web part to download images from the site assets library.
 
->[!NOTE]
+> [!NOTE]
 > When Access Control for Unmanaged Devices in SharePoint is set to **Allow limited, web-only access**, SharePoint files cannot be downloaded but they can be previewed. The previews of Office files work in SharePoint but the previews do not work in Microsoft Yammer.
   
 ## Limit access using PowerShell
