@@ -137,8 +137,6 @@ If you **don’t already have** M365 learning pathways installed in your tenant,
 2. Select **Add to your tenant**. If you aren't signed into to your tenant, the Provisioning Service will ask for your tenant admin credentials.
 3. From the Permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.**
 
-![Image of the app catologue consent](media/app-catolog-consent2.png)
-
 > [!NOTE]
 > By selecting **Consent on behalf of your organization** when adding the App Catalog, there is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
@@ -199,9 +197,7 @@ When the SharePoint Success Site provisioning is complete, the tenant admin who 
 1.	Select the link in the in the email and set up the site
 2.	Go to <YOUR-SITE-COLLECTION-URL>sites/<YOUR-SITE-NAME>/SitePages/CustomLearningAdmin.aspx. 
 <br>
-Opening **CustomLearningAdmin.aspx** initializes the **CustomConfig** list item that sets up learning pathways for first use. You should see a page that looks like this:
-
-![Image of the first use page](media/m365-lp-custom-config.png)
+Opening **CustomLearningAdmin.aspx** initializes the **CustomConfig** list item that sets up learning pathways for first use. 
 
 #### Add owners to the M365 learning pathways site
 Assign a few site owners to grant administrative privileges to customize the site and training content. This includes the ability to hide and show content and to build custom playlists through the learning pathways web part. 
@@ -404,7 +400,6 @@ Key success factors to managing the SharePoint Success Site:
 
 To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](https://docs.microsoft.com/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
 
-![Image of the Yammer conversations web part](media/sss-yammer-example.png)
 
 <<<<<<Note for Holland and Matt - Awareness campaign - use sample SharePoint Success Site launch announcement to drive awareness. We will need to link to sample copy they can edit. <Note: will send mail to get most up to date copy">>>>>>>
 
