@@ -107,20 +107,20 @@ To successfully set up the SharePoint Success Site in your tenant you must insta
 
 <br>
 
-| Tenant admin role | +  | Collection owner of the App catalogue | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
+| Tenant admin role | +  | Collection owner of the App Catalog | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
 
 
 The **person** doing the provisioning must meet the following pre-requisites:
 - Must be a tenant administrator of the tenant - also known as the Office 365 global administrator role - where the SharePoint Success Site will be provisioned. If you are not sure if you have been assigned the global administrator role, please see our troubleshooting steps.
-- The person provisioning the SharePoint Success Site must be a site collection owner of the App Catalogue. If the person provisioning the SharePoint Success Site is not a site collection owner of the App Catalogue, [complete these instructions to continue](https://docs.microsoft.com/office365/customlearning/addappadmin).
+- The person provisioning the SharePoint Success Site must be a site collection owner of the App Catalog. If the person provisioning the SharePoint Success Site is not a site collection owner of the App Catalog, [complete these instructions to continue](https://docs.microsoft.com/office365/customlearning/addappadmin).
 	
 The **tenant** must meet the following provisioning pre-requisites:
-- A SharePoint App Catalogue must be available within your tenant environment. If your organization does not have a SharePoint App catalogue, refer to the [SharePoint Online documentation](https://docs.microsoft.com/sharepoint/use-app-catalog) to create one.
+- A SharePoint App Catalog must be available within your tenant environment. If your organization does not have a SharePoint App Catalog, refer to the [SharePoint Online documentation](https://docs.microsoft.com/sharepoint/use-app-catalog) to create one.
 - Your tenant must have **version 4.0 or higher** of M365 learning pathways. If you need to [upgrade your version](https://docs.microsoft.com/office365/customlearning/custom_update) or determine what version of M365 learning pathways you have review the documentation. If you need to install M365 learning pathways go to the [M365LP solution page](https://docs.microsoft.com/office365/customlearning/custom_provision) and review documentation for set up and configuration. 
 
 > [!IMPORTANT]
-> If you need to create a SharePoint App Catalogue, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
+> If you need to create a SharePoint App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
 
 
 ### Where to get started provisioning 
@@ -138,9 +138,9 @@ If you **don’t already have** M365 learning pathways installed in your tenant,
 3. From the Permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.**
 
 > [!NOTE]
-> By selecting **Consent on behalf of your organization** when adding the App Catalogue, there is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
+> By selecting **Consent on behalf of your organization** when adding the App Catalog, there is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
-4. Wait about 30 minutes for the App Catalogue to finish provisioning before adding the SharePoint Success Site. 
+4. Wait about 30 minutes for the App Catalog to finish provisioning before adding the SharePoint Success Site. 
 5. Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the destination URL for your site to be provisioned to.
 6. Select **Provision** when ready to install M 365 learning pathways into your tenant environment. The provisioning process can take up to 15 minutes. You will be notified via email when the site is ready.
 7. Next, follow instructions for initializing the CustomConfig List
