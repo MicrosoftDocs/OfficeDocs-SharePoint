@@ -84,9 +84,9 @@ The SharePoint Success Site’s up-to-date content feed includes a range of cont
 - **Advanced site creation:** Content for site owners that want to learn beyond site creation basics.
 
 #### Site inspiration
-The introductory section helps new site owners understand the different ways you can leverage SharePoint to meet a business objective. Users will have access to stories that illustrate how to build an onboarding site, a project management site, a site that supports a community of interest, and a team collaboration site. These scenarious provide guidance on how to think about the planning, building, and launching phases.
+The introductory section helps new site owners understand the different ways you can leverage SharePoint to meet a business objective. Users will have access to stories that illustrate how to build an onboarding site, a project management site, a site that supports a community of interest, and a team collaboration site. These scenarios provide guidance on how to think about the planning, building, and launching phases.
 
-![Image of the Success Stories page](media/sss-ways-to-work.png)
+![Image of the Ways to work with SharePoint page](media/sss-ways-to-work.png)
 
 
 #### Success stories
@@ -107,20 +107,20 @@ To successfully set up the SharePoint Success Site in your tenant you must insta
 
 <br>
 
-| Tenant admin role | +  | Collection owner of the App Catolog | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
+| Tenant admin role | +  | Collection owner of the App catalogue | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
 
 
 The **person** doing the provisioning must meet the following pre-requisites:
 - Must be a tenant administrator of the tenant - also known as the Office 365 global administrator role - where the SharePoint Success Site will be provisioned. If you are not sure if you have been assigned the global administrator role, please see our troubleshooting steps.
-- The person provisioning the SharePoint Success Site must be a site collection owner of the App Catalog. If the person provisioning the SharePoint Success Site is not a site collection owner of the App Catalog, [complete these instructions to continue](https://docs.microsoft.com/office365/customlearning/addappadmin).
+- The person provisioning the SharePoint Success Site must be a site collection owner of the App Catalogue. If the person provisioning the SharePoint Success Site is not a site collection owner of the App Catalogue, [complete these instructions to continue](https://docs.microsoft.com/office365/customlearning/addappadmin).
 	
 The **tenant** must meet the following provisioning pre-requisites:
-- A SharePoint App Catalog must be available within your tenant environment. If your organization does not have a SharePoint App catalog, refer to the [SharePoint Online documentation](https://docs.microsoft.com/sharepoint/use-app-catalog) to create one.
+- A SharePoint App Catalogue must be available within your tenant environment. If your organization does not have a SharePoint App catalogue, refer to the [SharePoint Online documentation](https://docs.microsoft.com/sharepoint/use-app-catalog) to create one.
 - Your tenant must have **version 4.0 or higher** of M365 learning pathways. If you need to [upgrade your version](https://docs.microsoft.com/office365/customlearning/custom_update) or determine what version of M365 learning pathways you have review the documentation. If you need to install M365 learning pathways go to the [M365LP solution page](https://docs.microsoft.com/office365/customlearning/custom_provision) and review documentation for set up and configuration. 
 
 > [!IMPORTANT]
-> If you need to create a SharePoint App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
+> If you need to create a SharePoint App Catalogue, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
 
 
 ### Where to get started provisioning 
@@ -138,9 +138,9 @@ If you **don’t already have** M365 learning pathways installed in your tenant,
 3. From the Permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.**
 
 > [!NOTE]
-> By selecting **Consent on behalf of your organization** when adding the App Catalog, there is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
+> By selecting **Consent on behalf of your organization** when adding the App Catalogue, there is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
-4. Wait about 30 minutes for the App Catalog to finish provisioning before adding the SharePoint Success Site. 
+4. Wait about 30 minutes for the App Catalogue to finish provisioning before adding the SharePoint Success Site. 
 5. Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the destination URL for your site to be provisioned to.
 6. Select **Provision** when ready to install M 365 learning pathways into your tenant environment. The provisioning process can take up to 15 minutes. You will be notified via email when the site is ready.
 7. Next, follow instructions for initializing the CustomConfig List
@@ -167,9 +167,9 @@ If using **version 3.0 or earlier** of M365 learning pathway, update your curren
 
    Then select the three dots in the tool bar, then select **About web part**
 
-     ![Image learning pathways admin page](media/sss-lp-elipses.png)
+     ![Image learning pathways admin page settings bar](media/sss-lp-elipses.png)
 
-2. 	If you need to, [update your M365 learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_update) to version 4.0
+2. If you need to, [update your M365 learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_update) to version 4.0
 
 3. Once your M365 learning pathways is updated to version 4.0 or higher, proceed to provisioning the SharePoint Success Site.
 
@@ -292,7 +292,7 @@ Review the Plan, Build, Launch and manage, and Advanced playlist sections to see
 
 **Select a topic, and navigate through content using controls at the top of the article**:
 
-![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-module.png)
+![Image of the SharePoint Success Site landing page, close up of the content controls](media/sss-content-module.png)
 
 Select content categories and subcategories, and then navigate through the playlist to get a sense for how the SharePoint Success Site content is organized and displayed.
 
@@ -331,7 +331,7 @@ The following sections of the SharePoint Success Site can be customized to meet 
 
 ![Image of the People web part](media/sss-people.png)
 
-**3. Forms web part** - Edit the [Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256?ui=en-US&rs=en-US&ad=US) to embed a custom form that allows SharePoint ssite owners to easily share their success stories.
+**3. Forms web part** - Edit the [Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256?ui=en-US&rs=en-US&ad=US) to embed a custom form that allows SharePoint site owners to easily share their success stories.
 
 ![Image of the Forms web part](media/sss-form.png)
 
@@ -400,11 +400,6 @@ Key success factors to managing the SharePoint Success Site:
 
 To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](https://docs.microsoft.com/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
 
-
-<<<<<<Note for Holland and Matt - Awareness campaign - use sample SharePoint Success Site launch announcement to drive awareness. We will need to link to sample copy they can edit. <Note: will send mail to get most up to date copy">>>>>>>
-
-
-### Measurement
 
 	
 ### Frequently asked questions
