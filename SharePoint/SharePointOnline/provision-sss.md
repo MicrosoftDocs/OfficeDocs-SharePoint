@@ -363,7 +363,7 @@ Learn more about how to [create a form](https://support.microsoft.com/office/cre
 #### Customize the Site creation guidelines page
 To ensure the proper use of SharePoint in your organization it is important to communicate your site usage guidelines to new and existing site owners. This should include guidelines for how people should create sites in your tenant, design standards, and how people should share information using SharePoint and Office 365. 
 
-![Image of site creation and usage guidelines example](media/sss-site-usage-guidelines.png)
+![Image of the site creation guidelines page](media/sss-creation-guidelines.png)
 
 The example site creation and usage guidelines are not intended to be a final policy document. Once you have created your own unique usage guidelines, remove the content from the Site usage guidelines page and replace it with your organization’s usage guidelines. See how to [create and use modern pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec?ui=en-us&rs=en-us&ad=us) on a SharePoint site. 
 
