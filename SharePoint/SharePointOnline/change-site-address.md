@@ -36,6 +36,9 @@ As a global or SharePoint admin in your organization, you can change the URL for
 - Communication sites
 - Classic team sites
 
+>[!NOTE]
+>If the Publishing Feature has been activated or has been previously activated in the site, then performing a Site Rename is unsupported.
+
 You can change only the address of the site within the URL, for example:
 
 https://<i></i>contoso.sharepoint.<i></i>com/sites/*projectx*  
