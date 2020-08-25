@@ -3,7 +3,7 @@ title: "Export content and create reports in the eDiscovery Center"
 ms.reviewer: 
 ms.author: MARKJJO
 author: MARKJJO
-manager: pamgreen
+manager: serdars
 ms.date: 2/12/2018
 audience: ITPro
 f1.keywords:

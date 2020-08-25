@@ -1,9 +1,9 @@
 ---
 title: "Configure hybrid federated search from SharePoint Server to SharePoint in Microsoft 365 - roadmap"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 3/7/2018
 audience: ITPro
 f1.keywords:

@@ -1,9 +1,9 @@
 ---
 title: "Video How to enable Remote Windows PowerShell to use with SharePoint Server"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 5/16/2017
 audience: ITPro
 f1.keywords:

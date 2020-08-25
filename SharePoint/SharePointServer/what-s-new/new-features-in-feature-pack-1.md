@@ -1,9 +1,9 @@
 ---
 title: "New features in November 2016 PU for SharePoint Server 2016 (Feature Pack 1)"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 12/30/2016
 audience: ITPro
 f1.keywords:
