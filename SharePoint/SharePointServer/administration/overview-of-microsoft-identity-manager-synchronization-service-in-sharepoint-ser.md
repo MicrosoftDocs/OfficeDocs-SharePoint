@@ -1,9 +1,9 @@
 ---
 title: "Overview of Microsoft Identity Manager Synchronization Service in SharePoint Servers 2016 and 2019"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 3/13/2017
 audience: ITPro
 f1.keywords:

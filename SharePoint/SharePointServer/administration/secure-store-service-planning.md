@@ -1,9 +1,9 @@
 ---
 title: "Plan the Secure Store Service in SharePoint Server"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 7/7/2017
 audience: ITPro
 f1.keywords:

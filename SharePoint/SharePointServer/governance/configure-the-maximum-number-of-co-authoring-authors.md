@@ -3,7 +3,7 @@ title: "Configure the maximum number of co-authoring authors in SharePoint Serve
 ms.reviewer: 
 ms.author: toresing
 author: tomresing
-manager: pamgreen
+manager: serdars
 ms.date: 7/20/2017
 audience: ITPro
 f1.keywords:

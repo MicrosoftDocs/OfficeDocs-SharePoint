@@ -1,9 +1,9 @@
 ---
 title: "Hybrid picker in the SharePoint admin center"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 12/5/2017
 audience: ITPro
 f1.keywords:

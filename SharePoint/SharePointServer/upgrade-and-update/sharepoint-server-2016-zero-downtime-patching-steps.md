@@ -1,9 +1,9 @@
 ---
 title: "SharePoint Server 2016 zero downtime patching steps"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 10/21/2016
 audience: ITPro
 f1.keywords:

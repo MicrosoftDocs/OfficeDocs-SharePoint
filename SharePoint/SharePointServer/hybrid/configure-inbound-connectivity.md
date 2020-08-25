@@ -1,9 +1,9 @@
 ---
 title: "Configure connectivity from Microsoft 365 to SharePoint Server"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 f1.keywords:

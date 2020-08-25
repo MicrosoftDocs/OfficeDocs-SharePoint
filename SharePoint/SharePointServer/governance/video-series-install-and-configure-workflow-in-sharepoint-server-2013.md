@@ -3,7 +3,7 @@ title: "Video series Install and configure Workflow in SharePoint Server 2013"
 ms.reviewer: 
 ms.author: toresing
 author: tomresing
-manager: pamgreen
+manager: serdars
 ms.date: 3/8/2018
 audience: ITPro
 f1.keywords:

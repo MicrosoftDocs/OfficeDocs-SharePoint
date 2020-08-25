@@ -9,8 +9,8 @@ metadata:
   ms.prod: sharepoint-server-itpro #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: landing-page # Required
   ms.collection: 
-  author: MikePlumleyMSFT #Required; your GitHub user alias, with correct capitalization.
-  ms.author: mikeplum #Required; microsoft alias of author; optional team alias.
+  author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
+  ms.author: serdars #Required; microsoft alias of author; optional team alias.
   ms.date: 03/09/2020 #Required; mm/dd/yyyy format
   localization_priority: Priority
 

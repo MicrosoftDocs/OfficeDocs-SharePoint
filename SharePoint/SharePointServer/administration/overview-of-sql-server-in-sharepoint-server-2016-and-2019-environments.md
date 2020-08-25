@@ -1,9 +1,9 @@
 ---
 title: "Overview of SQL Server in a SharePoint Server 2016 environment"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
