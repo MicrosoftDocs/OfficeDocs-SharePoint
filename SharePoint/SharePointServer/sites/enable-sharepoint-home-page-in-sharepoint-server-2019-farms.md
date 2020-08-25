@@ -1,9 +1,9 @@
 ---
 title: "Enable SharePoint home page in SharePoint Server 2019 farms"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

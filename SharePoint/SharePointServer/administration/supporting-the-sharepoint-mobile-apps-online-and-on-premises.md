@@ -3,7 +3,7 @@ title: "Supporting the SharePoint mobile apps online and on-premises"
 ms.reviewer: 
 ms.author: toresing
 author: tomresing
-manager: pamgreen
+manager: serdars
 ms.date: 10/31/2017
 audience: ITPro
 f1.keywords:

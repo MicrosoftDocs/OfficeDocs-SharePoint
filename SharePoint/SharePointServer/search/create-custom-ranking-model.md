@@ -1,9 +1,9 @@
 ---
 title: "Create a custom ranking model by using the Ranking Model Tuning App"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/29/2018
 audience: End User
 f1.keywords:

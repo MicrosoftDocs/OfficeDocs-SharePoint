@@ -1,9 +1,9 @@
 ---
 title: "Stage 16 Add a Taxonomy Refinement Panel Web Part to a publishing site in SharePoint Server"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 9/17/2016
 audience: ITPro
 f1.keywords:

@@ -1,8 +1,8 @@
 ---
 title: "Deploying SharePoint Server on virtual machines"
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.audience: ITPro
 f1.keywords:
 - NOCSH

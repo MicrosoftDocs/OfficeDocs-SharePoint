@@ -1,9 +1,9 @@
 ---
 title: "Initial deployment administrative and service accounts in SharePoint Server"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 8/3/2017
 audience: ITPro
 f1.keywords:

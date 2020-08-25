@@ -1,9 +1,9 @@
 ---
 title: "Add, edit, or delete custom properties in SharePoint Server user profiles"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 2/28/2018
 audience: ITPro
 f1.keywords:

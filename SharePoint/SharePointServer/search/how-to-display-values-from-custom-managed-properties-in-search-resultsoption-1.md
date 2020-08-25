@@ -1,9 +1,9 @@
 ---
 title: "How to display values from custom managed properties in classic search results - option 1 in SharePoint Server"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 3/7/2018
 audience: ITPro
 f1.keywords:

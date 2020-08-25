@@ -1,9 +1,9 @@
 ---
 title: "Yammer networks, groups, and users overview"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 9/7/2018
 audience: ITPro
 f1.keywords:
