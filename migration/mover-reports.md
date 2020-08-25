@@ -137,7 +137,7 @@ The CSV report provides the following information for each user pairing:
 
 Download an example CSV:
 
-[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report.csv)
+[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report%20.csv)
 
 ## Migration table report
 
