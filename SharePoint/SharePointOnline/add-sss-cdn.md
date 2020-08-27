@@ -32,10 +32,10 @@ The SharePoint Success Site’s up-to-date CDN includes a range of content that 
 - **Share and manage your site:** Guidance to help launch, share, and manage the new site
 - **Advanced site creation:** Content for site owners that want to learn beyond site creation basics
 
-### Add the SharePoint Success Site CDN  
+## Add the SharePoint Success Site CDN  
 
 1. From the Learning Pathways SharePoint site, select **Home** and then **Learning pathways Administration**
-2. Select the elipsies (…) and then **Add Content Pack**
+2. Select the ellipsis (…) and then **Add Content Pack**
 
 
 ![Image learning pathways admin page](media/sss-lp-version.png)
@@ -51,7 +51,7 @@ The SharePoint Success Site’s up-to-date CDN includes a range of content that 
 
 
 
-### Then, add and filter the learning pathways web part  
+## Then, add and filter the learning pathways web part  
 
 You can add the Learning Pathways Web part to a SharePoint page, and then filter the content to display the SharePoint Success Site content. 
 
@@ -64,7 +64,7 @@ You can add the Learning Pathways Web part to a SharePoint page, and then filter
 ![Image of the learning pathways web part](media/sss-lp-wp.png)
 
 
-### Finally, filter the web part to the SharePoint Success Site content 
+## Finally, filter the web part to the SharePoint Success Site content 
 
 1. In the left corner of the learning pathways web part, select **Edit web part**
 
