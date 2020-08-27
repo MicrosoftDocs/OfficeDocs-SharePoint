@@ -169,10 +169,28 @@ If using **version 3.0 or earlier** of M365 learning pathway, update your curren
 
      ![Image learning pathways admin page settings bar](media/sss-lp-elipses.png)
 
-2. If you need to, [update your M365 learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_update) to version 4.0
+2. Once your M365 learning pathways is updated to version 4.0 or higher, proceed to provisioning the SharePoint Success Site.
 
-3. Once your M365 learning pathways is updated to version 4.0 or higher, proceed to provisioning the SharePoint Success Site.
 
+#### Update M365 learning pathways from version 3.0 to version 4.0
+
+> [!NOTE]
+> The person updating learning pathways must be a site collection owner of the tenant App Catalog. If the person provisioning learning pathways isn't a site collection owner of the App Catalog, [complete these instructions and continue](https://docs.microsoft.com/office365/customlearning/addappadmin) 
+
+In this step, you upload the learning pathways 4.0 web part to the SharePoint App Catalog, and then navigate to the learning pathways Administration page to start the update process.
+
+**Upload the web part package**
+
+1. Go to the [GitHub custom learning repository](https://docs.microsoft.com/office365/customlearning/manualcustomlearninginstall), select customlearning.sppkg and then download it to a local drive on your PC
+2. If you’re not already signed in, sign into your tenant with a Tenant Admin or Site Collection Admin account
+3. Select **Admin > Show All > SharePoint > More Features**
+4. Under Apps, select **Open**
+5. Select **App Catalog > Distribute Apps for SharePoint**
+6. Select **Upload > Choose Files**
+7. Select the customlearning.sppkg file you downloaded, then select **OK > Deploy**
+8. From the Learning Pathways site, select **Learning pathways administration** from the Home menu.
+9. You’ll see a prompt asking if you want to update, select **start**
+10. When the update is complete, select **Close**
 
 
 ### Provision the SharePoint Success Site to your tenant from the Admin success center
