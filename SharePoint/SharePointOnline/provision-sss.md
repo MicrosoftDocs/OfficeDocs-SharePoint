@@ -24,6 +24,8 @@ description: "Overview of the SharePoint Success Site"
 
 The SharePoint Success Site is a ready to deploy and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site is designed to support new SharePoint site owners in creating high-impact sites to meet the goals of your organization. Install the SharePoint Success Site in your tenant environment, customize the pre-populated training content, and make it available to end users.
 
+If you are already using M365 learning pathways and don't want to provision the site, you can upload the [SharePoint Success Site playlist into learning pathways](https://review.docs.microsoft.com/SharePoint/add-sss-cdn).
+
 
 ### Why invest in a SharePoint Success Site?
 The SharePoint Success Site helps site owners improve the quality and impact of the sites they build in SharePoint for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
@@ -201,8 +203,6 @@ After you have successfully provisioned or updated M365 learning pathways, you a
 2. Sign in with your user name and password.
 3. Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Office 365 Home page, and then select the M365 learning pathways site.
 
-
-<<<<<<<<<Note for Holland - Add screen shot when available>>>>>>>>>>>
 
 > [!NOTE]
 > Make the destination URL for your site user friendly for your colleagues, such as “/sites/SharePointSuccess” or “/teams/SharePointSites”.
