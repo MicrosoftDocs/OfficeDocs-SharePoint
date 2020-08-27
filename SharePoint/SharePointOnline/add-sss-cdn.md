@@ -23,16 +23,18 @@ description: "In this article, you'll learn about how to think about your intell
 ---
 # Add the SharePoint Success Site CDN to your M365 Learning Pathways solution
 
-If you already have [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) solution provisioned, you can add the SharePoint Success Site Content Pack to your tenant's M365 Learning Pathways without provisioning the SharePoint Success Site template. In the learning pathways Admin page, you can add a reference to the SharePoint Success Site CDN (Content Delivery Network), so the SharePoint Success Site content can be delivered through the Learning Pathways Web part. 
+If you already have [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) solution provisioned, you can add the SharePoint Success Site Content Pack to M365 learning pathways without [provisioning the SharePoint Success Site template](https://docs.microsoft.com/sharepoint/provision-sss). In the learning pathways administration page, you can add a reference to the SharePoint Success Site CDN (Content Delivery Network), so the SharePoint Success Site content can be delivered through the Learning Pathways Web part. 
 
-## Add the SharePoint Success Site CDN  
+### Add the SharePoint Success Site CDN  
 
 1. From the Learning Pathways SharePoint site, select **Home** and then **Learning pathways Administration**
 2. Select the elipsies (…) and then **Add Content Pack**
 
+
 ![Image learning pathways admin page](media/sss-lp-version.png)
 
-3. Select **Custom Content Pack**, and then add the details as shown below and then select **Save**
+
+3. Select **Custom Content Pack**, and then add the details as shown below and then select **Update**
 
 ![Image of the SharePoint Success Site CDN details](media/sss-cdn.png)
 
@@ -42,11 +44,11 @@ If you already have [Microsoft 365 learning pathways](https://docs.microsoft.com
 
 
 
-## Then, add and filter the learning pathways web part  
+### Then, add and filter the learning pathways web part  
 
 You can add the Learning Pathways Web part to a SharePoint page, and then filter the content to display the SharePoint Success Site content. 
 
-1. From the a, select **+ New** and then **Page** 
+1. From the a site, add a page by selecting **+ New** and then **Page** 
 
 2. Select **Blank** and then **Create Page**
 
@@ -55,7 +57,7 @@ You can add the Learning Pathways Web part to a SharePoint page, and then filter
 ![Image of the learning pathways web part](media/sss-lp-wp.png)
 
 
-## Finally, filter the web part to the SharePoint Success Site content 
+### Finally, filter the web part to the SharePoint Success Site content 
 
 1. In the left corner of the learning pathways web part, select **Edit web part**
 
@@ -72,3 +74,4 @@ You can add the Learning Pathways Web part to a SharePoint page, and then filter
 
 
 For more information about filtering content, see [Add and edit the Microsoft 365 learning pathways web part](https://docs.microsoft.com/office365/customlearning/custom_addwebpart). 
+
