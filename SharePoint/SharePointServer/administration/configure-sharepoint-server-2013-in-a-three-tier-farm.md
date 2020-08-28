@@ -1,9 +1,9 @@
 ---
 title: "Test Lab Guide Configure SharePoint Server 2013 in a three-tier farm"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 7/10/2017
 audience: ITPro
 f1.keywords:

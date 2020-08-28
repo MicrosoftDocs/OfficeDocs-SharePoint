@@ -1,9 +1,9 @@
 ---
 title: "View data in the logging database in SharePoint Server"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 5/30/2017
 audience: ITPro
 f1.keywords:

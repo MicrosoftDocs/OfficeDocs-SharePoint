@@ -1,9 +1,9 @@
 ---
 title: "One or more servers can't retrieve the outgoing email credentials (SharePoint Server 2019)"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/25/2018
 audience: ITPro
 f1.keywords:

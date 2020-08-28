@@ -1,9 +1,9 @@
 ---
 title: "Video Cleanup of databases after upgrade procedure for SharePoint Server 2016"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 5/15/2017
 audience: ITPro
 f1.keywords:

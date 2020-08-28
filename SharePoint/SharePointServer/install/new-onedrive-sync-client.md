@@ -1,9 +1,9 @@
 ---
 title: "Configure syncing with the new OneDrive sync app for SharePoint 2019"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

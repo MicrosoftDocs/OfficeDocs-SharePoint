@@ -24,6 +24,8 @@ description: "Overview of the SharePoint Success Site"
 
 The SharePoint Success Site is a ready to deploy and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site is designed to support new SharePoint site owners in creating high-impact sites to meet the goals of your organization. Install the SharePoint Success Site in your tenant environment, customize the pre-populated training content, and make it available to end users.
 
+If you are already using M365 learning pathways and don't want to provision the site, you can upload the [SharePoint Success Site playlist into learning pathways](https://docs.microsoft.com/SharePoint/add-sss-cdn).
+
 
 ### Why invest in a SharePoint Success Site?
 The SharePoint Success Site helps site owners improve the quality and impact of the sites they build in SharePoint for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
@@ -169,10 +171,28 @@ If using **version 3.0 or earlier** of M365 learning pathway, update your curren
 
      ![Image learning pathways admin page settings bar](media/sss-lp-elipses.png)
 
-2. If you need to, [update your M365 learning pathways solution](https://docs.microsoft.com/office365/customlearning/custom_update) to version 4.0
+2. Once your M365 learning pathways is updated to version 4.0 or higher, proceed to provisioning the SharePoint Success Site.
 
-3. Once your M365 learning pathways is updated to version 4.0 or higher, proceed to provisioning the SharePoint Success Site.
 
+#### Update M365 learning pathways from version 3.0 to version 4.0
+
+> [!NOTE]
+> The person updating learning pathways must be a site collection owner of the tenant App Catalog. If the person provisioning learning pathways isn't a site collection owner of the App Catalog, [complete these instructions and continue](https://docs.microsoft.com/office365/customlearning/addappadmin) 
+
+In this step, you upload the learning pathways 4.0 web part to the SharePoint App Catalog, and then navigate to the learning pathways Administration page to start the update process.
+
+**Upload the web part package**
+
+1. Go to the [GitHub custom learning repository](https://docs.microsoft.com/office365/customlearning/manualcustomlearninginstall), select customlearning.sppkg and then download it to a local drive on your PC
+2. If you’re not already signed in, sign into your tenant with a Tenant Admin or Site Collection Admin account
+3. Select **Admin > Show All > SharePoint > More Features**
+4. Under Apps, select **Open**
+5. Select **App Catalog > Distribute Apps for SharePoint**
+6. Select **Upload > Choose Files**
+7. Select the customlearning.sppkg file you downloaded, then select **OK > Deploy**
+8. From the Learning Pathways site, select **Learning pathways administration** from the Home menu.
+9. You’ll see a prompt asking if you want to update, select **start**
+10. When the update is complete, select **Close**
 
 
 ### Provision the SharePoint Success Site to your tenant from the Admin success center
@@ -183,8 +203,6 @@ After you have successfully provisioned or updated M365 learning pathways, you a
 2. Sign in with your user name and password.
 3. Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Office 365 Home page, and then select the M365 learning pathways site.
 
-
-<<<<<<<<<Note for Holland - Add screen shot when available>>>>>>>>>>>
 
 > [!NOTE]
 > Make the destination URL for your site user friendly for your colleagues, such as “/sites/SharePointSuccess” or “/teams/SharePointSites”.

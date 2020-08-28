@@ -1,9 +1,9 @@
 ---
 title: "Configure the Managed Metadata service"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 9/13/2017
 audience: ITPro
 f1.keywords:

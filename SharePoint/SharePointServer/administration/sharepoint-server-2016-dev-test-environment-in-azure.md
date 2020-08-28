@@ -3,7 +3,7 @@ title: "SharePoint Server 2016 dev/test environment in Azure"
 ms.reviewer: 
 ms.author: josephd
 author: JoeDavies-MSFT
-manager: pamgreen
+manager: serdars
 ms.date: 03/15/2019
 audience: ITPro
 f1.keywords:

@@ -1,9 +1,9 @@
 ---
 title: "Server role configuration isn't correct (SharePoint Server 2016)"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 12/5/2017
 audience: ITPro
 f1.keywords:

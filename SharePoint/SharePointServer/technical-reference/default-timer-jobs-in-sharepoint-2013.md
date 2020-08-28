@@ -1,9 +1,9 @@
 ---
 title: "Default timer jobs in SharePoint 2013"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
