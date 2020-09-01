@@ -87,7 +87,7 @@ To learn more:
 - [Get started with Power Automate](https://docs.microsoft.com/flow/getting-started)
 
 >[!Note]
->Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime.
+>Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime. For more information, please see [SharePoint 2010 workflow retirement](https://support.microsoft.com/office/sharepoint-2010-workflow-retirement-1ca3fff8-9985-410a-85aa-8120f626965f).
 
 
 
