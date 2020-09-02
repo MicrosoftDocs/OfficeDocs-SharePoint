@@ -1,9 +1,9 @@
 ---
 title: "Cloud hybrid search service (Cloud SSA) FAQ"
 ms.reviewer: mbiswas
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

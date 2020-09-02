@@ -1,9 +1,9 @@
 ---
 title: "Services upgrade overview for SharePoint Server 2016"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 9/29/2016
 audience: ITPro
 f1.keywords:

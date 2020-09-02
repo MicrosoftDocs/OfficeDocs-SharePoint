@@ -28,7 +28,23 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.6](https://aka.ms/spmt-beta-page) |[3.4.119.6](https://aka.ms/spmt-ga-page)|[3.4.119.6](https://aka.ms/spmt-ga-page) |[3.4.119.6](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.119.7](https://aka.ms/spmt-beta-page) |[3.4.119.6](https://aka.ms/spmt-ga-page)|[3.4.119.6](https://aka.ms/spmt-ga-page) |[3.4.119.6](https://aka.ms/spmt-ga-page)|
+
+## SPMT 3.4.119.7
+
+The following features are now available in the public preview version of the SharePoint Migration Tool.
+
+
+|**Feature**|**Description**|
+|:----|:-----|
+|New/updated setting|The setting, **Migrate site settings**, is now an options setting, giving the user more control over what is migrated.  The user can select one of the following: *Preserve all settings*, *Skip title and logo*, *Only title and logo*, or *Skip all settings*.|
+|New parameter|A new parameter, **-MigrateWithoutRootFolder**, has been added to the cmdlet, Register-SPMTMigration. In file share migrations, use this parameter to migrate only the root folder's contents to the target. |
+
+**Improvements**
+
+|**Issue**|**Fix**|
+|:----|:-----|
+|General|General improvements have been made fix bugs in the tool.
 
 
 ## SPMT 3.4.119.6

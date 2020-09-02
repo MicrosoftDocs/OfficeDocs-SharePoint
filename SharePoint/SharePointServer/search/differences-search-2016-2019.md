@@ -1,9 +1,9 @@
 ---
 title: "Differences between the search experiences in SharePoint Server"
 ms.reviewer: 
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: pamgreen
+author: SerdarSoysal
+ms.author: serdars
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

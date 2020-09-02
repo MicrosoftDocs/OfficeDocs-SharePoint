@@ -1,8 +1,8 @@
 ---
 title: "Migration of Windows claims authentication to SAML based claims authentication in SharePoint Server"
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/21/2019
 ms.audience: ITPro
 f1.keywords:

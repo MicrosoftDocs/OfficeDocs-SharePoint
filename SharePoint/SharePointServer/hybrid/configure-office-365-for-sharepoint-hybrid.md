@@ -1,9 +1,9 @@
 ---
 title: "Configure Microsoft 365 for SharePoint hybrid"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/21/2017
 audience: ITPro
 f1.keywords:

@@ -1,9 +1,9 @@
 ---
 title: "Plan hybrid SharePoint taxonomy and hybrid content types"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 9/12/2017
 audience: ITPro
 f1.keywords:

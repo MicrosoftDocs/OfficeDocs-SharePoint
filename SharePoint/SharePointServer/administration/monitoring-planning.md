@@ -1,9 +1,9 @@
 ---
 title: "Plan for monitoring in SharePoint Server"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 8/25/2017
 audience: ITPro
 f1.keywords:

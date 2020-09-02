@@ -1,9 +1,9 @@
 ---
 title: "One or more app domains for web applications aren't configured correctly (SharePoint Server)"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 8/31/2017
 audience: ITPro
 f1.keywords:

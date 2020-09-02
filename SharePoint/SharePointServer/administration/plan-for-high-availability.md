@@ -1,9 +1,9 @@
 ---
 title: "Create a high availability architecture and strategy for SharePoint Server"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 f1.keywords:
