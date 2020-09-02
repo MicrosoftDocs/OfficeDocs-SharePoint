@@ -23,12 +23,9 @@ description: "Learn how to modernize classic team sites by enabling the communic
 # Enable the communication site experience on classic team sites
 A SharePoint [communication site](https://support.office.com/en-us/article/94a33429-e580-45c3-a090-5512a8070732) is a great tool for sharing information with others in your organization. Your users can share news, reports, statuses, and other information in a visually compelling format. Now, any classic team site can have this capability too. By running a PowerShell cmdlet, you can bring modern communication site features to your classic team sites. 
 
-> [!NOTE]
-> Some functionality is introduced gradually to organizations that have set up the [Targeted release for entire organization option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you may not yet see this feature.
-
 ## Requirements
 
-- The site must be a **classic team site that is not connected to a Microsoft 365 group** (the STS #0 site template).
+- The site must be a **classic team site that's not connected to a Microsoft 365 group** (the STS #0 site template).
 - The site must be the top-level site in the site collection. It can't be a subsite.
 - The user who runs the PowerShell cmdlet must have full owner permission on the target site.
 - The site must not have SharePoint Server Publishing Infrastructure enabled at the site collection level or SharePoint Server Publishing enabled at the site level. [Learn how to enable and disable publishing features](https://support.microsoft.com/office/479677a6-8b33-4ac7-907d-071c1c7e4518). If these features were previously enabled but have been deactivated, go to the [site contents page](https://support.microsoft.com/office/ba495c1e-00f4-475d-97c7-b518d546566b) and make sure it doesn't still contain a Pages library. [Learn more about features enabled on a publishing site](https://support.microsoft.com/office/3ab3810c-3c2c-4361-9d0e-0cbe666ea0b0)
@@ -99,10 +96,6 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 **Can I run this command on the root site in my organization?**
 
 - Yes, if you meet the requirements listed at the beginning of this article.
-
-**I'm getting the error "The requested operation is part of an experimental feature that is not supported in the current environment." What does this mean?**
-
-- This feature is being gradually rolled out, and is not available yet in your organization. Please try again in a few days. Refer to the message center post in the Microsoft 365 admin center for info about the rollout timeline.
 
 **How can I get a list of all classic sites that have the communication site experience enabled?**
 

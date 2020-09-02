@@ -1,9 +1,9 @@
 ---
 title: "Configure server-to-server authentication between publishing and consuming farms"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 8/10/2018
 audience: ITPro
 f1.keywords:

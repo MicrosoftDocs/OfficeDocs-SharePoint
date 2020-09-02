@@ -1,9 +1,9 @@
 ---
 title: "Plan for OneDrive in SharePoint Server"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 7/27/2017
 audience: ITPro
 f1.keywords:
