@@ -131,6 +131,8 @@ Your tenant's configuration will determine what path you need to take to install
 
 ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
+
+
 #### If you already have M365 learning pathways 4.0 - provision the SharePoint Success Site from the look book
 If you already have Learning Pathways 4.0 or greater provisioned on your tenant, you can provision Learning Pathways from the SharePoint Look book site. Make sure you have met the requirements as covered earlier in this documentation. 
 
@@ -139,6 +141,9 @@ If you already have Learning Pathways 4.0 or greater provisioned on your tenant,
 ![Image of the SharePoint Success Site look book page](media/sss-lookbook-add.png)
 
 2. Fill out the email and URL address sections and  and select **Provision**
+
+> [!IMPORTANT]
+> Enter this address in the URL field - https://microsoft.github.io/customlearning_staging/learningpathways/
 
 ![Image of the SharePoint Success Site look book page details](media/sss-lookbook-details.png)
 
