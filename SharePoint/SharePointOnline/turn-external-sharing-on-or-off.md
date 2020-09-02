@@ -52,7 +52,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
     > [!NOTE]
     >  The SharePoint setting applies to all site types, including those connected to Microsoft 365 groups. <br> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive. <br> The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
 
-    ![External sharing settings in the new SharePoint admin center](media/externalsharing.png)
+    ![External sharing settings](media/externalsharing.png)
 
     This setting is for your organization overall. Each site has its own sharing setting which you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
@@ -71,7 +71,7 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
 ### More external sharing settings
 
-![External sharing settings in the new SharePoint admin center](media/advanced-external-sharing.png)
+![More external sharing settings](media/advanced-external-sharing.png)
 
 For more info about the "Allow only users in specific security groups to share externally" setting, see [Manage security groups](https://docs.microsoft.com/sharepoint/manage-security-groups).
 
@@ -94,7 +94,7 @@ By default, guests must have full control permission to share items externally.
 
 Choose the option you want to show by default when a user gets a link. 
 
-![External sharing settings in the new SharePoint admin center](media/defaultlinks.png)
+![Default links](media/defaultlinks.png)
 
 > [!NOTE]
 > This setting specifies the default for your organization, but site owners can choose a different default link type for a site.
@@ -109,7 +109,7 @@ Choose the option you want to show by default when a user gets a link.
 
 ### Advanced settings for "Anyone" links
 
-![External sharing settings in the new SharePoint admin center](media/advanced-settings-anyone-links.png)
+![Settings in the new SharePoint admin center](media/advanced-settings-anyone-links.png)
 
 **Link expiration** - You can require all "Anyone" links to expire, and specify the maximum number of days allowed
 
@@ -119,7 +119,7 @@ If you are using file requests, the link permissions must be set for **View and 
 
 ## Other
 
-![External sharing settings in the new SharePoint admin center](media/othersettings.png)
+![Other sharing settings](media/othersettings.png)
 
 **Display to owners the names of people who viewed their files**
 
