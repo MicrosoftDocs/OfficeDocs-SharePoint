@@ -23,18 +23,22 @@ description: "Learn how to manage security groups for sharing files and folders 
 
 As a SharePoint or global admin in Microsoft 365, you can identify specific security groups within an organization in SharePoint or OneDrive to share links to files and folders externally.
   
-1. In the SharePoint admin center, check the **Allow only users in specific groups to share externally** box.
+1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
 
-2. Select **Manage security groups**.
+2. Under **External sharing**, expand **More external sharing settings**.
 
-3. In the **Add a security group** box, enter a name for a security group. The security group box appears.
+3. With "Allow only users in specific security groups to share externally" checked, select **Manage security groups**.
 
-4. Next to the security group name, from the **Can share with** dropdown, select either:
+
+
+4. In the **Add a security group** box, enter a name for a security group. The security group box appears.
+
+5. Next to the security group name, from the **Can share with** dropdown, select either:
 
     - **Authenticated guests only** (default)
     - **Anyone**
 
-5. Select **Save**.
+6. Select **Save**.
 
 By selecting **Anyone**, users in that security group can share links to files and folders externally that don’t require users to authenticate (for example, the **Anyone link** in the **Share** dialog box). Forwarded **Anyone links** will work internally or externally, but you won't be able to track who has access to shared items or who has accessed shared items. Users in this group can also share to authenticated guest users. This option is best for a security group preferring friction-free sharing, provided files and folders in SharePoint and OneDrive aren’t classified as sensitive.
 

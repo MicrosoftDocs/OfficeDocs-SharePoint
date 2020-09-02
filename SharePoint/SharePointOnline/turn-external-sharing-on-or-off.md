@@ -41,8 +41,9 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 ## Change the organization-level external sharing setting
 <a name="__turn_external_sharing"> </a>
   
-1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
+1. Go to the [Sharing page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+ 
    > [!NOTE]
    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
@@ -68,9 +69,11 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 > [!NOTE]
 >  If you turn off external sharing for your organization and later turn it back on, guests who previously had access will regain it. If you know that external sharing was previously turned on and in use for specific sites and you don't want guests to be able to regain access, first turn off external sharing for those specific sites.<br>If you restrict or turn off external sharing, guests will typically lose access within one hour of the change.  
 
-### Advanced settings for external sharing
+### More external sharing settings
 
 ![External sharing settings in the new SharePoint admin center](media/advanced-external-sharing.png)
+
+For more info about the "Allow only users in specific security groups to share externally" setting, see [Manage security groups](https://docs.microsoft.com/sharepoint/manage-security-groups).
 
 **Limit external sharing by domain**
 
