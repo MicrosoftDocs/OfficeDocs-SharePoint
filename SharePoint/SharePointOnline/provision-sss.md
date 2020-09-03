@@ -166,11 +166,13 @@ If you already have Learning Pathways 4.0 or greater provisioned on your tenant,
 
 ![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
 
+> [!IMPORTANT]
+> Make sure to select **Complete** to complete the provisioning process.
+
 11. To confirm M365 learning pathways has been successfully provisioned, go to the SharePoint site you provisioned, select **Get Started > Plan your site.** You should see the web part on the page as shown in the following image: 
 
 ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
-
-
+  
 
 #### Or, provision M365 learning pathways for the first time
 
@@ -256,6 +258,9 @@ After you have successfully provisioned for the first time or updated M365 learn
 
 ![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
 
+> [!IMPORTANT]
+> Make sure to select **Confirm** to complete the provisioning process.
+
 11. Select **Complete** as shown in the following image:
 
 ![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
@@ -267,14 +272,6 @@ After you have successfully provisioned for the first time or updated M365 learn
 > [!NOTE]
 > Make the destination URL for your site user friendly for your colleagues, such as “/sites/SharePointSuccess” or “/teams/SharePointSites”.
 
-
-#### Initialize the CustomConfig list
-When the SharePoint Success Site provisioning is complete, the tenant admin who provisioned the site receives an email from the SharePoint Provisioning Service that contains a link to the new site. 
-
-1.	Select the link in the in the email and set up the site
-2.	Go to <YOUR-SITE-COLLECTION-URL>sites/<YOUR-SITE-NAME>/SitePages/CustomLearningAdmin.aspx. 
-<br>
-Opening **CustomLearningAdmin.aspx** initializes the **CustomConfig** list item that sets up learning pathways for first use. 
 
 #### Add owners to the M365 learning pathways site
 Assign a few site owners to grant administrative privileges to customize the site and training content. This includes the ability to hide and show content and to build custom playlists through the learning pathways web part. 
