@@ -37,7 +37,7 @@ As a global or SharePoint admin in your organization, you can change the URL for
 - Classic team sites
 
 > [!NOTE]
-> If the Publishing feature has been activated or has been previously activated in the site, then performing a Site Rename is unsupported.
+> If the Publishing feature is currently activated or was previously activated for the site, then changing the site address is unsupported.
 
 You can change only the address of the site within the URL, for example:
 
