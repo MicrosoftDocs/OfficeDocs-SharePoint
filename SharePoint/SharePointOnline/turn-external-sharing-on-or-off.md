@@ -73,13 +73,15 @@ This video shows how the settings on the Sharing page in the SharePoint admin ce
 
 ![More external sharing settings](media/advanced-external-sharing.png)
 
-For more info about the "Allow only users in specific security groups to share externally" setting, see [Manage security groups](https://docs.microsoft.com/sharepoint/manage-security-groups).
-
 **Limit external sharing by domain**
 
 This is useful if you want to limit sharing with particular partners, or help prevent sharing with people at certain organizations. The organization-level setting on this page affects all SharePoint sites and each user's OneDrive. To use this setting, list the domains (maximum of 3000) in the box, using the format *domain.com*. To list multiple domains, press Enter after adding each domain. 
     
 You can also limit external sharing by domain by using the [Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant) Microsoft PowerShell cmdlet with -SharingDomainRestrictionMode and either -SharingAllowedDomainList or -SharingBlockedDomainList. For info about limiting external sharing by domain at the site level, see [Restricted domains sharing](restricted-domains-sharing.md).
+
+**Allow only users in specific security groups to share externally**
+
+For info about this setting, see [Manage security groups](https://docs.microsoft.com/sharepoint/manage-security-groups).
 
 **Guests must sign in using the same account to which sharing invitations are sent**
 
@@ -89,6 +91,9 @@ By default, guests can receive an invitation at one account but sign in with a d
 
 By default, guests must have full control permission to share items externally.
 
+**People who use a verification code must reauthenticate after this many days**
+
+If people who use a verification code have selected to "stay signed in" in the browser, they must prove they can still access the account they used to redeem the sharing invitation. 
 
 ## File and folder links
 

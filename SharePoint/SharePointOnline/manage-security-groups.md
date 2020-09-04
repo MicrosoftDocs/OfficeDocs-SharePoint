@@ -27,9 +27,9 @@ As a SharePoint or global admin in Microsoft 365, you can identify specific secu
 
 2. Under **External sharing**, expand **More external sharing settings**.
 
-3. With "Allow only users in specific security groups to share externally" checked, select **Manage security groups**.
+3. Select **Allow only users in specific security groups to share externally**, and then select **Manage security groups**.
 
-![Manage security groups](media/manage-security-groups.png)
+    ![Manage security groups](media/manage-security-groups.png)
 
 4. In the **Add a security group** box, enter a name for a security group. The security group box appears.
 
