@@ -3,7 +3,7 @@ title: "Sharing & permissions in the SharePoint modern experience"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -29,7 +29,7 @@ The three main types of sites in SharePoint are:
 
 - **Team sites** - Team sites provide a collaboration environment for your teams and projects. Each team site, by default, is part of a Microsoft 365 group, which includes a mailbox, shared calendar, and other collaboration tools. Team sites may also be part of a team in Microsoft Teams. Permissions for team sites are best managed through the associated Microsoft 365 group or Teams team.
 - **Communication sites** - Communication sites are for broadcasting news and status across the organization. Communication site permissions are managed by using the SharePoint Owners, Members, and Visitors groups for the site.
-- **Hub sites** - Hub sites are team sites or communication sites that the administrator has configured as the center of a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Microsoft 365 group if there is one. Special permissions are needed to associate sites to a hub.
+- **Hub sites** - [Hub sites](https://docs.microsoft.com/sharepoint/planning-hub-sites) are team sites or communication sites that the administrator has configured as the center of a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Microsoft 365 group if there is one. Special permissions are needed to associate sites to a hub.
 
 ## Team site permissions and Microsoft 365 Groups
 
@@ -63,6 +63,8 @@ If a communication site is used by members of a team in Teams, you may want to a
 
 The visitors group is a good place to use security groups. In many organizations, this is the easiest way to add large numbers of users to a site.
 
+For information about how to share a site, see [Share a site](https://support.microsoft.com/office/958771a8-d041-4eb8-b51c-afea2eae3658).
+
 ## Hub site permissions
 
 Managing the permissions of a hub site is dependent on the underlying type of site. If the site is a group-connected team site, then you should manage permissions through the Microsoft 365 group. If it's a communication site, then you should manage permissions through the SharePoint groups.
@@ -81,6 +83,8 @@ Giving people permissions to a site, group, or team gives them access to all sit
   - *People in your organization* links work for only people inside your Microsoft 365 organization. (They don't work for guests in the directory, only members).  
   - *Specific people* links only work for the people that users specify when they share the item.  
 
+You can [change the type of link that is presented to users by default](https://docs.microsoft.com/sharepoint/change-default-sharing-link) for each site.
+
 For more about the different types of sharing links, see [Securing your data](https://docs.microsoft.com/sharepoint/deploy-file-collaboration#securing-your-data).
 
 ## Guest sharing
@@ -94,6 +98,8 @@ SharePoint has external sharing settings at both the organization level and the 
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using *Anyone* links, users can still share with guests, who sign in, and with internal users. 
   
 External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-guest-settings) for more information.
+
+To set up guest sharing for a site, see [Collaborate with guests in a site](https://docs.microsoft.com/microsoft-365/solutions/collaborate-in-site).
   
 ### Security and privacy
 
@@ -113,4 +119,8 @@ With Azure B2B integration, all guest users are added to the directory and can b
 
 [Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md)
 
+[Collaborating with people outside your organization](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
+
 [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c)
+
+[Limit sharing in Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-limit-sharing)
