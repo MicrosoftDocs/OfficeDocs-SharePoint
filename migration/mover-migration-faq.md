@@ -1,6 +1,7 @@
 ---
 title: Mover Migration FAQ
 author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: ITPro
 ms.topic: article

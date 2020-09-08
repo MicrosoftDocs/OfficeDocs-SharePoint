@@ -1,14 +1,14 @@
 ---
 title: Add SharePoint Success Site content to your M365 Learning Pathways solution
 ms.reviewer: holland-odsp
-ms.author: holland-odsp
+ms.author: hokavian
 author: pamgreen-msft
 manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint
+ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern

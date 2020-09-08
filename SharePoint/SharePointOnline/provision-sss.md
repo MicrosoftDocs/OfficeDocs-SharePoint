@@ -1,7 +1,7 @@
 ---
 title: Overview of the SharePoint Success Site 
 ms.reviewer: 
-ms.author: Holland-ODSP
+ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
 audience: Admin

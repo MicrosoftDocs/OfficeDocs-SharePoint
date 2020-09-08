@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting Mover migration errors
 author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: ITPro
 ms.topic: article
