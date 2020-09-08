@@ -1,12 +1,13 @@
 ---
 title: Mover reports
 author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
-ms.collection: 
+ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
@@ -37,7 +38,7 @@ The **Transfers** section of the **Migration Manager** dashboard provides a brie
 
 ## Files
 
-The **Files** section of the **Migration Manager** dashboard provides a total of all files scanned and transfered across all users in a migration.
+The **Files** section of the **Migration Manager** dashboard provides a total of all files scanned and transferred across all users in a migration.
 
 - **Complete**: Number of files that have successfully scanned or transferred.
 - **Issues**: Number of files that have encountered issues and failed to scan or transfer.
@@ -49,9 +50,9 @@ The **Files** section of the **Migration Manager** dashboard provides a total of
 
 ## Data
 
-The **Data** section of the **Migration Manager** dashboard shows the total of all data scanned and transfered across all users in a migration.
+The **Data** section of the **Migration Manager** dashboard shows the total of all data scanned and transferred across all users in a migration.
 
-- **Complete**: Amount of data that has been successfully scanned and transfered.
+- **Complete**: Amount of data that has been successfully scanned and transferred.
 - **Issues**: Amount of data that encountered issues and has failed to scan or transfer.
 
 >[!Note]
@@ -69,9 +70,9 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 |**Filter label**|**Label effect**|
 |:-----|:-----|
 |Status|	Filters by status [for example, Failed, Success, User Does Not Exist, and so on.]|
-|Files|	Filters based on files transfered, failed, and skipped.|
-|Data	|Filters based on data that has transfered, failed, or skipped.|
-|Success|	Displays all successful Data and Files transfered.|
+|Files|	Filters based on files transferred, failed, and skipped.|
+|Data	|Filters based on data that has transferred, failed, or skipped.|
+|Success|	Displays all successful Data and Files transferred.|
 |Failed	|Displays all Data and Files that have failed to transfer.|
 |Skipped	|Displays all data and files that were skipped.|
 |Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
@@ -93,14 +94,14 @@ For more information about the scanning process, see the **Scanning** section.
 After the scan report is downloaded and opened, look for these key items:
 
 - Users with a failed status. We recommend rerunning the scan for these user(s).
-- Users with one file or less. **Note**: Sharing permissions are still transfered.
+- Users with one file or less. **Note**: Sharing permissions are still transferred.
 - Users with the most data. Use this information to decide about a data distribution strategy that suits your needs. For more info about data distribution, see **here**.
 
 ![scan report example](media/scan-report-example.png)
 
 ## Migration report
 
-The **Migration Report** provides an in-depth overview of your entire migration, including (but not limited to) speed and time statistics, totals for files and data transfered, and info relating to the latest run.
+The **Migration Report** provides an in-depth overview of your entire migration, including (but not limited to) speed and time statistics, totals for files and data transferred, and info relating to the latest run.
 
 To download this as a CSV, at the top right of the **Migration Manager**, select the **gear** icon, and select **Migration Report**.
 
@@ -108,32 +109,38 @@ The CSV report provides the following information for each user pairing:
 
 |**Header/Statistic**|**Definition**|
 |:-----|:-----|
-|Schedule ID|	Our internal reference unique to the user pairing created.|
-|Source|	Source directory path.|
-|Destination	|Destination directory path.|
-|Tags	|If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
-|Notes|	If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
-|First Run Start|	When the first transfer for this user pairing began.|
-|Files Transfered	|Total files transfered.|
-|MB Transfered	|Total data (MB) transfered.|
-|Times run|	Total number of times this user pairing has been run.|
-|Total Duration	|Total duration of each time this user pairing has been run.|
-|Average File Velocity (files/hour)|	Files transfered, divided by the total duration.|
-|Average Data Velocity (MB/hour)	|Data (MB) transfered, divided by the total duration.|
-|Last Status|	Last status of the user pairing.  This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
-|Last Status Code|	Internal reference number refering to the last status of the user pairing.|
-|Last Skipped|	Number of skipped files in the last run.|
-|Last Files|	Number of files transfered in the last run.|
-|Last MB	|Volume of data (MB) transfered in the last run.|
-|Last MB Skipped	|Volume of data (MB) skipped in the last run.|
-|Last Failed Files	|Number of files that failed to transfer in the last run.|
-|Last Folders Listed	|Number of folders that we opened/created in the last run.|
-|Last Folders Failed	|Number of folders that we failed to open/create in the last run.|
-|Last Run Start	|When the latest transfer on this user pairing began.|
-|Last Run End	|When the latest transfer on this user pairing finished.|
-|Last Run Duration	|How long the latest transfer for this user pairing took to complete.|
-|Last File Velocity (files/hour)	|Files transfered, divided by the total duration for the last run.|
-|Last Data Velocity (MB/hour)|	Data (MB) transfered, divided by the total duration for the last run.|
+|Schedule ID|Our internal reference unique to the user pairing created.|
+|Source|Source directory path.|
+|Destination|Destination directory path.|
+|Tags|If you have used our tags feature, you'll see them here. Use tags to differentiate operational departments, to flag specific users, and so on.|
+|Notes|If you have added Notes to user pairings in the **Migration Manager**, they'll appear here, for example, *Remind me to check the logs on this user* or *Weird folder problem - ask support*.|
+|First Run Start|When the first transfer for this user pairing began.|
+|Files Transferred|Total files transferred to the destination.|
+|Bytes Transferred|Total data (bytes) transferred to the destination.|
+|MB Transferred|Total data (MB) transferred to the destination.|
+|Total Duration|Total duration of each time this user pairing has been run.|
+|Times run|Total number of times this user pairing has been run.|
+|Last Status|Last status of the user pairing. This is also reflected by the color of each row in the **Migration Manager**. Examples include *Success*, *Some Problems*, *Failure*.|
+|Last Status Code|Internal reference number referring to the last status of the user pairing.|
+|Last Successful Files|Number of files transferred in the last run.|
+|Last Successful Bytes|Volume of data (bytes) transferred in the last run.|
+|Last Successful MB|Volume of data (MB) transferred in the last run.|
+|Last Files Skipped|Number of skipped files in the last run.|
+|Last Bytes Skipped|Volume of data (bytes) skipped in the last run.|
+|Last MB Skipped|Volume of data (MB) skipped in the last run.|
+|Last Files Unsupported|Number of files unsupported either in the source or destination in the last run.|
+|Last Failed Files|Number of files that failed to transfer in the last run.|
+|Last Folders Listed|Number of folders that we opened/created in the last run.|
+|Last Folders Failed|Number of folders that we failed to open/create in the last run.|
+|Last Run Start|When the latest transfer on this user pairing began.|
+|Last Run End|When the latest transfer on this user pairing finished.|
+|Last Run Duration|How long the latest transfer for this user pairing took to complete.|
+|Last File Velocity (files/hour)|Files transferred, divided by the total duration for the last run.|
+|Last Data Velocity (Bytes/hour)|Data (bytes) transferred, divided by the total duration for the last run.|
+|Last Data Velocity (MB/hour)|Data (MB) transferred, divided by the total duration for the last run.|
+|Average File Velocity (files/hour)|Files transferred, divided by the total duration.|
+|Average Data Velocity (Bytes/hour)|Data (bytes) transferred, divided by the total duration.|
+|Average Data Velocity (MB/hour)|Data (MB) transferred, divided by the total duration.|
 
 Download an example CSV:
 
