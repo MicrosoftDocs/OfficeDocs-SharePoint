@@ -131,11 +131,56 @@ Your tenant's configuration will determine what path you need to take to install
 
 ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
-#### Provision M365 learning pathways for the first time
+
+
+#### If you already have M365 learning pathways 4.0 - provision the SharePoint Success Site from the look book
+If you already have Learning Pathways 4.0 or greater provisioned on your tenant, you can provision Learning Pathways from the SharePoint Look book site. Make sure you have met the requirements as covered earlier in this documentation. 
+
+1. Go to the [look book]( https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**
+
+![Image of the SharePoint Success Site look book page](media/sss-lookbook-add.png)
+
+2. Fill out the email and URL address sections and  and select **Provision**
+
+> [!IMPORTANT]
+> Enter this address in the URL field - https://microsoft.github.io/customlearning_staging/learningpathways/
+
+![Image of the SharePoint Success Site look book page details](media/sss-lookbook-details.png)
+
+3. Select **Confirm**
+4. When provisioning is complete, you’ll see the following message:
+
+![Image of the provisioning confirmation message](media/sss-sss-complete.png)
+
+5. Next, navigate to your tenant's Learning Pathways site
+6. Select **Home > Learning Pathways Administration**
+
+![Image of the M365 learning pathways admin page](media/sss-sss-admin.png)
+
+7. Select the **…** (ellipse), then select **Add to Content Pack**
+8. Select **SharePoint Success Site**
+
+![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
+
+9. You will see the SharePoint look book site appear in a new tab. You can close this tab and select the **CustomLearning Administration tab**
+
+![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
+
+10. Select **Complete** as shown in the following image:
+
+![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
+
+11. To confirm M365 learning pathways has been successfully provisioned, go to the SharePoint site you provisioned, select **Get Started > Plan your site.** You should see the web part on the page as shown in the following image: 
+
+![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+
+
+
+#### Or, provision M365 learning pathways for the first time
 
 If you **don’t already have** M365 learning pathways installed in your tenant, follow these instructions:
 
-1. Go to the [Look book M365 learning pathways solution page.](https://lookbook.microsoft.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239)
+1. Go to the [M365 learning pathways solution page](https://provisioning-test.sharepointpnp.com/details/29f8646c-f754-4a8b-9b33-e09d55e29f67)
 2. Select **Add to your tenant**. If you aren't signed into to your tenant, the Provisioning Service will ask for your tenant admin credentials.
 3. From the Permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept.**
 
@@ -195,17 +240,34 @@ In this step, you upload the learning pathways 4.0 web part to the SharePoint Ap
 10. When the update is complete, select **Close**
 
 
-### Provision the SharePoint Success Site to your tenant from the Admin success center
+### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
 
-After you have successfully provisioned or updated M365 learning pathways, you are ready to provision the SharePoint Success Site.
+After you have successfully provisioned for the first time or updated M365 learning pathways, you are ready to provision the SharePoint Success Site.
 
 1. Navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
 2. Sign in with your user name and password.
 3. Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Office 365 Home page, and then select the M365 learning pathways site.
+4. From the learning pathways Home menu, select **Learning Pathways Administration.**
+5. Select the … (ellipses) and then select **Add Content Pack.** 
+6. Select SharePoint Success Site to open the SharePoint Success Site provisioning page. 
+7. Select **Add to your tenant.** 
+8. Fill out the details and then select **Provision.**
 
+![Image of the M365 learning pathways solution confirmation](media/sss-m365lp-confirm.png)
 
-> [!NOTE]
-> Make the destination URL for your site user friendly for your colleagues, such as “/sites/SharePointSuccess” or “/teams/SharePointSites”.
+9. Select **Confirm.**  
+10. When you see Provisioning completed, select the **CustomLearningAdministration** tab as shown in the following image.
+
+![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
+
+11. Select **Complete** as shown in the following image:
+
+![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
+
+12. To confirm M365 learning pathways has been successfully provisioned, go to the SharePoint site you provisioned, select **Get Started > Plan your site.** You should see the web part on the page as shown in the following image: 
+
+![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+
 
 
 
