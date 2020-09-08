@@ -1,7 +1,7 @@
 ---
 title: "Customize query suggestions in SharePoint search"
 ms.reviewer: 
-ms.author: arnek
+ms.author: pamgreen
 author: arnek
 manager: pamgreen
 audience: Admin
