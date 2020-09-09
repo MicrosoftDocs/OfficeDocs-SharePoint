@@ -54,7 +54,7 @@ The following table provides estimates of the type of speed you may achieve base
 
 |**Type of metadata**|**Examples**|**Maximum**|
 |:-----|:-----|:-----|
-|Light|ISO files, video files |15 TB/day|
+|Light|ISO files, video files |10 TB/day|
 |Medium |List items, Office files (~1.5 MB)|1 TB/day|
 |Heavy|List items with custom columns, small files (~50 kb)|250 GB /day|
 
