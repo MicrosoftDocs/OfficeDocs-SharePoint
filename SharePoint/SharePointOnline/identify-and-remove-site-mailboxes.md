@@ -107,7 +107,7 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 
     ![delete-office-image](media/option2-site-delete-image4.png)
 
-### Delete a site or subsite quicksteps
+#### Delete a site or subsite quicksteps
 
 If you're experienced with SharePoint, here's how to delete a site or subsite in any version.
 - SharePoint in Microsoft 365 team site — **Settings** ![settings-icons](media/settings-icon.png)> **Site Information** > **Delete site** — Check box to delete group, and then click **Delete**
