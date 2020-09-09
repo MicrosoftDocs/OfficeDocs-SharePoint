@@ -8,6 +8,7 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: conceptual
+ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
 msCollection: 
