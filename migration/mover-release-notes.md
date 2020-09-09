@@ -52,7 +52,7 @@ This article discusses cumulative features and enhancements in the Mover migrati
 >[!Note]
 >The workaround should NOT be requested if the SPO option `ThicketSupportDisabled` has been set to `true` as this may cause data duplication.
 
-When a transfer into Office 365 fails on items due to path length limitations, the items would show up yellow in the user logs and as errors in the migration error report. However, the messages related to these failed entries were blank. This has been fixed by ensuring that a proper error message has been added to these failures.
+- When a transfer into Office 365 fails on items due to path length limitations, the items would show up yellow in the user logs and as errors in the migration error report. However, the messages related to these failed entries were blank. This has been fixed by ensuring that a proper error message has been added to these failures.
 
 
 ## Backend v1.19.6 (August 31, 2020)
