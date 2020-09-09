@@ -14,7 +14,7 @@ ms.custom:
 description: "In this article, you'll learn how to identify and remove site mailboxes in SharePoint."
 ---
 
-# Identify and remove Site Mailboxes
+# Identify and remove site mailboxes
 
 A site mailbox is functionally comprised of SharePoint site membership (owners and members), shared storage through an Exchange 2016 or Exchange 2019 mailbox for email messages and a SharePoint site for documents, and a management interface that addresses provisioning and lifecycle needs.
 
@@ -27,7 +27,7 @@ Get-SiteMailbox -BypassOwnerCheck -ResultSize Unlimited | ft Name, WhenCreated, 
 ```
 
 The 'create' date shows the recently created site mailboxes. 
-The 'ClosedTime' in the output of 'Get-SiteMailbox' refers to the status of the associated SharePoint site. The companies set a SharePoint policy to close sites after a period of time or provide users permission to close the sites.  Closing the site generally means it is out of service. Closed site mailboxes are removed from view in the Outlook desktop client, but they are available in the Outlook Web Access.
+The 'ClosedTime' in the output of 'Get-SiteMailbox' refers to the status of the associated SharePoint site. The companies set a SharePoint policy to close sites after a period of time or provide users permission to close the sites. Closing the site generally means it is out of service. Closed site mailboxes are removed from view in the Outlook desktop client, but they are available in the Outlook Web Access.
 
 For more information see, [Use policies for site closure and deletion](https://support.office.com/article/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5).
 
@@ -65,15 +65,17 @@ Option 1: Hiding the mailbox from a SharePoint Site
 
 You can remove the site mailbox, which essentially hides the mailbox from those who are using the site. It exists in Exchange and can be accessed through Outlook Web Access if the browser is bookmarked.
 
-1. Click **Settings** > **Site contents**.
+1. Click **Settings** ![settings-icons](media/settings-icon.png) > **Site contents**.
 
 2. Under **Lists, Libraries, and other APPs**, point to **Site Mailbox**, and then click **…** for more information.
-[Image1]
 
-3. Click Remove on the box that pops up.
-[removeimage]
+   ![site-mailbox](media/site-mailbox-image1.png)
 
-4.	Click OK to remove the site mailbox app.
+3. Click **Remove** on the box that pops up.
+
+   ![remove-image](media/site-mailbox-remove-image.png)
+
+4.	Click **OK** to remove the site mailbox app.
 
 >[!NOTE]
 > If you remove a mailbox from a site, it won’t be displayed on the site, but it will still be visible in Outlook (if you’re using Exchange).
@@ -84,35 +86,39 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 
 1.	Navigate to the SharePoint site you want to delete.
 
-2.	Select **Settings** [icon] at the top of the site and then click **Site information**.
+2.	Select **Settings** ![settings-icons](media/settings-icon.png) at the top of the site and then click **Site information**.
 
+    ![site-delete-image](media/option2-site-delete-image1.png)
+    
 >[!NOTE]
-> If you do not see Site information in the Settings panel, work with your SharePoint administrator to get access.
-[image]
+> If you do not see **Site information** in the **Settings** panel, work with your SharePoint administrator to get access.
 
 3.	At the bottom of the Site Information panel, select **Delete site**.
-[image]
+
+    ![site-info-image](media/option2-site-information-delete-image2.png)
 
 4.	Check the confirmation box, and then select **Delete**.
 
-Confirmation for communication sites
-[image]
+   **Confirmation for communication sites**
 
-Confirmation for team sites
-[image]
+   ![delete-site-image](media/option2-site-delete-image3.png)
+
+   **Confirmation for team sites**
+
+   ![delete-office-image](media/option2-site-delete-image4.png)
 
 ### Delete a site or subsite quicksteps
 
 If you're experienced with SharePoint, here's how to delete a site or subsite in any version.
-- SharePoint in Microsoft 365 team site — **Settings** > **Site Information** > **Delete site** — Check box to delete group, and then click **Delete**
+- SharePoint in Microsoft 365 team site — **Settings** ![settings-icons](media/settings-icon.png)> **Site Information** > **Delete site** — Check box to delete group, and then click **Delete**
 
-- SharePoint in Microsoft 365 or SharePoint Server 2019 communication site — **Settings** > **Site Information** >  **Delete site** — Click **Delete**
+- SharePoint in Microsoft 365 or SharePoint Server 2019 communication site — **Settings** ![settings-icons](media/settings-icon.png) > **Site Information** >  **Delete site** — Click **Delete**
 
-- SharePoint Server 2019 Team site — **Settings** > **Site Information** > **View all site settings** >  **Site Actions** >  **Delete this site** — Click **Delete**
+- SharePoint Server 2019 Team site — **Settings** ![settings-icons](media/settings-icon.png) > **Site Information** > **View all site settings** >  **Site Actions** >  **Delete this site** — Click **Delete**
 
-- SharePoint Classic Experience or earlier versions of SharePoint in Microsoft 365 — **Settings** >  **Site settings** > **Site Actions** > **Delete this site** — Click **Delete**
+- SharePoint Classic Experience or earlier versions of SharePoint in Microsoft 365 — **Settings**![settings-icons](media/settings-icon.png) >  **Site settings** > **Site Actions** > **Delete this site** — Click **Delete**
 
-- SharePoint Server 2016, 2013 — **Settings** > **Site settings** > **Site Actions** > **Delete this site** — Click **Delete**
+- SharePoint Server 2016, 2013 — **Settings** ![settings-icons](media/settings-icon.png) > **Site settings** > **Site Actions** > **Delete this site** — Click **Delete**
 
 - SharePoint Server 2010 — **Site Actions** >  **Site settings** >  **Site Actions** > **Delete this site** — Click **Delete**
 
