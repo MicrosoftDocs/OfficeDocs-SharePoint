@@ -61,7 +61,7 @@ Get-SiteMailbox -BypassOwnerCheck | fl Name, Owners
 
 Use one of the following options:
 
-Option 1: Hiding the mailbox from a SharePoint Site
+**Option 1**: Hiding the mailbox from a SharePoint Site
 
 You can remove the site mailbox, which essentially hides the mailbox from those who are using the site. It exists in Exchange and can be accessed through Outlook Web Access if the browser is bookmarked.
 
@@ -80,7 +80,7 @@ You can remove the site mailbox, which essentially hides the mailbox from those 
 >[!NOTE]
 > If you remove a mailbox from a site, it won’t be displayed on the site, but it will still be visible in Outlook (if you’re using Exchange).
 
-Option 2: Delete the SharePoint Site
+**Option 2**: Delete the SharePoint Site
 
 If the SharePoint site is deleted, Exchange is notified to also delete the site mailbox.
 
@@ -122,7 +122,7 @@ If you're experienced with SharePoint, here's how to delete a site or subsite in
 
 - SharePoint Server 2010 — **Site Actions** >  **Site settings** >  **Site Actions** > **Delete this site** — Click **Delete**
 
-Option 3: Delete the site mailbox manually
+**Option 3**: Delete the site mailbox manually
 
 For example, run the following command in Exchange PowerShell:
 
