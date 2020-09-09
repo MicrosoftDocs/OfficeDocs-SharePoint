@@ -99,13 +99,13 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 
 4.	Check the confirmation box, and then select **Delete**.
 
-   **Confirmation for communication sites**
+    **Confirmation for communication sites**
 
-   ![delete-site-image](media/option2-site-delete-image3.png)
+    ![delete-site-image](media/option2-site-delete-image3.png)
 
-   **Confirmation for team sites**
+    **Confirmation for team sites**
 
-   ![delete-office-image](media/option2-site-delete-image4.png)
+    ![delete-office-image](media/option2-site-delete-image4.png)
 
 ### Delete a site or subsite quicksteps
 
