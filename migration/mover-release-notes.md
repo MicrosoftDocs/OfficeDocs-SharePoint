@@ -17,35 +17,35 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
-## Backend V1.19.8 (September 9, 2020)
+## Backend v1.19.8 (September 9, 2020)
 -	Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
 
-## Backend V1.19.7 (August 26, 2020)
+## Backend v1.19.7 (September 1, 2020)
 -	Improved data transfer speeds from the Agent connector (file shares) into an Office 365 connector. Customers will need to update the Agent to version v1.3.4.0.
 -	Transfers going into some Office 365 sites may fail to move certain folders if the sites have the SharePoint Online option `ThicketSupportDisabled` set to `false`. To correct this issue, customers can set `ThicketSupportDisabled` to `true` in the SharePoint Online sites experiencing the issues. Alternatively, they can contact Mover support to apply a workaround to their transfers. The workaround consists in automatically appending an underscore (_) to the folder names. The folders that may fail due to this SharePoint Online option have names ending in:
 
-- .files
-- _files
-- -Dateien
-- _fichiers
-- _bestanden
-- _file
-- _archivos
-- -filer
-- _tiedostot
-- _pliki
-- _soubory
-- _elemei
-- _ficheiros
-- _arquivos
-- _dosyalar
-- _datoteke
-- _fitxers
-- _failid
-- _fails
-- _bylos
-- _fajlovi
-- _fitxategiak
+    - .files
+    - _files
+     - -Dateien
+    - _fichiers
+    - _bestanden
+    - _file
+    - _archivos
+    - -filer
+    - _tiedostot
+    - _pliki
+    - _soubory
+    - _elemei
+    - _ficheiros
+    - _arquivos
+    - _dosyalar
+    - _datoteke
+    - _fitxers
+    - _failid
+    - _fails
+    - _bylos
+    - _fajlovi
+    - _fitxategiak
 
 
 
