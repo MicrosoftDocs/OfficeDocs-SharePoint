@@ -223,7 +223,15 @@ Assign a few site owners to grant administrative privileges to customize the sit
 - See M365 learning pathways [FAQs](https://docs.microsoft.com/office365/customlearning/faq)
 - Share your [feedback](https://github.com/pnp/custom-learning-office-365/issues) with us
 
-	
+
+
+
+### Next steps - customize the SharePoint Success Site
+
+Customize playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
+
+
+
 ### Frequently asked questions
 
 **Question: Who can provision the SharePoint Success Site?**
