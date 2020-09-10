@@ -34,7 +34,9 @@ The SharePoint Success Site consists of three parts:
 ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
 
-## Before you publish, customize the following elements
+## Before you publish
+ 
+ There are several customization opportunities to align the site content, look, and feel with your organization. Before you publish your site and share it with users, review and customize the following elements:
 
 - Training content in M365 learning pathways 
 - The SharePoint Success Site template 
@@ -108,7 +110,7 @@ Select which content to display in your SharePoint Success Site by [hiding and s
 With Microsoft 365 learning pathways, you can [create custom playlists](https://docs.microsoft.com/office365/customlearning/custom_createnewplaylist) that are tailored to the unique needs of your organization. For example, create a playlist for team site integration with Microsoft Teams.
 
 
-### Customize the look and content on your site
+### Customize the look and feel of your site
 The following sections of the SharePoint Success Site can be customized to meet your requirements, prior to sharing with end users.There are several different ways you can make the SharePoint Success Site template your own. Customize the following elements of your site to fit the need of your organization:
 
 - Update the SharePoint Success Site [branding](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) to align with your organization
@@ -199,8 +201,6 @@ To help build, grow, and sustain your SharePoint adoption efforts, its recommend
 
 
 	
-#### More site customization resources:
-
 
 
 
