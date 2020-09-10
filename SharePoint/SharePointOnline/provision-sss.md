@@ -173,7 +173,7 @@ If you already have Learning Pathways 4.0 or greater provisioned on your tenant,
 
 5.	Select the … (ellipses) and then select **Add Content Pack**.
 
-![Image of the content pack in the M365 learning pathways admin page](media/sss-content-packn.png)
+![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
 
 6.	Select SharePoint Success Site to open the SharePoint Success Site provisioning page.
 7.	Select **Add to your tenant**.
