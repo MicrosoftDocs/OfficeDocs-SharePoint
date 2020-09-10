@@ -40,7 +40,7 @@ Use the SharePoint Success Site to:
 - **Provide the most up-to-date content** - Equip site owners with SharePoint self-help content that is maintained by Microsoft and published as SharePoint evolves.
 
 
-## Summary of how to launch a SharePoint Success Site:
+## Summary of how to launch a SharePoint Success Site
 
 **Step 1:** Meet the pre-requisites to provisioning the SharePoint Success Site
 <br> 
