@@ -29,7 +29,7 @@ The SharePoint Success Site builds on the power of [Microsoft 365 learning pathw
 Install the SharePoint Success Site in your tenant environment, customize the pre-populated training content, and make it available to end users.
 
 
-### Why invest in a SharePoint Success Site?
+## Why invest in a SharePoint Success Site?
 The SharePoint Success Site helps site owners improve the quality and impact of the sites they build in SharePoint for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
 
 Use the SharePoint Success Site to:
@@ -40,7 +40,7 @@ Use the SharePoint Success Site to:
 - **Provide the most up-to-date content** - Equip site owners with SharePoint self-help content that is maintained by Microsoft and published as SharePoint evolves.
 
 
-#### Summary of how to launch a SharePoint Success Site:
+## Summary of how to launch a SharePoint Success Site:
 
 **Step 1:** Meet the pre-requisites to provisioning the SharePoint Success Site
 <br> 
@@ -54,7 +54,7 @@ Use the SharePoint Success Site to:
 **Step 4:** Launch and share the site
 
 
-### SharePoint Success Site features
+## SharePoint Success Site features
 The SharePoint Success Site is designed to reduce the amount of work needed to plan, build, and manage new SharePoint sites for site owners and content authors in order to expedite your organization’s progress.
 
 SharePoint Success Site features:
@@ -66,20 +66,20 @@ SharePoint Success Site features:
 - **Create your own training playlists:** Add your own custom training content and playlists specific to your organization's desired business outcomes beyond SharePoint.
 
 
-### What comes with a SharePoint Success Site 
+## What comes with a SharePoint Success Site 
 The SharePoint Success Site comes pre-populated with web parts and content to guide your users through the most up-to-date site creation training. There are several opportunities to customize the experience to better suit your organization’s goals, tenant configuration, and usage policy. 
 
-#### SharePoint communication site 
+### SharePoint communication site 
 The SharePoint Success Site is a SharePoint communication site that includes pre-populated pages, web parts, and site navigation. The site can be customized to incorporate your organization's existing branding, support, and community content.
 
 ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
-#### Microsoft 365 learning pathways
+### Microsoft 365 learning pathways
 When you provision the SharePoint Success Site, you will first be required to install [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/). M365 learning pathways connects to a Microsoft-maintained content repository that includes publicly available SharePoint help content. As the content repository is updated, M365 learning pathways will automatically display updated SharePoint content. With M365 learning pathways, you can also create targeted training playlists that meet the needs of your organization beyond SharePoint training by uploading custom playlists. 
 
 ![Image of the Microsoft 365 learning pathways solution](media/sss-m365-learning-pathways.png)
 
-#### Microsoft-maintained content feed
+### Microsoft-maintained content feed
 The SharePoint Success Site’s up-to-date content feed includes a range of content that helps new users and existing site owners plan, build, and manage SharePoint sites:
 
 - **Plan your site:** Guidance on how to plan a site, including what type of SharePoint site to use, access rights, and permission strategy.
@@ -87,24 +87,24 @@ The SharePoint Success Site’s up-to-date content feed includes a range of cont
 - **Share and manage your site:** Guidance to help launch, share, and manage the new site.
 - **Advanced site creation:** Content for site owners that want to learn beyond site creation basics.
 
-#### Site inspiration
+### Site inspiration
 The introductory section helps new site owners understand the different ways you can leverage SharePoint to meet a business objective. Users will have access to stories that illustrate how to build an onboarding site, a project management site, a site that supports a community of interest, and a team collaboration site. These scenarios provide guidance on how to think about the planning, building, and launching phases.
 
 ![Image of the Ways to work with SharePoint page](media/sss-ways-to-work.png)
 
 
-#### Success stories
+### Success stories
 The success stories section is a gallery to showcase internal SharePoint site success stories that inspire others in the organization. Learn how to create a [Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d#:~:text=%20Create%20a%20form%20with%20Microsoft%20Forms%20,names%20can%20contain%20up%20to%2090...%20More%20) to solicit success stories from site owners and authors, and publish on your SharePoint Success Site to inspire.
 
 ![Image of the Success Stories page](media/sss-success-stories.png)
 
-#### Site creation guidelines 
+### Site creation guidelines 
 The site creation guidelines page provides a starting point to educate new site authors about [SharePoint creation policies](https://docs.microsoft.com/sharepoint/sites-usage-guidelines) for your organization. The guidelines include suggested usage policy topics and questions to prompt consideration of usage policies within your organization. Customize the content in your SharePoint Success Site site creation guidelines page to serve your organization’s governance needs.
 
 ![Image of the site creation guidelines page](media/sss-creation-guidelines.png)
 
 
-##### Next steps - provision the SharePoint Success Site
+### Next steps - provision the SharePoint Success Site
 
 Review and implement SharePoint Success Site [provisioning requirements and instructions](https://docs.microsoft.com/sharepoint/provision-sss).
 
