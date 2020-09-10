@@ -22,7 +22,7 @@ description: "Provision the SharePoint Success Site from the look book"
 
 # Provision the SharePoint Success Site from the look book
 
-Once you’ve confirm the person provisioning and the tenant being provsiioned meet the following prerequisites, you are ready to provision:
+Once you’ve confirm the person provisioning and the tenant being provsioned meet the following prerequisites, you are ready to provision:
 
 - You are using *at minimum* SharePoint tenant administrator credentials
 - Your tenant has the App Catalog installed
