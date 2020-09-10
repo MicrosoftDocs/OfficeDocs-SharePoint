@@ -56,8 +56,8 @@ PowerShellCopy
  Set-SPOSite -Identity "<SiteCollection>" -LockState "<State>"
  ```
 Where:
-- *"<"SiteCollection">"* is the URL of the site collection that you want to lock or unlock.
-- *"<"State">"* is one of the following values:
+- *SiteCollection* is the URL of the site collection that you want to lock or unlock.
+- *State* is one of the following values:
   - **Unlock** to unlock the site collection and make it available to users.
   - **ReadOnly** to prevent users from adding, updating, or deleting content.
   - **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message.
