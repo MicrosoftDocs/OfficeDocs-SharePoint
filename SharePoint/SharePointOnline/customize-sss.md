@@ -183,7 +183,7 @@ If your organization has an intranet team that will be supporting site owners, c
 The home page of the SharePoint Success Site has a [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05?ui=en-us&rs=en-us&ad=us) you can use to add your own Intranet team. If you will not have a dedicated team supporting site owners, remove the current People web part.
 
 
-## Share the SharePoint Success Site with end-users
+## Share the site with end-users
 Partner with others in your organization to ensure the SharePoint Success Site is widely known and adopted. 
 
 Key success factors to managing the SharePoint Success Site:
