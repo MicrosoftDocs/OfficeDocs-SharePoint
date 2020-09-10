@@ -71,14 +71,18 @@ You can remove the site mailbox, which essentially hides the mailbox from those 
 
    ![site-mailbox](media/site-mailbox-image1.png)
 
-3. Click **Remove** on the box that pops up.
+3. Click **Remove** and then click **OK** to remove the site mailbox app.
 
    ![remove-image](media/site-mailbox-remove-image.png)
 
-4.	Click **OK** to remove the site mailbox app.
-
 >[!NOTE]
 > If you remove a mailbox from a site, it won’t be displayed on the site, but it will still be visible in Outlook (if you’re using Exchange).
+
+### What else do I need to know?
+There are a couple of things worth noting about removing a site mailbox:
+- The only way to fully delete a site mailbox is to [delete the entire site itself](https://support.microsoft.com/office/delete-a-sharepoint-site-or-subsite-bc37b743-0cef-475e-9a8c-8fc4d40179fb). When a site is closed or deleted (either manually, or by following [site closure policies](https://support.microsoft.com/en-us/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5)), the site mailbox is also closed or deleted.
+
+- After removing the site mailbox app from a site, mail sent to the mailbox will still be stored. If you [add the mailbox back to the site](https://support.microsoft.com/office/add-a-site-mailbox-to-keep-email-in-context-cccaa235-c611-48e3-9653-0b9e161840e7) later, any mail sent to the site mailbox since it was originally created will still be there.
 
 **Option 2**: Delete the SharePoint Site
 
@@ -93,7 +97,7 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 >[!NOTE]
 > If you do not see **Site information** in the **Settings** panel, work with your SharePoint administrator to get access.
 
-3.	At the bottom of the Site Information panel, select **Delete site**.
+3.	At the bottom of the **Site Information** panel, select **Delete site**.
 
     ![site-info-image](media/option2-site-information-delete-image2.png)
 
@@ -130,10 +134,4 @@ For example, run the following command in Exchange PowerShell:
 Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
 ```
 Use 'Remove-Mailbox' to delete a site mailbox. The system removes the site mailbox link from the SharePoint site when a site mailbox is deleted. In the example, change the 'MDEL' to the name of the site mailbox you want to delete.
-
-## What else do I need to know?
-There are a couple of things worth noting about removing a site mailbox:
-- The only way to fully delete a site mailbox is to [delete the entire site itself](https://support.microsoft.com/office/delete-a-sharepoint-site-or-subsite-bc37b743-0cef-475e-9a8c-8fc4d40179fb). When a site is closed or deleted (either manually, or by following [site closure policies](https://support.microsoft.com/en-us/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5)), the site mailbox is also closed or deleted.
-
-- After removing the site mailbox app from a site, mail sent to the mailbox will still be stored. If you [add the mailbox back to the site](https://support.microsoft.com/office/add-a-site-mailbox-to-keep-email-in-context-cccaa235-c611-48e3-9653-0b9e161840e7) later, any mail sent to the site mailbox since it was originally created will still be there.
 
