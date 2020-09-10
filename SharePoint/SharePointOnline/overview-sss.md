@@ -103,7 +103,12 @@ The site creation guidelines page provides a starting point to educate new site 
 
 ![Image of the site creation guidelines page](media/sss-creation-guidelines.png)
 
-	
+
+##### Next steps - provision the SharePoint Success Site
+
+Review and implement SharePoint Success Site [provisioning requirements and instructions](https://docs.microsoft.com/sharepoint/provision-sss).
+
+
 ### Frequently asked questions
 
 **Question: Who can provision the SharePoint Success Site?**
