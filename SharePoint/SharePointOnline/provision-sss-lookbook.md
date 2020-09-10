@@ -30,7 +30,7 @@ Once you’ve confirm the person provisioning and the tenant being provsiioned m
 - Your tenant has version 4.0 of the M365 learning pathways provisioned
 
 
-### Start provisioning from the look book
+## Start provisioning from the look book
 If you already have Learning Pathways 4.0 or greater provisioned on your tenant, you can provision Learning Pathways from the SharePoint Look book site. 
 
 1. Go to the [look book](https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**
