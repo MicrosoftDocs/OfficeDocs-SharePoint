@@ -1,5 +1,5 @@
 ---
-title: Overview of the SharePoint Success Site 
+title: Provision the SharePoint Success Site 
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -17,10 +17,10 @@ search.appverid:
 - SPO160
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Overview of the SharePoint Success Site"
+description: "Provision the SharePoint Success Site"
 ---
 
-# Overview of the SharePoint Success Site 
+# Provision the SharePoint Success Site 
 
 The SharePoint Success Site is a ready to deploy and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site is designed to support new SharePoint site owners in creating high-impact sites to meet the goals of your organization. Install the SharePoint Success Site in your tenant environment, customize the pre-populated training content, and make it available to end users.
 
