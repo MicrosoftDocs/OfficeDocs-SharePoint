@@ -24,37 +24,25 @@ description: "Customize the SharePoint Success Site"
 
 The SharePoint Success Site is a ready to deploy, up-to-date, and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site helps end users improve the quality and impact of the sites they build for internal audiences, while helping ensure they follow your organization’s site usage guidelines. The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date site creation training. However, there are opportunities to customize the experience to better suit your organization’s goals and usage policy.
 
-**How does the SharePoint Success Site work?**
-
 The SharePoint Success Site consists of three parts:
 
 1.	**SharePoint communication site** - The site comes pre-populated with content and web parts that can be customized.
 2.	**Microsoft 365 learning pathways** - [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization..) is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and upload your own training playlists.
-3.	**Up-to-date SharePoint training content feed** - Content in the SharePoint Success Site is updated as SharePoint evolves and is managed by Microsoft.
+3.	**Up-to-date SharePoint training content feed** - Content in the SharePoint Success Site is updated by Microsoft as SharePoint evolves.
 
 
-## Get started customizing the SharePoint Success Site 
-The SharePoint Success Site is a ready to deploy, up-to-date, and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site helps end users improve the quality and impact of the sites they build for internal audiences, while helping ensure they follow your organization’s site usage guidelines.
-The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date site creation training. However, there are opportunities to customize the experience to better suit your organization’s goals and usage policy. 
-<br>
-
-**Before you publish your SharePoint Success Site, customize the following elements:**
+## Before you publish, customize the following elements
 
 - Training content in M365 learning pathways 
-- The SharePoint Success Site template and web parts
-- Content in the site usage guidelines and success story sections
+- The SharePoint Success Site template 
+- The Yammer conversation, People, and Forms web parts
+- Content in the site usage guidelines page
+- Content in the success story page
 - Branding details like the site logo and theme
-- Adoption and awareness materials
+- Navigational elements
 
 ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
-
-#### How does the SharePoint Success Site work? 
-
-The SharePoint Success Site consists of three parts:
-1. **SharePoint communication site** - The site comes pre-populated with content and web parts that can be customized.
-2. **Microsoft 365 learning pathways** - M365 learning pathways is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and upload your own training playlists.
-3. **Up-to-date SharePoint training content feed** - Content in the SharePoint Success Site is updated as SharePoint evolves and is managed by Microsoft.
 
 #### Summary of site requirements and permissions
 Before getting started, ensure that the SharePoint Success Site has been set up by your SharePoint tenant administrator. You need to be a site owner for *both* M365 learning pathways and the SharePoint Success Site in order to have permission to make changes.
