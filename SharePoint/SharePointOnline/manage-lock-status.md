@@ -20,7 +20,7 @@ ms.custom:
 description: "This article contains information on how to use the lock status of a site to control the actions allowed on a site collection."
 ---
 
-# Manage site redirects
+# Manage the lock status for sites in SharePoint Online
 
 The following table describes the locking options that are available in SharePoint Server.
 
@@ -35,11 +35,11 @@ The following table describes the locking options that are available in SharePoi
 > [!NOTE]
 > It isn't possible to set the lock state on the root site collection.
 
-# Manage the lock status for a site by using SharePoint Online Management shell
+## Manage the lock status for a site
 
-Use this procedure to set the lock state of a site by using PowerShell.
+Follow this procedure to set the lock state of a site by using the SharePoint Online Management shell.
 
-## To manage the lock status for a site by using PowerShell
+**To manage the lock status for a site**
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -56,11 +56,11 @@ PowerShellCopy
  Set-SPOSite -Identity "<SiteCollection>" -LockState "<State>"
  ```
 Where:
-- *<SiteCollection>* is the URL of the site collection that you want to lock or unlock.
-- *<State>* is one of the following values:
+- *"<SiteCollection>"* is the URL of the site collection that you want to lock or unlock.
+- *"<State>"* is one of the following values:
   - **Unlock** to unlock the site collection and make it available to users.
   - **ReadOnly** to prevent users from adding, updating, or deleting content.
   - **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message.
   - **NoAccessRedirectURL** Traffic to sites that have a lock state NoAccess will be redirected to that URL. If parameter NoAccessRedirectUrl is not set, a 403 error will be returned.
 
-For more information, see [Set-SPOSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/set-sposite).
+For more information, see [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite).
