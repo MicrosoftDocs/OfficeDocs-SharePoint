@@ -1,7 +1,7 @@
 ---
 title: Introduction to the SharePoint Success Site 
 ms.reviewer: 
-ms.author: Holland-ODSP
+ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
 audience: Admin
@@ -20,7 +20,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "Introduction to the SharePoint Success Site"
 ---
 
-# Overview of the SharePoint Success Site 
+# Introduction to the SharePoint Success Site 
 
 The SharePoint Success Site is a ready to deploy and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site is designed to support new SharePoint site owners in creating high-impact sites to meet the goals of your organization.
 
