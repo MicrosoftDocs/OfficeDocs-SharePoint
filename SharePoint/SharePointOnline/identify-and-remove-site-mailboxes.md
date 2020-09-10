@@ -1,7 +1,7 @@
 ---
 title: "Identify and remove site mailboxes"
-ms.author: Benny-54
-author: Benny-54
+ms.author: v-bshilpa
+author: Benny
 manager: Serdars
 audience: Admin
 f1.keywords:
