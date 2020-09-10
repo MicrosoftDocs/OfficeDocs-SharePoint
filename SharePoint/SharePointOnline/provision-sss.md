@@ -74,12 +74,12 @@ Your tenant's configuration will determine what path you need to take to install
 **Does your tenant have M365 learning pathways provisioned?**
 - Yes - Next, confirm you are using version 4.0 or higher
 - No - [Provision M365 learning pathways](https://docs.microsoft.com/office365/customlearning/) for the first time
-- Unsure - Navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **Microsoft 365 learning pathways**
+- Unsure - Navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see **Microsoft 365 learning pathways**
  
 **Is your tenant's version of learning pathways version 4.0 or higher?**
 - Yes - You are ready to provision the SharePoint Success Site from the look book
 - No - Update to version 4.0 and provision the SharePoint Success Site from the M365 learning pathways administration page
-- Unsure - Navigate to your tenant's M365 Learning Pathways administration page
+- Unsure - Navigate to your tenant's **M365 Learning Pathways administration page**:
 
 ![Image learning pathways admin page](media/sss-lp-version.png)
 
@@ -87,14 +87,14 @@ Then select the three dots in the tool bar, then select **About web part**
 
 ![Image learning pathways admin page settings bar](media/sss-lp-elipses.png)
 
-### Update M365 learning pathways from version 3.0 to version 4.0
+#### Update M365 learning pathways from version 3.0 to version 4.0
 
 > [!IMPORTANT] 
 > The person updating learning pathways must be an administrator of the tenant’s App Catalog. If the person provisioning learning pathways isn't a site collection owner of the App Catalog, [complete these instructions](https://docs.microsoft.com/office365/customlearning/addappadmin) and continue
 
 In this step, you upload the learning pathways 4.0 web part to the SharePoint App Catalog, and then navigate to the learning pathways Administration page to start the update process.
 
-#### Upload the web part package
+**Upload the web part package**
 1.	Go to the [GitHub custom learning repository](https://docs.microsoft.com/office365/customlearning/manualcustomlearninginstall), select customlearning.sppkg and then download it to a local drive on your PC
 2.	If you’re not already signed in, sign into your tenant with a Tenant Admin or Site Collection Admin account
 3.	Select **Admin > Show All > SharePoint > More Features**
@@ -111,20 +111,20 @@ In this step, you upload the learning pathways 4.0 web part to the SharePoint Ap
 
 Once you’ve confirmed the following, you are ready to provision:
 
-•	You are using *at minimum* SharePoint tenant administrator credentials
-•	Your tenant has the App Catalog installed
-•	You are an administrator of the App Catalog
-•	Your tenant has version 4.0 of the M365 learning pathways provisioned
+- You are using *at minimum* SharePoint tenant administrator credentials
+- Your tenant has the App Catalog installed
+- You are an administrator of the App Catalog
+- Your tenant has version 4.0 of the M365 learning pathways provisioned
 
 
 ### Provision the SharePoint Success Site to your tenant from the look book
 If you already have Learning Pathways 4.0 or greater provisioned on your tenant, you can provision Learning Pathways from the SharePoint Look book site. Make sure you have met the requirements as covered earlier in this documentation.
 
-1.	Go to the [look book](https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**
+1. Go to the [look book](https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**
 
 ![Image of the SharePoint Success Site look book page](media/sss-lookbook-add.png)
 
-2.	Fill out the email and URL address sections and select **Provision**
+2. Fill out the email and URL address sections and select **Provision**
 
 ![Image of the SharePoint Success Site look book page details](media/sss-lookbook-details.png)
 
@@ -217,7 +217,7 @@ Assign a few site owners to grant administrative privileges to customize the sit
 5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
 
-## Site provisioning help
+### Site provisioning help
 
 - Reference [troubleshooting](https://docs.microsoft.com/office365/customlearning/feedback) for provisioning help
 - See M365 learning pathways [FAQs](https://docs.microsoft.com/office365/customlearning/faq)
