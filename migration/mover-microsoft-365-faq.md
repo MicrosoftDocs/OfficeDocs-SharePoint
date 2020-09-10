@@ -1,6 +1,7 @@
 ---
 title: Mover Microsoft 365 Migration FAQ
 author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: ITPro
 ms.topic: article
