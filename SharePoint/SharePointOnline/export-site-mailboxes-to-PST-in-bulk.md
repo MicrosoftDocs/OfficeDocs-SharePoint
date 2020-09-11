@@ -43,7 +43,7 @@ description: "In this article, you'll learn how to export site mailboxes to PST 
 9. Monitor script execution progress and access export created for each mailbox via compliance center in Microsoft 365 Administrator dashboard when you get “Mailboxes content      search are complete" message.
 
    >[!NOTE]
-   > Use Compliance Center dashboard to download PST messages on your screen.
+   > Use Compliance center dashboard to download PST messages on your screen.
 
  >[!NOTE]
   > - Folder with no email items inside them will not be exported.
@@ -57,7 +57,7 @@ For the site mailboxes to be accessible again for site owners, import the PST fi
 
 - [Use network upload to import PST files to Office 365](https://docs.microsoft.com/en-us/microsoft-365/compliance/use-network-upload-to-import-pst-files?view=o365-worldwide)
 
--	[Use drive shipping to import PST files](https://docs.microsoft.com/en-us/microsoft-365/compliance/use-drive-shipping-to-import-pst-files-to-office-365?view=o365-worldwide)
+- [Use drive shipping to import PST files](https://docs.microsoft.com/en-us/microsoft-365/compliance/use-drive-shipping-to-import-pst-files-to-office-365?view=o365-worldwide)
 
 
 
