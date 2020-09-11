@@ -117,7 +117,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/e
 
 25. In **Export key** section, click **Copy to clipboard**.
 
-    ![export-key](media/export-key-im17 (2).PNG)
+    ![export-the-key](media/export-key-im.PNG)
 
 26. Click **Download results**.
 
@@ -155,8 +155,5 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/e
   > - Outlook shows the items inside the Documents folder as unsafe, this is an expected behaviour.
   > - The document attachments in the emails of Documents folder are just place holder, the actual documents are stored in SharePoint.
 
-    
-    
-    
     
 
