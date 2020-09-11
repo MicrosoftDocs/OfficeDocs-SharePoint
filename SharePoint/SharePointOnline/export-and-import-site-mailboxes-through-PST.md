@@ -34,7 +34,6 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/e
 5. Click **Save**.
 
 6. Select the case and click ![icon-ac](media/icon-for-im3.PNG) to open the case.
-   The case is opened in a new tab.
    
    ![select-case](media/select-case-im3.PNG)
 
@@ -52,8 +51,10 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/e
 
 11. In **Choose locations** tab, select **Specific locations**.
 
-12. In **Locations**, click **Choose users, groups, or team**.
-
+12. Under **Locations**, click **Choose users, groups, or team**.
+    
+    ![locations](media/locations-im.PNG)
+    
 13. In **Edit locations** window, under **Exchange email**, click **Choose users, groups, or team**.
 
 14. Enter the name of the site mailbox to be exported.
@@ -90,11 +91,11 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/e
 
     ![sharepoint-site](media/sharepoint-site-im11.PNG)
     
-20. Click **Choose**and then click **Done**.
+20. Click **Choose** and then click **Done**.
 
 21. In the **New search** details pane, click **Next**.
 
-    ![new-search-location](new-search-locations-im13.PNG)
+    ![new-sl](media/new-search-locations-im13.PNG)
     
 22. Click **Finish**.
 
@@ -133,12 +134,13 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/e
 
 29. Paste the **Export key**, provide the location to save the PST file locally and then click **Start**.
 
-    ![export-tool-location](SharePoint/SharePointOnline/media/export-tool-location-im20.PNG)
+    ![export-tool-location](media/export-tool-location-im20.PNG)
     
     >[!NOTE]
     > The export will take a while based on the size of the PST file.
 
 30. Click **Close**.
+
     ![close-tool](media/close-im21.PNG)
     
     The PST can be now attached in Outlook.
