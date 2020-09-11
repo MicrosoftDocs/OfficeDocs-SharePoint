@@ -18,7 +18,7 @@ description: "SharePoint web part support in the Migration API"
 ---
 # Migrating web parts using the Migration API
 
-The Migration API supports the ability to migrate web parts to SharePoint in Microsoft 365using the PRIME package by calling CSOM/REST/SOAP WS to get web part data and properties to build the PRIME package.
+The Migration API supports the ability to migrate web parts to SharePoint in Microsoft 365 using the PRIME package by calling CSOM/REST/SOAP WS to get web part data and properties to build the PRIME package.
 
 An advantage in using the Migration API for your web part migration is the ability to migrate your web parts in one call and improve performance. Part of the manifest includes the web part as you import its associated page. By using the Migration API, you can put all the web parts you have on that page.
 
