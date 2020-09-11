@@ -1,6 +1,5 @@
 ---
-title: "Manage the lock status for sites in SharePoint Online"
-ms.reviewer: adwood
+title: "Lock and unlock sites"
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -17,29 +16,19 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
-description: "This article contains information on how to use the lock status of a site to control the actions allowed on a site collection."
+description: "This article contains information about how to use the lock state of a site to control the actions allowed on the site."
 ---
 
-# Manage the lock status for sites in SharePoint Online
+# Lock and unlock sites
 
-The following table describes the locking options that are available in SharePoint Server.
-
-
-|Option  |Description  |
-|---------|---------|
-|Unlock |Unlocks the site collection and makes it available to users.  |
-|Read-only (blocks additions, updates, and deletions)    |Prevents users from adding, updating, or deleting content. A message will appear on the site stating that the site is under maintenance and it is read-only.   |
-|No access    |Prevents users from accessing the site collection and its content. Users who attempt to access the site receive an error page that informs the user that the website declined to show the webpage.    |
-|NoAcccessRedirectURL   |Traffic to sites that have a lock state NoAccess will be redirected to that URL. If parameter NoAccessRedirectUrl is not set, a 403 error will be returned.    |
+As a global or SharePoint admin in Microsoft 365, you can block access to a site or make a site read-only by using Microsoft PowerShell to change the lock state of the site. 
 
 > [!NOTE]
-> It isn't possible to set the lock state on the root site collection.
+> You can't set the lock state on the root site.
 
-## Manage the lock status for a site
+## Change the lock state for a site
 
-Follow this procedure to set the lock state of a site by using the SharePoint Online Management shell.
-
-**To manage the lock status for a site**
+Follow these steps to change the lock state for a site by using PowerShell.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -49,18 +38,20 @@ Follow this procedure to set the lock state of a site by using the SharePoint On
 2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. At the PowerShell command prompt, type the following command, and then press ENTER.
- 
-PowerShellCopy
 
  ```PowerShell
- Set-SPOSite -Identity "<SiteCollection>" -LockState "<State>"
+ Set-SPOSite -Identity "<SiteURL>" -LockState "<State>"
  ```
-Where:
-- *SiteCollection* is the URL of the site collection that you want to lock or unlock.
-- *State* is one of the following values:
-  - **Unlock** to unlock the site collection and make it available to users.
-  - **ReadOnly** to prevent users from adding, updating, or deleting content.
-  - **NoAccess** to prevent users from accessing the site collection and its content. Users who attempt to access the site receive an error message.
-  - **NoAccessRedirectURL** Traffic to sites that have a lock state NoAccess will be redirected to that URL. If parameter NoAccessRedirectUrl is not set, a 403 error will be returned.
 
-For more information, see [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite).
+Where:
+*SiteURL* is the URL of the site that you want to lock or unlock and *State* is one of the following values:
+
+- **Unlock** to unlock the site and make it available to users.
+- **ReadOnly** to prevent users from adding, updating, or deleting content. A message will appear on the site stating that the site is under maintenance and is read-only.
+- **NoAccess** to prevent users from accessing the site and its content. If you've provided a NoAccessRedirectUrl value for your organization (below), traffic will be redirected to the URL you specified. If you haven't set this URL, a 403 error will be displayed.
+
+ ```PowerShell
+Set-SPOTenant -NoAccessRedirectUrl 'https://www.contoso.com'
+ ```
+
+For more info about the LockState parameter, see [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite). For more info about the NoAccessRedirectUrl parameter, see [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).
