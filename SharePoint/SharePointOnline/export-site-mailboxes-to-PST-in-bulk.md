@@ -22,11 +22,11 @@ description: "In this article, you'll learn how to export site mailboxes to PST 
 
    For more information see, [Microsoft 365 admin permissions](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide).
    
->[!NOTE]
-> Ensure you have admin permissions for the following roles:
-> -	Compliance Administrator
-> -	eDiscovery Manager
-> - Organization Management
+   >[!NOTE]
+   > Ensure you have admin permissions for the following roles:
+   > -	Compliance Administrator
+   > -	eDiscovery Manager
+   > - Organization Management
 
 3. Run the script 'ProcessSiteMailboxes.PS1' in Powershell.
 
@@ -40,10 +40,10 @@ description: "In this article, you'll learn how to export site mailboxes to PST 
 
 8. Press 'y' when prompted "Do you like to proceed further? (Y/N)" to continue.
 
-9. Monitor script execution progress and access export created for each mailbox via compliance center in Microsoft 365 Administrator dashboard when you get “Mailboxes content search are complete" message.
+9. Monitor script execution progress and access export created for each mailbox via compliance center in Microsoft 365 Administrator dashboard when you get “Mailboxes content      search are complete" message.
 
->[!NOTE]
-> Use Compliance Center dashboard to download PST messages on your screen.
+   >[!NOTE]
+   > Use Compliance Center dashboard to download PST messages on your screen.
 
  >[!NOTE]
   > - Folder with no email items inside them will not be exported.
