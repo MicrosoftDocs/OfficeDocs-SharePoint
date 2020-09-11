@@ -1,9 +1,9 @@
 ---
 title: "Install SharePoint 2013 on a single server with SQL Server"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 f1.keywords:

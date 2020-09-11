@@ -3,7 +3,7 @@ title: "Overview of mobile devices and SharePoint Server 2013"
 ms.reviewer: 
 ms.author: toresing
 author: tomresing
-manager: pamgreen
+manager: serdars
 ms.date: 7/20/2017
 audience: ITPro
 f1.keywords:

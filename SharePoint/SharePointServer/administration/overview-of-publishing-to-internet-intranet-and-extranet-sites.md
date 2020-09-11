@@ -1,9 +1,9 @@
 ---
 title: "Overview of publishing to Internet, intranet, and extranet sites in SharePoint Server"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 7/24/2017
 audience: ITPro
 f1.keywords:

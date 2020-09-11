@@ -1,9 +1,9 @@
 ---
 title: "Software updates overview for SharePoint Server 2013"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 2/22/2018
 audience: ITPro
 f1.keywords:
@@ -98,7 +98,7 @@ The next and final phase to deploy software updates is the build-to-build upgrad
   
 ### Build-to-build upgrade phase
 
-After you finish the patch phase, you must complete the update installation by starting the build-to-build upgrade phase. The build-to-build upgrade phase is task intensive and, therefore, takes the most time to finish. The first action is to upgrade all the SharePoint processes that are running. After you upgrade the processes, the databases are crawled and upgraded. After you complete a farm upgrade on one server, you have to complete the process on all other servers to maintain incompatibility.
+After you finish the patch phase, you must complete the update installation by starting the build-to-build upgrade phase. The build-to-build upgrade phase is task intensive and, therefore, takes the most time to finish. The first action is to upgrade all the SharePoint processes that are running. After you upgrade the processes, the databases are crawled and upgraded. After you complete a farm upgrade on one server, you have to complete the process on all other servers to maintain compatibility.
   
 ## Software update strategy
 <a name="updatestrategy"> </a>

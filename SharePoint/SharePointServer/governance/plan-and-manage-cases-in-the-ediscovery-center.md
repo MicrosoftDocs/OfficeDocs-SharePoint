@@ -3,7 +3,7 @@ title: "Plan and manage cases in the eDiscovery Center"
 ms.reviewer: 
 ms.author: MARKJJO
 author: MARKJJO
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

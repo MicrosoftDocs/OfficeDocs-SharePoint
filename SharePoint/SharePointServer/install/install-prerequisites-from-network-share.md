@@ -1,9 +1,9 @@
 ---
 title: "Install prerequisites for SharePoint Server from a network share"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 7/24/2018
 audience: ITPro
 f1.keywords:

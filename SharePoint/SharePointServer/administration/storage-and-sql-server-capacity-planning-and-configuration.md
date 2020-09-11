@@ -1,9 +1,9 @@
 ---
 title: "Storage and SQL Server capacity planning and configuration (SharePoint Server)"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords: NOCSH
 ms.topic: concetpual

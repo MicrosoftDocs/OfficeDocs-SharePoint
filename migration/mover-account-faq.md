@@ -113,9 +113,55 @@ You may, however, delete your account — losing the schedules, connector author
 
 ## How do I check my transfer usage?
 
-Checking your usage of our app lets you know the total amount of gigabytes you have transfered over the history of your account.
+Checking your usage of our app lets you know the total number of gigabytes you have transfered over the history of your account.
 
 To check your transfer data usage, follow these steps.
 
 1. Log in. To visit your **Account** settings, in the top right corner of our app, select **account email**.
 2. By default, you are already in the **Plan** section.
+
+## How do I add an adminstrator to a Mover account?
+
+To add an Administrator to your Mover account: 
+1. Log in to your account 
+2. Select your username in the upper right corner
+3. Choose the “Admin” tab
+4. Enter the email you wish to add under "add a mover account as your administrator". 
+
+![Click admin then enter email](media/mover-add-admin1.png)
+
+
+>[!Note]
+> This lets the Administrator to have full access to your account and act on your behalf for:
+>- Existing connectors
+>- Authorizing new connectors under your account
+>- Monitoring existing migrations
+>- Creating new migrations under your account
+>- The newly added Administrator will not receive and email invitation to administer your account. 
+>- The user must have their own valid Mover account before they can be added as an Administrator
+
+
+## As an administrator, how do sign in using a different Mover account?  
+
+1. Log in as yourself. 
+2. Select your username in the upper right corner
+3. Select the “Admin” tab.
+4. Under **Accounts you administer**, select the account you want to log in to.
+5. Select **Login As**.
+
+![Accounts you can administer](media/mover-add-admin2.png)
+
+
+
+
+## Login-as options
+
+![Accounts you can administer](media/mover-add-admin3.png)
+
+(1) Shows the account you logged in as
+ 
+(2) Allows you to return to your own Mover account
+ 
+(3) List of existing connectors under the account
+
+(4) Monitor and execute migrations in the **Migration Manager** on the user’s behalf.

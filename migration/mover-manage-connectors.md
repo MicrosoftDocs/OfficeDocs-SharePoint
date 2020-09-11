@@ -1,6 +1,7 @@
 ---
 title: Mover Migration Connectors
 author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -50,7 +51,7 @@ Using our app to remove our authorization with a particular cloud service is sim
 >[!Note]
 >Deleting a **Connector** is permanent and cannot be reversed. The **Connector** type disappears from the **Transfer Wizard**. To add a new **Connector**, select **Authorize New Connector**.
 
-### Reauthorizing connectors
+## Reauthorizing connectors
 
 Reauthorizing a **Connector** is sometimes necessary if we lose authorization or access to your cloud storage accounts or web servers. It is also a good first step in trying to resolve most issues with your **Connectors**.
 
