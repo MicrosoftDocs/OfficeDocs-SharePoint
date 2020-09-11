@@ -75,8 +75,8 @@ You can remove the site mailbox, which essentially hides the mailbox from those 
 
    ![remove-image](media/site-mailbox-remove-image.png)
 
->[!NOTE]
-> If you remove a mailbox from a site, it won’t be displayed on the site, but it will still be visible in Outlook (if you’re using Exchange).
+   >[!NOTE]
+   > If you remove a mailbox from a site, it won’t be displayed on the site, but it will still be visible in Outlook (if you’re using Exchange).
 
 #### What else do I need to know?
 There are a couple of things worth noting about removing a site mailbox:
@@ -94,8 +94,8 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 
     ![site-delete-image](media/option2-site-delete-image1.png)
     
->[!NOTE]
-> If you do not see **Site information** in the **Settings** panel, work with your SharePoint administrator to get access.
+    >[!NOTE]
+    > If you do not see **Site information** in the **Settings** panel, work with your SharePoint administrator to get access.
 
 3.	At the bottom of the **Site Information** panel, select **Delete site**.
 
