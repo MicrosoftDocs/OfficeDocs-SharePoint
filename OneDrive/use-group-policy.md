@@ -441,7 +441,7 @@ For more info, see [Redirect and move Windows known folders to OneDrive](redirec
 <a name="SilentAccountConfig"> </a>
 
 > [!IMPORTANT]
-> [Azure Active Directory Authentication Library](/azure/active-directory/develop/active-directory-authentication-libraries) is now enabled automatically when you enable this setting through Group Policy or by using the registry key, so you don't have to download and enable it separately.
+> [Azure Active Directory Authentication Library](/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) is enabled automatically when the sync user is provisioned via SilentAccountConfig, so you don't have to enable it separately.
   
 If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync app without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync app (Groove.exe), the new sync app attempts to take over syncing the user's OneDrive from the previous app, and preserves the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically) on PCs that don't have Files On-Demand and with [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
 
@@ -449,7 +449,7 @@ Enabling this policy sets the following registry key value to 1.
   
 [HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"SilentAccountConfig"="dword:00000001"
   
-For more info about this feature, see [Silently configure user accounts](use-silent-account-configuration.md).
+For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](use-silent-account-configuration.md).
 Let us know if you have feedback on this feature or encounter any issues. Right-click the OneDrive icon in the notification area and select **Report a problem**. Tag any feedback with "SilentConfig" so that your feedback is sent directly to engineers working on this feature.
 
 ### Use OneDrive Files On-Demand
