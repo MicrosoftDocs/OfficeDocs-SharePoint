@@ -40,19 +40,6 @@ Use the SharePoint Success Site to:
 - **Provide the most up-to-date content** - Equip site owners with SharePoint self-help content that is maintained by Microsoft and published as SharePoint evolves.
 
 
-## Summary of how to launch a SharePoint Success Site
-
-**Step 1:** Meet the pre-requisites to provisioning the SharePoint Success Site
-<br> 
-
-**Step 2:** Provision the SharePoint Success Site 
-<br> 
-
-**Step 3:** Customize the site design, playlists, content, and site creation guidelines
-<br> 
-
-**Step 4:** Launch and share the site
-
 
 ## SharePoint Success Site features
 The SharePoint Success Site is designed to reduce the amount of work needed to plan, build, and manage new SharePoint sites for site owners and content authors in order to expedite your organization’s progress.
@@ -102,6 +89,21 @@ The success stories section is a gallery to showcase internal SharePoint site su
 The site creation guidelines page provides a starting point to educate new site authors about [SharePoint creation policies](https://docs.microsoft.com/sharepoint/sites-usage-guidelines) for your organization. The guidelines include suggested usage policy topics and questions to prompt consideration of usage policies within your organization. Customize the content in your SharePoint Success Site site creation guidelines page to serve your organization’s governance needs.
 
 ![Image of the site creation guidelines page](media/sss-creation-guidelines.png)
+
+
+## Summary of how to launch a SharePoint Success Site
+
+**Step 1:** [Meet the pre-requisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) to provisioning the SharePoint Success Site
+<br> 
+
+**Step 2:** [Provision](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
+<br> 
+
+**Step 3:** [Customize](https://docs.microsoft.com/sharepoint/customize-sss) the site design, playlists, success stories, and site creation guidelines
+<br> 
+
+**Step 4:** Launch and [share the site](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) with others
+
 
 
 ### Next steps - provision the SharePoint Success Site
