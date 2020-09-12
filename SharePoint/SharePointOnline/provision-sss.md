@@ -27,49 +27,49 @@ Microsoft 365 tenant administrator credentials (or higher) are required to start
 
 
 ## Meet the prerequisites
-Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant**:
+
+Your tenant's configuration will determine what path you need to take to install the SharePoint Success Site. Start by reviewing the SharePoint Success Site prerequisites check list below to prepare your tenant. Determine your tenant’s starting point and follow direction in the checklist. Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.**
+
+![Image of the M365 decision tree](media/sss-decision-tree-2.png)
+
+
 
 <br>
 
 | Tenant admin role | +  | Collection owner of the App Catalog | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
 
+Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.**
 
-The **person** doing the provisioning must meet the following pre-requisites:
-- Must be a tenant administrator of the tenant - also known as the Microsoft 365 global administrator role - where the SharePoint Success Site will be provisioned.
-- Must be an administrator of the tenant’s App catalog
+### The **person** doing the provisioning must meet the following pre-requisites:
+
+- Must be a Tenant administrator of the tenant (also known as the Microsoft 365 Global administrator role) where the SharePoint Success Site will be provisioned
+- Must be an administrator of the tenant’s App Catalog
+
+**Are you a SharePoint tenant administrator?**
+- Yes - Next, confirm your tenant has already downloaded the App Catalog
+- No – Work with your M365 Global administrator or SharePoint Tenant administrator to add you as a [SharePoint Tenant administrator](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
+- Unsure – When you log into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint tenant administrator credentials 
+
+**Are you an administrator of the App Catalog?**
+- Yes - Next, confirm your tenant has M365 learning Pathways provisioned
+- No - Next, ask your Global tenant administrator to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin)
+
 	
-The **tenant** must meet the following provisioning pre-requisites:
+### The **tenant** must meet the following provisioning pre-requisites:
+
 - A SharePoint App Catalog must be available within your tenant environment
 - Your tenant must have **version 4.0 or higher** of M365 learning pathways
 
 > [!IMPORTANT]
 > If you need to create a SharePoint App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
 
-
-### Where to get started provisioning 
-
-Your tenant's configuration will determine what path you need to take to install the SharePoint Success Site. Start by reviewing the SharePoint Success Site prerequisites check list below to prepare your tenant. Determine your tenant’s starting point and follow direction in the checklist. 
-
-![Image of the M365 decision tree](media/sss-decision-tree-2.png)
-
-#### Prerequisite checklist:
-
-**Are you a SharePoint tenant administrator?**
-- Yes - Next, confirm your tenant has already downloaded the App Catalog
-- No – Work with your M365 global administrator or SharePoint tenant administrator to add you as a [SharePoint tenant administrator](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
-- Unsure – When you log into office.com, you’ll see an Admin center icon if you have SharePoint tenant administrator credentials 
- 
 **Does your tenant have the App Catalog installed?**
 - Yes - Next, confirm you are an administrator of the App Catalog
 - No - Next, [install the App Catolg](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes)
 - Unsure - Navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **App Catalog**:
 
 ![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
- 
-**Are you an administrator of the App Catalog?**
-- Yes - Next, confirm your tenant has M365 learning Pathways provisioned
-- No - Next, ask your Global tenant administrator to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin)
  
 **Does your tenant have M365 learning pathways provisioned?**
 - Yes - Next, confirm you are using version 4.0 or higher
@@ -83,7 +83,7 @@ Your tenant's configuration will determine what path you need to take to install
 
 ![Image learning pathways admin page](media/sss-lp-version.png)
 
-Then select the three dots in the tool bar, then select **About web part**
+Then select the ellipsies **(...)** in the tool bar, then select **About web part**
 
 ![Image learning pathways admin page settings bar](media/sss-lp-elipses.png)
 
@@ -158,7 +158,7 @@ Once you’ve confirmed the following, you are ready to provision:
 In order for others to customize M365 learning pathways playlists and SharePoint Success Site content, they will need Site owner permissions for *both sites*. 
 
 #### Add Site owners to the M365 learning pathways site
-Assign a few site owners to grant administrative privileges to customize the site and training content. This includes the ability to hide and show content and to build custom playlists through the learning pathways web part. 
+Assign a few Site owners to grant administrative privileges to customize the site and training content. This includes the ability to hide and show content and to build custom playlists through the learning pathways web part. 
 
 1. From the M365 learning pathways site menu select **Settings**, then select **Site permissions**
 2. Select **Advanced Permission Settings**.
@@ -167,7 +167,7 @@ Assign a few site owners to grant administrative privileges to customize the sit
 5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
 #### Then, add Site owners to the SharePoint Success Site
-Assign a few site owners to grant administrative privileges to customize the site content, branding, navigation, web parts, and theme.
+Assign a few Site owners to grant administrative privileges to customize the site content, branding, navigation, web parts, and theme.
 
 1. From the SharePoint Success Site's menu select **Settings**, then select **Site permissions**
 2. Select **Advanced Permission Settings**.
