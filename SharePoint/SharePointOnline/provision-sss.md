@@ -87,7 +87,7 @@ Then select the three dots in the tool bar, then select **About web part**
 
 ![Image learning pathways admin page settings bar](media/sss-lp-elipses.png)
 
-#### Update M365 learning pathways from version 3.0 to version 4.0
+#### If you need to, update M365 learning pathways from version 3.0 to version 4.0
 
 > [!IMPORTANT] 
 > The person updating learning pathways must be an administrator of the tenant’s App Catalog. If the person provisioning learning pathways isn't a site collection owner of the App Catalog, [complete these instructions](https://docs.microsoft.com/office365/customlearning/addappadmin) and continue
@@ -117,7 +117,7 @@ Once you’ve confirmed the following, you are ready to provision:
 - Your tenant has version 4.0 of the M365 learning pathways provisioned
 
 
-### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
+#### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
 
 1.	Navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
 2.	Sign in with your username and password.
@@ -126,7 +126,7 @@ Once you’ve confirmed the following, you are ready to provision:
 
 ![Image of the M365 learning pathways admin page](media/sss-sss-admin.png)
 
-5.	Select the … (ellipses) and then select **Add Content Pack**.
+5.	Select the ellipses **( … )** and then select **Add Content Pack**.
 
 ![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
 
@@ -183,15 +183,15 @@ Assign a few site owners to grant administrative privileges to customize the sit
 - Share your [feedback](https://github.com/pnp/custom-learning-office-365/issues) with us
 
 
+<br>
 
+#### Next steps - customize the SharePoint Success Site
 
-### Next steps - customize the SharePoint Success Site
+Share the URLs for the M365 learning pathways administration site and the SharePoint Success site with Site owners. Then, [customize](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
 
-[Customize](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
+<br>
 
-
-
-### Frequently asked questions
+#### Frequently asked questions
 
 **Question: Can I provision the site from the look book?**
 <br>
