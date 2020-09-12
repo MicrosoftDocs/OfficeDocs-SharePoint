@@ -135,9 +135,6 @@ Once you’ve confirmed the following, you are ready to provision:
 8.	Fill out the details and then select **Provision**.
 9.	Select **Complete**.
 
-> [!IMPORTANT]
-> Make sure to select **Complete** to complete the provisioning process.
-
 10.	When you see Provisioning completed, select the **CustomLearningAdministration** tab as shown in the following image:
 
 ![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
@@ -146,14 +143,21 @@ Once you’ve confirmed the following, you are ready to provision:
 
 ![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
 
-12.	To confirm the SharePoint Success Site has been successfully provisioned, navigate to the site and select Get Started > Plan your site. You should see the web part on the page as shown in the following image:
+> [!IMPORTANT]
+> Make sure to select **Complete** to complete the provisioning process.
+
+12.	To confirm the SharePoint Success Site has been successfully provisioned, navigate to the site and select **Get Started > Plan your site**. You should see the web part on the page as shown in the following image:
 
 ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
-13. Next, follow the steps below to add site owners to the M365 learning pathways administration page and the SharePoint Success Site to grant access to others for site and content customizations. 
+13. Next, follow the steps below to add site owners to the M365 learning pathways administration page *and* the SharePoint Success Site to grant access to others for site and content customizations. 
 
 
-#### Add owners to the M365 learning pathways site
+## Add Site owners to both sites
+
+In order for others to customize M365 learning pathways playlists and SharePoint Success Site content, they will need Site owner permissions for *both sites*. 
+
+#### Add Site owners to the M365 learning pathways site
 Assign a few site owners to grant administrative privileges to customize the site and training content. This includes the ability to hide and show content and to build custom playlists through the learning pathways web part. 
 
 1. From the M365 learning pathways site menu select **Settings**, then select **Site permissions**
@@ -162,7 +166,7 @@ Assign a few site owners to grant administrative privileges to customize the sit
 4. Select **New > Add Users to this group**, and then add the people you want to be site owners.
 5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
-#### Add owners to the SharePoint Success Site
+#### Then, add Site owners to the SharePoint Success Site
 Assign a few site owners to grant administrative privileges to customize the site content, branding, navigation, web parts, and theme.
 
 1. From the SharePoint Success Site's menu select **Settings**, then select **Site permissions**
