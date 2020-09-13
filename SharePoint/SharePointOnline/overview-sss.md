@@ -114,33 +114,25 @@ Review and implement SharePoint Success Site [provisioning requirements and inst
 
 ### Frequently asked questions
 
-**Question: Who can provision the SharePoint Success Site?**
+
+**Question: Who has permission to provision the SharePoint Success Site?**
 <br>
-Answer:
-- Tenant administrator, also known as Office 365 global administrator
-- SharePoint Site collection administrator with Site owner permissions for the site
+Answer: SharePoint Tenant administrator credentials or higher are required.
 <br>
 
-**Question: Who has permissions to customize site template?**
+**Question: Who has permission to customize site template?**
 <br>
-Answer:
-- SharePoint Site collection administrator
-- SharePoint Site owner or Site member permissions
+Answer: The SharePoint Tenant administrator or site level Site owner or Site member permissions.
 <br>
 
-**Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
+**Question: Who can create custom playlists and hide/show content in M365 learning pathways?**
 <br>
-Answer:
-- Site collection administrator for M365 learning pathways
-- SharePoint Site owner or Site member permissions for M365 learning pathways
+Answer: The Site collection administrator for M365 learning pathways and SharePoint Site owner or Site member permissions for M365 learning pathways.
 <br>
 
-**Question: Who has permissions to use the SharePoint Success Site as a user?**
+**Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
-Answer:
-- Microsoft 365 user permissions
-- SharePoint Site visitor permissions or higher
-
+Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
 
 
 
