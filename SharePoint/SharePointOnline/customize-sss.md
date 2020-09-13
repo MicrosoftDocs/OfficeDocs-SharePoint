@@ -30,6 +30,8 @@ The SharePoint Success Site consists of three parts:
 2.	**Microsoft 365 learning pathways** - [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization..) is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and upload your own training playlists.
 3.	**Up-to-date SharePoint training content feed** - Content in the SharePoint Success Site is updated by Microsoft as SharePoint evolves and can be customized to align with your organization's site creation policy.
 
+Learn more about [what comes with a SharePoint Success Site](https://docs.microsoft.com/sharepoint/overview-sss).
+
 
 ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
@@ -48,28 +50,23 @@ The SharePoint Success Site consists of three parts:
 
 
 #### Summary of site requirements and permissions
-Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint tenant administrator. You need to be a site owner for **both** M365 learning pathways and the SharePoint Success Site in order to have permission to make changes.
+Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint Tenant administrator. You need to be a Site owner for **both** M365 learning pathways *and* the SharePoint Success Site in order to have permission to make site customizations.
 
-If you’re not sure your tenant has the site, contact your SharePoint tenant administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the tenant administrator and M365 learning pathways has not been provisioned, see the provisioning guidance.
+If you’re not sure your tenant has the site, contact your SharePoint Tenant administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the Tenant administrator and M365 learning pathways has not been provisioned, see the [provisioning guidance](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
 
-**Who can provision the SharePoint Success Site?**
-<br>
-- Tenant administrator, also known as Office 365 global administrator
-- SharePoint Site Collection Administrator with Owner permissions on the site
-<br>
 
 **Who has permissions to customize site template?**
-- Site collection administrator
-- SharePoint owner or member permissions
+- The SharePoint Tenant administrator
+- SharePoint Site owner or Site member level permissions
 <br>
 
-**Who can create custom playlists and hide/show content in M365 learning pathways?**
-- Site collection administrator for M365 learning pathways
-- SharePoint owner or member permissions for M365 learning pathways
+**Who can create custom playlists and hide or show content in M365 learning pathways?**
+- The Site collection administrator for M365 learning pathways
+- SharePoint Site owner or Site member permissions for M365 learning pathways
 <br>
 
 **Who has permissions to use the SharePoint Success Site as a user?**
-- Office 365 user permissions/SharePoint Site Visitor permissions or higher
+- Office 365 user permissions or SharePoint Site visitor permissions or higher
 
 
 
