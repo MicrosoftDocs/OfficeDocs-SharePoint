@@ -24,25 +24,25 @@ description: "Introduction to the SharePoint Success Site"
 
 The SharePoint Success Site is a ready to deploy and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site is designed to support new SharePoint site owners in creating high-impact sites to meet the goals of your organization.
 
-The SharePoint Success Site builds on the power of [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) which allows you to use Microsoft-maintained playlists or to create custom playlists to meet the unique needs of your organization. If you are already using M365 learning pathways and don't want to provision the site, you can upload the [SharePoint Success Site playlist into learning pathways](https://docs.microsoft.com/SharePoint/add-sss-cdn).
+The SharePoint Success Site builds on the power of [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) which allows you to use Microsoft-maintained playlists, or you can create custom playlists to meet the unique needs of your organization. If you are already using M365 learning pathways and don't want to provision the SharePoint Success Site, you can upload the [SharePoint Success Site playlist into learning pathways](https://docs.microsoft.com/SharePoint/add-sss-cdn).
 
 Install the SharePoint Success Site in your tenant environment, customize the pre-populated training content, and make it available to end users.
 
 
 ## Why invest in a SharePoint Success Site?
-The SharePoint Success Site helps site owners improve the quality and impact of the sites they build in SharePoint for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
+The SharePoint Success Site helps Site owners improve the quality and impact of the sites they build in SharePoint for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
 
 Use the SharePoint Success Site to:
 
-- **Get more out of SharePoint** - Teach new site owners how to utilize the power behind SharePoint's communication and collaboration features. 
-- **Enable site owners to create high-impact sites** - Ensure site owners have the right information and support to create purposeful sites that are widely adopted by the intended audience. 
+- **Get more out of SharePoint** - Teach new Site owners how to utilize the power behind SharePoint's communication and collaboration features. 
+- **Enable site owners to create high-impact sites** - Ensure Site owners have the right information and support to create purposeful sites that are widely adopted by the intended audience. 
 - **Ensure site owners follow site creation policies** - Customize the site creation policy page on your SharePoint Success site to communicate organizational policy expectations early.
-- **Provide the most up-to-date content** - Equip site owners with SharePoint self-help content that is maintained by Microsoft and published as SharePoint evolves.
+- **Provide the most up-to-date content** - Equip Site owners with SharePoint self-help content that is maintained by Microsoft and published as SharePoint evolves.
 
 
 
 ## SharePoint Success Site features
-The SharePoint Success Site is designed to reduce the amount of work needed to plan, build, and manage new SharePoint sites for site owners and content authors in order to expedite your organization’s progress.
+The SharePoint Success Site is designed to reduce the amount of work needed to plan, build, and manage new SharePoint sites for Site owners and content authors in order to expedite your organization’s progress.
 
 SharePoint Success Site features:
 
