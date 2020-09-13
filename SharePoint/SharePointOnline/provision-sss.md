@@ -174,6 +174,7 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 4. Select **New > Add Users to this group**, and then add the people you want to be Site owners.
 5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
+<br>
 
 #### Next steps - customize the SharePoint Success Site
 
