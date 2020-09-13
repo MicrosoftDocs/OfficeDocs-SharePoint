@@ -28,7 +28,7 @@ Microsoft 365 tenant administrator credentials (or higher) are required to start
 
 ## Meet the prerequisites
 
-Your tenant's configuration will determine what path you need to take to install the SharePoint Success Site. Start by reviewing the SharePoint Success Site prerequisites check list below to prepare your tenant. Determine your tenant’s starting point and follow direction in the checklist. Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.**
+Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.** Your tenant's configuration will determine what path you need to take to install the SharePoint Success Site. Start by reviewing the SharePoint Success Site prerequisites below to prepare your tenant. Use this decision tree to determine your tenant’s path to meeting prerequisites:
 
 ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
@@ -36,14 +36,13 @@ Your tenant's configuration will determine what path you need to take to install
 
 <br>
 
-| Tenant admin role | +  | Admin of the App Catalog | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
-| :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
-
-Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.**
-
 #### The person doing the provisioning must meet the following pre-requisites:
 
-The **person** doing the provisioning must be a Tenant administrator of the tenant (also known as the Microsoft 365 Global administrator role) where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog
+The **person** doing the provisioning must be a Tenant administrator of the tenant (also known as the Microsoft 365 Global administrator role) where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog.
+
+
+| Tenant admin role | +  | Admin of the App Catalog | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
+| :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
 
 **Are you a SharePoint Tenant administrator?**
 - Yes - Next, confirm your tenant has already downloaded the App Catalog
@@ -57,10 +56,8 @@ The **person** doing the provisioning must be a Tenant administrator of the tena
 	
 #### The tenant must meet the following provisioning pre-requisites:
 
-The **tenant** where the site will be provisioned must have the [SharePoint App Catalog](https://docs.microsoft.com/sharepoint/use-app-catalog) installed *and* have the latest version of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.) installed. Your tenant must have **version 4.0 or higher** of M365 learning pathways
+The **tenant** where the site will be provisioned must have the [SharePoint App Catalog](https://docs.microsoft.com/sharepoint/use-app-catalog) installed *and* have the latest version of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.) installed. Your tenant must have **version 4.0 or higher** of M365 learning pathways.
 
-> [!IMPORTANT]
-> If you need to create a SharePoint App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
 
 **Does your tenant have the App Catalog installed?**
 - Yes - Next, confirm you are an administrator of the App Catalog
@@ -68,6 +65,10 @@ The **tenant** where the site will be provisioned must have the [SharePoint App 
 - Unsure - Navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **App Catalog**:
 
 ![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
+
+
+> [!IMPORTANT]
+> If you need to create a SharePoint App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
  
 **Does your tenant have M365 learning pathways provisioned?**
 - Yes - Next, confirm you are using version 4.0 or higher
