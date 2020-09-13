@@ -36,30 +36,28 @@ Your tenant's configuration will determine what path you need to take to install
 
 <br>
 
-| Tenant admin role | +  | Collection owner of the App Catalog | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
+| Tenant admin role | +  | Admin of the App Catalog | +  |V4 or higher of M365 learning pathways | = | Ready to provision         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
 
 Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.**
 
-### The **person** doing the provisioning must meet the following pre-requisites:
+#### The person doing the provisioning must meet the following pre-requisites:
 
-- Must be a Tenant administrator of the tenant (also known as the Microsoft 365 Global administrator role) where the SharePoint Success Site will be provisioned
-- Must be an administrator of the tenant’s App Catalog
+The **person** doing the provisioning must be a Tenant administrator of the tenant (also known as the Microsoft 365 Global administrator role) where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog
 
-**Are you a SharePoint tenant administrator?**
+**Are you a SharePoint Tenant administrator?**
 - Yes - Next, confirm your tenant has already downloaded the App Catalog
 - No – Work with your M365 Global administrator or SharePoint Tenant administrator to add you as a [SharePoint Tenant administrator](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
 - Unsure – When you log into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint tenant administrator credentials 
 
-**Are you an administrator of the App Catalog?**
+**Are you an Administrator of the App Catalog?**
 - Yes - Next, confirm your tenant has M365 learning Pathways provisioned
 - No - Next, ask your Global tenant administrator to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin)
 
 	
-### The **tenant** must meet the following provisioning pre-requisites:
+#### The tenant must meet the following provisioning pre-requisites:
 
-- A SharePoint App Catalog must be available within your tenant environment
-- Your tenant must have **version 4.0 or higher** of M365 learning pathways
+The **tenant** where the site will be provisioned must have the [SharePoint App Catalog](https://docs.microsoft.com/sharepoint/use-app-catalog) installed *and* have the latest version of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.) installed. Your tenant must have **version 4.0 or higher** of M365 learning pathways
 
 > [!IMPORTANT]
 > If you need to create a SharePoint App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
@@ -162,8 +160,8 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 
 1. From the M365 learning pathways site menu select **Settings**, then select **Site permissions**
 2. Select **Advanced Permission Settings**.
-3. Select **SharePoint Success Site Owners**.
-4. Select **New > Add Users to this group**, and then add the people you want to be site owners.
+3. Select **SharePoint Success Site owners**.
+4. Select **New > Add users to this group**, and then add the people you want to be Site owners.
 5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
 #### Then, add Site owners to the SharePoint Success Site
@@ -171,8 +169,8 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 
 1. From the SharePoint Success Site's menu select **Settings**, then select **Site permissions**
 2. Select **Advanced Permission Settings**.
-3. Select **SharePoint Success Site Owners**.
-4. Select **New > Add Users to this group**, and then add the people you want to be site owners.
+3. Select **SharePoint Success Site owners**.
+4. Select **New > Add Users to this group**, and then add the people you want to be Site owners.
 5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
 
