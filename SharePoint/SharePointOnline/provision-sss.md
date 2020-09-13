@@ -204,7 +204,6 @@ Answer: The SharePoint tenant administrator or site level Site owner or Site
 
 **Question: Who can create custom playlists and hide/show content in M365 learning pathways?**
 <br>
-
 Answer: Site collection administrator for M365 learning pathways and SharePoint Site owner or Site member permissions for M365 learning pathways.
 <br>
 
