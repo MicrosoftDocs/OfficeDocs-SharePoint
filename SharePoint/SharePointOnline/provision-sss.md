@@ -45,23 +45,23 @@ The **person** doing the provisioning must be a Tenant administrator of the tena
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
 
 **Are you a SharePoint Tenant administrator?**
-- Yes - Next, confirm your tenant has already downloaded the App Catalog
-- No – Work with your M365 Global administrator or SharePoint Tenant administrator to add you as a [SharePoint Tenant administrator](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
-- Unsure – When you log into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint tenant administrator credentials 
+- Yes - Next, confirm your tenant has already downloaded the App Catalog.
+- No – Work with your M365 Global administrator or SharePoint Tenant administrator to add you as a [SharePoint Tenant administrator](https://docs.microsoft.com/sharepoint/sharepoint-admin-role).
+- Unsure – When you log into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint tenant administrator credentials.
 
 **Are you an Administrator of the App Catalog?**
-- Yes - Next, confirm your tenant has M365 learning Pathways provisioned
-- No - Next, ask your Global tenant administrator to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin)
+- Yes - Next, confirm your tenant has M365 learning Pathways provisioned.
+- No - Next, ask your Global tenant administrator to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin).
 
 	
 #### The tenant must meet the following provisioning pre-requisites:
 
-The **tenant** where the site will be provisioned must have the [SharePoint App Catalog](https://docs.microsoft.com/sharepoint/use-app-catalog) installed *and* have the latest version of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.) installed. Your tenant must have **version 4.0 or higher** of M365 learning pathways.
+The **tenant** where the site will be provisioned must have the [SharePoint App Catalog](https://docs.microsoft.com/sharepoint/use-app-catalog) installed *and* have the latest version of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.). installed. Your tenant must have **version 4.0 or higher** of M365 learning pathways.
 
 
 **Does your tenant have the App Catalog installed?**
-- Yes - Next, confirm you are an administrator of the App Catalog
-- No - Next, [install the App Catolg](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes)
+- Yes - Next, confirm you are an administrator of the App Catalog.
+- No - Next, [install the App Catolg](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes.)
 - Unsure - Navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **App Catalog**:
 
 ![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
@@ -71,13 +71,13 @@ The **tenant** where the site will be provisioned must have the [SharePoint App 
 > If you need to create a SharePoint App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
  
 **Does your tenant have M365 learning pathways provisioned?**
-- Yes - Next, confirm you are using version 4.0 or higher
-- No - [Provision M365 learning pathways](https://docs.microsoft.com/office365/customlearning/) for the first time
-- Unsure - Navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see **Microsoft 365 learning pathways**
+- Yes - Next, confirm you are using version 4.0 or higher.
+- No - [Provision M365 learning pathways](https://docs.microsoft.com/office365/customlearning/) for the first time.
+- Unsure - Navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see **Microsoft 365 learning pathways**.
  
 **Is your tenant's version of learning pathways version 4.0 or higher?**
-- Yes - You are ready to provision the SharePoint Success Site from the look book
-- No - Update to version 4.0 and provision the SharePoint Success Site from the M365 learning pathways administration page
+- Yes - You are ready to provision the SharePoint Success Site.
+- No - Update to version 4.0 and provision the SharePoint Success Site from the M365 learning pathways administration page.
 - Unsure - Navigate to your tenant's **M365 Learning Pathways administration page**:
 
 ![Image learning pathways admin page](media/sss-lp-version.png)
@@ -125,7 +125,7 @@ Once you’ve confirmed the following, you are ready to provision:
 
 ![Image of the M365 learning pathways admin page](media/sss-sss-admin.png)
 
-5.	Select the ellipses **( … )** and then select **Add Content Pack**.
+5.	Select the ellipses **(…)** and then select **Add Content Pack**.
 
 ![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
 
@@ -175,18 +175,17 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
 
+#### Next steps - customize the SharePoint Success Site
+
+Share the URLs for the M365 learning pathways administration site and the SharePoint Success site with Site owners. Then, [customize](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
+
+<br>
+
 ### Site provisioning help
 
 - Reference [troubleshooting](https://docs.microsoft.com/office365/customlearning/feedback) for provisioning help
 - See M365 learning pathways [FAQs](https://docs.microsoft.com/office365/customlearning/faq)
 - Share your [feedback](https://github.com/pnp/custom-learning-office-365/issues) with us
-
-
-<br>
-
-#### Next steps - customize the SharePoint Success Site
-
-Share the URLs for the M365 learning pathways administration site and the SharePoint Success site with Site owners. Then, [customize](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
 
 <br>
 
