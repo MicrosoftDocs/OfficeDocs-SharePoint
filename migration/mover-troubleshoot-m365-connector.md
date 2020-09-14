@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 description: "Mover migration: Troubleshoot Office 365 connector."
 ---
-# Troubleshooting a Office 365 connector
+# Troubleshooting an Office 365 connector
 
 ## Connector authorization failure
 
@@ -36,11 +36,11 @@ If you encounter an error on authorization, try signing out of any Microsoft acc
 
 ## Global admin account provisioning
 
-Your global admin user must have a Office 365 account provisioned in order to administer other Office 365 accounts. If you create a service account for our app, ensure you also assigned a Office 365 license and walked through the Office 365 setup process.
+Your global admin user must have an Office 365 account provisioned in order to administer other Office 365 accounts. If you create a service account for our app, ensure you also assigned an Office 365 license and walked through the Office 365 setup process.
 
 ## User provisioning
 
-Are your Office 365 users provisioned? All Office 365 users must log in to their Office 365, and open Office 365 for us to transfer into their accounts. You can also provision Office 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
+Are your Office 365 users provisioned? All Office 365 users must sign in to their Office 365, and open Office 365 for us to transfer into their accounts. You can also provision Office 365 accounts via Windows PowerShell using the following commands (replace your URL and email appropriately):
 
 `Connect-SPOService -Url https://example-admin.sharepoint.com -credential user@example.com`
 
