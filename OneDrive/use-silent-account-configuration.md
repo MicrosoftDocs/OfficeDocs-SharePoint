@@ -62,7 +62,7 @@ Using Group Policy:
 3. Optionally, set the default location for the OneDrive folder. For info, see [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
     
 > [!TIP]
-> See [Verify SilentAccountConfig](use-silent-account-configuration.md#VerifySilentAccountConfig) section below to verify and troubleshoot your configuration.
+> See the [Verify SilentAccountConfig](use-silent-account-configuration.md#VerifySilentAccountConfig) section below to verify and troubleshoot your configuration.
   
 > [!NOTE]
 > Silent account configuration won't work on devices for users who require multi-factor authentication. Select third-party identity providers (IdPs) are supported, but there are caveats. For more information, make sure to check out the [Azure AD federation compatibility list](/azure/active-directory/hybrid/how-to-connect-fed-compatibility).
