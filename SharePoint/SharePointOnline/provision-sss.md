@@ -28,7 +28,14 @@ Microsoft 365 Tenant administrator credentials (or higher) are required to start
 
 ## Meet the prerequisites
 
-Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.** Your tenant's configuration will determine what path you need to take to install the SharePoint Success Site. Start by reviewing the SharePoint Success Site prerequisites below to prepare your tenant. Use this decision tree to determine your tenant’s path to meeting prerequisites:
+Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.** Your tenant's configuration will determine what path you need to take to install the SharePoint Success Site. Start by reviewing the SharePoint Success Site prerequisites below to prepare your tenant. 
+
+| Tenant admin requirements | +  | Tenant requirements |  = | Ready to provision         |
+| :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
+
+
+
+Use this decision tree to determine your tenant’s path to meeting prerequisites:
 
 ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
@@ -41,8 +48,8 @@ Before provisioning the SharePoint Success Site, meet the prerequisites for both
 The **person** doing the provisioning must be a Tenant administrator of the tenant (also known as the Microsoft 365 Global administrator role) where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog.
 
 
-| Tenant admin role | +  | Admin of the App Catalog | +  |Tenant requirements | = | Ready to provision         |
-| :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
+| Tenant admin role | +  | Admin of the App Catalog | = | Tenant admin requirements met         |
+| :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
 **Are you a SharePoint Tenant administrator?**
 - Yes - Next, confirm your tenant has already downloaded the App Catalog.
@@ -58,8 +65,8 @@ The **person** doing the provisioning must be a Tenant administrator of the tena
 
 The **tenant** where the site will be provisioned must have the [SharePoint App Catalog](https://docs.microsoft.com/sharepoint/use-app-catalog) installed *and* have the latest version of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.). installed. Your tenant must have **version 4.0 or higher** of M365 learning pathways.
 
-| Tenant admin & Admin of the App Catalog | +  | App Catalog installed| +  |M365 learning pathways 4.0 installed | = | Ready to provision         |
-| :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |:-------------:| :-------------:|
+| App Catalog installed | +  |M365 learning pathways 4.0 installed | = | Tenant requirements met         |
+| :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
 
 **Does your tenant have the App Catalog installed?**
