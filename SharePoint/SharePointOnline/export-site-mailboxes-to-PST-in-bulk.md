@@ -11,10 +11,10 @@ localization_priority: Normal
 search.appverid:
 ms.collection:  
 ms.custom:
-description: "In this article, you'll learn how to export site mailboxes to PST in Bulk (using script)"
+description: "In this article, you'll learn how to export site mailboxes to PST (using script)"
 ---
 
-# Export site mailboxes to PST in Bulk (using script)
+# Export site mailboxes to PST (using script)
 
 1. Copy the [ProcessSiteMailboxes.PS1](https://microsoft-my.sharepoint-df.com/personal/vijagan_microsoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvijagan%5Fmicrosoft%5Fcom%2FDocuments%2FProcessSiteMailboxes%2Eps1%2Etxt&parent=%2Fpersonal%2Fvijagan%5Fmicrosoft%5Fcom%2FDocuments&originalPath=aHR0cHM6Ly9taWNyb3NvZnQtbXkuc2hhcmVwb2ludC1kZi5jb20vOnQ6L3AvdmlqYWdhbi9FZEctUUhjcjJERkJtRGJ4Ni0zMTY3Y0JXWm9IRkdlbHJja3RrVUNZTTJNSjBBP3J0aW1lPVRZOUdCejlXMkVn) to a working directory.
 
