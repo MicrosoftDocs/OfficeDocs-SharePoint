@@ -188,9 +188,9 @@ Share the URLs for the M365 learning pathways administration site and the ShareP
 - See M365 learning pathways [FAQs](https://docs.microsoft.com/office365/customlearning/faq)
 - Share your [feedback](https://github.com/pnp/custom-learning-office-365/issues) with us
 
-<br>
 
-### Frequently asked questions
+
+#### Frequantly asked questions
 
 **Question: Can I provision from the look book?**
 <br>
