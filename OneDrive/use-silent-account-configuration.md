@@ -83,7 +83,7 @@ New-ItemProperty -Path $HKLMregistryPath -Name 'SilentAccountConfig' -Value '1' 
 New-ItemProperty -Path $DiskSizeregistryPath -Name $TenantGUID -Value '102400' -PropertyType DWORD -Force | Out-Null ##Set max OneDrive threshold before prompting
 ``` 
 
-## Windows Image Prep Requirements
+## Windows Image Prep requirements
 
 SilentAccountConfig creates a SilentBusinessConfigCompleted registry entry once SilentAccountConfig has successfully provisioned the user in OneDrive.exe.  This prevents SilentAccountConfig from re-provisioning the user in OneDrive.exe if the user manually stops syncing.
 
