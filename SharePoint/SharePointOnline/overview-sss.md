@@ -28,6 +28,8 @@ The SharePoint Success Site builds on the power of [Microsoft 365 learning pathw
 
 Install the SharePoint Success Site in your tenant environment, customize the pre-populated training and site content, and then make it available to end users.
 
+Ready to get started right away? Next, review the [prerequisites and provisioning guidance](https://docs.microsoft.com/sharepoint/provision-sss).
+
 
 ## Why invest in a SharePoint Success Site?
 The SharePoint Success Site helps Site owners improve the quality and impact of the sites they build in SharePoint for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
