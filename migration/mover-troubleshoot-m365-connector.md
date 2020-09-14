@@ -22,6 +22,7 @@ If your connector authorization fails with **Tenant lacks SPO license** error, t
 ![Connector authorization failure error](/media/mover-connector-failure-error.png)
 
 
+
 For additional information related to Azure Active Directory licenses, see:
 
 -   [What is Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)   
