@@ -100,7 +100,7 @@ If SilentAccountConfig has successfully completed on a machine you're going to u
 
         reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
 
-3. Set the Silent Config policy registry entry (must be run from an Administrator cmd window)
+3. Set the Silent Config policy registry entry (must be run from an administrator CMD window):
 
         reg add HKLM\SOFTWARE\Policies\Microsoft\OneDrive /v SilentAccountConfig /t REG_DWORD /d 0x1 /f
 
