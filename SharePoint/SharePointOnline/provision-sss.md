@@ -89,9 +89,9 @@ Then select the ellipsies **(...)** in the tool bar, then select **About web par
 #### If you need to, update M365 learning pathways from version 3.0 to version 4.0
 
 > [!IMPORTANT] 
-> The person updating learning pathways must be an Administrator of the tenant’s App Catalog. If the person provisioning learning pathways isn't an Administrator of the App Catalog, [complete these instructions](https://docs.microsoft.com/office365/customlearning/addappadmin) and continue
+> The person updating M365 learning pathways must be an Administrator of the tenant’s App Catalog. If the person provisioning M365 learning pathways isn't an Administrator of the App Catalog, [complete these instructions](https://docs.microsoft.com/office365/customlearning/addappadmin) and continue.
 
-In this step, you upload the learning pathways 4.0 web part to the SharePoint App Catalog, and then navigate to the learning pathways Administration page to start the update process.
+In this step, you upload the M365 learning pathways 4.0 web part to the SharePoint App Catalog, and then navigate to the M365 learning pathways Administration page to start the update process.
 
 **Upload the web part package**
 1.	Go to the [GitHub custom learning repository](https://docs.microsoft.com/office365/customlearning/manualcustomlearninginstall), select customlearning.sppkg and then download it to a local drive on your PC
@@ -190,8 +190,12 @@ Share the URLs for the M365 learning pathways administration site and the ShareP
 
 <br>
 
-
 ### Frequently asked questions
+
+**Question: Can I provision from the look book?**
+<br>
+Answer: Yes, follow the guidance on how to provision from the [look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook).
+<br>
 
 **Question: Who has permission to provision the SharePoint Success Site?**
 <br>
