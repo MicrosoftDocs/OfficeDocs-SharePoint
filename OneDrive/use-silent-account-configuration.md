@@ -95,7 +95,7 @@ If SilentAccountConfig has successfully completed on a machine you're going to u
 ## Verify SilentAccountConfig
 
 ### Instructions for SharePoint Online (SPO):
-1. Unlink all pre-existing Business instances in OneDrive
+1. Unlink all pre-existing Business instances in OneDrive.
 2. Clear the registry of any previous successful Silent Business Config runs
 
         reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
