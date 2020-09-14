@@ -24,9 +24,9 @@ description: "Customize the SharePoint Success Site"
 
 The SharePoint Success Site is a ready to deploy, up-to-date, and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site helps end users improve the quality and impact of the sites they build for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
 
-The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date site creation training. However, there are opportunities to customize the experience to better suit your organization’s goals and usage policy.
+The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date SharePoint site creation training content. However, there are several opportunities to customize the experience to better suit your organization’s goals and usage policy.Learn about what's included in a SharePoint Success Site, and then get started customizing.
 
-The SharePoint Success Site consists of three parts:
+**The SharePoint Success Site consists of three parts:**
 
 1.	**SharePoint communication site** - The site comes [pre-populated with content and web parts](https://docs.microsoft.com/sharepoint/overview-sss#what-comes-with-a-sharepoint-success-site) that can be further customized to fit the needs of your organization.
 2.	**Microsoft 365 learning pathways** - [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization..) is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and upload your own training playlists.
@@ -85,13 +85,13 @@ The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll ne
 
 ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
-Review the Plan, Build, Launch and manage, and Advanced playlist sections to see the full suite of Microsoft curated content available in the SharePoint Success Site.
+Review the **Plan, Build, Launch and manage, and Advanced** playlist sections to see the full suite of Microsoft curated content available in the SharePoint Success Site.
 
 **Select a topic, and navigate through content using controls at the top of the article**:
 
 ![Image of the SharePoint Success Site landing page, close up of the content controls](media/sss-content-module.png)
 
-Select content categories and subcategories, and then navigate through the playlist to get a sense for how the SharePoint Success Site content is organized and displayed.
+Select content categories and subcategories, and then navigate through the playlist using arrows and bread crumbs in the control bar to get a sense for how the SharePoint Success Site content is organized and displayed.
 
 
 
@@ -101,7 +101,7 @@ Select content categories and subcategories, and then navigate through the playl
 
 **Show or hide sections to the playlist content**
 
-Select which content to display in your SharePoint Success Site by [hiding and showing](https://docs.microsoft.com/office365/customlearning/custom_hideshowsub) subcategories of content. For example, if you don’t want users to have access to advanced site creation, you can hide that subcategory it won't be visible to users. Decide which content is appropriate for the purpose of your SharePoint Success Site. 
+Select which content to display in your SharePoint Success Site by [hiding and showing](https://docs.microsoft.com/office365/customlearning/custom_hideshowsub) subcategories of content. For example, if you don’t want users to have access to the Advanced site creation section, you can hide that subcategory so it won't be visible to end-users. Decide which content is appropriate for the purpose of your SharePoint Success Site. 
 
 **Add your own custom playlists**
 
