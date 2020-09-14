@@ -113,12 +113,12 @@ With Microsoft 365 learning pathways, you can [create custom playlists](https://
 ### Customize the look and feel of your site
 The following sections of the SharePoint Success Site can be customized to meet your requirements, prior to sharing with end users. There are several different ways you can make the SharePoint Success Site template your own. Customize the following elements of your site to fit the need of your organization:
 
-- Update the SharePoint Success Site [branding](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) to align with your organization
-- Customize the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) to include images of real sites in your organization where possible
-- [Add web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) to your site as needed
-- Customize the [site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) or [associate this site with a hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05)
-- Customize the [page layouts](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) as needed
-- Add [new pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) to additional support or training resources
+- Update the SharePoint Success Site [branding](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) to align with your organization.
+- Customize the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) to include images of real sites in your organization where possible.
+- [Add web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) to your site as needed.
+- Customize the [site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) or [associate this site with a hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05).
+- Customize the [page layouts](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) as needed.
+- Add [new pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) to additional support or training resources.
 
 ### Customize specific web parts
 
@@ -164,9 +164,9 @@ The example site creation and usage guidelines are not intended to be a final po
 
 Create site usage guidelines that are appropriate for your organization by reviewing our [site usage guidelines checklist](https://docs.microsoft.com/sharepoint/sites-usage-guidelines) that will help you create guidelines that:
 
-- Inspire discussion and consideration amongst your stakeholders on important site usage policies
-- Provide links to resources that can help you better understand the options related to key policy decisions
-- Provide sample text to get you started in creating your own policies
+- Inspire discussion and consideration amongst your stakeholders on important site usage policies.
+- Provide links to resources that can help you better understand the options related to key policy decisions.
+- Provide sample text to get you started in creating your own policies.
 
 **Here are some topics to consider as you create your own site creation and usage guidelines:**
 
@@ -188,27 +188,17 @@ Partner with others in your organization to ensure the SharePoint Success Site i
 
 Key success factors to managing the SharePoint Success Site:
 
-- Celebrate the launch of your SharePoint Success Site
-- Create and post news announcing the new resource
-- Ensure users have an outlet for questions and feedback
-- Plan to review the SharePoint Success site as needed to ensure content and site usage policies are still relevant 
+- Celebrate the launch of your SharePoint Success Site.
+- Create and post news announcing the new resource.
+- Ensure users have an outlet for questions and feedback.
+- Plan to review the SharePoint Success site as needed to ensure content and site usage policies are still relevant .
 - Build culture and community by integrating a [Yammer web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
-- Integrate and customize your organization’s high-value training content
+- Integrate and customize your organization’s high-value training content.
 
 #### Adoption and awareness strategy
 
 To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](https://docs.microsoft.com/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. 
 
 To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
-
-
-	
-
-
-
-
-
-
-
 
 
