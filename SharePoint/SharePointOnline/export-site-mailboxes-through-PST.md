@@ -13,7 +13,8 @@ ms.collection:
 ms.custom:
 description: "In this article, you'll learn how to export and import site mailboxes through PST "
 ---
-##  Export site mailboxes through PST (Manually)
+
+# Export site mailboxes through PST (Manually)
 
 You must have [Microsoft 365 admin permissions](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) to access the [Microsoft 365 compliance center](https://docs.microsoft.com/en-us/microsoft-365/compliance/microsoft-365-compliance-center?view=o365-worldwide). 
 
