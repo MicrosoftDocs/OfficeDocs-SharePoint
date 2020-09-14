@@ -14,9 +14,9 @@ ms.custom:
 description: "In this article, you'll learn how to export mailbox content using EWS APIs."
 ---
 
-# Use EWS APIs to extract mailbox content
+# Use Exchange Web Services (EWS) APIs to extract mailbox content
 
-Exporting and importing of appointments, emails, contacts, tasks, and other mailbox items can be done by using the EWS Managed API or EWS in Exchange. 
+Exporting and importing of appointments, emails, contacts, tasks, and other mailbox items can be done by using the EWS-Managed API or EWS in Exchange. 
 
 For more information see, [Exporting and importing items by using EWS in Exchange](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange).
 
