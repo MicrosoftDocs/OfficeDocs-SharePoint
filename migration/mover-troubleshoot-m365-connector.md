@@ -15,6 +15,20 @@ description: "Mover migration: Troubleshoot Office 365 connector."
 ---
 # Troubleshooting a Office 365 connector
 
+## Connector authorization failure
+
+If your connector authorization fails with **Tenant lacks SPO license** error, then you need to purchase a Microsoft 365 license for your Azure Active Directory tenant. 
+
+![Connector authorization failure error](/media/mover-connector-failure-error.png)
+
+
+
+For additional information related to Azure Active Directory licenses, see:
+
+-   [What is Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)   
+
+
+
 ## App access error
 
 If you encounter an error on authorization, try signing out of any Microsoft accounts, and attempt to authorize the **Connector** in an Incognito Window.
