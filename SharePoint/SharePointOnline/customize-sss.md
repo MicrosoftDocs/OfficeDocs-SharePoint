@@ -24,7 +24,7 @@ description: "Customize the SharePoint Success Site"
 
 The SharePoint Success Site is a ready to deploy, up-to-date, and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site helps end users improve the quality and impact of the sites they build for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
 
-The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date SharePoint site creation training content. However, there are several opportunities to customize the experience to better suit your organization’s goals and usage policy.Learn about what's included in a SharePoint Success Site, and then get started customizing.
+The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date SharePoint site creation training content. However, there are several opportunities to customize the experience to better suit your organization’s goals and usage policy. Learn about what's included in a SharePoint Success Site, and then get started customizing.
 
 **The SharePoint Success Site consists of three parts:**
 
@@ -76,9 +76,9 @@ Once you confirm the necessary access and permission to customize the site, you 
 The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll need to sign into Microsoft 365 and then navigate to the site. 
 
 ##### Sign in
-1.	Open your Web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
+1.	Open a web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
 2.	Sign in with your username and password.
-3.	Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Microsoft 365 Home page, and then select the **SharePoint Success Site**.
+3.	Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Microsoft 365 home page, and then select the **SharePoint Success Site**.
 
 
 ### Explore and review the pre-populated training content
@@ -87,9 +87,11 @@ The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll ne
 
 Review the **Plan, Build, Launch and manage, and Advanced** playlist sections to see the full suite of Microsoft curated content available in the SharePoint Success Site.
 
-**Select a topic, and navigate through content using controls at the top of the article**:
+
 
 ![Image of the SharePoint Success Site landing page, close up of the content controls](media/sss-content-module.png)
+
+**Select a topic, and navigate through content using controls at the top of the article**
 
 Select content categories and subcategories, and then navigate through the playlist using arrows and bread crumbs in the control bar to get a sense for how the SharePoint Success Site content is organized and displayed.
 
@@ -109,7 +111,7 @@ With Microsoft 365 learning pathways, you can [create custom playlists](https://
 
 
 ### Customize the look and feel of your site
-The following sections of the SharePoint Success Site can be customized to meet your requirements, prior to sharing with end users.There are several different ways you can make the SharePoint Success Site template your own. Customize the following elements of your site to fit the need of your organization:
+The following sections of the SharePoint Success Site can be customized to meet your requirements, prior to sharing with end users. There are several different ways you can make the SharePoint Success Site template your own. Customize the following elements of your site to fit the need of your organization:
 
 - Update the SharePoint Success Site [branding](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) to align with your organization
 - Customize the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) to include images of real sites in your organization where possible
@@ -120,24 +122,24 @@ The following sections of the SharePoint Success Site can be customized to meet 
 
 ### Customize specific web parts
 
-**1. Yammer conversations web part** - Use a Yammer web part to connect new SharePoint site owners with extra support from SharePoint site owners and admins. Connect your Yammer account to the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
+**1. Yammer conversations web part** - Use a Yammer web part to connect new SharePoint Site owners with extra support from current SharePoint Site owners and admins. Connect your Yammer account to the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
 
 ![Image of the Yammer conversations web part](media/sss-yammer.png)
 
-**2. People web part** - Edit the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display contact information so new site owner can reach out for help.
+**2. People web part** - Edit the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display contact information so new Site owners can reach out for help.
 
 ![Image of the People web part](media/sss-people.png)
 
-**3. Forms web part** - Edit the [Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256?ui=en-US&rs=en-US&ad=US) to embed a custom form that allows SharePoint site owners to easily share their success stories.
+**3. Forms web part** - Edit the [Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256?ui=en-US&rs=en-US&ad=US) to embed a custom form that allows SharePoint Site owners to easily share their success stories.
 
 ![Image of the Forms web part](media/sss-form.png)
 
 #### Customize the Success stories page
-The success stories section is a gallery for organizations to showcase internal SharePoint Online success stories that inspire others in the organization. 
+The success stories section is a gallery for organizations to showcase internal SharePoint site success stories to inspire new Site owners with their site creation. 
 
 ![Image of an example success story](media/sss-success-story-example.png)
 
-If available, add SharePoint success stories to your portal. If there are no ready-to-publish success stories, consider working with internal partners to create SharePoint successes by building high priority sites that align with business outcomes. Highlighting these “early wins” will help inspire others in the organization on the possibilities for using SharePoint themselves to achieve important business outcomes. 
+If available, add SharePoint success stories to your portal. If there are no ready-to-publish success stories, consider working with internal partners to create SharePoint successes by building high priority sites that align with business outcomes. Highlighting these “early wins” will help inspire others in the organization on the possibilities for using SharePoint themselves to achieve business outcomes. 
 
 **Here are some sample questions to consider using in your form:**
 
@@ -145,16 +147,16 @@ If available, add SharePoint success stories to your portal. If there are no rea
 - Project team members 
 - Who is the sponsor of the project? 
 - What Microsoft 365 technologies (e.g., SharePoint, Yammer, Stream, Flow) were used as part of the solution? 
-- What were the reasons for building the SharePoint site/solution? 
+- What were the reasons for building the SharePoint site? 
 - Provide a description of the solution 
-- What impact or results has the SharePoint site/solution generated? 
-- What best practices for planning and implementing your solution would you recommend to other who are building their own SharePoint site/solution? 
+- What impact or results has the SharePoint site generated? 
+- What best practices for planning and implementing your solution would you recommend to other who are building their own SharePoint site? 
 
 Learn more about how to [create a form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) using Microsoft Forms.
 
 
 ### Customize the Site creation guidelines page
-To ensure the proper use of SharePoint in your organization it is important to communicate your site usage guidelines to new and existing site owners. This should include guidelines for how people should create sites in your tenant, design standards, and how people should share information using SharePoint and Office 365. 
+To ensure the proper use of SharePoint in your organization it is important to communicate your site usage guidelines to new and existing site owners. This should include guidelines for how people should create sites in your tenant, design standards, and how people should share information using SharePoint and Microsoft 365. 
 
 ![Image of the site creation guidelines page](media/sss-creation-guidelines.png)
 
@@ -195,7 +197,9 @@ Key success factors to managing the SharePoint Success Site:
 
 #### Adoption and awareness strategy
 
-To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](https://docs.microsoft.com/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
+To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](https://docs.microsoft.com/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. 
+
+To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
 
 
 	
