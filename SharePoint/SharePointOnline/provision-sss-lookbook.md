@@ -33,11 +33,11 @@ Once you confirm the person provisioning *and* the tenant being provisioned meet
 ## Start provisioning from the look book
 If you already have M365 learning Pathways version 4.0 *or greater* provisioned to your tenant, you can provision the SharePoint Success Site from the look book. If you aren't sure what version of M365 learning pathways is installed in your tenant, review the [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then provision the SharePoint Success Site. 
 
-1. Go to the [look book](https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**
+1. Go to the [look book](https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**.
 
    ![Image of the SharePoint Success Site look book page](media/sss-lookbook-add.png)
 
-2. Fill out the email and URL address sections and select **Provision**
+2. Fill out the email and URL address sections and select **Provision**.
 
    ![Image of the SharePoint Success Site look book page details](media/sss-lookbook-details.png)
 
@@ -49,7 +49,7 @@ If you already have M365 learning Pathways version 4.0 *or greater* provisioned 
 
 5.	Next, navigate to your tenant's Learning Pathways site.
 
-6.	Select **Home > Learning Pathways Administration**
+6.	Select **Home > Learning Pathways Administration**.
 
     ![Image of the M365 learning pathways admin page](media/sss-sss-admin.png)
 
@@ -59,7 +59,7 @@ If you already have M365 learning Pathways version 4.0 *or greater* provisioned 
 
     ![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
 
-9.	You will see the SharePoint look book site appear in a new tab. You can close this tab and select the **CustomLearning Administration tab**
+9.	You will see the SharePoint look book site appear in a new tab. You can close this tab and select the **CustomLearning Administration tab**.
 
     ![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
 
