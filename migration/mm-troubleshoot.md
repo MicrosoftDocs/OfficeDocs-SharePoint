@@ -65,6 +65,8 @@ Make sure you have met the prerequisites for agent installation, and have review
 ## Error codes 
 |**Error Code**|**Recommended action**|
 |:-----|:-----|
+|0x0111000F|The parent folder was not migrated.  Check the failure report to determine the file and then try again.|
+|0x01110010|Invalid characters in the file name. Check report for files names with <>:"|?*/\,|
 |0x0201000D|Check if the list exists or if you can access it in the source site and target site.|
 |0x02050008|Unable to access your local storage.  Restart your migration.|
 |0x02010023|Your source list template is not supported.  Please try another.|
@@ -99,7 +101,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 |0x02030003|There are too many items with unique permissions. Simplify your permissions list by reducing the number of unique permissions. aRetry your migration.|
 |0x02050001|Local storage file is corrupted.  The working folder was touched or modified during the migration.  Retry your migration.|
 |0x02080001|The file in the package has been changed or deleted while uploading. All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
-|0x02040009|The package can’t be created because the directory cannot be found.  All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
+|0x02040009|The package can't be created because the directory cannot be found.  All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
 |0x02010020|Disable migrating version history in Migration Manager settings or enable versioning in SPO.|
 |0x0201000E|Check if the global setting has filtered out special characters in the target path or if the path has unsupported characters.|
 |0X0201000F|Invalid site URL. Check if the site URL is valid. Try to access the URL via a browser.|
