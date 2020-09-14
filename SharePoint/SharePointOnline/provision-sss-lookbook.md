@@ -24,9 +24,9 @@ description: "Provision the SharePoint Success Site from the look book"
 
 Once you confirm the person provisioning *and* the tenant being provisioned meet the following [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites), you are ready to provision:
 
-- You are using *at minimum* SharePoint tenant administrator credentials
+- You are using *at minimum* SharePoint Tenant administrator credentials
 - Your tenant has the App Catalog installed
-- You are an administrator of the App Catalog
+- You are an Administrator of the App Catalog
 - Your tenant has version 4.0 of the M365 learning pathways provisioned
 
 
