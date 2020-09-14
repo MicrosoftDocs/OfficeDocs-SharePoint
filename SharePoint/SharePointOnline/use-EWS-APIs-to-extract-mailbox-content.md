@@ -1,5 +1,5 @@
 ---
-title: "Use EWS APIs to extract site mailboxes"
+title: "Use EWS APIs to extract mailbox content"
 ms.author: v-bshilpa
 author: Benny
 manager: Serdars
@@ -11,10 +11,10 @@ localization_priority: Normal
 search.appverid:
 ms.collection:  
 ms.custom:
-description: "In this article, you'll learn how to export site mailboxes using EWS APIs."
+description: "In this article, you'll learn how to export mailbox content using EWS APIs."
 ---
 
-# Use EWS APIs to extract site mailboxes
+# Use EWS APIs to extract mailbox content
 
 Exporting and importing of appointments, emails, contacts, tasks, and other mailbox items can be done by using the EWS Managed API or EWS in Exchange. 
 
