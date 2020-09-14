@@ -16,11 +16,11 @@ description: "In this article, you'll learn how to export and import site mailbo
 
 # Export site mailboxes through PST (Manually)
 
-You must have [Microsoft 365 admin permissions](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) to access the [Microsoft 365 compliance center](https://docs.microsoft.com/en-us/microsoft-365/compliance/microsoft-365-compliance-center?view=o365-worldwide). 
+You must have [Microsoft 365 admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) to access the [Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center?view=o365-worldwide). 
 
-For more information, see [Permissions and sharing](https://docs.microsoft.com/en-us/sharepoint/modern-experience-sharing-permissions).
+For more information, see [Permissions and sharing](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
 
-1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in with an account that has [admin permissions](https://docs.microsoft.com/en-us/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
 
 2. In the Microsoft 365 compliance center, choose **eDiscovery** > **Core**.
 
