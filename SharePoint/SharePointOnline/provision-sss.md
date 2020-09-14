@@ -89,7 +89,7 @@ Then select the ellipsies **(...)** in the tool bar, then select **About web par
 #### If you need to, update M365 learning pathways from version 3.0 to version 4.0
 
 > [!IMPORTANT] 
-> The person updating learning pathways must be an administrator of the tenant’s App Catalog. If the person provisioning learning pathways isn't a site collection owner of the App Catalog, [complete these instructions](https://docs.microsoft.com/office365/customlearning/addappadmin) and continue
+> The person updating learning pathways must be an Administrator of the tenant’s App Catalog. If the person provisioning learning pathways isn't an Administrator of the App Catalog, [complete these instructions](https://docs.microsoft.com/office365/customlearning/addappadmin) and continue
 
 In this step, you upload the learning pathways 4.0 web part to the SharePoint App Catalog, and then navigate to the learning pathways Administration page to start the update process.
 
@@ -189,6 +189,7 @@ Share the URLs for the M365 learning pathways administration site and the ShareP
 - Share your [feedback](https://github.com/pnp/custom-learning-office-365/issues) with us
 
 <br>
+
 
 ### Frequently asked questions
 
