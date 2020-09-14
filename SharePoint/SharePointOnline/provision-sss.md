@@ -71,10 +71,10 @@ The **tenant** where the site will be provisioned must have the [SharePoint App 
 
 **Does your tenant have the App Catalog installed?**
 - Yes - Next, confirm you are an administrator of the App Catalog.
-- No - Next, [install the App Catolg](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes.)
+- No - Next, [install the App Catalog](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes).
 - Unsure - Navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **App Catalog**:
 
-![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
+  ![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
 
 
 > [!IMPORTANT]
@@ -90,11 +90,11 @@ The **tenant** where the site will be provisioned must have the [SharePoint App 
 - No - Update to version 4.0 and provision the SharePoint Success Site from the M365 learning pathways administration page.
 - Unsure - Navigate to your tenant's **M365 Learning Pathways administration page**:
 
-![Image learning pathways admin page](media/sss-lp-version.png)
+  ![Image learning pathways admin page](media/sss-lp-version.png)
 
-Then select the ellipsies **(...)** in the tool bar, then select **About web part**
+  Then select the ellipses (**...**) in the tool bar, and then select **About web part**.
 
-![Image learning pathways admin page settings bar](media/sss-lp-elipses.png)
+  ![Image learning pathways admin page settings bar](media/sss-lp-elipses.png)
 
 #### If you need to, update M365 learning pathways from version 3.0 to version 4.0
 
@@ -104,60 +104,60 @@ Then select the ellipsies **(...)** in the tool bar, then select **About web par
 In this step, you upload the M365 learning pathways 4.0 web part to the SharePoint App Catalog, and then navigate to the M365 learning pathways Administration page to start the update process.
 
 **Upload the web part package**
-1.	Go to the [GitHub custom learning repository](https://docs.microsoft.com/office365/customlearning/manualcustomlearninginstall), select customlearning.sppkg and then download it to a local drive on your PC
-2.	If you’re not already signed in, sign into your tenant with a Tenant Admin or Site Collection Admin account
-3.	Select **Admin > Show All > SharePoint > More Features**
-4.	Under Apps, select **Open**
-5.	Select **App Catalog > Distribute Apps for SharePoint**
-6.	Select **Upload > Choose Files**
-7.	Select the customlearning.sppkg file you downloaded, then select **OK > Deploy**
+1.	Go to the [GitHub custom learning repository](https://docs.microsoft.com/office365/customlearning/manualcustomlearninginstall), select customlearning.sppkg and then download it to a local drive on your PC.
+2.	If you’re not already signed in, sign into your tenant with a Tenant Admin or Site Collection Admin account.
+3.	Select **Admin > Show All > SharePoint > More Features**.
+4.	Under Apps, select **Open**.
+5.	Select **App Catalog > Distribute Apps for SharePoint**.
+6.	Select **Upload > Choose Files**.
+7.	Select the customlearning.sppkg file you downloaded, then select **OK > Deploy**.
 8.	From the Learning Pathways site, select **Learning pathways administration** from the Home menu.
-9.	You’ll see a prompt asking if you want to update, select **start**
-10.	When the update is complete, select **Close**
+9.	You’ll see a prompt asking if you want to update, select **start**.
+10.	When the update is complete, select **Close**.
 
 
 ## Provision the SharePoint Success Site
 
 Once you’ve confirmed the following, you are ready to provision:
 
-- You are using *at minimum* SharePoint Tenant administrator credentials
-- Your tenant has the App Catalog installed
-- You are an administrator of the App Catalog
-- Your tenant has version 4.0 of the M365 learning pathways provisioned
+- You are using *at minimum* SharePoint Tenant administrator credentials.
+- Your tenant has the App Catalog installed.
+- You are an administrator of the App Catalog.
+- Your tenant has version 4.0 of the M365 learning pathways provisioned.
 
 
 #### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
 
-1.	Navigate to [office.com](https://www.office.com/) or your organization’s sign in location.
-2.	Sign in with your username and password.
-3.	Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Microsoft 365 home page, and then select the **M365 learning pathways** site.
-4.	From the learning pathways Home menu, select **Learning Pathways Administration**.
+1.  Navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
+2.  Sign in with your username and password.
+3.  Navigate to the location of the site using the URL supplied by your tenant administrator or select SharePoint from the Microsoft 365 home page, and then select the **M365 learning pathways** site.
+4.  From the learning pathways Home menu, select **Learning Pathways Administration**.
 
-![Image of the M365 learning pathways admin page](media/sss-sss-admin.png)
+    ![Image of the M365 learning pathways admin page](media/sss-sss-admin.png)
 
-5.	Select the ellipses **(…)** and then select **Add Content Pack**.
+5.  Select the ellipses **(…)** and then select **Add Content Pack**.
 
-![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
+    ![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
 
-6.	Select SharePoint Success Site to open the SharePoint Success Site provisioning page.
-7.	Select **Add to your tenant**.
-8.	Fill out the email address and URL details and then select **Provision**.
-9.	Select **Complete**.
+6.  Select SharePoint Success Site to open the SharePoint Success Site provisioning page.
+7.  Select **Add to your tenant**.
+8.  Fill out the email address and URL details and then select **Provision**.
+9.  Select **Complete**.
 
-10.	When you see Provisioning completed, select the **CustomLearningAdministration** tab as shown in the following image:
+10. When you see Provisioning completed, select the **CustomLearningAdministration** tab as shown in the following image:
 
-![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
+    ![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
 
-11.	Select **Complete** as shown in the following image:
+11. Select **Complete** as shown in the following image:
 
-![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
+    ![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
 
-> [!IMPORTANT]
-> Make sure to select **Complete** to complete the provisioning process.
+    > [!IMPORTANT]
+    > Make sure to select **Complete** to complete the provisioning process.
 
-12.	To confirm the SharePoint Success Site has been successfully provisioned, navigate to the site and select **Get Started > Plan your site**. You should see the web part on the page as shown in the following image:
+12. To confirm the SharePoint Success Site has been successfully provisioned, navigate to the site and select **Get Started > Plan your site**. You should see the web part on the page as shown in the following image:
 
-![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+    ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
 13. Next, follow the steps below to add Site owners to the M365 learning pathways administration page *and* the SharePoint Success Site to grant access to others for site and content customizations. 
 
@@ -169,7 +169,7 @@ In order for others to customize M365 learning pathways playlists and SharePoint
 #### Add Site owners to the M365 learning pathways site
 Assign a few Site owners to grant administrative privileges to customize the site and training content. This includes the ability to hide and show content and to build custom playlists through the learning pathways web part. 
 
-1. From the M365 learning pathways site menu select **Settings**, then select **Site permissions**
+1. From the M365 learning pathways site menu, select **Settings**, then select **Site permissions**.
 2. Select **Advanced Permission Settings**.
 3. Select **SharePoint Success Site owners**.
 4. Select **New > Add users to this group**, and then add the people you want to be Site owners.
@@ -200,7 +200,7 @@ Share the URLs for the M365 learning pathways administration site and the ShareP
 
 
 
-#### Frequantly asked questions
+#### Frequently asked questions
 
 **Question: Can I provision from the look book?**
 <br>
@@ -225,26 +225,4 @@ Answer: Site collection administrator for M365 learning pathways and Share
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
 Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
