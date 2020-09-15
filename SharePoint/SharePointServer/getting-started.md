@@ -1,6 +1,6 @@
 ---
 title: "Getting started"
-ms.reviewer: 
+description: Learn the basics to deploy your SharePoint Server: install, upgrade, or move to the cloud.
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -15,7 +15,7 @@ ms.assetid: c33f0214-4201-4807-9e8f-574d8fd05849
 
 ---
 
-# Getting started
+# Getting started with Sharepoint
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](includes/appliesto-2013-2016-2019-xxx-md.md)]
 
