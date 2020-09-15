@@ -25,11 +25,10 @@ This article discusses cumulative features and enhancements in the Mover migrati
 - Fix. During transfers, items skipped as failures (unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report. These failures also now appear in the reports.
 
   
-- Fix. When a user cancels a job, the job goes through a process to be canceled. Previously, if the job finished before the cancel process completed, the rerun transfer was automatically initiated. This has been fixed. An automatic rerun transfer is not triggered if a job is in the process of being canceled. 
+- Fix. When a user cancels a job, the job goes through a process to be cancelled. Previously, if the job finished before the cancel process completed, the rerun transfer was automatically initiated. This has been fixed. An automatic rerun transfer is not triggered if a job is in the process of being cancelled. 
 
 - Improvement has been made in the overall system's stability through enhancements to the reliability of our caching systems.
 
-- Change. When running a transfer from Google TeamDrive, Mover marks the file as restricted if either of the options *capabilities.canCopy*  or *copyRequiresWriterPermission* is false. A failure occurs if the file is moved. However, as this scenario is true only for files in a users drive, we have removed the flag to mark files as *restricted* for TeamDrive.
 
 ## Backend v1.19.8 (September 9, 2020)
 -	Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
