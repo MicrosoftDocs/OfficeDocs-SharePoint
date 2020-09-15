@@ -93,7 +93,7 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 
 3.	At the bottom of the **Site Information** panel, select **Delete site**.
 
-4.	Check the confirmation box, and then select **Delete**.
+4.	Check the confirmation box, and then click **Delete**.
 
 #### Delete a site or subsite quicksteps
 
@@ -129,23 +129,24 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 2. In the Microsoft 365 compliance center, choose **eDiscovery** > **Core**.
 
-3. Select **Create a case**.
+3. Click **Create a case** from toolbar.
 
 4. In **New case** details pane, enter a case name and description.
 
 5. Click **Save**.
 
-6. Select the case and click ![icon-ac](media/icon-for-im3.PNG) to open the case.
+6. Select the case that you saved from the list view and click ![icon-ac](media/icon-for-im3.PNG) to open the case.
+   The case opens in a new window.
 
-7. Select **Search**.
+7. Select **Search** from the tabs.
 
-8. Select **+Guided search**.
+8. Click **+Guided search**.
 
 9. In the **New search** details pane, under the **Name your search** tab, enter the name and description.
 
 10. Click **Next**.
 
-11. In **Choose locations** tab, select **Specific locations**.
+11. In the **New search** details pane, under the **Choose locations** tab, select **Specific locations**.
 
 12. Under **Locations**, click **Choose users, groups, or team**.
     
@@ -157,7 +158,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
     
 16. Click **Choose** and then click **Done**.
     
-17. Under SharePoint sites option, click **Choose sites** to add the SharePoint site associated with the site mailbox.
+17. Under **SharePoint sites** option, click **Choose sites** to add the SharePoint site associated with the site mailbox.
     
 18. To find the SharePoint URL for the site mailbox, run the following command in Powershell:
 
@@ -181,19 +182,19 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 21. In the **New search** details pane, click **Next**.
     
-22. Click **Finish**.
+22. In the **New search** details pane, under the **Create query** tab, click **Finish**.
 
     >[!NOTE]
     > Leave the Condition card blank to ensure the entire mailbox content is searched. The search will take a while based on the amount of content.
     
-23. Click **More** once the search is complete and then click **Export results**.
+23. Click **More** from the toolbar once the search is complete and then click **Export results**.
 
 24. Select the appropriate options and click **Export**.
       
     >[!NOTE]
-    > The export wizard takes a few minutes to launch the Export.
+    > The export wizard takes a few minutes to launch the Export window.
 
-25. In **Export key** section, click **Copy to clipboard**.
+25. In the **Export** window, under the **Export key** section, click **Copy to clipboard**.
 
 26. Click **Download results**.
 
@@ -202,7 +203,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
     >[!NOTE]
     > This will launch the Microsoft Office 365 eDiscovery Export Tool to export the mailbox to PST.
     
-28. Click **Install**.
+28. Click **Install** to install the **Export Tool** to export the mailbox to PST.
 
 29. Paste the **Export key**, provide the location to save the PST file locally and then click **Start**.
     
