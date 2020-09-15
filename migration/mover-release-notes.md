@@ -25,7 +25,7 @@ This article discusses cumulative features and enhancements in the Mover migrati
 - Fix. During transfers, items skipped as failures (i.e. unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report.   These entries now appear in reports.
 
   
-- Fix. When a user cancelled a job, the job went through a process to be canceled. If the job finished before the cancel process completed, the rerun transfer was automatically initiated because the job cancellation is not complete. This has been fixed. A rerun transfer is not allowed if a job is in the process of being canceled. 
+- Fix. When a user cancelled a job, the job went through a process to be canceled. If the job finished before the cancel process completed, the rerun transfer was automatically initiated because the job cancellation was not complete. This has been fixed. A rerun transfer is not allowed if a job is in the process of being canceled. 
 
 - Improvement has been made in the overall system's stability through enhancements to the reliability of our caching systems.
 
