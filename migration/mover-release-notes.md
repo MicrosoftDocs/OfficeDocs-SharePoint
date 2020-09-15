@@ -19,17 +19,17 @@ This article discusses cumulative features and enhancements in the Mover migrati
 
 ## Backend v1.19.9 (September 15,2020)
 
-- Fix.  Previously, authorship information such as "Modified By" was not sent to the destination. Metadata from Google sources is now included in the transfer.  This info is now displayed at the Office 365 destination.
+- Fix.  Previously, authorship information such as "Modified By" was not sent to the destination. Metadata from Google sources is now included in the transfer and displayed at the Office 365 destination.
 
 
-- Fix. During transfers, items skipped as failures (i.e. unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report.   These entries now appear in reports.
+- Fix. During transfers, items skipped as failures (unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report. These failures also now appear in the reports.
 
   
-- Fix. When a user cancelled a job, the job went through a process to be canceled. If the job finished before the cancel process completed, the rerun transfer was automatically initiated because the job cancellation was not complete. This has been fixed. A rerun transfer is not allowed if a job is in the process of being canceled. 
+- Fix. When a user cancels a job, the job goes through a process to be canceled. Previously, if the job finished before the cancel process completed, the rerun transfer was automatically initiated. This has been fixed. An automatic rerun transfer is not triggered if a job is in the process of being canceled. 
 
 - Improvement has been made in the overall system's stability through enhancements to the reliability of our caching systems.
 
-- Change. When running a transfer from a Google team drive, Mover marks the file as restricted if either of the options *capabilities.canCopy*  or *copyRequiresWriterPermission* is false. A failure occurs if the file is moved. However, as this scenario is true only for files in a users drive, we have removed the flag to mark files as *restricted* for TeamDrive.
+- Change. When running a transfer from Google TeamDrive, Mover marks the file as restricted if either of the options *capabilities.canCopy*  or *copyRequiresWriterPermission* is false. A failure occurs if the file is moved. However, as this scenario is true only for files in a users drive, we have removed the flag to mark files as *restricted* for TeamDrive.
 
 ## Backend v1.19.8 (September 9, 2020)
 -	Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
