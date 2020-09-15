@@ -19,13 +19,13 @@ This article discusses cumulative features and enhancements in the Mover migrati
 
 ## Backend v1.19.9 (September 15,2020)
 
-- Fix.  Metadata from Google sources is now included in the transfer.  Previously, the authorship information such as "Modified By" was not sent to the destination. This info is now displayed at the Office 365 destination.
+- Fix.  Previously, authorship information such as "Modified By" was not sent to the destination. Metadata from Google sources is now included in the transfer.  This info is now displayed at the Office 365 destination.
 
 
 - Fix. During transfers, items skipped as failures (i.e. unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report.   These entries now appear in reports.
 
   
-- Fix. Rerun transfer is not allowed if a job is in the process of being canceled.  When a user cancels a job, the job goes through a process to be canceled. If the job finished before the cancel process completed, the rerun transfer was automatically initiated because the job cancellation is not complete. 
+- Fix. When a user cancelled a job, the job went through a process to be canceled. If the job finished before the cancel process completed, the rerun transfer was automatically initiated because the job cancellation is not complete. This has been fixed. A rerun transfer is not allowed if a job is in the process of being canceled. 
 
 - Improvement has been made in the overall system's stability through enhancements to the reliability of our caching systems.
 
