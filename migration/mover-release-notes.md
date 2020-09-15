@@ -29,6 +29,8 @@ This article discusses cumulative features and enhancements in the Mover migrati
 
 - Improvement has been made in the overall system's stability through enhancements to the reliability of our caching systems.
 
+- Fix. During a G Suite transfer from a shared drive some users received a "File is restricted" error. This has been fixed by allowing the transfer to move those files over to the destination.
+
 
 ## Backend v1.19.8 (September 9, 2020)
 -	Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
