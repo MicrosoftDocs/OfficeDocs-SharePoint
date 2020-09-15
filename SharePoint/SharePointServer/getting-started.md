@@ -1,6 +1,6 @@
 ---
 title: "Getting started"
-description: Learn the basics to deploy your SharePoint Server: install, upgrade, or move to the cloud.
+description: "Learn the basics to deploy your SharePoint Server: install, upgrade, or move to the cloud."
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
