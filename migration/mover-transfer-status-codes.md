@@ -15,14 +15,18 @@ description: "Mover transfer status codes"
 ---
 # Mover transfer status codes
 
-When a transaction ends, it may be automatically re-run. But this will only happen when ALL of the following conditions are met:
 
-- **It is the first time a task is being scanned OR it is the first time it is being migrated**, i.e.:
-    - If we first scan a task, it may trigger re-runs. If then we migrate the task, it may also trigger re-runs.
-    - If we started scanning a task and then cancelled it. And then we started scanning the task again, it will NOT trigger re-runs because it was not the first time the task was scanned
+When a run ends, an automatic re-run may occur when ALL of the following conditions are met:
+
+**The task is being scanned OR migrated for the first time:**
+- When a task is first scanned or migrated, it may trigger re-runs. 
+- When a task scan is started and then canceled. If that task is scanned again,  it will NOT trigger re-runs,  because it was not the first time the task was scanned.
 
 
-- **We haven’t run out of automatic re-runs.** A task will be automatically re-run a maximum of 3 times. A first scan/migrate action on a task may result in triggering a total of four transactions: the original transaction (run), and the three additional attempts (re-runs). Six re-runs can be triggered at the very most: 3 for the initial scan, and 3 for the initial migration.
+**More automatic re-runs are still available.** 
+- A task will be automatically re-run a maximum of 3 times. 
+- A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and the three additional attempts (re-runs). Six re-runs can be triggered at the very most: 3 for the initial scan, and 3 for the initial migration.
+
 
 
 - **The last transaction ended in any of these status codes:**
