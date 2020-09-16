@@ -65,11 +65,13 @@ Use one of the following options:
 
 You can hide the site mailbox by removing it from the SharePoint site but it will still exist in Exchange. You can access the mailbox through Outlook Web Access if the browser is bookmarked.
 
-1. Click **Settings** > **Site contents**.
+1. Navigate to the SharePoint site from which you want to hide the mailbox.
 
-2. Under **Lists, Libraries, and other APPs**, point to **Site Mailbox**, and then click **…** for more information.
+2. Click **Settings** > **Site contents**.
 
-3. Click **Remove** and then click **OK** to remove the site mailbox app.
+3. Under **Lists, Libraries, and other APPs**, point to **Site Mailbox**, and then click **…** for more information.
+
+4. Click **Remove** and then click **OK** to remove the site mailbox app.
 
    >[!NOTE]
    > If you remove a mailbox from a site, it won’t be displayed on the site, but it will still be visible in Outlook (if you’re using Exchange).
@@ -127,7 +129,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
 
-2. In the Microsoft 365 compliance center Home page, navigate to **Show all > **eDiscovery** > **Core**.
+2. In the Microsoft 365 compliance center Home page, navigate to **Show all** > **eDiscovery** > **Core**.
    The **Core eDiscovery** page is displayed.
 
 3. Click **Create a case**.
