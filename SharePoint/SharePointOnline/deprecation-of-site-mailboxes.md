@@ -16,7 +16,7 @@ description: "In this article, you'll learn how to identify and remove site mail
 
 # Deprecation of site mailboxes
 
-As per company policies, the site mailboxes would be out of service or removed from view in the Outlook desktop client.
+The site mailboxes are being deprecated and will be out of service and/or removed from view in the Outlook desktop client.
 
 ## To view a list of site mailboxes
 
@@ -61,9 +61,9 @@ Get-SiteMailbox -BypassOwnerCheck | fl Name, Owners
 
 Use one of the following options:
 
-**Option 1**: Hiding the mailbox from a SharePoint Site
+**Option 1**: Hiding the mailbox from a SharePoint site
 
-You can remove the site mailbox, which essentially hides the mailbox from those who are using the site. It exists in Exchange and can be accessed through Outlook Web Access if the browser is bookmarked.
+You can hide the site mailbox by removing it from the SharePoint site but it will still exist in Exchange. You can access the mailbox through Outlook Web Access if the browser is bookmarked.
 
 1. Click **Settings** > **Site contents**.
 
@@ -80,7 +80,7 @@ There are a couple of things worth noting about removing a site mailbox:
 
 - After removing the site mailbox app from a site, mail sent to the mailbox will still be stored. If you [add the mailbox back to the site](https://support.microsoft.com/office/add-a-site-mailbox-to-keep-email-in-context-cccaa235-c611-48e3-9653-0b9e161840e7) later, any mail sent to the site mailbox since it was originally created will still be there.
 
-**Option 2**: Delete the SharePoint Site
+**Option 2**: Delete the SharePoint site
 
 If the SharePoint site is deleted, Exchange is notified to also delete the site mailbox.
 
@@ -127,90 +127,89 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
 
-2. In the Microsoft 365 compliance center, choose **eDiscovery** > **Core**.
+2. In the Microsoft 365 compliance center Home page, navigate to **Show all > **eDiscovery** > **Core**.
+   The **Core eDiscovery** page is displayed.
 
-3. Click **Create a case** from toolbar.
+3. Click **Create a case**.
 
-4. In **New case** details pane, enter a case name and description.
+4. In **New case** details pane, enter the following details:
+   - Enter the **Case name** (mandatory).
+   - Enter the **Case description** (optional).
 
 5. Click **Save**.
 
 6. Select the case that you saved from the list view and click ![icon-ac](media/icon-for-im3.PNG) to open the case.
    The case opens in a new window.
 
-7. Select **Search** from the tabs.
+7. Click **Search** > **+Guided search**.
+   The **New Search** details pane is displayed.
 
-8. Click **+Guided search**.
+8. In the **New search** details pane, under the following tabs:
 
-9. In the **New search** details pane, under the **Name your search** tab, enter the name and description.
+   a. In **Name your search** tab, do the following:
+      - Enter the **Name** (mandatory).
+      - Enter **Description** (optional).
+      - Click **Next**.
+      
+   b. In **Choose Locations** tab, do the following:
+      - Select **Specific locations**.
+      - In **Location**, click **Choose users, groups, or team**. 
+        The **Edit locations** window is displayed.
+      - In **Edit locations** window, under **Exchange email**, click **Choose users, groups, or team**.
+      - Enter the name of the site mailbox to be exported.
+      - Check the confirmation box to ensure the site mailbox is added.
+      - Click **Choose** and then click **Done**.
+      - Under **SharePoint sites** option, click **Choose sites** to add the SharePoint site associated with the site mailbox.
+      - To find the SharePoint URL for the site mailbox, run the following command in Powershell:
 
-10. Click **Next**.
+        ```Powershell
 
-11. In the **New search** details pane, under the **Choose locations** tab, select **Specific locations**.
+        PS D:\tools\PSSession> Get-SiteMailbox
 
-12. Under **Locations**, click **Choose users, groups, or team**.
+        Name        ClosedTime SharePointUrl
+        ----        ---------- -------------
+        SMO-jknibb1            https://hmopco.sharepoint.com/jknibb1
+
+
+        PS D:\tools\PSSession>
+        ```
+
+        Use ‘Get-SiteMailbox -BypassOwnerCheck’ option to list all the site mailboxes.
+      - Enter the URL and check the confirmation box to ensure the URL is added.
+      - Click **Choose** and then click **Done**.
+      - Click **Next**.
+      
+   c. In **Create query** tab, click **Finish**.
+   
+      >[!NOTE]
+      > Leave the Condition card blank to ensure the entire mailbox content is searched. The search will take a while based on the amount of content.
+
+
+9. Once the search is complete, click **More** > **Export results**.
+   The **Export results** window is displayed.
     
-13. In **Edit locations** window, under **Exchange email**, click **Choose users, groups, or team**.
-
-14. Enter the name of the site mailbox to be exported.
-
-15. Check the confirmation box to ensure the site mailbox is added.
-    
-16. Click **Choose** and then click **Done**.
-    
-17. Under **SharePoint sites** option, click **Choose sites** to add the SharePoint site associated with the site mailbox.
-    
-18. To find the SharePoint URL for the site mailbox, run the following command in Powershell:
-
-    ```Powershell
-
-    PS D:\tools\PSSession> Get-SiteMailbox
-
-    Name        ClosedTime SharePointUrl
-    ----        ---------- -------------
-    SMO-jknibb1            https://hmopco.sharepoint.com/jknibb1
-
-
-    PS D:\tools\PSSession>
-    ```
-
-    Use ‘Get-SiteMailbox -BypassOwnerCheck’ option to list all the site mailboxes.
-
-19. Enter the URL and check the confirmation box to ensure the URL is added.
-
-20. Click **Choose** and then click **Done**.
-
-21. In the **New search** details pane, click **Next**.
-    
-22. In the **New search** details pane, under the **Create query** tab, click **Finish**.
-
-    >[!NOTE]
-    > Leave the Condition card blank to ensure the entire mailbox content is searched. The search will take a while based on the amount of content.
-    
-23. Click **More** from the toolbar once the search is complete and then click **Export results**.
-
-24. Select the appropriate options and click **Export**.
+10. Select the appropriate options and click **Export**.
       
     >[!NOTE]
     > The export wizard takes a few minutes to launch the Export window.
 
-25. In the **Export** window, under the **Export key** section, click **Copy to clipboard**.
+11. In the **Export** window, under the **Export key** section, click **Copy to clipboard**.
 
-26. Click **Download results**.
+12. Click **Download results**.
 
-27. In the dialog box, click **Open**.
+13. In the dialog box, click **Open**.
     
     >[!NOTE]
     > This will launch the Microsoft Office 365 eDiscovery Export Tool to export the mailbox to PST.
     
-28. Click **Install** to install the **Export Tool** to export the mailbox to PST.
+14. Click **Install** to install the **Export Tool** to export the mailbox to PST.
 
-29. Paste the **Export key**, provide the location to save the PST file locally and then click **Start**.
+15. Paste the **Export key**, provide the location to save the PST file locally and then click **Start**.
     
     >[!NOTE]
     > The export will take a while based on the size of the PST file.
 
-30. Click **Close**.
+16. Click **Close**.
 
     The PST can be now attached in Outlook.
     
