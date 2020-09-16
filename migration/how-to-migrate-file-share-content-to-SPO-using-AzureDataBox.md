@@ -1,5 +1,5 @@
 ---
-title: "How to migrate your file share content to SharePoint using the Azure Data Box"
+title: "Migrate your file share content to SharePoint using the Azure Data Box"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
