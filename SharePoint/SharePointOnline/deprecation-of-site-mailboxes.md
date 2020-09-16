@@ -142,6 +142,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 5. Click **Save**.
 
 6. Select the case that you saved from the list view and click ![icon-ac](media/icon-for-im3.PNG) to open the case.
+
    The case opens in a new window.
 
 7. Click **Search** > **+Guided search**.
