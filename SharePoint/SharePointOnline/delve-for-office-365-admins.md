@@ -311,7 +311,7 @@ End users
 
 - [What is OneDrive?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-- [How does Office Delve know what's relevant to me?](https://support.microsoft.com/office/how-does-office-delve-know-what-s-relevant-to-me-048d502e-80a7-4f77-ac5c-f9d81733c385)
+- [How does Office Delve know what's relevant to me?](https://support.microsoft.com/office/048d502e-80a7-4f77-ac5c-f9d81733c385)
 
 Admins
   
