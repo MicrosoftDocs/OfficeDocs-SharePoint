@@ -130,6 +130,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
 
 2. In the Microsoft 365 compliance center Home page, navigate to **Show all** > **eDiscovery** > **Core**.
+
    The **Core eDiscovery** page is displayed.
 
 3. Click **Create a case**.
@@ -144,6 +145,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
    The case opens in a new window.
 
 7. Click **Search** > **+Guided search**.
+
    The **New Search** details pane is displayed.
 
 8. In the **New search** details pane, under the following tabs:
@@ -155,7 +157,8 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
       
    b. In **Choose Locations** tab, do the following:
       - Select **Specific locations**.
-      - In **Location**, click **Choose users, groups, or team**. 
+      - In **Location**, click **Choose users, groups, or team**.
+      
         The **Edit locations** window is displayed.
       - In **Edit locations** window, under **Exchange email**, click **Choose users, groups, or team**.
       - Enter the name of the site mailbox to be exported.
