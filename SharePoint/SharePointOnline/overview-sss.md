@@ -24,7 +24,7 @@ description: "Introduction to the SharePoint Success Site"
 
 The SharePoint Success Site is a ready to deploy and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site is designed to support new SharePoint Site owners in creating high-impact sites to meet the goals of your organization.
 
-The SharePoint Success Site builds on the power of [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) which allows you to use Microsoft-maintained playlists for training purposes. You can also create custom playlists to meet the unique training requirements of your organization. If you are already using M365 learning pathways and don't want to provision the SharePoint Success Site, you can upload the [SharePoint Success Site playlist into learning pathways](https://docs.microsoft.com/SharePoint/add-sss-cdn).
+The SharePoint Success Site builds on the power of [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) which allows you to use Microsoft-maintained playlists for training purposes. You can also create custom playlists to meet the unique training requirements of your organization. If you are already using M365 learning pathways and don't want to provision the SharePoint Success Site, you can enable the [SharePoint Success Site playlist into learning pathways](https://docs.microsoft.com/SharePoint/add-sss-cdn).
 
 Install the SharePoint Success Site in your tenant environment, customize the pre-populated training and site content, and then make it available to end users.
 
@@ -63,15 +63,11 @@ The SharePoint Success Site is a SharePoint communication site that includes pre
 
 ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
-#### Microsoft 365 learning pathways
-In order to provision the SharePoint Success Site, you will first be required to install [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/). M365 learning pathways connects to a Microsoft-maintained content repository that includes publicly available SharePoint help content. As the content repository is updated, M365 learning pathways will automatically display updated SharePoint training content. M365 learning pathways also lets you create targeted training playlists that meet the needs of your organization outside of SharePoint training content by uploading your own custom playlists.
-
-![Image of the Microsoft 365 learning pathways solution](media/sss-m365-learning-pathways.png)
 
 #### Microsoft-maintained content feed
 The SharePoint Success Site’s up-to-date content feed includes a range of content that helps new users and existing site owners plan, build, and manage SharePoint sites:
 
-- **Plan your site:** Guidance on how to plan a site, including what type of SharePoint site to use, how to manage site access, and permission strategy.
+- **Plan your site:** Guidance on the ways to work with SharePoint, how to plan a site, including what type of SharePoint site to use, how to manage site access, and permission strategy.
 - **Create your site:** Content that helps new Site owners create their site, add content, and then branding and customize.
 - **Share and manage your site:** Guidance to help launch, share, and manage the new site.
 - **Advanced site creation:** Content for Site owners that want to learn beyond site creation basics.
@@ -122,12 +118,12 @@ Review and implement SharePoint Success Site [provisioning requirements and inst
 Answer: SharePoint Tenant administrator credentials or higher are required.
 <br>
 
-**Question: Who has permission to customize site template?**
+**Question: Who has permission to customize the site template?**
 <br>
 Answer: The SharePoint Tenant administrator or site level Site owner or Site member permissions.
 <br>
 
-**Question: Who can create custom playlists and hide/show content in M365 learning pathways?**
+**Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
 <br>
 Answer: The Site collection administrator for M365 learning pathways and SharePoint Site owner or Site member permissions for M365 learning pathways.
 <br>
