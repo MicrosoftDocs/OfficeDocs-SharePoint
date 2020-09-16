@@ -14,9 +14,9 @@ ms.custom:
 description: "In this article, you'll learn how to identify and remove site mailboxes."
 ---
 
-# Deprecation of site mailboxes
+# Retirement of site mailboxes
 
-The site mailboxes are being deprecated and will be out of service and/or removed . Please use the instructions below to identify, backup and delete site mailboxes.
+The site mailboxes are being retired and will be out of service and/or removed . Please use the instructions below to identify, backup and delete site mailboxes.
 
 ## To view a list of site mailboxes
 
