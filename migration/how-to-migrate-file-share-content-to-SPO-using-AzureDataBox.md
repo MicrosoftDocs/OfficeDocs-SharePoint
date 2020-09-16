@@ -90,9 +90,9 @@ Take the following steps to copy data to your Data Box.
 6. [Verify the data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
 
 
-## Migrating your data to SharePoint using SPMT
+## Migrating your data to Microsoft 365 using SPMT
 
-After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint in Microsoft 365. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
+After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to Microsoft 365. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
 
 1. Sign into the Azure portal, and then create a virtual machine.  To learn how, see  [Quickstart: Create Windows virtual machine in the Azure portal](/azure/virtual-machines/windows/quick-create-portal).
 
@@ -103,7 +103,7 @@ After you receive confirmation from the Azure data team that your data copy has 
 Download here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm).
 4. Start SPMT.  Select **Sign in**, and enter your Microsoft 365 username and password.<br><br>![SharePoint Migration Tool](media/spmt-intro.png).
 
-5. When prompted for "Where is your data?", select **File share**. Enter the path to your Azure file share where your data is located.
+5. Select **File share**. Enter the path to your Azure file share where your data is located.
 
 6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
 
