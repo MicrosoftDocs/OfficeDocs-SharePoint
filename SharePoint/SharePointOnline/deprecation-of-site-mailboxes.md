@@ -128,6 +128,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 
 9. Once the search is complete, click **More** > **Export results**.
+
    The **Export results** window is displayed.
     
 10. Select the appropriate options and click **Export**.
@@ -256,21 +257,6 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 3.	At the bottom of the **Site Information** panel, select **Delete site**.
 
 4.	Check the confirmation box, and then click **Delete**.
-
-#### Delete a site or subsite quicksteps
-
-If you're experienced with SharePoint, here's how to delete a site or subsite in any version.
-- SharePoint in Microsoft 365 team site — **Settings** > **Site Information** > **Delete site** — Check box to delete group, and then click **Delete**
-
-- SharePoint in Microsoft 365 or SharePoint Server 2019 communication site — **Settings** > **Site Information** >  **Delete site** — Click **Delete**
-
-- SharePoint Server 2019 Team site — **Settings** > **Site Information** > **View all site settings** >  **Site Actions** >  **Delete this site** — Click **Delete**
-
-- SharePoint Classic Experience or earlier versions of SharePoint in Microsoft 365 — **Settings** >  **Site settings** > **Site Actions** > **Delete this site** — Click **Delete**
-
-- SharePoint Server 2016, 2013 — **Settings** > **Site settings** > **Site Actions** > **Delete this site** — Click **Delete**
-
-- SharePoint Server 2010 — **Site Actions** >  **Site settings** >  **Site Actions** > **Delete this site** — Click **Delete**
 
 **Option 3**: Delete the site mailbox manually
 
