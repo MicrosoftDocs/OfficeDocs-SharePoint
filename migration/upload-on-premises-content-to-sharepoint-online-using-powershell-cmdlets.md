@@ -28,7 +28,7 @@ description: "Learn how to use PowerShell cmdlets to migrate content from an on-
 # Upload on-premises content to SharePoint using PowerShell cmdlets
 
 > [!NOTE]
->  *January 10, 2018* > The **SharePoint Migration Tool** is now available to help simplify your migration process. This new tool provides a wizard-like experience to guide you through the process of migrating either your SharePoint on-premises document libraries or your on-premises file shares, and move them to either SharePoint or OneDrive in Microsoft 365. It is available to all Microsoft 365 users. > To download the tool, go to: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>  The **SharePoint Migration Tool** (SPMT) helps simplify your migration process. SPMT provides a wizard-like experience to guide you through the process of migrating either your SharePoint Server team sites or your network file shares to Microsoft 365. It is available to all Microsoft 365 users. > To download the tool, go to: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 > [!IMPORTANT]
 > Currently, the SharePoint Migration Tool is not available for users of Office 365 operated by 21Vianet in China. 

@@ -1,6 +1,7 @@
 ---
 title: Mover Migration Tools overview and planning
 author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -23,7 +24,7 @@ Undertaking any corporate migration is a daunting task. When moving your data to
 
 
 >[!Tip]
-> Need help? [Open a support request here](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=c3fa6eba-e1f0-0715-4519-94a9740c5f2c)
+> Need help? [Open a support request here](https://support.microsoft.com/supportforbusiness/productselection?sapId=c3fa6eba-e1f0-0715-4519-94a9740c5f2c)
 
 ### File processing summary
 

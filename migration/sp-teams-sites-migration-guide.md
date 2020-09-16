@@ -15,7 +15,7 @@ ms.collection:
 search.appverid: MET150
 ---
 
-# SharePoint Server Team Sites Migration Guide
+# SharePoint Server team sites Migration Guide
 This guide will help you prepare to migrate from SharePoint Server teams sites to SharePoint in Microsoft 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 

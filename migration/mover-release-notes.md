@@ -1,6 +1,7 @@
 ---
 title: Mover Release Notes
 author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,6 +17,72 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Backend v1.19.9 (September 15,2020)
+
+- Fix.  Previously, authorship information such as "Modified By" was not sent to the destination. Metadata from Google sources is now included in the transfer and displayed at the Office 365 destination.
+
+
+- Fix. During transfers, items skipped as failures (unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report. These failures also now appear in the reports.
+
+  
+- Fix. When a user cancels a job, the job goes through a process to be cancelled. Previously, if the job finished before the cancel process completed, the rerun transfer was automatically initiated. This has been fixed. An automatic rerun transfer is not triggered if a job is in the process of being cancelled. 
+
+- Improvement has been made in the overall system's stability through enhancements to the reliability of our caching systems.
+
+- Fix. During a G Suite transfer from a shared drive some users received a "File is restricted" error. This has been fixed by allowing the transfer to move those files over to the destination.
+
+
+## Backend v1.19.8 (September 9, 2020)
+-	Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
+
+## Backend v1.19.7 (September 1, 2020)
+-	Improved data transfer speeds from the Agent connector (file shares) into an Office 365 connector. Customers will need to update the Agent to version v1.3.4.0.
+-	Transfers going into some Office 365 sites may fail to move certain folders if the sites have the SharePoint Online option `ThicketSupportDisabled` set to `false`. To correct this issue, customers can set `ThicketSupportDisabled` to `true` in the SharePoint Online sites experiencing the issues. Alternatively, they can contact Mover support to apply a workaround to their transfers. The workaround consists in automatically appending an underscore (_) to the folder names. The folders that may fail due to this SharePoint Online option have names ending in:
+
+    - .files
+    - _files
+     - -Dateien
+    - _fichiers
+    - _bestanden
+    - _file
+    - _archivos
+    - -filer
+    - _tiedostot
+    - _pliki
+    - _soubory
+    - _elemei
+    - _ficheiros
+    - _arquivos
+    - _dosyalar
+    - _datoteke
+    - _fitxers
+    - _failid
+    - _fails
+    - _bylos
+    - _fajlovi
+    - _fitxategiak
+
+
+
+>[!Note]
+>The workaround should NOT be requested if the SPO option `ThicketSupportDisabled` has been set to `true` as this may cause data duplication.
+
+- When a transfer into Office 365 fails on items due to path length limitations, the items would show up yellow in the user logs and as errors in the migration error report. However, the messages related to these failed entries were blank. This has been fixed by ensuring that a proper error message has been added to these failures.
+
+
+## Backend v1.19.6 (August 31, 2020)
+
+- Improved stability for transfers going into Office 365.
+- Improved sign-up experience into the Mover app for customer having issues.
+
+## Backend v1.19.5 (August 26, 2020)
+
+- Improved telemetry to tackle customer issues.
+
+## Backend v1.19.4 (August 20, 2020)
+
+- Improved stability for transfers going into Office 365.
+
 ## Frontend v1.18.2  (August 6, 2020)
 
 - While using the App, notifications are sent to let you know if your request has been successful or if an error has occurred. The height and text size of notifications have been increased to improve visibility and awareness.
@@ -26,10 +93,10 @@ This article discusses cumulative features and enhancements in the Mover migrati
 
 - All non-success notifications will stay open for the user to read. Success notifications will automatically close after 5 seconds.
 
-## Backend v1.19.3 (Aug 6, 2020)
+## Backend v1.19.3 (August 6, 2020)
 
 End of life notification and bug fix.
- 
+
 - The connectors for Amazon WorkDocs and NetDocuments have reached end of life. The connectors were deprecated July 1, 2020, and existing users notified. These connectors are no longer available.
 
 - When a migration job failed to submit during a migration into Office 365, error entries were not being added to the user log or migration error report. This has now been fixed.  All files contained in the failed migration job now have an error entry in the user log and the migration error report.
@@ -42,7 +109,7 @@ Migration Report improvements and bug fixes.
 
 - When authorizing or re-authorizing an Office 365 connector, a picker will show accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they are already logged into Microsoft.
 
-- A fix has been made to distinguish OneNote notebooks and folders with .one extensions. Previously, when running a transfer from an Office 365 source, folder names with .one extension would fail to transfer the folders' content to the destination as the app would consider it as OneNote notebook. 
+- A fix has been made to distinguish OneNote notebooks and folders with .one extensions. Previously, when running a transfer from an Office 365 source, folder names with .one extension would fail to transfer the folders' content to the destination as the app would consider it as OneNote notebook.
 
 - A fix has been made to correct an issue when signing into Mover. Some users were unable to sign in with their Microsoft account even though authorization seems to have gone fine. The application would redirect them back to the Mover login page after trying to load the UI, without any error messages. This behavior has been fixed; these users can now sign in with their Microsoft accounts.
 
@@ -54,7 +121,7 @@ Migration Report improvements and bug fixes.
 
 - Saving the permission map for a migration via the web UI that had a job_limit set or auto_job_limit set (migration scaler) caused those fields to set back to null, and the settings were lost. This issue is now fixed.
 
-- Google Drive now lets users create shortcuts to their drive files as part of migrating the Google Drive app from multi-parenting to single-parenting behavioral models. Shortcuts are files that link to other files on the user's drive. The Mover app currently does not support moving those files to a destination.  When completed, the transfer status row will display yellow, indicating that some files are unsupported and that rerunning won't fix it. 
+- Google Drive now lets users create shortcuts to their drive files as part of migrating the Google Drive app from multi-parenting to single-parenting behavioral models. Shortcuts are files that link to other files on the user's drive. The Mover app currently does not support moving those files to a destination.  When completed, the transfer status row will display yellow, indicating that some files are unsupported and that rerunning won't fix it.
 
 ## Backend v1.19.0 (July 14, 2020)
 
