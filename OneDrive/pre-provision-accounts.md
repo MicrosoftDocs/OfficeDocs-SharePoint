@@ -108,7 +108,7 @@ Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint
         $list += $upn
         
         if ($i -eq 199){ #We reached the limit
-            Request-SPOPersonalSite -UserEmails $list
+            Request-SPOPersonalSite -UserEmails $list -NoWait
             Start-Sleep -Milliseconds 655
             $list = @()
             $i = 0
@@ -116,7 +116,7 @@ Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint
 
     }
     if($i -gt 0){
-        Request-SPOPersonalSite -UserEmails $list
+        Request-SPOPersonalSite -UserEmails $list -NoWait
     }
 ```
 ## Related topics
