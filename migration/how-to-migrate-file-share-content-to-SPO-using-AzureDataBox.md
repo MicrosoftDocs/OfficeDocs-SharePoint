@@ -21,7 +21,7 @@ description: "Learn how to migrate your file share content to SharePoint in Micr
 
 # Migrate your file share content to SharePoint using the Azure Data Box
 
-Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to easily migrate your file share content to SharePoint and OneDrive in Microsoft 365. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
+Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to migrate file share content to Microsoft 365. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
 
 The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy terabytes of data from your servers to the device. After shipping it back to Microsoft, your data is copied into Azure. Depending on the size of data you intend to transfer, you can choose from:
 
