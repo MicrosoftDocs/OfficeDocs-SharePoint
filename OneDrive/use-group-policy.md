@@ -588,7 +588,7 @@ Enabling this policy sets the following registry key, using the entire URL from 
 ### Disable the tutorial that appears at the end of OneDrive Setup
 <a name="DisableFRETutorial"> </a>
 
-This setting lets you prevent the tutorial from launching in a web browser at the end of OneDrive Setup.
+This setting lets you prevent the tutorial from showing at the end of OneDrive Setup.
 
 If you enable this setting, users don't see the tutorial after they complete OneDrive Setup.
   
