@@ -115,12 +115,12 @@ Review and implement SharePoint Success Site [provisioning requirements and inst
 
 **Question: Who has permission to provision the SharePoint Success Site?**
 <br>
-Answer: SharePoint Tenant administrator credentials or higher are required.
+Answer: SharePoint administrator credentials or higher are required.
 <br>
 
 **Question: Who has permission to customize the site template?**
 <br>
-Answer: The SharePoint Tenant administrator or site level Site owner or Site member permissions.
+Answer: The SharePoint administrator or Site owner or Site member permissions.
 <br>
 
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
