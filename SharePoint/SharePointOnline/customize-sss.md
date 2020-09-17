@@ -193,7 +193,7 @@ The home page of the SharePoint Success Site has a [People web part](https://sup
 
 
 ## Share the site with end-users
-Partner with others in your organization to ensure the SharePoint Success Site is widely known and adopted. 
+[Share your site with others](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658).Partner with others in your organization to ensure the SharePoint Success Site is widely known and adopted. 
 
 Key success factors to managing the SharePoint Success Site:
 
