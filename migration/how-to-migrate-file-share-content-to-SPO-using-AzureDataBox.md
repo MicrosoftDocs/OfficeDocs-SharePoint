@@ -98,9 +98,8 @@ After you receive confirmation from the Azure data team that your data copy has 
 
 2. [Mount the Azure file share onto that VM](/azure/storage/files/storage-how-to-use-files-windows).
 
-3. Download the SharePoint Migration Tool, and install it on your Azure VM. 
+3. [Download the SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm), and install it on your Azure VM. 
 
-Download here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm).
 4. Start SPMT.  Select **Sign in**, and enter your Microsoft 365 username and password.<br><br>![SharePoint Migration Tool](media/spmt-intro.png).
 
 5. Select **File share**. Enter the path to your Azure file share where your data is located.
