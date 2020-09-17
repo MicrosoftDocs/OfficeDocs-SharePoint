@@ -164,7 +164,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
   
 ## Export site mailboxes to PST (using script)
 
-1. Copy the [ProcessSiteMailboxes.PS1](https://microsoft-my.sharepoint-df.com/personal/vijagan_microsoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvijagan%5Fmicrosoft%5Fcom%2FDocuments%2FProcessSiteMailboxes%2Eps1%2Etxt&parent=%2Fpersonal%2Fvijagan%5Fmicrosoft%5Fcom%2FDocuments&originalPath=aHR0cHM6Ly9taWNyb3NvZnQtbXkuc2hhcmVwb2ludC1kZi5jb20vOnQ6L3AvdmlqYWdhbi9FZEctUUhjcjJERkJtRGJ4Ni0zMTY3Y0JXWm9IRkdlbHJja3RrVUNZTTJNSjBBP3J0aW1lPVRZOUdCejlXMkVn) to a working directory.
+1. Copy the [ProcessSiteMailboxes.PS1](spodownloads/process-site-mailboxes_PS1.pdf) to a working directory.
 
 2. Start Windows PowerShell in administrator mode.
 
