@@ -54,7 +54,7 @@ The following table provides estimates of the type of speed you may achieve base
 
 |**Type of metadata**|**Examples**|**Maximum**|
 |:-----|:-----|:-----|
-|Light|ISO files, video files |15 TB/day|
+|Light|ISO files, video files |10 TB/day|
 |Medium |List items, Office files (~1.5 MB)|1 TB/day|
 |Heavy|List items with custom columns, small files (~50 kb)|250 GB /day|
 
@@ -148,19 +148,19 @@ Answer:  Here are some quick self-help checks to consider:</br>
 
 
 **Question: My migration is blocked with consistent high volume of Http 503 errors ("Server Too Busy") ?**</br>
-Answer: If you are experiencing a high volume of HTTP 503 responses blocking your migration **during evening and weekend hours**, please follow the steps below to create a support ticket.
+Answer: If you are experiencing a high volume of HTTP 503 responses blocking your migration **during evening and weekend hours**, follow the steps below to create a support ticket.
 1. Navigate to https://admin.microsoft.com
-2. Ensure you are using the new admin center preview.
+2. Ensure you're using the new admin center preview.
 
 >[!Note]
 >If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
 
-3. On the left nav pane, select **Support**, and then select **New Service Request**. 
+3. To activate the **Need Help?** pane on the right-hand side of your screen: On the left nav pane, select **Support**, and then select **New Service Request**. 
 
      ![New service request](media/new-service-request.png)
 
 
- This activates the **Need Help?** pane on the right-hand side of your screen.
+ 
 
 4. In the **Briefly describe your issue** area, enter "SharePoint Migration Throttling with 503".</br>
 
@@ -172,9 +172,9 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 8. After the ticket has been created, ensure you provide the support agent with the following information:
     - How much is left of your migration (x TB?). 
     - Migration start and end date.
-    - Describe where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, and so on. 
+    - Describe where you're migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc. 
     - Estimate the number of throttles (for example, x throttle per hour?) and when (specific time and date) did the throttling happened.
-    - Which migration tool you are using (for example, SPMT, Sharegate, Mover, and so on).
+    - Which migration tool you are using. For example, SPMT, ShareGate, Mover, etc.
 </br></br>
 
 
@@ -201,15 +201,15 @@ If you want to file a Microsoft support ticket, follow these steps and include t
     - Your organization URL.
     - How much is left of your migration (x TB?).
     - Migration start and end date.
-    - A description of where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, and so on.
+    - A description of where you're migrating your content from, such as SharePoint Server, Box, GDrive, File shares, etc.
     - If it is a throttling related escalation, provide information such as the number of throttles, how many throttles per hour, and the specific time and date the throttling happened. If you are experiencing poor performance, please describe the nature of the poor performance.
-    - Indicate which migration tool you are using (for example, SPMT, Sharegate, Mover, and so on).
+    - Indicate which migration tool you are using (for example, SPMT, ShareGate, Mover, and so on).
     - State if you are logging in using *user login* or *app-based authentication*.
 
 
 We welcome feedback and encourage you to submit suggestions or questions that will help us improve the content.
  
-## Related Topics
+## Related articles
 
 [Avoid getting throttled or blocked in SharePoint](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 

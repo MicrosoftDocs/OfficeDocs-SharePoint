@@ -67,9 +67,9 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 |Dropbox (single user)|No|No|Yes|No|No|We have a feature request to get the timestamp and authorship information out of Dropbox.|
 |Dropbox Business (admin)|No|No|Yes|No|Yes|We have a feature request to get the timestamp and authorship information out of Dropbox.|
 |Egnyte|No|Yes|Yes|No|Yes||
-|G Suite (Admin)|Yes|Yes|Yes|No|Yes||
+|G Suite (Admin)|Yes|Yes|Yes|Yes|Yes||
 |Google cloud storage|Buckets: Yes</br>Folders: No</br>Files: Same as modified date|No|Yes|No|No||
-|Google drive (Single user)|Yes|Yes|Yes|No|No||
+|Google drive (Single user)|Yes|Yes|Yes|Yes|No||
 |Office 365 (OneDrive/SharePoint admin)|Yes|Yes|Yes|Yes|Yes ||
 |OneDrive Consumer|Yes|Yes|Yes|Yes|No||
 |OneDrive for Business (Single user)|Yes|Yes|Yes|Yes|No||

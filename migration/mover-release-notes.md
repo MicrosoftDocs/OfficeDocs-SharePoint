@@ -17,6 +17,59 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Backend v1.19.9 (September 15,2020)
+
+- Fix.  Previously, authorship information such as "Modified By" was not sent to the destination. Metadata from Google sources is now included in the transfer and displayed at the Office 365 destination.
+
+
+- Fix. During transfers, items skipped as failures (unsupported items for export in the source or import in the destination) were showing as failures only in the user logs but not in reports, such as the Migration Error Report. These failures also now appear in the reports.
+
+  
+- Fix. When a user cancels a job, the job goes through a process to be cancelled. Previously, if the job finished before the cancel process completed, the rerun transfer was automatically initiated. This has been fixed. An automatic rerun transfer is not triggered if a job is in the process of being cancelled. 
+
+- Improvement has been made in the overall system's stability through enhancements to the reliability of our caching systems.
+
+- Fix. During a G Suite transfer from a shared drive some users received a "File is restricted" error. This has been fixed by allowing the transfer to move those files over to the destination.
+
+
+## Backend v1.19.8 (September 9, 2020)
+-	Enforce that authorizing user is Office365 Global Admin or SharePoint Admin when authorizing a connector
+
+## Backend v1.19.7 (September 1, 2020)
+-	Improved data transfer speeds from the Agent connector (file shares) into an Office 365 connector. Customers will need to update the Agent to version v1.3.4.0.
+-	Transfers going into some Office 365 sites may fail to move certain folders if the sites have the SharePoint Online option `ThicketSupportDisabled` set to `false`. To correct this issue, customers can set `ThicketSupportDisabled` to `true` in the SharePoint Online sites experiencing the issues. Alternatively, they can contact Mover support to apply a workaround to their transfers. The workaround consists in automatically appending an underscore (_) to the folder names. The folders that may fail due to this SharePoint Online option have names ending in:
+
+    - .files
+    - _files
+     - -Dateien
+    - _fichiers
+    - _bestanden
+    - _file
+    - _archivos
+    - -filer
+    - _tiedostot
+    - _pliki
+    - _soubory
+    - _elemei
+    - _ficheiros
+    - _arquivos
+    - _dosyalar
+    - _datoteke
+    - _fitxers
+    - _failid
+    - _fails
+    - _bylos
+    - _fajlovi
+    - _fitxategiak
+
+
+
+>[!Note]
+>The workaround should NOT be requested if the SPO option `ThicketSupportDisabled` has been set to `true` as this may cause data duplication.
+
+- When a transfer into Office 365 fails on items due to path length limitations, the items would show up yellow in the user logs and as errors in the migration error report. However, the messages related to these failed entries were blank. This has been fixed by ensuring that a proper error message has been added to these failures.
+
+
 ## Backend v1.19.6 (August 31, 2020)
 
 - Improved stability for transfers going into Office 365.
