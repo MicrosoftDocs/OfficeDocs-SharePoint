@@ -52,13 +52,14 @@ The **person** doing the provisioning must be a Global admin or a SharePoint adm
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
 **Are you a SharePoint administrator?**
-- Yes -  Next, confirm your tenant has already enabled the App Catalog.
-- No -  Work with your M365 Global administrator or SharePoint admin to add you as a [SharePoint administrator](https://docs.microsoft.com/sharepoint/sharepoint-admin-role).
-If you are unsure, you can confrim your role by logging into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint administrator credentials.
+- **Yes** -  Next, confirm your tenant has already enabled the App Catalog.
+- **No** -  Partner with your M365 Global administrator or SharePoint admin to get the site provisioned or to [change your security permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
+<br>
+If you are unsure, you can confirm your role by logging into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint administrator credentials.
 
 **Are you an Administrator of the App Catalog?**
-- Yes - Next, confirm your tenant has M365 learning Pathways provisioned.
-- No - Next, ask your Global admin or SharePoint admin to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin).
+- ***Yes** - Next, confirm your tenant has M365 learning Pathways provisioned.
+- **No** - Next, ask your Global admin or SharePoint admin to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin).
 
 	
 #### The tenant must meet the following provisioning pre-requisites:
@@ -70,8 +71,9 @@ The **tenant** where the site will be provisioned must have the [App Catalog](ht
 
 
 **Does your tenant have the App Catalog installed?**
-- Yes - Next, confirm you are an administrator of the App Catalog.
-- No - Next, [enable the App Catalog](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes).
+- **Yes** - Next, confirm you are an administrator of the App Catalog.
+- **No** - Next, [enable the App Catalog](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes).
+<br>
 If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **App Catalog**:
 
   ![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
@@ -81,18 +83,22 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 > If you need to create a App Catalog, wait at least 30 minutes after creating before provisioning M365 learning pathways and the SharePoint Success Site. 
  
 **Does your tenant have M365 learning pathways provisioned?**
-- Yes - Next, confirm you are using version 4.0 or higher.
-- No - [Provision M365 learning pathways](https://docs.microsoft.com/office365/customlearning/) for the first time.
+- **Yes** - Next, confirm you are using version 4.0 or higher.
+- **No** - [Provision M365 learning pathways](https://docs.microsoft.com/office365/customlearning/) for the first time.
+<br>
 If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see **Microsoft 365 learning pathways**.
  
 **Is your tenant's version of learning pathways version 4.0 or higher?**
-- Yes - You are ready to provision the SharePoint Success Site.
-- No - Update to version 4.0 and provision the SharePoint Success Site from the M365 learning pathways administration page.
+- **Yes** - You are ready to provision the SharePoint Success Site.
+- **No** - Update to version 4.0 and provision the SharePoint Success Site from the M365 learning pathways administration page.
+<br>
 If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page**:
 
   ![Image learning pathways admin page](media/sss-lp-version.png)
 
-### If you need to, update M365 learning pathways from version 3.0 to version 4.0
+<br>
+
+#### If you need to, update M365 learning pathways from version 3.0 to version 4.0
 
 > [!IMPORTANT]
 > The person updating M365 learning pathways must be an Administrator of the tenant’s App Catalog. If the person provisioning M365 learning pathways isn't an Administrator of the App Catalog, [complete these instructions](https://docs.microsoft.com/office365/customlearning/addappadmin) and continue.
@@ -112,7 +118,7 @@ In this step, you upload the M365 learning pathways 4.0 web part to the SharePoi
 9. You’ll see a prompt asking if you want to update, select start.
 10. When the update is complete, select Close.
 
-
+<br>
 
 
 ## Provision the SharePoint Success Site
