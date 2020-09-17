@@ -55,10 +55,11 @@ The **person** doing the provisioning must be a Global admin or a SharePoint adm
 - **Yes** -  Next, confirm your tenant has already enabled the App Catalog.
 - **No** -  Partner with your M365 Global administrator or SharePoint admin to get the site provisioned or to [change your security permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
 <br>
+<br>
 If you are unsure, you can confirm your role by logging into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint administrator credentials.
 
 **Are you an Administrator of the App Catalog?**
-- ***Yes** - Next, confirm your tenant has M365 learning Pathways provisioned.
+- **Yes** - Next, confirm your tenant has M365 learning Pathways provisioned.
 - **No** - Next, ask your Global admin or SharePoint admin to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin).
 
 	
@@ -74,6 +75,7 @@ The **tenant** where the site will be provisioned must have the [App Catalog](ht
 - **Yes** - Next, confirm you are an administrator of the App Catalog.
 - **No** - Next, [enable the App Catalog](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes).
 <br>
+<br>
 If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **App Catalog**:
 
   ![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
@@ -85,6 +87,7 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 **Does your tenant have M365 learning pathways provisioned?**
 - **Yes** - Next, confirm you are using version 4.0 or higher.
 - **No** - [Provision M365 learning pathways](https://docs.microsoft.com/office365/customlearning/) for the first time.
+<br>
 <br>
 If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see **Microsoft 365 learning pathways**.
  
