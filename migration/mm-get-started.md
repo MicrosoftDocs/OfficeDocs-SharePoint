@@ -58,6 +58,10 @@ Make sure that you have:
 
 - **Prerequisites installed:** Make sure your computer or VM has the necessary prerequisites installed:  See here for the [List of prerequisites](mm-setup-clients.md).
 
+>[!Note]
+>When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.
+
+
 ### Related links
 
 [How to set up agents in Migration Manager](mm-setup-clients.md)</br>
