@@ -29,7 +29,7 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 **The SharePoint Success Site consists of three parts:**
 
 1.	**SharePoint communication site** - The site comes [pre-populated with content and web parts](https://docs.microsoft.com/sharepoint/overview-sss#what-comes-with-a-sharepoint-success-site) that can be further customized to fit the needs of your organization.
-2.	**Microsoft 365 learning pathways** - [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization..) is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and upload your own training playlists.
+2.	**Microsoft 365 learning pathways** - [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization..) is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and enable your own training playlists.
 3.	**Up-to-date SharePoint training content feed** - Content in the SharePoint Success Site is updated by Microsoft as SharePoint evolves and can be customized to align with your organization's site creation policy.
 
 
@@ -37,7 +37,7 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
 
-## Before you publish
+## Before you share the site with end-users
  
  There are several customization opportunities to align the site content, look, and feel with your organization. Before you publish your site and share it with users, review and customize the following elements:
 
@@ -51,13 +51,13 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 
 
 #### Summary of site requirements and permissions
-Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint Tenant administrator. You need to be a Site owner for **both** M365 learning pathways *and* the SharePoint Success Site in order to have permission to make site customizations.
+Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint administrator. You need to be a Site owner for **both** M365 learning pathways *and* the SharePoint Success Site in order to have permission to make site customizations.
 
-If you’re not sure your tenant has the site, contact your SharePoint Tenant administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the Tenant administrator and M365 learning pathways has not been provisioned, see the [provisioning guidance](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
+If you’re not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the SharePoint admin and M365 learning pathways has not been provisioned, see the [provisioning guidance](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
 
 
-**Who has permissions to customize site template?**
-- The SharePoint Tenant administrator
+**Who has permissions to customize the site template?**
+- The SharePoint administrator
 - SharePoint Site owner or Site member level permissions
 <br>
 
@@ -116,9 +116,16 @@ The following sections of the SharePoint Success Site can be customized to meet 
 - Update the SharePoint Success Site [branding](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b) to align with your organization.
 - Customize the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) to include images of real sites in your organization where possible.
 - [Add web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) to your site as needed.
-- Customize the [site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) or [associate this site with a hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05).
 - Customize the [page layouts](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) as needed.
 - Add [new pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) to additional support or training resources.
+
+### Customize the site navigation
+As a Site owner you have full control of the site navigation. Use the following resources to help you make changes that align with business outcomes:
+
+- Customize the [site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca). 
+- [Associate this site with a hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05).
+- Use [audience targeting](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to target specific navigational links to specific users. For example, in the **Home** navigation drop down you will see a shortcut to the M365 learning pathways administration page. Target that page to Site owners for the SharePoint Success Site to prevent end-users from seeing it.
+- [Delete unwanted pages](https://support.microsoft.com/office/delete-a-page-from-a-sharepoint-site-1d4197b8-31b6-460d-906b-3fb492a51db1) if you need to.
 
 ### Customize specific web parts
 
@@ -130,9 +137,9 @@ The following sections of the SharePoint Success Site can be customized to meet 
 
 ![Image of the People web part](media/sss-people.png)
 
-**3. Forms web part** - Edit the [Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256?ui=en-US&rs=en-US&ad=US) to embed a custom form that allows SharePoint Site owners to easily share their success stories.
+**3. Button web part** - Edit the [Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a) to link to a [Microsoft Form](https://support.microsoft.com/office/introduction-to-microsoft-forms-bb1dd261-260f-49aa-9af0-d3dddcea6d69) to collect success stories from Site owners. Consider using the [Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256?ui=en-US&rs=en-US&ad=US) to embed a custom form that allows SharePoint Site owners to easily share their success stories.
 
-![Image of the Forms web part](media/sss-form.png)
+![Image of the Button web part](media/sss-form.png)
 
 #### Customize the Success stories page
 The success stories section is a gallery for organizations to showcase internal SharePoint site success stories to inspire new Site owners with their site creation. 
@@ -153,6 +160,8 @@ If available, add SharePoint success stories to your portal. If there are no rea
 - What best practices for planning and implementing your solution would you recommend to other who are building their own SharePoint site? 
 
 Learn more about how to [create a form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) using Microsoft Forms.
+
+Or, [delete unwanted pages](https://support.microsoft.com/office/delete-a-page-from-a-sharepoint-site-1d4197b8-31b6-460d-906b-3fb492a51db1) if you do not want to include this page in your site.
 
 
 ### Customize the Site creation guidelines page
@@ -184,7 +193,7 @@ The home page of the SharePoint Success Site has a [People web part](https://sup
 
 
 ## Share the site with end-users
-Partner with others in your organization to ensure the SharePoint Success Site is widely known and adopted. 
+[Share your site with others](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658).Partner with others in your organization to ensure the SharePoint Success Site is widely known and adopted. 
 
 Key success factors to managing the SharePoint Success Site:
 
