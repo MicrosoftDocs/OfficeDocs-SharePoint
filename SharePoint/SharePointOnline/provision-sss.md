@@ -102,7 +102,7 @@ In this step, you upload the M365 learning pathways 4.0 web part to the SharePoi
 **Upload the web part package:**
 
 1. Go to the [GitHub custom learning repository](https://docs.microsoft.com/office365/customlearning/manualcustomlearninginstall), select customlearning.sppkg and then download it to a local drive on your PC.
-2. If you’re not already signed in, sign into your tenant with a Tenant Admin or Site Collection Admin account.
+2. If you’re not already signed in, sign into your tenant with a Global admin or SharePoint admin account.
 3. Select Admin > Show All > SharePoint > More Features.
 4. Under Apps, select Open.
 5. Select App Catalog > Distribute Apps for SharePoint.
