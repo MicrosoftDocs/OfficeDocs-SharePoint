@@ -1,5 +1,5 @@
 ---
-title: "Plan navigation for the modern experience in SharePoint"
+title: "Plan and implement SharePoint site navigation"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "In this article, you'll learn about fundamental principles and good practices for how to plan navigation in the Modern experience in SharePoint"
+description: "Use the guidance in this document to help you create the right navigation for your organization"
 ---
 
 # Planning navigation for the modern SharePoint experience
