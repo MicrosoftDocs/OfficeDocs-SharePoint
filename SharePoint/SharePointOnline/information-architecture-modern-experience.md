@@ -21,18 +21,16 @@ search.appverid:
 description: "Learn how to organize and label your content and how your visitors interact with the content to get work done"
 ---
 
-#Introduction to SharePoint information architecture
+# Introduction to SharePoint information architecture
 
 Well-planned and executed information architecture is a prerequisite for an intelligent and high-performing intranet, hub, or site. Good information architecture helps people find what they need to complete tasks in a way that makes sense to them. Great information architecture helps improve user adoption, satisfaction, and productivity while reducing IT costs, information overload, and minimize compliance and security risks
 
-## In this article
-
 The most important step in planning an effective information architecture is understanding your users:
 
-- [Learn the main elements of information architecture](#Information-architecture-elements-in-SharePoint)
-- [Review the different roles involved in implementing information architecture](#Understand-your-role-and-how-to-collaborate)
-- [Understand the different levels of information architecture – global, hub, and local](#Guiding-principle:-the-world-is-flat)
-- [Explore SharePoint information architecture building blocks](#Navigational-elements)
+- [Learn the main elements of information architecture](#information-architecture-elements-in-sharepoint)
+- [Review the different roles involved in implementing information architecture](#understand-your-role-and-how-to-collaborate)
+- [Understand the different levels of information architecture – global, hub, and local](#guiding-principle-the-world-is-flat)
+- [Explore SharePoint information architecture building blocks](#navigational-elements)
 
 ## Information architecture elements in SharePoint
 
@@ -84,7 +82,7 @@ In the new flat world, you have several ways to connect sites and content to eac
 
 There are three levels of navigation to think about for modern SharePoint experiences:
 
-![Navigation levels](media/levels-of-nav.png)
+![Navigation levels](media/levels_of_nav.png)
 
 - Global navigation for the entire collection of sites that comprise your intranet
 - Hub navigation for groups of related sites
@@ -119,7 +117,7 @@ Where you’ll see global navigation elements:
 
 The SharePoint [start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) is where you can easily find and access SharePoint sites and portals within your organization. This is the first opportunity users will have to start discovering news, sites, and easily navigate to the top of your intranet by selecting the logo.
 
-![Start page](media/start-page.png)
+![Start page](media/start_page.png)
 
 #### The home site
 
@@ -141,7 +139,7 @@ Where you’ll see hub navigation elements:
 
 SharePoint [hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) help you meet the needs of your organization by connecting and organizing sites based on project, department, division, region, etc. making it easier to discover related content such as news and other site activities, apply common navigation, branding, site structure across associated sites and search across all [associated sites](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05).
 
-![SharePoint hubs](media/hub_nav_example.png)
+![SharePoint hubs example](media/hub_nav_example.png)
 
 A hub is a special capability that a SharePoint Administrator can add to a site that designates a site as the “head” of a family of related sites. Sites that are associated to the hub share navigation, branding, and other elements.
 
@@ -172,17 +170,17 @@ Where you’ll see local navigation elements:
 
 **Team site navigation**
 
-![SharePoint hubs](media/team_site_nav.png)
+![Team site navigation](media/team_site_nav.png)
 
 **Communication site navigation**
 
-![SharePoint hubs](media/comm_site_nav.png)
+![Communication site navigation](media/comm_site_nav.png)
 
 ### Sites
 
 Your intranet and portals will be comprised of [team sites](https://support.microsoft.com/office/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) and [communication sites](https://support.microsoft.com/office/what-is-a-sharepoint-communication-site-94a33429-e580-45c3-a090-5512a8070732) that will provide further access into the site’s pages, lists, and libraries. Every page in each site tells a story for the reader. 
 
-One component to modern SharePoint team sites that makes information architecture easier to implement and maintain are [Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups?view=o365-worldwide). M365 groups is a membership service that allows for easy hub and site permissions as well as additional functionality for SharePoint team sites and [Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups). With Microsoft 365 groups, you can give a group of people access to a collection of collaboration resources like Planner, OneNote, SharePoint team sites, and more. M365 groups can only be used on SharePoint team sites.
+One component to modern SharePoint team sites that makes information architecture easier to implement and maintain are [Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups). M365 groups is a membership service that allows for easy hub and site permissions as well as additional functionality for SharePoint team sites and [Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups). With Microsoft 365 groups, you can give a group of people access to a collection of collaboration resources like Planner, OneNote, SharePoint team sites, and more. M365 groups can only be used on SharePoint team sites.
 
 ### Pages
 
@@ -200,7 +198,7 @@ Since we know that most readers do not read every word on a web page or even scr
 
 [Navigational elements](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) are menu styles like the mega menu, cascade menu, and footer menus. Secondary navigational elements include [inline links](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) and [buttons](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a).
 
-![SharePoint hubs](media/nav_elements.png)
+![Navigation elements](media/nav_elements.png)
 
 ### Personalization elements
 
