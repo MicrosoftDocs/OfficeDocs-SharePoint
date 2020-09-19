@@ -43,8 +43,8 @@ Answer: The logs are stored here:  C:\Users\<Username>\AppData\Roaming\Microsoft
 **Question:** Can I rename my temporary working folder?</br>
 Answer: No, at this time the temporary working folder cannot be renamed.  It is  `%appdata%\Microsoft\SPMigration`. </br></br>
 
-**Question:** Does Migration Manager work with non-English SharePoint sites?</br>
-Answer: At this time, Migration Manager only supports English language SharePoint sites. </br></br>
+**Question:** Can Migration Manager migrate content to non-English SharePoint sites?</br>
+Answer: Yes, Migration Manager can migrate content to non-English sites as long as the site title doesn’t include non-EN characters. </br></br>
 
 **Question:** What happens when you "pause" a  task?</br>
 Answer: Pausing a task does not release the agent to another task. The agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted. </br></br>
