@@ -65,12 +65,14 @@ The key advantage of site navigation links is that they are always visible in th
 
 Planning site and page navigation involves thinking about:
 
-- Organizing – grouping logical and similar intents
--	Labeling – writing clear labels your users will immediately understand
--	Usability – users’ ability to easily navigate the end to end experience
--	Findability – users’ ability to quickly find what they need
+- **Organizing** – Grouping logical and similar intents
+- **Labeling** – Writing clear labels your users will immediately understand
+- **Usability** – Users' ability to easily navigate the end to end experience
+- **Findability** – Users' ability to quickly find what they need
 
-Navigation should always be planned from the perspective of the user of information – the viewers to your site. Planning effective navigation involves considering not just the information you want to *present*, but also thinking about the information your viewers want or need to *consume*. Therefore, organizing and labeling your navigation links is critical for the purposes of usability and findability. If 70% of viewers come to your sites expecting to browse for information, the usability of your site depends on creating a great browsing experience. To learn more, see [Information architecture principals in SharePoint](information-architecture-principles.md)
+Navigation should always be planned from the perspective of the user of information – the viewers to your site. Planning effective navigation involves considering not just the information you want to *present*, but also thinking about the information your viewers want or need to *consume*. 
+
+Therefore, organizing and labeling your navigation links is critical for the purposes of usability and findability. If 70% of viewers come to your sites expecting to browse for information, the usability of your site depends on creating a great browsing experience. To learn more, see [Information architecture principals in SharePoint](information-architecture-principles.md)
 
 ### Organizing
 
@@ -82,7 +84,9 @@ There is no one right way to organize your navigation links. You will make diffe
 - Audiences (if your viewers can clearly identify the audience to which they belong – such as student or teacher)
 - Expertise areas or functions
 
-The default navigation for all SharePoint sites primarily includes *type* of content. For [**communication sites**](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732), the default navigation includes Documents, Pages, and Site Contents. These categories are helpful as you are building your site, but they are not typically going to add value to your viewers once your site is ready to launch. This is because the consumer of a communication site typically doesn't care about the *type* of content – they care about the *purpose* or *subject* of the content. For communication sites, plan to delete the "out of the box" navigation when you are ready to launch and replace it with something that aligns with the guidance provided in the local navigation section of this guide.
+The default navigation for all SharePoint sites primarily includes *type* of content. For [**communication sites**](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732), the default navigation includes Documents, Pages, and Site Contents. These categories are helpful as you are building your site, but they are not typically going to add value to your viewers once your site is ready to launch. 
+
+This is because the consumer of a communication site typically doesn't care about the *type* of content – they care about the *purpose* or *subject* of the content. For communication sites, plan to delete the "out of the box" navigation when you are ready to launch and replace it with something that aligns with the guidance provided in the local navigation section of this guide.
 
 The default navigation for [**team sites**](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e) includes links to the related services provided by Microsoft 365 for modern teams – including a link to the shared team notebook and the conversations for the team in Outlook. These represent the typical features that teams need to effectively collaborate and might be hard for people to find without the experience provided by the navigation. 
 
@@ -93,9 +97,11 @@ You may choose to supplement or refine these links for your team sites, but you 
 There are two types of navigation menu styles for SharePoint sites - cascading and mega menu. Team sites only support the cascading menu style but communication sites support both mega menus and cascading menus. Hubs, whether they are team sites or communication sites, add an additional mega menu to the site. Mega menus are not available in on premises sites. Learn about [how to customize the navigation on your SharePoint site](https://support.office.com/article/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
 **Cascading menu**
+
 ![Cascade menu example:](media/cascade-menu-example.png)
 
 **Mega menu**
+
 ![Mega menu example:](media/mega-menu-example.png)
 
 ### Menu links
