@@ -77,7 +77,7 @@ Common methods of organizing navigational design:
 
 **By portfolio**
 
-![Portfolio](media/portfolio.png)
+![Organized by portfolio](media/portfolio.png)
 
 **Benefits** - Sometimes content is best organized by type, or portfolio, to display content in natural groupings or for specific audiences. Organizing your navigation by portfolio offers flexibility as your business scales and grows. 
 
