@@ -27,9 +27,9 @@ Navigation design accounts for the visual way of finding components (menus, link
 
 **In this article:**
 
-- Learn about information architecture elements
-- Explore common information architecture models and scenarios
-- Use the models and scenarios as a starting point for navigational design
+- [Learn about information architecture elements](#information-architecture-modeling-elements)
+- [Explore common information architecture models and scenarios](#common-models-for-navigation-design)
+- [Use the models and scenarios as a starting point for navigational design](#scenarios)
 
 ## Information architecture modeling elements
 
@@ -45,7 +45,7 @@ The way you organize sites and content will depend on the composition of your or
 
 Common methods of organizing navigational design:
 
-**By department**
+### By department
 
 ![Department roles](media/department.png)
 
@@ -55,7 +55,7 @@ Common methods of organizing navigational design:
 
 **Maintenance considerations** - As the business grows and departments and team move, you will need to update global, hub, and local navigation to reflect organizational changes. 
 
-**By geographic location**
+### By geographic location
 
 ![Geographic region](media/geographic_region.png)
 
@@ -65,7 +65,7 @@ Common methods of organizing navigational design:
 
 **Maintenance considerations** - When the organization moves locations, navigation will need to be updated to reflect those changes. There are other [multi-geo considerations](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365) to plan when enabling SharePoint, [Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups), and other Microsoft 365 apps globally. Multi-geo enables global businesses to control the country or region where shared resources like SharePoint Team Sites, Office 365 Groups content (associated SharePoint Sites and shared mailboxes) are stored and managed. 
 
-**By task or scenario**
+### By task or scenario
 
 ![Task or scenario](media/task.png)
 
@@ -75,7 +75,7 @@ Common methods of organizing navigational design:
 
 **Maintenance considerations** - When organizational information (leadership, locations, etc.) becomes outdated, navigation will need to be updated.
 
-**By portfolio**
+### By portfolio
 
 ![Organized by portfolio](media/portfolio.png)
 
@@ -114,7 +114,7 @@ Moving to modern navigation from classic SharePoint navigation is a process that
 
 ### Scenario 2: Consider modern hub navigation configuration
 
-![Modern hub navigation](media/modern_nav.png)
+![Modern hub navigation](media/modern_nav_example.png)
 
 These are special considerations for planning hub navigation. A site can be:
 

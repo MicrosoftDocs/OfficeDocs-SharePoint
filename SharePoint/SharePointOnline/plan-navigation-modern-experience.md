@@ -38,15 +38,15 @@ Instead, [hubs](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3
 This planning guide primarily addresses *site* navigation: the top (communication site and hubs) and left (team site) navigation experiences.
 
 **Communication site navigation**
-<br>
+
 ![Communication site navigation example:](media/comm-site-nav-example.png)
 
 **Team site navigation**
-<br>
+
 ![Team site navigation example:](media/team-site-nav-example.png)
 
 **Hub navigation**
-<br>
+
 ![Hub navigation example:](media/hub-nav-example.png)
 
 *"When we're observing customers carrying out tasks on websites we notice certain common patterns. For example, we find that when people arrive at a particular site they start by **navigating about 70% of the time**. When people get stuck navigating they may resort to using site search."* -- Gerry McGovern
