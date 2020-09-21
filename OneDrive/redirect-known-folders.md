@@ -79,7 +79,7 @@ To check eligibility, data volume, and item counts as you decide on a rollout pl
   
 - [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
     
-    Use this setting to redirect and move known folders to OneDrive without any user interaction. 
+    Use this setting to redirect and move known folders to OneDrive without any user interaction. Move all the folders or select the desired individual folders. After a folder is moved, the policy will not affect the folder again, even if the selection for the folder changes. 
 
     > [!NOTE]
     > You can choose to display a notification to users after their folders have been redirected. 
@@ -87,10 +87,8 @@ To check eligibility, data volume, and item counts as you decide on a rollout pl
     A number of errors can prevent this setting from taking effect, such as:
     - A file exceeds the maximum path length
     - The known folders aren't in the default locations
-    - A folder isn't selected for syncing
     - Folder protection is unavailable
     - Known folders are prohibited from being redirected
-
 
     For info about these errors, see [Fix problems with folder protection](https://support.office.com/article/d61a7930-a6fb-4b95-b28a-6552e77c3057#BKMK_FixProblems).
 
@@ -128,4 +126,3 @@ The OneDrive Known Folder Move Group Policy objects won't work if you previously
   1. Use a migration tool such as [Mover](https://docs.microsoft.com/sharepointmigration/mover-fileshare) or the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) to copy contents in the network file share location to a user's OneDrive, making sure that all contents go into the existing Documents, Pictures, or Desktop folders.
   2. Disable the Window Folder Redirection Group Policy and make sure to leave the folder and contents on the network file share. 
   3. Enable KFM Group Policy. Known folders move to OneDrive and will merge with the existing Desktop, Documents, and Pictures folders which contain all the file share content that you moved in the first step.
-
