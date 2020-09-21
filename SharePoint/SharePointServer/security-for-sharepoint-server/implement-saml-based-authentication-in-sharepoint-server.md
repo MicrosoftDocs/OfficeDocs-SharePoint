@@ -1,5 +1,5 @@
 ---
-title: "Implement SAML based authentication in SharePoint Server"
+title: "Implement federated authentication in SharePoint Server"
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -14,24 +14,183 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: 
-description: "Implement a Security Assertion Markup Language (SAML) security token for a Microsoft SharePoint claims-based web application."
+description: "Implement federated authentication in SharePoint Server."
 ---
 
-# Implement SAML authentication
+# Implement federated authentication
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]  
 
+## Enable remote access to SharePoint with Azure AD Application Proxy
 
-## Overview of SAML authentication ##
+This step-by-step guide explains how to configure federated authentication in SharePoint with Active Directory Federation Services (AD FS).
 
-In SAML claims mode, SharePoint Server accepts SAML tokens from a trusted external Security Token Provider (STS), often known as a claims provider trust. A user who attempts to log on is directed to an external claims provider (for example, the Windows Live ID claims provider), which authenticates the user and produces a SAML token. SharePoint Server accepts and processes this token, augmenting the claim and creating a claims identity object for the user.
+## Overview of federated authentication
+
+In federated authentication, SharePoint processes SAML tokens from a trusted external Security Token Service (STS). A user who attempts to log on is directed to that STS, which authenticates the user and produces a SAML token. SharePoint processes this token, uses it to create its own and authorize user to access the site.
+
+## Prerequisites
+
+To perform the configuration, you need the following resources:
+- A SharePoint 2013 farm or newer.
+- An AD FS farm version 2 or newer, already created, with the public key of the ADFS signing certificate exported in a .cer file
+
+This article uses the following values:
+- SharePoint site URL: `https://spsites.contoso.local/`
+- AD FS site URL: `https://adfs.contoso.local/adfs/ls/`
+- Realm (relying party identifier): `urn:contoso:spsites`
+- Identity claim type: `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress`
+- Role claim type: `http://schemas.microsoft.com/ws/2008/06/identity/claims/role`
+
+## Create a relying party in AD FS
+
+In this step, you create a relying party in your AD FS farm. The relying party will store the configuration required to work with SharePoint.
+
+On a AD FS server, start PowerShell and run the following script:
+
+```PowerShell
+### STEP 1: Create the relying party
+# Name of the Relying Party
+$name = "SPSites"
+# Unique identifier of the Relying Party (in SharePoint it's referred to as the realm)
+$identifier = "urn:contoso:spsites"
+# Authority that authenticates users
+$identityProvider = "Active Directory"
+# SharePoint URL where user is redirected upon successful authentication
+$redirectURL = "https://spsites.contoso.local/_trust/default.aspx"
+# Allow everyone to use for this relying party
+$allowEveryoneRule = '=> issue (Type = "http://schemas.microsoft.com/authorization/claims/permit", value = "true");'
+# Create the Relying Party
+Add-ADFSRelyingPartyTrust -Name $name -Identifier $identifier -ClaimsProviderName $identityProvider -Enabled $true -WSFedEndpoint $redirectURL -IssuanceAuthorizationRules $allowEveryoneRule -Confirm:$false
+
+### STEP 2: Add claim rules to the relying party
+# Rule below configured relying party to issue 2 claims in the SAML token: email and role
+$LDAPClaimsRule = @"
+@RuleTemplate = "LdapClaims"
+@RuleName = "AD"
+c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"]
+=> issue(
+store = "Active Directory", 
+types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress", "http://schemas.microsoft.com/ws/2008/06/identity/claims/role"), 
+query = ";mail,tokenGroups(fullDomainQualifiedName);{0}", 
+param = c.Value);
+"@
+# Apply the rule to the Relying Party
+Set-ADFSRelyingPartyTrust -TargetName $name -IssuanceTransformRules $LDAPClaimsRule 
+```
+
+When the script completes, the relying party in AD FS should look like this:
+
+
+
+## Configure SharePoint to trust ADFS
+
+In this step you create a SPTrustedLoginProvider that will store the configuration that SharePoint needs to trust AD FS.
+
+```PowerShell
+# One-time prerequisite: Add the issuer of AD FS signing certificate to the SPTrustedRootAuthority store
+$rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing issuer.cer")
+New-SPTrustedRootAuthority -Name "Proseware.com root authority" -Certificate $rootCert
+
+# Define claim types
+$email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
+$role = New-SPClaimTypeMapping "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" -IncomingClaimTypeDisplayName "Role" -SameAsIncoming
+
+# Get the public key of the AD FS signing certificate
+$signingCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing.cer")
+# Set the realm
+$realm = "urn:contoso:spsites"
+# Set the ADFS URL where users are redirected to authenticate
+$signinurl = "https://adfs.contoso.local/adfs/ls/" 
+
+# Create a new SPTrustedIdentityTokenIssuer in SharePoint
+New-SPTrustedIdentityTokenIssuer -Name "Proseware" -Description "Proseware" -Realm $realm -ImportTrustCertificate $signingCert -ClaimsMappings $email,$role -SignInUrl $signinurl -IdentifierClaim $email.InputClaimType
+```
+
+
+
+
+
+
+### Configure the SharePoint web application
+
+In this step you will configure a web application in SharePoint to federate the authentication with the AD FS, using the SPTrustedLoginProvider that was created above.
+
+There are some rules to re
+
+- Default zone of the SharePoint web application must have Windows authentication enabled. This is requires
+- SharePoint URL that will use AD FS federation must be be HTTPS
+
+- If you create a new web application and use only the Default zone (so the zone will use both AD FS and Windows authentication):
+
+    1. Start the **SharePoint Management Shell** and run the following script:
+
+       ```powershell
+       # This script creates a web application and configures the Default zone with the internal/external URL needed to work with Azure AD Application Proxy
+       # Edit variables below to fit your environment. Note that the managed account must exist and it must be a domain account
+       $internalUrl = "https://sharepoint"
+       $externalUrl = "https://spsites-demo1984.msappproxy.net/"
+       $applicationPoolManagedAccount = "Contoso\spapppool"
+            
+       $winAp = New-SPAuthenticationProvider -UseWindowsIntegratedAuthentication -DisableKerberos:$false
+       $wa = New-SPWebApplication -Name "SharePoint - AAD Proxy" -Port 443 -SecureSocketsLayer -URL $externalUrl -ApplicationPool "SharePoint - AAD Proxy" -ApplicationPoolAccount (Get-SPManagedAccount $applicationPoolManagedAccount) -AuthenticationProvider $winAp
+       New-SPAlternateURL -Url $internalUrl -WebApplication $wa -Zone Default -Internal
+       ```
+
+    2. Open the **SharePoint Central Administration** site.
+    1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
+    1. Filter the display with the new web application and confirm that you see something like this:
+
+       ![Alternate Access Mappings of web application](./media/application-proxy-integrate-with-sharepoint-server/new-webapp-aam.png)
+
+- If you extend an existing web application to a new zone (so the zone will use only AD FS authentication):
+
+    1. Start the SharePoint Management Shell and run the following script:
+
+       ```powershell
+       # This script extends an existing web application to Internet zone with the internal/external URL needed to work with Azure AD Application Proxy
+       # Edit variables below to fit your environment
+       $webAppUrl = "http://spsites/"
+       $internalUrl = "https://sharepoint"
+       $externalUrl = "https://spsites-demo1984.msappproxy.net/"
+       
+       $winAp = New-SPAuthenticationProvider -UseWindowsIntegratedAuthentication -DisableKerberos:$false
+       $wa = Get-SPWebApplication $webAppUrl
+       New-SPWebApplicationExtension -Name "SharePoint - AAD Proxy" -Identity $wa -SecureSocketsLayer -Zone Extranet -Url $externalUrl -AuthenticationProvider $winAp
+       New-SPAlternateURL -Url $internalUrl -WebApplication $wa -Zone Extranet -Internal
+       ```
+
+    2. Open the **SharePoint Central Administration** site.
+    1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
+    1. Filter the display with the web application that was extended and confirm that you see something like this:
+
+        ![Alternate Access Mappings of extended application](./media/application-proxy-integrate-with-sharepoint-server/extend-webapp-aam.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Concepts and terminology ##
 To understand the concepts and terminology that are used in SAML-based authentication, see [Authentication Overview](https://docs.microsoft.com/sharepoint/security-for-sharepoint-server/authentication-overview).
 
 
-## SharePoint Server with Active Directory Federation Services 2.0 ##
 
-This section describes how to configure Active Directory Federation Services (AD FS) to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint Server web application. In this configuration, AD FS issues SAML-based security tokens consisting of claims so that client computers can access web applications that use claims-based authentication.
+
+
+
+
+## SharePoint Server with Active Directory Federation Services ##
+
+This section describes how to configure Active Directory Federation Services (AD FS) to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint web application. In this configuration, AD FS issues SAML 1.1 security tokens that will be processed by SharePoint.
 
 ## Configure a SharePoint web application for SAML authentication ##
 
