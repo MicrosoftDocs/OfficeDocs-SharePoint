@@ -27,6 +27,8 @@ The most effective SharePoint sites help viewers find what they need quickly so 
 
 Even when search is available, most viewers start their web experiences by browsing. That pattern persists on internal web sites as well. Good navigation experiences present viewers with a complete picture of what is available, and combined with the home page, provide a comprehensive "story."
 
+**In this article:**
+
 - [Understand basic information architecture principals](#get-organized)
 - [Learn more about how to write effective labels and links](#write-clear-and-intuitive-labels)
 - [See how to ensure frequently used tools and content are findable](#test-usability-and-findability-with-real-users)

@@ -23,9 +23,11 @@ description: "Learn how to organize and label your content and how your visitors
 
 # Introduction to SharePoint information architecture
 
-Well-planned and executed information architecture is a prerequisite for an intelligent and high-performing intranet, hub, or site. Good information architecture helps people find what they need to complete tasks in a way that makes sense to them. Great information architecture helps improve user adoption, satisfaction, and productivity while reducing IT costs, information overload, and minimize compliance and security risks
+Well-planned and executed information architecture is a prerequisite for an intelligent and high-performing intranet, hub, or site. The most important first step in planning an effective information architecture is understanding your users and helping them find what they need to complete tasks in a way that makes the most sense to them. 
 
-The most important step in planning an effective information architecture is understanding your users:
+Information architecture also helps improve user adoption, satisfaction, and productivity while reducing IT costs, information overload, and minimize compliance and security risks. 
+
+**In this article:**
 
 - [Learn the main elements of information architecture](#information-architecture-elements-in-sharepoint)
 - [Review the different roles involved in implementing information architecture](#understand-your-role-and-how-to-collaborate)
@@ -204,7 +206,7 @@ Since we know that most readers do not read every word on a web page or even scr
 
 [Audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) - Audience targeting helps the most relevant content get to the right audiences. By enabling audience targeting, specific content will be prioritized to specific audiences through SharePoint web parts, page libraries, and navigational links.
 
-![SharePoint hubs](media/personalize_ elements.png)
+![SharePoint hubs](media/personalize_elements.png)
 
 [Information barriers](https://docs.microsoft.com/sharepoint/information-barriers) - Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government.
 
