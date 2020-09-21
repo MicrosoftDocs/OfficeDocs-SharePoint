@@ -1,5 +1,5 @@
 ---
-title: "Enable conditional access support in the OneDrive sync app for Windows"
+title: "Enable conditional access support in the OneDrive sync app"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -20,10 +20,10 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 028d73d7-4b86-4ee0-8fb7-9a209434b04e
-description: "In this article, you'll learn how to enable conditional access in the new OneDrive sync app for Windows."
+description: "In this article, you'll learn how to enable conditional access in the new OneDrive sync app."
 ---
 
-# Enable conditional access support in the OneDrive sync app for Windows
+# Enable conditional access support in the OneDrive sync app
 
 Conditional access control capabilities in Azure Active Directory offer simple ways for you to secure resources in the cloud. The new OneDrive sync app works with the conditional access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance as defined by the Mobile Device Management system (like Intune).
   
@@ -34,10 +34,12 @@ For information about how conditional access works, see:
 - [Require managed devices for cloud app access with conditional access](/azure/active-directory/conditional-access/require-managed-devices)
     
 - [Configure hybrid Azure Active Directory join for managed domains](/azure/active-directory/devices/hybrid-azuread-join-managed-domains)
-    
-## Recommendations
 
-We recommend using this feature together with [silent account configuration](use-silent-account-configuration.md) for the best experience. The OneDrive sync app will automatically use ADAL, and will support both device-based and location-based conditional access policies.
+- [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices/block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive)
+    
+## Recommendations for Windows
+
+We recommend using this feature on Windows together with [silent account configuration](use-silent-account-configuration.md) for the best experience. The OneDrive sync app will automatically use ADAL, and will support both device-based and location-based conditional access policies.
 
 If you don't use silent account configuration, set the EnableADAL registry key:
 
@@ -66,14 +68,8 @@ Please let us know if you run into any problems while using this release.
   
  **To report a problem**
   
-1. Right-click the blue OneDrive cloud icon in the Windows taskbar notification area.
+1. Right-click the blue OneDrive cloud icon in the Windows taskbar notification area or macOS menu bar.
     
 2. Click **Get help**.
     
 3. Type a brief description of your issue, and then click **Submit**. 
-    
-## See also
-
-[Deploy the new OneDrive sync app](deploy-on-windows.md)
-  
-[Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
