@@ -89,59 +89,88 @@ SilentAccountConfig creates a SilentBusinessConfigCompleted registry entry once 
 
 If SilentAccountConfig has successfully completed on a machine you're going to use as your master for building a Windows deployment image (i.e. SysPrep), you need to ensure this registry key is removed before you prepare your image. You can do so by running the following command:
 
-        reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
+```console
+reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
+```
 
 <a name="VerifySilentAccountConfig"></a>
 ## Verify SilentAccountConfig
 
 ### Instructions for SharePoint Online (SPO):
 1. Unlink all pre-existing Business instances in OneDrive.
+
 2. Clear the registry of any previous successful Silent Business Config runs:
 
-        reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
+   ```console
+   reg delete HKCU\Software\Microsoft\OneDrive /v SilentBusinessConfigCompleted /f
+   ```
 
 3. Set the Silent Config policy registry entry (must be run from an administrator CMD window):
 
-        reg add HKLM\SOFTWARE\Policies\Microsoft\OneDrive /v SilentAccountConfig /t REG_DWORD /d 0x1 /f
+   ```console
+   reg add HKLM\SOFTWARE\Policies\Microsoft\OneDrive /v SilentAccountConfig /t REG_DWORD /d 0x1 /f
+   ```
 
 4. Sign out of Windows (Ctrl+Alt+Delete Sign Out).
+
 5. Sign into Windows.
+
 6. Shortly you should see a blue cloud tray icon. Clicking on the blue cloud tray icon should show the activity center pop-up showing ongoing/recent activity from the first sync. If so, SilentAccountConfig has worked correctly.
+
 7. If instead, you see the "Set up OneDrive" first run wizard dialog, SilentAccountConfig was unable to silently sign in or failed for another reason. Verify you have completed these steps correctly by repeating them again. Perform the [Verify Single Sign On (SSO)](use-silent-account-configuration.md#VerifySSO) steps below to confirm that SSO is not a problem. Gather sync client logs to send to the engineering team for further help.
  
 ### Instructions for On-Premises SharePoint 2019+ Server:
+
 1. Ensure you can manually get the OneDrive sync client to sync content with your on-premises SharePoint 2019 Server before proceeding. See [Configure sync app for syncing with SharePoint Server](/sharepoint/install/new-onedrive-sync-client) for details.
+
 2. Set the SharePointOnPremPrioritization reg key value to 1 (this will ensure on-premises takes precedence over SPO, deleting the reg key to revert to SPO):
 
-        reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive /v SharePointOnPremPrioritization /t REG_DWORD /d 0x1 /f
+   ```console
+   reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive /v SharePointOnPremPrioritization /t REG_DWORD /d 0x1 /f
+   ```
 
 3. Follow steps 1 through 6 in the SPO instructions above.
+
 4. If instead, you see the "Set up OneDrive" first run wizard dialog, SilentAccountConfig was unable to silently sign in or failed for another reason. Verify you have completed these steps correctly by repeating them again. Gather sync client logs to send to the engineering team for further help.
 
 ### To prevent Silent Business Config:
 
-    reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive /v SilentAccountConfig /f
+```console
+reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive /v SilentAccountConfig /f
+```
 
 <a name="VerifySSO"></a>
 ## Verify that Single Sign On (SSO) is working
 
 The most common reason for SilentAccountConfig to fail is the credentials are not available to OneDrive.exe without user interaction. Proceed with these instructions to determine if this is a problem in your case.
 
-If you have a machine you think should work with SilentAccountConfig you can manually verify that SSO is working correctly to ensure that the environment is configured correctly. 
+If you have a machine you think should work with SilentAccountConfig you can manually verify that SSO is working correctly to ensure that the environment is configured correctly.
+ 
 1. Temporarily force ADAL on by running this command:
 
-        reg add HKCU\Software\Microsoft\OneDrive /v EnableADAL /t REG_DWORD /d 1 /f
+   ```console
+   reg add HKCU\Software\Microsoft\OneDrive /v EnableADAL /t REG_DWORD /d 1 /f
+   ```
 
 2. Shut down any running OneDrive.exe processes (verify in the Task Manager Details tab - Ctrl+Shift+Esc).
-3. Start menu - OneDrive, you should see the "Set up OneDrive" dialog (if not unlink/stop syncing any business accounts and start over).
+
+3. Start menu - OneDrive, you should see the **Set up OneDrive** dialog (if not unlink/stop syncing any business accounts and start over).
+
 4. Enter the same email address that the user used to sign into Windows (try alias@domain and domain\alias forms).
-5. Click the "Sign In" button on the dialog.
-6. The dialog should switch to a “signing in” page with a spinning icon for a few seconds. It should then proceed to the next part of the wizard without asking for a password.
+
+5. Click the **Sign In** button on the dialog.
+
+6. The dialog should switch to a "signing in" page with a spinning icon for a few seconds. It should then proceed to the next part of the wizard without asking for a password.
+
 7. If you do not get a password prompt, congratulations, your auth environment is properly configured and SilentAccountConfig should work for your users.
+
 8. If you do see a password prompt, the environment is not configured properly for silent sign on.  This could be due to a problem with how the machine is domain joined (for example, a trust relationship problem), a problem with ADFS configuration, an AAD CA policy requiring user interaction, you didn't provide the same user email address as the one used to sign into Windows, or some other reason.  You will need to resolve whatever is blocking silent sign on before SilentAccountConfig will work for you.
+
 9. Remove the EnableADAL key you added in step 1:
 
-        reg delete HKCU\Software\Microsoft\OneDrive /v EnableADAL /f
+   ```console
+   reg delete HKCU\Software\Microsoft\OneDrive /v EnableADAL /f
+   ```
 
 > [!NOTE]
 > When using SilentAccountConfig, you do not need to specify EnableADAL=1.  This is only necessary when manually testing SSO in the above steps where we manually sign in (instead of using SilentAccountConfig to sign in).  However, if you want users who manually set up OneDrive sync to benefit from SSO to minimize how often they need to enter a password in sync, you can deploy the EnableADAL key on your users' computers.
