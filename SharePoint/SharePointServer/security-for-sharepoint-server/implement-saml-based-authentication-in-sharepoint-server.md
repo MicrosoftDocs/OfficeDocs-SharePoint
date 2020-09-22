@@ -155,7 +155,7 @@ There are some rules to re
     1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
     1. Filter the display with the new web application and confirm that you see something like this:
 
-       ![Alternate Access Mappings of web application](./media/application-proxy-integrate-with-sharepoint-server/new-webapp-aam.png)
+       ![Alternate Access Mappings of web application](./media/SharePointTrustedAuthN_AAM1ZoneWebapp.png)
 
 - If you extend an existing web application to set AD FS authentication on a new zone:
 
@@ -200,6 +200,18 @@ Because the SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`
 1. In the TLS/SSL certificate field, choose **spsites.contoso.local** certificate and then select **OK**.
 
 
+### Create the site collection
+
+2. Open the **SharePoint Central Administration** site.
+1. Under **Application Management**, select **Create site collections**. The **Create site collections** page opens.
+1. Type a **Title**, **Url**, and select the template **Team Site**.
+1. In the **Primary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
+1. In the people picker dialog, type the Windows administrator account
+1. On the left, filter by In the people picker dialog, type the Windows administrator account
+
+1. In the **Secondary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
+1. In the people picker dialog, type the exact email value of the AD FS administrator account, for example `yvand@contoso.local`
+1. On the left, select **EmailAddress** under **Contoso.local**
 
 
 
