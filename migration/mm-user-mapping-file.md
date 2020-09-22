@@ -27,7 +27,7 @@ This article shows how to create a user-mapping file to use with Migration Manag
   
 ## Create a user-mapping file for data content migration
 
-A default user-mapping file is used when migrating your data from a local or network file share. You can also create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
+Migration Manager uses a default user-mapping file when migrating your file shares, however, you can choose to create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
   
  **CSV file format**
 
