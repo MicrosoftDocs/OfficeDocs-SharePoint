@@ -22,14 +22,12 @@ description: "Create a user-mapping file for data content migration when using M
 
 # Create a user-mapping file for data content migration in Migration Manager
 
-This article shows how to create a user-mapping file to use with Migration Manager.
-  
-Migration Manager migrates your files from on-premises file shares and move them to Microsoft 365.
+This article shows how to create a user-mapping file to use with Migration Manager.  Use Migration Manager to migrate your files shares to Microsoft 365.
   
   
 ## Create a user-mapping file for data content migration
 
-A default user-mapping file is used when migrating your data from a local file share or an on-premises SharePoint Server document library. You can also create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
+A default user-mapping file is used when migrating your data from a local or network file share. You can also create your own using the following guidelines. Use any text editor, or an application like Excel, to create the CSV file.
   
  **CSV file format**
 
