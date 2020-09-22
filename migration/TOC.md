@@ -111,6 +111,7 @@
 ####  Mover Troubleshooting
 ##### [Post-migration troubleshooting](mover-post-migration-troubleshooting.md)
 ##### [Transfer logs](mover-transfer-logs.md)
+##### [Transfer status codes](mover-transfer-status-codes.md)
 ##### [Error messages](mover-error-faq.md)
 ##### [Account FAQ](mover-account-faq.md)
 ##### [Mover Migration FAQ](mover-migration-faq.md)
