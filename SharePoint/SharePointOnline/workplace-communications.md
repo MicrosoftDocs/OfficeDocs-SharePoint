@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "In this article, you'll learn how to leverage apps accross M365 to engage audiences in workplace communication."
+description: "In this article, you'll learn how to leverage apps across M365 to engage audiences in workplace communication."
 ---
 # Engage audiences with workplace communication
 
@@ -109,7 +109,7 @@ Technology allows for a much broader reach across the globe and can be used to k
 ![Image of the SharePoint new employee onboarding template](media/corp-comms-neo.png)
 
 -	**Welcome new team members** – Provision the [New employee onboarding template](https://lookbook.microsoft.com/details/75e60a32-9849-4ed4-b83e-b2b08983ad19) to create a welcoming and inclusive environment for new team members.
--	**Keep the conversation going with Yammer** – The {Yammer conversations or highlights web parts}(https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us#:~:text=Use%20a%20Yammer%20web%20part%20in%20SharePoint%20Online,Known%20Issues%20with%20the%20Conversations%20web%20part.%20) enable dynamic communication channels where you need them most. When users post questions and get answers, other users can view responses and benefit from past conversations stored in Yammer.
+-	**Keep the conversation going with Yammer** – The [Yammer conversations or highlights web parts](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us#:~:text=Use%20a%20Yammer%20web%20part%20in%20SharePoint%20Online,Known%20Issues%20with%20the%20Conversations%20web%20part.%20) enable dynamic communication channels where you need them most. When users post questions and get answers, other users can view responses and benefit from past conversations stored in Yammer.
 -	**Personalize the viewing experience** – Make sure viewers get what they need when they need it by using [audience targeting to personalize the experience](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) for viewers across navigational links, pages, and news posts.
 -	**Provide multiple language options** - Use [multilingual communication sites and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c) if your organization spans a diverse population to make content in your intranet sites available in multiple languages. User interface elements like site navigation, site title, and site description can be shown in the user's preferred language. Additionally, you can provide pages and news posts on communication sites that you translate and that are shown in the user's preferred language.
 
