@@ -52,7 +52,7 @@ The following example uses Excel to create the CSV file.
     
  **Upload your user-mapping file to Migration Manager**
   
-After you create your own user-mapping file, upload it to the SharePoint Migration tool.
+After you create your own user-mapping file, upload it to Migration Manager in the SharePoint Admin Center.
   
 1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
