@@ -45,6 +45,8 @@
 ### [Create hub site](create-hub-site.md)
 ### [Remove hub site](remove-hub-site.md)
 ### [Set up site design](set-up-site-design-hub-site.md)
+## [Lists]()
+### [Control Microsoft Lists](control-lists.md)
 ## [Sample sites]()
 ### [Add a sample site to your tenant](add-sample-site.md)
 ### [Add the New Employee Onboarding hub to your tenant](provision-neo-hub.md)
