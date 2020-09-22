@@ -43,7 +43,7 @@ This article uses the following values:
 
 ## Create a relying party in AD FS
 
-In this step, you create a relying party in your AD FS farm. The relying party will store the configuration required to work with SharePoint.
+In this step, you create a relying party in AD FS. The relying party will store the configuration required to work with SharePoint, and the claim rules that define what claims will be added to the SAML token upon successful authentication.
 
 On a AD FS server, start PowerShell and run the following script:
 
@@ -57,7 +57,7 @@ $identifier = "urn:contoso:spsites"
 $identityProvider = "Active Directory"
 # SharePoint URL where user is redirected upon successful authentication
 $redirectURL = "https://spsites.contoso.local/_trust/default.aspx"
-# Allow everyone to use for this relying party
+# Allow everyone to use this relying party
 $allowEveryoneRule = '=> issue (Type = "http://schemas.microsoft.com/authorization/claims/permit", value = "true");'
 # Create the Relying Party
 Add-ADFSRelyingPartyTrust -Name $name -Identifier $identifier -ClaimsProviderName $identityProvider -Enabled $true -WSFedEndpoint $redirectURL -IssuanceAuthorizationRules $allowEveryoneRule -Confirm:$false
@@ -75,41 +75,55 @@ query = ";mail,tokenGroups(fullDomainQualifiedName);{0}",
 param = c.Value);
 "@
 # Apply the rule to the Relying Party
-Set-ADFSRelyingPartyTrust -TargetName $name -IssuanceTransformRules $LDAPClaimsRule 
+Set-ADFSRelyingPartyTrust -TargetName $name -IssuanceTransformRules $LDAPClaimsRule
 ```
 
 When the script completes, the relying party in AD FS should look like this:
 
-
+    ![ADFS Relying Party](./media/SharePointTrustedAuthN_ADFSRelyingParty.png)
 
 ## Configure SharePoint to trust ADFS
 
 In this step you create a SPTrustedLoginProvider that will store the configuration that SharePoint needs to trust AD FS.
+Start the **SharePoint Management Shell** and run the following script to create it:
 
 ```PowerShell
-# One-time prerequisite: Add the issuer of AD FS signing certificate to the SPTrustedRootAuthority store
-$rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing issuer.cer")
-New-SPTrustedRootAuthority -Name "Proseware.com root authority" -Certificate $rootCert
-
 # Define claim types
 $email = New-SPClaimTypeMapping "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
 $role = New-SPClaimTypeMapping "http://schemas.microsoft.com/ws/2008/06/identity/claims/role" -IncomingClaimTypeDisplayName "Role" -SameAsIncoming
 
-# Get the public key of the AD FS signing certificate
+# Public key of the AD FS signing certificate
 $signingCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing.cer")
-# Set the realm
+# Unique realm (corresponds to the unique identifier of the AD FS Relying Party)
 $realm = "urn:contoso:spsites"
-# Set the ADFS URL where users are redirected to authenticate
-$signinurl = "https://adfs.contoso.local/adfs/ls/" 
+# Set the AD FS URL where users are redirected to authenticate
+$signinurl = "https://adfs.contoso.local/adfs/ls/"
 
 # Create a new SPTrustedIdentityTokenIssuer in SharePoint
-New-SPTrustedIdentityTokenIssuer -Name "Proseware" -Description "Proseware" -Realm $realm -ImportTrustCertificate $signingCert -ClaimsMappings $email,$role -SignInUrl $signinurl -IdentifierClaim $email.InputClaimType
+New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.local" -Realm $realm -ImportTrustCertificate $signingCert -ClaimsMappings $email,$role -SignInUrl $signinurl -IdentifierClaim $email.InputClaimType
 ```
 
+Then, the relevant certificate must be added to the SharePoint root authority certificate store. There are 2 possible options:
 
+- If the ADFS signing certificate is issued by a certificate authority (best practice for security reasons)
 
+The public key of the issuer's certificate (and all the intermediates) must be added to the store:
+Start the **SharePoint Management Shell** and run the following script to add it:
 
+```PowerShell
+$rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing issuer.cer")
+New-SPTrustedRootAuthority -Name "adfs.contoso.local signing root authority" -Certificate $rootCert
+```
 
+- If the ADFS signing certificate is a self-signed certificate (not recommended for security reasons)
+
+The public key of the ADFS signing certificate itself must be added to the store:
+Start the **SharePoint Management Shell** and run the following script to add it:
+
+```PowerShell
+$rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("C:\Data\Claims\ADFS Signing.cer")
+New-SPTrustedRootAuthority -Name "adfs.contoso.local signing certificate" -Certificate $rootCert
+```
 
 ### Configure the SharePoint web application
 
@@ -120,21 +134,22 @@ There are some rules to re
 - Default zone of the SharePoint web application must have Windows authentication enabled. This is requires
 - SharePoint URL that will use AD FS federation must be be HTTPS
 
-- If you create a new web application and use only the Default zone (so the zone will use both AD FS and Windows authentication):
+- If you create a new web application and use both Windows and AD FS authentication in the Default zone:
 
     1. Start the **SharePoint Management Shell** and run the following script:
 
-       ```powershell
-       # This script creates a web application and configures the Default zone with the internal/external URL needed to work with Azure AD Application Proxy
-       # Edit variables below to fit your environment. Note that the managed account must exist and it must be a domain account
-       $internalUrl = "https://sharepoint"
-       $externalUrl = "https://spsites-demo1984.msappproxy.net/"
-       $applicationPoolManagedAccount = "Contoso\spapppool"
-            
-       $winAp = New-SPAuthenticationProvider -UseWindowsIntegratedAuthentication -DisableKerberos:$false
-       $wa = New-SPWebApplication -Name "SharePoint - AAD Proxy" -Port 443 -SecureSocketsLayer -URL $externalUrl -ApplicationPool "SharePoint - AAD Proxy" -ApplicationPoolAccount (Get-SPManagedAccount $applicationPoolManagedAccount) -AuthenticationProvider $winAp
-       New-SPAlternateURL -Url $internalUrl -WebApplication $wa -Zone Default -Internal
-       ```
+        ```powershell
+        # This script creates a new web application and sets Windows and AD FS authentication on the Default zone
+        # URL of the SharePoint site federated with ADFS
+        $trustedSharePointSiteUrl = "https://spsites.contoso.local/"
+        $applicationPoolManagedAccount = "Contoso\spapppool"
+
+        $winAp = New-SPAuthenticationProvider -UseWindowsIntegratedAuthentication -DisableKerberos:$true
+        $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+        $trustedAp = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
+
+        New-SPWebApplication -Name "SharePoint - ADFS on contoso.local" -Port 443 -SecureSocketsLayer -URL $trustedSharePointSiteUrl -ApplicationPool "SharePoint - ADFS on contoso.local" -ApplicationPoolAccount (Get-SPManagedAccount $applicationPoolManagedAccount) -AuthenticationProvider $winAp, $trustedAp
+        ```
 
     2. Open the **SharePoint Central Administration** site.
     1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
@@ -142,33 +157,47 @@ There are some rules to re
 
        ![Alternate Access Mappings of web application](./media/application-proxy-integrate-with-sharepoint-server/new-webapp-aam.png)
 
-- If you extend an existing web application to a new zone (so the zone will use only AD FS authentication):
+- If you extend an existing web application to set AD FS authentication on a new zone:
 
     1. Start the SharePoint Management Shell and run the following script:
 
-       ```powershell
-       # This script extends an existing web application to Internet zone with the internal/external URL needed to work with Azure AD Application Proxy
-       # Edit variables below to fit your environment
-       $webAppUrl = "http://spsites/"
-       $internalUrl = "https://sharepoint"
-       $externalUrl = "https://spsites-demo1984.msappproxy.net/"
-       
-       $winAp = New-SPAuthenticationProvider -UseWindowsIntegratedAuthentication -DisableKerberos:$false
-       $wa = Get-SPWebApplication $webAppUrl
-       New-SPWebApplicationExtension -Name "SharePoint - AAD Proxy" -Identity $wa -SecureSocketsLayer -Zone Extranet -Url $externalUrl -AuthenticationProvider $winAp
-       New-SPAlternateURL -Url $internalUrl -WebApplication $wa -Zone Extranet -Internal
-       ```
+        ```powershell
+        # This script extends an existing web application to set AD FS authentication on a new zone
+        # URL of the default zone of the web application
+        $webAppDefaultZoneUrl = "http://spsites/"
+        # URL of the SharePoint site federated with ADFS
+        $trustedSharePointSiteUrl = "https://spsites.contoso.local/"
+
+        $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
+        $ap = New-SPAuthenticationProvider -TrustedIdentityTokenIssuer $sptrust
+        $wa = Get-SPWebApplication $webAppDefaultZoneUrl
+        New-SPWebApplicationExtension -Name "SharePoint - ADFS on contoso.local" -Identity $wa -SecureSocketsLayer -Zone Intranet -Url $trustedSharePointSiteUrl -AuthenticationProvider $ap
+        ```
 
     2. Open the **SharePoint Central Administration** site.
     1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
     1. Filter the display with the web application that was extended and confirm that you see something like this:
 
-        ![Alternate Access Mappings of extended application](./media/application-proxy-integrate-with-sharepoint-server/extend-webapp-aam.png)
+        ![Alternate Access Mappings of extended application](./media/SharePointTrustedAuthN_AAMExtendedWebapp.png)
 
+### Make sure that an HTTPS certificate is configured for the SharePoint site federated with AD FS
 
+Because the SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`), a certificate must be set on the Internet Information Services (IIS) site.
 
+1. Open the Windows PowerShell console.
+1. Run the following script to generate a self-signed certificate and add it to the computer's MY store:
 
+   ```powershell
+   New-SelfSignedCertificate -DnsName "spsites.contoso.local" -CertStoreLocation "cert:\LocalMachine\My"
+   ```
 
+   > [!IMPORTANT]
+   > Self-signed certificates are suitable only for test purposes. In production environments, we strongly recommend that you use certificates issued by a certificate authority instead.
+
+1. Open the Internet Information Services Manager console.
+1. Expand the server in the tree view, expand **Sites**, select the **SharePoint - ADFS on contoso.local** site, and select **Bindings**.
+1. Select **https binding** and then select **Edit**.
+1. In the TLS/SSL certificate field, choose **spsites.contoso.local** certificate and then select **OK**.
 
 
 
