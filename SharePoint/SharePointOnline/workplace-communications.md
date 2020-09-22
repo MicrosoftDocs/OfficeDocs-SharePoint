@@ -60,7 +60,7 @@ Your organization’s goals and M365 configuration will determine how you levera
 **Stream** – If you don’t want viewers to watch the event in either application, you can use [Stream](https://docs.microsoft.com/stream/live-event-overview).
 
 
-## How to decide which app is best for your live event:
+## How to decide which app is best for your live event
 
 There are other considerations besides tenant configuration that will determine which apps you select depending on the level of engagement desired and governance policy of your organization. Depending on which service you create the live event from, and the type of event, there will be a different set of features available as the producer, presenter, and viewer of the live event. 
 
@@ -102,7 +102,7 @@ Use SharePoint to create a place for your organization to share news from leader
  
 In this example you’ll see a great way to leverage recordings of live events on a SharePoint page. Showcase recordings on a page using the [Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b). Then, create a list of links to previous recordings using the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82). Consider adding the [Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) to your leadership site to share upcoming company-wide events with all employees.
 
-### Create a culture of inclusion
+## Create a culture of inclusion
 
 Technology allows for a much broader reach across the globe and can be used to keep organizations connected. Leverage live event to foster a culture of inclusion that ensures all employees can participate in opportunities to network with each other, engage in collaborative discussions, and connect to leadership. See how you can leverage M365 live event features and other communication channels into SharePoint pages to boost reach and viewership for important content.
 
