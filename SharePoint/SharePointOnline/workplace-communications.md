@@ -106,7 +106,52 @@ In this example you’ll see a great way to leverage recordings of live events o
 
 Technology allows for a much broader reach across the globe and can be used to keep organizations connected. Leverage live event to foster a culture of inclusion that ensures all employees can participate in opportunities to network with each other, engage in collaborative discussions, and connect to leadership. See how you can leverage M365 live event features and other communication channels into SharePoint pages to boost reach and viewership for important content.
 
-![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
+![Image of the SharePoint new employee onboarding template](media/corp-comms-neo.png)
+
+-	**Welcome new team members** – Provision the [New employee onboarding template](https://lookbook.microsoft.com/details/75e60a32-9849-4ed4-b83e-b2b08983ad19) to create a welcoming and inclusive environment for new team members.
+-	**Keep the conversation going with Yammer** – The {Yammer conversations or highlights web parts}(https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da?ui=en-us&rs=en-us&ad=us#:~:text=Use%20a%20Yammer%20web%20part%20in%20SharePoint%20Online,Known%20Issues%20with%20the%20Conversations%20web%20part.%20) enable dynamic communication channels where you need them most. When users post questions and get answers, other users can view responses and benefit from past conversations stored in Yammer.
+-	**Personalize the viewing experience** – Make sure viewers get what they need when they need it by using [audience targeting to personalize the experience](https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) for viewers across navigational links, pages, and news posts.
+-	**Provide multiple language options** - Use [multilingual communication sites and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c) if your organization spans a diverse population to make content in your intranet sites available in multiple languages. User interface elements like site navigation, site title, and site description can be shown in the user's preferred language. Additionally, you can provide pages and news posts on communication sites that you translate and that are shown in the user's preferred language.
+
+
+## Streamline workplace communication
+
+Across M365 there are multiple ways to communicate – between email, Teams persistent chat, Yammer conversations – there are plenty of options. Knowing which method to use depends on the communication culture of your organization. It's important to meet viewers where they are. Use established communication channels to connect users across apps to promote collaboration and engagement. 
+
+### Organizational news
+
+Create and share news fast using SharePoint out-of-the-box news post features quick layout options and web parts that dynamically roll-up news across sites. Learn more about how to [create and share news in SharePoint](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7). Use the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165) on SharePoint sites and hub pages to share news sources across your organization’s intranet. Finally, [create and send a news digest](https://support.microsoft.com/office/create-and-send-a-news-digest-42efc3c6-605f-4a9a-85d5-1f9ff46019bf) for newsletter style messaging that can be shared in an email or Teams channel message.
+
+### Maintain high-quality content in SharePoint 
+
+Understand how users are consuming content, what devices are typically used, and what content is popular using by [viewing usage data for your SharePoint site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e). Use content insights to make adjustments to your organization’s communication strategy. For example, if you learn that most users are reading news on a mobile device in the evening, you can make a point to post news in the evenings.
+
+Make it easy for users to follow your organization’s site usage and creation guidelines by streamlining site and page designs in SharePoint. Templates ensure a consistent design and navigational experience across your intranet and help users create sites faster. Learn more about [creating page templates in SharePoint](https://support.microsoft.com/office/page-templates-in-sharepoint-faa92408-0c84-4e3d-8460-3c28065e7873).
+
+
+### Add resources to Teams
+
+Meet users where they are. If you are already using Teams, there are many options to share content across apps in Teams by adding resources as tabs in Teams or sharing a message in a channel. [Add a SharePoint page or list as a tab in Teams](https://support.microsoft.com/office/add-a-sharepoint-page-or-list-to-a-channel-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b) or add a [Yammer page as a tab in Teams](https://support.microsoft.com/office/new-yammer-add-a-yammer-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528) to keep content and communication for specific departments, teams, or projects in one place. Make sure important messages get to the right audiences by [sending an email to a Teams channel](https://support.microsoft.com/office/send-an-email-to-a-channel-in-teams-d91db004-d9d7-4a47-82e6-fb1b16dfd51e) or by [sending an announcement to a Teams channel}(https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992). Finally, bring your organization's intranet closer to resources in Teams by [creating an intranet portal app from a SharePoint site or page](https://docs.microsoft.com/microsoftteams/teams-standalone-static-tabs-using-spo-sites).
+
+
+### More workplace communication resources:
+
+[IT roundtable: Migrating from Skype meeting broadcasts to live events across M365 apps](https://www.microsoft.com/itshowcase/it-expert-roundtable-migrating-to-live-events-in-microsoft-365-from-skype-meeting-broadcast)
+[How leaders can bring employees together during COVID-19](https://www.microsoft.com/microsoft-365/blog/2020/05/01/how-leaders-bring-employees-together-covid-19/)
+[Transform your communications, company meetings, and trainings](https://resources.techcommunity.microsoft.com/live-events/)
+[Learn more about live events across M365 apps](https://resources.techcommunity.microsoft.com/live-events/)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
