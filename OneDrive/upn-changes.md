@@ -62,7 +62,7 @@ A user's OneDrive URL is based on their UPN:
 (where user1_contoso_com corresponds with user1@contoso.com)
 
 > [!NOTE]
-> If the user's UPN contains any underscore, it will be present in the resultant OneDrive URL.
+> If the user's UPN contains an underscore, it will be present in the resultant OneDrive URL.
 
 In this case, if you changed the prefix to user2 and the suffix to contososuites.com, the user's OneDrive URL would change to:
 
