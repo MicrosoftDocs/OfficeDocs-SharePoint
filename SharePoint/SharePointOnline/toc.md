@@ -31,6 +31,7 @@
 ### [Intranet roadmap](intranet-overview.md)
 ### [Plan your intranet](plan-intranet.md)
 ### [Intranet governance](intranet-governance.md)
+### [Workplace communication](workplace-communications.md)
 ## [Governance]()
 ### [Governance overview](governance-overview.md)
 ### [Create guidelines for site usage ](sites-usage-guidelines.md)
