@@ -75,9 +75,24 @@ To transition users off of the previous sync app, first make sure users have:
 
 
    > [!NOTE]
-   > If any users have Office 2010 installed, we strongly recommend removing the SharePoint Workspace component. If users previously set up SharePoint Workspace (even if they're no longer using it), it will cause problems syncing team sites. Before starting OneDrive Setup, either [Uninstall Office from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or modify the installation. To do this by running Setup, first create the following XML file:<br>   `<Configuration Product="ProPlus"> <Display Level="none" CompletionNotice="no" SuppressModal="yes" NoCancel="yes" AcceptEula="yes" /> <Logging Type="standard" Path="C:\Windows\temp\" Template="MicrosoftSharePointWorkspaceSetup(*).txt" /> <Setting Id="SETUP_REBOOT" Value="Never" /> <OptionState Id="GrooveFiles" State="absent" Children="force" /> </Configuration>`<br> Then run Setup: `Setup.exe /modify ProPlus /config RemoveSharepointDesigner.xml` For more info, see [Setup command-line options for Office 2010](/previous-versions/office/office-2010/cc178956(v=office.14)
-) and [Config.xml file in Office 2010](/previous-versions/office/office-2010/cc179195(v=office.14)
-). 
+   > If any users have Office 2010 installed, we strongly recommend removing the SharePoint Workspace component. If users previously set up SharePoint Workspace (even if they're no longer using it), it will cause problems syncing team sites. Before starting OneDrive Setup, either [Uninstall Office from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or modify the installation. To do this by running Setup, first create the following XML file:
+   >
+   > ```xml
+   > <?xml version="1.0" encoding="UTF-8"?>
+   > <Configuration Product="ProPlus">
+   >    <Display Level="none" CompletionNotice="no" SuppressModal="yes" NoCancel="yes" AcceptEula="yes" />
+   >    <Logging Type="standard" Path="C:\Windows\temp\" Template="MicrosoftSharePointWorkspaceSetup(*).txt" />
+   >    <Setting Id="SETUP_REBOOT" Value="Never" />
+   >    <OptionState Id="GrooveFiles" State="absent" Children="force" />
+   > </Configuration>
+   > ```
+   >
+   > Then run Setup:
+   >
+   > ```console
+   > Setup.exe /modify ProPlus /config RemoveSharepointDesigner.xml
+   > ```
+   > For more info, see [Setup command-line options for Office 2010](/previous-versions/office/office-2010/cc178956(v=office.14)) and [Config.xml file in Office 2010](/previous-versions/office/office-2010/cc179195(v=office.14)). 
  
 - The latest [Rights Management Service (RMS) client](https://aka.ms/odirm) if you want users to be able to sync IRM-protected SharePoint document libraries and OneDrive locations.
   
