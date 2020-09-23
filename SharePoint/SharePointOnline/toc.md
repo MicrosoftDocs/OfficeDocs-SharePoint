@@ -35,7 +35,7 @@
 ## [Governance]()
 ### [Governance overview](governance-overview.md)
 ### [Create guidelines for site usage ](sites-usage-guidelines.md)
-## [Information architecture]()
+## [Navigation]()
 ### [Introduction](information-architecture-modern-experience.md)
 ### [Principals](information-architecture-principles.md)
 ### [Models and examples](information-architecture-models-examples.md)
