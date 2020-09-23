@@ -183,6 +183,8 @@ Blocking access and blocking download may impact the user experience in some app
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.
 > 
 > If you're using classic SharePoint site templates, site images may not render correctly. This is because the policy prevents the original image files from being downloaded to the browser. 
+>
+> For new tenants, apps using an ACS app-only access token is disabled by default. We recommend using the Azure AD app-only model which is modern and more secure. But you can change the behavior by running ‘set-spotenant -DisableCustomAppAuthentication $false' (needs the latest SharePoint admin PowerShell).
   
 ## Need more help?
 

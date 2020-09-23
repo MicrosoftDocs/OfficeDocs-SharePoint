@@ -95,7 +95,7 @@ For example:
 
 These would be considered two separate *user licenses* because they have different destinations.
 
-Mover allows up to 5 users to simultaneously transfer.
+Mover automatically scales your transfer concurrency up and down.
 
 
 ## Data distribution
