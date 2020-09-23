@@ -75,9 +75,24 @@ To transition users off of the previous sync app, first make sure users have:
 
 
    > [!NOTE]
-   > If any users have Office 2010 installed, we strongly recommend removing the SharePoint Workspace component. If users previously set up SharePoint Workspace (even if they're no longer using it), it will cause problems syncing team sites. Before starting OneDrive Setup, either [Uninstall Office from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or modify the installation. To do this by running Setup, first create the following XML file:<br>   `<Configuration Product="ProPlus"> <Display Level="none" CompletionNotice="no" SuppressModal="yes" NoCancel="yes" AcceptEula="yes" /> <Logging Type="standard" Path="C:\Windows\temp\" Template="MicrosoftSharePointWorkspaceSetup(*).txt" /> <Setting Id="SETUP_REBOOT" Value="Never" /> <OptionState Id="GrooveFiles" State="absent" Children="force" /> </Configuration>`<br> Then run Setup: `Setup.exe /modify ProPlus /config RemoveSharepointDesigner.xml` For more info, see [Setup command-line options for Office 2010](/previous-versions/office/office-2010/cc178956(v=office.14)
-) and [Config.xml file in Office 2010](/previous-versions/office/office-2010/cc179195(v=office.14)
-). 
+   > If any users have Office 2010 installed, we strongly recommend removing the SharePoint Workspace component. If users previously set up SharePoint Workspace (even if they're no longer using it), it will cause problems syncing team sites. Before starting OneDrive Setup, either [Uninstall Office from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or modify the installation. To do this by running Setup, first create the following XML file:
+   >
+   > ```xml
+   > <?xml version="1.0" encoding="UTF-8"?>
+   > <Configuration Product="ProPlus">
+   >    <Display Level="none" CompletionNotice="no" SuppressModal="yes" NoCancel="yes" AcceptEula="yes" />
+   >    <Logging Type="standard" Path="C:\Windows\temp\" Template="MicrosoftSharePointWorkspaceSetup(*).txt" />
+   >    <Setting Id="SETUP_REBOOT" Value="Never" />
+   >    <OptionState Id="GrooveFiles" State="absent" Children="force" />
+   > </Configuration>
+   > ```
+   >
+   > Then run Setup:
+   >
+   > ```console
+   > Setup.exe /modify ProPlus /config RemoveSharepointDesigner.xml
+   > ```
+   > For more info, see [Setup command-line options for Office 2010](/previous-versions/office/office-2010/cc178956(v=office.14)) and [Config.xml file in Office 2010](/previous-versions/office/office-2010/cc179195(v=office.14)). 
  
 - The latest [Rights Management Service (RMS) client](https://aka.ms/odirm) if you want users to be able to sync IRM-protected SharePoint document libraries and OneDrive locations.
   
@@ -96,29 +111,6 @@ After you install and configure OneDrive.exe, Groove.exe should no longer be abl
 
 If the takeover did not succeed, the previous OneDrive for Business sync app (Groove.exe) may be an older version that can't successfully transition to the new client. To patch the previous sync app, update groove-x in [Office 2016](/officeupdates/msp-files-office-2016) or [Office 2013](/officeupdates/msp-files-office-2013), and then try again.
 
-  
-## Block the previous sync app from syncing
-
-To prevent users from using the previous OneDrive for Business sync app, follow these steps.
-
-> [!WARNING]
-> Running this command will disconnect Groove.exe even if the user is still syncing content.
-
-1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-    > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
-
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-
-3. Run the following command:
-  
-    ```PowerShell
-    Set-SPOTenantSyncClientRestriction [-GrooveBlockOption <String> "OptOut"|"HardOptIn"|"SoftOptIn"] 
-    ```
-
-For more info, see [Get-SPOTenantSyncClientRestriction](/powershell/module/sharepoint-online/Get-SPOTenantSyncClientRestriction).
-  
 
 ## See also  
 
