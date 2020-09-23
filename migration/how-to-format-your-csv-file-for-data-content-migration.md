@@ -51,7 +51,7 @@ https://sharepoint2013.com/sites/contosoteamsite/,DocumentLibraryName,DocLibrary
   
 > [!IMPORTANT]
 > If you use the standard out-of-the-box Document library ("Shared Documents"), you must use the internal name "Documents" as the placeholder value for the  *Source Document Library* (Column B) in your CSV file. If you enter "Shared Documents" in that column, you will receive an "invalid document library" error.
-> If the language of the destination SharePoint site is other than english, check the internal name of the "Shared Documents" Document library by browsing to https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
+> If the language of the destination SharePoint site is other than English, check the internal name of the "Shared Documents" Document library by browsing to https://contoso.sharepoint.com/sites/SampleSite/_layouts/15/viewlsts.aspx?view=14.
   
 > [!IMPORTANT]
 > Proxy connections are not supported. Using Proxy connections will yield errors such as "SharePoint login fail" or "cannot load document library". 
@@ -156,4 +156,3 @@ As with the CSV files, the minimum required values are Source, Source DocLib, Ta
 }
 ```
    
-
