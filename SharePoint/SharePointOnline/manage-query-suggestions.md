@@ -18,7 +18,7 @@ description: "Learn how to add phrases that you want the system to suggest to us
 
 # Customize query suggestions in SharePoint search
 
-Query spelling suggestions are words that appear below the search box as a user types a query. SharePoint automatically creates a query suggestion when you've clicked a search result for a query at least six times. For example, if you've entered the query word "coffee" and then clicked a search result three times, "coffee" automatically becomes a query suggestion. 
+Query spelling suggestions are words that appear below the search box as a user types a query. SharePoint automatically creates query suggestions from frequently entered queries that resulted in a click on a search result. For example, if you've repeatedly entered the query word "coffee" and then clicked a search result each time, "coffee" automatically becomes a query suggestion. 
   
 Automatic query suggestions are generated periodically for each result source and each site collection, so the query suggestions can be different for different result sources and site collections.
 
