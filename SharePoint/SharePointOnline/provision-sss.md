@@ -93,7 +93,7 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
  
 **Is your tenant's version of learning pathways version 4.0 or higher?**
 - **Yes** - You are ready to provision the SharePoint Success Site.
-- **No** - Update to version 4.0 and provision the SharePoint Success Site from the M365 learning pathways administration page.
+- **No** - Update to version 4.0 or higher and provision the SharePoint Success Site from the M365 learning pathways administration page.
 <br>
 If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page**:
 
@@ -101,7 +101,7 @@ If you are unsure, navigate to your tenant's **M365 Learning Pathways administra
 
 <br>
 
-#### If you need to, update M365 learning pathways from version 3.0 to version 4.0
+#### If you need to, update M365 learning pathways from version 3.0 to version 4.0 or higher
 
 > [!IMPORTANT]
 > The person updating M365 learning pathways must be an Administrator of the tenant’s App Catalog. If the person provisioning M365 learning pathways isn't an Administrator of the App Catalog, [complete these instructions](https://docs.microsoft.com/office365/customlearning/addappadmin) and continue.
@@ -131,7 +131,7 @@ Once you’ve confirmed the following, you are ready to provision:
 - You are using Global admin or SharePoint admin credentials.
 - Your tenant has the App Catalog enabled.
 - You are an Administrator of the App Catalog.
-- Your tenant has version 4.0 of the M365 learning pathways provisioned.
+- Your tenant has version 4.0 or higher of the M365 learning pathways provisioned.
 
 ### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
 
