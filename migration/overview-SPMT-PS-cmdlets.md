@@ -21,7 +21,7 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: "Learn how the Powershell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint in Microsoft 365."
+description: "Learn how the PowerShell cmdlets based on the SharePoint Migration Tool (SPMT) migration engine, let you migrate to SharePoint in Microsoft 365."
 ---
 
 # Migrate to SharePoint using PowerShell
@@ -37,12 +37,12 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 
 **Recommended requirements for best performance**
 
-|**Description**|**Recommendation**|
+| Description | Recommendation |
 |:-----|:-----|
 |CPU|64-bit Quad core processor or better|
 |RAM|16 GB|
 |Local Storage|Hard disk: 150 GB free space|
-|Operating system|Windows Server 2016 Standard or Datacenter<br>Windows Server 2012 R2<br>Windows 10 client<br>.Net Framework 4.6.2|
+|Operating system|Windows Server 2016 Standard or Datacenter<br>Windows Server 2012 R2<br>Windows 10 client<br>.NET Framework 4.6.2|
 |Microsoft Visual C++ 2015 Redistributable|Required for OneNote migration|
 
 > [!IMPORTANT]
@@ -50,7 +50,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 
 **Minimum requirements (expect slow performance)**
 
-|**Description**|**Minimum requirement**|
+| Description | Minimum requirement |
 |:-----|:-----|
 |CPU |64-bit 1.4 GHz 2-core processor or better |
 |RAM |8 GB |
@@ -58,7 +58,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 |Network card |High-speed Internet connection |
 |Operating system |Windows Server 2008 R2<br>Windows 7<br>Windows 8 or 8.1<br/> .NET Framework 4.6.2 |
 |Microsoft Visual C++ 2015 Redistributable |Required for OneNote migration.|
-|PowerShell |Powershell 5.0 or higher required to support migration of file paths of up to 400 characters.|
+|PowerShell |PowerShell 5.0 or higher required to support migration of file paths of up to 400 characters.|
 
 ## Before you begin
 
@@ -68,7 +68,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
    *$env:UserProfile\Documents\WindowsPowerShell\Modules\Microsoft.SharePoint.MigrationTool.PowerShell*
 
    Make sure you have DLLs inside of it.
-3. From this location, run the the following PowerShell command
+3. From this location, run the following PowerShell command
 
    ```powershell
    Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
@@ -164,7 +164,7 @@ Show-SPMTMigration
 
 Example 3:  IT Admin wants to do a bulk migration by loading a .csv file.  The sample file in this example is SPMT.csv.
 
-```Powershell
+```powershell
 Load CSV;
 $csvItems = import-csv "C:\spmt.csv" -Header c1,c2,c3,c4,c5,c6
 ForEach ($item in $csvItems)
