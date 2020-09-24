@@ -27,11 +27,11 @@ Once you confirm the person provisioning *and* the tenant being provisioned meet
 - You are using *at minimum* SharePoint administrator credentials
 - Your tenant has the App Catalog installed
 - You are an Administrator of the App Catalog
-- Your tenant has version 4.0 of the M365 learning pathways provisioned
+- Your tenant has version 4.0 or higher of the M365 learning pathways provisioned
 
 
 ## Start provisioning from the look book
-If you already have M365 learning Pathways version 4.0 *or greater* provisioned to your tenant, you can provision the SharePoint Success Site from the look book. If you aren't sure what version of M365 learning pathways is installed in your tenant, review the [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then provision the SharePoint Success Site. 
+If you already have M365 learning Pathways version 4.0 *or higher* provisioned to your tenant, you can provision the SharePoint Success Site from the look book. If you aren't sure what version of M365 learning pathways is installed in your tenant, review the [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then provision the SharePoint Success Site. 
 
 1. Go to the [look book](https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**.
 
