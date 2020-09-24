@@ -85,6 +85,7 @@ The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll ne
 
 ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
+
 Review the **Plan, Build, Launch and manage, and Advanced** playlist sections to see the full suite of Microsoft curated content available in the SharePoint Success Site.
 
 
@@ -100,6 +101,14 @@ Select content categories and subcategories, and then navigate through the playl
 ### Customize playlist content 
 
 ![Image of the M365 learning pathways, SharePoint success site page](media/m365-lp-sss.png)
+
+
+**Navigate to the Microsoft 365 learning pathways admin page**
+
+1. Navigate to the Microsoft 365 learning pathways by selecting **Home > Administration**
+2. Next, select the **gear icon** in the web part
+3. Then, select **Home > Learning pathways administration**
+4. Select the **SharePoint Success Site** tab
 
 **Show or hide sections to the playlist content**
 
