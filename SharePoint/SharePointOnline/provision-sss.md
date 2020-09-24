@@ -93,12 +93,15 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
  
 **Is your tenant's version of learning pathways version 4.0 or higher?**
 - **Yes** - You are ready to provision the SharePoint Success Site.
-- **No** - Update to version 4.0 and provision the SharePoint Success Site from the M365 learning pathways administration page.
+- **No** - Update to version 4.0 or higher and provision the SharePoint Success Site from the M365 learning pathways administration page.
 <br>
 If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page**:
 
   ![Image learning pathways admin page](media/sss-lp-version.png)
 
+If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page** and then select **About web part:**
+
+  ![Image learning pathways admin page](media/sss-lp-elipses.png)
 <br>
 
 #### If you need to, update M365 learning pathways from version 3.0 to version 4.0
