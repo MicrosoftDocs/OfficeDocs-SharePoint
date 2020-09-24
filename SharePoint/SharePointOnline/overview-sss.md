@@ -36,7 +36,7 @@ The SharePoint Success Site helps Site owners improve the quality and impact of 
 
 Use the SharePoint Success Site to:
 
-- **Get more out of SharePoint** - Teach new Site owners how to utilize the power behind SharePoint's communication and collaboration features. 
+- **Get more out of SharePoint** - Show new Site owners how to leverage the value behind SharePoint's communication and collaboration features. Help new Site owners understand the ways to work with SharePoint to meet specific business outcomes. Then, show users how to utilize the power behind SharePoint's communication and collaboration features with step-by-step guidance. 
 - **Enable Site owners to create high-impact sites** - Ensure Site owners have the right information and support to create purposeful sites that are widely adopted by the intended audience. 
 - **Ensure Site owners follow site creation policies** - Customize the site creation policy page on your SharePoint Success site to communicate organizational policy expectations during the training experience.
 - **Provide the most up-to-date content** - Equip Site owners with SharePoint self-help content that is maintained by Microsoft and published as SharePoint evolves.

@@ -99,6 +99,9 @@ If you are unsure, navigate to your tenant's **M365 Learning Pathways administra
 
   ![Image learning pathways admin page](media/sss-lp-version.png)
 
+If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page** and then select **About web part:**
+
+  ![Image learning pathways admin page](media/sss-lp-elipses.png)
 <br>
 
 #### If you need to, update M365 learning pathways from version 3.0 to version 4.0 or higher
@@ -164,7 +167,7 @@ Once you’ve confirmed the following, you are ready to provision:
 
 12. To confirm M365 learning pathways has been successfully provisioned, go to the SharePoint site you provisioned, select **Get Started > Plan your site.** You should see the web part on the page as shown in the following image: 
 
-![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
 
 ## Add Site owners 
