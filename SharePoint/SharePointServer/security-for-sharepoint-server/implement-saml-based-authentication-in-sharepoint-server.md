@@ -105,8 +105,10 @@ $signinurl = "https://adfs.contoso.local/adfs/ls/"
 New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.local" -Realm $realm -ImportTrustCertificate $signingCert -ClaimsMappings $email,$role -SignInUrl $signinurl -IdentifierClaim $email.InputClaimType
 ```
 
-Then, the relevant certificate must be added to the SharePoint root authority certificate store. There are 2 possible options:
+> [!IMPORTANT]
+> Do NOT use the option -UseDefaultConfiguration with cmdlet New-SPTrustedIdentityTokenIssuer. This option causes unexpected side effects due to the way it sets the identity of the users internally.
 
+Then, the relevant certificate must be added to the SharePoint root authority certificate store. There are 2 possible options:
 - If the ADFS signing certificate is issued by a certificate authority (best practice for security reasons)
 
 The public key of the issuer's certificate (and all the intermediates) must be added to the store:
