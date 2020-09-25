@@ -28,7 +28,7 @@ description: "Learn how to use PowerShell to create OneDrive file storage for yo
 # Pre-provision OneDrive for users in your organization
 
 By default, the first time that a user browses to their OneDrive it's automatically provisioned for them. In some cases, such as the following, you might want your users' OneDrive locations to be ready beforehand, or pre-provisioned:
-  
+
 - Your organization has a custom process for adding new employees, and you want to create a OneDrive when you add a new employee.
 
 - Your organization plans to migrate from SharePoint Server on-premises to Microsoft 365.
@@ -40,10 +40,10 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 - For info about setting the default storage size, see [Set the default storage space for OneDrive users](set-default-storage-space.md).
 
 - For info about the storage you get with each plan, see [OneDrive Service Description](https://docs.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description).
-  
+
 > [!IMPORTANT]
 > The user accounts that you are pre-provisioning must be allowed to sign in and must also have a SharePoint license assigned.
->To provision OneDrive by using this cmdlet, you must be a global or SharePoint administrator and must be assigned a SharePoint license. 
+> To provision OneDrive by using this cmdlet, you must be a global or SharePoint administrator and must be assigned a SharePoint license.
 
 ## Pre-provision OneDrive for users
 
@@ -66,7 +66,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     > The PowerShell command Request-SPOPersonalSite works only for users who are allowed to sign in. If you've blocked users from signing in, you can allow them to sign in by running the PowerShell command **Set-MsolUser** using the text file you created in Step 1.
     >
     >```PowerShell
-    >Get-Content -path "C:\Users.txt" | foreach{Set-MsolUser -UserPrincipalName $_ -BlockCredential $False}
+    >Get-Content -path "C:\Users.txt" | ForEach-Object { Set-MsolUser -UserPrincipalName $_ -BlockCredential $False }
     >```
 
 4. Run the PowerShell command [Request-SPOPersonalSite](/powershell/module/sharepoint-online/request-spopersonalsite?view=sharepoint-ps), consuming the text file you previously created in Step 1.
@@ -77,48 +77,50 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     ```
 
 To verify that OneDrive has been created for your users, see [Get a list of all user OneDrive URLs in your organization](list-onedrive-urls.md).
-  
-   >[!NOTE]
-   >If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a user's OneDrive isn't ready after 24 hours, please contact Support.
-  
+
+   > [!NOTE]
+   > If you are pre-provisioning OneDrive for many users, it might take up to 24 hours for the OneDrive locations to be created. If a user's OneDrive isn't ready after 24 hours, please contact Support.
+
 ## Pre-provision many users at the same time
 
 The following code snippet will pre-provision OneDrive for a large number of users.
 
 ```PowerShell
-$Credential=Get-Credential
-Connect-MsolService -Credential $credential
+$Credential = Get-Credential
+Connect-MsolService -Credential $Credential
 Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint.com
 
-    $list = @()
-    #Counters
-    $i = 0;
-    
+$list = @()
+#Counters
+$i = 0
 
-    #Get licensed users
-    $users=get-msoluser -All | ? {$_.islicensed -eq $true}
-    #total licensed users
-    $count = $users.count
 
-    foreach ($u in $users){
-        $i++; 
-        Write-Host "$i/$count"
-        
-        $upn = $u.userprincipalname
-        $list += $upn
-        
-        if ($i -eq 199){ #We reached the limit
-            Request-SPOPersonalSite -UserEmails $list -NoWait
-            Start-Sleep -Milliseconds 655
-            $list = @()
-            $i = 0
-        }
+#Get licensed users
+$users = Get-MsolUser -All | Where-Object { $_.islicensed -eq $true }
+#total licensed users
+$count = $users.count
 
-    }
-    if($i -gt 0){
+foreach ($u in $users) {
+    $i++
+    Write-Host "$i/$count"
+
+    $upn = $u.userprincipalname
+    $list += $upn
+
+    if ($i -eq 199) {
+        #We reached the limit
         Request-SPOPersonalSite -UserEmails $list -NoWait
+        Start-Sleep -Milliseconds 655
+        $list = @()
+        $i = 0
     }
+}
+
+if ($i -gt 0) {
+    Request-SPOPersonalSite -UserEmails $list -NoWait
+}
 ```
+
 ## Related topics
 
 [Plan hybrid OneDrive](/SharePoint/hybrid/plan-hybrid-onedrive-for-business)
