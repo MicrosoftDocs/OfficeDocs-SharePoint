@@ -140,27 +140,5 @@ Meet users where they are. If you are already using Teams, there are many option
 [How leaders can bring employees together during COVID-19](https://www.microsoft.com/microsoft-365/blog/2020/05/01/how-leaders-bring-employees-together-covid-19/)
 [Transform your communications, company meetings, and trainings](https://resources.techcommunity.microsoft.com/live-events/)
 [Learn more about live events across M365 apps](https://resources.techcommunity.microsoft.com/live-events/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
-
 [SharePoint modernization scanner](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner)
 
