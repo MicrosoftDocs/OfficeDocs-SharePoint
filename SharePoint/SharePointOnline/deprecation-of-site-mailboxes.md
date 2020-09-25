@@ -102,7 +102,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
       - Check the confirmation box to ensure the site mailbox is added.
       - Click **Choose** and then click **Done**.
       - Under **SharePoint sites** option, click **Choose sites** to add the SharePoint site associated with the site mailbox.
-      - To find the SharePoint URL for the site mailbox, run the following command in Powershell:
+      - To find the SharePoint URL for the site mailbox, run the following command in PowerShell:
 
         ```Powershell
         Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited
@@ -213,7 +213,7 @@ See one of the following topics for exporting and importing of mailbox content:
 
 Use one of the following options:
 
-**Option 1**: Hiding the mailbox from a SharePoint site
+**Option 1**: Hiding the mailbox from a SharePoint site.
 
 You can hide the site mailbox by removing it from the SharePoint site but it will still exist in Exchange. You can access the mailbox through Outlook Web Access if the browser is bookmarked.
 
@@ -234,7 +234,7 @@ There are a couple of things worth noting about removing a site mailbox:
 
 - After removing the site mailbox app from a site, mail sent to the mailbox will still be stored. If you [add the mailbox back to the site](https://support.microsoft.com/office/add-a-site-mailbox-to-keep-email-in-context-cccaa235-c611-48e3-9653-0b9e161840e7) later, any mail sent to the site mailbox since it was originally created will still be there.
 
-**Option 2**: Delete the SharePoint site
+**Option 2**: Delete the SharePoint site.
 
 If the SharePoint site is deleted, Exchange is notified to also delete the site mailbox.
 
@@ -249,7 +249,7 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 
 4.	Check the confirmation box, and then click **Delete**.
 
-**Option 3**: Delete the site mailbox manually
+**Option 3**: Delete the site mailbox manually.
 
 For example, run the following command in Exchange PowerShell:
 
