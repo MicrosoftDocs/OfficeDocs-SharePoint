@@ -16,7 +16,7 @@ description: "In this article, you'll learn how to identify and remove site mail
 
 # Retirement of site mailboxes
 
-The site mailboxes are being retired and will be out of service and/or removed. Please use the instructions below to identify, backup and delete site mailboxes.
+The site mailboxes are being retired and will be out of service and/or removed. Please use the following instructions to identify, backup, and delete site mailboxes.
 
 ## To view a list of site mailboxes
 
@@ -35,13 +35,13 @@ For more information see, [Use policies for site closure and deletion](https://s
 
 Run the following command in Exchange PowerShell:
 
-```powershell
+```Powershell
 # If you run this more than once, delete/rename the output file first because this command appends to it.
 # This is a single, long command line. It could take minutes or hours depending on the number of site mailboxes; thus, the countdown.
 $sms = Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited ; 
 $count = $sms.Count ; 
 $sms | %{ $count-- ; echo "$count" ; 
-Get-MailboxFolderStatistics $_.Identity -FolderScope Inbox | sort LastModifiedTime -Descending | ft Identity,LastModifiedTime >> c:\temp\sitemailboxes.txt 
+Get-MailboxFolderStatistics $_.Identity -FolderScope Inbox | sort LastModifiedTime -Descending | ft Identity,LastModifiedTime >> c:\temp\sitemailboxes.txt}
 ```
 
 There are no commands to show if the site mailboxes are still active. The above example lists the number of site mailboxes that were recently updated. The details of the site mailboxes are stored in a file. 
@@ -53,8 +53,8 @@ There are no commands to show if the site mailboxes are still active. The above 
 
 Run the following command in Exchange PowerShell:
 
-```powershell
-Get-SiteMailbox -BypassOwnerCheck | fl Name, Owners
+```Powershell
+Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited | ft Name, Owners
 ```
 
 ## Export site mailboxes through PST (Manually)
@@ -105,18 +105,9 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
       - To find the SharePoint URL for the site mailbox, run the following command in Powershell:
 
         ```Powershell
-
-        PS D:\tools\PSSession> Get-SiteMailbox
-
-        Name        ClosedTime SharePointUrl
-        ----        ---------- -------------
-        SMO-jknibb1            https://hmopco.sharepoint.com/jknibb1
-
-
-        PS D:\tools\PSSession>
+        Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited
         ```
-
-        Use ‘Get-SiteMailbox -BypassOwnerCheck’ option to list all the site mailboxes.
+        
       - Enter the URL and check the confirmation box to ensure the URL is added.
       - Click **Choose** and then click **Done**.
       - Click **Next**.
@@ -262,7 +253,7 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 
 For example, run the following command in Exchange PowerShell:
 
-```powershell
+```Powershell
 Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
 ```
 Use 'Remove-Mailbox' to delete a site mailbox. The system removes the site mailbox link from the SharePoint site when a site mailbox is deleted. In the example, change the 'MDEL' to the name of the site mailbox you want to delete.
