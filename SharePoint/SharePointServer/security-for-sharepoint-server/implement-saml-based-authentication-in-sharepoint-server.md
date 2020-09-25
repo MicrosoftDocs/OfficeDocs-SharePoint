@@ -3,7 +3,7 @@ title: "Implement federated authentication in SharePoint Server"
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 6/21/2019
+ms.date: 9/25/2020
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
@@ -127,7 +127,7 @@ $rootCert = New-Object System.Security.Cryptography.X509Certificates.X509Certifi
 New-SPTrustedRootAuthority -Name "adfs.contoso.local signing certificate" -Certificate $rootCert
 ```
 
-### Configure the SharePoint web application
+## Configure the SharePoint web application
 
 In this step you will configure a web application in SharePoint to federate the authentication with the AD FS, using the SPTrustedLoginProvider that was created above.
 
@@ -153,7 +153,7 @@ There are 2 possible configurations:
         New-SPWebApplication -Name "SharePoint - ADFS on contoso.local" -Port 443 -SecureSocketsLayer -URL $trustedSharePointSiteUrl -ApplicationPool "SharePoint - ADFS on contoso.local" -ApplicationPoolAccount (Get-SPManagedAccount $applicationPoolManagedAccount) -AuthenticationProvider $winAp, $trustedAp
         ```
 
-    2. Open the **SharePoint Central Administration** site.
+    1. Open the **SharePoint Central Administration** site.
     1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
     1. Filter the display with the new web application and confirm that you see something like this:
 
@@ -176,13 +176,13 @@ There are 2 possible configurations:
         New-SPWebApplicationExtension -Name "SharePoint - ADFS on contoso.local" -Identity $wa -SecureSocketsLayer -Zone Intranet -Url $trustedSharePointSiteUrl -AuthenticationProvider $ap
         ```
 
-    2. Open the **SharePoint Central Administration** site.
+    1. Open the **SharePoint Central Administration** site.
     1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
     1. Filter the display with the web application that was extended and confirm that you see something like this:
 
         ![Alternate Access Mappings of extended application](./media/SharePointTrustedAuthN_AAMExtendedWebapp.png)
 
-### Make sure that an HTTPS certificate is configured for the SharePoint site federated with AD FS
+## Make sure that an HTTPS certificate is configured for the SharePoint site federated with AD FS
 
 Because the SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`), a certificate must be set on the Internet Information Services (IIS) site.
 
@@ -201,11 +201,11 @@ Because the SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`
 1. Select **https binding** and then select **Edit**.
 1. In the TLS/SSL certificate field, choose **spsites.contoso.local** certificate and then select **OK**.
 
-### Create the site collection
+## Create the site collection
 
 In this step, you will create a team site collection with 2 administrators: One as a Windows administrator and one as a federated (AD FS) administrator.
 
-2. Open the **SharePoint Central Administration** site.
+1. Open the **SharePoint Central Administration** site.
 1. Under **Application Management**, select **Create site collections**. The **Create site collections** page opens.
 1. Type a **Title**, **Url**, and select the template **Team Site**.
 1. In the **Primary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
@@ -225,3 +225,9 @@ In this step, you will create a team site collection with 2 administrators: One 
 1. Click Ok to create the site collection.
 
 Once the site collection is created, you should be able to sign-in to it using either the Windows or the federated site collection administrator account.
+
+## Next Steps
+
+In federated authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using a custom claims provider, for aexample [LDAPCP](https://ldapcp.com/).
+> [!IMPORTANT]
+> LDAPCP isn't a Microsoft product and isn't supported by Microsoft Support. To download, install, and configure LDAPCP on the on-premises SharePoint farm, see the LDAPCP website.
