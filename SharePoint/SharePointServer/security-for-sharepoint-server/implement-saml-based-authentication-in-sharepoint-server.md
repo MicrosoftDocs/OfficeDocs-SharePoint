@@ -186,9 +186,10 @@ There are 2 possible configurations:
 
 Because SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`), a certificate must be set on the corresponding Internet Information Services (IIS) site.
 
-### Generate the certificate
+### Generate the site certificate
 
-You may skip this step if you already have your own certificate.
+> [!NOTE]
+> You may skip this step if you already generated the certificate.
 
 1. Open the Windows PowerShell console.
 1. Run the following script to generate a self-signed certificate and add it to the computer's MY store:
@@ -197,8 +198,8 @@ You may skip this step if you already have your own certificate.
    New-SelfSignedCertificate -DnsName "spsites.contoso.local" -CertStoreLocation "cert:\LocalMachine\My"
    ```
 
-   > [!IMPORTANT]
-   > Self-signed certificates are suitable only for test purposes. In production environments, we strongly recommend that you use certificates issued by a certificate authority instead.
+> [!IMPORTANT]
+> Self-signed certificates are suitable only for test purposes. In production environments, we strongly recommend that you use certificates issued by a certificate authority instead.
 
 ### Set the certificate
 
