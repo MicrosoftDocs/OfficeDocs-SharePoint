@@ -53,7 +53,7 @@ If you already have M365 learning Pathways version 4.0 *or greater* provisioned 
 
     ![Image of the M365 learning pathways admin page](media/sss-sss-admin.png)
 
-7.	Select the … (ellipse), then select **Add to Content Pack**.
+7.	Select the ellipse **(…)**, then select **Add to Content Pack**.
 
 8.	Select **SharePoint Success Site**.
 
@@ -72,9 +72,9 @@ If you already have M365 learning Pathways version 4.0 *or greater* provisioned 
 
 11.	To confirm the SharePoint Success Site has been successfully provisioned, navigate to the site and select **Get Started > Plan your site**. You should see the web part on the page as shown in the following image:
 
-    ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
-12. Next, follow the steps below to add site owners to the M365 learning pathways administration page and the SharePoint Success Site to grant access to others for site and content [customizations](https://docs.microsoft.com/sharepoint/customize-sss). 
+12. Next, follow the steps below to add Site owners to the M365 learning pathways administration page and the SharePoint Success Site to grant access to others for site and content [customizations](https://docs.microsoft.com/sharepoint/customize-sss). 
 
 
 ## Add Site owners 
@@ -100,7 +100,7 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 
 ### Next steps - customize the SharePoint Success Site
 
-[Customize](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
+[Customize](https://docs.microsoft.com/sharepoint/customize-sss) playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
 
 <br>
 
