@@ -23,7 +23,7 @@ description: "Provision the SharePoint Success Site"
 # Provision the SharePoint Success Site 
 
 Start the SharePoint Success Site provisioning process by understanding the prerequisites. Then, you can provision the site from the look book or Microsoft 365 learning pathways administration page. 
-Global administrator or SharePoint admin credentials are required to start the provisioning process for the SharePoint Success Site. Before getting started, make sure you've met the prerequisites for provisioning. 
+Global administrator (formerly called the Tenant admin) credentials are required to start the provisioning process for the SharePoint Success Site. Before getting started, make sure you've met the prerequisites for provisioning. 
 
 
 ## Meet the prerequisites
@@ -35,7 +35,7 @@ Before provisioning the SharePoint Success Site, meet the prerequisites for both
 
 
 
-Use this decision tree to determine your tenant’s path to meeting prerequisites:
+Use this decision tree to determine your tenant’s path to meeting the **tenant** prerequisites:
 
 ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
@@ -45,22 +45,22 @@ Ready to get started provisioning? Review the [provisioning instructions](https:
 
 #### The person doing the provisioning must meet the following pre-requisites:
 
-The **person** doing the provisioning must be a Global admin or a SharePoint admin where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog.
+The **person** doing the provisioning must be a Global admin (formerly called the Tenant admin) where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog.
 
 
 | SharePoint admin role | +  | Admin of the App Catalog | = | Tenant admin requirements met         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
-**Are you a SharePoint administrator?**
+**Are you a SharePoint Global administrator?**
 - **Yes** -  Next, confirm your tenant has already enabled the App Catalog.
-- **No** -  Partner with your M365 Global administrator or SharePoint admin to get the site provisioned or to [change your security permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
+- **No** -  Partner with your M365 Global admin to get the site provisioned. [Learn more about administrative roles in SharePoint](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
 <br>
 <br>
 If you are unsure, you can confirm your role by logging into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint administrator credentials.
 
 **Are you an Administrator of the App Catalog?**
 - **Yes** - Next, confirm your tenant has M365 learning Pathways provisioned.
-- **No** - Next, ask your Global admin or SharePoint admin to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin).
+- **No** - Next, ask your Global admin to add you as an [App Catalog administrator](https://docs.microsoft.com/office365/customlearning/addappadmin).
 
 	
 #### The tenant must meet the following provisioning pre-requisites:
@@ -128,10 +128,10 @@ In this step, you upload the M365 learning pathways 4.0 web part to the SharePoi
 
 Once you’ve confirmed the following, you are ready to provision:
 
-- You are using Global admin or SharePoint admin credentials.
+- You are using Global admin (formerly called the Tenant admin) credentials.
 - Your tenant has the App Catalog enabled.
 - You are an Administrator of the App Catalog.
-- Your tenant has version 4.0 or higher of the M365 learning pathways provisioned.
+- Your tenant has version 4.0 or higher of M365 learning pathways provisioned.
 
 ### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
 
