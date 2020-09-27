@@ -24,10 +24,10 @@ description: "Provision the SharePoint Success Site from the look book"
 
 Once you confirm the person provisioning *and* the tenant being provisioned meet the following [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites), you are ready to provision:
 
-- You are using *at minimum* SharePoint administrator credentials
+- You are using Global admin credentials
 - Your tenant has the App Catalog installed
 - You are an Administrator of the App Catalog
-- Your tenant has version 4.0 of the M365 learning pathways provisioned
+- Your tenant has version 4.0 or higher of the M365 learning pathways provisioned
 
 
 ## Start provisioning from the look book
@@ -111,24 +111,22 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 Answer: Yes, follow the guidance on how to [provision from the M365 learning pathways admin page](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
 <br>
 
-**Question: Who has permission to provision the SharePoint Success Site?**
+**Question: Who has permission to provision the SharePoint Success Site?**
 <br>
-Answer: SharePoint administrator credentials or higher are required.
-<br>
-
-**Question: Who has permission to customize the site template?**
-<br>
-Answer: The SharePoint administrator or site level Site owner or Site member permissions.
+Answer: The Global admin (formerly called the Tenant admin) are required.
 <br>
 
-**Question: Who can create custom playlists and hide/show content in M365 learning pathways?**
+**Question: Who has permission to customize the site template?**
 <br>
-Answer:
-Site collection administrator for M365 learning pathways and SharePoint Site owner or Site member permissions for M365 learning pathways.
+Answer: The Global admin (formerly called the Tenant admin,) or Site owner permissions.
 <br>
 
+**Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
+<br>
+Answer: The Site collection administrator and Site owner permissions of M365 learning pathways.
+
+<br>
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
-Answer:
-Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
+Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
 
