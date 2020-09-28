@@ -109,7 +109,7 @@ New-SPTrustedIdentityTokenIssuer -Name "Contoso.local" -Description "Contoso.loc
 > Do NOT use the option -UseDefaultConfiguration with cmdlet New-SPTrustedIdentityTokenIssuer. This option causes unexpected side effects due to the way it sets the identity of the users internally.
 
 Then, the relevant certificate must be added to the SharePoint root authority certificate store. There are 2 possible options:
-- If the ADFS signing certificate is issued by a certificate authority (best practice for security reasons)
+- If the AD FS signing certificate is issued by a certificate authority (best practice for security reasons)
 
 The public key of the issuer's certificate (and all the intermediates) must be added to the store:
 Start the **SharePoint Management Shell** and run the following script to add it:
@@ -212,7 +212,7 @@ Because SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`), a
 
 ## Create the site collection
 
-In this step, you create a team site collection with 2 administrators: One as a Windows administrator and one as a federated (AD FS) administrator.
+In this step, you create a team site collection with two administrators: One as a Windows administrator and one as a federated (AD FS) administrator.
 
 1. Open the **SharePoint Central Administration** site.
 1. Under **Application Management**, select **Create site collections**. The **Create site collections** page opens.
