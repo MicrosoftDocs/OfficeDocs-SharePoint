@@ -40,7 +40,7 @@ If your organization needs to store and manage files for all your users to use, 
     > [!NOTE]
     > All organization asset libraries must be on the same site.
 
-2. **Set the permissions on the site**. Add the people you want to be able to upload files as members or owners of the site or Office 365 group. Add anyone you want to be able to access the files (such as "Everyone except external users") as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library.
+2. **Set the permissions on the site**. Add the people you want to be able to upload files as members or owners of the site or Office 365 group. Add "Everyone except external users" as visitors. If necessary, [customize the permissions for the library](https://support.office.com/article/02d770f3-59eb-4910-a608-5f84cc297782). You can customize the permissions of up to 100 files and folders in the library.
 
 3. Upload the images or Office templates to a document library.
 
@@ -57,15 +57,17 @@ If your organization needs to store and manage files for all your users to use, 
     Add-SPOOrgAssetsLibrary -LibraryUrl <URL> [-ThumbnailUrl <URL>] [-OrgAssetType <ImageDocumentLibrary or OfficeTemplateLibrary>] [-CdnType <Public or Private>]
     ```
 
-LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. OrgAssetType is either ImageDocumentLibrary or OfficeTemplateLibrary. If you don't specify the OrgAssetType, the library will be designated as an image library by default. If you don't specify the CdnType, it will enable a private CDN by default. [Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary)
+LibraryURL is the absolute URL of the library to be designated as a central location for organization assets. ThumbnailURL is the URL for the image file that you want to appear in the card's background in the file picker; this image must be on the same site as the library. The name publicly displayed for the library will be the name of the library on the SharePoint site. OrgAssetType is either ImageDocumentLibrary or OfficeTemplateLibrary. If you don't specify the OrgAssetType, the library will be designated as an image library by default. If you don't specify the CdnType, it will enable a private CDN by default. [Learn more about the Add-SPOOrgAssetsLibrary cmdlet](/powershell/module/sharepoint-online/add-spoorgassetslibrary).
 
-Example: `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg` -OrgAssetType ImageDocumentLibrary
+Example: 
+
+> `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg -OrgAssetType ImageDocumentLibrary`
 
 > [!NOTE]
-> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable a CDN for each organization asset library you add. [More info about CDNs](/office365/enterprise/content-delivery-networks)
+> Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable a CDN for each organization asset library you add. For more information, see [Content Delivery Networks (CDNs)](/office365/enterprise/content-delivery-networks).
 
 ## Related commands
 
-- See information about all organization asset libraries on the site: `Get-SPOOrgAssetsLibrary` [Learn more about this cmdlet](/powershell/module/sharepoint-online/get-spoorgassetslibrary)
-- Update thumbnail URL: `Set-SPOOrgAssetsLibrary -LibraryUrl <String> -ThumbnailUrl <String>` [Learn more about this cmdlet](/powershell/module/sharepoint-online/set-spoorgassetslibrary)
-- Remove a library: `Remove-SPOOrgAssetsLibrary -LibraryUrl <String>` [Learn more about this cmdlet](/powershell/module/sharepoint-online/remove-spoorgassetslibrary)
+- See information about all organization asset libraries on the site: <br/>`Get-SPOOrgAssetsLibrary` <br/>[Learn more about this cmdlet](/powershell/module/sharepoint-online/get-spoorgassetslibrary).<br/><br/>
+- Update thumbnail URL: <br/>`Set-SPOOrgAssetsLibrary -LibraryUrl <String> -ThumbnailUrl <String>` <br/>[Learn more about this cmdlet](/powershell/module/sharepoint-online/set-spoorgassetslibrary).<br/><br/>
+- Remove a library: <br/>`Remove-SPOOrgAssetsLibrary -LibraryUrl <String>` <br/>[Learn more about this cmdlet](/powershell/module/sharepoint-online/remove-spoorgassetslibrary).
