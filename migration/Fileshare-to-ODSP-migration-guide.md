@@ -140,7 +140,7 @@ The benefit for self-service migration is that you have full control over your p
 
 **Microsoft FastTrack**
 
-FastTrack is a Microsoft service included in your subscription cost offering you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft Cloud a great one. OneDrive onboarding guidance, migration benefits, and adoption guidance are included in the benefit offering.
+FastTrack is a Microsoft service included in your subscription cost providing you with a set of best practices, tools, resources, and experts committed to making your experience with the Microsoft cloud a great one. OneDrive onboarding guidance, migration benefits, and adoption guidance are included in the benefit offering.
 
 Onboarding guidance includes: help to discover what's possible, creating a plan for success, and onboarding new users and capabilities at a flexible pace. The [Data Migration](/fasttrack/O365-data-migration) benefit covers guidance on migrating content from file share, Box, or Google Drive source environments.
 
