@@ -32,7 +32,7 @@ In federated authentication, SharePoint processes SAML tokens issued by a truste
 
 To perform the configuration, you need the following resources:
 - A SharePoint 2013 farm or newer.
-- An AD FS farm version 2 or newer, already created, with the public key of the ADFS signing certificate exported in a .cer file
+- An AD FS farm version 2 or newer, already created, with the public key of the AD FS signing certificate exported in a .cer file.
 
 This article uses the following values:
 - SharePoint site URL: `https://spsites.contoso.local/`
