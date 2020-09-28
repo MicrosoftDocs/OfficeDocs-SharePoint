@@ -38,7 +38,7 @@ When you open the OneNote application, they appear like this:
 
 **Recommended setting**
 
-We recommend that you migrate with this setting set to **On**. The files will migrate as a OneNote notebook.  You can open the notebooks with the OneNote application or via Microsoft Teams by manually adding a tab to Teams.
+We recommend that you migrate with this setting set to **On**. The files will migrate as a OneNote notebook. You can open the notebooks with the OneNote application or via Microsoft Teams by manually adding a tab to Teams.
 
 > [!IMPORTANT]
 > If set to **Off**, you will likely receive errors when attempting to open the .one and .onetoc2 files. This is because the files that were migrated are for the desktop client version of OneNote which differs from the OneNote in SPO.
