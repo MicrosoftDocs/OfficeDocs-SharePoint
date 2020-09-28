@@ -45,7 +45,7 @@ We recommend that you migrate with this setting set to **On**. The files will mi
 
 ## Selecting the OneNote settings in SPMT
 
-Before you migrate your files, decide how you want your OneNote folders to appear. In **Settings**, go to **Migrate OneNote folders as OneNote notebook**.  The default setting is **Off**.
+Before you migrate your files, decide how you want your OneNote folders to appear. In **Settings**, go to **Migrate OneNote folders as OneNote notebook**. The default setting is **Off**.
 
 ![OneNote migration setting](media/onenote-settings.png)
 
