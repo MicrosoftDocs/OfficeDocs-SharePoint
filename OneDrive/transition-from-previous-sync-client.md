@@ -27,11 +27,14 @@ description: "Learn how to upgrade users from the previous OneDrive for Business
 
 # Transition from the previous OneDrive for Business sync app
 
+> [!IMPORTANT]
+> Support for the previous OneDrive for Business sync app (Groove.exe) will end on January 11, 2021. On February 1, 2021, users will no longer be able to sync OneDrive or SharePoint files in Microsoft 365 by using Groove.exe. Groove.exe will continue to work only for files in SharePoint Server.
+
 This article is for global and SharePoint admins who want to transition their users off of the previous OneDrive for Business sync app (Groove.exe) so that they sync with only the new OneDrive sync app (OneDrive.exe).
   
 If you're not an IT admin, to learn how to begin syncing files using the new OneDrive sync app, see [Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49).
   
-> [!IMPORTANT]
+> [!NOTE]
 > If your organization never used the previous OneDrive for Business sync app, or had fewer than 250 licensed Office 365 users in June 2016, your users are already using the new OneDrive sync app to sync files in OneDrive and SharePoint.
   
   
@@ -118,6 +121,6 @@ To help your users get started with the OneDrive sync app, you can refer them to
 
 - [Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49)
 
-- [Get started with the new OneDrive sync app on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f)
+- [Get started with the new OneDrive sync app for Mac](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f)
 
 - [Sync SharePoint files with the new OneDrive sync app](https://support.office.com/article/6de9ede8-5b6e-4503-80b2-6190f3354a88)

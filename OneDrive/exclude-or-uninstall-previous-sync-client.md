@@ -1,5 +1,5 @@
 ---
-title: "Changes to OneDrive sync app deployment in Office Click-to-Run"
+title: "Control Groove.exe installation when deploying Office using Click-to-Run"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
@@ -19,27 +19,28 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.assetid: 3eff17b9-c709-462f-946c-17719af68aca
-description: "Learn about the changes to how the previous OneDrive for Business sync app is included in Office 2016 Click-to-Run installations."
+description: "Learn how the previous OneDrive for Business sync app (Groove.exe) is excluded or uninstalled with Office Click-to-Run installations."
 ---
 
-# Changes to OneDrive sync app deployment in Office Click-to-Run
+# Control Groove.exe installation when deploying Office using Click-to-Run
 
-Starting in October 2017, we've changed how the previous OneDrive for Business sync app installs for enterprise customers using Microsoft 365 Apps for enterprise or Office 2016 with [Click-to-Run](https://go.microsoft.com/fwlink/p/?LinkId=526674).
+> [!IMPORTANT]
+> Support for the previous OneDrive for Business sync app (Groove.exe) will end on January 11, 2021. On February 1, 2021, users will no longer be able to sync OneDrive or SharePoint files in Microsoft 365 by using Groove.exe. Groove.exe will continue to work only for files in SharePoint Server.
+
+Starting in October 2017, we changed how the previous OneDrive for Business sync app installs for enterprise customers who deploy Office 2013 or 2016 by using Click-to-Run.
   
-- The previous sync app (Groove.exe) will no longer be installed by default with Office 2016 Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
+- The previous sync app (Groove.exe) is no longer installed by default with Office 2016 Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you need to update your file to exclude Groove.exe from the install.
 
-- When not in use or running, the previous sync app (Groove.exe) will be uninstalled, unless: (a) Groove is already configured to sync one or more SharePoint or SharePoint Server libraries or (b) a "PreventUninstall" registry key is present on the computer.
+- When not in use or running, the previous sync app (Groove.exe) is uninstalled, unless: (a) Groove.exe is already configured to sync one or more SharePoint or SharePoint Server libraries or (b) a "PreventUninstall" registry key is present on the computer.
 
-These changes won't affect customers who are already using the new OneDrive sync app (OneDrive.exe) to sync OneDrive and SharePoint files. Neither will these changes affect enterprises who have deployed Office with the traditional Windows Installer-based (MSI) method.
+These changes don't affect your organization if you're already using the new OneDrive sync app (OneDrive.exe) to sync OneDrive and SharePoint files. These changes also don't affect your organization if you deploy Office using the traditional Windows Installer-based (MSI) method.
   
 > [!NOTE]
-> The new OneDrive sync app (OneDrive.exe) is the recommended option for Microsoft 365 and SharePoint Server 2019+ customers. However, the previous sync app (Groove.exe) is still fully supported and is used for on-premises instances of OneDrive or SharePoint Server. [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
+> The new OneDrive sync app (OneDrive.exe) is the recommended option for SharePoint Server 2019 customers. However, the previous sync app (Groove.exe) is still used and supported for earlier versions of SharePoint Server. [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
   
-## Ensuring Groove.exe is no longer installed
+## Ensure Groove.exe is no longer installed
 
-When these changes roll out, the previous sync app (Groove.exe) will no longer be installed by default when a user installs Office 2016 via Click-to-Run. If your organization provides an Office deployment configuration file to Setup.exe, you'll need to update your file to exclude Groove from the install.
-  
-To exclude Groove in your deployment, add this to your config file:
+If your organization provides an Office deployment configuration file to Setup.exe, add this to your config file to exclude Groove in your deployment:
   
 ```
 <Product ID="O365ProPlusRetail" >
@@ -52,33 +53,29 @@ For more info about configuration options, see [Configuration options for the Of
   
 To override the default behavior and make sure the previous OneDrive for Business sync app installs and stays installed, you must provide a config file that doesn't exclude Groove.exe. Also, you must set the "PreventUninstall" registry key on all computers where you need Groove.exe installed, so that the process doesn't uninstall Groove.exe.
   
-## Uninstalling Groove when not in use
+## Uninstall Groove.exe when not in use
 
 On Office upgrade, the installer runs on each computer to detect whether Groove.exe is currently in use or the "PreventUninstall" registry key is set. If either Groove.exe is in use or the registry key is set, Groove.exe is left in place. Otherwise, if Groove.exe isn't in use and the registry key isn't set, Groove.exe gets uninstalled automatically on that computer.
   
-### Registry key to prevent uninstallation
+### Prevent uninstallation (registry key)
 
 [HKLM\SOFTWARE\Microsoft\Office\Groove] "PreventUninstall"=dword:00000001
   
-## Who these changes affect and when
+## Timeline
 
-These changes will affect organizations who have deployed the previous OneDrive for Business sync app to sync on-premises SharePoint libraries, or libraries that have Information Rights Management enabled on them.
-  
-The following table shows more detail about which Office installations are affected by these changes and when. All these changes are Office client-level changes rolled out across clients, and are not turned on organization by organization.
+The following table shows more detail about which Office installations were affected by these changes and when. 
   
 |**Office version**|**Groove.exe is no longer installed by default**|**Groove.exe is uninstalled on next update if not in use for 30 days**|
 |:-----|:-----|:-----|
 |MSI (all versions)  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |Office 2013 Click-to-Run  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|Office 2016 Click-to-Run - Office Insider channel  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |
-|Office 2016 Click-to-Run - Monthly channel  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |
-|Office 2016 Click-to-Run - Semi-annual channel (Targeted)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
-|Office 2016 Click-to-Run - Semi-annual channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
+|Office 2016 Click-to-Run - Office Insider  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |
+|Office 2016 Click-to-Run - Monthly Channel  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |
+|Office 2016 Click-to-Run - Semi-Annual Channel (Targeted)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
+|Office 2016 Click-to-Run - Semi-Annual Channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
 
 For more info about Office channels, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus-for-enterprise).
   
-Unless you need Groove.exe for some of your scenarios (for example, syncing on-premises SharePoint files), we strongly recommend leaving the new defaults in place and excluding Groove.exe from Office 2016 installations.
-  
-## Related Topics
+## Related topics
 
 [Learn more about the Sync button update on SharePoint sites](https://support.office.com/article/9762aef3-d17f-4486-aae3-9c20bb979cbf)
