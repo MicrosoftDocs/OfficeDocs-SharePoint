@@ -68,14 +68,12 @@ To transition users off of the previous sync app, first make sure users have:
 - A current version of the new OneDrive sync app installed. For info about deploying the new OneDrive sync app, see [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](deploy-on-windows.md). OneDrive.exe must be deployed and configured before you try the takeover command. [Download the latest version of the new OneDrive sync app that's fully released to production](https://go.microsoft.com/fwlink/p/?linkid=844652). To learn about the versions that are rolling out to different rings, see [New OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
 
 - The following versions of Office or higher installed. For info about deploying Office, see [Choose how to deploy Microsoft 365 Apps for enterprise](/DeployOffice/plan-office-365-Apps-for-enterprise). Make sure you don't install the previous OneDrive for Business sync app. For info, see [Changes to OneDrive sync app deployment in Office Click-to-Run](exclude-or-uninstall-previous-sync-client.md).
-    
-    |||
-    |:-----|:-----|
-    |Office version  <br/> |Minimum version  <br/> |
+
+    |Office version  |Minimum version  |
+    |---------|---------|
     |Microsoft 365 Apps for enterprise  <br/> |16.0.7167.2\*  <br/> |
     |Office 2016 MSI  <br/> |16.0.4432.1\*  <br/> |
     |Office 2013 MSI/C2R  <br/> |15.0.4859.1\*  <br/> |
-
 
    > [!NOTE]
    > If any users have Office 2010 installed, we strongly recommend removing the SharePoint Workspace component. If users previously set up SharePoint Workspace (even if they're no longer using it), it will cause problems syncing team sites. Before starting OneDrive Setup, either [Uninstall Office from a PC](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8#OfficeVersion=2010) or modify the installation. To do this by running Setup, first create the following XML file:
