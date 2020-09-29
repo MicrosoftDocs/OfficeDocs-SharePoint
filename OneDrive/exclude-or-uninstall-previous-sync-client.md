@@ -64,9 +64,10 @@ On Office upgrade, the installer runs on each computer to detect whether Groove.
 ## Timeline
 
 The following table shows more detail about which Office installations were affected by these changes and when. 
-  
+
+
 |**Office version**|**Groove.exe is no longer installed by default**|**Groove.exe is uninstalled on next update if not in use for 30 days**|
-|:-----|:-----|:-----|
+|---------|---------|---------|
 |MSI (all versions)  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |Office 2013 Click-to-Run  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |Office 2016 Click-to-Run - Office Insider  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |
