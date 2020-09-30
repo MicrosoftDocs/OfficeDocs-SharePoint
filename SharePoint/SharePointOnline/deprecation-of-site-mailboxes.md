@@ -38,10 +38,7 @@ Run the following command in Exchange PowerShell:
 ```Powershell
 # If you run this more than once, delete/rename the output file first because this command appends to it.
 # This is a single, long command line. It could take minutes or hours depending on the number of site mailboxes; thus, the countdown.
-$sms = Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited ; 
-$count = $sms.Count ; 
-$sms | %{ $count-- ; echo "$count" ; 
-Get-MailboxFolderStatistics $_.Identity -FolderScope Inbox | sort LastModifiedTime -Descending | ft Identity,LastModifiedTime >> c:\temp\sitemailboxes.txt}
+$sms = Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited;$count = $sms.Count; $sms | %{ $count-- ; echo "$count";Get-MailboxFolderStatistics $_.Identity -FolderScope Inbox | sort LastModifiedTime -Descending | ft Identity,LastModifiedTime >> c:\temp\sitemailboxes.txt};Write-Host "Open file c:\temp\sitemailboxes.txt to check the result"
 ```
 
 There are no commands to show if the site mailboxes are still active. The above example lists the number of site mailboxes that were recently updated. The details of the site mailboxes are stored in a file. 
