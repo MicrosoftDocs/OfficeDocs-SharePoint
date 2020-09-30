@@ -22,7 +22,7 @@ The site mailboxes are being retired and will be out of service and/or removed. 
 
 Run the following command in Exchange PowerShell:
 
-```Powershell
+```powershell
 Get-SiteMailbox -BypassOwnerCheck -ResultSize Unlimited | ft Name, WhenCreated, ClosedTime, SharePointUrl -AutoSize
 ```
 
@@ -35,7 +35,7 @@ For more information see, [Use policies for site closure and deletion](https://s
 
 Run the following command in Exchange PowerShell:
 
-```Powershell
+```powershell
 # If you run this more than once, delete/rename the output file first because this command appends to it.
 # This is a single, long command line. It could take minutes or hours depending on the number of site mailboxes; thus, the countdown.
 $sms = Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited;$count = $sms.Count; $sms | %{ $count-- ; echo "$count";Get-MailboxFolderStatistics $_.Identity -FolderScope Inbox | sort LastModifiedTime -Descending | ft Identity,LastModifiedTime >> c:\temp\sitemailboxes.txt};Write-Host "Open file c:\temp\sitemailboxes.txt to check the result"
@@ -50,7 +50,7 @@ There are no commands to show if the site mailboxes are still active. The above 
 
 Run the following command in Exchange PowerShell:
 
-```Powershell
+```powershell
 Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited | ft Name, Owners
 ```
 
@@ -69,6 +69,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 3. Click **Create a case**.
 
 4. In **New case** details pane, enter the following details:
+
    - Enter the **Case name** (mandatory).
    - Enter the **Case description** (optional).
 
@@ -85,35 +86,47 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 8. In the **New search** details pane, under the following tabs:
 
    a. In **Name your search** tab, do the following:
-      - Enter the **Name** (mandatory).
-      - Enter **Description** (optional).
-      - Click **Next**.
+   
+      1. Enter the **Name** (mandatory).
+      
+      1. Enter **Description** (optional).
+      
+      1. Click **Next**.
       
    b. In **Choose Locations** tab, do the following:
-      - Select **Specific locations**.
-      - In **Location**, click **Choose users, groups, or team**.
+   
+      1. Select **Specific locations**.
       
-        The **Edit locations** window is displayed.
-      - In **Edit locations** window, under **Exchange email**, click **Choose users, groups, or team**.
-      - Enter the name of the site mailbox to be exported.
-      - Check the confirmation box to ensure the site mailbox is added.
-      - Click **Choose** and then click **Done**.
-      - Under **SharePoint sites** option, click **Choose sites** to add the SharePoint site associated with the site mailbox.
-      - To find the SharePoint URL for the site mailbox, run the following command in PowerShell:
-
-        ```Powershell
-        Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited
-        ```
+      1. In **Location**, click **Choose users, groups, or team**.
+      
+         The **Edit locations** window is displayed.
         
-      - Enter the URL and check the confirmation box to ensure the URL is added.
-      - Click **Choose** and then click **Done**.
-      - Click **Next**.
+      1. In **Edit locations** window, under **Exchange email**, click **Choose users, groups, or team**.
+      
+      1. Enter the name of the site mailbox to be exported.
+      
+      1. Check the confirmation box to ensure the site mailbox is added.
+      
+      1. Click **Choose** and then click **Done**.
+      
+      1. Under **SharePoint sites** option, click **Choose sites** to add the SharePoint site associated with the site mailbox.
+      
+      1. To find the SharePoint URL for the site mailbox, run the following command in PowerShell:
+
+         ```powershell
+         Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited
+         ```
+        
+      1. Enter the URL and check the confirmation box to ensure the URL is added.
+      
+      1. Click **Choose** and then click **Done**.
+      
+      1. Click **Next**.
       
    c. In **Create query** tab, click **Finish**.
    
       >[!NOTE]
       > Leave the Condition card blank to ensure the entire mailbox content is searched. The search will take a while based on the amount of content.
-
 
 9. Once the search is complete, click **More** > **Export results**.
 
@@ -181,11 +194,11 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
    >[!NOTE]
    > Use Compliance center dashboard to download PST messages on your screen.
 
- >[!NOTE]
-  > - Folder with no email items inside them will not be exported.
-  > - The site mailboxes contain special folder named, "Documents", of type IPF.ShortcutFolder. This contains "links" to files that are on SP site. The actual SP files must be       exported using eDiscovery for SP sites.
-  > - Outlook shows the items inside the Documents folder as unsafe, this is an expected behaviour.
-  > - The document attachments in the emails of Documents folder are just place holder, the actual documents are stored in SharePoint.
+> [!NOTE]
+> - Folder with no email items inside them will not be exported.
+> - The site mailboxes contain special folder named, "Documents", of type IPF.ShortcutFolder. This contains "links" to files that are on SP site. The actual SP files must be       exported using eDiscovery for SP sites.
+> - Outlook shows the items inside the Documents folder as unsafe, this is an expected behaviour.
+> - The document attachments in the emails of Documents folder are just place holder, the actual documents are stored in SharePoint.
 
 ## Import site mailboxes
 
@@ -250,8 +263,9 @@ If the SharePoint site is deleted, Exchange is notified to also delete the site 
 
 For example, run the following command in Exchange PowerShell:
 
-```Powershell
+```powershell
 Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
 ```
-Use 'Remove-Mailbox' to delete a site mailbox. The system removes the site mailbox link from the SharePoint site when a site mailbox is deleted. In the example, change the 'MDEL' to the name of the site mailbox you want to delete.
+
+Use `Remove-Mailbox` to delete a site mailbox. The system removes the site mailbox link from the SharePoint site when a site mailbox is deleted. In the example, change the 'MDEL' to the name of the site mailbox you want to delete.
 
