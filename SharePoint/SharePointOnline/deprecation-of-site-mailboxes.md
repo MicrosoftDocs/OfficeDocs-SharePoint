@@ -47,7 +47,7 @@ Get-MailboxFolderStatistics $_.Identity -FolderScope Inbox | sort LastModifiedTi
 There are no commands to show if the site mailboxes are still active. The above example lists the number of site mailboxes that were recently updated. The details of the site mailboxes are stored in a file. 
 
 >[!NOTE]
-> The processing time varies based on the number of site mailboxes.
+> The processing time varies based on the number of site mailboxes. You open 'sitemailboxes.txt' to view the result of the command.
 
 ## To Identify the owners of site mailboxes
 
