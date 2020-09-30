@@ -164,7 +164,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
    > - eDiscovery Manager
    > - Organization Management
 
-3. Run the script 'ProcessSiteMailboxes.PS1' in PowerShell.
+3. Run the script 'process-site-mailboxes.ps1' in PowerShell.
 
 4. Enter the admin username and password when prompted.
 
