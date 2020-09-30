@@ -37,7 +37,7 @@
 ### [Create guidelines for site usage ](sites-usage-guidelines.md)
 ## [Navigation]()
 ### [Introduction](information-architecture-modern-experience.md)
-### [Principals](information-architecture-principles.md)
+### [Principles](information-architecture-principles.md)
 ### [Models and examples](information-architecture-models-examples.md)
 ### [Plan navigation design](plan-implement-navigation-design.md)
 ### [Implement site navigation](plan-navigation-modern-experience.md)
