@@ -85,7 +85,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 8. In the **New search** details pane, under the following tabs:
 
-   a. In **Name your search** tab, do the following:
+   1. In **Name your search** tab, do the following:
    
       1. Enter the **Name** (mandatory).
       
@@ -93,7 +93,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
       
       1. Click **Next**.
       
-   b. In **Choose Locations** tab, do the following:
+   1. In **Choose Locations** tab, do the following:
    
       1. Select **Specific locations**.
       
@@ -123,7 +123,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
       
       1. Click **Next**.
       
-   c. In **Create query** tab, click **Finish**.
+   1. In **Create query** tab, click **Finish**.
    
       >[!NOTE]
       > Leave the Condition card blank to ensure the entire mailbox content is searched. The search will take a while based on the amount of content.
