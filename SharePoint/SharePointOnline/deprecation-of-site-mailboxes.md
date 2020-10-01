@@ -56,7 +56,7 @@ Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited | ft Name, Owners
 
 ## Export site mailboxes through PST (Manually)
 
-You must have [Microsoft 365 admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) to access the [Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center?view=o365-worldwide). 
+You must have [Microsoft 365 admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) to access the [Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center). 
 
 For more information, see [Permissions and sharing](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
 
@@ -165,11 +165,11 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
   
 ## Export site mailboxes to PST (using script)
 
-1. Copy the process-site-mailboxes.ps1 to a working directory.
+1. Copy [process-site-mailboxes.ps1](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/spodownloads/process-site-mailboxes.ps1) to a working directory.
 
 2. Start Windows PowerShell in administrator mode.
 
-   For more information see, [Microsoft 365 admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+   For more information see, [Microsoft 365 admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
    
    >[!NOTE]
    > Ensure you have admin permissions for the following roles:
@@ -204,9 +204,9 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 For the site mailboxes to be accessible again for site owners, import the PST files to a mailbox. See one of the following topics for detailed, step-by-step instructions for bulk-importing your organization's PST files to Office 365.
 
-- [Use network upload to import PST files to Office 365](https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files?view=o365-worldwide)
+- [Use network upload to import PST files to Office 365](https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files)
 
-- [Use drive shipping to import PST files](https://docs.microsoft.com/microsoft-365/compliance/use-drive-shipping-to-import-pst-files-to-office-365?view=o365-worldwide)
+- [Use drive shipping to import PST files](https://docs.microsoft.com/microsoft-365/compliance/use-drive-shipping-to-import-pst-files-to-office-365)
 
 ## Use Exchange Web Services (EWS) APIs to extract mailbox content
 
