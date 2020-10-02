@@ -106,6 +106,7 @@ If you are unsure, navigate to your tenant's **M365 Learning Pathways administra
 
   ![Image learning pathways admin page](media/sss-lp-version.png)
 
+
 Then, select **About web part** to confirm the current version.
 
   ![Image learning pathways admin page version](media/sss-lp-elipses.png)
