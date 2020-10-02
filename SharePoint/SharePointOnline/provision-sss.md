@@ -23,12 +23,14 @@ description: "Provision the SharePoint Success Site"
 # Provision the SharePoint Success Site 
 
 Start the SharePoint Success Site provisioning process by understanding the prerequisites. Then, you can provision the site from the look book or Microsoft 365 learning pathways administration page. 
-Global administrator (formerly called the Tenant admin) credentials are required to start the provisioning process for the SharePoint Success Site. Before getting started, make sure you've met the prerequisites for provisioning. 
+Global administrator (formerly called the Tenant admin) credentials are required to start the provisioning process for the SharePoint Success Site. 
+
+Before getting started, make sure you've met the requirements for provisioning. 
 
 
-## Meet the prerequisites
+## Meet the requirements
 
-Before provisioning the SharePoint Success Site, meet the prerequisites for both the **person** provisioning and the **tenant.** Your tenant's configuration will determine what path you need to take to install the SharePoint Success Site. Start by reviewing the SharePoint Success Site prerequisites below to prepare your tenant. 
+Before provisioning the SharePoint Success Site, meet the requirements for both the **person** provisioning and the **tenant.** Your tenant's configuration will determine what path you need to take to install the SharePoint Success Site. Start by reviewing the SharePoint Success Site requirements below to prepare your tenant. 
 
 | Tenant admin role requirements | +  | Tenant requirements |  = | Ready to provision         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
@@ -66,7 +68,7 @@ The **tenant** where the site will be provisioned must have the [App Catalog](ht
 
 <br>
 
-Use this decision tree to determine your tenant’s path to meeting the **tenant** prerequisites
+Use this decision tree to determine your tenant’s path to meeting the **tenant** requirements
 
 ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
@@ -103,9 +105,13 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 
 <br>
 
-If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page**
+If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page** and select the the ellipses **(…)**
 
   ![Image learning pathways admin page](media/sss-lp-version.png)
+
+Then, select **About web part**
+
+  ![Image learning pathways admin page version](media/sss-lp-elipses.png)
 
 <br>
 
