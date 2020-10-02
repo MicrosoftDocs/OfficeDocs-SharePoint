@@ -91,18 +91,15 @@ The site creation guidelines page provides a starting point to educate new Site 
 
 ## Summary of how to launch a SharePoint Success Site
 
-**Step 1:** [Meet the pre-requisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) to provisioning the SharePoint Success Site
+**Step 1:** [Meet the pre-requisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then [provision](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
 <br> 
 
-**Step 2:** [Provision](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
+**Step 2:** [Customize](https://docs.microsoft.com/sharepoint/customize-sss) the site design, playlists, success stories, and site creation guidelines
 <br> 
 
-**Step 3:** [Customize](https://docs.microsoft.com/sharepoint/customize-sss) the site design, playlists, success stories, and site creation guidelines
-<br> 
-
-**Step 4:** Launch and [share the site](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) with others
-
+**Step 3:** Launch and [share the site](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) with others
 <br>
+
 
 #### Next steps - provision the SharePoint Success Site
 
@@ -126,8 +123,8 @@ Answer: The Global admin (formerly called the Tenant admin,) or Site owner pe
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
 <br>
 Answer: The Site collection administrator and Site owner permissions of M365 learning pathways.
-
 <br>
+
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
 Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
