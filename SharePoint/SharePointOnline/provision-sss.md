@@ -34,16 +34,11 @@ Before provisioning the SharePoint Success Site, meet the prerequisites for both
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
 
-
-Use this decision tree to determine your tenant’s path to meeting the **tenant** prerequisites:
-
-![Image of the M365 decision tree](media/sss-decision-tree-2.png)
-
 Have Global admin credentials, Administrative permission to the App Catalog, and are ready to get started provisioning? Review the [provisioning instructions](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1). 
 
 <br>
 
-#### The person doing the provisioning must meet the following pre-requisites:
+#### Tenant admin requirements
 
 The **person** doing the provisioning must be a Global admin (formerly called the Tenant admin) where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog.
 
@@ -63,20 +58,28 @@ If you are unsure, you can confirm your role by logging into office.com, you’l
 - **No** - Next, ask your Global admin to add you as an [App Catalog Administrator](https://docs.microsoft.com/office365/customlearning/addappadmin).
 
 	
-#### The tenant must meet the following provisioning pre-requisites:
+#### Tenant requirements
 
 The **tenant** where the site will be provisioned must have the [App Catalog](https://docs.microsoft.com/sharepoint/use-app-catalog) installed *and* have the latest version of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.). installed. Your tenant must have **version 4.0 or higher** of M365 learning pathways.
 
 | App Catalog installed | +  |M365 learning pathways 4.0 or higher installed | = | Tenant requirements met         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
+<br>
+
+Use this decision tree to determine your tenant’s path to meeting the **tenant** prerequisites
+
+![Image of the M365 decision tree](media/sss-decision-tree-2.png)
+
+<br>
 
 **Does your tenant have the App Catalog installed?**
 - **Yes** - Next, confirm you are an administrator of the App Catalog.
 - **No** - Next, [enable the App Catalog](https://www.bing.com/videos/search?q=where+to+find+the+app+catogue+in+sharepoint&docid=608008189208497248&mid=99CF7FB554B328AC189899CF7FB554B328AC1898&view=detail&FORM=VIRE) (this will take about 30 minutes).
 <br>
 <br>
-If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **App Catalog**:
+
+If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see the **App Catalog**
 
   ![Image active sites in the SharePoint admin center](media/sss-active-sites.png)
 
@@ -173,7 +176,7 @@ Once you’ve confirmed the following, you are ready to provision:
 ## Add Site owners 
 Assign a few Site owners to grant administrative privileges to customize the site and training content. In order to hide, show, or enable playlists, users will need Site owner permissions to the M365 learning pathways site. In order to edit the look, navigation, and site content, users will need Site owner permissions to the SharePoint Success Site. 
 
-**Add Site owners to both sites:**
+**Add Site owners to both sites**
 
 1. From the site select **Settings**, then select **Site permissions**.
 2. Select **Advanced Permission Settings**.
@@ -218,8 +221,8 @@ Answer: The Global admin (formerly called the Tenant admin,) or Site owner pe
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
 <br>
 Answer: The Site collection administrator and Site owner permissions of M365 learning pathways.
-
 <br>
+
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
 Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
