@@ -78,16 +78,15 @@ If you already have M365 learning Pathways version 4.0 *or greater* provisioned 
 
 
 ## Add Site owners 
+Assign a few Site owners to grant administrative privileges to customize the site and training content. In order to hide, show, or enable playlists, users will need Site owner or Site member permissions to the M365 learning pathways site. In order to edit the look, navigation, and site content, users will need Site owner or Site member permissions to the SharePoint Success Site. 
 
-Assign a few Site owners to grant administrative privileges to customize the site and training content. In order to hide, show, or enable playlists, users will need Site owner permissions to the M365 learning pathways site. In order to edit the look, navigation, and site content, users will need Site owner permissions to the SharePoint Success Site.
-
-**Add Site owners to both sites:**
+**Add Site owners or members to both sites**
 
 1. From the site select **Settings**, then select **Site permissions**.
 2. Select **Advanced Permission Settings**.
-3. Select **Site owners**.
-4. Select **New > Add users to this group**, and then add the people you want to be **Site owners**.
-5. Include a link to Explore the site in the sharing message, and then select **Share**.
+3. Select **Site owners** or **Site members**
+4. Select **New > Add users to this group**, and then add the people you want to be Site owners or Site members.
+5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
 
 ### Site provisioning help
@@ -124,8 +123,8 @@ Answer: The Global admin (formerly called the Tenant admin,) or Site owner pe
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
 <br>
 Answer: The Site collection administrator and Site owner permissions of M365 learning pathways.
-
 <br>
+
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
 Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
