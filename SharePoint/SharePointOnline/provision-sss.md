@@ -36,7 +36,6 @@ Before provisioning the SharePoint Success Site, meet the prerequisites for both
 
 Have Global admin credentials, Administrative permission to the App Catalog, and are ready to get started provisioning? Review the [provisioning instructions](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1). 
 
-<br>
 
 #### Tenant admin requirements
 
@@ -71,6 +70,9 @@ Use this decision tree to determine your tenant’s path to meeting the **tenant
 
 ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
+Ready to get started provisioning? eview the [provisioning instructions](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1). 
+
+
 <br>
 
 **Does your tenant have the App Catalog installed?**
@@ -96,12 +98,12 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see **Microsoft 365 learning pathways**.
  
 **Is your tenant's version of learning pathways version 4.0 or higher?**
-- **Yes** - You are ready to provision the SharePoint Success Site.
-- **No** - Update to version 4.0 or higher and provision the SharePoint Success Site from the M365 learning pathways administration page.
+- **Yes** - You are ready to [provision the SharePoint Success Site](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
+- **No** - Update to version 4.0 or higher and then provision the SharePoint Success Site from the M365 learning pathways administration page.
 
 <br>
 
-If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page**:
+If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page**
 
   ![Image learning pathways admin page](media/sss-lp-version.png)
 
