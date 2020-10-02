@@ -36,9 +36,6 @@ Before provisioning the SharePoint Success Site, meet the requirements for both 
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
 
-Have Global admin credentials, Administrative permission to the App Catalog, and are ready to get started provisioning? Review the [provisioning instructions](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1). 
-
-
 #### Tenant admin requirements
 
 The **person** doing the provisioning must be a Global admin (formerly called the Tenant admin) where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog.
@@ -182,14 +179,14 @@ Once you’ve confirmed the following, you are ready to provision:
 
 
 ## Add Site owners 
-Assign a few Site owners to grant administrative privileges to customize the site and training content. In order to hide, show, or enable playlists, users will need Site owner permissions to the M365 learning pathways site. In order to edit the look, navigation, and site content, users will need Site owner permissions to the SharePoint Success Site. 
+Assign a few Site owners to grant administrative privileges to customize the site and training content. In order to hide, show, or enable playlists, users will need Site owner or Site member permissions to the M365 learning pathways site. In order to edit the look, navigation, and site content, users will need Site owner or Site member permissions to the SharePoint Success Site. 
 
-**Add Site owners to both sites**
+**Add Site owners or members to both sites**
 
 1. From the site select **Settings**, then select **Site permissions**.
 2. Select **Advanced Permission Settings**.
-3. Select **Site owners**.
-4. Select **New > Add users to this group**, and then add the people you want to be Site owners.
+3. Select **Site owners** or **Site members**
+4. Select **New > Add users to this group**, and then add the people you want to be Site owners or Site members.
 5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
 
@@ -197,7 +194,7 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 
 #### Next steps - customize the SharePoint Success Site
 
-Share the URLs for the M365 learning pathways administration site and the SharePoint Success site with the Site owners who will be responsible for customizing the site. Then, [customize](https://docs.microsoft.com/sharepoint/customize-sss) M365 learning pathways playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
+Share the URLs for the M365 learning pathways administration site and the SharePoint Success site with the Site owners and members who will be responsible for customizing the site. Then, [customize](https://docs.microsoft.com/sharepoint/customize-sss) M365 learning pathways playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
 
 <br>
 
