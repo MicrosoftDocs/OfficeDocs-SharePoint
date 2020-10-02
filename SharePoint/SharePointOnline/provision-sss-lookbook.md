@@ -73,7 +73,7 @@ If you already have M365 learning Pathways version 4.0 *or higher* provisioned t
 11.	To confirm the SharePoint Success Site has been successfully provisioned, navigate to the site and select **Get Started > Plan your site**. You should see the web part on the page as shown in the following image:
 
 
-![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
+    ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
 
 12. Next, follow the steps below to add Site owners to the M365 learning pathways administration page and the SharePoint Success Site to grant access to others for site and content [customizations](https://docs.microsoft.com/sharepoint/customize-sss). 
