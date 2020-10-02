@@ -31,7 +31,7 @@ Once you confirm the person provisioning *and* the tenant being provisioned meet
 
 
 ## Start provisioning from the look book
-If you already have M365 learning Pathways version 4.0 *or greater* provisioned to your tenant, you can provision the SharePoint Success Site from the look book. If you aren't sure what version of M365 learning pathways is installed in your tenant, review the [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then provision the SharePoint Success Site. 
+If you already have M365 learning Pathways version 4.0 *or higher* provisioned to your tenant, you can provision the SharePoint Success Site from the look book. If you aren't sure what version of M365 learning pathways is installed in your tenant, review the [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then provision the SharePoint Success Site. 
 
 1. Go to the [look book](https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**.
 
@@ -72,7 +72,9 @@ If you already have M365 learning Pathways version 4.0 *or greater* provisioned 
 
 11.	To confirm the SharePoint Success Site has been successfully provisioned, navigate to the site and select **Get Started > Plan your site**. You should see the web part on the page as shown in the following image:
 
+
 ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
+
 
 12. Next, follow the steps below to add Site owners to the M365 learning pathways administration page and the SharePoint Success Site to grant access to others for site and content [customizations](https://docs.microsoft.com/sharepoint/customize-sss). 
 
