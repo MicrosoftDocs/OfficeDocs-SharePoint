@@ -43,6 +43,7 @@ Have Global admin credentials, Administrative permission to the App Catalog, and
 
 The **person** doing the provisioning must be a Global admin (formerly called the Tenant admin) where the SharePoint Success Site will be provisioned *and must also be* an Administrator of the tenant’s App Catalog.
 
+<br>
 
 | SharePoint Global admin role | +  | Admin of the App Catalog | = | Tenant admin requirements met         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
@@ -63,16 +64,18 @@ If you are unsure, you can confirm your role by logging into office.com, you’l
 
 The **tenant** where the site will be provisioned must have the [App Catalog](https://docs.microsoft.com/sharepoint/use-app-catalog) installed *and* have the latest version of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.). installed. Your tenant must have **version 4.0 or higher** of M365 learning pathways.
 
+<br>
+
 | App Catalog installed | +  |M365 learning pathways 4.0 or higher installed | = | Tenant requirements met         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
 <br>
 
-Use this decision tree to determine your tenant’s path to meeting the **tenant** requirements
+Use this decision tree to determine your tenant’s path to meeting the **tenant** requirements.
 
 ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
-Ready to get started provisioning? eview the [provisioning instructions](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1). 
+Ready to get started provisioning? Review the [provisioning instructions](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1). 
 
 
 <br>
@@ -95,7 +98,6 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 - **Yes** - Next, confirm you are using version 4.0 or higher.
 - **No** - [Provision M365 learning pathways](https://docs.microsoft.com/office365/customlearning/) for the first time.
 <br>
-<br>
 
 If you are unsure, navigate to the SharePoint admin center, then select **Sites > Active sites** and you will see **Microsoft 365 learning pathways**.
  
@@ -103,13 +105,11 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 - **Yes** - You are ready to [provision the SharePoint Success Site](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
 - **No** - Update to version 4.0 or higher and then provision the SharePoint Success Site from the M365 learning pathways administration page.
 
-<br>
-
 If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page** and select the the ellipses **(…)**
 
   ![Image learning pathways admin page](media/sss-lp-version.png)
 
-Then, select **About web part**
+Then, select **About web part** to confirm the current version.
 
   ![Image learning pathways admin page version](media/sss-lp-elipses.png)
 
