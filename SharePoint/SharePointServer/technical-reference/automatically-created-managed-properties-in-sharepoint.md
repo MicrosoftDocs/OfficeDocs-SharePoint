@@ -1,9 +1,9 @@
 ---
 title: "Automatically created managed properties in SharePoint Server"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 8/24/2017
 audience: ITPro
 f1.keywords:

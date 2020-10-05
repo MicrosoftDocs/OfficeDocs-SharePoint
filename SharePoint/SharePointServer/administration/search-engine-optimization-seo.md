@@ -1,9 +1,9 @@
 ---
 title: "Search Engine Optimization (SEO) in SharePoint Server"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 12/29/2016
 audience: ITPro
 f1.keywords:

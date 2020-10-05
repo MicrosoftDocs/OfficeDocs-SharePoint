@@ -1,9 +1,9 @@
 ---
 title: "SharePoint Health Analyzer rules reference for SharePoint Server 2016"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

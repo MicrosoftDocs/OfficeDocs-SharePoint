@@ -1,9 +1,9 @@
 ---
 title: "Set up OneDrive in a SharePoint Server on-premises environment"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 3/1/2018
 audience: ITPro
 f1.keywords:

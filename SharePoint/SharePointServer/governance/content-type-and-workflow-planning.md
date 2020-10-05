@@ -3,7 +3,7 @@ title: "Plan content types and workflows in SharePoint Server"
 ms.reviewer: 
 ms.author: toresing
 author: tomresing
-manager: pamgreen
+manager: serdars
 ms.date: 3/1/2018
 audience: ITPro
 f1.keywords:

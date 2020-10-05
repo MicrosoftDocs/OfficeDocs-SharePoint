@@ -78,8 +78,11 @@ Limiting access allows users to remain productive while addressing the risk of a
 > [!IMPORTANT] 
 > If you block or limit access from unmanaged devices, we recommend also blocking access from apps that don't use modern authentication. Some third-party apps and versions of Office prior to Office 2013 don't use modern authentication and can't enforce device-based restrictions. This means they allow users to bypass conditional access policies that you configure in Azure. In the new SharePoint admin center, on the Access control page, select **Apps that don't use modern authentication**, select **Block access**, and then select **Save**.
 
->[!NOTE]
-> If you limit access and edit a site from an unmanaged device, image web parts won't display images that that you upload to the site assets library or directly to the web part. To work around this issue, you can use this [SPList API](/previous-versions/office/sharepoint-server/mt796229(v%3Doffice.15)) to exempt the block download policy on the site assets library. This allows the web part to download images from the site assets library.
+> [!NOTE]
+> If you limit access and edit a site from an unmanaged device, image web parts won't display images that you upload to the site assets library or directly to the web part. To work around this issue, you can use this [SPList API](/previous-versions/office/sharepoint-server/mt796229(v%3Doffice.15)) to exempt the block download policy on the site assets library. This allows the web part to download images from the site assets library.
+
+> [!NOTE]
+> When Access Control for Unmanaged Devices in SharePoint is set to **Allow limited, web-only access**, SharePoint files cannot be downloaded but they can be previewed. The previews of Office files work in SharePoint but the previews do not work in Microsoft Yammer.
   
 ## Limit access using PowerShell
 
@@ -180,6 +183,8 @@ Blocking access and blocking download may impact the user experience in some app
 > Apps that run in "app-only" mode in the service, like antivirus apps and search crawlers, are exempted from the policy.
 > 
 > If you're using classic SharePoint site templates, site images may not render correctly. This is because the policy prevents the original image files from being downloaded to the browser. 
+>
+> For new tenants, apps using an ACS app-only access token is disabled by default. We recommend using the Azure AD app-only model which is modern and more secure. But you can change the behavior by running ‘set-spotenant -DisableCustomAppAuthentication $false' (needs the latest SharePoint admin PowerShell).
   
 ## Need more help?
 

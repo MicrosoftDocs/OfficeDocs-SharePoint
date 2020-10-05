@@ -1,9 +1,9 @@
 ---
 title: "Outbound e-mail has not been configured (SharePoint Server)"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 8/31/2017
 audience: ITPro
 f1.keywords:

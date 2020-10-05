@@ -1,9 +1,9 @@
 ---
 title: "Testing WAN connections for SharePoint 2013 architectures"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 f1.keywords:

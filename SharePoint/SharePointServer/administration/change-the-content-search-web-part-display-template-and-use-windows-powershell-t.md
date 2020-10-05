@@ -1,9 +1,9 @@
 ---
 title: "Change the Content Search Web Part display template and use Windows PowerShell to start Usage analytics in SharePoint Server"
 ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 3/8/2018
 audience: ITPro
 f1.keywords:

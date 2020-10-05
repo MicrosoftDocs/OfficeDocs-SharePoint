@@ -3,7 +3,7 @@ title: "Add content to a case and place sources on hold in the eDiscovery Center
 ms.reviewer: 
 ms.author: MARKJJO
 author: MARKJJO
-manager: pamgreen
+manager: serdars
 ms.date: 
 audience: ITPro
 f1.keywords:

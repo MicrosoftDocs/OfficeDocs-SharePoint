@@ -143,7 +143,7 @@ Content approval ensures that edits to pages meet company policies or standards.
 
 ### Scheduling
 
-Scheduling content to “go live” at specific times is a feature of classic publishing sites and now a feature of modern pages. To learn more about modern page scheduling, see [Schedule a SharePoint page or news post to go live at a specific time](https://support.microsoft.com/en-us/office/schedule-a-sharepoint-page-or-news-post-to-go-live-at-a-specific-time-4b81873c-9bbc-4307-b7ea-7b6662ff1af2).
+Scheduling content to “go live” at specific times is a feature of classic publishing sites and now a feature of modern pages. To learn more about modern page scheduling, see [Schedule a SharePoint page or news post to go live at a specific time](https://support.microsoft.com/office/schedule-a-sharepoint-page-or-news-post-to-go-live-at-a-specific-time-4b81873c-9bbc-4307-b7ea-7b6662ff1af2).
 
 **Moving from classic to modern pages**: At this time, there is not a way to change a classic page into a modern page without using a [multi-step code solution,](/sharepoint/dev/transform/modernize-userinterface-site-pages) which may work well for IT Admins and developers. If you are neither of those, we recommend you gradually start planning for and creating modern pages, as needed.
 

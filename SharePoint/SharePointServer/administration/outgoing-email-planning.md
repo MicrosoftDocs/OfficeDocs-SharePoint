@@ -1,9 +1,9 @@
 ---
 title: "Plan outgoing email for a SharePoint Server farm"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 06/22/2018
 audience: ITPro
 f1.keywords:

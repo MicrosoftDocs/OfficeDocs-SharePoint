@@ -1,9 +1,9 @@
 ---
 title: "Create a custom dictionary"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 07/07/2015
 audience: ITPro
 f1.keywords:
