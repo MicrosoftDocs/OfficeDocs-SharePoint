@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - seo-marvel-apr2020
