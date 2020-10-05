@@ -10,8 +10,6 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection: 
-- IT_Sharepoint_Server_Top
-- Strat_SP_gtc
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
@@ -39,7 +37,7 @@ Migration Manager authenticates to the destination tenant and then prompts for t
 
 ### Authentication 
 
-After opening the tool, the first thing you must do is authenticate to the destination:  the tenant where you will be migrating your files. Providing your username and password to the tenant associates the migration jobs you submit to this account. in Migration Manager, any Tenant Admin user or SharePoint Admin user logged in Tenant Admin center, they can see the same workspace - meaning the tasks, agents, and the FRE hide/show state... This account must be either a tenant administrator or SharePoint admin user in the destination you want to migrate. 
+Sign in to your tenant admin center as a either a tenant administrator or SharePoint admin user in the destination where you want to migrate content. The tenant associates the migration jobs you submit to this account.
 
 ### Scan
 After selecting Migrate, a scan is always performed on every file, even if you decide not to migrate your files (see Settings). The scan verifies that there is access to the data source and write access to the SharePoint destination. It also scans the files for known potential issues.
@@ -54,10 +52,10 @@ In the upload stage, the content package is uploaded to Azure with the manifest.
 ### Import
 During the import phase, the key is provided to SharePoint SAS. Only Azure and SharePoint are interacting to fetch and migrate the data to the destination. This process is a timer job-based but does not prevent other jobs from being queued up. A report is created in the working folder, and live updates are made during the import.
 
-After the migration job completes, a log file is stored on the agent computer or VM that ran the job. Reports are generated for the user and can be downloaded.  The reports are stored in the Tenant Admin site hidden document library.  Report files are cleared when the user deletes the tasks.
+After the migration job completes, reports are generated for the user and can be downloaded. Report files are cleared when the user deletes the tasks.
 
 ### Sessions
-The information of the session, including the tasks and settings, is saved in the Tenant Admin site hidden list.  To resume a paused task, the user clicks **Run** and Migration Manager will issue a command to the agent.  The agent will then resume the paused task.  If the migration was completed, clicking the Run button will restart the task with the same source, destination, and settings. 
+The session's information, including the tasks and settings, is saved in the Tenant Admin site hidden list. When you click **Run** to resume a paused task, Migration Manager issues a command to the agent. If the migration task has already completed, clicking **Run** restarts the task with the same source, destination, and settings. 
 
 
 ## Encryption and security
