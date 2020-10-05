@@ -74,3 +74,13 @@
 | 9/24/2020 | [Mover transfer status codes](/SharepointMigration/mover-transfer-status-codes) | modified |
 | 9/24/2020 | [Prerequisites and Endpoints for SharePoint Migration Tool](/SharepointMigration/spmt-prerequisites) | modified |
 | 9/24/2020 | [Migrate to SharePoint and OneDrive using PowerShell cmdlets](/SharepointMigration/overview-spmt-ps-cmdlets) | modified |
+
+
+## Week of September 28, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/28/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 9/30/2020 | [Available settings in SharePoint Migration Tool](/SharepointMigration/spmt-settings) | modified |
+| 10/2/2020 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |

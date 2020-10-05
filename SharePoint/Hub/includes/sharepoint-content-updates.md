@@ -438,3 +438,17 @@
 | 9/24/2020 | [Introduction to the SharePoint Success Site](/SharePoint/overview-sss) | modified |
 | 9/24/2020 | [Provision the SharePoint Success Site from the look book](/SharePoint/provision-sss-lookbook) | modified |
 | 9/25/2020 | [Engage audiences with workplace communication](/SharePoint/workplace-communications) | modified |
+
+
+## Week of September 28, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/28/2020 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
+| 9/29/2020 | [Modernize your root site](/SharePoint/modern-root-site) | modified |
+| 10/1/2020 | [deprecation of site mailboxes](/SharePoint/deprecation-of-site-mailboxes) | modified |
+| 10/2/2020 | [Customize the SharePoint Success Site](/SharePoint/customize-sss) | modified |
+| 10/2/2020 | [Introduction to the SharePoint Success Site](/SharePoint/overview-sss) | modified |
+| 10/2/2020 | [Provision the SharePoint Success Site from the look book](/SharePoint/provision-sss-lookbook) | modified |
+| 10/2/2020 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
