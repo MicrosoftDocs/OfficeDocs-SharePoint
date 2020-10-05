@@ -78,7 +78,7 @@ For Configuration Manager, to detect the install, use the following registry det
 
 |Field|Value|
 |---|---|
-|Hive|   HKEY_LOCAL_MACHINE|
+|Hive|   HKEY_CURRENT_USER|
 |Key|    SOFTWARE\Microsoft\OneDrive|
 |Value|  Version|
 |32bit on 64bit| TRUE|

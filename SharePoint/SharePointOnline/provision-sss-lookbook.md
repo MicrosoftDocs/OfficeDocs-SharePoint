@@ -24,7 +24,7 @@ description: "Provision the SharePoint Success Site from the look book"
 
 Once you confirm the person provisioning *and* the tenant being provisioned meet the following [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites), you are ready to provision:
 
-- You are using *at minimum* SharePoint administrator credentials
+- You are using Global admin credentials
 - Your tenant has the App Catalog installed
 - You are an Administrator of the App Catalog
 - Your tenant has version 4.0 or higher of the M365 learning pathways provisioned
@@ -53,7 +53,7 @@ If you already have M365 learning Pathways version 4.0 *or higher* provisioned t
 
     ![Image of the M365 learning pathways admin page](media/sss-sss-admin.png)
 
-7.	Select the … (ellipse), then select **Add to Content Pack**.
+7.	Select the ellipse **(…)**, then select **Add to Content Pack**.
 
 8.	Select **SharePoint Success Site**.
 
@@ -72,22 +72,23 @@ If you already have M365 learning Pathways version 4.0 *or higher* provisioned t
 
 11.	To confirm the SharePoint Success Site has been successfully provisioned, navigate to the site and select **Get Started > Plan your site**. You should see the web part on the page as shown in the following image:
 
+
     ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
-12. Next, follow the steps below to add site owners to the M365 learning pathways administration page and the SharePoint Success Site to grant access to others for site and content [customizations](https://docs.microsoft.com/sharepoint/customize-sss). 
+
+12. Next, follow the steps below to add Site owners to the M365 learning pathways administration page and the SharePoint Success Site to grant access to others for site and content [customizations](https://docs.microsoft.com/sharepoint/customize-sss). 
 
 
 ## Add Site owners 
+Assign a few Site owners to grant administrative privileges to customize the site and training content. In order to hide, show, or enable playlists, users will need Site owner or Site member permissions to the M365 learning pathways site. In order to edit the look, navigation, and site content, users will need Site owner or Site member permissions to the SharePoint Success Site. 
 
-Assign a few Site owners to grant administrative privileges to customize the site and training content. In order to hide, show, or enable playlists, users will need Site owner permissions to the M365 learning pathways site. In order to edit the look, navigation, and site content, users will need Site owner permissions to the SharePoint Success Site.
-
-**Add Site owners to both sites:**
+**Add Site owners or members to both sites**
 
 1. From the site select **Settings**, then select **Site permissions**.
 2. Select **Advanced Permission Settings**.
-3. Select **Site owners**.
-4. Select **New > Add users to this group**, and then add the people you want to be **Site owners**.
-5. Include a link to Explore the site in the sharing message, and then select **Share**.
+3. Select **Site owners** or **Site members**
+4. Select **New > Add users to this group**, and then add the people you want to be Site owners or Site members.
+5. Include a link to **Explore the site** in the sharing message, and then select **Share**.
 
 
 ### Site provisioning help
@@ -100,7 +101,7 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 
 ### Next steps - customize the SharePoint Success Site
 
-[Customize](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
+[Customize](https://docs.microsoft.com/sharepoint/customize-sss) playlist content and the look and feel of your SharePoint Success Site to meet the needs of your organization.
 
 <br>
 
@@ -111,24 +112,22 @@ Assign a few Site owners to grant administrative privileges to customize the sit
 Answer: Yes, follow the guidance on how to [provision from the M365 learning pathways admin page](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
 <br>
 
-**Question: Who has permission to provision the SharePoint Success Site?**
+**Question: Who has permission to provision the SharePoint Success Site?**
 <br>
-Answer: SharePoint administrator credentials or higher are required.
-<br>
-
-**Question: Who has permission to customize the site template?**
-<br>
-Answer: The SharePoint administrator or site level Site owner or Site member permissions.
+Answer: The Global admin (formerly called the Tenant admin) are required.
 <br>
 
-**Question: Who can create custom playlists and hide/show content in M365 learning pathways?**
+**Question: Who has permission to customize the site template?**
 <br>
-Answer:
-Site collection administrator for M365 learning pathways and SharePoint Site owner or Site member permissions for M365 learning pathways.
+Answer: The Global admin (formerly called the Tenant admin,) or Site owner permissions.
+<br>
+
+**Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
+<br>
+Answer: The Site collection administrator and Site owner permissions of M365 learning pathways.
 <br>
 
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
-Answer:
-Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
+Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
 
