@@ -2,8 +2,9 @@
 ## File share  migration (Migration Manager)
 ### Migration Manager
 #### [Get started](mm-get-started.md)
-#### [Government cloud configuration](mm-gov-cloud.md)
 #### [Set up Migration Manager agents](mm-setup-clients.md)
+#### [Government cloud configuration](mm-gov-cloud.md)
+#### [How Migration Manager works](mm-how-it-works.md)
 #### [Migration Manager settings](mm-settings.md)
 #### [Format a CSV or JSON file for bulk upload using Migration Manager](mm-bulk-upload-format-csv-json.md)
 #### [Migration Manager Reports](mm-reports.md)

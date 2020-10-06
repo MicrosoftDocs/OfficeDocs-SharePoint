@@ -16,7 +16,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: 
 ms.assetid: f6d49e94-ad29-456d-8cd9-f940154d5a0e
 description: "Learn how to configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server."
