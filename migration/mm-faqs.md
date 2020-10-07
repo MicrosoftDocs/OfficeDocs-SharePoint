@@ -41,7 +41,7 @@ Answer: The logs are stored here:  C:\Users\<Username>\AppData\Roaming\Microsoft
 *Answer: Yes. When entering the **source path** into the text box, you are allowed a maximum of 255 characters.  However, during migration the **file path** can be up to 32,767 characters in length.  After it is migrated into SPO, the path is limited to 400 characters.
 
 **Question:** Can I rename my temporary working folder?</br>
-Answer: No, at this time the temporary working folder cannot be renamed.  It is  `%appdata%\Microsoft\SPMigration`. </br></br>
+Answer: No, at this time the temporary working folder cannot be renamed.  It is  `%appdata%\Microsoft\SPMigration`.
 
 **Question:** Can Migration Manager migrate content to non-English SharePoint sites?</br>
 Answer: Yes, Migration Manager can migrate content to non-English sites as long as the site title doesn’t include non-EN characters. </br>
