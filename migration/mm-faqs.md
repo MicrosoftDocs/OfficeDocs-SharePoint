@@ -44,10 +44,10 @@ Answer: The logs are stored here:  C:\Users\<Username>\AppData\Roaming\Microsoft
 Answer: No, at this time the temporary working folder cannot be renamed.  It is  `%appdata%\Microsoft\SPMigration`. </br></br>
 
 **Question:** Can Migration Manager migrate content to non-English SharePoint sites?</br>
-Answer: Yes, Migration Manager can migrate content to non-English sites as long as the site title doesn’t include non-EN characters. </br></br>
+Answer: Yes, Migration Manager can migrate content to non-English sites as long as the site title doesn’t include non-EN characters. </br>
 
-**Question:** What happens when you "pause" a  task?</br>
-Answer: Pausing a task does not release the agent to another task. The agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted. </br></br>
+**Question:** What happens when you "pause" a task?</br>
+Answer: Pausing a task does not release the agent to another task. The agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted. </br>
 
 **Question:** How long does an agent stay connected to Migration Manager?</br>
 Answer:  The connection between an agent and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. If the agent does becomes disconnected, the agent holds the token to the Migration Manager for up to 7 days. After which the agent will need to be reinstalled.
@@ -55,14 +55,14 @@ Answer:  The connection between an agent and Migration Manager stays active as l
 **Question:**  Is Migration Manager available for Government clouds?</br>
 Answer:  Yes. Here's how you configure it: [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-gov-cloud)
 
-**Question:**   What’s the retention policy for the blog storage?
+**Question:**   What’s the retention policy for the blog storage?</br>
 Answer:  When using the Migration API, the customers/ISVs can either use the SPO provided blob containers/queues or their containers/queues created within their Azure subscriptions. If you choose to use the SPO provided ones, you will get SAS URIs to access those, which are valid for three days from creation for containers and 21 days for queues. After the SAS expiry, the content in the blob containers/queues will not be accessible. SPO backend jobs will delete the content in the container/queues within 30 to 90 days of the creation.
 
  
-**Question:**  Is the data in the SPO provided containers encrypted?
+**Question:**  Is the data in the SPO provided containers encrypted?</br>
 Answer: Yes. We mandate that the data uploaded to SPO provided containers must be encrypted using AES CBC to ensure the data is secure. To learn more, see: [OneDrive for Business and SharePoint Online Migration API encryption](Mhttps://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-encryption).
 
-**Question:**  Will my migration succeed if the temporary storage expires before migration?
+**Question:**  Will my migration succeed if the temporary storage expires before migration?</br>
 Answer:  If you chose temporary storage, and is deleted after the expiration window, the data will still be migrated to SPO as long as the migration task is successful.
 
 
