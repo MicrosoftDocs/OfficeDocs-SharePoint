@@ -56,7 +56,7 @@ Answer:  The connection between an agent and Migration Manager stays active as l
 Answer:  Yes. Here's how you configure it: [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-gov-cloud)
 
 **Question:**   What’s the retention policy for the blog storage?</br>
-Answer:  When using the Migration API, the customers/ISVs can either use the SPO provided blob containers/queues or their containers/queues created within their Azure subscriptions. If you choose to use the SPO provided ones, you will get SAS URIs to access those, which are valid for three days from creation for containers and 21 days for queues. After the SAS expiry, the content in the blob containers/queues will not be accessible. SPO backend jobs will delete the content in the container/queues within 30 to 90 days of the creation.
+Answer:  When using the Migration API, the customers/ISVs can either use the [SPO provided blob containers/queues](https://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-azure-container-and-queue) or their containers/queues created within their Azure subscriptions. If you choose to use the SPO provided ones, you will get [SAS URIs](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview) to access those, which are valid for three days from creation for containers and 21 days for queues. After the SAS expiry, the content in the blob containers/queues will not be accessible. SPO backend jobs will delete the content in the container/queues within 30 to 90 days of the creation.
 
  
 **Question:**  Is the data in the SPO provided containers encrypted?</br>
