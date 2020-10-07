@@ -35,6 +35,6 @@ When performing look-ups, this is the pattern used for matching:
 |PartialMatch  <br/> |Source Identity Display Name equals the Display Name in Azure Active Directory.  <br/> |
 |NoMatch  <br/> |Unable to perform neither ExactMatch or PartialMatch.  <br/> |
    
-We use ADAL to authenticate the operator to Azure Active Directory. This requires consent for the application to read the Azure Active Directory. In order to ensure there is consent prior to running the scans, the tool will perform a pre-flight validation check which involves authenticating to Azure. This will enable the operator to avoid running a long scan process if all the prerequisites have not been met. See \<Link to consent info\> for more information.
+We use ADAL to authenticate the operator to Azure Active Directory. This requires consent for the application to read the Azure Active Directory. In order to ensure there is consent prior to running the scans, the tool will perform a pre-flight validation check which involves authenticating to Azure. This will enable the operator to avoid running a long scan process if all the prerequisites have not been met. See [SharePoint Migration Identity Mapping Tool - Pre-flight validation checks](https://docs.microsoft.com/sharepointmigration/sharepoint-migration-identity-mapping-tool#pre-flight-validation-checks) for more information.
   
 
