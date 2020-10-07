@@ -59,8 +59,8 @@ If you've [turned on audit log search](/office365/securitycompliance/turn-audit-
  
 ### Limitations
 
-- The site you select as the new root site must be a communication site (SITEPAGEPUBLISHING#0) or a modern team site that isn't connected to a Microsoft 365 group (STS#3). 
-- The root site can't be connected to a Microsoft 365 group. 
+- The site you select as the new root site must be a communication site (SITEPAGEPUBLISHING#0) or a modern team site that isn't connected to a Microsoft 365 group (STS#3) and where **the publishing feature has never been activated.**
+- The current root site can't be connected to a Microsoft 365 group.
 - When you replace the root site, both the current site and the new site can't be hub sites or associated with a hub. If either site is a hub site, unregister it as a hub site, replace the root site, and then re-register the site as a hub site. If either site is associated with a hub, disassociate the site, replace the root site, and then reassociate the site. [Learn how to manage hubs in the new SharePoint admin center](manage-sites-in-new-admin-center.md#change-a-sites-hub-association)
 - Replacing the root site with another site replaces the entire site collection with the new site collection. If your current root site has subsites, they'll be archived. 
 - The site you select as the new root site must be within the same domain as the current root site.
@@ -98,4 +98,3 @@ We recommend replacing the root site at a time when site usage is low.
 
 > [!NOTE]
 > For info about using PowerShell to replace (swap) the root site, see [Invoke-SPOSiteSwap](/powershell/module/sharepoint-online/invoke-spositeswap).<br>Project Server sites might need to be validated to make sure they're still associated correctly.
-
