@@ -1,6 +1,6 @@
 ---
 title: "Enable TLS 1.1 and TLS 1.2 support in SharePoint Server 2016"
-ms.reviewer: 
+ms.reviewer: niklase
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -500,7 +500,7 @@ To install the WinHTTP KB update, follow the instructions from the KB article [U
   "DefaultSecureProtocols"=dword:00000A80
   ```
 
-    For **32-bit operating system**
+:    **For 32-bit operating system**
     
   ```
   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp]
@@ -584,7 +584,7 @@ Microsoft has released an optional security update for .NET Framework 4.5, 4.5.1
   "SchUseStrongCrypto"=dword:00000001
   ```
 
-    **For 32-bit operating system**
+:    **For 32-bit operating system**
     
   ```
   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
@@ -656,7 +656,7 @@ No update needs to be installed. Configure the Windows Registry keys as describe
   "SystemDefaultTlsVersions"=dword:00000001
   ```
 
-    **For 32-bit operating system**
+:    **For 32-bit operating system**
     
   ```
   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
@@ -706,7 +706,7 @@ To enable strong cryptography in .NET Framework 3.5 on Windows 8.1 and Windows S
   "SchUseStrongCrypto"=dword:00000001
   ```
 
-    **For 32-bit operating system**
+:    **For 32-bit operating system**
     
   ```
   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
