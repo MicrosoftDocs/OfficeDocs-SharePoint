@@ -61,6 +61,6 @@ Answer:  When using the Migration API, the customers/ISVs can either use the [SP
 **Question:**  Is the data in the SPO provided containers encrypted?</br>
 Answer: Yes. We mandate that the data uploaded to SPO provided containers must be encrypted using AES CBC to ensure the data is secure. To learn more, see: [OneDrive for Business and SharePoint Online Migration API encryption](Mhttps://docs.microsoft.com/en-us/sharepoint/dev/apis/migration-api-encryption).
 
-**Question:**  Will my migration succeed if the temporary storage expires before migration?</br>
-Answer: Yes. If your migration task was successful, your data will be migrated to SPO even if the temporary storage has expired before the migration is complete.
+**Question:**  Will my migration succeed if the temporary storage expires before content migration is complete?</br>
+Answer: Yes. If your migration task was successful, your data will be migrated to SPO even if the temporary storage has expired.
 
