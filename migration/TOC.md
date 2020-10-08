@@ -7,6 +7,7 @@
 #### [How Migration Manager works](mm-how-it-works.md)
 #### [Migration Manager settings](mm-settings.md)
 #### [Format a CSV or JSON file for bulk upload using Migration Manager](mm-bulk-upload-format-csv-json.md)
+#### [Create a user mapping file for Migration Manager](mm-user-mapping-file.md)
 #### [Migration Manager Reports](mm-reports.md)
 #### [FAQs](mm-faqs.md)
 #### [Troubleshooting Migration Manager](mm-troubleshoot.md)
