@@ -23,7 +23,7 @@ description: Learn how to set a conditional access policy in the Azure AD admin 
 
 These steps in the Azure AD admin center tell Azure to use the SharePoint site-level settings you specify in PowerShell.
   
-1. On the [Conditional Access | Policies page](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) of the Azure AD admin center, select select **New policy**.
+1. On the [Conditional Access | Policies page](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) of the Azure AD admin center, select **New policy**.
 
     ![Conditional access policies in the Azure AD admin center](media/azure-ca-new-policy.png)
     
