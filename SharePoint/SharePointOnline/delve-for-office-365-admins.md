@@ -55,12 +55,13 @@ What users see in Delve is influenced by which release program you've chosen for
 ## Control access to Delve and related features
 <a name="BKMK_DelveOnOff"> </a>
 
-You control access to Delve from the SharePoint admin center. By default, users in your organization have access to Delve. They also have access to certain features in other apps that are powered by the Office Graph, such as the "Suggested" list on the SharePoint start page, and the "Discover" list in OneDrive. When you enable or disable Delve, these other features are also affected. 
+You control access to Delve from the SharePoint admin center. By default, users in your organization have access to Delve. They also have access to certain features in other apps that are powered by the Office Graph, such as the "Suggested" list on the SharePoint start page. When you enable or disable Delve, these other features are also affected. 
 
 If you disable Delve, users will no longer see:
 - The Delve app tile in the app launcher.
-- The "Suggested" list on the SharePoint start page.
-- The "Discover" list in OneDrive, in the Outlook mobile app, and on the Microsoft Office Home page.
+- Suggested sites on the SharePoint start page
+- The Recommended feed in the Outlook mobile app.
+- Recommended documents on the Microsoft Office Home page.
 - Documents on other users' profile cards and pages.
 
  For more info, see [What is the effect of enabling or disabling Delve and related features?](delve-for-office-365-admins.md#BKMK_EffectOfficegraphOnOff). 
@@ -290,9 +291,10 @@ If you choose to disable Delve for your organization, Delve will be removed from
 
 If Delve is enabled, users also have access to related features in other apps that are powered by the Office Graph. If you disable Delve, users can no longer see these features:
 
-- The "Suggested" list on the SharePoint start page
-- The "Discover" list in OneDrive, in the Outlook mobile app, and on the Microsoft Office Home page
-- Documents on other users' profile cards and profile pages
+- Suggested sites on the SharePoint start page
+- The Recommended feed in the Outlook mobile app.
+- Recommended documents on the Microsoft Office Home page.
+- Documents on other users' profile cards and pages.
 
 If you disable Delve, users will not have access to the following APIs:
 
