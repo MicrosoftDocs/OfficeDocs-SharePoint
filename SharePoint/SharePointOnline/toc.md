@@ -67,6 +67,7 @@
 ### [Set up a home site](home-site.md)
 ### [Create an organization assets library](organization-assets-library.md)
 ### [Create an organization news site](organization-news-site.md)
+### [Retirement of site mailboxes](deprecation-of-site-mailboxes.md)
 ## [Sync]()
 ### [File sync overview](sharepoint-sync.md)
 ### [OneDrive guide for enterprises](/onedrive/plan-onedrive-enterprise?toc=/SharePoint/toc.json&bc=/SharePoint/breadcrumb/toc.json)
