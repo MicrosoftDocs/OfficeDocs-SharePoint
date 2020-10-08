@@ -31,7 +31,7 @@ You control both of these settings by using Microsoft PowerShell.
 
 If you change this setting, when users create a list, they must select a SharePoint site for saving the list. The "Save to" setting doesn't include the "My lists" option. 
 
-|**Default**|**Personal list creation disabled**|
+| Default | Personal list creation disabled |
 |:-----|:-----|
 |![The Save to setting includes the My lists option](media/save-my-lists.png) |![The Save to setting requires users to select a site](media/save-list-site.png)|
   
@@ -45,7 +45,7 @@ If you change this setting, when users create a list, they must select a SharePo
 3. Run the following command:
   
     ```PowerShell
-    Set-SPOTenant -DisablePersonalListCreation $true​ 
+    Set-SPOTenant -DisablePersonalListCreation $true
     ```
 
 To re-enable the creation of personal lists, set the parameter to `$false`.
@@ -54,7 +54,7 @@ To re-enable the creation of personal lists, set the parameter to `$false`.
 
 Disabling these templates removes them from all places users create lists (the Lists app, Microsoft Teams, and SharePoint sites).
 
-|**Default**|**Built-in list templates disabled**|
+| Default | Built-in list templates disabled |
 |:-----|:-----|
 |![All built-in templates are available to users](media/list-templates-all.png) |Some templates disabled![Some templates are still available to users](media/list-templates-some.png)<br/>All templates disabled![Users see a message that templates have been turned off by the admin](media/list-templates-none.png)|
   
@@ -68,7 +68,7 @@ Disabling these templates removes them from all places users create lists (the L
 3. Run the following command:
   
     ```PowerShell
-    Set-SPOTenant -DisableModernListTemplateIds '<template ID>'   ​
+    Set-SPOTenant -DisableModernListTemplateIds '<template ID>'
     ```
 
 Where the template ID is:
