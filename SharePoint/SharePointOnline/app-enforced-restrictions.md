@@ -21,25 +21,22 @@ description: Learn how to set a conditional access policy in the Azure AD admin 
 
 # Use app-enforced restrictions
 
-These steps in the Azure AD admin center tell Azure to use the SharePoint site-level settings you specify in PowerShell.
+These steps in the Azure AD admin center tell Azure to use the SharePoint site-level access settings you specify.
   
 1. On the [Conditional Access | Policies page](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) of the Azure AD admin center, select **New policy**.
 
     ![Conditional access policies in the Azure AD admin center](media/azure-ca-new-policy.png)
-    
+
 2. Select **Users and groups**, and then select whether you want the policy to apply to all users or only select users or groups.
-    
+
 3. Select **Cloud apps or actions**, select **Select apps**, search for **SharePoint**, select **Office 365 SharePoint Online**, and then select **Select**.
 
     ![Selecting the SharePoint app](media/azure-ca-policy-cloud-app.png)
-    
+
 4. Select **Conditions**, select **Client apps**, switch **Configure** to **Yes**, keep all the clients selected, and then select **Done**.
-    
+
 5. Select **Session**, select **Use app enforced restrictions**, and then select **Select**. 
 
     ![Selecting to control access using app enforced restrictions](media/azure-ca-policy-session.png)
-    
+
 6. Enable the policy and select **Create**.
-
-
-
