@@ -1,9 +1,9 @@
 ---
 title: "Add and edit user profile properties in SharePoint"
 ms.reviewer: waynewin
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
