@@ -59,7 +59,7 @@ You control access to Delve from the SharePoint admin center. By default, users 
 
 If you disable Delve, users will no longer see:
 - The Delve app tile in the app launcher.
-- Suggested sites on the SharePoint start page
+- Suggested sites on the SharePoint start page.
 - The Recommended feed in the Outlook mobile app.
 - Recommended documents on the Microsoft Office Home page.
 - Documents on other users' profile cards and pages.
@@ -243,7 +243,7 @@ If users don't have any recently modified or viewed content in these content sou
     
 - Check that the user is in Active Directory and a member of the correct Active Directory groups. To verify, go to **Microsoft 365 admin center** \> **Users** \> **Active Users**.
     
-- Make sure that the user allows Delve to show documents. To verify, have the user go to **App launcher** \> **Delve** \> ** Feature settings ** and make sure that **Documents in Delve** isn't turned off.
+- Make sure that the user allows Delve to show documents. To verify, have the user go to **App launcher** \> **Delve** \> **Feature settings** and make sure that **Documents in Delve** isn't turned off.
     
 - Make sure that you've assigned users a license to access to the Microsoft 365 services that you've activated.
     
@@ -291,7 +291,7 @@ If you choose to disable Delve for your organization, Delve will be removed from
 
 If Delve is enabled, users also have access to related features in other apps that are powered by the Office Graph. If you disable Delve, users can no longer see these features:
 
-- Suggested sites on the SharePoint start page
+- Suggested sites on the SharePoint start page.
 - The Recommended feed in the Outlook mobile app.
 - Recommended documents on the Microsoft Office Home page.
 - Documents on other users' profile cards and pages.
