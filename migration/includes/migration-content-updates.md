@@ -84,3 +84,15 @@
 | 9/28/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
 | 9/30/2020 | [Available settings in SharePoint Migration Tool](/SharepointMigration/spmt-settings) | modified |
 | 10/2/2020 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
+
+
+## Week of October 05, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/7/2020 | [What does SPMT support?](/SharepointMigration/what-is-supported-spmt) | modified |
+| 10/7/2020 | [SharePoint Migration Identity Mapping Tool Azure Active Directory Identity Scan](/SharepointMigration/sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan) | modified |
+| 10/8/2020 | [Migrate your file share content to SharePoint using the Azure Data Box](/SharepointMigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox) | modified |
+| 10/8/2020 | [Mover migration - Authorizing Office 365](/SharepointMigration/mover-setup-m365-destination) | modified |
+| 10/9/2020 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
