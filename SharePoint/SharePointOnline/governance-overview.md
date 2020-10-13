@@ -55,10 +55,10 @@ For lifecycle guidance for SharePoint sites together with related Microsoft 365 
 
 ## Related topics
 
-- [Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
+[Manage who can create Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
 
-- [Microsoft 365 reports in the admin center – Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
+[Microsoft 365 reports in the admin center – Microsoft 365 Groups](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
 
-- [Create a secure guest sharing environment](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+[Create a secure guest sharing environment](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
-- [Limit accidental exposure to files when sharing with people outside your organization](https://docs.microsoft.com/en-us/microsoft-365/solutions/share-limit-accidental-exposure)
+[Limit accidental exposure to files when sharing with people outside your organization](https://docs.microsoft.com/en-us/microsoft-365/solutions/share-limit-accidental-exposure)
