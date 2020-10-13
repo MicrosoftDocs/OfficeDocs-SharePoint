@@ -42,7 +42,7 @@ SharePoint is tightly integrated with other Microsoft 365 services, including Mi
 
 To see how SharePoint governance capabilities overlap with other Microsoft 365 services, see:
 
-- [Settings interactions between Microsoft 365 Groups and SharePoint](https://docs.microsoft.com/en-us/microsoft-365/solutions/groups-sharepoint-governance)
+- [Settings interactions between Microsoft 365 Groups and SharePoint](https://docs.microsoft.com/microsoft-365/solutions/groups-sharepoint-governance)
 
 - [Settings interactions between Microsoft 365 Groups, Teams and SharePoint](https://docs.microsoft.com/microsoft-365/solutions/groups-sharepoint-teams-governance)
 
@@ -61,4 +61,4 @@ For lifecycle guidance for SharePoint sites together with related Microsoft 365 
 
 [Create a secure guest sharing environment](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
-[Limit accidental exposure to files when sharing with people outside your organization](https://docs.microsoft.com/en-us/microsoft-365/solutions/share-limit-accidental-exposure)
+[Limit accidental exposure to files when sharing with people outside your organization](https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure)
