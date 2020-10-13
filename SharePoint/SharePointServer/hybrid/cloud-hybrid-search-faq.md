@@ -10,7 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.collection: SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: 
 description: "Cloud hybrid search service (Cloud SSA) FAQ"
 ---

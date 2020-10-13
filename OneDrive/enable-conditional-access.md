@@ -35,7 +35,7 @@ For information about how conditional access works, see:
     
 - [Configure hybrid Azure Active Directory join for managed domains](/azure/active-directory/devices/hybrid-azuread-join-managed-domains)
 
-- [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices/block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive)
+- [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices#block-or-limit-access-to-a-specific-sharepoint-site-or-onedrive)
     
 ## Recommendations for Windows
 
