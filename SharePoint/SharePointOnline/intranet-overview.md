@@ -345,7 +345,7 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 - Maintain high quality content.
 - Educate users.
 
-| Role                 |Managment tasks          |             
+| Role                 |Management tasks          |             
 | :------------------- | :------------------- |
 | [Organization intranet owners](#organization-intranet-owners) | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch. | 
 | [IT pros / Admins](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies.|
