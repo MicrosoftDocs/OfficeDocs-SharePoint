@@ -144,7 +144,7 @@ To block or limit access to specific sites, follow these steps. If you have conf
     This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request, which is fastest.
 
 > [!NOTE]
-> By default, a limited access policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
+> By default, a setting that includes web access allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
  
 ## Advanced configurations
 <a name="advanced"> </a>
