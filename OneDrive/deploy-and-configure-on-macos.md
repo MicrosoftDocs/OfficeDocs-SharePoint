@@ -34,7 +34,7 @@ There are two basic ways that you, as an administrator, can deploy the OneDrive 
 
 After the OneDrive sync app for Mac is installed, users can configure settings for the app. These settings are called preferences. As an administrator, you might want to provide users in your organization with a standard set of preferences. Preferences for the OneDrive sync app for Mac are stored in preference files. These files are often referred to as .plist files. 
   
-||**Standalone**|**Mac App Store**|
+||Standalone|Mac App Store|
 |:-----|:-----|:-----|
 |PList Location  <br/> |~/Library/Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
 |Domain  <br/> |com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> | 
