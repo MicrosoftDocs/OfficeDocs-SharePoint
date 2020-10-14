@@ -108,11 +108,11 @@ To block or limit access to specific sites, follow these steps. If you have conf
   
 1. Manually create a policy in the Azure AD admin center by following the steps in [Use app-enforced restrictions](app-enforced-restrictions.md).
 
-2. Set the site-level setting by using PowerShell, or a [sensitivity label](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels):
+2. Set the site-level setting by using PowerShell, or a [sensitivity label](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels):
     
     - To use PowerShell, continue to the next step.
     
-    - To use a sensitivity label, see the following instructions and specify the label setting for **Access from unmanaged devices**: [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) 
+    - To use a sensitivity label, see the following instructions and specify the label setting for **Access from unmanaged devices**: [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 3. To use PowerShell: [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -121,13 +121,15 @@ To block or limit access to specific sites, follow these steps. If you have conf
 
 4. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-5. To block access to a single site, run the following command:
+5. Run one of the following commands.
+    
+    To block access to a single site:
 
     ```PowerShell
     Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy BlockAccess
     ```
     
-    To limit access to a single site, run the following command:
+    To limit access to a single site:
 
     ```PowerShell
     Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess
@@ -141,11 +143,8 @@ To block or limit access to specific sites, follow these steps. If you have conf
 
     This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request, which is fastest.
 
-    
-    > [!NOTE]
-    > The site-level setting must be at least as restrictive as the organization-level setting. 
-    > 
-    > By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
+> [!NOTE]
+> By default, a limited access policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
  
 ## Advanced configurations
 <a name="advanced"> </a>
