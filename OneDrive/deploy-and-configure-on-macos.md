@@ -297,7 +297,7 @@ The example for this setting in the **.plist** file is:
 You can also configure the OneDrive Standalone sync app to receive delayed updates.
   
 |||
-|:-----|:-----|
+
 |PList Location  <br/> |~/Library/Preferences/com.microsoft.OneDriveUpdater.plist  <br/> |
 |Domain  <br/> |com.microsoft.OneDriveUpdater  <br/> |
    
