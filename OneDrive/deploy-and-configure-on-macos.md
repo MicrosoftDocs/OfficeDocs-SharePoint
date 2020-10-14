@@ -56,6 +56,25 @@ Configure the settings on macOS in the typical way:
 ## Overview of settings
 
 Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app, but the property list file name and domain name will be different. When you apply the settings, make sure to target the appropriate domain depending on the edition of the sync app.
+
+### AllowTenantList
+
+The **AllowTenantList** key enables the **Allow syncing OneDrive accounts for only specific organizations** setting.
+
+The **Allow syncing OneDrive accounts for only specific organizations** setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that is not in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do not enable both settings at the same time.
+
+The parameter for the **AllowTenantList** key is **TenantID** and its value is a string which determines the tenants for whom the **Allow Tenant** setting is applicable. This parameter also needs a boolean value too be set to it for the setting to be complete. If the boolean value is set to **True**, the tenant is allowed to sync.
+
+The example for this setting in the **.plist** file is:
+<key>TenantID</key>
+<array>
+ <dict>
+  <key>TenantID1</key>
+  <Bool>True</Bool>
+  <key>TenantID2</key>
+  <Bool>True</Bool>
+ </dict>
+</array>
   
 ### AutomaticUploadBandwidthPercentage
 
