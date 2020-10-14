@@ -1,9 +1,9 @@
 ---
 title: "Search Center settings"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -50,5 +50,5 @@
 ### [Retention and deletion](retention-and-deletion.md)
 ### [List OneDrive URLs](list-onedrive-urls.md)
 ### [Effects of username changes](upn-changes.md)
-### [Help users use Discover view](help-users-use-discover-view.md)
+
 
