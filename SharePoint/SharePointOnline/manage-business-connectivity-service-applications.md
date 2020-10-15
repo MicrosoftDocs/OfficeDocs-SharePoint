@@ -1,9 +1,9 @@
 ---
 title: "Manage Business Connectivity Service Applications"
 ms.reviewer: abloesch
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
