@@ -59,9 +59,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 
 ### AllowTenantList
 
-The **AllowTenantList** key enables the **Allow syncing OneDrive accounts for only specific organizations** setting.
-
-The **Allow syncing OneDrive accounts for only specific organizations** setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that is not in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do not enable both settings at the same time.
+This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that is not in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do not enable both settings at the same time.
 
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string which determines the tenants for whom the **Allow Tenant** setting is applicable. This parameter also needs a boolean value too be set to it for the setting to be complete. If the boolean value is set to **True**, the tenant is allowed to sync.
 
@@ -78,11 +76,9 @@ The example for this setting in the **.plist** file is:
   
 ### AutomaticUploadBandwidthPercentage
 
-The **AutomaticUploadBandwidthPercentage** key enables the **Automatic upload bandwidth percentage** setting.
+This setting enables the sync app to automatically set the amount of bandwidth that can be used for uploading files, based on available bandwidth.
 
-The **Automatic upload bandwidth percentage** setting enables the sync app to automatically set the amount of bandwidth that can be used for uploading files, based on available bandwidth.
-
-The parameter is **AutomaticUploadBandwidthPercentage** and its value is an integer which determines the percentage of bandwidth the sync app can use out of the total available bandwidth. The accepted values for the percentage are from 1 to 99.
+To enable this setting, you must define a number between 1 and 99 which determines the percentage of bandwidth the sync app can use out of the total available bandwidth.
 
 The example for this setting in the **.plist** file is:
 <key>AutomaticUploadBandwidthPercentage</key>
@@ -90,11 +86,9 @@ The example for this setting in the **.plist** file is:
 
 ### BlockExternalSync
 
-The **BlockExternalSync** key enables the **Block External Sync** setting.
+This setting prevents the sync app from syncing libraries and folders shared from other organizations.
 
-The **Block External Sync** setting prevents the sync app from syncing libraries and folders shared from other organizations.
-
-The parameter is **BlockExternalSync** and  it has a boolean value. If this value is set to **True**, the users are prevented from syncing OneDrive and SharePoint libraries and folders with organizations other than the user's own organization. Set this value to **False** or do not enable the setting to allow the OneDrive and SharePoint files to be synced with other organizations also.
+If you set the setting's value to **True**, the users are prevented from syncing OneDrive and SharePoint libraries and folders with organizations other than the user's own organization. Set this value to **False** or do not enable the setting to allow the OneDrive and SharePoint files to be synced with other organizations also.
 
 The example for this setting in the **.plist** file is:
 <key>BlockExternalSync</key>
@@ -102,11 +96,11 @@ The example for this setting in the **.plist** file is:
 
 ### BlockTenantList
 
-The **BlockTenantList** key enables the **Block syncing OneDrive accounts for specific organizations** setting.
+This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list that is specified. 
 
-The **Block syncing OneDrive accounts for specific organizations** setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list that is specified. If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked orgaization, the files stop syncing. This setting does NOT work if you have **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do not enable both settings at the same time.
+If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you have **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do not enable both settings at the same time.
 
-The parameter is **TenantID** and its value is a string which determines the tenants to whom the **block tenant** setting is applicable. The parameter also has a boolean value that is to be set for each tenant. If the boolean value is set to **True** for a specific tenant, the tenant is blocked from syncing with the OneDrive and SharePoint files and folders.
+You must enable this setting by defining IDs for the **TenantID** parameter which determines the tenants to whom the **block tenant** setting is applicable. You must also set the boolean value to **True** for the ID of every tenant you want to prevent from syncing with the OneDrive and SharePoint files and folders.
 
 The example for this setting in the **.plist** file is:
 <key>BlockTenantList</key>
@@ -121,9 +115,7 @@ The example for this setting in the **.plist** file is:
 
 ### DefaultFolderLocation
 
-The **DefaultFolderLocation** key enables the **Default folder location** setting.
-
-The **Default folder location** setting specifies the default location of the OneDrive folder for each organization.
+This setting specifies the default location of the OneDrive folder for each organization.
 
 The parameters are **TenantID** and **DefaultFolderPath**.
 The **TenantID** value is a string that determines the tenants to whom the **default folder location** setting is applicable.
@@ -146,11 +138,9 @@ The example for this setting in the **.plist** file is:
 
 ### DisableHydrationToast
 
-The **DisableHydrationToast** key enables the **Disable download toasts** setting.
+This setting prevents toasts from appearing when applications cause file contents to be downloaded.
 
-The **Disable download toasts** setting prevents toasts from appearing when applications cause file contents to be downloaded.
-
-The parameter is **DisableHydrationToast** and its value is a boolean. If this value is set to **True**, toasts do not appear when applications trigger the download of file contents.
+If you set the setting's value to **True**, toasts do not appear when applications trigger the download of file contents.
 
 The example for this setting in the **.plist** file is:
 <key>DisableHydrationToast</key>
@@ -158,11 +148,9 @@ The example for this setting in the **.plist** file is:
 
 ### DisablePersonalSync
 
-The **DisablePersonalSync** key enables the **Disable personal accounts** setting.
+This setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
 
-The **Disable personal accounts** setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
-
-The parameter is **DisablePersonalSync** and it has a boolean value. If this value is set to **True**, the users are prevented from adding or syncing personal accounts.
+If you set the setting's value to **True**, the users are prevented from adding or syncing personal accounts.
 
 The example for this setting in the **.plist** file is:
 <key>DisablePersonalSync</key>
@@ -170,11 +158,9 @@ The example for this setting in the **.plist** file is:
 
 ### DisableTutorial
 
-The **DisableTutorial** key enables the **Disable the tutorial that appears at the end of OneDrive Setup** setting.
+This setting prevents the tutorial from being shown to the users after they set up OneDrive.
 
-The **Disable the tutorial that appears at the end of OneDrive Setup** setting prevents the tutorial from being shown to the users after they set up OneDrive.
-
-The parameter is **DisableTutorial** and it has a boolean value. Set this value to **True** to prevent the tutorial from being shown to the users after they set up the OneDrive.
+If you set this setting's value to **True**, the tutorial is blocked from being shown to the users after they set up the OneDrive.
 
 The example for this setting in the **.plist** file is:
 <key>DisableTutorial</key>
@@ -182,11 +168,9 @@ The example for this setting in the **.plist** file is:
 
 ### DownloadBandwidthLimited
 
-The **DownloadBandwidthLimited** key enables the **Set maximum download throughput** setting.
+This setting sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app.
 
-The **Set maximum download throughput** setting sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app.
-
-The parameter is **DownloadBandwidthLimited** and its value is an integer which determines the download throughput in KB/sec which the sync app can use. The minimum rate is 50 KB/sec and the maximum rate is 100,000 KB/sec.
+You must set this setting's value to an integer between 50 KB/sec and the maximum rate is 100,000 KB/sec which determines the download throughput in KB/sec which the sync app can use.
 
 The example for this setting in the **.plist** file is:
 <key>DownloadBandwidthLimited</key>
@@ -194,11 +178,9 @@ The example for this setting in the **.plist** file is:
 
 ### FilesOnDemandEnabled
 
-The **FilesOnDemandEnabled** key enables the **Enable Files On-Demand** setting.
+This setting specifies whether Files On-Demand is enabled. If you don't set this setting, Files On-Demand will be enabled automatically as we roll out the feature, and users can turn the setting on or off.
 
-The **Enable Files On-Demand** setting specifies whether Files On-Demand is enabled. If you don't set this setting, Files On-Demand will be enabled automatically as we roll out the feature, and users can turn the setting on or off.
-
-The parameter is ****FilesOnDemandEnabled**** and it has a boolean value. If this value is set as **True**, the users who set up the sync app can download the online-only files, by default. If this value is set as **False**, the **FilesOnDemand** setting is disabled and the users won't be able to turn it on.
+If you set this setting's value to **True**, the users who set up the sync app can download the online-only files, by default. If you set this setting to **False**, the **FilesOnDemand** setting is disabled and the users won't be able to turn it on.
 
 The example for this setting in the **.plist** file is:
 <key>FilesOnDemandEnabled</key>
@@ -206,11 +188,9 @@ The example for this setting in the **.plist** file is:
 
 ### HideDockIcon
 
-The **HideDockIcon** key enables the **Dock icon** setting.
+This setting specifies whether a dock icon for OneDrive is shown.
 
-The **Dock icon** setting specifies whether a dock icon for OneDrive is shown.
-
-The parameter is **HideDockIcon** and its value is a boolean. If this value is set to **True**, the OneDrive dock icon is hidden even if the app is running.
+If you set this setting's value to **True**, the OneDrive dock icon is hidden even if the app is running.
 
 The example for this setting in the **.plist** file is:
 <key>HideDockIcon</key>
@@ -218,11 +198,9 @@ The example for this setting in the **.plist** file is:
 
 ### HydrationDisallowedApps
 
-The **HydrationDisallowedApps** key enables the **Block apps from downloading online-only files** setting.
+This setting prevents apps from automatically downloading online-only files. You can use this setting to lock down apps that don't work correctly with your deployment of Files On-Demand.
 
-The **Block apps from downloading online-only files** setting prevents apps from automatically downloading online-only files. You can use this setting to lock down apps that don't work correctly with your deployment of Files On-Demand.
-
-The parameter is **HydrationDisallowedApps** and its value is a string in JSON format, as described below:
+To enable this setting, you must define a string in JSON format as described below:
 <br/>`[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}]`<br/>
 "appID" can be either the BSD process name or the bundle display name. "MaxBuildVersion" denotes the maximum build version of the app that will be blocked. "MaxBundleVersion" denotes the maximum bundle version of the app that will be blocked.
 
@@ -235,11 +213,9 @@ The example for this setting in the **.plist** file is:
 
 ### OpenAtLogin
 
-The **OpenAtLogin** key enables the **Open at login** setting.
+This setting specifies whether OneDrive starts automatically when the user logs in.
 
-The **Open at login** setting specifies whether OneDrive starts automatically when the user logs in.
-
-The parameter is **OpenAtLogin** and its value is a boolean. If this value is set to **True**, OneDrive starts automatically when the user logs in on Mac.
+If you set this setting's value to **True**, OneDrive starts automatically when the user logs in on Mac.
 
 The example for this setting in the **.plist** file is:
 <key>OpenAtLogin</key>
@@ -247,11 +223,9 @@ The example for this setting in the **.plist** file is:
 
 ### SharePointOnPremFrontDoorUrl
 
-The **SharePointOnPremFrontDoorUrl** key enables the **SharePoint Server Front Door URL** setting.
+This setting specifies the SharePoint Server 2019 on-premises URL that the OneDrive sync app must try to authenticate and sync against. 
 
-The **SharePoint Server Front Door URL** setting specifies the SharePoint Server 2019 on-premises URL that the OneDrive sync app must try to authenticate and sync against. 
-
-The parameter is **SharePointOnPremFrontDoorUrl** and its value is a string which specifies the URL of the on-premises SharePoint Server.
+To enable this setting, you must define a string containing the URL of the on-premises SharePoint Server.
 
 The example for this setting in the **.plist** file is:
 <key>SharePointOnPremFrontDoorUrl</key>
@@ -259,11 +233,9 @@ The example for this setting in the **.plist** file is:
 
 ### SharePointOnPremPrioritizationPolicy
 
-The **SharePointOnPremPrioritizationPolicy** key enables the **SharePoint OnPrem Prioritization** setting.
+This setting determines whether or not the client should set up sync for SharePoint Server or SharePoint in Microsoft 365 first during the first-run scenario when the email is the same for both SharePoint Server on-premises and SharePoint in Microsoft 365 in a hybrid scenario.
 
-The **SharePoint OnPrem Prioritization** setting determines whether or not the client should set up sync for SharePoint Server or SharePoint in Microsoft 365 first during the first-run scenario when the email is the same for both SharePoint Server on-premises and SharePoint in Microsoft 365 in a hybrid scenario.
-
-The parameter is **SharePointOnPremPrioritizationPolicy** and its value is an integer. This value determines the service against which there must be an attempt to authenticate for setting up a sync. The value of **1** indicates OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
+If you set this setting's value to **1**, it is an indication that OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
 
 The example for this setting in the **.plist** file is:
 <key>SharePointOnPremPrioritizationPolicy</key>
@@ -271,12 +243,12 @@ The example for this setting in the **.plist** file is:
 
 ### SharePointOnPremTenantName
 
-The **SharePointOnPremTenantName** key enables the **SharePoint Server Tenant Name** setting.
+This setting specifies the name of the folder created for syncing the SharePoint Server 2019 files specified in the Front Door URL.
 
-The **SharePoint Server Tenant Name** setting specifies the name of the folder created for syncing the SharePoint Server 2019 files specified in the Front Door URL.
-
-The parameter is **SharePointOnPremTenantName** and its value is a string. This value determines the name that will be used when creating a folder to sync the on-premises SharePoint Server files. If specified, the folder names will take the form of:<br/> OneDrive – TenantName <br/> TenantName.
- If not specified, the folder names will use the first segment of the FrontDoorURL as the Tenant Name. For example, https://Contoso.SharePoint.com will use Contoso as the Tenant Name.
+To enable this setting, you must specify naming conventions such as:
+<br/> OneDrive – TenantName <br/> TenantName.
+The created folder is then named according to either of the two conventions, based on whichever is specificed.
+ If no naming convention is specified, the folder names will use the first segment of the FrontDoorURL as the Tenant Name. For example, https://Contoso.SharePoint.com will use Contoso as the Tenant Name.
 
 The example for this setting in the **.plist** file is:
 <key>SharePointOnPremTenantName</key>
@@ -284,11 +256,9 @@ The example for this setting in the **.plist** file is:
 
 ### UploadBandwidthLimited
 
-The **UploadBandwidthLimited** key enables the **Set maximum upload throughput** setting.
+This setting defines the maximum upload throughput rate in KB/sec for computers running the OneDrive sync app.
 
-The **Set maximum upload throughput** setting sets the maximum upload throughput rate in KB/sec for computers running the OneDrive sync app.
-
-The parameter is **UploadBandwidthLimited** and its value is an integer.  This value determines determines the upload throughput in KB/sec which the sync app can use. The minimum rate is 50 KB/sec and the maximum rate is 100,000 KB/sec.
+To enable this setting, set a value between 50 and 100,000 which is the upload throughput rate the sync app can use.
 
 The example for this setting in the **.plist** file is:
 <key>UploadBandwidthLimited</key>
