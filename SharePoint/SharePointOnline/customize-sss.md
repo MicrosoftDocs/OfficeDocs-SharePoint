@@ -26,6 +26,9 @@ The SharePoint Success Site is a ready to deploy, up-to-date, and customizable S
 
 The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date SharePoint site creation training content. However, there are several opportunities to customize the experience to better suit your organization’s goals and usage policy. Learn about what's included in a SharePoint Success Site, and then get started customizing.
 
+> [!IMPORTANT]
+> You must have Site owner or Site member permissions to the SharePoint Success Site and the M365 learning pathways administrative page in order to make customizations..
+
 **The SharePoint Success Site consists of three parts:**
 
 1.	**SharePoint communication site** - The site comes [pre-populated with content and web parts](https://docs.microsoft.com/sharepoint/overview-sss#what-comes-with-a-sharepoint-success-site) that can be further customized to fit the needs of your organization.
@@ -51,13 +54,13 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 
 
 #### Summary of site requirements and permissions
-Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint administrator. You need to be a Site owner for **both** M365 learning pathways *and* the SharePoint Success Site in order to have permission to make site customizations.
+Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint administrator. You need to be a Site owner or Site member for **both** M365 learning pathways *and* the SharePoint Success Site in order to have permission to make site customizations.
 
-If you’re not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the SharePoint admin and M365 learning pathways has not been provisioned, see the [provisioning guidance](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
+If you’re not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the Global admin (formerly called the Tenant admin) and M365 learning pathways has not been provisioned, see the [provisioning guidance](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
 
 
 **Who has permissions to customize the site template?**
-- The SharePoint administrator
+- Global admins and SharePoint admins
 - SharePoint Site owner or Site member level permissions
 <br>
 
@@ -85,6 +88,7 @@ The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll ne
 
 ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
+
 Review the **Plan, Build, Launch and manage, and Advanced** playlist sections to see the full suite of Microsoft curated content available in the SharePoint Success Site.
 
 
@@ -101,9 +105,20 @@ Select content categories and subcategories, and then navigate through the playl
 
 ![Image of the M365 learning pathways, SharePoint success site page](media/m365-lp-sss.png)
 
+
+**Navigate to the Microsoft 365 learning pathways admin page:**
+
+1. Navigate to the Microsoft 365 learning pathways by selecting **Home > Administration**
+2. Next, select the **gear icon** in the web part
+3. Then, select **Home > Learning pathways administration**
+4. Select the **SharePoint Success Site** tab
+
 **Show or hide sections to the playlist content**
 
 Select which content to display in your SharePoint Success Site by [hiding and showing](https://docs.microsoft.com/office365/customlearning/custom_hideshowsub) subcategories of content. For example, if you don’t want users to have access to the Advanced site creation section, you can hide that subcategory so it won't be visible to end-users. Decide which content is appropriate for the purpose of your SharePoint Success Site. 
+
+> [!IMPORTANT]
+> Hiding playlists does not hide the associated page in the SharePoint Success Site, nor will adding custom playlists automatically create site pages for them. [Add](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec#bkmk_addpage) or [delete](https://support.microsoft.com/office/delete-a-page-from-a-sharepoint-site-1d4197b8-31b6-460d-906b-3fb492a51db1) pages within the site as needed.
 
 **Add your own custom playlists**
 

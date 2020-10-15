@@ -1,9 +1,9 @@
 ---
 title: "About display templates in the Content Search Web Part and other search-driven Web Parts"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/26/2014
 audience: End User
 f1.keywords:

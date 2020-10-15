@@ -17,6 +17,11 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Agent v1.3.5 (September 22, 2020)
+
+A new Agent has been released for all install types. Version 1.3.5 is a required update for all customers. This release updates the pinned certificates used for connecting to Bifrost. As of September 26, 2020, any older Agents will not connect to Bifrost and not be able to transfer files.
+
+
 ## Backend v1.19.9 (September 15,2020)
 
 - Fix.  Previously, authorship information such as "Modified By" was not sent to the destination. Metadata from Google sources is now included in the transfer and displayed at the Office 365 destination.

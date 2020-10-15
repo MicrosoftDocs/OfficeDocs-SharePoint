@@ -1,9 +1,9 @@
 ---
 title: "Remove deleted users from SharePoint"
 ms.reviewer: waynewin
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH

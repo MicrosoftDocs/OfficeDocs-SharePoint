@@ -1,9 +1,9 @@
 ---
 title: "View search usage reports"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: End User
 f1.keywords:
 - NOCSH
