@@ -1,9 +1,9 @@
 ---
 title: Get started with the modern search experience
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

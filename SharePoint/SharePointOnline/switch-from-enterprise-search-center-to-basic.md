@@ -1,9 +1,9 @@
 ---
 title: "Switch from an Enterprise Search Center to Basic in SharePoint"
 ms.reviewer: 
-ms.author: efrene
-author: efrene
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 7/25/2019
 audience: Admin
 f1.keywords:
