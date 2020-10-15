@@ -36,8 +36,8 @@ After the OneDrive sync app for Mac is installed, users can configure settings f
   
 ||**Standalone**|**Mac App Store**|
 |:-----|:-----|:-----|
-|PList Location  <br/> |~/Library/Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
-|Domain  <br/> |com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> | 
+|**PList Location  <br/>**|~/Library/Preferences/com.microsoft.OneDrive.plist  <br/> |~/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
+|**Domain <br/>**|com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> | 
   
 ## Configure sync app settings
 
@@ -296,10 +296,9 @@ The example for this setting in the **.plist** file is:
 
 You can also configure the OneDrive Standalone sync app to receive delayed updates.
   
-|||
+|PList Location  <br/> |Domain  <br/> |
 |:-----|:-----|
-|PList Location  <br/> |~/Library/Preferences/com.microsoft.OneDriveUpdater.plist  <br/> |
-|Domain  <br/> |com.microsoft.OneDriveUpdater  <br/> |
+| ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist <br/> |com.microsoft.OneDriveUpdater  <br/> |
    
 |**Setting**|**Description**|**Parameters**|**Example Plist Entry**|
 |:-----|:-----|:-----|:-----|
