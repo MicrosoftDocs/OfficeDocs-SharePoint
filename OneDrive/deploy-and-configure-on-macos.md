@@ -86,15 +86,8 @@ The parameter for the **AllowTenantList** key is **TenantID** and its value is a
 
 The example for this setting in the **.plist** file is:
 
-<key>TenantID</key>
-<array>
- <dict>
-  <key>TenantID1</key>
-  <Bool>True</Bool>
-  <key>TenantID2</key>
-  <Bool>True</Bool>
- </dict>
-</array>
+\<key\>AllowTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+
   
 ### AutomaticUploadBandwidthPercentage
 <a name="AutomaticUploadBandwidthPercentage"> </a>
@@ -104,8 +97,9 @@ This setting enables the sync app to automatically set the amount of bandwidth t
 To enable this setting, you must define a number between 1 and 99 which determines the percentage of bandwidth the sync app can use out of the total available bandwidth.
 
 The example for this setting in the **.plist** file is:
-<key>AutomaticUploadBandwidthPercentage</key>
-<int>Bandwidth</int>
+
+<br/> \<key\>AutomaticUploadBandwidthPercentage\</key\>  <br/> \<int\>(Bandwidth)\</int\>  <br/> 
+
 
 ### BlockExternalSync
 <a name="BlockExternalSync"> </a>
@@ -115,8 +109,9 @@ This setting prevents the sync app from syncing libraries and folders shared fro
 If you set the setting's value to **True**, the users are prevented from syncing OneDrive and SharePoint libraries and folders with organizations other than the user's own organization. Set this value to **False** or do not enable the setting to allow the OneDrive and SharePoint files to be synced with other organizations also.
 
 The example for this setting in the **.plist** file is:
-<key>BlockExternalSync</key>
-<Bool/>
+
+\<key\>BlockExternalSync\</key\><br/>\<(Bool)/\>
+
 
 ### BlockTenantList
 <a name="BlockTenantList"> </a>
@@ -129,15 +124,9 @@ You must enable this setting by defining IDs for the **TenantID** parameter whic
 **Note**: In the list, inclusion of the tenant ID alone does not suffice. It is mandatory to set the boolean value to **True**  for the ID of each tenant who is to be blocked. 
 
 The example for this setting in the **.plist** file is:
-<key>BlockTenantList</key>
-<array>
- <dict>
-  <key>TenantID1</key>
-  <Bool>True</Bool>
-  <key>TenantID2</key>
-  <Bool>True</Bool>
- </dict>
-</array>
+
+\<key\>BlockTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+
 
 ### DefaultFolderLocation
 <a name="DefaultFolderLocation"> </a>
@@ -152,7 +141,8 @@ The following are the conditions governing the default folder location:
 -**Standalone**: The path will be created (if it doesn't already exist) after the user sets up the sync app. Only with the Standalone sync app you can prevent users from changing the location. 
 
 The example for this setting in the **.plist** file is:
-<br/> |\<key\>DefaultFolder</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>Path</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(DefaultFolderPath)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(TenantID)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>|
+<br/> \<key\>DefaultFolder</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>Path</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(DefaultFolderPath)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(TenantID)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
+
 
 ### DisableHydrationToast
 <a name="DisableHydrationToast"> </a>
@@ -162,8 +152,9 @@ This setting prevents toasts from appearing when applications cause file content
 If you set the setting's value to **True**, toasts do not appear when applications trigger the download of file contents.
 
 The example for this setting in the **.plist** file is:
-<key>DisableHydrationToast</key>
-<Bool/>
+
+<br/> \<key\>DisableHydrationToast</key\><br/><(Bool)/\> <br/>
+
 
 ### DisablePersonalSync
 <a name="DisablePersonalSync"> </a>
@@ -173,8 +164,9 @@ This setting blocks users from signing in and syncing files in personal OneDrive
 If you set the setting's value to **True**, the users are prevented from adding or syncing personal accounts.
 
 The example for this setting in the **.plist** file is:
-<key>DisablePersonalSync</key>
-<Bool/>
+
+<br/> \<key\>DisablePersonalSync\</key\>  <br/> \<(Bool)/\>  <br/>
+
 
 ### DisableTutorial
 <a name="DisableTutorial"> </a>
@@ -184,8 +176,9 @@ This setting prevents the tutorial from being shown to the users after they set 
 If you set this setting's value to **True**, the tutorial is blocked from being shown to the users after they set up the OneDrive.
 
 The example for this setting in the **.plist** file is:
-<key>DisableTutorial</key>
-<Bool/>
+
+\<key\>DisableTutorial\</key\><br/>\<(Bool)/\>
+
 
 ### DownloadBandwidthLimited
 <a name="DownloadBandwidthLimited"> </a>
@@ -195,8 +188,9 @@ This setting sets the maximum download throughput rate in kilobytes (KB)/sec for
 You must set this setting's value to an integer between 50 KB/sec and the maximum rate is 100,000 KB/sec which determines the download throughput in KB/sec which the sync app can use.
 
 The example for this setting in the **.plist** file is:
-<key>DownloadBandwidthLimited</key>
-<int>(Download Throughput Rate in KB/sec)</int>
+
+<br/> \<key\>DownloadBandwidthLimited\</key\>  <br/> \<int\>(Download Throughput Rate in KB/sec)\</int\>  <br/>
+
 
 ### FilesOnDemandEnabled
 <a name="FilesOnDemandEnabled"> </a>
@@ -210,18 +204,21 @@ If you set this setting to **True**, **FilesOnDemand** is enabled and the users 
 If you set this setting to **False**, **FilesOnDemand** is disabled and the users won't be able to turn it on.
 
 The example for this setting in the **.plist** file is:
-<key>FilesOnDemandEnabled</key>
-<Bool/>
+
+<br/> \<key\>FilesOnDemandEnabled</key\>  <br/> <(Bool)/\> <br/>
+
 
 ### HideDockIcon
 <a name="HideDockIcon"> </a>
+
 This setting specifies whether a dock icon for OneDrive is shown.
 
 If you set this setting's value to **True**, the OneDrive dock icon is hidden even if the app is running.
 
 The example for this setting in the **.plist** file is:
-<key>HideDockIcon</key>
-<Bool/>
+
+<br/> \<key\>HideDockIcon\</key\>  <br/> \<(Bool)/\>  <br/>
+
 
 ### HydrationDisallowedApps
 <a name="HydrationDisallowedApps"> </a>
@@ -233,11 +230,9 @@ To enable this setting, you must define a string in JSON format as described bel
 "appID" can be either the BSD process name or the bundle display name. "MaxBuildVersion" denotes the maximum build version of the app that will be blocked. "MaxBundleVersion" denotes the maximum bundle version of the app that will be blocked.
 
 The example for this setting in the **.plist** file is:
-<key>HydrationDisallowedApps</key>
-<string>
-[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"}]
-</string>
-<Bool/>
+
+<br/> \<key\>HydrationDisallowedApps </key\><br/> <string\> `[{"ApplicationId":"appId","MaxBundleVersion":"1.1","MaxBuildVersion":"1.0"}, {"ApplicationId":"appId2","MaxBundleVersion":"3.2","MaxBuildVersion":"2.0"}]`</string\><br/><(Bool)/\> <br/>
+
 
 ### OpenAtLogin
 <a name="OpenAtLogin"> </a>
@@ -247,8 +242,9 @@ This setting specifies whether OneDrive starts automatically when the user logs 
 If you set this setting's value to **True**, OneDrive starts automatically when the user logs in on Mac.
 
 The example for this setting in the **.plist** file is:
-<key>OpenAtLogin</key>
-<Bool/>
+
+<br/> \<key\>OpenAtLogin\</key\>  <br/> \<(Bool)/\>  <br/>
+
 
 ### SharePointOnPremFrontDoorUrl
 <a name="SharePointOnPremFrontDoorUrl"> </a>
@@ -258,8 +254,9 @@ This setting specifies the SharePoint Server 2019 on-premises URL that the OneDr
 To enable this setting, you must define a string containing the URL of the on-premises SharePoint Server.
 
 The example for this setting in the **.plist** file is:
-<key>SharePointOnPremFrontDoorUrl</key>
-<string>https://Contoso.SharePoint.com</string>
+
+<br/> \<key\>SharePointOnPremFrontDoorUrl</key\> <br/>\<string\>https://Contoso.SharePoint.com\</string\> <br/>
+
 
 ### SharePointOnPremPrioritizationPolicy
 <a name="SharePointOnPremPrioritizationPolicy"> </a>
@@ -269,8 +266,9 @@ This setting determines whether or not the client should set up sync for SharePo
 If you set this setting's value to **1**, it is an indication that OneDrive should set up SharePoint Server on-premises first, followed by SharePoint in Microsoft 365.
 
 The example for this setting in the **.plist** file is:
-<key>SharePointOnPremPrioritizationPolicy</key>
-<int>(0 or 1)</int>
+
+<br/> \<key\>SharePointOnPremPrioritizationPolicy</key\> <br/> \<int\>(0 or 1)</int\> <br/>
+
 
 ### SharePointOnPremTenantName
 <a name="SharePointOnPremTenantName"> </a>
@@ -283,10 +281,10 @@ If this setting is enabled, you can specify a TenantName which is the name the f
 If you do not specify any TenantName, the folder will use the first segment of the FrontDoorURL as the its name. For example, https://Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
 <br/> OneDrive – Contoso <br/> Contoso
 
-
 The example for this setting in the **.plist** file is:
-<key>SharePointOnPremTenantName</key>
-<string>Contoso</string>
+
+<br/> \<key\>SharePointOnPremTenantName</key\> <br/> \<string\>Contoso</string\> <br/>
+
 
 ### UploadBandwidthLimited
 <a name="UploadBandwidthLimited"> </a>
@@ -296,8 +294,10 @@ This setting defines the maximum upload throughput rate in KB/sec for computers 
 To enable this setting, set a value between 50 and 100,000 which is the upload throughput rate the sync app can use.
 
 The example for this setting in the **.plist** file is:
-<key>UploadBandwidthLimited</key>
-<int>(Upload Throughput Rate in KB/sec)</int>
+
+<br/> \<key\>UploadBandwidthLimited
+\</key\>  <br/> \<int\>(Upload Throughput Rate in KB/sec)\</int\>  <br/>
+
 
 You can also configure the OneDrive Standalone sync app to receive delayed updates.
   
