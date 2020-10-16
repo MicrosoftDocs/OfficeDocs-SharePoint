@@ -152,15 +152,7 @@ The following are the conditions governing the default folder location:
 -**Standalone**: The path will be created (if it doesn't already exist) after the user sets up the sync app. Only with the Standalone sync app you can prevent users from changing the location. 
 
 The example for this setting in the **.plist** file is:
-<key>DefaultFolder</key>
-<array>
- <dict>
-  <key>Path</key>
-  <string>(DefaultFolderPath)</string>
-  <key>TenantId</key>
-  <string>(TenantID)</string>
- </dict>
-</array>
+<br/> |\<key\>DefaultFolder</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>Path</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(DefaultFolderPath)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<string>(TenantID)\</string><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>|
 
 ### DisableHydrationToast
 <a name="DisableHydrationToast"> </a>
