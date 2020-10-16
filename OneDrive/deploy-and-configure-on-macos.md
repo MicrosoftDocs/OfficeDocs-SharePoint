@@ -57,13 +57,35 @@ Configure the settings on macOS in the typical way:
 
 Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app, but the property list file name and domain name will be different. When you apply the settings, make sure to target the appropriate domain depending on the edition of the sync app.
 
+## List of settings
+
+- [AllowTenantList](#AllowTenantList)
+- [AutomaticUploadBandwidthPercentage](#AutomaticUploadBandwidthPercentage)
+- [BlockExternalSync](#BlockExternalSync)
+- [BlockTenantList](#BlockTenantList)
+- [DefaultFolderLocation](#DefaultFolderLocation)
+- [DisableHydrationToast](#DisableHydrationToast)
+- [DisablePersonalSync](#DisablePersonalSync)
+- [DisableTutorial](#DisableTutorial)
+- [DownloadBandwidthLimited](#DownloadBandwidthLimited)
+- [FilesOnDemandEnabled](#FilesOnDemandEnabled)
+- [HideDockIcon](#HideDockIcon)
+- [HydrationDisallowedApps](#HydrationDisallowedApps)
+- [OpenAtLogin](#OpenAtLogin)
+- [SharePointOnPremFrontDoorUrl](#SharePointOnPremFrontDoorUrl)
+- [SharePointOnPremPrioritizationPolicy](#SharePointOnPremPrioritizationPolicy)
+- [SharePointOnPremTenantName](#SharePointOnPremTenantName)
+- [UploadBandwidthLimited](#UploadBandwidthLimited)
+
 ### AllowTenantList
+<a name="AllowTenantList"> </a>
 
 This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that is not in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do not enable both settings at the same time.
 
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string which determines the tenants for whom the **Allow Tenant** setting is applicable. This parameter also needs a boolean value too be set to it for the setting to be complete. If the boolean value is set to **True**, the tenant is allowed to sync.
 
 The example for this setting in the **.plist** file is:
+
 <key>TenantID</key>
 <array>
  <dict>
@@ -75,6 +97,7 @@ The example for this setting in the **.plist** file is:
 </array>
   
 ### AutomaticUploadBandwidthPercentage
+<a name="AutomaticUploadBandwidthPercentage"> </a>
 
 This setting enables the sync app to automatically set the amount of bandwidth that can be used for uploading files, based on available bandwidth.
 
@@ -85,6 +108,7 @@ The example for this setting in the **.plist** file is:
 <int>Bandwidth</int>
 
 ### BlockExternalSync
+<a name="BlockExternalSync"> </a>
 
 This setting prevents the sync app from syncing libraries and folders shared from other organizations.
 
@@ -95,7 +119,7 @@ The example for this setting in the **.plist** file is:
 <Bool/>
 
 ### BlockTenantList
-
+<a name="BlockTenantList"> </a>
 This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list that is specified. 
 
 If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you have **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do not enable both settings at the same time.
@@ -116,7 +140,7 @@ The example for this setting in the **.plist** file is:
 </array>
 
 ### DefaultFolderLocation
-
+<a name="DefaultFolderLocation"> </a>
 This setting specifies the default location of the OneDrive folder for each organization.
 
 The parameters are **TenantID** and **DefaultFolderPath**.
@@ -139,6 +163,7 @@ The example for this setting in the **.plist** file is:
 </array>
 
 ### DisableHydrationToast
+<a name="DisableHydrationToast"> </a>
 
 This setting prevents toasts from appearing when applications cause file contents to be downloaded.
 
@@ -149,6 +174,7 @@ The example for this setting in the **.plist** file is:
 <Bool/>
 
 ### DisablePersonalSync
+<a name="DisablePersonalSync"> </a>
 
 This setting blocks users from signing in and syncing files in personal OneDrive accounts. If this setting has been configured after a user has set up sync with a personal account, the user gets signed out.
 
@@ -159,6 +185,7 @@ The example for this setting in the **.plist** file is:
 <Bool/>
 
 ### DisableTutorial
+<a name="DisableTutorial"> </a>
 
 This setting prevents the tutorial from being shown to the users after they set up OneDrive.
 
@@ -169,6 +196,7 @@ The example for this setting in the **.plist** file is:
 <Bool/>
 
 ### DownloadBandwidthLimited
+<a name="DownloadBandwidthLimited"> </a>
 
 This setting sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app.
 
@@ -179,6 +207,7 @@ The example for this setting in the **.plist** file is:
 <int>(Download Throughput Rate in KB/sec)</int>
 
 ### FilesOnDemandEnabled
+<a name="FilesOnDemandEnabled"> </a>
 
 This setting specifies whether Files On-Demand is enabled. 
 
@@ -193,7 +222,7 @@ The example for this setting in the **.plist** file is:
 <Bool/>
 
 ### HideDockIcon
-
+<a name="HideDockIcon"> </a>
 This setting specifies whether a dock icon for OneDrive is shown.
 
 If you set this setting's value to **True**, the OneDrive dock icon is hidden even if the app is running.
@@ -203,6 +232,7 @@ The example for this setting in the **.plist** file is:
 <Bool/>
 
 ### HydrationDisallowedApps
+<a name="HydrationDisallowedApps"> </a>
 
 This setting prevents apps from automatically downloading online-only files. You can use this setting to lock down apps that don't work correctly with your deployment of Files On-Demand.
 
@@ -218,6 +248,7 @@ The example for this setting in the **.plist** file is:
 <Bool/>
 
 ### OpenAtLogin
+<a name="OpenAtLogin"> </a>
 
 This setting specifies whether OneDrive starts automatically when the user logs in.
 
@@ -228,6 +259,7 @@ The example for this setting in the **.plist** file is:
 <Bool/>
 
 ### SharePointOnPremFrontDoorUrl
+<a name="SharePointOnPremFrontDoorUrl"> </a>
 
 This setting specifies the SharePoint Server 2019 on-premises URL that the OneDrive sync app must try to authenticate and sync against. 
 
@@ -238,6 +270,7 @@ The example for this setting in the **.plist** file is:
 <string>https://Contoso.SharePoint.com</string>
 
 ### SharePointOnPremPrioritizationPolicy
+<a name="SharePointOnPremPrioritizationPolicy"> </a>
 
 This setting determines whether or not the client should set up sync for SharePoint Server or SharePoint in Microsoft 365 first during the first-run scenario when the email is the same for both SharePoint Server on-premises and SharePoint in Microsoft 365 in a hybrid scenario.
 
@@ -248,6 +281,7 @@ The example for this setting in the **.plist** file is:
 <int>(0 or 1)</int>
 
 ### SharePointOnPremTenantName
+<a name="SharePointOnPremTenantName"> </a>
 
 This setting enables you to specify the name of the folder created for syncing the SharePoint Server 2019 files specified in the Front Door URL.
 
@@ -263,6 +297,7 @@ The example for this setting in the **.plist** file is:
 <string>Contoso</string>
 
 ### UploadBandwidthLimited
+<a name="UploadBandwidthLimited"> </a>
 
 This setting defines the maximum upload throughput rate in KB/sec for computers running the OneDrive sync app.
 
