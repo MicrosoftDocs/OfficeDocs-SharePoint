@@ -102,6 +102,8 @@ If you enable this setting, the users get an error if they attempt to add an acc
 
 You must enable this setting by defining IDs for the **TenantID** parameter which determines the tenants to whom the **block tenant** setting is applicable. You must also set the boolean value to **True** for the ID of every tenant you want to prevent from syncing with the OneDrive and SharePoint files and folders.
 
+**Note**: In the list, inclusion of the tenant ID alone does not suffice. It is mandatory to set the boolean value to **True**  for the ID of each tenant who is to be blocked. 
+
 The example for this setting in the **.plist** file is:
 <key>BlockTenantList</key>
 <array>
@@ -178,9 +180,13 @@ The example for this setting in the **.plist** file is:
 
 ### FilesOnDemandEnabled
 
-This setting specifies whether Files On-Demand is enabled. If you don't set this setting, Files On-Demand will be enabled automatically as we roll out the feature, and users can turn the setting on or off.
+This setting specifies whether Files On-Demand is enabled. 
 
-If you set this setting's value to **True**, the users who set up the sync app can download the online-only files, by default. If you set this setting to **False**, the **FilesOnDemand** setting is disabled and the users won't be able to turn it on.
+If you don't set this setting, Files On-Demand will be enabled automatically as we roll out the feature, and users can turn the setting on or off.
+
+If you set this setting to **True**, **FilesOnDemand** is enabled and the users who set up the sync app can view the online-only files, by default. 
+
+If you set this setting to **False**, **FilesOnDemand** is disabled and the users won't be able to turn it on.
 
 The example for this setting in the **.plist** file is:
 <key>FilesOnDemandEnabled</key>
@@ -243,12 +249,14 @@ The example for this setting in the **.plist** file is:
 
 ### SharePointOnPremTenantName
 
-This setting specifies the name of the folder created for syncing the SharePoint Server 2019 files specified in the Front Door URL.
+This setting enables you to specify the name of the folder created for syncing the SharePoint Server 2019 files specified in the Front Door URL.
 
-To enable this setting, you must specify naming conventions such as:
-<br/> OneDrive – TenantName <br/> TenantName.
-The created folder is then named according to either of the two conventions, based on whichever is specificed.
- If no naming convention is specified, the folder names will use the first segment of the FrontDoorURL as the Tenant Name. For example, https://Contoso.SharePoint.com will use Contoso as the Tenant Name.
+If this setting is enabled, you can specify a TenantName which is the name the folder will use in the following convention:
+<br/> OneDrive – TenantName (specified by you) <br/> TenantName (specified by you)
+
+If you do not specify any TenantName, the folder will use the first segment of the FrontDoorURL as the its name. For example, https://Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
+<br/> OneDrive – Contoso <br/> Contoso
+
 
 The example for this setting in the **.plist** file is:
 <key>SharePointOnPremTenantName</key>
