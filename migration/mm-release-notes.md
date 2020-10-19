@@ -22,7 +22,6 @@ description: "Learn about the new features and updates to existing features in M
 Learn about the new features and updates to existing features in Migration Manager, located in the modern SharePoint Admin center.
   
 
-
 ## Features released
 
 **New Features**
