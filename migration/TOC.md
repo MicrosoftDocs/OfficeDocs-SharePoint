@@ -1,6 +1,7 @@
 # [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
 ## File share  migration (Migration Manager)
 ### Migration Manager
+#### [Release notes](mm-release-notes.md)
 #### [Get started](mm-get-started.md)
 #### [Set up Migration Manager agents](mm-setup-clients.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
