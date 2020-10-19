@@ -45,7 +45,7 @@ Configure the settings on macOS in the typical way:
   
 1. Quit the OneDrive app.
 
-2. Define the settings you want to change by creating a Plist with the values, or use a script to set the default values.
+2. Define the settings you want to change by creating a Plist file with the values, or use a script to set the default values.
 
 3. Deploy the settings onto the local computer.
 
@@ -55,7 +55,7 @@ Configure the settings on macOS in the typical way:
 
 ## Overview of settings
 
-Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app, but the property list file name and domain name will be different. When you apply the settings, make sure to target the appropriate domain depending on the edition of the sync app.
+Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app, but the Plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 ## List of settings
 
