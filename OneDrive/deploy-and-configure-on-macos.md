@@ -85,7 +85,6 @@ This setting prevents the users from uploading files to other organizations by s
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string which determines the tenants for whom the **Allow Tenant** setting is applicable. This parameter also needs a boolean value too be set to it for the setting to be complete. If the boolean value is set to **True**, the tenant is allowed to sync.
 
 The example for this setting in the **.plist** file is:
-
 \<key\>AllowTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
 
   
@@ -171,7 +170,7 @@ This setting prevents the tutorial from being shown to the users after they set 
 If you set this setting's value to **True**, the tutorial is blocked from being shown to the users after they set up the OneDrive.
 
 The example for this setting in the **.plist** file is:
-\<key\>DisableTutorial\</key\><br/>\<(Bool)/\>
+<br/>\<key\>DisableTutorial\</key\><br/>\<(Bool)/\>
 
 
 ### DownloadBandwidthLimited
