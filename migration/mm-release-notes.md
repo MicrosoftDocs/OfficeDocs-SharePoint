@@ -31,7 +31,7 @@ Learn about the new features and updates to existing features in Migration Manag
 |:-----|:-----|
 |Task limits|Users can create up to 50,000 separate migration tasks. |
 |Usability|Users can filter, sort, and perform searches on their migration tasks.|
-|Bulk task|When using a CSV for bulk task creation, Migraiton Manager validates the destination site URL.|
+|Bulk task validation|When using a CSV for bulk task creation, Migration Manager validates the initial destination site URL to help users identify any potential issues.|
 |Government cloud| Migration Manager supports GCCHigh/DoD tenants.|
 |Vanity URL|Support for vanity URL|
 |Reporting|Report aggregator script|
