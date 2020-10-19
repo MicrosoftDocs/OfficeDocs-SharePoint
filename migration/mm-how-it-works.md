@@ -21,7 +21,7 @@ The Migration Manager centralizes the management of large file share migrations 
 
 ## User process
 
-****Agent setup**
+**Agent setup**
 
 From Migration Manager in the SharePoint admin center, the user downloads the agent setup file to a local computer or VM. The agent setup file prompts for two sets of credentials; the SharePoint Admin credentials to access your destination, and the Windows credentials that have read access to any of the network file shares you plan to migrate. 
 
