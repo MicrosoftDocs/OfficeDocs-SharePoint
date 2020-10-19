@@ -79,6 +79,9 @@ NOTE Beginning on November 3rd, 2020, we'll be removing Query Spelling Suggestio
 
 <a name="__toc342653324"> </a>
 
+> [!NOTE]
+> Beginning on November 3rd, 2020, we'll be removing Query Spelling Suggestions (inclusion and exclusion lists) from SharePoint in Microsoft 365. This will only impact you if you have configured Query Spelling Suggestions. Query Spelling Suggestions will be replaced with a native learning platform to provide automatic spelling suggestions across Microsoft Search (initially in SharePoint and Outlook).
+
 If you or another user enters a word in a search query that appears to be misspelled, the search results page helps you out by displaying query spelling corrections. These are important words in your indexed documents. This is also known as "Did you mean?".
   
 For example, if you enter a query that contains the word "ampitheater", the query spelling correction would show "amphitheater" if this term is available in many places in your indexed documents. You can add terms such as the one just shown to the **Query Spelling Inclusions** list, or to the **Query Spelling Exclusions** list to influence how you want query spelling corrections to be applied or not. It takes up to 10 minutes for any changes to the **Query Spelling Inclusions** or the **Query Spelling Exclusions** list to take effect. 
