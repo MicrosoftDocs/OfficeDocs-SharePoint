@@ -20,7 +20,7 @@ description: How to use Migration Manager in the SharePoint Admin center to move
 ---
 # Using Migration Manager
 
-Before you create your first migration task, you must first: 
+Before you create your first migration task, make sure to do the following: 
 
 - [Check your prerequisites and required endpoints](mm-setup-clients.md#prerequisites) 
 - [If you are you on a Government cloud, check your configuration](mm-gov-cloud.md) If you are on an government cloud, make sure your settings are correctly configured before you begin. 
