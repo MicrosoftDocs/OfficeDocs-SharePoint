@@ -104,24 +104,32 @@ Limiting access allows users to remain productive while addressing the risk of a
   
 ## Block or limit access to a specific SharePoint site or OneDrive 
 
-To block or limit access to specific sites, you must set the organization-wide policy to "Allow full access from desktop apps, mobile apps, and the web." Then follow these steps.
+To block or limit access to specific sites, follow these steps. If you have configured the organization-wide policy, the site-level setting you specify must be at least as restrictive as the organization-level setting.
   
 1. Manually create a policy in the Azure AD admin center by following the steps in [Use app-enforced restrictions](app-enforced-restrictions.md).
-  
-2. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+2. Set the site-level setting by using PowerShell, or a [sensitivity label](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels):
+    
+    - To use PowerShell, continue to the next step.
+    
+    - To use a sensitivity label, see the following instructions and specify the label setting for **Access from unmanaged devices**: [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
+3. To use PowerShell: [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language, and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. If you're running the 64-bit version of Windows, download the x64 file; or, if you're running the 32-bit version, download the x86 file. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it, and follow the steps in the Setup Wizard.
 
-3. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+4. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-4. To block access to a single site, run the following command:
+5. Run one of the following commands.
+    
+    To block access to a single site:
 
     ```PowerShell
     Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy BlockAccess
     ```
     
-    To limit access to a single site, run the following command:
+    To limit access to a single site:
 
     ```PowerShell
     Set-SPOSite -Identity https://<SharePoint online URL>/sites/<name of site or OneDrive account> -ConditionalAccessPolicy AllowLimitedAccess
@@ -135,11 +143,8 @@ To block or limit access to specific sites, you must set the organization-wide p
 
     This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request, which is fastest.
 
-    
-    > [!NOTE]
-    > The site-level setting must be at least as restrictive as the organization-level setting. 
-    > 
-    > By default, this policy allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
+> [!NOTE]
+> By default, a setting that includes web access allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
  
 ## Advanced configurations
 <a name="advanced"> </a>
