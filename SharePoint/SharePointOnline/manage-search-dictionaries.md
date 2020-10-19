@@ -74,9 +74,6 @@ After you have done this, you can then use the managed property **companies** to
 7. To add the term to the **Company Exclusions** list, select anywhere on the page. 
     
 ## Manage query spelling correction
-
-NOTE Beginning on November 3rd, 2020, we'll be removing Query Spelling Suggestions (inlusion and exclusion lists) from SharePoint in Microsoft 365. This will only impact you if you have configured Query Spelling Suggestions. Query Spelling Suggestions will be replaced with a native learning platform to provide automatic spelling suggestions across Microsoft Search (initially in SharePoint and Outlook).
-
 <a name="__toc342653324"> </a>
 
 > [!NOTE]
