@@ -96,3 +96,12 @@
 | 10/8/2020 | [Migrate your file share content to SharePoint using the Azure Data Box](/SharepointMigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox) | modified |
 | 10/8/2020 | [Mover migration - Authorizing Office 365](/SharepointMigration/mover-setup-m365-destination) | modified |
 | 10/9/2020 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
+
+
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/15/2020 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
+| 10/15/2020 | [How to use Migration Manager](/SharepointMigration/mm-how-to-use) | modified |
