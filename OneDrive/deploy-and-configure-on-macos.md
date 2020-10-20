@@ -41,7 +41,7 @@ After the OneDrive sync app for Mac is installed, users can configure settings f
   
 ## Configure sync app settings
 
-Configure the settings on macOS in the typical way:
+Configure the settings on macOS as follows:
   
 1. Quit the OneDrive app.
 
@@ -80,9 +80,9 @@ Use the following keys to preconfigure or change settings for your users. The ke
 ### AllowTenantList
 <a name="AllowTenantList"> </a>
 
-This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that is not in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do not enable both settings at the same time.
+This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that is not in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do **NOT** enable both settings at the same time.
 
-The parameter for the **AllowTenantList** key is **TenantID** and its value is a string which determines the tenants for whom the **Allow Tenant** setting is applicable. This parameter also needs a boolean value too be set to it for the setting to be complete. If the boolean value is set to **True**, the tenant is allowed to sync.
+The parameter for the **AllowTenantList** key is **TenantID** and its value is a string which determines the tenants for whom the **Allow Tenant** setting is applicable. For teh setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
 
 The example for this setting in the **.plist** file is:
 <br/>\<key\>AllowTenantList</key\><br/>\<array><br/>&nbsp;&nbsp;&nbsp;&nbsp;\<dict><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId1</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<key\>TenantId2</key\><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<Bool>True\</Bool><br/>&nbsp;&nbsp;&nbsp;&nbsp;\</dict><br/>\</array>
@@ -114,7 +114,7 @@ The example for this setting in the **.plist** file is:
 <a name="BlockTenantList"> </a>
 This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list that is specified. 
 
-If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you have **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do not enable both settings at the same time.
+If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you have **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do **Not** enable both settings at the same time.
 
 You must enable this setting by defining IDs for the **TenantID** parameter which determines the tenants to whom the **block tenant** setting is applicable. You must also set the boolean value to **True** for the ID of every tenant you want to prevent from syncing with the OneDrive and SharePoint files and folders.
 
