@@ -144,7 +144,7 @@ As a Site owner you have full control of the site navigation. Use the following 
 
 ### Customize specific web parts
 
-**1. Yammer conversations web part** - Use a Yammer web part to connect new SharePoint Site owners with extra support from current SharePoint Site owners and admins. Connect your Yammer account to the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
+**1. Yammer conversations web part** - Use a Yammer web part to connect new SharePoint Site owners with extra support from current SharePoint Site owners and admins. Connect your Yammer community to the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
 
 ![Image of the Yammer conversations web part](media/sss-yammer.png)
 
