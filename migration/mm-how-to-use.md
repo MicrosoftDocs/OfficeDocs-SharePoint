@@ -20,11 +20,21 @@ description: How to use Migration Manager in the SharePoint Admin center to move
 ---
 # Using Migration Manager
 
-Before you create your first migration task, make sure to do the following: 
+Using Migration Manager involves a couple of steps, before you 
 
-- [Check your prerequisites and required endpoints](mm-setup-clients.md#prerequisites) 
-- [If you are you on a Government cloud, check your configuration](mm-gov-cloud.md) If you are on an government cloud, make sure your settings are correctly configured before you begin. 
-- [Set up a Migration Manager agent](mm-setup-clients.md#set-up-a-single-agent):  you can set up many agents as needed to scale your project.
+## Before you begin
+
+Before you create your first migration task, do the following: 
+
+
+|**Check**|**Do**|
+|:-----|:-----|
+|[Prerequisites](#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
+|[Required Endpoints](#required-endpoints)|Review the required Endpoints|
+|[Government cloud](mm-gov-cloud.md)|If you are on a Government cloud, make sure your settings are correctly configured before you begin.|
+|[Set up your Migration Manager agent](mm-setup-clients.md#set-up-a-single-agent)|You can set up as many agents as needed to scale your project.|
+
+
 
 ## Source and destination
 For every migration task you create, you will be prompted for a **source** and a **destination**. The credentials that you used to setup your agents have permission to access to any file share you planned to migrate.
