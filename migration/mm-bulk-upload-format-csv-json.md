@@ -21,7 +21,7 @@ description: "How to format a CSV or JSON file for bulk upload in Migration Mana
 
 There are two different methods available to bulk upload tasks into Migration Manager.  One is using a comma-separated (CSV) file, and the other is to use a JSON file.  
 
-The entries are manually entered by you into whichever format you choose.  The first five rows are validated to make sure the destination links are valid. If you receive an invalid destination error, make sure to also check the remainder of your tasks to ensure they have valid destinations. 
+The entries are manually entered by you into whichever format you choose.  The first row is validated to make sure the destination links are valid. If you receive an invalid destination error, make sure to also check the remainder of your tasks to ensure they have valid destinations. 
   
 ## Using a comma-separated value (CSV) file for bulk upload
 
