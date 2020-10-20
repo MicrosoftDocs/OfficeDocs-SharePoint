@@ -20,7 +20,7 @@ description: How to use Migration Manager in the SharePoint Admin center to move
 ---
 # Using Migration Manager
 
-Using Migration Manager involves a couple of steps, before you 
+Migration Manager is located in the modern SharePoint Admin Center, and guides you through the setup of your agents and the creation of your file share migration tasks.  
 
 ## Before you begin
 
