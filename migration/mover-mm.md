@@ -17,7 +17,7 @@ description: "Mover Migration Manager"
 
 The **Migration Manager** is the key part of our app. It is the primary screen for interacting during the data migration process.
 
-![migration main mover](media/migration-main-mover.png)
+![migration main mover](media/mover-migration-manager-main.png)
 
 ## Migration Manager dashboard
 
@@ -27,7 +27,7 @@ Use the **Migration Manager** dashboard for a summary of your overall migration.
 
 Use our app's main navigation bar to switch between the **Migration Manager**, **Transfer Wizard**, and your **Account** details, as well as contact support if you run into any issues during your migration.
 
-![migration top mover](media/migration-top-mover.png)
+![migration top mover](media/mover-main-menu-bar.png)
 
 ## Migration selection
 
@@ -35,7 +35,7 @@ Use the **Migration Selection** bar to navigate between separate multi-user migr
 
 Here, you are also able to edit and personalize the names of each multi-user migration.
 
-![migration edit mover](media/migration-edit-mover.png)
+![migration selection bar](media/mover-migration-selection-bar.png)
 
 ## Migration actions
 
