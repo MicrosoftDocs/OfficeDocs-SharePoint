@@ -43,7 +43,7 @@ Authorizing **Egnyte** as an administrator is straightforward. To authorize or a
 2. In the **Connector** list, find **Egnyte**.
 3. Select **Authorize**.
 
-![Egnyte connector list auth](media/egnyte_connector_list_auth.png)
+![Egnyte connector list auth](media/mover-auth-source-connector.png)
 
 4. A new window (tab) opens. Name your Connector <optional>.</br>
 

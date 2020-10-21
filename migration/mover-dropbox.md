@@ -48,7 +48,7 @@ Authorizing **Dropbox Business** as an administrator is straightforward. To auth
 2. In the **Connector** list, find **Dropbox**.
 3. Select **Authorize**.
 
-![authorize dropbox source connector](media/auth-dropbox-source-connector.png)</br>
+![authorize source connector](media/mover-auth-source-connector.png)</br>
 
 4. A new window (tab) opens. Name your Connector <optional>.</br>
 

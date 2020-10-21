@@ -284,7 +284,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 2. In the **Connector** list, find **Agent (Desktop or Server)**.
 3. Select **Authorize**.
 
-![Agent connector list authentication](media/agent_connector_list_auth.png)
+![Agent connector list authentication](media/mover-auth-source-connector-fileshare.png )
 
 4. A new window opens, and you are prompted to name your **Connector** <optional>.
 5. Enter your required Key that you copied from the installed agent (found via the **File** > **Copy Key** action in the Agent).
@@ -292,9 +292,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Name connector agent](media/name-connector-agent.png)
 
-### Additional screenshots
 
-![Additional screenshots](media/additional-screenshots.png)
 
 ## Troubleshooting an agent connector
 
