@@ -45,3 +45,11 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 10/6/2020 | [Enable conditional access support in the OneDrive sync app](/OneDrive/enable-conditional-access) | modified |
+
+
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/12/2020 | [About Discover view](/OneDrive/help-users-use-discover-view) | modified |
