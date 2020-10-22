@@ -19,7 +19,7 @@ description: "Mover reports"
 
 The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transferred, and the amount of data scanned or transferred; as well as any issues, errors, or failures that may have occurred.
 
-![migration manager dash](media/migration-manager-dash.png)
+![migration manager dash](media/mover-migration-manager-dash.png)
 
 ## Transfers
 
