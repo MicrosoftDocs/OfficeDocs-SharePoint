@@ -19,11 +19,11 @@ description: "Use the Mover migration service to set up your Egnyte source conne
 
 ### What is different about Egnyte?
 
-Unlike other cloud storage providers, Egnyte has a `Shared` folder and a `Private` folder. When migrating from Egnyte, our app defaults to the **Private** folders when auto-completing the user to user migration setup.
+Unlike other cloud storage providers, Egnyte has a `Shared` folder and a `Private` folder. When migrating from Egnyte, our app defaults to the **Private** folders when autocompleting the user to user migration setup.
 
 ### How will my paths look when Egnyte is my source?
 
-During the migration setup (described later in this guide), you can edit the path(s) to specify where in Egnyte you want the data to go. From the root level of Egnyte, you can go into `/Private` which lists the individual users and their data, or `/Shared` which is the main shared data repository.
+During the migration setup (described later in this guide), you can edit the path(s) to specify where in Egnyte you want the data to go. From the root level of Egnyte, you can go into `/Private` that lists the individual users and their data, or `/Shared` which is the main shared data repository.
 
 Most cloud storage providers, Egynte, for example, start the listing with a user such as `/user@example.com/marketing data`. Egnyte does not do this, so you would be looking at a path such as `/Shared/marketing data` if it's a Shared folder, or `/Private/example/marketing data` if it's a Private folder.
 
@@ -47,13 +47,13 @@ Authorizing **Egnyte** as an administrator is straightforward. To authorize or a
 
 4. A new window (tab) opens. Name your Connector <optional>.</br>
 
-5. Provide the Egnyte domain, for example, if your Egnyte domain is companyname.egnyte.com, enter "companyname".
+5. Provide the Egnyte domain, for example, if your Egnyte domain is companyname.egnyte.com, enter "company name".
 
 ![Name connector Egnyte](media/name-connector-egnyte.png)
 
 6. Select **Authorize**.
 
-7. If you are not already logged in, you can use either your Egnyte credentials or an SSO account.
+7. If you are not already logged in, use either your Egnyte credentials or an SSO account.
 
 ![Log into grant access to Egynte](media/log-in-to-grant-access-to-egnyte.png)
 
@@ -73,12 +73,12 @@ Our app requires an **Administrator** for authorization. The following table lis
 |View and manage users|View, edit, and manage users under the available Egnyte Directory.|
 |Generate audit reports    |Generate and view reports available in the Egnyte Report Center.|
 |Create and manage links|Create and manage internal links.|
-|Read and write all files and folders|View, edit, copy and paste all data from within the Egnyte-available Directories.|
+|Read and write all files and folders|View, edit, copy and paste, all data from within the Egnyte-available Directories.|
 
 
 ## Connecting your source Egnyte account
 
-If you are not already connected after you have authorized your source, select **Egnyte**, and load the connector. An icon appears, and show you how many users you are migrating.
+If you aren't already connected after you have authorized your source, select **Egnyte**, and load the connector. An icon appears, and show you how many users you are migrating.
 
 ![execution select gdrive source](media/execution-select-egnyte-source.png)
 
