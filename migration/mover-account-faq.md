@@ -39,7 +39,7 @@ If you are already logged in to our app, you can change your password there, too
 3. Select **Reset Password**.
 4. Follow the steps we send to your account email and you're done!
 
-![reset password](media/reset_password.png)
+![reset password](media/mover-reset-password.png)
 
 ## How do I enable multi-factor authentication?
 
