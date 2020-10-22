@@ -14,8 +14,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "**/downloads/**"
+          "ThirdPartyNotices"
         ]
       }
     ],
@@ -31,8 +30,7 @@
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**",
-          "**/downloads/**"
+          "_themes.pdf/**"
         ]
       }
     ],
