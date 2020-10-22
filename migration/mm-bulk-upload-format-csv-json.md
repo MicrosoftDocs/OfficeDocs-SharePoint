@@ -17,7 +17,7 @@ search.appverid: MET150
 description: "How to format a CSV or JSON file for bulk upload in Migration Manager"
 ---
 
-# Bulk upload tasks into Migration Mananager using a CSV or JSON file 
+# Bulk upload tasks into Migration Manager using a CSV or JSON file 
 
 There are two different methods available to bulk upload tasks into Migration Manager.  One is using a comma-separated (CSV) file, and the other is to use a JSON file.  
 
