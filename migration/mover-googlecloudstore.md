@@ -31,7 +31,7 @@ Authorizing Google Cloud Storage is straightforward. To authorize or add a Googl
 2. Find Google Cloud Storage in the Connector list.
 3. Click **Authorize**.
 
-![Google Cloud Connector List](media/google_cloud_connector_list_auth.png)
+![Google Cloud Connector List](media/mover-auth-source-connector-google.png)
 
 4. A new window (tab) will open. Name your Connector (Optional).
 5. Enter your Access Key & Secret Key (which you created in the previous steps), as well as your Project ID (if different from the default).

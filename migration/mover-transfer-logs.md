@@ -35,7 +35,7 @@ You can view a user's transfer logs by doing one of the following:
 
 2. To select multiple users, from the **User Actions** dropdown menu or the **Actions** menu in the side tab, select **Download Logs (zip file)**. As the label implies, multiple log files are zipped together for download.
 
-![multiple logs](media/multiple_logs.png)
+![multiple logs](media/mover-multiple-logs.png)
 
 >[!Note]
 >The zipped file provides logs in both CSV and HTML formats for only the most recent transfer of each user.
