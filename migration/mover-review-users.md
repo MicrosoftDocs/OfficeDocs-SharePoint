@@ -34,7 +34,7 @@ To edit a user source entry:
 3. A new side panel opens, enabling you to edit the source path.
 4. To select your parent source path, double-click it, and to complete your edit, select **Save**.
 
-![Edit source user](media/edit-source-user.png)
+![Edit source user](media/mover-edit-source-user.png)
 
 To edit a user destination entry:
 
@@ -43,7 +43,7 @@ To edit a user destination entry:
 3. A new side panel opens, enabling you to edit the Office 365 destination path.
 4. To select your parent destination path, double-click it. To complete your edit, select **Save**.
 
-![Edit destination user](media/edit-destination-user.png)
+![Edit destination user](media/mover-edit-destination-user.png)
 
 You can also choose to edit your user entries via CSV, though this is a fairly in-depth process. *If you are simply looking to make a handful of edits to your paths, we recommend using the previous method.*
 
