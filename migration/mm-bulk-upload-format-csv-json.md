@@ -44,6 +44,7 @@ This example shows how it would appear in a .txt file.
 
 > [!IMPORTANT]
 >  *Do not*  include a header row in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
+>  The encoding of the CSV file must be UTF-8.
 
   
  **To create a CSV file for data migration**
