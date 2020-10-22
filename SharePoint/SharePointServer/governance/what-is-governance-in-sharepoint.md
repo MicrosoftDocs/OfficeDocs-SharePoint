@@ -10,13 +10,11 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
-ms.custom: 
-ms.assetid: df399658-84ac-4ca6-aaf4-378eef361cbb
 description: "Learn about governance as an essential part of a successful SharePoint deployment and the various components of an organizational governance plan."
 ---
 

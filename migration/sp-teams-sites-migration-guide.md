@@ -86,8 +86,8 @@ In Microsoft 365, **Power Automate** is the product that allows you to easily cr
 To learn more:
 - [Get started with Power Automate](https://docs.microsoft.com/flow/getting-started)
 
->[!Note]
->Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime.
+> [!NOTE]
+> Classic workflow will be supported and available until 2026. We recommend taking this into consideration as you plan for your workflow lifetime. For more information, please see [SharePoint 2010 workflow retirement](https://support.microsoft.com/office/sharepoint-2010-workflow-retirement-1ca3fff8-9985-410a-85aa-8120f626965f).
 
 
 
@@ -174,7 +174,5 @@ The SharePoint adoption resource center serves as a one stop shop for all adopti
 - **[SharePoint Adoption Resource Center](https://resources.techcommunity.microsoft.com/resources/SharePoint-adoption/)**
 
  ![SharePoint Adoption](media/SP-Adoption-Success-Factors.png)
-
-
 
 

@@ -23,11 +23,11 @@ description: "This article is a resource where you can find prerequisites and en
 ## Recommended requirements for best performance
 
 
-|**Component**|**Recommendation**|
+| Component | Recommendation |
 |:-----|:-----|
 |CPU |64-bit quad core processor or better|
 |RAM |16 GB |
-|Local Storage|Solid state disk: 150 GB free space|
+|Local Storage|Solid-state disk: 150 GB free space|
 |Network card|1 Gbps|
 |Operating system |Windows Server 2012 R2 or Windows 10 client or later  <br/> .NET Framework 4.6.2 or later |
 
@@ -36,9 +36,9 @@ description: "This article is a resource where you can find prerequisites and en
 
 ### Minimum requirements (expect slow performance)
 
-|**Component**|**Requirement**|
+| Component | Requirement |
 |:-----|:-----|
-|CPU  |64-bit 1.4 GHz 2-core processor or better |
+|CPU  |64-bit 1.4-GHz 2-core processor or better |
 |RAM|8 GB|
 |Local Storage|Hard disk: 150 GB free space|
 |Network card|High-speed Internet connection|
@@ -51,10 +51,12 @@ description: "This article is a resource where you can find prerequisites and en
 The following table lists the required endpoints for using the SharePoint Migration Tool.</br>
 
 
-|**Required Endpoint**|**Why**|
+| Required Endpoint | Why |
 |:-----|:-----|
 |https://<span><span>secure.aadcdn.microsoftonline-p.<span><span>com|Authentication|
 |https://<span><span>login.microsoftonline.<span><span>com|Authentication|
+|https://<span><span>login.windows.<span><span>net|Authentication|
+|https://<span><span>aadcdn.msftauth.<span><span>net|Authentication|
 |https://<span><span>api.office.<span><span>com|Microsoft 365 APIs for content move and validation|
 |https://<span><span>graph.windows.<span><span>net|Microsoft 365 APIs for content move and validation|
 |https://<span><span>spmtreleasescus.blob.core.windows.<span><span>net|Installation|
@@ -71,15 +73,8 @@ The following table lists the required endpoints for using the SharePoint Migrat
 
 ## Optional endpoints
 
-|**Optional Endpoint**|**Why**|
+| Optional Endpoint | Why |
 |:-----|:-----|
 |https://<span><span>*.table.core.windows.net|Required only if you choose to use your Azure Storage account.  See **Use custom Azure storage** in Settings.|
-
-
-
-
-
-
-   
 
 

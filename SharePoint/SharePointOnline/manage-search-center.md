@@ -1,9 +1,9 @@
 ---
 title: "Manage the Search Center in SharePoint"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 4/5/2018
 audience: Admin
 f1.keywords:

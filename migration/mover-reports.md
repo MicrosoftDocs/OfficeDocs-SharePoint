@@ -19,7 +19,7 @@ description: "Mover reports"
 
 The dashboard statistics given at the top of the **Migration Manager** provide a visual summary of your overall migration. This includes the number of users in the current selected migration, the number of files scanned or transferred, and the amount of data scanned or transferred; as well as any issues, errors, or failures that may have occurred.
 
-![migration manager dash](media/migration-manager-dash.png)
+![migration manager dash](media/mover-migration-manager-dash.png)
 
 ## Transfers
 
@@ -144,7 +144,7 @@ The CSV report provides the following information for each user pairing:
 
 Download an example CSV:
 
-[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report.csv)
+[example_migration_report.csv](downloads/example_migration_report%20.csv)
 
 ## Migration table report
 
@@ -158,7 +158,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-[example_migration_table_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_table_report.csv)
+[example_migration_table_report.csv](downloads/example_migration_table_report.csv)
 
 ## Migration error report
 
@@ -170,7 +170,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-[example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_error_report.csv)
+[example_migration_error_report.csv](downloads/example_migration_error_report.csv)
 
 ## Skipped files and folders
 

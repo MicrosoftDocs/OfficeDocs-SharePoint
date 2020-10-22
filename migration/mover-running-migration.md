@@ -43,7 +43,7 @@ After users appear in green, yellow, or red, on the top right side of your scree
 >[!Note]
 >If your scan encounters an error or crashes, our app automatically reruns the scan up to three times to attempt to resolve the issue.
 
-![scan report migration](media/scan-report-migration.png)
+![scan report migration](media/mover-scan-report-migration.png)
 
 For in-depth info about **Scan Report**, see the **Reports** subsection under the **Scan Report** section of this guide.
 
@@ -56,7 +56,7 @@ We recommend starting slowly. Test one user, then three to five. If all looks go
 3. Review your migration summary. This informs you which user is being copied, where they are transfering from, and where to, as well as when the transfer begins.
 4. Review and agree to our terms and conditions, and then select **Continue**. Your users are immediately queued for migration.
 
-![start migration](media/start_migration.png)
+![start migration](media/mover-start-migration.png)
 
 >[!Note]
 >If your transfer encounters an error or crashes, our app automatically reruns the transfer up to three times to attempt to resolve the issue.

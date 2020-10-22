@@ -36,9 +36,9 @@ The SharePoint Success Site helps Site owners improve the quality and impact of 
 
 Use the SharePoint Success Site to:
 
-- **Get more out of SharePoint** - Teach new Site owners how to utilize the power behind SharePoint's communication and collaboration features. 
+- **Get more out of SharePoint** - Show new Site owners how to leverage the value behind SharePoint's communication and collaboration features. Help new Site owners understand the ways to work with SharePoint to meet specific business outcomes. Then, show users how to utilize the power behind SharePoint's communication and collaboration features with step-by-step guidance. 
 - **Enable Site owners to create high-impact sites** - Ensure Site owners have the right information and support to create purposeful sites that are widely adopted by the intended audience. 
-- **Ensure Site owners follow site creation policies** - Customize the site creation policy page on your SharePoint Success site to communicate organizational policy expectations during the training experience.
+- **Ensure Site owners follow site creation policies** - Customize the site usage and creation policies page in your SharePoint Success site to communicate organizational policy expectations during the training experience.
 - **Provide the most up-to-date content** - Equip Site owners with SharePoint self-help content that is maintained by Microsoft and published as SharePoint evolves.
 
 
@@ -46,9 +46,9 @@ Use the SharePoint Success Site to:
 ## SharePoint Success Site features
 The SharePoint Success Site is designed to reduce the amount of work needed to plan, build, and manage new SharePoint sites for Site owners and content authors. 
 
-SharePoint Success Site features:
+**SharePoint Success Site features:**
 
-- **Fast provisioning:** Provision the SharePoint Success Site with just a few easy steps.
+- **Fast provisioning:** Provision the SharePoint Success Site with just a few steps.
 - **Easily customizable:** Edit the site layout, branding, and Microsoft-provided playlist content to align with how you have set up SharePoint in your tenant.
 - **Comprehensive Site owner training content:** Training on what makes an effective site and how to build and maintain the site.
 - **Site creation guidelines:** Create SharePoint usage guidelines that fit policy requirements for your organization.
@@ -67,13 +67,13 @@ The SharePoint Success Site is a SharePoint communication site that includes pre
 #### Microsoft-maintained content feed
 The SharePoint Success Site’s up-to-date content feed includes a range of content that helps new users and existing site owners plan, build, and manage SharePoint sites:
 
-- **Plan your site:** Guidance on the ways to work with SharePoint, how to plan a site, including what type of SharePoint site to use, how to manage site access, and permission strategy.
-- **Create your site:** Content that helps new Site owners create their site, add content, and then branding and customize.
+- **Plan your site:** Guidance on the ways to work with SharePoint, how to plan a site, including what type of SharePoint site to use and how to manage site access and permission strategy.
+- **Create your site:** Content that helps new Site owners create their site, add content, customize web parts, and apply brand elements.
 - **Share and manage your site:** Guidance to help launch, share, and manage the new site.
-- **Advanced site creation:** Content for Site owners that want to learn beyond site creation basics.
+- **Advanced site creation:** Content for Site owners who want to learn more about SharePoint beyond site creation basics.
 
 #### Site inspiration
-The introductory section helps new site owners understand the different ways you can leverage SharePoint to meet common business objective through fictional stories that help establish an understanding about the site creation stages and common tasks. Users will have access to stories that illustrate how to build an onboarding site, a project management site, a site that supports a community of interest, and a team collaboration site. These scenarios provide guidance on how to think about the planning, building, and launching phases.
+The introductory content helps new site owners understand the different ways you can leverage SharePoint to meet common business objective through fictional stories that help establish an understanding about the site creation stages and common tasks. Users will have access to stories that illustrate how to build an onboarding site, a project management site, a site that supports a community of interest, and a team collaboration site. These scenarios provide guidance on how to think about the planning, building, and launching phases.
 
 ![Image of the Ways to work with SharePoint page](media/sss-ways-to-work.png)
 
@@ -91,18 +91,15 @@ The site creation guidelines page provides a starting point to educate new Site 
 
 ## Summary of how to launch a SharePoint Success Site
 
-**Step 1:** [Meet the pre-requisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) to provisioning the SharePoint Success Site
+**Step 1:** [Meet the pre-requisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then [provision](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
 <br> 
 
-**Step 2:** [Provision](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1) the SharePoint Success Site 
+**Step 2:** [Customize](https://docs.microsoft.com/sharepoint/customize-sss) the site design, playlists, success stories, and site creation guidelines
 <br> 
 
-**Step 3:** [Customize](https://docs.microsoft.com/sharepoint/customize-sss) the site design, playlists, success stories, and site creation guidelines
-<br> 
-
-**Step 4:** Launch and [share the site](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) with others
-
+**Step 3:** Launch and [share the site](https://docs.microsoft.com/sharepoint/customize-sss#share-the-site-with-end-users) with others
 <br>
+
 
 #### Next steps - provision the SharePoint Success Site
 
@@ -113,24 +110,24 @@ Review and implement SharePoint Success Site [provisioning requirements and inst
 ### Frequently asked questions
 
 
-**Question: Who has permission to provision the SharePoint Success Site?**
+**Question: Who has permission to provision the SharePoint Success Site?**
 <br>
-Answer: SharePoint administrator credentials or higher are required.
-<br>
-
-**Question: Who has permission to customize the site template?**
-<br>
-Answer: The SharePoint administrator or Site owner or Site member permissions.
+Answer: The Global admin (formerly called the Tenant admin) are required.
 <br>
 
-**Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
+**Question: Who has permission to customize the site template?**
 <br>
-Answer: The Site collection administrator for M365 learning pathways and SharePoint Site owner or Site member permissions for M365 learning pathways.
+Answer: The Global admin (formerly called the Tenant admin) or Site owner permissions.
+<br>
+
+**Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
+<br>
+Answer: The Site collection administrator and Site owner permissions of M365 learning pathways.
 <br>
 
 **Question: Who has permissions to use the SharePoint Success Site as a user?**
 <br>
-Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
+Answer: Microsoft 365 user permissions or SharePoint Site visitor permissions or higher.
 
 
 

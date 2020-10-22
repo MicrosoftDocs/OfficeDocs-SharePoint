@@ -2,10 +2,12 @@
 ## File share  migration (Migration Manager)
 ### Migration Manager
 #### [Get started](mm-get-started.md)
-#### [Government cloud configuration](mm-gov-cloud.md)
 #### [Set up Migration Manager agents](mm-setup-clients.md)
+#### [Government cloud configuration](mm-gov-cloud.md)
+#### [How Migration Manager works](mm-how-it-works.md)
 #### [Migration Manager settings](mm-settings.md)
 #### [Format a CSV or JSON file for bulk upload using Migration Manager](mm-bulk-upload-format-csv-json.md)
+#### [Create a user mapping file for Migration Manager](mm-user-mapping-file.md)
 #### [Migration Manager Reports](mm-reports.md)
 #### [FAQs](mm-faqs.md)
 #### [Troubleshooting Migration Manager](mm-troubleshoot.md)
@@ -111,6 +113,7 @@
 ####  Mover Troubleshooting
 ##### [Post-migration troubleshooting](mover-post-migration-troubleshooting.md)
 ##### [Transfer logs](mover-transfer-logs.md)
+##### [Transfer status codes](mover-transfer-status-codes.md)
 ##### [Error messages](mover-error-faq.md)
 ##### [Account FAQ](mover-account-faq.md)
 ##### [Mover Migration FAQ](mover-migration-faq.md)

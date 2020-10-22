@@ -28,16 +28,49 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.119.7](https://aka.ms/spmt-beta-page)|[3.4.119.7](https://aka.ms/spmt-ga-page)|[3.4.119.6](https://aka.ms/spmt-ga-page)|[3.4.119.6](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.120.1](https://aka.ms/spmt-beta-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|
 
-</br>
+
+## SPMT 3.4.120.1
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+## SPMT 3.4.120.0
+
+The following features are now available in SPMT:
+
+**New Features**
+
+|Feature| Description|
+|:-----|:-----|
+|Setting deprecated|The setting, **Migrate files and folders with invalid characters** has been deprecated.|
+|New setting|A new setting for file share migration, **Replace invalid filename characters**, will auto-replace invalid characters in a filename with a character chosen by the user.
+|New PowerShell parameter|A new parameter for file share migration, **-ReplacementOfInvalidChar**, has been added to the cmdlet **Start-SPMTMigration**. This parameter will auto-replace invalid characters in a filename with a character chosen by the user.|
+|UI|Tenant admin users can select the promotional link, "Go to Migration Manager" on the SPMT Welcome page.|
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+|Performance|Improvements have been made to optimize migration performance.|
+|UI|Warning messages will display in the tool when network issues occur during uploading.|
+
+
 
 ## SPMT 3.4.119.7
 
-The following features are now available in the public preview version of the SharePoint Migration Tool.
+The following features were added in this release:
 
+**New features**
 
-|**Feature**|**Description**|
+|Feature|Description|
 |:----|:-----|
 |New/updated setting|The setting, **Migrate site settings**, is now an options setting, giving the user more control over what is migrated.  The user can select one of the following: *Preserve all settings*, *Skip title and logo*, *Only title and logo*, or *Skip all settings*.|
 |New parameter|A new parameter, **-MigrateWithoutRootFolder**, has been added to the cmdlet, Register-SPMTMigration. In file share migrations, use this parameter to migrate only the root folder's contents to the target. |
@@ -51,7 +84,8 @@ The following features are now available in the public preview version of the Sh
 
 ## SPMT 3.4.119.6
 
-The following features are now available in the public preview version of the SharePoint Migration Tool.
+The following features were added in this release:
+
 
 **Improvements**
 
@@ -62,7 +96,8 @@ The following features are now available in the public preview version of the Sh
 
 ## SPMT 3.4.119.5
 
-The following features are now available in the SharePoint Migration Tool.
+The following features were added in this release:
+
 
 **Improvements**
 
@@ -73,7 +108,8 @@ The following features are now available in the SharePoint Migration Tool.
 
 ## SPMT 3.4.119.4
 
-The following features were added to the SharePoint Migration Tool in this release:
+The following features were added in this release:
+
 
 **Improvements**
 
@@ -85,7 +121,9 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 ## SPMT 3.4.119.3
 
-The following features were added to the SharePoint Migration Tool in this release:
+The following features were added in this release:
+
+**New features**
 
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -100,7 +138,9 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 ## SPMT 3.4.119.2
 
-The following features were added to the SharePoint Migration Tool in this release:
+The following features were added in this release:
+
+**New features**
 
 |**Feature**|**Description**|
 |:-----|:-----|
@@ -116,7 +156,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 
 ## SPMT 3.2.119.2
 
-The following features were added to the SharePoint Migration Tool in this release:
+The following features were added in this release:
 
 **New features**
 
