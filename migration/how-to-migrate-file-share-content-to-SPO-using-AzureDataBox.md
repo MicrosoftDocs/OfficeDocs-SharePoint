@@ -1,5 +1,5 @@
 ---
-title: "How to migrate your file share content to SharePoint using the Azure Data Box"
+title: "Migrate your file share content to SharePoint using the Azure Data Box"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -21,7 +21,7 @@ description: "Learn how to migrate your file share content to SharePoint in Micr
 
 # Migrate your file share content to SharePoint using the Azure Data Box
 
-Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to easily migrate your file share content to SharePoint and OneDrive in Microsoft 365. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
+Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to migrate file share content to Microsoft 365. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
 
 The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy terabytes of data from your servers to the device. After shipping it back to Microsoft, your data is copied into Azure. Depending on the size of data you intend to transfer, you can choose from:
 
@@ -90,25 +90,24 @@ Take the following steps to copy data to your Data Box.
 6. [Verify the data upload to Azure](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure).
 
 
-## Migrating your data to SharePoint using SPMT
+## Migrating your data to Microsoft 365 using SPMT
 
-After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to SharePoint in Microsoft 365. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
+After you receive confirmation from the Azure data team that your data copy has completed, you can now proceed to migrate your data to Microsoft 365. For best performance and connectivity, we recommend that you create an Azure Virtual Machine (VM).
 
 1. Sign into the Azure portal, and then create a virtual machine.  To learn how, see  [Quickstart: Create Windows virtual machine in the Azure portal](/azure/virtual-machines/windows/quick-create-portal).
 
 2. [Mount the Azure file share onto that VM](/azure/storage/files/storage-how-to-use-files-windows).
 
-3. Download the SharePoint Migration Tool, and install it on your Azure VM. 
+3. [Download the SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm), and install it on your Azure VM. 
 
-Download here: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm).
 4. Start SPMT.  Select **Sign in**, and enter your Microsoft 365 username and password.<br><br>![SharePoint Migration Tool](media/spmt-intro.png).
 
-5. When prompted for "Where is your data?", select **File share**. Enter the path to your Azure file share where your data is located.
+5. Select **File share**. Enter the path to your Azure file share where your data is located.
 
 6. Follow the remaining prompts as normal, including your target location. For more info, see [How to use the SharePoint Migration Tool](/sharepointmigration/how-to-use-the-sharepoint-migration-tool). 
 
 
 > [!IMPORTANT]
 > - The speed at which data is ingested into SharePoint is impacted by several factors, regardless if you have your data already in Azure. Understanding these factors will help you plan and maximize the efficiency of your migration.  For more info, see  [SharePoint and OneDrive Migration Speed](/sharepointmigration/sharepoint-online-and-onedrive-migration-speed).
-> - There is a risk of losing existing permissions on files when migrating the data to SharePoint. You may also lose certain metadata, such as "Created by" and "Date modified by".
+> - File metadata and NTFS permissions can be preserved when the data is uploaded to Azure Files. In Windows, metadata is transferred automatically when you use a tool such as robocopy. In Linux, after you copy the files, you need to use a different tool to copy the metadata to your Data Box. For more information, see [Preserving file ACLs, attributes, and timestamps with Azure Data Box](/azure/databox/data-box-file-acls-preservation).
 

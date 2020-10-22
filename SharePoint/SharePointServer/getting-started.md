@@ -1,9 +1,9 @@
 ---
 title: "Getting started"
-ms.reviewer: 
-ms.author: jhendr
-author: JoanneHendrickson
-manager: pamgreen
+description: "Learn the basics to deploy your SharePoint Server: install, upgrade, or move to the cloud."
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 3/12/2018
 audience: ITPro
 f1.keywords:
@@ -15,7 +15,7 @@ ms.assetid: c33f0214-4201-4807-9e8f-574d8fd05849
 
 ---
 
-# Getting started
+# Getting started with SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](includes/appliesto-2013-2016-2019-xxx-md.md)]
 
@@ -37,7 +37,7 @@ Depending on your version, system requirements and prerequisites could vary.
 |:-----|:-----|
 |SharePoint Server 2019<br/>|[2019 Hardware and software requirements](install/hardware-and-software-requirements-2019.md)<br/><br/>[2019 Prerequisites](install/prerequisites-0.md)<br/>|
 |SharePoint Server 2016<br/>|[2016 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2016 Prerequisites](install/prerequisites-0.md)<br/>|
-|SharePoint Server 2013<br/>|[2013 Hardware and software requirements](install/hardware-and-software-requirements.md)<br/><br/>[2013 Prerequisites](install/prerequisites.md)<br/>|
+|SharePoint Server 2013<br/>|[2013 Hardware and software requirements](install/hardware-and-software-requirements-0.md)<br/><br/>[2013 Prerequisites](install/prerequisites.md)<br/>|
 
 
 ## How large is your company?  

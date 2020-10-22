@@ -5,7 +5,7 @@ description: Checklist to help guide users to create their SharePoint site usage
 author: jhendr
 manager: pamgreen
 ms.assetid: 
-ms.prod: office-365-enterprise
+ms.service: sharepoint-online
 ms.tgt_pltfrm: na
 ms.devlang: na
 f1.keywords:

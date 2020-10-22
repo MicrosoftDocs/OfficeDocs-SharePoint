@@ -1,15 +1,15 @@
 ---
 title: How to think about your intelligent intranet
 ms.reviewer: holland-odsp
-ms.author: holland-odsp
+ms.author: hokavian
 author: pamgreen-msft
 manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: sharepoint
-localization_priority: Priority
+ms.service: sharepoint-online
+localization_priority: Normal
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration

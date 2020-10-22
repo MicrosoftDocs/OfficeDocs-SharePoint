@@ -1,7 +1,7 @@
 ---
 title: Overview of the Microsoft New Employee Onboarding hub
 ms.reviewer: 
-ms.author: Holland-ODSP
+ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
 audience: Admin
@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration

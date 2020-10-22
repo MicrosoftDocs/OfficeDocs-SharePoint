@@ -17,7 +17,7 @@ description: "Mover Migration Manager"
 
 The **Migration Manager** is the key part of our app. It is the primary screen for interacting during the data migration process.
 
-![migration main mover](media/migration-main-mover.png)
+![migration main mover](media/mover-migration-manager-main.png)
 
 ## Migration Manager dashboard
 
@@ -27,7 +27,7 @@ Use the **Migration Manager** dashboard for a summary of your overall migration.
 
 Use our app's main navigation bar to switch between the **Migration Manager**, **Transfer Wizard**, and your **Account** details, as well as contact support if you run into any issues during your migration.
 
-![migration top mover](media/migration-top-mover.png)
+![migration top mover](media/mover-main-menu-bar.png)
 
 ## Migration selection
 
@@ -35,7 +35,7 @@ Use the **Migration Selection** bar to navigate between separate multi-user migr
 
 Here, you are also able to edit and personalize the names of each multi-user migration.
 
-![migration edit mover](media/migration-edit-mover.png)
+![migration selection bar](media/mover-migration-selection-bar.png)
 
 ## Migration actions
 
@@ -47,7 +47,7 @@ Use the **Migration Actions** menu to access things such as: the migration repor
 
 Use the **Active Filters** bar to search your migration for specific key terms or custom tags you have applied.
 
-![migration filter](media/migration-filter.gif)
+![migration filter](media/mover-migration-filter-new.gif)
 
 You can also view more in-depth instructions by selecting the info button directly to the right of the **Active Filters** search bar, or by viewing the **Active Filter** list.
 
@@ -59,13 +59,13 @@ The user display is the central focus of the **Migration Manager**, and displays
 
 This section of our app provides you with a column-by-column breakdown of each individual user in a migration. Here, you can also duplicate and edit source/destination paths of a user, as well as view the logs of any scanned or completed transfers.
 
-![migration users mover](media/migration-users-mover.png)
+![migration users mover](media/mover-users-display.png)
 
 ## User actions and finalization
 
 This area of the screen contains the **User Actions** dropdown menu, the **Scan User** and **Start Migrating Users** buttons.
 
-![migration final mover](media/migration-final-mover.png)
+![migration final mover](media/mover-final-actions.png)
 
 **User Actions** opens a new dropdown menu enabling you to interact with a selected transfer.
 
@@ -75,4 +75,4 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 
 **Start # Migrating Users** opens a side tab enabling you to finalize and begin the migration.
 
-![migration finalize mover](media/migration-finalize-mover.png)
+![migration finalize mover](media/mover-finalize-mover.png)

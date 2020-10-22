@@ -42,7 +42,8 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 - For info about the storage you get with each plan, see [OneDrive Service Description](https://docs.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description).
   
 > [!IMPORTANT]
-> The user accounts that you are pre-provisioning must be allowed to sign in.
+> The user accounts that you are pre-provisioning must be allowed to sign in and must also have a SharePoint license assigned.
+>To provision OneDrive by using this cmdlet, you must be a global or SharePoint administrator and must be assigned a SharePoint license. 
 
 ## Pre-provision OneDrive for users
 
@@ -107,7 +108,7 @@ Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint
         $list += $upn
         
         if ($i -eq 199){ #We reached the limit
-            Request-SPOPersonalSite -UserEmails $list
+            Request-SPOPersonalSite -UserEmails $list -NoWait
             Start-Sleep -Milliseconds 655
             $list = @()
             $i = 0
@@ -115,7 +116,7 @@ Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint
 
     }
     if($i -gt 0){
-        Request-SPOPersonalSite -UserEmails $list
+        Request-SPOPersonalSite -UserEmails $list -NoWait
     }
 ```
 ## Related topics

@@ -1,16 +1,16 @@
 ---
 title: "Configure server-to-server authentication from SharePoint Server to SharePoint in Microsoft 365"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/21/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_SharePoint_Hybrid_Top
 - IT_Sharepoint_Server

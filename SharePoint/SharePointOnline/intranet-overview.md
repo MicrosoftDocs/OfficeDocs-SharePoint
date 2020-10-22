@@ -1,7 +1,7 @@
 ---
 title: "Intelligent intranet roadmap"
 ms.reviewer: 
-ms.author: Holland-ODSP
+ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
 audience: Admin
@@ -10,6 +10,9 @@ ms.service: sharepoint-online
 localization_priority: Normal
 search.appverid: MET150
 description: "Learn about planning and deploying a SharePoint intranet."
+ms.collection: 
+  - m365solution-overview
+  - m365solution-spintranet
 ---
 
 # Intelligent intranet roadmap
@@ -342,7 +345,7 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 - Maintain high quality content.
 - Educate users.
 
-| Role                 |Managment tasks          |             
+| Role                 |Management tasks          |             
 | :------------------- | :------------------- |
 | [Organization intranet owners](#organization-intranet-owners) | Celebrate the launch of your new intranet. Communicate goals and progress regularly after the launch. | 
 | [IT pros / Admins](#it-pros-and-admins)|Communicate what's new with intranet stakeholders and business owners. Educate end-users about publishing rules like site creation and content retention policies.|

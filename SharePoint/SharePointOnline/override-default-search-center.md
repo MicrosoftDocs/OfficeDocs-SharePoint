@@ -1,9 +1,9 @@
 ---
 title: "Specify search settings for a site collection or a site"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/21/2018
 audience: Admin
 f1.keywords:

@@ -1,9 +1,9 @@
 ---
 title: "Upgrade site collections to SharePoint 2013"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 8/1/2017
 audience: ITPro
 f1.keywords:

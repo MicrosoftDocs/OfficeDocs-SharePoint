@@ -1,9 +1,9 @@
 ---
 title: "Best practices for SQL Server in a SharePoint Server farm"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

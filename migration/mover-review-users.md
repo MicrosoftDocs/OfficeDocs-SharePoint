@@ -15,6 +15,10 @@ description: "Mover - reviewing users before migration"
 ---
 # Mover migration: Reviewing your users
 
+## User caching
+
+Once we have loaded your users, *do not* modify your users in any way. Our system caches usernames once the connector is loaded, and any modification of usernames in Microsoft 365 or your source system after you connect will cause failures. We cache these names for four days.
+
 ## Checking paths
 
 Confirm that the users in the source match the users in the Office 365 destination. Usually the emails/usernames match up, but it depends how you structure and name your users. *Be diligent during this step!*
@@ -30,7 +34,7 @@ To edit a user source entry:
 3. A new side panel opens, enabling you to edit the source path.
 4. To select your parent source path, double-click it, and to complete your edit, select **Save**.
 
-![Edit source user](media/edit-source-user.png)
+![Edit source user](media/mover-edit-source-user.png)
 
 To edit a user destination entry:
 
@@ -39,7 +43,7 @@ To edit a user destination entry:
 3. A new side panel opens, enabling you to edit the Office 365 destination path.
 4. To select your parent destination path, double-click it. To complete your edit, select **Save**.
 
-![Edit destination user](media/edit-destination-user.png)
+![Edit destination user](media/mover-edit-destination-user.png)
 
 You can also choose to edit your user entries via CSV, though this is a fairly in-depth process. *If you are simply looking to make a handful of edits to your paths, we recommend using the previous method.*
 

@@ -1,15 +1,15 @@
 ---
 title: "Minimum public update levels for SharePoint hybrid features"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Sharepoint_Server

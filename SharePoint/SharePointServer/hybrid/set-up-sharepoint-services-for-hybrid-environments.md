@@ -1,16 +1,16 @@
 ---
 title: "Set up SharePoint services for hybrid environments"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/21/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_SharePoint_Hybrid_Top

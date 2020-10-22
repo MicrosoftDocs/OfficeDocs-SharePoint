@@ -1,16 +1,16 @@
 ---
 title: "Export OneDrive experience settings"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-localization_priority: Priority
+localization_priority: Normal
 description: "Learn about exporting OneDrive experience settings."
 ---
 

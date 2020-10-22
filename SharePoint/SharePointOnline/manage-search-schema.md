@@ -1,9 +1,9 @@
 ---
 title: "Manage the search schema in SharePoint"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -187,7 +187,7 @@ If you need a property of a different type, or one that has different characteri
 
 3. On the search administration page, select **Manage Search Schema**. 
     
-**Go to the Search Schema page for a sste collection**
+**Go to the Search Schema page for a site collection**
     
 1. On the site, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png), and then select **Site settings**. If you don't see **Site settings**, select **Site information**, and then select **View all site settings**.
     

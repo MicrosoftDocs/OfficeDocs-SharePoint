@@ -1,9 +1,9 @@
 ---
 title: "About user profile synchronization"
 ms.reviewer: amysim
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 5/21/2020
 audience: Admin
 f1.keywords:

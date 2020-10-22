@@ -18,6 +18,10 @@ description: "Authorizing the File share Connector"
 ## Agent FAQ
 
 The Mover file share agent is written using .NET Core, and therefore is available across many platforms.
+
+>[!Important]
+>As of September 26,2020, the minimum required Agent version is 1.3.5.0.
+
  
 **[Click here to select your operating system and download the agent.](https://aka.ms/MoverAgent)**
 
@@ -241,8 +245,9 @@ To enable swift and painless copying of data from on-premises desktop and server
 ### Compatibility
 
 Windows XP is not supported.
-All other versions of Windows require the .NET Framework 4.6 for the Agent to function.
-Download and manually install .NET Framework 4.6 from this **link**.
+All other versions of Windows require the Microsoft .NET Framework 4.6 for the Agent to function.
+
+[Download and manually install Microsoft .NET Framework 4.6](https://www.microsoft.com/en-ca/download/details.aspx?id=48130)
 
 ### Security
 
@@ -279,7 +284,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 2. In the **Connector** list, find **Agent (Desktop or Server)**.
 3. Select **Authorize**.
 
-![Agent connector list authentication](media/agent_connector_list_auth.png)
+![Agent connector list authentication](media/mover-auth-source-connector-fileshare.png )
 
 4. A new window opens, and you are prompted to name your **Connector** <optional>.
 5. Enter your required Key that you copied from the installed agent (found via the **File** > **Copy Key** action in the Agent).
@@ -287,9 +292,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Name connector agent](media/name-connector-agent.png)
 
-### Additional screenshots
 
-![Additional screenshots](media/additional-screenshots.png)
 
 ## Troubleshooting an agent connector
 

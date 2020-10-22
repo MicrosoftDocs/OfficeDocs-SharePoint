@@ -1,16 +1,16 @@
 ---
 title: "Cloud hybrid search service (Cloud SSA) FAQ"
 ms.reviewer: mbiswas
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 ms.collection: SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: 
 description: "Cloud hybrid search service (Cloud SSA) FAQ"
 ---

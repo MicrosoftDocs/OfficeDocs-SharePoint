@@ -1,9 +1,9 @@
 ---
 title: "One or more servers can't retrieve People Picker credentials (SharePoint Server 2019)"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 7/12/2018
 audience: ITPro
 f1.keywords:

@@ -1,6 +1,7 @@
 ---
 title: Authorizing the Amazon S3 Connector
 author: JoanneHendrickson
+ms.author: jhendr
 manager: serdars
 audience: ITPro
 ms.date: 6/22/2020
@@ -25,7 +26,7 @@ Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 accoun
 2. Find Amazon S3 in the Connector list.
 3. Click **Authorize.**
 
-![Amazon S3 Connector List](media/amazon_s3_connector_list_auth.png)
+![Amazon S3 Connector List](media/mover-auth-source-connector.png)
 
 4. A new window (tab) will open. Name your Connector (Optional).
 5. Enter your Access Key ID and Secret Access Key.

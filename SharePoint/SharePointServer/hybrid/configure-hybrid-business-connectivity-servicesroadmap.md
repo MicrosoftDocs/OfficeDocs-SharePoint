@@ -1,9 +1,9 @@
 ---
 title: "Configure hybrid Business Connectivity Services - roadmap"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/21/2017
 audience: ITPro
 f1.keywords:
@@ -16,7 +16,7 @@ ms.collection:
 - IT_SharePoint_Hybrid_Top
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: 
 ms.assetid: 405d8d1a-2952-4f51-9527-c2c305b76a29
 description: "Learn how to configure hybrid Business Connectivity Services between SharePoint Server and SharePoint in Microsoft 365."
