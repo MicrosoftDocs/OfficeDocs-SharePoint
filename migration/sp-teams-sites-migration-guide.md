@@ -124,7 +124,7 @@ Before migrating your team site content, you must first pre-provision your users
 Create modern hub sites based on how you have mapped your sites to a system of hub site. 
 
 - [Create a hub site](https://docs.microsoft.com/sharepoint/create-hub-site)
-- [Assocate a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05)
+- [Associate a SharePoint site with a hub site](https://support.office.com/article/ae0009fd-af04-4d3d-917d-88edb43efc05)
 
 
 
