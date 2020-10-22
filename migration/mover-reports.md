@@ -144,7 +144,7 @@ The CSV report provides the following information for each user pairing:
 
 Download an example CSV:
 
-[example_migration_report.csv](downloads/example_migration_report%20.csv)
+[example_migration_report.csv](downloads/example_migration_report.csv)
 
 ## Migration table report
 
