@@ -77,7 +77,7 @@ This provides the list of all current **Filters** that you can apply to the **Ac
 |Skipped	|Displays all data and files that were skipped.|
 |Schedule	|Displays all users with scheduled transfers [for example, Hourly, Daily, Weekly, Monthly].|
 |Path	|Filters for specific source or destination path [for example, path:username].|
-|Destination|	Filters for specific destination path [for exaample, path:@domain<spam><spam>.com].|
+|Destination|	Filters for specific destination path [for example, path:@domain<spam><spam>.com].|
 |Source|	Filters for specific source path [for example, path:foldername].|
 |Destination path	|Functions the same as **Destination**.|
 |Source path	|Functions the same as **Source**.|
