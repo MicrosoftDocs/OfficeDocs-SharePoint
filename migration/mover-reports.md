@@ -144,7 +144,7 @@ The CSV report provides the following information for each user pairing:
 
 Download an example CSV:
 
-[example_migration_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_report.csv)
+[example_migration_report.csv](downloads/example_migration_report%20.csv)
 
 ## Migration table report
 
@@ -158,7 +158,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-[example_migration_table_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_table_report.csv)
+[example_migration_table_report.csv](downloads/example_migration_table_report.csv)
 
 ## Migration error report
 
@@ -170,7 +170,7 @@ To download this as a CSV, at the top right of the **Migration Manager**, select
 
 Download an example CSV:
 
-[example_migration_error_report.csv](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/tree/live/migration/downloads/example_migration_error_report.csv)
+[example_migration_error_report.csv](downloads/example_migration_error_report.csv)
 
 ## Skipped files and folders
 
