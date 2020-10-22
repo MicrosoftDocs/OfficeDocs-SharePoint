@@ -49,7 +49,7 @@ To enable multi-factor authentication, follow these steps.
 2. From the left-hand menu, select **Password**.
 3. Under **Enable 2-Step Verification**, select **TURN ON**.
 
-![2 factor screen](media/2_factor_screen.png)
+![2 factor screen](media/mover-2-factor-auth.png)
 
 >[!Note]
 >You are automatically signed out of your account.
@@ -59,12 +59,8 @@ To enable multi-factor authentication, follow these steps.
 ![Verification code](media/verification_code.png)
 
 5. Enter the **Verification Code**. You now have 2-Step verification enabled.
-
-![activate 2 factor](media/activate_2_factor.png)
-
 6. To turn off 2-Step verification, return to the **Password** tab, and under Enable 2-Step Verification, select **TURN OFF**.
 
-![Disable 2 factor](media/disable_2_factor.png)
 
 ## How do I delete my account?
 
@@ -84,10 +80,9 @@ To reiterate:
 
 - Deletes all scheduled transfers.
 - Deletes all connector authorizations.
-- Deletes any subscriptions associated with your account.
 - Deletes your Mover account.
 
-**This does not:**
+**This will not:**
 
 - Delete your transfer history. We retain these for security and compliance.
 - Remove any trace that your account once existed with Mover.
@@ -95,7 +90,7 @@ To reiterate:
 >[!Important]
 >Deleting your account is **not** reversible.
 
-![Delete account](media/delete_account.png) 
+![Delete account](media/mover-delete-account.png) 
 
 ## How do I edit my email notifications?
 
