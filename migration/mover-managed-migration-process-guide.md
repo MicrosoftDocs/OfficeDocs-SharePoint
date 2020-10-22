@@ -18,16 +18,36 @@ ms.custom:
 search.appverid: MET150
 description: A guide to help partners managing a customers migration project.
 ---
-# Managed migration process guide for use with Mover
+# Managed migration guide for use with Microsoft Mover 
 
 This guide was created to share the process and best practices currently used by Microsoft when guiding a customer through a “managed migration”. A managed migration is a hands-on, high-touch service offered to customers who are wanting more guidance as they migrate from another cloud storage solution into Microsoft 365. The Mover application is used for this cloud to cloud migration.
+
+Most migrations fall into regular phases as follows. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating, and onboarding your users.
+
+
+
+> [!NOTE]
+> The Mover Migration tool is a Microsoft owned migration tool available at no cost to subscribers of Microsoft 365.
+
+
+   ![Migration process](media/migrationprocess-fileshare.png)
+
+|**Migration planning**|**Assess and remediate**|**Prepare your OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
+|:-----|:-----|:-----|:-----|:-----|
+|What content goes where<br><br>Understanding permissions vs sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Assess key areas<br><br>Remediate issues|Pre-provision Microsoft 365 and users|Review migration offerings<br><br>Microsoft FastTrack services<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted|
+
 
 >[!Tip]
 >Before starting a managed migration, we highly recommend reading and reviewing the current Mover documentation. This content provides valuable knowledge on how to understand the Mover tool for running migrations from various cloud storage platforms.
 > See [Mover migration content](https://docs.microsoft.com/en-us/sharepointmigration/mover-plan-migration)
 
-## Process and Best Practices
 
+
+## Planning
+## Assessment
+## Remediation
+## Migrate
+## Best Practices
 
 Best practices that will be discussed in this document include:
 
