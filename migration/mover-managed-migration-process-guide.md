@@ -44,30 +44,6 @@ Most migrations fall into regular phases as follows. Proven success factors for 
 
 
 ## Planning
-## Assessment
-## Remediation
-## Migrate
-## Best Practices
-
-Best practices that will be discussed in this document include:
-
-- Inventory scan:  Carrying out an initial inventory scan of source content.
-- Data distribution:  Encouraging separation of large file/data owners for balanced Data Distribution.
-- Customized destination folders:  Creation of specific destination upload folders for housing all migrated data.
-- User and Permissions mappings:  Creating accurate User and Permission Mappings.
-- Who Identifying who you need to migrate (users who owned data vs those that do not)
-- Managing Customer Expectations for the Migration.
-- Migration Transfer concurrency.
-- How to troubleshoot the Migration.
-- Customer Reporting via Scan Reports, Migration Reports and Migration Error Reports.
-
-## Customer engagement
-
-It is a considerable undertaking for customers to migrate their users, data, and files from their current cloud storage provider into Microsoft 365. Regardless of the company's size, customers look for experts to assist them in their migration project.
-
-This guide helps you deliver the migration on their behalf with minimal effort and direct involvement on their part. 
-
-## Initial engagement
 The initial engagement is a fact-finding exchange between Partners and the customer. Both parties will be seeking to obtain as much information as possible from each other.
 
  Our role is to gain clarity on their project and provide guidance and confidence in our ability to deliver on customer needs. 
@@ -78,17 +54,22 @@ One of the first points to cover is whether the Mover tool can do the migration.
 
 ![mover connectors](media/mover-supported-connectors.png)
 
-## Determine Project scope
+### Determine project scope
+
+It is a considerable undertaking for customers to migrate their users, data, and files from their current cloud storage provider into Microsoft 365. Regardless of the company's size, customers look for experts to assist them in their migration project.
+
+This guide helps you deliver the migration on their behalf with minimal effort and direct involvement on their part. 
+
 
 Migrations come in all shapes and sizes. On our initial engagement with a customer, we focus on discovering the fundamental elements of their project. 
 
-### Number of users to migrate
+**Number of users to migrate**
 Customers might have a relative idea of how many users are in their source domain and how many they plan to migrate. 
  
 These are good initial stats to garner, but we still perform an inventory scan to obtain a more accurate count of a customer's user base. 
 The scan results tell us how many users are in the domain and determine who owns the data, among other factors.
 
-### Data ownership
+**Data ownership**
 Much of a customer's userbase is shared data.  Mover only copies owned folders and the root files for each user.
  
 If a user is not the owner of the data, we do not copy it.  Content can be automatically re-shared after it is migrated so that each user can access their content the same as before.
@@ -140,6 +121,25 @@ Both Source and Destination connectors will have rate limits and we are beholden
 #### Complexity of permissions or sharing of data
 Applying permissions as part of the migration is another factor that can influence speed.  We are again making numerous API calls to apply permissions, which will increase the time it takes to migrate the data.
 
+## Assessment & Remediation
+## Prepare your environment
+## Migrate process
+## User onboarding
+
+Best practices that will be discussed in this document include:
+
+- Inventory scan:  Carrying out an initial inventory scan of source content.
+- Data distribution:  Encouraging separation of large file/data owners for balanced Data Distribution.
+- Customized destination folders:  Creation of specific destination upload folders for housing all migrated data.
+- User and Permissions mappings:  Creating accurate User and Permission Mappings.
+- Who Identifying who you need to migrate (users who owned data vs those that do not)
+- Managing Customer Expectations for the Migration.
+- Migration Transfer concurrency.
+- How to troubleshoot the Migration.
+- Customer Reporting via Scan Reports, Migration Reports and Migration Error Reports.
+
+## Customer engagement
+
 ## Communication engagement
 After the initial meeting with a prospective customer, it is essential to maintain a rhythm of business for moving forward. Customers will have many questions regarding various aspects of the migration process and providing them with clear and open communication channels is a must.
 
@@ -162,3 +162,107 @@ By restricting access to Mover, you are ensuring that the migration is run by no
 Though the customer might not have access that does not mean that they are not informed of status, potential issues and progress made.
 
 We provide a daily Migration Report to keep them fully informed and the details of this report 
+
+
+## Migration Considerations and Caveats PLANNING
+Before starting any migration there are some considerations and caveats to consider.
+General Migration planning
+
+What gets transferred?
+Only owned folders and the root files for each user will be copied. If a user is not the owner of the data they can access, the tool will not copy it.  
+
+Content may be automatically reshared once it is migrated so that each user has access to their content exactly as before.
+
+Does Mover sync files?
+
+Mover offers a source-to-destination comparison, when you run a transfer, we compare the destination directory to the source and only transfer new or modified files over. We call this our incremental feature.
+We compare the timestamps of the files in both the source and destination and transfer the newest versions only. The incremental feature is always on.
+Here are a few examples of how the tool deals with changes to files and folders.
+Content changes: If a document is edited in your source or you have added a few new files, we will copy them to your destination on the next incremental run, overwriting the previously existing file(s) in the destination.
+Name changes: If the name of a file or folder changes in Box, we will treat it as a brand new object. This can lead to duplicate files being migrated to Office 365, or worse: entire folders worth of data being duplicated from the changed folder downwards.
+Example: Changing the path /Sales/Clients to /Global Sales/Clients will result in two copies of your Sales folder once the Global Sales folder is also copied during an incremental pass.
+
+Does the Tool delete files?
+The tool never deletes any data from any source. The tool simply takes a copy of the data from one place and copies it to another—akin to "copy and paste" rather than "cut and paste." The tool also does not retain any customer cloud storage data for any reason.
+
+How data is handled.
+When we transfer a file, via the tool, a temporary copy is downloaded from the Source connector (e.g. Box, GSuite) to a temporary server and then uploaded to Office 365.
+
+Upon successful upload, the file is then deleted from the temporary server.  When the full migration is complete, that temporary server is decommissioned.  Any log data expires after 90 days and is never retained by Microsoft.
+
+The tool does not perform any actions beyond copying files, folders and sharing permissions.  The tool does not have the ability to perform any kind of delete operations on either Source or Destination.
+
+Transfer Management
+When you start generating your transfer mappings it is best practice to only ever have 1 transfer for every user, team folder or shared drive.
+
+You should NOT create duplicate transfers as this can lead to data duplication in the Destination.
+
+Common practice should be a ratio of 1:1 for all transfers.
+
+Example:
+Source                                   Destination
+username@company.com > [username]@company.com/[Upload Folder]
+
+If a customer is splitting up large data owner accounts into multiple service accounts then each Source Service Account should have a corresponding Destination Service Account.
+
+Example:
+After an inventory scan user xyz@company.com owns over 500,000 files.
+
+We would advise the customer to split this large user into 5 individual service accounts (100k files per account) for both Source and matching on the Destination (N.B. usually going into Office 365 we encourage customers to create SharePoint sites for this split data)
+
+New Source Service Accounts          New Destination Service Accounts
+Serviceaccount1-xyz@company.com >                Serviceaccount1-xyz@company.com/[Upload Folder]
+Serviceaccount2-xyz@company.com >                Serviceaccount2-xyz@company.com/[Upload Folder]
+Serviceaccount3-xyz@company.com >                Serviceaccount3-xyz@company.com/[Upload Folder]
+Serviceaccount4-xyz@company.com >                Serviceaccount4-xyz@company.com/[Upload Folder]
+Serviceaccount5-xyz@company.com >                Serviceaccount5-xyz@company.com/[Upload Folder]
+
+OR
+New Source Service Accounts         New Destination SharePoint Sites
+Serviceaccount1-xyz@company.com >   https://company.sharepoint.com/sites/[Library1]/[Upload Folder]
+Serviceaccount2-xyz@company.com >   https://company.sharepoint.com/sites/[Library2]/[Upload Folder]
+Serviceaccount3-xyz@company.com >   https://company.sharepoint.com/sites/[Library3]/[Upload Folder]
+Serviceaccount4-xyz@company.com >   https://company.sharepoint.com/sites/[Library4]/[Upload Folder]
+Serviceaccount5-xyz@company.com >   https://company.sharepoint.com/sites/[Library5]/[Upload Folder]
+
+**Destination Upload Folder**
+
+When migrating into the Destination it is an essential practice to map an upload/destination folder for uploading the migrating data into.
+
+The standard naming convention for an upload folder tends to be /From [connector type] (e.g. /From Box or /From GSuite). 
+
+Example:
+xyz@company.com > xyz@company.com/FromBox 
+
+This clearly identifies where the data came from and ensures that it is separate from any other data that may already exist in the Office 365 Destination.
+
+Also, by having an upload folder this ensures that permissions will be applied correctly for each user and on each SharePoint team site.
+
+For SharePoint team sites and libraries, we are unable able to write permissions at the / level of the team site, so including this upload folder is a requirement.
+
+Example:
+xyz@company.com > https://company.sharepoint.com/sites/Library/FromBox
+
+Once these mappings are created and we create and run the transfers then the upload folder (/From Box) is automatically created in the Destination.  The customer does not need to manually create these upload folders.
+
+Two other considerations to impart to the customer is in naming the upload folder we want to keep the folder name short and succinct.  Due to the Microsoft character path limits we do not want to be adding unnecessary characters to the destination path.
+
+Prior to starting and during the migration it should be clearly communicated to the customers userbase that users should not move, delete or rename any of the contents within the upload folder.
+
+If users do so, then we run the risk of creating duplicate data when rerunning the transfers during incremental passes.
+
+**Rearranging content during a migration**
+We do not recommended customer rearranging or moving content during a migration.
+
+Any major changes in directory structure should happen before or after the migration.
+The risks that come with rearranging content during the migration are primarily in the form of data duplication; our incremental process will see all changes as new data. So, for example, if you change a folder name at the root, we will detect that as a new folder and all of the contents will be re-transferred including all subfolders.
+When sharing permissions are transferred, both owners and collaborators will receive duplicate data if content has been rearranged or renamed.
+
+**External Sharing Links**
+The tool does not recreate external sharing links. These will need to be set manually in the Office 365 Destination by the customer after the migration completes.
+
+**External Collaborators**
+The tool does not share content with external collaborators. This policy is in place to protect the customers organization, and industry best practice is to never automatically share sensitive internal data with external users.
+
+**File Versions**
+The tool does not preserve file versions. Only the most recent version of a file will be migrated to Office 365 during a migration.
