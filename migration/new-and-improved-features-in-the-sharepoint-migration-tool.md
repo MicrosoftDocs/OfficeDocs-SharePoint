@@ -28,10 +28,25 @@ Download and install SPMT using one of the links listed below.
 
 ||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.120.1](https://aka.ms/spmt-beta-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.120.2](https://aka.ms/spmt-beta-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|
+
+
+## SPMT 3.4.120.2
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|Performance|New checks have been added when a customer uses the bulk upload feature.|
+|User experience|Enhancements have been made to the user interface.|
+|General|General improvements have been made to fix bugs in tool.|
 
 
 ## SPMT 3.4.120.1
+
+The following improvements were added to this release:
 
 **Improvements**
 
