@@ -7,7 +7,7 @@ ms.date: 6/24/2019
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:

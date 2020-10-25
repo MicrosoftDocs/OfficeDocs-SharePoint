@@ -8,7 +8,7 @@ ms.date: 3/1/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: concetpual
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.assetid: 809fe3d9-6121-4e2e-8556-c48a39756365
