@@ -32,7 +32,7 @@ To start the scanning source data process:
 
 - Select all user(s). At the top of navigation bar, select the checkbox.
 
-Afrer you select all users, select **Scan X Users**.
+After you select all users, select **Scan X Users**.
 
 ![scan users](media/scan-users.png)
 
@@ -53,7 +53,7 @@ We recommend starting slowly. Test one user, then three to five. If all looks go
 
 1. To select a user(s), check their row's respective checkbox.
 2. Select **Start Migrating X Users.**
-3. Review your migration summary. This informs you which user is being copied, where they are transfering from, and where to, as well as when the transfer begins.
+3. Review your migration summary. This informs you which user is being copied, where they are transferring from, and where to, as well as when the transfer begins.
 4. Review and agree to our terms and conditions, and then select **Continue**. Your users are immediately queued for migration.
 
 ![start migration](media/mover-start-migration.png)

@@ -160,7 +160,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
   >[!NOTE]
   > - Folder with no email items inside them will not be exported.
   > - The site mailboxes contain special folder named, "Documents", of type IPF.ShortcutFolder. This contains "links" to files that are on SP site. The actual SP files must be       exported using eDiscovery for SP sites.
-  > - Outlook shows the items inside the Documents folder as unsafe, this is an expected behaviour.
+  > - Outlook shows the items inside the Documents folder as unsafe, this is an expected behavior.
   > - The document attachments in the emails of Documents folder are just place holder, the actual documents are stored in SharePoint.
   
 ## Export site mailboxes to PST (using script)
@@ -197,7 +197,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 > [!NOTE]
 > - Folder with no email items inside them will not be exported.
 > - The site mailboxes contain special folder named, "Documents", of type IPF.ShortcutFolder. This contains "links" to files that are on SP site. The actual SP files must be       exported using eDiscovery for SP sites.
-> - Outlook shows the items inside the Documents folder as unsafe, this is an expected behaviour.
+> - Outlook shows the items inside the Documents folder as unsafe, this is an expected behavior.
 > - The document attachments in the emails of Documents folder are just place holder, the actual documents are stored in SharePoint.
 
 ## Import site mailboxes

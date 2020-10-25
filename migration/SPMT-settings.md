@@ -66,7 +66,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 |**Setting**|**Description**|
 |:-----|:-----|
 |Skip list with audience targeting enabled|Choose if you want to migrate SharePoint Server lists with audience targeted enabled. |
-|Migrate all site fields and content types|Choose if you want to mgirate sites fields even if they are not required for migration.|
+|Migrate all site fields and content types|Choose if you want to migrate sites fields even if they are not required for migration.|
 |Migrate managed metadata|Choose if you want to migrate all managed metadata terms that are in use on the site.|
 |Migration of web parts and pages|Choose how to handle migration if the pages and web parts already exist in the destination.</br> Select one: Overwrite duplicate, Rename duplicate, Skip duplicate, or Do not migrate.|
 |Migrate site navigation|Migrate the navigation links of a site or page in SharePoint.|

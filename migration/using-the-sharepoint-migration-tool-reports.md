@@ -105,7 +105,7 @@ When you need to do deeper investigation or a thorough verification of your migr
   
 - **ItemSummary.csv:** This is similar to the overall summary report except that it aggregates the data just for a single task. 
     
-- **ItemFailureReport.csv:** This is the failure report at the item level. This is a filtered version of the filese report, showing only failures. 
+- **ItemFailureReport.csv:** This is the failure report at the item level. This is a filtered version of the files report, showing only failures. 
     
 - **ItemReport.csv:**  A list of all the items this task attempted to do 
     
@@ -159,7 +159,7 @@ The **ItemFailureReport.csv**, is only generated if an error resulting in a file
 |Message  <br/> |Detailed error or informational message .  <br/> |
 |Error code  <br/> |Failed reason error code.  <br/> |
 |Source item ID  <br/> |ID of the item at the source.  <br/> |
-|Destination item ID  <br/> |ID ofthe item at the destination.  <br/> |
+|Destination item ID  <br/> |ID of the item at the destination.  <br/> |
 |Package number  <br/> |ID generated for the package number during the transition.  <br/> |
 |Migration job ID  <br/> |The ID number of the job (which could contain one or more tasks).  <br/> |
 |Incremental Round  <br/> |The round number added to the end of the report name (RO, R1, etc.) indicates if the scan or job has been rerun.  <br/> |
@@ -182,7 +182,7 @@ The **ItemReport.csv** is a detailed report that provides data on each file with
 |Result category  <br/> |General code associated with the item to indicate what happened with that item.  <br/> |
 |Message  <br/> |more detailed Error or informational message generated.  <br/> |
 |Source item ID  <br/> |ID of the item at the source.  <br/> |
-|Destination item ID  <br/> |ID ofthe item at the destination.  <br/> |
+|Destination item ID  <br/> |ID of the item at the destination.  <br/> |
 |Package number  <br/> |ID generated for the package number during the transition.  <br/> |
 |Migration job ID  <br/> |The ID number of the job (which could contain one or more tasks).  <br/> |
 |Incremental round  <br/> |The round number added to the end of the report name (RO, R1, etc.) indicates if the scan or job has been rerun.  <br/> |

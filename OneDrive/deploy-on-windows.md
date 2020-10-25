@@ -173,7 +173,7 @@ odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-www
 ```
 
 > [!NOTE]
-You will need Client Side Object Model (CSOM) knowledge if you want to automate quering the team site to determine the appropriate siteId, webId and listId to build the appropriate URL. 
+You will need Client Side Object Model (CSOM) knowledge if you want to automate querying the team site to determine the appropriate siteId, webId and listId to build the appropriate URL. 
 
 
 
