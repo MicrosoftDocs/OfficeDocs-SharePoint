@@ -12,6 +12,7 @@ ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
+- m365solution-spintranet
 - M365-collaboration
 ms.custom:
 - seo-marvel-apr2020
