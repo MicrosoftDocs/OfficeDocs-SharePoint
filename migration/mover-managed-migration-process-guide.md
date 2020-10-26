@@ -20,7 +20,7 @@ description: A guide to help partners managing a customers migration project.
 ---
 # Managed migration guide for use with Microsoft Mover 
 
-This guide was created to share the process and best practices currently used by Microsoft when guiding a customer through a “managed migration”. A managed migration is a hands-on, high-touch service offered to customers who are wanting more guidance as they migrate from another cloud storage solution into Microsoft 365. The Mover application is used for this cloud to cloud migration.
+This guide was created to share the process and best practices of managing a cloud to cloud migration project using the Microsoft Mover application. 
 
 Most migrations fall into regular phases as follows. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating, and onboarding your users.
 
@@ -44,9 +44,7 @@ Most migrations fall into regular phases as follows. Proven success factors for 
 
 
 ## Planning
-The initial engagement is a fact-finding exchange between Partners and the customer. Both parties will be seeking to obtain as much information as possible from each other.
-
- Our role is to gain clarity on their project and provide guidance and confidence in our ability to deliver on customer needs. 
+The initial engagement with stakeholders is a fact-finding, to gain clarity on your project and provide guidance and confidence in our ability to deliver on customer needs. 
 
 After your initial contact with your customer about migration, the next step is to arrange an “initial engagement” meeting to establish what the customer wants to achieve and the best practices to make that happen.
 
