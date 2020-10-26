@@ -30,7 +30,7 @@ You now have a list of users appearing in the migration, complete with destinati
 
 To start the scanning source data process:
 
-- Select all user(s). At the top of navigation bar, select the checkbox.
+- Select all users. At the top of the navigation bar, select the checkbox.
 
 After you select all users, select **Scan X Users**.
 
@@ -83,4 +83,3 @@ To rerun or restart your transfer, complete the following steps:
 
 1. Select the or user(s) you want to rerun.
 2. To run the users again, at the top right, select **Start Migrating X Users**.
-

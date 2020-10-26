@@ -158,10 +158,10 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
     The PST can be now attached in Outlook.
     
   >[!NOTE]
-  > - Folder with no email items inside them will not be exported.
-  > - The site mailboxes contain special folder named, "Documents", of type IPF.ShortcutFolder. This contains "links" to files that are on SP site. The actual SP files must be       exported using eDiscovery for SP sites.
+  > - Folders with no email items inside them will not be exported.
+  > - The site mailboxes contain a special folder named, "Documents", of type IPF.ShortcutFolder. This contains "links" to files that are on SP sites. The actual SP files must be exported using eDiscovery for SP sites.
   > - Outlook shows the items inside the Documents folder as unsafe, this is an expected behavior.
-  > - The document attachments in the emails of Documents folder are just place holder, the actual documents are stored in SharePoint.
+  > - The document attachments in the emails of Documents folders are just placeholders, the actual documents are stored in SharePoint.
   
 ## Export site mailboxes to PST (using script)
 
@@ -195,10 +195,10 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
    > Use Compliance center dashboard to download PST messages on your screen.
 
 > [!NOTE]
-> - Folder with no email items inside them will not be exported.
-> - The site mailboxes contain special folder named, "Documents", of type IPF.ShortcutFolder. This contains "links" to files that are on SP site. The actual SP files must be       exported using eDiscovery for SP sites.
+> - Folders with no email items inside them will not be exported.
+> - The site mailboxes contain a special folder named, "Documents", of type IPF.ShortcutFolder. This contains "links" to files that are on SP sites. The actual SP files must be exported using eDiscovery for SP sites.
 > - Outlook shows the items inside the Documents folder as unsafe, this is an expected behavior.
-> - The document attachments in the emails of Documents folder are just place holder, the actual documents are stored in SharePoint.
+> - The document attachments in the emails of Documents folders are just placeholders, the actual documents are stored in SharePoint.
 
 ## Import site mailboxes
 
@@ -268,4 +268,3 @@ Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailb
 ```
 
 Use `Remove-Mailbox` to delete a site mailbox. The system removes the site mailbox link from the SharePoint site when a site mailbox is deleted. In the example, change the 'MDEL' to the name of the site mailbox you want to delete.
-

@@ -162,7 +162,7 @@ The **ItemFailureReport.csv**, is only generated if an error resulting in a file
 |Destination item ID  <br/> |ID of the item at the destination.  <br/> |
 |Package number  <br/> |ID generated for the package number during the transition.  <br/> |
 |Migration job ID  <br/> |The ID number of the job (which could contain one or more tasks).  <br/> |
-|Incremental Round  <br/> |The round number added to the end of the report name (RO, R1, etc.) indicates if the scan or job has been rerun.  <br/> |
+|Incremental round  <br/> |The round number added to the end of the report name (RO, R1, etc.) indicates if the scan or job has been rerun.  <br/> |
 |Task ID  <br/> |The ID number of the Task.  <br/> |
 |Device name  <br/> |Name of the device or computer that is running the migration job.  <br/> |
    
@@ -180,7 +180,7 @@ The **ItemReport.csv** is a detailed report that provides data on each file with
 |Content type  <br/> |The file type.  <br/> |
 |Status  <br/> |Status indicating at what stage the file is.  <br/> |
 |Result category  <br/> |General code associated with the item to indicate what happened with that item.  <br/> |
-|Message  <br/> |more detailed Error or informational message generated.  <br/> |
+|Message  <br/> |More detailed error or informational message generated.  <br/> |```
 |Source item ID  <br/> |ID of the item at the source.  <br/> |
 |Destination item ID  <br/> |ID of the item at the destination.  <br/> |
 |Package number  <br/> |ID generated for the package number during the transition.  <br/> |
