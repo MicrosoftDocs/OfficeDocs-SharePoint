@@ -20,7 +20,9 @@ description: "Learn about the new features and updates to existing features in M
 
 # What's new in Migration Manager
 
-We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included. 
+We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.   
+
+You can help us improve Migration Manager by sending us your suggestions and reporting bugs you encounter. At the bottom of this page, click the Feedback button.
   
   
 ## Through October 2020 
