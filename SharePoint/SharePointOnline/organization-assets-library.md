@@ -26,7 +26,7 @@ If your organization needs to store and manage files for all your users to use, 
 
     ![Selecting an image to add to a SharePoint page](media/image-library.png)
 
-- **Office templates**. When a user selects to create a new Office file (from Office.com or the Word, Excel, or PowerPoint desktop app), the user can select the tab for your organization to see the templates. (To use this feature on Office.com, users need to be assigned a license to Office 365 E3 or E5. The templates aren't available from the New menu. To create a doc from a template, go to Office.com > app start page > Office Template Library.)
+- **Office templates**. When a user selects to create a new Office file (from Office.com or the Word, Excel, or PowerPoint desktop app), the user can select the tab for your organization to see the templates. (Currently this feature is only available for PowerPoint on Office.com, users need to be assigned a license to Office 365 E3 or E5. The templates aren't available from the New menu. To create a doc from a template, go to Office.com > app start page > Office Template Library.)
 
     ![Selecting a template in PowerPoint](media/office-template-library.png)
 
