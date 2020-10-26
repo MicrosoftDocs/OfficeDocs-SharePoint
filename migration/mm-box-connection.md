@@ -27,7 +27,7 @@ description: "Steps to connect to Box when using Migration Manager in the ShareP
 3. Mover works in the background to scan Box and to copy data to Microsoft 365.  Authorize Mover with your Microsoft credentials to connect your co-admin Box account. Select **Authorize Mover**.
 4. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.  
 5. Sign in to Box with your co-admin account. This will connect your Box account to Microsoft 365.
-6. Log in to grant access to Box. Click **Authorize.**
+6. Log in to grant access to Box. Select **Authorize.**
 7. Install the Microsoft Box app in your Box account settings. This app will authorize content to be copied from your Box account to Microsoft 365. First copy the app client ID click copy.
 8. Use that copied client ID to add the Microsoft app. Go you your Box account settings to authorize a new app in your Box account settings and enter the client ID when prompted.
 9. In the Box screen -- click "Authorize new app".
