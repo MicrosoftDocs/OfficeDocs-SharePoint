@@ -30,10 +30,10 @@ description: "Steps to connect to Box when using Migration Manager in the ShareP
 6. Log in to grant access to Box. Select **Authorize.**
 7. Install the Microsoft Box app in your Box account settings. This app will authorize content to be copied from your Box account to Microsoft 365. First copy the app client ID click copy.
 8. Use that copied client ID to add the Microsoft app. Go you your Box account settings to authorize a new app in your Box account settings and enter the client ID when prompted.
-9. In the Box screen -- click "Authorize new app".
-10. Paste in the client ID you copied from the earlier screen. Enter the client id for application for which you would like to grant access.
-11. An App Authorization page appears and lists the authorization details of the request. Click "Authorize".
-12. You are now connected to Box. Click Finish to close window.
+9. In the Box screen, select **Authorize new app**.
+10. Paste in the client ID you copied from the earlier screen. Enter the client id for the application for which you would like to grant access.
+11. An App Authorization page appears and lists the authorization details of the request. Select **Authorize**.
+12. You are now connected to Box. Select **Finish** to close the window.
 
 
 
