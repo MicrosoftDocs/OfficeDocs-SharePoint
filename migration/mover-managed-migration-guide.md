@@ -18,7 +18,7 @@ ms.custom:
 search.appverid: MET150
 description: A guide to help partners managing a customers migration project.
 ---
-# Managed migration guide for use with Microsoft Mover 
+# Managing a cloud to cloud migration using Mover
 
 This guide was created to share the process and best practices of managing a cloud to cloud migration project using the Microsoft Mover application. 
 
