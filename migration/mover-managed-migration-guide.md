@@ -101,9 +101,10 @@ We recommend the following best practices as you prepare your environment.
 |What|Action notes|
 |:------|:-----|
 |**Source connector factors**|Each source has a specific process and caveats to be aware of when authoring and creating your connector. Learn more about your source connector here: [Setup your source](https://docs.microsoft.com/sharepointmigration/mover-box) |
-|**Account setup** |This ensures that only those running the migration have control of the migration.  This ensures that there is a designated team that is running, monitoring and maintaining the migration. |
+|**Account setup** |As manager of the project, retain ownership of the migration account.  This ensures that only those running the migration have control of the migration, including running, monitoring and maintaining the migration. |
 |**Disable mail notifications**|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.|
 |**Destination upload folder**|Map an upload/destination folder for uploading the migrated data.|
+|**Review important general considerations|Make sure to review how Mover handles what gets transfered, synced, permissions, and other best practices here: [Mover Migration FAQ](https://docs.microsoft.com/sharepointmigration/mover-migration-faq)
 
 
 ## Migrate process
