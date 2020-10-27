@@ -103,7 +103,7 @@ We recommend the following best practices as you prepare your environment.
 |**Account setup** |As manager of the project, retain ownership of the migration account.  This ensures that only those running the migration have control of the migration, including running, monitoring and maintaining the migration. |
 |**Disable mail notifications**|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.|
 |**Destination upload folder**|Map an upload/destination folder for uploading the migrated data.|
-|**Review important general considerations|Make sure to review how Mover handles what gets transfered, synced, permissions, and other best practices here: [Mover Migration FAQ](https://docs.microsoft.com/sharepointmigration/mover-migration-faq)
+|**Review important general considerations**|Make sure to review how Mover handles what gets transfered, synced, permissions, and other best practices here: [Mover Migration FAQ](https://docs.microsoft.com/sharepointmigration/mover-migration-faq)
 
 
 ## Migrate process
