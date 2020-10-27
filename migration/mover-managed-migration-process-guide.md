@@ -64,25 +64,25 @@ You or your customer might have a relative idea of how many users are in their s
 
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
-|**Data ownership**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|Within most customers user base, much of the data will be shared data.  When using the Mover for migrating only owned folders and the root files for each user is copied. If a user is not the owner of the data, we do not copy it.  Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
-
-We also use the Inventory Scan to help determine who owns what. |
+|**Data ownership**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|Within most customers user base, much of the data will be shared data.  When using the Mover for migrating only owned folders and the root files for each user is copied. If a user is not the owner of the data, we do not copy it.  Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before. We also use the Inventory Scan to help determine who owns what. |
 |**Data distribution**|Find all accounts that exceed 5TB or 400,000 files or items.|Split these accounts into into smaller service accounts|
 |**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
-
-
-
-Size Amount of files/data to Migrate ando how its distrbuted
-
-Run an inventory scan. The number of files/data to migrate ties in closely with how the data is distributed.  Customers may have an idea of many files or how much data they have in their Source.  But some of the cloud storage providers' reporting on the exact numbers can be misleading, as some may count items in the trash and/or external shared data.
+|**Size and amount of files/data** |Run an inventory scan.|The number of files/data to migrate ties in closely with how the data is distributed.  Customers may have an idea of many files or how much data they have in their Source.  But some of the cloud storage providers' reporting on the exact numbers can be misleading, as some may count items in the trash and/or external shared data.
 To obtain accurate totals for files/data owned then carrying out the Inventory Scan is essential.
+|
 
-It should be noted that Mover app only copies files/folders/data owned by users within the Source tenant.  The Tool does NOT migrate External Shared data, Email or items residing in the trash.
+ 
+>[Important]
+>The Mover app only copies files/folders/data owned by users within the source tenant.  Mover does NOT migrate external shared data, email or items residing in the trash.
 
 
 ## Prepare your environment
 
-
+|||
+|:------|:-----|
+|Account setup |This ensures that only those running the migration have control of the migration.  Though this might limit the customers visibility of the migration ,it also ensures that there is a designated team that is running, monitoring and maintaining the migration. |
+|Disable mail notifications|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.|
+|
 
 ## Migrate
 
@@ -90,9 +90,12 @@ It should be noted that Mover app only copies files/folders/data owned by users 
 
 Below is a typical migration process that follows Microsoft's best practices guidance.
 
-1. Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
+1. Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.
+
 2. Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which network file shares and local file shares are disabled and they are directed to use the Microsoft 365 environment. This method is preferred as it reduces user impact.
+
 3. Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.
+
 4. Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their OneDrive accounts and SharePoint sites. This helps eliminate users from updating duplicate copies of content.
 
 
