@@ -17,16 +17,15 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
 description: How to use the Scan feature as you prepare for your migration using the Mover migration tool.
+---
 
-Pre-Scan Results for Customers
+# Using the Scan feature in the Mover migration app
 
-Scanning Source Users
+After you create and autorized your source and destination connectors using Mover, the next step is to run an inventory scan of your content.
 
-Now you have both Source and Destination connectors created and authorized the next stage in the Managed Migration process is to perform an inventory Scan of your customers Source tenant.
+## Scanning Source Users
 
-This Scan will determine how many users that the customer currently has, how many files and how much data that each user owns and this Scan will report on any users that we cannot access on the Source connector.
-
-Prior to starting the Scan you will want connect to both your Source and Destination connectors. 
+This scan of the source tenant will determine how many users you have, how many files, and how much data that each user owns. This scan will also report any user that cannot be accessed on the source connector.
 
 For your Source connector, within the tool you will want to select Transfer Wizard, 
 Step 1: Select source and then select the Manage button and then click Connect.
@@ -172,19 +171,18 @@ Usually we take a screenshot of the dashboard within the Migration Manager to ca
 Upon the Scans completion we then provide the customer with their Scan Report and we will discuss this in greater detail in the next section.
 
 
-Scan Reports
+## Scan Reports
 
-The Scan results and their corresponding Scan Report are essential in aiding you in planning your migration with your customers.  They provide useful stats in determining the following:
+The scan results and the corresponding scan report are essential in aiding you in planning your migration with your customers.  They provide useful stats in determining the following:
 
-How many users own files/data?
-How many users own over 400,000 files?
-How many users are without a matching Destination account?
-How many users failed to Scan?
-How many users currently have files/folders that exceed 400 characters in length in their Source?
+- How many users own files/data?
+- How many users own over 400,000 files?
+- ow many users are without a matching Destination account?
+- How many users failed to Scan?
+- How many users currently have files/folders that exceed 400 characters in length in their Source?
 
-These questions are answered by the generation of the Scan Report and will help you guide your customers to determine who to migrate and how we want to migrate.
 
-In order to obtain the Scan Results we will want to be log into the customers account on the tool and under Migration Manager select Migration Actions > Scan Reports (zip file).
+To obtain the Scan Results you want to be log into the customers account on the tool and under Migration Manager select Migration Actions > Scan Reports (zip file).
 
 
 

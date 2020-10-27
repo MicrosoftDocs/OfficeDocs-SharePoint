@@ -91,7 +91,7 @@ Your scan will help you assess who will be included, the timeline, :
 
  
 >[Important]
->The Mover app only copies files/folders/data owned by users within the source tenant.  Mover does NOT migrate external shared data, email or items residing in the trash.
+>The Mover app only copies files/folders/data owned by users within the source tenant. Mover does NOT migrate external shared data, email or items residing in the trash.
 
 
 ## Prepare your environment
