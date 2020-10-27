@@ -30,13 +30,6 @@ Most migrations fall into regular phases as follows. Proven success factors for 
 > The Mover Migration tool is a Microsoft owned migration tool available at no cost to subscribers of Microsoft 365.
 
 
-   ![Migration process](media/migrationprocess-fileshare.png)
-
-|**Migration planning**|**Assess and remediate**|**Prepare your OneDrive and SharePoint environment**|**Migrate**|**User onboarding**|
-|:-----|:-----|:-----|:-----|:-----|
-|What content goes where<br><br>Understanding permissions vs sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Assess key areas<br><br>Remediate issues|Pre-provision Microsoft 365 and users|Review migration offerings<br><br>Microsoft FastTrack services<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted|
-
-
 >[!Tip]
 >Before starting a managed migration, we highly recommend reading and reviewing the current Mover documentation. This content provides valuable knowledge on how to understand the Mover tool for running migrations from various cloud storage platforms.
 > See [Mover migration content](https://docs.microsoft.com/en-us/sharepointmigration/mover-plan-migration)
@@ -62,25 +55,22 @@ The most common question from customers is “how long will the migration take?.
 •	Applying permissions as part of the migration is another factor that can influence speed.  To apply permissions we are again making numerous API calls which will increase the time it takes to migrate the data.
 
 
-## Assessment
+## Assess and remediate
 
 Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. 
 
 You or your customer might have a relative idea of how many users are in their source domain and how many they might want to migrate. However, it is important to get an accurate count of the user base by running an Inventory Scan.  This lest you know not only how many users are in the domain but also help determine who owns the data. 
 
-Data ownership
 
-Within most customers userbase a lot of the data that is used will be shared data.  When using the Tool for migrating only owned folders and the root files for each user is copied.
+| |**Assess**|**Remediate**|
+|:-----|:-----|:-----|
+|**Data ownership**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|Within most customers user base, much of the data will be shared data.  When using the Mover for migrating only owned folders and the root files for each user is copied. If a user is not the owner of the data, we do not copy it.  Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
 
-If a user is not the owner of the data, we do not copy it.  Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before.
+We also use the Inventory Scan to help determine who owns what. |
+|**Data distribution**|Find all accounts that exceed 5TB or 400,000 files or items.|Split these accounts into into smaller service accounts|
+|**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
 
-We also use the Inventory Scan to help determine who owns what. 
 
-Data Distribution
-
-Determining how a customer's data is distributed is also important. Usually in the initial discussion's customers might not have a clear picture of exactly how their data is distributed and again the Inventory Scan will aid in obtaining that information.
-
-As a rule, if an account has over 400,000 files/items or their storage size exceeds 5 TB then we recommend that that user be split into smaller service accounts,  This impacts performance and speed.conThis aids with concurrency and speed during the Migration and will be discussed in a later topic.
 
 Size Amount of files/data to Migrate ando how its distrbuted
 
@@ -90,12 +80,45 @@ To obtain accurate totals for files/data owned then carrying out the Inventory S
 It should be noted that Mover app only copies files/folders/data owned by users within the Source tenant.  The Tool does NOT migrate External Shared data, Email or items residing in the trash.
 
 
-
-REMEDIATE
-MIGRATE
+## Prepare your environment
 
 
-CUSTOMER
+
+## Migrate
+
+### Process
+
+Below is a typical migration process that follows Microsoft's best practices guidance.
+
+1. Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.</br></br>
+2. Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which network file shares and local file shares are disabled and they are directed to use the Microsoft 365 environment. This method is preferred as it reduces user impact.
+3. Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.
+4. Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their OneDrive accounts and SharePoint sites. This helps eliminate users from updating duplicate copies of content.
+
+
+
+## User Onboarding
+
+Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan:
+- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
+- **End user training.**  Provide training to your users on the features in OneDrive.
+- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
+- **Prepare for any possible downtime** the migration may incur.
+
+Develop a plan for sending communications to your user base, providing clear statements of timing, and expectations and impact to the individual, including:
+- The migration timeline and how it will impact them. Include any user calls to action.
+- Assure them that their content is safe and won't be overwritten.
+- Let them know whether individuals can opt out of the migration process.
+
+### Onboarding related resources
+
+- [Microsoft 365 end user adoption guide](https://docs.microsoft.com/office365/customlearning/champ_o365guide): Outlining methodology and resources for implementing proven adoption success factors
+- [Posters, email templates](https://fasttrack.microsoft.com/office365/resourcehub): customizable templates to generate internal awareness and excitement
+- [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1) video training
+- [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec) Quick start training guides: get up and running quickly with the basic info you need to be productive right away
+- [SharePoint video training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)
+
+
 
 
 
