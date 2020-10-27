@@ -22,8 +22,7 @@ description: A guide to help partners managing a customers migration project.
 
 This guide was created to share the process and best practices of managing a cloud to cloud migration project using the Microsoft Mover application. 
 
-Most migrations fall into regular phases as follows. Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating, and onboarding your users.
-
+Most migrations fall into regular phases. Proven success factors for migration include planning, assessing and remediating, preparing your destination environment, migrating, and onboarding your users.
 
 
 > [!NOTE]
@@ -31,7 +30,7 @@ Most migrations fall into regular phases as follows. Proven success factors for 
 
 
 >[!Tip]
->Before starting a managed migration, we highly recommend reading and reviewing the current Mover documentation. This content provides valuable knowledge on how to understand the Mover tool for running migrations from various cloud storage platforms.
+>We highly recommend reading and reviewing the current Mover documentation. This content provides valuable knowledge on how to understand the Mover tool for running migrations from various cloud storage platforms.
 > See [Mover migration content](https://docs.microsoft.com/en-us/sharepointmigration/mover-plan-migration)
 
 
@@ -51,25 +50,44 @@ The most common question from customers is “How long will the migration take?�
 - Total amount of data being moved
 - Server connections with the source or destination
 - Both Source and destination connectors have rate limits and we  constrained to to how fast they allow us to download, upload and process data between the two.
-- Complexity of permissions or sharing of data
-- Applying permissions as part of the migration is another factor that can influence speed.  To apply permissions we are again making numerous API calls which will increase the time it takes to migrate the data.
+- Complexity of permissions or sharing of data:  Applying permissions as part of the migration is another factor that can influence speed.  To apply permissions we are again making numerous API calls which will increase the time it takes to migrate the data.
+
+Mapping out timelines and setting expectations of what can be achieved with those timelines is essential to managing a successful migration project.
+
+Usually, the more time you have to complete the project the smoother the migration will be. One of the benefits of migrating via the Mover app is that we only take a copy of the source data and upload that to the Destination. This allows the users to continue to work in their source files while we copy their data for them, allowing the migration to run in parallel with minimal distribution of the customers' daily activities.
+
+The only time users need to refrain from creating new content is during the final delta.
+
+
+### Communication
+
+A migration is a significant undertaking for any customer. Trying to grasp the entire extent of all data and communicating with the users within the organization is complicated.
+
+Before, during, and after a migration, it is critical to communicate clearly and effectively with your user base. 
+
+**Management** — Management needs succinct information about the how’s and why’s of the migration, including the benefits, and expectations. Clearly communicate what a successful migration looks like 
+
+**Users** — They need to know when changes are taking place and who to go to with questions or issues, and in turn whoever we are working with for that customer we will be available to provide answers to those questions when they occur.
+
+**IT Helpdesk/Support staff** — If your organization is large enough to have specific support staff for other employees, they must understand each step of the migration and how to help troubleshoot many of the questions that might arise.
 
 
 ## Assess and remediate
 
 Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. 
 
-You or your customer might have a relative idea of how many users are in their source domain and how many they might want to migrate. However, it is important to get an accurate count of the user base by running an Inventory Scan.  This lest you know not only how many users are in the domain but also help determine who owns the data. 
+### Inventory scan
 
+You or your customer might have a relative idea of how many users are in their source domain and how many they might want to migrate. However, it is important to get an accurate count of the user base by running an **Inventory Scan.**  This scan will let you know how many users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover.](mover-scan.md) 
+
+Your scan will help you assess who will be included, the timeline, :
 
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
-|**Data ownership**||Within most customers user base, much of the data will be shared data.  Only owned folders and the root files for each user is copied. If a user is not the owner of the data, we do not copy it.  Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before. We also use the Inventory Scan to help determine who owns what. |
-|**Data distribution**|Find all accounts that exceed 5TB or 400,000 files or items.|Split these accounts into into smaller service accounts|
+|**Data ownership**|How many users are in the domain and who owns the data|Most data will be shared data.  Only owned folders and the root files for each user is copied. If a user is not the owner of the data, is is not copied. Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before. |
+|**Data distribution**|Find all accounts that exceed 5TB or 400,000 files or items.|Split these accounts into into smaller service accounts. **We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.**|
 |**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
-|**Size and amount of files/data** |Run an inventory scan.|The number of files/data to migrate ties in closely with how the data is distributed.  Customers may have an idea of many files or how much data they have in their source.  But some of the cloud storage providers' reporting on the exact numbers can be misleading, as some may count items in the trash and/or external shared data.
-To obtain accurate totals for files/data owned then carrying out the Inventory Scan is essential.
-|
+|**Size and amount of files/data** |Get an accurate count of the number of files and the size.|This number will be the most accurate, as it will not included items in the trash, or externally shared data.  Do not rely on your cloud provider's reporting to give you an accurate picture.  Use this information to more clearly define migration timeline and length of time required for the migration.|
 
  
 >[Important]
@@ -78,15 +96,17 @@ To obtain accurate totals for files/data owned then carrying out the Inventory S
 
 ## Prepare your environment
 
-|||
+We recommend the following best practices as you prepare your environment.
+
+|What|Action notes|
 |:------|:-----|
-|Account setup |This ensures that only those running the migration have control of the migration.  Though this might limit the customers visibility of the migration ,it also ensures that there is a designated team that is running, monitoring and maintaining the migration. |
-|Disable mail notifications|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.|
-|
+|**Source connector factors**|Each source has a specific process and caveats to be aware of when authoring and creating your connector. Learn more about your source connector here: [Setup your source](https://docs.microsoft.com/sharepointmigration/mover-box) |
+|**Account setup** |This ensures that only those running the migration have control of the migration.  This ensures that there is a designated team that is running, monitoring and maintaining the migration. |
+|**Disable mail notifications**|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.|
+|**Destination upload folder**|Map an upload/destination folder for uploading the migrated data.|
 
-## Migrate
 
-### Process
+## Migrate process
 
 Below is a typical migration process that follows Microsoft's best practices guidance.
 
@@ -97,6 +117,9 @@ Below is a typical migration process that follows Microsoft's best practices gui
 3. Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.
 
 4. Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to using their OneDrive accounts and SharePoint sites. This helps eliminate users from updating duplicate copies of content.
+
+5. Provide regular (daily) reporting to key stakeholders with a migration report that captures all transfers and their current status.
+
 
 
 
