@@ -67,7 +67,7 @@ The PowerShell cmdlets provide the same functionalities as the [SharePoint Migra
 
    *$env:UserProfile\Documents\WindowsPowerShell\Modules\Microsoft.SharePoint.MigrationTool.PowerShell*
 
-   Make sure you have DLLs inside of it.
+   Make sure you have DLLs inside of it, if you're using OneDrive you may need to copy the WindowsPowershell Folder into OneDrive / Documents.
 3. From this location, run the following PowerShell command
 
    ```powershell
@@ -131,7 +131,6 @@ $Global:OnPremPassword = ConvertTo-SecureString -String "OnPremPassword" -AsPlai
 $Global:SPCredential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Global:OnPremUserName, $Global:OnPremPassword
 $Global:SourceListName = "SourceListName"
 
-
 #Define SharePoint target#
 $Global:SPOUrl = "https://contoso.sharepoint.com"
 $Global:UserName = "admin@contoso.onmicrosoft.com"
@@ -180,7 +179,6 @@ Two migration tasks are defined in the file of spmt.csv.
 D:\MigrationTest\Files\Average_1M\c,,,https://SPOSite.sharepoint.com,Documents,Test
 C:\work\Powershell\negative,,,https://SPOSite.sharepoint.com/,Documents,DocLibrary_SubfolderName
 ```
-
 Code snippets for bulk migration by loading one JSON file:
 
 ```powershell
