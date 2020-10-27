@@ -88,7 +88,7 @@ You or your customer might have a relative idea of how many users are in their s
 |**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
 |**Size and amount of files/data** |Get an accurate count of the number of files and the size.|This number will be the most accurate, as it will not included items in the trash, or externally shared data.  Do not rely on your cloud provider's reporting to give you an accurate picture.  Use this information to more clearly define migration timeline and length of time required for the migration.|
 
->[Important]
+>[!Important]
 >The Mover app only copies files/folders/data owned by users within the source tenant. Mover does NOT migrate external shared data, email or items residing in the trash.
 
 
