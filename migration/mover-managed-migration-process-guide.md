@@ -38,21 +38,21 @@ Most migrations fall into regular phases as follows. Proven success factors for 
 ## Planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
 
-•	The design of the target environment and the mapping between source and destination.
-•	The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
-•	Understand the scope of your project, any time restrictions, or deadlines
-•	Build your user onboarding into your upfront planning. Communicate early and often with your users about the migration and how it will impact them. Don't wait until the very end to start preparing them for the change.
+- The design of the target environment and the mapping between source and destination.
+- The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
+- Understand the scope of your project, any time restrictions, or deadlines
+- Build your user onboarding into your upfront planning. Communicate early and often with your users about the migration and how it will impact them. Don't wait until the very end to start preparing them for the change.
 
 ### Scope and timeline
-The most common question from customers is “how long will the migration take?.”  This is something that is hard to provide an accurate answer to. While the Mover app is one of the fastest ways to migrate data, the speed of the migration may still be affected by bottlenecks.  These include, but aren’t limited to:
+The most common question from customers is “How long will the migration take?”. While the Mover app is one of the fastest ways to migrate data, the migration speed can be impacted by many factors, including: 
 
-•	Number of files and folders being moved.
-•	File size 
-•	Total amount of data being moved
-•	Server connections with the source or destination
-•	Both Source and Destination connectors have rate limits and we  constrained to to how fast they allow us to download, upload and process data between the two.
-•	Complexity of permissions or sharing of data
-•	Applying permissions as part of the migration is another factor that can influence speed.  To apply permissions we are again making numerous API calls which will increase the time it takes to migrate the data.
+- Number of files and folders being moved
+- File size 
+- Total amount of data being moved
+- Server connections with the source or destination
+- Both Source and destination connectors have rate limits and we  constrained to to how fast they allow us to download, upload and process data between the two.
+- Complexity of permissions or sharing of data
+- Applying permissions as part of the migration is another factor that can influence speed.  To apply permissions we are again making numerous API calls which will increase the time it takes to migrate the data.
 
 
 ## Assess and remediate
@@ -64,10 +64,10 @@ You or your customer might have a relative idea of how many users are in their s
 
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
-|**Data ownership**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|Within most customers user base, much of the data will be shared data.  When using the Mover for migrating only owned folders and the root files for each user is copied. If a user is not the owner of the data, we do not copy it.  Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before. We also use the Inventory Scan to help determine who owns what. |
+|**Data ownership**||Within most customers user base, much of the data will be shared data.  Only owned folders and the root files for each user is copied. If a user is not the owner of the data, we do not copy it.  Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before. We also use the Inventory Scan to help determine who owns what. |
 |**Data distribution**|Find all accounts that exceed 5TB or 400,000 files or items.|Split these accounts into into smaller service accounts|
 |**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
-|**Size and amount of files/data** |Run an inventory scan.|The number of files/data to migrate ties in closely with how the data is distributed.  Customers may have an idea of many files or how much data they have in their Source.  But some of the cloud storage providers' reporting on the exact numbers can be misleading, as some may count items in the trash and/or external shared data.
+|**Size and amount of files/data** |Run an inventory scan.|The number of files/data to migrate ties in closely with how the data is distributed.  Customers may have an idea of many files or how much data they have in their source.  But some of the cloud storage providers' reporting on the exact numbers can be misleading, as some may count items in the trash and/or external shared data.
 To obtain accurate totals for files/data owned then carrying out the Inventory Scan is essential.
 |
 
