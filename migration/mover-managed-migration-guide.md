@@ -20,7 +20,7 @@ description: A guide to help partners managing a customers migration project.
 ---
 # Managing a cloud to cloud migration using Mover
 
-This guide was created to share the process and best practices of managing a cloud to cloud migration project using the Microsoft Mover application. 
+This guide was created to share the process and best practices of managing a cloud to cloud migration project using the Mover application. 
 
 Most migrations fall into regular phases. Proven success factors for migration include planning, assessing and remediating, preparing your destination environment, migrating, and onboarding your users.
 
