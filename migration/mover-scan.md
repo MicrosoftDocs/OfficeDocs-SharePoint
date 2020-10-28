@@ -77,6 +77,9 @@ To download the report:
 5. Rename the headings to ID, Source Path and Destination Path.
 6. Filter on the blanks within column C (Destination Path).  
 7. In the blank cells type, "No matching user". Clear the filter from “Destination Path”.
+
+![No matching user](media/mover-excel-no-matching-user.png)
+
 8. Save your Excel sheet as a CSV file.
 9. Return to the Mover app and select **Migration Manager > Migration Actions > Update Migration**.
 10. Select **Choose a File to Upload** to upload the updated CSV File.
@@ -86,11 +89,9 @@ Once the file is uploaded verify that any transfers that had a blank for the Des
 
 ## Running the Scan
 
-When running a scan, it is best to follow some simple steps.  
-
 Before starting all the transfers for a Scan, it is best practice to start one Scan to ensure that both connectors are active and that the Scan runs successfully.
 
-In order to start one Scan, log into the tool, click on the Migration Manager.  Select the check box beside the first transfer and then click Start Scan.
+To start one scan, log into the tool, click on Migration Manager.  Select the check box beside the first transfer and then click Start Scan.
 
 ![Scan start](media/mover-start-scan.png)
  
