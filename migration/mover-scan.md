@@ -59,7 +59,7 @@ You will now want to create the Migration.
 
 ![Start transfer](media/mover-start-transfer.png)
   
-2. Creates a user list of those transferring.  Either select **Add Users** .
+2. Create a user list of those transferring.  Either select **Add Users** .
 
 ![Add users](media/mover-add-users.png)
  
@@ -67,39 +67,22 @@ Or, select **Migration Actions** > **Add to Migration**.
 
 ![Scan migration actions](media/mover-migration-actions.png) 
  
-3. Select either:
-Auto Discover Users.
-1.	Select Automatically Discover and Add Users, and the tool automatically finds your users and attempts to match them up.
- 
-2.	 Upload Migration CSV File.
-Either drag a file into the designated space, or select Choose a file to upload, and add a customized CSV file for your migration.
+3. Select  **Auto Discover Users** and the app will automatically find your users and attempt to match them up.  Alternatively, you can upload a CSV file, but for the purpose of scanning we recommend using auto discover mehtod to ensure all users in the source tenant are discovered.
 
-For the purpose of Scanning it is recommended to use option 1, as this ensures we discover all the users in the Source tenant for scanning. 
+Once the Auto-Discover completes, you should see  Migration Manager display the relevant number of matching transfers for users between Source and Destination.  Some of your Destination users may not have a match and their Destination Path column is blank.
 
-The customer may not want/need all users scanned in the Source and if that is the case then we recommend using option 2 and asking the customer to supply a CSV file for those specific users.
-
-
-![Mover upload CSV](media/mover-upload-csv.png)
-
-
-Once the Auto-Discover completes, you should see the Migration Manager becomes populated with the relevant number of matching transfers for users between Source and Destination.
-
-From the Auto-Discovery you may notice that some of your Destination users do not have a match and their entry under the Destination Path column is blank.  
-
-A Scan will not be able to run if either the Source Path or Destination path is empty.
-
-In order for you to run the Scan you will need to fill in those blanks. The best way to do so is to download the Migration Report and create a new CSV file to upload containing no blank entries. 
+You need to fill in any blanks that appear, as the Scan will not be able to run if either the Source Path or Destination path is empty. Download the Migration Report and create a new CSV file to upload containing no blank entries. 
 
 ![Scan report red](media/mover-scan-red.png)
  
-To achieve this please apply the following steps.
-In the Migration Manager click on Migration Actions > Migration Report.
-This will now download the Migration Report as a CSV file to your Downloads folder.  Open this CSV file.
-From the downloaded Migration Report, copy the three columns entitled Schedule ID, Source and Destination
-You will next want to open a blank Excel sheet. Open Excel and select File > New > Blank workbook.
-In this new Excel workbook copy the Schedule ID, Source and Destination columns from Step 3 into columns A, B and C on the blank workbook.
-Rename the headings to ID, Source Path and Destination Path.
-You will now want to filter on the blanks within column C (Destination Path).  To do so highlight all of column C, then click Home >Filter Icon > Filter.
+To download the report:
+
+1. In **Migration Manager** select  **Migration Actions > Migration Report**.  This downloads the Migration Report as a CSV file to your downloads folder.  Open this CSV file.
+2. Copy the three columns entitled **Schedule ID, Source and Destination**.
+3. Open a new blank Excel worksheet.
+4. Paste the **Schedule ID, Source and Destination** columns from Step 2 into columns A, B and C of the blank worksheet.
+5. Rename the headings to ID, Source Path and Destination Path.
+6. Filter on the blanks within column C (Destination Path).  To do so highlight all of column C, then click Home >Filter Icon > Filter.
 
  
 ![Scan report excel](media/mover-excel-scan-1.png)
