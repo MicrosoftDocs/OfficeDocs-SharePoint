@@ -80,6 +80,7 @@ Before beginning your migration, it is important that you perform an analysis of
 
 You or your customer might have a relative idea of how many users are in their source domain and how many they might want to migrate. However, it is important to get an accurate count of the user base by running an **Inventory Scan.**  This scan will let you know how many users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover.](mover-scan.md) 
 
+Using the results from your inventory scan, assess and remediate in the following areas:
 
 | |**Assess**|**Remediate**|
 |:-----|:-----|:-----|
