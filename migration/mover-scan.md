@@ -40,12 +40,12 @@ You will know want to perform the same actions for connecting to your Office 365
 
 On Step 2: Select destination and then select the Manage button and then click Connect.
 
-![Select destination](media/mover-transfer-destination.png)
+![Select destination](media/mover-transfer-wizard-destination.png)
   
 
 An icon appears and this displays how many possible users are available for migrating.
  
-![Transfer destination](media/mover-transfer-destination-2.png)
+![Transfer destination](media/mover-transfer-wizard-destination-2.png)
 
 You will now want to create the Migration.
 
