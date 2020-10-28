@@ -59,19 +59,12 @@ You will now want to create the Migration.
 
 ![Start transfer](media/mover-start-transfer.png)
   
-2. Create a user list of those transferring.  Either select **Add Users** .
+2. Create a user list of those transferring. Select **Add Users** .
+3. Select  **Auto Discover Users** and the app will automatically find your users and attempt to match them up.
+4. Once the Auto-Discover completes, Migration Manager will display the matching transfers for users between Source and Destination. 
 
-![Add users](media/mover-add-users.png)
- 
-Or, select **Migration Actions** > **Add to Migration**.
 
-![Scan migration actions](media/mover-migration-actions.png) 
- 
-3. Select  **Auto Discover Users** and the app will automatically find your users and attempt to match them up.  Alternatively, you can upload a CSV file, but for the purpose of scanning we recommend using auto discover mehtod to ensure all users in the source tenant are discovered.
-
-Once the Auto-Discover completes, you should see  Migration Manager display the relevant number of matching transfers for users between Source and Destination.  Some of your Destination users may not have a match and their Destination Path column is blank.
-
-You need to fill in any blanks that appear, as the Scan will not be able to run if either the Source Path or Destination path is empty. Download the Migration Report and create a new CSV file to upload containing no blank entries. 
+If any of your Destination users do not have a match and their destination path column is blank, a scan will not be able to run. To correct this, download the Migration Report and create a new CSV file to upload containing no blank entries. 
 
 ![Scan report red](media/mover-scan-red.png)
  
@@ -82,37 +75,16 @@ To download the report:
 3. Open a new blank Excel worksheet.
 4. Paste the **Schedule ID, Source and Destination** columns from Step 2 into columns A, B and C of the blank worksheet.
 5. Rename the headings to ID, Source Path and Destination Path.
-6. Filter on the blanks within column C (Destination Path).  To do so highlight all of column C, then click Home >Filter Icon > Filter.
+6. Filter on the blanks within column C (Destination Path).  
+7. In the blank cells type, "No matching user". Clear the filter from “Destination Path”.
+8. Save your Excel sheet as a CSV file.
+9. Return to the Mover app and select **Migration Manager > Migration Actions > Update Migration**.
+10. Select **Choose a File to Upload** to upload the updated CSV File.
 
- 
-![Scan report excel](media/mover-excel-scan-1.png)
-
-
-
-Click on the dropdown Filter arrow and then uncheck all by clicking the (Select All) button and then check (Blanks) > OK.  This will filter only the blank entries in the Destination column.
-
-
-![Scan report dropdown](media/mover-scan-excel-dropdown.png)
-
-In the blank cells input No matching user and then click on the Filter arrow again and then select Clear Filter from “Destination Path”.
-
- ![Scan report no matching user](media/mover-excel-no-matching-user.png)
-
-![Scan report filter](media/mover-excel-filter.png)
+Once the file is uploaded verify that any transfers that had a blank for the Destination Path are now populated with the value "No matching user".  You now will be able to run the scan.
 
 
-
-Once you have filled in the blank cells then save your Excel sheet as a CSV file.  To do so, click File > Save As and from the dropdown menu select CSV (Comma delimited) (*.csv) and click Save.
-
-![CSV download](media/mover-csv-download.png)
-
-Now return to the tool and select Migration Manager > Migration Actions > Update Migration.
-
-Next either drag or drop or Choose a File to Upload to upload the updated CSV File.
-
-Once the file is uploaded you should now notice that any transfers that had a blank for the Destination Path are now populated with No matching user.  You should now be able to start running the scan for the customer.
-
-Running the Scan
+## Running the Scan
 
 When running a scan, it is best to follow some simple steps.  
 
