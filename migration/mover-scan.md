@@ -98,7 +98,7 @@ It is best practice to start one Scan to ensure that both connectors are active 
  
 The transfer will turn from white to blue and the Status column changes to **Queued to Scanning.**  The columns for Files Skipped and Data Skipped should increase in number and size.  This indicates that the Scan for this transfer is running successfully.
 
-While running a Scan you should expect to see the following Status types
+While running a scan you should expect to see the following status types:
 
 
 |Scan status type|Comment|
@@ -111,39 +111,30 @@ While running a Scan you should expect to see the following Status types
 |Queued|This status means the Scan is currently queued and will switch to Scanning status once the transfer is picked up on the queue.|
 
 
-Once the Scan completes, the majority of your transfers should turn green (see the examples below).
+Once the scan completes, the majority of your transfers should turn green (see the examples below).
 
 ![Scan example](media/mover-scan-example.png)
 
-As you will see in the above example, some of the entries for users' files and data are blank.  This usually indicates that this user owns 0 files or data, and these types of users will be discussed in the next section of the document (Planning Migration with Customers).
-
-After the first Scan finishes successfully then it is usually best practice to select the next five users and run a Scan against those.
-
-If these return green, then you can click on the select all users radio button just below the Active Filters box and then click Scan Users to queue all other users in this Migration.
+If some entries for users' files and data are blank, this usually indicates that the user owns 0 files or data. After the first scan finishes successfully, we recommend selecting just the next five users and run a scan against those. If that scan also returns green, then select all users and then click **Scan Users** to queue all other users.
 
 ![Scan active filter](media/mover-active-filter.png)
  
 
-It may take some time for all users to change from the Never Run status to either Scanning or Queued.
+It may take time for all users to change from the *Never Run* status to either *Scanning* or *Queued*.
 
-If the Scan you are doing exceeds 5,000 users, then it is common courtesy to reach out to Customer Engineering via email prior to starting the large Scan (joshua.badach@microsoft.com and/or grhosie@microsoft.com).  We will in turn make the Mover Infrastructure team aware that a large scan is starting.
+If the Scan you are doing exceeds 5,000 users, contact Microsoft Customer Engineering via email prior to starting the large Scan. We will make the Mover Infrastructure team aware that a large scan is starting.
 
-The length of time for a Scan will all depend on how many users, how many files, how much data and how well distributed the customers' data is.  A large scan of over 100TB can take a few days to complete.
+>[Note]
+>The length of time for a scan to run depends on how many users, how many files, how much data and how well distributed the customers' data is.  A large scan of over 100TB can take a few days to complete.
 
-During the time the Scan is running, it is expected that you provide a daily email update to your customer(s) to provide a snapshot of how the Scan is progressing.
-
-Usually we take a screenshot of the dashboard within the Migration Manager to capture progress.
+During the time the scan is running, send a daily email update to your key stakeholders to provide a snapshot of how the scan is progressing.  Take a screenshot of the dashboard within the Migration Manager to capture progress.
 
 
 ![Dashboard screenshot](media/mover-dash-screenshot.png)
 
-
-Upon the Scans completion we then provide the customer with their Scan Report and we will discuss this in greater detail in the next section.
-
-
 ## Scan Reports
 
-The scan results and the corresponding scan report are essential in aiding you in planning your migration with your customers.  They provide useful stats in determining the following:
+The scan results and the corresponding scan report are essential in aiding you in planning your migration.  They provide useful stats in determining the following:
 
 - How many users own files/data?
 - How many users own over 400,000 files?
@@ -152,14 +143,12 @@ The scan results and the corresponding scan report are essential in aiding you i
 - How many users currently have files/folders that exceed 400 characters in length in their Source?
 
 
-To obtain the Scan Results you want to be log into the customers account on the tool and under Migration Manager select Migration Actions > Scan Reports (zip file).
-
+To download the Scan Results sign into the Mover tool, go to Migration Manager, and select **Migration Actions > Scan Reports** (zip file). The download will be a zip file titled **ScanReport-[date]**.
 
 ![Scan report fails](media/mover-migration-actions-larger.png)
 
-This will then download a ScanReport-[date] zipped file to your Downloads.
+The zip file contains the following reports:
 
-Within this zip file you will find the following reports:
 
 |Report|Description|
 |:-----|:-----|
@@ -169,16 +158,10 @@ Within this zip file you will find the following reports:
 |**LongPathReport**|This report provides a list of any files and/or folders that currently exceed the 400-character length limit within Office 365. If a customer does not remediate these long path files/folders then the tool will not be able to migrate the files or folder contents.  As noted above, we provide the CommonPathReport to aid customers in finding suitable locations to move the content to, that will ensure that it can be migrated.|
 |**ScanSummaryReport**|This report provides the full list of all users scanned within the Source tenant and captures how many files they own, how much data they own and provides details on the status of each scanned transfer.Though these are all important reports for Managed Migration purposes the three key reports we focus upon are the CommonPathReport, LongPathReport and ScanSummaryReport.|
 
-These reports within the zip file contain enough information for customers to understand their scan but when conducting a Managed Migration we like to provide the customer with a report more tailored and presentable for them to work from.
-
-We provide the customer with a specific Excel file which we manually create on their behalf.
-
-At present, we use the attached Excel template for the Scan Report.
+When managing a large migration, it is useful to create a custom report (manually) to work from with your users and stakeholders. 
 
 ![Excel icon pre-scan](media/mover-excel-log-prescan.png)
- 
 
-When using this template, we advise making a copy and changing the (Client Name) part to the specific customer you are working with.
 
 Once you open the Pre-Scan Results file you will see four tabs.
 
