@@ -82,7 +82,8 @@ Set-ADFSRelyingPartyTrust -TargetName $name -IssuanceTransformRules $claimsRule
 
 When the script completes, the relying party in AD FS should look like this:
 
-![ADFS Relying Party](../media/SharePointTrustedAuthN_ADFSRelyingParty.png)
+> [!div class="mx-imgBorder"]
+> ![ADFS Relying Party](../media/SharePointTrustedAuthN_ADFSRelyingParty.png)
 
 ## Configure SharePoint to trust AD FS
 
@@ -156,10 +157,13 @@ There are 2 possible configurations:
         ```
 
     1. Open the **SharePoint Central Administration** site.
+    
     1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
+    
     1. Filter the display with the new web application and confirm that you see something like this:
 
-       ![Alternate Access Mappings of web application](../media/SharePointTrustedAuthN_AAM1ZoneWebapp.png)
+       > [!div class="mx-imgBorder"]
+       > ![Alternate Access Mappings of web application](../media/SharePointTrustedAuthN_AAM1ZoneWebapp.png)
 
 - If you extend an existing web application to set AD FS authentication on a new zone:
 
@@ -179,10 +183,13 @@ There are 2 possible configurations:
         ```
 
     1. Open the **SharePoint Central Administration** site.
+    
     1. Under **System Settings**, select **Configure Alternate Access Mappings**. The **Alternate Access Mapping Collection** box opens.
+    
     1. Filter the display with the web application that was extended and confirm that you see something like this:
 
-        ![Alternate Access Mappings of extended application](../media/SharePointTrustedAuthN_AAMExtendedWebapp.png)
+        > [!div class="mx-imgBorder"]
+        > ![Alternate Access Mappings of extended application](../media/SharePointTrustedAuthN_AAMExtendedWebapp.png)
 
 ## Make sure that an HTTPS certificate is set in IIS
 
@@ -194,6 +201,7 @@ Because SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`), a
 > You may skip this step if you already generated the certificate.
 
 1. Open the Windows PowerShell console.
+
 1. Run the following script to generate a self-signed certificate and add it to the computer's MY store:
 
    ```powershell
@@ -206,8 +214,11 @@ Because SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`), a
 ### Set the certificate
 
 1. Open the Internet Information Services Manager console.
+
 1. Expand the server in the tree view, expand **Sites**, select the **SharePoint - ADFS on contoso.local** site, and select **Bindings**.
+
 1. Select **https binding** and then select **Edit**.
+
 1. In the TLS/SSL certificate field, choose **spsites.contoso.local** certificate and then select **OK**.
 
 ## Create the site collection
@@ -215,28 +226,39 @@ Because SharePoint URL uses HTTPS protocol (`https://spsites.contoso.local/`), a
 In this step, you create a team site collection with two administrators: One as a Windows administrator and one as a federated (AD FS) administrator.
 
 1. Open the **SharePoint Central Administration** site.
+
 1. Under **Application Management**, select **Create site collections**. The **Create site collections** page opens.
+
 1. Type a **Title**, **Url**, and select the template **Team Site**.
+
 1. In the **Primary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
+
 1. In the people picker dialog, type the Windows administrator account, for example `yvand`.
+
 1. On the left, filter the list by clicking on **Organizations**. You should see an output like this:
 
-    ![People picker Windows administrator](../media/SharePointTrustedAuthN_ppicker_winadmin.png)
+    > [!div class="mx-imgBorder"]
+    > ![People picker Windows administrator](../media/SharePointTrustedAuthN_ppicker_winadmin.png)
 
-1. Select the account and click Ok.
+1. Select the account and click **OK**.
+
 1. In the **Secondary Site Collection Administrator** section, click on the book icon to open the people picker dialog.
-1. In the people picker dialog, type the **exact** email value of the AD FS administrator account, for example `yvand@contoso.local`.
+
+1. In the people picker dialog, type the _exact_ email value of the AD FS administrator account, for example `yvand@contoso.local`.
+
 1. On the left, filter the list by clicking on **Contoso.local**. You should see an output like this:
 
-    ![People picker Windows administrator](../media/SharePointTrustedAuthN_ppicker_trustedadmin.png)
+    > [!div class="mx-imgBorder"]
+    > ![People picker Windows administrator](../media/SharePointTrustedAuthN_ppicker_trustedadmin.png)
 
-1. Select the account and click Ok.
+1. Select the account and click **OK**.
+
 1. Click Ok to create the site collection.
 
 Once the site collection is created, you should be able to sign-in to it using either the Windows or the federated site collection administrator account.
 
 ## Next Steps
 
-In federated authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using a custom claims provider, for aexample [LDAPCP](https://ldapcp.com/).
+In federated authentication, the people picker does not validate the input, which can lead to misspellings or users accidentally choosing the wrong claim type. This can be addressed using a custom claims provider; for example, [LDAPCP](https://ldapcp.com/).
 > [!IMPORTANT]
 > LDAPCP isn't a Microsoft product and isn't supported by Microsoft Support. To download, install, and configure LDAPCP on the on-premises SharePoint farm, see the LDAPCP website.
