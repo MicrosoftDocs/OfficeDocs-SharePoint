@@ -40,7 +40,7 @@ You will know want to perform the same actions for connecting to your Office 365
 
 On Step 2: Select destination and then select the Manage button and then click Connect.
 
-
+![]
   
 
 An icon appears and this displays how many possible users are available for migrating.
@@ -220,7 +220,7 @@ We provide the customer with a specific Excel file which we manually create on t
 
 At present, we use the attached Excel template for the Scan Report.
 
-
+![Excel icon prescan](media/mover-excel-log-prescan.png)
  
 
 When using this template, we advise making a copy and changing the (Client Name) part to the specific customer you are working with.
@@ -237,7 +237,8 @@ Below we will discuss how to populate the Pre-Scan Results tabs to provide all t
 
 When you open the Pre-Scan Results Excel sheet you will see it is populated with the following columns/information.
 
- 
+![Scan report fails](media/mover-prescan-excel.png) 
+
 In order to populate these columns we will take the data from the ScanSummaryReport file that was generated in the zip file.  
 
 Open the ScanSummaryReport file and then copy the following columns into the [Client Name] Pre-Scan Results sheet.
@@ -250,7 +251,7 @@ Data (MB)	Data Scanned (MB)
 
 Your [Client Name] Pre-Scan Results could look something like the below example.
 
- 
+ ![PRe Scan results](media/mover-prescan-results.png)
 
 You will notice the Totals cells for Files and TB are automatically calculated and this provides the total number of files and data scanned for the Source tenant.
 
@@ -260,11 +261,12 @@ To do so, highlight all the cells from Column A/Line 2 to Column F/Last Line num
 
 Right click in the highlighted are and then select Sort > Sort A to Z
 
- 
+![Scan report sort](media/mover-prescan-results-sort.png) 
 
 This will bring the Failed scans to the top of the list and all other subsequent scans should report as Success.
 
- 
+![Scan report fails](media/mover-excel-scan-fails.png)
+
 You will notice that the Destination Path column is currently blank.  At present the ScanSummayReport does not include the details of the Destination Path.  This issue is currently being addressed and future iterations of the ScanSummaryReport will include these details.
 
 As you may recall earlier in the process we used Auto-Discover for mapping our Source and Destination users
@@ -280,7 +282,7 @@ B (Source Path) and C (Destination Path) on the Pre-Scan Results report.
 We copy Columns B and C from the Migration Report to ensure that these columns accurately match and map correctly.
 
 Your Pre-Scan Report should now look like the below example.
-
+![Pre scan report](media/mover-excel-scan-fails-2.png)
  
 In the Destination Path column, you will see that all users with a matching Destination account end with /From BoxServiceAccount.
 
@@ -322,140 +324,4 @@ Discussing the naming convention for who to migrate can be established with comm
 
 An example of how these comments should look in the Pre-Scan Results tab is provided below.
 
- 
-
-These above topics will be discussed under Planning Migrations with Customers.  As establishing good communication and precise planning are key in delivering a successful migration.
-
-Permission Map
-
-The permission map is a critical part of any migration.
-When a user is migrating or has been migrated, we transfer files and folders and share any required data. 
-
-We already know what users are migrating and copying data, but we also need to know who might have content shared with them in the Source, even if they don't copy data.
-To stay organized, we provide a secondary list of your users, called a Permission Map. This list includes everyone who could possibly receive sharing permissions for any files or folders that might be migrated. This even includes users who are not migrating data (e.g. Users who own 0 files/data).
-Another important consideration is that usernames and emails aren't always consistent across platforms, and the permission map helps us line up with everyone.
-
-Example: jane.s@example.com in Source  is actually. j.smith@example.com in the Destination.
-
-We automatically detect users and handle perfect matches. Any inconsistencies must be manually reconciled. The permission map can be continually updated, because with each incremental pass of the migration, permissions are reapplied.
-To view your permission map, in the top right of the Migration Manager > select Migration Actions, and then, from the dropdown menu, select > Edit Permission Map.
- 
-You may either auto-discover or upload a permission map file. We automatically pair perfect matches. If a user or group does not have a perfect match in Office 365, you can correct it in the tools interface.
-To Auto-Discover the Permission Map then Select Auto-discover Users.
- 
-
-At any time, you may view and edit your permission map.  Once the auto-discover completes you should be presented with a Permission Map like the below example.
- 
-
-
-Adding a new line for a specific users - for example, user01@gmail.com to user01@hotmail.com - that perfectly matches auto-discovered permissions by the domain - for example, @gmail.com to @hotmail.com - is automatically removed. Our app marks these as redundant entries.
-A blank destination entry automatically cancels any permission sharing for that user or group.
-
-When running a Managed Migration, it is essential to work with your customers to ensure that the Permission Map is accurate and complete.
-
-Once you have auto-discovered the Permission Map then you will want to download the result and add those to the Permission Map tab on the Pre-Scan Results spreadsheet.
-
-To download the Permission Map from the Mover app, in Migration Manager click > Migration Actions > Edit Permission Map > Actions > Save Permission Map to File.
-
-
- 
-
-This will download a csv version of the Permission Map in the following naming format - 
-(e.g. Mover-User-Names_BoxServiceAccount_Office365_20200908_090978).
-
-Open this file and below is an example illustrating how exact username matches are stripped out and will be applied (line 2).
-
-Lines 3, 4 and 7 show instances where the username are not exact matches but are mapped accordingly.
-
-Lines 5, 6, 7 and 8 illustrate where we were unable to make exact matches for two users and two groups between Source and Destination.
-
- 
-
-For us to determine if those blank entries in the Destination User column are required, we mark those entries as either No Matching User or No Matching Group.
-
- 
-
-The onus is then on the customer to either fill in the details for those users/groups to ensure we have the correct permissions mapped or they can advise that those users/groups are not required and can be removed from the Permission Map.
-
-Once the customer has confirmed the contents of the Permission Map that then can then be used for both the Permission Map for the Pilot and Main migrations.  Uploading of the Permission Map to Migrations will be discussed in the Pilot Migrations and Main Migration sections.
-
-Long Path Reports
-
-During a pre-scan, the tool automatically detects and reports paths that are too long for OneDrive or SharePoint to accept. The current path length limit is 400 characters. The path length is calculated when going into Microsoft 365 and includes your tenant URL, user site, path, and any character encoding.
-
-Example:
-This path is 93 characters long despite Documents/Old Docs being only 18 characters:
-https://example-my.sharepoint.com /personal /example_user /%2FDocuments%2FOld%20Docs
-
-If a file exists that has a very long path, our app skips it, and reports it in the log files.
-To save time and headaches, before a customer migrates, we recommend and encourage them to shorten any identified long paths.
-
-
- 
-As we discussed earlier after you have completed your Source tenant scan, this generates the Scan Report zip file. Within this zip file this contains a report for any Long Path issues that were detected (LongPathReport) and a report that offers some possible suggestions for where you could move the files/folders that exceed the Microsoft limit (CommonPathReport).
-
-Transfers with Long Path Issues
-
-To provide your customers with the details of any Long Path issue then we want to copy the contents of the LongPathReport into the Transfers with Long Paths tab in the Pre-Scan Results spreadsheet.
-
-When you open the LongPathReport it should look like the example below.
-
-
- 
-
-From this report you will want to copy the contents of the first four columns from line 2 and then paste that information into the Transfers with Long Paths tab on the Pre-Scan Results file.  
-
-Below is an example of how that should look.
-
- 
-
-The columns in this report are:
-
-Username - The Source username that the affected long path file or folder is owned by.
-
-Schedule ID - The Schedule ID of the associated Mover transfer.
-
-Long Path Folder or File - This is the full path for the Folder or File that currently exceeds the Microsoft character limit.
-
-Length - This shows the character count for the affected Folder or File.  The Mover apps default character scan limit is 330.
-
-We scan at this number to provide some ”wiggle room” because this makes a compensation for such things as the customers own UPN and company tenant.
-
-Long Path Reduction Suggestions
-
-To assist our customers in making some informed decisions on where to possibly move any long path files and folders in their directory structure.  We also provided the CommonPathReport in the Scan Report zip file.
-
-This report offers suggestions of where to move the affected files and folders, so if the customer does this prior to starting the migration then we will not report those as failures that will still have to be remediated.
-
-When you open the CommonPathReport it should look like the example below.
-
- 
-
-From this report you will want to copy the contents of the all the columns from line 2 and then paste that information into the Long Path Reduction Suggestions tab on the Pre-Scan Results file.  
-
-Below is an example of how that should look.
-
- 
-
-The columns in this report are:
-
-Username - The Source username that the affected long path file or folder is owned by.
-
-Schedule ID - The Schedule ID of the associated Mover transfer.
-
-Common Path Name - This will tell you the common parent folder to be resolved to fix its children that exceed the long path limitation.
-
-Common Path Length - The character count for the above that illustrates by moving to the Common Path Name this will be below the long path limit.
-
-Longest Child Name Length - This is the character count for the longest child within a long path Folder.
-
-Total Children - The total number of children within the common path parent folder.
-
-Type - This is whether the long path is related to an individual File or Folder.
-
-The remediation suggestions made in the CommonPathReport are designed to make decisions easier for the customer in moving this data.
-
-Once you have completed all the tabs for the Pre-Scan report you can then share the link to the report with the relevant customer.  The next stage of the Managed Migration Process is planning the actual migration with your customers.
-
-
-
+![Scan comments](media/mover-excel-scan-comments.png)
