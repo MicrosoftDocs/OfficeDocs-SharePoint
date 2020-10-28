@@ -40,26 +40,28 @@ You will know want to perform the same actions for connecting to your Office 365
 
 On Step 2: Select destination and then select the Manage button and then click Connect.
 
-![]
+![Select destination](media/mover-transfer-destination.png)
   
 
 An icon appears and this displays how many possible users are available for migrating.
  
+![Transfer destination](media/mover-transfer-destination-2.png)
 
 You will now want to create the Migration.
 
 Select Continue Migration Setup, and our app moves to the Migration Manager.
 
-
+![Start transfer](media/mover-start-transfer.png)
   
 The next step creates a user list of those transferring.
 From your newly created migration in the Migration Manager, there are two ways to add users:
 Select Add Users.
 
+![Add users](media/mover-add-users.png)
  
 Or, select Migration Actions, and then select Add to Migration.
 
- 
+![Scan migration actions](media/mover-migration-actions.png) 
  
 Select one of two options:
 Auto Discover Users.
@@ -72,7 +74,10 @@ For the purpose of Scanning it is recommended to use option 1, as this ensures w
 
 The customer may not want/need all users scanned in the Source and if that is the case then we recommend using option 2 and asking the customer to supply a CSV file for those specific users.
 
- 
+
+![Mover upload CSV](media/mover-upload-csv.png)
+
+
 Once the Auto-Discover completes, you should see the Migration Manager becomes populated with the relevant number of matching transfers for users between Source and Destination.
 
 From the Auto-Discovery you may notice that some of your Destination users do not have a match and their entry under the Destination Path column is blank.  
@@ -81,6 +86,7 @@ A Scan will not be able to run if either the Source Path or Destination path is 
 
 In order for you to run the Scan you will need to fill in those blanks. The best way to do so is to download the Migration Report and create a new CSV file to upload containing no blank entries. 
 
+![Scan report red](media/mover-scan-red.png)
  
 To achieve this please apply the following steps.
 In the Migration Manager click on Migration Actions > Migration Report.
@@ -92,26 +98,30 @@ Rename the headings to ID, Source Path and Destination Path.
 You will now want to filter on the blanks within column C (Destination Path).  To do so highlight all of column C, then click Home >Filter Icon > Filter.
 
  
-
+![Scan report excel](media/mover-excel-scan-1.png)
 
 
 
 Click on the dropdown Filter arrow and then uncheck all by clicking the (Select All) button and then check (Blanks) > OK.  This will filter only the blank entries in the Destination column.
 
 
- 
+![Scan report dropdown](media/mover-excel-scan-dropdown.png)
 
 
 In the blank cells input No matching user and then click on the Filter arrow again and then select Clear Filter from “Destination Path”.
 
- 
+ ![Scan report no matching user](media/mover-excel-no-matching-user.png)
+
+
+![Scan report filter](media/mover-excel-filter.png)
+
 
 
  
 
 Once you have filled in the blank cells then save your Excel sheet as a CSV file.  To do so, click File > Save As and from the dropdown menu select CSV (Comma delimited) (*.csv) and click Save.
 
- 
+![CSV download](media/mover-csv-download.png)
 
 Now return to the tool and select Migration Manager > Migration Actions > Update Migration.
 
@@ -127,6 +137,7 @@ Before starting all the transfers for a Scan, it is best practice to start one S
 
 In order to start one Scan, log into the tool, click on the Migration Manager.  Select the check box beside the first transfer and then click Start Scan.
 
+![Scan start](media/mover-start-scan.png)
  
 The transfer will turn from white to blue and the Status column should change from Never run to Queued to Scanning.  
 
