@@ -149,10 +149,10 @@ While running a Scan you should expect to see the following Status types
 |Scan status type|Comment|
 |:-----|:-----|
 |Failed	|This status means that the Scan has failed on the Source user and should be scanned again and if it continues to fail, investigation is required.|
-|Never Run|	This status means the Scan has not yet been run.|
-|Scanning|	This status means the Scan is currently running.|
-|Some Problems|	This status means that the Scan completed but encountered some possible errors on the Source and should be scanned again and if it continues to report Some Problems investigation is required.|
-|Success|	This status means the Scan has successfully completed.|
+|Never Run|This status means the Scan has not yet been run.|
+|Scanning|This status means the Scan is currently running.|
+|Some Problems|This status means that the Scan completed but encountered some possible errors on the Source and should be scanned again and if it continues to report Some Problems investigation is required.|
+|Success|This status means the Scan has successfully completed.|
 |Queued|This status means the Scan is currently queued and will switch to Scanning status once the transfer is picked up on the queue.|
 
 
@@ -168,7 +168,6 @@ If these return green, then you can click on the select all users radio button j
 
 ![Scan active filter](media/mover-active-filter.png)
  
-
 
 It may take some time for all users to change from the Never Run status to either Scanning or Queued.
 
@@ -202,29 +201,18 @@ To obtain the Scan Results you want to be log into the customers account on the 
 
 
 ![Scan report fails](media/mover-migration-actions-larger.png)
- 
-•	
+
 This will then download a ScanReport-[date] zipped file to your Downloads.
 
 Within this zip file you will find the following reports:
 
-CommonPathReport - This report provides a list of suggested path locations in the directory structure where to move any files/folders that exceed the Office 365 400-character limit as reported in the LongPathReport.
-
-These are suggested locations that if a customer were to move the long path file/folders to this location then the character length would be below the 400-character limit and the tool can then migrate the content.
-
-FilesExtensionReport - This report provides a list all file extension types that exist in the Source tenant and the total amount of data for each file extension type.
-
-LargeFilesReport - This report provides a list of any files that exceed the 15GB filesize limit that tools current API supports.  Any files over this limit will not be migrated via the tool.
-
-Though Microsoft is now supporting 100GB file limits, the current tool API does not.  This will be deployed in due course but at present <15GB is the largest filesize that the tool can migrate.
-
-LongPathReport – This report provides a list of any files and/or folders that currently exceed the 400-character length limit within Office 365.
-
-If a customer does not remediate these long path files/folders then the tool will not be able to migrate the files or folder contents.  As noted above, we provide the CommonPathReport to aid customers in finding suitable locations to move the content to, that will ensure that it can be migrated.
-
-ScanSummaryReport – This report provides the full list of all users scanned within the Source tenant and captures how many files they own, how much data they own and provides details on the status of each scanned transfer.
-
-Though these are all important reports for Managed Migration purposes the three key reports we focus upon are the CommonPathReport, LongPathReport and ScanSummaryReport.
+|Report|Description|
+|:-----|:-----|
+|**CommonPathReport**|This report provides a list of suggested path locations in the directory structure where to move any files/folders that exceed the Office 365 400-character limit as reported in the LongPathReport. These are suggested locations that if a customer were to move the long path file/folders to this location then the character length would be below the 400-character limit and the tool can then migrate the content.|
+|**FilesExtensionReport**|This report provides a list all file extension types that exist in the Source tenant and the total amount of data for each file extension type.|
+|**LargeFilesReport**|This report provides a list of any files that exceed the 15GB filesize limit that tools current API supports.  Any files over this limit will not be migrated via the tool. Though Microsoft is now supporting 100GB file limits, the current tool API does not.  This will be deployed in due course but at present <15GB is the largest filesize that the tool can migrate.|
+|**LongPathReport**|This report provides a list of any files and/or folders that currently exceed the 400-character length limit within Office 365. If a customer does not remediate these long path files/folders then the tool will not be able to migrate the files or folder contents.  As noted above, we provide the CommonPathReport to aid customers in finding suitable locations to move the content to, that will ensure that it can be migrated.|
+|**ScanSummaryReport**|This report provides the full list of all users scanned within the Source tenant and captures how many files they own, how much data they own and provides details on the status of each scanned transfer.Though these are all important reports for Managed Migration purposes the three key reports we focus upon are the CommonPathReport, LongPathReport and ScanSummaryReport.|
 
 These reports within the zip file contain enough information for customers to understand their scan but when conducting a Managed Migration we like to provide the customer with a report more tailored and presentable for them to work from.
 
