@@ -89,9 +89,10 @@ Once the file is uploaded verify that any transfers that had a blank for the Des
 
 ## Running the Scan
 
-Before starting all the transfers for a Scan, it is best practice to start one Scan to ensure that both connectors are active and that the Scan runs successfully.
+It is best practice to start one Scan to ensure that both connectors are active and that the Scan runs successfully.
 
-To start one scan, log into the tool, click on Migration Manager.  Select the check box beside the first transfer and then click Start Scan.
+1. To start one scan, log into the tool, then select **Migration Manager**.  
+2. Select the check box beside the first transfer and then select **Start Scan**.
 
 ![Scan start](media/mover-start-scan.png)
  
