@@ -23,9 +23,11 @@ description: How to use the Scan feature as you prepare for your migration using
 
 After you create and authorize your source and destination connectors using Mover, the next step is to run an inventory scan of your content.
 
-## Scanning Source Users
+## Scanning users
 
 A scan of the source tenant determines how many users, files, and how much data each user owns. The scan will also report any user that cannot be accessed on the source connector.
+
+### Source users
 
 From the Transfer Wizard do the following:
  
@@ -33,22 +35,25 @@ From the Transfer Wizard do the following:
 
 ![Transfer wizard connect](media/mover-transfer-wizard-source.png)
  
-An icon appears and this displays how many possible users are available for migrating.
+An icon appears and displays how many possible users are available for migrating.
 
 ![Transfer wizard select source](media/mover-transfer-wizard-2.png)
  
-Do the same action for connecting to your Office 365 Destination connector.
+### Destination users
 
-1. Select destination and then select the Manage button and then click Connect.
+Do the same action for connecting to your Office 365 destination Connector.
+
+1. Select **Destination** > **Manage** > **Connect**.
 
 ![Select destination](media/mover-transfer-wizard-destination.png)
   
 
-An icon appears and this displays how many possible users are available for migrating.
+An icon appears and displays how many possible users are available for migrating.
  
 ![Transfer destination](media/mover-transfer-wizard-destination-2.png)
 
-You will now want to create the Migration.
+
+## You will now want to create the Migration.
 
 Select Continue Migration Setup, and our app moves to the Migration Manager.
 
