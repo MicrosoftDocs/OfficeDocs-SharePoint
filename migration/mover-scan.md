@@ -28,9 +28,13 @@ After you create and autorized your source and destination connectors using Move
 This scan of the source tenant will determine how many users you have, how many files, and how much data that each user owns. This scan will also report any user that cannot be accessed on the source connector.
 
 For your Source connector, within the tool you will want to select Transfer Wizard, 
-Step 1: Select source and then select the Manage button and then click Connect.
+1. Select source and then select the Manage button and then click Connect.
+
+![Transfer wizard connect](media/mover-transfer-wizard-source.png)
  
 An icon appears and this displays how many possible users are available for migrating.
+
+![Transfer wizard select source](media/mover-transfer-wizard-2.png)
  
 You will know want to perform the same actions for connecting to your Office 365 Destination Connector.
 
