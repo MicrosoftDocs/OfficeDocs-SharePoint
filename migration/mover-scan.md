@@ -66,7 +66,6 @@ You will now want to create the Migration.
 
 If any of your Destination users do not have a match and their destination path column is blank, a scan will not be able to run. To correct this, download the Migration Report and create a new CSV file to upload containing no blank entries. 
 
-![Scan report red](media/mover-scan-red.png)
  
 To download the report:
 
