@@ -21,14 +21,14 @@ description: How to use the Scan feature as you prepare for your migration using
 
 # Using the Scan feature in the Mover migration app
 
-After you create and autorized your source and destination connectors using Mover, the next step is to run an inventory scan of your content.
+After you create and authorize your source and destination connectors using Mover, the next step is to run an inventory scan of your content.
 
 ## Scanning Source Users
 
-This scan of the source tenant will determine how many users you have, how many files, and how much data that each user owns. This scan will also report any user that cannot be accessed on the source connector.
+This scan of the source tenant determines how many users you have, how many files, and how much data that each user owns. This scan will also report any user that cannot be accessed on the source connector.
 
 For your Source connector, within the tool you will want to select Transfer Wizard, 
-1. Select source and then select the Manage button and then click Connect.
+1. Select **source** > **Manage** > **Connect**.
 
 ![Transfer wizard connect](media/mover-transfer-wizard-source.png)
  
@@ -36,9 +36,9 @@ An icon appears and this displays how many possible users are available for migr
 
 ![Transfer wizard select source](media/mover-transfer-wizard-2.png)
  
-You will know want to perform the same actions for connecting to your Office 365 Destination Connector.
+Do the same action for connecting to your Office 365 Destination connector.
 
-On Step 2: Select destination and then select the Manage button and then click Connect.
+2. Select destination and then select the Manage button and then click Connect.
 
 ![Select destination](media/mover-transfer-wizard-destination.png)
   
@@ -105,7 +105,7 @@ You will now want to filter on the blanks within column C (Destination Path).  T
 Click on the dropdown Filter arrow and then uncheck all by clicking the (Select All) button and then check (Blanks) > OK.  This will filter only the blank entries in the Destination column.
 
 
-![Scan report dropdown](media/mover-excel-scan-dropdown.png)
+![Scan report dropdown](media/mover-scan-excel-dropdown.png)
 
 
 In the blank cells input No matching user and then click on the Filter arrow again and then select Clear Filter from “Destination Path”.
@@ -146,13 +146,14 @@ You should start seeing the columns for Files Skipped and Data Skipped increasin
 While running a Scan you should expect to see the following Status types
 
 
- Scan Status Type	Comment
-Failed	This status means that the Scan has failed on the Source user and should be scanned again and if it continues to fail, investigation is required.
-Never Run	This status means the Scan has not yet been run.
-Scanning	This status means the Scan is currently running.
-Some Problems	This status means that the Scan completed but encountered some possible errors on the Source and should be scanned again and if it continues to report Some Problems investigation is required.
-Success	This status means the Scan has successfully completed.
-Queued	This status means the Scan is currently queued and will switch to Scanning status once the transfer is picked up on the queue.
+|Scan status type|Comment|
+|:-----|:-----|
+|Failed	|This status means that the Scan has failed on the Source user and should be scanned again and if it continues to fail, investigation is required.|
+|Never Run|	This status means the Scan has not yet been run.|
+|Scanning|	This status means the Scan is currently running.|
+|Some Problems|	This status means that the Scan completed but encountered some possible errors on the Source and should be scanned again and if it continues to report Some Problems investigation is required.|
+|Success|	This status means the Scan has successfully completed.|
+|Queued|This status means the Scan is currently queued and will switch to Scanning status once the transfer is picked up on the queue.|
 
 
 Once the Scan completes the majority of your transfers should turn green (see the examples below).
@@ -231,7 +232,7 @@ We provide the customer with a specific Excel file which we manually create on t
 
 At present, we use the attached Excel template for the Scan Report.
 
-![Excel icon prescan](media/mover-excel-log-prescan.png)
+![Excel icon pre-scan](media/mover-excel-log-prescan.png)
  
 
 When using this template, we advise making a copy and changing the (Client Name) part to the specific customer you are working with.
@@ -254,11 +255,12 @@ In order to populate these columns we will take the data from the ScanSummaryRep
 
 Open the ScanSummaryReport file and then copy the following columns into the [Client Name] Pre-Scan Results sheet.
 
-ScanSummaryReport Columns	Pre-Scan Results Columns
-Status	Status
-Source Path	Source Path
-Files	No. Of Files Scanned
-Data (MB)	Data Scanned (MB)
+|ScanSummaryReport Columns|Pre-Scan Results Columns|
+|:-----|:-----|
+|Status|Status|
+|Source path|Source path|
+|Files|Number of files scanned|
+|Data (MB)|Data scanned (MB)|
 
 Your [Client Name] Pre-Scan Results could look something like the below example.
 
