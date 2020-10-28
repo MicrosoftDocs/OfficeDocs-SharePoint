@@ -96,9 +96,7 @@ It is best practice to start one Scan to ensure that both connectors are active 
 
 ![Scan start](media/mover-start-scan.png)
  
-The transfer will turn from white to blue and the Status column should change from Never run to Queued to Scanning.  
-
-You should start seeing the columns for Files Skipped and Data Skipped increasing in number and size.  This indicates that the Scan for this transfer is running successfully.
+The transfer will turn from white to blue and the Status column changes to **Queued to Scanning.**  The columns for Files Skipped and Data Skipped should increase in number and size.  This indicates that the Scan for this transfer is running successfully.
 
 While running a Scan you should expect to see the following Status types
 
@@ -113,7 +111,7 @@ While running a Scan you should expect to see the following Status types
 |Queued|This status means the Scan is currently queued and will switch to Scanning status once the transfer is picked up on the queue.|
 
 
-Once the Scan completes the majority of your transfers should turn green (see the examples below).
+Once the Scan completes, the majority of your transfers should turn green (see the examples below).
 
 ![Scan example](media/mover-scan-example.png)
 
