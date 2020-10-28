@@ -158,20 +158,19 @@ The zip file contains the following reports:
 |**LongPathReport**|This report provides a list of any files and/or folders that currently exceed the 400-character length limit within Office 365. If a customer does not remediate these long path files/folders then the tool will not be able to migrate the files or folder contents.  As noted above, we provide the CommonPathReport to aid customers in finding suitable locations to move the content to, that will ensure that it can be migrated.|
 |**ScanSummaryReport**|This report provides the full list of all users scanned within the Source tenant and captures how many files they own, how much data they own and provides details on the status of each scanned transfer.Though these are all important reports for Managed Migration purposes the three key reports we focus upon are the CommonPathReport, LongPathReport and ScanSummaryReport.|
 
+###  Creating a customer report
+
 When managing a large migration, it is useful to create a custom report (manually) to work from with your users and stakeholders. 
 
 ![Excel icon pre-scan](media/mover-excel-log-prescan.png)
 
 
-Once you open the Pre-Scan Results file you will see four tabs.
+The Pre-Scan Results file has four tabs:
 
-Pre-Scan Results
-Permission Mapping
-Transfers with Long Path Issues
-Long Path Reduction Suggestions
-
-Below we will discuss how to populate the Pre-Scan Results tabs to provide all the necessary information from the Scan to your customers.
-•	Pre-Scan Results
+- Pre-Scan Results
+- Permission Mapping
+- Transfers with Long Path Issues
+- Long Path Reduction Suggestions
 
 When you open the Pre-Scan Results Excel sheet you will see it is populated with the following columns/information.
 
@@ -179,7 +178,7 @@ When you open the Pre-Scan Results Excel sheet you will see it is populated with
 
 In order to populate these columns we will take the data from the ScanSummaryReport file that was generated in the zip file.  
 
-Open the ScanSummaryReport file and then copy the following columns into the [Client Name] Pre-Scan Results sheet.
+1. Open the ScanSummaryReport file and then copy the following columns into your Pre-Scan results sheet.
 
 |ScanSummaryReport Columns|Pre-Scan Results Columns|
 |:-----|:-----|
@@ -188,17 +187,11 @@ Open the ScanSummaryReport file and then copy the following columns into the [Cl
 |Files|Number of files scanned|
 |Data (MB)|Data scanned (MB)|
 
-Your [Client Name] Pre-Scan Results could look something like the below example.
+Your Pre-Scan results could look something like this:
 
  ![PRe Scan results](media/mover-prescan-results.png)
 
-You will notice the Totals cells for Files and TB are automatically calculated and this provides the total number of files and data scanned for the Source tenant.
-
-As a matter of practice, we prefer to organise the Scan Results by Status, showing the Failed transfers at the top of the Report. 
-
-To do so, highlight all the cells from Column A/Line 2 to Column F/Last Line number (in this example that would be Line 12)
-
-Right click in the highlighted are and then select Sort > Sort A to Z
+The totals for Files and TB are automatically calculated,  giving you the total number of files and data scanned for the Source tenant. As a matter of practice, we prefer to organzie the scan results by status, showing the Failed transfers at the top of the Report. 
 
 ![Scan report sort](media/mover-prescan-results-sort.png) 
 
@@ -206,16 +199,11 @@ This will bring the Failed scans to the top of the list and all other subsequent
 
 ![Scan report fails](media/mover-excel-scan-fails.png)
 
-You will notice that the Destination Path column is currently blank.  At present the ScanSummayReport does not include the details of the Destination Path.  This issue is currently being addressed and future iterations of the ScanSummaryReport will include these details.
+You will notice that the Destination Path column is currently blank.  Currently the *ScanSummayReport* does not include the details of the Destination Path. This issue is currently being addressed and future iterations of the *ScanSummaryReport* will include these details.
 
-As you may recall earlier in the process we used Auto-Discover for mapping our Source and Destination users
-This process allowed us to map the matching users between our Source and Destination connectors.
+As you may recall earlier in the process we used Auto-Discover for mapping our Source and Destination users.  This allowed us to map the matching users between our Source and Destination connectors.  You can now use that information to populate the Destination Path column on the Pre-Scan Report.
 
-Since we used this process, we can then use that information to populate the Destination Path column on the Pre-Scan Report.
-
-To obtain this information we will want to log into the customers account, then click Migration Manager > Migration Actions > Migration Report.
-
-This will download the Migration Report and from this report we will want to copy Columns B (Source) and C (Destination) and Paste those into Columns 
+Download the Migration Report and copy Columns B (Source) and C (Destination) and Paste those into Columns 
 B (Source Path) and C (Destination Path) on the Pre-Scan Results report.
 
 We copy Columns B and C from the Migration Report to ensure that these columns accurately match and map correctly.
@@ -223,12 +211,9 @@ We copy Columns B and C from the Migration Report to ensure that these columns a
 Your Pre-Scan Report should now look like the below example.
 ![Pre scan report](media/mover-excel-scan-fails-2.png)
  
-In the Destination Path column, you will see that all users with a matching Destination account end with /From BoxServiceAccount.
+In the Destination Path column, you will see that all users with a matching Destination account end with /From BoxServiceAccount. This is by design and this appending to the Destination transfers occurs during Auto-Discovery. 
 
-This is by design and this appending to the Destination transfers occurs during Auto-Discovery. 
-
-As when we are migrating into Office 365 Destinations, ALL transfers should have a specific folder in which to migrate the data into.  This is true for both OneDrive and SharePoint transfers and it is something that we agree with the customer before starting the migration.
-
+As when we are migrating into Office 365 Destinations, ALL transfers should have a specific folder in which to migrate the data into.  This is true for both OneDrive and SharePoint transfers and it is something agreed upon with stakeholders before starting the migration.
 
 
 Some other items of note for completing the Pre-Scan tab are as follow:
