@@ -53,23 +53,21 @@ An icon appears and displays how many possible users are available for migrating
 ![Transfer destination](media/mover-transfer-wizard-destination-2.png)
 
 
-## You will now want to create the Migration.
+You will now want to create the Migration.
 
-Select Continue Migration Setup, and our app moves to the Migration Manager.
+1. Select **Continue Migration Setup**.
 
 ![Start transfer](media/mover-start-transfer.png)
   
-The next step creates a user list of those transferring.
-From your newly created migration in the Migration Manager, there are two ways to add users:
-Select Add Users.
+2. Creates a user list of those transferring.  Either select **Add Users** .
 
 ![Add users](media/mover-add-users.png)
  
-Or, select Migration Actions, and then select Add to Migration.
+Or, select **Migration Actions** > **Add to Migration**.
 
 ![Scan migration actions](media/mover-migration-actions.png) 
  
-Select one of two options:
+3. Select either:
 Auto Discover Users.
 1.	Select Automatically Discover and Add Users, and the tool automatically finds your users and attempts to match them up.
  
