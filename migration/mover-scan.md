@@ -146,7 +146,7 @@ Queued	This status means the Scan is currently queued and will switch to Scannin
 
 Once the Scan completes the majority of your transfers should turn green (see the examples below).
 
- 
+![Scan example](media/mover-scan-example.png)
 
 As you will see in the above example, some of the entries for users' files and data are blank.  This usually indicates that this user owns 0 files or data, and these types of users will be discussed in the next section of the document (Planning Migration with Customers).
 
@@ -154,7 +154,7 @@ After the first Scan finishes successfully then it is usually best practice to s
 
 If these return green, then you can click on the select all users radio button just below the Active Filters box and then click Scan Users to queue all other users in this Migration.
 
-
+![Scan active filter](media/mover-active-filter.png)
  
 
 
@@ -169,7 +169,7 @@ During the time the Scan is running, it is expected that you provide a daily ema
 Usually we take a screenshot of the dashboard within the Migration Manager to capture progress.
 
 
- 
+![Dashboard screenshot](media/mover-dash-screenshot.png)
 
 
 Upon the Scans completion we then provide the customer with their Scan Report and we will discuss this in greater detail in the next section.
