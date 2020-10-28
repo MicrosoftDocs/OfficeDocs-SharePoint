@@ -25,10 +25,11 @@ After you create and authorize your source and destination connectors using Move
 
 ## Scanning Source Users
 
-This scan of the source tenant determines how many users you have, how many files, and how much data that each user owns. This scan will also report any user that cannot be accessed on the source connector.
+A scan of the source tenant determines how many users, files, and how much data each user owns. The scan will also report any user that cannot be accessed on the source connector.
 
-For your Source connector, within the tool you will want to select Transfer Wizard, 
-1. Select **source** > **Manage** > **Connect**.
+From the Transfer Wizard do the following:
+ 
+1. Select **Source** > **Manage** > **Connect**.
 
 ![Transfer wizard connect](media/mover-transfer-wizard-source.png)
  
@@ -38,7 +39,7 @@ An icon appears and this displays how many possible users are available for migr
  
 Do the same action for connecting to your Office 365 Destination connector.
 
-2. Select destination and then select the Manage button and then click Connect.
+1. Select destination and then select the Manage button and then click Connect.
 
 ![Select destination](media/mover-transfer-wizard-destination.png)
   
@@ -107,17 +108,13 @@ Click on the dropdown Filter arrow and then uncheck all by clicking the (Select 
 
 ![Scan report dropdown](media/mover-scan-excel-dropdown.png)
 
-
 In the blank cells input No matching user and then click on the Filter arrow again and then select Clear Filter from “Destination Path”.
 
  ![Scan report no matching user](media/mover-excel-no-matching-user.png)
 
-
 ![Scan report filter](media/mover-excel-filter.png)
 
 
-
- 
 
 Once you have filled in the blank cells then save your Excel sheet as a CSV file.  To do so, click File > Save As and from the dropdown menu select CSV (Comma delimited) (*.csv) and click Save.
 
@@ -291,37 +288,19 @@ This is by design and this appending to the Destination transfers occurs during 
 
 As when we are migrating into Office 365 Destinations, ALL transfers should have a specific folder in which to migrate the data into.  This is true for both OneDrive and SharePoint transfers and it is something that we agree with the customer before starting the migration.
 
-The reasons behind why this is an essential practice for Migrations will be discussed in the Planning Migrations with Customers section.
+
 
 Some other items of note for completing the Pre-Scan tab are as follow:
 
-Failed Scans - If you encounter these types of scans then we should provide the customer with the reason for said failures.  To obtain this information we want to review the Migration Error Report.  This can be garnered by logging into the tool, Migration Manager > Migration Actions > Migration Error Report.
+|Issue|Action|
+|:-----|:-----|
+|Failed Scans|If you encounter these types of scans then we should provide the customer with the reason for said failures.  To obtain this information we want to review the Migration Error Report.  This can be garnered by logging into the tool, Migration Manager > Migration Actions > Migration Error Report. This will download the Migration Error Report as a csv, open this file and then locate any failed users from the Scan.  Within this report you will be able to find the reason for failure under the Error Message column. The most common causes for Failed users on a Scan are that the user” cannot be found” or the ”account has been deactivated”. Once you have the Error Messages from the Migration Error Report then copy those against the corresponding Failed User in the Notes Column on the Pre-Scan Results.|
+|Users with files > 400,000|For any user that own more than 400,000 items then you should add a comment of “Large file/data owner” in the Notes column for those users.  Any user with such a large amount of items should be brought to the customers' attention and potentially could be a candidate for splitting up their data into multiple services accounts for the Migration. 
+|Users with data > 5TB|For any user that own more than 5TB of data then you should add a comment of “Large file/data owner” in the Notes column for those users. Any user with such a large amount of data should be brought to the customers' attention and potentially could be a candidate for splitting up their data into multiple services accounts for the Migration.|
+|Users who own 0 files/data|For any user that owns 0 files/data then you should add a comment of “Users owns 0 files/data” in the Notes column for those users. Users who own 0 files can usually be excluded from the Main Migration, as when running a 0 files/data transfer we will not be migrating any data for that user and it adds extra time and resources to a Migration if we are potentially running 100s or 1000s of 0 files/data transfers.|
+|Migrate (Y/N)|The Migrate (Y/N) column is for the customer to mark who they would like to include in the Migration. This does not have to specifically be Y or N as you may be migrating some users in Pilot test for the Migration vs the Main Migration.| 
 
-This will download the Migration Error Report as a csv, open this file and then locate any failed users from the Scan.  Within this report you will be able to find the reason for failure under the Error Message column.
-
-The most common causes for Failed users on a Scan are that the user” cannot be found” or the ”account has been deactivated”.  
-
-Once you have the Error Messages from the Migration Error Report then copy those against the corresponding Failed User in the Notes Column on the Pre-Scan Results.
-
-Users with files > 400,000 – For any user that own more than 400,000 items then you should add a comment of “Large file/data owner” in the Notes column for those users.  
-
-Any user with such a large amount of items should be brought to the customers' attention and potentially could be a candidate for splitting up their data into multiple services accounts for the Migration.
-
-The reasons why we want to consider splitting up large file owners will be discussed in the Planning Migrations with Customers section.
-
-Users with data > 5TB - For any user that own more than 5TB of data then you should add a comment of “Large file/data owner” in the Notes column for those users.  
-
-Any user with such a large amount of data should be brought to the customers' attention and potentially could be a candidate for splitting up their data into multiple services accounts for the Migration.
-
-The reasons why we want to consider splitting up large data owners will be discussed in the Planning Migrations with Customers.
-
-Users who own 0 files/data - For any user that owns 0 files/data then you should add a comment of “Users owns 0 files/data” in the Notes column for those users.  
-
-Users who own 0 files can usually be excluded from the Main Migration, as when running a 0 files/data transfer we will not be migrating any data for that user and it adds extra time and resources to a Migration if we are potentially running 100s or 1000s of 0 files/data transfers.
-
-Migrate (Y/N) - The Migrate (Y/N) column is for the customer to mark who they would like to include in the Migration.  This does not have to specifically be Y or N as you may be migrating some users in Pilot test for the Migration vs the Main Migration.  
-
-Discussing the naming convention for who to migrate can be established with communication with the custome.
+Discussing the naming convention for who to migrate can be established with communication with the customer.
 
 An example of how these comments should look in the Pre-Scan Results tab is provided below.
 
