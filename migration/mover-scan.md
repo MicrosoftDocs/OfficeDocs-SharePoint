@@ -189,7 +189,7 @@ The scan results and the corresponding scan report are essential in aiding you i
 To obtain the Scan Results you want to be log into the customers account on the tool and under Migration Manager select Migration Actions > Scan Reports (zip file).
 
 
-
+![Scan report fails](media/mover-migration-actions-larger.png)
  
 •	
 This will then download a ScanReport-[date] zipped file to your Downloads.
