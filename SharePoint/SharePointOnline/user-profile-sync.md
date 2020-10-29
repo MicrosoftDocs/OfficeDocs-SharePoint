@@ -31,7 +31,7 @@ There are four steps in the sync process.
 
 |Step|Description|
 |:-------|:-------|
-| 1. Azure on-premises to Azure AD | [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) syncs data from on-premises Active Directory to Azure AD. For more info, see [What is hybrid identity with Azure Active Directory?](/azure/active-directory/hybrid/whatis-hybrid-identity) and [Attributes synchronized](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#sharepoint-online).   |
+| 1. AAD Connect to Azure AD | [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) syncs data from on-premises Active Directory to Azure AD. For more info, see [What is hybrid identity with Azure Active Directory?](/azure/active-directory/hybrid/whatis-hybrid-identity) and [Attributes synchronized](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#sharepoint-online).   |
 | 2. Azure AD to SharePoint | Azure AD syncs data from Azure AD to the SharePoint directory store. |
 | 3. SharePoint to UPA | The UPA sync process syncs user account information in SharePoint directory store to the User Profile Application (UPA). |
 | 4. UPA to sites | User account information from the UPA is synced to SharePoint sites (previously called “site collections”). |
