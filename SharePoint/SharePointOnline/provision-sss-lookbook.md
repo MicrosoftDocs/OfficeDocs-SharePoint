@@ -58,9 +58,7 @@ If you already have M365 learning Pathways version 4.0 *or higher* provisioned t
 
     ![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
 
-9.	You will see the SharePoint look book site appear in a new tab. You can close this tab and select the **CustomLearning Administration tab**.
-
-    ![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
+9.	Navigate back to the M365 learning pathways administration page.
 
 10.	Select **Complete** as shown in the following image:
 
@@ -118,7 +116,7 @@ Answer: The Global admin (formerly called the Tenant admin) are required.
 
 **Question: Who has permission to customize the site template?**
 <br>
-Answer: The Global admin (formerly called the Tenant admin,) or Site owner permissions.
+Answer: The Global admin (formerly called the Tenant admin) or Site owner permissions.
 <br>
 
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**
