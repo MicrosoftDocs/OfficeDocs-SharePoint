@@ -19,7 +19,6 @@ description: "Steps to connect to Box when using Migration Manager in the ShareP
 
 # Connect your Box account to Microsoft 365
 
-
 ## Set up a single agent
 
 1. From the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern) and select Box "Get started".
