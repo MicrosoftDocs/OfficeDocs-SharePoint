@@ -41,10 +41,10 @@ The **person** doing the provisioning must be a Global admin (formerly called th
 
 <br>
 
-| SharePoint Global admin role | +  | Admin of the App Catalog | = | Tenant admin requirements met         |
+| Global admin role | +  | Admin of the App Catalog | = | Tenant admin requirements met         |
 | :----------------: | :----------------: |:-------------:|:----------------: | :----------------: |
 
-**Are you a SharePoint Global administrator?**
+**Are you a Global administrator?**
 - **Yes** -  Next, confirm your tenant has already enabled the App Catalog.
 - **No** -  Partner with your M365 Global admin to get the site provisioned. [Learn more about administrative roles in SharePoint](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
 <br>
@@ -173,7 +173,7 @@ Once you’ve confirmed the following, you are ready to provision:
 > [!IMPORTANT]
 > Make sure to select **Complete** to complete the provisioning process.
 
-12. To confirm M365 learning pathways has been successfully provisioned, go to the SharePoint site you provisioned, select **Get Started > Plan your site.** You should see the web part on the page as shown in the following image: 
+12. To confirm the SharePoint Success Site has been successfully provisioned, go to the SharePoint site you provisioned, select **Get Started > Plan your site.** You should see the web part on the page as shown in the following image: 
 
 ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
@@ -220,7 +220,7 @@ Answer: The Global admin (formerly called the Tenant admin) are required.
 
 **Question: Who has permission to customize the site template?**
 <br>
-Answer: The Global admin (formerly called the Tenant admin,) or Site owner permissions.
+Answer: The Global admin (formerly called the Tenant admin) or Site owner permissions.
 <br>
 
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**

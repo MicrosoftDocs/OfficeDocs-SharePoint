@@ -114,7 +114,7 @@ During the migration setup (described later in this guide), you can edit the pat
 
 Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
-![File paths in SPO](media/filepaths-in-sp.png)
+
 
 ## How does library permissions inheritance affect migration?
 
