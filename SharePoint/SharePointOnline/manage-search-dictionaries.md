@@ -77,7 +77,7 @@ After you have done this, you can then use the managed property **companies** to
 <a name="__toc342653324"> </a>
 
 > [!NOTE]
-> Beginning on November 3, 2020, we'll be removing Query Spelling Suggestions (inclusion and exclusion lists) from SharePoint in Microsoft 365. This will only impact you if you have configured Query Spelling Suggestions. Query Spelling Suggestions will be replaced with a native learning platform to provide automatic spelling suggestions across Microsoft Search (initially in SharePoint and Outlook).
+> Beginning on December 8, 2020, we'll be removing Query Spelling Suggestions (inclusion and exclusion lists) from SharePoint in Microsoft 365. This will only impact you if you have configured Query Spelling Suggestions. Query Spelling Suggestions will be replaced with a native learning platform to provide automatic spelling suggestions across Microsoft Search (initially in SharePoint and Outlook).
 
 If you or another user enters a word in a search query that appears to be misspelled, the search results page helps you out by displaying query spelling corrections. These are important words in your indexed documents. This is also known as "Did you mean?".
   
