@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Provision the SharePoint Success Site from the look book"
 ---
 
@@ -33,7 +32,7 @@ Once you confirm the person provisioning *and* the tenant being provisioned meet
 ## Start provisioning from the look book
 If you already have M365 learning Pathways version 4.0 *or higher* provisioned to your tenant, you can provision the SharePoint Success Site from the look book. If you aren't sure what version of M365 learning pathways is installed in your tenant, review the [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites) and then provision the SharePoint Success Site. 
 
-1. Go to the [look book](https://provisioning-test.sharepointpnp.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**.
+1. Go to the [look book](https://lookbook.microsoft.com/details/0b860749-56a0-4c4c-992c-536d56d9accf) and select **Add to your tenant**.
 
    ![Image of the SharePoint Success Site look book page](media/sss-lookbook-add.png)
 
@@ -59,9 +58,7 @@ If you already have M365 learning Pathways version 4.0 *or higher* provisioned t
 
     ![Image of the content pack in the M365 learning pathways admin page](media/sss-content-pack.png)
 
-9.	You will see the SharePoint look book site appear in a new tab. You can close this tab and select the **CustomLearning Administration tab**.
-
-    ![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
+9.	Navigate back to the M365 learning pathways administration page.
 
 10.	Select **Complete** as shown in the following image:
 
@@ -119,7 +116,7 @@ Answer: The Global admin (formerly called the Tenant admin) are required.
 
 **Question: Who has permission to customize the site template?**
 <br>
-Answer: The Global admin (formerly called the Tenant admin,) or Site owner permissions.
+Answer: The Global admin (formerly called the Tenant admin) or Site owner permissions.
 <br>
 
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**

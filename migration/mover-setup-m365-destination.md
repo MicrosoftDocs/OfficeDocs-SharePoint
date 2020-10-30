@@ -35,7 +35,7 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
 2. **Global or SharePoint admin**: In the **Connector** list, find **Office 365**. Select **Authorize**.
 
-    ![Authorize O365](media/authorize-o365.png)
+    ![Authorize O365](media/mover-auth-destination-connector.png)
 
 3. **Global or SharePoint admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Office 365 Connector**.  Select **Authorize**.
 
@@ -55,7 +55,7 @@ Some steps in the authorization process can be completed by a global or SharePoi
 To tighten your security beyond administrators, turn on **User assignment required** from the *Office 365 Mover* app settings in your Azure portal. You need to specifically assign your migrator users who may use the app.
 
 
-    ![user assignment required](media/mover-user-assignment-setting.png)
+![user assignment required](media/mover-user-assignment-setting.png)
 
 5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 

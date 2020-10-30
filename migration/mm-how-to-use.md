@@ -19,14 +19,29 @@ search.appverid: MET150
 description: How to use Migration Manager in the SharePoint Admin center to move your content to Microsoft 365.
 ---
 # Using Migration Manager
-Before you create your first migration task, you must first: 
 
-- [Check your prerequisites and required endpoints](mm-setup-clients.md#prerequisites) 
-- [If you are you on a Government cloud, check your configuration](mm-gov-cloud.md) If you are on an government cloud, make sure your settings are correctly configured before you begin. 
-- [Set up your Migration Manager agent](mm-setup-clients.md#set-up-a-single-agent)
+Migration Manager is located in the modern SharePoint Admin Center, and guides you through the setup of your agents and the creation of your file share migration tasks.  
+
+## Before you begin
+
+Before you create your first migration task, do the following: 
+
+
+|**Check**|**Do**|
+|:-----|:-----|
+|[Prerequisites](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
+|[Required Endpoints](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#required-endpoints)|Review the required Endpoints|
+|[Government cloud](mm-gov-cloud.md)|If you are on a Government cloud, make sure your settings are correctly configured before you begin.|
+|[Set up your Migration Manager agent](mm-setup-clients.md#set-up-a-single-agent)|You can set up as many agents as needed to scale your project.|
+
+
 
 ## Source and destination
-For every migration task you create, you will be prompted for a **source** and a **destination**.  
+For every migration task you create, you will be prompted for a **source** and a **destination**. The credentials that you used to setup your agents have permission to access to any file share you planned to migrate.
+
+- **Source** - This is where your file share content currently exists. File shares include centralized file hosting on a network server or a network drive or shared files or disks on a local computer. Often referred to as a "Z drive" on networked computers, it is a shared drive somewhere on the network.You will need to know the path of the file share and enter using the format:  \\contoso\fileshare.
+
+- **Destination** - The destination is where in Microsoft 365 you are wanting to copy your content. It can be a SharePoint site, OneDrive, or a Teams location. Decide where you want the content to be, and then enter the specific location URL. 
 
 ## Create a migration task
 
@@ -38,7 +53,6 @@ For every migration task you create, you will be prompted for a **source** and a
 5. **Destination**. Enter the SharePoint site, OneDrive or Teams location where you want to migrate your content. 
 6. Select the specific location in your destination Depending on your destination, this could be a document folder or Teams channel. Click **Next**.
 7. In the **Task name** box, enter a friendly name to identify your task. 
-8. Review your settings to make certain they are set correctly for you. Click **Run now**. 
-   </br> To learn more about specific settings, see [Migration Manager settings](mm-settings.md).
+8. Review your settings to make certain they are set correctly for you. Click **Run now**. To learn more about specific settings, see [Migration Manager settings](mm-settings.md).
 9. This task is added to the list. For each file share you want to migrate, select **Add task**.
 

@@ -31,12 +31,12 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 **The SharePoint Success Site consists of three parts:**
 
 1.	**SharePoint communication site** - The site comes [pre-populated with content and web parts](https://docs.microsoft.com/sharepoint/overview-sss#what-comes-with-a-sharepoint-success-site) that can be further customized to fit the needs of your organization.
+
 2.	**Microsoft 365 learning pathways** - [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization..) is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and enable your own training playlists.
+
 3.	**Up-to-date SharePoint training content feed** - Content in the SharePoint Success Site is updated by Microsoft as SharePoint evolves and can be customized to align with your organization's site creation policy.
 
-
-
-![Image of the SharePoint Success Site landing page](media/sss-landing.png)
+   ![Image of the SharePoint Success Site landing page](media/sss-landing.png)
 
 
 ## Before you share the site with end-users
@@ -72,7 +72,6 @@ If you’re not sure your tenant has the site, contact your SharePoint administr
 - Office 365 user permissions or SharePoint Site visitor permissions or higher
 
 
-
 ## Get started customizing
 Once you confirm the necessary access and permission to customize the site, you are ready to get started with the customization process.
 The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll need to sign into Microsoft 365 and then navigate to the site. 
@@ -87,10 +86,7 @@ The SharePoint Success Site is hosted in your Microsoft 365 tenant, so you'll ne
 
 ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
-
 Review the **Plan, Build, Launch and manage, and Advanced** playlist sections to see the full suite of Microsoft curated content available in the SharePoint Success Site.
-
-
 
 ![Image of the SharePoint Success Site landing page, close up of the content controls](media/sss-content-module.png)
 
@@ -102,15 +98,16 @@ Select content categories and subcategories, and then navigate through the playl
 
 ### Customize playlist content 
 
-![Image of the M365 learning pathways, SharePoint success site page](media/m365-lp-sss.png)
+> [!div class="mx-imgBorder"]
+> ![Image of the M365 learning pathways, SharePoint success site page](media/m365-lp-sss.png)
 
 
 **Navigate to the Microsoft 365 learning pathways admin page:**
 
-1. Navigate to the Microsoft 365 learning pathways by selecting **Home > Administration**
-2. Next, select the **gear icon** in the web part
-3. Then, select **Home > Learning pathways administration**
-4. Select the **SharePoint Success Site** tab
+1. Navigate to the Microsoft 365 learning pathways by selecting **Home > Administration**.
+2. Next, select the **gear icon** in the web part.
+3. Then, select **Home > Learning pathways administration**.
+4. Select the **SharePoint Success Site** tab.
 
 **Show or hide sections to the playlist content**
 
@@ -143,17 +140,17 @@ As a Site owner you have full control of the site navigation. Use the following 
 
 ### Customize specific web parts
 
-**1. Yammer conversations web part** - Use a Yammer web part to connect new SharePoint Site owners with extra support from current SharePoint Site owners and admins. Connect your Yammer account to the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
+1. **Yammer conversations web part** - Use a Yammer web part to connect new SharePoint Site owners with extra support from current SharePoint Site owners and admins. Connect your Yammer community to the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations).
 
-![Image of the Yammer conversations web part](media/sss-yammer.png)
+   ![Image of the Yammer conversations web part](media/sss-yammer.png)
 
-**2. People web part** - Edit the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display contact information so new Site owners can reach out for help.
+2. **People web part** - Edit the [People web part](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) to display contact information so new Site owners can reach out for help.
 
-![Image of the People web part](media/sss-people.png)
+   ![Image of the People web part](media/sss-people.png)
 
-**3. Button web part** - Edit the [Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a) to link to a [Microsoft Form](https://support.microsoft.com/office/introduction-to-microsoft-forms-bb1dd261-260f-49aa-9af0-d3dddcea6d69) to collect success stories from Site owners. Consider using the [Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256?ui=en-US&rs=en-US&ad=US) to embed a custom form that allows SharePoint Site owners to easily share their success stories.
+3. **Button web part** - Edit the [Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a) to link to a [Microsoft Form](https://support.microsoft.com/office/introduction-to-microsoft-forms-bb1dd261-260f-49aa-9af0-d3dddcea6d69) to collect success stories from Site owners. Consider using the [Forms web part](https://support.microsoft.com/office/use-the-microsoft-forms-web-part-d4b4d3ce-7860-41e4-8a98-76380efe7256?ui=en-US&rs=en-US&ad=US) to embed a custom form that allows SharePoint Site owners to easily share their success stories.
 
-![Image of the Button web part](media/sss-form.png)
+   ![Image of the Button web part](media/sss-form.png)
 
 #### Customize the Success stories page
 The success stories section is a gallery for organizations to showcase internal SharePoint site success stories to inspire new Site owners with their site creation. 
