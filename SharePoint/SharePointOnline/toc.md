@@ -43,7 +43,7 @@
 ### [Implement site navigation](plan-navigation-modern-experience.md)
 ## [Hubs]()
 ### [Planning](planning-hub-sites.md)
-### [Create hub site](create-hub-site.md)
+### [Create a hub site](create-hub-site.md)
 ### [Remove hub site](remove-hub-site.md)
 ### [Set up site design](set-up-site-design-hub-site.md)
 ## [Lists]()
