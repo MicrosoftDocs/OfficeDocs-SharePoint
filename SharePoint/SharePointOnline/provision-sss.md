@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Provision the SharePoint Success Site"
 ---
 
