@@ -64,4 +64,4 @@ When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, 
 
 For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. Contact Microsoft technical support for information and assistance.
 
-Admins can [open a case with Microsoft technical support](https://go.microsoft.com/fwlink/?linkid=869559) to request beyond 5TB.
+Admins can [open a case with Microsoft technical support](https://go.microsoft.com/fwlink/?linkid=869559) to request storage beyond 5 TB.
