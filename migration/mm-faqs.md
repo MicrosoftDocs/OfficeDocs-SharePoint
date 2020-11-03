@@ -64,3 +64,8 @@ Answer: Yes. We mandate that the data uploaded to SPO provided containers must b
 **Question:**  Will my migration succeed if the temporary storage expires before content migration is complete?</br>
 Answer: Yes. If your migration task was successful, your data will be migrated to SPO even if the temporary storage has expired.
 
+**Question:**  Does running a migration slow down the tenant or impact SharePoint site performance while migrating? </br> 
+Answer:  In general, site performance should not be impacted by running a migration.  There are many factors that prevent this from happening:
+- Migration runs as a background activity and does not compete with end-user traffic
+- SharePoint and OneDrive infrastructure has built-in throttling rules that project the reliability and availability of the system.    To learn more about migration through put and facotrs that impact migration speed, learn more at:  [General migration performance guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+

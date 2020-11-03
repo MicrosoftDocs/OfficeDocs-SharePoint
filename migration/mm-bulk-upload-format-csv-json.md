@@ -17,7 +17,7 @@ search.appverid: MET150
 description: "How to format a CSV or JSON file for bulk upload in Migration Manager"
 ---
 
-# Bulk upload tasks into Migration Mananager using a CSV or JSON file 
+# Bulk upload tasks into Migration Manager using a CSV or JSON file 
 
 There are two different methods available to bulk upload tasks into Migration Manager.  One is using a comma-separated (CSV) file, and the other is to use a JSON file.  
 
@@ -42,8 +42,12 @@ This example shows how it would appear in a .txt file.
 \\MigrationTests\testfiles,,,https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com,Documents,
 ```
 
+[Download sample CSV file]()
+
+
 > [!IMPORTANT]
 >  *Do not*  include a header row in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
+>  The encoding of the CSV file must be UTF-8.
 
   
  **To create a CSV file for data migration**

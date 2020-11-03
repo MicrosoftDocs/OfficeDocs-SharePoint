@@ -2,6 +2,7 @@
 ## File share  migration (Migration Manager)
 ### Migration Manager
 #### [Get started](mm-get-started.md)
+#### [What's new](mm-whats-new.md)
 #### [Set up Migration Manager agents](mm-setup-clients.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)

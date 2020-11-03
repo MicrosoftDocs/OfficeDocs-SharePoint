@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Introduction to the SharePoint Success Site"
 ---
 
@@ -117,7 +116,7 @@ Answer: The Global admin (formerly called the Tenant admin) are required.
 
 **Question: Who has permission to customize the site template?**
 <br>
-Answer: The Global admin (formerly called the Tenant admin,) or Site owner permissions.
+Answer: The Global admin (formerly called the Tenant admin) or Site owner permissions.
 <br>
 
 **Question: Who can create custom playlists and hide or show content in M365 learning pathways?**

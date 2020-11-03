@@ -81,7 +81,7 @@ During the migration setup (described later in this guide), you can edit the pat
 
 Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint Online does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
-![File paths in SPO](media/filepaths-in-sp.png)
+
 
 ### How does library permissions inheritance affect migration?
 
@@ -111,7 +111,7 @@ Microsoft Teams appears and operates the same as a SharePoint Online site.
 
 Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
-SharePoint sites do have file size and number limits, which are covered in detail here: **SharePoint Online limits**.
+SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint Online limits](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
 
@@ -146,11 +146,13 @@ Some steps in the authorization process can be completed by a global or SharePoi
     >[!Warning]
     >If you are a **global admin**, a slightly different login screen appears.  
     >
-    >If you select *Consent on behalf of your organization* during the authentication flow, you will grant admin access to your entire organization. DO NOT do this. To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You will need to specifically assign your migrator users who may use the app.
+    >If you select *Consent on behalf of your organization* during the authentication flow, you will grant admin access to your entire organization. DO NOT do this. 
 
     ![global admin o365](media/permissions-o365-global-admin.png)</br>
 
-    ![user assignment required](media/mover-user-assignment-setting.png)
+To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You will need to specifically assign your migrator users who may use the app.
+
+![user assignment required](media/mover-user-assignment-setting.png)
 
 5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
