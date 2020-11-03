@@ -32,10 +32,7 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |:-----|:-----|
 |[Prerequisites](#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
 |[Required Endpoints](#required-endpoints)|Review the required Endpoints|
-
->[!Important]
->If you have a multi-geo SharePoint tenant, the agent will be installed on the geo location that's set in the admin center for the SharePoint tenant. Before installing the agent, make sure the desired geo location is set in the admin center. </br></br> If you need to change the geo location, you will need to re-install all the existing agents to ensure they are connected to the desired location. </br> </br>Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
-
+|[Multi-geo tenant agent installation](#multi-geo-agent-set-up)| Follow these steps if you want to install an agent and you have a multi-geo tenant.
 
 
 
@@ -124,4 +121,20 @@ Based on the size of the content you want to migrate, you can set up as many age
 >
 >If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
 
-  
+## Multi-geo agent set up
+
+If you have a Multi-Geo SharePoint tenant, the agent will be installed in the geo-location set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. If you need to change an agent's geo-location, delete and re-install the agent. 
+
+Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
+
+To install an agent to a different Geo location:
+
+1. **Download** the agent setup file.
+2. **Launch** the setup file and remain on the *Welcome page*.
+3. **Open** this file:  %temp%\SPMigrationAgentSetup\SPMigrationAgentSetup\Microsoft.SharePoint.Migration.ClientShared.dll.config
+4. Under appSettings, add an entry as shown in the following **example** for the desired country or data center. (Note: this is an example for Canada.) </br>
+
+    *< add key="GeoLocation" value="CAN" / >*
+
+The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide#getting-started)
+
