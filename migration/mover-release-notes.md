@@ -34,11 +34,11 @@ This release fixes these customer issues:
 
 ## Backend v1.19.10 (October 15, 2020)
 
-- When authorizing an Office 365 connector, the links on the authorization page will now point to the new Mover docs at https://docs.microsoft.com/en-us/SharepointMigration/mover-plan-migration
+- When authorizing an Office 365 connector, the links on the authorization page will now point to the new Mover docs at https://docs.microsoft.com/SharepointMigration/mover-plan-migration
 
 ## Frontend v1.19.0 (October 15, 2020) 
 
-- All links to Mover documentation will now point to the Microsoft documentation site: https://docs.microsoft.com/en-us/SharepointMigration/mover-plan-migration
+- All links to Mover documentation will now point to the Microsoft documentation site: https://docs.microsoft.com/SharepointMigration/mover-plan-migration
 
 
 ## Backend v1.19.15 (October 14, 2020)
