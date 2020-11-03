@@ -54,7 +54,7 @@
 ### [Add the SharePoint Success Site](overview-sss.md)
 #### [Overview](overview-sss.md)
 #### [Provision](provision-sss.md)
-#### [Cusomize](customize-sss.md)
+#### [Customize](customize-sss.md)
 ## [Publishing]()
 ### [How page recommendations work](sharepoint_page-recommendations.md)
 ## [Site administration]()
