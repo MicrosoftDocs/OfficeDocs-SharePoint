@@ -17,21 +17,46 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Backend v1.19.17 (November 3, 2020)
+
+- Fix.  When destinations did not support direct upload, transfers from the Agent to the destination would fail. Direct Upload destinations are now detected and handling has been corrected when the destination does not support direct upload.
+
+- Fix.  Added direct uploads to user log filters, both on success and failure. This fixes a defect in logging where Agents using the Direct Upload feature (which is now the default) would not have their log entries included in the user logs. This will enable correct feedback for users of the Agent.
+
 ## Frontend v1.19.1 (October 28, 2020)
 
 This release fixes these customer issues:
 
-- Fix. When editing source or destination path in Migration Manager with lots of items, the side panel would only render up to 100 items and the rest would appear blank. The file picker now displays all content.
+- Fix. When editing a source or destination path in Migration Manager with lots of items, the side panel would only render up to 100 items and the rest would appear blank. The file picker now displays all content.
 
 - Fix.  When a customer entered a certain format for an email account as an admin, the email validation could fail even with a valid email addresses. This has been fixed.
 
 
 ## Backend v1.19.10 (October 15, 2020)
+
 - When authorizing an Office 365 connector, the links on the authorization page will now point to the new Mover docs at https://docs.microsoft.com/en-us/SharepointMigration/mover-plan-migration
 
 ## Frontend v1.19.0 (October 15, 2020) 
 
 - All links to Mover documentation will now point to the Microsoft documentation site: https://docs.microsoft.com/en-us/SharepointMigration/mover-plan-migration
+
+
+## Backend v1.19.15 (October 14, 2020)
+
+- Improvement to ratelimit provider. In general, large migrations should now move faster.
+- Email auth removed. This is no longer supported.
+
+
+## Backend v1.19.14 (October 8, 2020)
+
+- Fix.  Fixed sign up emails to not request a "reply" action since Mover emails are now being sent from a "no-reply" address. Users are now being directed to the public documentation.
+- Fix.  Decreased and in some cases eliminated "failed to load migration" job errors.
+
+
+## Backend v1.19.13 (October 1, 2020)
+
+- Improve stability of the overall system by improving the reliability of our caching systems.
+- Right after creating a migration from Office 365 and into Office 365, if the user tried to auto-discover migration tasks and if it failed to retrieve the source tenant's users and SPO sites, the app would report a strange error.  This has been fixed with a proper error being reported instead.
 
 ## Backend v1.19.11 (September 24, 2020)
 
