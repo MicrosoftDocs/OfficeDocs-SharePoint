@@ -17,9 +17,30 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+## Frontend v1.19.1 (October 28, 2020)
+
+This release fixes these customer issues:
+
+- Fix. When editing source or destination path in Migration Manager with lots of items, the side panel would only render up to 100 items and the rest would appear blank. The file picker now displays all content.
+
+- Fix.  When a customer entered a certain format for an email account as an admin, the email validation could fail even with a valid email addresses. This has been fixed.
+
+
+## Backend v1.19.10 (October 15, 2020)
+- When authorizing an Office 365 connector, the links on the authorization page will now point to the new Mover docs at https://docs.microsoft.com/en-us/SharepointMigration/mover-plan-migration
+
+## Frontend v1.19.0 (October 15, 2020) 
+
+- All links to Mover documentation will now point to the Microsoft documentation site: https://docs.microsoft.com/en-us/SharepointMigration/mover-plan-migration
+
+## Backend v1.19.11 (September 24, 2020)
+
+- Fix.  Some customers were having issues auto-discovering tasks in newly created migrations into Office 365. Customers should now be able to auto-discover tasks. 
+
+
 ## Agent v1.3.5 (September 22, 2020)
 
-A new Agent has been released for all install types. Version 1.3.5 is a required update for all customers. This release updates the pinned certificates used for connecting to Bifrost. As of September 26, 2020, any older Agents will not connect to Bifrost and not be able to transfer files.
+- A new Agent has been released for all install types. Version 1.3.5 is a required update for all customers. This release updates the pinned certificates used for connecting to Bifrost. As of September 26, 2020, any older Agents will not connect to Bifrost and not be able to transfer files.
 
 
 ## Backend v1.19.9 (September 15,2020)
