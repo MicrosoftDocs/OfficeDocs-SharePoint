@@ -32,7 +32,7 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 - **Bulk task validation**. When using a CSV for bulk task creation, Migration Manager validates the initial destination site URL to help users identify any potential issues.
 - **Government cloud**. Migration Manager supports GCCHigh/DoD tenants.
 - **Vanity URL**. Migration manager supports vanity URLs.
-- **Throttling**.Fixed report uploading throttling issue.
+- **Throttling**. Fixed report uploading throttling issue.
 - **Installation issues**. Fixed issues which cause agent installation failure.
 - **General improvements**. General improvements have been made to fix bugs in tool.
 
