@@ -56,11 +56,11 @@ This release fixes these customer issues:
 ## Backend v1.19.13 (October 1, 2020)
 
 - Improve stability of the overall system by improving the reliability of our caching systems.
-- Right after creating a migration from Office 365 and into Office 365, if the user tried to auto-discover migration tasks and if it failed to retrieve the source tenant's users and SPO sites, the app would report a strange error.  This has been fixed with a proper error being reported instead.
+- Right after creating a migration from Office 365 and into Office 365, if the user tried to autodiscover migration tasks and if it failed to retrieve the source tenant's users and SPO sites, the app would report a strange error.  This has been fixed with a proper error being reported instead.
 
 ## Backend v1.19.11 (September 24, 2020)
 
-- Fix.  Some customers were having issues auto-discovering tasks in newly created migrations into Office 365. Customers should now be able to auto-discover tasks. 
+- Fix.  Some customers were having issues autodiscovering tasks in newly created migrations into Office 365. Customers should now be able to autodiscover tasks. 
 
 
 ## Agent v1.3.5 (September 22, 2020)
@@ -158,9 +158,9 @@ Migration Report improvements and bug fixes.
 
 - When authorizing the G Suite Admin source connector, the template showed the prescan warning. As prescan is no longer needed due to its integration into the regular scan and transfer process, the warning from the connector authorization template in the UI has been removed.
 
-- When authorizing or re-authorizing an Office 365 connector, a picker will show accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they are already logged into Microsoft.
+- When authorizing or reauthorizing an Office 365 connector, a picker will show accounts that are currently signed into Microsoft. This improves the user experience as it prevents them from manually entering their credentials if they are already logged into Microsoft.
 
-- A fix has been made to distinguish OneNote notebooks and folders with .one extensions. Previously, when running a transfer from an Office 365 source, folder names with .one extension would fail to transfer the folders' content to the destination as the app would consider it as OneNote notebook.
+- A fix has been made to distinguish OneNote notebooks and folders with ".one" extension. Previously, when running a transfer from an Office 365 source, folder names with .one extension would fail to transfer the folders' content to the destination as the app would consider it as OneNote notebook.
 
 - A fix has been made to correct an issue when signing into Mover. Some users were unable to sign in with their Microsoft account even though authorization seems to have gone fine. The application would redirect them back to the Mover login page after trying to load the UI, without any error messages. This behavior has been fixed; these users can now sign in with their Microsoft accounts.
 
@@ -205,7 +205,7 @@ Exciting new features for migrations out of G Suite and Box.
 ## Frontend & Backend v1.18.0 (June 25, 2020)
 
 - Error reporting improvements
-  - During a migration into Office 365, we would skip processing of source files over 15GB and mark them as successfully skipped. This changed for a while to instead process them and report on the processing errors. While Office 365 supports 100GB files now, migration of files over 15GB is not yet supported. So we have reverted back to the previous approach of skipping files larger than 15GB. Support for 100GB files will be announced once they are fully supported for migrations into Office 365.
+  - During a migration into Office 365, we would skip processing of source files over 15 GB and mark them as successfully skipped. This changed for a while to instead process them and report on the processing errors. While Office 365 supports 100 GB files now, migration of files over 15 GB is not yet supported. So we have reverted back to the previous approach of skipping files larger than 15 GB. Support for 100 GB files will be announced once they are fully supported for migrations into Office 365.
   - When running a migration from a non-existent source directory, the transfer would fail appropriately and the user log would have a yellow row in it. However, this row in the user log would sometimes contain no error message. This has been fixed so that a proper error message is included detailing that the source directory does not exist.
   - During a migration into Office 365, while a file may be uploaded properly, its batch may fail to be submitted for processing. In these cases, the UI would show the file as failed, but the user log would not contain any entries showing that the file failed. This has been fixed by ensuring that there always exists a user log entry per file when a migration job (batch) within a transfer fails to submit.
   - In the Migration Manager table, if there are skips because the file is unsupported on the source or destination, or if we are not allowed to download the file, then it will now show up as a failure and not as a regular incremental skip. Transactions that were mostly successful but only had these unsupported file issues, will end with status code 227 "Some files are unsupported" and the row will appear yellow in the Migration Manager.
@@ -224,7 +224,7 @@ Exciting new features for migrations out of G Suite and Box.
 A new backend release with some stability improvements. We are setting FTP, SFTP, and WebDAV connectors as private due to lack of usage and to focus our product.
 
 - Some users were having problems viewing transfers user logs and scan reports. The files were sometimes being delivered in an intermediate format. This has been fixed by ensuring the files are completely processed before being delivered to users.
-- The FTP, SFTP and WebDAV connectors are marked as private. So users will no longer be able to authorize new connectors of those types. Existing FTP, SFTP and WebDav connectors will continue to work until July 1, 2020. Current users have been notified regarding this via email.
+- The FTP, SFTP, and WebDAV connectors are marked as private. So users will no longer be able to authorize new connectors of those types. Existing FTP, SFTP and WebDav connectors will continue to work until July 1, 2020. Current users have been notified regarding this via email.
 
 ## Frontend v1.16.1.1 (June 1, 2020)
 
@@ -232,9 +232,9 @@ This frontend release focuses on improving accessibility to our application for 
 
 - The option to create a (legacy) Mover account has been removed from the UI. That is, users will now be required to use the "Sign In with Microsoft Account" feature instead. In the future, legacy Mover accounts will not be supported anymore.
 - Improved accessibility in the app for keyboard and screen reader users.
-  - Keyboard users will be able to navigate through all Migration Actions dropdown menu Items in the Migration Manager using the tab key, and the up, down, left and right arrow keys. They will be able to navigate to previously not keyboard-accessible menu items such as the Customize and Reorder columns submenus which allows them to select which columns to display on the table and in what order. In addition to this, screen reader users will get better prompts when interacting with the Migration Actions dropdown menu.
+  - Keyboard users will be able to navigate through all Migration Actions dropdown menu Items in the Migration Manager using the tab key, and the up, down, left and right arrow keys. They will be able to navigate to previously not keyboard-accessible menu items such as the Customize and Reorder columns submenus that allows them to select which columns to display on the table and in what order. In addition to this, screen reader users will get better prompts when interacting with the Migration Actions dropdown menu.
   - Keyboard users will now be able to navigate the Migration Manager table. They will be able to sort the table, open the Transfer Summary side panel for rows, and apply tag filters. Screen reader users will have a much improved experience when interacting with the table, including proper ARIA labels and descriptions for actions they can take on elements on the table.
-  - In the Transfer Wizard, when selecting Authorize New Connector (either source or destination), the Connector Type Picker is now accessible using the keyboard. In addition to this, the Authorize buttons on each connector type now have enhanced ARIA labels that will better inform screen-reader users what the button does.
+  - In the Transfer Wizard, when selecting Authorize New Connector (either source or destination), the Connector Type Picker is now accessible using the keyboard. The Authorize buttons on each connector type now have enhanced ARIA labels that will better inform screen-reader users what the button does.
   - In the Transfer Wizard screen, the connector picker (both source and destination) would show some connector types or connector names truncated on some screen sizes. Tool tips have been added on these items so now users will be able to view the names in full and not just the truncated version.
   - In the Transfer Wizard screen, the Manage/Connect drop down has been improved so the Narrator says the proper text for the correct  button.
   - In the Migration Manager screen, the helper tool tip for Filters will now be automatically be shown when focusing into the "information" icon, which is now accessible by tabbing into it.
