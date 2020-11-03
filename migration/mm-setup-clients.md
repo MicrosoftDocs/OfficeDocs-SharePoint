@@ -123,7 +123,9 @@ Based on the size of the content you want to migrate, you can set up as many age
 
 ## Multi-geo agent set up
 
-If you have a multi-geo SharePoint tenant,  by default the agent will be installed on the geo location that's set in the admin center for the SharePoint tenant. Before installing the agent, make sure the desired geo location is set in the admin center. If you need to change the geo location of an existing agent, you will need to re-install the agent to ensure it is connected to the desired location. </br> </br>Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
+If you have a Multi-Geo SharePoint tenant, the agent will be installed in the geo-location set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. If you need to change an agent's geo-location, delete and re-install the agent. 
+
+Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
 
 To install an agent to a different Geo location:
 
