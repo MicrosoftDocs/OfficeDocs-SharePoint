@@ -114,6 +114,22 @@ We recommend the following best practices as you prepare your environment.
 |**Destination upload folder**|Map an upload/destination folder for uploading the migrated data.|
 |**Review important general considerations**|Make sure to review how Mover handles what gets transfered, synced, permissions, and other best practices here: [Mover Migration FAQ](https://docs.microsoft.com/sharepointmigration/mover-migration-faq)
 
+## Migration performance expections
+
+The more users simultaneously being transferred, the higher our throughput for your migration. We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.
+
+To maximize throughput, users should not own greater than 5TB of data or have greater than 400,00 items. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds.
+
+For example:
+
+If one user owns 10 TB of data, we recommend dividing that between 10 users so that each one owns 1 TB.
+
+The same principle applies for users owning more than 400,000 items, these should also be broken into smaller service accounts to aid with the speed of completing a migration.
+
+If data cannot be broken up, this should not hinder other users from migrating. As a general rule, users with a lot of data require a lot of time to migrate.
+
+
+
 
 ## Migrate process
 
