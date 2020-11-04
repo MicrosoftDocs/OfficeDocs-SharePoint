@@ -46,8 +46,8 @@ Before beginning your migration, it is important that you plan your outcome by p
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
 - Understand the scope of your project, any time restrictions, or deadlines
 - Build your user onboarding into your upfront planning. Communicate early and often with your users about the migration and how it will impact them. Don't wait until the very end to start preparing them for the change.
-- 
-- ## Assess and remediate
+
+## Assess and remediate
 
 Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. 
 
