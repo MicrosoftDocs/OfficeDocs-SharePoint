@@ -116,6 +116,15 @@ We recommend the following best practices as you prepare your environment.
 
 ## Migration performance expections
 
+A lot of factors come into play when determining how long a migration might take. It is not an exact science and one of the basic rules of thumb is that the tool on average moves 1 file per second. So, if a customer has 1 million files it would take 1 million seconds to migrate, which equates to roughly 12 days.
+
+The tool will migrate as fast as possible, but we also must factor in the following which may affect the speed of performance.
+- The distribution of the data (if you have a lot of users who own a lot of file/data these will take longer to complete.
+- The temperament of both the Source and Destination servers (how fast they can download and upload the data).
+- The size of the files (large files will migrate quicker than lots of small files, as it takes more API calls to migrate many small files).
+- Time of day, outwith standard office hours will allow more data to migrate quicker since both Source and Destination tenants tend to be quieter when there is less daily user usage.
+
+
 The more users simultaneously being transferred, the higher our throughput for your migration. We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.
 
 To maximize throughput, users should not own greater than 5TB of data or have greater than 400,00 items. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds.
