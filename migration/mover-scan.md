@@ -129,7 +129,7 @@ Next either drag or drop or Choose a File to Upload to upload the updated CSV Fi
 
 Once the file is uploaded you should now notice that any transfers that had a blank for the Destination Path are now populated with No matching user.  You should now be able to start running the scan for the customer.
 
-Running the Scan
+## Running the Scan
 
 When running a scan, it is best to follow some simple steps.  
 
@@ -227,10 +227,10 @@ When using this template, we advise making a copy and changing the (Client Name)
 
 Once you open the Pre-Scan Results file you will see four tabs.
 
-Pre-Scan Results
-Permission Mapping
-Transfers with Long Path Issues
-Long Path Reduction Suggestions
+- Pre-Scan Results
+- Permission Mapping
+- Transfers with Long Path Issues
+- Long Path Reduction Suggestions
 
 Below we will discuss how to populate the Pre-Scan Results tabs to provide all the necessary information from the Scan to your customers.
 •	Pre-Scan Results
