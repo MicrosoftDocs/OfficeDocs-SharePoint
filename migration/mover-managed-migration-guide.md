@@ -1,5 +1,5 @@
 ---
-title: "Managed migration process guide for use with Mover"
+title: "Managed migration guide for use with Mover"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -16,9 +16,9 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
-description: A guide to help partners managing a customers migration project.
+description: A guide to managing a migration project with the Mover migration tool.
 ---
-# Managing a cloud to cloud migration using Mover
+# Managed migration guide using Mover
 
 This guide was created to share the process and best practices of managing a cloud to cloud migration project using the Mover migration tool. 
 
@@ -40,7 +40,7 @@ Most migrations fall into incremental phases. Proven success factors for migrati
 > See [Mover migration content](https://docs.microsoft.com/en-us/sharepointmigration/mover-plan-migration)
 
 
-## Assessment & Planning
+## Assess & Plan
 Before beginning your migration, it's important you plan your outcome by doing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
 
 - The design of the target environment and the mapping between source and destination.
