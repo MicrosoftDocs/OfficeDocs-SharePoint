@@ -24,6 +24,7 @@ There are two different methods available to bulk upload tasks into Migration Ma
 The entries are manually entered by you into whichever format you choose.  The first row is validated to make sure the destination links are valid. If you receive an invalid destination error, make sure to also check the remainder of your tasks to ensure they have valid destinations. 
   
 ## Using a comma-separated value (CSV) file for bulk upload
+[Download sample CSV file]()
 
 Migration Manager lets you use a comma-separated (CSV) file to bulk migrate your data. Use any text editor, or an application like Excel, to create the CSV file.
   
@@ -41,6 +42,9 @@ This example shows how it would appear in a .txt file.
 \\MigrationTests\testfiles,,,https://contoso.sharepoint.com/sites/sitecollection,Documents,SubFolderName
 \\MigrationTests\testfiles,,,https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com,Documents,
 ```
+
+
+
 
 > [!IMPORTANT]
 >  *Do not*  include a header row in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
