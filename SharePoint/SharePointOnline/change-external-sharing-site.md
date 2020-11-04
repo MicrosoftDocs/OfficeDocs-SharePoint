@@ -26,7 +26,7 @@ description: "Learn how global and SharePoint admins can change the external sha
 
 You must be a global or SharePoint admin in Microsoft 365 to change the external sharing setting for a site (previously called a "site collection"). Site owners are not allowed to change this setting.
   
-Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md).
+Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md). To change the settings for Teams private channel sites, you must use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite).
 
 For detailed information about how to set up guest access for a site, see [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site).
 
@@ -50,7 +50,7 @@ To configure external sharing for a site
 6. If you want to change the default sharing link type, permissions, or expiration setting for this site, clear the **Same as organization-level setting** check box and set the value that you want to use for this site. For more info, see [Change the default sharing link for a site](change-default-sharing-link.md).
 
 7. Select **Save**.
-   
+
 ### Which option to select...
 
 |**Select this option:**|**If you want to:**|
