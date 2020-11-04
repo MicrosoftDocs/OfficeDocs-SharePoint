@@ -26,7 +26,7 @@ description: "Learn how global and SharePoint admins can change the external sha
 
 You must be a global or SharePoint admin in Microsoft 365 to change the external sharing setting for a site (previously called a "site collection"). Site owners are not allowed to change this setting.
   
-Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md).
+Note that this procedure applies to classic sites, communication sites, and new team sites. To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). For info about changing your organization-level settings, see [Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md). To change the settings for Teams private channel sites, you must use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite).
 
 For detailed information about how to set up guest access for a site, see [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site).
 
@@ -35,7 +35,7 @@ To configure external sharing for a site
 1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
     > [!NOTE]
-    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page. See also [Manage sites in the new SharePoint admin center](manage-sites-in-new-admin-center.md).
+    > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
     
 2. In the left column, select a site.
 
@@ -51,8 +51,6 @@ To configure external sharing for a site
 
 7. Select **Save**.
 
-See also [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps).
-   
 ### Which option to select...
 
 |**Select this option:**|**If you want to:**|
