@@ -2,6 +2,20 @@
 
 
 
+## Week of October 26, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/30/2020 | [How to use Migration Manager](/SharepointMigration/mm-how-to-use) | modified |
+| 10/30/2020 | Migration Manager Release notes | removed |
+| 10/30/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 10/30/2020 | [Available settings in SharePoint Migration Tool](/SharepointMigration/spmt-settings) | modified |
+| 10/30/2020 | [Connect to Box with Migration Manager](/SharepointMigration/mm-box-connection) | modified |
+| 10/30/2020 | [Migration Manager settings](/SharepointMigration/mm-settings) | modified |
+| 10/30/2020 | Connect to Box with Migration Manager | removed |
+
+
 ## Week of October 19, 2020
 
 
@@ -73,17 +87,3 @@
 | 9/28/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
 | 9/30/2020 | [Available settings in SharePoint Migration Tool](/SharepointMigration/spmt-settings) | modified |
 | 10/2/2020 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
-
-
-## Week of September 21, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/22/2020 | [Mover Migration Tools overview and planning](/SharepointMigration/mover-plan-migration) | modified |
-| 9/22/2020 | [Mover transfer status codes](/SharepointMigration/mover-transfer-status-codes) | modified |
-| 9/22/2020 | [Authorizing the File share Connector](/SharepointMigration/mover-fileshare) | modified |
-| 9/22/2020 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
-| 9/24/2020 | [Mover transfer status codes](/SharepointMigration/mover-transfer-status-codes) | modified |
-| 9/24/2020 | [Prerequisites and Endpoints for SharePoint Migration Tool](/SharepointMigration/spmt-prerequisites) | modified |
-| 9/24/2020 | [Migrate to SharePoint and OneDrive using PowerShell cmdlets](/SharepointMigration/overview-spmt-ps-cmdlets) | modified |

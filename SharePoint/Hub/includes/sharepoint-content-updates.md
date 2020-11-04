@@ -2,6 +2,24 @@
 
 
 
+## Week of October 26, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/26/2020 | [Planning intranet governance](/SharePoint/intranet-governance) | modified |
+| 10/26/2020 | [Get started planning and implementing SharePoint navigation design](/SharePoint/plan-implement-navigation-design) | modified |
+| 10/26/2020 | [Plan and implement SharePoint site navigation](/SharePoint/plan-navigation-modern-experience) | modified |
+| 10/26/2020 | [How to think about your intelligent intranet](/SharePoint/trad-vs-modern-intranet) | modified |
+| 10/28/2020 | [Implement federated authentication in SharePoint Server](/SharePoint/security-for-sharepoint-server/implement-saml-based-authentication-in-sharepoint-server) | modified |
+| 10/30/2020 | [Customize the SharePoint Success Site](/SharePoint/customize-sss) | modified |
+| 10/30/2020 | [Manage search dictionaries](/SharePoint/manage-search-dictionaries) | modified |
+| 10/30/2020 | [Introduction to the SharePoint Success Site](/SharePoint/overview-sss) | modified |
+| 10/30/2020 | [Provision the SharePoint Success Site from the look book](/SharePoint/provision-sss-lookbook) | modified |
+| 10/30/2020 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
+| 10/30/2020 | [View search usage reports](/SharePoint/view-search-usage-reports) | modified |
+
+
 ## Week of October 19, 2020
 
 
@@ -171,15 +189,3 @@
 | 10/2/2020 | [Introduction to the SharePoint Success Site](/SharePoint/overview-sss) | modified |
 | 10/2/2020 | [Provision the SharePoint Success Site from the look book](/SharePoint/provision-sss-lookbook) | modified |
 | 10/2/2020 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
-
-
-## Week of September 21, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/24/2020 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
-| 9/24/2020 | [Customize the SharePoint Success Site](/SharePoint/customize-sss) | modified |
-| 9/24/2020 | [Introduction to the SharePoint Success Site](/SharePoint/overview-sss) | modified |
-| 9/24/2020 | [Provision the SharePoint Success Site from the look book](/SharePoint/provision-sss-lookbook) | modified |
-| 9/25/2020 | [Engage audiences with workplace communication](/SharePoint/workplace-communications) | modified |

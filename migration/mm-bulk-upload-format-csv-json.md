@@ -42,6 +42,9 @@ This example shows how it would appear in a .txt file.
 \\MigrationTests\testfiles,,,https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com,Documents,
 ```
 
+[Download sample CSV file]()
+
+
 > [!IMPORTANT]
 >  *Do not*  include a header row in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
 >  The encoding of the CSV file must be UTF-8.
