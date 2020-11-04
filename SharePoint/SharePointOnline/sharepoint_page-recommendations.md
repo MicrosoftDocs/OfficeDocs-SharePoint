@@ -25,6 +25,9 @@ SharePoint recommendations on modern pages help you and your users discover page
 
 ![Recommendations](media/PageRecommendationsDocs.png)
 
+> [!NOTE]
+> This feature is in an early release phase, and is not yet available to all users.
+
 Recommendations are shown on all newly-created pages and news posts by default.
 
 ## How are recommendations determined for each user?
