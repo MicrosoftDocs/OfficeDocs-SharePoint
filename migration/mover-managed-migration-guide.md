@@ -65,10 +65,10 @@ Using the results from your inventory scan, assess and remediate in the followin
 |**Size and amount of files/data**|Get an accurate count of the number of files and the size.|This number will be the most accurate, as it will not include items in the trash, or externally shared data. Do not rely on your cloud provider's reporting to give you an accurate picture. Use this information to more clearly define migration timeline and length of time required for the migration.|
 
 >[!Important]
->The Mover app only copies files/folders/data owned by users within the source tenant. Mover does NOT migrate external shared data, email or items residing in the trash.
->External Shared data - The external owner of that data will need to re-share that data.
->Email - Customer would need to find a service that migrates email since the tool cannot
->Trash - Customer should communicate to their user base that items in the trash can not be moved and to ensure they check items in trash and if needed reclaim from trash for migration.
+>The Mover app only copies files/folders/data owned by users within the source tenant. Mover does NOT migrate external shared data, email or items residing in the trash.</br></br>
+>**External Shared data** - The external owner of that data will need to re-share that data.</br></br>
+>**Email** - Customer would need to find a service that migrates email since the tool cannot.</br></br>
+>**Trash** - Customer should communicate to their user base that items in the trash can not be moved and to ensure they check items in trash and if needed reclaim from trash for migration.</br></br>
 
 
 ### Scope and timeline
