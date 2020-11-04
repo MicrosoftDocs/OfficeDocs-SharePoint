@@ -46,6 +46,30 @@ Before beginning your migration, it is important that you plan your outcome by p
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
 - Understand the scope of your project, any time restrictions, or deadlines
 - Build your user onboarding into your upfront planning. Communicate early and often with your users about the migration and how it will impact them. Don't wait until the very end to start preparing them for the change.
+- 
+- ## Assess and remediate
+
+Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. 
+
+### Inventory scan
+
+You or your customer might have a relative idea of how many users are in their source domain and how many they might want to migrate. However, it is important to get an accurate count of the user base by running an **Inventory Scan.**  This scan will let you know how many users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover.](mover-scan.md) 
+
+Using the results from your inventory scan, assess and remediate in the following areas:
+
+|Scan result area|Assess|Remediate|
+|:-----|:-----|:-----|
+|**Data ownership**|How many users are in the domain and who owns the data|Most data will be shared data.  Only owned folders and the root files for each user is copied. If a user does not own any data then consider excluding them from the migration.  Any content that was shared to them will be migrated by the data owner and re-shared to those users in the Destination during the migration process. Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before. |
+|**Data distribution**|Find all accounts that exceed 5TB or 400,000 files or items.|Split these accounts into into smaller service accounts. **We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.**|
+|**File and folder path length**|Find all items whose path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your customer to reorganize the file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
+|**Size and amount of files/data**|Get an accurate count of the number of files and the size.|This number will be the most accurate, as it will not include items in the trash, or externally shared data. Do not rely on your cloud provider's reporting to give you an accurate picture. Use this information to more clearly define migration timeline and length of time required for the migration.|
+
+>[!Important]
+>The Mover app only copies files/folders/data owned by users within the source tenant. Mover does NOT migrate external shared data, email or items residing in the trash.
+>External Shared data - The external owner of that data will need to re-share that data.
+>Email - Customer would need to find a service that migrates email since the tool cannot
+>Trash - Customer should communicate to their user base that items in the trash can not be moved and to ensure they check items in trash and if needed reclaim from trash for migration.
+
 
 ### Scope and timeline
 The most common question from customers is “How long will the migration take?”. While the Mover app is one of the fastest ways to migrate data, the migration speed can be impacted by many factors, including: 
@@ -77,28 +101,6 @@ Before, during, and after a migration, it is critical to communicate clearly and
 **IT Helpdesk/Support staff** — If your organization is large enough to have specific support staff for other employees, they must understand each step of the migration and how to help troubleshoot many of the questions that might arise.
 
 
-## Assess and remediate
-
-Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. 
-
-### Inventory scan
-
-You or your customer might have a relative idea of how many users are in their source domain and how many they might want to migrate. However, it is important to get an accurate count of the user base by running an **Inventory Scan.**  This scan will let you know how many users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover.](mover-scan.md) 
-
-Using the results from your inventory scan, assess and remediate in the following areas:
-
-|Scan result area|Assess|Remediate|
-|:-----|:-----|:-----|
-|**Data ownership**|How many users are in the domain and who owns the data|Most data will be shared data.  Only owned folders and the root files for each user is copied. If a user does not own any data then consider excluding them from the migration.  Any content that was shared to them will be migrated by the data owner and re-shared to those users in the Destination during the migration process. Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before. |
-|**Data distribution**|Find all accounts that exceed 5TB or 400,000 files or items.|Split these accounts into into smaller service accounts. **We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.**|
-|**File and folder path length**|Find all items whose path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your customer to reorganize the file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
-|**Size and amount of files/data**|Get an accurate count of the number of files and the size.|This number will be the most accurate, as it will not include items in the trash, or externally shared data. Do not rely on your cloud provider's reporting to give you an accurate picture. Use this information to more clearly define migration timeline and length of time required for the migration.|
-
->[!Important]
->The Mover app only copies files/folders/data owned by users within the source tenant. Mover does NOT migrate external shared data, email or items residing in the trash.
->External Shared data - The external owner of that data will need to re-share that data.
->Email - Customer would need to find a service that migrates email since the tool cannot
->Trash - Customer should communicate to their user base that items in the trash can not be moved and to ensure they check items in trash and if needed reclaim from trash for migration.
 
 
 
