@@ -16,7 +16,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Introduction to the SharePoint Success Site"
 ---
 

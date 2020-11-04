@@ -80,8 +80,9 @@ Before beginning your migration, it is important that you perform an analysis of
 
 You or your customer might have a relative idea of how many users are in their source domain and how many they might want to migrate. However, it is important to get an accurate count of the user base by running an **Inventory Scan.**  This scan will let you know how many users are in the domain and help determine who owns the data. To learn more, see [Running a migration inventory scan with Mover.](mover-scan.md) 
 
+Using the results from your inventory scan, assess and remediate in the following areas:
 
-| |**Assess**|**Remediate**|
+|Scan result area|Assess|Remediate|
 |:-----|:-----|:-----|
 |**Data ownership**|How many users are in the domain and who owns the data|Most data will be shared data.  Only owned folders and the root files for each user is copied. If a user is not the owner of the data, is is not copied. Content can be automatically re-shared after it is migrated so that each user has access to their content exactly as before. |
 |**Data distribution**|Find all accounts that exceed 5TB or 400,000 files or items.|Split these accounts into into smaller service accounts. **We highly recommend that users with very large data sets be broken into smaller accounts to facilitate faster transfers.**|
