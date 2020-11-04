@@ -181,5 +181,5 @@ Develop a plan for sending communications to your user base, providing clear sta
 - [OneDrive and SharePoint adoption resources](https://fasttrack.microsoft.com/office365/resourcehub): including customizable posters and templates to generate internal awareness and excitement
 - [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1) video training
 - [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec) Quick start training guides: get up and running quickly with the basic info you need to be productive right away
-- [Microsoft 365 Learning Pathways:] customizable product training experience for end user readiness
+- [Microsoft 365 Learning Pathways:](https:/aka/ms/m365lp) customizable product training experience for end user readiness
 
