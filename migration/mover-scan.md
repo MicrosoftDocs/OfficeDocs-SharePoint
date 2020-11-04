@@ -157,7 +157,7 @@ The zip file contains the following reports:
 |**LongPathReport**|This report provides a list of any files and/or folders that currently exceed the 400-character length limit within Office 365. If a customer does not remediate these long path files/folders then the tool will not be able to migrate the files or folder contents.  As noted above, we provide the CommonPathReport to aid customers in finding suitable locations to move the content to, that will ensure that it can be migrated.|
 |**ScanSummaryReport**|This report provides the full list of all users scanned within the Source tenant and captures how many files they own, how much data they own and provides details on the status of each scanned transfer.Though these are all important reports for Managed Migration purposes the three key reports we focus upon are the CommonPathReport, LongPathReport and ScanSummaryReport.|
 
-###  Creating a customer report
+### Creating a customer report
 
 When managing a large migration, it is useful to create a custom report (manually) to work from with your users and stakeholders. 
 
@@ -170,6 +170,10 @@ The Pre-Scan Results file has four tabs:
 - Permission Mapping
 - Transfers with Long Path Issues
 - Long Path Reduction Suggestions
+
+Below we will discuss how to populate the Pre-Scan Results tabs to provide all the necessary information from the Scan to your customers.
+
+**Pre-Scan Results**
 
 When you open the Pre-Scan Results Excel sheet you will see it is populated with the following columns/information.
 
