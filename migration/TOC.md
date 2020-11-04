@@ -118,6 +118,8 @@
 ##### [Error messages](mover-error-faq.md)
 ##### [Account FAQ](mover-account-faq.md)
 ##### [Mover Migration FAQ](mover-migration-faq.md)
+### Mover managed migration guide
+#### [Mover managed migration guide](mover-managed-migration-guide.md)
 ## [Migrate to Microsoft 365 using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to Microsoft 365 using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance
