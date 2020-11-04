@@ -34,7 +34,7 @@ Most migrations fall into incremental phases. Proven success factors for migrati
 > See [Mover migration content](https://docs.microsoft.com/en-us/sharepointmigration/mover-plan-migration)
 
 
-## Planning
+## Assessment Planning
 Before beginning your migration, it is important that you plan your outcome by performing an assessment of your current source environment. What you discover will influence your overall strategy and timing, including:
 
 - The design of the target environment and the mapping between source and destination.
@@ -46,8 +46,6 @@ Before beginning your migration, it is important that you plan your outcome by p
 - The amount of content you migrate. Determine if content is redundant, out of date, or still relevant.
 - Understand the scope of your project, any time restrictions, or deadlines
 - Build your user onboarding into your upfront planning. Communicate early and often with your users about the migration and how it will impact them. Don't wait until the very end to start preparing them for the change.
-
-## Assess and remediate
 
 Before beginning your migration, it is important that you perform an analysis of your current environment. Only you know your data and how and who uses it. 
 
@@ -158,5 +156,5 @@ Develop a plan for sending communications to your user base, providing clear sta
 - [OneDrive and SharePoint adoption resources](https://fasttrack.microsoft.com/office365/resourcehub): including customizable posters and templates to generate internal awareness and excitement
 - [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1) video training
 - [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec) Quick start training guides: get up and running quickly with the basic info you need to be productive right away
-- Microsoft 365 Learning Pathways: customizable product training experience for end user readiness
+- [Microsoft 365 Learning Pathways:] customizable product training experience for end user readiness
 
