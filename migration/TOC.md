@@ -106,6 +106,7 @@
 ##### [Review your users](mover-review-users.md)
 ##### [Review your permission map](mover-review-permission-map.md)
 ##### [Upload a permission map (optional)](mover-upload-permission-map.md)
+##### [Disable email notifications](mover-disable-emails.md)
 ##### [Mover migration manager](mover-mm.md)
 ####  [Running the migration](mover-running-migration.md)
 ####  [Reports](mover-reports.md)

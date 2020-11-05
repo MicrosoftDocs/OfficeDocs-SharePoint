@@ -71,7 +71,7 @@ Using the results from your inventory scan, assess and remediate in the followin
 >[!Important]
 >The Mover tool only copies files/folders/data owned by users within the source tenant. The tool does NOT migrate external shared data, email or items residing in the trash.</br></br>
 >**External Shared data** - The external owner of that data will need to re-share that data.</br>
->**Email** - The Mover tool does not migrate email. For help finding a service that migrates email, see see [FastTrack migrations](https://docs.microsoft.com/fasttrack/data-migration#migration-to-exchange-online)</br>
+>**Email** - The Mover tool does not migrate email. For help finding a service that migrates email, see [FastTrack migrations](https://docs.microsoft.com/fasttrack/data-migration#migration-to-exchange-online)</br>
 >**Trash** - Customer should communicate to their user base that items in the trash can not be moved and to ensure they check items in trash and if needed reclaim from trash for migration.</br>
 
 
@@ -116,7 +116,7 @@ We recommend the following best practices as you prepare your environment.
 |:------|:-----|
 |**Source connectors**|Each source has a specific process and caveats to be aware of when authoring and creating your connector. Learn more about your source connector here: [Setup your source](https://docs.microsoft.com/sharepointmigration/mover-box) |
 |**Account setup** |As manager of the project, retain ownership of the migration account.  This ensures that only those running the migration have control of the migration, including running, monitoring, and maintaining the migration. |
-|**Disable mail notifications**|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.|
+|**Disable mail notifications**|Disable all migration notification emails to avoid getting spammed.  Otherwise, you and your customers will receive test emails regarding transfers, failures, progress, etc.  Learn more: [Disable email notifications](https://docs.microsoft.com/sharepointmigration/mover-disable-emails)|
 |**Destination upload folder**|Map an upload/destination folder for uploading the migrated data.|
 |**Review important general considerations**|Make sure to review how the tool handles what gets transfered, synced, permissions, and other best practices here: [Mover Migration FAQ](https://docs.microsoft.com/sharepointmigration/mover-migration-faq)
 
