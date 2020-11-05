@@ -20,7 +20,7 @@ One of the first activities you want to carry out before starting a migration is
 
 **To turn off email notifications**
 
-1. Sign into the respective account, and then click on the username in the top right-hand corner.
+1. Log into the tool, and then click on the username in the top right-hand corner.
 2. Select **Preferences** and check **Never**.
 
 >![Disable email notifications](media/mover-disable-emails.png)
