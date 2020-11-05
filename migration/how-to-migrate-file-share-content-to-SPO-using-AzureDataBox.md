@@ -19,17 +19,43 @@ localization_priority: Normal
 description: "Learn how to migrate your file share content to SharePoint in Microsoft 365 by using the Azure Data Box"
 ---
 
-# Migrate your file share content to SharePoint using the Azure Data Box
+# Migrate your file share content to Microsoft 365 using the Azure Data Box
 
-Use your Azure Data Box and the SharePoint Migration Tool (SPMT) to migrate file share content to Microsoft 365. By using the Data Box, you can remove dependency on your WAN link to transfer the data.  
+The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy terabytes of data from your servers to the device. After shipping it back to Microsoft, your data is copied into Azure.
 
-The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy terabytes of data from your servers to the device. After shipping it back to Microsoft, your data is copied into Azure. Depending on the size of data you intend to transfer, you can choose from:
+This article specifically talks about how to use the Azure Data Box to migrate your file share content to SharePoint in Microsoft 365. 
+
+## Is Azure Data Box right for my migration?
+
+Most of our large enterprise customers do not use Azure Data Box to migrate to OneDrive and SharePoint. Those enterprise customers with more than 500 TB of data have achieved the desired throughput by effectively using multiple computers and using tools such as [Migration Manager](mm-get-started.md).
+
+The most important thing to understand when deciding if you should use Azure Data Box is your migration's current bottleneck. We recommend running a performance test using multiple computers. Use a test size that will push your migration boundaries so that you can adequately evaluate your bottleneck. Unfortunately, customers often attempt a test pilot that is too small and fail to see accurate results.
+
+Another factor to consider is the added complexity involved in using the Azure Data Box. After loading the data onto the Data Box, you have to allow for the delay caused by shipment time before the data can be copied into an Azure file share. Then you still need to perform the same migration steps as you would if you hadn't used it.
+
+**Wrong reasons for using Data Box:**
+
+- I have a large amount of data
+- I ran a test with one computer, and it was not fast enough
+
+**Correct Reasons for using Data box**
+
+- My data is in a remote location with very poor connectivity to Microsoft 365
+- My source is very low on resources, and I can scale up my migration by using the Azure Data Box
+
+To learn more about our migration performance, see [General migration performance guidance.](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+
+##  Migrate your file share content using Azure Data Box
+
+You can use your Azure Data Box and the SharePoint Migration Tool (SPMT) to migrate file share content to Microsoft 365. By using the Data Box, you can remove dependency on your WAN link to transfer the data. 
+ 
+Depending on the size of data you intend to transfer, you can choose from:
 
 - [Data Box Disk](https://docs.microsoft.com/azure/databox/data-box-disk-overview) with 35-TB usable capacity per order for small-to-medium datasets.
 - [Data Box](https://docs.microsoft.com/azure/databox/data-box-overview) with 80-TB usable capacity per device for medium-to-large datasets.
 - [Data Box Heavy](https://docs.microsoft.com/azure/databox/data-box-heavy-overview) with 770-TB usable capacity per device for large datasets.
 
-This article specifically talks about how to use the Data Box to migrate your file share content to SharePoint in Microsoft 365.  
+ 
 
 ## Requirements and costs
 
