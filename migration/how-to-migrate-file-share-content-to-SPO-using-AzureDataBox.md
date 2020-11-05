@@ -43,7 +43,7 @@ Another factor to consider is the added complexity involved in using the Azure D
 - My data is in a remote location with very poor connectivity to Microsoft 365
 - My source is very low on resources, and I can scale up my migration by using the Azure Data Box
 
-To learn more about our migration performance, see [General migration performance guidance.](https://docs.microsoft.com/en-us/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+To learn more about our migration performance, see [General migration performance guidance.](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
 
 ##  Migrate your file share content using Azure Data Box
 
