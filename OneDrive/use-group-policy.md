@@ -23,12 +23,12 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
-description: "In this article, you'll learn how to use Group Policy to administer settings for the OneDrive sync app."
+description: "In this article, you'll learn about the OneDrive Group Policy objects (GPOs) and how to configure the OneDrive sync app by using Group Policy."
 ---
 
 # Use Group Policy to control OneDrive sync settings
 
-This article is for IT admins who manage the new OneDrive sync app in a Windows Server enterprise environment that uses Active Directory Domain Services (AD DS).
+This article describes the OneDrive Group Policy objects (GPOs) that admins can configure by using Group Policy or by using [administrative templates in Microsoft Intune](configure-sync-intune.md). You can use the registry key info in this article to confirm that a setting is enabled.
   
 > [!NOTE]
 > If you're not an IT admin, see [Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) for info about OneDrive sync settings.
@@ -91,6 +91,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
  
+- [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
+
 - [Limit the sync app download speed to a fixed rate](use-group-policy.md#limit-the-sync-app-download-speed-to-a-fixed-rate)
 
 - [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
@@ -232,6 +234,29 @@ If you disable or do not configure this setting, users can choose to limit the u
 
 Enabling this policy sets the following registry key value to 1.
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\OneDrive]"EnableAutomaticUploadBandwidthManagement"="dword:00000001"
+
+### Exclude specific kinds of files from being uploaded
+
+This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case sensitive. 
+
+If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In File Explorer, the files appear with an "Excluded from sync" icon in the Status column. The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
+
+![The "Excluded from sync" icon in File Explorer](media/excluded-from-sync.png)
+
+Users will also see a message in the OneDrive activity center that explains why the files aren't syncing. 
+
+!["Your admin has excluded these file types from syncing" message](media/excluded-files.png)
+
+> [!NOTE]
+> To upload skipped files to OneDrive, users can go to OneDrive on the web. We recommend that users remove the local file after doing this because having a file with the same name in the same folder will result in a sync conflict with the ignored file. 
+
+If you disable or do not configure this setting, all supported files in all synced folders will be uploaded. 
+
+Enabling this policy sets the following registry key value to 1
+HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreListFromGPO ="dword:00000001"
+
+> [!NOTE]
+> This setting lets you block a wider range of files than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also with this setting, users won't see errors for blocked files.
   
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
