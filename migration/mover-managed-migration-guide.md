@@ -71,7 +71,7 @@ Using the results from your inventory scan, assess and remediate in the followin
 >[!Important]
 >The Mover tool only copies files/folders/data owned by users within the source tenant. The tool does NOT migrate external shared data, email or items residing in the trash.</br></br>
 >**External Shared data** - The external owner of that data will need to re-share that data.</br>
->**Email** - The Mover tool does not migrate email. For help finding a service that migrates email, see see [FastTrack migrations](https://docs.microsoft.com/fasttrack/data-migration#migration-to-exchange-online)</br>
+>**Email** - The Mover tool does not migrate email. For help finding a service that migrates email, see [FastTrack migrations](https://docs.microsoft.com/fasttrack/data-migration#migration-to-exchange-online)</br>
 >**Trash** - Customer should communicate to their user base that items in the trash can not be moved and to ensure they check items in trash and if needed reclaim from trash for migration.</br>
 
 
