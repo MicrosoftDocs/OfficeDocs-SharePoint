@@ -16,10 +16,11 @@ description: "How to disable email notifications in Mover to avoid spamming user
 # Disable email notifications
 
 
-One of the first activities you want to carry out is to turn off all email notifications for Migration.  This will ensure that your customers are not spammed with status emails regarding transfers, failures and progress.
+One of the first activities you want to carry out before starting a migration is to turn off all email notifications.  This will ensure that your customers are not spammed with status emails regarding transfers, failures and progress.
 
-To turn off email notifications, log into the respective account and then click on the username in the top right-hand corner.
+To turn off email notifications
 
- Then select Preferences and check the Never option.
+1. Sign into the respective account, and then click on the username in the top right-hand corner.
+2. Select **Preferences** and check **Never**.
 
 >![Disable email notifications](media/mover-disable-emails.png)
