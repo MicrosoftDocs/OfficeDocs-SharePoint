@@ -24,6 +24,7 @@ description: "In this article, you will learn how to format a JSON or CSV file f
 
 # How to format your JSON or CSV for data content migration
 
+The SharePoint Migration tool (SPMT) lets you bulk upload your migration task information using either a JSON file or a CSV file.  This is especially helpful if you are creating a large number of tasks.
   
 ## Using a comma separated value (CSV) file for data content migration
 
