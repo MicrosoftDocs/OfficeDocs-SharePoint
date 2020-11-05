@@ -13,6 +13,8 @@ localization_priority: Normal
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration
+- m365solution-scenario
+- m365solution-spintranet
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
