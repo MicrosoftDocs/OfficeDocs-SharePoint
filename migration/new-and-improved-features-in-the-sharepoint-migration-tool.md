@@ -26,10 +26,20 @@ Learn about the new features and updates to existing features in SharePoint Migr
 
 Download and install SPMT using one of the links listed below.  
 
-||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
+| Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.120.4](https://aka.ms/spmt-beta-page)|[3.4.120.2](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.120.5](https://aka.ms/spmt-beta-page)|[3.4.120.5](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|
 
+
+## SPMT 3.4.120.5
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
 
 ## SPMT 3.4.120.4
 

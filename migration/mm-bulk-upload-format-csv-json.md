@@ -25,6 +25,7 @@ The entries are manually entered by you into whichever format you choose.  The f
   
 ## Using a comma-separated value (CSV) file for bulk upload
 
+
 Migration Manager lets you use a comma-separated (CSV) file to bulk migrate your data. Use any text editor, or an application like Excel, to create the CSV file.
   
  **CSV file format**
@@ -42,7 +43,7 @@ This example shows how it would appear in a .txt file.
 \\MigrationTests\testfiles,,,https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com,Documents,
 ```
 
-[Download sample CSV file]()
+
 
 
 > [!IMPORTANT]

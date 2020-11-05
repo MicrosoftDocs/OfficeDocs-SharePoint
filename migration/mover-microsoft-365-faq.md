@@ -56,6 +56,8 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 
 ## What metadata is preserved in migrations into Office 365?
 
+>[!Note]
+>In the table below, **File modified date** refers to when the file was modified on the storage provider, not when it was last modified by the user on their computer.
 
 |Source Connector|Creation date|Created by user|File modified date|Last modified by (user)|Folder permissions|Notes|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
