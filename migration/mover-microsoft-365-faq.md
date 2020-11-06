@@ -76,7 +76,7 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 |OneDrive for Business (Single user)|Yes|Yes|*Read clarification note below|Yes|No||
 
 >[!Important]
->**File modified date** clarification
+>Clarification regarding **File modified date**.</br>
 >Our tool sets the "File modified date" in Office 365 based on the metadata provided by the "Update" column on the storage provider. It is not when it was last modified by the user on their computer.
 
 ## Does the Mover app interact with the sync client in OneDrive for Business?
