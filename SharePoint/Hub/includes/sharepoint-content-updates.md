@@ -2,6 +2,28 @@
 
 
 
+## Week of November 02, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/2/2020 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
+| 11/4/2020 | [Change the external sharing setting for a site](/SharePoint/change-external-sharing-site) | modified |
+| 11/4/2020 | [How SharePoint page recommendations are generated](/SharePoint/sharepoint_page-recommendations) | modified |
+| 11/4/2020 | [Configure site mailboxes in SharePoint Server](/SharePoint/administration/configure-site-mailboxes-in-sharepoint) | modified |
+| 11/5/2020 | [Branding your SharePoint site](/SharePoint/branding-sharepoint-online-sites-modern-experience) | modified |
+| 11/5/2020 | [SharePoint governance overview](/SharePoint/governance-overview) | modified |
+| 11/5/2020 | [Set up a home site for your organization](/SharePoint/home-site) | modified |
+| 11/5/2020 | [Information architecture models and examples](/SharePoint/information-architecture-models-examples) | modified |
+| 11/5/2020 | [Introduction to SharePoint information architecture](/SharePoint/information-architecture-modern-experience) | modified |
+| 11/5/2020 | [Information architecture principals in SharePoint](/SharePoint/information-architecture-principles) | modified |
+| 11/5/2020 | [Get started planning and implementing SharePoint navigation design](/SharePoint/plan-implement-navigation-design) | modified |
+| 11/5/2020 | [Plan and implement SharePoint site navigation](/SharePoint/plan-navigation-modern-experience) | modified |
+| 11/5/2020 | [Creating and launching a healthy SharePoint portal](/SharePoint/portal-health) | modified |
+| 11/5/2020 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
+| 11/5/2020 | [Engage audiences with workplace communication](/SharePoint/workplace-communications) | modified |
+
+
 ## Week of October 26, 2020
 
 
@@ -175,17 +197,3 @@
 | 10/5/2020 | [Video demo of Zero Downtime Patching in SharePoint Server 2016](/SharePoint/upgrade-and-update/video-demo-of-zero-downtime-patching-in-sharepoint-server-2016) | modified |
 | 10/5/2020 | [Modernize your root site](/SharePoint/modern-root-site) | modified |
 | 10/6/2020 | [Manage sharing settings](/SharePoint/turn-external-sharing-on-or-off) | modified |
-
-
-## Week of September 28, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/28/2020 | [Create an organization assets library](/SharePoint/organization-assets-library) | modified |
-| 9/29/2020 | [Modernize your root site](/SharePoint/modern-root-site) | modified |
-| 10/1/2020 | [deprecation of site mailboxes](/SharePoint/deprecation-of-site-mailboxes) | modified |
-| 10/2/2020 | [Customize the SharePoint Success Site](/SharePoint/customize-sss) | modified |
-| 10/2/2020 | [Introduction to the SharePoint Success Site](/SharePoint/overview-sss) | modified |
-| 10/2/2020 | [Provision the SharePoint Success Site from the look book](/SharePoint/provision-sss-lookbook) | modified |
-| 10/2/2020 | [Provision the SharePoint Success Site](/SharePoint/provision-sss) | modified |
