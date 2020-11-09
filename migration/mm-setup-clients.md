@@ -112,11 +112,13 @@ Based on the size of the content you want to migrate, you can set up as many age
 3. Run the setup file on each VM or windows computer you plan on using to run migration tasks on.
 
 >[!NOTE]
-> Migration Manager automatically assigns tasks to a available agent, it does the load balancing for you. You cannot manually assign a task to a specific agent.
+> Migration Manager automatically assigns tasks to a available agent.  You cannot manually assign a task to a specific agent. Each agent can have up to 10 tasks in its queue.
 >
 >Pausing a task does not release the agent to another task. An agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted.
 
->[!Note]
+
+
+>[!Important]
 >The connection between the agent and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
 >
 >If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
