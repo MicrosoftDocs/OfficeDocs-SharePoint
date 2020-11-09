@@ -26,9 +26,43 @@ Learn about the new features and updates to existing features in SharePoint Migr
 
 Download and install SPMT using one of the links listed below.  
 
-||**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
+| Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.120.2](https://aka.ms/spmt-beta-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.120.5](https://aka.ms/spmt-beta-page)|[3.4.120.5](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|[3.4.120.1](https://aka.ms/spmt-ga-page)|
+
+
+## SPMT 3.4.120.5
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+## SPMT 3.4.120.4
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+
+## SPMT 3.4.120.3
+
+The following improvements were added to this release:
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
 
 
 ## SPMT 3.4.120.2
@@ -165,7 +199,7 @@ The following features were added in this release:
 
 |**Issue**|**Fix**|
 |:----|:-----|
-|Group mapping|Improvements have been made to the support of SharePoint group mapping.|
+|Group mapping|SPMT now migrates default SharePoint groups. Note: You cannot map to other groups.|
 
 
 
@@ -201,7 +235,7 @@ The following features were added to the SharePoint Migration Tool in this relea
 |:-----|:-----|
 |User feedback|Users can now provide feedback directly from the tool.|
 |Site creation for file shares|Site structure creation is now supported for file share migration.|
-|Records management|Support for SharePoint Server migration of Record libraries.|
+|Records management|Support for SharePoint Server migration of Record libraries with limitations. Library record declaration settings are supported for SharePoint Server 2013 and 2016 only. Files declared as records can be migrated directly. Site collection record declarations settings are not supported for SharePoint Online group sites and communication sites.|
 |Enable publishing|Users can now choose to skip enabling publishing feature on SharePoint communication site| 
 |Setting|New setting allows you to not migrate the site and list general settings in a single list migration.| 
 |Setting|New SharePoint setting, "Migrate site settings". Choose if you want to migrate site logo, title, description and other general settings). Default value is on. If it's turned off, the setting will be skipped when migrating to existing destination site in site migration.| 

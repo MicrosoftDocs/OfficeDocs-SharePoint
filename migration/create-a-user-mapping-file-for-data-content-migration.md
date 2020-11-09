@@ -89,5 +89,7 @@ After you create your own user-mapping file, upload it to the SharePoint Migrati
 
 9. Select **Save**.
 
-> [!NOTE]
-> It is not possible to map an AD group to a SharePoint group in the target site.  Currently it is also not possible to map a SharePoint group to a SharePoint group in SPMT.
+> [!Important]
+> SPMT only migrates default SharePoint groups.</br></br>It is not possible to map an AD group to a SharePoint group in the target site. You cannot map a SharePoint Server group to a SharePoint group with SPMT.
+
+

@@ -2,6 +2,7 @@
 ## File share  migration (Migration Manager)
 ### Migration Manager
 #### [Get started](mm-get-started.md)
+#### [What's new](mm-whats-new.md)
 #### [Set up Migration Manager agents](mm-setup-clients.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)
@@ -105,6 +106,7 @@
 ##### [Review your users](mover-review-users.md)
 ##### [Review your permission map](mover-review-permission-map.md)
 ##### [Upload a permission map (optional)](mover-upload-permission-map.md)
+##### [Disable email notifications](mover-disable-emails.md)
 ##### [Mover migration manager](mover-mm.md)
 ####  [Running the migration](mover-running-migration.md)
 ####  [Reports](mover-reports.md)
@@ -117,6 +119,8 @@
 ##### [Error messages](mover-error-faq.md)
 ##### [Account FAQ](mover-account-faq.md)
 ##### [Mover Migration FAQ](mover-migration-faq.md)
+### Mover managed migration guide
+#### [Mover managed migration guide](mover-managed-migration-guide.md)
 ## [Migrate to Microsoft 365 using PowerShell](overview-SPMT-PS-cmdlets.md)
 ## [Migrate to Microsoft 365 using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance

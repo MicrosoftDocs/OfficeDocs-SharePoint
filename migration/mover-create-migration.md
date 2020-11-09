@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 description: "Mover - Create a new migration"
 ---
-# Creating a new migration
+# Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
