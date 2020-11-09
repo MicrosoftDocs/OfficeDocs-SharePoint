@@ -76,8 +76,12 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 |OneDrive for Business (Single user)|Yes|Yes|*Read clarification note below|Yes|No||
 
 >[!Important]
->Clarification regarding **File modified date**.</br></br>
->Our tool sets the **File modified date** in Office 365 based on the time the file was updated in the storage provider’s servers. It is not when it was last modified by the user on their computer.
+>Clarification regarding **File modified date**</br></br>
+>Our tool sets the **File modified date** in Office 365 based on the time the file was updated in the storage provider’s servers; *not the metadata timestamp uploaded with the document from your local computer.*
+>
+>Each cloud provider may refer to the server modified timestamp slightly differently.  For example, Box refers to the server modified timestamp as "Updated" in its UI and the user modified timestamp as "Modified".  Check with your provider to confirm how they refer to these fields.
+
+ 
 
 ## Does the Mover app interact with the sync client in OneDrive for Business?
 
