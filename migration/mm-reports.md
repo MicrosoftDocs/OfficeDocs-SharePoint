@@ -14,6 +14,7 @@ mscollection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
+description: "Learn about the reports available when using Migration Manager in Microsoft 365."
 ---
 
 # Using the Migration Manager Reports
