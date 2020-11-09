@@ -151,4 +151,6 @@ You can also find help on security and permissions in these [YouTube videos from
   
 [Searching for site content shared externally](/office365/securitycompliance/keyword-queries-and-search-conditions)
 
+[Configure Teams with three tiers of protection](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)
+
 [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
