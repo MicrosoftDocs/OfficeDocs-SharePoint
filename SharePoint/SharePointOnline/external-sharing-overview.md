@@ -154,3 +154,5 @@ You can also find help on security and permissions in these [YouTube videos from
 [Configure Teams with three tiers of protection](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)
 
 [Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
+
+[Settings interactions between Microsoft 365 Groups, Teams and SharePoint](https://docs.microsoft.com/microsoft-365/solutions/groups-sharepoint-teams-governance)
