@@ -54,7 +54,7 @@ These reports can be viewed while the migration is taking place or after the job
 
 ## Download detailed task reports
 
-To view a deatiled list of files that were not migrated and the reason why they weren't, run the following Powershell cmdlet.
+To view a detailed list of files that were not migrated and the reason why they weren't, run the following Powershell cmdlet.
 
 1. [Download the powershell script](https://spmtreleasescus.blob.core.windows.net/download/ReportAggregator.zip) and extract the files.
 2. **Run** *aggregatereports.ps1*. You will be prompted for your tenant credentials.
