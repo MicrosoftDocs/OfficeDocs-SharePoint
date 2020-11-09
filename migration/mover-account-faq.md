@@ -108,14 +108,14 @@ You may, however, delete your account — losing the schedules, connector author
 
 ## How do I check my transfer usage?
 
-Checking your usage of our app lets you know the total number of gigabytes you have transfered over the history of your account.
+Checking your usage of our app lets you know the total number of gigabytes you have transferred over the history of your account.
 
 To check your transfer data usage, follow these steps.
 
 1. Log in. To visit your **Account** settings, in the top right corner of our app, select **account email**.
 2. By default, you are already in the **Plan** section.
 
-## How do I add an adminstrator to a Mover account?
+## How do I add an administrator to a Mover account?
 
 To add an Administrator to your Mover account: 
 1. Log in to your account 

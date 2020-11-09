@@ -78,7 +78,7 @@ The following Agents operate using a command line interface versus a user interf
 
 The Agent works with files and folders. All users who are separated into their own folders can easily be mapped to their new location in Office 365.
 
-A good example would be a large listing of home drives. Each home drive for a user could be transfered to their respective new user in Office 365.
+A good example would be a large listing of home drives. Each home drive for a user could be transferred to their respective new user in Office 365.
 
 ![Agent view users](media/windows-view-users.png)
 
