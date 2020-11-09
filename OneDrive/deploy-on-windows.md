@@ -173,7 +173,7 @@ odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-www
 ```
 
 > [!NOTE]
-You will need Client Side Object Model (CSOM) knowledge if you want to automate quering the team site to determine the appropriate siteId, webId and listId to build the appropriate URL. 
+You will need Client Side Object Model (CSOM) knowledge if you want to automate querying the team site to determine the appropriate siteId, webId, and listId to build the appropriate URL. 
 
 
 
@@ -218,4 +218,3 @@ For more info, see [Create Android applications with Configuration Manager](/con
 [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
  
-
