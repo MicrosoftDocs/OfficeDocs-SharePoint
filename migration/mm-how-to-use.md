@@ -56,3 +56,6 @@ For every migration task you create, you will be prompted for a **source** and a
 8. Review your settings to make certain they are set correctly for you. Click **Run now**. To learn more about specific settings, see [Migration Manager settings](mm-settings.md).
 9. This task is added to the list. For each file share you want to migrate, select **Add task**.
 
+>[!Note]
+>Each agent can have up to 10 tasks in its queue.
+
