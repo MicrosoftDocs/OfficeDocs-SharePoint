@@ -1,5 +1,5 @@
 ---
-title: "Information architecture principals in SharePoint"
+title: "Information architecture principles in SharePoint"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
