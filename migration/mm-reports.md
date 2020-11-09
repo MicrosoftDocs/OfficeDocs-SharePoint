@@ -14,6 +14,7 @@ mscollection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
+description: "Learn about the reports available when using Migration Manager in Microsoft 365."
 ---
 
 # Using the Migration Manager Reports
@@ -49,6 +50,15 @@ These reports can be viewed while the migration is taking place or after the job
  
 1. Select one or more completed tasks from the list. Click **Summary report**.
 2. An aggregate summary report will be downloaded to your computer.
+
+
+## Download detailed task reports
+
+To view a deatiled list of files that were not migrated and the reason why they weren't, run the following Powershell cmdlet.
+
+1. [Download the powershell script](https://spmtreleasescus.blob.core.windows.net/download/ReportAggregator.zip) and extract the files.
+2. **Run** *aggregatereports.ps1*. You will be prompted for your tenant credentials.
+3.  The report will be found in the same folder as the PowerShell cmdlet.
 
 
 ## Summary Report
