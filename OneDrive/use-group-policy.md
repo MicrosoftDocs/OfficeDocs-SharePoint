@@ -248,7 +248,7 @@ Users will also see a message in the OneDrive activity center that explains why 
 !["Your admin has excluded these file types from syncing" message](media/excluded-files.png)
 
 > [!NOTE]
-> To upload skipped files to OneDrive, users can go to OneDrive on the web. We recommend that users remove the local file after doing this because having a file with the same name in the same folder will result in a sync conflict with the ignored file. 
+> Users can still browse to their OneDrive in a web browser to upload an excluded file from their local OneDrive folder. We recommend that users remove the local file after doing this because having a file with the same name in the same folder will result in a sync conflict with the skipped file. 
 
 If you disable or do not configure this setting, all supported files in all synced folders will be uploaded. 
 
@@ -256,7 +256,7 @@ Enabling this policy sets the following registry key value to 1
 HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreListFromGPO ="dword:00000001"
 
 > [!NOTE]
-> This setting lets you block a wider range of files than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also with this setting, users won't see errors for blocked files.
+> This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also with this setting, users don't see errors for the excluded files.
   
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
