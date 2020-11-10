@@ -56,6 +56,7 @@ These reports can be viewed while the migration is taking place or after the job
 
 To download task level reports, run the following Powershell cmdlet.
 
+
 1. [Download the powershell script](https://spmtreleasescus.blob.core.windows.net/download/ReportAggregator.zip) and extract the files.
 2. **Run** *aggregatereports.ps1*. You will be prompted for your tenant credentials.
 3.  The aggregated report zip file will be found in the same folder as the PowerShell cmdlet.
