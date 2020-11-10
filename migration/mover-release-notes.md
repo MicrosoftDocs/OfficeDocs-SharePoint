@@ -17,6 +17,12 @@ description: "Mover Release Notes"
 
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
+
+## Backend v1.19.8 (November 10, 2020)
+- Retrieval attempts of SharePoint Online sites for Office 365 connectors have been enhanced and expanded.
+- Migration job limits have been adjusted, resulting in improved reliability for transfers going into Office 365.
+
+
 ## Backend v1.19.17 (November 3, 2020)
 
 - Fix.  When destinations did not support direct upload, transfers from the Agent to the destination would fail. Direct Upload destinations are now detected and handling has been corrected when the destination does not support direct upload.
