@@ -18,8 +18,11 @@ description: "Mover Release Notes"
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
 
-## Backend v1.19.8 (November 10, 2020)
-- Retrieval attempts of SharePoint Online sites for Office 365 connectors have been enhanced and expanded.
+## Backend v1.19.18 (November 10, 2020)
+
+- Fix. Images included in Box notes are now correctly transferred and rendered in Microsoft Word.  
+- Fix. The metadata "Created time" is now correctly getting migrated when running a transfer from Google to Office 365.
+- Retrieval attempts of SharePoint Online sites for an Office 365 connector have been enhanced and expanded.
 - Migration job limits have been adjusted, resulting in improved reliability for transfers going into Office 365.
 
 
