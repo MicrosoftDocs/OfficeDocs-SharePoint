@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
+- m365solution-spcomms
 ms.custom:
 - seo-marvel-may2020
 search.appverid:

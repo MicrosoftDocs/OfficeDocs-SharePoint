@@ -2,6 +2,32 @@
 
 
 
+## Week of November 02, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/2/2020 | [Migrate to SharePoint and OneDrive using PowerShell cmdlets](/SharepointMigration/overview-spmt-ps-cmdlets) | modified |
+| 11/2/2020 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
+| 11/2/2020 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
+| 11/2/2020 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 11/3/2020 | [Create a user-mapping file for data content migration](/SharepointMigration/create-a-user-mapping-file-for-data-content-migration) | modified |
+| 11/3/2020 | [How to format a CSV or JSON file for bulk upload in Migration Manager](/SharepointMigration/mm-bulk-upload-format-csv-json) | modified |
+| 11/3/2020 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 11/3/2020 | [Mover Migration Tools overview and planning](/SharepointMigration/mover-plan-migration) | modified |
+| 11/3/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 11/3/2020 | [Mover Release Notes](/SharepointMigration/mover-release-notes) | modified |
+| 11/4/2020 | [How to format a CSV or JSON file for bulk upload in Migration Manager](/SharepointMigration/mm-bulk-upload-format-csv-json) | modified |
+| 11/5/2020 | [Format JSON or CSV for data content migration - SharePoint](/SharepointMigration/how-to-format-your-csv-file-for-data-content-migration) | modified |
+| 11/5/2020 | [How to format a CSV or JSON file for bulk upload in Migration Manager](/SharepointMigration/mm-bulk-upload-format-csv-json) | modified |
+| 11/5/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 11/5/2020 | [Mover - Create a new migration](/SharepointMigration/mover-create-migration) | modified |
+| 11/5/2020 | [Managed migration guide for use with Mover](/SharepointMigration/mover-managed-migration-guide) | modified |
+| 11/5/2020 | [Mover Microsoft 365 Migration FAQ](/SharepointMigration/mover-microsoft-365-faq) | modified |
+| 11/5/2020 | [Migrate your file share content to SharePoint using the Azure Data Box](/SharepointMigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox) | modified |
+| 11/5/2020 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
+
+
 ## Week of October 26, 2020
 
 
@@ -77,13 +103,3 @@
 | 10/8/2020 | [Migrate your file share content to SharePoint using the Azure Data Box](/SharepointMigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox) | modified |
 | 10/8/2020 | [Mover migration - Authorizing Office 365](/SharepointMigration/mover-setup-m365-destination) | modified |
 | 10/9/2020 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
-
-
-## Week of September 28, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/28/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
-| 9/30/2020 | [Available settings in SharePoint Migration Tool](/SharepointMigration/spmt-settings) | modified |
-| 10/2/2020 | [Migrate to Microsoft 365](/SharepointMigration/migrate-to-sharepoint-online) | modified |
