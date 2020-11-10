@@ -14,6 +14,7 @@ ms.collection:
 - Strat_OD_share
 - M365-collaboration
 - m365solution-spintranet
+- m365solution-scenario
 search.appverid:
 - SPO160
 - MET150
