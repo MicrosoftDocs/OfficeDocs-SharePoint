@@ -52,13 +52,13 @@ These reports can be viewed while the migration is taking place or after the job
 2. An aggregate summary report will be downloaded to your computer.
 
 
-## Download detailed task reports
+## Download detailed task level reports via PowerShell
 
-To view a detailed list of files that were not migrated and the reason why they weren't, run the following Powershell cmdlet.
+To download task level report, run the following PowerShell cmdlet.
 
 1. [Download the powershell script](https://spmtreleasescus.blob.core.windows.net/download/ReportAggregator.zip) and extract the files.
 2. **Run** *aggregatereports.ps1*. You will be prompted for your tenant credentials.
-3.  The report will be found in the same folder as the PowerShell cmdlet.
+3.  The aggregated report zip file will be found in the same folder as the PowerShell cmdlet.
 
 
 ## Summary Report
