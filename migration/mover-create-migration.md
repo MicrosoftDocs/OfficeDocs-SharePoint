@@ -19,7 +19,7 @@ Select **Continue Migration Setup**, and our app moves to the **Migration Manage
 
 ![Create migration](media/create-migration.png)
 
-The next step creates a user list of those transfering.
+The next step creates a user list of those transferring.
 
 From your newly created migration in the **Migration Manager**, there are two ways to add users:
 

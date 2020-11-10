@@ -34,5 +34,6 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 - **Vanity URL**. Migration manager supports vanity URLs.
 - **Throttling**. Fixed report uploading throttling issue.
 - **Installation issues**. Fixed issues which cause agent installation failure.
+- **Report aggregator**.  Detailed task reports can be generated to list files that were not migrated and why.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports)
 - **General improvements**. General improvements have been made to fix bugs in tool.
 
