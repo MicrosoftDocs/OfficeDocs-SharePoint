@@ -32,7 +32,6 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 - **Bulk task validation**. When using a CSV for bulk task creation, Migration Manager validates the first destination site URL to help users identify any potential issues.
 - **Government cloud**. Migration Manager supports GCCHigh/DoD tenants.
 - **Vanity URL**. Migration manager supports vanity URLs.
-- **Throttling**. Fixed report uploading throttling issue.
 - **Installation issues**. Fixed issues which caused common agent installation failure.
 - **Report aggregator**.  Detailed task level reports can be generated via a PowerShell cmdlet.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports)
 - **General improvements**. Overall fit and finish to improve your experience.

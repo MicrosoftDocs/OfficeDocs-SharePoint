@@ -1,5 +1,5 @@
 ---
-title: "Information architecture principals in SharePoint"
+title: "Information architecture principles in SharePoint"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -13,7 +13,8 @@ localization_priority: Priority
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
-- enabler-strategic
+- m365solution-spintranet
+- m365solution-scenario
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
