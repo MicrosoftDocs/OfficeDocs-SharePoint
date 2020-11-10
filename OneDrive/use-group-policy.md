@@ -284,7 +284,7 @@ If you disable or do not configure this setting, users can choose to limit the u
 ### Prevent the sync app from generating network traffic until users sign in
 <a name="PreventNetworkTraffic"> </a>
 
-This setting lets you block the OneDrive sync app (OneDrive.exe) from generating network traffic (checking for updates, an so on) until users sign in to OneDrive or start syncing files on their computer.
+This setting lets you block the OneDrive sync app (OneDrive.exe) from generating network traffic (checking for updates, and so on) until users sign in to OneDrive or start syncing files on their computer.
   
 If you enable this setting, users must sign in to the OneDrive sync app on their computer, or select to sync OneDrive or SharePoint files on the computer, for the sync app to start automatically.
   
@@ -632,7 +632,7 @@ We recommend that you use this setting in cases where Files On-Demand is NOT ena
 
 If you enable this setting, enter the rate (from 1 to 100000) in the **Bandwidth** box. The maximum rate is 100000 KB/s. Any input lower than 50 KB/s sets the limit to 50 KB/s, even if the UI shows a lower value.
 
-If you disable or do not configure this setting, the download rate is unlimited, and users can choose to limit it in OneDrive sync app settings. For info about the end user experience, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
+If you disable or do not configure this setting, the download rate is unlimited, and users can choose to limit it in OneDrive sync app settings. For info about the end-user experience, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
 
 Enabling this policy sets the following registry key value to a number from 50 through 100,000. For example:
   
@@ -652,7 +652,7 @@ This setting lets you configure the maximum speed at which the OneDrive sync app
 
 If you enable this setting and enter the rate (from 1 to 100000) in the **Bandwidth** box, computers use the maximum upload rate that you specify, and users are not able to change it in OneDrive settings. The maximum rate is 100000 KB/s. Any input lower than 50 KB/s sets the limit to 50 KB/s, even if the UI shows a lower value.
 
-If you disable or do not configure this setting, users can choose to limit the upload rate to a fixed value (in KB/second), or set it to "Adjust automatically" which sets the upload rate to 70% of  throughput. For info about the end user experience, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
+If you disable or do not configure this setting, users can choose to limit the upload rate to a fixed value (in KB/second), or set it to "Adjust automatically" which sets the upload rate to 70% of  throughput. For info about the end-user experience, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
 
 We recommend that you use this setting only in cases where strict traffic restrictions are required. In scenarios where you need to limit the upload rate (such as when you roll out Known Folder Move), we recommend enabling [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput) to set a limit that adjusts to changing conditions. You should not enable both settings at the same time.
 
@@ -690,7 +690,7 @@ If you disable this setting, users can change the location of their sync folder 
 
 This setting lets you block users from signing in with a Microsoft account to sync their personal OneDrive files. By default, users are allowed to sync personal OneDrive accounts.
   
-If you enable this setting, users are prevented from setting up a sync relationship for their personal OneDrive account. Users who are already syncing their personal OneDrive when you enable this setting aren't able to continue syncing (a message appears stating that syncing has stopped), but any files synced to the computer remain on the computer.
+If you enable this setting, users are prevented from setting up a sync relationship for their personal OneDrive account. Users who are already syncing their personal OneDrive when you enable this setting aren't able to continue syncing (they receive a message that syncing has stopped), but any files synced to the computer remain on the computer.
 
 Enabling this policy sets the following registry key value to 1.
   
