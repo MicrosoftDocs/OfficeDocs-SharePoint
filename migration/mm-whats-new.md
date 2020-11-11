@@ -23,7 +23,13 @@ description: "Learn about the new features and updates to existing features in M
 We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.   
 
 You can help us improve Migration Manager by sending us your suggestions and reporting bugs you encounter. At the bottom of this page, click the Feedback button.
-  
+
+## Coming soon
+
+- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users will be able to specify pre-defined characters to replace invalid characters. 
+- **Select a Teams as a destination**. Users will be able to select a Teams team and the channel as the migration destination.
+- **Select a OneDrive email as a destination**. Users will be able to input a OneDrive email address as the migration destination. This is in addition to the existing ability to specifiy a OneDrive location by the URL.
+
   
 ## Current features through October 2020 
 
