@@ -25,4 +25,4 @@ organization
 ---
 # Set up an intranet for your global organization
 
-If your organization has team members in multiple locations around the world, there are a couple of considerations to take into account when building your intranet. For example, some countries require user data to physically reside within that country. In this scenario, you can set up a multi-geo tenant.
+If your organization has team members in multiple locations around the world, there are a couple of considerations to take into account when building your intranet. For example, some countries require user data to physically reside within that country. In this example, you can set up a multi-geo tenant.
