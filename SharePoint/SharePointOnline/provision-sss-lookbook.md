@@ -88,7 +88,7 @@ To add owners or members to both sites:
 5. In the sharing message, include a link to **Explore the site**. Then select **Share**.
 
 
-### Site provisioning help
+## Site provisioning help
 
 - For provisioning help, see [troubleshooting](https://docs.microsoft.com/office365/customlearning/feedback). 
 - See Microsoft 365 learning pathways [FAQs](https://docs.microsoft.com/office365/customlearning/faq).
@@ -96,7 +96,7 @@ To add owners or members to both sites:
 
 
 
-### Frequently asked questions
+## Frequently asked questions
 
 **Can I provision from the Microsoft 365 learning pathways admin page?**
 
