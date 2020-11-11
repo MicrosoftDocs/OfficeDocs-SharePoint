@@ -27,13 +27,12 @@ You can help us improve Migration Manager by sending us your suggestions and rep
   
 ## Current features through October 2020 
 
-- **Task limits**. Users can create up to 50,000 separate migration tasks.
-- **Usability**. Users can filter, sort, and perform searches on their migration tasks.
-- **Bulk task validation**. When using a CSV for bulk task creation, Migration Manager validates the initial destination site URL to help users identify any potential issues.
+- **Increased bulk task upload limits**. Users can create up to 50,000 separate migration tasks. This is an increase from the previous limit of 5,000 tasks in the bulk file.
+- **Task management**. Users can filter, sort, and perform searches on their migration tasks.
+- **Bulk task validation**. When using a CSV for bulk task creation, Migration Manager validates the first destination site URL to help users identify any potential issues.
 - **Government cloud**. Migration Manager supports GCCHigh/DoD tenants.
 - **Vanity URL**. Migration manager supports vanity URLs.
-- **Throttling**. Fixed report uploading throttling issue.
-- **Installation issues**. Fixed issues which cause agent installation failure.
-- **Report aggregator**.  Detailed task reports can be generated to list files that were not migrated and why.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports)
-- **General improvements**. General improvements have been made to fix bugs in tool.
+- **Installation issues**. Fixed issues which caused common agent installation failure.
+- **Report aggregator**.  Detailed task level reports can be generated via a PowerShell cmdlet.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports)
+- **General improvements**. Overall fit and finish to improve your experience.
 
