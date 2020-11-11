@@ -36,7 +36,7 @@ Total path length for folder and filename combinations can have up to 400 charac
 The original timestamps from Office 365 are preserved when migrating to Office 365.
 
 >[!Note]
->Timestamps are only applied to files/data transfered, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
+>Timestamps are only applied to files/data transferred, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
 
 ### Is file authorship preserved?
 
@@ -59,7 +59,7 @@ To prevent users from being spammed, the Mover app silences notifications during
 Data shared to an Office 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Office 365 Group.
 
 >[!Note]
->This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
+>This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their preferred email through **outlook.office.com**.
 
 After the user has logged in:
 
