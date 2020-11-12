@@ -14,7 +14,6 @@ ms.collection:
 - Strat_SP_admin
 - M365-collaboration
 - m365solution-spintranet
-- m365solution-overview
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
