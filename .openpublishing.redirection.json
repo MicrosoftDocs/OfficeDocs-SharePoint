@@ -444,6 +444,11 @@
       "source_path": "SharePoint/SharePointServer/what-s-new/index.md",
       "redirect_url": "what-s-new",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "migration/index.md",
+      "redirect_url": "https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online",
+      "redirect_document_id": false
     }
   ]
 }
