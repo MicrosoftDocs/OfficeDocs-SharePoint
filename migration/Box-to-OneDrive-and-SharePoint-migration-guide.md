@@ -15,6 +15,7 @@ ms.collection:
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc
 - SPMigration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-mar2020
 search.appverid: MET150
