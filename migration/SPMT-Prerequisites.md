@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-apr2020
 description: "This article is a resource where you can find prerequisites and endpoint information for the SharePoint Migration Tool."
