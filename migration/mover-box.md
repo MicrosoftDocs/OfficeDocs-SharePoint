@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Setting up your Box source connector to migrate to Office 365."
 ---
