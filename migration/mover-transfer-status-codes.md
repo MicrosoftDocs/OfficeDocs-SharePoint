@@ -19,13 +19,13 @@ description: "Mover transfer status codes"
 When a run ends, an automatic re-run may occur when ALL of the following conditions are met:
 
 **The task is being scanned OR migrated for the first time:**
-- When a task is first scanned or migrated, it may trigger re-runs. 
-- When a task scan is started and then canceled. If that task is scanned again,  it will NOT trigger re-runs,  because it was not the first time the task was scanned.
+- When a task is first scanned or migrated, it may trigger reruns. 
+- When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns,  because it was not the first time the task was scanned.
 
 
-**More automatic re-runs are still available.** 
-- A task will be automatically re-run a maximum of 3 times. 
-- A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and the three additional attempts (re-runs). Six re-runs can be triggered at the very most: 3 for the initial scan, and 3 for the initial migration.
+**More automatic reruns are still available.** 
+- A task will be automatically rerun a maximum of three times. 
+- A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and the three additional attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.
 
 
 
@@ -58,7 +58,7 @@ When a run ends, an automatic re-run may occur when ALL of the following conditi
 |211| Some download and upload errors, please retry|
 |222| No files copied. Some download and upload errors, please retry|
 |227| Some files are not supported on the source or destination|
-|230| Cancelled|
+|230| Canceled|
 |250| Already running|
 |260| Storage Quota Exceeded on *Destination name*|
 |261| Quota API Exceeded on *Destination name*|
