@@ -12,6 +12,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "How does Migration Manager in the Microsoft 365 SharePoint admin center work."
 ---
