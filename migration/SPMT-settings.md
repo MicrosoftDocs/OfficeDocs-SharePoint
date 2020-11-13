@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 ms.custom:
 - seo-marvel-mar2020
 description: "A complete listing of the SharePoint Migration basic and advanced settings." 
