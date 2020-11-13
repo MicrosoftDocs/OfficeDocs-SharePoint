@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 description: "A complete listing of the Migration Manager basic and advanced settings." 
 ---
 
