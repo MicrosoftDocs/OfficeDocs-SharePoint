@@ -2,6 +2,15 @@
 
 
 
+## Week of November 09, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/9/2020 | [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/OneDrive/deploy-on-windows) | modified |
+| 11/11/2020 | [Use Group Policy to control OneDrive sync settings](/OneDrive/use-group-policy) | modified |
+
+
 ## Week of November 02, 2020
 
 
@@ -19,11 +28,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 10/12/2020 | [About Discover view](/OneDrive/help-users-use-discover-view) | modified |
-
-
-## Week of October 05, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/6/2020 | [Enable conditional access support in the OneDrive sync app](/OneDrive/enable-conditional-access) | modified |
