@@ -39,7 +39,13 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
  Using the OneDrive sync app with non-persistent environments requires that you [install the sync app per machine](https://docs.microsoft.com/onedrive/per-machine-installation).
  
 > [!NOTE]
-> The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7486.53382](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C5aJ).</br> For Windows Server, the [SMB network file sharing protocol](/windows-server/storage/file-server/file-server-smb-overview) is also required. </br> The OneDrive sync app is not supported in remote app scenarios. </br> The OneDrive sync app with FSLogix does not support running multiple instances of the same container simultaneously.
+> The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7486.53382](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C5aJ).
+>
+> For Windows Server, the [SMB network file sharing protocol](/windows-server/storage/file-server/file-server-smb-overview) is also required.
+>
+> The OneDrive sync app is not supported in remote app scenarios.
+>
+> The OneDrive sync app with FSLogix does not support running multiple instances of the same container simultaneously.
 
 ## See also
 
