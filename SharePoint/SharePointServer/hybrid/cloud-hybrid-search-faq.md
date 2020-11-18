@@ -378,6 +378,8 @@ If there are dedicated Search servers in the farm topology they should be able t
 
 4. \*.search.production.apac.trafficmanager.net
 
+Note : Cloud hybrid search service application environment requires whitelisting additional endpoint (CA and CRL) urls as outlined in https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide. The certification authorities and CRL Urls mentioned in the article within Microsoft 365 Common and Office Online section(point 125) is required to be whistlisted. This is required by on-premise servers to establish SSL connections to Azure and validate new intermediate certificates.
+
 ***Where can I download Cloud hybrid search service application onboarding script?***
 
 The latest version of Windows PowerShell scripts to configure Cloud hybrid search for SharePoint in Microsoft 365 can be downloaded [here](https://www.microsoft.com/download/details.aspx?id=51490&e6b34bbe-475b-1abd-2c51-b5034bcdd6d2=True).
