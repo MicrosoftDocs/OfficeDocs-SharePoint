@@ -50,10 +50,10 @@ Sample CSV file format:
 >When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
 
 For example, this full URL won't work:
-`https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents/Forms/AllItems.aspx`
+`https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents/Forms/AllItems.aspx`
 
 Change it to:
-`https://TENANT01.sharepoint.com/sites/SiteName/Shared%20Documents`
+`https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents`
 
 ## Creating your CSV in Excel
 
