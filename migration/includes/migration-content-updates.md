@@ -2,6 +2,15 @@
 
 
 
+## Week of November 16, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/18/2020 | [Migration Manager settings](/SharepointMigration/mm-settings) | modified |
+| 11/19/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+
+
 ## Week of November 09, 2020
 
 
@@ -145,12 +154,3 @@
 | 10/22/2020 | [SharePoint Server Team Sites Migration Guide](/SharepointMigration/sp-teams-sites-migration-guide) | modified |
 | 10/22/2020 | [SharePoint Migration Tool supported SharePoint web parts](/SharepointMigration/spmt-supported-webparts) | modified |
 | 10/23/2020 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
-
-
-## Week of October 12, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/15/2020 | [Migration Manager FAQs](/SharepointMigration/mm-faqs) | modified |
-| 10/15/2020 | [How to use Migration Manager](/SharepointMigration/mm-how-to-use) | modified |
