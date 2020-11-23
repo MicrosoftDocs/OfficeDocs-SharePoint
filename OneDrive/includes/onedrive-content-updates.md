@@ -2,6 +2,14 @@
 
 
 
+## Week of November 16, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/16/2020 | [Use the sync app on virtual desktops](/OneDrive/sync-vdi-support) | modified |
+
+
 ## Week of November 09, 2020
 
 
@@ -20,11 +28,3 @@
 | 11/3/2020 | [Pre-provision OneDrive for users in your organization](/OneDrive/pre-provision-accounts) | modified |
 | 11/3/2020 | [Use Group Policy to control OneDrive sync settings](/OneDrive/use-group-policy) | modified |
 | 11/3/2020 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |
-
-
-## Week of October 12, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/12/2020 | [About Discover view](/OneDrive/help-users-use-discover-view) | modified |
