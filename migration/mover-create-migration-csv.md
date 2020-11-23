@@ -47,7 +47,7 @@ Sample CSV file format:
 |https<span><span>://<span><span>TENANT01.sharepoint.<span><span>com/sites/SiteName/Shared%20Documents|https<span><span>://TENANT02.<span><span>sharepoint.<span><span>com/sites/SiteName/Shared%20Documents|
 
 >[!Note]
->When URL mapping to SharePoint, you must remove everything after /Shared%20Documents; otherwise,the URL fails.
+>When URL mapping to SharePoint, you must remove everything after /Shared Documents; otherwise,the URL fails.
 
 For example, this full URL won't work:
 `https://TENANT01.sharepoint.com/sites/SiteName/Shared Documents/Forms/AllItems.aspx`
