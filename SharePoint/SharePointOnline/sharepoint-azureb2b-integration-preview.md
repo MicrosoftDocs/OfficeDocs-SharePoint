@@ -76,10 +76,6 @@ Content that was shared externally while the preview was enabled will need to be
 
 Note that after preview, this feature will replace the ad-hoc external sharing experience used in OneDrive and SharePoint today for all tenants and you will not be able to opt out.
 
-## Feedback
-
-We're interested in your feedback about this preview. Please fill out the [Feedback on SharePoint integration with Azure AD B2B Preview](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR2JklDeWHptFqoV2KEW0bYxUQTMxTzYxV1NST0VQSEFLSUY4NVZIVlk0OC4u) survey.
-
 ## See also
 
 [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant)
