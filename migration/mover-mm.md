@@ -47,10 +47,11 @@ Use the **Migration Actions** menu to access things such as: the migration repor
 
 Use the **Active Filters** bar to search your migration for specific key terms or custom tags you have applied.
 
+![active filters](media/mover-migration-filter-new.gif)
+
 You can also view more in-depth instructions by selecting the info button directly to the right of the **Active Filters** search bar, or by viewing the **Active Filter** list.
 
-
-### Filter instructions
+**Instructions**
 
 You can filter all rows of the Migration Manager by adding any text to the filter box and pressing enter.
 
