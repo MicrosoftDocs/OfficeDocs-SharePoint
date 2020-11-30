@@ -33,6 +33,9 @@ Migration Manager lets you use a comma-separated (CSV) file to bulk migrate your
 There are six columns needed in your CSV file -- the first three are your source values, each providing detail about where your data is currently located. The remaining three columns indicate the site, document library and optional sub-folder to where you are migrating your data. All six columns must be accounted for in the file, even if you are not needing a value for a given field.
   
 Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.
+
+>[!Tip]
+>Download the template for bulk uploading using a CSV file:  [Migration Manager bulk upload template](https://www.microsoft.com/en-us/download/details.aspx?id=102394)
   
 ![Sample format when using a CSV file](media/mm-sample-csv.png)
   
