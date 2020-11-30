@@ -23,13 +23,16 @@ description: "Learn how to manage permission requests to Azure AD-secured APIs f
 
 # Manage access to Azure AD-secured APIs
 
-When developers build SharePoint Framework solutions, they might need to connect to an API that's secured through Azure Active Directory (Azure AD). Developers can specify which Azure AD applications and permissions their solution requires, and a global or SharePoint admin can manage the permission request from the [API access page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=webApiPermissionManagement&modern=true). 
+When developers build SharePoint Framework solutions, they might need to connect to an API that's secured through Azure Active Directory (Azure AD). Developers can specify which Azure AD applications and permissions their solution requires, and an administrator can manage the permission request from the [API access page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=webApiPermissionManagement&modern=true). 
 
 [Learn more about building SharePoint Framework solutions that connect to Azure-AD secured APIs](/sharepoint/dev/spfx/use-aadhttpclient#manage-permission-requests)
 
    ![The API access page in the modern SharePoint admin center](media/api-access-page.png)
 
 The API access page shows pending and approved requests. It also shows which requests apply to any SharePoint Framework component or custom script in your organization (organization-wide) and which requests apply to only the specific component (isolated).
+
+    > [!NOTE]
+    > Approving permissions to different APIs requires a different level of permissions. The [Application Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#application-administrator) role is sufficient for approving permissions to any of the 3rd party APIs that is registered in the tenant. However, to approve permissions for Microsoft Graph or any other 1st party API, the Global Admin role is required.
 
 ## Approve a pending request
 
