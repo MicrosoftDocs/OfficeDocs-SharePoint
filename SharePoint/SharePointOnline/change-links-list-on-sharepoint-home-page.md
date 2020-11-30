@@ -51,7 +51,8 @@ On the left side of the page, a **Featured links** list appears.
   
 ## Add a link
 
-    
+1. Select **Edit**.
+
     ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
   
     > [!NOTE]
