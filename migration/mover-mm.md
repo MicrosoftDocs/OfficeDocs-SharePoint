@@ -33,7 +33,7 @@ Use our app's main navigation bar to switch between the **Migration Manager**, *
 
 Use the **Migration Selection** bar to navigate between separate multi-user migrations, as well as individual normal transfers.
 
-Here, you are also able to edit and personalize the names of each multi-user migration.
+Edit and personalize the names of each multi-user migration.
 
 ![migration selection bar](media/mover-migration-selection-bar.png)
 
@@ -76,3 +76,36 @@ This area of the screen contains the **User Actions** dropdown menu, the **Scan 
 **Start # Migrating Users** opens a side tab enabling you to finalize and begin the migration.
 
 ![migration finalize mover](media/mover-finalize-mover.png)
+
+## Filter instructions
+
+You can filter all rows of the Migration Manager by adding any text to the filter box and pressing enter.
+
+Example:  **`Completed`**
+
+Filters can also be applied to a specific column using `columnName:searchQuery`
+
+Example:  **`status:Scheduled`**
+
+It's also possible to filter using regular expressions.
+
+Example:  **`/\w/`** or **`source:/\w/`**
+
+Use the following labels to reference specific columns:
+
+|Filter label|Applied column|
+|:-----|:-----|
+|Status|Status|
+|Files|	Files successful, Files skipped, Files failed|
+|Data|	Data successful, Data skipped, Data failed|
+|Successful|Data successful, Files successful|
+|Failed|Data failed, Files failed|
+|Skipped|Data skipped, Files skipped|
+|Schedule|Schedule|
+|Destination path|Destination path|
+|Source path|Source path|
+|Path|Source path, Destination path|
+|Destination|	Destination path, Destination Connector name & Type|
+|Source destination|Source path, Source Connector name & Type|
+|Destination name|Destination Connector Name & Type|
+|Source name tags|Source Connector Name & Type tags|
