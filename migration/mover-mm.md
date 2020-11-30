@@ -53,30 +53,6 @@ You can also view more in-depth instructions by selecting the info button direct
 
 ![migration filter info](media/migration-filter-info.png)
 
-## User display
-
-The user display is the central focus of the **Migration Manager**, and displays all the users in the current migration.
-
-This section of our app provides you with a column-by-column breakdown of each individual user in a migration. Here, you can also duplicate and edit source/destination paths of a user, as well as view the logs of any scanned or completed transfers.
-
-![migration users mover](media/mover-users-display.png)
-
-## User actions and finalization
-
-This area of the screen contains the **User Actions** dropdown menu, the **Scan User** and **Start Migrating Users** buttons.
-
-![migration final mover](media/mover-final-actions.png)
-
-**User Actions** opens a new dropdown menu enabling you to interact with a selected transfer.
-
-![migration actions mover](media/migration-actions-mover.png)
-
-**Scan # Users** performs a scan of the selected users. This helps identify any problematic files, folders, or connectors.
-
-**Start # Migrating Users** opens a side tab enabling you to finalize and begin the migration.
-
-![migration finalize mover](media/mover-finalize-mover.png)
-
 ## Filter instructions
 
 You can filter all rows of the Migration Manager by adding any text to the filter box and pressing enter.
@@ -109,3 +85,29 @@ Use the following labels to reference specific columns:
 |Source destination|Source path, Source Connector name & Type|
 |Destination name|Destination Connector Name & Type|
 |Source name tags|Source Connector Name & Type tags|
+
+
+## User display
+
+The user display is the central focus of the **Migration Manager**, and displays all the users in the current migration.
+
+This section of our app provides you with a column-by-column breakdown of each individual user in a migration. Here, you can also duplicate and edit source/destination paths of a user, as well as view the logs of any scanned or completed transfers.
+
+![migration users mover](media/mover-users-display.png)
+
+## User actions and finalization
+
+This area of the screen contains the **User Actions** dropdown menu, the **Scan User** and **Start Migrating Users** buttons.
+
+![migration final mover](media/mover-final-actions.png)
+
+**User Actions** opens a new dropdown menu enabling you to interact with a selected transfer.
+
+![migration actions mover](media/migration-actions-mover.png)
+
+**Scan # Users** performs a scan of the selected users. This helps identify any problematic files, folders, or connectors.
+
+**Start # Migrating Users** opens a side tab enabling you to finalize and begin the migration.
+
+![migration finalize mover](media/mover-finalize-mover.png)
+
