@@ -39,15 +39,15 @@ To view the SharePoint start page:
     
     ![Microsoft 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
-    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Microsoft 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top left corner of the page, and then select **SharePoint**.
+    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Microsoft 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top-left corner of the page, and then select **SharePoint**.
     
     ![Microsoft 365 app list from app launcher button](media/c0e1bfcd-a6e0-416d-a3c1-687ec8d7e82b.png)
   
-Can't find the app you're looking for? From the app launcher, to see an alphabetical list of all the available Microsoft 365 apps, select **All apps**. From there, search for a specific app. 
+   Can't find the app you're looking for? From the app launcher, to see an alphabetical list of all the available Microsoft 365 apps, select **All apps**. From there, search for a specific app. 
   
-On the left side of the page, a **Featured links** list appears. 
+   On the left side of the page, a **Featured links** list appears. 
   
-![Featured links list on the SharePoint start page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
+   ![Featured links list on the SharePoint start page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
   
 ## Add a link
 
@@ -55,8 +55,8 @@ On the left side of the page, a **Featured links** list appears.
 
     ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
   
-    > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
+  > [!NOTE]
+  > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
   
 2. To add a link, choose **+ Add**.
     
@@ -66,24 +66,24 @@ On the left side of the page, a **Featured links** list appears.
     
     ![Adding a featured link](media/271749eb-7236-4349-b721-cad1d790ea7a.png)
   
-4. Click **Try link** to check the link. 
+4. Select **Try link** to check the link. 
     
-5. Click **Save**.
+5. Select **Save**.
     
     The new link will appear at the top of the list. To change where the link appears, you can drag and drop it within the list.
     
-6. To leave edit mode, click **Done** when you're finished. 
+6. To leave edit mode, select **Done** when you're finished. 
     
 ## Edit a link
 
-1. Click **Edit** at the top of the list. 
+1. Select **Edit** at the top of the list. 
     
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
     > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
+    > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
   
-2. Click the link you want to change.
+2. Select the link you want to change.
     
     ![Editing a featured link](media/c319922b-6d0c-45a2-8493-7fb4276256fb.png)
   
@@ -91,17 +91,17 @@ On the left side of the page, a **Featured links** list appears.
     
     ![Editing featured link content](media/28ccfb5d-3992-4546-b36b-d6223f80f611.png)
   
-4. Click **Try link** to check the link. 
+4. Select **Try link** to check the link. 
     
-5. Click **Save**.
+5. Select **Save**.
     
-6. To leave edit mode, click **Done** when you're finished. 
+6. To leave edit mode, select **Done** when you're finished. 
     
     To change where the link appears, you can drag and drop it within the list.
     
 ## Change the order of links
 
-1. Click **Edit** at the top of the list. 
+1. Select **Edit** at the top of the list. 
     
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
@@ -110,24 +110,24 @@ On the left side of the page, a **Featured links** list appears.
   
 2. Drag each link to the place you want within the list.
     
-3. To leave edit mode, click **Done** when you're finished. 
+3. To leave edit mode, select **Done** when you're finished. 
     
 ## Delete a link
 
-1. Click **Edit** at the top of the list. 
+1. Select **Edit** at the top of the list. 
     
     ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
     > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
+    > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
   
-2. Click **X**. 
+2. Select **X**. 
     
     ![Featured links with Delete highlighted](media/10a93009-9929-4102-b3b4-04aa318277ce.png)
   
-3. Click **Delete** in the confirmation dialog. 
+3. Select **Delete** in the confirmation dialog. 
     
-4. To leave edit mode, click **Done** when you're finished. 
+4. To leave edit mode, select **Done** when you're finished. 
     
 > [!NOTE]
 > If you had custom promoted sites in classic view of the SharePoint Sites page, the Featured links section of the SharePoint start page is pre-populated with those sites. The pre-population of promoted sites in the Featured links list happens only once when the first user visits the new SharePoint start page. If you go back to classic view and change the promoted sites, the changes will not be reflected in the Featured links list on the SharePoint start page. 
