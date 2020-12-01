@@ -43,11 +43,11 @@ To view the SharePoint start page:
     
     ![Microsoft 365 app list from app launcher button](media/c0e1bfcd-a6e0-416d-a3c1-687ec8d7e82b.png)
   
-Can't find the app you're looking for? From the app launcher, to see an alphabetical list of all the available Microsoft 365 apps, select **All apps**. From there, search for a specific app. 
+   Can't find the app you're looking for? From the app launcher, to see an alphabetical list of all the available Microsoft 365 apps, select **All apps**. From there, search for a specific app. 
   
-On the left side of the page, a **Featured links** list appears. 
+   On the left side of the page, a **Featured links** list appears. 
   
-![Featured links list on the SharePoint start page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
+   ![Featured links list on the SharePoint start page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
   
 ## Add a link
 
