@@ -39,7 +39,7 @@ Before you create your first migration task, do the following checks:
 ## Source and destination
 For every migration task you create, you'll be prompted for a **source** and a **destination**. The credentials that you used to set up your agents have permission to access to any file share you plan to migrate.
 
-- **Source** - The source is where your file share content currently exists. File shares include centralized file hosting on a network server, a network drive, or shared files or disks on a local computer. Often referred to as a "Z drive" on networked computers, it's a shared drive somewhere on the network. You'll need to know the path of the file share and enter it using the format:  \\contoso\fileshare.
+- **Source** - The source is where your file share content currently exists. File shares include centralized file hosting on a network server, a network drive, or shared files or disks on a local computer. Often referred to as a "Z drive" on networked computers, it's a shared drive somewhere on the network. You'll need to know the path of the file share and enter it using the format:  **<spam><spam>\\\contoso\fileshare.**<spam><spam>
 
 - **Destination** - The destination is where in Microsoft 365 you want to copy your content. It can be a SharePoint site, OneDrive, or a Teams location. Decide where you want the content to be, and then enter the specific location URL. 
 
