@@ -52,26 +52,26 @@ On the left side of the page, a **Featured links** list appears.
 ## Add a link
 
     
-    ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
+  ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
   
-    > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
+  > [!NOTE]
+  > If you do not see **Add**, you don't have permissions to change the Featured links list. Contact your administrator. 
   
-2. To add a link, choose **+ Add**.
+1. To add a link, choose **+ Add**.
     
     ![Featured links add selected](media/94b70b39-61a1-4a5b-9195-6c97832bb49e.png)
   
-3. Fill in the **Text to display** and **Address** in the **New link** dialog. 
+2. Fill in the **Text to display** and **Address** in the **New link** dialog. 
     
     ![Adding a featured link](media/271749eb-7236-4349-b721-cad1d790ea7a.png)
   
-4. Click **Try link** to check the link. 
+3. Click **Try link** to check the link. 
     
-5. Click **Save**.
+4. Click **Save**.
     
     The new link will appear at the top of the list. To change where the link appears, you can drag and drop it within the list.
     
-6. To leave edit mode, click **Done** when you're finished. 
+5. To leave edit mode, click **Done** when you're finished. 
     
 ## Edit a link
 
