@@ -23,7 +23,13 @@ description: "Learn about the new features and updates to existing features in M
 We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.   
 
 You can help us improve Migration Manager by sending us your suggestions and reporting bugs you encounter. At the bottom of this page, click the Feedback button.
-  
+
+## Coming soon
+
+- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users will be able to specify pre-defined characters to replace invalid characters. 
+- **Select a Teams as a destination**. Users will be able to select a Teams team and the channel as the migration destination.
+- **Select a OneDrive email as a destination**. Users will be able to input a OneDrive email address as the migration destination. This is in addition to the existing ability to specify a OneDrive location by the URL.
+
   
 ## Current features through October 2020 
 
@@ -33,6 +39,6 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 - **Government cloud**. Migration Manager supports GCCHigh/DoD tenants.
 - **Vanity URL**. Migration manager supports vanity URLs.
 - **Installation issues**. Fixed issues which caused common agent installation failure.
-- **Report aggregator**.  Detailed task level reports can be generated via a PowerShell cmdlet.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports)
+- **Report aggregator**.  Detailed task level reports can be generated via a PowerShell cmdlet.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports).
 - **General improvements**. Overall fit and finish to improve your experience.
 

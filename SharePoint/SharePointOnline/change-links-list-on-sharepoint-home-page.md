@@ -39,39 +39,39 @@ To view the SharePoint start page:
     
     ![Microsoft 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
-    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Microsoft 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top left corner of the page, and then select **SharePoint**.
+    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Microsoft 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top-left corner of the page, and then select **SharePoint**.
     
     ![Microsoft 365 app list from app launcher button](media/c0e1bfcd-a6e0-416d-a3c1-687ec8d7e82b.png)
   
-Can't find the app you're looking for? From the app launcher, to see an alphabetical list of all the available Microsoft 365 apps, select **All apps**. From there, search for a specific app. 
+   Can't find the app you're looking for? From the app launcher, to see an alphabetical list of all the available Microsoft 365 apps, select **All apps**. From there, search for a specific app. 
   
-On the left side of the page, a **Featured links** list appears. 
+   On the left side of the page, a **Featured links** list appears. 
   
-![Featured links list on the SharePoint start page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
+   ![Featured links list on the SharePoint start page](media/1bfded4a-2e65-47f5-95c2-ad3cf7e890fe.png)
   
 ## Add a link
 
     
-    ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
+  ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
   
-    > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
+  > [!NOTE]
+  > If you do not see **Add**, you don't have permissions to change the Featured links list. Contact your administrator. 
   
-2. To add a link, choose **+ Add**.
+1. To add a link, choose **+ Add**.
     
     ![Featured links add selected](media/94b70b39-61a1-4a5b-9195-6c97832bb49e.png)
   
-3. Fill in the **Text to display** and **Address** in the **New link** dialog. 
+2. Fill in the **Text to display** and **Address** in the **New link** dialog. 
     
     ![Adding a featured link](media/271749eb-7236-4349-b721-cad1d790ea7a.png)
   
-4. Click **Try link** to check the link. 
+3. Click **Try link** to check the link. 
     
-5. Click **Save**.
+4. Click **Save**.
     
     The new link will appear at the top of the list. To change where the link appears, you can drag and drop it within the list.
     
-6. To leave edit mode, click **Done** when you're finished. 
+5. To leave edit mode, click **Done** when you're finished. 
     
 ## Edit a link
 
