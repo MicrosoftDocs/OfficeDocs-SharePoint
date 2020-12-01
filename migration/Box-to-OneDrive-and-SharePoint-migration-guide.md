@@ -30,7 +30,7 @@ Most migrations fall into regular phases as described below. Proven success fact
 
 ![Migration process](media/migration-process.png)
 
-|**Migration planning**|**Assess and remediate**|**Prepare your OneDrive environment**|**Migrate**|**User onboarding**|
+| Migration planning | Assess and remediate | Prepare your OneDrive environment | Migrate | User onboarding |
 |:-----|:-----|:-----|:-----|:-----|
 |What content goes where<br><br>Understanding permissions vs Sharing<br><br>What to expect before and after<br><br>Migration and network performance considerations<br><br>Change management and communications|Analyze Box admin reports<br><br>Assess key areas<br><br>Remediate issues|Pre-provision Microsoft 365 and users|Review migration offerings<br><br>Microsoft FastTrack services<br><br>Migration service providers|Send regular emails to users<br><br>Provide training<br><br>Let users know how they are impacted<br><br>Provide documentation for making the switch|
 
@@ -61,7 +61,7 @@ How you have shared your files will dictate how they appear in the **Shared with
 
 The following table maps your current Box sharing experience with OneDrive.
 
-|**Box**|**OneDrive**|
+| Box | OneDrive |
 |:-----|:-----|
 |Folders or file with only one owner, but more than one contributor|As the owner, content should be migrated to the user's OneDrive personal library.<br><br>Any user who has access to a user's folder will have that folder automatically appear in their **Shared with Me** list.|
 |Only one owner, but shared with a Box group|As the owner, content will be migrated to the user's OneDrive personal library. <br><br>The Box group should be converted to a security group.  <br><br>Email should then be sent to the new security group, where each user can accept the invitation link. Content will then appear in those users **Shared with Me** list.|
@@ -75,12 +75,12 @@ Before beginning your migration, it is important that you perform an analysis of
  
 All of the following recommended assessments can be performed using Box's Folders and Files admin report. Run this report and use its results to perform these assessments. Remediate your content on the source before beginning your migration to save time and effort later.
 
-| |**Assess**|**Remediate**|
+| | Assess | Remediate |
 |:-----|:-----|:-----|
 |**File extensions**|Find all files in the Folders and Files report whose Path ends in one of the extensions defined here: [Types of files that cannot be added to a list or library](https://support.office.com/article/30BE234D-E551-4C2A-8DE8-F8546FFBF5B3)|If the blocked file types are scripting files, they are blocked because scripting capabilities are turned off by default in OneDrive. <br><br>If you want to allow these file types, turn on scripting capabilities as described here: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script). <br><br>Make sure you understand why these files are blocked by default as described here: [Security considerations of allowing custom script](/sharepoint/security-considerations-of-allowing-custom-script)|
 |**File and folder name characters**|Find all items in the Folders and Files report whose name contains any of the characters detailed here: [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|Work with your migration vendor to substitute these characters in all file and folder names.<br><br>**Note:** The # and % characters are supported but not enabled by default. Follow these steps to enable them: [New support for # and % in SharePoint and OneDrive](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/New-support-for-and-in-SharePoint-Online-and-OneDrive-for/ba-p/60357)|
 |**File and folder path length**|Find all items in the *Folders and Files* report whose Path exceeds the file path length described here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|Work with your migration vendor to reorganize your file and folder structure such that it does not exceed this limit. Splitting large drives that serve several scenarios into multiple smaller, more focused drives may help here.|
-|**Large drives and complex sharing**|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box's Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc). Move these sets of content out and into new drives before starting migration.|
+|**Large drives and complex sharing**|Scan for any drives that have a very large amount of content, or many different unique sharing permissions – this is usually a sign that the drive should be broken down into smaller, more focused sites. <br><br>Specifically, any drive that has more than 50,000 documents shared with different users must be broken up. Use Box's Folders and Files report and Shared Links report to identify such drives.|Identify sets of content within these drives that are conceptually similar (same project area, all shared with the same users, etc.). Move these sets of content out and into new drives before starting migration.|
 
 
 ## Prepare your OneDrive environment
@@ -98,12 +98,17 @@ Before migrating your Box content, you must pre-provision your users in OneDrive
 
 ### Migration process
 Below is a typical migration process that follows Microsoft's best practices guidance.
-1.    Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.<br><br>
-2.    Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users Box accounts are disabled and they are directed to use the target OneDrive environment. This method is preferred as it reduces user impact.<br><br>
-3.    Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.<br><br>
-4.    Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to OneDrive and disable their Box accounts. This approach helps to eliminate any confusion resulting from users having to collaborate using both Box and OneDrive at the same time.<br><br>
->[!NOTE]
->Box has rate limiting in effect, which may impact the scheduling of your migration. Work with your migration provider to understand how these limits affect your migration.
+
+1. Select a small set of users for a pilot migration. The goal of the pilot is to validate the process, including performance, user communication, and to get a sample of user feedback.
+
+2. Perform the pilot migration. This should use an incremental migration method, in which migration happens in the background with no user impact, followed by a cutover event in which users Box accounts are disabled and they are directed to use the target OneDrive environment. This method is preferred as it reduces user impact.
+
+3. Understand the data from the pilot migration to determine the remainder of your migration schedule and make any changes. For example, you may update your user communication template to address a question you received from a pilot user.
+
+4. Perform the remainder of the migration. This should also follow an incremental migration method, just like the pilot. Microsoft recommends a single cutover event for all users to switch to OneDrive and disable their Box accounts. This approach helps to eliminate any confusion resulting from users having to collaborate using both Box and OneDrive at the same time.
+
+   > [!NOTE]
+   > Box has rate limiting in effect, which may impact the scheduling of your migration. Work with your migration provider to understand how these limits affect your migration.
 
 
 ### Migration offerings
@@ -124,15 +129,15 @@ You may decide that your organization has specific business needs that require y
 ## User Onboarding
 Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan: 
 - **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
-- **End user training.**  Provide training to your users on the features in OneDrive.
+- **End-user training.**  Provide training to your users on the features in OneDrive.
 - **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
 - **Prepare for any possible downtime** the migration may incur.
   
  Develop a plan for sending communications to your user base, providing clear statements of timing, expectations and impact to the individual. Consideration factors:
 
-- The migration timeline and how it will impact them. Include any end user calls to action. 
+- The migration timeline and how it will impact them. Include any end-user calls to action. 
 - Assure them that if they have content already in OneDrive, that their content is safe and won't be overwritten. 
-- Let them know whether individuals can opt-out of the migration process
+- Let them know whether individuals can opt out of the migration process
 
 ### Onboarding related resources
 - [Microsoft 365 adoption guide](https://go.microsoft.com/fwlink/p/?LinkID=2003460): Outlining methodology and resources for implementing proven adoption success factors
@@ -159,7 +164,7 @@ There is an important distinction between permissions and sharing.
 
 **Permissions** determine the level of access a user has to content – whether they can view, edit, or have no access at all. Generally, users have *permissions* to a lot of content (your company portals, for example), but have had much less content explicitly *shared* with them. Permissions for both services are defined by assigned roles.  The following table maps your current Box roles with OneDrive:
 
-|**Box Roles**|**OneDrive Roles**|
+| Box Roles | OneDrive Roles |
 |:-----|:-----|
 |Co-owner|Contributor|
 |Editor|Contributor|
@@ -174,11 +179,17 @@ There is an important distinction between permissions and sharing.
 We recommend *not* handling external sharing during the act of migration. Rather, assess existing external sharing content, and then reshare post migration per the following guidelines: 
  
 - Audit external permissions on the Box content source using the Collaborations report (generated through the Box Admin Console).
+
 - Determine whether that content is worthy to remain externally shared.
+
 - If you decide the content is to remain externally shared, determine whether that content is suited for OneDrive personal libraries or shared libraries based on the *"What content goes where"* previous guidance.
+
 - For **OneDrive** personal libraries:  reshare files externally with the appropriate external users after the migration.
-- For **Shared libraries**:<br> 
-    - Where possible, leverage the collaboration and security benefits of grouping external partner specific content in a dedicated SharePoint team site. For more info, see [Use SharePoint as a business-to-business (B2B) extranet solution](/sharepoint/create-b2b-extranet).<br>
+
+- For **Shared libraries**:
+
+    - Where possible, leverage the collaboration and security benefits of grouping content that is specific to external partners in a dedicated SharePoint team site. For more info, see [Use SharePoint as a business-to-business (B2B) extranet solution](/sharepoint/create-b2b-extranet).
+	
     - If content cannot be grouped as such, then externally reshare on the file or folder level in the target team library. 
 
 
