@@ -39,7 +39,7 @@ To view the SharePoint start page:
     
     ![Microsoft 365 start page with SharePoint selected](media/4ff2c093-2b26-4d28-a65b-4d02e66818df.png)
   
-    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Microsoft 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top left corner of the page, and then select **SharePoint**.
+    If you don't see the list of apps, select the app launcher icon ![The app launcher icon in Microsoft 365](media/e5aee650-c566-4100-aaad-4cc2355d909f.png) in the top-left corner of the page, and then select **SharePoint**.
     
     ![Microsoft 365 app list from app launcher button](media/c0e1bfcd-a6e0-416d-a3c1-687ec8d7e82b.png)
   
