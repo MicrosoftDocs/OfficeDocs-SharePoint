@@ -53,24 +53,24 @@ To view the SharePoint start page:
 
 1. Select **Edit**.
 
-    ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
+   ![Featured links with Edit selected](media/65008327-fb4d-4229-93a5-9b69e8d77660.png)
   
-  > [!NOTE]
-  > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
+   > [!NOTE]
+   > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
   
 2. To add a link, choose **+ Add**.
     
-    ![Featured links add selected](media/94b70b39-61a1-4a5b-9195-6c97832bb49e.png)
+   ![Featured links add selected](media/94b70b39-61a1-4a5b-9195-6c97832bb49e.png)
   
 3. Fill in the **Text to display** and **Address** in the **New link** dialog. 
     
-    ![Adding a featured link](media/271749eb-7236-4349-b721-cad1d790ea7a.png)
+   ![Adding a featured link](media/271749eb-7236-4349-b721-cad1d790ea7a.png)
   
 4. Select **Try link** to check the link. 
     
 5. Select **Save**.
     
-    The new link will appear at the top of the list. To change where the link appears, you can drag and drop it within the list.
+   The new link will appear at the top of the list. To change where the link appears, you can drag and drop it within the list.
     
 6. To leave edit mode, select **Done** when you're finished. 
     
@@ -78,18 +78,18 @@ To view the SharePoint start page:
 
 1. Select **Edit** at the top of the list. 
     
-    ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
+   ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
-    > [!NOTE]
-    > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
+   > [!NOTE]
+   > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
   
 2. Select the link you want to change.
     
-    ![Editing a featured link](media/c319922b-6d0c-45a2-8493-7fb4276256fb.png)
+   ![Editing a featured link](media/c319922b-6d0c-45a2-8493-7fb4276256fb.png)
   
 3. Fill in the **Text to display** and **Address** in the **Edit link** dialog. 
     
-    ![Editing featured link content](media/28ccfb5d-3992-4546-b36b-d6223f80f611.png)
+   ![Editing featured link content](media/28ccfb5d-3992-4546-b36b-d6223f80f611.png)
   
 4. Select **Try link** to check the link. 
     
@@ -97,16 +97,16 @@ To view the SharePoint start page:
     
 6. To leave edit mode, select **Done** when you're finished. 
     
-    To change where the link appears, you can drag and drop it within the list.
+   To change where the link appears, you can drag and drop it within the list.
     
 ## Change the order of links
 
 1. Select **Edit** at the top of the list. 
     
-    ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
+   ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
-    > [!NOTE]
-    > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
+   > [!NOTE]
+   > If you do not see **Edit**, you don't have permissions to change the Featured links list. Contact your administrator. 
   
 2. Drag each link to the place you want within the list.
     
@@ -116,14 +116,14 @@ To view the SharePoint start page:
 
 1. Select **Edit** at the top of the list. 
     
-    ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
+   ![Featured list with edit selected](media/966fd31e-c5f5-4d5f-beac-742b10dcdc41.png)
   
-    > [!NOTE]
-    > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
+   > [!NOTE]
+   > If you don't see **Edit**, you don't have permission to change the Featured links list. Contact your administrator. 
   
 2. Select **X**. 
     
-    ![Featured links with Delete highlighted](media/10a93009-9929-4102-b3b4-04aa318277ce.png)
+   ![Featured links with Delete highlighted](media/10a93009-9929-4102-b3b4-04aa318277ce.png)
   
 3. Select **Delete** in the confirmation dialog. 
     
