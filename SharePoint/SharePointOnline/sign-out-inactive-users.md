@@ -40,7 +40,7 @@ When a user is inactive in SharePoint and OneDrive for a period of time you spec
 ![Inactive Microsoft 365 sign out warning message](media/80c0d10b-df78-4e3c-9df0-b94a923b3871.png)
   
 > [!NOTE]
-> Activity is counted as requests sent to SharePoint, such as mouse clicks on an UI element like a button, list entry or a link.  Moving the mouse and scrolling are not counted as activity.
+> Activity is counted as requests sent to SharePoint, such as mouse clicks on a UI element like a button, list entry, or a link. Moving the mouse and scrolling are not counted as activity.
   
 If users don't select **Continue**, they are automatically signed out, and the following message appears.
   
