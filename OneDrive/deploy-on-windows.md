@@ -169,7 +169,7 @@ For example, if you want to synchronize https://contoso.sharepoint.com/sites/Sal
 
 The resulting odopen:// URL will be:
 ```
-odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}&webUrl=https://contoso.sharepoint.com/sites/SalesTeam&listId={llllllll-llll-llll-llll-llllllllllll}&userEmail=user@contoso.com&Title=Sales&listTitle=Unicorn
+odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}&webUrl=https://contoso.sharepoint.com/sites/SalesTeam-01&listId={llllllll-llll-llll-llll-llllllllllll}&userEmail=user@contoso.com&webTitle=Sales&listTitle=Unicorn
 ```
 
 > [!NOTE]
