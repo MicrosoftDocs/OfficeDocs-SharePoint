@@ -252,7 +252,7 @@ Users will also see a message in the OneDrive activity center that explains why 
 
 If you disable or do not configure this setting, all supported files in all synced folders will be uploaded. 
 
-Enabling this policy creates a list of strings under the follow following path HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreListFromGPO.
+Enabling this policy creates a list of strings under the following path: HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreListFromGPO.
 
 > [!NOTE]
 > This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also with this setting, users don't see errors for the excluded files.
