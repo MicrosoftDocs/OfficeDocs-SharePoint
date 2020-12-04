@@ -145,9 +145,9 @@ Once you’ve confirmed the following, you are ready to provision:
 - You are an Administrator of the App Catalog.
 - Your tenant has version 4.0 or higher of M365 learning pathways provisioned.
 
-### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
+It's reccomended that you install the SharePoint Success Site using the instructions below, but you can also follow the guidance on how to provision from the [look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook). [See what the provisioning process is like.](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be)
 
-It's reccomended that you install the SharePoint Success Site using the instructions below, but you can also follow the guidance on how to provision from the [look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook).
+### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
 
 1.  Navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
 2.  Sign in with your username and password.
