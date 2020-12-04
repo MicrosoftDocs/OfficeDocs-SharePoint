@@ -129,7 +129,7 @@ The Google folder assignment process is fairly complicated; however, here are so
 To authorize or add a **G Suite Drive** account as a **Connector**, follow these simple steps:
 
 > [!Important]
-> You must be a G Suite Administrator with the ability to manage third party applications..
+> You must be a G Suite Administrator with the ability to manage third party applications.
 
 1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
 2. Select **Apps**, and then select **Marketplace Apps**.
