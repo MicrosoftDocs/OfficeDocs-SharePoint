@@ -24,8 +24,7 @@ description: "Provision the SharePoint Success Site"
 Start the SharePoint Success Site provisioning process by understanding the prerequisites. We recommend provisioning the SharePoint Success Site from the Microsoft 365 learning pathways administration page per the instructions below. 
 Global administrator (formerly called the Tenant admin) credentials are required to start the provisioning process for the SharePoint Success Site. 
 
-Before getting started, [watch the provisioning instructional video](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be) and follow all steps in the process and make sure you've met the requirements for provisioning.and make sure you've met the requirements for provisioning. 
-
+Before getting started, [watch the provisioning instructional video](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be), follow all steps in the process, and make sure you've met the requirements for provisioning. 
 
 
 ## Meet the requirements
