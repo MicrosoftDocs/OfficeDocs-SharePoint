@@ -24,7 +24,7 @@ Information barriers are policies in Microsoft 365 that a compliance admin can c
 
 The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. These segments are incompatible. 
 
-![Example of segments in an organization](media/info-barriers-segments-example.png)
+![Example of segments in an organization.](media/info-barriers-segments-example.png)
 
 With SharePoint information barriers, a SharePoint or global admin can associate segments to a site to prevent the site from being shared with or accessed by users outside the segments. Up to 10 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level). Segments can't be associated at the Microsoft 365 group level or subsite level.
 
@@ -36,6 +36,14 @@ In the above example, the HR segment is compatible with both Sales and Research.
 - [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. 
 - Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). 
 - After you have received an email response from us and set your information barrier policies to active, wait 24 hours for the changes to propagate through your environment. 
+
+## View and manage information segments in the SharePoint admin center 
+
+To view, edit and remove the associated information segments, use the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true).  
+
+You can view the information segments from the 'Segments' column added as a part of the Active sites page. 
+
+![Segments column on the Active sites page.](media/segments-column.png)
 
 ## Use PowerShell to associate segments with a site
 
