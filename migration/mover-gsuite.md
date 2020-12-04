@@ -129,7 +129,7 @@ The Google folder assignment process is fairly complicated; however, here are so
 To authorize or add a **G Suite Drive** account as a **Connector**, follow these simple steps:
 
 > [!Important]
-> You must be a G Suite Administrator.
+> You must be a G Suite Administrator with the ability to manage third party applications..
 
 1. From your **Google Apps** dashboard, select our app's grid logo, and then select **Admin**.
 2. Select **Apps**, and then select **Marketplace Apps**.
@@ -185,3 +185,10 @@ Our app requires a Global Admin for authorization. The following table provides 
 |View domains related to your customers    |View domain aliases and multi-domains (secondary domains) for your customers.|
 |View and manage the provisioning of groups on your domain    |Provision and modify groups on your domain, as well as view and modify details and metadata of groups on your domain.|
 |View users on your domain    |View basic details and metadata of users on your domain.|
+
+
+## Connect your source G Suite Drive account
+
+If you are not already connected after you have authorized your source, click **G Suite Drive** and load the connector. An icon will appear and show you how many users you are migrating.
+
+![Select G Suite Drive Source](media/execution-select-google-drive-source.png) 
