@@ -21,10 +21,10 @@ description: "Provision the SharePoint Success Site"
 
 # Provision the SharePoint Success Site 
 
-Start the SharePoint Success Site provisioning process by understanding the prerequisites. Then, you can provision the site from the [look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook) or Microsoft 365 learning pathways administration page. 
+Start the SharePoint Success Site provisioning process by understanding the prerequisites. We recommend provisioning the SharePoint Success Site from the Microsoft 365 learning pathways administration page per the instructions below. 
 Global administrator (formerly called the Tenant admin) credentials are required to start the provisioning process for the SharePoint Success Site. 
 
-Before getting started, [see what the provisioning process is like](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be) and make sure you've met the requirements for provisioning. 
+Before getting started, [watch the provisioning instructional video](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be) and follow all steps in the process and make sure you've met the requirements for provisioning.and make sure you've met the requirements for provisioning. 
 
 
 
@@ -145,7 +145,7 @@ Once you’ve confirmed the following, you are ready to provision:
 - You are an Administrator of the App Catalog.
 - Your tenant has version 4.0 or higher of M365 learning pathways provisioned.
 
-It's reccomended that you install the SharePoint Success Site using the instructions below, but you can also follow the guidance on how to provision from the [look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook). [See what the provisioning process is like.](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be)
+It's recommended that you install the SharePoint Success Site using the instructions below. As an alternative you [can install the SharePoint Success Site from the look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook), just make sure you follow all instructions. Before getting started, [watch the provisioning instructions video](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be)
 
 ### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
 
