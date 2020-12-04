@@ -119,6 +119,10 @@ To create or edit a schedule:
 3. Select **Schedule # Users**.
 4. Configure your Hourly, Daily, Weekly, or Monthly setup, including the timing and day of the week (where applicable).
 5. Select **Apply Schedules to X Users**.
+6. Click **Start migration x users**
+7. Click **On schedule**.
+8. Agree to **Terms and Conditions**.
+9. Click **continue**.
 
 ## Deleting
 
