@@ -26,7 +26,7 @@ description: "In this article, you'll learn how to remove deleted users from Sha
 
 # How to remove deleted users from SharePoint
 
-This article describes how to remove deleted users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or PUID issues only as advised by Microsoft Customer Support Services.
+This article describes how to remove deleted users so they no longer appear in SharePoint. It should be used to troubleshoot Profile Property synchronization or mismatched ID issues only as advised by Microsoft Customer Support Services.
 
 - **Scenario 1: Someone is deleted from the Microsoft 365 admin center but still appears in SharePoint.**
  
