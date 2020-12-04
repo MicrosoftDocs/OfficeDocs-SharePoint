@@ -34,7 +34,7 @@ This article describes how to remove deleted users so they no longer appear in S
 
 - **Scenario 2: Site User ID Mismatch.**
  
-        This issue most frequently occurs when a user is deleted and the account is then re-created with the same user name. The account in the Microsoft 365 admin center or Active Directory (in directory synchronization scenarios) is deleted and re-created with the same user principal name (UPN). The new account is created by using a different ID value. When the user tries to access a site collection or their OneDrive, the user has an incorrect ID. A second scenario involves directory synchronization with an Active Directory organizational unit (OU). If users have already signed in to SharePoint, and then are moved to a different OU and resynced with SharePoint, they may experience this problem.
+    This issue most frequently occurs when a user is deleted and the account is then re-created with the same user name. The account in the Microsoft 365 admin center or Active Directory (in directory synchronization scenarios) is deleted and re-created with the same user principal name (UPN). The new account is created by using a different ID value. When the user tries to access a site collection or their OneDrive, the user has an incorrect ID. A second scenario involves directory synchronization with an Active Directory organizational unit (OU). If users have already signed in to SharePoint, and then are moved to a different OU and resynced with SharePoint, they may experience this problem.
  
 ## Delete a user from the Microsoft 365 admin center
 
@@ -120,6 +120,5 @@ You'll have to browse to each site collection that the user or guest visited, an
 SharePoint uses browser caching in several scenarios, including in the people picker. Even when a user is fully removed, he or she may still remain in the browser cache. Clearing the browser history resolves this issue. For info about doing this in Edge, see [View and delete browser history in Microsoft Edge](https://support.microsoft.com/help/10607).
 
 When you clear the browser history, make sure that you also select to clear cookies and website data.
-
 
 
