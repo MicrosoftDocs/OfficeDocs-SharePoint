@@ -318,7 +318,7 @@ To completely uninstall the Mover Agent, use the Windows program manager.
 ### Agent Connection Issues
 
 - Ensure bifrost-v2.mover.io is not blocked and it is connecting directly to port 443 on the network.
-- Ensure that you have downloaded the [Auzure IP ranges and service tags](https://www.microsoft.com/download/details.aspx?id=56519)
+- Ensure that you have downloaded the [Azure IP ranges and service tags](https://www.microsoft.com/download/details.aspx?id=56519)
 - Ensure that no firewalls, third-party applications, plugins or even their IT department or ISP are not throttling/blocking the connection.
 - The Agent also cannot connect via a proxy and must directly connect to the network.
 

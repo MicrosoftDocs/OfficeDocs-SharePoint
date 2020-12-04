@@ -15,7 +15,12 @@ description: "Troubleshooting Mover errors"
 ---
 # Troubleshooting Mover migration errors
 
-|Message|Definition|
+The following tables contain error messages you may encounter and how to resolve the issue.
+
+
+## Mover migration errors
+
+|Error|Action|
 |:-----|:-----|
 |Error: "The Office 365 connector has not been authorized in the Azure Tenant yet."|Authorize the connector by granting admin consent in the Azure Tenant for the "Office 365 Mover" App.|
 |Error: "Authorization failure" shown on the connector.	|Confirm that the connector is fully authorized or Reauthorize the connector.
@@ -37,7 +42,7 @@ description: "Troubleshooting Mover errors"
 |Error: Failed response: Upload Failed.|Mover is no longer able to upload. Reauthorize the connector and rerun the user transfer row.|
 |Error: Item has no parent id|Files in the root directory of a OneDrive user often cause this error. Move the files into a folder or attempt rerun the user transfer rows until successful.|
 
-## Troubleshooting other Mover errors
+## Other Mover errors
 
 |Error|Action to take|
 |:-----|:-----|
