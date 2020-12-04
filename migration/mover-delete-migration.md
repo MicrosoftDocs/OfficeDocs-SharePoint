@@ -24,5 +24,6 @@ To delete a migration created using Mover, do the following:
 
 ![Delete a migration](media/delete-migration.png)
 
->[!Caution]
-> Deleting the migration will delete ALL logging information.  It will NOT delete any data in the source or destination paths.  Avoid deleting a migration during an ongoing troubleshooting process as it is unrecoverable.
+>[!Warning]
+> Deleting the migration will delete ALL logging information.  It will NOT delete any data in the source or destination paths.
+> Do not delete a migration during an ongoing troubleshooting process as it is unrecoverable.
