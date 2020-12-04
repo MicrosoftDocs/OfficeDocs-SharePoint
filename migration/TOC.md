@@ -110,6 +110,7 @@
 ##### [Disable email notifications](mover-disable-emails.md)
 ##### [Mover migration manager](mover-mm.md)
 ####  [Running the migration](mover-running-migration.md)
+####  [Deleting a migration](mover-delete-migration.md)
 ####  [Reports](mover-reports.md)
 ####  [Post-migration tips](mover-post-migration-tips.md)
 ####  [Mover release notes](mover-release-notes.md)
