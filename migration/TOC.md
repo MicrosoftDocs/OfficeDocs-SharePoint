@@ -6,7 +6,7 @@
 #### [Set up Migration Manager agents](mm-setup-clients.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)
-#### [How to use Migration Manager]mm-how-to-use.md)
+#### [How to use Migration Manager](mm-how-to-use.md)
 #### [Migration Manager settings](mm-settings.md)
 #### [Format a CSV or JSON file for bulk upload using Migration Manager](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file for Migration Manager](mm-user-mapping-file.md)

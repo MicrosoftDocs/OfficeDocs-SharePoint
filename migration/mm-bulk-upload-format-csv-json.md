@@ -35,7 +35,7 @@ There are six columns needed in your CSV file -- the first three are your source
 Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.
 
 >[!Tip]
->Download the template for bulk uploading using a CSV file:  [Migration Manager bulk upload template](https://www.microsoft.com/en-us/download/details.aspx?id=102394)
+>Download the template for bulk uploading using a CSV file:  [Migration Manager bulk upload template](https://download.microsoft.com/download/b/1/9/b1925e76-010c-4db5-aa44-64055f8f3efe/mm-example_csv_bulk_upload.csv)
   
 ![Sample format when using a CSV file](media/mm-sample-csv.png)
   
