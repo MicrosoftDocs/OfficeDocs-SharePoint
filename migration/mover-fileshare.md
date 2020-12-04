@@ -315,6 +315,13 @@ To stop the Mover Agent from connecting to the Mover's servers, select **Disconn
 
 To completely uninstall the Mover Agent, use the Windows program manager.
 
+### Agent Connection Issues
+
+- Ensure bifrost-v2.mover.io is not blocked and it is connecting directly to port 443 on the network.
+- Ensure that you have downloaded the [Auzure IP ranges and service tags](https://www.microsoft.com/download/details.aspx?id=56519)
+- Ensure that no firewalls, third-party applications, plugins or even their IT department or ISP are not throttling/blocking the connection.
+- The Agent also cannot connect via a proxy and must directly connect to the network.
+
 
 ## Connect your source agent for Windows
 
@@ -322,8 +329,3 @@ If you are not already connected after you have authorized your source, select *
 
 ![Execution select agent source](media/execution-select-agent-source.png)
 
-## Connect your destination Office 365 account
-
-If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
-
-![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)
