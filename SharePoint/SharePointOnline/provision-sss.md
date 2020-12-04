@@ -165,11 +165,11 @@ It's reccomended that you install the SharePoint Success Site using the instruct
 8.  Fill out the email address and URL details and then select **Provision**.
 9.  Select **Complete**.
 
-10. When you see Provisioning completed, select the **CustomLearningAdmin** tab as shown in the following image:
+10. When you see **Provisioning completed** on the provisioning page, you'll see a new tab appear in your browser called  **CustomLearningAdmin**. Select the **CustomLearningAdmin** tab as shown in the following image:
 
     ![Image of the M365 learning pathways solution tab](media/custom-learning-admin-tab.png)
 
-11. Select **Complete** as shown in the following image:
+11. Then, select **Complete** as shown in the following image to complete the provisioning process:
 
 ![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
 
