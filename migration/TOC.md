@@ -1,5 +1,5 @@
 # [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
-## File share  migration (Migration Manager)
+## File share migration (Migration Manager)
 ### Migration Manager
 #### [Get started](mm-get-started.md)
 #### [What's new](mm-whats-new.md)
