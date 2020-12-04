@@ -161,7 +161,7 @@ If you're a **SharePoint admin**: To grant permissions and finish the authorizat
 
 If you're a **global admin**: Continue with Steps 6–9 to authorize the connector when you receive the message: *"Could not retrieve user count: A Global admin needs to authorize the Office 365 Mover application in the Azure tenant…"* 
 
-   ![authorize-error](media/authorize-error.png) 
+   ![Authorize error image](media/authorize-error.png) 
 
 6. **Global admin**: Log in to the Azure Portal via **https://aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
 
