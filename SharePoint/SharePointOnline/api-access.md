@@ -32,7 +32,7 @@ When developers build SharePoint Framework solutions, they might need to connect
 The API access page shows pending and approved requests. It also shows which requests apply to any SharePoint Framework component or custom script in your organization (organization-wide) and which requests apply to only the specific component (isolated).
 
     > [!NOTE]
-    > Approving permissions to different APIs requires a different level of permissions. The [Application Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#application-administrator) role is sufficient for approving permissions to any of the 3rd party APIs that is registered in the tenant. However, to approve permissions for Microsoft Graph or any other 1st party API, the Global Admin role is required.
+    > Approving permissions to different APIs requires a different level of permissions. The [Application Administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#application-administrator) role is sufficient for approving permissions to any of the third-party APIs that is registered in the tenant. However, to approve permissions for Microsoft Graph or any other first-party API, the Global Admin role is required.
 
 ## Approve a pending request
 
