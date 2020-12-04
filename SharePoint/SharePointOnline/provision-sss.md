@@ -21,10 +21,11 @@ description: "Provision the SharePoint Success Site"
 
 # Provision the SharePoint Success Site 
 
-Start the SharePoint Success Site provisioning process by understanding the prerequisites. Then, you can provision the site from the look book or Microsoft 365 learning pathways administration page. 
+Start the SharePoint Success Site provisioning process by understanding the prerequisites. Then, you can provision the site from the [look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook) or Microsoft 365 learning pathways administration page. 
 Global administrator (formerly called the Tenant admin) credentials are required to start the provisioning process for the SharePoint Success Site. 
 
-Before getting started, make sure you've met the requirements for provisioning. 
+Before getting started, [see what the provisioning process is like](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be) and make sure you've met the requirements for provisioning. 
+
 
 
 ## Meet the requirements
@@ -146,6 +147,8 @@ Once you’ve confirmed the following, you are ready to provision:
 
 ### Provision the SharePoint Success Site to your tenant from the Learning pathways administrative page
 
+It's reccomended that you install the SharePoint Success Site using the instructions below, but you can also follow the guidance on how to provision from the [look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook).
+
 1.  Navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
 2.  Sign in with your username and password.
 3.  Navigate to the location of the site using the URL supplied by your SharePoint administrator or select SharePoint from the Microsoft 365 home page, and then select the **M365 learning pathways** site.
@@ -162,9 +165,9 @@ Once you’ve confirmed the following, you are ready to provision:
 8.  Fill out the email address and URL details and then select **Provision**.
 9.  Select **Complete**.
 
-10. When you see Provisioning completed, select the **CustomLearningAdministration** tab as shown in the following image:
+10. When you see Provisioning completed, select the **CustomLearningAdmin** tab as shown in the following image:
 
-    ![Image of the M365 learning pathways solution tab](media/sss-m365lp-tab.png)
+    ![Image of the M365 learning pathways solution tab](media/custom-learning-admin-tab.png)
 
 11. Select **Complete** as shown in the following image:
 
@@ -208,7 +211,18 @@ Share the URLs for the M365 learning pathways administration site and the ShareP
 
 #### Frequently asked questions
 
-**Question: Can I provision from the look book?**
+**Question: What are the requirements for installing the SharePoint Success Site into my tenant environment?**
+<br>
+Answer:
+- Ensure SharePoint Online is enabled in your environment.
+- The individual that will provision the SharePoint Success Site must be the global admin (formerly called the Tenant admin) of the target tenant for install.
+- The tenant where the site will be provisioned must have:
+    - The App Catalog installed
+    - Version 4.0 or higher of [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:%7E:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization.) installed
+<br>
+
+
+**Question: Can I provision the site from the look book?**
 <br>
 Answer: Yes, follow the guidance on how to provision from the [look book](https://docs.microsoft.com/sharepoint/provision-sss-lookbook).
 <br>
@@ -216,6 +230,13 @@ Answer: Yes, follow the guidance on how to provision from the [look book](https:
 **Question: Who has permission to provision the SharePoint Success Site?**
 <br>
 Answer: The Global admin (formerly called the Tenant admin) are required.
+<br>
+
+**Question: I have installed the SharePoint Success Site successfully, but I'm not able to get the Success Site content from the M365 learning pathways web part loaded on my site. What should I do?**
+<br>
+Answer: 
+
+It is likely that the content pack has not been fully installed. You must return to the **CustomLearningAdmin** page that will appear when site provisioning is done to complete the installation. Confirm you have followed steps 10 through 12 above. Review the [provisioning video](https://www.youtube.com/watch?v=HZjxBAKVnJs&feature=youtu.be) for more detail.
 <br>
 
 **Question: Who has permission to customize the site template?**
