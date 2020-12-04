@@ -22,7 +22,7 @@ description: "Learn about associating segments with a site, and what happens whe
 
 Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government. [Learn more about information barriers](/microsoft-365/compliance/information-barriers).
 
-The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. These segments are incompatible. 
+The following image illustrates three segments in an organization: HR, Sales, and Research. An information barrier policy has been defined that blocks communication and collaboration between the Sales and Research segments. These segments are incompatible.
 
 ![Example of segments in an organization.](media/info-barriers-segments-example.png)
 
@@ -33,21 +33,29 @@ In the above example, the HR segment is compatible with both Sales and Research.
 ## Prerequisites
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. 
+- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization.
 - Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). 
-- After you have received an email response from us and set your information barrier policies to active, wait 24 hours for the changes to propagate through your environment. 
+- After you've received an email response from us and set your information barrier policies to active, wait 24 hours for the changes to propagate through your environment.
 
-## View and manage information segments in the SharePoint admin center 
+## View and manage information segments in the SharePoint admin center
 
-To view, edit and remove the associated information segments, use the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true).  
+To view, edit, or remove information segments for a site, use the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true).  
 
-You can view the information segments from the 'Segments' column added as a part of the Active sites page. 
+The Segments column lists the first segment associated with the site and shows whether the site has additional segments associated. [Learn how to show or move this column](manage-sites-in-new-admin-center.md#customize-columns)
 
 ![Segments column on the Active sites page.](media/segments-column.png)
 
+To view the complete list of segments associated with a site, select the site, and then select the **Policies** tab.
+
+![Policies tab of the details panel listing all associated segments.](media/info-segments-details.png)
+
+To edit the segments associated with the site, select **Edit**, add or remove segments, and then select **Save**.
+
+![Edit information segments panel.](media/edit-info-segments.png)
+
 ## Use PowerShell to associate segments with a site
 
-1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a global admin. 
+1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a global admin.
 
 2. Run the following command to get the list of segments and their GUIDs.
 
@@ -105,7 +113,7 @@ Get-SPOSite -Identity <site URL> | Select InformationSegment
 
 Site owners can view the segments associated with a site by selecting **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png)> **Site information**.
 
-![Settings icon.](media/site-information-segments.png)
+![Information segments listed in the Site information panel.](media/site-information-segments.png)
 
 ## Sharing sites that have segments associated
 
