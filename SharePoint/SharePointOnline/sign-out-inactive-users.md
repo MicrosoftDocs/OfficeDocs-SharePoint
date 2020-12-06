@@ -84,15 +84,15 @@ If users don't select **Continue**, they are automatically signed out, and the f
 
    Where:
     
-  - -Enabled specifies whether idle session sign-out is enabled or disabled by using $true or $false.
+   - **-Enabled** specifies whether idle session sign-out is enabled or disabled by using **$true** or **$false**.
     
-  - -WarnAfter specifies the amount of after which a user is notified that they will be signed out after a period of inactivity as a New-TimeSpan which can be configured in seconds, minutes, or hours. 
+   - **-WarnAfter** specifies the amount of after which a user is notified that they will be signed out after a period of inactivity as a **New-TimeSpan** which can be configured in seconds, minutes, or hours. 
     
-  - -SignOutAfter specifies the amount of time after which is a user is signed out of Microsoft 365 if they do not respond to the -WarnAfter prompt.
+   - **-SignOutAfter** specifies the amount of time after which is a user is signed out of Microsoft 365 if they do not respond to the **-WarnAfter** prompt.
     
 > [!NOTE]
-> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value.
+> You must specify values for both **WarnAfter** and **SignOutAfter**. The **SignOutAfter** must be greater than the WarnAfter value.
 > 
-> It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet.
+> It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use **Get-SPOBrowserIdleSignOut**.
 > 
 > For info about Microsoft 365 session lengths (regardless of activity), see [Session timeouts for Microsoft 365](/office365/enterprise/session-timeouts). 

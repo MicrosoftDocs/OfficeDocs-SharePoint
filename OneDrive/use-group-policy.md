@@ -31,8 +31,8 @@ description: "In this article, you'll learn about the OneDrive Group Policy obje
 This article describes the OneDrive Group Policy objects (GPOs) that admins can configure by using Group Policy or by using [administrative templates in Microsoft Intune](configure-sync-intune.md). You can use the registry key info in this article to confirm that a setting is enabled.
   
 > [!NOTE]
-> If you're not an IT admin, see [Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) for info about OneDrive sync settings.
-<br/><br/>
+> If you're not an IT admin, see [Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) for info about OneDrive sync settings.<br/><br/>
+
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
  
