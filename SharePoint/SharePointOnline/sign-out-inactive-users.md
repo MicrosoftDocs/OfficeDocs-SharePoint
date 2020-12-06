@@ -56,8 +56,8 @@ If users don't select **Continue**, they are automatically signed out, and the f
 
 1. Go to the [Access control page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Access control page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Access control page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Access control page.
 
 2. Select **Idle session sign-out**.
 
@@ -78,9 +78,9 @@ If users don't select **Continue**, they are automatically signed out, and the f
     
 3. Run the following command:
     
-  ```PowerShell
-  Set-SPOBrowserIdleSignOut -Enabled $true -WarnAfter (New-TimeSpan -Seconds 2700) -SignOutAfter (New-TimeSpan -Seconds 3600) 
-  ```
+   ```PowerShell
+   Set-SPOBrowserIdleSignOut -Enabled $true -WarnAfter (New-TimeSpan -Seconds 2700) -SignOutAfter (New-TimeSpan -Seconds 3600) 
+   ```
 
    Where:
     
@@ -91,4 +91,8 @@ If users don't select **Continue**, they are automatically signed out, and the f
   - -SignOutAfter specifies the amount of time after which is a user is signed out of Microsoft 365 if they do not respond to the -WarnAfter prompt.
     
 > [!NOTE]
-> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value. <br>It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet.<br>For info about Microsoft 365 session lengths (regardless of activity), see [Session timeouts for Microsoft 365](/office365/enterprise/session-timeouts). 
+> You must specify values for both WarnAfter and SignOutAfter. The SignOutAfter must be greater than the WarnAfter value.
+> 
+> It takes about 15 minutes for the policy to take effect across your organization. The policy doesn't affect existing sessions. To view the idle session sign-out values you've set, use the Get-SPOBrowserIdleSignOut cmdlet.
+> 
+> For info about Microsoft 365 session lengths (regardless of activity), see [Session timeouts for Microsoft 365](/office365/enterprise/session-timeouts). 
