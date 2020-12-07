@@ -15,6 +15,19 @@ description: "Frequently asked questions when using Microsoft Mover to migrate t
 ---
 # Microsoft 365 FAQ
 
+## Data migrated by Mover
+
+Mover only migrates data from: 
+
+- An individual's **online drive storage**, such as OneDrive, MyDrive, etc.
+or
+- Data located in a **shared drive**, including Dropbox Team's Folder, SharePoint Document Library, Google Shared Drive, etc.
+
+Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts/collections, etc.
+
+
+
+
 ## Unsupported files and characters
 We automatically process file and folder names to ensure they are accepted by Microsoft 365:
 

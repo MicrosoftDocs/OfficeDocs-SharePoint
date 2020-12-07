@@ -37,7 +37,7 @@ After you set the organization-wide sharing settings for Microsoft SharePoint an
 
 3. Select the user.
 
-4. Select the **OneDrive** tab, and under **Sharing**, select **Manage sharing**.
+4. Select the **OneDrive** tab, and under **Sharing**, select **Manage external sharing**.
 
 5. Select a new external sharing level, and then select **Save**.
 
