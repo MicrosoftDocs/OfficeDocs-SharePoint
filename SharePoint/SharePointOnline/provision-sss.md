@@ -102,7 +102,7 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 - **Yes** - You are ready to [provision the SharePoint Success Site](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
 - **No** - Update to version 4.0 or higher and then provision the SharePoint Success Site from the M365 learning pathways administration page.
 
-If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page** and select the the ellipses **(…)**
+If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page** and select the ellipses **(…)**
 
 > [!div class="mx-imgBorder"]
 > ![Image learning pathways admin page](media/sss-lp-version.png)
