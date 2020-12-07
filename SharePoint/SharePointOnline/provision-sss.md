@@ -46,7 +46,7 @@ The **person** doing the provisioning must be a Global admin (formerly called th
 
 **Are you a Global administrator?**
 - **Yes** -  Next, confirm your tenant has already enabled the App Catalog.
-- **No** -  Partner with your M365 Global admin to get the site provisioned. [Learn more about administrative roles in SharePoint](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?WT.mc_id=365AdminCSH&view=o365-worldwide).
+- **No** -  Partner with your M365 Global admin to get the site provisioned. [Learn more about administrative roles in SharePoint](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 <br>
 <br>
 If you are unsure, you can confirm your role by logging into office.com, you’ll see an Admin center app icon next to your M365 apps if you have SharePoint administrator credentials.
