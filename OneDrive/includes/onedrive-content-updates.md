@@ -2,6 +2,16 @@
 
 
 
+## Week of November 30, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/4/2020 | [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/OneDrive/deploy-on-windows) | modified |
+| 12/4/2020 | [Use Group Policy to control OneDrive sync settings](/OneDrive/use-group-policy) | modified |
+| 12/4/2020 | [Change the external sharing setting for a user's OneDrive](/OneDrive/user-external-sharing-settings) | modified |
+
+
 ## Week of November 16, 2020
 
 
