@@ -69,7 +69,8 @@ The **tenant** where the site will be provisioned must have the [App Catalog](ht
 
 Use this decision tree to determine your tenant’s path to meeting the **tenant** requirements.
 
-![Image of the M365 decision tree](media/sss-decision-tree-2.png)
+> [!div class="mx-imgBorder"]
+> ![Image of the M365 decision tree](media/sss-decision-tree-2.png)
 
 Ready to get started provisioning? Review the [provisioning instructions](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1). 
 
@@ -103,12 +104,14 @@ If you are unsure, navigate to the SharePoint admin center, then select **Sites 
 
 If you are unsure, navigate to your tenant's **M365 Learning Pathways administration page** and select the the ellipses **(…)**
 
-  ![Image learning pathways admin page](media/sss-lp-version.png)
+> [!div class="mx-imgBorder"]
+> ![Image learning pathways admin page](media/sss-lp-version.png)
 
 
 Then, select **About web part** to confirm the current version.
 
-  ![Image learning pathways admin page version](media/sss-lp-elipses.png)
+> [!div class="mx-imgBorder"]
+> ![Image learning pathways admin page version](media/sss-lp-elipses.png)
 
 <br>
 
@@ -166,18 +169,21 @@ It's recommended that you install the SharePoint Success Site using the instruct
 
 10. When you see **Provisioning completed** on the provisioning page, you'll see a new tab appear in your browser called  **CustomLearningAdmin**. Select the **CustomLearningAdmin** tab as shown in the following image:
 
-    ![Image of the M365 learning pathways solution tab](media/custom-learning-admin-tab.png)
+    > [!div class="mx-imgBorder"]
+    > ![Image of the M365 learning pathways solution tab](media/custom-learning-admin-tab.png)
 
 11. Then, select **Complete** as shown in the following image to complete the provisioning process:
 
-![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
+    > [!div class="mx-imgBorder"]
+    > ![Image of the M365 learning pathways solution complete button](media/sss-m365lp-confirm2.png)
 
-> [!IMPORTANT]
-> Make sure to select **Complete** to complete the provisioning process.
+    > [!IMPORTANT]
+    > Make sure to select **Complete** to complete the provisioning process.
 
 12. To confirm the SharePoint Success Site has been successfully provisioned, go to the SharePoint site you provisioned, select **Get Started > Plan your site.** You should see the web part on the page as shown in the following image: 
 
-![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
+    > [!div class="mx-imgBorder"]
+    > ![Image of the SharePoint Success Site landing page, Plan your site](media/sss-content-landing.png)
 
 
 ## Add Site owners 
