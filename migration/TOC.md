@@ -5,7 +5,7 @@
 #### [Step 1. Set up Migration Manager agents](mm-setup-clients.md)
 #### [Step 2. Create tasks](mm-how-to-use.md)
 #### [Step 3. Monitor and report](mm-reports.md)
-#### [Migration Manager reference]
+#### Migration Manager reference
 ##### [What's new](mm-whats-new.md)
 ##### [How Migration Manager works](mm-how-it-works.md)
 ##### [Government cloud configuration](mm-gov-cloud.md)
