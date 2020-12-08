@@ -17,7 +17,7 @@ search.appverid: MET150
 description: Set up multiple Migration Manager agents
 ---
 
-# Setup Migration Manager agents
+# Step 1. Setup Migration Manager agents
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do create an agent, download and run a setup file on each computer.  
 
@@ -34,13 +34,19 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |[Required Endpoints](#required-endpoints)|Review the required Endpoints|
 |[Multi-geo tenant agent installation](#multi-geo-agent-set-up)| Follow these steps if you want to install an agent and you have a multi-geo tenant.
 
+## Planning checklist
+
+|Category|Guidance|Fill in with your details|
+|:-----|:-----|:-----|
+|Credentials to use:|SharePoint admin for migration destination:</br>Window s account for source: must have access to ALL the network file shares you plan to migrate|
+|Virtual machines or computers to use:|
 
 
 >[!NOTE]
 >Third party multi-factor authentication is not supported at this time.
 
 
-### Recommended practices
+### Best practices
 
 - Determine how many VMs or computers you plan on using for your migration tasks. Identify the computers or VMs up front.
 
