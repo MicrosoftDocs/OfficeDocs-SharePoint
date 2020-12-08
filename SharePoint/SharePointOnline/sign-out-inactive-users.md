@@ -26,7 +26,7 @@ description: "Learn how to set an idle session sign-out policy for SharePoint an
 This article is for global and SharePoint admins in Microsoft 365 who want to control user access to SharePoint and OneDrive data on unmanaged devices. Idle session sign-out lets you specify a time at which users are warned and subsequently signed out of Microsoft 365 after a period of browser inactivity in SharePoint and OneDrive. 
   
 > [!NOTE]
-> Idle session sign-out applies to the entire organization and can't be set for specific sites or users.  To target different settings for different users, use Azure AD Conditional Access policies instead (and see the next important note about the (Azure AD Premium requirement).
+> Idle session sign-out applies to the entire organization and can't be set for specific sites or users.  To target different settings for different users, use Azure AD Conditional Access policies instead (and see the next important note about the Azure AD Premium requirement).
  
 > [!IMPORTANT]
 > This feature relies on Azure AD Conditional Access policies being available. You will need an Azure AD Premium P1 or P2 subscription for this to work. For more info about this, refer to the [announcement in the Azure Active Directory Identity Blog](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/conditional-access-8220-limited-access-8221-policies-for/ba-p/245228).
