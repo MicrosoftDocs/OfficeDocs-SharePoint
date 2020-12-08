@@ -24,7 +24,7 @@ description: "Learn how to disable summary info in sharing emails."
 When users share a Word document in SharePoint or OneDrive, recipients get an email that shows:
 
 - The key points in the doc (derived from content extracted from the document by artificial intelligence)
-- An estimated time to read the doc (based on the word count and the average reading speed in English). 
+- An estimated time to read the doc (based on the word count and the average reading speed in English) 
 
 This summary info helps recipients plan for the work that the doc will require. 
 
