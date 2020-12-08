@@ -1,6 +1,6 @@
 ---
 title: "Change a site address"
-ms.reviewer: adwood
+ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -77,7 +77,7 @@ Before you change the address of a site, it's important to communicate the chang
 4. Enter the new site address, and then select **Save**.
 
 > [!NOTE]
-> You can't change the address of hub sites, sites that are locked or on hold, or of sites that have BCS connections. <br>When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
+> You can't change the address of hub sites, sites that are locked or on hold, Project Web App (PWA) sites, or sites that have BCS connections. <br>When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
 
 ## Change site addresses by using Microsoft PowerShell
 
@@ -120,6 +120,9 @@ InfoPath forms that refer to URLs might not work after the site address is chang
 
 **List View web part**<br>
 If a List View web part is added to a page and scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page and then add it again.
+
+**Microsoft Forms**<br>
+If the site is a Microsoft 365 group-connected site that has forms in Microsoft Forms, any File Upload questions in forms will break. To fix this issue, recreate the file upload questions to allow responders to upload files again.
 
 **OneNote**<br>
 If users have a notebook open during the site address change, they'll see a notebook sync error. After the address is changed, the following OneNote apps will automatically detect and seamlessly sync notebooks to the new site URL:
