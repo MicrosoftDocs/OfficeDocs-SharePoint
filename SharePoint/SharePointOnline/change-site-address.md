@@ -1,6 +1,6 @@
 ---
 title: "Change a site address"
-ms.reviewer: adwood
+ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
@@ -65,8 +65,10 @@ Before you change the address of a site, it's important to communicate the chang
 
 1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page.
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. To open the details pane, select the site name.
 
@@ -76,15 +78,19 @@ Before you change the address of a site, it's important to communicate the chang
 
 4. Enter the new site address, and then select **Save**.
 
-> [!NOTE]
-> You can't change the address of hub sites, sites that are locked or on hold, or of sites that have BCS connections. <br>When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
+   > [!NOTE]
+   > You can't change the address of hub sites, sites that are locked or on hold, Project Web App (PWA) sites, or sites that have BCS connections.
+   > 
+   > When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
 
 ## Change site addresses by using Microsoft PowerShell
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
+	> 
+	> On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system) After the file downloads, run it and follow the steps in the Setup Wizard.
 
 2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
@@ -96,11 +102,11 @@ Before you change the address of a site, it's important to communicate the chang
 
 4. Run the following command to change the site address:
 
-    ```PowerShell
-    Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl>
-    ```
+   ```PowerShell
+   Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl>
+   ```
 
-For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
+   For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps).
 
 ## Effects of changing a site address
 
@@ -120,6 +126,9 @@ InfoPath forms that refer to URLs might not work after the site address is chang
 
 **List View web part**<br>
 If a List View web part is added to a page and scoped to a specific folder in that list, the web part might display an error after the site URL is changed. To fix this issue, either edit the web part and reset the folder path or remove the web part from the page and then add it again.
+
+**Microsoft Forms**<br>
+If the site is a Microsoft 365 group-connected site that has forms in Microsoft Forms, any File Upload questions in forms will break. To fix this issue, recreate the file upload questions to allow responders to upload files again.
 
 **OneNote**<br>
 If users have a notebook open during the site address change, they'll see a notebook sync error. After the address is changed, the following OneNote apps will automatically detect and seamlessly sync notebooks to the new site URL:
@@ -150,7 +159,7 @@ Files in the recycle bin will be restorable as per the usual deletion timeframe.
 The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
 
 **SharePoint workflow 2013**<br>
-SharePoint workflow 2013 will need to be re-published after the site address is changed.
+SharePoint workflow 2013 will need to be republished after the site address is changed.
 
 **Sharing links**<br>
 After the site address is changed, sharing links will automatically redirect to the new URL.

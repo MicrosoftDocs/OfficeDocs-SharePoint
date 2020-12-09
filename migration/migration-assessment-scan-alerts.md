@@ -26,7 +26,7 @@ Learn how to fix issues with alerts during migration.
   
 ## Overview
 
-Most migration tools do not migrate alerts. Alerts are created on items, lists, and libraries to notify a user of when content changed. This report provides visibility into the alerts that are currently configured in the source environment. If users would like to be notified of content changes after the migration, they will need to configure the alerts on the new environment.   As a result of alerts not migrating, we provide a lot of raw data associated with the alerts should the need arise to recreate the alerts post migration.
+Most migration tools do not migrate alerts. Alerts are created on items, lists, and libraries to notify a user of when content changed. This report provides visibility into the alerts that are currently configured in the source environment. If users would like to be notified of content changes after the migration, they will need to configure the alerts on the new environment. As a result of alerts not migrating, we provide ample raw data associated with the alerts should the need arise to recreate the alerts post migration.
   
 ## Data Migration
 
@@ -68,16 +68,16 @@ This scan report provides a list of all the alerts installed in the environment.
 |WebURL  <br/> |Web URL.  <br/> |
 |Title  <br/> |Title of the alert.  <br/> |
 |AlertTemplateName  <br/> |Name of the alert.  <br/> |
-|Filter  <br/> |The CAML query filter applicaed to the alert.  <br/> |
+|Filter  <br/> |The CAML query filter applied to the alert.  <br/> |
 |ID  <br/> |ID assigned to the alert.  <br/> |
 |MatchID  <br/> |Per-filtering ID for an externally matched alert.  <br/> |
-|ItemID  <br/> |ID of the item an alert is assocatiated with. IF this is empty, the alert is associated with the list instead.  <br/> |
+|ItemID  <br/> |ID of the item an alert is associated with. IF this is empty, the alert is associated with the list instead.  <br/> |
 |ListURL  <br/> |Time the add-in was installed.  <br/> |
 |ListID  <br/> |ID of the list the alert is associated with.  <br/> |
 |List  <br/> |ID or the web hosting the add-in  <br/> |
-|AlwaysNotify  <br/> |URL of the webhosting the add-in.  <br/> |
+|AlwaysNotify  <br/> |URL of the web hosting the add-in.  <br/> |
 |DeliveryChannels  <br/> |Title of the web hosting the add-in.  <br/> |
-|AlertType  <br/> |The type of object to which the alert applies, which can be a list or document library, a list item or document, or a custom object.  <br/> |
+|AlertType  <br/> |The type of object to which the alert applies. It can be a list or document library, a list item or document, or a custom object.  <br/> |
 |EventType  <br/> |The type of event to which the alert applies.  <br/> |
 |EventTypeBitmask  <br/> |This can be ignored.  <br/> |
 |AlertFrequency  <br/> |Gets or sets the time interval for sending the alert.  <br/> |
