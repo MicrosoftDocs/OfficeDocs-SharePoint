@@ -138,10 +138,10 @@ To block or limit access to specific sites, follow these steps. If you have conf
     To update multiple sites at once, use the following command as an example:
 
     ```PowerShell
-    ,(Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/'") | Set-SPOTenant -ConditionalAccessPolicy AllowLimitedAccess
+    ,(Get-SPOSite -IncludePersonalSite $true -Limit all -Filter "Url -like '-my.sharepoint.com/personal/'") | Set-SPOSite -ConditionalAccessPolicy AllowLimitedAccess
     ```
 
-    This example gets the OneDrive for every user and passes it as an array to Set-SPOTenant to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request, which is fastest.
+    This example gets the OneDrive for every user and passes it as an array to Set-SPOSite to limit access. The initial comma and the parentheses are required for running this cmdlet as a batch request, which is fastest.
 
 > [!NOTE]
 > By default, a setting that includes web access allows users to view and edit files in their web browser. To change this, see [Advanced configurations](control-access-from-unmanaged-devices.md#advanced). 
