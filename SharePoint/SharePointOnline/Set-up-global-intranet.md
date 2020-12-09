@@ -2,7 +2,7 @@
 Title: "Set up an intranet for a global organization"
 ms.reviewer: 
 ms.author: loreenl
-author: 
+author: loreenl
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -27,17 +27,24 @@ organization
 
 If your organization has team members in multiple locations around the world, you have additional considerations and options as you plan for your SharePoint intelligent intranet. For example, you may want different branding for individual regions, or have all regions access one home page. You may want to target content to team members  in certain regions or countries. You may want to provide sites in multiple languages. Or you may need to comply with data residency requirements in certain countries.
 Here are options to consider which can be used independently or in combination to meet the needs of your global intranet and create the best experience for your users.
-Hub sites
-Multilingual sites and pages
-Regional settings
-Audience targeting
-Multi-geo for data residency requirements
+
+[Hub sites](#Hub-sites)
+
+[Multilingual sites and pages](#Multilingual-sites-and-pages)
+
+[Regional settings](#Regional-settings)
+
+[Audience targeting](#Audience-targeting)
+
+[Multi-Geo for data residency requirements](Microsoft-365-Multi-Geo)
 
 ## Hub sites
-You can create individual sites for different departments  and regions, and you can connect those sites to a hub. The advantage to using hub sites is that they provide a flat architecture that is flexible and carries branding and navigation across multiple sites connected to the hub. 
+You can create individual sites for different departments and regions, and you can connect those sites to a hub. The advantage to using hub sites is that they provide a flat architecture that is flexible and carries branding and navigation across multiple sites connected to the hub. 
+
+![Hub site concept](media\HubSiteExample.png)
 
 For your global organization, consider whether you want to create individual hubs for each region, or a main hub site that staff in all regions access. If you want branding and navigation to carry across your entire organization, you could have a hub site that everyone enters through. If you have subsidiaries in different regions that have their own branding and navigation, you can create a hub site for each region.
-[Learn how to plan for hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites)
+[Learn how to plan for hub sites](https://docs.microsoft.com/en-us/sharepoint/planning-hub-sites).
 
 ## Multilingual sites and pages 
 A separate consideration for a global or regional intranet is whether you want to set up sites on your intranet to be multilingual so that users can read and work with content in their preferred languages. 
