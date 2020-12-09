@@ -53,7 +53,7 @@ A separate consideration for a global or regional intranet is whether you want t
 User interface elements like site navigation, site title, and site description can be shown in the [user's preferred language](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7). Additionally, you can provide pages and news posts on communication sites that you translate to users’ preferred languages. For example, you may have provisioned your site with a default language of English, but you have users who have set their language preference to Spanish, and users who have set their language preference to French. You can set up your site(s) to view in the site default language as well as in French and Spanish. 
 >**Note** User interface elements and pages are not translated automatically. Each page created in your default language can have a corresponding page in a chosen target language that you, or someone you assign, manually translates. After you translate such a page and publish it, it will automatically be displayed to users who have set a preferred language in their Office personal profile. 
 
-**Next steps**
+**Next steps for multilingual sites and pages**
 * Site owners determine which [languages to support](https://support.microsoft.com/office/languages-supported-by-sharepoint-dfbf3652-2902-4809-be21-9080b6512fff) on their sites 
 
 * Site owners [enable multilingual features and choose languages](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c#bkmk_enable)
@@ -70,7 +70,7 @@ Audience targeting helps the most relevant content get to the right audiences. B
 
 For example, you might want to prominently display news about a sales meeting in Asia to users in that region rather than display it prominently to all regions. 
 
-**Next steps**
+**Next steps for audience targeting**
 * Learn how to [set up audience targeting](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81)
 
 * Learn more about [creating groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide) for audience targeting
@@ -86,7 +86,7 @@ The M365 administrator needs to enable Multi-Geo, and then SharePoint admins man
 
 >A differentiated service called Microsoft Cloud Germany is being migrated to Office 365 services in the new German datacenter. For more information see [Migration from Microsoft Cloud Deutschland to Office 365 services in the new German datacenter regions](https://docs.microsoft.com/microsoft-365/enterprise/ms-cloud-germany-transition?view=o365-worldwide).
 
-**Next steps**
+**Next steps for Microsoft 365 Multi-Geo**
 * Microsoft 365 administrators [plan](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-tenant-configuration?view=o365-worldwide) and [set up](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-tenant-configuration?view=o365-worldwide) Multi-Geo for their organization
 
 * SharePoint administrators [set up Multi-Geo](https://techcommunity.microsoft.com/t5/office-365-blog/now-available-multi-geo-in-sharepoint-and-office-365-groups/ba-p/263302) in the SharePoint admin center to enable Multi-Geo features [across the user experience](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-user-experience?view=o365-worldwide)
