@@ -29,7 +29,7 @@ A scan of the source tenant determines how many users, files, and how much data 
 
 ### Source users
 
-From the Transfer Wizard do the following:
+From the Transfer Wizard:
  
 1. Select **Source** > **Manage** > **Connect**.
 
@@ -53,13 +53,13 @@ An icon appears and displays how many possible users are available for migrating
 ![Transfer destination](media/mover-transfer-wizard-destination-2.png)
 
 
-You will now want to create the Migration.
+Now you will create the migration.
 
 1. Select **Continue Migration Setup**.
 
 ![Start transfer](media/mover-start-transfer.png)
   
-2. Create a user list of those transferring. Select **Add Users** .
+2. Create a user list of those transferring. Select **Add Users.
 3. Select  **Auto Discover Users** and the app will automatically find your users and attempt to match them up.
 4. Once the Auto-Discover completes, Migration Manager will display the matching transfers for users between Source and Destination. 
 
@@ -70,9 +70,9 @@ If any of your Destination users do not have a match and their destination path 
 To download the report:
 
 1. In **Migration Manager** select  **Migration Actions > Migration Report**.  This downloads the Migration Report as a CSV file to your downloads folder.  Open this CSV file.
-2. Copy the three columns entitled **Schedule ID, Source and Destination**.
+2. Copy the three columns entitled **Schedule ID, Source, and Destination**.
 3. Open a new blank Excel worksheet.
-4. Paste the **Schedule ID, Source and Destination** columns from Step 2 into columns A, B and C of the blank worksheet.
+4. Paste the **Schedule ID, Source, and Destination** columns from Step 2 into columns A, B and C of the blank worksheet.
 5. Rename the headings to ID, Source Path and Destination Path.
 6. Filter on the blanks within column C (Destination Path).  
 7. In the blank cells type, "No matching user". Clear the filter from “Destination Path”.
@@ -97,7 +97,7 @@ It is best practice to start one Scan to ensure that both connectors are active 
  
 The transfer will turn from white to blue and the Status column changes to **Queued to Scanning.**  The columns for Files Skipped and Data Skipped should increase in number and size.  This indicates that the Scan for this transfer is running successfully.
 
-While running a scan you should expect to see the following status types:
+While running a scan, you should expect to see the following status types:
 
 
 |Scan status type|Comment|
@@ -105,7 +105,7 @@ While running a scan you should expect to see the following status types:
 |Failed	|This status means that the Scan has failed on the Source user and should be scanned again and if it continues to fail, investigation is required.|
 |Never Run|This status means the Scan has not yet been run.|
 |Scanning|This status means the Scan is currently running.|
-|Some Problems|This status means that the Scan completed but encountered some possible errors on the Source and should be scanned again and if it continues to report Some Problems investigation is required.|
+|Some Problems|This status means that the Scan completed but encountered some possible errors on the Source and should be scanned again and if it continues to report. Some Problems investigation is required.|
 |Success|This status means the Scan has successfully completed.|
 |Queued|This status means the Scan is currently queued and will switch to Scanning status once the transfer is picked up on the queue.|
 
@@ -114,7 +114,7 @@ Once the scan completes, the majority of your transfers should turn green (see t
 
 ![Scan example](media/mover-scan-example.png)
 
-If some entries for users' files and data are blank, this usually indicates that the user owns 0 files or data. After the first scan finishes successfully, we recommend selecting just the next five users and run a scan against those. If that scan also returns green, then select all users and then click **Scan Users** to queue all other users.
+If some entries for users' files and data are blank, this usually indicates that the user owns zero files or data. After the first scan finishes successfully, we recommend selecting just the next five users and run a scan against those. If that scan also returns green, then select all users and then click **Scan Users** to queue all other users.
 
 ![Scan active filter](media/mover-active-filter.png)
  
@@ -153,9 +153,9 @@ The zip file contains the following reports:
 |:-----|:-----|
 |**CommonPathReport**|This report provides a list of suggested path locations in the directory structure where to move any files/folders that exceed the Office 365 400-character limit as reported in the LongPathReport. These are suggested locations that if a customer were to move the long path file/folders to this location then the character length would be below the 400-character limit and the tool can then migrate the content.|
 |**FilesExtensionReport**|This report provides a list all file extension types that exist in the Source tenant and the total amount of data for each file extension type.|
-|**LargeFilesReport**|This report provides a list of any files that exceed the 15GB filesize limit that tools current API supports.  Any files over this limit will not be migrated via the tool. Though Microsoft is now supporting 100GB file limits, the current tool API does not.  This will be deployed in due course but at present <15GB is the largest filesize that the tool can migrate.|
-|**LongPathReport**|This report provides a list of any files and/or folders that currently exceed the 400-character length limit within Office 365. If a customer does not remediate these long path files/folders then the tool will not be able to migrate the files or folder contents.  As noted above, we provide the CommonPathReport to aid customers in finding suitable locations to move the content to, that will ensure that it can be migrated.|
-|**ScanSummaryReport**|This report provides the full list of all users scanned within the Source tenant and captures how many files they own, how much data they own and provides details on the status of each scanned transfer.Though these are all important reports for Managed Migration purposes the three key reports we focus upon are the CommonPathReport, LongPathReport and ScanSummaryReport.|
+|**LargeFilesReport**|This report provides a list of any files that exceed the 15-GB file size limit that tools current API supports.  Any files over this limit will not be migrated via the tool. Though Microsoft is now supporting 100 GB file limits, the current tool API does not.  This will be deployed in due course but at present <15 GB is the largest file size that the tool can migrate.|
+|**LongPathReport**|This report provides a list of any files and/or folders that currently exceed the 400-character length limit within Office 365. If a customer does not remediate these long path files/folders, then the tool will not be able to migrate the files or folder contents.  As noted above, we provide the CommonPathReport to aid customers in finding suitable locations to move the content to, that will ensure that it can be migrated.|
+|**ScanSummaryReport**|This report provides the full list of all users scanned within the Source tenant and captures how many files they own, how much data they own and provides details on the status of each scanned transfer. Though these are all important reports for Managed Migration purposes the three key reports we focus upon, are the CommonPathReport, LongPathReport and ScanSummaryReport.|
 
 ### Creating a customer report
 
@@ -175,11 +175,11 @@ Below we will discuss how to populate the Pre-Scan Results tabs to provide all t
 
 **Pre-Scan Results**
 
-When you open the Pre-Scan Results Excel sheet you will see it is populated with the following columns/information.
+When you open the Pre-Scan Results Excel sheet, you will see it is populated with the following columns/information.
 
 ![Scan report fails](media/mover-prescan-excel.png) 
 
-In order to populate these columns we will take the data from the ScanSummaryReport file that was generated in the zip file.  
+In order to populate these columns, we will take the data from the ScanSummaryReport file that was generated in the zip file.  
 
 1. Open the ScanSummaryReport file and then copy the following columns into your Pre-Scan results sheet.
 
@@ -194,7 +194,7 @@ Your Pre-Scan results could look something like this:
 
  ![PRe Scan results](media/mover-prescan-results.png)
 
-The totals for Files and TB are automatically calculated,  giving you the total number of files and data scanned for the Source tenant. As a matter of practice, we prefer to organzie the scan results by status, showing the Failed transfers at the top of the Report. 
+The totals for Files and TB are automatically calculated,  giving you the total number of files and data scanned for the Source tenant. As a matter of practice, we prefer to organize the scan results by status, showing the Failed transfers at the top of the Report. 
 
 ![Scan report sort](media/mover-prescan-results-sort.png) 
 
@@ -219,13 +219,13 @@ In the Destination Path column, you will see that all users with a matching Dest
 As when we are migrating into Office 365 Destinations, ALL transfers should have a specific folder in which to migrate the data into.  This is true for both OneDrive and SharePoint transfers and it is something agreed upon with stakeholders before starting the migration.
 
 
-Some other items of note for completing the Pre-Scan tab are as follow:
+Some other items of note for completing the Pre-Scan tab are as follows:
 
 |Issue|Action|
 |:-----|:-----| 
-|Failed scans|Download and review the Migration Error Report. The most common reasons for failed users is either  "cannot be found” or  "account has been deactivated”. Copy the error messages those against the corresponding Failed Users in the Notes column on the Pre-Scan Results.|
+|Failed scans|Download and review the Migration Error Report. The most common reasons for failed users are either  "cannot be found” or  "account has been deactivated”. Copy the error messages those against the corresponding Failed Users in the Notes column on the Pre-Scan Results.|
 |Users with greater than 400,000 files|For any of these users, add a comment of “Large file/data owner” in the notes column. Any user with such a large amount of items needs to be reviewed for c splitting up their data into multiple services accounts before migration.| 
-|Users with greater than 5TB of data|For any of these users, add a comment of “Large file/data owner” in the notes column. AAny user with such a large amount of items needs to be reviewed for c splitting up their data into multiple services accounts before migration.|
+|Users with greater than 5 TB of data|For any of these users, add a comment of “Large file/data owner” in the notes column. Any user with such a large amount of items needs to be reviewed for c splitting up their data into multiple services accounts before migration.|
 |Users who own 0 files|For any of these users, add a comment of “Users owns 0 files/data” in the notes column. Users who own 0 files can usually be excluded from the main migration as it adds extra time and resources to a migration, especially if there are 100s or 1000s of 0 files/data transfers.|
 |Migrate (Y/N)|This column is for the customer to mark who they would like to include in the migration. This does not have to specifically be Y or N as you may be migrating some users in pilot test for the migration vs the main migration.| 
 
