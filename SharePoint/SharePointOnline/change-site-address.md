@@ -65,8 +65,10 @@ Before you change the address of a site, it's important to communicate the chang
 
 1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page.
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. To open the details pane, select the site name.
 
@@ -76,8 +78,10 @@ Before you change the address of a site, it's important to communicate the chang
 
 4. Enter the new site address, and then select **Save**.
 
-> [!NOTE]
-> You can't change the address of hub sites, sites that are locked or on hold, Project Web App (PWA) sites, or sites that have BCS connections. <br>When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
+   > [!NOTE]
+   > You can't change the address of hub sites, sites that are locked or on hold, Project Web App (PWA) sites, or sites that have BCS connections.
+   > 
+   > When you change a site address, we create a redirect at the previous address. If you want to reuse the previous address, you need to delete the redirect. [Learn how](manage-site-redirects.md) 
 
 ## Change site addresses by using Microsoft PowerShell
 
@@ -96,11 +100,11 @@ Before you change the address of a site, it's important to communicate the chang
 
 4. Run the following command to change the site address:
 
-    ```PowerShell
-    Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl>
-    ```
+   ```PowerShell
+   Start-SPOSiteRename -Identity <SiteURL> -NewSiteUrl <NewSiteURl>
+   ```
 
-For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
+   For more info about this cmdlet, see [Start-SPOSiteRename](/powershell/module/sharepoint-online/start-spositerename?view=sharepoint-ps)
 
 ## Effects of changing a site address
 
