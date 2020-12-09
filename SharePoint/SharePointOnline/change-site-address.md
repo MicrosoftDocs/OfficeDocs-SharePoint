@@ -153,7 +153,7 @@ Files in the recycle bin will be restorable as per the usual deletion timeframe.
 The SharePoint mobile apps will detect the site's new URL. Make sure that users have updated their apps to the latest version.  
 
 **SharePoint workflow 2013**<br>
-SharePoint workflow 2013 will need to be re-published after the site address is changed.
+SharePoint workflow 2013 will need to be republished after the site address is changed.
 
 **Sharing links**<br>
 After the site address is changed, sharing links will automatically redirect to the new URL.

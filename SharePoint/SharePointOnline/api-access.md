@@ -51,7 +51,7 @@ The API access page shows pending and approved requests. It also shows which req
 1. Select the request, and select **Reject**.
 2. Select **Reject** again to confirm.
 
-Rejecting access doesn't remove the app from the App Catalog. If the app is used on any sites, it might not work as expected. After you reject the request, it is removed from the page and the developer will need to issue a new request with the same resource and scope.
+Rejecting access doesn't remove the app from the App Catalog. If the app is used on any sites, it might not work as expected. After you reject the request, it's removed from the page and the developer will need to issue a new request with the same resource and scope.
 
 ## Remove access to a previously approved request
 
