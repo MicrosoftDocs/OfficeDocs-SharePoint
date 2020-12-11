@@ -31,7 +31,7 @@ If you do need to customize SharePoint groups, this article describes how.
 A SharePoint group is a collection of users who all have the same set of permissions to sites and content. Rather than assign permissions one person at a time, you can use groups to conveniently assign the same permission level to many people at once. 
   
 > [!NOTE]
->  To do the following steps, you need a permission level that includes permissions to  *Create Groups*  and  *Manage Permissions*  . The **Full Control** level has both. For more information, see [Understanding permission levels in SharePoint](understanding-permission-levels.md).
+>  To do the following steps, you need a permission level that includes permissions to  *Create Groups*  and  *Manage Permissions*. The **Full Control** level has both. For more information, see [Understanding permission levels in SharePoint](understanding-permission-levels.md).
 
 ### Create a group
 <a name="__toc340230102"> </a>
@@ -40,7 +40,7 @@ A SharePoint group is a collection of users who all have the same set of permiss
     
 2. On the **Permissions** page, click **Advanced Permissions Settings**.
   
-The permissions page opens.
+   The permissions page opens.
     
 3. On the **Permissions** tab, click **Create Group**. 
     
@@ -103,7 +103,7 @@ You can add users to a group at any time.
     
 4. In the **Share** dialog, type the name of the SharePoint group that you want to give access to. 
     
-5. By default, the **Share** dialog displays the message **Invite people to Edit** or **Invite people** with **Can edit** permissions. This grants permissions in the SharePoint Members group. To choose a different permission level, click **Show options** and then choose a different SharePoint group or permission level under **Select a permission level** or **Select a group or permission level**. The drop down box shows both groups and individual permission levels, like **Edit** or **View Only**. 
+5. By default, the **Share** dialog displays the message **Invite people to Edit** or **Invite people** with **Can edit** permissions. This grants permissions in the SharePoint Members group. To choose a different permission level, click **Show options** and then choose a different SharePoint group or permission level under **Select a permission level** or **Select a group or permission level**. The drop-down box shows both groups and individual permission levels, like **Edit** or **View Only**. 
     
 6. Click **Share.**
     
