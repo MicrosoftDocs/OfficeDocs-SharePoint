@@ -3,13 +3,13 @@ title: "Customize SharePoint site permissions"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: b1e3cd23-1a78-4264-9284-87fed7282048
@@ -19,6 +19,8 @@ description: "This article contains information on how to customize SharePoint s
 ---
 
 # SharePoint site permissions
+
+This article contains advanced scenarios for customizing site permissions. Most organizations won't need these options. If you just want to share files or folders, see [Share SharePoint files or folders](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c). If you want to share a site, see [Share a site](https://support.microsoft.com/office/958771a8-d041-4eb8-b51c-afea2eae3658).
 
 While SharePoint allows considerable customization of site permissions, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Microsoft 365 group. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
 
