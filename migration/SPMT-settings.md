@@ -68,14 +68,14 @@ The following table details the settings available in SPMT.  Advanced settings s
 
 |**Setting**|**Description**|
 |:-----|:-----|
-|Migrate site settings|This setting is available only when the source selected is *all lists, libraries, pages, and web parts*. Four options are available:</br> **Preserve all settings**:  Migrate all site level settings supported, including title, logo, features, audit settings, etc. </br> **Skip title and logo:**  Title and logo are skipped, but all other site settings will be migrated.</br>  **Only title and logo:**  Only the title and logo will migrate. </br> **Skip all settings:**  No site level settings will be migrated.|
+|Migrate site settings|This setting is available only when the source selected is *all lists, libraries, pages, and web parts*. Four options are available:</br> **Preserve all settings**:  Migrate all site level settings supported, including title, logo, features, audit settings, and others. </br> **Skip title and logo:**  Title and logo are skipped, but all other site settings will be migrated.</br>  **Only title and logo:**  Only the title and logo will migrate. </br> **Skip all settings:**  No site level settings will be migrated.|
 |Skip list with audience targeting enabled|Choose if you want to migrate SharePoint Server lists with audience targeted enabled. |
 |Migrate all site fields and content types|Choose if you want to migrate sites fields even if they aren't required for migration.|
 |Migrate managed metadata|Choose if you want to migrate all managed metadata terms that are in use on the site.|
 |Migration of web parts and pages|Choose how to handle migration if the pages and web parts already exist in the destination.</br> Select one: *Overwrite duplicate*, *Rename duplicate*, *Skip duplicate*, or *Do not migrate*.|
 |Temporarily allow migration of scripts|This setting will automatically allow the migration of scripted web parts.|
 |Migrate site navigation|Migrate the navigation links of a site or page in SharePoint.|
-|Migrate lists with lookup columns|This setting controls the behavior of migrating all lists referenced in lookup columns.  Options include:  *Migrate all lists referenced in lookup columns*, *Ignore lookup columns in migrated lists*, and *Only report error for any list with a lookup column. Do not migrate.*   This setting is only availabe if the source selected in a task is a list.
+|Migrate lists with lookup columns|This setting controls the behavior of migrating all lists referenced in lookup columns.  Options include:  *Migrate all lists referenced in lookup columns*, *Ignore lookup columns in migrated lists*, and *Only report error for any list with a lookup column. Do not migrate.*   This setting is only available if the source selected in a task is a list.
 
 
 
