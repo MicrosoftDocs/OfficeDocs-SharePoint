@@ -25,7 +25,7 @@ organization"
 ---
 # Considerations when planning for a global intranet
 
-If your organization has team members in multiple locations around the world, you have additional considerations and options as you plan for your SharePoint intelligent intranet. For example, you may want different branding for individual regions, or have all regions access one home page. You may want to target content to team members  in certain regions or countries. You may want to provide sites in multiple languages. Or you may need to comply with data residency requirements in certain countries.
+If your organization has team members in multiple locations around the world, you have additional considerations and options as you plan for your SharePoint intelligent intranet. For example, you may want different branding for individual regions. You may want to target content to team members in certain regions or countries. You may want to provide sites in multiple languages. Or you may need to comply with data residency requirements in certain countries.
 Here are options to consider which can be used independently or in combination to meet the needs of your global intranet and create the best experience for your users.
 
 [Hub sites](#hub-sites)
