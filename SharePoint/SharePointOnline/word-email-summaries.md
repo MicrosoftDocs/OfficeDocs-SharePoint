@@ -48,5 +48,5 @@ If you, as a global or SharePoint admin in Microsoft 365, don't want recipients 
 3. Run the following command:
     
    ```PowerShell
-   Set-SPOTenant -IncludeAtAGlanceInShareEmails 
+   Set-SPOTenant -IncludeAtAGlanceInShareEmails $false 
    ```
