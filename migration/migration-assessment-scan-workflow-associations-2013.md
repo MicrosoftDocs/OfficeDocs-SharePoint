@@ -37,16 +37,16 @@ SharePoint source farms may run Workflow 2013 using a version of the Workflow Ma
 
 Workflow Data is divided into two parts:
   
-- **Workflow Definition:** The definition describes the overall workflow process, e.g. a three stage approval workflow with custom routing rules for each stage. This data lives in O365 and will be migrated with the rest of the O365 data and will be available in your target environment. 
+- **Workflow Definition:** The definition describes the overall workflow process, for example, a three stage approval workflow with custom routing rules for each stage. This data lives in Office 365 and will be migrated with the rest of the Office 365 data and will be available in your target environment. 
     
-- **Workflow Instances:** Each running instance of a workflow definition maintains the state of the workflow, e.g. this document is in Stage Two of the approval process and is assigned to John Doe. This data lives in the Azure Workflow Manager. Unfortunately, the Azure team does not have the technology to migrate Workflow Manager data from the current source environments to Azure instances. The result of this will be the loss of all running workflow instances. For example, a document that was in Stage Two of a workflow in the source environment will be back to Stage Zero (workflow not started) post migration to the target environment. 
+- **Workflow Instances:** Each running instance of a workflow definition maintains the state of the workflow, for example, this document is in Stage 2 of the approval process and is assigned to John Doe. This data lives in the Azure Workflow Manager. Unfortunately, the Azure team does not have the technology to migrate Workflow Manager data from the current source environments to Azure instances. The result of this will be the loss of all running workflow instances. For example, a document that was in Stage 2 of a workflow in the source environment will be back to Stage Zero (workflow not started) post migration to the target environment. 
     
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
   
 ## Preparing for Migration
 
-To avoid unnecessary workflow restarts it is best to complete in-flight workflows before the migration event when your content is moved to the target environment. If the feature is in use in the source environment today you can receive a list of running instances of workflows prior to the migration event, so that you can communicate this status to your site owners.
+To avoid unnecessary workflow restarts, it is best to complete in-flight workflows before the migration event when your content is moved to the target environment. If the feature is in use in the source environment today you can receive a list of running instances of workflows prior to the migration event, so that you can communicate this status to your site owners.
   
 ## Post Migration
 
