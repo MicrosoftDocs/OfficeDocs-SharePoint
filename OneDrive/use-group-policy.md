@@ -316,6 +316,9 @@ Enabling this policy sets the following registry key value to 1.
   
 If you disable or do not configure both this setting and [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts), users can use the fetch feature. For more info about fetching files, see [Fetch files on your PC](https://support.office.com/article/70761550-519c-4d45-b780-5a613b2f8822).
 
+> [!NOTE]
+> This setting has been removed from the OneDrive administrative template files (ADMX/ADML) because the Fetch files feature has been deprecated July 31, 2020.
+
 ### Prevent users from moving their Windows known folders to OneDrive
 <a name="BlockKnownFolderMove"> </a>
 
