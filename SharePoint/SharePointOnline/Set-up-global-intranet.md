@@ -20,8 +20,7 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn about setting up a SharePoint intranet for a global 
-organization"
+description: Learn about setting up a SharePoint intranet for a global organization.
 ---
 # Considerations when planning for a global intranet
 
