@@ -28,7 +28,34 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.120.7](https://aka.ms/spmt-beta-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.5](https://aka.ms/spmt-ga-page)|[3.4.120.5](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.121.1](https://aka.ms/spmt-beta-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|
+
+## SPMT 3.4.121.1
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
+## SPMT 3.4.121.0
+
+The following improvements were added to this release:
+
+**New Features**
+
+|Feature| Description|
+|:-----|:-----|
+|New setting|A  new setting for SharePoint migration, **Migrate lists with lookup columns**, will control the behavior of migrating all lists referenced in lookup columns.|
+|New PowerShell parameter|A new parameter for SharePoint migration, -LookupReferencePolicy, has been added to the cmdlet Register-SPMTMigration. This parameter will control the behavior of migrating all lists referenced in lookup columns. Setting options include: *FIND_ALL_REFERENCE*, *SKIP_AND_CONTINUE* and *DO_NOT_MIGRATE*. The default setting is *FIND_ALL_REFERENCE*. |
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+|User interface|Warning messages will display in the tool when migration is throttled by SharePoint.|
 
 
 ## SPMT 3.4.120.7
