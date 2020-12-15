@@ -12,6 +12,7 @@ localization_priority: Priority
 ms.collection: 
 - M365-collaboration
 - SPMigration
+- m365initiative-migratetom365
 search.appverid: MET150
 ---
 

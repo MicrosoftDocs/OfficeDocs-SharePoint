@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Authorizing the Dropbox Connector"
 ---
@@ -71,9 +72,5 @@ If you aren't already connected after you have authorized your source, select **
 
 ![execution select Dropbox source](media/execution-select-Dropbox-source.png)
 
-## Connect your destination Office 365 account
 
-If you aren't already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and shows you how many users you are migrating.
-
-![Execution select Office 365 destination](media/execution-select-office-365-destination.png)
 
