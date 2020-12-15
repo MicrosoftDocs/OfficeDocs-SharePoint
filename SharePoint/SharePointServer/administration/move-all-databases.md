@@ -285,7 +285,7 @@ Use the following procedure to update the database connections if you use ShareP
 
 Where:
     
-  - \<AGGroupName\> is the name of the Avaliability Group.
+  - \<AGGroupName\> is the name of the Availability Group.
     
   - \<DatabaseName\> is the name of the database that you are adding to the Availability Group
     
