@@ -1,5 +1,5 @@
 ---
-Title: "Planning considerations for a global intranet"
+title: "Planning considerations for a global intranet"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
