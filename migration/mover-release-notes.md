@@ -18,6 +18,26 @@ description: "Mover Release Notes"
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
 
+
+## Backend v1.19.21.22 (December 16, 2020)
+
+- Fix.  Users could not authorize new Box (Single User) connectors after Box restricted some features from Mover's client. This issue is fixed.
+- Fix. Some users received the error "document library could not be found" when attempting transfers to certain SharePoint Online Document Libraries. This issue is fixed.
+- Fix.  Transfers from or into OneDrive Consumer that were throttled had issues when re-trying the affected operations. An authorization related error message would appear on the User Log for these transfers. Re-tries now have proper authorization in place. This issue is fixed.
+
+
+## Backend v1.19.21.5 (December 10, 2020)
+This release fixes an issue with Egnyte Connector retrieving groups.
+
+- Fix. While trying to retrieve groups for Egnyte, migration would fail as it created an infinite loop. Retrieval of groups is now successful.
+
+## Backend v1.19.21.1 (December 4, 2020)
+This release fixes an issue with Box connector authorization.
+
+- Fix.  Some users reported issues authorizing new Box connectors or re-authorizing existing Box connectors. This is due to Box blocking our authorization attempts for our current Box client. New Box clients have been created to bypass this issue and authorization of Box connectors should be working again.
+
+
+
 ## Backend v1.19.18 (November 10, 2020)
 
 - Fix. Images included in Box notes are now correctly transferred and rendered in Microsoft Word.  
