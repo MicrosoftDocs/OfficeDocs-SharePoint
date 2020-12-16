@@ -23,11 +23,9 @@ description: "Learn about how the Migration Manager tool in the modern SharePoin
 # Migrate your files to Microsoft 365 with Migration Manager
 
 >[!NOTE]
->Migration Manager currently supports only the migration of **file shares**.
->
->This release does not support the migration of content from SharePoint Server.
+>Migration Manager currently supports only the migration of **file shares**.  This release does not support the migration of content from SharePoint Server.
 
-Get the scale and security you need to meet today’s business challenges—and tomorrow’s—through cloud migration.
+Get the scale and security you need to meet today’s business challenges —and tomorrow’s—through cloud migration.
 
 Migrating content to the cloud is a time and resource intensive process and normally involves scaling up resources to accommodate the large volume of content that you are moving. This comes at a high operational cost of individually managing each migration computer and the migrations tasks that are running on it. Plus you aren't able to automatically load balance your jobs, or view at a glance the progress and status of your migration tasks across all your computers.
 
