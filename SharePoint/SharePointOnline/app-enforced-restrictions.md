@@ -27,7 +27,7 @@ These steps in the Azure AD admin center tell Azure to use the SharePoint site-l
 
     ![Conditional access policies in the Azure AD admin center](media/azure-ca-new-policy.png)
 
-2. Enter a suitable name for the policy you are creating.
+2. In the **Name** box, type a name for the policy.
 
 3. Select **Users and groups**, and then select whether you want the policy to apply to all users or only select users or groups.
 
