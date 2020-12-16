@@ -25,7 +25,6 @@ This article discusses cumulative features and enhancements in the Mover migrati
 - Fix. Some users received the error "document library could not be found" when attempting transfers to certain SharePoint Online Document Libraries. This issue is fixed.
 - Fix.  Transfers from or into OneDrive Consumer that were throttled had issues when re-trying the affected operations. An authorization related error message would appear on the User Log for these transfers. Re-tries now have proper authorization in place. This issue is fixed.
 
-
 ## Backend v1.19.21.5 (December 10, 2020)
 This release fixes an issue with Egnyte Connector retrieving groups.
 
@@ -36,6 +35,26 @@ This release fixes an issue with Box connector authorization.
 
 - Fix.  Some users reported issues authorizing new Box connectors or re-authorizing existing Box connectors. This is due to Box blocking our authorization attempts for our current Box client. New Box clients have been created to bypass this issue and authorization of Box connectors should be working again.
 
+## Backend v1.19.20 (December 1, 2020)
+
+- Accessibility: The User Log view now uses a different ID for all elements in the page.
+
+
+## Frontend v1.19.2 (December 1, 2020)
+
+- Fix.  Accessibility: 'Start copy' button was getting activated before loading of folders in 'Select Source' step in the Transfer Wizard. If the user invoked 'Start Copy', the transfer would get triggered by copying all items from the root of the source and destination. A fix has been made to wait for folders to be fully loaded before activating the Start Copy button.
+- Fix.  Accessibility: Navigating through the list of folders in the Transfer Wizard using multiple tab stops was making navigation harder for users with motor impairments. Fix has been added to navigate the list using the keyboard arrow keys.
+- Accessibility: The Transfer Summary panel will now display a tooltip for every value in the top details table containing the transaction information.
+- Accessibility: The Migration Manager "Active filters" auto-suggestions are now accessible with the keyboard by pressing the down and up arrow keys from the filter search box.
+- Accessibility: In the Migration Manager, Active Filters section, the info button had a tooltip with filtering instructions. However, the narrator would not read the content, even if the tooltip was in focus. To make the content accessible, the tooltip was eliminated and, instead, a proper link to the documentation page was added: https://aka.ms/MoverMigrationManagerFilters.
+
+
+
+## Backend v1.19.19 (November 26, 2020)
+- During a transfer there might be a failure that is unrecoverable. It means the transfer completely failed and any rerun would not fix it, such as, Storage Quota Exceeded.
+However, when this happens during our 302 processing, the status of this processing take precedence. 
+Unfortunately, this means that the original unrecoverable state is now lost. This has been fixed. 
+If the transfer failed and it is an unrecoverable state, this state will now be preserved and displayed appropriately to the user.
 
 
 ## Backend v1.19.18 (November 10, 2020)
