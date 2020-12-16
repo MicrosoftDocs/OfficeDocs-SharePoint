@@ -19,7 +19,7 @@ This article discusses cumulative features and enhancements in the Mover migrati
 
 
 
-## Backend v1.19.21.22 (December 16, 2020)
+## Backend v1.19.22 (December 16, 2020)
 
 - Fix.  Users could not authorize new Box (Single User) connectors after Box restricted some features from Mover's client. This issue is fixed.
 - Fix. Some users received the error "document library could not be found" when attempting transfers to certain SharePoint Online Document Libraries. This issue is fixed.
