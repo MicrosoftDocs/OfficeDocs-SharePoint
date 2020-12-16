@@ -57,7 +57,7 @@ Communication sites aren't connected to Microsoft 365 groups and use the standar
 
 Normally with communication sites, you'll have one or more owners, a relatively small number of members who create the content for the site, and a large number of visitors who are the people you're sharing information with.
 
-You can give people permissions to the site by adding individual users, security groups, or Microsoft 365 groups to one of the three SharePoint groups.
+You can give people permissions to the site by adding individual users, security groups, or Microsoft 365 groups to one of the three SharePoint groups. (Nested security groups can cause performance issues and are not recommended.)
 
 If a communication site is used by members of a team in Teams, you may want to add the Microsoft 365 group associated with the team to the members group of the communication site. This will allow members of the team to create content in the communication site.
 
