@@ -26,15 +26,16 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 
 ## Coming soon
 - **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users will be able to specify pre-defined characters to replace invalid characters. 
-- **Auto site provisioning**. When migrating to SharePoint sites, if the site doesn't exist, it will be auto-provisioned before we start the migration. 
-
-## Current features through December 2020 
-
-- **Process multiple tasks per agent**. Each agent can now process 5-10 migration tasks, simulaneously so that you can finish your migrations faster. 
-- **Select a Teams as a destination**. Users will be able to select a Teams team and the channel as the migration destination. This is in addition to the existing ability to specify a Teams location by the URL.
-- **Select a OneDrive email as a destination**. Users will be able to input a OneDrive email address as the migration destination. This is in addition to the existing ability to specify a OneDrive location by the URL.
+- **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be auto-provisioned before we start the migration.
 
   
+## Current features through December 2020
+
+- **Process multiple tasks per agent.** Each agent can now process 5-10 migration tasks, simulaneously so that you can finish your migrations faster.
+- **Select a Teams as a destination.** Users will be able to select a Teams team and the channel as the migration destination. This is in addition to the existing ability to specify a Teams location by the URL.
+- **Select a OneDrive email as a destination.** Users will be able to input a OneDrive email address as the migration destination. This is in addition to the existing ability to specify a OneDrive location by the URL.
+
+
 ## Features through October 2020 
 
 - **Increased bulk task upload limits**. Users can create up to 50,000 separate migration tasks. This is an increase from the previous limit of 5,000 tasks in the bulk file.
