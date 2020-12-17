@@ -12,7 +12,6 @@
 ### [Migration Manager Reports](mm-reports.md)
 ### [FAQs](mm-faqs.md)
 ### [Troubleshooting Migration Manager](mm-troubleshoot.md)
-### [Performance guidance for Migration Manager](mm-performance.md)
 ## SharePoint Server site migration (SPMT)
 ### [Overview and download](introducing-the-sharepoint-migration-tool.md)
 ### [Release notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
@@ -114,7 +113,7 @@
 #### [Post-migration troubleshooting](mover-post-migration-troubleshooting.md)
 #### [Transfer logs](mover-transfer-logs.md)
 #### [Transfer status codes](mover-transfer-status-codes.md)
-#### [Error messages](mover-error-faq.md)
+#### [Error messages](mover-esrror-faq.md)
 #### [Account FAQ](mover-account-faq.md)
 #### [Mover Migration FAQ](mover-migration-faq.md)
 ## [Mover managed migration guide](mover-managed-migration-guide.md)
@@ -122,4 +121,4 @@
 ## [Migrate to Microsoft 365 using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
-### [SPMT & Migration Manager performance guidelance](spmt-performance-guidance.md)
+### [Performance guidance for SPMT & Migration Manager](spmt-performance-guidance.md)
