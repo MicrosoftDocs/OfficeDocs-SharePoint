@@ -28,7 +28,7 @@ The following image illustrates three segments in an organization: HR, Sales, an
 
 ![Example of segments in an organization](/sharepoint/sharepointonline/media/info-barriers-segments-example.png)
 
-With information barriers in OneDrive, when a segment is applied to a user, within 24 hours that segment is automatically associated with the user's OneDrive. Other segments that are compatible with the user's segment and with each other will also get associated with the OneDrive. A OneDrive can have up to 10 segments associated with it. A global or SharePoint admin can manage these segments using PowerShell, as described later in the section [Associate or remove additional segments on a user's OneDrive](#associate-or-remove-segments-on-a-users-onedrive).
+With information barriers in OneDrive, when a segment is applied to a user, within 24 hours that segment is automatically associated with the user's OneDrive. Other segments that are compatible with the user's segment and with each other will also get associated with the OneDrive. A OneDrive can have up to 100 segments associated with it. A global or SharePoint admin can manage these segments using PowerShell, as described later in the section [Associate or remove additional segments on a user's OneDrive](#associate-or-remove-segments-on-a-users-onedrive).
 
 In the above example, the HR segment is compatible with both Sales and Research. However, the Sales and Research segments are incompatible. In this case, the OneDrive for a user in Sales will have the Sales and HR segments, and the OneDrive for a user in Research will have the Research and HR segments. The OneDrive of a user in HR will have only the HR segment because Sales and Research are incompatible.
 
@@ -37,9 +37,9 @@ When these segments are associated with the OneDrive, content can be shared with
 ## Prerequisites
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. 
 - Create segments and define the users in each. Create policies that block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). Wait 24 hours for the changes to propagate through your environment.
-- After you have received an email response from us and set your information barrier policies to active, wait 24 hours for the changes to propagate through your environment.
+- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. Please note: SharePoint and OneDrive information barriers can only be enabled in your tenant if you have atleast one active information barriers policy defined in the tenant. 
+- After SharePoint and OneDrive information barriers is enabled in your tenant, wait 24 hours for the changes to propagate through your environment. 
  
 ## Sharing files from a OneDrive that has segments associated
 
@@ -134,10 +134,6 @@ Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i
 If a user’s segment changes, the segment associated with their OneDrive will be automatically updated to match within 24 hours, and any compatible segments will be added.
 
 If a policy changes after files are shared, the sharing links will work only if the user attempting to access the shared files has a segment applied that matches a segment associated with the OneDrive.
-
-## Not supported
-
-For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a OneDrive that has associated segments isn't supported. Remove any associated segments, move the OneDrive, and then reassociate the segments. 
 
 ## Example
 
