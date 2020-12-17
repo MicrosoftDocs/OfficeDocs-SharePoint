@@ -25,7 +25,6 @@ We're continuously adding new features to Migration Manager and fixing issues we
 You can help us improve Migration Manager by sending us your suggestions and reporting bugs you encounter. At the bottom of this page, click the Feedback button.
 
 ## Coming soon
-
 - **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users will be able to specify pre-defined characters to replace invalid characters. 
 - **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be auto-provisioned before we start the migration.
 
