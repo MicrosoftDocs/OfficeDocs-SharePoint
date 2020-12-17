@@ -122,4 +122,4 @@
 ## [Migrate to Microsoft 365 using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md)
 ## Migration performance
 ### [General migration guidance](sharepoint-online-and-onedrive-migration-speed.md)
-### [SPMT migration performance guidelines](spmt-performance-guidance.md)
+### [SPMT & Migration Manager performance guidelance](spmt-performance-guidance.md)
