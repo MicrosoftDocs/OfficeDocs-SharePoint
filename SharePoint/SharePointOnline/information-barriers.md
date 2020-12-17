@@ -26,16 +26,16 @@ The following image illustrates three segments in an organization: HR, Sales, an
 
 ![Example of segments in an organization](media/info-barriers-segments-example.png)
 
-With SharePoint information barriers, a SharePoint or global admin can associate segments to a site to prevent the site from being shared with or accessed by users outside the segments. Up to 10 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level). Segments can't be associated at the Microsoft 365 group level or subsite level.
+With SharePoint information barriers, a SharePoint or global admin can associate segments to a site to prevent the site from being shared with or accessed by users outside the segments. Up to 100 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level). Microsoft 365 group connected to the site is also associated with the site's segment.
 
 In the above example, the HR segment is compatible with both Sales and Research. However, because the Sales and Research segments are incompatible, they can't be associated with the same site. 
 
 ## Prerequisites
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. 
-- Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). 
-- After you have received an email response from us and set your information barrier policies to active, wait 24 hours for the changes to propagate through your environment. 
+- Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. Please note - SharePoint and OneDrive information barriers can only be enabled in your tenant if you already have atleast one active information barriers policy. 
+- After SharePoint and OneDrive information barriers is enabled in your tenant, wait 24 hours for the changes to propagate through your environment. 
 
 ## Use PowerShell to associate segments with a site
 
@@ -137,10 +137,6 @@ If a SharePoint site owner’s segment changes, the user won't be able to access
 If a compliance administrator changes an existing policy, the change may impact the compatibility of the segments associated with a site. For example, segments that were once compatible may no longer be compatible. A SharePoint admin must change the segments associated with an affected site accordingly. 
 
 Any sharing links will only work if a user's new segment or the new information barrier policy still allows the user to access the site.
-
-## Not supported
-
-For organizations that have [Microsoft 365 Multi-Geo](/office365/enterprise/office-365-multi-geo), moving a site that has associated segments isn't supported. Remove any associated segments, move the site, and then reassociate the segments. 
 
 ## See also
 
