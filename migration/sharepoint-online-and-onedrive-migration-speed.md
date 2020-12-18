@@ -131,8 +131,12 @@ Follow these steps:
 
 ## FAQ and Troubleshooting
 
-**Question: I am experiencing poor performance or throttling during migration.**</br>
-Answer:  Please check the guidance in this document, plus refer to [Avoid getting throttled or blocked in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
+**Question: I am experiencing poor performance during migration.**</br>
+Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](sharepoint-online-and-onedrive-migration-speed.md)
+
+
+**Question:  I am experiencing throttling during migration.**<br>
+Answer:  First check the guidance in this document. Learn more at: [Avoid getting throttled or blocked in SharePoint.](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)</br>For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
 **Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**</br>
 Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and **opening a support ticket will not lift throttle**. Please refer to [Avoid getting throttled or blocked in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.

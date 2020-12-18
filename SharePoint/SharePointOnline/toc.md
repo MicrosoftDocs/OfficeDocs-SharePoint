@@ -30,6 +30,7 @@
 ### [How to think about your intelligent intranet](trad-vs-modern-intranet.md)
 ### [Intranet roadmap](intranet-overview.md)
 ### [Plan your intranet](plan-intranet.md)
+### [Considerations when planning for a global intranet](set-up-global-intranet.md)
 ### [Intranet governance](intranet-governance.md)
 ### [Workplace communication](workplace-communications.md)
 ## [Governance]()
