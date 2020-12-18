@@ -78,7 +78,7 @@
         "Reraghavan",
         "denisebmsft"
       ],
-      "searchScope": ["SharePoint Server", "SharePoint in Microsoft 365"],
+      "searchScope": ["SharePoint in Microsoft 365", "SharePoint Server"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
       "feedback_product_url": "https://sharepoint.uservoice.com/" 
