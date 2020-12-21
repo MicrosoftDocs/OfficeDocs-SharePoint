@@ -30,7 +30,7 @@ Keep employees informed and engaged by providing a shared place to securely view
 ![Intelligent internet overview](media/intelligent_intranet_overview1.png)
  
 ### Build an intelligent intranet
-Learn how to move through the [process of creating an intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/) for your organization. Get familiar with [common intranet planning and creation roles](https://docs.microsoft.com/sharepoint/intranet-overview#introduction-to-roles-tasks-and-timelines), design stages, and the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://resources.techcommunity.microsoft.com/intelligent-intranet/implement/) quickly. Then, learn how to [engage with viewers](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/) and maintain your intranet over time as the organization changes and scales. 
+Learn how to move through the [process of creating an intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/) for your organization. Get familiar with [common intranet planning and creation roles](https://docs.microsoft.com/sharepoint/intranet-overview#introduction-to-roles-tasks-and-timelines), design stages, and the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf). Learn how to align goals into priority scenarios that you can [get started implementing](https://resources.techcommunity.microsoft.com/intelligent-intranet/implement/) quickly. Then, learn how to [engage with viewers](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/) and maintain your intranet over time as the organization changes and scales. 
 
 ### Help your organization engage and inform
 
@@ -60,7 +60,7 @@ Get inspired by what you can accomplish with SharePoint by viewing [compelling b
 
 ### Understand and align 
 
-Align stakeholder goals with organizations objectives in order to [identify priority business outcomes](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/#goals) and to [get started planning](https://docs.microsoft.com/sharepoint/plan-intranet) your intelligent intranet. Learn more about [intranet governance](https://docs.microsoft.com/sharepoint/intranet-governance) before you start building and ensure you have a plan in place to manage intranet governance. Explore various opportunities to [engage viewers](https://docs.microsoft.com/sharepoint/workplace-communications) in workplace communications using Yammer, Teams, live events, and site templates. Get familiar with the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet lifecycle.pdf) and basic SharePoint intranet and [site building blocks](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Building blocks - sites and pages.pdf).
+Align stakeholder goals with organizations objectives in order to [identify priority business outcomes](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/#goals) and to [get started planning](https://docs.microsoft.com/sharepoint/plan-intranet) your intelligent intranet. Learn more about [intranet governance](https://docs.microsoft.com/sharepoint/intranet-governance) before you start building and ensure you have a plan in place to manage intranet governance. Explore various opportunities to [engage viewers](https://docs.microsoft.com/sharepoint/workplace-communications) in workplace communications using Yammer, Teams, live events, and site templates. Get familiar with the [intranet lifecycle](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Intranet%20lifecycle.pdf) and basic SharePoint intranet and [site building blocks](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-SharePoint/live/SharePoint/SharePointOnline/spodownloads/Building%20blocks%20-%20sites%20and%20pages.pdf).
 
 ### Implement plans and start building
 
@@ -106,16 +106,21 @@ Show site owners how to maintain site content and use site analytics to engage v
 |Files and content|OneDrive helps you work on a file and save it directly to OneDrive or SharePoint and changes are updated across synced devices. Stream lets you easily create engaging video content. Access and sync files on PC or Mac and mobile devices. Share files with external contacts by providing access or guest links.|Microsoft 365 E5<br> Microsoft 365 E3|
 |Work management|Efficiently manage work across individuals, teams, and organizations. Create and automate business processes.|Microsoft 365 E5<br> Microsoft 365 E3|
 
-**Learn more**
+### Learn more
 
-[Get more information about Microsoft 365 for enterprise](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
+[Get more information about Microsoft 365 for enterprise](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)<br>
 [Microsoft 365 small business license options](https://www.microsoft.com/microsoft-365/business/compare-all-microsoft-365-business-products-b?ef_id=42c0bd26b6d41adfea29e2f69367c702:G:s&OCID=AID2100137_SEM_42c0bd26b6d41adfea29e2f69367c702:G:s&lnkd=Bing_O365SMB_Brand&msclkid=42c0bd26b6d41adfea29e2f69367c702)
 
 ## More intelligent intranet resources
 
-[How to think about your intelligent intranet](https://docs.microsoft.com/sharepoint/trad-vs-modern-intranet)
-[Plan an intelligent SharePoint intranet](https://docs.microsoft.com/sharepoint/plan-intranet)
-[Introduction to SharePoint information architecture](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience)
-[Planning intranet governance](https://docs.microsoft.com/sharepoint/intranet-governance)
-[Branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience)
+[How to think about your intelligent intranet](https://docs.microsoft.com/sharepoint/trad-vs-modern-intranet)<br>
+
+[Plan an intelligent SharePoint intranet](https://docs.microsoft.com/sharepoint/plan-intranet)<br>
+
+[Introduction to SharePoint information architecture](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience)<br>
+
+[Planning intranet governance](https://docs.microsoft.com/sharepoint/intranet-governance)<br>
+
+[Branding your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience)<br>
+
 [SharePoint adoption resources](https://resources.techcommunity.microsoft.com/resources/sharepoint-adoption/)
