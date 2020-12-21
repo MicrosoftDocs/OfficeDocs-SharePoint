@@ -9,8 +9,10 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
-ms.collection: M365-collaboration
+localization_priority: Normal
+ms.collection: 
+- M365-collaboration
+- enabler-strategic
 description: "Creating and launching a healthy SharePoint portal"
 ---
 

@@ -17,11 +17,14 @@ search.appverid: MET150
 description: "How to format a CSV or JSON file for bulk upload in Migration Manager"
 ---
 
-# How to format a CSV or JSON file for bulk upload in Migration Manager
+# Bulk upload tasks into Migration Manager using a CSV or JSON file 
 
+There are two different methods available to bulk upload tasks into Migration Manager.  One is using a comma-separated (CSV) file, and the other is to use a JSON file.  
 
+The entries are manually entered by you into whichever format you choose.  The first row is validated to make sure the destination links are valid. If you receive an invalid destination error, make sure to also check the remainder of your tasks to ensure they have valid destinations. 
   
-## Using a comma-separated value (CSV) file for data content migration
+## Using a comma-separated value (CSV) file for bulk upload
+
 
 Migration Manager lets you use a comma-separated (CSV) file to bulk migrate your data. Use any text editor, or an application like Excel, to create the CSV file.
   
@@ -30,6 +33,9 @@ Migration Manager lets you use a comma-separated (CSV) file to bulk migrate your
 There are six columns needed in your CSV file -- the first three are your source values, each providing detail about where your data is currently located. The remaining three columns indicate the site, document library and optional sub-folder to where you are migrating your data. All six columns must be accounted for in the file, even if you are not needing a value for a given field.
   
 Here's an example of the format for the CSV file. The rows show files that are being migrated from local file shares.
+
+>[!Tip]
+>Download the template for bulk uploading using a CSV file:  [Migration Manager bulk upload template](https://download.microsoft.com/download/b/1/9/b1925e76-010c-4db5-aa44-64055f8f3efe/mm-example_csv_bulk_upload.csv)
   
 ![Sample format when using a CSV file](media/mm-sample-csv.png)
   
@@ -40,8 +46,12 @@ This example shows how it would appear in a .txt file.
 \\MigrationTests\testfiles,,,https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com,Documents,
 ```
 
+
+
+
 > [!IMPORTANT]
 >  *Do not*  include a header row in your CSV file. Remember to account for all six columns in the file, even if you are not needing a value for a given field. 
+>  The encoding of the CSV file must be UTF-8.
 
   
  **To create a CSV file for data migration**
@@ -67,7 +77,7 @@ The following example uses Excel to create the CSV file.
 3. Close and save as a Comma delimited (\*.csv) file.
     
 
-## Using a JSON file for data content migration
+## Using a JSON file for bulk upload
 
 
 

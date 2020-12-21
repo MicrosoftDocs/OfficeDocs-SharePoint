@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: " Authorizing the Office 365 Connector"
 ---
@@ -36,7 +37,7 @@ Total path length for folder and filename combinations can have up to 400 charac
 The original timestamps from Office 365 are preserved when migrating to Office 365.
 
 >[!Note]
->Timestamps are only applied to files/data transfered, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
+>Timestamps are only applied to files/data transferred, and not folders. Folders and folder structure are created in the destination during migration, and reflect the date of the migration.
 
 ### Is file authorship preserved?
 
@@ -59,7 +60,7 @@ To prevent users from being spammed, the Mover app silences notifications during
 Data shared to an Office 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of an Office 365 Group.
 
 >[!Note]
->This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
+>This is a limitation of Office 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their preferred email through **outlook.office.com**.
 
 After the user has logged in:
 
@@ -81,7 +82,7 @@ During the migration setup (described later in this guide), you can edit the pat
 
 Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint Online does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
-![File paths in SPO](media/filepaths-in-sp.png)
+
 
 ### How does library permissions inheritance affect migration?
 
@@ -111,7 +112,7 @@ Microsoft Teams appears and operates the same as a SharePoint Online site.
 
 Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
-SharePoint sites do have file size and number limits, which are covered in detail here: **SharePoint Online limits**.
+SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint Online limits](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.
 
@@ -146,21 +147,23 @@ Some steps in the authorization process can be completed by a global or SharePoi
     >[!Warning]
     >If you are a **global admin**, a slightly different login screen appears.  
     >
-    >If you select *Consent on behalf of your organization* during the authentication flow, you will grant admin access to your entire organization. DO NOT do this. To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You will need to specifically assign your migrator users who may use the app.
+    >If you select *Consent on behalf of your organization* during the authentication flow, you will grant admin access to your entire organization. DO NOT do this. 
 
     ![global admin o365](media/permissions-o365-global-admin.png)</br>
 
-    ![user assignment required](media/mover-user-assignment-setting.png)
+To tighten your security beyond administrators, turn on "User assignment required" from the "Office 365 Mover" app settings in your Azure portal. You will need to specifically assign your migrator users who may use the app.
+
+![user assignment required](media/mover-user-assignment-setting.png)
 
 5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
-If you're a **SharePoint admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your global admin to **aka.ms/office365moverauth**.
+If you're a **SharePoint admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your global admin to **https://aka.ms/office365moverauth**.
 
-If you're a **global admin**: Continue with Steps 6–9.
+If you're a **global admin**: Continue with Steps 6–9 to authorize the connector when you receive the message: *"Could not retrieve user count: A Global admin needs to authorize the Office 365 Mover application in the Azure tenant…"* 
 
-![Authorize error](media/authorize-error.png)
+   ![Authorize error image](media/authorize-error.png) 
 
-6. **Global admin**: Log in to the Azure Portal via **aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
+6. **Global admin**: Log in to the Azure Portal via **https://aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
 
     ![Enterprise applications](media/enterprise-applications.png)
 

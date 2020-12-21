@@ -1,9 +1,9 @@
 ---
 title: "Make an External List from a SQL Azure table with Business Connectivity Services and Secure Store"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -200,7 +200,7 @@ To create an ECT, follow these steps.
     
     You can select specific options such as New Read Item Operation and New Update Operation for the table. Or, you can just select **Create All Operations**.
     
-    ![Screenshot that shows the Tailspintoys database in SharePoint Designer. If you right clik on the table name, a menu appears where you can select operations to create.](media/e9d027a3-89f0-49fe-ac71-5bdbfd3af82c.png)
+    ![Screenshot that shows the Tailspintoys database in SharePoint Designer. If you right click on the table name, a menu appears where you can select operations to create.](media/e9d027a3-89f0-49fe-ac71-5bdbfd3af82c.png)
   
 11. To open a wizard, select **Create All Operations**, and then select **Next**.
     

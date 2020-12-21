@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Authorizing the Dropbox Connector"
 ---
@@ -19,19 +20,19 @@ description: "Authorizing the Dropbox Connector"
 
 ### What happens to my unmounted folders?
 
-Dropbox supports a selective sync function which can cause problems when trying to transfer a shared folder that is *mounted* in a specific way in Dropbox's file system. These folders can not be transfered, but we can detect these folders upon request to help identify them.
+Dropbox supports a selective sync function that can cause problems when trying to transfer a shared folder that is *mounted* in a specific way in Dropbox's file system. These folders cannot be transferred, but we can detect these folders upon request to help identify them.
 
 ### What about Dropbox Team folders?
 
 For easy access, our app displays Team Folders in the root of your connector (among the users).
 
-If you're editing the source or destination paths in our app, select the back button to find the root listing of users and team drives, and select the source/destination that you want.
+If you're editing the source or destination paths in our app, select the back button to find the root listing of users and team drives; then select the source or destination that you want.
 
 If you're creating a user mapping via CSV, map your Accounting Team Folder as `/Accounting` which is different than your Accounting user `/accounting@company`.com.
 
 ### How does Dropbox manage sharing and permissions?
 
-Dropbox restricts sharing based on files or folders already shared. For example, if you have shared a subfolder, Dropbox does not allow you to change the sharing permissions of the individual subfolders or files within that folder, nor are you allowed to modify the sharing scheme of the parent until you have unshared the subfolder.
+Dropbox restricts sharing based on files or folders already shared. If you have a shared folder, Dropbox doesn't allow you to change the sharing permissions of the individual subfolders or files within that folder. You are also not allowed to modify the sharing scheme parent until you have unshared the subfolder.
 
 
 ## Authorizing Dropbox Business (Multi-User)
@@ -48,7 +49,7 @@ Authorizing **Dropbox Business** as an administrator is straightforward. To auth
 2. In the **Connector** list, find **Dropbox**.
 3. Select **Authorize**.
 
-![authorize dropbox source connector](media/auth-dropbox-source-connector.png)</br>
+![authorize source connector](media/mover-auth-source-connector.png)</br>
 
 4. A new window (tab) opens. Name your Connector <optional>.</br>
 
@@ -56,7 +57,7 @@ Authorizing **Dropbox Business** as an administrator is straightforward. To auth
 
 5. Select **Authorize** again.
 
-6. If you are not logged in, you can use either your Dropbox credentials or an SSO account to grant access.
+6. If you aren't logged in, you can use either your Dropbox credentials or an SSO account to grant access.
 
 ![Sign in to Dropbox](media/dropbox-signin.png)</br>
 
@@ -67,13 +68,9 @@ Authorizing **Dropbox Business** as an administrator is straightforward. To auth
 
 ## Connect your source Dropbox account
 
-If you are not already connected after you have authorized your source, select **Dropbox**, and load the connector. An icon appears, and show you how many users you are migrating.
+If you aren't already connected after you have authorized your source, select **Dropbox**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
 ![execution select Dropbox source](media/execution-select-Dropbox-source.png)
 
-## Connect your destination Office 365 account
 
-If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
-
-![Execution select Office 365 destination](media/execution-select-office-365-destination.png)
 

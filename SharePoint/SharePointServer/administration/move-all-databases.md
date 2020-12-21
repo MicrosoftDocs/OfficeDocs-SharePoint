@@ -147,7 +147,7 @@ The version of the existing SharePoint Server and Windows Server must also suppo
     
 ### To stop the farm
 
-1. On the server that is running Central Administration, stop the following services:
+1. On all SharePoint Servers in the farm, stop the following services:
     
   - SharePoint Administration
     
@@ -163,7 +163,7 @@ The version of the existing SharePoint Server and Windows Server must also suppo
     
   - SharePoint Server Search 16
     
-2. On the server that is running Central Administration, at a command prompt, type **iisreset /stop**. 
+2. On all SharePoint Servers in the farm, at a command prompt, type **iisreset /stop**. 
     
 ### To detach databases
 
@@ -285,7 +285,7 @@ Use the following procedure to update the database connections if you use ShareP
 
 Where:
     
-  - \<AGGroupName\> is the name of the Avaliability Group.
+  - \<AGGroupName\> is the name of the Availability Group.
     
   - \<DatabaseName\> is the name of the database that you are adding to the Availability Group
     
@@ -349,7 +349,7 @@ Where \<DBServerName\> is the name or alias of the mirrored SQL Server.
 
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators SharePoint group.
     
-2. On the server that is running the SharePoint Central Administration website, at a command prompt, type **iisreset /start**. 
+2. On all SharePoint Servers in the farm, at a command prompt, type **iisreset /start**. 
     
 3. In the Microsoft Management Console Services snap-in, start all of the services that are related to SharePoint Server and IIS. These include the following services:
     

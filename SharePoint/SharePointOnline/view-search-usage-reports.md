@@ -1,9 +1,9 @@
 ---
 title: "View search usage reports"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: End User
 f1.keywords:
 - NOCSH
@@ -19,6 +19,9 @@ description: "View usage reports and search reports and see how often your users
 ---
 
 # View search usage reports
+
+>[!NOTE]
+>Beginning on January 11, 2021, we'll be retiring classic tenant-wide search usage reports in SharePoint Online.  After this change, you will be able to discover site collection search usage data through the classic site collection usage reports under the **Site** > **Site Settings** > **Site collection Administration** > **Search Reports** where you can access and download usage data for the last 31 days and past 12 months. For administrators of Microsoft Search you can access the tenant usage analytics reports through the Microsoft 365 admin center under **Settings** > **Search and Intelligence** > **Insights**.
 
 If you're a SharePoint admin in your organization, you're probably asked questions about search usage, such as:
   

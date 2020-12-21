@@ -10,7 +10,7 @@ f1.keywords:
 - NOCSH
 ms.topic: reference
 ms.service: sharepoint-online
-localization_priority: Normal
+localization_priority: Priority
 ms.assetid: 87ecbb0e-6550-491a-8826-c075e4859848
 description: "Learn about permission levels in SharePoint and about the permissions that are associated with each level."
 ---
@@ -62,8 +62,8 @@ You can make changes to any of the default permissions levels, except **Full Con
 |Edit  <br/> |Add, edit, and delete lists; view, add, update, and delete list items and documents. By default, this permission level is assigned to the Members group.  <br/> |
 |Contribute  <br/> |View, add, update, and delete list items and documents.  <br/> |
 |Read  <br/> |View pages and items in existing lists and document libraries and download documents.  <br/> |
-|Limited Access  <br/> |Enables a user or group to browse to a site page or library to access a specific content item when they do not have permissions to open or edit any other items in the site or library. This level is automatically assigned by SharePoint when you provide access to one specific item. You cannot assign Limited Access permissions directly to a user or group yourself. Instead, when you assign edit or open permissions to the single item, SharePoint automatically assigns Limited Access to other required locations, such as the site or library in which the single item is located. This allows SharePoint to render the user interface correctly and show the user some context around their location in the site. Limited Access does not grant any additional permissions to the user, so they can't see or access any other content.
- <br/>|
+|Limited Access  <br/> |Enables a user or group to browse to a site page or library to access a specific content item when they do not have permissions to open or edit any other items in the site or library. This level is automatically assigned by SharePoint when you provide access to one specific item. You cannot assign Limited Access permissions directly to a user or group yourself. Instead, when you assign edit or open permissions to the single item, SharePoint automatically assigns Limited Access to other required locations, such as the site or library in which the single item is located. This allows SharePoint to render the user interface correctly and show the user some context around their location in the site. Limited Access does not grant any additional permissions to the user, so they can't see or access any other content. <br/>|
+|Web-Only Limited Access <br/> |Web-Only Limited access is a variant of the ‘Limited Access’ permission level which enables users’ access to the web object only.  <br/>|
 |Approve  <br/> |Edit and approve pages, list items, and documents. By default, the  *Approvers*  group has this permission.  <br/> |
 |Manage Hierarchy  <br/> |Create sites and edit pages, list items, and documents. By default, this permission level is assigned to the  *Hierarchy Managers*  group.  <br/> |
 |Restricted Read  <br/> |View pages and documents, but not historical versions or user permissions.  <br/> |

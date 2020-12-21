@@ -57,3 +57,11 @@ As a global or SharePoint admin in Microsoft 365, you can set the OneDrive stora
 
 > [!NOTE]
 > If you want to change the storage space for multiple users, you can use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) to make the change. To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
+
+When you need cloud storage for individual users beyond the initial 5 TB, additional cloud storage will be granted as follows:
+
+When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, Microsoft will increase your default storage space in OneDrive to up to 25 TB per user (admins may set a lower per-user limit if they want to).
+
+For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. Contact Microsoft technical support for information and assistance.
+
+Admins can [open a case with Microsoft technical support](https://go.microsoft.com/fwlink/?linkid=869559) to request storage beyond 5 TB.

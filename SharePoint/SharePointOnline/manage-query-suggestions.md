@@ -1,9 +1,9 @@
 ---
 title: "Customize query suggestions in SharePoint search"
 ms.reviewer: 
-ms.author: pamgreen
-author: arnek
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
