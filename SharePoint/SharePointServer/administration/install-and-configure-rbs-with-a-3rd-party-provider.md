@@ -55,9 +55,9 @@ You must install RBS client library on all Web servers in the SharePoint farm. T
 
 1. Confirm that the user account performing these steps is a member of the Administrators group on the computer where you are installing the library.
     
-2. On any front-end or application server, for SharePoint Server 2016, download the [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409). Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
+2. On any front-end or application server, for SharePoint Server 2016, download the [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635). Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
     
-    For SharePoint 2013, [download the RBS_amd64.msi file](https://go.microsoft.com/fwlink/p/?LinkId=271938).
+    For SharePoint 2013, [download the RBS.msi file](https://www.microsoft.com/en-us/download/details.aspx?id=56041).
     
 3. Copy and paste the following command into the Command Prompt window. Replace  _WSS_Content_ with the database name, and replace  _DBInstanceName_ with the SQL Server instance name. You should run this command by using the specific database name and SQL Server instance name only one time. The operation should finish within approximately one minute. 
     
@@ -129,9 +129,7 @@ You must enable RBS on one front-end server in the SharePoint farm. It is not im
   $rbss
   ```
 
-    Where:
-    
-  -  _\<ContentDatabaseName\>_ is the name of the content database. 
+   Where _\<ContentDatabaseName\>_ is the name of the content database. 
     
 For more information, see Get-SPContentDatabase.
   
@@ -166,7 +164,7 @@ You should test the RBS installation on one Web server in the SharePoint farm to
 [Deciding to use RBS in SharePoint Server](rbs-planning.md)
 #### Other Resources
 
-[Remote Blob Store (RBS) (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
+[Remote Blob Store (RBS) (SQL Server)](https://docs.microsoft.com/sql/relational-databases/blob/remote-blob-store-rbs-sql-server)
   
-[Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409)
+[Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream)
 
