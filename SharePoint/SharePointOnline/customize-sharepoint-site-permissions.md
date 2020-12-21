@@ -3,7 +3,7 @@ title: "Customize SharePoint site permissions"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,6 +20,8 @@ description: "This article contains information on how to customize SharePoint s
 
 # SharePoint site permissions
 
+This article contains advanced scenarios for customizing site permissions. Most organizations won't need these options. If you just want to share files or folders, see [Share SharePoint files or folders](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c). If you want to share a site, see [Share a site](https://support.microsoft.com/office/958771a8-d041-4eb8-b51c-afea2eae3658).
+
 While SharePoint allows considerable customization of site permissions, we highly recommend using the built-in SharePoint groups for communication site permissions and managing team site permissions through the associated Microsoft 365 group. For information about managing permissions in the SharePoint modern experience, see [Sharing and permissions in the SharePoint modern experience](modern-experience-sharing-permissions.md).
 
 If you do need to customize SharePoint groups, this article describes how.
@@ -29,7 +31,7 @@ If you do need to customize SharePoint groups, this article describes how.
 A SharePoint group is a collection of users who all have the same set of permissions to sites and content. Rather than assign permissions one person at a time, you can use groups to conveniently assign the same permission level to many people at once. 
   
 > [!NOTE]
->  To do the following steps, you need a permission level that includes permissions to  *Create Groups*  and  *Manage Permissions*  . The **Full Control** level has both. For more information, see [Understanding permission levels in SharePoint](understanding-permission-levels.md).
+>  To do the following steps, you need a permission level that includes permissions to  *Create Groups*  and  *Manage Permissions*. The **Full Control** level has both. For more information, see [Understanding permission levels in SharePoint](understanding-permission-levels.md).
 
 ### Create a group
 <a name="__toc340230102"> </a>
@@ -38,7 +40,7 @@ A SharePoint group is a collection of users who all have the same set of permiss
     
 2. On the **Permissions** page, click **Advanced Permissions Settings**.
   
-The permissions page opens.
+   The permissions page opens.
     
 3. On the **Permissions** tab, click **Create Group**. 
     
@@ -101,7 +103,7 @@ You can add users to a group at any time.
     
 4. In the **Share** dialog, type the name of the SharePoint group that you want to give access to. 
     
-5. By default, the **Share** dialog displays the message **Invite people to Edit** or **Invite people** with **Can edit** permissions. This grants permissions in the SharePoint Members group. To choose a different permission level, click **Show options** and then choose a different SharePoint group or permission level under **Select a permission level** or **Select a group or permission level**. The drop down box shows both groups and individual permission levels, like **Edit** or **View Only**. 
+5. By default, the **Share** dialog displays the message **Invite people to Edit** or **Invite people** with **Can edit** permissions. This grants permissions in the SharePoint Members group. To choose a different permission level, click **Show options** and then choose a different SharePoint group or permission level under **Select a permission level** or **Select a group or permission level**. The drop-down box shows both groups and individual permission levels, like **Edit** or **View Only**. 
     
 6. Click **Share.**
     

@@ -15,7 +15,7 @@ description: "Mover Migration: Update a permission map"
 ---
 # Uploading a permission map <optional>
 
-You can upload a permission map in CSV format. This overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
+You can upload a permission map in CSV format. An uploaded file overwrites any existing permission map, so use caution. In an ideal world, all users are matched. If there are a few unmatched users, from the web interface, you can manually add names to the **Destination** field.
 
 ![permission map overview](media/permission-map-overview.png)
 
@@ -31,10 +31,10 @@ A heading for the source and destination, followed by domain names, groups, user
 
 Permission maps should have two specific entries:
 
-1. Any domain names that are wildcard matched, (for example, `example.com, example.com` or `contoso.com, corp.contoso.com`). This instructs our app to match any users with those domain names in their source email to their new destination email domain.
-2. Imperfect matches. Users that are differently named between the source and destination domains need to be explicitly listed, (for example, `firstname@contoso.com, firstname_lastname@contoso.com`).
-3. Groups can also be included for most connectors. These are explicitly required and are not matched with a domain wildcard, (for example, `Sales Team, Global Sales Team`).
-4. We strip all leading and trailing spaces from each path value, unless it is wrapped in quotation marks.
+1. Any domain names that are wildcard matched, for example, `example.com, example.com` or `contoso.com, corp.contoso.com`. This instructs our app to match any users with those domain names in their source email to their new destination email domain.
+2. Imperfect matches. Users that are differently named between the source and destination domains need to be explicitly listed, for example, `firstname@contoso.com, firstname_lastname@contoso.com`.
+3. Groups can also be included for most connectors. These are explicitly required and are not matched with a domain wildcard, for example, `Sales Team, Global Sales Team`.
+4. All leading and trailing spaces are stripped from each path value, unless it is wrapped in quotation marks.
 
 Download an example CSV:
 

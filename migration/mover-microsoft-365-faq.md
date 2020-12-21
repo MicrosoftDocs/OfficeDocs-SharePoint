@@ -15,6 +15,19 @@ description: "Frequently asked questions when using Microsoft Mover to migrate t
 ---
 # Microsoft 365 FAQ
 
+## Data migrated by Mover
+
+Mover only migrates data from: 
+
+- An individual's **online drive storage**, such as OneDrive, MyDrive, etc.
+or
+- Data located in a **shared drive**, including Dropbox Team's Folder, SharePoint Document Library, Google Shared Drive, etc.
+
+Mover **does not** migrate e-mails, mailboxes, contacts, calendars, site layouts/collections, etc.
+
+
+
+
 ## Unsupported files and characters
 We automatically process file and folder names to ensure they are accepted by Microsoft 365:
 
@@ -57,23 +70,31 @@ To save time and headaches, before you migrate, you are encouraged to shorten an
 ## What metadata is preserved in migrations into Office 365?
 
 
+
 |Source Connector|Creation date|Created by user|File modified date|Last modified by (user)|Folder permissions|Notes|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Agent|No|No|Yes|No|Yes||
-|Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|Yes|Yes|No|No||
-|Azure Blob Storage|No|No|Yes|No|No||
-|Box (co-admin)|Yes|Yes|Yes|Yes|Yes|Box Notes are converted to Word documents.|
-|Box (single user)|Yes|Yes|Yes|Yes|Yes|Box Notes are converted to Word documents.|
-|Dropbox (single user)|No|No|Yes|No|No|We have a feature request to get the timestamp and authorship information out of Dropbox.|
-|Dropbox Business (admin)|No|No|Yes|No|Yes|We have a feature request to get the timestamp and authorship information out of Dropbox.|
-|Egnyte|No|Yes|Yes|No|Yes||
-|G Suite (Admin)|Yes|Yes|Yes|Yes|Yes||
-|Google cloud storage|Buckets: Yes</br>Folders: No</br>Files: Same as modified date|No|Yes|No|No||
-|Google drive (Single user)|Yes|Yes|Yes|Yes|No||
-|Office 365 (OneDrive/SharePoint admin)|Yes|Yes|Yes|Yes|Yes ||
-|OneDrive Consumer|Yes|Yes|Yes|Yes|No||
-|OneDrive for Business (Single user)|Yes|Yes|Yes|Yes|No||
+|Agent|No|No|*Read clarification note below|No|Yes||
+|Amazon S3|Buckets: Yes</br>Folders: No</br>Files: Same as Modified date|No|*Read clarification note below|Yes|No|No||
+|Azure Blob Storage|No|No|*Read clarification note below|No|No||
+|Box (co-admin)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
+|Box (single user)|Yes|Yes|*Read clarification note below|Yes|Yes|Box Notes are converted to Word documents.|
+|Dropbox (single user)|No|No|*Read clarification note below|No|No|We have a feature request to get the timestamp and authorship information out of Dropbox.|
+|Dropbox Business (admin)|No|No|*Read clarification note below|No|Yes|We have a feature request to get the timestamp and authorship information out of Dropbox.|
+|Egnyte|No|Yes|*Read clarification note below|No|Yes||
+|G Suite (Admin)|Yes|Yes|*Read clarification note below|Yes|Yes||
+|Google cloud storage|Buckets: Yes</br>Folders: No</br>Files: Same as modified date|No|*Read clarification note below|No|No||
+|Google drive (Single user)|Yes|Yes|*Read clarification note below|Yes|No||
+|Office 365 (OneDrive/SharePoint admin)|Yes|Yes|*Read clarification note below|Yes|Yes ||
+|OneDrive Consumer|Yes|Yes|*Read clarification note below|Yes|No||
+|OneDrive for Business (Single user)|Yes|Yes|*Read clarification note below|Yes|No||
 
+>[!Important]
+>Clarification regarding **File modified date**</br>
+>Our tool sets the **File modified date** in Office 365 based on the time the file was updated in the storage provider’s servers; *not the metadata timestamp uploaded with the document from your local computer.*
+>
+>Each cloud provider may refer to the **server modified timestamp** slightly differently.  For example, Box refers to the *server modified timestamp* as "Updated" in its UI and the *user modified timestamp* as "Modified".  Check with your cloud provider to confirm how they refer to these fields.
+
+ 
 
 ## Does the Mover app interact with the sync client in OneDrive for Business?
 
@@ -92,7 +113,7 @@ To prevent users from being spammed, the Mover app silences notifications during
 Data shared to a Microsoft 365 Group does not appear in the **Shared with me** section. Microsoft also does not notify users that they are now a member of a Microsoft 365 Group.
 
 >[!Note]
->This is a limitation of Microsoft 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their prefered email through **outlook.office.com**.
+>This is a limitation of Microsoft 365 Groups and cannot be changed on our end. The user must navigate to the appropriate group within either their Outlook Desktop Client, or by logging into their preferred email through **outlook.office.com**.
 
 After the user has logged in:
 
@@ -114,7 +135,7 @@ During the migration setup (described later in this guide), you can edit the pat
 
 Most cloud storage providers, G Suite Drive for example, start the listing with a user such as `/user@example.com/Marketing Folder`. SharePoint does not do this, so you would be looking at a path such as `/Marketing/Site Contents/Documents`.
 
-![File paths in SPO](media/filepaths-in-sp.png)
+
 
 ## How does library permissions inheritance affect migration?
 

@@ -10,7 +10,7 @@ f1.keywords:
 - CSH
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - IT_Sharepoint_Server

@@ -1,9 +1,9 @@
 ---
 title: "Manually request crawling and re-indexing of a site, a library or a list"
 ms.reviewer: 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
 ms.date: 6/20/2018
 audience: End User
 f1.keywords:

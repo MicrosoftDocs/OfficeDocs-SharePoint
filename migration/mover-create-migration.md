@@ -10,16 +10,17 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Mover - Create a new migration"
 ---
-# Creating a new migration
+# Create a new migration
 
 Select **Continue Migration Setup**, and our app moves to the **Migration Manager**.
 
 ![Create migration](media/create-migration.png)
 
-The next step creates a user list of those transfering.
+The next step creates a user list of those transferring.
 
 From your newly created migration in the **Migration Manager**, there are two ways to add users:
 

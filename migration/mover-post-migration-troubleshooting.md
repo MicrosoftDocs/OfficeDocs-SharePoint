@@ -23,7 +23,7 @@ Follow these steps if your migration is having issues:
 1. Rerun users. Select one or more users and to rerun them, on the top right of the **Migration Manager**, select **Start Migrating**.
 2. To view your most recent transfer log, select the user row you want to view. This action opens the **Transfer Logs** sidebar. From here, select the **View Log** button for the most recent transfer.
 
-![view logs](media/view_logs.png)
+![view logs](media/mover-view-logs.png)
 
 Alternatively, you can select multiple users, and from the **User Actions** dropdown menu, you can download their most recent collective logs in a zip file that provides them in both HTML and CSV formats.
 
