@@ -71,4 +71,3 @@ For Mac App Store clients:
 
 > [!NOTE]
 > Disabling **Send feedback** and **Get help** only disables the capability for OneDrive for work or school to report an issue to Microsoft. This doesn't prevent people from selecting **Send feedback** if they use the sync app when signed in with a personal account.
-

@@ -1,3 +1,30 @@
+---
+title: "Install the previous OneDrive sync client with Office and SharePoint"
+ms.reviewer: 
+ms.author: kaarins
+author: kaarins
+manager: pamgreen
+audience: Admin
+f1.keywords:
+- NOCSH
+ms.topic: get-started-article
+ms.service: one-drive
+localization_priority: Normal
+ms.collection: 
+- Strat_OD_admin
+- M365-collaboration
+ms.custom:
+- seo-marvel-apr2020
+search.appverid:
+- MET150
+- ODB160
+- MOE150
+- MED150
+- MBS150
+- ODB150
+ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
+description: "In this article, you'll learn how to install the previous OneDrive sync client with Office and SharePoint."
+---
 
 # Install the previous OneDrive sync client with Office and SharePoint
 > [!IMPORTANT]
