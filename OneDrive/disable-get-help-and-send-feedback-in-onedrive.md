@@ -1,9 +1,9 @@
 ---
 title: "Disable "Get help" and "Send feedback" in OneDrive"
 ms.reviewer: 
-ms.author: 
-author: 
-manager: 
+ms.author: kaarins
+author: kaarins
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -30,7 +30,7 @@ description: "This article contains information about the OneDrive sync app (one
 
 OneDrive for work or school lets people contact Microsoft directly from inside the application. People generate support tickets for OneDrive for work or school by selecting **Get help** and continuing to the **Contact support** link in the help pane. They may also send feedback to Microsoft through **Send feedback** and will occasionally be prompted with user satisfaction surveys.
 
-:::image type="content" source="media/Img1-4717638" alt-text="":::
+:::image type="content" source="media/Img1-4717638" alt-text="Img1-4717638":::
 
 ## Disable Get Help and Send Feedback
 As an administrator, you may want to disable these support features to prevent people in your organization from contacting Microsoft directly.
@@ -39,9 +39,9 @@ Disabling support features will remove the option to contact support or send fee
 
 The screenshots below show the changes after you disable the support features: 
 
-:::image type="content" source="media/Img2-4717638" alt-text="":::
+:::image type="content" source="media/Img2-4717638" alt-text="Img2-4717638":::
 
-:::image type="content" source="media/Img3-4717638" alt-text="":::
+:::image type="content" source="media/Img3-4717638" alt-text="Img3-4717638":::
 
 > [!IMPORTANT]
 > Follow the steps in this section carefully. Serious problems might occur if you modify the registry incorrectly. Before you modify it, [back up the registry for restoration](https://support.microsoft.com/help/322756/how-to-back-up-and-restore-the-registry-in-windows) in case problems occur.
