@@ -78,7 +78,7 @@
         "Reraghavan",
         "denisebmsft"
       ],
-      "searchScope": ["SharePoint Server", "SharePoint in Microsoft 365"],
+      "searchScope": ["SharePoint in Microsoft 365", "SharePoint Server"],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SharePoint",
       "feedback_product_url": "https://sharepoint.uservoice.com/" 
@@ -88,17 +88,23 @@
             "SharePointServer/search/*.md": "https://sharepoint.uservoice.com/forums/330321-sharepoint-search" },
         "searchScope": { 
             "SharePointOnline/**/*.md": ["SharePoint in Microsoft 365"],
-            "SharePointServer/**/*.md": ["SharePoint Server"]
+            "SharePointServer/**/*.md": ["SharePoint Server"],
+            "SharePointOnline/**/*.yml": ["SharePoint in Microsoft 365"],
+            "SharePointServer/**/*.yml": ["SharePoint Server"]
           },
             "hideEdit": {
-              "SharePointServer/**/*.md": true
+              "SharePointServer/**/*.md": true,
+              "SharePointServer/**/*.yml": true
               },
               "feedback_system": {
-              "SharePointServer/**/*.md": "None"
+              "SharePointServer/**/*.md": "None",
+              "SharePointServer/**/*.yml": "None"
               },
             "titleSuffix": {
             "SharePointServer/**/*.md": "SharePoint Server",
-            "SharePointOnline/**/*.md": "SharePoint in Microsoft 365"
+            "SharePointOnline/**/*.md": "SharePoint in Microsoft 365",
+            "SharePointServer/**/*.yml": "SharePoint Server",
+            "SharePointOnline/**/*.yml": "SharePoint in Microsoft 365"
         }
     },
     "template": [],
