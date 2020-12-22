@@ -75,7 +75,7 @@ The following table details the settings available in SPMT.  Advanced settings s
 |Migration of web parts and pages|Choose how to handle migration if the pages and web parts already exist in the destination.</br> Select one: *Overwrite duplicate*, *Rename duplicate*, *Skip duplicate*, or *Do not migrate*.|
 |Temporarily allow migration of scripts|This setting will automatically allow the migration of scripted web parts.|
 |Migrate site navigation|Migrate the navigation links of a site or page in SharePoint.|
-|Migrate lists with lookup columns|This setting controls the behavior of migrating all lists referenced in lookup columns.  Options include:  *Migrate all lists referenced in lookup columns*, *Ignore lookup columns in migrated lists*, and *Only report error for any list with a lookup column. Do not migrate.*   This setting is only available if the source selected in a task is a list.
+|Migrate lists with lookup columns|This setting controls the behavior of migrating all lists referenced in lookup columns.  Options include:  *Migrate all lists referenced in lookup columns*, *Ignore lookup columns in migrated lists*, and *Only report error for any list with a lookup column. Do not migrate.*   This setting is only available if the source selected in a task is a list.  If you are doing a site migration, SPMT will automatically migrate all referred lists, so this setting will not appear to the user.
 
 
 
