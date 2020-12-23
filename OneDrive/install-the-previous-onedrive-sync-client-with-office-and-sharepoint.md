@@ -16,7 +16,7 @@ description: "In this article, you'll learn how to install the previous OneDrive
 # Install the previous OneDrive sync client with Office and SharePoint
 > [!IMPORTANT]
 > Support for the old OneDrive for Business sync app with SharePoint Online will end on January 11, 2021.
-If you see this icon :::image type="content" source="media/cloud.png" alt-text=""::: OneDrive for business old icon on the right corner of your taskbar, read [this article](https://support.microsoft.com/en-us/office/upgrade-to-the-new-onedrive-sync-app-from-old-groove-exe-80156db5-5399-4c8b-bb2e-f5c2f2a4c31d) to learn more.
+If you see this icon :::image type="content" source="media/cloud.png" alt-text="cloud"::: OneDrive for business old icon on the right corner of your taskbar, read [this article](https://support.microsoft.com/en-us/office/upgrade-to-the-new-onedrive-sync-app-from-old-groove-exe-80156db5-5399-4c8b-bb2e-f5c2f2a4c31d) to learn more.
 
 The previous OneDrive sync app lets users sync their OneDrive for work or school library, or Microsoft SharePoint or Microsoft 365 team site libraries, to their local computer. Here you can find the Click-to-Run installers for all supported languages of the previous OneDrive sync app (groove.exe).
 
