@@ -1,25 +1,16 @@
 ---
-title: "Disable "Get help" and "Send feedback" in OneDrive"
+title: "Disable Get help and Send feedback in OneDrive"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: v-lsaldanha
+author: Lovina-Saldanha
+manager: dansimp
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: 
-- Strat_OD_admin
-- M365-collaboration
-ms.custom:
-- seo-marvel-apr2020
-search.appverid:
-- ODB160
-- ODB150
-- MET150
-ms.assetid: 7d7168dd-9015-4245-a971-61b504f834d6
+ms.assetid: 
 description: "This article contains information about the OneDrive sync app (onedrive.exe) when used for OneDrive for work or school in Microsoft 365 Business or Microsoft 365 Apps for business (when people sign in with a work or school account)."
 ---
 
