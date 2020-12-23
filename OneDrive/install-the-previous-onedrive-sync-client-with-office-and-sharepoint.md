@@ -1,28 +1,15 @@
 ---
 title: "Install the previous OneDrive sync client with Office and SharePoint"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: v-lsaldanha
+author: Lovina-Saldanha
+manager: dansimp
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
-ms.collection: 
-- Strat_OD_admin
-- M365-collaboration
-ms.custom:
-- seo-marvel-apr2020
-search.appverid:
-- MET150
-- ODB160
-- MOE150
-- MED150
-- MBS150
-- ODB150
-ms.assetid: 3f3a511c-30c6-404a-98bf-76f95c519668
 description: "In this article, you'll learn how to install the previous OneDrive sync client with Office and SharePoint."
 ---
 
@@ -71,7 +58,7 @@ To use a custom installation of Office 2016 to extract OneDrive, follow these st
 3. Create a file named **AddODB.txt** as follows:
 
     a. Start Notepad, and then paste the following text into a new file:
-
+```
         <Configuration>
           <Add SourcePath="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/" OfficeClientEdition="32" >
             <Product ID="O365BusinessRetail">
@@ -88,7 +75,7 @@ To use a custom installation of Office 2016 to extract OneDrive, follow these st
           </Add>
           <Display Level="None" AcceptEULA="TRUE" />
         </Configuration>
-
+```
 > [!NOTE]
 - > This file will install the 32-bit English-US version of OneDrive. If you have to have the 64-bit version, change the text in the second line that reads OfficeClientEdition="32" to the following: **OfficeClientEdition="64"**
 - > If you have to have a language other than English-US, change the Language ID="en-us" text to the following:
@@ -107,9 +94,9 @@ To use a custom installation of Office 2016 to extract OneDrive, follow these st
     c. If the **User Account Control** dialog box appears, confirm that the action displayed is what you want, and then select **Continue**.
 
 5. At the command prompt, type the following commands, and press **Enter** after typing each one:
-
+```
     `cd /d %userprofile%\desktop setup.exe /configure AddODB.txt`
-
+```
     > [!NOTE]
     > The installation occurs silently in the background and can take 20 minutes or more to complete, depending on the speed of your Internet connection. Don't close the Command Prompt window during the installation.
     > When the installation is completed, a new command line appears at the command prompt.
