@@ -57,7 +57,7 @@ You must install RBS client library on all Web servers in the SharePoint farm. T
     
 2. On any front-end or application server, for SharePoint Server 2016, download the [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635). Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
     
-    For SharePoint 2013, [download the RBS.msi file](https://www.microsoft.com/en-us/download/details.aspx?id=56041).
+    For SharePoint 2013, [download the RBS.msi file](https://www.microsoft.com/download/details.aspx?id=56041).
     
 3. Copy and paste the following command into the Command Prompt window. Replace  _WSS_Content_ with the database name, and replace  _DBInstanceName_ with the SQL Server instance name. You should run this command by using the specific database name and SQL Server instance name only one time. The operation should finish within approximately one minute. 
     
@@ -167,4 +167,3 @@ You should test the RBS installation on one Web server in the SharePoint farm to
 [Remote Blob Store (RBS) (SQL Server)](https://docs.microsoft.com/sql/relational-databases/blob/remote-blob-store-rbs-sql-server)
   
 [Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream)
-
