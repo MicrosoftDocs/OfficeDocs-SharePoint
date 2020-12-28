@@ -107,7 +107,7 @@ After you have enabled and configured FILESTREAM, provision a BLOB store on the 
 You must install RBS client library on the SQL Server node and all Front-end or Application servers in the SharePoint farm. The RBS client library is installed only one time per web server, but RBS is configured separately for each associated content database. The client library consists of a client-side dynamic link library (DLL) that is linked into a user application, and a set of stored procedures that are installed on SQL Server.
   
 > [!CAUTION]
-> Do not install the RBS client library by running the RBS_amd64.msi (or RBS.msi) file and starting the Install SQL Remote BLOB Storage wizard. The wizard sets certain default values that are not recommended for SharePoint Server 
+> Do not install the RBS client library by running the RBS_amd64.msi (or RBS.msi) file and starting the Install SQL Remote BLOB Storage wizard. The wizard sets certain default values that are not recommended for SharePoint Server.
   
 ### To install the RBS client library on the SQL Server.
 
@@ -274,4 +274,3 @@ You should test the RBS installation on one Front-end server in the SharePoint f
   
 [Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream)
   
-
