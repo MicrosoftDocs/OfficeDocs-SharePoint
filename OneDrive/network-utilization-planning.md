@@ -72,11 +72,13 @@ Below you can see and contrast the patterns of network utilization in cases of c
 #### Operational sync
 
 After the initial sync is complete, the network usage will decrease and then level out. 
-  
-> [!NOTE]
-> Network usage varies depending on file types most frequently synced. When users change Office files, only the changes are uploaded or downloaded and not the whole file. For other types of files, the whole file is uploaded or downloaded. You should expect traffic to be higher during regular work hours when users are online and working on files. 
 
-A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files.
+OneDrive sync client supports differential sync for all file types stored in OneDrive and SharePoint. Differential sync brings the ability to sync only the parts of large files that have changed, not the entire file. During everyday usage, when users change files, only the changes are uploaded or downloaded and not the whole file. This makes the file synchronization process faster for these files. It also reduces the time taken to upload and download a file as well as consumed bandwidth.
+
+> [!NOTE]
+> Windows Notification Service or WNS plays an important role in efficient network utilization. Instead of sync client constantly pulling to check for remote changes, WNS ensures that any changes from the cloud get pushed down to the device as fast as possible. It saves both network bandwidth and device battery life. This benefits both Windows and macOS. Make sure connection to the service is enabled. Work with your network team to make sure proxies: Allow network traffic to bypass *.wns.windows.com; Avoid HTTPS decryption for *.wns.windows.com. 
+
+A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For detailed deployment guidance on Known Folder Move, see [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders).
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
@@ -128,7 +130,9 @@ To manage the use of network bandwidth, you can configure a QoS policy with a sp
 You can also use policies included with the OneDrive sync app to control network throughput. These policies are available in the OneDrive installation directory, %localappdata%\Microsoft\OneDrive\BuildNumber\adm\. (Where BuildNumber is the number displayed in sync app settings on the About tab.)
   
 For info about these policies, see:
-  
+
+[Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#Enable-automatic-upload-bandwidth-management-for-OneDrive) - Recommended for best user experience 
+
 [Limit the sync app upload speed to a fixed rate](use-group-policy.md#limit-the-sync-app-upload-speed-to-a-fixed-rate)
   
 [Limit the sync app download speed to a fixed rate](use-group-policy.md#limit-the-sync-app-download-speed-to-a-fixed-rate)
