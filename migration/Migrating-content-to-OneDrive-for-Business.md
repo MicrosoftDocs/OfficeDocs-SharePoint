@@ -28,24 +28,20 @@ If you have files and folders on your computer or on a network drive, you can us
 ### Migration Manager
 Go to the [Migration Manager page on the new SharePoint admin center](https://aka.ms/ODSP-MM). Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
-To learn more see: [Get started with Migration Manager](mm-get-started.md)
-<br>
+To learn more, see [Get started with Migration Manager](mm-get-started.md).
 
 ### SharePoint Migration tool
 
 [Download and install the SharePoint Migration Tool](https://aka.ms/SPMT-ODB-Page) here for **FREE**.
 
-As an admin, you can also run the tool on behalf of your users.  To learn more, see  [SharePoint and OneDrive Migration Tool](https://aka.ms/SPMT-ODB2). 
-
- <br>
+As an admin, you can also run the tool on behalf of your users. To learn more, see  [SharePoint and OneDrive Migration Tool](https://aka.ms/SPMT-ODB2).
 
 ### Microsoft FastTrack
 
-Additionally, Microsoft offers [Fast Track services](https://fasttrack.microsoft.com/about) that can help you migrate your files and folders not only from file shares, but also **Google Drive** and **Box**.
- <br><br>Interested in getting started? Visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/), review resources, and submit a Request for Assistance.
-<br>
+Microsoft offers [Fast Track services](https://fasttrack.microsoft.com/about) that can help you migrate your files and folders not only from file shares but also from *Google Drive* and *Box*.
+
+To get started, visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/). Sign in or first register if necessary, review the available resources, and submit a request for assistance.
 
 ### Migration service providers
 
-You may decide that your organization has specific business needs that require you to use third-party services or applications to help you execute your migration. Explore the professional services and applications available from partners in the Microsoft Partner Center. There you can find experts to help you in your enterprise content migration to Microsoft 365.  For more information see: [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
-
+Your organization may have business needs that require you to use third-party services or applications to help execute enterprise content migration to Microsoft 365. Explore the professional services and applications available from partners in the [Microsoft Partner Center](https://partnercenter.microsoft.com/partner/home).
