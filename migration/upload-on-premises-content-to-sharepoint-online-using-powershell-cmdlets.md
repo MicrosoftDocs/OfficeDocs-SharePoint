@@ -28,14 +28,14 @@ description: "Learn how to use PowerShell cmdlets to migrate content from an on-
 # Upload on-premises content to SharePoint using PowerShell cmdlets
 
 > [!NOTE]
->  The **SharePoint Migration Tool** (SPMT) helps simplify your migration process. SPMT provides a wizard-like experience to guide you through the process of migrating either your SharePoint Server team sites or your network file shares to Microsoft 365. It is available to all Microsoft 365 users. > To download the tool, go to: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>  The SharePoint Migration Tool (SPMT) helps simplify your migration process. SPMT provides a wizard-like experience to guide you through migrating your SharePoint Server team sites or your network file shares to Microsoft 365. It is available to all Microsoft 365 users:  [Download SPMT](https://spmtreleasescus.blob.core.windows.net/install/default.htm).
   
 > [!IMPORTANT]
-> Currently, the SharePoint Migration Tool is not available for users of Office 365 operated by 21Vianet in China. 
+> The SharePoint Migration Tool isn't currently available for users of Office 365 operated by 21Vianet in China.
   
-This is a step-by-step guide about how to use the SharePoint Migration PowerShell cmdlets to migrate content from an on-premises file share to Microsoft 365.
+This article provides a step-by-step guide about how to use SharePoint Migration PowerShell cmdlets to migrate content from an on-premises file share to Microsoft 365.
   
-SharePoint Migration PowerShell cmdlets are designed to move on-premises content from file shares. Requiring minimal CSOM calls, it leverages Azure temporary BLOB storage to scale to the demand of large migration of data content.
+SharePoint Migration PowerShell cmdlets are designed to move on-premises content from file shares. They require minimal CSOM calls and leverage Azure temporary Blob Storage to handle large migrations of data.
   
 Follow these steps to use SharePoint Migration powershell to upload your on-premises data into SharePoint:
   
@@ -60,42 +60,36 @@ Follow these steps to use SharePoint Migration powershell to upload your on-prem
 - Windows PowerShell 4.0
     
 > [!NOTE]
-> Permissions: You must be a site collection administrator on the site you are targeting. 
+> Permissions: You must be a site collection administrator on the site you are targeting.
   
 ## Before you begin
 
-- Provision your Microsoft 365 with either your existing active directory or one of the other options for adding accounts to Microsoft 365. See [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Microsoft 365 Apps for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409) for more information. 
+- Provision your Microsoft 365 setup with your existing active directory or one of the other options for adding accounts to Microsoft 365. For more information, see [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users to Microsoft 365 Apps for business](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409). 
     
 - Install the SharePoint Online Management Shell and set up your working directory.
     
 ## Step 1: Install the SharePoint Online Management Shell
 <a name="Step1InstallShell"> </a>
 
-For the first step, install the SharePoint Online Management shell.
-  
 1. Uninstall all previous versions of the SharePoint Online Management Shell.
     
-2. Install from here: [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?LinkID=617148&amp;clcid=0x409).
+2. Install the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/?LinkID=617148&amp;clcid=0x409).
     
 3. Open **SharePoint Online Management Shell**, and select **Run as Administrator**.
-    
-[Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
   
-## Step 2: Setup your working directory
+## Step 2: Set up your working directory
 <a name="Step2Setupworkingdir"> </a>
 
-Before you start the migration process, you need to set up your working directory by creating two empty folders. These folders to not require a lot of disk space as they will only contain XML.
+Before you start the migration process, you need to set up your working directory by creating two empty folders. These folders don't require musch disk space, as they will only contain XML.
   
 1. Create a Temporary package folder.
     
 2. Create a Final package folder.
-    
-[Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
   
-## Step 3: Determine your locations and credentials
+## Step 3: Determine locations and credentials
 <a name="Step3loccredentials"> </a>
 
-In this step, you must identify your locations and credentials, including the location of your source files, target files and web location.
+You must identify your locations and credentials, including the location of your source files, target files and web location.
   
 On your local computer, open the SharePoint Online Management Shell. Run the following commands substituting your values:
 
@@ -110,12 +104,10 @@ $targetDocLib = 'Documents'
 New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $sourcePackage -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib -IgnoreHidden -ReplaceInvalidCharacters
 ```
   
-[Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
-  
 ## Step 4: Create a new content package from an on-premises file share
 <a name="step4createpackage"> </a>
 
-In this step, you will create a new migration package from a file share. To create a content package from a file share, the  *New-SPOMigrationPackage*  command reads the list of content targeted by the source path and will generate XML to perform migration. 
+In this step, you create a new migration package from a file share. To create a content package from a file share, the  `New-SPOMigrationPackage` command reads the list of content targeted by the source path and generates XML to perform migration. 
   
 The following parameters are required unless marked optional:
   
@@ -139,31 +131,29 @@ The following example shows how to create a new package from a file share, ignor
     New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $sourcePackage -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib -IgnoreHidden -ReplaceInvalidCharacters`
 ```
   
-[Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
-  
 ## Step 5: Convert the content package for your target site
 <a name="step5convertpackage"> </a>
 
-After you have created the content package, use the  *ConvertTo-SPOMigrationTargetedPackage*  command to convert the xml generated in your temporary folder. It saves a new set of targeted migration package metadata files to the target directory. This is the final package. 
+Use the `ConvertTo-SPOMigrationTargetedPackage`  command to convert the SML generated in your temporary folder. It saves a new set of targeted migration package metadata files to the target directory. This is the final package.
   
 > [!NOTE]
 > Your target site collection administrator credentials are used to gather data to connect to the data site collection. 
   
 There are six required parameters to enter (others are optional):
   
-- ParallelImport : Instructs the tool to optimize performance by using parallel threads.
+- *ParallelImport*: Instructs the tool to optimize performance by using parallel threads.
     
-- SourceFiles: Points to the directory location where the package's source content files exist.
+- *SourceFiles*: Points to the directory location where the package's source content files exist.
     
-- SourcePackagePath: Points to your Temporary package folder.
+- *SourcePackagePath*: Points to your Temporary package folder.
     
-- OutputPackagePath: Points to your final package folder.
+- *OutputPackagePath*: Points to your final package folder.
     
-- Credentials: SharePoint credential that has admin rights to the destination site.
+- *Credentials*: SharePoint credential that has admin rights to the destination site.
     
-- TargetWebU﻿rl: Points to your destination web.
+- *TargetWebUrl*: Points to your destination web.
     
-- TargetDocumentLibraryPath: Path to your destination library.
+- *TargetDocumentLibraryPath*: Path to your destination library.
     
  **Example:**
   
@@ -173,22 +163,20 @@ This example shows how to convert a package to a targeted one by looking up data
 $finalPackages = ConvertTo-SPOMigrationTargetedPackage -ParallelImport -SourceFilesPath $sourceFiles -SourcePackagePath $sourcePackage -OutputPackagePath $targetPackage -Credentials $cred -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib`
 ```
   
-[Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
-  
 ## Step 6: Submit content to import
 <a name="step6submitimport"> </a>
 
-In this step, the  `Invoke-SPOMigrationEncryptUploadSubmit` command creates a new migration job in the target site collection, and then returns a GUID representing the JobID. This command uploads encrypted source files, and manifests into temporary Azure blob storage per job. 
+In this step, the `Invoke-SPOMigrationEncryptUploadSubmit` command creates a new migration job in the target site collection and then returns a GUID that represents the JobID. This command uploads encrypted source files and manifests into temporary Azure Blob Storage per job.
   
 There are four required parameters to enter (others are optional):
   
-- TargetwebURL: Points to the web of the destination.
+- *TargetwebURL*: Points to the web of the destination.
     
-- SourceFilesPath: Points to the files to import.
+- *SourceFilesPath*: Points to the files to import.
     
-- SourcePackagePath: Points to the final manifest of the files to import.
+- *SourcePackagePath*: Points to the final manifest of the files to import.
     
-- Credentials: The SharePoint credentials that have Site Collection Administrator rights to the destination site.
+- *Credentials*: The SharePoint credentials that have Site Collection Administrator rights to the destination site.
     
  **Example 1:**
   
@@ -201,45 +189,45 @@ This example shows how to submit package data to create a new migration job.
  **Example 2:**
   
 This example shows how to submit package data to create new migration jobs for parallel import.
+
 ```Powershell  
 $jobs = $finalPackages | % {Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $_.FilesDirectory.FullName -SourcePackagePath $_.PackageDirectory.FullName -Credentials $cred -TargetWebUrl $targetWeb}
 ```
   
-For each submitted job, the Invoke cmdlet returns these properties as part of a job:
+For each submitted job, the `Invoke` cmdlet returns these properties as part of a job:
   
 - JobId: ID of the job in SPO.
     
 - ReportingQueueUri: SharePoint Azure queue that stores the real-time progress messages of the migration.
     
-- Encryption: Encryption key and method used during uploading the content to Azure. This is required when you decrypt the queue messages and import logs.
+- Encryption: Encryption key and method used during uploading the content to Azure. This key is required when you decrypt the queue messages and import logs.
     
-If you're using your own Azure storage account to upload content into your storage, use  *Set-SPOMigrationPackageAzureSource*  and  *Submit-SPOMigrationJob*. 
+If you're using your own Azure Storage account to upload content into your storage, use *Set-SPOMigrationPackageAzureSource*  and  *Submit-SPOMigrationJob*. 
   
 [Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
 
 
 >[!Important]
->**Cost:**</br>
->If you choose to use your Azure Storage, be aware that you could incur Bandwidth charges. Those will be billed depending on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
+>**Cost:**  If you choose to use your Azure Storage, be aware that you could incur Bandwidth charges. Charged would be billed depending on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
  
-## (Optional) Step 7: Processing and monitoring your SharePoint migration
+## (Optional) Step 7: Process and monitor your SharePoint migration
 <a name="step7monitoring"> </a>
 
-After the job is submitted, only Azure and SharePoint are interacting to fetch and migrate the content into the destination. This process is timer-job based, which means it's in a queue on a first-come, first-served basis. This does not prevent other jobs from being queued up by the same person.
+After the job is submitted, only Azure and SharePoint interact to fetch and migrate the content to the destination. This process is timer-job based, which means it's in a queue on a first-come, first-served basis. This process doesn't prevent the same person from queuing other jobs.
   
-If there are no other jobs running, there is a potential of a one-minute delay.
+If no other jobs running are running, there is a potential for a one-minute delay.
   
-### Checking job status
+### Check job status
 
-You can check the status of your job by viewing the real-time updates posted in the Azure storage account queue by using the EncryptionKey returned in step 6.
+To check the status of your job, view the real-time updates posted in the Azure Storage account queue by using the EncryptionKey returned in step 6.
   
-### Viewing logs
+### View logs
 
-If you're using your own Azure storage account, you can look into the manifest container in the Azure Storage for logs of everything that happened. At this stage, it is now safe to delete those containers if you don't want to keep them as backup in Azure.
+If you're using your own Azure Storage account, you can view logs of everything that happened in the manifest container in the Azure Storage. At this stage, it is now safe to delete those containers if you don't want to keep them as backup in Azure.
   
 If there were errors or warnings, **.err** and **.wrn** files are created in the manifest container. 
   
-If you're using the temporary Azure storage created by  *Invoke-SPOMigrationEncryptUploadSubmit*  in step 6, the import log SAS URL can be obtained by decrypting the Azure queue message with the "Event" value "JobLogFileCreate". With the import log SAS URL, you can download the log file, and decrypt it with the same encryption key as returned in step 6. 
+If you're using the temporary Azure Storage created by  *Invoke-SPOMigrationEncryptUploadSubmit*  in step 6, the import log SAS URL can be obtained by decrypting the Azure queue message with the "Event" value "JobLogFileCreate". With the import log SAS URL, you can download the log file, and decrypt it with the same encryption key as returned in step 6. 
   
 [Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
   
@@ -325,4 +313,3 @@ EncryptionKey                                       EncryptionMethod
 
 [Use Windows PowerShell cmdlets for SharePoint and OneDrive Migration](https://go.microsoft.com/fwlink/p/?LinkID=717917)
   
-
