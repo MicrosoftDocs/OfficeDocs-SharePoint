@@ -22,7 +22,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MET150
 ms.assetid: 555049c6-15ef-45a6-9a1f-a1ef673b867c
-description: "Learn how to use PowerShell cmdlets to migrate content from an on-premises file shares to SharePoint in Microsoft 365."
+description: "Learn how to use PowerShell cmdlets to migrate content from an on-premises file share to SharePoint in Microsoft 365."
 ---
 
 # Upload on-premises content to SharePoint using PowerShell cmdlets
@@ -35,9 +35,9 @@ description: "Learn how to use PowerShell cmdlets to migrate content from an on-
   
 This article provides a step-by-step guide about how to use SharePoint Migration PowerShell cmdlets to migrate content from an on-premises file share to Microsoft 365.
   
-SharePoint Migration PowerShell cmdlets are designed to move on-premises content from file shares. They require minimal CSOM calls and leverage Azure temporary Blob Storage to handle large migrations of data.
+SharePoint Migration PowerShell cmdlets are designed to move on-premises content from file shares. They require minimal CSOM calls and use Azure temporary Blob Storage to handle large migrations of data.
   
-Follow these steps to use SharePoint Migration powershell to upload your on-premises data into SharePoint:
+Follow these steps to use SharePoint Migration PowerShell to upload your on-premises data into SharePoint:
   
 [Step 1: Install the SharePoint Online Management Shell](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md#Step1InstallShell).
   
@@ -55,7 +55,12 @@ Follow these steps to use SharePoint Migration powershell to upload your on-prem
   
 ## Prerequisites
 
-- Supported Operating Systems: Windows 7 Service Pack 1, Windows 8, Windows Server 2008 R2 SP1, Windows Server 2008 Service Pack 2, Windows Server 2012, Windows Server 2012 R2
+- Supported Operating Systems:
+    - Windows 7 Service Pack 1
+    - Windows 8
+    - Windows Server 2008 R2 SP1
+    - Windows Server 2008 Service Pack 2
+    - Windows Server 2012, Windows Server 2012 R2
     
 - Windows PowerShell 4.0
     
@@ -80,7 +85,7 @@ Follow these steps to use SharePoint Migration powershell to upload your on-prem
 ## Step 2: Set up your working directory
 <a name="Step2Setupworkingdir"> </a>
 
-Before you start the migration process, you need to set up your working directory by creating two empty folders. These folders don't require musch disk space, as they will only contain XML.
+Before you start the migration, you need to create two empty folders to set up your working directory. These folders don't need much disk space, as they will only contain XML.
   
 1. Create a Temporary package folder.
     
@@ -89,9 +94,9 @@ Before you start the migration process, you need to set up your working director
 ## Step 3: Determine locations and credentials
 <a name="Step3loccredentials"> </a>
 
-You must identify your locations and credentials, including the location of your source files, target files and web location.
+Identify your locations and credentials, including the location of your source files, target files, and web location.
   
-On your local computer, open the SharePoint Online Management Shell. Run the following commands substituting your values:
+On your local computer, open the SharePoint Online Management Shell. Run the following commands, but using your values:
 
 ```Powershell
 $cred = (Get-Credential admin@contoso.com)
@@ -125,7 +130,7 @@ The following parameters are required unless marked optional:
     
  **Example:**
   
-The following example shows how to create a new package from a file share, ignoring hidden files and replacing unsupported characters in a file/folder name.
+The following example shows how to create a new package from a file share. It ignores hidden files and replaces unsupported characters in file/folder names.
   
 ```Powershell
     New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $sourcePackage -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib -IgnoreHidden -ReplaceInvalidCharacters`
@@ -215,26 +220,24 @@ If you're using your own Azure Storage account to upload content into your stora
 
 After the job is submitted, only Azure and SharePoint interact to fetch and migrate the content to the destination. This process is timer-job based, which means it's in a queue on a first-come, first-served basis. This process doesn't prevent the same person from queuing other jobs.
   
-If no other jobs running are running, there is a potential for a one-minute delay.
+If no other jobs running are running, there may be a one-minute delay.
   
 ### Check job status
 
-To check the status of your job, view the real-time updates posted in the Azure Storage account queue by using the EncryptionKey returned in step 6.
+To check the status of your job, use the EncryptionKey returned in step 6 to view the real-time updates posted in the Azure Storage account.
   
 ### View logs
 
-If you're using your own Azure Storage account, you can view logs of everything that happened in the manifest container in the Azure Storage. At this stage, it is now safe to delete those containers if you don't want to keep them as backup in Azure.
+If you're using your own Azure Storage account, you can view logs of everything that happened in the manifest container in the Azure Storage. At this stage, it'safe to delete those containers, if you don't want to keep them as backup in Azure.
   
-If there were errors or warnings, **.err** and **.wrn** files are created in the manifest container. 
+If there were errors or warnings, *.err* or *.won* files are created in the manifest container. 
   
-If you're using the temporary Azure Storage created by  *Invoke-SPOMigrationEncryptUploadSubmit*  in step 6, the import log SAS URL can be obtained by decrypting the Azure queue message with the "Event" value "JobLogFileCreate". With the import log SAS URL, you can download the log file, and decrypt it with the same encryption key as returned in step 6. 
+If you're using the temporary Azure Storage created by  *Invoke-SPOMigrationEncryptUploadSubmit* in step 6, you can get the import log SAS URL by decrypting the Azure queue message with the "Event" value "JobLogFileCreate". You can use the import log SAS URL to download the log file and decrypt it with the encryption key returned in step 6.
   
-[Upload on-premises content to SharePoint using PowerShell cmdlets](upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets.md)
-  
-## Scripting Scenarios for Reuse
+## Scripting scenarios for reuse
 <a name="step7monitoring"> </a>
 
-Use the following sample script that includes the steps from determining your locations and credentials, to submitting your package data, to creating a new migration job.
+Use the following sample script, which includes the steps from determining your locations and credentials, to submitting your package data, to creating a new migration job.
   
 ```Powershell
 $userName = "admin@contoso.onmicrosoft.com"
@@ -248,13 +251,13 @@ $cred = Get-Credential $userName
 New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $packagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -IgnoreHidden -ReplaceInvalidCharacters
 ```
 
-## Convert package to a targeted one by looking up data in target site collection
+## Convert the package to a targeted one by looking up data in target site collection
 
 ```Powershell  
 $finalPackages = ConvertTo-SPOMigrationTargetedPackage -SourceFilesPath $sourceFiles -SourcePackagePath $packagePath -OutputPackagePath $spoPackagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -Credentials $cred
 ```
   
-## Submit package data to create new migration job
+## Submit the package data to create the migration job
   
 $job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -SourcePackagePath $spoPackagePath -Credentials $cred -TargetWebUrl $targetWebUrl
   
@@ -268,7 +271,7 @@ Guid
 779c4b3b-ec24-4705-bb58-c38f4329418c
 ```
 
-This sample shows how to get the $job.ReportingQueueURi.AbosoluteUri.
+This sample shows how to get the *$job.ReportingQueueURi.AbosoluteUri*.
   
 ```Powershell
 # To obtain the $job.ReportingQueueUri.AbsoluteUri
@@ -286,29 +289,29 @@ EncryptionKey                                       EncryptionMethod
 ```
 
 > [!IMPORTANT]
-> All messages are encrypted in the queue. If you want to read from the ReportingQueue, you must have the EncryptionKey. 
+> All messages are encrypted in the queue. To read from the *ReportingQueue*, you must have the *EncryptionKey*. 
   
 ## Best Practices and Limitations
 <a name="step7monitoring"> </a>
 
-|**Description** <br/> |**Recommendation** <br/> |
+|**Description** |**Recommendation**|
 |:-----|:-----|
-|Package size  <br/> |10-20 GB  <br/> Use -ParallelImport switch for File Share migration which automatically splits the big package into smaller ones.  <br/> |
+|Package size  |10-20 GB  <br/> Use the *-ParallelImport* switch for File Share migration, which automatically splits the large package into smaller ones. |
 |File size  <br/> |2 GB  <br/> |
-|Target size  <br/> |Target site should remain non-accessible to users until migration is complete.  <br/> |
-|SharePoint limits  <br/> |[SharePoint and OneDrive: software boundaries and limits](https://go.microsoft.com/fwlink/?LinkID=616612&amp;clcid=0x409)SharePoint: software boundaries and limits.  <br/> |
+|Target size  <br/> |The target site should remain non-accessible to users until migration is complete |
+|SharePoint limits  <br/> |[Service limits in SharePoint for Microsoft 365](https://go.microsoft.com/fwlink/?LinkID=616612&amp;clcid=0x409)|
    
-## Azure Limits
+## Azure limits
 <a name="step7monitoring"> </a>
 
-|**Resource** <br/> |**Default/Limit** <br/> |
+|**Resource** <br/> |**Default/limit** <br/> |
 |:-----|:-----|
-|TB per storage account  <br/> |500 TB  <br/> |
-|Max size of single blob container, table, or queue.  <br/> |500 TB  <br/> |
-|Max number of blob containers, blobs, file shares, tables, queues, entities, or messages per storage account.  <br/> |Only limit is the 500 TB storage account capacity.  <br/> |
+|TB per storage account  <br/> |500<br/> |
+|Max size of single blob container, table, or queue.  <br/> |500  |
+|Max number of blob containers, blobs, file shares, tables, queues, entities, or messages per storage account.  <br/> |The only limit is the 500-TB storage account capacity.  <br/> |
 |Target throughput for single blob  <br/> |Up to 60 MB per second, or up to 500 requests per second.  <br/> |
    
-## Related Topics
+## Related articles
 <a name="step7monitoring"> </a>
 
 [Use Windows PowerShell cmdlets for SharePoint and OneDrive Migration](https://go.microsoft.com/fwlink/p/?LinkID=717917)
