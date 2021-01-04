@@ -3,7 +3,7 @@ title: "Prevent users from contacting Microsoft directly"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: dansimp
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

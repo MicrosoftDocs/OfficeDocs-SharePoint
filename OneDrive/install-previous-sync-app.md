@@ -13,45 +13,39 @@ localization_priority: Normal
 description: "In this article, you'll learn how to install the previous OneDrive sync app (Groove.exe) for use with SharePoint Server."
 ---
 
-# Install the previous OneDrive sync app 
+# Install the previous OneDrive sync app
 
-If your organization still uses SharePoint Server 2016 or earlier, users will need to use the previous OneDrive for Business sync app (Groove.exe) to sync files. This article provides links to the Click-to-Run installers for all supported languages of the previous OneDrive sync app. If your organization uses SharePoint Server 2019, users should use the new OneDrive sync app (OneDrive.exe). [Learn more](/sharepoint/install/new-onedrive-sync-client). 
+If your organization still uses SharePoint Server 2016 or earlier, users can't use the new OneDrive sync app (OneDrive.exe) to sync files. They need to use the previous OneDrive for Business sync app (Groove.exe). This article helps you install Groove.exe. If your organization uses SharePoint Server 2019, users should use the new OneDrive sync app (OneDrive.exe). [Learn more](/sharepoint/install/new-onedrive-sync-client)
 
 > [!IMPORTANT]
-> Support for the previous OneDrive for Business sync app (Groove.exe) will end on January 11, 2021. On February 1, 2021, users will no longer be able to sync OneDrive or SharePoint files in Microsoft 365 by using Groove.exe. Groove.exe will continue to work only for files in SharePoint Server. [Learn how to transition to the new sync app](transition-from-previous-sync-client.md)
+> Support for the previous OneDrive for Business sync app (Groove.exe) with Microsoft 365 will end on January 11, 2021. Groove.exe will continue to work for files in SharePoint Server. [Learn how to transition to the new sync app](transition-from-previous-sync-client.md)
 
-## Installation instructions for Office 2016
+## Install Groove.exe with Office 2016
 
-For Office 2016, you need to use a custom installation of Office 2016 to extract OneDrive. [Download a wizard to do this]()
+The previous sync app (Groove.exe) is no longer installed by default with Office 2016 Click-to-run. You need to use a custom installation to extract OneDrive.
 
-> [!NOTE]
-> Office 2019 includes the new OneDrive sync app (OneDrive.exe).
+### Use the installation wizard
 
-### Download the easy fix wizard
-
-1. [Download the easy fix wizard](https://aka.ms/diag_odbinstall).
-2. In the **File Download** dialog box, select **Run** or **Open**, and then follow the steps on the screen.
+1. [Download the OneDrive for Business 2016 installation wizard](https://aka.ms/diag_odbinstall).
+2. Select **Run** or **Open**, and then follow the steps on the screen.
 
 > [!NOTE]
-> This wizard is in English only. However, the automatic fix also works for other language versions of Windows.
-> If you aren't on the computer that has the problem, save the Fix it solution to a flash drive or a CD, and then run it on the computer that has the problem.
+> This wizard is in English only, but works if Office is installed in other languages. 
 
 ### Create a custom installation manually
-
-To use a custom installation of Office 2016 to extract OneDrive, follow these steps:
 
 1. Download the [Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117), and then save the file to your desktop.
 2. From your desktop, double-click **OfficeDeploymentTool.exe**, and then extract the files to your desktop. 
    The following files will be displayed on your desktop:
 
     - Setup.exe
-
     - Configuration.xml
 
 3. Create a file named **AddODB.txt** as follows:
 
     a. Start Notepad, and then paste the following text into a new file:
-```
+
+    ```XML
         <Configuration>
           <Add SourcePath="http://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/" OfficeClientEdition="32" >
             <Product ID="O365BusinessRetail">
@@ -68,13 +62,10 @@ To use a custom installation of Office 2016 to extract OneDrive, follow these st
           </Add>
           <Display Level="None" AcceptEULA="TRUE" />
         </Configuration>
-```
-> [!NOTE]
-- > This file will install the 32-bit English-US version of OneDrive. If you have to have the 64-bit version, change the text in the second line that reads OfficeClientEdition="32" to the following: **OfficeClientEdition="64"**
-- > If you have to have a language other than English-US, change the Language ID="en-us" text to the following:
-**Language ID="<ll-cc>"**
-> To find the appropriate value of the <ll-cc> placeholder to match your language, go to the following Microsoft website:
-> [Language identifiers](https://docs.microsoft.com/DeployOffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016?redirectedfrom=MSDN#bkmk_languageidentifiers)
+    ```
+
+   > [!NOTE]
+   > This file will install the 32-bit English-US edition of OneDrive. To install the 64-bit edition, change the value of OfficeClientEdition to 64. To install OneDrive in a different language, change the Language ID to a different language tag (ll-CC) by referring to the list of [Language identifiers](/DeployOffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016).
 
     b. Save the file to your desktop, and name it **AddODB**.
 
@@ -82,44 +73,42 @@ To use a custom installation of Office 2016 to extract OneDrive, follow these st
 
     a. Select **Start**.
 
-    b. In the **Start Search** box, type **cmd**, and then press Ctrl+Shift+Enter.
+    b. In the **Start Search** box, enter **cmd**, and then press Ctrl+Shift+Enter.
 
     c. If the **User Account Control** dialog box appears, confirm that the action displayed is what you want, and then select **Continue**.
 
-5. At the command prompt, type the following commands, and press **Enter** after typing each one:
-```
-    `cd /d %userprofile%\desktop setup.exe /configure AddODB.txt`
-```
-    > [!NOTE]
-    > The installation occurs silently in the background and can take 20 minutes or more to complete, depending on the speed of your Internet connection. Don't close the Command Prompt window during the installation.
-    > When the installation is completed, a new command line appears at the command prompt.
+5. At the command prompt, run the following commands, and press **Enter** after each one.
+
+    ```DOS
+    cd /d %userprofile%\desktop setup.exe /configure AddODB.txt
+    ```
+   > [!NOTE]
+   > The installation occurs silently in the background and can take 20 minutes or more to complete, depending on the speed of your Internet connection. Don't close the Command Prompt window during the installation. When the installation is completed, a new command line appears at the command prompt.
 
 6. Select **Start**. In the **Start Search** box, type **OneDrive**, and then start OneDrive.
 
     > [!NOTE]
-    > After you set up OneDrive, you may not see the sync icon overlays (that is, the green check marks or red crosses) on files and folders. You must restart your computer to enable the sync icon overlays to reappear.
+    > After you set up OneDrive, you might not see sync icons on files until you restart your computer.
 
 7. Close the command prompt. You can now safely delete the following files from your desktop:
 
     - OfficeDeploymentTool.exe
-
     - Setup.exe
-
     - Configuration.xml
-
     - AddODB.txt
 
-## Installation instructions for Office 2013
-To install the OneDrive sync app, follow the steps below.
+## Install Groove.exe with Office 2013
 
-    > [!NOTE]
-    > If you have Office Professional Plus 2013, Office 365 Enterprise E3, Office 365 Midsize Business, or Office 365 Small Business Premium, then you already have the OneDrive sync app installed.
+To install the previous OneDrive for Business sync app with Office 2013, follow these steps.
 
-1. Uninstall any earlier versions of OneDrive for work or school.
+   > [!NOTE]
+   > If you have Office Professional Plus 2013, Office 365 Enterprise E3, Office 365 Midsize Business, or Office 365 Small Business Premium, then you already have the OneDrive sync app installed.
 
-2. Select one of the installer links below to download the OneDrive for work or school installer for your language and system edition. If you are already running a 32-bit or 64-bit edition of Office, you must select the same edition type for OneDrive for work or school.
+1. Uninstall any earlier versions of the previous OneDrive for Business sync app.
 
-|Language version   |32-bit download link  |64-bit download link |
+2. Select one of the installer links below to download the installer for your language and system edition. If the 32-bit or 64-bit edition of Office is already installed, you must select the same edition for OneDrive.
+
+|Language  |32-bit download link  |64-bit download link |
 |-------------------|----------------------|---------------------|
 |Arabic             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x86&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x64&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga) |
 |Bulgarian             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x86&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x64&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga) |\
@@ -139,7 +128,7 @@ To install the OneDrive sync app, follow the steps below.
 |Hindi             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x86&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x64&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga) |\
 |Hungarian             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x86&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x64&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga) |\
 |Indonesian             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x86&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x64&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga) |\
-|Italian             |\
+|Italian             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&language=it-it&platform=x86&token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&taxregion=pr&source=olsfcrequest&version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&language=it-it&platform=x64&token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&taxregion=pr&source=olsfcrequest&version=o15ga) |\
 |Japanese             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x86&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x64&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga) |\
 |Kazakh             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x86&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x64&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga) |\
 |Korean             |[OneDrive for Business [32-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x86&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga)  |[OneDrive for Business [64-bit]](https://c2rsetup.officeapps.live.com/c2r/download.aspx?productreleaseid=grooveretail&amp;language=ar-sa&amp;platform=x64&amp;token=3v9n8-w93cc-fqpb8-y9wvf-tvgj3&amp;taxregion=pr&amp;source=olsfcrequest&amp;version=o15ga) |\
@@ -167,28 +156,6 @@ To install the OneDrive sync app, follow the steps below.
 
 5. If you are asked to provide a license key, enter **3V9N8-W93CC-FQPB8-Y9WVF-TVGJ3**.
 
-6. Open your personal OneDrive for work or school document library (or open any SharePoint 2013 or Microsoft 365 website document library), then select **Sync** to sync the libraries.
-
     > [!NOTE]
     > The OneDrive sync app ships together with two components that are not selected for installation by default. We recommend that you do not change these default settings.
-
-## Uninstalling the OneDrive sync app
-To uninstall the OneDrive sync app:
-
-1. Select **Start**, and then select **Control Panel**.
-
-2. Select **Programs**.
-
-3. Under **Programs and Features**, select **Uninstall a program**.
-
-4. In the list of currently installed programs, right-click **OneDrive**, and then select **Uninstall**.
-
-## References
-[Configure syncing with the new OneDrive sync app](https://docs.microsoft.com/sharepoint/install/new-onedrive-sync-client)
-
-[OneDrive for Windows](https://www.microsoft.com/microsoft-365/onedrive/download)
-
-[Description of Office 2010 Service Pack 2](https://support.microsoft.com/help/2687455/description-of-office-2010-service-pack-2)
-
-[Service Pack 2 for Microsoft Office 2010 (KB2687455) 32-Bit Edition](https://support.microsoft.com/help/2687455/description-of-office-2010-service-pack-2)
 
