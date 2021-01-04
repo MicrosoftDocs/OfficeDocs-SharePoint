@@ -84,7 +84,7 @@ For the first step, install the SharePoint Online Management shell.
 ## Step 2: Setup your working directory
 <a name="Step2Setupworkingdir"> </a>
 
-Before you start the migration process, you need to set up your working directory by creating two empty folders. These folders to not require a lot of disk space as they will only contain XML.
+Before you start the migration process, you need to set up your working directory by creating two empty folders. These folders do not require a lot of disk space as they will only contain XML.
   
 1. Create a Temporary package folder.
     
