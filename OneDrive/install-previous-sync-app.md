@@ -1,50 +1,43 @@
 ---
-title: "Install the previous OneDrive sync client with Office and SharePoint"
-ms.reviewer: 
-ms.author: v-lsaldanha
-author: Lovina-Saldanha
-manager: dansimp
+title: "Install the previous OneDrive sync app"
+ms.reviewer: garezni
+ms.author: kaarins
+author: kaarins
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
-description: "In this article, you'll learn how to install the previous OneDrive sync client with Office and SharePoint."
+description: "In this article, you'll learn how to install the previous OneDrive sync app (Groove.exe) for use with SharePoint Server."
 ---
 
-# Install the previous OneDrive sync client with Office and SharePoint
+# Install the previous OneDrive sync app 
+
+If your organization still uses SharePoint Server 2016 or earlier, users will need to use the previous OneDrive for Business sync app (Groove.exe) to sync files. This article provides links to the Click-to-Run installers for all supported languages of the previous OneDrive sync app. If your organization uses SharePoint Server 2019, users should use the new OneDrive sync app (OneDrive.exe). [Learn more](/sharepoint/install/new-onedrive-sync-client). 
+
 > [!IMPORTANT]
-> Support for the old OneDrive for Business sync app with SharePoint Online will end on January 11, 2021.
-If you see this icon :::image type="content" source="media/cloud.png" alt-text="cloud"::: OneDrive for business old icon on the right corner of your taskbar, read [this article](https://support.microsoft.com/en-us/office/upgrade-to-the-new-onedrive-sync-app-from-old-groove-exe-80156db5-5399-4c8b-bb2e-f5c2f2a4c31d) to learn more.
-
-The previous OneDrive sync app lets users sync their OneDrive for work or school library, or Microsoft SharePoint or Microsoft 365 team site libraries, to their local computer. Here you can find the Click-to-Run installers for all supported languages of the previous OneDrive sync app (groove.exe).
-
-> [!NOTE]
-> This article is not intended for the current version of OneDrive (onedrive.exe). This article only applies to the previous OneDrive (groove.exe). In most cases, we recommend that you use onedrive.exe rather than groove.exe. For more information about the current version, see [Sync files with OneDrive in Windows](https://support.microsoft.com/en-us/office/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49).
-> To determine which OneDrive sync app you're using, see [Which OneDrive app?](https://support.microsoft.com/en-us/office/which-onedrive-app-19246eae-8a51-490a-8d97-a645c151f2ba)
-
-If you have any Office 2016 application installed, such as Skype for Business 2016, you must have the 2016 version of OneDrive for work or school installed (see instructions below).
-
-> [!NOTE]
-> Office 2019 uses the onedrive.exe version, which is bundled with the software.
-> If you run OneDrive with **Office 2010**, we recommend that you remove the SharePoint Workspace component from Office 2010. If you have a business requirement to run both SharePoint Workspace and OneDrive, upgrade Office 2010 to [Service Pack 2 (SP2)](https://support.microsoft.com/en-us/help/2687455/description-of-office-2010-service-pack-2) before you install OneDrive. This provides the best compatibility.
-> If you run OneDrive on a **Mac**, see [Sync files with OneDrive on Mac OS X](https://support.microsoft.com/en-us/office/sync-files-with-onedrive-on-mac-os-x-d11b9f29-00bb-4172-be39-997da46f913f).
-> For complete system requirements info, see [System requirements for Office](https://www.microsoft.com/en-us/microsoft-365/microsoft-365-and-office-resources).
+> Support for the previous OneDrive for Business sync app (Groove.exe) will end on January 11, 2021. On February 1, 2021, users will no longer be able to sync OneDrive or SharePoint files in Microsoft 365 by using Groove.exe. Groove.exe will continue to work only for files in SharePoint Server. [Learn how to transition to the new sync app](transition-from-previous-sync-client.md)
 
 ## Installation instructions for Office 2016
-For Office 2016, you will need to use a custom installation of Office 2016 to extract OneDrive.
 
-### Let us fix this for you
-To have us create a custom installation of Office 2016 to extract OneDrive, click [Download](https://aka.ms/diag_odbinstall).
+For Office 2016, you need to use a custom installation of Office 2016 to extract OneDrive. [Download a wizard to do this]()
 
-In the **File Download** dialog box, select **Run** or **Open**, and then follow the steps in the easy fix wizard.
+> [!NOTE]
+> Office 2019 includes the new OneDrive sync app (OneDrive.exe).
+
+### Download the easy fix wizard
+
+1. [Download the easy fix wizard](https://aka.ms/diag_odbinstall).
+2. In the **File Download** dialog box, select **Run** or **Open**, and then follow the steps on the screen.
 
 > [!NOTE]
 > This wizard is in English only. However, the automatic fix also works for other language versions of Windows.
 > If you aren't on the computer that has the problem, save the Fix it solution to a flash drive or a CD, and then run it on the computer that has the problem.
 
-### Let me fix it myself
+### Create a custom installation manually
+
 To use a custom installation of Office 2016 to extract OneDrive, follow these steps:
 
 1. Download the [Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117), and then save the file to your desktop.
