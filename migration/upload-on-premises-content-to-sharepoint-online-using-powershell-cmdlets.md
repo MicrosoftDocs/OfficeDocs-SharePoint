@@ -63,14 +63,14 @@ SharePoint Migration PowerShell cmdlets are designed to move on-premises content
 
 1. Uninstall all previous versions of the SharePoint Online Management Shell.
     
-2. Install the [Download](https://go.microsoft.com/fwlink/?LinkID=617148&amp;clcid=0x409) and install SharePoint Online Management Shell.
+2. [Download](https://go.microsoft.com/fwlink/?LinkID=617148&amp;clcid=0x409) and install SharePoint Online Management Shell.
     
 3. Open **SharePoint Online Management Shell**, and select **Run as Administrator**.
   
 ## Step 2: Set up your working directory
 <a name="Step2Setupworkingdir"> </a>
 
-Before you start the migration, you need to create set up your working directory with two empty folders. These folders don't need much disk space, as they'll only contain XML.
+Before you start the migration, you need to set up your working directory with two empty folders. These folders don't need much disk space, as they'll only contain XML.
   
 1. Create a temporary package folder.
     
@@ -97,7 +97,7 @@ New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $source
 ## Step 4: Create a new content package from an on-premises file share
 <a name="step4createpackage"> </a>
 
-In this step, you create a new migration package from a file share. To create a content package from a file share, the  `New-SPOMigrationPackage` command reads the list of content targeted by the source path and generates XML to perform the migration.
+In this step, you create a new migration package from a file share. To create a content package from a file share, the  `New-SPOMigrationPackage` command reads the list of content targeted by the source path and generates XML to do the migration.
   
 The following parameters are required unless marked optional:
   
@@ -109,9 +109,9 @@ The following parameters are required unless marked optional:
     
 - *TargetDocumentLibraryPath*: Points to the document library inside the web.
     
-- *IgnoreHidden*: Skip hidden files (optional).
+- *IgnoreHidden*: Skip hidden files *(optional)*.
     
-- *ReplaceInvalidCharacters*: Fix invalid characters when possible (optional).
+- *ReplaceInvalidCharacters*: Fix invalid characters when possible *(optional)*.
     
  **Example:**
   
@@ -131,7 +131,7 @@ Use the `ConvertTo-SPOMigrationTargetedPackage`  command to convert the SML gene
   
 There are six required parameters to enter (others are optional):
   
-- *ParallelImport*: Instructs the tool to optimize performance by using parallel threads.
+- *ParallelImport*: Instructs the tool to use parallel thread optimize performance.
     
 - *SourceFiles*: Points to the directory location of the package's source content files.
     
@@ -141,7 +141,7 @@ There are six required parameters to enter (others are optional):
     
 - *Credentials*: SharePoint credential that has admin rights to the destination site.
     
-- *TargetWebUrl*: Points to your destination web.
+- *TargetWebUrl*: URL of your destination web.
     
 - *TargetDocumentLibraryPath*: Path to your destination library.
     
@@ -195,9 +195,9 @@ For each submitted job, the `Invoke` cmdlet returns these properties as part of 
 If you're using your own Azure Storage account to upload content into your storage, use *Set-SPOMigrationPackageAzureSource*  and  *Submit-SPOMigrationJob*.
 
 >[!Important]
->**Cost:**  If you choose to use your Azure Storage, you could incur Bandwidth charges. Charged would depend on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
+>If you choose to use your Azure Storage, you could incur Bandwidth charges. Charged would depend on your Azure offer type and migration size. For general prices, refer to [bandwidth pricing](https://azure.microsoft.com/pricing/details/bandwidth/).
  
-## (Optional) Step 7: Process and monitor your SharePoint migration
+## *(Optional)* Step 7: Process and monitor your SharePoint migration
 <a name="step7monitoring"> </a>
 
 After the job is submitted, only Azure and SharePoint interact to fetch and migrate the content to the destination. This process is timer-job based, which means it's in a queue on a first-come, first-served basis. This process doesn't prevent the same person from queuing other jobs.
@@ -214,7 +214,7 @@ If you're using your own Azure Storage account, you can view logs of everything 
   
 If there were errors or warnings, *.err* or *.won* files are created in the manifest container. 
   
-If you're using the temporary Azure Storage created by  *Invoke-SPOMigrationEncryptUploadSubmit* in step 6, you can get the import log SAS URL by decrypting the Azure queue message with the "Event" value "JobLogFileCreate". You can use the import log SAS URL to download the log file and decrypt it with the encryption key returned in step 6.
+If you're using the temporary Azure Storage created by  *Invoke-SPOMigrationEncryptUploadSubmit* in step 6, you can get the import log SAS URL by decrypting the Azure queue message with the "Event" value *JobLogFileCreate*. You can use the import log SAS URL to download the log file and decrypt it with the encryption key returned in step 6.
   
 ## Scripting scenarios for reuse
 <a name="step7monitoring"> </a>
@@ -274,7 +274,7 @@ EncryptionKey                                       EncryptionMethod
 > [!IMPORTANT]
 > All messages are encrypted in the queue. To read from the *ReportingQueue*, you must have the *EncryptionKey*. 
   
-## Best Practices and Limitations
+## Best practices and limitations
 <a name="step7monitoring"> </a>
 
 |**Description** |**Recommendation**|

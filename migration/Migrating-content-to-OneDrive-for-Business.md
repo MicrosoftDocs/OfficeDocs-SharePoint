@@ -20,7 +20,7 @@ description: "You can use the SharePoint Migration Tool to migrate content to On
 ---
 # Migrate content to a OneDrive work or school account
  
-If you have files and folders on your computer or on a network drive, you can use either of the following tools to migrate that content to your OneDrive work or school account for *FREE!*
+You can use either of the following tools to migrate files and folders on your computer or a network drive to your OneDrive work or school account for *FREE!*
 
 
 ## Migration Manager
@@ -36,7 +36,7 @@ As an admin, you can also run the tool for your users. To learn more, see  [Shar
 
 ## Microsoft FastTrack
 
-Microsoft offers ["FastTrack" services](https://fasttrack.microsoft.com/about) to help migrate your files and folders not only from file shares but also from *Google Drive* and *Box*.
+Microsoft offers [FastTrack](https://fasttrack.microsoft.com/about) service to help migrate your files and folders not only from file shares but also from *Google Drive* and *Box*.
 
 To get started, visit [FastTrack.microsoft.com](https://fasttrack.microsoft.com/). Sign in, review the available resources, and submit a request for assistance.
 

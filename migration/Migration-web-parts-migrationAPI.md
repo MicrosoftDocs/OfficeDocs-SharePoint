@@ -20,18 +20,18 @@ description: "SharePoint web part support in the Migration API"
 
 The Migration API supports the ability to migrate web parts to SharePoint in Microsoft 365 using the PRIME package by calling CSOM/REST/SOAP WS to get web part data and properties to build the PRIME package.
 
-An advantage to this method is that you can migrate your web parts in one call and improve performance. The manifest includes the web part as you import its associated page. When you use the Migration API, you can put all the web parts you have on that page.
+An advantage of this method is that you can migrate your web parts in one call and improve performance. The manifest includes the web part as you import its associated page. When you use the Migration API, you can put all the web parts you have on that page.
 
 ## Using the Serializer DLL
 
 Two attributes are handled in a unique way that requires using the WebPart User Properties Serializer DLL.
 
-It's a technical challenge to generate the property values for *AllUsersProperties* and *PerUserProperties* when you build the PRIME package. This is because the property values are a BASE64-encoded blob, which contains serialized web part properties and web part connection info.
+It's a technical challenge to generate the property values for *AllUsersProperties* and *PerUserProperties* when you build the PRIME package because the property values are a BASE64-encoded blob. That blob contains serialized web part properties and web part connection information.
 
 To get the serializer .dll, follow these steps:
 
 1. [Install the SharePoint Migration Tool (SPMT) client](https://aka.ms/spmt-GA-page) on your local computer.
-2. Browse to the install location of SPMT
+2. Browse to the install location of SPMT.
 3. Locate *microsoft.sharepoint.migration.webpart.serializer.dll* so you can copy it into your project.
 
 For a complete list of the supported web parts, see:
@@ -42,7 +42,7 @@ For a complete list of the supported web parts, see:
 
 For an explanation of the *SPWebPart* fields, see [SPWebPart](https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-primepf/25cfceeb-7769-4331-9936-ce3b9ced87ad).
 
-### PRIME Web Part Schema example
+### PRIME web part schema example
 
 ```xml
     <!-- SPFile definition -->
@@ -157,9 +157,9 @@ For an explanation of the *SPWebPart* fields, see [SPWebPart](https://docs.micro
 The security control design on the server side enables the following functionality:
  
 - If *NoScript* is off, migrate all web parts.
-- If *NoScript* is on, first check web part level safety.
-    - If *SafeAgainstScript* is false, don't import it
-    - If SafeAgainstScript is true, check the web part property level safety.
+- If *NoScript* is on, first check web part level safety:
+    - If *SafeAgainstScript* is false, don't import it.
+    - If SafeAgainstScript is true, check the web part property level safety:
         - If this web part has any property that has *RequiresDesignerPermission*, ignore that web part (or ignore this property if feasible).
         - Otherwise, migrate this web part.
  
@@ -196,9 +196,7 @@ The web part properties can be found in the \<webpart> element in the response o
 
 The web part connections can be found in \<SPWebPartConnection> elements from the web part page in the response of operation *GetWebPartPage* in *WebPartPagesWebService*.
 
-[View flags](https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-wssfob/252d2086-6571-430f-863d-bcaf9d267e62). For example, [all the view flags](https://docs.microsoft.com/openspecs/sharepoint_protocols/ms-wssfob/16a9d8ca-185d-40ec-956e-bb6bf3488cf7). You will need to convert all flag values to PRIME element *flags*.
-
-## Appendix
+## Examples
 
 ### Sample web part properties v2 XmlNode element 
 
@@ -322,7 +320,7 @@ The web part connections can be found in \<SPWebPartConnection> elements from th
   </webPart>
 ```
 
-4 - Sample Web Part Connection XmlNode Element 
+### Sample web part connection XmlNode element 
 
 ```xml
 <WebPartPages:SPWebPartConnection ConsumerConnectionPointID="DFWP Filter Consumer ID" ConsumerID="g_bcca2ac1_f0f1_4640_af30_8a0730ca840e" ID="c1638508205" ProviderConnectionPointID="ITransformableFilterValues" ProviderID="g_7fc41891_2e27_4835_99c8_5b6f80feb20f"><WebPartPages:TransformableFilterValuesToParametersTransformer ConsumerFieldNames="PageType" ProviderFieldNames="Page Field"></WebPartPages:TransformableFilterValuesToParametersTransformer>
