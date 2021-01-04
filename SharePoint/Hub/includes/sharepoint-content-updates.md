@@ -2,6 +2,13 @@
 
 
 
+## Week of December 21, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+
+
 ## Week of December 14, 2020
 
 
@@ -25,15 +32,3 @@
 | 12/4/2020 | [Sign out inactive users](/SharePoint/sign-out-inactive-users) | modified |
 | 12/4/2020 | [About user profile synchronization](/SharePoint/user-profile-sync) | modified |
 | 12/4/2020 | [Remove deleted users from SharePoint](/SharePoint/remove-users) | modified |
-
-
-## Week of November 16, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/16/2020 | [Add SharePoint Success Site content to your M365 Learning Pathways solution](/SharePoint/add-sss-cdn) | modified |
-| 11/18/2020 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration-preview) | modified |
-| 11/18/2020 | [View search usage reports](/SharePoint/view-search-usage-reports) | modified |
-| 11/18/2020 | [Cloud hybrid search service (Cloud SSA) FAQ](/SharePoint/hybrid/cloud-hybrid-search-faq) | modified |
-| 11/20/2020 | [Understanding permission levels in SharePoint](/SharePoint/understanding-permission-levels) | modified |
