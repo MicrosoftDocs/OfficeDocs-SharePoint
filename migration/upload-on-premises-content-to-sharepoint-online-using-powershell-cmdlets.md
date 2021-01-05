@@ -83,7 +83,7 @@ Identify your credentials and the locations of your source files, target files, 
   
 On your local computer, open SharePoint Online Management Shell. Run the following commands, but insert your values:
 
-```Powershell
+```powershell
 $cred = (Get-Credential admin@contoso.com)
 $sourceFiles = '\\fileshare\users\charles'
 $sourcePackage = 'C:\migration\CharlesDocumentsPackage_source'
@@ -117,7 +117,7 @@ The following parameters are required unless marked optional:
   
 The following example shows how to create a new package from a file share. It ignores hidden files and replaces unsupported characters in file/folder names.
   
-```Powershell
+```powershell
     New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $sourcePackage -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib -IgnoreHidden -ReplaceInvalidCharacters`
 ```
   
@@ -149,7 +149,7 @@ There are six required parameters to enter (others are optional):
   
 This example shows how to convert a package to a targeted one by looking up data in the target site collection. To boost file share migration performance, it uses the *-ParallelImport* parameter.
   
-```Powershell
+```powershell
 $finalPackages = ConvertTo-SPOMigrationTargetedPackage -ParallelImport -SourceFilesPath $sourceFiles -SourcePackagePath $sourcePackage -OutputPackagePath $targetPackage -Credentials $cred -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib`
 ```
   
@@ -172,7 +172,7 @@ There are four required parameters to enter. Others are optional.
   
 This example shows how to submit package data to create a new migration job.
   
-```Powershell
+```powershell
  $job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -SourcePackagePath $targetPackage -Credentials $cred -TargetWebUrl $targetWeb
 ```
   
@@ -180,7 +180,7 @@ This example shows how to submit package data to create a new migration job.
   
 This example shows how to submit package data to create new migration jobs for parallel import.
 
-```Powershell  
+```powershell  
 $jobs = $finalPackages | % {Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $_.FilesDirectory.FullName -SourcePackagePath $_.PackageDirectory.FullName -Credentials $cred -TargetWebUrl $targetWeb}
 ```
   
@@ -221,7 +221,7 @@ If you're using the temporary Azure Storage created by  *Invoke-SPOMigrationEncr
 
 Use the following sample script. It includes the steps from determining your locations and credentials, to submitting your package data, to creating a new migration job.
   
-```Powershell
+```powershell
 $userName = "admin@contoso.onmicrosoft.com"
 $sourceFiles = "d:\data\documents"
 $packagePath = "d:\data\documentPackage"
@@ -235,7 +235,7 @@ New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $packag
 
 ## Convert the package to a targeted one by looking up data in target site collection
 
-```Powershell  
+```powershell  
 $finalPackages = ConvertTo-SPOMigrationTargetedPackage -SourceFilesPath $sourceFiles -SourcePackagePath $packagePath -OutputPackagePath $spoPackagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -Credentials $cred
 ```
   
@@ -246,7 +246,7 @@ $job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -Sou
   
 This sample shows how to get the returned information of a job, which comes in the form of a GUID.
   
-```Powershell
+```powershell
 $job = $jobs[0]
 $job.JobId
 Guid
@@ -256,14 +256,14 @@ Guid
 
 This sample shows how to get the *$job.ReportingQueueURi.AbosoluteUri*.
   
-```Powershell
+```powershell
 # To obtain the $job.ReportingQueueUri.AbsoluteUri
 https://spodm1bn1m013pr.queue.core.windows.net/953pq20161005-f84b9e51038b4139a179f973e95a6d6f?sv=2014-02-14&amp;sig=TgoUcrMk1Pz8VzkswQa7owD1n8TvLmCQFZGzyV7WV8M%3D&amp;st=2016-10-04T07%3A00%3A00Z&amp;se=2016-10-26T07%3A00%3A00Z&amp;sp=rap
 ```
 
 This sample shows how to obtain the encryption key and the sample return.
   
-```Powershell
+```powershell
 $job.Encryption
 EncryptionKey                                       EncryptionMethod
 -----------------------                            ------------------
@@ -287,7 +287,7 @@ EncryptionKey                                       EncryptionMethod
 ## Azure limits
 <a name="step7monitoring"> </a>
 
-|**Resource** <br/> |**Default/limit** <br/> |
+| Resource | Default/Limit |
 |:-----|:-----|
 |TB per storage account  <br/> |500<br/> |
 |Max size of single blob container, table, or queue.  <br/> |500  |
