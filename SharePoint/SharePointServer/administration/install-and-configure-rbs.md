@@ -78,7 +78,7 @@ After you have enabled and configured FILESTREAM, provision a BLOB store on the 
     > [!TIP]
     > For best performance, simplified troubleshooting, and as a general best practice, we recommend that you create the BLOB store on a volume that does not contain the operating system, paging files, database data, log files, or the tempdb file. 
   
-  ```
+  ```sql
   use [WSS_Content]
   if not exists 
   (select * from sys.symmetric_keys 
@@ -86,7 +86,7 @@ After you have enabled and configured FILESTREAM, provision a BLOB store on the 
   create master key encryption by password = N'Admin Key Password !2#4'
   ```
 
-  ```
+  ```sql
   use [WSS_Content]
   if not exists 
   (select groupname from sysfilegroups 
@@ -95,12 +95,10 @@ After you have enabled and configured FILESTREAM, provision a BLOB store on the 
   add filegroup RBSFilestreamProvider contains filestream
   ```
 
-  ```
+  ```sql
   use [WSS_Content] 
   alter database [WSS_Content]
-   add file (name = RBSFilestreamFile, filename = 
-  'c:\Blobstore') 
-  to filegroup RBSFilestreamProvider
+  add file (name = RBSFilestreamFile, filename = 'c:\Blobstore') to filegroup RBSFilestreamProvider
   ```
 
 ## Install the RBS client library on SQL Server and each Front-end or Application server
@@ -109,7 +107,7 @@ After you have enabled and configured FILESTREAM, provision a BLOB store on the 
 You must install RBS client library on the SQL Server node and all Front-end or Application servers in the SharePoint farm. The RBS client library is installed only one time per web server, but RBS is configured separately for each associated content database. The client library consists of a client-side dynamic link library (DLL) that is linked into a user application, and a set of stored procedures that are installed on SQL Server.
   
 > [!CAUTION]
-> Do not install the RBS client library by running the RBS_amd64.msi file and starting the Install SQL Remote BLOB Storage wizard. The wizard sets certain default values that are not recommended for SharePoint Server 
+> Do not install the RBS client library by running the RBS_amd64.msi (or RBS.msi) file and starting the Install SQL Remote BLOB Storage wizard. The wizard sets certain default values that are not recommended for SharePoint Server.
   
 ### To install the RBS client library on the SQL Server.
 
@@ -117,45 +115,25 @@ You must install RBS client library on the SQL Server node and all Front-end or 
     
 2. On SQL Server node, download the correct RBS client based on the SQL Server version and SharePoint level that you use.
     
-    SharePoint Server 2016 supports the FILESTREAM provider that is included in the , SP1, SP2, SQL Server 2016, and SQL Server 2016 SP1.
+    SharePoint Server 2016 supports the FILESTREAM provider that is included in the SQL Server 2014 and SQL Server 2016.
     
-    SharePoint 2013 supports the FILESTREAM providers that are included in all versions of SQL Server 2008 R2, SQL Server 2012, and .
+    SharePoint 2013 supports the FILESTREAM providers that are included in all versions of SQL Server 2008 R2, SQL Server 2012, and SQL Server 2014.
     
     You only need to download the RSB.msi file from the Feature Pack but make sure you download the correct processor type for your server, either x86 or x64.
     
     For SharePoint Server 2016, choose the correct install from the following list:
     
-  - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)
-    
-  - [Microsoft SQL Server 2014 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=46696)
+  - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635)
     
   - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
-    
-  - [Microsoft SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=52676)
     
   - [Microsoft SQL Server 2016 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=54279)
     
     For SharePoint 2013, choose the correct install from the following list:
     
-  - [Microsoft® SQL Server® 2008 R2 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=177388)
-    
-  - [Microsoft SQL Server 2008 R2 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=26728)
-    
-  - [Microsoft SQL Server 2008 R2 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=30440)
-    
   - [Microsoft SQL Server 2008 R2 SP3 Feature Pack](https://www.microsoft.com/download/details.aspx?id=44272)
     
-  - [Microsoft SQL Server 2012 Feature Pack](https://www.microsoft.com/download/details.aspx?id=29065)
-    
-  - [Microsoft SQL Server 2012 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=35580)
-    
-  - [Microsoft SQL Server 2012 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=43339)
-    
-  - [Microsoft SQL Server 2012 SP3 Feature Pack](https://www.microsoft.com/download/details.aspx?id=49999)
-    
-  - [Microsoft SQL Server 2014 Feature Pack](https://www.microsoft.com/download/details.aspx?id=42295)
-    
-  - [Microsoft SQL Server 2014 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=46696)
+  - [Microsoft SQL Server 2012 SP4 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56041)
     
   - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
     
@@ -169,47 +147,27 @@ You must install RBS client library on the SQL Server node and all Front-end or 
 
 1. Confirm that the user account performing these steps is a member of the Administrators group on the computer where you are installing the library.
     
-2. On any web server, download the correct RBS client based on the SQL Server version and SharePoint level that you use. Use one of the following lists to choose the correct install. Run the self-extracting download package to create an installation folder for the X64 RBS.msi file.
+2. On any web server, download the correct RBS client based on the SQL Server version and SharePoint level that you use. Use one of the following lists to choose the correct install.
     
-    SharePoint Server 2016 supports the FILESTREAM provider that is included in the , SP1, SP2, SQL Server 2016, and SQL Server 2016 SP1.
+    SharePoint Server 2016 supports the FILESTREAM provider that is included in the SQL Server 2014 and SQL Server 2016.
     
-    SharePoint 2013 supports the FILESTREAM providers that are included in all versions of SQL Server 2008 R2, SQL Server 2012, and .
+    SharePoint 2013 supports the FILESTREAM providers that are included in all versions of SQL Server 2008 R2, SQL Server 2012, and SQL Server 2014.
     
-    You only need to download the RSB.msi file from the Feature Pack but make sure you download the correct processor type for your server, either x86 or x64.
+    You only need to download the RSB.msi file from the Feature Pack but make sure you download the x64 version.
     
     For SharePoint Server 2016, choose the correct install from the following list:
     
-  - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635&amp;clcid=0x409)
-    
-  - [Microsoft SQL Server 2014 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=46696)
+  - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635)
     
   - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
-    
-  - [Microsoft SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=52676)
     
   - [Microsoft SQL Server 2016 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=54279)
     
     For SharePoint 2013, choose the correct install from the following list:
     
-  - [Microsoft® SQL Server® 2008 R2 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=177388)
-    
-  - [Microsoft SQL Server 2008 R2 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=26728)
-    
-  - [Microsoft SQL Server 2008 R2 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=30440)
-    
   - [Microsoft SQL Server 2008 R2 SP3 Feature Pack](https://www.microsoft.com/download/details.aspx?id=44272)
     
-  - [Microsoft SQL Server 2012 Feature Pack](https://www.microsoft.com/download/details.aspx?id=29065)
-    
-  - [Microsoft SQL Server 2012 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=35580)
-    
-  - [Microsoft SQL Server 2012 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=43339)
-    
-  - [Microsoft SQL Server 2012 SP3 Feature Pack](https://www.microsoft.com/download/details.aspx?id=49999)
-    
-  - [Microsoft SQL Server 2014 Feature Pack](https://www.microsoft.com/download/details.aspx?id=42295)
-    
-  - [Microsoft SQL Server 2014 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=46696)
+  - [Microsoft SQL Server 2012 SP4 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56041)
     
   - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
     
@@ -270,7 +228,7 @@ You must enable RBS on one web server in the SharePoint farm. It is not importan
   $rbss
   ```
 
-    Where:  _\<ContentDatabaseName\>_ is the name of the content database. 
+   Where  _\<ContentDatabaseName\>_ is the name of the content database. 
     
 For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/Get-SPContentDatabase?view=sharepoint-ps).
   
@@ -308,12 +266,11 @@ You should test the RBS installation on one Front-end server in the SharePoint f
   
 [Deciding to use RBS in SharePoint Server](rbs-planning.md)
   
-[Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://blogs.technet.com/b/bogdang/archive/2014/12/04/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012.aspx)
+[Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://docs.microsoft.com/archive/blogs/bogdang/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012)
   
 [Install for SharePoint 2013](../install/install-for-sharepoint-2013.md)
   
-[Remote Blob Store (RBS) (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=733607&amp;clcid=0x409)
+[Remote Blob Store (RBS) (SQL Server)](https://docs.microsoft.com/sql/relational-databases/blob/remote-blob-store-rbs-sql-server)
   
-[Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409)
+[Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream)
   
-
