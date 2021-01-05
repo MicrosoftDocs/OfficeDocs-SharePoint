@@ -67,5 +67,5 @@ Answer: Yes. If your migration task was successful, your data will be migrated t
 **Question:**  Does running a migration slow down the tenant or impact SharePoint site performance while migrating? </br> 
 Answer:  In general, site performance should not be impacted by running a migration.  There are many factors that prevent this from happening:
 - Migration runs as a background activity and does not compete with end-user traffic
-- SharePoint and OneDrive infrastructure has built-in throttling rules that project the reliability and availability of the system.    To learn more about migration through put and facotrs that impact migration speed, learn more at:  [General migration performance guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+- SharePoint and OneDrive infrastructure has built-in throttling rules that project the reliability and availability of the system. To learn more about migration throughput and factors that affect migration speed, learn more at:  [General migration performance guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
 
