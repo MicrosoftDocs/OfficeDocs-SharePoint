@@ -157,19 +157,19 @@ You must install RBS client library on the SQL Server node and all Front-end or 
     
     For SharePoint Server 2016, choose the correct install from the following list:
     
-  - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635)
+     - [Microsoft SQL Server 2014 Feature Pack](https://go.microsoft.com/fwlink/p/?LinkID=733635)
     
-  - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
+     - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
     
-  - [Microsoft SQL Server 2016 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=54279)
+     - [Microsoft SQL Server 2016 SP1 Feature Pack](https://www.microsoft.com/download/details.aspx?id=54279)
     
     For SharePoint 2013, choose the correct install from the following list:
     
-  - [Microsoft SQL Server 2008 R2 SP3 Feature Pack](https://www.microsoft.com/download/details.aspx?id=44272)
+     - [Microsoft SQL Server 2008 R2 SP3 Feature Pack](https://www.microsoft.com/download/details.aspx?id=44272)
     
-  - [Microsoft SQL Server 2012 SP4 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56041)
+     - [Microsoft SQL Server 2012 SP4 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56041)
     
-  - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
+     - [Microsoft SQL Server 2014 SP2 Feature Pack](https://www.microsoft.com/download/details.aspx?id=53164)
     
 3. Copy and paste the following command into the Command Prompt window. Replace  _WSS_Content_ with the database name, and replace  _DBInstanceName_ with the name of the SQL Server instance. The action should finish within approximately one minute. 
     
