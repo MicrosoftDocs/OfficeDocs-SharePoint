@@ -78,7 +78,7 @@ OneDrive sync client supports differential sync for all file types stored in One
 > [!NOTE]
 > Windows Notification Service or WNS plays an important role in efficient network utilization. Instead of sync client constantly pulling to check for remote changes, WNS ensures that any changes from the cloud get pushed down to the device as fast as possible. It saves both network bandwidth and device battery life. This benefits both Windows and macOS. Make sure connection to the service is enabled. Work with your network team to make sure proxies: Allow network traffic to bypass *.wns.windows.com; Avoid HTTPS decryption for *.wns.windows.com. 
 
-A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For detailed deployment guidance on Known Folder Move, see [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/en-us/onedrive/redirect-known-folders).
+A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For detailed deployment guidance on Known Folder Move, see [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders).
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
@@ -143,4 +143,3 @@ For info about these policies, see:
 <a name="ControlSyncThroughput"> </a>
 
 [Network planning and performance tuning for Microsoft 365](/office365/enterprise/network-planning-and-performance)
-
