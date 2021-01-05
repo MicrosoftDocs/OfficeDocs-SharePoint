@@ -32,7 +32,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 - [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#government-cloud)
 
-
+- [Pre-provision OneDrive accounts ](https://docs.microsoft.com/onedrive/pre-provision-accounts). If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. You can do this using a script, as shown here: [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts).
 
 ## Agent error messages
 |Message|Do this|
@@ -104,7 +104,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 |0x02040009|The package can't be created because the directory cannot be found.  All files and folders in the Migration Manager working folder, *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*, must be closed. Restart your migration.|
 |0x02010020|Disable migrating version history in Migration Manager settings or enable versioning in SPO.|
 |0x0201000E|Check if the global setting has filtered out special characters in the target path or if the path has unsupported characters.|
-|0X0201000F|Invalid site URL. Check if the site URL is valid. Try to access the URL via a browser.|
+|0X0201000F|Invalid site URL. Check if the site URL is valid. Try to access the URL via a browser. If this is a OneDrive account, make sure it has been pre-provisioned before you migrate.|
 |0x0207001|You do not have access to the task folder. Check if you can access *%appdata%\Microsoft\SPMigration\Logs\Migration\MigrationToolStorage*.|
 |0x01410010|A failure occurred because of missing dependencies on list items. Check the FailureSummaryReport.csv for details. Check if the dependencies have been included in your migration scope.|
 |0x01510001|Packages failed to upload. If you have customized Azure storage, check if you can access the Azure storage and check if you can access the target site. Try migrating again.
