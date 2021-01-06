@@ -131,7 +131,7 @@ You can also use policies included with the OneDrive sync app to control network
   
 For info about these policies, see:
 
-[Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#Enable-automatic-upload-bandwidth-management-for-OneDrive) - Recommended for best user experience 
+[Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive) - Recommended for best user experience 
 
 [Limit the sync app upload speed to a fixed rate](use-group-policy.md#limit-the-sync-app-upload-speed-to-a-fixed-rate)
   
