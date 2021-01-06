@@ -34,7 +34,7 @@ In the above example, the HR segment is compatible with both Sales and Research.
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
 - Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
-- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. Please note - SharePoint and OneDrive information barriers can only be enabled in your tenant if you already have atleast one active information barriers policy. 
+- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. Please note that SharePoint and OneDrive information barriers can only be enabled in your tenant if you already have at least one active information barriers policy. 
 - After SharePoint and OneDrive information barriers is enabled in your tenant, wait 24 hours for the changes to propagate through your environment. 
 
 ## Use PowerShell to associate segments with a site
