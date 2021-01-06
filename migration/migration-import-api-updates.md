@@ -14,7 +14,7 @@ localization_priority: Priority
 
 The following API description is based upon use of the SharePoint Client Side Object Model (CSOM). We do recommend using NuGet packages when you reference CSOM in your solution. 
 
-You can find latest version of the SharePoint Online Client Side Object Model (CSOM) package from the [NuGet gallery](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/) using id of `Microsoft.SharePointOnline.CSOM`.
+You can find latest version of the SharePoint Online Client Side Object Model (CSOM) package from the [NuGet gallery](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/). Use the ID `Microsoft.SharePointOnline.CSOM`.
 
 >[!Important]
 > **Pending change:** Files larger than 15 GB must now create the required checksum using [QuickXorHash](https://docs.microsoft.com/en-us/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online). We have provided an example [here](#what-is-stored-in-those-azure-blob-containers).
