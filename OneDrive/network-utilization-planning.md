@@ -125,7 +125,7 @@ To manage the use of network bandwidth, you can configure a QoS policy with a sp
     
 ### Use OneDrive Group Policy objects
 
-You can also use policies included with the OneDrive sync app to control network throughput. These policies are available in the OneDrive installation directory, %localappdata%\Microsoft\OneDrive\BuildNumber\adm\. (Where BuildNumber is the number displayed in sync app settings on the About tab.)
+You can also use policies included with the OneDrive sync app to control network throughput. These policies are available in the OneDrive installation directory `%localappdata%\Microsoft\OneDrive\BuildNumber\adm\` where `BuildNumber` is the number displayed in sync app settings on the About tab.
   
 For info about these policies, see:
   
