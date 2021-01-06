@@ -38,7 +38,7 @@ When these segments are associated with the OneDrive, content can be shared with
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
 - Create segments and define the users in each. Create policies that block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). Wait 24 hours for the changes to propagate through your environment.
-- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. Please note: SharePoint and OneDrive information barriers can only be enabled in your tenant if you have atleast one active information barriers policy defined in the tenant. 
+- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization. Please note that SharePoint and OneDrive information barriers can only be enabled in your tenant if you have at least one active information barriers policy defined in the tenant. 
 - After SharePoint and OneDrive information barriers is enabled in your tenant, wait 24 hours for the changes to propagate through your environment. 
  
 ## Sharing files from a OneDrive that has segments associated
