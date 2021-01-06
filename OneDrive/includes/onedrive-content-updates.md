@@ -2,46 +2,39 @@
 
 
 
-## Week of August 10, 2020
+## Week of November 30, 2020
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 8/13/2020 | [Change a specific user's OneDrive storage space](/OneDrive/change-user-storage) | modified |
+| 12/4/2020 | [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/OneDrive/deploy-on-windows) | modified |
+| 12/4/2020 | [Use Group Policy to control OneDrive sync settings](/OneDrive/use-group-policy) | modified |
+| 12/4/2020 | [Change the external sharing setting for a user's OneDrive](/OneDrive/user-external-sharing-settings) | modified |
 
 
-## Week of August 31, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/3/2020 | [OneDrive guide for enterprises](/OneDrive/plan-onedrive-enterprise) | modified |
-| 9/3/2020 | [Set the default storage space for OneDrive users](/OneDrive/set-default-storage-space) | modified |
-
-
-## Week of September 21, 2020
+## Week of November 16, 2020
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/22/2020 | [Allow syncing only on computers joined to specific domains](/OneDrive/allow-syncing-only-on-specific-domains) | modified |
-| 9/23/2020 | [Transition from the previous OneDrive for Business sync app](/OneDrive/transition-from-previous-sync-client) | modified |
+| 11/16/2020 | [Use the sync app on virtual desktops](/OneDrive/sync-vdi-support) | modified |
 
 
-## Week of September 28, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/29/2020 | [Control Groove.exe installation when deploying Office using Click-to-Run](/OneDrive/exclude-or-uninstall-previous-sync-client) | modified |
-| 9/29/2020 | [Transition from the previous OneDrive for Business sync app](/OneDrive/transition-from-previous-sync-client) | modified |
-| 9/30/2020 | [Install the sync app per machine](/OneDrive/per-machine-installation) | modified |
-| 9/30/2020 | [How UPN changes affect OneDrive](/OneDrive/upn-changes) | modified |
-
-
-## Week of October 05, 2020
+## Week of November 09, 2020
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 10/6/2020 | [Enable conditional access support in the OneDrive sync app](/OneDrive/enable-conditional-access) | modified |
+| 11/9/2020 | [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/OneDrive/deploy-on-windows) | modified |
+| 11/11/2020 | [Use Group Policy to control OneDrive sync settings](/OneDrive/use-group-policy) | modified |
+
+
+## Week of November 02, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/3/2020 | [Change a specific user's OneDrive storage space](/OneDrive/change-user-storage) | modified |
+| 11/3/2020 | [Pre-provision OneDrive for users in your organization](/OneDrive/pre-provision-accounts) | modified |
+| 11/3/2020 | [Use Group Policy to control OneDrive sync settings](/OneDrive/use-group-policy) | modified |
+| 11/3/2020 | [Deploy and configure the new OneDrive sync app for Mac](/OneDrive/deploy-and-configure-on-macos) | modified |

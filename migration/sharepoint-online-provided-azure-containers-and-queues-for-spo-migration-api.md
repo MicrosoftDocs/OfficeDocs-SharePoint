@@ -82,7 +82,7 @@ The call will return an object that contains two strings containing two SAS toke
 
 public SPProvisionedMigrationQueueInfo ProvisionMigrationQueue()
   
-This method will return a string containing the SAS token for accessing the Azure queue. The Queue can be reused across multiple migration jobs so this call should not be used as frequently as the SPProbisionnedMigrationContainersInfo() call.
+This method will return a string containing the SAS token for accessing the Azure queue. The Queue can be reused across multiple migration jobs so this call should not be used as frequently as the SPProvisionedMigrationContainersInfo() call.
   
 - Uri JobQueueUri
     

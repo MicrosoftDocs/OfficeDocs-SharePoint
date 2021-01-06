@@ -28,13 +28,13 @@ description: "In this article, you'll learn how to deploy OneDrive apps using Mi
 
 # Deploy OneDrive apps using Microsoft Endpoint Configuration Manager
 
-You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive sync app (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
+You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive sync app (OneDrive.exe), as well as the mobile apps for iOS and Android. Before you begin deploying, make sure you have reviewed the planning information and deployment options in the [OneDrive guide for enterprises](plan-onedrive-enterprise.md).<br/><br/>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSr]
   
 ## Deploy the OneDrive sync app for Windows
 
- The OneDrive sync app (OneDrive.exe) can be installed on Windows 7 and later. It can also be installed on macOS. For info about deploying the OneDrive sync app on macOS, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md)
+ The OneDrive sync app (OneDrive.exe) can be installed on Windows 7 and later. It can also be installed on macOS. For info about deploying the OneDrive sync app on macOS, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md).
     
 The new OneDrive sync app can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync app, see [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
   
@@ -50,7 +50,7 @@ The OneDrive sync app uses Windows Push Notification Services (WNS) for optimum 
 If the computers in your organization are running Windows 10, they already have the new sync app installed. If the computers have Office 2016 or Office 2013 (Home &amp; Student, Home &amp; Business, Professional, Personal, Home, or University) installed, they might also have the new sync app. 
 
 > [!NOTE]
-> Office is installed per machine, whereas OneDrive is installed per user by default. [Learn about installing OneDrive per machine](per-machine-installation.md)
+> Office is installed per machine, whereas OneDrive is installed per user by default. [Learn about installing OneDrive per machine](per-machine-installation.md).
   
 ### Deploy any administrative settings
 
@@ -64,15 +64,16 @@ To set registry keys on computers in your domain, install OneDrive and copy the 
   
 3. Download the [sample Configuration Manager package](https://go.microsoft.com/fwlink/p/?LinkId=824069). It's a .zip file that contains the script installer deployment type. For more information about packages and programs in Configuration Manager, see [Packages and programs in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs).
 
-> [!NOTE]
-> The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive sync app, if necessary.
+   > [!NOTE]
+   > The script installer deployment type already has a detection method script and will correctly assess the installation. Also, there is an uninstall switch, which means that you can easily remove the OneDrive sync app, if necessary.
 
   
 4. Copy the installer to a folder in the Configuration Manager source content share. 
 
 5. In Configuration Manager, select the **Software Library** workspace. Under **Application Management**, right-click **Applications**, and then select **Import Application**. 
 
-![Importing an application](media/deploy-onedrive-enterprise_image6.png)
+   > [!div class="mx-imgBorder"]
+   > ![Importing an application](media/deploy-onedrive-enterprise_image6.png)
 
 6. Select the sample package.
 
@@ -90,7 +91,9 @@ Execute <pathToExecutable>\OneDriveSetup.exe /silent
 (where pathToExecutable is a location on the local computer or an accessible network share).
   
 > [!NOTE]
-> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with Configuration Manager](https://go.microsoft.com/fwlink/?linkid=839723).</br>If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the /silent parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the /silent parameter. 
+> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with Configuration Manager](https://go.microsoft.com/fwlink/?linkid=839723).
+> 
+> If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the **/silent** parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the **/silent** parameter. 
   
 [Learn more about application management in Configuration Manager](https://go.microsoft.com/fwlink/p/?LinkId=535034).
 The installer will install the OneDrive executable file under **%localappdata%\Microsoft\OneDrive**. 
@@ -99,9 +102,9 @@ The installer will install the OneDrive executable file under **%localappdata%\M
 
 The new OneDrive sync app for Windows now supports syncing IRM-protected SharePoint document libraries and OneDrive locations. To create a seamless IRM sync experience for your users, deploy to your users' computers the latest [Rights Management Service (RMS) client](https://aka.ms/odirm) from the Microsoft Download Center. Even if these computers have the Azure Information Protection client installed, which includes the RMS client, the OneDrive sync app still needs a separate installation of the RMS client from the Microsoft Download Center.
   
-To silently install the RMS client on computers, use the /qn switch as part of the command-line options of the Microsoft Windows Installer Tool (Msiexec.exe). For example, the following command shows the silent mode installation (assuming the RMS Client installer package is already downloaded to C:\Downloads)
+To silently install the RMS client on computers, use the /qn switch as part of the command-line options of the Microsoft Windows Installer Tool (Msiexec.exe). For example, the following command shows the silent mode installation (assuming the RMS Client installer package is already downloaded to C:\Downloads).
   
-```
+```console
 msiexec /qn c:\downloads\setup.msi
 ```
 
@@ -169,15 +172,13 @@ For example, if you want to synchronize https://contoso.sharepoint.com/sites/Sal
 
 The resulting odopen:// URL will be:
 ```
-odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}&webUrl=https://contoso.sharepoint.com/sites/SalesTeam&listId={llllllll-llll-llll-llll-llllllllllll}&userEmail=user@contoso.com&Title=Sales&listTitle=Unicorn
+odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}&webUrl=https://contoso.sharepoint.com/sites/SalesTeam-01&listId={llllllll-llll-llll-llll-llllllllllll}&userEmail=user@contoso.com&webTitle=Sales&listTitle=Unicorn
 ```
 
 > [!NOTE]
-You will need Client Side Object Model (CSOM) knowledge if you want to automate quering the team site to determine the appropriate siteId, webId and listId to build the appropriate URL. 
+> You will need Client Side Object Model (CSOM) knowledge if you want to automate querying the team site to determine the appropriate siteId, webId, and listId to build the appropriate URL. 
 
 
-
-  
   
 ## Deploy the OneDrive app on mobile devices running iOS or Android
 
@@ -191,7 +192,8 @@ You can use Microsoft Endpoint Configuration Manager to deploy apps to mobile de
 
 3. In the **Location** box, enter the app store URL, https://itunes.apple.com/us/app/onedrive/id823766827?mt=12.
  
-![Entering the App Store URL](media/deploy-onedrive-enterprise_image4.png)
+   > [!div class="mx-imgBorder"]
+   > ![Entering the App Store URL](media/deploy-onedrive-enterprise_image4.png)
 
 4. Target the app to users. 
 
@@ -205,7 +207,8 @@ For more info, see [Create iOS applications with Configuration Manager](/configm
 
 3. In the **Location** box, enter the app store URL, https://play.google.com/store/apps/details?id=com.microsoft.skydrive&hl=en.
 
-![Entering the Google Play URL](media/deploy-onedrive-enterprise_image5.png)
+   > [!div class="mx-imgBorder"]
+   > ![Entering the Google Play URL](media/deploy-onedrive-enterprise_image5.png)
 
 4. Target the app to users.
 
@@ -218,4 +221,3 @@ For more info, see [Create Android applications with Configuration Manager](/con
 [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
  
-

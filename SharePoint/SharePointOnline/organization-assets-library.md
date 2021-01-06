@@ -20,18 +20,19 @@ description: "Specify a library as a location for assets that are centrally stor
 
 # Create an organization assets library
 
+> [!NOTE]
+> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Microsoft 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization. All of these libraries (regardless of type) must be on the same site. Only libraries (not folders) can be set as organization asset libraries.
+
 If your organization needs to store and manage files for all your users to use, you can specify one or more document libraries on a SharePoint site as an "organization assets library." You can create two types of organization assets:
 
 - **Images such as photos and logos**. When a user adds a web part to any modern page in SharePoint and that web part opens the file picker, the user can select "Your organization" in the left pane to browse the libraries you've specified.
 
     ![Selecting an image to add to a SharePoint page](media/image-library.png)
 
-- **Office templates**. When a user selects to create a new Office file (from Office.com or the Word, Excel, or PowerPoint desktop app), the user can select the tab for your organization to see the templates. (To use this feature on Office.com, users need to be assigned a license to Office 365 E3 or E5. The templates aren't available from the New menu. To create a doc from a template, go to Office.com > app start page > Office Template Library.)
+- **Office templates**. When a user selects to create a new PowerPoint presentation (from PowerPoint for the web or the PowerPoint desktop app), the user can select the tab for your organization to see the templates. (To use this feature on PowerPoint for the web, users need to be assigned a license to Office 365 E3 or E5. The templates aren't available from the New menu. To create a file from a template, go to the PowerPoint start page > Office Template Library.)
 
     ![Selecting a template in PowerPoint](media/office-template-library.png)
 
-> [!NOTE]
-> This feature is not available for Office 365 Germany, Office 365 operated by 21Vianet (China), or Microsoft 365 US Government plans. <br>You can specify up to 30 organization asset libraries for a single organization. All of these libraries (regardless of type) must be on the same site. Only libraries (not folders) can be set as organization asset libraries.
 
 ## Use Microsoft PowerShell to specify a library as an organization assets library
   

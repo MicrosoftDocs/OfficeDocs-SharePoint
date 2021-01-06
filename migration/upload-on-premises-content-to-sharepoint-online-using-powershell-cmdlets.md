@@ -28,7 +28,9 @@ description: "Learn how to use PowerShell cmdlets to migrate content from an on-
 # Upload on-premises content to SharePoint using PowerShell cmdlets
 
 > [!NOTE]
->  The **SharePoint Migration Tool** (SPMT) helps simplify your migration process. SPMT provides a wizard-like experience to guide you through the process of migrating either your SharePoint Server team sites or your network file shares to Microsoft 365. It is available to all Microsoft 365 users. > To download the tool, go to: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
+>  The **SharePoint Migration Tool** (SPMT) helps simplify your migration process. SPMT provides a wizard-like experience to guide you through the process of migrating either your SharePoint Server team sites or your network file shares to Microsoft 365. It is available to all Microsoft 365 users. 
+> 
+> To download the tool, go to: [SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 > [!IMPORTANT]
 > Currently, the SharePoint Migration Tool is not available for users of Office 365 operated by 21Vianet in China. 
@@ -84,7 +86,7 @@ For the first step, install the SharePoint Online Management shell.
 ## Step 2: Setup your working directory
 <a name="Step2Setupworkingdir"> </a>
 
-Before you start the migration process, you need to set up your working directory by creating two empty folders. These folders to not require a lot of disk space as they will only contain XML.
+Before you start the migration process, you need to set up your working directory by creating two empty folders. These folders do not require a lot of disk space as they will only contain XML.
   
 1. Create a Temporary package folder.
     
@@ -99,7 +101,7 @@ In this step, you must identify your locations and credentials, including the lo
   
 On your local computer, open the SharePoint Online Management Shell. Run the following commands substituting your values:
 
-```Powershell
+```powershell
 $cred = (Get-Credential admin@contoso.com)
 $sourceFiles = '\\fileshare\users\charles'
 $sourcePackage = 'C:\migration\CharlesDocumentsPackage_source'
@@ -135,7 +137,7 @@ The following parameters are required unless marked optional:
   
 The following example shows how to create a new package from a file share, ignoring hidden files and replacing unsupported characters in a file/folder name.
   
-```Powershell
+```powershell
     New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $sourcePackage -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib -IgnoreHidden -ReplaceInvalidCharacters`
 ```
   
@@ -169,7 +171,7 @@ There are six required parameters to enter (others are optional):
   
 This example shows how to convert a package to a targeted one by looking up data in the target site collection. To boost file share migration performance, it uses the -ParallelImport parameter.
   
-```Powershell
+```powershell
 $finalPackages = ConvertTo-SPOMigrationTargetedPackage -ParallelImport -SourceFilesPath $sourceFiles -SourcePackagePath $sourcePackage -OutputPackagePath $targetPackage -Credentials $cred -TargetWebUrl $targetWeb -TargetDocumentLibraryPath $targetDocLib`
 ```
   
@@ -194,14 +196,15 @@ There are four required parameters to enter (others are optional):
   
 This example shows how to submit package data to create a new migration job.
   
-```Powershell
+```powershell
  $job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -SourcePackagePath $targetPackage -Credentials $cred -TargetWebUrl $targetWeb
 ```
   
  **Example 2:**
   
 This example shows how to submit package data to create new migration jobs for parallel import.
-```Powershell  
+
+```powershell  
 $jobs = $finalPackages | % {Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $_.FilesDirectory.FullName -SourcePackagePath $_.PackageDirectory.FullName -Credentials $cred -TargetWebUrl $targetWeb}
 ```
   
@@ -248,7 +251,7 @@ If you're using the temporary Azure storage created by  *Invoke-SPOMigrationEncr
 
 Use the following sample script that includes the steps from determining your locations and credentials, to submitting your package data, to creating a new migration job.
   
-```Powershell
+```powershell
 $userName = "admin@contoso.onmicrosoft.com"
 $sourceFiles = "d:\data\documents"
 $packagePath = "d:\data\documentPackage"
@@ -262,7 +265,7 @@ New-SPOMigrationPackage -SourceFilesPath $sourceFiles -OutputPackagePath $packag
 
 ## Convert package to a targeted one by looking up data in target site collection
 
-```Powershell  
+```powershell  
 $finalPackages = ConvertTo-SPOMigrationTargetedPackage -SourceFilesPath $sourceFiles -SourcePackagePath $packagePath -OutputPackagePath $spoPackagePath -TargetWebUrl $targetWebUrl -TargetDocumentLibraryPath $targetLibrary -Credentials $cred
 ```
   
@@ -272,7 +275,7 @@ $job = Invoke-SPOMigrationEncryptUploadSubmit -SourceFilesPath $sourceFiles -Sou
   
 This sample shows how to get the returned information of a job, which comes in the form of a GUID.
   
-```Powershell
+```powershell
 $job = $jobs[0]
 $job.JobId
 Guid
@@ -282,14 +285,14 @@ Guid
 
 This sample shows how to get the $job.ReportingQueueURi.AbosoluteUri.
   
-```Powershell
+```powershell
 # To obtain the $job.ReportingQueueUri.AbsoluteUri
 https://spodm1bn1m013pr.queue.core.windows.net/953pq20161005-f84b9e51038b4139a179f973e95a6d6f?sv=2014-02-14&amp;sig=TgoUcrMk1Pz8VzkswQa7owD1n8TvLmCQFZGzyV7WV8M%3D&amp;st=2016-10-04T07%3A00%3A00Z&amp;se=2016-10-26T07%3A00%3A00Z&amp;sp=rap
 ```
 
 This sample shows how to obtain the encryption key and the sample return.
   
-```Powershell
+```powershell
 $job.Encryption
 EncryptionKey                                       EncryptionMethod
 -----------------------                            ------------------
@@ -303,7 +306,7 @@ EncryptionKey                                       EncryptionMethod
 ## Best Practices and Limitations
 <a name="step7monitoring"> </a>
 
-|**Description** <br/> |**Recommendation** <br/> |
+| Description <br/> | Recommendation <br/> |
 |:-----|:-----|
 |Package size  <br/> |10-20 GB  <br/> Use -ParallelImport switch for File Share migration which automatically splits the big package into smaller ones.  <br/> |
 |File size  <br/> |2 GB  <br/> |
@@ -313,7 +316,7 @@ EncryptionKey                                       EncryptionMethod
 ## Azure Limits
 <a name="step7monitoring"> </a>
 
-|**Resource** <br/> |**Default/Limit** <br/> |
+| Resource <br/> | Default/Limit <br/> |
 |:-----|:-----|
 |TB per storage account  <br/> |500 TB  <br/> |
 |Max size of single blob container, table, or queue.  <br/> |500 TB  <br/> |

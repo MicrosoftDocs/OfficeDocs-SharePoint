@@ -10,7 +10,9 @@ f1.keywords:
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
-ms.collection: M365-collaboration
+ms.collection: 
+- M365-collaboration
+- enabler-strategic
 description: "Creating and launching a healthy SharePoint portal"
 ---
 

@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 9/20/2017
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -27,7 +26,7 @@ This article describes how to configure Site Mailboxes in SharePoint Server and 
 
 Before you begin this operation, review the following information about prerequisites:
   
-- Site Mailboxes requires Exchange Server 2016 or Exchange Server 2013.
+- Site Mailboxes requires Exchange Server 2013 or later.
     
 - Any previous version of Exchange Web Services (EWS) will need to be uninstalled from the SharePoint servers.
     

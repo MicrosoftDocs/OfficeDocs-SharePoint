@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Authorizing the File share Connector"
 ---
@@ -78,7 +79,7 @@ The following Agents operate using a command line interface versus a user interf
 
 The Agent works with files and folders. All users who are separated into their own folders can easily be mapped to their new location in Office 365.
 
-A good example would be a large listing of home drives. Each home drive for a user could be transfered to their respective new user in Office 365.
+A good example would be a large listing of home drives. Each home drive for a user could be transferred to their respective new user in Office 365.
 
 ![Agent view users](media/windows-view-users.png)
 
@@ -284,7 +285,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 2. In the **Connector** list, find **Agent (Desktop or Server)**.
 3. Select **Authorize**.
 
-![Agent connector list authentication](media/agent_connector_list_auth.png)
+![Agent connector list authentication](media/mover-auth-source-connector-fileshare.png )
 
 4. A new window opens, and you are prompted to name your **Connector** <optional>.
 5. Enter your required Key that you copied from the installed agent (found via the **File** > **Copy Key** action in the Agent).
@@ -292,9 +293,7 @@ For Mac and Linux, the Agent folder appears in your Downloads, and is run throug
 
 ![Name connector agent](media/name-connector-agent.png)
 
-### Additional screenshots
 
-![Additional screenshots](media/additional-screenshots.png)
 
 ## Troubleshooting an agent connector
 
@@ -316,6 +315,13 @@ To stop the Mover Agent from connecting to the Mover's servers, select **Disconn
 
 To completely uninstall the Mover Agent, use the Windows program manager.
 
+### Agent Connection Issues
+
+- Ensure bifrost-v2.mover.io is not blocked and it is connecting directly to port 443 on the network.
+- Ensure that you have downloaded the [Azure IP ranges and service tags](https://www.microsoft.com/download/details.aspx?id=56519)
+- Ensure that no firewalls, third-party applications, plugins or even their IT department or ISP are not throttling/blocking the connection.
+- The Agent also cannot connect via a proxy and must directly connect to the network.
+
 
 ## Connect your source agent for Windows
 
@@ -323,8 +329,3 @@ If you are not already connected after you have authorized your source, select *
 
 ![Execution select agent source](media/execution-select-agent-source.png)
 
-## Connect your destination Office 365 account
-
-If you are not already connected after you have authorized your destination, select **Office 365**, and load the connector. An icon appears and show you how many users you are migrating.
-
-![Execution select Microsoft 365 destination](media/execution-select-office-365-destination.png)

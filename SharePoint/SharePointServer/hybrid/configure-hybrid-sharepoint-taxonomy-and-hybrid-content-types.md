@@ -166,7 +166,7 @@ After you've configured hybrid SharePoint taxonomy, the taxonomy replication tim
 
 Hybrid SharePoint taxonomy uses a timer job called Taxonomy Groups Replication to copy taxonomy information from SharePoint in Microsoft 365 to SharePoint Server. The SharePoint in Microsoft 365 APP Identity is used to authenticate to Microsoft 365. By default, this timer job replicates taxonomy on a daily basis.
   
-Like other timer jobs in SharePoint in Microsoft 365, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searcing for it in the timer job list in Central Administration.
+Like other timer jobs in SharePoint in Microsoft 365, you can configure the Taxonomy Groups Replication job to run on a different schedule, or you can run it manually, by searching for it in the timer job list in Central Administration.
   
 ## Stopping replication of taxonomy groups
 

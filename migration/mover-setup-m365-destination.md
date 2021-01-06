@@ -10,6 +10,7 @@ localization_priority: Priority
 ms.collection: 
 - SPMigration
 - M365-collaboration
+- m365initiative-migratetom365
 search.appverid: MET150
 description: "Mover migration: Authorizing Office 365"
 ---
@@ -35,7 +36,7 @@ Some steps in the authorization process can be completed by a global or SharePoi
 
 2. **Global or SharePoint admin**: In the **Connector** list, find **Office 365**. Select **Authorize**.
 
-    ![Authorize O365](media/authorize-o365.png)
+    ![Authorize O365](media/mover-auth-destination-connector.png)
 
 3. **Global or SharePoint admin**: A window with an **Authorize** button appears. It prompts you to provide a display name <optional> for your **Office 365 Connector**.  Select **Authorize**.
 
@@ -55,17 +56,17 @@ Some steps in the authorization process can be completed by a global or SharePoi
 To tighten your security beyond administrators, turn on **User assignment required** from the *Office 365 Mover* app settings in your Azure portal. You need to specifically assign your migrator users who may use the app.
 
 
-    ![user assignment required](media/mover-user-assignment-setting.png)
+![user assignment required](media/mover-user-assignment-setting.png)
 
 5. **Global or SharePoint admin**: After authorizing the connector, you are redirected to the **Mover Transfer Wizard**, and an error appears, like the following. This means it is now time for a global admin in your tenant to grant permissions to the Office 365 Mover app in the Azure portal.
 
-If you're a **SharePoint admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your global admin to **aka.ms/office365moverauth**.
+If you're a **SharePoint admin**: To grant permissions and finish the authorization process (Steps 6 – 9), point your global admin to **https://aka.ms/office365moverauth**.
 
-If you're a **global admin**: Continue with Steps 6–9.
+If you're a **global admin**: Continue with Steps 6–9 to authorize the connector when you receive the message: *"Could not retrieve user count: A Global admin needs to authorize the Office 365 Mover application in the Azure tenant…"* 
 
-    ![Authorize error](media/authorize-error.png)
+   ![Authorize error](media/authorize-error.png)
 
-6. **Global admin**: Log in to the Azure Portal via **aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
+6. **Global admin**: Log in to the Azure Portal via **https://aka.ms/office365moverauth**. A list of **Enterprise applications** appears.
 
     ![Enterprise applications](media/enterprise-applications.png)
 
