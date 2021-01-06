@@ -26,7 +26,7 @@ The following image illustrates three segments in an organization: HR, Sales, an
 
 ![Example of segments in an organization](media/info-barriers-segments-example.png)
 
-With SharePoint information barriers, a SharePoint or global admin can associate segments to a site to prevent the site from being shared with or accessed by users outside the segments. Up to 100 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level). Microsoft 365 group connected to the site is also associated with the site's segment.
+With SharePoint information barriers, a SharePoint or global admin can associate segments to a site to prevent the site from being shared with or accessed by users outside the segments. Up to 100 compatible segments can be associated with a site. The segments are associated at the site level (previously called site collection level). The Microsoft 365 group connected to the site is also associated with the site's segment.
 
 In the above example, the HR segment is compatible with both Sales and Research. However, because the Sales and Research segments are incompatible, they can't be associated with the same site. 
 
