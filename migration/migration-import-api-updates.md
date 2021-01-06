@@ -17,7 +17,7 @@ The following API description is based upon use of the SharePoint Client Side Ob
 You can find latest version of the SharePoint Online Client Side Object Model (CSOM) package from the [NuGet gallery](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/) using id of `Microsoft.SharePointOnline.CSOM`.
 
 >[!Important]
-> **Pending change:** Files larger than 15 GB must now create the required checksum using [QuickXorHash](https://docs.microsoft.com/en-us/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online).
+> **Pending change:** Files larger than 15 GB must now create the required checksum using [QuickXorHash](https://docs.microsoft.com/en-us/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online). We have provided an example [here](#what-is-stored-in-those-azure-blob-containers).
 >
 >The previous method of MD5Hash is still required for files smaller than 2 GB; however this requirement will be removed at some point in the future.
 
@@ -392,7 +392,7 @@ However, when shipping the data on hard drives this property doesn’t get assig
 
 Since the MD5 is generated at the source instead of at the upload time in Azure, Microsoft can confirm the integrity of the file directly against the source MD5.
 
-### What is stored in those Azure Blob Containers?
+## What is stored in those Azure Blob Containers?
 
 The Migration API requires the Azure Container for content passing and also for log and queue reporting. It can be split down as a summary as follows:<br>
 
@@ -406,7 +406,7 @@ There are two new optional parameters in manifest.xml:
 - MD5Hash
 - InitializationVector
 
-#### Preparing the package
+### Preparing the package
 The method for calling the migration job doesn’t change; only the package generation needs to be changed.
 
 In the Manifest container one file is named Manifest.xml. There are 2 optional attributes added to the file node: *QuickXorHash*,*MD5Hash* and *InitializationVector*. <br>
