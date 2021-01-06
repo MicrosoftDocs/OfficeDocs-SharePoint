@@ -264,7 +264,7 @@ This setting enables you to specify the name of the folder created for syncing t
 If this setting is enabled, you can specify a TenantName that is the name the folder will use in the following convention:
 <br/> OneDrive – TenantName (specified by you) <br/> TenantName (specified by you)
 
-If you do not specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https://Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
+If you do not specify any TenantName, the folder will use the first segment of the FrontDoorURL as its name. For example, https<span>://</span>Contoso.SharePoint.com will use Contoso as the Tenant Name in the following convention:
 <br/> OneDrive – Contoso <br/> Contoso
 
 The example for this setting in the **.plist** file is:
