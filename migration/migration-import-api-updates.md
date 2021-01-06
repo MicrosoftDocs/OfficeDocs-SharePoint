@@ -7,6 +7,7 @@ manager: serdars
 search.appverid: MET150
 description: "This document is to give more in depth information about how to use the SPO Migration API."
 localization_priority: Priority
+ms.service: sharepoint-online
 ---
 # SharePoint Import Migration API (CreationMigrationJob)
 
