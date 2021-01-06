@@ -17,9 +17,9 @@ The following API description is based upon use of the SharePoint Client Side Ob
 You can find latest version of the SharePoint Online Client Side Object Model (CSOM) package from the [NuGet gallery](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/) using id of `Microsoft.SharePointOnline.CSOM`.
 
 >[!Important]
-> **Pending change:** Files larger than 15 GB must now create the checksum using [QuickXorHash](https://docs.microsoft.com/en-us/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online).
+> **Pending change:** Files larger than 15 GB must now create the required checksum using [QuickXorHash](https://docs.microsoft.com/en-us/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online).
 >
-> The previous method of MD5Hash is still required for files smaller than 2 GB; however this requirement will be removed at some point in the future.
+>The previous method of MD5Hash is still required for files smaller than 2 GB; however this requirement will be removed at some point in the future.
 
 
 ## Methods
@@ -386,7 +386,9 @@ Several log types can be included such as the full import log, along with warnin
 
 ## Changes for those using the "Ship Disk" option
 
-To use the Migration API, you must have a temporary storage container in Azure. When uploading files into the temporary storage, a checksum is required as a property on every file.  For files larger than 15GB, this is done using QuickXorHash (see example below). For files 2 GB or smaller, MD5 is required as a property on every file. However, when shipping the data on hard drives this MD5 property doesn’t get assigned automatically.  As a work around, we have adapted the Migration API to allow the MD5 to be passed for every file as part of the manifest. This also applies for IV values when encrypting the data.
+To use the Migration API, you must have a temporary storage container in Azure. When uploading files into the temporary storage, a checksum is required as a property on every file.  For files larger than 15GB, this is done using QuickXorHash (see example below). For files 2 GB or smaller, MD5 is required as a property on every file.
+
+However, when shipping the data on hard drives this property doesn’t get assigned automatically.  As a work around, we have adapted the Migration API to allow the checksum to be passed for every file as part of the manifest. This also applies for IV values when encrypting the data.
 
 Since the MD5 is generated at the source instead of at the upload time in Azure, Microsoft can confirm the integrity of the file directly against the source MD5.
 
