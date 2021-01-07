@@ -128,30 +128,3 @@ Make sure you have met the prerequisites for agent installation, and have review
 |0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for server processing the file. Fail to lookup folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
-
-
-
-## Agent installation failure
-
-**Issue:**  Agent doesn't successfully install, or the clientsetup.exe cannot be opened.
-
-Example: 
-
-![Migration Manager agent installation failure](media/mm-agent-installation-failure.png)
-
-**Diagnosis / Investigation**
-If the clientsetup.exe cannot be opened:
-- Sign in to Windows as Administrator, or provide the Adminstrator username and password upon opening the application, and the Adminstrator account should already be added to the domain.
-
-Errors occurred during installation process:
-
-The error message itself should already include the failure reason, and the appropriate actions to take if possible.
-Other errors shown without proper actions being suggested could be caused by temporary network failure, or other unknown issues.
-3. Mitigation
-If the clientsetup.exe cannot be opened:
-Ask the customer to sign in Windows as Administrator and reopen the clientsetup.exe application, or provide the Adminstrator username and password upon opening the application.
-
-Errors occurred during installation process:
-
-For errors with suggested actions (e.g. the one displayed in the image above), ask the customer to take the corresponding action and reopen the clientsetup.exe application;
-For other errors, ask the customer to ensure their Administrator account has been added to the domain, then close the application window and retry installation first.
