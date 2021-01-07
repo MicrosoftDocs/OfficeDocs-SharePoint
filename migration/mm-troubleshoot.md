@@ -22,17 +22,6 @@ description: "Troubleshoot common errors in Migration Manager."
 
 This article describes some issues and errors that you may encounter when using Migration Manager, and how to help you resolve them.
 
-[Prerequisites and settings](#check-prerequisites-and-settings)
-[Agent error messages](#agent-error-messages)
-[Destination site URL issues](#destination-site-url-issues)
-[Common error messages](#frequently-seen-error-messages)
-[Error codes](#error-codes)
-[Agent installation failure](#agent-installation-failure)
-[Agent disconnected](#agent-disconnected)
-[Task stuck in "Queued" state](#task-stuck-in-queued-status)
-[Task report cannot be downloaded](#task-report-cannot-be-downloaded)
-[Migration errors](#migration-error)
-
 
 ## Check prerequisites and settings
 

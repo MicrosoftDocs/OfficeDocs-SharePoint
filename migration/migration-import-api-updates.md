@@ -5,7 +5,7 @@ ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 search.appverid: MET150
-description: "This document provides in depth information on how to use the SharePoint Migration API."
+description: "This document provides in-depth information on how to use the SharePoint Migration API."
 localization_priority: Priority
 ms.service: sharepoint-online
 ---
@@ -16,7 +16,7 @@ The following API description is based upon use of the SharePoint Client Side Ob
 You can find latest version of the SharePoint Online Client Side Object Model (CSOM) package from the [NuGet gallery](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/). Use the ID `Microsoft.SharePointOnline.CSOM`.
 
 >[!Important]
-> **Pending change:** Files larger than 15 GB must now create the required checksum using [QuickXorHash](https://docs.microsoft.com/en-us/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online). We have provided an example [here](#what-is-stored-in-those-azure-blob-containers).
+> **Pending change:** Files larger than 15 GB must now create the required checksum using [QuickXorHash](https://docs.microsoft.com/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online). We have provided an example [here](#what-is-stored-in-those-azure-blob-containers).
 >
 >The previous method of MD5Hash is still required for files smaller than 2 GB; however this requirement will be removed at some point in the future.
 
@@ -25,7 +25,7 @@ You can find latest version of the SharePoint Online Client Side Object Model (C
 
 ### CreateMigrationJob
 
-This method creates a new migration import job and queues it up for later processing by a separate timer job. The job will consume a well formed (pre-defined format) import package that is located in the Azure Blob Storage Containers specified in this method. The SLA for migration job processing is be controlled through pre-configured queue and work load throttling settings, and there is no guaranteed SLA or return time for a submitted job.
+This method creates a new migration import job and queues it up for later processing by a separate timer job. The job will consume a well formed (pre-defined format) import package that is located in the Azure Blob Storage Containers specified in this method. The SLA for migration job processing is controlled through pre-configured queue and work load throttling settings, and there is no guaranteed SLA or return time for a submitted job.
 
 #### Syntax
 
@@ -45,7 +45,7 @@ The unique identifier of the destination web targeted for the package import. Ad
 
 ##### azureContainerSourceUri
 
-The valid URL including SAS token for accessing the Azure Blob Storage Container which contains the binary files of type block. The SAS token must have been created with only Read and List permissions or the migration job will fail. The SAS token should at least have a lifetime that starts no later than when the job was submitted, until a reasonable time for successful import to have concluded.<br>
+The valid URL including SAS token for accessing the *Azure Blob Storage Container* that contains the binary files of type block. The SAS token must have been created with only Read and List permissions or the migration job will fail. The SAS token should at least have a lifetime that starts no later than when the job was submitted, until a reasonable time for successful import to have concluded.<br>
 
 The required permissions are as follows in the Azure Storage API:
 
@@ -53,7 +53,7 @@ The required permissions are as follows in the Azure Storage API:
 (SharedAccessBlobPermissions.Read | SharedAccessBlobPermissions.List)
 ```
 
-**Note:** The change to enforce Read and List permissions on the SAS token is coming in a future build. Until then it will not be enforced. However, it is a best practice to use these values.
+**Note:** The change to enforce Read and List permissions on the SAS token is coming in a future build. Until then, it will not be enforced. However, it is a best practice to use these values.
 
 All files in the container must have at least a single snapshot applied to them to ensure that no file modification is made by the customer during the import. Any file that does not have a snapshot will be skipped during import and have an error thrown, although the job will attempt to continue the import. The import pipeline will use the latest snapshot of the file available at the time of import. The following is an example of the code that might be used to create a snapshot on a file after it is uploaded to Azure Blob Storage:
 
@@ -68,7 +68,7 @@ blob.CreateSnapshot();
 
 ##### azureContainerManifestUri
 
-The valid URL including SAS token for accessing the Azure Blob Storage Container which contains the block blobs for the manifest and other package describing XML files. This location will also be used for the log output. This container cannot be the same as the one used for the azureContainerSourceUri. The SAS token must have been created with only Read, List and Write permissions or the migration job will fail. The SAS token should at least have a lifetime that starts no later than when the job was submitted, until a reasonable time for successful import to have concluded.
+The valid URL including SAS token for accessing the Azure Blob Storage Container that contains the block blobs for the manifest and other package describing XML files. This location will also be used for the log output. This container cannot be the same as the one used for the azureContainerSourceUri. The SAS token must have been created with only Read, List, and Write permissions or the migration job will fail. The SAS token should at least have a lifetime that starts no later than when the job was submitted, until a reasonable time for successful import to have concluded.
 
 > [!NOTE]
 > The change to enforce Read, List and Write permissions on the SAS token is coming in a future build, and until then will be not be enforced, however it is best practice to use these values. If an issue arises using a current build, try removing the List permission as a temporary workaround, noting that it will become required soon.
@@ -80,7 +80,7 @@ All files in the container must have at least a single snapshot applied to them 
 
 ##### azureQueueReportUri
 
-The valid URL including SAS token for accessing the user provided Azure Queue used for returning notifications of migration job progress. This value can be null if no notification queue will be used during the import. If this value is not null and proper access is granted in the SAS token in this URI, it will be used for real time status update. The SAS token must have been created with only Add, Read and Update permissions or the migration job will be unable to add events to the queue. The required permissions are as follows in the Azure Storage API:
+The valid URL including SAS token for accessing the user provided Azure Queue used for returning notifications of migration job progress. This value can be null if no notification queue will be used during the import. If this value is not null and proper access is granted in the SAS token in this URI, it will be used for real-time status update. The SAS token must have been created with only Add, Read, and Update permissions or the migration job will be unable to add events to the queue. The required permissions are as follows in the Azure Storage API:
 
 ```
 (SharedAccessQueuePermissions.Add | SharedAccessQueuePermissions.Read | SharedAccessQueuePermissions.Update)
@@ -90,14 +90,14 @@ Once accepted, the job ID will be written to the notification queue if it was pr
 The following are examples of all event types logged into the Azure reporting queue:
 
 **Event:JobQueued**
-JobId:845daca4-5529-4b0e-85ab-a603efee5b12
-Time:09/29/2020 19:56:02.883
-SiteId:48917234-de43-474a-9f1b-8d98ffa08425
-DbId:8fd09323-b23f-430d-8957-213586ce3861
-TotalRetryCount:0
-MigrationType:None
-MigrationDirection:Import
-CorrelationId:c8d97e9f-802f-0000-ceac-44663834d510
+JobId: 845daca4-5529-4b0e-85ab-a603efee5b12
+Time: 09/29/2020 19:56:02.883
+SiteId: 48917234-de43-474a-9f1b-8d98ffa08425
+DbId: 8fd09323-b23f-430d-8957-213586ce3861
+TotalRetryCount: 0
+MigrationType: None
+MigrationDirection: Import
+CorrelationId: c8d97e9f-802f-0000-ceac-44663834d510
 
 **Event:JobPostponed**
 JobId:845daca4-5529-4b0e-85ab-a603efee5b12
@@ -251,13 +251,13 @@ public SPMigrationJobState GetMigrationJobStatus(Guid MigrationJobId)
 
 #### Parameters
 
-##### Id
+##### ID
 
 The unique identifier of the migration job returned from CreateMigrationJob method.
 
 #### Return values
 
-The migration job status is returned using a SPMigrationJobState object if the job is found in the queue, or if unsuccessful, a value of none (0) will be returned.
+The migration job status is returned using a SPMigrationJobState object if the job is found in the queue. If unsuccessful, a value of none (0) will be returned.
 
 **Example**
 
@@ -285,18 +285,18 @@ Package structure is based on a constrained version of the Content Deployment pa
 
 |      XML file      |           Schema File           |                                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ExportSettings.xml | DeploymentExportSettings Schema | Provides validation for the ExportSettings.XML file exported into the content migration package. ExportSettings.XML does the following: <br> - Contains the export settings specified by using the SPExportSettings class and other classes that are part of the content migration object model. <br> - Ensures that the subsequent import process (at the migration target site) enforces the directives specified in the export settings. <br> - Maintains a catalog of all objects exported to the migration package. |
+| ExportSettings.xml | DeploymentExportSettings Schema | Provides validation for the ExportSettings.XML file exported into the content migration package. ExportSettings.XML does as follows: <br> - Contains the export settings specified by using the SPExportSettings class and other classes that are part of the content migration object model. <br> - Ensures that the subsequent import process (at the migration target site) enforces the directives specified in the export settings. <br> - Maintains a catalog of all objects exported to the migration package. |
 | LookupListMap.xml  | DeploymentLookupListMap Schema  | Provides validation for the LookupListMap.XML file exported into the content migration package. LookupListMap.XML maintains a simple lookup list that records SharePoint list item (list item to list item) references.                                                                                                                                                                                                                                                                                                  |
 | Manifest.xml       | DeploymentManifest Schema       | Provides validation for the Manifest.xml file that is exported into the content migration package. Provides a comprehensive manifest containing listings of both the contents and the structure of the source site. The migration operation uses the manifest file to reconstitute the source site and its components when it is imported to the destination site.                                                                                                                                                       |
 | Requirements.xml   | DeploymentRequirements Schema   | Provides validation for the Requirements.xml file exported into the content migration package. Requirements.xml maintains list of deployment requirements in the form of installation requirements on the migration target, such as feature definitions, template versions, Web Part assemblies, language packs, and so forth.                                                                                                                                                                                           |
 | RootObjectMap.xml  | DeploymentRootObjectMap Schema  | Provides validation for the RootObjectMap.xml file exported into the content migration package.RootObjectMap.xml maintains a list of mappings of secondary (dependent) objects, which allows the import phase of the migration operation to correctly place the dependent objects relative to the locations of the root object mappings.                                                                                                                                                                                 |
-| SystemData.xml     | DeploymentSystemData Schema     | Provides validation for the SystemData.xml file exported into the content migration package.SystemData.xml does the following: Collects a variety of low-level system data. Records the number and names of Manifest.xml files (in cases where the migration uses multiple manifests).                                                                                                                                                                                                                                   |
+| SystemData.xml     | DeploymentSystemData Schema     | Provides validation for the SystemData.xml file exported into the content migration package.SystemData.xml does the as follows: Collects various low-level system data. Records the number and names of Manifest.xml files (in cases where the migration uses multiple manifests).                                                                                                                                                                                                                                   |
 | UserGroupMap.xml   | DeploymentUserGroupMap Schema   | Provides validation for the UserGroup.xml file exported into the content migration package. UserGroup.xml maintains a list of users and user security groups with respect to access security and permissions.                                                                                                                                                                                                                                                                                                            |
 | ViewFormsList.xml  | DeploymentViewFormsList Schema  | Provides validation for the ViewFormsList.xml file exported into the content migration package.ViewFormsList.xml maintains a list of Web Parts and tracks whether each is a view or form.                                                                                                                                                                                                                                                                                                                                |
 
 ### Content structure
 
-File content that is referenced within the manifest of the package structure must be stored in either a flat or hierarchical structure within the Azure Blob Store Container defined by the CreateMigrationJob’s `azureContainerSourceUri` parameter. For example, import packages generated form a legacy version export will not be hierarchical, and will instead have all files stored at the root level with a pattern like ########.dat where the # symbols are hexadecimal characters starting at 0 and no file names are repeated within a package. Alternately, a package generated from a file share can have the source folder hierarchy and file names preserved in the same hierarchy.
+File content that is referenced within the manifest of the package structure must be stored in either a flat or hierarchical structure within the Azure Blob Store Container defined by the CreateMigrationJob’s `azureContainerSourceUri` parameter. For example, import packages generated from a legacy version export will not be hierarchical, and will instead have all files stored at the root level with a pattern like ########.dat where the # symbols are hexadecimal characters starting at 0 and no file names are repeated within a package. Alternately, a package generated from a file share can have the source folder hierarchy and file names preserved in the same hierarchy.
 
 The main requirement for the structure is that the FileValue references in the **Manifest.XML** file must refer to the exact name and physical hierarchy that the content is stored in within the Azure Blob Store location for import. The destination file names and folder hierarchy from the import operation are not directly related to the physical naming and hierarchy and are instead defined through the **Manifest.XML** file.
 
@@ -318,29 +318,29 @@ All instances of the **Manifest.XML** file for a package are expected to be at t
 
 The **Manifest.XML** is the primary descriptor for metadata within the package, and provides the list/folder/item hierarchy, along with metadata for the items including references back to users and groups defined in the **UserGroupMap.XML** file. There may be more than one **Manifest.XML** file (which can be identified using different file names to uniquely identify them), and all are found by the import pipeline through references within the **SystemData.XML** file’s ManifestFile entries.
 
-The main requirements for **Manifest.XML** to be able to successfully import through the pipeline is that the Web Id and Document Library ID/List ID be consistent with the target location. If a Web ID is used which doesn’t match the target location, errors will occur because the parent web for the import operation cannot be found.
+The main requirements for Manifest.XML to successfully import through the pipeline are for the Web ID and Document Library ID/List ID be consistent with the target location. If a Web ID is used which doesn’t match the target location, errors will occur because the parent web for the import operation cannot be found.
 
-Likewise, an incorrect Document Library ID/List ID will prevent the importation into the target Document Library or List. IDs should never be reused within the same site collection, so same packages should not be imported to the same target site collection regardless of the destination web.
+Likewise, an incorrect Document Library ID/List ID will prevent the importation into the target Document Library or List. Never reuse IDs within the same site collection, so same packages should not be imported to the same target site collection regardless of the destination web.
 
-For individual files and folders within the document library or list, their identifiers should be consistent between import events to the same location. Specifically, performing an import of a package generated from a file share would initially require generating new GUIDs for each file and folder, along with matching GUIDs for the list items that represent them. Therefore, performing a second import against the same target using the same package would keep the same IDs, but performing a second import against the same target using a new package for the same content would result in ID conflicts and import errors for all items in conflict.
+For individual files and folders within the document library or list, their identifiers should be consistent between import events to the same location. An import of a package generated from a file share would initially require generating new GUIDs for each file and folder, along with matching GUIDs for the list items that represent them. Therefore, performing a second import against the same target using the same package would keep the same IDs, but performing a second import against the same target using a new package for the same content would result in ID conflicts and import errors for all items in conflict.
 
-The package generated initially from a file share is effectively a form of record for the original generated IDs and can potentially be used as a reference for follow up package generation to prevent ID collisions when unintended, and to allow like IDs to ensure correct overwrite, deletion or move activities.
+The package generated initially from a file share is effectively a form of record for the original generated IDs and can potentially be used as a reference for follow up package generation to prevent ID collisions when unintended, and to allow like IDs to ensure correct overwrite, deletion, or move activities.
 
 ### Requirements.XML
 
 The **Requirements.XML** file is expected to be at the root of the Azure Blob Store Container defined by the CreateMigrationJob’s azureContainerManifestUri parameter. This optional file is validated using the constrained DeploymentRequirements.XSD, which has no change from current published [full 2013 package schema](https://docs.microsoft.com/sharepoint/dev/schema/content-migration-schemas).
 
-For file shares this is expected to normally include no child nodes under the root and as such can also be excluded from the package if not required, although a warning will be logged in this case.
+For file shares, this is expected to normally include no child nodes under the root and as such can also be excluded from the package if not required, although a warning will be logged in this case.
 
 ### RootObjectMap.XML
 
-The **RootObjectMap.XML** file is expected to be at the root of the Azure Blob Store Container defined by the CreateMigrationJob’s `azureContainerManifestUri` parameter. This required file is validated using the constrained **DeploymentRootObjectMap.XSD**, which has some limited changes from current published [full 2013 package schema](https://docs.microsoft.com/sharepoint/dev/schema/content-migration-schemas). The most common `RootObject` that will be included will be a single object of type List. The Id for this item should be the List Id for the target list, and the `ParentWebID` should match the Id of the parent target web containing this list in order for migration to be successful. The Id, WebUrl and Url values of this object must also match the related structure laid out in the **Manifest.XML** file.
+The **RootObjectMap.XML** file is expected to be at the root of the Azure Blob Store Container defined by the CreateMigrationJob’s `azureContainerManifestUri` parameter. This required file is validated using the constrained **DeploymentRootObjectMap.XSD**, which has some limited changes from current published [full 2013 package schema](https://docs.microsoft.com/sharepoint/dev/schema/content-migration-schemas). The most common `RootObject` that will be included will be a single object of type List. The ID for this item should be the List ID for the target list, and the `ParentWebID` should match the ID of the parent target web containing this list in order for migration to be successful. The ID, WebUrl, and Url values of this object must also match the related structure laid out in the **Manifest.XML** file.
 
 ### SystemData.XML
 
 The **SystemData.XML** file is expected to be at the root of the Azure Blob Store Container defined by the CreateMigrationJob’s `azureContainerManifestUri` parameter. This required file is validated using the constrained **DeploymentSystemData.XSD**, which has no change from current published [full 2013 package schema](https://docs.microsoft.com/sharepoint/dev/schema/content-migration-schemas).
 
-The `SchemaVersion` information is expected to reference the current Build and DatabaseVersion of the target farm, a Version of “15.0.0.0”, and the `SiteVersion` value is expected to always match the target site collection `UIVersion` (i.e. most commonly this will be “15”). Each **Manifest.XML** file for the package is expected to be listed in this file within the `ManifestFile` entries.
+The `SchemaVersion` information is expected to reference the current Build and DatabaseVersion of the target farm, a Version of “15.0.0.0”, and the `SiteVersion` value is expected to always match the target site collection `UIVersion` (that is, most commonly this will be “15”). Each **Manifest.XML** file for the package is expected to be listed in this file within the `ManifestFile` entries.
 
 The SystemObjects that define dependent objects that should remain immutable by the migration code should also be listed here to ensure correct behavior of the import operation. The following is an example of the common objects in the **SystemObjects.XML** file from a file share based import, noting that the IDs are expected to be different for each package, and the URLs may be different.
 
@@ -408,7 +408,7 @@ There are two new optional parameters in manifest.xml:
 ### Preparing the package
 The method for calling the migration job doesn’t change; only the package generation needs to be changed.
 
-In the Manifest container one file is named Manifest.xml. There are 2 optional attributes added to the file node: *QuickXorHash*,*MD5Hash* and *InitializationVector*. <br>
+In the Manifest container one file is named Manifest.xml. There are two optional attributes added to the file node: *QuickXorHash*, MD5Hash* and *InitializationVector*. <br>
 
 **Example for files over 15 GB:**
 
@@ -464,15 +464,15 @@ In the Manifest container one file is named Manifest.xml. There are 2 optional a
 
 ### Package size
 
-Even if the API support 15GB files, we recommend package sizes of up to 250 MB OR 250 items (depending which one comes first). If you have a file larger than that recommended size limit then you should send it in its own package.  The same applies to versions; each version counts against the size limit and item count. Additionally, all the versions of a file should be in the same package.
+Even if the API support 15 GB files, we recommend package sizes of up to 250 MB OR 250 items (depending which one comes first). If you have a file larger than that recommended size limit, then you should send it in its own package.  The same applies to versions; each version counts against the size limit and item count. Additionally, all the versions of a file should be in the same package.
 
 ### File size
 
 Currently, the import pipeline supports individual files of **15 GB** maximum size.
 
-### Only un-compressed packages are supported
+### Only uncompressed packages are supported
 
-The import pipeline does not support compressed packages. The file content must be stored in a different Azure Storage container from the manifest and related descriptive XML files. This decision was made to prevent the overhead of processing time on both ends of the migration (to compress and decompress), and also to ease package creation and modification. Compression of individual files such as into zip archives is supported as long as they are referenced in the import package as the archive itself, not the contents.
+The import pipeline does not support compressed packages. The file content must be stored in a different Azure Storage container from the manifest and related descriptive XML files. This is to prevent the overhead of processing time on both ends of the migration (to compress and decompress), and to ease package creation and modification. Compression of individual files such as into zip archives is supported as long as they are referenced in the import package as the archive itself, not the contents.
 
 ### API supports import of multiple file versions
 
@@ -494,7 +494,7 @@ This means we expect that the target site will remain non-active for users until
 
 ### Permissions in Azure
 
-To ensure immutability of source blobs, the import pipeline will accept a SAS key with only the Read and List access flags set for the File container. Likewise, the import pipeline requires a SAS key with Read, List and Write access for the Manifest container so that we can write back log files at the end of the import operation. If these criteria are not met, the pipeline will reject it during job creation.
+To ensure immutability of source blobs, the import pipeline will accept a SAS key with only the Read and List access flags set for the File container. Likewise, the import pipeline requires a SAS key with Read, List, and Write access for the Manifest container so that we can write back log files at the end of the import operation. If these criteria are not met, the pipeline will reject it during job creation.
 
 ### All files in Azure must have snapshot created to import successfully
 
@@ -502,7 +502,7 @@ To prevent unintended file modification of the source blobs, the import pipeline
 
 ### Security and encryption
 
-The import pipeline is using Azure Blob Storage security model as is. This means we will not do any special treatment for those azure containers that would differentiate from any other azure containers. Additionally, the import pipeline currently does not accept encryption keys for content from the customer. Any encrypted content will be treated as opaque files that SharePoint may list, but be unable to index, the same as if encrypted files were uploaded through the UI to the environment.
+The import pipeline is using Azure Blob Storage security model as is. This means we will not do any special treatment for those Azure containers that would differentiate from any other Azure containers. Additionally, the import pipeline currently does not accept encryption keys for content from the customer. Any encrypted content will be treated as opaque files that SharePoint may list, but be unable to index, the same as if encrypted files were uploaded through the UI to the environment.
 
 ### Events and event handlers
 
@@ -512,13 +512,13 @@ The import pipeline allows event handlers to be referenced on list items but doe
 
 If the Migration API was unable to resolve a user using the login provided in the UserGroup.xml and no System ID is provided, then:
 
-1. This user will be replaced by “System Account” in the associated metadata within the package ( author, editor etc.).
+1. This user will be replaced by “System Account” in the associated metadata within the package (author, editor etc.).
 1. A warning will be reported in the ImportLogs –  “Failed to ensure user 'user@contoso.com'”
 
 If the migration API was unable to resolve a user using the login provided in the UserGroup.xml and the System ID is provided (which is the SID for the user in the on-premises AD), then:
 
 1. A new deleted user with the provided login and SystemId is created and is used in the associated metadata within the package.
-1. A warning will be reported in the ImportLogs- “Failed to retrieve user 'user@contoso.com' attributes from the SiteUsers; falling back to passed in values”
+1. A warning will be reported in the ImportLogs- “Failed to retrieve user 'user@contoso.com' attributes from the SiteUsers; falling back to pass in values”
 
 
 ## Appendices
@@ -529,7 +529,7 @@ If the migration API was unable to resolve a user using the login provided in th
 | ------- | --------------------------------------------------------- |
 | BOT     | SharePoint server running timer jobs                      |
 | CDB     | Content database, containing site collections and content |
-| CFE     | Content farm front end server                             |
+| CFE     | Content farm front-end server                             |
 | SPO     | SharePoint Online                                         |
 | ABS     | Azure Blob Storage                                        |
 
@@ -551,7 +551,7 @@ UserGroup.xml file defines all users and groups within the exported web(s). The 
 
 - User objects include the information about specific users, including identification of a specific security principle as a domain group or not, login, and the base 64 encoded SystemId (SID) of the security principle.
 - Group objects include the information about specific groups and the direct membership list of that group.
-- Owner values on group objects and UserId values on member objects within group objects map to other Id values of other user or group objects respectively.
+- Owner values on group objects and UserId values on member objects within group objects map to other ID values of other user or group objects respectively.
 
 #### Table 2: Users and Groups annotated in UserGroupMap
 
@@ -619,7 +619,7 @@ UserGroup.xml file defines all users and groups within the exported web(s). The 
 
 ## Constrained XSD structures
 
-Included below are the XSD files used for package validation in the import pipeline, when different than the original 2013 full schema which can be found at [official SharePoint documentation](https://docs.microsoft.com/sharepoint/dev/schema/content-migration-schemas).
+Included below are the XSD files used for package validation in the import pipeline, when different than the original 2013 full schema that can be found at [official SharePoint documentation](https://docs.microsoft.com/sharepoint/dev/schema/content-migration-schemas).
 
 ### DeploymentExportSettings.XSD
 
