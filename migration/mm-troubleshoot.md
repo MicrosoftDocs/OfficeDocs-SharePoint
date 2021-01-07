@@ -160,4 +160,29 @@ For other errors, ask the customer to ensure their Administrator account has bee
 
 **Issue**:  Agen'ts state gets stuck in "Dicsonned" and never comes back.
 
-![Agent disconnected](/media/mm-agent-disconnect-ts.md)
+![Agent disconnected](/media/mm-agent-disconnect-ts.png)
+
+2. Diagnosis / Investigation
+Check the network health on the computer on which the agent is installed.
+If the password of the logged-in Tenant Adminstrator account has been changed, or there are other similar, critical changes applied to the Tenant Admin account that would require re-sign-in, all of the agents will be disconnected and re-installation is required on all of them.
+3. Mitigation
+If there's a network issue, fix that and the agent should reconnect soon;
+If there're critical changes to the Tenant Admin account that would require re-sign-in, re-install the agent on all the computers;
+If nothing above applies, try re-install the agent first.
+
+## Task stuck in "Queued" status
+
+Issue
+Task's status stays at "Queued" and never gets scheduled on an agent to run.
+
+![Task stuck in Queued status](/media/mm-task-stuck-in-queued-status.png)
+
+
+2. Diagnosis / Investigation
+Make sure there're agents installed for this tenant, and they should be listed in the Agents list;
+Check the agents' states - they should be "Enabled".
+"In use" indicates the agent is already occupied by another task, and it won't be able to take more without finishing the current one(s);
+If they are "Disabled", enable them;
+If they appear to be "Disconnected" for a long time, check Agent Disconnected.
+3. Mitigation
+If there are indeed available agents ("Enabled" agents in the list) but the tasks cannot be scheduled for a long time, try to add another (same) task, sometimes it'll fix the problem.
