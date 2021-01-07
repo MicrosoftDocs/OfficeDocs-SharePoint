@@ -3,7 +3,7 @@ title: "Report on sharing"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

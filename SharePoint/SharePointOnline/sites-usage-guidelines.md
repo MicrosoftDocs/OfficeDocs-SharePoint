@@ -3,7 +3,7 @@ title: Create guidelines for site usage
 ms.reviewer: 
 description: Checklist to help guide users to create their SharePoint site usage guidance.
 author: jhendr
-manager: pamgreen
+manager: serdars
 ms.assetid: 
 ms.service: sharepoint-online
 ms.tgt_pltfrm: na

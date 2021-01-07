@@ -3,7 +3,7 @@ title: "Understanding permission levels in SharePoint"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ROBOTS: NOINDEX
 f1.keywords:

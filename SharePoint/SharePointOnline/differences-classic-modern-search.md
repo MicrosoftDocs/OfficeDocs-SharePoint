@@ -3,7 +3,7 @@ title: "Difference between classic & modern search experiences - SharePoint"
 ms.reviewer: 
 author: MikePlumleyMSFT
 ms.author: mikeplum
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
