@@ -131,7 +131,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 ## Agent installation failure
 
-**Issue:**  Agent doesn't successfully install, or the clientsetup.exe cannot be opened.
+###  **Issue:**  Agent doesn't successfully install, or the clientsetup.exe cannot be opened.
 
 Example: 
 
@@ -143,8 +143,9 @@ If the clientsetup.exe cannot be opened:
 
 Errors occurred during installation process:
 
-The error message itself should already include the failure reason, and the appropriate actions to take if possible.
-Other errors shown without proper actions being suggested could be caused by temporary network failure, or other unknown issues.
+- The error message itself should already include the failure reason, and the appropriate actions to take if possible.
+- Other errors shown without proper actions being suggested could be caused by temporary network failure, or other unknown issues.
+
 3. Mitigation
 If the clientsetup.exe cannot be opened:
 Ask the customer to sign in Windows as Administrator and reopen the clientsetup.exe application, or provide the Adminstrator username and password upon opening the application.
@@ -153,3 +154,10 @@ Errors occurred during installation process:
 
 For errors with suggested actions (e.g. the one displayed in the image above), ask the customer to take the corresponding action and reopen the clientsetup.exe application;
 For other errors, ask the customer to ensure their Administrator account has been added to the domain, then close the application window and retry installation first.
+
+
+## Agent disconnected
+
+**Issue**:  Agen'ts state gets stuck in "Dicsonned" and never comes back.
+
+![Agent disconnected](/media/mm-agent-disconnect-ts.md)
