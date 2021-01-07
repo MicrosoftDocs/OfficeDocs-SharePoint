@@ -52,8 +52,7 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
   
 ## Compare Microsoft 365 extranet with a traditional SharePoint on-premises extranet
 
-||**Microsoft 365 extranet** <br/> |**SharePoint "on-premises" extranet** <br/> |
-
+|**Condition** <br/> |**Microsoft 365 extranet** <br/> |**SharePoint "on-premises" extranet** <br/> |
 |Firewall access required for external users  <br/> |No  <br/> |Yes  <br/> |
 |Complex network and infrastructure configuration required  <br/> |No  <br/> |Yes  <br/> |
 |Security hardening  <br/> |Managed through Microsoft 365 configurations  <br/> |Manually configured by IT staff  <br/> |
