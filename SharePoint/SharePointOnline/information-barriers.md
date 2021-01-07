@@ -3,7 +3,7 @@ title: "Use information barriers with SharePoint"
 ms.reviewer: nibandyo
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -3,7 +3,7 @@ title: "File collaboration in Microsoft 365 - SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

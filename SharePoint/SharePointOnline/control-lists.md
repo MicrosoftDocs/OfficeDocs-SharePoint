@@ -3,7 +3,7 @@ title: "Control Microsoft Lists"
 ms.reviewer: hasaladi
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

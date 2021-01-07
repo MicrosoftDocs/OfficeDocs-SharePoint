@@ -3,7 +3,7 @@ title: "Manage access to Azure AD-secured APIs - SharePoint"
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH

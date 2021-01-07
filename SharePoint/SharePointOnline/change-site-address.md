@@ -3,7 +3,7 @@ title: "Change a site address"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 ms.audience: Admin
 f1.keywords:
 - CSH

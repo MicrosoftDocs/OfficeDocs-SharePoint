@@ -3,7 +3,7 @@ title: "Plan customizations, solutions, and apps for SharePoint"
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
