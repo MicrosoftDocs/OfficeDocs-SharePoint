@@ -83,19 +83,25 @@ A spike in upload traffic is expected if you deploy the Known Folder Move settin
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
 
-If you need to control sync app traffic, we recommend using your network quality of service (QoS) policies or Windows QoS policies when possible. They provide better control over sync app traffic on your network. If you can't use these policies, you can use the network throughput policies provided by the sync app or let users choose their throughput settings. For info about the network settings you can make available to your users, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
+If you need to control sync app traffic, we recommend using network throughput policies provided by the OneDrive sync app. You can also use your network quality of service (QoS) policies or Windows QoS policies, or let users choose their throughput settings. For info about the network settings you can make available to your users, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
+
+### Use OneDrive Group Policy objects
+
+You can use policies included with the OneDrive sync app to control network throughput. These policies are available in the OneDrive installation directory `%localappdata%\Microsoft\OneDrive\BuildNumber\adm\` where `BuildNumber` is the number displayed in sync app settings on the About tab.
   
-To protect upload bandwidth on a relatively slow Internet connection, you can use a Windows QoS policy to:
+For info about these policies, see:
+
+[Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive) - Recommended for best user experience 
+
+[Limit the sync app upload speed to a fixed rate](use-group-policy.md#limit-the-sync-app-upload-speed-to-a-fixed-rate)
   
-- Assign differentiated services code point (DSCP) values to network packets originating from the OneDrive sync app to enable appropriate handling of the traffic by your network devices. 
+[Limit the sync app download speed to a fixed rate](use-group-policy.md#limit-the-sync-app-download-speed-to-a-fixed-rate)
+  
+[Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
     
-- Limit the maximum upload throughput rate that the OneDrive sync app can reach.
-    
-### Prioritize traffic by using DSCP
+### Prioritize traffic by using Windows Quality of Service (QoS) policy
 
 To define the priority of outbound network traffic, you can configure a QoS policy with a specific differentiated services code point (DSCP) value. Network routers use the DSCP value to classify network packets and determine the appropriate queue. A higher value indicates a higher priority for the packet. The number of queues and their prioritization behavior needs to be designed as part of your organization's QoS strategy.
-  
-### Create a Windows QoS policy for the OneDrive sync app
 
 To manage the use of network bandwidth, you can configure a QoS policy with a specific throttle rate for outbound traffic. With throttling, a QoS policy will limit the outgoing network traffic to a specified rate.
   
@@ -124,20 +130,6 @@ To manage the use of network bandwidth, you can configure a QoS policy with a sp
 12. In the **Select the protocol this QoS policy applies to** list, select **TCP**. Leave **from any source port** and **to any destination** selected.
 
 13. Select **Finish**.
-    
-### Use OneDrive Group Policy objects
-
-You can also use policies included with the OneDrive sync app to control network throughput. These policies are available in the OneDrive installation directory `%localappdata%\Microsoft\OneDrive\BuildNumber\adm\` where `BuildNumber` is the number displayed in sync app settings on the About tab.
-  
-For info about these policies, see:
-
-[Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive) - Recommended for best user experience 
-
-[Limit the sync app upload speed to a fixed rate](use-group-policy.md#limit-the-sync-app-upload-speed-to-a-fixed-rate)
-  
-[Limit the sync app download speed to a fixed rate](use-group-policy.md#limit-the-sync-app-download-speed-to-a-fixed-rate)
-  
-[Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
   
 ## See also
 <a name="ControlSyncThroughput"> </a>
