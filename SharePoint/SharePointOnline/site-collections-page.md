@@ -82,7 +82,7 @@ To change the owners for any site that isn't connected to a Microsoft 365 group,
 |:-----|:-----|
 |Primary Site Collection Administrator <br/> |Switch the role of an existing admin to Primary Admin, or add an admin and then switch them to Primary admin. <br/> |
 |Site Collection Administrators <br/> |Use the Add an admin box to add an admin and the Remove button to remove an admin. <br/> |
-|Add Support Partner <br/> |This option is available in PowerShell only. Go to the Site Permissions page for a site where you’ve added the support partner. Copy the encoded string for the partner, and to add it to other sites, use the [PowerShell cmdlet Set-SPOUser](/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps). <br/> |
+|Add Support Partner <br/> |This option is available in PowerShell only. Go to the Site Permissions page for a site where you’ve added the support partner. Copy the encoded string for the partner, and to add it to other sites, use the [PowerShell cmdlet Set-SPOUser](/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps&preserve-view=true). <br/> |
 
 ## Site collection-level sharing
 
