@@ -3,7 +3,7 @@ title: "Modernize your root site"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -3,7 +3,7 @@ title: "Enable the communication site experience on classic team sites"
 ms.reviewer: dipadur
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online

@@ -3,7 +3,7 @@ title: "Set up a site design for your hub site"
 ms.reviewer: metorres
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH

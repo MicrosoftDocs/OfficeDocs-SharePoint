@@ -3,7 +3,7 @@ title: "How to let users sync SharePoint files with the OneDrive sync app"
 ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

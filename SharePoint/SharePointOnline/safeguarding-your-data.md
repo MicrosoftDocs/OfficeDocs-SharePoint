@@ -1,7 +1,7 @@
 ---
 title: "Cloud data security measures in SharePoint & OneDrive"
 ms.reviewer: mswann
-manager: 
+manager: serdars
 ms.author: kaarins
 author: kaarins
 ms.date: 5/25/2018
