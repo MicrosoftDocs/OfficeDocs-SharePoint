@@ -95,7 +95,7 @@ Run the following command in the SharePoint Online Management Shell to return th
 Get-SPOSite -Identity <site URL> | Select InformationSegment
 ```
 
-Site owners can view the segments associated with a site by selecting **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png)> **Site information**.
+Site owners can view the segments associated with a site by selecting **Settings** ![Icon for Settings.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png)> **Site information**.
 
 ![Settings icon.](media/site-information-segments.png)
 
