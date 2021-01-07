@@ -186,3 +186,13 @@ If they are "Disabled", enable them;
 If they appear to be "Disconnected" for a long time, check Agent Disconnected.
 3. Mitigation
 If there are indeed available agents ("Enabled" agents in the list) but the tasks cannot be scheduled for a long time, try to add another (same) task, sometimes it'll fix the problem.
+
+## Task Report cannot be downloaded
+
+**1. Issue**
+Task report cannot be downloaded from the link on the task details panel.
+
+- The Download task report link is disabled.
+- The Download task report link is clickable, but nothing happens after clicking on it
+- 
+![Task report can't be downloaded](mm-task-report-cant-download.png)
