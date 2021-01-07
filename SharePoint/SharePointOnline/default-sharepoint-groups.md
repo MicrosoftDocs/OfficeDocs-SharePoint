@@ -90,8 +90,8 @@ The following table describes the SharePoint groups that are created when you us
   
 ## Site administrators 
   
-||**SharePoint in Microsoft 365**|**SharePoint Server**|
-|:-----|:-----|:-----|
+|**Description**|**SharePoint in Microsoft 365**|**SharePoint Server**|
+
 |Who can use this group?  <br/> |Yes  <br/> |Yes  <br/> |
    
 A site can have several site admins, but must have one and only one primary administrator. Any site admin can add or remove other admins. Site admins have full control of the site root and any subsites in the site, and can audit all site content. 
@@ -100,8 +100,8 @@ In SharePoint Server, you designate a site collection administrator when you cre
   
 ## SharePoint admins
   
-||**SharePoint in Microsoft 365**|**SharePoint Server**|
-|:-----|:-----|:-----|
+|**Description**|**SharePoint in Microsoft 365**|**SharePoint Server**|
+
 |Who can use this group?  <br/> |Yes  <br/> |No, by default.  <br/> Requires special installation.  <br/> |
    
 In SharePoint in Microsoft 365, there is also a SharePoint admin. A SharePoint admin can use the SharePoint admin center or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
