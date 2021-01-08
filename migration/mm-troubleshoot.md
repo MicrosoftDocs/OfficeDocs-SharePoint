@@ -195,4 +195,36 @@ Task report cannot be downloaded from the link on the task details panel.
 - The Download task report link is disabled.
 - The Download task report link is clickable, but nothing happens after clicking on it
 - 
-![Task report can't be downloaded](mm-task-report-cant-download.png)
+![Task report can't be downloaded](/media/mm-task-report-cant-download.png)
+
+2. Diagnosis / Investigation
+The Download task report link should be disabled until the task is finished - namely, reports are only available after the status of the task has become "Complete" or "Failed" (except for tasks that failed due to time-out, whose task report links are also disabled).
+If no reports can be retrieved for finished, non-timedout tasks, most likely there're errors occurred during the migration process which interrupt the uploading of the reports to SPO. However, they can be found locally as long as they exist.
+3. Mitigation
+Try retrieve the reports on the computer which completed that task:
+
+In folder %AppData%\Microsoft\SPMigration\Logs\Migration\MigrationTool\[tenant_site]\, order the subfolders by their modified time, and find the one whose modified time is the closest to the task's start time, then the task reports should reside in the Report folder within it, if there are.
+Or in folder %AppData%\Microsoft\SPMigration\Logs\ErrorReports (if the task has failed), order the subfolders by their modified time, and find the one whose modified time is the closest to the task's start time, then the error report should reside in it.
+
+
+## Migration error
+
+1. Issue
+Migration tasks fail due to various reasons which can be found in the task reports.
+
+![Migration manager error](/media/mm-migration-error-ts.png)
+
+2. Diagnosis / Investigation
+The detailed failure reasons should already be written to the reports, and corresponding solutions are also suggested as long as we could.
+
+If no task reports can be retrieved from the webpage, please refer to Task Report Cannot Be Downloaded.
+
+3. Mitigation
+Checkout the published Troubleshooting Guide for the specific errors encountered.
+
+For errors look like below:
+
+SUBMITTING FAILURE Failed to Submit the Job to Server:Unknown failed reason when submitting a job. 0x01610002
+If there's any AntiVirus application installed on the agent machine, check its settings, and add these our two migration applications as exceptions so that the migration traffic won't be interrupted:
+microsoft.sharepoint.migration.clientservice.exe
+microsoft.sharepoint.migration.mthost.exe
