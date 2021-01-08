@@ -47,7 +47,7 @@ The SharePoint Success Site’s up-to-date CDN includes a range of content that 
 
 - **Content Pack Id/Partner Id:** a748d357-1879-436f-96fc-20dd1fed87bb
 - **Display Name:** SharePoint Success Site
-- **Base URL:** http://microsoft.github.io/customlearning_staging/sss/
+- **Base URL:** https://pnp.github.io/custom-learning-office-365/sss/
 
 
 

@@ -22,6 +22,7 @@ description: "Troubleshoot common errors in Migration Manager."
 
 This article describes some issues and errors that you may encounter when using Migration Manager, and how to help you resolve them.
 
+
 ## Check prerequisites and settings
 
 Make sure you have met the prerequisites for agent installation, and have reviewed the required endpoints. Government cloud customers should confirm they have set their configuration properly.
@@ -44,7 +45,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 |**Message**|**Recommended action**|
 |:-----|:-----|
-|Destination site or web does not exist|Confirm the destination site or sub-site exists.|
+|Destination site or web does not exist|Confirm the destination site or sub-site exists. If OneDrive account, make sure that it has been pre-provisioned.|
 |Failed to check site or web existence.|Confirm the destination site or sub-site exists.|
 
 
@@ -116,8 +117,3 @@ Make sure you have met the prerequisites for agent installation, and have review
 |0x01710006|Errors or timeout for server processing the file: Job Fatal Error.|
 |0x01710004|Errors or timeout for server processing the file. Fail to lookup folder name. The item may exist in other list or site in the same site collection. Or the item is in the recycle bin.|
 |0x0131000F|Failed to Read the file. File is checked out.|
-
-
-
-
-
