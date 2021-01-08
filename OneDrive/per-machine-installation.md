@@ -81,5 +81,6 @@ You can use the following registry detection rule:
 |Hive|   HKEY_LOCAL_MACHINE|
 |Key|    SOFTWARE\Microsoft\OneDrive|
 |Value|  Version|
+|32bit on 64bit| TRUE|
 |Type|   REG_SZ|
 |Value|  19.043.0304.0007|
