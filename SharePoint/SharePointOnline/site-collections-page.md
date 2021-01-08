@@ -132,7 +132,7 @@ These features haven't been in use for more than a year.
 |**Classic**|**New**|
 |:-----|:-----|
 |Add or remove<br/> | These commands are available in PowerShell only. Use the cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) -EnablePWA<br/>|
-|Settings (SharePoint Permission Mode or Project Permission Mode) and Project Web App Size <br/>| To change the permission mode, go to the site as the Project Web App Administrator and follow the steps in [Change permission management in Project Online](/projectonline/change-permission-management-in-project-online). You shouldn't need to worry about running out of Project Web App space. <br/>|
+|Settings (SharePoint Permission Mode or Project Permission Mode) and Project Web App Size <br/>| To change the permission mode, go to the site as the Project Web App Administrator and follow the steps in [Change permission management in Project Online](/projectonline/change-permission-management-in-project-online). You can review the size of the Project Web App site using the above instructions where it is located on the same page under the section "Project Web App Usage". <br/>|
 
 ## Recycle bin
 
