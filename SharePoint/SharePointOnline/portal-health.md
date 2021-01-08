@@ -25,7 +25,7 @@ A portal is a Microsoft SharePoint site on your intranet that has a large number
 This set of guidance will walk you through best practices and recommendations before you launch your portal and how to keep your portal healthy.
   
 |**Icon**|**What to do**|**Follow this**|
-
+|-----|-----|-----|
 |![Deploy](https://docs.microsoft.com/Office/media/icons/PNGs/deploy-blue-32.png "Staged rollout")|[Plan the rollout of your portal](https://docs.microsoft.com/Office365/Enterprise/planportallaunchroll-out)|Launch in waves|
 |![Document 3 blue 32](https://docs.microsoft.com/office/media/icons/PNGs/document-3-blue-32.png "Look and feel")|[Portal design guidance](https://aka.ms/spdesignguidance)|Review the guidance while designing your sites|</br>
 |![Page diagnostics tool](media/page-diag-tool.png "Modern diagnostics tool")|[Run the Page Diagnostics for SharePoint tool](https://aka.ms/perftool)|Validate your pages and follow the guidance|
