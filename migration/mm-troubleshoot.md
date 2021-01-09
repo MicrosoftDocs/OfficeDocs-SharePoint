@@ -131,44 +131,53 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 ## Agent installation failure
 
-###  **Issue:**  Agent doesn't successfully install, or the clientsetup.exe cannot be opened.
+ **Issue:**  The mgiration agent doesn't install successfully, or the clientsetup.exe cannot be opened.
 
 Example: 
 
 ![Migration Manager agent installation failure](media/mm-agent-installation-failure.png)
 
 **Diagnosis / Investigation**
+
+If the *clientsetup.exe* cannot be opened:
+
+- Sign in to Windows as Administrator, or provide the Adminstrator username and password upon opening the application.  The Adminstrator account should already be added to the domain.
+
+If errors occurred during installation process:
+
+- The error message should already include the failure reason, and the appropriate actions to take if possible.
+- If errors do not suggest actions to resolve, the problem could be caused by temporary network failure, or other unknown issues.
+
+**Mitigation**
+
 If the clientsetup.exe cannot be opened:
-- Sign in to Windows as Administrator, or provide the Adminstrator username and password upon opening the application, and the Adminstrator account should already be added to the domain.
 
-Errors occurred during installation process:
+1. Sign in to Windows as Administrator.
+2. Reopen the clientsetup.exe application, or provide the Adminstrator username and password upon opening the application.
 
-- The error message itself should already include the failure reason, and the appropriate actions to take if possible.
-- Other errors shown without proper actions being suggested could be caused by temporary network failure, or other unknown issues.
+If errors occurred during installation process:
 
-3. Mitigation
-If the clientsetup.exe cannot be opened:
-Ask the customer to sign in Windows as Administrator and reopen the clientsetup.exe application, or provide the Adminstrator username and password upon opening the application.
-
-Errors occurred during installation process:
-
-For errors with suggested actions (e.g. the one displayed in the image above), ask the customer to take the corresponding action and reopen the clientsetup.exe application;
-For other errors, ask the customer to ensure their Administrator account has been added to the domain, then close the application window and retry installation first.
+- For errors with with specific stated actions, take the corresponding action and then reopen the clientsetup.exe.
+- For other non-specific errors, make sure your Administrator account has been added to the domain. Close the application window and then retry installation.
 
 
 ## Agent disconnected
 
-**Issue**:  Agen'ts state gets stuck in "Dicsonned" and never comes back.
+**Issue**: The "state" of the agent gets stuck as "Disconnected" and never comes back.
 
 ![Agent disconnected](/media/mm-agent-disconnect-ts.png)
 
-2. Diagnosis / Investigation
-Check the network health on the computer on which the agent is installed.
-If the password of the logged-in Tenant Adminstrator account has been changed, or there are other similar, critical changes applied to the Tenant Admin account that would require re-sign-in, all of the agents will be disconnected and re-installation is required on all of them.
-3. Mitigation
-If there's a network issue, fix that and the agent should reconnect soon;
-If there're critical changes to the Tenant Admin account that would require re-sign-in, re-install the agent on all the computers;
-If nothing above applies, try re-install the agent first.
+**Diagnosis / Investigation**
+
+- Check the network health on the computer on which the agent is installed.
+- If the password of the logged-in Tenant Adminstrator account has changed, or any other similar, critical changes applied to the Tenant Admin account that would require re-sign in, all of the agents will be disconnected and re-installation is required on all of them.
+
+
+**Mitigation**
+
+- If there's a network issue, fix that and the agent should reconnect soon after.
+- If there're critical changes to the Tenant Admin account that would require to re-sign in, re-install the agent on all the computers.
+- If nothing above applies, try re-install the agent first.
 
 ## Task stuck in "Queued" status
 
