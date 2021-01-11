@@ -3,7 +3,7 @@ title: "How UPN changes affect OneDrive"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

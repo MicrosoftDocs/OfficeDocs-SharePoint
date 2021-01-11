@@ -3,7 +3,7 @@ title: "Silently configure user accounts"
 ms.reviewer: wsproule
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH

@@ -3,7 +3,7 @@ title: "Find your Microsoft 365 tenant ID"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
