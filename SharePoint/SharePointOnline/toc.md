@@ -27,6 +27,7 @@
 ### [Performance](modern-experience-performance.md)
 ### [Creating and launching a healthy SharePoint portal](portal-health.md)
 ## [Guide to the intelligent intranet]()
+### [Intelligent intranet overview](intelligent-internet-overview.md)
 ### [How to think about your intelligent intranet](trad-vs-modern-intranet.md)
 ### [Intranet roadmap](intranet-overview.md)
 ### [Plan your intranet](plan-intranet.md)
