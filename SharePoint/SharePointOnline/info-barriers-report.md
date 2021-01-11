@@ -15,7 +15,7 @@ search.appverid:
 - BSA160
 - GSP150
 - MET150
-description: "Learn about associating segments with a site, and what happens when segments are associated with a site."
+description: "Learn how to find noncompliant sites after information barriers policies change."
 ---
 
 # Create an information barriers policy compliance report
