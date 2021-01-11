@@ -48,7 +48,8 @@ If the user was deleted within 30 days, you can restore the user and all their d
   Get-SPODeletedSite -Identity <URL>
   ```
 
-    A user's OneDrive URL is based on their username, for example, https://microsoft-my.sharepoint.com/personal/user1_contoso_com. You can find their username on the Active users (or Deleted users) page in the Microsoft 365 admin center. 
+    A user's OneDrive URL is based on their username. For example, 
+    ``https://microsoft-my.sharepoint.com/personal/user1_contoso_com``. You can find their username on the Active users (or Deleted users) page in the Microsoft 365 admin center. 
 
   - If you don't know the URL of the deleted OneDrive, run the following command:
 
