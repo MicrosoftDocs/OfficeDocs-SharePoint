@@ -3,7 +3,7 @@ title: "Restore a deleted OneDrive"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 ms.date: 05/15/2018
 audience: Admin
 f1.keywords:

@@ -3,7 +3,7 @@ title: "Pre-provision OneDrive for users in your organization"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

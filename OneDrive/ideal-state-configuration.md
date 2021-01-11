@@ -3,7 +3,7 @@ title: "Recommended sync app configuration"
 ms.reviewer: kaarins
 ms.author: kaarins
 author: jackwi-alt
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
