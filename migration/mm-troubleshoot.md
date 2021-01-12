@@ -44,7 +44,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 - [Government cloud settings](https://docs.microsoft.com/sharepointmigration/mm-setup-clients#government-cloud)
 
-- [Pre-provision OneDrive accounts ](https://docs.microsoft.com/onedrive/pre-provision-accounts). If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. You can do this using a script, as shown here: [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts).
+- [Pre-provision OneDrive accounts ](https://docs.microsoft.com/onedrive/pre-provision-accounts)  If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. You can do this using a script, as shown here: [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts).
 
 ## Agent error messages
 |Message|Action|
