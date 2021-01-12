@@ -131,7 +131,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 ## Agent installation failure
 
- **Issue:**  The mgiration agent doesn't install successfully, or the clientsetup.exe cannot be opened.
+ **Issue:**  The migration agent doesn't install successfully, or the clientsetup.exe cannot be opened.
 
 Example: 
 
@@ -141,7 +141,7 @@ Example:
 
 If the *clientsetup.exe* cannot be opened:
 
-- Sign in to Windows as Administrator, or provide the Adminstrator username and password upon opening the application.  The Adminstrator account should already be added to the domain.
+- Sign in to Windows as Administrator, or provide the Administrator username and password upon opening the application.  The Administrator account should already be added to the domain.
 
 If errors occurred during installation process:
 
@@ -153,11 +153,11 @@ If errors occurred during installation process:
 If the clientsetup.exe cannot be opened:
 
 1. Sign in to Windows as Administrator.
-2. Reopen the clientsetup.exe application, or provide the Adminstrator username and password upon opening the application.
+2. Reopen the clientsetup.exe application, or provide the Administrator username and password upon opening the application.
 
 If errors occurred during installation process:
 
-- For errors with with specific stated actions, take the corresponding action and then reopen the clientsetup.exe.
+- For errors with specific stated actions, take the corresponding action and then reopen the clientsetup.exe.
 - For other non-specific errors, make sure your Administrator account has been added to the domain. Close the application window and then retry installation.
 
 
@@ -170,65 +170,74 @@ If errors occurred during installation process:
 **Diagnosis / Investigation**
 
 - Check the network health on the computer on which the agent is installed.
-- If the password of the logged-in Tenant Adminstrator account has changed, or any other similar, critical changes applied to the Tenant Admin account that would require re-sign in, all of the agents will be disconnected and re-installation is required on all of them.
+- If the password of the logged-in Tenant Administrator account has changed, or any other similar, critical changes applied to the Tenant Admin account that would require re-sign in, all of the agents will be disconnected and re-installation is required on all of them.
 
 
 **Mitigation**
 
-- If there's a network issue, fix that and the agent should reconnect soon after.
-- If there're critical changes to the Tenant Admin account that would require to re-sign in, re-install the agent on all the computers.
-- If nothing above applies, try re-install the agent first.
+- If there's a network issue, fix that. The agent should reconnect soon after.
+- If there're critical changes to the Tenant Admin account that require you to re-sign in: Re-install the agent on all the computers.
+- If nothing above applies, try re-installing the agent first.
 
 ## Task stuck in "Queued" status
 
-Issue
-Task's status stays at "Queued" and never gets scheduled on an agent to run.
+**Issue**
+The status of a task stays at "Queued" and never gets scheduled on an agent to run.
 
 ![Task stuck in Queued status](/media/mm-task-stuck-in-queued-status.png)
 
 
-2. Diagnosis / Investigation
-Make sure there're agents installed for this tenant, and they should be listed in the Agents list;
-Check the agents' states - they should be "Enabled".
-"In use" indicates the agent is already occupied by another task, and it won't be able to take more without finishing the current one(s);
-If they are "Disabled", enable them;
-If they appear to be "Disconnected" for a long time, check Agent Disconnected.
-3. Mitigation
-If there are indeed available agents ("Enabled" agents in the list) but the tasks cannot be scheduled for a long time, try to add another (same) task, sometimes it'll fix the problem.
+**Diagnosis / Investigation**
+- Make sure there are agents installed for this tenant. They should be listed in the Agents list.
+- Check the state of each agent. They should be set to "Enabled".
+- A status of "In use" indicates the agent is already processing another task. The agent won't be able to take more without finishing the current one.
+- If they are "Disabled", enable them;
+- If they appear to be "Disconnected" for a long time, check Agent Disconnected.
+
+**Mitigation**
+
+- If there are available, *enabled* agents in the list, but the tasks haven't been scheduled for a long time, add another identical task, sometimes it'll fix the problem.
 
 ## Task Report cannot be downloaded
 
-**1. Issue**
-Task report cannot be downloaded from the link on the task details panel.
+**Issue**
+The Task report cannot be downloaded from the link on the task details panel.
 
 - The Download task report link is disabled.
-- The Download task report link is clickable, but nothing happens after clicking on it
-- 
+- The Download task report link displays active, but nothing happens after clicking on it
+
 ![Task report can't be downloaded](/media/mm-task-report-cant-download.png)
 
-2. Diagnosis / Investigation
-The Download task report link should be disabled until the task is finished - namely, reports are only available after the status of the task has become "Complete" or "Failed" (except for tasks that failed due to time-out, whose task report links are also disabled).
-If no reports can be retrieved for finished, non-timedout tasks, most likely there're errors occurred during the migration process which interrupt the uploading of the reports to SPO. However, they can be found locally as long as they exist.
-3. Mitigation
-Try retrieve the reports on the computer which completed that task:
+**Diagnosis / Investigation**
 
-In folder %AppData%\Microsoft\SPMigration\Logs\Migration\MigrationTool\[tenant_site]\, order the subfolders by their modified time, and find the one whose modified time is the closest to the task's start time, then the task reports should reside in the Report folder within it, if there are.
-Or in folder %AppData%\Microsoft\SPMigration\Logs\ErrorReports (if the task has failed), order the subfolders by their modified time, and find the one whose modified time is the closest to the task's start time, then the error report should reside in it.
+- The link, "Download task report", is disabled until the task is finished. Reports are only available after the status of the task has become "Complete" or "Failed". Tasks that failed due to time-out also have a disabled link for the task report.
+- If no reports can be retrieved for finished, non-timedout tasks, most likely there're errors occurred during the migration process which interrupt the uploading of the reports to SPO. However, they can be found locally as long as they exist.
+- 
+-
+**Mitigation**
+
+Try to retrieve the reports on the computer which completed that task:
+
+- In folder **%AppData%\Microsoft\SPMigration\Logs\Migration\MigrationTool\[tenant_site]\**, sort the sub-folders by their modified time. Find the sub-folder whose modified time is the closest to the task's start time. If the task reports exist, they will be in the "Report" folder within this subfolder.
+
+Or 
+
+- If the task has failed, navigate to the folder **%AppData%\Microsoft\SPMigration\Logs\ErrorReports**, then sort the sub-folders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. The error report will be in this subfolder.
 
 
 ## Migration error
 
-1. Issue
+**Issue**
 Migration tasks fail due to various reasons which can be found in the task reports.
 
 ![Migration manager error](/media/mm-migration-error-ts.png)
 
-2. Diagnosis / Investigation
-The detailed failure reasons should already be written to the reports, and corresponding solutions are also suggested as long as we could.
+**Diagnosis / Investigation**
+- The detailed failure reasons should already be written to the reports, and corresponding solutions are also suggested as long as we could.
 
 If no task reports can be retrieved from the webpage, please refer to Task Report Cannot Be Downloaded.
 
-3. Mitigation
+**Mitigation**
 Checkout the published Troubleshooting Guide for the specific errors encountered.
 
 For errors look like below:
