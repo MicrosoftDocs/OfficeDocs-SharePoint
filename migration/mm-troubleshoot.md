@@ -112,7 +112,7 @@ If errors occurred during installation process:
 
 **Issue**: The "state" of the agent gets stuck as "Disconnected" and never comes back.
 
-![Agent disconnected](/media/mm-agent-disconnect-ts.png)
+![Agent disconnected](media/mm-agent-disconnect-ts.png)
 
 **Diagnosis / Investigation**
 
@@ -131,7 +131,7 @@ If errors occurred during installation process:
 **Issue**
 The status of a task stays at "Queued" and never gets scheduled on an agent to run.
 
-![Task stuck in Queued status](/media/mm-task-stuck-in-queued-status.png)
+![Task stuck in Queued status](media/mm-task-stuck-in-queued-status.png)
 
 
 **Diagnosis / Investigation**
@@ -153,7 +153,7 @@ The Task report cannot be downloaded from the link on the task details panel.
 - The Download task report link is disabled.
 - The Download task report link displays active, but nothing happens after clicking on it
 
-![Task report can't be downloaded](/media/mm-task-report-cant-download.png)
+![Task report can't be downloaded](media/mm-task-report-cant-download.png)
 
 **Diagnosis / Investigation**
 
@@ -177,7 +177,7 @@ Or
 **Issue**
 Migration tasks fail due to various reasons and are detailed in the task reports.
 
-![Migration manager error](/media/mm-migration-error-ts.png)
+![Migration manager error](media/mm-migration-error-ts.png)
 
 **Diagnosis / Investigation**
 - The failure reasons should already be written in detail to the reports along with suggested solutions.
