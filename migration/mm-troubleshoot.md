@@ -165,7 +165,7 @@ The Task report cannot be downloaded from the link on the task details panel.
 
 On the computer that completed the task, try to retrieve the reports.
 
-- In folder **%AppData%\Microsoft\SPMigration\Logs\Migration\MigrationTool\[tenant_site]\**, sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. If the task reports exist, they will be in the "Report" folder within this subfolder.
+- In folder **%AppData%\Microsoft\SPMigration\Logs\Migration\MigrationTool\[tenant_site]**, sort the subfolders by their modified time. Find the subfolder whose modified time is the closest to the task's start time. If the task reports exist, they will be in the "Report" folder within this subfolder.
 
 Or 
 
