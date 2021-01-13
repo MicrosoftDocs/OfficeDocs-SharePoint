@@ -26,9 +26,9 @@ description: "Learn how to change settings when deploying or managing the OneDri
 
 There are two basic ways that you, as an administrator, can deploy the OneDrive sync app to Mac users in your organization:
   
-- Have users install and set up the OneDrive sync app themselves by following the instructions in [Sync files with OneDrive on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). To install the OneDrive sync app for Mac, a user has to be an administrator on the Mac or know an administrator account name and password. 
+- Install and set up the OneDrive sync app by following the instructions in [Sync files with OneDrive on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). To install the OneDrive sync app for Mac, a user has to be an administrator on the Mac or know an administrator account name and password. 
     
-- Download the installer package file to your local network, and then use your software distribution tools to deploy the app to your users. By using a software distribution tool, you have more control over the deployment, including which users get the sync app and when. The OneDrive sync app for Mac uses the Apple Installer technology for installation. This means you can continue to use the software distribution tools that you normally use to deploy software to Mac users. You can use [Microsoft Intune](/mem/intune/apps/apps-add-office365-macOS). Other common tools are [Jamf Pro](https://www.jamfsoftware.com/products/casper-suite/), [Munki](https://www.munki.org/), and [AutoPkg](https://github.com/autopkg/autopkg). You can also use [Apple Remote Desktop](https://www.apple.com/remotedesktop/) and [AppleScript](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html).
+- Download the installer package file to your local network, and then use your software distribution tools to deploy the app to your users. By using a software distribution tool, you have more control over the deployment, including which users get the sync app and when. The OneDrive sync app for Mac uses the Apple Installer technology for installation allowing you to use the software distribution tools that you normally use to deploy software to Mac users. You can use [Microsoft Intune](/mem/intune/apps/apps-add-office365-macOS). Other common tools are [Jamf Pro](https://www.jamfsoftware.com/products/casper-suite/), [Munki](https://www.munki.org/), and [AutoPkg](https://github.com/autopkg/autopkg). You can also use [Apple Remote Desktop](https://www.apple.com/remotedesktop/) and [AppleScript](https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html).
   
 ## Manage OneDrive settings on macOS using property list (Plist) files
 
@@ -45,7 +45,7 @@ Configure the settings on macOS as follows:
   
 1. Quit the OneDrive app.
 
-2. Define the settings you want to change by creating a Plist file with the values, or use a script to set the default values.
+2. Define the settings you want to change by creating a Plist file with the values. Or use a script to set the default values.
 
 3. Deploy the settings onto the local computer.
 
@@ -55,7 +55,7 @@ Configure the settings on macOS as follows:
 
 ## Overview of settings
 
-Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app, but the Plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
+Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. But the Plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 ## List of settings
 
@@ -80,7 +80,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 ### AllowTenantList
 <a name="AllowTenantList"> </a>
 
-This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that is not in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do **NOT** enable both settings at the same time.
+This setting prevents the users from uploading files to other organizations by specifying a list of allowed tenant IDs. If you enable this setting, the user gets an error if they attempt to add an account from an organization that isn't in the allowed tenants list. If the user has already added the account, the files stop syncing. This setting takes priority over **Block syncing OneDrive accounts for specific organizations** setting. Do **NOT** enable both settings at the same time.
 
 The parameter for the **AllowTenantList** key is **TenantID** and its value is a string, which determines the tenants for whom the **Allow Tenant** setting is applicable. For the setting to be complete, this parameter also requires a boolean value to be set to it. If the boolean value is set to **True**, the tenant is allowed to sync.
 
@@ -104,7 +104,7 @@ The example for this setting in the **.plist** file is:
 
 This setting prevents the sync app from syncing libraries and folders shared from other organizations.
 
-If you set the setting's value to **True**, the users are prevented from syncing OneDrive and SharePoint libraries and folders with organizations other than the user's own organization. Set this value to **False** or don't enable the setting to allow the OneDrive and SharePoint files to be synced with other organizations also.
+Set the setting's value to **True**, to prevent the users from syncing OneDrive, SharePoint libraries, and folders with organizations other than the user's own organization. Set the value to **False** or don't enable the setting to allow the OneDrive, and SharePoint files to be synced with other organizations also.
 
 The example for this setting in the **.plist** file is:
 <br/>\<key\>BlockExternalSync\</key\><br/>\<(Bool)/\>
@@ -112,11 +112,11 @@ The example for this setting in the **.plist** file is:
 
 ### BlockTenantList
 <a name="BlockTenantList"> </a>
-This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list that is specified. 
+This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list.. 
 
 If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you have **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do **NOT** enable both settings at the same time.
 
-You must enable this setting by defining IDs for the **TenantID** parameter, which determines the tenants to whom the **block tenant** setting is applicable. You must also set the boolean value to **True** for the ID of every tenant you want to prevent from syncing with the OneDrive and SharePoint files and folders.
+Enable this setting by defining IDs for the **TenantID** parameter, which determines the tenants to whom the **block tenant** setting is applicable. Also set the boolean value to **True** for the ID of every tenant you want to prevent from syncing with the OneDrive and SharePoint files and folders.
 
 **Note**: In the list, inclusion of the tenant ID alone doesn't suffice. It's mandatory to set the boolean value to **True**  for the ID of each tenant who is to be blocked. 
 
@@ -178,7 +178,7 @@ The example for this setting in the **.plist** file is:
 
 This setting sets the maximum download throughput rate in kilobytes (KB)/sec for computers running the OneDrive sync app.
 
-You must set this setting's value to an integer between 50 KB/sec and the maximum rate is 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
+Set this setting's value to an integer between 50 KB/sec and the maximum rate is 100,000 KB/sec that determines the download throughput in KB/sec that the sync app can use.
 
 The example for this setting in the **.plist** file is:
 <br/> \<key\>DownloadBandwidthLimited\</key\>  <br/> \<int\>(Download Throughput Rate in KB/sec)\</int\>  <br/>
