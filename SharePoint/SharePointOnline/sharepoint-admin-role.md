@@ -3,7 +3,7 @@ title: "About the SharePoint admin role in Microsoft 365"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
