@@ -381,7 +381,7 @@ Enabling this policy sets the following registry key:
   
 where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md).
 
-For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
+For info and recommendations, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
 ### Prompt users when they delete multiple OneDrive files on their local computer
 <a name="LocalMassDeleteFileDeleteThreshold"> </a>
@@ -457,7 +457,7 @@ For more info on the builds currently available in each ring, see the [release n
 Use this setting to redirect and move your users' Documents, Pictures, and/or Desktop folders to OneDrive without any user interaction. 
 
 > [!NOTE]
-> We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week.  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.  
+> We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week.  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
   
 You can move all folders at once or select the folders you want to move.  After a folder is moved, this policy will not affect that folder again, even if you clear the check box for the folder. 
 

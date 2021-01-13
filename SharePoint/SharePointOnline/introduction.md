@@ -106,3 +106,5 @@ SharePoint provides a wide range of options for customization. We recommend usin
 [Getting started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 [Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search)
+
+[Tips and tricks for navigating Microsoft 365 technical documentation](microsoft-365/microsoft-365-docs-navigation-guide?view=o365-worldwide)

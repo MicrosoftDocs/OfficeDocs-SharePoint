@@ -43,7 +43,7 @@ The new OneDrive sync app can be used with SharePoint Server 2019, but not earli
 
 ### Make sure that WNS is set up correctly
 
-The OneDrive sync app uses Windows Push Notification Services (WNS) for optimum performance and battery life. Make sure you allow access from your network to the [endpoints that OneDrive uses](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business).
+The OneDrive sync app uses Windows Push Notification Services (WNS) for optimum performance and battery life. Make sure you allow access from your network to the [endpoints that OneDrive uses](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business). To see all our recommendations for configuring the sync app, see [Recommended sync app configuration](ideal-state-configuration.md).
  
 ### Check if users already have the OneDrive sync app
 
@@ -148,7 +148,7 @@ To help users sign in, you can use [silent account configuration](use-silent-acc
   
 ## Auto-configure SharePoint site synchronization
 
-If you want to auto-configure a SharePoint site to be synced, you can use the URL below as a guide to build the path to the SharePoint site you want to sync automatically:
+If you want to auto-configure a SharePoint site to be synced, you can use the URL below as a guide to build the path to the SharePoint site you want to sync automatically. You can also use a policy to sync sites automatically. For info, see [Configure team site libraries to sync automatically](use-group-policy#configure-team-site-libraries-to-sync-automatically).
 
 ```
 odopen://sync/?siteId=<siteId>&webId=<webId>&webUrl=<webURL>&listId=<listId>&userEmail=<userEmail>&webTitle=<webTitle>&listTitle=<listTitle>
