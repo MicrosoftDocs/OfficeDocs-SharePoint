@@ -45,7 +45,7 @@ Configure the settings on macOS as follows:
   
 1. Quit the OneDrive app.
 
-2. Define the settings you want to change by creating a Plist file with the values. Or use a script to set the default values.
+2. Define the settings you want to change by creating a Plist file with the values. You can also use a script to set the default values.
 
 3. Deploy the settings onto the local computer.
 
@@ -55,7 +55,7 @@ Configure the settings on macOS as follows:
 
 ## Overview of settings
 
-Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. But the Plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
+Use the following keys to preconfigure or change settings for your users. The keys are the same whether you run the standalone or Mac App Store edition of the sync app. However, the Plist file name and domain name will be different. When you apply the settings, ensure that you target the appropriate domain depending on the edition of the sync app.
 
 ## List of settings
 
@@ -112,7 +112,7 @@ The example for this setting in the **.plist** file is:
 
 ### BlockTenantList
 <a name="BlockTenantList"> </a>
-This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list.. 
+This setting prevents the users from uploading files to organizations that are included in the **blocked tenant IDs** list.
 
 If you enable this setting, the users get an error if they attempt to add an account from an organization that is blocked. If a user has already added an account for a blocked organization, the files stop syncing. This setting does NOT work if you have **Allow syncing OneDrive accounts for only specific organizations** setting enabled. Do **NOT** enable both settings at the same time.
 
