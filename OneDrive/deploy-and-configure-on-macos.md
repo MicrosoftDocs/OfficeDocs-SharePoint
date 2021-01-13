@@ -244,6 +244,8 @@ To enable this setting, you must define a string containing the URL of the on-pr
 The example for this setting in the **.plist** file is:
 <br/> \<key\>SharePointOnPremFrontDoorUrl</key\> <br/>\<string\>https://Contoso.SharePoint.com\</string\> <br/>
 
+[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
+
 
 ### SharePointOnPremPrioritizationPolicy
 <a name="SharePointOnPremPrioritizationPolicy"> </a>
@@ -269,6 +271,8 @@ If you do not specify any TenantName, the folder will use the first segment of t
 
 The example for this setting in the **.plist** file is:
 <br/> \<key\>SharePointOnPremTenantName</key\> <br/> \<string\>Contoso</string\> <br/>
+
+[More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
 
 
 ### UploadBandwidthLimited
