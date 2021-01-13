@@ -3,7 +3,7 @@ title: "Monitor apps for your SharePoint environment"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
