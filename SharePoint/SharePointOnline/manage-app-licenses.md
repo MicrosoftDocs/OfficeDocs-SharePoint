@@ -3,7 +3,7 @@ title: "Manage app licenses for a SharePoint environment"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 ms.date: 5/2/2018
 audience: Admin
 f1.keywords:

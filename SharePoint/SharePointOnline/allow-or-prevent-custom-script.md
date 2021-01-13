@@ -3,7 +3,7 @@ title: "Allow or prevent custom script"
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 ms.date: 5/21/2018
 audience: Admin
 f1.keywords:

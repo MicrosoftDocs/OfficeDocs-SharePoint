@@ -3,7 +3,7 @@ title: "Remove a hub site"
 ms.reviewer: metorres
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
