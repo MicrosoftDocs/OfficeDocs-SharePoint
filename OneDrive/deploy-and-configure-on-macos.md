@@ -75,7 +75,7 @@ Use the following keys to preconfigure or change settings for your users. The ke
 - [SharePointOnPremFrontDoorUrl](deploy-and-configure-on-macos.md#SharePointOnPremFrontDoorUrl)
 - [SharePointOnPremPrioritizationPolicy](deploy-and-configure-on-macos.md#SharePointOnPremPrioritizationPolicy)
 - [SharePointOnPremTenantName](deploy-and-configure-on-macos.md#SharePointOnPremTenantName)
-- [Tier](deploy-and-configure-on-macos.md#Tier)
+- [Tier](deploy-and-configure-on-macos.md#tier)
 - [UploadBandwidthLimited](deploy-and-configure-on-macos.md#UploadBandwidthLimited)
 
 ### AllowTenantList

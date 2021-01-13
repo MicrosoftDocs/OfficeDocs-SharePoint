@@ -107,4 +107,4 @@ SharePoint provides a wide range of options for customization. We recommend usin
 
 [Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/search)
 
-[Tips and tricks for navigating Microsoft 365 technical documentation](microsoft-365/microsoft-365-docs-navigation-guide?view=o365-worldwide)
+[Tips and tricks for navigating Microsoft 365 technical documentation](/microsoft-365/microsoft-365-docs-navigation-guide)

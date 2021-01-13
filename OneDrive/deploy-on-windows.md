@@ -148,7 +148,7 @@ To help users sign in, you can use [silent account configuration](use-silent-acc
   
 ## Auto-configure SharePoint site synchronization
 
-If you want to auto-configure a SharePoint site to be synced, you can use the URL below as a guide to build the path to the SharePoint site you want to sync automatically. You can also use a policy to sync sites automatically. For info, see [Configure team site libraries to sync automatically](use-group-policy#configure-team-site-libraries-to-sync-automatically).
+If you want to auto-configure a SharePoint site to be synced, you can use the URL below as a guide to build the path to the SharePoint site you want to sync automatically. You can also use a policy to sync sites automatically. For info, see [Configure team site libraries to sync automatically](use-group-policy.md#configure-team-site-libraries-to-sync-automatically).
 
 ```
 odopen://sync/?siteId=<siteId>&webId=<webId>&webUrl=<webURL>&listId=<listId>&userEmail=<userEmail>&webTitle=<webTitle>&listTitle=<listTitle>
