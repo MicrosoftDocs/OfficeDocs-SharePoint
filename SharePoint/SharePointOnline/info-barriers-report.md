@@ -51,6 +51,12 @@ If a OneDrive is noncompliant, the report lets you remove other segments so that
       ```PowerShell
       Start-SPOInformationBarriersPolicyComplianceReport
       ```
+    
+    Or, to automatically update any noncompliant OneDrive accounts when you build the report, run:
+
+      ```PowerShell
+      Start-SPOInformationBarriersPolicyComplianceReport -UpdateOneDriveSegments
+      ```
 
 4. Run the following command to view the status of the task:
 
@@ -108,11 +114,5 @@ If a OneDrive is noncompliant, the report lets you remove other segments so that
     IncompatibleSegmentsPairs : <Sales, Research><br>
     FailedToBeProcessed       : False<br>
 
-7. If a report includes a noncompliant OneDrive, run the following command to remove incompatible segments:
-
-      ```PowerShell
-      Start-SPOInformationBarriersPolicyComplianceReport -UpdateOneDriveSegments
-      ```
-
 > [!NOTE]
-> If a site has an incompatible segment, [learn how to use PowerShell to remove it](information-barriers.md#use-powershell-to-associate-segments-with-a-site). When you're done with a report, you can delete it by using `Remove-SPOInformationBarriersPolicyComplianceReport -reportid <>`
+> For info about removing incompatible segments, see [Use information barriers with SharePoint](information-barriers.md#use-powershell-to-associate-segments-with-a-site). When you're done with a report, you can delete it by using `Remove-SPOInformationBarriersPolicyComplianceReport -reportid <>`
