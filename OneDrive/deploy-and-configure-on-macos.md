@@ -59,23 +59,24 @@ Use the following keys to preconfigure or change settings for your users. The ke
 
 ## List of settings
 
-- [AllowTenantList](#AllowTenantList)
-- [AutomaticUploadBandwidthPercentage](#AutomaticUploadBandwidthPercentage)
-- [BlockExternalSync](#BlockExternalSync)
-- [BlockTenantList](#BlockTenantList)
-- [DefaultFolderLocation](#DefaultFolderLocation)
-- [DisableHydrationToast](#DisableHydrationToast)
-- [DisablePersonalSync](#DisablePersonalSync)
-- [DisableTutorial](#DisableTutorial)
-- [DownloadBandwidthLimited](#DownloadBandwidthLimited)
-- [FilesOnDemandEnabled](#FilesOnDemandEnabled)
-- [HideDockIcon](#HideDockIcon)
-- [HydrationDisallowedApps](#HydrationDisallowedApps)
-- [OpenAtLogin](#OpenAtLogin)
-- [SharePointOnPremFrontDoorUrl](#SharePointOnPremFrontDoorUrl)
-- [SharePointOnPremPrioritizationPolicy](#SharePointOnPremPrioritizationPolicy)
-- [SharePointOnPremTenantName](#SharePointOnPremTenantName)
-- [UploadBandwidthLimited](#UploadBandwidthLimited)
+- [AllowTenantList](deploy-and-configure-on-macos.md#AllowTenantList)
+- [AutomaticUploadBandwidthPercentage](deploy-and-configure-on-macos.md#AutomaticUploadBandwidthPercentage)
+- [BlockExternalSync](deploy-and-configure-on-macos.md#BlockExternalSync)
+- [BlockTenantList](deploy-and-configure-on-macos.md#BlockTenantList)
+- [DefaultFolderLocation](deploy-and-configure-on-macos.md#DefaultFolderLocation)
+- [DisableHydrationToast](deploy-and-configure-on-macos.md#DisableHydrationToast)
+- [DisablePersonalSync](deploy-and-configure-on-macos.md#DisablePersonalSync)
+- [DisableTutorial](deploy-and-configure-on-macos.md#DisableTutorial)
+- [DownloadBandwidthLimited](deploy-and-configure-on-macos.md#DownloadBandwidthLimited)
+- [FilesOnDemandEnabled](deploy-and-configure-on-macos.md#FilesOnDemandEnabled)
+- [HideDockIcon](deploy-and-configure-on-macos.md#HideDockIcon)
+- [HydrationDisallowedApps](deploy-and-configure-on-macos.md#HydrationDisallowedApps)
+- [OpenAtLogin](deploy-and-configure-on-macos.md#OpenAtLogin)
+- [SharePointOnPremFrontDoorUrl](deploy-and-configure-on-macos.md#SharePointOnPremFrontDoorUrl)
+- [SharePointOnPremPrioritizationPolicy](deploy-and-configure-on-macos.md#SharePointOnPremPrioritizationPolicy)
+- [SharePointOnPremTenantName](deploy-and-configure-on-macos.md#SharePointOnPremTenantName)
+- [Tier](deploy-and-configure-on-macos.md#Tier)
+- [UploadBandwidthLimited](deploy-and-configure-on-macos.md#UploadBandwidthLimited)
 
 ### AllowTenantList
 <a name="AllowTenantList"> </a>
@@ -189,6 +190,9 @@ The example for this setting in the **.plist** file is:
 
 This setting specifies whether Files On-Demand is enabled. 
 
+> [!IMPORTANT]
+> We recommend keeping Files On-Demand enabled. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
+
 If you don't set this setting, Files On-Demand will be enabled automatically as we roll out the feature, and users can turn the setting on or off.
 
 If you set this setting to **True**, **FilesOnDemand** is enabled and the users who set up the sync app can view the online-only files, by default. 
@@ -274,6 +278,20 @@ The example for this setting in the **.plist** file is:
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
 
+### Tier
+
+You can configure the OneDrive Standalone sync app to receive delayed updates.
+  
+|PList Location  <br/> |Domain  <br/> |
+|:-----|:-----|
+| ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist <br/> |com.microsoft.OneDriveUpdater  <br/> |
+   
+| Setting | Description | Parameters | Example Plist Entry |
+|:-----|:-----|:-----|:-----|
+|Tier  <br/> |Defines the update ring for the computer  <br/> |UpdateRing (String): This parameter has two different values.  <br/> Production - The default update ring for OneDrive updates.  <br/> Insiders - This update ring receives updates that are "pre-production" and that allow you to play with features before they are released. Note that builds from this ring may be less stable.  <br/> Enterprise - This update ring (now called "Deferred") receives updates after they have been rolled out through the Production ring. It also lets you control the deployment of updates. For more information about the update rings and the procedure used by the sync app for checking for updates, see [The OneDrive sync app update process](sync-client-update-process.md).  <br/> |\<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> |
+
+> [!IMPORTANT]
+> We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
 
 ### UploadBandwidthLimited
 <a name="UploadBandwidthLimited"> </a>
@@ -285,13 +303,3 @@ To enable this setting, set a value between 50 and 100,000 which is the upload t
 The example for this setting in the **.plist** file is:
 <br/> \<key\>UploadBandwidthLimited\</key\>  <br/> \<int\>(Upload Throughput Rate in KB/sec)\</int\>  <br/>
 
-
-You can also configure the OneDrive Standalone sync app to receive delayed updates.
-  
-|PList Location  <br/> |Domain  <br/> |
-|:-----|:-----|
-| ~/Library/Preferences/com.microsoft.OneDriveUpdater.plist <br/> |com.microsoft.OneDriveUpdater  <br/> |
-   
-| Setting | Description | Parameters | Example Plist Entry |
-|:-----|:-----|:-----|:-----|
-|Tier  <br/> |Defines the update ring for the computer  <br/> |UpdateRing (String): This parameter has two different values.  <br/> Production - The default update ring for OneDrive updates.  <br/> Insiders - This update ring receives updates that are "pre-production" and that allow you to play with features before they are released. Note that builds from this ring may be less stable.  <br/> Enterprise - This update ring (now called "Deferred") receives updates after they have been rolled out through the Production ring. It also lets you control the deployment of updates. For more information about the update rings and the procedure used by the sync app for checking for updates, see [The OneDrive sync app update process](sync-client-update-process.md).  <br/> |\<key\>Tier\</key\>  <br/> \<string\>(UpdateRing)\</string\>  <br/> |
