@@ -3,7 +3,7 @@ title: "Change your SharePoint domain name"
 ms.reviewer: matcarls
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
