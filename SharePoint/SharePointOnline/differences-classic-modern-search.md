@@ -1,8 +1,8 @@
 ---
 title: "Difference between classic & modern search experiences - SharePoint"
 ms.reviewer: 
-author: MikePlumleyMSFT
-ms.author: mikeplum
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: Admin
 f1.keywords:

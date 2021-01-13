@@ -1,7 +1,7 @@
 ---
 title: "Find site collection features in the new SharePoint admin center"
 ms.reviewer: kaarins
-manager: pamgreen
+manager: serdars
 ms.author: kaarins
 author: kaarins
 audience: Admin
@@ -82,7 +82,7 @@ To change the owners for any site that isn't connected to a Microsoft 365 group,
 |:-----|:-----|
 |Primary Site Collection Administrator <br/> |Switch the role of an existing admin to Primary Admin, or add an admin and then switch them to Primary admin. <br/> |
 |Site Collection Administrators <br/> |Use the Add an admin box to add an admin and the Remove button to remove an admin. <br/> |
-|Add Support Partner <br/> |This option is available in PowerShell only. Go to the Site Permissions page for a site where you’ve added the support partner. Copy the encoded string for the partner, and to add it to other sites, use the [PowerShell cmdlet Set-SPOUser](/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps). <br/> |
+|Add Support Partner <br/> |This option is available in PowerShell only. Go to the Site Permissions page for a site where you’ve added the support partner. Copy the encoded string for the partner, and to add it to other sites, use the [PowerShell cmdlet Set-SPOUser](/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps&preserve-view=true). <br/> |
 
 ## Site collection-level sharing
 
@@ -132,7 +132,7 @@ These features haven't been in use for more than a year.
 |**Classic**|**New**|
 |:-----|:-----|
 |Add or remove<br/> | These commands are available in PowerShell only. Use the cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) -EnablePWA<br/>|
-|Settings (SharePoint Permission Mode or Project Permission Mode) and Project Web App Size <br/>| To change the permission mode, go to the site as the Project Web App Administrator and follow the steps in [Change permission management in Project Online](/projectonline/change-permission-management-in-project-online). You shouldn't need to worry about running out of Project Web App space. <br/>|
+|Settings (SharePoint Permission Mode or Project Permission Mode) and Project Web App Size <br/>| To change the permission mode, go to the site as the Project Web App Administrator and follow the steps in [Change permission management in Project Online](/projectonline/change-permission-management-in-project-online). You can review the size of the Project Web App site using the above instructions where it is located on the same page under the section "Project Web App Usage". <br/>|
 
 ## Recycle bin
 

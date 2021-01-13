@@ -3,7 +3,7 @@ title: "Distribute business apps using the App Catalog - SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
