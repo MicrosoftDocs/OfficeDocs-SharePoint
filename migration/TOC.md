@@ -1,9 +1,14 @@
 # [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
 ## File share migration (Migration Manager)
 ### [Overview](mm-get-started.md)
-### [Step 1. Set up Migration Manager agents](mm-setup-clients.md)
+### [Step 1. Set up migration agents](mm-setup-clients.md)
 ### [Step 2. Create tasks](mm-how-to-use.md)
 ### [Step 3. Monitor and report](mm-reports.md)
+## Box migration
+### Overview
+### Step 1
+### Step 2
+### Step 3
 ### Migration Manager reference
 #### [What's new](mm-whats-new.md)
 #### [How Migration Manager works](mm-how-it-works.md)
