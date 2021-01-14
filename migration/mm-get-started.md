@@ -61,7 +61,17 @@ Make sure that you have:
 
 >[!Note]
 >When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.
+## End user onboarding
+Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan:
+- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
+- **End user training.**  Provide training to your users on the features in OneDrive.
+- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
+- **Prepare for any possible downtime** the migration may incur.
 
+Develop a plan for sending communications to your user base, providing clear statements of timing, and expectations and impact to the individual, including:
+- The migration timeline and how it will impact them. Include any user calls to action.
+- Assure them that their content is safe and won't be overwritten.
+- Let them know whether individuals can opt out of the migration process.
 
 ### Related links
 
