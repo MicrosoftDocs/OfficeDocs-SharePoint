@@ -3,7 +3,7 @@ title: "Introduction to managed metadata"
 ms.reviewer: vrchowdh
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 ms.date: 5/22/2018
 audience: End User
 f1.keywords:

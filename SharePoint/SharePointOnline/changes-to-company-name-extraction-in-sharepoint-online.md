@@ -3,7 +3,7 @@ title: "Changes to company name extraction in SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 ms.date: 9/18/2019
 audience: End User
 f1.keywords:

@@ -3,7 +3,7 @@ title: "Assign roles and permissions to manage term sets"
 ms.reviewer: vrchowdh
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: End User
 f1.keywords: NOCSH
 ms.topic: article
