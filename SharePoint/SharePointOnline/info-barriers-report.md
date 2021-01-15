@@ -20,7 +20,7 @@ description: "Learn how to find noncompliant sites after information barriers po
 
 # Create an information barriers policy compliance report
 
-If a compliance administrator changes an information barriers policy, the change might impact the compatibility of segments already associated with a site. 
+If a compliance administrator changes an information barriers policy, the change might affect the compatibility of segments already associated with a site. 
 For example, a policy might allow communication and collaboration between the Sales and Research segments. Later, the policy might not allow communication and collaboration between these segments. The segments are incompatible and shouldn't be associated with the same site. 
 
 The SharePoint information barriers policy compliance report lets SharePoint admins view the list of sites that are noncompliant with the updated policy. The report covers these sites:
@@ -76,10 +76,10 @@ If a OneDrive is noncompliant, the report lets you remove other segments so that
 5. Run the following command to view the report:
 
       ```PowerShell
-      Get-SPOInformationBarriersPolicyComplianceReport -reportid <Id>
+      Get-SPOInformationBarriersPolicyComplianceReport -reportid <ID>
       ```
 
-    (Where *Id* is the report's Id from the previous step.)
+    (Where *ID* is the report's Id from the previous step.)
 
     The command returns the following set of information:
 
@@ -97,10 +97,10 @@ If a OneDrive is noncompliant, the report lets you remove other segments so that
 6. Run the following command to view details about the noncompliant segments associated with each site:
 
       ```PowerShell
-      $report = Get-SPOInformationBarriersPolicyComplianceReport -reportid <Id> $report.Content
+      $report = Get-SPOInformationBarriersPolicyComplianceReport -reportid <ID> $report.Content
       ```
 
-    (Where *Id* is the report's Id from the previous step.)
+    (Where *ID* is the report's Id from the previous step.)
 
     The command returns the following set of information for each site:
 
