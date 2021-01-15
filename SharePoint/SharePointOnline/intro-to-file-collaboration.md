@@ -3,7 +3,7 @@ title: "File collaboration in Microsoft 365 - SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -62,7 +62,7 @@ Files stored in SharePoint-powered storage locations in Microsoft 365 are [encry
 
 - **Sensitivity labels**. Classify and protect highly confidential files with encryption and permissions. [See Learn about sensitivity labels](/office365/securitycompliance/sensitivity-labels)
 
-- **Reports**. Monitor activity and usage in SharePoint and OneDrive. [See Which activity reports are available in the admin center](/office365/admin/activity-reports/activity-reports?view=o365-worldwide#which-activity-reports-are-available-in-the-admin-center)
+- **Reports**. Monitor activity and usage in SharePoint and OneDrive. [See Which activity reports are available in the admin center](/office365/admin/activity-reports/activity-reports?view=o365-worldwide#which-activity-reports-are-available-in-the-admin-center&preserve-view=true)
 
 - **Microsoft 365 Advanced Threat Protection (ATP)**. Protect against sharing malicious files. [More info](/office365/securitycompliance/atp-for-spo-odb-and-teams)
 
@@ -186,7 +186,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
     ![The Active Sites page in the SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
 
-- **Microsoft PowerShell**. The SharePoint Online Management Shell is a PowerShell module that lets you run command-line operations. It makes performing batch operations more efficient, and is the only way to perform some management tasks in SharePoint and OneDrive. [Get started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+- **Microsoft PowerShell**. The SharePoint Online Management Shell is a PowerShell module that lets you run command-line operations. It makes performing batch operations more efficient, and is the only way to perform some management tasks in SharePoint and OneDrive. [Get started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true).
 
 ## Prerequisites
 
@@ -206,7 +206,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 - To learn about features coming soon, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
-- To keep on top of the latest SharePoint features rolling out, refer to the [Message Center](/office365/admin/manage/message-center?view=o365-worldwide).
+- To keep on top of the latest SharePoint features rolling out, refer to the [Message Center](/office365/admin/manage/message-center?view=o365-worldwide&preserve-view=true).
 
 - To vote on feature requests or submit your own idea, visit the [SharePoint UserVoice](https://sharepoint.uservoice.com/).
 
@@ -228,7 +228,7 @@ To prepare for file collaboration in Microsoft 365, configure the following sett
 
 ### Create sites
 
-When a Microsoft 365 group is created from anywhere within Microsoft 365, a SharePoint site is automatically created. You can let all users create groups, only some users, or you can block group creation and manage it centrally in your IT department. For info, see [Manage who can create Office groups](/office365/admin/create-groups/manage-creation-of-groups). You can also use a naming policy for groups and set an expiration period so that groups that are no longer being used will be deleted. For more info, see [Plan for governance in Microsoft 365 Groups](/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide). If you allow users to create groups, you can also allow them to create team sites from the SharePoint start page and from OneDrive and manage default site settings. For info, see [Manage site creation](manage-site-creation.md).
+When a Microsoft 365 group is created from anywhere within Microsoft 365, a SharePoint site is automatically created. You can let all users create groups, only some users, or you can block group creation and manage it centrally in your IT department. For info, see [Manage who can create Office groups](/office365/admin/create-groups/manage-creation-of-groups). You can also use a naming policy for groups and set an expiration period so that groups that are no longer being used will be deleted. For more info, see [Plan for governance in Microsoft 365 Groups](/office365/admin/create-groups/plan-for-groups-governance?view=o365-worldwide&preserve-view=true). If you allow users to create groups, you can also allow them to create team sites from the SharePoint start page and from OneDrive and manage default site settings. For info, see [Manage site creation](manage-site-creation.md).
 
 ![Site creation settings in the new SharePoint admin center](media/site-creation.png)
 

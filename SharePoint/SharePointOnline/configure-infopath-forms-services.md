@@ -3,7 +3,7 @@ title: "Configure InfoPath Forms Services"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
