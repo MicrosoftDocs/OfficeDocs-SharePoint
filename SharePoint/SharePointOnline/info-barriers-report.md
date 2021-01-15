@@ -66,12 +66,12 @@ If a OneDrive is noncompliant, the report lets you remove other segments so that
 
     The command returns the following set of information:
 
-    State                  : Completed<br>
-    Id                     : 9e2bd8d8-64a4-4e68-af63-81f0565c3c00<br>
-    StartTimeInUtc         : 12/6/2020 10:56:12 PM<br>
-    CompleteTimeInUtc      : 12/6/2020 10:56:17 PM<br>
-    QueuedTimeInUtc        : 12/6/2020 10:51:06 PM<br>
-    UpdateOneDriveSegments : False
+    `State: Completed`<br>
+    `Id: 9e2bd8d8-64a4-4e68-af63-81f0565c3c00`<br>
+    `StartTimeInUtc: 12/6/2020 10:56:12 PM`<br>
+    `CompleteTimeInUtc: 12/6/2020 10:56:17 PM`<br>
+    `QueuedTimeInUtc: 12/6/2020 10:51:06 PM`<br>
+    `UpdateOneDriveSegments: False`
 
 5. Run the following command to view the report:
 
@@ -83,14 +83,14 @@ If a OneDrive is noncompliant, the report lets you remove other segments so that
 
     The command returns the following set of information:
 
-    Content                : {3ef21e8a-69d9-4bf0-a70f-0328e5a18087, 76cd794c-b5f1-4f3d-ad48-075e805fca17, 93d93533-783a-4274-b9c9-b79a3b9beb99}<br>
-    HasNonCompliantSites   : True<br>
-    State                  : Completed<br>
-    Id                     : 9e2bd8d8-64a4-4e68-af63-81f0565c3c00<br>
-    StartTimeInUtc         : 9/22/2020 11:36:50 PM<br>
-    CompleteTimeInUtc      : 9/22/2020 11:37:00 PM<br>
-    QueuedTimeInUtc        : 9/22/2020 11:31:57 PM<br>
-    UpdateOneDriveSegments : False
+    `Content: {3ef21e8a-69d9-4bf0-a70f-0328e5a18087, 76cd794c-b5f1-4f3d-ad48-075e805fca17, 93d93533-783a-4274-b9c9-b79a3b9beb99}`<br>
+    `HasNonCompliantSites: True`<br>
+    `State: Completed`<br>
+    `Id: 9e2bd8d8-64a4-4e68-af63-81f0565c3c00`<br>
+    `StartTimeInUtc: 9/22/2020 11:36:50 PM`<br>
+    `CompleteTimeInUtc: 9/22/2020 11:37:00 PM`<br>
+    `QueuedTimeInUtc: 9/22/2020 11:31:57 PM`<br>
+    `UpdateOneDriveSegments: False`
 
     The Content row lists the sites that are noncompliant. If all sites are compliant, the Content row is empty and HasNonCompliantSites is "False."
 
@@ -104,15 +104,15 @@ If a OneDrive is noncompliant, the report lets you remove other segments so that
 
     The command returns the following set of information for each site:
 
-    SiteId                    : 3ef21e8a-69d9-4bf0-a70f-0328e5a18087<br>
-    SiteUrl                   : https://contoso.sharepoint.com/sites/Research<br>
-    SiteType                  : Group<br>
-    ComplianceState           : NonCompliant<br>
-    CurrentSegments           : Sales, Research<br>
-    OriginalSegments          : Sales, Research<br>
-    InvalidIBSegments         : <br>
-    IncompatibleSegmentsPairs : <Sales, Research><br>
-    FailedToBeProcessed       : False<br>
+    `SiteId: 3ef21e8a-69d9-4bf0-a70f-0328e5a18087`<br>
+    `SiteUrl: https://contoso.sharepoint.com/sites/Research`<br>
+    `SiteType: Group`<br>
+    `ComplianceState: NonCompliant`<br>
+    `CurrentSegments: Sales, Research`<br>
+    `OriginalSegments: Sales, Research`<br>
+    `InvalidIBSegments:` <br>
+    `IncompatibleSegmentsPairs: <Sales, Research>`<br>
+    `FailedToBeProcessed: False`<br>
 
 > [!NOTE]
 > For info about removing incompatible segments, see [Use information barriers with SharePoint](information-barriers.md#use-powershell-to-associate-segments-with-a-site). When you're done with a report, you can delete it by using `Remove-SPOInformationBarriersPolicyComplianceReport -reportid <>`
