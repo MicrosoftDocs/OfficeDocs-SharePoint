@@ -30,7 +30,7 @@ description: "View our recommendations for deploying and configuring the OneDriv
 For the best performance, reliability, and user experience, follow these "ideal state" recommendations when you configure the OneDrive sync app.
 
 
-|![Download symbol](/office/media/icons/download-blue.png)</br>Updates and rings   |![Chat symbol](/office/media/icons/chat.png)</br>Windows Notification Service  |![Cloud](/office/media/icons/cloud.png) </br>Files On-Demand and Storage Sense |![Document](/office/media/icons/document.png) <br>Office integration  |![User settings symbol](/office/media/icons/users-settings.png)</br>Silent account configuration |![Migration arrow symbol](/office/media/icons/migration-blue.png)</br>Known Folder Move|
+|![Download symbol](/office/media/icons/download-blue.png)</br>Updates and rings   |![Chat symbol](/office/media/icons/chat.png)</br>Windows Notification Service  |![Cloud symbol](/office/media/icons/cloud.png) </br>Files On-Demand and Storage Sense |![Document symbol](/office/media/icons/document.png) <br>Office integration  |![User settings symbol](/office/media/icons/users-settings.png)</br>Silent account configuration |![Migration arrow symbol](/office/media/icons/migration-blue.png)</br>Known Folder Move|
 |---------|---------|---------|---------|---------|---------|
 |Allow traffic. Select some people for the Insiders ring and leave the rest in Production    |   Allow traffic      |   Keep Files On-Demand enabled and enable Storage Sense policies      |     Keep Office collaboration enabled    |     Enable the policy    |     Enable the policies    |
 
@@ -38,7 +38,7 @@ For the best performance, reliability, and user experience, follow these "ideal 
 ## Updates and rings
 
 - **Allow access to oneclient.sfx.ms and g.live.com**. Computers must be able to reach these URLs to apply updates and bug fixes, and enable or disable features. Updates are installed automatically, so you don't need to package and deploy them. Because OneDrive runs in the background, updates are also installed silently and don't impact users. 
-- **Use the Insiders and Production rings**. Select several people in your IT department as early adopters to join the Insiders ring and receive features early. Leave everyone else in the organization on the default Production ring to ensure they receive bug fixes and new features in a timely fashion. This recommendation applies even if you are on the Semi-Annual Channel for Windows and Office. For more info, see [Sync app update process](sync-client-update-process.md). To set the update ring on Windows, see [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring). To set it on Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
+- **Use the Insiders and Production rings**. Select several people in your IT department as early adopters to join the Insiders ring and receive features early. Leave everyone else in the organization on the default Production ring to ensure they receive bug fixes and new features in a timely fashion. This recommendation applies even if you are on the Semi-Annual Channel for Windows and Office. For more info about the rings, see [Sync app update process](sync-client-update-process.md). To set the update ring on Windows, see [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring). To set it on Mac, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md#tier).
 
 ## Windows Notification Service
   
@@ -68,7 +68,7 @@ For the best performance, reliability, and user experience, follow these "ideal 
 Windows users are familiar and comfortable with saving files to their Desktop, Documents, and Pictures folders from years of developing it as a habit. When you redirect and move these folders to OneDrive, users can continue saving files to these locations and they're backed up and available from any device. For more info, see [Redirect known folders](redirect-known-folders.md).
 
 - **On new PCs, enable the silent policy**. [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
-- **On existing PCs, gradually enable the prompt and/or silent policy**. [About the Known Folder Move Group Policy objects](redirect-known-folders.md#about-the-known-folder-move-group-policy-objects)
+- **On existing PCs, gradually enable the prompt and/or silent policy**. [About the Known Folder Move Group Policy objects](redirect-known-folders.md#about-the-known-folder-move-policies)
 
 
 
