@@ -1,9 +1,9 @@
 ---
 title: "Recommended sync app configuration"
-ms.reviewer: kaarins
+ms.reviewer: gacarini
 ms.author: kaarins
-author: jackwi-alt
-manager: pamgreen
+author: kaarins
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
