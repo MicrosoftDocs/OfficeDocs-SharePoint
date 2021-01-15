@@ -3,7 +3,7 @@ title: "Pre-provision OneDrive for users in your organization"
 ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -69,7 +69,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
     >Get-Content -path "C:\Users.txt" | ForEach-Object { Set-MsolUser -UserPrincipalName $_ -BlockCredential $False }
     >```
 
-4. Run the PowerShell command [Request-SPOPersonalSite](/powershell/module/sharepoint-online/request-spopersonalsite?view=sharepoint-ps), consuming the text file you previously created in Step 1.
+4. Run the PowerShell command [Request-SPOPersonalSite](/powershell/module/sharepoint-online/request-spopersonalsite?view=sharepoint-ps&preserve-view=true), consuming the text file you previously created in Step 1.
 
     ```PowerShell
     $users = Get-Content -path "C:\Users.txt"

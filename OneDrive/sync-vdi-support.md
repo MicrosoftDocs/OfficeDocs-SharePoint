@@ -3,7 +3,7 @@ title: "Use the sync app on virtual desktops"
 ms.reviewer: sraja
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
