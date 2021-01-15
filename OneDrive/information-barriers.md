@@ -139,7 +139,6 @@ If a policy changes after files are shared, the sharing links will work only if 
 
 The example at the beginning of this article illustrates an organization with three segments: HR, Sales, and Research. An information barriers policy blocks communication and collaboration between Sales and Research. The segment HR has no restriction. In addition, the organization has users with no segments applied. The following table shows the effects of this configuration.
 
-
 |  Components |HR users  |Sales users  |Research users  |Non-segment users  |
 |---------|---------|---------|---------|---------|
 |Segments associated with OneDrive     |    HR     |     Sales, HR    |    Research, HR     |   None     |
