@@ -3,7 +3,7 @@ title: "The OneDrive sync app update process"
 ms.reviewer: joleung
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
