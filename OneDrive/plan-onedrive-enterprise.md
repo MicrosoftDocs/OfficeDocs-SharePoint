@@ -3,7 +3,7 @@ title: OneDrive guide for enterprises
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -330,7 +330,7 @@ Note that the OneDrive sharing settings are a subset of the SharePoint sharing s
 
 When a user leaves your organization and you've deleted that user's account, what happens to the user's data? When considering data retention compliance, determine what needs to happen with the deleted user's data. For some organizations, retaining deleted user data could be important continuity and preventing critical data loss. The default retention policy for deleted OneDrive users is 30 days. You can configure the setting to a range between 0 days and 3,650 days (ten years).
 
-For more info about OneDrive retention, see [OneDrive retention and deletion](retention-and-deletion.md) and [Learn about retention policies](/microsoft-365/compliance/retention-policies?view=o365-worldwide).
+For more info about OneDrive retention, see [OneDrive retention and deletion](retention-and-deletion.md) and [Learn about retention policies](/microsoft-365/compliance/retention-policies?view=o365-worldwide&preserve-view=true).
 
 Key decision:
 

@@ -3,7 +3,7 @@ title: "Understanding permission levels in SharePoint"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ROBOTS: NOINDEX
 f1.keywords:
@@ -55,8 +55,8 @@ Default permission levels allow you to quickly and easily provide common levels 
   
 You can make changes to any of the default permissions levels, except **Full Control** and **Limited Access**, both of which are described more fully in the following table.
   
-|**Permission Level**|**Description**||
-|:-----|:-----|:-----|
+|**Permission Level**|**Description**|
+|-----|-----|
 |Full Control  <br/> |Contains all available SharePoint permissions. By default, this permission level is assigned to the Owners group. It can't be customized or deleted.  <br/> |
 |Design  <br/> |Create lists and document libraries, edit pages and apply themes, borders, and style sheets on the site. There is no SharePoint group that is assigned this permission level automatically.  <br/> |
 |Edit  <br/> |Add, edit, and delete lists; view, add, update, and delete list items and documents. By default, this permission level is assigned to the Members group.  <br/> |

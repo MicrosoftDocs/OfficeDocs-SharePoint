@@ -3,7 +3,7 @@ title: "Remove columns from a content type"
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
