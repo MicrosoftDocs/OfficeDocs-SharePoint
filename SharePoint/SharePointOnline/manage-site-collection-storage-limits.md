@@ -3,7 +3,7 @@ title: "Manage site storage limits"
 ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -1,7 +1,7 @@
 ---
 title: "Sign out inactive users"
 ms.reviewer: samust
-manager: 
+manager: serdars
 ms.author: kaarins
 author: kaarins
 audience: Admin
