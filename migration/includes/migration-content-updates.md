@@ -2,6 +2,21 @@
 
 
 
+## Week of January 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/12/2021 | [Migrate content to OneDrive in Microsoft 365](/SharepointMigration/migrating-content-to-onedrive-for-business) | modified |
+| 1/12/2021 | [Migrating web parts using the Migration API](/SharepointMigration/migration-web-parts-migrationapi) | modified |
+| 1/12/2021 | [Migrate from My Sites to OneDrive in Office 365](/SharepointMigration/mysites-to-onedrive-migration-guide) | modified |
+| 1/12/2021 | [Troubleshooting Migration Manager](/SharepointMigration/mm-troubleshoot) | modified |
+| 1/12/2021 | [Use PowerShell cmdlets to migrate on-premises content - SharePoint](/SharepointMigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets) | modified |
+| 1/13/2021 | [Box to OneDrive Migration Guide](/SharepointMigration/box-to-onedrive-and-sharepoint-migration-guide) | modified |
+| 1/13/2021 | [Migrate file shares to SharePoint and OneDrive](/SharepointMigration/fileshare-to-odsp-migration-guide) | modified |
+| 1/13/2021 | [SharePoint Migration Assessment Tool](/SharepointMigration/overview-of-the-sharepoint-migration-assessment-tool) | modified |
+
+
 ## Week of January 04, 2021
 
 
