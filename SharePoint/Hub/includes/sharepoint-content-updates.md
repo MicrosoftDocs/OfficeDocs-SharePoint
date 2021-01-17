@@ -98,13 +98,6 @@
 | 1/15/2021 | [What is permissions inheritance?](/SharePoint/what-is-permissions-inheritance) | modified |
 
 
-## Week of December 21, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-
-
 ## Week of January 04, 2021
 
 
@@ -123,13 +116,18 @@
 | 1/8/2021 | [Find site collection features in the new SharePoint admin center](/SharePoint/site-collections-page) | modified |
 
 
-## Week of December 14, 2020
+## Week of December 28, 2020
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/15/2020 | [Manage query rules](/SharePoint/manage-query-rules) | modified |
-| 12/15/2020 | [Move all databases in SharePoint Server](/SharePoint/administration/move-all-databases) | modified |
-| 12/16/2020 | [Use app-enforced restrictions](/SharePoint/app-enforced-restrictions) | modified |
-| 12/16/2020 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
-| 12/18/2020 | [What's new in the SharePoint admin center](/SharePoint/what-s-new-in-admin-center) | modified |
+| 12/28/2020 | [Intelligent intranet overview](/SharePoint/intelligent-internet-overview) | modified |
+| 12/29/2020 | [Use SharePoint as a business-to-business (B2B) extranet solution](/SharePoint/create-b2b-extranet) | modified |
+
+
+## Week of December 21, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/21/2020 | [Intelligent intranet overview](/SharePoint/intelligent-internet-overview) | added |
