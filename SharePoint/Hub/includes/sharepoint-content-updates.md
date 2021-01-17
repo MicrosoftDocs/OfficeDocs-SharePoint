@@ -66,6 +66,7 @@
 | 1/13/2021 | [Find site collection features in the new SharePoint admin center](/SharePoint/site-collections-page) | modified |
 | 1/13/2021 | [Distribute business apps using the App Catalog - SharePoint](/SharePoint/use-app-catalog) | modified |
 | 1/13/2021 | [What's new in the SharePoint admin center](/SharePoint/what-s-new-in-admin-center) | modified |
+| 1/15/2021 | [Create an information barriers policy compliance report](/SharePoint/info-barriers-report) | added |
 | 1/15/2021 | [Add columns to a content type](/SharePoint/add-columns-content-type) | modified |
 | 1/15/2021 | [Assign roles and permissions to manage term sets](/SharePoint/assign-roles-and-permissions-to-manage-term-sets) | modified |
 | 1/15/2021 | [Change the default sharing link for a site](/SharePoint/change-default-sharing-link) | modified |
@@ -97,6 +98,13 @@
 | 1/15/2021 | [What is permissions inheritance?](/SharePoint/what-is-permissions-inheritance) | modified |
 
 
+## Week of December 21, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+
+
 ## Week of January 04, 2021
 
 
@@ -113,13 +121,6 @@
 | 1/8/2021 | [Difference between classic & modern search experiences - SharePoint](/SharePoint/differences-classic-modern-search) | modified |
 | 1/8/2021 | [Add SharePoint Success Site content to your M365 Learning Pathways solution](/SharePoint/add-sss-cdn) | modified |
 | 1/8/2021 | [Find site collection features in the new SharePoint admin center](/SharePoint/site-collections-page) | modified |
-
-
-## Week of December 21, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
 
 
 ## Week of December 14, 2020
