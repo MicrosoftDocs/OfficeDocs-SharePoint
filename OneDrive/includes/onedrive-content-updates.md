@@ -16,7 +16,6 @@
 | 1/13/2021 | [Use Group Policy to control OneDrive sync settings](/OneDrive/use-group-policy) | modified |
 | 1/13/2021 | [Silently configure user accounts](/OneDrive/use-silent-account-configuration) | modified |
 | 1/13/2021 | [Change the external sharing setting for a user's OneDrive](/OneDrive/user-external-sharing-settings) | modified |
-| 1/15/2021 | [OneDrive QuickStart guide for small businesses](/OneDrive/one-drive-quickstart-small-business) | modified |
 | 1/15/2021 | [B2B Sync](/OneDrive/b2b-sync) | modified |
 | 1/15/2021 | [Block syncing of specific file types](/OneDrive/block-file-types) | modified |
 | 1/15/2021 | [Use administrative templates in Intune](/OneDrive/configure-sync-intune) | modified |
