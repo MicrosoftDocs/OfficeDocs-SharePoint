@@ -28,7 +28,8 @@ This article covers all the features on the classic site collections page and wh
 
 ![Ribbon on site collections page](media/site-collections-menu.png)
 
-> [!IMPORTANT] The Classic site collections page for was removed on 10/22/2020. This article shows the features that were present in the Classic site collections page and where to find them in the new SharePoint admin center.
+> [!IMPORTANT]
+> The Classic site collections page was removed on October 22, 2020. This article shows the features that were present in the Classic site collections page and where to find them in the new SharePoint admin center.
 
 ## Create a new private site collection
 
@@ -177,5 +178,4 @@ In both the classic and new admin centers, you can select multiple sites and bul
 In the classic site list, locked sites appeared with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
 
 If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size. 
-
 
