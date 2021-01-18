@@ -3,7 +3,7 @@ title: "Mark new files as sensitive by default"
 ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

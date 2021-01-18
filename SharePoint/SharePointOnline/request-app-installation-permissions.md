@@ -3,7 +3,7 @@ title: "Request app installation permissions"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 ms.date: 5/22/2018
 audience: Admin
 f1.keywords:

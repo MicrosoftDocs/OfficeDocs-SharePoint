@@ -3,7 +3,7 @@ title: "How to create and edit permission levels"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ROBOTS: NOINDEX
 f1.keywords:

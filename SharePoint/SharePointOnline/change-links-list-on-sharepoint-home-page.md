@@ -3,7 +3,7 @@ title: "Add featured links to the SharePoint start page"
 ms.reviewer: dipadur
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH

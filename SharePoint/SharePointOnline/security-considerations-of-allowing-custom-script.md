@@ -3,7 +3,7 @@ title: "Security considerations of allowing custom script"
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 ms.date: 6/15/2017
 audience: Admin
 f1.keywords:
