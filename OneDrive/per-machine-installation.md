@@ -74,15 +74,15 @@ User intervention is not required for the per-machine sync app to update itself.
 **How do I revert back to the per-user sync app if necessary?** 
 We don't support automated migration from per-machine to per-user. To revert back after installing per-machine, uninstall the sync app and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the "/allusers" parameter.
 
-**How can I detect the installation through Configuration Manager?** 
+**How can I detect if I have a per-machine installation through Configuration Manager?** 
 
-For Configuration Manager, to detect the install, use the following registry detection rule:
+You can use the following registry detection rule:
 
 |Field|Value|
 |---|---|
-|Hive|   HKEY_CURRENT_USER|
+|Hive|   HKEY_LOCAL_MACHINE|
 |Key|    SOFTWARE\Microsoft\OneDrive|
 |Value|  Version|
-|32 bit on 64 bit| TRUE|
-|Type|   Version|
+|32bit on 64bit| TRUE|
+|Type|   REG_SZ|
 |Value|  19.043.0304.0007|
