@@ -46,7 +46,7 @@ To make sure that users sync OneDrive files only on managed computers, you can c
    > [!IMPORTANT]
    > This setting is only applicable to Active Directory domains. It does not apply to Azure AD domains. If you have devices which are only Azure AD joined, consider using a [Conditional Access Policy](/azure/active-directory/conditional-access/overview) instead.
    
-5. If you want to prevent Mac OS users from syncing entirely, select the **Block sync on Mac OS** check box.
+5. If you want to prevent Mac users from syncing entirely, select the **Block sync on Mac OS** check box.
     
 6. Click **Save** on the Sync page.
     
