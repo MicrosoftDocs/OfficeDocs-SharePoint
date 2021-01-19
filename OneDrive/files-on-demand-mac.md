@@ -3,7 +3,7 @@ title: "Set Files On-Demand states on Mac"
 ms.reviewer: joleung
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

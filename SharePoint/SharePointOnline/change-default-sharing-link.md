@@ -3,7 +3,7 @@ title: "Change the default sharing link for a site"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH

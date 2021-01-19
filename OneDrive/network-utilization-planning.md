@@ -3,7 +3,7 @@ title: "Network utilization planning for the OneDrive sync app"
 ms.reviewer: andreye
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: ITPro
 f1.keywords:
 - NOCSH
