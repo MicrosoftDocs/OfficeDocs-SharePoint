@@ -24,8 +24,9 @@ The variations feature in SharePoint Server and SharePoint in Microsoft 365 make
   
 This article contains an overview of the variations feature. It describes the elements of the variations feature; provides an overview of site, list, and page creation for variation sites; lists some limitations of variations; and describes scenarios for using variations in SharePoint Server. This article does not describe the tasks that are involved in planning a solution that uses variations. For info about how to plan to use variations in your solution, see [Plan for variations in SharePoint Server](plan-for-variations.md). This article also does not describe how to create variation labels and hierarchies. For info about how to create a variation site, see [Create a multi-language website](https://go.microsoft.com/fwlink/p/?LinkId=279696).
 
-    > [!IMPORTANT]
-    > The variations will remain supported but deprecated for the SharePoint Server 2019 release. For more info, see [What's deprecated or removed from SharePoint Server 2019](https://docs.microsoft.com/sharepoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019#variations).
+   > [!IMPORTANT]
+   > The variations will remain supported but deprecated for the SharePoint Server 2019 release. For more info, see [What's deprecated or removed from SharePoint Server 2019](https://docs.microsoft.com/sharepoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019#variations).
+    
 
 ## Use and benefits of variations
 <a name="use"> </a>
