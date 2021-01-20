@@ -137,7 +137,7 @@ Minimum requirements for a database server in a farm:
     
   - The 64-bit edition of SQL Server 2008 R2 Service Pack 1
     
-- The 64-bit edition of Windows Server 2008 R2 Service Pack 1 (SP1) Standard, Enterprise, or Datacenter or the 64-bit edition of Windows Server 2012 Standard or Datacenter
+- A 64-bit edition of Windows Server, for supported combinations of Windows Server and SQL Server, see Using [SQL Server in Windows 8 and later versions of Windows operating system](https://docs.microsoft.com/troubleshoot/sql/general/sql-server-windows-8-later-versions).
     
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876)
     
