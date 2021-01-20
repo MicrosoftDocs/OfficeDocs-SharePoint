@@ -3,7 +3,7 @@ title: OneDrive QuickStart guide for small businesses
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -3,7 +3,7 @@ title: "Use administrative templates in Intune"
 ms.reviewer: kafeaver
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

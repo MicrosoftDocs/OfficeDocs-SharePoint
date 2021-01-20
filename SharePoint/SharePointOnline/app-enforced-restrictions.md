@@ -3,7 +3,7 @@ title: "Use app-enforced restrictions"
 ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article

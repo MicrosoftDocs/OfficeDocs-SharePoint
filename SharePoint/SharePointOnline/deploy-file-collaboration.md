@@ -3,7 +3,7 @@ title: "Plan & deploy a file collaboration environment - SharePoint"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article

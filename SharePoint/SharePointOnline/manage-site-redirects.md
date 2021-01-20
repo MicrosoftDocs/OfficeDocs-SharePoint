@@ -3,7 +3,7 @@ title: "Manage site redirects"
 ms.reviewer: adwood
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -1,7 +1,7 @@
 ---
 title: "Manage geo locations in the new SharePoint admin center"
 ms.reviewer: kaarins
-manager: pamgreen
+manager: serdars
 ms.author: kaarins
 author: kaarins
 audience: Admin

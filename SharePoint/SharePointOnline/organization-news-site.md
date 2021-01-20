@@ -2,7 +2,7 @@
 title: "Create an organization news site"
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -3,7 +3,7 @@ title: "What is permissions inheritance?"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 ROBOTS: NOINDEX
 f1.keywords:
