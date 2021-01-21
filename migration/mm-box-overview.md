@@ -25,6 +25,7 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 ## How does it work?
 
 
+![Set up migration agents](media/mm-box-migration-3box.png)
 
 
 - **Step 1: Connect to Box.**   Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
