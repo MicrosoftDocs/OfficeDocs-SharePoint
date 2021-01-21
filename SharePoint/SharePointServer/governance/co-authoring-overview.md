@@ -26,7 +26,7 @@ Co-authoring in SharePoint Server lets multiple users work on a document, at any
 Office provides co-authoring functionality for Word, PowerPoint, OneNote, and Visio. If you have SharePoint Server configured to use Office Web Apps Server, users can also co-author documents in Word, PowerPoint, Excel, and OneNote Web Apps.
   
 > [!IMPORTANT]
-> This article is for IT Professionals managing SharePoint Server. > **Are you looking for help with co-authoring?** You may be looking for [Document collaboration and co-authoring](https://go.microsoft.com/fwlink/p/?LinkId=275815), which will help you understand and use the co-authoring and versioning and applies to SharePoint in Microsoft 365.
+> This article is for IT Professionals managing SharePoint Server.  **Are you looking for help with co-authoring?** You may be looking for [Document collaboration and co-authoring](https://go.microsoft.com/fwlink/p/?LinkId=275815), which will help you understand and use the co-authoring and versioning and applies to SharePoint in Microsoft 365.
   
 ## Co-authoring functionality in SharePoint Server
 <a name="bkmk_ca_in_sp"> </a>
