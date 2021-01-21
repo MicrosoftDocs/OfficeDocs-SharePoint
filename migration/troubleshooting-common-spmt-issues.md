@@ -43,6 +43,7 @@ This article describes common issues and errors you may encounter when using the
 |*Task #, parameter 1. The source path should not be empty*|Confirm that the source path column in the CSV file has a value.|
 |*Task #, parameter 4. The target URL is an invalid URL*|Confirm that the target url column in the CSV file has a value and is valid.|
 |*Task #, parameter 5. The target list should not be empty*|Confirm that the target list column in the CSV file has a value.|
+|*Admin permissions are required to migrate this content into OneDrive.*|Please make sure that the account used to migrate content has permissions on the destination OneDrive.|
 
 
 
