@@ -133,6 +133,8 @@ Minimum requirements for a database server in a farm:
   
 - One of the following:
     
+  - The 64-bit edition of SQL Server 2014 (requires May 2014 Cumulative update for SharePoint Server 2013).
+    
   - The 64-bit edition of Microsoft SQL Server 2012.
     
   - The 64-bit edition of SQL Server 2008 R2 Service Pack 1
