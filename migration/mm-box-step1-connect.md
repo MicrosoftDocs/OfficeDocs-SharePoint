@@ -22,24 +22,13 @@ description: "Steps to connect to Box when using Migration Manager in the ShareP
 
 
 1. From the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), under **Box**, select **Get started**.
-
-
-![Box get started](media/mm-box-getstarted.png)
-
-1. Select **Connect to Box**. 
-2. Select **Authorize Mover**. This step uses your Microsoft credentials to connect Mover to your co-admin Box account.  Click **Next**.
-
-![Authorize mover from MM](media/mm-authorize-mover.png)
-
-1. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.  
-2. Sign in to Box with your co-admin account. This step connects your Box account to Microsoft 365.
-3. Sign in to grant access to Box. Select **Authorize.**
-4. Install the Microsoft Box app in your Box account settings. Installing the app will authorize content to be copied from your Box account to Microsoft 365.  
-5. Copy the app client ID.  
-6. Select copy.
-7. Use that copied client ID to add the Microsoft app.  Go you your Box account settings to authorize a new app in your Box account settings and enter the client ID when prompted.
-8. On the Box screen, select "Authorize new app".
-9. Paste the client ID you copied from the earlier screen. Enter the client ID for application for which you would like to grant access.
-10. An App Authorization page appears and lists the authorization details of the request.  Select "Authorize."
-11. You're now connected to Box. Click **Finish** to close the window.
+2. Select **Connect to Box**. 
+3. Select **Authorize Mover**. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.  This step uses your Microsoft credentials to connect Mover to your co-admin Box account.  Click **Next**.
+4. Click **Go to Enterprise applications**. This takes you to Azure.
+5. Select the **Microsoft 365 migration app**.
+6. On the left hand panel under Security, select **Permissions**.
+7. Click **Grant admin consent** for your account. You may be prompted for your credentials again. Return to the Migration Manager wizard screen.  Click **Next**.
+8. On the Authenticate Box account screen, click **Authenticate account**. 
+9. Sign in to grant access to Box. Select **Authorize** and then **Grant access to Box**.
+10. You're now connected to Box. Click **Finish** to close the window.
 
