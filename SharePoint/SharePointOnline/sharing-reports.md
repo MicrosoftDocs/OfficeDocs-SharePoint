@@ -30,11 +30,10 @@ When you run the report, the CSV file is saved to a location of your choosing on
 In Microsoft SharePoint, if you don't want site members to see the report, consider creating a folder with different permissions where only site owners can access the report.
 
 To run the report (SharePoint)
-1. From the Microsoft 365 app launcher, select the SharePoint tile.
-2. Open the site where you want to run the report
-3. On the **Settings** menu, click **Site usage**.
-4. In the **Shared with external users** section, click **Run report**.
-5. Choose a location to save the report, and then click **Save**.
+1. Open the site where you want to run the report
+2. On the **Settings** menu, click **Site usage**.
+3. In the **Shared with external users** section, click **Run report**.
+4. Choose a location to save the report, and then click **Save**.
 
 To run the report (OneDrive)
 1. From the Microsoft 365 app launcher, select the OneDrive tile.
