@@ -47,13 +47,13 @@ There are three ways to disable co-authoring:
   
 1. Verify that you have the following memberships:
   
-  - **securityadmin** fixed server role on the SQL Server instance.
+      - **securityadmin** fixed server role on the SQL Server instance.
     
-  - **db_owner** fixed database role on all databases that are to be updated.
+      - **db_owner** fixed database role on all databases that are to be updated.
     
-  - Administrators group on the server on which you're running PowerShell cmdlets.
-    
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
+      - Administrators group on the server on which you're running PowerShell cmdlets.
+        
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
     
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
@@ -92,13 +92,13 @@ There are three ways to disable co-authoring:
   
 1. Verify that you have the following memberships:
   
-  - **securityadmin** fixed server role on the SQL Server instance.
+      - **securityadmin** fixed server role on the SQL Server instance.
   
-  - **db_owner** fixed database role on all databases that are to be updated.
+      - **db_owner** fixed database role on all databases that are to be updated.
   
-  - Administrators group on the server on which you're running PowerShell cmdlets.
+      - Administrators group on the server on which you're running PowerShell cmdlets.
   
-    An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
+        An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets.
   
     > [!NOTE]
     > If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For more information about PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
