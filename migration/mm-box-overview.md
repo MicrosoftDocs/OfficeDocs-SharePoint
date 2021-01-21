@@ -20,7 +20,7 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 Migration Manager lets you move your content from the Box cloud platform to Microsoft 365. 
 
-![Migration Manager main landing page](mm-migration-main-landing.png)
+![Migration Manager main landing page](media/mm-main-landing.png)
 
 ##
 
