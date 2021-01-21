@@ -14,5 +14,15 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: How to migrate data from Box using the Migration Manager tool in Microsoft 365.
+description: Overview of migration from Box to Microsoft 365 using Migration Manager.
 ---
+# Migrate Box to Microsoft 365 with Migration Manager
+
+Migration Manager lets you move your content from the Box cloud platform to Microsoft 365. 
+
+![Migration Manager main landing page](mm-migration-main-landing.png)
+
+##
+
+
+
