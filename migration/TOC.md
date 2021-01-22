@@ -9,7 +9,7 @@
 ### [Step 1: Connect to Box](mm-box-step1-connect.md)
 ### [Step 2: Discover and scan users](mm-box-step2-scan-assess.md)
 ### [Step 3: Copy to migration](mm-box-step3-copy-to-migrations.md)
-### [Step 4: Bulk upload destinations](mm-box-bulk-upload-destinations.md)
+### [Step 4: Review destinations](mm-box-step4-review-destinations.md)
 ### [Step 5: Map Box identities](mm-box-step5-map-identities.md)
 ### [Step 6: Migrate and monitor](mm-box-step6-migrate-monitor.md)
 ### [Disconnect from Box](mm-box-disconnect.md)
