@@ -51,9 +51,9 @@ This preview requires that your organization also be opted into the [Azure AD em
 To opt in to the Azure AD passcode authentication preview
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
 2. In the nav pane, select **Azure Active Directory**.
-3. In the **Overview** pane, click **External identities**.
-4. In the **Organizational identities** pane, select **External collaboration settings**.
-5. Under **Enable Email One-Time Passcode for guests (Preview)**, select **Yes**.
+3. Under **Manage**, click **External identities**.
+4. Click **External collaboration settings**.
+5. Under **Email one-time passcode for guests**, choose **Enable email one-time passcode for guests effective now**.
 6. Select **Save**.
 
 To opt in to the SharePoint and OneDrive integration with Azure AD B2B
