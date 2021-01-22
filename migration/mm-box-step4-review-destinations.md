@@ -33,6 +33,7 @@ If a destination is missing, highlight the row. A panel will appear to the right
 ![edit OD destination path](media/mm-box-select-od-destination.png)
 
 3. Select a folder (optional).
+
 ![select OneDrive folder path](media/mm-box-destination-folder-onedrive.png)
 
 4. Click **Save path**.

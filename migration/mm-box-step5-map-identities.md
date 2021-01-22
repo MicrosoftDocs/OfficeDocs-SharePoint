@@ -32,6 +32,11 @@ Map your groups and users in Box to those in Mmicrosoft 365 to migrate your Box 
 ![Map box identities toolbar](media/mm-box-map-identities-toolbar.png)
 
 </br>
-4. To edit a single mapping, highlight the row.  A panel will appear where you can enter the mapping Microsoft 365 user account. Select **Save**.
+
+## Single mapping edit
+
+1. To edit a single mapping, highlight the row. Enter the mapping Microsoft 365 user account. 
+2. Select **Save**.
 
 ![Map box identities single](media/mm-box-map-identity-single.png)
+

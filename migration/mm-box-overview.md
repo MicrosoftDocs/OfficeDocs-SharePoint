@@ -16,10 +16,13 @@ ms.collection:
 search.appverid: MET150
 description: Overview of migration from Box to Microsoft 365 using Migration Manager.
 ---
+
+# Migrate Box to Microsoft 365 with Migration Manager
+
 >[!Note]
 > This feature and corresponding documentation is currently in public preview and subject to change without notice.
 
-# Migrate Box to Microsoft 365 with Migration Manager
+
 
 Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
