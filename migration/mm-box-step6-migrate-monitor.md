@@ -16,6 +16,7 @@ ms.collection:
 search.appverid: MET150
 description: Step 6: Migrate and monitor Box migration
 ---
+# Step 6:  Migrate and monitor your Box migration
 
 ![confirmation of single Box migration account](media/mm-box-migrate-confirmation-single.png)
 
