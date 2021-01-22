@@ -21,8 +21,7 @@ description: Review your destination paths for your Box migration while using Mi
 >[!Important]
 > This feature is currently in private preview and subject to change without notice.
 
-
-In this step, you are reviewing the destination paths, and making sure they are correct. An account cannot be migrated without a destination indicated.  Once you migrate content to a destination it cannot be modifed.
+In this step, you are reviewing the destination paths of the accounts you have move to the migrations list, and making sure they are correct. An account cannot be migrated without a destination indicated and once you migrate content to a destination it cannot be modified.
 
 ## Single destination edit
 
@@ -74,14 +73,17 @@ If a destination is missing, highlight the row. A panel will appear to the right
 
 ## Upload destinations using a CSV file
 
-If you have many destinations to edit, you can choose to upload a bulk destinations CSV file. 
+If you have many destinations to edit, you can choose to upload a bulk destinations CSV file.  Download the *MigrationDestinations.csv* file template to your computer and enter your destinations. Save your file as a .csv file using any name you wish. 
 
 
 ![upload destinations for Box accounts bulk](media/mm-box-bulk-upload-destination-panel.png)
 
-1. Download the MigrationDestinations.csv file template and enter your destinations. Save your file using any name you wish.
-2. Select the file with your destinations.
-3. Click **Save**.  
+1. From the Migrations tab, select **Upload destinations** from the menu bar.
+2. Select the file to upload with your destinations.
+4. Click **Save**.  
+
 
 >[!Important]
 >Review your destination CSV file before you upload it to make sure you have entered the values in correctly.  The destination file is not validated, and once you have migrated to these destinations it cannot be undone.
+
+

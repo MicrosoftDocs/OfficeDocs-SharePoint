@@ -22,11 +22,29 @@ description: "Step 3: Copy to migrations using Migration Manager."
 >[!Important]
 > This feature is currently in private preview and subject to change without notice.
 
-After a Box user has been scanned and determined ready, add them to your migration list.  
+
+ After a Box user has been scanned and determined ready, add them to your migration list.  
 
 1. Click the **Migrations** tab. The table will list all users that have been copied to migration.
 
 ![Migrations tab](media/mm-box-migration-tab.png)
 
-2.  
+2. Select the users that are ready to be added to the migrations list.
+3. Select **Copy to migrations**
+
+
+![Box copy to migrations confirm](media/mm-box-copy-migrations-confirm.png)
+
+ You can also select multiple users.
+
+![Box copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
+
+
+5. Click the **Migrations** tab, and proceed to the next step.
+
+![Migrations tab](media/mm-box-migration-tab.png)
+
+
+
+
 
