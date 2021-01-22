@@ -25,4 +25,7 @@ After a Box user has been scanned and determined ready, add them to your migrati
 
 ![Migrations tab](media/mm-box-migration-tab.png) 
 
-2. 
+2. If the destination is missing, highlight the row.  A panel will appear. Under Destination, click **Edit.**
+
+![Single user edit](media/mm-migrations-single-user-edit.png)
+
