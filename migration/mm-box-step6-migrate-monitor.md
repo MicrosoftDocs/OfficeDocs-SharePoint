@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Step 6: Migrate and monitor Box migration
+description: "Step 6: Migrate and monitor Box migration"
 ---
 # Preview - Step 6:  Migrate and monitor your Box migration
 
