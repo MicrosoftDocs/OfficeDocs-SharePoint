@@ -25,14 +25,13 @@ Map your groups and users in Box to those in Mmicrosoft 365 to migrate your Box 
 1. Select the Migrations tab.
 2. Click Map identities on the menu bar.
 
-    ![Map box identities](media/mm-box-upload-destinations-bulk.png)
+![Map box identities](media/mm-box-upload-destinations-bulk.png)
 </br>
 3.  Select **Auto-map** to have Migration Manager map the identities for you or select **Import users and groups** to upload the values in an CSV file.
 
-
-    ![Map box identities toolbar](media/mm-box-map-identities-toolbar.png)
+![Map box identities toolbar](media/mm-box-map-identities-toolbar.png)
 
 </br>
-4. To edit a single mapping, highlight the row.  A panel will appear where you can enter the Microsoft 365 user account that your Box user will map to.  Click **Save**.
+4. To edit a single mapping, highlight the row.  A panel will appear where you can enter the mapping Microsoft 365 user account. Select **Save**.
 
 ![Map box identities single](media/mm-box-map-identity-single.png)
