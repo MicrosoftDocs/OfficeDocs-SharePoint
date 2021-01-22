@@ -28,17 +28,17 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 ![Set up migration agents](media/mm-box-migration-3box.png)
 
 
-- **Step 1: Connect to Box.**   Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
+- [Step 1: Connect to Box](mm-box-step1-connect.md)   Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
 
-- **Step 2:  Scan and assess.** We'll automatically scan for Box users for you the first time or you can do it manually. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+- [Step 2: Scan and assess](mm-box-step2-scan-assess.md) Box users are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
-- **Step 3: Copy to Migations list.** After a Box user has been scanned and determined ready, add them to your migration list.
+- [Step 3: Copy to Migations list](mm-box-step3-copy-to-migrations.md) After a Box user has been scanned and determined ready, add them to your migration list.
 
-- **Step 4: Review destination paths.**  We automatically map source paths to any exactly matching destination paths.  Ensure content is being copied to the right place by reviewing and mofiying as needed for each destination path.
-- 
-- **Step 5: Map identities.**  Map your groups and users in Box to those in Mmicrosoft 365 to migrate your Box sharing settings.
+- [Step 4: Review destination paths](mm-box-bulk-upload-destinations.md)  We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
 
-- **Step 6: Migrate and Monitor.**  After reviewing your mgiration setup, migrate your Box accounts and monitor the progress.
+- [Step 5: Map identities](mm-box-map-identities.md)   Map your groups and users in Box to those in Mmicrosoft 365 to migrate your Box sharing settings.
+
+- [Step 6: Migrate and Monitor](mm-box-migrate-and-monitor) After reviewing your mgiration setup, migrate your Box accounts and monitor the progress.
 
 ## How do I get started?
 
