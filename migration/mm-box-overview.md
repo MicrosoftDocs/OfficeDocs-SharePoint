@@ -29,21 +29,11 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 
 ## How does it work?
 
-- **Step 1:** [Connect to Box](mm-box-step1-connect.md)
-- **Step 2:** [Scan and assess](mm-box-step2-scan-assess.md) 
-- **Step 3:** [Copy to Migrations list](mm-box-step3-copy-to-migrations.md) 
-- **Step 4:** [Review destination paths](mm-box-step4-review-destinations.md)
-- **Step 5:** [Map identities](mm-box-step5-map-identities.md)
-- **Step 6:** [Migrate and Monitor](mm-box-step6-migrate-monitor.md)
-
-|Steps|Description|
-|:-----|:-----|
-|**[Step 1: Connect to Box](mm-box-step1-connect.md)**|   Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
-|**[Step 2: Scan and assess](mm-box-step2-scan-assess.md)**| Box user accounts are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
-|**[Step 3: Copy to Migrations list](mm-box-step3-copy-to-migrations.md)**| After a Box user has been scanned and determined ready, add them to your migration list.
-|**[Step 4: Review destination paths](mm-box-step4-review-destinations.md)** | We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
-|**[Step 5: Map identities](mm-box-step5-map-identities.md)** | Map your groups and users in Box to an account in Microsoft 365 to migrate your Box sharing settings.
-|**[Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)**| After reviewing your migration setup, migrate your Box accounts and monitor the progress.
+**Step 1: [Connect to Box](mm-box-step1-connect.md)**.   Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
+**Step 2 [Scan and assess](mm-box-step2-scan-assess.md)**. Box user accounts are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+**Step 3: [Copy to Migrations list](mm-box-step3-copy-to-migrations.md)**. After a Box user has been scanned and determined ready, add them to your migration list.
+**Step 4: [Review destination paths](mm-box-step4-review-destinations.md)**.  We automatically map source paths to any exactly matching destination paths. Ensure content is being copied to the right place by reviewing and modifying as needed for each destination path.
+**Step 5: [Map identities](mm-box-step5-map-identities.md)**.   Map your groups and users in Box to an account in Microsoft 365 to migrate your Box sha**.** After reviewing your migration setup, migrate your Box accounts and monitor the progress.
 
 
 ## How do I get started?
