@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection: 
 - M365-collaboration
 - enabler-strategic
+- m365initiative-spsites
 description: "Creating and launching a healthy SharePoint portal"
 ---
 
