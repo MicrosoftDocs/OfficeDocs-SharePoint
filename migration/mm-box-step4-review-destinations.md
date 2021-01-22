@@ -34,7 +34,8 @@ If a destination is missing, highlight the row. A panel will appear to the right
 
 3. Select a folder (optional).
 ![select OneDrive folder path](media/mm-box-destination-folder-onedrive.png)
-1. Click **Save path**.
+
+4. Click **Save path**.
 
 
 ###  SharePoint
