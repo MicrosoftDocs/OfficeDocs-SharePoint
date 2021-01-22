@@ -1,5 +1,5 @@
 ---
-title: "Overview: Migrate Box using Migration Manager"
+title: "Step 5: Map Box identities with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -14,5 +14,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: How to migrate data from Box using the Migration Manager tool in Microsoft 365.
+description: Step 5:  Map Box identities with Migration Manager. 
 ---
+
+

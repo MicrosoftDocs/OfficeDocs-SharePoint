@@ -11,7 +11,7 @@
 ### [Step 3: Copy to migration](mm-box-step3-copy-to-migrations.md)
 ### [Step 4: Bulk upload destinations](mm-box-bulk-upload-destinations.md)
 ### [Step 5: Map Box identities](mm-box-step5-map-identities.md)
-### [Step 6: Migrate and monitor](mm-)
+### [Step 6: Migrate and monitor](mm-box-step6-migrate-monitor.md)
 ### [Disconnect from Box](mm-box-disconnect.md)
 ### [Box migration reporting](mm-box-reports.md)
 ### Migration Manager reference
