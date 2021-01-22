@@ -1,5 +1,5 @@
 ---
-title: "Overview: Migrate Box using Migration Manager"
+title: "Managing lists in a Box migration with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -14,5 +14,10 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: How to migrate data from Box using the Migration Manager tool in Microsoft 365.
+description: "Managing lists in a Box migration with Migration Manager"
 ---
+
+# Managing lists in Box migration
+
+>[!Important]
+> This feature is currently in private preview and subject to change without notice.

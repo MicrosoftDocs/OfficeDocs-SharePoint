@@ -34,7 +34,7 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 - **Step 3:** [Copy to Migrations list](mm-box-step3-copy-to-migrations.md) 
 - **Step 4:** [Review destination paths](mm-box-step4-review-destinations.md)
 - **Step 5:** [Map identities](mm-box-step5-map-identities.md)
-- **Step 6:** [Migrate and Monitor](mm-box-step6-migrate-and-monitor)
+- **Step 6:** [Migrate and Monitor](mm-box-step6-migrate-monitor.md)
 
 
 ## How do I get started?
