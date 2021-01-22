@@ -16,6 +16,9 @@ ms.collection:
 search.appverid: MET150
 description: Overview of migration from Box to Microsoft 365 using Migration Manager.
 ---
+>!Note]
+> This feature and corresponding documentation is currently in public preview and subject to change without notice.
+
 # Migrate Box to Microsoft 365 with Migration Manager
 
 Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
@@ -30,7 +33,7 @@ Collaborate all in one place by migrating your Box documents, data, and users to
 
 - [Step 1: Connect to Box](mm-box-step1-connect.md)   Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
 
-- [Step 2: Scan and assess](mm-box-step2-scan-assess.md) Box users are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
+- [Step 2: Scan and assess](mm-box-step2-scan-assess.md) Box user accounts are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
 - [Step 3: Copy to Migations list](mm-box-step3-copy-to-migrations.md) After a Box user has been scanned and determined ready, add them to your migration list.
 
