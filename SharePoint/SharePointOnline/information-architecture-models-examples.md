@@ -14,6 +14,7 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - enabler-strategic
+- m365initiative-spsites
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
