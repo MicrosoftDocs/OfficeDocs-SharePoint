@@ -16,7 +16,11 @@ ms.collection:
 search.appverid: MET150
 description: Review your destination paths for your Box migration while using Migration Manager.
 ---
-# Step 4:   Review destination paths
+# Preview - Step 4:   Review destination paths
+
+>[!Important]
+> This feature is currently in private preview and subject to change without notice.
+
 
 In this step, you are reviewing the destination paths, and making sure they are correct. An account cannot be migrated without a destination indicated.  Once you migrate content to a destination it cannot be modifed.
 

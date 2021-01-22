@@ -18,7 +18,10 @@ search.appverid: MET150
 description: "Steps to connect to Box when using Migration Manager in the SharePoint Admin center."
 ---
 
-# Step 1:  Connect your Box account to Microsoft 365
+# Preview Step 1:  Connect your Box account to Microsoft 365
+
+>[!Important]
+> This feature is currently in private preview and subject to change without notice.
 
 Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
 

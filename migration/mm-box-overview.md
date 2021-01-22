@@ -19,7 +19,7 @@ description: Overview of migration from Box to Microsoft 365 using Migration Man
 
 # Preview:  Migrate Box to Microsoft 365 with Migration Manager
 
->[!Note]
+>[!Important]
 > This feature is currently in private preview and subject to change without notice.
 
 

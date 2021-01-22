@@ -17,7 +17,10 @@ search.appverid: MET150
 description: Step 5:  Map Box identities with Migration Manager. 
 ---
 
-# Step 5:  Map identities of Box accounts to Microsoft 365 accounts
+# Step 5:  Preview - Map identities of Box accounts to Microsoft 365 accounts
+
+>[!Important]
+> This feature is currently in private preview and subject to change without notice.
 
 Map your groups and users in Box to those in Mmicrosoft 365 to migrate your Box sharing settings.
 

@@ -17,7 +17,10 @@ search.appverid: MET150
 description: Step 2:  Scan and assess Box users using Migration Manager.
 ---
 
-# Step 2:  Scan and assess Box users
+# Preview - Step 2:  Scan and assess Box users
+
+>[!Important]
+> This feature is currently in private preview and subject to change without notice.
 
 Box users are scanned automatically for you. Once the scans are complete, download the generated reports and logs to investigate any possible issues that might block your migration.
 
@@ -35,19 +38,7 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 
 3. Once the scan is complete, select **Download scan log** from the menu bar, to troubleshoot any issues.
 
-4. After you have determined a user is ready, and the scan status is complete, highlight the row, and then select **Copy to Migrations.**  Review the users listed, and then select **Copy to migrations**.
-
-![Box copy to migrations confirm](media/mm-box-copy-migrations-confirm.png)
-
- You can also select multiple users.
-
-![Box copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
-
-
-5. Click the Migrations tab, and proceed to the next step.
-
-![Migrations tab](media/mm-box-migration-tab.png)
-
+4.
 
 
 
