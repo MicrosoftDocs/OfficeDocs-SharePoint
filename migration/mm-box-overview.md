@@ -16,7 +16,7 @@ ms.collection:
 search.appverid: MET150
 description: Overview of migration from Box to Microsoft 365 using Migration Manager.
 ---
->!Note]
+>[!Note]
 > This feature and corresponding documentation is currently in public preview and subject to change without notice.
 
 # Migrate Box to Microsoft 365 with Migration Manager
