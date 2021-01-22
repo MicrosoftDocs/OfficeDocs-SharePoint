@@ -93,11 +93,13 @@ Common methods of organizing navigational design:
 
 **Modern navigation**
 
-![Modern navigation](media/modern_nav.png)
+> [!div class="mx-imgBorder"]
+> ![Modern navigation](media/modern_nav.png)
 
 **Classic navigation**
 
-![Classic navigation](media/classic_nav.png)
+> [!div class="mx-imgBorder"]
+> ![Classic navigation](media/classic_nav.png)
 
 Your intranet is an ever-evolving component of your business that will need to grow and scale alongside your organization. Modern intranet navigation differs from classic navigation in the sense that it is “flat” -- in the modern SharePoint experience, sub-sites are not recommended. In the new “flat” world of modern SharePoint, plan to create one site for each discrete topic or unit of work. Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain.
 
@@ -116,7 +118,8 @@ Moving to modern navigation from classic SharePoint navigation is a process that
 
 ### Scenario 2: Consider modern hub navigation configuration
 
-![Modern hub navigation](media/modern_nav_example.png)
+> [!div class="mx-imgBorder"]
+> ![Modern hub navigation](media/modern_nav_example.png)
 
 These are special considerations for planning hub navigation. A site can be:
 
