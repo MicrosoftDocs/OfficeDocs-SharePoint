@@ -36,3 +36,5 @@ Sign in to your Box account and add the Microsoft 365 migration app to your Box 
 9. Sign in to grant access to Box. Select **Authorize** and then **Grant access to Box**.
 10. You're now connected to Box. Click **Finish** to close the window.
 
+>[!Important]
+>For security reasons, you have 10 minutes to complete the steps to connect to Box. After 10 minutes of inactivity, the session will expire.
