@@ -4,13 +4,14 @@
 ### [Step 1. Set up migration agents](mm-setup-clients.md)
 ### [Step 2. Create tasks](mm-how-to-use.md)
 ### [Step 3. Monitor and report](mm-reports.md)
-## Box migration
+## Box migration (Migration Manager)
 ### [Overview](mm-box-overview.md)
 ### [Step 1: Connect to Box](mm-box-step1-connect.md)
 ### [Step 2: Discover and scan users](mm-box-step2-scan-assess.md)
 ### [Step 3: Copy to migration](mm-box-step3-copy-to-migrations.md)
-### [Bulk upload destinations](mm-box-bulk-upload-destinations.md)
-### [Map Box identities](mm-box-map-identities.md)
+### [Step 4: Bulk upload destinations](mm-box-bulk-upload-destinations.md)
+### [Step 5: Map Box identities](mm-box-map-identities.md)
+### [Step 6: Migrate and monitor](mm-)
 ### [Disconnect from Box](mm-box-disconnect.md)
 ### [Box migration reporting](mm-box-reports.md)
 ### Migration Manager reference
