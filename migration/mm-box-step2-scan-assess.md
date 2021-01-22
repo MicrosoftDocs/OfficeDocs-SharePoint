@@ -44,7 +44,9 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 ![Box copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
 
 
-5. Click the Migrations tab.
+5. Click the Migrations tab, and proceed to the next step.
+
+![Migrations tab](media/mm-box-migration-tab.png)
 
 
 
