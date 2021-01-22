@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Scan and assess Box users using Migration Manager"
+title: "Step 2: Scan and assess Box accounts using Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
