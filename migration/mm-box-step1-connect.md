@@ -27,7 +27,7 @@ Sign in to your Box account and add the Microsoft 365 migration app to your Box 
 
 1. From the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), under **Box**, select **Get started**.
 2. Select **Connect to Box**. 
-3. Select **Authorize Mover**. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.  This step uses your Microsoft credentials to connect Mover to your co-admin Box account.  Click **Next**.
+3. Select **Authorize Mover**. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization. Click **Next**.
 4. Select **Go to Enterprise applications**. This takes you to Azure.
 
 ![Enterprise applications in Azure](media/mm-box-enterprise-app.png)
