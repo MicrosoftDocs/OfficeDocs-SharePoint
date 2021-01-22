@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Step 2:  Scan and assess Box users using Migration Manager.
+description: "Step 2:  Scan and assess Box users using Migration Manager."
 ---
 
 # Preview - Step 2:  Scan and assess Box users

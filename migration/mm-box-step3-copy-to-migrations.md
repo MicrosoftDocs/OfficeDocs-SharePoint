@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 - SPMigration
 search.appverid: MET150
-description: Step 3: Copy to migrations using Migration Manager.
+description: "Step 3: Copy to migrations using Migration Manager."
 ---
 
 # Preview - Step 3: Copy to migrations 
