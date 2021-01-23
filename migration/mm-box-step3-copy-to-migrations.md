@@ -45,6 +45,6 @@ description: "Step 3: Copy to migrations using Migration Manager."
 ![Migrations tab](media/mm-box-migration-tab.png)
 
 
-
+[Step 4: Review destinations](mm-box-step4-review-destinations.md)
 
 
