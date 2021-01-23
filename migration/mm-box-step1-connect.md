@@ -29,10 +29,7 @@ Sign in to your Box account and add the Microsoft 365 migration app to your Box 
 2. Select **Connect to Box**. 
 3. Select **Authorize Mover**. Sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization. Click **Next**.
 4. Select **Go to Enterprise applications**. This takes you to Azure.
-
-![Enterprise applications in Azure](media/mm-box-enterprise-app.png)
-
-5. Select the **Microsoft 365 migration app**.
+5. Select the **Office 365 migration app**.
 6. On the left hand panel under Security, select **Permissions**.
 7. Click **Grant admin consent** for your account. You may be prompted for your credentials again. Return to the Migration Manager wizard screen.  Click **Next**.
 8. Click **Authenticate account**. 
