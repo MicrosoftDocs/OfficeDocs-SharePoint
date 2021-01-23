@@ -57,3 +57,6 @@ Upload your own users and groups mappings using the M
 
 >[!Important]
 >Make sure to verify your mappings before uploading the file.  The file will not be validated, and once migration cannot be changed.
+
+
+[Step 6: Migrate and monitor](mm-box-step6-migrate-monitor.md)
