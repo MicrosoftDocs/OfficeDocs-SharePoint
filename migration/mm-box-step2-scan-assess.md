@@ -39,6 +39,6 @@ A table summary appears at the top to give you an at-a-glance overview of your u
 3. Once the scan is complete, select **Download scan log** from the menu bar, to troubleshoot any issues. The file will be available from your task bar or downloads folder: **Scan task report.csv**
 
 
-
+[Step 3: Copy to migrations](mm-box-step3-copy-to-migrations.md)
 
 

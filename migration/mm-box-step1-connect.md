@@ -41,3 +41,5 @@ Sign in to your Box account and add the Microsoft 365 migration app to your Box 
 
 >[!Important]
 >For security reasons, you have 10 minutes to complete the steps to connect to Box. After 10 minutes of inactivity, the session will expire.
+
+[Step 2: Scan and assess](mm-box-step2-scan-assess.md)
