@@ -28,7 +28,25 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.121.1](https://aka.ms/spmt-beta-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.121.2](https://aka.ms/spmt-beta-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|
+
+## SPMT 3.4.121.2
+
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|Government Cloud configuration|The configuration value of DoD has been changed from 2 to 3.  DoD customers must change the value of *SPOEnvironmentType* to 3. The value for GCC high is still 2.|
+|OneNote setting deprecated|The setting *Migrate OneNote folder as OneNote notebook* has been deprecated. SPMT will now always migrate OneNote folders to the destination as OneNote Notebooks. Discontinue the use of *MigrateOneNoteFolderAsOneNoteNoteBook* in powershell.
+
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
+
+
 
 ## SPMT 3.4.121.1
 

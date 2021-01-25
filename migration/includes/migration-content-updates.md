@@ -2,6 +2,33 @@
 
 
 
+## Week of January 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/22/2021 | [Migrate your files to Microsoft 365 with Migration Manager](/SharepointMigration/mm-get-started) | modified |
+| 1/22/2021 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
+| 1/21/2021 | [Available settings in SharePoint Migration Tool](/SharepointMigration/spmt-settings) | modified |
+| 1/21/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 1/21/2021 | [Troubleshooting SPMT installation issues](/SharepointMigration/spmt-install-issues) | modified |
+
+
+## Week of January 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/12/2021 | [Migrate content to OneDrive in Microsoft 365](/SharepointMigration/migrating-content-to-onedrive-for-business) | modified |
+| 1/12/2021 | [Migrating web parts using the Migration API](/SharepointMigration/migration-web-parts-migrationapi) | modified |
+| 1/12/2021 | [Migrate from My Sites to OneDrive in Office 365](/SharepointMigration/mysites-to-onedrive-migration-guide) | modified |
+| 1/12/2021 | [Troubleshooting Migration Manager](/SharepointMigration/mm-troubleshoot) | modified |
+| 1/12/2021 | [Use PowerShell cmdlets to migrate on-premises content - SharePoint](/SharepointMigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets) | modified |
+| 1/13/2021 | [Box to OneDrive Migration Guide](/SharepointMigration/box-to-onedrive-and-sharepoint-migration-guide) | modified |
+| 1/13/2021 | [Migrate file shares to SharePoint and OneDrive](/SharepointMigration/fileshare-to-odsp-migration-guide) | modified |
+| 1/13/2021 | [SharePoint Migration Assessment Tool](/SharepointMigration/overview-of-the-sharepoint-migration-assessment-tool) | modified |
+
+
 ## Week of January 04, 2021
 
 

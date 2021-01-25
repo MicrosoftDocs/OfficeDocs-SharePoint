@@ -3,7 +3,7 @@ title: "Set up a new group for term sets"
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: End User
 f1.keywords: NOCSH
 ms.topic: article

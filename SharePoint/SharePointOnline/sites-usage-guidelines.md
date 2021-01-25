@@ -3,7 +3,7 @@ title: Create guidelines for site usage
 ms.reviewer: 
 description: Checklist to help guide users to create their SharePoint site usage guidance.
 author: jhendr
-manager: pamgreen
+manager: serdars
 ms.assetid: 
 ms.service: sharepoint-online
 ms.tgt_pltfrm: na
@@ -22,7 +22,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 [Download the PDF](https://github.com/MicrosoftDocs/OfficeDocs-SharePoint/raw/live/SharePoint/SharePointOnline/spodownloads/Sites-Usage-Guidelines-template.pdf)
 
 
-## ![Alt image text](media/map.png "A map") Introduction
+## ![Introduction - map](media/map.png "A map") Introduction
 **Guidance:**</br>
 - Provide a short introduction to frame your guidelines. If you have broader business or digital resource use policy, link to it if it applies to SharePoint sites as well.
 
@@ -31,7 +31,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 
 
  
-## ![Alt image text](media/document.png "Guidelines") General guidelines
+## ![Document listing guidelines](media/document.png "Guidelines") General guidelines
 **Guidance:**</br> 
 - Provide general policy statements that you want your users to follow. These may include key business uses you have defined for sites, internal communication policies, or security and privacy guidelines.
 
@@ -43,7 +43,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 *Here are some things to keep in mind as you work with your SharePoint sites. Refer to [**insert your organization's name**] business resource use policy. These policies apply to all SharePoint site usage.*
 
  
-## ![Alt image text](media/subsite.png "Site")  Guidelines for creating your site
+## ![Subsite creation guidelines](media/subsite.png "Site")  Guidelines for creating your site
 
 **Guidance:**</br>
 - Provide basic procedural guidance. How does someone get a SharePoint site? It may be via the "Create site" link on the SharePoint start page or you may have a unique provisioning process for your organization.  
@@ -65,7 +65,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 *When you set up your site, it's important to select the appropriate site classification level. [**Insert link to your organization's data classification guidelines**].*
 
  
-## ![Alt image text](media/navigation.png "Site design")  Your site designs and customizations
+## ![Navigation through designs and customizations](media/navigation.png "Site design")  Your site designs and customizations
 
 **Guidance:**</br>
 - Provide information on design guidelines. Does your organization have or allow custom themes? Or do you stick with out-of-the-box options?
@@ -83,7 +83,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 *It's important that your site meet your business needs. If you need to create a custom add-in or deploy a resource-intensive app, work with our internal team. For more information, contact [**insert information on how to contact your IT team**].*
 
  
-## ![Alt image text](media/sharing.png "Sharing") Sharing guidelines
+## ![Sharing the guidelines](media/sharing.png "Sharing") Sharing guidelines
 
 **Guidance:**</br>
 - Provide information on the way your organization has set up sharing. If you have modified the settings from the defaults, you can tell your site owners what the sharing settings are for your organization, including for external sharing. 
@@ -98,7 +98,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 *As site owner, you will receive access requests when someone shares your site. You can approve or decline any requests sent to you.*
 
  
-## ![Alt image text](media/capacity.png "Capacity")  Capacity guidelines 
+## ![Guidelines related to storage capacity](media/capacity.png "Capacity")  Capacity guidelines 
 
 **Guidance:** </br>
 - Provide information on the site storage guidelines or limits (if you manage them manually). Tell site owners if you have a process and policy for requesting more.
@@ -110,7 +110,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 *Your site allows for _____ MB/GB of storage. You're encouraged to remove files and content you don't need anymore.*
 
  
-## ![Alt image text](media/secure.png "Access")   Managing access
+## ![Securing access](media/secure.png "Access")   Managing access
 
 **Guidance:**</br>
 - Provide detailed information on site access. What are your processes and policies for managing site access? What level of control do your site owners have? If you manage access on behalf of your site owners, let them know that you will be reviewing site permissions regularly to keep them in line with your organization's policies. Explain how you will communicate changes to permissions to them.
@@ -122,7 +122,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 *Plan to review your site's permissions on a regular basis and set the level of access appropriately.*
 
 
-## ![Alt image text](media/policy.png "Policy")   Site lifecycle policy
+## ![Policy of site lifecycle](media/policy.png "Policy")   Site lifecycle policy
 
 **Guidance:**</br>
 - Provide your organization's lifecycle policy for sites. Does your organization set site expirations automatically or with a managed process? Do you set Microsoft 365 Group expiration policies that impact SharePoint team sites? Let your site owners know when their site will expire, how they will be notified, what will happen and what they need to do to extend their site.

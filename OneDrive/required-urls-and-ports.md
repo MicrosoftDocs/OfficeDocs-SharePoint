@@ -3,7 +3,7 @@ title: "Required URLs and ports for OneDrive consumer"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 ms.date: 04/3/2018
 audience: Admin
 f1.keywords:

@@ -3,7 +3,7 @@ title: "Enable the communication site experience on classic team sites"
 ms.reviewer: dipadur
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
@@ -70,7 +70,7 @@ For more info about this cmdlet, see [Enable-SPOCommSite](/powershell/module/sha
 
 ### Site admin instructions
 
-1. [Learn how to use SharePoint PnP PowerShell commands](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps).
+1. [Learn how to use SharePoint PnP PowerShell commands](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps&preserve-view=true).
 2. In Windows 10, run the following commands in PowerShell:
 
     ```PowerShell

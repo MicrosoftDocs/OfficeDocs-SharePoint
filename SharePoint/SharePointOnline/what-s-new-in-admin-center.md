@@ -3,7 +3,7 @@ title: "What's new in the SharePoint admin center"
 ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

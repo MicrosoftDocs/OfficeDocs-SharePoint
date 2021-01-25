@@ -3,7 +3,7 @@ title: "Enable conditional access support in the OneDrive sync app"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
