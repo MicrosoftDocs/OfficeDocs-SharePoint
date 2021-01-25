@@ -1,25 +1,25 @@
 ---
-title: "Sensitivity labels Migration API"
+title: "Sensitivity labels and the SharePoint Migration API"
 ms.date: 01/25/2021
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 search.appverid: MET150
-description: "Best practices for applying sensitivity labels when using the Migration API."
+description: "Sensitivity labels and the SharePoint Migration API."
 localization_priority: Priority
 ms.service: sharepoint-online
 ---
 
-# Applying Sensitivity Labels before using the Migration API
+# Sensitivity Labels and the SharePoint Migration API
 
-If you want to have sensitivity labels applied to the content you are migrating to Microsoft 365, it must be done before running the Migration API. There is not a parameter in the API to apply sensitivity labels on files.
+If you want to have sensitivity labels applied to the content you are migrating to Microsoft 365, apply them before running the Migration API. There is currently not a parameter in the API to apply sensitivity labels on files.
 
 At this time, a compliance label is the only label you can apply using the Migration API.
 
 **Step 1:**  
 Before you migrate your content with the Migration API, become familiar with how sensitivity labels work in Microsoft 365 and learn about the Microsoft Information Protection (MIP) SDK:
 
-- [Enable senstivity labels for Offices files in SharePoint and OneDrive](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide)
+- [Enable sensitivity labels for Offices files in SharePoint and OneDrive](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide)
 - [Microsoft Information Protection SDK](https://docs.microsoft.com/information-protection/develop/overview)
 <br>
 
