@@ -12,10 +12,10 @@ ms.service: sharepoint-online
 
 # Sensitivity Labels and the SharePoint Migration API
 
-Sensitivity labels cannot be applied to files and folders using the SharePoint Migration API.  If you want to have sensitivity labels applied to your content being migrated to Microsoft 365, we recommend using the Microsoft Information Protection (MIP) SDK.  There currnently isn't a parameter in the API to apply sensitivity labels to files.
+Sensitivity labels cannot be applied to files and folders using the SharePoint Migration API.  If you want to have sensitivity labels applied to your content being migrated to Microsoft 365, we recommend using the Microsoft Information Protection (MIP) SDK.  There currently isn't a parameter in the API to apply sensitivity labels to files.
 
 **Step 1:**  
-Before your migrate your content with the Migration API, become familiar with how sensitivity labels work in Microsoft 365 and learn about the Microsoft Information Protection (MIP) SDK:
+Before you migrate your content with the Migration API, become familiar with how sensitivity labels work in Microsoft 365 and learn about the Microsoft Information Protection (MIP) SDK:
 
 - [Enable sensitivity labels for Offices files in SharePoint and OneDrive](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide)
 - [Microsoft Information Protection SDK](https://docs.microsoft.com/information-protection/develop/overview)
