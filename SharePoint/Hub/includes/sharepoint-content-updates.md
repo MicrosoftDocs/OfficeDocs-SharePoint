@@ -2,6 +2,36 @@
 
 
 
+## Week of January 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/22/2021 | [Branding your SharePoint site](/SharePoint/branding-sharepoint-online-sites-modern-experience) | modified |
+| 1/22/2021 | [Information architecture models and examples](/SharePoint/information-architecture-models-examples) | modified |
+| 1/22/2021 | [Plan and implement SharePoint site navigation](/SharePoint/plan-navigation-modern-experience) | modified |
+| 1/22/2021 | [Creating and launching a healthy SharePoint portal](/SharePoint/portal-health) | modified |
+| 1/22/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration-preview) | modified |
+| 1/19/2021 | [Secure external sharing in SharePoint](/SharePoint/what-s-new-in-sharing-in-targeted-release) | modified |
+| 1/21/2021 | [Report on sharing](/SharePoint/sharing-reports) | modified |
+| 1/19/2021 | [Request app installation permissions](/SharePoint/request-app-installation-permissions) | modified |
+| 1/19/2021 | [Security considerations of allowing custom script](/SharePoint/security-considerations-of-allowing-custom-script) | modified |
+| 1/19/2021 | [Variations overview in SharePoint Server](/SharePoint/administration/variations-overview) | modified |
+| 1/21/2021 | [Hardware and software requirements for SharePoint 2013](/SharePoint/install/hardware-and-software-requirements-0) | modified |
+
+
+## Week of December 14, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/15/2020 | [Manage query rules](/SharePoint/manage-query-rules) | modified |
+| 12/15/2020 | [Move all databases in SharePoint Server](/SharePoint/administration/move-all-databases) | modified |
+| 12/16/2020 | [Use app-enforced restrictions](/SharePoint/app-enforced-restrictions) | modified |
+| 12/16/2020 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 12/18/2020 | [What's new in the SharePoint admin center](/SharePoint/what-s-new-in-admin-center) | modified |
+
+
 ## Week of January 11, 2021
 
 
@@ -66,7 +96,6 @@
 | 1/13/2021 | [Find site collection features in the new SharePoint admin center](/SharePoint/site-collections-page) | modified |
 | 1/13/2021 | [Distribute business apps using the App Catalog - SharePoint](/SharePoint/use-app-catalog) | modified |
 | 1/13/2021 | [What's new in the SharePoint admin center](/SharePoint/what-s-new-in-admin-center) | modified |
-| 1/15/2021 | [Create an information barriers policy compliance report](/SharePoint/info-barriers-report) | added |
 | 1/15/2021 | [Add columns to a content type](/SharePoint/add-columns-content-type) | modified |
 | 1/15/2021 | [Assign roles and permissions to manage term sets](/SharePoint/assign-roles-and-permissions-to-manage-term-sets) | modified |
 | 1/15/2021 | [Change the default sharing link for a site](/SharePoint/change-default-sharing-link) | modified |
@@ -98,6 +127,13 @@
 | 1/15/2021 | [What is permissions inheritance?](/SharePoint/what-is-permissions-inheritance) | modified |
 
 
+## Week of December 21, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+
+
 ## Week of January 04, 2021
 
 
@@ -114,20 +150,3 @@
 | 1/8/2021 | [Difference between classic & modern search experiences - SharePoint](/SharePoint/differences-classic-modern-search) | modified |
 | 1/8/2021 | [Add SharePoint Success Site content to your M365 Learning Pathways solution](/SharePoint/add-sss-cdn) | modified |
 | 1/8/2021 | [Find site collection features in the new SharePoint admin center](/SharePoint/site-collections-page) | modified |
-
-
-## Week of December 28, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/28/2020 | [Intelligent intranet overview](/SharePoint/intelligent-internet-overview) | modified |
-| 12/29/2020 | [Use SharePoint as a business-to-business (B2B) extranet solution](/SharePoint/create-b2b-extranet) | modified |
-
-
-## Week of December 21, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/21/2020 | [Intelligent intranet overview](/SharePoint/intelligent-internet-overview) | added |
