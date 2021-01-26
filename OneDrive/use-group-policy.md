@@ -1,5 +1,5 @@
 ---
-title: "Use Group Policy to control OneDrive sync settings"
+title: "Use OneDrive policies to control sync settings"
 ms.reviewer: gacarini
 ms.author: kaarins
 author: kaarins
@@ -26,7 +26,7 @@ ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
 description: "In this article, you'll learn about the OneDrive Group Policy objects (GPOs) and how to configure the OneDrive sync app by using Group Policy."
 ---
 
-# Use Group Policy to control OneDrive sync settings
+# Use OneDrive policies to control sync settings
 
 This article describes the OneDrive Group Policy objects (GPOs) that admins can configure by using Group Policy or by using [administrative templates in Microsoft Intune](configure-sync-intune.md). You can use the registry key info in this article to confirm that a setting is enabled.
   
@@ -92,6 +92,8 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 - [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
  
 - [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
+
+- [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
 
 - [Limit the sync app download speed to a fixed rate](use-group-policy.md#limit-the-sync-app-download-speed-to-a-fixed-rate)
 
@@ -259,11 +261,21 @@ Enabling this policy creates a list of strings under the following path:
 `HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreListFromGPO`
 
 > [!NOTE]
-> This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also with this setting, users don't see errors for the excluded files.
+> This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also with this setting, users don't see errors for the excluded files. <br> This setting does not support excluding Office files from being uploaded. All other file types are supported.
 
-> [!NOTE]
-> This setting does not support excluding Office files from being uploaded. All other file types are supported.
-  
+### Hide the "Deleted files are removed everywhere" reminder
+
+When a user deletes local files from a synced location, a warning message appears that the files will no longer be available across all the user's devices and on the web. This setting lets you hide the warning message. 
+
+![The "Deleted files are removed everywhere" warning message](media/deleted-files-removed-everywhere.png)
+
+If you enable this setting, users won't see the "Deleted files are removed everywhere" reminder when they delete files locally.
+
+If you disable or do not configure this setting, the reminder will appear until users select "Don't show this reminder again."
+
+Enabling this policy sets the following registry key value to 1:
+`HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFirstDeleteDialog ="dword:00000001"`
+
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
 
