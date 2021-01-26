@@ -269,7 +269,7 @@ When a user deletes local files from a synced location, a warning message appear
 
 ![The "Deleted files are removed everywhere" warning message](media/deleted-files-removed-everywhere.png)
 
-If you enable this setting, users won't see the "Deleted files are removed everywhere" reminder when they delete files locally.
+If you enable this setting, users won't see the "Deleted files are removed everywhere" reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
 
 If you disable or do not configure this setting, the reminder will appear until users select "Don't show this reminder again."
 
