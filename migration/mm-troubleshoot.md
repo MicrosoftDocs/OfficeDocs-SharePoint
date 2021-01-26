@@ -20,7 +20,7 @@ description: "Troubleshoot common errors in Migration Manager."
 ---
 # Troubleshoot Migration Manager issues and errors
 
-This article describes issues and errors you may encounter when using Migration Manager and how to resolve them.
+This article describes how to resolve issues and errors you may experience when using Migration Manager.
 
 - [Prerequisites and settings](#check-prerequisites-and-settings)
 - [Agent error messages](#agent-error-messages)
@@ -49,7 +49,8 @@ Make sure you have met the prerequisites for agent installation, and have review
 ## Agent error messages
 |Message|Action|
 |-----|-----|
-|*Current user does not have access to source file share*|Make sure the source file share is a network file share. Confirm that the Windows account associated with the agent has read permissions to the file share you want to migrate.|
+|*Migration agent could not be installed. Close setup and try again.*|You may be using an out-of-date version of the agent setup file to install the agent. See [Agent installation failure](#agent-installation-failure) below for more information.|
+|*Current user does not have access to source file share*|Make sure the source file share is a network file share. Verify that the Windows account associated with the agent has read permissions to the file share you want to migrate.|
 |*The source file share does not exist*|Make sure the source file share is an existing network file share. Confirm that the Windows account associated with the agent has read permissions to the file share you want to migrate.|
 
 ##  Destination site URL issues
@@ -65,7 +66,7 @@ Make sure you have met the prerequisites for agent installation, and have review
 |**Message**|**Recommended action**|
 |-----|-----|
 |*Invalid source folder*|Confirm the path you entered is correct and follows the proper format</br></br>Confirm you have read access to the folder.|
-|*The site cannot be created or updated*|Confirm that you have permissions to create the site and that the URL is valid</br></br>If the site exists, confirm you are the site collection administrator</br></br>If it still fails, create the site manually and point the migration tool to this newly created site.|
+|*The site cannot be created or updated*|Make sure that you have permissions to create the site and that the URL is valid</br></br>If the site exists, confirm you are the site collection administrator</br></br>If it still fails, create the site manually and point the migration tool to this newly created site.|
 |*Scan file failure: The folder name is invalid*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)|
 |*Scan file failure: Target path is too long*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)   </br></br></br>The entire path, including the file name, must contain fewer than 400 characters for OneDrive and SharePoint.|
 |*Scan File Failure: Not enough disk space to pack the file*|The disk space available for the migration working folder is too small for the size of your source file.  Enlarge your size of your working folder try again.
@@ -78,7 +79,25 @@ Make sure you have met the prerequisites for agent installation, and have review
 
 ## Agent installation failure
 
- **Issue:**  The migration agent doesn't install successfully, or the clientsetup.exe cannot be opened.
+ **Issue:** The migration agent fails to install when using an old version of agent setup file to install agent.
+
+![Screen agent installation failure](media/mm-agent-install-failure-old-setup.png)
+
+
+**Diagnosis / Investigation**
+
+The problem could be caused by an outdated *clientsetup.exe* file.
+
+**Mitigation**
+
+1. Go to the [Migration Manager page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migrationCenter&modern), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+2. Select **Download agent setup file**.
+3. Run the *clientsetup.exe* file on the computer or VM where you want to install the agent. Follow the instructions to complete the agent installation.
+
+
+
+
+**Issue:**  The migration agent doesn't install successfully, or the clientsetup.exe cannot be opened.
 
 Example: 
 
@@ -88,7 +107,7 @@ Example:
 
 If the *clientsetup.exe* cannot be opened:
 
-- Sign in to Windows as Administrator, or provide the Administrator username and password upon opening the application.  The Administrator account should already be added to the domain.
+- Sign in to Windows as Administrator, or provide the Administrator username and password upon opening the application. The Administrator account should already be added to the domain.
 
 If errors occurred during installation process:
 
