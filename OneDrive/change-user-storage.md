@@ -67,7 +67,7 @@ For any user that reaches at least 90% capacity of their 25 TB of OneDrive stora
 Admins can [open a case with Microsoft technical support](https://go.microsoft.com/fwlink/?linkid=869559) to request storage beyond 5 TB.
     
     
-## Set the default OneDrive storage space using PowerShell
+## Change the storage space for a specific user’s OneDrive using PowerShell.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
