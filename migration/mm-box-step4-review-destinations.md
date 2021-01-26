@@ -24,13 +24,12 @@ description: Review your destination paths for your Box migration while using Mi
 In this step, you are reviewing the destination paths of the accounts you have move to the migrations list, and making sure they are correct. An account cannot be migrated without a destination indicated and once you migrate content to a destination it cannot be modified.
 
 ## Single destination edit
-
-If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, click **Edit.**  you will be given the option of selecting a OneDrive, SharePoint, or Teams path as a destination.
+If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit.**.  You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.
 
 
 ### OneDrive
 
-1. Highlight the row. Under **Destination**, click **Edit.**
+1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
 ![edit OD destination path](media/mm-box-select-od-destination.png)
@@ -39,12 +38,12 @@ If a destination is missing, highlight the row. A panel will appear to the right
 
 ![select OneDrive folder path](media/mm-box-destination-folder-onedrive.png)
 
-4. Click **Save path**.
+4. Select **Save path**.
 
 
 ###  SharePoint
 
-1. Highlight the row. Under **Destination**, click **Edit.**
+1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
 ![edit SP destination path](media/mm-box-sp-destination-path.png)
@@ -52,14 +51,14 @@ If a destination is missing, highlight the row. A panel will appear to the right
 3. Select a location where you want to move the content.
 
 ![select SP library path](media/mm-box-sharepoint-destination-folder.png)
-4. Click **Save path**.
+4. Select **Save path**.
 
 
 
 ### Teams
 
 
-1. Highlight the row. Under **Destination**, click **Edit.**
+1. Highlight the row. Under **Destination**, select **Edit.**
 2. Select **OneDrive** as a destination.
 
 ![select teams destination](media/mm-box-teams-destination-path.png)
@@ -68,7 +67,7 @@ If a destination is missing, highlight the row. A panel will appear to the right
 
 ![select teams channel](media/mm-box-teams-destination-channel.png)
 
-4. Click **Save path**.
+4. Select **Save path**.
 
 
 ## Upload destinations using a CSV file
@@ -80,7 +79,7 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 
 1. From the Migrations tab, select **Upload destinations** from the menu bar.
 2. Select the file to upload with your destinations.
-4. Click **Save**.  
+4. Select **Save**.  
 
 
 >[!Important]
