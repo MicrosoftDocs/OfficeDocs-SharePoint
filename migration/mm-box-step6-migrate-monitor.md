@@ -21,7 +21,7 @@ description: "Step 6: Migrate and monitor Box migration"
 >[!Important]
 > This feature is currently in private preview and subject to change without notice.
 
-After you have reviewed the accounts, the destinations, mappings, you are ready to migrate.
+After you have reviewed the accounts, confirmed the destinations, correctly mapped identities, you are ready to migrate.
 
 1. Select the accounts to migrate.
 
