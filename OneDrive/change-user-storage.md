@@ -65,3 +65,59 @@ When a user has filled their 5 TB of OneDrive storage to at least 90% capacity, 
 For any user that reaches at least 90% capacity of their 25 TB of OneDrive storage, additional cloud storage will be provided as 25 TB SharePoint team sites to individual users. Contact Microsoft technical support for information and assistance.
 
 Admins can [open a case with Microsoft technical support](https://go.microsoft.com/fwlink/?linkid=869559) to request storage beyond 5 TB.
+    
+    
+## Set the default OneDrive storage space using PowerShell
+
+1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+
+    > [!NOTE]
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+
+2. Save the following text to a PowerShell file. For example, you could save it to a file named UpdateOneDriveStorage.ps1.
+    
+```PowerShell
+$TenantUrl = Read-Host "Enter the SharePoint admin center URL" 
+Connect-SPOService -Url $TenantUrl 
+ 
+$OneDriveSite = Read-Host "Enter the OneDrive Site URL" 
+$OneDriveStorageQuota = Read-Host "Enter the OneDrive Storage Quota in MB" 
+$OneDriveStorageQuotaWarningLevel = Read-Host "Enter the OneDrive Storage Quota Warning Level in MB" 
+Set-SPOSite -Identity $OneDriveSite -StorageQuota $OneDriveStorageQuota -StorageQuotaWarningLevel $OneDriveStorageQuotaWarningLevel 
+Write-Host "Done" 
+```
+
+3. Open the SharePoint Online Management Shell. Navigate to the directory where the script has been saved and run:
+
+```PowerShell
+PS C:\>.\ UpdateOneDriveStorage.ps1
+```
+
+> [!NOTE]
+    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For more info about PowerShell execution policies, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255).
+    
+
+4. The script will prompt you for the SharePoint admin center URL. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint admin center URL.
+
+5. You will then be prompted to sign in. Use a SharePoint admin or global admin account.
+
+6. You will then be prompted for the OneDrive site URL: For example, https://contoso-my.sharepoint.com/personal/user_contoso_onmicrosoft_com. 
+
+7.	You will then be prompted for OneDrive Storage Quota which should be entered in Megabytes.
+
+8.	You will then be prompted for OneDrive Storage Quota Warning Level which should be entered in Megabytes.
+MB | TB
+------------ | -------------
+1024000 | 1
+2048000 | 2
+3072000 | 3
+4096000 | 4
+5120000 | 5
+6144000 | 6
+7168000 | 7
+8192000 | 8
+9216000 | 9
+1024000 | 10
+
+> [!NOTE]
+> If you want to change the storage space for multiple users, you can use PowerShell to [Display a list of OneDrive accounts by using PowerShell](https://docs.microsoft.com/en-us/onedrive/list-onedrive-urls) and use [Set-SPOSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps) to make the change. To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles).
