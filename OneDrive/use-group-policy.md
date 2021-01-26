@@ -241,7 +241,7 @@ Enabling this policy sets the following registry key value to 1:
 
 ### Exclude specific kinds of files from being uploaded
 
-This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case sensitive. 
+This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case-sensitive. 
 
 If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In File Explorer, the files appear with an "Excluded from sync" icon in the Status column. The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
 
@@ -418,7 +418,7 @@ Enabling this policy sets the following registry key value to a number from 0 th
 
 This setting makes users confirm that they want to delete files in the cloud when they delete a large number of synced files.
 
-If you enable this setting, a warning always appears when users delete a large number of synced files. If a user does not confirm a delete operation within 7 days, the files are not deleted.
+If you enable this setting, a warning always appears when users delete a large number of synced files. If a user doesn't confirm a delete operation within seven days, the files are not deleted.
 
 If you disable or do not configure this setting, users can choose to hide the warning, and always delete files in the cloud.
 
@@ -429,7 +429,7 @@ Enabling this policy sets the following registry key value to 1:
 ### Set the maximum size of a user's OneDrive that can download automatically
 <a name="DiskSpaceCheckThresholdMB"> </a>
 
-This setting is used in conjunction with [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials) on devices that don't have OneDrive Files On-Demand enabled. Any user who has a OneDrive that's larger than the specified threshold (in MB) is prompted to choose the folders they want to sync before the OneDrive sync app (OneDrive.exe) downloads the files.
+This setting is used with [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials) on devices that don't have OneDrive Files On-Demand enabled. Any user who has a OneDrive that's larger than the specified threshold (in MB) is prompted to choose the folders they want to sync before the OneDrive sync app (OneDrive.exe) downloads the files.
   
 To enter the tenant ID and the maximum size in MB (from 0 to 4294967295), in the **Options** box, select **Show**. The default value is 500.
   
@@ -610,7 +610,7 @@ The special characters in this copied string are in Unicode and must be converte
 | %2F |   /   |
 | %2E |   .   |
 
-Alternatively, you can run the following in PowerShell, replacing "Copied String" with the library ID:
+Alternatively, you can run the following command in PowerShell, replacing "Copied String" with the library ID:
 
 ```powershell
 [uri]::UnescapeDataString("Copied String")
@@ -735,7 +735,7 @@ Enabling this policy sets the following registry key value to 1:
 ### Receive OneDrive sync app updates on the Deferred ring
 <a name="EnableEnterpriseUpdate"> </a>
 
-This setting lets you specify the Deferred ring for users in your organization. We release OneDrive sync app (OneDrive.exe) updates to the public through three rings— first to Insiders, then Production, and finally Deferred.
+This setting lets you specify the Deferred ring for users in your organization. We release OneDrive sync app (OneDrive.exe) updates to the public through three rings—first to Insiders, then Production, and finally Deferred.
 
 Selecting the Deferred ring gives you some extra time to prepare for updates, but means users must wait to receive the latest improvements. The Deferred ring also lets you deploy updates from an internal network location on your own schedule.
 
