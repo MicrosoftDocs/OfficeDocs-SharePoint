@@ -106,18 +106,19 @@ PS C:\>.\ UpdateOneDriveStorage.ps1
 7.	You will then be prompted for OneDrive Storage Quota which should be entered in Megabytes.
 
 8.	You will then be prompted for OneDrive Storage Quota Warning Level which should be entered in Megabytes.
-MB | TB
------------- | -------------
-1024000 | 1
-2048000 | 2
-3072000 | 3
-4096000 | 4
-5120000 | 5
-6144000 | 6
-7168000 | 7
-8192000 | 8
-9216000 | 9
-1024000 | 10
+
+| MB  | TB |
+| ------------- | ------------- |
+| 1024000  | 1  |
+| 2048000 | 2  |
+| 3072000  | 3  |
+| 4096000 | 4 |
+| 5120000 | 5 |
+| 6144000 | 6 |
+| 7168000 | 7 |
+| 8192000 | 8 |
+| 9216000 | 9 |
+| 1024000 | 10 |
 
 > [!NOTE]
 > If you want to change the storage space for multiple users, you can use PowerShell to [Display a list of OneDrive accounts by using PowerShell](https://docs.microsoft.com/en-us/onedrive/list-onedrive-urls) and use [Set-SPOSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps) to make the change. To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles).
