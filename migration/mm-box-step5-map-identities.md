@@ -22,11 +22,13 @@ description: "Step 5:  Map Box identities with Migration Manager."
 >[!Important]
 > This feature is currently in private preview and subject to change without notice.
 
-Map your groups and users in Box to those in Mmicrosoft 365 to migrate your Box sharing settings.
+Identity Mapping is matching--or "mapping" the user and group identities that have access to your source environment (in this case Box) and map those identities to Microsoft 365 user and group identities. This process is important to migration. If identities are not properly set up prior to migration, it can result in users losing access to content. It can also result in information being incorrect at the destination.
 
+
+Map your groups and users in Box to those in Microsoft 365 to migrate your Box sharing settings.
 
 1. Select the Migrations tab.
-2. Click Map identities on the menu bar.
+2. Select **Map identities** on the menu bar.
 
 ![Map box identities](media/mm-box-upload-destinations-bulk.png)
 </br>
@@ -52,7 +54,7 @@ Upload your own users and groups mappings using the M
 2. Download the mapping.csv template file, inserting your own mappings. You can name the .csv any name you wish.
 3. Click **Select file**.  Navigate to your mapping .csv file and select.
 4. Select **Save**.
-5. Click **Close**.
+5. Select **Close**.
 
 
 >[!Important]
