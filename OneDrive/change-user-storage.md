@@ -94,7 +94,7 @@ PS C:\>.\ UpdateOneDriveStorage.ps1
 ```
 
 > [!NOTE]
-    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For more info about PowerShell execution policies, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255).
+> If you get an error message about being unable to run scripts, you might need to change your execution policies. For more info about PowerShell execution policies, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255).
     
 
 4. The script will prompt you for the SharePoint admin center URL. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint admin center URL.
