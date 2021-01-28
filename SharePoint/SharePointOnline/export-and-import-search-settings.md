@@ -197,6 +197,6 @@ If managed properties or aliases contain any of the listed characters, the impor
 
 When you import search configuration files in tenant admin search settings page, you may encounter an issue that the **Search Config List** could not display properly and error is "File not found". This is a known issue and feature team is working on fixing it.
 
-This issue only blocks UI from displaying the list of search configuration file you imported and would not break the **Import** functionality. Your search configure will be imported properly.
+This issue only blocks UI from displaying the list of search configuration file you imported and would not break the **Import** functionality. Your search configuration will be imported properly.
 
 Since you are unable to check that status of search configuration file you imported from UI, you could choose alternative way to access the list, like [SharePoint CSOM API](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) or [SharePoint Online REST API](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints).
