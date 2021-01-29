@@ -79,11 +79,11 @@ Research has shown Pre-onboarding new hires, after they sign their acceptance le
 
 
 ## Step 1: Provision NEO sites
-The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **Microsoft 365 global admin** can start the provisioning process with a few steps. Each sites takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **site collection administrator** can start the provisioning process with a few steps. Each sites takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
 
 ### Prerequisites
-To successfully provision the NEO sites via the SharePoint look book, the person doing the provisioning must be a Global admin of the tenant where the NEO sites will be provisioned. If you have never provisioned a template from the Look book, [review overview guidance](https://docs.microsoft.com/sharepoint/add-sample-site). 
+To successfully provision the NEO sites via the SharePoint look book, the person doing the provisioning must be a site collection admin of the tenant where ta NEO site(s) will be provisioned. If you have never provisioned a template from the Look book, [review overview guidance](https://docs.microsoft.com/sharepoint/add-sample-site). 
 
 
 ### Provision the NEO sites
@@ -96,7 +96,7 @@ To successfully provision the NEO sites via the SharePoint look book, the person
   - Provision the Corporate onboarding site (will link to specific look book page)
   - Provision the Department onboarding site (will link to specific look book page)
 
-1.	Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Global admin credentials.
+1.	Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 
 1.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 
@@ -113,7 +113,7 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 
 ### Add owners to all sites
-As the Global admin, you may not be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
+As the site collection admin, you may not be the person customizing the sites, so you'll need to assign a few site owners to the sites. Owners have administrative privileges on the site so they can modify site pages, content, and branding. 
 
 
 1. Select **Share** in the right-hand corner of the site.
@@ -140,7 +140,7 @@ It’s important to make sure the right content is available to users at the rig
 
 
 > [!NOTE]
-> There are three NEO site templates that can be used alone or all together. Check with your tenant administrator to confirm which NEO sites were provisioned and are available for customizations.
+> There are three NEO site templates that can be used alone or all together. Check with your site collection administrator to confirm which NEO sites were provisioned and are available for customizations.
 
  
 1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
@@ -164,13 +164,13 @@ It’s important to make sure the right content is available to users at the rig
 
 2.	**Sign in** with your username and password.
 
-3.	Navigate to the location of the site using the URL supplied by your Global admin, or select SharePoint from the Microsoft 365 home page, and then select the site.
+3.	Navigate to the location of the site using the URL supplied by your site collection admin, or select SharePoint from the Microsoft 365 home page, and then select the site.
 
 
 
 ### Explore and review pre-populated content
 
- To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires. Check with your tenant administrator to confirm which NEO sites were provisioned and are available for customizations. 
+ To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires. Check with your site collection administrator to confirm which NEO sites were provisioned and are available for customizations. 
 
 - Review content in the [Pre-onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#pre-onboarding-site)
 - Review content in the [Corporate onboarding site](https://review.docs.microsoft.com/SharePoint/provision-neo-hub?branch=neo-overview#corporate-new-hire-site)
@@ -344,8 +344,8 @@ NEO sites should present the most up to date content your organization has to of
 <br>
 
 **Answer**:
-- SharePoint Online and Communication sites enabled.
-- The individual that will be provisioning CLO365 must be the Global admin of the target tenant for install.
+- SharePoint and communication sites enabled.
+- The individual that will be provisioning CLO365 must be the site collection administrator of the target tenant for install.
 
 **Question**: How long will it take to install the site in our tenant environment?
 <br>
