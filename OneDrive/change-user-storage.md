@@ -121,4 +121,4 @@ PS C:\>.\ UpdateOneDriveStorage.ps1
 | 1024000 | 10 |
 
 > [!NOTE]
-> If you want to change the storage space for multiple users, you can use PowerShell to [Display a list of OneDrive accounts by using PowerShell](https://docs.microsoft.com/en-us/onedrive/list-onedrive-urls) and use [Set-SPOSite](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps) to make the change. To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles).
+> If you want to change the storage space for multiple users, you can use PowerShell to [Display a list of OneDrive accounts by using PowerShell](https://docs.microsoft.com/onedrive/list-onedrive-urls) and use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps) to make the change. To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](https://docs.microsoft.com/sharepoint/manage-user-profiles).
