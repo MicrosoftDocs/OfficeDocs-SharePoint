@@ -39,7 +39,7 @@ This article describes how to pre-provision OneDrive for your users by using Pow
 
 - For info about setting the default storage size, see [Set the default storage space for OneDrive users](set-default-storage-space.md).
 
-- For info about the storage you get with each plan, see [OneDrive Service Description](https://docs.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description).
+- For info about the storage you get with each plan, see [OneDrive Service Description](/office365/servicedescriptions/onedrive-for-business-service-description).
 
 > [!IMPORTANT]
 > The user accounts that you are pre-provisioning must be allowed to sign in and must also have a SharePoint license assigned.

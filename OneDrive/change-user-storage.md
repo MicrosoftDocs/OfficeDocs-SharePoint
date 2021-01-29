@@ -28,7 +28,7 @@ description: In this article, you'll learn how to change a user's OneDrive stora
 As a global or SharePoint admin in Microsoft 365, you can set the OneDrive storage space for a specific user.
   
 > [!NOTE]
-> For info about setting the default storage space, see [Set the default storage space for OneDrive users](set-default-storage-space.md). For info about the storage available for your Microsoft 365 subscription, see the [OneDrive service description](https://go.microsoft.com/fwlink/?linkid=826071).
+> For info about setting the default storage space, see [Set the default storage space for OneDrive users](set-default-storage-space.md). For info about the storage available for your Microsoft 365 subscription, see the [OneDrive service description](/office365/servicedescriptions/onedrive-for-business-service-description).
 
 > [!NOTE]
 > If your organization is configured for multi-geo, you need to use PowerShell to change a user's OneDrive storage space. The experience isn't available in the Microsoft 365 admin center.  
@@ -116,4 +116,4 @@ Admins can [open a case with Microsoft technical support](https://go.microsoft.c
 | 1024000 | 10 |
 
 > [!NOTE]
-> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](https://docs.microsoft.com/onedrive/list-onedrive-urls) and use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps) to make the change. <br>To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](https://docs.microsoft.com/sharepoint/manage-user-profiles).
+> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps&preserve-view=true) to make the change. <br>To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
