@@ -90,7 +90,7 @@ Admins can [open a case with Microsoft technical support](https://go.microsoft.c
     ```
 
     > [!NOTE]
-    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For more info about PowerShell execution policies, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1).
+    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For more info about PowerShell execution policies, see [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1&preserve-view=true).
     
 4. When prompted, enter the SharePoint admin center URL. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint admin center URL.
 
