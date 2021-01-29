@@ -18,12 +18,13 @@ description: "Authorizing the File share Connector"
 
 ## Agent FAQ
 
+>[!Important]
+>The Mover **File Share Agent** will be retired on March 1st. All existing file share agents will continue to work until that date.  
+
+
 The Mover file share agent is written using .NET Core, and therefore is available across many platforms.
 
->[!Important]
->As of September 26,2020, the minimum required Agent version is 1.3.5.0.
 
- 
 **[Click here to select your operating system and download the agent.](https://aka.ms/MoverAgent)**
 
 ### Windows
