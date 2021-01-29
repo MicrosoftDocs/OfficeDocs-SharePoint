@@ -20,9 +20,9 @@ description: "Overview of the Microsoft New Employee Onboarding sites"
 ---
 
 # Overview of the Microsoft New Employee Onboarding sites
-Microsoft has created three (3) new templates for New Employee Onboarding (NEO) to help organizations improve their onboarding process and experience the benefits of a well-planned NEO process. To deliver a flexible and consistent NEO experience the NEO sites consists of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires.
+There are three (3) new templates for New Employee Onboarding (NEO) to help organizations improve their onboarding process. The NEO sites are designed to deliver a flexible and consistent experience. The NEO sites can be used on their own, or together.
 
-The NEO sites helps organizations by: 
+The NEO site(s) helps organizations by: 
 
 - Providing new employees a place to get started
 - Connecting new employees to people and culture
@@ -31,7 +31,7 @@ The NEO sites helps organizations by:
 
 ### Why invest in new employee onboarding sites?
 New employee onboarding (NEO) should be a strategic process that integrates new employees into an organization and its culture while providing the knowledge and tools needed to become fully contributing team members. 
-NEO processes often fall short for both the new hires and the organization. Only 12% of employees strongly agree their organization does a great job of onboarding new employees. An engaging and well organized NEO process can make all the difference in helping a new hire navigate through an exciting – but stressful -  career journey, and it can have major organizational benefits. 
+NEO processes often fall short for both the new hires and the organization. Only 12% of employees strongly agree their organization does a great job of onboarding new employees. An engaging and well-organized NEO process can make all the difference in helping a new hire navigate through an exciting – but stressful -  career journey, and it can have major organizational benefits. 
 
 **A strategically planned NEO experience can:**
 
@@ -39,7 +39,7 @@ NEO processes often fall short for both the new hires and the organization. Only
 Organizations with a standard onboarding process report 50% greater new-hire productivity.*
 
 **Improve new employee retention** -
-Based on our research, 69% of employees are more likely to stay with a company for three years if they had a great onboarding experience. Employees who have a negative onboarding experience are twice as likely to look for new opportunities in the near future.**    
+Based on our research, 69% of employees are more likely to stay with a company for three years if they had a great onboarding experience. Employees who have a negative onboarding experience are twice as likely to look for new opportunities.**    
 
 ### The NEO experience process:
 
@@ -52,16 +52,16 @@ Based on our research, 69% of employees are more likely to stay with a company f
 
 ### NEO site template features:
 
-- **A fully configured and customizable set of new hire sites built on SharePoint communication sites:** The NEO sites include the site, information architecture, design, and pre-populated content and web parts to help provide new hires with a great onboarding experience. There are three NEO sites available that must be provisioned seperateley and can be customized or added to your organization’s new hire content. 
-- **Onboarding journey:** Onboarding can be an overwhelming experience for new hires with everything the new hire is typically expected to do and learn in a short period of time. Avoid overwhelming your new employees by providing them a curated onboarding journey that paces the new hire through a configurable activity list of administrative, technology, culture, training, and connection related to-do’s. The onboarding journey comes with a pre-configured list of new employee onboarding activities for you to customize for your processes. 
-- **Sample new hire site pages:** To inspire and provide design templates for arranging your content, the NEO site includes sample inner site pages. Use these site pages as templates for your content. 
+- **A fully configured and customizable set of new hire sites built on SharePoint communication sites:** NEO sites include: the site, information architecture, design, and pre-populated content and web parts. There are three NEO sites available that must be provisioned separately and can be customized or added to your organization’s new hire content. 
+- **Onboarding journey:** Onboarding can be an overwhelming experience for new hires with everything the new hire is typically expected to do and learn in a short period of time. Avoid overwhelming your new employees by providing them a curated onboarding journey that paces the new hire through a configurable activity list of administrative, technology, culture, training, and connection-related to-do’s. The onboarding journey comes with a pre-configured list of new employee onboarding activities for you to customize for your processes. 
+- **Sample site pages:** To inspire and provide design templates for arranging your content, the NEO site includes sample inner site pages. Use these site pages as templates for your content. 
 - **Easy provisioning:** Provision NEO sites from the SharePoint look book with just a few steps.
 - **Mobile ready:** NEO sites can be easily accessed on a mobile device when you [get the SharePoint mobile app](https://www.microsoft.com/microsoft-365/sharepoint/mobile-app?wt.mc_id=AID686708_QSG_228389&ocid=AID686708_QSG_228389&rtc=1).
 
 ### NEO site template options: 
 New employee onboarding involves multiple levels within an organization, including pre-onboarding, corporate onboarding, and departmental onboarding. Each onboarding level provides its own unique value, contributing to a comprehensive onboarding experience each new employee should experience. 
 
-Research has shown Pre-onboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. To deliver a flexible and consistent onboarding experience, NEO sites consists of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires.
+Research has shown Pre-onboarding new hires, after they sign their acceptance letter but before they officially join the company, can lead to higher performance and better retention rates. To deliver a flexible and consistent onboarding experience, NEO sites consist of three different SharePoint site templates, that are designed to work alone or as one cohesive and familiar experience for new hires.
 
 | Pre-onboarding site  | Corporate onboarding site  | Departmental onboarding site |
 | :-------------------: | :-------------------: |:----------------:|
@@ -79,7 +79,7 @@ Research has shown Pre-onboarding new hires, after they sign their acceptance le
 
 
 ## Step 1: Provision NEO sites
-The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **site collection administrator** can start the provisioning process with a few steps. Each sites takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
+The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint look book](https://lookbook.microsoft.com/). With the SharePoint look book, a **site collection administrator** can start the provisioning process with a few steps. Each site takes about 20 minutes to provision. Before starting the provisioning process, make sure you have met the prerequisites for provisioning.
 
 
 ### Prerequisites
@@ -103,7 +103,7 @@ To successfully provision the NEO sites via the SharePoint look book, the person
     > [!IMPORTANT]
     > To deliverThe provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
-1.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
+1.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
 
 
 1.	Select **Provision** when ready to install the NEO sites into your tenant environment. The provisioning process will take up to 20 minutes for each site. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
@@ -160,7 +160,7 @@ It’s important to make sure the right content is available to users at the rig
 > You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
 
 
-1.	Open your web browser and navigate to [office.com](https://www.office.com) or your organization’s sign-in location.
+1.	Open your web browser and navigate to [office.com](https://www.office.com) or your organization’s sign in location.
 
 2.	**Sign in** with your username and password.
 
@@ -184,16 +184,16 @@ It’s important to make sure the right content is available to users at the rig
 
 ![Image the Pre-onboarding site](media/neo-preonboarding.png)
 
-This is where a new hire starts their onboarding journey. This site is for new hires who have accepted their job offer but have not officially joined the company yet. In this stage, new hires will be interested in learning more about the company, how to get ready for their official start date, and who to go to for questions. 
+The pre-onboarding site is where a new hire starts their onboarding journey. This site is for new hires who have accepted their job offer but have not officially joined the company yet. In this stage, new hires will be interested in learning more about the company, how to get ready for their official start date, and who to go to for questions. 
  
 ##### Pre-populated site content:
-- **Home page** – This is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight big concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
+- **Home page** – The home page is the first site your user will see after they agree to accept the job. Use this landing page as an opportunity to highlight significant concepts and get new employees excited about starting their new job. Provide content for topics like organization leaders, values, communities of interest, benefits, and career planning resources. 
 
   > [!IMPORTANT]
   > Plan to connect social media accounts to the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645) and the [Twitter web part](https://support.microsoft.com/office/use-the-twitter-web-part-15db6b3b-d167-41dd-9875-2af64b44d820).
 
 - **Welcome** – Give new hires a warm welcome and place to start understanding onboarding tasks and how to prepare for their first day. This is a good opportunity to include a video message from leadership. Use the [YouTube web part](https://support.microsoft.com/office/use-the-youtube-web-part-c14fa2c1-71dc-4e52-94b6-b4876742382f), or [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) to display the video.
-- **Contoso 101** – Provide high level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
+- **Contoso 101** – Provide high-level information about the organization that engages and excites. Share more about leadership and values in Our leadership team and Our values pages.
 - **Prepare for your first day** – Ensure new hires feel prepared and supported on their first day by providing details on what to bring and where to go. 
 - **Help & Support** – Highlight where to go for support and customize questions and answers for the FAQ page.
 
@@ -203,11 +203,11 @@ This is where a new hire starts their onboarding journey. This site is for new h
 
 ![Image the corporate onboarding site](media/neo-corp-onboarding.png)
 
-This is the landing place for the new employee onboarding experience and is designed to provide a high-level view of organizational goals, leadership, team structure, and resources. In this phase, users are looking for guidance, support, and clarity. Use this site to outline onboarding details and expectations during the first months of onboarding. Ensure users have access to support channels like [Yammer](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da), write FAQs relevant to your organization, and customize the [onboarding checklist](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7) to include the activities you want all new hires to do in their first 30, 60, 90 days.
+The corporate onboarding site is the landing place for the new employee onboarding experience and is designed to provide a high-level view of organizational goals, leadership, team structure, and resources. In this phase, users are looking for guidance, support, and clarity. Use this site to outline onboarding details and expectations during the first months of onboarding. Ensure users have access to support channels like [Yammer](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da), write FAQs relevant to your organization, and customize the [onboarding checklist](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7) to include the activities you want all new hires to do in their first 30, 60, 90 days.
 
  
 ##### Pre-populated site contents:
-- **Home page** – Provide a high-level view of big concepts that will be relevant to new users. This is a great location to help new employees build their network and learn from more experienced and knowledgeable employees with [Microsoft Teams live events](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events#:~:text=Microsoft%20365%20live%20events%20bring%20live%20video%20streaming,community%20resides%2C%20using%20Microsoft%20Stream%2C%20Teams%2C%20or%20Yammer.)
+- **Home page** – Provide a high-level view of significant concepts that will be relevant to new users. This page is a great location to help new employees build their network and learn from more experienced and knowledgeable employees with [Microsoft Teams live events](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events#:~:text=Microsoft%20365%20live%20events%20bring%20live%20video%20streaming,community%20resides%2C%20using%20Microsoft%20Stream%2C%20Teams%2C%20or%20Yammer.)
 - **Start here** – Specify what new hires should do in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page. The new hire checklist found in this section comes pre-populated with a set of generic onboarding activities. Customize list content to meet your needs. [Learn more about working with SharePoint lists](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7).
 - **Who we are** – Introduce users to more detail about the organization in the Our story, Our leadership, Our teams pages. Customize these pages and the Office locations page for your organization. Or, link to an existing leadership page instead.
 - **Help & Support** - Highlight where to go for support and customize questions and answers for the FAQ page.
@@ -218,11 +218,11 @@ This is the landing place for the new employee onboarding experience and is desi
 #### Departmental onboarding site:
 ![Image of the NEO departmental site](media/neo-department-onboarding.png)
 
-Here, users need to learn about departmental leadership, culture, goals, and resources. Use the departmental onboarding site to provide access to communication channels, training guides, and events relevant to new hires.Consider associating departmental onboarding sites with existing department portals if you have them.
+Here, users need to learn about departmental leadership, culture, goals, and resources. Use the departmental onboarding site to provide access to communication channels, training guides, and events relevant to new hires. Consider associating departmental onboarding sites with existing department portals if you have them.
  
 
 ##### Pre-populated site contents:
-- **Home page** - Provide a high-level view of big concepts that will be relevant to new hires.
+- **Home page** - Provide a high-level view of significant concepts that will be relevant to new hires.
 - **Getting started** – Help users quickly understand onboarding tasks, departmental procedures, and anything else that will help new hires be successful. 
 - **Meet the team** – Introduce new hires to people, the organization structure and goals on the Leadership, The organization, and Our priorities pages. Edit the [Call to Action web part](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00) to include links and images. Or, link to an existing team page instead.
 - **Help and support** - Highlight where to go for support and consider creating a FAQ section.
@@ -241,7 +241,7 @@ Site navigation is important because it helps users immediately understand what 
 
  
 #### Web parts
-Customize web parts with images, labels, links, and content that align with your organization’s mission. Keep images and descriptions simple and easy to understand for your new-hire audience.
+Customize web parts with images, labels, links, and content that aligns with your organization’s mission. Keep images and descriptions simple and easy to understand for your new-hire audience.
 
 - **Hero web part** - Bring focus and visual interest to your page with the [Hero web part](https://support.microsoft.com/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645). You can display up to five items in the Hero web part and use compelling images, text, and links to draw attention to each.
 - **Text web part** - Use the [Text web part](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801) to add paragraphs to your page. Formatting options like styles, bullets, indentations, highlighting, and links are available.
@@ -286,7 +286,7 @@ After customizing content, get ready to share the new onboarding experience with
 As a site owner, you can give external people access to the site by adding them as a **visitor**.
 
 
-1. Select **Share site** from the right hand corner.
+1. Select **Share site** from the right-hand corner.
 2. In the Share site pane, enter the names of people to add them to the site. The permission level will be ready only.
 4. Enter an optional message to send to the person, or clear the Send email box if you don't want to send an email.
 5. Select **Share.**
@@ -306,17 +306,17 @@ As a site owner, you can give external people access to the site by adding them 
 
 ### Define NEO success metrics
 
-Define site success metrics to measure and optimize your organization’s onboarding process. The following is an example of possible metrics for a new employee onboarding site experience in the form of an onboarding hub:
+Define site success metrics to measure and optimize your organization’s onboarding process. This is an example of possible metrics for a new employee onboarding site experience in the form of an onboarding hub:
 
 | Objective      | Business owner   | KPI measure | Data source   | KPI formula    | KPI baseline    | KPI target   |
 | :------------------- | :------------------- |:----------------|:------------------- | :------------------- |:----------------| :----------------|
 | Help onboard new employees more effectively   | Diego Siciliani   | New employee satisfaction  |  Survey data  |  Average score of new employee satisfaction with NEO Hub   |  N/A   | 4.25  
 | Help onboard new employees more effectively   | Diego Siciliani   | NEO hub usage  |  Site usage report  |  Number of unique viewers and visits   |  N/A   | 500 unique viewers/month and 1,500 views/month
-| Increase new employee retention  | Alexandre Levesque  | New employee retention  |  HR system retention data  |  % of new employee cohort that remain with the company after one year   |  75%   | 90%
+| Increase new employee retention  | Alexandre Levesque  | New employee retention  |  HR system retention data  |  % of new employee cohort that remains with the company after one year   |  75%   | 90%
 | Improve new employee engagement  | Diego Siciliani    | New employee engagement score |  Survey data  |  Average score of new employee engagement question  |  3.75   | 4.25
 
 
-### Leverage site usage data
+### Use site usage data
 
 As a SharePoint site owner, you can view site usage data that shows you how users are interacting with your site. For example, you can see the number of people who have visited the site, how many times people have visited the site, and a list of files that have received the most views. Site owners should utilize SharePoint’s built-in site usage reporting capabilities to measure the impact of the NEO sites and hub. [Learn how to view usage analytics for your site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e).
 
