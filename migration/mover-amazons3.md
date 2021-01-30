@@ -49,11 +49,6 @@ Authorizing Amazon S3 is straightforward. To authorize or add a Amazon S3 accoun
 - Select your finished transfer and click Start Migrating on the top right of the Migration Manager to rerun the the transfer.
 - View your most recent transfer log by selecting the transfer and clicking View Log from the User Actions dropdown menu and see if there are any particular error messages you could act on.
 
-**Transfer to Amazon S3 destination:** If you're having trouble transferring into Amazon S3:
-
-- Select your finished transfer and click Start Migrating on the top right of the Migration Manager to rerun the the transfer.
-- View your most recent transfer log by selecting the transfer and clicking View Log from the User Actions dropdown menu and see if there are any particular error messages you could act on.
-- Amazon S3 Regions: We now support all S3 regions with Signature Version 4.
 
 **Using Amazon S3 via IAM:** With Amazon S3, by default we should have no trouble accessing your buckets. Here's how to connect to S3 via IAM:
 
