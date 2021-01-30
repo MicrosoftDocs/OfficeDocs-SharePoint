@@ -68,7 +68,9 @@ Admins can [open a case with Microsoft technical support](https://go.microsoft.c
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
-    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
+    > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell."
+	> 
+	> On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
 2. Save the following script as a PowerShell file. For example, you could save it to a file named UpdateOneDriveStorage.ps1.
     
@@ -102,18 +104,20 @@ Admins can [open a case with Microsoft technical support](https://go.microsoft.c
 
 8. Enter the OneDrive Storage Quota Warning Level in MB.
 
-| MB  | TB |
-| ------------- | ------------- |
-| 1024000  | 1  |
-| 2048000 | 2  |
-| 3072000  | 3  |
-| 4096000 | 4 |
-| 5120000 | 5 |
-| 6144000 | 6 |
-| 7168000 | 7 |
-| 8192000 | 8 |
-| 9216000 | 9 |
-| 1024000 | 10 |
+   | MB  | TB |
+   | ------------- | ------------- |
+   | 1024000  | 1  |
+   | 2048000 | 2  |
+   | 3072000  | 3  |
+   | 4096000 | 4 |
+   | 5120000 | 5 |
+   | 6144000 | 6 |
+   | 7168000 | 7 |
+   | 8192000 | 8 |
+   | 9216000 | 9 |
+   | 1024000 | 10 |
 
 > [!NOTE]
-> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps&preserve-view=true) to make the change. <br>To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
+> To change the storage space for multiple users, use PowerShell to [Display a list of OneDrive accounts by using PowerShell](list-onedrive-urls.md) and use [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite?view=sharepoint-ps&preserve-view=true) to make the change.
+> 
+> To disable OneDrive creation for specific users, see [Manage user profiles in the SharePoint admin center](/sharepoint/manage-user-profiles).
