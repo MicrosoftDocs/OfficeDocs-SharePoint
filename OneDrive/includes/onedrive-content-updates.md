@@ -2,6 +2,15 @@
 
 
 
+## Week of January 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/27/2021 | [Change a specific user's OneDrive storage space](/OneDrive/change-user-storage) | modified |
+| 1/28/2021 | [Use OneDrive policies to control sync settings](/OneDrive/use-group-policy) | modified |
+
+
 ## Week of January 18, 2021
 
 
