@@ -46,9 +46,9 @@ This integration is not supported in the following Microsoft 365 services:
 
 ## Enabling the integration
 
-This integration requires that your organization also be opted into [Azure AD email one-time passcode authentication](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
+This integration requires that your organization also enable [Azure AD email one-time passcode authentication](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
 
-To opt in to Azure AD passcode authentication
+To enable Azure AD passcode authentication
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
 2. In the nav pane, select **Azure Active Directory**.
 3. Under **Manage**, click **External identities**.
