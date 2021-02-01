@@ -24,17 +24,7 @@ If your organization still uses SharePoint Server 2016 or earlier, users can't u
 
 The previous sync app (Groove.exe) is no longer installed by default with Office 2016 Click-to-run. You need to use a custom installation to extract OneDrive.
 
-### Use the installation wizard
-
-1. [Download the OneDrive for Business 2016 installation wizard](https://aka.ms/diag_odbinstall).
-2. Select **Run** or **Open**, and then follow the steps on the screen.
-
-> [!NOTE]
-> This wizard is in English only, but works if Office is installed in other languages. 
-
-### Create a custom installation manually
-
-1. Download the [Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117), and then save the file to your desktop.
+1. Download the [Office Deployment Tool](https://www.microsoft.com/download/details.aspx?id=49117), and then save the file to your desktop.
 2. From your desktop, double-click **OfficeDeploymentTool.exe**, and then extract the files to your desktop. 
    The following files will be displayed on your desktop:
 
@@ -82,7 +72,8 @@ The previous sync app (Groove.exe) is no longer installed by default with Office
     ```DOS
     cd /d %userprofile%\desktop setup.exe /configure AddODB.txt
     ```
-   > [!NOTE]
+   
+    > [!NOTE]
    > The installation occurs silently in the background and can take 20 minutes or more to complete, depending on the speed of your Internet connection. Don't close the Command Prompt window during the installation. When the installation is completed, a new command line appears at the command prompt.
 
 6. Select **Start**. In the **Start Search** box, type **OneDrive**, and then start OneDrive.
