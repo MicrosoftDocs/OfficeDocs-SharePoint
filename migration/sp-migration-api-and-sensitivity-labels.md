@@ -1,13 +1,13 @@
 ---
 title: "Sensitivity labels and the SharePoint Migration API"
-ms.date: 01/25/2021
+ms.date: 02/01/2021
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
 search.appverid: MET150
-description: "Sensitivity labels and the SharePoint Migration API."
 localization_priority: Priority
-ms.service: sharepoint-online
+ms.prod: sharepoint
+description: Learn how to have sensitivity labels applied to content before migration with the SharePiont Migration API.
 ---
 
 # Sensitivity Labels and the SharePoint Migration API
