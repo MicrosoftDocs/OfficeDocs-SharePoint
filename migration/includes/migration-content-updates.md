@@ -2,6 +2,28 @@
 
 
 
+## Week of January 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/25/2021 | SharePoint Online Import Migration API | removed |
+| 1/25/2021 | [Review the destination paths for your Box migration with Migration Manager](/SharepointMigration/mm-box-step4-review-destinations) | modified |
+| 1/25/2021 | [Step 5: Map Box identities with Migration Manager](/SharepointMigration/mm-box-step5-map-identities) | modified |
+| 1/25/2021 | [Step 6: Migrate and monitor Box migration](/SharepointMigration/mm-box-step6-migrate-monitor) | modified |
+| 1/26/2021 | [What does SPMT support?](/SharepointMigration/what-is-supported-spmt) | modified |
+| 1/26/2021 | [Create a user-mapping file for data content migration](/SharepointMigration/create-a-user-mapping-file-for-data-content-migration) | modified |
+| 1/26/2021 | [How does the SharePoint Migration Tool work?](/SharepointMigration/how-the-sharepoint-migration-tool-works) | modified |
+| 1/26/2021 | [Format your JSON or CSV file for data content migration - SharePoint](/SharepointMigration/how-to-format-your-csv-file-for-data-content-migration) | modified |
+| 1/26/2021 | [SharePoint Migration Tool for SharePoint and OneDrive](/SharepointMigration/introducing-the-sharepoint-migration-tool) | modified |
+| 1/26/2021 | [Migrating managed metadata](/SharepointMigration/managed-metadata-migration) | modified |
+| 1/26/2021 | [Migrating web parts using the Migration API](/SharepointMigration/migrate-webparts-api) | modified |
+| 1/26/2021 | [Setup Migration Manager agents](/SharepointMigration/mm-setup-clients) | modified |
+| 1/26/2021 | [Troubleshooting Migration Manager](/SharepointMigration/mm-troubleshoot) | modified |
+| 1/29/2021 | [Authorizing the File share Connector](/SharepointMigration/mover-fileshare) | modified |
+| 1/29/2021 | [Authorizing the Amazon S3 Connector](/SharepointMigration/mover-amazons3) | modified |
+
+
 ## Week of January 18, 2021
 
 
