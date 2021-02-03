@@ -49,11 +49,6 @@ OR
 
 |Scenario|Conditions|
 |:-----|:-----|
-|The task is scanned OR migrated for the first time|- When a task is first scanned or migrated, it may trigger reruns. </br>- When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns,  because it was not the first time the task was scanned.|
-|More automatic reruns are still available| </br>- A task will be automatically rerun a maximum of three times. </br>- A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and the three additional attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.|
-|Canceling the transfer|- The task is "Queued", and has a status code 600, or 601. </br>- The task is "Running", and has a status code 620, or 300.|
-|The last transaction ended in any of these status codes|201, 202, 210, 220, 211, 401, 403,404, 405, 406, 491.|
-<br>
 
 
 
