@@ -46,6 +46,7 @@ When a run ends, an automatic re-run may occur if it meets the conditions listed
  - 491
 
 An automatic re-run may occur when: 
+
 |Scenario|Conditions|
 |:-----|:-----|
 |The task is being scanned OR migrated for the first time|- When a task is first scanned or migrated, it may trigger reruns. </br>- When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns,  because it was not the first time the task was scanned.|
