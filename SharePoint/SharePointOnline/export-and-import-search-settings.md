@@ -195,7 +195,7 @@ If managed properties or aliases contain any of the listed characters, the impor
 ## Known issue
 <a name="__toc351540666"> </a>
 
-When you import search configuration files in tenant admin search settings page, you may encounter an issue that the **Search Config List** could not display properly and error is "File not found". This is a known issue and feature team is working on fixing it.
+When you import search configuration files in tenant admin search settings page, you may encounter an issue that the **Search Config List** could not display properly and error is "File not found".
 
 This issue only blocks UI from displaying the list of search configuration file you imported and would not break the **Import** functionality. Your search configuration will be imported properly.
 
