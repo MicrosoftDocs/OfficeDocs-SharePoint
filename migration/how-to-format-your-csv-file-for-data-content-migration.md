@@ -97,7 +97,7 @@ The following table describes the values in each column of the CSV file.
 
 The following example shows the JSON file format that you can use to migrate your data.
 
-As with the CSV files, the minimum required values are *Source*, *Source DocLib*, *Target Web*, and *Target DocLib*.  
+As with a CSV file, the minimum required values are *Source*, *Source DocLib*, *Target Web*, and *Target DocLib*.  
 
 ```json
 {
