@@ -55,6 +55,7 @@ An automatic re-run may occur when:
 |The last transaction ended in any of these status codes|201, 202, 210, 220, 211, 401, 403,404, 405, 406, 491.|
 <br>
 
+
 |Mover status code|Message|
 |:-----|:-----|
 |100| Success|
