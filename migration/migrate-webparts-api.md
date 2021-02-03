@@ -1,5 +1,5 @@
 ---
-title: "Migrating web parts using the Migration API"
+title: "Migrate web parts using the Migration API"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -26,9 +26,9 @@ An advantage to using the Migration API for your web part migration is the abili
 
 Two attributes are handled in a unique way that requires using the WebPart User Properties Serializer DLL.
 
-There's a technical challenge to generating the property values for *AllUsersProperties* and *PerUserProperties* when you build the PRIME package. This is because the property values are a BASE64-encoded blob, which is serialized web part properties and web part connection info.
+There's a technical challenge to generating the property values for *AllUsersProperties* and *PerUserProperties* when you build the PRIME package. This is because the property values are a BASE64-encoded blob, which is serialized web part properties and web part connection information.
 
-To get the Serializer .dll, follow these steps:
+To get the Serializer .dll file, follow these steps:
 
 1. Install the [SPMT client](https://aka.ms/spmt-GA-page) on your local computer.
 1. Browse to the install location of SPMT.
@@ -152,16 +152,16 @@ For an explanation of the **SPWebPart** fields, see [SPWebPart](https://docs.mic
 
 ## Security controls
 
-Due to the security control design on the server side:
+The security control design on the server side specifies:
  
-- If *NoScript* is off, go on migrating all web part.
+- If *NoScript* is off, go on migrating all web parts.
 - If *NoScript* is on, first check web part level safety:
     - If *SafeAgainstScript* is false, don't import it.
-    - If *SafeAgainstScript* is true,  check the web part property level safety:
+    - If *SafeAgainstScript* is true, check the web part property level safety:
         - If the web part has any property with *RequiresDesignerPermission*, ignore this web part (or ignore this property if feasible).
         - Otherwise, migrate this web part.
  
-These are web parts that will be ignored by server-side code (treated as an untrusted web part) when *NoScript* is turned on:
+The following web parts will be ignored by server-side code (treated as an untrusted web part) when *NoScript* is turned on:
 
 - XsltListViewWebPart
 - ContentEditorWebPart
@@ -186,17 +186,17 @@ These are web parts that will be ignored by server-side code (treated as an untr
 
 ## FAQ
 
-**How do I  fetch the web part properties as the input for serialization API?**
+**How do I  fetch the web part properties as the input for the serialization API?**
 
-The web part properties can be found in the \<webpart> element in the response of operation *GetWebPartProperties2* in *WebPartPagesWebService*. Find the payload details in WSDL */_vti_bin/WebPartPage.asmx?WSDL*.
+The web part properties can be found in the \<webpart> element in the response to operation *GetWebPartProperties2* in *WebPartPagesWebService*. Find the payload details in WSDL */_vti_bin/WebPartPage.asmx?WSDL*.
 
-**How do I fetch the web part connection info as the input for serialization API?**
+**How do I fetch the web part connection info as the input for the serialization API?**
 
-The web part connections can be found in \<SPWebPartConnection> elements from the web part page in the response of operation *GetWebPartPage* in *WebPartPagesWebService*.
+The web part connections can be found in \<SPWebPartConnection> elements from the web part page in the response to operation *GetWebPartPage* in *WebPartPagesWebService*.
 
 ## Examples
 
-### Sample Web Part Properties v2 XmlNode Element 
+### Sample web part properties v2 XmlNode Element 
 
 ```xml
 
@@ -236,8 +236,7 @@ The web part connections can be found in \<SPWebPartConnection> elements from th
   </WebPart>
 ```
 
-
-### Sample Web Part Properties v3 XmlNode Element
+### Sample web part properties v3 XmlNode element
 
 ```xml
 
@@ -318,7 +317,7 @@ The web part connections can be found in \<SPWebPartConnection> elements from th
   </webPart>
 ```
 
-### Sample Web Part Connection XmlNode Element 
+### Sample web part connection XmlNode element 
 
 ```xml
 <WebPartPages:SPWebPartConnection ConsumerConnectionPointID="DFWP Filter Consumer ID" ConsumerID="g_bcca2ac1_f0f1_4640_af30_8a0730ca840e" ID="c1638508205" ProviderConnectionPointID="ITransformableFilterValues" ProviderID="g_7fc41891_2e27_4835_99c8_5b6f80feb20f"><WebPartPages:TransformableFilterValuesToParametersTransformer ConsumerFieldNames="PageType" ProviderFieldNames="Page Field"></WebPartPages:TransformableFilterValuesToParametersTransformer>
