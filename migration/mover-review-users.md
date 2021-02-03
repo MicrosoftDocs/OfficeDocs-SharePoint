@@ -30,7 +30,7 @@ Be aware that Users can only be edited if they haven't been scanned, or had a tr
 To edit a user source entry:
 
 1. To select a user row, on the left side of a row, select the respective checkbox.
-2. On the right and directly above the user rows, find **User Actions**, or right-click the user row for which you want to edit the source path.
+2. On the right and directly above the user rows, find **User Actions**.
 3. A new side panel opens, enabling you to edit the source path.
 4. To select your parent source path, double-click it, and to complete your edit, select **Save**.
 
@@ -39,7 +39,7 @@ To edit a user source entry:
 To edit a user destination entry:
 
 1. To select a user row, on the left side of a row, select the respective checkbox.
-2. On the right and directly above the user rows, find **User Actions**, or right-click the user row for which you want to edit the destination path.
+2. On the right and directly above the user rows, find **User Actions**.
 3. A new side panel opens, enabling you to edit the Office 365 destination path.
 4. To select your parent destination path, double-click it. To complete your edit, select **Save**.
 
