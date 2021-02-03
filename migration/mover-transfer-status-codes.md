@@ -15,45 +15,15 @@ description: "Mover transfer status codes"
 ---
 # Mover transfer status codes
 
-
 When a run ends, an automatic re-run may occur if it meets the conditions listed under each scenario are met.
 
-**The task is being scanned OR migrated for the first time:**
-- When a task is first scanned or migrated, it may trigger reruns. 
-OR
-- When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns,  because it was not the first time the task was scanned.
-
-
-**More automatic reruns are still available.** 
-- A task will be automatically rerun a maximum of three times. 
-- A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and the three additional attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.
-
-**Canceling the transfer**
-- If a task is "Queued", and has a status code of 600 or 601.
-OR
-- If the task is "Running" and has a status code 620 or 300.
-
-**The last transaction ended in any of these status codes:**
-
- - 201
- - 202
- - 210
- - 220
- - 211
- - 401
- - 403
- - 404
- - 405
- - 406
- - 491
 
 |Scenario|Conditions|
 |:-----|:-----|
 |The task is being scanned OR migrated for the first time|When a task is first scanned or migrated, it may trigger reruns. </br>When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns, because it was not the first time the task was scanned.|
 |More automatic reruns are still available| </br>A task will be automatically rerun a maximum of three times. </br>A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and the three additional attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.|
 |Canceling the transfer|The task is "Queued", and has a status code 600, or 601. </br>The task is "Running", and has a status code 620, or 300.|
-|The last transaction ended in any of these status codes|201, 202, 210, 220, 211, 401, 403,404, 405, 406, 491.|
-
+|Last transaction status codes|An automatic re-run may occur if the last transaction ended with the status code 201, 202, 210, 220, 211, 401, 403,404, 405, 406, or 491.|
 
 
 
