@@ -17,7 +17,7 @@ description: "Mover transfer status codes"
 
 ## Automatic reruns
 
-When a run ends, an automatic rerun may occur if it meets the conditions listed under each scenario are met.
+When a run ends, an automatic rerun may occur if the conditions listed under each scenario are met.
 
 |Scenario|Conditions|
 |:-----|:-----|
