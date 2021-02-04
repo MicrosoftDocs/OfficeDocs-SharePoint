@@ -15,36 +15,25 @@ description: "Mover transfer status codes"
 ---
 # Mover transfer status codes
 
+## Automatic reruns
 
-When a run ends, an automatic re-run may occur when ALL of the following conditions are met:
+When a run ends, an automatic rerun may occur if the conditions listed under each scenario are met.
 
-**The task is being scanned OR migrated for the first time:**
-- When a task is first scanned or migrated, it may trigger reruns. 
-- When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns,  because it was not the first time the task was scanned.
+|Scenario|Conditions|
+|:-----|:-----|
+|The task is being scanned OR migrated for the first time|When a task is first scanned or migrated, it may trigger reruns. </br>When a task scan is started and then canceled. If that task is scanned again, it will NOT trigger reruns, because it was not the first time the task was scanned.|
+|More automatic reruns are still available|A task will be automatically rerun a maximum of three times. </br>A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and three additional attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.|
+|Last transaction status codes|An automatic rerun may occur if the last transaction ends with any of the following status codes: 201, 202, 210, 220, 211, 401, 403,404, 405, 406, or 491.|
 
+## Canceling a transfer
+A transfer can be canceled under the following conditions:
+- The task is "Queued", and has a status code 600 or 601.
+OR
+- The task is "Running", and has a status code 620 or 300.
 
-**More automatic reruns are still available.** 
-- A task will be automatically rerun a maximum of three times. 
-- A first task scan/migrate action can result in triggering a total of four transactions: the original transaction (run), and the three additional attempts (reruns). Six reruns can be triggered at the most: 3 for the initial scan, and 3 for the initial migration.
+## Status codes
 
-
-
-- **The last transaction ended in any of these status codes:**
-    - 201
-    - 202
-    - 210
-    - 220
-    - 211
-    - 401
-    - 403
-    - 404
-    - 405
-    - 406
-    - 491
-
-<br>
-
-|Error code|Message|
+|Mover status code|Message|
 |:-----|:-----|
 |100| Success|
 |101| Success. No files needed copying|
