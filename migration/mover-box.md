@@ -171,4 +171,3 @@ If you are not already connected after you have authorized your source, select *
 
 ![execution select box source](media/execution-select-box-source.png)
 
-## 
