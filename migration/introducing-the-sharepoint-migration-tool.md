@@ -45,17 +45,17 @@ Use one of the following links to download SPMT:
 
 After you download and install SPMT, see [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md) to get started.
 
-If you experience installation problems, see [Troubleshooting installation issues](spmt-install-issues.md).
+If you have installation problems, see [Troubleshooting installation issues](spmt-install-issues.md).
 
 ## Supported features
 
 For a complete description of features, see [What does SPMT support?](what-is-supported-SPMT.md) 
 
-If you prefer to use PowerShell, all SPMT functionality is supported. See [Migrate to SharePoint using PowerShell](overview-spmt-ps-cmdlets.md).
+If you prefer to use PowerShell, note that all SPMT functionality is supported. See [Migrate to SharePoint using PowerShell](overview-spmt-ps-cmdlets.md).
 
 ## Planning and assessment
 
-Planning is the key to successful data migration. The *SharePoint Migration Assessment Tool* (SMAT) is a simple command-line tool that scans your SharePoint Server 2013 farm to help identify potential issues with data that you plan to migrate to SharePoint in Microsoft 365. The results report points to articles to help fix any issues that are discovered. The tool runs in the background and doesn't affect your production environment.
+Planning is the key to successful data migration. The *SharePoint Migration Assessment Tool* (SMAT) is a simple command-line tool that scans your SharePoint Server 2013 farm to help identify potential issues with the data that you plan to migrate to SharePoint in Microsoft 365. The results report points to articles to help fix any issues that are discovered. The tool runs in the background and doesn't affect your production environment.
   
 To download the tool, go to [SharePoint Migration Assessment Tool (SMAT)](https://www.microsoft.com/download/details.aspx?id=53598&amp;751be11f-ede8-5a0c-058c-2ee190a24fa6=True)
   
