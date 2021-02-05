@@ -25,7 +25,7 @@ There are three ways to disable co-authoring:
   
 - You can use Group Policy to disable co-authoring functionality on the client-side. For more information, see [Group Policy overview for Office 2013](/previous-versions/office/office-2013-resource-kit/cc179176(v=office.15)).
   
-- You can use Microsoft PowerShell to set the DisableCoauthoring server property. This setting disables the co-authoring property for Word and PowerPoint documents on the server. This property applies to documents or presentations that are authored in Word 2010, Word 2013, Word Online, PowerPoint 2010, PowerPoint 2013 and PowerPoint Web App.
+- You can use Microsoft PowerShell to set the DisableCoauthoring server property. This setting disables the co-authoring property for Word and PowerPoint documents on the server. This property applies to documents or presentations in Word 2010, Word 2013, Word Online, PowerPoint 2010, PowerPoint 2013, and PowerPoint Web App.
   
 - You can enable the Require Check Out setting in a document library. This setting disables co-authoring in the document library. For more information, see [Configure Require Check Out in SharePoint Server 2013](configure-versioning-for-co-authoring.md#bkmk_req_co).
   
@@ -73,10 +73,10 @@ There are three ways to disable co-authoring:
 |:-----|:-----|
 | _servername_ <br/> |Server name  <br/> |
    
-4. Save the file and add the .ps1 extension, such as SuggestedNameOfFile.ps1.
+4. Save the file and add the `.ps1` extension, such as SuggestedNameOfFile.ps1.
     
     > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is .ps1. 
+    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is `.ps1.`
   
 5. Start the SharePoint 2013 Management Shell as Administrator.
     
@@ -119,10 +119,10 @@ There are three ways to disable co-authoring:
 |:-----|:-----|
 | _servername_ <br/> |Server name  <br/> |
    
-4. Save the file and add the .ps1 extension, such as SuggestedNameOfFile.ps1.
+4. Save the file and add the `.ps1` extension, such as SuggestedNameOfFile.ps1.
   
     > [!NOTE]
-    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is .ps1.
+    > You can use a different file name, but you must save the file as an ANSI-encoded text file whose extension is `.ps1.`
   
 5. Start the SharePoint 2013 Management Shell as Administrator.
   
