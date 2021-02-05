@@ -61,14 +61,14 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 2.	Navigate to your organization’s home site. 
 3.	Select **Settings** and then select **Global navigation settings**.
 
-      ![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
+            ![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
 
 >[!NOTE]
 > -	If you do not see **Global navigation** in the **Settings** pane on the home site, you may not have site owner permissions (or higher) to the home site.
 
 4.	Switch the **Enable global navigation** toggle to **On**.
 
- ![Image of where to enable the global navigation option in the settings panel](media/app-bar-enable.png)
+           ![Image of where to enable the global navigation option in the settings panel](media/app-bar-enable.png)
 
 5.	Next, add the **Logo** for global navigation that will be recognizable to users to replace the home icon in the app bar. No action is needed if you choose to keep the default home icon. 
 <br>
@@ -79,12 +79,12 @@ Global navigation logo specifications:
 
 6.	Then, enter a **Title** that will be displayed at the top of the global navigation pane.
 
- ![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
+          ![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
 
 7.	Finally, determine the **Navigation source**. Learn more about selecting a source.
 8.	Make edits to the selected global navigation source if needed by selecting **Edit global navigation**. Select **Save** when you are done. Updates to global navigation may take several minutes before they appear.
 
- ![Image of where to select the global navigation source](media/app-bar-source.png)
+         ![Image of where to select the global navigation source](media/app-bar-source.png)
 
 >[!NOTE] 
 > -	The global navigation source can be edited at any time by site owners or admins of the home site.
