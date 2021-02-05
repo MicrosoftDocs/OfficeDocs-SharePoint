@@ -17,20 +17,20 @@ search.appverid:
 - SPO160
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Use the SharePoint app bar to enhance intranet way finding and display personalized content "
+description: "Use the SharePoint app bar to enhance intranet way finding and display personalized content"
 ---
 
 # Introduction to the SharePoint app bar
 
 Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way finding experience while dynamically displaying personalized sites, news, and files. The app bar can be accessed on the left-hand side anywhere in SharePoint.
 
-![Image of the SharePoint app bar](media/app-bar.png)
+ ![Image of the SharePoint app bar](media/app-bar.png)
 
 
 ## The SharePoint app bar experience
 The SharePoint app bar brings together intranet resources and personalized content like sites, news, and files. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](https://docs.microsoft.com/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
 
-![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
+ ![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
 
 >[!NOTE]
 > - Global navigation is the only app bar tab that can be customized. 
@@ -62,14 +62,14 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 2.	Navigate to your organization’s home site. 
 3.	Select **Settings** and then select **Global navigation settings**.
 
-![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
+ ![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
 
 >[!NOTE]
 > -	If you do not see **Global navigation** in the **Settings** pane on the home site, you may not have site owner permissions (or higher) to the home site.
 
 4.	Switch the **Enable global navigation** toggle to **On**.
 
-![Image of where to enable the global navigation option in the settings panel](media/app-bar-enable.png)
+ ![Image of where to enable the global navigation option in the settings panel](media/app-bar-enable.png)
 
 5.	Next, add the **Logo** for global navigation that will be recognizable to users to replace the home icon in the app bar. No action is needed if you choose to keep the default home icon. 
 <br>
@@ -80,12 +80,12 @@ Global navigation logo specifications:
 
 6.	Then, enter a **Title** that will be displayed at the top of the global navigation pane.
 
-![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
+ ![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
 
 7.	Finally, determine the **Navigation source**. Learn more about selecting a source.
 8.	Make edits to the selected global navigation source if needed by selecting **Edit global navigation**. Select **Save** when you are done. Updates to global navigation may take several minutes before they appear.
 
-![Image of where to select the global navigation source](media/app-bar-source.png)
+ ![Image of where to select the global navigation source](media/app-bar-source.png)
 
 >[!NOTE] 
 > -	The global navigation source can be edited at any time by site owners or admins of the home site.
