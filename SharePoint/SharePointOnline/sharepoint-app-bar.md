@@ -195,10 +195,12 @@ Temporarily disable the SharePoint app bar:
 
 1.	Download the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 2.	Run the following command exactly as it appears:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $true`
+
+&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $true`
 
 3.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following:<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Get-SPOTemporarilyDisableAppBar`
+
+&nbsp;&nbsp;&nbsp;`Get-SPOTemporarilyDisableAppBar`
 
 
 >[!NOTE] 
@@ -208,7 +210,8 @@ Temporarily disable the SharePoint app bar:
 
 ### Enable the SharePoint app bar:
 1.	Once you’re ready to display the SharePoint app bar, run the following command:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $false`
+
+&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $false`
 
 >[!NOTE]  
 > - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
@@ -223,15 +226,4 @@ Learn more about home sites
 Learn more about [planning](https://docs.microsoft.com/sharepoint/planning-hub-sites) and [creating hub sites](https://docs.microsoft.com/sharepoint/create-hub-site)
 Learn more about [navigation and information architecture in SharePoint](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience)
 Learn more about [sharing and permissions in SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions)
-
-
-
-
-
-
-
-
-
-
-
 
