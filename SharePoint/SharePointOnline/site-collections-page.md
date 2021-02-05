@@ -35,11 +35,13 @@ This article covers all the features on the classic site collections page and wh
 
 To create a site collection in the new SharePoint admin center, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and then select **Create**. To create a classic site, select **Other options**.
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
 |![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
@@ -61,11 +63,13 @@ On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManag
 
 The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
 |![Site collections properties](media/site-collection-properties.png) |![Communication site](media/communication-site.png)|
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
@@ -81,11 +85,13 @@ The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?pa
 
 To change the owners for any site that isn't connected to a Microsoft 365 group, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, select **Permissions** on the command bar, and then select **Manage admins**.
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
 |![Manage administrators](media/manage-administrators.png) |![Manage admins](media/manage-admins.png)|
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
@@ -97,11 +103,13 @@ To change the owners for any site that isn't connected to a Microsoft 365 group,
 
 To change sharing settings for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Sharing** on the command bar.
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
 |![Sharing classic](media/sharing-classic.png) |![Sharing modern](media/sharing-modern.png)|
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
@@ -115,11 +123,13 @@ To change sharing settings for a site, go to the [Active sites page](https://adm
 
 These options appear if you use manual site storage limits in your organization. To change the storage limit for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Storage** on the command bar.
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
 |![Set storage quota](media/set-storage-quota.png)|![Edit storage limit](media/edit-storage-limit.png)|
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
@@ -142,6 +152,7 @@ These features haven't been in use for more than a year.
 
 ![Project Web App](media/project-web-app.png)
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
@@ -152,6 +163,7 @@ These features haven't been in use for more than a year.
 
 To view your deleted sites, go to the new SharePoint admin center, go to the [Deleted sites page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true).
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
