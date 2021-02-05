@@ -24,13 +24,13 @@ description: "Use the SharePoint app bar to enhance intranet way finding and dis
 
 Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way finding experience while dynamically displaying personalized sites, news, and files. The app bar can be accessed on the left-hand side anywhere in SharePoint.
 
-> ![Image of the SharePoint app bar](media/app-bar.png)
+![Image of the SharePoint app bar](media/app-bar.png)
 
 
 ## The SharePoint app bar experience
 The SharePoint app bar brings together intranet resources and personalized content like sites, news, and files. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](https://docs.microsoft.com/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
 
-> ![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
+![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
 
 >[!NOTE]
 > - Global navigation is the only app bar tab that can be customized. 
@@ -62,14 +62,14 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 2.	Navigate to your organization’s home site. 
 3.	Select **Settings** and then select **Global navigation settings**.
 
-> ![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
+![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
 
 >[!NOTE]
 > -	If you do not see **Global navigation** in the **Settings** pane on the home site, you may not have site owner permissions (or higher) to the home site.
 
 4.	Switch the **Enable global navigation** toggle to **On**.
 
-> ![Image of where to enable the global navigation option in the settings panel](media/app-bar-enable.png)
+![Image of where to enable the global navigation option in the settings panel](media/app-bar-enable.png)
 
 5.	Next, add the **Logo** for global navigation that will be recognizable to users to replace the home icon in the app bar. No action is needed if you choose to keep the default home icon. 
 <br>
@@ -80,12 +80,12 @@ Global navigation logo specifications:
 
 6.	Then, enter a **Title** that will be displayed at the top of the global navigation pane.
 
-> ![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
+![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
 
 7.	Finally, determine the **Navigation source**. Learn more about selecting a source.
 8.	Make edits to the selected global navigation source if needed by selecting **Edit global navigation**. Select **Save** when you are done. Updates to global navigation may take several minutes before they appear.
 
-> ![Image of where to select the global navigation source](media/app-bar-source.png)
+![Image of where to select the global navigation source](media/app-bar-source.png)
 
 >[!NOTE] 
 > -	The global navigation source can be edited at any time by site owners or admins of the home site.
@@ -98,7 +98,7 @@ If you haven’t set up your [home site](https://docs.microsoft.com/sharepoint/h
 
 #### For home sites that are a hub, you have two source options:
 
-> ![Image of site and hub navigation](media/app-bar-hub.png)
+![Image of site and hub navigation](media/app-bar-hub.png)
 
 - Select the site navigation source to display the home site’s navigation.
 - Select the Hub or global navigation source to display the home site’s hub navigation.
@@ -109,7 +109,7 @@ If you haven’t set up your [home site](https://docs.microsoft.com/sharepoint/h
 
 #### For home sites that are not a hub, you have two source options:
 
-> ![Image of site navigation](media/app-bar-site.png)
+![Image of site navigation](media/app-bar-site.png)
 
 - Select the site navigation source to display the home site navigation.
 - Create a secondary set of navigation notes specifically for the global navigation panel by selecting **Hub or global navigation**. Then, select **Edit global navigation** to create the new global navigation menu. Select **Save** when you are done.
@@ -122,7 +122,7 @@ If you haven’t set up your [home site](https://docs.microsoft.com/sharepoint/h
 ## See all the different ways you can set up global navigation
 Depending on the content you want to make available in the global navigation, you can configure your home site navigation and global navigation in three different ways.
 
-> ![Image of a home site](media/app-bar-home-site.png)
+![Image of a home site](media/app-bar-home-site.png)
 
 ### Display the home site’s navigation in global navigation
 Display hub and site navigation on the home page, and the home site navigation in the global navigation panel.
@@ -130,7 +130,7 @@ Display hub and site navigation on the home page, and the home site navigation i
 2.	**Enable** global navigation, enter a **Title**, and then select **Home site navigation** as the source.
 3.	Select **Save**. Changes may take a few minutes to reflect.
 
-> ![Image of a site naviagtion in the global navigation tab](media/app-bar-scenario-1.png)
+![Image of a site naviagtion in the global navigation tab](media/app-bar-scenario-1.png)
 
 ### Display the home site’s hub navigation in global navigation
 Display hub and site navigation on the home page, and the hub navigation in the global navigation panel. 
@@ -138,7 +138,7 @@ Display hub and site navigation on the home page, and the hub navigation in the 
 2.	**Enable** global navigation, enter a **Title**, and then select **Hub or global navigation** as the source.
 3.	Select **Save**. Changes may take a few minutes to reflect.
 
-> ![Image of a hub naviagtion in the global navigation tab](media/app-bar-scenario-2.png)
+![Image of a hub naviagtion in the global navigation tab](media/app-bar-scenario-2.png)
 
 ### Hide the site navigation and display it in the global navigation
 Display just the hub navigation on the home page, and the site navigation in the global navigation panel. 
@@ -152,7 +152,7 @@ Display just the hub navigation on the home page, and the site navigation in the
 3.	**Enable** global navigation, enter a **Title**, and then select **Home site navigation** as the source.
 4.	Select **Save**. Changes may take a few minutes to reflect.
 
-> ![Image of a site naviagtion in the global navigation tab](media/app-bar-scenario-3.png)
+![Image of a site naviagtion in the global navigation tab](media/app-bar-scenario-3.png)
 
 
 ## Set up a home site for the first time
