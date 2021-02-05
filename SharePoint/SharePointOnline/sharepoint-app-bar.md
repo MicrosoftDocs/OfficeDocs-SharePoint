@@ -213,16 +213,17 @@ Temporarily disable the SharePoint app bar:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $false`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>[!NOTE]  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
+   >[!NOTE]  
+   > - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
 
-2.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following: 
-   `Get-SPOTemporarilyDisableAppBar`
+2.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Get-SPOTemporarilyDisableAppBar`
 
 
 ### Resources
 
-- Learn more about home sites
+- Learn more about [home sites](https://docs.microsoft.com/sharepoint/home-site)
 - Learn more about [planning](https://docs.microsoft.com/sharepoint/planning-hub-sites) and [creating hub sites](https://docs.microsoft.com/sharepoint/create-hub-site)
 - Learn more about [navigation and information architecture in SharePoint](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience)
 - Learn more about [sharing and permissions in SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions)
