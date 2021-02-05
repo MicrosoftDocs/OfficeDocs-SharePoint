@@ -84,7 +84,7 @@ Global navigation logo specifications:
 7.	Finally, determine the **Navigation source**. Learn more about selecting a source.
 8.	Make edits to the selected global navigation source if needed by selecting **Edit global navigation**. Select **Save** when you are done. Updates to global navigation may take several minutes before they appear.
 
-         ![Image of where to select the global navigation source](media/app-bar-source.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image of where to select the global navigation source](media/app-bar-source.png)
 
 >[!NOTE] 
 > -	The global navigation source can be edited at any time by site owners or admins of the home site.
