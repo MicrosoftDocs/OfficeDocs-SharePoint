@@ -214,7 +214,8 @@ Temporarily disable the SharePoint app bar:
 
 **Set-SPOTemporarilyDisableAppBar $false**
 
->[!NOTE]  It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
+>[!NOTE]  
+> - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
 
 2.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following: 
 
