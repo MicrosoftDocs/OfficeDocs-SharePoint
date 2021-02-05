@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Use the SharePoint app bar to enhance intranet wayfinding and display personalized content "
+description: "Use the SharePoint app bar to enhance intranet way finding and display personalized content "
 ---
 
 # Introduction to the SharePoint app bar
 
-Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global wayfinding experience while dynamically displaying personalized sites, news, and files. The app bar can be accessed on the left-hand side anywhere in SharePoint.
+Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way finding experience while dynamically displaying personalized sites, news, and files. The app bar can be accessed on the left-hand side anywhere in SharePoint.
 
 <<<image 1>>>
 
@@ -171,19 +171,19 @@ If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-sit
 3.	[Set this communication](https://docs.microsoft.com/sharepoint/home-site#set-a-site-as-your-home-site) site as a home site using SharePoint Online Management Shell tool.
 4.	[Share the home site with users](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658?ui=en-us&rs=en-us&ad=us#:~:text=Share%20a%20site%201%20Communication%20sites.%20Select%20Share,external%20users%22%20to%20share%20the%20...%20See%20More.) so they can access the global navigation links. 
 5.	On the home site, select **Settings** and then **Global navigation** to **enable** and customize.
-6.	For the global navigation source, select **Home site navigation** to display the home site navigation that you just created in the global navigation panel. Then select **Save**.
+6.	For the global navigation source, select **Home site navigation** to display the home site navigation that you created in the global navigation panel. Then select **Save**.
 
 
 ## Modernize classic SharePoint sites to display the SharePoint app bar
 The SharePoint app bar will only appear in [modern SharePoint sites](https://docs.microsoft.com/sharepoint/dev/transform/modernize-classic-sites) and [pages](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages). 
-We highly recommend modernizing classic sites not only to display the SharePoint app bar but for a more consistent user experience. Learn more about how to modernize classic SharePoint sites and  pages using the open source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages).
+We highly recommend modernizing classic sites not only to display the SharePoint app bar but for a more consistent user experience. Learn more about how to modernize classic SharePoint sites and  pages using the open-source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages).
 <br>
 
-Additional guidance on how to display the SharePoint app bar on a classic sites will be available soon. 
+More guidance on how to display the SharePoint app bar on a classic site will be available soon. 
 
 
-## Teach end-users about this feature
-Help end-users understand how the new SharePoint app bar works. 
+## Teach end users about this feature
+Help end users understand how the new SharePoint app bar works. 
 
 
 
