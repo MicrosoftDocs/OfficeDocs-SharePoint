@@ -91,7 +91,7 @@ To change the owners for any site that isn't connected to a Microsoft 365 group,
 |:-----|:-----|
 |![Manage administrators](media/manage-administrators.png) |![Manage admins](media/manage-admins.png)|
 
-<br/>
+<br/><br/>
 
 | Classic | New |
 |:-----|:-----|
@@ -169,6 +169,7 @@ To view your deleted sites, go to the new SharePoint admin center, go to the [De
 |:-----|:-----|
 |![Recycle bin](media/recycle-bin.png) |![Deleted sites](media/deleted-sites.png)|
 
+<br/>
 
 | Classic | New |
 |:-----|:-----|
