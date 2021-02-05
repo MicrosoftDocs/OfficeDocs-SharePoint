@@ -28,15 +28,22 @@ This article covers all the features on the classic site collections page and wh
 
 ![Ribbon on site collections page](media/site-collections-menu.png)
 
+> [!IMPORTANT]
+> The classic site collections page has been removed. This article shows the features that were present on the classic site collections page and where to find them in the new SharePoint admin center.
+
 ## Create a new private site collection
 
-To create a site collection in the new SharePoint admin center, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and then select **Create**. To create a classic site, select **Other options**. 
+To create a site collection in the new SharePoint admin center, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and then select **Create**. To create a classic site, select **Other options**.
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |Title  <br/> |Site name  <br/> |
 |Change the URL path to /sites/ or /teams/ <br/> |Site address boxes appear after you begin entering a site name.  <br/> |
@@ -56,11 +63,15 @@ On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManag
 
 The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) show most of this information, so you don't even need to select a site to see details. To see the properties for an individual site, select anywhere in the site row, except in the URL column.
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |![Site collections properties](media/site-collection-properties.png) |![Communication site](media/communication-site.png)|
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |Title  <br/> |Site name column  <br/> |
 |Complete Web Site Address link <br/> |URL column shows the path after the domain. You can copy the link to save the full URL to the Clipboard. <br/> |
@@ -74,11 +85,15 @@ The columns on the [Active sites page](https://admin.microsoft.com/sharepoint?pa
 
 To change the owners for any site that isn't connected to a Microsoft 365 group, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, select **Permissions** on the command bar, and then select **Manage admins**.
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |![Manage administrators](media/manage-administrators.png) |![Manage admins](media/manage-admins.png)|
 
-|**Classic**|**New**|
+<br/><br/>
+
+| Classic | New |
 |:-----|:-----|
 |Primary Site Collection Administrator <br/> |Switch the role of an existing admin to Primary Admin, or add an admin and then switch them to Primary admin. <br/> |
 |Site Collection Administrators <br/> |Use the Add an admin box to add an admin and the Remove button to remove an admin. <br/> |
@@ -88,11 +103,15 @@ To change the owners for any site that isn't connected to a Microsoft 365 group,
 
 To change sharing settings for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Sharing** on the command bar.
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |![Sharing classic](media/sharing-classic.png) |![Sharing modern](media/sharing-modern.png)|
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |Sharing outside your company  <br/> |External sharing <br/> - “Don’t allow sharing outside your organization” is the same as “Only people in your organization.” <br/> - “Allow sharing only with the external users that already exist in your organization’s directory” is the same as “Existing guests only.” <br/> - “Allow external users who accept sharing invitations and sign in as authenticated users” is the same as “New and existing guests.” <br/> - “Allow sharing with all external users, and by using anonymous access links” is the same as “Anyone.” <br/>|
 |Default link type <br/> |Default sharing link type <br/> - “Respect default organization setting” is the same as “Same as organization-level setting.”  <br/> - “Direct” is the same as “Specific people.” <br/> - “Internal” is the same as “Only people in your organization.” <br/> - “Anonymous Access” is the same as “Anyone with the link.” <br/>|
@@ -104,18 +123,22 @@ To change sharing settings for a site, go to the [Active sites page](https://adm
 
 These options appear if you use manual site storage limits in your organization. To change the storage limit for a site, go to the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and select **Storage** on the command bar.
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |![Set storage quota](media/set-storage-quota.png)|![Edit storage limit](media/edit-storage-limit.png)|
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |Limit storage quota for each selected site collection to a maximum of   <br/> |Maximum storage for this site <br/>|
 |Send e-mail to site collection administrators when a site collection’s storage reaches <br/> |Allow notifications <br/> |
 
 ## Buy storage
 
-In the Microsoft 365 admin center, go to the [Purchase services page](https://go.microsoft.com/fwlink/p/?linkid=868433).
+In the Microsoft 365 admin center, go to the [Purchase services page](https://go.microsoft.com/fwlink/p/?linkid=868433). For more information, please see [Add storage space for your subscription](https://docs.microsoft.com/microsoft-365/commerce/add-storage-space?view=o365-worldwide).
 
 ## Server resource quota
 
@@ -129,7 +152,9 @@ These features haven't been in use for more than a year.
 
 ![Project Web App](media/project-web-app.png)
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |Add or remove<br/> | These commands are available in PowerShell only. Use the cmdlet [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite) -EnablePWA<br/>|
 |Settings (SharePoint Permission Mode or Project Permission Mode) and Project Web App Size <br/>| To change the permission mode, go to the site as the Project Web App Administrator and follow the steps in [Change permission management in Project Online](/projectonline/change-permission-management-in-project-online). You can review the size of the Project Web App site using the above instructions where it is located on the same page under the section "Project Web App Usage". <br/>|
@@ -138,11 +163,15 @@ These features haven't been in use for more than a year.
 
 To view your deleted sites, go to the new SharePoint admin center, go to the [Deleted sites page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true).
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |![Recycle bin](media/recycle-bin.png) |![Deleted sites](media/deleted-sites.png)|
 
-|**Classic**|**New**|
+<br/>
+
+| Classic | New |
 |:-----|:-----|
 |Restore Deleted Items <br/> |Select the site, and on the command bar, select **Restore**.  <br/>|
 |Deleted (date)  <br/> |Time deleted column. <br/> |
@@ -168,12 +197,10 @@ This information is no longer displayed because you shouldn't need to worry abou
 
 ![Storage columns](media/storage-columns.png)
 
-Most of the sites listed in the classic SharePoint admin center are included on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true). A few are hidden because they're system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that don’t appear in the classic SharePoint admin center. To see the site list as it in the way it appeared in the classic SharePoint admin center, from the **View** menu, select **Classic sites**.  
+Most of the sites that were listed in the classic SharePoint admin center are included on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true). A few are hidden because they're system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that didn’t appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Built-in views** menu, select **Classic sites**.  
 
 In both the classic and new admin centers, you can select multiple sites and bulk edit the sharing or storage settings, or delete the sites.  
 
-In the classic site list, locked sites appear with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
+In the classic site list, locked sites appeared with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
 
 If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size. 
-
-
