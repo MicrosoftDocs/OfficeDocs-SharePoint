@@ -29,7 +29,7 @@ This article covers all the features on the classic site collections page and wh
 ![Ribbon on site collections page](media/site-collections-menu.png)
 
 > [!IMPORTANT]
-> The Classic site collections page was removed on October 22, 2020. This article shows the features that were present in the Classic site collections page and where to find them in the new SharePoint admin center.
+> The classic site collections page has been removed. This article shows the features that were present on the classic site collections page and where to find them in the new SharePoint admin center.
 
 ## Create a new private site collection
 
