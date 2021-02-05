@@ -153,6 +153,87 @@ Display just the hub navigation on the home page, and the site navigation in the
 <<<image 11>>>
 
 
+## Set up a home site for the first time
+A [home site](https://docs.microsoft.com/sharepoint/home-site) is a SharePoint communication site that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. Its recommended that you set up a home site for your organization to take full advantage of SharePoint’s communication and collaboration features and is required to enable and customize global navigation in the SharePoint app bar. 
+
+
+### Set up a home site just for global navigation
+If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-site) for the main purpose of setting up global navigation, you can simplify the steps usually recommended to plan and launch a home site. Learn more about planning navigation in SharePoint and apply information architecture principals to your new home site’s navigational design. 
+
+>[!NOTE]
+> -	Only one communication site can be set as the home site.
+> -	The first time you set up a home site, it might take up to several minutes for the changes to take effect.
+> -	Global admin credentials are required to use the SharePoint Online Management Shell tool that is required to transform a communication site into a home site.
+
+
+1.	Start by creating a [SharePoint communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
+2.	[Customize the communication site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) to reflect the view you’d like to see in the global navigation pane. You can make edits to the navigation source and individual labels and links at any time.
+3.	[Set this communication](https://docs.microsoft.com/sharepoint/home-site#set-a-site-as-your-home-site) site as a home site using SharePoint Online Management Shell tool.
+4.	[Share the home site with users](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658?ui=en-us&rs=en-us&ad=us#:~:text=Share%20a%20site%201%20Communication%20sites.%20Select%20Share,external%20users%22%20to%20share%20the%20...%20See%20More.) so they can access the global navigation links. 
+5.	On the home site, select **Settings** and then **Global navigation** to **enable** and customize.
+6.	For the global navigation source, select **Home site navigation** to display the home site navigation that you just created in the global navigation panel. Then select **Save**.
+
+
+## Modernize classic SharePoint sites to display the SharePoint app bar
+The SharePoint app bar will only appear in [modern SharePoint sites](https://docs.microsoft.com/sharepoint/dev/transform/modernize-classic-sites) and [pages](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages). 
+We highly recommend modernizing classic sites not only to display the SharePoint app bar but for a more consistent user experience. Learn more about how to modernize classic SharePoint sites and  pages using the open source [SharePoint PnP Page Transformation solution](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages).
+<br>
+
+Additional guidance on how to display the SharePoint app bar on a classic sites will be available soon. 
+
+
+## Teach end-users about this feature
+Help end-users understand how the new SharePoint app bar works. 
+
+
+
+## Temporarily disable the SharePoint App bar
+You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future MC posts.
+<br>
+Temporarily disable the SharePoint app bar:
+
+1.	Download the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+2.	Run the following command exactly as it appears:
+
+**Set-SPOTemporarilyDisableAppBar $true**
+
+3.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following: 
+
+**Get-SPOTemporarilyDisableAppBar**
+
+
+>[!NOTE] 
+> -	It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
+> -	Running the command without the $false or $true value will cause it to fail.
+> -	You must be using the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+
+### Enable the SharePoint app bar:
+1.	Once you’re ready to display the SharePoint app bar, run the following command:
+
+**Set-SPOTemporarilyDisableAppBar $false**
+
+>[!NOTE]  It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
+
+2.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following: 
+
+**Get-SPOTemporarilyDisableAppBar**
+
+
+### Resources
+
+Learn more about home sites
+Learn more about [planning](https://docs.microsoft.com/sharepoint/planning-hub-sites) and [creating hub sites](https://docs.microsoft.com/sharepoint/create-hub-site)
+Learn more about [navigation and information architecture in SharePoint](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience)
+Learn more about [sharing and permissions in SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions)
+
+
+
+
+
+
+
+
+
 
 
 
