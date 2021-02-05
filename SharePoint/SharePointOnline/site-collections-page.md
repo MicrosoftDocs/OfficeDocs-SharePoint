@@ -171,7 +171,7 @@ This information is no longer displayed because you shouldn't need to worry abou
 
 ![Storage columns](media/storage-columns.png)
 
-Most of the sites that were listed in the classic SharePoint admin center are included on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true). A few are hidden because they're system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that didn’t appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Buil-in views** menu, select **Classic sites**.  
+Most of the sites that were listed in the classic SharePoint admin center are included on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true). A few are hidden because they're system sites that you shouldn’t need to change. The [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true) contains all the new team sites and communication sites that didn’t appear in the classic SharePoint admin center. To see the site list as it appeared in the classic SharePoint admin center, from the **Built-in views** menu, select **Classic sites**.  
 
 In both the classic and new admin centers, you can select multiple sites and bulk edit the sharing or storage settings, or delete the sites.  
 
