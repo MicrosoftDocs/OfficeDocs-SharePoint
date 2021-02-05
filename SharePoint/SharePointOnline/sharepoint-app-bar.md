@@ -72,10 +72,11 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 
 5.	Next, add the **Logo** for global navigation that will be recognizable to users to replace the home icon in the app bar. No action is needed if you choose to keep the default home icon. 
 <br>
+<br>
 Global navigation logo specifications:
-- The logo size should be 20x20 pixels
-- PNG file type
-- Transparent background recommended 
+   - The logo size should be 20x20 pixels
+   - PNG file type
+   - Transparent background recommended 
 
 6.	Then, enter a **Title** that will be displayed at the top of the global navigation pane.
 
@@ -188,8 +189,9 @@ Help end users understand how the new SharePoint app bar works.
 
 
 
-## Temporarily disable the SharePoint App bar
+## Temporarily disable the SharePoint app bar
 You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future MC posts.
+<br>
 <br>
 Temporarily disable the SharePoint app bar:
 
