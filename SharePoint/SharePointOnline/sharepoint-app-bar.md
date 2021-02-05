@@ -24,13 +24,12 @@ description: "Use the SharePoint app bar to enhance intranet way finding and dis
 
 Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way finding experience while dynamically displaying personalized sites, news, and files. The app bar can be accessed on the left-hand side anywhere in SharePoint.
 
-   ![Image of the SharePoint app bar](media/app-bar.png)
-
+![Image of the SharePoint app bar](media/app-bar.png)
 
 ## The SharePoint app bar experience
 The SharePoint app bar brings together intranet resources and personalized content like sites, news, and files. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](https://docs.microsoft.com/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
 
- ![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
+![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
 
 >[!NOTE]
 > - Global navigation is the only app bar tab that can be customized. 
@@ -62,7 +61,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 2.	Navigate to your organization’s home site. 
 3.	Select **Settings** and then select **Global navigation settings**.
 
- ![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
+      ![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
 
 >[!NOTE]
 > -	If you do not see **Global navigation** in the **Settings** pane on the home site, you may not have site owner permissions (or higher) to the home site.
