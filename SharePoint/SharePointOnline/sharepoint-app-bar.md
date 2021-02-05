@@ -84,7 +84,7 @@ Global navigation logo specifications:
 7.	Finally, determine the **Navigation source**. Learn more about selecting a source.
 8.	Make edits to the selected global navigation source if needed by selecting **Edit global navigation**. Select **Save** when you are done. Updates to global navigation may take several minutes before they appear.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image of where to select the global navigation source](media/app-bar-source.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image of where to select the global navigation source](media/app-bar-source.png)
 
 >[!NOTE] 
 > -	The global navigation source can be edited at any time by site owners or admins of the home site.
@@ -194,13 +194,11 @@ You can temporarily disable the SharePoint app bar in your tenant to prepare for
 Temporarily disable the SharePoint app bar:
 
 1.	Download the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
-2.	Run the following command exactly as it appears:
-
-**Set-SPOTemporarilyDisableAppBar $true**
+2.	Run the following command exactly as it appears: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $true`
 
 3.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following: 
-
-**Get-SPOTemporarilyDisableAppBar**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Get-SPOTemporarilyDisableAppBar`
 
 
 >[!NOTE] 
@@ -210,15 +208,13 @@ Temporarily disable the SharePoint app bar:
 
 ### Enable the SharePoint app bar:
 1.	Once you’re ready to display the SharePoint app bar, run the following command:
-
-**Set-SPOTemporarilyDisableAppBar $false**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $false`
 
 >[!NOTE]  
 > - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
 
 2.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following: 
-
-**Get-SPOTemporarilyDisableAppBar**
+   `Get-SPOTemporarilyDisableAppBar`
 
 
 ### Resources
