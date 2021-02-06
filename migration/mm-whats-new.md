@@ -28,6 +28,8 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 - **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before we start the migration.
 - **Agent targeting**
 - **General UI improvements**. General improvements are being made to the first run experience.
+- **TaskID and failure reason.** The TaskID and reason for task failure will be added to the task summary report.
+- **CSV optional header.**  Soon users will have the options of including headers in the bulk upload file.
 
   
 ## Current features and improvements through January 2021
