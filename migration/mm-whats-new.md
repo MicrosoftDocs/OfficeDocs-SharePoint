@@ -17,7 +17,6 @@ search.appverid: MET150
 description: "Learn about the new features and updates to existing features in Migration Manager."
 ---
 
-
 # What's new in Migration Manager
 
 We're continuously adding new features to Migration Manager and fixing issues we learn about. Here's a summary of what's included.   
@@ -25,11 +24,19 @@ We're continuously adding new features to Migration Manager and fixing issues we
 You can help us improve Migration Manager by sending us your suggestions and reporting bugs you encounter. At the bottom of this page, click the Feedback button.
 
 ## Coming soon
-- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users will be able to specify pre-defined characters to replace invalid characters. 
+
 - **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before we start the migration.
-- **Fix for zero durations in Summary Reports.** We recently introduced an issue where the duration field was showing zero values in the *SummaryReport.csv*. This has been fixed and will roll out to your tenants soon. 
+- **Agent targeting**
+- **General UI improvements**. General improvements are being made to the first run experience.
 
   
+## Current features and improvements through January 2021
+
+- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users will be able to specify pre-defined characters to replace invalid characters. 
+-  **Fix for zero durations in Summary Reports.** We recently introduced an issue where the duration field was showing zero values in the *SummaryReport.csv*. This has been fixed.
+- **Fix for large file upload.**  Report files larger than 250 MB can now be uploaded.
+
+
 ## Current features through December 2020
 
 - **Process multiple tasks per agent.** Each agent can now process 5-10 migration tasks, simultaneously so that you can finish your migrations faster.
