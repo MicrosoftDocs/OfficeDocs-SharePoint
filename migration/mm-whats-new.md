@@ -32,7 +32,7 @@ You can help us improve Migration Manager by sending us your suggestions and rep
   
 ## Current features and improvements through January 2021
 
-- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users will be able to specify pre-defined characters to replace invalid characters. 
+- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users can now specify pre-defined characters to replace invalid characters. 
 -  **Fix for zero durations in Summary Reports.** We recently introduced an issue where the duration field was showing zero values in the *SummaryReport.csv*. This has been fixed.
 - **Fix for large file upload.**  Report files larger than 250 MB can now be uploaded.
 
