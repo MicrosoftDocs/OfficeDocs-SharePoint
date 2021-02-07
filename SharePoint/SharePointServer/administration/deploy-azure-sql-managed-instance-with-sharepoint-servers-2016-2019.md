@@ -37,13 +37,13 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
 
 3. Install SharePoint Server 2016 or SharePoint Server 2019 in VM 2:
        
-    -  Run **PrerequitsiteInstaller.exe**
+   1. Run **PrerequitsiteInstaller.exe**.
          
-    - Run **Setup.exe**
+   2. Run **Setup.exe**.
          
-    - Install the May 2019 sts core patch for SharePoint Server 2016, [KB 4464549](https://support.microsoft.com/help/4464549) or SharePoint Server 2019, [KB 4464556](https://support.microsoft.com/help/4464556)
+   3. Install the May 2019 sts core patch for SharePoint Server 2016 ([KB 4464549](https://support.microsoft.com/help/4464549)) or for SharePoint Server 2019 ([KB 4464556](https://support.microsoft.com/help/4464556)).
          
-    - Install the April 2019 wssloc MUI/language pack patch for SharePoint Server 2016, [KB 4461507](https://support.microsoft.com/help/4461507) or for SharePoint Server 2019, [KB 4462221](https://support.microsoft.com/help/4462221)
+   4. Install the April 2019 wssloc MUI/language pack patch for SharePoint Server 2016 ([KB 4461507](https://support.microsoft.com/help/4461507)) or for SharePoint Server 2019 ([KB 4462221](https://support.microsoft.com/help/4462221)).
 
    > [!NOTE]
    > You can join other VMs to Active Directory in subnet 1.
@@ -53,18 +53,29 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
    > [!IMPORTANT]
    > No other resources can reside in subnet 2 except for SQL MI.
 
-4. Create the SharePoint farm, hosting the databases on SQL MI with SQL authentication. Open the **SharePoint Management Shell** and run the following Windows PowerShell commands:
+4. Create or join the SharePoint farm, hosting the databases on SQL MI with SQL authentication.
 
-   ```powershell
-      $FarmCredential = Get-Credential -Message "Provide the user name and password for the SharePoint farm service account." 
-      $DBCredential = Get-Credential -Message "Provide the user name and password for the Azure SQL Managed Instance database login." 
-      $FarmPassphrase = Read-Host -AsSecureString -Prompt "Provide the SharePoint farm passphrase" 
+   1. To create the SharePoint farm, open the **SharePoint Management Shell** and run the following Windows PowerShell commands:
 
-      New-SPConfigurationDatabase -DatabaseServer <DBServer> -DatabaseName <ConfigDB> -FarmCredentials $FarmCredential -DatabaseCredentials $DBCredential -Passphrase $FarmPassphrase -LocalServerRole <ServerRole> 
-   ```
+      ```powershell
+         $FarmCredential = Get-Credential -Message "Provide the user name and password for the SharePoint farm service account." 
+         $DBCredential = Get-Credential -Message "Provide the user name and password for the Azure SQL Managed Instance database login." 
+         $FarmPassphrase = Read-Host -AsSecureString -Prompt "Provide the SharePoint farm passphrase" 
 
-    Where:
-    
+         New-SPConfigurationDatabase -DatabaseServer <DBServer> -DatabaseName <ConfigDB> -FarmCredentials $FarmCredential -DatabaseCredentials $DBCredential -Passphrase $FarmPassphrase -LocalServerRole <ServerRole> 
+      ```
+
+   2. To join additional VMs the SharePoint farm, open the **SharePoint Management Shell** on the additional VMs and run the following Windows PowerShell commands:
+   
+      ```powershell
+         $DBCredential = Get-Credential -Message "Provide the user name and password for the Azure SQL Managed Instance database login." 
+         $FarmPassphrase = Read-Host -AsSecureString -Prompt "Provide the SharePoint farm passphrase" 
+
+         Connect-SPConfigurationDatabase -DatabaseServer <DBServer> -DatabaseName <ConfigDB> -DatabaseCredentials $DBCredential -Passphrase $FarmPassphrase -LocalServerRole <ServerRole> 
+      ```
+
+   Where:
+   
    - _\<DBServer\>_ is the name you gave the Azure SQL Managed Instance in step 4.
    - _\<ConfigDB\>_ is the name of the SharePoint configuration database to be created.
    - _\<ServerRole\>_ is the SharePoint MinRole server role for this server in the SharePoint farm.
@@ -72,7 +83,10 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
 5. Run the **SharePoint Products Configuration Wizard** to complete the configuration. Next open Central Administration to complete the **Farm Configuration Wizard**.
 
 > [!NOTE]
-> Access Services isn't supported with Azure SQL Managed Instances.
+> SharePoint Server doesn't support connecting to databases hosted in Azure SQL Managed Instance using Windows authentication.
+
+> [!NOTE]
+> Access Services isn't supported with Azure SQL Managed Instance.
 
 
 ## See also
