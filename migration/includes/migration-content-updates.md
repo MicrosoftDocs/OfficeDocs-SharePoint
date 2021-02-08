@@ -2,6 +2,32 @@
 
 
 
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/1/2021 | [Sensitivity labels and the SharePoint Migration API](/SharepointMigration/sp-migration-api-and-sensitivity-labels) | added |
+| 2/1/2021 | [Migration Manager Reports](/SharepointMigration/mm-reports) | modified |
+| 2/2/2021 | [Connect to Box with Migration Manager](/SharepointMigration/mm-box-step1-connect) | modified |
+| 2/2/2021 | [Step 2: Scan and assess Box accounts using Migration Manager](/SharepointMigration/mm-box-step2-scan-assess) | modified |
+| 2/2/2021 | [Step 3: Copy to migrations tab for Box migration](/SharepointMigration/mm-box-step3-copy-to-migrations) | modified |
+| 2/2/2021 | [Review the destination paths for your Box migration with Migration Manager](/SharepointMigration/mm-box-step4-review-destinations) | modified |
+| 2/2/2021 | [Step 5: Map Box identities with Migration Manager](/SharepointMigration/mm-box-step5-map-identities) | modified |
+| 2/2/2021 | [Migrate file shares to SharePoint and OneDrive](/SharepointMigration/fileshare-to-odsp-migration-guide) | modified |
+| 2/2/2021 | [Troubleshoot SharePoint Migration Tool](/SharepointMigration/troubleshooting-common-spmt-issues) | modified |
+| 2/3/2021 | [Mover - Reviewing users before migration](/SharepointMigration/mover-review-users) | modified |
+| 2/3/2021 | [Mover transfer status codes](/SharepointMigration/mover-transfer-status-codes) | modified |
+| 2/4/2021 | [What does SPMT support?](/SharepointMigration/what-is-supported-spmt) | modified |
+| 2/4/2021 | [Create a user-mapping file for data content migration](/SharepointMigration/create-a-user-mapping-file-for-data-content-migration) | modified |
+| 2/4/2021 | [How does the SharePoint Migration Tool work?](/SharepointMigration/how-the-sharepoint-migration-tool-works) | modified |
+| 2/4/2021 | [Format your JSON or CSV file for data content migration - SharePoint](/SharepointMigration/how-to-format-your-csv-file-for-data-content-migration) | modified |
+| 2/4/2021 | [SharePoint Migration Tool for SharePoint and OneDrive](/SharepointMigration/introducing-the-sharepoint-migration-tool) | modified |
+| 2/4/2021 | [Migrate managed metadata by using SPMT](/SharepointMigration/managed-metadata-migration) | modified |
+| 2/4/2021 | Migrating web parts using the Migration API | removed |
+| 2/4/2021 | [Mover migration - Setting up your Box source connector](/SharepointMigration/mover-box) | modified |
+
+
 ## Week of January 25, 2021
 
 
