@@ -58,11 +58,11 @@ The aggregated newsfeed feature (available at newsfeed.aspx and typically access
 
 To ensure that users receive highly relevant help content, we are moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Microsoft 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
-### Groove Sync App
+### Groove.exe (Previous OneDrive for Business sync app)
 
-The Groove sync app is our app for syncing documents between your personal devices and SharePoint Server 2010, 2013, and 2016 Team sites. SharePoint Server 2019 introduces support for the new OneDrive Sync app (a.k.a. the Next Generation Sync Client), which provides a more reliable and feature-rich syncing experience. If Groove detects that your existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, it will attempt to migrate those sync relationships to the OneDrive sync app. Administrators can control this migration experience.
+The previous OneDrive for Business sync app (Groove.exe) was used for syncing files in SharePoint Server 2010, 2013, and 2016. SharePoint Server 2019 introduces support for the new OneDrive sync app (OneDrive.exe), which provides a more reliable and feature-rich syncing experience. If a user's existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, the new OneDrive sync app will attempt to take over syncing. Administrators can control this transition experience.
 
-The Groove sync app will remain supported, but deprecated, for the SharePoint Server 2019 release.
+The previous OneDrive sync app will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
 ### InfoPath Services
 
@@ -88,7 +88,7 @@ The Variations will remain supported but deprecated for the SharePoint Server 20
 
 ### PerformancePoint Services
 
-PerformancePoint Services has a significant dependency on Microsoft Silverlight, which is a technology that will no longer be supported as of October 12, 2021. PerformancePoint Services will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [PowerBI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we are making many new business intelligence investments in PowerBI.
+PerformancePoint Services has a significant dependency on Microsoft Silverlight, which is a technology that will no longer be supported as of October 12, 2021. PerformancePoint Services will remain supported, but deprecated, for the SharePoint Server 2019 release. Customers are recommended to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services as we are making many new business intelligence investments in Power BI.
 
 ### SharePoint Designer
 
@@ -130,7 +130,7 @@ SharePoint Server 2019 Preview included a built-in PDF viewer which allowed Shar
 
 ### PowerPivot Gallery and Refresh
 
-Since the feature was first introduced in SharePoint, Microsoft BI strategy has shifted away from heavy integration to a standalone BI solution, Power BI, to give customers a flexible, optional integration with SharePoint along with standalone capabilities.  Both [PowerBI.com](https://powerbi.com/) and [Power BI Report Server](https://powerbi.microsoft.com/report-server/) offer the option to host and view Excel Workbooks with PowerPivot models today and is the preferred method for customers going forward to host and use their Excel Workbooks with PowerPivot models, or simply to migrate to PBIX files using the migration option in Power BI Desktop for Excel Workbooks.
+Since the feature was first introduced in SharePoint, Microsoft BI strategy has shifted away from heavy integration to a standalone BI solution, Power BI, to give customers a flexible, optional integration with SharePoint along with standalone capabilities.  Both [Power BI.com](https://powerbi.com/) and [Power BI Report Server](https://powerbi.microsoft.com/report-server/) offer the option to host and view Excel Workbooks with PowerPivot models today and is the preferred method for customers going forward to host and use their Excel Workbooks with PowerPivot models, or simply to migrate to PBIX files using the migration option in Power BI Desktop for Excel Workbooks.
 
 ### SharePoint Workflow Manager (SharePoint Server 2019 Preview)
 
