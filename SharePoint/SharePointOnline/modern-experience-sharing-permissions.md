@@ -75,9 +75,9 @@ The SharePoint admin must specify which users can connect other sites to the hub
 
 ![Screenshot of hub site registration dialog in the SharePoint admin center](media/permissions-register-hub-site.png)
 
-## Sharable links
+## Shareable links
 
-Giving people permissions to a site, group, or team gives them access to all site content. If you want to share an individual file or folder, you can do so with sharable links. There are three primary link types:
+Giving people permissions to a site, group, or team gives them access to all site content. If you want to share an individual file or folder, you can do so with shareable links. There are three primary link types:
 
   - *Anyone* links give access to the item to anyone who has the link, including people outside your organization. People using an *Anyone* link don't have to authenticate, and their access can't be audited.
   - *People in your organization* links work for only people inside your Microsoft 365 organization. (They don't work for guests in the directory, only members).  
