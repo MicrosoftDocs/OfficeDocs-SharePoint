@@ -151,7 +151,7 @@ Microsoft Trust Center provides info about Microsoft's trust policy, how Microso
 
 - **Microsoft Trust Center.** Privacy, compliance, and cybersecurity are as important to Microsoft as they are to you. For info about how Microsoft 365 can help you increase employee productivity while helping you safeguard your data, see [Microsoft 365](https://www.microsoft.com/trust-center/product-overview#office-CustomSpacingTemplate-km3fxy2) in the Microsoft Trust Center. 
 
-- **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Microsoft 365 with OneDrive give you GDPR-compliant tools that you can integrate into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/trustcenter/privacy/gdpr/resources). For additional helpful info about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
+- **General Data Protection Regulation (GDPR).** This new European Union regulation changes how companies are required to handle data and the transparency with which they collect it. Windows 10 and Microsoft 365 with OneDrive give you GDPR-compliant tools that you can integrate into your overall data integrity story. For answers to some common questions about GDPR compliance with OneDrive and SharePoint, see [GDPR Compliancy with OneDrive and SharePoint](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/GDPR-Compliancy-with-OneDrive-and-SharePoint/ba-p/191126). For a complete list of helpful resources about GDPR, see [Resources for GDPR compliance](https://www.microsoft.com/trustcenter/privacy/gdpr/resources). For other helpful info about OneDrive, see the [Microsoft OneDrive Blog](https://techcommunity.microsoft.com/t5/OneDrive-Blog/bg-p/OneDriveBlog).
 
 ### Multi-Geo data residency
 
@@ -191,7 +191,7 @@ When deploying any new technology, there's always an ideal process to follow to 
 
 ### Determine devices
 
-Your organization doesn't have to manage all connected devices for them to use OneDrive, but securing and managing the interaction with the data do require a layer of management capabilities. Start by determining which types of devices—iOS, Android, Windows 10—require access to OneDrive and who owns them (the business or the employee). Put this info in a spreadsheet to help you determine which capabilities you need from your technology solutions. Some management options are more suitable for devices that the company owns and manages. Regardless of the platform running OneDrive and who owns it, the following management options are available to you:
+Your organization doesn't have to manage all connected devices for them to use OneDrive, but securing and managing the interaction with the data do require a layer of management capabilities. Start by determining which types of devices—iOS, Android, Windows 10—require access to OneDrive and who owns them (the business or the employee). Put this info in a spreadsheet to help you determine which capabilities you need from your technology solutions. Some management options are more suitable for devices that the organization owns and manages. Regardless of the platform running OneDrive and who owns it, the following management options are available to you:
 
 - OneDrive admin center
 
@@ -199,7 +199,7 @@ Your organization doesn't have to manage all connected devices for them to use O
 
 - Intune MDM or MAM
 
-For Windows 10 devices that are joined to a domain, you have the additional option of using GPOs for management. Also, for those devices that are company owned and managed, you can use Microsoft Endpoint Configuration Manager to deploy OneDrive.
+For Windows 10 devices that are joined to a domain, you have the additional option of using Group Policy for management. Also, for those devices that are owned and managed by the organization, you can use Microsoft Endpoint Configuration Manager to deploy OneDrive.
 
 ### Align technologies
 
@@ -235,7 +235,7 @@ Before you deploy OneDrive, prepare your environment.
 
 ### Network utilization
 
-A variety of factors can impact the amount of network bandwidth used by OneDrive. For the best experience, we recommend that you assess this impact before doing a full OneDrive deployment across your organization. The article [Network utilization planning for the OneDrive sync app](network-utilization-planning.md) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan.
+Various factors can impact the amount of network bandwidth used by OneDrive. For the best experience, we recommend that you assess this impact before doing a full OneDrive deployment across your organization. The article [Network utilization planning for the OneDrive sync app](network-utilization-planning.md) includes the recommended process for determining your network bandwidth needs for OneDrive. Be sure to include this as part of your deployment plan.
 
 ### Multi-Geo
 
@@ -372,7 +372,7 @@ Known Folder Move can be configured by administrators to automatically redirect 
 
 ### Files in other local disk folders
 
-If users have their additional work files in various locations on their computers, it's often easiest for them to manually move the files to OneDrive. After you deploy the OneDrive sync app to your users' computers, you can instruct them to move their work files to the OneDrive folder on their computer.
+If users have other work files in various locations on their computers, it's often easiest for them to manually move the files to OneDrive. After you deploy the OneDrive sync app to your users' computers, you can instruct them to move their work files to the OneDrive folder on their computer.
 
 ### Migrating with FastTrack
 

@@ -72,8 +72,8 @@ The following table shows more detail about which Office installations were affe
 |Office 2013 Click-to-Run  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |Office 2016 Click-to-Run - Office Insider  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |
 |Office 2016 Click-to-Run - Monthly Channel  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |
-|Office 2016 Click-to-Run - Semi-Annual Channel (Targeted)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
-|Office 2016 Click-to-Run - Semi-Annual Channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
+|Office 2016 Click-to-Run - Semi-Annual Enterprise Channel (Preview)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
+|Office 2016 Click-to-Run - Semi-Annual Enterprise Channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
 
 For more info about Office channels, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus-for-enterprise).
   
