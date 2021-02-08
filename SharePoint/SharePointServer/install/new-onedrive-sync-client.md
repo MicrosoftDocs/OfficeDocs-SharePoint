@@ -21,6 +21,7 @@ description: "Learn how to configure the new OneDrive sync app (OneDrive.exe) fo
 [!INCLUDE[appliesto-xxx-xxx-2019-xxx-md](../includes/appliesto-xxx-xxx-2019-xxx-md.md)]
    
 When you deploy SharePoint Server 2019 in your organization, your users can sync their OneDrive files as well as SharePoint team site files by using the new OneDrive sync app (OneDrive.exe) for Windows or Mac. Compared with the previous OneDrive sync app (Groove.exe), the new sync app provides:
+
 - Improved performance and reliability
 - Files On-Demand
 - Support for larger files

@@ -384,10 +384,6 @@ Even though you can upload, download, and interact with your OneDrive files from
 
 If you already have the OneDrive sync app installed on Windows devices, start by determining the version or versions of OneDrive in your environment. Depending on your findings, you may need to change your deployment process to accommodate the current version (for example, run takeover commands in PowerShell to ensure that data sync responsibilities transition to the new sync app). To determine which version of OneDrive you're using, see [Which version of OneDrive am I using?](https://support.office.com/article/19246eae-8a51-490a-8d97-a645c151f2ba)
 
-### Upgrade from the Groove sync app to the OneDrive sync app
-
-If you currently have the old OneDrive sync app (Groove.exe), then you'll need to follow a slightly different process to upgrade to the new sync app. If you had more than 250 licensed users before June 2016, you may need to run a takeover command to continue syncing existing libraries using the new sync app. For detailed info about this process (and caveats), see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md).
-
 ### Sync app update process
 
 You can update the OneDrive sync app in two waves:

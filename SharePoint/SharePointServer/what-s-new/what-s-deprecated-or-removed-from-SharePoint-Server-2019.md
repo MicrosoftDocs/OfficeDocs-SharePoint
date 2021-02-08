@@ -58,11 +58,11 @@ The aggregated newsfeed feature (available at newsfeed.aspx and typically access
 
 To ensure that users receive highly relevant help content, we are moving from away from our legacy on-premises SharePoint help engine, which is based on help collections being installed in the on-prem farm. The new SharePoint help system is now rendered in the cloud and will have updated, synchronized content with Microsoft 365. Custom help based on the legacy SharePoint help engine will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
-### Groove Sync App
+### Groove.exe (Previous OneDrive for Business sync app)
 
-The Groove sync app is our app for syncing documents between your personal devices and SharePoint Server 2010, 2013, and 2016 Team sites. SharePoint Server 2019 introduces support for the new OneDrive Sync app (a.k.a. the Next Generation Sync Client), which provides a more reliable and feature-rich syncing experience. If Groove detects that your existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, it will attempt to migrate those sync relationships to the OneDrive sync app. Administrators can control this migration experience.
+The previous OneDrive for Business sync app (Groove.exe) was used for syncing files in SharePoint Server 2010, 2013, and 2016. SharePoint Server 2019 introduces support for the new OneDrive sync app (OneDrive.exe), which provides a more reliable and feature-rich syncing experience. If a user's existing sync relationships are to a site that has been upgraded to SharePoint Server 2019, the new OneDrive sync app will attempt to take over syncing. Administrators can control this transition experience.
 
-The Groove sync app will remain supported, but deprecated, for the SharePoint Server 2019 release.
+The previous OneDrive sync app will remain supported, but deprecated, for the SharePoint Server 2019 release.
 
 ### InfoPath Services
 
