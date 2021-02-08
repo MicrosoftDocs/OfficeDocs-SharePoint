@@ -107,7 +107,7 @@ SharePoint supports the following Simple Authentication and Security Layer (SASL
 
 ### Use TLS connection encryption
 
-Set **Use TLS connection encryption** to Yes to require SharePoint to extablish an encrypted connection to the SMTP server before sending email. A valid server certificate must be installed on the SMTP server to establish an encrypted connection. If this is set to Yes and an encrypted connection can't be established, no emails will be sent.
+Set **Use TLS connection encryption** to Yes to require SharePoint to establish an encrypted connection to the SMTP server before sending email. A valid server certificate must be installed on the SMTP server to establish an encrypted connection. If this is set to Yes and an encrypted connection can't be established, no emails will be sent.
 
 > [!NOTE]
 > SharePoint supports STARTTLS to establish TLS connection encryption to an SMTP server. It doesn't support SMTPS to establish SSL connection encryption to an SMTP server.
