@@ -105,7 +105,9 @@ You should now be connected to Box with Co-Admin authorization!
 
 ## Troubleshooting a Box (Co-Admin) connector
 
-**App Permissions**: Your organization may default all apps to disabled. See the following quick guide about how to ensure our app is enabled.
+### **App Permissions**
+ 
+Your organization may default all apps to disabled. See the following quick guide about how to ensure our app is enabled.
 
 1. Under **Enterprise Settings**, navigate to **Apps**. Here is a shortcut link: https://app.box.com/master/settings/apps
 
@@ -120,6 +122,20 @@ You should now be connected to Box with Co-Admin authorization!
 4. Select **Available**.
 
    ![enterprise app available](media/mover-enterprise-app-available.png)
+
+### Unable to sign in to Box
+
+If you are unable to sign in to Box, you may have turned on the option to *Disable unpublished apps by default* without providing the two App IDs required. 
+
+
+ 1. Under Global app settings, look for the setting **Disable unpublished apps by default**.  By default, this setting is turned off.
+![screen showing disable unpublished apps option default off](media/mover-disable-unpublished-apps.png)
+
+2. If you have turned this setting on, you need to enter two App IDs in the **Except for** box.
+![screen showing disable unpublished apps option on](media/mover-disable-unpublished-apps-on.png)
+
+
+ 
 
 ## Box permission requirements
 For authorization, our app requires an **Administrator** or **Co-Administrator**. The following table lists the scopes we require:
@@ -153,3 +169,4 @@ To remove our app's access to Box:
 If you are not already connected after you have authorized your source, select **Box**, and load the connector. An icon appears, and shows you how many users you are migrating.
 
 ![execution select box source](media/execution-select-box-source.png)
+

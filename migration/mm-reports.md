@@ -58,8 +58,13 @@ To download task level reports, run the following Powershell cmdlet.
 
 
 1. [Download the powershell script](https://spmtreleasescus.blob.core.windows.net/download/ReportAggregator.zip) and extract the files.
-2. **Run** *aggregatereports.ps1*. You will be prompted for your tenant credentials.
-3.  The aggregated report zip file will be found in the same folder as the PowerShell cmdlet.
+2. **Run** *aggregatereports.ps1*. 
+3. Enter your tenant credentials.
+4. From the Task Filter pane, select how you want to filter your reports:
+
+![Screen to choose how to filter Migratino Manager reports](media/mm-reports-powershell-filter.png).
+
+5. The aggregated report zip file will be found in the same folder as the PowerShell cmdlet.
 
 
 ## Summary Report

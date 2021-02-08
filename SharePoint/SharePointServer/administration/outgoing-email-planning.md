@@ -107,7 +107,7 @@ SharePoint supports the following Simple Authentication and Security Layer (SASL
 
 ### Use TLS connection encryption
 
-Set **Use TLS connection encryption** to Yes to require SharePoint to extablish an encrypted connection to the SMTP server before sending email. A valid server certificate must be installed on the SMTP server to establish an encrypted connection. If this is set to Yes and an encrypted connection can't be established, no emails will be sent.
+Set **Use TLS connection encryption** to Yes to require SharePoint to establish an encrypted connection to the SMTP server before sending email. A valid server certificate must be installed on the SMTP server to establish an encrypted connection. If this is set to Yes and an encrypted connection can't be established, no emails will be sent.
 
 > [!NOTE]
 > SharePoint supports STARTTLS to establish TLS connection encryption to an SMTP server. It doesn't support SMTPS to establish SSL connection encryption to an SMTP server.
@@ -127,7 +127,7 @@ Some SMTP servers may block impersonation to protect users from unauthorized att
 
 - [Use an externally secured receive connector](#connector)
 
-####Grant permission for the SharePoint authenticated email account to impersonate users <a name="users"> </a>
+#### Grant permission for the SharePoint authenticated email account to impersonate users <a name="users"> </a>
 
 Microsoft Exchange Server allows you to grant permission for a user to impersonate other users when sending email through a receive connector. Those permissions include:
 
@@ -146,7 +146,7 @@ Run this command on your Microsoft Exchange Server to grant permission for the S
 > [!NOTE]
 > When using Microsoft Exchange Server 2013 or later, this permission should be applied to the client proxy receive connector. When using Microsoft Exchange Server 2010 or earlier, this permission should be applied to the client frontend receive connector.
 
-### Disable SharePoint email impersonation <a name="disable"> </a>
+#### Disable SharePoint email impersonation <a name="disable"> </a>
 
 You can configure each SharePoint web application to disable email impersonation. This will ensure that SharePoint always uses the From and Reply-To address specified at the web application level. Run the following to disable SharePoint email impersonation:
 
@@ -154,13 +154,11 @@ You can configure each SharePoint web application to disable email impersonation
 2. Run the following commands:
 
 ```powershell
-...
 $webapp = Get-SPWebApplication <web application URL>
 $webapp.OutboundMailOverrideEnvelopeSender = $true
 $webapp.Update()
-...
 ```
-### Use an externally secured receive connector <a name="connector"> </a>
+#### Use an externally secured receive connector <a name="connector"> </a>
 
 Microsoft Exchange Server receive connectors can be configured to automatically trust all emails as authenticated, even if no authentication is performed. SharePoint will then send emails to this receive connector anonymously. Follow these steps to create an externally secured receive connector:
 

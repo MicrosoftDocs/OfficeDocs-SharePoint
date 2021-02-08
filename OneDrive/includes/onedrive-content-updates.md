@@ -2,6 +2,18 @@
 
 
 
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/1/2021 | [Change a specific user's OneDrive storage space](/OneDrive/change-user-storage) | modified |
+| 2/1/2021 | [Pre-provision OneDrive for users in your organization](/OneDrive/pre-provision-accounts) | modified |
+| 2/1/2021 | [Prevent users from contacting Microsoft directly](/OneDrive/disable-contact-support-send-feedback) | added |
+| 2/1/2021 | [Install the previous OneDrive sync app](/OneDrive/install-previous-sync-app) | added |
+| 2/2/2021 | [Use information barriers with OneDrive](/OneDrive/information-barriers) | modified |
+
+
 ## Week of January 25, 2021
 
 

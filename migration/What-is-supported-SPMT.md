@@ -23,7 +23,7 @@ description: "This article contains a list of features that are supported in the
 
 
 ## Features
-SharePoint Migration Tool (SPMT) supports the migration of the following locations and features:
+SharePoint Migration Tool (SPMT) supports migration of the following locations and features:
 
 **On-premises fileshares**
 - Local and network fileshares
@@ -33,11 +33,11 @@ SharePoint Migration Tool (SPMT) supports the migration of the following locatio
 | Supported | Description | More info |
 |:-----|:-----|:-----|
 |File, folder, list items|Supports migration of files, folders, and lists.|[Supported list templates](sharepoint-migration-supported-list-templates.md)|
-|Permissions|Separate settings are available to set file share permissions and SharePoint on-premises permissions. |[File & folder permissions](understanding-permissions-when-migrating.md)|
+|Permissions|Separate settings are available to set file share permissions and SharePoint on-premises permissions. |[File and folder permissions](understanding-permissions-when-migrating.md)|
 |Versions|You determine what file history is preserved.|[SPMT settings](spmt-settings.md)|
-|Managed Metadata & Taxonomy|SPMT supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.||
-|Navigation & icons|Site navigation for out-of-box sites is preserved and migrated.||
-|Site features|Extensive set of site features are supported.|[SPMT-supported SharePoint site features](spmt-supported-site-features.md)|
+|Managed metadata and taxonomy|SPMT supports the migration of content types and term stores. Global term store migration requires global tenant admin permissions.||
+|Navigation and icons|Site navigation for out-of-box sites is preserved and migrated.||
+|Site features|An extensive set of site features are supported.|[SPMT-supported SharePoint site features](spmt-supported-site-features.md)|
 |SharePoint web parts|SPMT supports migration of SharePoint web parts.| [SPMT-supported SharePoint web parts](spmt-supported-webparts.md)|
 |Site migration|"Out-of-the-box" SharePoint sites that don't use any coding or third-party tools can be migrated.||
 |Site description|Site descriptions can be migrated.||
