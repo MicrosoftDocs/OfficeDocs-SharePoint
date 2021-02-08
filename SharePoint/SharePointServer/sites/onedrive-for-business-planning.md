@@ -17,7 +17,7 @@ ms.collection:
 - IT_Sharepoint_Server
 - IT_Sharepoint_Server_Top
 ms.assetid: c033a091-2c08-4d20-8d3f-783317d718fa
-description: "Learn about things you need to consider when planning to setup OneDrive in a SharePoint Server on-premises environment."
+description: "Learn about things you need to consider when planning to set up OneDrive in a SharePoint Server on-premises environment."
 ---
 
 # Plan for Microsoft OneDrive in SharePoint Server
@@ -57,7 +57,7 @@ In a SharePoint Server on-premises environment, you may have the option to save 
 The sync app also provides your users the added convenience of working with files directly from the local OneDrive sync folder. Work with and saving your files directly in the folder is more convenient than opening your My Sites document library.
   
 > [!IMPORTANT]
-> Use the [OneDrive sync app for Groove.exe](https://support.microsoft.com/kb/2903984) when using OneDrive in a SharePoint Server on-premises environment. The OneDrive Next Generation sync app (OneDrive.exe) is currently not supported to work in a SharePoint Server on-premises environment.
+> Use the [previous OneDrive for Business sync app (Groove.exe)](/onedrive/install-previous-sync-app.md) to sync files in SharePoint Server 2016 or earlier. The new OneDrive sync app (OneDrive.exe) is supported only in SharePoint Server 2019. [Configure the OneDrive sync app for SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client.md)
   
  **Changes in file location**
   

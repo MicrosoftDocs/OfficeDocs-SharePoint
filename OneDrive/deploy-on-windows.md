@@ -37,9 +37,6 @@ You can use Microsoft Endpoint Configuration Manager to deploy the new OneDrive 
  The OneDrive sync app (OneDrive.exe) can be installed on Windows 7 and later. It can also be installed on macOS. For info about deploying the OneDrive sync app on macOS, see [Configure the new OneDrive sync app on macOS](deploy-and-configure-on-macos.md).
     
 The new OneDrive sync app can be used with SharePoint Server 2019, but not earlier versions of SharePoint Server. For more information about the restrictions and limitations of the OneDrive sync app, see [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa).
-  
-> [!IMPORTANT]
-> If your users are currently using the OneDrive sync app (Groove.exe), and you want to move them to the OneDrive sync app, see [Transition from the previous OneDrive for Business sync app](transition-from-previous-sync-client.md) before proceeding.  
 
 ### Make sure that WNS is set up correctly
 
@@ -93,7 +90,7 @@ Execute <pathToExecutable>\OneDriveSetup.exe /silent
 > [!NOTE]
 > This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with Configuration Manager](https://go.microsoft.com/fwlink/?linkid=839723).
 > 
-> If you run the command with no command line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the **/silent** parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the **/silent** parameter. 
+> If you run the command with no command-line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the **/silent** parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the **/silent** parameter. 
   
 [Learn more about application management in Configuration Manager](https://go.microsoft.com/fwlink/p/?LinkId=535034).
 The installer will install the OneDrive executable file under **%localappdata%\Microsoft\OneDrive**. 
@@ -136,7 +133,7 @@ To help users sign in, you can use [silent account configuration](use-silent-acc
   %localappdata%\Microsoft\OneDrive\OneDrive.exe 
   ```
 
-    It starts the OneDrive process. If users haven't set up any accounts, it displays OneDrive Setup. To display OneDrive Setup specifically to users who haven't set up an account for your organization, use the command line parameter: 
+    It starts the OneDrive process. If users haven't set up any accounts, it displays OneDrive Setup. To display OneDrive Setup specifically to users who haven't set up an account for your organization, use the command-line parameter: 
     
   ```
    /configure_business:<tenantId>

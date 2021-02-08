@@ -18,7 +18,7 @@ description: "In this article, you'll learn how to install the previous OneDrive
 If your organization still uses SharePoint Server 2016 or earlier, users can't use the new OneDrive sync app (OneDrive.exe) to sync files. They need to use the previous OneDrive for Business sync app (Groove.exe). This article helps you install Groove.exe. If your organization uses SharePoint Server 2019, users should use the new OneDrive sync app (OneDrive.exe). [Learn more](/sharepoint/install/new-onedrive-sync-client)
 
 > [!IMPORTANT]
-> Support for the previous OneDrive for Business sync app (Groove.exe) with Microsoft 365 will end on January 11, 2021. Groove.exe will continue to work for files in SharePoint Server. [Learn how to transition to the new sync app](transition-from-previous-sync-client.md)
+> Support for the previous OneDrive for Business sync app (Groove.exe) with Microsoft 365 ended on January 11, 2021. Groove.exe will continue to work for files in SharePoint Server. [Learn how to transition to the new sync app](transition-from-previous-sync-client.md)
 
 ## Install Groove.exe with Office 2016
 
