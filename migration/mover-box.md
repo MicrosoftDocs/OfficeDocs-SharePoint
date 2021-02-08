@@ -135,8 +135,8 @@ If you are unable to sign in to Box, you may have turned on the option to *Disab
 
 
     `7ypzdr66s3m80h3hutop34u7yml8928x`
-
     `4zb2998onvpk5934brgh48hh5ji20rgz`
+
 ![screen showing disable unpublished apps option on](media/mover-disable-unpublished-apps-on.png)
 
 
