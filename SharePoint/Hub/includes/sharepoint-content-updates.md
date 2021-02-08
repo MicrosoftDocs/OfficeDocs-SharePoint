@@ -2,6 +2,19 @@
 
 
 
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/2/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration-preview) | modified |
+| 2/2/2021 | [Create an information barriers policy compliance report](/SharePoint/info-barriers-report) | modified |
+| 2/2/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 2/5/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 2/5/2021 | [Find site collection features in the new SharePoint admin center](/SharePoint/site-collections-page) | modified |
+| 2/5/2021 | [Upgrade service applications to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2019) | modified |
+
+
 ## Week of January 25, 2021
 
 
