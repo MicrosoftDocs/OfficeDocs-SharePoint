@@ -131,7 +131,12 @@ If you are unable to sign in to Box, you may have turned on the option to *Disab
  1. Under Global app settings, look for the setting **Disable unpublished apps by default**.  By default, this setting is turned off.
 ![screen showing disable unpublished apps option default off](media/mover-disable-unpublished-apps.png)
 
-2. If you have turned this setting on, you need to enter two App IDs in the **Except for** box.
+2. If you have turned this setting on, you need to enter the following two App IDs in the **Except for** box.
+
+
+    `7ypzdr66s3m80h3hutop34u7yml8928x`
+
+    `4zb2998onvpk5934brgh48hh5ji20rgz`
 ![screen showing disable unpublished apps option on](media/mover-disable-unpublished-apps-on.png)
 
 
