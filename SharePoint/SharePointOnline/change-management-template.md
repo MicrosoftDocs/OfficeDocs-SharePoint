@@ -20,16 +20,139 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "Provision and customize the Workplace transformaiton site"
 ---
 
-# Customize the SharePoint Success Site 
+# Overview of the Workplace transformation site 
 
-The SharePoint Success Site is a ready to deploy, up-to-date, and customizable SharePoint communication site that helps your organization maximize the adoption of SharePoint. The SharePoint Success Site helps end users improve the quality and impact of the sites they build for internal audiences, while helping ensure they follow your organization’s site usage guidelines. 
+Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The Workplace transformation site template is designed to communicate and pro-actively manage to change universally using a SharePoint communication site in combination with the power of Microsoft Lists. The workplace transformation site design is based on change management research that is proven to help organizations successfully adopt and sustain change. 
 
-The SharePoint Success Site is pre-populated with web parts and content to guide your viewers through the most up-to-date SharePoint site creation training content. However, there are several opportunities to customize the experience to better suit your organization’s goals and usage policy. Learn about what's included in a SharePoint Success Site, and then get started customizing.
+   ![Image of the Workplace transformation site landing page](media/sss-landing.png)
+
+**The Workplace transformation site features:**
+
+-	A landing place for people in your organization to get more information, news, and support
+-	Specialized support channels for many audiences like managers, teams, and champions 
+-	Pre-populated content and web parts that can be customized to fit the needs of your organization and specific change management project
+-	Opportunity to use the Microsoft 365 Learning pathways solution to display Microsoft-curated and maintained training playlists
+-	Integration with Microsoft 365 lists that let you customize and manage the change management journey 
+-	Examples of micro-learning content that can be adapted to your change project
+
+
+## Site design is based on a proven change management model
+
+   ![Image of the Workplace transformation site design model](media/sss-landing.png)
+
+
+**Awareness and commitment –** Start communicating details about upcoming changes with users and provide a variety of support channels and opportunities to engage through events and [Yammer community chats](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
+<br>
+
+**Learn –** Build training content right into the site itself by using [Microsoft 365 Learning pathways](https://docs.microsoft.com/office365/customlearning/).
+<br>
+
+**Practice and exploration –** Leverage your organization’s [champion community](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx) in leading hand-on events and demonstrations in addition to 1:1 help.
+<br>
+
+**Use and consult –** Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US) to help your organization manage tasks and knowledge checks associated with training and change management objectives.
+<br>
+
+**Sustain –** Help users practice and sustain new skillsets and habits by leveraging micro-learning content like quick tips and [publishing regular news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) sharing change management success stories. 
+
+
+
+## How to use the Workplace transformation site template
+The Workplace transformation site can be used to drive any topic or scope of organizational change. The site template helps organizations to successfully manage the people side of their organization change management to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.
+
+**Examples of the types of change projects that could benefit from the workplace transformation template:**
+<br>
+
+**New process –** Communicate and manage changes to data security policies, new contract management workflows, or project intake processes.
+<br>
+
+**Merger and acquisition –** Onboard new employees and help current employees understand what to expect and how to work together.
+<br>
+
+**New systems –** Roll out a new employee benefits program, or help employees adopt new tools and apps.
+
+
+### Pre-populated content focuses on the hybrid workplace
+The workplace transformation site features pre-populated content that revolves around helping organizations transition to a hybrid workplace. The hybrid workplace is one that is flexible when and where people do their work. Many organizations plan to allow employees to work from home up to 50% of the time, which means the organization will need to adopt new ways of working to ensure wellbeing and productivity.
+<br>
+
+Learn more about the [future of work](https://www.microsoft.com/research/theme/future-of-work/) and [what we have learned about remote work so far](https://www.microsoft.com/microsoft-365/blog/2020/07/08/future-work-good-challenging-unknown/).
+
+
+## Overview of the site contents
+The workplace transformation site is full of pre-populated content, webparts, news templates and a [Microsoft List](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US). Carefully review and customize pre-populated content before sharing broadly with end-users.
+ 
+**Home page –** Provide a landing place for employees to learn more right away about why the change is happening and how it will impact their day-to-day work.
+<br>
+
+**Hybrid work –** Explain in more detail what is changing and what success will look like when change is adopted and sustained.
+<br>
+
+**Get started –** Give employees a jumping-off place to dive into messages form leadership, view the change management checklist, and RSVP to an upcoming event.
+<br>
+
+**Community –** Help recognize and celebrate success within the organization and give employees and opportunity to connect in a change management Yammer community.
+<br>
+
+**Training –** Embed curated training playlist that can be easily viewed and bookmarked on any device.
+<br>
+
+**Quick tips –** Create micro-learning opportunities to help employees adopt and sustain new skills.
+<br>
+
+**A message from our CEO –** Unit the organization around a central change by sharing a recording or written message form leadership endorsing the change project.
+<br>
+
+**Champions program –** Recruit subject matter experts into your champions program.
+<br>
+
+**Managers only –** Provide special resources and support that managers may need around the change project that can be audience targeted to a specific security group.
+<br> 
+
+**Get help –** Make sure employees know where to go for support and have more than one option for getting 1:1 help or learning from others. 
+
+
+### Considerations for M365 Learning Pathways
+[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the M365 Learning pathways web part right onto SharePoint pages. Consider using the M365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
+
+Learn more about [how to provision the M365 Learning pathways solution for the first time](https://docs.microsoft.com/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs]
+(https://docs.microsoft.com/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](https://docs.microsoft.com/office365/customlearning/custom_overview). 
+
+
+## Step 1: Get started provisioning the Workplace transformation site
+
+> [!NOTE]
+> -	Tenant administrators’ credentials (or higher) are required to provision a template from the lookbook
+> -	The workplace transformation site will take about 15 minutes to provision 
+
+
+1.	Start by navigating to the [SharePoint look book](https://lookbook.microsoft.com/) and selecting the work transformation template. Select **Add to your tenant**.
+2.	Then, select a site name, URL, and email address where an email confirmation will be sent when the site is successfully created.
+3.	Select **Provision**, and in less than 15 minutes you will receive an email confirmation with a link to your new site.
+<br> 
+Learn more about [provisioning site templates from the lookbook](https://docs.microsoft.com/sharepoint/add-sample-site). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 > [!IMPORTANT]
 > You must have Site owner or Site member permissions to the SharePoint Success Site and the M365 learning pathways administrative page in order to make customizations..
 
-**The SharePoint Success Site consists of three parts:**
+
 
 1.	**SharePoint communication site** - The site comes [pre-populated with content and web parts](https://docs.microsoft.com/sharepoint/overview-sss#what-comes-with-a-sharepoint-success-site) that can be further customized to fit the needs of your organization.
 
