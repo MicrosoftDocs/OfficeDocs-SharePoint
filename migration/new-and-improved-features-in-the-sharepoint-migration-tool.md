@@ -37,7 +37,7 @@ Download and install SPMT using one of the links listed below.
 |Feature|Description|
 |:-----|:-----|
 |Support migration of files with size up to 100 GB|Files up to 100 GB are now supported in migration.  Note: 100 GB  is the SharePoint in Microsoft 365 file size limit. |
-|Display time elapsed and time remaining for each migration|On the migration progress page, the time elapsed and time remaining are displayed for each migration task. As "Time remaining" is estimated based on the migration history, and only displayed when there is enough history data available. A performance recommendation message based on the migration data analysis will be displayed after the migration task has completed. To learn about improving migration performance, see [SPMT Performance Guidance](https://docs.microsoft.com/en-us/sharepointmigration/spmt-performance-guidance).|
+|Display time elapsed and time remaining for each migration|On the migration progress page, the time elapsed and time remaining are displayed for each migration task. As "Time remaining" is estimated based on the migration history, and only displayed when there is enough history data available. A performance recommendation message based on the migration data analysis will be displayed after the migration task has completed. To learn about improving migration performance, see [SPMT Performance Guidance](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance).|
 
 **Improvements**
 
