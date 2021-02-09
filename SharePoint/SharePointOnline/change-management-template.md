@@ -40,7 +40,6 @@ Help your organization drive and manage change by using the Workplace transforma
 
    ![Image of the Workplace transformation site design model](media/hybrid-model.png)
 
-
 **Awareness and commitment –** Start communicating details about upcoming changes with users and provide various support channels and opportunities to engage through events and [Yammer community chats](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
 <br>
 
