@@ -56,8 +56,6 @@ The features listed in this section address common customer concerns or specific
 
 - Seamlessly connecting files to conversations
 
-- Intelligent discover with OneDrive Discover view
-
 - Files Restore
 
 - Recycle bin
@@ -170,9 +168,9 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 
 |**Size of organization**|**Deployment tools used**|**Management**|
 |:-----|:-----|:-----|
-|Small business|Local installation|OneDrive admin center|
-|Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, OneDrive admin center, Intune mobile application management (MAM) or MDM|
-|Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy objects (GPOs), and so on. |
+|Small business|Local installation|Microsoft 365 admin center, SharePoint admin center, and OneDrive admin center|
+|Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, SharePoint and OneDrive admin centers, PowerShell, Intune mobile application management (MAM) or MDM|
+|Enterprise|Microsoft Endpoint Configuration Manager with Intune or Windows Autopilot|Microsoft Endpoint Configuration Manger, Group Policy, PowerShell, and so on. |
 
 Depending on where your organization fits in this table and the technologies available to you, you can choose which portion of this guide to use. For example, if you run a small business, you may want to keep your OneDrive deployment simple by installing the sync app manually on your employees' computers and using the OneDrive admin center to manage a few settings for your users. Alternatively, if you're running an enterprise, you may choose to deploy and manage OneDrive by using advanced tools like Microsoft Endpoint Configuration Manager and Group Policy, and you could use the sections that correspond to those tools, instead. To accommodate various situations, the deployment and management portions of this guide are in a modular format so that you can consume the document in the way that best aligns with your deployment needs and capabilities. This format also provides visibility into alternate technologies to improve your current processes.
 
@@ -193,7 +191,7 @@ When deploying any new technology, there's always an ideal process to follow to 
 
 Your organization doesn't have to manage all connected devices for them to use OneDrive, but securing and managing the interaction with the data do require a layer of management capabilities. Start by determining which types of devices—iOS, Android, Windows 10—require access to OneDrive and who owns them (the business or the employee). Put this info in a spreadsheet to help you determine which capabilities you need from your technology solutions. Some management options are more suitable for devices that the organization owns and manages. Regardless of the platform running OneDrive and who owns it, the following management options are available to you:
 
-- OneDrive admin center
+- Microsoft 365 admin center, SharePoint admin center, and OneDrive admin center
 
 - Microsoft 365 MDM
 
@@ -267,7 +265,7 @@ If you don't use OneDrive in SharePoint Server, but you do have an on-premises S
 
 For more info about how to configure OneDrive in a hybrid scenario and how it works, see [Plan hybrid OneDrive](/sharepoint/hybrid/plan-hybrid-onedrive-for-business/).
 
-SharePoint hybrid has a variety of features to create a seamless experience when using both SharePoint Server and SharePoint. If you're planning to configure hybrid OneDrive, consider including other SharePoint hybrid features for a better overall user experience. For more info, see [Explore SharePoint Server hybrid](/sharepoint/hybrid/explore-sharepoint-server-hybrid/) .
+SharePoint hybrid has a variety of features to create a seamless experience when using both SharePoint Server and SharePoint. If you're planning to configure hybrid OneDrive, consider including other SharePoint hybrid features for a better overall user experience. For more info, see [Explore SharePoint Server hybrid](/sharepoint/hybrid/explore-sharepoint-server-hybrid/).
 
 After you've migrated your users' files from on-premises OneDrive and configured hybrid OneDrive, to save disk space, you can reduce the quota for your on-premises OneDrive top-level site collection to a minimal value.
 
@@ -307,11 +305,11 @@ If you have decided to use Azure Information Protection, to configure the necess
 
 ### OneDrive integration with other Microsoft 365 features
 
-OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For info about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact/).
+OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For info about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact/). We also recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects poster](https://aka.ms/ProductivityArch).
 
 ## Sharing options
 
-Using the OneDrive admin center, you can specify sharing options such as the default sharing type for users, with whom they can share, and how long sharing links remain active.
+You can specify sharing options such as the default sharing type for users, with whom they can share, and how long sharing links remain active.
 
 These are the key decisions around sharing for OneDrive:
 
@@ -319,12 +317,11 @@ These are the key decisions around sharing for OneDrive:
 
 - **If you allow external sharing, do you want to allow unauthenticated users?** If you enable sharing with **Anyone**, users can create sharable links that don't require sign-in.
 
-- **What do you want the default sharing link to be?** Users can choose which type of link to send (Anyone, Internal, or Direct), but you can choose the default option that is presented to users.
+- **What do you want the default sharing link to be?** Users can choose which type of link to send (Anyone, People in your organization, or Specific people), but you can choose the default option that is presented to users.
 
 - **Do you want to restrict external sharing by domain?** You can restrict external sharing to specific domains or prevent sharing with specific domains.
 
-Note that the OneDrive sharing settings are a subset of the SharePoint sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint.
-
+Note that the OneDrive sharing settings are a subset of the SharePoint sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint. For more info, see [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration.md).
 
 ## Data retention
 
@@ -368,7 +365,7 @@ The SharePoint Migration Tool can be used by your IT department to migrate files
 
 If user files are located in Windows known folders such as their desktop, Documents, or Pictures, you can use Known Folder Move. Known Folder Move enables users to select known folders to automatically synchronize to OneDrive. You can add this feature during the initial setup of OneDrive or after it has been configured. This capability provides a simple migration option for users looking to add known folders to their existing list of synchronized folders.
 
-Known Folder Move can be configured by administrators to automatically redirect known folders for all users on the domain. It's an easy way to migrate files kept in these locations.
+Known Folder Move can be configured by administrators to automatically redirect known folders for all users on the domain. It's an easy way to migrate files kept in these locations. For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
 ### Files in other local disk folders
 
@@ -386,13 +383,15 @@ If you already have the OneDrive sync app installed on Windows devices, start by
 
 ### Sync app update process
 
-You can update the OneDrive sync app in two waves:
+You can select how soon your users receive updates we release for the sync app.
 
-- **Production ring** – In this ring, you get new features and improvements sooner – as soon as they've been validated within Microsoft.
+- **Insiders ring** - In this ring, users get the first changes that are released to the public. We recommend selecting several people in your IT department to join this ring. 
 
-- **Deferred ring** – In this ring, changes are rolled out after they've been validated in the Production ring, reducing the risk of issues.
+- **Production ring** – In this ring, users get fixes and new features in a timely fashion. We recommend leaving everyone else in the organization in this ring.
 
-This setting is configured by using Group Policy.
+- **Deferred ring** – In this ring, you have more control over the deployment of updates, but users have to wait longer to receive fixes and new features.
+
+You configure this setting using the OneDrive policy [Set the sync app update ring](use-group-policy/md#set-the-sync-app-update-ring).
 
 For details about the update process for the OneDrive sync app, see [The OneDrive sync app update process](sync-client-update-process.md).
 
@@ -509,8 +508,6 @@ The tools and technologies you use to manage OneDrive are based on the individua
 
 The OneDrive admin center [https://admin.onedrive.com](https://admin.onedrive.com) enables you to manage OneDrive settings and device access from one central location. Some settings in the OneDrive admin center you'll use regardless of any other technologies you use to manage OneDrive (for example, to configure storage space settings). Others may overlap management apps in use (for example, the MDM section). Most organizations will use the OneDrive admin center for some of their settings, but only those organizations without an MDM application would likely use the device access functionality in the OneDrive admin center.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSt]
-
 Settings in the OneDrive admin center are grouped into six categories:
 
 - **Sharing** - Instead of using this page, use the Sharing page in the new SharePoint admin center to configure your sharing options based on the decisions you made in Part 2, [Plan for OneDrive for enterprises](plan-onedrive-enterprise.md).
@@ -535,7 +532,7 @@ Intune isn't the only MDM option you can use to manage OneDrive apps and setting
 
 ## Manage OneDrive by using Group Policy
 
-You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For info, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md).
+You can use Group Policy to manage OneDrive settings for domain-joined computers in your environment. For info, see [Use OneDrive policies to control OneDrive sync app settings](use-group-policy.md). Using Group Policy, you can [redirect and move Windows known folders to OneDrive](redirect-known-folders.md), and [enable silent account configuration](use-silent-account-configuration.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
 
