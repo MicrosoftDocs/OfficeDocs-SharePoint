@@ -207,7 +207,7 @@ The Workplace transformation site contains a [Microsoft List](https://support.mi
 
 [Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
-### Step 3: Share the Workplace transformation site with end users
+## Step 3: Share the Workplace transformation site with end users
 
 Once the site has been customized and republished, it is ready to share with end users.
 
