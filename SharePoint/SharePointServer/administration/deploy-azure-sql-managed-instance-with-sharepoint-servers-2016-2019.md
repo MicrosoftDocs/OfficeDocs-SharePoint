@@ -65,7 +65,7 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
          New-SPConfigurationDatabase -DatabaseServer <DBServer> -DatabaseName <ConfigDB> -FarmCredentials $FarmCredential -DatabaseCredentials $DBCredential -Passphrase $FarmPassphrase -LocalServerRole <ServerRole> 
       ```
 
-   2. To join additional VMs the SharePoint farm, open the **SharePoint Management Shell** on the additional VMs and run the following Windows PowerShell commands:
+   2. To join additional VMs to the SharePoint farm, open the **SharePoint Management Shell** on the additional VMs and run the following Windows PowerShell commands:
    
       ```powershell
          $DBCredential = Get-Credential -Message "Provide the user name and password for the Azure SQL Managed Instance database login." 
