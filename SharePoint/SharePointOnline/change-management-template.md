@@ -182,6 +182,20 @@ Learn more about how to customize web parts and content that will appear on cert
 **People -** Edit [People web parts](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) in news post templates and on the **Get help** page.
 <br>
 
+**Video -** Edit the [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) on the **Message from our CEO** page to point to a YouTube video or an internat video link. Use the [Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b#:~:text=The%20Stream%20web%20part%20will%20display%20a%20Stream,and%20DoD%20or%20Office%20365%20operated%20by%2021Vianet.) to display an existing Stream video.
+<br>
+
+#### Edit the change management checklist
+The Workplace transformation site contains a [Microsoft List](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US) in **Site contents** that is displayed in a [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537) on the **Get started page**. This list is intended to give end users a high-level view of what to expect through the change management journey. Edit the list to meet the need of your change management project. 
+
+   ![Image of the hybrid workplace checklist](media/hybrid-list.png)
+
+1.	Start by navigating to **Setting > Site contents**, and then select **Hybrid workplace checklist**.
+2.	Then you can edit list items, [change columns and labels](https://support.microsoft.com/office/create-a-column-in-a-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2), the theme and more. Or, you can [create a new list based on an existing Excel spreadsheet](https://support.microsoft.com/office/create-a-list-based-on-a-spreadsheet-380cfeb5-6e14-438e-988a-c2b9bea574fa) or [use a list template](https://support.microsoft.com/office/create-a-list-from-a-template-70b008a2-7a3d-4223-83d8-345e0313974d).
+3.	Finally, [edit the view of your list](https://support.microsoft.com/office/edit-a-view-of-a-list-15916903-e79a-423f-b4e2-02d37e1ff372) to make sure users see the most important information in the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537) on the **Get started page**. 
+
+[Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
+
 #### Use M365 Learning pathways to embed training content on a page
 If your tenant admin has set up [M365 Learning pathways](https://docs.microsoft.com/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](https://docs.microsoft.com/office365/customlearning/custom_addwebpart) to display custom training playlists.
 <br>
@@ -196,16 +210,7 @@ Edit the look of your site to align with your organization's brand. Customize th
 #### Customize site navigation
 Site navigation is important because it helps users immediately understand what can be accomplished on a given site. The most effective SharePoint sites help viewers find what they need quickly so that they can use the information to make decisions, learn about what is going on, access the tools they need, or engage with colleagues to help solve a problem. [Learn how to edit site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca?ui=en-US&rs=en-US&ad=US).
 
-#### Edit the change management checklist
-The Workplace transformation site contains a [Microsoft List](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US) in **Site contents** that is displayed in a [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537) on the **Get started page**. This list is intended to give end users a high-level view of what to expect through the change management journey. Edit the list to meet the need of your change management project. 
 
-   ![Image of the hybrid workplace checklist](media/hybrid-list.png)
-
-1.	Start by navigating to **Setting > Site contents**, and then select **Hybrid workplace checklist**.
-2.	Then you can edit list items, [change columns and labels](https://support.microsoft.com/office/create-a-column-in-a-list-or-library-2b0361ae-1bd3-41a3-8329-269e5f81cfa2), the theme and more. Or, you can [create a new list based on an existing Excel spreadsheet](https://support.microsoft.com/office/create-a-list-based-on-a-spreadsheet-380cfeb5-6e14-438e-988a-c2b9bea574fa) or [use a list template](https://support.microsoft.com/office/create-a-list-from-a-template-70b008a2-7a3d-4223-83d8-345e0313974d).
-3.	Finally, [edit the view of your list](https://support.microsoft.com/office/edit-a-view-of-a-list-15916903-e79a-423f-b4e2-02d37e1ff372) to make sure users see the most important information in the [List web part](https://support.microsoft.com/office/use-the-list-web-part-ef0a1b80-f8b3-443d-b04a-1e76c70b5537) on the **Get started page**. 
-
-[Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
 ## Step 3: Share the Workplace transformation site with end users
 
