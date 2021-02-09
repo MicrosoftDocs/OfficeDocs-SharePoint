@@ -138,11 +138,11 @@ Learn more about [provisioning site templates from the lookbook](https://docs.mi
 Once the site has been provisioned and you are ready to customize. If other people from your organization will be making site customizations, make sure you [share the site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658?ui=en-us&rs=en-us&ad=us#:~:text=Share%20a%20Site%20in%20SharePoint%201%20Communication%20sites.,external%20users%22%20to%20share%20the%20...%20See%20More.) add them as site owners and site members to ensure they have access and the right permissions to make edits to site content, theme, navigation, [settings](https://support.microsoft.com/office/change-a-site-s-title-description-logo-and-site-information-settings-8376034d-d0c7-446e-9178-6ab51c58df42), and permissions. 
 
 
-## Step 2: Customize the workplace transformation site
+## Step 2: Customize the Workplace transformation site
 Customize the workplace transformation site to fit the needs of your organization’s change management project. Customize the theme, logo, navigation, web parts, and pre-populated content.
 
 > [!NOTE]
-> -	You need site member (or higher) permissions to the Workplace transformation site template in order to make customizations. 
+> You need site member (or higher) permissions to the Workplace transformation site template in order to make customizations. 
 
 ### Sign in 
 
@@ -162,27 +162,27 @@ Learn more about how to customize web parts and content that will appear on cert
 
    ![Image of the text web parts and call to action web part](media/hybrid-text-links.png)
 
-Edit the labels and links in the [Text web parts](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801#:~:text=%20To%20use%20the%20Text%20web%20part:%20,5%20Use%20s%EF%BB%BF%EF%BB%BFtrikethrough%206%20I%EF%BB%BFndent%20text%20More) and [Call to Action web parts](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00) throughout the site.
+**Text, labels, and buttons -** Edit the labels and links in the [Text web parts](https://support.microsoft.com/office/add-text-and-tables-to-your-page-with-the-text-web-part-729c0aa1-bc0d-41e3-9cde-c60533f2c801#:~:text=%20To%20use%20the%20Text%20web%20part:%20,5%20Use%20s%EF%BB%BF%EF%BB%BFtrikethrough%206%20I%EF%BB%BFndent%20text%20More) and [Call to Action web parts](https://support.microsoft.com/office/use-the-call-to-action-web-part-e9917310-7543-4fc4-8f3f-d78e46074c00) throughout the site.
 <br> 
 
    ![Image of the events web part](media/hybrid-events.png)
 
-Add, edit, and delete events in the [Events web parts](https://support.microsoft.com/en-us/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909#:~:text=Add%20the%20Events%20web%20part%201%20If%20you're,options%20for%20the%20web%20part.%20More%20items...) on the **Home** and **Get help pages**.
+**Events-** Add, edit, and delete events in the [Events web parts](https://support.microsoft.com/en-us/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909#:~:text=Add%20the%20Events%20web%20part%201%20If%20you're,options%20for%20the%20web%20part.%20More%20items...) on the **Home** and **Get help pages**.
 <br> 
 
    ![Image of the news web part](media/hybrid-news.png)
 
-Use pre-populated news templates to create news posts in the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165#:~:text=%20Use%20the%20News%20web%20part%20on%20a,but%20there%20may%20be%20one%20or...%20More) on the **Community page**. Find the templates by navigating to **Setting > Site Content > Site pages > Templates**.
+**News and news post templates -** Use pre-populated news templates to create news posts in the [News web part](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165#:~:text=%20Use%20the%20News%20web%20part%20on%20a,but%20there%20may%20be%20one%20or...%20More) on the **Community page**. Find the templates by navigating to **Setting > Site Content > Site pages > Templates**.
 <br> 
 
    ![Image of the Yammer web part](media/hyrbid-yammer.png)
 
-Connect the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) on the **Community** page with an existing Yammer community.
+**Yammer -** Connect the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) on the **Community** page with an existing Yammer community.
 <br>
 
    ![Image of the People web part](media/hybrid-people.png)
 
-Edit [People web parts](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) in news post templates and on the **Get help** page.
+**People -** Edit [People web parts](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) in news post templates and on the **Get help** page.
 <br>
 
 #### Use M365 Learning pathways to embed training content on a page
