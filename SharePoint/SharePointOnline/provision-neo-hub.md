@@ -85,7 +85,7 @@ To successfully set up the NEO hub via the SharePoint look book, the person doin
 
 ![Image of the NEO hub solution in the lookbook](media/neo-look-book.png)
 
-1.	Go to the [NEO hub solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
+1.	Go to the [NEO hub solution page](https://lookbook.microsoft.com/details/75e60a32-9849-4ed4-b83e-b2b08983ad19).
 
 1.	Select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your Global admin credentials.
 
