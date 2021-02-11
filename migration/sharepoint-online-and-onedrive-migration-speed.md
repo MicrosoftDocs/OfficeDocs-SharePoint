@@ -35,15 +35,14 @@ description: "This article explains the factors that influence migration speed a
 
 When using either the SharePoint Migration Tool (SPMT) or running a Migration Manager agent, follow these guidelines to help improve your migration performance.
 
--	[Improving the speed at which the source can be read](#improving-the-speed-at-which-the-source-can-be-read)
--	[Improving the migration computer speed](#improving-the-migration-computer-speed)
--	[Improving your connectivity to Office 365 and Azure](#improving-your-connectivity-to-office-365-and-azure)
--	[Performing migration following our published guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+-	[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-speed-at-which-the-source-can-be-read)
+-	[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-migration-computer-speed)
+-	[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-your-connectivity-to-office-365-and-azure)
 
 
 ## Performance guidance for the SharePoint Migration API
 
-Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.  This guidance may also be applied to SPMT.
+Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration. This guidance may also be applied to SPMT.
 
 
 Currently, [SPMT](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
