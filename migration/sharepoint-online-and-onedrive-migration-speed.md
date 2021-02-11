@@ -129,7 +129,7 @@ Follow these steps:
 
 4.  In the **Briefly describe your issue** area, enter "SharePoint Migration over 100TB".</br>
 
-     ![need help](media/need-help-100tb.png)
+     ![screen reads need help](media/need-help-100tb.png)
 
 5. Select **Contact Support**.
 6. Under **Description**, enter "SharePoint Migration over 100TB". 
@@ -143,7 +143,7 @@ Follow these steps:
 ## FAQ and Troubleshooting
 
 **Question: I am experiencing poor performance during migration.**</br>
-Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](spmt-migration-performance.md)
+Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance)
 
 
 **Question:  I am experiencing throttling during migration.**<br>
@@ -179,7 +179,7 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 
 4. In the **Briefly describe your issue** area, enter "SharePoint Migration Throttling with 503".</br>
 
-     ![need help](media/need-help.png)
+     ![screen displays need help](media/need-help.png)
 
 5. Select **Contact Support**.
 6. Under **Description**, enter "SharePoint Migration Throttling with 503". 
