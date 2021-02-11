@@ -24,7 +24,7 @@ description: The SharePoint Migration Tool simplifies migrating your data from o
 
 # How the SharePoint Migration Tool works
 
- The SharePoint Migration Tool (SPMT) authenticates to the destination tenant. You're then you're prompted for the source file location and the destination SharePoint site collection. After you select **Migrate** to submit the migration jobs, the steps to scan, package, upload, and import run in parallel across all files targeted for migration.
+ The SharePoint Migration Tool (SPMT) authenticates to the destination tenant. You're then prompted for the source file location and the destination SharePoint site collection. After you select **Migrate** to submit the migration jobs, the steps to scan, package, upload, and import run in parallel across all files targeted for migration.
  
 >[!Note]
 > Use a Site Collection administrator account on the target SharePoint site when you're prompted for credentials.
