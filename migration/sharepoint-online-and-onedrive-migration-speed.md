@@ -47,15 +47,15 @@ Migration performance can be impacted by network infrastructure, file size, migr
 
 Currently, [SPMT](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
 
-## Before migration
+### Before migration
 
 Planning is the key to optimizing your migration.  Determine what content you need to migrate, prioritize when the content needs to be migrated, and decide on what the optimal migration infrastructure should be.
 
-### I. Scan the source
+#### I. Scan the source
 
 The first rule of a good migration is to know your source; evaluate and triage your content before you migrate. What content really needs be migrated? What can be left behind? How many file versions should be included? The amount of content you migrate will determine the overall size of your project. 
 
-### II. Package the content
+#### II. Package the content
 This step is where the tool creates a proper package for the content to be imported into the cloud. This step is automated in SPMT and in most third-party tools. 
 
 **Package size.** To improve migration throughput, we recommend that you package at least 250 files per transfer. For the transfer size, we recommend a minimum of 100 MB and less than 250 MB per package. Keeping within these guidelines will result in a faster upload speed to Azure and leverages the scale capabilities of the migration API.
@@ -81,10 +81,10 @@ The speed of this step depends on the efficiency of the tool you are using and t
 
 
 
-## During migration
+### During migration
 
 
-### I. Upload to Azure
+#### I. Upload to Azure
 SPMT or your third-party tool will migrate your content into SharePoint using the Migration API, leveraging Azure as a temporary holding place.
 
 If you have a good connection and can configure your datacenter, choose the same datacenter location closest geographically to you for your Azure and your Microsoft 365 account. 
@@ -92,7 +92,7 @@ Migration data throughput is highest during off-peak hours, which are typically 
 
 
 
-### II. The Migration API
+#### II. The Migration API
 
 The final step of the migration process is when the data is moved from Azure to SharePoint. This action is transparent to the user when using SPMT or a third- party tool.
 
@@ -105,10 +105,10 @@ For more technical background and information, please see
 - [Migration API Overview](https://docs.microsoft.com/sharepoint/dev/apis/migration-api-overview) 
 - [Avoid getting throttled or blocked in SharePoint](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 
-## After migration
+### After migration
 After the migration is completed, verify that your content has been successfully moved to SharePoint or OneDrive.
 
-## Large migrations over 100TB 
+### Large migrations over 100TB 
 
 If you are planning to migrate over 100TB, please submit a support request following the steps listed below. Make sure to include all requested information.
 
@@ -140,7 +140,7 @@ Follow these steps:
 - Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, and so on.
 
 
-## FAQ and Troubleshooting
+### FAQ and Troubleshooting
 
 **Question: I am experiencing poor performance during migration.**</br>
 Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance)
@@ -193,7 +193,7 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 </br></br>
 
 
-## How to open a Microsoft support ticket
+### How to open a Microsoft support ticket
 
 If you want to file a Microsoft support ticket, follow these steps and include the following information for any migration reason:
 
