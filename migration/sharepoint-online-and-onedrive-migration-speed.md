@@ -30,11 +30,23 @@ description: "This article explains the factors that influence migration speed a
 >**Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Opening a support ticket will not lift throttle. See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section below for additional information.
 
 
-This article explains the factors that influence performance when migrating content to SharePoint and OneDrive in Microsoft 365.
+## Performance guidance for Migration Manager and SPMT
 
-Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.
 
-Currently, Microsoft's [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
+When using either the SharePoint Migration Tool (SPMT) or running a Migration Manager agent, follow these guidelines to help improve your migration performance.
+
+-	[Improving the speed at which the source can be read](#improving-the-speed-at-which-the-source-can-be-read)
+-	[Improving the migration computer speed](#improving-the-migration-computer-speed)
+-	[Improving your connectivity to Office 365 and Azure](#improving-your-connectivity-to-office-365-and-azure)
+-	[Performing migration following our published guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+
+
+## Performance guidance for the SharePoint Migration API
+
+Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.  This guidance may also be applied to SPMT.
+
+
+Currently, [SPMT](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
 
 ## Before migration
 
@@ -132,7 +144,7 @@ Follow these steps:
 ## FAQ and Troubleshooting
 
 **Question: I am experiencing poor performance during migration.**</br>
-Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](sharepoint-online-and-onedrive-migration-speed.md)
+Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](spmt-migration-performance.md)
 
 
 **Question:  I am experiencing throttling during migration.**<br>
@@ -198,7 +210,7 @@ If you want to file a Microsoft support ticket, follow these steps and include t
 7. Fill out the remaining info, and select **Contact me**.
 
 >[!Note]
->If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
+>If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
 
 8. After the ticket has been created, make sure to include the following information:
 
