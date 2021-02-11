@@ -43,15 +43,15 @@ To view, edit, or remove information segments for a site, use the [Active sites 
 
 The Segments column lists the first segment associated with the site and shows whether the site has additional segments associated. [Learn how to show or move this column](manage-sites-in-new-admin-center.md#customize-columns)
 
-![Segments column on the Active sites page.](media/segments-column.png)
+![Segments column on the Active sites page.](media/info-barriers-segments-column.png)
 
 To view the complete list of segments associated with a site, select the site, and then select the **Policies** tab.
 
-![Policies tab of the details panel listing all associated segments.](media/info-segments-details.png)
+![Policies tab of the details panel listing all associated segments.](media/info-barriers-segments-details.png)
 
 To edit the segments associated with the site, select **Edit**, add or remove segments, and then select **Save**.
 
-![Edit information segments panel.](media/edit-info-segments.png)
+![Edit information segments panel.](media/info-barriers-edit-info-segments.png)
 
 ## Use PowerShell to associate segments with a site
 
