@@ -185,12 +185,12 @@ More guidance on how to display the SharePoint app bar on a classic site will be
 
 
 ## Teach end users about this feature
-Help end users understand how the new SharePoint app bar works. 
+Help end users understand [how the new SharePoint app bar works](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US). 
 
 
 
 ## Temporarily disable the SharePoint app bar
-You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future MC posts.
+You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October 2021. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future MC posts.
 <br>
 <br>
 Temporarily disable the SharePoint app bar:
