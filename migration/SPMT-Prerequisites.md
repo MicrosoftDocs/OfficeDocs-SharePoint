@@ -20,6 +20,7 @@ description: "This article is a resource where you can find prerequisites and en
 ---
 # Prerequisites & Endpoints for the SharePoint Migration Tool</br>
 
+This article is a resource where you can find prerequisites and endpoint information for the SharePoint Migration Tool.
 
 ## Recommended requirements for best performance
 
