@@ -27,7 +27,7 @@ description: "In this article, you'll learn how to allow or prevent users from a
 
 Using modern pages in Microsoft SharePoint is a great way to share ideas using images, Office files, video, and more. Users can [Add a page to a site](https://support.office.com/article/b3d46deb-27a6-4b1e-87b8-df851e503dec) quickly and easily, and modern pages look great on any device. 
   
-If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent users from creating modern pages. You can do this at the organization level by changing settings in the SharePoint admin center. If you allow the creation of site pages as the organization level, site owners can [turn it of or off at the site level](https://support.office.com/article/787F3BA1-9DF6-480A-AB4C-9F4525490CB9). 
+If you're a global or SharePoint admin in Microsoft 365, you can allow or prevent users from creating modern pages. You can do this at the organization level by changing settings in the SharePoint admin center. If you allow the creation of site pages as the organization level, you can turn it on or off at the site level by using PowerShell. Site owners can also [turn it on or off at the site level](https://support.office.com/article/787F3BA1-9DF6-480A-AB4C-9F4525490CB9).
   
 > [!NOTE]
 > If you want to prevent members from creating or modifying any SharePoint pages on a site, go to Site Pages, select **Settings** ![Settings icon.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png) > **Library settings** > **Permissions for this document library**, and then set the Members group to Read. 
@@ -53,6 +53,7 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
 
     
 ## Prevent users from creating modern pages on a specific site by using PowerShell
+If you allow the creation of site pages as the organization level, you can turn it off at the site level by using PowerShell.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
@@ -140,6 +141,7 @@ If you're a global or SharePoint admin in Microsoft 365, you can allow or preven
    And for the **WebUrl** you would enter  `sites/marketing/northwindcompete`
     
 ## Allow users to create modern pages on a specific site by using PowerShell
+If you prevented users from creating modern pages on a site, follow these steps to allow it again. 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
     
