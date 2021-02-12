@@ -29,6 +29,9 @@ Help users find important content and resources no matter where they are in Shar
 ## The SharePoint app bar experience
 The SharePoint app bar brings together intranet resources and personalized content like sites, news, and files. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](https://docs.microsoft.com/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
 
+The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience). To ensure a seamless experience, we've created specific guidance on how to design current navigation to compliment the new global navigation feature. We have also created [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.   
+
+
 ![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
 
 >[!NOTE]
@@ -175,6 +178,12 @@ If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-sit
 5.	On the home site, select **Settings** and then **Global navigation** to **enable** and customize.
 6.	For the global navigation source, select **Home site navigation** to display the home site navigation that you created in the global navigation panel. Then select **Save**.
 
+## Understand how this may impact page customizations
+
+The SharePoint app bar may impact current page customizations, specifically those positioned to the left of your page. 
+For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in grey: 
+
+![Image of a home site with customizations](media/app-bar-overlap.png)
 
 ## Modernize classic SharePoint sites to display the SharePoint app bar
 The SharePoint app bar will only appear in [modern SharePoint sites](https://docs.microsoft.com/sharepoint/dev/transform/modernize-classic-sites) and [pages](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages). 
