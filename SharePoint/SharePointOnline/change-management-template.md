@@ -37,7 +37,7 @@ Help your organization drive and manage change by using the Workplace transforma
 
  
 
-## How to use the Workplace transformation site template
+### How to use the Workplace transformation site template
 The Workplace transformation site can be used to drive any topic or scope of organizational change. The site template helps organizations to successfully manage the people side of their organization change management to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.
 
 **Examples of the types of change projects that could benefit from the workplace transformation template:**
@@ -51,7 +51,7 @@ The Workplace transformation site can be used to drive any topic or scope of org
 
 
 
-## Site design is based on a proven change management model
+### Site design is based on a proven change management model
 
    ![Image of the Workplace transformation site design model](media/hybrid-model.png)
 
@@ -122,7 +122,7 @@ Learn more about [how to provision the M365 Learning pathways solution for the f
 ## Step 1: Provision the Workplace transformation site template
 
 > [!NOTE]
-> -	Tenant administrators’ credentials (or higher) are required to provision a template from the lookbook
+> -	Tenant administrators’ credentials (or higher) are required to provision a template from the look book
 > -	The workplace transformation site will take about 15 minutes to provision 
 
 
@@ -130,7 +130,7 @@ Learn more about [how to provision the M365 Learning pathways solution for the f
 2.	Then, select a site name, URL, and email address where an email confirmation will be sent when the site is successfully created.
 3.	Select **Provision**, and in less than 15 minutes you will receive an email confirmation with a link to your new site.
 <br> 
-Learn more about [provisioning site templates from the lookbook](https://docs.microsoft.com/sharepoint/add-sample-site). 
+Learn more about [provisioning site templates from the look book](https://docs.microsoft.com/sharepoint/add-sample-site). 
 
 
 ### Share the site with site owners and members to customize
