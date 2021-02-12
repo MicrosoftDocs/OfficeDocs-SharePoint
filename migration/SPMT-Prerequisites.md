@@ -67,8 +67,12 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https://<span><span>*.sharepoint.<span><span>com|Destination for migration|
 |https://<span><span>*.blob.core.usgovcloudapi.<span><span>net|Migration API Azure Government requirement|
 |https://<span><span>*.queue.core.usgovcloudapi.<span><span>net|Migration API Azure Government requirement|
-|https://<span><span>spoprod-a.akamaihd.<span><span>net|UI icons|
+|https:<span><span>//<span><span>spoprod-a.akamaihd.<span><span>net|UI icons|
 |https://<span><span>static2.sharepointonline.<span><span>com|UI icons|
+|https:<span><span>//graph.<span><span>microsoft.<span><span>com| Access Microsoft Graph API to get tenant information and site information for public cloud and GCC|
+|https:<span><span>//graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for GCC high|
+|https:<span><span>//dod-graph.<span><span>microsoft.<span><span>us |Access Microsoft Graph API to get tenant information and site information for DoD|
+
 
 
 
