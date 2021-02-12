@@ -22,7 +22,7 @@ description: "Provision and customize the Workplace transformation site"
 
 # Overview of the Workplace transformation site 
 
-Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The Workplace transformation site template is designed to communicate and pro-actively manage to change universally using a SharePoint communication site in combination with the power of Microsoft Lists. The workplace transformation site design is based on change management research that is proven to help organizations successfully adopt and sustain change. 
+Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The workplace transformation site design is based on change management research that is proven to help organizations successfully adopt and sustain change. 
 
    ![Image of the Workplace transformation site landing page](media/hybrid-home.png)
 
@@ -34,6 +34,21 @@ Help your organization drive and manage change by using the Workplace transforma
 -	Opportunity to use the Microsoft 365 Learning pathways solution to display Microsoft-curated and maintained training playlists
 -	Integration with Microsoft 365 lists that let you customize and manage the change management journey 
 -	Examples of micro-learning content that can be adapted to your change project
+
+ 
+
+## How to use the Workplace transformation site template
+The Workplace transformation site can be used to drive any topic or scope of organizational change. The site template helps organizations to successfully manage the people side of their organization change management to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.
+
+**Examples of the types of change projects that could benefit from the workplace transformation template:**
+<br>
+
+- **New process –** Communicate and manage changes to data security policies, new contract management workflows, or project intake processes.
+
+- **Merger and acquisition –** Onboard new employees and help current employees understand what to expect and how to work together.
+
+- **New systems –** Roll out a new employee benefits program, or help employees adopt new tools and apps.
+
 
 
 ## Site design is based on a proven change management model
@@ -52,21 +67,8 @@ Help your organization drive and manage change by using the Workplace transforma
 **4. Use and consult –** Use [Microsoft Lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US) to help your organization manage tasks and knowledge checks associated with training and change management objectives.
 <br>
 
-**5. Sustain –** Help users practice and sustain new skillsets and habits by using micro-learning content like quick tips and [publishing regular news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) sharing change management success stories. 
+**5. Sustain –** Help users practice and sustain new skillsets and habits by using micro-learning content like quick tips and [publishing regular news posts](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) sharing change management success stories.
 
-
-
-## How to use the Workplace transformation site template
-The Workplace transformation site can be used to drive any topic or scope of organizational change. The site template helps organizations to successfully manage the people side of their organization change management to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.
-
-**Examples of the types of change projects that could benefit from the workplace transformation template:**
-<br>
-
-- **New process –** Communicate and manage changes to data security policies, new contract management workflows, or project intake processes.
-
-- **Merger and acquisition –** Onboard new employees and help current employees understand what to expect and how to work together.
-
-- **New systems –** Roll out a new employee benefits program, or help employees adopt new tools and apps.
 
 
 ### Pre-populated content focuses on the hybrid workplace
@@ -182,7 +184,7 @@ Learn more about how to customize web parts and content that will appear on cert
 **People -** Edit [People web parts](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) in news post templates and on the **Get help** page.
 <br>
 
-**Video -** Edit the [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) on the **Message from our CEO** page to point to a YouTube video or an internat video link. Use the [Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b#:~:text=The%20Stream%20web%20part%20will%20display%20a%20Stream,and%20DoD%20or%20Office%20365%20operated%20by%2021Vianet.) to display an existing Stream video.
+**Video -** Edit the [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) on the **Message from our CEO** page to point to a YouTube video or an intranet video link. Use the [Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b#:~:text=The%20Stream%20web%20part%20will%20display%20a%20Stream,and%20DoD%20or%20Office%20365%20operated%20by%2021Vianet.) to display an existing Stream video.
 <br>
 
 #### Edit the change management checklist
