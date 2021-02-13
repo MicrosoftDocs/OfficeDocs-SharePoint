@@ -78,14 +78,14 @@ The OneDrive sync app provides differential sync for all file types stored in On
 > [!NOTE]
 > Windows Notification Service or WNS plays an important role in efficient network utilization. Instead of the sync app constantly pulling to check for remote changes, WNS ensures that any changes from the cloud get pushed down to the device as fast as possible. It saves both network bandwidth and device battery life. This benefits both Windows and macOS. Make sure the connection to the service is enabled. Work with your network team to make sure proxies allow network traffic to bypass \*.wns.windows.com and avoid HTTPS decryption for \*.wns.windows.com. 
 
-A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For detailed deployment guidance on Known Folder Move, see [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders).
+A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the policies slowly to minimize the network impact of uploading files. For detailed deployment guidance on Known Folder Move, see [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders).
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
 
 If you need to control sync app traffic, we recommend using network throughput policies provided by the OneDrive sync app. You can also use your network quality of service (QoS) policies or Windows QoS policies, or let users choose their throughput settings. For info about the network settings you can make available to your users, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
 
-### Use OneDrive Group Policy objects
+### Use OneDrive policies
 
 You can use policies included with the OneDrive sync app to control network throughput. These policies are available in the OneDrive installation directory `%localappdata%\Microsoft\OneDrive\BuildNumber\adm\` where `BuildNumber` is the number displayed in sync app settings on the About tab.
   
