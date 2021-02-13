@@ -29,8 +29,6 @@ Help users find important content and resources no matter where they are in Shar
 ## The SharePoint app bar experience
 The SharePoint app bar brings together intranet resources and personalized content like sites, news, and files. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](https://docs.microsoft.com/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
 
-The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience). To ensure a seamless experience, we've created specific guidance on how to design current navigation to compliment the new global navigation feature. We have also created [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.   
-
 
 ![Image of the SharePoint app bar tabs](media/app-bar-experience.png)
 
@@ -44,6 +42,8 @@ The SharePoint app bar is a significant change to the user experience and your o
 > -	Personalized content in the SharePoint app bar is enabled by Microsoft Graph.
 > -	When Microsoft Graph is disabled, the news and sites experience will be degraded.
 > -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the ap bar will delay the roll out of this feature in your organization until October 31, 2021.
+
+The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience). To ensure a seamless experience, we've created specific guidance on how to design current navigation to compliment the new global navigation feature. We have also created [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.   
 
 
 ## Customize global navigation in the app bar
@@ -181,7 +181,7 @@ If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-sit
 ## Understand how this may impact page customizations
 
 The SharePoint app bar may impact current page customizations, specifically those positioned to the left of your page. 
-For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in 
+For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in grey:
 
 ![Image of a home site with customizations](media/app-bar-overlap.png)
 
