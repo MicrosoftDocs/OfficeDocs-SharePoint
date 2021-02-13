@@ -43,7 +43,7 @@ The SharePoint app bar is a significant change to the user experience and your o
 > -	The SharePoint app bar may impact current page customizations specifically those that appear on the left side. 
 > -	Personalized content in the SharePoint app bar is enabled by Microsoft Graph.
 > -	When Microsoft Graph is disabled, the news and sites experience will be degraded.
-> -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the ap bar will delay the roll out of this feature in your organization until October 2021.
+> -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the ap bar will delay the roll out of this feature in your organization until October 31, 2021.
 
 
 ## Customize global navigation in the app bar
@@ -181,7 +181,7 @@ If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-sit
 ## Understand how this may impact page customizations
 
 The SharePoint app bar may impact current page customizations, specifically those positioned to the left of your page. 
-For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in grey: 
+For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in 
 
 ![Image of a home site with customizations](media/app-bar-overlap.png)
 
@@ -199,7 +199,7 @@ Help end users understand [how the new SharePoint app bar works](https://support
 
 
 ## Temporarily disable the SharePoint app bar
-You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October 2021. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future MC posts.
+You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October 31, 2021. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future MC posts.
 <br>
 <br>
 Temporarily disable the SharePoint app bar:
