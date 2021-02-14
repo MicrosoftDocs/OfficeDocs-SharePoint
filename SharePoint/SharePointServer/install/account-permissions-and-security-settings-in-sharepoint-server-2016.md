@@ -26,7 +26,7 @@ description: "Learn about the permissions and security settings to use with a de
 This article describes SharePoint administrative and services account permissions for the following areas: Microsoft SQL Server, the file system, file shares, and registry entries.
 
 > [!IMPORTANT]
-> Do not use service account names that contain the symbol $.
+> Do not use service account names that contain the symbol $ with the exception of using a Group Managed Service Account for SQL Server.
 
 
 ## About account permissions and security settings in SharePoint Servers
@@ -67,16 +67,13 @@ Service account name|What is it used for?|How many should be used?
 ----|----|----
 SharePoint Farm Administrator account|Personally identifiable account for a SharePoint admin|1-n
 SharePoint Farm Service Account| Timer Service, Insights, IIS App for CA, SP Web Services System, Security Token Service App Pool|1
-Default content access account|Search crawling internal and external sources|1-n
+Default content access account|Search crawling internal and external sources|1
 Content access accounts|Search crawling internal and external sources|1-n
 Web Application Pool account|All Web Applications without Central Administration|1
 SharePoint Service Application Pool account|All Service Applications|1
 Portal Super Reader|Object caching|1
 Portal Super User|Object caching|1
 User Profile Service Application Synchronization|Used for Active Directory Import|1-n
-
-
-
 
 ## SharePoint administrative accounts
 <a name="Section3"> </a>
