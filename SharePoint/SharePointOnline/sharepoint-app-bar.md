@@ -181,7 +181,7 @@ If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-sit
 ## Understand how this may impact page customizations
 
 The SharePoint app bar may impact current page customizations, specifically those positioned to the left of your page. 
-For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in grey:
+For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in red:
 
 ![Image of a home site with customizations](media/app-bar-overlap.png)
 
