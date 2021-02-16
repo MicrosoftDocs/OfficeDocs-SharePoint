@@ -1,8 +1,8 @@
 ---
 title: "Use administrative templates in Intune"
 ms.reviewer: kafeaver
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- m365initiative-healthyonedrive
 search.appverid:
 - MET150
 - ODB160

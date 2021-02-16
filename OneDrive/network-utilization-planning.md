@@ -1,8 +1,8 @@
 ---
 title: "Network utilization planning for the OneDrive sync app"
-ms.reviewer: andreye
-ms.author: kaarins
-author: kaarins
+ms.reviewer: 
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: ITPro
 f1.keywords:

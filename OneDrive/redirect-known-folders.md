@@ -1,8 +1,8 @@
 ---
 title: "Redirect and move Windows known folders to OneDrive"
 ms.reviewer: cagreen
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:

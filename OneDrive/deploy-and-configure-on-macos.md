@@ -1,8 +1,8 @@
 ---
 title: "Deploy and configure the new OneDrive sync app for Mac"
-ms.reviewer: joleung
-ms.author: kaarins
-author: kaarins
+ms.reviewer: 
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- m365initiative-healthyonedrive
 search.appverid:
 - ODB160
 - ODB150

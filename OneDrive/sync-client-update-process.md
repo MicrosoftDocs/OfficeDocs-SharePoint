@@ -1,8 +1,8 @@
 ---
 title: "The OneDrive sync app update process"
-ms.reviewer: joleung
-ms.author: kaarins
-author: kaarins
+ms.reviewer: 
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:

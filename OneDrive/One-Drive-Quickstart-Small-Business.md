@@ -137,32 +137,21 @@ Many small businesses use OneDrive without changing any of the options.
 
 If you want to add some basic device and sharing restrictions to OneDrive, you can use the OneDrive admin center. To access the new OneDrive admin center, go to https://admin.onedrive.com. There, you can restrict the people with whom your users can share files, choose the devices your employees can use to access OneDrive, and more.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSt]
-
 Settings in the OneDrive admin center are grouped into six categories:
 
--   **Sharing.** On the **Sharing** page, you can configure the default sharing link users send out to colleagues to share a file. For example, when users share a file, you can specify that the default sharing type is **Internal**.
+-   **Sharing.** Instead of using this page, use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true). To learn more, see [Manage sharing settings](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
 
-    ![Screenshot of the Sharing page in the OneDrive admin center showing default link settings](media/773e0df6-17ec-4433-ae50-62b14398317f.png)
-
-    You can also change the external sharing settings to prevent users from sharing files with people outside your organization. This is useful if you have a lot of confidential information.
-
-    ![Screenshot of the Sharing page in the OneDrive admin center showing external sharing settings](media/b7b3215c-3b01-40c2-b9cb-d363228ecacf.png)
-
-<!-- -->
-
--   **Sync.** On the **Sync** page, you can configure sync restrictions based on file type, require that synced devices be joined to your domain, or restrict synchronization from computers running macOS.
+-   **Sync.** On the **Sync** page, you can require that synced devices be joined to your domain or configure sync restrictions based on file type.
 
 -   **Storage.** On the **Storage** page, you specify the default OneDrive storage limit for users within your Office 365 organization. You can also configure how long to keep data for users whose accounts have been deleted (the maximum value is 10 years).
 
--   **Device Access.** On the **Device Access** page, you can restrict device access to OneDrive based on network location and apps that don't use modern authentication, among other application management options.
+-   **Device Access.** Instead of using this page, use the [Access control page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
 
--   **Compliance.** The **Compliance** page provides a centralized list of links to auditing, data loss prevention (DLP), retention, ediscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. (Most small businesses won't use these options.)
+-   **Compliance.** The **Compliance** page provides a centralized list of links to auditing, data loss prevention (DLP), retention, eDiscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. (Most small businesses won't use these options.)
 
     Selecting an item's link redirects you to the Office 365 Security & Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. For a walkthrough of how to create DLP policies in Office 365 and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template).
 
 -   **Notifications.** On the **Notifications** page, you define when OneDrive owners should receive notifications about sharing or accessing their data. These settings are helpful for small businesses that likely don't have IT staff who can audit this information. For information about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
-
 
 ## Get help with OneDrive
 
@@ -176,10 +165,3 @@ If you need help with OneDrive, you have many ways to find solutions to common i
 
 -   **OneDrive UserVoice.** You can review and submit feature requests and provide feature feedback at [OneDrive UserVoice](https://onedrive.uservoice.com/).
  
-
-
-
-
-
-
-
