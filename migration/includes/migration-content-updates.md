@@ -2,6 +2,20 @@
 
 
 
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [What's new in Migration Manager](/SharepointMigration/mm-whats-new) | modified |
+| 2/8/2021 | [Mover migration - Setting up your Box source connector](/SharepointMigration/mover-box) | modified |
+| 2/9/2021 | [SharePoint Migration Tool (SPMT) Release notes](/SharepointMigration/new-and-improved-features-in-the-sharepoint-migration-tool) | modified |
+| 2/10/2021 | [Authorizing the G Suite Connector](/SharepointMigration/mover-gsuite) | modified |
+| 2/11/2021 | [Migration performance guide for SharePoint & OneDrive](/SharepointMigration/sharepoint-online-and-onedrive-migration-speed) | modified |
+| 2/12/2021 | [Prerequisites and Endpoints for SharePoint Migration Tool](/SharepointMigration/spmt-prerequisites) | modified |
+| 2/12/2021 | [How does the SharePoint Migration Tool work?](/SharepointMigration/how-the-sharepoint-migration-tool-works) | modified |
+
+
 ## Week of February 01, 2021
 
 

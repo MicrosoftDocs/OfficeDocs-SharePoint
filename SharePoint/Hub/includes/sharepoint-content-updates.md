@@ -2,6 +2,27 @@
 
 
 
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
+| 2/8/2021 | [Plan outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-planning) | modified |
+| 2/8/2021 | [Overview of co-authoring in SharePoint Server](/SharePoint/governance/co-authoring-overview) | modified |
+| 2/8/2021 | [Disable co-authoring in SharePoint Server](/SharePoint/governance/disable-co-authoring) | modified |
+| 2/8/2021 | [Let users sync IRM-protected files with the OneDrive sync app](/SharePoint/let-users-sync-irm-protected-files) | modified |
+| 2/8/2021 | How to let users sync SharePoint files with the OneDrive sync app | removed |
+| 2/8/2021 | [Configure syncing with the new OneDrive sync app for SharePoint 2019](/SharePoint/install/new-onedrive-sync-client) | modified |
+| 2/8/2021 | [Plan for OneDrive in SharePoint Server](/SharePoint/sites/onedrive-for-business-planning) | modified |
+| 2/8/2021 | [What's deprecated or removed from SharePoint Server 2019](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019) | modified |
+| 2/9/2021 | [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](/SharePoint/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019) | modified |
+| 2/10/2021 | [Why move from publishing sites to communication sites? - SharePoint](/SharePoint/publishing-sites-classic-to-modern-experience) | modified |
+| 2/11/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
+| 2/12/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
+| 2/12/2021 | [Allow users to create modern pages](/SharePoint/let-users-create-modern-site-pages) | modified |
+
+
 ## Week of February 01, 2021
 
 
