@@ -60,7 +60,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 
 
 ### Get started customizing the global navigation tab
-1.	Set up a [home site](https://docs.microsoft.com/sharepoint/home-site) if your organization doesn’t already have one and make sure to [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everyone in your tenant to ensures all users can access the global navigation links. 
+1.	Set up a [home site](https://docs.microsoft.com/sharepoint/home-site) if your organization doesn’t already have one and make sure to [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everyone in your tenant to ensure all users can access the global navigation links. 
 2.	Navigate to your organization’s home site. 
 3.	Select **Settings** and then select **Global navigation settings**.
 
@@ -159,11 +159,11 @@ Display just the hub navigation on the home page, and the site navigation in the
 
 
 ## Set up a home site for the first time
-A [home site](https://docs.microsoft.com/sharepoint/home-site) is a SharePoint communication site that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. Its recommended that you set up a home site for your organization to take full advantage of SharePoint’s communication and collaboration features and is required to enable and customize global navigation in the SharePoint app bar. 
+A [home site](https://docs.microsoft.com/sharepoint/home-site) is a SharePoint communication site that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. It is recommended that you set up a home site for your organization to take full advantage of SharePoint’s communication and collaboration features and is required to enable and customize global navigation in the SharePoint app bar. 
 
 
 ### Set up a home site just for global navigation
-If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-site) for the main purpose of setting up global navigation, you can simplify the steps usually recommended to plan and launch a home site. Learn more about planning navigation in SharePoint and apply information architecture principals to your new home site’s navigational design. 
+If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-site) for the main purpose of setting up global navigation, you can simplify the steps recommended to plan and launch a home site. Learn more about planning navigation in SharePoint and apply information architecture principals to your new home site’s navigational design. 
 
 >[!NOTE]
 > -	Only one communication site can be set as the home site.
@@ -178,7 +178,7 @@ If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-sit
 5.	On the home site, select **Settings** and then **Global navigation** to **enable** and customize.
 6.	For the global navigation source, select **Home site navigation** to display the home site navigation that you created in the global navigation panel. Then select **Save**.
 
-## Understand how this may impact page customizations
+## Understand how the app bar may impact page customizations
 
 The SharePoint app bar may impact current page customizations, specifically those positioned to the left of your page. 
 For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in red:
