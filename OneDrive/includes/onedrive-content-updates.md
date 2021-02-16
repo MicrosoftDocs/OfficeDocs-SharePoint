@@ -2,6 +2,18 @@
 
 
 
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/OneDrive/deploy-on-windows) | modified |
+| 2/8/2021 | [Control Groove.exe installation when deploying Office using Click-to-Run](/OneDrive/exclude-or-uninstall-previous-sync-client) | modified |
+| 2/8/2021 | [Install the previous OneDrive sync app](/OneDrive/install-previous-sync-app) | modified |
+| 2/8/2021 | [OneDrive guide for enterprises](/OneDrive/plan-onedrive-enterprise) | modified |
+| 2/8/2021 | [Transition from the previous OneDrive for Business sync app](/OneDrive/transition-from-previous-sync-client) | modified |
+
+
 ## Week of February 01, 2021
 
 
