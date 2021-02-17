@@ -48,7 +48,7 @@ To check eligibility on existing devices, data volume, and item counts as you de
   
 ## About the Known Folder Move policies
 
-OneDrive policies can be set using Group Policy, [Intune Windows 10 Administrative Templates](configure-sync-intune.md), or by configuring registry settings. For a full reference of available policies and their registry settings, see [Use Group Policy to control OneDrive sync settings](use-group-policy.md).  
+OneDrive policies can be set using Group Policy, [Intune Windows 10 Administrative Templates](configure-sync-intune.md), or by configuring registry settings. For a full reference of available policies and their registry settings, see [Use OneDrive policies to control sync settings](use-group-policy.md).  
 
 The following policies control the Known Folder Move feature: 
   

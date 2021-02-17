@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: serdars
-ms.date: 06/7/2018
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -19,7 +18,7 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: effbf250-57c8-436d-9e0f-edd017a896b7
-description: "Learn how to help users get the most out of the Discover view in OneDrive."
+description: "Learn about the Discover view in OneDrive."
 ---
 
 # About Discover view
