@@ -56,7 +56,7 @@ Harness the power of the intelligent intranet to communicate effectively across 
 
 ### 1 - Explore what's possible
 
-Get inspired by what you can accomplish with SharePoint by viewing [compelling business scenarios](https://resources.techcommunity.microsoft.com/intelligent-intranet/explore/), the [SharePoint look book](https://lookbook.microsoft.com/), and [guided walkthroughs](https://support.microsoft.com/office/guided-walkthroughs-creating-sites-for-your-organization-7cc52ac9-394e-417e-85fe-33070e0cd13c). 
+Start by getting inspired by what you can accomplish with SharePoint by viewing [compelling business scenarios](https://resources.techcommunity.microsoft.com/intelligent-intranet/explore/), the [SharePoint look book](https://lookbook.microsoft.com/), and [guided walkthroughs](https://support.microsoft.com/office/guided-walkthroughs-creating-sites-for-your-organization-7cc52ac9-394e-417e-85fe-33070e0cd13c). 
 
 - Identify your key sponsors and stakeholders
 - [Organize priorities](https://resources.techcommunity.microsoft.com/intelligent-intranet/align/#goals)
@@ -92,10 +92,9 @@ Learn more about [intranet way finding](https://docs.microsoft.com/sharepoint/in
 Measure intranet effectiveness by reviewing [Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics) and [SharePoint hub and page usage analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e). Make sure site owners and authors have appropriate training to create, build, and maintain sites.  
 
 - Ensure site owners have access to [SharePoint training materials](https://support.microsoft.com/sharepoint?ui=en-US&rs=en-US&ad=US) 
-- Plan to review [site and hub metrics]((https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)
+- Plan to review [site and hub metrics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)
 - Consider using [Microsoft Learning Pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization) to surface training content on SharePoint pages. 
-
-Consider forming a site owner or [intranet champions community](https://aka.ms/SharePoint-Adoption-Playbook) to ensure that site owners stay up to date of new capabilities and guidance. Learn more about how to improve [SharePoint adoption](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/#demos). 
+- Consider forming a site owner or [intranet champions community](https://aka.ms/SharePoint-Adoption-Playbook) to ensure that site owners stay up to date of new capabilities and guidance. Learn more about how to improve [SharePoint adoption](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/#demos). 
 
 
 |**Design process**|**Learn more**|
