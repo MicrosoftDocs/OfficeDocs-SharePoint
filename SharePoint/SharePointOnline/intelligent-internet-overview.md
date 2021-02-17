@@ -93,15 +93,16 @@ Measure intranet effectiveness by reviewing [Microsoft 365 usage analytics](http
 
 - Ensure site owners have access to [SharePoint training materials](https://support.microsoft.com/sharepoint?ui=en-US&rs=en-US&ad=US) 
 - Plan to review [site and hub metrics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)
-- Consider using [Microsoft Learning Pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization) to surface training content on SharePoint pages. 
-- Consider forming a site owner or [intranet champions community](https://aka.ms/SharePoint-Adoption-Playbook) to ensure that site owners stay up to date of new capabilities and guidance. Learn more about how to improve [SharePoint adoption](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/#demos). 
-
+- Consider using [Microsoft Learning Pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization) to surface training content on SharePoint pages
+ 
 
 |**Design process**|**Learn more**|
 |:-----|:-----|
 |Plan sites - Help site owners understand how to plan to create high impact sites that meet objectives.|[Plan your SharePoint communication site](https://support.microsoft.com/office/plan-your-sharepoint-communication-site-35d9adfe-d5cc-462f-a63a-bae7f2529182)<br>[Get inspired with the SharePoint look book](https://lookbook.microsoft.com/)<br>[Guided Walkthroughs: Creating sites for your organization](https://support.microsoft.com/office/guided-walkthroughs-creating-sites-for-your-organization-7cc52ac9-394e-417e-85fe-33070e0cd13c)|
 |Build sites - Learn how to create and customize sites that align with your organization.|[Create and use modern pages on a SharePoint site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec)<br>[Customize your SharePoint site](https://support.microsoft.com/office/customize-your-sharepoint-site-320b43e5-b047-4fda-8381-f61e8ac7f59b)<br>[Customize the navigation on your SharePoint site](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca)<br>[Using web parts on SharePoint pages](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0)|
 |Manage sites - Show site owners how to maintain site content and use site analytics to engage viewers.|[Management and life cycle of a SharePoint modern page](https://support.microsoft.com/office/management-and-lifecycle-of-a-sharepoint-modern-page-3410a04c-3ca4-4a4c-b867-33ab5c8bdcf3)<br>[Manage your SharePoint site settings](https://support.microsoft.com/office/change-a-site-s-title-description-logo-and-site-information-settings-8376034d-d0c7-446e-9178-6ab51c58df42)<br>[View usage data for your SharePoint site](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)|
+
+Learn more about forming a site owner or [intranet champions community](https://aka.ms/SharePoint-Adoption-Playbook) to ensure that site owners stay up to date of new capabilities and guidance. Learn more about how to improve [SharePoint adoption](https://resources.techcommunity.microsoft.com/intelligent-intranet/engage/#demos).
 
 ## SharePoint intranet key capabilities by enterprise product license
 
