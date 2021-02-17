@@ -92,7 +92,8 @@ OneDrive Files On-Demand enables users to view, search for, and interact with fi
 
 Natively, files will be downloaded only when you need to access them. However, if you plan to access a file while disconnected from the internet, you can make the file available offline by right-clicking it, and then selecting **Always keep on this device**. Alternatively, if you want to free space on your device and remove the downloaded copy of a file, right-click the file, and then select **Free up space**. The following image shows the right-click menu for OneDrive files on a computer running the Windows operating system.
 
-![Screenshot of the right-click menu in Windows Explorer showing options to keep the file on disk or in the cloud](media/onedrive-feature-overview_image4.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the right-click menu in Windows Explorer showing options to keep the file on disk or in the cloud](media/onedrive-feature-overview_image4.png)
 
 For more info about OneDrive Files On-Demand, see [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
 
@@ -100,7 +101,8 @@ For more info about OneDrive Files On-Demand, see [Learn about OneDrive Files On
 
 OneDrive integrates with Outlook to allow seamless sharing of OneDrive files that appear just like email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive, providing collaborative benefits such as version control typically lost when users email documents back and forth. In addition, you can configure sharing permissions on the files directly from within the Outlook app. For an example of a document in OneDrive being attached as a link to an email, as well as the experience of changing the sharing permissions on the link, see the following image.
 
-![Screenshot of Outlook showing a modern attachment and the right-click menu with permissions options](media/onedrive-feature-overview_image5.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Outlook showing a modern attachment and the right-click menu with permissions options](media/onedrive-feature-overview_image5.png)
 
 To reduce the potential for confusion when users choose to add a copy versus a link to attached OneDrive files, you can set the default behavior of the Outlook app, as demonstrated in [How to control default attachment state when you attach a cloud file in Outlook](https://support.microsoft.com/help/4011261/how-to-set-attachment-preference-for-attaching-a-cloud-file-in-outlook).
 
@@ -108,7 +110,8 @@ To reduce the potential for confusion when users choose to add a copy versus a l
 
 The OneDrive Files Restore feature enables users to restore files to any point over the past 30 days. To select the desired recovery time, OneDrive presents users with a histogram that shows file activity so that they can determine which recovered time meets their needs. From there, users can select the file history entry to which they want to restore, and all changes after that point will be rolled back. The following image shows the Files Restore experience for a user.
 
-![Screenshot of the Restore my OneDrive screen](media/onedrive-feature-overview_image6.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Restore my OneDrive screen](media/onedrive-feature-overview_image6.png)
 
 In addition, because the histogram shows individual activity on a file, users can employ this feature to quickly view their files' modification history. For more info about this feature, see [Restore your OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 
@@ -125,7 +128,8 @@ The Microsoft 365 admin center handles reporting for cloud services, including O
 > [!NOTE]
 > To export this info to a .csv file, select **Export**.
 
-![Screenshot of the 30-day file usage report](media/onedrive-feature-overview_image2.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the 30-day file usage report](media/onedrive-feature-overview_image2.png)
 
 You can also consume this info in Power BI by using the Microsoft 365 usage analytics content pack. Using this content pack, you can visualize and analyze usage data by using prebuilt graphs and charts or by creating custom reports to gain insight into how specific regions or departments within your organization are using Microsoft 365. For more info about this content pack, see [Microsoft 365 usage analytics](/office365/admin/usage-analytics/usage-analytics).
 
@@ -166,7 +170,7 @@ You can deploy and manage OneDrive in many ways, but certain options make more s
 > [!NOTE]
 > Keep in mind that an organization in one size category would probably incorporate additional options from other size categories. This table is not intended to exclusively identify a technology with a specific business size.
 
-|**Size of organization**|**Deployment tools used**|**Management**|
+| Size of organization | Deployment tools used | Management |
 |:-----|:-----|:-----|
 |Small business|Local installation|Microsoft 365 admin center, SharePoint admin center, and OneDrive admin center|
 |Medium-sized business|Scripted installation or Microsoft Intune mobile device management (MDM)|Office 365 with MDM, SharePoint and OneDrive admin centers, PowerShell, Intune mobile application management (MAM) or MDM|
@@ -498,7 +502,7 @@ Before you can deploy applications to computers running macOS, you need to compl
 
 The tools and technologies you use to manage OneDrive are based on the individual management task you want to perform. The following table shows the three primary categories to consider when managing OneDrive and the technologies and methods available for that category.
 
-|**Category**|**Tasks**|**Technology or method**|
+| Category | Tasks | Technology or method |
 |:-----|:-----|:-----|
 |OneDrive organization-wide settings|Manage settings such as storage limits and sharing capabilities.|OneDrive admin center<br>Microsoft PowerShell|
 |App updates|Update the OneDrive sync app or mobile apps|MDM (for example, Intune)<br>Microsoft Endpoint Configuration Manager<br>Group Policy<br>OneDrive admin center<br>Manually|
