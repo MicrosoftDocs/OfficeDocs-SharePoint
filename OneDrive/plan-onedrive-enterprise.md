@@ -395,7 +395,7 @@ You can select how soon your users receive updates we release for the sync app.
 
 - **Deferred ring** – In this ring, you have more control over the deployment of updates, but users have to wait longer to receive fixes and new features.
 
-You configure this setting using the OneDrive policy [Set the sync app update ring](use-group-policy/md#set-the-sync-app-update-ring).
+You configure this setting using the OneDrive policy [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring).
 
 For details about the update process for the OneDrive sync app, see [The OneDrive sync app update process](sync-client-update-process.md).
 
