@@ -47,7 +47,7 @@ Microsoft recommends using a minimal number of Service Application Pool accounts
 
 - If possible use a security group, **SharePoint Farm Administrators Groups**, to unify all individual SharePoint Farm Administrator accounts and grant permissions as outlined below. This simplifies the management of the SharePoint Farm Administrator accounts significantly.
 
-- The **SharePoint Farm Service account** should only run the SharePoint Timer service, SharePoint Inights (if applicable), the IIS Application Pools for Central Administration, SharePoint Web Services System (used for the topology service), and SecurityTokenServiceApplicationPool (used for the Security Token Service).
+- The **SharePoint Farm Service account** should only run the SharePoint Timer service, SharePoint Insights (if applicable), the IIS Application Pools for Central Administration, SharePoint Web Services System (used for the topology service), and SecurityTokenServiceApplicationPool (used for the Security Token Service).
 
 - A single account should be used for all Service Applications, named **Service Application Pool account**. This allows the administrator to use a single IIS Application Pool for all Service Applications. In addition, this account should run the following Windows Services: SharePoint Search Host Controller, SharePoint Server Search, and Distributed Cache (AppFabric Caching Service).
 
@@ -59,7 +59,7 @@ Microsoft recommends using a minimal number of Service Application Pool accounts
 
 - Use separate accounts for the **Content access** (Search crawler), **Portal Super Reader**, **Portal Super User**, and **User Profile Service Application Synchronization**, if applicable.
 
-- The Claims to Windows Token Service account is a highly privledged account on the farm. Prior to deploying this service, verify it is required. If required, use a separate account for this service.
+- The Claims to Windows Token Service account is a highly privileged account on the farm. Prior to deploying this service, verify it is required. If required, use a separate account for this service.
 
 ### Service accounts recommendations overview
 
@@ -328,7 +328,7 @@ The following table shows the WSS_ADMIN_WPG file system permissions.
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LoadBalancerSettings|Read, write|No|This key contains settings for the document conversion service. Altering this key will break document conversion functionality.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Office Server\16.0\LauncherSettings|Read, write|No|This key contains settings for the document conversion service. Altering this key will break document conversion functionality.|
 |HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\Secure|Read|No|This key contains the connection string and the ID of the configuration database to which the machine is joined. If this key is altered, the SharePoint Server 2016 installation on the machine will not function.|
-|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Read|Yes|This key contains settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration mightay fail.|
+|HKEY_LOCAL_MACHINE\Software\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS|Read|Yes|This key contains settings that are used during setup. If this key is altered, diagnostic logging might fail and setup or post-setup configuration might fail.|
 
 The following table shows the WSS_WPG file system permissions.
 
