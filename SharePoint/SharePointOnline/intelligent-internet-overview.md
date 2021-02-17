@@ -112,7 +112,7 @@ Measure intranet effectiveness by reviewing [Microsoft 365 usage analytics](http
 |Files and content|OneDrive helps you work on a file and save it directly to OneDrive or SharePoint and changes are updated across synced devices. Stream lets you easily create engaging video content. Access and sync files on PC or Mac and mobile devices. Share files with external contacts by providing access or guest links.|M365 E5<br> M365 E3|
 |Work management|Efficiently manage work across individuals, teams, and organizations. Create and automate business processes.|M365 E5<br> M365 E3|
 
-### Learn more
+#### Learn more about Microsoft licensing
 
 [Get more information about Microsoft 365 for enterprise](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)<br>
 [Microsoft 365 small business license options](https://www.microsoft.com/microsoft-365/business/compare-all-microsoft-365-business-products-b?ef_id=42c0bd26b6d41adfea29e2f69367c702:G:s&OCID=AID2100137_SEM_42c0bd26b6d41adfea29e2f69367c702:G:s&lnkd=Bing_O365SMB_Brand&msclkid=42c0bd26b6d41adfea29e2f69367c702)
