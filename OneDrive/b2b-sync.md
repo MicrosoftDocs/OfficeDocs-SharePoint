@@ -98,7 +98,7 @@ For more info, see [External sharing overview](/sharepoint/external-sharing-over
 
 When you allow users to share content from your organization externally, you can use several features in Microsoft 365 to manage who has access to the content. Admins and site owners can review permissions and audit access to sites. For info, see [Searching for site content shared with external users](/office365/securitycompliance/keyword-queries-and-search-conditions) and [Turn on external sharing notifications](turn-on-external-sharing-notifications.md). You can enable external sharing with only specific internet domains, or you can block specific domains. For info, see [Restricted domains sharing](/sharepoint/restricted-domains-sharing). You can also allow only members of specific security groups to share externally. For info, see [Turn external sharing on or off](/sharepoint/turn-external-sharing-on-or-off).
 
-We recommend creating separate sites (site collections, not subsites) for each unit of work that you want to share externally. This way, you can clearly annotate the sites to indicate that external users have access, and avoid unintentional disclosure of information. For individual users sharing content from their OneDrive, we recommend creating separate folders for different projects or collaboration groups.
+We recommend creating separate sites (site collections, not subsites) for each unit of work that you want to share externally. This way, you can clearly annotate the sites to indicate that people outside your organization have access, and avoid unintentional disclosure of information. For individual users sharing content from their OneDrive, we recommend creating separate folders for different projects or collaboration groups.
   
 You can remove a guest's permission to a site or folder, or you can delete the guest account to remove their permission from all of your organization's content.
 
@@ -134,7 +134,7 @@ Sites and folders can be shared in different ways in SharePoint and OneDrive:
 B2B Sync works with all these methods of sharing. It has only the following requirements:
 
 - For guests to sync shared content, the content must be shared at the site or folder level. Guests can't sync files that are shared individually (for example, from the Office apps).
-- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an Anyone  link (also known as "anonymous access" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account.
+- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an Anyone link (also known as "anonymous access" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account.
 
 ### Add guests to SharePoint sites
 
