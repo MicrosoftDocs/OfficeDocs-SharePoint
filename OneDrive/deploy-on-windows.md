@@ -51,7 +51,7 @@ If the computers in your organization are running Windows 10, they already have 
   
 ### Deploy any administrative settings
 
-To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use Group Policy to control OneDrive sync app settings](use-group-policy.md).
+To set registry keys on computers in your domain, install OneDrive and copy the OneDrive.admx and OneDrive.adml files from %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ to your Group Policy central store. For more info, see [Use OneDrive policies to control OneDrive sync app settings](use-group-policy.md).
   
 ### Use Microsoft Endpoint Configuration Manager to deploy the OneDrive sync app
 

@@ -59,7 +59,7 @@ No, although a single version of OneDrive.exe is installed, a new process is cre
 **Will the same update rings apply to per-machine?** 
 If you selected the Insiders ring (via the [Windows Insider program](https://insider.windows.com/) or [Office Insider](https://products.office.com/office-insider) programs) or are in the default Production ring, you are in the same ring as before. 
  
-In the past, you may have used a user group policy (under HKCU) to select the Deferred ring ([Receive OneDrive sync app updates on the Deferred ring](https://docs.microsoft.com/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This group policy won't work with the per-machine install. To select the ring, use the computer group policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)).
+In the past, you may have used a user policy (under HKCU) to select the Deferred ring ([Receive OneDrive sync app updates on the Deferred ring](https://docs.microsoft.com/OneDrive/use-group-policy#EnableEnterpriseUpdate)). This  policy won't work with the per-machine install. To select the ring, use the computer policy (under HKLM) instead ([Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)).
 
 **Does the per-machine sync app follow the same update process/cadence as the per-user sync app?** 
 Yes, the per-machine sync app will auto-update on the same cadence as the per-user sync app and the same rings are supported (see question above). The [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0) are the same. [More info about the sync app update process](sync-client-update-process.md)
