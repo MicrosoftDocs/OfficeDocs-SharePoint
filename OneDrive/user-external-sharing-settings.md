@@ -7,7 +7,7 @@ manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 

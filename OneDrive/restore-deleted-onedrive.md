@@ -4,7 +4,6 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: serdars
-ms.date: 05/15/2018
 audience: Admin
 f1.keywords:
 - NOCSH

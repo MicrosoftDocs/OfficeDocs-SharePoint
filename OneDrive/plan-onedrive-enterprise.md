@@ -7,7 +7,7 @@ manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: guide
 ms.service: one-drive
 ms.collection: 
 - Strat_OD_admin
