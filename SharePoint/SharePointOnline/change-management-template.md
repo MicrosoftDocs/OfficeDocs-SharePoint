@@ -22,15 +22,23 @@ description: "Provision and customize the Workplace transformation site"
 
 # Overview of the Workplace transformation site 
 
-Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The workplace transformation site design is based on change management research that is proven to help organizations successfully adopt and sustain change. 
+Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The site template helps organizations to successfully manage the people side of their organization change management initiatives to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The site design is based on change management research that is focused on helping organizations successfully adopt and sustain change. 
 
    ![Image of the Workplace transformation site landing page](media/hybrid-home.png)
+
+
+The Workplace transformation site template helps organizations:
+
+- Inspire employees on the new possibilities’ your change management project offers
+- Provide employees with the information, resources and support they will need to successfully adopt new ways of working
+- Ready employees for a successful transition to new processes, tools, and expectations
+
 
 ### The Workplace transformation site features:
 
 -	A landing place for people in your organization to get more information, news, and support
 -	Specialized support channels for many audiences like managers, teams, and champions 
--	Pre-populated content and web parts that can be customized to fit the needs of your organization and specific change management project
+-	Pre-populated content and web parts that can be customized to fit the needs of your organization and specific change management projects
 -	Opportunity to use the Microsoft 365 Learning pathways solution to display Microsoft-curated and maintained training playlists
 -	Integration with Microsoft 365 lists that let you customize and manage the change management journey 
 -	Examples of micro-learning content that can be adapted to your change project
@@ -52,6 +60,8 @@ The Workplace transformation site can be used to drive any topic or scope of org
 
 
 ### Site design is based on a proven change management model
+
+**Phases of change management:**
 
    ![Image of the Workplace transformation site design model](media/hybrid-model.png)
 
@@ -83,7 +93,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 
    ![Image of the Workplace transformation site navigation](media/hybrid-nav.png)
  
-- **Home page –** Provide a landing place for employees to learn more right away about why the change is happening and how it will impact their day-to-day work.
+- **Home page –** Help employees easily understand "what's in it for me?" right away by providing a landing place for employees to learn more right away about why the change is happening and how it will impact their day-to-day work. 
 <br>
 
 - **Hybrid work –** Explain in more detail what is changing and what success will look like when change is adopted and sustained.
@@ -101,7 +111,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 - **Quick tips –** Create micro-learning opportunities to help employees adopt and sustain new skills.
 <br>
 
-- **A message from our CEO –** Unit the organization around a central change by sharing a recording or written message form leadership endorsing the change project.
+- **A message from our CEO –** Unite the organization around a central change by sharing a recording or written message form leadership endorsing the change project.
 <br>
 
 - **Champions program –** Recruit subject matter experts into your champions program.
@@ -157,7 +167,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 The workplace transformation site features pre-populated content that helps organizations transition to a hybrid workplace. However, the workplace transformation site can be customized for any change management project. [Learn more about the workplace transformation site features and contents](https://review.docs.microsoft.com/SharePoint/change-management-template?branch=change-management#pre-populated-content-focuses-on-the-hybrid-workplace). 
 
 ### Customize web parts and content
-Learn more about how to customize web parts and content that will appear on certain pages or throughout the site.
+Learn how to customize web parts and content that will appear on certain pages or throughout the site.
 
    ![Image of the text web parts and call to action web part](media/hybrid-text-links.png)
 
