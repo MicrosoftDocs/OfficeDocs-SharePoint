@@ -209,7 +209,7 @@ The Workplace transformation site contains a [Microsoft List](https://support.mi
 [Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
 #### Use M365 Learning pathways to embed training content on a page
-If your tenant admin has set up [M365 Learning pathways](https://docs.microsoft.com/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](https://docs.microsoft.com/office365/customlearning/custom_addwebpart) to display custom training playlists.
+If your tenant admin has set up [M365 Learning pathways](https://docs.microsoft.com/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](https://docs.microsoft.com/office365/customlearning/custom_addwebpart) to display custom training playlists. Then, use [Learning pathways reporting capabilities](https://docs.microsoft.com/office365/customlearning/custom_measureimpact) to measure content impact.
 <br>
 
 #### Use tools to help target content to specific audiences or protect content from specific audiences
