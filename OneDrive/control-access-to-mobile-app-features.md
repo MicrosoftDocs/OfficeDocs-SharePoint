@@ -8,7 +8,7 @@ ms.date: 06/25/2018
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: how-to
+ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
