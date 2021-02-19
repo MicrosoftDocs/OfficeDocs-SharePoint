@@ -22,7 +22,7 @@ description: "Provision and customize the Workplace transformation site"
 
 # Overview of the Workplace transformation site 
 
-Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The site template helps organizations to successfully manage the people side of their organization change management initiatives to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes.The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The site design is based on change management research that is focused on helping organizations successfully adopt and sustain change. 
+Help your organization drive and manage change by using the Workplace transformation site template in SharePoint. The site template helps organizations to successfully manage the people side of their organization change management initiatives to ensure all impacted employees are informed, have support, and know where they can learn more about upcoming changes. The Workplace transformation site template is designed help people in your organization understand and engage in the change management process by providing a landing place using a SharePoint communication site in combination with Microsoft Lists to help users see the big picture. The site design is based on change management research that is focused on helping organizations successfully adopt and sustain change. 
 
    ![Image of the Workplace transformation site landing page](media/hybrid-home.png)
 
@@ -30,7 +30,7 @@ Help your organization drive and manage change by using the Workplace transforma
 The Workplace transformation site template helps organizations:
 
 - Inspire employees on the new possibilities’ your change management project offers
-- Provide employees with the information, resources and support they will need to successfully adopt new ways of working
+- Provide employees with the information, resources, and support they will need to successfully adopt new ways of working
 - Ready employees for a successful transition to new processes, tools, and expectations
 
 
@@ -89,7 +89,7 @@ Learn more about the [future of work](https://www.microsoft.com/research/theme/f
 
 
 ## Overview of the site contents
-The workplace transformation site is full of pre-populated content, web parts, news templates and a [Microsoft List](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US). Carefully review and customize pre-populated content before sharing broadly with end users.
+The workplace transformation site is full of pre-populated content, web parts, news templates, and a [Microsoft List](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US). Carefully review and customize pre-populated content before sharing broadly with end users.
 
    ![Image of the Workplace transformation site navigation](media/hybrid-nav.png)
  
@@ -155,12 +155,12 @@ Customize the workplace transformation site to fit the needs of your organizatio
 
 ### Sign in 
 
-1.	Open your web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign in location.
+1.	Open your web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
 2.	**Sign in** with your username and password.
 3.	Navigate to the location of the site using the URL supplied by your tenant admin, or select SharePoint from the Microsoft 365 home page, and then select the **Workplace transformation site**.
 
 ### Review pre-populated content
-The workplace transformation site is full of pre-populated content, web parts, news templates and a Microsoft list. Carefully review and customize pre-populated content before sharing broadly with end users. 
+The workplace transformation site is full of pre-populated content, web parts, news templates, and a Microsoft list. Carefully review and customize pre-populated content before sharing broadly with end users. 
 
    ![Image of the Workplace transformation site navigation](media/hybrid-nav.png)
 
@@ -194,7 +194,16 @@ Learn how to customize web parts and content that will appear on certain pages o
 **People -** Edit [People web parts](https://support.microsoft.com/office/show-people-profiles-on-your-page-with-the-people-web-part-7e52c5f6-2d72-48fa-a9d3-d2750765fa05) in news post templates and on the **Get help** page.
 <br>
 
+   ![Image of the video on the site](media/hybrid-video.png)
+
 **Video -** Edit the [Embed web part](https://support.microsoft.com/office/add-content-to-your-page-using-the-embed-web-part-721f3b2f-437f-45ef-ac4e-df29dba74de8) on the **Message from our CEO** page to point to a YouTube video or an intranet video link. Use the [Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b#:~:text=The%20Stream%20web%20part%20will%20display%20a%20Stream,and%20DoD%20or%20Office%20365%20operated%20by%2021Vianet.) to display an existing Stream video.
+<br>
+
+#### Use Microsoft Forms to facilitate news post requests 
+
+   ![Image of the button web part on the Community page](media/hybrid-news-templates.png)
+
+Edit the [Button web part](https://support.microsoft.com/office/use-the-button-web-part-d2e37c48-11e8-45b9-8d9e-abdaa97c2a7a#:~:text=%20Add%20the%20Button%20web%20part%20%201,pane%20on%20the%20right,%20enter%20your...%20More) on bottom of the **Community** page to give users an opportunity to engage and acknowledge others. Connect the Button web part to a [Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d.) where users can submit nominations. Then, use the pre-populated news post templates in **Settings > Site contents** to publish news. 
 <br>
 
 #### Edit the change management checklist
