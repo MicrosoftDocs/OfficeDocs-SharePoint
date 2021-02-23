@@ -1,13 +1,13 @@
 ---
 title: "Sync"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: overview
 ms.service: one-drive
 localization_priority: Normal
 search.appverid:
