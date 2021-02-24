@@ -6,7 +6,7 @@ author: JoanneHendrickson
 manager: serdars
 audience: ITPro
 f1.keywords:
-- CSH
+- NOCSH
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
