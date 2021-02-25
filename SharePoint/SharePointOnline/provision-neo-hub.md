@@ -124,7 +124,7 @@ As the site collection admin, you may not be the person customizing the sites, s
 
 
 ## Step 2: Customize the onboarding experience 
-The New Employee Onboarding (NEO) sites consists of three SharePoint site templates that can be customized to fit the needs of your users and organization. Many of the core pages are already built and pre-populated with content. Review content on sites and pages, then plan on customizing content, images, branding, web parts, and pages.   
+The New Employee Onboarding (NEO) sites consist of three SharePoint site templates that can be customized to fit the needs of your users and organization. Many of the core pages are already built and pre-populated with content. Review content on sites and pages, then plan on customizing content, images, branding, web parts, and pages.   
 
 Before you customize NEO site content, ensure you understand the needs of your users and the business objectives of your organization. New hires will need different kinds of support and resources depending on the onboarding phase and culture of your organization. Begin by signing into your account and reviewing pre-populated content. Then, customize content and prepare to share the site with new hires. 
 
@@ -161,7 +161,7 @@ It’s important to make sure the right content is available to users at the rig
 > You need to be a site owner to customize and share the NEO sites. Work with your SharePoint administrator if you don’t already have access.
 
 
-1.	Open your web browser and navigate to [office.com](https://www.office.com) or your organization’s sign in location.
+1.	Open your web browser and navigate to [office.com](https://www.office.com) or your organization’s sign-in location.
 
 2.	**Sign in** with your username and password.
 
@@ -330,11 +330,11 @@ As a SharePoint site owner, you can view site usage data that shows you how user
 
 ## Step 5: Manage and maintain your NEO sites
 
-NEO sites should present the most up to date content your organization has to offer, so you’ll need to commit to maintaining relevant content throughout the experience. Develop a plan to audit content and refresh web parts as needed to ensure contact information, FAQs, the onboarding checklist, and People web parts are up to date. Learn more about [managing communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
+NEO sites should present the most up-to-date content your organization has to offer, so you’ll need to commit to maintaining relevant content throughout the experience. Develop a plan to audit content and refresh web parts as needed to ensure contact information, FAQs, the onboarding checklist, and People web parts are up to date. Learn more about [managing communication sites](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f). 
 
 - Train site owners and authors. Make sure all site owners and authors have appropriate training and access to [maintain the site](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f).
-- Update content in web parts. Keep web parts like the People web part updated to ensure you are leveraging the full value of the NEO sites.
-- Review previously established metrics after the launch. Use insights from [site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to promote content on the home page, update navigation, or re-write content for clarity.
+- Update content in web parts. Keep web parts like the People web part updated to ensure you are using the full value of the NEO sites.
+- Review previously established metrics after the launch. Use insights from [site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to promote content on the home page, update navigation, or rewrite content for clarity.
 - Establish a schedule to audit content. Plan when site owners should audit content in advance to make sure your sites are always up to date.
 - Periodically review your site settings. Make [changes to the settings](https://support.microsoft.com/office/manage-your-sharepoint-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42?ui=en-us&rs=en-us&ad=us), site information, and permissions for the site as needed.
 
