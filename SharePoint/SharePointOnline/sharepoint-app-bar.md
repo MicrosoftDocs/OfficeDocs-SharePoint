@@ -85,7 +85,7 @@ Global navigation logo specifications:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
 
-7.	Finally, determine the **Navigation source**. Learn more about selecting a source below.
+7.	Finally, determine the **Navigation source**. Learn more about selecting a source in the next step.
 8.	Make edits to the selected global navigation source if needed by selecting **Edit global navigation**. Select **Save** when you are done. Updates to global navigation may take several minutes before they appear.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image of where to select the global navigation source](media/app-bar-source.png)
