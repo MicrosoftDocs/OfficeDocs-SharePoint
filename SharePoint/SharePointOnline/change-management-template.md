@@ -155,7 +155,7 @@ Customize the workplace transformation site to fit the needs of your organizatio
 
 ### Sign in 
 
-1.	Open your web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign-in location.
+1.	Open your web browser and navigate to [office.com](https://www.office.com/) or your organization’s sign in location.
 2.	**Sign in** with your username and password.
 3.	Navigate to the location of the site using the URL supplied by your tenant admin, or select SharePoint from the Microsoft 365 home page, and then select the **Workplace transformation site**.
 
@@ -186,7 +186,7 @@ Learn how to customize web parts and content that will appear on certain pages o
 
    ![Image of the Yammer web part](media/hyrbid-yammer.png)
 
-**Yammer -** Connect the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) on the **Community** page with an existing Yammer community.
+**Yammer -** Replace the graphic and connect the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) on the **Community** page with an existing Yammer community.
 <br>
 
    ![Image of the People web part](media/hybrid-people.png)
