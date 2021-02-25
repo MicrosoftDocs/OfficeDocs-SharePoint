@@ -148,8 +148,8 @@ Display just the hub navigation on the home page, and the site navigation in the
 1.	Start by hiding the site navigation using one of two methods:
 <br>
 
-- Go to **Settings**, then **Change the look**, then **Navigation** and toggle the **Display site navigation** to **Hide**
-- Go to **Settings**, then **Change the look**, then **Header** and choose **Extended** layout
+- Go to **Settings**, then **Change the look**, then **Navigation** and toggle the **Display site navigation** to **Hide**.
+- Go to **Settings**, then **Change the look**, then **Header** and choose **Extended** layout.
 
 2.	Then, navigate to the home site’s **Settings** and then **Global navigation**.
 3.	**Enable** global navigation, enter a **Title**, and then select **Home site navigation** as the source.
