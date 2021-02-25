@@ -40,7 +40,7 @@ It's now possible to change the SharePoint domain name for your organization in 
 
 ## Step 1: Add the new domain name
 
-1. Check the availability of the new domain that you want by entering the full SharePoint URL in your browser (for example, https://fourthcoffee.sharepoint.com). If you get a “not found” (404) error, it indicates the domain is most likely available. If the domain is already registered by another customer, we can't provide any information or contact the customer. 
+1. Check the availability of the new domain you want by entering the full SharePoint URL in your browser (for example, https://fourthcoffee.sharepoint.com). If you get a “not found” (404) error, it indicates the domain is most likely available. If the domain is already registered by another customer, we can't provide any information or contact the customer. 
 
 -or-
 
@@ -50,21 +50,25 @@ If you own the domain for another subscription, contact *NEED SPECIFIC INFO* for
 
 Do not attempt to test this procedure in a test environment first because it could prevent renaming the desired tenant.
 
-3.	In the same browser tab, navigate to https://aka.ms/SPORenameAddDomain which should look similar to this Custom domain names page: 
+3.	In the same browser tab, navigate to https://aka.ms/SPORenameAddDomain. 
 
-3.	Click “Add custom domain” (highlighted above) to open the Add domain pane.
-4.	In the Custom domain name textbox add the full new MOERA including “.onmicrosoft.com”:
-NOTE: Do NOT include any hyphens (“-“) in the new MOERA domain. Although these can be entered, they are not supported in SPO.
+4.	Select **Add custom domain**.
+
+5.	In the **Custom domain name** box, add the full new “.onmicrosoft.com” domain.
+
+> [!IMPORTANT]
+> Do NOT include any hyphens (-) in the new domain. They aren't supported in SharePoint.
  
-5.	Ensure you get a confirmation message. You must try a new domain if it is not available. 
+6.	Make sure you get a confirmation message. If the domain isn't available, try a different domain. 
  
-6.	After getting a confirmation that the domain was added successfully, you may see a message that the properties could not be found. Click the blue retry arrow to refresh.
+7.	After getting a confirmation that the domain was added successfully, you might see a message that the properties could not be found. Select the message to refresh domain references.
  
-7.	Close the pane and return to the domain list which should now include your new domain in the full list:
+8.	Close the pane *HOW*? to return to the domain list.
+
+> [!WARNING]
+> Do NOT add any other domains. Do NOT configure the new domain as the initial domain.
  
-8.	Do NOT add additional domains as this may impact the SPO Tenant Rename Private Preview Program. 
-9.	Do NOT configure the new domain as the initial domain as this is currently not supported.
-10.	Confirm that your domain has been added, with your SPO Tenant Rename Preview Program Point of Contact (POC), to schedule the SPO Tenant Rename. 
+9.	Confirm that your domain has been added to the full list. 
 
 
 
