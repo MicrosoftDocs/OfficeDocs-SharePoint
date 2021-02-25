@@ -70,12 +70,13 @@ Research has shown Pre-onboarding new hires, after they sign their acceptance le
 
 <br>
 
-1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the Pre-onboarding site only. 
-2.	**Corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
-3.	**Departmental onboarding site:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The Departmental onboarding site can be associated to an existing departmental hub.
+1.	**New employee pre-onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for providing pre-start hires, with no corporate credentials, access to the Pre-onboarding site only. 
+2.	**New employee corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
+3.	**New employee departmental onboarding site:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The Departmental onboarding site can be associated to an existing departmental hub.
 
 > [!NOTE]
 > To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of **three different SharePoint site templates**, that are designed to work alone or as one cohesive and familiar experience for new hires. Sites must be provisioned individually, and then can be configured to [create a hub](https://docs.microsoft.com/sharepoint/create-hub-site) or [add a site to an existing hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05#:~:text=Associate%20a%20SharePoint%20site%20with%20a%20hub%20site.,to%20your%20site.%20You%20can%20...%20More%20items).
+> You must have site collection administrator permissions or higher to provision the New employee on baording sites.
 
 
 ## Step 1: Provision NEO sites
@@ -92,9 +93,9 @@ To successfully provision the NEO sites via the SharePoint look book, the person
 
 1.	Go to the [NEO sites solution page](https://provisioning.sharepointpnp.com/details/3df8bd55-b872-4c9d-88e3-6b2f05344239).
 
-  - Provision the Pre-onboarding site (will link to specific look book page)
-  - Provision the Corporate onboarding site (will link to specific look book page)
-  - Provision the Department onboarding site (will link to specific look book page)
+  - Provision the New employee pre-onboarding site 
+  - Provision the New employee corporate onboarding site 
+  - Provision the New employee department onboarding site 
 
 1.	Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 
@@ -143,15 +144,15 @@ It’s important to make sure the right content is available to users at the rig
 > There are three NEO site templates that can be used alone or all together. Check with your site collection administrator to confirm which NEO sites were provisioned and are available for customizations.
 
  
-1.	**Pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
+1.	**New employee pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
 
 > [!IMPORTANT]
 > Enable external sharing for the Pre-onboarding site. The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](https://docs.microsoft.com/sharepoint/change-external-sharing-site?branch=hokavian-neo-sites) for the Pre-onboarding site.  
 
-2.	**Corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
+2.	**New employee corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
 
 
-3.	**Departmental onboarding site:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. Consider associating departmental onboarding sites with existing department portals if you have them.
+3.	**New employee departmental onboarding site:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. Consider associating departmental onboarding sites with existing department portals if you have them.
 
 
 ### Get started - Sign into your Microsoft 365 account 
@@ -180,7 +181,7 @@ It’s important to make sure the right content is available to users at the rig
 > The NEO sites comes with many pre-built pages that can be identified in the site navigation with this symbol ">>." Determine which pages and content to keep, edit, or delete based on the needs of your organization. 
 
 
-#### Pre-Onboarding site:
+#### New employee pre-onboarding site:
 
 ![Image the Pre-onboarding site](media/neo-preonboarding.png)
 
@@ -199,7 +200,7 @@ The pre-onboarding site is where a new hire starts their onboarding journey. Thi
 
 
 
-#### Corporate onboarding site:
+#### New employee corporate onboarding site:
 
 ![Image the corporate onboarding site](media/neo-corp-onboarding.png)
 
@@ -215,7 +216,7 @@ The corporate onboarding site is the landing place for the new employee onboardi
 - **Departmental onboarding** – Provide an entry point to departmental-level information from the site navigation where users can access departmental onboarding sites. Consider provisioning the Department site template. 
 
 
-#### Departmental onboarding site:
+#### New employee departmental onboarding site:
 ![Image of the NEO departmental site](media/neo-department-onboarding.png)
 
 Here, users need to learn about departmental leadership, culture, goals, and resources. Use the departmental onboarding site to provide access to communication channels, training guides, and events relevant to new hires. Consider associating departmental onboarding sites with existing department portals if you have them.
