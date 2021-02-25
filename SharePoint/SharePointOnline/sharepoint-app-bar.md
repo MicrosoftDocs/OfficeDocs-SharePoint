@@ -41,7 +41,7 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	The SharePoint app bar may impact current page customizations specifically those that appear on the left side. 
 > -	Personalized content in the SharePoint app bar is enabled by Microsoft Graph.
 > -	When Microsoft Graph is disabled, the news and sites experience will be degraded.
-> -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the roll out of this feature in your organization until October 31, 2021.
+> -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until October 31, 2021.
 
 The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience). To ensure a seamless experience, we've created specific guidance on how to design current navigation to compliment the new global navigation feature. We have also created [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.   
 
@@ -238,4 +238,3 @@ Temporarily disable the SharePoint app bar:
 - Learn more about [planning](https://docs.microsoft.com/sharepoint/planning-hub-sites) and [creating hub sites](https://docs.microsoft.com/sharepoint/create-hub-site)
 - Learn more about [navigation and information architecture in SharePoint](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience)
 - Learn more about [sharing and permissions in SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions)
-
