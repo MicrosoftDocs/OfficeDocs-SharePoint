@@ -7,7 +7,7 @@ manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: guide
 ms.service: one-drive
 localization_priority: Normal
 search.appverid:
@@ -22,7 +22,7 @@ description: "This article is a quickstart guide on how to get started with and 
 
 # OneDrive QuickStart guide for small businesses
 
-Microsoft OneDrive is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling organizations to use OneDrive in whatever way benefits them the most. This guide focuses on the deployment and configuration options that make the most sense for small businesses looking to use OneDrive. From there, these organizations can select whatever additional management capabilities they require. For the full deployment guide, which contains other methods of deploying, configuring, and managing OneDrive, see [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
+Microsoft OneDrive is a robust but simple-to-use cloud storage platform for small businesses, enterprises, and everything in between. Unlike other cloud storage providers, most of the advanced enterprise-focused features in OneDrive are available for every subscription type, enabling organizations to use OneDrive in whatever way benefits them the most. This guide focuses on the deployment and configuration options that make the most sense for small businesses looking to use OneDrive. From there, these organizations can select whatever other management capabilities they require. For the full deployment guide, which contains other methods of deploying, configuring, and managing OneDrive, see [OneDrive guide for enterprises](plan-onedrive-enterprise.md).
 
 ## Getting started with OneDrive
 
@@ -40,7 +40,7 @@ When you've completed these tasks, you're ready to plan for, deploy, and configu
 
 1.  **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use OneDrive. Often, small business customers don't consider this step for new applications, and that can negatively affect the application's success. The section [Adopt OneDrive](#adopt-onedrive) provides helpful resources for OneDrive adoption.
 
-2.  **Install and configure.** Sync app are available for the Windows and macOS operating systems that provide a seamless experience for users interacting with their files. Most small businesses start by installing the sync app on their users' devices, and then consider the OneDrive mobile apps later. In fact, you may already have the OneDrive client on your devices. Devices running the Windows 10 operating system and devices running Windows or macOS with Microsoft Office 2016 or later will have the OneDrive sync app already. For information about how to install and configure the OneDrive sync app and mobile apps, see the section [Install and configure OneDrive](#install-and-set-up-onedrive-apps).
+2.  **Install and configure.** Sync apps are available for the Windows and macOS operating systems that provide a seamless experience for users interacting with their files. Most small businesses start by installing the sync app on their users' devices, and then consider the OneDrive mobile apps later. In fact, you may already have the OneDrive client on your devices. Devices running the Windows 10 operating system and devices running Windows or macOS with Microsoft Office 2016 or later will have the OneDrive sync app already. For information about how to install and configure the OneDrive sync app and mobile apps, see the section [Install and configure OneDrive](#install-and-set-up-onedrive-apps).
 
 3.  **Manage OneDrive.** For many small businesses, managing OneDrive is optional. You could simply install and configure OneDrive and leave it at that. If you want to use advanced features of OneDrive or add device sharing or access restrictions, however, you can easily manage those and other settings in the OneDrive admin center. For more information about managing OneDrive, see the section [Manage OneDrive](#manage-onedrive).
 
@@ -121,7 +121,7 @@ Configuring OneDrive for Windows is simple, but if you want to see a demonstrati
 
 ### Install and configure OneDrive on a macOS device
 
-To install the OneDrive sync app on a computer running macOS, just follow the steps in [Sync files with the OneDrive sync app on Mac OS X](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). The setup experience is similar to that for Windows. For more information about OneDrive on macOS, see [OneDrive for Mac – FAQ](https://support.office.com/article/3fc4062c-8051-4392-bff1-551e32840cd0). 
+To install the OneDrive sync app on a computer running macOS, just follow the steps in [Sync files with the OneDrive sync app on macOS](https://support.office.com/article/d11b9f29-00bb-4172-be39-997da46f913f). The setup experience is similar to that for Windows. For more information about OneDrive on macOS, see [OneDrive for Mac – FAQ](https://support.office.com/article/3fc4062c-8051-4392-bff1-551e32840cd0). 
 
 ## Install and configure OneDrive on a mobile device
 
@@ -137,32 +137,21 @@ Many small businesses use OneDrive without changing any of the options.
 
 If you want to add some basic device and sharing restrictions to OneDrive, you can use the OneDrive admin center. To access the new OneDrive admin center, go to https://admin.onedrive.com. There, you can restrict the people with whom your users can share files, choose the devices your employees can use to access OneDrive, and more.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSt]
-
 Settings in the OneDrive admin center are grouped into six categories:
 
--   **Sharing.** On the **Sharing** page, you can configure the default sharing link users send out to colleagues to share a file. For example, when users share a file, you can specify that the default sharing type is **Internal**.
+-   **Sharing.** Instead of using this page, use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true). To learn more, see [Manage sharing settings](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
 
-    ![Screenshot of the Sharing page in the OneDrive admin center showing default link settings](media/773e0df6-17ec-4433-ae50-62b14398317f.png)
-
-    You can also change the external sharing settings to prevent users from sharing files with people outside your organization. This is useful if you have a lot of confidential information.
-
-    ![Screenshot of the Sharing page in the OneDrive admin center showing external sharing settings](media/b7b3215c-3b01-40c2-b9cb-d363228ecacf.png)
-
-<!-- -->
-
--   **Sync.** On the **Sync** page, you can configure sync restrictions based on file type, require that synced devices be joined to your domain, or restrict synchronization from computers running macOS.
+-   **Sync.** On the **Sync** page, you can require that synced devices be joined to your domain or configure sync restrictions based on file type.
 
 -   **Storage.** On the **Storage** page, you specify the default OneDrive storage limit for users within your Office 365 organization. You can also configure how long to keep data for users whose accounts have been deleted (the maximum value is 10 years).
 
--   **Device Access.** On the **Device Access** page, you can restrict device access to OneDrive based on network location and apps that don't use modern authentication, among other application management options.
+-   **Device Access.** Instead of using this page, use the [Access control page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true).
 
--   **Compliance.** The **Compliance** page provides a centralized list of links to auditing, data loss prevention (DLP), retention, ediscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. (Most small businesses won't use these options.)
+-   **Compliance.** The **Compliance** page provides a centralized list of links to auditing, data loss prevention (DLP), retention, eDiscovery, and alerting capabilities within Office 365 that are applicable to OneDrive. (Most small businesses won't use these options.)
 
     Selecting an item's link redirects you to the Office 365 Security & Compliance Center, where you can configure that item. You can create DLP policies from templates that protect certain types of data, such as Social Security numbers, banking information, and other financial and medical content. For a walkthrough of how to create DLP policies in Office 365 and apply them to OneDrive, see [Create a DLP policy from a template](/office365/securitycompliance/create-a-dlp-policy-from-a-template).
 
 -   **Notifications.** On the **Notifications** page, you define when OneDrive owners should receive notifications about sharing or accessing their data. These settings are helpful for small businesses that likely don't have IT staff who can audit this information. For information about enabling these options, see [Turn on external sharing notifications for OneDrive](turn-on-external-sharing-notifications.md).
-
 
 ## Get help with OneDrive
 
@@ -176,10 +165,3 @@ If you need help with OneDrive, you have many ways to find solutions to common i
 
 -   **OneDrive UserVoice.** You can review and submit feature requests and provide feature feedback at [OneDrive UserVoice](https://onedrive.uservoice.com/).
  
-
-
-
-
-
-
-

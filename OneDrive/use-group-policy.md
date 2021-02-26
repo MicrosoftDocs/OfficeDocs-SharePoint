@@ -1,8 +1,8 @@
 ---
 title: "Use OneDrive policies to control sync settings"
 ms.reviewer: gacarini
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -65,11 +66,13 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 > [!NOTE]
 > For info about storage, see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](/windows/client-management/mdm/policy-csp-storage).
 
-## List of policies by registry key name
+## List of policies by string ID
 
 - (AllowTenantList) [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)
 
 - (AutomaticUploadBandwidthPercentage) [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
+
+- (AutoMountTeamSites) [Configure team site libraries to sync automatically](use-group-policy.md#configure-team-site-libraries-to-sync-automatically)
 
 - (BlockExternalSync) [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
 
@@ -85,13 +88,13 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - (DisableFirstDeleteDialog) [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
 
+- (DisableFRETutorial) [Disable the tutorial that appears at the end of OneDrive Setup](use-group-policy.md#disable-the-tutorial-that-appears-at-the-end-of-onedrive-setup)
+
 - (DisablePauseOnBatterySaver) [Continue syncing when devices have battery saver mode turned on](use-group-policy.md#continue-syncing-when-devices-have-battery-saver-mode-turned-on)
 
 - (DisablePauseOnMeteredNetwork) [Continue syncing on metered networks](use-group-policy.md#continue-syncing-on-metered-networks)
 
 - (DisablePersonalSync) [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)
-
-- (DisableTutorial) [Disable the tutorial that appears at the end of OneDrive Setup](use-group-policy.md#disable-the-tutorial-that-appears-at-the-end-of-onedrive-setup)
 
 - (DiskSpaceCheckThresholdMB) [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically)
 
@@ -113,9 +116,9 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 
 - (KFMBlockOptOut) [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
 
-- (KFMOptInWithWizard) [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
+- (KFMOptInNoWizard) [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
 
-- (KFMSilentOptIn) [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
+- (KFMOptInWithWizard) [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
 
 - (LocalMassDeleteFileDeleteThreshold) [Prompt users when they delete multiple OneDrive files on their local computer](use-group-policy.md#prompt-users-when-they-delete-multiple-onedrive-files-on-their-local-computer)
 
@@ -130,8 +133,6 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 - (SharePointOnPremPrioritization) Specify the OneDrive location in a hybrid environment. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
 - (SilentAccountConfig) [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials)
-
-- (TenantAutoMount) [Configure team site libraries to sync automatically](use-group-policy.md#configure-team-site-libraries-to-sync-automatically)
 
 - (UploadBandwidthLimit) [Limit the sync app upload speed to a fixed rate](use-group-policy.md#limit-the-sync-app-upload-speed-to-a-fixed-rate)
 
@@ -542,7 +543,7 @@ This setting specifies what happens when conflicts occur between Office file ver
  
 If you enable this setting, users can decide if they want to merge changes or keep both copies. Users can also configure the sync app to always fork the file and keep both copies, as follows.
   
-![The Office tab of the Sync settings dialog](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
+![The Office tab in OneDrive sync app settings](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
   
 Enabling this policy sets the following registry key value to 1:
   
@@ -550,7 +551,7 @@ Enabling this policy sets the following registry key value to 1:
 
 If you disable this setting, the Sync conflicts setting on the Office tab is disabled, and when a sync conflict occurs, both copies of the file are kept.
   
-To enable this setting, you must enable [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps). For more info about the Office settings in the sync app, see [Use Office 2016 to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
+To enable this setting, you must enable [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps). For more info about the Office settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
   
 ### Coauthor and share in Office desktop apps
 <a name="EnableAllOcsiClients"> </a>
@@ -560,15 +561,15 @@ This setting lets multiple users use the Microsoft 365 Apps for enterprise, Offi
 > [!IMPORTANT]
 > We recommend keeping this setting enabled to make syncing faster and reduce network bandwidth. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
   
-If you enable or do not configure this setting, the **Office** tab appears in OneDrive sync settings, and **Use Office 2016 to sync Office files that I open** is selected, by default.
+If you enable or do not configure this setting, the **Office** tab appears in OneDrive sync settings, and **Use Office applications to sync Office files that I open** is selected, by default.
   
-![The Office tab in OneDrive sync app settings](media/c90cf228-c27e-4107-b4cf-2c0690a959a4.png)
+![The Office tab in OneDrive sync app settings](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
 
 Enabling this policy sets the following registry key value to 1:
   
 `[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"EnableAllOcsiClients"="dword:00000001"`
   
-If you disable this setting, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files is disabled. The **Users can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more info about the settings in the sync app, see [Use Office 2016 to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
+If you disable this setting, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files is disabled. The **Users can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more info about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
 
 ### Configure team site libraries to sync automatically
 <a name="AutoMountTeamSites"> </a> 

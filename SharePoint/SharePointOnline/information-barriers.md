@@ -7,7 +7,7 @@ manager: laurawi
 ms.reviewer: nibandyo
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

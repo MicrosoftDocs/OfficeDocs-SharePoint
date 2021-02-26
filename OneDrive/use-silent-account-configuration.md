@@ -1,8 +1,8 @@
 ---
 title: "Silently configure user accounts"
 ms.reviewer: wsproule
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- m365initiative-healthyonedrive
 search.appverid:
 - ODB160
 - MET150
