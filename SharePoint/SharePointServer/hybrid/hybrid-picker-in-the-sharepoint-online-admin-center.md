@@ -7,8 +7,8 @@ manager: serdars
 ms.date: 12/5/2017
 audience: ITPro
 f1.keywords:
-- NOCSH
-ms.topic: concetpual
+- CSH
+ms.topic: conceptual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:

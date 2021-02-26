@@ -1,18 +1,19 @@
 ---
 title: "Use administrative templates in Intune"
 ms.reviewer: kafeaver
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: how-to
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- m365initiative-healthyonedrive
 search.appverid:
 - MET150
 - ODB160
@@ -38,7 +39,7 @@ Profiles in Microsoft Intune let you configure settings and push them to devices
 
 5. Select **Create**.
 6. Enter a name for the profile, and optionally a description, and then select **Next**.
-7. Under **Computer Configuration** or **User Configuration**, select **OneDrive**, and select the setting you want to configure. For info about these settings, see [Use Group Policy](use-group-policy.md). For info about the recommended settings, see [Recommended sync app configuration](ideal-state-configuration.md).
+7. Under **Computer Configuration** or **User Configuration**, select **OneDrive**, and select the setting you want to configure. For info about these settings, see [Use OneDrive policies](use-group-policy.md). For info about the recommended settings, see [Recommended sync app configuration](ideal-state-configuration.md).
 
     ![Selecting configuration settings](media/create-profile.png)
 
@@ -54,7 +55,7 @@ Profiles in Microsoft Intune let you configure settings and push them to devices
 
 ## See also
 
-- [Use Windows 10 templates to configure group policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows)
+- [Use Windows 10 templates to configure Group Policy settings in Microsoft Intune](/mem/intune/configuration/administrative-templates-windows)
 - [Understanding ADMX-backed policies](/windows/client-management/mdm/understanding-admx-backed-policies)
 - [Monitor device profiles in Microsoft Intune](/mem/intune/configuration/device-profile-monitor)
 - [Deploy the OneDrive sync app to Windows 10 devices as part of Office 365](deploy-intune.md#deploy-the-onedrive-sync-app-to-windows-10-devices)

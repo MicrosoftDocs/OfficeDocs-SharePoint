@@ -111,7 +111,7 @@ Azure AD B2B provides authentication and management of guests. Authentication ha
 
 With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites.
 
-With Azure B2B integration, all guests are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md).
+With Azure B2B integration, all guests are added to the directory and can be managed using Microsoft 365 security and compliance tools. We encourage you to try the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md).
 
 ## See also
 

@@ -1,18 +1,19 @@
 ---
 title: "Redirect and move Windows known folders to OneDrive"
 ms.reviewer: cagreen
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -48,7 +49,7 @@ To check eligibility on existing devices, data volume, and item counts as you de
   
 ## About the Known Folder Move policies
 
-OneDrive policies can be set using Group Policy, [Intune Windows 10 Administrative Templates](configure-sync-intune.md), or by configuring registry settings. For a full reference of available policies and their registry settings, see [Use Group Policy to control OneDrive sync settings](use-group-policy.md).  
+OneDrive policies can be set using Group Policy, [Intune Windows 10 Administrative Templates](configure-sync-intune.md), or by configuring registry settings. For a full reference of available policies and their registry settings, see [Use OneDrive policies to control sync settings](use-group-policy.md).  
 
 The following policies control the Known Folder Move feature: 
   
