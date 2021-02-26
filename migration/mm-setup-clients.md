@@ -25,6 +25,8 @@ When you run the setup file, you are prompted for two sets of credentials: Share
 
 After an agent is configured, anyone with the permission to go into the SharePoint admin center can create tasks. The tasks will be automatically distributed to one of the configured agents.
 
+>[Important]
+>Make sure to download the latest version of the agent setup file.
 
 ## Before you begin
  
@@ -32,8 +34,15 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |:-----|:-----|
 |[Prerequisites](#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
 |[Required Endpoints](#required-endpoints)|Review the required Endpoints|
-|[Multi-geo tenant agent installation](#multi-geo-agent-set-up)| Follow these steps if you want to install an agent and you have a multi-geo tenant.
+|[Multi-geo tenant agent installation](#multi-geo-agent-set-up)| Follow these steps if you want to install an agent and you have a multi-geo tenant.|
+|[Pre-provision OneDrive accounts](https://docs.microsoft.com/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. You can do this by using a script as described here: [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts).
 
+## Planning checklist
+
+|Category|Guidance|Fill in with your details|
+|:-----|:-----|:-----|
+|Credentials to use:|- SharePoint admin for migration destination</br>- Windows account for source that has access to ALL network file shares you plan to migrate|
+|Virtual machines or computers to use:| list your computers
 
 
 >[!NOTE]

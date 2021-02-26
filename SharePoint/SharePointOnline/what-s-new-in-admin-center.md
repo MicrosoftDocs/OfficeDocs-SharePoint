@@ -3,10 +3,10 @@ title: "What's new in the SharePoint admin center"
 ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -24,7 +24,11 @@ description: "Learn about the features currently in the new SharePoint admin cen
 We're continuously adding new features to the new SharePoint admin center and fixing issues we learn about. Here's a summary of what's included. You can help us improve the admin center by sending us your suggestions and reporting bugs you encounter. In the lower-right corner of the admin center, click the **Feedback** button.
   
 > [!NOTE]
-> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari. <br><br>Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article. <br>To see what's recently rolled out in the Microsoft 365 admin center, see [What's new in the Microsoft 365 admin center](/microsoft-365/admin/whats-new-in-preview).
+> The new SharePoint admin center is supported in Microsoft Edge, Internet Explorer, Chrome, Firefox, and Safari.
+> 
+> Some functionality is introduced gradually to organizations that have opted in to the [Targeted release option in Microsoft 365](/office365/admin/manage/release-options-in-office-365). This means that you might not yet see some features described in this article.
+> 
+> For info about new features in the Microsoft 365 admin center, see [What's new in the Microsoft 365 admin center](/microsoft-365/admin/whats-new-in-preview). For info about new features in Migration Manager, see [What's new in Migration Manager](/sharepointmigration/mm-whats-new).
 
 > [!IMPORTANT]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
@@ -82,7 +86,9 @@ We're continuously adding new features to the new SharePoint admin center and fi
 ## June 2019
 
 - The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page). [Learn how to select the default admin experience](/sharepoint/get-started-new-admin-center#open-the-new-sharepoint-admin-center-by-default).
+
 - On the Active sites page, you can select multiple sites and bulk edit sharing and hub association settings.
+
 - Classic SharePoint admin features such as Term Store, User Profiles, Search, Apps, and more are available from the More features page so you can access them directly from the new SharePoint admin center.
 
 

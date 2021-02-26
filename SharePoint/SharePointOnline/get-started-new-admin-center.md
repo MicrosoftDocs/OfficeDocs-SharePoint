@@ -3,10 +3,10 @@ title: "Get started with the new SharePoint admin center"
 ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -84,7 +84,7 @@ If you're used to working in the classic SharePoint admin center, to learn where
 |On the **site collections** page, select a site collection > **Properties**.    |   On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), to open the **details** pane, select the site's name.  |    In the new SharePoint admin center, you can edit site details.     |
 |On the **site collections** page, select a site collection > **Owners** > **Manage Administrators**.     |    On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and then select **Owners**.      |    The new experience also lets you view and edit Microsoft 365 Group owners.      |
 |On the **site collections** page, select a site collection > **Sharing**.     |     On the [**Active sites** page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select a site, and then select **Sharing** (or select multiple sites, and then select **Bulk edit** > **Sharing**).    |        |
-|On the **site collections** page, select **Buy Storage**.     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide)       |         |
+|On the **site collections** page, select **Buy Storage**.     |  [Buy a file storage add-on from the Microsoft 365 admin center](/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)       |         |
 |On the **site collections** page, select **Recycle Bin**.    |    [**Deleted sites** page](https://admin.microsoft.com/sharepoint?page=recycleBin&modern=true)    |         |
 |   **Sharing** page |       [**Sharing** page](https://admin.microsoft.com/sharepoint?page=sharing&modern=true)  |        The new page includes the most common settings, and others are coming soon. |
 |**Settings** page     |    [**Settings** page](https://admin.microsoft.com/sharepoint?page=settings&modern=true)     |      The new page includes the most common settings, and others are coming soon. At the bottom of the new **Settings** page, to access all the classic settings, select **classic settings page**.    |

@@ -3,7 +3,7 @@ title: Azure AD B2B integration for SharePoint & OneDrive
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
@@ -19,44 +19,44 @@ ms.custom:
 description: In this article, you'll learn about the SharePoint and OneDrive integration with Azure AD B2B (preview).
 ---
 
-# SharePoint and OneDrive integration with Azure AD B2B (Preview)
+# SharePoint and OneDrive integration with Azure AD B2B 
 
 This article describes how to enable Microsoft SharePoint and Microsoft OneDrive integration with Azure AD B2B.
 
-Azure AD B2B provides authentication and management of guest users. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account.
+Azure AD B2B provides authentication and management of guests. Authentication happens via one-time passcode when they don't already have a work or school account or a Microsoft account.
 
 With SharePoint and OneDrive integration, the Azure B2B one-time passcode feature is used for external sharing of files, folders, list items, document libraries and sites. This feature provides an upgraded experience from the existing [secure external sharing recipient experience](what-s-new-in-sharing-in-targeted-release.md). 
 
-Enabling the preview does not change your sharing settings. For example, if you have site collections where external sharing is turned off, it will remain off.
+Enabling this integration does not change your sharing settings. For example, if you have site collections where external sharing is turned off, it will remain off.
 
-Once the preview is enabled you and your users do not have to reshare or do any manual migration for external users previously shared with. Instead, when an external user clicks on a link that was created before the preview was enabled, SharePoint will automatically create a B2B guest account. This guest account is created on behalf of the user who originally created the sharing link. (If the user who created the link is no longer in the organization or no longer has permission to share, the guest user will not be added to the directory and the file will need to be reshared.)
+Once the integration is enabled you and your users do not have to reshare or do any manual migration for guests previously shared with. Instead, when someone outside your organization clicks on a link that was created before the preview was enabled, SharePoint will automatically create a B2B guest account. This guest account is created on behalf of the user who originally created the sharing link. (If the user who created the link is no longer in the organization or no longer has permission to share, the guest will not be added to the directory and the file will need to be reshared.)
 
-SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is currently in preview. After preview, this feature will replace the ad-hoc external sharing experience used in OneDrive and SharePoint today for all tenants.
+SharePoint and OneDrive integration with the Azure AD B2B one-time passcode feature is currently not enabled by default. Later, this feature will replace the ad-hoc external sharing experience used in OneDrive and SharePoint today.
 
 Advantages of Azure AD B2B include:
-- Invited external users are each given an account in the directory and are subject to Azure AD access policies such as multi-factor authentication.
+- Invited people outside your organization are each given an account in the directory and are subject to Azure AD access policies such as multi-factor authentication.
 - Invitations to a SharePoint site use Azure AD B2B and no longer require users to have or create a Microsoft account.
 - If you have configured Google federation in Azure AD, federated users can now access SharePoint and OneDrive resources that you have shared with them.
 - SharePoint and OneDrive sharing is subject to the Azure AD organizational relationships settings, such as **Members can invite** and **Guests can invite**.
 
-This preview is not supported in the following Microsoft 365 services:
+This integration is not supported in the following Microsoft 365 services:
 - Office 365 Germany
 - Office 365 operated by 21Vianet
 - GCC High and DoD
 
-## Opting in to the preview
+## Enabling the integration
 
-This preview requires that your organization also be opted into the [Azure AD email one-time passcode authentication preview](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
+This integration requires that your organization also enable [Azure AD email one-time passcode authentication](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
 
-To opt in to the Azure AD passcode authentication preview
+To enable Azure AD passcode authentication
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
 2. In the nav pane, select **Azure Active Directory**.
-3. In the **Overview** pane, click **External identities**.
-4. In the **Organizational identities** pane, select **External collaboration settings**.
-5. Under **Enable Email One-Time Passcode for guests (Preview)**, select **Yes**.
+3. Under **Manage**, click **External identities**.
+4. Click **External collaboration settings**.
+5. Under **Email one-time passcode for guests**, choose **Enable email one-time passcode for guests effective now**.
 6. Select **Save**.
 
-To opt in to the SharePoint and OneDrive integration with Azure AD B2B
+To enable SharePoint and OneDrive integration with Azure AD B2B
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
     > [!NOTE]
@@ -69,12 +69,10 @@ To opt in to the SharePoint and OneDrive integration with Azure AD B2B
    Set-SPOTenant -SyncAadB2BManagementPolicy $true
    ```
 
-## Opting out of the preview
+## Disabling the integration
 
-You can disable the preview by running `Set-SPOTenant -EnableAzureADB2BIntegration $false`. (You can also [opt out of the Azure AD passcode authentication preview](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode#opting-out-of-the-preview-after-opting-in).)
-Content that was shared externally while the preview was enabled will need to be shared again with the specific external users.
-
-Note that after preview, this feature will replace the ad-hoc external sharing experience used in OneDrive and SharePoint today for all tenants and you will not be able to opt out.
+You can disable the integration by running `Set-SPOTenant -EnableAzureADB2BIntegration $false`.
+Content that was shared externally while the integration was enabled will need to be shared again with those people.
 
 ## See also
 

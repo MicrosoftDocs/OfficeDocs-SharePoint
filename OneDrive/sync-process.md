@@ -1,13 +1,13 @@
 ---
 title: "How sync works"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: adjoseph
+author: adeejoseph
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: reference
+ms.topic: conceptual
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 

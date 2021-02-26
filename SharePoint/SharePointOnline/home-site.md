@@ -3,7 +3,7 @@ title: "Set up a home site for your organization"
 ms.reviewer: dipadur
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

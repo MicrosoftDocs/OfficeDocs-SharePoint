@@ -3,7 +3,7 @@ title: "Monitor apps for your SharePoint environment"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -57,6 +57,6 @@ As a SharePoint or global admin in Microsoft 365, you can monitor information su
 |View error information for an app  <br/> | On the ribbon, select **View Errors**. To find the errors in the error log, use the Correlation ID. In the **Location** column, to view more error details for this app, select the URL. |
    
 > [!NOTE]
-> If you no longer want to monitor an app, you can select it on the Monitor Apps page, and on the ribbonm select **Remove App**. <br>
+> If you no longer want to monitor an app, you can select it on the Monitor Apps page, and on the ribbon select **Remove App**. <br>
     
 App usage and error detail info is processed by different timer jobs that are pre-configured to run at set times for SharePoint. These timer jobs pick up events for the previous day. For this reason, the data visible on the Monitor Apps page may be delayed for up to 29 hours.

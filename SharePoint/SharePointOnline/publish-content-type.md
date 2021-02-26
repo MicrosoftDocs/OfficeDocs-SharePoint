@@ -3,7 +3,7 @@ title: "Publish a content type"
 ms.reviewer: anfra
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
@@ -19,7 +19,7 @@ description: "Learn how to publish a content type from the SharePoint admin cent
 
 # Publish a content type
 
-You can publish, unpublish, or republish content types in the content type hub at /sites/ContentTypeHub from the SharePoint admin center.
+You can publish, unpublish, or republish content types in the content type hub at /sites/ContentTypeHub or from the SharePoint admin center.
 
 **To publish, republish, or unpublish a content type**
 

@@ -3,7 +3,7 @@ title: "Find your Microsoft 365 tenant ID"
 ms.reviewer: 
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
@@ -24,7 +24,7 @@ description: "Learn how to find the Microsoft 365 tenant ID."
 
 # Find your Microsoft 365 tenant ID
 
-Your Microsoft 365 tenant ID is a globally unique identifier (GUID) that is different than your organization name or domain. You may need this identifier when you configure Group Policy objects for OneDrive.
+Your Microsoft 365 tenant ID is a globally unique identifier (GUID) that is different than your organization name or domain. You may need this identifier when you configure OneDrive policies.
   
 **To find your Microsoft 365 tenant ID in the Azure AD admin center**
 
@@ -33,4 +33,4 @@ Your tenant ID can be found in the **Directory ID** box on the [Properties page]
 ![The Directory Properties pane in the Azure Admin Center dashboard](media/aad-dashboard-properties.png)
   
 > [!NOTE]
-> For info about finding your tenant ID by using PowerShell instead, first read [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) and then use [Get-AzureADTenantDetail](/powershell/module/azuread/Get-AzureADTenantDetail).
+> For info about finding your tenant ID by using PowerShell instead, first read [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0&preserve-view=true) and then use [Get-AzureADTenantDetail](/powershell/module/azuread/Get-AzureADTenantDetail).

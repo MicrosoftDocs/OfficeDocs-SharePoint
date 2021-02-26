@@ -3,11 +3,11 @@ title: "Introduction to managed metadata"
 ms.reviewer: vrchowdh
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 ms.date: 5/22/2018
 audience: End User
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -59,7 +59,7 @@ A Term set is a group of related terms.
   
 Terms sets can have different scope, depending on where you create the term set.
   
-- **Local term sets** are created within the context of a site collection, and are available for use (and visible) only to users of that site collection. For example, when you create a term set for a metadata column in a list or library, then the term set is local. It is available only in the site collection that contains this list or library. For example, a media library might have a metadata column that shows the kind of media (diagram, photograph, screen shot, video, etc.). The list of permitted terms is relevant only to this library, and available for use in the library. 
+- **Local term sets** are created within the context of a site collection, and are available for use (and visible) only to users of that site collection. For example, when you create a term set for a metadata column in a list or library, then the term set is local. It is available only in the site collection that contains this list or library. For example, a media library might have a metadata column that shows the kind of media (diagram, photograph, screenshot, video, etc.). The list of permitted terms is relevant only to this library, and available for use in the library. 
     
 - **Global term sets** are available for use across all sites that subscribe to a specific Managed Metadata Service application. For example, an organization might create a term set that lists names of business units in the organization, such as Human Resources, Marketing, Information Technology, and so on. 
     

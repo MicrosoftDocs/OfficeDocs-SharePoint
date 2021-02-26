@@ -30,21 +30,32 @@ description: "This article explains the factors that influence migration speed a
 >**Can Microsoft turn off the throttle to help me with migration?**  **No.** Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended. Opening a support ticket will not lift throttle. See the [FAQ and Troubleshooting](#faq-and-troubleshooting) section below for additional information.
 
 
-This article explains the factors that influence performance when migrating content to SharePoint and OneDrive in Microsoft 365.
+## Performance guidance for Migration Manager and SPMT
 
-Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration.
 
-Currently, Microsoft's [SharePoint Migration Tool (SPMT)](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
+When using either the SharePoint Migration Tool (SPMT) or running a Migration Manager agent, follow these guidelines to help improve your migration performance.
 
-## Before migration
+-	[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-speed-at-which-the-source-can-be-read)
+-	[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-migration-computer-speed)
+-	[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-your-connectivity-to-office-365-and-azure)
+
+
+## Performance guidance for the SharePoint Migration API
+
+Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration. This guidance may also be applied to SPMT.
+
+
+Currently, [SPMT](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool) and other third party vendor tools use the SharePoint API for migration. It leverages Azure and uses channels for large content transfer.  Whatever migration tool you use, these factors will apply. Follow the recommendations listed below for each phase of your migration process.
+
+### Before migration
 
 Planning is the key to optimizing your migration.  Determine what content you need to migrate, prioritize when the content needs to be migrated, and decide on what the optimal migration infrastructure should be.
 
-### I. Scan the source
+#### I. Scan the source
 
 The first rule of a good migration is to know your source; evaluate and triage your content before you migrate. What content really needs be migrated? What can be left behind? How many file versions should be included? The amount of content you migrate will determine the overall size of your project. 
 
-### II. Package the content
+#### II. Package the content
 This step is where the tool creates a proper package for the content to be imported into the cloud. This step is automated in SPMT and in most third-party tools. 
 
 **Package size.** To improve migration throughput, we recommend that you package at least 250 files per transfer. For the transfer size, we recommend a minimum of 100 MB and less than 250 MB per package. Keeping within these guidelines will result in a faster upload speed to Azure and leverages the scale capabilities of the migration API.
@@ -70,10 +81,10 @@ The speed of this step depends on the efficiency of the tool you are using and t
 
 
 
-## During migration
+### During migration
 
 
-### I. Upload to Azure
+#### I. Upload to Azure
 SPMT or your third-party tool will migrate your content into SharePoint using the Migration API, leveraging Azure as a temporary holding place.
 
 If you have a good connection and can configure your datacenter, choose the same datacenter location closest geographically to you for your Azure and your Microsoft 365 account. 
@@ -81,7 +92,7 @@ Migration data throughput is highest during off-peak hours, which are typically 
 
 
 
-### II. The Migration API
+#### II. The Migration API
 
 The final step of the migration process is when the data is moved from Azure to SharePoint. This action is transparent to the user when using SPMT or a third- party tool.
 
@@ -94,10 +105,10 @@ For more technical background and information, please see
 - [Migration API Overview](https://docs.microsoft.com/sharepoint/dev/apis/migration-api-overview) 
 - [Avoid getting throttled or blocked in SharePoint](https://go.microsoft.com/fwlink/?LinkID=619858&amp;clcid=0x409)
 
-## After migration
+### After migration
 After the migration is completed, verify that your content has been successfully moved to SharePoint or OneDrive.
 
-## Large migrations over 100TB 
+### Large migrations over 100TB 
 
 If you are planning to migrate over 100TB, please submit a support request following the steps listed below. Make sure to include all requested information.
 
@@ -118,7 +129,7 @@ Follow these steps:
 
 4.  In the **Briefly describe your issue** area, enter "SharePoint Migration over 100TB".</br>
 
-     ![need help](media/need-help-100tb.png)
+     ![screen reads need help](media/need-help-100tb.png)
 
 5. Select **Contact Support**.
 6. Under **Description**, enter "SharePoint Migration over 100TB". 
@@ -129,10 +140,14 @@ Follow these steps:
 - Where you are migrating your content from, such as SharePoint Server, Box, GDrive, File shares, and so on.
 
 
-## FAQ and Troubleshooting
+### FAQ and Troubleshooting
 
-**Question: I am experiencing poor performance or throttling during migration.**</br>
-Answer:  Please check the guidance in this document, plus refer to [Avoid getting throttled or blocked in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information on Microsoft throttling guidance. For specific tools configuration or questions, please contact your third party tools vendor for more information.
+**Question: I am experiencing poor performance during migration.**</br>
+Answer: Check this article to help identify where the performance bottleneck is:  [Improve migration performance when using SPMT or Migration Manager.](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance)
+
+
+**Question:  I am experiencing throttling during migration.**<br>
+Answer:  First check the guidance in this document. Learn more at: [Avoid getting throttled or blocked in SharePoint.](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)</br>For specific tools configuration or questions, please contact your third party tools vendor for more information.
 
 **Question: I'm continually getting throttled while I am attempting to migrate. Can Microsoft turn off the throttle to help me with migration?**</br>
 Answer: Throttling is in place to protect the reliability and availability of the service. Throttling rules cannot be disabled or suspended and **opening a support ticket will not lift throttle**. Please refer to [Avoid getting throttled or blocked in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online) for more information.
@@ -164,7 +179,7 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 
 4. In the **Briefly describe your issue** area, enter "SharePoint Migration Throttling with 503".</br>
 
-     ![need help](media/need-help.png)
+     ![screen displays need help](media/need-help.png)
 
 5. Select **Contact Support**.
 6. Under **Description**, enter "SharePoint Migration Throttling with 503". 
@@ -178,7 +193,7 @@ Answer: If you are experiencing a high volume of HTTP 503 responses blocking you
 </br></br>
 
 
-## How to open a Microsoft support ticket
+### How to open a Microsoft support ticket
 
 If you want to file a Microsoft support ticket, follow these steps and include the following information for any migration reason:
 
@@ -194,7 +209,7 @@ If you want to file a Microsoft support ticket, follow these steps and include t
 7. Fill out the remaining info, and select **Contact me**.
 
 >[!Note]
->If you are using the old M365 admin center you can skip step 8 as the "Description" field will not exist.
+>If you are using the old Microsoft 365 admin center you can skip step 8 as the "Description" field will not exist.
 
 8. After the ticket has been created, make sure to include the following information:
 

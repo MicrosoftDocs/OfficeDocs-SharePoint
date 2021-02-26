@@ -3,7 +3,7 @@ title: "Use app-enforced restrictions"
 ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
@@ -27,16 +27,18 @@ These steps in the Azure AD admin center tell Azure to use the SharePoint site-l
 
     ![Conditional access policies in the Azure AD admin center](media/azure-ca-new-policy.png)
 
-2. Select **Users and groups**, and then select whether you want the policy to apply to all users or only select users or groups.
+2. In the **Name** box, type a name for the policy.
 
-3. Select **Cloud apps or actions**, select **Select apps**, search for **SharePoint**, select **Office 365 SharePoint Online**, and then select **Select**.
+3. Select **Users and groups**, and then select whether you want the policy to apply to all users or only select users or groups.
+
+4. Select **Cloud apps or actions**, select **Select apps**, search for **SharePoint**, select **Office 365 SharePoint Online**, and then select **Select**.
 
     ![Selecting the SharePoint app](media/azure-ca-policy-cloud-app.png)
 
-4. Select **Conditions**, select **Client apps**, switch **Configure** to **Yes**, keep all the clients selected, and then select **Done**.
+5. Select **Conditions**, select **Client apps**, switch **Configure** to **Yes**, keep all the clients selected, and then select **Done**.
 
-5. Select **Session**, select **Use app enforced restrictions**, and then select **Select**. 
+6. Select **Session**, select **Use app enforced restrictions**, and then select **Select**. 
 
     ![Selecting to control access using app enforced restrictions](media/azure-ca-policy-session.png)
 
-6. Enable the policy and select **Create**.
+7. Enable the policy and select **Create**.

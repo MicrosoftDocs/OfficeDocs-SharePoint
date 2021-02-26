@@ -1,7 +1,7 @@
 ---
 title: "Let users connect classic team sites to new Microsoft 365 groups"
 ms.reviewer: tmehta
-manager: 
+manager: serdars
 ms.author: kaarins
 author: kaarins
 audience: Admin

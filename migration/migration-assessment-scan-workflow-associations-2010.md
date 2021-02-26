@@ -31,16 +31,16 @@ The migration tooling is typically able to migrate the Workflow Definitions from
 
 Workflow Data is divided into the following two parts:
   
-- **Workflow Definition:** The definition describes the overall workflow process, e.g. a three stage approval workflow with custom routing rules for each stage. This data will typically be migrated with the rest of the site collection data and will be available in your target environment. 
+- **Workflow Definition:** The definition describes the overall workflow process, for example, a three stage approval workflow with custom routing rules for each stage. This data will typically be migrated with the rest of the site collection data and will be available in your target environment. 
     
-- **Workflow Instances:** Each running instance of a workflow definition maintains the state of the in progress workflow, e.g. this document is in Stage Two of the approval process and is assigned to John Doe. Unfortunately, this information cannot be migrated to the new platform. The result of this will be the loss of all running workflow instances. For example, a document that was in Stage Two of a workflow in the source environment will be back at Stage Zero (workflow not started) post migration to the target environment. 
+- **Workflow Instances:** Each running instance of a workflow definition maintains the state of the in progress workflow, for example, this document is in Stage 2 of the approval process and is assigned to John Doe. Unfortunately, this information cannot be migrated to the new platform. The result will be the loss of all running workflow instances. For example, a document that was in Stage 2 of a workflow in the source environment will be back at Stage Zero (workflow not started) post migration to the target environment. 
     
 > [!IMPORTANT]
 > Any site that is configured as "No Access" (locked), in SharePoint will be skipped. To see a list of locked site collections see the Locked Sites scan output. 
   
 ## Preparing for Migration
 
-To avoid unnecessary workflow restarts it is best to complete in-flight workflows before the migration event when your content is moved to the target environment.
+To avoid unnecessary workflow restarts, it is best to complete in-flight workflows before the migration event when your content is moved to the target environment.
   
 ## Post Migration
 
@@ -81,14 +81,14 @@ Once the migration to the target environment is complete, users will need to res
 |SolutionNames  <br/> |Name of the full trust solution package the custom activity is associated with. Populated if HasCustomWorkflowActivity is True.  <br/> |
 |WorkflowPublishedBy  <br/> |Name of the person that published the workflow.  <br/> |
 |WorkflowID  <br/> |Unique identifier associated with the workflow.  <br/> |
-|AddListItemPermissionsExist  <br/> |True if the workflow contains an action that adds list permissions. The activity embeds a users identity and may not function post migration without manual republish of the workflow.  <br/> |
-|RemoveListItemPermissionsExists  <br/> |True if the workflow contains an action that removes list permissions. The activity embeds a users identity and may not function post migration without manual republish of the workflow.  <br/> |
-|ReplaceListItemPermissionsExists  <br/> |True if the workflow contains an action that replaces list permissions. The activity embeds a users identity and may not function post migration without manual republish of the workflow.  <br/> |
-|EmailActivityExists  <br/> |True if the workflow contains an action that sends email. The activity embeds a users identity and may not function post migration without manual republish of the workflow.  <br/> |
-|ImpersonationExists  <br/> |True if the workflow contains an action that impersonates an account to perform an action. The activity embeds a users identity and may not function post migration without manual republish of the workflow.  <br/> |
-|RulesFileExists  <br/> |True if the workflow contains conditional rules that contain identities. The activity embeds a users identity and may not function post migration without manual republish of the workflow.  <br/> |
-|ContentAppovalExists  <br/> |True if the workflow contains content approval activities. The activity embeds a users identity and may not function post migration without manual republish of the workflow.  <br/> |
-|WorkflowFileCheckedOut  <br/> |If the workflow file is checked out it will not migrate as expected.  <br/> |
+|AddListItemPermissionsExist  <br/> |True if the workflow contains an action that adds list permissions. The activity embeds a user's identity and may not function post migration without manual republish of the workflow.  <br/> |
+|RemoveListItemPermissionsExists  <br/> |True if the workflow contains an action that removes list permissions. The activity embeds a user's identity and may not function post migration without manual republish of the workflow.  <br/> |
+|ReplaceListItemPermissionsExists  <br/> |True if the workflow contains an action that replaces list permissions. The activity embeds a user's identity and may not function post migration without manual republish of the workflow.  <br/> |
+|EmailActivityExists  <br/> |True if the workflow contains an action that sends email. The activity embeds a user's identity and may not function post migration without manual republish of the workflow.  <br/> |
+|ImpersonationExists  <br/> |True if the workflow contains an action that impersonates an account to perform an action. The activity embeds a user's identity and may not function post migration without manual republish of the workflow.  <br/> |
+|RulesFileExists  <br/> |True if the workflow contains conditional rules that contain identities. The activity embeds a user's identity and may not function post migration without manual republish of the workflow.  <br/> |
+|ContentAppovalExists  <br/> |True if the workflow contains content approval activities. The activity embeds a user's identity and may not function post migration without manual republish of the workflow.  <br/> |
+|WorkflowFileCheckedOut  <br/> |If the workflow file is checked out, it will not migrate as expected.  <br/> |
 |ScanID  <br/> |Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |
    
 

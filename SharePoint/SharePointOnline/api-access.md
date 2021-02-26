@@ -3,7 +3,7 @@ title: "Manage access to Azure AD-secured APIs - SharePoint"
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - CSH
@@ -23,7 +23,7 @@ description: "Learn how to manage permission requests to Azure AD-secured APIs f
 
 # Manage access to Azure AD-secured APIs
 
-When developers build SharePoint Framework solutions, they might need to connect to an API that's secured through Azure Active Directory (Azure AD). Developers can specify which Azure AD applications and permissions their solution requires, and an administrator can manage the permission request from the [API access page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=webApiPermissionManagement&modern=true). 
+When developers build SharePoint Framework solutions, they might need to connect to an API that's secured through Azure Active Directory (Azure AD). Developers can specify which Azure AD applications and permissions their solution requires, and an administrator can manage the permission request from the [API access page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=webApiPermissionManagement&modern=true).
 
 [Learn more about building SharePoint Framework solutions that connect to Azure-AD secured APIs](/sharepoint/dev/spfx/use-aadhttpclient#manage-permission-requests).
 
@@ -31,12 +31,12 @@ When developers build SharePoint Framework solutions, they might need to connect
 
 The API access page shows pending and approved requests. It also shows which requests apply to any SharePoint Framework component or custom script in your organization (organization-wide) and which requests apply to only the specific component (isolated).
 
-> [!NOTE]
-> Approving permissions to different APIs requires a different level of permissions. The [Application Administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#application-administrator) role is sufficient for approving permissions to any of the third-party APIs that is registered in the tenant. However, to approve permissions for Microsoft Graph or any other first-party API, the Global Admin role is required.
+   > [!NOTE]
+   > The admin role that's required to approve permissions depends on the API. To approve permissions to any of the third-party APIs registered in the tenant, the [application administrator](/azure/active-directory/roles/permissions-reference#application-administrator) role is sufficient. To approve permissions for Microsoft Graph or any other Microsoft API, the global admin role is required.
 
 ## Approve a pending request
 
-1. Select the request, and then select **Approve** to see details about the request. 
+1. Select the request, and then select **Approve** to see details about the request.
 2. In the **Approve access** panel, select **Approve**.
 
     ![The Approve access panel](media/approve-access.png)
@@ -48,22 +48,23 @@ The API access page shows pending and approved requests. It also shows which req
 
 ## Reject a pending request
 
-1. Select the request, and select **Reject**. 
-2. Select **Reject** again to confirm. 
- 
-Rejecting access doesn't remove the app from the App Catalog. If the app is used on any sites, it might not work as expected. After you reject the request, it is removed from the page and the developer will need to issue a new request with the same resource and scope.
+1. Select the request, and select **Reject**.
+2. Select **Reject** again to confirm.
+
+Rejecting access doesn't remove the app from the App Catalog. If the app is used on any sites, it might not work as expected. After you reject the request, it's removed from the page and the developer will need to issue a new request with the same resource and scope.
 
 ## Remove access to a previously approved request
 
-1. Select the request, and then select **Remove access**. 
-2. Select **Remove** again to confirm. 
- 
+1. Select the request, and then select **Remove access**.
+2. Select **Remove** again to confirm.
+
 When you remove access, solutions and custom scripts that rely on the permission might not work as expected. After you remove access, the request is removed from the page and the developer will need to issue a new request with the same resource and scope.
 
 ## Manage access by using Microsoft PowerShell
-You can also use PowerShell to manage permission requests. 
 
-- To view pending requests, use the cmdlet [Get-SPOTenantServicePrincipalPermissionRequests](/powershell/module/sharepoint-online/get-spotenantserviceprincipalpermissionrequests?view=sharepoint-ps). 
-- To approve a request, use the cmdlet [Approve-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/approve-spotenantserviceprincipalpermissiongrant?view=sharepoint-ps). 
-- To reject a request, use the cmdlet [Deny-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/deny-spotenantserviceprincipalpermissionrequest?view=sharepoint-ps).
-- To remove access to a previously approved request, use the cmdlet [Revoke-SPOTenantServicePrincipalPermission](/powershell/module/sharepoint-online/revoke-spotenantserviceprincipalpermission?view=sharepoint-ps). 
+You can also use PowerShell to manage permission requests.
+
+- To view pending requests, use the cmdlet [Get-SPOTenantServicePrincipalPermissionRequests](/powershell/module/sharepoint-online/get-spotenantserviceprincipalpermissionrequests?view=sharepoint-ps&preserve-view=true).
+- To approve a request, use the cmdlet [Approve-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/approve-spotenantserviceprincipalpermissiongrant?view=sharepoint-ps&preserve-view=true).
+- To reject a request, use the cmdlet [Deny-SPOTenantServicePrincipalPermissionRequest](/powershell/module/sharepoint-online/deny-spotenantserviceprincipalpermissionrequest?view=sharepoint-ps&preserve-view=true).
+- To remove access to a previously approved request, use the cmdlet [Revoke-SPOTenantServicePrincipalPermission](/powershell/module/sharepoint-online/revoke-spotenantserviceprincipalpermission?view=sharepoint-ps&preserve-view=true).

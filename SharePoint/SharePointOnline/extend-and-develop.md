@@ -3,10 +3,10 @@ title: "Plan customizations, solutions, and apps for SharePoint"
 ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: conceptual
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -57,9 +57,9 @@ Forms that were previously created using InfoPath and hosted in SharePoint using
 
 ## Customize your SharePoint site programmatically
 
-Legacy versions of SharePoint Server relied on solution packages to deploy content and make configuration changes to SharePoint sites. It&#39;s still possible [to programmatically provision sites](/sharepoint/dev/solution-guidance/modern-experience-customizations-provisioning-sites) as well as customize [team sites](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-sites), [lists and libraries](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-lists-and-libraries), and [site pages](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-pages). There are [various methods](/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance) for making programmatic changes to your SharePoint environment, including using the [Office Developer Patterns and Practices APIs,](https://github.com/SharePoint/PnP) the [Microsoft 365 CLI](https://pnp.github.io/office365-cli/), the [Microsoft Graph API](https://developer.microsoft.com/graph/), the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview?view=sp-typescript-latest), and more.
+Legacy versions of SharePoint Server relied on solution packages to deploy content and make configuration changes to SharePoint sites. It&#39;s still possible [to programmatically provision sites](/sharepoint/dev/solution-guidance/modern-experience-customizations-provisioning-sites) as well as customize [team sites](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-sites), [lists and libraries](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-lists-and-libraries), and [site pages](/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-pages). There are [various methods](/sharepoint/dev/solution-guidance/office-365-development-patterns-and-practices-solution-guidance) for making programmatic changes to your SharePoint environment, including using the [Office Developer Patterns and Practices APIs,](https://github.com/SharePoint/PnP) the [Microsoft 365 CLI](https://pnp.github.io/office365-cli/), the [Microsoft Graph API](https://developer.microsoft.com/graph/), the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview?view=sp-typescript-latest&preserve-view=true), and more.
 
-Use the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview?view=sp-typescript-latest) to render custom web parts on a modern SharePoint page. Additionally, [Extensions to the SPFx](/sharepoint/dev/spfx/extensions/overview-extensions) provide the ability to add scripts to pages, create modified views of data, and surface new commands in the SharePoint user interface. SPFx application packages can be deployed to SharePoint sites using the [SharePoint App Catalog](use-app-catalog.md).
+Use the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview?view=sp-typescript-latest&preserve-view=true) to render custom web parts on a modern SharePoint page. Additionally, [Extensions to the SPFx](/sharepoint/dev/spfx/extensions/overview-extensions) provide the ability to add scripts to pages, create modified views of data, and surface new commands in the SharePoint user interface. SPFx application packages can be deployed to SharePoint sites using the [SharePoint App Catalog](use-app-catalog.md).
 
 ## Use third-party add-ins and solutions
 

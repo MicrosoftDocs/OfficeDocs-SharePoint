@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "Sharepoint/SharepointOnline/create-custom-ranking-model.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/search/create-custom-ranking-model",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/search/create-custom-ranking-model",
       "redirect_document_id": true
     },
     {
@@ -277,77 +277,77 @@
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/get-and-install-the-yammer-app-onto-sharepoint-server-2013-sites.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/add-the-yammer-embed-widget-to-a-sharepoint-page",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/add-the-yammer-embed-widget-to-a-sharepoint-page",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/add-yammer-to-the-navigation-bar-for-sharepoint-2013.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/add-yammer-to-the-navigation-bar-for-sharepoint-server",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/add-yammer-to-the-navigation-bar-for-sharepoint-server",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/integrate-a-new-yammer-network-into-sharepoint-server-2013.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-a-new-yammer-network-into-sharepoint-server",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/integrate-a-new-yammer-network-into-sharepoint-server",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/integrate-a-single-yammer-network-into-sharepoint-server-2013.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-a-single-yammer-network-into-sharepoint-server",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/integrate-a-single-yammer-network-into-sharepoint-server",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/integrate-a-yammer-network-into-sharepoint-server-2013-and-office-365.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-a-yammer-network-into-sharepoint-server-and-office-365",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/integrate-a-yammer-network-into-sharepoint-server-and-office-365",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/integrate-a-yammer-network-into-sharepoint-server-2013-with-social-features.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-a-yammer-network-into-sharepoint-server-with-social-features",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/integrate-a-yammer-network-into-sharepoint-server-with-social-features",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/integrate-multiple-yammer-networks-into-sharepoint-server-2013.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-multiple-yammer-networks-into-sharepoint-server",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/integrate-multiple-yammer-networks-into-sharepoint-server",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/integrate-yammer-with-on-premises-sharepoint-2013-environments.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/integrate-yammer-with-on-premises-sharepoint-server-environments",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/integrate-yammer-with-on-premises-sharepoint-server-environments",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/social-scenarios-with-yammer-and-sharepoint-server-2013.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/social-scenarios-with-yammer-and-sharepoint-server",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/social-scenarios-with-yammer-and-sharepoint-server",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/administration/hide-sharepoint-server-2013-social-features.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/administration/hide-sharepoint-server-social-features",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/administration/hide-sharepoint-server-social-features",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/technical-reference/timer-job-reference-for-sharepoint-server-2016.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-server-2016",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/governance/configure-sharepoint-workflowmanager-2019.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server",
+      "redirect_url": "https://docs.microsoft.com/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server",
       "redirect_document_id": true
     },
     {
       "source_path": "sharepoint/sharepointserver/technical-reference/timer-job-reference-for-sharepoint-2013.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-2013",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/technical-reference/default-timer-jobs-in-sharepoint-2013",
       "redirect_document_id": true
     },
     {
       "source_path": "SharePoint/install/overview-of-minrole-server-roles-in-sharepoint-server-2016.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/install/overview-of-minrole-server-roles-in-sharepoint-server",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/install/overview-of-minrole-server-roles-in-sharepoint-server",
       "redirect_document_id": true
     },
     {
       "source_path": "enterprise/overview-of-sql-server-in-a-sharepoint-server-2016-environment.md",
-      "redirect_url": "https://docs.microsoft.com/en-us/SharePoint/administration/overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments",
+      "redirect_url": "https://docs.microsoft.com/SharePoint/administration/overview-of-sql-server-in-sharepoint-server-2016-and-2019-environments",
       "redirect_document_id": true
     },
     {
@@ -382,7 +382,7 @@
     },
     {
       "source_path": "sharepoint/sharepointonline/sharepoint-online.yml",
-      "redirect_url": "https://docs.microsoft.com/en-us/sharepoint/introduction",
+      "redirect_url": "https://docs.microsoft.com/sharepoint/introduction",
       "redirect_document_id": true
     },
     {
@@ -444,6 +444,11 @@
       "source_path": "SharePoint/SharePointServer/what-s-new/index.md",
       "redirect_url": "what-s-new",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "SharePoint/SharePointOnline/let-users-use-new-onedrive-sync-client.md",
+      "redirect_url": "sharepoint-sync",
+      "redirect_document_id": true
     },
     {
       "source_path": "migration/index.md",

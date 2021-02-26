@@ -3,7 +3,7 @@ title: "Domain restrictions when sharing SharePoint & OneDrive content"
 ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: End User
 f1.keywords:
 - NOCSH
@@ -26,7 +26,7 @@ description: "Allow sharing only with guests on specific domains, or block shari
 If you want to restrict sharing with other organizations (either at the organization level or site level), you can limit sharing by domain.
 
 > [!NOTE]
-> If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B Preview](sharepoint-azureb2b-integration-preview.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
+> If you have enrolled in the [SharePoint and OneDrive integration with Azure AD B2B](sharepoint-azureb2b-integration-preview.md), invitations in SharePoint are also subject to any [domain restrictions configured in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
 
 ## Limiting domains
 
@@ -107,7 +107,7 @@ After you limit sharing by domain, here's what you'll see when you share a docum
   
 ## User auditing and lifecycle management
 
-As with any extranet sharing scenario it's important to consider the lifecycle of your guest users, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint business-to-business (B2B) extranet sites](plan-b2b-extranet-sites.md) for more information.
+As with any extranet sharing scenario it's important to consider the lifecycle of your guests, how to audit their activity, and eventually how to archive the site. See [Planning SharePoint business-to-business (B2B) extranet sites](plan-b2b-extranet-sites.md) for more information.
   
 ## See also
 
