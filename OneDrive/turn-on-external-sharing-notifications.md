@@ -1,13 +1,12 @@
 ---
-title: "Turn on external sharing notifications for OneDrive"
-ms.reviewer: 
+title: "Allow notifications"
+ms.reviewer: shahna
 ms.author: kaarins
 author: kaarins
 manager: serdars
-ms.date: 06/21/2018
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
@@ -22,20 +21,12 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: b640c693-f170-4227-b8c1-b0a7e0fa876b
-description: "Make sure OneDrive owners in your organization are emailed when their files and folders are shared externally."
+description: "Allow users to receive notifications about file activity in OneDrive and SharePoint."
 ---
 
-# Turn on external sharing notifications for OneDrive
+# Allow notifications
 
-To help your OneDrive users monitor and control which external users have access to their files, make sure external sharing notifications are turned on. File and folder owners will be emailed when:
-  
-- Another user invites external users to shared files
-- An external user accepts an invitation to access their files
-
-If external sharing is enabled in your organization, these notifications are enabled by default.
-  
-> [!NOTE]
-> Admins can use [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) to monitor content that is shared externally.
+Notifications about file activity in OneDrive and SharePoint can be shown to users across the apps and devices they use. For example, notifications can be sent through the Firebase Cloud Messaging or Apple Push Notification service to the Office mobile app for Android or iOS. They can be sent through the OneDrive sync app to PC or Mac. This setting lets you turn off these notifications for all users for compliance purposes. If you allow these notifications, users can select to turn them off app by app where they don’t want them. 
   
 ## Turn on external sharing notifications
 
