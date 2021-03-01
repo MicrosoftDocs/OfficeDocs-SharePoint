@@ -1,12 +1,12 @@
 ---
 title: "Planning your SharePoint hub sites"
 ms.reviewer: metorres
-manager: 
+manager: serdars
 ms.author: kaarins
 author: kaarins
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

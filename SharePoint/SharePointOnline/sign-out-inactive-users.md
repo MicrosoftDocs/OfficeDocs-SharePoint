@@ -1,12 +1,12 @@
 ---
 title: "Sign out inactive users"
 ms.reviewer: samust
-manager: 
+manager: serdars
 ms.author: kaarins
 author: kaarins
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

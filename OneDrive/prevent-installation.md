@@ -3,7 +3,7 @@ title: "Prevent users from installing the OneDrive sync app"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 ms.date: 06/21/2018
 audience: Admin
 f1.keywords:
@@ -35,4 +35,4 @@ The Sync button helps users install and set up the new OneDrive sync app. If you
     
 ## See also
 
-[Use Group Policy to control OneDrive sync app settings](use-group-policy.md)
+[Use OneDrive policies to control sync settings](use-group-policy.md)

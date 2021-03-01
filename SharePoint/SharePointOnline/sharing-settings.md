@@ -1,12 +1,12 @@
 ---
 title: "Sharing settings in the new SharePoint admin center"
 ms.reviewer: srice
-manager: pamgreen
+manager: serdars
 ms.author: kaarins
 author: kaarins
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -63,7 +63,7 @@ This article covers all the features on the sharing page in the classic SharePoi
 |Prevent external users from sharing files, folders, and sites that they don't own |Under **External sharing**, expand **More external sharing settings**, and then select **Allow guests to share items they don't own**.|
 |External users must accept sharing invitations using the same account that the invitations were sent to |Under **External sharing**, expand **More external sharing settings**, and then select **Guests must sign in using the same account to which sharing invitations are sent**.|
 |Require recipients to continually prove account ownership when they access shared items |Under **External sharing**, expand **More external sharing settings**, and then select **People who use a verification code must reauthenticate after this many days**.|
-|**Notifications**<br/> E-mail OneDrive for Business owners when<br/> A. Other users invite additional external users to shared files<br/>B. External users accept invitations to access files <br/> C. An anonymous access link is created or changed| A. Use the PowerShell cmdlet `Set-SPOTenant -NotifyOwnersWhenItemsReshared`.<br/>B. This setting doesn't work in the new sharing experience that appears in most places. <br/> C. Use the PowerShell cmdlet `Set-SPOTenant -OwnerAnonymousNotification`. <br/> [More info about using Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps)<br/> [Get started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) |
+|**Notifications**<br/> E-mail OneDrive for Business owners when<br/> A. Other users invite additional external users to shared files<br/>B. External users accept invitations to access files <br/> C. An anonymous access link is created or changed| A. Use the PowerShell cmdlet `Set-SPOTenant -NotifyOwnersWhenItemsReshared`.<br/>B. This setting doesn't work in the new sharing experience that appears in most places. <br/> C. Use the PowerShell cmdlet `Set-SPOTenant -OwnerAnonymousNotification`. <br/> [More info about using Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps&preserve-view=true)<br/> [Get started with the SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true) |
 
 
  

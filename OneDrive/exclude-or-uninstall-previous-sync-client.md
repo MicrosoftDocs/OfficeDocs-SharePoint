@@ -1,9 +1,9 @@
 ---
 title: "Control Groove.exe installation when deploying Office using Click-to-Run"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: adjoseph
+author: adeejoseph
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -25,7 +25,7 @@ description: "Learn how the previous OneDrive for Business sync app (Groove.exe)
 # Control Groove.exe installation when deploying Office using Click-to-Run
 
 > [!IMPORTANT]
-> Support for the previous OneDrive for Business sync app (Groove.exe) will end on January 11, 2021. On February 1, 2021, users will no longer be able to sync OneDrive or SharePoint files in Microsoft 365 by using Groove.exe. Groove.exe will continue to work only for files in SharePoint Server.
+> Support for the previous OneDrive for Business sync app (Groove.exe) ended on January 11, 2021. As of February 1, 2021, users can longer sync OneDrive or SharePoint files in Microsoft 365 by using Groove.exe. Groove.exe will continue to work only for files in SharePoint Server.
 
 Starting in October 2017, we changed how the previous OneDrive for Business sync app installs for enterprise customers who deploy Office 2013 or 2016 by using Click-to-Run.
   
@@ -72,8 +72,8 @@ The following table shows more detail about which Office installations were affe
 |Office 2013 Click-to-Run  <br/> |Not applicable  <br/> |Not applicable  <br/> |
 |Office 2016 Click-to-Run - Office Insider  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |Sept. 2017 - Version 1710 (Build 8530.1000)  <br/> |
 |Office 2016 Click-to-Run - Monthly Channel  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |Oct. 2017 - Version 1709 (Build 8528.2139)  <br/> |
-|Office 2016 Click-to-Run - Semi-Annual Channel (Targeted)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
-|Office 2016 Click-to-Run - Semi-Annual Channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
+|Office 2016 Click-to-Run - Semi-Annual Enterprise Channel (Preview)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |Sept. 2018 - Version 1808 (Build 10730.20102)  <br/> |
+|Office 2016 Click-to-Run - Semi-Annual Enterprise Channel  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |Jan. 2019 - Version 1808 (Build 10730.20264)  <br/> |
 
 For more info about Office channels, see [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus-for-enterprise).
   

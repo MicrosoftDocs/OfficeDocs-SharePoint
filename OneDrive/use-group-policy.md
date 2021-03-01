@@ -1,9 +1,9 @@
 ---
-title: "Use Group Policy to control OneDrive sync settings"
+title: "Use OneDrive policies to control sync settings"
 ms.reviewer: gacarini
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.author: adjoseph
+author: adeejoseph
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,6 +13,7 @@ localization_priority: Priority
 ms.collection: 
 - Strat_OD_admin
 - M365-collaboration
+- m365initiative-healthyonedrive
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -23,10 +24,10 @@ search.appverid:
 - ODB150
 - MET150
 ms.assetid: 0ecb2cf5-8882-42b3-a6e9-be6bda30899c
-description: "In this article, you'll learn about the OneDrive Group Policy objects (GPOs) and how to configure the OneDrive sync app by using Group Policy."
+description: "In this article, you'll learn about OneDrive policies and how to configure the OneDrive sync app by using Group Policy."
 ---
 
-# Use Group Policy to control OneDrive sync settings
+# Use OneDrive policies to control sync settings
 
 This article describes the OneDrive Group Policy objects (GPOs) that admins can configure by using Group Policy or by using [administrative templates in Microsoft Intune](configure-sync-intune.md). You can use the registry key info in this article to confirm that a setting is enabled.
   
@@ -42,7 +43,7 @@ This article describes the OneDrive Group Policy objects (GPOs) that admins can 
 
 1. Install the OneDrive sync app for Windows. (To see which builds are releasing and download builds, go to the [release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?).) Installing the sync app downloads the .adml and .admx files.
 
-2. Browse to %localappdata%\Microsoft\OneDrive\BuildNumber\adm\ (for [per-machine sync app](per-machine-installation.md) browse to C:\Program Files (x86)\Microsoft OneDrive\BuildNumber\adm\), to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings on the **About** tab).
+2. Browse to %localappdata%\Microsoft\OneDrive\\*BuildNumber*\adm\ (for [per-machine sync app](per-machine-installation.md) browse to C:\Program Files (x86)\Microsoft OneDrive\BuildNumber\adm\), to the subfolder for your language, as necessary (where *BuildNumber* is the number displayed in sync app settings on the **About** tab).
 
     ![The ADM folder in the OneDrive installation directory](media/85e0fe3f-84eb-4a29-877f-c706dda4d075.png)
   
@@ -65,83 +66,79 @@ The OneDrive Group Policy objects work by setting registry keys on the computers
 > [!NOTE]
 > For info about storage, see [OneDrive Files On-Demand and Storage Sense for Windows 10](https://support.office.com/article/de5faa9a-6108-4be1-87a6-d90688d08a48) and [Policy CSP - Storage](/windows/client-management/mdm/policy-csp-storage).
 
-## List of policies
+## List of policies by string ID
 
-- [Allow OneDrive to disable Windows permission inheritance in folders synced read-only](use-group-policy.md#allow-onedrive-to-disable-windows-permission-inheritance-in-folders-synced-read-only)
+- (AllowTenantList) [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)
 
-- [Allow syncing OneDrive accounts for only specific organizations](use-group-policy.md#allow-syncing-onedrive-accounts-for-only-specific-organizations)
+- (AutomaticUploadBandwidthPercentage) [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
 
-- [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
+- (AutoMountTeamSites) [Configure team site libraries to sync automatically](use-group-policy.md#configure-team-site-libraries-to-sync-automatically)
 
-- [Block file downloads when users are low on disk space](use-group-policy.md#block-file-downloads-when-users-are-low-on-disk-space)
+- (BlockExternalSync) [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
 
-- [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)
+- (BlockKnownFolderMove) [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
 
-- [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps)
+- (BlockTenantList) [Block syncing OneDrive accounts for specific organizations](use-group-policy.md#block-syncing-onedrive-accounts-for-specific-organizations)
 
-- [Configure team site libraries to sync automatically](use-group-policy.md#configure-team-site-libraries-to-sync-automatically)
+- (DefaultRootDir) [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder)
 
-- [Continue syncing on metered networks](use-group-policy.md#continue-syncing-on-metered-networks)
+- (DehydrateSyncedTeamSites) [Convert synced team site files to online-only files](use-group-policy.md#convert-synced-team-site-files-to-online-only-files)
 
-- [Continue syncing when devices have battery saver mode turned on](use-group-policy.md#continue-syncing-when-devices-have-battery-saver-mode-turned-on)
+- (DisableCustomRoot) [Prevent users from changing the location of their OneDrive folder](use-group-policy.md#prevent-users-from-changing-the-location-of-their-onedrive-folder)
 
-- [Convert synced team site files to online-only files](use-group-policy.md#convert-synced-team-site-files-to-online-only-files)
+- (DisableFirstDeleteDialog) [Hide the "Deleted files are removed everywhere" reminder](use-group-policy.md#hide-the-deleted-files-are-removed-everywhere-reminder)
 
-- [Disable the tutorial that appears at the end of OneDrive Setup](use-group-policy.md#disable-the-tutorial-that-appears-at-the-end-of-onedrive-setup)
+- (DisableFRETutorial) [Disable the tutorial that appears at the end of OneDrive Setup](use-group-policy.md#disable-the-tutorial-that-appears-at-the-end-of-onedrive-setup)
 
-- [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
- 
-- [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
+- (DisablePauseOnBatterySaver) [Continue syncing when devices have battery saver mode turned on](use-group-policy.md#continue-syncing-when-devices-have-battery-saver-mode-turned-on)
 
-- [Limit the sync app download speed to a fixed rate](use-group-policy.md#limit-the-sync-app-download-speed-to-a-fixed-rate)
+- (DisablePauseOnMeteredNetwork) [Continue syncing on metered networks](use-group-policy.md#continue-syncing-on-metered-networks)
 
-- [Limit the sync app upload rate to a percentage of throughput](use-group-policy.md#limit-the-sync-app-upload-rate-to-a-percentage-of-throughput)
+- (DisablePersonalSync) [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)
 
-- [Limit the sync app upload speed to a fixed rate](use-group-policy.md#limit-the-sync-app-upload-speed-to-a-fixed-rate)
+- (DiskSpaceCheckThresholdMB) [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically)
 
-- [Prevent the sync app from generating network traffic until users sign in](use-group-policy.md#prevent-the-sync-app-from-generating-network-traffic-until-users-sign-in)
+- (DownloadBandwidthLimit) [Limit the sync app download speed to a fixed rate](use-group-policy.md#limit-the-sync-app-download-speed-to-a-fixed-rate)
 
-- [Prevent users from changing the location of their OneDrive folder](use-group-policy.md#prevent-users-from-changing-the-location-of-their-onedrive-folder)
+- (EnableAllOcsiClients) [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps)
 
-- [Prevent users from fetching files remotely](use-group-policy.md#prevent-users-from-fetching-files-remotely)
+- (EnableAutomaticUploadBandwidthManagement) [Enable automatic upload bandwidth management for OneDrive](use-group-policy.md#enable-automatic-upload-bandwidth-management-for-onedrive)
 
-- [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#prevent-users-from-moving-their-windows-known-folders-to-onedrive)
+- (EnableHoldTheFile) [Allow users to choose how to handle Office file sync conflicts](use-group-policy.md#allow-users-to-choose-how-to-handle-office-file-sync-conflicts)
 
-- [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
+- (EnableODIgnoreListFromGPO) [Exclude specific kinds of files from being uploaded](use-group-policy.md#exclude-specific-kinds-of-files-from-being-uploaded)
 
-- [Prevent users from syncing libraries and folders shared from other organizations](use-group-policy.md#prevent-users-from-syncing-libraries-and-folders-shared-from-other-organizations)
+- (FilesOnDemandEnabled) [Use OneDrive Files On-Demand](use-group-policy.md#use-onedrive-files-on-demand)
 
-- [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts)
+- (ForcedLocalMassDeleteDetection) [Require users to confirm large delete operations](use-group-policy.md#require-users-to-confirm-large-delete-operations)
 
-- [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
+- (GPOSetUpdateRing) [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)
 
-- [Prompt users when they delete multiple OneDrive files on their local computer](use-group-policy.md#prompt-users-when-they-delete-multiple-onedrive-files-on-their-local-computer)
+- (KFMBlockOptOut) [Prevent users from redirecting their Windows known folders to their PC](use-group-policy.md#prevent-users-from-redirecting-their-windows-known-folders-to-their-pc)
 
-- [Receive OneDrive sync app updates on the Deferred ring](use-group-policy.md#EnableEnterpriseUpdate)
+- (KFMOptInNoWizard) [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
 
-- [Require users to confirm large delete operations](use-group-policy.md#require-users-to-confirm-large-delete-operations)
+- (KFMOptInWithWizard) [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive)
 
-- [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder)
+- (LocalMassDeleteFileDeleteThreshold) [Prompt users when they delete multiple OneDrive files on their local computer](use-group-policy.md#prompt-users-when-they-delete-multiple-onedrive-files-on-their-local-computer)
 
-- [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically)
+- (MinDiskSpaceLimitInMB) [Block file downloads when users are low on disk space](use-group-policy.md#block-file-downloads-when-users-are-low-on-disk-space)
 
-- [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring)
+- (PermitDisablePermissionInheritance) [Allow OneDrive to disable Windows permission inheritance in folders synced read-only](use-group-policy.md#allow-onedrive-to-disable-windows-permission-inheritance-in-folders-synced-read-only)
 
-- [Silently move Windows known folders to OneDrive](use-group-policy.md#silently-move-windows-known-folders-to-onedrive)
+- (PreventNetworkTrafficPreUserSignIn) [Prevent the sync app from generating network traffic until users sign in](use-group-policy.md#prevent-the-sync-app-from-generating-network-traffic-until-users-sign-in)
 
-- [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials)
+- (SharePointOnPremFrontDoorUrl) Specify SharePoint Server URL and organization name. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
-- [Use OneDrive Files On-Demand](use-group-policy.md#use-onedrive-files-on-demand)
+- (SharePointOnPremPrioritization) Specify the OneDrive location in a hybrid environment. This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
 
-- [Warn users who are low on disk space](use-group-policy.md#warn-users-who-are-low-on-disk-space)
+- (SilentAccountConfig) [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials)
 
+- (UploadBandwidthLimit) [Limit the sync app upload speed to a fixed rate](use-group-policy.md#limit-the-sync-app-upload-speed-to-a-fixed-rate)
 
-> [!NOTE]
-> "Specify SharePoint Server URL and organization name" and "Specify the OneDrive location in a hybrid environment" are for customers who have SharePoint Server 2019. For more info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+- (WarningMinDiskSpaceLimitInMB) [Warn users who are low on disk space](use-group-policy.md#warn-users-who-are-low-on-disk-space)
 
-    
 ## Computer Configuration policies
-<a name="PerTen"> </a>
 
 Under Computer Configuration\Policies\Administrative Templates\OneDrive, navigate to **Computer Configuration > Policies**.
   
@@ -159,7 +156,6 @@ Enabling this policy sets the following registry key value to 1:
 
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"PermitDisablePermissionInheritance"="dword:00000001"`
   
-
 ### Allow syncing OneDrive accounts for only specific organizations
 <a name="AllowTenantList"> </a>
 
@@ -239,7 +235,7 @@ Enabling this policy sets the following registry key value to 1:
 
 ### Exclude specific kinds of files from being uploaded
 
-This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case sensitive. 
+This setting lets you enter keywords to prevent the OneDrive sync app (OneDrive.exe) from uploading certain files to OneDrive or SharePoint. You can enter complete names, such as "setup.exe" or use the asterisk (*) as a wildcard character to represent a series of characters, such as *.pst. Keywords aren't case-sensitive. 
 
 If you enable this setting, the sync app doesn't upload new files that match the keywords you specified. No errors appear for the skipped files, and the files remain in the local OneDrive folder. In File Explorer, the files appear with an "Excluded from sync" icon in the Status column. The OneDrive sync app must be restarted after this setting is enabled for the setting to take effect.
 
@@ -259,11 +255,21 @@ Enabling this policy creates a list of strings under the following path:
 `HKLM\SOFTWARE\Policies\Microsoft\OneDrive\EnableODIgnoreListFromGPO`
 
 > [!NOTE]
-> This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also with this setting, users don't see errors for the excluded files.
+> This setting gives you more flexibility than the [Block syncing of specific file types setting](block-file-types.md) in the admin center. Also with this setting, users don't see errors for the excluded files. <br> This setting does not support excluding Office files from being uploaded. All other file types are supported.
 
-> [!NOTE]
-> This setting does not support excluding Office files from being uploaded. All other file types are supported.
-  
+### Hide the "Deleted files are removed everywhere" reminder
+
+When a user deletes local files from a synced location, a warning message appears that the files will no longer be available across all the user's devices and on the web. This setting lets you hide the warning message. 
+
+![The "Deleted files are removed everywhere" warning message](media/deleted-files-removed-everywhere.png)
+
+If you enable this setting, users won't see the "Deleted files are removed everywhere" reminder when they delete files locally. (This reminder is called "Deleted files are removed for everyone" when a user deletes files from a synced team site.)
+
+If you disable or do not configure this setting, the reminder will appear until users select "Don't show this reminder again."
+
+Enabling this policy sets the following registry key value to 1:
+`HKLM\SOFTWARE\Policies\Microsoft\OneDrive\DisableFirstDeleteDialog ="dword:00000001"`
+
 ### Limit the sync app upload rate to a percentage of throughput
 <a name="AutomaticUploadBandwidthPercentage"> </a>
 
@@ -288,7 +294,7 @@ If you disable or do not configure this setting, users can choose to limit the u
 > If you enable or disable this setting, and then change it back to Not Configured, the last configuration remains in effect. We recommend enabling this setting instead of "Limit the sync app upload speed to a fixed rate" to limit the upload rate. You should not enable both settings at the same time.
  
 ### Prevent the sync app from generating network traffic until users sign in
-<a name="PreventNetworkTraffic"> </a>
+<a name="PreventNetworkTrafficPreUserSignIn"> </a>
 
 This setting lets you block the OneDrive sync app (OneDrive.exe) from generating network traffic (checking for updates, and so on) until users sign in to OneDrive or start syncing files on their computer.
   
@@ -306,18 +312,8 @@ Enabling this policy sets the following registry key value to 1:
 ### Prevent users from fetching files remotely
 <a name="RemoteAccessGPOEnabled"> </a>
 
-This setting lets you block users from using the fetch feature when they're signed in to the OneDrive sync app (OneDrive.exe) with their personal OneDrive account. The fetch feature lets users go to OneDrive.com, select a Windows computer that's currently online and running the OneDrive sync app, and access all files from that computer. By default, users can use the fetch feature.
-
-If you enable this setting, users are prevented from using the fetch feature.
-  
-Enabling this policy sets the following registry key value to 1.
-  
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"GPOEnabled"="dword:00000001"`
-  
-If you disable or do not configure both this setting and [Prevent users from syncing personal OneDrive accounts](use-group-policy.md#prevent-users-from-syncing-personal-onedrive-accounts), users can use the fetch feature. For more info about fetching files, see [Fetch files on your PC](https://support.office.com/article/70761550-519c-4d45-b780-5a613b2f8822).
-
 > [!NOTE]
-> This setting has been removed from the OneDrive administrative template files (ADMX/ADML) because the Fetch files feature has been deprecated on July 31, 2020.
+> This setting has been removed from the OneDrive administrative template files (ADMX/ADML) because the Fetch files feature was deprecated on July 31, 2020.
 
 ### Prevent users from moving their Windows known folders to OneDrive
 <a name="BlockKnownFolderMove"> </a>
@@ -333,7 +329,7 @@ If you disable or do not configure this setting, users can choose to move their 
   
 Enabling this policy sets the following registry key value to 1:
   
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000001"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"BlockKnownFolderMove"="dword:00000001"`
   
 
 ### Prevent users from redirecting their Windows known folders to their PC
@@ -381,7 +377,7 @@ Enabling this policy sets the following registry key:
   
 where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md).
 
-For more info, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
+For info and recommendations, see [Redirect and move Windows known folders to OneDrive](redirect-known-folders.md).
 
 ### Prompt users when they delete multiple OneDrive files on their local computer
 <a name="LocalMassDeleteFileDeleteThreshold"> </a>
@@ -406,7 +402,7 @@ Enabling this policy sets the following registry key value to a number from 0 th
 
 This setting makes users confirm that they want to delete files in the cloud when they delete a large number of synced files.
 
-If you enable this setting, a warning always appears when users delete a large number of synced files. If a user does not confirm a delete operation within 7 days, the files are not deleted.
+If you enable this setting, a warning always appears when users delete a large number of synced files. If a user doesn't confirm a delete operation within seven days, the files are not deleted.
 
 If you disable or do not configure this setting, users can choose to hide the warning, and always delete files in the cloud.
 
@@ -417,7 +413,7 @@ Enabling this policy sets the following registry key value to 1:
 ### Set the maximum size of a user's OneDrive that can download automatically
 <a name="DiskSpaceCheckThresholdMB"> </a>
 
-This setting is used in conjunction with [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials) on devices that don't have OneDrive Files On-Demand enabled. Any user who has a OneDrive that's larger than the specified threshold (in MB) is prompted to choose the folders they want to sync before the OneDrive sync app (OneDrive.exe) downloads the files.
+This setting is used with [Silently sign in users to the OneDrive sync app with their Windows credentials](use-group-policy.md#silently-sign-in-users-to-the-onedrive-sync-app-with-their-windows-credentials) on devices that don't have OneDrive Files On-Demand enabled. Any user who has a OneDrive that's larger than the specified threshold (in MB) is prompted to choose the folders they want to sync before the OneDrive sync app (OneDrive.exe) downloads the files.
   
 To enter the tenant ID and the maximum size in MB (from 0 to 4294967295), in the **Options** box, select **Show**. The default value is 500.
   
@@ -430,13 +426,16 @@ where "1111-2222-3333-4444" is the [tenant ID](find-your-office-365-tenant-id.md
 ### Set the sync app update ring
 <a name="GPOSetUpdateRing"> </a>
 
-We release OneDrive sync app (OneDrive.exe) updates to the public through three rings- first to Insiders, then Production, and finally Enterprise. This setting lets you specify the ring for users in your organization. When you enable this setting and select a ring, users aren't able to change it.
+We release OneDrive sync app (OneDrive.exe) updates to the public through three rings- first to Insiders, then Production, and finally Deferred. This setting lets you specify the ring for users in your organization. When you enable this setting and select a ring, users aren't able to change it.
 
 Insiders ring users receive builds that let them preview new features coming to OneDrive.
 
 Production ring users get the latest features as they become available. This ring is the default.
 
 Deferred ring users get new features, bug fixes, and performance improvements last. This ring lets you deploy updates from an internal network location, and control the timing of the deployment (within a 60-day window).
+
+> [!IMPORTANT]
+> We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
 
 If you disable or do not configure this setting, users can join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program to get updates on the Insiders ring.
 
@@ -454,7 +453,7 @@ For more info on the builds currently available in each ring, see the [release n
 Use this setting to redirect and move your users' Documents, Pictures, and/or Desktop folders to OneDrive without any user interaction. 
 
 > [!NOTE]
-> We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week.  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue.  
+> We recommend deploying the silent policy for existing devices and new devices while limiting the deployment of existing devices to 1,000 devices a day and not exceeding 4,000 devices a week.  We also recommend using this setting together with [Prompt users to move Windows known folders to OneDrive](use-group-policy.md#prompt-users-to-move-windows-known-folders-to-onedrive). If moving the known folders silently does not succeed, users will be prompted to correct the error and continue. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
   
 You can move all folders at once or select the folders you want to move.  After a folder is moved, this policy will not affect that folder again, even if you clear the check box for the folder. 
 
@@ -484,6 +483,9 @@ For more info, see [Redirect and move Windows known folders to OneDrive](redirec
   
 If you enable this setting, users who are signed in on a PC that's joined to Azure AD can set up the sync app without entering their account credentials. Users will still be shown OneDrive Setup so they can select folders to sync and change the location of their OneDrive folder. If a user is using the previous OneDrive for Business sync app (Groove.exe), the new sync app attempts to take over syncing the user's OneDrive from the previous app, and preserves the user's sync settings. This setting is frequently used together with [Set the maximum size of a user's OneDrive that can download automatically](use-group-policy.md#set-the-maximum-size-of-a-users-onedrive-that-can-download-automatically) on PCs that don't have Files On-Demand and with [Set the default location for the OneDrive folder](use-group-policy.md#set-the-default-location-for-the-onedrive-folder).
 
+> [!IMPORTANT]
+> We recommend enabling silent account configuration when you configure the sync app. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
+
 Enabling this policy sets the following registry key value to 1:
   
 `[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"SilentAccountConfig"="dword:00000001"`
@@ -491,10 +493,21 @@ Enabling this policy sets the following registry key value to 1:
 For more info about this feature, including troubleshooting steps, see [Silently configure user accounts](use-silent-account-configuration.md).
 Let us know if you have feedback on this feature or encounter any issues. Right-click the OneDrive icon in the notification area and select **Report a problem**. Tag any feedback with "SilentConfig" so that your feedback is sent directly to engineers working on this feature.
 
+### Specify SharePoint Server URL and organization name
+
+This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+
+### Specify the OneDrive location in a hybrid environment
+
+This setting is for customers who have SharePoint Server 2019. For info about using the new OneDrive sync app with SharePoint Server 2019, see [Configure syncing with the new OneDrive sync app](/SharePoint/install/new-onedrive-sync-client/).
+
 ### Use OneDrive Files On-Demand
 <a name="FilesOnDemandEnabled"> </a>
 
 This setting lets you control whether OneDrive Files On-Demand is enabled for your organization. Files On-Demand helps you save storage space on your users' computers, and minimize the network impact of sync. The feature is available to users running Windows 10 Fall Creators update (version 1709 or later). For more info, see [Save disk space with OneDrive Files On-Demand for Windows 10](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e).
+
+> [!IMPORTANT]
+> We recommend keeping Files On-Demand enabled. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
   
 If you enable this setting, new users who set up the sync app see online-only files in File Explorer, by default. File contents don't download until a file is opened. If you disable this setting, Windows 10 users have the same sync behavior as users of previous versions of Windows, and aren't able to turn on Files On-Demand. If you do not configure this setting, users can turn Files On-Demand on or off.
 
@@ -530,7 +543,7 @@ This setting specifies what happens when conflicts occur between Office file ver
  
 If you enable this setting, users can decide if they want to merge changes or keep both copies. Users can also configure the sync app to always fork the file and keep both copies, as follows.
   
-![The Office tab of the Sync settings dialog](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
+![The Office tab in OneDrive sync app settings](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
   
 Enabling this policy sets the following registry key value to 1:
   
@@ -538,49 +551,25 @@ Enabling this policy sets the following registry key value to 1:
 
 If you disable this setting, the Sync conflicts setting on the Office tab is disabled, and when a sync conflict occurs, both copies of the file are kept.
   
-To enable this setting, you must enable [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps). For more info about the Office settings in the sync app, see [Use Office 2016 to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
+To enable this setting, you must enable [Coauthor and share in Office desktop apps](use-group-policy.md#coauthor-and-share-in-office-desktop-apps). For more info about the Office settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
   
-  
-### Continue syncing on metered networks
-<a name="DisablePauseOnMeteredNetwork"> </a>
-
-This setting lets you turn off the auto-pause feature when devices connect to metered networks.
-
-If you enable this setting, syncing continues when devices are on a metered network. OneDrive does not automatically pause syncing.
-
-If you disable or do not configure this setting, syncing pauses automatically when a metered network is detected and a notification appears. To not pause, in the notification, select **Sync Anyway**. When syncing is paused, to resume syncing, in the notification area of the taskbar, select the OneDrive cloud icon, and at the top of the Activity Center, select the alert.
-
-Enabling this policy sets the following registry key value to 1:
-
-`[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DisablePauseOnMeteredNetwork"=dword:00000001`
-  
-### Continue syncing when devices have battery saver mode turned on
-<a name="DisablePauseOnBatterySaver"> </a>
-
-This setting lets you turn off the auto-pause feature for devices that have battery saver mode turned on.  
-
-If you enable this setting, syncing continues when users turn on battery saver mode. OneDrive does not automatically pause syncing.
-
-If you disable or do not configure this setting, syncing pauses automatically when battery saver mode is detected and a notification appears. To not pause, in the notification, select **Sync Anyway**. When syncing is paused, to resume syncing, in the notification area of the taskbar, select the OneDrive cloud icon, and at the top of the Activity Center, select the alert.
-
-Enabling this policy sets the following registry key value to 1:
-
-`[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DisablePauseOnBatterySaver"=dword:00000001`
-
 ### Coauthor and share in Office desktop apps
 <a name="EnableAllOcsiClients"> </a>
 
 This setting lets multiple users use the Microsoft 365 Apps for enterprise, Office 2019, or Office 2016 desktop apps to simultaneously edit an Office file stored in OneDrive. It also lets users share files from the Office desktop apps.
+
+> [!IMPORTANT]
+> We recommend keeping this setting enabled to make syncing faster and reduce network bandwidth. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
   
-If you enable or do not configure this setting, the **Office** tab appears in OneDrive sync settings, and **Use Office 2016 to sync Office files that I open** is selected, by default.
+If you enable or do not configure this setting, the **Office** tab appears in OneDrive sync settings, and **Use Office applications to sync Office files that I open** is selected, by default.
   
-![The Office tab in OneDrive sync app settings](media/c90cf228-c27e-4107-b4cf-2c0690a959a4.png)
+![The Office tab in OneDrive sync app settings](media/ec60b062-1979-446d-b431-bf0baede0f8b.png)
 
 Enabling this policy sets the following registry key value to 1:
   
 `[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"EnableAllOcsiClients"="dword:00000001"`
   
-If you disable this setting, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files is disabled. The **Users can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more info about the settings in the sync app, see [Use Office 2016 to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
+If you disable this setting, the **Office** tab is hidden in the sync app, and coauthoring and in-app sharing for Office files is disabled. The **Users can choose how to handle Office files in conflict** setting acts as disabled, and when file conflicts occur, both copies of the file are kept. For more info about the settings in the sync app, see [Use Office applications to sync Office files that I open](https://support.office.com/article/8a409b0c-ebe1-4bfa-a08e-998389a9d823).
 
 ### Configure team site libraries to sync automatically
 <a name="AutoMountTeamSites"> </a> 
@@ -613,7 +602,7 @@ The special characters in this copied string are in Unicode and must be converte
 | %2F |   /   |
 | %2E |   .   |
 
-Alternatively, you can run the following in PowerShell, replacing "Copied String" with the library ID:
+Alternatively, you can run the following command in PowerShell, replacing "Copied String" with the library ID:
 
 ```powershell
 [uri]::UnescapeDataString("Copied String")
@@ -623,6 +612,31 @@ Enabling this policy sets the following registry key, using the entire URL from 
 
 `[HKCU\Software\Policies\Microsoft\OneDrive\TenantAutoMount]"LibraryName"="LibraryID"`
 
+### Continue syncing on metered networks
+<a name="DisablePauseOnMeteredNetwork"> </a>
+
+This setting lets you turn off the auto-pause feature when devices connect to metered networks.
+
+If you enable this setting, syncing continues when devices are on a metered network. OneDrive does not automatically pause syncing.
+
+If you disable or do not configure this setting, syncing pauses automatically when a metered network is detected and a notification appears. To not pause, in the notification, select **Sync Anyway**. When syncing is paused, to resume syncing, in the notification area of the taskbar, select the OneDrive cloud icon, and at the top of the Activity Center, select the alert.
+
+Enabling this policy sets the following registry key value to 1:
+
+`[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DisablePauseOnMeteredNetwork"=dword:00000001`
+  
+### Continue syncing when devices have battery saver mode turned on
+<a name="DisablePauseOnBatterySaver"> </a>
+
+This setting lets you turn off the auto-pause feature for devices that have battery saver mode turned on.  
+
+If you enable this setting, syncing continues when users turn on battery saver mode. OneDrive does not automatically pause syncing.
+
+If you disable or do not configure this setting, syncing pauses automatically when battery saver mode is detected and a notification appears. To not pause, in the notification, select **Sync Anyway**. When syncing is paused, to resume syncing, in the notification area of the taskbar, select the OneDrive cloud icon, and at the top of the Activity Center, select the alert.
+
+Enabling this policy sets the following registry key value to 1:
+
+`[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] "DisablePauseOnBatterySaver"=dword:00000001`
 
 
 ### Disable the tutorial that appears at the end of OneDrive Setup
@@ -713,14 +727,6 @@ Enabling this policy sets the following registry key value to 1:
 ### Receive OneDrive sync app updates on the Deferred ring
 <a name="EnableEnterpriseUpdate"> </a>
 
-This setting lets you specify the Deferred ring for users in your organization. We release OneDrive sync app (OneDrive.exe) updates to the public through three rings— first to Insiders, then Production, and finally Deferred.
-
-Selecting the Deferred ring gives you some extra time to prepare for updates, but means users must wait to receive the latest improvements. The Deferred ring also lets you deploy updates from an internal network location on your own schedule.
-
-Enabling this policy sets the following registry key value to 1:
-  
-`[HKCU\SOFTWARE\Policies\Microsoft\OneDrive] ﻿"EnableEnterpriseUpdate"="dword:00000001"`
-  
 > [!IMPORTANT]
 > This setting will be removed soon. We recommend using the new setting [Set the sync app update ring](use-group-policy.md#set-the-sync-app-update-ring) instead.
   

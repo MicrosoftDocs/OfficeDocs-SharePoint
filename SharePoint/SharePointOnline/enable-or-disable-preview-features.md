@@ -3,7 +3,7 @@ title: "Enable or disable preview features in SharePoint"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH

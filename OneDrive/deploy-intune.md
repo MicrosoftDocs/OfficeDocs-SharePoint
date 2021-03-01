@@ -3,11 +3,11 @@ title: "Deploy OneDrive apps using Intune"
 ms.reviewer: 
 ms.author: kaarins
 author: kaarins
-manager: pamgreen
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 

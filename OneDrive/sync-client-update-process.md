@@ -1,9 +1,9 @@
 ---
 title: "The OneDrive sync app update process"
-ms.reviewer: joleung
-ms.author: kaarins
-author: kaarins
-manager: pamgreen
+ms.reviewer: 
+ms.author: adjoseph
+author: adeejoseph
+manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -31,9 +31,12 @@ This article is for IT admins who manage the new OneDrive sync app (OneDrive.exe
   
 ## How we release updates through multiple rings
 
-After we validate updates through rings within Microsoft, we release them to the first public ring, Insiders. To try these latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. It takes about 3 days to roll out to this ring. Later, we release to organizations in the default update ring, Production. We roll them out to a small percentage of users in the ring at first, and slowly roll them out to everyone in the ring. This typically takes one to two weeks. At each increase along the way, we monitor telemetry for quality assurance purposes. In the rare case we detect an issue, we suspend the release, address the issue, and release a new update to users in the same order. After updates have completely rolled out within the Production ring, we release them to the next ring, Deferred.
+After we validate updates through rings within Microsoft, we release them to the first public ring, Insiders. To try these latest features, join the [Windows Insider program](https://insider.windows.com/) or the [Office Insider](https://products.office.com/office-insider) program. It takes about three days to roll out to this ring. Later, we release to organizations in the default update ring, Production. We roll them out to a small percentage of users in the ring at first, and slowly roll them out to everyone in the ring. This typically takes one to two weeks. At each increase along the way, we monitor telemetry for quality assurance purposes. In the rare case we detect an issue, we suspend the release, address the issue, and release a new update to users in the same order. After updates have completely rolled out within the Production ring, we release them to the next ring, Deferred.
   
 ![Release ring timeline](media/release-rings.png)
+
+> [!IMPORTANT]
+> We recommend selecting several people in your IT department as early adopters to join the Insiders ring and receive features early. We recommend leaving everyone else in the organization in the default Production ring to ensure they receive bug fixes and new features in a timely fashion. [See all our recommendations for configuring the sync app](ideal-state-configuration.md)
   
 The Deferred ring provides builds that have been monitored throughout the Production rollout, so fewer releases are suspended. The Deferred ring also lets you as an admin:
   

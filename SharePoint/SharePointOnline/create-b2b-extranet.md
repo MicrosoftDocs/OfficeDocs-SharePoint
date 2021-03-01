@@ -3,7 +3,7 @@ title: "Use SharePoint as a business-to-business (B2B) extranet solution"
 ms.reviewer: sesham
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 ms.date: 5/22/2018
 audience: ITPro
 f1.keywords:
@@ -52,16 +52,15 @@ Depending on your collaboration needs, you can include Microsoft 365 groups or M
   
 ## Compare Microsoft 365 extranet with a traditional SharePoint on-premises extranet
 
-||||
-|:-----|:-----|:-----|
-||**Microsoft 365 extranet** <br/> |**SharePoint "on-premises" extranet** <br/> |
-|Firewall access required for external users  <br/> |No  <br/> |Yes  <br/> |
-|Complex network and infrastructure configuration required  <br/> |No  <br/> |Yes  <br/> |
-|Security hardening  <br/> |Managed through Microsoft 365 configurations  <br/> |Manually configured by IT staff  <br/> |
-|IT labor intensive  <br/> |No  <br/> |Yes  <br/> |
-|Ongoing maintenance needed  <br/> |Minimal  <br/> |Considerable  <br/> |
-|Additional hardware needed  <br/> |No  <br/> |Often  <br/> |
-|Controlling sharing experience for the extranet  <br/> |Part of Microsoft 365 sites functionality  <br/> |Often requires custom solutions/apps  <br/> |
+|**Condition** |**Microsoft 365 extranet** |**SharePoint "on-premises" extranet** |
+|-----|-----|-----|
+|Firewall access required for external users |No |Yes |
+|Complex network and infrastructure configuration required |No |Yes |
+|Security hardening |Managed through Microsoft 365 configurations |Manually configured by IT staff |
+|IT labor intensive  |No  |Yes |
+|Ongoing maintenance needed  |Minimal |Considerable |
+|Additional hardware needed  |No |Often |
+|Controlling sharing experience for the extranet  |Part of Microsoft 365 sites functionality |Often requires custom solutions/apps |
 
 ## Get started
 

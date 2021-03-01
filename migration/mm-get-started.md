@@ -1,5 +1,5 @@
 ---
-title: "Get started with Migration Manager  - SharePoint"
+title: "Migrate your files to Microsoft 365 with Migration Manager"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -20,12 +20,12 @@ search.appverid: MET150
 description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
 
-# Get started with the Migration Manager
+# Migrate your files to Microsoft 365 with Migration Manager
 
 >[!NOTE]
->Migration Manager currently supports only the migration of **file shares**.
->
->This release does not support the migration of content from SharePoint Server.
+>Migration Manager currently supports only the migration of **file shares**.  This release does not support the migration of content from SharePoint Server.
+
+Get the scale and security you need to meet today’s business challenges —and tomorrow’s—through cloud migration.
 
 Migrating content to the cloud is a time and resource intensive process and normally involves scaling up resources to accommodate the large volume of content that you are moving. This comes at a high operational cost of individually managing each migration computer and the migrations tasks that are running on it. Plus you aren't able to automatically load balance your jobs, or view at a glance the progress and status of your migration tasks across all your computers.
 
@@ -61,7 +61,17 @@ Make sure that you have:
 
 >[!Note]
 >When using Migration Manager to migrate content to non-English SharePoint sites, make sure the site title does not include non-English characters.
+## End user onboarding
+Develop a plan to prepare your users for the upcoming change. Consideration factors to include in your plan:
+- **Evangelize the move.** Underscore the benefits, the collaborative capabilities, and the reasons for making the move.
+- **End user training.**  Provide training to your users on the features in OneDrive.
+- **Train your helpdesk.**  Before the cutover, train your helpdesk in key features and common user questions.
+- **Prepare for any possible downtime** the migration may incur.
 
+Develop a plan for sending communications to your user base, providing clear statements of timing, and expectations and impact to the individual, including:
+- The migration timeline and how it will impact them. Include any user calls to action.
+- Assure them that their content is safe and won't be overwritten.
+- Let them know whether individuals can opt out of the migration process.
 
 ### Related links
 
