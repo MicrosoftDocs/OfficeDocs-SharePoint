@@ -1,8 +1,8 @@
 ---
 title: "Network utilization planning for the OneDrive sync app"
-ms.reviewer: andreye
-ms.author: kaarins
-author: kaarins
+ms.reviewer: 
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -33,7 +33,7 @@ This article is for IT admins planning to deploy the OneDrive sync app and wanti
 
 Follow these steps to estimate the bandwidth that will be used when you fully deploy the sync app.
   
-1. Assess the number of users and computers per user to which you'll deploy the sync app. Each installation multiplies the bandwidth used, so a user who has 3 syncing computers uses 3 times the bandwidth as a user who has a single syncing computer.
+1. Assess the number of users and computers per user to which you'll deploy the sync app. Each installation multiplies the bandwidth used, so a user who has three syncing computers uses three times the bandwidth as a user who has a single syncing computer.
     
 2. [Assess the available bandwidth and network conditions](network-utilization-planning.md#AssessAvailableBandwidth).
     
@@ -44,7 +44,7 @@ When you deploy, [Control sync throughput](network-utilization-planning.md#Contr
 ### Assess the available bandwidth and network conditions
 <a name="AssessAvailableBandwidth"> </a>
 
-You can leverage third-party speed test tools, like Wireshark or Fiddler, to understand the actual download and upload throughput that the users experience. 
+You can use third-party speed test tools, like Wireshark or Fiddler, to understand the actual download and upload throughput that the users experience. 
   
 Packet loss, latency, and other factors can also impact OneDrive upload and download experience. For example, a high-latency network or network experiencing a lot of loss could result in a degraded OneDrive upload and download experience even on high-bandwidth networks (1000 Mbps, for example). The loss and latency will likely vary based on the number of users that are on the same network and what those users are doing (like downloading or uploading large files).
   
@@ -65,7 +65,7 @@ When you create a pilot group, make sure the users are representative of the dif
 
 When users download locations for the first time, bandwidth usage will spike. To avoid this spike, enable [Learn about OneDrive Files On-Demand](https://support.office.com/article/0e6860d3-d9f3-4971-b321-7092438fb38e). This allows users to browse their files in File Explorer without downloading them.
   
-Below you can see and contrast the patterns of network utilization in cases of classic sync and when Files On-Demand functionality is enable
+The following image illustrates the network utilization over time with Files On-Demand enabled and not enabled.
   
 ![OneDrive Sync App Network Load Patterns](media/6c03ed78-0575-454a-9cf0-989c7ae7451a.png)
   
@@ -78,14 +78,14 @@ The OneDrive sync app provides differential sync for all file types stored in On
 > [!NOTE]
 > Windows Notification Service or WNS plays an important role in efficient network utilization. Instead of the sync app constantly pulling to check for remote changes, WNS ensures that any changes from the cloud get pushed down to the device as fast as possible. It saves both network bandwidth and device battery life. This benefits both Windows and macOS. Make sure the connection to the service is enabled. Work with your network team to make sure proxies allow network traffic to bypass \*.wns.windows.com and avoid HTTPS decryption for \*.wns.windows.com. 
 
-A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the Group Policy objects slowly to minimize the network impact of uploading files. For detailed deployment guidance on Known Folder Move, see [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders).
+A spike in upload traffic is expected if you deploy the Known Folder Move setting in your organization. If your organization is large and your users have a lot of files in their known folders, make sure you roll out the policies slowly to minimize the network impact of uploading files. For detailed deployment guidance on Known Folder Move, see [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders).
   
 ## Control sync throughput
 <a name="ControlSyncThroughput"> </a>
 
 If you need to control sync app traffic, we recommend using network throughput policies provided by the OneDrive sync app. You can also use your network quality of service (QoS) policies or Windows QoS policies, or let users choose their throughput settings. For info about the network settings you can make available to your users, see [Change the OneDrive sync app upload or download rate](https://support.office.com/article/71cc69da-2371-4981-8cc8-b4558bdda56e).
 
-### Use OneDrive Group Policy objects
+### Use OneDrive policies
 
 You can use policies included with the OneDrive sync app to control network throughput. These policies are available in the OneDrive installation directory `%localappdata%\Microsoft\OneDrive\BuildNumber\adm\` where `BuildNumber` is the number displayed in sync app settings on the About tab.
   

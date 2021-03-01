@@ -1,8 +1,8 @@
 ---
 title: "B2B Sync"
 ms.reviewer: cagreen
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
@@ -24,10 +24,10 @@ description: "Learn how the OneDrive sync app allows users to sync folders share
 
 The OneDrive sync app now lets users sync libraries or folders in Microsoft SharePoint or Microsoft OneDrive that have been shared from other organizations. This scenario is often referred to as Business-to-Business (B2B) Collaboration. We're calling this new feature in the OneDrive sync app "B2B Sync". 
 
-Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organization that have created guest accounts for them.
+Azure Active Directory (AAD) guest accounts play a key role in making B2B Collaboration possible. A guest account at one organization links to a member account at another organization. Once created, a guest account allows Microsoft 365 services like OneDrive and SharePoint to grant a guest permission to sites and folders the same way a member within the organization is granted permission. Since the accounts at two organizations are linked, the user only needs to remember the username and password for the account at their organization. As a result, a single sign in to their account enables access to content from their own organization and from any other organizations that have created guest accounts for them.
 
 > [!IMPORTANT]
-> We recommend that you sign up for the [SharePoint and OneDrive integration with Azure AD B2B Preview](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) to help ensure that the required Azure AD guest account for the share recipient is created in your organization's directory.
+> We recommend that you sign up for the [SharePoint and OneDrive integration with Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) to help ensure that the required Azure AD guest account for the share recipient is created in your organization's directory.
 
 ## B2B Sync requirements
 
@@ -85,20 +85,20 @@ In order for users at your organization to be able to share with their partners 
 
 You can change your organization-level sharing settings in three different places (all three control the same thing):
 
-- In the Microsoft 365 admin center, under Settings \> Services &amp; add-ins \> Sites. For more info, see [Change the organization-level external sharing setting](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting)
+- On the Sharing page in the new SharePoint admin center. For more info, see [Change the organization-level external sharing setting](/sharepoint/turn-external-sharing-on-or-off#change-the-organization-level-external-sharing-setting)
+- In the Microsoft 365 admin center, under Settings \> Services &amp; add-ins \> Sites. 
 - On the Sharing page in the OneDrive admin center
-- On the sharing page in the in the classic SharePoint admin center, where you can also specify detailed options. For more info, see [Additional settings](/sharepoint/turn-external-sharing-on-or-off#additional-settings).
 
 > [!IMPORTANT]
-> If you allow "Anyone" links (sometimes referred to as "anonymous access" or "shareable"), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.
+> If you allow Anyone links (sometimes referred to as "anonymous access" or "shareable"), these links do not create guest accounts and therefore the external share recipient will not be able to leverage B2B Sync when receiving that link type.
 
 For more info, see [External sharing overview](/sharepoint/external-sharing-overview).
 
 ### Control external sharing
 
-When you allow users to share content from your organization externally, you can use several features in Microsoft 365 to manage who has access to the content. Admins and site owners can review permissions and audit access to sites. For info, see [Searching for site content shared with external users](/office365/securitycompliance/keyword-queries-and-search-conditions) and [Turn on external sharing notifications](turn-on-external-sharing-notifications.md). You can enable external sharing with only specific internet domains, or you can block specific domains. For info, see [Restricted domains sharing](/sharepoint/restricted-domains-sharing). You can also allow only members of specific security groups to share externally. For info, see [Turn external sharing on or off](/sharepoint/turn-external-sharing-on-or-off).
+When you allow users to share content from your organization externally, you can use several features in Microsoft 365 to manage who has access to the content. Admins and site owners can review permissions and audit access to sites. For info, see [Searching for site content shared with people outside your organization](/microsoft-365/compliance/keyword-queries-and-search-conditions#searching-for-site-content-shared-with-external-users) and [Turn on external sharing notifications](turn-on-external-sharing-notifications.md). You can enable external sharing with only specific internet domains, or you can block specific domains. For info, see [Restricted domains sharing](/sharepoint/restricted-domains-sharing). You can also allow only members of specific security groups to share externally. For info, see [Turn external sharing on or off](/sharepoint/turn-external-sharing-on-or-off).
 
-We recommend creating separate sites (site collections, not subsites) for each unit of work that you want to share externally. This way, you can clearly annotate the sites to indicate that external users have access, and avoid unintentional disclosure of information. For individual users sharing content from their OneDrive, we recommend creating separate folders for different projects or collaboration groups.
+We recommend creating separate sites (site collections, not subsites) for each unit of work that you want to share externally. This way, you can clearly annotate the sites to indicate that people outside the organization have access, and avoid unintentional disclosure of information. For individual users sharing content from their OneDrive, we recommend creating separate folders for different projects or collaboration groups.
   
 You can remove a guest's permission to a site or folder, or you can delete the guest account to remove their permission from all of your organization's content.
 
@@ -124,7 +124,7 @@ To view or change the sharing setting for any site, use the new SharePoint admin
 Sites and folders can be shared in different ways in SharePoint and OneDrive:
 
 - If users are syncing a folder, they can right-click it in File Explorer to share it.
-- Users can go to the SharePoint site or folder on the web and click the Share button to share the it.
+- Users can go to the SharePoint site or folder on the web and click the Share button to share it.
 - Users can share sites and folders in the SharePoint and OneDrive mobile apps.
 - Admins can create guest accounts and use the admin center or PowerShell to add them to sites.
 
@@ -134,7 +134,7 @@ Sites and folders can be shared in different ways in SharePoint and OneDrive:
 B2B Sync works with all these methods of sharing. It has only the following requirements:
 
 - For guests to sync shared content, the content must be shared at the site or folder level. Guests can't sync files that are shared individually (for example, from the Office apps).
-- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an Anyone  link (also known as "anonymous access" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account.
+- B2B sync works only when guest accounts are created in the organization, and when the recipient has an Azure AD account. It doesn't work when users share by creating an Anyone link (also known as "anonymous access" link or "shareable" link), or when they share with people who have a Microsoft account or other personal account.
 
 ### Add guests to SharePoint sites
 
@@ -145,7 +145,7 @@ As an admin in Microsoft 365, you can share with people outside the organization
 
 ### Use PowerShell to bulk create guest accounts and add them to a SharePoint group
 
-If you need to create and grant permissions to many guest accounts, you can use the following PowerShell script, which creates guest accounts and grants them permissions to a site. The script takes a CSV (comma separated value) file as input, which contains a list of user display names and email addresses. For each name and email address, a guest account is created and that account is added to a security group to grant it permission. The script is designed so that you can feed the resulting output CSV as input to the script on a subsequent run. This lets you add more users to your CSV file or retry creating any failed account.
+If you need to create and grant permissions to many guest accounts, you can use the following PowerShell script, which creates guest accounts and grants them permissions to a site. The script takes a CSV (comma-separated value) file as input, which contains a list of user display names and email addresses. For each name and email address, a guest account is created and that account is added to a security group to grant it permission. The script is designed so that you can feed the resulting output CSV as input to the script on a subsequent run. This lets you add more users to your CSV file or retry creating any failed account.
 
 As users are added to the Azure AD Group, they should receive an email welcoming them to the group. After running the script, you'll need to email the users with a direct link to the SharePoint site you gave them permissions to. When they click the link, they'll be presented with the below UI to accept the terms of the invitation. Once they accept, they will be taken to the site you shared with them. At that point they can click the Sync button to begin syncing the sites files to their PC or Mac.
 

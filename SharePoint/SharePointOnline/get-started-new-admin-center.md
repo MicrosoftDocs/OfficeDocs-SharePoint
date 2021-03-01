@@ -6,7 +6,7 @@ author: kaarins
 manager: serdars
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: overview
 ms.service: sharepoint-online
 localization_priority: Normal
