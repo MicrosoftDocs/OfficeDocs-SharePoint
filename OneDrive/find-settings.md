@@ -20,52 +20,39 @@ search.appverid:
 description: "Learn where to find features from the OneDrive admin center. "
 ---
 
-# Find OneDrive settings in the new SharePoint admin center
+# Find OneDrive admin settings
 
-This article covers all the features in the OneDrive admin center and where you can find them in the new SharePoint admin center.
+This article covers all the features in the OneDrive admin center and where you can find them in other places.
 
 ## Sharing page
 
-| Classic | New |
-|:-----|:-----|
-|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
+Go to the [**Sharing page** in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true)
 
-<br/>
-
-| Classic | New |
+| OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|Default link type  <br/> |Yes  <br/> |
-|Advanced settings for shareable links <br/> |Yes  <br/> |
-|External sharing for SharePoint and OneDrive  <br/> |Yes  <br/> |
-|Advanced settings for external sharing   <br/> |Yes   <br/> |
-|Other: Display to owners the names of people who viewed their files   <br/> |???   <br/> |
+|![Sharing page in OneDrive admin center](media/sharing-page.png)|![Sharing page in SharePoint admin center](media/sp-sharing-page.png) |
 
 ## Sync page
 
-| Classic | New |
-|:-----|:-----|
-|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
+Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Sync**.
 
-<br/>
-
-| Classic | New |
+| OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|Show the Sync button on the OneDrive website  <br/> |Yes  <br/> |
-|Allow syncing only on PCs joined to specific domains <br/> |Yes  <br/> |
-|Block syncing of specific file types  <br/> |Yes  <br/> |
+|![Sync page in the OneDrive admin center](media/sync-page.png)|![Sync settings in the SharePoint admin center](media/sp-sync-settings.png) |
 
 ## Storage page
 
-| Classic | New |
-|:-----|:-----|
-|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
+For the default storage setting, go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Storage limit**.
 
-<br/>
-
-| Classic | New |
+| OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|Default storage in GB <br/> |Yes  <br/> |
-|Days to retain files in OneDrive after a user account is marked for deletion <br/> |Yes  <br/> |
+|![Storage page in the OneDrive admin center](media/storage-page.png)|![Classic other options](media/default-storage-limit.png) |
+
+For the default storage setting, go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Storage limit**.
+
+| OneDrive admin center | SharePoint admin center |
+|:-----|:-----|
+|![Storage page in the OneDrive admin center](media/storage-page.png)|![Classic other options](media/default-storage-limit.png) |
 
 ## Device access page
 
