@@ -114,7 +114,7 @@ If you haven’t set up your [home site](https://docs.microsoft.com/sharepoint/h
 
 ![Image of site navigation](media/app-bar-site.png)
 
-- Select the site navigation source to display the home site’s navigation.
+- Select the site navigation source to display the home site navigation.
 - Create a secondary set of navigation nodes specifically for the global navigation panel by selecting **Hub or global navigation**. Then, select **Edit global navigation** to create the new global navigation menu. Select **Save** when you are done.
 
 
