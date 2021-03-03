@@ -26,7 +26,7 @@ description: "Allow users to receive notifications about file activity in OneDri
 
 # Control notifications
 
-By default, users can receive notifications about file activity in OneDrive and SharePoint. These notifications can appear across apps and devices. For example, the service can send notifications through the Firebase Cloud Messaging service to the Office mobile app for Android or the Apple Push Notification service to the Office mobile app for iOS. It can also send notifications to the OneDrive sync app for Windows or Mac. As a global or SharePoint admin in Microsoft 365, you can turn off these notifications for all users for compliance purposes. If you allow these notifications, users can select to turn them off app by app where they do not want them.
+By default, users can receive notifications about file activity in OneDrive and SharePoint. These notifications can appear across apps and devices. For example, the service can send notifications through the Firebase Cloud Messaging service to the Office mobile app for Android or the Apple Push Notification service to the Office mobile app for iOS. It can also send notifications to the OneDrive sync app for Windows or Mac. As a global or SharePoint admin in Microsoft 365, you can turn off these notifications for all users for compliance purposes. If you allow these notifications, users can select to turn them off app by app where they don't want them.
 
 > [!NOTE]
 > Currently, the service sends notifications to users when files are shared with them. Later, it will send notifications when people @mention the user in a comment. Other notifications might be added in the future. 
