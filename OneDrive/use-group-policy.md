@@ -316,7 +316,7 @@ Enabling this policy sets the following registry key value to 1:
 > This setting has been removed from the OneDrive administrative template files (ADMX/ADML) because the Fetch files feature was deprecated on July 31, 2020.
 
 ### Prevent users from moving their Windows known folders to OneDrive
-<a name="BlockKnownFolderMove"> </a>
+<a name="KFMBlockOptIn"> </a>
 
 This setting prevents users from moving their Documents, Pictures, and Desktop folders to any OneDrive account.
   
@@ -329,7 +329,7 @@ If you disable or do not configure this setting, users can choose to move their 
   
 Enabling this policy sets the following registry key value to 1:
   
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"BlockKnownFolderMove"="dword:00000001"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000001"`
   
 
 ### Prevent users from redirecting their Windows known folders to their PC
