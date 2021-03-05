@@ -145,14 +145,14 @@ To add an Administrator to your Mover account:
 4. Under **Accounts you administer**, select the account you want to log in to.
 5. Select **Login As**.
 
-![Accounts you can administer](media/mover-add-admin2.png)
+![Accounts you can administer1](media/mover-add-admin2.png)
 
 
 
 
 ## Login-as options
 
-![Accounts you can administer](media/mover-add-admin3.png)
+![Accounts you can administer2](media/mover-add-admin3.png)
 
 (1) Shows the account you logged in as
  
