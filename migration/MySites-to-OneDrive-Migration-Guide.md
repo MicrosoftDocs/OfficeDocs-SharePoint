@@ -1,5 +1,6 @@
 ---
 title: "Migrate from My Sites to OneDrive in Office 365"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

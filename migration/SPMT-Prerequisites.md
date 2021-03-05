@@ -1,5 +1,6 @@
 ---
 title: "Prerequisites and Endpoints for SharePoint Migration Tool"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Migration Tool (SPMT) Release notes"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
