@@ -1,5 +1,7 @@
 ---
 title: "What does SPMT support?"
+recommendations: true
+audience: ITPro
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
