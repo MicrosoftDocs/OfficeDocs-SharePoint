@@ -10,6 +10,7 @@ f1.keywords:
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
+recommendations: true
 ms.collection: 
 - IT_Sharepoint_Server_Top
 - Strat_SP_gtc

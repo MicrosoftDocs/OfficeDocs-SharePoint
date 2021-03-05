@@ -1,6 +1,7 @@
 ---
 title: "Setup Migration Manager agents"
-ms.reviewer: 
+recommendations: true
+ms.reviewer: jhendr
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars

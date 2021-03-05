@@ -1,5 +1,6 @@
 ---
 title: "Create a task Migration Manager"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

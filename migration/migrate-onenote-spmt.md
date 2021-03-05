@@ -1,5 +1,6 @@
 ---
 title: Migrating OneNote folders with SPMT
+recommendations: true
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars

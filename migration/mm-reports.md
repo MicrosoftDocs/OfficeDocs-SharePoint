@@ -1,6 +1,7 @@
 ---
 title: "Migration Manager Reports"
 ms.reviewer: 
+recommendations: true
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
