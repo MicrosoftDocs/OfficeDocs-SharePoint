@@ -1,5 +1,6 @@
 ---
 title: How does Migration Manager work
+recommendations: true
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars

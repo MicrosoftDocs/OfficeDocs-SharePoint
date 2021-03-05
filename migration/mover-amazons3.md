@@ -1,5 +1,6 @@
 ---
 title: Authorizing the Amazon S3 Connector
+recommendations: true
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars

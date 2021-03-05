@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting Migration Manager"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
