@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Server Team Sites Migration Guide"
+recommendations: true
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars

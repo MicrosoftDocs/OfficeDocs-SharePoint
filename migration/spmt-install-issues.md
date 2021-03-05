@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting SPMT installation issues
+recommendations: true
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars

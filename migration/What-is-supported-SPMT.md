@@ -1,5 +1,6 @@
 ---
 title: "What does SPMT support?"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

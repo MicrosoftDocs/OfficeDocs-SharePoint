@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Migration Tool supported SharePoint web parts"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

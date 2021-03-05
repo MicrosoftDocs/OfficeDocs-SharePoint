@@ -1,5 +1,6 @@
 ---
 title: "Assess SharePoint Migration Tool reports"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
