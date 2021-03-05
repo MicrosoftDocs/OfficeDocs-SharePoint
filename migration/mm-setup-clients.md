@@ -1,6 +1,7 @@
 ---
 title: "Setup Migration Manager agents"
-ms.reviewer: 
+recommendations: true
+ms.reviewer: jhendr
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
@@ -147,5 +148,5 @@ To install an agent to a different Geo location:
 
     *< add key="GeoLocation" value="CAN" / >*
 
-The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide#getting-started)
+The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)
 

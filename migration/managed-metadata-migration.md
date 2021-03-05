@@ -1,5 +1,6 @@
 ---
 title: "Migrate managed metadata by using SPMT"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

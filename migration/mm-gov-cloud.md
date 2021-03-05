@@ -1,5 +1,6 @@
 ---
 title: "Migration Manager Government Cloud settings"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
