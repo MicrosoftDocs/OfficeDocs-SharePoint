@@ -34,27 +34,26 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
    ![Image of the SharePoint home site in Teams](media/viva-features.png)
 
-1.	**One stop access to all intranet resources:** Viva Connections uses the company-curated [global navigation](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) links along with personalized content like sites and news, which are powered by [Microsoft Graph](https://docs.microsoft.com/graph/overview). Global navigation is configured in SharePoint and can be accessed by selecting the icon in Teams app bar.
+1.	**Highlight specific resources:** Viva Connections uses the company-curated [global navigation](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) links along with personalized content like sites and news, which are powered by [Microsoft Graph](https://docs.microsoft.com/graph/overview). Global navigation is configured in SharePoint and can be accessed by selecting the icon in Teams app bar.
 
-2.	**Easily navigate within Teams:** Navigate to all modern SharePoint pages and news within Teams without losing context. All files will open in the Teams file preview window. 
+2.	**Navigate intranet resources in Teams:** Navigate to all modern SharePoint pages and news within Teams without losing context. All files will open in the Teams file preview window. 
 
 3.	**Search for intranet content in Teams:** On the home page, you can search for intranet content in SharePoint by searching in the Teams search bar. Search results will be displayed on a SharePoint site in the browser. 
 
    ![Image of a search on the home site in Teams](media/viva-search.png) 
 
-4.	**Share content more easily:** Features in the SharePoint site header will dynamically display tools that help users collaboration depending on the type of content being viewed. Tasks such as sharing a link to a page in a Teams chat are much easier. 
-
->[!NOTE]
-> All SharePoint out-of-the-box site headers are compatible with Viva Connections desktop. However, if you modify your SharePoint site to remove, or significantly change the site header, then these contextual actions may not be available to the user. 
+4.	**Share content easily:** Features in the SharePoint site header will dynamically display tools that help users collaboration depending on the type of content being viewed. Tasks such as sharing a link to a page in a Teams chat are much easier. 
 
 
 
->[!NOTE]
+>[!IMPORTANT]
+
 > - You need site owner permissions (or higher) to apply Viva Connections for desktop in the Microsoft Teams admin center.
 > - Viva Connections for desktop is not yet supported for the Teams mobile app.
 > - Only modern SharePoint sites and pages can be accessed in global navigation tab of the Team’s app bar.
 > - Global navigation menu links can be [audience targeted](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) so that specific groups of people see certain information more prominently. Audience targeting settings in the global navigation menu will carry over to global navigation in Teams.
-> - Search customizations set on the SharePoint site will apply to search results in Teams when on the home site.
+> - Search customizations applied to the SharePoint site will apply to search results in Teams when on the home site.
+> All SharePoint out-of-the-box site headers are compatible with Viva Connections desktop. However, if you modify your SharePoint site to remove, or significantly change the site header, then these contextual actions may not be available to the user. 
 > - Viva Connections was origanizally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255).
 > - Viva Connections for mobile will become availibale in June 2020 and will include enhancements to the overall configuration and deployment experience.
 
