@@ -22,7 +22,7 @@ description: "Add Viva Connections to integrate the SharePoint home site and res
 
 # Add Viva Connections for desktop 
 
-Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-to-start-rollout-to-general/ba-p/2175802), one of the [four Viva modules](https://www.microsoft.com/en-us/microsoft-365/blog/2021/02/04/microsoft-viva-empowering-every-employee-for-the-new-digital-age/), is your gateway to a modern employee experience. Viva Connections for desktop combines the power of your intelligent SharePoint intranet with chat and collaboration tools in Microsoft Teams. Viva Connections enables users to discover and search relevant content, sites, and news from across the organization right from the Team’s app bar. Viva Connections also allows you to incorporate your organization’s brand and identity directly in Teams. 
+Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-to-start-rollout-to-general/ba-p/2175802) - one of the [four Viva modules](https://www.microsoft.com/en-us/microsoft-365/blog/2021/02/04/microsoft-viva-empowering-every-employee-for-the-new-digital-age/) - is your gateway to a modern employee experience. Viva Connections for desktop combines the power of your intelligent SharePoint intranet with chat and collaboration tools in Microsoft Teams. Viva Connections enables users to discover and search relevant content, sites, and news from across the organization right from the Team’s app bar. Viva Connections also allows you to incorporate your organization’s brand and identity directly in Teams. 
 
 **Integrate your SharePoint intranet and Microsoft Teams**
 
@@ -88,9 +88,9 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 3.	**Provide tenant and site information to create the package:** Get the [PowerShell script and instructions](https://github.com/SharePoint/viva-connections-desktop) on how to create the Viva Connections package.
 
-When you create a new package in PowerShell, you will be required to complete the following fields:
+#### When you create a new package in PowerShell, you will be required to complete the following fields:
 
-- **URL of your tenant’s home site** Provide the tenant's home site URL starting with “https://”. This site will become the default landing experience for the Home site app in Teams.
+- **URL of your tenant’s home site:** Provide the tenant's home site URL starting with "https://". This site will become the default landing experience for the Home site app in Teams.
 - Provide the following details when requested:
 <br>
 
