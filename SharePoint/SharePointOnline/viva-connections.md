@@ -94,9 +94,9 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 - Provide the following details when requested:
 <br>
 
-   - **Name:** The name of your Viva Connections desktop package, as it should appear in Teams app bar
-   - **App short description (80 characters):** A short description for your app, which will appear in Teams app catalog
-   - **App long description (4000 characters):** A long description for your app, which will appear in Teams app catalog
+   - **Name:** The name of your Viva Connections desktop package, as it should appear in Teams app bar.
+   - **App short description (80 characters):** A short description for your app, which will appear in Teams app catalog.
+   - **App long description (4000 characters):** A long description for your app, which will appear in Teams app catalog.
    - **Privacy policy:** The privacy policy for custom Teams apps in your organization (needs to start with https://). If you do not have a separate privacy policy, press Enter and the script will use the default SharePoint privacy policy from Microsoft.
    - **Terms of use:** The terms of use for custom Teams apps in your organization (needs to start with https://). If you do not have separate terms of use, press Enter and the script will use the default SharePoint terms of use from Microsoft.
    - **Company name:** Your organization name that will be visible on the app page in Teams app catalog in “Created By” section.
