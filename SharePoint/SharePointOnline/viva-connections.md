@@ -26,16 +26,13 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 **Viva Connections for desktop**
 
-   ![Image of global navigation icon in the Teams app bar](media/home-app-global-nav.png)
-
-**SharePoint global navigation in the Teams app bar**
-
-   ![Image of global navigation pane open in the Teams app bar](media/home-app-pane.png) 
+   ![Image of global navigation icon in the Teams app bar](media/viva-landing-large.png)
+ 
 
 
 ## Benefits of using Viva Connections 
 
-   ![Image of the SharePoint home site in Teams](media/home-app-features.png)
+   ![Image of the SharePoint home site in Teams](media/viva-features.png)
 
 1.	**One stop access to all intranet resources:** Viva Connections uses the company-curated [global navigation](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) links along with personalized content like sites and news, which are powered by [Microsoft Graph](https://docs.microsoft.com/graph/overview). Global navigation is configured in SharePoint and can be accessed by selecting the icon in Teams app bar.
 
@@ -43,7 +40,7 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 3.	**Search for intranet content in Teams:** On the home page, you can search for intranet content in SharePoint by searching in the Teams search bar. Search results will be displayed on a SharePoint site in the browser. 
 
-   ![Image of a search on the home site in Teams](media/home-site-app-search.png) 
+   ![Image of a search on the home site in Teams](media/viva-search.png) 
 
 4.	**Share content more easily:** Features in the SharePoint site header will dynamically display tools that help users collaboration depending on the type of content being viewed. Tasks such as sharing a link to a page in a Teams chat are much easier. 
 
