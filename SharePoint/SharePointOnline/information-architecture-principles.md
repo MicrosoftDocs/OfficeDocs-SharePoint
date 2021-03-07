@@ -111,7 +111,7 @@ At the current time, only the [Text web part](https://support.office.com/article
 
 ## Test usability and findability with real users
 
-Once you have established a basic working structure for global, hub, or local level navigation experiences, you should test your design with real-life users. Create tasks and ask users to complete the tasks. Ask users to “think out loud” as they are looking for information and resources. Note where improvements to can be made and then implement and test the changes again. Plan to review basic global, hub, and local navigation experiences as your business changes and grows.
+Once you have established a basic working structure for global, hub, or local level navigation experiences, you should test your design with real-life users. Create tasks and ask users to complete the tasks. Ask users to “think out loud” as they are looking for information and resources. Note where improvements can be made and then implement and test the changes again. Plan to review basic global, hub, and local navigation experiences as your business changes and grows.
 
 Learn more about navigation basics like how to write effective labels, how to test findability, and how to use menu styles.
 
