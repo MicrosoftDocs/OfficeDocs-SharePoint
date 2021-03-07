@@ -44,7 +44,7 @@ Successful intranet and site navigation experiences enable users to:
 
 - **Find information** – Users need to find documents, files, and links most relevant to the work they do without spending time sifting through content. Make sure to present only the most relevant and high-priority information first.
 - **Take action** – Users typically have a specific task in mind when they visit a site. Make sure common tasks are built-in to navigational structure as labels and links so that they can be easily identified and accessed. 
-- **Understand company structure** – When viewed at-a-glance, users should be able to get a sense for how to organization is structured. Make sure you incorporate hierarchy and structure into site and intranet navigation.
+- **Understand company structure** – When viewed at-a-glance, users should be able to get a sense of how the organization is structured. Make sure you incorporate hierarchy and structure into site and intranet navigation.
 
 ## Get organized
 There is no one right way to organize your navigation links. You will make different choices based on the type of site you are creating and your viewers. Organizing concepts might include:
