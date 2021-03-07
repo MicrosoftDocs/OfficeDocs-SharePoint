@@ -85,9 +85,9 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 > -	The tenant admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint. 
 > -	If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000). 
 
-3.	**Provide tenant and site information to create the package:** Get the [PowerShell script and instructions](https://github.com/SharePoint/viva-connections-desktop) on how to create the Viva Connections package.
+4.	**Provide tenant and site information to create the package:** Get the [PowerShell script and instructions](https://github.com/SharePoint/viva-connections-desktop) on how to create the Viva Connections package.
 
-#### When you create a new package in PowerShell, you will be required to complete the following fields:
+**When you create a new package in PowerShell, you will be required to complete the following fields:**
 
 - **URL of your tenant’s home site:** Provide the tenant's home site URL starting with "https://". This site will become the default landing experience for the Home site app in Teams.
 - Provide the following details when requested:
@@ -105,17 +105,17 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 >[!NOTE]
 > Microsoft does not have access to any information provided by you while running this script.
 
-4.	**Upload the Viva Connections desktop package in the Teams Admin Center:** Once you successfully provide the details, a Teams app manifest, which is a .zip file, will be created and saved on your device. The Teams administrator of your tenant will then need to upload this app manifest to **Teams admin center > Manage apps**. 
+5.	**Upload the Viva Connections desktop package in the Teams Admin Center:** Once you successfully provide the details, a Teams app manifest, which is a .zip file, will be created and saved on your device. The Teams administrator of your tenant will then need to upload this app manifest to **Teams admin center > Manage apps**. 
 <br>
 
       Learn more about [how to upload custom apps in Teams admin center](https://docs.microsoft.com/microsoftteams/upload-custom-apps#upload).
 
-5.	**Manage and pin the icon by default for your users:** Once the Viva Connections desktop package is successfully uploaded in the Teams admin center, it can be managed like any other app. You can [configure user permissions](https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#:~:text=Create%20a%20custom%20app%20permission%20policy%201%20In,allow%20all%20others%20...%20See%20More....%20See%20More.) to make this app available to the right set of users. Permitted users can then find this app in Teams app catalog. 
+6.	**Manage and pin the icon by default for your users:** Once the Viva Connections desktop package is successfully uploaded in the Teams admin center, it can be managed like any other app. You can [configure user permissions](https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#:~:text=Create%20a%20custom%20app%20permission%20policy%201%20In,allow%20all%20others%20...%20See%20More....%20See%20More.) to make this app available to the right set of users. Permitted users can then find this app in Teams app catalog. 
 
       We *highly recommend* that you pin this app by default for users in your tenant so that they can easily access their company’s intranet resources without having to discover the app in Teams app catalog. Use [Teams app setup policies](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies) to pin this app by default in Teams app bar and then [apply this policy to a batch of users](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users).
 
 
-### Then, prepare end users for Viva Connections
+### Then, onboard end users for Viva Connections
 
 Help end users understand [how to use Viva Connections](https://support.microsoft.com/office/your-intranet-is-now-in-micosoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) to improve workplace communication and collaboration. 
 
