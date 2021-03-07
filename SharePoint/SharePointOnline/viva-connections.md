@@ -24,11 +24,6 @@ description: "Add Viva Connections to integrate the SharePoint home site and res
 
 Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/microsoft-viva-connections-to-start-rollout-to-general/ba-p/2175802) - one of the [four Viva modules](https://www.microsoft.com/en-us/microsoft-365/blog/2021/02/04/microsoft-viva-empowering-every-employee-for-the-new-digital-age/) - is your gateway to a modern employee experience. Viva Connections for desktop combines the power of your intelligent SharePoint intranet with chat and collaboration tools in Microsoft Teams. Viva Connections enables users to discover and search relevant content, sites, and news from across the organization right from the Team’s app bar. Viva Connections also allows you to incorporate your organization’s brand and identity directly in Teams. 
 
-**Integrate your SharePoint intranet and Microsoft Teams**
-
-   ![Image of global navigation icon in the Teams app bar](media/viva-landing-large.png)
- 
-
 
 ## Benefits of using Viva Connections 
 
@@ -59,6 +54,8 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 ## Prepare for Viva Connections
 The first version of Viva Connections can be provisioned through PowerShell and then will be [uploaded as an app in the Teams Admin Center](https://docs.microsoft.com/microsoftteams/upload-custom-apps#upload). Future versions of Viva Connections will be automatically available through the Teams Admin Center. Prepare your organization for Viva Connections now, or in the near future, by ensuring you have met the minimum tenant requirements.
+
+   ![Image of global navigation icon in the Teams app bar](media/viva-landing-large.png)
 
 #### Viva Connections requires the following elements:
 
