@@ -26,7 +26,7 @@ This article covers all the features in the OneDrive admin center and where you 
 
 ## Sharing page
 
-Go to the [**Sharing page** in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true)
+Go to the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true)
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
@@ -46,25 +46,47 @@ For the default storage setting, go to the [Settings page of the new SharePoint 
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|![Storage page in the OneDrive admin center](media/storage-page.png)|![Classic other options](media/default-storage-limit.png) |
+|![Storage page in the OneDrive admin center](media/storage-page.png)|![Default storage limit in the SharePoint admin center](media/default-storage-limit.png) |
 
-For the default storage setting, go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Storage limit**.
+For the retention setting, go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Retention**.
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|![Storage page in the OneDrive admin center](media/storage-page.png)|![Classic other options](media/default-storage-limit.png) |
+|![Storage page in the OneDrive admin center](media/storage-page.png)|![Classic other options](media/sp-retention.png) |
 
 ## Device access page
 
-| Classic | New |
-|:-----|:-----|
-|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
+Go to the [Access control page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true). To control access based on network location, select **Network location**. To control access from apps that can't enforce device-based restrictions, select **Apps that don't use modern authentication**.
 
-<br/>
-
-| Classic | New |
+| OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|Allow access only from specific IP address locations <br/> |Yes  <br/> |
+|![Device access page in the OneDrive admin center](media/device-access.png)|![Access control page in the SharePoint admin center](media/access-control.png) |
+
+Mobile application management. Go to Endpoint manager and create app protection policies. [Learn how](/mem/intune/apps/app-protection-policies)
+
+- Block downloading files in the apps.
+    
+- Block taking screenshots in the Android apps.
+    
+- Block copying files and content within files.
+    
+- Block printing files in the apps.
+    
+- Block backing up app data.
+    
+- Require an app passcode.
+    
+- Block opening OneDrive and SharePoint files in other apps.
+    
+- Encrypt app data when the device is locked.
+
+- Require Microsoft 365 sign-in each time the app is opened.
+    
+- Choose values for how often to verify user access and when to wipe app data when a device is offline.
+
+| OneDrive | Intune |
+|:-----|:-----|
+| <br/> |Yes  <br/> |
 |Allow access from apps that don't use modern authentication <br/> |Yes  <br/> |
 |Mobile application management <br/> |Map with Intune  <br/> |
 
