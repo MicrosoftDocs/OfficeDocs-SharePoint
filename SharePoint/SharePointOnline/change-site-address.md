@@ -5,7 +5,7 @@ ms.author: kaarins
 author: kaarins
 manager: serdars
 recommendations: true
-ms.audience: Admin
+audience: Admin
 f1.keywords:
 - CSH
 ms.topic: article
