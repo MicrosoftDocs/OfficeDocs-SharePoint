@@ -4,6 +4,7 @@ ms.reviewer: metorres
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH

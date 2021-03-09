@@ -4,6 +4,7 @@ ms.reviewer: cathed
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH

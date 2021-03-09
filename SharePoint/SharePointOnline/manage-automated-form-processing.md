@@ -4,6 +4,7 @@ ms.reviewer: ssquires
 ms.author: toresing
 author: tomresing
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
