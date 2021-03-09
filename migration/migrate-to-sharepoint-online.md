@@ -1,5 +1,6 @@
 ---
 title: "Migrate to Microsoft 365"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

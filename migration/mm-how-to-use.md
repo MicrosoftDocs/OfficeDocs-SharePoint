@@ -1,5 +1,6 @@
 ---
 title: "How to use Migration Manager"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
