@@ -1,10 +1,10 @@
 ---
 title: "Migrate your files to Microsoft 365 with Migration Manager"
-recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH

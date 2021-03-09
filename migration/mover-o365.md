@@ -3,6 +3,7 @@ title: Authorizing the Office 365 Connector
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online

@@ -1,10 +1,10 @@
 ---
 title: "SharePoint Migration Tool supported SharePoint web parts"
-recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -1,10 +1,10 @@
 ---
 title: "Available settings in SharePoint Migration Tool"
-recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
