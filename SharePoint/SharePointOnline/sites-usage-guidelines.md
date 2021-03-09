@@ -4,6 +4,7 @@ ms.reviewer:
 description: Checklist to help guide users to create their SharePoint site usage guidance.
 author: jhendr
 manager: serdars
+audience: admin
 recommendations: true
 ms.assetid: 
 ms.service: sharepoint-online

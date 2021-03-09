@@ -8,7 +8,6 @@ recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: admin
 ms.service: sharepoint-online
 localization_priority: Normal
 ms.collection:  
