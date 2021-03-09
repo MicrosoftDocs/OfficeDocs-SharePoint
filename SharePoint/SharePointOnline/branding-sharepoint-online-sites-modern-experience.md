@@ -4,6 +4,7 @@ ms.reviewer: cathed
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -27,7 +28,7 @@ description: "Learn about branding your sites in the SharePoint modern experienc
 
 In the modern SharePoint experience, you can easily [change the look](https://support.office.com/article/06bbadc3-6b04-4a60-9d14-894f6a170818) and feel of your site to match your company or organizational brand. You can customize the logo, colors, and navigation – often without writing a single line of code. Branding can be applied at the site level, to a group of sites, or to all sites within your organization.
 
-![](media/branding-sharepoint-online-sites-modern-experience_image1.png)
+![Branding site](media/branding-sharepoint-online-sites-modern-experience_image1.png)
 
 > [!NOTE]
 > Branding your SharePoint site will not change the overall look of your Microsoft 365 service. For more info about branding Microsoft 365, see [Customize the Microsoft 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme).

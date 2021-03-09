@@ -4,6 +4,7 @@ ms.reviewer: samust
 ms.author: kaarins
 author: kaarins
 manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords: NOCSH
 ms.topic: article

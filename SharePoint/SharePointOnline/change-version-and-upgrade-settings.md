@@ -4,12 +4,13 @@ ms.reviewer: trgreen
 ms.author: kaarins
 author: kaarins
 manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
 ms.service: sharepoint-online
 localization_priority: Normal
+ms.topic: article
 ms.collection:  
 - Strat_SP_admin
 - M365-collaboration

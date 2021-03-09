@@ -4,6 +4,7 @@ ms.reviewer: amysim
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+recommendations: true
 ms.date: 5/21/2020
 audience: Admin
 f1.keywords:

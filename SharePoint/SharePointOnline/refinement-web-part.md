@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+recommendations: true
 ms.date: 6/29/2018
 audience: Admin
 f1.keywords:

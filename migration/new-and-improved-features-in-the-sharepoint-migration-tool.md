@@ -1,10 +1,10 @@
 ---
 title: "SharePoint Migration Tool (SPMT) Release notes"
-recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH

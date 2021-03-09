@@ -4,6 +4,7 @@ ms.reviewer: waynewin
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH

@@ -1,11 +1,11 @@
 ---
 title: "What does SPMT support?"
-recommendations: true
 audience: ITPro
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
