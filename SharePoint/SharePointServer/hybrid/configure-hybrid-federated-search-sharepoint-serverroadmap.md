@@ -3,7 +3,8 @@ title: "Configure hybrid federated search from SharePoint Server to SharePoint i
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
-manager: serdarsms.date: 3/7/2018
+manager: serdars
+ms.date: 3/7/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
