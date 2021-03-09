@@ -4,6 +4,7 @@ ms.reviewer: sesham
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+recommendations: true
 ms.date: 5/22/2018
 audience: ITPro
 f1.keywords:

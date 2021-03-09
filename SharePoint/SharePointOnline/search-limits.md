@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+recommendations: true
 audience: End User
 f1.keywords: NOCSH
 ms.topic: reference

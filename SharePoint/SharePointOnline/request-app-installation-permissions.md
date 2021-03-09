@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: kaarins
 author: kaarins
 manager: serdars
+recommendations: true
 ms.date: 5/22/2018
 audience: Admin
 f1.keywords:

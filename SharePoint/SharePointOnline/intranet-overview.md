@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online

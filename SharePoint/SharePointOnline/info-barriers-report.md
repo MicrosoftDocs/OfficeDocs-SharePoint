@@ -4,6 +4,7 @@ description: "Learn how to find noncompliant sites after information barriers po
 ms.author: robmazz
 author: robmazz
 manager: laurawi
+recommendations: true
 ms.reviewer: nibandyo
 audience: Admin
 f1.keywords:

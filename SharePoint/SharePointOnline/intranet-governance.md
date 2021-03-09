@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -88,7 +89,7 @@ Each organization will have its own set of policies and guidelines. General topi
 
 - Verify that your intranet policies and guidelines do not conflict with broader organizational polices and your overall governance decisions for Microsoft 365.
 - Publish policies and guidelines where users can easily find and follow them. Some policies may need to be published for “all users,” while others may need to be secured to protect the integrity of the application. Consider creating a governance site rather than a document to facilitate publishing and “consuming” governance policies and guidelines.
-- Leverage capabilities to automatically apply policies and guidelines wherever you can. For example, you can enforce content management and retention policies with [information protection capabilities](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) in Microsoft 365. You can encourage following design guidelines by using [site designs](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) to embed best practices in sites as they are created. The best way to ensure that your policies are followed is to ensure that site owners and authors don’t have to think about them. Try to automate as much as you can and where you can’t automate, plan to provide training to ensure that site owners and content authors clearly understand governance expectations.
+- Leverage capabilities to automatically apply policies and guidelines wherever you can. For example, you can enforce content management and retention policies with [information protection capabilities](https://docs.microsoft.com/microsoft-365/compliance/protect-information) in Microsoft 365. You can encourage following design guidelines by using [site designs](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) to embed best practices in sites as they are created. The best way to ensure that your policies are followed is to ensure that site owners and authors don’t have to think about them. Try to automate as much as you can and where you can’t automate, plan to provide training to ensure that site owners and content authors clearly understand governance expectations.
 - Regularly review and revise policies and guidelines to keep them aligned to organizational needs.
 
 #### Consider these topics for your intranet policies and guidelines:
@@ -99,7 +100,7 @@ Each organization will have its own set of policies and guidelines. General topi
 - [Metadata architecture and content types](https://docs.microsoft.com/sharepoint/managed-metadata) - for example, policies for enterprise content types and organization-wide metadata).
 - Guidelines for Teams chat and Yammer conversations - including more than just [messaging policies](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams) for Teams and [how to participate in a Yammer conversation](https://support.microsoft.com/office/join-the-conversation-in-yammer-873100a0-0fac-4f93-88f7-1a0945ec93ed), but also conversation guidelines (such as using @mentions sparingly and organization-specific “do’s and don’ts”).
 - [User profiles](https://support.microsoft.com/office/update-your-profile-0ddb9ebf-2850-4533-b07f-cba2c90acbc1) – including expectations for the About me statement and expectations for skills and expertise (for example, how well do you have to know a topic to list it in the skills and expertise area of your profile?).
-- Organizational policies and guidelines for intranet site names, file names, [Microsoft 365 Group names](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy?view=o365-worldwide), etc.
+- Organizational policies and guidelines for intranet site names, file names, [Microsoft 365 Group names](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy), etc.
 - Learn more about [Microsoft 365 intranet governance decisions](https://view.officeapps.live.com/op/view.aspx?src=https://storage.snappages.site/op8ir2nu2f/assets/files/Governance_Policy_and_Guideline_Question-76.pptx).
 
 
@@ -117,7 +118,7 @@ If you enable self-service site provisioning, you will want to consider providin
 
 In addition to providing a process to provision new sites, you will also want to think about a process to provision new [hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites) and associated hubs. Hubs must be provisioned by the Global or SharePoint Admin so you will need to think about how you will plan and govern the creation of new hubs.
 
-When an intranet site is no longer needed, there may be cases where your records management process prohibits deletion of the site and/or content. Another key governance decision is planning how you will delete or decommission intranet sites in the context of both legal holds and records management requirements. Learn more about [Microsoft 365 compliance](https://docs.microsoft.com/microsoft-365/compliance/?view=o365-worldwide), including [records management](https://docs.microsoft.com/microsoft-365/compliance/records-management?view=o365-worldwide) and advanced [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20?view=o365-worldwide).
+When an intranet site is no longer needed, there may be cases where your records management process prohibits deletion of the site and/or content. Another key governance decision is planning how you will delete or decommission intranet sites in the context of both legal holds and records management requirements. Learn more about [Microsoft 365 compliance](https://docs.microsoft.com/microsoft-365/compliance), including [records management](https://docs.microsoft.com/microsoft-365/compliance/records-management) and advanced [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20).
 
 
 ### Information architecture and search
@@ -149,7 +150,7 @@ Your governance plan should include these key content management concepts:
 <br>
 
 **Information protection**
-- Does your organization have a requirement to protect certain types of sensitive information? If so, can your governance plan (and deployment) leverage [Microsoft 365 information protection](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) capabilities such as sensitivity labels and retention policies?
+- Does your organization have a requirement to protect certain types of sensitive information? If so, can your governance plan (and deployment) leverage [Microsoft 365 information protection](https://docs.microsoft.com/microsoft-365/compliance/protect-information) capabilities such as sensitivity labels and retention policies?
 <br>
 
 **Content review**
@@ -158,10 +159,10 @@ Your governance plan should include these key content management concepts:
 <br>
 
 **Content disposition**
-- Do you have requirements to implement [records retention policies](https://docs.microsoft.com/microsoft-365/compliance/records-management?view=o365-worldwide) on some or all content to prevent accidental deletion?
+- Do you have requirements to implement [records retention policies](https://docs.microsoft.com/microsoft-365/compliance/records-management) on some or all content to prevent accidental deletion?
 
 ### Security and information management
-Your governance plan should not only include what *should* be posted on the intranet – but it should also include guidelines for content that *should not* be posted on the intranet. You may be able to enforce some policies using [automated information protection](https://docs.microsoft.com/microsoft-365/compliance/protect-information?view=o365-worldwide) capabilities, but you will want to provide training and guidance for site owners and content authors to ensure that they understand their responsibilities when it comes to security and information management for both sites and content.
+Your governance plan should not only include what *should* be posted on the intranet – but it should also include guidelines for content that *should not* be posted on the intranet. You may be able to enforce some policies using [automated information protection](https://docs.microsoft.com/microsoft-365/compliance/protect-information) capabilities, but you will want to provide training and guidance for site owners and content authors to ensure that they understand their responsibilities when it comes to security and information management for both sites and content.
 
 ### Roles and responsibilities
 Roles and responsibilities describe how each employee as an individual or in a role (such as Site Owner) is responsible for ensuring success of the intranet. Documenting roles and responsibilities is a critical aspect of your intranet governance plan. To ensure that intranet responsibilities are treated seriously, it is helpful to partner with your human resources organization to ensure that intranet responsibilities are part of job descriptions or performance goals.
@@ -188,7 +189,7 @@ No matter who is in your “village,” it is critically important that everyone
 - Team Members
 - Intranet/SharePoint/Microsoft 365 Champions
 
-### Feedback
+### Feedback channel
 Your intranet governance plan should incorporate a mechanism to collect feedback from intranet users. This includes a vehicle to collect feedback – for example, a Microsoft Form linked from the footer of your home site – but also mechanisms to gather and process the feedback and take actions based on the feedback. It is a good idea to acknowledge all feedback, even if you don’t plan to take an immediate action.
 
 ### Training and support
@@ -196,7 +197,7 @@ Your intranet will not be successful if you don’t incorporate a way to provide
 
 It is helpful to provide a dedicated site where Site Owners and other intranet users can find training and governance information. You can create your own “user resource center” as described earlier or leverage a third-party or Microsoft-provided training environment. To ensure that your training content is always current, you can link to content in Microsoft’s training platforms such as support.office.com and docs.microsoft.com. You can also embed the support.office.com training into your own environment by deploying [Microsoft 365 Learning Pathways](https://docs.microsoft.com/office365/customlearning/) in your tenant and adapting the content to include your governance policies and guidelines.
 
-You can help your intranet users find your training content by [adding a custom tile](https://docs.microsoft.com/microsoft-365/admin/manage/customize-the-app-launcher?view=o365-worldwide) to your Organization Profile or adding a [custom help link](https://docs.microsoft.com/microsoft-365/admin/misc/customize-help-desk?view=o365-worldwide) directly in Microsoft 365. 
+You can help your intranet users find your training content by [adding a custom tile](https://docs.microsoft.com/microsoft-365/admin/manage/customize-the-app-launcher) to your Organization Profile or adding a [custom help link](https://docs.microsoft.com/microsoft-365/admin/misc/customize-help-desk) directly in Microsoft 365. 
 
 ### Measurement 
 Your intranet measurement plan should be aligned to the criteria for success defined for the [intranet vision](https://docs.microsoft.com/sharepoint/plan-intranet). It should define the metrics and analytics used to track success, any associated KPIs, and processes for evaluating metrics and taking action to make improvements. 

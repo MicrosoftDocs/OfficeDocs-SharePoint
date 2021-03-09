@@ -2,6 +2,7 @@
 title: "Delete a site"
 ms.reviewer: 
 manager: serdars
+recommendations: true
 ms.author: kaarins
 author: kaarins
 audience: Admin
