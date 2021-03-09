@@ -3,6 +3,7 @@ title: "SharePoint Migration Identity Mapping Tool Azure Active Directory Identi
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 01/5/2018
 audience: ITPro
 f1.keywords:

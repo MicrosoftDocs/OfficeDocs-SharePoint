@@ -2,6 +2,7 @@
 title: "Control access in the new SharePoint admin center"
 ms.reviewer: trgreen
 manager: serdars
+recommendations: true
 ms.author: kaarins
 author: kaarins
 audience: Admin

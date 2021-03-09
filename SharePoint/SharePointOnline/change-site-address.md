@@ -4,7 +4,8 @@ ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
 manager: serdars
-ms.audience: Admin
+recommendations: true
+audience: Admin
 f1.keywords:
 - CSH
 ms.topic: article

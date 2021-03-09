@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 12/6/2017
 audience: ITPro
 f1.keywords:

@@ -4,6 +4,7 @@ ms.reviewer: holland-odsp
 ms.author: hokavian
 author: pamgreen-msft
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH

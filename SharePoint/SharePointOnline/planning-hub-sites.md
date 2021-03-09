@@ -2,6 +2,7 @@
 title: "Planning your SharePoint hub sites"
 ms.reviewer: metorres
 manager: serdars
+recommendations: true
 ms.author: kaarins
 author: kaarins
 audience: Admin

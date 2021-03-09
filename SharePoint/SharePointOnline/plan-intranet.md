@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -74,7 +75,7 @@ If your users complain that search is not successful because too much irrelevant
 - Do you want all sites to follow a similar pattern so that users can easily find key content as they move from site to site?
 - Who is accountable and responsible for the content on sites? How often does content need to be reviewed?
 - Is content management for intranet sites in the performance goals or job descriptions for people with edit or owner permissions?
-- Does intranet content need to be [retained](https://docs.microsoft.com/microsoft-365/compliance/retention-policies?view=o365-worldwide) based on your retention policies or [classified](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide) based on its sensitivity?
+- Does intranet content need to be [retained](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) based on your retention policies or [classified](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) based on its sensitivity?
 
 You do not need to make every governance decision up front, but if you don’t have a plan for how you will govern your new, intelligent intranet, it can quickly become a wasteland of information that fails to achieve your critical business goals.
 

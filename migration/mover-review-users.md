@@ -3,6 +3,7 @@ title: Mover - Reviewing users before migration
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
