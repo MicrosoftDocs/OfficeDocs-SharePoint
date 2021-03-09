@@ -1,5 +1,6 @@
 ---
 title: Mover - Create a new migration with a CSV file
+recommendations: true
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars

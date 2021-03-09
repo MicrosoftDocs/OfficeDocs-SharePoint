@@ -7,7 +7,7 @@ manager: laurawi
 ms.reviewer: nibandyo
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
@@ -33,11 +33,15 @@ In the above example, the HR segment is compatible with both Sales and Research.
 ## Prerequisites
 
 - [Make sure you meet the licensing requirements for information barriers](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-barriers).
-- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization.
-- Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies). 
+- Create segments and define the users in each. Create policies that allow or block communication between the segments, and then set them to active. For info, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 - After you've set your information barrier policies to active, wait 24 hours for the changes to propagate through your environment.
+- [Complete the form](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_mCQfArPllNo4NRhexFZxRUNEZCTTZLVVJHOEJOVVlCTUdJNDVERko5Qy4u) to enable SharePoint and OneDrive information barriers in your organization.
 
-## View and manage information segments in the SharePoint admin center
+## View and manage segments as an administrator
+
+An SharePoint Administrator or Global Administrator can view and manage segments on a SharePoint site as follows:
+
+### 1. Use the SharePoint admin center to view and manage information segments
 
 To view, edit, or remove information segments for a site, use the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true).  
 
@@ -53,7 +57,7 @@ To edit the segments associated with the site, select **Edit**, add or remove se
 
 ![Edit information segments panel.](media/info-barriers-edit-info-segments.png)
 
-## Use PowerShell to associate segments with a site
+### 2. Use SharePoint PowerShell to view and manage information segments on a site
 
 1. Connect to the [Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) as a global admin.
 
@@ -99,21 +103,39 @@ Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
 Example: Set-SPOSite -Identity https:<i></i>//contoso<i></i>.sharepoint<i></i>.com/sites/ResearchTeamSite  
 -RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111
 
-## Segments associated with Microsoft Teams sites
-
-When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site. SharePoint admins can't change the segments associated with a site when the site is connected to a team. [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams)
-
-## View the segments associated with a site
-
-Run the following command in the SharePoint Online Management Shell to return the GUIDs of any segments associated with a site.
+To view the segments of a site, run the following command to return the GUIDs of any segments associated with the site.
 
 ```PowerShell
 Get-SPOSite -Identity <site URL> | Select InformationSegment
 ```
 
-Site owners can view the segments associated with a site by selecting **Settings** ![Icon for Settings.](media/a47a06c3-83fb-46b2-9c52-d1bad63e3e60.png)> **Site information**.
+### 3. Use the SharePoint REST API to view and manage information segments on a site
 
-![Information segments listed in the Site information panel.](media/site-information-segments.png)
+SharePoint includes a Representational State Transfer (REST) service that you can use to manage segments on a site. To access SharePoint resources and manage site segments using REST, you'll construct a RESTful HTTP request by using the OData standard, which corresponds to the desired client object model application programming interface (API).
+
+For more information about the SharePoint REST service, see [Get to know the SharePoint REST service](/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service).
+
+## Auditing
+
+After you enable information barriers for SharePoint, audit events are available in the Office 365 audit log to help you monitor information barrier SharePoint activities. Audit events are logged whenever the following activities occur:
+
+- Segments are added to a site
+- Segments are changed on a site
+- Segments are removed from a site
+
+For more information about SharePoint segment auditing in Office 365, see [Search the audit log in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#information-barriers-activities).
+
+## Site creation and management by site owners
+
+When a segmented user creates a SharePoint site, the site will get associated with the user's segment.
+
+In addition, the site owners will have the capability to add more segments to a SharePoint site already has segments. Site owners cannot remove added segments from sites. SharePoint admins will have to remove added segments in your organization if needed.
+
+To help site owners add a segment to a site, share the [Associate information segments with SharePoint sites](https://support.microsoft.com/office/associate-information-segments-with-sharepoint-sites-2b03db07-6d3f-4297-a388-b943317a26a7) article with your SharePoint site owners.
+
+## Segments associated with Microsoft Teams sites
+
+When a team is created in Microsoft Teams, a SharePoint site is automatically created for the team's files. Within 24 hours, the segments associated with the team's members are automatically associated with the site. SharePoint admins can't change the segments associated with a site when the site is connected to a team. [Learn more about information barriers in Teams](/microsoftteams/information-barriers-in-teams).
 
 ## Sharing sites that have segments associated
 

@@ -1,5 +1,6 @@
 ---
 title: "Use PowerShell cmdlets to migrate on-premises content - SharePoint"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

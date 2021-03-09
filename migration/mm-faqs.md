@@ -1,5 +1,6 @@
 ---
 title: "Migration Manager FAQs"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson

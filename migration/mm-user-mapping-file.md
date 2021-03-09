@@ -1,5 +1,6 @@
 ---
 title: "Create a user-mapping file for Migration Manager"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
