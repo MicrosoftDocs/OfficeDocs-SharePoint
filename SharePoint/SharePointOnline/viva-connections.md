@@ -17,7 +17,7 @@ search.appverid:
 - SPO160
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Add Viva Connections to integrate the SharePoint home site and resources into Microsoft Teams"
+description: "Add Viva Connections to integrate SharePoint resources into Microsoft Teams"
 ---
 
 # Add Viva Connections for desktop 
