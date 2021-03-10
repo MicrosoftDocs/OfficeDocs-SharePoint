@@ -62,37 +62,33 @@ Go to the [Access control page in the new SharePoint admin center](https://admin
 |:-----|:-----|
 |![Device access page in the OneDrive admin center](media/device-access.png)|![Access control page in the SharePoint admin center](media/access-control.png) |
 
-Mobile application management. Go to Endpoint manager and create app protection policies. [Learn how](/mem/intune/apps/app-protection-policies)
-
-- Block downloading files in the apps.
-    
-- Block taking screenshots in the Android apps.
-    
-- Block copying files and content within files.
-    
-- Block printing files in the apps.
-    
-- Block backing up app data.
-    
-- Require an app passcode.
-    
-- Block opening OneDrive and SharePoint files in other apps.
-    
-- Encrypt app data when the device is locked.
-
-- Require Microsoft 365 sign-in each time the app is opened.
-    
-- Choose values for how often to verify user access and when to wipe app data when a device is offline.
+The policy settings under "Mobile application management" are no longer being updated. We recommend [creating app protection policies](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_DeviceSettings/AppsMenu/appProtection) in the Microsoft Endpoint Manager admin center. [Learn how](/mem/intune/apps/app-protection-policies). Refer to the following table to identify the Intune settings that correspond with the settings in the OneDrive admin center. 
 
 | OneDrive | Intune |
 |:-----|:-----|
-| <br/> |Yes  <br/> |
-|Allow access from apps that don't use modern authentication <br/> |Yes  <br/> |
-|Mobile application management <br/> |Map with Intune  <br/> |
+|Block downloading files in the apps |Save copies of org data  <br/> |
+|Block taking screenshots in the Android apps <br/> |Screen capture and Google Assistant  <br/> |
+|Block copying files and content within files <br/> |Restrict cut, copy, and paste between other apps  <br/> |
+|Block printing files in the apps <br/> |Printing org data  <br/> |
+|Block backing up app data <br/> |Prevent backups  <br/> |
+|Require an app passcode <br/>Number of attempts before app is reset <br/>Passcode length <br/>Require complex passcode <br/>Allow fingerprint instead of passcode (iOS only) <br/> |PIN for access  <br/> MAX PIN attempts<br/>Select minimum PIN length<br/>Simple PIN<br/>Allow fingerprint instead of PIN<br/>|
+|Block opening OneDrive and SharePoint files in other apps <br/> |Send org data to other apps  <br/> |
+|Encrypt app data when the device is locked <br/> |Encrypt org data  <br/> |
+|Require Office 365 sign-in every 7 days <br/> |Recheck the access requirements after (minutes of inactivity)  <br/> |
+|When a device is offline: Minutes to verify user access after <br/> |Offline grace period (for "Block access")  <br/> |
+|When a device is offline: Days to wipe app data after <br/> |Offline grace period (for "Wipe data")  <br/> |
 
 ## Compliance
 
-This page contained links to other admin centers in Microsoft 365. Those places still exist. 
+This page contains links to Office 365 Security & Compliance. The solutions are now available in Microsoft 365 compliance. [View compliance solutions](https://compliance.microsoft.com/solutioncatalog)
+
+- [Search the audit log](https://compliance.microsoft.com/auditlogsearch?viewid=Search)
+- [Create a DLP policy](https://compliance.microsoft.com/datalossprevention?viewid=policiesn)
+- [View DLP policy match reports](https://compliance.microsoft.com/reports/dlppolicymatchesreport)
+- [Create a retention policy](https://compliance.microsoft.com/informationgovernance?viewid=retention)
+- [Create an eDiscovery case](https://compliance.microsoft.com/classicediscovery)
+- [Create an alert](https://compliance.microsoft.com/compliancealerts)
+
 
 ## Notifications
 
@@ -104,10 +100,10 @@ This page contained links to other admin centers in Microsoft 365. Those places 
 
 | Classic | New |
 |:-----|:-----|
-|Display device notifications to users when OneDrive files are shared with them <br/> |Yes  <br/> |
-|Other users invite additional external users to shared files <br/> |Set-SPOTenant -NotifyOwnersWhenItemsReshared  <br/> |
-|External users accept invitations to access files <br/> |Deprecated  <br/> |
-|An anonymous access link is created or changed <br/> |Set-SPOTenant -OwnerAnonymousNotification  <br/> |
+|Display device notifications to users when OneDrive files are shared with them <br/> |Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select the OneDrive **Notifications** setting <br/> |
+|Email OneDrive owners when: Other users invite additional external users to shared files <br/> |This setting is available in PowerShell (Set-SPOTenant -NotifyOwnersWhenItemsReshared).  <br/> |
+|Email OneDrive owners when: External users accept invitations to access files <br/> |This setting no longer works for the new sharing experience that appears in most places.  <br/> |
+|Email OneDrive owners when: An anonymous access link is created or changed <br/> |This setting is available in PowerShell (Set-SPOTenant -OwnerAnonymousNotification).  <br/> |
 
 ## Data migration
 
@@ -115,14 +111,10 @@ This page redirects to Migration Manager in the SharePoint admin center.
 
 ## Geo locations
 
-| Classic | New |
+| OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
+|![Storage page in the OneDrive admin center](media/storage-page.png)|![Default storage limit in the SharePoint admin center](media/default-storage-limit.png) |
 
-<br/>
+Use the [Geo locations page](https://admin.microsoft.com/sharepoint?page=geoLocations&modern=true) in the new SharePoint center to switch locations and add or delete satellite locations. 
 
-| Classic | New |
-|:-----|:-----|
-|Switch location <br/> |Yes  <br/> |
-|Add location  <br/> |Yes  <br/> |
-|Delete satellite locations <br/> |Yes  <br/> |
+
