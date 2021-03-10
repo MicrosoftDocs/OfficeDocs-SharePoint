@@ -4,6 +4,7 @@ ms.reviewer: patkel
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
@@ -51,7 +52,7 @@ In the article linked above, you'll learn the three different ways to hide or di
 
 Recommendations can't be disabled for an entire tenant.
 
-## How are recommendations determined for each user?
+## How are recommendations determined for each user? (text version)
 
 This is a text version of the diagram above.
 
