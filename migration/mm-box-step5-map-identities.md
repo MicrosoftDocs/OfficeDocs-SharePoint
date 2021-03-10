@@ -4,7 +4,6 @@ ms.reviewer: jhendr
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
-recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
