@@ -27,7 +27,7 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 
 ## Benefits of using Viva Connections 
 
-   ![Image of the SharePoint home site in Teams](media/viva-features.png)
+   ![Image of the SharePoint home site in Teams](media/viva-features-2.png)
 
 1.	**Highlight specific resources:** Viva Connections uses the company-curated [global navigation](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) links along with personalized content like sites and news, which are powered by [Microsoft Graph](https://docs.microsoft.com/graph/overview). Global navigation is configured in SharePoint and can be accessed by selecting the icon in Teams app bar.
 
