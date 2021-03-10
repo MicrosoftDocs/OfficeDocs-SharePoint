@@ -116,5 +116,14 @@
     },
     "template": [],
     "dest": "OfficeDocs-SharePoint"
-  }
+  },
+  "globalMetadata": {
+    "breadcrumb_path": "/sharepoint/breadcrumb/toc.json",
+    "uhfHeaderId": "MSDocsHeader-M365-IT",
+    "feedback_system": "GitHub",
+    "feedback_github_repo": "MicrosoftDocs/OfficeDocs-Sharepoint",
+    "recommendations": true
+},
+
+
 }
