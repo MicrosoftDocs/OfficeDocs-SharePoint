@@ -72,7 +72,7 @@ To download task level reports, run the following Powershell cmdlet.
 
 The summary report is an aggregate report that lists all successfully completed, failed, and in-progress tasks.
   
-- **SummaryReport.csv.** This report contains a single row of data that gives the total picture; including total size, number of files migrated, duration.
+- **Aggregate Summary Report.csv.** This report contains a single row of data that gives the total picture; including total size, number of files migrated, duration.
 
 When assessing your migration jobs, we recommend that you first look at these summary reports. 
   
@@ -99,7 +99,9 @@ When assessing your migration jobs, we recommend that you first look at these su
    
 ## Task Reports
 
-When you need to do deeper investigation or a thorough verification of your migration task, the task level reports help you drill down into the specific details. The four recommended task level reports to use are:
+When you need to do a more in-depth investigation or a thorough verification of your migration task, the task level reports help you drill down into the specific details.  We recommend using these reports to help you accomplish this.
+
+
   
 - **ItemSummary.csv:** This is similar to the overall summary report except that it aggregates the data just for a single task. 
     
