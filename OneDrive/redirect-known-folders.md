@@ -57,7 +57,7 @@ The following policies control the Known Folder Move feature:
 
     Use this setting to give the users a call to action to move their Windows known folders.
 
-    ![Screenshot of the dialog that prompts users to protect their important folders](media/protect-important-folders-gpo.png)
+    ![Screenshot of the dialog that prompts users to backup their important folders](media/kfm-wizard.png)
 
     If users dismiss the prompt, a reminder notification will appear in the activity center until they move all known folders or an error occurs with the move, in which case the reminder notification will be dismissed.
 

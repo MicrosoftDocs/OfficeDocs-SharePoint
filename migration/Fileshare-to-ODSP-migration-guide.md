@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -19,7 +20,6 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 search.appverid: MET150
-recommendations: true
 ms.assetid: 
 description: "Learn how to evaluate the environment, prepare, and migrate content from file shares to OneDrive and SharePoint in Microsoft 365."
 ---

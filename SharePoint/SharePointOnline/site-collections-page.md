@@ -2,6 +2,7 @@
 title: "Find site collection features in the new SharePoint admin center"
 ms.reviewer: kaarins
 manager: serdars
+recommendations: true
 ms.author: kaarins
 author: kaarins
 audience: Admin
@@ -138,7 +139,7 @@ These options appear if you use manual site storage limits in your organization.
 
 ## Buy storage
 
-In the Microsoft 365 admin center, go to the [Purchase services page](https://go.microsoft.com/fwlink/p/?linkid=868433). For more information, please see [Add storage space for your subscription](https://docs.microsoft.com/microsoft-365/commerce/add-storage-space?view=o365-worldwide).
+In the Microsoft 365 admin center, go to the [Purchase services page](https://go.microsoft.com/fwlink/p/?linkid=868433). For more information, please see [Add storage space for your subscription](https://docs.microsoft.com/microsoft-365/commerce/add-storage-space).
 
 ## Server resource quota
 

@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+recommendations: true
 ms.date: 6/21/2018
 audience: Admin
 f1.keywords:

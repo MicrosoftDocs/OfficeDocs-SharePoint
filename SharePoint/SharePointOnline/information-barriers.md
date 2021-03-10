@@ -4,6 +4,7 @@ description: "Learn about associating segments with a site, and what happens whe
 ms.author: robmazz
 author: robmazz
 manager: laurawi
+recommendations: true
 ms.reviewer: nibandyo
 audience: Admin
 f1.keywords:

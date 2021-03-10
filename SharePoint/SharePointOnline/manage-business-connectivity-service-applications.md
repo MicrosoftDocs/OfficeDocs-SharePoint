@@ -4,6 +4,7 @@ ms.reviewer: abloesch
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH

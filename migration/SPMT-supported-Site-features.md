@@ -1,11 +1,11 @@
 ---
 title: "SPMT Supported SharePoint Server site features"
-recommendations: true
 audience: ITPro
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.audience: ITPro
 f1.keywords:
 - NOCSH

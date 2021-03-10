@@ -1,10 +1,10 @@
 ---
 title: "Migration Manager FAQs"
-recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -33,19 +33,23 @@ Answer:    No.  As long as you can access the file share from the migration agen
 Answer:    Microsoft multi-factor authentication is supported; however third party multi-factor authentication is not.
 
 **Question:** Can I manually assign a task to a migration agent I have set up?</br>
-Answer:   No. Migration Manager does it for you by automatically distributing tasks to the next available agent.
+Answer:   No. Migration Manager does it for you by automatically distributing tasks to the next available agent. However coming soon, if you want to target migration tasks to a group of agents, you will be able to do so.
 
 **Question:** Where are local Migration Manager logs stored?</br>
 Answer: The logs are stored here:  `C:\Users\<Username>\AppData\Roaming\Microsoft\SPMigration`.
 
+**Question:** Can I rename my temporary working folder?</br>
+Answer: Yes. By default the name of the folder is `%appdata%\Microsoft\SPMigration`.  However through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disc space so you can choose a drive that has enough storage before starting your migration.
+
 **Question:** When using the Migration Manager tool, is there a limit to the number of path characters you can enter?</br>
 *Answer: Yes. When entering the **source path** into the text box, you are allowed a maximum of 255 characters.  However, during migration the **file path** can be up to 32,767 characters in length.  After it is migrated into SPO, the path is limited to 400 characters.
 
-**Question:** Can I rename my temporary working folder?</br>
-Answer: No, at this time the temporary working folder cannot be renamed.  It is  `%appdata%\Microsoft\SPMigration`.
-
 **Question:** Can Migration Manager migrate content to non-English SharePoint sites?</br>
 Answer: Yes, Migration Manager can migrate content to non-English sites as long as the site title doesn’t include non-EN characters.
+
+**Question:** How many tasks can an agent perform simultaneously? </br>
+Answer: An agent can perform 5 to 10 tasks simultaneously, depending on the size of each of the tasks.
+
 
 **Question:** What happens when you "pause" a task?</br>
 Answer: Pausing a task does not release the agent to another task. The agent remains unavailable to accept a new task until the task is resumed and completed, or if the task is deleted. 

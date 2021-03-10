@@ -4,6 +4,7 @@ ms.date: 02/01/2021
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 search.appverid: MET150
 localization_priority: Priority
 ms.prod: sharepoint

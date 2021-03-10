@@ -1,10 +1,10 @@
 ---
 title: "SharePoint Server Team Sites Migration Guide"
 audience:  ITPRo
-recommendations: true
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.audience: ITPro
 f1.keywords:
 - NOCSH

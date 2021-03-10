@@ -4,6 +4,7 @@ ms.reviewer: lucaband
 ms.author: kaarins
 author: kaarins
 manager: serdars
+recommendations: true
 ms.date: 6/15/2017
 audience: Admin
 f1.keywords:
