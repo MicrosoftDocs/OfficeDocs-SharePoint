@@ -17,18 +17,31 @@ localization_priority: Normal
 search.appverid: MET150
 description: "Learn about creating and using agent groups in Migration Manager."
 ---
-#  Agent Groups in Migration Manager
+#  Agent Groups in Migration Manager (preview)
 
- When you created an Agent in Migration Manager, it is in a default group, an agent is not assigned to any group. Migration Manager lets you have the ability to create "agent groups" and assign agents to them.
+>[!Important]
+> This advanced feature is currently in private preview and subject to change without notice.
 
-## Who would choose to create an Agent group?
+
+Migration Manager allows you have the ability to create "agent groups" and assign agents to them.  This is considered an advanced feature and not commonly used by most users.
+
+When an Agent is created in Migration Manager, it is not assigned to any group other than the default location. With Agent Groups, you can assign one or more agents to a specific group. A group maybe represent a specific geographical location, or have a targeted purpose. Agent groups let you organize and prioritize your agents for a specific purpose or regional goal.
+
+|What|Why|
+|:-----|:-----|
+|Multi-geo| Organize your agents to be dedicated to specific multi-geo regions. | 
+|Network scenarios||
+|Isolate migration jobs/traffic|| 
+|Prioritize migration jobs||
+|Migration waves|
+|Dedicate agents to scan vs migrate
 
 
--	Multi-geo agent isolation
--   Ability to optimize for customer network scenarios
-- 	Ability to isolate migration jobs/traffic
-- 	Ability to segment migration jobs to provide prioritization where needed
-- 	Dedicate agents to scan vs migrate
 
-![image of Agent targeting concept](media/mm-agent-target-diagram.png)
+**Create an agent group**
+1. From the Agents tab in Migration Manager, highlight an agent from the list.  A side panel displays to the right.
+
+
+**Assign a task to an agent group**
+Assigning agents.
 
