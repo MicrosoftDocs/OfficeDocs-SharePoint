@@ -47,12 +47,13 @@ Microsoft [Viva Connections](https://techcommunity.microsoft.com/t5/microsoft-vi
 > - You need site owner permissions (or higher) to apply Viva Connections for desktop in the Microsoft Teams Admin Center.
 > - Viva Connections for desktop is not yet supported in the Teams mobile app.
 > - Only modern SharePoint sites and pages can be accessed in the global navigation tab of the Team’s app bar.
+> - Global navigation in SharePoint must be enabled for resources to display in the Team’s app bar.
 > - Global navigation menu links can be [audience targeted](https://support.microsoft.com/office/target-content-to-a-specific-audience-on-a-sharepoint-site-68113d1b-be99-4d4c-a61c-73b087f48a81) so that specific content is surfaced to certain groups of people. Audience targeting settings in the SharePoint global navigation menu will carry over to global navigation in Teams.
 > - Search customizations applied to SharePoint sites will apply to search results in Teams when on the home site.
 > All SharePoint out-of-the-box site headers are compatible with Viva Connections desktop. However, if you modify your SharePoint site to remove, or significantly change the site header, then these contextual actions may not be available to the user. 
 > - Viva Connections was originally announced as the [Home site app](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/the-home-site-app-for-microsoft-teams/ba-p/1714255).
 > - Viva Connections for mobile will become available in Summer 2020 and will include enhancements to the overall configuration and deployment experience.
-> - The Viva Connections for desktop PowerShell script in the Microsoft download center will become available on March 29, 2021.
+> - The Viva Connections for desktop PowerShell script in the Microsoft download center will become available on March 31, 2021.
 
 
 
@@ -65,7 +66,7 @@ The first version of Viva Connections can be provisioned through PowerShell and 
 
 - **SharePoint home site -** We highly recommend that you use the SharePoint home site as the landing experience for Viva Connections. If you don't already have a SharePoint [home site](https://review.docs.microsoft.com/sharepoint/home-site?branch=viva-connections-desktop), learn more about how to [plan home site navigation](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience) and review considerations for [planning a global intranet](https://docs.microsoft.com/sharepoint/set-up-global-intranet).
 
-- **Global navigation is enabled in SharePoint -** It is recommended that global navigation is enabled and customized in the [SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) so that SharePoint resources to appear in Teams.
+- **Global navigation is enabled in SharePoint -** Global navigation must be enabled and customized in the [SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) so that SharePoint resources to appear in the Teams app bar.
 
 - **Modern SharePoint sites and pages -** Only modern SharePoint sites and pages will appear in the SharePoint app bar and Viva Connections. Learn more about how to [modernize classic SharePoint sites and pages](https://docs.microsoft.com/sharepoint/dev/transform/modernize-userinterface-site-pages).
 
@@ -79,16 +80,16 @@ Complete the following steps to enable Viva Connections desktop using [SharePoin
 
 2.	**Enable global navigation and customize navigational links:** [Set up and customize global navigation in the SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar). Learn about the different ways you can [set up the home site navigation and global navigation](https://docs.microsoft.com/SharePoint/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation) to surface the right content at the right time.
 
-3.	**Create a Viva Connections app package in PowerShell:** The tenant admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) tool before running the script. 
+3.	**Create a Viva Connections app package in PowerShell:** The tenant admin needs to download and run PowerShell script from the Microsoft download center to create the Viva Connections desktop package. Ensure that you are using the [latest version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000) of the [SharePoint Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps) tool before running the script. The Viva Connections for desktop PowerShell script in the Microsoft download center will become available on March 31, 2021.
 
 
 >[!IMPORTANT]
-> -	The Viva Connections PowerShell script will be available in the Microsoft download center on March 29, 2021.
+> -	The Viva Connections PowerShell script will be available in the Microsoft download center on March 31, 2021.
 > -   Tenant admin credentials are required to use SharePoint PowerShell.
 > -	The tenant admin who creates the Viva Connections desktop package needs site owner permissions (or higher) to the home site in SharePoint. 
 > -	If your tenant is using an older version of PowerShell, uninstall the older version and replace it with the most [up to date version](https://www.powershellgallery.com/packages/Microsoft.Online.SharePoint.PowerShell/16.0.20912.12000). 
 
-4.	**Provide tenant and site information to create the package:** This article will be updated with the PowerShell script and instructions on March 29, 2021 that explains how to create the Viva Connections app package.
+4.	**Provide tenant and site information to create the package:** This article will be updated with the PowerShell script and instructions on March 31, 2021 that explains how to create the Viva Connections app package.
 
 **When you create a new package in PowerShell, you will be required to complete the following fields:**
 
