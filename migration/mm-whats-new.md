@@ -6,7 +6,7 @@ author: JoanneHendrickson
 manager: serdars
 audience: ITPro
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 mscollection: 
