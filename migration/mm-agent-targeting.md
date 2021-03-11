@@ -37,6 +37,7 @@ When an Agent is created in Migration Manager, it is not assigned to any group o
 
 
 ## Create an agent group
+
 1. From the Agents tab in Migration Manager, highlight an agent from the list.  A side panel displays to the right.
 2. Under Agent group, select **Edit.**
 3. Select **Add or remove agent groups**.
@@ -45,16 +46,18 @@ When an Agent is created in Migration Manager, it is not assigned to any group o
 
 
 ## Assign an agent to an Agent Group
+
 1.  From the Agents tab in Migration Manager, highlight an agent from the list.  A side panel displays to the right.
 2.  Select an agent group from the choices in the dropdown list.
 3. Select **Save**.
 
->[Note]
+>[!Note]
 >You cannot assign multiple agents to a group at the same time. 
 
 
 
-## Assign a task to an agent group**
+## Assign a task to an agent group
+
 1. From the On the Configure settings pane, enter a Task name.
 2. Select an agent group from the dropdown list.
 3. Select **Save**.
