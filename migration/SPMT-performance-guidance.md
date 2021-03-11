@@ -6,7 +6,7 @@ manager: serdars
 recommendations: true
 audience: ITPro
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -42,7 +42,7 @@ The speed is usually impacted by either
 
 Suggestions:
 
-- Often local network speed is the problem. When the source content is located on the same computer or VM as the migration computer, stop other applications which may compete the disk load for reading the data. 
+- Often local network speed is the problem. When the source content is located on the same computer or VM as the migration computer, stop other applications that may compete with the disk load for reading the data. 
 -  Change the working folder setting to point to a different physical disk (if there is one) on your migration computer.
 
 
@@ -52,13 +52,13 @@ A heavy load of data is exchanged during migration, so the performance of the lo
 
 Suggestions:
  
-- Install and run the migraiton tool on a computer with better disk performance, such as a fast SSD.   
-- The disk which hosts the migration working folder impacts migration performance. If there are multiple disks on the computer, configure the working folder setting to point to the disk with the best performance. 
-- Stop other applications which  creates a heavy load of disk operations when doing the migration.
+- Install and run the migration tool on a computer with better disk performance, such as a fast SSD.   
+- The disk that hosts the migration working folder impacts migration performance. If there are multiple disks on the computer, configure the working folder setting to point to the disk with the best performance. 
+- Stop other applications that create a heavy load of disk operations when doing the migration.
 
 ## Improving your connectivity to Office 365 and Azure 
 
-The speed of the network connection between the mitgration computer and the Azure blob storage service can impact your migration performance.  
+The speed of the network connection between the migration computer and the Azure blob storage service can impact your migration performance.  
 
 Suggestions: 
 
