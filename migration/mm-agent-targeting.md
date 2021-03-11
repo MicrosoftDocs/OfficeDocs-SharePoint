@@ -29,17 +29,18 @@ When an Agent is created in Migration Manager, it is not assigned to any group o
 
 |What|Why|
 |:-----|:-----|
-|Multi-geo| Organize your agents to be dedicated to specific multi-geo regions. | 
-|Network scenarios||
-|Isolate migration jobs/traffic|| 
+|Multi-geo| Organize your agents to be dedicated to specific geographic regions. | 
+|Network scenarios|Create agent groups to optimize for network conditions |
 |Prioritize migration jobs||
-|Migration waves|
-|Dedicate agents to scan vs migrate
+|Migration waves||
+|Assessment planning
 
 
 
 **Create an agent group**
 1. From the Agents tab in Migration Manager, highlight an agent from the list.  A side panel displays to the right.
+2. Select Edit Agent.
+3. 
 
 
 **Assign a task to an agent group**
