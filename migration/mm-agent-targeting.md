@@ -31,18 +31,31 @@ When an Agent is created in Migration Manager, it is not assigned to any group o
 |:-----|:-----|
 |Multi-geo| Organize your agents to be dedicated to specific geographic regions. | 
 |Network scenarios|Create agent groups to optimize for network conditions |
-|Prioritize migration jobs||
-|Migration waves||
-|Assessment planning
+|Prioritize migration jobs|Create agent groups so you can assign tasks according to groups by their priority |
+|Assessment planning|Create an agent group designated for tasks that are only being scanned for early assessment.|
 
 
 
-**Create an agent group**
+## Create an agent group
 1. From the Agents tab in Migration Manager, highlight an agent from the list.  A side panel displays to the right.
-2. Select Edit Agent.
-3. 
+2. Under Agent group, select **Edit.**
+3. Select **Add or remove agent groups**.
+4. Enter a name for your new agent group.  The name cannot exceed 255 characters.
+5. Click **Save**.
 
 
-**Assign a task to an agent group**
-Assigning agents.
+## Assign an agent to an Agent Group
+1.  From the Agents tab in Migration Manager, highlight an agent from the list.  A side panel displays to the right.
+2.  Select an agent group from the choices in the dropdown list.
+3. Select **Save**.
+
+>[Note]
+>You cannot assign multiple agents to a group at the same time. 
+
+
+
+## Assign a task to an agent group**
+1. From the On the Configure settings pane, enter a Task name.
+2. Select an agent group from the dropdown list.
+3. Select **Save**.
 
