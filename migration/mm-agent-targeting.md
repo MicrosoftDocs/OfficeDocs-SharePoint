@@ -17,18 +17,45 @@ localization_priority: Normal
 search.appverid: MET150
 description: "Learn about creating and using agent groups in Migration Manager."
 ---
-#  Agent Groups in Migration Manager
+#  Agent Groups in Migration Manager (preview)
 
- When you created an Agent in Migration Manager, it is in a default group, an agent is not assigned to any group. Migration Manager lets you have the ability to create "agent groups" and assign agents to them.
+>[!Important]
+> This advanced feature is currently in private preview and subject to change without notice.
 
-## Who would choose to create an Agent group?
+
+Migration Manager allows you have the ability to create "agent groups" and assign agents to them.  This is considered an advanced feature and not commonly used by most users.
+
+When an Agent is created in Migration Manager, it is not assigned to any group other than the default location. With Agent Groups, you can assign one or more agents to a specific group. A group maybe represent a specific geographical location, or have a targeted purpose. Agent groups let you organize and prioritize your agents for a specific purpose or regional goal.
+
+|What|Why|
+|:-----|:-----|
+|Multi-geo| Organize your agents to be dedicated to specific geographic regions. | 
+|Network scenarios|Create agent groups to optimize for network conditions |
+|Prioritize migration jobs|Create agent groups so you can assign tasks according to groups by their priority |
+|Assessment planning|Create an agent group designated for tasks that are only being scanned for early assessment.|
 
 
--	Multi-geo agent isolation
--   Ability to optimize for customer network scenarios
-- 	Ability to isolate migration jobs/traffic
-- 	Ability to segment migration jobs to provide prioritization where needed
-- 	Dedicate agents to scan vs migrate
 
-![image of Agent targeting concept](media/mm-agent-target-diagram.png)
+## Create an agent group
+1. From the Agents tab in Migration Manager, highlight an agent from the list.  A side panel displays to the right.
+2. Under Agent group, select **Edit.**
+3. Select **Add or remove agent groups**.
+4. Enter a name for your new agent group.  The name cannot exceed 255 characters.
+5. Click **Save**.
+
+
+## Assign an agent to an Agent Group
+1.  From the Agents tab in Migration Manager, highlight an agent from the list.  A side panel displays to the right.
+2.  Select an agent group from the choices in the dropdown list.
+3. Select **Save**.
+
+>[Note]
+>You cannot assign multiple agents to a group at the same time. 
+
+
+
+## Assign a task to an agent group**
+1. From the On the Configure settings pane, enter a Task name.
+2. Select an agent group from the dropdown list.
+3. Select **Save**.
 
