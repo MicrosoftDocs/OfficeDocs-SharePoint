@@ -3,6 +3,7 @@ title: Improve SPMT or Migration Manager agent performance
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - CSH

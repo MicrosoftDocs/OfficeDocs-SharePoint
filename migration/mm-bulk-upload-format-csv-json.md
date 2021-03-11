@@ -1,9 +1,11 @@
 ---
 title: "How to format a CSV or JSON file for bulk upload in Migration Manager"
+recommendations: true
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - CSH

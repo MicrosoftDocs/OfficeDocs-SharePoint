@@ -132,6 +132,8 @@ Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i
 
 If a user's segment changes, the segment associated with their OneDrive will be automatically updated to match within 24 hours, and any compatible segments will be added.
 
+If a compliance administrator changes an existing policy, the change may impact the compatibility of the segments associated with the OneDrive. For example, segments that were once compatible may no longer be compatible. A SharePoint admin must change the segments associated with an affected site accordingly. Learn how to create an [information barriers policy compliance report in PowerShell](/sharepoint/info-barriers-report).
+
 If a policy changes after files are shared, the sharing links will work only if the user attempting to access the shared files has a segment applied that matches a segment associated with the OneDrive.
 
 ## Example
@@ -143,6 +145,16 @@ The example at the beginning of this article illustrates an organization with th
 |Segments associated with OneDrive     |    HR     |     Sales, HR    |    Research, HR     |   None     |
 |OneDrive content can be shared with     |    HR only     |    Sales and HR     |     Research and HR    |    Anyone based on the sharing settings selected     |
 |OneDrive content can be accessed by     |   HR only      |     Sales and HR    |    Research and HR     |    Anyone with whom the content has been shared     |
+
+## Auditing
+
+After you enable information barriers for OneDrive, audit events are available in the Office 365 audit log to help you monitor information barrier OneDrive activities. Audit events are logged whenever the following activities occur:
+
+- Segments are added to a user OneDrive
+- Segments are changed on a user OneDrive
+- Segments are removed from a user OneDrive
+
+For more information about OneDrive segment auditing in Office 365, see [Search the audit log in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#information-barriers-activities).
 
 ## See also
 

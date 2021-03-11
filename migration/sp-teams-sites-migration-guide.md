@@ -1,8 +1,10 @@
 ---
 title: "SharePoint Server Team Sites Migration Guide"
+audience:  ITPRo
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.audience: ITPro
 f1.keywords:
 - NOCSH
@@ -14,10 +16,11 @@ ms.collection:
 - SPMigration
 - m365initiative-migratetom365
 search.appverid: MET150
+description: "This guide will help ou prepare to migrate content from SharePoint Server team sites to SharePoint in Microsoft 365."
 ---
 
 # SharePoint Server team sites Migration Guide
-This guide will help you prepare to migrate from SharePoint Server teams sites to SharePoint in Microsoft 365.
+This guide will help you prepare to migrate from SharePoint Server team sites to SharePoint in Microsoft 365.
 
 Most migrations fall into regular phases as described below.  Proven success factors for migration include planning, assessing and remediating, preparing your target environment, migrating and onboarding your users. 
 
