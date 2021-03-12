@@ -20,6 +20,7 @@ This article discusses cumulative features and enhancements in the Mover migrati
 
 
 ## Backend v1.20.3 (March 11, 2021)
+
 This release contains jolt command updates along with features and fixes for customers.
 
 - Fix.  Some customers had trouble loading their G Suite connector in the Transfer Wizard. This usually happened for customers that had a very large number of Shared Drives in their G Suite account. The connectors should load, although for customers with a large number of Shared Drives, the count will be an approximate only.
