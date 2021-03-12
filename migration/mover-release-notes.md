@@ -24,6 +24,13 @@ This article discusses cumulative features and enhancements in the Mover migrati
 - Fix.  Some customers had trouble loading their G Suite connector in the Transfer Wizard. This usually happened for customers that had a very large number of Shared Drives in their G Suite account. The connectors should load, although for customers with a large number of Shared Drives, the count will be an approximate only.
 - Feature. File permissions option is turned on by default if the source connector is a Microsoft connector.
 
+## Frontend v1.19.6 (March 11, 2021)
+This release contains accessibility fixes.
+- Accessibility: In the Migration Manager table, an aria label is added to the Info button so the information is rendered correctly.
+- Accessibility: Remove the role "menu" in the Migration Manager page because there are no children.
+
+
+
 ## Backend v1.19.24 (February 8, 2021) 
 - Fix. Broken Agent transfers for destinations that are not Office 365 has now been fixed.
 
