@@ -37,12 +37,12 @@ Currently, notifications are sent for the following activities:
 
 Other notifications might be added in the future.
 
+>[!NOTE]
+>Notifications aren't available for the US government environments, Office 365 Germany, or Office 365 operated by 21Vianet (China).
+
 ## Allow or block notifications
 
 1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
-
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Settings page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Settings page.
     
 2. Select the **Notifications** setting for SharePoint.
   
