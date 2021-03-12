@@ -4,10 +4,9 @@ ms.reviewer: jhendr
 author: JoanneHendrickson
 ms.author: jhendr
 manager: serdars
-recommendations: true
 audience: ITPro
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
