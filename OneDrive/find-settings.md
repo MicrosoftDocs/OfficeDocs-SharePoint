@@ -34,7 +34,7 @@ Go to the [Sharing page in the new SharePoint admin center](https://admin.micros
 
 ## Sync page
 
-Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Sync**.
+Go to the [Settings page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Sync**.
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
@@ -42,17 +42,11 @@ Go to the [Settings page of the new SharePoint admin center](https://admin.micro
 
 ## Storage page
 
-For the default storage setting, go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Storage limit**.
+Go to the [Settings page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true). To change the default storage setting, select **Storage limit**. To change the retention setting for deleted users, select **Retention**. 
 
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|![Storage page in the OneDrive admin center](media/storage-page.png)|![Default storage limit in the SharePoint admin center](media/default-storage-limit.png) |
-
-For the retention setting, go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select **Retention**.
-
-| OneDrive admin center | SharePoint admin center |
-|:-----|:-----|
-|![Storage page in the OneDrive admin center](media/storage-page.png)|![Classic other options](media/sp-retention.png) |
+|![Storage page in the OneDrive admin center](media/storage-page.png)|![OneDrive settings on the Settings page in the SharePoint admin center](media/settings-page.png) |
 
 ## Device access page
 
@@ -80,7 +74,7 @@ The policy settings under "Mobile application management" are no longer being up
 
 ## Compliance
 
-This page contains links to Office 365 Security & Compliance. The solutions are now available in Microsoft 365 compliance. [View compliance solutions](https://compliance.microsoft.com/solutioncatalog)
+This page contains links to Office 365 Security & Compliance. [View the compliance and risk management solutions available in Microsoft 365](https://compliance.microsoft.com/solutioncatalog)
 
 - [Search the audit log](https://compliance.microsoft.com/auditlogsearch?viewid=Search)
 - [Create a DLP policy](https://compliance.microsoft.com/datalossprevention?viewid=policiesn)
@@ -89,32 +83,31 @@ This page contains links to Office 365 Security & Compliance. The solutions are 
 - [Create an eDiscovery case](https://compliance.microsoft.com/classicediscovery)
 - [Create an alert](https://compliance.microsoft.com/compliancealerts)
 
-
 ## Notifications
 
-| Classic | New |
-|:-----|:-----|
-|![New private site collection](media/new-private-site-collection.png)|![Classic other options](media/classic-other-options.png) |
-
-<br/>
+For the "Display device notifications to users when OneDrive files are shared with them" setting, Go to the [Settings page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select the OneDrive **Notifications** setting.
 
 | Classic | New |
 |:-----|:-----|
-|Display device notifications to users when OneDrive files are shared with them <br/> |Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and select the OneDrive **Notifications** setting <br/> |
-|Email OneDrive owners when: Other users invite additional external users to shared files <br/> |This setting is available in PowerShell (Set-SPOTenant -NotifyOwnersWhenItemsReshared).  <br/> |
-|Email OneDrive owners when: External users accept invitations to access files <br/> |This setting no longer works for the new sharing experience that appears in most places.  <br/> |
-|Email OneDrive owners when: An anonymous access link is created or changed <br/> |This setting is available in PowerShell (Set-SPOTenant -OwnerAnonymousNotification).  <br/> |
+|![Notifications page in the OneDrive admin center](media/notifications-od.png)|![NOtifications setting in the SharePoint admin center](media/notifications.png) |
+
+For info about the "E-mail OneDrive owners when" settings, refer to the following table.
+
+| Classic | New |
+|:-----|:-----|
+|Other users invite additional external users to shared files <br/> |This setting is available in PowerShell (`Set-SPOTenant -NotifyOwnersWhenItemsReshared`).  <br/> |
+|External users accept invitations to access files <br/> |This setting no longer works for the new sharing experience that appears in most places.  <br/> |
+|An anonymous access link is created or changed <br/> |This setting is available in PowerShell (`Set-SPOTenant -OwnerAnonymousNotification`).  <br/> |
 
 ## Data migration
 
-This page redirects to Migration Manager in the SharePoint admin center.
+This page redirects to the [Migration page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=migration&modern=true).
 
 ## Geo locations
 
+Go to the [Geo locations page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=geoLocationsg&modern=true).
+
 | OneDrive admin center | SharePoint admin center |
 |:-----|:-----|
-|![Storage page in the OneDrive admin center](media/storage-page.png)|![Default storage limit in the SharePoint admin center](media/default-storage-limit.png) |
-
-Use the [Geo locations page](https://admin.microsoft.com/sharepoint?page=geoLocations&modern=true) in the new SharePoint center to switch locations and add or delete satellite locations. 
-
+|![Geo locations page in the OneDrive admin center](media/geo-locations.png)|![New geo locations](media/new-geo-locations.png)|
 
