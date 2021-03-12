@@ -2,11 +2,12 @@
 title: "Manage geo locations in the new SharePoint admin center"
 ms.reviewer: kaarins
 manager: serdars
+recommendations: true
 ms.author: kaarins
 author: kaarins
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

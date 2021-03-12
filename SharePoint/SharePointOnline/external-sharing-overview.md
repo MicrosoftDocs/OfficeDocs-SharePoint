@@ -4,6 +4,7 @@ ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
@@ -91,7 +92,7 @@ When users share *sites*, recipients will be prompted to sign in with:
 When users share *files and folders*, recipients will also be prompted to sign in if they have:
 - A Microsoft account
 
-These recipients will typically be added to your directory as guests, and then permissions and groups work the same for these guests as they do for internal users. (To ensure that all guests are added to your directory, use the [SharePoint and OneDrive integration with Azure AD B2B preview](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).)
+These recipients will typically be added to your directory as guests, and then permissions and groups work the same for these guests as they do for internal users. (To ensure that all guests are added to your directory, use the [SharePoint and OneDrive integration with Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).)
   
 Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
   

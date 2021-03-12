@@ -4,9 +4,10 @@ ms.reviewer: waynewin
 ms.author: kaarins
 author: kaarins
 manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal

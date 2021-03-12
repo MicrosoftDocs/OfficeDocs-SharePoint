@@ -4,10 +4,11 @@ ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+recommendations: true
 audience: Admin
 ROBOTS: NOINDEX
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority

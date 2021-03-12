@@ -1,13 +1,13 @@
 ---
 title: "Transition from the previous OneDrive for Business sync app"
 ms.reviewer: 
-ms.author: kaarins
-author: kaarins
+ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
 ms.collection: 

@@ -2,7 +2,8 @@
 title: "deprecation of site mailboxes"
 ms.author: v-bshilpa
 author: Benny
-manager: Serdars
+manager: serdars
+recommendations: true
 audience: Admin
 f1.keywords:
 ms.topic: article

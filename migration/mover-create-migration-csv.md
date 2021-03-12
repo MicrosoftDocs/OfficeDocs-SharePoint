@@ -1,8 +1,10 @@
 ---
 title: Mover - Create a new migration with a CSV file
+recommendations: true
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
