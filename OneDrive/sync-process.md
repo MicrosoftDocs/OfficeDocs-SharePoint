@@ -70,11 +70,11 @@ For other types of files and folders, items smaller than 8 MB are sent inline in
 
 The OneDrive sync app uses the following to sync files:
 
-- To find new changes and upload information: Microsoft-my.sharepoint.com/personal/<your library id>/_api/SPFileSync.svc
+- To find new changes and upload information: `https://<tenant_name, i.e. contoso>-my.sharepoint.com/personal/<user_contoso_onmicrosoft_com>/_api/SPFileSync/sync/<default document library ID GUID>/`
 
-- To download items: Microsoft-my.sharepoint.com/personal/<useraccount_company_com>/_layouts/15/download.aspx
+- To download items: `https://<tenant_name, i.e. contoso>-my.sharepoint.com/personal/<user_contoso_onmicrosoft_com>/_layouts/15/download.aspx`
 
-- To discover the sites and organizations a user can access: odc.officeapps.live.com
+- To discover the sites and organizations a user can access: `https://odc.officeapps.live.com/odc/servicemanager/userconnected`
   
 ## Security and encryption
 
