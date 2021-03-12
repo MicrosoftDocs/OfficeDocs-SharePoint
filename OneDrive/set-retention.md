@@ -30,15 +30,22 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
   
  **To set the retention time for OneDrive accounts**
   
-1. Sign in to the [OneDrive admin center](https://admin.onedrive.com) as a global or SharePoint admin, and select **Storage** in the left pane.
+1. Go to the [Settings page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=settings&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+ 
+   > [!NOTE]
+   > If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Sharing page. 
+   > 
+   > If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Sharing page.
 
-    ![The Storage page of the OneDrive admin center](media/15942b88-2f71-4c85-87ec-eb14b88f8f93.png)
+2. Select the **Retention** setting.
+
+    ![Retention setting in the SharePoint admin center](media/sp-retention.png)
   
-2. Enter the number of days you want to keep the OneDrive files in the **Days to retain files in OneDrive after a user account is marked for deletion** box.
+3. Enter a value from 30 through 3650 in the **Days to retain files a deleted user's OneDrive** box.
 
-    The setting is activated for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time. The minimum value is 30 days and the maximum value is 3650 days (10 years).
+    The setting is activated for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time. 
 
-3. Click **Save**.
+4. Select **Save**.
 
 ## Related articles
 
