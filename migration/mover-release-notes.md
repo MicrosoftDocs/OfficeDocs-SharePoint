@@ -19,6 +19,25 @@ description: "Mover Release Notes"
 This article discusses cumulative features and enhancements in the Mover migration tool.
 
 
+## Backend v1.20.3
+- This release contains jolt command updates along with some features and fixes for customers.
+- Fix.  Some customers had trouble loading their G Suite connector in the Transfer Wizard. This usually happened for customers that had a very large number of Shared Drives in their G Suite account. The connectors should load, although for customers with a large number of Shared Drives, the count will be an approximate only).
+- Feature. File permissions option is turned on by default if the source connector is a Microsoft connector.
+
+## Backend v1.19.24 (February 8, 2021) 
+- Fix. Broken Agent transfers for destinations that are not Office 365 has now been fixed.
+
+## Backend v1.19.25 (February 9, 2021) 
+- Fix.  Users encountered an issue transferring folders with special characters (such as #) that are still valid in SharePoint Online. This has now been fixed and the system ensures that all special characters that are valid in SharePoint Online are handled properly.
+
+## Backend v1.20.0 (February 16, 2021) 
+- Fix.  Users that only signed in using their Microsoft account were unable to delete their account because the form would prompt them for their password. Users are now able to delete their accounts safely.
+- Feature. Account managers are able to delete managed users' accounts without being prompted for a password.
+- Improvement. Customers running migrations from Egnyte would sometimes get "Could not get folder ACLs" error messages in their user logs. This is not very descriptive. Messaging has been improved to show the cause of the problem (usually, exceeding API quotas in Egnyte).
+
+## Backend v1.20.1 (February 24, 2021) 
+- The customer somehow is still able to delete a connector. The stop gap was only added to the UX. Further verification added when we are doing the deletion if the connector is associated to a migration. If it is, then the connector cannot be deleted
+
 
 ## Backend v1.19.22 (December 16, 2020)
 
