@@ -71,7 +71,6 @@ The first version of Viva Connections can be provisioned through PowerShell and 
 
 
 
-
 ## Step-by-step guide to setting up Viva Connections desktop
 Complete the following steps to enable Viva Connections desktop using [SharePoint PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell?view=sharepoint-ps):
 
