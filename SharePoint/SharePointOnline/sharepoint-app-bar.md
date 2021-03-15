@@ -217,7 +217,7 @@ Temporarily disable the SharePoint app bar:
 >[!NOTE] 
 > -	It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
 > -	Running the command without the `$false` or `$true` value will cause it to fail.
-> -	You must be using the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+> -	You must be using the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true).
 
 ### Enable the SharePoint app bar:
 1.	Once you’re ready to display the SharePoint app bar, run the following command:<br>
