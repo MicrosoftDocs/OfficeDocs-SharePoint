@@ -61,7 +61,7 @@ The first version of Viva Connections can be provisioned through PowerShell and 
 
 #### Viva Connections requirements:
 
-- **Global navigation is enabled in SharePoint -** It is recommended that global navigation is enabled and customized in the [SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) so that SharePoint resources to appear in Teams.
+- **Global navigation is enabled in SharePoint -** It is recommended that global navigation is enabled and customized in the [SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) so that SharePoint resources appear in Teams.
 
 #### Viva Connections recommendations:
 
