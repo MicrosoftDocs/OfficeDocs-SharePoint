@@ -42,7 +42,7 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	The SharePoint app bar may impact current page customizations specifically those that appear on the left side. 
 > -	Personalized content in the SharePoint app bar is enabled by Microsoft Graph.
 > -	When Microsoft Graph is disabled, the news and sites experience will be degraded.
-> -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the ap bar will delay the roll out of this feature in your organization until October 31, 2021.
+> -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until October 31, 2021.
 
 The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience). To ensure a seamless experience, we've created specific guidance on how to design current navigation to compliment the new global navigation feature. We have also created [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.   
 
@@ -63,7 +63,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 ### Get started customizing the global navigation tab
 1.	Set up a [home site](https://docs.microsoft.com/sharepoint/home-site) if your organization doesn’t already have one and make sure to [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everyone in your tenant to ensure all users can access the global navigation links. 
 2.	Navigate to your organization’s home site. 
-3.	Select **Settings** and then select **Global navigation settings**.
+3.	Select **Settings** and then select **Global navigation** settings.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image of the global navigation option in the settings panel](media/app-bar-settings.png)
 
@@ -86,7 +86,7 @@ Global navigation logo specifications:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image of where the logo and title will appear in global navigation](media/app-bar-title-logo.png)
 
-7.	Finally, determine the **Navigation source**. Learn more about selecting a source.
+7.	Finally, determine the **Navigation source**. Learn more about selecting a source in the next step.
 8.	Make edits to the selected global navigation source if needed by selecting **Edit global navigation**. Select **Save** when you are done. Updates to global navigation may take several minutes before they appear.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Image of where to select the global navigation source](media/app-bar-source.png)
@@ -116,7 +116,7 @@ If you haven’t set up your [home site](https://docs.microsoft.com/sharepoint/h
 ![Image of site navigation](media/app-bar-site.png)
 
 - Select the site navigation source to display the home site navigation.
-- Create a secondary set of navigation notes specifically for the global navigation panel by selecting **Hub or global navigation**. Then, select **Edit global navigation** to create the new global navigation menu. Select **Save** when you are done.
+- Create a secondary set of navigation nodes specifically for the global navigation panel by selecting **Hub or global navigation**. Then, select **Edit global navigation** to create the new global navigation menu. Select **Save** when you are done.
 
 
 >[!NOTE]
@@ -138,7 +138,7 @@ Display hub and site navigation on the home page, and the home site navigation i
 
 ### Display the home site’s hub navigation in global navigation
 Display hub and site navigation on the home page, and the hub navigation in the global navigation panel. 
-1.	Navigate to the home site’s **Settings** and then **Global navigation***.
+1.	Navigate to the home site’s **Settings** and then **Global navigation**.
 2.	**Enable** global navigation, enter a **Title**, and then select **Hub or global navigation** as the source.
 3.	Select **Save**. Changes may take a few minutes to reflect.
 
@@ -149,8 +149,8 @@ Display just the hub navigation on the home page, and the site navigation in the
 1.	Start by hiding the site navigation using one of two methods:
 <br>
 
-- Go to **Setting** then **Change the look**, then **Navigation** and toggle the **Display site navigation** to **Hide**
-- Go to **Setting**, then **Change the look**, then **Header** and choose **Extended**
+- Go to **Settings**, then **Change the look**, then **Navigation** and toggle the **Display site navigation** to **Hide**.
+- Go to **Settings**, then **Change the look**, then **Header** and choose **Extended** layout.
 
 2.	Then, navigate to the home site’s **Settings** and then **Global navigation**.
 3.	**Enable** global navigation, enter a **Title**, and then select **Home site navigation** as the source.
@@ -177,12 +177,12 @@ If you are creating a [home site](https://docs.microsoft.com/sharepoint/home-sit
 3.	[Set this communication](https://docs.microsoft.com/sharepoint/home-site#set-a-site-as-your-home-site) site as a home site using SharePoint Online Management Shell tool.
 4.	[Share the home site with users](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658?ui=en-us&rs=en-us&ad=us#:~:text=Share%20a%20site%201%20Communication%20sites.%20Select%20Share,external%20users%22%20to%20share%20the%20...%20See%20More.) so they can access the global navigation links. 
 5.	On the home site, select **Settings** and then **Global navigation** to **enable** and customize.
-6.	For the global navigation source, select **Home site navigation** to display the home site navigation that you created in the global navigation panel. Then select **Save**.
+6.	For the global navigation source, select **Home site navigation** to display the home site navigation that you created in the global navigation panel, then select **Save**.
 
 ## Understand how the app bar may impact page customizations
 
 The SharePoint app bar may impact current page customizations, specifically those positioned to the left of your page. 
-For organization using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the place holder footprint is in red:
+For organizations using [page placeholders](https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions), the SharePoint app bar will cover parts of both the header and footer page placeholder. In the following image, the placeholder footprint is in red:
 
 ![Image of a home site with customizations](media/app-bar-overlap.png)
 
@@ -200,7 +200,7 @@ Help end users understand [how the new SharePoint app bar works](https://support
 
 
 ## Temporarily disable the SharePoint app bar
-You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October 31, 2021. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future MC posts.
+You can temporarily disable the SharePoint app bar in your tenant to prepare for this change or control its rollout to users. The tool that disables the app bar will be available until October 31, 2021. Updates and more information about temporarily disabling the SharePoint app bar will be shared in future Message Center posts.
 <br>
 <br>
 Temporarily disable the SharePoint app bar:
@@ -210,15 +210,14 @@ Temporarily disable the SharePoint app bar:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $true`
 
-3.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following:<br> 
+3.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following command:<br> 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Get-SPOTemporarilyDisableAppBar`
 
-
 >[!NOTE] 
 > -	It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
-> -	Running the command without the $false or $true value will cause it to fail.
-> -	You must be using the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+> -	Running the command without the `$false` or `$true` value will cause it to fail.
+> -	You must be using the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps&preserve-view=true).
 
 ### Enable the SharePoint app bar:
 1.	Once you’re ready to display the SharePoint app bar, run the following command:<br>
@@ -226,9 +225,9 @@ Temporarily disable the SharePoint app bar:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $false`
 
    >[!NOTE]  
-   > - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
+   > - It can take up to an hour for the app bar to show up on a tenant where the app bar was disabled previously. 
 
-2.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following: <br>
+2.	If you need to confirm if the app bar has been disabled or enabled, check the app bar status by running the following command:<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Get-SPOTemporarilyDisableAppBar`
 
@@ -239,4 +238,3 @@ Temporarily disable the SharePoint app bar:
 - Learn more about [planning](https://docs.microsoft.com/sharepoint/planning-hub-sites) and [creating hub sites](https://docs.microsoft.com/sharepoint/create-hub-site)
 - Learn more about [navigation and information architecture in SharePoint](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience)
 - Learn more about [sharing and permissions in SharePoint](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions)
-
