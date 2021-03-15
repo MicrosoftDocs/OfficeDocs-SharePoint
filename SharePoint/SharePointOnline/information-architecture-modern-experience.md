@@ -107,7 +107,7 @@ Many intranets include top navigation that persists on every site. Global naviga
 - Locations
 - Policies & Procedures/Tools & Resources/Safety & Security
 
-The goal of global navigation is to support browsing to content, but since there is limited real estate available for global navigation links, global links generally point to major category navigation pages, sub-links, or a mega menu experience to provide enough "information scent" to help viewers navigate their way to the content they need. Because the context for global navigation must be broad, it is challenging to make the labels both comprehensive and useful. If you plan to implement global navigation, you will want to test your proposed naviation to make sure that it resonates with users.
+The goal of global navigation is to support browsing to content, but since there is limited real estate available for global navigation links, global links generally point to major category navigation pages, sub-links, or a mega menu experience to provide enough "information scent" to help viewers navigate their way to the content they need. Because the context for global navigation must be broad, it is challenging to make the labels both comprehensive and useful. If you plan to implement global navigation, you will want to test your proposed navigation to make sure that it resonates with users.
 
 Global navigation is enabled with the [SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) on your [home site](https://docs.microsoft.com/sharepoint/home-site). You will need to have a home site to enable global navigation. Global navigation appears on the left side of every site and page.
 
