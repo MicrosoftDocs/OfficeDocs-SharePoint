@@ -45,7 +45,7 @@ Successful intranet and site navigation experiences enable users to:
 
 - **Find information** – Users need to find documents, files, and links most relevant to the work they do without spending time sifting through content. Make sure to present only the most relevant and high-priority information first.
 - **Take action** – Users typically have a specific task in mind when they visit a site. Make sure common tasks are built-in to navigational structure as labels and links so that they can be easily identified and accessed. 
-- **Understand company structure** – When viewed at-a-glance, users should be able to get a sense for how to organization is structured. Make sure you incorporate hierarchy and structure into site and intranet navigation.
+- **Understand company structure** – When viewed at-a-glance, users should be able to get a sense of how the organization is structured. Make sure you incorporate hierarchy and structure into site and intranet navigation.
 
 ## Get organized
 There is no one right way to organize your navigation links. You will make different choices based on the type of site you are creating and your viewers. Organizing concepts might include:
@@ -112,7 +112,7 @@ At the current time, only the [Text web part](https://support.office.com/article
 
 ## Test usability and findability with real users
 
-Once you have established a basic working structure for global, hub, or local level navigation experiences, you should test your design with real-life users. Create tasks and ask users to complete the tasks. Ask users to “think out loud” as they are looking for information and resources. Note where improvements to can be made and then implement and test the changes again. Plan to review basic global, hub, and local navigation experiences as your business changes and grows.
+Once you have established a basic working structure for global, hub, or local level navigation experiences, you should test your design with real-life users. Create tasks and ask users to complete the tasks. Ask users to “think out loud” as they are looking for information and resources. Note where improvements can be made and then implement and test the changes again. Plan to review basic global, hub, and local navigation experiences as your business changes and grows.
 
 Learn more about navigation basics like how to write effective labels, how to test findability, and how to use menu styles.
 
