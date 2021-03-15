@@ -90,6 +90,8 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |https://*.<spam><spam>sharepoint<spam><spam>.com|Destination for migration|
 |https://<spam><spam>*.blob.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
 |https://<spam><spam>*.queue.core.usgovcloudapi.<spam><spam>net|Migration API Azure Government requirement|
+|https://<spam><spam>*.login.microsoftonline.<spam><spam>com|Sign into the MMA agent for SPO access|
+|https://<spam><spam>*.msauth.<spam><spam>net|Sign into the MMA agent for SPO access|
 
 </br>
 
