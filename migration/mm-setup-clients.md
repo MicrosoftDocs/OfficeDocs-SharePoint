@@ -1,12 +1,13 @@
 ---
 title: "Setup Migration Manager agents"
-ms.reviewer: 
+ms.reviewer: jhendr
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -25,8 +26,8 @@ When you run the setup file, you are prompted for two sets of credentials: Share
 
 After an agent is configured, anyone with the permission to go into the SharePoint admin center can create tasks. The tasks will be automatically distributed to one of the configured agents.
 
->[Important]
->Make sure to download the latest version of the agent setup file.
+> [!Important]
+> Make sure to download the latest version of the agent setup file.
 
 ## Before you begin
  
@@ -107,7 +108,11 @@ If your tenant resides in a government cloud, you may have additional steps to p
 5. Enter your Windows credentials that will provide access to **all** the file shares that contain the content you want to migrate. Select **Install**.
 6. Test agent access (optional) or click **Close**.
 
-On completion, this computer will be added to the available agents that the Migration Manager can assign tasks.
+After the setup is completed, the new agent will be added to the available agents that can be assigned tasks.
+
+### Working folder
+
+A working folder named **%appdata%\Microsoft\SPMigration** is created for each agent. This is where logs, reports, and any temporary folders are saved. Make sure that your working folder has a minimum of 150 GB of free space. It may need more depending on the size of the data you plan to migrate.
 
 >[!Important]
 > Passwords are not stored in the installer.
@@ -147,5 +152,5 @@ To install an agent to a different Geo location:
 
     *< add key="GeoLocation" value="CAN" / >*
 
-The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo?view=o365-worldwide#getting-started)
+The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)
 

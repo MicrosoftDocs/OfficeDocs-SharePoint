@@ -316,7 +316,7 @@ Enabling this policy sets the following registry key value to 1:
 > This setting has been removed from the OneDrive administrative template files (ADMX/ADML) because the Fetch files feature was deprecated on July 31, 2020.
 
 ### Prevent users from moving their Windows known folders to OneDrive
-<a name="BlockKnownFolderMove"> </a>
+<a name="KFMBlockOptIn"> </a>
 
 This setting prevents users from moving their Documents, Pictures, and Desktop folders to any OneDrive account.
   
@@ -329,7 +329,7 @@ If you disable or do not configure this setting, users can choose to move their 
   
 Enabling this policy sets the following registry key value to 1:
   
-`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"BlockKnownFolderMove"="dword:00000001"`
+`[HKLM\SOFTWARE\Policies\Microsoft\OneDrive]"KFMBlockOptIn"="dword:00000001"`
   
 
 ### Prevent users from redirecting their Windows known folders to their PC
@@ -365,7 +365,7 @@ Restore B2B Sync with:
 
 This setting shows the following window that prompts users to move their Documents, Pictures, and Desktop folders to OneDrive.
   
-![Window prompting users to protect important folders](media/protect-important-folders-gpo.png)
+![Window prompting users to backup important folders](media/kfm-wizard.png)
   
 If you enable this setting and provide your tenant ID, users who are syncing their OneDrive see the previous window when they're signed in. If they close the window, a reminder notification appears in the Activity Center until they move all their known folders. If a user has already redirected their known folders to a different OneDrive account, they are prompted to direct the folders to the account for your organization (leaving existing files behind).
   

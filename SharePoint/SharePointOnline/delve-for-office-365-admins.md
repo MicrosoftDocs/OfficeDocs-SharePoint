@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: gretel
 author: gretel
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH

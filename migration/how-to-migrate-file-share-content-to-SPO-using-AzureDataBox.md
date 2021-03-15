@@ -4,11 +4,13 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: sharepoint-online
+recommendations: true
 search.appverid: MET150
 ms.collection: 
 - IT_Sharepoint_Server_Top

@@ -4,6 +4,7 @@ ms.reviewer: metorres
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH
@@ -90,7 +91,7 @@ For more training, download the [classic to modern walkthrough](https://github.c
 
 To disable the update on specific sites, use one of the following options: 
 
-**Option 1**: Use [PnP PowerShell](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps) to prevent a specific site from being upgraded by enabling a web scoped feature on each site and sub site that’s being impacted.
+**Option 1**: Use [PnP PowerShell](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets) to prevent a specific site from being upgraded by enabling a web scoped feature on each site and sub site that’s being impacted.
 
 Connect to the site using Connect-PnPOnline. For example,
 

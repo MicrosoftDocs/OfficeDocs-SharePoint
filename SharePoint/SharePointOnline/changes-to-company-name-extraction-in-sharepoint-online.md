@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+recommendations: true
 ms.date: 9/18/2019
 audience: End User
 f1.keywords:

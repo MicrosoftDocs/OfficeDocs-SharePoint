@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
+recommendations: true
 ms.date: 3/19/2019
 audience: Admin
 f1.keywords:

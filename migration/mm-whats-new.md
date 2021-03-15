@@ -4,9 +4,10 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 audience: ITPro
 f1.keywords:
-- NOCSH
+- CSH
 ms.topic: article
 ms.service: sharepoint-online
 mscollection: 
@@ -25,15 +26,17 @@ You can help us improve Migration Manager by sending us your suggestions and rep
 
 ## Coming soon
 
-- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users can now specify pre-defined characters to replace invalid characters. 
-- **Configure working folder for agents**. Through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disc space so you can choose a drive that has enough storage before starting your migration.
+
 - **Auto site provisioning.** When migrating to SharePoint sites, if the site doesn't exist, it will be automatically provisioned before we start the migration.
 - **Summary report enhancements.** The TaskID and reason for task failure will be added to the task summary report.
 - **CSV optional header.**  Soon users will have the options of including optional headers in the bulk upload file.
 - **Agent targeting.** If you want to target migration tasks to a group of agents, you will be able to do so. 
 
   
-## Current features and improvements through January 2021
+## Current features and improvements through February 2021
+
+- **Support replacing invalid characters**. To help migrate files with invalid characters in the file name, users can now specify pre-defined characters to replace invalid characters. 
+- **Configure working folder for agents**. Through the Migration Manager UI, you can configure the physical location of the folder where logs and reports are stored on the agent's machine. You can also see the available disc space so you can choose a drive that has enough storage before starting your migration.
 - **Filters for report aggregator script**.  You can now apply rich filters when downloading the detailed task level reports via the PowerShell cmdlet.  See [Download detailed task reports](https://docs.microsoft.com/sharepointmigration/mm-reports#download-detailed-task-reports).
 -  **Fix for zero durations in Summary Reports.** We recently introduced an issue where the duration field was showing zero values in the *SummaryReport.csv*. This has been fixed.
 - **Fix for large file upload.**  Report files larger than 250 MB can now be uploaded.

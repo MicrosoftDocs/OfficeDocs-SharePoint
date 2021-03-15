@@ -4,6 +4,7 @@ ms.reviewer: dipadur
 ms.author: kaarins
 author: kaarins
 manager: serdars
+recommendations: true
 audience: Admin
 ms.topic: article
 ms.service: sharepoint-online

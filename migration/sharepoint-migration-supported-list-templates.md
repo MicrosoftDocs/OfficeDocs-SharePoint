@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 5/9/2018
 audience: Admin
 f1.keywords:

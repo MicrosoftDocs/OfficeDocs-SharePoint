@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -133,7 +134,7 @@ Display hub and site navigation on the home page, and the home site navigation i
 2.	**Enable** global navigation, enter a **Title**, and then select **Home site navigation** as the source.
 3.	Select **Save**. Changes may take a few minutes to reflect.
 
-![Image of a site naviagtion in the global navigation tab](media/app-bar-scenario-1.png)
+![Image of a site navigation in the global navigation tab 1](media/app-bar-scenario-1.png)
 
 ### Display the home site’s hub navigation in global navigation
 Display hub and site navigation on the home page, and the hub navigation in the global navigation panel. 
@@ -141,7 +142,7 @@ Display hub and site navigation on the home page, and the hub navigation in the 
 2.	**Enable** global navigation, enter a **Title**, and then select **Hub or global navigation** as the source.
 3.	Select **Save**. Changes may take a few minutes to reflect.
 
-![Image of a hub naviagtion in the global navigation tab](media/app-bar-scenario-2.png)
+![Image of a site navigation in the global navigation tab 2](media/app-bar-scenario-2.png)
 
 ### Hide the site navigation and display it in the global navigation
 Display just the hub navigation on the home page, and the site navigation in the global navigation panel. 
@@ -155,7 +156,7 @@ Display just the hub navigation on the home page, and the site navigation in the
 3.	**Enable** global navigation, enter a **Title**, and then select **Home site navigation** as the source.
 4.	Select **Save**. Changes may take a few minutes to reflect.
 
-![Image of a site naviagtion in the global navigation tab](media/app-bar-scenario-3.png)
+![Image of a site navigation in the global navigation tab 3](media/app-bar-scenario-3.png)
 
 
 ## Set up a home site for the first time
@@ -204,7 +205,7 @@ You can temporarily disable the SharePoint app bar in your tenant to prepare for
 <br>
 Temporarily disable the SharePoint app bar:
 
-1.	Download the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+1.	Download the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-onlines).
 2.	Run the following command exactly as it appears:<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Set-SPOTemporarilyDisableAppBar $true`
@@ -217,7 +218,7 @@ Temporarily disable the SharePoint app bar:
 >[!NOTE] 
 > -	It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up. 
 > -	Running the command without the $false or $true value will cause it to fail.
-> -	You must be using the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+> -	You must be using the latest version of [PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 ### Enable the SharePoint app bar:
 1.	Once you’re ready to display the SharePoint app bar, run the following command:<br>

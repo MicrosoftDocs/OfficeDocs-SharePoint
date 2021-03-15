@@ -4,6 +4,7 @@ ms.reviewer: srice
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+recommendations: true
 audience: ITPro
 ROBOTS: NOINDEX
 f1.keywords:
