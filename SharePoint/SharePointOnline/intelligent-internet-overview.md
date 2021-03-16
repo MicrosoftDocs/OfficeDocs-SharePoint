@@ -12,6 +12,8 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:  
+- m365solution-overview
+- m365solution-spintranet
 - Strat_SP_modern
 - M365-collaboration
 ms.custom:

@@ -12,7 +12,6 @@ localization_priority: Normal
 search.appverid: MET150
 description: "Learn about planning and deploying a SharePoint intranet."
 ms.collection: 
-  - m365solution-overview
   - m365solution-spintranet
 ---
 
