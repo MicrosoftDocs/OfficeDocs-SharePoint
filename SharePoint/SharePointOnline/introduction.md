@@ -45,7 +45,7 @@ If you have files on-premises that you need to move to SharePoint in Microsoft 3
 
 ## Governance
 
-If your organization has legal or other requirements that govern the handling of data, or if you have sensitive or confidential information that you want to protect, these references can help you configure SharePoint for your governance standards and policies.
+If your organization has legal or other requirements that govern the handling of data, or if you have sensitive or confidential information that you want to protect, these references can help you configure SharePoint for your governance standards and policies. 
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
