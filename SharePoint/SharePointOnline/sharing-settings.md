@@ -2,6 +2,7 @@
 title: "Sharing settings in the new SharePoint admin center"
 ms.reviewer: srice
 manager: serdars
+recommendations: true
 ms.author: kaarins
 author: kaarins
 audience: Admin

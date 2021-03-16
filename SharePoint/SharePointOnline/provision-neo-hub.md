@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -96,18 +97,18 @@ To successfully provision the NEO sites via the SharePoint look book, the person
   - Provision the New employee pre-onboarding site 
   - Provision the New employee corporate onboarding site 
   - Provision the New employee department onboarding site 
+  
+2.	Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
 
-1.	Navigate to the site you want to provision and select **Add to your tenant**. If you are not signed into to your tenant, the SharePoint look book will ask for your site collection admin credentials.
-
-1.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
+3.	From the permissions requested dialog box, select **Consent on behalf of your organization** and then select **Accept**.
 
     > [!IMPORTANT]
     > To deliverThe provisioning service requires these permissions to provision the site template. There is no overall impact on your tenant and these permissions are explicitly used for the purpose of the solution installation. You must accept these permissions to proceed with the installation.
 
-1.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
+4.	Complete the fields on the provisioning information page as appropriate for your installation. At a minimum, enter the email address where you wish to get notifications about the provisioning process and the URL prefix for your site to be provisioned to.
 
 
-1.	Select **Provision** when ready to install the NEO sites into your tenant environment. The provisioning process will take up to 20 minutes for each site. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
+5.	Select **Provision** when ready to install the NEO sites into your tenant environment. The provisioning process will take up to 20 minutes for each site. You will be notified via email (to the notification email address you entered on the Provisioning page) when the site is ready for access.
 
 > [!NOTE]
 > Have provisioning questions? Need to report an issue? Post your questions and comments about the provisioning of the NEO sites to the SharePoint [provisioning service forum](https://github.com/SharePoint/sp-provisioning-service/issues).

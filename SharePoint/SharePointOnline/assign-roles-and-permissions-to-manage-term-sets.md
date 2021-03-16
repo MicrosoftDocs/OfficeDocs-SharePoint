@@ -4,6 +4,7 @@ ms.reviewer: vrchowdh
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
+recommendations: true
 audience: End User
 f1.keywords: NOCSH
 ms.topic: article

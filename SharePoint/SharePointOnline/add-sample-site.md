@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -39,31 +40,31 @@ What's included in a sample? You'll get:
 
 Browse the samples in the online [SharePoint look book](https://lookbook.microsoft.com/).
 
-![](media/LookBookCover0.png)
+![Lookbook main](media/LookBookCover0.png)
 
 Select a sample to learn more about it. You’ll see the site features, web parts used, and content included. To show you how to use these features, links are provided to a help topic for each feature and its web part(s) in the list.  
 
 After you've decided on the sample you want to use in your tenant, near the bottom of the page, select **Add to your tenant**. To use this service, you'll need to be signed in as a global or SharePoint admin in Microsoft 365.
 
-![](media/LookBookCover1.png)
+![Lookbook 1](media/LookBookCover1.png)
 
 ### Enter your information
 
 Next, enter your email address (for a notification of when your site is ready to use), the title you want to use for your site, and the site URL you want to use.
 
-![](media/ProvForm.png)
+![Prov form1](media/ProvForm.png)
 
 ### Start provisioning
 
 Select **Provision**, and in a short time your site will be ready for you to use. How will you know? You’ll get an email (sent to the email address you provided on the form above) like this:
 
-![](media/Prov2.png)
+![PRov form2](media/Prov2.png)
 
 ### Open and explore your site
 
 Select **Open site**, and you’ll see your sample site and content in your tenant!
 
-![](media/ProvSite.png)
+![Prov site](media/ProvSite.png)
 
 From here, you can explore the site and edit the pages and content.
 

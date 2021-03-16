@@ -3,6 +3,7 @@ title: "SharePoint Migration Assessment Tool"
 ms.author: jhendr
 author: JoanneHendrickson
 manager: serdars
+recommendations: true
 ms.date: 01/11/2018
 audience: ITPro
 f1.keywords:

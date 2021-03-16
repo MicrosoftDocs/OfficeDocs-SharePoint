@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - CSH

@@ -4,6 +4,7 @@ ms.reviewer: holland-odsp
 ms.author: hokavian
 author: pamgreen-msft
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -11,6 +12,8 @@ ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
 ms.collection:  
+- m365solution-overview
+- m365solution-spintranet
 - Strat_SP_modern
 - M365-collaboration
 ms.custom:

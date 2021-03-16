@@ -4,6 +4,7 @@ ms.reviewer:
 ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
+recommendations: true
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -106,52 +107,25 @@ Many intranets include top navigation that persists on every site. Global naviga
 - Locations
 - Policies & Procedures/Tools & Resources/Safety & Security
 
-The goal of global navigation is to support browsing to content, but since there is limited real estate available for global navigation links, global links generally point to major category navigation pages, sub-links, or a mega menu experience to provide enough "information scent" to help viewers navigate their way to the content they need. Because the context for global navigation must be broad, it is challenging to make the labels both comprehensive and useful. If you plan to implement global navigation, consider using one of the testing methods discussed earlier to make sure that your proposed navigation resonates with users.
+The goal of global navigation is to support browsing to content, but since there is limited real estate available for global navigation links, global links generally point to major category navigation pages, sub-links, or a mega menu experience to provide enough "information scent" to help viewers navigate their way to the content they need. Because the context for global navigation must be broad, it is challenging to make the labels both comprehensive and useful. If you plan to implement global navigation, you will want to test your proposed navigation to make sure that it resonates with users.
 
-Global navigation is not yet available for modern SharePoint intranets. Until it is available, there are several ways to create a global navigation experience for your modern SharePoint intranet:
-
-- Create a custom [SharePoint Framework Extension](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview) to deliver and apply global navigation to each new site as it is created.
-- Create a "navigation" site (for example, your intranet "home" site) and use the logo in the suite bar and a Featured Site link on the SharePoint start page to make it easy for people to navigate to the "home" site from every destination site in your tenant.
-- Use a single hub for the entire organization. This might be a reasonable strategy for a small organization, but the benefits of hubs decrease in value if you only have one so this may not work for the long term.
-- Wait to add global navigation until it is available natively in the product.
-
-Where you’ll see global navigation elements:
-
-#### The start page
-
-The SharePoint [start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) is where you can easily find and access SharePoint sites and portals within your organization. This is the first opportunity users will have to start discovering news, sites, and easily navigate to the top of your intranet by selecting the logo.
-
-![Start page](media/start_page.png)
-
-#### The home site
-
-A [home site](https://docs.microsoft.com/sharepoint/home-site) is a SharePoint communication site that you create and set as the top landing page for all users in your intranet. It brings together news, events, embedded video and conversations, and other resources to deliver an engaging experience that reflects your organization's voice, priorities, and brand. This is a good place to display entry points to frequently accessed resources for human relations, information technology, departmental portals, and organizational news.
-
-![Home site page](media/home-site.png)
+Global navigation is enabled with the [SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) on your [home site](https://docs.microsoft.com/sharepoint/home-site). You will need to have a home site to enable global navigation. Global navigation appears on the left side of every site and page.
 
 ### Hub navigation
 
-The default navigation experiences available in classic SharePoint site hierarchies (sites with subsites) are not available in the "flat" world of modern SharePoint, where each unit of work or project or team gets its own site collection. Flat architectures are great for governance but can make it harder to implement navigation that connects multiple sites.
-
-[Hubs](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f) provide a great way to achieve the cross-site navigation features previously available in managed navigation and site hierarchies in classic SharePoint. One of the important planning decisions for hubs is [planning the hub navigation](https://docs.microsoft.com/sharepoint/planning-hub-sites).
-
-Hub navigation appears above the local navigation on each site, just below the suite bar, as shown in the image earlier in this article. Hub navigation is established in the site that is declared to be the hub. It is defined by the hub owner and is shared by all the associated sites.
+SharePoint [hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) help organize related sites based on project, department, division, region, or concept. Hubs make it easier to discover related content such as news and other site activities, apply common navigation, branding, site structure across associated sites and search across all [associated sites](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05). One of the important planning decisions for hubs is [planning the hub navigation](https://docs.microsoft.com/sharepoint/planning-hub-sites).
 
 ![Hub navigation](media/hub-nav.png)
 
-Where you’ll see hub navigation elements:
-
-SharePoint [hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) help you meet the needs of your organization by connecting and organizing sites based on project, department, division, region, etc. making it easier to discover related content such as news and other site activities, apply common navigation, branding, site structure across associated sites and search across all [associated sites](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05).
+Hub navigation appears above the local navigation on each site, just below the suite bar, as shown in the image earlier in this article. Hub navigation is established in the site that is declared to be the hub. It is defined by the hub owner and is shared by all the associated sites.
 
 ![SharePoint hubs example](media/hub_nav_example.png)
 
-A hub is a special capability that a SharePoint Administrator can add to a site that designates a site as the “head” of a family of related sites. Sites that are associated to the hub share navigation, branding, and other elements.
-
-Each site can belong to only one hub at a time, but you can associate hubs together in a combination of navigation links and associated hubs as part of your navigation experience. Using hubs is far more flexible and adaptive to the changing needs of your organization. For more info, see [Planning your SharePoint hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites).
+Each site can belong to only one hub at a time, but you can associate hubs together in a combination of navigation links and associated hubs as part of your navigation experience. For more information, see [Planning your SharePoint hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites).
 
 ### Local navigation
 
-Local navigation is the static navigation that viewers see on every page of your site. For team sites, local navigation shows up on the left side of the page in the area referred to as the "quick launch". For communication sites, local navigation shows up at the top of the page. Local navigation is on every page in your site – so make sure it is relevant. Think about how viewers might explore your content and use local navigation to support that exploration. 
+Local navigation is the static navigation that viewers see on every page of your site. For team sites, local navigation shows up on the left side of the page in the area referred to as the "quick launch". For communication sites, local navigation shows up at the top of the page. Local navigation is on every page in your site. It creates a persistent experience to allow site visitors to move back and forth among the pages and content on each site. Think about how viewers might explore your content and use local navigation to support that exploration. 
 
 Example: A travel site might have the following local navigation links that support viewers who are exploring the travel site from the perspective of "what am I allowed to do?" as well as viewers who are exploring the travel site from the perspective of the travel process – before, during, and after their trip.
 - Travel guidelines
@@ -182,18 +156,18 @@ Where you’ll see local navigation elements:
 
 ### Sites
 
-Your intranet and portals will be comprised of [team sites](https://support.microsoft.com/office/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) and [communication sites](https://support.microsoft.com/office/what-is-a-sharepoint-communication-site-94a33429-e580-45c3-a090-5512a8070732) that will provide further access into the site’s pages, lists, and libraries. Every page in each site tells a story for the reader. 
+Your intranet and portals will be comprised of [team sites](https://support.microsoft.com/office/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) and [communication sites](https://support.microsoft.com/office/what-is-a-sharepoint-communication-site-94a33429-e580-45c3-a090-5512a8070732) that provide further access into the site’s pages, lists, and libraries. 
 
-One component to modern SharePoint team sites that makes information architecture easier to implement and maintain are [Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups). M365 groups is a membership service that allows for easy hub and site permissions as well as additional functionality for SharePoint team sites and [Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups). With Microsoft 365 groups, you can give a group of people access to a collection of collaboration resources like Planner, OneNote, SharePoint team sites, and more. M365 groups can only be used on SharePoint team sites.
+One component to modern SharePoint team sites that makes information architecture easier to implement and maintain are [Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups). Microsoft 365 groups provide a membership service that allows for easy hub and site permissions as well as additional functionality for SharePoint team sites and [Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups). With Microsoft 365 groups, you can give a group of people access to a collection of collaboration resources like Planner, OneNote, SharePoint team sites, and more. M365 groups can only be used on SharePoint team sites.
 
 ### Pages
 
-[Pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) within team or communication sites provide an opportunity to use dynamic web parts that automatically update content from other sites and pages like [News](https://support.office.com/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165), [Highlighted content](https://support.office.com/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd), or [Sites web parts](https://support.office.com/article/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d).
+[Pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) within team or communication sites provide an opportunity to use dynamic web parts that automatically update content from other sites and pages like [News](https://support.office.com/article/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165), [Highlighted content](https://support.office.com/article/use-the-highlighted-content-web-part-e34199b0-ff1a-47fb-8f4d-dbcaed329efd), or [Sites web parts](https://support.office.com/article/use-the-sites-web-part-93cbd17b-0bf8-4355-9f32-cc90e0443e6d). Every page in each site tells a story for the reader. 
 
 Your sites will generally include three types of pages:
 
 - The **home page** where you will provide an overview of your content and introduce the reader to what they will find on the site.
-- Navigation pages that provide options or summary information for the reader and help them get to a decision point about where they want to go next.
+- **Navigation pages** that provide options or summary information for the reader and help them get to a decision point about where they want to go next.
 - **Destination pages** that are the end point of the reader’s journey. This is where you will present information to read, print, or download. If you have a lot of information on your destination page or you want to provide supplemental explanations for detailed topics, you can create an ancillary page.
 
 Since we know that most readers do not read every word on a web page or even scroll to the bottom, you need to pay attention to how you present information on each page. Make sure that you put the most important information – the information that your readers must have for your communication to be successful – at the top of the page. As the page continues, you can add additional information that is helpful, but not crucial. Think of this as writing with your summary or conclusion up front, instead of at the end. Use sections, headings, and bullets to make your pages easier to read. For more info, see [Add sections and columns on SharePoint modern page](https://support.microsoft.com/office/fc491eb4-f733-4825-8fe2-e1ed80bd0899).
@@ -231,4 +205,4 @@ Search leverages your information architecture investments to help users find co
 
 You can help users discover content and improve search outcomes by leveraging several features in search, including acronyms, bookmarks, Q&A, floor plans, and locations. For more info, see [Make content easy to find](https://docs.microsoft.com/microsoftsearch/make-content-easy-to-find) and [Search experiences in SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience).
 
-[**Next: learn about SharePoint information architecture principals**](information-architecture-principles.md)
+[**Next: learn about SharePoint information architecture principles**](information-architecture-principles.md)
