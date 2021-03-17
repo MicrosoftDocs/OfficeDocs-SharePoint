@@ -8,7 +8,7 @@ ms.date: 7/24/2018
 audience: ITPro
 f1.keywords:
 - NOCSH
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
 ms.collection:
@@ -122,7 +122,7 @@ Folders for the language-specific components are identified by the language tag 
 
 SharePoint Servers 2016 and 2019 support the following languages:
 
-|**Language**|**Language tag**|**LCID**
+|Language|Language tag|LCID|
 |:-----|:-----|:-----|:-----
 Arabic <br/>|ar-sa  <br/> | 1025 <br/>
 Azerbaijani <br/> |az-latn-az  <br/> |1068 <br/>
