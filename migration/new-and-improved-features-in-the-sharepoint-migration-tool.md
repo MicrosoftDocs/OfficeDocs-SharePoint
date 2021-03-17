@@ -29,7 +29,23 @@ Download and install SPMT using one of the links listed below.
 
 | Release |**Public preview**|**First release**|**Rolling out**|**Full General Availability**|
 |:-----|:-----|:-----|:-----|:-----|
-|Last released build|[3.4.121.2](https://aka.ms/spmt-beta-page)|[3.4.121.2](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|
+|Last released build|[3.4.121.4](https://aka.ms/spmt-beta-page)|[3.4.121.2](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|[3.4.120.7](https://aka.ms/spmt-ga-page)|
+
+
+## SPMT 3.4.121.4
+
+**New features and important changes**
+
+|Feature|Description|
+|:-----|:-----|
+|Support migration of files with size up to 100GB|We now support the migration of individual files up to 100GB, which is file size limit for SharePoint online.|
+|Display time elapsed and time remaining for each migration|On the migration progress page, the *time elapsed* and  *time remaining* values are displayed for each migration task. *Time remaining* is estimated based on the migration history and displays when there is enough historical data available to run the estimation. The *time remaining" value adjusts according to the history data. After the migration completes, a performance recommendation based on the analysis of the data displays below the top progress bar. </br>Learn more:  [How to improve migration performance](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance) |
+
+**Improvements**
+
+|Issue|Fix|
+|:-----|:-----|
+|General|General improvements have been made to fix bugs in tool.|
 
 
 ## SPMT 3.4.121.2
