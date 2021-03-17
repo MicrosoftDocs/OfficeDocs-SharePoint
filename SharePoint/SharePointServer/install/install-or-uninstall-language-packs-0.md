@@ -134,7 +134,7 @@ Chinese (Simplified) <br/> |zh-cn  <br/> |2052 <br/>
 Chinese (Traditional) <br/> |zh-tw  <br/> |1028 <br/>||
 Croatian <br/> |hr-hr  <br/> |1050 <br/>||
 Czech <br/> |cs-cz  <br/> |1029 <br/>||
-Danish <br/> |da-dk  <br/> |1026 <br/>||
+Danish <br/> |da-dk  <br/> |1030 <br/>||
 Dari <br/> |prs-af  <br/> |1164 <br/>||
 Dutch <br/> |nl-nl  <br/> |1043 <br/>||
 English <br/> |en-us  <br/> |1033 <br/>||
