@@ -42,18 +42,6 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 ![Migrating file shares user workflow](media/mm-fileshare-user-workflow.png)
 
 
-## Migrate Box.com user accounts
-
-Migrating your Box.com user accounts to Microsoft 365 lets you collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. You are guided through connecting to Box, scanning and assessing your content, allowing you to review and edit to make sure your migration runs smoothly.
-
-**Get started!**   [Migrating Box accounts to Microsoft 365](mm-box-overview.md)
-
-[**What's new**](mm-whats-new.md)
-
-![Migrating Box user accounts workflow](media/mm-box-user-workflow.png)
-
-
-
 
 ## Migrate SharePoint Server sites and content
 
@@ -71,6 +59,7 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 ## Additional cloud to cloud migrations
 Have content to migrate from other Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
 
+- Box
 - Microsoft 365 tenant to tenant migration
 - G Suite Drive
 - Dropbox
