@@ -16,12 +16,14 @@ ms.collection:
 search.appverid: MET150
 description: "Step 6: Migrate and monitor Box migration"
 ---
-# Preview - Step 6:  Migrate and monitor your Box migration
+# Step 6:  Migrate and monitor your Box migration (preview)
 
 >[!Important]
-> This feature is currently in private preview and subject to change without notice.
+> Features described in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
+>
+>This preview release currently supports only small to medium Box accounts as features may not work on large Box accounts. For large Box accounts, we recommend you use the [Mover migration tool](https://Mover.io).
 
-After you have reviewed the accounts, confirmed the destinations, correctly mapped identities, you are ready to migrate.
+Once have reviewed the accounts, confirmed the destinations, correctly mapped identities, you are ready to migrate.
 
 1. Select the accounts to migrate.
 
@@ -34,8 +36,12 @@ After you have reviewed the accounts, confirmed the destinations, correctly mapp
 3.  A confirmation step displays.  Click **Migrate**.  
 
 >[!Note]
-> Starting your migration onlies copies content from your Box accoutn to the location you have specified in Microsoft 365.  Make sure the destinations are correct, as once the migration starts, they cannot be modified.
+> Starting your migration only copies content from your Box account to the location you have specified in Microsoft 365.  Make sure the destinations are correct, as once the migration starts, they cannot be modified.
 
 4.  Once the migration begins, monitor the migration status, and the table summary at the top.  Depending on how large your migration, this step may take hours or days.
 
 
+>[!NOTE]
+>Migration Manager Box preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>
+> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

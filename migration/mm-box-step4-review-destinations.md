@@ -16,15 +16,18 @@ ms.collection:
 search.appverid: MET150
 description: Review your destination paths for your Box migration while using Migration Manager.
 ---
-# Preview - Step 4:   Review destination paths
+# Step 4:   Review destination paths (preview)
 
 >[!Important]
-> This feature is currently in private preview and subject to change without notice.
+> Features described in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
+>
+>This preview release currently supports only small to medium Box accounts as features may not work on large Box accounts. For large Box accounts, we recommend you use the [Mover migration tool](https://Mover.io).
 
-In this step, you are reviewing the destination paths of the accounts you have move to the migrations list, and making sure they are correct. An account cannot be migrated without a destination indicated and once you migrate content to a destination it cannot be modified.
+
+In this step, review the destination paths of the accounts you have moved to the migrations list, making sure they are correct. An account cannot be migrated without a destination indicated. Once you start migrating content to a destination, it cannot be modified.
 
 ## Single destination edit
-If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit.**.  You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.
+If a destination is missing, highlight the row. A panel will appear to the right. Under **Destination**, select **Edit**.  You have the choice of selecting a OneDrive, SharePoint, or Teams path as a destination.
 
 
 ### OneDrive
@@ -87,3 +90,9 @@ If you have many destinations to edit, you can choose to upload a bulk destinati
 
 
 [**Step 5: Map identities**](mm-box-step5-map-identities.md)
+
+
+>[!NOTE]
+>Migration Manager Box preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>
+> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.

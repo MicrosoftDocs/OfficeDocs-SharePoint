@@ -17,15 +17,18 @@ search.appverid: MET150
 description: "Step 3: Copy to migrations using Migration Manager."
 ---
 
-# Preview - Step 3: Copy to migrations 
+# Step 3: Copy to migrations (preview)
 
 >[!Important]
-> This feature is currently in private preview and subject to change without notice.
+> Features described in this topic are part of a preview release. The content and the functionality are subject to change and are not subject to the standard SLAs for support.
+>
+>This preview release currently supports only small to medium Box accounts as features may not work on large Box accounts. For large Box accounts, we recommend you use the [Mover migration tool](https://Mover.io).
+
 
 
  After a Box user has been scanned and determined ready, add them to your migration list.  
 
-1. Click the **Migrations** tab. The table will list all users that have been copied to migration.
+1. Select the **Migrations** tab. The table will list all users that have been copied to migration.
 
 ![Migrations tab](media/mm-box-migration-tab.png)
 
@@ -40,7 +43,7 @@ description: "Step 3: Copy to migrations using Migration Manager."
 ![Box copy to migration multiple users](media/mm-box-copy-migrations-multiple-confirm.png)
 
 
-5. Click the **Migrations** tab, and proceed to the next step.
+5. Select the **Migrations** tab, and proceed to the next step.
 
 ![Migrations tab](media/mm-box-migration-tab.png)
 
@@ -48,3 +51,7 @@ description: "Step 3: Copy to migrations using Migration Manager."
 [**Step 4: Review destinations**](mm-box-step4-review-destinations.md)
 
 
+>[!NOTE]
+>Migration Manager Box preview isn't available for users of Office 365 operated by 21Vianet in China. It's also not available for users of Microsoft 365 with the German cloud that use the data trustee *German Telekom*. It is supported for users in Germany whose data location isn't in the German datacenter.
+>
+> This feature is also not supported for users of the Government Cloud, including GCC, Consumer, GCC High, or DoD.
