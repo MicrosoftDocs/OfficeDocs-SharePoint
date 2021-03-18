@@ -1,6 +1,5 @@
 # [Migrate to Microsoft 365](migrate-to-sharepoint-online.md)
-## Box (Migration Manager)
-### Migrate file shares
+## Migrate file shares
 ### [Overview](mm-get-started.md)
 ### [Step 1: Set up Migration Manager agents](mm-setup-clients.md)
 ### [Step 2: Create a migration task](mm-how-to-use.md)
@@ -14,6 +13,7 @@
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [FAQs](mm-faqs.md)
 #### [Troubleshooting](mm-troubleshoot.md)
+## Migrate Box.com accounts
 ### [Overview](mm-box-overview.md)
 ### [Step 1: Connect to Box](mm-box-step1-connect.md)
 ### [Step 2: Scan and assess](mm-box-step2-scan-assess.md)
