@@ -21,7 +21,7 @@ description: "View usage reports and search reports and see how often your users
 # View search usage reports
 
 >[!NOTE]
->Beginning in Q4 CY2021, we'll be retiring classic tenant-wide search usage reports in SharePoint Online.  After this change, you will be able to discover site collection search usage data through the classic site collection usage reports under the **Site** > **Site Settings** > **Site collection Administration** > **Search Reports** where you can access and download usage data for the last 31 days and past 12 months. For administrators of Microsoft Search you can access the tenant usage analytics reports through the Microsoft 365 admin center under **Settings** > **Search and Intelligence** > **Insights**.
+>Starting in the fourth quarter of 2021, we'll be retiring classic tenant-wide search usage reports in SharePoint Online.  After this change, you will be able to discover site collection search usage data through the classic site collection usage reports under the **Site** > **Site Settings** > **Site collection Administration** > **Search Reports** where you can access and download usage data for the last 31 days and past 12 months. For administrators of Microsoft Search you can access the tenant usage analytics reports through the Microsoft 365 admin center under **Settings** > **Search and Intelligence** > **Insights**.
 
 If you're a SharePoint admin in your organization, you're probably asked questions about search usage, such as:
   
@@ -69,4 +69,3 @@ This article describes how you can use search reports in the SharePoint admin ce
 [Microsoft 365 Reports in the Admin Center - SharePoint site usage](/office365/admin/activity-reports/sharepoint-site-usage)
   
 [Microsoft 365 Reports in the Admin Center - SharePoint activity](/office365/admin/activity-reports/sharepoint-activity)
-
