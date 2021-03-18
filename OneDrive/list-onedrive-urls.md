@@ -73,19 +73,16 @@ The list you create in these steps will be saved to a text file.
    > [!NOTE]
    > If you get an error message about being unable to run scripts, you might need to change your execution policies. For info, see [About Execution Policies](https://go.microsoft.com/fwlink/?linkid=869255). 
     
-4. The script will prompt you for the SharePoint admin center URL. For example, "https://contoso-admin.sharepoint.com" is the Contoso SharePoint admin center URL.
+4. The script will prompt you for the SharePoint admin center URL. For example, `https://contoso-admin.sharepoint.com` is the Contoso SharePoint admin center URL.
 
 5. You will then be prompted to sign in. Use a SharePoint admin or global admin account.
 
 After the script successfully completes, a text file is created in the location specified by the **$LogFile** variable in the script. This file contains a list of all OneDrive Urls in your organization. The following text provides an example of how the list of Urls in this file should be formatted.
   
-```
-                                                     
-https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
+`https://contoso-my.sharepoint.com/personal/annb_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/carolt_contoso_onmicrosoft_com/
 https://contoso-my.sharepoint.com/personal/esterv_contoso_onmicrosoft_com/  
-https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/
-```
+https://contoso-my.sharepoint.com/personal/hollyh_contoso_onmicrosoft_com/`
 
 ## More information
 <a name="BKMK_MoreInfo"> </a>

@@ -150,6 +150,7 @@ If you want to auto-configure a SharePoint site to be synced, you can use the UR
 ```
 odopen://sync/?siteId=<siteId>&webId=<webId>&webUrl=<webURL>&listId=<listId>&userEmail=<userEmail>&webTitle=<webTitle>&listTitle=<listTitle>
 ```
+
 where:
 - **\<siteId\>** is the SharePoint site siteId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/site/id.
 - **\<webId\>** is the SharePoint site webId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/id.
@@ -158,16 +159,17 @@ where:
 - **\<userEmail\>** is the OneDrive's user email address used to sign in into OneDrive.
 - **\<webTitle\>** and **\<listTitle\>** are used to compose the name of the local folder where the OneDrive content is synchronized. By default, when you use the "Sync" button when in the browser to synchronize a document library, OneDrive uses the  SharePoint site name and the document library name to compose the local folder name, in the form of %userprofile%\\<TenantName\>\\<SiteName\> - \<DocumentLibraryName\>. You could use any other values if you prefer to. If you do not use these parameters, the local folder will be named "<TenantName> - Documents", despite of site and library names.
 
-For example, if you want to synchronize https://contoso.sharepoint.com/sites/SalesTeam-01/ProjectX, where "ProjectX" is the documents library to synchronize, to "%userprofile%\Contoso\Sales - Unicorn" folder, you will need the following parameters to compose the odopen:// URL:
+For example, if you want to synchronize `https://contoso.sharepoint.com/sites/SalesTeam-01/ProjectX`, where "ProjectX" is the documents library to synchronize, to "%userprofile%\Contoso\Sales - Unicorn" folder, you will need the following parameters to compose the odopen:// URL:
 - siteId: {ssssssss-ssss-ssss-ssss-ssssssssssss}
 - webId:  {wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}
-- webUrl: https://contoso.sharepoint.com/sites/SalesTeam-01
+- webUrl: `https://contoso.sharepoint.com/sites/SalesTeam-01`
 - listId: {llllllll-llll-llll-llll-llllllllllll}
 - userEmail: user@contoso.com
 - webTitle: Sales (you would use *SalesTeam-01* to mimic Sync button behavior instead)
 - listTitle: Unicorn (you would use *ProjectX* to mimic Sync button behavior instead)
 
 The resulting odopen:// URL will be:
+
 ```
 odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}&webUrl=https://contoso.sharepoint.com/sites/SalesTeam-01&listId={llllllll-llll-llll-llll-llllllllllll}&userEmail=user@contoso.com&webTitle=Sales&listTitle=Unicorn
 ```
