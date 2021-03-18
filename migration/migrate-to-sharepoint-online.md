@@ -31,7 +31,7 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 >When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
 
 
-## Migrating File Shares
+## Migrate File Shares
 Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You are guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
 
 
@@ -42,7 +42,7 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 ![Migrating file shares user workflow](media/mm-fileshare-user-workflow.png)
 
 
-## Migrating Box.com user accounts
+## Migrate Box.com user accounts
 
 Migrating your Box.com user accounts to Microsoft 365 lets you collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. You are guided through connecting to Box, scanning and assessing your content, allowing you to review and edit to make sure your migration runs smoothly.
 
@@ -55,11 +55,13 @@ Migrating your Box.com user accounts to Microsoft 365 lets you collaborate all i
 
 
 
-## Migrating SharePoint Server sites and content
+## Migrate SharePoint Server sites and content
 
 Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint is designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
 
 **Get started!**  [Migrate SharePoint Server to Microsoft 365](introducting-the-sharepoint-migration-tool.md)
+
+[**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 ![Migrating SharePoint Server sites user workflow](media/smpt-user-workflow.png)
 
@@ -80,13 +82,17 @@ Have content to migrate from other Cloud providers? The [Mover tool](https://mov
 
 **Get started!** [Mover migation tool](https://mover.io/)
 
+[**What's new**](mover-release-notes.md)
+
 
 
 ## Other resources
 
 
-- **Microsoft FastTrack**.  Microsoft FastTrack services can help you get started with your migration to the cloud.|When you need assistance to help you get started on your migration project.
-- **Azure Data Box**. Want to remove the dependency on your WAN link to transfer data?  The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. Once your data is in Azure, use SPMT to migrate content to SharePoint. To learn more, see [Migrate using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md).
+- **Microsoft FastTrack**.  Microsoft FastTrack services can help you get started with your migration to the cloud.|When you need assistance to help you get started on your migration project.</br>
+
+- **Azure Data Box**. Want to remove the dependency on your WAN link to transfer data?  The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. Once your data is in Azure, use SPMT to migrate content to SharePoint. To learn more, see [Migrate using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md).</br>
+
 - **OneDrive sync app**  Are you an individual user wanting to move files from your on-premises environment to OneDrive or SharePoint?  After installing the OneDrive sync app and syncing your library, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint. To learn more, see: [OneDrive sync app](https://docs.microsoft.com/onedrive/one-drive-sync).
 
 
