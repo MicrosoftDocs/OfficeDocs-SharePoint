@@ -32,7 +32,7 @@ Moving to Microsoft 365? Let us help you migrate your content easily and securel
 
 
 ## Migrate File Shares
-Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You are guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
+Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
 
 
 **Get started!**  [Migrating File shares](mm-get-started.md)
@@ -45,18 +45,18 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 
 ## Migrate SharePoint Server sites and content
 
-Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint is designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
+Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
 
 **Get started!**  [Migrate SharePoint Server to Microsoft 365](introducting-the-sharepoint-migration-tool.md)
 
 [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
-![Migrating SharePoint Server sites user workflow](media/smpt-user-workflow.png)
+![Migrating SharePoint Server sites user workflow](media/spmt-user-workflow.png)
 
 
 
 
-## Additional cloud to cloud migrations
+## More cloud to cloud migrations
 Have content to migrate from other Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
 
 - Box
@@ -69,7 +69,7 @@ Have content to migrate from other Cloud providers? The [Mover tool](https://mov
 - Google Cloud Storage
 
 
-**Get started!** [Mover migation tool](https://mover.io/)
+**Get started!** [Mover migration tool](https://mover.io/)
 
 [**What's new**](mover-release-notes.md)
 

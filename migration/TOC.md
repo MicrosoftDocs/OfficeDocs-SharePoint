@@ -12,7 +12,7 @@
 ### [Migration Manager Reports](mm-reports.md)
 ### [FAQs](mm-faqs.md)
 ### [Troubleshooting Migration Manager](mm-troubleshoot.md)
-## Box
+## Box (Migration Manager)
 ### [Overview](mm-box-overview.md)
 ### [Step 1: Connect to Box](mm-box-step1-connect.md)
 ### [Step 2: Scan and assess](mm-box-step2-scan-assess.md)
