@@ -133,6 +133,8 @@ Minimum requirements for a database server in a farm:
   
 - One of the following:
     
+  - The 64-bit edition of SQL Server 2014 (requires May 2014 cumulative update for SharePoint Server 2013).
+    
   - The 64-bit edition of Microsoft SQL Server 2012.
     
   - The 64-bit edition of SQL Server 2008 R2 Service Pack 1
@@ -432,4 +434,3 @@ Certain prerequisites are installed by the prerequisite installer with specific 
     
 The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log. You can check these log files for specific details about all changes the installer makes to the target computer.
   
-
