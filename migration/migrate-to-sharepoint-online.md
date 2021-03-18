@@ -27,6 +27,22 @@ description: "This article helps you understand, which tool to use when migratin
 
 Moving to Microsoft 365? There are several tools and methods you can use; what is best for you and your organization depends on a number of factors. What is the size and amount of content you need to move? Where does it currently reside? Taking the time to plan your migration, including taking an inventory and assessment of your data, is key to a successful migration.
 
+
+## Migrating File Shares
+Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You are guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
+
+![Migrating file shares user workflow](media/mm-fileshare-user-workflow.png)
+
+
+## Migrating Box 
+
+Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365.
+
+![Migrating Box user accounts workflow](media/mm-box-user-workflow.png)
+
+
+
+
 To learn more about which tool to use, see the following table.
 
 >[!Note]
