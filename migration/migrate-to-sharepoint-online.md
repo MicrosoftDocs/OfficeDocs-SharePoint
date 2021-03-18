@@ -38,9 +38,9 @@ Get started!  [Migrating File shares](mm-get-started.md)
 
 ## Migrating Box 
 
-Collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
+Migrating your Box.com user accounts to Microsoft 365 lets you collaborate all in one place by migrating your Box documents, data, and users to OneDrive, SharePoint, and Teams in Microsoft 365. 
 
-Get started!   [Migrating Box](mm-box-overview.md)
+Get started!   [Migrating Box accounts to Microsoft 365](mm-box-overview.md)
 
 ![Migrating Box user accounts workflow](media/mm-box-user-workflow.png)
 
@@ -49,14 +49,17 @@ Get started!   [Migrating Box](mm-box-overview.md)
 
 ## Migrating SharePoint Server sites and content
 
-Migrate your SharePoint Server 2010, 2013, and 2016 environments
+Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365.  The modern experience features in Microsoft SharePoint is designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
+
+Get started!  [Migrate SharePoint Server to Microsoft 365](introducting-the-sharepoint-migration-tool.md)
 
 ![Migrating SharePoint Server sites user workflow](media/smpt-user-workflow.png)
 
 
 
 
-
+## Additional Cloud to Cloud migrations
+We
 
 
 
