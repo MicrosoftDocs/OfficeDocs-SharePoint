@@ -38,6 +38,9 @@ If you're creating a user mapping via CSV, you would map your Accounting Shared 
 
 Our app is not able to read or write permissions to Google Shared Drives. Shared Drives do not allow explicit folder level permissions. Rather, Shared Drive permissions are set based on the Shared Drive members.
 
+>[!Important]
+>The Shared Drive must have *at least one member* with either the Writer or Organizer role in it for Mover to scan or transfer content out of the Shared Drive. If no members have the Writer or Organizer role, the scan or transfer will fail with errors stating we cannot access the Shared Drive.
+
 ### What's the difference between file versions and revision history?
 
 Revision history for Google Docs, Sheets, and Slides is different than file versions in Google Drive. Revision history refers to the ability to see earlier versions of a file, and view who made specific edits to the document. During the migration, revision history is not transferred. Only the most recent version of a file is transferred.

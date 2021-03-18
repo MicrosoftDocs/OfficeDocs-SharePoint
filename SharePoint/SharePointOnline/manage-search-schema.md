@@ -128,6 +128,9 @@ For more info about Delve, see [Office Delve for Office 365 admins](https://go.m
 > Not all options are available in SharePoint in Microsoft 365.  Refinable Managed Properties cannot be created. Instead use the existing Refinable Managed Properties, e.g. RefinableString00 or RefinableInt00. Searching "Refinable" will show all of the usable Refinable Managed Properties available.
 
 In SharePoint in Microsoft 365, when you create a new managed property, it will have some limitations. For example, the property can only be of type **Text** or **Yes/No**, and it can't be refinable or sortable.
+
+> [!IMPORTANT]
+> Consider using only letters and digits in managed property names. Although it is possible to create custom managed properties with special characters (such as hyphens, dots, and underscores), many of those characters act as operator characters in the query syntax. For example, a hyphen means negation. Such property names have to be enclosed in double quotation marks when used in queries.  Many tools and applications that create queries don’t handle this correctly, and therefore it is better to use only letters and digits in managed property names.
   
 If you need a property of a different type, or one that has different characteristics than what is available, follow the steps under [Create a managed property by renaming an existing one](manage-search-schema.md#__ref341260321).
   
