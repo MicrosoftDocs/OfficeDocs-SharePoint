@@ -39,7 +39,7 @@ The following table shows all the file formats that SharePoint Server has built-
 |||||
 |:-----|:-----|:-----|:-----|
 |**File format** <br/> |**Format ID** <br/> |**File name extension** <br/> |**File name extension listed on the Manage File Types page by default** <br/> |
-|Email message  <br/> |eml  <br/> |.eml  <br/> |Yes  <br/> | Not supported with SharePoint in Microsoft 365. 
+|Email message  <br/> |eml  <br/> |.eml  <br/> |Yes  <br/> |  
 |Email message  <br/> |nws  <br/> |.nws  <br/> |Yes  <br/> |
 |HTML  <br/> |html  <br/> |.ascx  <br/> |Yes  <br/> |
 |HTML  <br/> |html  <br/> |.asp  <br/> |Yes  <br/> |
@@ -52,7 +52,7 @@ The following table shows all the file formats that SharePoint Server has built-
 |HTML  <br/> |html  <br/> |.htx  <br/> |No  <br/> |
 |HTML  <br/> |html  <br/> |.jhtml  <br/> |No  <br/> |
 |HTML  <br/> |html  <br/> |.stm  <br/> |No  <br/> |
-|MHTML document  <br/> |mhtml  <br/> |.mht  <br/> |Yes  <br/> | Not supported with SharePoint in Microsoft 365. 
+|MHTML document  <br/> |mhtml  <br/> |.mht  <br/> |Yes  <br/> | 
 |MHTML document  <br/> |mhtml  <br/> |.mhtml  <br/> |Yes  <br/> |
 |Microsoft Excel  <br/> |xlb  <br/> |.xlb  <br/> |No  <br/> |
 |Microsoft Excel  <br/> |xlc  <br/> |.xlc  <br/> |No  <br/> |
