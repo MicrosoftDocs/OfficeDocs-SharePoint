@@ -36,7 +36,6 @@ Located in the modern SharePoint Admin Center, the Migration Manager guides you 
 
 ## How does it work?
 
-It works in three simple steps:
 
 ![Set up migration agents](media/mm-flow-3box.png)
 
