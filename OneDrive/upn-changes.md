@@ -57,7 +57,7 @@ You can change a UPN by changing the prefix, suffix, or both:
 
 A user's OneDrive URL is based on their UPN:
 
-``https://contoso-my.sharepoint.com/personal/user1_contoso_com``
+`https://contoso-my.sharepoint.com/personal/user1_contoso_com`
 
 (where user1_contoso_com corresponds with user1@contoso.com)
 
@@ -66,7 +66,7 @@ A user's OneDrive URL is based on their UPN:
 
 In this case, if you changed the prefix to user2 and the suffix to contososuites.com, the user's OneDrive URL would change to:
 
-``https://contoso-my.sharepoint.com/personal/user2_contososuites_com``
+`https://contoso-my.sharepoint.com/personal/user2_contososuites_com`
 
 After you change a UPN, any saved links to the user's OneDrive (such as desktop shortcuts or browser favorites) will no longer work and will need to be updated.
   

@@ -97,8 +97,8 @@ A global or SharePoint admin can view and change the segments associated with a 
     Get-SPOSite -Identity <site URL> | Select InformationSegment 
     ```
 
-    Example: 
-    Get-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment 
+    Example: `Get-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com | Select InformationSegment`
+    
 
 ## Associate or remove segments on a user's OneDrive
 
@@ -114,8 +114,8 @@ To associate a segment with a OneDrive, run the following command in the SharePo
 Set-Sposite -Identity <site URL> -AddInformationSegment <segment GUID> 
  ```
 
-Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
--AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
+Example: `Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com  
+-AddInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111`
 
 An error will appear if you attempt to associate a segment that isn't compatible with the existing segments on the OneDrive. 
 
@@ -125,8 +125,8 @@ To remove segment from a OneDrive, run the following command.
 Set-Sposite -Identity <site URL> -RemoveInformationSegment <segment GUID>
  ```
 
-Example: Set-SPOSite -Identity https:<i></i>//contoso-my<i></i>.sharepoint<i></i>.com/personal/John_contoso_onmicrosoft_com  
--RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111 
+Example: `Set-SPOSite -Identity https://contoso-my.sharepoint.com/personal/John_contoso_onmicrosoft_com  
+-RemoveInformationSegment 27d20a85-1c1b-4af2-bf45-a41093b5d111`
 
 ## Effects of changes to user segments or information barrier policies
 
