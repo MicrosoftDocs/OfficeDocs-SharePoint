@@ -290,7 +290,7 @@ If you're using information rights management (IRM), OneDrive can synchronize th
 
 ### Windows Information Protection
 
-You can use Windows Information Protection (WIP) to help prevent data leakage by deploying application or device policies that restrict how your employees can store, access, and use your organization's data. For example, you can restrict users to synchronizing files that contain company data only to OneDrive and not to personal cloud storage providers like Dropbox. For info about how to use WIP, see [Protect your enterprise data using Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip/).
+You can use Windows Information Protection (WIP) to help prevent data leakage by deploying application or device policies that restrict how your employees can store, access, and use your organization's data. For example, you can restrict users to synchronizing files that contain company data only to OneDrive and not to personal cloud storage providers like Dropbox. For info about how to use WIP, see [Protect your enterprise data using Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
 If you've decided to use Windows Information Protection with OneDrive, see the following resources to set up your Windows Information Protection policies:
 
@@ -326,7 +326,7 @@ These are the key decisions around sharing for OneDrive:
 
 - **Do you want to restrict external sharing by domain?** You can restrict external sharing to specific domains or prevent sharing with specific domains.
 
-Note that the OneDrive sharing settings are a subset of the SharePoint sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint. For more info, see [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration.md).
+Note that the OneDrive sharing settings are a subset of the SharePoint sharing settings. If you want to allow external sharing in OneDrive, it must be enabled for SharePoint. For more info, see [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration).
 
 ## Data retention
 

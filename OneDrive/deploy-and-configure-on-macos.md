@@ -246,7 +246,7 @@ This setting specifies the SharePoint Server 2019 on-premises URL that the OneDr
 To enable this setting, you must define a string containing the URL of the on-premises SharePoint Server.
 
 The example for this setting in the .plist file is:
-<br/> \<key\>SharePointOnPremFrontDoorUrl</key\> <br/>\<string\>https://Contoso.SharePoint.com\</string\> <br/>
+<br/> \<key\>SharePointOnPremFrontDoorUrl</key\> <br/>\<string\>`https://Contoso.SharePoint.com\`</string\> <br/>
 
 [More info about configuring the OneDrive sync app for SharePoint Server 2019](/sharepoint/install/new-onedrive-sync-client)
 

@@ -18,7 +18,7 @@ search.appverid: MET150
 description: "Learn about the reports available when using Migration Manager in Microsoft 365."
 ---
 
-# Using the Migration Manager Reports
+# Step 3: Monitor and report in Migration Manager
 
 Migration Manager generates log files, summary and task level reports, and a performance report.  These will help you manage, audit and troubleshoot your migration process.
 
