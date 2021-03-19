@@ -18,7 +18,7 @@ search.appverid: MET150
 description: Set up multiple Migration Manager agents
 ---
 
-# Setup Migration Manager agents
+# Step 1: Setup Migration Manager agents
 
 The Migration Manager centralizes the management of large file share migrations by configuring one or more computers or virtual machines (VMs) as migration "agents". To do create an agent, download and run a setup file on each computer.  
 

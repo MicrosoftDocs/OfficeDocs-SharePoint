@@ -19,9 +19,9 @@ ms.custom:
 search.appverid: MET150
 description: How to use Migration Manager in the SharePoint admin center to move your content to Microsoft 365.
 ---
-# Using Migration Manager
+# Step 2: Create a migration task with Migration Manager
 
-Migration Manager is located in the modern SharePoint admin center. It will guide you through agent setup and creating your file share migration tasks.    
+Migration Manager is located in the modern SharePoint admin center. You will be guided through agent setup and creating your file share migration tasks.    
 
 ## Before you begin
 
