@@ -18,8 +18,8 @@ description: "Step 6: Migrate and monitor Box migration"
 ---
 # Step 6:  Migrate and monitor your Box migration (preview)
 
->[!Important]
-> Features described in this topic are part of a preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
+>[!Note]
+> Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 >
 >This preview release currently supports only small to medium Box accounts as features may not work on large Box accounts. For large Box accounts, we recommend you use the [Mover migration tool](https://Mover.io).
 
