@@ -47,7 +47,7 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 
 Migrate your SharePoint Server sites and content to take advantage of the latest collaboration, intelligence, and security solutions in Microsoft 365. The modern experience features in Microsoft SharePoint are designed to be compelling, flexible, and more performant. Migrate your SharePoint Server 2010, 2013, and 2016 environments.
 
-**Get started!**  [Migrate SharePoint Server to Microsoft 365](introducting-the-sharepoint-migration-tool.md)
+**Get started!**  [Migrate SharePoint Server to Microsoft 365](introducing-the-sharepoint-migration-tool.md)
 
 [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
