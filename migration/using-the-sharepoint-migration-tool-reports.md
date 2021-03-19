@@ -186,8 +186,8 @@ The **ItemFailureReport.csv**, is only generated if an error resulting in a file
    
 ### Item Report
 
-The **ItemReport.csv** is a detailed report that provides data on each file within the task. 
-  
+The **ItemReport.csv** is a detailed report that provides data on each file within the task.
+
 |Column|Description|
 |:-----|:-----|
 |Source  |File path or URL of the location of the data being migrated. |
