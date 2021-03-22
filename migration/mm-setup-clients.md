@@ -38,7 +38,7 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |Virtual machines or computers to use:|Determine how many VMs or computers you plan on using for your migration project. List the computers or VMs before you start.|
 |[Verify prerequisites](mm-prerequisites.md)|Make sure your computer meets the requirements.|
 |[Check required endpoints](mm-prerequisites.md)|Verify that you have the required endpoints configured.|
-|[Multi-geo tenant](#muli-geo-tenant-set-up?)|If you have a multi-geo tenant, make sure to understand where the agent will be installed.|
+|[Multi-geo tenant](#multi-geo-tenant-setup)|If you have a multi-geo tenant, make sure to understand where the agent will be installed.|
 |[Pre-provision OneDrive accounts](https://docs.microsoft.com/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. Pre-provisioning can be done by using a script as described here: [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts).|
 |[Government Cloud](mm-gov-cloud.md)|If your tenant resides in a government cloud, you may have extra steps to perform before using Migration Manager.|
 
