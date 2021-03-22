@@ -45,9 +45,9 @@ You can avoid fine-grained permissions by doing the following:
 
 Before you begin this operation, review the following information about prerequisites:
   
-- [Fine-grained permission reference for SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)
+- [Fine-grained permission reference for SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md)
     
-- [Troubleshoot common fine-grained permissions issues for SharePoint Server](/SharePoint/administration/troubleshoot-common-fine-grained-permissions-issues)
+- [Troubleshoot common fine-grained permissions issues for SharePoint Server](../administration/troubleshoot-common-fine-grained-permissions-issues.md)
     
 ## Best practices to avoid common limit issues of fine-grained permissions
 <a name="avoidcommonfgpissues"> </a>
@@ -138,5 +138,3 @@ As indicated earlier, the hierarchical depth of permission scopes can affect the
  **Best practice:**
   
 Reduce the numbers of uniquely permissioned parent objects. This reduces the number of scopes that have to be updated with Limited Access members when any child object's scope changes.
-  
-

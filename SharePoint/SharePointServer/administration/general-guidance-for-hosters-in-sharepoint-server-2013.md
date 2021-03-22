@@ -130,7 +130,7 @@ Depending upon authentication requirements, custom code may be required. When us
 > [!NOTE]
 > The previous considerations are valid for both single-tenant per farm and multi-tenant per farm. 
   
-For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+For additional information about SAML authentication and FBA authentication in SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md) and [Configure forms-based authentication for a claims-based web application in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
 #### The Tenant Administrator Experience
 
@@ -200,5 +200,3 @@ The service applications available in a SharePoint Server 2013 on-premises envir
 > The column, **Supported for Multi-Tenancy**, means you can't configure it in multi-tenancy. You will get an error message. 
   
 Along with the previous considerations, tenant provisioning and de-provisioning processes and scripts have to account for each service application that stores tenant data. For some service applications, all the management of tenant data is moved to elements of the tenant administration site, whereas with some, a combination of farm-level and tenant-level administration is required.
-  
-

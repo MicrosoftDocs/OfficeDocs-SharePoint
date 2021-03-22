@@ -231,7 +231,7 @@ The way that you decide to distribute data from the search components and from t
 #### Choose type of storage
 <a name="BKMK_ChooseStoragePerf"> </a>
 
-For an overview of storage architectures and disk types, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2013)](/SharePoint/administration/storage-and-sql-server-capacity-planning-and-configuration). The servers that host the index, analytics processing, and the search administration components, or search databases, require storage that can maintain low latency, while providing sufficient I/O operations per second (IOPS). The following tables show how many IOPS each of these search components and databases require.
+For an overview of storage architectures and disk types, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2013)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md). The servers that host the index, analytics processing, and the search administration components, or search databases, require storage that can maintain low latency, while providing sufficient I/O operations per second (IOPS). The following tables show how many IOPS each of these search components and databases require.
   
 If you deploy shared storage like SAN/NAS, the peak disk load of one search component typically coincides with the peak disk load of another search component. To get the number of IOPS search requires from the shared storage, you need to add up the IOPS requirement of each of these components.
   
@@ -268,5 +268,3 @@ If you aren't familiar with high availability strategies, here's an article that
 All of the sample search architectures host redundant search components on independent servers. In the sample search architectures, the rightmost host in each host pair is redundant. Here's the large search architecture with outlined redundant hosts:
   
 ![Diagram of large enterprise search farm indicating which servers host redundant search components.](../media/SearchLargeEnterpriseSearchFarmRedundantIndication.gif)
-  
-

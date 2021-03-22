@@ -23,7 +23,7 @@ description: "Learn about sizing and location information for the databases that
   
 This article describes the databases that are installed for SharePoint Server. Each database description includes information about sizing and placement. For more information see [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
-Databases for SharePoint Server 2019 can be hosted in Microsoft SQL Server 2016 and Microsoft SQL Server 2017. Databases for SharePoint Server 2016 can be hosted in SQL Server 2014 Service Pack 1 (SP1) and SQL Server 2016. Databases for SharePoint Server 2013 can be hosted in SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012. For more information see [System requirements for SharePoint Servers 2016 and 2019](/sharepoint/install/system-requirements-for-sharepoint-server-2016) and [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
+Databases for SharePoint Server 2019 can be hosted in Microsoft SQL Server 2016 and Microsoft SQL Server 2017. Databases for SharePoint Server 2016 can be hosted in SQL Server 2014 Service Pack 1 (SP1) and SQL Server 2016. Databases for SharePoint Server 2013 can be hosted in SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012. For more information see [System requirements for SharePoint Servers 2016 and 2019](../install/system-requirements-for-sharepoint-server-2016.md) and [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md).
   
 All database names that are listed in this article are automatically created when you run the SharePoint Products Configuration Wizard. You do not have to use these naming conventions. You can either specify your own database names when you create them or change the names after they are created. For more information, see [Move or rename service application databases in SharePoint Server](../administration/move-or-rename-service-application-databases.md)
   
@@ -89,7 +89,7 @@ The configuration database also contains specific data for SharePoint Server far
 #### Additional notes
 <a name="notes"> </a>
 
- **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are using SQL Server Always On availability groups or database mirroring, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715518&amp;clcid=0x409).
+ **Transaction log files**. We recommend that you back up the transaction log for the configuration database regularly to force truncation. If you are using SQL Server Always On availability groups or database mirroring, you should also keep the database running in full recovery mode. For more information, see [The Transaction Log (SQL Server)](/sql/relational-databases/logs/the-transaction-log-sql-server?viewFallbackFrom=sql-server-2014).
   
  **Backup and Restore**. The configuration database is backed up when you perform a SharePoint farm configuration and content backup. Note that some configuration settings from the database are exported and stored as XML file. When a farm is restored, the configuration database is not restored. Instead, the saved configuration settings are imported. The configuration database can be successfully backed up and restored by using SQL Server or other tools if the SharePoint farm is first taken offline.
   
@@ -103,10 +103,10 @@ The Central Administration content database is considered to be a configuration 
 > [!NOTE]
 > Power Pivot for SharePoint can only be installed on SharePoint Server 2016 when you use SQL Server 2016 CTP 3.1 or later as the database server. 
   
-For more information, download [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409). For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409). 
+For more information, download [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409). For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](/sql/sql-server/install/install-sql-server-business-intelligence-features). 
   
 > [!NOTE]
-> Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server 2016. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server](/webappsserver/office-web-apps-server) and [Configure Excel Online administrative settings](/SharePoint/administration/configure-excel-services). 
+> Excel Services and its associated business intelligence capabilities are no longer hosted on SharePoint Server 2016. Excel Services functionality is now part of Excel Online in Office Online Server (this is the next version of Office Web Apps Server), and SharePoint users can use the services from there. For more information, see [Office Online Server](/webappsserver/office-web-apps-server) and [Configure Excel Online administrative settings](../administration/configure-excel-services.md). 
   
 If SQL Server 2012 Power Pivot for SharePoint 2013 is installed, the Central Administration content database also stores the Excel worksheets and Power Pivot data files used in the Power Pivot Management Dashboard. Note that Power Pivot for SharePoint 2013 can only be installed on SharePoint Server 2013.
   
@@ -145,7 +145,7 @@ Content databases also store the following:
   
 Power Pivot for SharePoint 2013 can't be installed on SharePoint Foundation 2013, only on SharePoint Server 2013.
   
-Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [System requirements for SharePoint Servers 2016 and 2019](/sharepoint/install/system-requirements-for-sharepoint-server-2016) and [Software requirements for business intelligence in SharePoint Server](../administration/software-requirements-for-business-intelligence.md).
+Note that to use the business intelligence (BI) tools in SharePoint Server 2013 you must install SQL Server 2012 with Service Pack 1 (SP1) or SQL Server 2014, 64-bit version. For more information, see [System requirements for SharePoint Servers 2016 and 2019](../install/system-requirements-for-sharepoint-server-2016.md) and [Software requirements for business intelligence in SharePoint Server](../administration/software-requirements-for-business-intelligence.md).
   
 **Content database**
 
@@ -173,7 +173,7 @@ Content database size varies significantly with the usage of the site. Growth fa
   
 If Power Pivot for SharePoint is being used, the Excel Online files stored in SharePoint Server 2016 grow larger, which increases the size of the content database. For more information, see [PowerPivot for SharePoint (SSAS)](https://go.microsoft.com/fwlink/p/?LinkID=733878&amp;clcid=0x409).
   
-If Power Pivot for SharePoint is being used, the Excel files stored in SharePoint Server 2013 grow larger, which increases the size of the content database. For more information, see [Plan a PowerPivot Deployment in a SharePoint Farm](https://go.microsoft.com/fwlink/p/?LinkID=186698).
+If Power Pivot for SharePoint is being used, the Excel files stored in SharePoint Server 2013 grow larger, which increases the size of the content database. For more information, see [Plan a PowerPivot Deployment in a SharePoint Farm](/previous-versions/sql/sql-server-2008-r2/ee210603(v=sql.105)).
   
 For detailed recommendations about how to calculate the size of a content database, see [Storage and SQL Server capacity planning and configuration (SharePoint Server)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).
   
@@ -548,7 +548,7 @@ The State Service database stores temporary state information for InfoPath Forms
 ## SQL Server system databases
 <a name="Sec3"> </a>
 
-SharePoint Server is built on SQL Server and uses the SQL Server system databases. SQL Server does not let users directly update information in system objects such as system tables, system stored procedures, and catalog views. Instead, SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](https://go.microsoft.com/fwlink/p/?LinkID=733887&amp;clcid=0x409).
+SharePoint Server is built on SQL Server and uses the SQL Server system databases. SQL Server does not let users directly update information in system objects such as system tables, system stored procedures, and catalog views. Instead, SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](/sql/relational-databases/databases/system-databases?viewFallbackFrom=sql-server-2014).
   
 ### master database
 
@@ -697,4 +697,3 @@ The Report Server Alerting database stores all Data Alerts metadata and runtime 
 [SQL Server 2016](https://www.microsoft.com/sql-server/sql-server-2016)
   
 [SQL Server 2014 Service Pack 1 release information](https://support.microsoft.com/kb/3058865)
-

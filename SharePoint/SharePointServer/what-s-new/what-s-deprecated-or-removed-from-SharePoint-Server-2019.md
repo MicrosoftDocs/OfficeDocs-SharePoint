@@ -74,9 +74,9 @@ There will not be a new InfoPath client shipped with this release. Microsoft wil
 
 The following SOAP endpoints in the Lists web service depend on the Microsoft Sync Framework, which was necessary to support the Groove sync app. Because the Groove sync app is now a deprecated feature, these SOAP endpoints are also being deprecated for the SharePoint Server 2019 release.
 
-- [Lists.GetListItemChangesWithKnowledge](https://msdn.microsoft.com/library/websvclists.lists.getlistitemchangeswithknowledge.aspx)
+- [Lists.GetListItemChangesWithKnowledge](/previous-versions/office/sharepoint-server/ee550607(v=office.15))
 
-- [Lists.UpdateListItemsWithKnowledge](https://msdn.microsoft.com/library/websvclists.lists.updatelistitemswithknowledge.aspx)
+- [Lists.UpdateListItemsWithKnowledge](/previous-versions/office/sharepoint-server/ee545693(v=office.15))
  
 ### Machine Translations
 
@@ -108,7 +108,7 @@ The following features and functionality have been removed in SharePoint Server 
 
 ### Code-Based Sandbox Solutions
 
-As announced in the Microsoft Office Dev Center and previous articles, code-based sandbox solutions were deprecated in SharePoint Server 2013 and have now been [removed](/sharepoint/what-s-new/what-s-new) in SharePoint in Microsoft 365. After careful consideration, we've decided to also remove support for code-based sandbox solutions in SharePoint Server 2019. Customers are recommended to explore [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) as an alternative, which are fully supported for both SharePoint on-premises and SharePoint.
+As announced in the Microsoft Office Dev Center and previous articles, code-based sandbox solutions were deprecated in SharePoint Server 2013 and have now been [removed](./what-s-new.md) in SharePoint in Microsoft 365. After careful consideration, we've decided to also remove support for code-based sandbox solutions in SharePoint Server 2019. Customers are recommended to explore [SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) as an alternative, which are fully supported for both SharePoint on-premises and SharePoint.
 
 ### Digest Authentication
 
@@ -134,7 +134,7 @@ Since the feature was first introduced in SharePoint, Microsoft BI strategy has 
 
 ### SharePoint Workflow Manager (SharePoint Server 2019 Preview)
 
-Microsoft announced that SharePoint Server 2019 Preview would support a new workflow management application called SharePoint Workflow Manager to run SharePoint Server 2013 workflows. However, the SharePoint Workflow Manager application was canceled before its final release. The RTM release of SharePoint Server 2019 supports [Service Bus 1.1](https://support.microsoft.com/help/4077554/add-support-for-tls-1-1-and-tls-1-2-on-service-bus-for-windows-server) and [Microsoft Workflow Manager 1.0 CU5](https://support.microsoft.com/help/4055730/description-of-the-cumulative-update-5-for-workflow-manager-1-0) to run SharePoint Server 2013 workflows. For more information, see [Install and configure workflow in SharePoint Server](/sharepoint/governance/install-and-configure-workflow-for-sharepoint-server).
+Microsoft announced that SharePoint Server 2019 Preview would support a new workflow management application called SharePoint Workflow Manager to run SharePoint Server 2013 workflows. However, the SharePoint Workflow Manager application was canceled before its final release. The RTM release of SharePoint Server 2019 supports [Service Bus 1.1](https://support.microsoft.com/help/4077554/add-support-for-tls-1-1-and-tls-1-2-on-service-bus-for-windows-server) and [Microsoft Workflow Manager 1.0 CU5](https://support.microsoft.com/help/4055730/description-of-the-cumulative-update-5-for-workflow-manager-1-0) to run SharePoint Server 2013 workflows. For more information, see [Install and configure workflow in SharePoint Server](../governance/install-and-configure-workflow-for-sharepoint-server.md).
 
 ### Tags and Notes
 
@@ -166,4 +166,4 @@ Visio Services has 2 options for rendering Visio diagrams: Microsoft Silverlight
 
 ## SharePoint Business Intelligence Scenarios
 
-For more information on SharePoint BI scenarios, review the SQL Server Reporting Services Team blog post, [Simplifying our SharePoint integration story](https://blogs.msdn.microsoft.com/sqlrsteamblog/2016/11/17/simplifying-our-sharepoint-integration-story/). Microsoft recommends using [Power BI](https://powerbi.microsoft.com/), [Power BI Report Server](https://powerbi.microsoft.com/report-server/), or [SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services) in native mode for reporting needs.
+For more information on SharePoint BI scenarios, review the SQL Server Reporting Services Team blog post, [Simplifying our SharePoint integration story](/archive/blogs/sqlrsteamblog/simplifying-our-sharepoint-integration-story). Microsoft recommends using [Power BI](https://powerbi.microsoft.com/), [Power BI Report Server](https://powerbi.microsoft.com/report-server/), or [SQL Server Reporting Services](/sql/reporting-services) in native mode for reporting needs.

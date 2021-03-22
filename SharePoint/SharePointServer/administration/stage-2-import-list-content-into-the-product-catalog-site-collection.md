@@ -55,7 +55,7 @@ Before we can run the PowerShell scripts, we'll have to prepare the following:
     
 - A tab delimited text file that contains the taxonomy to be added to the **Product Hierarchy** term set. 
     
-The PowerShell scripts, instructions on how to create the tab delimited text files, and instructions on how to change and use the import scripts can be found in [Import list content to Products list for SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=400443).
+The PowerShell scripts, instructions on how to create the tab delimited text files, and instructions on how to change and use the import scripts can be found in [Import list content to Products list for SharePoint 2013](/samples/browse/?redirectedfrom=TechNet-Gallery).
   
 After we have run the five PowerShell scripts, we get the following:
   
@@ -78,4 +78,3 @@ So, now that we have content in the **Products** list, the next task is to enabl
 #### Concepts
 
 [Configure cross-site publishing in SharePoint Server](configure-cross-site-publishing.md)
-

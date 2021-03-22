@@ -184,6 +184,4 @@ PowerShell provides a powerful and easy-to-use feature that displays tabular dat
     
 3. Open the spreadsheet workbook page, and then paste the copied rows into it by using CTRL+V.
     
-For more information, see [Out-GridView](https://go.microsoft.com/fwlink/p/?LinkId=181248) and [Out-GridView Revisited](https://devblogs.microsoft.com/powershell/out-gridview-revisited/). 
-  
-
+For more information, see [Out-GridView](/previous-versions//dd315268(v=technet.10)) and [Out-GridView Revisited](https://devblogs.microsoft.com/powershell/out-gridview-revisited/). 

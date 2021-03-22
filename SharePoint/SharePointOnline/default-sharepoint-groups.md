@@ -31,11 +31,11 @@ Administrators can create additional groups to align more closely with specific 
   
 Here are links to information on understanding and setting SharePoint permissions.
   
-- [Understanding permission levels in SharePoint](/sharepoint/understanding-permission-levels)
+- [Understanding permission levels in SharePoint](./understanding-permission-levels.md)
     
 - [Edit and manage permissions for a SharePoint list or library](https://support.office.com/article/02D770F3-59EB-4910-A608-5F84CC297782)
     
-- [How to create and edit permission levels](/sharepoint/how-to-create-and-edit-permission-levels)
+- [How to create and edit permission levels](./how-to-create-and-edit-permission-levels.md)
     
 ## Permission levels for default SharePoint groups
 <a name="__toc352237424"> </a>
@@ -108,5 +108,3 @@ In SharePoint Server, you designate a site collection administrator when you cre
 In SharePoint in Microsoft 365, there is also a SharePoint admin. A SharePoint admin can use the SharePoint admin center or PowerShell to manage settings for all sites. Any global admin in Microsoft 365 also has the permissions of a SharePoint admin. For more info about the SharePoint admin role, see [About the SharePoint admin role in Microsoft 365](sharepoint-admin-role.md).
     
 If you are using SharePoint Server, you do not have a SharePoint admin or SharePoint admin center.
-  
-

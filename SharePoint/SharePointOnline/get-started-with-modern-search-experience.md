@@ -70,4 +70,4 @@ It's possible, but it takes some effort to do this with classic search. It's bet
 
 ### Can you use Microsoft Search in combination with cloud hybrid search?
 
-Yes. With [cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), both on-premises and online content go into the same index, which both the classic and Microsoft Search experiences use.
+Yes. With [cloud hybrid search](../SharePointServer/hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md), both on-premises and online content go into the same index, which both the classic and Microsoft Search experiences use.

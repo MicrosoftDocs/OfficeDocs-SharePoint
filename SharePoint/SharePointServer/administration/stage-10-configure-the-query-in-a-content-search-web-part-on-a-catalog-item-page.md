@@ -53,7 +53,7 @@ So, on our catalog item page we want to display items that have the same  *Group
 > [!NOTE]
 > The item details page that was automatically created when we connected our publishing site to our catalog as described in [Stage 5: Connect your publishing site to a catalog in SharePoint Server](stage-5-connect-your-publishing-site-to-a-catalog.md) contained several Catalog Item Reuse Web Parts (CIRWP). There are scenarios where using CIRWPs to display item detail content would be appropriate. But, because the CIRWP is only able to display one item at a time, we can't use this Web Part for our Contoso scenario. 
   
-For info about how to customize the automatically created catalog item page using CIRWPs, see [How to: Customize page layouts for a catalog-based site in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=400646).
+For info about how to customize the automatically created catalog item page using CIRWPs, see [How to: Customize page layouts for a catalog-based site in SharePoint 2013](/sharepoint/dev/general-development/how-to-customize-page-layouts-for-a-catalog-based-site-in-sharepoint).
   
 ### How to add a Content Search Web Part to a catalog item page
 <a name="BKMK_HowToAddAContentSearchWebPartToACatalogItemPage"> </a>
@@ -169,4 +169,3 @@ Even though three products are displayed instead of one, and we still don't have
 #### Concepts
 
 [Configure Search Web Parts in SharePoint Server](configure-search-web-parts.md)
-

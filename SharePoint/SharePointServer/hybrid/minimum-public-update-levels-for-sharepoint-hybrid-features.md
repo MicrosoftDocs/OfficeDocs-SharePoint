@@ -33,7 +33,7 @@ Keep in mind that these are minimum updates. Later PUs are fine, and we always r
 Links to all the available Public Updates can be found at [SharePoint in Microsoft 365 Updates](/officeupdates/sharepoint-updates).
   
 > [!NOTE]
-> [Hybrid extranet B2B collaboration sites](/sharepoint/create-b2b-extranet) have no on-premises components and thus have no PU requirements. 
+> [Hybrid extranet B2B collaboration sites](../../SharePointOnline/create-b2b-extranet.md) have no on-premises components and thus have no PU requirements. 
   
 ## SharePoint Server 2019
 
@@ -41,10 +41,10 @@ The following table shows the minimum PU requirements for hybrid features in Sha
   
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
-|[Hybrid self-service site creation](/sharepoint/hybrid/hybrid-self-service-site-creation) <br/> |RTM  <br/> |
-|[Cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) <br/> |RTM  <br/> |
+|[Hybrid self-service site creation](./hybrid-self-service-site-creation.md) <br/> |RTM  <br/> |
+|[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md) <br/> |RTM  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |RTM  <br/> |
-|[Hybrid federated search](/SharePoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint) <br/> |RTM  <br/> |
+|[Hybrid federated search](./learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |RTM  <br/> |
 |[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |RTM  <br/> |
 |[Hybrid profiles](plan-hybrid-profiles.md) <br/> |RTM  <br/> |
 |[Hybrid site following](hybrid-site-following.md) <br/> |RTM  <br/> |
@@ -57,11 +57,11 @@ The following table shows the minimum PU requirements for hybrid features in Sha
   
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
-|[Hybrid self-service site creation](/sharepoint/hybrid/hybrid-self-service-site-creation) <br/> |November 2017  <br/> |
-|[Cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) <br/> |RTM  <br/> |
+|[Hybrid self-service site creation](./hybrid-self-service-site-creation.md) <br/> |November 2017  <br/> |
+|[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md) <br/> |RTM  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |RTM  <br/> |
 |[Hybrid auditing](/article/sharepoint-hybrid-auditing-in-preview-3a379540-f72b-406f-866a-d6121715ec8c?ui=en-US&rs=en-US&ad=US) <br/> |November 2016  <br/> |
-|[Hybrid federated search](/SharePoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint) <br/> |RTM  <br/> |
+|[Hybrid federated search](./learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |RTM  <br/> |
 |[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |RTM  <br/> |
 |[Hybrid profiles](plan-hybrid-profiles.md) <br/> |RTM  <br/> |
 |[Hybrid site following](hybrid-site-following.md) <br/> |RTM  <br/> |
@@ -74,11 +74,11 @@ The following table shows the minimum PU requirements for hybrid features in Sha
   
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
-|[Hybrid self-service site creation](/sharepoint/hybrid/hybrid-self-service-site-creation) <br/> |March 2017  <br/> |
-|[Cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) <br/> |January 2016  <br/> |
+|[Hybrid self-service site creation](./hybrid-self-service-site-creation.md) <br/> |March 2017  <br/> |
+|[Cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md) <br/> |January 2016  <br/> |
 |[Extensible hybrid app launcher](the-extensible-hybrid-app-launcher.md) <br/> |July 2016  <br/> |
-|[Hybrid federated search (results in SharePoint Server)](/SharePoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint) <br/> |RTM  <br/> |
-|[Hybrid federated search (results in SharePoint in Microsoft 365)](/SharePoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint) <br/> |May 2014  <br/> |
+|[Hybrid federated search (results in SharePoint Server)](./learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |RTM  <br/> |
+|[Hybrid federated search (results in SharePoint in Microsoft 365)](./learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |May 2014  <br/> |
 |[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |September 2015  <br/> |
 |[Hybrid profiles](plan-hybrid-profiles.md) <br/> |September 2015  <br/> |
 |[Hybrid site following](hybrid-site-following.md) <br/> |July 2016  <br/> |
@@ -92,5 +92,3 @@ The following table shows the minimum PU requirements for hybrid features in Sha
 |**Hybrid feature**|**Minimum PU**|
 |:-----|:-----|
 |[Hybrid OneDrive](plan-hybrid-onedrive-for-business.md) <br/> |February 2015  <br/> |
-   
-

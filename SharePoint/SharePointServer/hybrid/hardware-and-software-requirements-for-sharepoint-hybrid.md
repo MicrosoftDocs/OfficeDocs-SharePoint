@@ -90,7 +90,7 @@ The following table lists the currently supported reverse proxy devices for Shar
 |**Supported reverse proxy devices**|**Configuration article**|**More information**|
 |:-----|:-----|:-----|
 |Windows Server 2012 R2 with Web Application Proxy (WA-P)  <br/> |[Configure Web Application Proxy for a hybrid environment](configure-web-application-proxy-for-a-hybrid-environment.md) <br/> |Web Application Proxy (WA-P) is a Remote Access service in Windows Server 2012 R2 that publishes web applications that users can interact with from many devices.  <br/> > [!IMPORTANT]> To use Web Application Proxy as a reverse proxy device in a hybrid SharePoint Server environment, you must also deploy AD FS in Windows Server 2012 R2. Earlier versions of Windows don't support Web Application Proxy           |
-|Forefront Threat Management Gateway (TMG) 2010  <br/> |[Configure Forefront TMG for a hybrid environment](configure-forefront-tmg-for-a-hybrid-environment.md) <br/> |Forefront TMG 2010 is a comprehensive, secure, web gateway solution that provides secure reverse proxy functionality.  <br/> Note that Forefront TMG 2010 is no longer sold by Microsoft but will be supported through 4/14/2020. For more information, see [Microsoft Support Lifecycle information for Forefront TMG 2010](https://go.microsoft.com/fwlink/p/?LinkID=784960&amp;clcid=0x409).           |
+|Forefront Threat Management Gateway (TMG) 2010  <br/> |[Configure Forefront TMG for a hybrid environment](configure-forefront-tmg-for-a-hybrid-environment.md) <br/> |Forefront TMG 2010 is a comprehensive, secure, web gateway solution that provides secure reverse proxy functionality.  <br/> Note that Forefront TMG 2010 is no longer sold by Microsoft but will be supported through 4/14/2020. For more information, see [Microsoft Support Lifecycle information for Forefront TMG 2010](/lifecycle/products/?alpha=Forefront+Threat+Management+Gateway+2010&Filter=FilterNO).           |
 |F5 BIG-IP  <br/> |[Enabling SharePoint 2013 Hybrid Search with the BIG-IP](https://devcentral.f5.com/articles/enabling-sharepoint-2013-hybrid-search-with-the-big-ip) <br/> |This is external content that's managed by F5 Networks.  <br/> |
    
 #### General reverse proxy requirements
@@ -111,5 +111,3 @@ In a hybrid SharePoint Server scenario, the reverse proxy must be able to:
 - Relay traffic to an on-premises SharePoint Server farm or load balancer without rewriting any packet headers.
     
 For an overview of reverse proxy devices in a SharePoint hybrid topology, see [Configure a reverse proxy device for SharePoint Server hybrid](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md).
-  
-

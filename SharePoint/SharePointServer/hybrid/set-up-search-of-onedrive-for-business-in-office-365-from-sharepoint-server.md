@@ -25,7 +25,7 @@ description: "Provide an easy way for users of on-premises SharePoint Server to 
 
 [!INCLUDE[appliesto-2013-2016-2019-SPO-md](../includes/appliesto-2013-2016-2019-SPO-md.md)]
   
-After you install Service Pack 1 for SharePoint Server, when your users select **OneDrive** or **Sites** on the nav bar, you can redirect them to Microsoft OneDrive for professionals and small businesses. To learn how to do this, see [Plan hybrid OneDrive](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
+After you install Service Pack 1 for SharePoint Server, when your users select **OneDrive** or **Sites** on the nav bar, you can redirect them to Microsoft OneDrive for professionals and small businesses. To learn how to do this, see [Plan hybrid OneDrive](./plan-hybrid-onedrive-for-business.md).
   
 This article describes how you can then set up an option in the SharePoint Server enterprise Search Center to return only search results from OneDrive. This option, called a search vertical, will provide an easy way for a user of on-premises SharePoint Server to search only the following items in OneDrive for a match to the user's search query:
   
@@ -377,6 +377,4 @@ To validate your configuration for displaying search results from OneDrive, you 
     
 3. If you still do not see search results from OneDrive, check the SharePoint in Microsoft 365 Unified Logging Service (ULS) logs, also called SharePoint in Microsoft 365 trace logs.
     
-    For more info, see [Overview of Unified Logging System (ULS) Logging](https://go.microsoft.com/fwlink/p/?LinkId=393137).
-    
-
+    For more info, see [Overview of Unified Logging System (ULS) Logging](/previous-versions/office/developer/sharepoint-2010/ff512738(v=office.14)).

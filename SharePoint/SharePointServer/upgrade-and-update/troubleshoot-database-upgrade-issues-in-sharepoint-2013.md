@@ -51,7 +51,7 @@ Upgrade status indicators and log files indicate what went wrong during the upgr
     
     This file can be viewed by using the Event Viewer.
     
-    For more information about the upgrade log files, see [Verify database upgrades in SharePoint 2013](verify-upgrade.md). For more information about the trace log file, see [Trace Logs](https://go.microsoft.com/fwlink/p/?LinkId=182380) on MSDN. 
+    For more information about the upgrade log files, see [Verify database upgrades in SharePoint 2013](verify-upgrade.md). For more information about the trace log file, see [Trace Logs](/previous-versions/office/aa979590(v=office.14)) on MSDN. 
     
 ### Then, address issues in order
 
@@ -132,7 +132,7 @@ In the upgrade log files, you may see errors such as the following:
 
 - **A:** Free some space, or increase the size of the transaction log file before you resume upgrade. If you run out of space (for example, for transaction log files on your database servers), upgrade cannot continue. 
     
-    For more information, see [Managing the Size of the Transaction Log File](https://go.microsoft.com/fwlink/p/?LinkID=124882).
+    For more information, see [Managing the Size of the Transaction Log File](/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file).
     
 ### Q: I see an error about authentication
 <a name="fba"> </a>
@@ -211,4 +211,3 @@ A mismatch in authentication methods can cause problems when you upgrade. The fo
 [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md)
   
 [Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff382638(v=office.14)
-

@@ -136,7 +136,7 @@ You can use one of two ways to make published content available to users: author
 ### Plan other sites
 <a name="Section2e"> </a>
 
-You can plan to make it possible for site users to create additional sites. For example, you can plan to give a My Site to each team member who uses a site. A My Site is a team site that is based on SharePoint Server and has public and private views. You can also make it possible for team members to create other sites, such as Document Workspace sites, when they collaborate on documents and other projects. Similarly, you can give users of an Internet site access to collaboration sites as part of a web-based service. For example, you can give them permissions to create Meeting Workspace sites and participate in online meetings as part of their experience of using your site. For more information, see [Configure self-service site creation in SharePoint Server 2019](/SharePoint/sites/configure-self-service-site-creation-in-sharepoint-server-2019).
+You can plan to make it possible for site users to create additional sites. For example, you can plan to give a My Site to each team member who uses a site. A My Site is a team site that is based on SharePoint Server and has public and private views. You can also make it possible for team members to create other sites, such as Document Workspace sites, when they collaborate on documents and other projects. Similarly, you can give users of an Internet site access to collaboration sites as part of a web-based service. For example, you can give them permissions to create Meeting Workspace sites and participate in online meetings as part of their experience of using your site. For more information, see [Configure self-service site creation in SharePoint Server 2019](./configure-self-service-site-creation-in-sharepoint-server-2019.md).
   
 For information about the kinds of sites that you can create, see [Overview of sites and site collections in SharePoint Server](sites-and-site-collections-overview.md).
   
@@ -217,4 +217,3 @@ For more information, see the PowerShell reference for SharePoint Server article
 #### Other Resources
 
 [Overview of SharePoint site collections](sites-and-site-collections-overview.md#section1)
-

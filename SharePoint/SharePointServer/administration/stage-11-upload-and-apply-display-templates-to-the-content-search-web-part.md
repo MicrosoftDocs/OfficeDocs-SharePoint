@@ -66,7 +66,7 @@ The image below shows how the control display template and item display template
   
 ![Web Part Display Templates](../media/OTCSP_WebPartDisplayTemplates.png)
   
-For more conceptual information about display templates, and for more information about how to create your own display templates, see [SharePoint 2013 Design Manager display templates](https://go.microsoft.com/fwlink/p/?LinkId=401787).
+For more conceptual information about display templates, and for more information about how to create your own display templates, see [SharePoint 2013 Design Manager display templates](/sharepoint/dev/general-development/sharepoint-design-manager-design-packages).
   
 ### How to upload display templates
 <a name="BKMK_HowToUploadDisplayTemplates"> </a>
@@ -150,7 +150,6 @@ Our Contoso site is really starting to look good. But we must also make sure our
 
 #### Other Resources
 
-[SharePoint 2013 Design Manager display templates](https://msdn.microsoft.com/library/jj945138.aspx)
+[SharePoint 2013 Design Manager display templates](/sharepoint/dev/general-development/sharepoint-design-manager-design-packages)
   
-[Overview of Design Manager in SharePoint 2013](https://msdn.microsoft.com/library/jj822363.aspx)
-
+[Overview of Design Manager in SharePoint 2013](/sharepoint/dev/general-development/overview-of-design-manager-in-sharepoint)

@@ -76,7 +76,7 @@ The following list describes the steps in the connectivity process. Each step in
 ## Step 1: Set permissions on the BCS Metadata store
 <a name="__toc350352766"> </a>
 
-To do this step, follow the procedure in [Set permissions on the BCS Metadata Store for a Business Connectivity Services on-premises solution in SharePoint 2013](https://go.microsoft.com/fwlink/?linkid=2003556).
+To do this step, follow the procedure in [Set permissions on the BCS Metadata Store for a Business Connectivity Services on-premises solution in SharePoint 2013](../SharePointServer/administration/deploy-an-on-premises-solution.md).
   
 When you finish the steps in that procedure, return to this page and start Step 2: Create a Secure Store credentials mapping.
   
@@ -93,7 +93,7 @@ Typically, when you create a credentials mapping in Secure Store, you map multip
 
 To create a Secure Store Target Application, follow these steps.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -129,7 +129,7 @@ To create a Secure Store Target Application, follow these steps.
 
 After you create the Target Application, you are ready to enter the credentials that Secure Store uses to access the external data. To set the credentials, follow these steps
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -215,7 +215,7 @@ To create an ECT, follow these steps.
     ![Screenshot 2 of the All Operations dialog in SharePoint Designer. This page shows warnings that explain settings for key properties on the list.](media/02428447-b2d2-4714-b585-71e195660ad8.png)
   
     > [!NOTE]
-    >  For more information about how to define filters in external content types, see [How to: Define filters for External Item Picker controls](https://go.microsoft.com/fwlink/?linkid=2003559) . 
+    >  For more information about how to define filters in external content types, see [How to: Define filters for External Item Picker controls](/previous-versions/office/developer/sharepoint-2010/ff798274(v=office.14)) . 
   
 12. To accept the operations properties that you configured, select **Finish**. SharePoint Designer displays the operations as a list of ECT Operations. 
     
@@ -264,7 +264,7 @@ You can create an External List by using SharePoint Designer, or by adding an Ex
 <a name="__toc350352774"> </a>
 To finish setting up the External List, you have to grant permissions to the people who will use the list. To grant permissions, follow these steps.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.

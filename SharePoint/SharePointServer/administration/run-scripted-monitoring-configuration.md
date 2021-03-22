@@ -30,7 +30,7 @@ Scripted monitoring configuration uses PowerShell scripts and XML files, which a
 You can use scripted monitoring configuration to back up the monitoring settings for the farm. You should do this immediately after you complete the deployment of the farm to make sure that that you can restore the farm to its original settings. You can also back up the settings before or after any changes to the farm.
   
 > [!IMPORTANT]
-> This script is available on the TechNet Gallery at [Scripted Monitoring Configuration - BackupMonitoringSettings](https://go.microsoft.com/fwlink/p/?LinkID=299269). 
+> This script is available on the TechNet Gallery at [Scripted Monitoring Configuration - BackupMonitoringSettings](/samples/browse/?redirectedfrom=TechNet-Gallery). 
   
  **To back up the farm monitoring settings**
   
@@ -64,7 +64,7 @@ You can use scripted monitoring configuration to back up the monitoring settings
 You can use scripted monitoring configuration to change or restore the monitoring settings for the farm. To change the settings, create a copy of the backup Profile and change the settings in the copy to create a new Profile. To apply the settings in the new Profile, run the **AlterMonitoringSettings.ps1** script and specify the path of the specific Profile you want to use. For more information about how to create Profiles, see [Profile schema reference in SharePoint Server](profile-schema-reference.md). 
   
 > [!IMPORTANT]
-> This script is available on the TechNet Gallery at [Scripted Monitoring Configuration - AlterMonitoringSettings](https://go.microsoft.com/fwlink/p/?LinkID=299270). 
+> This script is available on the TechNet Gallery at [Scripted Monitoring Configuration - AlterMonitoringSettings](/samples/browse/?redirectedfrom=TechNet-Gallery). 
   
 ### Restore settings
 
@@ -141,4 +141,3 @@ You can use scripted monitoring configuration to change the monitoring settings 
 [Overview of scripted monitoring configuration in SharePoint Server](overview-of-scripted-monitoring-configuration.md)
   
 [Profile schema reference in SharePoint Server](profile-schema-reference.md)
-
