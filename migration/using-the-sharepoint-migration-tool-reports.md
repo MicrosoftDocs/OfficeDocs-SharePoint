@@ -284,7 +284,7 @@ This report provides scores ranging from 1 to 100. The greater the number, the h
 
 |**Column**|**Recommendation**|
 |:-----|:-----|:-----|
-|Reading source speed score<br/> |[Improving the speed at which the source can be read](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-speed-at-which-the-source-can-be-read)<br/> |
-|Local disk performance score<br/> |[Improving the migration computer speed](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance#improving-the-migration-computer-speed)|
-|Uploading speed score |[Improving your connectivity to Office 365 and Azure](https://docs.microsoft.com/harepointmigration/spmt-performance-guidance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
-|SharePoint throughput score|[Improving your migration performance when using SPMT](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)|
+|Reading source speed score<br/> |[Improving the speed at which the source can be read](./spmt-performance-guidance.md#improving-the-speed-at-which-the-source-can-be-read)<br/> |
+|Local disk performance score<br/> |[Improving the migration computer speed](./spmt-performance-guidance.md#improving-the-migration-computer-speed)|
+|Uploading speed score |[Improving your connectivity to Office 365 and Azure](/harepointmigration/spmt-performance-guidance#improving-your-connectivity-to-0ffice-365-and-azure)<br/> |
+|SharePoint throughput score|[Improving your migration performance when using SPMT](./sharepoint-online-and-onedrive-migration-speed.md)|

@@ -82,7 +82,7 @@ Have content to migrate from other Cloud providers? The [Mover tool](https://mov
 
 - **Azure Data Box**. Want to remove the dependency on your WAN link to transfer data?  The Microsoft Azure Data Box is a service that lets you order a device from the Microsoft Azure portal. You can then copy TBs of data from your servers to the device, ship it back to Microsoft, and your data is copied into Azure. Once your data is in Azure, use SPMT to migrate content to SharePoint. To learn more, see [Migrate using the Azure Data Box](how-to-migrate-file-share-content-to-SPO-using-AzureDataBox.md).</br>
 
-- **OneDrive sync app**  Are you an individual user wanting to move files from your on-premises environment to OneDrive or SharePoint?  After installing the OneDrive sync app and syncing your library, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint. To learn more, see: [OneDrive sync app](https://docs.microsoft.com/onedrive/one-drive-sync).
+- **OneDrive sync app**  Are you an individual user wanting to move files from your on-premises environment to OneDrive or SharePoint?  After installing the OneDrive sync app and syncing your library, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint. To learn more, see: [OneDrive sync app](/onedrive/one-drive-sync).
 
 
 </br>
@@ -95,4 +95,3 @@ Have content to migrate from other Cloud providers? The [Mover tool](https://mov
 >**Mover** supports migration from over a dozen cloud service providers – including Box, Dropbox, Egnyte, and Google Drive – into OneDrive and SharePoint, enabling seamless file collaboration across Microsoft 365 apps and services, including the Office apps and Microsoft Teams.
 >
 >Learn more:  [Microsoft acquires Mover to simplify and speed file migration to Microsoft 365](https://aka.ms/migration/news)
-

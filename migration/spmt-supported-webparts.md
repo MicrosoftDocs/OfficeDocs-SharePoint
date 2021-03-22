@@ -41,7 +41,7 @@ description: "SharePoint Migration Tool table of supported SharePoint web parts 
  > [!NOTE]
  > Changes to this setting might take up to 24 hours to take effect.
 
-For more information, see: [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script)</br>
+For more information, see: [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script)</br>
 
 
 The following table details the SharePoint web parts that are currently supported by the SharePoint Migration Tool (SPMT). 
@@ -155,4 +155,3 @@ The following table details the SharePoint web parts that are currently supporte
 |XSLT|XSlt Larges client |No|
 |XSLT|XSlt Larges Image |No|
 |XSLT|XSlt List View|Yes|
-

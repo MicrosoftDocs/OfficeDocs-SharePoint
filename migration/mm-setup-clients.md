@@ -36,7 +36,7 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |[Prerequisites](#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
 |[Required Endpoints](#required-endpoints)|Review the required Endpoints|
 |[Multi-geo tenant agent installation](#multi-geo-agent-set-up)| Follow these steps if you want to install an agent and you have a multi-geo tenant.|
-|[Pre-provision OneDrive accounts](https://docs.microsoft.com/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. You can do this by using a script as described here: [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts).
+|[Pre-provision OneDrive accounts](/onedrive/pre-provision-accounts)|If you are migrating to OneDrive accounts, make sure the accounts are pre-provisioned before you migrate. You can do this by using a script as described here: [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts).
 
 ## Planning checklist
 
@@ -66,7 +66,7 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 |**Component**|**Recommendation for best performance**|**Minimum - expect slow performance**|
 |:-----|:------|:-----|
 |CPU|64-bit quad core processor or better|64-bit 1.4-GHz 2-core processor or better|
-|.NET version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](https://docs.microsoft.com/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
+|.NET version|V4.6.2 or higher. Learn more: [How to determine which versions are installed](/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed)|V4.6.2 or higher|
 |RAM|16 GB|8 GB|
 |Local Storage|Solid-state disk: 150-GB free space|Solid state disk: 150-GB free space|
 |Network card|1 Gbps|High-speed internet connection|
@@ -143,7 +143,7 @@ Based on the size of the content you want to migrate, you can set up as many age
 
 If you have a Multi-Geo SharePoint tenant, the agent will be installed in the geo-location set in the SharePoint admin center. Before installing the agent, make sure the desired geo-location is the one set in the admin center. If you need to change an agent's geo-location, delete and re-install the agent. 
 
-Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
+Learn more: [Multi-Geo Capabilities in OneDrive and SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365)
 
 To install an agent to a different Geo location:
 
@@ -154,5 +154,4 @@ To install an agent to a different Geo location:
 
     *< add key="GeoLocation" value="CAN" / >*
 
-The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)
-
+The country or regional GEO code can be found here [Microsoft 365 Multi-Geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo)
