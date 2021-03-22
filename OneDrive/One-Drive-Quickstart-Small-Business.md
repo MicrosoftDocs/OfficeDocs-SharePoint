@@ -139,7 +139,7 @@ If you want to add some basic device and sharing restrictions to OneDrive, you c
 
 Settings in the OneDrive admin center are grouped into six categories:
 
--   **Sharing.** Instead of using this page, use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true). To learn more, see [Manage sharing settings](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
+-   **Sharing.** Instead of using this page, use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true). To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
 -   **Sync.** On the **Sync** page, you can require that synced devices be joined to your domain or configure sync restrictions based on file type.
 
@@ -164,4 +164,3 @@ If you need help with OneDrive, you have many ways to find solutions to common i
 -   **Microsoft Support.** If you need help from Microsoft to troubleshoot an issue or configure or deploy OneDrive, see [Contact Microsoft](https://support.microsoft.com/gp/contactus81?Audience=Commercial).
 
 -   **OneDrive UserVoice.** You can review and submit feature requests and provide feature feedback at [OneDrive UserVoice](https://onedrive.uservoice.com/).
- 
