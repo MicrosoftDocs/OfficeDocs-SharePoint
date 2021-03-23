@@ -29,7 +29,6 @@ After an agent is configured, anyone with the permission to go into the SharePoi
 > [!Important]
 > Make sure to download the latest version of the agent setup file.
 
-
 ## Planning checklist
 
 |Category|Guidance|Fill in with your details|
@@ -95,6 +94,4 @@ The country or regional GEO code can be found here [Microsoft 365 Multi-Geo avai
 >The connection between the agent and Migration Manager stays active as long as the computer is still running and the SharePoint admin credentials that were used to sign into the agent are still valid. 
 >
 >If the agent does becomes disconnected, it still holds the token to the Migration Manager for up to 7 days. After that time, the agent will need to be reinstalled.
-
-
 

@@ -75,7 +75,7 @@ At least 24 hours before you start migration, do the following:
    > [!NOTE]
    > Changes to this setting might take up to 24 hours to take effect.
 
-   For more info, see, [Allow or prevent custom script](https://docs.microsoft.com/sharepoint/allow-or-prevent-custom-script).
+   For more info, see, [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script).
 
 
 #### Note about logging in
@@ -247,5 +247,3 @@ When this setting is on, an incremental check of the SharePoint target environme
 [SharePoint and OneDrive migration speed](sharepoint-online-and-onedrive-migration-speed.md)
   
 [SharePoint Migration Tool Feedback and Support Forum](https://social.technet.microsoft.com/Forums/en-US/home?forum=SharePointMigrationTool)
-  
-
