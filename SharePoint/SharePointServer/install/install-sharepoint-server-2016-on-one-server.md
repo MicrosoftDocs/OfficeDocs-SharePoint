@@ -49,7 +49,7 @@ Before you begin to install and configure SharePoint Servers 2016 or 2019, do th
     
 - Ensure that you are prepared to set up the required accounts by using appropriate permissions. For detailed information, see [Initial deployment administrative and service accounts in SharePoint Server](initial-deployment-administrative-and-service-accounts-in-sharepoint-server.md).
     
-- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
+- Ensure the Max degree of parallelism is set to 1. For additional information about max degree of parallelism see, [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?view=sql-server-2017).
     
  **Security note**: As a security best practice, we recommend that you install SharePoint Servers 2016 or 2019 by using least-privilege administration. 
   
@@ -331,5 +331,3 @@ After you install and configure SharePoint Server, your browser window opens to 
 - **Configure outgoing email** You can configure outgoing email so that your Simple Mail Transfer Protocol (SMTP) server sends email alerts to site users and notifications to site administrators. You can configure both the "From" email address and the "Reply" email address that appear in outgoing alerts. 
     
 - **Configure Search settings** You can configure Search settings to crawl the content in SharePoint Server. 
-    
-

@@ -29,13 +29,13 @@ Before you begin this task, review the following information about prerequisites
   
 - You must be using Excel 2016 and SharePoint Server 2013.
     
-- Excel Services must be configured to include a trusted data connections library and a trusted documents library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).
+- Excel Services must be configured to include a trusted data connections library and a trusted documents library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more information, see [Configure a Business Intelligence Center in SharePoint Server 2013](../sharepoint-server.yml).
     
 - You must have at least Contribute permissions assigned in SharePoint Server 2013.
     
 - You will need information from a SharePoint admin about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
     
-- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
+- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more information, see [Configure Excel Services in SharePoint Server 2013 Preview](./configure-excel-services.md).
     
 ## Step 1: Use Excel to create connections to SQL Server Analysis Services data
 <a name="part1"> </a>
@@ -145,4 +145,3 @@ After data connections are created, the next step is to upload them to a data co
 [Share data connections by using Excel and Excel Services (SharePoint Server 2013)](share-data-connections-by-using-excel-and-excel-services-sharepoint-server-2013.md)
   
 [Data sources supported in Excel Services (SharePoint Server 2013)](data-sources-supported-in-excel-services-sharepoint-server-2013.md)
-

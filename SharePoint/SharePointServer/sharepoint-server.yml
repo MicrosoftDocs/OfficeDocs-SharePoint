@@ -27,9 +27,9 @@ landingContent:
           - text: Get started
             url: getting-started.md
           - text: Migration
-            url: https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online
+            url: /sharepointmigration/migrate-to-sharepoint-online
           - text: Hybrid
-            url: https://docs.microsoft.com/SharePoint/hybrid/hybrid
+            url: ./hybrid/hybrid.md
           - text: Community
             url: https://techcommunity.microsoft.com/t5/SharePoint/ct-p/SharePoint
           - text: Product feedback
@@ -111,11 +111,10 @@ landingContent:
       - linkListType: reference
         links:
           - text: SharePoint Server 2007 end of support roadmap
-            url: https://docs.microsoft.com/office365/enterprise/sharepoint-2007-end-of-support
+            url: /office365/enterprise/sharepoint-2007-end-of-support
           - text: Upgrading from Server 2010 and end of support
-            url: https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010
+            url: /office365/enterprise/upgrade-from-sharepoint-2010
           - text: SharePoint Server 2010
-            url: https://docs.microsoft.com/previous-versions/office/
+            url: /previous-versions/office/
           - text: SharePoint Server 2007
-            url: https://docs.microsoft.com/previous-versions/office/sharepoint-2007-products-and-technologies/cc303422(v=office.12)
-
+            url: /previous-versions/office/sharepoint-2007-products-and-technologies/cc303422(v=office.12)

@@ -182,6 +182,6 @@
 #### [Change version and upgrade settings](change-version-and-upgrade-settings.md)
 #### [Allow users to create modern pages](let-users-create-modern-site-pages.md)
 #### [Let users connect classic sites to groups](let-users-connect-classic-sites-to-groups.md)
-### [Hybrid](/sharepoint/hybrid/hybrid)
+### [Hybrid](../SharePointServer/hybrid/hybrid.md)
 ### [SharePoint Migration Tool](/sharepointmigration/migrate-to-sharepoint-online)
 ### [Multi-Geo](/Office365/Enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)

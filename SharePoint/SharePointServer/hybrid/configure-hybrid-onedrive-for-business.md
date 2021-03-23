@@ -33,7 +33,7 @@ description: "Connect your on-premises SharePoint Server environment with OneDri
   
  **This article is part of a roadmap of procedures for configuring SharePoint in Microsoft 365 hybrid solutions. Be sure you're [following a roadmap](configuration-roadmaps.md) when you do the procedures in this article.**
   
-You can redirect users to Microsoft OneDrive, on the navigation bar or the app launcher, when they select **OneDrive** or **Sites**. This article provides the steps to configure your on-premises environment to connect with OneDrive. You can find an overview of the process in [Plan for hybrid OneDrive](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
+You can redirect users to Microsoft OneDrive, on the navigation bar or the app launcher, when they select **OneDrive** or **Sites**. This article provides the steps to configure your on-premises environment to connect with OneDrive. You can find an overview of the process in [Plan for hybrid OneDrive](./plan-hybrid-onedrive-for-business.md).
   
 ## Video demonstration
 
@@ -68,7 +68,7 @@ To configure hybrid OneDrive, you must be both a SharePoint Server farm administ
   
  **To configure hybrid OneDrive**
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) for your organization.
 
 2. Under **Hybrid picker**, select **Open**.
     
@@ -144,5 +144,4 @@ Now that your users are set up to be redirected to Office 365, you can customize
 
 #### Other Resources
 
-[Plan for hybrid OneDrive](/sharepoint/hybrid/plan-hybrid-onedrive-for-business)
-
+[Plan for hybrid OneDrive](./plan-hybrid-onedrive-for-business.md)

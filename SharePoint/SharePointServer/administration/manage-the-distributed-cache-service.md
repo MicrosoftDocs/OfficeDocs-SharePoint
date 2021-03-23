@@ -172,7 +172,7 @@ Use the following PowerShell script to perform a graceful shutdown of the Distri
     
   - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
     
 2. Copy the following variable declarations, and paste them into a text editor such as Notepad. Set parameter values specific to your organization. Save the file, and name it GracefulShutdown.ps1.
     
@@ -249,7 +249,7 @@ Where  _Domain_name\user_name_ is the domain name and user name of the SharePoin
 **Monitoring**
 
 You can monitor performance counters on the Distributed Cache servers to get a better understanding of cache performance issues.
-Some of the [counters](https://docs.microsoft.com/previous-versions/appfabric/ff637725(v=azure.10)) that are typically useful to troubleshoot issues include:
+Some of the [counters](/previous-versions/appfabric/ff637725(v=azure.10)) that are typically useful to troubleshoot issues include:
 
 1. %cpu used up by cache service
 
@@ -276,7 +276,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
     
   - See [Add-SPShellAdmin](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps).
     
-  - You need to read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
+  - You need to read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
     
 2. Copy the following variable declarations, and paste them into a text editor such as Notepad. Set parameter values specific to your organization. Save the file, and name it MaxConnections.ps1.
     
@@ -651,7 +651,7 @@ The Distributed Cache service setting for **MaxConnectionsToServer** is often tu
   ./MaxConnections.ps1
   ```
 
-For more information, see [Application Configuration Settings (Windows Server AppFabric Caching)](https://go.microsoft.com/fwlink/?LinkID=614970&amp;clcid=0x409). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
+For more information, see [Application Configuration Settings (Windows Server AppFabric Caching)](/previous-versions/appfabric/ee790816(v=azure.10)). For additional information about Windows PowerShell scripts and .ps1 files, see [Running Windows PowerShell Scripts](/previous-versions/windows/it-pro/windows-powershell-1.0/ee176949(v=technet.10)).
     
 ## Repair a cache host
 <a name="repair"> </a>
@@ -692,4 +692,3 @@ On the non-functioning Distributed Cache host, use the following procedures to r
 #### Concepts
 
 [Plan for feeds and the Distributed Cache service in SharePoint Server](plan-for-feeds-and-the-distributed-cache-service.md)
-

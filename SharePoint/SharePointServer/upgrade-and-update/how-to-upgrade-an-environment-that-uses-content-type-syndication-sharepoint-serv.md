@@ -22,7 +22,7 @@ description: "Upgrade the Managed Metadata service application and site collecti
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-md.md)]  
   
-Content type syndication, or content type publishing, occurs when you publish a content type from a content type "hub" site collection to one or more "consuming" site collections. For more information, see [Introduction to content types and content type publishing](https://go.microsoft.com/fwlink/p/?LinkId=285484) and [Plan to share terminology and content types (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkId=285519).
+Content type syndication, or content type publishing, occurs when you publish a content type from a content type "hub" site collection to one or more "consuming" site collections. For more information, see [Introduction to content types and content type publishing](https://go.microsoft.com/fwlink/p/?LinkId=285484) and [Plan to share terminology and content types (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee519603(v=office.14)).
   
 Suppose that you use content type syndication in SharePoint Server 2010. Now you want to upgrade to SharePoint 2013, but you want to upgrade some site collections now and others later. In this situation, you have to follow a specific process to make sure that all content types can continue to work across versions. 
   
@@ -58,7 +58,7 @@ Here is more information about this illustration:
   
 - The Managed Metadata service application has a Content Type Hub property that is set to point to the ContentTypeHub1 site collection.
     
-    For information about how to share content types, see [Plan to share terminology and content types (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkID=285519).
+    For information about how to share content types, see [Plan to share terminology and content types (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee519603(v=office.14)).
     
 - The following Managed Metadata connection properties are selected: 
     
@@ -70,7 +70,7 @@ Here is more information about this illustration:
     
   - **Push-down Content Type Publishing updates from the Content Type Gallery to sub-sites and lists using the content type.**
     
-    For information about connection properties, see [Managed metadata connections](https://go.microsoft.com/fwlink/p/?LinkId=285520) and [Update a managed metadata service connection](https://go.microsoft.com/fwlink/p/?LinkId=285521).
+    For information about connection properties, see [Managed metadata connections](/previous-versions/office/sharepoint-server-2010/ee424403(v=office.14)) and [Update a managed metadata service connection](/previous-versions/office/sharepoint-server-2010/ee530391(v=office.14)).
     
 - A document content type (Doc1) and a document set content type (DocSet1) were published from ContentTypeHub1 to the two consuming sites.
     
@@ -96,7 +96,7 @@ If you want to continue to use any of the consuming site collections in the 2010
     
 3. Use Central Administration or the **Backup-SPSite** Microsoft PowerShell cmdlet to perform a site collection backup of the original content type hub. 
     
-    For more information, see [Back up a site collection in SharePoint Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=285522).
+    For more information, see [Back up a site collection in SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/ee748617(v=office.14)).
     
     Clear the following Managed Metadata connection properties: 
     
@@ -108,11 +108,11 @@ If you want to continue to use any of the consuming site collections in the 2010
     
   - **Push-down Content Type Publishing updates from the Content Type Gallery to sub-sites and lists using the content type.**
     
-    For information about connection properties, see [Update a managed metadata service connection](https://go.microsoft.com/fwlink/p/?LinkID=285521).
+    For information about connection properties, see [Update a managed metadata service connection](/previous-versions/office/sharepoint-server-2010/ee530391(v=office.14)).
     
 4. Create a web application to host a duplicate of the content type hub.
     
-    For information, see [Create a web application (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkId=285523).
+    For information, see [Create a web application (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14)).
     
 5. Use the **Restore-SPSite** Microsoft PowerShell cmdlet to restore a copy of the original content type hub. Use the following syntax: 
     
@@ -126,7 +126,7 @@ If you want to continue to use any of the consuming site collections in the 2010
     
   - \<path\> is the path of the backup file.
     
-    For information, see [Restore a site collection in SharePoint Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=285525).
+    For information, see [Restore a site collection in SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/ee748655(v=office.14)).
     
     After you restore the site collection, you can change the name to ContentTypeHub2.
     
@@ -213,7 +213,7 @@ The following illustration shows the steps to create additional Managed Metadata
   
 1. In Central Administration, create a Managed Metadata service application (Managed Metadata 2) and set the **Content Type Hub** property to the duplicate content type hub in the new farm (ContentTypeHub3). 
     
-    When you use Central Administration to create a Managed Metadata service application, the Managed Metadata connection (proxy) is created at the same time as the service application. For more information, see [Create a managed metadata service application](https://go.microsoft.com/fwlink/p/?LinkId=285526).
+    When you use Central Administration to create a Managed Metadata service application, the Managed Metadata connection (proxy) is created at the same time as the service application. For more information, see [Create a managed metadata service application](/previous-versions/office/sharepoint-server-2010/ee530392(v=office.14)).
     
     For the new Managed Metadata connection, clear the following properties:
     
@@ -229,7 +229,7 @@ The following illustration shows the steps to create additional Managed Metadata
     
 2. In Central Administration, create a Managed Metadata service application (Managed Metadata 3) and set the **Content Type Hub** property to the original content type hub in the 2010 environment (ContentTypeHub1 in the 2010 farm). 
     
-    When you use Central Administration to create a Managed Metadata service application, the Managed Metadata connection (proxy) is created at the same time as the service application. For more information, see [Create a managed metadata service application](https://go.microsoft.com/fwlink/p/?LinkID=285526).
+    When you use Central Administration to create a Managed Metadata service application, the Managed Metadata connection (proxy) is created at the same time as the service application. For more information, see [Create a managed metadata service application](/previous-versions/office/sharepoint-server-2010/ee530392(v=office.14)).
     
     For the new Managed Metadata connection, clear the following properties:
     
@@ -352,7 +352,7 @@ When you add a content type, you must make sure that the content type ID is the 
   
 3. Create a content type that uses that ID on both of the other content type hubs (ContentTypeHub2 and ContentTypeHub3), and then publish it.
     
-    To create a content type that has a specific ID, you can't use the user interface. You have to use XML or the object model. For more information, see [Creating Content Types](https://go.microsoft.com/fwlink/p/?LinkId=285518).
+    To create a content type that has a specific ID, you can't use the user interface. You have to use XML or the object model. For more information, see [Creating Content Types](/previous-versions/office/developer/sharepoint-2010/ms460224(v=office.14)).
     
 When you add a new field to a content type, make sure that the field ID is the same on all three Content Type Hubs. To do this, follow this procedure:
   
@@ -364,6 +364,4 @@ When you add a new field to a content type, make sure that the field ID is the s
     
 4. Republish the updated content type from the other content type hubs (ContentTypeHub2 and ContentTypeHub3).
     
-    The following article on MSDN provides an example of how to use the object model to manipulate content types: [SPContentType class](https://msdn.microsoft.com/library/microsoft.sharepoint.spcontenttype).
-    
-
+    The following article on MSDN provides an example of how to use the object model to manipulate content types: [SPContentType class](/previous-versions/office/sharepoint-server/ms440819(v=office.15)).

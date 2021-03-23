@@ -371,7 +371,7 @@ The following procedure contains steps to view and manage the site collection up
 
 You can view and change the upgrade throttle settings for a content database and web application by viewing and setting the **SPContentDatabase.ConcurrentSiteUpgradeSessionLimit** and **SPWebApplication.SiteUpgradeThrottleSettings** properties. For descriptions of the properties that control throttle levels and the default values, see [Plan for site collection upgrades in SharePoint 2013](plan-for-site-collection-upgrades-in-sharepoint-2013.md).
   
-For more information about web application properties, see [SPWebApplication Properties](https://go.microsoft.com/fwlink/?LinkId=403893). For more information about content database properties, see [SPContentDatabase Properties](https://go.microsoft.com/fwlink/?LinkId=403892).
+For more information about web application properties, see [SPWebApplication Properties](/previous-versions/office/sharepoint-server/ms436104(v=office.15)). For more information about content database properties, see [SPContentDatabase Properties](/previous-versions/office/sharepoint-server/ms480088(v=office.15)).
   
 The following procedure provides steps to view upgrade throttling settings for a web application. 
   
@@ -760,4 +760,3 @@ This cmdlet returns the URL for all site collections in the environment and the 
 [Run site collection health checks in SharePoint 2013](run-site-collection-health-checks-in-sharepoint-2013.md)
   
 [Review site collections upgraded to SharePoint 2013](review-site-collections-upgraded-to-sharepoint-2013.md)
-

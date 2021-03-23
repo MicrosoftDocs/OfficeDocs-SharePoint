@@ -48,9 +48,9 @@ Example: An accountancy company wants Excel workbooks (file type) to have higher
   
 Learn more about ranking and ranking models:
   
-- [Overview of search result ranking in SharePoint Server](/SharePoint/search/overview-of-search-result-ranking)
+- [Overview of search result ranking in SharePoint Server](./overview-of-search-result-ranking.md)
     
-- [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/library/dn169052.aspx)
+- [Customizing ranking models to improve relevance in SharePoint](/sharepoint/dev/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint)
     
 
     
@@ -60,7 +60,7 @@ Learn more about ranking and ranking models:
 > [!IMPORTANT]
 > For SharePoint Server 2013 we recommend that you have installed the SharePoint Server 2013 cumulative update from March 2014.  
   
-- Install the app and prepare the SharePoint farm to allow apps by using the same standard processes as for all SharePoint Server apps: [Install and manage apps for SharePoint](/SharePoint/administration/install-and-manage-apps-for-sharepoint-server).
+- Install the app and prepare the SharePoint farm to allow apps by using the same standard processes as for all SharePoint Server apps: [Install and manage apps for SharePoint](../administration/install-and-manage-apps-for-sharepoint-server.md).
     
 - To use the app, you must be a Search service application administrator.
     
@@ -180,7 +180,7 @@ When you copy an existing ranking model, the new ranking model contains the same
     
 You can also remove features from the model.
   
- Read more about rank features and aggregation of rank features in [Customizing ranking models to improve relevance in SharePoint](https://msdn.microsoft.com/library/dn169052.aspx).
+ Read more about rank features and aggregation of rank features in [Customizing ranking models to improve relevance in SharePoint](/sharepoint/dev/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint).
   
 ### Step 4b: Tune the weights
 <a name="__toc369771602"> </a>
@@ -245,13 +245,13 @@ When you publish your ranking model, you'll get a GUID that identifies the ranki
 ## More info about ranking and ranking models
 <a name="__toc369771605"> </a>
 
-- [Overview of search result ranking in SharePoint Server](/SharePoint/search/overview-of-search-result-ranking) 
+- [Overview of search result ranking in SharePoint Server](./overview-of-search-result-ranking.md) 
     
-- [Customizing ranking models to improve relevance in SharePoint Server](https://msdn.microsoft.com/library/dn169052.aspx) 
+- [Customizing ranking models to improve relevance in SharePoint Server](/sharepoint/dev/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint) 
     
    
-- [Manage query rules in SharePoint Server](/SharePoint/search/manage-query-rules)
+- [Manage query rules in SharePoint Server](./manage-query-rules.md)
     
-- [Configure properties of the Search Results Web Part in SharePoint Server](/SharePoint/search/configure-properties-of-the-search-results-web-part)
+- [Configure properties of the Search Results Web Part in SharePoint Server](./configure-properties-of-the-search-results-web-part.md)
     
-- [Manage the search schema in SharePoint Server](/SharePoint/search/manage-the-search-schema)
+- [Manage the search schema in SharePoint Server](./manage-the-search-schema.md)

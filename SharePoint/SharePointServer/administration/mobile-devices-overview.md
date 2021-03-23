@@ -25,7 +25,7 @@ SharePoint Server 2013 offers new, optimized viewing experiences across differen
 > [!IMPORTANT]
 > For more information about supported mobile browsers with SharePoint Server 2013, see [Mobile device browsers supported in SharePoint 2013](supported-mobile-device-browsers.md). 
   
-For an end-to-end look and understanding of the SharePoint Server 2013 mobile landscape, see the poster [Overview of mobile devices and SharePoint 2013](https://docs.microsoft.com/sharepoint/administration/mobile-devices-overview). For more information about how to administer your mobile environment, see [Mobile administration (SharePoint Server 2010)](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14)).
+For an end-to-end look and understanding of the SharePoint Server 2013 mobile landscape, see the poster [Overview of mobile devices and SharePoint 2013](). For more information about how to administer your mobile environment, see [Mobile administration (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14)).
   
 ## Mobile browser experience
 <a name="MBE"> </a>
@@ -102,7 +102,7 @@ Browsing the web on a mobile device is now so common that a SharePoint site must
   
 ![Device channels](../media/sp15Con_DeviceChannels.png)
   
-For more information on using device channels, and understanding the larger custom design and site branding experience for SharePoint 2013, see [Plan device channels](https://msdn.microsoft.com/library/jj862343) and [Overview of Design Manager](https://msdn.microsoft.com/library/jj822363.aspx).
+For more information on using device channels, and understanding the larger custom design and site branding experience for SharePoint 2013, see [Plan device channels](/sharepoint/dev/general-development/sharepoint-design-manager-branding-and-design-capabilities) and [Overview of Design Manager](/sharepoint/dev/general-development/overview-of-design-manager-in-sharepoint).
   
 ## Office Web Apps
 <a name="owa"> </a>
@@ -114,22 +114,22 @@ Together, SharePoint Server 2013 and Office Web Apps Server offer a better user 
 ## Location
 <a name="Location"> </a>
 
-SharePoint Server 2013 introduces a new geolocation field type that can be used in a list. For example, you can now make lists "location-aware" and display latitude and longitude coordinates through Bing Maps. An entry is typically seen as a pushpin on the map view. Although there are several ways to use this geolocation field, one key scenario is for mobile application development. Users can track or log location-specific data while they work remotely from the corporate office. Alternatively, the application can help them locate points of interest when they perform offsite functions. To display map views in the list, you must use the Bing Maps service. For information about the procedures and Microsoft PowerShell for SharePoint Server 2013 cmdlets necessary to display map views, see [Use the location field type in mobile applications for SharePoint Server](/sharepoint/administration/mobile-devices-overview).
+SharePoint Server 2013 introduces a new geolocation field type that can be used in a list. For example, you can now make lists "location-aware" and display latitude and longitude coordinates through Bing Maps. An entry is typically seen as a pushpin on the map view. Although there are several ways to use this geolocation field, one key scenario is for mobile application development. Users can track or log location-specific data while they work remotely from the corporate office. Alternatively, the application can help them locate points of interest when they perform offsite functions. To display map views in the list, you must use the Bing Maps service. For information about the procedures and Microsoft PowerShell for SharePoint Server 2013 cmdlets necessary to display map views, see [Use the location field type in mobile applications for SharePoint Server]().
   
 > [!NOTE]
-> The geolocation field is not available when you create a list through the user interface (UI). Therefore, you cannot make a custom list and add it as a column through traditional UI methods. Instead, this field must be inserted programmatically. For more information about how to render and work with this data type programmatically, see [Integrating location and map functionality in SharePoint 2013](https://go.microsoft.com/fwlink/?LinkId=253673). 
+> The geolocation field is not available when you create a list through the user interface (UI). Therefore, you cannot make a custom list and add it as a column through traditional UI methods. Instead, this field must be inserted programmatically. For more information about how to render and work with this data type programmatically, see [Integrating location and map functionality in SharePoint 2013](/sharepoint/dev/general-development/integrating-location-and-map-functionality-in-sharepoint). 
   
 ## Push notifications
 <a name="PN"> </a>
 
 SharePoint Server 2013 supports applications on mobile devices that should receive notifications from a SharePoint site. Notifications can include events that occur in the site, such as when a user adds an item to a list or updates an item. For mobile devices to receive such notifications, device applications must register with a SharePoint site. Once registered, you can write event handler code to interact with Microsoft Push Notification Service or notification services of other mobile device platforms. Notifications are sent from the server where the application is hosted to the registered mobile device application.
   
-When the push notification feature is activated, a subscription store is created at the website level to store information from devices that have registered with the SharePoint site to receive notifications. This subscription store is created as a hidden list that cannot be viewed directly by a user or an administrator. There is a limit of 2,000 device registrations for push notifications in SharePoint Server 2013. Once this limit is reached, no further registrations can be performed unless entries are cleared from the subscription store. To perform this procedure on your SharePoint site, see [Clear push notification registrations from the subscription store in SharePoint Server](/sharepoint/administration/administration).
+When the push notification feature is activated, a subscription store is created at the website level to store information from devices that have registered with the SharePoint site to receive notifications. This subscription store is created as a hidden list that cannot be viewed directly by a user or an administrator. There is a limit of 2,000 device registrations for push notifications in SharePoint Server 2013. Once this limit is reached, no further registrations can be performed unless entries are cleared from the subscription store. To perform this procedure on your SharePoint site, see [Clear push notification registrations from the subscription store in SharePoint Server](./administration.md).
   
 ## Business intelligence content
 <a name="BIC"> </a>
 
-SharePoint Server 2013 enables a user to view certain kinds of dashboard content. This includes PerformancePoint reports and scorecards, and Excel Services reports in iOS 5.0 Safari browsers on iPad devices. For more information about how to use this feature, see [Viewing reports and scorecards on Apple iPad devices](https://go.microsoft.com/fwlink/?LinkId=253668) in the SharePoint Server 2010 Library. 
+SharePoint Server 2013 enables a user to view certain kinds of dashboard content. This includes PerformancePoint reports and scorecards, and Excel Services reports in iOS 5.0 Safari browsers on iPad devices. For more information about how to use this feature, see [Viewing reports and scorecards on Apple iPad devices](/previous-versions/office/hh697482(v=office.14)) in the SharePoint Server 2010 Library. 
   
 ## Subscribe to mobile alerts
 <a name="SMS"> </a>
@@ -147,4 +147,3 @@ You can configure and manage a mobile account in SharePoint Server 2013 to enabl
 [Administer mobile devices in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ff393820(v=office.14))
   
 [Configure mobile accounts in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ee428323(v=office.14))
-

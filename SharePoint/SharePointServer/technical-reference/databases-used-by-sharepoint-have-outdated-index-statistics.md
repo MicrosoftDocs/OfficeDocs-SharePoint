@@ -49,4 +49,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Database
 
 #### Other Resources
 
-[Index Statistics](https://go.microsoft.com/fwlink/?LinkID=761157&amp;clcid=0x409)
+[Index Statistics](/sql/relational-databases/statistics/statistics?viewFallbackFrom=sql-server-2014)

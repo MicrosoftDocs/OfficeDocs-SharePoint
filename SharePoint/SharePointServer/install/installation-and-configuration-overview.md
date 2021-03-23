@@ -114,7 +114,7 @@ In this phase, you get your servers ready to host the product. This includes the
 - Domain controller: The required farm accounts have to be configured for the domain and directory synchronization must be configured. 
     
     > [!IMPORTANT]
-    > SharePoint Server 2013 does not support installation on to a domain controller in a production environment. Additionally, SharePoint Server 2013 does not support installation on to a domain controller when using the sandbox service in developer, test, or demo environments. > A single label domain (SLD) names or single label forests is also not supported. Because the use of SLD names is not a recommended practice, SharePoint Server 2013 is not tested in this scenario. Therefore, there may be incompatibility issues when SharePoint Server 2013 are implemented in a single label domain environment. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849) and the [DNS Namespace Planning Solution Center](https://go.microsoft.com/fwlink/p/?LinkId=198010). 
+    > SharePoint Server 2013 does not support installation on to a domain controller in a production environment. Additionally, SharePoint Server 2013 does not support installation on to a domain controller when using the sandbox service in developer, test, or demo environments. > A single label domain (SLD) names or single label forests is also not supported. Because the use of SLD names is not a recommended practice, SharePoint Server 2013 is not tested in this scenario. Therefore, there may be incompatibility issues when SharePoint Server 2013 are implemented in a single label domain environment. For more information, see [Information about configuring Windows for domains with single-label DNS names](/troubleshoot/windows-server/identity/deployment-operation-ad-domains) and the [DNS Namespace Planning Solution Center](https://go.microsoft.com/fwlink/p/?LinkId=198010). 
   
     For information about required accounts, see:
     
@@ -242,5 +242,3 @@ Putting the farm into production requires you to complete the following tasks:
 - Implement the operations plan.
     
 - If required, deploy additional environments such as authoring and staging farms, and services farms.
-    
-

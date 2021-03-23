@@ -28,7 +28,7 @@ This article describes Web Application Proxy and helps you set it up to use as a
   
 ## Before you begin
 
- **Accessibility note:** SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines).
+ **Accessibility note:** SharePoint Server supports the accessibility features of common browsers to help you administer deployments and access sites. For more information, see [Accessibility for SharePoint 2013](../accessibility-guidelines.md).
   
 ## About Web Application Proxy in a hybrid environment
 
@@ -140,7 +140,7 @@ The output should resemble the content in the following table.
 
 Web Application Proxy logs events and errors to the Application and Remote Access Windows Server event logs. Logging plays an important role in troubleshooting issues with connectivity and authentication between SharePoint Server and SharePoint in Microsoft 365. Identifying the component that is causing a connection failure can be challenging, and reverse proxy logs are the first place you should look for clues. Troubleshooting can involve comparing log events from Web Application Proxy event logs, SharePoint Server ULS logs, Windows Server event logs, and Internet Information Services (IIS) logs on multiple servers.
   
-For more info about troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](/SharePoint/hybrid/hybrid).
+For more info about troubleshooting techniques and tools for SharePoint Server hybrid environments, see [Troubleshooting hybrid environments](./hybrid.md).
   
 ## See also
 <a name="troubleshooting"> </a>
@@ -150,4 +150,3 @@ For more info about troubleshooting techniques and tools for SharePoint Server h
 [Hybrid for SharePoint Server](hybrid.md)
   
 [Configure a reverse proxy device for SharePoint Server hybrid](configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md)
-

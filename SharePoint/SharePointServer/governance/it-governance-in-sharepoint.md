@@ -95,12 +95,10 @@ Your organization should create appropriate service-level agreements for each se
 
 In addition to governing services that you offer, you also need to govern installations of SharePoint in your environment.
   
-- **Track installations** An Active Directory Domain Services (AD DS) marker named Service Connection Point identifies the SharePoint servers in an organization. Set this marker for each domain in your organization if you want to track installations in all domains. See [Track or block SharePoint Server 2010 installations](https://go.microsoft.com/fwlink/?LinkId=403888).
+- **Track installations** An Active Directory Domain Services (AD DS) marker named Service Connection Point identifies the SharePoint servers in an organization. Set this marker for each domain in your organization if you want to track installations in all domains. See [Track or block SharePoint Server 2010 installations](/previous-versions/office/sharepoint-server-2010/ff730261(v=office.14)).
     
 - **Block installations** You can block installations of SharePoint Server 2016 to prevent users from installing it to unauthorized servers that you don't want to support. Use a Group Policy in Active Directory Domain Services (AD DS) to set a registry key on all servers to block installations. This registry key existed by default in SharePoint Server 2010, but is not included in SharePoint Server 2016. You can create it yourself in the registry if you want to block installations. See [Track or block SharePoint Server 2010 installations](/previous-versions/office/sharepoint-server-2010/ff730261(v=office.14)).
     
-- **Keep current with software updates** Keep your servers current. Test and install recommended software updates. See the [Updates Resource Center](https://go.microsoft.com/fwlink/?LinkId=330874) for SharePoint Server 2016. 
+- **Keep current with software updates** Keep your servers current. Test and install recommended software updates. See the [Updates Resource Center](/office/) for SharePoint Server 2016. 
     
 - **Site collection upgrades** Site collections can now be upgraded independently from the content databases. Determine who, when, and how to upgrade site collections when a new version or an update is available. See [Plan for site collection upgrades in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/ff191199(v=office.14)).
-    
-

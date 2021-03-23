@@ -42,7 +42,7 @@ Before you begin this task, review the following info about prerequisites:
   
 - You must be using Excel and SharePoint Server 2013.
     
-- Excel Services must be configured to include a trusted data connections library and a trusted document library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more info, see [Configure a Business Intelligence Center in SharePoint Server 2013](/SharePoint/sharepoint-server).
+- Excel Services must be configured to include a trusted data connections library and a trusted document library. Ideally, you'll have a Business Intelligence Center site configured that you can use for your data connections and workbooks. For more info, see [Configure a Business Intelligence Center in SharePoint Server 2013](../sharepoint-server.yml).
     
 - You will need info from a SharePoint admin about how data authentication is configured for the databases your organization uses. This can affect how you connect to different data sources. 
     
@@ -50,9 +50,9 @@ Before you begin this task, review the following info about prerequisites:
     
 - You should have already created an Excel workbook that contains at least one item, such as a chart, table, PivotChart report, PivotTable report, or range of data. 
     
-- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more info, see [Configure Excel Services in SharePoint Server 2013 Preview](/SharePoint/administration/configure-excel-services).
+- If you plan to publish workbooks that contain data models to SharePoint Server 2013, Excel Services must be configured to support data models. For more info, see [Configure Excel Services in SharePoint Server 2013 Preview](./configure-excel-services.md).
     
-- If you plan to publish a workbook that contains a Power View sheet, SQL Server Reporting Services must be configured in SharePoint integrated mode. For more info, see [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](https://go.microsoft.com/fwlink/p/?LinkId=296782).
+- If you plan to publish a workbook that contains a Power View sheet, SQL Server Reporting Services must be configured in SharePoint integrated mode. For more info, see [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](/previous-versions/sql/sql-server-2012/jj218795(v=sql.110)).
     
 ## Share workbooks using Excel Services
 <a name="part2"> </a>
@@ -212,4 +212,3 @@ The workbook is now displayed in the Web Part. If you want, you can proceed to s
 [Data sources supported in Excel Services (SharePoint Server 2013)](data-sources-supported-in-excel-services-sharepoint-server-2013.md)
   
 [Business intelligence capabilities in Excel Service (SharePoint Server 2013)](bi-capabilities-in-excel-and-excel-services.md)
-

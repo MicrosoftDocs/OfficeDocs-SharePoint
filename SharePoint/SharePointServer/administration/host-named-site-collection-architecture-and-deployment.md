@@ -153,7 +153,7 @@ Although we recommend host-named site collections for most architectures, you sh
     
 - You plan to use different application pools for the additional security that these provide or you need to use multiple proxy groups. 
     
-    In these cases, you can use host-named site collections. However, the additional configuration that is required to map URLs for host-named site collections across multiple web applications greatly outweigh the benefits of using host-named site collections. For more information, see [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md#section4). For more information about creating path-based site collections, see [Create a site collection in SharePoint Server](/SharePoint/sites/create-a-site-collection).
+    In these cases, you can use host-named site collections. However, the additional configuration that is required to map URLs for host-named site collections across multiple web applications greatly outweigh the benefits of using host-named site collections. For more information, see [Use multiple web applications with host-named site collections](host-named-site-collection-architecture-and-deployment.md#section4). For more information about creating path-based site collections, see [Create a site collection in SharePoint Server](../sites/create-a-site-collection.md).
     
 ### Use host headers and host-named site collections
 <a name="section1e"> </a>
@@ -261,7 +261,7 @@ This creates a host-named site collection that has the URL, http://portal.contos
 ### Use managed paths with host-named site collections
 <a name="section2d"> </a>
 
-You can implement managed paths with host-named site collections. Hosters can provide multiple site collections to the same customer with each site collection sharing the customer's unique host name but differentiated by the URL path after the host name. Managed paths for host-named site collections are limited to 20 per farm. For more information, see [Software boundaries and limits for SharePoint Server 2016](/SharePoint/install/software-boundaries-and-limits#WebApplication).
+You can implement managed paths with host-named site collections. Hosters can provide multiple site collections to the same customer with each site collection sharing the customer's unique host name but differentiated by the URL path after the host name. Managed paths for host-named site collections are limited to 20 per farm. For more information, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits.md#WebApplication).
   
 Managed paths for host-named site collections behave differently from managed paths for path-based site collections. Managed paths for host-named site collections are available to all host-named site collections within the farm regardless of the web application that the host-named site collection is in. In contrast, managed paths for path-based site collections only apply to sites within the same web application. Managed paths for path-based site collections do not apply to path-based site collections in other web applications. Managed paths for one type of site collection do not apply to the other type of site collection.
   
@@ -382,7 +382,7 @@ This example creates a host-named site collection that has the URL, https://port
   
 The March 2013 Public Update enables you to configure an app domain for each web application zone and use alternate access mapping and host-header web application configuration. Before the release of this update, you could only host one app domain and it had to be in the Default zone. You could not use the app domain on alternate access mappings or host-header web application configurations. 
   
-To resolve this issue, apply the SharePoint Server Cumulative Update Server Hotfix Package: March 12, 2013, see [Updates for SharePoint 2013](/sharepoint/).
+To resolve this issue, apply the SharePoint Server Cumulative Update Server Hotfix Package: March 12, 2013, see [Updates for SharePoint 2013](../../Hub/index.yml).
   
 ## Migrate path-based site collections to host-named site collections
 <a name="section3"> </a>
@@ -509,5 +509,4 @@ Get-WebBinding -Name 'webapp' -HostHeader 'webapp.contoso.com' | Remove-WebBindi
   
 [Remove-SPSiteUrl](/powershell/module/sharepoint-server/Remove-SPSiteUrl?view=sharepoint-ps)
   
-[Plan logical architectures for SharePoint Server](/SharePoint/administration/administration)
-
+[Plan logical architectures for SharePoint Server](./administration.md)

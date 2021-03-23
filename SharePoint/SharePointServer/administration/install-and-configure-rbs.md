@@ -54,7 +54,7 @@ By default, the FILESTREAM feature is installed when you install SQL Server. But
     
 3. Allow remote clients to have streaming access to FILESTREAM data if you need remote client access.
     
-To enable FILESTREAM for file I/O and to allow clients access, follow the instructions in [Enable and Configure FILESTREAM](https://go.microsoft.com/fwlink/p/?LinkID=717992&amp;clcid=0x409). You only have to configure these settings one time for each database server where you want to use RBS.
+To enable FILESTREAM for file I/O and to allow clients access, follow the instructions in [Enable and Configure FILESTREAM](/sql/relational-databases/blob/enable-and-configure-filestream?viewFallbackFrom=sql-server-2014). You only have to configure these settings one time for each database server where you want to use RBS.
   
 ## Provision a BLOB store for each content database
 <a name="provision"> </a>
@@ -266,11 +266,10 @@ You should test the RBS installation on one Front-end server in the SharePoint f
   
 [Deciding to use RBS in SharePoint Server](rbs-planning.md)
   
-[Install and configure RBS with SharePoint 2013 and SQL Server 2012](https://docs.microsoft.com/archive/blogs/bogdang/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012)
+[Install and configure RBS with SharePoint 2013 and SQL Server 2012](/archive/blogs/bogdang/install-and-configure-rbs-with-sharepoint-2013-and-sql-server-2012)
   
 [Install for SharePoint 2013](../install/install-for-sharepoint-2013.md)
   
-[Remote Blob Store (RBS) (SQL Server)](https://docs.microsoft.com/sql/relational-databases/blob/remote-blob-store-rbs-sql-server)
+[Remote Blob Store (RBS) (SQL Server)](/sql/relational-databases/blob/remote-blob-store-rbs-sql-server)
   
-[Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream)
-  
+[Enable and Configure FILESTREAM](/sql/relational-databases/blob/enable-and-configure-filestream)

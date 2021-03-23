@@ -281,7 +281,7 @@ For more information about these PowerShell cmdlets, see the following articles:
     
  - [Get-PfxCertificate](https://go.microsoft.com/fwlink/?LinkID=717913&amp;clcid=0x409)
     
-For information about how to use a script to automate part of this process, see [Exchange trust certificates between farms](https://go.microsoft.com/fwlink/p/?LinkId=230666).
+For information about how to use a script to automate part of this process, see [Exchange trust certificates between farms](/samples/browse/?redirectedfrom=TechNet-Gallery).
   
 ## Managing trust certificates by using Central Administration
 <a name="Section4"> </a>
@@ -321,4 +321,3 @@ You can manage trusts on a farm only after the relevant certificates have alread
 [Create a web application in SharePoint Server](/previous-versions/office/sharepoint-server-2010/cc261875(v=office.14))
   
 [Configure SAML-based claims authentication with AD FS in SharePoint Server](/previous-versions/office/sharepoint-server-2010/hh305235(v=office.14))
-

@@ -74,7 +74,7 @@ To provide fault tolerance in a stretched farm, use the standard best practice g
 
 The values in the following table are minimum values for installations on a single server with a built-in database and for web and application servers that are running SharePoint 2013 in a multiple server farm installation. 
   
-For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments. For more information, see [Capacity management and sizing for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkID=95812).
+For all installation scenarios, you must have sufficient hard disk space for the base installation and sufficient space for diagnostics such as logging, debugging, creating memory dumps, and so on. For production use, you must also have additional free disk space for day-to-day operations. In addition, maintain two times as much free space as you have RAM for production environments. For more information, see [Capacity management and sizing for SharePoint Server 2013](../administration/capacity-management-and-sizing-for-sharepoint-server-2013.md).
   
 |**Installation Scenario**|**Deployment type and scale**|**RAM**|**Processor**|**Hard disk space**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -94,8 +94,8 @@ The requirements in the following table apply to database servers in environment
 |**Component**|**Minimum requirement**|
 |:-----|:-----|
 |Processor  <br/> | 64-bit, 4 cores for small deployments (fewer than 1,000 users)  <br/>  64-bit, 8 cores for medium deployments (between 1,000 to 10,000 users)  <br/> |
-|RAM  <br/> | 8 GB for small deployments (fewer than 1,000 users)  <br/>  16 GB for medium deployments (between 1,000 to 10,000 users)  <br/>  For large deployments over 10,000 users, see the "Estimate memory requirements" section in [Storage and SQL Server capacity planning and configuration (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkID=119416). This document does not apply to search in SharePoint 2013.  <br/>  These values are larger than those recommended as the minimum values for SQL Server because of the distribution of data that is required for a SharePoint 2013 environment. For more information about SQL Server system requirements, see [Hardware and Software Requirements for Installing SQL Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=238814).  <br/> |
-|Hard disk  <br/> |80 GB for system drive  <br/> Hard disk space depends on how much content that you have in your deployment. For information about how to estimate the amount of content and other databases for your deployment, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkID=119416).  <br/> |
+|RAM  <br/> | 8 GB for small deployments (fewer than 1,000 users)  <br/>  16 GB for medium deployments (between 1,000 to 10,000 users)  <br/>  For large deployments over 10,000 users, see the "Estimate memory requirements" section in [Storage and SQL Server capacity planning and configuration (SharePoint Server 2010)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md). This document does not apply to search in SharePoint 2013.  <br/>  These values are larger than those recommended as the minimum values for SQL Server because of the distribution of data that is required for a SharePoint 2013 environment. For more information about SQL Server system requirements, see [Hardware and Software Requirements for Installing SQL Server 2008 R2](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server).  <br/> |
+|Hard disk  <br/> |80 GB for system drive  <br/> Hard disk space depends on how much content that you have in your deployment. For information about how to estimate the amount of content and other databases for your deployment, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2010)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md).  <br/> |
    
 ## Software requirements
 <a name="section4"> </a>
@@ -109,10 +109,10 @@ The requirements in the following section apply to the following installations:
 - Server farm with multiple servers in the farm
 
 > [!IMPORTANT]
-> SharePoint 2013 requires a minimum Active Directory domain and forest functional level of Windows Server 2003 (native). For more information about Active Directory functional levels, see [Forest and Domain Functional Levels](https://docs.microsoft.com/windows-server/identity/ad-ds/active-directory-functional-levels).
+> SharePoint 2013 requires a minimum Active Directory domain and forest functional level of Windows Server 2003 (native). For more information about Active Directory functional levels, see [Forest and Domain Functional Levels](/windows-server/identity/ad-ds/active-directory-functional-levels).
 
 > [!IMPORTANT]
-> SharePoint 2013 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](https://go.microsoft.com/fwlink/p/?LinkID=193849). 
+> SharePoint 2013 does not support single label domain names. For more information, see [Information about configuring Windows for domains with single-label DNS names](/troubleshoot/windows-server/identity/deployment-operation-ad-domains). 
   
 The Microsoft SharePoint Products Preparation Tool can assist you in the installation of the software prerequisites for SharePoint 2013. Ensure that you have an Internet connection, because some prerequisites are installed from the Internet. For more information about how to use the Microsoft SharePoint Products Preparation Tool, see [Install SharePoint 2013 across multiple servers for a three-tier farm](multiple-servers-for-a-three-tier-farm.md) and [Install SharePoint 2013 across multiple servers for a three-tier farm](multiple-servers-for-a-three-tier-farm.md).
   
@@ -139,7 +139,7 @@ Minimum requirements for a database server in a farm:
     
   - The 64-bit edition of SQL Server 2008 R2 Service Pack 1
     
-- A 64-bit edition of Windows Server, for supported combinations of Windows Server and SQL Server, see Using [SQL Server in Windows 8 and later versions of Windows operating system](https://docs.microsoft.com/troubleshoot/sql/general/sql-server-windows-8-later-versions).
+- A 64-bit edition of Windows Server, for supported combinations of Windows Server and SQL Server, see Using [SQL Server in Windows 8 and later versions of Windows operating system](/troubleshoot/sql/general/sql-server-windows-8-later-versions).
     
 - The SharePoint parsing process crashes in Windows Server 2008 R2 (KB 2554876)
     
@@ -294,7 +294,7 @@ The optional software in this section is supported but is not required to instal
 |**Environment**|**Optional software**|
 |:-----|:-----|
 |Single server with built-in database, front-end web servers, and application servers in a farm  <br/> | .NET Framework Data Provider for SQL Server (part of Microsoft .NET Framework)  <br/>  .NET Framework Data Provider for OLE DB (part of Microsoft .NET Framework)  <br/>  Workflow Manager  <br/>  You can install Workflow Manager on a dedicated computer.  <br/>  Microsoft SQL Server 2008 R2 Reporting Services Add-in for Microsoft SharePoint Technologies  <br/>  This add-in is used by Access Services for SharePoint Server 2016.  <br/>  Microsoft SQL Server 2012 Data-Tier Application (DAC) Framework 64-bit edition  <br/>  Microsoft SQL Server 2012 Transact-SQL ScriptDom 64-bit edition  <br/>  Microsoft System CLR Types for Microsoft SQL Server 2012 64-bit edition  <br/>  Microsoft SQL Server 2012 with Service Pack 1 (SP1) LocalDB 64-bit edition  <br/>  Microsoft Data Services for the .NET Framework 4 and Silverlight 4 (formerly ADO.NET Data Services)  <br/>  Exchange Web Services Managed API, version 1.2  <br/>  Microsoft SQL Server 2008 R2 Remote Blob Store which is part of the Microsoft SQL Server 2008 R2 Feature Pack  <br/>  SQL Server 2008 R2 Analysis Services ADOMD.NET  <br/>  KB 2472264  <br/>  If you are running a geo-distributed deployment and your servers are running Windows Server 2008 R2, then installing KB 2472264 can optimize network latency in a dedicated datacenter network. For more information, and to download the software, see [You cannot customize some TCP configurations by using the netsh command in Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=254821).  <br/> |
-|Client computer  <br/> | Windows 7  <br/>  For information about how to use Windows 7 with SharePoint 2013 in a development environment, see [Start: Set up the development environment for SharePoint 2013](https://msdn.microsoft.com/library/ee554869%28v=office.15%29.aspx).  <br/>  Silverlight 3  <br/>  Office 2016  <br/>  Microsoft Office 2010 with Service Pack 2  <br/>  With [KB 2553248](https://go.microsoft.com/fwlink/p/?LinkID=254211) <br/>  Microsoft Office 2007 with Service Pack 2  <br/>  With [KB 2583910](https://go.microsoft.com/fwlink/p/?LinkID=254212) <br/>  Microsoft Office for Mac 2011 with Service Pack 1  <br/>  Microsoft Office 2008 for Mac version 12.2.9  <br/>  Support ends April 9, 2013.  <br/> |
+|Client computer  <br/> | Windows 7  <br/>  For information about how to use Windows 7 with SharePoint 2013 in a development environment, see [Start: Set up the development environment for SharePoint 2013](/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint).  <br/>  Silverlight 3  <br/>  Office 2016  <br/>  Microsoft Office 2010 with Service Pack 2  <br/>  With [KB 2553248](https://go.microsoft.com/fwlink/p/?LinkID=254211) <br/>  Microsoft Office 2007 with Service Pack 2  <br/>  With [KB 2583910](https://go.microsoft.com/fwlink/p/?LinkID=254212) <br/>  Microsoft Office for Mac 2011 with Service Pack 1  <br/>  Microsoft Office 2008 for Mac version 12.2.9  <br/>  Support ends April 9, 2013.  <br/> |
    
 ## Links to applicable software
 <a name="section5"> </a>
@@ -433,4 +433,3 @@ Certain prerequisites are installed by the prerequisite installer with specific 
     /quiet
     
 The prerequisite installer creates log files at %TEMP%\prerequisiteinstaller.\<date\>.\<time\>.log. You can check these log files for specific details about all changes the installer makes to the target computer.
-  

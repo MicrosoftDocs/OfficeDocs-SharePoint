@@ -52,12 +52,12 @@ The only platform available when you first install SharePoint Server is the Shar
 
 ## Install Workflow Manager
 
-Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers. Workflow Manager can be deployed with the Web PI tool. For more information on Web PI, see [Using the Microsoft Web Platform Installer](https://docs.microsoft.com/iis/install/web-platform-installer/using-the-microsoft-web-platform-installer).
+Workflow Manager may be installed on the same servers as SharePoint or on separate, dedicated servers. Workflow Manager can be deployed with the Web PI tool. For more information on Web PI, see [Using the Microsoft Web Platform Installer](/iis/install/web-platform-installer/using-the-microsoft-web-platform-installer).
    
 ## Install and configure SharePoint Server
 <a name="section3"> </a>
 
-You must install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](/sharepoint/).
+You must install and configure SharePoint Server. To do so, see [Install and deploy SharePoint 2013](../../Hub/index.yml).
   
 > [!NOTE]
 > The SharePoint 2010 Workflow platform installs automatically when you install SharePoint Server. The SharePoint 2013 Workflow platform requires Workflow Manager and must be installed separately and then configured to work with your SharePoint Server farm. > To function correctly SharePoint 2013 Workflows require to have App Management Service and Site Subscription Service provisioned. It is not required to setup a wildcard certificate and DNS registration but both instances need to be running. 
@@ -197,7 +197,7 @@ Use these steps to validate that you have successfully installed and configured 
   
 1. Add a user to your SharePoint site, and grant the user Site Designer permissions.
     
-2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](https://msdn.microsoft.com/library/jj554671%28v=office.15%29).
+2. Install SharePoint Designer 2013 and create a workflow based on the SharePoint 2013 Workflow platform. For more information, see [Creating a workflow by using SharePoint Designer 2013 and the SharePoint 2013 Workflow platform](/sharepoint/dev/general-development/creating-a-workflow-by-using-sharepoint-designer-and-the-sharepoint-wo).
     
 3. Run this workflow from the SharePoint user interface.
     
@@ -221,5 +221,3 @@ The SQL Browser Service must be running on the SQL Server instance that hosts th
 The System Account cannot be used to develop a workflow.
   
 To troubleshoot SharePoint Server, see [Troubleshooting SharePoint Server](../administration/troubleshoot.md).
-  
-

@@ -41,11 +41,11 @@ To migrate a web application to include all the content databases by using Windo
 - The securityadmin fixed server role on the SQL Server instance.
 - The db_owner fixed database role on all databases that are to be updated.
 - The Administrators group on the server on which you are running Windows PowerShell cmdlets.
-- Read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
+- Read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
 
 An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint cmdlets.
 
-**NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+**NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
 
 2.	To migrate a web application to include all content databases, type the following at the Windows PowerShell command prompt.
 
@@ -62,11 +62,11 @@ To migrate specific web applications and content databases by using Windows Powe
 - The securityadmin fixed server role on the SQL Server instance.
 - The db_owner fixed database role on all databases that are to be updated.
 - The Administrators group on the server on which you are running Windows PowerShell cmdlets.
-- Read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
+- Read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
 
 An administrator can use the Add-SPShellAdmin cmdlet to grant permissions to use SharePoint cmdlets.
 
-**NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](https://docs.microsoft.com/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
+**NOTE**:   If you do not have permissions, contact your Setup administrator or SQL Server administrator to request permissions. For additional information about Windows PowerShell permissions, see Permissions and [Add-SPShellAdmin](/powershell/module/sharepoint-server/add-spshelladmin?view=sharepoint-ps).
 
  
 2.	To migrate specific web applications and content databases, type the following at the Windows PowerShell command prompt.
@@ -86,4 +86,4 @@ $wa = Get-SPWebApplication -Identity "Name of web application"
 Convert-SPWebApplication -Identity $wa -From CLAIMS-TRUSTED-DEFAULT -To CLAIMS-WINDOWS -SourceSkipList $skipFile -Database $database 
 ```
 
-**NOTE**:   For more information, see [Get-SPContentDatabase](https://docs.microsoft.com/powershell/module/sharepoint-server/get-spcontentdatabase?view=sharepoint-ps), [Get-SPWebApplication](https://docs.microsoft.com/powershell/module/sharepoint-server/get-spwebapplication?view=sharepoint-ps), and [Convert-SPWebApplication](https://docs.microsoft.com/powershell/module/sharepoint-server/convert-spwebapplication?view=sharepoint-ps).
+**NOTE**:   For more information, see [Get-SPContentDatabase](/powershell/module/sharepoint-server/get-spcontentdatabase?view=sharepoint-ps), [Get-SPWebApplication](/powershell/module/sharepoint-server/get-spwebapplication?view=sharepoint-ps), and [Convert-SPWebApplication](/powershell/module/sharepoint-server/convert-spwebapplication?view=sharepoint-ps).

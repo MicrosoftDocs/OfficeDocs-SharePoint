@@ -170,7 +170,7 @@ Each server farm in the design sample is composed of six servers with the follow
     
 - Two database servers with SQL Server installed and configured to support SQL Server clustering, mirroring, or AlwaysOn. AlwaysOn requires SQL Server 2012.
     
-The concept of front-end and application server is different in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Server](/sharepoint/install/overview-of-minrole-server-roles-in-sharepoint-server)
+The concept of front-end and application server is different in SharePoint Server 2016, see [Overview of MinRole Server Roles in SharePoint Server](../install/overview-of-minrole-server-roles-in-sharepoint-server.md)
   
 The design sample illustrates the logical architecture of SharePoint Server by showing that the following:
   
@@ -178,7 +178,7 @@ The design sample illustrates the logical architecture of SharePoint Server by s
     
 - The Central Administration site is installed on an application server to protect it from direct user access. 
     
-In reality, the number of server computers and the topology of the server farm are important to the logical architecture only to increase capacity and improve performance. You can design the logical architecture independent of the server farm topology. The process of planning performance and capacity helps you plan the size the server farm to meet performance and capacity goals. For more information, see [Performance planning in SharePoint Server 2013](/SharePoint/administration/performance-planning-in-sharepoint-server-2013).
+In reality, the number of server computers and the topology of the server farm are important to the logical architecture only to increase capacity and improve performance. You can design the logical architecture independent of the server farm topology. The process of planning performance and capacity helps you plan the size the server farm to meet performance and capacity goals. For more information, see [Performance planning in SharePoint Server 2013](./performance-planning-in-sharepoint-server-2013.md).
   
 ## Users, zones, and authentication
 <a name="section4"> </a>
@@ -697,5 +697,3 @@ In environments that have multiple domains, enter CNAME records for DNS in the d
 You can configure policies for one or more zones to enforce permissions for all content within a web application. In claims mode, a policy can be defined only for a specific zone (not for the web application in general). A policy enforces permissions on all content that users access through a zone. Policy permissions override all other security settings that are configured for sites and content. You can configure policy based on users or user groups, but not SharePoint groups. If you add or change a zone policy, search must crawl sites again to apply the new permissions.
   
 The design samples do not use policies because either multiple types of authentication are enabled on a single zone or all sites are contained within on web application (or both). 
-  
-
