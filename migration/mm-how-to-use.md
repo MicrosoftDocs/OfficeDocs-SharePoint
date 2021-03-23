@@ -33,7 +33,7 @@ Before you create your first migration task, do the following checks:
 |[Prerequisites](./mm-setup-clients.md#prerequisites)|Make sure all system prerequisites have been met on your local computer or VM before running the Migration Manager agent setup file.|
 |[Required Endpoints](./mm-setup-clients.md#required-endpoints)|Review the required Endpoints|
 |[Government cloud](mm-gov-cloud.md)|If you are on a Government cloud, make sure your settings are correctly configured before you begin.|
-|[Set up your Migration Manager agent](mm-setup-clients.md#set-up-a-single-agent)|You can set up as many agents as needed to scale your project.|
+|[Set up your Migration Manager agent](mm-setup-clients.md#set-up-an-agent)|You can set up as many agents as needed to scale your project.|
 
 
 
