@@ -39,7 +39,8 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 
 [**What's new**](mm-whats-new.md)
 
-![Migrating file shares user workflow](media/mm-fileshare-user-workflow.png)
+![Migrating file shares user workflow](media/mm-flow-3box.png)
+
 
 
 
