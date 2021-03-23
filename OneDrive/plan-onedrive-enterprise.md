@@ -310,7 +310,7 @@ If you have decided to use Azure Information Protection, to configure the necess
 
 ### OneDrive integration with other Microsoft 365 features
 
-OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For info about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact/). We also recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects poster](https://aka.ms/ProductivityArch).
+OneDrive integrates with many other applications, such as SharePoint, Teams, and Yammer. With that integration comes the necessity to protect the data stored in OneDrive. When considering security, for example, think about potential leakage scenarios through each integrated application and apply WIP, IRM, Azure Information Protection, or another protection option to help prevent unauthorized access. For info about how these products integrate with each other to provide a better collaboration solution and how they can introduce additional vectors for data leakage, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact/). We also recommend that you download the [Microsoft Teams and related productivity services in Microsoft 365 for IT architects poster](/microsoft-365/solutions/cloud-architecture-models).
 
 ## Sharing options
 
@@ -496,7 +496,7 @@ To deploy the OneDrive sync app to Windows using Microsoft Endpoint Configuratio
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSr]
 
-Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the Microsoft Endpoint Configuration Manager site. For detailed info about these prerequisites and how to prepare a Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/configmgr/core/clients/deploy/prepare-to-deploy-mac-clients/). When you've completed the prerequisites, you can deploy applications to Macs by completing the steps described in [Create Mac computer applications with Configuration Manager](https://docs.microsoft.com/configmgr/apps/get-started/creating-mac-computer-applications). For info about configuring the OneDrive sync app for macOS, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
+Before you can deploy applications to computers running macOS, you need to complete some prerequisite tasks on the Microsoft Endpoint Configuration Manager site. For detailed info about these prerequisites and how to prepare a Configuration Manager environment for Mac management, see [Prepare to deploy client software to Macs](/configmgr/core/clients/deploy/prepare-to-deploy-mac-clients/). When you've completed the prerequisites, you can deploy applications to Macs by completing the steps described in [Create Mac computer applications with Configuration Manager](/configmgr/apps/get-started/creating-mac-computer-applications). For info about configuring the OneDrive sync app for macOS, see [Deploy and configure the new OneDrive sync app for Mac](deploy-and-configure-on-macos.md).
 
 ## Manage OneDrive
 
@@ -514,7 +514,7 @@ The OneDrive admin center [https://admin.onedrive.com](https://admin.onedrive.co
 
 Settings in the OneDrive admin center are grouped into six categories:
 
-- **Sharing** - Instead of using this page, use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
+- **Sharing** - Instead of using this page, use the [Sharing page in the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=sharing&modern=true), to configure your sharing options based on the decisions you made earlier in this guide. To learn more, see [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off).
 
 - **Sync** - On the **Sync** page, you can configure sync restrictions based on file types, require that synced devices be domain joined, or restrict synchronization from computers running macOS. Depending on your device management tool, the PC device restrictions in this section may overlap other management settings.
 

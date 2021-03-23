@@ -69,9 +69,8 @@ Go to the Device access page of the [OneDrive admin center](https://admin.onedri
     
 ## Related topics
 
-[Intune Documentation](https://go.microsoft.com/fwlink/?linkid=2003459)
+[Intune Documentation](/mem/intune/)
   
-[How to create and assign app protection policies](https://docs.microsoft.com/mem/intune/apps/app-protection-policies)
+[How to create and assign app protection policies](/mem/intune/apps/app-protection-policies)
   
 [Control access based on network location or app](control-access-based-on-network-location-or-app.md)
-  
