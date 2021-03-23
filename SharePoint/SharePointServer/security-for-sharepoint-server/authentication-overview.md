@@ -123,7 +123,7 @@ For SharePoint App Catalog apps, an example of the authentication process is as 
 > [!NOTE]
 > App Catalog apps can use either ACS or a self-signed certificate for their access tokens. 
   
-For more information, see [Plan for app authentication in SharePoint 2013 Preview](/SharePoint/security-for-sharepoint-server/plan-for-app-authentication-in-sharepoint-server).
+For more information, see [Plan for app authentication in SharePoint 2013 Preview](./plan-for-app-authentication-in-sharepoint-server.md).
   
 ## Server-to-server authentication in SharePoint Server
 <a name="s2sauth"> </a>
@@ -169,5 +169,3 @@ When both servers are running in Microsoft 365, an example process is as follows
 7. The service on SharePoint renders the page for the user.
     
 For more information, see [Plan for server-to-server authentication in SharePoint Server](plan-server-to-server-authentication.md).
-  
-

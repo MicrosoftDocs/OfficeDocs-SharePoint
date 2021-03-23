@@ -28,7 +28,7 @@ When you reset the search index in SharePoint Server, all content is immediately
 > If you can, you should perform a backup and restore of your Search service application instead of a search index reset. These procedures will fully restore all features that are powered by the Analytics Processing Component. For more information, see [Back up Search service applications in SharePoint Server](../administration/back-up-a-search-service-application.md) and [Restore Search service applications in SharePoint Server](../administration/restore-a-search-service-application.md). 
   
 > [!NOTE]
-> If your SharePoint environment is hybrid and uses [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), you index your on-premises content in your search index in Office 365. See [Learn about cloud hybrid search for SharePoint](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) for guidance on deleting metadata of on-premises items from the search index in Office 365. 
+> If your SharePoint environment is hybrid and uses [cloud hybrid search](../hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md), you index your on-premises content in your search index in Office 365. See [Learn about cloud hybrid search for SharePoint](../hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md) for guidance on deleting metadata of on-premises items from the search index in Office 365. 
   
     
 ## Before you begin
@@ -60,5 +60,3 @@ Use the following procedure to reset the search index.
     The Search Administration page opens and the System Status is displayed.
     
 After the search index reset is complete, you must perform a full crawl of all the content sources that you want to include in the search index. For more information, see Add, edit, or delete a content source in SharePoint 2013 Preview. Users will not be able to retrieve search results until you create a new search index. After the full crawl has completed and a new search index has been created, you must also re-enable search alerts. See [Enable search alerts](enable-search-alerts.md).
-  
-

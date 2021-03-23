@@ -46,7 +46,7 @@ For a visual look of the high-level steps, see
 •	User Profile service application<br/>
 •	Search service application
 
-For the specific, end to end steps to upgrade SharePoint 2013 to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016](/SharePoint/upgrade-and-update/upgrade-to-sharepoint-server-2016)
+For the specific, end to end steps to upgrade SharePoint 2013 to SharePoint Server 2016, see [Upgrade to SharePoint Server 2016](./upgrade-to-sharepoint-server-2016.md)
 
 ## Steps to Upgrade
 

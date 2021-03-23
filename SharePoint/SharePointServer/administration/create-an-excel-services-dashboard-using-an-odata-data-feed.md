@@ -42,7 +42,7 @@ Before you begin this operation, review the following information about prerequi
     
     If you do not have a Business Intelligence Center site, have an IT administrator configure it for you by using the instructions in [Configure AdventureWorks for Business Intelligence solutions](configure-adventureworks.md).
     
--  Excel Services must be configured to support Data Models. For information about how to deploy Excel Services, see [Configure Excel Services in SharePoint Server 2013](/SharePoint/administration/configure-excel-services) and [Manage Excel Services data model settings (SharePoint Server 2013)](manage-excel-services-data-model-settings.md). 
+-  Excel Services must be configured to support Data Models. For information about how to deploy Excel Services, see [Configure Excel Services in SharePoint Server 2013](./configure-excel-services.md) and [Manage Excel Services data model settings (SharePoint Server 2013)](manage-excel-services-data-model-settings.md). 
     
 ## Plan the dashboard
 <a name="part1"> </a>
@@ -369,4 +369,3 @@ Now that the dashboard is open for viewing, we can use it to obtain answers to s
 [Business intelligence capabilities in Excel Service (SharePoint Server 2013)](bi-capabilities-in-excel-and-excel-services.md)
   
 [Create an Excel Services dashboard using a Data Model (SharePoint Server 2013)](create-an-excel-services-dashboard-using-a-data-model-sharepoint-server-2013.md)
-

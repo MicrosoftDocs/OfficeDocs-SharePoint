@@ -24,7 +24,7 @@ description: "Learn about securing and deploying web parts in SharePoint Server.
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)]
 SharePoint Server includes a set of web parts that users can add to pages after installing the product. If an organization needs custom web parts, a developer can write custom ASP.NET web parts and ask you to install them. This process typically requires testing and approval of the code before the web part can be deployed in a full-trust environment. A developer who uses Visual Studio can deploy a web part to SharePoint Server by right clicking the project and selecting **Deploy**. The destination for the web part is determined by the trust level established with the SharePoint server when the developer created the project in Visual Studio.
   
-SharePoint Server uses some of the configuration management settings that are provided by the Microsoft .NET Framework. Some of these settings are stored in XML configuration files and they provide a broad range of settings that server administrators use to manage the Web application and its environment. For more information about ASP.NET configuration files, see [Machine.Config and Web.Config Explained](https://go.microsoft.com/fwlink/p/?LinkId=103450) in "Securing Your ASP.NET Application and Web Services". 
+SharePoint Server uses some of the configuration management settings that are provided by the Microsoft .NET Framework. Some of these settings are stored in XML configuration files and they provide a broad range of settings that server administrators use to manage the Web application and its environment. For more information about ASP.NET configuration files, see [Machine.Config and Web.Config Explained](/previous-versions/msp-n-p/ff648667(v=pandp.10)) in "Securing Your ASP.NET Application and Web Services". 
   
     
 ## Configuration options
@@ -67,7 +67,7 @@ By default, the Bin directory and its contents are assigned minimal code access 
   
 You can elevate permissions in either of two ways:
   
-- (Recommended) Create a trust policy file and point your Web.config file at the new file. This option is more complex, but it enables you to set precise permissions for your web parts. For more information about trust policy files, see [Microsoft Windows SharePoint Services and Code Access Security](https://go.microsoft.com/fwlink/p/?LinkID=103436). 
+- (Recommended) Create a trust policy file and point your Web.config file at the new file. This option is more complex, but it enables you to set precise permissions for your web parts. For more information about trust policy files, see [Microsoft Windows SharePoint Services and Code Access Security](/previous-versions/office/developer/sharepoint2003/dd583158(v=office.11)). 
     
 - Raise the overall trust level of the Bin directory. In the Web.config file in the root directory of your Web application, locate the  `trust` element. The default value for the  `trust` element's  `level` attribute is **WSS_Minimal**. You can change this level to **WSS_Medium**. Although this option is simpler, it grants arbitrary new permissions that you might not need, and it is less secure than creating a trust policy file.
     
@@ -159,5 +159,4 @@ Every web part should have a .webpart file, which is an XML file that describes 
 [Manage web parts in SharePoint Server](manage-web-parts.md)
 #### Other Resources
 
-[How to: Deploy, Publish, and Upgrade SharePoint Solutions on a Remote Server](https://go.microsoft.com/fwlink/?linkid=858842)
-
+[How to: Deploy, Publish, and Upgrade SharePoint Solutions on a Remote Server](/visualstudio/sharepoint/how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server)

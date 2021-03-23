@@ -52,14 +52,14 @@ To set up a hybrid environment with SharePoint Server, you need a [Microsoft 365
   
 ## 2. Register your domain with Microsoft 365
 
-When you sign up for Microsoft 365, you're given an initial domain name that looks like contoso.onmicrosoft.com. However, to configure a hybrid environment with SharePoint Server, you must register a public domain that you own (such as contoso.com) in Microsoft 365. For detailed info about how to do this, see [Work with domain names in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=534807).
+When you sign up for Microsoft 365, you're given an initial domain name that looks like contoso.onmicrosoft.com. However, to configure a hybrid environment with SharePoint Server, you must register a public domain that you own (such as contoso.com) in Microsoft 365. For detailed info about how to do this, see [Work with domain names in Microsoft 365](/microsoft-365/admin/setup/add-domain).
   
 ## 3. Assign a UPN domain suffix
 <a name="assignUPN"> </a>
 
 You have to create a UPN domain suffix in your on-premises Active Directory domain that matches the public domain—for example, contoso.com. Then, you have to assign the UPN domain suffix to each user account that you want to synchronize or federate.
   
-The following procedures show how to manually do these tasks. If you have many users whom you want to federate, we recommend that you put all federated user accounts into an organizational unit (OU), and then create a script that will change the UPN domain suffix for each user account in that OU. For supported guidance on DirSync filtering, see [Configure filtering for directory synchronization](https://go.microsoft.com/fwlink/?LinkID=392308). For information about how to create a script for this, see [How Can I Assign a New UPN to All My Users](https://go.microsoft.com/fwlink/?LinkId=392242).
+The following procedures show how to manually do these tasks. If you have many users whom you want to federate, we recommend that you put all federated user accounts into an organizational unit (OU), and then create a script that will change the UPN domain suffix for each user account in that OU. For supported guidance on DirSync filtering, see [Configure filtering for directory synchronization](/azure/active-directory/hybrid/whatis-hybrid-identity). For information about how to create a script for this, see [How Can I Assign a New UPN to All My Users](https://go.microsoft.com/fwlink/?LinkId=392242).
   
  **To create the UPN suffix in your on-premises DNS**
   
@@ -69,7 +69,7 @@ The following procedures show how to manually do these tasks. If you have many u
     
 3. In the **UPN suffixes** dialog box, enter the domain suffix in the **Alternative UPN suffixes** box that you want for hybrid, select **Add**, and then select **OK**.
     
-For more info, see [Add user principal name suffixes](https://go.microsoft.com/fwlink/?LinkId=392430) (https://go.microsoft.com/fwlink/?LinkId=392430). 
+For more info, see [Add user principal name suffixes](/previous-versions/windows/it-pro/windows-server-2003/cc756018(v=ws.10)) (https://go.microsoft.com/fwlink/?LinkId=392430). 
   
  **To manually assign a UPN domain suffix to users**
   
@@ -97,11 +97,9 @@ To configure a hybrid environment, you must synchronize your on-premises Active 
     
 If you choose the SSO option, you can also configure password synchronization if you want to as a backup for SSO, but you must configure at least one of the two (password synchronization or SSO). 
   
-For detailed info about how to configure these options, see [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/p/?LinkID=524187).
+For detailed info about how to configure these options, see [Microsoft 365 integration with on-premises environments](/microsoft-365/enterprise/microsoft-365-integration).
   
 ## 5. Assign licenses to your users
 <a name="assignUPN"> </a>
 
-Your users must each have a license in Microsoft 365 in order to be able to use hybrid features. Once your accounts are synchronized, [assign licenses to your users](https://go.microsoft.com/fwlink/p/?LinkID=529809).
-  
-
+Your users must each have a license in Microsoft 365 in order to be able to use hybrid features. Once your accounts are synchronized, [assign licenses to your users](/microsoft-365/admin/add-users/add-users).

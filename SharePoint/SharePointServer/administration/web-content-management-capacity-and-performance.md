@@ -152,7 +152,7 @@ The server topology that we used to test this scenario is in the following diagr
   
 ### Test lab reports
 
-We used the topology in figure 1 for our test lab with physical computers and a Visual Studio Team System (VSTS) load test. For more information, see [Visual Studio Team System](https://go.microsoft.com/fwlink/p/?LinkId=196252). Technical specifications for the test computers are in the following tables.
+We used the topology in figure 1 for our test lab with physical computers and a Visual Studio Team System (VSTS) load test. For more information, see [Visual Studio Team System](/azure/devops/user-guide/devops-alm-overview?toc=%2fazure%2fdevops%2fuser-guide%2ftoc.json&viewFallbackFrom=vsts). Technical specifications for the test computers are in the following tables.
   
 > [!NOTE]
 > We did not use browser caching or dependent requests, such as images or JavaScript files in our VSTS tests. Depending on how you customize your publishing site, the amount of dependent requests that occur can vary considerably. > The pages that we used in our tests made almost 50 page load time 1 (PLT1) request types (empty browser cache) and about 3 requests for PLT2 request types (subsequent requests with results from the browser cache). Usually, SharePoint BLOB Cache serves requests for these items and will not alter our performance numbers significantly. 
@@ -312,7 +312,7 @@ To configure the caching behavior for an individual Web Part to use (or not use)
 #### Effect of output cache
 <a name="anon"> </a>
 
-Output caching is an effective way to reduce the load on SharePoint Server 2013 in publishing scenarios. For more details about how Output Cache works in this article, see [Output Caching and Cache Profiles](https://msdn.microsoft.com/library/aa661294.aspx).
+Output caching is an effective way to reduce the load on SharePoint Server 2013 in publishing scenarios. For more details about how Output Cache works in this article, see [Output Caching and Cache Profiles](/previous-versions/office/developer/sharepoint-2010/aa661294(v=office.14)).
   
 A SharePoint deployment may benefit from Output Caching to reduce the load on SharePoint content databases and the search service application. Here are some example situations:
   
@@ -578,4 +578,3 @@ The following graph shows the summary of these results:
 [Configure cache settings for a web application in SharePoint Server](cache-settings-configuration-for-a-web-application.md)
   
 [Plan for caching and performance in SharePoint Server](caching-and-performance-planning.md)
-

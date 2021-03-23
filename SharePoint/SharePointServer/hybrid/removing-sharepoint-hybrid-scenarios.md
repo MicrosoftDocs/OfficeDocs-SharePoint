@@ -35,7 +35,7 @@ Cloud Hybrid Search may be removed by deleting the Search Service Application.
 > The **Type** is identical to the standard SharePoint in Microsoft 365 Search Service Application.
 
 4. On the ribbon, select **Delete**.
-5. You may then create a new non-Cloud Search Service Application. For info about how to create and manage your Search Service Application, see the SharePoint Server documentation in [Search](https://docs.microsoft.com/sharepoint/search/search).
+5. You may then create a new non-Cloud Search Service Application. For info about how to create and manage your Search Service Application, see the SharePoint Server documentation in [Search](../search/search.md).
 
 ## OneDrive and sites
 
@@ -49,11 +49,11 @@ Setting the option to **None** also removes the Hybrid app launcher feature.
 
 ## SharePoint hybrid taxonomy and hybrid content types
 
-See [Stopping replication of taxonomy groups](https://docs.microsoft.com/sharepoint/hybrid/configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types#stopping-replication-of-taxonomy-groups).
+See [Stopping replication of taxonomy groups](./configure-hybrid-sharepoint-taxonomy-and-hybrid-content-types.md#stopping-replication-of-taxonomy-groups).
 
 ## Hybrid self-service site creation
 
-See [Manage hybrid self-service site creation](https://docs.microsoft.com/sharepoint/hybrid/hybrid-self-service-site-creation#manage-hybrid-self-service-site-creation).
+See [Manage hybrid self-service site creation](./hybrid-self-service-site-creation.md#manage-hybrid-self-service-site-creation).
 
 ## Removing the Azure Access Control Service Application Proxy and SharePoint in Microsoft 365 Application Principal Management Service Application Proxy
 

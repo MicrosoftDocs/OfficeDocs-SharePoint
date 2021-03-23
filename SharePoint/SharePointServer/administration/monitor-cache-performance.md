@@ -88,7 +88,7 @@ You can monitor the effectiveness of the cache settings by using the performance
 > [!NOTE]
 > For the ASP.NET output cache, all pages are cached for a fixed duration that is independent of user actions. Therefore, there are flush-related monitoring events. 
   
-For more information about the ASP.NET output cache, see [Output Caching and Cache Profiles](https://go.microsoft.com/fwlink/p/?LinkID=121543) or [cache Element for caching (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/p/?LinkId=195986). 
+For more information about the ASP.NET output cache, see [Output Caching and Cache Profiles](/previous-versions/office/developer/sharepoint-2010/aa661294(v=office.14)) or [cache Element for caching (ASP.NET Settings Schema)](/previous-versions/dotnet/netframework-4.0/ms228248(v=vs.100)). 
   
 ## Monitoring object cache performance
 <a name="object"> </a>
@@ -106,5 +106,3 @@ You can monitor the effectiveness of the cache settings by using the performance
 |Total number of cache compactions  <br/> |0  <br/> |If this number is high, the cache size is too small for the data being requested. To improve performance, increase the size of the cache.  <br/> |
 |Publishing cache flushes / second  <br/> |0  <br/> |Site owners might be performing actions on the sites that are causing the cache to be flushed. To improve performance during peak-use hours, make sure that site owners perform these actions only during off-peak hours.  <br/> |
 |Publishing cache hit ratio  <br/> |Depends on usage pattern. For read-only sites, the ratio should be 1. For read-write sites, the ratio may be lower.  <br/> | If the ratio starts to decrease, this might be caused by one or more of the following:  <br/>  The cache was recently flushed or compacted.  <br/>  Users are accessing content that was recently added to the site. This might occur after lots of new content is added to the site.  <br/> |
-   
-

@@ -41,11 +41,10 @@ When you're done exploring, [plan your hybrid deployment](plan-sharepoint-server
 |[The building blocks of Microsoft 365 hybrid](the-building-blocks-of-office-365-hybrid.md) <br/> |This chalk talk video covers the major components of Microsoft 365 hybrid. If you're considering a hybrid solution, watch this video to learn more about how all the pieces fit together.  <br/> |
 |[Minimum public update levels for SharePoint hybrid features](minimum-public-update-levels-for-sharepoint-hybrid-features.md) <br/> |Learn which SharePoint Server updates are required to enable the various hybrid features.  <br/> |
 |[SharePoint hybrid sites and search](sharepoint-hybrid-sites-and-search.md) <br/> |Learn about the available hybrid features related to sites and search that can help create a cohesive user experience between SharePoint Server and SharePoint in Microsoft 365.  <br/> |
-|[Learn about cloud hybrid search for SharePoint](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) <br/> |Learn about cloud hybrid search, its advantages, and what search experiences are available for your users.  <br/> |
+|[Learn about cloud hybrid search for SharePoint](./learn-about-cloud-hybrid-search-for-sharepoint.md) <br/> |Learn about cloud hybrid search, its advantages, and what search experiences are available for your users.  <br/> |
 |[Learn about hybrid federated search for SharePoint](learn-about-hybrid-federated-search-for-sharepoint.md) <br/> |Learn about the different scenarios available for hybrid federated search and what search experiences they enable for your users.  <br/> |
 |[Hybrid picker in the SharePoint admin center](hybrid-picker-in-the-sharepoint-online-admin-center.md) <br/> |Learn about the hybrid picker configuration wizard and which hybrid scenarios it enables.  <br/> |
    
 ## Related topics
 
 [Hybrid for SharePoint Server](hybrid.md)
-

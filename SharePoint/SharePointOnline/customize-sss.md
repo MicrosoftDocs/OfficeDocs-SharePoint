@@ -31,9 +31,9 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 
 **The SharePoint Success Site consists of three parts:**
 
-1.	**SharePoint communication site** - The site comes [pre-populated with content and web parts](https://docs.microsoft.com/sharepoint/overview-sss#what-comes-with-a-sharepoint-success-site) that can be further customized to fit the needs of your organization.
+1.	**SharePoint communication site** - The site comes [pre-populated with content and web parts](./overview-sss.md#what-comes-with-a-sharepoint-success-site) that can be further customized to fit the needs of your organization.
 
-2.	**Microsoft 365 learning pathways** - [M365 learning pathways](https://docs.microsoft.com/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization..) is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and enable your own training playlists.
+2.	**Microsoft 365 learning pathways** - [M365 learning pathways](/office365/customlearning/#:~:text=Microsoft%20365%20learning%20pathways%20is%20a%20customizable%2C%20on-demand,adoption%20of%20Microsoft%20365%20services%20in%20your%20organization..) is a solution that enables you to leverage existing content produced by Microsoft, as well as the ability to create and enable your own training playlists.
 
 3.	**Up-to-date SharePoint training content feed** - Content in the SharePoint Success Site is updated by Microsoft as SharePoint evolves and can be customized to align with your organization's site creation policy.
 
@@ -56,7 +56,7 @@ The SharePoint Success Site is pre-populated with web parts and content to guide
 #### Summary of site requirements and permissions
 Before getting started customizing, ensure that the SharePoint Success Site has been set up by your SharePoint administrator. You need to be a Site owner or Site member for **both** M365 learning pathways *and* the SharePoint Success Site in order to have permission to make site customizations.
 
-If you’re not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the Global admin (formerly called the Tenant admin) and M365 learning pathways has not been provisioned, see the [provisioning guidance](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
+If you’re not sure your tenant has the site, contact your SharePoint administrator to verify that the SharePoint Success Site been provisioned and ask for the M365 learning pathways and SharePoint Success Site URLs. If you are the Global admin (formerly called the Tenant admin) and M365 learning pathways has not been provisioned, see the [provisioning guidance](./provision-sss.md#provision-the-sharepoint-success-site-1).
 
 
 **Who has permissions to customize the site template?**
@@ -112,14 +112,14 @@ Select content categories and subcategories, and then navigate through the playl
 
 **Show or hide sections to the playlist content**
 
-Select which content to display in your SharePoint Success Site by [hiding and showing](https://docs.microsoft.com/office365/customlearning/custom_hideshowsub) subcategories of content. For example, if you don’t want users to have access to the Advanced site creation section, you can hide that subcategory so it won't be visible to end-users. Decide which content is appropriate for the purpose of your SharePoint Success Site. 
+Select which content to display in your SharePoint Success Site by [hiding and showing](/office365/customlearning/custom_hideshowsub) subcategories of content. For example, if you don’t want users to have access to the Advanced site creation section, you can hide that subcategory so it won't be visible to end-users. Decide which content is appropriate for the purpose of your SharePoint Success Site. 
 
 > [!IMPORTANT]
 > Hiding playlists does not hide the associated page in the SharePoint Success Site, nor will adding custom playlists automatically create site pages for them. [Add](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec#bkmk_addpage) or [delete](https://support.microsoft.com/office/delete-a-page-from-a-sharepoint-site-1d4197b8-31b6-460d-906b-3fb492a51db1) pages within the site as needed.
 
 **Add your own custom playlists**
 
-With Microsoft 365 learning pathways, you can [create custom playlists](https://docs.microsoft.com/office365/customlearning/custom_createnewplaylist) that are tailored to the unique needs of your organization. For example, create a playlist for team site integration with Microsoft Teams.
+With Microsoft 365 learning pathways, you can [create custom playlists](/office365/customlearning/custom_createnewplaylist) that are tailored to the unique needs of your organization. For example, create a playlist for team site integration with Microsoft Teams.
 
 
 ### Customize the look and feel of your site
@@ -183,7 +183,7 @@ To ensure the proper use of SharePoint in your organization it is important to c
 
 The example site creation and usage guidelines are not intended to be a final policy document. Once you have created your own unique usage guidelines, remove the content from the Site usage guidelines page and replace it with your organization’s usage guidelines. See how to [create and use modern pages](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec?ui=en-us&rs=en-us&ad=us) on a SharePoint site. 
 
-Create site usage guidelines that are appropriate for your organization by reviewing our [site usage guidelines checklist](https://docs.microsoft.com/sharepoint/sites-usage-guidelines) that will help you create guidelines that:
+Create site usage guidelines that are appropriate for your organization by reviewing our [site usage guidelines checklist](./sites-usage-guidelines.md) that will help you create guidelines that:
 
 - Inspire discussion and consideration amongst your stakeholders on important site usage policies.
 - Provide links to resources that can help you better understand the options related to key policy decisions.
@@ -218,8 +218,6 @@ Key success factors to managing the SharePoint Success Site:
 
 #### Adoption and awareness strategy
 
-To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](https://docs.microsoft.com/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. 
+To help build, grow, and sustain your SharePoint adoption efforts, its recommended to [create a SharePoint user group community in Yammer](https://support.microsoft.com/office/create-a-group-in-yammer-b407af4f-9a58-4b12-b43e-afbb1b07c889).  Your SharePoint champions and power users can answer SharePoint related questions posted in the Yammer group and encourage site owners to share their successes and best practices. See the [champions guidance](/office365/customlearning/champ_findthem) for more information on how to identify and build a successful champions program. 
 
 To increase visibility and engagement within your portal champions community, integrate the Yammer group hosting your community into the SharePoint Success Site using the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da).
-
-

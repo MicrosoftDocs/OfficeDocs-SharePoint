@@ -155,7 +155,7 @@ You can use SQL Server tools to restore a content database by following these st
    - The third option, **RECOVER WITH STANDBY** is not used in this scenario.
     
     > [!NOTE]
-    > For more information about these recovery options, see [Restore Database (Options Page)](https://go.microsoft.com/fwlink/p/?LinkID=717106&amp;clcid=0x409).
+    > For more information about these recovery options, see [Restore Database (Options Page)](/sql/relational-databases/backup-restore/restore-database-options-page?viewFallbackFrom=sql-server-2014).
   
 10. Click **OK** to complete the recovery operation.
     
@@ -169,4 +169,3 @@ You can use SQL Server tools to restore a content database by following these st
 #### Concepts
 
 [Back up content databases in SharePoint Server](back-up-a-content-database.md)
-

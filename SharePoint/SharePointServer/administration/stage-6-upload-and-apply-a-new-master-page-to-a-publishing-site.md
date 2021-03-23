@@ -46,9 +46,9 @@ In this stage, you'll learn:
   
 For info about how to create a master page, see:
   
-- [Overview of Design Manager in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=400533)
+- [Overview of Design Manager in SharePoint 2013](/sharepoint/dev/general-development/overview-of-design-manager-in-sharepoint)
     
-- [How to: Convert an HTML file into a master page in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=400534)
+- [How to: Convert an HTML file into a master page in SharePoint 2013](/sharepoint/dev/general-development/how-to-convert-an-html-file-into-a-master-page-in-sharepoint)
     
 ## Start stage 6
 
@@ -69,7 +69,7 @@ In SharePoint Server 2016, you can create a master page in HTML format, and Shar
   
 When you add an HTML master page to SharePoint Server 2016, an associated ASP.NET master page is automatically created. Because the two files are associated, any changes that you make to the HTML master page file will be carried over automatically to the associated ASP.NET master page file.
   
-For more information, see [Overview of the SharePoint 2013 page model](https://go.microsoft.com/fwlink/p/?LinkId=400535).
+For more information, see [Overview of the SharePoint 2013 page model](/sharepoint/dev/general-development/overview-of-the-sharepoint-page-model).
   
 ### About the Master Page Gallery
 <a name="BKMK_AboutTheMasterPageGallery"> </a>
@@ -192,13 +192,12 @@ The next step is to start to work on the page layouts.
 
 #### Other Resources
 
-[Overview of the SharePoint 2013 page model](https://msdn.microsoft.com/library/office/jj191506.aspx)
+[Overview of the SharePoint 2013 page model](/sharepoint/dev/general-development/overview-of-the-sharepoint-page-model)
   
-[How to: Map a network drive to the SharePoint 2013 Master Page Gallery](https://msdn.microsoft.com/library/jj733519.aspx)
+[How to: Map a network drive to the SharePoint 2013 Master Page Gallery](/sharepoint/dev/general-development/how-to-map-a-network-drive-to-the-sharepoint-master-page-gallery)
   
-[Overview of Design Manager in SharePoint 2013](https://msdn.microsoft.com/library/jj822363.aspx)
+[Overview of Design Manager in SharePoint 2013](/sharepoint/dev/general-development/overview-of-design-manager-in-sharepoint)
   
-[How to: Convert an HTML file into a master page in SharePoint Server 2013](https://msdn.microsoft.com/library/jj822370.aspx)
+[How to: Convert an HTML file into a master page in SharePoint Server 2013](/sharepoint/dev/general-development/how-to-convert-an-html-file-into-a-master-page-in-sharepoint)
   
-[How to: Apply a master page to a site in SharePoint Server 2013](https://msdn.microsoft.com/library/jj862339.aspx)
-
+[How to: Apply a master page to a site in SharePoint Server 2013](/sharepoint/dev/general-development/how-to-apply-a-master-page-to-a-site-in-sharepoint)

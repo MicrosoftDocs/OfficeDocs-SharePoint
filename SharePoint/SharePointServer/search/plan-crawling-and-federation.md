@@ -62,7 +62,7 @@ You can crawl only one kind of content per content source. For example, you can 
    
 #### Content sources for line-of-business data
 
-Business data content sources require that the applications hosting the data are specified in an Application Model in a Business Data Connectivity service application. You can create one content source to crawl all applications that are registered in the Business Data Connectivity service, or you can create separate content sources to crawl individual applications. For more information, see [Search connector framework in SharePoint 2013](https://msdn.microsoft.com/library/office/ee556429%28v=office.15%29) (This MSDN article also applies to SharePoint Server). 
+Business data content sources require that the applications hosting the data are specified in an Application Model in a Business Data Connectivity service application. You can create one content source to crawl all applications that are registered in the Business Data Connectivity service, or you can create separate content sources to crawl individual applications. For more information, see [Search connector framework in SharePoint 2013](/sharepoint/dev/general-development/search-connector-framework-in-sharepoint) (This MSDN article also applies to SharePoint Server). 
   
 Often, the people who plan for integration of business data into site collections are not the same people involved in the overall content planning process. Therefore, include business application administrators in content planning teams so that they can advise you how to integrate the business application data into content and effectively present it in the site collections. 
   
@@ -281,5 +281,4 @@ To use federation in SharePoint Server, you select one of the following protocol
   
 [Default crawled file name extensions and parsed file types in SharePoint Server](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md)
   
-[Search connector framework in SharePoint 2013](https://msdn.microsoft.com/library/office/ee556429%28v=office.15%29)
-
+[Search connector framework in SharePoint 2013](/sharepoint/dev/general-development/search-connector-framework-in-sharepoint)

@@ -621,5 +621,4 @@ You can use the following PowerShell commands to get the SiteId GUID and the Web
 [View usage reports in SharePoint Server](view-usage-reports.md)
 #### Other Resources
 
-[How to display recommendations and popular items on a SharePoint Server 2013 site](https://blogs.technet.com/b/tothesharepoint/archive/2014/01/15/how-to-display-recommendations-and-popular-items-on-a-sharepoint-server-2013-site.aspx)
-
+[How to display recommendations and popular items on a SharePoint Server 2013 site](/archive/blogs/tothesharepoint/how-to-display-recommendations-and-popular-items-on-a-sharepoint-server-2013-site)

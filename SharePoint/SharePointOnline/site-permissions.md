@@ -59,4 +59,4 @@ There are additional [permission levels](understanding-permission-levels.md) in 
 
 [External sharing overview](external-sharing-overview.md)
 
-[Overview of Microsoft 365 Groups for administrators](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups)
+[Overview of Microsoft 365 Groups for administrators](/office365/admin/create-groups/office-365-groups)

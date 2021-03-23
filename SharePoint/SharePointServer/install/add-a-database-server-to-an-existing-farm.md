@@ -31,7 +31,7 @@ You can add more database servers at any time to respond to business or operatio
 Normally, all that is required to add a database server to an existing SharePoint farm is to set up and configure a new database server and join it to the farm by referencing the new server when you add a feature or move database content to the new server. SharePoint 2013 automatically allocates and assigns new database resources as necessary when they are required.
   
 > [!NOTE]
-> In the case of high availability, this is typically implemented as part of the initial farm topology design and deployment and is not included in this article. For more information about high availability for SQL Server 2008 R2 and SQL Server 2012, see [High Availability Solution Overview](https://go.microsoft.com/fwlink/p/?LinkId=264948) and [High Availability Solutions (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=264949). 
+> In the case of high availability, this is typically implemented as part of the initial farm topology design and deployment and is not included in this article. For more information about high availability for SQL Server 2008 R2 and SQL Server 2012, see [High Availability Solution Overview](/previous-versions/sql/sql-server-2008-r2/ms190202(v=sql.105)) and [High Availability Solutions (SQL Server)](/previous-versions/sql/sql-server-2012/ms190202(v=sql.110)). 
   
 The procedures in this article are intended to show how to configure a new database server for a specific task in SharePoint 2013.
   
@@ -57,7 +57,7 @@ Before you can use the new database server, you must prepare it so that it can b
     
 4. Install the same version of SQL Server that is installed on the existing farm database server. 
     
-    For information about how to install and configure SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012 before you add them to an existing server farm, see [SQL Server Installation (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=264940)or[Quick-Start Installation of SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=264941).
+    For information about how to install and configure SQL Server 2008 R2 with Service Pack 1 (SP1) or SQL Server 2012 before you add them to an existing server farm, see [SQL Server Installation (SQL Server 2008 R2)](/previous-versions/sql/sql-server-2008-r2/bb500469(v=sql.105))or[Quick-Start Installation of SQL Server 2012](/previous-versions/sql/sql-server-2012/bb500433(v=sql.110)).
     
 5. Configure SQL Server, and confirm the following:
     
@@ -147,11 +147,10 @@ For detailed instruction, see Create a web application (SharePoint 2013).
 
 #### Other Resources
 
-[Deploy Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkID=166501)
+[Deploy Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee344846(v=ws.10))
   
 [Install and Deploy Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831620(v=ws.11))
   
-[SQL Server Installation (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkID=264940)
+[SQL Server Installation (SQL Server 2008 R2)](/previous-versions/sql/sql-server-2008-r2/bb500469(v=sql.105))
   
-[Install SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=141021)
-
+[Install SQL Server 2012](/sql/database-engine/install-windows/install-sql-server)

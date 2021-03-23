@@ -65,7 +65,7 @@ Several features in Windows Server can improve performance for users who connect
   
 - BranchCache-- BranchCache, a feature of the Windows 7, Windows Server 2008 R2, and Windows Server 2012 operating systems, caches content from file and web servers on a WAN on computers at a local branch office. In a geographically distributed SharePoint Server environment, BranchCache can optimize WAN performance by caching large files that users download from SharePoint Server. 
     
-- Quality of Service (QoS)— Windows 2000 introduced QoS features that Windows Server 2012 has enhanced. QoS enables you to meet the service requirements of a workload or an application by measuring network bandwidth, detecting changing network conditions (such as congestion or availability of bandwidth), and prioritizing - or throttling - network traffic. For example, you can use QoS to prioritize traffic for latency-sensitive applications and to control the effect of latency-insensitive traffic (such as bulk data transfers). You can use QoS to prioritize requests for applications that are critical for users. In addition, you can deprioritize applications or processes that adversely affect performance, such as backup processes or large downloads. For more information about QoS features in Windows Server 2012, see [Quality of Service (QoS) Overview](https://go.microsoft.com/fwlink/p/?LinkId=248576).
+- Quality of Service (QoS)— Windows 2000 introduced QoS features that Windows Server 2012 has enhanced. QoS enables you to meet the service requirements of a workload or an application by measuring network bandwidth, detecting changing network conditions (such as congestion or availability of bandwidth), and prioritizing - or throttling - network traffic. For example, you can use QoS to prioritize traffic for latency-sensitive applications and to control the effect of latency-insensitive traffic (such as bulk data transfers). You can use QoS to prioritize requests for applications that are critical for users. In addition, you can deprioritize applications or processes that adversely affect performance, such as backup processes or large downloads. For more information about QoS features in Windows Server 2012, see [Quality of Service (QoS) Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831679(v=ws.11)).
     
 ### WAN accelerators
 
@@ -103,7 +103,7 @@ A Office Online Server farm is typically located in the same datacenter as the S
 The OneDrive sync app lets users sync their My Site library and other SharePoint libraries on team sites to their computers. They can then work with files in these libraries directly in File Explorer. Users can access these files even when they are offline. File changes sync automatically when a user is back online.
   
 > [!NOTE]
-> The new OneDrive sync app (OneDrive.exe) is supported on SharePoint Server 2019. [More info](/sharepoint/install/new-onedrive-sync-client) 
+> The new OneDrive sync app (OneDrive.exe) is supported on SharePoint Server 2019. [More info](../install/new-onedrive-sync-client.md) 
   
 ## Design a central site with multiple farms
 <a name="section5"> </a>
@@ -178,5 +178,3 @@ The following table summarizes the differences between crawling over the WAN and
 |User experience  <br/> |Users are presented with a single list of results.  <br/> |Results are presented in in a single list. However, the results are grouped in blocks by result source. You can configure the number of results within each group.  <br/> |
 |Advantages  <br/> |Search results are contained in a single search-ranked list.  <br/> Search is managed centrally.  <br/> |WAN crawling is not used.  <br/> Search results are potentially fresher, based on the crawl schedule.  <br/> If you also configure remote farms to include result sources for other farms, enterprise-wide search is available from remote farms in addition to the central farm.  <br/> |
 |Disadvantages  <br/> |Crawling over the WAN takes time and uses bandwidth.  <br/> Search results might not be as fresh as if the content were crawled locally.  <br/> Enterprise-wide search is available only from the central farm.  <br/> |Users see multiple groupings of results.  <br/> Search results are not ranked across the organization.  <br/> Search must be managed at multiple locations.  <br/> |
-   
-

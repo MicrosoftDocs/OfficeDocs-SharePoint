@@ -33,7 +33,7 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
 
 1. Create a resource group with a vNet and then create two subnets. You can use the [SQL Managed Instance Virtual Network Environment](https://github.com/Azure/azure-quickstart-templates/tree/master/101-sql-managed-instance-azure-environment) template to create an Azure Virtual Network with two subnets.
  
-2. Create subnet 1 (Default) and then create two VMs. First, set up VM 1 as an Active Directory Directory Services domain controller and configure your domain. For more information, see [Step-By-Step: Setting up Active Directory in Windows Server 2016](https://blogs.technet.microsoft.com/canitpro/2017/02/22/step-by-step-setting-up-active-directory-in-windows-server-2016/).  
+2. Create subnet 1 (Default) and then create two VMs. First, set up VM 1 as an Active Directory Directory Services domain controller and configure your domain. For more information, see [Step-By-Step: Setting up Active Directory in Windows Server 2016](/archive/blogs/canitpro/step-by-step-setting-up-active-directory-in-windows-server-2016).  
 
 3. Install SharePoint Server 2016 or SharePoint Server 2019 in VM 2:
        
@@ -94,12 +94,12 @@ Deploying a managed instance with SharePoint Server lets you move your SQL Serve
 
 #### Other Resources
 
-[Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-index)
+[Azure SQL Database managed instance](/azure/sql-database/sql-database-managed-instance-index)
 
-[SQL Server instance migration to Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate)
+[SQL Server instance migration to Azure SQL Database managed instance](/azure/sql-database/sql-database-managed-instance-migrate)
 
-[Quickstart: Create an Azure SQL Database managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started)
+[Quickstart: Create an Azure SQL Database managed instance](/azure/sql-database/sql-database-managed-instance-get-started)
 
-[Quickstart: Configure Azure VM to connect to an Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-configure-vm)
+[Quickstart: Configure Azure VM to connect to an Azure SQL Database Managed Instance](/azure/sql-database/sql-database-managed-instance-configure-vm)
 
-[Quickstart: Restore a database to a Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore)
+[Quickstart: Restore a database to a Managed Instance](/azure/sql-database/sql-database-managed-instance-get-started-restore)

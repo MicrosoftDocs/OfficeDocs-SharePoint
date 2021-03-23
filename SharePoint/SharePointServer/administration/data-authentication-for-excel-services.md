@@ -107,7 +107,7 @@ ODC files must be stored in a trusted data connection library. Centralizing data
     
 - Workbook authors only have a single location to find workbook data connections, reducing confusion and user training.
     
-For information about how to create data connection libraries, see [How to: Create and Use a Data Connection Library](https://go.microsoft.com/fwlink/p/?LinkID=188117) (https://go.microsoft.com/fwlink/p/?LinkID=188117). For information about how to create ODC files, see [Create, edit, and manage connections to external data](https://go.microsoft.com/fwlink/p/?LinkID=196894) (https://go.microsoft.com/fwlink/p/?LinkID=196894). 
+For information about how to create data connection libraries, see [How to: Create and Use a Data Connection Library](/previous-versions/office/developer/sharepoint-2010/ms772101(v=office.14)) (https://go.microsoft.com/fwlink/p/?LinkID=188117). For information about how to create ODC files, see [Create, edit, and manage connections to external data](https://go.microsoft.com/fwlink/p/?LinkID=196894) (https://go.microsoft.com/fwlink/p/?LinkID=196894). 
   
 ### Windows authentication
 
@@ -132,7 +132,7 @@ Choose Kerberos delegation for secure and fast authentication to enterprise-scal
   
 - [Configuring Kerberos Authentication for Microsoft SharePoint 2010 Products](https://go.microsoft.com/fwlink/p/?LinkId=196600) (https://go.microsoft.com/fwlink/p/?LinkId=196600) 
     
-- [Configure Kerberos authentication (SharePoint Server 2010)](/SharePoint/security-for-sharepoint-server/kerberos-authentication-planning)
+- [Configure Kerberos authentication (SharePoint Server 2010)](../security-for-sharepoint-server/kerberos-authentication-planning.md)
     
 #### Secure Store
 
@@ -209,5 +209,3 @@ Refresh can be triggered in one of following ways from within the browser:
 - The end-user clicks on the refresh button on an already open workbook.
     
 If there are no previously cached versions of this workbook, any of these actions will trigger a refresh and update the workbook.
-  
-
