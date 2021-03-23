@@ -191,7 +191,7 @@ To install the online service management tools and configure the PowerShell wind
   new-pssession
   ```
 
-   For more information, see [about_Remote_Requirements](https://go.microsoft.com/fwlink/?LinkId=392326). 
+   For more information, see [about_Remote_Requirements](/previous-versions//dd315349(v=technet.10)). 
     
 6. Enter the following commands to sign in to SharePoint in Microsoft 365, from the PowerShell command prompt:
     
@@ -405,4 +405,3 @@ After you have completed and validated the configuration tasks in this topic, co
 [Hybrid for SharePoint Server](hybrid.md)
   
 [Install and configure SharePoint Server hybrid](install-and-configure-sharepoint-server-hybrid.md)
-

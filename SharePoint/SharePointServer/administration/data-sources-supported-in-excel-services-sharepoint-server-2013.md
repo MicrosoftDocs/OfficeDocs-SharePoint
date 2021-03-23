@@ -162,5 +162,4 @@ Native data is data that is imported into Excel and does not keep connections to
 [Business intelligence capabilities in Excel Service (SharePoint Server 2013)](bi-capabilities-in-excel-and-excel-services.md)
 #### Other Resources
 
-[Data authentication for Excel Services in SharePoint Server ](/SharePoint/administration/excel-services-overview)
-
+[Data authentication for Excel Services in SharePoint Server ](./excel-services-overview.md)

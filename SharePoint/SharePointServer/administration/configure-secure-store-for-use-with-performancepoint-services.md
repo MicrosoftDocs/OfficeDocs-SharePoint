@@ -140,7 +140,7 @@ You must configure your PerformancePoint Services data connection to use the Sec
 7. Create and publish your dashboard.
     
     > [!NOTE]
-    > For detailed information about creating dashboards, see [Create Dashboards by using PerformancePoint Services (SharePoint Server 2016)](/SharePoint/administration/performancepoint-services-overview). 
+    > For detailed information about creating dashboards, see [Create Dashboards by using PerformancePoint Services (SharePoint Server 2016)](./performancepoint-services-overview.md). 
   
 With the target application specified in Dashboard Designer, PerformancePoint Services uses the credentials associated with that target application to refresh the data in the dashboard after you have published it to SharePoint Server.
   
@@ -150,4 +150,3 @@ With the target application specified in Dashboard Designer, PerformancePoint Se
 #### Concepts
 
 [Configure the Secure Store Service in SharePoint Server](configure-the-secure-store-service.md)
-

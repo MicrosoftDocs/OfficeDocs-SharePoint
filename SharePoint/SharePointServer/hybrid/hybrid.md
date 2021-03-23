@@ -31,10 +31,8 @@ A SharePoint Server hybrid environment enables trusted communications between Sh
   
 To get started exploring hybrid, see the following articles:
   
-- [SharePoint hybrid sites and search](https://go.microsoft.com/fwlink/p/?LinkID=746868)
+- [SharePoint hybrid sites and search](./sharepoint-hybrid-sites-and-search.md)
     
-- [Extranet for Partners with Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=746943)
+- [Extranet for Partners with Microsoft 365](../../SharePointOnline/create-b2b-extranet.md)
     
 For detailed hybrid configuration information, see [SharePoint Server 2016 hybrid configuration roadmaps](configuration-roadmaps.md).
-  
-

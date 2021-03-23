@@ -48,7 +48,7 @@ Configuring hybrid self-service site creation is done by using the hybrid picker
     
 2. From your SharePoint Server computer, open a web browser.
     
-3. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+3. go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 4. Under **Hybrid picker**, select **Open**.
     
@@ -76,5 +76,3 @@ Once you have configured hybrid self-service site creation, you can manage it in
     > While hybrid users of this web application will be redirected to SharePoint in Microsoft 365 for self-service site creation, the other settings on this page continue to apply to any on-premises only users. 
   
 4. Select **OK**.
-    
-

@@ -88,11 +88,11 @@ Execute <pathToExecutable>\OneDriveSetup.exe /silent
 (where pathToExecutable is a location on the local computer or an accessible network share).
   
 > [!NOTE]
-> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with Configuration Manager](https://go.microsoft.com/fwlink/?linkid=839723).
+> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with Configuration Manager](/archive/blogs/paulodias/how-to-deploy-onedrive-next-generation-sync-client-with-sccm).
 > 
 > If you run the command with no command-line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the **/silent** parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the **/silent** parameter. 
   
-[Learn more about application management in Configuration Manager](https://go.microsoft.com/fwlink/p/?LinkId=535034).
+[Learn more about application management in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg699373(v=technet.10)).
 The installer will install the OneDrive executable file under **%localappdata%\Microsoft\OneDrive**. 
   
 ### Deploy the RMS client to enable syncing IRM-protected files
@@ -150,6 +150,7 @@ If you want to auto-configure a SharePoint site to be synced, you can use the UR
 ```
 odopen://sync/?siteId=<siteId>&webId=<webId>&webUrl=<webURL>&listId=<listId>&userEmail=<userEmail>&webTitle=<webTitle>&listTitle=<listTitle>
 ```
+
 where:
 - **\<siteId\>** is the SharePoint site siteId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/site/id.
 - **\<webId\>** is the SharePoint site webId GUID, enclosed in curly brackets. You can get this GUID visiting https://\<TenantName\>.sharepoint.com/sites/\<SiteName\>/_api/web/id.
@@ -158,16 +159,17 @@ where:
 - **\<userEmail\>** is the OneDrive's user email address used to sign in into OneDrive.
 - **\<webTitle\>** and **\<listTitle\>** are used to compose the name of the local folder where the OneDrive content is synchronized. By default, when you use the "Sync" button when in the browser to synchronize a document library, OneDrive uses the  SharePoint site name and the document library name to compose the local folder name, in the form of %userprofile%\\<TenantName\>\\<SiteName\> - \<DocumentLibraryName\>. You could use any other values if you prefer to. If you do not use these parameters, the local folder will be named "<TenantName> - Documents", despite of site and library names.
 
-For example, if you want to synchronize https://contoso.sharepoint.com/sites/SalesTeam-01/ProjectX, where "ProjectX" is the documents library to synchronize, to "%userprofile%\Contoso\Sales - Unicorn" folder, you will need the following parameters to compose the odopen:// URL:
+For example, if you want to synchronize `https://contoso.sharepoint.com/sites/SalesTeam-01/ProjectX`, where "ProjectX" is the documents library to synchronize, to "%userprofile%\Contoso\Sales - Unicorn" folder, you will need the following parameters to compose the odopen:// URL:
 - siteId: {ssssssss-ssss-ssss-ssss-ssssssssssss}
 - webId:  {wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}
-- webUrl: https://contoso.sharepoint.com/sites/SalesTeam-01
+- webUrl: `https://contoso.sharepoint.com/sites/SalesTeam-01`
 - listId: {llllllll-llll-llll-llll-llllllllllll}
 - userEmail: user@contoso.com
 - webTitle: Sales (you would use *SalesTeam-01* to mimic Sync button behavior instead)
 - listTitle: Unicorn (you would use *ProjectX* to mimic Sync button behavior instead)
 
 The resulting odopen:// URL will be:
+
 ```
 odopen://sync/?siteId={ssssssss-ssss-ssss-ssss-ssssssssssss}&webId={wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww}&webUrl=https://contoso.sharepoint.com/sites/SalesTeam-01&listId={llllllll-llll-llll-llll-llllllllllll}&userEmail=user@contoso.com&webTitle=Sales&listTitle=Unicorn
 ```
@@ -217,4 +219,3 @@ For more info, see [Create Android applications with Configuration Manager](/con
 
 [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
- 

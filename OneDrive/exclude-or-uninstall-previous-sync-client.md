@@ -49,7 +49,7 @@ If your organization provides an Office deployment configuration file to Setup.e
 </Product>
 ```
 
-For more info about configuration options, see [Configuration options for the Office 2016 Deployment Tool](/DeployOffice/configuration-options-for-the-office-2016-deployment-tool).
+For more info about configuration options, see [Configuration options for the Office Deployment Tool](/deployoffice/office-deployment-tool-configuration-options).
   
 To override the default behavior and make sure the previous OneDrive for Business sync app installs and stays installed, you must provide a config file that doesn't exclude Groove.exe. Also, you must set the "PreventUninstall" registry key on all computers where you need Groove.exe installed, so that the process doesn't uninstall Groove.exe.
   

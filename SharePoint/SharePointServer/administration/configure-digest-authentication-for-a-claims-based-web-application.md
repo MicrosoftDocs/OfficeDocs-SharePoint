@@ -44,7 +44,7 @@ Before you perform this procedure, confirm the following:
   
 - You understand digest authentication for web traffic.
     
-    For more information, see [What is Digest Authentication? (https://go.microsoft.com/fwlink/p/?LinkId=209085)](https://go.microsoft.com/fwlink/p/?LinkId=209085).
+    For more information, see [What is Digest Authentication? (/previous-versions/windows/it-pro/windows-server-2003/cc778868(v=ws.10))](/previous-versions/windows/it-pro/windows-server-2003/cc778868(v=ws.10)).
     
 ## Configure IIS to enable digest authentication
 <a name="Section2"> </a>
@@ -57,7 +57,7 @@ Use IIS Manager console to configure IIS to enable digest authentication for one
     
 - Extranet
     
-The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application).
+The Default zone is the zone that is first created when a web application is created. The other zones are created by extending a web application. For more information, see [Extend claims-based web applications in SharePoint](./extend-a-claims-based-web-application.md).
   
  **To configure IIS to enable digest authentication**
   
@@ -87,7 +87,6 @@ The web site is now configured to use digest authentication.
 [Configure Basic authentication for a claims-based Web application](configure-basic-authentication-for-a-claims-based-web-application.md)
 #### Other Resources
 
-[Plan for user authentication methods in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-user-authentication)
+[Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md)
   
-[Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application)
-
+[Extend claims-based web applications in SharePoint](./extend-a-claims-based-web-application.md)

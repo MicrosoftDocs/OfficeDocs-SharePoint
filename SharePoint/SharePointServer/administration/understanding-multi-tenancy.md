@@ -95,7 +95,7 @@ This section describes various considerations for architecting a multi-tenancy S
   
 ### Understand boundaries and limits in SharePoint Server 2013
 
-Understanding the software boundaries and limits of SharePoint Server 2013 will help you make the right decisions for selecting the appropriate architecture for a multi-tenancy SharePoint environment. For additional information about key boundaries and limits for a content database and site collection as they apply to a multi-tenancy environment of SharePoint Server 2013, see [Software boundaries and limits for SharePoint Server 2016](/SharePoint/install/software-boundaries-and-limits#ContentDB) and [Software boundaries and limits for SharePoint Server 2016](/SharePoint/install/software-boundaries-and-limits#SiteCollection).
+Understanding the software boundaries and limits of SharePoint Server 2013 will help you make the right decisions for selecting the appropriate architecture for a multi-tenancy SharePoint environment. For additional information about key boundaries and limits for a content database and site collection as they apply to a multi-tenancy environment of SharePoint Server 2013, see [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits.md#ContentDB) and [Software boundaries and limits for SharePoint Server 2016](../install/software-boundaries-and-limits.md#SiteCollection).
   
 #### Shared farm vs. dedicated farm
 
@@ -192,7 +192,7 @@ If you want to manage membership users or roles from the Central Administration 
   
 SAML token-based authentication in SharePoint Server 2013 uses the SAML 1.1 protocol and the WS-Federation Passive Requestor Profile (WS-F PRP). It requires coordination with administrators of a claims-based environment, whether it is your own internal environment or a partner environment. If you use Active Directory Federation Services (AD FS) 2.0, you have a SAML token-based authentication environment.
   
-For web applications that use claims-based authentication, People Picker is a control that is available within SharePoint Server 2013. The People Picker control uses claims providers to list, resolve, search, and determine the "friendly" display of users, groups, and claims. For additional information about people picker configuration, see [People Picker and claims providers overview](/SharePoint/administration/people-picker-and-claims-providers-overview).
+For web applications that use claims-based authentication, People Picker is a control that is available within SharePoint Server 2013. The People Picker control uses claims providers to list, resolve, search, and determine the "friendly" display of users, groups, and claims. For additional information about people picker configuration, see [People Picker and claims providers overview](./people-picker-and-claims-providers-overview.md).
   
 Zones represent different logical paths to gain access to the same sites in a web application. Each web application can include as many as five zones. When you create a web application, Central Administration creates the zone named **Default**. To create additional zones, extend the web application and select one of the remaining zone names: **Intranet**, **Extranet**, **Internet**, or **Custom**.
   
@@ -250,7 +250,7 @@ Planning for user authentication types and methods should determine the followin
 
 SharePoint Server 2013 supports claims-based authentication. Active Directory Federation Services (AD FS) can be configured to act as an Identity Provider Security Token Service (IP-STS) for a SharePoint Server 2013 web application. In this configuration, AD FS issues SAML-based security tokens consisting of claims so that client computers can access web applications that use claims-based authentication. You can use an alternative identity provider than AD FS. But it must support the WS-Federation standard. Also using AD FS configuration, custom code is required.
   
-For additional info about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+For additional info about how to configure SAML-based claims authentication with AD FS for SharePoint Server 2013, see [Configure SAML-based claims authentication with AD FS in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
 ## Management and operational considerations
 <a name="begin"> </a>
@@ -269,7 +269,7 @@ The App Management Service in SharePoint Server 2013 is multi-tenancy aware. Mos
   
 #### Backup and restore
 
-When performing tenant-agnostic backup and restore operations on a multi-tenant SharePoint Server 2013 hosting platform, you can follow the general guidance for performing backup and restore operations on SharePoint Server 2013 environments, see [Backup and restore in SharePoint Server](/SharePoint/administration/backup-and-recovery-overview).
+When performing tenant-agnostic backup and restore operations on a multi-tenant SharePoint Server 2013 hosting platform, you can follow the general guidance for performing backup and restore operations on SharePoint Server 2013 environments, see [Backup and restore in SharePoint Server](./backup-and-recovery-overview.md).
   
 Notice that in SharePoint Server 2013, the Workflow platform is separate from the SharePoint platform. Therefore, backup and restore operations on the Workflow Manager should be coordinated with SharePoint backup and restore operations to ensure both remain in sync with one another. For additional guidance about how to plan backup and restore operations for Workflow Service Manager, see [Disaster Recovery and Scope Restore in Workflow Manager 1.0](/previous-versions/dotnet/workflow-manager/jj730570(v=azure.10))
   
@@ -359,7 +359,7 @@ Write-Host "Tenant Site Collection Restore Script Completed!"
 
 #### Monitoring
 
-There are many tools that allow you to monitor SharePoint Server 2013 and troubleshoot problems. Different tools cover different aspects of the environment, although there may be overlapping areas. Consider which tools can maximize your monitoring benefits. For additional guidance about how to plan monitoring for SharePoint Server 2013, see [Plan for monitoring in SharePoint Server](/SharePoint/administration/monitoring-planning).
+There are many tools that allow you to monitor SharePoint Server 2013 and troubleshoot problems. Different tools cover different aspects of the environment, although there may be overlapping areas. Consider which tools can maximize your monitoring benefits. For additional guidance about how to plan monitoring for SharePoint Server 2013, see [Plan for monitoring in SharePoint Server](./monitoring-planning.md).
   
 #### Feature pack management
 
@@ -503,7 +503,7 @@ In SharePoint Server 2013, a new licensing management capability has been added.
   
 User licenses are assigned by mapping claims to a known type of license. For example, a claim can be an Active Directory Domain Services (AD DS) Security group. By mapping the **ContosoFinanceDept** security group to an Enterprise license, you effectively assign an Enterprise license to all members of that group. Users who log on to SharePoint Server are assigned claims. SharePoint Server examines the claims of users to determine their license, if a user does not have a license to use a particular feature, SharePoint will block access to that feature at run time. 
   
-This SharePoint Server 2013 license implementation is managed by using new Microsoft PowerShell cmdlets. By default, licensing is disabled in SharePoint Server. However administrators can opt to turn it on by using Microsoft PowerShell. For additional information about how to configure licensing in SharePoint Server 2013, see [Configure licensing in SharePoint Server](/SharePoint/administration/monitoring-planning).
+This SharePoint Server 2013 license implementation is managed by using new Microsoft PowerShell cmdlets. By default, licensing is disabled in SharePoint Server. However administrators can opt to turn it on by using Microsoft PowerShell. For additional information about how to configure licensing in SharePoint Server 2013, see [Configure licensing in SharePoint Server](./monitoring-planning.md).
   
 #### Lifecycle management
 
@@ -535,11 +535,11 @@ This section presents a deployment example which makes use of a single hosting w
 
 Because host-named site collections will be used for a multi-tenant SharePoint environment, you must configure your DNS (that is, create appropriate DNS records, etc.) accordingly based on your plan. For additional guidance about how to plan host-named site collections for SharePoint Server 2013, see [Host-named site collection architecture and deployment (SharePoint 2013)](host-named-site-collection-architecture-and-deployment.md).
   
-If you also plan to support apps for SharePoint, you must also configure DNS to support your environment. For additional information about how to configure an apps environment for SharePoint Server 2013, see [Configure an environment for apps for SharePoint Server](/SharePoint/administration/configure-an-environment-for-apps-for-sharepoint).
+If you also plan to support apps for SharePoint, you must also configure DNS to support your environment. For additional information about how to configure an apps environment for SharePoint Server 2013, see [Configure an environment for apps for SharePoint Server](./configure-an-environment-for-apps-for-sharepoint.md).
   
 #### Active Directory configuration
 
-As described earlier, to support multi-tenancy in SharePoint, Active Directory must be correctly structured by creating a hierarchical Organization Unit structure to support User Profile Synchronization for each subscription. You also have to create appropriate service accounts for your environment. For additional information about how to plan service accounts for SharePoint Server 2013, see [Plan for administrative and service accounts in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-for-administrative-and-service-accounts). In this deployment example, the following three service accounts are used:
+As described earlier, to support multi-tenancy in SharePoint, Active Directory must be correctly structured by creating a hierarchical Organization Unit structure to support User Profile Synchronization for each subscription. You also have to create appropriate service accounts for your environment. For additional information about how to plan service accounts for SharePoint Server 2013, see [Plan for administrative and service accounts in SharePoint Server](../security-for-sharepoint-server/plan-for-administrative-and-service-accounts.md). In this deployment example, the following three service accounts are used:
   
 - **SPFarm** - the SharePoint Farm Account 
     
@@ -1171,7 +1171,7 @@ This approach can be further customized to contain other tenant configuration su
 
 SharePoint Server 2013 brings a major advancement to workflow, including enterprise features such as fully declarative authoring, REST and Service Bus messaging, elastic scalability, and managed service reliability. SharePoint 2013 can use a new workflow service built on the Windows Workflow Foundation components of the .NET Framework 4.5. The new service is called Workflow Manager and it is designed to play a central role in the enterprise.
   
-The SharePoint 2013 Workflow platform becomes available to you, and your tools, only after you download and install the new Workflow Manager Service and configure it to communicate with the SharePoint Server 2013 farm. For additional information about how to install and configure the Workflow Manager Service for SharePoint 2013, see [Install and configure workflow for SharePoint Server](/SharePoint/governance/install-and-configure-workflow-for-sharepoint-server).
+The SharePoint 2013 Workflow platform becomes available to you, and your tools, only after you download and install the new Workflow Manager Service and configure it to communicate with the SharePoint Server 2013 farm. For additional information about how to install and configure the Workflow Manager Service for SharePoint 2013, see [Install and configure workflow for SharePoint Server](../governance/install-and-configure-workflow-for-sharepoint-server.md).
   
 To configure the Workflow Service, use the **Register-SPWorkflowService** cmdlet to register the farm with the Workflow Service Manager in Partition Mode. In doing this, use the **SPSite** parameter to pass the URL of any existing tenant site collection from your Farm and use the **ScopeName** parameter to define a named workflow scope for your farm. 
   
@@ -1257,7 +1257,7 @@ The following feature definition shows how to add a new group, several links, an
 
 ```
 
-For additional information about custom actions, such as the default IDs for built-in links, see [Custom Action Definition Schema](https://msdn.microsoft.com/library/ms465980%28v=office.14%29.aspx).
+For additional information about custom actions, such as the default IDs for built-in links, see [Custom Action Definition Schema](/previous-versions/office/developer/sharepoint-2010/ms465980(v=office.14)).
   
 #### Customizing the ribbon
 
@@ -1308,7 +1308,7 @@ The following XML shows how to replace the functionality of the **Disk Quota** b
 
 ```
 
-For additional information about how to customize the Server ribbon, see [Customizing the Server Ribbon](https://msdn.microsoft.com/library/ee539395%28office.14%29.aspx).
+For additional information about how to customize the Server ribbon, see [Customizing the Server Ribbon](/previous-versions/office/developer/sharepoint-2010/ee539395(v=office.14)).
   
 #### Extending a site subscription using custom properties
 
@@ -1530,4 +1530,3 @@ function RemoveSiteSubTenantProperty([string]$url, [string]$theKey)
 #### Concepts
 
 [General guidance for hosters in SharePoint Server 2013](general-guidance-for-hosters-in-sharepoint-server-2013.md)
-

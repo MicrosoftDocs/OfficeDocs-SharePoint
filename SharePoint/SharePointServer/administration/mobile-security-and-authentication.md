@@ -55,7 +55,7 @@ The following table lists a selection of Exchange ActiveSync features and polici
 |Maximum inactivity time lock (MaxInactivityTimeDeviceLock)  <br/> |This option determines how long the mobile phone must be inactive before the user is prompted for a password to unlock the mobile phone.  <br/> |
    
 > [!IMPORTANT]
-> The selection of Exchange ActiveSync policies that can be used might differ on a device-by-device basis. For more information about which policies are supported on a specific device platform, such as Windows Phone and Apple iPhone, see [Understanding Exchange ActiveSync Mailbox Policies](https://go.microsoft.com/fwlink/?LinkId=253672).
+> The selection of Exchange ActiveSync policies that can be used might differ on a device-by-device basis. For more information about which policies are supported on a specific device platform, such as Windows Phone and Apple iPhone, see [Understanding Exchange ActiveSync Mailbox Policies](/exchange/exchange-activesync-exchange-2013-help).
   
 ### Finding a lost device
 <a name="lostdevice"> </a>
@@ -173,4 +173,3 @@ For more info about how to deploy the SharePoint Newsfeed App in your network, i
 #### Concepts
 
 [Overview of mobile devices and SharePoint Server 2013](mobile-devices-overview.md)
-

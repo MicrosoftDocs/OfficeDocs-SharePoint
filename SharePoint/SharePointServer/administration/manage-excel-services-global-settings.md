@@ -52,5 +52,4 @@ Use the following procedure to update one or more of the Excel Services global s
 
 #### Other Resources
 
-[Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services)
-
+[Configure Excel Services in SharePoint](./configure-excel-services.md)

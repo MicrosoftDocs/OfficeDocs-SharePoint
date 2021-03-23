@@ -57,11 +57,11 @@ Get-SiteMailbox -BypassOwnerCheck -ResultSize unlimited | ft Name, Owners
 
 ## Export site mailboxes through PST (Manually)
 
-You must have [Microsoft 365 admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) to access the [Microsoft 365 compliance center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center). 
+You must have [Microsoft 365 admin permissions](/microsoft-365/admin/add-users/assign-admin-roles) to access the [Microsoft 365 compliance center](/microsoft-365/compliance/microsoft-365-compliance-center). 
 
-For more information, see [Permissions and sharing](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions).
+For more information, see [Permissions and sharing](./modern-experience-sharing-permissions.md).
 
-1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in with an account that has [admin permissions](https://docs.microsoft.com/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to [https://compliance.microsoft.com/](https://compliance.microsoft.com/) and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 2. In the Microsoft 365 compliance center Home page, navigate to **Show all** > **eDiscovery** > **Core**.
 
@@ -170,7 +170,7 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 2. Start Windows PowerShell in administrator mode.
 
-   For more information see, [Microsoft 365 admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
+   For more information see, [Microsoft 365 admin permissions](/microsoft-365/admin/add-users/assign-admin-roles).
    
    >[!NOTE]
    > Ensure you have admin permissions for the following roles:
@@ -205,20 +205,20 @@ For more information, see [Permissions and sharing](https://docs.microsoft.com/s
 
 For the site mailboxes to be accessible again for site owners, import the PST files to a mailbox. See one of the following topics for detailed, step-by-step instructions for bulk-importing your organization's PST files to Office 365.
 
-- [Use network upload to import PST files to Office 365](https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files)
+- [Use network upload to import PST files to Office 365](/microsoft-365/compliance/use-network-upload-to-import-pst-files)
 
-- [Use drive shipping to import PST files](https://docs.microsoft.com/microsoft-365/compliance/use-drive-shipping-to-import-pst-files-to-office-365)
+- [Use drive shipping to import PST files](/microsoft-365/compliance/use-drive-shipping-to-import-pst-files-to-office-365)
 
 ## Use Exchange Web Services (EWS) APIs to extract mailbox content
 
 You can also export and import site mailboxes using EWS APIs like any other mailbox. Exporting and importing of appointments, emails, contacts, tasks, and other mailbox items can be done by using the EWS-Managed API or EWS in Exchange.
 
-For more information see, [Exporting and importing items by using EWS in Exchange](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange).
+For more information see, [Exporting and importing items by using EWS in Exchange](/exchange/client-developer/exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange).
 
 See one of the following topics for exporting and importing of mailbox content:
 
-- [Export items by using EWS in Exchange](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-export-items-by-using-ews-in-exchange)    
-- [Import items by using EWS in Exchange](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-import-items-by-using-ews-in-exchange)
+- [Export items by using EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-export-items-by-using-ews-in-exchange)    
+- [Import items by using EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-import-items-by-using-ews-in-exchange)
 
 ## To remove the site mailboxes
 

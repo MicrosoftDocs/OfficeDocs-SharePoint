@@ -42,11 +42,11 @@ By changing the properties and query in the Search Results Web Part you can you 
 
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
->- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
->- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
+>- [Plan browser support](../install/browser-support-planning.md)
+>- [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
 >- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
 >- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
->- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>- [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
     
 ## Configure properties of the Search Results Web Part
 <a name="BKMK_ConfigureProperties"> </a>
@@ -93,7 +93,7 @@ By changing the properties and query in the Search Results Web Part you can you 
     
     - **Query text**
     
-      By default, the query variable {searchboxquery} is defined for this field. You can change the query text by using KQL. For more information about KQL, see [Keyword Query Language (KQL) syntax reference](https://msdn.microsoft.com/library/ee558911%28v=office.15%29.aspx). Alternatively you can use the **Keyword filter** and **Property filter** lists to build the query. 
+      By default, the query variable {searchboxquery} is defined for this field. You can change the query text by using KQL. For more information about KQL, see [Keyword Query Language (KQL) syntax reference](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference). Alternatively you can use the **Keyword filter** and **Property filter** lists to build the query. 
     
       The keyword query can consist of free-text keywords, property filters, or operators. Use braces to enclose query variables. The query variables will be replaced with an actual value when the query is run.
     
@@ -292,5 +292,4 @@ Stemming means that nouns and adjectives in a query are expanded to different po
   
 [Plan to transform queries and order results in SharePoint Server](plan-to-transform-queries-and-order-results.md)
 
-[Blog series: How to change the way search results are displayed in SharePoint Server 2013](https://blogs.technet.com/b/tothesharepoint/archive/2013/09/03/how-to-change-the-way-search-results-are-displayed-in-sharepoint-server-2013.aspx)
-
+[Blog series: How to change the way search results are displayed in SharePoint Server 2013](/archive/blogs/tothesharepoint/how-to-change-the-way-search-results-are-displayed-in-sharepoint-server-2013)

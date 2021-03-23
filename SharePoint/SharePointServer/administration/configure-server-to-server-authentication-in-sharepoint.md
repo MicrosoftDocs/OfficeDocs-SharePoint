@@ -34,7 +34,7 @@ When a farm consumes the User Profile service application of a publishing farm, 
 The procedure in this article requires that you already configured the following:
 
 - Shared the User Profile service application between a consuming and a publishing farm as documented in [Share service applications across farms in SharePoint Server](share-service-applications-across-farms.md).
-- Configured the Subscription Settings and App Management service applications on both publishing and consuming farms as documented in [section "Configure the Subscription Settings and App Management service applications" of this article](/sharepoint/administration/configure-an-environment-for-apps-for-sharepoint#configure-the-subscription-settings-and-app-management-service-applications)
+- Configured the Subscription Settings and App Management service applications on both publishing and consuming farms as documented in [section "Configure the Subscription Settings and App Management service applications" of this article](./configure-an-environment-for-apps-for-sharepoint.md#configure-the-subscription-settings-and-app-management-service-applications)
 
 Verify that you have the following memberships:
 

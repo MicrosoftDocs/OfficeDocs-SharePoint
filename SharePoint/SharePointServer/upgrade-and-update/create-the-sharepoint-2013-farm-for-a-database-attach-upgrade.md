@@ -80,7 +80,7 @@ You also have to turn off or remove services or components in the SharePoint 201
 ## Record the passphrase for the Secure Store service application
 <a name="passphrase"> </a>
 
-The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see [Working with encryption keys](/SharePoint/administration/configure-the-secure-store-service).
+The Secure Store service application uses a passphrase to encrypt information. You have to know what this passphrase is so that you can use it in the new environment. Otherwise, you will not have access to the information in the Secure Store. If you do not know the passphrase, you can refresh the key, and then back up the Secure Store database. For more information, see [Working with encryption keys](../administration/configure-the-secure-store-service.md).
   
 ## Export the encryption key for the User Profile service application
 <a name="ExportKey"> </a>
@@ -170,7 +170,7 @@ The following services in SharePoint 2013 also require additional steps to enabl
   
 - **Excel Services**
     
-    You can use the Farm Configuration Wizard to enable this service, but you must make sure that you create all trusted data connections again. For more information, see [Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services).
+    You can use the Farm Configuration Wizard to enable this service, but you must make sure that you create all trusted data connections again. For more information, see [Configure Excel Services in SharePoint](../administration/configure-excel-services.md).
     
 - **InfoPath Forms Service**
     
@@ -208,7 +208,7 @@ And you must configure all new farm-level settings that you want to use, such as
 - Settings and schedules for timer jobs
     
 > [!IMPORTANT]
-> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint 2010 Products environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint 2010 Products environment, you might lose workflow associations when you upgrade. For more information about this timer job, see[Disable preservation of workflow history (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?LinkId=403874)[Disable preservation of workflow history (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee662522(v=office.14)). 
+> If you had disabled the Workflow Auto Cleanup timer job in your SharePoint 2010 Products environment, make sure that you disable this timer job in your new environment also. If this timer job is enabled in the new environment and disabled in the SharePoint 2010 Products environment, you might lose workflow associations when you upgrade. For more information about this timer job, see[Disable preservation of workflow history (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee662522(v=office.14))[Disable preservation of workflow history (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/ee662522(v=office.14)). 
   
 In a standard installation, the next step would be to create web applications. However, for upgrade, you create web applications later in the process, after you upgrade the service application databases. For more information, see [Create web applications](upgrade-content-databases.md#CreateWebApps).
   
@@ -226,4 +226,3 @@ In a standard installation, the next step would be to create web applications. H
 [Upgrade farms that share services (parent and child farms) to SharePoint 2013](upgrade-farms-that-share-services-parent-and-child-farmsto-sharepoint-2013.md)
   
 [Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
-

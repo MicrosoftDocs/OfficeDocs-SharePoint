@@ -156,7 +156,7 @@ In the Library settings, visit **Permissions for this document library**:
 
 This prevents site members/visitors from inheriting permissions to all the data that we migrate into that library, allowing permissions to only those site members who we explicitly write to the folders themselves.
 
-For more info see [SharePoint permissions inheritance](https://docs.microsoft.com/sharepoint/what-is-permissions-inheritance).
+For more info see [SharePoint permissions inheritance](/sharepoint/what-is-permissions-inheritance).
 
 ## Does Mover support Microsoft Teams?
 
@@ -166,6 +166,6 @@ Microsoft Teams appears and operates the same as a SharePoint site.
 
 Many sites claim that SharePoint has a 5,000-item limit. This is not true. The SharePoint 5,000-item limit applies to how many items appear in a search list view: a maximum of 5,000.
 
-SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint limits](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+SharePoint sites do have file size and number limits, which are covered in detail here: [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 Some list view options may prevent search list views with more than 5,000 items from appearing.

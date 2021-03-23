@@ -25,7 +25,7 @@ description: "Learn about the new features and updates to existing features in S
 
 Learn about the new features and updates to existing features in SharePoint Server 2016.
   
-For a comparison of SharePoint on-premises features between SharePoint 2013 and SharePoint Server 2016 editions, see [SharePoint feature availability across on-premises solutions](https://go.microsoft.com/fwlink/p/?LinkID=760410&amp;clcid=0x409). For new features in SharePoint Server 2016 for end users, see [What's new in SharePoint Server 2016](https://support.office.com/article/089369b5-c3d4-4551-8bed-22b2548abd3b).
+For a comparison of SharePoint on-premises features between SharePoint 2013 and SharePoint Server 2016 editions, see [SharePoint feature availability across on-premises solutions](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). For new features in SharePoint Server 2016 for end users, see [What's new in SharePoint Server 2016](https://support.office.com/article/089369b5-c3d4-4551-8bed-22b2548abd3b).
   
 ## Summary of features
 
@@ -53,7 +53,7 @@ The following table provides a summary of the new features that you can try out 
 |**New Recycle Bin in OneDrive and Team sites** <br/> |SharePoint Server 2016 adds a link for the Recycle Bin in the left navigation area of the OneDrive and Team sites.  <br/> |NA  <br/> |
 |**Open Document Format (ODF)** <br/> |SharePoint Server 2016 adds support for Open Document Format (ODF) files to use in document library templates.  <br/> |For more info, see [Open Document Format (ODF) available for document libraries](#ODF).  <br/> |
 |**Project Server** <br/> |New Project Server features are available in SharePoint Server 2016.  <br/> |For more info, see [Project Server 2016 ](#project).  <br/> |
-|**ReFS file system support** <br/> |SharePoint Server 2016 now supports drives that are formatted with the ReFS file system.  <br/> |For more info about the ReFS file system, see [Resilient File System Overview](https://go.microsoft.com/fwlink/?LinkID=620210&amp;clcid=0x409) and [Resilient file system](https://go.microsoft.com/fwlink/?LinkID=620212&amp;clcid=0x409).  <br/> |
+|**ReFS file system support** <br/> |SharePoint Server 2016 now supports drives that are formatted with the ReFS file system.  <br/> |For more info about the ReFS file system, see [Resilient File System Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831724(v=ws.11)) and [Resilient file system](/windows/win32/w8cookbook/resilient-file-system--refs-).  <br/> |
 |**SharePoint business intelligence** <br/> |SharePoint Server 2016 now supports SQL Server 2016 CTP 3.1 and the Power Pivot add-in and Power View.  <br/> |For more info about SharePoint business intelligence, see [Power Pivot add-in and Power View are now available to use with SharePoint Server 2016](new-and-improved-features-in-sharepoint-server-2016.md#BI).  <br/> |
 |**SharePoint Search** <br/> |SharePoint Search Server Application has significant changes to its deployment.  <br/> |For more info, see [SharePoint Search Service application](#search).  <br/> |
 |**Sharing improvements** <br/> |SharePoint Server 2016 has many new sharing improvements available.  <br/> |For more info, see [Sharing](#share).  <br/> |
@@ -202,11 +202,11 @@ Cloud hybrid search is a new hybrid search solution alternative. With cloud hybr
     
 - When users query your search index in Office 365, they get unified search results from both on-premises and Office 365 content.
     
-For more info about cloud hybrid search, see the public Microsoft cloud hybrid search program on [Microsoft Office connection](https://go.microsoft.com/fwlink/p/?LinkID=624235&amp;clcid=0x409).
+For more info about cloud hybrid search, see the public Microsoft cloud hybrid search program on [Microsoft Office connection](/collaborate/connect-redirect?amp;pageType=1&ProgramID=8647).
   
-For more info, see [Plan for hybrid OneDrive](/sharepoint/hybrid/plan-hybrid-onedrive-for-business).
+For more info, see [Plan for hybrid OneDrive](../hybrid/plan-hybrid-onedrive-for-business.md).
   
-For more info about the hybrid solutions available today, visit the [SharePoint Hybrid Solutions Center](https://go.microsoft.com/fwlink/p/?LinkID=613711).
+For more info about the hybrid solutions available today, visit the [SharePoint Hybrid Solutions Center](../hybrid/hybrid.md).
   
 ### Identify and search for sensitive content in both SharePoint Server 2016 and OneDrive documents
 <a name="sensitive"> </a>
@@ -316,7 +316,7 @@ The following SharePoint Server 2016 business intelligence features are availabl
     
 - Report Alerting
     
-For more info, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409).
+For more info, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](/sql/sql-server/install/install-sql-server-business-intelligence-features).
   
 ### Request Manager service improvements
 <a name="BI"> </a>

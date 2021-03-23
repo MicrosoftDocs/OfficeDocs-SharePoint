@@ -56,7 +56,7 @@ If you've allowed custom script, you can change the setting to later prevent use
 ## An alternative to custom script
 <a name="spframework"> </a>
 
-The [SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview) is a page and web part model that provides a governed and fully supported way to build solutions using scripting technologies with support for open-source tooling. Key features of the SharePoint Framework: 
+The [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) is a page and web part model that provides a governed and fully supported way to build solutions using scripting technologies with support for open-source tooling. Key features of the SharePoint Framework: 
   
 - The framework runs in the context of the current user and connection in the browser. It doesn't use iFrames.
     
@@ -75,5 +75,3 @@ The [SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/sharep
 - Solutions can be deployed in web parts and pages that use the classic experience or the new experience.
     
 - Only global admins, SharePoint admins, and people who have been given permission to manage the App Catalog can add solutions. For info about giving users permission to manage the app catalog, see [Request app installation permissions](request-app-installation-permissions.md).
-    
-

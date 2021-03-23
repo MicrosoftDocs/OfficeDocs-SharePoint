@@ -6,18 +6,26 @@
 ### [Step 3: Monitor and report](mm-reports.md)
 ### Reference
 #### [What's new](mm-whats-new.md)
+#### [Settings](mm-settings.md)
 #### [Government cloud configuration](mm-gov-cloud.md)
 #### [How Migration Manager works](mm-how-it-works.md)
-#### [Settings](mm-settings.md)
 #### [Format a CSV or JSON file for bulk upload](mm-bulk-upload-format-csv-json.md)
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [FAQs](mm-faqs.md)
 #### [Troubleshooting](mm-troubleshoot.md)
+## Migrate Box.com accounts
+### [Overview](mm-box-overview.md)
+### [Step 1: Connect to Box](mm-box-step1-connect.md)
+### [Step 2: Scan and assess](mm-box-step2-scan-assess.md)
+### [Step 3: Copy to Migrations list](mm-box-step3-copy-to-migrations.md)
+### [Step 4: Review destination paths](mm-box-step4-review-destinations.md)
+### [Step 5: Map identities](mm-box-step5-map-identities.md)
+### [Step 6: Migrate and Monitor](mm-box-step6-migrate-monitor.md)
 ## Migrate SharePoint Server sites and content
 ### [Overview](introducing-the-sharepoint-migration-tool.md)
 ### [Step 1: Install SPMT](how-to-use-the-sharepoint-migration-tool.md)
 ### [Step 2: Create a migration task](spmt-create-task.md)
-### [Step 3: Monitor and report]()
+### [Step 3: Monitor and report](using-the-sharepoint-migration-tool-reports.md)
 ### Reference
 #### [Release notes](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 #### [Prerequisites and endpoints](spmt-prerequisites.md)
@@ -27,14 +35,15 @@
 #### [File and folder permissions](understanding-permissions-when-migrating.md)
 #### [Supported SharePoint web parts](spmt-supported-webparts.md)
 #### [Supported site features](spmt-supported-site-features.md)
-#### [Troubleshooting installation issues](spmt-install-issues.md)
-#### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
 #### [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
 #### [Settings](spmt-settings.md)
 #### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
-### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
+#### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
 #### [SPMT Reports](using-the-sharepoint-migration-tool-reports.md)
-### [Create user mapping files](create-a-user-mapping-file-for-data-content-migration.md)
+#### [Create user mapping files](create-a-user-mapping-file-for-data-content-migration.md)
+###  Troubleshooting
+#### [Troubleshooting installation issues](spmt-install-issues.md)
+#### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
 ### SPMT Migration Scenario Guides
 #### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
 #### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)
@@ -81,21 +90,13 @@
 #### [SharePoint Migration Identity Mapping Tool: SharePoint Identity Scan](sharepoint-migration-identity-mapping-tool-sharepoint-identity-scan.md)
 #### [SharePoint Migration Identity Mapping: Active Directory Identity Scan](sharepoint-migration-identity-mapping-active-directory-identity-scan.md)
 #### [SharePoint Migration Identity Mapping Tool: Azure Active Directory Identity Scan](sharepoint-migration-identity-mapping-tool-azure-active-directory-identity-scan.md)
-## Box user account migration
-### [Step 1: Connect to Box](mm-box-step-1-connect.md) 
-### [Step 2: Scan and assess](mm-box-step-2-scan-assess.md) 
-### [Step 3: Copy to Migrations list](mm-box-step-3-copy-to-migrations.md)
-### [Step 4: Review destination paths](mm-box-step-4-review-destinations.md) 
-### [Step 5: Map identities](mm-box-step-5-map-identities.md)
-### [Step 6: Migrate and Monitor](mm-box-step-6-migrate-monitor.md)
-#### Reference
-## Other Cloud to cloud migrations 
+## Cloud to cloud migrations (Mover)
 ###  Overview
 #### [Plan your migration](mover-plan-migration.md)
 #### [Manage connectors](mover-manage-connectors.md)
 #### [Microsoft 365 FAQ](mover-microsoft-365-faq.md)
 #### [Security](mover-security.md)
-###  Setup your source
+###  Set up your source
 #### [Box](mover-box.md)
 #### [Dropbox](mover-dropbox.md)
 #### [Egnyte](mover-egnyte.md)
@@ -104,10 +105,10 @@
 #### [Amazon S3](mover-amazons3.md)
 #### [Azure Blob Storage](mover-azureblob.md)
 #### [Google Cloud Storage](mover-googlecloudstore.md)
-### Setup your destination
+### Set up your destination
 #### [Office 365](mover-setup-m365-destination.md)
 #### [Troubleshoot your Office 365 Connector](mover-troubleshoot-m365-connector.md)
-###  Setup your migration
+###  Set up your migration
 #### [Create a new migration](mover-create-migration.md)
 #### [Create a new migration from a CSV (optional)](mover-create-migration-csv.md)
 #### [Review your users](mover-review-users.md)

@@ -148,17 +148,17 @@ Check the crawl schedule, and identify which content sources that search crawls 
     
 - If the content source is SharePoint, that farm might need more, and dedicated, crawl targets. Read about crawl targets in [Manage crawl load (SharePoint 2010)](/previous-versions/office/sharepoint-server-2010/dd335962(v=office.14)).
     
-- Improve the performance of the content database. Learn how in [Best practices for SQL Server in a SharePoint Server farm](/SharePoint/administration/best-practices-for-sql-server-in-a-sharepoint-server-farm).
+- Improve the performance of the content database. Learn how in [Best practices for SQL Server in a SharePoint Server farm](../administration/best-practices-for-sql-server-in-a-sharepoint-server-farm.md).
     
 #### Increase processing resources for crawling
 <a name="BKMK_ProcessingCrawl"> </a>
 
-If the crawl component often uses 100% of the processor resources, consider adding another crawl component or adding more processor resources to the servers hosting crawl components. It's the crawl rate, discovery of links, and management of crawling that drives the need for processor resources. Normally, crawling is fast enough when you use two crawl components in search architectures like the small and medium [sample search architectures](/SharePoint/search/plan-enterprise-search-architecture) that Microsoft has estimated. Search architectures like the large and extra-large samples might need more than two crawl components. 
+If the crawl component often uses 100% of the processor resources, consider adding another crawl component or adding more processor resources to the servers hosting crawl components. It's the crawl rate, discovery of links, and management of crawling that drives the need for processor resources. Normally, crawling is fast enough when you use two crawl components in search architectures like the small and medium [sample search architectures](./plan-enterprise-search-architecture.md) that Microsoft has estimated. Search architectures like the large and extra-large samples might need more than two crawl components. 
   
 #### Increase processing resources for the crawl database
 <a name="BKMK_ProcessingCrawlDB"> </a>
 
-Check whether the SQL servers hosting crawl databases have enough resources. Read how to do this in [Best practices for SQL Server in a SharePoint Server farm](/SharePoint/administration/best-practices-for-sql-server-in-a-sharepoint-server-farm).
+Check whether the SQL servers hosting crawl databases have enough resources. Read how to do this in [Best practices for SQL Server in a SharePoint Server farm](../administration/best-practices-for-sql-server-in-a-sharepoint-server-farm.md).
   
 If all the crawl databases use a lot of processor resources, consider adding more processor resources to the SQL server hosting the databases or add another SQL server with the same number of crawl databases as the existing SQL servers. If you for example have two SQL servers that each has three crawl databases, add another SQL server with three crawl databases.
   
@@ -280,7 +280,7 @@ Now that you've redesigned your search topology, your next step is to assign the
 ### One search component type per server
 <a name="BKMK_HostOne"> </a>
 
-Each physical server or virtual machine can only host one search component of each type. The index component is an exception. Physical servers or virtual machines can host up to four index components. You can read about these limits in [Search limits](/SharePoint/install/software-boundaries-and-limits-0).
+Each physical server or virtual machine can only host one search component of each type. The index component is an exception. Physical servers or virtual machines can host up to four index components. You can read about these limits in [Search limits](../install/software-boundaries-and-limits-0.md).
   
 ### Separate bulk processing and real-time components from each other
 <a name="BKMK_HostBulkRealtime"> </a>
@@ -413,7 +413,7 @@ The way that you decide to distribute data from the search components and from t
 #### Choose type of storage
 <a name="BKMK_ChooseStoragePerf"> </a>
 
-For an overview of storage architectures and disk types, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2016)](/SharePoint/administration/storage-and-sql-server-capacity-planning-and-configuration). The servers that host the index, analytics processing, and the search administration components, or search databases, require storage that can maintain low latency, while providing sufficient I/O operations per second (IOPS). The following tables show how many IOPS each of these search components and databases require.
+For an overview of storage architectures and disk types, see [Storage and SQL Server capacity planning and configuration (SharePoint Server 2016)](../administration/storage-and-sql-server-capacity-planning-and-configuration.md). The servers that host the index, analytics processing, and the search administration components, or search databases, require storage that can maintain low latency, while providing sufficient I/O operations per second (IOPS). The following tables show how many IOPS each of these search components and databases require.
   
 If you deploy shared storage like SAN/NAS, the peak disk load of one search component typically coincides with the peak disk load of another search component. To get the number of IOPS search requires from the shared storage, you need to add up the IOPS requirement of each of these components.
   
@@ -450,5 +450,3 @@ If you aren't familiar with high availability strategies, here's an article that
 All of the sample search architectures host redundant search components on independent servers. In the sample search architectures, the rightmost host in each host pair is redundant. Here's the large search architecture with outlined redundant hosts:
   
 ![Diagram of large enterprise search farm indicating which servers host redundant search components.](../media/SearchLargeEnterpriseSearchFarmRedundantIndication.gif)
-  
-

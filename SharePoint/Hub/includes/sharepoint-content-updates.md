@@ -2,73 +2,41 @@
 
 
 
+## Week of March 15, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/15/2021 | [Intelligent intranet overview](../../SharePointOnline/intelligent-internet-overview.md) | modified |
+| 3/15/2021 | [Intelligent intranet roadmap](../../SharePointOnline/intranet-overview.md) | modified |
+| 3/15/2021 | [Network location-based access to SharePoint and OneDrive](../../SharePointOnline/control-access-based-on-network-location.md) | modified |
+| 3/15/2021 | [Create a site](../../SharePointOnline/create-site-collection.md) | modified |
+| 3/15/2021 | [Default SharePoint groups](../../SharePointOnline/default-sharepoint-groups.md) | modified |
+| 3/15/2021 | [Export and import customized search configuration settings](../../SharePointOnline/export-and-import-search-settings.md) | modified |
+| 3/15/2021 | [Set up a home site for your organization](../../SharePointOnline/home-site.md) | modified |
+| 3/15/2021 | [Introduction to SharePoint information architecture](../../SharePointOnline/information-architecture-modern-experience.md) | modified |
+| 3/15/2021 | [Information architecture principles in SharePoint](../../SharePointOnline/information-architecture-principles.md) | modified |
+| 3/15/2021 | [Plan and implement SharePoint site navigation](../../SharePointOnline/plan-navigation-modern-experience.md) | modified |
+| 3/15/2021 | [Overview of the Microsoft New Employee Onboarding sites](../../SharePointOnline/provision-neo-hub.md) | modified |
+| 3/15/2021 | [Use the new SharePoint app bar and set up global navigation](../../SharePointOnline/sharepoint-app-bar.md) | modified |
+| 3/15/2021 | [Add Viva Connections for Microsoft Teams desktop](../../SharePointOnline/viva-connections.md) | modified |
+| 3/15/2021 | [Plan document versioning, content approval, and check-out controls in SharePointServer](../../SharePointServer/governance/versioning-content-approval-and-check-out-planning.md) | modified |
+| 3/17/2021 | [Install or uninstall language packs for SharePoint Servers 2016 and 2019](../../SharePointServer/install/install-or-uninstall-language-packs-0.md) | modified |
+| 3/17/2021 | [Difference between classic & modern search experiences - SharePoint](../../SharePointOnline/differences-classic-modern-search.md) | modified |
+| 3/18/2021 | [Manage the search schema in SharePoint](../../SharePointOnline/manage-search-schema.md) | modified |
+| 3/18/2021 | [Search limits for SharePoint](../../SharePointOnline/search-limits.md) | modified |
+| 3/18/2021 | [View search usage reports](../../SharePointOnline/view-search-usage-reports.md) | modified |
+| 3/18/2021 | [Hardware and software requirements for SharePoint 2013](../../SharePointServer/install/hardware-and-software-requirements-0.md) | modified |
+| 3/18/2021 | [Default crawled file name extensions and parsed file types in SharePoint Server](../../SharePointServer/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md) | modified |
+
+
 ## Week of February 15, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 2/16/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
-| 2/17/2021 | [Mark new files as sensitive by default](/SharePoint/sensitive-by-default) | modified |
-| 2/17/2021 | [Account permissions and security settings in SharePoint Servers](/SharePoint/install/account-permissions-and-security-settings-in-sharepoint-server-2016) | modified |
-| 2/17/2021 | [Plan for least-privileged administration in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration) | modified |
-| 2/17/2021 | [Intelligent intranet overview](/SharePoint/intelligent-internet-overview) | modified |
-
-
-## Week of February 08, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/8/2021 | [Sharing & permissions in the SharePoint modern experience](/SharePoint/modern-experience-sharing-permissions) | modified |
-| 2/8/2021 | [Plan outgoing email for a SharePoint Server farm](/SharePoint/administration/outgoing-email-planning) | modified |
-| 2/8/2021 | [Overview of co-authoring in SharePoint Server](/SharePoint/governance/co-authoring-overview) | modified |
-| 2/8/2021 | [Disable co-authoring in SharePoint Server](/SharePoint/governance/disable-co-authoring) | modified |
-| 2/8/2021 | [Let users sync IRM-protected files with the OneDrive sync app](/SharePoint/let-users-sync-irm-protected-files) | modified |
-| 2/8/2021 | How to let users sync SharePoint files with the OneDrive sync app | removed |
-| 2/8/2021 | [Configure syncing with the new OneDrive sync app for SharePoint 2019](/SharePoint/install/new-onedrive-sync-client) | modified |
-| 2/8/2021 | [Plan for OneDrive in SharePoint Server](/SharePoint/sites/onedrive-for-business-planning) | modified |
-| 2/8/2021 | [What's deprecated or removed from SharePoint Server 2019](/SharePoint/what-s-new/what-s-deprecated-or-removed-from-sharepoint-server-2019) | modified |
-| 2/9/2021 | [Deploy Azure SQL Managed Instance with SharePoint Servers 2016 and 2019](/SharePoint/administration/deploy-azure-sql-managed-instance-with-sharepoint-servers-2016-2019) | modified |
-| 2/10/2021 | [Why move from publishing sites to communication sites? - SharePoint](/SharePoint/publishing-sites-classic-to-modern-experience) | modified |
-| 2/11/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
-| 2/12/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
-| 2/12/2021 | [Allow users to create modern pages](/SharePoint/let-users-create-modern-site-pages) | modified |
-
-
-## Week of February 01, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/2/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration-preview) | modified |
-| 2/2/2021 | [Create an information barriers policy compliance report](/SharePoint/info-barriers-report) | modified |
-| 2/2/2021 | [Use information barriers with SharePoint](/SharePoint/information-barriers) | modified |
-| 2/5/2021 | [Use the new SharePoint app bar and set up global navigation](/SharePoint/sharepoint-app-bar) | modified |
-| 2/5/2021 | [Find site collection features in the new SharePoint admin center](/SharePoint/site-collections-page) | modified |
-| 2/5/2021 | [Upgrade service applications to SharePoint Server 2019](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2019) | modified |
-
-
-## Week of January 25, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/29/2021 | [Planning intranet governance](/SharePoint/intranet-governance) | modified |
-
-
-## Week of January 18, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/22/2021 | [Branding your SharePoint site](/SharePoint/branding-sharepoint-online-sites-modern-experience) | modified |
-| 1/22/2021 | [Information architecture models and examples](/SharePoint/information-architecture-models-examples) | modified |
-| 1/22/2021 | [Plan and implement SharePoint site navigation](/SharePoint/plan-navigation-modern-experience) | modified |
-| 1/22/2021 | [Creating and launching a healthy SharePoint portal](/SharePoint/portal-health) | modified |
-| 1/22/2021 | [Azure AD B2B integration for SharePoint & OneDrive](/SharePoint/sharepoint-azureb2b-integration-preview) | modified |
-| 1/19/2021 | [Secure external sharing in SharePoint](/SharePoint/what-s-new-in-sharing-in-targeted-release) | modified |
-| 1/21/2021 | [Report on sharing](/SharePoint/sharing-reports) | modified |
-| 1/19/2021 | [Request app installation permissions](/SharePoint/request-app-installation-permissions) | modified |
-| 1/19/2021 | [Security considerations of allowing custom script](/SharePoint/security-considerations-of-allowing-custom-script) | modified |
-| 1/19/2021 | [Variations overview in SharePoint Server](/SharePoint/administration/variations-overview) | modified |
-| 1/21/2021 | [Hardware and software requirements for SharePoint 2013](/SharePoint/install/hardware-and-software-requirements-0) | modified |
+| 2/16/2021 | [Use the new SharePoint app bar and set up global navigation](../../SharePointOnline/sharepoint-app-bar.md) | modified |
+| 2/17/2021 | [Mark new files as sensitive by default](../../SharePointOnline/sensitive-by-default.md) | modified |
+| 2/17/2021 | [Account permissions and security settings in SharePoint Servers](../../SharePointServer/install/account-permissions-and-security-settings-in-sharepoint-server-2016.md) | modified |
+| 2/17/2021 | [Plan for least-privileged administration in SharePoint Server](../../SharePointServer/security-for-sharepoint-server/plan-for-least-privileged-administration.md) | modified |
+| 2/17/2021 | [Intelligent intranet overview](../../SharePointOnline/intelligent-internet-overview.md) | modified |

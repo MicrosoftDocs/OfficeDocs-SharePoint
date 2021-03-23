@@ -84,6 +84,4 @@ The standard diagram format in later versions of Visio (\*.vsdx files) can be re
 
 Before you configure Visio Services, be sure to review [Plan Visio Services deployment in SharePoint Server 2013](plan-visio-services-deployment.md), [Plan Visio Services security in SharePoint Server 2013](visio-services-security-planning.md), and [Data authentication for Visio Services in SharePoint Server 2013](data-authentication-for-visio-services.md). These articles contain important information about planning your Visio Services infrastructure.
   
-To get started deploying Visio Services, see [Configure Visio Services](/SharePoint/administration/configure-visio-services).
-  
-
+To get started deploying Visio Services, see [Configure Visio Services](./configure-visio-services.md).

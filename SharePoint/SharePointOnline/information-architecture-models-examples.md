@@ -52,9 +52,9 @@ Common methods of organizing navigational design:
 
 ![Department roles](media/department.png)
 
-**Benefits** - Most users already have a well-established mental model for navigation broken down by department. This model scales many sizes and types of organizations and is a common method for [organizing and planning hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites).
+**Benefits** - Most users already have a well-established mental model for navigation broken down by department. This model scales many sizes and types of organizations and is a common method for [organizing and planning hubs](./planning-hub-sites.md).
 
-**Governance considerations**  - For large organizations, especially with international offices, it can be challenging to make sure the right people have access to the right content for security and compliance purposes. Consider using personalization elements like [information barriers](https://docs.microsoft.com/sharepoint/information-barriers) and [audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) to help surface content the specific audiences. 
+**Governance considerations**  - For large organizations, especially with international offices, it can be challenging to make sure the right people have access to the right content for security and compliance purposes. Consider using personalization elements like [information barriers](./information-barriers.md) and [audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) to help surface content the specific audiences. 
 
 **Maintenance considerations** - As the business grows and departments and team move, you will need to update global, hub, and local navigation to reflect organizational changes. 
 
@@ -64,9 +64,9 @@ Common methods of organizing navigational design:
 
 **Benefits** - Organizing by geographic location is an effective way to bring people of similar disciplines together to collaborate and build community. For large or organizations, and international organizations, location can be an important decision-making factor for users. Organizing by region may be important when certain topics have different laws and mandates depending on the region. For example, crisis management sites or human resource guidelines. 
 
-**Governance considerations** - Many governance details may very among region, for example site creation policy, data retention, and data storage policies too. Learn more about the [multi-geo user experience](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-user-experience) and [multi-geo configuration](https://docs.microsoft.com/sharepoint/dev/solution-guidance/multigeo-introduction).
+**Governance considerations** - Many governance details may very among region, for example site creation policy, data retention, and data storage policies too. Learn more about the [multi-geo user experience](/microsoft-365/enterprise/multi-geo-user-experience) and [multi-geo configuration](/sharepoint/dev/solution-guidance/multigeo-introduction).
 
-**Maintenance considerations** - When the organization moves locations, navigation will need to be updated to reflect those changes. There are other [multi-geo considerations](https://docs.microsoft.com/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365) to plan when enabling SharePoint, [Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups), and other Microsoft 365 apps globally. Multi-geo enables global businesses to control the country or region where shared resources like SharePoint Team Sites, Office 365 Groups content (associated SharePoint Sites and shared mailboxes) are stored and managed. 
+**Maintenance considerations** - When the organization moves locations, navigation will need to be updated to reflect those changes. There are other [multi-geo considerations](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365) to plan when enabling SharePoint, [Microsoft 365 groups](/microsoft-365/admin/create-groups/office-365-groups), and other Microsoft 365 apps globally. Multi-geo enables global businesses to control the country or region where shared resources like SharePoint Team Sites, Office 365 Groups content (associated SharePoint Sites and shared mailboxes) are stored and managed. 
 
 ### By task or scenario
 
@@ -74,7 +74,7 @@ Common methods of organizing navigational design:
 
 **Benefits** - Organizing by scenario within navigation helps users learn about a general concept, for example “about us” pages. Organizing by common and frequently used tasks is helpful in the same way, for example tasks like “get reimbursed” or “pick a healthcare plan.” 
 
-**Governance considerations** - This style of navigation could attract a broad and high-volume audience depending on the rest of your navigation design. High volume sites should take extra care in ensuring [page performance](https://docs.microsoft.com/sharepoint/modern-experience-performance) is managed by optimizing image sizes and other details. Consider using tactics like [creating hubs](https://docs.microsoft.com/sharepoint/create-hub-site) to organize tasks by departmental needs, which will make it easier to manage page access and organization. 
+**Governance considerations** - This style of navigation could attract a broad and high-volume audience depending on the rest of your navigation design. High volume sites should take extra care in ensuring [page performance](./modern-experience-performance.md) is managed by optimizing image sizes and other details. Consider using tactics like [creating hubs](./create-hub-site.md) to organize tasks by departmental needs, which will make it easier to manage page access and organization. 
 
 **Maintenance considerations** - When organizational information (leadership, locations, etc.) becomes outdated, navigation will need to be updated.
 
@@ -84,7 +84,7 @@ Common methods of organizing navigational design:
 
 **Benefits** - Sometimes content is best organized by type, or portfolio, to display content in natural groupings or for specific audiences. Organizing your navigation by portfolio offers flexibility as your business scales and grows. 
 
-**Governance considerations** - For large organizations, especially with international offices, it can be challenging to make sure the right people have access to the right content for security and compliance purposes. Consider using personalization elements like [information barriers](https://docs.microsoft.com/sharepoint/information-barriers) and [audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) to help surface content the specific audiences.
+**Governance considerations** - For large organizations, especially with international offices, it can be challenging to make sure the right people have access to the right content for security and compliance purposes. Consider using personalization elements like [information barriers](./information-barriers.md) and [audience targeting](https://support.microsoft.com/office/overview-of-audience-targeting-in-modern-sharepoint-sites-68113d1b-be99-4d4c-a61c-73b087f48a81) to help surface content the specific audiences.
 
 **Maintenance considerations** - As the business and portfolios grow, the navigation needs to reflect organizational changes. 
 
@@ -104,15 +104,15 @@ Common methods of organizing navigational design:
 
 Your intranet is an ever-evolving component of your business that will need to grow and scale alongside your organization. Modern intranet navigation differs from classic navigation in the sense that it is “flat” -- in the modern SharePoint experience, sub-sites are not recommended. In the new “flat” world of modern SharePoint, plan to create one site for each discrete topic or unit of work. Classic SharePoint architecture is typically built using a hierarchical system of site collections and sub-sites, with inherited navigation, permissions, and site designs. Once built, this structure can be inflexible and difficult to maintain.
 
-Focus on incorporating modern changes that will have the greatest impact to your business first. [Plan and schedule](https://docs.microsoft.com/sharepoint/intranet-overview) when changes will be incorporated and how you will track progress. Use site analytics to understand user behavior and collect feedback from users along the way.
+Focus on incorporating modern changes that will have the greatest impact to your business first. [Plan and schedule](./intranet-overview.md) when changes will be incorporated and how you will track progress. Use site analytics to understand user behavior and collect feedback from users along the way.
 How to get started
 
 Moving to modern navigation from classic SharePoint navigation is a process that depends on the size of your organization and the complexity of your tenant’s configuration. Below are general guidelines and tools you can use to get started:
 
-- Define new intranet [business objectives](https://docs.microsoft.com/sharepoint/plan-intranet#identify-initiatives) and [choose pilot scenarios](https://docs.microsoft.com/sharepoint/plan-intranet#choose-pilot-scenarios)
-- Learn about [user needs](https://docs.microsoft.com/sharepoint/information-architecture-modern-experience#understand-your-content) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/)
+- Define new intranet [business objectives](./plan-intranet.md#identify-initiatives) and [choose pilot scenarios](./plan-intranet.md#choose-pilot-scenarios)
+- Learn about [user needs](./information-architecture-modern-experience.md#understand-your-content) and find methods to [test potential designs](https://www.nngroup.com/articles/quantitative-user-research-methods/)
 - Take an inventory of your current sites and subsites
-- Start [planning hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites) and your [home site](https://docs.microsoft.com/sharepoint/home-site) by grouping high priority tasks and content
+- Start [planning hubs](./planning-hub-sites.md) and your [home site](./home-site.md) by grouping high priority tasks and content
 - Release hubs and associated sites in phases
 - Regularly review [hub and site analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to track page traffic and popular content
 - Make navigation changes based on your learning from user testing and analytics
@@ -157,5 +157,3 @@ This presents a convenient way to showcase links to all the external sites manag
 A site can only be associated to one hub. However, you can increase discovery by adding navigational links to other hubs or other sites in your hub navigation.
 
 [**Next: learn how to get started planning and implementing SharePoint navigational design**](plan-implement-navigation-design.md)
-
-

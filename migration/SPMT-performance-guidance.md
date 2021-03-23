@@ -30,7 +30,7 @@ When using either the SharePoint Migration Tool (SPMT) or running a Migration Ma
 -	[Improving the speed at which the source can be read](#improving-the-speed-at-which-the-source-can-be-read)
 -	[Improving the migration computer speed](#improving-the-migration-computer-speed)
 -	[Improving your connectivity to Office 365 and Azure](#improving-your-connectivity-to-office-365-and-azure)
--	[Performing migration following our published guidance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
+-	[Performing migration following our published guidance](./sharepoint-online-and-onedrive-migration-speed.md)
 
 
 ## Improving the speed at which the source can be read 
@@ -71,6 +71,4 @@ Suggestions:
 
 Migration performance can be impacted by network infrastructure, file size, migration time, and throttling. Understanding these will help you plan and maximize the efficiency of your migration. These are detailed here:
 
-- [General guidelines for migration performance](https://docs.microsoft.com/sharepointmigration/sharepoint-online-and-onedrive-migration-speed)
-
-
+- [General guidelines for migration performance](./sharepoint-online-and-onedrive-migration-speed.md)

@@ -35,7 +35,7 @@ After you create a case, you add Discovery Sets to it. Discovery Sets contain th
 Once you have identified potential sources, queries help further refine the content that you want to export to review or to provide to counsel and/or the requesting party. You can construct your filter by using keywords, date ranges, author/recipients, domains, and proximity searches. 
   
 > [!NOTE]
->  In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article [Default crawled file name extensions and parsed file types in SharePoint Server 2013](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types). 
+>  In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article [Default crawled file name extensions and parsed file types in SharePoint Server 2013](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md). 
   
 ## Operators and Proximity in Keywords
 <a name="__top"> </a>
@@ -117,18 +117,16 @@ In the query dialog, click the **Advanced Query Options** link. You can see your
 
 For more information about eDiscovery cases, see the following articles:
   
-[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](/sharepoint/)
+[Scenario: eDiscovery in SharePoint Server 2013 and Exchange Server 2013](../../Hub/index.yml)
   
-[Plan and manage cases in the eDiscovery Center](/sharepoint/governance/plan-and-manage-cases-in-the-ediscovery-center)
+[Plan and manage cases in the eDiscovery Center](./plan-and-manage-cases-in-the-ediscovery-center.md)
   
 [Add content to a case and place sources on hold in the eDiscovery Center](add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md)
   
-[Default crawled file name extensions and parsed file types in SharePoint Server 2013](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
+[Default crawled file name extensions and parsed file types in SharePoint Server 2013](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md)
   
-[Overview of crawled and managed properties in SharePoint Server 2013](/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+[Overview of crawled and managed properties in SharePoint Server 2013](../technical-reference/crawled-and-managed-properties-overview.md)
   
 [Create and run queries in the eDiscovery Center](create-and-run-queries-in-the-ediscovery-center.md)
   
 [Export content and create reports in the eDiscovery Center](export-content-and-create-reports-in-the-ediscovery-center.md)
-  
-

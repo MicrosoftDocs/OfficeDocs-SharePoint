@@ -294,7 +294,7 @@ Resolution 2: Verify the SQL Server network connection:
     
 Resolution 3: Verify Server to Server Authentication is configured correctly:
   
-See [Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+See [Configure server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
 ## Machine Translation Service: Worker failure
 <a name="TransWorker"> </a>
@@ -373,4 +373,3 @@ Resolution 5: Create a new Machine Translation Service application
 [System Center Monitoring Pack for SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=272568)
   
 [System Center Monitoring Pack for SharePoint Server 2016](https://go.microsoft.com/fwlink/?LinkID=746863&amp;clcid=0x409)
-

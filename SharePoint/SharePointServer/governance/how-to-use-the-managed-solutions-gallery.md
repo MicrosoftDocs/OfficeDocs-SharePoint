@@ -34,7 +34,7 @@ After an administrator uploads a solution to the Managed Solutions Gallery, site
   
 ## Overview
 
-The Managed Solutions Gallery is a new feature in the September Public Update for code-based sandbox solutions which can be downloaded from here, [SharePoint Updates](https://go.microsoft.com/fwlink/?LinkID=827479) https://go.microsoft.com/fwlink/?LinkID=827479 
+The Managed Solutions Gallery is a new feature in the September Public Update for code-based sandbox solutions which can be downloaded from here, [SharePoint Updates](/officeupdates/sharepoint-updates) https://go.microsoft.com/fwlink/?LinkID=827479 
   
 > [!NOTE]
 > The September Public Update includes the English-language version of the Managed Solutions Gallery. A future Public Update will include the Multi-language versions of the Managed Solutions Gallery.
@@ -82,9 +82,9 @@ Before you can use the Managed Solutions Gallery, you must create a site collect
     
 ## Transform your sandbox solutions to the SharePoint add-in model
 
-We encourage customers that are considering moving away from the sandbox solution to the new SharePoint add-in model to review the considerations outlined here, [Sandbox solution transformation guidance - InfoPath](https://go.microsoft.com/fwlink/?LinkID=827587&amp;clcid=0x409)
+We encourage customers that are considering moving away from the sandbox solution to the new SharePoint add-in model to review the considerations outlined here, [Sandbox solution transformation guidance - InfoPath](/sharepoint/dev/solution-guidance/sandbox-solution-transformation-guidance-infopath)
   
-SharePoint Add-ins are self-contained extensions of SharePoint websites that you create, and that run without custom code on the SharePoint server. To learn more about Add-ins see, [SharePoint Add-ins](https://go.microsoft.com/fwlink/?LinkId=827588&amp;clcid=0x409)
+SharePoint Add-ins are self-contained extensions of SharePoint websites that you create, and that run without custom code on the SharePoint server. To learn more about Add-ins see, [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
   
 ## See also
 

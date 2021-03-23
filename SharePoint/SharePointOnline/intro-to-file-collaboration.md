@@ -163,7 +163,7 @@ You can choose one or more of the following options, depending on the number and
 
 ### Hybrid
 
-If your organization uses SharePoint Server, setting up a hybrid environment can help you move to the cloud at your own pace. Hybrid features let you tie the two environments together in a variety of ways to make a more seamless user experience. You can consolidate search results between SharePoint Server and Microsoft 365, consolidate user profiles in Microsoft 365, and migrate your users' individual storage to OneDrive. [Get started exploring hybrid](/SharePoint/hybrid/hybrid).
+If your organization uses SharePoint Server, setting up a hybrid environment can help you move to the cloud at your own pace. Hybrid features let you tie the two environments together in a variety of ways to make a more seamless user experience. You can consolidate search results between SharePoint Server and Microsoft 365, consolidate user profiles in Microsoft 365, and migrate your users' individual storage to OneDrive. [Get started exploring hybrid](../SharePointServer/hybrid/hybrid.md).
 
 ### Auditing and reporting
 
@@ -183,7 +183,7 @@ Microsoft Search helps users find files within modern SharePoint sites and from 
 
 As a global or SharePoint admin for your organization, you have a couple of options for managing SharePoint sites and settings:
 
-- **New SharePoint admin center**. In the new SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The **Active sites** page of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the new SharePoint admin center](/sharepoint/get-started-new-admin-center).
+- **New SharePoint admin center**. In the new SharePoint admin center, you can create and delete sites, manage site settings, and manage organization-level settings for SharePoint and OneDrive. The **Active sites** page of the SharePoint admin center lets you view the SharePoint sites in your organization, including communication sites and sites that belong to Microsoft 365 Groups. It also lets you sort and filter sites, search for a site, and create new sites. [Get started with the new SharePoint admin center](./get-started-new-admin-center.md).
 
     ![The Active Sites page in the SharePoint admin center](media/2a18e27e-47ba-4370-8d91-cb6d75d746b5.png)
 
@@ -193,7 +193,7 @@ As a global or SharePoint admin for your organization, you have a couple of opti
 
 **Purchase and assign licenses**. SharePoint comes with Microsoft 365 plans and Office 365 plans. It also comes as a standalone plan. For more info about the features available in each plan, see the [SharePoint service description](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description). Some security features, such as Azure Information Protection, require an E3 or E5 plan. Cloud App Security, Advanced Threat Protection, Customer Lockbox, Customer Key, Advanced eDiscovery. For info, [see Office 365 platform service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-platform-service-description).
 
-**Assign the SharePoint admin role**. Users assigned this role will have access to the SharePoint admin center and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](/sharepoint/sharepoint-admin-role).
+**Assign the SharePoint admin role**. Users assigned this role will have access to the SharePoint admin center and can change organization-level SharePoint and OneDrive settings, create and delete sites, and change site owners and other site settings. [Learn more about the SharePoint admin role](./sharepoint-admin-role.md).
 
 **Estimate and test your network bandwidth**. Before you roll out Microsoft 365 in your organization, make sure that your network is set up for optimum performance. [Network planning and performance tuning](/office365/enterprise/network-planning-and-performance). Before you deploy the sync app, make sure you also [estimate the bandwidth users will need for syncing](/onedrive/network-utilization-planning).
 
