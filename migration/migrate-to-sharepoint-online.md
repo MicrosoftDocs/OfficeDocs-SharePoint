@@ -52,7 +52,7 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
 
-![Migrating SPMT workflow](media/media/spmt-migration-3-box.png)
+![Migrating SPMT workflow](media/media/spmt-flow-3box.png)
 
 
 ## More cloud to cloud migrations
