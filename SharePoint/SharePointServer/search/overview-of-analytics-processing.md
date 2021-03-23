@@ -140,6 +140,4 @@ By default, usage cookies are not enabled for a SharePoint Server web applicatio
 > [!IMPORTANT]
 > Local legal restrictions might apply when you enable cookies on sites that have anonymous users. 
   
-To enable usage cookies for a SharePoint web application, see [Edit general settings on a web application in SharePoint Server](/SharePoint/administration/edit-general-settings-on-a-web-application). This article also applies to SharePoint Server 2016.
-  
-
+To enable usage cookies for a SharePoint web application, see [Edit general settings on a web application in SharePoint Server](../administration/edit-general-settings-on-a-web-application.md). This article also applies to SharePoint Server 2016.

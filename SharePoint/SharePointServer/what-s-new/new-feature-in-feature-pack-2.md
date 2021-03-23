@@ -20,7 +20,7 @@ description: "Learn about the new features that are included in the September 20
 
 [!INCLUDE[appliesto-xxx-2016-xxx-xxx-md](../includes/appliesto-xxx-2016-xxx-xxx-md.md)]
 
-For a list of updates and associated KB articles for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010, see [SharePoint Updates](../sharepoint-updates.md).
+For a list of updates and associated KB articles for SharePoint Server 2016, SharePoint 2013, and SharePoint 2010, see [SharePoint Updates](/officeupdates/sharepoint-updates).
   
 SharePoint Framework client-side web part support with classic SharePoint pages is included in the September 2017 Public Update for SharePoint Server 2016 (Feature Pack 2).
   
@@ -46,4 +46,3 @@ SharePoint Server 2016 Feature Pack 2 contains SharePoint Framework client-side 
 #### Other Resources
 
 [Deploy SharePoint Framework web parts to SharePoint Server 2016 with Feature Pack 2](https://dev.office.com/blogs/now-available-deploy-sharepoint-framework-web-parts-to-sharepoint-server-2016-with-feature-pack-2)
-

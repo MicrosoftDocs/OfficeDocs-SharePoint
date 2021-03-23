@@ -134,7 +134,7 @@ Before you attach the content databases to the web applications, use the [Test-S
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/office/search-server-2010/dd183108(v=office.14)).
     
 3. At the PowerShell command prompt, type the following command:
     
@@ -204,7 +204,7 @@ By default, when you created the web applications in the new SharePoint Server 2
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/office/search-server-2010/dd183108(v=office.14)).
     
 3. At the PowerShell command prompt, type the following command and then press **ENTER**: 
     
@@ -279,7 +279,7 @@ After you attach a database, you can use the **Upgrade Status** page in Central 
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=403878).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/office/search-server-2010/dd183108(v=office.14)).
     
 3. At the PowerShell command prompt, type the following command:
     
@@ -325,5 +325,3 @@ After you upgrade the databases, you might want to perform additional steps to m
 |||
 |:-----|:-----|
 |![123 steps](../media/mod_icon_howTo_numeric_M.png)|This is the fourth phase in the process to upgrade SharePoint 2010 Products data and sites to SharePoint Server 2016.  <br/> For an overview of the whole process, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md).  <br/> |
-   
-

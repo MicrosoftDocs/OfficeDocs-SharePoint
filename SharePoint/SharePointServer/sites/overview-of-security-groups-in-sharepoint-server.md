@@ -90,14 +90,13 @@ Permission policies provide a centralized way to configure and manage a set of p
     
 - **Deny Write** Anonymous users cannot write content, even if the site administrator specifically attempts to grant the anonymous user account that permission. 
     
-- **Deny All** Anonymous users cannot have any access, even if site administrators specifically attempt to grant the anonymous user account access to their sites. For more information about permission policies, see [Manage permission policies for a web application in SharePoint Server](/SharePoint/administration/manage-permission-policies-for-a-web-application).
+- **Deny All** Anonymous users cannot have any access, even if site administrators specifically attempt to grant the anonymous user account access to their sites. For more information about permission policies, see [Manage permission policies for a web application in SharePoint Server](../administration/manage-permission-policies-for-a-web-application.md).
     
 ## See also
 <a name="section3"> </a>
 
 #### Other Resources
 
-[Permissions planning for sites and content in SharePoint Server](/SharePoint/sites/permissions-planning-for-sites-and-content)
+[Permissions planning for sites and content in SharePoint Server](./permissions-planning-for-sites-and-content.md)
   
-[Manage permission policies for a web application in SharePoint Server](/SharePoint/administration/manage-permission-policies-for-a-web-application)
-
+[Manage permission policies for a web application in SharePoint Server](../administration/manage-permission-policies-for-a-web-application.md)

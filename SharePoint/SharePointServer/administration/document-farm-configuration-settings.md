@@ -42,7 +42,7 @@ The following procedure describes how to create and run a PowerShell script for 
     
   - Administrators group on the server on which you are running PowerShell cmdlets.
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)) (https://go.microsoft.com/fwlink/p/?LinkId=193050). 
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint Server cmdlets. 
     
@@ -250,7 +250,7 @@ The following procedure describes how to create and run a PowerShell script for 
   ./SuggestedFileName.ps1
   ```
 
-For more information, see [Export-Clixml](https://go.microsoft.com/fwlink/p/?LinkID=733400&amp;clcid=0x409), [Get-SPWebApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps), [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps).
+For more information, see [Export-Clixml](/powershell/module/microsoft.powershell.utility/export-clixml), [Get-SPWebApplication](/powershell/module/sharepoint-server/Add-SPShellAdmin?view=sharepoint-ps), [Get-SPServiceApplication](/powershell/module/sharepoint-server/Get-SPServiceApplication?view=sharepoint-ps).
   
 > [!NOTE]
 > We recommend that you use Microsoft PowerShell when performing command-line administrative tasks. The Stsadm command-line tool has been deprecated, but is included to support compatibility with previous product versions. 
@@ -352,13 +352,12 @@ Import-Clixml .\Get-SPAlternateURL.xml | %{$_.Uri | Get-Member}
 
 #### Other Resources
 
-[Export-Clixml](https://go.microsoft.com/fwlink/p/?LinkID=733400&amp;clcid=0x409)
+[Export-Clixml](/powershell/module/microsoft.powershell.utility/export-clixml)
   
-[Import-Clixml](https://go.microsoft.com/fwlink/p/?LinkID=733402&amp;clcid=0x409)
+[Import-Clixml](/powershell/module/microsoft.powershell.utility/import-clixml)
   
 [Get-SPAlternateURL](/powershell/module/sharepoint-server/Get-SPAlternateURL?view=sharepoint-ps)
   
 [ForEach-Object](/previous-versions//dd347608(v=technet.10))
   
 [Get-Member](/powershell/module/Microsoft.PowerShell.Utility/Get-Member?view=powershell-5.1)
-

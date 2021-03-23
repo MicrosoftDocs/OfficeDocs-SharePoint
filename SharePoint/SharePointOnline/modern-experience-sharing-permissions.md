@@ -30,7 +30,7 @@ The three main types of sites in SharePoint are:
 
 - **Team sites** - Team sites provide a collaboration environment for your teams and projects. Each team site, by default, is part of a Microsoft 365 group, which includes a mailbox, shared calendar, and other collaboration tools. Team sites may also be part of a team in Microsoft Teams. Permissions for team sites are best managed through the associated Microsoft 365 group or Teams team.
 - **Communication sites** - Communication sites are for broadcasting news and status across the organization. Communication site permissions are managed by using the SharePoint Owners, Members, and Visitors groups for the site.
-- **Hub sites** - [Hub sites](https://docs.microsoft.com/sharepoint/planning-hub-sites) are team sites or communication sites that the administrator has configured as the center of a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Microsoft 365 group if there is one. Special permissions are needed to associate sites to a hub.
+- **Hub sites** - [Hub sites](./planning-hub-sites.md) are team sites or communication sites that the administrator has configured as the center of a hub. They're designed to provide connection between related sites through shared navigation. Permissions for hub sites can be managed through the Owners, Members, and Visitors groups, or through the associated Microsoft 365 group if there is one. Special permissions are needed to associate sites to a hub.
 
 ## Team site permissions and Microsoft 365 Groups
 
@@ -46,7 +46,7 @@ Microsoft Teams provides a hub for collaboration by bringing together various se
 
 For scenarios where a SharePoint site is used with Teams, we recommend doing all permission management through Teams. As with Microsoft 365 groups, team owners become site owners and team members become site members. View-only permissions are managed through the site.
 
-For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).
+For details about how SharePoint and Teams interact, see [How SharePoint and OneDrive interact with Microsoft Teams](/microsoftteams/sharepoint-onedrive-interact).
 
 ## Communication site permissions
 
@@ -84,9 +84,9 @@ Giving people permissions to a site, group, or team gives them access to all sit
   - *People in your organization* links work for only people inside your Microsoft 365 organization. (They don't work for guests in the directory, only members).  
   - *Specific people* links only work for the people that users specify when they share the item.  
 
-You can [change the type of link that is presented to users by default](https://docs.microsoft.com/sharepoint/change-default-sharing-link) for each site.
+You can [change the type of link that is presented to users by default](./change-default-sharing-link.md) for each site.
 
-For more about the different types of sharing links, see [Securing your data](https://docs.microsoft.com/sharepoint/deploy-file-collaboration#securing-your-data).
+For more about the different types of sharing links, see [Securing your data](./deploy-file-collaboration.md#securing-your-data).
 
 ## Guest sharing
 
@@ -98,9 +98,9 @@ SharePoint has external sharing settings at both the organization level and the 
   
 Whichever option you choose at the organization or site level, the more restrictive functionality is still available. For example, if you choose to allow sharing using *Anyone* links, users can still share with guests, who sign in, and with internal users. 
   
-External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-guest-settings) for more information.
+External sharing is turned on by default for your organization. Default settings for individual sites vary depending on the type of site. See [Site level settings](/microsoft-365/solutions/microsoft-365-guest-settings) for more information.
 
-To set up guest sharing for a site, see [Collaborate with guests in a site](https://docs.microsoft.com/microsoft-365/solutions/collaborate-in-site).
+To set up guest sharing for a site, see [Collaborate with guests in a site](/microsoft-365/solutions/collaborate-in-site).
   
 ### Security and privacy
 
@@ -120,8 +120,8 @@ With Azure B2B integration, all guests are added to the directory and can be man
 
 [Turn external sharing on or off for SharePoint](turn-external-sharing-on-or-off.md)
 
-[Collaborating with people outside your organization](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
+[Collaborating with people outside your organization](/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
 [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c)
 
-[Limit sharing in Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-limit-sharing)
+[Limit sharing in Microsoft 365](/microsoft-365/solutions/microsoft-365-limit-sharing)

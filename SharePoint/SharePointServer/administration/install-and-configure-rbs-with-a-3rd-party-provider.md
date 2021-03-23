@@ -164,6 +164,6 @@ You should test the RBS installation on one Web server in the SharePoint farm to
 [Deciding to use RBS in SharePoint Server](rbs-planning.md)
 #### Other Resources
 
-[Remote Blob Store (RBS) (SQL Server)](https://docs.microsoft.com/sql/relational-databases/blob/remote-blob-store-rbs-sql-server)
+[Remote Blob Store (RBS) (SQL Server)](/sql/relational-databases/blob/remote-blob-store-rbs-sql-server)
   
-[Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream)
+[Enable and Configure FILESTREAM](/sql/relational-databases/blob/enable-and-configure-filestream)

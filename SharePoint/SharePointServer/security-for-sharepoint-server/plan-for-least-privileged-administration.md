@@ -49,7 +49,7 @@ In a SharePoint Server environment, several accounts may be granted the followin
 > [!NOTE]
 > The ability to grant access to the database engine and to configure user permissions allows the securityadmin to assign most server permissions. You should treat the securityadmin role as equal to the sysadmin role. 
   
-For additional information about SQL Server server-level roles, see [Server Level Roles](https://go.microsoft.com/fwlink/p/?LinkId=213450).
+For additional information about SQL Server server-level roles, see [Server Level Roles](/sql/relational-databases/security/authentication-access/server-level-roles).
   
 If you remove one or more of these SQL Server roles, you might receive "Unexpected" error messages in the Central Administration web site. In addition, you may receive the following message in the Unified Logging Service (ULS) log file:
   
@@ -167,4 +167,3 @@ In addition to the previous considerations, you might have to consider more oper
 #### Other Resources
 
 [Least Privilege Configuration for Workflow Manager with SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=288780)
-

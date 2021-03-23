@@ -64,9 +64,9 @@ You must configure the SharePoint farm to trust the access tokens that correspon
     
 - High-trust apps run on stand-alone servers on your intranet and use a signing certificate to digitally sign the access tokens that the app generates.
     
-    High-trust apps use the server-to-server protocol to request resources on behalf of a user. For high-trust apps, configure the SharePoint farm with the JavaScript Object Notation (JSON) metadata endpoint of the server that hosts the app. Or, you can manually configure the trust. For more information, see [Configure app authentication in SharePoint Server](/sharepoint/administration/install-and-manage-apps-for-sharepoint-server)
+    High-trust apps use the server-to-server protocol to request resources on behalf of a user. For high-trust apps, configure the SharePoint farm with the JavaScript Object Notation (JSON) metadata endpoint of the server that hosts the app. Or, you can manually configure the trust. For more information, see [Configure app authentication in SharePoint Server](../administration/install-and-manage-apps-for-sharepoint-server.md)
     
-    For more information about high-trust apps, see [How to: Create high-trust apps for SharePoint 2013 using the server-to-server protocol](https://go.microsoft.com/fwlink/p/?LinkId=267561).
+    For more information about high-trust apps, see [How to: Create high-trust apps for SharePoint 2013 using the server-to-server protocol](/sharepoint/dev/sp-add-ins/create-high-trust-sharepoint-add-ins).
     
 ## Choose user authentication methods for on-premises apps
 <a name="onprem"> </a>
@@ -121,4 +121,3 @@ If a user profile exists for a user and the relevant group memberships are not s
 #### Concepts
 
 [Authentication overview for SharePoint Server](authentication-overview.md)
-

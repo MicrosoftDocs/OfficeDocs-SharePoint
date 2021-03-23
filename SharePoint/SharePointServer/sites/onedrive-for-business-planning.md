@@ -57,7 +57,7 @@ In a SharePoint Server on-premises environment, you may have the option to save 
 The sync app also provides your users the added convenience of working with files directly from the local OneDrive sync folder. Work with and saving your files directly in the folder is more convenient than opening your My Sites document library.
   
 > [!IMPORTANT]
-> Use the [previous OneDrive for Business sync app (Groove.exe)](/onedrive/install-previous-sync-app.md) to sync files in SharePoint Server 2016 or earlier. The new OneDrive sync app (OneDrive.exe) is supported only in SharePoint Server 2019. [Configure the OneDrive sync app for SharePoint Server 2019](/SharePoint/install/new-onedrive-sync-client.md)
+> Use the [previous OneDrive for Business sync app (Groove.exe)](/onedrive/install-previous-sync-app.md) to sync files in SharePoint Server 2016 or earlier. The new OneDrive sync app (OneDrive.exe) is supported only in SharePoint Server 2019. [Configure the OneDrive sync app for SharePoint Server 2019](../install/new-onedrive-sync-client.md)
   
  **Changes in file location**
   
@@ -90,7 +90,7 @@ Data on local disks on both server and Windows client computers can be encrypted
   
 Once a document library is synchronized with a computer or mobile device, the files continue to exist there. Files remain on the computer or device even if the user's My Site and their user account are deleted. In this situation, although the files remain on the computer or device, the user can't synchronize the files with SharePoint Server again.
   
-If storing files on a client workstation is against your corporate policy, you can [remove synchronization functionality from document libraries](/SharePoint/sharepoint-server) in SharePoint Server. 
+If storing files on a client workstation is against your corporate policy, you can [remove synchronization functionality from document libraries](../sharepoint-server.yml) in SharePoint Server. 
   
 ## Moving to a hybrid environment
 <a name="section5"> </a>
@@ -107,5 +107,3 @@ If you are using OneDrive in SharePoint Server, you can upgrade to OneDrive in S
   
 > [!NOTE]
 > For more info, see [Upgrade the My Site Host site collection](../upgrade-and-update/upgrade-my-sites.md#UMSH). 
-  
-

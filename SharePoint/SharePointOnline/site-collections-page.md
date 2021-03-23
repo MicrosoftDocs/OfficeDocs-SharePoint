@@ -58,7 +58,7 @@ To create a site collection in the new SharePoint admin center, go to the [Activ
 
 ## Delete
 
-On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Delete**. As with the classic SharePoint admin center, you can’t delete the root (top-level) site. To swap this site with a different site, see [Replace your root site](https://docs.microsoft.com/sharepoint/modern-root-site).
+On the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), select the site, and on the command bar, select **Delete**. As with the classic SharePoint admin center, you can’t delete the root (top-level) site. To swap this site with a different site, see [Replace your root site](./modern-root-site.md).
 
 ## Properties
 
@@ -139,7 +139,7 @@ These options appear if you use manual site storage limits in your organization.
 
 ## Buy storage
 
-In the Microsoft 365 admin center, go to the [Purchase services page](https://go.microsoft.com/fwlink/p/?linkid=868433). For more information, please see [Add storage space for your subscription](https://docs.microsoft.com/microsoft-365/commerce/add-storage-space).
+In the Microsoft 365 admin center, go to the [Purchase services page](https://go.microsoft.com/fwlink/p/?linkid=868433). For more information, please see [Add storage space for your subscription](/microsoft-365/commerce/add-storage-space).
 
 ## Server resource quota
 
@@ -204,4 +204,4 @@ In both the classic and new admin centers, you can select multiple sites and bul
 
 In the classic site list, locked sites appeared with an icon. In the new SharePoint admin center, to see if a site is locked, select the site to open the details panel. **This site is locked** appears at the top of the panel. 
 
-If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size. 
+If you use manual storage limits, the Storage limit and Percent used columns appear. In the new SharePoint admin center, on the [Active sites page](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), the Storage limit and Storage used columns appear. The Storage used column isn’t color coded. The Storage limit column can be sorted by size.

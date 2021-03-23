@@ -30,7 +30,7 @@ Excel Services can be used with Secure Store in three primary scenarios:
   
 > **Unattended Service Account**: The unattended service account is an account that is used by Excel Services to provide broad database access to all users in the farm. Use the unattended service account for accessing data that is not considered sensitive or where you do not want to restrict access to a certain group of users. For information about how to configure this scenario, see [Configure Excel Services data refresh by using the unattended service account in SharePoint Server 2013](configure-the-unattended-service-account-0.md).
     
-> **Embedded Connections**: In Excel, you can specify a Secure Store target application directly in the workbook. When the workbook is published to a SharePoint document library and then rendered by using Excel Services, the specified target application is used to refresh the data. For information about how to configure this scenario, see [Configure Excel Services data refresh by using embedded data connections](/SharePoint/administration/excel-services-overview).
+> **Embedded Connections**: In Excel, you can specify a Secure Store target application directly in the workbook. When the workbook is published to a SharePoint document library and then rendered by using Excel Services, the specified target application is used to refresh the data. For information about how to configure this scenario, see [Configure Excel Services data refresh by using embedded data connections](./excel-services-overview.md).
     
 > **External Data Connections**: You can specify a Secure Store target application in an Office Data Connection (ODC) file and then connect to that ODC file in Excel. When you publish the workbook to a SharePoint document library, it maintains its connection to the ODC file. The connection information in the ODC file is used when Excel Services refreshes the data in the workbook. Using an ODC file has the following advantages:
     
@@ -38,6 +38,4 @@ Excel Services can be used with Secure Store in three primary scenarios:
     
     - Using ODC files allows administrators to create and maintain the data connections that are used by the organization. You can create data connections appropriate for users, place them in a trusted data connection library, and then notify the users of which ODC files to use for their queries.
     
-    For information about how to configure this scenario, see [Configure Excel Services data refresh by using external data connections](/SharePoint/administration/excel-services-overview).
-    
-
+    For information about how to configure this scenario, see [Configure Excel Services data refresh by using external data connections](./excel-services-overview.md).

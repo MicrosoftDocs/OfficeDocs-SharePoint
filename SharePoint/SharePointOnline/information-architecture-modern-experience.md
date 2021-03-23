@@ -43,10 +43,10 @@ Information architecture is about how you organize and label your content and ho
 
 Information architecture covers 6 main elements that relate to way finding in SharePoint:
 
-- **Global navigational structure** – Considered the top level of navigation across your SharePoint tenant and how you structure your sites so that users can find content including the [home site](https://docs.microsoft.com/sharepoint/home-site) of your intranet.
+- **Global navigational structure** – Considered the top level of navigation across your SharePoint tenant and how you structure your sites so that users can find content including the [home site](./home-site.md) of your intranet.
 - **Hub structure and organization** – [Hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) enable you to group together similar topics, tasks, and content.
 - **Local site and page navigational structure** – How content is organized on each site and page so that users can further navigate or consume content effectively.
-- **Metadata architecture** – [Metadata](https://docs.microsoft.com/sharepoint/managed-metadata) impacts search and browsing structure as well as compliance and retention policies.
+- **Metadata architecture** – [Metadata](./managed-metadata.md) impacts search and browsing structure as well as compliance and retention policies.
 - **Search experiences** – How your users “consume” information architecture in addition to browsing.
 - **Personalized content experiences** – How specific content is targeted to certain users and groups of users.
 
@@ -62,8 +62,8 @@ Information architecture for your organization will be the most effective by col
 
 **Departmental business owners** – Departmental business owners represent large areas of the organization, like human resources, marketing, and engineering. Departmental business owners work with organizational intranet owners to ensure their area of the business is well-represented in global and hub navigation. Organizational intranet owners should be included early in the planning stage to ensure business and user needs are met. 
 
-**IT Admins** – IT admins partner with organizational intranet owners and departmental business owners to implement high level navigational structure like implementing the [start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and [hubs](https://docs.microsoft.com/sharepoint/create-hub-site). IT admins also help implement certain governance policies around [site creation and usage](https://docs.microsoft.com/sharepoint/sites-usage-guidelines). IT admins are involved in planning, implementing, and maintaining information architecture as the business changes and scales. 
-Hub owners – Hub owners manage hub-level content, branding, permissions, and navigational elements for hub in your organization’s intranet. Hub owners partner with departmental business owners and IT admins to [plan](https://docs.microsoft.com/sharepoint/planning-hub-sites), create, and manage hubs throughout the lifecycle of your organization’s intranet architecture. 
+**IT Admins** – IT admins partner with organizational intranet owners and departmental business owners to implement high level navigational structure like implementing the [start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and [hubs](./create-hub-site.md). IT admins also help implement certain governance policies around [site creation and usage](./sites-usage-guidelines.md). IT admins are involved in planning, implementing, and maintaining information architecture as the business changes and scales. 
+Hub owners – Hub owners manage hub-level content, branding, permissions, and navigational elements for hub in your organization’s intranet. Hub owners partner with departmental business owners and IT admins to [plan](./planning-hub-sites.md), create, and manage hubs throughout the lifecycle of your organization’s intranet architecture. 
 
 **Site owners** – Site owners manage site-level content, branding, permissions, and navigation. Depending on the needs of the business and users, site owners can [associate their sites to hubs](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05) if the hub owner allows. 
 
@@ -109,11 +109,11 @@ Many intranets include top navigation that persists on every site. Global naviga
 
 The goal of global navigation is to support browsing to content, but since there is limited real estate available for global navigation links, global links generally point to major category navigation pages, sub-links, or a mega menu experience to provide enough "information scent" to help viewers navigate their way to the content they need. Because the context for global navigation must be broad, it is challenging to make the labels both comprehensive and useful. If you plan to implement global navigation, you will want to test your proposed navigation to make sure that it resonates with users.
 
-Global navigation is enabled with the [SharePoint app bar](https://docs.microsoft.com/SharePoint/sharepoint-app-bar) on your [home site](https://docs.microsoft.com/sharepoint/home-site). You will need to have a home site to enable global navigation. Global navigation appears on the left side of every site and page.
+Global navigation is enabled with the [SharePoint app bar](./sharepoint-app-bar.md) on your [home site](./home-site.md). You will need to have a home site to enable global navigation. Global navigation appears on the left side of every site and page.
 
 ### Hub navigation
 
-SharePoint [hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) help organize related sites based on project, department, division, region, or concept. Hubs make it easier to discover related content such as news and other site activities, apply common navigation, branding, site structure across associated sites and search across all [associated sites](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05). One of the important planning decisions for hubs is [planning the hub navigation](https://docs.microsoft.com/sharepoint/planning-hub-sites).
+SharePoint [hubs](https://support.microsoft.com/office/what-is-a-sharepoint-hub-site-fe26ae84-14b7-45b6-a6d1-948b3966427f) help organize related sites based on project, department, division, region, or concept. Hubs make it easier to discover related content such as news and other site activities, apply common navigation, branding, site structure across associated sites and search across all [associated sites](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05). One of the important planning decisions for hubs is [planning the hub navigation](./planning-hub-sites.md).
 
 ![Hub navigation](media/hub-nav.png)
 
@@ -121,7 +121,7 @@ Hub navigation appears above the local navigation on each site, just below the s
 
 ![SharePoint hubs example](media/hub_nav_example.png)
 
-Each site can belong to only one hub at a time, but you can associate hubs together in a combination of navigation links and associated hubs as part of your navigation experience. For more information, see [Planning your SharePoint hubs](https://docs.microsoft.com/sharepoint/planning-hub-sites).
+Each site can belong to only one hub at a time, but you can associate hubs together in a combination of navigation links and associated hubs as part of your navigation experience. For more information, see [Planning your SharePoint hubs](./planning-hub-sites.md).
 
 ### Local navigation
 
@@ -158,7 +158,7 @@ Where you’ll see local navigation elements:
 
 Your intranet and portals will be comprised of [team sites](https://support.microsoft.com/office/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) and [communication sites](https://support.microsoft.com/office/what-is-a-sharepoint-communication-site-94a33429-e580-45c3-a090-5512a8070732) that provide further access into the site’s pages, lists, and libraries. 
 
-One component to modern SharePoint team sites that makes information architecture easier to implement and maintain are [Microsoft 365 groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups). Microsoft 365 groups provide a membership service that allows for easy hub and site permissions as well as additional functionality for SharePoint team sites and [Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups). With Microsoft 365 groups, you can give a group of people access to a collection of collaboration resources like Planner, OneNote, SharePoint team sites, and more. M365 groups can only be used on SharePoint team sites.
+One component to modern SharePoint team sites that makes information architecture easier to implement and maintain are [Microsoft 365 groups](/microsoft-365/admin/create-groups/office-365-groups). Microsoft 365 groups provide a membership service that allows for easy hub and site permissions as well as additional functionality for SharePoint team sites and [Microsoft Teams](/microsoftteams/office-365-groups). With Microsoft 365 groups, you can give a group of people access to a collection of collaboration resources like Planner, OneNote, SharePoint team sites, and more. M365 groups can only be used on SharePoint team sites.
 
 ### Pages
 
@@ -184,7 +184,7 @@ Since we know that most readers do not read every word on a web page or even scr
 
 ![SharePoint hubs](media/personalize_elements.png)
 
-[Information barriers](https://docs.microsoft.com/sharepoint/information-barriers) - Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government.
+[Information barriers](./information-barriers.md) - Information barriers are policies in Microsoft 365 that a compliance admin can configure to prevent users from communicating and collaborating with each other. This is useful if, for example, one division is handling information that shouldn't be shared with specific other divisions, or a division needs to be prevented, or isolated, from collaborating with all users outside of the division. Information barriers are often used in highly regulated industries and those with compliance requirements, such as finance, legal, and government.
 
 [Multilingual considerations](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c) - If your organization spans a diverse population, you may want to make content in your intranet sites available in multiple languages. User interface elements like site navigation, site title, and site description can be shown in the user's preferred language. Additionally, you can provide pages and news posts on communication sites that you translate and that are shown in the user's preferred language.
 
@@ -203,6 +203,6 @@ Folders are another way to organize document content, but folders are a physical
 
 Search leverages your information architecture investments to help users find content when they don’t know where it might be in your architecture. It also helps users discover content that they may not have known about.
 
-You can help users discover content and improve search outcomes by leveraging several features in search, including acronyms, bookmarks, Q&A, floor plans, and locations. For more info, see [Make content easy to find](https://docs.microsoft.com/microsoftsearch/make-content-easy-to-find) and [Search experiences in SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience).
+You can help users discover content and improve search outcomes by leveraging several features in search, including acronyms, bookmarks, Q&A, floor plans, and locations. For more info, see [Make content easy to find](/microsoftsearch/make-content-easy-to-find) and [Search experiences in SharePoint](./get-started-with-modern-search-experience.md).
 
 [**Next: learn about SharePoint information architecture principles**](information-architecture-principles.md)

@@ -21,18 +21,18 @@ Quite frequently, we receive questions regarding Cloud hybrid search service app
 
 ***Is there an automated wizard that can help configure hybrid in my environment?***
 
-Yes, you can leverage the Hybrid picker in SharePoint admin center for hybrid configurations. This wizard automates certain configuration steps required to connect on-premises SharePoint Server environment with SharePoint in Microsoft 365. You can read more about the Hybrid picker [here](https://docs.microsoft.com/SharePoint/hybrid/hybrid-picker-in-the-sharepoint-online-admin-center).
+Yes, you can leverage the Hybrid picker in SharePoint admin center for hybrid configurations. This wizard automates certain configuration steps required to connect on-premises SharePoint Server environment with SharePoint in Microsoft 365. You can read more about the Hybrid picker [here](./hybrid-picker-in-the-sharepoint-online-admin-center.md).
 
 ***Can I leverage SharePoint in Microsoft 365 Hybrid picker to perform a clean-up of hybrid environment or deactivate the hybrid features that was activated by picker?***
 
-The Hybrid picker automates certain configuration steps to configure hybrid between on-premises SharePoint Server with SharePoint in Microsoft 365. This is not designed to undo the changes once the wizard completes. The Hybrid picker creates a Server-to-Server (S2S)/OAuth trust between the SharePoint in Microsoft 365 and SharePoint on-premises farm. After this is configured, re-running the wizard does not clean up the trust. You can refer to the documentation at [Hybrid picker in the SharePoint admin center](https://docs.microsoft.com/SharePoint/hybrid/hybrid-picker-in-the-sharepoint-online-admin-center#sharepoint-hybrid-features-offered-in-the-hybrid-picker).
+The Hybrid picker automates certain configuration steps to configure hybrid between on-premises SharePoint Server with SharePoint in Microsoft 365. This is not designed to undo the changes once the wizard completes. The Hybrid picker creates a Server-to-Server (S2S)/OAuth trust between the SharePoint in Microsoft 365 and SharePoint on-premises farm. After this is configured, re-running the wizard does not clean up the trust. You can refer to the documentation at [Hybrid picker in the SharePoint admin center](./hybrid-picker-in-the-sharepoint-online-admin-center.md#sharepoint-hybrid-features-offered-in-the-hybrid-picker).
 
 > [!IMPORTANT]
 > If the Hybrid picker is run a second time with an enabled feature unchecked, this will not cause the feature to be uninstalled. Any additional selections will be installed and previously installed features will remain.
 
 ***I plan to configure Cloud hybrid search with high availability (HA) topologies. Is there a script available to configure the same?***
 
-If you plan to configure Cloud hybrid search with HA topologies in SharePoint Server, you can configure it with Hybrid picker. Hybrid picker has automated certain configuration steps needed to connect your on-premises SharePoint Server environment with SharePoint in Microsoft 365 for Cloud hybrid search. [Learn more](https://docs.microsoft.com/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap).
+If you plan to configure Cloud hybrid search with HA topologies in SharePoint Server, you can configure it with Hybrid picker. Hybrid picker has automated certain configuration steps needed to connect your on-premises SharePoint Server environment with SharePoint in Microsoft 365 for Cloud hybrid search. [Learn more](./configure-cloud-hybrid-searchroadmap.md).
 
 ***What is hybrid federated search and how is it different from Cloud hybrid search?***
 
@@ -50,7 +50,7 @@ Hybrid infrastructure setup (server to server (S2S) authentication) is a must fo
 
 **Outbound**: In an outbound scenario, a remote result source will only be configured in the on-premises SharePoint Server farm. Outbound can be defined as the ability to only query from the on-premises farm to SharePoint in Microsoft 365 search farm. Results appear in the on-premises search center in separate search verticals (one for SharePoint in Microsoft 365 results, another for SharePoint on-premises). If outbound is configured, then querying from SharePoint in Microsoft 365 search center will not return any search results from the on-premises SharePoint Server farm.
 
-**Inbound**: In an inbound scenario, a remote result source will only be configured in the SharePoint in Microsoft 365 search center. Inbound can be defined as the ability to query only from SharePoint in Microsoft 365 farm to on-premises farm. Results appear in the SharePoint in Microsoft 365 search center in separate search verticals (one for SharePoint in Microsoft 365 results, another for SharePoint on-premises). There are additional certificate and reverse proxy requirements in addition to the outbound configurations mentioned above. This is outlined in steps 3 and 5 of the [Configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server - roadmap](https://docs.microsoft.com/SharePoint/hybrid/configure-hybrid-federated-search-sharepoint-onlineroadmap) article.
+**Inbound**: In an inbound scenario, a remote result source will only be configured in the SharePoint in Microsoft 365 search center. Inbound can be defined as the ability to query only from SharePoint in Microsoft 365 farm to on-premises farm. Results appear in the SharePoint in Microsoft 365 search center in separate search verticals (one for SharePoint in Microsoft 365 results, another for SharePoint on-premises). There are additional certificate and reverse proxy requirements in addition to the outbound configurations mentioned above. This is outlined in steps 3 and 5 of the [Configure hybrid federated search from SharePoint in Microsoft 365 to SharePoint Server - roadmap](./configure-hybrid-federated-search-sharepoint-onlineroadmap.md) article.
 
 **Two way**: A combination of the above two (outbound and inbound) is a two way hybrid federated search. Two way is typically the desired state of hybrid federated search deployment in an organization, where result sources are created in both SharePoint in Microsoft 365 as well as SharePoint Server farm. When queried from either of the search centers, users see a set of search verticals with results from SharePoint in Microsoft 365 and another from on-premises SharePoint Server farm.
 
@@ -68,7 +68,7 @@ In hybrid federated search, the reverse proxy must be able to:
 
 - Relay traffic to an on-premises SharePoint Server farm or load balancer without rewriting any packet headers.
 
-[Configure a reverse proxy device for SharePoint Server hybrid](https://docs.microsoft.com/SharePoint/hybrid/configure-a-reverse-proxy-device-for-sharepoint-server-hybrid) article outlines the tested reverse proxy solutions.
+[Configure a reverse proxy device for SharePoint Server hybrid](./configure-a-reverse-proxy-device-for-sharepoint-server-hybrid.md) article outlines the tested reverse proxy solutions.
 
 ***When should I deploy Cloud hybrid search or hybrid federated search?  Are there any recommendations ?***
 
@@ -133,11 +133,11 @@ Therefore, it's recommended that at least one of these user attributes must be c
 
 ***What is the List of attributes that are synced by the Azure Active Directory Sync tool***
 
-The article [here](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized) has the list of attributes that are synchronized out of the box by the Azure Active Directory Sync tool.
+The article [here](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized) has the list of attributes that are synchronized out of the box by the Azure Active Directory Sync tool.
 
 ***Search service application in my on-premises SharePoint Server 2013/2016 farm is partitioned. Can I configure hybrid query federation?***
 
-Microsoft 365 doesn't support incoming hybrid search queries when the on-premises Search Service Application Proxy is deployed in partitioned mode. Outbound search fails when the Search Service Application or the proxy is partitioned. This is because the search query passes a partitionID (tenantID) to the search query processor, which fails because this is a GUID and therefore unique. The unique partitionID will not be found in the Microsoft 365 search index and so no search query can be scoped to that ID. Security trimming will not allow results from one ID to be passed to another ID. Search admins need to fix/rebuild their Service Application to be fully supported. This [hybrid deployment troubleshooting article](https://docs.microsoft.com/sharepoint/support/search/online-content-not-displayed-in-on-premises-search) describes the errors and some workarounds.
+Microsoft 365 doesn't support incoming hybrid search queries when the on-premises Search Service Application Proxy is deployed in partitioned mode. Outbound search fails when the Search Service Application or the proxy is partitioned. This is because the search query passes a partitionID (tenantID) to the search query processor, which fails because this is a GUID and therefore unique. The unique partitionID will not be found in the Microsoft 365 search index and so no search query can be scoped to that ID. Security trimming will not allow results from one ID to be passed to another ID. Search admins need to fix/rebuild their Service Application to be fully supported. This [hybrid deployment troubleshooting article](/sharepoint/support/search/online-content-not-displayed-in-on-premises-search) describes the errors and some workarounds.
 
 ***What content sources can you crawl using Cloud hybrid search service application?***
 
@@ -145,7 +145,7 @@ All SharePoint Server content sources are supported.
 
 ***My SharePoint in Microsoft 365 topology consists of multiple SharePoint farms (for example, Content farm, Service Farm). What is the preferred farm to configure Cloud hybrid search service application?***
 
-In a content/service SharePoint in Microsoft 365 scenario, assuming Search is in the service farm, Cloud SSA should ideally be configured in the service farm. For implementation details, see [Share service applications across farms in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/share-service-applications-across-farms).
+In a content/service SharePoint in Microsoft 365 scenario, assuming Search is in the service farm, Cloud SSA should ideally be configured in the service farm. For implementation details, see [Share service applications across farms in SharePoint Server](../administration/share-service-applications-across-farms.md).
 
 ***Is single sign-on mandatory to configure server-to-server authentication or Cloud hybrid search service application?***
 
@@ -182,7 +182,7 @@ The following are documented and supported topologies:
 
 - [Configure rich document collaboration using Exchange Server 2016, Office Online Server (OOS) and SharePoint Server](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/Configure-rich-document-collaboration-using-Exchange-Server-2016/ba-p/606021)
 
-- [Configure document collaboration with OneDrive and Exchange 2016 on-premises](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-document-collaboration)
+- [Configure document collaboration with OneDrive and Exchange 2016 on-premises](/exchange/hybrid-deployment/set-up-document-collaboration)
 
 - Exchange Online + SharePoint in Microsoft 365.
 
@@ -190,7 +190,7 @@ The following are documented and supported topologies:
 
 Cloud hybrid search service application works in an environment that has multiple forests. You need to ensure that the accounts across these forests are synched to Microsoft 365. Azure AD Connect sync should take care of this situation. When you have multiple forests, all forests must be reachable by a single Azure AD Connect sync server. You don't have to join the server to a domain. If necessary, to reach all forests, you can place the server in a perimeter network. The articles below discuss this configuration.
 
-- [Topologies for Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
+- [Topologies for Azure AD Connect](/azure/active-directory/hybrid/plan-connect-topologies)
 
 - [Implement-support-for-multiple-forests](https://support.office.com/article/73c4a525-f6c4-434c-8409-0121a83ab26b)
 
@@ -206,7 +206,7 @@ This question primarily revolves around the following use cases:
 
 - You have a SharePoint Server farm that already has provider-hosted add-ins and/or leverages workflow manager.
 
-Hybrid features/Cloud search service application can be implemented on same SharePoint farm as mentioned above. When you try to establish a S2S trust via the Cloud SSA onboarding script or Hybrid picker, the authentication realm of the on-premises Farm is updated to match the Microsoft 365 organization context id. Within the script, we set it using [Set-SPAuthenticationRealm](https://docs.microsoft.com/powershell/module/sharepoint-server/set-spauthenticationrealm). Once the authentication realm is changed, existing SharePoint Add-ins fail to authenticate; users will get a HTTP 401 when they are redirected to the add-ins. You can read more about the problem as well and fix in the article [Provider-hosted add-ins stop working and HTTP 401 error after you configure SharePoint farm hybrid features](https://docs.microsoft.com/sharepoint/support/administration/provider-hosted-add-ins-stop-working-and-http-401-error-after-configure-farm-hybrid-features).
+Hybrid features/Cloud search service application can be implemented on same SharePoint farm as mentioned above. When you try to establish a S2S trust via the Cloud SSA onboarding script or Hybrid picker, the authentication realm of the on-premises Farm is updated to match the Microsoft 365 organization context id. Within the script, we set it using [Set-SPAuthenticationRealm](/powershell/module/sharepoint-server/set-spauthenticationrealm). Once the authentication realm is changed, existing SharePoint Add-ins fail to authenticate; users will get a HTTP 401 when they are redirected to the add-ins. You can read more about the problem as well and fix in the article [Provider-hosted add-ins stop working and HTTP 401 error after you configure SharePoint farm hybrid features](/sharepoint/support/administration/provider-hosted-add-ins-stop-working-and-http-401-error-after-configure-farm-hybrid-features).
 
 > [!NOTE]
 > If you configure hybrid using Hybrid picker in the SharePoint admin center, then the wizard takes care of the fix.
@@ -222,7 +222,7 @@ SharePoint Server Search Crawler:Azure Plugin ayg2m High AzureServiceProxy::Subm
 
 If Cloud search service application is hosted in a SharePoint Server 2013 environment, the uls tag tracking the error would be `amnz2` and `amoeu`.
 
-You need to request an increase in the available quota to fix the issue. To increase the maximum items that can be indexed beyond 20 million, you need to contact Microsoft Support via the [Microsoft 365 admin center](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+You need to request an increase in the available quota to fix the issue. To increase the maximum items that can be indexed beyond 20 million, you need to contact Microsoft Support via the [Microsoft 365 admin center](/office365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 
 ***My Microsoft 365 organization is configured for hybrid. Can I query for only on-premises items that have been crawled using Cloud hybrid search service application?***
 
@@ -263,7 +263,7 @@ To utilize the Microsoft 365 profile store as the primary people search source, 
 
 ***I only see preview of Office documents in search results if the content resides in SharePoint in Microsoft 365. Office documents that reside in SharePoint on-premises do not show previews. Is this expected?***
 
-To enable previews for on-premises content, you need to set up an on-premises Office Web Apps Server (SharePoint Server 2013 only) or Office Online Server (SharePoint Server 2013 and higher) and configure SharePoint Server to use it. The guidelines are documented [here](https://docs.microsoft.com/SharePoint/hybrid/enable-previews-of-on-premises-search-results-in-cloud-hybrid-search). The behavior is a little different with site/webpage previews (aspx). When searching from SharePoint in Microsoft 365, previews appear of aspx pages for the pages in SharePoint in Microsoft 365 farm and not for the aspx pages from SharePoint Server. Currently, the site and web page hover templates check that the result item has the same host name as the current host. This is by design.
+To enable previews for on-premises content, you need to set up an on-premises Office Web Apps Server (SharePoint Server 2013 only) or Office Online Server (SharePoint Server 2013 and higher) and configure SharePoint Server to use it. The guidelines are documented [here](./enable-previews-of-on-premises-search-results-in-cloud-hybrid-search.md). The behavior is a little different with site/webpage previews (aspx). When searching from SharePoint in Microsoft 365, previews appear of aspx pages for the pages in SharePoint in Microsoft 365 farm and not for the aspx pages from SharePoint Server. Currently, the site and web page hover templates check that the result item has the same host name as the current host. This is by design.
 
 ***Can Perfmon be leveraged to look at crawl statistics for Cloud hybrid search service application? If yes, what are the Perfmon counters?***
 
@@ -273,7 +273,7 @@ There are perfmon counters that have been introduced for Cloud hybrid search ser
 
 ***What is the recommended number of crawl databases for Cloud hybrid search service application?***
 
-Use one crawl database for each 20 million items in the content corpus. For more info, see this [article](https://docs.microsoft.com/SharePoint/search/redesign-for-specific-performance-requirements?redirectedfrom=MSDN#how-to-handle-more-items-in-the-index).
+Use one crawl database for each 20 million items in the content corpus. For more info, see this [article](../search/redesign-for-specific-performance-requirements.md#how-to-handle-more-items-in-the-index).
 
 ***I am using Cloud hybrid search service application to crawl content. In my Cloud SSA, I see all 6 components of the search topology. Which ones are hosted locally? For example, is there a local index?***
 
@@ -295,7 +295,7 @@ From Cloud hybrid search service application farm's ULS logs, you can track the 
 
 Search architecture for Cloud hybrid search service application consists of search components and databases. Ideally, you need to plan the number of crawl components for your topology, which servers to host the components and databases on, and the hardware required for each server. When you set up a Cloud hybrid search service application, all components of the search service application are set up and need to be online.
 
-The grey components as shown in this [TechNet](https://docs.microsoft.com/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint?redirectedfrom=MSDN#step-2-what-size-cloud-search-architecture-do-i-need) article are inactive in Cloud hybrid search, but they still need to be placed on servers as recommended in the article.
+The grey components as shown in this [TechNet](./plan-cloud-hybrid-search-for-sharepoint.md#step-2-what-size-cloud-search-architecture-do-i-need) article are inactive in Cloud hybrid search, but they still need to be placed on servers as recommended in the article.
 
 | Application Server            | Database Server    |
 | ----------------------------- | ------------------ |
@@ -306,7 +306,7 @@ The grey components as shown in this [TechNet](https://docs.microsoft.com/ShareP
 | Index                         |                    |
 | Query Processing component    |                    |
 
-Deploying additional crawlers will provide high availability for the crawler function. Adding query processors will also provide high availability when the on-premises farm is configured to send search queries to Microsoft 365. Content processing is performed in the Microsoft 365 service, so there is no requirement for additional content processors on-premises. Regardless of the number of items crawled by the Cloud Search Service Application, there is no requirement for additional index components. The index is stored in the Microsoft 365 search farms, which saves a significant amount of on-premises capacity and capital outlay for large corpora. You must scale the on-premises crawl databases to match the number of items crawled because the Cloud Search Service Application must maintain an up-to-date crawl log of the items crawled. Scaling-out employs the same processes as a regular Search Service Application; follow the steps at [Change the default search topology in SharePoint Server](https://docs.microsoft.com/SharePoint/search/change-the-default-search-topology#Topology_ExampleDefaultSmall). If you need to tune crawling, follow the recommendation in [Redesign enterprise search topology for specific performance requirements in SharePoint 2016](https://docs.microsoft.com/SharePoint/search/redesign-for-specific-performance-requirements). The same guidelines apply for Cloud hybrid search service application.
+Deploying additional crawlers will provide high availability for the crawler function. Adding query processors will also provide high availability when the on-premises farm is configured to send search queries to Microsoft 365. Content processing is performed in the Microsoft 365 service, so there is no requirement for additional content processors on-premises. Regardless of the number of items crawled by the Cloud Search Service Application, there is no requirement for additional index components. The index is stored in the Microsoft 365 search farms, which saves a significant amount of on-premises capacity and capital outlay for large corpora. You must scale the on-premises crawl databases to match the number of items crawled because the Cloud Search Service Application must maintain an up-to-date crawl log of the items crawled. Scaling-out employs the same processes as a regular Search Service Application; follow the steps at [Change the default search topology in SharePoint Server](../search/change-the-default-search-topology.md#Topology_ExampleDefaultSmall). If you need to tune crawling, follow the recommendation in [Redesign enterprise search topology for specific performance requirements in SharePoint 2016](../search/redesign-for-specific-performance-requirements.md). The same guidelines apply for Cloud hybrid search service application.
 
 ***What are the Highly Available (HA) and Disaster Recovery (DR) recommendations for Cloud hybrid search service application?***
 
@@ -332,7 +332,7 @@ Popularity trends works based out of analytics. Usage Analytics reporting isn't 
 
 ***Cloud hybrid search service application is crawling a SharePoint farm that has http:// prefix in the default zone, extranet zone is https://. Query from SharePoint in Microsoft 365 ends up showing http in the search result is this expected behavior?***
 
-Yes, this is expected. Users will see http:// prefix in the search results. As my friend Brian explains it very nicely [here](https://blogs.msdn.microsoft.com/sharepoint_strategery/2013/02/20/beware-crawling-the-non-default-zone-for-a-sharepoint-2013-web-application/), SharePoint Server URL-related managed properties including Path, ParentURL and SPSiteUrl all store values relative to the URL that was crawled. The crawler simply passes what it can gather to the Search Content Services in the cloud. SharePoint in Microsoft 365 search has no knowledge of the Alternate Access Mappings on your on-premises farm and so is unable to correctly set the mappings you would expect to see. Thus, it's recommended to crawl the Default zone for a SharePoint Server Web Application.
+Yes, this is expected. Users will see http:// prefix in the search results. As my friend Brian explains it very nicely [here](/archive/blogs/sharepoint_strategery/beware-crawling-the-non-default-zone-for-a-sharepoint-2013-web-application), SharePoint Server URL-related managed properties including Path, ParentURL and SPSiteUrl all store values relative to the URL that was crawled. The crawler simply passes what it can gather to the Search Content Services in the cloud. SharePoint in Microsoft 365 search has no knowledge of the Alternate Access Mappings on your on-premises farm and so is unable to correctly set the mappings you would expect to see. Thus, it's recommended to crawl the Default zone for a SharePoint Server Web Application.
 
 ***Cloud search service application is crawling my on-premises content. Can I remove on-premises items from SharePoint in Microsoft 365?***
 
@@ -340,21 +340,21 @@ The "URLs to remove" option within SharePoint admin center (https://\<tenantname
 
 ***Can I run Cloud hybrid search Onboarding script when multifactor authentication (MFA)is enabled in my tenant?***
 
-Yes, you need to ensure you have the latest version of Azure AD PowerShell. You can download it from [here](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+Yes, you need to ensure you have the latest version of Azure AD PowerShell. You can download it from [here](/powershell/azure/active-directory/install-adv2).
 
 ***What are the firewall ports and protocols requirement to configure Cloud hybrid search service application?***
 
 The following articles outline the complete infrastructure firewall requirement for end-to-end connectivity with Microsoft 365. The first blog below talks about Cloud search service application specific ports and protocols.
 
-[Ports and Protocols requirement for the Hybrid Cloud Search Service Application](https://blogs.technet.microsoft.com/beyondsharepoint/2016/08/15/ports-and-protocols-requirement-for-the-hybrid-cloud-search-service-application/)
+[Ports and Protocols requirement for the Hybrid Cloud Search Service Application](/archive/blogs/beyondsharepoint/ports-and-protocols-requirement-for-the-hybrid-cloud-search-service-application)
 
-[Microsoft 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+[Microsoft 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)
 
-[Hybrid Identity Required Ports and Protocols](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports)
+[Hybrid Identity Required Ports and Protocols](/azure/active-directory/hybrid/reference-connect-ports)
 
 ***All Outbound requests in my network are filtered or get routed via proxy server. Is there any specific requirement Cloud hybrid search service application to work?***
 
-You need to ensure that account running the search service (msssearch, noderunner accounts) (for crawl and Query federation scenarios to work) in the Cloud Search Service Application farm have unrestricted outbound internet access. If not, set system level proxy settings for these search service accounts. You can follow the steps documented in our post [here](https://blogs.technet.microsoft.com/beyondsharepoint/2017/10/17/cloud-search-service-applications-fails-to-crawl-and-throws-403-forbidden-error/).
+You need to ensure that account running the search service (msssearch, noderunner accounts) (for crawl and Query federation scenarios to work) in the Cloud Search Service Application farm have unrestricted outbound internet access. If not, set system level proxy settings for these search service accounts. You can follow the steps documented in our post [here](/archive/blogs/beyondsharepoint/cloud-search-service-applications-fails-to-crawl-and-throws-403-forbidden-error).
 
 Cloud search service application always communicates with endpoints using port 443. Assuming there are multiple SharePoint servers in a farm that hosts Cloud search service application components, all SharePoint servers need to communicate to the following sites.
 
@@ -379,7 +379,7 @@ If there are dedicated Search servers in the farm topology they should be able t
 4. \*.search.production.apac.trafficmanager.net
 
 > [!NOTE]
-> The cloud hybrid search service application environment requires additional endpoint (CA and CRL) URLs be added to the allowlist as outlined in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges). The certification authorities and CRL URLs mentioned in the article within Microsoft 365 Common and Office Online section(point 125) must be added to the allowlist. This is required by on-premises servers to establish SSL connections to Azure and validate new intermediate certificates.
+> The cloud hybrid search service application environment requires additional endpoint (CA and CRL) URLs be added to the allowlist as outlined in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). The certification authorities and CRL URLs mentioned in the article within Microsoft 365 Common and Office Online section(point 125) must be added to the allowlist. This is required by on-premises servers to establish SSL connections to Azure and validate new intermediate certificates.
 
 ***Where can I download Cloud hybrid search service application onboarding script?***
 
@@ -387,11 +387,11 @@ The latest version of Windows PowerShell scripts to configure Cloud hybrid searc
 
 ***Is Cloud hybrid search service application onboarding supported for Government community cloud (GCC) & Office 365 operated by 21Vianet.***
 
-Yes, you can refer to our [post](https://blogs.technet.microsoft.com/beyondsharepoint/2017/06/30/announcing-hybrid-search-availability-for-office-365-us-government-communication-and-office-365-operated-by-21vianet/) for details.
+Yes, you can refer to our [post](/archive/blogs/beyondsharepoint/announcing-hybrid-search-availability-for-office-365-us-government-communication-and-office-365-operated-by-21vianet) for details.
 
 ***Is it possible to perform an index reset and cleanup just the content that has been crawled via Cloud hybrid search service application?***
 
-Yes, you can follow the steps outlined in this [blog](https://blogs.msdn.microsoft.com/spses/2016/05/18/cloud-search-service-application-removing-items-from-the-office-365-search-index/) article.
+Yes, you can follow the steps outlined in this [blog](/archive/blogs/spses/cloud-search-service-application-removing-items-from-the-office-365-search-index) article.
 
 ***Is there a forum where I can discuss and ask questions regarding issues with Cloud hybrid search?***
 
@@ -399,4 +399,4 @@ Yes, you can submit your questions regarding Cloud search service application at
 
 ***Are there any eBook available to configure SharePoint hybrid capabilities?***
 
-Yes, you can download the eBook [Configuring Microsoft SharePoint hybrid capabilities (ISBN 9781509302437)](https://blogs.msdn.microsoft.com/microsoft_press/2016/07/06/free-ebook-configuring-microsoft-sharepoint-hybrid-capabilities/).
+Yes, you can download the eBook [Configuring Microsoft SharePoint hybrid capabilities (ISBN 9781509302437)](/archive/blogs/microsoft_press/free-ebook-configuring-microsoft-sharepoint-hybrid-capabilities).

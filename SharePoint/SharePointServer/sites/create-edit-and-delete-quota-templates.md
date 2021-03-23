@@ -236,7 +236,7 @@ Use these procedures to change the storage limits for a site collection.
   
     For more information, see [Set-SPSite](/powershell/module/sharepoint-server/set-spsite?view=sharepoint-ps).
     
-    For information about how to use PowerShell and the SharePoint object model to set the maximum usage per day and the warning level threshold for sandboxed solutions, see "Using Windows PowerShell for Administration" in [Chapter 4: Sandboxed Solutions](https://go.microsoft.com/fwlink/p/?LinkId=219528), an excerpt from the book  *Inside Microsoft SharePoint 2010*  on MSDN. 
+    For information about how to use PowerShell and the SharePoint object model to set the maximum usage per day and the warning level threshold for sandboxed solutions, see "Using Windows PowerShell for Administration" in [Chapter 4: Sandboxed Solutions](/previous-versions/office/developer/sharepoint-2010/ff872402(v=office.14)), an excerpt from the book  *Inside Microsoft SharePoint 2010*  on MSDN. 
     
 ## See also
 <a name="Section6"> </a>
@@ -246,4 +246,3 @@ Use these procedures to change the storage limits for a site collection.
 [Create a site collection in SharePoint Server](create-a-site-collection.md)
   
 [Manage the lock status for site collections in SharePoint Server](manage-the-lock-status-for-site-collections.md)
-

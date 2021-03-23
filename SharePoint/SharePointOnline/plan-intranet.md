@@ -71,11 +71,11 @@ With the end in mind, it can also be helpful to create [personas](https://www.nn
 
 If your users complain that search is not successful because too much irrelevant content is discovered, this can indicate a governance problem. Before you think about your new intranet project, think about how you will govern the architecture and the content. These are decisions that are a lot easier to make and enforce if they are decided early in your intranet project. For example, you will want to think about:
 
-- Who can provision new sites and when they are provisioned, what is the process to ensure that sites are discovered in navigation or as key [bookmarks](https://docs.microsoft.com/microsoftsearch/make-content-easy-to-find#bookmarks) in search?
+- Who can provision new sites and when they are provisioned, what is the process to ensure that sites are discovered in navigation or as key [bookmarks](/microsoftsearch/make-content-easy-to-find#bookmarks) in search?
 - Do you want all sites to follow a similar pattern so that users can easily find key content as they move from site to site?
 - Who is accountable and responsible for the content on sites? How often does content need to be reviewed?
 - Is content management for intranet sites in the performance goals or job descriptions for people with edit or owner permissions?
-- Does intranet content need to be [retained](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) based on your retention policies or [classified](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) based on its sensitivity?
+- Does intranet content need to be [retained](/microsoft-365/compliance/retention-policies) based on your retention policies or [classified](/microsoft-365/compliance/sensitivity-labels) based on its sensitivity?
 
 You do not need to make every governance decision up front, but if you don’t have a plan for how you will govern your new, intelligent intranet, it can quickly become a wasteland of information that fails to achieve your critical business goals.
 
@@ -163,9 +163,9 @@ SharePoint offers a variety of building blocks that you can use to create an int
 - **[Home site](home-site.md)** - A home site is a communication site that you set as the intranet landing page for your organization.
 - **[Hub sites](planning-hub-sites.md)** - Use hub sites to organize related sites and teams and centralize news, search, and content management.
 - **[SharePoint news](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165)** - Use the news web part to post important or interesting stories, announcements, people news, status updates, and more that can include graphics and rich formatting.
-- **[Yammer](https://docs.microsoft.com/yammer/yammer-landing-page)** - Use Yammer to connect with people across your organization beyond the boundaries of projects, functions, and departments.
-- **[Forms](https://docs.microsoft.com/forms-pro)** - Use forms to create custom quizzes, surveys, questionnaires, registrations, and more.
-- **[Stream](https://docs.microsoft.com/stream)** - Use Stream to deliver live and on-demand meetings, events, and training.
+- **[Yammer](/yammer/yammer-landing-page)** - Use Yammer to connect with people across your organization beyond the boundaries of projects, functions, and departments.
+- **[Forms](/forms-pro)** - Use forms to create custom quizzes, surveys, questionnaires, registrations, and more.
+- **[Stream](/stream)** - Use Stream to deliver live and on-demand meetings, events, and training.
 
 For the scenario that you've decided to build, choose the components that you'll need to use to meet the site's business objectives. We recommend creating a rapid prototype, and granting access to your key stakeholders. This provides a substantive framework for further discussions and revisions of the design.
 

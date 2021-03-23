@@ -26,6 +26,4 @@ Some sites in an enterprise probably contain content that should not be availabl
   
 Permissions control access to sites and site content. You can manage permissions by using SharePoint groups, which control membership. Fine-grained permissions also help to secure content at the item and document level.
 
-The following articles about how to plan security for sites and content are available here, [Get help with permissions in SharePoint](/sharepoint/understanding-permission-levels).
-  
-
+The following articles about how to plan security for sites and content are available here, [Get help with permissions in SharePoint](../../SharePointOnline/understanding-permission-levels.md).

@@ -76,7 +76,7 @@ Research has shown Pre-onboarding new hires, after they sign their acceptance le
 3.	**New employee departmental onboarding site:** A place for new hires to visit to learn more about the department they are joining, its people, culture, and priorities. The Departmental onboarding site can be associated to an existing departmental hub.
 
 > [!NOTE]
-> To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of **three different SharePoint site templates**, that are designed to work alone or as one cohesive and familiar experience for new hires. Sites must be provisioned individually, and then can be configured to [create a hub](https://docs.microsoft.com/sharepoint/create-hub-site) or [add a site to an existing hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05#:~:text=Associate%20a%20SharePoint%20site%20with%20a%20hub%20site.,to%20your%20site.%20You%20can%20...%20More%20items).
+> To deliver a flexible and consistent new hire onboarding experience the NEO sites consists of **three different SharePoint site templates**, that are designed to work alone or as one cohesive and familiar experience for new hires. Sites must be provisioned individually, and then can be configured to [create a hub](./create-hub-site.md) or [add a site to an existing hub](https://support.microsoft.com/office/associate-a-sharepoint-site-with-a-hub-site-ae0009fd-af04-4d3d-917d-88edb43efc05#:~:text=Associate%20a%20SharePoint%20site%20with%20a%20hub%20site.,to%20your%20site.%20You%20can%20...%20More%20items).
 > You must have site collection administrator permissions or higher to provision the New employee on baording sites.
 
 
@@ -85,7 +85,7 @@ The New Employee Onboarding (NEO) sites can be provisioned from the [SharePoint 
 
 
 ### Prerequisites
-To successfully provision the NEO sites via the SharePoint look book, the person doing the provisioning must be a site collection admin of the tenant where ta NEO site(s) will be provisioned. If you have never provisioned a template from the Look book, [review overview guidance](https://docs.microsoft.com/sharepoint/add-sample-site). 
+To successfully provision the NEO sites via the SharePoint look book, the person doing the provisioning must be a site collection admin of the tenant where ta NEO site(s) will be provisioned. If you have never provisioned a template from the Look book, [review overview guidance](./add-sample-site.md). 
 
 
 ### Provision the NEO sites
@@ -148,7 +148,7 @@ It’s important to make sure the right content is available to users at the rig
 1.	**New employee pre-Onboarding site:** A site for new hires, who have yet to officially join the company, to learn more about the company they have joined and to get ready for their official start date. External guest access can be used for pre-start hires who don't already have corporate credentials to give them access to the Pre-onboarding site only. 
 
 > [!IMPORTANT]
-> Enable external sharing for the Pre-onboarding site. The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](https://docs.microsoft.com/sharepoint/change-external-sharing-site?branch=hokavian-neo-sites) for the Pre-onboarding site.  
+> Enable external sharing for the Pre-onboarding site. The Pre-onboarding site is intended to be shared with new hires as soon as they sign their offer letter, but before they start their first day at work. Therefore, this site needs to be shared with external users. External sharing is off by default for SharePoint communication sites. In order for site owners to share externally, [turn on external sharing](./change-external-sharing-site.md?branch=hokavian-neo-sites) for the Pre-onboarding site.  
 
 2.	**New employee corporate onboarding site:** A place for new hires to visit to get the information and connections they need to successfully onboard to the organization. 
 
@@ -209,7 +209,7 @@ The corporate onboarding site is the landing place for the new employee onboardi
 
  
 ##### Pre-populated site contents:
-- **Home page** – Provide a high-level view of significant concepts that will be relevant to new users. This page is a great location to help new employees build their network and learn from more experienced and knowledgeable employees with [Microsoft Teams live events](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events#:~:text=Microsoft%20365%20live%20events%20bring%20live%20video%20streaming,community%20resides%2C%20using%20Microsoft%20Stream%2C%20Teams%2C%20or%20Yammer.)
+- **Home page** – Provide a high-level view of significant concepts that will be relevant to new users. This page is a great location to help new employees build their network and learn from more experienced and knowledgeable employees with [Microsoft Teams live events](/microsoftteams/teams-live-events/what-are-teams-live-events#:~:text=Microsoft%20365%20live%20events%20bring%20live%20video%20streaming,community%20resides%2C%20using%20Microsoft%20Stream%2C%20Teams%2C%20or%20Yammer.)
 - **Start here** – Specify what new hires should do in their first 30, 60, and 90 days of onboarding by creating an onboarding process in on the Start your journey here page. The new hire checklist found in this section comes pre-populated with a set of generic onboarding activities. Customize list content to meet your needs. [Learn more about working with SharePoint lists](https://support.microsoft.com/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7).
 - **Who we are** – Introduce users to more detail about the organization in the Our story, Our leadership, Our teams pages. Customize these pages and the Office locations page for your organization. Or, link to an existing leadership page instead.
 - **Help & Support** - Highlight where to go for support and customize questions and answers for the FAQ page.
@@ -283,7 +283,7 @@ After customizing content, get ready to share the new onboarding experience with
 ### Share the Pre-onboarding site 
 
 > [!NOTE]
-> If you are unable to add visitors (external users, also referred to as guests) to the pre-boarding site, work with your SharePoint administrator to [turn on external sharing for a SharePoint site](https://docs.microsoft.com/sharepoint/change-external-sharing-site). 
+> If you are unable to add visitors (external users, also referred to as guests) to the pre-boarding site, work with your SharePoint administrator to [turn on external sharing for a SharePoint site](./change-external-sharing-site.md). 
 
 As a site owner, you can give external people access to the site by adding them as a **visitor**.
 

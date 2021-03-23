@@ -45,7 +45,7 @@ Before you upgrade the service applications, review the following info and take 
 > Throughout this article, variables (such as $applicationPool, $sss, $upa, and so on) are used in the PowerShell cmdlets to save time and effort. You do not have to use these variables if you would prefer not to. However, if you do not use these variables, you must use IDs for the service applications and service application proxies when you specify the **identity** parameters. Each procedure has info about the variables used, or the alternate cmdlets to use to look up any IDs that are required. Also, many procedures in this article include a step to set the $applicationPool variable. If you are performing all of these procedures in the same session of PowerShell, and you want to use the same application pool for all service applications, you do not have to repeat this step in each procedure. Instead, you can set this variable once at the beginning and use it throughout the procedures in this article. 
   
 > [!NOTE]
-> For any Managed Properties in the SharePoint 2013 schema that are introduced in the SharePoint Server 2016 schema, prior to upgrading you must rename that Managed Property. For example, if you have created a Managed Property named **SPWebURL**, rename it to **SPWebURL1** prior to the SharePoint Server 2016 upgrade. You may change the custom Managed Property name back to the original value (that is, rename **SPWebURL1** to **SPWebURL**) after the upgrade has successfully completed. For a list of Managed Properties introduced in SharePoint Server 2016, see [Managed Properties Added in SharePoint Server 2016](https://docs.microsoft.com/sharepoint/technical-reference/crawled-and-managed-properties-overview#managed-properties-added-in-sharepoint-server-2016).
+> For any Managed Properties in the SharePoint 2013 schema that are introduced in the SharePoint Server 2016 schema, prior to upgrading you must rename that Managed Property. For example, if you have created a Managed Property named **SPWebURL**, rename it to **SPWebURL1** prior to the SharePoint Server 2016 upgrade. You may change the custom Managed Property name back to the original value (that is, rename **SPWebURL1** to **SPWebURL**) after the upgrade has successfully completed. For a list of Managed Properties introduced in SharePoint Server 2016, see [Managed Properties Added in SharePoint Server 2016](../technical-reference/crawled-and-managed-properties-overview.md#managed-properties-added-in-sharepoint-server-2016).
   
 ## About upgrading the service application databases
 <a name="UpgradeServicesDBs"> </a>
@@ -101,7 +101,7 @@ The following procedures start the service instances.
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Central Administration**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 2. In SharePoint 2016 Central Administration, on the **Application Management** page, in the **Service Applications** section, select **Manage Services on Server**.
     
@@ -140,7 +140,7 @@ The Search service instance must be started by using PowerShell because you cann
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. To start the Search service instance, at the Microsoft PowerShell command prompt, type the following commands and press **ENTER** after each one: 
     
@@ -186,7 +186,7 @@ To upgrade the Secure Store service application, you create the new service appl
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    For more info about how to interact with Windows Server 2012 R2Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -291,7 +291,7 @@ To upgrade the Business Data Connectivity service application, you create the ne
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -354,7 +354,7 @@ To upgrade the Managed Metadata service application, you create the new service 
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -438,7 +438,7 @@ To upgrade the PerformancePoint Services service application, you create the new
     
   - Right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -529,7 +529,7 @@ To upgrade the User Profile service application, you copy the Profile and Social
             
         If **SharePoint Management Shell** is not on the **Start** screen, right-click **Computer**, select **All apps**, and then select **SharePoint Management Shell**.
            
-        For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+        For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
     - Set the User Profile databases to read-only. In the second phase of the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016, you set all the other databases to read-only.   
     
@@ -557,7 +557,7 @@ To upgrade the User Profile service application, you copy the Profile and Social
             
      If **SharePoint Management Shell** is not on the **Start** screen, right-click **Computer**, select **All apps**, and then select **SharePoint Management Shell**.
           
-     For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+     For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 4. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -655,7 +655,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
 > During this upgrade, search doesn't crawl content in your SharePoint Server 2013 with Service Pack 1 (SP1). If freshness of search results is important, save time by familiarizing yourself with these steps before starting the upgrade. 
   
 > [!IMPORTANT]
-> Because the search topology in the SharePoint Server 2016 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](/SharePoint/upgrade-and-update/upgrade-content-databases) (the fourth phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016). 
+> Because the search topology in the SharePoint Server 2016 farm is new, the index is empty. You have to perform a full crawl of the entire indexed corpus after you have [upgraded all content sources](./upgrade-content-databases.md) (the fourth phase in the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016). 
   
  **To upgrade the Search service application by using PowerShell**
   
@@ -689,9 +689,9 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
         If **SharePoint Management Shell** is not on the **Start** screen, right-click **Computer**, select **All apps**, and then select **SharePoint Management Shell**.
           
        
-        For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+        For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
-    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016, you set all the other databases to read-only. Follow [the same instructions](/SharePoint/upgrade-and-update/copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016) now for the Search Administration database.         
+    - Set the Search Administration database to read-only. In the second phase of the process to upgrade SharePoint Server 2013 with Service Pack 1 (SP1) data and sites to SharePoint Server 2016, you set all the other databases to read-only. Follow [the same instructions](./copy-databases-to-the-new-farm-for-upgrade-to-sharepoint-server-2016.md) now for the Search Administration database.         
     
     - Pause the Search service application. At the Windows PowerShell command prompt, type the following command:
 
@@ -732,7 +732,7 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
      If **SharePoint Management Shell** is not on the **Start** screen, right-click **Computer**, select **All apps**, and then select **SharePoint Management Shell**.
           
        
-     For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+     For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 4. To store the application pool that you want to use as a variable for this service application, at the Microsoft PowerShell command prompt, type the following command:
     
@@ -835,11 +835,11 @@ SharePoint Server 2016 normally creates a new search topology with all the searc
     
 8. (Optional) Preserve search relevance settings from the SharePoint Server 2013 with Service Pack 1 (SP1) farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2013 with Service Pack 1 (SP1) farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2013 with Service Pack 1 (SP1) farm and attach it to the new Search service application in the SharePoint Server 2016 farm:
     
-      - In the SharePoint Server 2013 with Service Pack 1 (SP1) farm, [backup](/SharePoint/administration/move-or-rename-service-application-databases#steps-to-move-or-rename-the-search-service-application-databases) the Analytics Reporting database. 
+      - In the SharePoint Server 2013 with Service Pack 1 (SP1) farm, [backup](../administration/move-or-rename-service-application-databases.md#steps-to-move-or-rename-the-search-service-application-databases) the Analytics Reporting database. 
         
-      - In the SharePoint Server 2016 farm, [restore the backed up database](/SharePoint/administration/move-or-rename-service-application-databases#steps-to-move-or-rename-the-search-service-application-databases) to the new database server. 
+      - In the SharePoint Server 2016 farm, [restore the backed up database](../administration/move-or-rename-service-application-databases.md#steps-to-move-or-rename-the-search-service-application-databases) to the new database server. 
         
-      - In the SharePoint Server 2016 farm, [attach the restored database](/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
+      - In the SharePoint Server 2016 farm, [attach the restored database](../administration/move-or-rename-service-application-databases.md#PS) to the new Search service application. 
     
 9. Verify that the search topology on the new SharePoint Server 2016 farm is alike that of the SharePoint Server 2013 with Service Pack 1 (SP1) farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2016 farm.
     
@@ -883,7 +883,7 @@ Use the following procedure to verify that the steps to create the proxies and a
     
     If **SharePoint 2016 Management Shell** is not on the **Start** screen, right-click **Computer**, select **All apps**, and then select **SharePoint 2016 Management Shell**.
     
-    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=478553).
+    For more info about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. At the PowerShell command prompt, type the following commands:
     
@@ -927,4 +927,4 @@ Next phase: [Upgrade content databases to SharePoint Server 2016](upgrade-conten
 [Services upgrade overview for SharePoint Server 2016](overview-of-the-services-upgrade-process.md)
 #### Other Resources
 
-[Checklist for database-attach upgrade (SharePoint 2013)](/sharepoint/upgrade-and-update/checklist-for-database-attach-upgrade-sharepoint-2013)
+[Checklist for database-attach upgrade (SharePoint 2013)](./checklist-for-database-attach-upgrade-sharepoint-2013.md)

@@ -41,7 +41,7 @@ By default, the Portal Super User account is the site's System Account, and the 
 You can configure the user accounts for the object cache by the the SharePoint Central Administration website and Microsoft PowerShell. You must first create the accounts in Central Administration and then add the accounts to the web application by using PowerShell. You must add the user accounts to each web application.
   
 > [!CAUTION]
-> At the end of this procedure, you must reset Internet Information Services (IIS) to apply the changes to the web application. Be sure to perform this procedure when there will be minimal disruption to users that are connected to the site. For more information about IISReset, see [IIS Reset Activity](https://go.microsoft.com/fwlink/p/?LinkId=179336). 
+> At the end of this procedure, you must reset Internet Information Services (IIS) to apply the changes to the web application. Be sure to perform this procedure when there will be minimal disruption to users that are connected to the site. For more information about IISReset, see [IIS Reset Activity](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd364067(v=ws.10)). 
   
  **To create the user accounts by using Central Administration**
   
@@ -114,7 +114,7 @@ You can configure the user accounts for the object cache by the the SharePoint C
     
 8. At the PowerShell command prompt, type the following command: ./SetUsers.ps1
     
-9. Reset Internet Information Services (IIS). For more information about IISReset, see [Start or Stop the Web Server (IIS 8)](https://go.microsoft.com/fwlink/?LinkID=718159&amp;clcid=0x409).
+9. Reset Internet Information Services (IIS). For more information about IISReset, see [Start or Stop the Web Server (IIS 8)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj635851(v=ws.11)).
     
 ## See also
 <a name="section2"> </a>
@@ -122,4 +122,3 @@ You can configure the user accounts for the object cache by the the SharePoint C
 #### Concepts
 
 [Cache settings operations in SharePoint Server](cache-settings-operations.md)
-

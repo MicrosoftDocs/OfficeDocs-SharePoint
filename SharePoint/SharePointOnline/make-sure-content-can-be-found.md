@@ -38,10 +38,8 @@ In some cases, you may want to manually request crawling and full re-indexing of
   
 ## Search across on-premises and online content
   
-[Hybrid search in SharePoint](/SharePoint/hybrid/hybrid-search-in-sharepoint) lets your users search for files and documents across SharePoint Server and Microsoft 365 at the same time. With [cloud hybrid search](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), both on-premises and online content go into the index that both the classic and Microsoft Search experiences use. 
+[Hybrid search in SharePoint](../SharePointServer/hybrid/hybrid-search-in-sharepoint.md) lets your users search for files and documents across SharePoint Server and Microsoft 365 at the same time. With [cloud hybrid search](../SharePointServer/hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md), both on-premises and online content go into the index that both the classic and Microsoft Search experiences use. 
   
 ## Remove search results temporarily
   
 You can **temporarily** remove documents, pages and sites from search results with immediate effect. [Learn more](remove-search-results.md).
-  
-

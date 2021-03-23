@@ -35,11 +35,11 @@ By default, the Search Box Web Part is used on the home page for the Search Cent
 
 > [!NOTE]
 > Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
->- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
->- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
+>- [Plan browser support](../install/browser-support-planning.md)
+>- [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
 >- [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
 >- [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
->- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>- [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
     
 ## Configure properties of the Search Box Web Part
 <a name="begin"> </a>
@@ -97,5 +97,4 @@ By default, the Search Box Web Part is used on the home page for the Search Cent
 ## See also
 <a name="begin"> </a>
 
-[How to change the text that is displayed in the Search Box Web Part in SharePoint Server 2013](https://blogs.technet.com/b/tothesharepoint/archive/2013/09/19/how-to-change-the-text-that-is-displayed-in-the-search-box-web-part-in-sharepoint-server-2013.aspx)
-
+[How to change the text that is displayed in the Search Box Web Part in SharePoint Server 2013](/archive/blogs/tothesharepoint/how-to-change-the-text-that-is-displayed-in-the-search-box-web-part-in-sharepoint-server-2013)

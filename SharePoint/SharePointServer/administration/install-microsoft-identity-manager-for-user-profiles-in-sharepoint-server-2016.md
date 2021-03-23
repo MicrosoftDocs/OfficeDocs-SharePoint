@@ -50,7 +50,7 @@ Which option is right for you?
 |Cons  <br/> |1. A separate MIM server is recommended for use with your SharePoint farm.  <br/> 2. The more customized the more complex the architecture, deployment, and management.  <br/> |1. Import is unidirectional (changes go from Active Directory to SharePoint Server Profile).  <br/> 2. Import from a single Active Directory forest only.  <br/> 3. Does not import user photos.  <br/> 4. Supports Active Directory LDAP only.  <br/> 5. Multi-forest scenarios are not supported.  <br/> |
    
 > [!TIP]
-> If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](/SharePoint/administration/configure-profile-synchronization-by-using-sharepoint-active-directory-import). 
+> If you need details, or you need to set up Active Directory Import for your SharePoint Server installation? Try [these steps](./configure-profile-synchronization-by-using-sharepoint-active-directory-import.md). 
   
 ## Choosing MIM for use with SharePoint Server 
 <a name="BKMK_ChooseMIM"> </a>
@@ -62,14 +62,14 @@ If you choose MIM, there are some **prerequisites** of which you should be aware
 2. SQL Server 2008 or above, to be installed either on the same machine as the MIM components, or remotely.
     
     > [!NOTE]
-    > If you have SQL Server running on a  *separate*  server from MIM, you'll need to install SQL Server native client (either for [2008](https://msdn.microsoft.com/sqlserver/aa937733.aspx) or [2012](https://www.microsoft.com/download/details.aspx?id=29065)) where you installed MIM.
+    > If you have SQL Server running on a  *separate*  server from MIM, you'll need to install SQL Server native client (either for [2008](/sql/sql-server/) or [2012](https://www.microsoft.com/download/details.aspx?id=29065)) where you installed MIM.
   
 3. You'll need to create a service account in your domain to run the MIM Synchronization Service. This account should have the "Log on as a service" permissions granted to it on the machine where the MIM Synchronization Service will be installed. These permissions will normally be assigned automatically during setup of the service but can be manually assigned via the Local Security Policy (secpol.msc).
     
     > [!IMPORTANT]
     > If SQL Server is on the same server as MIM, you may use a local account for this service. However, if you use a  *remote*  SQL, you must use a domain account. If the account is in another domain from the SQL Server, it must be in the same forest. 
   
-4. A domain user account must be created and [permissioned properly](/SharePoint/administration/user-profile-service-administration) for use in the Active Directory Connector. 
+4. A domain user account must be created and [permissioned properly](./user-profile-service-administration.md) for use in the Active Directory Connector. 
     
 5. The account running setup for MIM must be a SQL Server Admin on the instance of SQL Server where the MIM sync database will be hosted. The account must have local administrator permissions on the machine where the MIM Synchronization service will be installed.
     
@@ -133,5 +133,3 @@ The Synchronization Service Manager will open on your MIM server. At this point 
 For configuration steps, please see:
   
 - [Use a sample MIM solution in SharePoint Server](use-a-sample-mim-solution-in-sharepoint-server-2016.md)
-    
-

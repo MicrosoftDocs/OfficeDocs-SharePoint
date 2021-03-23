@@ -77,8 +77,6 @@ When you create a custom ranking model, you copy an existing SharePoint Server r
   
 As with any ranking model that is included with SharePoint Server, a custom ranking model calculates the position of a search result in the result set. A search result is considered relevant if it receives a high rank score. A high rank score is a specific numeric score that's calculated by the search engine that uses a ranking model. A ranking model is a list of one or more rank stages that contain a set of rank features. The ranking model defines how the search engine calculates the relevance rank using various factors, which are represented in the ranking model as rank features.
   
-There are several ranking models available in SharePoint Server. For more details, see [Overview of search result ranking in SharePoint Server](overview-of-search-result-ranking.md). Most search results are ranked using the Default Search Model. Read [Customizing ranking models to improve relevance in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=401186) on MSDN to learn more about the most important ranking features in the Default Search Model. This article also explains how to deploy a custom ranking model. 
+There are several ranking models available in SharePoint Server. For more details, see [Overview of search result ranking in SharePoint Server](overview-of-search-result-ranking.md). Most search results are ranked using the Default Search Model. Read [Customizing ranking models to improve relevance in SharePoint 2013](/sharepoint/dev/general-development/customizing-ranking-models-to-improve-relevance-in-sharepoint) on MSDN to learn more about the most important ranking features in the Default Search Model. This article also explains how to deploy a custom ranking model. 
   
 We hope that the articles give you an overview of how search result ranking works and how you can change it.
-  
-

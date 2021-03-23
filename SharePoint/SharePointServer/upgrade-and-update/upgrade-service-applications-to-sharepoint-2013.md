@@ -494,7 +494,7 @@ After you have started the User Profile Synchronization service, you must import
 > [!IMPORTANT]
 > Use the GUID as specified. This GUID is fixed. 
   
-For more information, see [Install a software update (SharePoint Server 2010)](/SharePoint/upgrade-and-update/install-a-software-update).
+For more information, see [Install a software update (SharePoint Server 2010)](./install-a-software-update.md).
   
 ## Upgrade the PerformancePoint Services service application
 <a name="UpgradePPS"> </a>
@@ -744,4 +744,3 @@ Now that the service applications are upgraded, you can start the process to upg
 [Upgrade farms that share services (parent and child farms) to SharePoint 2013](upgrade-farms-that-share-services-parent-and-child-farmsto-sharepoint-2013.md)
   
 [Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
-
