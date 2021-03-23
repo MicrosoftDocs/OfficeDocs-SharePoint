@@ -27,7 +27,18 @@ description: "This article helps you understand, which tool to use when migratin
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
+Our tools support migration from:
 
+Network file shares
+SharePoint Server 2010, 2013, 2016, and 2019
+Box
+Dropbox
+G Suite Drive
+Egnyte
+Office 365
+Amazon S3 
+Azure Blob storage
+Google Cloud storage
 
 ## Migrate File Shares
 Migrating your file shares with Migration Manager lets you have a centralized way of connecting servers, creating tasks, and automatically load balancing your migration tasks. You're guided through the steps of migrating your file shares, from the setup of agents, the creation of tasks, and the final migration to Microsoft 365. You can specify global or task level settings, view all-up task progress, and download aggregated summary and task level reports.
@@ -50,8 +61,8 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 
 ![Migrating SPMT workflow](media/spmt-flow-3box.png)
 
-## More cloud to cloud migrations
-Have content to migrate from other Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
+## Cloud to cloud migrations
+Are you migrating from another Cloud providers? The [Mover tool](https://mover.io/) is ideal for:
 
 - Box
 - Microsoft 365 tenant to tenant migration
