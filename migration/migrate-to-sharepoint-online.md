@@ -39,7 +39,7 @@ Migrating your file shares with Migration Manager lets you have a centralized wa
 
 [**What's new**](mm-whats-new.md)
 
-![Migrating file shares user workflow](media/mm-fileshare-user-workflow.png)
+![Migrating file shares workflow](media/mm-flow-3box.png)
 
 
 
@@ -51,9 +51,8 @@ Migrate your SharePoint Server sites and content to take advantage of the latest
 
 [**What's new**](new-and-improved-features-in-the-sharepoint-migration-tool.md)
 
-![Migrating SharePoint Server sites user workflow](media/spmt-user-workflow.png)
 
-
+![Migrating SPMT workflow](media/media/spmt-flow-3box.png)
 
 
 ## More cloud to cloud migrations

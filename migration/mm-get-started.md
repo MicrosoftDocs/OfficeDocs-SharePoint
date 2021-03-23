@@ -21,7 +21,7 @@ search.appverid: MET150
 description: "Learn about how the Migration Manager tool in the modern SharePoint Admin Center works and how to get started with it."
 ---
 
-# Migrate your files to Microsoft 365 with Migration Manager
+# Overview:  Migrate your file shares to Microsoft 365 with Migration Manager
 
 >[!NOTE]
 >Migration Manager currently supports only the migration of **file shares**.  This release does not support the migration of content from SharePoint Server.
