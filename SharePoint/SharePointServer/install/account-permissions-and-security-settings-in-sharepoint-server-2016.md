@@ -234,7 +234,7 @@ Members of the *SharePoint_SHELL_ACCESS* role have the execute permission for al
 The *SPREADONLY* role should be used for setting the database to read-only mode instead of using sp_dboption. This role as its name suggests should be used when only read access is required for data such as usage and telemetry data.
 
 > [!NOTE]
-> The sp_dboption stored procedure is not available in SQL Server 2012. For more information about sp_dboption, see [sp_dboption (Transact-SQL)](https://go.microsoft.com/fwlink/p/?LinkId=507398).
+> The sp_dboption stored procedure is not available in SQL Server 2012. For more information about sp_dboption, see [sp_dboption (Transact-SQL)](/previous-versions/sql/sql-server-2008-r2/ms187310(v=sql.105)).
 
 The *SPREADONLY* SQL role will have the following permissions:
 

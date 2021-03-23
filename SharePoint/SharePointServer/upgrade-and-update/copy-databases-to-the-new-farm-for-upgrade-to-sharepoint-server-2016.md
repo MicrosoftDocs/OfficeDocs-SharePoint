@@ -51,7 +51,7 @@ Before you copy the databases, review the following information and take any rec
 To maintain user access to your original environment, set the SharePoint Server 2013 databases to read-only before you back up the databases. Even if you don't want to maintain access over the long term, set the databases to read-only to make sure that you capture all the data in the backup so that you restore and upgrade the current state of the environment without allowing additional changes to be made. If the databases are set to read-only, users can continue to view content. However, they will be unable to add or change content. 
   
 > [!NOTE]
-> Don't set search databases to read-only at this point. It's best not to interrupt the search experience until you're ready to upgrade the Search service applications. You will handle these databases when you [upgrade service applications](/SharePoint/upgrade-and-update/upgrade-service-applications-to-sharepoint-server-2016) (the fourth phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016). 
+> Don't set search databases to read-only at this point. It's best not to interrupt the search experience until you're ready to upgrade the Search service applications. You will handle these databases when you [upgrade service applications](./upgrade-service-applications-to-sharepoint-server-2016.md) (the fourth phase in the process to upgrade SharePoint Server 2013 data and sites to SharePoint Server 2016). 
   
 > [!IMPORTANT]
 > Perform this step in the SharePoint Server 2013 environment. 
@@ -68,7 +68,7 @@ To maintain user access to your original environment, set the SharePoint Server 
     
 5. In the details pane, under **Other options**, in the **State** section, next to **Database Read-Only**, click the arrow, and then select **True**.
     
-You can use Transact-SQL to configure the **READ_ONLY** database availability option. For more information about how to use the **SET** clause of the **ALTER DATABASE** statement, see [Setting Database Options](https://go.microsoft.com/fwlink/p/?LinkId=148362).
+You can use Transact-SQL to configure the **READ_ONLY** database availability option. For more information about how to use the **SET** clause of the **ALTER DATABASE** statement, see [Setting Database Options](/previous-versions/sql/sql-server-2008-r2/ms190249(v=sql.105)).
   
 ## Back up the SharePoint Server 2013 databases by using SQL Server tools
 <a name="backup"> </a>
@@ -193,4 +193,3 @@ You cannot upgrade a database that is set to read-only. You must set the databas
 [Upgrade service applications to SharePoint Server 2016](upgrade-service-applications-to-sharepoint-server-2016.md)
   
 [Upgrade content databases to SharePoint Server 2016](upgrade-content-databases.md)
-

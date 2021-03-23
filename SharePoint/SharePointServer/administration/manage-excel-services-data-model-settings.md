@@ -91,5 +91,4 @@ Use the following procedure to remove an instance of SQL Server 2012 SP1 Analysi
 
 #### Other Resources
 
-[Configure Excel Services in SharePoint](/SharePoint/administration/configure-excel-services)
-
+[Configure Excel Services in SharePoint](./configure-excel-services.md)

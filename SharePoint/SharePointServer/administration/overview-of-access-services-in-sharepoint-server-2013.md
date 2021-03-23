@@ -42,5 +42,4 @@ There is no way to automatically convert a web database to an Access app. If you
 
 [What's new in Access 2013](https://go.microsoft.com/fwlink/p/?LinkId=268109)
   
-[Welcome to the Access 2013 developer reference](https://go.microsoft.com/fwlink/p/?LinkId=268112)
-
+[Welcome to the Access 2013 developer reference](/previous-versions/office/developer/office-2010/ee861519(v=office.14))

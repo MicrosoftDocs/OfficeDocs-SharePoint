@@ -118,5 +118,4 @@ A typical example of an organization-wide policy is one that is designed to prom
 ## See also
 <a name="section6"> </a>
 
-For the SharePoint in Microsoft 365 version of this article, see [Create and apply information management policies](https://docs.microsoft.com/microsoft-365/compliance/create-info-mgmt-policies).
-
+For the SharePoint in Microsoft 365 version of this article, see [Create and apply information management policies](/microsoft-365/compliance/create-info-mgmt-policies).

@@ -145,7 +145,7 @@ Each pre-configured result source uses a query transform and thus provides an ex
   
 {?{searchTerms} ContentClass=urn:content-class:SPSPeople}
   
-For more information, see [Building search queries in SharePoint 2013 (https://msdn.microsoft.com/library/jj163973.aspx)](https://msdn.microsoft.com/library/jj163973.aspx).
+For more information, see [Building search queries in SharePoint 2013 (/sharepoint/dev/general-development/building-search-queries-in-sharepoint)](/sharepoint/dev/general-development/building-search-queries-in-sharepoint).
   
 ## See also
 <a name="BKMK_How-does_query_transform_affect_query"> </a>
@@ -157,4 +157,3 @@ For more information, see [Building search queries in SharePoint 2013 (https://m
 [Transforming queries in result sources](plan-to-transform-queries-and-order-results.md#Trans_Result_Sources)
   
 [About result sources and federation](plan-crawling-and-federation.md#Section12)
-

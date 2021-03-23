@@ -54,6 +54,4 @@ The default setting, NTLM protocol, is based on a challenge-response mechanism f
 
 The Kerberos version 5 protocol is the primary security protocol for authentication within a domain. Kerberos authentication uses a service ticket system that verifies the identity of the user and of the network services. This dual verification is known as mutual authentication. The system attempts to negotiate authentication over the Kerberos protocol first. If it is not successful, the NTLM protocol is used.
   
-To enable Kerberos authentication, you must perform additional configuration. For more information, see [Kerberos](https://go.microsoft.com/fwlink/?LinkID=197060).
-  
-
+To enable Kerberos authentication, you must perform additional configuration. For more information, see [Kerberos](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753173(v=ws.10)).

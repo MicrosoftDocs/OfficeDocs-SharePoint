@@ -22,7 +22,7 @@ description: "Provision the SharePoint Success Site from the look book."
 
 # Provision the SharePoint Success Site from the look book
 
-You can provision the SharePoint Success Site after you confirm that you *and* your tenant meet the following [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites):
+You can provision the SharePoint Success Site after you confirm that you *and* your tenant meet the following [prerequisites](./provision-sss.md#meet-the-prerequisites):
 
 - You're using global admin credentials.
 - Your tenant has the App Catalog installed.
@@ -33,7 +33,7 @@ You can provision the SharePoint Success Site after you confirm that you *and* y
 ## Start provisioning from the look book
 If your tenant is already provisioned with Microsoft 365 learning pathways version 4.0 *or later*, you can provision the SharePoint Success Site from the look book. 
 
-If you aren't sure what version of Microsoft 365 learning pathways is installed on your tenant, review the [prerequisites](https://docs.microsoft.com/sharepoint/provision-sss#meet-the-prerequisites). Then provision the SharePoint Success Site. 
+If you aren't sure what version of Microsoft 365 learning pathways is installed on your tenant, review the [prerequisites](./provision-sss.md#meet-the-prerequisites). Then provision the SharePoint Success Site. 
 
 1. Go to the [look book](https://lookbook.microsoft.com/details/0b860749-56a0-4c4c-992c-536d56d9accf), and then select **Add to your tenant**.
 
@@ -74,7 +74,7 @@ If you aren't sure what version of Microsoft 365 learning pathways is installed 
     ![Image of the SharePoint Success Site landing page, named Plan your site.](media/sss-content-landing.png)
 
 
-In the next section, you'll add site owners to the Microsoft 365 learning pathways administration page and the SharePoint Success Site. This setting grants privileges to [customize the site and content](https://docs.microsoft.com/sharepoint/customize-sss). 
+In the next section, you'll add site owners to the Microsoft 365 learning pathways administration page and the SharePoint Success Site. This setting grants privileges to [customize the site and content](./customize-sss.md). 
 
 
 ## Add site owners 
@@ -91,8 +91,8 @@ To add owners or members to both sites:
 
 ## Site provisioning help
 
-- For provisioning help, see [troubleshooting](https://docs.microsoft.com/office365/customlearning/feedback). 
-- See Microsoft 365 learning pathways [FAQs](https://docs.microsoft.com/office365/customlearning/faq).
+- For provisioning help, see [troubleshooting](/office365/customlearning/feedback). 
+- See Microsoft 365 learning pathways [FAQs](/office365/customlearning/faq).
 - Share your [feedback](https://github.com/pnp/custom-learning-office-365/issues) with us.
 
 
@@ -101,7 +101,7 @@ To add owners or members to both sites:
 
 **Can I provision from the Microsoft 365 learning pathways admin page?**
 
-Answer: Yes. Follow the guidance in [Provision the SharePoint Success Site to your tenant from the learning pathways administrative page](https://docs.microsoft.com/sharepoint/provision-sss#provision-the-sharepoint-success-site-1).
+Answer: Yes. Follow the guidance in [Provision the SharePoint Success Site to your tenant from the learning pathways administrative page](./provision-sss.md#provision-the-sharepoint-success-site-1).
 
 **Who has permission to provision the SharePoint Success Site?**
 
@@ -121,4 +121,4 @@ Answer: Users who have Microsoft 365 user permissions, SharePoint Site vis
 
 ## Next steps
 
-Customize the SharePoint Success Site. You can [customize](https://docs.microsoft.com/sharepoint/customize-sss) playlist content and the look and feel of the site to meet the needs of your organization.
+Customize the SharePoint Success Site. You can [customize](./customize-sss.md) playlist content and the look and feel of the site to meet the needs of your organization.

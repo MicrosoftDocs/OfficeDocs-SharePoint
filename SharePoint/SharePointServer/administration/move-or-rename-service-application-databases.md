@@ -604,7 +604,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 5. In the **Back Up Database** dialog, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
     
-    For more information about the type of backup to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889).
+    For more information about the type of backup to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014).
     
 6. In the **Backup component** area, click **Database**.
     
@@ -638,7 +638,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. In the **Max Degree of Parallelism** box, select **1** to limit the number of processors to use in parallel plan execution. 
     
-    For more information, see [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkID=724373).
+    For more information, see [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?viewFallbackFrom=sql-server-2014).
     
 ### To restore the Search service application databases to a new database server
 
@@ -658,7 +658,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 8. On the **Options** tab, select the recovery state from the **Recover state** section. 
     
-    For more information about which recovery type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp) in SQL Server Books Online.
+    For more information about which recovery type to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014) in SQL Server Books Online.
     
 9. Click **OK** to restore the database. 
     
@@ -806,7 +806,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 5. In the **Back Up Database** dialog, in the **Source** area, select the kind of backup that you want to perform from the **Backup type** list. 
     
-    For more information about the type of backup to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp).
+    For more information about the type of backup to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014).
     
 6. In the **Backup component** area, click **Database**.
     
@@ -840,7 +840,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 4. In the **Max Degree of Parallelism** box, select **1** to limit the number of processors to use in parallel plan execution. 
     
-    For more information, see [Configure the max degree of parallelism Server Configuration Option](https://go.microsoft.com/fwlink/p/?LinkID=724373).
+    For more information, see [Configure the max degree of parallelism Server Configuration Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option?viewFallbackFrom=sql-server-2014).
     
 ### To restore the Search service application databases to a new database server
 
@@ -860,7 +860,7 @@ In some environments, you must coordinate the rename and move procedures with th
     
 8. On the **Options** tab, select the recovery state from the **Recover state** section. 
     
-    For more information about which recovery type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=626889) in SQL Server Books Online.
+    For more information about which recovery type to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014) in SQL Server Books Online.
     
 9. Click **OK** to restore the database. 
     
@@ -958,4 +958,3 @@ In some environments, you must coordinate the rename and move procedures with th
 #### Concepts
 
 [Move all databases in SharePoint Server](move-all-databases.md)
-

@@ -28,7 +28,7 @@ Web Parts that use search technology to show content in a publishing environment
 <a name="BKMK_AvailableOOTRefiners"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0)> [Accessibility guidelines in SharePoint](https://docs.microsoft.com/sharepoint/accessibility-guidelines)> [Accessibility in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506).
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-0.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 There are many Search Web Parts available in SharePoint Server. These Web Parts have predefined queries, such as what type of content to search for, where to search for content, and how to show content. For information about different Search Web Parts, see "Plan to add search Web Parts to pages" in [Plan publishing sites for cross-site publishing in SharePoint Server](plan-sharepoint-publishing-sites-for-cross-site-publishing.md). Many of the Search Web Parts use result sources and have query rules that are applied to them. Result sources narrow the scope of search results that are retrieved. A query rule is a set of conditions that will cause the query to be changed in a specific way. For more information about result sources and query rules, see [Plan result sources and query rules](plan-search-for-sharepoint-cross-site-publishing-sites.md#BKMK_PlanResultSourcesAndQueryRules).
   
@@ -87,7 +87,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
    
 |
    
-  - To create your own query by using Keyword Query Language (KQL), click **Switch to Advanced Mode**. For information about KQL, see [Keyword Query Language (KQL) syntax reference](https://msdn.microsoft.com/library/ee558911%28v=office.15%29.aspx). When you configure the query in Advanced Mode, you can also use query variables. Query variables are placeholders for values that change dynamically depending on the context of the page when the page that contains the Content Search Web Part is being displayed. The correct information is inserted dynamically from the context the query is sent to the index. Examples of query variables are {User.Name}, which represents the name of the user who is viewing the page, or {searchBoxQuery}, which represents the query that a user typed in a search box. Select options as described in the following table:
+  - To create your own query by using Keyword Query Language (KQL), click **Switch to Advanced Mode**. For information about KQL, see [Keyword Query Language (KQL) syntax reference](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference). When you configure the query in Advanced Mode, you can also use query variables. Query variables are placeholders for values that change dynamically depending on the context of the page when the page that contains the Content Search Web Part is being displayed. The correct information is inserted dynamically from the context the query is sent to the index. Examples of query variables are {User.Name}, which represents the name of the user who is viewing the page, or {searchBoxQuery}, which represents the query that a user typed in a search box. Select options as described in the following table:
     
     > [!NOTE]
     > When you switch to Advanced Mode, the result source that you selected from **Select a query** is replaced by a different result source. This result source could affect the search results. Therefore, make sure that you check the search results that are displayed in the **SEARCH RESULT PREVIEW** section, and add query configuration in the **Query text** field if you need to.
@@ -131,7 +131,7 @@ You can use the Content Search Web Part in Quick Mode and create a query by sele
 |URL Rewriting  <br/> |Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for catalog items are pointed directly to the library item of the connected catalog.  <br/> |
 |Loading Behavior  <br/> |Select when the search results returned by the Content Search Web Part appear on the web page. The default option is **Sync option: Issue query from the server**. By using this loading behavior, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint Server. If you select **Async option: Issue query from the browser**, the queries will be issued from the end-users browser after the complete page is received. This option may be considered for secondary content on a page — for example Recommendations or Popular Items.  <br/> |
 |Priority  <br/> |Select the level that best describes the relative importance of content that is displayed by this Web Part in relation to other Search Web Parts. If SharePoint Server is running under heavy load, the queries will be run according to their priority.  <br/> |
-|Caching  <br/> |Select one Active Directory security group if you want search results to be cached for users in the group. By caching search results for a security group, you can reduce page reload time.  <br/> > [!NOTE]> You should only select a security group where search results are identical for all users in the group. For more information, see [this article](https://blogs.technet.com/b/helgesolheim/archive/2014/03/19/new-group-cache-for-the-content-search-web-part.aspx).           |
+|Caching  <br/> |Select one Active Directory security group if you want search results to be cached for users in the group. By caching search results for a security group, you can reduce page reload time.  <br/> > [!NOTE]> You should only select a security group where search results are identical for all users in the group. For more information, see [this article](/archive/blogs/technet/helgesolheim/new-group-cache-for-the-content-search-web-part).           |
    
 10. On the **TEST** tab, you can preview the query that is sent by the Content Search Web Part. 
     
@@ -163,7 +163,7 @@ When you connect a publishing site to a catalog, the default control display tem
   
 The default item display template for the Content Search Web Part is Picture on top, 3 lines on bottom (named Item_Picture3Lines in the Master Page Gallery). If you want to use other display templates on your category page, you can change them by changing the settings for the Content Search Web Part.
   
-For information on how to customize and create your own display templates, see [SharePoint 2013 Design Manager display templates](https://msdn.microsoft.com/library/jj945138.aspx). For information about JavaScript methods that you can use when you customize your display templates, see [Srch.U object (DisplayTemplatesSrch)](https://msdn.microsoft.com/library/dn768292%28v=office.15%29.aspx).
+For information on how to customize and create your own display templates, see [SharePoint 2013 Design Manager display templates](/sharepoint/dev/general-development/sharepoint-design-manager-design-packages). For information about JavaScript methods that you can use when you customize your display templates, see [Srch.U object (DisplayTemplatesSrch)](/previous-versions/office/sharepoint-visio/dn768292(v=office.15)).
   
 ## Add a Refinement Web Part to a page
 <a name="BKMK_AddRefinementPanel"> </a>
@@ -291,7 +291,7 @@ The display templates for the Refinement Web Part can be found in the Master Pag
     
 5. On the **Display Templates** page, click **Filters**.
     
-For information on how to customize and create your own display templates, see [SharePoint 2013 Design Manager display templates](https://msdn.microsoft.com/library/jj945138.aspx).
+For information on how to customize and create your own display templates, see [SharePoint 2013 Design Manager display templates](/sharepoint/dev/general-development/sharepoint-design-manager-design-packages).
   
 ## Add a Taxonomy Refinement Panel Web Part to a page
 <a name="BKMK_AddTaxonomyRefinementPanel"> </a>
@@ -390,7 +390,7 @@ You can use the Recommended Items Web Part to show content recommendations based
 |URL Rewriting|Select if the URL rewrite to the item details page should continue to be relative for each catalog item as defined when you set up the catalog connection. If you select **Don't rewrite URLs**, the URLs for your catalog items are pointed directly to the library item of the connected catalog.|
 |Loading Behavior|Select when the search results returned by the Recommended Items Web Part should be displayed on the web page. The default option is **Display the page and web party simultaneously**. By using this loading behavior, queries are issued from the server, and the search results are included in the page response that is sent back from SharePoint Server. If you select **Display the page and web part independently**, the queries will be issued from the end-users browser after the complete page is received. This option may be considered for secondary content on a page — for example, Recommendations or Popular Items|
 |Priority|Select the level that best describes the relative importance of content that is displayed by this Web Part in relation to other Search Web Parts. If SharePoint Server is running under heavy load, the queries will be run according to their priority.|
-|Caching|Select one Active Directory security group if you want search results to be cached for users in the group. By caching search results for a security group, you can reduce page reload time.> [!NOTE]> You should only select a security group where search results are identical for all users in the group. For more information, see [this article](https://blogs.technet.com/b/helgesolheim/archive/2014/03/19/new-group-cache-for-the-content-search-web-part.aspx).           |
+|Caching|Select one Active Directory security group if you want search results to be cached for users in the group. By caching search results for a security group, you can reduce page reload time.> [!NOTE]> You should only select a security group where search results are identical for all users in the group. For more information, see [this article](/archive/blogs/technet/helgesolheim/new-group-cache-for-the-content-search-web-part).           |
    
 9. On the **TEST** tab, you can preview the query that is sent by the Recommended Items Web Part. 
     
@@ -427,7 +427,7 @@ The default control display template for the Recommended Items Search Web Part i
   
 The default item display template for the Recommended Items Web Part is Recommended Items: Picture on top, 3 lines (known as Item_RecommendationsClickLogging in the Master Page Gallery). When a user clicks a link that is displayed in the Recommended Items Web Part, the default display template logs a Recommendations Clicked usage event.
   
-For information on how to customize and create your own display templates, see [SharePoint 2013 Design Manager display templates](https://msdn.microsoft.com/library/jj945138.aspx). For information about JavaScript methods that you can use when you customize your display templates, see [Srch.U object (DisplayTemplatesSrch)](https://msdn.microsoft.com/library/dn768292%28v=office.15%29.aspx).
+For information on how to customize and create your own display templates, see [SharePoint 2013 Design Manager display templates](/sharepoint/dev/general-development/sharepoint-design-manager-design-packages). For information about JavaScript methods that you can use when you customize your display templates, see [Srch.U object (DisplayTemplatesSrch)](/previous-versions/office/sharepoint-visio/dn768292(v=office.15)).
   
 ## See also
 <a name="BKMK_ConfigureRecsDisplayTemplates"> </a>
@@ -438,4 +438,3 @@ For information on how to customize and create your own display templates, see [
 #### Other Resources
 
 [Blog series: How to set up a product-centric website in SharePoint Server 2013](https://blogs.technet.com/b/tothesharepoint/archive/2013/02/14/how-to-set-up-a-product-centric-web-site-in-sharepoint-2013.aspx)
-

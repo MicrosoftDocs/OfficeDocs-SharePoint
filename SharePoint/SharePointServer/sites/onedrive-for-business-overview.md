@@ -27,7 +27,7 @@ description: "Learn about OneDrive in SharePoint Server."
 > [!NOTE]
 > While OneDrive is used in both SharePoint Server on-premises and Microsoft 365 environments, this article describes how it works in SharePoint Server. For more information about how it works in a Microsoft 365 environment, see [What is OneDrive?](https://go.microsoft.com/fwlink/?LinkId=747076). 
   
-Microsoft OneDrive is the default document library in a user's [What's new in social computing in SharePoint Server 2013](/sharepoint/what-s-new/what-s-new#MySites) in SharePoint Server or in Microsoft 365. The contents of this library can optionally be synchronized with one or more of the user's computers or devices. 
+Microsoft OneDrive is the default document library in a user's [What's new in social computing in SharePoint Server 2013](../what-s-new/what-s-new.md#MySites) in SharePoint Server or in Microsoft 365. The contents of this library can optionally be synchronized with one or more of the user's computers or devices. 
   
 By using OneDrive, you can help ensure that business files for your users are stored in a central location. Storing business files in one location makes it easy for users to share and collaborate on documents. If you're using OneDrive, you can also reduce your on-premises storage costs by moving your users' files to the cloud.
   
@@ -67,12 +67,10 @@ If you use SharePoint Server and want to take advantage of cloud storage for you
   
 By using Microsoft 365 for document storage, you can take advantage of cloud storage without having to migrate all of your workloads to Microsoft 365.
   
-Setting up OneDrive hybrid requires [configuring Microsoft 365](https://go.microsoft.com/fwlink/?LinkID=521431) if you haven't already, and configuring your OneDrive in your SharePoint Server environment to "redirect" to OneDrive. For info about planning OneDrive hybrid, see [Configure hybrid OneDrive - roadmap](../hybrid/configure-hybrid-onedrive-for-businessroadmap.md).
+Setting up OneDrive hybrid requires [configuring Microsoft 365](/microsoft-365/admin/setup/setup) if you haven't already, and configuring your OneDrive in your SharePoint Server environment to "redirect" to OneDrive. For info about planning OneDrive hybrid, see [Configure hybrid OneDrive - roadmap](../hybrid/configure-hybrid-onedrive-for-businessroadmap.md).
   
 ## Getting started
 
 Setting up OneDrive in SharePoint Server requires configuring a User Profile Service application and setting up My Sites. For detailed planning information, see [Plan for OneDrive in SharePoint Server](onedrive-for-business-planning.md).
   
 For more info about syncing OneDrive files in SharePoint Server 2016 or 2013, see [Sync SharePoint files with the OneDrive sync app (Groove.exe)](https://support.office.com/article/59b1de2b-519e-4d3a-8f45-51647cf291cd).
-  
-

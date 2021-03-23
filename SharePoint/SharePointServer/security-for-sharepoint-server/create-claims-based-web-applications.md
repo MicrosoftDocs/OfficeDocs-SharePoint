@@ -23,7 +23,7 @@ description: "Illustrates how to create SharePoint Server web applications that 
 
 [!INCLUDE[appliesto-2013-2016-2019-xxx-md](../includes/appliesto-2013-2016-2019-xxx-md.md)] 
   
-Claims-based authentication is a requirement to enable the advanced functionality of SharePoint Server. This article explains how to use either Central Administration or PowerShell to create a SharePoint Server web application that uses claims-based authentication. Claims-based authentication is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. However, this article also provides guidance for using PowerShell to create classic-mode web applications if you have a specific scenario that cannot support claims-based authentication. Be aware that classic-mode authentication is deprecated in this release, and it will not be available in the next version. For more information, see [Plan for server-to-server authentication in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-server-to-server-authentication)
+Claims-based authentication is a requirement to enable the advanced functionality of SharePoint Server. This article explains how to use either Central Administration or PowerShell to create a SharePoint Server web application that uses claims-based authentication. Claims-based authentication is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. However, this article also provides guidance for using PowerShell to create classic-mode web applications if you have a specific scenario that cannot support claims-based authentication. Be aware that classic-mode authentication is deprecated in this release, and it will not be available in the next version. For more information, see [Plan for server-to-server authentication in SharePoint Server](./plan-server-to-server-authentication.md)
   
 > [!IMPORTANT]
 > Secure Sockets Layer (SSL) is a requirement for web applications that are deployed in scenarios that support server-to-server authentication and app authentication. 
@@ -154,7 +154,7 @@ Use the procedure in this section to create a new claims-based SharePoint Server
     
   - Administrators group on the server on which you are running PowerShell cmdlets.
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
     
     An administrator can use the **Add-SPShellAdmin** cmdlet to grant permissions to use SharePoint 15 Products cmdlets. 
     
@@ -219,7 +219,7 @@ Use the procedure in this section to create a new classic-mode SharePoint Server
     
   - Administrators group on the server on which you are running PowerShell cmdlets.
     
-  - You must read [about_Execution_Policies](https://go.microsoft.com/fwlink/p/?LinkId=193050).
+  - You must read [about_Execution_Policies](/previous-versions//dd347641(v=technet.10)).
     
 2. From the PowerShell command prompt, type the following:
     
@@ -257,4 +257,3 @@ Use the procedure in this section to create a new classic-mode SharePoint Server
 #### Concepts
 
 [Create a Web application that uses classic mode authentication in SharePoint 2013](create-web-applications-that-use-classic-mode-authentication.md)
-

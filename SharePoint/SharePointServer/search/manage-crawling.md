@@ -41,5 +41,4 @@ The following articles provide information about how to manage crawling in Share
    
 ## See also
 
-[Search in SharePoint Server](https://go.microsoft.com/fwlink/p/?LinkID=261554)
-
+[Search in SharePoint Server](../what-s-new/new-and-improved-features-in-sharepoint-server-2016.md)

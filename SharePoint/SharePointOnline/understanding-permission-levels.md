@@ -72,11 +72,11 @@ You can make changes to any of the default permissions levels, except **Full Con
 |||
    
 > [!NOTE]
-> Microsoft 365 subscriptions create a security group called "Everyone except external users" that contains every person you add into the Microsoft 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Microsoft 365 can access and edit the SharePoint site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Microsoft 365 subscriptions create a security group called "Company Administrators", which contains Microsoft 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more info, see [Default SharePoint groups](/sharepoint/default-sharepoint-groups).
+> Microsoft 365 subscriptions create a security group called "Everyone except external users" that contains every person you add into the Microsoft 365 directory (except people who you add explicitly as External Users). This security group added to the Members group automatically on Modern Team sites with *Public* privacy settings, so that users in Microsoft 365 can access and edit the SharePoint site. Also, for Modern Team sites created as *Private*, "Everyone except external users" cannot be granted any permissions and people must be explicitly granted permissions.  In addition, Microsoft 365 subscriptions create a security group called "Company Administrators", which contains Microsoft 365 Admins (such as Global and Billing Admins). This security group is added to the Site Collection Administrators group. For more info, see [Default SharePoint groups](./default-sharepoint-groups.md).
 
 By default, site owners and members can add new users to the site.
 
-To learn more about "Everyone except external users" permission, see [Special SharePoint Groups](https://docs.microsoft.com/sharepoint/default-sharepoint-groups#special-sharepoint-groups)
+To learn more about "Everyone except external users" permission, see [Special SharePoint Groups](./default-sharepoint-groups.md#special-sharepoint-groups)
   
 ## Permission levels and SharePoint groups
 <a name="__migbm_0"> </a>
@@ -89,7 +89,7 @@ The way this works is that you put related permissions together into a permissio
   
 By default, each kind of SharePoint site includes certain SharePoint groups. For example, a Team Site automatically includes the Owners, Members, and Visitors group. A Publishing Portal site includes those groups and several more, such as Approvers, Designers, Hierarchy Managers, and so on. When you create a site, SharePoint automatically creates a pre-defined set of SharePoint groups for that site. In addition, a SharePoint admin can define custom groups and permission levels.
   
-To learn more about SharePoint groups, see [Understanding SharePoint groups](/sharepoint/default-sharepoint-groups).
+To learn more about SharePoint groups, see [Understanding SharePoint groups](./default-sharepoint-groups.md).
   
 The SharePoint groups and permission levels that are included by default in your site may differ, depending on:
   
@@ -256,4 +256,4 @@ If you disable the limited-access user permission lockdown mode site collection 
 ## Plan your permission strategy
 <a name="__toc313623995"> </a>
 
-Now that you have learned about permissions, inheritance, and permission levels, you may want to plan your strategy so that you can set guidelines for your users, minimize maintenance, and ensure compliance with your organization's data governance policies. For tips on planning your strategy, see [Plan your permissions strategy](plan-your-permissions-strategy.md).
+Now that you have learned about permissions, inheritance, and permission levels, you may want to plan your strategy so that you can set guidelines for your users, minimize maintenance, and ensure compliance with your organization's data governance policies. For tips on planning your strategy, see [Plan your permissions strategy](./default-sharepoint-groups.md).

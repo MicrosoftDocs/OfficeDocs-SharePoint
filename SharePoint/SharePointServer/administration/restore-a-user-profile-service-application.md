@@ -147,7 +147,7 @@ You cannot restore the complete service application or service application proxy
     
 9. In the **Restore Database** dialog, on the **Options** page, select the kind of recovery that you want to perform from the **Recovery state** list.
     
-    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
+    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014).
     
 10. On the **General** page, in the **Destination for restore** section, select the database from the **To database** list.
     
@@ -182,4 +182,3 @@ You cannot restore the complete service application or service application proxy
 #### Other Resources
 
 [Windows PowerShell for SharePoint Server reference](/powershell/module/sharepoint-server/?view=sharepoint-ps)
-

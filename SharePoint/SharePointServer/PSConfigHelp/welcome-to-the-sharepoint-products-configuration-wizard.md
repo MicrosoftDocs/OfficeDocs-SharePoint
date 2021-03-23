@@ -56,7 +56,7 @@ Appropriate administrative credentials on the servers on which you are installin
 
 SharePoint farm administrators can define each server's role in a farm topology. The role of a server is specified when you create a new farm or join a server to an existing farm. SharePoint automatically configures the services on each server based on the server's role, and the performance of the farm is optimized based on that topology.
   
-There are six predefined server roles you can choose. For additional information about server roles, see [MinRole overview](/sharepoint/install/overview-of-minrole-server-roles-in-sharepoint-server).
+There are six predefined server roles you can choose. For additional information about server roles, see [MinRole overview](../install/overview-of-minrole-server-roles-in-sharepoint-server.md).
   
 ## Repair
 
@@ -87,5 +87,3 @@ If you are upgrading a server farm to apply an update, you must use the followin
 3. When all servers in the farm display the message, return to the first web server, and then click **OK** to continue the upgrade process for the first server. 
     
 4. After the wizard has completed on the first server, you can configure each of the other servers.
-    
-

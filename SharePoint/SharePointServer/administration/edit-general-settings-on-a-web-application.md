@@ -98,5 +98,4 @@ Use the procedure described in this section to edit a SharePoint Server web appl
 <a name="section1"> </a>
 
 
-[Extend claims-based web applications in SharePoint](/SharePoint/administration/extend-a-claims-based-web-application)
-
+[Extend claims-based web applications in SharePoint](./extend-a-claims-based-web-application.md)

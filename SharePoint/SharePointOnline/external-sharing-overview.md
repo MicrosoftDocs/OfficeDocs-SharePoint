@@ -41,9 +41,9 @@ The external sharing features of Microsoft SharePoint let users in your organiza
 
 If you want to get straight to setting up sharing, choose the scenario you want to enable:
 
-- [Collaborate with guests on a document](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)
-- [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
-- [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
+- [Collaborate with guests on a document](/Office365/Enterprise/collaborate-on-documents)
+- [Collaborate with guests in a site](/Office365/Enterprise/collaborate-in-a-site)
+- [Collaborate with guests in a team](/Office365/Enterprise/collaborate-as-a-team)
 
 (If you're trying to share a file or folder, see [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) or [Share SharePoint files or folders in Microsoft 365](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c).)
   
@@ -92,7 +92,7 @@ When users share *sites*, recipients will be prompted to sign in with:
 When users share *files and folders*, recipients will also be prompted to sign in if they have:
 - A Microsoft account
 
-These recipients will typically be added to your directory as guests, and then permissions and groups work the same for these guests as they do for internal users. (To ensure that all guests are added to your directory, use the [SharePoint and OneDrive integration with Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).)
+These recipients will typically be added to your directory as guests, and then permissions and groups work the same for these guests as they do for internal users. (To ensure that all guests are added to your directory, use the [SharePoint and OneDrive integration with Azure AD B2B](./sharepoint-azureb2b-integration-preview.md).)
   
 Because these guests do not have a license in your organization, they are limited to basic collaboration tasks:
   
@@ -152,8 +152,8 @@ You can also find help on security and permissions in these [YouTube videos from
   
 [Searching for site content shared externally](/office365/securitycompliance/keyword-queries-and-search-conditions)
 
-[Configure Teams with three tiers of protection](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)
+[Configure Teams with three tiers of protection](/microsoft-365/solutions/configure-teams-three-tiers-protection)
 
-[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)
+[Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment)
 
-[Settings interactions between Microsoft 365 Groups, Teams and SharePoint](https://docs.microsoft.com/microsoft-365/solutions/groups-sharepoint-teams-governance)
+[Settings interactions between Microsoft 365 Groups, Teams and SharePoint](/microsoft-365/solutions/groups-sharepoint-teams-governance)

@@ -64,7 +64,7 @@ To understand your environment before you upgrade it, and to plan for the time t
 
 To guarantee a smooth upgrade from SharePoint Server 2013 to SharePoint Server 2016, follow these best practices:
   
-1. Install the latest [Cumulative Update for SharePoint Server 2013](https://docs.microsoft.com/officeupdates/sharepoint-updates#sharepoint-2013-update-history) and latest [Public Update for SharePoint Server 2016](https://docs.microsoft.com/officeupdates/sharepoint-updates#sharepoint-2016-update-history) (but at a minimum, SharePoint Server 2013 must be running the March 2013 PU (15.0.4481.1005)).
+1. Install the latest [Cumulative Update for SharePoint Server 2013](/officeupdates/sharepoint-updates#sharepoint-2013-update-history) and latest [Public Update for SharePoint Server 2016](/officeupdates/sharepoint-updates#sharepoint-2016-update-history) (but at a minimum, SharePoint Server 2013 must be running the March 2013 PU (15.0.4481.1005)).
 
 2. Ensure that the environment is fully functioning before you begin to upgrade.
     
@@ -109,5 +109,3 @@ To guarantee a smooth upgrade from SharePoint Server 2013 to SharePoint Server 2
     The Upgrade Status page reports on the upgrade progress, and the upgrade logs list any errors or warnings that occurred during the upgrade process. Verify all the sites and test them before you consider the upgrade finished. For more information, see [Verify database upgrades in SharePoint Server 2016](verify-upgrade-for-databases.md) and the **Review site collections upgraded** section in [Upgrade site collections to SharePoint Server 2016](upgrade-site-collections.md).
     
 10. Make sure that the appropriate service pack or update is applied to your 2013 environment. If you are using remote blob storage (RBS) in your environment, you must be running SharePoint Server 2013 with Service Pack 1 (SP1) in your environment before you start the upgrade process.
-    
-

@@ -47,7 +47,7 @@ Before you plan to use variations with a SharePoint Server solution, you should 
 ### Content approval
 <a name="Section2a"> </a>
 
-Content approval is the method by which site members with approver permissions control the publication of content. In content approval, content is considered published when a new major version is approved, because major versions are viewable by users who have read permissions. Content approval in variation sites requires major and minor versioning in the Pages libraries on the source and target variation sites. For more information about content approval, see [Plan content approval and scheduling (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkID=95836).
+Content approval is the method by which site members with approver permissions control the publication of content. In content approval, content is considered published when a new major version is approved, because major versions are viewable by users who have read permissions. Content approval in variation sites requires major and minor versioning in the Pages libraries on the source and target variation sites. For more information about content approval, see [Plan content approval and scheduling (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc263156(v=office.14)).
   
 Content approval has unique factors that you should consider when you are planning variations:
   
@@ -88,7 +88,7 @@ Content deployment copies content from a source site collection to a destination
   
 We recommend that you disable any content deployment jobs that include the source variation site while Variations Create Hierarchies Job Definition runs. If content deployment runs while the Variations Create Hierarchies Job Definition timer job is also running, a target variation site that is only partially created may be synced to the target variation site on the destination server.
   
-For more information about content deployment planning, see [Plan content deployment ](https://go.microsoft.com/fwlink/p/?LinkID=95854).
+For more information about content deployment planning, see [Plan content deployment ](/previous-versions/office/sharepoint-server-2010/cc263428(v=office.14)).
   
 ### Cross-site publishing
 <a name="Section2c"> </a>
@@ -271,4 +271,3 @@ Download an Excel version of the [Variations planning worksheet](https://go.micr
 #### Concepts
 
 [Variations overview in SharePoint Server](variations-overview.md)
-

@@ -24,7 +24,7 @@ description: "Learn about how to plan site permissions for SharePoint Server to 
   
 This article helps you plan access control at the site collection, site, subsite, and site content (list or library, folder, item or document) levels.
   
-This article does not address planning the security of your entire server or server farm. For more information about planning other aspects of security, such as authentication methods and authentication modes, see [Plan authentication in SharePoint Server](/SharePoint/install/install).
+This article does not address planning the security of your entire server or server farm. For more information about planning other aspects of security, such as authentication methods and authentication modes, see [Plan authentication in SharePoint Server](../install/install.md).
   
 ## Plan for site permissions
 <a name="section4"> </a>
@@ -74,5 +74,3 @@ However, it is not as easy to manage a site that has permission inheritance as s
 |SiteA/SubsiteB  <br/> |Group shared project information  <br/> |Inherited  <br/> |
 |SiteA/SubsiteB/ListB  <br/> |Non-sensitive data, but with one or two sensitive items  <br/> |Inherited, with unique permissions at the item level  <br/> |
 |SiteA/SubsiteB/LibraryB  <br/> |Non-sensitive documents, but with a special folder that contain sensitive documents  <br/> |Inherited, with unique permissions at the folder and document level  <br/> |
-   
-

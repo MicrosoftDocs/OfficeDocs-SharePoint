@@ -219,7 +219,7 @@ Several of these steps mention prerequisite procedures that are documented in [P
     
 After you configure incoming email, site administrators can configure email-enabled lists and document libraries.
   
-If you selected Directory Management Service, contact addresses that are created for document libraries appear automatically in Active Directory Users and Computers. The addresses are displayed in the OU of AD DS for SharePoint Server and must be managed by the administrator of AD DS. The AD DS administrator can add more email addresses for each contact. For more information about AD DS, see [AD DS Getting Started](https://go.microsoft.com/fwlink/?linkid=858229). 
+If you selected Directory Management Service, contact addresses that are created for document libraries appear automatically in Active Directory Users and Computers. The addresses are displayed in the OU of AD DS for SharePoint Server and must be managed by the administrator of AD DS. The AD DS administrator can add more email addresses for each contact. For more information about AD DS, see [AD DS Getting Started](/windows-server/identity/ad-ds/ad-ds-getting-started). 
   
 Alternatively, you can configure the computer running Exchange Server by adding a new Exchange Server Global recipient policy. The policy automatically adds external addresses that use the second-level domain name and not the subdomain or host name for SharePoint Server.
   
@@ -373,7 +373,7 @@ If you use the **E-mail server display address** option andif the email address 
 7. Restart the SMTP server so that all email messages that are still in the Queue folder move to the Drop folder. The messages are then sent by the Windows SharePoint Services Timer service to their destination list or library.
     
 > [!NOTE]
-> If you are routing email from outside your organization to an SMTP server, you must use an MX record. For more information, see [Add a mail exchanger (MX) resource record to a zone](https://go.microsoft.com/fwlink/p/?LinkId=150827). 
+> If you are routing email from outside your organization to an SMTP server, you must use an MX record. For more information, see [Add a mail exchanger (MX) resource record to a zone](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc816902(v=ws.10)). 
   
 ### Add an SMTP connector in Microsoft Exchange Server 2016
 <a name="AddSMTPconnector"> </a>
@@ -412,7 +412,7 @@ Use the following procedure to add an SMTP connector in Exchange Server. After y
     
     The **Source server** page requires a server that contains transport roles.
     
-For more info, see [Learn more about Send connector types](https://go.microsoft.com/fwlink/?linkid=858230) in the Exchange Server Technical Library. 
+For more info, see [Learn more about Send connector types](/previous-versions/exchange-server/exchange-160/jj552891(v=exchg.160)) in the Exchange Server Technical Library. 
   
 ### Add an SMTP connector in Microsoft Exchange Server 2010
 <a name="AddSMTPcon"> </a>
@@ -457,7 +457,7 @@ Use the following procedure to add an SMTP connector in Exchange Server. After y
     
     In the **Hub Transport** pane, you can see that the send connector has been enabled automatically.
     
-For more info, see [Create an SMTP Send Connector](https://go.microsoft.com/fwlink/p/?LinkId=195321).
+For more info, see [Create an SMTP Send Connector](/previous-versions/office/exchange-server-2010/aa997285(v=exchg.141)).
   
 ### Configure permissions to the email drop folder
 <a name="ConfigureDropFolderPerms"> </a>
@@ -555,4 +555,3 @@ On servers that are running Windows Server 2012 R2, Windows Server 2016, Windows
 #### Concepts
 
 [Plan incoming email for a SharePoint Server farm](incoming-email-planning.md)
-

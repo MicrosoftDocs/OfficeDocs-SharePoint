@@ -102,29 +102,27 @@ If you are using a load balancer or a reverse proxy, make sure that your interna
   
 ### Apply an SSL certificate
 
-If the new IIS bindings use SSL, apply an SSL certificate to the new IIS website assigned to your zone. See [How to Set Up SSL on IIS 7)](https://docs.microsoft.com/iis/manage/configuring-security/how-to-set-up-ssl-on-iis) for more on configuring SSL.
+If the new IIS bindings use SSL, apply an SSL certificate to the new IIS website assigned to your zone. See [How to Set Up SSL on IIS 7)](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis) for more on configuring SSL.
   
 ### Apply an authentication method
 
-When you reextend your web application, the default SharePoint Server authentication method for the zone is Integrated Windows authentication. If you want to use an authentication method other than Integrated Windows, explicitly apply the authentication method you want to use. For more information about authentication methods, see [Plan for user authentication methods in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-user-authentication).
+When you reextend your web application, the default SharePoint Server authentication method for the zone is Integrated Windows authentication. If you want to use an authentication method other than Integrated Windows, explicitly apply the authentication method you want to use. For more information about authentication methods, see [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md).
   
-For more information about how to configure authentication for SharePoint Server 2016, see [Configure authentication infrastructure in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+For more information about how to configure authentication for SharePoint Server 2016, see [Configure authentication infrastructure in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
 ### Verify the Search start addresses and My Site settings
 
-Verify that the SharePoint Server Search start addresses are correct for your content sources. If the SharePoint Server Search start addresses are incorrect, update them. Also, verify that your My Site settings, including Personal Search Center, Personal Site Provider, and default RSS feed, are correct. If your My Site settings are incorrect, update them. For more information about how to configure My Site settings, see [Configure My Sites in SharePoint Server](/SharePoint/install/configure-my-sites).
+Verify that the SharePoint Server Search start addresses are correct for your content sources. If the SharePoint Server Search start addresses are incorrect, update them. Also, verify that your My Site settings, including Personal Search Center, Personal Site Provider, and default RSS feed, are correct. If your My Site settings are incorrect, update them. For more information about how to configure My Site settings, see [Configure My Sites in SharePoint Server](../install/configure-my-sites.md).
   
-For more information about Search start addresses, see [Plan crawling and federation in SharePoint Server](/SharePoint/search/plan-crawling-and-federation).
+For more information about Search start addresses, see [Plan crawling and federation in SharePoint Server](../search/plan-crawling-and-federation.md).
   
 ### Verify the trusted file locations
 
-If Excel Services in SharePoint Server 2013 is part of your deployment, verify that your trusted file locations are configured correctly. If your trusted file locations are configured incorrectly, update them. For more information about trusted file locations, see [Configure Excel Services in SharePoint Server 2013](/SharePoint/administration/configure-excel-services).
+If Excel Services in SharePoint Server 2013 is part of your deployment, verify that your trusted file locations are configured correctly. If your trusted file locations are configured incorrectly, update them. For more information about trusted file locations, see [Configure Excel Services in SharePoint Server 2013](./configure-excel-services.md).
   
 > [!NOTE]
 > Excel Services in SharePoint Server 2013 is only available in SharePoint Server 2013. 
   
 ### Redeploy solutions
 
-When you remove SharePoint Server from an IIS website, if you are removing the last (or only) website that is associated with the web application, any web application solutions you have deployed will also be removed. If you need these solutions, redeploy them. For additional information about how to manage solutions, see [Install and manage solutions for SharePoint Server](/SharePoint/administration/configure-excel-services)
-  
-
+When you remove SharePoint Server from an IIS website, if you are removing the last (or only) website that is associated with the web application, any web application solutions you have deployed will also be removed. If you need these solutions, redeploy them. For additional information about how to manage solutions, see [Install and manage solutions for SharePoint Server](./configure-excel-services.md)

@@ -29,7 +29,7 @@ description: "Learn how to enable display of previews of on-premises search resu
 
 Learn how to enable display of previews of on-premises search results in a Search Center in Office 365 for cloud hybrid search.
   
-In [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), when users search in Microsoft 365, they get search results from both on-premises and Microsoft 365 content. When a user hovers over a search result that comes from Microsoft 365, info about the content as well as a preview of the content is displayed. Information about the content from search results that come from SharePoint Server is displayed automatically, but display of previews is not automatic. You can enable such display of previews for content from SharePoint Server 2013 and SharePoint Server 2016, but not for content from SharePoint Server 2010. Users can click search results that come from SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016 to access the content.
+In [cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md), when users search in Microsoft 365, they get search results from both on-premises and Microsoft 365 content. When a user hovers over a search result that comes from Microsoft 365, info about the content as well as a preview of the content is displayed. Information about the content from search results that come from SharePoint Server is displayed automatically, but display of previews is not automatic. You can enable such display of previews for content from SharePoint Server 2013 and SharePoint Server 2016, but not for content from SharePoint Server 2010. Users can click search results that come from SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016 to access the content.
   
 To enable previews for on-premises content in SharePoint Server you need to set up an on-premises Office Online Server and configure SharePoint Server to use it.
   
@@ -85,9 +85,8 @@ Office Online Server needs to be on a separate server than SharePoint Server. He
 
 #### Other Resources
 
-[Learn about cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
+[Learn about cloud hybrid search for SharePoint in Microsoft 365](./learn-about-cloud-hybrid-search-for-sharepoint.md)
   
-[Plan cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
+[Plan cloud hybrid search for SharePoint in Microsoft 365](./plan-cloud-hybrid-search-for-sharepoint.md)
   
-[Configure cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap)
-
+[Configure cloud hybrid search for SharePoint in Microsoft 365](./configure-cloud-hybrid-searchroadmap.md)

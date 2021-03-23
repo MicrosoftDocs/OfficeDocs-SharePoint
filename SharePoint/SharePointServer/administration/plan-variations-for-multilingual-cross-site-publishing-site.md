@@ -104,7 +104,7 @@ The following diagram shows how you should set up your site architecture so that
 |6  <br/> |The German publishing site, which is connected to the catalog on the German target variation site (3).  <br/> |
 |D  <br/> |The term set that drives managed navigation for the German publishing site. This term set has pinned the terms from the term set (A) on the authoring site, and displays the German versions of the terms.  <br/> |
    
-In the article [Case Study: Mavention and web content management in SharePoint Server 2013](/SharePoint/sharepoint-server) you can see an example of how Mavention used this scenario for their multilingual cross-site publishing website. 
+In the article [Case Study: Mavention and web content management in SharePoint Server 2013](../sharepoint-server.yml) you can see an example of how Mavention used this scenario for their multilingual cross-site publishing website. 
   
 ## Scenario 3: Your publishing site should contain a mix of catalog content and non-catalog content, and you want to use variations on all your content
 <a name="BKMK_Scenario3"> </a>
@@ -147,7 +147,7 @@ To show differences in local search engine rankings, you must use locale-specifi
 ## Maintenance of design assets for the different scenarios
 <a name="BKMK_Design"> </a>
 
-When you use locale-specific site collections on your publishing site as described in scenario 1 and 2, you'll have to maintain your design files such as master pages, page layouts and display templates separately for each of your locale-specific site collections. For example, in scenario 1 and 2 you'll have to maintain three sets of design files. One in the English publishing site, one in the Norwegian publishing site and one in the German publishing site. You can use [Design Manager design packages](https://msdn.microsoft.com/library/office/jj862342%28v=office.15%29.aspx) to export and import the design files from your publishing sites. 
+When you use locale-specific site collections on your publishing site as described in scenario 1 and 2, you'll have to maintain your design files such as master pages, page layouts and display templates separately for each of your locale-specific site collections. For example, in scenario 1 and 2 you'll have to maintain three sets of design files. One in the English publishing site, one in the Norwegian publishing site and one in the German publishing site. You can use [Design Manager design packages](/sharepoint/dev/general-development/sharepoint-composites-handbook) to export and import the design files from your publishing sites. 
   
 If you use variations on your publishing site such as described in scenario 3, you can use the same design files across all your variation sites.
   

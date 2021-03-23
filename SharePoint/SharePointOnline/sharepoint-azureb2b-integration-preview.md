@@ -47,7 +47,7 @@ This integration is not supported in the following Microsoft 365 services:
 
 ## Enabling the integration
 
-This integration requires that your organization also enable [Azure AD email one-time passcode authentication](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
+This integration requires that your organization also enable [Azure AD email one-time passcode authentication](/azure/active-directory/b2b/one-time-passcode).
 
 To enable Azure AD passcode authentication
 1. Sign in to the [Azure portal](https://portal.azure.com) as an Azure AD global admin.
@@ -63,7 +63,7 @@ To enable SharePoint and OneDrive integration with Azure AD B2B
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." <br>On the Download Center page, select your language and then click the Download button. You'll be asked to choose between downloading a x64 and x86 .msi file. Download the x64 file if you're running the 64-bit version of Windows or the x86 file if you're running the 32-bit version. If you don't know, see [Which version of Windows operating system am I running?](https://support.microsoft.com/help/13443/windows-which-operating-system). After the file downloads, run it and follow the steps in the Setup Wizard.
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 3. Run the following cmdlets:
    ```PowerShell
    Set-SPOTenant -EnableAzureADB2BIntegration $true
@@ -77,6 +77,6 @@ Content that was shared externally while the integration was enabled will need t
 
 ## See also
 
-[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant)
+[Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant)
 
-[External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
+[External sharing overview](./external-sharing-overview.md)

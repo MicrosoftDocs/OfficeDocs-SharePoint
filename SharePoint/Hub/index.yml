@@ -34,7 +34,7 @@ additionalContent:
         # Card
         - title: SharePoint Hybrid
           summary: Learn about solutions for the SharePoint hybrid environment, and how to connect SharePoint Server and Microsoft 365.
-          url: /sharepoint/hybrid/hybrid
+          url: ../SharePointServer/hybrid/hybrid.md
         # Card
         - title: PowerShell Reference for SharePoint
           summary: Learn about the PowerShell cmdlets you need to manage SharePoint Server or SharePoint in Microsoft 365.
@@ -42,7 +42,7 @@ additionalContent:
         # Card
         - title: SharePoint Server
           summary: Plan, deploy, and manage SharePoint Server.
-          url: /sharepoint/sharepoint-server
+          url: ../SharePointServer/sharepoint-server.yml
         # Card
         - title: Troubleshoot
           summary: Find troubleshooting and support resources for IT Professionals and admins.
@@ -60,5 +60,4 @@ additionalContent:
         # Card
         - title: Microsoft 365 Community Content
           summary: Find solutions and scenario guidance for Microsoft 365 users as contributed by the IT Professional and Admin community.
-          url: https://docs.microsoft.com/microsoft-365/community/
-
+          url: /microsoft-365/community/

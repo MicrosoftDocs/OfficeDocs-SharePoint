@@ -45,7 +45,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: All Stat
   
 2. Start the SharePoint Management Shell.
     
-    For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows](https://go.microsoft.com/fwlink/?LinkID=715712&amp;clcid=0x409).
+    For more information about how to interact with Windows Server 2012 R2, see [Common Management Tasks and Navigation in Windows](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. To identify the paused database, type the following command at the PowerShell command prompt:
     
@@ -80,5 +80,3 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: All Stat
   -  _\<Credential\>_ is SQL Server authentication credentials for the database server. If this parameter is not specified, Windows authentication will be used. 
     
 For more information, see [Resume-SPStateServiceDatabase](/powershell/module/sharepoint-server/Resume-SPStateServiceDatabase?view=sharepoint-ps) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps). 
-  
-
