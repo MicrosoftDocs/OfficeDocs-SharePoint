@@ -27,8 +27,6 @@ description: "This article helps you understand, which tool to use when migratin
 
 Moving to Microsoft 365? Let us help you migrate your content easily and securely.
 
->[!Note]
->When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
 
 
 ## Migrate File Shares
@@ -81,7 +79,8 @@ Have content to migrate from other Cloud providers? The [Mover tool](https://mov
 - **OneDrive sync app**  Are you an individual user wanting to move files from your on-premises environment to OneDrive or SharePoint?  After installing the OneDrive sync app and syncing your library, you can drag and drop files to a folder on the computer and the content will automatically sync with either OneDrive or SharePoint. To learn more, see: [OneDrive sync app](/onedrive/one-drive-sync).
 
 
-</br>
+>[!Note]
+>When you migrate your content to Microsoft 365, you are copying the files.  Your source files are not deleted.
 
 **Mover acquisition**
 
