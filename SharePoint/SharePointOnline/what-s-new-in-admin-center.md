@@ -32,7 +32,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 > For info about new features in the Microsoft 365 admin center, see [What's new in the Microsoft 365 admin center](/microsoft-365/admin/whats-new-in-preview). For info about new features in Migration Manager, see [What's new in Migration Manager](/sharepointmigration/mm-whats-new).
 
 > [!IMPORTANT]
-> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
+> Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
   
 ## June 2020
 
@@ -44,7 +44,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 ## December 2019
 
-- **Customizable navigation pane**. You can [customize the navigation pane to show or hide items](/sharepoint/get-started-new-admin-center#customize-the-navigation-pane).
+- **Customizable navigation pane**. You can [customize the navigation pane to show or hide items](./get-started-new-admin-center.md#customize-the-navigation-pane).
     
     ![The Customize navigation option at the bottom of the navigation pane.](media/customize-navigation.png)
 
@@ -72,7 +72,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
     ![The Settings page.](media/settings-page.png)
 
-- **Updated More features page**. Classic features can now be found on the [More features page](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true). [Learn where to find features in the new SharePoint admin center](/sharepoint/get-started-new-admin-center#where-to-find-things-in-the-new-sharepoint-admin-center).
+- **Updated More features page**. Classic features can now be found on the [More features page](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true). [Learn where to find features in the new SharePoint admin center](./get-started-new-admin-center.md#where-to-find-things-in-the-new-sharepoint-admin-center).
 
     ![The More features page.](media/more-features-page.png)
 
@@ -86,7 +86,7 @@ We're continuously adding new features to the new SharePoint admin center and fi
 
 ## June 2019
 
-- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page). [Learn how to select the default admin experience](/sharepoint/get-started-new-admin-center#open-the-new-sharepoint-admin-center-by-default).
+- The new SharePoint admin center is set as the default experience unless you select to open the classic SharePoint admin center by default (on the Settings page). [Learn how to select the default admin experience](./get-started-new-admin-center.md#open-the-new-sharepoint-admin-center-by-default).
 
 - On the Active sites page, you can select multiple sites and bulk edit sharing and hub association settings.
 

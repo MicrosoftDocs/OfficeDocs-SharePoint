@@ -24,7 +24,7 @@ Electronic Discovery, or eDiscovery, is the discovery of content in electronic f
 The eDiscovery Center is a SharePoint site collection used to perform electronic discovery actions. In an eDiscovery Center, you can create cases, which are SharePoint sites that allow you to identify, hold, search, and export content from SharePoint sites, and searchable file shares.
   
 > [!NOTE]
->  Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported. >  In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article [Default crawled file name extensions and parsed file types in SharePoint Server 2013](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types). 
+>  Once you add content sources or queries to an eDiscovery case, changing the regional settings for the site is not supported. >  In order for content to be discovered, it must be crawled by search. For more information about the default file types that are crawled, see the article [Default crawled file name extensions and parsed file types in SharePoint Server 2013](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md). 
   
 ## Planning and creating cases
 <a name="__top"> </a>
@@ -102,7 +102,7 @@ If you anticipate managing multiple cases in your eDiscovery Center, consider wh
     
 13. Select **Save**.
     
-For more info, see [Add content to a case and place sources on hold in the eDiscovery Center](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center).
+For more info, see [Add content to a case and place sources on hold in the eDiscovery Center](./add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md).
   
   
 ## Run queries and export content
@@ -127,17 +127,14 @@ When you close a case, in-place holds will be released for all of its sources, a
 
 For more info about eDiscovery cases, see the following articles:
     
-[Add content to a case and place sources on hold in the eDiscovery Center](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)
+[Add content to a case and place sources on hold in the eDiscovery Center](./add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center.md)
   
-[Searching and using keywords in the eDiscovery Center](/SharePoint/governance/searching-and-using-keywords-in-the-ediscovery-center)
+[Searching and using keywords in the eDiscovery Center](./searching-and-using-keywords-in-the-ediscovery-center.md)
   
-[Default crawled file name extensions and parsed file types in SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
+[Default crawled file name extensions and parsed file types in SharePoint Server](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md)
   
-[Overview of crawled and managed properties in SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+[Overview of crawled and managed properties in SharePoint Server](../technical-reference/crawled-and-managed-properties-overview.md)
   
-[Create and run queries in the eDiscovery Center](/SharePoint/governance/create-and-run-queries-in-the-ediscovery-center)
+[Create and run queries in the eDiscovery Center](./create-and-run-queries-in-the-ediscovery-center.md)
   
-[Export content and create reports in the eDiscovery Center](/SharePoint/governance/export-content-and-create-reports-in-the-ediscovery-center)
-  
-
-
+[Export content and create reports in the eDiscovery Center](./export-content-and-create-reports-in-the-ediscovery-center.md)

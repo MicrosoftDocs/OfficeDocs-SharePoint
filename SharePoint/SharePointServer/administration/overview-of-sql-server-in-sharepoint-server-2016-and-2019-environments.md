@@ -94,7 +94,7 @@ The SQL Server databases that support SharePoint Server 2016 are subject to sizi
 
 SQL Server 2014 (SP1) provides greater performance, availability, and manageability with SharePoint Server 2016 than SQL Server 2014. While you can't use SQL Server Power Pivot for SharePoint or Power View for SharePoint with SQL Server 2014 (SP1), you can use some business intelligence solutions with SharePoint Server 2016. For example, you can install Office Online Server to use Excel Online.
   
-For more information, see [Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/?LinkID=524888&amp;clcid=0x409). For detailed information about Office Online Server, see [Configure Office Online Server for SharePoint Server 2016](/webappsserver/configure-office-web-apps-for-sharepoint-2013).
+For more information, see [Features Supported by the Editions of SQL Server 2014](/sql/sql-server/editions-and-components-of-sql-server-2016). For detailed information about Office Online Server, see [Configure Office Online Server for SharePoint Server 2016](/webappsserver/configure-office-web-apps-for-sharepoint-2013).
   
 ### High Availability Solutions
 <a name="HA"> </a>
@@ -102,20 +102,20 @@ For more information, see [Features Supported by the Editions of SQL Server 2014
 We recommend AlwaysOn Availability Groups and AlwaysOn Failover Cluster Instances for high availability in SQL Server 2014 Reporting Services (SP1). Other high availability solutions are database mirroring, and log shipping. Both AlwaysOn Availability Groups and Failover Cluster Instances solutions require and use Windows Server Failover Clustering (WSFC).
   
 > [!NOTE]
-> We recommend that you use AlwaysOn Availability Groups instead of database mirroring for your high availability solution with SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM for SharePoint Servers 2016 and 2019. For more information, see [Overview of SQL Server High-Availability Solutions](https://go.microsoft.com/fwlink/?LinkID=718030&amp;clcid=0x409). 
+> We recommend that you use AlwaysOn Availability Groups instead of database mirroring for your high availability solution with SQL Server 2014 (SP1), SQL Server 2016, and SQL Server 2017 RTM for SharePoint Servers 2016 and 2019. For more information, see [Overview of SQL Server High-Availability Solutions](/sql/database-engine/sql-server-business-continuity-dr?viewFallbackFrom=sql-server-2014). 
   
-For more information, see [AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=718032&amp;clcid=0x409), and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=718033&amp;clcid=0x409).For information about high availability for SQL Server Reporting Services, see [High Availability (Reporting Services)](https://go.microsoft.com/fwlink/?LinkID=808640&amp;clcid=0x409). 
+For more information, see [AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?viewFallbackFrom=sql-server-2014), and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability).For information about high availability for SQL Server Reporting Services, see [High Availability (Reporting Services)](https://go.microsoft.com/fwlink/?LinkID=808640&amp;clcid=0x409). 
   
 #### Log Shipping
 
-SQL Server Log shipping provides a disaster recovery solution for single primary databases and multiple secondary databases where each are located on separate instances of SQL Server. Log shipping backs up the transaction log on the production server, copies the log to the backup or secondary instances, and is then available to restore the log backup. You can then configure alerts to notify you when the production server fails. Then you can fail over from the production server to the backup servers so if the production server fails one of the backup or secondary servers can be brought online to act as the production server. For more information, see [About Log Shipping (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=808641&amp;clcid=0x409).
+SQL Server Log shipping provides a disaster recovery solution for single primary databases and multiple secondary databases where each are located on separate instances of SQL Server. Log shipping backs up the transaction log on the production server, copies the log to the backup or secondary instances, and is then available to restore the log backup. You can then configure alerts to notify you when the production server fails. Then you can fail over from the production server to the backup servers so if the production server fails one of the backup or secondary servers can be brought online to act as the production server. For more information, see [About Log Shipping (SQL Server)](/sql/database-engine/log-shipping/about-log-shipping-sql-server?viewFallbackFrom=sql-server-2014).
   
 ### Reporting Services SharePoint mode
 <a name="RSsp"> </a>
 
 When you setup Reporting Services with SharePoint Server 2016 you create a report server. The report server is the central component of Reporting Services. This component contains two processing engines and a set of unique extensions that handle authentication, data processing, rendering, and delivery operations. 
   
-For more information, see [Supported Combinations of SharePoint and Reporting Services Server and Add-in (SQL Server 2016)](https://go.microsoft.com/fwlink/?LinkID=808645&amp;clcid=0x409). The following levels of integration are provided when you run a report server in integrated mode with SharePoint Server 2016.
+For more information, see [Supported Combinations of SharePoint and Reporting Services Server and Add-in (SQL Server 2016)](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server). The following levels of integration are provided when you run a report server in integrated mode with SharePoint Server 2016.
   
 - Shared storage
     
@@ -141,7 +141,7 @@ For more information, see [Reporting Services Report Server (SharePoint Mode)](h
 ### SQL Server 2016
 <a name="sec5"> </a>
 
-SQL Server 2016 provides business intelligence solutions for SharePoint Server 2016. The SharePoint mode of SQL Server 2016 provides features for SQL Server Analysis Services and SQL Server Reporting Services. For more information, see [Features Supported by the Editions of SQL Server 2016](https://go.microsoft.com/fwlink/?LinkID=808159&amp;clcid=0x409).
+SQL Server 2016 provides business intelligence solutions for SharePoint Server 2016. The SharePoint mode of SQL Server 2016 provides features for SQL Server Analysis Services and SQL Server Reporting Services. For more information, see [Features Supported by the Editions of SQL Server 2016](/sql/sql-server/editions-and-components-of-sql-server-2016).
   
 When you install SQL Server 2016 Analysis Services (SSAS) and SQL Server 2016 Reporting Services (SSRS) in a SharePoint Server 2016 farm the following business intelligence solutions are available:
   
@@ -167,16 +167,16 @@ The following SharePoint Server 2016 business intelligence features are availabl
     
 - Report Alerting
     
-For more info, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](https://go.microsoft.com/fwlink/p/?LinkID=723106&amp;clcid=0x409). 
+For more info, download the new [Deploying SQL Server 2016 PowerPivot and Power View in SharePoint 2016](https://go.microsoft.com/fwlink/p/?LinkID=717977&amp;clcid=0x409) white paper. For details about configuring and deploying business intelligence in a multiple server SharePoint Server 2016 farm, download [Deploying SQL Server 2016 PowerPivot and Power View in a Multi-Tier SharePoint 2016 Farm](/sql/sql-server/install/install-sql-server-business-intelligence-features). 
   
-For more info, see [Supported Combinations of SharePoint and Reporting Services Server and Add-in (SQL Server 2016)](https://go.microsoft.com/fwlink/?LinkID=808645&amp;clcid=0x409) and [Install SQL Server 2016 Business Intelligence Features](https://go.microsoft.com/fwlink/?LinkID=808646&amp;clcid=0x409).
+For more info, see [Supported Combinations of SharePoint and Reporting Services Server and Add-in (SQL Server 2016)](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server) and [Install SQL Server 2016 Business Intelligence Features](/sql/sql-server/install/install-sql-server-business-intelligence-features).
   
 ### Power Pivot for SharePoint
 <a name="PP"> </a>
 
-SQL Server 2016 RTM is required to deploy Power Pivot for SharePoint 2016. Power Pivot for SharePoint 2016 is an add-in that is available in the SQL Server 2016 RTM Feature Pack. SQL Server 2016 Analysis Services must be run in SharePoint mode. This provides a server that hosts Power Pivot data in a SharePoint farm. For more information, see [Install Analysis Services in Power Pivot Mode](https://go.microsoft.com/fwlink/?LinkID=808752&amp;clcid=0x409). The server that hosts Power Pivot for SharePoint 2016 can be outside a SharePoint Server 2016 farm.
+SQL Server 2016 RTM is required to deploy Power Pivot for SharePoint 2016. Power Pivot for SharePoint 2016 is an add-in that is available in the SQL Server 2016 RTM Feature Pack. SQL Server 2016 Analysis Services must be run in SharePoint mode. This provides a server that hosts Power Pivot data in a SharePoint farm. For more information, see [Install Analysis Services in Power Pivot Mode](/analysis-services/instances/install-windows/install-analysis-services-in-power-pivot-mode?viewFallbackFrom=sql-server-ver15). The server that hosts Power Pivot for SharePoint 2016 can be outside a SharePoint Server 2016 farm.
   
-SQL Server 2016 Analysis Services provides three modes for analysis, Multidimensional, Tabular, and Power Pivot for SharePoint. Note that each server mode is independent of the others, and each supports a type of analytical database that only runs in that modality. For more information about SQL Server 2016 Analysis Services, see [Analysis Services](https://go.microsoft.com/fwlink/?LinkID=808753&amp;clcid=0x409).
+SQL Server 2016 Analysis Services provides three modes for analysis, Multidimensional, Tabular, and Power Pivot for SharePoint. Note that each server mode is independent of the others, and each supports a type of analytical database that only runs in that modality. For more information about SQL Server 2016 Analysis Services, see [Analysis Services](/analysis-services/analysis-services-overview?viewFallbackFrom=sql-server-ver15).
   
 To configure Power Pivot for SharePoint you can use the Power Pivot for SharePoint 2013 Configuration tool, the SharePoint Central Administration website, or Microsoft PowerShell cmdlets. The following table lists each method and describes the process: 
   
@@ -189,24 +189,23 @@ To configure Power Pivot for SharePoint you can use the Power Pivot for SharePoi
 ### Power View for SharePoint
 <a name="PV"> </a>
 
-Power View is a feature included with [Microsoft SQL Server 2016 Reporting Services Add-in for Microsoft SharePoint](https://www.microsoft.com/download/details.aspx?id=52682). Install SQL Server 2016 Reporting Services Add-in for SharePoint, and then configure the servers for integration. When you deploy Power View for SharePoint you can create and interact with views of data from data models that are based on Power Pivot workbooks that are published in a Power Pivot Gallery, or tabular models that are deployed to SSAS. You can also create and view reports from SSRS on SharePoint document libraries. All Power View reports provide multiple views that feature tiles, slicers, chart filters, and visualizations. For more information, see [What's New in Reporting Services (SSRS)](https://go.microsoft.com/fwlink/?LinkID=808761&amp;clcid=0x409).
+Power View is a feature included with [Microsoft SQL Server 2016 Reporting Services Add-in for Microsoft SharePoint](https://www.microsoft.com/download/details.aspx?id=52682). Install SQL Server 2016 Reporting Services Add-in for SharePoint, and then configure the servers for integration. When you deploy Power View for SharePoint you can create and interact with views of data from data models that are based on Power Pivot workbooks that are published in a Power Pivot Gallery, or tabular models that are deployed to SSAS. You can also create and view reports from SSRS on SharePoint document libraries. All Power View reports provide multiple views that feature tiles, slicers, chart filters, and visualizations. For more information, see [What's New in Reporting Services (SSRS)](/sql/reporting-services/what-s-new-in-sql-server-reporting-services-ssrs).
   
 ## See also
 <a name="sec4"> </a>
 
 #### Other Resources
 
-[Supported Combinations of SharePoint and Reporting Services Server and Add-in (SQL Server 2016)](https://go.microsoft.com/fwlink/?LinkID=808645&amp;clcid=0x409)
+[Supported Combinations of SharePoint and Reporting Services Server and Add-in (SQL Server 2016)](/sql/reporting-services/install-windows/supported-combinations-of-sharepoint-and-reporting-services-server)
   
-[What's New in SQL Server 2016](https://go.microsoft.com/fwlink/?LinkID=808784&amp;clcid=0x409)
+[What's New in SQL Server 2016](/sql/sql-server/what-s-new-in-sql-server-2016)
   
-[Deprecated and Discontinued SQL Server Features in SQL Server 2016](https://go.microsoft.com/fwlink/?LinkID=808785&amp;clcid=0x409)
+[Deprecated and Discontinued SQL Server Features in SQL Server 2016](/previous-versions/sql/sql-server-2016/cc707789(v=sql.130))
   
-[What's New (Analysis Services)](https://go.microsoft.com/fwlink/?LinkID=808786&amp;clcid=0x409)
+[What's New (Analysis Services)](/analysis-services/what-s-new-in-sql-server-analysis-services?viewFallbackFrom=sql-server-ver15)
   
-[Analysis Services](https://go.microsoft.com/fwlink/?LinkID=808753&amp;clcid=0x409)
+[Analysis Services](/analysis-services/analysis-services-overview?viewFallbackFrom=sql-server-ver15)
   
-[Features Supported by the Editions of SQL Server 2014](https://go.microsoft.com/fwlink/p/?LinkId=151940)
+[Features Supported by the Editions of SQL Server 2014](/sql/sql-server/editions-and-components-of-sql-server-2016)
   
-[Deprecated Database Engine Features in SQL Server 2014](https://go.microsoft.com/fwlink/p/?LinkId=157729)
-
+[Deprecated Database Engine Features in SQL Server 2014](/sql/database-engine/deprecated-database-engine-features-in-sql-server-2016)

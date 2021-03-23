@@ -144,7 +144,7 @@ The next step is to configure hybrid SharePoint taxonomy by running the Hybrid P
     
 2. From your SharePoint Server computer, open a web browser.
     
-3. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+3. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 4. Under **Hybrid picker**, select **Open**.
     
@@ -197,4 +197,3 @@ If you simply want to reconfigure which taxonomy groups you are replicating, the
 #### Other Resources
 
 [TechNet Forums - Hybrid Taxonomy](https://social.technet.microsoft.com/Forums/office/home?forum=hybridtaxonomy)
-

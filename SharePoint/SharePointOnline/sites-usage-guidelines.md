@@ -91,7 +91,7 @@ Using the steps below as a template, create your own custom guidance for SharePo
 - Provide information on the way your organization has set up sharing. If you have modified the settings from the defaults, you can tell your site owners what the sharing settings are for your organization, including for external sharing. 
 
 **Resources:** </br>
-- [Plan your permissions strategy](plan-your-permissions-strategy.md)
+- [Plan your permissions strategy](./default-sharepoint-groups.md)
 
 
 **Sample text:** </br>

@@ -69,7 +69,7 @@ To understand how to implement software updates in SharePoint Server 2016, it is
 |**software update** <br/> |A software update is any update, update rollup, service pack, feature pack, critical update, security update, or hotfix that is used to improve or to fix a software product that is released by Microsoft Corporation.  <br/> ||
 |**upgrade** <br/> |Process by which you change an environment to use a newer version of software. You can upgrade to a minor release, such as an update or patch, or to a major release. An upgrade to a minor release is called a build-to-build upgrade. An upgrade to a major release is called a version-to-version upgrade.  <br/> |In SharePoint Server 2016, for build-to-build upgrades, you can use either in-place or database-attach methods. For version-to-version upgrade, only database-attach is supported. For more information about version-to-version upgrade, see [Overview of the upgrade process to SharePoint Server 2016](overview-of-the-upgrade-process.md). For an overview of the steps for in-place and database-attach upgrade for build-to-build upgrades, see [Install a software update for SharePoint Server 2016](install-a-software-update.md) <br/> |
    
-For a complete list of terminology about software updates, see [Description of the standard terminology that is used to describe Microsoft software updates](https://go.microsoft.com/fwlink/p/?LinkID=142308).
+For a complete list of terminology about software updates, see [Description of the standard terminology that is used to describe Microsoft software updates](/troubleshoot/windows-client/deployment/standard-terminology-software-updates).
   
 ## Software update features
 <a name="Improvements"> </a>
@@ -121,7 +121,7 @@ After you finish the patch phase, you must complete the update installation by s
 <a name="updatestrategy"> </a>
 
 > [!NOTE]
-> The information in this section is valid if you farm is not in a high availability (HA) environment. If you have an HA environment, follow the instructions at [SharePoint Server 2016 zero downtime patching steps](/SharePoint/upgrade-and-update/sharepoint-server-2016-zero-downtime-patching-steps).
+> The information in this section is valid if you farm is not in a high availability (HA) environment. If you have an HA environment, follow the instructions at [SharePoint Server 2016 zero downtime patching steps](./sharepoint-server-2016-zero-downtime-patching-steps.md).
   
 The update strategy that you select is based primarily on one of the following factors:
   
@@ -328,5 +328,3 @@ Data issues result from the condition of the farm databases and can include all 
 - Hidden column data
     
 In some cases you can troubleshoot minor issues and then resume or restart the update. Be prepared to roll back the update if you cannot resolve issues.
-  
-

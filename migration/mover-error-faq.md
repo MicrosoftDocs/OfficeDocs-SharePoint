@@ -47,7 +47,6 @@ The following tables contain error messages you may encounter and how to resolve
 
 |Error|Action to take|
 |:-----|:-----|
-|Error: "Bad Request: Unable to update users. Required heading not found: id"|The ID column of each user needs to be the first column of the .csv in order to change already existing User Transfer Rows. For more information see: [Review users: editing](https://docs.microsoft.com/sharepointmigration/mover-review-users#editing)|
-|Could not retrieve user count: user count could not be retrieved.|Reauthorize the connector.  See [Reauthorizing connectors](https://docs.microsoft.com/sharepointmigration/mover-manage-connectors#reauthorizing-connectors)|
+|Error: "Bad Request: Unable to update users. Required heading not found: id"|The ID column of each user needs to be the first column of the .csv in order to change already existing User Transfer Rows. For more information see: [Review users: editing](./mover-review-users.md#editing)|
+|Could not retrieve user count: user count could not be retrieved.|Reauthorize the connector.  See [Reauthorizing connectors](./mover-manage-connectors.md#reauthorizing-connectors)|
 |Error: Unable to get contents of this folder: Connection Error|Some IT departments don't want to do Box or Dropbox data migration themselves, so instead of using Box or Dropbox (Co-Admin) to O365, they are asking all their users to use Single User to OneDrive For Business (Single User). <br>- If your organization requires Multi-Factor Authentication (MFA) and you receive an authorization error, your conditional access policy may not be configured correctly.<br>- One workaround is for the administrator to disable MFA for these users during Mover migrations.<br>- Otherwise, you will need to contact "Azure Identity" support for help configuring conditional access policies.
-

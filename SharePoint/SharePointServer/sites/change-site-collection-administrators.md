@@ -100,5 +100,4 @@ Use this procedure to specify the user to be removed from the site collection ad
 [Create a site collection in SharePoint Server](create-a-site-collection.md)
 #### Other Resources
 
-[Manage administrators for a site collection](https://go.microsoft.com/fwlink/?linkid=845358)
-
+[Manage administrators for a site collection](../../SharePointOnline/manage-site-collection-administrators.md)

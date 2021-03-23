@@ -70,7 +70,7 @@ If the user was deleted within 30 days, you can restore the user and all their d
   Set-SPOUser -Site <URL> -LoginName <UPNofDesiredAdmin> -IsSiteCollectionAdmin $True
   ```
 
-For more info about these cmdlets, see [Get-SPODeletedSite](https://go.microsoft.com/fwlink/?linkid=874326) and [Restore-SPODeletedSite](https://go.microsoft.com/fwlink/?linkid=874327).
+For more info about these cmdlets, see [Get-SPODeletedSite](/powershell/module/sharepoint-online/get-spodeletedsite) and [Restore-SPODeletedSite](/powershell/module/sharepoint-online/restore-spodeletedsite).
   
 ## Permanently delete a OneDrive
 

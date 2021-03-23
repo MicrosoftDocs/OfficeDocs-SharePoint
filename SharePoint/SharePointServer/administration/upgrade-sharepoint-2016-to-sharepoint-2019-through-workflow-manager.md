@@ -20,7 +20,7 @@ description: "Learn how to upgrade SharePoint Server 2016 to SharePoint Server 2
 
 ## Summary
 
-When you upgrade Microsoft SharePoint Server 2016 to Microsoft SharePoint Server 2019, you don't have to create a new Workflow Manager installation. You can use the same installation that was used by the SharePoint 2016 farm in the new SharePoint Server 2016 farm. However, you may have to create a new installation of Workflow Manager in certain circumstances. For example, if you want to move Workflow Manager to a different Windows operating system, or if the back-end database server is decommissioned. In these situations, follow the steps in [Workflow Manager Disaster Recovery](https://blogs.msdn.microsoft.com/biztalknotes/2014/05/14/workflow-manager-disaster-recovery/) to create the new Workflow Manager installation by using the old databases. Make sure that you use the most recent copy of the Workflow Manager databases.
+When you upgrade Microsoft SharePoint Server 2016 to Microsoft SharePoint Server 2019, you don't have to create a new Workflow Manager installation. You can use the same installation that was used by the SharePoint 2016 farm in the new SharePoint Server 2016 farm. However, you may have to create a new installation of Workflow Manager in certain circumstances. For example, if you want to move Workflow Manager to a different Windows operating system, or if the back-end database server is decommissioned. In these situations, follow the steps in [Workflow Manager Disaster Recovery](/archive/blogs/biztalknotes/workflow-manager-disaster-recovery) to create the new Workflow Manager installation by using the old databases. Make sure that you use the most recent copy of the Workflow Manager databases.
 
 ## Background
 

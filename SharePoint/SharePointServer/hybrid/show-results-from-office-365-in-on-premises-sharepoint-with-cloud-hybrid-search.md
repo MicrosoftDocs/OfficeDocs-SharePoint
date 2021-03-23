@@ -30,7 +30,7 @@ description: "Learn how to show results from the Microsoft 365 search index when
 
 Learn how to show results from the Microsoft 365 search index when searching from SharePoint Server sites with cloud hybrid search.
   
-After you've set up [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), your users get search results from both on-premises and Microsoft 365 content when they use the search center in Office 365. However, your existing search in document libraries in SharePoint Server, such as Team Sites, stops returning results when you've set up cloud hybrid search. If your users need to search from Team Sites, you can set up search from SharePoint Server Team Sites to show results from the search index in Office 365. You use the cloud Search service application to achieve this. Note that searching from a Search Center in Office 365 will be faster than searching from a document library in SharePoint Server because the search index and the search center are in the same environment.
+After you've set up [cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md), your users get search results from both on-premises and Microsoft 365 content when they use the search center in Office 365. However, your existing search in document libraries in SharePoint Server, such as Team Sites, stops returning results when you've set up cloud hybrid search. If your users need to search from Team Sites, you can set up search from SharePoint Server Team Sites to show results from the search index in Office 365. You use the cloud Search service application to achieve this. Note that searching from a Search Center in Office 365 will be faster than searching from a document library in SharePoint Server because the search index and the search center are in the same environment.
   
 Here's an overview of the cloud hybrid search solution. The light grey lines represent what you're setting up by following the steps in this article.
   
@@ -107,23 +107,21 @@ In each of the following steps, when you refer to the SharePoint Server document
     
 3. Grant permission to connect to the cloud SSA.
     
-    Grant permission to the consuming SharePoint Server 2010 or SharePoint Server 2013 farm to be able to connect the published cloud SSA. See [Set permissions to published service applications in SharePoint 2013](/SharePoint/administration/set-permission-to-a-published-service-application).
+    Grant permission to the consuming SharePoint Server 2010 or SharePoint Server 2013 farm to be able to connect the published cloud SSA. See [Set permissions to published service applications in SharePoint 2013](../administration/set-permission-to-a-published-service-application.md).
     
 4. Connect to the cloud SSA.
     
-    Once the trust and permissions have been set between the farms, you can configure SharePoint Server 2010 or SharePoint Server 2013 to connect to the cloud SSA on your cloud search farm. See [Connect to service applications on remote farms in SharePoint 2013](/SharePoint/administration/connect-to-a-service-application-on-a-remote-farm).
+    Once the trust and permissions have been set between the farms, you can configure SharePoint Server 2010 or SharePoint Server 2013 to connect to the cloud SSA on your cloud search farm. See [Connect to service applications on remote farms in SharePoint 2013](../administration/connect-to-a-service-application-on-a-remote-farm.md).
     
 5. Configure web applications to associate with the cloud SSA.
     
-    In SharePoint Server 2010 or SharePoint Server 2013, configure the web applications to associate with the new cloud SSA connection. See [Add or remove service application connections from a web application in SharePoint 2013](/SharePoint/administration/add-or-remove-a-service-application-connection-to-a-web-application).
+    In SharePoint Server 2010 or SharePoint Server 2013, configure the web applications to associate with the new cloud SSA connection. See [Add or remove service application connections from a web application in SharePoint 2013](../administration/add-or-remove-a-service-application-connection-to-a-web-application.md).
     
 ## Related Topics
 <a name="BKMK_Set_up_query_federation"> </a>
 
-[Learn about cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
+[Learn about cloud hybrid search for SharePoint in Microsoft 365](./learn-about-cloud-hybrid-search-for-sharepoint.md)
   
-[Plan cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)
+[Plan cloud hybrid search for SharePoint in Microsoft 365](./plan-cloud-hybrid-search-for-sharepoint.md)
   
-[Configure cloud hybrid search for SharePoint in Microsoft 365](/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap)
-  
-
+[Configure cloud hybrid search for SharePoint in Microsoft 365](./configure-cloud-hybrid-searchroadmap.md)

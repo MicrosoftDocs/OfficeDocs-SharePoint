@@ -746,11 +746,11 @@ SharePoint Server 2019 normally creates a new search topology with all the searc
     
 11. (Optional) Preserve search relevance settings from the SharePoint Server 2016 farm. Because the upgraded Search service application has a new, empty index, search analytics data from the SharePoint Server 2016 farm cannot be fully retained. Copy the Analytics Reporting database from the SharePoint Server 2016 farm and attach it to the new Search service application in the SharePoint Server 2019 farm:
     
-      - In the SharePoint Server 2016 farm, [backup](/SharePoint/administration/move-or-rename-service-application-databases#Backup) the Analytics Reporting database. 
+      - In the SharePoint Server 2016 farm, [backup](../administration/move-or-rename-service-application-databases.md#Backup) the Analytics Reporting database. 
         
-      - In the SharePoint Server 2019 farm, [restore the backed up database](/SharePoint/administration/move-or-rename-service-application-databases#Restore) to the new database server. 
+      - In the SharePoint Server 2019 farm, [restore the backed up database](../administration/move-or-rename-service-application-databases.md#Restore) to the new database server. 
         
-      - In the SharePoint Server 2019 farm, [attach the restored database](/SharePoint/administration/move-or-rename-service-application-databases#PS) to the new Search service application. 
+      - In the SharePoint Server 2019 farm, [attach the restored database](../administration/move-or-rename-service-application-databases.md#PS) to the new Search service application. 
     
 12. Verify that the search topology on the new SharePoint Server 2019 farm is alike that of the SharePoint Server 2016 farm. If your requirements for search have changed, now is a good time to scale out the search topology of the new SharePoint Server 2019 farm.
     

@@ -165,7 +165,7 @@ The following table lists the recommended guidelines for site collections.
 #### List and library limits
 <a name="ListLibrary"> </a>
 
-The following table lists the recommended guidelines for lists and libraries. For more information, see [Designing large Lists and maximizing list performance (SharePoint Server 2010)](https://go.microsoft.com/fwlink/p/?LinkId=105580).
+The following table lists the recommended guidelines for lists and libraries. For more information, see [Designing large Lists and maximizing list performance (SharePoint Server 2010)](/previous-versions/office/sharepoint-server-2010/cc262813(v=office.14)).
   
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
@@ -555,4 +555,4 @@ The following table lists limits and recommended guidelines for services and fea
   
 [Performance planning in SharePoint Server 2013](../administration/performance-planning-in-sharepoint-server-2013.md)
   
-[SharePoint Server 2010 capacity management: Software boundaries and limits](https://docs.microsoft.com/previous-versions/office/sharepoint-server-2010/cc262787(v=office.14))
+[SharePoint Server 2010 capacity management: Software boundaries and limits](/previous-versions/office/sharepoint-server-2010/cc262787(v=office.14))

@@ -45,9 +45,9 @@ The following tables provide the supported high availability and disaster recove
 ## Supported Versions of SQL Server
 
 For supported versions of SQL Server, see:
-- [Hardware and software requirements for SharePoint Server 2019](https://docs.microsoft.com/SharePoint/install/hardware-and-software-requirements-2019)
-- [Hardware and software requirements for SharePoint Server 2016](https://docs.microsoft.com/SharePoint/install/hardware-and-software-requirements)
-- [Hardware and software requirements for SharePoint 2013](https://docs.microsoft.com/SharePoint/install/hardware-and-software-requirements-0) 
+- [Hardware and software requirements for SharePoint Server 2019](../install/hardware-and-software-requirements-2019.md)
+- [Hardware and software requirements for SharePoint Server 2016](../install/hardware-and-software-requirements.md)
+- [Hardware and software requirements for SharePoint 2013](../install/hardware-and-software-requirements-0.md) 
   
 **Configuration database**
 
@@ -390,7 +390,7 @@ The following table describes the supported high availability and disaster recov
 ## SQL Server System databases
 <a name="SQLSysDbs"> </a>
 
-SharePoint Server is built on SQL Server and uses the following SQL Server system databases: master, msdb, model, Resource, and tempdb. SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](https://go.microsoft.com/fwlink/?LinkID=733887&amp;clcid=0x409).
+SharePoint Server is built on SQL Server and uses the following SQL Server system databases: master, msdb, model, Resource, and tempdb. SQL Server provides a complete set of administrative tools that let users fully administer their system and manage all users and objects in a database. For more information about the SQL Server system databases, see [System Databases](/sql/relational-databases/databases/system-databases?viewFallbackFrom=sql-server-2014).
   
 You can only mirror user databases, put them in a SQL Server AlwaysOn availability group or log ship them. You can't use these approaches to provide high availability or disaster recovery for the system databases.
   
@@ -424,7 +424,6 @@ A Reporting Services report server is a stateless server that stores application
 [Database types and descriptions in SharePoint Server](../technical-reference/database-types-and-descriptions.md)
 #### Other Resources
 
-[AlwaysOn Availability Groups (SQL Server): Interoperability and Coexistence with Other Database Engine Features](https://go.microsoft.com/fwlink/p/?LinkId=272808)
+[AlwaysOn Availability Groups (SQL Server): Interoperability and Coexistence with Other Database Engine Features](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server)
   
-[Database Mirroring: Interoperability and Coexistence](https://msdn.microsoft.com/library/bb500117%28v=sql.120%29.aspx)
-
+[Database Mirroring: Interoperability and Coexistence](/sql/database-engine/database-mirroring/database-mirroring-interoperability-and-coexistence-sql-server?viewFallbackFrom=sql-server-2014)

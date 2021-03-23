@@ -188,7 +188,7 @@ Service applications in a SharePoint Server environment can be made up of both s
 ### Protecting SQL Server Reporting Services databases
 <a name="Workflow"> </a>
 
-SharePoint Server backup and recovery does not include SQL Server Reporting Services databases. You must use SQL Server tools for SharePoint Server. For more information, see [Backup and Restore Operations for Reporting Services](https://go.microsoft.com/fwlink/p/?LinkID=718025&amp;clcid=0x409).
+SharePoint Server backup and recovery does not include SQL Server Reporting Services databases. You must use SQL Server tools for SharePoint Server. For more information, see [Backup and Restore Operations for Reporting Services](/sql/reporting-services/install-windows/backup-and-restore-operations-for-reporting-services?viewFallbackFrom=sql-server-2014).
   
 ## Choose SharePoint backup and recovery tools
 <a name="ChooseTools"> </a>
@@ -211,9 +211,9 @@ For detailed information about the backup and recovery systems that can be used 
   
 - [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
     
-- [Backing Up and Restoring Databases in SQL Server](https://go.microsoft.com/fwlink/p/?LinkID=724311&amp;clcid=0x409)
+- [Backing Up and Restoring Databases in SQL Server](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?viewFallbackFrom=sql-server-2014)
     
-- [DPM overview](https://go.microsoft.com/fwlink/p/?LinkID=512012&amp;clcid=0x409)
+- [DPM overview](/previous-versions/system-center/system-center-2012-R2/hh758104(v=sc.12))
     
 ## Determine SharePoint backup and recovery strategies
 <a name="DetermineStrategies"> </a>
@@ -284,13 +284,13 @@ SharePoint Server backups use SQL Server backups. When using compression with yo
   
 ### Follow SQL Server backup and restore optimization recommendations
 
-If you are running SQL Server Enterprise, we recommend that you use backup compression. For more information, see [Backup Compression (SQL Server)](https://go.microsoft.com/fwlink/?linkid=857510).
+If you are running SQL Server Enterprise, we recommend that you use backup compression. For more information, see [Backup Compression (SQL Server)](/sql/relational-databases/backup-restore/backup-compression-sql-server).
   
 If you are using SQL Server or SQL Server 2008 R2 Express backups, use a combination of full, differential, and transaction log backups for the full recovery model to minimize recovery time. Differential database backups are usually faster to create than full database backups, and they reduce the amount of transaction log required to recover the database.
   
 If you are using the full recovery model in SQL Server 2008, we recommend that you use the truncate option during backup to avoid maintenance issues. 
   
-For detailed recommendations about how to optimize SQL Server backup and restore performance, see [Optimizing Backup and Restore Performance in SQL Server](https://go.microsoft.com/fwlink/p/?LinkId=126630).
+For detailed recommendations about how to optimize SQL Server backup and restore performance, see [Optimizing Backup and Restore Performance in SQL Server](/previous-versions/sql/sql-server-2008-r2/ms190954(v=sql.105)).
   
 ### Ensure sufficient write performance on the backup drive
 
@@ -304,5 +304,4 @@ Carefully consider whether to use redundant array of independent disks (RAID) on
 [Overview of backup and recovery in SharePoint Server](backup-and-recovery-overview.md)
 #### Other Resources
 
-[Data Protection and Recovery](https://go.microsoft.com/fwlink/p/?LinkID=199237)
-
+[Data Protection and Recovery](/previous-versions/office/developer/sharepoint-2010/ee536542(v=office.14))

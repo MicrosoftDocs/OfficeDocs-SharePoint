@@ -180,7 +180,7 @@ The Unattended Service Account is used by Visio Services in the following circum
   
 Choose the Unattended Service Account when you connect to small ad-hoc deployments in which security is less important or for which speed of deployment is very important.
   
-For information about how to use the Unattended Service Account with Visio Services, see [Secure Store for Business Intelligence service applications](/SharePoint/administration/secure-store-for-business-intelligence-service-applications). 
+For information about how to use the Unattended Service Account with Visio Services, see [Secure Store for Business Intelligence service applications](./secure-store-for-business-intelligence-service-applications.md). 
   
 ### SQL Server Authentication
 
@@ -220,6 +220,4 @@ Refresh can be triggered in one of following ways from the browser:
     > [!NOTE]
     > A SharePoint site designer must place the Visio Web Access Web Part on a page and configure it to refresh periodically. 
   
-If there are no previously cached versions of this diagram, any of these actions will trigger a refresh and update the diagram. For information about how to configure cache settings for Visio Services, see [Configure Visio Services](/SharePoint/administration/configure-visio-services).
-  
-
+If there are no previously cached versions of this diagram, any of these actions will trigger a refresh and update the diagram. For information about how to configure cache settings for Visio Services, see [Configure Visio Services](./configure-visio-services.md).

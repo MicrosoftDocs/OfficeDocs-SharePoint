@@ -28,7 +28,7 @@ In this phase of deploying an intranet-only SharePoint Server 2016 farm in Azure
 > [!NOTE]
 > SharePoint Server 2016 also supports the use of [Azure Active Directory (AD) Domain Services](/azure/active-directory-domain-services/active-directory-ds-overview) as a substitute for virtual machines running as domain replicas. However, at this time, this deployment guide only describes the use of virtual machine-based replica domain controllers. 
   
-You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in) for all of the phases. 
+You must complete this phase before moving on to [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastructure](sharepoint-intranet-farm-in-azure-phase-3-configure-sql-server-infrastructure.md). See [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md) for all of the phases. 
   
 ## Create the domain controller virtual machines in Azure
 
@@ -278,11 +278,10 @@ Use [SharePoint Intranet Farm in Azure Phase 3: Configure SQL Server Infrastruct
 
 #### Other Resources
 
-[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](/SharePoint/administration/deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in)
+[Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](./deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
   
-[SharePoint Server 2016 in Microsoft Azure](/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure)
+[SharePoint Server 2016 in Microsoft Azure](./sharepoint-server-2016-in-microsoft-azure.md)
   
-[Designing a SharePoint Server 2016 farm in Azure](/SharePoint/administration/designing-a-sharepoint-server-2016-farm-in-azure)
+[Designing a SharePoint Server 2016 farm in Azure](./designing-a-sharepoint-server-2016-farm-in-azure.md)
   
-[Install SharePoint Server](/SharePoint/install/install)
-
+[Install SharePoint Server](../install/install.md)

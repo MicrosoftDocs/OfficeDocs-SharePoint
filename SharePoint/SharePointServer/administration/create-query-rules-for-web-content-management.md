@@ -31,7 +31,7 @@ For more information about query rules, see [Plan result sources and query rules
 <a name="BKMK_Before"> </a>
 
 > [!NOTE]
->  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0)> [Accessibility guidelines in SharePoint](https://docs.microsoft.com/sharepoint/accessibility-guidelines)> [Accessibility in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506).
+>  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-0.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 We recommend that you set up your site, integrate a catalog, and set up your category pages and catalog item pages before you begin to create query rules. This is because you can then more easily test and verify how the different query rules apply to the different Search Web Parts you have on your site.
   
@@ -341,4 +341,3 @@ When multiple query rules are active for a Search service application, a site co
 [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md)
   
 [Query variables in SharePoint Server](../technical-reference/query-variables.md)
-

@@ -53,9 +53,9 @@ In this procedure, you create a result source in SharePoint in Microsoft 365. Th
     
 Result sources can be created at the organization level, the site collection level, or the site level. In this procedure, you create the result source at the organization level. This makes the result source available to any query rule that is created at the same level, and also to any query rule that is created for a site collection or site.
   
-For more info about result sources, see [Understanding result sources](https://office.microsoft.com/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](https://docs.microsoft.com/sharepoint/manage-result-sources).
+For more info about result sources, see [Understanding result sources](https://office.microsoft.com/support/sharepoint-help/sharepointsearch/understanding-result-sources-HA102848849.aspx?CTT=5&amp;origin=HA103639370) and [Manage result sources](../../SharePointOnline/manage-result-sources.md).
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
 
@@ -94,7 +94,7 @@ Query rules can be created at the organization level, the site collection level,
   
 For more info about query rules, see [Plan to transform queries and order results in SharePoint Server](../search/plan-to-transform-queries-and-order-results.md) and [Manage query rules in SharePoint Server](../search/manage-query-rules.md)
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
     
@@ -178,7 +178,7 @@ Use the following procedure to validate your configuration for viewing search re
 > [!IMPORTANT]
 > If you are using single sign-on (SSO) authentication, it is important to test the hybrid Search functionality by using federated user accounts. Native user accounts and AD accounts that are not federated are not recognized by both directory services. Therefore, they cannot authenticate using SSO and cannot be granted permissions to resources in both environments. For more info, see [Accounts needed for hybrid configuration and testing](accounts-needed-for-hybrid-configuration-and-testing.md). 
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365.
 
 2. Under **Search**, select **Open**.
     
@@ -244,7 +244,7 @@ To validate your configuration for displaying search results from both SharePoin
     
 6. If you still do not see search results from both search indexes, check the SharePoint in Microsoft 365 Unified Logging Service (ULS) logs, also called the SharePoint in Microsoft 365 trace logs.
     
-    For more info, see [Overview of Unified Logging System (ULS) Logging](https://go.microsoft.com/fwlink/p/?LinkId=393137).
+    For more info, see [Overview of Unified Logging System (ULS) Logging](/previous-versions/office/developer/sharepoint-2010/ff512738(v=office.14)).
     
 ## See also
 <a name="section4"> </a>
@@ -252,4 +252,3 @@ To validate your configuration for displaying search results from both SharePoin
 #### Concepts
 
 [Plan hybrid federated search for SharePoint Server](plan-hybrid-federated-search.md)
-

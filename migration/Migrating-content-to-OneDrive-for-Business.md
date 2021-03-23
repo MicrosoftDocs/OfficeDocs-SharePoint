@@ -33,7 +33,7 @@ To learn more, see [Get started with Migration Manager](mm-get-started.md).
 
 [Download and install the SharePoint Migration Tool](https://aka.ms/SPMT-ODB-Page) for *FREE*.
 
-As an admin, you can also run the tool for your users. To learn more, see  [SharePoint and OneDrive Migration Tool](https://aka.ms/SPMT-ODB2).
+As an admin, you can also run the tool for your users. To learn more, see  [SharePoint and OneDrive Migration Tool](./introducing-the-sharepoint-migration-tool.md).
 
 ## Microsoft FastTrack
 
