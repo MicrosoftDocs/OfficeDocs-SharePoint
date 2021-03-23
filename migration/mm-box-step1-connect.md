@@ -23,7 +23,8 @@ description: "Steps to connect to Box when using Migration Manager in the ShareP
 >[!Note]
 > Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 >
->This preview release currently supports only small to medium Box accounts as features may not work on large Box accounts. For large Box accounts, we recommend you use the [Mover migration tool](https://Mover.io).
+>This preview release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+
 
 Sign in to your Box account and add the Microsoft 365 migration app to your Box account custom apps. 
 
