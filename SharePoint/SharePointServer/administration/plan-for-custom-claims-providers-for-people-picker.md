@@ -35,9 +35,9 @@ Before reading this article, you should understand the concepts described in [Pl
 
 When a web application is configured to use claims-based authentication, SharePoint Server automatically uses two default claims providers:
   
-- The [SPSystemClaimProvider](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPSystemClaimProvider.aspx) class provides claims information related to the server farm where SharePoint Server is installed. 
+- The [SPSystemClaimProvider](/previous-versions/office/sharepoint-server/ee535378(v=office.15)) class provides claims information related to the server farm where SharePoint Server is installed. 
     
-- The [SPAllUserClaimProvider](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPAllUserClaimProvider.aspx) class provides an All Users claim. 
+- The [SPAllUserClaimProvider](/previous-versions/office/sharepoint-server/ee535591(v=office.15)) class provides an All Users claim. 
     
 Depending on the authentication method selected for a zone of a web application, SharePoint Server also uses one or more of the default claims providers that are listed in Table 1.
   
@@ -45,16 +45,16 @@ Depending on the authentication method selected for a zone of a web application,
 
 |**Authentication method**|**Claims provider**|
 |:-----|:-----|
-|Windows authentication  <br/> |[SPActiveDirectoryClaimProvider](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPActiveDirectoryClaimProvider.aspx) <br/> |
-|Forms-based authentication  <br/> |[SPFormsClaimProvider](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPFormsClaimProvider.aspx) <br/> |
-|Security Assertion Markup Language (SAML) token-based authentication  <br/> |[SPTrustedClaimProvider](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPTrustedClaimProvider.aspx) <br/> |
+|Windows authentication  <br/> |[SPActiveDirectoryClaimProvider](/previous-versions/office/sharepoint-server/ee562259(v=office.15)) <br/> |
+|Forms-based authentication  <br/> |[SPFormsClaimProvider](/previous-versions/office/sharepoint-server/ee549669(v=office.15)) <br/> |
+|Security Assertion Markup Language (SAML) token-based authentication  <br/> |[SPTrustedClaimProvider](/previous-versions/office/sharepoint-server/ee550134(v=office.15)) <br/> |
    
 You can see a list of claims providers for a farm by using the [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps) Microsoft PowerShell cmdlet. 
   
 > [!NOTE]
 > When a web application is configured to use SAML token-based authentication, the SPTrustedClaimProvider class does not provide search functionality to the People Picker web control. Any text entered in the People Picker control will automatically be displayed as if it was resolved, regardless of whether it is a valid user, group, or claim. If your SharePoint Server solution will use SAML token-based authentication, you should plan to create a custom claims provider to implement custom search and name resolution. 
   
-Claims providers are registered on a server farm as features that are deployed to the farm. They are scoped at the farm level. Each claims provider object uses the SPClaimProviderDefinition class to include information about the claims provider, such as display name, description, assembly, and type. Two important properties of the SPClaimProviderDefinition class are IsEnabled and IsUsedByDefault. These properties determine whether a registered claims provider is enabled for use in the farm, and whether the claims provider is used by default in a particular zone. By default, all claims providers are enabled when they are deployed to a server farm. For information about the SPClaimProviderDefinition class, see [SPClaimProviderDefinition](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.Claims.SPClaimProviderDefinition.aspx) . 
+Claims providers are registered on a server farm as features that are deployed to the farm. They are scoped at the farm level. Each claims provider object uses the SPClaimProviderDefinition class to include information about the claims provider, such as display name, description, assembly, and type. Two important properties of the SPClaimProviderDefinition class are IsEnabled and IsUsedByDefault. These properties determine whether a registered claims provider is enabled for use in the farm, and whether the claims provider is used by default in a particular zone. By default, all claims providers are enabled when they are deployed to a server farm. For information about the SPClaimProviderDefinition class, see [SPClaimProviderDefinition](/previous-versions/office/sharepoint-server/ee539056(v=office.15)) . 
   
 For more information about zones and authentication, see [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md).
   
@@ -63,7 +63,7 @@ For more information about zones and authentication, see [Plan for user authenti
 
 By default, when you register a custom claims provider on the farm, the IsEnabled and IsUsedByDefault properties are both set to True. Depending on the number of zones needed for your SharePoint Server solution, the authentication methods that are used by each zone, and the users for each zone, you may want to limit the zones in which your custom claims provider is displayed in People Picker.
   
-Because claims providers are scoped at the farm level and enabled at the zone level, you must carefully plan the zones in which you want the custom claims provider to be displayed. In general, you should ensure that the IsUsedByDefault property is set to False, and then configure the [SPIisSettings](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.SPIisSettings.aspx) class for each zone in which you want to use the custom claims provider. To configure a custom claims provider for select zones, you can create a PowerShell script that sets the claims provider for a zone by using the [ClaimsProviders()](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.SPIisSettings.ClaimsProviders.aspx) property, or you can create a custom application to allow you to enable a custom claims provider for select zones. 
+Because claims providers are scoped at the farm level and enabled at the zone level, you must carefully plan the zones in which you want the custom claims provider to be displayed. In general, you should ensure that the IsUsedByDefault property is set to False, and then configure the [SPIisSettings](/previous-versions/office/sharepoint-server/ms431774(v=office.15)) class for each zone in which you want to use the custom claims provider. To configure a custom claims provider for select zones, you can create a PowerShell script that sets the claims provider for a zone by using the [ClaimsProviders()](/previous-versions/office/sharepoint-server/ee548635(v=office.15)) property, or you can create a custom application to allow you to enable a custom claims provider for select zones. 
   
 For example, consider a scenario in which there are two web applications: 
   
@@ -73,7 +73,7 @@ For example, consider a scenario in which there are two web applications:
     
  Now, suppose that for the extranet zone on PartnerWeb, you want employees to be able to collaborate with business partners but not customer partners. To do this, you write a custom claims provider that determines whether the current user is a business partner or customer partner, based on the user's identity. In this example, users from fabrikam.com are business partners, but users from contoso.com are customer partners. When a user who is a business partner is authenticated in the PartnerWeb web application, a claim for a role called BusinessPartner is added to the claim token. When a customer partner is authenticated, a claim for a role called CustomerPartner is added to the claim token. 
   
-To make sure that customer partners are never added to the extranet collaboration site, you add a web application policy on the PartnerWeb web application for the extranet zone that explicitly denies access to any user who has a claim for a role called CustomerPartner. The custom claims provider would also have to implement search and type-in support for the web application policy to resolve the CustomerPartner role claim so that it can be added to the web application policy. Finally, to enable this functionality on the extranet zone, you configure the [SPIisSettings](https://msdn.microsoft.com/library/Microsoft.SharePoint.Administration.SPIisSettings.aspx) class for that zone to use the custom claims provider. The following diagram shows the authentication methods and claims provider settings for each web application and zone. 
+To make sure that customer partners are never added to the extranet collaboration site, you add a web application policy on the PartnerWeb web application for the extranet zone that explicitly denies access to any user who has a claim for a role called CustomerPartner. The custom claims provider would also have to implement search and type-in support for the web application policy to resolve the CustomerPartner role claim so that it can be added to the web application policy. Finally, to enable this functionality on the extranet zone, you configure the [SPIisSettings](/previous-versions/office/sharepoint-server/ms431774(v=office.15)) class for that zone to use the custom claims provider. The following diagram shows the authentication methods and claims provider settings for each web application and zone. 
   
 **Figure 1. Example of the authentication methods and claims provider settings for Web applications and zones**
 
@@ -110,7 +110,7 @@ As you plan custom claims providers for use with People Picker in your SharePoin
     
 - What will be the source of the values for the users and roles that will be displayed in People Picker query results?
     
-The SharePoint Server Content Publishing team wants to thank Steve Peschka for contributing to this article. Take a look at Steve Peschka's [Share-n-dipity TechNet blog](https://go.microsoft.com/fwlink/p/?LinkId=210274).
+The SharePoint Server Content Publishing team wants to thank Steve Peschka for contributing to this article. Take a look at Steve Peschka's [Share-n-dipity TechNet blog](/archive/blogs/speschka/).
   
 ## See also
 <a name="planning"> </a>
@@ -120,4 +120,3 @@ The SharePoint Server Content Publishing team wants to thank Steve Peschka for c
 [People Picker and claims providers overview](people-picker-and-claims-providers-overview.md)
   
 [Plan for user authentication methods in SharePoint Server](../security-for-sharepoint-server/plan-user-authentication.md)
-

@@ -41,7 +41,7 @@ Download the following content for information about upgrade.
 |:-----|:-----|:-----|
 |[What's new in SharePoint 2013 upgrade](/previous-versions/office/sharepoint-server-2010/ee617150(v=office.14)) <br/> |Find out about new requirements, approaches, and features that are available for upgrading to SharePoint 2013.  <br/> |
 |[Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](overview-of-the-upgrade-process-from-sharepoint-2010-to-sharepoint-2013.md) <br/> |Get a visual overview of the steps involved in performing an upgrade.  <br/> |
-|[Upgrade overview videos for SharePoint 2013](/SharePoint/upgrade-and-update/upgrade-overview-videos-for-sharepoint-2013) <br/> |View this series of short overview videos to understand how upgrade works for SharePoint 2013.  <br/> |
+|[Upgrade overview videos for SharePoint 2013](./upgrade-overview-videos-for-sharepoint-2013.md) <br/> |View this series of short overview videos to understand how upgrade works for SharePoint 2013.  <br/> |
 |[Services upgrade overview from SharePoint 2010 to SharePoint Server 2013](services-upgrade-overview-from-sharepoint-2010-to-sharepoint-server-2013.md) <br/> |SharePoint 2010 Products included several service applications, some of which have databases that can be upgraded when you upgrade to SharePoint 2013. Find out which service application databases can be upgraded and what steps that you must take before, during, and after upgrade for your service applications.  <br/> |
 |[Upgrade farms that share services (parent and child farms) to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc303435(v=office.14)) <br/> |In SharePoint Server 2010, it was possible to configure parent farms and child farms to share services. In such an environment, the parent farm hosts one or more service applications from which one or more child farms consume services. Learn how to approach upgrading these environments to SharePoint 2013.  <br/> |
 |[Best practices for upgrading from SharePoint 2010 to SharePoint 2013](best-practices-for-upgrading-from-sharepoint-2010-to-sharepoint-2013.md) <br/> |Get off to the right start - review these best practices for testing and performing an upgrade to SharePoint 2013.  <br/> |
@@ -54,4 +54,3 @@ Download the following content for information about upgrade.
 [Upgrade from SharePoint 2010 to SharePoint 2013](upgrade-from-sharepoint-2010-to-sharepoint-2013.md)
   
 [Plan for upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc303429(v=office.14))
-

@@ -22,7 +22,8 @@ description: "Step 5:  Map Box identities with Migration Manager."
 >[!Note]
 > Features described in this topic are part of a public preview release. The content and the functionality may change and are not subject to the standard SLAs for support.
 >
->This preview release currently supports only small to medium Box accounts as features may not work on large Box accounts. For large Box accounts, we recommend you use the [Mover migration tool](https://Mover.io).
+>This preview release currently supports the migration of up to approximately 1500 Box accounts in a single migration. For larger migrations, we recommend you use the [Mover migration tool](https://Mover.io).
+
 
 
 Identity Mapping is when you match the user and group identities that have access to your source environment (in this case Box) and map those identities to Microsoft 365 user and group identities. This process is important to migration. If identities are not properly set up prior to migration, it can result in users losing access to content. It can also result in information being incorrect at the destination.

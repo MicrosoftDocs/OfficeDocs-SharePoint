@@ -85,29 +85,29 @@ An availability group consists of the following components:
     
 - A specific instance of SQL Server to host each replica and to maintain a local copy of each database that belongs to the availability group. 
 
-For more information, see [Always On Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?linkid=858061) and [Overview of Always On Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?linkid=858062)
+For more information, see [Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server) and [Overview of Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server)
   
 **Replicas and failover**
   
 The primary replica makes the availability databases available for read-write connections from clients and sends transaction log records for each primary database to every secondary replica. Each secondary replica applies transaction log records to its secondary databases.
   
-All replicas can run under asynchronous-commit mode, or up to three of them can run under synchronous-commit mode. For more information about synchronous and asynchronous commit mode, see [Availability Modes (AlwaysOn Availability Groups)](https://go.microsoft.com/fwlink/?linkid=858063).
+All replicas can run under asynchronous-commit mode, or up to three of them can run under synchronous-commit mode. For more information about synchronous and asynchronous commit mode, see [Availability Modes (AlwaysOn Availability Groups)](/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups).
   
 > [!NOTE]
 > Database issues, such as a database becoming suspect due to a loss of a data file, deletion of a database, or corruption of a transaction log do not cause failovers. 
   
 Read the following articles to learn important concepts about SQL Server Always On technology:
   
-- For details about the benefits of Always On Availability Groups and an overview of Always On Availability Groups terms, see [AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?linkid=858061).
+- For details about the benefits of Always On Availability Groups and an overview of Always On Availability Groups terms, see [AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server).
     
-- For detailed information about prerequisites, see [Prereqs, Restrictions, Recommendations - Always On Availability Groups](https://go.microsoft.com/fwlink/?linkid=858191). 
+- For detailed information about prerequisites, see [Prereqs, Restrictions, Recommendations - Always On Availability Groups](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability). 
     
 > [!IMPORTANT]
-> You can install SQL Server on Windows Server core to improve security and reduce maintenance, but you cannot install SharePoint Server on Windows Server core. For more information, see [Server Core for Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?LinkId=245669). For information about server core and Windows Server 2012, see [Windows Server Installation Options](https://go.microsoft.com/fwlink/?linkid=858192). 
+> You can install SQL Server on Windows Server core to improve security and reduce maintenance, but you cannot install SharePoint Server on Windows Server core. For more information, see [Server Core for Windows Server 2008 R2](/previous-versions/windows/desktop/legacy/ee391631(v=vs.85)). For information about server core and Windows Server 2012, see [Windows Server Installation Options](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831786(v=ws.11)). 
   
 ### Windows Server Failover Clustering
 
-To create and use SQL Server Always On Availability Groups, you have to install both SQL Server versions on a Windows Server Failover Clustering (WSFC) cluster. For more information, see [Windows Server Failover Clustering (WSFC) with SQL Server](https://go.microsoft.com/fwlink/?LinkID=626888) and for SQL Server 2016 and 2017, [Windows Server Failover Clustering (WSFC) with SQL Server](https://go.microsoft.com/fwlink/?linkid=858193).
+To create and use SQL Server Always On Availability Groups, you have to install both SQL Server versions on a Windows Server Failover Clustering (WSFC) cluster. For more information, see [Windows Server Failover Clustering (WSFC) with SQL Server](/sql/sql-server/failover-clusters/windows/windows-server-failover-clustering-wsfc-with-sql-server?viewFallbackFrom=sql-server-2014) and for SQL Server 2016 and 2017, [Windows Server Failover Clustering (WSFC) with SQL Server](/sql/sql-server/failover-clusters/windows/windows-server-failover-clustering-wsfc-with-sql-server).
   
 To create and use SQL Server AlwaysOn Availability Groups, you have to install SQL Server on a Windows Server Failover Clustering (WSFC) cluster. 
   
@@ -123,13 +123,13 @@ Although configuring a WSFC cluster is out of the scope for this article, you sh
     
   - Have local administrator permissions on each cluster node.
     
-  - Have **Create Computer objects** and **Read All Properties** permissions in AD DS. For more information, see [Failover Cluster Step-by-Step Guide: Configuring Accounts in Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=213267) and [How to Create a Cluster in a Restrictive Active Directory Environment](https://go.microsoft.com/fwlink/?LinkID=786442).
+  - Have **Create Computer objects** and **Read All Properties** permissions in AD DS. For more information, see [Failover Cluster Step-by-Step Guide: Configuring Accounts in Active Directory](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731002(v=ws.10)) and [How to Create a Cluster in a Restrictive Active Directory Environment](https://go.microsoft.com/fwlink/?LinkID=786442).
     
 A very important aspect of configuring failover clustering and Always On is determining the quorum votes that are needed for the cluster nodes.
   
 Failover clustering is based on a voting algorithm where more than one half of the voters, or quorum, must be online and able to communicate with each other. Because a given cluster has a specific number of nodes and a specific quorum configuration, the cluster service is able to determine what constitutes a quorum. The cluster service will stop on all the nodes if the number of voters drops below the required majority.
   
-For more information, see [WSFC Quorum Modes and Voting Configuration (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=723838) and [Configure Cluster Quorum NodeWeight Settings](https://go.microsoft.com/fwlink/?LinkID=723839).
+For more information, see [WSFC Quorum Modes and Voting Configuration (SQL Server)](/sql/sql-server/failover-clusters/windows/wsfc-quorum-modes-and-voting-configuration-sql-server?viewFallbackFrom=sql-server-2014) and [Configure Cluster Quorum NodeWeight Settings](/sql/sql-server/failover-clusters/windows/configure-cluster-quorum-nodeweight-settings?viewFallbackFrom=sql-server-2014).
   
 ### SharePoint Server and SharePoint Foundation 2013
 
@@ -144,7 +144,7 @@ The following illustration shows a SharePoint Server 2016 farm (SPHA_farm) that 
   
 ### Prepare the Windows Server cluster environment
 
-Obtain access to or create a three node Windows Server Failover Clustering (WSFC) cluster that you can use to install SQL Server on each cluster node. For information and detailed steps to configure a Windows Server failover cluster, see [Failover Clustering](https://docs.microsoft.com/windows-server/failover-clustering/failover-clustering-overview).
+Obtain access to or create a three node Windows Server Failover Clustering (WSFC) cluster that you can use to install SQL Server on each cluster node. For information and detailed steps to configure a Windows Server failover cluster, see [Failover Clustering](/windows-server/failover-clustering/failover-clustering-overview).
   
 ### Prepare the SQL Server environment
 <a name="proc1"> </a>
@@ -179,11 +179,11 @@ To prepare the environment, complete the following tasks:
   
 1. Install SQL Server 2012 prerequisites on each cluster node.
     
-    For more information, see [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=245668).
+    For more information, see [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](/previous-versions/sql/sql-server-2012/ff878487(v=sql.110)).
     
 2. Install SQL Server on each cluster node.
     
-    For more information, see [Installation for SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=245717).
+    For more information, see [Installation for SQL Server 2012](/previous-versions/sql/sql-server-2012/bb500469(v=sql.110)).
     
 ### Install SQL Server 2014 (SP1)
 
@@ -193,11 +193,11 @@ Use the following procedure to install SQL Server 2014 (SP1).
   
 1. Install SQL Server 2014 (SP1) prerequisites on each cluster node.
     
-    For more information, see [Hardware and Software Requirements for Installing SQL Server 2014](https://go.microsoft.com/fwlink/?LinkID=799531) and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=718033).
+    For more information, see [Hardware and Software Requirements for Installing SQL Server 2014](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server?viewFallbackFrom=sql-server-2014) and [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability).
     
 2. Install SQL Server on each cluster node.
     
-    For more information, see [Quick-Start Installation of SQL Server 2014](https://docs.microsoft.com/sql/getting-started/quick-start-installation-of-sql-server-2014) and [Installing SQL Server 2014 Step by Step Tutorial](https://go.microsoft.com/fwlink/?LinkID=724036).
+    For more information, see [Quick-Start Installation of SQL Server 2014](/sql/getting-started/quick-start-installation-of-sql-server-2014) and [Installing SQL Server 2014 Step by Step Tutorial](https://go.microsoft.com/fwlink/?LinkID=724036).
     
 ### Install SQL Server 2016 or SQL Server 2017
 
@@ -207,11 +207,11 @@ Use the following procedure to install SQL Server 2016 or 2017.
   
 1. Install SQL Server prerequisites on each cluster node.
     
-    For more information, see [Install SQL Server](https://go.microsoft.com/fwlink/?LinkID=735052).
+    For more information, see [Install SQL Server](/sql/database-engine/install-windows/install-sql-server).
     
 2. Install SQL Server on each cluster node.
     
-    For more information, see [SQL Server Failover Cluster Installation](https://go.microsoft.com/fwlink/?linkid=858195).
+    For more information, see [SQL Server Failover Cluster Installation](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation).
       
 ### Enable Always On
 
@@ -236,7 +236,7 @@ You must enable Always On for each database server in the cluster.
     
 7. Repeat the previous steps to enable Always On for SQL Server on the other cluster nodes.
     
-For more information, see [Enable and Disable AlwaysOn Availability Groups (SQL Server)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/enable-and-disable-always-on-availability-groups-sql-server).
+For more information, see [Enable and Disable AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/enable-and-disable-always-on-availability-groups-sql-server).
   
 ### Create and configure the availability group
 <a name="proc3"> </a>
@@ -246,7 +246,7 @@ Depending on the SQL Server 2014 (SP1), SQL Server 2016/2017, or SQL Server 2012
 The process that creates an availability group requires you to provide a name for the availability group and then select an eligible user database on the connected server instance as an availability database.
   
 > [!NOTE]
-> A database must be a user database in order to add it to an availability group. System databases can't belong to an availability group. For more information, see the "Availability Database Prerequisites and Restrictions" section of [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017#PrerequisitesForAGs) and see [Creation and Configuration of Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=724040). 
+> A database must be a user database in order to add it to an availability group. System databases can't belong to an availability group. For more information, see the "Availability Database Prerequisites and Restrictions" section of [Prerequisites, Restrictions, and Recommendations for AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017#PrerequisitesForAGs) and see [Creation and Configuration of Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/creation-and-configuration-of-availability-groups-sql-server?viewFallbackFrom=sql-server-2014). 
   
 If there are no user databases on the instance of the connected server, which is the case in our example, you need to create one. Use the following procedure to create a temporary user database that will be a temporary primary replica for the group. 
   
@@ -297,19 +297,19 @@ The following table shows the information that you have to provide for each repl
 |**Initial Role** <br/> |Indicates the role that the new replica will first perform: Primary or Secondary.  <br/> |
 |**Automatic Failover (Up to 2)** <br/> |Indicates the type of failover that the replica uses: automatic or manual.  <br/> |
 |**Synchronous Commit (Up to 3)** <br/> |Indicates the type of commit that is used for the replica.  <br/> |
-|**Readable Secondary** <br/> |Indicates whether a secondary replica can be read.  <br/> The configuration options are unavailable for read access, read-only, and read-only intent. For more information, see [Offload read-only workload to secondary replica of an Always On availability group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/active-secondaries-readable-secondary-replicas-always-on-availability-groups) and [Configure Read-Only Routing for an Availability Group (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=626915).  <br/> **Note:** In SQL Server 2014 and later, readable secondary replicas now remain available for read workloads when they are disconnected from primary replicas or during cluster quorum loss.  <br/> |
+|**Readable Secondary** <br/> |Indicates whether a secondary replica can be read.  <br/> The configuration options are unavailable for read access, read-only, and read-only intent. For more information, see [Offload read-only workload to secondary replica of an Always On availability group](/sql/database-engine/availability-groups/windows/active-secondaries-readable-secondary-replicas-always-on-availability-groups) and [Configure Read-Only Routing for an Availability Group (SQL Server)](/sql/database-engine/availability-groups/windows/configure-read-only-routing-for-an-availability-group-sql-server?viewFallbackFrom=sql-server-2014).  <br/> **Note:** In SQL Server 2014 and later, readable secondary replicas now remain available for read workloads when they are disconnected from primary replicas or during cluster quorum loss.  <br/> |
 
 > [!NOTE]
 > SharePoint Server does not leverage read-only replicas. It will only leverage the primary replica in the availability group.
    
 > [!NOTE]
-> When you add replicas to a group, you will also provide the endpoint for each replica and configure backup preferences. For more information, see [Specify the Endpoint URL When Adding or Modifying an Availability Replica (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=724042) and [Active Secondaries: Backup on Secondary Replicas (AlwaysOn Availability Groups)](https://go.microsoft.com/fwlink/?LinkID=724043). 
+> When you add replicas to a group, you will also provide the endpoint for each replica and configure backup preferences. For more information, see [Specify the Endpoint URL When Adding or Modifying an Availability Replica (SQL Server)](/sql/database-engine/availability-groups/windows/specify-endpoint-url-adding-or-modifying-availability-replica?viewFallbackFrom=sql-server-2014) and [Active Secondaries: Backup on Secondary Replicas (AlwaysOn Availability Groups)](/sql/database-engine/availability-groups/windows/active-secondaries-backup-on-secondary-replicas-always-on-availability-groups?viewFallbackFrom=sql-server-2014). 
   
  **Data synchronization**
   
-As part of the availability group creation process, you have to make an exact copy of the data on the primary replica and install the copy on the secondary replica. This is the initial data synchronization for the Availability Group. For more information, see [Select Initial Data Synchronization Page (AlwaysOn Availability Group Wizards)](https://go.microsoft.com/fwlink/?LinkID=691235).
+As part of the availability group creation process, you have to make an exact copy of the data on the primary replica and install the copy on the secondary replica. This is the initial data synchronization for the Availability Group. For more information, see [Select Initial Data Synchronization Page (AlwaysOn Availability Group Wizards)](/sql/database-engine/availability-groups/windows/select-initial-data-synchronization-page-always-on-availability-group-wizards?viewFallbackFrom=sql-server-2014).
   
-A network share must exist and must be accessed by all the nodes in the Always On configuration to do the initial data synchronization between all the cluster nodes that host a replica. For more information, see [Network Shares Extension](https://go.microsoft.com/fwlink/p/?LinkId=245722) and [Storage](https://docs.microsoft.com/windows-server/storage/storage).
+A network share must exist and must be accessed by all the nodes in the Always On configuration to do the initial data synchronization between all the cluster nodes that host a replica. For more information, see [Network Shares Extension](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730672(v=ws.11)) and [Storage](/windows-server/storage/storage).
   
 The following restrictions exist when you use the New Availability Group wizard to start data synchronization:
   
@@ -359,12 +359,12 @@ Use the following procedure to create an availability group on the primary repli
     
 6. On the **Specify Replicas** page, use the following tabs to configure the replicas for SP-AG1: **Replicas**, **Endpoints**, and **Backup Preferences**. 
     
-7. An availability group listener is a virtual network name that provides client connectivity to the database a given availability group. Availability group listeners direct incoming connections to the primary replica or to a read-only secondary replica. The listener provides fast application failover after an availability group fails over. For more information, see [Connect to an Always On availability group listener](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover).
+7. An availability group listener is a virtual network name that provides client connectivity to the database a given availability group. Availability group listeners direct incoming connections to the primary replica or to a read-only secondary replica. The listener provides fast application failover after an availability group fails over. For more information, see [Connect to an Always On availability group listener](/sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover).
     
     On the **Listener** tab, configure an availability group listener for our example, use the name AGListener. 
     
     > [!IMPORTANT]
-    > Intermittent, unusually high latency might occur when you use availability groups that have replicas that are deployed on multiple subnets. As a best practice, connections to SharePoint availability groups in a multi-subnet environment should configure **specifyMultiSubnetFailover=True** to avoid issues caused by high network latency. For more information, see the [Supporting Availability Group Multi-Subnet Failovers](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover?#SupportAgMultiSubnetFailover) section. 
+    > Intermittent, unusually high latency might occur when you use availability groups that have replicas that are deployed on multiple subnets. As a best practice, connections to SharePoint availability groups in a multi-subnet environment should configure **specifyMultiSubnetFailover=True** to avoid issues caused by high network latency. For more information, see the [Supporting Availability Group Multi-Subnet Failovers](/sql/database-engine/availability-groups/windows/listeners-client-connectivity-application-failover#SupportAgMultiSubnetFailover) section. 
   
     You cannot directly specify **MultiSubnetFailover=True** because a SharePoint client cannot directly modify a connection string. You must use PowerShell via the SharePoint Management Shell to set this value on the **MultiSubnetFailover** database property. The following example shows how you can do this. 
     
@@ -464,9 +464,9 @@ You must run extensive failover tests to make sure that the behavior of the Alwa
     
 Test availability group failover by using either the planned manual failover or the forced manual failover described in the following articles: 
   
-- [Perform a Planned Manual Failover of an Availability Group (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=262795)
+- [Perform a Planned Manual Failover of an Availability Group (SQL Server)](/sql/database-engine/availability-groups/windows/perform-a-planned-manual-failover-of-an-availability-group-sql-server)
     
-- [Perform a Forced Manual Failover of an Availability Group (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=262796)
+- [Perform a Forced Manual Failover of an Availability Group (SQL Server)](/sql/database-engine/availability-groups/windows/perform-a-forced-manual-failover-of-an-availability-group-sql-server)
     
 You can perform either of the previous failovers by using the Failover Wizard in SQL Server Management Studio, Transact-SQL, or PowerShell in SQL Server.
   
@@ -484,31 +484,31 @@ The following new performance objects are available to monitor an Always On envi
   
  **SQL Server 2012**
   
-- [SQLServer:Database Replica](https://go.microsoft.com/fwlink/p/?LinkId=245745)
+- [SQLServer:Database Replica](/previous-versions/sql/sql-server-2012/ff878356(v=sql.110))
     
-- [SQLServer:Availability Replica](https://go.microsoft.com/fwlink/p/?LinkId=245746)
+- [SQLServer:Availability Replica](/previous-versions/sql/sql-server-2012/ff878472(v=sql.110))
     
 **SQL Server 2014 (SP1)**
   
-- [SQL Server, Database Replica](https://go.microsoft.com/fwlink/?LinkID=724069)
+- [SQL Server, Database Replica](/sql/relational-databases/performance-monitor/sql-server-database-replica?viewFallbackFrom=sql-server-2014)
     
-- [SQL Server, Availability Replica](https://go.microsoft.com/fwlink/?LinkID=724070)
+- [SQL Server, Availability Replica](/sql/relational-databases/performance-monitor/sql-server-availability-replica?viewFallbackFrom=sql-server-2014)
     
 **SQL Server 2016 and SQL Server 2017**
   
-- [SQL Server, Database Replica](https://go.microsoft.com/fwlink/?linkid=858216)
+- [SQL Server, Database Replica](/sql/relational-databases/performance-monitor/sql-server-database-replica)
     
-- [SQL Server, Availability Replica](https://go.microsoft.com/fwlink/?linkid=858218)
+- [SQL Server, Availability Replica](/sql/relational-databases/performance-monitor/sql-server-availability-replica)
     
 **Health and capacity**
   
-For general health monitoring you can use the Availability Groups Dashboard to obtain the health of the availability groups in the system. For more information, see [AlwaysOn Policies for Operational Issues with AlwaysOn Availability Groups (SQL Server)](https://go.microsoft.com/fwlink/?LinkID=724071) for SQL Server 2014 (SP1) and [Always On Policies for Operational Issues - Always On Availability](/sql/database-engine/availability-groups/windows/always-on-policies-for-operational-issues-always-on-availability) for SQL Server 2016 and SQL Server 2017. For more information about SQL Server 2012, see the following: 
+For general health monitoring you can use the Availability Groups Dashboard to obtain the health of the availability groups in the system. For more information, see [AlwaysOn Policies for Operational Issues with AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-policies-for-operational-issues-always-on-availability?viewFallbackFrom=sql-server-2014) for SQL Server 2014 (SP1) and [Always On Policies for Operational Issues - Always On Availability](/sql/database-engine/availability-groups/windows/always-on-policies-for-operational-issues-always-on-availability) for SQL Server 2016 and SQL Server 2017. For more information about SQL Server 2012, see the following: 
   
 - [The AlwaysOn Health Model Part 1 -- Health Model Architecture](https://go.microsoft.com/fwlink/p/?LinkId=245945)
     
 - [The AlwaysOn Health Model Part 2 -- Extending the Health Model](https://go.microsoft.com/fwlink/p/?LinkId=245946)
     
-You can also use Transact-SQL to monitor availability groups by using the set of catalog and dynamic management views that are provided for Always On Availability Groups. For more information, see [Monitor Availability Groups (Transact-SQL)](https://go.microsoft.com/fwlink/?LinkID=724072) for SQL Server 2014 (SP1) and [Monitor Availability Groups (Transact-SQL)](/sql/database-engine/availability-groups/windows/monitor-availability-groups-transact-sql?view=sql-server-2017) for SQL Server 2016 and SQL Server 2017. 
+You can also use Transact-SQL to monitor availability groups by using the set of catalog and dynamic management views that are provided for Always On Availability Groups. For more information, see [Monitor Availability Groups (Transact-SQL)](/sql/database-engine/availability-groups/windows/monitor-availability-groups-transact-sql?viewFallbackFrom=sql-server-2014) for SQL Server 2014 (SP1) and [Monitor Availability Groups (Transact-SQL)](/sql/database-engine/availability-groups/windows/monitor-availability-groups-transact-sql?view=sql-server-2017) for SQL Server 2016 and SQL Server 2017. 
   
 ## See also
 <a name="Monitor"> </a>
@@ -519,4 +519,3 @@ You can also use Transact-SQL to monitor availability groups by using the set of
 #### Other Resources
 
 [Deploying SharePoint Server 2016 with SQL Server AlwaysOn Availability Groups in Azure](deploying-sharepoint-server-2016-with-sql-server-alwayson-availability-groups-in.md)
-

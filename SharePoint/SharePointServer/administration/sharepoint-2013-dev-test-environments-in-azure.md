@@ -94,7 +94,7 @@ Executing a local copy of the template with the parameters file with Azure Power
 In this procedure, you download copies of the basic SharePoint 2013 farm template files, modify them as needed, and then execute the template with Azure PowerShell.
   
 > [!NOTE]
-> These commands use [the latest version of Azure PowerShell](https://azure.microsoft.com/documentation/articles/powershell-install-configure/). 
+> These commands use [the latest version of Azure PowerShell](/powershell/azure/). 
   
 Create a local folder to store the ARM template files for the basic SharePoint 2013 farm. Fill in the **$myFolder** variable value (removing the text and the "<" and ">" characters between the quotes) and run the following commands from Azure PowerShell: 
   
@@ -247,7 +247,7 @@ This can take some time to complete.
 In this procedure, you download copies of the high-availability SharePoint 2013 farm template files, modify them as needed, and then execute the template with Azure PowerShell.
   
 > [!NOTE]
-> These commands use [Azure PowerShell 1.0.0 and later](https://azure.microsoft.com/documentation/articles/powershell-install-configure/). 
+> These commands use [Azure PowerShell 1.0.0 and later](/powershell/azure/). 
   
 Create a local folder to store the ARM template files for the high-availability SharePoint 2013 farm. Fill in the **$myFolder** variable value (removing the text and the "<" and ">" characters between the quotes) and run the following commands from Azure PowerShell: 
   
@@ -403,12 +403,12 @@ This can take some time to complete.
 
 You can administer the servers of these farms through [Remote Desktop connections](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-connect-logon/).
   
-From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](/SharePoint/install/configure).
+From the Central Administration SharePoint site, you can configure My sites, SharePoint applications, and other functionality. For more information, see [Configure SharePoint 2013](../install/configure.md).
   
 ## Create a SharePoint 2016 dev/test farm
 <a name="powershell"> </a>
 
-See the instructions in [SharePoint Server 2016 dev/test environment in Azure](/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure) to create the following single-server, SharePoint 2016 dev/test farm:. 
+See the instructions in [SharePoint Server 2016 dev/test environment in Azure](./sharepoint-server-2016-dev-test-environment-in-azure.md) to create the following single-server, SharePoint 2016 dev/test farm:. 
   
 ![The single-server SharePoint 2016 farm in Azure.](../media/8cf51483-ecef-4ba4-a9fc-952716ff8132.png)
   
@@ -416,5 +416,4 @@ See the instructions in [SharePoint Server 2016 dev/test environment in Azure](/
 
 [Technical diagrams for SharePoint Server](../technical-reference/technical-diagrams.md)
 
-[SharePoint Server 2016 dev/test environment in Azure](/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure)
-
+[SharePoint Server 2016 dev/test environment in Azure](./sharepoint-server-2016-dev-test-environment-in-azure.md)

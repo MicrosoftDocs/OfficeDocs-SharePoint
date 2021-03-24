@@ -75,5 +75,4 @@ In a larger server farm it is likely that Visio diagrams will use a mix of the a
 
 #### Other Resources
 
-[Secure Store for Business Intelligence service applications](/SharePoint/administration/secure-store-for-business-intelligence-service-applications)
-
+[Secure Store for Business Intelligence service applications](./secure-store-for-business-intelligence-service-applications.md)

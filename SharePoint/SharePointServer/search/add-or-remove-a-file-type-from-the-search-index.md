@@ -22,7 +22,7 @@ description: "Learn how to add or remove a file type from the search index and h
   
 Before you start, you may want to read [Default crawled file name extensions and parsed file types in SharePoint Server](../technical-reference/default-crawled-file-name-extensions-and-parsed-file-types.md). This article lists the file types that SharePoint Server by default includes in the search index.
   
-If your SharePoint environment is hybrid and uses [cloud hybrid search](/SharePoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint), you can decide what types of files that are stored in SharePoint Server that you want to add or remove from the Microsoft 365 index. Use the following procedures on the server that hosts the crawl component in the cloud Search service application. 
+If your SharePoint environment is hybrid and uses [cloud hybrid search](../hybrid/learn-about-cloud-hybrid-search-for-sharepoint.md), you can decide what types of files that are stored in SharePoint Server that you want to add or remove from the Microsoft 365 index. Use the following procedures on the server that hosts the crawl component in the cloud Search service application. 
   
 To add or remove a file type from the search index: 
   
@@ -249,5 +249,3 @@ To enable or disable parsing of a file format, you have to use Windows PowerShel
   - To restart the SharePoint Search Host Controller, type this command: **net start spsearchhostcontroller**
     
 5. **Verification:** show the list of file name extensions and file formats that the content processing component can parse and make sure that the file name extension is not there. See [View information about file formats that can be parsed](add-or-remove-a-file-type-from-the-search-index.md#ViewInformationFileFormats).
-    
-

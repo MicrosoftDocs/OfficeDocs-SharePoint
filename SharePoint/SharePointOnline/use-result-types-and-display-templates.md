@@ -59,4 +59,4 @@ You can create your own display templates that show information that's important
     
 - For information about the Search Center and how to set it up, see [Manage the Search Center in SharePoint](manage-search-center.md).
     
-- For a full list of available display templates, see **Display templates for the Search Results Web Part** in [Display template reference in SharePoint Server 2013](/SharePoint/technical-reference/display-template-reference-in-sharepoint-server).
+- For a full list of available display templates, see **Display templates for the Search Results Web Part** in [Display template reference in SharePoint Server 2013](../SharePointServer/technical-reference/display-template-reference-in-sharepoint-server.md).

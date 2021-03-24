@@ -112,7 +112,7 @@ When you test by using a physical environment, you must replicate your proposed 
 
 To have an accurate test process, you must find all the customizations in your current environment and copy them to the test environment. For more information about the types of customizations that you have to identify, see [Create a plan for current customizations during upgrade to SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc263203(v=office.14)). 
   
-- Use the **Stsadm -o enumallwebs** operation on all content databases in your SharePoint 2010 Products environment to identify specific customizations in subsites. This operation lists an ID for each site collection and subsite in your environment and the templates that the site relies on. For more information, see [Enumallwebs: Stsadm operation](https://go.microsoft.com/fwlink/?LinkId=403887).
+- Use the **Stsadm -o enumallwebs** operation on all content databases in your SharePoint 2010 Products environment to identify specific customizations in subsites. This operation lists an ID for each site collection and subsite in your environment and the templates that the site relies on. For more information, see [Enumallwebs: Stsadm operation](/previous-versions/office/sharepoint-2007-products-and-technologies/dd789634(v=office.12)).
     
 - Use a tool such as WinDiff (a tool that is provided with most Microsoft operating systems) to compare your production environment servers with your test farm servers. You can use this tool to see which files exist on your servers and the differences between them.
     
@@ -232,4 +232,3 @@ Repeat the testing process until you are sure that you have found all the issues
 [Upgrade a site collection to SharePoint 2013](upgrade-a-site-collection-to-sharepoint-2013.md)
   
 [Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
-

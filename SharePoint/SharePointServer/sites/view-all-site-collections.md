@@ -56,7 +56,7 @@ Refer to the following table in step 3.
     
 ### To view all site collections by using Microsoft PowerShell
 
-1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](/SharePoint/administration/manage-permissions-for-a-web-application).
+1. Verify that you meet the following minimum requirements: See [Add-SPShellAdmin](../administration/manage-permissions-for-a-web-application.md).
     
 2. Open **SharePoint Management Shell**.
     
@@ -77,5 +77,4 @@ We recommend that you use Microsoft PowerShell when performing command-line admi
 
 #### Other Resources
 
-[SharePoint planning guide](/sharepoint/planning-guide)
-
+[SharePoint planning guide](../../SharePointOnline/planning-guide.md)

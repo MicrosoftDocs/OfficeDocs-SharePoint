@@ -112,7 +112,7 @@ When you configure a query condition for a result block, you use  *query variabl
     
   - Select which content to search by selecting a result source from the drop-down list in the **Select a query** section 
     
-  - Specify your query. See [Query variables in SharePoint Server 2013](/SharePoint/technical-reference/query-variables) for a list of available query variables. You can select pre-defined query variables from the **Keyword filter** drop-down list, and then add them to the Query text box by clicking **Add keyword filter**
+  - Specify your query. See [Query variables in SharePoint Server 2013](../SharePointServer/technical-reference/query-variables.md) for a list of available query variables. You can select pre-defined query variables from the **Keyword filter** drop-down list, and then add them to the Query text box by clicking **Add keyword filter**
     
   - If relevant, use property filters to query the content of managed properties that are set to queryable in the search schema. You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
     
@@ -160,7 +160,7 @@ You can also dynamically change the sorting order of the search results, based o
     
   - Select which content to search by selecting a result source from the drop-down list in the **Select a query** section 
     
-  - Specify your query. See [Query variables in SharePoint Server 2013](/SharePoint/technical-reference/query-variables) for a list of available query variables. You can select pre-defined query variables from the **Keyword filter** drop-down list, and then add them to the Query text box by clicking **Add keyword filter**
+  - Specify your query. See [Query variables in SharePoint Server 2013](../SharePointServer/technical-reference/query-variables.md) for a list of available query variables. You can select pre-defined query variables from the **Keyword filter** drop-down list, and then add them to the Query text box by clicking **Add keyword filter**
     
   - If relevant, use property filters to query the content of managed properties that are set to queryable in the search schema. You can select managed properties from the **Property filter** drop-down list. Click **Add property filter** to add the filter to the query. 
     

@@ -148,7 +148,7 @@ Refer to the following table in step 2 below.
 
 3. Start the Machine Translation Service. For more information, see [Start or stop a service in SharePoint Server](start-or-stop-a-service.md).
     
-For more information, see [New-SPTranslationServiceApplication](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+For more information, see [New-SPTranslationServiceApplication](../security-for-sharepoint-server/security-for-sharepoint-server.md).
   
 ## Step 2: Configure the Machine Translation Service
 <a name="step2"> </a>
@@ -281,4 +281,3 @@ For more information, see [Set-SPTranslationServiceApplication](/powershell/modu
 [Variations overview in SharePoint Server](variations-overview.md)
   
 [Plan for variations in SharePoint Server](plan-for-variations.md)
-

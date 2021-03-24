@@ -55,7 +55,7 @@ SharePoint Migration PowerShell cmdlets are designed to move on-premises content
   
 ## Before you begin
 
-- Provision your Microsoft 365 setup with your existing active directory or one of the other options for adding accounts to Microsoft 365. For more information, see [Microsoft 365 integration with on-premises environments](https://go.microsoft.com/fwlink/?LinkID=616610&amp;clcid=0x409) and [Add users and assign licenses at the same time](https://go.microsoft.com/fwlink/?LinkID=616611&amp;clcid=0x409). 
+- Provision your Microsoft 365 setup with your existing active directory or one of the other options for adding accounts to Microsoft 365. For more information, see [Microsoft 365 integration with on-premises environments](/microsoft-365/enterprise/microsoft-365-integration) and [Add users and assign licenses at the same time](/microsoft-365/admin/add-users/add-users). 
     
 - Install the SharePoint Online Management Shell and set up your working directory.
     
@@ -283,7 +283,7 @@ EncryptionKey                                       EncryptionMethod
 |Package size  |10-20 GB  <br/> Use the *-ParallelImport* switch for file share migration, which automatically splits the large package into smaller ones. |
 |File size  <br/> |2 GB  <br/> |
 |Target size  <br/> |The target site should remain non-accessible to users until migration is complete |
-|SharePoint limits  <br/> |[Service limits in SharePoint for Microsoft 365](https://go.microsoft.com/fwlink/?LinkID=616612&amp;clcid=0x409)|
+|SharePoint limits  <br/> |[Service limits in SharePoint for Microsoft 365](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)|
    
 ## Azure limits
 <a name="step7monitoring"> </a>
@@ -298,5 +298,4 @@ EncryptionKey                                       EncryptionMethod
 ## Related articles
 <a name="step7monitoring"> </a>
 
-[Cmdlet references are for SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=717917)
-  
+[Cmdlet references are for SharePoint Online](/powershell/module/sharepoint-online/)

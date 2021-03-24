@@ -72,7 +72,7 @@ To maintain user access to your original environment, set the SharePoint 2010 Pr
     
 5. In the details pane, under **Other options**, in the **State** section, next to **Database Read-Only**, click the arrow, and then select **True**.
     
-You can use Transact-SQL to configure the **READ_ONLY** database availability option. For more information about how to use the **SET** clause of the **ALTER DATABASE** statement, see [Setting Database Options](https://go.microsoft.com/fwlink/p/?LinkId=148362).
+You can use Transact-SQL to configure the **READ_ONLY** database availability option. For more information about how to use the **SET** clause of the **ALTER DATABASE** statement, see [Setting Database Options](/previous-versions/sql/sql-server-2008-r2/ms190249(v=sql.105)).
   
 ## Back up the SharePoint 2010 Products databases by using SQL Server tools
 <a name="backup"> </a>
@@ -205,4 +205,3 @@ You cannot upgrade a database that is set to read-only. You must set the databas
 [Upgrade farms that share services (parent and child farms) to SharePoint 2013](upgrade-farms-that-share-services-parent-and-child-farmsto-sharepoint-2013.md)
   
 [Test and troubleshoot an upgrade to SharePoint 2013](test-and-troubleshoot-an-upgrade-0.md)
-

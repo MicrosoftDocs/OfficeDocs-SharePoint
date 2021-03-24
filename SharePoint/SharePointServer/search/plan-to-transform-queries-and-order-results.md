@@ -63,7 +63,7 @@ A user query is transformed first by the Web Part, then by any query rules that 
 
 The Query Builder helps you write and test query transforms. To build queries you use Keyword Query Language (KQL), and you can also add query variables. You can test the query from within the Query Builder by setting temporary test values for the query variables, run the query and preview the search results. 
   
-For more information about building search queries and for KQL syntax examples, see [Building search queries in SharePoint 2013](https://msdn.microsoft.com/library/office/jj163973.aspx) (MSDN). For an overview of all the available query variables, see [Query variables in SharePoint Server](../technical-reference/query-variables.md).
+For more information about building search queries and for KQL syntax examples, see [Building search queries in SharePoint 2013](/sharepoint/dev/general-development/building-search-queries-in-sharepoint) (MSDN). For an overview of all the available query variables, see [Query variables in SharePoint Server](../technical-reference/query-variables.md).
   
 ## Transforming queries for a Web Part
 <a name="Trans_Web_Part"> </a>
@@ -153,4 +153,3 @@ The search system processes a query by doing the following:
 [Configure result sources for search in SharePoint Server](configure-result-sources-for-search.md)
   
 [Manage the Search Center in SharePoint Server](manage-the-search-center-in-sharepoint-server.md)
-

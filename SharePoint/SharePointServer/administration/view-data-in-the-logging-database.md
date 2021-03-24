@@ -27,7 +27,7 @@ description: "Learn about the SharePoint logging database, how to view monitorin
 - [Custom SQL views in the SharePoint logging database](#section3)
     
 > [!NOTE]
->  Because SharePoint Server 2016 runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server 2016 supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](https://docs.microsoft.com/sharepoint/install/browser-support-planning-0)> [Accessibility guidelines in SharePoint](https://docs.microsoft.com/sharepoint/accessibility-guidelines)> [Accessibility in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506).
+>  Because SharePoint Server 2016 runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server 2016 supports the accessibility features of supported browsers. For more information, see the following resources: > [Plan browser support](../install/browser-support-planning-0.md)> [Accessibility guidelines in SharePoint](../accessibility-guidelines.md)> [Accessibility in SharePoint](/sharepoint/dev/general-development/accessibility-in-sharepoint)> [Keyboard shortcuts](https://support.office.com/article/466e33ee-613b-4f47-96bb-1c20f20b1015)> [Touch](/windows/win32/wintouch/windows-touch-gestures-overview).
   
 ## Introduction to the SharePoint logging database
 <a name="section1"> </a>
@@ -83,7 +83,7 @@ To access the pre-defined views, you must access the SharePoint Server 2016 logg
 2. On the taskbar, click **Start**, point to **All Programs**, click **Microsoft SQL Server 2008** or the latest Microsoft SQL Server version that is installed, and then click **SQL Server Management Studio**.
     
     > [!NOTE]
-    > If you do not have Management Studio on the server, reinstall SQL Server 2008 and add the Management Studio component. For more information, see [SQL Server Install](https://go.microsoft.com/fwlink/p/?LinkId=237482). 
+    > If you do not have Management Studio on the server, reinstall SQL Server 2008 and add the Management Studio component. For more information, see [SQL Server Install](/previous-versions/sql/sql-server-2012/hh231622(v=sql.110)). 
   
 3. In the **Connect to Server** dialog, choose **Database Engine**. Then specify the server name, for example, ServerName\SharePoint. Select the authentication type ( **Windows Authentication** or **SQL Server Authentication**) that you configured through SharePoint Server 2016Central Administration. If it is **SQL Server Authentication**, specify the credentials for the database administrator. After the information is set, click **Connect**. 
     
@@ -210,4 +210,3 @@ In usage tables and the ULSTraceLog tables, the **CorrelationId** is an importan
 [View reports and logs in SharePoint Server 2016](view-reports-and-logs.md)
   
 [Overview of monitoring in SharePoint Server](monitoring-overview.md)
-

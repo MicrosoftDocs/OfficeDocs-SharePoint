@@ -61,7 +61,7 @@ Use the procedure described in this section to extend a claims-based SharePoint 
     
     Kerberos is the recommended security configuration to use with Integrated Windows authentication. Kerberos requires special configuration by the domain administrator. NTLM authentication will work with any application pool account.
     
-  - In the **Security Configuration** section, click **Yes** or **No** for the **Use Secure Sockets Layer (SSL)** options. If you choose **Yes**, you must request and install an SSL certificate to configure SSL. For more information about how to set up SSL, see [How to Setup SSL on IIS 7.0](https://go.microsoft.com/fwlink/p/?LinkId=187887).
+  - In the **Security Configuration** section, click **Yes** or **No** for the **Use Secure Sockets Layer (SSL)** options. If you choose **Yes**, you must request and install an SSL certificate to configure SSL. For more information about how to set up SSL, see [How to Setup SSL on IIS 7.0](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
     
 9. In the **Public URL** section, type the URL for the domain name for all sites that users will access in this web application. This URL will be the base URL for links on pages within the web application. The default URL is the current server name and port. 
     
@@ -90,4 +90,3 @@ If you're using [cross-site publishing](overview-of-cross-site-publishing.md), b
 [New-SPWebApplicationExtension](/powershell/module/sharepoint-server/New-SPWebApplicationExtension?view=sharepoint-ps)
   
 [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14))
-
