@@ -13,7 +13,7 @@
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [FAQs](mm-faqs.md)
 #### [Troubleshooting](mm-troubleshoot.md)
-## Migrate Box.com accounts
+## Migrate from Box
 ### [Overview](mm-box-overview.md)
 ### [Step 1: Connect to Box](mm-box-step1-connect.md)
 ### [Step 2: Scan and assess](mm-box-step2-scan-assess.md)
