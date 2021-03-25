@@ -74,7 +74,7 @@ We recommend using the new site templates for all your new sites. However, if yo
      ![The Create button on the Active sites page](media/create-site-button.png)
      
   
-4. At the bottom of the panel, click **"Other options"**:
+4. At the bottom of the panel, select **Other options**.
 
 ![image](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
 
@@ -110,4 +110,3 @@ We recommend using the new site templates for all your new sites. However, if yo
     
 
     
-
