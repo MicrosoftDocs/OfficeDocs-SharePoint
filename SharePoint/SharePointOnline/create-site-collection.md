@@ -79,7 +79,7 @@ We recommend using the new site templates for all your new sites. However, if yo
 ![image](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
 
 
-5. From the template drop-down, select "More templates" 
+5. From the template drop-down, select **More templates**. 
 
 ![image](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
 
