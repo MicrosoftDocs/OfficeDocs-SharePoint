@@ -65,7 +65,7 @@ By using the new SharePoint admin center, you can create sites that use one of t
 
 We recommend using the new site templates for all your new sites. However, if you need to create a site that uses a classic template, you can do so using the following steps:  
   
-1. Sign in to SharePoint Admin Center (Would be at https://[tenant-name]-admin.sharepoint.com) as a SharePoint admin. 
+1. Sign in to the SharePoint admin center (at https://[tenant-name]-admin.sharepoint.com) as a SharePoint admin. 
 
 2. In the left pane, select **Sites** \> **Active Sites**. 
   
@@ -110,5 +110,4 @@ We recommend using the new site templates for all your new sites. However, if yo
     
 
     
-
 
