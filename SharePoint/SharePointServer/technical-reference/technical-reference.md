@@ -45,5 +45,4 @@ The following technical reference articles about SharePoint Server are available
 
 #### Other Resources
 
-[Stsadm command-line tool (Office SharePoint Server)](https://go.microsoft.com/fwlink/p/?LinkID=186993)
-
+[Stsadm command-line tool (Office SharePoint Server)](/previous-versions/office/sharepoint-2007-products-and-technologies/cc261956(v=office.12))

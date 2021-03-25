@@ -13,7 +13,7 @@
 #### [Create a user mapping file](mm-user-mapping-file.md)
 #### [FAQs](mm-faqs.md)
 #### [Troubleshooting](mm-troubleshoot.md)
-## Migrate Box.com accounts
+## Migrate from Box
 ### [Overview](mm-box-overview.md)
 ### [Step 1: Connect to Box](mm-box-step1-connect.md)
 ### [Step 2: Scan and assess](mm-box-step2-scan-assess.md)
@@ -35,14 +35,15 @@
 #### [File and folder permissions](understanding-permissions-when-migrating.md)
 #### [Supported SharePoint web parts](spmt-supported-webparts.md)
 #### [Supported site features](spmt-supported-site-features.md)
-#### [Troubleshooting installation issues](spmt-install-issues.md)
-#### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
 #### [How the SharePoint Migration Tool works](how-the-sharepoint-migration-tool-works.md)
 #### [Settings](spmt-settings.md)
 #### [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
-### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
+#### [How to format your CSV or JSON file for data content migration](how-to-format-your-csv-file-for-data-content-migration.md)
 #### [SPMT Reports](using-the-sharepoint-migration-tool-reports.md)
-### [Create user mapping files](create-a-user-mapping-file-for-data-content-migration.md)
+#### [Create user mapping files](create-a-user-mapping-file-for-data-content-migration.md)
+###  Troubleshooting
+#### [Troubleshooting installation issues](spmt-install-issues.md)
+#### [Troubleshooting common issues and errors](troubleshooting-common-spmt-issues.md)
 ### SPMT Migration Scenario Guides
 #### [Box to OneDrive Migration Guide](box-to-onedrive-and-sharepoint-migration-guide.md)
 #### [MySites to OneDrive Migration Guide](mysites-to-onedrive-migration-guide.md)

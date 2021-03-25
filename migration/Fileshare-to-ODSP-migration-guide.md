@@ -134,7 +134,7 @@ Currently, there are a variety of migration offerings available to you. Which on
 
 |Customer Self service|FastTrack driven|Partner driven|
 |:-----|:-----|:-----|
-|No cost for Microsoft provided tool</br>[SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)|No cost; included in your [Microsoft 365 subscription](https://docs.microsoft.com/fasttrack/o365-data-migration)|Price dependent on complexity|
+|No cost for Microsoft provided tool</br>[SharePoint Migration Tool ](https://aka.ms/spmt-ga-page)|No cost; included in your [Microsoft 365 subscription](/fasttrack/o365-data-migration)|Price dependent on complexity|
 |Process flexible, you set the pace|Highly structured process and schedule|Customized to your need|
 |No need to configure complex infrastructure|Must set up infrastructure including external access rights, VPNs, test environment, admin environment, establish framework of contacts|Customized to your need|
 |Less time required involved in scheduling process and restrictions|Scheduling templates and questionnaires provided as part of the organization process|Customized to your need|
@@ -175,7 +175,7 @@ Develop a plan for sending communications to your user base, providing clear sta
 
 ### Onboarding related resources
 
-- [Microsoft 365 end user adoption guide](https://docs.microsoft.com/office365/customlearning/champ_o365guide): Outlining methodology and resources for implementing proven adoption success factors
+- [Microsoft 365 end user adoption guide](/office365/customlearning/champ_o365guide): Outlining methodology and resources for implementing proven adoption success factors
 - [Posters, email templates](https://support.microsoft.com/office/create-and-use-site-templates-in-sharepoint-server-versions-60371b0f-00e0-4c49-a844-34759ebdd989): Customizable templates to generate internal awareness and excitement.
 - [OneDrive](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132) and [team library](https://support.office.com/article/551e190a-8fbe-47ae-a88a-798b443c46b1): Video training
 - [OneDrive](https://support.office.com/article/a1397e56-61ec-4ed2-9dac-727bf8ac3357) and [team library](https://support.office.com/article/324a89ec-e77b-4475-b64a-13a0c14c45ec): Quick start training guides; get up and running quickly with the basic info you need to be productive right away

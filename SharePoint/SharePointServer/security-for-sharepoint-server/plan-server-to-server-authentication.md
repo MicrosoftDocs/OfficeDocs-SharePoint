@@ -75,7 +75,7 @@ If the farm that can perform server-to-server authentication is on-premises, you
   
 If the farm that runs SharePoint Server and the other server that can perform server-to-server authentication are both part of a Microsoft 365 organization, no additional configuration for server-to-server authentication is needed.
   
-After you determine the set of servers that require server-to-server authentication, see [Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) to configure the server-to-server trust relationships. 
+After you determine the set of servers that require server-to-server authentication, see [Configure server-to-server authentication in SharePoint Server](./security-for-sharepoint-server.md) to configure the server-to-server trust relationships. 
   
 ## See also
 <a name="trust"> </a>
@@ -85,4 +85,3 @@ After you determine the set of servers that require server-to-server authenticat
 [Authentication overview for SharePoint Server](authentication-overview.md)
   
 [Server-to-server authentication and user profiles in SharePoint Server](server-to-server-authentication-and-user-profiles.md)
-

@@ -49,6 +49,6 @@ The SharePoint Migration Tool supports having only one Managed Metadata Service 
  ![Default site collection term store](media/managed-metadata-issue1.png)
 
 To learn more, see:</br></br>
- [Configure the SharePoint Server Managed Metadata service](https://docs.microsoft.com/SharePoint/governance/configure-the-managed-metadata-service).
+ [Configure the SharePoint Server Managed Metadata service](/SharePoint/governance/configure-the-managed-metadata-service).
  
-[Download and install the SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)
+[Download and install the SharePoint Migration Tool](./introducing-the-sharepoint-migration-tool.md)

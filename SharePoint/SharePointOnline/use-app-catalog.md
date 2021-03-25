@@ -31,7 +31,7 @@ As a SharePoint or global admin in Microsoft 365, you can create an App Catalog 
   
 After the App Catalog site has been created, you can use it to upload any custom apps that your organization has developed. Uploading custom apps isn't much more complicated than uploading a document to a library and setting some properties. You can use the App Catalog site to do things like install custom or third-party apps on sites for users (also called app deployment). You can also manage app requests from users.
   
-For more information about your options for developing custom apps for SharePoint, see: [Build apps for SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=789301) and [Apps for SharePoint compared with SharePoint solutions](https://go.microsoft.com/fwlink/p/?LinkID=265569).
+For more information about your options for developing custom apps for SharePoint, see: [Build apps for SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Apps for SharePoint compared with SharePoint solutions](/sharepoint/dev/general-development/sharepoint-server-application-lifecycle-management).
   
 ## Step 1: Create the App Catalog site collection
 <a name="__toc347303048"> </a>
@@ -40,7 +40,7 @@ The first step is to create the App Catalog site collection if it hasn't already
   
 Even if you don't plan to make internal custom apps available, you will not be able to do things like change the purchase settings for the SharePoint Store until you create the App Catalog site collection. You can have only one App Catalog site collection for your organization, and you only need to create it once.
   
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
 >[!NOTE]
 >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
@@ -98,7 +98,7 @@ If you want all users to use an app, you can deploy it to specific site collecti
 You can deploy a third-party app, or you can [deploy a custom app](use-app-catalog.md#__deploy_a_custom).
 
  > [!NOTE]
-> This option is only available for SharePoint add-ins. To see tenant-scoped deployment options for SharePoint Framework solutions, see [Tenant-scoped solution deployment for SharePoint Framework solutions](https://docs.microsoft.com/sharepoint/dev/spfx/tenant-scoped-deployment). 
+> This option is only available for SharePoint add-ins. To see tenant-scoped deployment options for SharePoint Framework solutions, see [Tenant-scoped solution deployment for SharePoint Framework solutions](/sharepoint/dev/spfx/tenant-scoped-deployment). 
   
  **Deploy a third-party app**
   

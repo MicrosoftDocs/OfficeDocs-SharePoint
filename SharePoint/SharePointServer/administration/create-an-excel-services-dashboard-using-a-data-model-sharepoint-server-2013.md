@@ -38,7 +38,7 @@ Before you begin this operation, review the following information about prerequi
     
 - This scenario uses Adventure Works sample data and a Business Intelligence Center site in SharePoint Server 2013. If you do not have the sample data and a Business Intelligence Center site, have an IT administrator configure them for you using the instructions in [Configure AdventureWorks for Business Intelligence solutions](configure-adventureworks.md).
     
-- Excel Services must be configured to support Data Models in the SharePoint environment that you are using. For information about how to deploy Excel Services, see [Configure Excel Services in SharePoint Server 2013](/SharePoint/administration/configure-excel-services) and [Manage Excel Services data model settings (SharePoint Server 2013)](manage-excel-services-data-model-settings.md).
+- Excel Services must be configured to support Data Models in the SharePoint environment that you are using. For information about how to deploy Excel Services, see [Configure Excel Services in SharePoint Server 2013](./configure-excel-services.md) and [Manage Excel Services data model settings (SharePoint Server 2013)](manage-excel-services-data-model-settings.md).
     
 - You must have some information about what authentication settings are used for Excel Services. For example, if your organization is using Secure Store Service, you will need the Secure Store target application ID for Excel Services data access. 
     
@@ -405,4 +405,3 @@ Now that the dashboard is open for viewing, we can use it to obtain answers to s
 [Business intelligence capabilities in Excel Service (SharePoint Server 2013)](bi-capabilities-in-excel-and-excel-services.md)
   
 [Create an Excel Services dashboard using SQL Server Analysis Services data](create-an-excel-services-dashboard-using-sql-server-analysis-services-data.md)
-

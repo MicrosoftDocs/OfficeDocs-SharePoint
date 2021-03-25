@@ -50,7 +50,7 @@ Before you begin this operation, review the following information to help you pr
     
     If you are using another provider, you must manually back up the remote BLOB stores.
     
-- If you are using SQL Server with Transparent Data Encryption (TDE), and you are backing up your environment by using either SharePoint tools or SQL Server tools, the TDE encryption key in not backed up or restored. You must back up the key manually. When restoring, you must manually restore the key before you restore the data. For more information, see [Understanding Transparent Data Encryption (TDE)](https://go.microsoft.com/fwlink/p/?LinkID=715703&amp;clcid=0x409).
+- If you are using SQL Server with Transparent Data Encryption (TDE), and you are backing up your environment by using either SharePoint tools or SQL Server tools, the TDE encryption key in not backed up or restored. You must back up the key manually. When restoring, you must manually restore the key before you restore the data. For more information, see [Understanding Transparent Data Encryption (TDE)](/sql/relational-databases/security/encryption/transparent-data-encryption?viewFallbackFrom=sql-server-2014).
     
 ## Use PowerShell to back up a farm in SharePoint Server
 <a name="begin"> </a>
@@ -135,7 +135,7 @@ If you want to back up the complete farm, you must use either PowerShell or Cent
     
 5. In the **Back Up Database** dialog, confirm the database name. 
     
-6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkID=715706&amp;clcid=0x409).
+6. Next, select the kind of backup that you want to perform from the **Backup type** list. For more information about which backup type to use, see [Recovery Models (SQL Server)](/sql/relational-databases/backup-restore/recovery-models-sql-server).
     
 7. In the **Backup component** area, click **Database**.
     
@@ -149,5 +149,3 @@ If you want to back up the complete farm, you must use either PowerShell or Cent
     
 ## See also
 <a name="proc3"> </a>
-
-

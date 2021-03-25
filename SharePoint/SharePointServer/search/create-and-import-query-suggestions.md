@@ -43,7 +43,7 @@ Now that you have a query suggestions file, the next task is to import it to Sha
 ## How to import a query suggestions file to SharePoint
 <a name="BKMK_HowToImportQuerySuggestionsFileToSharepointOnline"> </a>
 
-1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) in Microsoft 365. 
+1. Go to the [More features page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=classicfeatures&modern=true), and sign in with an account that has [admin permissions](../../SharePointOnline/sharepoint-admin-role.md) in Microsoft 365. 
 
 2. Under **Search**, select **Open**.
   
@@ -106,5 +106,4 @@ To verify that your query suggestions are working correctly, in a search box, ty
 [Manage query suggestions in SharePoint Server](manage-query-suggestions.md)
 #### Other Resources
 
-[Customize query suggestions in SharePoint search](https://docs.microsoft.com/sharepoint/manage-query-suggestions)
-
+[Customize query suggestions in SharePoint search](../../SharePointOnline/manage-query-suggestions.md)

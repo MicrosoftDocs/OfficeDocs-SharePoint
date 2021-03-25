@@ -39,7 +39,7 @@ Download and install SPMT using one of the links listed below.
 |Feature|Description|
 |:-----|:-----|
 |Support migration of files with size up to 100GB|We now support the migration of individual files up to 100GB, which is file size limit for SharePoint online.|
-|Display time elapsed and time remaining for each migration|On the migration progress page, the *time elapsed* and  *time remaining* values are displayed for each migration task. *Time remaining* is estimated based on the migration history and displays when there is enough historical data available to run the estimation. The *time remaining" value adjusts according to the history data. After the migration completes, a performance recommendation based on the analysis of the data displays below the top progress bar. </br>Learn more:  [How to improve migration performance](https://docs.microsoft.com/sharepointmigration/spmt-performance-guidance) |
+|Display time elapsed and time remaining for each migration|On the migration progress page, the *time elapsed* and  *time remaining* values are displayed for each migration task. *Time remaining* is estimated based on the migration history and displays when there is enough historical data available to run the estimation. The *time remaining" value adjusts according to the history data. After the migration completes, a performance recommendation based on the analysis of the data displays below the top progress bar. </br>Learn more:  [How to improve migration performance](./spmt-performance-guidance.md) |
 
 **Improvements**
 
@@ -499,7 +499,7 @@ To use the SPMT 2.1 PowerShell feature (currently in open beta): <br>
     Import-Module Microsoft.SharePoint.MigrationTool.PowerShell
     ```
     <br>To learn more, see:<br> 
-[Migrate to SharePoint using PowerShell](/sharepointmigration/overview-spmt-ps-cmdlets)<br>
+[Migrate to SharePoint using PowerShell](./overview-spmt-ps-cmdlets.md)<br>
 [SharePoint Migration Tool PowerShell Reference](/powershell/module/spmt)
 
    
@@ -541,4 +541,3 @@ In addition to a number of minor fixes, here are the primary improvements made i
 [Download SharePoint Migration Tool](https://spmtreleasescus.blob.core.windows.net/install/default.htm)
   
 [How to use the SharePoint Migration Tool](how-to-use-the-sharepoint-migration-tool.md)
-

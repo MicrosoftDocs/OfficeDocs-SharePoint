@@ -50,7 +50,7 @@ Intranets are a constant work in progress and are never really considered done. 
 
 **How to think about an intelligent vs traditional intranet design**
 
-The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience](https://docs.microsoft.com/sharepoint/intranet-overview) makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
+The new, modern experience in SharePoint is designed to be compelling, flexible, and more performant. The [modern experience]() makes it easier for anyone to create beautiful, dynamic sites and pages that are accessible and mobile-ready. Modern SharePoint supports intelligent workplaces — those that leverage the collective knowledge of current users, share and collaborate easily, and engage audiences with targeted content and news. 
 
 
 | Traditional intranet           | Intelligent intranet                |
@@ -64,7 +64,7 @@ The new, modern experience in SharePoint is designed to be compelling, flexible,
 
 Over the years, we have learned about what makes an intranet successful. These factors can help accelerate the creation, adoption, and overall success of your intranet:
 
-- Ensure that your intranet goals are directly tied to [key business outcomes](https://docs.microsoft.com/sharepoint/plan-intranet).
+- Ensure that your intranet goals are directly tied to [key business outcomes](./plan-intranet.md).
 - Have an executive sponsor and identify intranet champions.
 - Establish KPIs that are regularly communicated from the project's start to finish.
 - Design for simplicity and longevity.
@@ -97,7 +97,7 @@ The intranet owners work with business owners and IT to prioritize the intranet 
 
 Start by getting inspired with the [SharePoint look book](https://aka.ms/sharepointlookbook). The look book provides examples of intranet pages that you can build in SharePoint and will give you an idea of the possibilities. Keep these in mind as you proceed through the planning and implementation process.
 
-Next, start to [plan your intelligent SharePoint intranet](https://docs.microsoft.com/sharepoint/plan-intranet) by working with your key stakeholders to understand your key business and intranet goals. Do research with intranet users to discover key personas and scenarios. Review your existing intranet and determine which initiative to start with for your best return on investment. As you prioritize your intranet initiatives, consider how to get the [best performance and scalability](https://docs.microsoft.com/SharePoint/portal-health) from the portals that you build. If your existing intranet is using SharePoint server, consider how [migrating your content to SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) fits into your overall plan. To troubleshoot page performance issues, use the [page diagnostics tool](https://docs.microsoft.com/office365/enterprise/page-diagnostics-for-spo).
+Next, start to [plan your intelligent SharePoint intranet](./plan-intranet.md) by working with your key stakeholders to understand your key business and intranet goals. Do research with intranet users to discover key personas and scenarios. Review your existing intranet and determine which initiative to start with for your best return on investment. As you prioritize your intranet initiatives, consider how to get the [best performance and scalability](./portal-health.md) from the portals that you build. If your existing intranet is using SharePoint server, consider how [migrating your content to SharePoint](/sharepointmigration/migrate-to-sharepoint-online) fits into your overall plan. To troubleshoot page performance issues, use the [page diagnostics tool](/office365/enterprise/page-diagnostics-for-spo).
 
 Choose one or more opportunities to start with and meet with the business owners in that area of your organization to plan the solution Some solutions may require coordination among different parts of the organization.
 
@@ -120,7 +120,7 @@ As you plan and implement your intranet, keep in mind these key success factors:
 
 #### Organize your intranet
 
-A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hubs](planning-hub-sites.md), you can create an intuitive intranet with common navigation across related sites and an easy-to-manage permissions structure. For a detailed look at site navigation in SharePoint, see [Planning navigation for the modern SharePoint experience](https://docs.microsoft.com/sharepoint/plan-navigation-modern-experience).
+A critical part of your SharePoint intranet is your site architecture. By using a series of [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732) and [hubs](planning-hub-sites.md), you can create an intuitive intranet with common navigation across related sites and an easy-to-manage permissions structure. For a detailed look at site navigation in SharePoint, see [Planning navigation for the modern SharePoint experience](./plan-navigation-modern-experience.md).
 
 *Start by* — Developing an understanding about what you need your intranet to accomplish and start organizing content assets to align with key outcome goals. Organize depending on the needs of the business — by region, department, or function — and by the topics that your users care about.  
 
@@ -128,7 +128,7 @@ A critical part of your SharePoint intranet is your site architecture. By using 
 
 #### Brand your intranet
 
-Branding provides a way to align your intranet with your organizational culture. With SharePoint, you can [add branding to your SharePoint site](https://docs.microsoft.com/sharepoint/branding-sharepoint-online-sites-modern-experience), and also [customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/office365/admin/setup/customize-your-organization-theme).
+Branding provides a way to align your intranet with your organizational culture. With SharePoint, you can [add branding to your SharePoint site](./branding-sharepoint-online-sites-modern-experience.md), and also [customize the Microsoft 365 theme for your organization](/office365/admin/setup/customize-your-organization-theme).
 
 *Start by* — Answer, do you need a consistent brand across all sites or will different divisions, departments, or groups in your organization have their own look and feel? Then, collect approved brand assets like brand colors, logos, and images depending on your organization's branding requirements.
 
@@ -150,7 +150,7 @@ As you plan and implement your intranet, keep in mind these key success factors:
 
 #### Plan and align the governance strategy
 
-Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal — ensuring organization content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](https://docs.microsoft.com/sharepoint/governance-overview): naming conventions, guest access, classification of sites, groups, and files.
+Governance is the set of policies, roles, and processes that control how your organization's business divisions and IT teams work together to achieve its goal — ensuring organization content and communications are secure and viewers benefit from a consistent experience. Every organization has unique needs and goals that influence its approach to governance. Some details to consider when planning your [governance strategy](./governance-overview.md): naming conventions, guest access, classification of sites, groups, and files.
 
 *Start by* — Understanding the rules and requirements of your organization, in combination with the needs of business owners and site owners. Then, develop a plan alongside IT, HR and senior leadership that allows employees to maximize the value of SharePoint with minimal oversight in a way that's compliant.
 
@@ -160,7 +160,7 @@ Governance is the set of policies, roles, and processes that control how your or
 
 Your existing intranet may contain content from a variety of sources located on different platforms. A key task in creating your intelligent SharePoint intranet is determining the state of your existing content and deciding which content to migrate to the new intranet.
 
-Your current business owners and site owners may be best suited to evaluate if content should be migrated and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. [Mover](https://mover.io) can help you migrate from other cloud providers.
+Your current business owners and site owners may be best suited to evaluate if content should be migrated and you may want to have them perform the actual migration, depending on what's involved. They may need your assistance depending on the quantity and location of the content to be moved. The [SharePoint Migration Tool](/sharepointmigration/migrate-to-sharepoint-online) can help you migrate content from SharePoint server and from file shares. [Mover](https://mover.io) can help you migrate from other cloud providers.
 
 *Start by* — Working with business leaders and other content stakeholders to review your existing content for relevance and accuracy.
 
@@ -170,11 +170,11 @@ Your current business owners and site owners may be best suited to evaluate if c
 
 With the SharePoint intelligent experience, you can create an engaging, easy to maintain intranet without the need for customization. We highly recommend using SharePoint default experiences where possible. This will provide easier change management over time.
 
-If you do need to customize SharePoint, SharePoint provides Framework solutions, apps, add-ins, and solutions to help you meet your business needs. For more info, see [SharePoint development](https://docs.microsoft.com/sharepoint/dev).
+If you do need to customize SharePoint, SharePoint provides Framework solutions, apps, add-ins, and solutions to help you meet your business needs. For more info, see [SharePoint development](/sharepoint/dev).
 
 #### Train your content authors
 
-Depending on their background, the people in your organization may need some help [getting started](https://support.office.com/en-us/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182) with SharePoint. [Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/) provides a way to bring a curated set of Microsoft content to your users. Other references that can help your content creators manage updates to the site include:
+Depending on their background, the people in your organization may need some help [getting started](https://support.office.com/en-us/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182) with SharePoint. [Microsoft 365 learning pathways](/office365/customlearning/) provides a way to bring a curated set of Microsoft content to your users. Other references that can help your content creators manage updates to the site include:
 
 - [Create a document library in SharePoint](https://support.office.com/client/306728fe-0325-4b28-b60d-f902e1d75939)
 - [Create a list in SharePoint](https://support.office.com/article/0D397414-D95F-41EB-ADDD-5E6EFF41B083)
@@ -209,9 +209,9 @@ Look for opportunities to eliminate prior versions of documents that you no long
 
 Train your users to take advantage of SharePoint’s automated versioning — and remove version IDs and dates from file names wherever possible, migrating only the latest and most accurate version. Better still, see if you can convert legacy documents to modern pages to create more engaging and easier to consume content. You will get better search experiences and achieve higher user satisfaction and easier maintenance by removing content that's no longer needed prior to migration.
 
-If you're migrating files from SharePoint Server on-premises or file shares, you can use the [SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online).
+If you're migrating files from SharePoint Server on-premises or file shares, you can use the [SharePoint Migration Tool](/sharepointmigration/migrate-to-sharepoint-online).
 
-Video is a great way to communicate to the people in your organization for executive briefings or when sharing ideas through video can lead to greater engagement. Use [Microsoft Stream](https://docs.microsoft.com/stream) to deliver live and on-demand meetings, events, and training. If you have existing video content that you want to make available on your new intranet site, [upload it to Stream](https://docs.microsoft.com/stream/portal-upload-video) as part of your content migration process.
+Video is a great way to communicate to the people in your organization for executive briefings or when sharing ideas through video can lead to greater engagement. Use [Microsoft Stream](/stream) to deliver live and on-demand meetings, events, and training. If you have existing video content that you want to make available on your new intranet site, [upload it to Stream](/stream/portal-upload-video) as part of your content migration process.
 
 *Start by* — Understanding the full scope of content that might need to be migrated and then define the criteria used to target content that should be migrated, should be edited and then migrated, and should be retired.
 
@@ -219,7 +219,7 @@ Video is a great way to communicate to the people in your organization for execu
 
 #### Determine your permissions and sharing strategy
 
-SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions) are managed through a set of roles within a site — owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Microsoft 365 groups. 
+SharePoint [permissions](./modern-experience-sharing-permissions.md) are managed through a set of roles within a site — owners, members, and visitors. Depending on the type of site, there may be additional permission and sharing options available like using Microsoft 365 groups. 
 
 *Start by* — Determining who needs access, who should not have access, and how you will grant access requests.
 
@@ -229,7 +229,7 @@ SharePoint [permissions](https://docs.microsoft.com/sharepoint/modern-experience
 
 The [main intranet portal for your organization](home-site.md) is a big part of your new SharePoint intranet. You can create this page at any time during your intranet development project. You can still point to your legacy intranet sites with an intelligent portal home page. If you have an existing communication site that you want to use as your main portal page, you can [move it to the root site](modern-root-site.md#replace-your-root-site).
 
-The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](https://docs.microsoft.com/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
+The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb76b4cf5), [news web part](https://support.office.com/article/C2DCEE50-F5D7-434B-8CB9-A7FEEFD9F165), and [Yammer feeds](/yammer/yammer-landing-page) can all be used to make your main portal page an engaging and productive destination for your users. For an end-to-end look at creating this page, read [Guided walkthrough: Creating an Enterprise Landing site for your organization](https://support.office.com/article/9c1842c3-543e-4891-85d3-0eaf680e242d).
 
 *Start by* — Considering the goals from the perspective of your organization's communications team, your executive sponsor, your IT department, and end users. Design the portal home page with simplicity and scalability in mind.
 
@@ -237,7 +237,7 @@ The [mega menu](https://support.office.com/article/d6768545-2391-4c66-9a8c-a85eb
 
 #### Design your business, or topic-specific intranet site
 
-As you start designing the intranet sites for your services and functions, make sure you have done research with your users to better understand their needs and how they currently interact with your content. To create custom surveys and questionnaires and spend time observing users and meeting with them, you can use [Forms](https://docs.microsoft.com/forms-pro).
+As you start designing the intranet sites for your services and functions, make sure you have done research with your users to better understand their needs and how they currently interact with your content. To create custom surveys and questionnaires and spend time observing users and meeting with them, you can use [Forms](/forms-pro).
 
 We recommend developing your intranet pages using [communication sites](https://support.office.com/article/94A33429-E580-45C3-A090-5512A8070732). With communication sites, you can share news, reports, statuses, and other information through a variety of templates and web parts. For an end-to-end look at setting up a communication site, see [Guided walkthrough: Creating a communication site for your organization](https://support.office.com/article/d9aaecc7-e2df-43a7-acc2-bd37f1fe7cfe). Learn more about [how to plan your sites](https://support.office.com/en-us/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US). 
 
@@ -358,11 +358,10 @@ Help work groups connect and engage across your organization using Yammer. [Lea
 
 [Ways to work with SharePoint](https://support.office.com/article/ways-to-work-with-sharepoint-17688238-3285-47cf-b8c7-cba3764acbdf)
 
-[Guide to the Modern experience in SharePoint](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)
+[Guide to the Modern experience in SharePoint](./guide-to-sharepoint-modern-experience.md)
 
 [Intelligent Intranet Envisioning Workshop PowerPoint deck](https://resources.techcommunity.microsoft.com/link/sharepoint-envisioning-workshop-concept/)
 
-[Plan your intranet](https://docs.microsoft.com/sharepoint/plan-intranet)
+[Plan your intranet](./plan-intranet.md)
 
 [Plan your communication site — get started](https://support.office.com/article/plan-your-sharepoint-site-get-started-35d9adfe-d5cc-462f-a63a-bae7f2529182?ui=en-US&rs=en-US&ad=US)
-

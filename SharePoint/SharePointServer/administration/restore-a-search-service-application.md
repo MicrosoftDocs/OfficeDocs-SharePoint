@@ -203,7 +203,7 @@ You cannot restore the complete SharePoint Search service application by using S
     
 8. On the Options tab, select the recovery state from the **Recover state** section.
     
-    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](https://go.microsoft.com/fwlink/p/?LinkID=626889&amp;clcid=0x409).
+    For more information about which recovery type to use, see [ Recovery Models (SQL Server) ](/sql/relational-databases/backup-restore/recovery-models-sql-server?viewFallbackFrom=sql-server-2014).
     
 9. Click **OK** to restore the database.
     
@@ -215,4 +215,3 @@ You cannot restore the complete SharePoint Search service application by using S
 #### Concepts
 
 [Back up Search service applications in SharePoint Server](back-up-a-search-service-application.md)
-

@@ -49,7 +49,7 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
   
 2. Start the SharePoint Management Shell.
     
-    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows](https://go.microsoft.com/fwlink/?LinkID=715712&amp;clcid=0x409).
+    For more information about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. If no database already exists that you can use, type the following command at the PowerShell command prompt:
     
@@ -84,5 +84,3 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: A State 
   -  _\<ID\>_ is the identifier for the State Service service application as a string or a GUID. If there is only one State Service service application, you do not have to specify this parameter. 
     
 For more information, see [Mount-SPStateServiceDatabase](/powershell/module/sharepoint-server/Mount-SPStateServiceDatabase?view=sharepoint-ps) or [New-SPStateServiceDatabase](/powershell/module/sharepoint-server/New-SPStateServiceDatabase?view=sharepoint-ps). 
-  
-

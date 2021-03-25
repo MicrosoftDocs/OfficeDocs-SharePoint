@@ -56,11 +56,11 @@ In order for SendingFarm to be able to get search results from the search index 
     
 > [!NOTE]
 >  Because SharePoint Server runs as websites in Internet Information Services (IIS), administrators and users depend on the accessibility features that browsers provide. SharePoint Server supports the accessibility features of supported browsers. For more information, see the following resources: 
->-  [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
->-  [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
+>-  [Plan browser support](../install/browser-support-planning.md)
+>-  [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
 >-  [Accessibility features in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=246501)
 >-  [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
->-  [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+>-  [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
 
 **To configure ReceivingFarm to trust SendingFarm**
   
@@ -70,7 +70,7 @@ In order for SendingFarm to be able to get search results from the search index 
     
   - Administrators group on the server on which you are running Microsoft PowerShell cmdlets.
     
-    An administrator of that server can use the **Add-SPShellAdmin** cmdlet to grant someone permission to use SharePoint Server cmdlets. When you run the **Add-SPShellAdmin** cmdlet, you must have membership in the **securityadmin** fixed server role on the SQL Server instances, and you must have membership in the **db_owner** fixed database role on all databases that are to be updated. For more information, see [Add-SPShellAdmin](/SharePoint/accessibility-guidelines). Contact your system administrator or SQL Server administrator to request these memberships if you do not have them.
+    An administrator of that server can use the **Add-SPShellAdmin** cmdlet to grant someone permission to use SharePoint Server cmdlets. When you run the **Add-SPShellAdmin** cmdlet, you must have membership in the **securityadmin** fixed server role on the SQL Server instances, and you must have membership in the **db_owner** fixed database role on all databases that are to be updated. For more information, see [Add-SPShellAdmin](../accessibility-guidelines.md). Contact your system administrator or SQL Server administrator to request these memberships if you do not have them.
     
 2. On a server in ReceivingFarm, start the SharePoint Management Shell.
     
@@ -84,7 +84,7 @@ In order for SendingFarm to be able to get search results from the search index 
     
     - If **SharePoint Management Shell** is not on the **Start** page, right-click **Computer**, select **All apps**, and then select SharePoint Management Shell.
     
-    For more info about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=276950).
+    For more info about how to interact with Windows Server 2012, see [Common Management Tasks and Navigation in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831491(v=ws.11)).
     
 3. On a server in ReceivingFarm, run the following commands at a PowerShell command prompt. The commands use the OAuth 2.0 web authorization protocol to configure a server-to-server trust, so that ReceivingFarm will trust SendingFarm.
     
@@ -103,7 +103,7 @@ In order for SendingFarm to be able to get search results from the search index 
      _https://\<SendingFarm_web_application\>_ is any SSL-enabled web application in SendingFarm 
     
     > [!IMPORTANT]
-    > Web applications that include server-to-server authentication endpoints for incoming server-to-server requests, or that make outgoing server-to-server requests, should be configured to use Secure Sockets Layer (SSL). For information about how to configure a web application to use SSL, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). For information about how to configure HTTP support for server-to-server requests, see [Configure server-to-server authentication between SharePoint Server farms](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server#HTTP) in [Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server). 
+    > Web applications that include server-to-server authentication endpoints for incoming server-to-server requests, or that make outgoing server-to-server requests, should be configured to use Secure Sockets Layer (SSL). For information about how to configure a web application to use SSL, see [Create claims-based web applications in SharePoint Server](/previous-versions/office/sharepoint-server-2010/ee806885(v=office.14)). For information about how to configure HTTP support for server-to-server requests, see [Configure server-to-server authentication between SharePoint Server farms](../security-for-sharepoint-server/security-for-sharepoint-server.md#HTTP) in [Configure server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md). 
   
 4. On a server in ReceivingFarm, at a PowerShell command prompt, run the following command:
     
@@ -146,10 +146,10 @@ In order for SendingFarm to be able to get search results from the search index 
   
 [Plan for server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/plan-server-to-server-authentication.md)
 
-[Configure server-to-server authentication in SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)
+[Configure server-to-server authentication in SharePoint Server](../security-for-sharepoint-server/security-for-sharepoint-server.md)
   
-[Setting Up an oAuth Trust Between Farms in SharePoint 2013](https://blogs.technet.com/b/speschka/archive/2012/07/23/setting-up-an-oauth-trust-between-farms-in-sharepoint-2013.aspx)
+[Setting Up an oAuth Trust Between Farms in SharePoint 2013](/archive/blogs/speschka/setting-up-an-oauth-trust-between-farms-in-sharepoint-2013)
   
-[Getting a Full Result Set from a Remote SharePoint Index in SharePoint 2013](https://blogs.technet.com/b/speschka/archive/2013/01/24/getting-a-full-result-set-from-a-remote-sharepoint-index-in-sharepoint-2013.aspx)
+[Getting a Full Result Set from a Remote SharePoint Index in SharePoint 2013](/archive/blogs/speschka/getting-a-full-result-set-from-a-remote-sharepoint-index-in-sharepoint-2013)
   
-[An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET](https://msdn.microsoft.com/library/bb299886.aspx)
+[An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET](/previous-versions/dotnet/articles/bb299886(v=msdn.10))

@@ -61,7 +61,7 @@ The Excel client application doesn't support co-authoring workbooks in SharePoin
 
 Co-authoring functionality in SharePoint is designed to be easy to set up and requires minimal effort to manage. But, there are several things to consider when you set up and manage co-authoring:
   
-- **Permissions** - Each user who wants to edit a document needs edit permissions for the document library where that document is stored. The simplest way to guarantee that is to give all users access to the SharePoint site where documents are stored. In cases where only a subset of users should have permission to co-author documents in a particular library, SharePoint permissions can be used to manage access. For more information, see [Overview of site permissions in SharePoint Server](/sharepoint/sites/overview-of-site-permissions-in-sharepoint-server).
+- **Permissions** - Each user who wants to edit a document needs edit permissions for the document library where that document is stored. The simplest way to guarantee that is to give all users access to the SharePoint site where documents are stored. In cases where only a subset of users should have permission to co-author documents in a particular library, SharePoint permissions can be used to manage access. For more information, see [Overview of site permissions in SharePoint Server](../sites/overview-of-site-permissions-in-sharepoint-server.md).
 
 - **Versioning** - SharePoint Server versioning keeps track of changes to documents while they're being edited, and even stores earlier versions for reference. By default, this feature is turned off in SharePoint Server. SharePoint Server supports two kinds of versioning, major and minor. Minor versioning should remain off for document libraries that are used for co-authoring in OneNote, because it may interfere with OneNote's synchronization and versioning. This limitation only applies to minor versioning. Major versioning may be used with OneNote. For more information, see [How does versioning work in a list or library?](https://go.microsoft.com/fwlink/p/?LinkId=275819).
 
@@ -91,4 +91,3 @@ To reduce server impact, Office clients synchronize co-authoring actions less of
 <a name="bkmk_perf"> </a>
 
 [Plan document versioning, content approval, and check-out controls in SharePointServer](versioning-content-approval-and-check-out-planning.md)
-

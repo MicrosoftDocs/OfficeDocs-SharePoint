@@ -52,4 +52,4 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Applicat
 
 #### Other Resources
 
-[Recycling Settings for an Application Pool \<recycling\>](https://go.microsoft.com/fwlink/?LinkID=761158&amp;clcid=0x409)
+[Recycling Settings for an Application Pool \<recycling\>](/iis/configuration/system.applicationHost/applicationPools/add/recycling/)

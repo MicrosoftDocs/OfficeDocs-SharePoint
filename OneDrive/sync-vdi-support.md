@@ -36,7 +36,7 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
   - Windows Server 2012 R2 (supports VHDX)
   - Windows Server 2008 R2 (supports VHD)
 
- Using the OneDrive sync app with non-persistent environments requires that you [install the sync app per machine](https://docs.microsoft.com/onedrive/per-machine-installation).
+ Using the OneDrive sync app with non-persistent environments requires that you [install the sync app per machine](./per-machine-installation.md).
  
 > [!NOTE]
 > The minimum supported versions are: OneDrive 19.174.0902.0013 and FSLogix Apps [2.9.7486.53382](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C5aJ).

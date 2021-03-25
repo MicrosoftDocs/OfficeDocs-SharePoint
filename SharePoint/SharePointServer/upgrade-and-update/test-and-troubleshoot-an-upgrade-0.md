@@ -43,7 +43,7 @@ Download the following content for information about how to test and troubleshoo
 |[Use a trial upgrade to SharePoint 2013 to find potential issues](/previous-versions/office/sharepoint-server-2010/cc262155(v=office.14)) <br/> |Find out how to plan for success by testing upgrade by using your actual data in either a physical or virtual environment.  <br/> |
 |[Troubleshoot database upgrade issues in SharePoint 2013](/previous-versions/office/sharepoint-server-2010/cc262967(v=office.14)) <br/> |Follow these recommendations to troubleshoot any issues that occur during database-attach upgrade. You can also look up common issues and discover how to address them.  <br/> |
 |[Troubleshoot site collection upgrade issues in SharePoint 2013](troubleshoot-site-collection-upgrade-issues-in-sharepoint-2013.md) <br/> |Follow these recommendations to troubleshoot any issues that occur during a site collection upgrade. You can also look up common issues and discover how to address them.  <br/> |
-|[Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](/SharePoint/upgrade-and-update/branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013) <br/> |Learn how to address issues with branding in an upgraded site, such as custom CSS, custom themes, and custom master pages and page layouts.  <br/> |
+|[Branding issues that may occur when upgrading to SharePoint 2013 [Migrated]](./branding-issues-that-may-occur-when-upgrading-to-sharepoint-2013.md) <br/> |Learn how to address issues with branding in an upgraded site, such as custom CSS, custom themes, and custom master pages and page layouts.  <br/> |
 |[Restart a database-attach upgrade or a site collection upgrade to SharePoint 2013](restart-a-database-attach-upgrade-or-a-site-collection-upgrade-to-sharepoint-201.md) <br/> |If you encounter errors during upgrade, you can address them by using the troubleshooting article, and then use this article to restart or resume upgrade.  <br/> |
    
 ## See also
@@ -51,4 +51,3 @@ Download the following content for information about how to test and troubleshoo
 #### Other Resources
 
 [Best practices for upgrading from SharePoint 2010 to SharePoint 2013](best-practices-for-upgrading-from-sharepoint-2010-to-sharepoint-2013.md)
-

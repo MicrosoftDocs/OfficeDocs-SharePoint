@@ -88,11 +88,11 @@ Execute <pathToExecutable>\OneDriveSetup.exe /silent
 (where pathToExecutable is a location on the local computer or an accessible network share).
   
 > [!NOTE]
-> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with Configuration Manager](https://go.microsoft.com/fwlink/?linkid=839723).
+> This command must be run at user logon and using Administrator permissions. It must be run for each user on a machine. For an example of how to deploy an .exe on every user account, see [How to deploy the OneDrive sync app with Configuration Manager](/archive/blogs/paulodias/how-to-deploy-onedrive-next-generation-sync-client-with-sccm).
 > 
 > If you run the command with no command-line parameter, users will see the installation status. After installation, OneDriveSetup.exe will automatically execute OneDrive.exe and display OneDrive Setup to users. If you run the command with the **/silent** parameter, OneDrive.exe will be installed transparently and OneDrive Setup won't appear. You'll need to run OneDrive.exe with an additional command. If you want to control the launch of OneDrive across your organization, we recommend using the **/silent** parameter. 
   
-[Learn more about application management in Configuration Manager](https://go.microsoft.com/fwlink/p/?LinkId=535034).
+[Learn more about application management in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/gg699373(v=technet.10)).
 The installer will install the OneDrive executable file under **%localappdata%\Microsoft\OneDrive**. 
   
 ### Deploy the RMS client to enable syncing IRM-protected files
@@ -219,4 +219,3 @@ For more info, see [Create Android applications with Configuration Manager](/con
 
 [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/article/64883a5d-228e-48f5-b3d2-eb39e07630fa)
 
- 

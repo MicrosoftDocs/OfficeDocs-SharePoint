@@ -54,6 +54,6 @@ description: "Learn how to resolve the SharePoint Health Analyzer rule: Web.conf
     
   - The requestLimits element has a maxAllowedContentLength attribute and its value is set to **2147483647**.
     
-    For more information, see [How to: Add and Remove Web.config Settings Programmatically](https://go.microsoft.com/fwlink/p/?LinkID=227014).
+    For more information, see [How to: Add and Remove Web.config Settings Programmatically](/previous-versions/office/developer/sharepoint-2010/bb861909(v=office.14)).
     
 10. After you have made changes to these settings, in the **Actions** pane, click **Apply**.

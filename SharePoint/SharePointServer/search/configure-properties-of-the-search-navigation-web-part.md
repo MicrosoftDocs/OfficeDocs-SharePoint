@@ -39,15 +39,15 @@ The search vertical properties, such as display name and links, are configured o
   
 For more information, see the following resources:
   
-- [Plan browser support](https://go.microsoft.com/fwlink/p/?LinkId=246502)
+- [Plan browser support](../install/browser-support-planning.md)
     
-- [Accessibility for SharePoint 2013](/SharePoint/accessibility-guidelines)
+- [Accessibility for SharePoint 2013](../accessibility-guidelines.md)
     
 - [Accessibility features in SharePoint 2013 Products](https://go.microsoft.com/fwlink/p/?LinkId=246501)
     
 - [Keyboard shortcuts](https://go.microsoft.com/fwlink/p/?LinkID=246504)
     
-- [Touch](https://go.microsoft.com/fwlink/p/?LinkId=246506)
+- [Touch](/windows/win32/wintouch/windows-touch-gestures-overview)
     
 ## Configure the properties of the Search Navigation Web Part
 <a name="BKMK_ConfigureSearchNavigation"> </a>
@@ -112,5 +112,3 @@ Before you start this procedure, verify that you have created a new page for the
   - In the **URL** field, type the URL to the new search vertical. 
     
   - Click **OK** to save the new search vertical. 
-    
-

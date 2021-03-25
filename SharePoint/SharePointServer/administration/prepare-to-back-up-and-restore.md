@@ -39,7 +39,7 @@ It is important to make sure that you have backed up and can recover the data th
     
 - The database server and farm server that you want to back up must be able to connect to one another.
     
-- If you use SQL Server with Transparent Data Encryption (TDE), and you use either SharePoint tools or SQL Server tools to back up your environment, the TDE encryption key is not backed up or restored. You must manually back up the key. When you restore the environment, you must manually restore the key before you restore the data. For more information, see [Understanding Transparent Data Encryption (TDE)](https://go.microsoft.com/fwlink/p/?LinkID=715574&amp;clcid=0x409).
+- If you use SQL Server with Transparent Data Encryption (TDE), and you use either SharePoint tools or SQL Server tools to back up your environment, the TDE encryption key is not backed up or restored. You must manually back up the key. When you restore the environment, you must manually restore the key before you restore the data. For more information, see [Understanding Transparent Data Encryption (TDE)](/sql/relational-databases/security/encryption/transparent-data-encryption?viewFallbackFrom=sql-server-2014).
     
 ### Restrictions when you back up and restore SharePoint Server
 
@@ -84,4 +84,3 @@ Use this procedure to create a shared folder on the network that can receive and
 [Backup solutions in SharePoint Server](backup.md)
   
 [Restore solutions in SharePoint Server](restore.md)
-

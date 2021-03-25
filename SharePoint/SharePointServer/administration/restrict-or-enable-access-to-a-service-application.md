@@ -329,9 +329,9 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
 [Account permissions and security settings in SharePoint Servers 2016 and 2019](../install/account-permissions-and-security-settings-in-sharepoint-server-2016.md)
 #### Other Resources
 
-[Create a web application in SharePoint Server](/SharePoint/administration/create-a-web-application)
+[Create a web application in SharePoint Server](./create-a-web-application.md)
   
-[Get-SPWebApplication](/SharePoint/administration/create-a-web-application)
+[Get-SPWebApplication](./create-a-web-application.md)
   
 [New-SPClaimsPrincipal](/powershell/module/sharepoint-server/New-SPClaimsPrincipal?view=sharepoint-ps)
   
@@ -348,4 +348,3 @@ Set-SPServiceApplicationSecurity $spguid -ObjectSecurity $security
 [Get-SPFarm](/powershell/module/sharepoint-server/Get-SPFarm?view=sharepoint-ps)
   
 [Get-SPClaimProvider](/powershell/module/sharepoint-server/Get-SPClaimProvider?view=sharepoint-ps)
-

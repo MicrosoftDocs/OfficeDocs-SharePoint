@@ -57,9 +57,9 @@ Page layouts contain page field controls and Web Part zones. Page field controls
   
 For more information, see:
   
-- [Overview of the SharePoint 2013 page model](https://go.microsoft.com/fwlink/p/?LinkId=400535)
+- [Overview of the SharePoint 2013 page model](/sharepoint/dev/general-development/overview-of-the-sharepoint-page-model)
     
-- [How to: Create a page layout in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=400538)
+- [How to: Create a page layout in SharePoint 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
     
 ### About pages and rendered pages
 <a name="BKMK_AboutPagesAndRenderedPages"> </a>
@@ -72,7 +72,7 @@ When visitors browse a site, they will see a rendered page. In a rendered page, 
   
 ![Rendered Page](../media/OTCSP_RenderedPage.png)
   
-For more information, see [Overview of the SharePoint 2013 page model](https://go.microsoft.com/fwlink/p/?LinkId=400535).
+For more information, see [Overview of the SharePoint 2013 page model](/sharepoint/dev/general-development/overview-of-the-sharepoint-page-model).
   
 ### How to upload a new page layout
 <a name="BKMK_HowToUploadANewPageLayout"> </a>
@@ -147,7 +147,6 @@ Now that we have created these pages, the next step is to assign them to the ter
 
 #### Other Resources
 
-[How to: Create a page layout in SharePoint Server 2013](https://msdn.microsoft.com/library/jj822368.aspx)
+[How to: Create a page layout in SharePoint Server 2013](/sharepoint/dev/general-development/how-to-create-a-page-layout-in-sharepoint)
   
-[Add snippets to a master page or a page layout in SharePoint Server 2013](https://msdn.microsoft.com/library/office/jj822367.aspx)
-
+[Add snippets to a master page or a page layout in SharePoint Server 2013](/sharepoint/dev/general-development/sharepoint-design-manager-display-templates)

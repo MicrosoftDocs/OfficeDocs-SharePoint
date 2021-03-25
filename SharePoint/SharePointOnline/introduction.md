@@ -40,8 +40,8 @@ If you have files on-premises that you need to move to SharePoint in Microsoft 3
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
-|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](https://docs.microsoft.com/sharepointmigration/migrating-content-to-onedrive-for-business)<br><br>[How to migrate from on-premises file shares to Microsoft 365](https://docs.microsoft.com/sharepointmigration/mover-fileshare-to-o365)<br><br>[The SharePoint Migration Tool](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)|
-|How to use connect your existing on-premises SharePoint sites to SharePoint in Microsoft 365|[Hybrid for SharePoint Server](/sharepoint/hybrid/hybrid)|
+|How to migrate content from file shares, SharePoint Server, or other cloud providers to OneDrive in Microsoft 365|[Migrate content to OneDrive](/sharepointmigration/migrating-content-to-onedrive-for-business)<br><br>[How to migrate from on-premises file shares to Microsoft 365](/sharepointmigration/mover-fileshare-to-o365)<br><br>[The SharePoint Migration Tool](/sharepointmigration/introducing-the-sharepoint-migration-tool)|
+|How to use connect your existing on-premises SharePoint sites to SharePoint in Microsoft 365|[Hybrid for SharePoint Server](../SharePointServer/hybrid/hybrid.md)|
 
 ## Governance
 
@@ -49,18 +49,18 @@ If your organization has legal or other requirements that govern the handling of
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
-|How to ensure that you retain files for a specified period of time, or delete them on a specified schedule|[Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)<br><br>[OneDrive retention and deletion](https://docs.microsoft.com/onedrive/retention-and-deletion)|
-|How to classify documents based on the sensitivity of the information|[Overview of sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)<br><br>[Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)|
-|How to prevent the loss or exfiltration of important data in documents emails|[Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)|
-|Search for in-place items such as email, documents, and instant messaging conversations|[Content Search in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search)|
+|How to ensure that you retain files for a specified period of time, or delete them on a specified schedule|[Overview of retention policies](/microsoft-365/compliance/retention-policies)<br><br>[OneDrive retention and deletion](/onedrive/retention-and-deletion)|
+|How to classify documents based on the sensitivity of the information|[Overview of sensitivity labels](/microsoft-365/compliance/sensitivity-labels)<br><br>[Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)|
+|How to prevent the loss or exfiltration of important data in documents emails|[Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies)|
+|Search for in-place items such as email, documents, and instant messaging conversations|[Content Search in Microsoft 365](/microsoft-365/compliance/content-search)|
 
 If you use OneDrive in your organization and you want to protect important files by saving them to the cloud, govern how much storage space users get, or govern how users sync file, these references will help you configure your policies.
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
-|Protect important files on users' desktops or in their Documents folder|[Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders)|
-|Control how users sync files to their devices|[Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/onedrive/use-group-policy)|
-|Configure the amount of storage space users have in OneDrive|[Set the default storage space for OneDrive users](https://docs.microsoft.com/onedrive/set-default-storage-space)|
+|Protect important files on users' desktops or in their Documents folder|[Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders)|
+|Control how users sync files to their devices|[Use Group Policy to control OneDrive sync settings](/onedrive/use-group-policy)|
+|Configure the amount of storage space users have in OneDrive|[Set the default storage space for OneDrive users](/onedrive/set-default-storage-space)|
 
 ## Collaboration
 
@@ -68,9 +68,9 @@ SharePoint provides a rich collaboration environment where people inside and out
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
-|Learn about file collaboration and how to plan your implementation|[File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)|
-|Learn about collaborating with people outside your organization|[External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)<br><br>[Collaborate with guests](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization)|
-|Use the security and compliance features in Microsoft 365 to help secure your guest sharing environment|[Create a secure guest sharing environment](https://docs.microsoft.com/Office365/Enterprise/create-a-secure-guest-sharing-environment)|
+|Learn about file collaboration and how to plan your implementation|[File collaboration in SharePoint with Microsoft 365](./deploy-file-collaboration.md)|
+|Learn about collaborating with people outside your organization|[External sharing overview](./external-sharing-overview.md)<br><br>[Collaborate with guests](/Office365/Enterprise/collaborating-with-people-outside-your-organization)|
+|Use the security and compliance features in Microsoft 365 to help secure your guest sharing environment|[Create a secure guest sharing environment](/Office365/Enterprise/create-a-secure-guest-sharing-environment)|
 
 ## Modern intranet
 
@@ -80,7 +80,7 @@ SharePoint provides a rich set of tools to help you create and maintain your org
 |:-----|:-----|
 |Learn about the different types of SharePoint sites|[Plan your SharePoint site](https://support.office.com/article/35d9adfe-d5cc-462f-a63a-bae7f2529182)|
 |Select whether to allow users to create their own sites|[Manage site creation](manage-site-creation.md)|
-|Learn how to plan an intelligent intranet for your organization|[Plan an intelligent SharePoint intranet](plan-intranet.md)<br><br>[Planning your SharePoint hub sites](https://docs.microsoft.com/sharepoint/planning-hub-sites)|
+|Learn how to plan an intelligent intranet for your organization|[Plan an intelligent SharePoint intranet](plan-intranet.md)<br><br>[Planning your SharePoint hub sites](./planning-hub-sites.md)|
 
 ## Training
 
@@ -88,7 +88,7 @@ Administrators are often called upon to teach others in the organization how to 
 
 | If you're looking for this information: | Go to this resource: |
 |:-----|:-----|
-|Set up a customizable training portal with Microsoft training content for your organization|[Microsoft 365 learning pathways](https://docs.microsoft.com/office365/customlearning/)|
+|Set up a customizable training portal with Microsoft training content for your organization|[Microsoft 365 learning pathways](/office365/customlearning/)|
 |Show your users the basics of SharePoint|[SharePoint training](https://support.office.com/article/cb8ef501-84db-4427-ac77-ec2009fb8e23)|
 
 ## Customization
