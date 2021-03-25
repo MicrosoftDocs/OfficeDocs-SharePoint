@@ -1,5 +1,5 @@
 ---
-title: "How to format a CSV or JSON file for bulk upload in Migration Manager"
+title: "Bulk upload tasks into Migration Manager using a CSV or JSON file"
 ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
@@ -15,7 +15,7 @@ ms.collection:
 - SPMigration
 - M365-collaboration
 search.appverid: MET150
-description: "How to format a CSV or JSON file for bulk upload in Migration Manager"
+description: "How to format a CSV or JSON file for bulk upload in Migration Manager."
 ---
 
 # Bulk upload tasks into Migration Manager using a CSV or JSON file 
