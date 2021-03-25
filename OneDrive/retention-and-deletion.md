@@ -42,7 +42,7 @@ By default, when a user is deleted, the user's manager is automatically given ac
     >[!Note]
     >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the More features page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the More features page.
 
-2. Under **User profiles**, select **Open**.
+2. Under **More features**, **User profiles**, select **Open**.
 
 3. Under **My Site Settings**, select **Setup My Sites**.
 
