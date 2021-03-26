@@ -43,8 +43,8 @@ By using the new SharePoint admin center, you can create sites that use one of t
   
 1. Go to the [Active sites page of the new SharePoint admin center](https://admin.microsoft.com/sharepoint?page=siteManagement&modern=true), and sign in with an account that has [admin permissions](./sharepoint-admin-role.md) for your organization.
 
->[!NOTE]
->If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
+    >[!NOTE]
+    >If you have Office 365 Germany, [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=848041), then browse to the SharePoint admin center and open the Active sites page. <br>If you have Office 365 operated by 21Vianet (China), [sign in to the Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627), then browse to the SharePoint admin center and open the Active sites page.
 
 2. Select **Create**.
 
@@ -56,8 +56,8 @@ By using the new SharePoint admin center, you can create sites that use one of t
 
 4. Follow the steps to specify a site name, owner, language, and other settings. When you're done, select **Finish**.
  
-> [!NOTE]
-> If you enter a site name and another site already exists at the default address for that name, the site address will automatically be changed to an available address. For example, if you enter "Marketing" as the site name, and you already have a site at /sites/marketing, you will receive a warning ***This site address is available with modification*** and will be offered a new URL automatically at /sites/marketing2. If you want to re-use the URL "marketing" for the new site, you need to [permanently delete the existing site](delete-site-collection.md#permanently-delete-a-site) or [delete the redirect at that address](manage-site-redirects.md). 
+    > [!NOTE]
+    > If you enter a site name and another site already exists at the default address for that name, the site address will automatically be changed to an available address. For example, if you enter "Marketing" as the site name, and you already have a site at /sites/marketing, you will receive a warning ***This site address is available with modification*** and will be offered a new URL automatically at /sites/marketing2. If you want to re-use the URL "marketing" for the new site, you need to [permanently delete the existing site](delete-site-collection.md#permanently-delete-a-site) or [delete the redirect at that address](manage-site-redirects.md). 
     
  
 ## Create a classic site
@@ -71,18 +71,17 @@ We recommend using the new site templates for all your new sites. However, if yo
   
 3. Select **Create**.
     
-     ![The Create button on the Active sites page](media/create-site-button.png)
-     
+    ![The Create button on the Active sites page](media/create-site-button.png)
   
 4. At the bottom of the panel, select **Other options**.
 
-![image](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
-
+    > [!div class="mx-imgBorder"]
+    > ![image](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
 
 5. From the template drop-down, select **More templates**. 
 
-![image](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
-
+    > [!div class="mx-imgBorder"]
+    > ![image](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
 
   - In the **Title** box, enter a name for the site. 
     
