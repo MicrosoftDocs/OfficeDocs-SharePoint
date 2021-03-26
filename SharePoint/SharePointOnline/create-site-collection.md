@@ -63,25 +63,27 @@ By using the new SharePoint admin center, you can create sites that use one of t
 ## Create a classic site
 <a name="__toc323551189_1"> </a>
 
-We recommend using the new site templates for all your new sites. However, if you need to create a site that uses a classic template, you can do so directly from the Microsoft 365 admin center. 
+We recommend using the new site templates for all your new sites. However, if you need to create a site that uses a classic template, you can do so using the following steps:  
   
-1. Sign in to https://admin.microsoft.com as a global or SharePoint admin. (If you see a message that you don't have permission to access the page, you don't have Microsoft 365 admin permissions in your organization.)
-    
-    > [!NOTE]
-    > If you have Office 365 Germany, sign in at https://portal.office.de. If you have Office 365 operated by 21Vianet (China), sign in at https://login.partner.microsoftonline.cn/. Then select the Admin tile to open the admin center.  
-    
-2. In the left pane, select **Resources** \> **Sites**. (You may need to select **Show all** to see the Resources option.)
-    
-    ![Microsoft 365 admin sites](media/d7757cbe-6531-492f-8547-e055b71d0abf.png)
+1. Sign in to the SharePoint admin center (at https://[tenant-name]-admin.sharepoint.com) as a SharePoint admin. 
+
+2. In the left pane, select **Sites** \> **Active Sites**. 
   
-3. Select **Add a site**.
+3. Select **Create**.
     
-    ![Create a classic site from the Microsoft 365 admin center](media/3026fd12-9d34-4948-a149-fcc8de7b7d83.png)
+     ![The Create button on the Active sites page](media/create-site-button.png)
+     
   
-4. Fill out the properties for the site:
-    
-    ![New Site Collection dialog (top half)](media/1f30a4a6-27b7-42cd-97b0-bcef2e515902.PNG)
-  
+4. At the bottom of the panel, select **Other options**.
+
+![image](https://user-images.githubusercontent.com/7239963/112038959-d6da3500-8b19-11eb-8315-7f780ac46649.png)
+
+
+5. From the template drop-down, select **More templates**. 
+
+![image](https://user-images.githubusercontent.com/7239963/112038982-dfcb0680-8b19-11eb-9b78-d6bd375b86fa.png)
+
+
   - In the **Title** box, enter a name for the site. 
     
   - In the **Web Site Address** drop-down lists, select a domain name and a URL path — either **/sites/** or **/teams/** — and then type a URL name for the site. 
@@ -105,5 +107,4 @@ We recommend using the new site templates for all your new sites. However, if yo
   - In the **Server Resource Quota** box, accept the resource quota default. This setting no longer affects the resource amounts available for the site. 
     
 5. Select **OK**.
-    
-
+   
