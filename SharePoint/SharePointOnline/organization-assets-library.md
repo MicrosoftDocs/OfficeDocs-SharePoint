@@ -30,7 +30,7 @@ If your organization needs to store and manage files for all your users to use, 
 
     ![Selecting an image to add to a SharePoint page](media/image-library.png)
 
-- **Office templates**. When a user selects to create a new PowerPoint presentation (from PowerPoint for the web or the PowerPoint desktop app), the user can select the tab for your organization to see the templates. (To use this feature on PowerPoint for the web, users need to be assigned a license to Office 365 E3 or E5. The templates aren't available from the New menu. To create a file from a template, go to the PowerPoint start page > Office Template Library.)
+- **Office templates**. When a user selects to create a new PowerPoint presentation (from PowerPoint for the web or the PowerPoint desktop app), the user can select the tab for your organization to see the templates. (To use this feature on PowerPoint for the web, users need to be assigned a license to Office 365 E3 or E5. The templates aren't available from the New menu. To create a file from a template, go to the PowerPoint start page > Office Template Library). Also note that the Office files to be uploaded to the template libraries must be in a template format, for example, dotx for Word, potx for PowerPoint and xltx for Excel. 
 
     ![Selecting a template in PowerPoint](media/office-template-library.png)
 
@@ -64,6 +64,8 @@ LibraryURL is the absolute URL of the library to be designated as a central loca
 Example: 
 
 > `Add-SPOOrgAssetsLibrary -LibraryURL https://contoso.sharepoint.com/sites/branding/Assets -ThumbnailURL https://contoso.sharepoint.com/sites/branding/Assets/contosologo.jpg -OrgAssetType ImageDocumentLibrary`
+
+Note that files to be uploaded to the 
 
 > [!NOTE]
 > Adding an organization assets library will enable a content delivery network (CDN) for your organization to provide fast and reliable performance for shared assets. You'll be prompted to enable a CDN for each organization asset library you add. For more information, see [Content Delivery Networks (CDNs)](/office365/enterprise/content-delivery-networks).
