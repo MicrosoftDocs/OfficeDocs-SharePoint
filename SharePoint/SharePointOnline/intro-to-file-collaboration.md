@@ -55,7 +55,7 @@ When users keep files on their local device or on a network share, they're out o
 
 ### Enterprise-grade security
 
-Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](/office365/securitycompliance/office-365-encryption-for-skype-onedrive-sharepoint-and-exchange#sharepoint-online-and-onedrive-for-business). (You can [encrypt files by using your own key](/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
+Files stored in SharePoint-powered storage locations in Microsoft 365 are [encrypted in transit and in rest](/microsoft-365/compliance/data-encryption-in-odb-and-spo). (You can [encrypt files by using your own key](/microsoft-365/compliance/controlling-your-data-using-customer-key) if you want.) Files are also [scanned for viruses](/office365/securitycompliance/virus-detection-in-spo). As an admin, you can use tools in Microsoft 365 to further secure and monitor files in the Microsoft cloud:
 
 - **Data loss prevention policies**. Warn or prevent users from sharing files that have specific labels outside the organization. [See Overview of data loss prevention](/office365/securitycompliance/data-loss-prevention-policies)
 

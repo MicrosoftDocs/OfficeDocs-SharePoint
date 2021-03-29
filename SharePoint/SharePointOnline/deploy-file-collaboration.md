@@ -86,7 +86,7 @@ Office applications such as Word, Excel, and PowerPoint provide a wide variety o
 We highly recommend deploying Microsoft 365 Apps for enterprise. Microsoft 365 Apps for enterprise provides an always up-to-date experience for your users, with the latest features and updates delivered on a schedule that you can control.
 
 
-For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps for enterprise](/DeployOffice/deployment-guide-for-office-365-apps-for-enterprise).
+For details about deploying Microsoft 365 Apps for enterprise, see [Deployment guide for Microsoft 365 Apps for enterprise](/deployoffice/deployment-guide-microsoft-365-apps).
 
 ## OneDrive libraries
 
