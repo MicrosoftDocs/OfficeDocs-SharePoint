@@ -160,7 +160,7 @@ When users share files and folders, a shareable link is created which has permis
       
     A *specific people* link is a non-transferable, revocable secret key. Unlike *anyone* and *people in my organization* links, a *specific people* link will not work if it's opened by anybody except for the person specified by the sender.  
       
-    *Specific people* links can be used to share with internal or external users. In both cases, the recipient will need to authenticate as the user specified in the link.  
+    *Specific people* links can be used to share with users in the organization and people outside the organization. In both cases, the recipient will need to authenticate as the user specified in the link.  
 
 It's important to educate your users in how these sharing links work and which they should use to best maintain the security of your data. Send your users links to [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c), and include information about your organization's policies for sharing information.
 
@@ -248,7 +248,7 @@ Examples include:
 
   - Erase company data from managed devices
 
-As you consider your options governing access to information through device management, keep in mind that guest users are likely to have unmanaged devices. For sites where you've enabled guest sharing, be sure to provide the needed access to unmanaged devices, even if that's just web access via a PC or Mac. Azure Active Directory conditional access (discussed below) offers some options to reduce the risk of guest users with unmanaged devices. [Some settings can be configured directly from SharePoint](./control-access-from-unmanaged-devices.md).
+As you consider your options governing access to information through device management, keep in mind that guests are likely to have unmanaged devices. For sites where you've enabled guest sharing, be sure to provide the needed access to unmanaged devices, even if that's just web access via a PC or Mac. Azure Active Directory conditional access (discussed below) offers some options to reduce the risk of guests with unmanaged devices. [Some settings can be configured directly from SharePoint](./control-access-from-unmanaged-devices.md).
 
 Intune in Microsoft 365 provides detailed device profiling options and can also deploy and manage individual apps such as Office apps and OneDrive. For detailed information about Intune and device management, see [What is Microsoft Intune?](/intune/what-is-intune).
 
@@ -260,11 +260,11 @@ Azure Active Directory conditional access provides additional controls to preven
 
 Examples include:
 
-  - Block guest users from logging in from risky locations
+  - Block guests from signing in from risky locations
 
   - Require multi-factor authentication for mobile devices
 
-You can create access policies that are specifically for guest users, allowing risk mitigation for users who most likely have unmanaged devices.
+You can create access policies that are specifically for guests, allowing risk mitigation for people who most likely have unmanaged devices.
 
 For detailed information, see [What is Conditional Access?](/azure/active-directory/conditional-access/overview).
 

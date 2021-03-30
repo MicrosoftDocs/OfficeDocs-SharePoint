@@ -22,27 +22,21 @@ ms.custom:
 search.appverid:
 - SPO160
 - MET150
-description: "In this article, you'll learn how to leverage apps across M365 to engage audiences in workplace communication."
+description: "In this article, you'll learn how to leverage apps across Microsoft 365 to engage audiences in workplace communication."
 ---
 # Engage audiences with workplace communication
 
-Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, and Stream for live events and other workplace communication methods across your M365 environment. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
-In this article:
-
--	Introduction to live events across Microsoft 365 applications
--	Learn how to connect leaders and team members using live events
--	Learn how to create a culture of inclusion using personalization and multilingual features
--	Discover the best communication channels and methods for your workplace
+Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, and Stream for live events and other workplace communication methods across your Microsoft 365 environment. Learn more about the powerful strategies and communication tools available to you that help drive engagement in your organization.
 
 ## Introduction to live events across Microsoft 365
 
-You can create a live event wherever your audience, team, or community is currently communicating using Microsoft Stream, Microsoft Teams, Yammer, and SharePoint. Your organization’s goals and M365 configuration will determine how you leverage and combine M365 apps to host live events. 
+You can create a live event wherever your audience, team, or community is currently communicating using Microsoft Stream, Microsoft Teams, Yammer, and SharePoint. Your organization’s goals and Microsoft 365 configuration will determine how you leverage and combine Microsoft 365 apps to host live events. 
 
 Live events allow attendees to receive notifications and to participate in real time, with high-definition videos and interactive discussion on Teams or Yammer web, mobile, and desktop apps. After an event, it’s easy to make the recording available on an event page in SharePoint. The recording is automatically transcribed by Stream and detects changes in speakers and topics, making it easy to search for content later. 
 
 These features become especially valuable when considering employees who are in different time zones or unable to attend live. Keep the conversation going so everyone still feels connected with leaders and peers after the event, which is a great method to overcome geographical and organizational boundaries.
 
-[Learn more about live events across M365 apps](https://resources.techcommunity.microsoft.com/live-events/).
+[Learn more about live events across Microsoft 365 apps](https://resources.techcommunity.microsoft.com/live-events/).
 
 
 ## Benefits of using live event features across SharePoint, Teams, Yammer, and Stream:
@@ -57,7 +51,7 @@ Employee engagement is a major contributor to workplace satisfaction, loyalty, a
 
 ### Summary of live event apps:
 
-Your organization’s goals and M365 configuration will determine how you leverage and combine M365 apps to host live events.
+Your organization’s goals and Microsoft 365 configuration will determine how you leverage and combine Microsoft 365 apps to host live events.
 
 **Teams** - If you want your audience to view the event in Microsoft Teams, create the event so your viewers can join and watch from [Microsoft Teams](/MicrosoftTeams/teams-live-events/what-are-teams-live-events). 
 **Yammer** - If your audience is already using Yammer, you can create live events and have them show up directly in [Yammer](/yammer/manage-yammer-groups/yammer-live-events) where the viewers can participate in live discussions before the event, while watching the event, and after the event. 
@@ -73,7 +67,7 @@ While planning your event, ask and find answers to these questions:
 -	What application are users currently using to attend live events and watch videos?
 -	What device are users likely to use when attending a live event or watching a video?
 -	How do you want viewers to engage with event presenters?
--	What production set up is preferred?
+-	What production setup is preferred?
 -	What are the ideal post-event next steps?
 
 Learn more about the [differences between live events in Teams, Yammer, and Stream](/stream/live-event-m365) to get answers to these questions. Use [site and hub analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) to get more insights about how users are currently engaging with SharePoint content to help you make decisions. 
@@ -81,11 +75,11 @@ Learn more about the [differences between live events in Teams, Yammer, and Stre
 
 ## Leadership connection
 
-Bring the organization together by combining communication channels with M365 live event features across Stream, Yammer and Teams. Then, see how you can leverage SharePoint using the [leadership connection guided walkthrough](https://support.microsoft.com/office/guided-walkthrough-creating-a-leadership-site-for-your-organization-e4a984db-d277-45ab-b18e-fa117b25bb4d) example to create sites that help connect viewers with leadership by creating new communication channels and a video archive library of recorded events for later viewing.
+Bring the organization together by combining communication channels with M365 live event features across Stream, Yammer, and Teams. Then, see how you can leverage SharePoint using the [leadership connection guided walkthrough](https://support.microsoft.com/office/guided-walkthrough-creating-a-leadership-site-for-your-organization-e4a984db-d277-45ab-b18e-fa117b25bb4d) example to create sites that help connect viewers with leadership by creating new communication channels and a video archive library of recorded events for later viewing.
 
 ### Company-wide events
 
-Large events that include all employees like “town halls” or “all hands meetings” are one of the ideal scenarios for leveraging a live event. When planning for a live event, start by ensuring your M365 environment is set up and configured following guidance for each app in the *admin* section. The admin role is responsible for all the work behind the scenes work that makes the event possible and ensures the live event follows your organization’s security and compliance policies. Then, learn about live event planning and production in the section for the *producers* and *presenters*. 
+Large events that include all employees like “town halls” or “all hands meetings” are one of the ideal scenarios for leveraging a live event. When planning for a live event, start by ensuring your Microsoft 365 environment is set up and configured following guidance for each app in the *admin* section. The admin role is responsible for all the work behind the scenes work that makes the event possible and ensures the live event follows your organization’s security and compliance policies. Then, learn about live event planning and production in the section for the *producers* and *presenters*. 
 
 
 |Teams|Yammer|Stream |
@@ -104,11 +98,11 @@ Use SharePoint to create a place for your organization to share news from leader
 
 ![Image of the stream web part and quick links web part](media/corp-comms-stream.png)
  
-In this example you’ll see a great way to leverage recordings of live events on a SharePoint page. Showcase recordings on a page using the [Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b). Then, create a list of links to previous recordings using the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82). Consider adding the [Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) to your leadership site to share upcoming company-wide events with all employees.
+In this example, you’ll see a great way to leverage recordings of live events on a SharePoint page. Showcase recordings on a page using the [Stream web part](https://support.microsoft.com/office/use-the-stream-web-part-b97fa87c-1337-4271-a059-17f0d2b26e8b). Then, create a list of links to previous recordings using the [Quick links web part](https://support.microsoft.com/office/use-the-quick-links-web-part-e1df7561-209d-4362-96d4-469f85ab2a82). Consider adding the [Events web part](https://support.microsoft.com/office/use-the-events-web-part-5fe4da93-5fa9-4695-b1ee-b0ae4c981909) to your leadership site to share upcoming company-wide events with all employees.
 
 ## Create a culture of inclusion
 
-Technology allows for a much broader reach across the globe and can be used to keep organizations connected. Leverage live event to foster a culture of inclusion that ensures all employees can participate in opportunities to network with each other, engage in collaborative discussions, and connect to leadership. See how you can leverage M365 live event features and other communication channels into SharePoint pages to boost reach and viewership for important content.
+Technology allows for a much broader reach across the globe and can be used to keep organizations connected. Leverage live event to foster a culture of inclusion that ensures all employees can participate in opportunities to network with each other, engage in collaborative discussions, and connect to leadership. See how you can leverage Microsoft 365 live event features and other communication channels into SharePoint pages to boost reach and viewership for important content.
 
 ![Image of the SharePoint new employee onboarding template](media/corp-comms-neo.png)
 
@@ -120,7 +114,7 @@ Technology allows for a much broader reach across the globe and can be used to k
 
 ## Streamline workplace communication
 
-Across M365 there are multiple ways to communicate – between email, Teams persistent chat, Yammer conversations – there are plenty of options. Knowing which method to use depends on the communication culture of your organization. It's important to meet viewers where they are. Use established communication channels to connect users across apps to promote collaboration and engagement. 
+Across Microsoft 365, there are multiple ways to communicate – over email, Teams chat, and Yammer conversations to name a few. Knowing which method to use depends on the communication culture of your organization. It's important to meet viewers where they are. Use established communication channels to connect users across apps to promote collaboration and engagement. 
 
 ### Organizational news
 
@@ -140,12 +134,12 @@ Meet users where they are. If you are already using Teams, there are many option
 
 ### More workplace communication resources
 
-[IT roundtable: Migrating from Skype meeting broadcasts to live events across M365 apps](https://www.microsoft.com/itshowcase/it-expert-roundtable-migrating-to-live-events-in-microsoft-365-from-skype-meeting-broadcast)
+[IT roundtable: Migrating from Skype meeting broadcasts to live events across Microsoft 365 apps](https://www.microsoft.com/itshowcase/it-expert-roundtable-migrating-to-live-events-in-microsoft-365-from-skype-meeting-broadcast)
 
 [How leaders can bring employees together during COVID-19](https://www.microsoft.com/microsoft-365/blog/2020/05/01/how-leaders-bring-employees-together-covid-19/)
 
 [Transform your communications, company meetings, and trainings](https://resources.techcommunity.microsoft.com/live-events/)
 
-[Learn more about live events across M365 apps](https://resources.techcommunity.microsoft.com/live-events/)
+[Learn more about live events across Microsoft 365 apps](https://resources.techcommunity.microsoft.com/live-events/)
 
 [SharePoint modernization scanner](/sharepoint/dev/transform/modernize-scanner)
