@@ -127,7 +127,7 @@ The workplace transformation site is full of pre-populated content, web parts, n
 ### Considerations for M365 Learning Pathways
 [Microsoft 365 learning pathways](/office365/customlearning/) is a customizable, on-demand learning solution that displays playlists using the M365 Learning pathways web part right onto SharePoint pages. Consider using the M365 Learning pathways solution in combination with the workplace transformation site to embed training playlists on SharePoint pages. 
 
-Learn more about [how to provision the M365 Learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](/office365/customlearning/custom_overview). 
+Learn more about [how to provision the Microsoft 365 learning pathways solution for the first time](/office365/customlearning/custom_provision), how to [find Microsoft-maintained content packs](/office365/customlearning/custom_plancontent), and [how to custom learning pathways and playlists](/office365/customlearning/custom_overview). 
 
 
 ## Step 1: Provision the Workplace transformation site template
@@ -218,7 +218,7 @@ The Workplace transformation site contains a [Microsoft List](https://support.mi
 
 [Learn more about M365 lists](https://support.microsoft.com/office/get-started-with-microsoft-lists-10b12560-fb20-471e-9258-773aec6a4a2f?ui=en-US&rs=en-US&ad=US).
 
-#### Use M365 Learning pathways to embed training content on a page
+#### Use Microsoft 365 learning pathways to embed training content on a page
 If your tenant admin has set up [M365 Learning pathways](/office365/customlearning/custom_plancontent), you can [add pages to the site](https://support.microsoft.com/office/create-and-use-modern-pages-on-a-sharepoint-site-b3d46deb-27a6-4b1e-87b8-df851e503dec) and use the [Learning pathways web part](/office365/customlearning/custom_addwebpart) to display custom training playlists. Then, use [Learning pathways reporting capabilities](/office365/customlearning/custom_measureimpact) to measure content impact.
 <br>
 

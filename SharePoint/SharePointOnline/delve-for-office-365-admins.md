@@ -41,7 +41,7 @@ Delve is designed to work with the current or immediately previous version of In
 > [!IMPORTANT]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed. 
 
-The Delve app is also enabled for modern authentication. For more info, see [Client app Support - Modern Authentication](/office365/enterprise/office-365-client-support-modern-authentication).
+The Delve app is also enabled for modern authentication. For more info, see [How modern authentication works](/microsoft-365/enterprise/modern-auth-for-office-2013-and-2016).
   
 ## Get new Delve features quicker
 <a name="BKMK_DelveFirstRelease"> </a>
